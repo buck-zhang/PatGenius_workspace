@@ -1,36 +1,85 @@
-# PatGenius - 日本特許OpenSearch検索システム
+# 🔍 PatGenius - 日本特許検索システム
 
-30,002件の日本特許データを対象とした高速検索システム
+**30,002件の日本特許データを対象としたエンタープライズ級検索エンジン**
 
-## 🎯 **プロジェクト概要**
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://docker.com)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green?logo=fastapi)](https://fastapi.tiangolo.com)
+[![OpenSearch](https://img.shields.io/badge/OpenSearch-2.11.1-orange?logo=opensearch)](https://opensearch.org)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://python.org)
 
-PatGeniusは、日本特許庁の特許XML データをOpenSearchに効率的にインポートし、高度な検索・分析機能を提供するシステムです。
+## 🚀 **クイックスタート（Docker）**
 
-### **主要機能**
-- ✅ **30,002件の特許データ** - 完全にインデックス済み
-- ✅ **15フィールド対応** - 発明名称から技術内容まで包括的検索
-- ✅ **高速一括処理** - 183.0ファイル/秒の処理性能
-- ✅ **FastAPI検索エンジン** - RESTful API & 自動ドキュメント生成
-- ✅ **Web UI & プログラマブルアクセス** - Swagger UI対応
+```bash
+# 1. リポジトリクローン
+git clone https://github.com/buck-zhang/PatGenius.git
+cd PatGenius
 
-## 🔧 **システム構成**
+# 2. 開発環境で起動（推奨）
+./scripts/deploy.sh dev
 
-### **コアファイル**
-```
-├── bulk_import_patents.py           # 一括インポートエンジン
-├── patent_search_api.py             # FastAPI検索エンジン
-├── opensearch_tags_analysis.json    # フィールド定義・最適化設定
-├── docker-compose.yml              # OpenSearch環境構築
-├── opensearch_dashboards.yml       # 日本語化設定
-├── api_requirements.txt             # API依存関係
-├── start_api.sh                     # API起動スクリプト
-├── test_api.py                      # API総合テストスイート
-└── import_xml_to_opensearch.py     # 単体インポート用
+# 3. APIアクセス
+open http://localhost:8000/docs
 ```
 
-### **データ構造**
+**わずか3コマンドで本格的な特許検索システムが起動！**
+
+## 🎯 **システム概要**
+
+PatGeniusは、日本特許庁の特許XMLデータをOpenSearchに効率的にインポートし、FastAPIによる高速検索・分析機能を提供するコンテナ化されたエンタープライズシステムです。
+
+### **🌟 主要機能**
+- 🔍 **30,002件の特許データ** - 完全インデックス済み
+- ⚡ **15フィールド高速検索** - 発明名称から技術内容まで包括的検索  
+- 🚀 **183.0ファイル/秒** - 高速一括処理性能
+- 🐳 **Docker完全対応** - ワンコマンドデプロイメント
+- 📡 **RESTful API** - OpenAPI 3.0準拠、Swagger UI自動生成
+- 🌐 **Web検索デモ** - インタラクティブ検索インターフェース
+- 🔧 **本番環境対応** - Nginx、SSL、ヘルスチェック完備
+
+## 🐳 **Dockerアーキテクチャ**
+
+### **サービス構成**
 ```
-source_data/                        # 30,002件のXMLファイル
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│     Nginx       │────│   FastAPI       │────│   OpenSearch    │
+│  (リバースプロキシ) │    │  (検索エンジン)    │    │   (データストア)   │
+│   Port: 80/443  │    │   Port: 8000    │    │   Port: 9200    │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+                                │
+                    ┌─────────────────┐
+                    │   Dashboards    │
+                    │   (Web UI)      │
+                    │   Port: 5601    │
+                    └─────────────────┘
+```
+
+### **🔧 プロジェクト構造**
+```
+📁 PatGenius/
+├── 🐳 Dockerfile                      # FastAPI本番用コンテナ
+├── 🐳 docker-compose.yml              # 開発環境構成
+├── 🐳 docker-compose.production.yml   # 本番環境構成
+├── 📋 requirements.txt                # Python依存関係
+├── 📋 api_requirements.txt            # FastAPI依存関係
+├── 🔍 patent_search_api.py            # FastAPI検索エンジン
+├── 📊 bulk_import_patents.py          # 一括インポートエンジン
+├── 🎨 search_demo.html                # Web検索デモ
+├── 🧪 test_api.py                     # API総合テスト
+├── 📁 scripts/
+│   ├── 🐳 deploy.sh                   # 統合デプロイスクリプト
+│   └── 🚀 start_api.sh                # API起動スクリプト
+├── 📁 config/
+│   ├── 🌐 nginx.conf                  # リバースプロキシ設定
+│   ├── ⚙️ opensearch_dashboards.yml   # Dashboards設定
+│   └── ⚙️ opensearch_tags_analysis.json # フィールド定義
+└── 📁 docs/
+    ├── 📋 api_examples.md             # API使用ガイド
+    └── 📋 prompt.md                   # 開発プロンプト
+```
+
+### **📂 データ構造**
+```
+source_data/                        # 30,002件の特許XMLファイル
 ├── 0/JP2010000001A/text.txt       # 特許XML (バリカン式刈刃装置)
 ├── 0/JP2010000002A/text.txt       # 特許XML (燃料電池)
 └── ...                            # 29,999件の特許データ
@@ -38,45 +87,46 @@ source_data/                        # 30,002件のXMLファイル
 
 ## 🚀 **使い方**
 
-### **1. 環境構築**
+### **1. Docker環境構築（推奨）**
 
-#### **A. Docker使用（推奨）**
 ```bash
-# 開発環境で起動
-./deploy.sh dev
+# 1. リポジトリクローン
+git clone https://github.com/buck-zhang/PatGenius.git
+cd PatGenius
 
-# 本番環境で起動
-./deploy.sh prod
+# 2. 開発環境で起動
+./scripts/deploy.sh dev
 
-# データインポート実行
-./deploy.sh import
+# 3. データインポート実行（オプション）
+./scripts/deploy.sh import
 
-# サービス状態確認
-./deploy.sh status
+# 4. サービス状態確認
+./scripts/deploy.sh status
 ```
 
-#### **B. ローカル環境**
+### **2. 本番環境デプロイ**
+
 ```bash
-# OpenSearchクラスター起動
-docker-compose up -d
+# 本番環境構成で起動（Nginx + API + OpenSearch）
+./scripts/deploy.sh prod
 
-# 依存関係インストール
-pip install -r requirements.txt
-
-# API依存関係インストール
-pip install -r api_requirements.txt
+# アクセス先
+# API: http://localhost/api/docs
+# 検索デモ: http://localhost/demo
+# Dashboards: http://localhost/dashboards
 ```
 
-### **2. データインポート**
+### **3. データインポート**
+
 ```bash
-# 全特許データの一括インポート（約2.7分）
-python3 bulk_import_patents.py
+# Docker環境での一括インポート
+./scripts/deploy.sh import
 
 # インポート結果確認
 curl "localhost:9200/patents/_count"
 ```
 
-### **3. 検索方法**
+### **4. 検索・API利用**
 
 #### **REST API検索**
 ```bash
@@ -111,7 +161,7 @@ curl -X GET "localhost:9200/patents/_search" -H 'Content-Type: application/json'
 #### **API起動**
 ```bash
 # APIサーバー起動
-./start_api.sh
+./scripts/start_api.sh
 
 # または直接起動
 python patent_search_api.py
@@ -209,10 +259,10 @@ git clone https://github.com/buck-zhang/PatGenius.git
 cd PatGenius
 
 # 2. 開発環境起動
-./deploy.sh dev
+./scripts/deploy.sh dev
 
 # 3. データインポート（オプション）
-./deploy.sh import
+./scripts/deploy.sh import
 
 # 4. アクセス
 # API: http://localhost:8000/docs
@@ -222,7 +272,7 @@ cd PatGenius
 ### **本番環境デプロイ**
 ```bash
 # 本番環境構成で起動（Nginx + API + OpenSearch）
-./deploy.sh prod
+./scripts/deploy.sh prod
 
 # アクセス先
 # API: http://localhost/api/docs
@@ -232,7 +282,7 @@ cd PatGenius
 
 ### **デプロイスクリプト**
 ```bash
-./deploy.sh [COMMAND] [OPTIONS]
+./scripts/deploy.sh [COMMAND] [OPTIONS]
 
 # 主要コマンド:
 dev      # 開発環境起動
@@ -252,7 +302,7 @@ test     # APIテスト実行
 # API総合テスト実行
 python test_api.py
 # または
-./deploy.sh test
+./scripts/deploy.sh test
 
 # 個別テスト
 curl http://localhost:8000/health
@@ -281,7 +331,7 @@ curl "localhost:9200/_cluster/health"
 ```
 
 ### **拡張方法**
-1. `opensearch_tags_analysis.json` でフィールド追加
+1. `config/opensearch_tags_analysis.json` でフィールド追加
 2. `bulk_import_patents.py` でパーサー更新
 3. インデックス再作成・データ再投入
 

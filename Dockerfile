@@ -15,7 +15,8 @@ RUN pip install --no-cache-dir -r api_requirements.txt
 
 # アプリケーションファイルをコピー
 COPY patent_search_api.py .
-COPY opensearch_tags_analysis.json .
+RUN mkdir -p config
+COPY config/opensearch_tags_analysis.json ./config/
 COPY bulk_import_patents.py .
 COPY test_api.py .
 COPY search_examples.py .
