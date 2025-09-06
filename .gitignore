@@ -1,0 +1,33 @@
+# macOS system files
+.DS_Store
+._*
+
+# Log files
+*.log
+*.out
+
+# OpenSearch data
+opensearch-data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+
+# Large data directories (keep only samples)
+source_data/*
+!source_data/0/
+source_data/0/*
+!source_data/0/JP2010000001A/

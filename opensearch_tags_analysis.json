@@ -1,0 +1,332 @@
+{
+  "patent_xml_tags_for_opensearch": {
+    "metadata": {
+      "source_file": "sample.txt",
+      "patent_number": "JP2010000001",
+      "analysis_date": "2025-08-31",
+      "description": "日本特許XMLファイルから抽出可能なOpenSearch導入用タグの分析結果"
+    },
+    "searchable_fields": {
+      "document_identification": {
+        "field_name": "document_id",
+        "opensearch_type": "keyword",
+        "description": "特許文献番号（完全一致検索用）",
+        "xml_path": "bibliographic-data/publication-reference/document-id/doc-number",
+        "example": "2010000001",
+        "search_examples": [
+          "document_id:2010000001",
+          "document_id:\"JP2010000001\""
+        ]
+      },
+      "invention_title": {
+        "field_name": "invention_title",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "発明の名称（日本語全文検索対応）",
+        "xml_path": "bibliographic-data/invention-title",
+        "example": "バリカン式刈刃装置",
+        "search_examples": [
+          "invention_title:バリカン",
+          "invention_title:刈刃",
+          "invention_title:\"バリカン式\""
+        ]
+      },
+      "applicant_info": {
+        "field_name": "applicant_name",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "出願人名（企業名・個人名検索）",
+        "xml_path": "bibliographic-data/parties/applicant/addressbook/name",
+        "example": "株式会社源平刃物工場",
+        "search_examples": [
+          "applicant_name:源平",
+          "applicant_name:刃物工場",
+          "applicant_name:\"株式会社\""
+        ]
+      },
+      "inventor_info": {
+        "field_name": "inventor_names",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "発明者名（発明者検索）",
+        "xml_path": "bibliographic-data/parties/inventor/addressbook/name",
+        "example": "松尾 勝弥; 松尾 嘉延",
+        "search_examples": [
+          "inventor_names:松尾",
+          "inventor_names:勝弥",
+          "inventor_names:\"松尾 勝弥\""
+        ]
+      },
+      "classification_ipc": {
+        "field_name": "classification_ipc",
+        "opensearch_type": "keyword",
+        "description": "国際特許分類（技術分野別検索）",
+        "xml_path": "bibliographic-data/classification-ipc/main-clsf",
+        "example": ["A01D  34/13", "A01D  34/10"],
+        "search_examples": [
+          "classification_ipc:A01D",
+          "classification_ipc:\"A01D 34/13\"",
+          "classification_ipc:A01D*"
+        ]
+      },
+      "classification_national": {
+        "field_name": "classification_national",
+        "opensearch_type": "keyword",
+        "description": "国内特許分類（日本独自分類）",
+        "xml_path": "bibliographic-data/classification-national/main-clsf",
+        "example": ["A01D34/13", "A01D34/10"],
+        "search_examples": [
+          "classification_national:A01D34/13",
+          "classification_national:A01D34*"
+        ]
+      },
+      "f_terms": {
+        "field_name": "f_terms",
+        "opensearch_type": "keyword",
+        "description": "Fターム（詳細技術分類）",
+        "xml_path": "bibliographic-data/jp:f-term-info/jp:f-term",
+        "example": ["2B382GC15", "2B382HA04", "2B382HC03", "2B382HC04", "2B382HH07"],
+        "search_examples": [
+          "f_terms:2B382GC15",
+          "f_terms:2B382*",
+          "f_terms:\"2B382GC15\""
+        ]
+      },
+      "technical_field": {
+        "field_name": "technical_field",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "技術分野（発明の技術領域）",
+        "xml_path": "description/technical-field",
+        "example": "本発明は、厚み方向に重ね合わせられ、所定の駆動機構により逆方向に往復駆動される一対の板状体からなる第１および第２の駆動体と...",
+        "search_examples": [
+          "technical_field:駆動機構",
+          "technical_field:往復駆動",
+          "technical_field:バリカン式"
+        ]
+      },
+      "background_art": {
+        "field_name": "background_art",
+        "opensearch_type": "text", 
+        "analyzer": "japanese_analyzer",
+        "description": "背景技術（従来技術の説明）",
+        "xml_path": "description/background-art",
+        "example": "従来から、草刈機や剪枝機に用いられるバリカン式刈刃装置として、例えば下記特許文献１に開示されたものが知られている...",
+        "search_examples": [
+          "background_art:草刈機",
+          "background_art:従来技術",
+          "background_art:特許文献"
+        ]
+      },
+      "tech_problem": {
+        "field_name": "tech_problem",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer", 
+        "description": "解決すべき課題",
+        "xml_path": "description/disclosure/tech-problem",
+        "example": "上記特許文献１において、上部刈刃体２０３の連結部２０３ａ（または上部駆動部材２０７の連結部２０７ａ）と...",
+        "search_examples": [
+          "tech_problem:課題",
+          "tech_problem:問題点",
+          "tech_problem:改善"
+        ]
+      },
+      "tech_solution": {
+        "field_name": "tech_solution",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "課題解決手段",
+        "xml_path": "description/disclosure/tech-solution", 
+        "example": "上記課題を解決するためのものとして、本発明は、厚み方向に重ね合わせられ、所定の駆動機構により逆方向に往復駆動される...",
+        "search_examples": [
+          "tech_solution:解決手段",
+          "tech_solution:技術的特徴",
+          "tech_solution:構成"
+        ]
+      },
+      "advantageous_effects": {
+        "field_name": "advantageous_effects",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "発明の効果",
+        "xml_path": "description/disclosure/advantageous-effects",
+        "example": "本発明のバリカン式刈刃装置によれば、刈刃体のメンテナンス性を十分に確保しつつ、その往復運動の円滑化を効果的に図ることができる",
+        "search_examples": [
+          "advantageous_effects:効果",
+          "advantageous_effects:利点",
+          "advantageous_effects:改善"
+        ]
+      },
+      "best_mode_description": {
+        "field_name": "description",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "発明の実施の形態（詳細説明）",
+        "xml_path": "description/best-mode",
+        "example": "図１〜図３は、本発明の第１実施形態にかかるバリカン式刈刃装置１の全体構成を示している。これらの図に示されるバリカン式刈刃装置１は...",
+        "search_examples": [
+          "description:実施形態",
+          "description:構成要素",
+          "description:動作原理"
+        ]
+      },
+      "patent_claims": {
+        "field_name": "claims",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "特許請求の範囲",
+        "xml_path": "claims/claim/claim-text",
+        "example": "厚み方向に重ね合わせられ、所定の駆動機構により逆方向に往復駆動される一対の板状体からなる第１および第２の駆動体と...",
+        "search_examples": [
+          "claims:請求項",
+          "claims:特徴的構成",
+          "claims:権利範囲"
+        ]
+      },
+      "abstract": {
+        "field_name": "abstract",
+        "opensearch_type": "text",
+        "analyzer": "japanese_analyzer",
+        "description": "要約",
+        "xml_path": "abstract",
+        "example": "【課題】刈刃体のメンテナンス性を十分に確保しつつ、その往復運動の円滑化を図る。【解決手段】本発明のバリカン式刈刃装置１は...",
+        "search_examples": [
+          "abstract:課題",
+          "abstract:解決手段",
+          "abstract:要約"
+        ]
+      },
+      "publication_date": {
+        "field_name": "date",
+        "opensearch_type": "date",
+        "format": "yyyyMMdd",
+        "description": "公開日（日付範囲検索対応）",
+        "xml_path": "bibliographic-data/publication-reference/document-id/date",
+        "example": "20100107",
+        "search_examples": [
+          "date:[20100101 TO 20101231]",
+          "date:20100107",
+          "date:>20100101"
+        ]
+      },
+      "application_date": {
+        "field_name": "application_date",
+        "opensearch_type": "date",
+        "format": "yyyyMMdd",
+        "description": "出願日",
+        "xml_path": "bibliographic-data/application-reference/document-id/date",
+        "example": "20080611",
+        "search_examples": [
+          "application_date:[20080101 TO 20081231]",
+          "application_date:20080611"
+        ]
+      },
+      "priority_claims": {
+        "field_name": "priority_claims",
+        "opensearch_type": "nested",
+        "description": "優先権主張情報",
+        "xml_path": "bibliographic-data/priority-claims/priority-claim",
+        "example": [{"country": "JP", "doc_number": "2008131825", "date": "20080520"}],
+        "search_examples": [
+          "priority_claims.country:JP",
+          "priority_claims.doc_number:2008131825"
+        ]
+      }
+    },
+    "advanced_search_patterns": {
+      "multi_field_search": {
+        "description": "複数フィールドを組み合わせた検索",
+        "examples": [
+          "invention_title:バリカン AND classification_ipc:A01D",
+          "applicant_name:株式会社 AND tech_solution:駆動機構",
+          "f_terms:2B382* AND date:[20100101 TO 20101231]"
+        ]
+      },
+      "fuzzy_search": {
+        "description": "あいまい検索（誤字脱字対応）",
+        "examples": [
+          "invention_title:バリカン~1",
+          "applicant_name:源平~2"
+        ]
+      },
+      "wildcard_search": {
+        "description": "ワイルドカード検索",
+        "examples": [
+          "invention_title:*刈刃*",
+          "classification_ipc:A01D*",
+          "f_terms:2B382*"
+        ]
+      },
+      "phrase_search": {
+        "description": "フレーズ検索（完全一致）",
+        "examples": [
+          "invention_title:\"バリカン式刈刃装置\"",
+          "tech_solution:\"往復運動の円滑化\""
+        ]
+      },
+      "range_search": {
+        "description": "範囲検索（日付・数値）",
+        "examples": [
+          "date:[20100101 TO 20101231]",
+          "application_date:>=20080101"
+        ]
+      }
+    },
+    "aggregation_possibilities": {
+      "classification_facets": {
+        "description": "技術分野別の集計",
+        "fields": ["classification_ipc", "classification_national", "f_terms"],
+        "example_query": "aggs: { \"by_ipc\": { \"terms\": { \"field\": \"classification_ipc.keyword\" } } }"
+      },
+      "date_histogram": {
+        "description": "時系列分析",
+        "fields": ["date", "application_date"],
+        "example_query": "aggs: { \"patents_over_time\": { \"date_histogram\": { \"field\": \"date\", \"calendar_interval\": \"year\" } } }"
+      },
+      "applicant_analysis": {
+        "description": "出願人別分析",
+        "fields": ["applicant_name"],
+        "example_query": "aggs: { \"top_applicants\": { \"terms\": { \"field\": \"applicant_name.keyword\", \"size\": 10 } } }"
+      }
+    },
+    "recommended_index_settings": {
+      "mappings": {
+        "properties": {
+          "document_id": { "type": "keyword" },
+          "invention_title": { "type": "text", "analyzer": "japanese_analyzer" },
+          "applicant_name": { "type": "text", "analyzer": "japanese_analyzer" },
+          "inventor_names": { "type": "text", "analyzer": "japanese_analyzer" },
+          "classification_ipc": { "type": "keyword" },
+          "classification_national": { "type": "keyword" },
+          "f_terms": { "type": "keyword" },
+          "technical_field": { "type": "text", "analyzer": "japanese_analyzer" },
+          "background_art": { "type": "text", "analyzer": "japanese_analyzer" },
+          "tech_problem": { "type": "text", "analyzer": "japanese_analyzer" },
+          "tech_solution": { "type": "text", "analyzer": "japanese_analyzer" },
+          "advantageous_effects": { "type": "text", "analyzer": "japanese_analyzer" },
+          "description": { "type": "text", "analyzer": "japanese_analyzer" },
+          "claims": { "type": "text", "analyzer": "japanese_analyzer" },
+          "abstract": { "type": "text", "analyzer": "japanese_analyzer" },
+          "date": { "type": "date", "format": "yyyyMMdd" },
+          "application_date": { "type": "date", "format": "yyyyMMdd" },
+          "priority_claims": { "type": "nested" }
+        }
+      },
+      "analysis": {
+        "analyzer": {
+          "japanese_analyzer": {
+            "type": "custom",
+            "tokenizer": "kuromoji_tokenizer",
+            "filter": [
+              "kuromoji_baseform",
+              "kuromoji_part_of_speech",
+              "ja_stop",
+              "kuromoji_stemmer",
+              "lowercase"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
