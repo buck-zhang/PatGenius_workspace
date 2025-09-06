@@ -31,3 +31,16 @@ source_data/*
 !source_data/0/
 source_data/0/*
 !source_data/0/JP2010000001A/
+
+# Docker
+.env
+docker-compose.override.yml
+
+# SSL certificates (if any)
+ssl/
+
+# Static files generated
+static/
+
+# Nginx logs
+nginx-logs/

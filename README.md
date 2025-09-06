@@ -10,16 +10,21 @@ PatGeniusは、日本特許庁の特許XML データをOpenSearchに効率的に
 - ✅ **30,002件の特許データ** - 完全にインデックス済み
 - ✅ **15フィールド対応** - 発明名称から技術内容まで包括的検索
 - ✅ **高速一括処理** - 183.0ファイル/秒の処理性能
-- ✅ **REST API & Web UI** - プログラマブルアクセスとビジュアル検索
+- ✅ **FastAPI検索エンジン** - RESTful API & 自動ドキュメント生成
+- ✅ **Web UI & プログラマブルアクセス** - Swagger UI対応
 
 ## 🔧 **システム構成**
 
 ### **コアファイル**
 ```
 ├── bulk_import_patents.py           # 一括インポートエンジン
+├── patent_search_api.py             # FastAPI検索エンジン
 ├── opensearch_tags_analysis.json    # フィールド定義・最適化設定
 ├── docker-compose.yml              # OpenSearch環境構築
 ├── opensearch_dashboards.yml       # 日本語化設定
+├── api_requirements.txt             # API依存関係
+├── start_api.sh                     # API起動スクリプト
+├── test_api.py                      # API総合テストスイート
 └── import_xml_to_opensearch.py     # 単体インポート用
 ```
 
@@ -34,12 +39,32 @@ source_data/                        # 30,002件のXMLファイル
 ## 🚀 **使い方**
 
 ### **1. 環境構築**
+
+#### **A. Docker使用（推奨）**
+```bash
+# 開発環境で起動
+./deploy.sh dev
+
+# 本番環境で起動
+./deploy.sh prod
+
+# データインポート実行
+./deploy.sh import
+
+# サービス状態確認
+./deploy.sh status
+```
+
+#### **B. ローカル環境**
 ```bash
 # OpenSearchクラスター起動
 docker-compose up -d
 
 # 依存関係インストール
 pip install -r requirements.txt
+
+# API依存関係インストール
+pip install -r api_requirements.txt
 ```
 
 ### **2. データインポート**
@@ -81,6 +106,67 @@ curl -X GET "localhost:9200/patents/_search" -H 'Content-Type: application/json'
 #### **Web UI検索**
 ブラウザで http://localhost:5601 にアクセス
 
+### **4. 検索API利用**
+
+#### **API起動**
+```bash
+# APIサーバー起動
+./start_api.sh
+
+# または直接起動
+python patent_search_api.py
+```
+
+#### **API検索例**
+```bash
+# シンプル検索
+curl "http://localhost:8000/search?q=画像形成装置"
+
+# フィールド指定検索
+curl "http://localhost:8000/search?q=電子写真&field=technical_field"
+
+# 高度検索
+curl -X POST "http://localhost:8000/search/advanced" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "現像剤",
+    "field": "invention_title",
+    "size": 10,
+    "sort_field": "_score",
+    "sort_order": "desc"
+  }'
+
+# 文書詳細取得
+curl "http://localhost:8000/document/2010000001"
+```
+
+#### **API管理画面**
+- **Swagger UI**: http://localhost:8000/docs
+- **ReDoc**: http://localhost:8000/redoc
+- **API統計**: http://localhost:8000/stats
+
+### **5. 検索実例デモ**
+
+#### **コマンドライン検索デモ**
+```bash
+# 全検索パターンのデモ実行
+python3 search_examples.py
+```
+
+#### **Webブラウザ検索デモ**
+```bash
+# HTMLデモページをブラウザで開く
+open search_demo.html
+# または直接ファイルパスでアクセス
+```
+
+#### **実際の検索例**
+- **バリカン関連**: 23件の特許（バリカン式刈刃装置など）
+- **画像形成装置**: 10,000件の特許（複写機・プリンター技術）
+- **現像剤技術**: 10,000件の特許（電子写真プロセス）
+- **電子写真分野**: 8,109件の特許（感光体・現像技術）
+- **センサ技術**: 1,209件の特許（検出・制御技術）
+
 ## 📊 **検索可能フィールド**
 
 | フィールド名 | 内容 | 例 |
@@ -114,7 +200,64 @@ curl -X GET "localhost:9200/patents/_search" -H 'Content-Type: application/json'
 - **レスポンス時間**: < 100ms (典型的なクエリ)
 - **同時接続**: 複数クライアント対応
 
+## 🐳 **Docker デプロイメント**
+
+### **クイックスタート**
+```bash
+# 1. リポジトリクローン
+git clone https://github.com/buck-zhang/PatGenius.git
+cd PatGenius
+
+# 2. 開発環境起動
+./deploy.sh dev
+
+# 3. データインポート（オプション）
+./deploy.sh import
+
+# 4. アクセス
+# API: http://localhost:8000/docs
+# Dashboards: http://localhost:5601
+```
+
+### **本番環境デプロイ**
+```bash
+# 本番環境構成で起動（Nginx + API + OpenSearch）
+./deploy.sh prod
+
+# アクセス先
+# API: http://localhost/api/docs
+# 検索デモ: http://localhost/demo
+# Dashboards: http://localhost/dashboards
+```
+
+### **デプロイスクリプト**
+```bash
+./deploy.sh [COMMAND] [OPTIONS]
+
+# 主要コマンド:
+dev      # 開発環境起動
+prod     # 本番環境起動  
+import   # データインポート
+stop     # 全サービス停止
+clean    # 全データ削除
+logs     # ログ表示
+status   # サービス状態確認
+test     # APIテスト実行
+```
+
 ## 🛠 **開発・運用**
+
+### **APIテスト**
+```bash
+# API総合テスト実行
+python test_api.py
+# または
+./deploy.sh test
+
+# 個別テスト
+curl http://localhost:8000/health
+curl http://localhost:8000/stats
+```
 
 ### **ログ確認**
 ```bash
@@ -123,6 +266,8 @@ tail -f patent_import.log
 
 # OpenSearchログ
 docker logs opensearch-node
+
+# APIログ（起動時に表示）
 ```
 
 ### **データメンテナンス**
@@ -142,11 +287,20 @@ curl "localhost:9200/_cluster/health"
 
 ## 📋 **技術仕様**
 
+### **バックエンド**
 - **OpenSearch**: 2.11.1
 - **Python**: 3.9+
+- **FastAPI**: 0.104.1
 - **解析エンジン**: Standard Analyzer (日本語対応)
 - **データ形式**: Japanese Patent XML (JPO形式)
 - **文字エンコーディング**: UTF-8
+
+### **API仕様**
+- **フレームワーク**: FastAPI + Uvicorn
+- **ドキュメント**: OpenAPI 3.0 (Swagger UI)
+- **レスポンス形式**: JSON
+- **CORS**: 対応済み
+- **認証**: 未実装（オープンアクセス）
 
 ## 🤝 **貢献**
 
