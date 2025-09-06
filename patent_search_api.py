@@ -48,6 +48,22 @@ class SearchRequest(BaseModel):
     sort_field: Optional[str] = Field(None, description="ソートフィールド")
     sort_order: str = Field("desc", description="ソート順", pattern="^(asc|desc)$")
 
+class AdvancedSearchRequest(BaseModel):
+    """高度な検索リクエストモデル"""
+    query_type: str = Field("simple", description="検索タイプ: simple, proximity, boolean, query_string")
+    query: str = Field(..., description="検索クエリ")
+    field: Optional[str] = Field(None, description="検索対象フィールド")
+    proximity_distance: Optional[int] = Field(3, description="近傍検索の距離", ge=1, le=100)
+    boolean_operator: Optional[str] = Field("AND", description="ブール演算子: AND, OR")
+    must_terms: Optional[List[str]] = Field(None, description="必須キーワードリスト")
+    should_terms: Optional[List[str]] = Field(None, description="オプションキーワードリスト") 
+    must_not_terms: Optional[List[str]] = Field(None, description="除外キーワードリスト")
+    field_queries: Optional[Dict[str, str]] = Field(None, description="フィールド別クエリ")
+    size: int = Field(10, description="取得件数", ge=1, le=100)
+    from_: int = Field(0, description="開始位置", alias="from", ge=0)
+    sort_field: Optional[str] = Field(None, description="ソートフィールド")
+    sort_order: str = Field("desc", description="ソート順", pattern="^(asc|desc)$")
+
 class PatentDocument(BaseModel):
     """特許文書モデル"""
     document_id: Optional[str] = None
@@ -106,6 +122,136 @@ class OpenSearchClient:
         except requests.exceptions.RequestException as e:
             logger.error(f"OpenSearch stats error: {e}")
             raise HTTPException(status_code=500, detail=f"Stats error: {str(e)}")
+    
+    def build_advanced_query(self, request: AdvancedSearchRequest) -> Dict[str, Any]:
+        """高度な検索クエリ構築"""
+        query_body = {
+            "size": request.size,
+            "from": request.from_,
+            "_source": True
+        }
+        
+        # ソート設定
+        if request.sort_field:
+            query_body["sort"] = [{request.sort_field: {"order": request.sort_order}}]
+        
+        # クエリタイプ別の処理
+        if request.query_type == "proximity":
+            # 近傍検索: "車 near3 両" -> "車"と"両"が3語以内の距離
+            query_body["query"] = self._build_proximity_query(request)
+        elif request.query_type == "boolean":
+            # ブール検索: AND/OR/NOT組み合わせ
+            query_body["query"] = self._build_boolean_query(request)
+        elif request.query_type == "query_string":
+            # クエリ文字列検索: フィールド指定可能
+            query_body["query"] = self._build_query_string_query(request)
+        elif request.query_type == "multi_field":
+            # マルチフィールド検索
+            query_body["query"] = self._build_multi_field_query(request)
+        else:
+            # シンプル検索（デフォルト）
+            query_body["query"] = self._build_simple_query(request)
+        
+        return query_body
+    
+    def _build_proximity_query(self, request: AdvancedSearchRequest) -> Dict[str, Any]:
+        """近傍検索クエリ構築"""
+        # "車 near3 両" の形式をパース
+        if " near" in request.query:
+            parts = request.query.split(" near")
+            if len(parts) == 2:
+                terms = parts[0].strip()
+                distance_part = parts[1].strip()
+                try:
+                    distance = int(distance_part.split()[0])
+                    field = request.field or "_all"
+                    return {
+                        "span_near": {
+                            "clauses": [
+                                {"span_term": {field: term.strip()}} 
+                                for term in terms.split()
+                            ],
+                            "slop": distance,
+                            "in_order": False
+                        }
+                    }
+                except (ValueError, IndexError):
+                    pass
+        
+        # 近傍検索パースに失敗した場合は通常のフレーズ検索
+        field = request.field or "_all"
+        return {
+            "match_phrase": {
+                field: {
+                    "query": request.query,
+                    "slop": request.proximity_distance or 3
+                }
+            }
+        }
+    
+    def _build_boolean_query(self, request: AdvancedSearchRequest) -> Dict[str, Any]:
+        """ブール検索クエリ構築"""
+        bool_query = {"bool": {}}
+        
+        # 必須条件 (must)
+        if request.must_terms:
+            bool_query["bool"]["must"] = [
+                {"match": {request.field or "_all": term}} 
+                for term in request.must_terms
+            ]
+        elif request.query:
+            bool_query["bool"]["must"] = [
+                {"match": {request.field or "_all": request.query}}
+            ]
+        
+        # オプション条件 (should)
+        if request.should_terms:
+            bool_query["bool"]["should"] = [
+                {"match": {request.field or "_all": term}} 
+                for term in request.should_terms
+            ]
+        
+        # 除外条件 (must_not)
+        if request.must_not_terms:
+            bool_query["bool"]["must_not"] = [
+                {"match": {request.field or "_all": term}} 
+                for term in request.must_not_terms
+            ]
+        
+        return bool_query
+    
+    def _build_query_string_query(self, request: AdvancedSearchRequest) -> Dict[str, Any]:
+        """クエリ文字列検索構築"""
+        return {
+            "query_string": {
+                "query": request.query,
+                "fields": [request.field] if request.field else ["*"],
+                "default_operator": request.boolean_operator.upper() if request.boolean_operator else "AND"
+            }
+        }
+    
+    def _build_multi_field_query(self, request: AdvancedSearchRequest) -> Dict[str, Any]:
+        """マルチフィールド検索構築"""
+        if not request.field_queries:
+            return self._build_simple_query(request)
+        
+        bool_query = {"bool": {"must": []}}
+        for field, query in request.field_queries.items():
+            bool_query["bool"]["must"].append({
+                "match": {field: query}
+            })
+        
+        return bool_query
+    
+    def _build_simple_query(self, request: AdvancedSearchRequest) -> Dict[str, Any]:
+        """シンプル検索クエリ構築"""
+        if request.field:
+            return {"match": {request.field: request.query}}
+        else:
+            return {"multi_match": {
+                "query": request.query,
+                "fields": ["*"]
+            }}
 
 # OpenSearchクライアント初期化
 client = OpenSearchClient()
@@ -260,54 +406,35 @@ async def simple_search(
     )
 
 @app.post("/search/advanced", response_model=SearchResponse, tags=["Search"])
-async def advanced_search(request: SearchRequest):
-    """高度検索"""
+async def advanced_search(request: AdvancedSearchRequest):
+    """
+    高度検索API
     
-    # 複合クエリ構築
-    if request.field:
-        query_body = {
-            "query": {
-                "match": {
-                    request.field: request.query
-                }
-            }
-        }
-    else:
-        query_body = {
-            "query": {
-                "multi_match": {
-                    "query": request.query,
-                    "fields": [
-                        "invention_title^3",
-                        "technical_field^2",
-                        "abstract^2",
-                        "claims",
-                        "description"
-                    ]
-                }
-            }
-        }
+    検索タイプ:
+    - proximity: 近傍検索 ("車 near3 両" - 車と両が3語以内の距離)
+    - boolean: ブール検索 (must/should/must_not条件組み合わせ)
+    - query_string: クエリ文字列検索 (フィールド指定とAND/OR演算)
+    - multi_field: マルチフィールド検索 (複数フィールドに異なるクエリ)
+    - simple: シンプル検索（デフォルト）
+    """
     
-    query_body["size"] = request.size
-    query_body["from"] = request.from_
+    # 高度検索クエリ構築
+    start_time = datetime.now()
+    query_body = client.build_advanced_query(request)
     
-    # ソート設定
-    if request.sort_field:
-        query_body["sort"] = [{request.sort_field: {"order": request.sort_order}}]
-    else:
-        query_body["sort"] = [{"_score": {"order": "desc"}}]
-    
-    # ハイライト設定
+    # ハイライト設定を追加
     query_body["highlight"] = {
         "fields": {
-            "invention_title": {},
-            "abstract": {},
-            "technical_field": {}
-        }
+            "invention_title": {"fragment_size": 100},
+            "abstract": {"fragment_size": 150}, 
+            "technical_field": {"fragment_size": 100},
+            "claims": {"fragment_size": 150}
+        },
+        "pre_tags": ["<mark>"], 
+        "post_tags": ["</mark>"]
     }
     
     # 検索実行
-    start_time = datetime.now()
     result = client.search(query_body)
     end_time = datetime.now()
     
@@ -316,6 +443,12 @@ async def advanced_search(request: SearchRequest):
     for hit in result["hits"]["hits"]:
         source = hit["_source"]
         patent = PatentDocument(**source)
+        
+        # ハイライト情報を追加（必要に応じて）
+        if "highlight" in hit:
+            # ハイライト情報をPatentDocumentに追加する場合はここで処理
+            pass
+            
         hits.append(patent)
     
     return SearchResponse(
@@ -323,8 +456,15 @@ async def advanced_search(request: SearchRequest):
         hits=hits,
         took=result["took"],
         query_info={
+            "query_type": request.query_type,
             "query": request.query,
             "field": request.field,
+            "proximity_distance": request.proximity_distance,
+            "boolean_operator": request.boolean_operator,
+            "must_terms": request.must_terms,
+            "should_terms": request.should_terms, 
+            "must_not_terms": request.must_not_terms,
+            "field_queries": request.field_queries,
             "size": request.size,
             "from": request.from_,
             "sort_field": request.sort_field,

@@ -30,10 +30,11 @@ PatGeniusは、日本特許庁の特許XMLデータをOpenSearchに効率的に�
 ### **🌟 主要機能**
 - 🔍 **30,002件の特許データ** - 完全インデックス済み
 - ⚡ **15フィールド高速検索** - 発明名称から技術内容まで包括的検索  
+- 🔧 **高度検索機能** - 近傍検索、ブール検索、クエリ文字列、マルチフィールド対応
 - 🚀 **183.0ファイル/秒** - 高速一括処理性能
 - 🐳 **Docker完全対応** - ワンコマンドデプロイメント
 - 📡 **RESTful API** - OpenAPI 3.0準拠、Swagger UI自動生成
-- 🌐 **Web検索デモ** - インタラクティブ検索インターフェース
+- 🌐 **Web検索デモ** - インタラクティブ検索インターフェース（高度検索UI付き）
 - 🔧 **本番環境対応** - Nginx、SSL、ヘルスチェック完備
 
 ## 🐳 **Dockerアーキテクチャ**
@@ -175,15 +176,25 @@ curl "http://localhost:8000/search?q=画像形成装置"
 # フィールド指定検索
 curl "http://localhost:8000/search?q=電子写真&field=technical_field"
 
-# 高度検索
+# 高度検索（近傍検索例）
 curl -X POST "http://localhost:8000/search/advanced" \
   -H "Content-Type: application/json" \
   -d '{
-    "query": "現像剤",
-    "field": "invention_title",
-    "size": 10,
-    "sort_field": "_score",
-    "sort_order": "desc"
+    "query_type": "proximity",
+    "query": "車 near3 両",
+    "field": "technical_field",
+    "size": 10
+  }'
+
+# 高度検索（ブール検索例）
+curl -X POST "http://localhost:8000/search/advanced" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query_type": "boolean",
+    "must_terms": ["現像剤"],
+    "should_terms": ["トナー", "感光体"],
+    "must_not_terms": ["レーザー"],
+    "size": 10
   }'
 
 # 文書詳細取得
@@ -216,6 +227,72 @@ open search_demo.html
 - **現像剤技術**: 10,000件の特許（電子写真プロセス）
 - **電子写真分野**: 8,109件の特許（感光体・現像技術）
 - **センサ技術**: 1,209件の特許（検出・制御技術）
+
+## 🔧 **高度検索機能**
+
+PatGeniusは様々な高度検索パターンに対応しています：
+
+### **検索タイプ**
+
+#### **📍 近傍検索（Proximity Search）**
+特定の距離内でキーワードが出現する文書を検索
+```bash
+# API例：「車」と「両」が3語以内の距離で出現
+curl -X POST "http://localhost:8000/search/advanced" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query_type": "proximity",
+    "query": "車 near3 両",
+    "field": "technical_field"
+  }'
+```
+
+#### **🔗 ブール検索（Boolean Search）**  
+AND/OR/NOT条件を組み合わせた複雑な検索
+```bash
+# API例：(トナー OR 現像剤) AND プリンター NOT レーザー
+curl -X POST "http://localhost:8000/search/advanced" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query_type": "boolean",
+    "should_terms": ["トナー", "現像剤"],
+    "must_terms": ["プリンター"],
+    "must_not_terms": ["レーザー"]
+  }'
+```
+
+#### **📝 クエリ文字列検索（Query String）**
+フィールド指定とブール演算子を組み合わせ
+```bash
+# API例：発明名称にトナー AND 技術分野に電子写真
+curl -X POST "http://localhost:8000/search/advanced" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query_type": "query_string", 
+    "query": "invention_title:トナー AND technical_field:電子写真"
+  }'
+```
+
+#### **🎯 マルチフィールド検索**
+複数フィールドに異なるクエリを同時実行
+```bash
+# API例：複数フィールドでの条件指定
+curl -X POST "http://localhost:8000/search/advanced" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query_type": "multi_field",
+    "field_queries": {
+      "invention_title": "画像形成装置",
+      "technical_field": "電子写真",
+      "applicant_name": "キヤノン"
+    }
+  }'
+```
+
+### **Web UI高度検索**
+- **検索デモ**: http://localhost:8000/demo または search_demo.html
+- **高度検索ボタン**をクリックして詳細オプションを表示
+- **使用方法ガイド**がUIに組み込まれています
 
 ## 📊 **検索可能フィールド**
 

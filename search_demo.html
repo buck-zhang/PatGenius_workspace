@@ -283,6 +283,7 @@
         <div class="search-section">
             <h2>🔎 特許検索</h2>
             
+            <!-- シンプル検索フォーム -->
             <div class="search-form">
                 <input type="text" class="search-input" id="searchInput" placeholder="検索キーワードを入力 (例: 画像形成装置)">
                 <select class="field-select" id="fieldSelect">
@@ -300,15 +301,73 @@
                     <option value="f_terms">Fターム</option>
                 </select>
                 <button class="search-btn" onclick="performSearch()">検索</button>
+                <button class="search-btn" onclick="toggleAdvanced()" style="background: #6c757d;">高度検索</button>
             </div>
+
+            <!-- 高度検索フォーム -->
+            <div id="advancedSearch" style="display: none; margin-top: 20px; padding: 20px; border: 2px solid #e0e0e0; border-radius: 8px;">
+                <h3 style="margin-bottom: 15px;">🔧 高度検索オプション</h3>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">検索タイプ:</label>
+                        <select id="queryType" class="field-select" style="width: 100%;">
+                            <option value="simple">シンプル検索</option>
+                            <option value="proximity">近傍検索</option>
+                            <option value="boolean">ブール検索</option>
+                            <option value="query_string">クエリ文字列</option>
+                            <option value="multi_field">マルチフィールド</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">近傍距離:</label>
+                        <input type="number" id="proximityDistance" class="search-input" value="3" min="1" max="100" style="width: 100%;">
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">必須キーワード (AND):</label>
+                        <input type="text" id="mustTerms" class="search-input" placeholder="キーワード1, キーワード2" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">オプションキーワード (OR):</label>
+                        <input type="text" id="shouldTerms" class="search-input" placeholder="キーワード1, キーワード2" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">除外キーワード (NOT):</label>
+                        <input type="text" id="mustNotTerms" class="search-input" placeholder="キーワード1, キーワード2" style="width: 100%;">
+                    </div>
+                </div>
+
+                <button class="search-btn" onclick="performAdvancedSearch()" style="background: #28a745;">高度検索実行</button>
+            </div>
+
+            <!-- 検索利用方法 -->
+            <div style="margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
+                <h4>📖 検索利用方法</h4>
+                <div style="margin-top: 10px; font-size: 14px;">
+                    <strong>近傍検索:</strong> "車 near3 両" → 車と両が3語以内の距離で検索<br>
+                    <strong>ブール検索:</strong> 必須・オプション・除外キーワードを組み合わせ<br>
+                    <strong>クエリ文字列:</strong> "発明名称:トナー AND 技術分野:電子写真"<br>
+                    <strong>マルチフィールド:</strong> 複数フィールドに異なるクエリを指定
+                </div>
+            </div>
+        </div>
             
             <div class="examples">
+                <h4 style="margin-bottom: 10px;">📝 シンプル検索例</h4>
                 <button class="example-btn" onclick="setExample('画像形成装置', 'invention_title')">発明名称: 画像形成装置</button>
                 <button class="example-btn" onclick="setExample('電子写真', 'technical_field')">技術分野: 電子写真</button>
                 <button class="example-btn" onclick="setExample('バリカン', '')">全文検索: バリカン</button>
                 <button class="example-btn" onclick="setExample('現像剤', 'claims')">請求項: 現像剤</button>
                 <button class="example-btn" onclick="setExample('トナー', 'abstract')">要約: トナー</button>
                 <button class="example-btn" onclick="setExample('センサ', 'description')">詳細説明: センサ</button>
+                
+                <h4 style="margin: 20px 0 10px 0;">🔧 高度検索例</h4>
+                <button class="example-btn" onclick="setAdvancedExample('proximity', '車 near3 両', 'technical_field')" style="background: #e3f2fd;">近傍検索: 車 near3 両</button>
+                <button class="example-btn" onclick="setAdvancedExample('boolean', '', '', 'トナー,現像剤', 'プリンター', 'レーザー')" style="background: #f3e5f5;">ブール検索: (トナー OR 現像剤) AND プリンター NOT レーザー</button>
+                <button class="example-btn" onclick="setAdvancedExample('query_string', 'invention_title:画像 AND technical_field:電子写真')" style="background: #e8f5e8;">クエリ文字列: フィールド指定AND検索</button>
             </div>
         </div>
         
@@ -517,6 +576,117 @@
                 }
             } catch (error) {
                 console.warn('API接続エラー:', error);
+            }
+        }
+
+        // 高度検索の表示/非表示切り替え
+        function toggleAdvanced() {
+            const advancedDiv = document.getElementById('advancedSearch');
+            const isVisible = advancedDiv.style.display !== 'none';
+            advancedDiv.style.display = isVisible ? 'none' : 'block';
+            
+            const btn = event.target;
+            btn.textContent = isVisible ? '高度検索' : '高度検索を閉じる';
+            btn.style.background = isVisible ? '#6c757d' : '#dc3545';
+        }
+
+        // 高度検索例の設定
+        function setAdvancedExample(queryType, query, field, shouldTerms, mustTerms, mustNotTerms) {
+            // 高度検索パネルを表示
+            document.getElementById('advancedSearch').style.display = 'block';
+            document.querySelector('button[onclick="toggleAdvanced()"]').textContent = '高度検索を閉じる';
+            document.querySelector('button[onclick="toggleAdvanced()"]').style.background = '#dc3545';
+            
+            // 値を設定
+            document.getElementById('queryType').value = queryType;
+            document.getElementById('searchInput').value = query || '';
+            document.getElementById('fieldSelect').value = field || '';
+            document.getElementById('shouldTerms').value = shouldTerms || '';
+            document.getElementById('mustTerms').value = mustTerms || '';
+            document.getElementById('mustNotTerms').value = mustNotTerms || '';
+            
+            if (queryType === 'proximity') {
+                document.getElementById('proximityDistance').value = '3';
+            }
+        }
+
+        // 高度検索実行
+        async function performAdvancedSearch() {
+            const queryType = document.getElementById('queryType').value;
+            const query = document.getElementById('searchInput').value.trim();
+            const field = document.getElementById('fieldSelect').value;
+            const proximityDistance = parseInt(document.getElementById('proximityDistance').value) || 3;
+            const mustTerms = document.getElementById('mustTerms').value.trim();
+            const shouldTerms = document.getElementById('shouldTerms').value.trim();
+            const mustNotTerms = document.getElementById('mustNotTerms').value.trim();
+
+            if (!query && !mustTerms && !shouldTerms) {
+                alert('検索キーワードまたは条件を入力してください');
+                return;
+            }
+
+            const resultsSection = document.getElementById('resultsSection');
+            const resultsContainer = document.getElementById('resultsContainer');
+            const searchBtn = event.target;
+            
+            // ローディング表示
+            resultsSection.style.display = 'block';
+            resultsContainer.innerHTML = '<div class="loading">🔍 高度検索中...</div>';
+            searchBtn.disabled = true;
+            searchBtn.textContent = '検索中...';
+
+            try {
+                // 高度検索リクエストボディ構築
+                const requestBody = {
+                    query_type: queryType,
+                    query: query,
+                    field: field || null,
+                    proximity_distance: proximityDistance,
+                    size: 10
+                };
+
+                // ブール検索条件の処理
+                if (mustTerms) {
+                    requestBody.must_terms = mustTerms.split(',').map(term => term.trim()).filter(term => term);
+                }
+                if (shouldTerms) {
+                    requestBody.should_terms = shouldTerms.split(',').map(term => term.trim()).filter(term => term);
+                }
+                if (mustNotTerms) {
+                    requestBody.must_not_terms = mustNotTerms.split(',').map(term => term.trim()).filter(term => term);
+                }
+
+                const startTime = Date.now();
+                const response = await fetch(`${API_BASE}/search/advanced`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestBody)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                const endTime = Date.now();
+                const searchTime = endTime - startTime;
+
+                displayResults(data, searchTime);
+
+            } catch (error) {
+                console.error('高度検索エラー:', error);
+                resultsContainer.innerHTML = `
+                    <div class="error-message">
+                        <h3>🚫 検索エラー</h3>
+                        <p>高度検索でエラーが発生しました: ${error.message}</p>
+                        <p>APIサーバーが起動していることを確認してください。</p>
+                    </div>
+                `;
+            } finally {
+                searchBtn.disabled = false;
+                searchBtn.textContent = '高度検索実行';
             }
         }
         
