@@ -26,11 +26,8 @@ env/
 tmp/
 temp/
 
-# Large data directories (keep only samples)
-source_data/*
-!source_data/0/
-source_data/0/*
-!source_data/0/JP2010000001A/
+# Large data directories (completely exclude)
+source_data/
 
 # Docker
 .env
