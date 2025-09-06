@@ -53,6 +53,75 @@ class PatentBulkImporter:
         collect_text(element)
         return " ".join(text_parts).strip()
 
+    def normalize_ipc_classification(self, ipc_text: str) -> str:
+        """IPC分類の正規化処理"""
+        if not ipc_text:
+            return ""
+        
+        # 余分な空白や日付、記号を除去
+        import re
+        # "A01D  34/13        20060101AFI20091204BHJP" -> "A01D34/13"
+        ipc_clean = re.sub(r'\s+\d{8}.*$', '', ipc_text)  # 日付以降を除去
+        ipc_clean = re.sub(r'\s+', '', ipc_clean)  # 余分な空白を除去
+        
+        return ipc_clean.strip()
+    
+    def normalize_fi_classification(self, fi_text: str) -> str:
+        """FI分類の正規化処理"""
+        if not fi_text:
+            return ""
+        
+        # FI分類は基本的にIPC分類と同様の構造
+        import re
+        fi_clean = re.sub(r'\s+\d{8}.*$', '', fi_text)
+        fi_clean = re.sub(r'\s+', '', fi_clean)
+        
+        return fi_clean.strip()
+    
+    def normalize_f_term(self, f_term_text: str) -> str:
+        """Fタームの正規化処理"""
+        if not f_term_text:
+            return ""
+        
+        # Fタームは通常 "2B382GC15" の形式
+        import re
+        f_term_clean = re.sub(r'\s+', '', f_term_text)  # 空白を除去
+        
+        return f_term_clean.strip()
+    
+    def generate_hierarchical_terms(self, classification: str, classification_type: str) -> List[str]:
+        """階層構造に基づいた上位概念のリストを生成"""
+        if not classification:
+            return []
+        
+        hierarchical_terms = [classification]  # 元の分類を含める
+        
+        if classification_type == "ipc":
+            # IPC分類の階層: A01D34/13 -> A01D34 -> A01D -> A01 -> A
+            import re
+            # A01D34/13 の場合
+            if re.match(r'^[A-H]\d{2}[A-Z]\d+/\d+', classification):
+                parts = classification.split('/')
+                base = parts[0]  # A01D34
+                
+                # A01D34/13 -> A01D34 -> A01D -> A01 -> A
+                if len(base) >= 6:  # A01D34
+                    hierarchical_terms.append(base[:5])  # A01D3
+                    hierarchical_terms.append(base[:4])  # A01D
+                    hierarchical_terms.append(base[:3])  # A01
+                    hierarchical_terms.append(base[:1])  # A
+        
+        elif classification_type == "f_term":
+            # Fタームの階層: 2B382GC15 -> 2B382GC -> 2B382 -> 2B
+            if len(classification) >= 5:  # 2B382
+                theme_code = classification[:5]  # 2B382
+                hierarchical_terms.append(theme_code)
+                hierarchical_terms.append(theme_code[:4])  # 2B38
+                hierarchical_terms.append(theme_code[:2])  # 2B
+        
+        # 重複を除去して返す
+        return list(set(hierarchical_terms))
+
     def parse_patent_xml(self, xml_file_path: str) -> Dict[str, Any]:
         """Parse Japanese patent XML file with optimized field extraction"""
         
@@ -91,20 +160,48 @@ class PatentBulkImporter:
                 # Parties - 出願人・発明者情報
                 parties = biblio_data.find('parties')
                 if parties is not None:
-                    # Applicants - 出願人
+                    # Applicants - 出願人 (handle namespace-prefixed structure)
                     applicants = []
-                    for applicant in biblio_data.findall('.//applicant'):
-                        name_elem = applicant.find('.//name') or applicant.find('.//n')
-                        if name_elem is not None:
-                            applicants.append(self.extract_text_content(name_elem))
+                    
+                    # Look for applicants in jp:applicants-agents-article structure
+                    jp_applicants_article = parties.find('.//jp:applicants-agents-article', ns)
+                    if jp_applicants_article is not None:
+                        for applicant in jp_applicants_article.findall('.//applicant'):
+                            # Look for name in addressbook (try both 'n' and 'name' elements)
+                            addressbook = applicant.find('addressbook')
+                            if addressbook is not None:
+                                name_elem = addressbook.find('n') or addressbook.find('name')
+                                if name_elem is not None:
+                                    applicants.append(self.extract_text_content(name_elem))
+                    
+                    # Fallback: try direct applicant search for other XML formats
+                    if not applicants:
+                        for applicant in parties.findall('.//applicant'):
+                            name_elem = applicant.find('.//name') or applicant.find('.//n')
+                            if name_elem is not None:
+                                applicants.append(self.extract_text_content(name_elem))
+                    
                     patent_data['applicant_name'] = "; ".join(applicants) if applicants else ""
                     
-                    # Inventors - 発明者
+                    # Inventors - 発明者 (handle standard inventors structure)
                     inventors = []
-                    for inventor in biblio_data.findall('.//inventor'):
-                        name_elem = inventor.find('.//name') or inventor.find('.//n')
-                        if name_elem is not None:
-                            inventors.append(self.extract_text_content(name_elem))
+                    inventors_section = parties.find('inventors')
+                    if inventors_section is not None:
+                        for inventor in inventors_section.findall('inventor'):
+                            # Look for name in addressbook (try both 'n' and 'name' elements)
+                            addressbook = inventor.find('addressbook')
+                            if addressbook is not None:
+                                name_elem = addressbook.find('n') or addressbook.find('name')
+                                if name_elem is not None:
+                                    inventors.append(self.extract_text_content(name_elem))
+                    
+                    # Fallback: try direct inventor search for other XML formats
+                    if not inventors:
+                        for inventor in parties.findall('.//inventor'):
+                            name_elem = inventor.find('.//name') or inventor.find('.//n')
+                            if name_elem is not None:
+                                inventors.append(self.extract_text_content(name_elem))
+                    
                     patent_data['inventor_names'] = "; ".join(inventors) if inventors else ""
                 
                 # Priority claims - 優先権情報
@@ -127,39 +224,78 @@ class PatentBulkImporter:
                 
                 patent_data['priority_claims'] = priority_claims
                 
-                # IPC Classification - 国際特許分類
+                # IPC Classification - 国際特許分類 (階層構造対応)
                 ipc_elem = biblio_data.find('classification-ipc')
                 if ipc_elem is not None:
                     ipc_classes = []
                     main_clsf = ipc_elem.find('main-clsf')
                     if main_clsf is not None:
-                        ipc_classes.append(self.extract_text_content(main_clsf).strip())
+                        ipc_text = self.extract_text_content(main_clsf).strip()
+                        # IPC分類の正規化処理
+                        ipc_normalized = self.normalize_ipc_classification(ipc_text)
+                        if ipc_normalized:
+                            ipc_classes.append(ipc_normalized)
                     
                     for further_clsf in ipc_elem.findall('further-clsf'):
-                        ipc_classes.append(self.extract_text_content(further_clsf).strip())
+                        ipc_text = self.extract_text_content(further_clsf).strip()
+                        ipc_normalized = self.normalize_ipc_classification(ipc_text)
+                        if ipc_normalized:
+                            ipc_classes.append(ipc_normalized)
                     
                     patent_data['classification_ipc'] = ipc_classes
+                    
+                    # IPC階層検索用フィールドを生成
+                    ipc_hierarchical = []
+                    for ipc in ipc_classes:
+                        hierarchical_terms = self.generate_hierarchical_terms(ipc, "ipc")
+                        ipc_hierarchical.extend(hierarchical_terms)
+                    patent_data['classification_ipc_hierarchical'] = list(set(ipc_hierarchical))
                 
-                # National Classification - 国内分類
-                nat_class_elem = biblio_data.find('classification-national')
-                if nat_class_elem is not None:
-                    nat_classes = []
-                    main_clsf = nat_class_elem.find('main-clsf')
+                # FI Classification - 日本国内分類 (FI分類として扱う)
+                fi_class_elem = biblio_data.find('classification-national')
+                if fi_class_elem is not None:
+                    fi_classes = []
+                    main_clsf = fi_class_elem.find('main-clsf')
                     if main_clsf is not None:
-                        nat_classes.append(self.extract_text_content(main_clsf).strip())
+                        fi_text = self.extract_text_content(main_clsf).strip()
+                        # FI分類の正規化処理
+                        fi_normalized = self.normalize_fi_classification(fi_text)
+                        if fi_normalized:
+                            fi_classes.append(fi_normalized)
                     
-                    for further_clsf in nat_class_elem.findall('further-clsf'):
-                        nat_classes.append(self.extract_text_content(further_clsf).strip())
+                    for further_clsf in fi_class_elem.findall('further-clsf'):
+                        fi_text = self.extract_text_content(further_clsf).strip()
+                        fi_normalized = self.normalize_fi_classification(fi_text)
+                        if fi_normalized:
+                            fi_classes.append(fi_normalized)
                     
-                    patent_data['classification_national'] = nat_classes
+                    patent_data['classification_fi'] = fi_classes
+                    
+                    # FI階層検索用フィールドを生成
+                    fi_hierarchical = []
+                    for fi in fi_classes:
+                        hierarchical_terms = self.generate_hierarchical_terms(fi, "ipc")  # FIもIPC構造と同様
+                        fi_hierarchical.extend(hierarchical_terms)
+                    patent_data['classification_fi_hierarchical'] = list(set(fi_hierarchical))
                 
-                # F-terms - Fターム
+                # F-terms - Fターム (階層構造対応)
                 f_terms = []
                 f_term_info = biblio_data.find('.//jp:f-term-info', ns)
                 if f_term_info is not None:
                     for f_term in f_term_info.findall('.//jp:f-term', ns):
-                        f_terms.append(self.extract_text_content(f_term))
+                        f_term_text = self.extract_text_content(f_term).strip()
+                        # Fタームの正規化処理
+                        f_term_normalized = self.normalize_f_term(f_term_text)
+                        if f_term_normalized:
+                            f_terms.append(f_term_normalized)
                 patent_data['f_terms'] = f_terms
+                
+                # Fターム階層検索用フィールドを生成
+                f_terms_hierarchical = []
+                for f_term in f_terms:
+                    hierarchical_terms = self.generate_hierarchical_terms(f_term, "f_term")
+                    f_terms_hierarchical.extend(hierarchical_terms)
+                patent_data['f_terms_hierarchical'] = list(set(f_terms_hierarchical))
             
             # Extract description content - 明細書内容
             description = root.find('description')
@@ -243,8 +379,11 @@ class PatentBulkImporter:
                     "applicant_name": {"type": "text", "analyzer": "japanese_analyzer"},
                     "inventor_names": {"type": "text", "analyzer": "japanese_analyzer"},
                     "classification_ipc": {"type": "keyword"},
-                    "classification_national": {"type": "keyword"},
+                    "classification_ipc_hierarchical": {"type": "keyword"},
+                    "classification_fi": {"type": "keyword"},
+                    "classification_fi_hierarchical": {"type": "keyword"},
                     "f_terms": {"type": "keyword"},
+                    "f_terms_hierarchical": {"type": "keyword"},
                     "technical_field": {"type": "text", "analyzer": "japanese_analyzer"},
                     "background_art": {"type": "text", "analyzer": "japanese_analyzer"},
                     "tech_problem": {"type": "text", "analyzer": "japanese_analyzer"},
@@ -290,29 +429,32 @@ class PatentBulkImporter:
         if not documents:
             return True
         
-        # Prepare bulk request body
-        bulk_body = []
+        # Prepare bulk request body (NDJSON format)
+        bulk_lines = []
         for doc in documents:
             doc_id = doc.get('document_id', 'unknown')
             
-            # Add index action
-            bulk_body.append(json.dumps({
+            # Add index action line
+            index_action = json.dumps({
                 "index": {
                     "_index": self.index_name,
                     "_id": doc_id
                 }
-            }))
+            }, ensure_ascii=False)
+            bulk_lines.append(index_action)
             
-            # Add document
-            bulk_body.append(json.dumps(doc, ensure_ascii=False))
+            # Add document line
+            doc_line = json.dumps(doc, ensure_ascii=False)
+            bulk_lines.append(doc_line)
         
-        bulk_data = "\n".join(bulk_body) + "\n"
+        # NDJSON format: each line ends with \n, including the final line
+        bulk_data = "\n".join(bulk_lines) + "\n"
         
         try:
             response = self.session.post(
                 f"{self.opensearch_url}/_bulk",
-                data=bulk_data,
-                headers={'Content-Type': 'application/x-ndjson'}
+                data=bulk_data.encode('utf-8'),
+                headers={'Content-Type': 'application/x-ndjson; charset=utf-8'}
             )
             
             if response.status_code == 200:

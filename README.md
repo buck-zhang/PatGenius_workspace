@@ -29,12 +29,14 @@ PatGeniusは、日本特許庁の特許XMLデータをOpenSearchに効率的に�
 
 ### **🌟 主要機能**
 - 🔍 **30,002件の特許データ** - 完全インデックス済み
-- ⚡ **15フィールド高速検索** - 発明名称から技術内容まで包括的検索  
+- ⚡ **18フィールド高速検索** - 発明名称から技術内容まで包括的検索  
 - 🔧 **高度検索機能** - 近傍検索、ブール検索、クエリ文字列、マルチフィールド対応
-- 🚀 **183.0ファイル/秒** - 高速一括処理性能
+- 📋 **分類検索機能** - IPC・FI・Fターム階層構造対応検索
+- 🌲 **階層検索対応** - 上位概念から下位概念まで自動展開
+- 🚀 **283ファイル/秒** - 高速一括処理性能
 - 🐳 **Docker完全対応** - ワンコマンドデプロイメント
 - 📡 **RESTful API** - OpenAPI 3.0準拠、Swagger UI自動生成
-- 🌐 **Web検索デモ** - インタラクティブ検索インターフェース（高度検索UI付き）
+- 🌐 **Web検索デモ** - インタラクティブ検索インターフェース（分類検索UI付き）
 - 🔧 **本番環境対応** - Nginx、SSL、ヘルスチェック完備
 
 ## 🐳 **Dockerアーキテクチャ**
@@ -232,7 +234,28 @@ open search_demo.html
 
 PatGeniusは様々な高度検索パターンに対応しています：
 
-### **検索タイプ**
+### **📋 分類検索機能**
+
+特許分類の階層構造を理解した上位・下位概念検索が可能です：
+
+#### **🏗️ 階層構造対応**
+- **IPC分類**: `A01D34/13` → `A01D34`, `A01D`, `A01`, `A`
+- **FI分類**: `A01D34/13` → `A01D34`, `A01D`, `A01`, `A`  
+- **Fターム**: `2B382GC15` → `2B382`, `2B38`, `2B`
+
+#### **🎯 分類検索API**
+```bash
+# IPC階層検索（上位概念も含む）
+curl \"http://localhost:8000/search/classification?classification_type=ipc&code=A01D&hierarchical=true\"
+
+# FI完全一致検索
+curl \"http://localhost:8000/search/classification?classification_type=fi&code=A01D34/13&hierarchical=false\"
+
+# Fターム階層検索
+curl \"http://localhost:8000/search/classification?classification_type=f_term&code=2B382&hierarchical=true\"
+```
+
+### **🔧 高度検索タイプ**
 
 #### **📍 近傍検索（Proximity Search）**
 特定の距離内でキーワードが出現する文書を検索
@@ -309,18 +332,22 @@ curl -X POST "http://localhost:8000/search/advanced" \
 | `description` | 詳細説明 | "以下、図面を参照しながら..." |
 | `claims` | 請求項 | "Claim 1: 現像剤を収容する筐体と..." |
 | `abstract` | 要約 | "【課題】トナーを除去するための..." |
-| `classification_ipc` | IPC分類 | ["G03G 15/08"] |
-| `classification_national` | 国内分類 | ["G03G15/08 507D"] |
-| `f_terms` | Fターム | ["2H073AA09", "2H073BA04"] |
-| `document_id` | 文献番号 | "2010008759" |
+| `classification_ipc` | IPC分類 | ["A01D34/13", "A01D34/10"] |
+| `classification_fi` | FI分類 | ["A01D34/13", "A01D34/10"] |
+| `f_terms` | Fターム | ["2B382GC15", "2B382HA04"] |
+| `classification_ipc_hierarchical` | IPC階層検索用 | ["A01D", "A01", "A"] |
+| `classification_fi_hierarchical` | FI階層検索用 | ["A01D", "A01", "A"] |
+| `f_terms_hierarchical` | Fターム階層検索用 | ["2B382", "2B38", "2B"] |
+| `document_id` | 文献番号 | "2010000001" |
 
 ## 📈 **パフォーマンス実績**
 
 ### **インポート性能**
 - **データ量**: 30,002件の特許XML
-- **処理時間**: 2.7分
-- **処理速度**: 183.0ファイル/秒
+- **処理時間**: 1.8分
+- **処理速度**: 283ファイル/秒
 - **成功率**: 100% (失敗0件)
+- **追加フィールド**: IPC・FI・Fターム階層検索対応
 
 ### **検索性能**
 - **インデックスサイズ**: 3シャード、1レプリカ

@@ -322,7 +322,7 @@ async def get_searchable_fields():
             "claims": "請求項",
             "abstract": "要約",
             "classification_ipc": "IPC分類",
-            "classification_national": "国内分類",
+            "classification_fi": "FI分類", 
             "f_terms": "Fターム",
             "document_id": "文献番号"
         },
@@ -532,6 +532,95 @@ async def search_suggestions(
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Suggestion error: {str(e)}")
+
+@app.get("/search/classification", tags=["Search"])
+async def classification_search(
+    classification_type: str = Query(..., description="分類タイプ: ipc, fi, f_term"),
+    code: str = Query(..., description="分類コード", example="A01D"),
+    hierarchical: bool = Query(True, description="階層検索を有効にする"),
+    size: int = Query(10, description="取得件数", ge=1, le=100),
+    from_: int = Query(0, description="開始位置", alias="from", ge=0)
+):
+    """
+    分類検索API
+    
+    階層検索対応:
+    - IPC分類: A01D → A01D*, A01*
+    - FI分類: A01D34/13 → A01D34*, A01D*
+    - Fターム: 2B382 → 2B382*, 2B38*, 2B*
+    """
+    
+    try:
+        # 分類タイプに応じてフィールドを決定
+        if classification_type == "ipc":
+            base_field = "classification_ipc"
+            hierarchical_field = "classification_ipc_hierarchical"
+        elif classification_type == "fi":
+            base_field = "classification_fi"
+            hierarchical_field = "classification_fi_hierarchical"
+        elif classification_type == "f_term":
+            base_field = "f_terms"
+            hierarchical_field = "f_terms_hierarchical"
+        else:
+            raise HTTPException(status_code=400, detail="無効な分類タイプです。ipc, fi, f_termのいずれかを指定してください。")
+        
+        # クエリ構築
+        if hierarchical:
+            # 階層検索: 上位概念も含める
+            query_body = {
+                "query": {
+                    "bool": {
+                        "should": [
+                            {"term": {base_field: code}},  # 完全一致
+                            {"prefix": {base_field: code}},  # 前方一致
+                            {"term": {hierarchical_field: code}}  # 階層検索
+                        ],
+                        "minimum_should_match": 1
+                    }
+                },
+                "size": size,
+                "from": from_,
+                "sort": [{"_score": {"order": "desc"}}]
+            }
+        else:
+            # 完全一致検索のみ
+            query_body = {
+                "query": {
+                    "term": {base_field: code}
+                },
+                "size": size,
+                "from": from_,
+                "sort": [{"_score": {"order": "desc"}}]
+            }
+        
+        # 検索実行
+        start_time = datetime.now()
+        result = client.search(query_body)
+        end_time = datetime.now()
+        
+        # レスポンス構築
+        hits = []
+        for hit in result["hits"]["hits"]:
+            source = hit["_source"]
+            patent = PatentDocument(**source)
+            hits.append(patent)
+        
+        return SearchResponse(
+            total=result["hits"]["total"]["value"],
+            hits=hits,
+            took=result["took"],
+            query_info={
+                "classification_type": classification_type,
+                "code": code,
+                "hierarchical": hierarchical,
+                "size": size,
+                "from": from_,
+                "execution_time_ms": int((end_time - start_time).total_seconds() * 1000)
+            }
+        )
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"分類検索エラー: {str(e)}")
 
 if __name__ == "__main__":
     import uvicorn

@@ -298,10 +298,12 @@
                     <option value="tech_solution">解決手段</option>
                     <option value="description">詳細説明</option>
                     <option value="classification_ipc">IPC分類</option>
+                    <option value="classification_fi">FI分類</option>
                     <option value="f_terms">Fターム</option>
                 </select>
                 <button class="search-btn" onclick="performSearch()">検索</button>
                 <button class="search-btn" onclick="toggleAdvanced()" style="background: #6c757d;">高度検索</button>
+                <button class="search-btn" onclick="toggleClassification()" style="background: #007bff;">分類検索</button>
             </div>
 
             <!-- 高度検索フォーム -->
@@ -343,6 +345,40 @@
                 <button class="search-btn" onclick="performAdvancedSearch()" style="background: #28a745;">高度検索実行</button>
             </div>
 
+            <!-- 分類検索フォーム -->
+            <div id="classificationSearch" style="display: none; margin-top: 20px; padding: 20px; border: 2px solid #007bff; border-radius: 8px; background: #f8f9ff;">
+                <h3 style="margin-bottom: 15px;">📋 分類検索（IPC・FI・Fターム）</h3>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">分類タイプ:</label>
+                        <select id="classificationType" class="field-select" style="width: 100%;">
+                            <option value="ipc">IPC分類</option>
+                            <option value="fi">FI分類</option>
+                            <option value="f_term">Fターム</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">分類コード:</label>
+                        <input type="text" id="classificationCode" class="search-input" placeholder="例: A01D, 2B382" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">階層検索:</label>
+                        <input type="checkbox" id="hierarchicalSearch" checked style="transform: scale(1.5); margin-top: 10px;">
+                        <span style="margin-left: 10px;">上位概念も含める</span>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 15px; padding: 10px; background: #e9ecef; border-radius: 5px; font-size: 14px;">
+                    <strong>📖 分類検索例:</strong><br>
+                    <strong>IPC:</strong> A01D → A01D*, A01*, A* を検索<br>
+                    <strong>FI:</strong> A01D34/13 → A01D34*, A01D*, A* を検索<br>
+                    <strong>Fターム:</strong> 2B382 → 2B382*, 2B38*, 2B* を検索
+                </div>
+
+                <button class="search-btn" onclick="performClassificationSearch()" style="background: #007bff;">分類検索実行</button>
+            </div>
+
             <!-- 検索利用方法 -->
             <div style="margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 8px;">
                 <h4>📖 検索利用方法</h4>
@@ -368,6 +404,12 @@
                 <button class="example-btn" onclick="setAdvancedExample('proximity', '車 near3 両', 'technical_field')" style="background: #e3f2fd;">近傍検索: 車 near3 両</button>
                 <button class="example-btn" onclick="setAdvancedExample('boolean', '', '', 'トナー,現像剤', 'プリンター', 'レーザー')" style="background: #f3e5f5;">ブール検索: (トナー OR 現像剤) AND プリンター NOT レーザー</button>
                 <button class="example-btn" onclick="setAdvancedExample('query_string', 'invention_title:画像 AND technical_field:電子写真')" style="background: #e8f5e8;">クエリ文字列: フィールド指定AND検索</button>
+                
+                <h4 style="margin: 20px 0 10px 0;">📋 分類検索例</h4>
+                <button class="example-btn" onclick="setClassificationExample('ipc', 'A01D', true)" style="background: #fff3cd;">IPC階層検索: A01D</button>
+                <button class="example-btn" onclick="setClassificationExample('fi', 'A01D34/13', true)" style="background: #d1ecf1;">FI階層検索: A01D34/13</button>
+                <button class="example-btn" onclick="setClassificationExample('f_term', '2B382', true)" style="background: #d4edda;">Fターム階層検索: 2B382</button>
+                <button class="example-btn" onclick="setClassificationExample('ipc', 'G03G15/08', false)" style="background: #f8d7da;">IPC完全一致: G03G15/08</button>
             </div>
         </div>
         
@@ -687,6 +729,87 @@
             } finally {
                 searchBtn.disabled = false;
                 searchBtn.textContent = '高度検索実行';
+            }
+        }
+
+        // 分類検索の表示/非表示切り替え
+        function toggleClassification() {
+            const classificationDiv = document.getElementById('classificationSearch');
+            const isVisible = classificationDiv.style.display !== 'none';
+            classificationDiv.style.display = isVisible ? 'none' : 'block';
+            
+            const btn = event.target;
+            btn.textContent = isVisible ? '分類検索' : '分類検索を閉じる';
+            btn.style.background = isVisible ? '#007bff' : '#dc3545';
+        }
+
+        // 分類検索例の設定
+        function setClassificationExample(classificationType, code, hierarchical) {
+            // 分類検索パネルを表示
+            document.getElementById('classificationSearch').style.display = 'block';
+            document.querySelector('button[onclick="toggleClassification()"]').textContent = '分類検索を閉じる';
+            document.querySelector('button[onclick="toggleClassification()"]').style.background = '#dc3545';
+            
+            // 値を設定
+            document.getElementById('classificationType').value = classificationType;
+            document.getElementById('classificationCode').value = code;
+            document.getElementById('hierarchicalSearch').checked = hierarchical;
+        }
+
+        // 分類検索実行
+        async function performClassificationSearch() {
+            const classificationType = document.getElementById('classificationType').value;
+            const code = document.getElementById('classificationCode').value.trim();
+            const hierarchical = document.getElementById('hierarchicalSearch').checked;
+
+            if (!code) {
+                alert('分類コードを入力してください');
+                return;
+            }
+
+            const resultsSection = document.getElementById('resultsSection');
+            const resultsContainer = document.getElementById('resultsContainer');
+            const searchBtn = event.target;
+            
+            // ローディング表示
+            resultsSection.style.display = 'block';
+            resultsContainer.innerHTML = '<div class="loading">🔍 分類検索中...</div>';
+            searchBtn.disabled = true;
+            searchBtn.textContent = '検索中...';
+
+            try {
+                const params = new URLSearchParams({
+                    classification_type: classificationType,
+                    code: code,
+                    hierarchical: hierarchical,
+                    size: 10
+                });
+
+                const startTime = Date.now();
+                const response = await fetch(`${API_BASE}/search/classification?${params}`);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                const endTime = Date.now();
+                const searchTime = endTime - startTime;
+
+                displayResults(data, searchTime);
+
+            } catch (error) {
+                console.error('分類検索エラー:', error);
+                resultsContainer.innerHTML = `
+                    <div class="error-message">
+                        <h3>🚫 分類検索エラー</h3>
+                        <p>分類検索でエラーが発生しました: ${error.message}</p>
+                        <p>APIサーバーが起動していることを確認してください。</p>
+                    </div>
+                `;
+            } finally {
+                searchBtn.disabled = false;
+                searchBtn.textContent = '分類検索実行';
             }
         }
         
