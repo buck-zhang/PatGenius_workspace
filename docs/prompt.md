@@ -10,3 +10,6 @@
 - ディレクトリにあるsource_dataフォルダの下にある全ての.txtファイル(xmlデータ)に対して
   - ディレクトリにあるopensearch関連のソースコードを参考に上記対象の全ての.txtファイル(xmlデータ)をopensearchに導入。
     - データ導入の際opensearch_tags_analysis.jsonファイルを参考に、特許データのOpenSearch検索システムを効率的に構築
+
+
+# 分類コード検索データベース構築指示
