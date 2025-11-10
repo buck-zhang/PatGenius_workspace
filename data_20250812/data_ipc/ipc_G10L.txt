@@ -1,0 +1,155 @@
+G10L  13/00		音声の合成；テキストを音声に変換するシステム［７］	Speech synthesis; Text to speech systems	13038
+G10L  13/02	・	合成音作成の方法；音声合成器［７，２０１３．０１］	Methods for producing synthetic speech; Speech synthesisers	7283
+G10L  13/027	・・	概念から音声への合成；機械に基づく概念からの自然句の生成（テキストから音声を合成するためのパラメータの生成Ｇ１０Ｌ１３／０８）［２０１３．０１］	Concept to speech synthesisers; Generation of natural phrases from machine-based concepts(generation of parameters for speech synthesis out of text G10L13/08)	1087
+G10L  13/033	・・	音声の編集，例．合成器の音声の操作［２０１３．０１］	Voice editing, e.g. manipulating the voice of the synthesiser	2246
+G10L  13/04	・・	音声合成システムの細部，例．合成器の構造またはメモリ管理［７，２０１３．０１］	Details of speech synthesis systems, e.g. synthesiser structure or memory management	6596
+G10L  13/047	・・・	音声合成器のアーキテクチャ［２０１３．０１］	Architecture of speech synthesisers	1821
+G10L  13/06	・	音声合成器で使われる音声素片；結合規則［７，２０１３．０１］	Elementary speech units used in speech synthesisers; Concatenation rules	3421
+G10L  13/07	・・	結合規則［２０１３．０１］	Concatenation rules	992
+G10L  13/08	・	テキストから音声を合成するための，テキストの分析，またはパラメータの生成，例．表記素から音素への変換，韻律の生成または強勢またはイントネーションの決定［７，２０１３．０１］	Text analysis or generation of parameters for speech synthesis out of text, e.g. grapheme to phoneme translation, prosody generation or stress or intonation determination	7501
+G10L  13/10	・・	テキストから導き出された韻律規則；強調またはイントネーション［２０１３．０１］	Prosody rules derived from text; Stress or intonation	3213
+G10L  15/00		音声認識（Ｇ１０Ｌ１７／００が優先）［７，２０１３．０１］	Speech recognition(G10L17/00 takes precedence)	21326
+G10L  15/01	・	音声認識システムの評価［２０１３．０１］	Assessment or evaluation of speech recognition systems	1360
+G10L  15/02	・	音声認識のための特徴抽出；認識単位の選択［７］	Feature extraction for speech recognition; Selection of recognition unit	12726
+G10L  15/04	・	セグメンテーション；語句境界検出［７，２０１３．０１］	Segmentation; Word boundary detection	6020
+G10L  15/05	・・	語句境界検出［２０１３．０１］	Word boundary detection	562
+G10L  15/06	・	標準パターンの作成；音声認識システムの学習，例．話者適応（Ｇ１０Ｌ１５／１４が優先）［７，２０１３．０１］	Creation of reference templates; Training of speech recognition systems, e.g. adaptation to the characteristics of the speaker's voice(G10L15/14 takes precedence)	14830
+G10L  15/065	・・	適応［２０１３．０１］	Adaptation	877
+G10L  15/07	・・・	話者に対するもの［２０１３．０１］	to the speaker	1302
+G10L  15/08	・	音声の識別または探索［７］	Speech classification or search	9145
+G10L  15/10	・・	未知音声と標準パタンとの距離または歪みを用いるもの［７］	using distance or distortion measures between unknown speech and reference templates	8809
+G10L  15/12	・・	動的計画法を用いるもの，例．動的時間伸縮［ＤＴＷ］［７］	using dynamic programming techniques, e.g. dynamic time warping [DTW]	869
+G10L  15/14	・・	統計的モデルを用いるもの，例．隠れマルコフモデル［ＨＭＭ］（Ｇ１０Ｌ１５／１８が優先）［７］	using statistical models, e.g. Hidden Markov Models [HMM](G10L15/18 takes precedence)	3773
+G10L  15/16	・・	ニューラル・ネットワークを用いるもの［７］	using artificial neural networks	7165
+G10L  15/18	・・	自然言語モデルを用いるもの［７，２０１３．０１］	using natural language modelling	10579
+G10L  15/183	・・・	文脈依存性を用いるもの，例．言語モデル［２０１３．０１］	using context dependencies, e.g. language models	2659
+G10L  15/187	・・・・	音素コンテキスト，例．発音規則，音用法上の制約または音素ｎ−ｇｒａｍ［２０１３．０１］	Phonemic context, e.g. pronunciation rules, phonotactical constraints or phoneme n-grams	1140
+G10L  15/19	・・・・	文法的コンテキスト，例．語順規則に基づく認識仮説の曖昧性解消［２０１３．０１］	Grammatical context, e.g. disambiguation of recognition hypotheses based on word sequence rules	524
+G10L  15/193	・・・・・	形式文法，例．有限状態オートマトン，文脈自由文法または単語ネットワーク［２０１３．０１］	Formal grammars, e.g. finite state automata, context free grammars or word networks	534
+G10L  15/197	・・・・・	確率的文法，例．単語ｎ−ｇｒａｍ［２０１３．０１］	Probabilistic grammars, e.g. word n-grams	960
+G10L  15/20	・	不利な環境に特に適した音声認識技術，例．雑音またはアクセントのある音声（Ｇ１０Ｌ２１／０２が優先）［７］	Speech recognition techniques specially adapted for robustness in adverse environments, e.g. in noise or of stress induced speech(G10L21/02 takes precedence)	6347
+G10L  15/22	・	音声認識処理中の手順，例．マン・マシン対話［７］	Procedures used during a speech recognition process, e.g. man-machine dialog	40846
+G10L  15/24	・	音響以外の特徴を用いる音声認識［７，２０１３．０１］	Speech recognition using non-acoustical features	1762
+G10L  15/25	・・	唇の位置，唇の運動または顔の分析を用いるもの［２０１３．０１］	using position of the lips, movement of the lips or face analysis	1266
+G10L  15/26	・	音声をテキストに変換するシステム（Ｇ１０Ｌ１５／０８が優先）［７］	Speech to text systems(G10L15/08 takes precedence)	27842
+G10L  15/28	・	音声認識システムの構造上の細部［７，２０１３．０１］	Constructional details of speech recognition systems	8022
+G10L  15/30	・・	分散型音声認識，例．クライアント・サーバシステムにおけるもの，携帯電話またはネットワークアプリケーションのためのもの［２０１３．０１］	Distributed recognition, e.g. in client-server systems, for mobile phones or network applications	6481
+G10L  15/32	・・	順次または並列に使用される複数の認識装置；スコアを組み合わせるシステム，例．投票システム［２０１３．０１］	Multiple recognisers used in sequence or in parallel; Score combination systems therefor, e.g. voting systems	2214
+G10L  15/34	・・	単一の音声認識装置の並列処理への適用，例．マルチプロセッサまたはクラウドコンピューティングの利用によるもの［２０１３．０１］	Adaptation of a single recogniser for parallel processing, e.g. by use of multiple processors or cloud computing	810
+G10L  17/00		話者識別または照合技術［７，２０１３．０１］	Speaker identification or verification techniques	8095
+G10L  17/02	・	前処理操作，例．セグメント選択；パターンの表現またはモデル化，例．線形判別分析［ＬＤＡ］または主成分に基づくもの；特徴の選択または抽出［２０１３．０１］	Preprocessing operations, e.g. segment selection; Pattern representation or modelling, e.g. based on linear discriminant analysis [LDA] or principal components; Feature selection or extraction	3878
+G10L  17/04	・	学習，エンロールメントまたはモデル構築［２０１３．０１］	Training, enrolment or model building	3523
+G10L  17/06	・	意志決定技術，パターン・マッチング戦略［２０１３．０１］	Decision making techniques; Pattern matching strategies	1965
+G10L  17/08	・・	試験パターンと標準パターンとの間の特定の距離または歪みを使用するもの［２０１３．０１］	Use of distortion metrics or a particular distance between probe pattern and reference templates	890
+G10L  17/10	・・	マルチモーダルシステム，複数の認識エンジンの統合またはエキスパートシステムの融合に基づくもの［２０１３．０１］	Multimodal systems, i.e. based on the integration of multiple recognition engines or fusion of expert systems	293
+G10L  17/12	・・	スコア正規化［２０１３．０１］	Score normalisation	189
+G10L  17/14	・・	話者の認識または検証前の音素の分類または音声認識の使用［２０１３．０１］	Use of phonemic categorisation or speech recognition prior to speaker recognition or verification	863
+G10L  17/16	・	隠れマルコフモデル［ＨＭＭ］［２０１３．０１］	Hidden Markov models [HMM]	156
+G10L  17/18	・	人工ニューラル・ネットワーク；コネクショニスト・アプローチ［２０１３．０１］	Artificial neural networks; Connectionist approaches	1745
+G10L  17/20	・	システムの頑健性を高めるためのパターンの変換および操作，例．チャンネル雑音または異なる動作環境に対するもの［２０１３．０１］	Pattern transformations or operations aimed at increasing system robustness, e.g. against channel noise or different working conditions	419
+G10L  17/22	・	対話型処理手順；マンマシン・インターフェイス［２０１３．０１］	Interactive procedures; Man-machine interfaces	3648
+G10L  17/24	・・	ユーザがパスワードまたはあらかじめ定められた語句を発声するように促されるもの［２０１３．０１］	 the user being prompted to utter a password or a predefined phrase	1380
+G10L  17/26	・	特殊な音声の特徴の認識，例．嘘発見器用のもの；動物の声の認識［２０１３．０１］	Recognition of special voice characteristics, e.g. for use in lie detectors; Recognition of animal voices	2265
+G10L  19/00		冗長を減らすための音声または音響信号の分析合成技術，例．ボコーダにおける；音声または音響信号のコード化またはデコード化，ソースフィルタモデルまたは心理音響分析を用いるもの（楽器におけるものＧ１０Ｈ）［７，２０１３．０１］	Speech or audio signal analysis-synthesis techniques for redundancy reduction, e.g. in vocoders; Coding or decoding of speech or audio signals, using source filter models or psychoacoustic analysis(in musical instruments G10H)	16266
+G10L  19/002	・	動的ビット割り当て（知覚音声コーダ用Ｇ１０Ｌ１９／０３２）［７，２０１３．０１］	Dynamic bit allocation(for perceptual audio coders G10L19/032)	566
+G10L  19/005	・	符号化アルゴリズムが関連するときの，伝送チャネルで生じたエラーの訂正［７，２０１３．０１］	Correction of errors induced by the transmission channel, if related to the coding algorithm	1354
+G10L  19/008	・	マルチチャネルオーディオ信号の符号化及び復号化，チャネル間の関係を使用して冗長性を減少させるもの，例．ジョイントステレオ，インテンシティ符号化又はマトリキシング［７，２０１３．０１］	Multichannel audio signal coding or decoding using interchannel correlation to reduce redundancy, e.g. joint-stereo, intensity-coding or matrixing	4318
+G10L  19/012	・	コンフォートノイズ，無音符号化［２０１３．０１］	Comfort noise or silence coding	588
+G10L  19/018	・	オーディオ透かし，すなわち不可聴データのオーディオ信号内への埋め込み［２０１３．０１］	Audio watermarking, i.e. embedding inaudible data in the audio signal	1949
+G10L  19/02	・	スペクトル分析を用いるもの，例．変換ボコーダまたはサブバンドボコーダ［７，２０１３．０１］	using spectral analysis, e.g. transform vocoders or subband vocoders	7228
+G10L  19/022	・・	ブロック化，すなわち時間領域内の標本のグループ化；分析ウインドウの選択；オーバーラップ因子［２０１３．０１］	Blocking, i.e. grouping of samples in time; Choice of analysis windows; Overlap factoring	563
+G10L  19/025	・・・	時間／周波数の分解能を切り替えるための過渡、立ち上がりの検出［２０１３．０１］	Detection of transients or attacks for time/frequency resolution switching	267
+G10L  19/028	・・	ノイズ置換，例．ノイズ音源による非音声スペクトル成分置換（断続的音声伝送のためのコンフォートノイズＧ１０Ｌ１９／０１２）［２０１３．０１］	Noise substitution, e.g. substituting non-tonal spectral components by noisy source(comfort noise for discontinuous speech transmission G10L19/012)	158
+G10L  19/03	・・	プリエコー防止のためのスペクトル予測；一時的なノイズシェーピング［ＴＮＳ］，例．ＭＰＥＧ２またはＭＰＥＧ４におけるもの［２０１３．０１］	Spectral prediction for preventing pre-echo; Temporary noise shaping [TNS], e.g. in MPEG2 or MPEG4	163
+G10L  19/032	・・	スペクトル成分の量子化または逆量子化［２０１３．０１］	Quantisation or dequantisation of spectral components	921
+G10L  19/035	・・・	スカラー量子化［２０１３．０１］	Scalar quantisation	803
+G10L  19/038	・・・	ベクトル量子化，例．ＴｗｉｎＶＱオーディオ［２０１３．０１］	Vector quantisation, e.g. TwinVQ audio	1463
+G10L  19/04	・	予測技術を用いるもの［７，２０１３．０１］	using predictive techniques	2535
+G10L  19/06	・・	スペクトルの特徴の抽出またはコード化，例．短期予測係数［７，２０１３．０１］	Determination or coding of the spectral characteristics, e.g. of the short-term prediction coefficients	1565
+G10L  19/07	・・・	線スペクトル対［ＬＳＰ］ボコーダ［２０１３．０１］	Line spectrum pair [LSP] vocoders	296
+G10L  19/08	・・	励振機能の抽出またはコード化；長期予測パラメータの抽出またはコード化［７，２０１３．０１］	Determination or coding of the excitation function; Determination or coding of the long-term prediction parameters	1702
+G10L  19/083	・・・	励振機能が励振利得であるもの（Ｇ１０Ｌ２５／９０が優先）［２０１３．０１］	the excitation function being an excitation gain(G10L25/90 takes precedence)	163
+G10L  19/087	・・・	混合励振モデルを用いるもの，例．ＭＥＬＰ，ＭＢＥ，分割帯域ＬＰＣまたはＨＶＸＣ［２０１３．０１］	using mixed excitation models, e.g. MELP, MBE, split band LPC or HVXC	160
+G10L  19/09	・・・	長期予測，すなわち周期的冗長性の除去，例．適応コードブックまたはピッチ予測を用いるもの［２０１３．０１］	Long term prediction, i.e. removing periodical redundancies, e.g. by using adaptive codebook or pitch predictor	329
+G10L  19/093	・・・	正弦波励振モデルを用いるもの［２０１３．０１］	using sinusoidal excitation models	128
+G10L  19/097	・・・	プロトタイプの波形分解または波形内挿符号化［ＰＷＩ］を用いるもの［２０１３．０１］	using prototype waveform decomposition or prototype waveform interpolative [PWI] coders	37
+G10L  19/10	・・・	励振機能がマルチパルス励振であるもの［７，２０１３．０１］	the excitation function being a multipulse excitation	523
+G10L  19/107	・・・・	スパースパルス励振，例．代数的コードブックを用いるもの［２０１３．０１］	Sparse pulse excitation, e.g. by using algebraic codebook	145
+G10L  19/113	・・・・	レギュラーパルス励振［２０１３．０１］	Regular pulse excitation	28
+G10L  19/12	・・・	励振機能がコード励振であるもの，例．コード励振線形予測［ＣＥＬＰ］ボコーダ［７，２０１３．０１］	the excitation function being a code excitation, e.g. in code excited linear prediction [CELP] vocoders	1536
+G10L  19/125	・・・・	ピッチ励振，例．ピッチ同期雑音励振源ＣＥＬＰ［２０１３．０１］	Pitch excitation, e.g. pitch synchronous innovation CELP [PSI-CELP] 	194
+G10L  19/13	・・・・	残差励振線形予測［２０１３．０１］	Residual excited linear prediction [RELP]	87
+G10L  19/135	・・・・	ベクトル和励振線形予測［２０１３．０１］	Vector sum excited linear prediction [VSELP]	64
+G10L  19/16	・・	ボコーダのアーキテクチャ［２０１３．０１］	Vocoder architecture	3175
+G10L  19/18	・・・	複数のモードを用いるボコーダ［２０１３．０１］	Vocoders using multiple modes	543
+G10L  19/20	・・・・	音の種別に特有の符号化，ハイブリッド符号化またはオブジェクトベース符号化を用いるもの［２０１３．０１］	using sound class specific coding, hybrid encoders or object based coding	683
+G10L  19/22	・・・・	モードの決定，すなわち外部パラメータに対するオーディオ信号の内容に基づくもの［２０１３．０１］	Mode decision, i.e. based on audio signal content versus external parameters	551
+G10L  19/24	・・・・	可変レートコーデック，例．階層的符号化または層状符号化のようなスケーラブル表現を用いて異なる品質を生成するためのもの［２０１３．０１］	Variable rate codecs, e.g. for generating different qualities using a scalable representation such as hierarchical encoding or layered encoding	973
+G10L  19/26	・・	プレ・フィルタリングまたはポスト・フィルタリング［２０１３．０１］	Pre-filtering or post-filtering	1451
+G10L  21/00		特性や了解度を変更するために，他の可聴信号または不可聴信号，例．視覚信号または触覚信号，を生成する音声信号処理技術（Ｇ１０Ｌ１９／００が優先）［７，２０１３．０１］	Speech or voice signal processing techniques to produce another audible or non-audible signal, e.g. visual or tactile, in order to modify its quality or its intelligibility (G10L19/00 takes precedence)	5347
+G10L  21/003	・	声質を変更させるもの，例．ピッチまたはフォルマント［７，２０１３．０１］	Changing voice quality, e.g. pitch or formants	2374
+G10L  21/007	・・	処理に特徴があるもの［７，２０１３．０１］	characterised by the process used	1382
+G10L  21/01	・・・	時間軸の変更［２０１３．０１］	Correction of time axis	197
+G10L  21/013	・・・	目標のピッチへの適応［２０１３．０１］	Adapting to target pitch	1029
+G10L  21/02	・	音声の強調，例．雑音低減またはエコー除去（有線伝送方式におけるエコー効果低減Ｈ０４Ｂ３／２０；ハンズフリー電話におけるエコーの抑制Ｈ０４Ｍ９／０８）［７，２０１３．０１］	Speech enhancement, e.g. noise reduction or echo cancellation(reducing echo effects in line transmission systems H04B3/20; echo suppression in hands-free telephones H04M9/08)	6321
+G10L  21/0208	・・	雑音除去［２０１３．０１］	Noise filtering	10991
+G10L  21/0216	・・・	雑音の推定のために用いられる方法に特徴があるもの［２０１３．０１］	characterised by the method used for estimating noise	4652
+G10L  21/0224	・・・・	時間軸上で処理するもの［２０１３．０１］	Processing in the time domain	1246
+G10L  21/0232	・・・・	周波数軸上で処理するもの［２０１３．０１］	Processing in the frequency domain	3918
+G10L  21/0264	・・・	パラメータ測定の種類に特徴があるもの，例．相関技術，零交差技術または予測技術［２０１３．０１］	characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques	1385
+G10L  21/0272	・・	音声信号分離［２０１３．０１］	Voice signal separating	2975
+G10L  21/028	・・・	音源の性質を用いるもの［２０１３．０１］	using properties of sound source	1299
+G10L  21/0308	・・・	パラメータ測定の種類に特徴があるもの，例．相関技術，零交差技術または予測技術［２０１３．０１］	characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques	800
+G10L  21/0316	・・	振幅を変更させるもの［２０１３．０１］	by changing the amplitude	1191
+G10L  21/0324	・・・	処理の細部［２０１３．０１］	Details of processing therefor	338
+G10L  21/0332	・・・・	波形を変化させるもの［２０１３．０１］	involving modification of waveforms	407
+G10L  21/034	・・・・	自動調整型のもの［２０１３．０１］	Automatic adjustment	1114
+G10L  21/0356	・・・	他の信号と同期を行うためのもの，例．映像信号［２０１３．０１］	for synchronising with other signals, e.g. video signals	132
+G10L  21/0364	・・・	聞きやすさを改善するためのもの［２０１３．０１］	for improving intelligibility	936
+G10L  21/038	・・	帯域拡張技術を用いるもの［２０１３．０１］	using band spreading techniques	718
+G10L  21/0388	・・・	処理の細部［２０１３．０１］	Details of processing therefor	677
+G10L  21/04	・	時間圧縮または拡張［７，２０１３．０１］	Time compression or expansion	2340
+G10L  21/043	・・	速度の変更によるもの［２０１３．０１］	by changing speed	766
+G10L  21/045	・・・	波形の間引きまたは挿入処理を用いるもの［２０１３．０１］	using thinning out or insertion of a waveform	221
+G10L  21/047	・・・・	間引きまたは挿入する波形のタイプに特徴があるもの［２０１３．０１］	characterised by the type of waveform to be thinned out or inserted	223
+G10L  21/049	・・・・	波形の接続に特徴のあるもの［２０１３．０１］	characterised by the interconnection of waveforms	125
+G10L  21/055	・・	他の信号との同期を行うためのもの，例．映像信号［２０１３．０１］	for synchronising with other signals, e.g. video signals	437
+G10L  21/057	・・	聞きやすさを改善するためのもの［２０１３．０１］	for improving intelligibility	393
+G10L  21/06	・	音声から不可聴表現への変換，例．音声の可視化または触覚の補助のための音声処理（Ｇ１０Ｌ１５／２６が優先）［７，２０１３．０１］	Transformation of speech into a non-audible representation, e.g. speech visualisation or speech processing for tactile aids(G10L15/26 takes precedence)	1355
+G10L  21/10	・・	可視情報へ変換するもの［２０１３．０１］	Transforming into visible information	2439
+G10L  21/12	・・・	時間軸情報を表示するもの［２０１３．０１］	by displaying time domain information	242
+G10L  21/14	・・・	周波数軸情報を表示するもの［２０１３．０１］	by displaying frequency domain information	279
+G10L  21/16	・・	不可視情報に変換するもの（耳の患者が直接の聴覚を他の種類の知覚と取換えることができるようにする装置または方法Ａ６１Ｆ１１／０４）［２０１３．０１］	Transforming into a non-visible representation(devices or methods enabling ear patients to replace direct auditory perception by another kind of perception A61F11/04)	170
+G10L  21/18	・・	変換処理の細部［２０１３．０１］	Details of the transformation process	134
+G10L  25/00		Ｇ１０Ｌ１５／００〜Ｇ１０Ｌ２１／００のグループ中のどれか一つに限定されない音声分析技術（信号に特別な特徴が検出された場合，例．無信号状態が検出された場合，の半導体増幅器の無音化Ｈ０３Ｇ３／３４）［２０１３．０１］	Speech or voice analysis techniques not restricted to a single one of groups G10L15/00 to G10L21/00 (muting semiconductor-based amplifiers when some special characteristics of a signal are sensed by a speech detector, e.g. sensing when no signal is present, H03G3/34)	4480
+G10L  25/03	・	抽出するパラメータのタイプに特徴のあるもの［２０１３．０１］	characterised by the type of extracted parameters	3872
+G10L  25/06	・・	抽出するパラメータが相関係数であるもの［２０１３．０１］	the extracted parameters being correlation coefficients	755
+G10L  25/09	・・	抽出するパラメータが零交差数であるもの［２０１３．０１］	the extracted parameters being zero crossing rates	242
+G10L  25/12	・・	抽出するパラメータが予測係数であるもの［２０１３．０１］	the extracted parameters being prediction coefficients	524
+G10L  25/15	・・	抽出するパラメータがフォルマント情報であるもの［２０１３．０１］	the extracted parameters being formant information	627
+G10L  25/18	・・	抽出するパラメータが帯域毎のスペクトル情報であるもの［２０１３．０１］	the extracted parameters being spectral information of each sub-band	5106
+G10L  25/21	・・	抽出するパラメータがパワー情報であるもの［２０１３．０１］	the extracted parameters being power information	2167
+G10L  25/24	・・	抽出するパラメータがケプストラムであるもの［２０１３．０１］	the extracted parameters being the cepstrum	3851
+G10L  25/27	・	分析手法に特徴があるもの［２０１３．０１］	characterised by the analysis technique	2666
+G10L  25/30	・・	ニューラル・ネットワークを用いるもの［２０１３．０１］	using neural networks	8237
+G10L  25/33	・・	ファジー論理を用いるもの［２０１３．０１］	using fuzzy logic	49
+G10L  25/36	・・	カオス理論を用いるもの［２０１３．０１］	using chaos theory	23
+G10L  25/39	・・	遺伝的アルゴリズムを用いるもの［２０１３．０１］	using genetic algorithms	50
+G10L  25/45	・	分析窓のタイプに特徴のあるもの［２０１３．０１］	characterised by the type of analysis window	1032
+G10L  25/48	・	特定の用途に特に適合したもの［２０１３．０１］	specially adapted for particular use	3235
+G10L  25/51	・・	比較または判別のためのもの［２０１３．０１］	for comparison or discrimination	12793
+G10L  25/54	・・・	検索のためのもの［２０１３．０１］	for retrieval	1088
+G10L  25/57	・・・	動画像の処理のためのもの［２０１３．０１］	for processing of video signals	1424
+G10L  25/60	・・・	音声の信号の質を測定するためのもの［２０１３．０１］	for measuring the quality of voice signals	1954
+G10L  25/63	・・・	感情を推定するためのもの［２０１３．０１］	for estimating an emotional state	5392
+G10L  25/66	・・・	健康状態に関するパラメータを抽出するためのもの（診断のための検出または測定Ａ６１Ｂ５／００）［２０１３．０１］	for extracting parameters related to health condition(detecting or measuring for diagnostic purposes A61B5/00)	1438
+G10L  25/69	・・	合成音声またはデコードした音声を評価するためのもの［２０１３．０１］	for evaluating synthetic or decoded voice signals	704
+G10L  25/72	・・	分析結果を送信するためのもの［２０１３．０１］	for transmitting results of analysis	367
+G10L  25/75	・	声道パラメータをモデル化するためのもの［２０１３．０１］	for modelling vocal tract parameters	239
+G10L  25/78	・	音声の信号の有無の検出（二方向音声電話方式における、音声周波数により伝送の方向を切り換える手段Ｈ０４Ｍ９／１０）［２０１３．０１］	Detection of presence or absence of voice signals(switching of direction of transmission by voice frequency in two-way loud-speaking telephone systems H04M9/10)	5640
+G10L  25/81	・・	音楽と音声を判別するためのもの［２０１３．０１］	for discriminating voice from music	445
+G10L  25/84	・・	雑音と音声を判別するためのもの［２０１３．０１］	for discriminating voice from noise	1842
+G10L  25/87	・・	音声の信号内の不連続点の検出［２０１３．０１］	Detection of discrete points within a voice signal	1335
+G10L  25/90	・	音声信号のピッチの抽出［２０１３．０１］	Pitch determination of speech signals	2995
+G10L  25/93	・	音声信号の有声音と無声音の部分の弁別（Ｇ１０Ｌ２５／９０が優先）［２０１３．０１］	Discriminating between voiced and unvoiced parts of speech signals(G10L25/90 takes precedence)	1589
+G10L  99/00		このサブクラスの他のグループに分類されない主題事項［２０１３．０１］	Subject matter not provided for in other groups of this subclass	63

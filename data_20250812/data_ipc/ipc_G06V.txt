@@ -1,0 +1,142 @@
+G06V  10/00		イメージまたはビデオの認識または理解のための装置（イメージまたはビデオにおける文字認識Ｇ０６Ｖ３０／１０）［２０２２．０１］	Arrangements for image or video recognition or understanding (character recognition in images or video G06V30/10)	886
+G06V  10/10	・	イメージの入力（文書イメージの走査または伝送Ｈ０４Ｎ１／００；デジタルカメラの制御Ｈ０４Ｎ２３／６０）［２０２２．０１］	Image acquisition(document image scanning and transmission H04N1/00; control of digital cameras H04N23/60)	5464
+G06V  10/12	・・	入力装置の細部；その構造上の細部［２０２２．０１］	Details of acquisition arrangements; Constructional details thereof	3193
+G06V  10/14	・・・	入力を実施する装置の光学特性または，照明装置に関するもの［２０２２．０１］	Optical characteristics of the device performing the acquisition or on the illumination arrangements	811
+G06V  10/141	・・・・	照明の制御［２０２２．０１］	Control of illumination	2929
+G06V  10/143	・・・・	異なる波長で読取るものまたは照らすもの［２０２２．０１］	Sensing or illuminating at different wavelengths	2934
+G06V  10/145	・・・・	パターン認識に特に適した照明，例．格子を用いるもの［２０２２．０１］	Illumination specially adapted for pattern recognition, e.g. using gratings	1405
+G06V  10/147	・・・・	センサーの細部，例．センサーレンズ（指紋または掌紋センサーＧ０６Ｖ４０／１３；血管センサーＧ０６Ｖ４０／１４５；アイセンサーＧ０６Ｖ４０／１９）［２０２２．０１］	Details of sensors, e.g. sensor lenses(fingerprint or palmprint sensors G06V40/13; vascular sensors G06V40/145; eye sensors G06V40/19)	2827
+G06V  10/20	・	イメージの前処理［２０２２．０１］	Image preprocessing	5636
+G06V  10/22	・・	パターンを含むまたは参照する特定の領域の選択によるもの；検出または認識をガイドするための特定の領域を探し出すまたは処理するもの［２０２２．０１］	by selection of a specific region containing or referencing a pattern; Locating or processing of specific regions to guide the detection or recognition	7975
+G06V  10/24	・・	イメージの整列，中心合わせ，向きの検出または補正［２０２２．０１］	Aligning, centring, orientation detection or correction of the image	5351
+G06V  10/25	・・	関心領域［ＲＯＩ］または関心ボリューム［ＶＯＩ］の決定［２０２２．０１］	Determination of region of interest [ROI] or a volume of interest [VOI]	24653
+G06V  10/26	・・	視野内におけるパターンのセグメンテーション；パターン領域を確立するためのイメージ要素の切断または統合，例．クラスタリングに基づく技術；オクルージョンの検出［２０２２．０１］	Segmentation of patterns in the image field; Cutting or merging of image elements to establish the pattern region, e.g. clustering-based techniques; Detection of occlusion	26947
+G06V  10/28	・・	イメージの量子化，例．背景前景パターンを区別するためのヒストグラムしきい値［２０２２．０１］	Quantising the image, e.g. histogram thresholding for discrimination between background and foreground patterns	4753
+G06V  10/30	・・	雑音除去［２０２２．０１］	Noise filtering	6617
+G06V  10/32	・・	パターンの大きさの正規化［２０２２．０１］	Normalisation of the pattern dimensions	1400
+G06V  10/34	・・	パターンの平滑化または細線化；形態演算；スケルトン化［２０２２．０１］	Smoothing or thinning of the pattern; Morphological operations; Skeletonisation	2160
+G06V  10/36	・・	ローカルオペレータ，すなわち，所与の点の近傍に位置するイメージの点を演算する手段，を適用するもの；非線形ローカルフィルタ演算，例．メディアンフィルタリング［２０２２．０１］	Applying a local operator, i.e. means to operate on image points situated in the vicinity of a given point; Non-linear local filtering operations, e.g. median filtering	1263
+G06V  10/40	・	イメージまたはビデオの特徴の抽出［２０２２．０１］	Extraction of image or video features	18959
+G06V  10/42	・・	パターン全体の分析によるグローバル特徴抽出，例．周波数領域変換または自己相関を用いるもの［２０２２．０１］	Global feature extraction by analysis of the whole pattern, e.g. using frequency domain transformations or autocorrelation	4659
+G06V  10/422	・・・	オブジェクトのパターンまたは形状の構造を表現するためのもの［２０２２．０１］	for representing the structure of the pattern or shape of an object therefor	788
+G06V  10/424	・・・・	構文表現，例．アルファベットまたは文法の利用によるもの［２０２２．０１］	Syntactic representation, e.g. by using alphabets or grammars	65
+G06V  10/426	・・・・	グラフィック表現［２０２２．０１］	Graphical representations	391
+G06V  10/44	・・	パターンの部分の分析によるローカル特徴抽出，例．エッジ，輪郭，ループ，コーナー，ストロークまたは交差の検出によるもの；連結性分析，例．連結される要素の分析［２０２２．０１］	Local feature extraction by analysis of parts of the pattern, e.g. by detecting edges, contours, loops, corners, strokes or intersections; Connectivity analysis, e.g. of connected components	37024
+G06V  10/46	・・	形状，輪郭のための記述子またはポイント関連記述子，例．スケール不変特徴変換［ＳＩＦＴ］またはバグオブワーズ［ＢｏＷ］；顕著領域特徴（色特徴の抽出Ｇ０６Ｖ１０／５６）［２０２２．０１］	Descriptors for shape, contour or point-related descriptors, e.g. scale invariant feature transform [SIFT] or bags of words [BoW]; Salient regional features(colour feature extraction G06V10/56)	9632
+G06V  10/48	・・	パターンの特性値をパラメータ空間にマッピングすることによるもの，例．ハフ変換［２０２２．０１］	by mapping characteristic values of the pattern into a parameter space, e.g. Hough transformation	846
+G06V  10/50	・・	イメージブロック内での演算によるもの；ヒストグラムの利用によるもの，例．勾配方向ヒストグラム［ＨｏＧ］；イメージ強度値の合計によるもの；射影分析［２０２２．０１］	by performing operations within image blocks; by using histograms, e.g. histogram of oriented gradients [HoG]; by summing image-intensity values; Projection analysis	4018
+G06V  10/52	・・	スケール空間分析，例．ウェーブレット解析（マルチスケールの境界表現Ｇ０６Ｖ１０／４２）［２０２２．０１］	Scale-space analysis, e.g. wavelet analysis(multi-scale boundary representations G06V10/42)	3464
+G06V  10/54	・・	テクスチャに関するもの［２０２２．０１］	relating to texture	3545
+G06V  10/56	・・	色に関するもの［２０２２．０１］	relating to colour	9993
+G06V  10/58	・・	ハイパースペクトルデータに関するもの［２０２２．０１］	relating to hyperspectral data	1223
+G06V  10/60	・・	照明特性に関するもの，例．反射または照明モデルを利用するもの［２０２２．０１］	relating to illumination properties, e.g. using a reflectance or lighting model	2122
+G06V  10/62	・・	時間的な次元に関するもの，例．時間に基づく特徴抽出；パターントラッキング［２０２２．０１］	relating to a temporal dimension, e.g. time-based feature extraction; Pattern tracking	3734
+G06V  10/70	・	パターン認識または機械学習を用いるもの（光学的手段によるパターン認識またはそのための電子計算Ｇ０６Ｖ１０／８８）［２０２２．０１］	using pattern recognition or machine learning(optical pattern recognition or electronic computations therefor G06V10/88)	3291
+G06V  10/72	・・	データの準備，例．イメージまたはビデオの特徴の統計的前処理［２０２２．０１］	Data preparation, e.g. statistical preprocessing of image or video features	816
+G06V  10/74	・・	イメージまたはビデオのパターンマッチング；特徴空間における近接性の測定［２０２２．０１］	Image or video pattern matching; Proximity measures in feature spaces	25578
+G06V  10/75	・・・	マッチングプロセスの構成，例．イメージまたはビデオの特徴の同時または逐次比較；疎密アプローチ，例．マルチスケールアプローチ；コンテキスト分析を用いるもの；辞書の選択　［２０２２．０１］	Organisation of the matching processes, e.g. simultaneous or sequential comparisons of image or video features; Coarse-fine approaches, e.g. multi-scale approaches; using context analysis; Selection of dictionaries	17311
+G06V  10/762	・・	クラスタリングを用いるもの，例．ソーシャルネットワーク上の似た顔のクラスタリング［２０２２．０１］	using clustering, e.g. of similar faces in social networks	16639
+G06V  10/764	・・	クラス分類を用いるもの，例．ビデオオブジェクトのクラス分類［２０２２．０１］	using classification, e.g. of video objects	84252
+G06V  10/766	・・	回帰を用いるもの，例．超平面上への特徴の射影によるもの［２０２２．０１］	using regression, e.g. by projecting features on hyperplanes	4323
+G06V  10/77	・・	特徴空間でイメージまたはビデオの特徴を処理するもの；データ統合またはデータ削減を用いるもの，例．主成分分析［ＰＣＡ］，独立成分分析［ＩＣＡ］または自己組織化マップ［ＳＯＭ］；ブラインド信号源分離［２０２２．０１］	Processing image or video features in feature spaces; using data integration or data reduction, e.g. principal component analysis [PCA] or independent component analysis [ICA] or self-organising maps [SOM]; Blind source separation	8674
+G06V  10/771	・・・	特徴の選択，例．多次元の特徴空間から代表的な特徴を選択するもの［２０２２．０１］	Feature selection, e.g. selecting representative features from a multi-dimensional feature space	1946
+G06V  10/772	・・・	代表的な参照パターン，例．平均パターンまたは歪みパターンを決定するもの；辞書の生成［２０２２．０１］	Determining representative reference patterns, e.g. averaging or distorting patterns; Generating dictionaries	1051
+G06V  10/774	・・・	訓練パターンのセットを生成するもの；ブートストラップ法，例．バギングまたはブースティング［２０２２．０１］	Generating sets of training patterns; Bootstrap methods, e.g. bagging or boosting	57644
+G06V  10/776	・・・	検証；性能評価［２０２２．０１］	Validation; Performance evaluation	4636
+G06V  10/778	・・・	能動的なパターン学習，例．イメージまたはビデオの特徴のオンライン学習　［２０２２．０１］	Active pattern-learning, e.g. online learning of image or video features	2018
+G06V  10/80	・・・	融合，すなわちセンサー段階，前処理段階，特徴抽出段階またはクラス分類段階の様々なデータ源から得たデータを組み合わせるもの（マルチモーダル話者同定または識別Ｇ１０Ｌ１７／１０）［２０２２．０１］	Fusion, i.e. combining data from various sources at the sensor level, preprocessing level, feature extraction level or classification level(multimodal speaker identification or verification G10L17/10)	42445
+G06V  10/82	・・	ニューラルネットワークを用いるもの［２０２２．０１］	using neural networks	113546
+G06V  10/84	・・	イメージまたはビデオの特徴に基づく確率グラフィカルモデルを用いるもの，例．マルコフモデルまたはベイジアンネットワーク［２０２２．０１］	using probabilistic graphical models from image or video features, e.g. Markov models or Bayesian networks	1019
+G06V  10/86	・・	イメージまたはビデオのパターンの構文表現または構造表現を用いるもの，例．シンボリック文字列の認識；グラフマッチングを用いるもの［２０２２．０１］	using syntactic or structural representations of the image or video pattern, e.g. symbolic string recognition; using graph matching	354
+G06V  10/88	・	光学的手段を用いるイメージまたはビデオの認識，例．参照フィルタ，ホログラフのマスク，周波数領域フィルタまたは空間領域フィルタ［２０２２．０１］	Image or video recognition using optical means, e.g. reference filters, holographic masks, frequency domain filters or spatial domain filters	869
+G06V  10/94	・	イメージまたはビデオの理解に特に適したハードウエアまたはソフトウエアアーキテクチャ［２０２２．０１］	Hardware or software architectures specially adapted for image or video understanding	3685
+G06V  10/96	・	イメージまたはビデオの認識タスクの管理［２０２２．０１］	Management of image or video recognition tasks	1067
+G06V  10/98	・	エラーの検出または訂正，例．パターンの再走査または人間の介入によるもの；入力されたパターンの質の評価［２０２２．０１］	Detection or correction of errors, e.g. by rescanning the pattern or by human intervention; Evaluation of the quality of the acquired patterns	2293
+G06V  20/00		シーン；シーンに特有の要素（デジタルカメラの制御Ｈ０４Ｎ２３／６０）［２０２２．０１］<br><b><ul>注</ul></b><br>このサブクラスにおいては，下記の用語または表現は以下に示す意味で用いる：<br>・「シーン」とは，センサーがキャプチャしたまたはコンピュータが生成した世界またはそのいくつかの要素の視覚的表現である。［２０２２．０１］	Scenes; Scene-specific elements(control of digital cameras H04N23/60);<br><br><b><u>Note(s)</u></b><br><br>In this group, the following term is used with the meaning indicated:&ldquo;scene&rdquo; is a visual representation of the world or of some elements of it, as captured by a sensor or generated by a computer.	5050
+G06V  20/05	・	水中のシーン［２０２２．０１］	Underwater scenes	1299
+G06V  20/10	・	陸上のシーン（静止カメラで監視されているシーンＧ０６Ｖ２０／５２；車両の外で知覚されるシーンＧ０６Ｖ２０／５６；車両の中で知覚されるシーンＧ０６Ｖ２０／５９）［２０２２．０１］	Terrestrial scenes(scenes under surveillance with static cameras G06V20/52; scenes perceived from the exterior of a vehicle G06V20/56; scenes perceived from the interior of a vehicle G06V20/59)	16843
+G06V  20/13	・・	衛星イメージ［２０２２．０１］	Satellite images	7281
+G06V  20/17	・・	飛行機からまたはドローンにより取得されたもの［２０２２．０１］	taken from planes or by drones	7104
+G06V  20/20	・	拡張現実シーンにおけるもの［２０２２．０１］	in augmented reality scenes	3581
+G06V  20/30	・	アルバム，コレクションまたは共有コンテンツにおけるもの，例．ソーシャルネットワーク上の写真またはビデオ［２０２２．０１］	in albums, collections or shared content, e.g. social network photos or video	395
+G06V  20/40	・	ビデオコンテンツにおけるもの（オーバーレイテキストの抽出Ｇ０６Ｖ２０／６２；ビデオの検索Ｇ０６Ｆ１６／７０；ビデオサーバにおけるビデオエレメンタリストリームの処理Ｈ０４Ｎ２１／２３４；ビデオクライアントにおけるビデオエレメンタリーストリームの処理Ｈ０４Ｎ２１／４４）［２０２２．０１］	in video content(extracting overlay text G06V20/62; video retrieval G06F16/70; processing of video elementary streams in video servers H04N21/234; processing of video elementary streams in video clients H04N21/44)	31449
+G06V  20/50	・	イメージのコンテキストまたは環境［２０２２．０１］	Context or environment of the image	2041
+G06V  20/52	・・	活動の監視またはモニタリング，例．不審物を認識するためのもの（微小なオブジェクトを認識するものＧ０６Ｖ２０／６９）［２０２２．０１］	Surveillance or monitoring of activities, e.g. for recognising suspicious objects(recognising microscopic objects G06V20/69)	22679
+G06V  20/54	・・・	交通の監視またはモニタリング，例．道路上の車両，電車または船［２０２２．０１］	of traffic, e.g. cars on the road, trains or boats	4502
+G06V  20/56	・・	車両上に取り付けられたセンサーを用いた車両の外の監視またはモニタリング［２０２２．０１］	exterior to a vehicle by using sensors mounted on the vehicle	12035
+G06V  20/58	・・・	移動体または障害物，例．車両または歩行者，の認識；交通オブジェクト，例．交通標識，交通信号または道路の認識［２０２２．０１］	Recognition of moving objects or obstacles, e.g. vehicles or pedestrians; Recognition of traffic objects, e.g. traffic signs, traffic lights or roads	12716
+G06V  20/59	・・	車両の中の監視またはモニタリング，例．座席の占有状態，運転者の状態または車内の照明の状態に関するもの［２０２２．０１］	inside of a vehicle, e.g. relating to seat occupancy, driver state or inner lighting conditions	4857
+G06V  20/60	・	オブジェクトの種類［２０２２．０１］	Type of objects	1989
+G06V  20/62	・・	テキスト，例．ナンバープレート，テレビイメージ上のオーバーレイテキストまたは字幕［２０２２．０１］	Text, e.g. of license plates, overlay texts or captions on TV images	6961
+G06V  20/64	・・	三次元のオブジェクト［２０２２．０１］	Three-dimensional objects	5953
+G06V  20/66	・・	小さな装飾具，例．シャツのボタンまたは宝飾類（微小なオブジェクトを認識するものＧ０６Ｖ２０／６９）［２０２２．０１］	Trinkets, e.g. shirt buttons or jewellery items(recognising microscopic objects G06V20/69)	165
+G06V  20/68	・・	食品，例．果物または野菜［２０２２．０１］	Food, e.g. fruit or vegetables	2128
+G06V  20/69	・・	微小なオブジェクト，例．生物細胞または細胞の部分［２０２２．０１］	Microscopic objects, e.g. biological cells or cellular parts	3258
+G06V  20/70	・	シーンのコンテンツにラベル付けするもの，例．構文的または意味的表現を導き出すもの［２０２２．０１］	Labelling scene content, e.g. deriving syntactic or semantic representations	7786
+G06V  20/80	・	特有のランダムパターンによって特徴づけられるイメージオブジェクトの認識［２０２２．０１］	Recognising image objects characterised by unique random patterns	412
+G06V  20/90	・	イメージセンサーをその出力データに基づいて識別するもの［２０２２．０１］	Identifying an image sensor based on its output data	50
+G06V  30/00		文字認識；デジタルインクの認識；文書指向イメージベースのパターン認識（文書または類似のものの走査，伝送または再生Ｈ０４Ｎ１／００）［２０２２．０１］<br><b><ul>注</ul></b><br>このグループは文字またはデジタルインクの認識を包含し，文字またはデジタルインクは三次元における表現，例．空中にジェスチャを行って描かれたもの，を含む場合がある。［２０２２．０１］	Character recognition; Recognising digital ink; Document-oriented image-based pattern recognition(scanning, transmission or reproduction of documents or the like H04N1/00);<br><br><b><u>Note(s)</u></b><br><br>This group <u>covers</u> recognition of characters or digital ink, where the characters or the digital ink can include representations in three dimensions, e.g. as written by performing gestures in the air.	221
+G06V  30/10	・	文字認識［２０２２．０１］	Character recognition	7264
+G06V  30/12	・・	エラーの検出または訂正，例．パターンの再走査によるもの［２０２２．０１］	Detection or correction of errors, e.g. by rescanning the pattern	611
+G06V  30/14	・・	イメージの入力［２０２２．０１］	Image acquisition	3406
+G06V  30/142	・・・	手で持つ器具を用いるもの；その器具の構造上の細部［２０２２．０１］	using hand-held instruments; Constructional details of the instruments	1068
+G06V  30/144	・・・	イメージ上を移動するスロットを用いるもの；予め設定した点のそれぞれに個々の感知素子を用いるもの；自動曲線追従装置を用いるもの［２０２２．０１］	using a slot moved over the image; using discrete sensing elements at predetermined points; using automatic curve following means	676
+G06V  30/146	・・・	イメージ入力器またはイメージフィールドの整列または中心合わせ［２０２２．０１］	Aligning or centering of the image pick-up or image-field	2668
+G06V  30/148	・・・	文字領域の分離［２０２２．０１］	Segmentation of character regions	5411
+G06V  30/16	・・	イメージの前処理［２０２２．０１］	Image preprocessing	714
+G06V  30/162	・・・	イメージ信号の量子化［２０２２．０１］	Quantising the image signal	990
+G06V  30/164	・・・	雑音除去［２０２２．０１］	Noise filtering	629
+G06V  30/166	・・・	パターンの大きさの正規化［２０２２．０１］	Normalisation of pattern dimensions	236
+G06V  30/168	・・・	パターンの平滑化または細線化；スケルトン化［２０２２．０１］	Smoothing or thinning of the pattern; Skeletonisation	236
+G06V  30/18	・・	イメージの特徴の抽出［２０２２．０１］	Extraction of features or characteristics of the image	4065
+G06V  30/182	・・・	パターンの輪郭のコード化によるもの［２０２２．０１］	by coding the contour of the pattern	236
+G06V  30/184	・・・	パターンを横断するセグメントの解析によるもの［２０２２．０１］	by analysing segments intersecting the pattern	97
+G06V  30/186	・・・	イメージ全体から数学的または幾何学的特徴を抽出することによるもの［２０２２．０１］	by deriving mathematical or geometrical properties from the whole image	157
+G06V  30/19	・・	電子的手段を用いる認識［２０２２．０１］	Recognition using electronic means	9739
+G06V  30/192	・・・	イメージ信号と多数のリファレンスを同時に比較するまたは同時に相関をとるもの［２０２２．０１］	using simultaneous comparisons or correlations of the image signals with a plurality of references	118
+G06V  30/194	・・・・	適応的手法，例．学習，によってリファレンスが調整可能なもの［２０２２．０１］	References adjustable by an adaptive method, e.g. learning	821
+G06V  30/196	・・・	イメージ信号と多数のリファレンスを順次比較するもの［２０２２．０１］	using sequential comparisons of the image signals with a plurality of references	214
+G06V  30/198	・・・・	前の比較結果に依存して次のリファレンスを選択するもの［２０２２．０１］	the selection of the next reference depending on the result of the preceding comparison	4
+G06V  30/199	・・	光学的参照マスク，例．ホログラフのマスク，を用いて認識をするための装置［２０２２．０１］	Arrangements for recognition using optical reference masks, e.g. holographic masks	29
+G06V  30/20	・・	入力，前処理または認識機能の組合せ［２０２２．０１］	Combination of acquisition, preprocessing or recognition functions	346
+G06V  30/22	・・	文字の種類によって特徴づけられるもの［２０２２．０１］	characterised by the type of writing	257
+G06V  30/222	・・・	スペースで分離された文字に関するもの［２０２２．０１］	of characters separated by spaces	12
+G06V  30/224	・・・	付加的にコードマークをもつかまたはコードマーク自体を含んでいる印刷文字に関するもの［２０２２．０１］	of printed characters having additional code marks or containing code marks	5084
+G06V  30/226	・・・	筆記体に関するもの［２０２２．０１］	of cursive writing	312
+G06V  30/228	・・・	三次元の手書き文字に関するもの，例．空中に描かれるもの［２０２２．０１］	of three-dimensional handwriting, e.g. writing in the air	37
+G06V  30/24	・・	処理方法または認識方法によって特徴づけられるもの（文字領域の分離Ｇ０６Ｖ３０／１４８）［２０２２．０１］	characterised by the processing or recognition method(segmentation of character regions G06V30/148)	518
+G06V  30/242	・・・	認識する前に文字列をグループに分けるもの；辞書の選択［２０２２．０１］	Division of the character sequences into groups prior to recognition; Selection of dictionaries	110
+G06V  30/244	・・・・	図式的な性質を用いるもの，例．アルファベットの書体またはフォント［２０２２．０１］	using graphical properties, e.g. alphabet type or font	357
+G06V  30/246	・・・・	言語の性質を用いるもの，例．英語またはドイツ語に特有のもの［２０２２．０１］	using linguistic properties, e.g. specific for English or German language	63
+G06V  30/26	・・	後処理のための技術，例．認識結果を修正するもの［２０２２．０１］	Techniques for post-processing, e.g. correcting the recognition result	331
+G06V  30/262	・・・	コンテキスト分析を用いるもの，例．語彙，構文または意味のコンテキスト［２０２２．０１］	using context analysis, e.g. lexical, syntactic or semantic context	731
+G06V  30/28	・・	アルファベットの種類に特に適したもの，例．ラテン文字［２０２２．０１］	specially adapted to the type of the alphabet, e.g. Latin alphabet	112
+G06V  30/30	・・	データの種類に基づくもの［２０２２．０１］	based on the type of data	122
+G06V  30/302	・・・	人間と自動コンピュータアクセスを区別するための文字を含むイメージ［２０２２．０１］	Images containing characters for discriminating human versus automated computer access	23
+G06V  30/304	・・・	楽譜［２０２２．０１］	Music notations	52
+G06V  30/32	・・	デジタルインク［２０２２．０１］	Digital ink	840
+G06V  30/40	・	文書指向イメージベースのパターン認識［２０２２．０１］	Document-oriented image-based pattern recognition	2299
+G06V  30/41	・・	文書コンテンツの分析（コードマークに基づく印刷文字の認識Ｇ０６Ｖ３０／２２４）［２０２２．０１］	Analysis of document content(recognition of printed characters based on code marks G06V30/224)	1497
+G06V  30/412	・・・	印刷された線または記入欄で構成された文書のレイアウト分析，例．業務用の書式または表［２０２２．０１］	Layout analysis of documents structured with printed lines or input boxes, e.g. business forms or tables	1855
+G06V  30/413	・・・	コンテンツのクラス分類，例．テキスト，写真または表［２０２２．０１］	Classification of content, e.g. text, photographs or tables	2174
+G06V  30/414	・・・	幾何学的構造の抽出，例．レイアウトツリー；ブロックセグメンテーション，例．グラフィック枠またはテキスト枠［２０２２．０１］	Extracting the geometrical structure, e.g. layout tree; Block segmentation, e.g. bounding boxes for graphics or text	1711
+G06V  30/416	・・・	論理構造，例．章，段落またはページ番号の抽出；文書の要素，例．著者を識別するもの［２０２２．０１］	Extracting the logical structure, e.g. chapters, sections or page numbers; Identifying elements of the document, e.g. authors	855
+G06V  30/418	・・・	文書のマッチング，例．文書イメージのマッチング［２０２２．０１］	Document matching, e.g. of document images	803
+G06V  30/42	・・	文書の種類に基づくもの［２０２２．０１］	based on the type of document	1285
+G06V  30/422	・・・	製図；地図［２０２２．０１］	Technical drawings; Geographical maps	1183
+G06V  30/424	・・・	郵便に関するイメージ，例．小包または郵便封筒のラベルまたは住所［２０２２．０１］	Postal images, e.g. labels or addresses on parcels or postal envelopes	94
+G06V  40/00		イメージまたはビデオデータにおける生体認証パターン，人間に関連するパターンまたは動物に関連するパターンの認識［２０２２．０１］	Recognition of biometric, human-related or animal-related patterns in image or video data	379
+G06V  40/10	・	人間または動物の身体，例．車両の乗員または歩行者；身体の部分，例．手［２０２２．０１］	Human or animal bodies, e.g. vehicle occupants or pedestrians; Body parts, e.g. hands	17182
+G06V  40/12	・・	指紋または掌紋［２０２２．０１］	Fingerprints or palmprints	4296
+G06V  40/13	・・・	そのためのセンサー［２０２２．０１］	Sensors therefor	7040
+G06V  40/14	・・	血管のパターン［２０２２．０１］	Vascular patterns	749
+G06V  40/145	・・・	そのためのセンサー［２０２２．０１］	Sensors therefor	395
+G06V  40/16	・・	人間の顔，例．顔の部分，スケッチまたは表情［２０２２．０１］	Human faces, e.g. facial parts, sketches or expressions	36403
+G06V  40/18	・・	眼の特徴，例．虹彩に関するもの［２０２２．０１］	Eye characteristics, e.g. of the iris	4619
+G06V  40/19	・・・	そのためのセンサー［２０２２．０１］	Sensors therefor	1312
+G06V  40/20	・	動きまたは振る舞い，例．ジェスチャーの認識（顔の表情の認識Ｇ０６Ｖ４０／１６）［２０２２．０１］	Movements or behaviour, e.g. gesture recognition(recognition of facial expressions G06V40/16)	19714
+G06V  40/30	・	筆者の認識；署名の読取りおよび検証［２０２２．０１］	Writer recognition; Reading and verifying signatures	375
+G06V  40/40	・	なりすましの検出，例．生体検知［２０２２．０１］	Spoof detection, e.g. liveness detection	2777
+G06V  40/50	・	生体認証データの保守または登録［２０２２．０１］	Maintenance of biometric data or enrolment thereof	908
+G06V  40/60	・	生体認証入力のために身体の部分を位置決めするようユーザを支援するための静的または動的手段［２０２２．０１］	Static or dynamic means for assisting the user to position a body part for biometric acquisition	400
+G06V  40/70	・	マルチモーダル生体認証，例．異なる生体認証モダリティの情報を組み合わせるもの［２０２２．０１］	Multimodal biometrics, e.g. combining information from different biometric modalities	1452

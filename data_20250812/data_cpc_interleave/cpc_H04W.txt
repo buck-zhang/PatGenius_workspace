@@ -1,0 +1,637 @@
+H04W4/00	7	Services specially adapted for wireless communication networks; Facilities therefor<br><br><u>NOTE</u><br><br>This group covers mobile application services or application service signalling for communication over wireless networks. <br>This group focuses on application services specially adapted for wireless networks or adjusted to the wireless environment.	H04W4/00	H04W4/00		5448
+H04W4/02	8	Services making use of location information	H04W4/02	H04W4/02		26782
+H04W4/021	9	Services related to particular areas, e.g. point of interest [POI] services, venue services or geofences	H04W4/021	H04W4/021		17903
+H04W4/022	10	{with dynamic range variability}	H04W4/021	H04W4/02		884
+H04W4/023	9	{using mutual or relative location information between multiple location based services [LBS] targets or of distance thresholds}	H04W4/02	H04W4/02		16836
+H04W4/024	9	Guidance services	H04W4/024	H04W4/024		5232
+H04W4/025	9	{using location based information parameters}	H04W4/02	H04W4/02		8573
+H04W4/026	10	{using orientation information, e.g. compass}	H04W4/02	H04W4/02		2138
+H04W4/027	10	{using movement velocity, acceleration information}	H04W4/02	H04W4/02		5167
+H04W4/029	9	Location-based management or tracking services	H04W4/029	H04W4/029		30120
+H04W4/06	8	Selective distribution of broadcast services, e.g. multimedia broadcast multicast service [MBMS]; Services to user groups; One-way selective calling services	H04W4/06	H04W4/06		15187
+H04W4/08	9	User group management	H04W4/08	H04W4/08		5883
+H04W4/10	9	Push-to-Talk [PTT] or Push-On-Call services	H04W4/10	H04W4/10		3218
+H04W4/12	8	Messaging; Mailboxes; Announcements	H04W4/12	H04W4/12		17225
+H04W4/14	9	Short messaging services, e.g. short message services [SMS] or unstructured supplementary service data [USSD]	H04W4/14	H04W4/14		13006
+H04W4/16	8	Communication-related supplementary services, e.g. call-transfer or call-hold	H04W4/16	H04W4/16		7332
+H04W4/18	8	Information format or content conversion, e.g. adaptation by the network of the transmitted or received information for the purpose of wireless delivery to users or terminals	H04W4/18	H04W4/18		4851
+H04W4/185	9	{by embedding added-value information into content, e.g. geo-tagging}	H04W4/18	H04W4/18		818
+H04W4/20	8	Services signaling; Auxiliary data signalling, i.e. transmitting data via a non-traffic channel	H04W4/20	H04W4/20		4468
+H04W4/203	9	{for converged personal network application service interworking, e.g. OMA converged personal network services [CPNS]}	H04W4/20	H04W4/20		192
+H04W4/21	9	for social networking applications	H04W4/21	H04W4/21		3780
+H04W4/23	9	for mobile advertising	H04W4/23	H04W4/23		715
+H04W4/24	8	Accounting or billing<br><br><u>WARNING</u><br>Group H04W4/24 is incomplete pending reclassification of documents from group G06Q50/40. <br>Groups G06Q50/40 and H04W4/24 should be considered in order to perform a complete search.	H04W4/24	H04W4/24		8381
+H04W4/30	8	Services specially adapted for particular environments, situations or purposes	H04W4/30	H04W4/30		3706
+H04W4/33	9	for indoor environments, e.g. buildings	H04W4/33	H04W4/33		6353
+H04W4/35	9	for the management of goods or merchandise	H04W4/35	H04W4/35		1681
+H04W4/38	9	for collecting sensor information	H04W4/38	H04W4/38		15060
+H04W4/40	9	for vehicles, e.g. vehicle-to-pedestrians [V2P]	H04W4/40	H04W4/40		20019
+H04W4/42	10	for mass transport vehicles, e.g. buses, trains or aircraft	H04W4/42	H04W4/42		2792
+H04W4/44	10	for communication between vehicles and infrastructures, e.g. vehicle-to-cloud [V2C] or vehicle-to-home [V2H]	H04W4/44	H04W4/44		10877
+H04W4/46	10	for vehicle-to-vehicle communication [V2V]	H04W4/46	H04W4/46		5582
+H04W4/48	10	for in-vehicle communication	H04W4/48	H04W4/48		4151
+H04W4/50	8	Service provisioning or reconfiguring	H04W4/50	H04W4/50		6530
+H04W4/60	8	Subscription-based services using application servers or record carriers, e.g. SIM application toolkits	H04W4/60	H04W4/60		4417
+H04W4/70	8	Services for machine-to-machine communication [M2M] or machine type communication [MTC]	H04W4/70	H04W4/70		16564
+H04W4/80	8	Services using short range communication, e.g. near-field communication [NFC], radio-frequency identification [RFID] or low energy communication	H04W4/80	H04W4/80		46976
+H04W4/90	8	Services for handling of emergency or hazardous situations, e.g. earthquake and tsunami warning systems [ETWS]	H04W4/90	H04W4/90		12085
+H04W8/00	7	Network data management	H04W8/00	H04W8/00		992
+H04W8/005	8	{Discovery of network devices, e.g. terminals}	H04W8/00	H04W8/00		10232
+H04W8/02	8	Processing of mobility data, e.g. registration information at HLR [Home Location Register] or VLR [Visitor Location Register]; Transfer of mobility data, e.g. between HLR, VLR or external networks	H04W8/02	H04W8/02		4012
+H04W8/04	9	Registration at HLR or HSS [Home Subscriber Server]	H04W8/04	H04W8/04		5156
+H04W8/06	9	Registration at serving network Location Register, VLR or user mobility server	H04W8/06	H04W8/06		1671
+H04W8/065	10	{involving selection of the user mobility server}	H04W8/06	H04W8/06		358
+H04W8/08	9	Mobility data transfer	H04W8/08	H04W8/08		3173
+H04W8/082	10	{for traffic bypassing of mobility servers, e.g. location registers, home PLMNs or home agents}	H04W8/08	H04W8/08		912
+H04W8/085	10	{involving hierarchical organized mobility servers, e.g. hierarchical mobile IP [HMIP]}	H04W8/08	H04W8/08		228
+H04W8/087	10	{for preserving data network PoA address despite hand-offs}	H04W8/08	H04W8/08		195
+H04W8/10	10	between location register and external networks	H04W8/10	H04W8/10		544
+H04W8/12	10	between location registers or mobility servers	H04W8/12	H04W8/12		1928
+H04W8/14	10	between corresponding nodes	H04W8/14	H04W8/14		975
+H04W8/16	10	selectively restricting mobility {data} tracking	H04W8/16	H04W8/16		363
+H04W8/18	8	Processing of user or subscriber data, e.g. subscribed services, user preferences or user profiles; Transfer of user or subscriber data	H04W8/18	H04W8/18		7448
+H04W8/183	9	{Processing at user equipment or user record carrier}	H04W8/18	H04W8/18		5701
+H04W8/186	9	{Processing of subscriber group data}	H04W8/18	H04W8/18		1453
+H04W8/20	9	Transfer of user or subscriber data	H04W8/20	H04W8/20		3587
+H04W8/205	10	{Transfer to or from user equipment or user record carrier}	H04W8/20	H04W8/20		3523
+H04W8/22	8	Processing or transfer of terminal data, e.g. status or physical capabilities	H04W8/22	H04W8/22		5713
+H04W8/24	9	Transfer of terminal data	H04W8/24	H04W8/24		8401
+H04W8/245	10	{from a network towards a terminal}	H04W8/24	H04W8/24		3663
+H04W8/26	8	Network addressing or numbering for mobility support	H04W8/26	H04W8/26		8589
+H04W8/265	9	{for initial activation of new user}	H04W8/26	H04W8/26		836
+H04W8/28	9	Number portability {; Network address portability}	H04W8/28	H04W8/28		621
+H04W8/30	8	Network data restoration; {Network data reliability; Network data fault tolerance}	H04W8/30	H04W8/30		479
+H04W12/00	7	Security arrangements; Authentication; Protecting privacy or anonymity	H04W12/00	H04W12/00		1021
+H04W12/009	8	{specially adapted for networks, e.g. wireless sensor networks, ad-hoc networks, RFID networks or cloud networks}	H04W12/00	H04W12/00		1873
+H04W12/02	8	Protecting privacy or anonymity, e.g. protecting personally identifiable information [PII]	H04W12/02	H04W12/02		9461
+H04W12/03	8	Protecting confidentiality, e.g. by encryption	H04W12/03	H04W12/03		6269
+H04W12/033	9	of the user plane, e.g. user&apos;s traffic	H04W12/033	H04W12/033		3513
+H04W12/037	9	of the control plane, e.g. signalling traffic	H04W12/037	H04W12/037		1357
+H04W12/04	8	Key management, e.g. using generic bootstrapping architecture [GBA]	H04W12/04	H04W12/04		6167
+H04W12/041	9	Key generation or derivation	H04W12/041	H04W12/041		4213
+H04W12/043	9	using a trusted network node as an anchor	H04W12/043	H04W12/043		470
+H04W12/0431	10	Key distribution or pre-distribution; Key agreement	H04W12/0431	H04W12/0431		2865
+H04W12/0433	10	Key management protocols	H04W12/0433	H04W12/0433		1235
+H04W12/047	9	without using a trusted network node as an anchor	H04W12/047	H04W12/047		153
+H04W12/0471	10	Key exchange	H04W12/0471	H04W12/0471		752
+H04W12/06	8	Authentication	H04W12/06	H04W12/06		30926
+H04W12/062	9	Pre-authentication	H04W12/062	H04W12/062		1374
+H04W12/065	9	Continuous authentication	H04W12/065	H04W12/065		1028
+H04W12/068	9	{using credential vaults, e.g. password manager applications or one time password [OTP] applications}	H04W12/06	H04W12/06		3962
+H04W12/069	9	using certificates or pre-shared keys	H04W12/069	H04W12/069		6136
+H04W12/08	8	Access security	H04W12/08	H04W12/08		13684
+H04W12/082	9	using revocation of authorisation	H04W12/082	H04W12/082		1182
+H04W12/084	9	using delegated authorisation, e.g. open authorisation [OAuth] protocol	H04W12/084	H04W12/084		1539
+H04W12/086	9	using security domains	H04W12/086	H04W12/086		920
+H04W12/088	9	using filters or firewalls	H04W12/088	H04W12/088		1379
+H04W12/10	8	Integrity	H04W12/10	H04W12/10		2120
+H04W12/102	9	Route integrity, e.g. using trusted paths	H04W12/102	H04W12/102		191
+H04W12/104	9	Location integrity, e.g. secure geotagging	H04W12/104	H04W12/104		294
+H04W12/106	9	Packet or message integrity	H04W12/106	H04W12/106		2434
+H04W12/108	9	Source integrity	H04W12/108	H04W12/108		857
+H04W12/12	8	Detection or prevention of fraud	H04W12/12	H04W12/12		4013
+H04W12/121	9	Wireless intrusion detection systems [WIDS]; Wireless intrusion prevention systems [WIPS]	H04W12/121	H04W12/121		1023
+H04W12/122	10	Counter-measures against attacks; Protection against rogue devices	H04W12/122	H04W12/122		3713
+H04W12/125	9	Protection against power exhaustion attacks	H04W12/125	H04W12/125		125
+H04W12/126	9	Anti-theft arrangements, e.g. protection against subscriber identity module [SIM] cloning	H04W12/126	H04W12/126		1636
+H04W12/128	9	Anti-malware arrangements, e.g. protection against SMS fraud or mobile malware	H04W12/128	H04W12/128		1366
+H04W12/30	8	Security of mobile devices; Security of mobile applications	H04W12/30	H04W12/30		927
+H04W12/33	9	using wearable devices, e.g. using a smartwatch or smart-glasses	H04W12/33	H04W12/33		927
+H04W12/35	9	{Protecting application or service provisioning, e.g. securing SIM application provisioning}	H04W12/30	H04W12/35		2313
+H04W12/37	9	Managing security policies for mobile devices or for controlling mobile applications	H04W12/37	H04W12/37		1679
+H04W12/40	8	Security arrangements using identity modules	H04W12/40	H04W12/40		1035
+H04W12/42	9	using virtual identity modules	H04W12/42	H04W12/42		219
+H04W12/43	9	using shared identity modules, e.g. SIM sharing	H04W12/43	H04W12/43		392
+H04W12/45	9	using multiple identity modules	H04W12/45	H04W12/45		373
+H04W12/47	9	using near field communication [NFC] or radio frequency identification [RFID] modules	H04W12/47	H04W12/47		920
+H04W12/48	9	using secure binding, e.g. securely binding identity modules to devices, services or applications	H04W12/48	H04W12/48		428
+H04W12/50	8	Secure pairing of devices	H04W12/50	H04W12/50		4301
+H04W12/55	9	involving three or more devices, e.g. group pairing	H04W12/55	H04W12/55		265
+H04W12/60	8	Context-dependent security	H04W12/60	H04W12/60		321
+H04W12/61	9	Time-dependent	H04W12/61	H04W12/61		1622
+H04W12/63	9	Location-dependent; Proximity-dependent	H04W12/63	H04W12/63		4260
+H04W12/64	10	using geofenced areas	H04W12/64	H04W12/64		1036
+H04W12/65	9	Environment-dependent, e.g. using captured environmental data	H04W12/65	H04W12/65		869
+H04W12/66	9	{Trust-dependent, e.g. using trust scores or trust relationships}	H04W12/60	H04W12/66		529
+H04W12/67	9	Risk-dependent, e.g. selecting a security level depending on risk profiles	H04W12/67	H04W12/67		625
+H04W12/68	9	Gesture-dependent or behaviour-dependent	H04W12/68	H04W12/68		1015
+H04W12/69	9	Identity-dependent	H04W12/69	H04W12/69		1129
+H04W12/71	10	Hardware identity	H04W12/71	H04W12/71		2094
+H04W12/72	10	Subscriber identity	H04W12/72	H04W12/72		2005
+H04W12/73	10	Access point logical identity	H04W12/73	H04W12/73		601
+H04W12/75	10	Temporary identity	H04W12/75	H04W12/75		548
+H04W12/76	10	Group identity	H04W12/76	H04W12/76		231
+H04W12/77	10	Graphical identity	H04W12/77	H04W12/77		1443
+H04W12/79	10	Radio fingerprint	H04W12/79	H04W12/79		558
+H04W12/80	8	Arrangements enabling lawful interception [LI]	H04W12/80	H04W12/80		533
+H04W16/00	7	Network planning, e.g. coverage or traffic planning tools; Network deployment, e.g. resource partitioning or cells structures	H04W16/00	H04W16/00		670
+H04W16/02	8	Resource partitioning among network components, e.g. reuse partitioning	H04W16/02	H04W16/02		1459
+H04W16/04	9	Traffic adaptive resource partitioning	H04W16/04	H04W16/04		820
+H04W16/06	9	Hybrid resource partitioning, e.g. channel borrowing	H04W16/06	H04W16/06		582
+H04W16/08	10	Load shedding arrangements	H04W16/08	H04W16/08		486
+H04W16/10	9	Dynamic resource partitioning	H04W16/10	H04W16/10		3491
+H04W16/12	9	Fixed resource partitioning	H04W16/12	H04W16/12		764
+H04W16/14	8	Spectrum sharing arrangements {between different networks}	H04W16/14	H04W16/14		11077
+H04W16/16	9	for PBS [Private Base Station] arrangements	H04W16/16	H04W16/16		414
+H04W16/18	8	Network planning tools	H04W16/18	H04W16/18		7683
+H04W16/20	9	for indoor coverage or short range network deployment	H04W16/20	H04W16/20		1341
+H04W16/22	8	Traffic simulation tools or models	H04W16/22	H04W16/22		2808
+H04W16/225	9	{for indoor or short range network}	H04W16/22	H04W16/22		275
+H04W16/24	8	Cell structures	H04W16/24	H04W16/24		1554
+H04W16/26	9	Cell enhancers {or enhancement}, e.g. for tunnels, building shadow	H04W16/26	H04W16/26		2977
+H04W16/28	9	using beam steering	H04W16/28	H04W16/28		8539
+H04W16/30	9	Special cell shapes, e.g. doughnuts or ring cells	H04W16/30	H04W16/30		252
+H04W16/32	9	Hierarchical cell structures	H04W16/32	H04W16/32		2415
+H04W24/00	7	Supervisory, monitoring or testing arrangements	H04W24/00	H04W24/00		8233
+H04W24/02	8	Arrangements for optimising operational condition	H04W24/02	H04W24/02		33286
+H04W24/04	8	Arrangements for maintaining operational condition	H04W24/04	H04W24/04		11466
+H04W24/06	8	Testing, {supervising or monitoring} using simulated traffic	H04W24/06	H04W24/06		5997
+H04W24/08	8	Testing, {supervising or monitoring} using real traffic	H04W24/08	H04W24/08		28360
+H04W24/10	8	Scheduling measurement reports {; Arrangements for measurement reports}	H04W24/10	H04W24/10		24621
+H04W28/00	7	Network traffic management; Network resource management	H04W28/00	H04W28/00		432
+H04W28/02	8	Traffic management, e.g. flow control or congestion control	H04W28/02	H04W28/02		4406
+H04W28/0205	9	{at the air interface (dynamic wireless traffic scheduling H04W72/12)}	H04W28/02	H04W28/02		1141
+H04W28/021	9	{in wireless networks with changing topologies, e.g. ad-hoc networks (self-organizing networks H04W84/18)}	H04W28/02	H04W28/02		470
+H04W28/0215	9	{based on user or device properties, e.g. MTC-capable devices (services for machine-to-machine communication [M2M] or machine type communication [MTC] H04W4/70; wireless resource selection or allocation plan definition based on terminal or device properties H04W72/51)}	H04W28/02	H04W28/02		1499
+H04W28/0221	10	{power availability or consumption}	H04W28/02	H04W28/02		762
+H04W28/0226	9	{based on location or mobility (handoff or reselection H04W36/00; mobile application services making use of the location of users or terminals H04W4/02)}	H04W28/02	H04W28/02		1175
+H04W28/0231	9	{based on communication conditions (dynamic wireless traffic scheduling definition based on channel quality criteria H04W72/54)}	H04W28/02	H04W28/02		1371
+H04W28/0236	10	{radio quality, e.g. interference, losses or delay}	H04W28/02	H04W28/02		2711
+H04W28/0242	10	{Determining whether packet losses are due to overload or to deterioration of radio communication conditions}	H04W28/02	H04W28/02		218
+H04W28/0247	9	{based on conditions of the access network or the infrastructure network (central resource management H04W28/16)}	H04W28/02	H04W28/02		869
+H04W28/0252	9	{per individual bearer or channel (dynamic wireless traffic scheduling H04W72/12)}	H04W28/02	H04W28/02		1226
+H04W28/0257	10	{the individual bearer or channel having a maximum bit rate or a bit rate guarantee}	H04W28/02	H04W28/02		326
+H04W28/0263	10	{involving mapping traffic to individual bearers or channels, e.g. traffic flow template [TFT]}	H04W28/02	H04W28/02		1008
+H04W28/0268	9	{using specific QoS parameters for wireless networks, e.g. QoS class identifier [QCI] or guaranteed bit rate [GBR] (negotiating SLA or negotiating QoS H04W28/24)}	H04W28/02	H04W28/02		4656
+H04W28/0273	9	{adapting protocols for flow control or congestion control to wireless environment, e.g. adapting transmission control protocol [TCP] (wireless network protocols or protocol adaptations to wireless operation, e.g. wireless application protocol H04W80/00)}	H04W28/02	H04W28/02		684
+H04W28/0278	9	{using buffer status reports (dynamic wireless traffic scheduling definition H04W72/12)}	H04W28/02	H04W28/02		2449
+H04W28/0284	9	{detecting congestion or overload during communication (monitoring arrangements H04L43/00)}	H04W28/02	H04W28/02		1510
+H04W28/0289	9	{Congestion control (load shedding arrangements in network planning H04W16/08; performing reselection for handling the traffic H04W36/22; wireless traffic scheduling H04W72/12)}	H04W28/02	H04W28/02		2711
+H04W28/0294	9	{forcing collision (non-scheduled or contention based wireless access channel H04W74/08)}	H04W28/02	H04W28/02		94
+H04W28/04	9	Error control<br><br><u>NOTE</u><br><br>When classifying in this group, classification is also made in the appropriate groups under H04L1/00.	H04W28/04	H04W28/04		4448
+H04W28/06	9	Optimizing {the usage of the radio link}, e.g. header compression, information sizing {, discarding information (system modifying transmission characteristic according to link quality by modifying frame length H04L1/0007; dynamic adaptation of the packet size for flow control or congestion control H04L47/365)}	H04W28/06	H04W28/06		8935
+H04W28/065	10	{using assembly or disassembly of packets}	H04W28/06	H04W28/06		2528
+H04W28/08	9	Load balancing or load distribution (transferring a connection for handling the traffic&#160;H04W36/22; wireless traffic scheduling&#160;H04W72/12)	H04W28/08	H04W28/08		2155
+H04W28/082	10	among bearers or channels	H04W28/082	H04W28/082		996
+H04W28/0827	10	{Triggering entity}	H04W28/08	H04W28/082		17
+H04W28/0831	11	{Core entity}	H04W28/08	H04W28/08		98
+H04W28/0835	11	{Access entity, e.g. eNB}	H04W28/08	H04W28/08		113
+H04W28/0838	11	{User device}	H04W28/08	H04W28/08		90
+H04W28/084	10	among network function virtualisation [NFV] entities; among edge computing entities, e.g. multi-access edge computing	H04W28/084	H04W28/084		545
+H04W28/0846	10	{between network providers, e.g. operators (selecting a network or a communication service H04W40/18)}	H04W28/08	H04W28/084		159
+H04W28/0858	10	{among entities in the uplink}	H04W28/08	H04W28/08		108
+H04W28/086	10	among access entities	H04W28/086	H04W28/086		303
+H04W28/0861	11	{between base stations}	H04W28/086	H04W28/086		523
+H04W28/0862	12	{of same hierarchy level}	H04W28/086	H04W28/086		124
+H04W28/0864	12	{of different hierarchy levels, e.g. Master Evolved Node B [MeNB] or Secondary Evolved node B [SeNB]}	H04W28/086	H04W28/086		151
+H04W28/0865	12	{of different Radio Access Technologies [RATs], e.g. LTE or WiFi}	H04W28/086	H04W28/086		328
+H04W28/0866	11	{between wireless and wire-based access points, e.g. via LTE and via DSL connected access points}	H04W28/086	H04W28/086		24
+H04W28/0867	10	{among entities in the downlink}	H04W28/08	H04W28/086		50
+H04W28/0875	10	{to or through Device to Device [D2D] links, e.g. direct-mode links}	H04W28/08	H04W28/08		139
+H04W28/088	10	among core entities	H04W28/088	H04W28/088		304
+H04W28/0883	10	{between entities in ad-hoc networks}	H04W28/08	H04W28/088		42
+H04W28/0892	11	{between different intermediate nodes}	H04W28/08	H04W28/08		20
+H04W28/09	10	{Management thereof}	H04W28/08	H04W28/09		401
+H04W28/0908	11	{based on time, e.g. for a critical period only}	H04W28/08	H04W28/0908		187
+H04W28/0917	11	{based on the energy state of entities}	H04W28/08	H04W28/0917		405
+H04W28/0925	11	{using policies}	H04W28/08	H04W28/0925		1333
+H04W28/0933	12	{based on load-splitting ratios}	H04W28/08	H04W28/0933		132
+H04W28/0942	12	{based on measured or predicted load of entities- or links}	H04W28/08	H04W28/0942		542
+H04W28/095	12	{based on usage history, e.g. usage history of devices}	H04W28/08	H04W28/095		75
+H04W28/0958	11	{based on metrics or performance parameters}	H04W28/08	H04W28/0958		741
+H04W28/0967	12	{Quality of Service [QoS] parameters}	H04W28/08	H04W28/0967		578
+H04W28/0975	13	{for reducing delays}	H04W28/08	H04W28/0975		811
+H04W28/0983	13	{for optimizing bandwidth or throughput}	H04W28/08	H04W28/0983		279
+H04W28/0992	11	{based on the type of application}	H04W28/08	H04W28/0992		104
+H04W28/10	9	Flow control {between communication endpoints}	H04W28/10	H04W28/10		3504
+H04W28/12	10	using signalling between network elements	H04W28/12	H04W28/12		1168
+H04W28/14	10	using intermediate storage	H04W28/14	H04W28/14		2598
+H04W28/16	8	Central resource management; Negotiation of resources or communication parameters, e.g. negotiating bandwidth or QoS [Quality of Service]	H04W28/16	H04W28/16		4357
+H04W28/18	9	Negotiating wireless communication parameters	H04W28/18	H04W28/18		5503
+H04W28/20	10	Negotiating bandwidth	H04W28/20	H04W28/20		2242
+H04W28/22	10	Negotiating communication rate	H04W28/22	H04W28/22		2834
+H04W28/24	9	Negotiating SLA [Service Level Agreement]; Negotiating QoS [Quality of Service]	H04W28/24	H04W28/24		4196
+H04W28/26	9	Resource reservation	H04W28/26	H04W28/26		3150
+H04W36/00	7	Hand-off or reselection arrangements<br><br><u>NOTE</u><br><br>In this group, local priority rules supersede the first-place priority rule (FPPR) applying throughout H04W	H04W36/00	H04W36/00		3146
+H04W36/0005	8	{Control or signalling for completing the hand-off}	H04W36/00	H04W36/00		993
+H04W36/0007	9	{for multicast or broadcast services, e.g. MBMS (multicast or broadcast application services H04W4/06; resource management for broadcast services H04W72/30; connection management for selective distribution or broadcast H04W76/40)}	H04W36/00	H04W36/00		931
+H04W36/0009	9	{for a plurality of users or terminals, e.g. group communication or moving wireless networks (user group management H04W4/08; processing of subscriber group data H04W8/186)}	H04W36/00	H04W36/00		529
+H04W36/0011	9	{for data sessions of end-to-end connection}	H04W36/00	H04W36/00		2412
+H04W36/0016	10	{Hand-off preparation specially adapted for end-to-end data sessions}	H04W36/00	H04W36/00		1984
+H04W36/0019	10	{adapted for mobile IP [MIP]}	H04W36/00	H04W36/00		719
+H04W36/0022	10	{for transferring data sessions between adjacent core network technologies}	H04W36/00	H04W36/00		1281
+H04W36/00222	11	{between different packet switched [PS] network technologies, e.g. transferring data sessions between LTE and WLAN or LTE and 5G}	H04W36/00	H04W36/00		277
+H04W36/00224	11	{between packet switched [PS] and circuit switched [CS] network technologies, e.g. circuit switched fallback [CSFB]}	H04W36/00	H04W36/00		680
+H04W36/00226	12	{wherein the core network technologies comprise IP multimedia system [IMS], e.g. single radio voice call continuity [SRVCC]}	H04W36/00	H04W36/00		733
+H04W36/0027	10	{for a plurality of data sessions of end-to-end connections, e.g. multi-call or multi-bearer end-to-end data connections}	H04W36/00	H04W36/00		860
+H04W36/0033	10	{with transfer of context information}	H04W36/00	H04W36/00		2452
+H04W36/0038	11	{of security context information}	H04W36/00	H04W36/00		948
+H04W36/0044	11	{of quality context information}	H04W36/00	H04W36/00		363
+H04W36/005	9	{involving radio access media independent information, e.g. MIH [Media independent Hand-off]}	H04W36/00	H04W36/00		349
+H04W36/0055	9	{Transmission or use of information for re-establishing the radio link}	H04W36/00	H04W36/00		3014
+H04W36/0058	10	{Transmission of hand-off measurement information, e.g. measurement reports}	H04W36/00	H04W36/00		3805
+H04W36/0061	10	{of neighbour cell information}	H04W36/00	H04W36/00		3519
+H04W36/0064	10	{of control information between different access points}	H04W36/00	H04W36/00		1050
+H04W36/0066	10	{of control information between different types of networks in order to establish a new radio link in the target network}	H04W36/00	H04W36/00		1811
+H04W36/0069	10	{in case of dual connectivity, e.g. decoupled uplink/downlink}	H04W36/00	H04W36/00		1587
+H04W36/00692	11	{using simultaneous multiple data streams, e.g. cooperative multipoint [CoMP], carrier aggregation [CA] or multiple input multiple output [MIMO] (allocation of physical resources in CoMP or in CA H04L5/0035)}	H04W36/00	H04W36/00		1036
+H04W36/00695	11	{using split of the control plane or user plane}	H04W36/00	H04W36/00		297
+H04W36/00698	11	{using different RATs}	H04W36/00	H04W36/00		678
+H04W36/0072	10	{of resource information of target access point}	H04W36/00	H04W36/00		2215
+H04W36/00725	11	{Random access channel [RACH]-less handover}	H04W36/00	H04W36/00		198
+H04W36/0077	10	{of access information of target access point}	H04W36/00	H04W36/00		1064
+H04W36/0079	10	{in case of hand-off failure or rejection}	H04W36/00	H04W36/00		1399
+H04W36/0083	9	{Determination of parameters used for hand-off, e.g. generation or modification of neighbour cell lists}	H04W36/00	H04W36/00		2283
+H04W36/00833	10	{Handover statistics}	H04W36/00	H04W36/00		170
+H04W36/00835	10	{Determination of neighbour cell lists}	H04W36/00	H04W36/00		1955
+H04W36/008355	11	{Determination of target cell based on user equipment [UE] properties, e.g. UE service capabilities}	H04W36/00	H04W36/00		142
+H04W36/008357	11	{Determination of target cell based on access point [AP] properties, e.g. AP service capabilities}	H04W36/00	H04W36/00		248
+H04W36/00837	10	{Determination of triggering parameters for hand-off}	H04W36/00	H04W36/00		2040
+H04W36/008375	11	{based on historical data}	H04W36/00	H04W36/00		823
+H04W36/00838	10	{Resource reservation for handover}	H04W36/00	H04W36/00		439
+H04W36/0085	10	{Hand-off measurements}	H04W36/00	H04W36/00		4393
+H04W36/0088	11	{Scheduling hand-off measurements}	H04W36/00	H04W36/00		1960
+H04W36/0094	11	{Definition of hand-off measurement parameters}	H04W36/00	H04W36/00		1506
+H04W36/02	8	Buffering or recovering information during reselection {; Modification of the traffic flow during hand-off}	H04W36/02	H04W36/02		1438
+H04W36/023	9	{Buffering or recovering information during reselection}	H04W36/02	H04W36/02		478
+H04W36/0235	10	{by transmitting sequence numbers, e.g. SN status transfer}	H04W36/02	H04W36/02		202
+H04W36/026	9	{Multicasting of data during hand-off}	H04W36/02	H04W36/02		204
+H04W36/03	8	{Reselecting a link using a direct mode connection}	H04W36/00	H04W36/03		222
+H04W36/033	9	{in pre-organised networks}	H04W36/00	H04W36/033		421
+H04W36/035	9	{in self-organising networks}	H04W36/00	H04W36/035		141
+H04W36/037	9	{by reducing handover delay, e.g. latency}	H04W36/00	H04W36/037		161
+H04W36/04	8	Reselecting a cell layer in multi-layered cells	H04W36/04	H04W36/04		1814
+H04W36/06	8	Reselecting a communication resource in the serving access point	H04W36/06	H04W36/06		2335
+H04W36/08	8	Reselecting an access point	H04W36/08	H04W36/08		9666
+H04W36/083	9	{wherein at least one of the access points is a moving node}	H04W36/08	H04W36/08		526
+H04W36/085	9	{involving beams of access points}	H04W36/08	H04W36/08		506
+H04W36/087	9	{between radio units of access points}	H04W36/08	H04W36/08		583
+H04W36/10	8	Reselecting an access point controller	H04W36/10	H04W36/10		405
+H04W36/12	8	Reselecting a serving backbone network switching or routing node	H04W36/12	H04W36/12		1589
+H04W36/125	9	{involving different types of service backbones}	H04W36/12	H04W36/12		254
+H04W36/13	8	{Cell handover without a predetermined boundary, e.g. virtual cells}	H04W36/00	H04W36/13		348
+H04W36/14	8	Reselecting a network or an air interface	H04W36/14	H04W36/14		5135
+H04W36/142	9	{over the same radio air interface technology}	H04W36/14	H04W36/14		521
+H04W36/144	9	{over a different radio air interface technology}	H04W36/14	H04W36/14		998
+H04W36/1443	10	{between licensed networks}	H04W36/14	H04W36/14		1121
+H04W36/1446	10	{wherein at least one of the networks is unlicensed}	H04W36/14	H04W36/14		1199
+H04W36/16	8	Performing reselection for specific purposes	H04W36/16	H04W36/16		764
+H04W36/165	9	{for reducing network power consumption (H04W36/18 - H04W36/22 take precedence)}	H04W36/16	H04W36/16		959
+H04W36/18	9	for allowing seamless reselection, e.g. soft reselection	H04W36/18	H04W36/18		3071
+H04W36/185	10	{using make before break}	H04W36/18	H04W36/18		360
+H04W36/20	9	for optimising the interference level	H04W36/20	H04W36/20		618
+H04W36/22	9	for handling the traffic	H04W36/22	H04W36/22		2763
+H04W36/24	8	Reselection being triggered by specific parameters	H04W36/24	H04W36/24		1105
+H04W36/247	9	{by using coverage extension}	H04W36/24	H04W36/24		110
+H04W36/249	9	{according to timing information}	H04W36/24	H04W36/24		653
+H04W36/26	9	by agreed or negotiated communication parameters	H04W36/26	H04W36/26		1071
+H04W36/28	10	involving a plurality of connections, e.g. multi-call or multi-bearer connections	H04W36/28	H04W36/28		363
+H04W36/30	9	by measured or perceived connection quality data	H04W36/30	H04W36/30		4960
+H04W36/302	10	{due to low signal strength}	H04W36/30	H04W36/30		2747
+H04W36/304	10	{due to measured or perceived resources with higher communication quality}	H04W36/30	H04W36/30		1301
+H04W36/305	10	{Handover due to radio link failure (control signalling for hand-off failure H04W36/0079)}	H04W36/30	H04W36/30		1486
+H04W36/32	9	by location or mobility data, e.g. speed data	H04W36/32	H04W36/32		1837
+H04W36/322	10	{by location data}	H04W36/32	H04W36/32		1501
+H04W36/324	10	{by mobility data, e.g. speed data}	H04W36/32	H04W36/32		1029
+H04W36/326	10	{by proximity to another entity}	H04W36/32	H04W36/32		263
+H04W36/328	10	{by altitude}	H04W36/32	H04W36/32		159
+H04W36/34	8	Reselection control	H04W36/34	H04W36/34		549
+H04W36/36	9	by user or terminal equipment	H04W36/36	H04W36/36		1187
+H04W36/362	10	{Conditional handover}	H04W36/36	H04W36/36		1509
+H04W36/365	10	{by manual user interaction}	H04W36/36	H04W36/36		109
+H04W36/38	9	by fixed network equipment	H04W36/38	H04W36/38		1412
+H04W36/385	10	{of the core network}	H04W36/38	H04W36/38		439
+H04W40/00	7	Communication routing or communication path finding	H04W40/00	H04W40/00		1267
+H04W40/005	8	{Routing actions in the presence of nodes in sleep or doze mode}	H04W40/00	H04W40/00		274
+H04W40/02	8	Communication route or path selection, e.g. power-based or shortest path routing	H04W40/02	H04W40/02		5599
+H04W40/023	9	{Limited or focused flooding to selected areas of a network}	H04W40/02	H04W40/02		223
+H04W40/026	9	{Route selection considering the moving speed of individual devices}	H04W40/02	H04W40/02		214
+H04W40/04	9	based on wireless node resources	H04W40/04	H04W40/04		1370
+H04W40/06	10	based on characteristics of available antennas	H04W40/06	H04W40/06		212
+H04W40/08	10	based on transmission power	H04W40/08	H04W40/08		514
+H04W40/10	10	based on available power or energy	H04W40/10	H04W40/10		2043
+H04W40/12	9	based on transmission quality or channel quality	H04W40/12	H04W40/12		3454
+H04W40/125	10	{using a measured number of retransmissions as a link metric}	H04W40/12	H04W40/12		134
+H04W40/14	10	based on stability	H04W40/14	H04W40/14		310
+H04W40/16	10	based on interference	H04W40/16	H04W40/16		524
+H04W40/18	9	based on predicted events	H04W40/18	H04W40/18		440
+H04W40/20	9	based on geographic position or location	H04W40/20	H04W40/20		2619
+H04W40/205	10	{using topographical information, e.g. hills, high rise buildings}	H04W40/20	H04W40/20		69
+H04W40/22	9	using selective relaying for reaching a BTS [Base Transceiver Station] or an access point	H04W40/22	H04W40/22		5302
+H04W40/24	8	Connectivity information management, e.g. connectivity discovery or connectivity update	H04W40/24	H04W40/24		2895
+H04W40/242	9	{aging of topology database entries}	H04W40/24	H04W40/24		56
+H04W40/244	9	{using a network of reference devices, e.g. beaconing}	H04W40/24	H04W40/24		714
+H04W40/246	9	{Connectivity information discovery}	H04W40/24	H04W40/24		2231
+H04W40/248	9	{Connectivity information update}	H04W40/24	H04W40/24		2398
+H04W40/26	9	for hybrid routing by combining proactive and reactive routing	H04W40/26	H04W40/26		185
+H04W40/28	9	for reactive routing	H04W40/28	H04W40/28		563
+H04W40/30	9	for proactive routing	H04W40/30	H04W40/30		353
+H04W40/32	9	for defining a routing cluster membership	H04W40/32	H04W40/32		1849
+H04W40/34	8	Modification of an existing route	H04W40/34	H04W40/34		798
+H04W40/36	9	due to handover	H04W40/36	H04W40/36		1067
+H04W40/38	9	adapting due to varying relative distances between nodes	H04W40/38	H04W40/38		203
+H04W48/00	7	Access restriction (access security to prevent unauthorised access H04W12/08); Network selection; Access point selection	H04W48/00	H04W48/00		510
+H04W48/02	8	Access restriction performed under specific conditions	H04W48/02	H04W48/02		3538
+H04W48/04	9	based on user or terminal location or mobility data, e.g. moving direction, speed	H04W48/04	H04W48/04		2492
+H04W48/06	9	based on traffic conditions	H04W48/06	H04W48/06		1771
+H04W48/08	8	Access restriction or access information delivery, e.g. discovery data delivery (signalling during connection H04W76/00)	H04W48/08	H04W48/08		8869
+H04W48/10	9	using broadcasted information	H04W48/10	H04W48/10		5390
+H04W48/12	9	using downlink control channel	H04W48/12	H04W48/12		6913
+H04W48/14	9	using user query {or user detection}	H04W48/14	H04W48/14		2636
+H04W48/16	8	Discovering, processing access restriction or access information	H04W48/16	H04W48/16		21797
+H04W48/17	8	{Selecting a data network PoA [Point of Attachment]}	H04W48/00	H04W48/17		621
+H04W48/18	8	Selecting a network or a communication service	H04W48/18	H04W48/18		13278
+H04W48/20	8	Selecting an access point	H04W48/20	H04W48/20		8405
+H04W52/00	7	Power management {, e.g. Transmission Power Control [TPC] or power classes}	H04W52/00	H04W52/00		411
+H04W52/02	8	Power saving arrangements	H04W52/02	H04W52/02		4856
+H04W52/0203	9	{in the radio access network or backbone network of wireless communication networks}	H04W52/02	H04W52/02		1108
+H04W52/0206	10	{in access points, e.g. base stations}	H04W52/02	H04W52/02		4269
+H04W52/0209	9	{in terminal devices}	H04W52/02	H04W52/02		3759
+H04W52/0212	10	{managed by the network, e.g. network or access point is leader and terminal is follower}	H04W52/02	H04W52/02		2246
+H04W52/0216	11	{using a pre-established activity schedule, e.g. traffic indication frame}	H04W52/02	H04W52/02		8031
+H04W52/0219	11	{where the power saving management affects multiple terminals}	H04W52/02	H04W52/02		2363
+H04W52/0222	11	{in packet switched networks}	H04W52/02	H04W52/02		298
+H04W52/0225	10	{using monitoring of external events, e.g. the presence of a signal}	H04W52/02	H04W52/02		3428
+H04W52/0229	11	{where the received signal is a wanted signal}	H04W52/02	H04W52/02		6827
+H04W52/0232	12	{according to average transmission signal activity}	H04W52/02	H04W52/02		535
+H04W52/0235	12	{where the received signal is a power saving command}	H04W52/02	H04W52/02		3536
+H04W52/0238	11	{where the received signal is an unwanted signal, e.g. interference or idle signal}	H04W52/02	H04W52/02		488
+H04W52/0241	11	{where no transmission is received, e.g. out of range of the transmitter}	H04W52/02	H04W52/02		654
+H04W52/0245	11	{according to signal strength}	H04W52/02	H04W52/02		2016
+H04W52/0248	11	{dependent on the time of the day, e.g. according to expected transmission activity}	H04W52/02	H04W52/02		2169
+H04W52/0251	10	{using monitoring of local events, e.g. events related to user activity}	H04W52/02	H04W52/02		1938
+H04W52/0254	11	{detecting a user operation or a tactile contact or a motion of the device}	H04W52/02	H04W52/02		1909
+H04W52/0258	11	{controlling an operation mode according to history or models of usage information, e.g. activity schedule or time of day}	H04W52/02	H04W52/02		1442
+H04W52/0261	10	{managing power supply demand, e.g. depending on battery level}	H04W52/02	H04W52/02		2700
+H04W52/0264	11	{by selectively disabling software applications}	H04W52/02	H04W52/02		647
+H04W52/0267	11	{by controlling user interface components}	H04W52/02	H04W52/02		315
+H04W52/027	12	{by controlling a display operation or backlight unit}	H04W52/02	H04W52/02		1082
+H04W52/0274	11	{by switching on or off the equipment or parts thereof}	H04W52/02	H04W52/02		1756
+H04W52/0277	12	{according to available power supply, e.g. switching off when a low battery condition is detected}	H04W52/02	H04W52/02		855
+H04W52/028	12	{switching on or off only a part of the equipment circuit blocks}	H04W52/02	H04W52/02		2663
+H04W52/0283	13	{with sequential power up or power down of successive circuit blocks, e.g. switching on the local oscillator before RF or mixer stages}	H04W52/02	H04W52/02		170
+H04W52/0287	11	{changing the clock frequency of a controller in the equipment}	H04W52/02	H04W52/02		263
+H04W52/029	12	{reducing the clock frequency of the controller}	H04W52/02	H04W52/02		308
+H04W52/0293	12	{having a sub-controller with a low clock frequency switching on and off a main controller with a high clock frequency}	H04W52/02	H04W52/02		160
+H04W52/0296	11	{switching to a backup power supply}	H04W52/02	H04W52/02		406
+H04W52/04	8	Transmission power control [TPC]	H04W52/04	H04W52/04		1491
+H04W52/06	9	TPC algorithms	H04W52/06	H04W52/06		306
+H04W52/08	10	Closed loop power control	H04W52/08	H04W52/08		1378
+H04W52/10	10	Open loop power control	H04W52/10	H04W52/10		792
+H04W52/12	10	Outer and inner loops	H04W52/12	H04W52/12		756
+H04W52/125	11	{cascaded outer loop power control}	H04W52/12	H04W52/12		36
+H04W52/14	10	Separate analysis of uplink or downlink	H04W52/14	H04W52/14		914
+H04W52/143	11	{Downlink power control}	H04W52/14	H04W52/14		1986
+H04W52/146	11	{Uplink power control}	H04W52/14	H04W52/14		5707
+H04W52/16	10	Deriving transmission power values from another channel	H04W52/16	H04W52/16		1168
+H04W52/18	9	TPC being performed according to specific parameters	H04W52/18	H04W52/18		1330
+H04W52/20	10	using error rate	H04W52/20	H04W52/20		654
+H04W52/22	10	taking into account previous information or commands	H04W52/22	H04W52/22		281
+H04W52/221	11	{using past power control commands}	H04W52/22	H04W52/22		287
+H04W52/223	11	{predicting future states of the transmission}	H04W52/22	H04W52/22		372
+H04W52/225	11	{Calculation of statistics, e.g. average or variance}	H04W52/22	H04W52/22		666
+H04W52/226	11	{using past references to control power, e.g. look-up-table}	H04W52/22	H04W52/22		380
+H04W52/228	11	{using past power values or information}	H04W52/22	H04W52/22		544
+H04W52/24	10	using SIR [Signal to Interference Ratio] or other wireless path parameters	H04W52/24	H04W52/24		2038
+H04W52/241	11	{taking into account channel quality metrics, e.g. SIR, SNR, CIR or Eb/lo}	H04W52/24	H04W52/24		2530
+H04W52/242	11	{taking into account path loss}	H04W52/24	H04W52/24		2527
+H04W52/243	11	{taking into account interferences}	H04W52/24	H04W52/24		2679
+H04W52/244	12	{Interferences in heterogeneous networks, e.g. among macro and femto or pico cells or other sector / system interference [OSI]}	H04W52/24	H04W52/24		935
+H04W52/245	11	{taking into account received signal strength}	H04W52/24	H04W52/24		1839
+H04W52/246	11	{where the output power of a terminal is based on a path parameter calculated in said terminal}	H04W52/24	H04W52/24		437
+H04W52/247	11	{where the output power of a terminal is based on a path parameter sent by another terminal}	H04W52/24	H04W52/24		664
+H04W52/248	11	{where transmission power control commands are generated based on a path parameter}	H04W52/24	H04W52/24		374
+H04W52/26	10	using transmission rate or quality of service QoS [Quality of Service]	H04W52/26	H04W52/26		657
+H04W52/262	11	{taking into account adaptive modulation and coding [AMC] scheme}	H04W52/26	H04W52/26		677
+H04W52/265	11	{taking into account the quality of service QoS}	H04W52/26	H04W52/26		822
+H04W52/267	11	{taking into account the information rate}	H04W52/26	H04W52/26		1239
+H04W52/28	10	using user profile, e.g. mobile speed, priority or network state, e.g. standby, idle or non-transmission	H04W52/28	H04W52/28		749
+H04W52/281	11	{taking into account user or data type priority}	H04W52/28	H04W52/28		872
+H04W52/282	11	{taking into account the speed of the mobile}	H04W52/28	H04W52/28		260
+H04W52/283	11	{Power depending on the position of the mobile}	H04W52/28	H04W52/28		1485
+H04W52/285	11	{taking into account the mobility of the user}	H04W52/28	H04W52/28		167
+H04W52/286	11	{during data packet transmission, e.g. high speed packet access [HSPA]}	H04W52/28	H04W52/28		524
+H04W52/287	11	{when the channel is in stand-by}	H04W52/28	H04W52/28		214
+H04W52/288	11	{taking into account the usage mode, e.g. hands-free, data transmission or telephone}	H04W52/28	H04W52/28		489
+H04W52/30	9	using constraints in the total amount of available transmission power	H04W52/30	H04W52/30		753
+H04W52/32	10	TPC of broadcast or control channels	H04W52/32	H04W52/32		423
+H04W52/322	11	{Power control of broadcast channels}	H04W52/32	H04W52/32		376
+H04W52/325	11	{Power control of control or pilot channels}	H04W52/32	H04W52/32		2553
+H04W52/327	11	{Power control of multicast channels}	H04W52/32	H04W52/32		138
+H04W52/34	10	TPC management, i.e. sharing limited amount of power among users or channels or data types, e.g. cell loading	H04W52/34	H04W52/34		1771
+H04W52/343	11	{taking into account loading or congestion level}	H04W52/34	H04W52/34		1059
+H04W52/346	11	{distributing total power among users or channels}	H04W52/34	H04W52/34		2042
+H04W52/36	10	with a discrete range or set of values, e.g. step size, ramping or offsets	H04W52/36	H04W52/36		1494
+H04W52/362	11	{Aspects of the step size}	H04W52/36	H04W52/36		731
+H04W52/365	11	{Power headroom reporting}	H04W52/36	H04W52/36		1793
+H04W52/367	11	{Power values between minimum and maximum limits, e.g. dynamic range}	H04W52/36	H04W52/36		4556
+H04W52/38	9	TPC being performed in particular situations	H04W52/38	H04W52/38		1129
+H04W52/383	10	{power control in peer-to-peer links}	H04W52/38	H04W52/38		977
+H04W52/386	10	{centralized, e.g. when the radio network controller or equivalent takes part in the power control}	H04W52/38	H04W52/38		320
+H04W52/40	10	during macro-diversity or soft handoff	H04W52/40	H04W52/40		1486
+H04W52/42	10	in systems with time, space, frequency or polarisation diversity	H04W52/42	H04W52/42		2621
+H04W52/44	10	in connection with interruption of transmission	H04W52/44	H04W52/44		492
+H04W52/46	10	in multi-hop networks, e.g. wireless relay networks	H04W52/46	H04W52/46		953
+H04W52/48	10	during retransmission after error or non-acknowledgment	H04W52/48	H04W52/48		746
+H04W52/50	10	at the moment of starting communication in a multiple access environment	H04W52/50	H04W52/50		1647
+H04W52/52	9	using AGC [Automatic Gain Control] circuits or amplifiers	H04W52/52	H04W52/52		1969
+H04W52/54	9	Signalisation aspects of the TPC commands, e.g. frame structure	H04W52/54	H04W52/54		1121
+H04W52/545	10	{modifying TPC bits in special situations}	H04W52/54	H04W52/54		51
+H04W52/56	10	Detection of errors of TPC bits	H04W52/56	H04W52/56		99
+H04W52/58	10	Format of the TPC bits	H04W52/58	H04W52/58		411
+H04W52/60	10	using different transmission rates for TPC commands	H04W52/60	H04W52/60		166
+H04W56/00	7	Synchronisation arrangements	H04W56/00	H04W56/00		5924
+H04W56/0005	8	{synchronizing of arrival of multiple uplinks}	H04W56/00	H04W56/00		1313
+H04W56/001	8	{Synchronization between nodes}	H04W56/00	H04W56/00		8520
+H04W56/0015	9	{one node acting as a reference for the others}	H04W56/00	H04W56/00		4563
+H04W56/002	9	{Mutual synchronization}	H04W56/00	H04W56/00		1209
+H04W56/0025	9	{synchronizing potentially movable access points}	H04W56/00	H04W56/00		355
+H04W56/003	8	{Arrangements to increase tolerance to errors in transmission or reception timing}	H04W56/00	H04W56/00		616
+H04W56/0035	8	{detecting errors in frequency or phase}	H04W56/00	H04W56/00		1409
+H04W56/004	8	{compensating for timing error of reception due to propagation delay}	H04W56/00	H04W56/00		1001
+H04W56/0045	9	{compensating for timing error by altering transmission time}	H04W56/00	H04W56/00		3582
+H04W56/005	9	{compensating for timing error by adjustment in the receiver}	H04W56/00	H04W56/00		702
+H04W56/0055	8	{determining timing error of reception due to propagation delay}	H04W56/00	H04W56/00		623
+H04W56/006	9	{using known positions of transmitter and receiver}	H04W56/00	H04W56/00		327
+H04W56/0065	9	{using measurement of signal travel time}	H04W56/00	H04W56/00		610
+H04W56/007	10	{Open loop measurement}	H04W56/00	H04W56/00		52
+H04W56/0075	11	{based on arrival time vs. expected arrival time}	H04W56/00	H04W56/00		134
+H04W56/008	12	{detecting arrival of signal based on received raw signal}	H04W56/00	H04W56/00		29
+H04W56/0085	12	{detecting a given structure in the signal}	H04W56/00	H04W56/00		293
+H04W56/009	10	{Closed loop measurements}	H04W56/00	H04W56/00		222
+H04W56/0095	9	{estimated based on signal strength}	H04W56/00	H04W56/00		100
+H04W60/00	7	Affiliation to network, e.g. registration; Terminating affiliation with the network, e.g. de-registration<br><br><u>WARNING</u><br>Group H04W60/00 is impacted by reclassification into groups H04W60/001 and H04W60/002. <br>Groups H04W60/00, H04W60/001 and H04W60/002 should be considered in order to perform a complete search.	H04W60/00	H04W60/00		6641
+H04W60/001	8	{Registration rejection or failure}<br><br><u>WARNING</u><br>Group H04W60/001 is incomplete pending reclassification of documents from groups H04W60/00, H04W60/005, H04W60/02 and H04W60/04. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04W60/00	H04W60/00		
+H04W60/002	8	{Registration for requesting network slices}<br><br><u>WARNING</u><br>Group H04W60/002 is incomplete pending reclassification of documents from groups H04W60/00, H04W60/005, H04W60/02 and H04W60/04. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04W60/00	H04W60/00		
+H04W60/005	8	{Multiple registrations, e.g. multihoming}<br><br><u>WARNING</u><br>Group H04W60/005 is impacted by reclassification into groups H04W60/001 and H04W60/002. <br>Groups H04W60/005, H04W60/001 and H04W60/002 should be considered in order to perform a complete search.	H04W60/00	H04W60/00		1285
+H04W60/02	8	by periodical registration<br><br><u>WARNING</u><br>Group H04W60/02 is impacted by reclassification into groups H04W60/001 and H04W60/002. <br>Groups H04W60/02, H04W60/001 and H04W60/002 should be considered in order to perform a complete search.	H04W60/02	H04W60/02		437
+H04W60/04	8	using triggered events<br><br><u>WARNING</u><br>Group H04W60/04 is impacted by reclassification into groups H04W60/001 and H04W60/002. <br>Groups H04W60/04, H04W60/001 and H04W60/002 should be considered in order to perform a complete search.	H04W60/04	H04W60/04		4099
+H04W60/06	8	De-registration or detaching	H04W60/06	H04W60/06		1025
+H04W64/00	7	Locating users or terminals {or network equipment} for network management purposes, e.g. mobility management	H04W64/00	H04W64/00		23277
+H04W64/003	8	{locating network equipment}	H04W64/00	H04W64/00		5571
+H04W64/006	8	{with additional information processing, e.g. for direction or speed determination}	H04W64/00	H04W64/00		7088
+H04W68/00	7	User notification, e.g. alerting and paging, for incoming communication, change of service or the like	H04W68/00	H04W68/00		4200
+H04W68/005	8	{Transmission of information for alerting of incoming communication}	H04W68/00	H04W68/00		3413
+H04W68/02	8	Arrangements for increasing efficiency of notification or paging channel	H04W68/02	H04W68/02		4973
+H04W68/025	9	{Indirect paging}	H04W68/02	H04W68/02		771
+H04W68/04	8	multi-step notification using statistical or historical mobility data	H04W68/04	H04W68/04		428
+H04W68/06	8	using multi-step notification by changing the notification area	H04W68/06	H04W68/06		177
+H04W68/08	8	using multi-step notification by increasing the notification area	H04W68/08	H04W68/08		160
+H04W68/10	8	using simulcast notification	H04W68/10	H04W68/10		104
+H04W68/12	8	Inter-network notification	H04W68/12	H04W68/12		671
+H04W72/00	7	Local resource management	H04W72/00	H04W72/00		2102
+H04W72/02	8	Selection of wireless resources by user or terminal<br><br><u>WARNING</u><br>Group H04W72/02 is impacted by reclassification into group H04W72/40.<br>Groups H04W72/02 and H04W72/40 should be considered in order to perform a complete search.	H04W72/02	H04W72/02		7301
+H04W72/04	8	Wireless resource allocation<br><br><u>WARNING</u><br>Group H04W72/04 is impacted by reclassification into groups H04W72/11, H04W72/115 and H04W72/40.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H04W72/04	H04W72/04		14144
+H04W72/044	9	based on the type of the allocated resource<br><br><u>WARNING</u><br>Group H04W72/044 is impacted by reclassification into group H04W72/0457.<br>Groups H04W72/044 and H04W72/0457 should be considered in order to perform a complete search.	H04W72/044	H04W72/044		4325
+H04W72/0446	10	Resources in time domain, e.g. slots or frames	H04W72/0446	H04W72/0446		24272
+H04W72/0453	10	Resources in frequency domain, e.g. a carrier in FDMA	H04W72/0453	H04W72/0453		22912
+H04W72/0457	10	Variable allocation of band or rate<br><br><u>WARNING</u><br>Group H04W72/0457 is incomplete pending reclassification of documents from group H04W72/044.<br>Groups H04W72/044 and H04W72/0457 should be considered in order to perform a complete search.	H04W72/0457	H04W72/0457		1990
+H04W72/046	10	{the resource being in the space domain, e.g. beams}	H04W72/044	H04W72/04		6010
+H04W72/0466	10	{the resource being a scrambling code}	H04W72/044	H04W72/04		1011
+H04W72/0473	10	{the resource being transmission power}	H04W72/044	H04W72/04		3595
+H04W72/11	9	Semi-persistent scheduling<br><br><u>WARNING</u><br>Group H04W72/11 is incomplete pending reclassification of documents from group H04W72/04.<br>Groups H04W72/04 and H04W72/11 should be considered in order to perform a complete search.	H04W72/11	H04W72/11		1042
+H04W72/115	9	Grant-free or autonomous transmission<br><br><u>WARNING</u><br>Group H04W72/115 is incomplete pending reclassification of documents from group H04W72/04.<br>Groups H04W72/04 and H04W72/115 should be considered in order to perform a complete search.	H04W72/115	H04W72/115		626
+H04W72/12	8	Wireless traffic scheduling<br><br><u>WARNING</u><br>Group H04W72/12 is impacted by reclassification into groups H04W72/40, H04W72/50, H04W72/51 and H04W72/512. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04W72/12	H04W72/12		7981
+H04W72/121	9	for groups of terminals or users	H04W72/121	H04W72/121		2411
+H04W72/1215	9	{for collaboration of different radio technologies}	H04W72/12	H04W72/121		2285
+H04W72/1221	9	{based on age of data to be sent}	H04W72/12	H04W72/12		781
+H04W72/1263	9	Mapping of traffic onto schedule, e.g. scheduled allocation or multiplexing of flows	H04W72/1263	H04W72/1263		4914
+H04W72/1268	10	of uplink data flows	H04W72/1268	H04W72/1268		7841
+H04W72/1273	10	of downlink data flows	H04W72/1273	H04W72/1273		4129
+H04W72/20	8	Control channels or signalling for resource management<br><br><u>WARNING</u><br>Group H04W72/20 is impacted by reclassification into groups H04W72/25, H04W72/27 and H04W72/29.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H04W72/20	H04W72/20		10744
+H04W72/21	9	in the uplink direction of a wireless link, i.e. towards the network	H04W72/21	H04W72/21		14857
+H04W72/23	9	in the downlink direction of a wireless link, i.e. towards a terminal<br><br><u>WARNING</u><br>Group H04W72/23 is impacted by reclassification into groups H04W72/231 and H04W72/232.<br>Groups H04W72/23, H04W72/231 and H04W72/232 should be considered in order to perform a complete search.	H04W72/23	H04W72/23		31935
+H04W72/231	10	the control data signalling from the layers above the physical layer, e.g. RRC or MAC-CE signalling<br><br><u>WARNING</u><br>Group H04W72/231 is incomplete pending reclassification of documents from group H04W72/23.<br>Groups H04W72/23 and H04W72/231 should be considered in order to perform a complete search.	H04W72/231	H04W72/231		3772
+H04W72/232	10	the control data signalling from the physical layer, e.g. DCI signalling<br><br><u>WARNING</u><br>Group H04W72/232 is incomplete pending reclassification of documents from group H04W72/23.<br>Groups H04W72/23 and H04W72/232 should be considered in order to perform a complete search.	H04W72/232	H04W72/232		6129
+H04W72/25	9	between terminals via a wireless link, e.g. sidelink<br><br><u>WARNING</u><br>Group H04W72/25 is incomplete pending reclassification of documents from group H04W72/20.<br>Groups H04W72/20 and H04W72/25 should be considered in order to perform a complete search.	H04W72/25	H04W72/25		3793
+H04W72/27	9	between access points<br><br><u>WARNING</u><br>Group H04W72/27 is incomplete pending reclassification of documents from group H04W72/20.<br>Groups H04W72/20 and H04W72/27 should be considered in order to perform a complete search.	H04W72/27	H04W72/27		1844
+H04W72/29	9	between an access point and the access point controlling device<br><br><u>WARNING</u><br>Group H04W72/29 is incomplete pending reclassification of documents from group H04W72/20.<br>Groups H04W72/20 and H04W72/29 should be considered in order to perform a complete search.	H04W72/29	H04W72/29		529
+H04W72/30	8	Resource management for broadcast services	H04W72/30	H04W72/30		5480
+H04W72/40	8	Resource management for direct mode communication, e.g. D2D or sidelink<br><br><u>WARNING</u><br>Group H04W72/40 is incomplete pending reclassification of documents from groups H04W72/02, H04W72/04 and H04W72/12.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H04W72/40	H04W72/40		2395
+H04W72/50	8	Allocation or scheduling criteria for wireless resources<br><br><u>WARNING</u><br>Group H04W72/50 is incomplete pending reclassification of documents from group H04W72/12.<br>Groups H04W72/12 and H04W72/50 should be considered in order to perform a complete search.	H04W72/50	H04W72/50		363
+H04W72/51	9	based on terminal or device properties<br><br><u>WARNING</u><br>Group H04W72/51 is incomplete pending reclassification of documents from group H04W72/12.<br>Group H04W72/51 is also impacted by reclassification into group H04W72/512. <br>Groups H04W72/12, H04W72/51 and H04W72/512 should be considered in order to perform a complete search.	H04W72/51	H04W72/51		5892
+H04W72/512	10	for low-latency requirements, e.g. URLLC<br><br><u>WARNING</u><br>Group H04W72/512 is incomplete pending reclassification of documents from groups H04W72/12 and H04W72/51.<br>Groups H04W72/12, H04W72/51 and H04W72/512 should be considered in order to perform a complete search.	H04W72/512	H04W72/512		353
+H04W72/52	9	based on load	H04W72/52	H04W72/52		3568
+H04W72/53	9	based on regulatory allocation policies	H04W72/53	H04W72/53		4341
+H04W72/535	9	{based on resource usage policies}	H04W72/50	H04W72/53		3043
+H04W72/54	9	based on quality criteria<br><br><u>WARNING</u><br>Group H04W72/54 is impacted by reclassification into group H04W72/541.<br>Groups H04W72/54 and H04W72/541 should be considered in order to perform a complete search.	H04W72/54	H04W72/54		4778
+H04W72/541	10	using the level of interference<br><br><u>WARNING</u><br>Group H04W72/541 is incomplete pending reclassification of documents from group H04W72/54.<br>Groups H04W72/54 and H04W72/541 should be considered in order to perform a complete search.	H04W72/541	H04W72/541		7104
+H04W72/542	10	using measured or perceived quality	H04W72/542	H04W72/542		9800
+H04W72/543	10	based on requested quality, e.g. QoS	H04W72/543	H04W72/543		2421
+H04W72/56	9	based on priority criteria<br><br><u>WARNING</u><br>Group H04W72/56 is impacted by reclassification into group H04W72/566.<br>Groups H04W72/56 and H04W72/566 should be considered in order to perform a complete search.	H04W72/56	H04W72/56		5263
+H04W72/563	10	of the wireless resources	H04W72/563	H04W72/563		1759
+H04W72/566	10	of the information or information source or recipient<br><br><u>WARNING</u><br>Group H04W72/566 is incomplete pending reclassification of documents from group H04W72/56.<br>Groups H04W72/56 and H04W72/566 should be considered in order to perform a complete search.	H04W72/566	H04W72/566		1913
+H04W72/569	11	{of the traffic information}	H04W72/566	H04W72/56		3713
+H04W74/00	7	Wireless channel access	H04W74/00	H04W74/00		2343
+H04W74/002	8	{Transmission of channel access control information}	H04W74/00	H04W74/00		5126
+H04W74/004	9	{in the uplink, i.e. towards network}	H04W74/00	H04W74/00		2911
+H04W74/006	9	{in the downlink, i.e. towards the terminal}	H04W74/00	H04W74/00		5151
+H04W74/02	8	Hybrid access	H04W74/02	H04W74/02		1325
+H04W74/04	8	Scheduled access (hybrid access H04W74/02)	H04W74/04	H04W74/04		2275
+H04W74/06	9	using polling	H04W74/06	H04W74/06		1101
+H04W74/08	8	Non-scheduled access, e.g.&#160;ALOHA (hybrid access H04W74/02)	H04W74/08	H04W74/08		5193
+H04W74/0808	9	using carrier sensing, e.g. carrier sense multiple access [CSMA]	H04W74/0808	H04W74/0808		6735
+H04W74/0816	10	with collision avoidance	H04W74/0816	H04W74/0816		4728
+H04W74/0825	10	{with collision detection}	H04W74/0808	H04W74/08		430
+H04W74/0833	9	Random access procedures, e.g. with 4-step access<br><br><u>WARNING</u><br>Group H04W74/0833 is impacted by reclassification into groups H04W74/0836 and H04W74/0838.<br>Groups H04W74/0833, H04W74/0836 and H04W74/0838 should be considered in order to perform a complete search.	H04W74/0833	H04W74/0833		12769
+H04W74/0836	10	with 2-step access<br><br><u>WARNING</u><br>Group H04W74/0836 is incomplete pending reclassification of documents from group H04W74/0833.<br>Groups H04W74/0833 and H04W74/0836 should be considered in order to perform a complete search.	H04W74/0836	H04W74/0836		1831
+H04W74/0838	10	using contention-free random access [CFRA]<br><br><u>WARNING</u><br>Group H04W74/0838 is incomplete pending reclassification of documents from group H04W74/0833.<br>Groups H04W74/0833 and H04W74/0838 should be considered in order to perform a complete search.	H04W74/0838	H04W74/0838		2512
+H04W74/0841	10	{with collision treatment}	H04W74/0833	H04W74/08		1244
+H04W74/085	11	{collision avoidance}	H04W74/0833	H04W74/08		1880
+H04W74/0858	11	{collision detection}	H04W74/0833	H04W74/08		307
+H04W74/0866	9	{using a dedicated channel for access}	H04W74/08	H04W74/08		1872
+H04W74/0875	10	{with assigned priorities based access}	H04W74/08	H04W74/08		702
+H04W74/0883	10	{for un-synchronized access}	H04W74/08	H04W74/08		57
+H04W74/0891	10	{for synchronized access}	H04W74/08	H04W74/08		590
+H04W76/00	7	Connection management	H04W76/00	H04W76/00		1064
+H04W76/10	8	Connection setup	H04W76/10	H04W76/10		20397
+H04W76/11	9	Allocation or use of connection identifiers	H04W76/11	H04W76/11		9381
+H04W76/12	9	Setup of transport tunnels	H04W76/12	H04W76/12		5617
+H04W76/14	9	Direct-mode setup	H04W76/14	H04W76/14		17203
+H04W76/15	9	Setup of multiple wireless link connections	H04W76/15	H04W76/15		11138
+H04W76/16	10	Involving different core network technologies, e.g. a packet-switched [PS] bearer in combination with a circuit-switched [CS] bearer	H04W76/16	H04W76/16		2774
+H04W76/18	9	Management of setup rejection or failure	H04W76/18	H04W76/18		4195
+H04W76/19	9	Connection re-establishment	H04W76/19	H04W76/19		6444
+H04W76/20	8	Manipulation of established connections	H04W76/20	H04W76/20		4617
+H04W76/22	9	Manipulation of transport tunnels	H04W76/22	H04W76/22		1625
+H04W76/23	9	Manipulation of direct-mode connections	H04W76/23	H04W76/23		1337
+H04W76/25	9	Maintenance of established connections	H04W76/25	H04W76/25		1879
+H04W76/27	9	Transitions between radio resource control [RRC] states	H04W76/27	H04W76/27		11522
+H04W76/28	9	Discontinuous transmission [DTX]; Discontinuous reception [DRX]	H04W76/28	H04W76/28		8010
+H04W76/30	8	Connection release	H04W76/30	H04W76/30		4525
+H04W76/32	9	Release of transport tunnels	H04W76/32	H04W76/32		610
+H04W76/34	9	Selective release of ongoing connections	H04W76/34	H04W76/34		1892
+H04W76/36	10	for reassigning the resources associated with the released connections	H04W76/36	H04W76/36		584
+H04W76/38	9	triggered by timers	H04W76/38	H04W76/38		1616
+H04W76/40	8	for selective distribution or broadcast	H04W76/40	H04W76/40		3389
+H04W76/45	9	for Push-to-Talk [PTT] or Push-to-Talk over cellular [PoC] services	H04W76/45	H04W76/45		1874
+H04W76/50	8	for emergency connections	H04W76/50	H04W76/50		3608
+H04W80/00	7	Wireless network protocols or protocol adaptations to wireless operation	H04W80/00	H04W80/00		2058
+H04W80/02	8	Data link layer protocols	H04W80/02	H04W80/02		4796
+H04W80/04	8	Network layer protocols, e.g. mobile IP [Internet Protocol]	H04W80/04	H04W80/04		4530
+H04W80/045	9	{involving different protocol versions, e.g. MIPv4 and MIPv6}	H04W80/04	H04W80/04		435
+H04W80/06	8	Transport layer protocols, e.g. TCP [Transport Control Protocol] over wireless {(transmission control protocol/Internet protocol [TCP/IP] or user datagram protocol [UDP] H04L69/16)}	H04W80/06	H04W80/06		1306
+H04W80/08	8	Upper layer protocols {(network arrangements or communication protocols for networked applications H04L67/00)}	H04W80/08	H04W80/08		835
+H04W80/085	9	{involving different upper layer protocol versions, e.g. LCS - SUPL or WSN-SOA-WSDP}	H04W80/08	H04W80/08		47
+H04W80/10	9	adapted for {application} session management, e.g. SIP [Session Initiation Protocol] {(connection management H04W76/00; arrangements for session management H04L67/14)}	H04W80/10	H04W80/10		2207
+H04W80/12	9	Application layer protocols, e.g. WAP [Wireless Application Protocol]	H04W80/12	H04W80/12		882
+H04W84/00	7	Network topologies<br><br><u>NOTE</u><br><br>In this group, local priority rules supersede the first-place priority rule (FPPR) applying throughout H04W	H04W84/00	H04W84/00		872
+H04W84/005	8	{Moving wireless networks}	H04W84/00	H04W84/00		2099
+H04W84/02	8	Hierarchically pre-organised networks, e.g. paging networks, cellular networks, WLAN [Wireless Local Area Network] or WLL [Wireless Local Loop]	H04W84/02	H04W84/02		1034
+H04W84/022	9	{One-way selective calling networks, e.g. wide area paging}	H04W84/02	H04W84/02		390
+H04W84/025	10	{with acknowledge back capability}	H04W84/02	H04W84/02		194
+H04W84/027	10	{providing paging services}	H04W84/02	H04W84/02		162
+H04W84/04	9	Large scale networks; Deep hierarchical networks	H04W84/04	H04W84/04		1056
+H04W84/042	10	{Public Land Mobile systems, e.g. cellular systems}	H04W84/04	H04W84/04		5447
+H04W84/045	11	{using private Base Stations, e.g. femto Base Stations, home Node B}	H04W84/04	H04W84/04		4489
+H04W84/047	11	{using dedicated repeater stations}	H04W84/04	H04W84/04		3298
+H04W84/06	10	Airborne or Satellite Networks (space-based or airborne stations H04B7/185)	H04W84/06	H04W84/06		6566
+H04W84/08	10	Trunked mobile radio systems	H04W84/08	H04W84/08		2102
+H04W84/10	9	Small scale networks; Flat hierarchical networks	H04W84/10	H04W84/10		1575
+H04W84/105	10	{PBS [Private Base Station] network (H04W84/12&#160;-&#160;H04W84/16 take precedence)}	H04W84/10	H04W84/10		489
+H04W84/12	10	WLAN [Wireless Local Area Networks]	H04W84/12	H04W84/12		29644
+H04W84/14	10	WLL [Wireless Local Loop]; RLL [Radio Local Loop]	H04W84/14	H04W84/14		1295
+H04W84/16	10	WPBX [Wireless Private Branch Exchange]	H04W84/16	H04W84/16		648
+H04W84/18	8	Self-organising networks, e.g. ad-hoc networks or sensor networks	H04W84/18	H04W84/18		28511
+H04W84/20	9	Leader-follower arrangements	H04W84/20	H04W84/20		2431
+H04W84/22	9	with access to wired networks	H04W84/22	H04W84/22		888
+H04W88/00	7	Devices specially adapted for wireless communication networks, e.g. terminals, base stations or access point devices	H04W88/00	H04W88/00		433
+H04W88/005	8	{Data network PoA devices}	H04W88/00	H04W88/00		298
+H04W88/02	8	Terminal devices	H04W88/02	H04W88/02		23487
+H04W88/021	9	{adapted for Wireless Local Loop operation}	H04W88/02	H04W88/02		435
+H04W88/022	9	{Selective call receivers}	H04W88/02	H04W88/02		865
+H04W88/023	10	{with message or information receiving capability}	H04W88/02	H04W88/02		770
+H04W88/025	10	{Selective call decoders}	H04W88/02	H04W88/02		100
+H04W88/026	11	{using digital address codes}	H04W88/02	H04W88/02		173
+H04W88/027	11	{using frequency address codes}	H04W88/02	H04W88/02		340
+H04W88/028	11	{using pulse address codes}	H04W88/02	H04W88/02		111
+H04W88/04	9	adapted for relaying to or from another terminal or user	H04W88/04	H04W88/04		9195
+H04W88/06	9	adapted for operation in multiple networks {or having at least two operational modes}, e.g. multi-mode terminals	H04W88/06	H04W88/06		21678
+H04W88/08	8	Access point devices	H04W88/08	H04W88/08		18564
+H04W88/085	9	{Access point devices with remote components}	H04W88/08	H04W88/08		5010
+H04W88/10	9	adapted for operation in multiple networks, e.g. multi-mode access points	H04W88/10	H04W88/10		3311
+H04W88/12	8	Access point controller devices	H04W88/12	H04W88/12		2251
+H04W88/14	8	Backbone network devices	H04W88/14	H04W88/14		2701
+H04W88/16	8	Gateway arrangements	H04W88/16	H04W88/16		7154
+H04W88/18	8	Service support devices; Network management devices	H04W88/18	H04W88/18		4660
+H04W88/181	9	{Transcoding devices; Rate adaptation devices}	H04W88/18	H04W88/18		767
+H04W88/182	9	{Network node acting on behalf of an other network entity, e.g. proxy}	H04W88/18	H04W88/18		883
+H04W88/184	9	{Messaging devices, e.g. message centre}	H04W88/18	H04W88/18		1648
+H04W88/185	9	{Selective call encoders for paging networks, e.g. paging centre devices}	H04W88/18	H04W88/18		336
+H04W88/187	10	{using digital or pulse address codes}	H04W88/18	H04W88/18		142
+H04W88/188	10	{using frequency address codes}	H04W88/18	H04W88/18		148
+H04W92/00	7	Interfaces specially adapted for wireless communication networks	H04W92/00	H04W92/00		175
+H04W92/02	8	Inter-networking arrangements	H04W92/02	H04W92/02		3760
+H04W92/04	8	Interfaces between hierarchically different network devices	H04W92/04	H04W92/04		469
+H04W92/045	9	{between access point and backbone network device}	H04W92/04	H04W92/04		616
+H04W92/06	9	between gateways and public network devices	H04W92/06	H04W92/06		203
+H04W92/08	9	between user and terminal device	H04W92/08	H04W92/08		444
+H04W92/10	9	between terminal device and access point, i.e. wireless air interface	H04W92/10	H04W92/10		2003
+H04W92/12	9	between access points and access point controllers	H04W92/12	H04W92/12		1740
+H04W92/14	9	between access point controllers and backbone network device	H04W92/14	H04W92/14		671
+H04W92/16	8	Interfaces between hierarchically similar devices	H04W92/16	H04W92/16		259
+H04W92/18	9	between terminal devices	H04W92/18	H04W92/18		9946
+H04W92/20	9	between access points	H04W92/20	H04W92/20		3784
+H04W92/22	9	between access point controllers	H04W92/22	H04W92/22		201
+H04W92/24	9	between backbone network devices	H04W92/24	H04W92/24		1033
+H04W99/00	7	Subject matter not provided for in other groups of this subclass	H04W99/00	H04W99/00		694

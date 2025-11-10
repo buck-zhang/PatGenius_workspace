@@ -1,0 +1,549 @@
+F25B1/00	7	Compression machines, plants or systems with non-reversible cycle (F25B3/00, F25B5/00, F25B6/00, F25B7/00, F25B9/00 take precedence)	F25B1/00	F25B1/00		5707
+F25B1/005	8	{of the single unit type (F25B1/10 takes precedence)}	F25B1/00	F25B1/00		742
+F25B1/02	8	with compressor of reciprocating-piston type ({F25B1/005,}F25B1/10 take precedence)	F25B1/02	F25B1/02		432
+F25B1/04	8	with compressor of rotary type ({F25B1/005,}F25B1/10 take precedence)	F25B1/04	F25B1/04		1117
+F25B1/047	9	of screw type	F25B1/047	F25B1/047		540
+F25B1/053	9	of turbine type	F25B1/053	F25B1/053		785
+F25B1/06	8	with compressor of jet type, e.g. using liquid under pressure ({F25B1/005,}F25B1/10 take precedence)	F25B1/06	F25B1/06		381
+F25B1/08	9	using vapour under pressure	F25B1/08	F25B1/08		323
+F25B1/10	8	with multi-stage compression (with cascade operation F25B7/00)	F25B1/10	F25B1/10		2949
+F25B3/00	7	Self-contained rotary compression machines, i.e. with compressor, condenser and evaporator rotating as a single unit	F25B3/00	F25B3/00		390
+F25B5/00	7	Compression machines, plants or systems, with several evaporator circuits, e.g. for varying refrigerating capacity (with cascade operation F25B7/00)	F25B5/00	F25B5/00		783
+F25B5/02	8	arranged in parallel	F25B5/02	F25B5/02		3703
+F25B5/04	8	arranged in series	F25B5/04	F25B5/04		1335
+F25B6/00	7	Compression machines, plants or systems, with several condenser circuits	F25B6/00	F25B6/00		221
+F25B6/02	8	arranged in parallel	F25B6/02	F25B6/02		912
+F25B6/04	8	arranged in series	F25B6/04	F25B6/04		1288
+F25B7/00	7	Compression machines, plants or systems, with cascade operation, i.e. with two or more circuits, the heat from the condenser of one circuit being absorbed by the evaporator of the next circuit (F25B9/00 takes precedence)	F25B7/00	F25B7/00		2216
+F25B9/00	7	Compression machines, plants or systems, in which the refrigerant is air or other gas of low boiling point	F25B9/00	F25B9/00		710
+F25B9/002	8	{characterised by the refrigerant}	F25B9/00	F25B9/00		861
+F25B9/004	9	{the refrigerant being air}	F25B9/00	F25B9/00		1181
+F25B9/006	9	{the refrigerant containing more than one component (F25B9/004 takes precedence)}	F25B9/00	F25B9/00		1028
+F25B9/008	9	{the refrigerant being carbon dioxide}	F25B9/00	F25B9/00		3240
+F25B9/02	8	using Joule-Thompson effect; using vortex effect	F25B9/02	F25B9/02		698
+F25B9/04	9	using vortex effect	F25B9/04	F25B9/04		1083
+F25B9/06	8	using expanders (F25B9/10 takes precedence)	F25B9/06	F25B9/06		1210
+F25B9/065	9	{using pressurised gas jets}	F25B9/06	F25B9/06		68
+F25B9/08	8	using ejectors (F25B9/10 takes precedence)	F25B9/08	F25B9/08		578
+F25B9/10	8	with several cooling stages	F25B9/10	F25B9/10		651
+F25B9/12	8	using 3He-4He dilution	F25B9/12	F25B9/12		140
+F25B9/14	8	characterised by the cycle used, e.g. Stirling cycle	F25B9/14	F25B9/14		2485
+F25B9/145	9	{pulse-tube cycle}	F25B9/14	F25B9/14		1524
+F25B11/00	7	Compression machines, plants or systems, using turbines, e.g. gas turbines	F25B11/00	F25B11/00		258
+F25B11/02	8	as expanders (F25B9/06 takes precedence)	F25B11/02	F25B11/02		351
+F25B11/04	9	centrifugal type	F25B11/04	F25B11/04		96
+F25B13/00	7	Compression machines, plants or systems, with reversible cycle (defrosting cycles F25B47/02)	F25B13/00	F25B13/00		10989
+F25B15/00	7	Sorption machines, plants or systems, operating continuously, e.g. absorption type	F25B15/00	F25B15/00		1094
+F25B15/002	8	{using the endothermic solution of salt}	F25B15/00	F25B15/00		62
+F25B15/004	8	{of rotary type}	F25B15/00	F25B15/00		39
+F25B15/006	8	{with cascade operation}	F25B15/00	F25B15/00		91
+F25B15/008	8	{with multi-stage operation (F25B15/006 takes precedence)}	F25B15/00	F25B15/00		365
+F25B15/02	8	without inert gas ({F25B15/004, F25B15/006, F25B15/008}, F25B15/12, F25B15/14, F25B15/16 take precedence)	F25B15/02	F25B15/02		653
+F25B15/025	9	{Liquid transfer means}	F25B15/02	F25B15/02		297
+F25B15/04	9	the refrigerant being ammonia evaporated from aqueous solution {(F25B15/025 takes precedence)}	F25B15/04	F25B15/04		666
+F25B15/06	9	the refrigerant being water vapour evaporated from a salt solution, e.g. lithium bromide {(F25B15/025 takes precedence)}	F25B15/06	F25B15/06		2095
+F25B15/08	9	the refrigerant being sulfuric acid {(F25B15/025 takes precedence)}	F25B15/08	F25B15/08		13
+F25B15/09	9	the refrigerant being hydrogen desorbed from a hydride {(F25B15/025 takes precedence)}	F25B15/09	F25B15/09		29
+F25B15/10	8	with inert gas ({F25B15/004, F25B15/006, F25B15/008}, F25B15/12, F25B15/14, F25B15/16 take precedence)	F25B15/10	F25B15/10		1529
+F25B15/12	8	with resorber ({F25B15/004, F25B15/006, F25B15/008}, F25B15/14 take precedence)	F25B15/12	F25B15/12		99
+F25B15/14	8	using osmosis {(F25B15/004, F25B15/006, F25B15/008 take precedence)}	F25B15/14	F25B15/14		89
+F25B15/16	8	using desorption cycle {(F25B15/004, F25B15/006, F25B15/008 take precedence)}	F25B15/16	F25B15/16		36
+F25B17/00	7	Sorption machines, plants or systems, operating intermittently, e.g. absorption or adsorption type	F25B17/00	F25B17/00		758
+F25B17/02	8	the absorbent or adsorbent being a liquid, e.g. brine (F25B17/10 takes precedence)	F25B17/02	F25B17/02		308
+F25B17/04	9	with two or more boilers operating alternately	F25B17/04	F25B17/04		45
+F25B17/06	9	with the boiler and evaporator built-up as a unit in a tiltable or revolving arrangement	F25B17/06	F25B17/06		130
+F25B17/08	8	the absorbent or adsorbent being a solid, e.g. salt (F25B17/12 takes precedence)	F25B17/08	F25B17/08		951
+F25B17/083	9	{with two or more boiler-sorbers operating alternately}	F25B17/08	F25B17/08		293
+F25B17/086	9	{with two or more boiler-sorber/evaporator units}	F25B17/08	F25B17/08		107
+F25B17/10	8	using the endothermic solution of salt	F25B17/10	F25B17/10		19
+F25B17/12	8	using desorption of hydrogen from a hydride	F25B17/12	F25B17/12		228
+F25B19/00	7	Machines, plants or systems, using evaporation of a refrigerant but without recovery of the vapour	F25B19/00	F25B19/00		290
+F25B19/005	8	{the refrigerant being a liquefied gas}	F25B19/00	F25B19/00		262
+F25B19/02	8	using fluid jet, e.g. of steam {(F25B19/005 takes precedence)}	F25B19/02	F25B19/02		94
+F25B19/04	9	using liquid jet, e.g. of water	F25B19/04	F25B19/04		110
+F25B21/00	7	Machines, plants or systems, using electric or magnetic effects	F25B21/00	F25B21/00		1711
+F25B21/02	8	using Peltier effect; using Nernst-Ettinghausen effect	F25B21/02	F25B21/02		8014
+F25B21/04	9	reversible	F25B21/04	F25B21/04		1450
+F25B23/00	7	Machines, plants or systems, with a single mode of operation not covered by groups F25B1/00&#160;-&#160;F25B21/00, e.g. using selective radiation effect	F25B23/00	F25B23/00		805
+F25B23/003	8	{using selective radiation effect}	F25B23/00	F25B23/00		404
+F25B23/006	8	{boiling cooling systems}	F25B23/00	F25B23/00		595
+F25B25/00	7	Machines, plants or systems, using a combination of modes of operation covered by two or more of the groups F25B1/00&#160;-&#160;F25B23/00	F25B25/00	F25B25/00		793
+F25B25/005	8	{using primary and secondary systems}	F25B25/00	F25B25/00		2746
+F25B25/02	8	Compression-sorption machines, plants, or systems	F25B25/02	F25B25/02		735
+F25B27/00	7	Machines, plants or systems, using particular sources of energy (F25B30/06 takes precedence)	F25B27/00	F25B27/00		2352
+F25B27/002	8	{using solar energy}	F25B27/00	F25B27/00		578
+F25B27/005	9	{in compression type systems}	F25B27/00	F25B27/00		720
+F25B27/007	9	{in sorption type systems}	F25B27/00	F25B27/00		610
+F25B27/02	8	using waste heat, e.g. from internal-combustion engines	F25B27/02	F25B27/02		2670
+F25B29/00	7	Combined heating and refrigeration systems, e.g. operating alternately or simultaneously	F25B29/00	F25B29/00		1456
+F25B29/003	8	{of the compression type system}	F25B29/00	F25B29/00		2760
+F25B29/006	8	{of the sorption type system}	F25B29/00	F25B29/00		596
+F25B30/00	7	Heat pumps (F25B1/00-F25B25/00, F25B29/00 take precedence)	F25B30/00	F25B30/00		979
+F25B30/02	8	of the compression type	F25B30/02	F25B30/02		6476
+F25B30/04	8	of the sorption type	F25B30/04	F25B30/04		1086
+F25B30/06	8	characterised by the source of low potential heat	F25B30/06	F25B30/06		5030
+F25B31/00	7	Compressor arrangements	F25B31/00	F25B31/00		2583
+F25B31/002	8	{Lubrication}	F25B31/00	F25B31/00		1344
+F25B31/004	9	{oil recirculating arrangements}	F25B31/00	F25B31/00		1954
+F25B31/006	8	{Cooling of compressor or motor}	F25B31/00	F25B31/00		1024
+F25B31/008	9	{by injecting a liquid}	F25B31/00	F25B31/00		430
+F25B31/02	8	of motor-compressor units	F25B31/02	F25B31/02		910
+F25B31/023	9	{with compressor of reciprocating-piston type}	F25B31/02	F25B31/02		540
+F25B31/026	9	{with compressor of rotary type}	F25B31/02	F25B31/02		758
+F25B33/00	7	Boilers; Analysers; Rectifiers (boiler-absorbers F25B35/00)	F25B33/00	F25B33/00		1009
+F25B35/00	7	Boiler-absorbers, i.e. boilers usable for absorption or adsorption	F25B35/00	F25B35/00		93
+F25B35/02	8	using a liquid as sorbent, e.g. brine	F25B35/02	F25B35/02		124
+F25B35/04	8	using a solid as sorbent	F25B35/04	F25B35/04		298
+F25B37/00	7	Absorbers; Adsorbers (boiler-absorbers F25B35/00)	F25B37/00	F25B37/00		764
+F25B39/00	7	Evaporators; Condensers	F25B39/00	F25B39/00		3456
+F25B39/02	8	Evaporators	F25B39/02	F25B39/02		6883
+F25B39/022	9	{with plate-like or laminated elements}	F25B39/02	F25B39/02		790
+F25B39/024	10	{with elements constructed in the shape of a hollow panel}	F25B39/02	F25B39/02		582
+F25B39/026	9	{specially adapted for sorption type systems}	F25B39/02	F25B39/02		520
+F25B39/028	9	{having distributing means}	F25B39/02	F25B39/02		1570
+F25B39/04	8	Condensers	F25B39/04	F25B39/04		6996
+F25B40/00	7	Subcoolers, desuperheaters or superheaters	F25B40/00	F25B40/00		2604
+F25B40/02	8	Subcoolers	F25B40/02	F25B40/02		1925
+F25B40/04	8	Desuperheaters	F25B40/04	F25B40/04		464
+F25B40/06	8	Superheaters	F25B40/06	F25B40/06		1018
+F25B41/00	7	Fluid-circulation arrangements	F25B41/00	F25B41/00		3258
+F25B41/006	8	{optical fluid control arrangements}	F25B41/00	F25B41/00		137
+F25B41/10	8	using electro-osmosis	F25B41/10	F25B41/10		35
+F25B41/20	8	Disposition of valves, e.g. of on-off valves or flow control valves (expansion valves F25B41/31)	F25B41/20	F25B41/20		10725
+F25B41/22	9	between evaporator and compressor	F25B41/22	F25B41/22		1181
+F25B41/24	9	Arrangement of shut-off valves for disconnecting a part of the refrigerant cycle, e.g. an outdoor part	F25B41/24	F25B41/24		1703
+F25B41/26	9	of fluid flow reversing valves	F25B41/26	F25B41/26		1736
+F25B41/28	9	specially adapted for sorption cycles	F25B41/28	F25B41/28		95
+F25B41/30	8	Expansion means; Dispositions thereof	F25B41/30	F25B41/30		2567
+F25B41/31	9	Expansion valves	F25B41/31	F25B41/31		4667
+F25B41/315	10	actuated by floats	F25B41/315	F25B41/315		430
+F25B41/32	10	having flow rate limiting means other than the valve member, e.g. having bypass orifices in the valve body	F25B41/32	F25B41/32		62
+F25B41/325	10	having two or more valve members	F25B41/325	F25B41/325		348
+F25B41/33	10	with the valve member being actuated by the fluid pressure, e.g. by the pressure of the refrigerant	F25B41/33	F25B41/33		350
+F25B41/335	11	via diaphragms	F25B41/335	F25B41/335		947
+F25B41/34	10	with the valve member being actuated by electric means, e.g. by piezoelectric actuators	F25B41/34	F25B41/34		2329
+F25B41/345	11	by solenoids	F25B41/345	F25B41/345		252
+F25B41/347	12	{with the valve member being opened and closed cyclically, e.g. with pulse width modulation}	F25B41/345	F25B41/34		177
+F25B41/35	11	by rotary motors, e.g. by stepping motors	F25B41/35	F25B41/35		724
+F25B41/355	11	by electric heating of bimetal elements, shape memory elements or heat expanding elements	F25B41/355	F25B41/355		71
+F25B41/36	10	with the valve member being actuated by bimetal elements or shape-memory elements influenced by fluids, e.g. by the refrigerant	F25B41/36	F25B41/36		47
+F25B41/37	9	Capillary tubes	F25B41/37	F25B41/37		2337
+F25B41/375	10	characterised by a variable restriction, e.g. restrictors made of shape memory alloy	F25B41/375	F25B41/375		22
+F25B41/38	9	specially adapted for reversible cycles, e.g. bidirectional expansion restrictors	F25B41/38	F25B41/38		329
+F25B41/385	9	Dispositions with two or more expansion means arranged in parallel on a refrigerant line leading to the same evaporator	F25B41/385	F25B41/385		852
+F25B41/39	9	Dispositions with two or more expansion means arranged in series, i.e. multi-stage expansion, on a refrigerant line leading to the same evaporator	F25B41/39	F25B41/39		1299
+F25B41/40	8	Fluid line arrangements	F25B41/40	F25B41/40		6860
+F25B41/42	9	Arrangements for diverging or converging flows, e.g. branch lines or junctions	F25B41/42	F25B41/42		1452
+F25B41/45	10	for flow control on the upstream side of the diverging point, e.g. with spiral structure for generating turbulence	F25B41/45	F25B41/45		371
+F25B41/48	10	for flow path resistance control on the downstream side of the diverging point, e.g. by an orifice	F25B41/48	F25B41/48		110
+F25B43/00	7	Arrangements for separating or purifying gases or liquids (in analysers or rectifiers F25B33/00); Arrangements for vaporising the residuum of liquid refrigerant, e.g. by heat (F25B40/00 takes precedence)	F25B43/00	F25B43/00		3574
+F25B43/003	8	{Filters}	F25B43/00	F25B43/00		2974
+F25B43/006	8	{Accumulators}	F25B43/00	F25B43/00		3844
+F25B43/02	8	for separating lubricants from the refrigerant	F25B43/02	F25B43/02		2601
+F25B43/04	8	for withdrawing non-condensible gases	F25B43/04	F25B43/04		232
+F25B43/043	9	{for compression type systems}	F25B43/04	F25B43/04		495
+F25B43/046	9	{for sorption type systems}	F25B43/04	F25B43/04		231
+F25B45/00	7	Arrangements for charging or discharging refrigerant	F25B45/00	F25B45/00		3546
+F25B47/00	7	Arrangements for preventing or removing deposits or corrosion, not provided for in another subclass	F25B47/00	F25B47/00		903
+F25B47/003	8	{for preventing corrosion}	F25B47/00	F25B47/00		171
+F25B47/006	8	{for preventing frost}	F25B47/00	F25B47/00		938
+F25B47/02	8	Defrosting cycles	F25B47/02	F25B47/02		2815
+F25B47/022	9	{hot gas defrosting}	F25B47/02	F25B47/02		1823
+F25B47/025	10	{by reversing the cycle}	F25B47/02	F25B47/02		1158
+F25B47/027	9	{for defrosting sorption type systems}	F25B47/02	F25B47/02		79
+F25B49/00	7	Arrangement or mounting of control or safety devices	F25B49/00	F25B49/00		2667
+F25B49/005	8	{of safety devices (F25B49/02 and F25B49/04 take precedence)}	F25B49/00	F25B49/00		2126
+F25B49/02	8	for compression type machines, plants or systems	F25B49/02	F25B49/02		14268
+F25B49/022	9	{Compressor control arrangements}	F25B49/02	F25B49/02		6708
+F25B49/025	9	{Motor control arrangements}	F25B49/02	F25B49/02		1813
+F25B49/027	9	{Condenser control arrangements}	F25B49/02	F25B49/02		1263
+F25B49/04	8	for sorption type machines, plants or systems	F25B49/04	F25B49/04		489
+F25B49/043	9	{Operating continuously}	F25B49/04	F25B49/04		608
+F25B49/046	9	{Operating intermittently}	F25B49/04	F25B49/04		332
+F25B2300/00	7	Special arrangements or features for refrigeration machines, plants or systems, combined heating and refrigeration systems or heat-pump systems	CPCONLY	F25B2300/00		40
+F25B2309/00	7	Gas cycle refrigeration machines	CPCONLY	F25B2309/00		8
+F25B2309/001	8	with a linear configuration or a linear motor	CPCONLY	F25B2309/001		661
+F25B2309/002	8	with parallel working cold producing expansion devices in one circuit	CPCONLY	F25B2309/002		70
+F25B2309/003	8	characterised by construction or composition of the regenerator	CPCONLY	F25B2309/003		509
+F25B2309/004	8	using a compressor of the rotary type	CPCONLY	F25B2309/004		41
+F25B2309/005	8	using an expander of the rotary type	CPCONLY	F25B2309/005		38
+F25B2309/006	8	using a distributing valve of the rotary type	CPCONLY	F25B2309/006		112
+F25B2309/02	8	using the Joule-Thompson effect	CPCONLY	F25B2309/02		30
+F25B2309/021	9	with a cryosurgical probe tip having a specific construction	CPCONLY	F25B2309/021		39
+F25B2309/022	9	characterised by the expansion element	CPCONLY	F25B2309/022		225
+F25B2309/023	9	with two stage expansion	CPCONLY	F25B2309/023		27
+F25B2309/06	8	Compression machines, plants or systems characterised by the refrigerant being carbon dioxide	CPCONLY	F25B2309/06		711
+F25B2309/061	9	with cycle highest pressure above the supercritical pressure	CPCONLY	F25B2309/061		2347
+F25B2309/14	8	Compression machines, plants or systems characterised by the cycle used&#160;	CPCONLY	F25B2309/14		74
+F25B2309/1401	9	Ericsson or Ericcson cycles	CPCONLY	F25B2309/1401		33
+F25B2309/1402	9	Pulse-tube cycles with acoustic driver	CPCONLY	F25B2309/1402		77
+F25B2309/1403	9	Pulse-tube cycles with heat input into acoustic driver	CPCONLY	F25B2309/1403		105
+F25B2309/1404	9	Pulse-tube cycles with loudspeaker driven acoustic driver	CPCONLY	F25B2309/1404		52
+F25B2309/1405	9	Pulse-tube cycles with travelling waves	CPCONLY	F25B2309/1405		63
+F25B2309/1406	9	Pulse-tube cycles with pulse tube in co-axial or concentric geometrical arrangements	CPCONLY	F25B2309/1406		178
+F25B2309/1407	9	Pulse-tube cycles with pulse tube having in-line geometrical arrangements	CPCONLY	F25B2309/1407		219
+F25B2309/1408	9	Pulse-tube cycles with pulse tube having U-turn or L-turn type geometrical arrangements	CPCONLY	F25B2309/1408		439
+F25B2309/1409	9	Pulse-tube cycles with pulse tube having special type of geometrical arrangements not being a coaxial, in-line or U-turn type	CPCONLY	F25B2309/1409		8
+F25B2309/1411	9	Pulse-tube cycles characterised by control details, e.g. tuning, phase shifting or general control	CPCONLY	F25B2309/1411		198
+F25B2309/1412	9	Pulse-tube cycles characterised by heat exchanger details	CPCONLY	F25B2309/1412		218
+F25B2309/1413	9	Pulse-tube cycles characterised by performance, geometry or theory	CPCONLY	F25B2309/1413		150
+F25B2309/1414	9	Pulse-tube cycles characterised by pulse tube details	CPCONLY	F25B2309/1414		102
+F25B2309/1415	9	Pulse-tube cycles characterised by regenerator details	CPCONLY	F25B2309/1415		126
+F25B2309/1416	9	Pulse-tube cycles characterised by regenerator stack details	CPCONLY	F25B2309/1416		48
+F25B2309/1417	9	Pulse-tube cycles without any valves in gas supply and return lines	CPCONLY	F25B2309/1417		112
+F25B2309/1418	9	Pulse-tube cycles with valves in gas supply and return lines	CPCONLY	F25B2309/1418		263
+F25B2309/14181	10	the valves being of the rotary type	CPCONLY	F25B2309/14181		92
+F25B2309/1419	9	Pulse-tube cycles with pulse tube having a basic pulse tube refrigerator [PTR], i.e. comprising a tube with basic schematic	CPCONLY	F25B2309/1419		52
+F25B2309/1421	9	Pulse-tube cycles characterised by details not otherwise provided for	CPCONLY	F25B2309/1421		203
+F25B2309/1422	9	Pulse tubes with basic schematic including a counter flow heat exchanger instead of a regenerative heat exchanger	CPCONLY	F25B2309/1422		21
+F25B2309/1423	9	Pulse tubes with basic schematic including an inertance tube	CPCONLY	F25B2309/1423		141
+F25B2309/1424	9	Pulse tubes with basic schematic including an orifice and a reservoir	CPCONLY	F25B2309/1424		264
+F25B2309/14241	10	Pulse tubes with basic schematic including an orifice reservoir multiple inlet pulse tube	CPCONLY	F25B2309/14241		198
+F25B2309/1425	9	Pulse tubes with basic schematic including several pulse tubes	CPCONLY	F25B2309/1425		108
+F25B2309/1426	9	Pulse tubes with basic schematic including at the pulse tube warm end a so called warm end expander	CPCONLY	F25B2309/1426		84
+F25B2309/1427	9	Control of a pulse tube	CPCONLY	F25B2309/1427		38
+F25B2309/1428	9	Control of a Stirling refrigeration machine	CPCONLY	F25B2309/1428		120
+F25B2313/00	7	Compression machines, plants or systems with reversible cycle not otherwise provided for	CPCONLY	F25B2313/00		15
+F25B2313/001	8	with two or more accumulators	CPCONLY	F25B2313/001		44
+F25B2313/002	8	geothermal	CPCONLY	F25B2313/002		701
+F25B2313/003	8	Indoor unit with water as a heat sink or heat source	CPCONLY	F25B2313/003		575
+F25B2313/004	8	Outdoor unit with water as a heat sink or heat source	CPCONLY	F25B2313/004		216
+F25B2313/005	8	Outdoor unit expansion valves	CPCONLY	F25B2313/005		223
+F25B2313/006	8	two pipes connecting the outdoor side to the indoor side with multiple indoor units	CPCONLY	F25B2313/006		378
+F25B2313/007	8	three pipes connecting the outdoor side to the indoor side with multiple indoor units	CPCONLY	F25B2313/007		251
+F25B2313/008	8	Refrigerant heaters	CPCONLY	F25B2313/008		165
+F25B2313/009	8	indoor unit in circulation with outdoor unit in first operation mode, indoor unit in circulation with an other heat exchanger in second operation mode or outdoor unit in circulation with an other heat exchanger in third operation mode	CPCONLY	F25B2313/009		96
+F25B2313/021	8	Indoor unit or outdoor unit with auxiliary heat exchanger not forming part of the indoor or outdoor unit	CPCONLY	F25B2313/021		265
+F25B2313/0211	9	the auxiliary heat exchanger being only used during defrosting	CPCONLY	F25B2313/0211		72
+F25B2313/0212	9	the auxiliary heat exchanger being only used during dehumidifying	CPCONLY	F25B2313/0212		35
+F25B2313/0213	9	the auxiliary heat exchanger being only used during heating	CPCONLY	F25B2313/0213		81
+F25B2313/0214	9	the auxiliary heat exchanger being used parallel to the indoor unit during heating operation	CPCONLY	F25B2313/0214		16
+F25B2313/0215	9	the auxiliary heat exchanger being used parallel to the outdoor heat exchanger during heating operation	CPCONLY	F25B2313/0215		21
+F25B2313/023	8	using multiple indoor units	CPCONLY	F25B2313/023		823
+F25B2313/0231	9	with simultaneous cooling and heating	CPCONLY	F25B2313/0231		754
+F25B2313/0232	9	with bypasses	CPCONLY	F25B2313/0232		80
+F25B2313/02321	10	during cooling	CPCONLY	F25B2313/02321		46
+F25B2313/02322	10	during defrosting	CPCONLY	F25B2313/02322		56
+F25B2313/02323	10	during heating	CPCONLY	F25B2313/02323		52
+F25B2313/0233	9	in parallel arrangements	CPCONLY	F25B2313/0233		1048
+F25B2313/02331	10	during cooling	CPCONLY	F25B2313/02331		122
+F25B2313/02332	10	during defrosting	CPCONLY	F25B2313/02332		19
+F25B2313/02333	10	during dehumidification	CPCONLY	F25B2313/02333		22
+F25B2313/02334	10	during heating	CPCONLY	F25B2313/02334		100
+F25B2313/0234	9	in series arrangements	CPCONLY	F25B2313/0234		102
+F25B2313/02341	10	during cooling	CPCONLY	F25B2313/02341		36
+F25B2313/02342	10	during defrosting	CPCONLY	F25B2313/02342		15
+F25B2313/02343	10	during dehumidification	CPCONLY	F25B2313/02343		55
+F25B2313/02344	10	during heating	CPCONLY	F25B2313/02344		56
+F25B2313/025	8	using multiple outdoor units	CPCONLY	F25B2313/025		288
+F25B2313/0251	9	being defrosted alternately	CPCONLY	F25B2313/0251		105
+F25B2313/0252	9	with bypasses	CPCONLY	F25B2313/0252		73
+F25B2313/02521	10	during cooling	CPCONLY	F25B2313/02521		19
+F25B2313/02522	10	during defrosting	CPCONLY	F25B2313/02522		38
+F25B2313/02523	10	during heating	CPCONLY	F25B2313/02523		27
+F25B2313/0253	9	in parallel arrangements	CPCONLY	F25B2313/0253		426
+F25B2313/02531	10	during cooling	CPCONLY	F25B2313/02531		73
+F25B2313/02532	10	during defrosting	CPCONLY	F25B2313/02532		28
+F25B2313/02533	10	during heating	CPCONLY	F25B2313/02533		81
+F25B2313/0254	9	in series arrangements	CPCONLY	F25B2313/0254		87
+F25B2313/02541	10	during cooling	CPCONLY	F25B2313/02541		52
+F25B2313/02542	10	during defrosting	CPCONLY	F25B2313/02542		29
+F25B2313/02543	10	during heating	CPCONLY	F25B2313/02543		26
+F25B2313/027	8	characterised by the reversing means	CPCONLY	F25B2313/027		147
+F25B2313/0271	9	the compressor allows rotation in reverse direction	CPCONLY	F25B2313/0271		41
+F25B2313/0272	9	using bridge circuits of one-way valves	CPCONLY	F25B2313/0272		348
+F25B2313/02731	9	using one three-way valve	CPCONLY	F25B2313/02731		357
+F25B2313/02732	9	using two three-way valves	CPCONLY	F25B2313/02732		308
+F25B2313/02741	9	using one four-way valve	CPCONLY	F25B2313/02741		2393
+F25B2313/02742	9	using two four-way valves	CPCONLY	F25B2313/02742		458
+F25B2313/02743	9	using three four-way valves	CPCONLY	F25B2313/02743		157
+F25B2313/0276	9	using six-way valves	CPCONLY	F25B2313/0276		44
+F25B2313/0279	9	using nine-way valves	CPCONLY	F25B2313/0279		1
+F25B2313/02791	9	using shut-off valves	CPCONLY	F25B2313/02791		177
+F25B2313/02792	9	using reversing valve changing the refrigerant flow direction due to pressure differences of the refrigerant and not by external actuation	CPCONLY	F25B2313/02792		49
+F25B2313/029	8	Control issues	CPCONLY	F25B2313/029		172
+F25B2313/0291	9	related to the pressure of the indoor unit	CPCONLY	F25B2313/0291		36
+F25B2313/0292	9	related to reversing valves	CPCONLY	F25B2313/0292		327
+F25B2313/0293	9	related to the indoor fan, e.g. controlling speed	CPCONLY	F25B2313/0293		375
+F25B2313/0294	9	related to the outdoor fan, e.g. controlling speed	CPCONLY	F25B2313/0294		482
+F25B2313/031	8	Sensor arrangements	CPCONLY	F25B2313/031		61
+F25B2313/0311	9	Pressure sensors near the expansion valve	CPCONLY	F25B2313/0311		50
+F25B2313/0312	9	Pressure sensors near the indoor heat exchanger	CPCONLY	F25B2313/0312		91
+F25B2313/0313	9	Pressure sensors near the outdoor heat exchanger	CPCONLY	F25B2313/0313		76
+F25B2313/0314	9	Temperature sensors near the indoor heat exchanger	CPCONLY	F25B2313/0314		731
+F25B2313/0315	9	Temperature sensors near the outdoor heat exchanger	CPCONLY	F25B2313/0315		563
+F25B2313/0316	9	Temperature sensors near the refrigerant heater	CPCONLY	F25B2313/0316		29
+F25B2315/00	7	Sorption refrigeration cycles or details thereof	CPCONLY	F25B2315/00		92
+F25B2315/001	8	Crystallization prevention	CPCONLY	F25B2315/001		197
+F25B2315/002	8	Generator absorber heat exchanger [GAX]	CPCONLY	F25B2315/002		131
+F25B2315/003	8	Hydrates for sorption cycles	CPCONLY	F25B2315/003		77
+F25B2315/004	8	Inert heat-exchangers	CPCONLY	F25B2315/004		50
+F25B2315/005	8	Regeneration	CPCONLY	F25B2315/005		104
+F25B2315/006	8	Reversible sorption cycles	CPCONLY	F25B2315/006		82
+F25B2315/007	8	Parallel systems therefor	CPCONLY	F25B2315/007		41
+F25B2321/00	7	Details of machines, plants or systems, using electric or magnetic effects	CPCONLY	F25B2321/00		23
+F25B2321/001	8	by using electro-caloric effects	CPCONLY	F25B2321/001		182
+F25B2321/002	8	by using magneto-caloric effects	CPCONLY	F25B2321/002		357
+F25B2321/0021	9	with a static fixed magnet	CPCONLY	F25B2321/0021		406
+F25B2321/0022	9	with a rotating or otherwise moving magnet	CPCONLY	F25B2321/0022		313
+F25B2321/0023	9	with modulation, influencing or enhancing an existing magnetic field	CPCONLY	F25B2321/0023		123
+F25B2321/003	8	by using thermionic electron cooling effects	CPCONLY	F25B2321/003		158
+F25B2321/02	8	using Peltier effects; using Nernst-Ettinghausen effects	CPCONLY	F25B2321/02		331
+F25B2321/021	9	Control thereof	CPCONLY	F25B2321/021		464
+F25B2321/0211	10	of fans	CPCONLY	F25B2321/0211		151
+F25B2321/0212	10	of electric power, current or voltage	CPCONLY	F25B2321/0212		840
+F25B2321/023	9	Mounting details thereof	CPCONLY	F25B2321/023		1104
+F25B2321/025	9	Removal of heat	CPCONLY	F25B2321/025		263
+F25B2321/0251	10	by a gas	CPCONLY	F25B2321/0251		1448
+F25B2321/0252	10	by liquids or two-phase fluids	CPCONLY	F25B2321/0252		649
+F25B2327/00	7	Refrigeration system using an engine for driving a compressor	CPCONLY	F25B2327/00		128
+F25B2327/001	8	of the internal combustion type	CPCONLY	F25B2327/001		454
+F25B2333/00	7	Details of boilers; Analysers; Rectifiers	CPCONLY	F25B2333/00		31
+F25B2333/001	8	the generator or boiler having an analyser	CPCONLY	F25B2333/001		15
+F25B2333/002	8	the generator or boiler is heated electrically	CPCONLY	F25B2333/002		97
+F25B2333/003	8	the generator or boiler is heated by combustion gas	CPCONLY	F25B2333/003		232
+F25B2333/004	8	the generator or boiler uses an inert gas as pressure equalizing medium	CPCONLY	F25B2333/004		76
+F25B2333/005	8	the generator or boiler uses electromagnetic energy in the form of microwaves for desorbing the sorbate from the sorbate/sorbent compound	CPCONLY	F25B2333/005		18
+F25B2333/0051	9	the energy is used for heating an auxiliary medium which is used as heating source for desorbing the sorbate from the sorbate/sorbent compound	CPCONLY	F25B2333/0051		1
+F25B2333/006	8	the generator or boiler having a rectifier	CPCONLY	F25B2333/006		63
+F25B2333/007	8	the generator or boiler heated by heat exchangers with steam or hot water as heating fluid or by a secondary boiling-condensing heater	CPCONLY	F25B2333/007		54
+F25B2339/00	7	Details of evaporators; Details of condensers	CPCONLY	F25B2339/00		63
+F25B2339/02	8	Details of evaporators	CPCONLY	F25B2339/02		798
+F25B2339/021	9	Evaporators in which refrigerant is sprayed on a surface to be cooled	CPCONLY	F25B2339/021		127
+F25B2339/022	9	Evaporators constructed from a pair of plates forming a space in which is located a refrigerant carrying coil	CPCONLY	F25B2339/022		128
+F25B2339/023	9	Evaporators consisting of one or several sheets on one face of which is fixed a refrigerant carrying coil	CPCONLY	F25B2339/023		384
+F25B2339/024	9	Evaporators with refrigerant in a vessel in which is situated a heat exchanger	CPCONLY	F25B2339/024		81
+F25B2339/0241	10	having plate-like elements	CPCONLY	F25B2339/0241		73
+F25B2339/0242	10	having tubular elements	CPCONLY	F25B2339/0242		729
+F25B2339/04	8	Details of condensers	CPCONLY	F25B2339/04		630
+F25B2339/041	9	of evaporative condensers	CPCONLY	F25B2339/041		773
+F25B2339/042	9	of pcm condensers	CPCONLY	F25B2339/042		74
+F25B2339/043	9	Condensers made by assembling plate-like or laminated elements	CPCONLY	F25B2339/043		238
+F25B2339/044	9	Condensers with an integrated receiver	CPCONLY	F25B2339/044		451
+F25B2339/0441	10	containing a drier or a filter	CPCONLY	F25B2339/0441		710
+F25B2339/0442	10	characterised by the mechanical fixation of the receiver to the header	CPCONLY	F25B2339/0442		177
+F25B2339/0443	10	the receiver being positioned horizontally	CPCONLY	F25B2339/0443		68
+F25B2339/0444	10	where the flow of refrigerant through the condenser receiver is split into two or more flows, each flow following a different path through the condenser receiver	CPCONLY	F25B2339/0444		117
+F25B2339/0445	10	with throttle portions	CPCONLY	F25B2339/0445		29
+F25B2339/0446	10	characterised by the refrigerant tubes connecting the header of the condenser to the receiver; Inlet or outlet connections to receiver	CPCONLY	F25B2339/0446		319
+F25B2339/045	9	Condensers made by assembling a tube on a plate-like element or between plate-like elements	CPCONLY	F25B2339/045		132
+F25B2339/046	9	Condensers with refrigerant heat exchange tubes positioned inside or around a vessel containing water or pcm to cool the refrigerant gas	CPCONLY	F25B2339/046		181
+F25B2339/047	9	Water-cooled condensers	CPCONLY	F25B2339/047		3500
+F25B2341/00	7	Details of ejectors not being used as compression device; Details of flow restrictors or expansion valves	CPCONLY	F25B2341/00		13
+F25B2341/001	8	Ejectors not being used as compression device	CPCONLY	F25B2341/001		84
+F25B2341/0011	9	Ejectors with the cooled primary flow at reduced or low pressure	CPCONLY	F25B2341/0011		509
+F25B2341/0012	9	Ejectors with the cooled primary flow at high pressure	CPCONLY	F25B2341/0012		800
+F25B2341/0013	9	Ejector control arrangements	CPCONLY	F25B2341/0013		173
+F25B2341/0014	9	Ejectors with a high pressure hot primary flow from a compressor discharge	CPCONLY	F25B2341/0014		199
+F25B2341/0015	9	using two or more ejectors	CPCONLY	F25B2341/0015		228
+F25B2341/0016	9	Ejectors for creating an oil recirculation	CPCONLY	F25B2341/0016		127
+F25B2341/06	8	Details of flow restrictors or expansion valves	CPCONLY	F25B2341/06		302
+F25B2341/062	9	Capillary expansion valves	CPCONLY	F25B2341/062		181
+F25B2341/063	9	Feed forward expansion valves	CPCONLY	F25B2341/063		260
+F25B2341/064	9	Superheater expansion valves	CPCONLY	F25B2341/064		18
+F25B2341/067	9	Expansion valves having a pilot valve	CPCONLY	F25B2341/067		44
+F25B2341/068	9	Expansion valves combined with a sensor	CPCONLY	F25B2341/068		85
+F25B2341/0681	10	the sensor is heated	CPCONLY	F25B2341/0681		101
+F25B2341/0682	10	the sensor contains sorbent materials	CPCONLY	F25B2341/0682		29
+F25B2341/0683	10	the sensor is disposed in the suction line and influenced by the temperature or the pressure of the suction gas	CPCONLY	F25B2341/0683		735
+F25B2345/00	7	Details for charging or discharging refrigerants; Service stations therefor	CPCONLY	F25B2345/00		41
+F25B2345/001	8	Charging refrigerant to a cycle	CPCONLY	F25B2345/001		849
+F25B2345/002	8	Collecting refrigerant from a cycle	CPCONLY	F25B2345/002		927
+F25B2345/003	8	Control issues for charging or collecting refrigerant to or from a cycle	CPCONLY	F25B2345/003		443
+F25B2345/004	8	with several tanks to collect or charge a cycle	CPCONLY	F25B2345/004		160
+F25B2345/005	8	Service stations therefor	CPCONLY	F25B2345/005		75
+F25B2345/0051	9	having a carrying handle	CPCONLY	F25B2345/0051		46
+F25B2345/0052	9	having wheels	CPCONLY	F25B2345/0052		108
+F25B2345/006	8	characterised by charging or discharging valves	CPCONLY	F25B2345/006		789
+F25B2345/007	8	characterised by the weighing of refrigerant or oil	CPCONLY	F25B2345/007		133
+F25B2347/00	7	Details for preventing or removing deposits or corrosion	CPCONLY	F25B2347/00		86
+F25B2347/02	8	Details of defrosting cycles	CPCONLY	F25B2347/02		667
+F25B2347/021	9	Alternate defrosting	CPCONLY	F25B2347/021		233
+F25B2347/022	9	Cool gas defrosting	CPCONLY	F25B2347/022		32
+F25B2347/023	9	Set point defrosting	CPCONLY	F25B2347/023		118
+F25B2400/00	7	General features or devices for refrigeration machines, plants or systems, combined heating and refrigeration systems or heat-pump systems, i.e. not limited to a particular subgroup of F25B	CPCONLY	F25B2400/00		15
+F25B2400/01	8	Heaters	CPCONLY	F25B2400/01		809
+F25B2400/02	8	Centrifugal separation of gas, liquid or oil	CPCONLY	F25B2400/02		478
+F25B2400/03	8	Suction accumulators with deflectors	CPCONLY	F25B2400/03		137
+F25B2400/04	8	Refrigeration circuit bypassing means	CPCONLY	F25B2400/04		558
+F25B2400/0401	9	for the compressor	CPCONLY	F25B2400/0401		675
+F25B2400/0403	9	for the condenser	CPCONLY	F25B2400/0403		798
+F25B2400/0405	9	for the desuperheater	CPCONLY	F25B2400/0405		39
+F25B2400/0407	9	for the ejector	CPCONLY	F25B2400/0407		70
+F25B2400/0409	9	for the evaporator	CPCONLY	F25B2400/0409		813
+F25B2400/0411	9	for the expansion valve or capillary tube	CPCONLY	F25B2400/0411		933
+F25B2400/0413	9	for the filter or drier	CPCONLY	F25B2400/0413		55
+F25B2400/0415	9	for the receiver	CPCONLY	F25B2400/0415		110
+F25B2400/0417	9	for the subcooler	CPCONLY	F25B2400/0417		115
+F25B2400/0419	9	for the superheater	CPCONLY	F25B2400/0419		39
+F25B2400/05	8	Compression system with heat exchange between particular parts of the system	CPCONLY	F25B2400/05		389
+F25B2400/051	9	between the accumulator and another part of the cycle	CPCONLY	F25B2400/051		323
+F25B2400/052	9	between the capillary tube and another part of the refrigeration cycle	CPCONLY	F25B2400/052		570
+F25B2400/053	9	between the storage receiver and another part of the system	CPCONLY	F25B2400/053		163
+F25B2400/054	9	between the suction tube of the compressor and another part of the cycle	CPCONLY	F25B2400/054		626
+F25B2400/06	8	Several compression cycles arranged in parallel	CPCONLY	F25B2400/06		1198
+F25B2400/061	9	the capacity of the first system being different from the second	CPCONLY	F25B2400/061		174
+F25B2400/07	8	Details of compressors or related parts	CPCONLY	F25B2400/07		223
+F25B2400/071	9	Compressor mounted in a housing in which a condenser is integrated	CPCONLY	F25B2400/071		158
+F25B2400/072	9	Intercoolers therefor	CPCONLY	F25B2400/072		260
+F25B2400/073	9	Linear compressors	CPCONLY	F25B2400/073		170
+F25B2400/074	9	with multiple cylinders	CPCONLY	F25B2400/074		179
+F25B2400/075	9	with parallel compressors	CPCONLY	F25B2400/075		2519
+F25B2400/0751	10	the compressors having different capacities	CPCONLY	F25B2400/0751		521
+F25B2400/076	9	having multiple cylinders driven by a rotating swash plate	CPCONLY	F25B2400/076		36
+F25B2400/077	9	Compressor control units, e.g. terminal boxes, mounted on the compressor casing wall containing for example starter, protection switches or connector contacts	CPCONLY	F25B2400/077		383
+F25B2400/08	8	Refrigeration machines, plants and systems having means for detecting the concentration of a refrigerant	CPCONLY	F25B2400/08		44
+F25B2400/09	8	Refrigeration machines, plants and systems having means for detecting the concentration of a sorbent solution	CPCONLY	F25B2400/09		6
+F25B2400/11	8	Drop catchers	CPCONLY	F25B2400/11		15
+F25B2400/12	8	Inflammable refrigerants	CPCONLY	F25B2400/12		790
+F25B2400/121	9	using R1234	CPCONLY	F25B2400/121		335
+F25B2400/13	8	Economisers	CPCONLY	F25B2400/13		3175
+F25B2400/14	8	Power generation using energy from the expansion of the refrigerant	CPCONLY	F25B2400/14		310
+F25B2400/141	9	the extracted power is not recycled back in the refrigerant circuit	CPCONLY	F25B2400/141		333
+F25B2400/15	8	Microelectro-mechanical devices	CPCONLY	F25B2400/15		69
+F25B2400/16	8	Receivers	CPCONLY	F25B2400/16		1408
+F25B2400/161	9	arranged in parallel	CPCONLY	F25B2400/161		57
+F25B2400/162	9	characterised by the plug or stop	CPCONLY	F25B2400/162		228
+F25B2400/17	8	Re-condensers	CPCONLY	F25B2400/17		216
+F25B2400/18	8	Refrigerant conversion	CPCONLY	F25B2400/18		170
+F25B2400/19	8	Pumping down refrigerant from one part of the cycle to another part of the cycle, e.g. when the cycle is changed from cooling to heating, or before a defrost cycle is started	CPCONLY	F25B2400/19		584
+F25B2400/21	8	Modules for refrigeration systems	CPCONLY	F25B2400/21		109
+F25B2400/22	8	Refrigeration systems for supermarkets	CPCONLY	F25B2400/22		899
+F25B2400/23	8	Separators	CPCONLY	F25B2400/23		2916
+F25B2400/24	8	Storage receiver heat	CPCONLY	F25B2400/24		1080
+F25B2500/00	7	Problems to be solved	CPCONLY	F25B2500/00		21
+F25B2500/01	8	Geometry problems, e.g. for reducing size	CPCONLY	F25B2500/01		1970
+F25B2500/02	8	Increasing the heating capacity of a reversible cycle during cold outdoor conditions	CPCONLY	F25B2500/02		130
+F25B2500/03	8	Cavitations	CPCONLY	F25B2500/03		27
+F25B2500/04	8	Clogging	CPCONLY	F25B2500/04		198
+F25B2500/05	8	Cost reduction	CPCONLY	F25B2500/05		629
+F25B2500/06	8	Damage	CPCONLY	F25B2500/06		935
+F25B2500/07	8	Exceeding a certain pressure value in a refrigeration component or cycle	CPCONLY	F25B2500/07		285
+F25B2500/08	8	Exceeding a certain temperature value in a refrigeration component or cycle	CPCONLY	F25B2500/08		182
+F25B2500/09	8	Improving heat transfers	CPCONLY	F25B2500/09		699
+F25B2500/11	8	Reducing heat transfers	CPCONLY	F25B2500/11		73
+F25B2500/12	8	Sound	CPCONLY	F25B2500/12		1969
+F25B2500/13	8	Vibrations	CPCONLY	F25B2500/13		1203
+F25B2500/14	8	the presence of moisture in a refrigeration component or cycle	CPCONLY	F25B2500/14		125
+F25B2500/15	8	Hunting, i.e. oscillation of controlled refrigeration variables reaching undesirable values	CPCONLY	F25B2500/15		163
+F25B2500/16	8	Lubrication	CPCONLY	F25B2500/16		750
+F25B2500/17	8	Size reduction	CPCONLY	F25B2500/17		316
+F25B2500/18	8	Optimization, e.g. high integration of refrigeration components	CPCONLY	F25B2500/18		986
+F25B2500/19	8	Calculation of parameters	CPCONLY	F25B2500/19		1109
+F25B2500/21	8	Reduction of parts	CPCONLY	F25B2500/21		171
+F25B2500/22	8	Preventing, detecting or repairing leaks of refrigeration fluids	CPCONLY	F25B2500/22		252
+F25B2500/221	9	Preventing leaks from developing	CPCONLY	F25B2500/221		209
+F25B2500/222	9	Detecting refrigerant leaks	CPCONLY	F25B2500/222		954
+F25B2500/23	8	High amount of refrigerant in the system	CPCONLY	F25B2500/23		102
+F25B2500/24	8	Low amount of refrigerant in the system	CPCONLY	F25B2500/24		303
+F25B2500/25	8	Standardisation of apparatus or parts	CPCONLY	F25B2500/25		19
+F25B2500/26	8	characterised by the startup of the refrigeration cycle	CPCONLY	F25B2500/26		863
+F25B2500/27	8	characterised by the stop of the refrigeration cycle	CPCONLY	F25B2500/27		258
+F25B2500/28	8	Means for preventing liquid refrigerant entering into the compressor	CPCONLY	F25B2500/28		732
+F25B2500/29	8	High ambient temperatures	CPCONLY	F25B2500/29		135
+F25B2500/31	8	Low ambient temperatures	CPCONLY	F25B2500/31		666
+F25B2500/32	8	Weight	CPCONLY	F25B2500/32		37
+F25B2600/00	7	Control issues	CPCONLY	F25B2600/00		54
+F25B2600/01	8	Timing	CPCONLY	F25B2600/01		627
+F25B2600/02	8	Compressor control	CPCONLY	F25B2600/02		722
+F25B2600/021	9	Inverters therefor	CPCONLY	F25B2600/021		2707
+F25B2600/022	9	for multi-stage operation	CPCONLY	F25B2600/022		90
+F25B2600/023	9	controlling swash plate angles	CPCONLY	F25B2600/023		61
+F25B2600/024	9	by controlling the electric parameters, e.g. current or voltage	CPCONLY	F25B2600/024		523
+F25B2600/025	9	by controlling speed	CPCONLY	F25B2600/025		435
+F25B2600/0251	10	with on-off operation	CPCONLY	F25B2600/0251		1671
+F25B2600/0252	10	with two speeds	CPCONLY	F25B2600/0252		84
+F25B2600/0253	10	with variable speed	CPCONLY	F25B2600/0253		1592
+F25B2600/026	9	by controlling unloaders	CPCONLY	F25B2600/026		121
+F25B2600/0261	10	external to the compressor	CPCONLY	F25B2600/0261		384
+F25B2600/0262	10	internal to the compressor	CPCONLY	F25B2600/0262		69
+F25B2600/027	9	by controlling pressure	CPCONLY	F25B2600/027		103
+F25B2600/0271	10	the discharge pressure	CPCONLY	F25B2600/0271		149
+F25B2600/0272	10	the suction pressure	CPCONLY	F25B2600/0272		105
+F25B2600/05	8	Refrigerant levels	CPCONLY	F25B2600/05		333
+F25B2600/07	8	Remote controls	CPCONLY	F25B2600/07		335
+F25B2600/11	8	Fan speed control	CPCONLY	F25B2600/11		528
+F25B2600/111	9	of condenser fans	CPCONLY	F25B2600/111		860
+F25B2600/112	9	of evaporator fans	CPCONLY	F25B2600/112		934
+F25B2600/13	8	Pump speed control	CPCONLY	F25B2600/13		411
+F25B2600/15	8	during shut down	CPCONLY	F25B2600/15		22
+F25B2600/17	8	by controlling the pressure of the condenser	CPCONLY	F25B2600/17		413
+F25B2600/19	8	Refrigerant outlet condenser temperature	CPCONLY	F25B2600/19		171
+F25B2600/21	8	Refrigerant outlet evaporator temperature	CPCONLY	F25B2600/21		1059
+F25B2600/23	8	Time delays	CPCONLY	F25B2600/23		427
+F25B2600/25	8	Control of valves	CPCONLY	F25B2600/25		1174
+F25B2600/2501	9	Bypass valves	CPCONLY	F25B2600/2501		1642
+F25B2600/2503	9	Condenser exit valves	CPCONLY	F25B2600/2503		61
+F25B2600/2505	9	Fixed-differential control valves	CPCONLY	F25B2600/2505		38
+F25B2600/2507	9	Flow-diverting valves	CPCONLY	F25B2600/2507		794
+F25B2600/2509	9	Economiser valves	CPCONLY	F25B2600/2509		663
+F25B2600/2511	9	Evaporator distribution valves	CPCONLY	F25B2600/2511		948
+F25B2600/2513	9	Expansion valves	CPCONLY	F25B2600/2513		3451
+F25B2600/2515	9	Flow valves	CPCONLY	F25B2600/2515		743
+F25B2600/2517	9	Head-pressure valves	CPCONLY	F25B2600/2517		31
+F25B2600/2519	9	On-off valves	CPCONLY	F25B2600/2519		898
+F25B2600/2521	9	On-off valves controlled by pulse signals	CPCONLY	F25B2600/2521		406
+F25B2600/2523	9	Receiver valves	CPCONLY	F25B2600/2523		150
+F25B2600/2525	9	Pressure relief valves	CPCONLY	F25B2600/2525		118
+F25B2700/00	7	Sensing or detecting of parameters; Sensors therefor	CPCONLY	F25B2700/00		78
+F25B2700/01	8	Sensors determining characteristics of the burner for a generator	CPCONLY	F25B2700/01		11
+F25B2700/02	8	Humidity	CPCONLY	F25B2700/02		585
+F25B2700/03	8	Oil level	CPCONLY	F25B2700/03		287
+F25B2700/04	8	Refrigerant level	CPCONLY	F25B2700/04		668
+F25B2700/05	8	Load shedding of a compressor	CPCONLY	F25B2700/05		8
+F25B2700/06	8	Piston positions of a compressor	CPCONLY	F25B2700/06		8
+F25B2700/11	8	Sensor to detect if defrost is necessary	CPCONLY	F25B2700/11		316
+F25B2700/111	9	using an emitter and receiver, e.g. sensing by emitting light or other radiation and receiving reflection by a sensor	CPCONLY	F25B2700/111		174
+F25B2700/13	8	Mass flow of refrigerants	CPCONLY	F25B2700/13		184
+F25B2700/131	9	at the outlet of a subcooler	CPCONLY	F25B2700/131		3
+F25B2700/133	9	through the condenser	CPCONLY	F25B2700/133		16
+F25B2700/1331	10	at the inlet	CPCONLY	F25B2700/1331		6
+F25B2700/1332	10	at the outlet	CPCONLY	F25B2700/1332		17
+F25B2700/135	9	through the evaporator	CPCONLY	F25B2700/135		24
+F25B2700/1351	10	of the cooled fluid upstream or downstream of the evaporator	CPCONLY	F25B2700/1351		22
+F25B2700/1352	10	at the inlet	CPCONLY	F25B2700/1352		19
+F25B2700/1353	10	at the outlet	CPCONLY	F25B2700/1353		21
+F25B2700/15	8	Power, e.g. by voltage or current	CPCONLY	F25B2700/15		404
+F25B2700/151	9	of the compressor motor	CPCONLY	F25B2700/151		493
+F25B2700/17	8	Speeds	CPCONLY	F25B2700/17		33
+F25B2700/171	9	of the compressor	CPCONLY	F25B2700/171		280
+F25B2700/172	9	of the condenser fan	CPCONLY	F25B2700/172		67
+F25B2700/173	9	of the evaporator fan	CPCONLY	F25B2700/173		76
+F25B2700/19	8	Pressures	CPCONLY	F25B2700/19		538
+F25B2700/191	9	near an expansion valve	CPCONLY	F25B2700/191		125
+F25B2700/193	9	of the compressor	CPCONLY	F25B2700/193		139
+F25B2700/1931	10	Discharge pressures	CPCONLY	F25B2700/1931		1747
+F25B2700/1932	10	Oil pressures	CPCONLY	F25B2700/1932		38
+F25B2700/1933	10	Suction pressures	CPCONLY	F25B2700/1933		1676
+F25B2700/195	9	of the condenser	CPCONLY	F25B2700/195		589
+F25B2700/197	9	of the evaporator	CPCONLY	F25B2700/197		545
+F25B2700/21	8	Temperatures	CPCONLY	F25B2700/21		1026
+F25B2700/2101	9	in a bypass	CPCONLY	F25B2700/2101		76
+F25B2700/2102	9	at the outlet of the gas cooler	CPCONLY	F25B2700/2102		99
+F25B2700/2103	9	near a heat exchanger	CPCONLY	F25B2700/2103		466
+F25B2700/2104	9	of an indoor room or compartment	CPCONLY	F25B2700/2104		1404
+F25B2700/2105	9	Oil temperatures	CPCONLY	F25B2700/2105		123
+F25B2700/2106	9	of fresh outdoor air	CPCONLY	F25B2700/2106		1725
+F25B2700/2107	9	of a Peltier element	CPCONLY	F25B2700/2107		65
+F25B2700/2108	9	of a receiver	CPCONLY	F25B2700/2108		51
+F25B2700/2109	9	of a separator	CPCONLY	F25B2700/2109		47
+F25B2700/2111	9	of a heat storage receiver	CPCONLY	F25B2700/2111		75
+F25B2700/2113	9	of a suction accumulator	CPCONLY	F25B2700/2113		54
+F25B2700/2115	9	of a compressor or the drive means therefor	CPCONLY	F25B2700/2115		232
+F25B2700/21151	10	at the suction side of the compressor	CPCONLY	F25B2700/21151		1284
+F25B2700/21152	10	at the discharge side of the compressor	CPCONLY	F25B2700/21152		1826
+F25B2700/21153	10	of electronic components	CPCONLY	F25B2700/21153		45
+F25B2700/21154	10	of an inverter	CPCONLY	F25B2700/21154		70
+F25B2700/21155	10	of the oil	CPCONLY	F25B2700/21155		93
+F25B2700/21156	10	of the motor	CPCONLY	F25B2700/21156		67
+F25B2700/21157	11	at the coil or rotor	CPCONLY	F25B2700/21157		29
+F25B2700/2116	9	of a condenser	CPCONLY	F25B2700/2116		435
+F25B2700/21161	10	of the fluid heated by the condenser	CPCONLY	F25B2700/21161		538
+F25B2700/21162	10	of the refrigerant at the inlet of the condenser	CPCONLY	F25B2700/21162		199
+F25B2700/21163	10	of the refrigerant at the outlet of the condenser	CPCONLY	F25B2700/21163		720
+F25B2700/2117	9	of an evaporator	CPCONLY	F25B2700/2117		1024
+F25B2700/21171	10	of the fluid cooled by the evaporator	CPCONLY	F25B2700/21171		354
+F25B2700/21172	11	at the inlet	CPCONLY	F25B2700/21172		397
+F25B2700/21173	11	at the outlet	CPCONLY	F25B2700/21173		603
+F25B2700/21174	10	of the refrigerant at the inlet of the evaporator	CPCONLY	F25B2700/21174		517
+F25B2700/21175	10	of the refrigerant at the outlet of the evaporator	CPCONLY	F25B2700/21175		936

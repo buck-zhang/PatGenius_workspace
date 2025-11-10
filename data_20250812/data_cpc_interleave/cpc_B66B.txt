@@ -1,0 +1,392 @@
+B66B1/00	7	Control systems of elevators in general (safety devices B66B5/00; controlling door or gate operation B66B13/00; systems of general application G05)	B66B1/00	B66B1/00		259
+B66B1/02	8	Control systems without regulation, i.e. without retroactive action	B66B1/02	B66B1/02		198
+B66B1/04	9	hydraulic	B66B1/04	B66B1/04		311
+B66B1/06	9	electric	B66B1/06	B66B1/06		2079
+B66B1/08	10	with devices, e.g. handles or levers, in the cars or cages for direct control of movements	B66B1/08	B66B1/08		694
+B66B1/10	11	specially adapted for mining hoists	B66B1/10	B66B1/10		11
+B66B1/12	10	with devices, e.g. handles or levers, located at a control station for direct control movements, e.g. electric mining-hoist control systems	B66B1/12	B66B1/12		357
+B66B1/14	10	with devices, e.g. push-buttons, for indirect control of movements	B66B1/14	B66B1/14		1305
+B66B1/16	11	with means for storing pulses controlling the movements of a single car or cage {(B66B1/2433 takes precedence)}	B66B1/16	B66B1/16		364
+B66B1/18	11	with means for storing pulses controlling the movements of several cars or cages {(B66B1/2458 takes precedence)}	B66B1/18	B66B1/18		947
+B66B1/20	12	and for varying the manner of operation to suit particular traffic conditions, e.g. "one-way rush-hour traffic" {(B66B1/2466 takes precedence)}	B66B1/20	B66B1/20		289
+B66B1/22	11	with means for taking account of delayed calls	B66B1/22	B66B1/22		22
+B66B1/24	8	Control systems with regulation, i.e. with retroactive action, for influencing travelling speed, acceleration, or deceleration	B66B1/24	B66B1/24		581
+B66B1/2408	9	{where the allocation of a call to an elevator car is of importance, i.e. by means of a supervisory or group controller}	B66B1/24	B66B1/24		748
+B66B1/2416	10	{For single car elevator systems}	B66B1/24	B66B1/24		65
+B66B1/2433	10	{For elevator systems with a single shaft and multiple cars}	B66B1/24	B66B1/24		111
+B66B1/2458	10	{For elevator systems with multiple shafts and a single car per shaft}	B66B1/24	B66B1/24		521
+B66B1/2466	10	{For elevator systems with multiple shafts and multiple cars per shaft}	B66B1/24	B66B1/24		136
+B66B1/2491	10	{For elevator systems with lateral transfers of cars or cabins between hoistways}	B66B1/24	B66B1/24		70
+B66B1/26	9	mechanical	B66B1/26	B66B1/26		85
+B66B1/28	9	electrical (detecting excessive speed B66B5/04{; control of electrical motor H02P})	B66B1/28	B66B1/28		969
+B66B1/285	10	{with the use of a speed pattern generator}	B66B1/28	B66B1/28		335
+B66B1/30	10	effective on driving gear {, e.g. acting on power electronics, on inverter or rectifier controlled motor}	B66B1/30	B66B1/30		832
+B66B1/302	11	{for energy saving}	B66B1/30	B66B1/30		284
+B66B1/304	11	{with starting torque control}	B66B1/30	B66B1/30		79
+B66B1/306	11	{with DC powered elevator drive}	B66B1/30	B66B1/30		54
+B66B1/308	11	{with AC powered elevator drive}	B66B1/30	B66B1/30		241
+B66B1/32	10	effective on braking devices {, e.g. acting on electrically controlled brakes (brake control H02P, lift brakes per seB66B5/02)}	B66B1/32	B66B1/32		658
+B66B1/34	8	Details {, e.g. call counting devices, data transmission from car to control system, devices giving information to the control system}	B66B1/34	B66B1/34		1647
+B66B1/3407	9	{Setting or modification of parameters of the control system}	B66B1/34	B66B1/34		466
+B66B1/3415	9	{Control system configuration and the data transmission or communication within the control system}	B66B1/34	B66B1/34		963
+B66B1/3423	10	{Control system configuration, i.e. lay-out}	B66B1/34	B66B1/34		1311
+B66B1/343	11	{Fault-tolerant or redundant control system configuration}	B66B1/34	B66B1/34		39
+B66B1/3438	11	{Master-slave control system configuration}	B66B1/34	B66B1/34		39
+B66B1/3446	10	{Data transmission or communication within the control system}	B66B1/34	B66B1/34		1193
+B66B1/3453	11	{Procedure or protocol for the data transmission or communication}	B66B1/34	B66B1/34		367
+B66B1/3461	11	{between the elevator control system and remote or mobile stations}	B66B1/34	B66B1/34		1359
+B66B1/3469	9	{mechanical}	B66B1/34	B66B1/34		65
+B66B1/3476	9	{Load weighing or car passenger counting devices (B66B5/14 takes precedence)}	B66B1/34	B66B1/34		858
+B66B1/3484	10	{using load cells}	B66B1/34	B66B1/34		283
+B66B1/3492	9	{Position or motion detectors or driving means for the detector (B66B1/40, B66B1/50 take precedence; length measuring G01B; speed measuring G01P)}	B66B1/34	B66B1/34		1374
+B66B1/36	9	Means for stopping the cars, cages, or skips at predetermined levels	B66B1/36	B66B1/36		416
+B66B1/365	10	{mechanical}	B66B1/36	B66B1/36		130
+B66B1/38	10	and for returning the controlling handle or lever to its neutral position	B66B1/38	B66B1/38		18
+B66B1/40	10	and for correct levelling at landings	B66B1/40	B66B1/40		400
+B66B1/405	11	{for hydraulically actuated elevators}	B66B1/40	B66B1/40		131
+B66B1/42	11	separate from the main drive	B66B1/42	B66B1/42		168
+B66B1/425	12	{adapted for multi-deck cars in a single car frame}	B66B1/42	B66B1/42		30
+B66B1/44	10	and for taking account of disturbance factors, e.g. variation of load weight	B66B1/44	B66B1/44		237
+B66B1/46	9	Adaptations of switches or switchgear (switches or switchgear in general, applications of switches or switchgear for floor-levelling purpose H01H; panels for boards or switching arrangements H02B1/015)	B66B1/46	B66B1/46		884
+B66B1/461	10	{characterised by their shape or profile}	B66B1/46	B66B1/46		359
+B66B1/462	11	{Mechanical or piezoelectric input devices}	B66B1/46	B66B1/46		315
+B66B1/463	11	{Touch sensitive input devices}	B66B1/46	B66B1/46		224
+B66B1/465	11	{being resistant to damage}	B66B1/46	B66B1/46		61
+B66B1/466	11	{facilitating maintenance, installation, removal, replacement or repair}	B66B1/46	B66B1/46		173
+B66B1/467	10	{characterised by their mounting position}	B66B1/46	B66B1/46		162
+B66B1/468	10	{Call registering systems}	B66B1/46	B66B1/46		2018
+B66B1/48	10	Adaptations of mechanically-operated limit switches (for cranes B66C13/50; for winding mechanisms B66D1/56)	B66B1/48	B66B1/48		214
+B66B1/50	10	with operating or control mechanisms mounted in the car or cage or in the lift well or hoistway	B66B1/50	B66B1/50		612
+B66B1/52	10	Floor selectors	B66B1/52	B66B1/52		698
+B66B3/00	7	Applications of devices for indicating or signalling operating conditions of elevators	B66B3/00	B66B3/00		1626
+B66B3/002	8	{Indicators}	B66B3/00	B66B3/00		1261
+B66B3/004	9	{Mechanical devices that can be illuminated}	B66B3/00	B66B3/00		135
+B66B3/006	9	{for guiding passengers to their assigned elevator car}	B66B3/00	B66B3/00		239
+B66B3/008	9	{Displaying information not related to the elevator, e.g. weather, publicity, internet or TV}	B66B3/00	B66B3/00		407
+B66B3/02	8	Position or depth indicators	B66B3/02	B66B3/02		1004
+B66B3/023	9	{characterised by their mounting position}	B66B3/02	B66B3/02		107
+B66B3/026	9	{Mechanical devices that can be illuminated}	B66B3/02	B66B3/02		191
+B66B5/00	7	Applications of checking, fault-correcting, or safety devices in elevators	B66B5/00	B66B5/00		2255
+B66B5/0006	8	{Monitoring devices or performance analysers (B66B5/02 takes precedence)}	B66B5/00	B66B5/00		1072
+B66B5/0012	9	{Devices monitoring the users of the elevator system}	B66B5/00	B66B5/00		1686
+B66B5/0018	9	{Devices monitoring the operating condition of the elevator system}	B66B5/00	B66B5/00		2168
+B66B5/0025	10	{for maintenance or repair}	B66B5/00	B66B5/00		1245
+B66B5/0031	10	{for safety reasons}	B66B5/00	B66B5/00		3391
+B66B5/0037	9	{Performance analysers}	B66B5/00	B66B5/00		1528
+B66B5/0043	8	{Devices enhancing safety during maintenance}	B66B5/00	B66B5/00		131
+B66B5/005	9	{Safety of maintenance personnel}	B66B5/00	B66B5/00		580
+B66B5/0056	10	{by preventing crushing}	B66B5/00	B66B5/00		159
+B66B5/0062	11	{by devices, being operable or not, mounted on the elevator car}	B66B5/00	B66B5/00		58
+B66B5/0068	11	{by activating the safety brakes when the elevator car exceeds a certain upper or lower position in the elevator shaft}	B66B5/00	B66B5/00		57
+B66B5/0075	11	{by anchoring the elevator car or counterweight}	B66B5/00	B66B5/00		43
+B66B5/0081	10	{by preventing falling by means of safety fences or handrails, being operable or not, mounted on top of the elevator car}	B66B5/00	B66B5/00		138
+B66B5/0087	8	{Devices facilitating maintenance, repair or inspection tasks (devices incorporated in the buffer B66B5/288; railings on top of the car B66B11/0226)}	B66B5/00	B66B5/00		1411
+B66B5/0093	9	{Testing of safety devices}	B66B5/00	B66B5/00		283
+B66B5/02	8	responsive to abnormal operating conditions	B66B5/02	B66B5/02		3741
+B66B5/021	9	{the abnormal operating conditions being independent of the system (alarm systems in general G08B)}	B66B5/02	B66B5/02		717
+B66B5/022	10	{where the abnormal operating condition is caused by a natural event, e.g. earthquake}	B66B5/02	B66B5/02		200
+B66B5/024	10	{where the abnormal operating condition is caused by an accident, e.g. fire}	B66B5/02	B66B5/02		422
+B66B5/025	10	{where the abnormal operating condition is caused by human behaviour or misbehaviour, e.g. forcing the doors}	B66B5/02	B66B5/02		124
+B66B5/027	9	{to permit passengers to leave an elevator car in case of failure, e.g. moving the car to a reference floor or unlocking the door}	B66B5/02	B66B5/02		1055
+B66B5/028	9	{Safety devices separate from control system in case of power failure, for hydraulical lifts, e.g. braking the hydraulic jack (B66B5/16 takes precedence)}	B66B5/02	B66B5/02		190
+B66B5/04	9	for detecting excessive speed	B66B5/04	B66B5/04		931
+B66B5/042	10	{characterised by specific locations of the governor cable}	B66B5/04	B66B5/04		21
+B66B5/044	10	{Mechanical overspeed governors}	B66B5/04	B66B5/04		1027
+B66B5/046	11	{of the pendulum or rocker arm type}	B66B5/04	B66B5/04		101
+B66B5/048	10	{Testing of overspeed governor}	B66B5/04	B66B5/04		123
+B66B5/06	10	electrical	B66B5/06	B66B5/06		748
+B66B5/08	9	for preventing overwinding	B66B5/08	B66B5/08		329
+B66B5/10	10	electrical	B66B5/10	B66B5/10		113
+B66B5/12	9	in case of rope or cable slack	B66B5/12	B66B5/12		330
+B66B5/125	10	{electrical}	B66B5/12	B66B5/12		108
+B66B5/14	9	in case of excessive loads	B66B5/14	B66B5/14		211
+B66B5/145	10	{electrical}	B66B5/14	B66B5/14		282
+B66B5/16	9	Braking or catch devices operating between cars, cages, or skips and fixed guide elements or surfaces in hoistway or well	B66B5/16	B66B5/16		1097
+B66B5/18	10	and applying frictional retarding forces	B66B5/18	B66B5/18		2033
+B66B5/185	11	{by acting on main ropes or main cables}	B66B5/18	B66B5/18		293
+B66B5/20	11	by means of rotatable eccentrically-mounted members (B66B5/24 takes precedence)	B66B5/20	B66B5/20		421
+B66B5/22	11	by means of linearly-movable wedges (B66B5/24 takes precedence)	B66B5/22	B66B5/22		866
+B66B5/24	11	by acting on guide ropes or cables	B66B5/24	B66B5/24		357
+B66B5/26	10	Positively-acting devices, e.g. latches, knives	B66B5/26	B66B5/26		1035
+B66B5/28	8	Buffer-stops for cars, cages, or skips	B66B5/28	B66B5/28		467
+B66B5/282	9	{Structure thereof}	B66B5/28	B66B5/28		1090
+B66B5/284	9	{mounted on cars or counterweights}	B66B5/28	B66B5/28		586
+B66B5/286	10	{between two cars or two counterweights}	B66B5/28	B66B5/28		26
+B66B5/288	9	{with maintenance features (if not incorporated in the buffer B66B5/0087)}	B66B5/28	B66B5/28		72
+B66B7/00	7	Other common features of elevators	B66B7/00	B66B7/00		1133
+B66B7/02	8	Guideways; Guides (arrangements in mine shafts E21D7/02)	B66B7/02	B66B7/02		1472
+B66B7/021	9	{with a particular position in the shaft}	B66B7/02	B66B7/02		250
+B66B7/022	9	{with a special shape}	B66B7/02	B66B7/02		618
+B66B7/023	9	{Mounting means therefor}	B66B7/02	B66B7/02		504
+B66B7/024	10	{Lateral supports}	B66B7/02	B66B7/02		479
+B66B7/025	10	{End supports, i.e. at top or bottom}	B66B7/02	B66B7/02		95
+B66B7/026	10	{Interconnections}	B66B7/02	B66B7/02		217
+B66B7/027	10	{for mounting auxiliary devices}	B66B7/02	B66B7/02		376
+B66B7/028	9	{with earthquake protection devices}	B66B7/02	B66B7/02		135
+B66B7/04	9	{Riding means, e.g.} Shoes, Rollers, {between car and guiding means, e.g. rails, ropes (rollers adapted to match the shape of a special guiding means B66B7/02; vibration attenuation systems acting between car and its supporting frame B66B11/026)}	B66B7/04	B66B7/04		283
+B66B7/041	10	{including active attenuation system for shocks, vibrations}	B66B7/04	B66B7/04		34
+B66B7/042	11	{with rollers, shoes}	B66B7/04	B66B7/04		122
+B66B7/043	12	{using learning}	B66B7/04	B66B7/04		17
+B66B7/044	11	{with magnetic or electromagnetic means}	B66B7/04	B66B7/04		74
+B66B7/045	12	{using learning}	B66B7/04	B66B7/04		2
+B66B7/046	10	{Rollers}	B66B7/04	B66B7/04		835
+B66B7/047	10	{Shoes, sliders}	B66B7/04	B66B7/04		575
+B66B7/048	10	{including passive attenuation system for shocks, vibrations}	B66B7/04	B66B7/04		336
+B66B7/06	8	Arrangements of ropes or cables	B66B7/06	B66B7/06		1551
+B66B7/062	9	{Belts}	B66B7/06	B66B7/06		530
+B66B7/064	9	{Power supply or signal cables}	B66B7/06	B66B7/06		236
+B66B7/066	9	{Chains}	B66B7/06	B66B7/06		93
+B66B7/068	9	{Cable weight compensating devices}	B66B7/06	B66B7/06		345
+B66B7/08	9	for connection to the cars or cages, e.g. couplings	B66B7/08	B66B7/08		677
+B66B7/085	10	{Belt termination devices}	B66B7/08	B66B7/08		158
+B66B7/10	9	for equalising rope or cable tension	B66B7/10	B66B7/10		643
+B66B7/12	8	Checking, lubricating, or cleaning means for ropes, cables or guides	B66B7/12	B66B7/12		107
+B66B7/1207	9	{Checking means}	B66B7/12	B66B7/12		41
+B66B7/1215	10	{specially adapted for ropes or cables}	B66B7/12	B66B7/12		355
+B66B7/1223	11	{by analysing electric variables}	B66B7/12	B66B7/12		217
+B66B7/123	11	{by analysing magnetic variables}	B66B7/12	B66B7/12		98
+B66B7/1238	11	{by optical techniques}	B66B7/12	B66B7/12		111
+B66B7/1246	10	{specially adapted for guides}	B66B7/12	B66B7/12		148
+B66B7/1253	9	{Lubricating means}	B66B7/12	B66B7/12		45
+B66B7/1261	10	{specially adapted for ropes or cables}	B66B7/12	B66B7/12		164
+B66B7/1269	10	{specially adapted for guides}	B66B7/12	B66B7/12		263
+B66B7/1276	9	{Cleaning means}	B66B7/12	B66B7/12		32
+B66B7/1284	10	{specially adapted for ropes or cables}	B66B7/12	B66B7/12		134
+B66B7/1292	10	{specially adapted for guides}	B66B7/12	B66B7/12		84
+B66B9/00	7	Kinds or types of lifts in, or associated with, buildings or other structures (characterised by control systems B66B1/00; apparatus for raising or lowering persons on stages of theatres A63J5/12)	B66B9/00	B66B9/00		2282
+B66B9/003	8	{for lateral transfer of car or frame, e.g. between vertical hoistways or to/from a parking position}	B66B9/00	B66B9/00		496
+B66B2009/006	8	{Ganged elevator}	B66B9/00	B66B9/00		126
+B66B9/02	8	actuated mechanically otherwise than by rope or cable	B66B9/02	B66B9/02		642
+B66B9/022	9	{by rack and pinion drives}	B66B9/02	B66B9/02		440
+B66B9/025	9	{by screw-nut drives}	B66B9/02	B66B9/02		370
+B66B9/027	9	{by rope climbing devices}	B66B9/02	B66B9/02		52
+B66B9/04	8	actuated pneumatically or hydraulically (platforms for lifting or lowering through short distances B66F7/00)	B66B9/04	B66B9/04		899
+B66B9/06	8	inclined, e.g. serving blast furnaces	B66B9/06	B66B9/06		235
+B66B9/08	9	associated with stairways, e.g. for transporting disabled persons {(facilitating access of invalids to vehicles A61G3/02)}	B66B9/08	B66B9/08		502
+B66B9/0807	10	{Driving mechanisms}	B66B9/08	B66B9/08		204
+B66B9/0815	11	{Rack and pinion, friction rollers}	B66B9/08	B66B9/08		208
+B66B9/0823	11	{Screw and nut}	B66B9/08	B66B9/08		52
+B66B9/083	11	{Pull cable, pull chain}	B66B9/08	B66B9/08		174
+B66B9/0838	10	{Levelling gears}	B66B9/08	B66B9/08		121
+B66B9/0846	10	{Guide rail (B66B9/0807 takes precedence)}	B66B9/08	B66B9/08		190
+B66B9/0853	10	{Lifting platforms, e.g. constructional features}	B66B9/08	B66B9/08		322
+B66B9/0861	10	{Hanging lifts, e.g. rope suspended seat or platform}	B66B9/08	B66B9/08		72
+B66B9/0869	10	{Collapsible stairways, e.g. operable between a lower level and an upper level}	B66B9/08	B66B9/08		89
+B66B9/10	8	paternoster type (with devices for transferring goods into, or out of, the compartments B65G17/00)	B66B9/10	B66B9/10		347
+B66B9/16	8	Mobile or transportable lifts specially adapted to be shifted from one part of a building or other structure to another part or to another building or structure	B66B9/16	B66B9/16		920
+B66B9/187	9	with a liftway specially adapted for temporary connection to a building or other structure (B66B9/193 takes precedence)	B66B9/187	B66B9/187		1173
+B66B9/193	9	with inclined liftways	B66B9/193	B66B9/193		108
+B66B11/00	7	Main component parts of lifts in, or associated with, buildings or other structures	B66B11/00	B66B11/00		907
+B66B11/0005	8	{Constructional features of hoistways}	B66B11/00	B66B11/00		516
+B66B11/001	8	{Arrangement of controller, e.g. location}	B66B11/00	B66B11/00		69
+B66B11/0015	9	{in the machine room}	B66B11/00	B66B11/00		27
+B66B11/002	9	{in the hoistway}	B66B11/00	B66B11/00		82
+B66B11/0025	10	{on the car}	B66B11/00	B66B11/00		35
+B66B11/003	10	{on the counterweight}	B66B11/00	B66B11/00		4
+B66B11/0035	8	{Arrangement of driving gear, e.g. location or support}	B66B11/00	B66B11/00		455
+B66B11/004	9	{in the machine room}	B66B11/00	B66B11/00		165
+B66B11/0045	9	{in the hoistway}	B66B11/00	B66B11/00		487
+B66B11/005	10	{on the car}	B66B11/00	B66B11/00		193
+B66B11/0055	10	{on the counterweight}	B66B11/00	B66B11/00		83
+B66B11/006	8	{Applications of loading and unloading equipment for lifts associated with buildings (of general application B65G; for paternoster lifts B65G17/00; for mine lifts B66B17/14)}	B66B11/00	B66B11/00		382
+B66B11/0065	8	{Roping (mining hoist B66B15/08)}	B66B11/00	B66B11/00		135
+B66B11/007	9	{for counterweightless elevators}	B66B11/00	B66B11/00		83
+B66B11/0075	9	{with hoisting rope or cable positively attached to a winding drum}	B66B11/00	B66B11/00		145
+B66B11/008	9	{with hoisting rope or cable operated by frictional engagement with a winding drum or sheave}	B66B11/00	B66B11/00		738
+B66B11/0085	10	{of rucksack elevators}	B66B11/00	B66B11/00		31
+B66B11/009	10	{with separate traction and suspension ropes}	B66B11/00	B66B11/00		153
+B66B11/0095	10	{where multiple cars drive in the same hoist way}	B66B11/00	B66B11/00		109
+B66B11/02	8	Cages, {i.e. cars}(doors, gates or other apparatus controlling access to, or exit from, cages B66B13/00)	B66B11/02	B66B11/02		1021
+B66B11/0206	9	{Car frames}	B66B11/02	B66B11/02		699
+B66B11/0213	10	{for multi-deck cars}	B66B11/02	B66B11/02		63
+B66B11/022	11	{with changeable inter-deck distances}	B66B11/02	B66B11/02		83
+B66B11/0226	9	{Constructional features, e.g. walls assembly, decorative panels, comfort equipment, thermal or sound insulation}	B66B11/02	B66B11/02		3765
+B66B11/0233	10	{Lighting systems}	B66B11/02	B66B11/02		495
+B66B11/024	10	{Ventilation systems}	B66B11/02	B66B11/02		958
+B66B11/0246	10	{Maintenance features (devices facilitating maintenance in general B66B5/0087)}	B66B11/02	B66B11/02		241
+B66B11/0253	10	{Fixation of wall panels}	B66B11/02	B66B11/02		337
+B66B11/026	9	{Attenuation system for shocks, vibrations, imbalance, e.g. passengers on the same side (acting between car or supporting frame and guides B66B7/04; acting between car and ropes, cables B66B7/08; correcting levelling between car and floor B66B1/40)}	B66B11/02	B66B11/02		163
+B66B11/0266	10	{Passive systems (aerodynamic structure B66B11/0226)}	B66B11/02	B66B11/02		339
+B66B11/0273	11	{acting between car and supporting frame}	B66B11/02	B66B11/02		231
+B66B11/028	10	{Active systems}	B66B11/02	B66B11/02		100
+B66B11/0286	11	{acting between car and supporting frame}	B66B11/02	B66B11/02		63
+B66B11/0293	10	{Suspension locking or inhibiting means to avoid movement when car is stopped at a floor (locking car to building while loading to avoid movement B66B17/34)}	B66B11/02	B66B11/02		105
+B66B11/04	8	Driving gear {; Details thereof, e.g. seals (braking devices acting on the driving gear B66B5/02; of mining-hoist winding devices B66B15/08)}	B66B11/04	B66B11/04		1235
+B66B11/0407	9	{actuated by an electrical linear motor (in the counterweight B66B17/12)}	B66B11/04	B66B11/04		389
+B66B11/0415	9	{actuated manually, e.g. additional safety system}	B66B11/04	B66B11/04		134
+B66B11/0423	9	{actuated pneumatically or hydraulically}	B66B11/04	B66B11/04		206
+B66B11/043	9	{actuated by rotating motor; Details, e.g. ventilation (roping on drum, sheave, winch or pulley B66B11/0065; power supply or control B66B1/28, H02P; motor construction H02K)}	B66B11/04	B66B11/04		980
+B66B11/0438	10	{with a gearless driving, e.g. integrated sheave, drum or winch in the stator or rotor of the cage motor}	B66B11/04	B66B11/04		270
+B66B11/0446	10	{with screw-nut or worm-screw gear}	B66B11/04	B66B11/04		289
+B66B11/0453	10	{with planetary or epicycloidal gear, e.g. differential gear}	B66B11/04	B66B11/04		74
+B66B11/0461	10	{with rack and pinion gear}	B66B11/04	B66B11/04		241
+B66B11/0469	10	{with chain, pinion gear}	B66B11/04	B66B11/04		148
+B66B11/0476	10	{with friction gear, e.g. belt linking motor to sheave}	B66B11/04	B66B11/04		228
+B66B11/0484	10	{with a clutch or a coupling system between several motors, e.g. switching different speeds, progressive starting, torque limitation, flywheel (control B66B1/28)}	B66B11/04	B66B11/04		104
+B66B11/0492	9	{actuated by other systems, e.g. combustion engines}	B66B11/04	B66B11/04		136
+B66B11/06	9	with hoisting rope or cable positively attached to a winding drum {(B66B11/0075 takes precedence)}	B66B11/06	B66B11/06		153
+B66B11/08	9	with hoisting rope or cable operated by frictional engagement with a winding drum or sheave {(B66B11/008 takes precedence)}	B66B11/08	B66B11/08		807
+B66B13/00	7	Doors, gates, or other apparatus controlling access to, or exit from, cages or lift well landings (door fittings, locks E05)	B66B13/00	B66B13/00		217
+B66B13/02	8	Door or gate operation (of general application E05F)	B66B13/02	B66B13/02		189
+B66B13/04	9	of swinging doors	B66B13/04	B66B13/04		423
+B66B13/06	9	of sliding doors	B66B13/06	B66B13/06		790
+B66B13/08	10	guided for horizontal movement	B66B13/08	B66B13/08		1382
+B66B13/10	10	by car or cage movement	B66B13/10	B66B13/10		137
+B66B13/12	9	Arrangements for effecting simultaneous opening or closing of cage and landing doors	B66B13/12	B66B13/12		523
+B66B13/125	10	{electrical}	B66B13/12	B66B13/12		83
+B66B13/14	9	Control systems or devices	B66B13/14	B66B13/14		630
+B66B13/143	10	{electrical}	B66B13/14	B66B13/14		691
+B66B13/146	11	{method or algorithm for controlling doors}	B66B13/14	B66B13/14		536
+B66B13/16	10	Door or gate locking devices controlled or primarily controlled by condition of cage, e.g. movement or position	B66B13/16	B66B13/16		610
+B66B13/165	11	{electrical}	B66B13/16	B66B13/16		234
+B66B13/18	11	without manually-operable devices for completing locking or unlocking of doors	B66B13/18	B66B13/18		268
+B66B13/185	12	{electrical}	B66B13/18	B66B13/18		176
+B66B13/20	12	Lock mechanisms actuated mechanically by abutments or projections on the cages	B66B13/20	B66B13/20		697
+B66B13/22	8	Operation of door or gate contacts	B66B13/22	B66B13/22		525
+B66B13/24	8	Safety devices in passenger lifts, not otherwise provided for, for preventing trapping of passengers	B66B13/24	B66B13/24		634
+B66B13/245	9	{mechanical}	B66B13/24	B66B13/24		348
+B66B13/26	9	between closing doors	B66B13/26	B66B13/26		732
+B66B13/28	9	between car or cage and wells	B66B13/28	B66B13/28		215
+B66B13/285	10	{Toe guards or apron devices}	B66B13/28	B66B13/28		229
+B66B13/30	8	Constructional features of doors or gates (of interest apart from this application E06B)	B66B13/30	B66B13/30		1098
+B66B13/301	9	{Details of door sills}	B66B13/30	B66B13/30		610
+B66B13/303	9	{Details of door panels}	B66B13/30	B66B13/30		524
+B66B13/305	10	{Slat doors for elevators}	B66B13/30	B66B13/30		79
+B66B13/306	9	{Details of door jambs}	B66B13/30	B66B13/30		214
+B66B13/308	9	{Details of seals and joints}	B66B13/30	B66B13/30		235
+B66B15/00	7	Main component parts of mining-hoist winding devices	B66B15/00	B66B15/00		155
+B66B15/02	8	Rope or cable carriers	B66B15/02	B66B15/02		157
+B66B15/04	9	Friction sheaves; "Koepe" pulleys	B66B15/04	B66B15/04		393
+B66B15/06	9	Drums	B66B15/06	B66B15/06		120
+B66B15/08	8	Driving gear	B66B15/08	B66B15/08		309
+B66B17/00	7	Hoistway equipment	B66B17/00	B66B17/00		168
+B66B17/02	8	mounted in head-frames (winding towers for mines E04H12/26)	B66B17/02	B66B17/02		77
+B66B17/04	8	Mining-hoist cars or cages	B66B17/04	B66B17/04		164
+B66B17/06	9	with tiltable platforms	B66B17/06	B66B17/06		11
+B66B17/08	8	Mining skips	B66B17/08	B66B17/08		259
+B66B17/10	9	adapted for passenger transport	B66B17/10	B66B17/10		22
+B66B17/12	8	Counterpoises	B66B17/12	B66B17/12		1390
+B66B17/14	8	Applications of loading and unloading equipment (of general application B65G)	B66B17/14	B66B17/14		170
+B66B17/16	9	for loading and unloading mining-hoist cars or cages	B66B17/16	B66B17/16		52
+B66B17/18	10	Swinging bridges, e.g. for compensating for differences in level between car or cage and landing	B66B17/18	B66B17/18		125
+B66B17/20	10	by moving vehicles into, or out of, the cars or cages	B66B17/20	B66B17/20		527
+B66B17/22	10	Securing vehicles in cars or cages	B66B17/22	B66B17/22		13
+B66B17/24	11	mounted on the car or cage	B66B17/24	B66B17/24		90
+B66B17/26	9	for loading or unloading mining-hoist skips	B66B17/26	B66B17/26		966
+B66B17/28	9	electrically controlled (for elevators in general B66B1/06)	B66B17/28	B66B17/28		15
+B66B17/30	10	for cars or cages	B66B17/30	B66B17/30		10
+B66B17/32	10	for skips	B66B17/32	B66B17/32		43
+B66B17/34	8	Safe lift clips; Keps	B66B17/34	B66B17/34		306
+B66B17/36	8	Gates or other apparatus controlling access to, or exit from, cars, cages, or hoistway landings	B66B17/36	B66B17/36		128
+B66B19/00	7	Mining-hoist operation	B66B19/00	B66B19/00		620
+B66B19/002	8	{installing or exchanging guide rails (details of rails B66B7/02)}	B66B19/00	B66B19/00		610
+B66B19/005	8	{installing or exchanging the elevator drive}	B66B19/00	B66B19/00		104
+B66B19/007	8	{method for modernisation of elevators}	B66B19/00	B66B19/00		344
+B66B19/02	8	Installing or exchanging ropes or cables	B66B19/02	B66B19/02		291
+B66B19/04	8	Installing or removing mining-hoist cars, cages, or skips	B66B19/04	B66B19/04		49
+B66B19/06	8	Applications of signalling devices (depth indicators B66B3/02; order telegraphs G08B)	B66B19/06	B66B19/06		555
+B66B20/00	7	Elevators not provided for in groups B66B1/00&#160;-&#160;B66B19/00	B66B20/00	B66B20/00		39
+B66B21/00	7	Kinds or types of escalators or moving walkways	B66B21/00	B66B21/00		78
+B66B21/02	8	Escalators	B66B21/02	B66B21/02		230
+B66B21/025	9	{of variable speed type}	B66B21/02	B66B21/02		49
+B66B21/04	9	linear type	B66B21/04	B66B21/04		219
+B66B21/06	9	spiral type	B66B21/06	B66B21/06		104
+B66B21/08	9	paternoster type, i.e. the escalator being used simultaneously for climbing and descending (B66B21/06 takes precedence)	B66B21/08	B66B21/08		36
+B66B21/10	8	Moving walkways	B66B21/10	B66B21/10		316
+B66B21/12	9	of variable speed type	B66B21/12	B66B21/12		240
+B66B23/00	7	Component parts of escalators or moving walkways	B66B23/00	B66B23/00		746
+B66B23/02	8	Driving gear	B66B23/02	B66B23/02		743
+B66B23/022	9	{with polygon effect reduction means}	B66B23/02	B66B23/02		61
+B66B23/024	9	{Chains therefor}	B66B23/02	B66B23/02		234
+B66B23/026	9	{with a drive or carrying sprocket wheel located at end portions}	B66B23/02	B66B23/02		390
+B66B23/028	9	{with separate drive chain or belt that engages directly the carrying surface chain}	B66B23/02	B66B23/02		152
+B66B23/04	9	for handrails	B66B23/04	B66B23/04		327
+B66B23/06	10	with means synchronising the operation of the steps or the carrying belts and the handrails	B66B23/06	B66B23/06		54
+B66B23/08	8	Carrying surfaces	B66B23/08	B66B23/08		84
+B66B23/10	9	Carrying belts	B66B23/10	B66B23/10		156
+B66B23/12	9	Steps	B66B23/12	B66B23/12		695
+B66B23/14	8	Guiding means for carrying surfaces	B66B23/14	B66B23/14		303
+B66B2023/142	9	{paternoster return type system}	B66B23/14	B66B23/14		14
+B66B23/145	9	{Roller assemblies}	B66B23/14	B66B23/14		88
+B66B23/147	9	{End portions, i.e. means for changing the direction of the carrying surface}	B66B23/14	B66B23/14		90
+B66B23/16	8	Means allowing tensioning of the endless member	B66B23/16	B66B23/16		47
+B66B23/18	9	for carrying surfaces	B66B23/18	B66B23/18		47
+B66B23/20	9	for handrails	B66B23/20	B66B23/20		75
+B66B23/22	8	Balustrades	B66B23/22	B66B23/22		258
+B66B23/225	9	{Lighting systems therefor}	B66B23/22	B66B23/22		279
+B66B23/24	9	Handrails (driving gear therefor B66B23/02; tensioning means therefor B66B23/16; preventing jamming thereof by foreign objects B66B29/04; accessories therefor B66B31/02)	B66B23/24	B66B23/24		501
+B66B23/26	10	of variable speed type	B66B23/26	B66B23/26		49
+B66B25/00	7	Control of escalators or moving walkways (walkways of variable speed type B66B21/12; handrails of variable speed type B66B23/26; of general application G05)	B66B25/00	B66B25/00		602
+B66B25/003	8	{Methods or algorithms therefor}	B66B25/00	B66B25/00		398
+B66B25/006	8	{Monitoring for maintenance or repair (for security reasons B66B29/005)}	B66B25/00	B66B25/00		294
+B66B27/00	7	Indicating operating conditions of escalators or moving walkways (of general application G08)	B66B27/00	B66B27/00		528
+B66B29/00	7	Safety devices of escalators or moving walkways (walkways of variable speed type B66B21/12; handrails of variable speed type B66B23/26)	B66B29/00	B66B29/00		1069
+B66B29/005	8	{Applications of security monitors}	B66B29/00	B66B29/00		581
+B66B29/02	8	responsive to, or preventing, jamming by foreign objects	B66B29/02	B66B29/02		169
+B66B29/04	9	for balustrades or handrails	B66B29/04	B66B29/04		210
+B66B29/06	9	Combplates	B66B29/06	B66B29/06		243
+B66B29/08	8	Means to facilitate passenger entry or exit (moving handrails B66B23/24)	B66B29/08	B66B29/08		162
+B66B31/00	7	Accessories for escalators, or moving walkways, e.g. for sterilising or cleaning (for safety B66B29/00)	B66B31/00	B66B31/00		436
+B66B31/003	8	{for cleaning steps or pallets}	B66B31/00	B66B31/00		272
+B66B31/006	8	{for conveying hand carts, e.g. shopping carts (hand carts per seB62B1/00, B62B3/00)}	B66B31/00	B66B31/00		101
+B66B31/02	8	for handrails	B66B31/02	B66B31/02		496
+B66B2201/00	7	Aspects of control systems of elevators	CPCONLY	B66B2201/00		233
+B66B2201/10	8	Details with respect to the type of call input	CPCONLY	B66B2201/10		118
+B66B2201/101	9	Single call input	CPCONLY	B66B2201/101		73
+B66B2201/102	9	Up or down call input	CPCONLY	B66B2201/102		325
+B66B2201/103	9	Destination call input before entering the elevator car	CPCONLY	B66B2201/103		428
+B66B2201/104	9	Call input for a preferential elevator car or indicating a special request	CPCONLY	B66B2201/104		136
+B66B2201/20	8	Details of the evaluation method for the allocation of a call to an elevator car	CPCONLY	B66B2201/20		110
+B66B2201/21	9	Primary evaluation criteria	CPCONLY	B66B2201/21		33
+B66B2201/211	9	Waiting time, i.e. response time	CPCONLY	B66B2201/211		499
+B66B2201/212	9	Travel time	CPCONLY	B66B2201/212		129
+B66B2201/213	10	where the number of stops is limited	CPCONLY	B66B2201/213		39
+B66B2201/214	9	Total time, i.e. arrival time	CPCONLY	B66B2201/214		128
+B66B2201/215	9	Transportation capacity	CPCONLY	B66B2201/215		202
+B66B2201/216	9	Energy consumption	CPCONLY	B66B2201/216		162
+B66B2201/22	9	Secondary evaluation criteria	CPCONLY	B66B2201/22		8
+B66B2201/221	9	Penalisation of transfers	CPCONLY	B66B2201/221		6
+B66B2201/222	9	Taking into account the number of passengers present in the elevator car to be allocated	CPCONLY	B66B2201/222		470
+B66B2201/223	9	Taking into account the separation of passengers or groups	CPCONLY	B66B2201/223		65
+B66B2201/224	9	Avoiding potential interference between elevator cars	CPCONLY	B66B2201/224		36
+B66B2201/225	9	Taking into account a certain departure interval of elevator cars from a specific floor, e.g. the ground floor	CPCONLY	B66B2201/225		29
+B66B2201/226	9	Taking into account the distribution of elevator cars within the elevator system, e.g. to prevent clustering of elevator cars	CPCONLY	B66B2201/226		58
+B66B2201/23	9	Other aspects of the evaluation method	CPCONLY	B66B2201/23		80
+B66B2201/231	9	Sequential evaluation of plurality of criteria	CPCONLY	B66B2201/231		65
+B66B2201/232	10	where the time needed for a passenger to arrive at the allocated elevator car from where the call is made is taken into account	CPCONLY	B66B2201/232		81
+B66B2201/233	9	Periodic re-allocation of call inputs	CPCONLY	B66B2201/233		57
+B66B2201/234	9	Taking into account uncertainty terms for predicted values, e.g. the predicted arrival time of an elevator car at the floor where a call is made	CPCONLY	B66B2201/234		18
+B66B2201/235	9	Taking into account predicted future events, e.g. predicted future call inputs	CPCONLY	B66B2201/235		106
+B66B2201/24	9	Control of empty elevator cars	CPCONLY	B66B2201/24		25
+B66B2201/241	9	Standby control	CPCONLY	B66B2201/241		52
+B66B2201/242	9	Parking control	CPCONLY	B66B2201/242		66
+B66B2201/243	9	Distribution of elevator cars, e.g. based on expected future need	CPCONLY	B66B2201/243		96
+B66B2201/30	8	Details of the elevator system configuration	CPCONLY	B66B2201/30		53
+B66B2201/301	9	Shafts divided into zones	CPCONLY	B66B2201/301		63
+B66B2201/302	10	with variable boundaries	CPCONLY	B66B2201/302		35
+B66B2201/303	9	Express or shuttle elevators	CPCONLY	B66B2201/303		59
+B66B2201/304	9	Transit control	CPCONLY	B66B2201/304		49
+B66B2201/305	10	with sky lobby	CPCONLY	B66B2201/305		23
+B66B2201/306	9	Multi-deck elevator cars	CPCONLY	B66B2201/306		81
+B66B2201/307	9	Tandem operation of multiple elevator cars in the same shaft	CPCONLY	B66B2201/307		39
+B66B2201/308	9	Ganged elevator cars	CPCONLY	B66B2201/308		39
+B66B2201/40	8	Details of the change of control mode	CPCONLY	B66B2201/40		49
+B66B2201/401	9	by time of the day	CPCONLY	B66B2201/401		74
+B66B2201/402	9	by historical, statistical or predicted traffic data, e.g. by learning	CPCONLY	B66B2201/402		313
+B66B2201/403	9	by real-time traffic data	CPCONLY	B66B2201/403		441
+B66B2201/404	9	by cost function evaluation	CPCONLY	B66B2201/404		20
+B66B2201/405	9	by input of special passenger or passenger group	CPCONLY	B66B2201/405		140
+B66B2201/406	9	by input of human supervisor	CPCONLY	B66B2201/406		46
+B66B2201/46	9	Switches or switchgear	CPCONLY	B66B2201/46		82
+B66B2201/4607	10	Call registering systems	CPCONLY	B66B2201/4607		126
+B66B2201/4615	11	Wherein the destination is registered before boarding	CPCONLY	B66B2201/4615		689
+B66B2201/4623	11	Wherein the destination is registered after boarding	CPCONLY	B66B2201/4623		263
+B66B2201/463	11	Wherein the call is registered through physical contact with the elevator system	CPCONLY	B66B2201/463		437
+B66B2201/4638	11	Wherein the call is registered without making physical contact with the elevator system	CPCONLY	B66B2201/4638		865
+B66B2201/4646	12	using voice recognition	CPCONLY	B66B2201/4646		247
+B66B2201/4653	11	wherein the call is registered using portable devices	CPCONLY	B66B2201/4653		682
+B66B2201/4661	11	for priority users	CPCONLY	B66B2201/4661		165
+B66B2201/4669	12	using passenger condition detectors	CPCONLY	B66B2201/4669		72
+B66B2201/4676	11	for checking authorization of the passengers	CPCONLY	B66B2201/4676		617
+B66B2201/4684	11	for preventing accidental or deliberate misuse	CPCONLY	B66B2201/4684		115
+B66B2201/4692	11	for payment for use	CPCONLY	B66B2201/4692		24

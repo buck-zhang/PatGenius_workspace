@@ -1,473 +1,312 @@
-# 🔍 PatGenius - 日本特許検索システム
+# Zhang Opera - Patent Analysis & Search System
 
-**30,002件の日本特許データを対象としたエンタープライズ級検索エンジン**
+特許分類検索、Google Patents連携、AI構成要件分割を統合した特許分析システム
 
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://docker.com)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green?logo=fastapi)](https://fastapi.tiangolo.com)
-[![OpenSearch](https://img.shields.io/badge/OpenSearch-2.11.1-orange?logo=opensearch)](https://opensearch.org)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://python.org)
+## 概要
 
-## 🚀 **クイックスタート（Docker）**
+このシステムは3つの主要機能を提供します：
+
+1. **特許分類検索API** - IPC/CPC/FI分類のRAG対応検索システム
+2. **Google Patents API** - Google Patentsのウェブスクレイピング検索
+3. **特許構成要件分割** - Gemini AIによる特許文書の自動構成要件分割
+
+## プロジェクト構造
+
+```
+zhang_opera/
+├── src/                          # ソースコード
+│   ├── api/                      # APIサーバー
+│   │   ├── patent_classification_api.py    # 特許分類検索API
+│   │   ├── google_patents_api.py           # Google Patents API
+│   │   └── import_classification_data.py   # データインポートツール
+│   └── core/                     # コアライブラリ
+│       ├── patent_component_analyzer.py    # AI構成要件分割
+│       ├── patent_search_engine.py         # 検索エンジン
+│       └── google_patents_scraper.py       # Google Patentsスクレイパー
+├── examples/                     # 使用例
+│   ├── api_client_examples.py              # 分類API使用例
+│   ├── google_patents_client_examples.py   # Google Patents API使用例
+│   ├── example_usage.py                    # 構成要件分割の基本例
+│   ├── search_sample.py                    # 統合検索サンプル
+│   ├── run_patent_analysis.py              # 特許分析ワークフロー
+│   └── demo_jp2014007731a_analysis.py      # 実特許分析デモ
+├── tests/                        # テストファイル
+│   ├── test_google_patents_search.py       # Google Patents統合テスト
+│   ├── test_google_patents_basic.py        # Google Patents基本テスト
+│   └── test_patent_analysis.py             # 特許分析テスト
+├── docs/                         # ドキュメント
+│   ├── README.md                           # 詳細README
+│   ├── IMPLEMENTATION_SUMMARY.md           # 実装サマリー
+│   ├── GOOGLE_PATENTS_README.md            # Google Patentsガイド
+│   ├── GOOGLE_PATENTS_QUICKSTART.md        # クイックスタート
+│   ├── PATENT_ANALYSIS_README.md           # 特許分析ガイド
+│   ├── GCP_DEPLOYMENT.md                   # GCPデプロイガイド
+│   ├── MONITORING.md                       # モニタリングガイド
+│   ├── VERTEX_AI_MIGRATION.md              # Vertex AI移行ガイド
+│   └── prompt.md                           # AIプロンプト集
+├── scripts/                      # スクリプト
+│   ├── start.sh                            # 分類APIサーバー起動
+│   ├── start_google_patents_api.sh         # Google Patents API起動
+│   ├── deploy_gcp.sh                       # GCPデプロイスクリプト
+│   ├── monitor_import.sh                   # インポート監視
+│   └── check_import_status.sh              # インポート状況確認
+├── docker/                       # Docker設定
+│   ├── Dockerfile                          # 分類API用Dockerfile
+│   ├── Dockerfile.google-patents           # Google Patents API用
+│   ├── docker-compose.yml                  # 開発環境
+│   └── docker-compose.gcp.yml              # GCP本番環境
+├── data_20250812/                # 特許分類データ（IPC/FI/CPC）
+├── models/                       # AIモデルキャッシュ（.gitignore）
+├── output/                       # 分析結果出力（.gitignore）
+├── patents_pdf/                  # ダウンロード特許PDF（.gitignore）
+├── requirements.txt              # メイン依存関係
+├── requirements_patent_analysis.txt        # 特許分析用依存関係
+├── client_requirements.txt       # クライアント用依存関係
+├── .env.example                  # 環境変数テンプレート
+└── .gitignore
+```
+
+## クイックスタート
+
+### 1. 前提条件
+
+- Docker & Docker Compose
+- Python 3.11+
+- 8GB+ RAM推奨
+- Google Cloud Platform アカウント（特許分析機能使用時）
+
+### 2. インストール
 
 ```bash
-# 1. リポジトリクローン
-git clone https://github.com/buck-zhang/PatGenius.git
-cd PatGenius
+# リポジトリのクローン
+git clone <repository-url>
+cd zhang_opera
 
-# 2. 開発環境で起動（推奨）
-./scripts/deploy.sh dev
+# 環境変数の設定
+cp .env.example .env
+# .envファイルを編集して必要な設定を追加
 
-# 3. APIアクセス
-open http://localhost:8000/docs
+# Dockerコンテナの起動
+docker-compose -f docker/docker-compose.yml up -d
 ```
 
-**わずか3コマンドで本格的な特許検索システムが起動！**
-
-## 🎯 **システム概要**
-
-PatGeniusは、日本特許庁の特許XMLデータをOpenSearchに効率的にインポートし、FastAPIによる高速検索・分析機能を提供するコンテナ化されたエンタープライズシステムです。
-
-### **🌟 主要機能**
-- 🔍 **30,002件の特許データ** - 完全インデックス済み
-- ⚡ **18フィールド高速検索** - 発明名称から技術内容まで包括的検索  
-- 🔧 **高度検索機能** - 近傍検索、ブール検索、クエリ文字列、マルチフィールド対応
-- 📋 **分類検索機能** - IPC・FI・Fターム階層構造対応検索
-- 🌲 **階層検索対応** - 上位概念から下位概念まで自動展開
-- 🚀 **283ファイル/秒** - 高速一括処理性能
-- 🐳 **Docker完全対応** - ワンコマンドデプロイメント
-- 📡 **RESTful API** - OpenAPI 3.0準拠、Swagger UI自動生成
-- 🌐 **Web検索デモ** - インタラクティブ検索インターフェース（分類検索UI付き）
-- 🔧 **本番環境対応** - Nginx、SSL、ヘルスチェック完備
-
-## 🐳 **Dockerアーキテクチャ**
-
-### **サービス構成**
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│     Nginx       │────│   FastAPI       │────│   OpenSearch    │
-│  (リバースプロキシ) │    │  (検索エンジン)    │    │   (データストア)   │
-│   Port: 80/443  │    │   Port: 8000    │    │   Port: 9200    │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-                                │
-                    ┌─────────────────┐
-                    │   Dashboards    │
-                    │   (Web UI)      │
-                    │   Port: 5601    │
-                    └─────────────────┘
-```
-
-### **🔧 プロジェクト構造**
-```
-📁 PatGenius/
-├── 🐳 Dockerfile                      # FastAPI本番用コンテナ
-├── 🐳 docker-compose.yml              # 開発環境構成
-├── 🐳 docker-compose.production.yml   # 本番環境構成
-├── 📋 requirements.txt                # Python依存関係
-├── 📋 api_requirements.txt            # FastAPI依存関係
-├── 🔍 patent_search_api.py            # FastAPI検索エンジン
-├── 📊 bulk_import_patents.py          # 一括インポートエンジン
-├── 🎨 search_demo.html                # Web検索デモ
-├── 🧪 test_api.py                     # API総合テスト
-├── 📁 scripts/
-│   ├── 🐳 deploy.sh                   # 統合デプロイスクリプト
-│   └── 🚀 start_api.sh                # API起動スクリプト
-├── 📁 config/
-│   ├── 🌐 nginx.conf                  # リバースプロキシ設定
-│   ├── ⚙️ opensearch_dashboards.yml   # Dashboards設定
-│   └── ⚙️ opensearch_tags_analysis.json # フィールド定義
-└── 📁 docs/
-    ├── 📋 api_examples.md             # API使用ガイド
-    └── 📋 prompt.md                   # 開発プロンプト
-```
-
-### **📂 データ構造**
-```
-source_data/                        # 30,002件の特許XMLファイル
-├── 0/JP2010000001A/text.txt       # 特許XML (バリカン式刈刃装置)
-├── 0/JP2010000002A/text.txt       # 特許XML (燃料電池)
-└── ...                            # 29,999件の特許データ
-```
-
-## 🚀 **使い方**
-
-### **1. Docker環境構築（推奨）**
+### 3. データのインポート
 
 ```bash
-# 1. リポジトリクローン
-git clone https://github.com/buck-zhang/PatGenius.git
-cd PatGenius
+# OpenSearchが起動するまで待つ（約30秒）
+sleep 30
 
-# 2. 開発環境で起動
-./scripts/deploy.sh dev
-
-# 3. データインポート実行（オプション）
-./scripts/deploy.sh import
-
-# 4. サービス状態確認
-./scripts/deploy.sh status
+# 分類データをインポート
+docker-compose -f docker/docker-compose.yml exec api python src/api/import_classification_data.py --data-dir /app/data_20250812
 ```
 
-### **2. 本番環境デプロイ**
+### 4. 動作確認
 
 ```bash
-# 本番環境構成で起動（Nginx + API + OpenSearch）
-./scripts/deploy.sh prod
-
-# アクセス先
-# API: http://localhost/api/docs
-# 検索デモ: http://localhost/demo
-# Dashboards: http://localhost/dashboards
-```
-
-### **3. データインポート**
-
-```bash
-# Docker環境での一括インポート
-./scripts/deploy.sh import
-
-# インポート結果確認
-curl "localhost:9200/patents/_count"
-```
-
-### **4. 検索・API利用**
-
-#### **REST API検索**
-```bash
-# 発明名称で検索
-curl -X GET "localhost:9200/patents/_search" -H 'Content-Type: application/json' -d '{
-  "query": {"match": {"invention_title": "画像形成装置"}}
-}'
-
-# 技術分野で検索
-curl -X GET "localhost:9200/patents/_search" -H 'Content-Type: application/json' -d '{
-  "query": {"match": {"technical_field": "電子写真"}}
-}'
-
-# 複合条件検索
-curl -X GET "localhost:9200/patents/_search" -H 'Content-Type: application/json' -d '{
-  "query": {
-    "bool": {
-      "must": [
-        {"match": {"invention_title": "バリカン"}},
-        {"match": {"technical_field": "刈刃"}}
-      ]
-    }
-  }
-}'
-```
-
-#### **Web UI検索**
-ブラウザで http://localhost:5601 にアクセス
-
-### **4. 検索API利用**
-
-#### **API起動**
-```bash
-# APIサーバー起動
-./scripts/start_api.sh
-
-# または直接起動
-python patent_search_api.py
-```
-
-#### **API検索例**
-```bash
-# シンプル検索
-curl "http://localhost:8000/search?q=画像形成装置"
-
-# フィールド指定検索
-curl "http://localhost:8000/search?q=電子写真&field=technical_field"
-
-# 高度検索（近傍検索例）
-curl -X POST "http://localhost:8000/search/advanced" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query_type": "proximity",
-    "query": "車 near3 両",
-    "field": "technical_field",
-    "size": 10
-  }'
-
-# 高度検索（ブール検索例）
-curl -X POST "http://localhost:8000/search/advanced" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query_type": "boolean",
-    "must_terms": ["現像剤"],
-    "should_terms": ["トナー", "感光体"],
-    "must_not_terms": ["レーザー"],
-    "size": 10
-  }'
-
-# 文書詳細取得
-curl "http://localhost:8000/document/2010000001"
-```
-
-#### **API管理画面**
-- **Swagger UI**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
-- **API統計**: http://localhost:8000/stats
-
-### **5. 検索実例デモ**
-
-#### **コマンドライン検索デモ**
-```bash
-# 全検索パターンのデモ実行
-python3 search_examples.py
-```
-
-#### **Webブラウザ検索デモ**
-```bash
-# HTMLデモページをブラウザで開く
-open search_demo.html
-# または直接ファイルパスでアクセス
-```
-
-#### **実際の検索例**
-- **バリカン関連**: 23件の特許（バリカン式刈刃装置など）
-- **画像形成装置**: 10,000件の特許（複写機・プリンター技術）
-- **現像剤技術**: 10,000件の特許（電子写真プロセス）
-- **電子写真分野**: 8,109件の特許（感光体・現像技術）
-- **センサ技術**: 1,209件の特許（検出・制御技術）
-
-## 🔧 **高度検索機能**
-
-PatGeniusは様々な高度検索パターンに対応しています：
-
-### **📋 分類検索機能**
-
-特許分類の階層構造を理解した上位・下位概念検索が可能です：
-
-#### **🏗️ 階層構造対応**
-- **IPC分類**: `A01D34/13` → `A01D34`, `A01D`, `A01`, `A`
-- **FI分類**: `A01D34/13` → `A01D34`, `A01D`, `A01`, `A`  
-- **Fターム**: `2B382GC15` → `2B382`, `2B38`, `2B`
-
-#### **🎯 分類検索API**
-```bash
-# IPC階層検索（上位概念も含む）
-curl \"http://localhost:8000/search/classification?classification_type=ipc&code=A01D&hierarchical=true\"
-
-# FI完全一致検索
-curl \"http://localhost:8000/search/classification?classification_type=fi&code=A01D34/13&hierarchical=false\"
-
-# Fターム階層検索
-curl \"http://localhost:8000/search/classification?classification_type=f_term&code=2B382&hierarchical=true\"
-```
-
-### **🔧 高度検索タイプ**
-
-#### **📍 近傍検索（Proximity Search）**
-特定の距離内でキーワードが出現する文書を検索
-```bash
-# API例：「車」と「両」が3語以内の距離で出現
-curl -X POST "http://localhost:8000/search/advanced" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query_type": "proximity",
-    "query": "車 near3 両",
-    "field": "technical_field"
-  }'
-```
-
-#### **🔗 ブール検索（Boolean Search）**  
-AND/OR/NOT条件を組み合わせた複雑な検索
-```bash
-# API例：(トナー OR 現像剤) AND プリンター NOT レーザー
-curl -X POST "http://localhost:8000/search/advanced" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query_type": "boolean",
-    "should_terms": ["トナー", "現像剤"],
-    "must_terms": ["プリンター"],
-    "must_not_terms": ["レーザー"]
-  }'
-```
-
-#### **📝 クエリ文字列検索（Query String）**
-フィールド指定とブール演算子を組み合わせ
-```bash
-# API例：発明名称にトナー AND 技術分野に電子写真
-curl -X POST "http://localhost:8000/search/advanced" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query_type": "query_string", 
-    "query": "invention_title:トナー AND technical_field:電子写真"
-  }'
-```
-
-#### **🎯 マルチフィールド検索**
-複数フィールドに異なるクエリを同時実行
-```bash
-# API例：複数フィールドでの条件指定
-curl -X POST "http://localhost:8000/search/advanced" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query_type": "multi_field",
-    "field_queries": {
-      "invention_title": "画像形成装置",
-      "technical_field": "電子写真",
-      "applicant_name": "キヤノン"
-    }
-  }'
-```
-
-### **Web UI高度検索**
-- **検索デモ**: http://localhost:8000/demo または search_demo.html
-- **高度検索ボタン**をクリックして詳細オプションを表示
-- **使用方法ガイド**がUIに組み込まれています
-
-## 📊 **検索可能フィールド**
-
-| フィールド名 | 内容 | 例 |
-|-------------|------|-----|
-| `invention_title` | 発明名称 | "現像剤搬送装置" |
-| `applicant_name` | 出願人名 | "京セラミタ株式会社" |
-| `inventor_names` | 発明者名 | "遠藤 裕久" |
-| `technical_field` | 技術分野 | "電子写真方式を利用した..." |
-| `background_art` | 背景技術 | "従来、電子写真プロセス..." |
-| `tech_problem` | 解決課題 | "しかしながら、従来技術では..." |
-| `tech_solution` | 解決手段 | "本発明は、上記問題点に鑑み..." |
-| `advantageous_effects` | 発明の効果 | "本発明の第１の構成によれば..." |
-| `description` | 詳細説明 | "以下、図面を参照しながら..." |
-| `claims` | 請求項 | "Claim 1: 現像剤を収容する筐体と..." |
-| `abstract` | 要約 | "【課題】トナーを除去するための..." |
-| `classification_ipc` | IPC分類 | ["A01D34/13", "A01D34/10"] |
-| `classification_fi` | FI分類 | ["A01D34/13", "A01D34/10"] |
-| `f_terms` | Fターム | ["2B382GC15", "2B382HA04"] |
-| `classification_ipc_hierarchical` | IPC階層検索用 | ["A01D", "A01", "A"] |
-| `classification_fi_hierarchical` | FI階層検索用 | ["A01D", "A01", "A"] |
-| `f_terms_hierarchical` | Fターム階層検索用 | ["2B382", "2B38", "2B"] |
-| `document_id` | 文献番号 | "2010000001" |
-
-## 📈 **パフォーマンス実績**
-
-### **インポート性能**
-- **データ量**: 30,002件の特許XML
-- **処理時間**: 1.8分
-- **処理速度**: 283ファイル/秒
-- **成功率**: 100% (失敗0件)
-- **追加フィールド**: IPC・FI・Fターム階層検索対応
-
-### **検索性能**
-- **インデックスサイズ**: 3シャード、1レプリカ
-- **レスポンス時間**: < 100ms (典型的なクエリ)
-- **同時接続**: 複数クライアント対応
-
-## 🐳 **Docker デプロイメント**
-
-### **クイックスタート**
-```bash
-# 1. リポジトリクローン
-git clone https://github.com/buck-zhang/PatGenius.git
-cd PatGenius
-
-# 2. 開発環境起動
-./scripts/deploy.sh dev
-
-# 3. データインポート（オプション）
-./scripts/deploy.sh import
-
-# 4. アクセス
-# API: http://localhost:8000/docs
-# Dashboards: http://localhost:5601
-```
-
-### **本番環境デプロイ**
-```bash
-# 本番環境構成で起動（Nginx + API + OpenSearch）
-./scripts/deploy.sh prod
-
-# アクセス先
-# API: http://localhost/api/docs
-# 検索デモ: http://localhost/demo
-# Dashboards: http://localhost/dashboards
-```
-
-### **デプロイスクリプト**
-```bash
-./scripts/deploy.sh [COMMAND] [OPTIONS]
-
-# 主要コマンド:
-dev      # 開発環境起動
-prod     # 本番環境起動  
-import   # データインポート
-stop     # 全サービス停止
-clean    # 全データ削除
-logs     # ログ表示
-status   # サービス状態確認
-test     # APIテスト実行
-```
-
-## 🛠 **開発・運用**
-
-### **APIテスト**
-```bash
-# API総合テスト実行
-python test_api.py
-# または
-./scripts/deploy.sh test
-
-# 個別テスト
+# 分類検索APIのヘルスチェック
 curl http://localhost:8000/health
-curl http://localhost:8000/stats
+
+# Google Patents APIのヘルスチェック
+curl http://localhost:8001/health
+
+# サンプルコードの実行
+pip install -r client_requirements.txt
+python examples/api_client_examples.py
 ```
 
-### **ログ確認**
+## 主要機能
+
+### 1. 特許分類検索API (Port 8000)
+
+IPC、CPC、FI分類データのRAG対応検索システム
+
+- キーワード検索
+- 意味検索（RAG）
+- コード検索
+- AND/OR条件による複合検索
+- 日英バイリンガル対応
+
+**ドキュメント**: `docs/README.md`
+
+### 2. Google Patents API (Port 8001)
+
+Google Patentsのウェブスクレイピング検索API
+
+- キーワード検索
+- 特許詳細取得
+- PDF自動ダウンロード
+- 分類コード検索
+- 出願人・発明者検索
+
+**ドキュメント**: `docs/GOOGLE_PATENTS_README.md`
+
+### 3. 特許構成要件分割システム
+
+Gemini AIを使用した特許文書の自動構成要件分割
+
+- 特許請求の範囲の自動分割
+- 構成要件の抽出
+- JSON形式での出力
+- 複数請求項の一括処理
+
+**ドキュメント**: `docs/PATENT_ANALYSIS_README.md`
+
+## 使用例
+
+### 分類検索API
+
+```python
+from examples.api_client_examples import PatentClassificationClient
+
+client = PatentClassificationClient(base_url="http://localhost:8000")
+
+# キーワード検索
+results = client.search_keyword("agriculture", top_k=10)
+
+# 意味検索（RAG）
+results = client.search_text("Methods for harvesting crops", top_k=5)
+
+# 高度検索（AND条件）
+results = client.search_advanced(
+    keywords=["soil", "working"],
+    condition="and",
+    top_k=10
+)
+```
+
+### Google Patents検索
+
+```python
+from examples.google_patents_client_examples import GooglePatentsClient
+
+client = GooglePatentsClient(base_url="http://localhost:8001")
+
+# 特許検索
+results = client.search_patents("autonomous vehicle", max_results=10)
+
+# 特許詳細取得
+patent = client.get_patent_details("US10000000B2")
+
+# PDF自動ダウンロード
+pdf_path = client.download_patent_pdf("US10000000B2")
+```
+
+### 特許構成要件分割
+
+```python
+from src.core.patent_component_analyzer import PatentComponentAnalyzer
+
+analyzer = PatentComponentAnalyzer()
+
+# 特許テキストを分析
+result = analyzer.analyze_patent_text(patent_text)
+
+# 結果を保存
+result.save_to_json("output/result.json")
+result.save_readable("output/result.txt")
+```
+
+## 技術スタック
+
+- **API Framework**: FastAPI
+- **Search Engine**: OpenSearch with KNN Vector Search
+- **RAG Model**: Sentence Transformers (paraphrase-multilingual-mpnet-base-v2)
+- **AI Model**: Google Gemini 1.5 Flash (Vertex AI)
+- **Web Scraping**: Selenium WebDriver
+- **Containerization**: Docker & Docker Compose
+- **Deployment**: Google Cloud Platform (Cloud Run, Vertex AI)
+
+## API エンドポイント
+
+### 分類検索API (Port 8000)
+
+- `GET /health` - ヘルスチェック
+- `GET /search/keyword` - キーワード検索
+- `GET /search/text` - 意味検索（RAG）
+- `POST /search` - 高度検索
+- `GET /search/code/{type}/{code}` - コード検索
+
+### Google Patents API (Port 8001)
+
+- `GET /health` - ヘルスチェック
+- `GET /search` - 特許検索
+- `GET /patent/{patent_id}` - 特許詳細
+- `GET /download/{patent_id}` - PDF取得
+
+詳細は各ドキュメントを参照してください。
+
+## 開発
+
+### ローカル開発環境
+
 ```bash
-# インポートログ
-tail -f patent_import.log
+# 依存関係のインストール
+pip install -r requirements.txt
 
-# OpenSearchログ
-docker logs opensearch-node
+# OpenSearchを起動
+docker-compose -f docker/docker-compose.yml up opensearch -d
 
-# APIログ（起動時に表示）
+# APIサーバーをローカルで起動
+export OPENSEARCH_HOST=localhost
+export OPENSEARCH_PORT=9200
+python src/api/patent_classification_api.py
 ```
 
-### **データメンテナンス**
+### テスト実行
+
 ```bash
-# インデックス再作成
-curl -X DELETE "localhost:9200/patents"
-python3 bulk_import_patents.py
+# 全テストを実行
+pytest tests/
 
-# クラスター健康状態確認
-curl "localhost:9200/_cluster/health"
+# 特定のテストを実行
+pytest tests/test_google_patents_basic.py
 ```
 
-### **拡張方法**
-1. `config/opensearch_tags_analysis.json` でフィールド追加
-2. `bulk_import_patents.py` でパーサー更新
-3. インデックス再作成・データ再投入
+## デプロイ
 
-## 📋 **技術仕様**
+### GCPへのデプロイ
 
-### **バックエンド**
-- **OpenSearch**: 2.11.1
-- **Python**: 3.9+
-- **FastAPI**: 0.104.1
-- **解析エンジン**: Standard Analyzer (日本語対応)
-- **データ形式**: Japanese Patent XML (JPO形式)
-- **文字エンコーディング**: UTF-8
+```bash
+# デプロイスクリプトを実行
+bash scripts/deploy_gcp.sh
+```
 
-### **API仕様**
-- **フレームワーク**: FastAPI + Uvicorn
-- **ドキュメント**: OpenAPI 3.0 (Swagger UI)
-- **レスポンス形式**: JSON
-- **CORS**: 対応済み
-- **認証**: 未実装（オープンアクセス）
+詳細は `docs/GCP_DEPLOYMENT.md` を参照してください。
 
-## 🤝 **貢献**
+## トラブルシューティング
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes  
-4. Push to the branch
-5. Create a Pull Request
+### OpenSearchに接続できない
 
-## 📄 **ライセンス**
+```bash
+# ステータス確認
+docker-compose -f docker/docker-compose.yml ps
 
-本プロジェクトはMITライセンスの下で公開されています。
+# ログ確認
+docker-compose -f docker/docker-compose.yml logs opensearch
+
+# 再起動
+docker-compose -f docker/docker-compose.yml restart opensearch
+```
+
+### メモリ不足
+
+`docker/docker-compose.yml`のメモリ設定を調整してください：
+```yaml
+OPENSEARCH_JAVA_OPTS: "-Xms1g -Xmx1g"  # デフォルト: -Xms2g -Xmx2g
+```
+
+## ライセンス
+
+このプロジェクトはMITライセンスの下で公開されています。
+
+## お問い合わせ
+
+質問や問題がある場合は、GitHubのIssueを作成してください。
 
 ---
 
-**PatGenius** - Powered by OpenSearch & 日本特許データ
+**詳細ドキュメント**:
+- 分類検索API: `docs/README.md`
+- Google Patents: `docs/GOOGLE_PATENTS_README.md`
+- 特許分析: `docs/PATENT_ANALYSIS_README.md`
+- GCPデプロイ: `docs/GCP_DEPLOYMENT.md`

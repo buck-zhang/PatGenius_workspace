@@ -1,0 +1,119 @@
+G05B   1/00		比較要素，すなわち．目標値と既存値または予想値との比較を直接的にまたは間接的に実施するための要素［２００６．０１］	Comparing elements, i.e. elements for effecting comparison directly or indirectly between a desired value and existing or anticipated values	922
+G05B   1/01	・	電気式［２］	electric	1804
+G05B   1/02	・・	アナログ信号を比較するためのもの（２つの互いに独立した振動の位相または周波数を比較するための回路Ｈ０３Ｄ１３／００）［２００６．０１］	for comparing analogue signals(circuits for comparing the phase or frequency of two mutually-independent oscillations H03D13/00)	862
+G05B   1/03	・・	デジタル信号を比較するためのもの［２］	for comparing digital signals	312
+G05B   1/04	・・	測定器の指針の位置についての検出機構をもつもの	with sensing of the position of the pointer of a measuring instrument	279
+G05B   1/06	・・・	連続的検出	continuous sensing	242
+G05B   1/08	・・・	段階的検出	stepwise sensing	99
+G05B   1/11	・	流体式［２］	fluidic	76
+G05B   5/00		ハンチング防止装置	Anti-hunting arrangements	481
+G05B   5/01	・	電気式	electric	1439
+G05B   5/04	・	流体式［２］	fluidic	53
+G05B   6/00		特定の特徴を得るための内部フィードバック装置，例．比例フィードバック，積分フィードバックまたは微分フィードバック［２００６．０１］	Internal feedback arrangements for obtaining particular characteristics, e.g. proportional, integral or differential	181
+G05B   6/02	・	電気式	electric	702
+G05B   6/05	・	流体式［２］	fluidic	155
+G05B   7/00		自動制御の円滑な結合または切離しを得る装置	Arrangements for obtaining smooth engagement or disengagement of automatic control	180
+G05B   7/02	・	電気式［２］	electric	2834
+G05B   7/04	・	流体式［２］	fluidic	137
+G05B   9/00		安全装置（Ｇ０５Ｂ７／００が優先；プログラム制御システム中の安全装置Ｇ０５Ｂ１９／４０６）［２００６．０１］	Safety arrangements(G05B7/00 takes precedence; safety arrangements in programme-control systems G05B19/048, G05B19/406)	513
+G05B   9/02	・	電気式	electric	9784
+G05B   9/03	・・	多重チャンネルループ，すなわち．冗長制御系［２］	with multiple-channel loop, i.e. redundant control systems	5374
+G05B   9/05	・	流体式［２］	fluidic	136
+G05B  11/00		自動制御装置（Ｇ０５Ｂ１３／００が優先）	Automatic controllers(G05B13/00 takes precedence)	2062
+G05B  11/01	・	電気式	electric	8495
+G05B  11/06	・・	出力信号が目標値からの偏差の連続函数を現わすもの，すなわち連続式制御装置（Ｇ０５Ｂ１１／２６が優先）	in which the output signal represents a continuous function of the deviation from the desired value, i.e. continuous controllers(G05B11/26 takes precedence)	846
+G05B  11/10	・・・	伝送信号が直流のもの	the signal transmitted being DC	169
+G05B  11/12	・・・	伝送信号が交流搬送波で変調されるもの	the signal transmitted being modulated on an AC carrier	134
+G05B  11/14	・・	出力信号が目標値からの偏差の不連続函数であるもの，すなわち不連続式制御装置（Ｇ０５Ｂ１１／２６が優先）	in which the output signal represents a discontinuous function of the deviation from the desired value, i.e. discontinuous controllers(G05B11/26 takes precedence)	549
+G05B  11/16	・・・	二位置制御装置，例．オン―オフ動作をもつもの	Two-step controllers, e.g. with on/off action	909
+G05B  11/18	・・・	多位置制御装置	Multi-step controllers	841
+G05B  11/26	・・	出力がパルス列であるもの	in which the output signal is a pulse-train	1194
+G05B  11/28	・・・	パルス高さ変調を用いるもの；パルス幅変調を用いるもの	using pulse-height modulation; using pulse-width modulation	1162
+G05B  11/30	・・・	パルス周波数変調を用いるもの	using pulse-frequency modulation	109
+G05B  11/32	・・	２個以上の検出要素からの入力をもつもの；２個以上の修正単位に加えられる出力をもつもの	with inputs from more than one sensing element; with outputs to more than one correcting element	3244
+G05B  11/36	・・	特別な特性，例．比例，微分，積分，を得るための装置をもつもの	with provision for obtaining particular characteristics, e.g. proportional, integral, differential	5445
+G05B  11/38	・・・	比例特性を得るためのもの	for obtaining a proportional characteristic	111
+G05B  11/40	・・・	積分特性を得るためのもの	for obtaining an integral characteristic	173
+G05B  11/42	・・・	比例と時間依存特性の両方，例．Ｐ．Ｉ．，Ｐ．Ｉ．Ｄ，を得るためのもの	for obtaining a characteristic which is both proportional and time-dependent, e.g. P. I., P. I. D.	6864
+G05B  11/44	・	純空気式	pneumatic only	310
+G05B  11/46	・・	補助動力のないもの	without auxiliary power	19
+G05B  11/48	・・	補助動力のあるもの	with auxiliary power	62
+G05B  11/50	・・・	出力信号が目標値からの偏差の連続函数であるもの，すなわち連続式制御装置	in which the output signal represents a continuous function of the deviation from the desired value, i.e. continuous controllers	455
+G05B  11/52	・・・	出力信号が目標値からの偏差の不連続凾数であるもの，すなわち不連続式制御装置	in which the output signal represents a discontinuous function of the deviation from the desired value, i.e. discontinuous controllers	102
+G05B  11/54	・・・・	二位置制御装置	Two-step controllers, e.g. with on/off action	54
+G05B  11/56	・・・・	多位置制御装置	Multi-step controllers	37
+G05B  11/58	・・	２個以上の検出要素からの入力をもつもの	with inputs from more than one sensing element; with outputs to more than one correcting element	160
+G05B  11/60	・	純液圧式	hydraulic only	195
+G05B  13/00		適応制御システム，すなわち幾つかの事前に割り当てられた基準通りの最適な性能を得るために，自らを自動的に調整するシステム（Ｇ０５Ｂ１９／００が優先）［２００６．０１］	Adaptive control systems, i.e. systems automatically adjusting themselves to have a performance which is optimum according to some preassigned criterion(G05B19/00 takes precedence)	5272
+G05B  13/02	・	電気式	electric	22105
+G05B  13/04	・・	モデルまたはシミュレータの使用を伴うもの［３］	involving the use of models or simulators	23968
+G05B  15/00		コンピューターにより制御されるシステム（Ｇ０５Ｂ１３／００，Ｇ０５Ｂ１９／００が優先；特別な特性を有する自動制御装置Ｇ０５Ｂ１１／００）［２００６．０１］	Systems controlled by a computer(G05B13/00, G05B19/00 take precedence; automatic controllers with particular characteristics G05B11/00)	5240
+G05B  15/02	・	電気式	electric	33512
+G05B  17/00		システムであるが，自身のモデルまたはシミュレーターの使用を伴うシステム（Ｇ０５Ｂ１３／００，Ｇ０５Ｂ１５／００，Ｇ０５Ｂ１９／００が優先）［２００６．０１］	Systems involving the use of models or simulators of said systems(G05B13/00, G05B15/00, G05B19/00 take precedence)	1450
+G05B  17/02	・	電気式	electric	10773
+G05B  19/00		プログラム制御システム［２００６．０１］	Programme-control systems 	7328
+G05B  19/02	・	電気式	electric	9854
+G05B  19/04	・・	数値制御以外のプログラム制御，すなわちシーケンスコントローラーまたはロジックコントローラにおける数値制御（Ｇ０５Ｂ１９／４１８が優先）［２００６．０１］	Programme control other than numerical control, i.e. in sequence controllers or logic controllers(G05B19/418 takes precedence)	32563
+G05B  19/042	・・・	デジタルプロセッサを用いるもの（Ｇ０５Ｂ１９／０５が優先）［６］	using digital processors(G05B19/05 takes precedence)	92712
+G05B  19/045	・・・	論理状態機械を用いるもので，制御される機械のための論理を含むメモリまたはプログラマブル論理装置のみからなり，その出力の状態が入力の状態またはそれ自体の出力状態の一部に依存するもの，例．二分決定制御装置，有限状態制御装置［６］	using logic state machines, consisting only of a memory or a programmable logic device containing the logic for the controlled machine and in which the state of its outputs is dependent on the state of its inputs or part of its own output states, e.g. binary decision controllers, finite state controllers	756
+G05B  19/048	・・・	監視；安全［６］	Monitoring; Safety	15778
+G05B  19/05	・・・	プログラマブル論理制御装置，例．ラダーダイアグラムまたは機能チャートに従って信号の論理的な相互接続を模擬するもの［５］	Programmable logic controllers, e.g. simulating logic interconnections of signals according to ladder diagrams or function charts	42186
+G05B  19/06	・・・	カム，円板，棒，ドラムまたは同様のものを用いるもの［２００６．０１］	using cams, discs, rods, drums or the like	1211
+G05B  19/07	・・・	プログラムが電気要素の固定接続で決定されるもの，例．ポテンショメータ，計数器，トランジスタ［６］	where the programme is defined in the fixed connection of electrical elements, e.g. potentiometers, counters, transistors	1009
+G05B  19/08	・・・	プラグボード，クロスバー分配器，マトリックススイッチ，または同様物を用いるもの	using plugboards, cross-bar distributors, matrix switches, or the like	1253
+G05B  19/10	・・・	選択スイッチを用いるもの	using selector switches	1587
+G05B  19/12	・・・	記録担体を用いるもの	using record carriers	1337
+G05B  19/14	・・・・	パンチカードまたはテープを用いるもの	using punched cards or tapes	411
+G05B  19/16	・・・・	磁気的記録担体を用いるもの	using magnetic record carriers	427
+G05B  19/18	・・	数値制御［ＮＣ］，すなわち，自動的に機械，特に工作機械を作動させるもの，例．数値形式のプログラムデータにより位置決め，運動または共働動作を実行するような製造環境（Ｇ０５Ｂ１９／４１８が優先）［２００６．０１］	Numerical control [NC], i.e. automatically operating machines, in particular machine tools, e.g. in a manufacturing environment, so as to execute positioning, movement or co-ordinated operations by means of programme data in numerical form(G05B19/418 takes precedence)	19745
+G05B  19/19	・・・	位置決めまたは輪郭制御系に特徴があるもの，例．１つのプログラムされた点から他の点に位置を制御する，またはプログラムされた連続経路に沿って運動を制御するもの［３，６］<br><b><ul>注</ul></b><br>このグループにおいて，軸用測定系はその軸に沿った位置変化を測定するため用いられる。この測定はサーボ制御系における位置フィードバックとして用いられる。［６］	characterised by positioning or contouring control systems, e.g. to control position from one programmed point to another or to control movement along a programmed continuous path; <br><br><b><u>Note(s)</u></b><br><br>In this group, the measuring system for an axis is used to measure the displacement along that axis. This measurement is used as position-feedback in the servo-control system.	6787
+G05B  19/21	・・・・	増分デイジタル測定器を用いるもの［３］	using an incremental digital measuring device	333
+G05B  19/23	・・・・・	点―点制御のためのもの［３］	for point-to-point control	1442
+G05B  19/25	・・・・・	連続経路制御のためのもの［３］	for continuous-path control	325
+G05B  19/27	・・・・	絶対デイジタル測定器を用いるもの［３］	using an absolute digital measuring device	155
+G05B  19/29	・・・・・	点―点制御のためのもの［３］	for point-to-point control	433
+G05B  19/31	・・・・・	連続経路制御のためのもの［３］	for continuous-path control	130
+G05B  19/33	・・・・	アナログ測定器を用いるもの［３］	using an analogue measuring device	376
+G05B  19/35	・・・・・	点―点制御のためのもの［３］	for point-to-point control	553
+G05B  19/37	・・・・・	連続経路制御のためのもの［３］	for continuous-path control	183
+G05B  19/39	・・・・	上記グループＧ０５Ｂ１９／２１，Ｇ０５Ｂ１９／２７およびＧ０５Ｂ１９／３３の少くとも２つのグループに含まれる手段の組合せを用いるもの［３］	using a combination of the means covered by at least two of the preceding groups G05B19/21, G05B19/27 and G05B19/33	527
+G05B  19/40	・・・・	開ループ系，例．ステップモータを用いるもの［３］	Open loop systems, e.g. using stepping motor	1280
+G05B  19/401	・・・	測定用制御装置に特徴のあるもの，例．較正および初期値設定，機械加工のための被加工物の測定（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by control arrangements for measuring, e.g. calibration and initialisation, measuring workpiece for machining purposes(G05B19/19 takes precedence)	2799
+G05B  19/402	・・・	位置決め用制御装置に特徴のあるもの，例．被加工物の孔に対する工具の心出し，位置を正確にするための付加的検知手段（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by control arrangements for positioning, e.g. centring a tool relative to a hole in the workpiece, additional detection means to correct position(G05B19/19 takes precedence)	1846
+G05B  19/404	・・・	補正用制御装置に特徴のあるもの，例．バックラッシュ，オーバーシュート，ツールオフセット，ツール摩耗，温度，機械構造誤差，負荷，慣性に対するもの（Ｇ０５Ｂ１９／１９，Ｇ０５Ｂ１９／４１が優先）［６］	characterised by control arrangements for compensation, e.g. for backlash, overshoot, tool offset, tool wear, temperature, machine construction errors, load, inertia(G05B19/19, G05B19/41 take precedence)	6500
+G05B  19/406	・・・	監視または安全に特徴のあるもの（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by monitoring or safety(G05B19/19 takes precedence)	3087
+G05B  19/4061	・・・・	衝突または禁止区域の回避［２００６．０１］	Avoiding collision or forbidden zones	1077
+G05B  19/4062	・・・・	サーボループの監視，例．サーボモータの過負荷，フィードバックまたは目標値の喪失［６］	Monitoring servoloop, e.g. overload of servomotor, loss of feedback or reference	678
+G05B  19/4063	・・・・	制御装置全般の監視（Ｇ０５Ｂ１９／４０６２が優先）［６］	Monitoring general control system(G05B19/4062 takes precedence)	2177
+G05B  19/4065	・・・・	ツールの破損，寿命または状態を監視するもの［６］	Monitoring tool breakage, life or condition	2062
+G05B  19/4067	・・・・	動力故障またはその他の中断後データまたは位置を元通りにするもの［６］	Restoring data or position after power failure or other interruption	470
+G05B  19/4068	・・・・	描画またはその他の手段によりスクリーン上でパートプログラムを確認するもの［６］	Verifying part programme on screen, by drawing or other means	809
+G05B  19/4069	・・・・	スクリーン上で機械加工工程をシミュレートするもの（Ｇ０５Ｂ１９／４０６８が優先）［６］	Simulating machining process on screen(G05B19/4068 takes precedence)	1747
+G05B  19/408	・・・	データの取り扱いまたはデータのフォーマットに特徴のあるもの，例．データの読み取り，バッファリングまたは変換［６］	characterised by data handling or data format, e.g. reading, buffering or conversion of data	3310
+G05B  19/409	・・・	マニュアルデータインプット［ＭＤＩ］，制御盤の使用に特徴のあるもの，例．盤による機能制御；制御盤の細部，パラメータの設定に特徴のあるもの（Ｇ０５Ｂ１９／４０８，Ｇ０５Ｂ１９／４０９３が優先）［２００６．０１］	characterised by using manual data input [MDI] or by using control panel, e.g. controlling functions with the panel; characterised by control panel details or by setting parameters(G05B19/408, G05B19/4093 take precedence)	3165
+G05B  19/4093	・・・	パートプログラミングに特徴のあるもの，例．パートプログラムと名付けられている，ＮＣ機械のための制御情報を得るために図面から取得された幾何学情報の入力で，この図面と機械加工情報と材料情報を組み合わせる入力［２００６．０１］	characterised by part programming, e.g. entry of geometrical information as taken from a technical drawing, combining this with machining and material information to obtain control information, named part programme, for the NC machine	6811
+G05B  19/4097	・・・	ＮＣ機械を制御するために設計データを使用することに特徴のあるもの，例．ＣＡＤ／ＣＡＭ（Ｇ０５Ｂ１９／４０９３が優先）［２００６．０１］	characterised by using design data to control NC machines, e.g. CAD/CAM(G05B19/4093 takes precedence)	4277
+G05B  19/4099	・・・・	面または曲線機械加工で三次元物体を作成するもの，例．デスクトップ製造［６］	Surface or curve machining, making 3D objects, e.g. desktop manufacturing	2365
+G05B  19/41	・・・	補間に特徴のあるもの，例．従うべき経路とその経路に沿った移動速度を定義するためのプログラムされた終点間における中間点の計算（Ｇ０５Ｂ１９／２５，Ｇ０５Ｂ１９／３１，Ｇ０５Ｂ１９／３７，Ｇ０５Ｂ１９／３９，Ｇ０５Ｂ１９／４０が優先）［３，６］	characterised by interpolation, e.g. the computation of intermediate points between programmed end points to define the path to be followed and the rate of travel along that path(G05B19/25, G05B19/31, G05B19/37, G05B19/39, G05B19/40 take precedence)	1291
+G05B  19/4103	・・・・	デジタル補間［６］	Digital interpolation	2019
+G05B  19/4105	・・・・	アナログ補間［６］	Analog interpolation	162
+G05B  19/414	・・・	制御系の構成，例．共有コントローラまたはマルチプロセッサシステム，サーボのためのインターフェイス，プログラマブルインターフェイスコントローラ［６］	Structure of the control system, e.g. common controller or multiprocessor systems, interface to servo, programmable interface controller	6362
+G05B  19/4155	・・・	プログラム実行，すなわち，パートプログラムまたは機械機能の実行，に特徴のあるもの，例．プログラムの選択［６］	characterised by programme execution, i.e. part programme or machine function execution, e.g. selection of a programme	5144
+G05B  19/416	・・・	速度，加速または減速の制御に特徴のあるもの（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by control of velocity, acceleration or deceleration(G05B19/19 takes precedence)	4892
+G05B  19/418	・・	総合的工場管理，すなわち，複数の機械の集中管理，例．直接または分散数値制御［ＤＮＣ］，フレキシブルマニュファクチャリングシステム［ＦＭＳ］，インテグレーテッドマニュファクチャリングシステム［ＩＭＳ］またはコンピュータインテグレーテッドマニュファクチャリング［ＣＩＭ］［２００６．０１］	Total factory control, i.e. centrally controlling a plurality of machines, e.g. direct or distributed numerical control [DNC], flexible manufacturing systems [FMS], integrated manufacturing systems [IMS] or computer integrated manufacturing [CIM]	86677
+G05B  19/42	・・	記録および再生システム，すなわち運転サイクルからプログラムが記録されるもの，例．運転サイクルが手動で制御され，その後，この記録が同一機械上に再生されるもの	Recording and playback systems, i.e. in which the programme is recorded from a cycle of operations, e.g. the cycle of operations being manually controlled, after which this record is played back on the same machine	5831
+G05B  19/421	・・・	機械的手段により連続する位置を教示するもの，例．ツールヘッドまたはエンドエフェクタを位置決めする機械的に結合した手動ハンドルによるもの（Ｇ０５Ｂ１９／４２３が優先）［６］	Teaching successive positions by mechanical means, e.g. by mechanically-coupled handwheels to position tool head or end effector(G05B19/423 takes precedence)	83
+G05B  19/423	・・・	ウォーク−スルーにより連続する位置を教示するもの，すなわち，ツールヘッドまたはエンドエフェクタを経路に従うようサーボ補助の有無にかかわらず直接つかまえて案内するもの［６］	Teaching successive positions by walk-through, i.e. the tool head or end effector being grasped and guided directly, with or without servo-assistance, to follow a path	462
+G05B  19/425	・・・	数値制御により連続する位置を教示するもの，すなわち，ツールヘッドまたはエンドエフェクタの位置決めサーボを制御するため指令がはいるもの［６］	Teaching successive positions by numerical control, i.e. commands being entered to control the positioning servo of the tool head or end effector	663
+G05B  19/427	・・・	ツールヘッドの位置決めサーボを制御するための操作レバーまたはハンドルの位置を追跡すること，マスタースレーブ制御により連続する位置を教示するもの（Ｇ０５Ｂ１９／４２３が優先）［６］	Teaching successive positions by tracking the position of a joystick or handle to control the positioning servo of the tool head, leader-follower control(G05B19/423 takes precedence)	292
+G05B  19/43	・	流体式［３］	fluidic	226
+G05B  19/44	・・	空気式［３］	pneumatic	580
+G05B  19/46	・・	液圧式［３］	hydraulic	173
+G05B  21/00		制御される変量の標本抽出を伴うシステム（Ｇ０５Ｂ１３／００〜Ｇ０５Ｂ１９／００が優先）［２００６．０１］	Systems involving sampling of the variable controlled(G05B13/00 to G05B19/00  take precedence)	888
+G05B  21/02	・	電気式	electric	1378
+G05B  23/00		制御系またはその一部の試験または監視（プログラム制御系の監視Ｇ０５Ｂ１９／０４８，Ｇ０５Ｂ１９／４０６）	Testing or monitoring of control systems or parts thereof(monitoring of programme-control systems G05B19/048, G05B19/406)	2862
+G05B  23/02	・	電気式試験または監視	Electric testing or monitoring	63502
+G05B  24/00		他に分類されない開ループ自動制御系［２］	Open-loop automatic control systems not otherwise provided for	474
+G05B  24/02	・	電気式［２］	electric	1102
+G05B  24/04	・	流体式［２］	fluidic	43
+G05B  99/00		このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass	144

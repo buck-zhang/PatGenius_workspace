@@ -1,0 +1,648 @@
+F05B2200/00	7	Mathematical features	CPCONLY	F05B2200/00		16
+F05B2200/10	8	Basic functions	CPCONLY	F05B2200/10		3
+F05B2200/11	9	Sum	CPCONLY	F05B2200/11		35
+F05B2200/12	9	Subtraction	CPCONLY	F05B2200/12		17
+F05B2200/13	9	Product	CPCONLY	F05B2200/13		18
+F05B2200/14	9	Division	CPCONLY	F05B2200/14		7
+F05B2200/15	9	Inverse	CPCONLY	F05B2200/15		20
+F05B2200/20	8	Special functions	CPCONLY	F05B2200/20		6
+F05B2200/21	9	Root	CPCONLY	F05B2200/21		5
+F05B2200/211	10	Square root	CPCONLY	F05B2200/211		28
+F05B2200/212	10	Cubic root	CPCONLY	F05B2200/212		2
+F05B2200/22	9	Power	CPCONLY	F05B2200/22		6
+F05B2200/221	10	Square power	CPCONLY	F05B2200/221		17
+F05B2200/222	10	Cubic power	CPCONLY	F05B2200/222		6
+F05B2200/23	9	Logarithm	CPCONLY	F05B2200/23		38
+F05B2200/24	9	exponential	CPCONLY	F05B2200/24		16
+F05B2200/25	9	Hyperbolic trigonometric, e.g. sinh, cosh, tanh	CPCONLY	F05B2200/25		1
+F05B2200/26	9	trigonometric	CPCONLY	F05B2200/26		3
+F05B2200/261	10	Sine	CPCONLY	F05B2200/261		42
+F05B2200/262	10	Cosine	CPCONLY	F05B2200/262		30
+F05B2200/263	10	Tangent	CPCONLY	F05B2200/263		3
+F05B2200/264	10	Cotangent	CPCONLY	F05B2200/264		1
+F05B2200/30	8	miscellaneous	CPCONLY	F05B2200/30		2
+F05B2200/31	9	odd	CPCONLY	F05B2200/31		21
+F05B2200/32	9	even	CPCONLY	F05B2200/32		28
+F05B2200/33	9	bigger/smaller	CPCONLY	F05B2200/33		1
+F05B2200/34	9	biggest/smallest	CPCONLY	F05B2200/34		
+F05B2200/35	9	first	CPCONLY	F05B2200/35		
+F05B2200/36	9	last	CPCONLY	F05B2200/36		
+F05B2210/00	7	Working fluid<br><br><u>NOTE</u><br><br>Indexing codes of group F05B2210/00 can be followed by a name for a specific working fluid preceded by the "+" sign, e.g. F05B2210/11 +water.	CPCONLY	F05B2210/00		23
+F05B2210/10	8	Kind or type	CPCONLY	F05B2210/10		65
+F05B2210/11	9	liquid, i.e. incompressible	CPCONLY	F05B2210/11		1123
+F05B2210/12	9	gaseous, i.e. compressible	CPCONLY	F05B2210/12		2333
+F05B2210/13	9	mixed, e.g. two-phase fluid	CPCONLY	F05B2210/13		81
+F05B2210/132	10	Pumps with means for separating and evacuating the gaseous phase	CPCONLY	F05B2210/132		59
+F05B2210/14	9	Refrigerants with particular properties, e.g. HFC-134a	CPCONLY	F05B2210/14		1830
+F05B2210/16	8	Air or water being indistinctly used as working fluid, i.e. the machine can work equally with air or water without any modification	CPCONLY	F05B2210/16		1227
+F05B2210/18	8	Air and water being simultaneously used as working fluid	CPCONLY	F05B2210/18		291
+F05B2210/20	8	Properties	CPCONLY	F05B2210/20		20
+F05B2210/30	8	Flow characteristics	CPCONLY	F05B2210/30		16
+F05B2210/301	9	with Mach-number kept constant along the flow	CPCONLY	F05B2210/301		
+F05B2210/302	9	Pressure kept constant along the flow	CPCONLY	F05B2210/302		3
+F05B2210/40	8	Flow geometry or direction	CPCONLY	F05B2210/40		26
+F05B2210/401	9	upwards due to the buoyancy of compressed air	CPCONLY	F05B2210/401		152
+F05B2210/402	9	Axial inlet and radial outlet	CPCONLY	F05B2210/402		40
+F05B2210/403	9	Radial inlet and axial outlet	CPCONLY	F05B2210/403		43
+F05B2210/404	9	bidirectional, i.e. in opposite, alternating directions	CPCONLY	F05B2210/404		204
+F05B2220/00	7	Application	CPCONLY	F05B2220/00		20
+F05B2220/10	8	in ram-jet engines or ram-jet driven vehicles	CPCONLY	F05B2220/10		11
+F05B2220/20	8	within closed fluid conduits, e.g. pipes	CPCONLY	F05B2220/20		486
+F05B2220/25	8	as advertisement	CPCONLY	F05B2220/25		113
+F05B2220/30	8	in turbines	CPCONLY	F05B2220/30		209
+F05B2220/301	9	in steam turbines	CPCONLY	F05B2220/301		62
+F05B2220/302	9	in gas turbines	CPCONLY	F05B2220/302		126
+F05B2220/31	9	in ram-air turbines ("RATS")	CPCONLY	F05B2220/31		102
+F05B2220/32	9	in water turbines	CPCONLY	F05B2220/32		1754
+F05B2220/40	8	in turbochargers	CPCONLY	F05B2220/40		466
+F05B2220/50	8	for auxiliary power units (APU&apos;s)	CPCONLY	F05B2220/50		160
+F05B2220/60	8	making use of surplus or waste energy	CPCONLY	F05B2220/60		148
+F05B2220/602	9	with energy recovery turbines	CPCONLY	F05B2220/602		560
+F05B2220/604	9	for domestic central heating or production of electricity	CPCONLY	F05B2220/604		108
+F05B2220/61	8	for hydrogen and/or oxygen production	CPCONLY	F05B2220/61		465
+F05B2220/62	8	for desalination	CPCONLY	F05B2220/62		222
+F05B2220/64	8	for aeration	CPCONLY	F05B2220/64		29
+F05B2220/70	8	in combination with	CPCONLY	F05B2220/70		75
+F05B2220/702	9	the other apparatus being a steam turbine	CPCONLY	F05B2220/702		22
+F05B2220/703	9	the other apparatus being a water turbine	CPCONLY	F05B2220/703		20
+F05B2220/704	9	the other apparatus being a gas turbine	CPCONLY	F05B2220/704		39
+F05B2220/705	9	the other apparatus being a wind turbine	CPCONLY	F05B2220/705		72
+F05B2220/706	9	an electrical generator	CPCONLY	F05B2220/706		4737
+F05B2220/7062	10	of the direct current (D.C.) type	CPCONLY	F05B2220/7062		66
+F05B2220/7064	10	of the alternating current (A.C.) type	CPCONLY	F05B2220/7064		98
+F05B2220/70642	11	of the synchronous type	CPCONLY	F05B2220/70642		103
+F05B2220/70644	11	of the asynchronous type, i.e. induction type	CPCONLY	F05B2220/70644		40
+F05B2220/70646	12	Double fed induction generators (DFIGs)	CPCONLY	F05B2220/70646		33
+F05B2220/7066	10	via a direct connection, i.e. a gearless transmission	CPCONLY	F05B2220/7066		546
+F05B2220/7068	10	equipped with permanent magnets	CPCONLY	F05B2220/7068		692
+F05B2220/707	10	of the linear type	CPCONLY	F05B2220/707		214
+F05B2220/708	9	Photoelectric means, i.e. photovoltaic or solar cells	CPCONLY	F05B2220/708		595
+F05B2220/709	9	Piezoelectric means	CPCONLY	F05B2220/709		227
+F05B2230/00	7	Manufacture<br><br><u>NOTE</u><br><br>Manufacture comprises also treatment, assembly or disassembly methods, repairing, handling or the like.	CPCONLY	F05B2230/00		156
+F05B2230/10	8	by removing material	CPCONLY	F05B2230/10		101
+F05B2230/101	9	by electrochemical methods	CPCONLY	F05B2230/101		8
+F05B2230/102	9	by spark erosion methods	CPCONLY	F05B2230/102		6
+F05B2230/103	9	using lasers	CPCONLY	F05B2230/103		10
+F05B2230/104	8	Micromachining	CPCONLY	F05B2230/104		5
+F05B2230/20	8	essentially without removing material	CPCONLY	F05B2230/20		105
+F05B2230/21	9	by casting	CPCONLY	F05B2230/21		141
+F05B2230/211	10	by precision casting, e.g. microfusing or investment casting	CPCONLY	F05B2230/211		11
+F05B2230/22	9	by sintering	CPCONLY	F05B2230/22		48
+F05B2230/23	9	by permanently joining parts together	CPCONLY	F05B2230/23		125
+F05B2230/232	10	by welding	CPCONLY	F05B2230/232		168
+F05B2230/233	11	Electron beam welding	CPCONLY	F05B2230/233		6
+F05B2230/234	11	Laser welding	CPCONLY	F05B2230/234		15
+F05B2230/235	11	Tig/Mig welding	CPCONLY	F05B2230/235		2
+F05B2230/236	11	Diffusion bonding	CPCONLY	F05B2230/236		5
+F05B2230/237	11	Brazing	CPCONLY	F05B2230/237		16
+F05B2230/238	11	Soldering	CPCONLY	F05B2230/238		10
+F05B2230/239	11	Inertia or friction welding	CPCONLY	F05B2230/239		65
+F05B2230/24	9	by extrusion	CPCONLY	F05B2230/24		25
+F05B2230/25	9	by forging	CPCONLY	F05B2230/25		26
+F05B2230/26	9	by rolling	CPCONLY	F05B2230/26		14
+F05B2230/30	8	with deposition of material	CPCONLY	F05B2230/30		80
+F05B2230/31	9	Layer deposition	CPCONLY	F05B2230/31		108
+F05B2230/311	10	by torch or flame spray	CPCONLY	F05B2230/311		7
+F05B2230/312	10	by plasma spray	CPCONLY	F05B2230/312		8
+F05B2230/313	10	by physical vapour deposition	CPCONLY	F05B2230/313		6
+F05B2230/314	10	by chemical vapour deposition	CPCONLY	F05B2230/314		5
+F05B2230/40	8	Heat treatment	CPCONLY	F05B2230/40		36
+F05B2230/41	9	Hardening; Annealing	CPCONLY	F05B2230/41		93
+F05B2230/50	8	Building or constructing in particular ways	CPCONLY	F05B2230/50		283
+F05B2230/502	9	using existing or "off the shelf" parts, e.g. using standardised turbocharger elements	CPCONLY	F05B2230/502		11
+F05B2230/60	8	Assembly methods	CPCONLY	F05B2230/60		1108
+F05B2230/601	9	using limited numbers of standard modules which can be adapted by machining	CPCONLY	F05B2230/601		68
+F05B2230/604	9	using positioning or alignment devices for aligning or centering, e.g. pins<br><br><u>WARNING</u><br>Group F05B2230/604 is impacted by reclassification into group F03D13/108.<br>Groups F05B2230/604 and F03D13/108 should be considered in order to perform a complete search.	CPCONLY	F05B2230/604		256
+F05B2230/606	10	using maintaining alignment while permitting differential dilatation	CPCONLY	F05B2230/606		127
+F05B2230/608	10	for adjusting the position or the alignment, e.g. wedges or excenters	CPCONLY	F05B2230/608		86
+F05B2230/61	9	using auxiliary equipment for lifting or holding<br><br><u>WARNING</u><br>Group F05B2230/61 is impacted by reclassification into group F03D13/139.<br>Groups F05B2230/61 and F03D13/139 should be considered in order to perform a complete search.	CPCONLY	F05B2230/61		859
+F05B2230/6102	10	carried on a floating platform<br><br><u>WARNING</u><br>Group F05B2230/6102 is impacted by reclassification into group F03D13/139.<br>Groups F05B2230/6102 and F03D13/139 should be considered in order to perform a complete search.	CPCONLY	F05B2230/6102		284
+F05B2230/70	8	Disassembly methods<br><br><u>WARNING</u><br>Group F05B2230/70 is impacted by reclassification into group F03D80/011.<br>Groups F05B2230/70 and F03D80/011 should be considered in order to perform a complete search.	CPCONLY	F05B2230/70		217
+F05B2230/80	8	Repairing, retrofitting or upgrading methods<br><br><u>WARNING</u><br>Group F05B2230/80 is impacted by reclassification into groups F03D80/501, F03D80/502, F03D80/504, F03D80/505, F03D80/507 and F03D80/509.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2230/80		793
+F05B2230/90	8	Coating; Surface treatment	CPCONLY	F05B2230/90		407
+F05B2240/00	7	Components<br><br><u>NOTE</u><br><br>Components are the basic elements of construction.	CPCONLY	F05B2240/00		13
+F05B2240/10	8	Stators	CPCONLY	F05B2240/10		330
+F05B2240/11	9	Shroud seal segments	CPCONLY	F05B2240/11		24
+F05B2240/12	9	Fluid guiding means, e.g. vanes<br><br><u>WARNING</u><br>Group F05B2240/12 is impacted by reclassification into group F03D1/046.<br>Groups F05B2240/12 and F03D1/046 should be considered in order to perform a complete search.	CPCONLY	F05B2240/12		574
+F05B2240/121	10	Baffles or ribs<br><br><u>WARNING</u><br>Group F05B2240/121 is impacted by reclassification into group F03D1/046.<br>Groups F05B2240/121 and F03D1/046 should be considered in order to perform a complete search.	CPCONLY	F05B2240/121		104
+F05B2240/122	10	Vortex generators, turbulators, or the like, for mixing<br><br><u>WARNING</u><br>Group F05B2240/122 is impacted by reclassification into group F03D1/046.<br>Groups F05B2240/122 and F03D1/046 should be considered in order to perform a complete search.	CPCONLY	F05B2240/122		248
+F05B2240/123	10	Nozzles<br><br><u>WARNING</u><br>Group F05B2240/123 is impacted by reclassification into group F03D1/041.<br>Groups F05B2240/123 and F03D1/041 should be considered in order to perform a complete search.	CPCONLY	F05B2240/123		80
+F05B2240/1231	11	Plug nozzles<br><br><u>WARNING</u><br>Group F05B2240/1231 is impacted by reclassification into group F03D1/041.<br>Groups F05B2240/1231 and F03D1/041 should be considered in order to perform a complete search.	CPCONLY	F05B2240/1231		9
+F05B2240/124	10	Cascades, i.e. assemblies of similar profiles acting in parallel<br><br><u>WARNING</u><br>Group F05B2240/124 is impacted by reclassification into group F03D1/051.<br>Groups F05B2240/124 and F03D1/051 should be considered in order to perform a complete search.	CPCONLY	F05B2240/124		67
+F05B2240/13	9	to collect or cause flow towards or away from turbines<br><br><u>WARNING</u><br>Group F05B2240/13 is impacted by reclassification into groups F03D1/041 and F03D1/042.<br>Groups F05B2240/13, F03D1/041 and F03D1/042 should be considered in order to perform a complete search.	CPCONLY	F05B2240/13		995
+F05B2240/131	10	by means of vertical structures, i.e. chimneys	CPCONLY	F05B2240/131		535
+F05B2240/132	10	creating a vortex or tornado effect	CPCONLY	F05B2240/132		227
+F05B2240/133	10	with a convergent-divergent guiding structure, e.g. a Venturi conduit<br><br><u>WARNING</u><br>Group F05B2240/133 is impacted by reclassification into group F03D1/044.<br>Groups F05B2240/133 and F03D1/044 should be considered in order to perform a complete search.	CPCONLY	F05B2240/133		815
+F05B2240/14	9	Casings, housings, nacelles, gondels or the like, protecting or supporting assemblies there within<br><br><u>WARNING</u><br>Group F05B2240/14 is impacted by reclassification into groups F03D1/101, F03D1/125, F03D1/141, F03D1/165, F03D1/181, F03D1/188, F03D80/601 and F03D80/602.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2240/14		877
+F05B2240/142	10	in the form of a standard ISO container<br><br><u>WARNING</u><br>Group F05B2240/142 is impacted by reclassification into groups F03D1/101, F03D1/125, F03D1/141, F03D1/165, F03D1/181 and F03D1/188.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2240/142		84
+F05B2240/20	8	Rotors	CPCONLY	F05B2240/20		545
+F05B2240/201	9	using the Magnus-effect	CPCONLY	F05B2240/201		78
+F05B2240/202	9	with adjustable area of intercepted fluid	CPCONLY	F05B2240/202		93
+F05B2240/2021	10	by means of telescoping blades<br><br><u>WARNING</u><br>Group F05B2240/2021 is impacted by reclassification into groups F03D3/063 and F03D7/0237.<br>Groups F05B2240/2021, F03D3/063 and F03D7/0237 should be considered in order to perform a complete search.	CPCONLY	F05B2240/2021		76
+F05B2240/2022	10	by means of teetering or coning blades<br><br><u>WARNING</u><br>Group F05B2240/2022 is impacted by reclassification into group F03D7/0239.<br>Groups F05B2240/2022 and F03D7/0239 should be considered in order to perform a complete search.	CPCONLY	F05B2240/2022		102
+F05B2240/2023	10	by means of radially reefing blades	CPCONLY	F05B2240/2023		21
+F05B2240/21	9	for wind turbines	CPCONLY	F05B2240/21		393
+F05B2240/211	10	with vertical axis	CPCONLY	F05B2240/211		1707
+F05B2240/212	11	of the Darrieus type<br><br><u>WARNING</u><br>Group F05B2240/212 is impacted by reclassification into group F03D3/011.<br>Groups F05B2240/212 and F03D3/011 should be considered in order to perform a complete search.	CPCONLY	F05B2240/212		349
+F05B2240/213	11	of the Savonius type<br><br><u>WARNING</u><br>Group F05B2240/213 is impacted by reclassification into group F03D3/009.<br>Groups F05B2240/213 and F03D3/009 should be considered in order to perform a complete search.	CPCONLY	F05B2240/213		644
+F05B2240/214	11	of the Musgrove or "H"-type<br><br><u>WARNING</u><br>Group F05B2240/214 is impacted by reclassification into group F03D3/011.<br>Groups F05B2240/214 and F03D3/011 should be considered in order to perform a complete search.	CPCONLY	F05B2240/214		451
+F05B2240/215	11	of the panemone or "vehicle ventilator" type<br><br><u>WARNING</u><br>Group F05B2240/215 is impacted by reclassification into group F03D3/009.<br>Groups F05B2240/215 and F03D3/009 should be considered in order to perform a complete search.	CPCONLY	F05B2240/215		156
+F05B2240/216	11	of the anemometer type<br><br><u>WARNING</u><br>Group F05B2240/216 is impacted by reclassification into group F03D3/009.<br>Groups F05B2240/216 and F03D3/009 should be considered in order to perform a complete search.	CPCONLY	F05B2240/216		195
+F05B2240/217	11	of the crossflow- or "Banki"- or "double action" type	CPCONLY	F05B2240/217		86
+F05B2240/218	11	with horizontally hinged vanes<br><br><u>WARNING</u><br>Group F05B2240/218 is impacted by reclassification into groups F03D3/066, F03D3/067 and F03D3/068.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2240/218		339
+F05B2240/221	10	with horizontal axis	CPCONLY	F05B2240/221		1213
+F05B2240/2211	11	of the multibladed, low speed, e.g. "American farm" type	CPCONLY	F05B2240/2211		293
+F05B2240/2212	11	perpendicular to wind direction	CPCONLY	F05B2240/2212		348
+F05B2240/2213	11	and with the rotor downwind from the yaw pivot axis	CPCONLY	F05B2240/2213		166
+F05B2240/231	10	driven by aerodynamic lift effects	CPCONLY	F05B2240/231		44
+F05B2240/232	11	driven by drag	CPCONLY	F05B2240/232		59
+F05B2240/24	9	for turbines	CPCONLY	F05B2240/24		99
+F05B2240/241	10	of impulse type	CPCONLY	F05B2240/241		68
+F05B2240/2411	11	Pelton type	CPCONLY	F05B2240/2411		147
+F05B2240/242	10	of reaction type	CPCONLY	F05B2240/242		86
+F05B2240/243	10	of the Archimedes screw type	CPCONLY	F05B2240/243		259
+F05B2240/244	10	of the cross-flow, e.g. Banki, Ossberger type	CPCONLY	F05B2240/244		170
+F05B2240/30	9	Characteristics of rotor blades, i.e. of any element transforming dynamic fluid energy to or from rotational energy and being attached to a rotor<br><br><u>WARNING</u><br>Group F05B2240/30 is impacted by reclassification into groups F03D1/0641 and F03D1/0685.<br>Groups F05B2240/30, F03D1/0641 and F03D1/0685 should be considered in order to perform a complete search.	CPCONLY	F05B2240/30		1455
+F05B2240/301	10	Cross-section characteristics<br><br><u>WARNING</u><br>Group F05B2240/301 is impacted by reclassification into groups F03D1/0642, F03D1/0643, F03D1/0645, F03D1/0647, F03D1/0648, F03D1/0649 and F03D1/06495.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2240/301		836
+F05B2240/302	10	Segmented or sectional blades<br><br><u>WARNING</u><br>Group F05B2240/302 is impacted by reclassification into group F03D1/0677.<br>Groups F05B2240/302 and F03D1/0677 should be considered in order to perform a complete search.	CPCONLY	F05B2240/302		604
+F05B2240/303	10	Details of the leading edge<br><br><u>WARNING</u><br>Group F05B2240/303 is impacted by reclassification into group F03D1/0643.<br>Groups F05B2240/303 and F03D1/0643 should be considered in order to perform a complete search.	CPCONLY	F05B2240/303		90
+F05B2240/304	10	Details of the trailing edge<br><br><u>WARNING</u><br>Group F05B2240/304 is impacted by reclassification into group F03D1/0645.<br>Groups F05B2240/304 and F03D1/0645 should be considered in order to perform a complete search.	CPCONLY	F05B2240/304		77
+F05B2240/3042	11	Serrated trailing edge<br><br><u>WARNING</u><br>Group F05B2240/3042 is impacted by reclassification into group F03D1/0645.<br>Groups F05B2240/3042 and F03D1/0645 should be considered in order to perform a complete search.	CPCONLY	F05B2240/3042		49
+F05B2240/305	10	Flaps, slats or spoilers<br><br><u>WARNING</u><br>Group F05B2240/305 is impacted by reclassification into groups F03D1/06495 and F03D1/0685.<br>Groups F05B2240/305, F03D1/06495 and F03D1/0685 should be considered in order to perform a complete search.	CPCONLY	F05B2240/305		89
+F05B2240/3052	11	adjustable<br><br><u>WARNING</u><br>Group F05B2240/3052 is impacted by reclassification into groups F03D1/06495 and F03D1/0685.<br>Groups F05B2240/3052, F03D1/06495 and F03D1/0685 should be considered in order to perform a complete search.	CPCONLY	F05B2240/3052		186
+F05B2240/306	10	Surface measures<br><br><u>WARNING</u><br>Group F05B2240/306 is impacted by reclassification into groups F03D1/0649 and F03D1/06495.<br>Groups F05B2240/306, F03D1/0649 and F03D1/06495 should be considered in order to perform a complete search.	CPCONLY	F05B2240/306		23
+F05B2240/3062	11	Vortex generators<br><br><u>WARNING</u><br>Group F05B2240/3062 is impacted by reclassification into groups F03D1/0649 and F03D1/06495.<br>Groups F05B2240/3062, F03D1/0649 and F03D1/06495 should be considered in order to perform a complete search.	CPCONLY	F05B2240/3062		276
+F05B2240/307	10	Blade tip, e.g. winglets<br><br><u>WARNING</u><br>Group F05B2240/307 is impacted by reclassification into groups F03D1/0642 and F03D1/0687.<br>Groups F05B2240/307, F03D1/0642 and F03D1/0687 should be considered in order to perform a complete search.	CPCONLY	F05B2240/307		255
+F05B2240/31	10	of changeable form or shape<br><br><u>WARNING</u><br>Group F05B2240/31 is impacted by reclassification into group F03D1/0648.<br>Groups F05B2240/31 and F03D1/0648 should be considered in order to perform a complete search.	CPCONLY	F05B2240/31		433
+F05B2240/311	11	flexible or elastic<br><br><u>WARNING</u><br>Group F05B2240/311 is impacted by reclassification into group F03D1/0648.<br>Groups F05B2240/311 and F03D1/0648 should be considered in order to perform a complete search.	CPCONLY	F05B2240/311		434
+F05B2240/312	11	capable of being reefed<br><br><u>WARNING</u><br>Group F05B2240/312 is impacted by reclassification into group F03D1/0648.<br>Groups F05B2240/312 and F03D1/0648 should be considered in order to perform a complete search.	CPCONLY	F05B2240/312		152
+F05B2240/3121	12	around an axis orthogonal to rotor rotational axis<br><br><u>WARNING</u><br>Group F05B2240/3121 is impacted by reclassification into group F03D1/0648.<br>Groups F05B2240/3121 and F03D1/0648 should be considered in order to perform a complete search.	CPCONLY	F05B2240/3121		75
+F05B2240/313	11	with adjustable flow intercepting area (F05B2240/312 takes precedence)<br><br><u>WARNING</u><br>Group F05B2240/313 is impacted by reclassification into group F03D1/0648.<br>Groups F05B2240/313 and F03D1/0648 should be considered in order to perform a complete search.	CPCONLY	F05B2240/313		192
+F05B2240/32	10	with roughened surface<br><br><u>WARNING</u><br>Group F05B2240/32 is impacted by reclassification into group F03D1/0649.<br>Groups F05B2240/32 and F03D1/0649 should be considered in order to perform a complete search.	CPCONLY	F05B2240/32		157
+F05B2240/33	9	Shrouds which are part of or which are rotating with the rotor<br><br><u>WARNING</u><br>Group F05B2240/33 is impacted by reclassification into group F03D1/0606.<br>Groups F05B2240/33 and F03D1/0606 should be considered in order to perform a complete search.	CPCONLY	F05B2240/33		222
+F05B2240/37	9	Multiple rotors	CPCONLY	F05B2240/37		100
+F05B2240/372	10	coaxially arranged	CPCONLY	F05B2240/372		85
+F05B2240/374	10	Auxiliary rotors attached to blades of main rotor	CPCONLY	F05B2240/374		77
+F05B2240/40	8	Use of a multiplicity of similar components	CPCONLY	F05B2240/40		2465
+F05B2240/50	8	Bearings<br><br><u>WARNING</u><br>Group F05B2240/50 is impacted by reclassification into groups F03D80/701 and F03D80/703.<br>Groups F05B2240/50, F03D80/701 and F03D80/703 should be considered in order to perform a complete search.	CPCONLY	F05B2240/50		875
+F05B2240/51	9	magnetic<br><br><u>WARNING</u><br>Group F05B2240/51 is impacted by reclassification into groups F03D80/701 and F03D80/703. <br>Groups F05B2240/51, F03D80/701 and F03D80/703 should be considered in order to perform a complete search.	CPCONLY	F05B2240/51		105
+F05B2240/511	10	with permanent magnets<br><br><u>WARNING</u><br>Group F05B2240/511 is impacted by reclassification into groups F03D80/701 and F03D80/703.<br>Groups F05B2240/511, F03D80/701 and F03D80/703 should be considered in order to perform a complete search.	CPCONLY	F05B2240/511		85
+F05B2240/515	10	electromagnetic<br><br><u>WARNING</u><br>Group F05B2240/515 is impacted by reclassification into groups F03D80/701 and F03D80/703.<br>Groups F05B2240/515, F03D80/701 and F03D80/703 should be considered in order to perform a complete search.	CPCONLY	F05B2240/515		47
+F05B2240/52	9	Axial thrust bearings<br><br><u>WARNING</u><br>Group F05B2240/52 is impacted by reclassification into groups F03D80/701 and F03D80/703.<br>Groups F05B2240/52, F03D80/701 and F03D80/703 should be considered in order to perform a complete search.	CPCONLY	F05B2240/52		152
+F05B2240/53	9	Hydrodynamic or hydrostatic bearings<br><br><u>WARNING</u><br>Group F05B2240/53 is impacted by reclassification into groups F03D80/701 and F03D80/703.<br>Groups F05B2240/53, F03D80/701 and F03D80/703 should be considered in order to perform a complete search.	CPCONLY	F05B2240/53		123
+F05B2240/54	9	Radial bearings<br><br><u>WARNING</u><br>Group F05B2240/54 is impacted by reclassification into groups F03D80/701 and F03D80/703.<br>Groups F05B2240/54, F03D80/701 and F03D80/703 should be considered in order to perform a complete search.	CPCONLY	F05B2240/54		158
+F05B2240/57	8	Seals	CPCONLY	F05B2240/57		503
+F05B2240/571	9	Brush seals	CPCONLY	F05B2240/571		21
+F05B2240/572	9	Leaf seals	CPCONLY	F05B2240/572		11
+F05B2240/60	8	Shafts	CPCONLY	F05B2240/60		415
+F05B2240/61	9	hollow	CPCONLY	F05B2240/61		143
+F05B2240/62	9	flexible	CPCONLY	F05B2240/62		41
+F05B2240/63	9	Glands for admission or removal of fluids from shafts	CPCONLY	F05B2240/63		2
+F05B2240/70	8	Slinger plates or washers	CPCONLY	F05B2240/70		40
+F05B2240/80	8	Platforms for stationary or moving blades	CPCONLY	F05B2240/80		19
+F05B2240/801	9	cooled platforms	CPCONLY	F05B2240/801		114
+F05B2240/85	8	Electrical connection arrangements<br><br><u>WARNING</u><br>Group F05B2240/85 is impacted by reclassification into group F03D80/301.<br>Groups F05B2240/85 and F03D80/301 should be considered in order to perform a complete search.	CPCONLY	F05B2240/85		64
+F05B2240/90	8	Mounting on supporting structures or systems	CPCONLY	F05B2240/90		217
+F05B2240/91	9	on a stationary structure	CPCONLY	F05B2240/91		268
+F05B2240/911	10	already existing for a prior purpose	CPCONLY	F05B2240/911		630
+F05B2240/9111	11	which is a chimney	CPCONLY	F05B2240/9111		196
+F05B2240/9112	11	which is a building	CPCONLY	F05B2240/9112		361
+F05B2240/9113	11	which is a roadway, rail track, or the like for recovering energy from moving vehicles	CPCONLY	F05B2240/9113		254
+F05B2240/912	10	on a tower<br><br><u>WARNING</u><br>Group F05B2240/912 is impacted by reclassification into groups F03D13/201 and F03D13/202.<br>Groups F05B2240/912, F03D13/201 and F03D13/202 should be considered in order to perform a complete search.	CPCONLY	F05B2240/912		1131
+F05B2240/9121	11	on a lattice tower<br><br><u>WARNING</u><br>Group F05B2240/9121 is impacted by reclassification into group F03D13/203.<br>Groups F05B2240/9121 and F03D13/203 should be considered in order to perform a complete search.	CPCONLY	F05B2240/9121		303
+F05B2240/913	10	on a mast<br><br><u>WARNING</u><br>Group F05B2240/913 is impacted by reclassification into group F03D13/2005.<br>Groups F05B2240/913 and F03D13/2005 should be considered in order to perform a complete search.	CPCONLY	F05B2240/913		241
+F05B2240/914	10	on an inflatable structure	CPCONLY	F05B2240/914		25
+F05B2240/915	10	which is vertically adjustable	CPCONLY	F05B2240/915		146
+F05B2240/9151	11	telescopically	CPCONLY	F05B2240/9151		208
+F05B2240/9152	11	by being hinged	CPCONLY	F05B2240/9152		99
+F05B2240/91521	12	at ground level	CPCONLY	F05B2240/91521		109
+F05B2240/916	10	with provision for hoisting onto the structure	CPCONLY	F05B2240/916		391
+F05B2240/917	10	attached to cables<br><br><u>WARNING</u><br>Group F05B2240/917 is impacted by reclassification into group F03D9/322.<br>Groups F05B2240/917 and F03D9/322 should be considered in order to perform a complete search.	CPCONLY	F05B2240/917		422
+F05B2240/9172	11	of kite type with traction and retraction<br><br><u>WARNING</u><br>Group F05B2240/9172 is impacted by reclassification into group F03D5/015.<br>Groups F05B2240/9172 and F03D5/015 should be considered in order to perform a complete search.	CPCONLY	F05B2240/9172		52
+F05B2240/9174	11	of kite type with a turbine and a flying pattern<br><br><u>WARNING</u><br>Group F05B2240/9174 is impacted by reclassification into group F03D9/324.<br>Groups F05B2240/9174 and F03D9/324 should be considered in order to perform a complete search.	CPCONLY	F05B2240/9174		17
+F05B2240/9176	11	Wing, kites or buoyant bodies with a turbine attached without flying pattern<br><br><u>WARNING</u><br>Group F05B2240/9176 is impacted by reclassification into group F03D9/322.<br>Groups F05B2240/9176 and F03D9/322 should be considered in order to perform a complete search.	CPCONLY	F05B2240/9176		76
+F05B2240/92	9	on an airbourne structure<br><br><u>WARNING</u><br>Group F05B2240/92 is impacted by reclassification into group F03D9/322.<br>Groups F05B2240/92 and F03D9/322 should be considered in order to perform a complete search.	CPCONLY	F05B2240/92		73
+F05B2240/921	10	kept aloft due to aerodynamic effects<br><br><u>WARNING</u><br>Group F05B2240/921 is impacted by reclassification into group F03D9/322.<br>Groups F05B2240/921 and F03D9/322 should be considered in order to perform a complete search.	CPCONLY	F05B2240/921		399
+F05B2240/922	10	kept aloft due to buoyancy effects<br><br><u>WARNING</u><br>Group F05B2240/922 is impacted by reclassification into group F03D9/322.<br>Groups F05B2240/922 and F03D9/322 should be considered in order to perform a complete search.	CPCONLY	F05B2240/922		251
+F05B2240/923	10	which is a vehicle<br><br><u>WARNING</u><br>Group F05B2240/923 is impacted by reclassification into group F03D9/322.<br>Groups F05B2240/923 and F03D9/322 should be considered in order to perform a complete search.	CPCONLY	F05B2240/923		119
+F05B2240/93	9	on a structure floating on a liquid surface<br><br><u>WARNING</u><br>Group F05B2240/93 is impacted by reclassification into groups F03D13/256 and F03D7/0202.<br>Groups F05B2240/93, F03D13/256 and F03D7/0202 should be considered in order to perform a complete search.	CPCONLY	F05B2240/93		2227
+F05B2240/931	10	which is a vehicle<br><br><u>WARNING</u><br>Group F05B2240/931 is impacted by reclassification into groups F03D13/256 and F03D7/0202.<br>Groups F05B2240/931, F03D13/256 and F03D7/0202 should be considered in order to perform a complete search.	CPCONLY	F05B2240/931		531
+F05B2240/932	10	which is a catamaran-like structure<br><br><u>WARNING</u><br>Group F05B2240/932 is impacted by reclassification into groups F03D13/256 and F03D7/0202.<br>Groups F05B2240/932, F03D13/256 and F03D7/0202 should be considered in order to perform a complete search.	CPCONLY	F05B2240/932		323
+F05B2240/94	9	on a movable wheeled structure	CPCONLY	F05B2240/94		185
+F05B2240/941	10	which is a land vehicle	CPCONLY	F05B2240/941		978
+F05B2240/95	9	offshore	CPCONLY	F05B2240/95		2380
+F05B2240/96	9	as part of a wind turbine farm	CPCONLY	F05B2240/96		362
+F05B2240/965	9	as part of a water turbine farm	CPCONLY	F05B2240/965		9
+F05B2240/97	9	on a submerged structure	CPCONLY	F05B2240/97		1325
+F05B2240/98	9	which is inflatable	CPCONLY	F05B2240/98		84
+F05B2240/99	8	characterised by colour or colour patterns	CPCONLY	F05B2240/99		36
+F05B2250/00	7	Geometry<br><br><u>NOTE</u><br><br>Geometry indicates the shape or form of a component or the configuration or arrangement of components in a machine or in a plant.	CPCONLY	F05B2250/00		22
+F05B2250/02	8	variable	CPCONLY	F05B2250/02		95
+F05B2250/10	8	two-dimensional	CPCONLY	F05B2250/10		4
+F05B2250/11	9	triangular	CPCONLY	F05B2250/11		114
+F05B2250/12	9	rectangular	CPCONLY	F05B2250/12		81
+F05B2250/121	10	square	CPCONLY	F05B2250/121		30
+F05B2250/13	9	trapezial	CPCONLY	F05B2250/13		35
+F05B2250/131	10	polygonal	CPCONLY	F05B2250/131		69
+F05B2250/132	10	hexagonal	CPCONLY	F05B2250/132		54
+F05B2250/14	9	elliptical	CPCONLY	F05B2250/14		78
+F05B2250/141	10	circular	CPCONLY	F05B2250/141		142
+F05B2250/15	9	spiral	CPCONLY	F05B2250/15		225
+F05B2250/16	9	parabolic	CPCONLY	F05B2250/16		28
+F05B2250/17	9	hyperbolic	CPCONLY	F05B2250/17		6
+F05B2250/18	9	patterned	CPCONLY	F05B2250/18		18
+F05B2250/181	10	ridged	CPCONLY	F05B2250/181		7
+F05B2250/182	10	crenellated, notched	CPCONLY	F05B2250/182		41
+F05B2250/183	10	zigzag	CPCONLY	F05B2250/183		88
+F05B2250/184	10	sinusoidal	CPCONLY	F05B2250/184		34
+F05B2250/19	9	machined; miscellaneous	CPCONLY	F05B2250/19		8
+F05B2250/191	10	perforated	CPCONLY	F05B2250/191		14
+F05B2250/192	10	beveled	CPCONLY	F05B2250/192		33
+F05B2250/193	10	milled	CPCONLY	F05B2250/193		
+F05B2250/20	8	three-dimensional	CPCONLY	F05B2250/20		43
+F05B2250/21	9	pyramidal	CPCONLY	F05B2250/21		48
+F05B2250/22	9	parallelepipedic	CPCONLY	F05B2250/22		16
+F05B2250/221	10	cubic	CPCONLY	F05B2250/221		9
+F05B2250/23	9	prismatic	CPCONLY	F05B2250/23		33
+F05B2250/231	10	cylindrical	CPCONLY	F05B2250/231		209
+F05B2250/232	10	conical	CPCONLY	F05B2250/232		356
+F05B2250/24	9	ellipsoidal	CPCONLY	F05B2250/24		42
+F05B2250/241	10	spherical	CPCONLY	F05B2250/241		126
+F05B2250/25	9	helical	CPCONLY	F05B2250/25		787
+F05B2250/26	9	paraboloidal	CPCONLY	F05B2250/26		13
+F05B2250/27	9	hyperboloidal	CPCONLY	F05B2250/27		18
+F05B2250/28	9	patterned	CPCONLY	F05B2250/28		11
+F05B2250/281	10	threaded	CPCONLY	F05B2250/281		11
+F05B2250/282	10	Cubic pattern	CPCONLY	F05B2250/282		2
+F05B2250/283	10	Honeycomb	CPCONLY	F05B2250/283		53
+F05B2250/29	9	machined; miscellaneous	CPCONLY	F05B2250/29		5
+F05B2250/291	10	hollowed	CPCONLY	F05B2250/291		8
+F05B2250/292	10	tapered	CPCONLY	F05B2250/292		94
+F05B2250/293	10	lathed, e.g. rotation symmetrical	CPCONLY	F05B2250/293		5
+F05B2250/30	8	Arrangement of components	CPCONLY	F05B2250/30		26
+F05B2250/31	9	according to the direction of their main axis or their axis of rotation	CPCONLY	F05B2250/31		15
+F05B2250/311	10	the axes being in line	CPCONLY	F05B2250/311		133
+F05B2250/312	10	the axes being parallel to each other	CPCONLY	F05B2250/312		70
+F05B2250/313	10	the axes being perpendicular to each other	CPCONLY	F05B2250/313		34
+F05B2250/314	10	the axes being inclined in relation to each other	CPCONLY	F05B2250/314		142
+F05B2250/315	10	the main axis being substantially vertical	CPCONLY	F05B2250/315		95
+F05B2250/32	9	according to their shape	CPCONLY	F05B2250/32		2
+F05B2250/321	10	asymptotic	CPCONLY	F05B2250/321		1
+F05B2250/322	10	tangential	CPCONLY	F05B2250/322		38
+F05B2250/323	10	convergent	CPCONLY	F05B2250/323		62
+F05B2250/324	10	divergent	CPCONLY	F05B2250/324		37
+F05B2250/33	9	symmetrical	CPCONLY	F05B2250/33		67
+F05B2250/34	9	translated	CPCONLY	F05B2250/34		34
+F05B2250/35	9	rotated	CPCONLY	F05B2250/35		14
+F05B2250/36	9	in inner-outer relationship, e.g. shaft-bearing arrangements	CPCONLY	F05B2250/36		31
+F05B2250/40	8	Movement of component	CPCONLY	F05B2250/40		68
+F05B2250/41	9	with one degree of freedom	CPCONLY	F05B2250/41		87
+F05B2250/411	10	in rotation	CPCONLY	F05B2250/411		175
+F05B2250/42	9	with two degrees of freedom	CPCONLY	F05B2250/42		45
+F05B2250/43	9	with three degrees of freedom	CPCONLY	F05B2250/43		25
+F05B2250/44	9	one element moving inside another one, e.g. wave-operated member (wom) moving inside another member (rem)	CPCONLY	F05B2250/44		245
+F05B2250/50	8	Inlet or outlet	CPCONLY	F05B2250/50		47
+F05B2250/501	9	Inlet	CPCONLY	F05B2250/501		59
+F05B2250/5011	10	augmenting, i.e. with intercepting fluid flow cross sectional area greater than the rest of the machine behind the inlet<br><br><u>WARNING</u><br>Group F05B2250/5011 is impacted by reclassification into group F03D1/041.<br>Groups F05B2250/5011 and F03D1/041 should be considered in order to perform a complete search.	CPCONLY	F05B2250/5011		166
+F05B2250/5012	10	concentrating only, i.e. with intercepting fluid flow cross sectional area not greater than the rest of the machine behind the inlet<br><br><u>WARNING</u><br>Group F05B2250/5012 is impacted by reclassification into group F03D1/044.<br>Groups F05B2250/5012 and F03D1/044 should be considered in order to perform a complete search.	CPCONLY	F05B2250/5012		61
+F05B2250/502	9	Outlet	CPCONLY	F05B2250/502		83
+F05B2250/503	9	of regenerative pumps	CPCONLY	F05B2250/503		121
+F05B2250/60	8	Structure; Surface texture	CPCONLY	F05B2250/60		41
+F05B2250/61	9	corrugated	CPCONLY	F05B2250/61		55
+F05B2250/611	10	undulated	CPCONLY	F05B2250/611		49
+F05B2250/62	9	smooth	CPCONLY	F05B2250/62		29
+F05B2250/621	10	polished	CPCONLY	F05B2250/621		4
+F05B2250/70	8	Shape	CPCONLY	F05B2250/70		166
+F05B2250/71	9	curved	CPCONLY	F05B2250/71		190
+F05B2250/711	10	convex	CPCONLY	F05B2250/711		111
+F05B2250/712	10	concave	CPCONLY	F05B2250/712		140
+F05B2250/713	10	inflexed	CPCONLY	F05B2250/713		26
+F05B2250/72	9	symmetric	CPCONLY	F05B2250/72		126
+F05B2250/73	9	asymmetric	CPCONLY	F05B2250/73		30
+F05B2250/80	8	Size or power range of the machines	CPCONLY	F05B2250/80		27
+F05B2250/82	9	Micromachines	CPCONLY	F05B2250/82		113
+F05B2250/84	9	Nanomachines	CPCONLY	F05B2250/84		25
+F05B2250/86	9	Megamachines	CPCONLY	F05B2250/86		6
+F05B2260/00	7	Function	CPCONLY	F05B2260/00		4
+F05B2260/02	8	Transport, e.g. specific adaptations or devices for conveyance	CPCONLY	F05B2260/02		309
+F05B2260/04	8	Deployment, e.g. installing underwater structures	CPCONLY	F05B2260/04		37
+F05B2260/10	8	Particular cycles	CPCONLY	F05B2260/10		5
+F05B2260/20	8	Heat transfer, e.g. cooling<br><br><u>WARNING</u><br>Group F05B2260/20 is impacted by reclassification into groups F03D80/601 and F03D80/602.<br>Groups F05B2260/20, F03D80/601 and F03D80/602 should be considered in order to perform a complete search.	CPCONLY	F05B2260/20		524
+F05B2260/201	9	by impingement of a fluid	CPCONLY	F05B2260/201		128
+F05B2260/202	9	by film cooling	CPCONLY	F05B2260/202		73
+F05B2260/203	9	by transpiration cooling	CPCONLY	F05B2260/203		11
+F05B2260/205	9	Cooling fluid recirculation, i.e. after having cooled one or more components the cooling fluid is recovered and used elsewhere for other purposes<br><br><u>WARNING</u><br>Group F05B2260/205 is impacted by reclassification into group F03D80/602.<br>Groups F05B2260/205 and F03D80/602 should be considered in order to perform a complete search.	CPCONLY	F05B2260/205		94
+F05B2260/207	9	using a phase changing mass, e.g. heat absorbing by melting or boiling<br><br><u>WARNING</u><br>Group F05B2260/207 is impacted by reclassification into group F03D80/602.<br>Groups F05B2260/207 and F03D80/602 should be considered in order to perform a complete search.	CPCONLY	F05B2260/207		11
+F05B2260/208	9	using heat pipes	CPCONLY	F05B2260/208		27
+F05B2260/209	9	using vortex tubes	CPCONLY	F05B2260/209		8
+F05B2260/211	9	by intercooling, e.g. during a compression cycle	CPCONLY	F05B2260/211		15
+F05B2260/212	10	by water injection	CPCONLY	F05B2260/212		12
+F05B2260/221	9	Improvement of heat transfer<br><br><u>WARNING</u><br>Group F05B2260/221 is impacted by reclassification into groups F03D80/601 and F03D80/602.<br>Groups F05B2260/221, F03D80/601 and F03D80/602 should be considered in order to perform a complete search.	CPCONLY	F05B2260/221		54
+F05B2260/222	10	by creating turbulence<br><br><u>WARNING</u><br>Group F05B2260/222 is impacted by reclassification into groups F03D80/601 and F03D80/602.<br>Groups F05B2260/222, F03D80/601 and F03D80/602 should be considered in order to perform a complete search.	CPCONLY	F05B2260/222		47
+F05B2260/224	10	by increasing the heat transfer surface<br><br><u>WARNING</u><br>Group F05B2260/224 is impacted by reclassification into groups F03D80/601 and F03D80/602.<br>Groups F05B2260/224, F03D80/601 and F03D80/602 should be considered in order to perform a complete search.	CPCONLY	F05B2260/224		6
+F05B2260/2241	11	using fins or ribs<br><br><u>WARNING</u><br>Group F05B2260/2241 is impacted by reclassification into groups F03D80/601 and F03D80/602.<br>Groups F05B2260/2241, F03D80/601 and F03D80/602 should be considered in order to perform a complete search.	CPCONLY	F05B2260/2241		71
+F05B2260/231	9	Preventing heat transfer	CPCONLY	F05B2260/231		28
+F05B2260/232	9	characterised by the cooling medium	CPCONLY	F05B2260/232		56
+F05B2260/233	10	the medium being steam	CPCONLY	F05B2260/233		21
+F05B2260/24	9	for draft enhancement in chimneys, using solar or other heat sources	CPCONLY	F05B2260/24		209
+F05B2260/30	8	Retaining components in desired mutual position<br><br><u>WARNING</u><br>Group F05B2260/30 is impacted by reclassification into group F03D1/066.<br>Groups F05B2260/30 and F03D1/066 should be considered in order to perform a complete search.	CPCONLY	F05B2260/30		523
+F05B2260/301	9	Retaining bolts or nuts<br><br><u>WARNING</u><br>Group F05B2260/301 is impacted by reclassification into group F03D1/066.<br>Groups F05B2260/301 and F03D1/066 should be considered in order to perform a complete search.	CPCONLY	F05B2260/301		931
+F05B2260/3011	10	of the frangible or shear type<br><br><u>WARNING</u><br>Group F05B2260/3011 is impacted by reclassification into group F03D1/066.<br>Groups F05B2260/3011 and F03D1/066 should be considered in order to perform a complete search.	CPCONLY	F05B2260/3011		121
+F05B2260/302	9	by means of magnetic or electromagnetic forces	CPCONLY	F05B2260/302		54
+F05B2260/303	9	with a bayonet coupling	CPCONLY	F05B2260/303		42
+F05B2260/304	9	Balancing of radial or axial forces on regenerative rotors	CPCONLY	F05B2260/304		3
+F05B2260/305	9	Reducing friction between regenerative impeller discs and casing walls	CPCONLY	F05B2260/305		4
+F05B2260/31	9	Locking rotor in position<br><br><u>WARNING</u><br>Group F05B2260/31 is impacted by reclassification into group F03D80/505.<br>Groups F05B2260/31 and F03D80/505 should be considered in order to perform a complete search.	CPCONLY	F05B2260/31		170
+F05B2260/40	8	Transmission of power	CPCONLY	F05B2260/40		689
+F05B2260/402	9	through friction drives<br><br><u>WARNING</u><br>Group F05B2260/402 is impacted by reclassification into group F03D15/201.<br>Groups F05B2260/402 and F03D15/201 should be considered in order to perform a complete search.	CPCONLY	F05B2260/402		114
+F05B2260/4021	10	through belt drives<br><br><u>WARNING</u><br>Group F05B2260/4021 is impacted by reclassification into group F03D15/201.<br>Groups F05B2260/4021 and F03D15/201 should be considered in order to perform a complete search.	CPCONLY	F05B2260/4021		374
+F05B2260/4022	10	through endless chains<br><br><u>WARNING</u><br>Group F05B2260/4022 is impacted by reclassification into group F03D15/201.<br>Groups F05B2260/4022 and F03D15/201 should be considered in order to perform a complete search.	CPCONLY	F05B2260/4022		128
+F05B2260/4023	10	through a friction clutch<br><br><u>WARNING</u><br>Group F05B2260/4023 is impacted by reclassification into group F03D15/201.<br>Groups F05B2260/4023 and F03D15/201 should be considered in order to perform a complete search.	CPCONLY	F05B2260/4023		115
+F05B2260/403	9	through the shape of the drive components	CPCONLY	F05B2260/403		246
+F05B2260/4031	10	as in toothed gearing	CPCONLY	F05B2260/4031		1652
+F05B2260/40311	11	of the epicyclic, planetary or differential type<br><br><u>WARNING</u><br>Group F05B2260/40311 is impacted by reclassification into group F03D15/101.<br>Groups F05B2260/40311 and F03D15/101 should be considered in order to perform a complete search.	CPCONLY	F05B2260/40311		831
+F05B2260/40312	11	Ratchet wheels	CPCONLY	F05B2260/40312		67
+F05B2260/404	9	through magnetic drive coupling	CPCONLY	F05B2260/404		88
+F05B2260/4041	10	the driven magnets encircling the driver magnets	CPCONLY	F05B2260/4041		27
+F05B2260/406	9	through hydraulic systems<br><br><u>WARNING</u><br>Group F05B2260/406 is impacted by reclassification into group F03D15/202.<br>Groups F05B2260/406 and F03D15/202 should be considered in order to perform a complete search.	CPCONLY	F05B2260/406		1000
+F05B2260/407	9	through piezoelectric conversion	CPCONLY	F05B2260/407		45
+F05B2260/408	9	through magnetohydrodynamic conversion	CPCONLY	F05B2260/408		14
+F05B2260/42	8	Storage of energy	CPCONLY	F05B2260/42		488
+F05B2260/421	9	in the form of rotational kinetic energy, e.g. in flywheels	CPCONLY	F05B2260/421		260
+F05B2260/422	9	in the form of potential energy, e.g. pressurized or pumped fluid	CPCONLY	F05B2260/422		221
+F05B2260/50	8	Kinematic linkage, i.e. transmission of position<br><br><u>WARNING</u><br>Group F05B2260/50 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/50, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/50		176
+F05B2260/502	9	involving springs<br><br><u>WARNING</u><br>Group F05B2260/502 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/502, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/502		276
+F05B2260/503	9	using gears<br><br><u>WARNING</u><br>Group F05B2260/503 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/503, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/503		439
+F05B2260/5032	10	of the bevel or angled type<br><br><u>WARNING</u><br>Group F05B2260/5032 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/5032, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/5032		136
+F05B2260/504	9	using flat or V-belts and pulleys<br><br><u>WARNING</u><br>Group F05B2260/504 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/504, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/504		272
+F05B2260/505	9	using chains and sprockets; using toothed belts<br><br><u>WARNING</u><br>Group F05B2260/505 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/505, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/505		329
+F05B2260/506	9	using cams or eccentrics<br><br><u>WARNING</u><br>Group F05B2260/506 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/506, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/506		233
+F05B2260/507	9	using servos, independent actuators, etc.<br><br><u>WARNING</u><br>Group F05B2260/507 is impacted by reclassification into groups F03D1/0662 and F03D1/0664.<br>Groups F05B2260/507, F03D1/0662 and F03D1/0664 should be considered in order to perform a complete search.	CPCONLY	F05B2260/507		89
+F05B2260/60	8	Fluid transfer	CPCONLY	F05B2260/60		648
+F05B2260/601	9	using an ejector or a jet pump	CPCONLY	F05B2260/601		73
+F05B2260/602	9	Drainage	CPCONLY	F05B2260/602		94
+F05B2260/603	10	of leakage having past a seal	CPCONLY	F05B2260/603		35
+F05B2260/604	9	Vortex non-clogging type pumps	CPCONLY	F05B2260/604		4
+F05B2260/63	9	Preventing clogging or obstruction of flow paths by dirt, dust, or foreign particles	CPCONLY	F05B2260/63		111
+F05B2260/64	9	Aeration, ventilation, dehumidification or moisture removal of closed spaces	CPCONLY	F05B2260/64		214
+F05B2260/70	8	Adjusting of angle of incidence or attack of rotating blades<br><br><u>WARNING</u><br>Group F05B2260/70 is impacted by reclassification into groups F03D1/0664 and F03D1/0667.<br>Groups F05B2260/70, F03D1/0664 and F03D1/0667 should be considered in order to perform a complete search.	CPCONLY	F05B2260/70		267
+F05B2260/71	9	as a function of flow velocity	CPCONLY	F05B2260/71		80
+F05B2260/72	9	by turning around an axis parallel to the rotor centre line	CPCONLY	F05B2260/72		1163
+F05B2260/74	9	by turning around an axis perpendicular the rotor centre line	CPCONLY	F05B2260/74		1309
+F05B2260/75	9	the adjusting mechanism not using auxiliary power sources, e.g. servos<br><br><u>WARNING</u><br>Group F05B2260/75 is impacted by reclassification into groups F03D1/0664 and F03D1/0667.<br>Groups F05B2260/75, F03D1/0664 and F03D1/0667 should be considered in order to perform a complete search.	CPCONLY	F05B2260/75		350
+F05B2260/76	9	the adjusting mechanism using auxiliary power sources<br><br><u>WARNING</u><br>Group F05B2260/76 is impacted by reclassification into groups F03D1/0664, F03D1/0667, F03D1/0669 and F03D1/0671.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/76		696
+F05B2260/77	9	the adjusting mechanism driven or triggered by centrifugal forces<br><br><u>WARNING</u><br>Group F05B2260/77 is impacted by reclassification into groups F03D1/0664 and F03D1/0667.<br>Groups F05B2260/77, F03D1/0664 and F03D1/0667 should be considered in order to perform a complete search.	CPCONLY	F05B2260/77		514
+F05B2260/78	9	the adjusting mechanism driven or triggered by aerodynamic forces<br><br><u>WARNING</u><br>Group F05B2260/78 is impacted by reclassification into groups F03D1/0664 and F03D1/0667.<br>Groups F05B2260/78, F03D1/0664 and F03D1/0667 should be considered in order to perform a complete search.	CPCONLY	F05B2260/78		145
+F05B2260/79	9	Bearing, support or actuation arrangements therefor<br><br><u>WARNING</u><br>Group F05B2260/79 is impacted by reclassification into groups F03D1/0664, F03D1/0667, F03D1/0669, F03D1/0671 and F03D80/701.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/79		677
+F05B2260/80	8	Diagnostics<br><br><u>WARNING</u><br>Group F05B2260/80 is impacted by reclassification into groups F03D17/001, F03D17/004, F03D17/005, F03D17/006, F03D17/0065, F03D17/009, F03D17/011, F03D17/014, F03D17/015, F03D17/027, F03D17/028, F03D17/032, F03D17/034 and F03D17/036.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/80		1061
+F05B2260/82	8	Forecasts<br><br><u>WARNING</u><br>Group F05B2260/82 is impacted by reclassification into groups F03D17/005, F03D17/006 and F03D17/0065.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/82		148
+F05B2260/821	9	Parameter estimation or prediction<br><br><u>WARNING</u><br>Group F05B2260/821 is impacted by reclassification into groups F03D17/005, F03D17/006 and F03D17/0065.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/821		405
+F05B2260/8211	10	of the weather<br><br><u>WARNING</u><br>Group F05B2260/8211 is impacted by reclassification into groups F03D17/005, F03D17/006 and F03D17/0065.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/8211		122
+F05B2260/83	8	Testing, e.g. methods, components or tools therefor<br><br><u>WARNING</u><br>Group F05B2260/83 is impacted by reclassification into groups F03D17/001, F03D17/002, F03D17/003 and F03D17/004.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/83		444
+F05B2260/84	8	Modelling or simulation<br><br><u>WARNING</u><br>Group F05B2260/84 is impacted by reclassification into groups F03D17/005, F03D17/006 and F03D17/0065.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/84		582
+F05B2260/845	8	Redundancy	CPCONLY	F05B2260/845		121
+F05B2260/85	8	Starting	CPCONLY	F05B2260/85		122
+F05B2260/87	8	Using a generator as a motor	CPCONLY	F05B2260/87		31
+F05B2260/90	8	Braking	CPCONLY	F05B2260/90		151
+F05B2260/901	9	using aerodynamic forces, i.e. lift or drag	CPCONLY	F05B2260/901		77
+F05B2260/9011	10	of the tips of rotor blades	CPCONLY	F05B2260/9011		38
+F05B2260/902	9	using frictional mechanical forces	CPCONLY	F05B2260/902		291
+F05B2260/903	9	using electrical or magnetic forces	CPCONLY	F05B2260/903		113
+F05B2260/904	9	using hydrodynamic forces	CPCONLY	F05B2260/904		41
+F05B2260/95	8	Preventing corrosion	CPCONLY	F05B2260/95		99
+F05B2260/96	8	Preventing, counteracting or reducing vibration or noise<br><br><u>WARNING</u><br>Group F05B2260/96 is impacted by reclassification into group F03D80/005.<br>Groups F05B2260/96 and F03D80/005 should be considered in order to perform a complete search.	CPCONLY	F05B2260/96		1641
+F05B2260/962	9	by means creating "anti-noise"<br><br><u>WARNING</u><br>Group F05B2260/962 is impacted by reclassification into group F03D80/005.<br>Groups F05B2260/962 and F03D80/005 should be considered in order to perform a complete search.	CPCONLY	F05B2260/962		338
+F05B2260/964	9	by damping means<br><br><u>WARNING</u><br>Group F05B2260/964 is impacted by reclassification into group F03D80/005.<br>Groups F05B2260/964 and F03D80/005 should be considered in order to perform a complete search.	CPCONLY	F05B2260/964		453
+F05B2260/966	9	by correcting static or dynamic imbalance<br><br><u>WARNING</u><br>Group F05B2260/966 is impacted by reclassification into group F03D80/005.<br>Groups F05B2260/966 and F03D80/005 should be considered in order to perform a complete search.	CPCONLY	F05B2260/966		90
+F05B2260/97	8	Reducing windage losses	CPCONLY	F05B2260/97		43
+F05B2260/972	9	in radial flow machines	CPCONLY	F05B2260/972		1
+F05B2260/98	8	Lubrication<br><br><u>WARNING</u><br>Group F05B2260/98 is impacted by reclassification into groups F03D80/705, F03D80/707 and F03D80/709.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2260/98		388
+F05B2260/99	8	Radar absorption	CPCONLY	F05B2260/99		49
+F05B2270/00	7	Control	CPCONLY	F05B2270/00		23
+F05B2270/10	8	Purpose of the control system	CPCONLY	F05B2270/10		29
+F05B2270/101	9	to control rotational speed (n)<br><br><u>WARNING</u><br>Group F05B2270/101 is impacted by reclassification into group F03D7/065.<br>Groups F05B2270/101 and F03D7/065 should be considered in order to perform a complete search.	CPCONLY	F05B2270/101		497
+F05B2270/1011	10	to prevent overspeed<br><br><u>WARNING</u><br>Group F05B2270/1011 is impacted by reclassification into group F03D7/065.<br>Groups F05B2270/1011 and F03D7/065 should be considered in order to perform a complete search.	CPCONLY	F05B2270/1011		273
+F05B2270/1012	10	to prevent underspeed<br><br><u>WARNING</u><br>Group F05B2270/1012 is impacted by reclassification into group F03D7/065.<br>Groups F05B2270/1012 and F03D7/065 should be considered in order to perform a complete search.	CPCONLY	F05B2270/1012		34
+F05B2270/1013	10	of different spools or shafts	CPCONLY	F05B2270/1013		9
+F05B2270/1014	10	to keep rotational speed constant<br><br><u>WARNING</u><br>Group F05B2270/1014 is impacted by reclassification into group F03D7/065.<br>Groups F05B2270/1014 and F03D7/065 should be considered in order to perform a complete search.	CPCONLY	F05B2270/1014		79
+F05B2270/1016	9	in variable speed operation	CPCONLY	F05B2270/1016		206
+F05B2270/102	9	to control acceleration (u)	CPCONLY	F05B2270/102		18
+F05B2270/1021	10	by keeping it below damagingly high values	CPCONLY	F05B2270/1021		11
+F05B2270/1022	10	by making it as high as possible	CPCONLY	F05B2270/1022		2
+F05B2270/103	9	to affect the output of the engine	CPCONLY	F05B2270/103		41
+F05B2270/1031	10	Thrust	CPCONLY	F05B2270/1031		26
+F05B2270/1032	10	Torque	CPCONLY	F05B2270/1032		141
+F05B2270/1033	10	Power (if explicitly mentioned)	CPCONLY	F05B2270/1033		640
+F05B2270/104	9	to match engine to driven device	CPCONLY	F05B2270/104		26
+F05B2270/1041	10	in particular the electrical frequency of driven generator	CPCONLY	F05B2270/1041		36
+F05B2270/107	9	to cope with emergencies	CPCONLY	F05B2270/107		334
+F05B2270/1071	10	in particular sudden load loss	CPCONLY	F05B2270/1071		90
+F05B2270/10711	11	applying a low voltage ride through method	CPCONLY	F05B2270/10711		54
+F05B2270/1072	10	in particular blow-out and relight	CPCONLY	F05B2270/1072		
+F05B2270/1073	10	of one engine in a multi-engine system	CPCONLY	F05B2270/1073		2
+F05B2270/1074	10	by using back-up controls	CPCONLY	F05B2270/1074		91
+F05B2270/1075	10	by temporary overriding set control limits	CPCONLY	F05B2270/1075		22
+F05B2270/1076	10	caused by water or hail ingestion	CPCONLY	F05B2270/1076		2
+F05B2270/1077	10	Storm protection	CPCONLY	F05B2270/1077		47
+F05B2270/109	9	to prolong engine life	CPCONLY	F05B2270/109		53
+F05B2270/1091	10	by limiting temperatures	CPCONLY	F05B2270/1091		25
+F05B2270/1095	10	by limiting mechanical stresses	CPCONLY	F05B2270/1095		223
+F05B2270/1097	10	by preventing reverse rotation	CPCONLY	F05B2270/1097		41
+F05B2270/11	9	to maintain desired vehicle trajectory parameters	CPCONLY	F05B2270/11		9
+F05B2270/111	9	to control two or more engines simultaneously	CPCONLY	F05B2270/111		40
+F05B2270/17	9	to avoid excessive deflection of the blades<br><br><u>WARNING</u><br>Group F05B2270/17 is impacted by reclassification into groups F03D17/028 and F03D17/034. <br>Groups F05B2270/17, F03D17/028 and F03D17/034 should be considered in order to perform a complete search.	CPCONLY	F05B2270/17		68
+F05B2270/18	9	to control buoyancy<br><br><u>WARNING</u><br>Group F05B2270/18 is impacted by reclassification into groups F03D7/0202 and F03D7/051.<br>Groups F05B2270/18, F03D7/0202 and F03D7/051 should be considered in order to perform a complete search.	CPCONLY	F05B2270/18		182
+F05B2270/19	9	to avoid stroboscopic flicker shadow on surroundings	CPCONLY	F05B2270/19		16
+F05B2270/20	9	to optimise the performance of a machine<br><br><u>WARNING</u><br>Group F05B2270/20 is impacted by reclassification into group F03D80/002.<br>Groups F05B2270/20 and F03D80/002 should be considered in order to perform a complete search.	CPCONLY	F05B2270/20		504
+F05B2270/202	10	Tuning to wave conditions	CPCONLY	F05B2270/202		110
+F05B2270/204	10	taking into account the wake effect<br><br><u>WARNING</u><br>Group F05B2270/204 is impacted by reclassification into groups F03D17/008, F03D80/002 and F03D7/049.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2270/204		144
+F05B2270/30	8	Control parameters, e.g. input parameters	CPCONLY	F05B2270/30		155
+F05B2270/301	9	Pressure	CPCONLY	F05B2270/301		165
+F05B2270/3011	10	Inlet	CPCONLY	F05B2270/3011		11
+F05B2270/3013	10	Outlet	CPCONLY	F05B2270/3013		19
+F05B2270/3015	10	differential	CPCONLY	F05B2270/3015		43
+F05B2270/303	9	Temperature<br><br><u>WARNING</u><br>Group F05B2270/303 is impacted by reclassification into group F03D17/018.<br>Groups F05B2270/303 and F03D17/018 should be considered in order to perform a complete search.	CPCONLY	F05B2270/303		295
+F05B2270/3032	10	excessive temperatures, e.g. caused by overheating<br><br><u>WARNING</u><br>Group F05B2270/3032 is impacted by reclassification into groups F03D17/018 and F03D17/036. <br>Groups F05B2270/3032, F03D17/018 and F03D17/036 should be considered in order to perform a complete search.	CPCONLY	F05B2270/3032		85
+F05B2270/304	9	Spool rotational speed	CPCONLY	F05B2270/304		259
+F05B2270/305	9	Tolerances	CPCONLY	F05B2270/305		26
+F05B2270/309	9	Rate of change of parameters	CPCONLY	F05B2270/309		152
+F05B2270/32	9	Wind speeds	CPCONLY	F05B2270/32		1894
+F05B2270/3201	10	"cut-off" or "shut-down" wind speed	CPCONLY	F05B2270/3201		76
+F05B2270/3202	10	"cut-in" or starting wind speed	CPCONLY	F05B2270/3202		12
+F05B2270/321	9	Wind directions	CPCONLY	F05B2270/321		1031
+F05B2270/322	9	the detection or prediction of a wind gust	CPCONLY	F05B2270/322		132
+F05B2270/323	9	Air humidity	CPCONLY	F05B2270/323		86
+F05B2270/324	9	Air pressure	CPCONLY	F05B2270/324		113
+F05B2270/325	9	Air temperature	CPCONLY	F05B2270/325		165
+F05B2270/326	9	Rotor angle	CPCONLY	F05B2270/326		206
+F05B2270/327	9	Rotor or generator speeds	CPCONLY	F05B2270/327		866
+F05B2270/328	9	Blade pitch angle<br><br><u>WARNING</u><br>Group F05B2270/328 is impacted by reclassification into group F03D17/029.<br>Groups F05B2270/328 and F03D17/029 should be considered in order to perform a complete search.	CPCONLY	F05B2270/328		1137
+F05B2270/329	9	Azimuth or yaw angle<br><br><u>WARNING</u><br>Group F05B2270/329 is impacted by reclassification into group F03D17/029.<br>Groups F05B2270/329 and F03D17/029 should be considered in order to perform a complete search.	CPCONLY	F05B2270/329		651
+F05B2270/33	9	Proximity of blade to tower<br><br><u>WARNING</u><br>Group F05B2270/33 is impacted by reclassification into groups F03D17/028 and F03D17/034.<br>Groups F05B2270/33, F03D17/028 and F03D17/034 should be considered in order to perform a complete search.	CPCONLY	F05B2270/33		140
+F05B2270/331	9	Mechanical loads<br><br><u>WARNING</u><br>Group F05B2270/331 is impacted by reclassification into group F03D17/011.<br>Groups F05B2270/331 and F03D17/011 should be considered in order to perform a complete search.	CPCONLY	F05B2270/331		458
+F05B2270/332	9	Maximum loads or fatigue criteria<br><br><u>WARNING</u><br>Group F05B2270/332 is impacted by reclassification into groups F03D17/011, F03D17/028, F03D17/0285, F03D17/029, F03D17/031, F03D17/032, F03D17/033, F03D17/034 and F03D17/036.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2270/332		232
+F05B2270/333	9	Noise or sound levels<br><br><u>WARNING</u><br>Group F05B2270/333 is impacted by reclassification into groups F03D7/0296, F03D17/024, F03D17/028, F03D17/0285, F03D17/029, F03D17/031, F03D17/032, F03D17/033, F03D17/034, F03D17/036 and F03D80/005.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2270/333		174
+F05B2270/334	9	Vibration measurements<br><br><u>WARNING</u><br>Group F05B2270/334 is impacted by reclassification into groups F03D7/0298, F03D7/0302, F03D17/015, F03D17/028, F03D17/0285, F03D17/029, F03D17/031, F03D17/032, F03D17/033, F03D17/034 and F03D17/036. <br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2270/334		449
+F05B2270/335	9	Output power or torque	CPCONLY	F05B2270/335		778
+F05B2270/336	9	Blade lift measurements	CPCONLY	F05B2270/336		27
+F05B2270/337	9	Electrical grid status parameters, e.g. voltage, frequency or power demand	CPCONLY	F05B2270/337		538
+F05B2270/34	9	Water level	CPCONLY	F05B2270/34		23
+F05B2270/341	9	Liquid flow velocity or direction	CPCONLY	F05B2270/341		23
+F05B2270/342	9	Wave conditions, e.g. amplitude, frequency or direction	CPCONLY	F05B2270/342		70
+F05B2270/40	8	Type of control system	CPCONLY	F05B2270/40		4
+F05B2270/402	9	passive or reactive, e.g. using large wind vanes	CPCONLY	F05B2270/402		124
+F05B2270/404	9	active, predictive, or anticipative	CPCONLY	F05B2270/404		348
+F05B2270/50	8	Control logic embodiment by	CPCONLY	F05B2270/50		1
+F05B2270/502	9	electrical means, e.g. relays or switches<br><br><u>WARNING</u><br>Group F05B2270/502 is impacted by reclassification into group F03D80/003.<br>Groups F05B2270/502 and F03D80/003 should be considered in order to perform a complete search.	CPCONLY	F05B2270/502		69
+F05B2270/504	9	electronic means, e.g. electronic tubes, transistors or IC&apos;s within an electronic circuit<br><br><u>WARNING</u><br>Group F05B2270/504 is impacted by reclassification into group F03D80/003.<br>Groups F05B2270/504 and F03D80/003 should be considered in order to perform a complete search.	CPCONLY	F05B2270/504		69
+F05B2270/506	9	hydraulic means, e.g. hydraulic valves within a hydraulic circuit<br><br><u>WARNING</u><br>Group F05B2270/506 is impacted by reclassification into group F03D80/003.<br>Groups F05B2270/506 and F03D80/003 should be considered in order to perform a complete search.	CPCONLY	F05B2270/506		123
+F05B2270/508	9	mechanical means, e.g. levers, gears or cams<br><br><u>WARNING</u><br>Group F05B2270/508 is impacted by reclassification into group F03D80/003.<br>Groups F05B2270/508 and F03D80/003 should be considered in order to perform a complete search.	CPCONLY	F05B2270/508		32
+F05B2270/60	8	Control system actuates through	CPCONLY	F05B2270/60		19
+F05B2270/602	9	electrical actuators<br><br><u>WARNING</u><br>Group F05B2270/602 is impacted by reclassification into group F03D1/0671.<br>Groups F05B2270/602 and F03D1/0671 should be considered in order to perform a complete search.	CPCONLY	F05B2270/602		561
+F05B2270/604	9	hydraulic actuators<br><br><u>WARNING</u><br>Group F05B2270/604 is impacted by reclassification into group F03D1/0669.<br>Groups F05B2270/604 and F03D1/0669 should be considered in order to perform a complete search.	CPCONLY	F05B2270/604		294
+F05B2270/605	9	pneumatic actuators<br><br><u>WARNING</u><br>Group F05B2270/605 is impacted by reclassification into group F03D1/0667.<br>Groups F05B2270/605 and F03D1/0667 should be considered in order to perform a complete search.	CPCONLY	F05B2270/605		65
+F05B2270/606	9	mechanical actuators (F05B2270/602 takes precedence)<br><br><u>WARNING</u><br>Group F05B2270/606 is impacted by reclassification into group F03D1/0667.<br>Groups F05B2270/606 and F03D1/0667 should be considered in order to perform a complete search.	CPCONLY	F05B2270/606		74
+F05B2270/70	8	Type of control algorithm	CPCONLY	F05B2270/70		130
+F05B2270/701	9	proportional	CPCONLY	F05B2270/701		15
+F05B2270/702	9	differential	CPCONLY	F05B2270/702		13
+F05B2270/703	9	integral	CPCONLY	F05B2270/703		16
+F05B2270/704	9	proportional-differential	CPCONLY	F05B2270/704		9
+F05B2270/705	9	proportional-integral	CPCONLY	F05B2270/705		66
+F05B2270/706	9	proportional-integral-differential	CPCONLY	F05B2270/706		101
+F05B2270/707	9	fuzzy logic	CPCONLY	F05B2270/707		35
+F05B2270/708	9	with comparison tables	CPCONLY	F05B2270/708		59
+F05B2270/709	9	with neural networks	CPCONLY	F05B2270/709		153
+F05B2270/80	8	Devices generating input signals, e.g. transducers, sensors, cameras or strain gauges	CPCONLY	F05B2270/80		238
+F05B2270/802	9	Calibration thereof<br><br><u>WARNING</u><br>Group F05B2270/802 is impacted by reclassification into group F03D17/025.<br>Groups F05B2270/802 and F03D17/025 should be considered in order to perform a complete search.	CPCONLY	F05B2270/802		174
+F05B2270/803	9	Sampling thereof	CPCONLY	F05B2270/803		21
+F05B2270/804	9	Optical devices<br><br><u>WARNING</u><br>Group F05B2270/804 is impacted by reclassification into group F03D17/003.<br>Groups F05B2270/804 and F03D17/003 should be considered in order to perform a complete search.	CPCONLY	F05B2270/804		173
+F05B2270/8041	10	Cameras<br><br><u>WARNING</u><br>Group F05B2270/8041 is impacted by reclassification into group F03D17/003.<br>Groups F05B2270/8041 and F03D17/003 should be considered in order to perform a complete search.	CPCONLY	F05B2270/8041		210
+F05B2270/8042	10	Lidar systems<br><br><u>WARNING</u><br>Group F05B2270/8042 is impacted by reclassification into group F03D17/003.<br>Groups F05B2270/8042 and F03D17/003 should be considered in order to perform a complete search.	CPCONLY	F05B2270/8042		177
+F05B2270/805	9	Radars	CPCONLY	F05B2270/805		65
+F05B2270/806	9	Sonars	CPCONLY	F05B2270/806		34
+F05B2270/807	9	Accelerometers	CPCONLY	F05B2270/807		190
+F05B2270/808	9	Strain gauges; Load cells	CPCONLY	F05B2270/808		180
+F05B2270/809	9	Encoders	CPCONLY	F05B2270/809		39
+F05B2270/81	9	Microphones<br><br><u>WARNING</u><br>Group F05B2270/81 is impacted by reclassification into group F03D17/024.<br>Groups F05B2270/81 and F03D17/024 should be considered in order to perform a complete search.	CPCONLY	F05B2270/81		57
+F05B2270/821	9	Displacement measuring means, e.g. inductive<br><br><u>WARNING</u><br>Group F05B2270/821 is impacted by reclassification into group F03D17/022.<br>Groups F05B2270/821 and F03D17/022 should be considered in order to perform a complete search.	CPCONLY	F05B2270/821		79
+F05B2280/00	7	Materials; Properties thereof	CPCONLY	F05B2280/00		7
+F05B2280/10	8	Inorganic materials, e.g. metals	CPCONLY	F05B2280/10		94
+F05B2280/101	9	Iron	CPCONLY	F05B2280/101		25
+F05B2280/1011	9	Cast iron	CPCONLY	F05B2280/1011		25
+F05B2280/102	9	Light metals	CPCONLY	F05B2280/102		4
+F05B2280/1021	10	Aluminium	CPCONLY	F05B2280/1021		109
+F05B2280/1022	10	Beryllium	CPCONLY	F05B2280/1022		1
+F05B2280/1023	10	Boron	CPCONLY	F05B2280/1023		1
+F05B2280/1024	10	Lithium	CPCONLY	F05B2280/1024		
+F05B2280/1025	10	Magnesium	CPCONLY	F05B2280/1025		7
+F05B2280/103	9	Heavy metals	CPCONLY	F05B2280/103		3
+F05B2280/10301	10	Refractory metals, e.g. V, W	CPCONLY	F05B2280/10301		4
+F05B2280/10302	10	Chromium	CPCONLY	F05B2280/10302		6
+F05B2280/10303	10	Molybdenum	CPCONLY	F05B2280/10303		2
+F05B2280/10304	10	Titanium	CPCONLY	F05B2280/10304		23
+F05B2280/10305	10	Zirconium	CPCONLY	F05B2280/10305		
+F05B2280/10306	10	Hafnium	CPCONLY	F05B2280/10306		1
+F05B2280/10307	10	Manganese	CPCONLY	F05B2280/10307		
+F05B2280/10308	10	Lead	CPCONLY	F05B2280/10308		
+F05B2280/10309	10	Tin	CPCONLY	F05B2280/10309		
+F05B2280/1031	10	Zinc	CPCONLY	F05B2280/1031		4
+F05B2280/10311	10	Mercury	CPCONLY	F05B2280/10311		
+F05B2280/104	9	Noble metals	CPCONLY	F05B2280/104		
+F05B2280/1041	10	Silver	CPCONLY	F05B2280/1041		2
+F05B2280/1042	10	Gold	CPCONLY	F05B2280/1042		3
+F05B2280/1043	10	Platinum group, e.g. Pt, Ir	CPCONLY	F05B2280/1043		1
+F05B2280/1044	10	Palladium	CPCONLY	F05B2280/1044		
+F05B2280/1045	10	Ruthenium	CPCONLY	F05B2280/1045		
+F05B2280/1046	10	Osmium	CPCONLY	F05B2280/1046		
+F05B2280/1047	10	Iridium	CPCONLY	F05B2280/1047		
+F05B2280/1048	10	Rhodium	CPCONLY	F05B2280/1048		
+F05B2280/105	9	Copper	CPCONLY	F05B2280/105		43
+F05B2280/106	9	Rare earth metals, e.g. Sc, Y	CPCONLY	F05B2280/106		11
+F05B2280/107	9	Alloys	CPCONLY	F05B2280/107		26
+F05B2280/1071	10	Steel alloys	CPCONLY	F05B2280/1071		71
+F05B2280/1072	9	Copper alloys	CPCONLY	F05B2280/1072		21
+F05B2280/10721	10	Bronze	CPCONLY	F05B2280/10721		11
+F05B2280/10722	10	Phosphor-bronze alloy	CPCONLY	F05B2280/10722		
+F05B2280/10723	10	Nickel-Copper alloy, e.g. monel	CPCONLY	F05B2280/10723		5
+F05B2280/1073	9	Aluminium alloy, e.g. AlCuMgPb	CPCONLY	F05B2280/1073		32
+F05B2280/1074	9	Alloys not otherwise provided for	CPCONLY	F05B2280/1074		12
+F05B2280/10741	10	Superalloys	CPCONLY	F05B2280/10741		6
+F05B2280/10742	10	Heat stable alloys	CPCONLY	F05B2280/10742		1
+F05B2280/10743	10	Ni - Si alloys	CPCONLY	F05B2280/10743		2
+F05B2280/10744	10	Metal-aluminide intermetalllic compounds	CPCONLY	F05B2280/10744		1
+F05B2280/20	8	Inorganic materials, e.g. non-metallic materials	CPCONLY	F05B2280/20		18
+F05B2280/2001	9	Glass	CPCONLY	F05B2280/2001		52
+F05B2280/20011	10	MIBA	CPCONLY	F05B2280/20011		
+F05B2280/20012	10	Quartz	CPCONLY	F05B2280/20012		
+F05B2280/2002	9	Phosphor	CPCONLY	F05B2280/2002		3
+F05B2280/2003	9	Silicon	CPCONLY	F05B2280/2003		12
+F05B2280/2004	9	Ceramics; Oxides	CPCONLY	F05B2280/2004		28
+F05B2280/20041	10	Aluminium oxides	CPCONLY	F05B2280/20041		5
+F05B2280/20042	10	Zinc oxides	CPCONLY	F05B2280/20042		2
+F05B2280/20043	10	Zirconium oxides	CPCONLY	F05B2280/20043		7
+F05B2280/2005	9	Non-oxide ceramics	CPCONLY	F05B2280/2005		3
+F05B2280/2006	9	Carbon, e.g. graphite	CPCONLY	F05B2280/2006		130
+F05B2280/2007	9	Carbides	CPCONLY	F05B2280/2007		6
+F05B2280/20071	10	of silicon	CPCONLY	F05B2280/20071		6
+F05B2280/20072	10	of titanium, e.g. TiB	CPCONLY	F05B2280/20072		
+F05B2280/20073	10	of wolfram, e.g. tungsten carbide	CPCONLY	F05B2280/20073		4
+F05B2280/2008	9	Nitrides	CPCONLY	F05B2280/2008		6
+F05B2280/20081	10	of aluminium	CPCONLY	F05B2280/20081		
+F05B2280/20082	10	of boron	CPCONLY	F05B2280/20082		3
+F05B2280/20083	10	of silicon	CPCONLY	F05B2280/20083		2
+F05B2280/20084	10	of titanium	CPCONLY	F05B2280/20084		1
+F05B2280/20085	10	of zirconium	CPCONLY	F05B2280/20085		
+F05B2280/2009	9	Sulfides	CPCONLY	F05B2280/2009		
+F05B2280/20091	10	of molybdenum	CPCONLY	F05B2280/20091		2
+F05B2280/201	9	Sapphire	CPCONLY	F05B2280/201		1
+F05B2280/2011	9	Aluminium titanate	CPCONLY	F05B2280/2011		
+F05B2280/2013	9	Silica	CPCONLY	F05B2280/2013		1
+F05B2280/2014	9	Arsenic	CPCONLY	F05B2280/2014		
+F05B2280/2015	9	Antimony	CPCONLY	F05B2280/2015		
+F05B2280/2016	9	Bismuth	CPCONLY	F05B2280/2016		
+F05B2280/2017	9	Barium	CPCONLY	F05B2280/2017		
+F05B2280/30	8	Inorganic materials not otherwise provided for	CPCONLY	F05B2280/30		46
+F05B2280/40	8	Organic materials	CPCONLY	F05B2280/40		50
+F05B2280/4001	9	Leather	CPCONLY	F05B2280/4001		
+F05B2280/4002	9	Cellulosic materials, e.g. wood	CPCONLY	F05B2280/4002		67
+F05B2280/4003	9	Synthetic polymers, e.g. plastics	CPCONLY	F05B2280/4003		247
+F05B2280/4004	9	Rubber	CPCONLY	F05B2280/4004		62
+F05B2280/4005	9	PTFE [PolyTetraFluorEthylene]	CPCONLY	F05B2280/4005		31
+F05B2280/4006	9	Polyamides, e.g. NYLON	CPCONLY	F05B2280/4006		40
+F05B2280/4007	9	Thermoplastics	CPCONLY	F05B2280/4007		78
+F05B2280/4009	9	Polyetherketones, e.g. PEEK	CPCONLY	F05B2280/4009		17
+F05B2280/401	9	Silicon polymers	CPCONLY	F05B2280/401		8
+F05B2280/4011	9	Organic materials not otherwise provided for	CPCONLY	F05B2280/4011		26
+F05B2280/50	8	Intrinsic material properties or characteristics	CPCONLY	F05B2280/50		75
+F05B2280/5001	9	Elasticity	CPCONLY	F05B2280/5001		146
+F05B2280/5002	9	Thermal properties	CPCONLY	F05B2280/5002		21
+F05B2280/5003	9	Expansivity	CPCONLY	F05B2280/5003		4
+F05B2280/50031	10	similar	CPCONLY	F05B2280/50031		
+F05B2280/50032	10	dissimilar	CPCONLY	F05B2280/50032		9
+F05B2280/5004	9	Heat transfer	CPCONLY	F05B2280/5004		6
+F05B2280/5005	9	Reflective properties	CPCONLY	F05B2280/5005		5
+F05B2280/5006	9	Shape memory	CPCONLY	F05B2280/5006		80
+F05B2280/5007	9	Hardness	CPCONLY	F05B2280/5007		21
+F05B2280/5008	9	Magnetic properties	CPCONLY	F05B2280/5008		62
+F05B2280/5009	9	non-magnetic	CPCONLY	F05B2280/5009		3
+F05B2280/501	9	Self lubricating materials; Solid lubricants	CPCONLY	F05B2280/501		6
+F05B2280/5011	9	Surface roughness	CPCONLY	F05B2280/5011		10
+F05B2280/60	8	Properties or characteristics given to material by treatment or manufacturing	CPCONLY	F05B2280/60		18
+F05B2280/6001	9	Fabrics	CPCONLY	F05B2280/6001		101
+F05B2280/6002	10	Woven fabrics	CPCONLY	F05B2280/6002		66
+F05B2280/6003	9	Composites; e.g. fibre-reinforced	CPCONLY	F05B2280/6003		581
+F05B2280/6004	9	amorphous	CPCONLY	F05B2280/6004		
+F05B2280/6005	9	crystalline	CPCONLY	F05B2280/6005		1
+F05B2280/6006	9	Directionally-solidified crystalline structures	CPCONLY	F05B2280/6006		
+F05B2280/6007	9	monocrystalline	CPCONLY	F05B2280/6007		
+F05B2280/6008	9	Structures	CPCONLY	F05B2280/6008		1
+F05B2280/6009	9	Grain size	CPCONLY	F05B2280/6009		1
+F05B2280/601	9	Syntactic	CPCONLY	F05B2280/601		1
+F05B2280/6011	9	Coating	CPCONLY	F05B2280/6011		119
+F05B2280/6012	9	Foam	CPCONLY	F05B2280/6012		70
+F05B2280/6013	9	Fibres	CPCONLY	F05B2280/6013		184
+F05B2280/6014	9	Filler	CPCONLY	F05B2280/6014		12
+F05B2280/6015	9	Resin	CPCONLY	F05B2280/6015		114
+F05B2280/70	8	Treatments or modification of materials	CPCONLY	F05B2280/70		2
+F05B2280/701	9	Heat treatments	CPCONLY	F05B2280/701		6
+F05B2280/702	9	Reinforcements<br><br><u>WARNING</u><br>Group F05B2280/702 is impacted by reclassification into groups F03D1/0679, F03D1/0681, F03D1/0682 and F03D1/0684.<br>All groups listed in this Warning should be considered in order to perform a complete search.	CPCONLY	F05B2280/702		81

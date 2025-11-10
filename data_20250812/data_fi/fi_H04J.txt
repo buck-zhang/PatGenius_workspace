@@ -1,0 +1,100 @@
+H04J   1/00  \	0	0	5K022	H04J   1/00	6348	周波数分割多重化方式（Ｈ０４Ｊ１４／０２が優先）［５］	Frequency-division multiplex systems () [5]
+H04J   1/02  \	1	1	5K022	H04J   1/02	445	細部	Details
+H04J   1/04  \	2	2	5K022	H04J   1/04	245	周波数変換配置	Frequency-transposition arrangements
+H04J   1/04 100 \	3	3	5K022	H04J   1/04	26	周波数転換に利用されるフィルター	filter used for converting frequency
+H04J   1/05  \	3	3	5K022	H04J   1/05	179	デジタル技術を用いるもの［３］	using digital techniques [3]
+H04J   1/06  \	2	2	5K022	H04J   1/06	160	搬送波供給配置	Arrangements for supplying the carrier waves
+H04J   1/06 100 \	3	3	5K022	H04J   1/06	53	受信端局における搬送波源と送信端局における搬送波源の同期	synchronization of carrier wave sources at reception terminal station and transmission terminal station
+H04J   1/08  \	2	2	5K022	H04J   1/08	193	チャンネル結合配置	Arrangements for combining channels
+H04J   1/08 100 \	3	3	5K022	H04J   1/08	12	終端局；変復調結合回路	end station; modulation and demodulation coupled circuit
+H04J   1/10  \	2	2	5K022	H04J   1/10	120	中間局配置，例．分岐用，傍受用	Intermediate station arrangements, e.g. for branching, for tapping-off
+H04J   1/12  \	2	2	5K022	H04J   1/12	108	チャネル間漏話低減配置	Arrangements for reducing cross-talk between channels
+H04J   1/14  \	2	2	5K022	H04J   1/14	145	呼出信号または監視信号に備えるための配置	Arrangements providing for calling or supervisory signals
+H04J   1/16  \	2	2	5K022	H04J   1/16	179	監視配置	Monitoring arrangements
+H04J   1/18  \	1	1	5K022	H04J   1/18	9	全搬送波が振幅変調されているもの（Ｈ０４Ｊ１／０２が優先）［３］	in which all the carriers are amplitude-modulated (H04J 1/02 takes precedence) [3]
+H04J   1/20  \	1	1	5K022	H04J   1/20	28	少くとも一搬送波が角度変調されているもの（Ｈ０４Ｊ１／０２が優先）［３］	in which at least one carrier is angle-modulated (H04J 1/02 takes precedence) [3]
+H04J   3/00  \	0	0	5K028	H04J   3/00	281	時分割多重化方式（Ｈ０４Ｊ１４／０８が優先）［４，５］	Time-division multiplex systems () [4,5]
+H04J   3/00  A	0	0	5K028	H04J   3/00	1286	多重化・多重分離化方式	Multiplexing or multi-separation system
+H04J   3/00  B	0	1	5K028	H04J   3/00	1157	フレ−ム構成に特徴のあるの	characterized by the frame configuration
+H04J   3/00  C	0	1	5K028	H04J   3/00	243	信号の形式に特徴のあるもの	characterized by the signal format
+H04J   3/00  D	0	2	5K028	H04J   3/00	77	ＰＡＭ信号	PAM signal
+H04J   3/00  E	0	2	5K028	H04J   3/00	165	ＰＰＭ信号	PPM signal
+H04J   3/00  F	0	2	5K028	H04J   3/00	54	ＰＷＭ信号	PWM signal
+H04J   3/00  G	0	2	5K028	H04J   3/00	68	多値信号	Many-valued signal
+H04J   3/00  H	0	0	5K028	H04J   3/00	3345	ＴＤＭＡ〔衛星通信を除く〕	TDMA (excluding satellite communication)
+H04J   3/00  J	0	1	5K028	H04J   3/00	124	ＡＧＣ	AGC
+H04J   3/00  K	0	1	5K028	H04J   3/00	545	多方向多重	Multi-direction multiplexing
+H04J   3/00  L	0	0	5K028	H04J   3/00	77	ＦＤＭよりＴＤＭへの変換	Conversion from FDM into TDM
+H04J   3/00  M	0	0	5K028	H04J   3/00	2037	映像信号の多重	Video signal multiplexing
+H04J   3/00  N	0	0	5K028	H04J   3/00	82	ＴＶ信号帰線期間中の信号多重〔文献分類〕	Signal multiplexing during the TV signal retrace line period (literary categorisation)
+H04J   3/00  P	0	0	5K028	H04J   3/00	142	商用電源波形を利用するもの	utilising the commercial power supply waveform
+H04J   3/00  Q	0	0	5K028	H04J   3/00	579	光を利用するもの〔多重に特徴のないものは，Ｈ０４Ｂ９／００〕	utilising light (not characterized by multiplexing H 04 B 9/00)
+H04J   3/00  R	0	0	5K028	H04J   3/00	587	現用・予備〔多重通信系の現用・予備切換，Ｈ０４Ｌ１／２２も分類〕	In-service/standby (change-over between in-service and standby of the multi-communication system. H 04 L 1/22 also applicable.)
+H04J   3/00  S	0	0	5K028	H04J   3/00	159	時間圧縮多重	Time compression multiplexing
+H04J   3/00  T	0	0	5K028	H04J   3/00	366	交換関連のもの〔文献分類〕	related to switching (literary categorisation)
+H04J   3/00  U	0	0	5K028	H04J   3/00	1379	新同期デジタルハイアラーキ（ＳＤＨ，ＳＯＮＥＴ）	New synchronisation digital hierarchy (SDH, SONET)
+H04J   3/00  V	0	1	5K028	H04J   3/00	365	オーバーヘッド	Overhead
+H04J   3/00  W	0	2	5K028	H04J   3/00	242	ポインタ	Pointer
+H04J   3/00  X	0	0	5K028	H04J   3/00	240	クロスコネクタ	Cross-connector
+H04J   3/00  Y	0	0	5K028	H04J   3/00	287	ＩＳＤＮ（多重処理に関するもの）	ISDN (related to the multiplexing process)
+H04J   3/00  Z	0	0	5K028	H04J   3/00	1354	その他のもの	Others
+H04J   3/02  \	1	1	5K028	H04J   3/02	238	細部	Details
+H04J   3/04  \	2	2	5K028	H04J   3/04	26	変調器または復調器と結合された分配器	Distributors combined with modulators or demodulators
+H04J   3/04  A	2	0	5K028	H04J   3/04	306	復調器と結合された分配器	Distributor coupled with the demodulator
+H04J   3/04  Z	2	0	5K028	H04J   3/04	807	その他のもの〔多重化回路〕	Others (multiplexing circuit)
+H04J   3/06  \	2	2	5K028	H04J   3/06	114	同期配置	Synchronising arrangements
+H04J   3/06  A	2	0	5K028	H04J   3/06	1912	フレ−ム同期〔Ｈ０４Ｌ７／０８にも分類〕	Frame synchronisation (also categorised into H 04 L 7/08)
+H04J   3/06  B	2	1	5K028	H04J   3/06	408	フレ−ム同期保護	Frame synchronisation protection
+H04J   3/06  C	2	0	5K028	H04J   3/06	541	多重変換	Multi-conversion
+H04J   3/06  D	2	0	5K028	H04J   3/06	939	位相同期	Phase synchronisation
+H04J   3/06  Z	2	0	5K028	H04J   3/06	1452	その他のもの	Others
+H04J   3/07  \	3	3	5K028	H04J   3/07	568	異なるまたは変動する情報速度をもつ系のためにスタッフパルスを用いるもの［３］	using pulse stuffing for systems with different or fluctuating information rates [3]
+H04J   3/08  \	2	2	5K028	H04J   3/08	14	中間局配置，例．分岐用，傍受用	Intermediate station arrangements, e.g. for branching, for tapping-off
+H04J   3/08  A	2	0	5K028	H04J   3/08	378	中継	Relay
+H04J   3/08  B	2	0	5K028	H04J   3/08	362	分岐・挿入	Branch or insertion
+H04J   3/08  Z	2	0	5K028	H04J   3/08	30	その他のもの	Others
+H04J   3/10  \	2	2	5K028	H04J   3/10	47	チャネル間漏話低減配置	Arrangements for reducing cross-talk between channels
+H04J   3/12  \	2	2	5K028	H04J   3/12	442	呼出信号または監視信号に備えるための配置	Arrangements providing for calling or supervisory signals
+H04J   3/14  \	2	2	5K028	H04J   3/14	61	監視配置	Monitoring arrangements
+H04J   3/14  A	2	0	5K028	H04J   3/14	917	監視信号によるもの	using the observation signal
+H04J   3/14  Z	2	0	5K028	H04J   3/14	1452	その他のもの	Others
+H04J   3/16  \	1	1	5K028	H04J   3/16	115	一伝送サイクル内の個々のチャンネルに対する時間割り当てが可変であるもの，例．複数の信号の組合せが次々に変ってゆくのを調整するもの，伝送チャンネルの数を変化させるもの（Ｈ０４Ｊ３／１７，Ｈ０４Ｊ３／２４が優先）［４］	in which the time allocation to individual channels within a transmission cycle is variable, e.g. to accommodate varying complexity of signals, to vary number of channels transmitted (H04J 3/17, H04J 3/24 take precedence) [4]
+H04J   3/16  A	1	0	5K028	H04J   3/16	238	優先伝送	Preferential transmission
+H04J   3/16  Z	1	0	5K028	H04J   3/16	1189	その他のもの	Others
+H04J   3/17  \	1	1	5K028	H04J   3/17	49	第１番目の使用者が休止したとき，その使用者に割り当てられていた伝送チャンネルを解放して第２番目の使用者に割り当てるもの，例．ＴＡＳＩ［２００６．０１］	in which the transmission channel allotted to a first user may be taken away and re-allotted to a second user if the first user becomes inactive, e.g. TASI [2006.01]
+H04J   3/17  A	1	0	5K028	H04J   3/17	246	音声休止チヤンネルにデ−タを割り当てるもの	Data assigned to the voice paused channel
+H04J   3/17  Z	1	0	5K028	H04J   3/17	479	その他のもの	Others
+H04J   3/18  \	1	1	5K028	H04J   3/18	23	個々の信号の周波数圧縮およびその後に続く周波数伸張を用いるもの	using frequency compression and subsequent expansion of the individual signals
+H04J   3/20  \	1	1	5K028	H04J   3/20	36	レゾナントトランスファーを用いるもの［２］	using resonant transfer [2]
+H04J   3/22  \	1	1	5K028	H04J   3/22	505	複数の送信源が異なる速度または符号をもつもの［４］	in which the sources have different rates or codes [4]
+H04J   3/24  \	1	1	5K028	H04J   3/24	391	割り当てがアドレスによって指示されるもの（Ｈ０４Ｊ３／１７が優先）［４］	in which the allocation is indicated by an address () [4]
+H04J   3/26  \	2	2	5K028	H04J   3/26	36	情報およびアドレスが同時に伝送されるもの［４］	in which the information and the address are simultaneously transmitted [4]
+H04J   4/00  \	0	0	5K022	H04J   4/00	311	時分割多重化方式と周波数分割多重化方式との組み合せ（Ｈ０４Ｊ１３／００が優先）［２］	Combined time-division and frequency-division multiplex systems (H04J 13/00 takes precedence) [2]
+H04J   4/00 100 \	1	1	5K022	H04J   4/00	134	トランス多重化処理	trans multiplexing processing
+H04J   7/00  \	0	0	5K022	H04J   7/00	172	個々のチャネルの信号の振幅または持続時間がそれらのチャネルに特有であるような多重化方式	Multiplex systems in which the amplitudes or durations of the signals in individual channels are characteristic of those channels
+H04J   7/02  \	1	1	5K022	H04J   7/02	9	振幅の極性が特有であるようなもの	in which the polarity of the amplitude is characteristic
+H04J   9/00  \	0	0	5K022	H04J   9/00	284	各チャネルが相異なる搬送波変調形式によって表わされる多重化方式	Multiplex systems in which each channel is represented by a different type of modulation of the carrier
+H04J  11/00  \	0	0	5K022	H04J  11/00	190	直交多重化方式（Ｈ０４Ｊ１３／００が優先）［２］	Orthogonal multiplex systems (H04J 13/00 takes precedence) [2]
+H04J  11/00  A	0	0	5K022	H04J  11/00	289	位相直交多重化方式	Phase orthogonal multiplexing system
+H04J  11/00  B	0	0	5K022	H04J  11/00	789	偏波直交多重化方式	Polarisation orthogonal multiplexing system
+H04J  11/00  Z	0	0	5K022	H04J  11/00	17636	その他のもの	Others
+H04J  13/00  \	0	0	5K022	H04J  13/00	4824	符号分割多重化方式（周波数ホッピングのためのものＨ０４Ｂ１／７１３）［２，２０１１．０１］	Code division multiplex systems (for frequency hopping H04B  1/713)
+H04J  13/10  \	1	1	5K022	H04J  13/10	630	符号の生成［２０１１．０１］	Code generation
+H04J  13/12  \	2	2	5K022	H04J  13/12	231	直交符号の生成［２０１１．０１］	Generation of orthogonal codes
+H04J  13/14  \	2	2	5K022	H04J  13/14	86	ＺＣＺ符号の生成［２０１１．０１］	Generation of codes with a zero correlation zone
+H04J  13/16  \	1	1	5K022	H04J  13/16	1141	符号割当て［２０１１．０１］	Code allocation
+H04J  13/18  \	2	2	5K022	H04J  13/18	812	直交符号の割当て［２０１１．０１］	Allocation of orthogonal codes
+H04J  13/20  \	3	3	5K022	H04J  13/20	99	直交可変拡散率［ＯＶＳＦ］符号の割当て［２０１１．０１］	having an orthogonal variable spreading factor [OVSF]
+H04J  13/22  \	2	2	5K022	H04J  13/22	291	零相関範囲［ＺＣＺ］符号の割当て［２０１１．０１］	Allocation of codes with a zero correlation zone
+H04J  14/00  \	0	0	5K102	H04J  14/00	1084	光学的多重化方式［５］	Optical multiplex systems [5]
+H04J  14/00 150 \	1	1	5K102	H04J  14/00	173	光符号多重化方式	Optical Code Multiplex
+H04J  14/02  \	1	1	5K102	H04J  14/02	6752	波長分割多重化方式［５］	Wavelength-division multiplex systems [5]
+H04J  14/02 101 \	2	2	5K102	H04J  14/02	1252	アッド　アンド　ドロップ多重処理	Add and drop multiplexing
+H04J  14/02 121 \	2	2	5K102	H04J  14/02	329	パワー制御，例．総光パワーの一定維持	Power, e.g. constant maintenance of the total optical power
+H04J  14/02 198 \	2	2	5K102	H04J  14/02	379	サブキャリア多重化処理［ＳＣＭ］を有するもの	with sub-carrier multiplexing [SCM]
+H04J  14/04  \	1	1	5K102	H04J  14/04	169	モード多重化方式［５］	Mode multiplex systems [5]
+H04J  14/06  \	1	1	5K102	H04J  14/06	413	偏波多重化方式［５］	Polarization multiplex systems [5]
+H04J  14/08  \	1	1	5K102	H04J  14/08	1051	時分割多重化方式［５］	Time-division multiplex systems [5]
+H04J  14/08 130 \	2	2	5K102	H04J  14/08	51	アッド　アンド　ドロップ多重処理	Add and drop multiplexing
+H04J  99/00  \	0	0	5K022	H04J  99/00	9291	このサブクラスの他のグループには分類されない主題事項［２００９．０１］	Subject matters not provided for in other groups of this subclass [2009.01]
+H04J  99/00 100 \	1	1	5K022	H04J  99/00	482	非直交多重化方式	Non-orthogonal multiple access system

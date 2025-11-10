@@ -1,0 +1,28 @@
+# 特許構成要件分割・検索システム Requirements
+# Patent Component Analysis and Search System Requirements
+
+# Google Vertex AI (Gemini)
+google-cloud-aiplatform>=1.38.0
+google-auth>=2.16.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# PDF処理（オプション）
+PyPDF2>=3.0.0
+
+# 既存の依存関係
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+python-multipart==0.0.6
+opensearch-py==2.4.2
+sentence-transformers==2.3.1
+torch==2.1.2
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Web scraping
+selenium==4.16.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+webdriver-manager==4.0.1

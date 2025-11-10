@@ -1,0 +1,458 @@
+G06K   1/00  \	0	0	5B044	G06K   1/00	154	記録担体にデジタル形態でマーキングするための方法または装置	Methods or arrangements for marking the record carrier in digital fashion
+G06K   1/02  \	1	1	5B044	G06K   1/02	677	せん孔によるもの	by punching
+G06K   1/04  \	2	2	5B044	G06K   1/04	34	せん孔されている記録担体上の記録マークの読取りによって制御されるもの	controlled by sensing markings on the record carrier being punched
+G06K   1/05  \	2	2	5B044	G06K   1/05	21	高速せん孔装置，例．電子計算機によって制御されるもの	High-speed punches, e.g. controlled by electric computer
+G06K   1/06  \	2	2	5B044	G06K   1/06	240	手動で制御される装置	Manually-controlled devices
+G06K   1/08  \	3	3	5B044	G06K   1/08	148	カードせん孔装置	Card punches
+G06K   1/10  \	3	3	5B044	G06K   1/10	289	テープせん孔装置	Tape punches
+G06K   1/12  \	1	1	5B044	G06K   1/12	46	せん孔以外の方法によるもの	otherwise than by punching
+G06K   1/12  A	1	0	5B044	G06K   1/12	836	バ−コ−ドの記録；バ−コ−ドデ−タの入力設定	Recording of barcodes; Entry setting of barcode data
+G06K   1/12  H	1	1	5B044	G06K   1/12	196	バ−コ−ドの記録方式	Barcode recording method
+G06K   1/12  B	1	2	5B044	G06K   1/12	288	印打によるバ−コ−ドの記録	Recording of barcodes by typing
+G06K   1/12  C	1	2	5B044	G06K   1/12	166	光学的または加熱によるバ−コ−ドの記録	Recording of barcodes in optical fashion or by heat
+G06K   1/12  D	1	0	5B044	G06K   1/12	69	手動の情報入力手段，例．キ−ボ−ド，を有するもの〔Ａ優先；手動の情報入力一般Ｇ０６Ｆ３／０２〕	Means for manual information entry, e.g. having a keyboard (A takes precedence; manual information entry in general G O6 F 3/02)
+G06K   1/12  E	1	0	5B044	G06K   1/12	434	記録方式〔Ａ，Ｄ優先〕	Recording methods  (A and D take precedence)
+G06K   1/12  F	1	1	5B044	G06K   1/12	236	印打によるもの	by typing
+G06K   1/12  G	1	1	5B044	G06K   1/12	263	光学的または加熱によるもの	in optical fashion or by heat
+G06K   1/12  Z	1	0	5B044	G06K   1/12	155	その他のもの	Others
+G06K   1/14  \	1	1	5B044	G06K   1/14	41	データを同種のまたは異種の記録担体から移すことによるもの	by transferring data from a similar or dissimilar record carrier
+G06K   1/16  \	2	2	5B044	G06K   1/16	7	データを一枚のせん孔されたカードから一枚以上のカードに符号形式を変えることなく再生することによるもの，すなわちデュプリケート	by reproducing data from one punched card on to one or more punched cards without the code representation, i.e. duplicating
+G06K   1/18  \	2	2	5B044	G06K   1/18	75	データをある型の担体から他の担体に移すことによるもの，例．磁気テープからせん孔カードに移すことによるもの	by transferring data from one type of record carrier on to another type of record carrier, e.g. from magnetic tape to punched card
+G06K   1/20  \	1	1	5B044	G06K   1/20	94	データの記録担体へのマーク記録と印字とを同時に行なうもの，例．印字せん孔機	Simultaneous marking of record carrier and printing-out of data, e.g. printing-punch
+G06K   1/22  \	2	2	5B044	G06K   1/22	9	別個の記録担体，例．異なった型の記録担体，上へマーク記録と印字とを同時に行なうもの	Simultaneous marking and printing on different record carriers, e.g. on different types of record carrier
+G06K   3/00  \	0	0	5B044	G06K   3/00	63	記録担体からのアルファニューメリックまたはその他の文字の形態のデータを印字する方法または装置，例．磁気テープからのデータを解読し，印字するもの	Methods or arrangements for printing of data in the shape of alphanumeric or other characters from a record carrier, e.g. interpreting, printing-out from a magnetic tape
+G06K   3/02  \	1	1	5B044	G06K   3/02	11	記録担体上の記録マークを同一担体上の印字データにほん訳するためのもの，すなわち解読	Translating markings on a record carrier into printed data on the same record carrier, i.e. interpreting
+G06K   5/00  \	0	0	5B044	G06K   5/00	329	記録担体上のマーキングの正しさを検証するための方法または装置；コラム検知デバイス	Methods or arrangements for verifying the correctness of markings on a record carrier; Column-detection devices
+G06K   5/02  \	1	1	5B044	G06K   5/02	27	検査がマーク記録動作の一部を形成しているもの	the verifying forming a part of the marking action
+G06K   5/04  \	1	1	5B044	G06K   5/04	22	マーク整列の検査を行なうもの	Verifying the alignment of markings
+G06K   7/00  \	0	0	5B072	G06K   7/00	1204	記録担体を読取る方法または装置（記録担体にデジタル的に記録する方法または装置Ｇ０６Ｋ１／００；パターン認識Ｇ０６Ｆ１８／００；イメージまたはビデオの認識または理解のための装置Ｇ０６Ｖ１０／００；文字認識，デジタルインクの認識，文書指向イメージベースのパターン認識Ｇ０６Ｖ３０／００）［２００６．０１］	Methods or arrangements for sensing record carriers (methods or arrangements for marking the record carrier in digital fashion G06K 1/00; pattern recognition G06F 18/00; arrangements for image or video recognition or understanding G06V 10/00; character recognition, recognising digital ink or documentoriented image-based pattern recognition G06V 30/00) [1, 2006.01]
+G06K   7/00 004 \	1	1	5B072	G06K   7/00	1443	ハイブリッド・リーダ	hybrid reader
+G06K   7/00 008 \	1	1	5B072	G06K   7/00	5978	電子的メモリを用いた記録単体の読み取りに関するものであって，その読み取り方法とは直接関係のない一般的な問題，例．電力の伝送	general problem related to reading of record carrier using electronics memory but not directly related to its reading method, e.g. transmissionof electric power
+G06K   7/00 013 \	1	1	5B072	G06K   7/00	1955	接触端子によるもの，例．ＩＳＯ−７８１６規格に準拠したスマートカードまたはメモリカードの読み取り装置のためのカードコネクタ（コネクタ一般Ｈ０１Ｒ１３／００）	by contact terminal, e.g. ccard connector for card reading device of smart card or memory card in conformity to ISO-7816 standard (connector in general H01R13/00)
+G06K   7/00 017 \	2	2	5B072	G06K   7/00	39	筐体に着脱可能なコネクタの読み取りヘッド	reading head of connector demountable to cabinet
+G06K   7/00 021 \	2	2	5B072	G06K   7/00	1558	表面端子を有する記録担体の読み取りのため	for reading record carrier having surface terminal
+G06K   7/00 026 \	3	3	5B072	G06K   7/00	560	カード挿入時にカードの端子に接触するのに適合したコネクタの接触端子	contact terminal of connector adapted to making contact with terminal of card at insertion of card
+G06K   7/00 030 \	3	3	5B072	G06K   7/00	507	カードとコネクタとの間の確実な電気的接触を保証するために，カードの接点方向にコネクタの接点を押す手段	means to push contacting point of connector toward direction of contacting point of card in order to assure definite electrical contact between card and connector
+G06K   7/00 034 \	2	2	5B072	G06K   7/00	128	同一スロットに複数のカードを同時に挿入可能なコネクタ	connector having slot into which multiple cards are insertable at one time
+G06K   7/00 039 \	3	3	5B072	G06K   7/00	42	同一タイプかつ同一フォーマットの複数のカード，例．ＩＳＯ−７８１６規格準拠の２枚のスマートカード	multiple cards having same type and same format, e.g. two smart cards both in in conformity to ISO-7816
+G06K   7/00 043 \	3	3	5B072	G06K   7/00	134	異なるフォーマットの複数のカード	multiple cards having different format
+G06K   7/00 047 \	2	2	5B072	G06K   7/00	555	エッジ端子を有する記録担体の読み取りのためのもの	for reading record carrier having edge terminal
+G06K   7/00 052 \	2	2	5B072	G06K   7/00	411	異なるフォーマットのカードに接触可能なコネクタ，例．少なくとも１つのコネクタ端子とその信号線とを共用し，両者が同一の信号線を用いてデータの入力または出力を行う，複数種のカードに対応可能な読み取り装置	connector able to make contact with cards having different format, e.g. reading device able to correspond to several types of cards by sharing signal line with at least one connector terminal and inputting or outputting data using the shared signal line
+G06K   7/00 056 \	2	2	5B072	G06K   7/00	2357	カードコネクタの筐体	cabinet for card connector
+G06K   7/00 060 \	3	3	5B072	G06K   7/00	532	携帯用ケースとなる筐体	cabinet which can used as portable case
+G06K   7/00 065 \	3	3	5B072	G06K   7/00	783	キーボードまたはディスプレイを含むもの，例．スマートバンキングカードの残額をオフラインでチェックするのに適した電卓サイズのケース	include key board or display, e.g. pocket calculator sized case adapted to checking remaining balance of smart banking card at off line
+G06K   7/00 069 \	3	3	5B072	G06K   7/00	930	カードの正しい挿入を検知する手段を含むもの，例．カードが完全にかつ正しく挿入されたことを通知するエンド検知スイッチを含むもの	include means to detect correct insertion of card, e.g. include end detection switch to notify card is completely and correctly inserted
+G06K   7/00 073 \	3	3	5B072	G06K   7/00	617	同じまたは異なるカードのフォーム・ファクタに適した各スロットである，複数の挿入スロットを有するもの	having multiple insertion slot each adapted to same or different form factor of cards
+G06K   7/00 078 \	3	3	5B072	G06K   7/00	111	ドリル及びその他の侵入のような悪意のある行為や，誤って落下したことによる衝撃のようなダメージに対して保護する補強された筐体	reinforced cabinet to protect against malicious acts such as drill and other penetration, and damages such as shock caused by dropping by mistake
+G06K   7/00 082 \	3	3	5B072	G06K   7/00	209	静電放電に対する保護のための機構を含むもの，例．導電性の筐体の接地部	include mechanizm to protect against electrostatic discharge, e.g. grounding part of cabinet having conductivity
+G06K   7/00 086 \	2	2	5B072	G06K   7/00	585	カードコネクタを操作するための回路を備えるコネクタ	connector having circuit to operate card connector
+G06K   7/00 091 \	3	3	5B072	G06K   7/00	529	コネクタ内部のデータに侵入すること及び意図せざるアクセスを防ぐ装置を備える回路	circuit having device to penetrate into data iniside connector and to prevent unwanted access
+G06K   7/00 095 \	1	1	5B072	G06K   7/00	749	読み取り装置が正しく動作するかどうかの試験，例．磁気カードリーダ，バーコードリーダ，ＲＦＩＤ質問器またはスマートカードリーダに対する試験（電子回路の試験Ｇ０１Ｒ３１／２８）	test to see if reding device operates correctly, e.g. magnetic card reader, car code reader, testing RFID interrogator or smart card reader (electronics circuit test G01R31/28)
+G06K   7/01  \	1	1	5B072	G06K   7/01	174	細部	Details
+G06K   7/015  \	2	2	5B072	G06K   7/015	1270	記録担体に対する読取り装置の整列または中心位置合せ	Aligning or centring of the sensing device with respect to the record carrier
+G06K   7/016  \	2	2	5B072	G06K   7/016	944	読取り過程の同期	Synchronisation of sensing process
+G06K   7/016 030 \	3	3	5B072	G06K   7/016	508	記録担体の付加的なタイミングマークを用いて同期するもの	synchronize using additional timing mark of record carrier
+G06K   7/016 060 \	3	3	5B072	G06K   7/016	335	自己同期コードのようなコードマークに由来するクロック信号を用いて同期するもの	synchronize using clock signal that is orinated in code mark such as self synchronizing code
+G06K   7/02  \	1	1	5B072	G06K   7/02	80	気体または液体を用いるもの，例．圧縮空気でせん孔を読取るもの；音波手段によるもの	by pneumatic or hydraulic means, e.g. sensing punched holes with compressed air; by sonic means
+G06K   7/04  \	1	1	5B072	G06K   7/04	412	機械的手段によるもの，例．電気的接点を作動するピンによるもの	by mechanical means, e.g. by pins operating electric contacts
+G06K   7/04 020 \	2	2	5B072	G06K   7/04	47	電気回路の制御	control of electric circuit
+G06K   7/04 050 \	3	3	5B072	G06K   7/04	64	電気回路の制御によって，記録担体のデータフィールド全体が同時に読み取られるもの	simultaneous reading of entire data field of record carrier by control of electric circuit
+G06K   7/04 070 \	3	3	5B072	G06K   7/04	56	電気回路の制御によって，記録担体のデータフィールドの各コラムが連続的に読み取られるもの	successive reading of each column of data field of record carrier by control of electric circuit
+G06K   7/06  \	1	1	5B072	G06K   7/06	286	記録マークの有無により電流を流す手段によるもの，例．せん孔のための接触ブラシまたはピンによるもの，導電性マークのための接触ブラシによるもの	by means which conduct current when a mark is sensed or absent, e.g. contact brush for a conductive mark
+G06K   7/06 050 \	2	2	5B072	G06K   7/06	146	導電性マークのためのもの	for conductivity mark
+G06K   7/08  \	1	1	5B072	G06K   7/08	772	静電場または磁場の変化を検出する手段によるもの，例．電極間の容量の変化を検出することによるもの	by means detecting the change of an electrostatic or magnetic field, e.g. by detecting change of capacitance between electrodes
+G06K   7/08 010 \	2	2	5B072	G06K   7/08	132	静電気センサ，例．電極間の容量のチャージを検出することによるもの	electrostatic sensor, e.g. by detecting charge capacity between electrode
+G06K   7/08 020 \	2	2	5B072	G06K   7/08	54	誘導型センサまたは磁気センサ	induction type sensor or magnetic sensor
+G06K   7/08 030 \	3	3	5B072	G06K   7/08	91	誘電型センサ	indention type sensor
+G06K   7/08 040 \	4	4	5B072	G06K   7/08	5432	磁気材料の磁化された状態を変化させることなく，相対運動による磁束の変化を検出することによって，磁気材料を感知するもの	senses magnetic materials by detecting change in magnetic flux caused by relative motion without changing magnetic status of magnetic materials
+G06K   7/08 050 \	4	4	5B072	G06K   7/08	74	金属検出器	metal detector
+G06K   7/08 060 \	4	4	5B072	G06K   7/08	213	受動回路，例．共振回路によるトランスポンダ，の感知	passive circuit, e.g. sensing of transponder by resonant cirsuit
+G06K   7/08 070 \	3	3	5B072	G06K   7/08	610	磁気センサ	magnetic sensor
+G06K   7/08 080 \	4	4	5B072	G06K   7/08	31	感磁スイッチ，例．リードスイッチ，を用いるもの	magnetic induction switch, e.g. using lead switch
+G06K   7/08 090 \	2	2	5B072	G06K   7/08	83	ハンドヘルドスキャナ	hand-held scanner
+G06K   7/10  \	1	1	5B072	G06K   7/10	668	電磁放射線によるもの，例．光学的読取り；粒子放射線によるもの	by electromagnetic radiation, e.g. optical sensing; by corpuscular radiation
+G06K   7/10 100 \	2	2	5B072	G06K   7/10	2872	電波またはマイクロ波のような，０．１ｍｍより長い波長の放射線による検出	detect radiation having wavelength longer than 0.1mm such as radio wave or micro wave
+G06K   7/10 104 \	3	3	5B072	G06K   7/10	198	同時にまたは同時発生的に質問された記録担体間の通信チャネル上の衝突を解決するもの（ＲＦＩＤのために特に適合されていない無線通信装置によって使用される通信チャンネル間の衝突に関するものＨ０４Ｗ７４／０８）	resolve scrambling of communication channel between record carriers which received questions asked or generated simultaneously (involving scrambling between communication channels used by radio communication devices not specially adapted for RFID H04W74/08)
+G06K   7/10 108 \	4	4	5B072	G06K   7/10	140	時間領域により衝突を解決するもの，例．二分木探索を用いるもの，またはランダムタイムスロットに割り当てられたＲＦＩＤ応答を用いるもの	resolve acrambling by time region, e.g. using binary tree search, or using RFID response allocated to random time slot
+G06K   7/10 112 \	5	5	5B072	G06K   7/10	263	質問器が主導的なもの，例．同期	interrogator being dominant e.g. synchronization
+G06K   7/10 116 \	6	6	5B072	G06K   7/10	24	二分木	binary tree
+G06K   7/10 120 \	5	5	5B072	G06K   7/10	134	応答器が主導的なもの	transponder being dominant
+G06K   7/10 124 \	4	4	5B072	G06K   7/10	181	衝突が周波数領域で解決されるもの，例．ある周波数から他の周波数へのホッピングによるもの	scrambling being resolved in frequency region, e.g. by hopping from one frequency to another frequency
+G06K   7/10 128 \	4	4	5B072	G06K   7/10	526	衝突が空間領域で解決されるもの，例．質問器の特定の方向を遮蔽するために一時的なシールドを用いるもの	scrambling being resolved in spatial region, e.g. by using temporary shield to block specific direction of interrogator
+G06K   7/10 132 \	5	5	5B072	G06K   7/10	193	衝突を解決するために，少なくとも１つの指向性アンテナを使用するか，質問信号による方向領域を使用する質問器	interrogator using at least one directional antenna or direction region by interrogation signal to resolve scrambling
+G06K   7/10 136 \	6	6	5B072	G06K   7/10	243	例えば物品に関連付けられた複数のＲＦＩＤタグの中から１つのＲＦＩＤタグを探すように，記録担体の位置を特定するために，方向領域が使用されるもの，例．倉庫内の物品に付されたＲＦＩＤタグを物理的に探すためのもの	for example, direction region is used to specify position of record carrier such as searching one RFID tag out of several RFID tags associated with article, e.g. physically search for RFID tag attached to articles in warehouse
+G06K   7/10 140 \	4	4	5B072	G06K   7/10	267	予め定められた必要条件を満たす複数のＲＦＩＤだけに質問するもの，例．同じ列車内のように，同じ速度を有し，かつ様式的に大群で動いている，全てのＲＦＩＤを選択するもの，例．同じ冷蔵庫内のように，特定の予め定められた温度を有しているＲＦＩＤだけに質問するもの，例．予め定められた必要条件を満たすタグのグループを能動的に無視するものであり，本質的にＮＯＴブール演算と等価なもう一つの方法	interrogate only those several RFID which satisfy predetermined necessary requirements, e,g, select all RFID moving with same speed and with style in large crowd as if they are on the same train, e.g. interrogate only those RFID having predetermined specific temperature as if they are in the same refrigerator, e.g. another method which is essentially equivalent to NOT pool calculation that actively ignore group of tags satisfying predetermined necessary requirements
+G06K   7/10 144 \	3	3	5B072	G06K   7/10	407	少なくとも１つの予備ステップの後に読み取るもの	read after implementation of at least one preliminary step
+G06K   7/10 148 \	4	4	5B072	G06K   7/10	942	質問器の近くの１つ以上の記録担体の存在を探知するステップ	step to detect existence of at least one record carrier near interrogator
+G06K   7/10 152 \	4	4	5B072	G06K   7/10	259	記録担体のタイプを決定するステップ，例．記録担体がロングレンジタイプのＲＦＩＤタグであるのか，ショートレンジタイプのＲＦＩＤタグであるのかを決定するものや，ＲＦＩＤタグの好ましい通信プロトコルを決定するもの	step to determine tgype of record carrier, e.g. to determine if record carrier is long range type RFID tag or short range type RFID tag, to determine desirable communication protocol for RFIS tag
+G06K   7/10 156 \	4	4	5B072	G06K   7/10	257	質問信号を発している質問器の共振回路を動的に調整するステップ，例．質問器内のインピーダンス整合のためのステップ（ループ・アンテナに関する調整一般Ｈ０１Ｑ７／００）	step to dynamically adjust resonant circuit of interrogator dispatching interrogation signal, e.g. step for coordinating impedance inside interrogator (adjustment related to loop antenna in general H01Q7/00)
+G06K   7/10 160 \	3	3	5B072	G06K   7/10	496	質問器による電磁場を使用して質問器が確実に無線記録担体に電力供給する方法や手段	method or means for interrogator to make certain that electric power is supplied to radio record carrier by using electromagnetic field created by interrogator
+G06K   7/10 164 \	4	4	5B072	G06K   7/10	296	電力供給が環境の影響によって不利に作用することへの対処，例．質問器または記録担体の近くの金属性または容量性の物体による質問信号の意図せざるエネルギー損失への対処	measure against disadvantageous effect on electric power supply by environmental effect, e.g. measure against unintentional energy loss of interrogation signal caused by metallic or capacitive substance located near interrogator or record carrier
+G06K   7/10 168 \	4	4	5B072	G06K   7/10	464	質問器による電磁場をフォーカスするか，中継するか，増幅するための補助手段を含むもの（記録担体自体にブースター・アンテナ相当物を搭載したものＧ０６Ｋ１９／０７７，２９６）	include supplementary means to focus, relay or amplify electromagnetic field by interrogator (loading booster antenna equivalents on  record carrier per se G06K19/077, 296)
+G06K   7/10 172 \	5	5	5B072	G06K   7/10	122	記録担体から質問器へ中継局を経由してデータをインテリジェントに伝達することからなる中継，例．質問器から「可視」領域に位置し，中継局として機能する，少なくとも１つの遠方ＲＦＩＤの支援を用いて，識別子を質問器に送信する，遠距離ＲＦＩＤまたは「死角」領域内のＲＦＩＤ	transmit data intelligently from record carrier to interrogator via relay station, e.g. long distance RFID or RFID in region of dead angle, located within visible distance from inerrogator, functioning as relay station, and transmitting identifier to interrogator using aid of atleast one long distance RFID
+G06K   7/10 176 \	3	3	5B072	G06K   7/10	778	質問器のパラメータを設定するもの，例．プログラミング・パラメータや動作モード	establishing parameter for interrogator, e.g. programming parameter or action mode
+G06K   7/10 180 \	4	4	5B072	G06K   7/10	108	質問器の電力消費に関連したパラメータ設定	establishment of parameter related to electric power consumption of interrogator
+G06K   7/10 184 \	4	4	5B072	G06K   7/10	533	質問器の送信電力を制御するパラメータ設定	establishment of parameter to control transmissionpower of interrogator
+G06K   7/10 188 \	4	4	5B072	G06K   7/10	224	質問器にプログラミング・パラメータまたはプログラムをロードするもの，例．質問器を構成するため	loading programming parameter or program on interrogator, e.g. to compose interrogator
+G06K   7/10 192 \	3	3	5B072	G06K   7/10	349	リーダと記録担体の態様を選択的に切り替えることを可能とするリーダ兼記録担体，例．ニア・フィールド・コミュニケーション［ＮＦＣ］において，ＲＦＩＤリーダまたはＲＦＩＤタグとして機能することができるＮＦＣデバイス	reader-cum-record carrier which enables to switch mode selectively between reader and record carrier, e.g. in near field communication [NFC], NEC device which can also function as RFID reader or RFID tag
+G06K   7/10 196 \	4	4	5B072	G06K   7/10	10	ＮＦＣのようなデバイスにおいて，シングル・ワイヤ・プロトコル［ＳＷＰ］の使用に特有な課題を有するもの	device like NFC having issues peculiar to usage of single wire protocol [SWP]
+G06K   7/10 200 \	3	3	5B072	G06K   7/10	545	海賊的侵害行為に対して質問器を保護するための機構（コンピュータ・セキュリティ一般Ｇ０６Ｆ２１／００；通信妨害，対策Ｈ０４Ｋ３／００；秘密通信Ｈ０４Ｋ１／００）	mechanism for protecting interrogator from pirate like infringement (computer security in general G06F21/00; communication jamming and measures H04K3/00; secret communication H04K1/00)
+G06K   7/10 204 \	4	4	5B072	G06K   7/10	168	質問器の内部回路を構成する機構	mechanism constructing internal circuit of interrogator
+G06K   7/10 208 \	4	4	5B072	G06K   7/10	31	不法侵入に対して補強した筐体または保護的なケージのような，機械的な機構	mechanical mechanism like cabinet enforced against intrusion or protective cage
+G06K   7/10 212 \	4	4	5B072	G06K   7/10	46	質問器の近くに更なるデバイスを含む機構，例．信号スクランブルデバイスを含む機構	mechanism including further device near interrogator, e.g. mechanism including signal scramble device
+G06K   7/10 216 \	3	3	5B072	G06K   7/10	521	ＲＦＩＤやＮＦＣのような非接触記録担体のために設計されたプロトコルを扱う機構，例．ＩＳＯ／ＩＥＣ　１４４４３や１８０９２を扱う機構（データ通信用プロトコル一般Ｈ０４Ｌ１３／００，３０５）	mechanism handling protocol designed for non contacting record carrier such as RFID or NFC (protocol for data communication in general H04L13/00, 305)
+G06K   7/10 220 \	4	4	5B072	G06K   7/10	19	超広帯域無線［ＵＷＢ］	ultra wide band radio [UWB]
+G06K   7/10 224 \	3	3	5B072	G06K   7/10	778	無線記録担体に質問するために特別に設計された，少なくとも１つのアンテナを使用するもの	specially designed to interrogate wireless record carrier, uses at least one antenna
+G06K   7/10 228 \	4	4	5B072	G06K   7/10	125	超近傍界型アンテナ，例．容量性	super vicinity region type antenna, e.g. capasitive
+G06K   7/10 232 \	4	4	5B072	G06K   7/10	1467	近傍界型アンテナ，例．誘導性コイル	vicinity region type antenna, e.g. inductive coil
+G06K   7/10 236 \	4	4	5B072	G06K   7/10	369	遠方界型アンテナ，例．ＨＦ帯型またはダイポール	distant region type antenna, e.g. HF band type or dipole
+G06K   7/10 240 \	4	4	5B072	G06K   7/10	1675	複数のアンテナを使用するもの，例．複数のアンテナ間の干渉を解決する手段を含む構成	uses multiple antennas, e.g. composition including means to resolve interference between multiple antennas
+G06K   7/10 244 \	3	3	5B072	G06K   7/10	2358	様々な使用に適合した質問器	interrogator adapted to various usage
+G06K   7/10 248 \	4	4	5B072	G06K   7/10	254	可搬性に適合した質問器	interrogator adapted to portability
+G06K   7/10 252 \	5	5	5B072	G06K   7/10	2015	ポータブル型またはハンディ／ハンドヘルド型の質問器，例．ＰＤＡまたは携帯電話のようなユビキタス・ハンドヘルド・デバイス，もしくはポータブル専用のＲＦＩＤリーダの形態で具体化されるもの	portable type or handy/hand-held type interrogator, e.g. ubiqitous hand-held computing device such as PDA or cellular phone, or embodiment in form of RFID reader made exclusively for portable use
+G06K   7/10 256 \	5	5	5B072	G06K   7/10	142	ウエアラブルな質問器，例．手袋，腕輪，または指輪（ウエアラブルなアンテナ一般Ｈ０１Ｑ１／２７）	wearable interrogator, e.g. glove, bracelet or ring (wearable antenna in general H01Q1/27)
+G06K   7/10 260 \	5	5	5B072	G06K   7/10	221	温度センサや加速度センサのような，環境パラメータを感知するための機構を含む質問器，例．オン／オフのトリガー手段または警告手段として使用される機構を含むもの	interrogator including mechanizm for sensing environmental parameter such as temperature sensor or acceleration sensor, e.g. including mechanizm used as trigger means or warning means of on/off status
+G06K   7/10 264 \	4	4	5B072	G06K   7/10	2883	ワイヤレス・アクセス・カードを読み取るためのアクセス制御デバイスまたはワイヤレスＡＴＭのような，据え付け型の質問器（バンキングマシーン一般Ｇ０７Ｄ９／００，３２１）	fixed type interrogator such as access control device or wireless ATM to read wireless access card (banking machine in general G07D9/00, 321)
+G06K   7/10 268 \	5	5	5B072	G06K   7/10	1571	傍らを通過する記録担体に質問するために構成された質問器	interrogator composed to interrogate record carrier passing nearby
+G06K   7/10 272 \	6	6	5B072	G06K   7/10	416	通過する記録担体を流すベルトコンベアまたはそのようなものの近くに置かれた質問器（有形の目的地マークに従って運ぶものＢ６５Ｇ４７／４６，ＩＤマーキングを担持する物体の選別Ｂ０７Ｃ５／３４）	interrogator placed near belt conveyor or like which carries record carrier passing by (carry in accordance with physical destination mark B65G47/46, selection of object supporting ID marking B07C5/34)
+G06K   7/10 276 \	7	7	5B072	G06K   7/10	451	別の物体に取り付けられた記録担体，例．ベルトコンベアで運ばれる，包装物，手荷物，郵便物，または工作物に取り付けられたＲＦＩＤ	recor carrier attached to other articles, e.g. RFID attached to belt conveyor carried package, baggage, mail or manufactured article
+G06K   7/10 280 \	7	7	5B072	G06K   7/10	201	エンドレステープに取り付けられる記録担体，すなわち，少なくとも別の物体に取り付けられない記録担体	record carrier attached to endless tape, i.e. record carrier is at least not attached to other articles
+G06K   7/10 284 \	4	4	5B072	G06K   7/10	196	自己診断能力のある質問器，例．実際の質問プロセスに付加して行うか，実際の質問プロセスの一部として行うもの（電子回路の試験一般Ｇ０１Ｒ３１／２８）	interrogator capable of self-diagnosis, e.g. perform as addition to or as part of actual interrogation process (testing of electronics circuit in general G01R31/28)
+G06K   7/10 288 \	4	4	5B072	G06K   7/10	396	別の質問器とのやりとりを円滑にするための機構，例．少なくとも２つの質問器がそのネットワーク内で機能し協働できるようにするための機構	mechanism to enhance communication with other interrogator, e.g. mechanism enables at least two intgorrogators to function and cooperate in the network
+G06K   7/10 300 \	2	2	5B072	G06K   7/10	1702	電磁気スペクトルのうち光領域での放射によって記録を走査するもの	electromagnetism spectrum which scan record by radiation in optical domain
+G06K   7/10 304 \	3	3	5B072	G06K   7/10	166	ビームが動く走査	scan by motion of beam
+G06K   7/10 308 \	4	4	5B072	G06K   7/10	77	光源が移動するもの	movement of light source
+G06K   7/10 312 \	5	5	5B072	G06K   7/10	41	複数の光源が移動するもの	movement of multiple light sources
+G06K   7/10 316 \	5	5	5B072	G06K   7/10	176	光源の制御	control of light source
+G06K   7/10 320 \	4	4	5B072	G06K   7/10	59	ビームの経路	course of beam
+G06K   7/10 324 \	5	5	5B072	G06K   7/10	104	可動素子を使用する基本的なスキャン	basic scan using movable element
+G06K   7/10 328 \	6	6	5B072	G06K   7/10	633	回転によるもの，例．ポリゴン	by rotation, e.g. polygon
+G06K   7/10 332 \	7	7	5B072	G06K   7/10	156	構造上の細部	structural detail
+G06K   7/10 336 \	6	6	5B072	G06K   7/10	223	振動によるもの	by oscillation
+G06K   7/10 340 \	7	7	5B072	G06K   7/10	55	振動の活性化手段	means to activate oscillation
+G06K   7/10 344 \	8	8	5B072	G06K   7/10	78	弾性手段または圧電手段を使用するもの	using elastic means or piezoelectric means
+G06K   7/10 348 \	6	6	5B072	G06K   7/10	262	ホログラムを使用するもの	using hologram
+G06K   7/10 352 \	6	6	5B072	G06K   7/10	34	並行光を使用するもの	using parallel light
+G06K   7/10 356 \	5	5	5B072	G06K   7/10	30	固定型要素を有する装置	device having fixed type element
+G06K   7/10 360 \	6	6	5B072	G06K   7/10	153	全方向性スキャンのためのもの	for omnidirectional scan
+G06K   7/10 364 \	6	6	5B072	G06K   7/10	122	伝播要素に特有のもの，例．レンズ，ミラー	peculiar to propagation element, e.g. lens, mirror
+G06K   7/10 368 \	3	3	5B072	G06K   7/10	114	ビームが固定された走査	scanning using fixed beam
+G06K   7/10 372 \	4	4	5B072	G06K   7/10	1883	受光素子アレイまたはＣＣＤによるスキャン	scan by light receiving element array or CCD
+G06K   7/10 376 \	5	5	5B072	G06K   7/10	966	光源に特徴があるもの	characterized by light source
+G06K   7/10 380 \	5	5	5B072	G06K   7/10	200	読み取り対象である記録担体に対して実質的に均一に照らすために，光源からの光を拡散する拡散器を含むもの	including diffuser to diffuse light from light source in order to substantially evenly illuminate  record carrier as subject of reading
+G06K   7/10 384 \	5	5	5B072	G06K   7/10	166	露光時間を制御するもの	control exposure time
+G06K   7/10 388 \	4	4	5B072	G06K   7/10	1250	リーダと記録担体間の相対運動	relative motion of reader and record carrier
+G06K   7/10 392 \	5	5	5B072	G06K   7/10	1417	移動されるリーダ，例．ペン型のもの	reader being moved, e.g. pen-shaped
+G06K   7/10 396 \	5	5	5B072	G06K   7/10	89	スロット・リーダ	slot reader
+G06K   7/10 400 \	3	3	5B072	G06K   7/10	137	スキャンされる物体に特有な測定	measurement peculiar to scanned substance
+G06K   7/10 404 \	4	4	5B072	G06K   7/10	106	マルチディスタンスによる読み取り	reading by multi distance
+G06K   7/10 408 \	5	5	5B072	G06K   7/10	401	焦点の制御	control focus
+G06K   7/10 412 \	3	3	5B072	G06K   7/10	911	バーコードまたは光学コードをスキャンする装置の更なる詳細	further details of device to scan bar code or optical code
+G06K   7/10 416 \	4	4	5B072	G06K   7/10	2968	光学要素の配置，例．レンズ，ミラー，プリズムの配置（光学要素自体Ｇ０２Ｂ）	arrangement of optical element, e.g. arrangement of lens, mirror, prizm (optical element per se G02B)
+G06K   7/10 420 \	4	4	5B072	G06K   7/10	517	光センサ要素の詳細（半導体デバイスＨ０１Ｌ）	detail of optical sensor (semiconductor device H01L)
+G06K   7/10 424 \	4	4	5B072	G06K   7/10	1271	パルス整形，増幅，ノイズ信号除去，センサの機能チェック，のための回路（基本電子回路Ｈ０３）	circuit for pulse shaping, amplifying, noise signal elimination, sensor function check (basic electronic circuit H03)
+G06K   7/10 428 \	4	4	5B072	G06K   7/10	1794	物体または物品に添付されたデータ領域の読み取り，例．コード付きラベルの読み取り（郵便の選別Ｂ０７Ｃ３／１４，物品の運搬Ｂ６５Ｇ４７／４８）	reading of data domain attached to object or article, e.g. reading of label with cord (sorting of mail B07C3/14, transporting of article B65G47/48)
+G06K   7/10 432 \	5	5	5B072	G06K   7/10	285	ランダムに方向付けられたデータ領域，コード・マーク，例．同心円コード	data domain, code mark diercted to random diection, e.g. concentric circle code
+G06K   7/10 436 \	4	4	5B072	G06K   7/10	2655	ハンドヘルド・スキャナの構造上の細部	structural details of hand-held scanner
+G06K   7/10 440 \	5	5	5B072	G06K   7/10	109	指または手首に装着されるスキャナ	scanner to be wore on finger or wrist
+G06K   7/10 444 \	5	5	5B072	G06K   7/10	155	ハンドヘルド・スキャナを据え置き型スキャナとして使用可能とさせる適合	adaptation to make hand-held scanner usable as stationary type scanner
+G06K   7/10 448 \	5	5	5B072	G06K   7/10	120	スキャナをスリープ・モードから起動させる手段，例．スキャナがユーザーによって持ち上げられたことを示す加速度センサを使うもの	means to start up scanner from sleep mode, e.g. using acceleration sensor to indicate scanner is being picked up by user
+G06K   7/10 452 \	4	4	5B072	G06K   7/10	405	ＴＶ走査手段により読み取るもの	reading by TV scanning means
+G06K   7/10 456 \	4	4	5B072	G06K   7/10	1058	データ領域の画像を中間ストア手段へ転送した後に読み取るもの，例．ＣＲＴのストレージへ転送した後に読み取るもの	reading after picture in data domain is transmitted to intermediate storage means, e.g. reading CRT ater transmitted to storage
+G06K   7/10 460 \	4	4	5B072	G06K   7/10	267	少なくとも一部がホログラム型である記録担体	record carrier with at least a part of it being hologram type
+G06K   7/10 464 \	4	4	5B072	G06K   7/10	971	表示スクリーンまたはその類いに表示された記録担体のスキャンのために適合化したスキャナ	scanner adapted to acanning record carrier displayed on display screen or like
+G06K   7/10 468 \	4	4	5B072	G06K   7/10	96	スキャナが複数のスキャン窓を有するもの，例．スーパーマーケットのチェックアウト・カウンターに組み込まれ，実質的に直交配置された２つのスキャン窓を有するスキャナ	scanner having multiple windows, e.g. scanner having two scan windows substantially crossing at right angle and integrated into checkout counter at supermarket
+G06K   7/10 472 \	4	4	5B072	G06K   7/10	251	付加的な光学的インターフェースを有するＲＦＩＤに対する質問のような，電子的メモリ記録担体の光学的読み取り	optical reading of electronic memory record carrier such as interrogation against RFID having additional optical interface
+G06K   7/10 476 \	4	4	5B072	G06K   7/10	132	モジュール構造を有するスキャン装置	scan device having module structure
+G06K   7/10 480 \	2	2	5B072	G06K   7/10	19	Ｘ線を用いたスキャン	scan using X ray
+G06K   7/12  \	2	2	5B072	G06K   7/12	1669	選択された波長を用いるもの，例．赤色マークを読取り，青色マークを無視するもの	using a selected wavelength, e.g. to sense red marks and ignore blue marks
+G06K   7/14  \	2	2	5B072	G06K   7/14	558	波長を特定しない光を用いるもの，例．白色光の反射を感知するもの	using light without selection of wavelength, e.g. sensing reflected white light
+G06K   7/14 004 \	3	3	5B072	G06K   7/14	187	光コード認識のための方法	method for recognizing optical code
+G06K   7/14 008 \	4	4	5B072	G06K   7/14	1052	コードのタイプに特に適した方法	method especially adapted to type of code
+G06K   7/14 013 \	5	5	5B072	G06K   7/14	5666	１次元バーコード	one dimensional bar code
+G06K   7/14 017 \	5	5	5B072	G06K   7/14	3668	２次元コード	two dimensional code
+G06K   7/14 021 \	5	5	5B072	G06K   7/14	119	円形バーコード	circular shaped bar code
+G06K   7/14 026 \	5	5	5B072	G06K   7/14	29	マルチレベルバーコード	multi level bar code
+G06K   7/14 030 \	5	5	5B072	G06K   7/14	61	グリフコード；絵文字コード	glyph code; pictorial symbol code
+G06K   7/14 034 \	5	5	5B072	G06K   7/14	465	補足的あるいは追加的なコードのあるバーコード	bar code having supplementary oradditional code
+G06K   7/14 039 \	4	4	5B072	G06K   7/14	556	光コードの読み出しのために方法ステップを含むもの	include steps of method to read optical code
+G06K   7/14 043 \	5	5	5B072	G06K   7/14	790	画像中のコードの位置決めステップ	step to determine positioning of code in picture
+G06K   7/14 047 \	5	5	5B072	G06K   7/14	794	光コードを担持する画像またはテキストから光コードを抽出するステップ	step to extract optical code from picture or text supporting optical code
+G06K   7/14 052 \	5	5	5B072	G06K   7/14	210	バーコード端を検出するステップ	step to detect bar code edge
+G06K   7/14 056 \	5	5	5B072	G06K   7/14	280	リーダに関して光コードの方向を決定及び補正するステップ	step to determine and correct direction of optical code in relation to reader
+G06K   7/14 060 \	4	4	5B072	G06K   7/14	737	品質向上のためのステップを含む方法	method including step to improve quality
+G06K   7/14 065 \	5	5	5B072	G06K   7/14	480	光コードの数回の連続したスキャンを用いるステップ	step using multiple and coonsecutive scan of optical code
+G06K   7/14 069 \	5	5	5B072	G06K   7/14	30	サブピクセル補間を用いるステップ	step using subpixel interpolation
+G06K   7/14 073 \	5	5	5B072	G06K   7/14	430	エラー訂正を用いるステップ	step using subpixel interpolation
+G06K   7/14 078 \	5	5	5B072	G06K   7/14	245	白黒判定のためにＣＭＯＳまたはＣＣＤピクセルセンサ内のピクセルに閾値を適用するステップ	step to apply threshold to pixel inside pixel sensor of CMOS or CCD to judge black or white
+G06K   7/14 082 \	5	5	5B072	G06K   7/14	26	神経ネットワーク，遺伝的アルゴリズム，焼きなまし法のような，ファジー論理解法または自然現象をモデルとした解法を用いるステップ	step using fuzzy logic solution or solution taking natural phenomenon as model such as neural network, genetic algorithm, simulated annealing
+G06K   7/14 086 \	5	5	5B072	G06K   7/14	458	バーコードが復号されるために閾値幅を設定するステップ	step to establish threshold value width in order to decode bar code
+G06K   7/14 091 \	5	5	5B072	G06K   7/14	406	再構成ステップを含む方法，例．完全なバーコードを得るために２片のバーコードをつなぎ合わせるステップ	method including restructuring step, e.g. step to join two pieces of bar code to obtain one complete bar code
+G06K   7/14 095 \	4	4	5B072	G06K   7/14	21	画像圧縮ステップを含む方法	method including step to image compression
+G06K  11/00  \	0	0	5B028	G06K  11/00	457	グラフを読取るため，または機械的変量，例．力または存否，のパターンを電気信号に変換するための方法または装置（文字またはパターン認識と結合しているものＧ０６Ｋ９／００；イメージまたはビデオの認識または理解のための装置Ｇ０６Ｖ１０／００；文字認識，デジタルインクの認識，文書指向イメージベースのパターン認識Ｇ０６Ｖ３０／００）	Methods or arrangements for graph-reading or for converting the pattern of mechanical parameters, e.g. force or presence, into electrical signals (combined with pattern recognition G06F 18/00; arrangements for image or video recognition or understanding G06V 10/00; character recognition, recognising digital ink or document-oriented imagebased pattern recognition G06V 30/00) [1, 2, 2006.01]
+G06K  11/02  \	1	1	5B028	G06K  11/02	5	自動曲線追従器	Automatic curve followers
+G06K  11/04  \	2	2	5B028	G06K  11/04	0	補助走査パターンを用いるもの［２］	using an auxiliary scanning pattern [2]
+G06K  11/06  \	1	1	5B028	G06K  11/06	1828	手動操作の筆記具またはトレース器具の位置を電気信号に変換するための装置［３］	Devices for converting the position of a manually-operated writing or tracing member into an electrical signal [3]
+G06K  13/00  \	0	0	5B023	G06K  13/00	310	ある位置から他の位置への記録担体の移送，例．スタックからせん孔機構への記録担体の移送（別の動作，例．読取り，と組み合わせた記録担体の移送Ｇ０６Ｋ１７／００）	Conveying record carriers from one station to another, e.g. from stack to punching mechanism (conveying record carriers combined with another operation, e.g. with reading G06K 17/00)
+G06K  13/02  \	1	1	5B023	G06K  13/02	239	縦横の長さがあまり違わない記録担体に関するもの，例．せん孔カード用	the record carrier having longitudinal dimension comparable with transverse dimension, e.g. punched card
+G06K  13/04  \	2	2	5B023	G06K  13/04	455	細部，例．カード分類装置のフラップ	Details, e.g. flaps in card-sorting apparatus
+G06K  13/05  \	3	3	5B023	G06K  13/05	276	キャプスタン；ピンチローラ	Capstans; Pinch rollers
+G06K  13/06  \	2	2	5B023	G06K  13/06	48	カードの案内；カード移送機構の正しい動作の検査［２］	Guiding cards; Checking correct operation of card-conveying mechanisms [2]
+G06K  13/06  A	2	0	5B023	G06K  13/06	488	カ−ド挿入，排出；シヤツタ−〔ストツパ−Ｋ１３／０７７Ａ〕	Insertion and ejection of cards, Shutters (stopper K 13/077 A)
+G06K  13/06  B	2	1	5B023	G06K  13/06	520	規格外カ−ドまたは挿入方向誤りカ−ドの検出，排出；カ−ド反転；弱腰カ−ド対策	Detection and ejection of substandard cards or cards inserted in a wrong direction; Inverting cards; Countermeasures against weak cards
+G06K  13/06  C	2	1	5B023	G06K  13/06	810	カ−ド挿入，排出駆動；シヤツタ−の出没制御	Driving of insertion and ejection of cards; Control of  rising and setting of shutters
+G06K  13/06  Z	2	0	5B023	G06K  13/06	267	その他のもの	Others
+G06K  13/063  \	3	3	5B023	G06K  13/063	13	カードの整列［２］	Aligning cards [2]
+G06K  13/063  A	3	0	5B023	G06K  13/063	301	スキユ−〔斜行〕検出，補正	Detection and correction of skewing (bias filling)
+G06K  13/063  B	3	0	5B023	G06K  13/063	422	ヘツドとカ−ドとの圧着〔押圧〕，吸着またはカ−ドの引張り等によるヘツドとカ−ド間の間隔調整	Adjusting the space between the head and a card by contact-bonding (pressurising), sorbing, or stretching by cards, etc.
+G06K  13/063  C	3	0	5B023	G06K  13/063	435	移送路上におけるカ−ドガイドの構造または形状；可動ガイドの移動制御	Structures or shapes of card guides on a transport passage; Control of movement of movable guides
+G06K  13/063  Z	3	0	5B023	G06K  13/063	93	その他のもの	Others
+G06K  13/067  \	3	3	5B023	G06K  13/067	19	カードの有無，正しい位置，移動状態の検査［２］	Checking presence, absence, correct position, or moving status of cards [2]
+G06K  13/067  A	3	0	5B023	G06K  13/067	171	移送路上におけるジヤムの検出，防止	Detection and prevention of jam on a transport passage
+G06K  13/067  B	3	0	5B023	G06K  13/067	153	移送路上におけるダブルフイ−ド〔２枚送り〕の検出，防止	Detection and prevention of double-feed (two-form feeding) on a transport passage
+G06K  13/067  C	3	0	5B023	G06K  13/067	122	先行するカ−ドの処理状況により，次カ−ドの送出または移送を制御するもの	controlling discharge or transport of the next card depending on the processing status of the preceding card
+G06K  13/067  Z	3	0	5B023	G06K  13/067	406	その他のもの	Others
+G06K  13/07  \	2	2	5B023	G06K  13/07	24	複数ステーション間でのカードの移送	Transporting of cards between stations
+G06K  13/07  A	2	0	5B023	G06K  13/07	61	移送に同期したクロツクまたはタイミングパルスの発生	Generation of clock or timing pulses synchronising with transport
+G06K  13/07  B	2	0	5B023	G06K  13/07	137	同一移送路で往復するもの	reciprocating on the same transport passage
+G06K  13/07  C	2	0	5B023	G06K  13/07	118	異なる移送路で往復するもの	reciprocating on the different transport passage
+G06K  13/07  D	2	0	5B023	G06K  13/07	117	区分移送；計数移送	Section transport; Counting transport
+G06K  13/07  E	2	0	5B023	G06K  13/07	201	カ−ドの移送速度の制御〔監視，１３／０６７Ｚ〕；定速移送のためのもの；間欠または連続移送の双方が可能なもの	Control of card transport speed (monitoring, 13/067 Z); for constant-speed transport; Being capable of intermittent or continuous transport
+G06K  13/07  Z	2	0	5B023	G06K  13/07	357	その他のもの	Others
+G06K  13/073  \	3	3	5B023	G06K  13/073	11	連続移動によるもの［２］	with continuous movement [2]
+G06K  13/077  \	3	3	5B023	G06K  13/077	1	間欠移動によるもの；移動の制止または停止［２］	with intermittent movement; Braking or stopping movement [2]
+G06K  13/077  A	3	0	5B023	G06K  13/077	346	移動の制止，停止または位置決め，並びにそのためのストツパ−またはブレ−キの構造もしくは形状，及びその動作の制御	Braking and stopping of movement or positioning, and structures or shapes of a stopper or brake therefor, and control of its motion
+G06K  13/077  Z	3	0	5B023	G06K  13/077	59	その他のもの	Others
+G06K  13/08  \	2	2	5B023	G06K  13/08	174	カードの供給または排出	Feeding or discharging cards
+G06K  13/10  \	3	3	5B023	G06K  13/10	39	マガジンから移送装置へ	from magazine to conveying arrangement
+G06K  13/103  \	4	4	5B023	G06K  13/103	15	機械的手段によるもの［２］	using mechanical means [2]
+G06K  13/103  A	4	0	5B023	G06K  13/103	185	マガジンから移送路へ送出する際のダブルフイ−ドの検出，防止	Detection and prevention of double-feed at the time of dispensing from magazine to transport passage
+G06K  13/103  B	4	1	5B023	G06K  13/103	51	送出口の間隔調整	Adjusting the space of dispensing outlet
+G06K  13/103  C	4	0	5B023	G06K  13/103	64	送出手段の作動及び停止の制御	Control of operation and stop of dispensing means
+G06K  13/103  D	4	1	5B023	G06K  13/103	52	送出手段とカ−ドとの離接制御	Control of approaching and withdrawing of dispensing means and cards
+G06K  13/103  E	4	0	5B023	G06K  13/103	77	送出手段とカ−ドとの圧接力制御	Control of pressure between dispensing means and cards
+G06K  13/103  F	4	0	5B023	G06K  13/103	58	送出ミス〔キツクミス〕対策	Prevention against misdispensing (miskicking)
+G06K  13/103  G	4	0	5B023	G06K  13/103	15	カ−ドサイズに合わせて送出手段の位置を調整するもの	adjusting locations of dispensing means according to the size of the card
+G06K  13/103  H	4	0	5B023	G06K  13/103	35	手による１枚挿入を可能とするもの	a single card being capable of being inserted by hand
+G06K  13/103  Z	4	0	5B023	G06K  13/103	196	その他のもの	Others
+G06K  13/107  \	4	4	5B023	G06K  13/107	1	空気力学的手段によるもの［２］	using pneumatic means [2]
+G06K  13/107  A	4	0	5B023	G06K  13/107	96	マガジンから移送路へ送出する際のダブルフイ−ドの検出，防止	Detection and prevention of double-feed at the time of dispensing from magazine to transport passage
+G06K  13/107  B	4	0	5B023	G06K  13/107	78	吸着ブロツク及びその動作の制御	Control of a sorbing block and its motion
+G06K  13/107  Z	4	0	5B023	G06K  13/107	19	その他のもの	Others
+G06K  13/12  \	3	3	5B023	G06K  13/12	10	移送装置からマガジンへ	from conveying arrangement to magazine
+G06K  13/12  A	3	0	5B023	G06K  13/12	200	カ−ドの種別による区分収納；計数収納	Sorting storage according to types of cards; Counting storage
+G06K  13/12  B	3	1	5B023	G06K  13/12	152	正常カ−ドと不良カ−ドとの区分収納	Sorting storage of normal cards and faulty cards
+G06K  13/12  C	3	1	5B023	G06K  13/12	43	フラツタ〔セレクタ〕の制御〔フラツタそれ自体Ｇ０６Ｋ１３／０４〕	Control of a flatter (selector) (flatters per se G 06 K 13/04)
+G06K  13/12  D	3	0	5B023	G06K  13/12	48	一時収積手段〔補助マガジン〕を有するもの〔紙幣支払いのためのものＧ０７Ｄ〕	having a temporary integration means (auxiliary magazine) (for dispensing paper currency G 07 D)
+G06K  13/12  E	3	0	5B023	G06K  13/12	202	マガジンへカ−ドを排出するための機構	Mechanisms of discharging cards to magazine
+G06K  13/12  Z	3	0	5B023	G06K  13/12	31	その他のもの	Others
+G06K  13/14  \	3	3	5B023	G06K  13/14	4	カードマガジン，例．ポケット，ホッパー	Card magazines, e.g. pocket, hopper
+G06K  13/14  A	3	0	5B023	G06K  13/14	88	可動マガジン；着脱自在マガジン	Movable magazine; Freely removable and mountable magazine
+G06K  13/14  B	3	0	5B023	G06K  13/14	112	カ−ド量の検知手段を有するマガジン；カ−ド補給手段を有するマガジン	Magazine having means for detecting the quantity of cards; Magazine having means for supplying cards
+G06K  13/14  C	3	1	5B023	G06K  13/14	175	積載カ−ド量によつて可動するカ−ド載置板またはカ−ド押圧板を有するマガジン；重り〔ウエイト〕	Magazine having a card loading plate or a card pressure plate being movable depending on the quantity of loaded cards; Weights (weights)
+G06K  13/14  D	3	0	5B023	G06K  13/14	87	カ−ド整位のためのストツパ−またはカ−ド揃えを有するマガジン	Magazine having a stopper or a card aligner to align cards
+G06K  13/14  E	3	0	5B023	G06K  13/14	182	マガジンの構造または形状	Structures or shapes of magazines
+G06K  13/14  Z	3	0	5B023	G06K  13/14	44	その他のもの	Others
+G06K  13/16  \	2	2	5B023	G06K  13/16	9	可撓性シート，例．小切手，の処理	Handling flexible sheets, e.g. cheques
+G06K  13/18  \	1	1	5B023	G06K  13/18	95	縦方向に延びた記録担体，例．せん孔テープ	the record carrier being longitudinally extended, e.g. punched tape
+G06K  13/20  \	2	2	5B023	G06K  13/20	58	細部	Details
+G06K  13/22  \	3	3	5B023	G06K  13/22	29	キャプスタン；ピンチローラ	Capstans; Pinch rollers
+G06K  13/24  \	2	2	5B023	G06K  13/24	2	記録担体の案内；記録担体の端部の検出	Guiding of record carriers; Recognising end of record carrier
+G06K  13/24  A	2	0	5B023	G06K  13/24	66	テ−プの残量の検出；テ−プの端部の検出	Recognising remaining quantity of a tape; Recognising end of a tape
+G06K  13/24  B	2	0	5B023	G06K  13/24	131	テ−プの整列；テ−プ幅の検出	Aligning tapes; Recognising the width of a tape
+G06K  13/24  Z	2	0	5B023	G06K  13/24	72	その他のもの	Others
+G06K  13/26  \	2	2	5B023	G06K  13/26	0	記録担体の巻上げまたは巻戻し；記録担体の駆動［２］	Winding-up or unwinding of record carriers; Driving of record carriers [2]
+G06K  13/26  A	2	0	5B023	G06K  13/26	50	テ−プリ−ル；巻芯	Tape reels; Cores
+G06K  13/26  B	2	0	5B023	G06K  13/26	39	テ−プの繰出しまたは送り出し及びそのための機構〔テ−プの先端の案内Ｇ０６Ｋ１３／２４Ｚ〕	Feeding or delivery of tapes and mechanisms therefor  (guiding of the end of a tape G 06 K 13/24 Z)
+G06K  13/26  C	2	0	5B023	G06K  13/26	132	移送方式，機構；速度制御；間欠または連続移送の切り換え	Transport methods, mechanisms; Speed control; Switching of intermittent or continuous transport
+G06K  13/26  D	2	1	5B023	G06K  13/26	79	テ−プテンシヨン及びその調整；テ−プル−プバツフア〔一般Ｇ１１Ｂ〕	Tape tension and its adjustment; Tape loop buffer (in general G 11 B)
+G06K  13/26  E	2	1	5B023	G06K  13/26	50	異常送り対策；ジヤム対策	Prevention against abnormal feeding; Prevention against jam
+G06K  13/26  F	2	0	5B023	G06K  13/26	60	テ−プの巻上げまたは巻取り及びそのための機構〔テ−プの端部の検出Ｇ０６Ｋ１３／２４Ａ〕	Winding-up or unwinding of tapes and mechanisms therefor (recognising end of a tape G 06 K 13/24 A)
+G06K  13/26  G	2	0	5B023	G06K  13/26	84	テ−プ収納体；テ−プリ−ル収納体	Tape holders; Tape reel holders
+G06K  13/26  Z	2	0	5B023	G06K  13/26	35	その他のもの	Others
+G06K  13/28  \	3	3	5B023	G06K  13/28	0	連続的に行なうもの［２］	continuously [2]
+G06K  13/30  \	3	3	5B023	G06K  13/30	0	間欠的に行なうもの［２］	intermittently [2]
+G06K  13/30  A	3	0	5B023	G06K  13/30	142	停止制御及びそのための機構；位置決め	Stop control and mechanisms therefor; Positioning
+G06K  13/30  Z	3	0	5B023	G06K  13/30	90	その他のもの	Others
+G06K  15/00  \	0	0	5B036	G06K  15/00	5755	出力データの永久可視表示を作成するための装置（別の動作，例．移送，と組み合わせた印刷またはプロッティングＧ０６Ｋ１７／００）［３］	Arrangements for producing a permanent visual presentation of the output data (printing or plotting combined with another operation, e.g. with conveying, G06K 17/00) [3]
+G06K  15/02  \	1	1	5B036	G06K  15/02	31	プリンタを用いるもの	using printers
+G06K  15/04  \	2	2	5B036	G06K  15/04	11	ラック型プリンタによるもの	by rack-type printers
+G06K  15/06  \	2	2	5B036	G06K  15/06	735	活字輪型プリンタによるもの	by type-wheel printers
+G06K  15/07  \	3	3	5B036	G06K  15/07	335	連続回転活字輪型プリンタ，例．回転活字ドラム型プリンタ，によるもの［２］	by continuously-rotating-type-wheel printers, e.g. rotating-type-drum printers [2]
+G06K  15/08  \	2	2	5B036	G06K  15/08	847	印字行の方向に移動する活字型を有するフライトプリンタ，例．チェーン型プリンタ，によるもの	by flight printing with type font moving in the direction of the printed line, e.g. chain printers
+G06K  15/10  \	2	2	5B036	G06K  15/10	4325	マトリックス型プリンタによるもの	by matrix printers
+G06K  15/12  \	2	2	5B036	G06K  15/12	2350	写真印刷によるもの	by photographic printing
+G06K  15/14  \	2	2	5B036	G06K  15/14	544	静電印刷によるもの，例．ゼログラフィーによるもの；磁気印刷によるもの	by electrographic printing, e.g. xerography; by magnetographic printing
+G06K  15/16  \	2	2	5B036	G06K  15/16	1892	紙または用紙の給送手段	Means for paper feeding or form feeding
+G06K  15/22  \	1	1	5B036	G06K  15/22	355	プロッタを用いるもの［３］	using plotters [3]
+G06K  17/00  \	0	0	5B058	G06K  17/00	761	メイングループＧ０６Ｋ１／００〜Ｇ０６Ｋ１５／００の２つ以上のメイングループに包含される装置を協働させるための方法または装置，例．移送動作と読取り動作を取り込んだ自動カードファイル	Methods or arrangements for effecting co-operative working between equipments covered by two or more of main groups G06K 1/00-G06K 15/00, e.g. automatic card files incorporating conveying and reading operations
+G06K  17/00 003 \	1	1	5B058	G06K  17/00	337	選択，搬送かつ読み書き動作を組み入れた自動カードファイル	automatic card file into which motions of selecting, transporting and reading are incorporated
+G06K  17/00 006 \	2	2	5B058	G06K  17/00	147	カードファイルからの記録担体の選択をランダムアクセスで行うもの，例．カードマガジンを構成する選択装置上で記録担体が一時停止するもの	selects record carrier from card file by random access, e.g. record carrier temporarily stop on selecting device composing card magazine
+G06K  17/00 009 \	2	2	5B058	G06K  17/00	461	カードファイルからの記録担体の選択をシーケンシャルアクセスで行うもの，例．選択装置とカードファイル間の相対運動	selects record carrier from card file by sequential access, e.g. relative movement between selecting device and card file
+G06K  17/00 012 \	2	2	5B058	G06K  17/00	21	２以上の選択ステップを伴うもの，例．分割されたストレージの選択された区分からの記録担体の選択（物品の貯蔵装置Ｂ６５Ｇ１／０４）	accompanies two or more selecting steps, e.g. slection of record carrier from selected division of divided storage (storing device of articles B65G1/04)
+G06K  17/00 016 \	1	1	5B058	G06K  17/00	48	画像に関連付けられたコード・マークを用いて当該画像を選択または検索するもの，例．コード化マイクロフィルムまたはマイクロフィッシュの選択または検索（マイクロフィルムの読み取りＧ０３Ｂ２１／１１）	select or search picture using code mark linked to picture, e.g. selection or searching ofcoded microfilm or microfiche (reading of microfilm G03B21/11)
+G06K  17/00 019 \	2	2	5B058	G06K  17/00	36	フィルムストリップ上の画像のためのもの	for picture on filmstrip
+G06K  17/00 022 \	1	1	5B058	G06K  17/00	6586	遠隔ステーションへの転送のための装置，例．読み取り装置からの転送	device to transmit to remote station, e.g. transmit from reading device
+G06K  17/00 025 \	2	2	5B058	G06K  17/00	684	記録担体に光学的にマークするための装置と結合する無線質問器からなる装置	device composed of combination of device to optically mark record carrier and radio interrogator
+G06K  17/00 029 \	2	2	5B058	G06K  17/00	306	無線記録担体でタグ付けされた物品であって，グループ分けされるかまとめられた物品への無線による質問に特に適用される装置	device specially applied to interrogation by radio to article that is tagged by radio record carrier and divided into groups or grouped together
+G06K  17/00 032 \	1	1	5B058	G06K  17/00	659	多肢選択式の試験に用いられる，マークされた記録担体を自動試験及び自動分析する装置（質問と回答を伴って動作する教習機器Ｇ０９Ｂ７／００）	device to automatically test and analyze marked record carrier and used for multiple choice examination (learning apparatus activated when questionnaires are accompanied with answers G09B7/00)
+G06K  19/00  \	0	0	5B035	G06K  19/00	477	機械と共に使用され，かつ，少なくとも，デジタルマーキングを担持するように設計された部分と共に使用される，ための記録担体	Record carriers for use with machines and with at least a part designed to carry digital markings
+G06K  19/00 050 \	1	1	5B035	G06K  19/00	1395	保持装置への挿入を容易にするための構成をなす記録担体，例．箱またはケースに記録担体を適合させる装置（チケットホルダーＡ４５Ｃ１１／１８）	record carrier as a component to make insertion into holding device easier, e.g. device to adapt record carrier onto box or case (ticket holder A45C11/18)
+G06K  19/02  \	1	1	5B035	G06K  19/02	2750	材料の選定に特徴のあるもの，例．機械中を移送する間での摩耗を避けるための材料の選定	characterised by the selection of materials, e.g. to avoid wear during transport through the machine
+G06K  19/02 020 \	2	2	5B035	G06K  19/02	651	プロセスまたはそのための装置	process or device for process
+G06K  19/02 050 \	2	2	5B035	G06K  19/02	692	折り畳むために柔軟なまたは適応的な材料，例．ＲＦＩＤを担持する，荷物ラベル，ＩＤタグ，フォームまたは身分証明書，に使用される紙または紙のような材料（有価証券，例．紙幣またはパスポート，の真贋を判定する方法Ｇ０７Ｄ７／００；冊子体のようなものの構造上の特徴Ｂ４２Ｄ）	materials adapted or soft enough for folding, e.g. paper or paper like materials used for RFID support, baggage label, ID tag, form or identifgication paper (securitgies, e.g. method to judge authenticity of paper money or passport G07D7/00; structural characteristics of booklet and like B42D)
+G06K  19/02 070 \	2	2	5B035	G06K  19/02	257	布地用に適した材料，例．洗濯物に取り付けられるように織り込まれた，ＲＦＩＤに類するラベル	materials suitable for fabrics, e.g. RFID like label woven into and attached to laundry
+G06K  19/04  \	1	1	5B035	G06K  19/04	416	形状によって特徴づけられるもの	characterised by the shape
+G06K  19/04 010 \	2	2	5B035	G06K  19/04	772	構造上の細部（Ｇ０６Ｋ１９／０６が優先）	structural details (G06K19/06 takes precedence)
+G06K  19/04 020 \	3	3	5B035	G06K  19/04	168	クレジットカードの外形を有し，小型ディスク，例．ＣＤまたはＤＶＤ，を含む記録担体（ディスクの形をしたデータキャリア一般Ｇ１１Ｂ２０／００，Ｇ１１Ｂ２３／００）	record carrier in shape of credit card and including small size disc, e.g. CD or DVD (data carrier in shape of disc in general G11B20/00, G11B23/00)
+G06K  19/04 040 \	4	4	5B035	G06K  19/04	102	集積回路チップ上に接触端子を構成するもの	composes contact terminal on integrated circuit chip
+G06K  19/04 050 \	4	4	5B035	G06K  19/04	136	ＲＦＩＤのような非接触型であって，ＣＤやＤＶＤのようなディスクへの取付けに特に適合した記録担体	record carrier of non-contact type adapted to attachment to disc such as CD and DVD
+G06K  19/04 070 \	3	3	5B035	G06K  19/04	391	コインまたは賭博用トークンの形をした記録担体	record carrier in shape of coin or gambling token
+G06K  19/04 080 \	3	3	5B035	G06K  19/04	87	鍵の形をした記録担体	record carrier in shape of a key
+G06K  19/06  \	1	1	5B035	G06K  19/06	471	デジタルマーキングの種類によって特徴づけられるもの，例．形状，性質，コード	characterised by the kind of the digital marking, e.g. shape, nature, code
+G06K  19/06 009 \	2	2	5B035	G06K  19/06	1868	光学的に検出可能なマークを含むもの（Ｇ０６Ｋ１９／０６３，Ｇ０６Ｋ１９／０８が優先）	including mark optically detectaable (G06K19/063, G06K19/08 take precedence)
+G06K  19/06 018 \	3	3	5B035	G06K  19/06	406	１次元コード	one dimensional code
+G06K  19/06 028 \	4	4	5B035	G06K  19/06	2884	バーコードを用いるもの	using bar code
+G06K  19/06 037 \	3	3	5B035	G06K  19/06	3671	多次元コード	multi dimensional code
+G06K  19/06 046 \	3	3	5B035	G06K  19/06	739	構造上の細部	atructural details
+G06K  19/06 056 \	4	4	5B035	G06K  19/06	310	他のマークが埋め込まれたマーク，例．より小型なコードを黒帯に備える１次元バーコード	mark with other mark being embedded, e.g. one dimensoinal bar code having smaller code in black belt
+G06K  19/06 065 \	4	4	5B035	G06K  19/06	591	少なくとも一部がホログラムとなっているマーク（ホログラム・マーク一般Ｇ０６Ｋ１９／１６）	mark with at least a part being hologram (hologram mark in general G06K19/16)
+G06K  19/06 075 \	4	4	5B035	G06K  19/06	263	エラー訂正手段を含むマーク	mark having error correction means
+G06K  19/06 084 \	4	4	5B035	G06K  19/06	32	ナノ粒子またはマイクロ・ビーズ上のマーク	mark on nano particle of microbeads
+G06K  19/06 093 \	4	4	5B035	G06K  19/06	679	複数の同様のマークから構成されるマーク，例．物体上にランダムに配置された複数のバーコード	mark composed of multiple similar marks, e.g. multiple bar codes arrange in random on object
+G06K  19/06 103 \	4	4	5B035	G06K  19/06	535	人間が認識可能な画像に埋め込まれたマーク，例．２次元コードが埋め込まれた会社のロゴ	mark embedded in picture recognizable by human, e.g. two dimensional code embedded corporate logotype
+G06K  19/06 112 \	4	4	5B035	G06K  19/06	1029	光源を用いて再現されるマーク，例．時変輝度特性を有するディスプレイまたはレーザー光線で表示されるバーコード	mark reappearance by using light source, e.g. display having special quality of time varying brightness or bar code desplayed by laser beam
+G06K  19/06 121 \	4	4	5B035	G06K  19/06	775	せん孔されたまたは切り取られたマーク，例．金属製品内のバーコード装置	mark being perforated or cut off, e.g. bar-code device inside metallic product
+G06K  19/06 131 \	4	4	5B035	G06K  19/06	847	ターゲットパターンを備えるマーク，例．バーコードの中心を示すため，またはスキャナを正しく方向付けるか画像内からバーコードを抽出するようにバーコードリーダを支援するため	mark having target pattern, e.g. to show the center of bar code, or aid bar code reader to correctly direct scanner or prperly extract bar code from picture
+G06K  19/06 140 \	4	4	5B035	G06K  19/06	1719	波長に選択的なマーク，例．カラーバーコード，紫外線または赤外線の下だけで可視的なバーコード（選択された波長を用いて記録担体を読み取る方法または装置Ｇ０６Ｋ７／１２）	mark functionable to selected wavelength, colored bar code, bar code visible under ultraviolet rays or intrared rays only (method or device to read record carrier using selectged wavelength G06K7/12)
+G06K  19/06 150 \	4	4	5B035	G06K  19/06	423	リライタブル・タイプのマーク，例．熱変色型バーコード	mark of rewritable type, e.g. heat discoloration type bar code
+G06K  19/06 159 \	4	4	5B035	G06K  19/06	229	レリーフ・タイプのマーク，例．土台に彫り込まれた３次元バーコード	relief type mark, e.g. three dimensional bar code engraved on foundation
+G06K  19/06 168 \	4	4	5B035	G06K  19/06	115	同心円バーコードであるマーク	mark that is concentric circle
+G06K  19/06 178 \	4	4	5B035	G06K  19/06	128	人間の目では支援無しには小さすぎて見えないサイズに特徴を有するマーク	mark characterized by size that is too small to see by human naked eyes without aid
+G06K  19/06 187 \	2	2	5B035	G06K  19/06	2627	磁気的に検出可能なマークを備えるもの	having magnetically detectable mark
+G06K  19/06 196 \	3	3	5B035	G06K  19/06	1375	構造上の細部	structural details
+G06K  19/06 206 \	3	3	5B035	G06K  19/06	224	エミュレートされた磁気的なマーク	emulated magnetic mark
+G06K  19/063  \	2	2	5B035	G06K  19/063	184	欄外にせん孔されているかまたは刻みを入れられている担体，例．細長いスロットをもつもの［５］	the carrier being marginally punched or notched, e.g. having elongated slots
+G06K  19/067  \	2	2	5B035	G06K  19/067	434	導電性マーク，印刷回路または半導体回路素子をもつ記録担体，例．クレジットカードまたは身分証明書（電話機からの承認された発呼のためにコード化されたカードを用いるものＨ０４Ｍ１／６７５）［５］	Record carriers with conductive marks, printed circuits or semiconductor circuit elements, e.g. credit or identity cards (using a coded card to authorise calls from a telephone set H04M  1/675)
+G06K  19/067 020 \	3	3	5B035	G06K  19/067	353	共振マークを備えるもの	having alignment mark
+G06K  19/067 050 \	4	4	5B035	G06K  19/067	29	表面弾性波［ＳＡＷ］からなる共振マーク（ＳＡＷデバイス自体Ｈ０３Ｈ９／６４）	alignment mark consisted of surface acoustic wave [SAW] (SAW device per se H03H9/64)
+G06K  19/067 070 \	4	4	5B035	G06K  19/067	26	記録担体がプログラマブルなもの	record carrier being programmable
+G06K  19/07  \	3	3	5B035	G06K  19/07	2987	集積回路チップを備えるもの［５］	with integrated circuit chips
+G06K  19/07 010 \	4	4	5B035	G06K  19/07	387	少なくとも１つの集積回路チップが電源管理装置を構成するもの	at least one integrated circuit chip composes power source management device
+G06K  19/07 020 \	5	5	5B035	G06K  19/07	980	電池を含む電源管理装置	power source management device including cell
+G06K  19/07 030 \	6	6	5B035	G06K  19/07	61	スマートフォンまたはＰＤＡのようなハンドヘルド装置に搭載される電池	cell loaded on hand-held device such as snart phone or PDA
+G06K  19/07 040 \	6	6	5B035	G06K  19/07	884	充電池，例．太陽電池	rechargable battery, e.g. solar cell
+G06K  19/07 050 \	6	6	5B035	G06K  19/07	324	節電装置に接続された電池	cell connected to power saving device
+G06K  19/07 060 \	6	6	5B035	G06K  19/07	347	交換可能な電池	exchangeable cell
+G06K  19/07 070 \	5	5	5B035	G06K  19/07	145	熱電対，振動，電磁放射のような外部のエネルギー源からエネルギーを集めることができる電源管理装置（Ｇ０６Ｋ１９／０７，０２０が優先）	power source management device that can collect energy from external energy sources such as thermocouple, oscillation, electromagnetic radiation (G06K19/07, 020 takes precedence)
+G06K  19/07 080 \	6	6	5B035	G06K  19/07	182	エネルギー源が電磁気的または磁気的なもの	energy source being electromagnetic or magnetic
+G06K  19/07 090 \	7	7	5B035	G06K  19/07	1638	エネルギー源が質問器による電磁場であるもの	energy source being electromagnetic field by interrogator
+G06K  19/07 100 \	7	7	5B035	G06K  19/07	134	エネルギー源が質問器による電磁場以外の場であるもの，例．エネルギー源が無線ＬＡＮや携帯電話のネットワークによるもの	energy source being field other than electromagnetic field by interrogator, e.g. energy source being network of radio LAN or cellular phone
+G06K  19/07 110 \	6	6	5B035	G06K  19/07	64	エネルギー源が機械的または音響的なもの	energy soure being mechanicasl or acoustic
+G06K  19/07 120 \	5	5	5B035	G06K  19/07	181	記録担体の近傍におけるエネルギー場または質問器による電磁場の強さに応じて，別個の動作モードまたは機能を起動することができる電源管理装置（電磁気的な読み書きを能動的に妨害する手段Ｇ０６Ｋ１９／０７３，０３６）	power source management device able to start up distinct action mode or function in response to strength of energy field near record carrier or strength of electromagnetic field by interrogator (means to actively interfere electromagnetic reading and writing G06K19/073, 036)
+G06K  19/07 130 \	5	5	5B035	G06K  19/07	99	電力チャージポンプを含む電源管理装置	power source management device including power charge pump
+G06K  19/07 150 \	5	5	5B035	G06K  19/07	347	集積回路への電力伝送を調整する手段を含む電源管理装置	power source management device including means to regulate power transmission to integated circuit
+G06K  19/07 160 \	4	4	5B035	G06K  19/07	634	センサまたはセンサへのインターフェースを構成する少なくとも１つの集積回路チップ	one or more integrated circuit chip composing sensor or interface to sensor
+G06K  19/07 170 \	5	5	5B035	G06K  19/07	609	温度履歴または圧力のような環境条件を読み取ることができるセンサ	sensor being able to read environmental conditions such as temperature history or pressure
+G06K  19/07 180 \	5	5	5B035	G06K  19/07	373	生体計測系センサ，例．指紋センサ（指紋センサ一般Ｇ０６Ｋ９／００；生体計測出入管理システム一般Ｇ０７Ｃ９／００）	living body measurement system sensor, e.g. finger print sensor (finger print sensor in generalG06K9/00; living body meaurement access management system in general G07C9/00)
+G06K  19/07 190 \	4	4	5B035	G06K  19/07	939	アプリケーション選択のための装置，例．加速度センサまたは一組のラジオボタン，を構成する１つ以上の集積回路チップ	device for selection of application, e.g. one or more integrated circuit chip composing acceleration sensor or one set of radio button
+G06K  19/07 200 \	4	4	5B035	G06K  19/07	682	複数の集積回路チップを含む記録担体	record carrier including multiple integrated circuits
+G06K  19/07 210 \	5	5	5B035	G06K  19/07	153	単一の実体として見えるように相互に協働する複数のチップ	multiple chips working in mutual cooperation so as to create appearance that they are one entity
+G06K  19/07 220 \	4	4	5B035	G06K  19/07	685	記録担体を試験する装置を含むもの	including device to test record carrier
+G06K  19/07 230 \	4	4	5B035	G06K  19/07	9850	非接触通信のための装置，例．トランスポンダ・カード，非接触スマート・カードまたはＲＦＩＤ上の無線通信回路，を含む記録担体	device for non-contact communication, e.g. record carrier including wireless communication circuit on transponder card, non-contact smart card or RFID
+G06K  19/07 240 \	5	5	5B035	G06K  19/07	333	複数の周波数で通信するための装置，例．異なるタイプの複数のアンテナで時分割多重通信をするため	device for communicating at multiple frequencies, e.g. for making time-division multiplex communication using multiple antennas of different types
+G06K  19/07 250 \	5	5	5B035	G06K  19/07	43	複数の記録担体をエミュレートするための回路からなる装置，例．単一のＲＦＩＤタグを複数のＲＦＩＤタグとしてリーダに認識させるもの	device composed of circuits to emulate multiple record carriers, e.g. making reader recognize one RFID tag as multiple RFID tags
+G06K  19/07 260 \	5	5	5B035	G06K  19/07	637	記録担体のアンテナの共振周波数を調整する回路を含む装置	device including circuit to adjust resonance frequency of record carrier antenna
+G06K  19/07 270 \	5	5	5B035	G06K  19/07	529	ＰＤＡのスマートフォンのようなハンドヘルド装置に記録担体の組み込みを容易にする回路からなる装置	device having circuit to enhance installing of record carrier in hand-held device such as PDA smart phone
+G06K  19/07 280 \	5	5	5B035	G06K  19/07	621	光または音に基づいた通信インタフェースからなる装置	device composed of communication interface based on light or sound
+G06K  19/073  \	4	4	5B035	G06K  19/073	1502	回路用の特別な機構，例．メモリ内の識別コードを保護するためのもの（計算機のメモリの不正な使用に対する保護Ｇ０６Ｆ１２／１４）［５］	Special arrangements for circuits, e.g. for protecting identification code in memory (protection against unauthorised use of computer memory G06F 12/14)
+G06K  19/073 009 \	5	5	5B035	G06K  19/073	2407	記録担体に対する望まない読み書きを防ぐための手段	means to prevent undesired reading and writing in record carrier
+G06K  19/073 018 \	6	6	5B035	G06K  19/073	629	電磁気的な読み書きの妨害によるもの（通信の妨害，対抗手段Ｈ０４Ｋ３／００；秘密通信Ｈ０４Ｋ１／００）	by electromagnetic interference of reading and writing (jamming and counter measure of communication H04K3/00; secrecy of communication H04K1/00)
+G06K  19/073 027 \	7	7	5B035	G06K  19/073	257	受動的な手段，例．ファラデー・ケージ（電気回路のファラデー型の保護一般Ｈ０５Ｋ９／００）	passive means, e.g. Faraday cage (Faraday type protection of electric circuit in general H05K9/00)
+G06K  19/073 036 \	7	7	5B035	G06K  19/073	117	能動的な手段，例．電磁界のジャミングまたはスクランブル	active means, e.g. jamming or scramble in electromagnetic field
+G06K  19/073 045 \	6	6	5B035	G06K  19/073	794	記録担体の回路の少なくとも一部，例．オン／オフ・スイッチ，の活性化または非活性化によるもの	activation or deactivation of at least a part of record carrier circuit, e.g. on and off switch
+G06K  19/073 054 \	7	7	5B035	G06K  19/073	404	生体認証センサ，例．指紋センサ，によるもの（指紋センサ一般Ｇ０６Ｋ９／００；生体計測出入管理システム一般Ｇ０７Ｃ９／００）	by biometric authentication sensor, e.g. fingerprint sensor (fingerprint sensor in general G06K9/00; biometric access control system in general G07C9/00)
+G06K  19/073 063 \	6	6	5B035	G06K  19/073	158	回路の解析，例．動的または静的な電力解析や電流解析，の防止によるもの	by prevention of ciecuit analysis, e.g. dynammic or static analysis of electric power or electric curency
+G06K  19/073 072 \	6	6	5B035	G06K  19/073	109	回路の不正な変更の検知によるもの	by detection of unauthorized change of circuit
+G06K  19/073 081 \	7	7	5B035	G06K  19/073	163	検知された不正な変更に基づいて，少なくとも回路の一部を非活性化または無能化するもの	based on detected unauthorized change, at least part of circiut is made deactivated or disabled
+G06K  19/073 090 \	8	8	5B035	G06K  19/073	128	アンテナの一部である無能化回路	disability circuit as part of antenna
+G06K  19/077  \	4	4	5B035	G06K  19/077	1198	構造上の細部，例．担体内への回路の取付け［５］	Constructional details, e.g. mounting of circuits in the carrier
+G06K  19/077 100 \	5	5	5B035	G06K  19/077	234	人による入出力に適したインターフェイスを含む記録担体	record carrier including interface suitable for input and output by human
+G06K  19/077 104 \	6	6	5B035	G06K  19/077	707	視覚的なインターフェイス	visual interface
+G06K  19/077 108 \	7	7	5B035	G06K  19/077	496	一連のＬＥＤのような１つまたは少数の光源を点灯または消灯させる視覚的インターフェイス	visual interface where one or few light sources such as series of LED are turned on or turned off
+G06K  19/077 112 \	7	7	5B035	G06K  19/077	1873	ディスプレイ，例．ＬＣＤまたは電子ペーパー	display, e.g. LCD or electronic paper
+G06K  19/077 116 \	6	6	5B035	G06K  19/077	737	キーボード	key board
+G06K  19/077 120 \	6	6	5B035	G06K  19/077	402	音声インターフェイス	voice interface
+G06K  19/077 124 \	6	6	5B035	G06K  19/077	141	質問信号の受信時に，ユーザーまたは検出装置に対して，記録担体の位置を示す信号を送ることができるインターフェイス	interface that allows, at the time of receiving interrogation signal, transmission of signal  indicating location of record carrier to user or detection device
+G06K  19/077 128 \	6	6	5B035	G06K  19/077	108	記録担体が作動中であることを示すのに用いられるインターフェイス，例．記録担体が他の装置と通信中であることや演算中であることを示す，ライトの点滅	interface to be used to indicate record carrier is in operation, e.g. flashing og light indicating record carrier is in communication with other devices or in calculation
+G06K  19/077 132 \	5	5	5B035	G06K  19/077	121	カスタマイズ化のための手段，例．一括してパーソナル化するための装置，を含む記録担体	means to customize, e.g. record carrier having device to personalize in one batch
+G06K  19/077 136 \	5	5	5B035	G06K  19/077	1293	連続プロセス，例．エンドレス・ロールを用いるもの，で製造される記録担体	continuous process, e.g. record carrier manufactured with substance using endless roll
+G06K  19/077 140 \	5	5	5B035	G06K  19/077	762	記録担体の物理的レイアウト	physical layout of record carrier
+G06K  19/077 144 \	6	6	5B035	G06K  19/077	3599	積層シートのような多層構造の記録担体（平坦物品一般Ｂ３２Ｂ３１／００）	record carrier of multilayer structure such as laminated sheet (flat article in general B32B31/00)
+G06K  19/077 148 \	6	6	5B035	G06K  19/077	1103	少なくとも一部が成型加工により製造された記録担体（成型加工一般Ｂ２９Ｃ４５／１４）	record carrier at least partially manufactured by fabrication (fabrication in general B29C45/14)
+G06K  19/077 152 \	6	6	5B035	G06K  19/077	241	最初の使用を示す手段，例．壊れやすい層，を含むもの	means to indicate first usage, e.g. include frangible layer
+G06K  19/077 156 \	6	6	5B035	G06K  19/077	2517	衝撃または曲げに対する保護手段，例．集積回路の周りの保護殻または応力吸収層，を含む記録担体	protection means against shock or flexure, e.g. record carrier having protection shell or stress absorption layer around integrated circuit
+G06K  19/077 160 \	6	6	5B035	G06K  19/077	416	外部の熱源から保護する手段を含む記録担体	record carrier including meansto protect from external heat sources
+G06K  19/077 164 \	6	6	5B035	G06K  19/077	3056	周知の携帯用メモリ装置に類似した筐体または構造を有する記録担体（電気装置の筐体一般Ｈ０５Ｋ５／０２）	record carrier having housing or structure similar to commonly known portable memory device
+G06K  19/077 168 \	6	6	5B035	G06K  19/077	263	ＩＳＯ−７８１６規格に準拠しない，少なくとも１つの他の接触インターフェイスを含む記録担体	record carrier including at least one other contact interface that does not conform to ISO-7816 standard
+G06K  19/077 172 \	6	6	5B035	G06K  19/077	731	静電放電から保護する手段を含む記録担体	record carrier having means of protection from electrostatic discharge
+G06K  19/077 176 \	5	5	5B035	G06K  19/077	102	複数の機械的に分離可能な部品からなる記録担体	record carrier composed of multiple components mechanically detachable
+G06K  19/077 180 \	6	6	5B035	G06K  19/077	320	単独で記録担体として機能し得る第１の部品と，一部を変えた形状として単に機能する第２の部品を含むもの，例．標準的なスマートカードの形状に取り外し可能に取り付けられる，タイプＩＤが０００１のＳＩＭカード	includes two components where first component can function as record carrier by itself and second component functions with its shape partially modified, e.g. SIM card with type ID 0001 that is removably attached to shape of standard smart card
+G06K  19/077 184 \	6	6	5B035	G06K  19/077	464	標準的な記録担体として動作する第１の部品と，当該記録担体の機能的な態様を変更する付加的な第２の部品を含むもの，例．接触型カードに取り付けられたとき，当該接触型カードを非接触型カードとして機能させるアダプター部品を備えた接触型ベースのスマートカード	includes two components where first component functions as standard record carrier and second component being additional one which modifies functional terms of the record carrier, e.g. contact type based smart card having adapter part which makes the contact type card function as non-contact type card when attached to the contact type card
+G06K  19/077 188 \	5	5	5B035	G06K  19/077	2379	外部電気接点	point of contact with external electricity
+G06K  19/077 192 \	5	5	5B035	G06K  19/077	871	集積回路チップの取り付けにおける細部	detail of attaching integrated circuit chip
+G06K  19/077 196 \	6	6	5B035	G06K  19/077	1310	１つのモジュールとして取り付けられる，少なくとも１つの集積回路チップ	at least one integrated circuit chip attached as one module
+G06K  19/077 200 \	5	5	5B035	G06K  19/077	1775	非接触通信可能な記録担体，例．非接触スマートカードのアンテナに関する構造上の細部	record carrier able to make non-contact communication, e.g. structural details related to non-contact smart card antenna
+G06K  19/077 204 \	6	6	5B035	G06K  19/077	367	集積回路をアンテナに接続するための機構	mechanism for connecting integrated circuit to antenna
+G06K  19/077 208 \	7	7	5B035	G06K  19/077	197	インターポーザを使用するもの	using interposer
+G06K  19/077 212 \	7	7	5B035	G06K  19/077	1371	接続が接触的であるもの	connection being contact type
+G06K  19/077 216 \	7	7	5B035	G06K  19/077	301	接続が非接触的であるもの，例．容量結合	connection being non-contact type, e.g. capacity coupling
+G06K  19/077 220 \	6	6	5B035	G06K  19/077	3384	他の物体や生物に，識別タグとして機能する記録担体を付着させる機構	mechanism to adhere recording carrier functioning as identification tag on other article or living things
+G06K  19/077 224 \	7	7	5B035	G06K  19/077	1079	記録担体がのり付きラベルとして機能できるための，接着層からなる付着機構	adhesion mechanism composed of adhesive layer to allow recording carrier to function as label with paste
+G06K  19/077 228 \	7	7	5B035	G06K  19/077	611	記録担体をウエアラブルにする付着機構，例．指輪，腕時計，手袋または腕輪の形状を有するもの（医療用で人体に挿入される記録担体Ａ６１Ｂ１９／００；動物に取り付けるのに適した記録担体Ａ０１Ｋ１１／００）	attacment mechanism to make recording carrier wearable, e.g. having shape of ring, wrist watch, glove or bracelet (recording carrier for medical use to be inserted into human body A61B19/00; recording carrier adapted to attaching on animal A01K11/00)
+G06K  19/077 232 \	7	7	5B035	G06K  19/077	129	記録担体をタイヤに取り付け可能とする付着機構（タイヤの温度または圧力を制御する装置Ｂ６０Ｃ２３／００）	attachment mechanism to allow attaching recording carrier to tire (device to control tire temperature or pressure B60C23/00)
+G06K  19/077 236 \	6	6	5B035	G06K  19/077	216	第１の非接触通信装置に加えて少なくとも１つの第２の通信装置を含むもの	in addition to first non-contact communication device, having one or more second communication device
+G06K  19/077 240 \	7	7	5B035	G06K  19/077	328	ダイポール型とコイル型のような，異なるタイプの２つのアンテナ，または，同じ種類であるが異なる周波数で動作する２つのアンテナ，からなる第１及び第２の通信手段	furst and second communication means composed of two antennas where two antennas are of different type such as dipole type and coil type, or where two antennas are of same type but operate at different frequencies
+G06K  19/077 244 \	7	7	5B035	G06K  19/077	1302	接触性インターフェイスからなる他の通信手段，例．接触型及び非接触型インターフェイスを有する，ハイブリッド型または混合型スマートカード	other communicating means composed of contact type interface, e.g. smart card of hybrid type or mixture type having interface of contact type and non-contact type
+G06K  19/077 248 \	6	6	5B035	G06K  19/077	1403	記録担体のデータ通信特性への悪影響を最小限にするための手段を含む記録担体，例．近接している金属または他の電磁気的に妨害する物体内に誘導される渦電流の最小化	record carrier having means to minimize ill effect to data communication property of recording carrier, e.g. minimizing eddy current that induces into nearby metals or other articles which obstructs electromagnetically
+G06K  19/077 252 \	6	6	5B035	G06K  19/077	681	アンテナの細部（無線装置，例．ＲＦＩＤタグ，用のアンテナ一般Ｈ０１Ｑ１／００）	antenna details (wireless device, e.g. antenna for RFID tag in general H01Q1/00)
+G06K  19/077 256 \	7	7	5B035	G06K  19/077	237	オンチップアンテナ	on-chip antenna
+G06K  19/077 260 \	7	7	5B035	G06K  19/077	129	誘導性タイプであるアンテナ	inductive type antenna
+G06K  19/077 264 \	8	8	5B035	G06K  19/077	1825	コイルである誘導性アンテナ	inductive antenna being coil
+G06K  19/077 268 \	9	9	5B035	G06K  19/077	383	ワインディングプロセスによって製造されるコイル	coil being manufactured by winding process
+G06K  19/077 272 \	9	9	5B035	G06K  19/077	1602	平面コイル	plane coil
+G06K  19/077 276 \	8	8	5B035	G06K  19/077	250	積み重ねられた複数のコイルからなる誘導性アンテナ	inductive antenna composed of multiple piled up coils
+G06K  19/077 280 \	7	7	5B035	G06K  19/077	1312	ダイポールのような，ＨＦ帯型であるアンテナ	antenna as HF band type as dipole
+G06K  19/077 284 \	7	7	5B035	G06K  19/077	157	容量性タイプであるアンテナ	antenna that is capacitive type
+G06K  19/077 288 \	7	7	5B035	G06K  19/077	81	折り畳み可能なアンテナ，または折り畳まれたアンテナ	foldable antenna or folded antenna
+G06K  19/077 292 \	7	7	5B035	G06K  19/077	88	３次元への展開に適合したアンテナ	antenna adapted to deployment in three dimension
+G06K  19/077 296 \	7	7	5B035	G06K  19/077	923	集積回路に直接接続されたアンテナに加えて，ブースターアンテナまたは補助アンテナを含む記録担体	record carrier having, in addition to antenna directly connected to integrated circuit, booster antenna or auxiliary antenna
+G06K  19/077 300 \	6	6	5B035	G06K  19/077	249	同様の複数の記録担体を重ねることを可能にする記録担体の装置，例．複数の記録担体が行う非接触通信の間の干渉を回避するもの	device of record carrier enabling piling up of multiple record carriers of the same type, e.g. avoids interference between non-contact communication made by multiple record carriers
+G06K  19/077 304 \	6	6	5B035	G06K  19/077	414	破裂または破壊に適応したアンテナまたは集積回路の部品，例．認証されることなくコンテナが開けられたことを検知する封印装置として機能する記録担体	parts of antenna or integrated circuit adapted to explosion or destruction, e.g. record carrier functioning as sealing device detecting unauthorized opening of container
+G06K  19/08  \	2	2	5B035	G06K  19/08	1143	同一記録担体中に異なる種類のマーキングを用いるもの，例．一方のマーキングは光学的に読み取られ，他方のマーキングは磁気的手段によって読み取られるもの	using markings of different kinds in the same record carrier, e.g. one marking being sensed by optical and the other by magnetic means
+G06K  19/08 030 \	3	3	5B035	G06K  19/08	243	構造上の細部	structural details
+G06K  19/08 060 \	4	4	5B035	G06K  19/08	238	素子のランダムさが記録担体の唯一の識別特性を生成するのに有用な，ランダムに配置されるか方向付けられた当該素子からなるマークを含むもの，例．クレジットカードの基体内の，ランダムに配置された磁性繊維または磁性粒子	random nature of element being useful in generating only identification characteristic of record carrier and include mark composed of such elements randomly arranged or oriented, e.g. magnetic fiber or magnetic particlerandomly arranged in credit card substrate
+G06K  19/10  \	3	3	5B035	G06K  19/10	1839	少なくとも一種類のマーキングが認証のために用いられるもの，例．クレジットカードまたは身分証明書の認証のために用いられるもの（それらによって作動される機構内での符号化された身分証明書またはクレジットカードの検証Ｇ０７Ｆ７／１２）［５］	at least one kind of marking being used for authentication, e.g. of credit or identity cards (verification of coded identity or credit cards in mechanisms actuated by them G07F  7/12)
+G06K  19/12  \	4	4	5B035	G06K  19/12	500	マーキングが磁気的手段によって読取られるもの［５］	the marking being sensed by magnetic means
+G06K  19/14  \	4	4	5B035	G06K  19/14	530	マーキングが放射線によって読取られるもの［５］	the marking being sensed by radiation
+G06K  19/14 050 \	5	5	5B035	G06K  19/14	393	接触式または無線式の読み取りに適した，少なくとも１つの更なるマーキング，例．無線式と光学式の両方のインターフェイスまたはメモリを備えたＲＦＩＤタグ，またはＩＳＯ７８１６規格の接点と光学式のインターフェイスまたはメモリとを備えた接触型スマートカード	at least one further marking adapted to reading by contact method or by radio method, e.g. RFID tag having interface or memory of both radio method and optics method, or contact method smart card having interface or memory of ISO 7816 standard contact point and optics method
+G06K  19/16  \	5	5	5B035	G06K  19/16	255	マーキングがホログラムまたは回折格子であるもの［５］	the marking being a hologram or diffraction grating
+G06K  19/18  \	4	4	5B035	G06K  19/18	44	構造上の細部［５］	Constructional details
+G06K  21/00  \	0	0	5B037	G06K  21/00	4	手で扱うかまたは機械で処理するように設計されたせん孔カードからの情報検索（Ｇ０６Ｋ１９／００が優先；パターンの再走査によるエラーの検出または訂正Ｇ０６Ｖ３０／００；カード移送機構の正しい動作の検査Ｇ０６Ｋ１３／０６）；そのようなカードを処理するための装置，例．マーキングまたは訂正	Information retrieval from punched cards designed for manual use or handling by machine (G06K 19/00 takes precedence; detection or correction of errors by rescanning patterns G06V 30/00; checking correct operation of card-conveying mechanisms G06K 13/06); Apparatus for handling such cards, e.g. marking or correcting [1, 2006.01]
+G06K  21/00  A	0	0	5B037	G06K  19/063	201	情報検索用カ−ド；カ−ドのためのジヤケツト	Information-retrieval cards; jackets for cards
+G06K  21/00  B	0	0	5B037	G06K  21/00	88	情報検索用カ−ドの収納装置	Apparatus for storing information-retrieval cards
+G06K  21/00  C	0	0	5B037	G06K  21/00	62	情報検索用カ−ドの穿孔；穿孔誤りの訂正；そのための道具〔Ｇ０６Ｋ１／０２参照；せん孔用具一般，Ｂ２６Ｆ〕	Punching of information-retrieval cards; Correction of wrong punching; Tools therefor (see G 06 K 1/02: Punching tools in general, B 26 F)
+G06K  21/00  D	0	0	5B037	G06K  21/00	56	装置を用いる検索；検索方式一般	Retrieval using apparatus; Retrieval methods in general
+G06K  21/00  E	0	1	5B037	G06K  21/00	69	少なくとも一部に非機械的手段を用いるカ−ド検索	Card retrieval at least partly using non-mechanical means
+G06K  21/00  F	0	2	5B037	G06K  21/00	116	回転型収納装置からのカ−ド検索	Card retrieval from rotary storing apparatus
+G06K  21/00  G	0	2	5B037	G06K  21/00	33	直交座標型収納装置からのカ−ド検索	Card retrieval from orthogonal co-ordinates type  storing apparatus
+G06K  21/00  H	0	1	5B037	G06K  21/00	39	全てに機械的手段を用いるカ−ド検索	Card retrieval entirely using mechanical means
+G06K  21/00  J	0	2	5B037	G06K  21/00	108	そのための検索ブロツク及びその動作の制御	Retrieval block therefor and control of its motion
+G06K  21/00  K	0	3	5B037	G06K  21/00	82	選択されたカ−ドの引出し；共ずれの防止	Pulling-out the selected card; Prevention of joint dislocation
+G06K  21/00  L	0	4	5B037	G06K  21/00	41	電磁的手段によるもの	by electromagnetic means
+G06K  21/00  M	0	4	5B037	G06K  21/00	35	落下によるもの；振動を与えるもの	by dropping, causing vibration
+G06K  21/00  Z	0	0	5B037	G06K  21/00	26	その他のもの	Others
+G06K  21/02  \	1	1	5B037	G06K  21/02	4	マークの一致を機械的に，例．針によって，検出するもの	in which coincidence of markings is sensed mechanically, e.g. by needle
+G06K  21/04  \	1	1	5B037	G06K  21/04	5	マークの一致を光学的に検出するもの，例．ピーカブー方式	in which coincidence of markings is sensed optically, e.g. peek-a-boo system
+G06K  21/06  \	1	1	5B037	G06K  21/06	1	情報検索カードにスロッティングまたはその他のマーク記録を行なうのに適した装置または道具	Apparatus or tools adapted for slotting or otherwise marking information-retrieval cards
+G06K  21/08  \	1	1	5B037	G06K  21/08	0	せん孔誤りまたはスロッティング誤りを訂正する装置または道具［２］	Apparatus or tools for correcting punching or slotting errors [2]

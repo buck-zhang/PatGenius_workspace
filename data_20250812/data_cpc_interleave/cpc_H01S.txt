@@ -1,0 +1,855 @@
+H01S1/00	7	Masers, i.e. devices using stimulated emission of electromagnetic radiation in the microwave range	H01S1/00	H01S1/00		176
+H01S1/005	8	{using a relativistic beam of charged particles, e.g. electron cyclotron maser, gyrotron}	H01S1/00	H01S1/00		75
+H01S1/02	8	solid	H01S1/02	H01S1/02		736
+H01S1/04	8	liquid	H01S1/04	H01S1/04		22
+H01S1/06	8	Gaseous {, i.e. beam masers}	H01S1/06	H01S1/06		217
+H01S3/00	7	Lasers, i.e. devices using stimulated emission of electromagnetic radiation in the infrared, visible or ultraviolet wave range (semiconductors lasers H01S5/00)	H01S3/00	H01S3/00		546
+H01S3/0007	8	{Applications not otherwise provided for (working metals or other materials by laser beam B23K26/00; using photons to produce a reactive propulsive thrust F03H3/00; optical recording of measured values in general G01D15/14; optics in general G02B; holographic processes or apparatus G03H; optical marking or sensing of data record carriers G06K7/10&#160;-&#160;G06K7/14, G06K15/12; injection heating of plasma by laser H05H1/22; acceleration of neutral particles by electromagnetic wave pressure H05H3/04)}	H01S3/00	H01S3/00		569
+H01S3/0014	8	{Monitoring arrangements not otherwise provided for (photometry G01J1/00, e.g. G01J1/4257; radiation pyrometry G01J5/00; measuring coherence of light G01J9/00; measuring wavelength of light G01J9/00, e.g. G01J9/0246; measuring optical pulses G01J11/00; calorimetrically measuring power of laser beams G01K17/003)}	H01S3/00	H01S3/00		1186
+H01S3/005	8	{Optical devices external to the laser cavity, specially adapted for lasers, e.g. for homogenisation of the beam or for manipulating laser pulses, e.g. pulse shaping (shaping laser beam for working metal or other materials B23K26/06; optical elements, systems or apparatus in general G02B)}	H01S3/00	H01S3/00		2462
+H01S3/0057	9	{Temporal shaping, e.g. pulse compression, frequency chirping (soliton generation and propagation G02F1/3513, H01S3/063 and H01S3/108)}	H01S3/00	H01S3/00		1711
+H01S3/0064	9	{Anti-reflection devices, e.g. optical isolaters (absorbing layers for marking or protecting purposes in laser working B23K26/50; magneto-optical non-reciprocal devices G02F1/093, G02F1/0955)}	H01S3/00	H01S3/00		706
+H01S3/0071	9	{Beam steering, e.g. whereby a mirror outside the cavity is present to change the beam direction}	H01S3/00	H01S3/00		1186
+H01S3/0078	9	{Frequency filtering}	H01S3/00	H01S3/00		583
+H01S3/0085	9	{Modulating the output, i.e. the laser beam is modulated outside the laser cavity}	H01S3/00	H01S3/00		1082
+H01S3/0092	9	{Nonlinear frequency conversion, e.g. second harmonic generation [SHG] or sum- or difference-frequency generation outside the laser cavity (nonlinear frequency conversion per seG02F1/35)}	H01S3/00	H01S3/00		1110
+H01S3/02	8	Constructional details {(housings or packages of fibre lasers H01S3/06704)}	H01S3/02	H01S3/02		810
+H01S3/022	9	{of liquid lasers}	H01S3/02	H01S3/02		225
+H01S3/025	9	{of solid state lasers, e.g. housings or mountings}	H01S3/02	H01S3/02		1423
+H01S3/027	10	{comprising a special atmosphere inside the housing}	H01S3/02	H01S3/02		147
+H01S3/03	9	of gas laser discharge tubes	H01S3/03	H01S3/03		1019
+H01S3/0305	10	{Selection of materials for the tube or the coatings thereon}	H01S3/03	H01S3/03		156
+H01S3/031	10	{Metal vapour lasers, e.g. metal vapour generation}	H01S3/03	H01S3/03		451
+H01S3/0315	10	{Waveguide lasers}	H01S3/03	H01S3/03		404
+H01S3/032	10	for confinement of the discharge, e.g. by special features of the discharge constricting tube	H01S3/032	H01S3/032		104
+H01S3/0323	11	{by special features of the discharge constricting tube, e.g. capillary}	H01S3/032	H01S3/032		201
+H01S3/0326	11	{by an electromagnetic field}	H01S3/032	H01S3/032		58
+H01S3/034	10	Optical devices within, or forming part of, the tube, e.g. windows, mirrors (reflectors having variable properties or positions for initial adjustment of the resonator H01S3/086)	H01S3/034	H01S3/034		770
+H01S3/0343	11	{Aerodynamic windows}	H01S3/034	H01S3/034		47
+H01S3/0346	11	{Protection of windows or mirrors against deleterious effects (cooling arrangements H01S3/0401)}	H01S3/034	H01S3/034		253
+H01S3/036	10	Means for obtaining or maintaining the desired gas pressure within the tube, e.g. by gettering, replenishing; Means for circulating the gas, e.g. for equalising the pressure within the tube {(H01S3/031 takes precedence)}	H01S3/036	H01S3/036		1847
+H01S3/038	10	Electrodes, e.g. special shape, configuration or composition	H01S3/038	H01S3/038		1297
+H01S3/0381	11	{Anodes or particular adaptations thereof}	H01S3/038	H01S3/038		69
+H01S3/0382	11	{Cathodes or particular adaptations thereof}	H01S3/038	H01S3/038		102
+H01S3/0384	11	{Auxiliary electrodes, e.g. for pre-ionisation or triggering, or particular adaptations therefor}	H01S3/038	H01S3/038		116
+H01S3/0385	11	{Shape}	H01S3/038	H01S3/038		269
+H01S3/0387	12	{Helical shape}	H01S3/038	H01S3/038		79
+H01S3/0388	11	{Compositions, materials or coatings}	H01S3/038	H01S3/038		172
+H01S3/04	9	Arrangements for thermal management	H01S3/04	H01S3/04		363
+H01S3/0401	10	{of optical elements being part of laser resonator, e.g. windows, mirrors, lenses}	H01S3/04	H01S3/04		433
+H01S3/0402	10	{for liquid lasers}	H01S3/04	H01S3/04		25
+H01S3/0404	10	{Air- or gas cooling, e.g. by dry nitrogen}	H01S3/04	H01S3/04		446
+H01S3/0405	10	{Conductive cooling, e.g. by heat sinks or thermo-electric elements}	H01S3/04	H01S3/04		1060
+H01S3/0407	10	{Liquid cooling, e.g. by water}	H01S3/04	H01S3/04		1341
+H01S3/0408	10	{Radiative cooling, e.g. by anti-Stokes scattering in the active medium}	H01S3/04	H01S3/04		34
+H01S3/041	10	for gas lasers {(H01S3/0401 takes precedence)}	H01S3/041	H01S3/041		825
+H01S3/042	10	for solid state lasers {(H01S3/0401 takes precedence)}	H01S3/042	H01S3/042		1979
+H01S3/05	8	Construction or shape of optical resonators; Accommodation of active medium therein; Shape of active medium	H01S3/05	H01S3/05		91
+H01S3/06	9	Construction or shape of active medium	H01S3/06	H01S3/06		217
+H01S3/0602	10	{Crystal lasers or glass lasers (H01S3/063 takes precedence)}	H01S3/06	H01S3/06		581
+H01S3/0604	11	{in the form of a plate or disc}	H01S3/06	H01S3/06		813
+H01S3/0606	11	{with polygonal cross-section, e.g. slab, prism (H01S3/0604 takes precedence)}	H01S3/06	H01S3/06		640
+H01S3/0608	11	{Laser crystal with a hole, e.g. a hole or bore for housing a flashlamp or a mirror}	H01S3/06	H01S3/06		68
+H01S3/061	11	{with elliptical or circular cross-section and elongated shape, e.g. rod}	H01S3/06	H01S3/06		496
+H01S3/0612	11	{Non-homogeneous structure (H01S3/07 takes precedence)}	H01S3/06	H01S3/06		472
+H01S3/0615	11	{Shape of end-face}	H01S3/06	H01S3/06		269
+H01S3/0617	11	{having a varying composition or cross-section in a specific direction}	H01S3/06	H01S3/06		150
+H01S3/0619	10	{Coatings, e.g. AR, HR, passivation layer}	H01S3/06	H01S3/06		69
+H01S3/0621	11	{Coatings on the end-faces, e.g. input/output surfaces of the laser light}	H01S3/06	H01S3/06		333
+H01S3/0623	12	{Antireflective [AR]}	H01S3/06	H01S3/06		194
+H01S3/0625	11	{Coatings on surfaces other than the end-faces}	H01S3/06	H01S3/06		179
+H01S3/0627	10	{the resonator being monolithic, e.g. microlaser}	H01S3/06	H01S3/06		664
+H01S3/063	10	Waveguide lasers, {i.e. whereby the dimensions of the waveguide are of the order of the light wavelength (waveguide gas lasers H01S3/0315)}	H01S3/063	H01S3/063		413
+H01S3/0632	11	{Thin film lasers in which light propagates in the plane of the thin film}	H01S3/063	H01S3/063		268
+H01S3/0635	12	{provided with a periodic structure, e.g. using distributed feed-back, grating couplers (controlling, e.g. modulating distributed feed-back lasers H01S3/102)}	H01S3/063	H01S3/063		176
+H01S3/0637	12	{Integrated lateral waveguide, e.g. the active waveguide is integrated on a substrate made by Si on insulator technology (Si/SiO2)}	H01S3/063	H01S3/063		213
+H01S3/067	11	Fibre lasers	H01S3/067	H01S3/067		2125
+H01S3/06704	12	{Housings; Packages}	H01S3/067	H01S3/067		709
+H01S3/06708	12	{Constructional details of the fibre, e.g. compositions, cross-section, shape or tapering (optical fibres as passive waveguides G02B6/02)}	H01S3/067	H01S3/067		1286
+H01S3/06712	13	{Polarising fibre; Polariser}	H01S3/067	H01S3/067		703
+H01S3/06716	13	{Fibre compositions (per seC03C13/04)or doping with active elements (lasing materials in general H01S3/14)}	H01S3/067	H01S3/067		1393
+H01S3/0672	13	{Non-uniform radial doping}	H01S3/067	H01S3/067		143
+H01S3/06725	13	{Fibre characterized by a specific dispersion, e.g. for pulse shaping in soliton lasers or for dispersion compensating [DCF]}	H01S3/067	H01S3/067		352
+H01S3/06729	13	{Peculiar transverse fibre profile}	H01S3/067	H01S3/067		618
+H01S3/06733	14	{Fibre having more than one cladding}	H01S3/067	H01S3/067		479
+H01S3/06737	14	{Fibre having multiple non-coaxial cores, e.g. multiple active cores or separate cores for pump and gain}	H01S3/067	H01S3/067		263
+H01S3/06741	14	{Photonic crystal fibre, i.e. the fibre having a photonic bandgap}	H01S3/067	H01S3/067		251
+H01S3/06745	13	{Tapering of the fibre, core or active region}	H01S3/067	H01S3/067		225
+H01S3/0675	12	{Resonators including a grating structure, e.g. distributed Bragg reflectors [DBR] or distributed feedback [DFB] fibre lasers}	H01S3/067	H01S3/067		1708
+H01S3/06754	12	{Fibre amplifiers (H01S3/06708 takes precedence)}	H01S3/067	H01S3/067		3332
+H01S3/06758	13	{Tandem amplifiers}	H01S3/067	H01S3/067		1169
+H01S3/06762	13	{having a specific amplification band}	H01S3/067	H01S3/067		37
+H01S3/06766	14	{C-band amplifiers, i.e. amplification in the range of about 1530 nm to 1560 nm}	H01S3/067	H01S3/067		176
+H01S3/0677	14	{L-band amplifiers, i.e. amplification in the range of about 1560 nm to 1610 nm}	H01S3/067	H01S3/067		180
+H01S3/06775	14	{S-band amplifiers, i.e. amplification in the range of about 1450 nm to 1530 nm}	H01S3/067	H01S3/067		41
+H01S3/06779	13	{with optical power limiting}	H01S3/067	H01S3/067		45
+H01S3/06783	13	{Amplifying coupler}	H01S3/067	H01S3/067		151
+H01S3/06787	13	{Bidirectional amplifier}	H01S3/067	H01S3/067		121
+H01S3/06791	12	{Fibre ring lasers (fibre laser gyrometers G01C19/72)}	H01S3/067	H01S3/067		1100
+H01S3/06795	12	{with superfluorescent emission, e.g. amplified spontaneous emission sources for fibre laser gyrometers (fibre laser gyrometers per seG01C19/72)}	H01S3/067	H01S3/067		145
+H01S3/07	10	consisting of a plurality of parts, e.g. segments (H01S3/067 takes precedence)	H01S3/07	H01S3/07		704
+H01S3/073	11	{Gas lasers comprising separate discharge sections in one cavity, e.g. hybrid lasers (tandem arrangements of separate gas lasers H01S3/2366)}	H01S3/07	H01S3/07		125
+H01S3/076	12	{Folded-path lasers}	H01S3/07	H01S3/07		284
+H01S3/08	9	Construction or shape of optical resonators or components thereof	H01S3/08	H01S3/08		1261
+H01S3/08004	10	{incorporating a dispersive element, e.g. a prism for wavelength selection (H01S3/0811, H01S3/08022 take precedence)}	H01S3/08	H01S3/08		507
+H01S3/08009	11	{using a diffraction grating}	H01S3/08	H01S3/08		594
+H01S3/08013	10	{Resonator comprising a fibre, e.g. for modifying dispersion or repetition rate (the active medium being a fibre H01S3/067)}	H01S3/08	H01S3/08		415
+H01S3/08018	10	Mode suppression	H01S3/08018	H01S3/08018		113
+H01S3/08022	11	Longitudinal modes (mode suppression using a plurality of resonators H01S3/082)	H01S3/08022	H01S3/08022		125
+H01S3/08027	12	{by a filter, e.g. a Fabry-Perot filter is used for wavelength setting}	H01S3/08022	H01S3/08		298
+H01S3/08031	12	Single-mode emission	H01S3/08031	H01S3/08031		271
+H01S3/08036	13	using intracavity dispersive, polarising or birefringent elements	H01S3/08036	H01S3/08036		318
+H01S3/0804	11	Transverse or lateral modes	H01S3/0804	H01S3/0804		202
+H01S3/08045	12	Single-mode emission	H01S3/08045	H01S3/08045		270
+H01S3/0805	12	by apertures, e.g. pin-holes or knife-edges	H01S3/0805	H01S3/0805		336
+H01S3/08054	10	{Passive cavity elements acting on the polarization, e.g. a polarizer for branching or walk-off compensation (quarter-wave plates in a Q-switch laser H01S3/1124, H01S3/115)}	H01S3/08	H01S3/0805		450
+H01S3/08059	10	{Constructional details of the reflector, e.g. shape (mirrors in general G02B5/08; mountings for mirrors G02B7/18)}	H01S3/08	H01S3/0805		1314
+H01S3/08063	11	{Graded reflectivity, e.g. variable reflectivity mirror}	H01S3/08	H01S3/08		137
+H01S3/08068	11	{Holes; Stepped surface; Special cross-section}	H01S3/08	H01S3/08		190
+H01S3/08072	10	{Thermal lensing or thermally induced birefringence; Compensation thereof}	H01S3/08	H01S3/08		566
+H01S3/08077	11	{Pump induced waveguiding, i.e. the pump induces refractive index change in the laser medium to guide the amplified light, e.g. gain- or loss- guiding or thermally induced refractive index change}	H01S3/08	H01S3/08		22
+H01S3/08081	10	{Unstable resonators}	H01S3/08	H01S3/08		255
+H01S3/08086	10	{Multiple-wavelength emission}	H01S3/08	H01S3/08		647
+H01S3/0809	11	{Two-wavelenghth emission}	H01S3/08	H01S3/08		369
+H01S3/08095	10	{Zig-zag travelling beam through the active medium}	H01S3/08	H01S3/08		313
+H01S3/081	10	comprising three or more reflectors	H01S3/081	H01S3/081		479
+H01S3/0811	11	{incorporating a dispersive element, e.g. a prism for wavelength selection}	H01S3/081	H01S3/081		176
+H01S3/0812	12	{using a diffraction grating}	H01S3/081	H01S3/081		162
+H01S3/0813	11	{Configuration of resonator}	H01S3/081	H01S3/081		355
+H01S3/0815	12	{having 3 reflectors, e.g. V-shaped resonators}	H01S3/081	H01S3/081		331
+H01S3/0816	12	{having 4 reflectors, e.g. Z-shaped resonators}	H01S3/081	H01S3/081		314
+H01S3/0817	12	{having 5 reflectors, e.g. W-shaped resonators}	H01S3/081	H01S3/081		93
+H01S3/0818	11	{Unstable resonators}	H01S3/081	H01S3/081		137
+H01S3/082	11	defining a plurality of resonators, e.g. for mode selection or suppression	H01S3/082	H01S3/082		629
+H01S3/0823	12	{incorporating a dispersive element, e.g. a prism for wavelength selection}	H01S3/082	H01S3/082		73
+H01S3/0826	13	{using a diffraction grating}	H01S3/082	H01S3/082		118
+H01S3/083	11	Ring lasers {(fibre ring lasers H01S3/06791)}	H01S3/083	H01S3/083		1187
+H01S3/0835	12	{Gas ring lasers}	H01S3/083	H01S3/083		143
+H01S3/086	10	One or more reflectors having variable properties or positions for initial adjustment of the resonator (varying a parameter of the laser output during operation H01S3/10; stabilisation of the laser output H01S3/13)	H01S3/086	H01S3/086		497
+H01S3/09	8	Processes or apparatus for excitation, e.g. pumping	H01S3/09	H01S3/09		416
+H01S3/0903	9	{Free-electron laser}	H01S3/09	H01S3/09		315
+H01S3/0906	9	{Electrical, electrochemical, or electron-beam pumping of a dye laser}	H01S3/09	H01S3/09		29
+H01S3/091	9	using optical pumping	H01S3/091	H01S3/091		502
+H01S3/0912	10	{Electronics or drivers for the pump source, i.e. details of drivers or circuitry specific for laser pumping (laser diode drivers H01S5/042)}	H01S3/091	H01S3/091		285
+H01S3/0915	10	by incoherent light	H01S3/0915	H01S3/0915		158
+H01S3/09155	11	{by cathodo-luminescence}	H01S3/0915	H01S3/0915		13
+H01S3/092	11	of flash lamp (H01S3/0937 takes precedence {; flash lamps per seH01J61/80; circuit arrangements for operating flash lamps in general H05B41/30})	H01S3/092	H01S3/092		560
+H01S3/093	12	focusing or directing the excitation energy into the active medium	H01S3/093	H01S3/093		537
+H01S3/0931	13	{Imaging pump cavity, e.g. elliptical}	H01S3/093	H01S3/093		193
+H01S3/0933	11	of a semiconductor, e.g. light emitting diode	H01S3/0933	H01S3/0933		298
+H01S3/0937	11	produced by exploding or combustible material	H01S3/0937	H01S3/0937		23
+H01S3/094	10	by coherent light<br><br><u>NOTE</u><br><br> Groups H01S3/094003&#160;-&#160;H01S3/094088 take precedence over groups H01S3/0941&#160;-&#160;H01S3/0947	H01S3/094	H01S3/094		573
+H01S3/094003	11	{the pumped medium being a fibre}	H01S3/094	H01S3/094		1534
+H01S3/094007	12	{Cladding pumping, i.e. pump light propagating in a clad surrounding the active core}	H01S3/094	H01S3/094		647
+H01S3/094011	12	{with bidirectional pumping, i.e. with injection of the pump light from both two ends of the fibre}	H01S3/094	H01S3/094		480
+H01S3/094015	12	{with pump light recycling, i.e. with reinjection of the unused pump light back into the fiber, e.g. by reflectors or circulators}	H01S3/094	H01S3/094		202
+H01S3/094019	12	{Side pumped fibre, whereby pump light is coupled laterally into the fibre via an optical component like a prism, or a grating, or via V-groove coupling}	H01S3/094	H01S3/094		271
+H01S3/094023	12	{with ASE light recycling, with reinjection of the ASE light back into the fiber, e.g. by reflectors or circulators}	H01S3/094	H01S3/094		70
+H01S3/094026	11	{for synchronously pumping, e.g. for mode locking}	H01S3/094	H01S3/094		99
+H01S3/09403	11	{Cross-pumping, e.g. F&#246;rster process involving intermediate medium for excitation transfer}	H01S3/094	H01S3/094		57
+H01S3/094034	11	{the pumped medium being a dye}	H01S3/094	H01S3/094		157
+H01S3/094038	11	{End pumping}	H01S3/094	H01S3/094		416
+H01S3/094042	11	{of a fibre laser}	H01S3/094	H01S3/094		487
+H01S3/094046	12	{of a Raman fibre laser}	H01S3/094	H01S3/094		187
+H01S3/094049	11	{Guiding of the pump light}	H01S3/094	H01S3/094		207
+H01S3/094053	12	{Fibre coupled pump, e.g. delivering pump light using a fibre or a fibre bundle}	H01S3/094	H01S3/094		729
+H01S3/094057	12	{by tapered duct or homogenized light pipe, e.g. for concentrating pump light}	H01S3/094	H01S3/094		182
+H01S3/094061	11	{Shared pump, i.e. pump light of a single pump source is used to pump plural gain media in parallel}	H01S3/094	H01S3/094		240
+H01S3/094065	11	{Single-mode pumping}	H01S3/094	H01S3/094		48
+H01S3/094069	11	{Multi-mode pumping}	H01S3/094	H01S3/094		213
+H01S3/094073	11	{Non-polarized pump, e.g. depolarizing the pump light for Raman lasers}	H01S3/094	H01S3/094		52
+H01S3/094076	11	{Pulsed or modulated pumping (H01S3/1024 takes precedence)}	H01S3/094	H01S3/094		528
+H01S3/09408	11	{Pump redundancy}	H01S3/094	H01S3/094		484
+H01S3/094084	11	{with pump light recycling, i.e. with reinjection of the unused pump light, e.g. by reflectors or circulators}	H01S3/094	H01S3/094		429
+H01S3/094088	11	{with ASE light recycling, i.e. with reinjection of the ASE light, e.g. by reflectors or circulators}	H01S3/094	H01S3/094		11
+H01S3/094092	11	{Upconversion pumping}	H01S3/094	H01S3/094		116
+H01S3/094096	11	{Multi-wavelength pumping}	H01S3/094	H01S3/094		528
+H01S3/0941	11	of a laser diode	H01S3/0941	H01S3/0941		2282
+H01S3/09415	12	{the pumping beam being parallel to the lasing mode of the pumped medium, e.g. end-pumping}	H01S3/0941	H01S3/0941		2302
+H01S3/0943	11	of a gas laser	H01S3/0943	H01S3/0943		78
+H01S3/0947	11	of an organic dye laser	H01S3/0947	H01S3/0947		28
+H01S3/095	9	using chemical or thermal pumping	H01S3/095	H01S3/095		239
+H01S3/09505	10	{involving photochemical reactions, e.g. photodissociation (iodine lasers H01S3/2215)}	H01S3/095	H01S3/095		42
+H01S3/0951	10	by increasing the pressure in the laser gas medium	H01S3/0951	H01S3/0951		4
+H01S3/0953	11	Gas dynamic lasers, i.e. with expansion of the laser gas medium to supersonic flow speeds	H01S3/0953	H01S3/0953		190
+H01S3/0955	9	using pumping by high energy particles {(H01S3/0903, H01S3/0906, H01S3/09707 take precedence)}	H01S3/0955	H01S3/0955		13
+H01S3/0957	10	by high energy nuclear particles	H01S3/0957	H01S3/0957		12
+H01S3/0959	10	by an electron beam	H01S3/0959	H01S3/0959		104
+H01S3/097	9	by gas discharge of a gas laser	H01S3/097	H01S3/097		715
+H01S3/09702	10	{Details of the driver electronics and electric discharge circuits}	H01S3/097	H01S3/097		254
+H01S3/09705	10	{with particular means for stabilising the discharge}	H01S3/097	H01S3/097		183
+H01S3/09707	10	{using an electron or ion beam (free-electron laser H01S3/0903)}	H01S3/097	H01S3/097		102
+H01S3/0971	10	transversely excited (H01S3/0975 takes precedence)	H01S3/0971	H01S3/0971		554
+H01S3/09713	11	{with auxiliary ionisation, e.g. double discharge excitation}	H01S3/0971	H01S3/0971		219
+H01S3/09716	12	{by ionising radiation}	H01S3/0971	H01S3/0971		113
+H01S3/0973	11	having a travelling wave passing through the active medium	H01S3/0973	H01S3/0973		78
+H01S3/0975	10	using inductive or capacitive excitation	H01S3/0975	H01S3/0975		664
+H01S3/0977	10	having auxiliary ionisation means {(H01S3/09713 takes precedence)}	H01S3/0977	H01S3/0977		58
+H01S3/09775	11	{by ionising radiation}	H01S3/0977	H01S3/0977		21
+H01S3/0979	10	Gas dynamic lasers, i.e. with expansion of the laser gas medium to supersonic flow speeds	H01S3/0979	H01S3/0979		135
+H01S3/10	8	Controlling the intensity, frequency, phase, polarisation or direction of the emitted radiation, e.g. switching, gating, modulating or demodulating<br><br><u>NOTE</u><br><br> Group H01S3/10007 takes precedence over groups H01S3/102&#160;-&#160;H01S3/104	H01S3/10	H01S3/10		1554
+H01S3/10007	9	{in optical amplifiers}	H01S3/10	H01S3/10		377
+H01S3/1001	10	{by controlling the optical pumping}	H01S3/10	H01S3/10		366
+H01S3/10013	10	{by controlling the temperature of the active medium}	H01S3/10	H01S3/10		55
+H01S3/10015	10	{by monitoring or controlling, e.g. attenuating, the input signal}	H01S3/10	H01S3/10		752
+H01S3/10023	10	{by functional association of additional optical elements, e.g. filters, gratings, reflectors}	H01S3/10	H01S3/10		692
+H01S3/1003	11	{tunable optical elements, e.g. acousto-optic filters, tunable gratings}	H01S3/10	H01S3/10		354
+H01S3/10038	9	{Amplitude control}	H01S3/10	H01S3/10		277
+H01S3/10046	10	{Pulse repetition rate control (H01S3/11 takes precedence)}	H01S3/10	H01S3/10		327
+H01S3/10053	9	{Phase control}	H01S3/10	H01S3/10		605
+H01S3/10061	9	{Polarization control}	H01S3/10	H01S3/10		896
+H01S3/10069	9	{Memorized or pre-programmed characteristics, e.g. look-up table [LUT]}	H01S3/10	H01S3/10		400
+H01S3/10076	9	{using optical phase conjugation, e.g. phase conjugate reflection}	H01S3/10	H01S3/10		179
+H01S3/10084	9	{Frequency control by seeding}	H01S3/10	H01S3/10		193
+H01S3/10092	10	{Coherent seed, e.g. injection locking}	H01S3/10	H01S3/10		425
+H01S3/101	9	Lasers provided with means to change the location from which, or the direction in which, laser radiation is emitted	H01S3/101	H01S3/101		656
+H01S3/102	9	by controlling the active medium, e.g. by controlling the processes or apparatus for excitation (H01S3/13 takes precedence)	H01S3/102	H01S3/102		350
+H01S3/1022	10	{by controlling the optical pumping}	H01S3/102	H01S3/102		515
+H01S3/1024	11	{for pulse generation}	H01S3/102	H01S3/102		381
+H01S3/1026	10	{Controlling the active medium by translation or rotation, e.g. to remove heat from that part of the active medium that is situated on the resonator axis}	H01S3/102	H01S3/102		122
+H01S3/1028	10	{by controlling the temperature}	H01S3/102	H01S3/102		195
+H01S3/104	10	in gas lasers	H01S3/104	H01S3/104		364
+H01S3/105	9	by controlling the mutual position or the reflecting properties of the reflectors of the cavity {, e.g. by controlling the cavity length}({H01S3/10076}, H01S3/13 take precedence)	H01S3/105	H01S3/105		938
+H01S3/1051	10	{one of the reflectors being of the type using frustrated reflection}	H01S3/105	H01S3/105		39
+H01S3/1053	10	{Control by pressure or deformation}	H01S3/105	H01S3/105		90
+H01S3/1055	10	one of the reflectors being constituted by a diffraction grating	H01S3/1055	H01S3/1055		560
+H01S3/106	9	by controlling devices placed within the cavity ({H01S3/10076,}H01S3/13 take precedence)	H01S3/106	H01S3/106		708
+H01S3/1061	10	{using a variable absorption device}	H01S3/106	H01S3/106		189
+H01S3/1062	10	{using a controlled passive interferometer, e.g. a Fabry-Perot etalon}	H01S3/106	H01S3/106		485
+H01S3/1063	10	{using a solid state device provided with at least one potential jump barrier}	H01S3/106	H01S3/106		25
+H01S3/1065	10	{using liquid crystals}	H01S3/106	H01S3/106		63
+H01S3/1066	10	{using a magneto-optical device}	H01S3/106	H01S3/106		83
+H01S3/1067	10	{using pressure or deformation}	H01S3/106	H01S3/106		85
+H01S3/1068	10	{using an acousto-optical device}	H01S3/106	H01S3/106		386
+H01S3/107	10	using electro-optic devices, e.g. exhibiting Pockels or Kerr effect {(H01S3/1061, H01S3/1063, H01S3/1065 take precedence)}	H01S3/107	H01S3/107		552
+H01S3/1075	11	{for optical deflection}	H01S3/107	H01S3/107		101
+H01S3/108	10	using non-linear optical devices, e.g. exhibiting Brillouin or Raman scattering {(mode locking using a non-linear element H01S3/1112)}	H01S3/108	H01S3/108		592
+H01S3/1083	11	{using parametric generation}	H01S3/108	H01S3/108		619
+H01S3/1086	11	{using scattering effects, e.g. Raman or Brillouin effect}	H01S3/108	H01S3/108		274
+H01S3/109	11	Frequency multiplication, e.g. harmonic generation	H01S3/109	H01S3/109		2092
+H01S3/1095	12	{self doubling, e.g. lasing and frequency doubling by the same active medium}	H01S3/109	H01S3/109		111
+H01S3/11	9	Mode locking; Q-switching; Other giant-pulse techniques, e.g. cavity dumping	H01S3/11	H01S3/11		448
+H01S3/1103	10	{Cavity dumping}	H01S3/11	H01S3/11		121
+H01S3/1106	10	Mode locking	H01S3/1106	H01S3/1106		463
+H01S3/1109	11	Active mode locking	H01S3/1109	H01S3/1109		383
+H01S3/1112	11	Passive mode locking	H01S3/1112	H01S3/1112		400
+H01S3/1115	12	using intracavity saturable absorbers	H01S3/1115	H01S3/1115		485
+H01S3/1118	13	Semiconductor saturable absorbers, e.g. semiconductor saturable absorber mirrors [SESAMs]; Solid-state saturable absorbers, e.g. carbon nanotube [CNT] based	H01S3/1118	H01S3/1118		731
+H01S3/1121	11	{Harmonically mode locking lasers, e.g. modulation frequency equals multiple integers or a fraction of the resonator roundtrip time}	H01S3/1106	H01S3/11		98
+H01S3/1123	10	Q-switching	H01S3/1123	H01S3/1123		292
+H01S3/1124	11	{using magneto-optical devices}	H01S3/1123	H01S3/11		29
+H01S3/1127	11	{using pulse transmission mode [PTM]}	H01S3/1123	H01S3/11		70
+H01S3/113	11	using intracavity saturable absorbers	H01S3/113	H01S3/113		686
+H01S3/115	11	using intracavity electro-optic devices	H01S3/115	H01S3/115		828
+H01S3/117	11	using intracavity acousto-optic devices	H01S3/117	H01S3/117		536
+H01S3/121	11	using intracavity mechanical devices	H01S3/121	H01S3/121		122
+H01S3/123	12	using rotating mirrors	H01S3/123	H01S3/123		87
+H01S3/125	12	using rotating prisms	H01S3/125	H01S3/125		70
+H01S3/127	11	Plural Q-switches	H01S3/127	H01S3/127		104
+H01S3/13	9	Stabilisation of laser output parameters, e.g. frequency or amplitude<br><br><u>NOTE</u><br><br> Group H01S3/1301 takes precedence over groups H01S3/131&#160;-&#160;H01S3/134	H01S3/13	H01S3/13		583
+H01S3/1301	10	{in optical amplifiers}	H01S3/13	H01S3/13		322
+H01S3/13013	11	{by controlling the optical pumping}	H01S3/13	H01S3/13		566
+H01S3/13017	11	{by controlling the temperature of the active medium}	H01S3/13	H01S3/13		34
+H01S3/1302	11	{by all-optical means, e.g. gain-clamping}	H01S3/13	H01S3/13		125
+H01S3/1303	10	{by using a passive reference, e.g. absorption cell (H01S3/139 takes precedence)}	H01S3/13	H01S3/13		170
+H01S3/1304	10	{by using an active reference, e.g. second laser, klystron or other standard frequency source (H01S3/139 takes precedence; automatic control of electronic generators H03L7/00)}	H01S3/13	H01S3/13		140
+H01S3/1305	10	{Feedback control systems}	H01S3/13	H01S3/13		1543
+H01S3/1306	10	{Stabilisation of the amplitude}	H01S3/13	H01S3/13		204
+H01S3/1307	10	{Stabilisation of the phase}	H01S3/13	H01S3/13		414
+H01S3/1308	10	{Stabilisation of the polarisation}	H01S3/13	H01S3/13		57
+H01S3/131	10	by controlling the active medium, e.g. by controlling the processes or apparatus for excitation	H01S3/131	H01S3/131		226
+H01S3/1312	11	{by controlling the optical pumping}	H01S3/131	H01S3/131		502
+H01S3/1315	11	{by gain saturation}	H01S3/131	H01S3/131		19
+H01S3/1317	11	{by controlling the temperature}	H01S3/131	H01S3/131		200
+H01S3/134	11	in gas lasers	H01S3/134	H01S3/134		568
+H01S3/136	10	by controlling devices placed within the cavity	H01S3/136	H01S3/136		279
+H01S3/137	11	for stabilising of frequency	H01S3/137	H01S3/137		585
+H01S3/139	10	by controlling the mutual position or the reflecting properties of the reflectors of the cavity {, e.g. by controlling the cavity length}	H01S3/139	H01S3/139		545
+H01S3/1392	11	{by using a passive reference, e.g. absorption cell (H01S3/1396, H01S3/1398 take precedence)}	H01S3/139	H01S3/139		137
+H01S3/1394	11	{by using an active reference, e.g. second laser, klystron or other standard frequency source}	H01S3/139	H01S3/139		123
+H01S3/1396	11	{by using two modes present, e.g. Zeeman splitting (H01S3/1398 takes precedence)}	H01S3/139	H01S3/139		69
+H01S3/1398	11	{by using a supplementary modulation of the output}	H01S3/139	H01S3/139		149
+H01S3/14	8	characterised by the material used as the active medium	H01S3/14	H01S3/14		57
+H01S3/16	9	Solid materials	H01S3/16	H01S3/16		605
+H01S3/1601	10	{characterised by an active (lasing) ion}	H01S3/16	H01S3/16		46
+H01S3/1603	11	{rare earth}	H01S3/16	H01S3/16		324
+H01S3/1605	12	{terbium}	H01S3/16	H01S3/16		37
+H01S3/1606	12	{dysprosium}	H01S3/16	H01S3/16		54
+H01S3/1608	12	{erbium}	H01S3/16	H01S3/16		1321
+H01S3/161	12	{holmium}	H01S3/16	H01S3/16		185
+H01S3/1611	12	{neodymium}	H01S3/16	H01S3/16		1005
+H01S3/1613	12	{praseodymium}	H01S3/16	H01S3/16		160
+H01S3/1615	12	{samarium}	H01S3/16	H01S3/16		18
+H01S3/1616	12	{thulium}	H01S3/16	H01S3/16		393
+H01S3/1618	12	{ytterbium}	H01S3/16	H01S3/16		1146
+H01S3/162	11	{transition metal}	H01S3/16	H01S3/16		56
+H01S3/1621	12	{cobalt}	H01S3/16	H01S3/16		6
+H01S3/1623	12	{chromium, e.g. Alexandrite}	H01S3/16	H01S3/16		227
+H01S3/1625	12	{titanium}	H01S3/16	H01S3/16		221
+H01S3/1626	11	{uranium}	H01S3/16	H01S3/16		1
+H01S3/1628	10	{characterised by a semiconducting matrix}	H01S3/16	H01S3/16		126
+H01S3/163	10	{characterised by a crystal matrix}	H01S3/16	H01S3/16		241
+H01S3/1631	11	{aluminate}	H01S3/16	H01S3/16		48
+H01S3/1633	12	{BeAl2O4, i.e. Chrysoberyl}	H01S3/16	H01S3/16		63
+H01S3/1635	12	{LaMgAl11O19 (LNA, Lanthanum Magnesium Hexaluminate)}	H01S3/16	H01S3/16		11
+H01S3/1636	12	{Al2O3 (Sapphire)}	H01S3/16	H01S3/16		228
+H01S3/1638	12	{YAlO3 (YALO or YAP, Yttrium Aluminium Perovskite)}	H01S3/16	H01S3/16		55
+H01S3/164	11	{garnet}	H01S3/16	H01S3/16		71
+H01S3/1641	12	{GGG}	H01S3/16	H01S3/16		14
+H01S3/1643	12	{YAG}	H01S3/16	H01S3/16		966
+H01S3/1645	11	{halide}	H01S3/16	H01S3/16		84
+H01S3/1646	12	{BaY2F8}	H01S3/16	H01S3/16		5
+H01S3/1648	12	{with the formula XYZF6 (Colquiriite structure), wherein X is Li, Na, K or Rb, Y is Mg, Ca, Sr, Cd or Ba and Z is Al, Sc or Ga}	H01S3/16	H01S3/16		43
+H01S3/165	12	{with the formula MF2, wherein M is Ca, Sr or Ba}	H01S3/16	H01S3/16		40
+H01S3/1651	12	{SrAlF5}	H01S3/16	H01S3/16		3
+H01S3/1653	12	{YLiF4(YLF, LYF)}	H01S3/16	H01S3/16		135
+H01S3/1655	11	{silicate}	H01S3/16	H01S3/16		61
+H01S3/1656	12	{BeAl2(SiO3)6}	H01S3/16	H01S3/16		2
+H01S3/1658	12	{Mg2SiO4 (Forsterite)}	H01S3/16	H01S3/16		23
+H01S3/166	12	{La3Ga5SiO14 [LGS]}	H01S3/16	H01S3/16		2
+H01S3/1661	12	{Y2SiO5 [YSO]}	H01S3/16	H01S3/16		10
+H01S3/1663	11	{beryllate}	H01S3/16	H01S3/16		3
+H01S3/1665	12	{La2Be2O5 [BEL]}	H01S3/16	H01S3/16		4
+H01S3/1666	11	{borate, carbonate, arsenide}	H01S3/16	H01S3/16		78
+H01S3/1668	11	{scandate}	H01S3/16	H01S3/16		14
+H01S3/167	12	{Sc2O3}	H01S3/16	H01S3/16		6
+H01S3/1671	11	{vanadate, niobate, tantalate}	H01S3/16	H01S3/16		107
+H01S3/1673	12	{YVO4 [YVO]}	H01S3/16	H01S3/16		336
+H01S3/1675	11	{titanate, germanate, molybdate, tungstate}	H01S3/16	H01S3/16		80
+H01S3/1676	12	{Li4Ge5O12}	H01S3/16	H01S3/16		
+H01S3/1678	12	{LaBGeO5}	H01S3/16	H01S3/16		
+H01S3/168	10	{using an organic dye dispersed in a solid matrix}	H01S3/16	H01S3/16		199
+H01S3/1681	10	{using colour centres}	H01S3/16	H01S3/16		38
+H01S3/1683	10	{using superconductivity, e.g. provided with Josephson junctions}	H01S3/16	H01S3/16		10
+H01S3/1685	10	{Ceramics}	H01S3/16	H01S3/16		126
+H01S3/1686	10	{Liquid crystal active layer}	H01S3/16	H01S3/16		32
+H01S3/1688	10	{Stoichiometric laser compounds, i.e. in which the active element forms one component of a stoichiometric formula rather than being merely a dopant}	H01S3/16	H01S3/16		55
+H01S3/169	10	{Nanoparticles, e.g. doped nanoparticles acting as a gain material}	H01S3/16	H01S3/16		161
+H01S3/1691	10	{characterised by additives / sensitisers / promoters as further dopants}	H01S3/16	H01S3/16		82
+H01S3/1693	11	{aluminium}	H01S3/16	H01S3/16		63
+H01S3/1695	11	{germanium}	H01S3/16	H01S3/16		43
+H01S3/1696	11	{transition metal}	H01S3/16	H01S3/16		28
+H01S3/1698	11	{rare earth}	H01S3/16	H01S3/16		116
+H01S3/17	10	amorphous, e.g. glass	H01S3/17	H01S3/17		438
+H01S3/171	11	{chalcogenide glass}	H01S3/17	H01S3/17		20
+H01S3/172	11	{selenide glass}	H01S3/17	H01S3/17		3
+H01S3/173	11	{fluoride glass, e.g. fluorozirconate or ZBLAN [ ZrF4-BaF2-LaF3-AlF3-NaF]}	H01S3/17	H01S3/17		113
+H01S3/175	11	{phosphate glass}	H01S3/17	H01S3/17		89
+H01S3/176	11	{silica or silicate glass}	H01S3/17	H01S3/17		142
+H01S3/177	11	{telluride glass}	H01S3/17	H01S3/17		48
+H01S3/178	11	{plastic}	H01S3/17	H01S3/17		52
+H01S3/20	9	Liquids	H01S3/20	H01S3/20		121
+H01S3/207	10	including a chelate {, e.g. including atoms or ions, e.g. Nd}	H01S3/207	H01S3/207		42
+H01S3/213	10	including an organic dye	H01S3/213	H01S3/213		312
+H01S3/22	9	Gases	H01S3/22	H01S3/22		247
+H01S3/2207	10	{Noble gas ions, e.g. Ar+&gt;, Kr+&gt;}	H01S3/22	H01S3/22		88
+H01S3/2215	10	{Iodine compounds or atomic iodine}	H01S3/22	H01S3/22		103
+H01S3/2222	10	{Neon, e.g. in helium-neon (He-Ne) systems}	H01S3/22	H01S3/22		69
+H01S3/223	10	the active gas being polyatomic, i.e. containing two or more atoms (H01S3/227 takes precedence)	H01S3/223	H01S3/223		214
+H01S3/2232	11	{Carbon dioxide (CO2) or monoxide [CO]}	H01S3/223	H01S3/223		643
+H01S3/2235	11	{Dye vapour}	H01S3/223	H01S3/223		2
+H01S3/2237	11	{Molecular nitrogen (N2), e.g. in noble gas-N2 systems}	H01S3/223	H01S3/223		26
+H01S3/225	11	comprising an excimer or exciplex	H01S3/225	H01S3/225		1093
+H01S3/2251	12	{ArF, i.e. argon fluoride is comprised for lasing around 193 nm}	H01S3/225	H01S3/225		182
+H01S3/2253	12	{XeCl, i.e. xenon chloride is comprised for lasing around 308 nm}	H01S3/225	H01S3/225		19
+H01S3/2255	12	{XeF, i.e. xenon fluoride is comprised for lasing around 351 nm}	H01S3/225	H01S3/225		17
+H01S3/2256	12	{KrF, i.e. krypton fluoride is comprised for lasing around 248 nm}	H01S3/225	H01S3/225		131
+H01S3/2258	12	{F2, i.e. molecular fluoride is comprised for lasing around 157 nm}	H01S3/225	H01S3/225		108
+H01S3/227	10	Metal vapour	H01S3/227	H01S3/227		137
+H01S3/23	8	Arrangements of two or more lasers not provided for in groups H01S3/02&#160;-&#160;H01S3/22, e.g. tandem arrangements of separate active media	H01S3/23	H01S3/23		398
+H01S3/2308	9	{Amplifier arrangements, e.g. MOPA}	H01S3/23	H01S3/23		990
+H01S3/2316	10	{Cascaded amplifiers}	H01S3/23	H01S3/23		664
+H01S3/2325	10	{Multi-pass amplifiers, e.g. regenerative amplifiers}	H01S3/23	H01S3/23		262
+H01S3/2333	11	{Double-pass amplifiers}	H01S3/23	H01S3/23		436
+H01S3/2341	11	{Four pass amplifiers}	H01S3/23	H01S3/23		82
+H01S3/235	11	{Regenerative amplifiers}	H01S3/23	H01S3/23		240
+H01S3/2358	9	{comprising dyes as the active medium}	H01S3/23	H01S3/23		37
+H01S3/2366	9	{comprising a gas as the active medium (H01S3/10092, H01S3/2383 take precedence)}	H01S3/23	H01S3/23		225
+H01S3/2375	9	{Hybrid lasers (H01S3/07 takes precedence)}	H01S3/23	H01S3/23		354
+H01S3/2383	9	{Parallel arrangements}	H01S3/23	H01S3/23		1396
+H01S3/2391	10	{emitting at different wavelengths}	H01S3/23	H01S3/23		577
+H01S3/30	8	using scattering effects, e.g. stimulated Brillouin or Raman effects	H01S3/30	H01S3/30		446
+H01S3/302	9	{in an optical fibre}	H01S3/30	H01S3/30		1377
+H01S3/305	9	{in a gas}	H01S3/30	H01S3/30		190
+H01S3/307	9	{in a liquid}	H01S3/30	H01S3/30		51
+H01S4/00	7	Devices using stimulated emission of electromagnetic radiation in wave ranges other than those covered by groups H01S1/00, H01S3/00 or H01S5/00, e.g. phonon masers, X-ray lasers or gamma-ray lasers	H01S4/00	H01S4/00		250
+H01S5/00	7	Semiconductor lasers (superluminescent diodes H10H20/00)<br><br><u>NOTE</u><br><br> Attention is drawn to Note (3) after the title of section C, which Note indicates to which version of the Periodic Table of chemical elements the CPC refers. In this group,the system used is the 8 group system indicated by Roman numerals in the Periodic Table thereunder.	H01S5/00	H01S5/00		316
+H01S5/0014	8	{Measuring characteristics or properties thereof (measuring techniques per seG01J, G01K, G01N, G01R)}	H01S5/00	H01S5/00		980
+H01S5/0021	9	{Degradation or life time measurements}	H01S5/00	H01S5/00		313
+H01S5/0028	9	{Laser diodes used as detectors}	H01S5/00	H01S5/00		199
+H01S5/0035	9	{Simulations of laser characteristics}	H01S5/00	H01S5/00		72
+H01S5/0042	9	{On wafer testing, e.g. lasers are tested before separating wafer into chips}	H01S5/00	H01S5/00		137
+H01S5/005	8	{Optical components external to the laser cavity, specially adapted therefor, e.g. for homogenisation or merging of the beams or for manipulating laser pulses, e.g. pulse shaping (H01S5/026, H01S5/18388 take precedence)}	H01S5/00	H01S5/00		2135
+H01S5/0057	9	{for temporal shaping, e.g. pulse compression, frequency chirping}	H01S5/00	H01S5/00		199
+H01S5/0064	9	{Anti-reflection components, e.g. optical isolators}	H01S5/00	H01S5/00		431
+H01S5/0071	9	{for beam steering, e.g. using a mirror outside the cavity to change the beam direction}	H01S5/00	H01S5/00		1101
+H01S5/0078	9	{for frequency filtering}	H01S5/00	H01S5/00		352
+H01S5/0085	9	{for modulating the output, i.e. the laser beam is modulated outside the laser cavity}	H01S5/00	H01S5/00		793
+H01S5/0087	9	{for illuminating phosphorescent or fluorescent materials, e.g. using optical arrangements specifically adapted for guiding or shaping laser beams illuminating these materials}	H01S5/00	H01S5/00		636
+H01S5/0092	9	{for nonlinear frequency conversion, e.g. second harmonic generation [SHG] or sum- or difference-frequency generation outside the laser cavity}	H01S5/00	H01S5/00		390
+H01S5/02	8	Structural details or components not essential to laser action	H01S5/02	H01S5/02		551
+H01S5/0201	9	{Separation of the wafer into individual elements, e.g. by dicing, cleaving, etching or directly during growth}	H01S5/02	H01S5/02		440
+H01S5/0202	10	{Cleaving}	H01S5/02	H01S5/02		701
+H01S5/0203	10	{Etching}	H01S5/02	H01S5/02		254
+H01S5/0205	10	{during growth of the semiconductor body}	H01S5/02	H01S5/02		74
+H01S5/0206	9	{Substrates, e.g. growth, shape, material, removal or bonding; (specific crystal orientation H01S5/3202)}	H01S5/02	H01S5/02		442
+H01S5/0207	10	{Substrates having a special shape}	H01S5/02	H01S5/02		602
+H01S5/0208	10	{Semi-insulating substrates}	H01S5/02	H01S5/02		205
+H01S5/021	10	{Silicon based substrates}	H01S5/02	H01S5/02		932
+H01S5/0211	10	{Substrates made of ternary or quaternary compounds}	H01S5/02	H01S5/02		53
+H01S5/0212	11	{with a graded composition}	H01S5/02	H01S5/02		10
+H01S5/0213	10	{Sapphire, quartz or diamond based substrates}	H01S5/02	H01S5/02		341
+H01S5/0215	10	{Bonding to the substrate}	H01S5/02	H01S5/02		320
+H01S5/0216	11	{using an intermediate compound, e.g. a glue or solder}	H01S5/02	H01S5/02		219
+H01S5/0217	10	{Removal of the substrate}	H01S5/02	H01S5/02		487
+H01S5/0218	10	{Substrates comprising semiconducting materials from other groups of the Periodic Table than the materials of the active layer}	H01S5/02	H01S5/02		171
+H01S5/022	9	Mountings; Housings	H01S5/022	H01S5/022		484
+H01S5/02208	10	characterised by the shape of the housings	H01S5/02208	H01S5/02208		898
+H01S5/02212	11	Can-type, e.g. TO-CAN housings with emission along or parallel to symmetry axis	H01S5/02212	H01S5/02212		1346
+H01S5/02216	11	Butterfly-type, i.e. with electrode pins extending horizontally from the housings	H01S5/02216	H01S5/02216		646
+H01S5/02218	10	Material of the housings; Filling of the housings	H01S5/02218	H01S5/02218		184
+H01S5/0222	11	Gas-filled housings	H01S5/0222	H01S5/0222		261
+H01S5/02224	12	the gas comprising oxygen, e.g. for avoiding contamination of the light emitting facets	H01S5/02224	H01S5/02224		39
+H01S5/02232	11	Liquid-filled housings	H01S5/02232	H01S5/02232		20
+H01S5/02234	11	Resin-filled housings; the housings being made of resin	H01S5/02234	H01S5/02234		327
+H01S5/02235	10	Getter material for absorbing contamination	H01S5/02235	H01S5/02235		36
+H01S5/0225	10	Out-coupling of light	H01S5/0225	H01S5/0225		432
+H01S5/02251	11	using optical fibres	H01S5/02251	H01S5/02251		2240
+H01S5/02253	11	using lenses	H01S5/02253	H01S5/02253		1561
+H01S5/02255	11	using beam deflecting elements	H01S5/02255	H01S5/02255		957
+H01S5/02257	11	using windows, e.g. specially adapted for back-reflecting light to a detector inside the housing	H01S5/02257	H01S5/02257		958
+H01S5/023	10	Mount members, e.g. sub-mount members	H01S5/023	H01S5/023		688
+H01S5/0231	11	Stems	H01S5/0231	H01S5/0231		284
+H01S5/02315	11	Support members, e.g. bases or carriers	H01S5/02315	H01S5/02315		749
+H01S5/0232	11	Lead-frames	H01S5/0232	H01S5/0232		320
+H01S5/02325	11	Mechanically integrated components on mount members or optical micro-benches	H01S5/02325	H01S5/02325		1993
+H01S5/02326	12	Arrangements for relative positioning of laser diodes and optical components, e.g. grooves in the mount to fix optical fibres or lenses	H01S5/02326	H01S5/02326		1255
+H01S5/0233	10	Mounting configuration of laser chips	H01S5/0233	H01S5/0233		723
+H01S5/02335	11	Up-side up mountings, e.g. epi-side up mountings or junction up mountings	H01S5/02335	H01S5/02335		79
+H01S5/0234	11	Up-side down mountings, e.g. Flip-chip, epi-side down mountings or junction down mountings	H01S5/0234	H01S5/0234		914
+H01S5/02345	11	Wire-bonding	H01S5/02345	H01S5/02345		1786
+H01S5/0235	10	Method for mounting laser chips	H01S5/0235	H01S5/0235		687
+H01S5/02355	11	Fixing laser chips on mounts	H01S5/02355	H01S5/02355		296
+H01S5/0236	12	using an adhesive	H01S5/0236	H01S5/0236		199
+H01S5/02365	12	by clamping	H01S5/02365	H01S5/02365		213
+H01S5/0237	12	by soldering	H01S5/0237	H01S5/0237		1419
+H01S5/02375	11	Positioning of the laser chips	H01S5/02375	H01S5/02375		323
+H01S5/0238	12	using marks	H01S5/0238	H01S5/0238		84
+H01S5/02385	12	using laser light as reference	H01S5/02385	H01S5/02385		24
+H01S5/0239	10	Combinations of electrical or optical elements	H01S5/0239	H01S5/0239		863
+H01S5/024	9	Arrangements for thermal management	H01S5/024	H01S5/024		1000
+H01S5/02407	10	{Active cooling, e.g. the laser temperature is controlled by a thermo-electric cooler or water cooling}	H01S5/024	H01S5/024		320
+H01S5/02415	11	{by using a thermo-electric cooler [TEC], e.g. Peltier element}	H01S5/024	H01S5/024		1471
+H01S5/02423	11	{Liquid cooling, e.g. a liquid cools a mount of the laser}	H01S5/024	H01S5/024		816
+H01S5/0243	12	{Laser is immersed in the coolant, i.e. the whole laser chip is immersed in the liquid for cooling}	H01S5/024	H01S5/024		27
+H01S5/02438	10	{Characterized by cooling of elements other than the laser chip, e.g. an optical element being part of an external cavity or a collimating lens}	H01S5/024	H01S5/024		448
+H01S5/02446	11	{Cooling being separate from the laser chip cooling}	H01S5/024	H01S5/024		138
+H01S5/02453	10	{Heating, e.g. the laser is heated for stabilisation against temperature fluctuations of the environment (H01S5/0612 takes precedence, for monolithically integrated heaters see also H01S5/0261)}	H01S5/024	H01S5/024		318
+H01S5/02461	10	{Structure or details of the laser chip to manipulate the heat flow, e.g. passive layers in the chip with a low heat conductivity}	H01S5/024	H01S5/024		482
+H01S5/02469	10	{Passive cooling, e.g. where heat is removed by the housing as a whole or by a heat pipe without any active cooling element like a TEC}	H01S5/024	H01S5/024		1635
+H01S5/02476	10	{Heat spreaders, i.e. improving heat flow between laser chip and heat dissipating elements}	H01S5/024	H01S5/024		1013
+H01S5/02484	11	{Sapphire or diamond heat spreaders}	H01S5/024	H01S5/024		188
+H01S5/02492	11	{CuW heat spreaders}	H01S5/024	H01S5/024		111
+H01S5/026	9	Monolithically integrated components, e.g. waveguides, monitoring photo-detectors, drivers (stabilisation of output H01S5/06)	H01S5/026	H01S5/026		2635
+H01S5/0261	10	{Non-optical elements, e.g. laser driver components, heaters (H01S5/0265 takes precedence)}	H01S5/026	H01S5/026		910
+H01S5/0262	10	{Photo-diodes, e.g. transceiver devices, bidirectional devices (H01S5/0265 takes precedence)}	H01S5/026	H01S5/026		553
+H01S5/0264	11	{for monitoring the laser-output}	H01S5/026	H01S5/026		866
+H01S5/0265	10	{Intensity modulators (intra-cavity modulators H01S5/0625)}	H01S5/026	H01S5/026		1206
+H01S5/0267	10	{Integrated focusing lens (H01S5/18388 takes precedence)}	H01S5/026	H01S5/026		218
+H01S5/0268	10	{Integrated waveguide grating router, e.g. emission of a multi-wavelength laser array is combined by a "dragon router"}	H01S5/026	H01S5/026		247
+H01S5/028	9	Coatings {; Treatment of the laser facets, e.g. etching, passivation layers or reflecting layers}	H01S5/028	H01S5/028		1448
+H01S5/0281	10	{Coatings made of semiconductor materials}	H01S5/028	H01S5/028		194
+H01S5/0282	10	{Passivation layers or treatments}	H01S5/028	H01S5/028		429
+H01S5/0283	11	{Optically inactive coating on the facet, e.g. half-wave coating}	H01S5/028	H01S5/028		93
+H01S5/0284	10	{Coatings with a temperature dependent reflectivity}	H01S5/028	H01S5/028		16
+H01S5/0285	10	{Coatings with a controllable reflectivity}	H01S5/028	H01S5/028		50
+H01S5/0286	10	{Coatings with a reflectivity that is not constant over the facets, e.g. apertures}	H01S5/028	H01S5/028		90
+H01S5/0287	10	{Facet reflectivity}	H01S5/028	H01S5/028		799
+H01S5/0288	11	{Detuned facet reflectivity, i.e. reflectivity peak is different from gain maximum}	H01S5/028	H01S5/028		17
+H01S5/04	8	Processes or apparatus for excitation, e.g. pumping, {e.g. by electron beams}(H01S5/06 takes precedence)	H01S5/04	H01S5/04		107
+H01S5/041	9	{Optical pumping}	H01S5/04	H01S5/04		886
+H01S5/042	9	Electrical excitation {; Circuits therefor (monolithically integrated laser drive components H01S5/0261)}	H01S5/042	H01S5/042		2288
+H01S5/0421	10	{characterised by the semiconducting contacting layers (electrodes H01S5/0425)}	H01S5/042	H01S5/042		709
+H01S5/0422	11	{with n- and p-contacts on the same side of the active layer}	H01S5/042	H01S5/042		416
+H01S5/0424	12	{lateral current injection}	H01S5/042	H01S5/042		218
+H01S5/0425	10	{Electrodes, e.g. characterised by the structure}	H01S5/042	H01S5/042		503
+H01S5/04252	11	{characterised by the material}	H01S5/042	H01S5/042		655
+H01S5/04253	12	{having specific optical properties, e.g. transparent electrodes}	H01S5/042	H01S5/042		414
+H01S5/04254	11	{characterised by the shape}	H01S5/042	H01S5/042		1180
+H01S5/04256	11	{characterised by the configuration}	H01S5/042	H01S5/042		1483
+H01S5/04257	12	{having positive and negative electrodes on the same side of the substrate}	H01S5/042	H01S5/042		943
+H01S5/0427	10	{for applying modulation to the laser}	H01S5/042	H01S5/042		924
+H01S5/0428	10	{for applying pulses to the laser}	H01S5/042	H01S5/042		907
+H01S5/06	8	Arrangements for controlling the laser output parameters, e.g. by operating on the active medium	H01S5/06	H01S5/06		659
+H01S5/0601	9	{comprising an absorbing region (H01S5/0604, H01S5/0607, H01S5/0615 and H01S5/065 take precedence; bistable laser devices in general G02F3/026)}	H01S5/06	H01S5/06		255
+H01S5/0602	10	{which is an umpumped part of the active layer}	H01S5/06	H01S5/06		87
+H01S5/0604	9	{comprising a non-linear region, e.g. generating harmonics of the laser frequency}	H01S5/06	H01S5/06		181
+H01S5/0605	10	{Self doubling, e.g. lasing and frequency doubling by the same active medium}	H01S5/06	H01S5/06		42
+H01S5/0607	9	{by varying physical parameters other than the potential of the electrodes, e.g. by an electric or magnetic field, mechanical deformation, pressure, light, temperature}	H01S5/06	H01S5/06		318
+H01S5/0608	10	{controlled by light, e.g. optical switch}	H01S5/06	H01S5/06		212
+H01S5/0609	11	{acting on an absorbing region, e.g. wavelength convertors}	H01S5/06	H01S5/06		81
+H01S5/0611	12	{wavelength convertors}	H01S5/06	H01S5/06		76
+H01S5/0612	10	{controlled by temperature}	H01S5/06	H01S5/06		876
+H01S5/0614	10	{controlled by electric field, i.e. whereby an additional electric field is used to tune the bandgap, e.g. using the Stark-effect}	H01S5/06	H01S5/06		123
+H01S5/0615	9	{Q-switching, i.e. in which the quality factor of the optical resonator is rapidly changed}	H01S5/06	H01S5/06		88
+H01S5/0617	9	{using memorised or pre-programmed laser characteristics}	H01S5/06	H01S5/06		655
+H01S5/0618	9	{Details on the linewidth enhancement parameter alpha}	H01S5/06	H01S5/06		24
+H01S5/062	9	by varying the potential of the electrodes (H01S5/065 takes precedence)	H01S5/062	H01S5/062		205
+H01S5/06203	10	{Transistor-type lasers (H01S5/0608 takes precedence)}	H01S5/062	H01S5/062		238
+H01S5/06206	11	{Controlling the frequency of the radiation, e.g. tunable twin-guide lasers [TTG]}	H01S5/062	H01S5/062		87
+H01S5/06209	10	{in single-section lasers (H01S5/0608 takes precedence)}	H01S5/062	H01S5/062		124
+H01S5/06213	11	{Amplitude modulation}	H01S5/062	H01S5/062		361
+H01S5/06216	11	{Pulse modulation or generation}	H01S5/062	H01S5/062		609
+H01S5/0622	11	{Controlling the frequency of the radiation}	H01S5/062	H01S5/062		318
+H01S5/06223	10	{using delayed or positive feedback}	H01S5/062	H01S5/062		50
+H01S5/06226	10	{Modulation at ultra-high frequencies}	H01S5/062	H01S5/062		559
+H01S5/0623	11	{using the beating between two closely spaced optical frequencies, i.e. heterodyne mixing}	H01S5/062	H01S5/062		85
+H01S5/06233	10	{Controlling other output parameters than intensity or frequency}	H01S5/062	H01S5/062		46
+H01S5/06236	11	{controlling the polarisation, e.g. TM/TE polarisation switching}	H01S5/062	H01S5/062		180
+H01S5/0624	11	{controlling the near- or far field}	H01S5/062	H01S5/062		45
+H01S5/06243	11	{controlling the position or direction of the emitted beam}	H01S5/062	H01S5/062		169
+H01S5/06246	11	{controlling the phase}	H01S5/062	H01S5/062		140
+H01S5/0625	10	in multi-section lasers	H01S5/0625	H01S5/0625		309
+H01S5/06251	11	{Amplitude modulation}	H01S5/0625	H01S5/0625		98
+H01S5/06253	11	{Pulse modulation}	H01S5/0625	H01S5/0625		85
+H01S5/06255	11	{Controlling the frequency of the radiation}	H01S5/0625	H01S5/0625		216
+H01S5/06256	12	{with DBR-structure}	H01S5/0625	H01S5/0625		744
+H01S5/06258	12	{with DFB-structure}	H01S5/0625	H01S5/0625		457
+H01S5/065	9	Mode locking; Mode suppression; Mode selection {; Self pulsating}	H01S5/065	H01S5/065		341
+H01S5/0651	10	{Mode control}	H01S5/065	H01S5/065		106
+H01S5/0652	11	{Coherence lowering or collapse, e.g. multimode emission by additional input or modulation}	H01S5/065	H01S5/065		93
+H01S5/0653	11	{Mode suppression, e.g. specific multimode}	H01S5/065	H01S5/065		153
+H01S5/0654	12	{Single longitudinal mode emission}	H01S5/065	H01S5/065		325
+H01S5/0655	12	{Single transverse or lateral mode emission}	H01S5/065	H01S5/065		291
+H01S5/0656	10	{Seeding, i.e. an additional light input is provided for controlling the laser modes, for example by back-reflecting light from an external optical component (H01S5/14, H01S5/4062 and H01S5/4006 take precedence)}	H01S5/065	H01S5/065		212
+H01S5/0657	10	{Mode locking, i.e. generation of pulses at a frequency corresponding to a roundtrip in the cavity}	H01S5/065	H01S5/065		353
+H01S5/0658	10	{Self-pulsating}	H01S5/065	H01S5/065		149
+H01S5/068	9	Stabilisation of laser output parameters (H01S5/0625 takes precedence)	H01S5/068	H01S5/068		426
+H01S5/06804	10	{by monitoring an external parameter, e.g. temperature}	H01S5/068	H01S5/068		803
+H01S5/06808	10	{by monitoring the electrical laser parameters, e.g. voltage or current}	H01S5/068	H01S5/068		509
+H01S5/06812	10	{by monitoring or fixing the threshold current or other specific points of the L-I or V-I characteristics}	H01S5/068	H01S5/068		147
+H01S5/06817	10	{Noise reduction}	H01S5/068	H01S5/068		142
+H01S5/06821	10	{Stabilising other output parameters than intensity or frequency, e.g. phase, polarisation or far-fields}	H01S5/068	H01S5/068		195
+H01S5/06825	10	{Protecting the laser, e.g. during switch-on/off, detection of malfunctioning or degradation}	H01S5/068	H01S5/068		891
+H01S5/0683	10	by monitoring the optical output parameters	H01S5/0683	H01S5/0683		2369
+H01S5/06832	11	{Stabilising during amplitude modulation}	H01S5/0683	H01S5/0683		498
+H01S5/06835	11	{Stabilising during pulse modulation or generation}	H01S5/0683	H01S5/0683		358
+H01S5/06837	11	{Stabilising otherwise than by an applied electric field or current, e.g. by controlling the temperature}	H01S5/0683	H01S5/0683		315
+H01S5/0687	11	Stabilising the frequency of the laser	H01S5/0687	H01S5/0687		1683
+H01S5/10	8	Construction or shape of the optical resonator {, e.g. extended or external cavity, coupled cavities, bent-guide, varying width, thickness or composition of the active region (H01S5/20 takes precedence)}	H01S5/10	H01S5/10		1152
+H01S5/1003	9	{Waveguide having a modified shape along the axis, e.g. branched, curved, tapered, voids}	H01S5/10	H01S5/10		278
+H01S5/1007	10	{Branched waveguides}	H01S5/10	H01S5/10		111
+H01S5/101	10	{Curved waveguide (H01S5/1243 takes precedence)}	H01S5/10	H01S5/10		299
+H01S5/1014	10	{Tapered waveguide, e.g. spotsize converter (H01S5/1064 takes precedence)}	H01S5/10	H01S5/10		582
+H01S5/1017	10	{Waveguide having a void for insertion of materials to change optical properties}	H01S5/10	H01S5/10		130
+H01S5/1021	9	{Coupled cavities (H01S5/14 takes precedence)}	H01S5/10	H01S5/10		318
+H01S5/1025	9	{Extended cavities}	H01S5/10	H01S5/10		116
+H01S5/1028	9	{Coupling to elements in the cavity, e.g. coupling to waveguides adjacent the active region, e.g. forward coupled [DFC] structures}	H01S5/10	H01S5/10		210
+H01S5/1032	10	{Coupling to elements comprising an optical axis that is not aligned with the optical axis of the active region}	H01S5/10	H01S5/10		850
+H01S5/1035	11	{Forward coupled structures [DFC]}	H01S5/10	H01S5/10		70
+H01S5/1039	9	{Details on the cavity length}	H01S5/10	H01S5/10		525
+H01S5/1042	9	{Optical microcavities, e.g. cavity dimensions comparable to the wavelength}	H01S5/10	H01S5/10		336
+H01S5/1046	9	{Comprising interactions between photons and plasmons, e.g. by a corrugated surface}	H01S5/10	H01S5/10		121
+H01S5/1053	9	{Comprising an active region having a varying composition or cross-section in a specific direction}	H01S5/10	H01S5/10		67
+H01S5/1057	10	{varying composition along the optical axis}	H01S5/10	H01S5/10		66
+H01S5/106	10	{varying thickness along the optical axis}	H01S5/10	H01S5/10		142
+H01S5/1064	10	{varying width along the optical axis}	H01S5/10	H01S5/10		484
+H01S5/1067	10	{comprising nanoparticles}	H01S5/10	H01S5/10		33
+H01S5/1071	9	{Ring-lasers}	H01S5/10	H01S5/10		413
+H01S5/1075	10	{Disk lasers with special modes, e.g. whispering gallery lasers}	H01S5/10	H01S5/10		127
+H01S5/1078	9	{with means to control the spontaneous emission, e.g. reducing or reinjection}	H01S5/10	H01S5/10		62
+H01S5/1082	9	{with a special facet structure, e.g. structured, non planar, oblique}	H01S5/10	H01S5/10		308
+H01S5/1085	10	{Oblique facets}	H01S5/10	H01S5/10		357
+H01S5/1089	9	{Unstable resonators}	H01S5/10	H01S5/10		21
+H01S5/1092	9	{Multi-wavelength lasing}	H01S5/10	H01S5/10		223
+H01S5/1096	10	{in a single cavity}	H01S5/10	H01S5/10		206
+H01S5/11	9	Comprising a photonic bandgap structure	H01S5/11	H01S5/11		808
+H01S5/12	9	the resonator having a periodic structure, e.g. in distributed feedback [DFB] lasers (comprising a photonic bandgap structure H01S5/11; surface-emitting lasers H01S5/18)	H01S5/12	H01S5/12		2018
+H01S5/1203	10	{over only a part of the length of the active region}	H01S5/12	H01S5/12		170
+H01S5/1206	10	{having a non constant or multiplicity of periods}	H01S5/12	H01S5/12		86
+H01S5/1209	11	{Sampled grating}	H01S5/12	H01S5/12		238
+H01S5/1212	11	{Chirped grating}	H01S5/12	H01S5/12		154
+H01S5/1215	11	{Multiplicity of periods}	H01S5/12	H01S5/12		312
+H01S5/1218	12	{in superstructured configuration, e.g. more than one period in an alternate sequence}	H01S5/12	H01S5/12		73
+H01S5/1221	10	{Detuning between Bragg wavelength and gain maximum}	H01S5/12	H01S5/12		98
+H01S5/1225	10	{with a varying coupling constant along the optical axis}	H01S5/12	H01S5/12		129
+H01S5/1228	10	{DFB lasers with a complex coupled grating, e.g. gain or loss coupling}	H01S5/12	H01S5/12		520
+H01S5/1231	10	{Grating growth or overgrowth details}	H01S5/12	H01S5/12		429
+H01S5/1234	10	{Actively induced grating, e.g. acoustically or electrically induced}	H01S5/12	H01S5/12		65
+H01S5/1237	10	{Lateral grating, i.e. grating only adjacent ridge or mesa}	H01S5/12	H01S5/12		222
+H01S5/124	10	{incorporating phase shifts}	H01S5/12	H01S5/12		270
+H01S5/1243	11	{by other means than a jump in the grating period, e.g. bent waveguides}	H01S5/12	H01S5/12		105
+H01S5/1246	11	{plurality of phase shifts}	H01S5/12	H01S5/12		69
+H01S5/125	10	Distributed Bragg reflector [DBR] lasers	H01S5/125	H01S5/125		1236
+H01S5/14	9	External cavity lasers (H01S5/18 takes precedence; mode locking H01S5/065)<br><br><u>NOTE</u><br><br> in this group external cavity elements correspond to elements inside the laser cavity but outside the monolithic semiconductor body. These elements correspond to intra cavity elements in H01S3/00	H01S5/14	H01S5/14		915
+H01S5/141	10	{using a wavelength selective device, e.g. a grating or etalon (H01S5/146 takes precedence)}	H01S5/14	H01S5/14		2064
+H01S5/142	11	{which comprises an additional resonator}	H01S5/14	H01S5/14		596
+H01S5/143	11	{Littman-Metcalf configuration, e.g. laser - grating - mirror}	H01S5/14	H01S5/14		307
+H01S5/145	10	{Phase conjugate mirrors}	H01S5/14	H01S5/14		14
+H01S5/146	10	{using a fiber as external cavity}	H01S5/14	H01S5/14		554
+H01S5/147	11	{having specially shaped fibre, e.g. lensed or tapered end portion}	H01S5/14	H01S5/14		92
+H01S5/148	10	{using a Talbot cavity}	H01S5/14	H01S5/14		32
+H01S5/16	9	Window-type lasers, i.e. with a region of non-absorbing material between the active region and the reflecting surface (H01S5/14 takes precedence)	H01S5/16	H01S5/16		376
+H01S5/162	10	{with window regions made by diffusion or disordening of the active layer}	H01S5/16	H01S5/16		205
+H01S5/164	10	{with window regions comprising semiconductor material with a wider bandgap than the active layer}	H01S5/16	H01S5/16		204
+H01S5/166	10	{with window regions comprising non-semiconducting materials}	H01S5/16	H01S5/16		20
+H01S5/168	10	{with window regions comprising current blocking layers}	H01S5/16	H01S5/16		153
+H01S5/18	9	Surface-emitting [SE] lasers, e.g. having both horizontal and vertical cavities	H01S5/18	H01S5/18		224
+H01S5/183	10	having only vertical cavities, e.g. vertical cavity surface-emitting lasers [VCSEL]	H01S5/183	H01S5/183		2475
+H01S5/18302	11	{comprising an integrated optical modulator}	H01S5/183	H01S5/183		277
+H01S5/18305	11	{with emission through the substrate, i.e. bottom emission}	H01S5/183	H01S5/183		702
+H01S5/18308	11	{having a special structure for lateral current or light confinement}	H01S5/183	H01S5/183		1099
+H01S5/18311	12	{using selective oxidation}	H01S5/183	H01S5/183		1197
+H01S5/18313	13	{by oxidizing at least one of the DBR layers}	H01S5/183	H01S5/183		491
+H01S5/18316	12	{Airgap confined}	H01S5/183	H01S5/183		88
+H01S5/18319	12	{comprising a periodical structure in lateral directions}	H01S5/183	H01S5/183		142
+H01S5/18322	12	{Position of the structure}	H01S5/183	H01S5/183		103
+H01S5/18325	13	{Between active layer and substrate}	H01S5/183	H01S5/183		67
+H01S5/18327	13	{Structure being part of a DBR (H01S5/18391 takes precedence)}	H01S5/183	H01S5/183		303
+H01S5/1833	13	{with more than one structure}	H01S5/183	H01S5/183		235
+H01S5/18333	14	{only above the active layer}	H01S5/183	H01S5/183		183
+H01S5/18336	14	{only below the active layer}	H01S5/183	H01S5/183		10
+H01S5/18338	12	{Non-circular shape of the structure}	H01S5/183	H01S5/183		177
+H01S5/18341	11	{Intra-cavity contacts}	H01S5/183	H01S5/183		784
+H01S5/18344	11	{characterized by the mesa, e.g. dimensions or shape of the mesa}	H01S5/183	H01S5/183		291
+H01S5/18347	12	{Mesa comprising active layer}	H01S5/183	H01S5/183		354
+H01S5/1835	12	{Non-circular mesa}	H01S5/183	H01S5/183		220
+H01S5/18352	12	{Mesa with inclined sidewall}	H01S5/183	H01S5/183		130
+H01S5/18355	11	{having a defined polarisation}	H01S5/183	H01S5/183		302
+H01S5/18358	11	{containing spacer layers to adjust the phase of the light wave in the cavity}	H01S5/183	H01S5/183		531
+H01S5/18361	11	{Structure of the reflectors, e.g. hybrid mirrors}	H01S5/183	H01S5/183		991
+H01S5/18363	12	{comprising air layers}	H01S5/183	H01S5/183		83
+H01S5/18366	13	{Membrane DBR, i.e. a movable DBR on top of the VCSEL}	H01S5/183	H01S5/183		302
+H01S5/18369	12	{based on dielectric materials}	H01S5/183	H01S5/183		658
+H01S5/18372	13	{by native oxidation}	H01S5/183	H01S5/183		67
+H01S5/18375	12	{based on metal reflectors}	H01S5/183	H01S5/183		152
+H01S5/18377	12	{comprising layers of different kind of materials, e.g. combinations of semiconducting with dielectric or metallic layers}	H01S5/183	H01S5/183		349
+H01S5/1838	12	{Reflector bonded by wafer fusion or by an intermediate compound}	H01S5/183	H01S5/183		113
+H01S5/18383	11	{with periodic active regions at nodes or maxima of light intensity}	H01S5/183	H01S5/183		193
+H01S5/18386	11	{Details of the emission surface for influencing the near- or far-field, e.g. a grating on the surface}	H01S5/183	H01S5/183		332
+H01S5/18388	12	{Lenses}	H01S5/183	H01S5/183		423
+H01S5/18391	12	{Aperiodic structuring to influence the near- or far-field distribution}	H01S5/183	H01S5/183		193
+H01S5/18394	12	{Apertures, e.g. defined by the shape of the upper electrode}	H01S5/183	H01S5/183		455
+H01S5/18397	11	{Plurality of active layers vertically stacked in a cavity for multi-wavelength emission}	H01S5/183	H01S5/183		137
+H01S5/185	10	having only horizontal cavities, e.g. horizontal cavity surface-emitting lasers [HCSEL] (comprising a photonic bandgap structure H01S5/11)	H01S5/185	H01S5/185		362
+H01S5/187	11	using Bragg reflection	H01S5/187	H01S5/187		775
+H01S5/20	8	Structure or shape of the semiconductor body to guide the optical wave {; Confining structures perpendicular to the optical axis, e.g. index or gain guiding, stripe geometry, broad area lasers, gain tailoring, transverse or lateral reflectors, special cladding structures, MQW barrier reflection layers}	H01S5/20	H01S5/20		882
+H01S5/2004	9	{Confining in the direction perpendicular to the layer structure}	H01S5/20	H01S5/20		502
+H01S5/2009	10	{by using electron barrier layers}	H01S5/20	H01S5/20		685
+H01S5/2013	11	{MQW barrier reflection layers}	H01S5/20	H01S5/20		153
+H01S5/2018	10	{Optical confinement, e.g. absorbing-, reflecting- or waveguide-layers}	H01S5/20	H01S5/20		318
+H01S5/2022	11	{Absorbing region or layer parallel to the active layer, e.g. to influence transverse modes}	H01S5/20	H01S5/20		137
+H01S5/2027	11	{Reflecting region or layer, parallel to the active layer, e.g. to modify propagation of the mode in the laser or to influence transverse modes}	H01S5/20	H01S5/20		268
+H01S5/2031	11	{characterized by special waveguide layers, e.g. asymmetric waveguide layers or defined bandgap discontinuities}	H01S5/20	H01S5/20		426
+H01S5/2036	9	{Broad area lasers}	H01S5/20	H01S5/20		242
+H01S5/204	9	{Strongly index guided structures}	H01S5/20	H01S5/20		88
+H01S5/2045	10	{employing free standing waveguides or air gap confinement}	H01S5/20	H01S5/20		42
+H01S5/205	9	{Antiguided structures}	H01S5/20	H01S5/20		54
+H01S5/2054	9	{Methods of obtaining the confinement}	H01S5/20	H01S5/20		59
+H01S5/2059	10	{by means of particular conductivity zones, e.g. obtained by particle bombardment or diffusion}	H01S5/20	H01S5/20		542
+H01S5/2063	11	{obtained by particle bombardment}	H01S5/20	H01S5/20		462
+H01S5/2068	11	{obtained by radiation treatment or annealing}	H01S5/20	H01S5/20		98
+H01S5/2072	11	{obtained by vacancy induced diffusion}	H01S5/20	H01S5/20		96
+H01S5/2077	10	{using lateral bandgap control during growth, e.g. selective growth, mask induced}	H01S5/20	H01S5/20		180
+H01S5/2081	10	{using special etching techniques}	H01S5/20	H01S5/20		284
+H01S5/2086	11	{lateral etch control, e.g. mask induced}	H01S5/20	H01S5/20		223
+H01S5/209	11	{special etch stop layers}	H01S5/20	H01S5/20		279
+H01S5/2095	10	{using melting or mass transport}	H01S5/20	H01S5/20		16
+H01S5/22	9	having a ridge or stripe structure	H01S5/22	H01S5/22		2504
+H01S5/2201	10	{in a specific crystallographic orientation}	H01S5/22	H01S5/22		392
+H01S5/2202	10	{by making a groove in the upper laser structure}	H01S5/22	H01S5/22		220
+H01S5/2203	10	{with a transverse junction stripe [TJS] structure}	H01S5/22	H01S5/22		117
+H01S5/2205	10	{comprising special burying or current confinement layers}	H01S5/22	H01S5/22		444
+H01S5/2206	11	{based on III-V materials}	H01S5/22	H01S5/22		419
+H01S5/2207	12	{GaAsP based}	H01S5/22	H01S5/22		28
+H01S5/2209	12	{GaInP based}	H01S5/22	H01S5/22		76
+H01S5/221	12	{containing aluminium}	H01S5/22	H01S5/22		169
+H01S5/2211	11	{based on II-VI materials}	H01S5/22	H01S5/22		54
+H01S5/2213	11	{based on polyimide or resin}	H01S5/22	H01S5/22		101
+H01S5/2214	11	{based on oxides or nitrides}	H01S5/22	H01S5/22		383
+H01S5/2215	12	{using native oxidation of semiconductor layers}	H01S5/22	H01S5/22		88
+H01S5/2216	12	{nitrides}	H01S5/22	H01S5/22		74
+H01S5/2218	11	{having special optical properties}	H01S5/22	H01S5/22		93
+H01S5/2219	12	{absorbing}	H01S5/22	H01S5/22		100
+H01S5/222	12	{having a refractive index lower than that of the cladding layers or outer guiding layers}	H01S5/22	H01S5/22		160
+H01S5/2222	11	{having special electric properties}	H01S5/22	H01S5/22		211
+H01S5/2223	12	{hetero barrier blocking layers, e.g. P-P or N-N}	H01S5/22	H01S5/22		47
+H01S5/2224	12	{semi-insulating semiconductors}	H01S5/22	H01S5/22		322
+H01S5/2226	12	{semiconductors with a specific doping}	H01S5/22	H01S5/22		157
+H01S5/2227	12	{special thin layer sequence}	H01S5/22	H01S5/22		79
+H01S5/2228	13	{quantum wells}	H01S5/22	H01S5/22		71
+H01S5/223	10	Buried stripe structure {(H01S5/227 takes precedence)}	H01S5/223	H01S5/223		223
+H01S5/2231	11	{with inner confining structure only between the active layer and the upper electrode}	H01S5/223	H01S5/223		1180
+H01S5/2232	11	{with inner confining structure between the active layer and the lower electrode}	H01S5/223	H01S5/223		345
+H01S5/2234	12	{having a structured substrate surface}	H01S5/223	H01S5/223		247
+H01S5/2235	13	{with a protrusion}	H01S5/223	H01S5/223		175
+H01S5/2237	11	{with a non-planar active layer}	H01S5/223	H01S5/223		341
+H01S5/2238	11	{with a terraced structure}	H01S5/223	H01S5/223		148
+H01S5/227	10	Buried mesa structure {; Striped active layer}	H01S5/227	H01S5/227		1355
+H01S5/2272	11	{grown by a mask induced selective growth}	H01S5/227	H01S5/227		192
+H01S5/2275	11	{mesa created by etching}	H01S5/227	H01S5/227		1355
+H01S5/2277	12	{double channel planar buried heterostructure [DCPBH] laser}	H01S5/227	H01S5/227		230
+H01S5/24	9	having a grooved structure, e.g. V-grooved {, crescent active layer in groove, VSIS laser}	H01S5/24	H01S5/24		407
+H01S5/30	8	Structure or shape of the active region; Materials used for the active region	H01S5/30	H01S5/30		881
+H01S5/3004	9	{employing a field effect structure for inducing charge-carriers, e.g. FET}	H01S5/30	H01S5/30		25
+H01S5/3009	10	{MIS or MOS conffigurations}	H01S5/30	H01S5/30		18
+H01S5/3013	9	{AIIIBV compounds}	H01S5/30	H01S5/30		498
+H01S5/3018	9	{AIIBVI compounds}	H01S5/30	H01S5/30		42
+H01S5/3022	9	{AIVBVI compounds}	H01S5/30	H01S5/30		5
+H01S5/3027	9	{IV compounds}	H01S5/30	H01S5/30		43
+H01S5/3031	10	{Si}	H01S5/30	H01S5/30		55
+H01S5/3036	11	{SiC}	H01S5/30	H01S5/30		6
+H01S5/304	11	{porous Si}	H01S5/30	H01S5/30		4
+H01S5/3045	10	{diamond}	H01S5/30	H01S5/30		8
+H01S5/305	9	{characterised by the doping materials used in the laser structure}	H01S5/30	H01S5/30		610
+H01S5/3054	10	{p-doping}	H01S5/30	H01S5/30		425
+H01S5/3059	11	{in II-VI materials}	H01S5/30	H01S5/30		32
+H01S5/3063	11	{using Mg}	H01S5/30	H01S5/30		262
+H01S5/3068	10	{deep levels}	H01S5/30	H01S5/30		52
+H01S5/3072	10	{Diffusion blocking layer, i.e. a special layer blocking diffusion of dopants}	H01S5/30	H01S5/30		116
+H01S5/3077	10	{plane dependent doping}	H01S5/30	H01S5/30		50
+H01S5/3081	11	{using amphoteric doping}	H01S5/30	H01S5/30		34
+H01S5/3086	10	{doping of the active layer}	H01S5/30	H01S5/30		181
+H01S5/309	11	{doping of barrier layers that confine charge carriers in the laser structure, e.g. the barriers in a quantum well structure (barriers in quantum wells per seH01S5/3407)}	H01S5/30	H01S5/30		105
+H01S5/3095	10	{Tunnel junction}	H01S5/30	H01S5/30		489
+H01S5/32	9	comprising PN junctions, e.g. hetero- or double- heterostructures (H01S5/34, H01S5/36 take precedence)	H01S5/32	H01S5/32		610
+H01S5/3201	10	{incorporating bulkstrain effects, e.g. strain compensation, strain related to polarisation}	H01S5/32	H01S5/32		394
+H01S5/3202	10	{grown on specifically orientated substrates, or using orientation dependent growth}	H01S5/32	H01S5/32		404
+H01S5/320225	11	{polar orientation}	H01S5/32	H01S5/32		90
+H01S5/32025	11	{non-polar orientation}	H01S5/32	H01S5/32		109
+H01S5/320275	11	{semi-polar orientation}	H01S5/32	H01S5/32		221
+H01S5/3203	11	{on non-planar substrates to create thickness or compositional variations}	H01S5/32	H01S5/32		96
+H01S5/3205	10	{with an active layer having a graded composition in the growth direction}	H01S5/32	H01S5/32		55
+H01S5/3206	10	{ordering or disordering the natural superlattice in ternary or quaternary materials}	H01S5/32	H01S5/32		38
+H01S5/3207	11	{ordered active layer}	H01S5/32	H01S5/32		14
+H01S5/3209	11	{disordered active layer}	H01S5/32	H01S5/32		23
+H01S5/321	10	{having intermediate bandgap layers}	H01S5/32	H01S5/32		108
+H01S5/3211	10	{characterised by special cladding layers, e.g. details on band-discontinuities}	H01S5/32	H01S5/32		730
+H01S5/3213	11	{asymmetric clading layers}	H01S5/32	H01S5/32		356
+H01S5/3214	11	{comprising materials from other groups of the Periodic Table than the materials of the active layer, e.g. ZnSe claddings and GaAs active layer}	H01S5/32	H01S5/32		95
+H01S5/3215	11	{graded composition cladding layers}	H01S5/32	H01S5/32		140
+H01S5/3216	11	{quantum well or superlattice cladding layers}	H01S5/32	H01S5/32		278
+H01S5/3218	11	{specially strained cladding layers, other than for strain compensation}	H01S5/32	H01S5/32		35
+H01S5/3219	11	{explicitly Al-free cladding layers}	H01S5/32	H01S5/32		18
+H01S5/322	10	{type-II junctions}	H01S5/32	H01S5/32		12
+H01S5/3222	10	{in AIVBVI compounds, e.g. PbSSe-laser}	H01S5/32	H01S5/32		49
+H01S5/3223	10	{IV compounds}	H01S5/32	H01S5/32		51
+H01S5/3224	11	{Si}	H01S5/32	H01S5/32		39
+H01S5/3226	12	{SiC}	H01S5/32	H01S5/32		10
+H01S5/3227	12	{porous Si}	H01S5/32	H01S5/32		10
+H01S5/3228	11	{diamond}	H01S5/32	H01S5/32		6
+H01S5/323	10	in AIIIBV compounds, e.g. AlGaAs-laser, {InP-based laser}	H01S5/323	H01S5/323		388
+H01S5/32308	11	{emitting light at a wavelength less than 900 nm}	H01S5/323	H01S5/323		301
+H01S5/32316	12	{comprising only (Al)GaAs}	H01S5/323	H01S5/323		189
+H01S5/32325	12	{red laser based on InGaP}	H01S5/323	H01S5/323		282
+H01S5/32333	12	{based on InGaAsP}	H01S5/323	H01S5/323		103
+H01S5/32341	12	{blue laser based on GaN or GaP}	H01S5/323	H01S5/323		1409
+H01S5/3235	11	{emitting light at a wavelength longer than 1000 nm, e.g. InP-based 1300 nm and 1500 nm lasers}	H01S5/323	H01S5/323		152
+H01S5/32358	12	{containing very small amounts, usually less than 1%, of an additional III or V compound to decrease the bandgap strongly in a non-linear way by the bowing effect}	H01S5/323	H01S5/323		30
+H01S5/32366	13	{(In)GaAs with small amount of N}	H01S5/323	H01S5/323		127
+H01S5/32375	13	{In(As)N with small amount of P, or In(As)P with small amount of N}	H01S5/323	H01S5/323		14
+H01S5/32383	13	{small amount of Thallum (TI), e.g. GaTIP}	H01S5/323	H01S5/323		6
+H01S5/32391	12	{based on In(Ga)(As)P}	H01S5/323	H01S5/323		238
+H01S5/327	10	in AIIBVI compounds, e.g. ZnCdSe-laser	H01S5/327	H01S5/327		232
+H01S5/34	9	comprising quantum well or superlattice structures, e.g. single quantum well [SQW] lasers, multiple quantum well [MQW] lasers or graded index separate confinement heterostructure [GRINSCH] lasers (H01S5/36 takes precedence)	H01S5/34	H01S5/34		1004
+H01S5/3401	10	{having no PN junction, e.g. unipolar lasers, intersubband lasers, quantum cascade lasers}	H01S5/34	H01S5/34		382
+H01S5/3402	11	{intersubband lasers, e.g. transitions within the conduction or valence bands}	H01S5/34	H01S5/34		455
+H01S5/3403	10	{having a strained layer structure in which the strain performs a special function, e.g. general strain effects, strain versus polarisation}	H01S5/34	H01S5/34		284
+H01S5/3404	11	{influencing the polarisation}	H01S5/34	H01S5/34		100
+H01S5/3406	11	{including strain compensation}	H01S5/34	H01S5/34		222
+H01S5/3407	10	{characterised by special barrier layers}	H01S5/34	H01S5/34		352
+H01S5/3408	10	{characterised by specially shaped wells, e.g. triangular}	H01S5/34	H01S5/34		87
+H01S5/3409	10	{special GRINSCH structures}	H01S5/34	H01S5/34		133
+H01S5/341	10	{Structures having reduced dimensionality, e.g. quantum wires}	H01S5/34	H01S5/34		291
+H01S5/3412	11	{quantum box or quantum dash}	H01S5/34	H01S5/34		552
+H01S5/3413	10	{comprising partially disordered wells or barriers}	H01S5/34	H01S5/34		92
+H01S5/3414	11	{by vacancy induced interdiffusion}	H01S5/34	H01S5/34		75
+H01S5/3415	10	{containing details related to carrier capture times into wells or barriers}	H01S5/34	H01S5/34		68
+H01S5/3416	11	{tunneling through barriers}	H01S5/34	H01S5/34		105
+H01S5/3418	10	{using transitions from higher quantum levels}	H01S5/34	H01S5/34		49
+H01S5/3419	11	{intersubband lasers, e.g. laser transitions within the conduction or valence bands in non unipolar structures}	H01S5/34	H01S5/34		34
+H01S5/342	10	{containing short period superlattices [SPS]}	H01S5/34	H01S5/34		30
+H01S5/3421	10	{layer structure of quantum wells to influence the near/far field}	H01S5/34	H01S5/34		42
+H01S5/3422	10	{comprising type-II quantum wells or superlattices}	H01S5/34	H01S5/34		89
+H01S5/3424	10	{comprising freestanding wells}	H01S5/34	H01S5/34		4
+H01S5/3425	10	{comprising couples wells or superlattices}	H01S5/34	H01S5/34		107
+H01S5/3426	10	{in AIVBVI compounds, e.g. PbSSe-laser}	H01S5/34	H01S5/34		13
+H01S5/3427	10	{in IV compounds}	H01S5/34	H01S5/34		51
+H01S5/3428	10	{layer orientation perpendicular to the substrate}	H01S5/34	H01S5/34		174
+H01S5/343	10	in AIIIBV compounds, e.g. AlGaAs-laser {, InP-based laser}	H01S5/343	H01S5/343		861
+H01S5/34306	11	{emitting light at a wavelength longer than 1000nm, e.g. InP based 1300 and 1500nm lasers}	H01S5/343	H01S5/343		916
+H01S5/34313	11	{with a well layer having only As as V-compound, e.g. AlGaAs, InGaAs}	H01S5/343	H01S5/343		1035
+H01S5/3432	12	{the whole junction comprising only (AI)GaAs}	H01S5/343	H01S5/343		507
+H01S5/34326	11	{with a well layer based on InGa(Al)P, e.g. red laser}	H01S5/343	H01S5/343		472
+H01S5/34333	11	{with a well layer based on Ga(In)N or Ga(In)P, e.g. blue laser}	H01S5/343	H01S5/343		1867
+H01S5/3434	11	{with a well layer comprising at least both As and P as V-compounds}	H01S5/343	H01S5/343		377
+H01S5/34346	11	{characterised by the materials of the barrier layers}	H01S5/343	H01S5/343		202
+H01S5/34353	12	{based on (AI)GaAs}	H01S5/343	H01S5/343		160
+H01S5/3436	12	{based on InGa(Al)P}	H01S5/343	H01S5/343		141
+H01S5/34366	12	{based on InGa(Al)AS}	H01S5/343	H01S5/343		140
+H01S5/34373	12	{based on InGa(Al)AsP}	H01S5/343	H01S5/343		141
+H01S5/3438	12	{based on In(Al)P}	H01S5/343	H01S5/343		33
+H01S5/34386	12	{explicitly Al-free}	H01S5/343	H01S5/343		41
+H01S5/34393	12	{not only based on AIIIBV compounds}	H01S5/343	H01S5/343		3
+H01S5/347	10	in AIIBVI compounds, e.g. ZnCdSe- laser	H01S5/347	H01S5/347		169
+H01S5/36	9	comprising organic materials	H01S5/36	H01S5/36		243
+H01S5/40	8	Arrangement of two or more semiconductor lasers, not provided for in groups H01S5/02&#160;-&#160;H01S5/30(H01S5/50 takes precedence)	H01S5/40	H01S5/40		523
+H01S5/4006	9	{Injection locking}	H01S5/40	H01S5/40		321
+H01S5/4012	9	{Beam combining, e.g. by the use of fibres, gratings, polarisers, prisms}	H01S5/40	H01S5/40		1873
+H01S5/4018	9	{Lasers electrically in series}	H01S5/40	H01S5/40		408
+H01S5/4025	9	{Array arrangements, e.g. constituted by discrete laser diodes or laser bar (H01S5/42 takes precedence)}	H01S5/40	H01S5/40		2397
+H01S5/4031	10	{Edge-emitting structures}	H01S5/40	H01S5/40		1910
+H01S5/4037	11	{with active layers in more than one orientation}	H01S5/40	H01S5/40		48
+H01S5/4043	11	{with vertically stacked active layers}	H01S5/40	H01S5/40		412
+H01S5/405	12	{Two-dimensional arrays}	H01S5/40	H01S5/40		351
+H01S5/4056	11	{emitting light in more than one direction}	H01S5/40	H01S5/40		307
+H01S5/4062	11	{with an external cavity or using internal filters, e.g. Talbot filters}	H01S5/40	H01S5/40		593
+H01S5/4068	11	{with lateral coupling by axially offset or by merging waveguides, e.g. Y-couplers}	H01S5/40	H01S5/40		377
+H01S5/4075	10	{Beam steering}	H01S5/40	H01S5/40		208
+H01S5/4081	10	{Near-or far field control}	H01S5/40	H01S5/40		86
+H01S5/4087	10	{emitting more than one wavelength}	H01S5/40	H01S5/40		1891
+H01S5/4093	11	{Red, green and blue [RGB] generated directly by laser action or by a combination of laser action with nonlinear frequency conversion}	H01S5/40	H01S5/40		472
+H01S5/42	9	Arrays of surface emitting lasers	H01S5/42	H01S5/42		394
+H01S5/423	10	{having a vertical cavity}	H01S5/42	H01S5/42		2062
+H01S5/426	11	{Vertically stacked cavities}	H01S5/42	H01S5/42		128
+H01S5/50	8	Amplifier structures not provided for in groups H01S5/02 - H01S5/30	H01S5/50	H01S5/50		1440
+H01S5/5009	9	{the arrangement being polarisation-insensitive}	H01S5/50	H01S5/50		84
+H01S5/5018	10	{using two or more amplifiers or multiple passes through the same amplifier}	H01S5/50	H01S5/50		97
+H01S5/5027	9	{Concatenated amplifiers, i.e. amplifiers in series or cascaded}	H01S5/50	H01S5/50		159
+H01S5/5036	9	{the arrangement being polarisation-selective}	H01S5/50	H01S5/50		52
+H01S5/5045	9	{the arrangement having a frequency filtering function}	H01S5/50	H01S5/50		129
+H01S5/5054	9	{in which the wavelength is transformed by non-linear properties of the active medium, e.g. four wave mixing}	H01S5/50	H01S5/50		55
+H01S5/5063	9	{operating above threshold}	H01S5/50	H01S5/50		51
+H01S5/5072	10	{Gain clamping, i.e. stabilisation by saturation using a further mode or frequency}	H01S5/50	H01S5/50		83
+H01S5/5081	9	{specifically standing wave amplifiers}	H01S5/50	H01S5/50		11
+H01S5/509	9	{Wavelength converting amplifier, e.g. signal gating with a second beam using gain saturation}	H01S5/50	H01S5/50		95
+H01S2301/00	7	Functional characteristics	CPCONLY	H01S2301/00		6
+H01S2301/02	8	ASE (amplified spontaneous emission), noise; Reduction thereof	CPCONLY	H01S2301/02		1042
+H01S2301/03	8	Suppression of nonlinear conversion, e.g. specific design to suppress for example stimulated brillouin scattering [SBS], mainly in optical fibres in combination with multimode pumping	CPCONLY	H01S2301/03		234
+H01S2301/04	8	Gain spectral shaping, flattening	CPCONLY	H01S2301/04		605
+H01S2301/06	8	Gain non-linearity, distortion; Compensation thereof	CPCONLY	H01S2301/06		93
+H01S2301/08	8	Generation of pulses with special temporal shape or frequency spectrum	CPCONLY	H01S2301/08		194
+H01S2301/085	9	solitons	CPCONLY	H01S2301/085		100
+H01S2301/14	8	Semiconductor lasers with special structural design for lasing in a specific polarisation mode	CPCONLY	H01S2301/14		136
+H01S2301/145	9	TM polarisation	CPCONLY	H01S2301/145		28
+H01S2301/16	8	Semiconductor lasers with special structural design to influence the modes, e.g. specific multimode	CPCONLY	H01S2301/16		79
+H01S2301/163	9	Single longitudinal mode	CPCONLY	H01S2301/163		138
+H01S2301/166	9	Single transverse or lateral mode	CPCONLY	H01S2301/166		483
+H01S2301/17	8	Semiconductor lasers comprising special layers	CPCONLY	H01S2301/17		66
+H01S2301/173	9	The laser chip comprising special buffer layers, e.g. dislocation prevention or reduction	CPCONLY	H01S2301/173		534
+H01S2301/176	9	Specific passivation layers on surfaces other than the emission facet	CPCONLY	H01S2301/176		1254
+H01S2301/18	8	Semiconductor lasers with special structural design for influencing the near- or far-field	CPCONLY	H01S2301/18		601
+H01S2301/185	9	for reduction of Astigmatism	CPCONLY	H01S2301/185		75
+H01S2301/20	8	Lasers with a special output beam profile or cross-section, e.g. non-Gaussian	CPCONLY	H01S2301/20		137
+H01S2301/203	9	with at least one hole in the intensity distribution, e.g. annular or doughnut mode	CPCONLY	H01S2301/203		73
+H01S2301/206	9	Top hat profile	CPCONLY	H01S2301/206		75
+H01S2302/00	7	Amplification / lasing wavelength<br><br><u>NOTE</u><br><br> In group H01S2302/00 and separated therefrom by a + sign the wavelength in nanometers (nnnn) is indicated. 	CPCONLY	H01S2302/00		278
+H01S2302/02	8	THz - lasers, i.e. lasers with emission in the wavelength range of typically 0.1 mm to 1 mm	CPCONLY	H01S2302/02		162
+H01S2303/00	7	Pumping wavelength<br><br><u>NOTE</u><br><br> In group H01S2303/00 and separated therefrom by a + sign the wavelength in nanometers (nnnn) is indicated. 	CPCONLY	H01S2303/00		96
+H01S2304/00	7	Special growth methods for semiconductor lasers	CPCONLY	H01S2304/00		425
+H01S2304/02	8	MBE	CPCONLY	H01S2304/02		182
+H01S2304/025	9	MOMBE	CPCONLY	H01S2304/025		10
+H01S2304/04	8	MOCVD or MOVPE	CPCONLY	H01S2304/04		843
+H01S2304/06	8	LPE	CPCONLY	H01S2304/06		67
+H01S2304/10	8	CBE	CPCONLY	H01S2304/10		5
+H01S2304/12	8	Pendeo epitaxial lateral overgrowth [ELOG], e.g. for growing GaN based blue laser diodes	CPCONLY	H01S2304/12		296

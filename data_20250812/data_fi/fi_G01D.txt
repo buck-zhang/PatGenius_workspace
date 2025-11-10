@@ -1,0 +1,597 @@
+G01D   1/00  \	0	0	2F025	G01D   1/00	250	変量の瞬時値以外の結果を示す測定装置（Ｇ０１Ｄ３／００が優先；料金計量装置Ｇ０１Ｄ４／００；特に特定の変量に適用されない変換器Ｇ０１Ｄ５／００）	Measuring arrangements giving results other than momentary value of variable, of general application (; in tariff metering apparatus G01D 4/00; transducers not specially adapted for a specific variable G01D 5/00)
+G01D   1/00  A	0	0	2F025	G01D   1/00	33	機械，空気圧式	Mechanical, pneumatic types
+G01D   1/00  B	0	0	2F025	G01D   1/00	124	アナログ処理	Analogue processing
+G01D   1/00  C	0	0	2F025	G01D   1/00	267	デジタル処理	Digital processing
+G01D   1/00  D	0	0	2F025	G01D   1/00	177	用途に特徴	Characterised by applications
+G01D   1/00  Z	0	0	2F025	G01D   1/00	21	その他	Others
+G01D   1/02  \	1	1	2F025	G01D   1/02	277	平均値，例．二乗平均の開平値，を示すもの（電流または電圧の二乗平均の開平値の測定Ｇ０１Ｒ１９／０２）	giving mean values, e.g. root mean square values (measuring root mean square values of currents or voltages G01R 19/02)
+G01D   1/02  A	1	0	2F025	G01D   1/02	6	機械，空気圧式	Mechanical, pneumatic types
+G01D   1/02  B	1	0	2F025	G01D   1/02	56	アナログ処理	analogue processing
+G01D   1/02  C	1	0	2F025	G01D   1/02	183	デジタル処理	Digital processing
+G01D   1/02  D	1	0	2F025	G01D   1/02	150	用途に特徴	Characterised by applications
+G01D   1/02  Z	1	0	2F025	G01D   1/02	7	その他	Others
+G01D   1/04  \	1	1	2F025	G01D   1/04	187	積分値を示すもの（平均値を示すものＧ０１Ｄ１／０２）	giving integrated values (giving mean values G01D 1/02)
+G01D   1/04  A	1	0	2F025	G01D   1/04	55	積分	Integration
+G01D   1/04  B	1	0	2F025	G01D   1/04	138	積算	Addition
+G01D   1/04  C	1	0	2F025	G01D   1/04	91	用途に特徴	Characterised by applications
+G01D   1/04  Z	1	0	2F025	G01D   1/04	2	その他	Others
+G01D   1/06  \	2	2	2F025	G01D   1/06	13	間欠的加算によるもの	by intermittent summation
+G01D   1/08  \	3	3	2F025	G01D   1/08	25	一定時間内の	over fixed periods of time
+G01D   1/10  \	1	1	2F025	G01D   1/10	81	微分値を示すもの	giving differentiated values
+G01D   1/12  \	1	1	2F025	G01D   1/12	298	最大値または最小値を示すもの	giving a maximum or minimum of a value
+G01D   1/12  A	1	0	2F025	G01D   1/12	40	機械，空気圧式	Mechanical, pneumatic types
+G01D   1/12  B	1	0	2F025	G01D   1/12	63	アナログ処理	analogue processing
+G01D   1/12  C	1	0	2F025	G01D   1/12	172	デジタル処理	Digital processing
+G01D   1/12  D	1	0	2F025	G01D   1/12	145	用途に特徴	Characterised by applications
+G01D   1/12  Z	1	0	2F025	G01D   1/12	9	その他	Others
+G01D   1/14  \	1	1	2F025	G01D   1/14	189	値の分布関数を示すもの，すなわちある値が特定の範囲に入った度数	giving a distribution function of a value, i.e. number of times the value comes within specified ranges of amplitude
+G01D   1/16  \	1	1	2F025	G01D   1/16	233	２以上の値の関数値，例．積，比率，を示すもの	giving a value which is a function of two or more values, e.g. product, ratio
+G01D   1/16  A	1	0	2F025	G01D   1/16	131	差	Differences
+G01D   1/16  B	1	0	2F025	G01D   1/16	89	比率	Ratios
+G01D   1/16  C	1	0	2F025	G01D   1/16	112	他の関数値	Other functions
+G01D   1/16  D	1	0	2F025	G01D   1/16	169	用途に特徴	Characterised by applications
+G01D   1/16  Z	1	0	2F025	G01D   1/16	9	その他	Others
+G01D   1/18  \	1	1	2F025	G01D   1/18	978	不特定のパラメータが予め決められた値を超過したことの信号を出す装置を有するもの（Ｇ０１Ｄ１／１４が優先）［３］	with arrangements for signalling that a predetermined value of an unspecified parameter has been exceeded () [3]
+G01D   1/18  A	1	0	2F025	G01D   1/18	574	表示，警報，記録	Indications, alarms, records
+G01D   1/18  B	1	1	2F025	G01D   1/18	103	機械的表示	Mechanical indications
+G01D   1/18  C	1	2	2F025	G01D   1/18	33	指針表示	Pointer indications
+G01D   1/18  D	1	1	2F025	G01D   1/18	197	光学的表示	Optical indications
+G01D   1/18  E	1	2	2F025	G01D   1/18	68	デジタル表示	Digital indications
+G01D   1/18  F	1	2	2F025	G01D   1/18	33	異なる色	Different colours
+G01D   1/18  G	1	1	2F025	G01D   1/18	38	音表示	Sound indications
+G01D   1/18  H	1	0	2F025	G01D   1/18	169	用途に特徴	Characterised by applications
+G01D   1/18  J	1	0	2F025	G01D   1/18	621	比較，判定	Comparisons, judgments
+G01D   1/18  K	1	1	2F025	G01D   1/18	75	機械，空気式	Mechanical, pneumatic types
+G01D   1/18  L	1	1	2F025	G01D   1/18	272	アナログ処理	analogue processing
+G01D   1/18  M	1	1	2F025	G01D   1/18	380	デジタル処理	Digital processing
+G01D   1/18  N	1	2	2F025	G01D   1/18	280	演算処理を伴うもの	With processing
+G01D   1/18  Z	1	0	2F025	G01D   1/18	23	その他	Others
+G01D   3/00  \	0	0	2F075	G01D   3/00	28	このグループのサブグループに関する特定目的のための手段を有する測定装置	Measuring arrangements with provision for the special purposes referred to in the subgroups of this group
+G01D   3/00  B	0	0	2F075	G01D   3/00	195	入力信号の信頼性チェック，信頼性向上	Checking or improving reliability of input signals
+G01D   3/00  C	0	0	2F075	G01D   3/00	527	補正，補償，修正，校正	Correcting, compensating, modifying, calibrating
+G01D   3/00  Z	0	0	2F075	G01D   3/00	121	その他のもの	Others
+G01D   3/02  \	1	1	2F075	G01D   3/02	151	変換機能を改変しまたは修正するもの	with provision for altering or correcting the transfer function
+G01D   3/02  L	1	0	2F075	G01D   3/02	301	リニアライズ，特性の変更〔アナログ回路〕	Linearising, altering characteristics (analogue circuits)
+G01D   3/02  M	1	0	2F075	G01D   3/02	218	リニアライズ，特性の変更〔機械的〕	Linearisating, altering characteristics (mechanical)
+G01D   3/02  N	1	0	2F075	G01D   3/02	282	リニアライズ，特性の変更〔デジタル回路〕	Linearisating, altering characteristics (digital circuits)
+G01D   3/02  Z	1	0	2F075	G01D   3/02	55	その他のもの	Others
+G01D   3/024  \	2	2	2F075	G01D   3/024	576	範囲変更用；ある感知要素を別のものにより置き換える装置［６］	for range change; Arrangements for substituting one sensing member by another [6]
+G01D   3/028  \	1	1	2F075	G01D   3/028	208	望ましくない影響，例．温度，圧力，を軽減するもの［６］	mitigating undesired influences, e.g. temperature, pressure [6]
+G01D   3/028  D	1	0	2F075	G01D   3/028	545	温度補償〔一般用〕	Compensating temporaries (in general)
+G01D   3/028  F	1	0	2F075	G01D   3/028	466	温度以外の補償〔一般用〕	Compensating excluding temperatures ( in general)
+G01D   3/028  Q	1	0	2F075	G01D   3/028	384	零点のずれ補正〔一般用〕	Correcting zero point shifts (in general)
+G01D   3/028  Z	1	0	2F075	G01D   3/028	150	その他のもの	Others
+G01D   3/032  \	2	2	2F075	G01D   3/032	21	入信号に作用するもの，例．平均化によるもの；望ましくない信号をゲートで制御するもの［６］	affecting incoming signal, e.g. by averaging; gating undesired signals [6]
+G01D   3/036  \	2	2	2F075	G01D   3/036	4	測定装置それ自体に対する影響［６］	on measuring arrangements themselves [6]
+G01D   3/06  \	1	1	2F075	G01D   3/06	164	零位法によって作動するもの	with provision for operation by a null method
+G01D   3/08  \	1	1	2F075	G01D   3/08	222	装置の安全保護のためのもの，例．異常操作，破損に対するもの	with provision for safeguarding the apparatus, e.g. against abnormal operation, against breakdown
+G01D   3/10  \	1	1	2F075	G01D   3/10	46	付加的，補助的な指示器または記録器をスイッチングするもの	with provision for switching-in of additional or auxiliary indicators or recorders
+G01D   3/10  D	1	0	2F075	G01D   3/10	217	直接スイッチ	Direct switches
+G01D   3/10  E	1	0	2F075	G01D   3/10	260	間接スイッチ	Indirect switches
+G01D   3/10  Z	1	0	2F075	G01D   3/10	2	その他のもの	Others
+G01D   4/00  \	0	0	2F075	G01D   4/00	532	料金計量装置（タクシーメータにおけるものＧ０７Ｂ１３／００；コイン，カードその他類似のもので作動するメーター制御された液体，気体または電気を送出する装置Ｇ０７Ｆ１５／００）	Tariff metering apparatus (in taximeters G07B 13/00; apparatus actuated by coins, cards or the like with meter-controlled dispensing of liquid, gas, or electricity G07F 15/00)
+G01D   4/02  \	1	1	2F075	G01D   4/02	15	細部	Details
+G01D   4/04  \	2	2	2F075	G01D   4/04	0	帰零機構，例．指示部材用	Resetting-mechanisms, e.g. for indicating members
+G01D   4/06  \	2	2	2F075	G01D   4/06	1	駆動部材，指示部材間のクラッチ機構，例．ヒステリシスクラッチ（Ｇ０１Ｄ４／０４が優先）	Arrangement of clutches between driving and indicating member, e.g. of hysteresis clutch (G01D 4/04 takes precedence)
+G01D   4/08  \	2	2	2F075	G01D   4/08	38	計数器から集計器への伝達	Transfer of indication from a counter into a summing counter
+G01D   4/10  \	1	1	2F075	G01D   4/10	4	最大値の指示または記録装置，すなわちある期間内の料金がその期間内の最大需要に基づいて計算されるもの	Maximum indicating or recording apparatus, i.e. where the tariff for a period is based on a maximum demand within that period
+G01D   4/12  \	2	2	2F075	G01D   4/12	7	累進最大値を指示しまたは記録する装置	Apparatus for indicating or recording progressive maximum
+G01D   4/14  \	2	2	2F075	G01D   4/14	4	固定需要の指示または記録装置，すなわち既定量が既定時間より長いかまたは短い時間で消費された際，それを指示するもの	Fixed-demand indicating or recording apparatus, i.e. where indication is made when a predetermined quantity has been consumed during a time interval greater or less than a predetermined time interval
+G01D   4/16  \	1	1	2F075	G01D   4/16	0	最大または最小負荷時間を指示しまたは記録する装置	Apparatus for indicating or recording maximum or minimum load hours
+G01D   4/18  \	1	1	2F075	G01D   4/18	1	既定レベルを超過した時に作動する対向トルクで超過消費を指示しまたは記録する装置，例．控除メータ	Apparatus for indicating or recording overconsumption with opposing torque which comes into effect when a predetermined level is exceeded, e.g. subtraction meters
+G01D   5/00  \	0	0	2F077	G01D   5/00	178	感知要素の出力を伝達するための機械的手段；感知素子の型式や特性が変換手段を束縛しない場合に，感知要素の出力を別の変量に変換する手段；特に特定の変量に適用されない変換器（Ｇ０１Ｄ３／００が優先；変量の瞬時値以外の結果を示す装置に特に適合したものＧ０１Ｄ１／００）［６］	Mechanical means for transferring the output of a sensing member; Means for converting the output of a sensing member to another variable where the form or nature of the sensing member does not constrain the means for converting; Transducers not specially adapted for a specific variable (G01D  3/00takes precedence;specially adapted for apparatus giving results other than momentary value of variable G01D  1/00)
+G01D   5/02  \	1	1	2F077	G01D   5/02	653	機械的手段を使用するもの	using mechanical means
+G01D   5/04  \	2	2	2F077	G01D   5/04	6	レバーを使用するもの；カムを使用するもの；歯車装置を使用するもの	using levers; using cams; using gearing
+G01D   5/04  A	2	0	2F077	G01D   5/04	182	レバーを使用するもの	using levers
+G01D   5/04  B	2	0	2F077	G01D   5/04	65	カムを使用するもの	Using of cams
+G01D   5/04  C	2	0	2F077	G01D   5/04	322	歯車装置を使用するもの	Using of gearing
+G01D   5/04  Z	2	0	2F077	G01D   5/04	71	その他	Other means
+G01D   5/06  \	2	2	2F077	G01D   5/06	98	壁または被覆を通して作動するもの，例．ベローズによるもの，磁気結合によるもの	acting through a wall or enclosure, e.g. by bellows, by magnetic coupling
+G01D   5/08  \	2	2	2F077	G01D   5/08	21	摩擦の影響の軽減，例．振動の付加によるもの	Reducing the effects of friction, e.g. by applying vibrations
+G01D   5/10  \	2	2	2F077	G01D   5/10	18	指示または記録部の動作に有効な力を増幅するための外力の供給	Applying external forces to increase force available for operation of indicating or recording part
+G01D   5/12  \	1	1	2F077	G01D   5/12	130	電気的または磁気的手段を使用するもの（Ｇ０１Ｄ５／０６が優先）［３］	using electric or magnetic means (G01D 5/06 takes precedence) [3]
+G01D   5/12  G	1	0	2F077	G01D   5/12	654	位置，角度検出に関するもの	regarding the detection of position and angle
+G01D   5/12  B	1	1	2F077	G01D   5/12	156	入力装置の変換部に関するもの	ragarding the conversion units of input device
+G01D   5/12  H	1	0	2F077	G01D   5/12	173	磁気的検出手段を用いるもの	using magnetic means for detection
+G01D   5/12  R	1	0	2F077	G01D   5/12	24	電気的検出手段を用いるもの	usung electric means for detection
+G01D   5/12  N	1	0	2F077	G01D   5/12	365	補償，調整，異常検出に関するもの	regarding compensation, adjustment and anomaly detection
+G01D   5/12  K	1	1	2F077	G01D   5/12	290	異常検出に関するもの	regarding anomaly detection
+G01D   5/12  C	1	0	2F077	G01D   5/12	326	回路に関するもの	Related to circuits
+G01D   5/12  A	1	0	2F077	G01D   5/12	401	構造に関するもの	Related to structures
+G01D   5/12  Q	1	1	2F077	G01D   5/12	680	支持，取付けの構造に関するもの	regarding the structure of supporting and installation
+G01D   5/12  Z	1	0	2F077	G01D   5/12	283	その他	Others
+G01D   5/14  \	2	2	2F077	G01D   5/14	22	電流または電圧の大きさに作用するもの	influencing the magnitude of a current or voltage
+G01D   5/14  D	2	0	2F077	G01D   5/14	24	電界を検出するもの	detecting electric field
+G01D   5/14  E	2	0	2F077	G01D   5/14	241	感磁素子を用いるもの	using elements for sensing magnetic field
+G01D   5/14  H	2	1	2F077	G01D   5/14	949	ホール素子を用いるもの	using Hall element
+G01D   5/14  F	2	1	2F077	G01D   5/14	192	磁気回路に関するもの	regarding magnetic circuit
+G01D   5/14  P	2	0	2F077	G01D   5/14	180	圧電素子を用いるもの	using piezo-electric element
+G01D   5/14  Z	2	0	2F077	G01D   5/14	24	その他	Others
+G01D   5/16  \	3	3	2F077	G01D   5/16	12	抵抗変化によるもの	by varying resistance
+G01D   5/16  E	3	0	2F077	G01D   5/16	76	磁気−電気抵抗変換によるもの	converting magnetic to electric resistance
+G01D   5/16  M	3	1	2F077	G01D   5/16	766	磁気抵抗効果素子（ＭＲ素子）の構造に関するもの	of the structure of magneto-resistive sensors (MR sensors)
+G01D   5/16  G	3	2	2F077	G01D   5/16	65	巨大磁気抵抗効果素子（ＧＭＲ素子）の構造に関するもの	of the structure of giant magneto-resistive sensors (GMR sensors)
+G01D   5/16  U	3	0	2F077	G01D   5/16	75	ひずみ−電気抵抗変換によるもの	utilizing the conversion between distortion and electrical resistance
+G01D   5/16  S	3	1	2F077	G01D   5/16	167	変換部の構造に関するもの	regarding the structure of conversion units
+G01D   5/16  V	3	1	2F077	G01D   5/16	147	処理部に関するもの	regarding the structure of processing units
+G01D   5/16  Z	3	0	2F077	G01D   5/16	122	その他	Others
+G01D   5/165  \	4	4	2F077	G01D   5/165	1	接点と抵抗トラックとの相対運動によるもの［６］	by relative movement of a point of contact and a resistive track [6]
+G01D   5/165  A	4	0	2F077	G01D   5/165	525	変換部の構造に関するもの	of the structure of the conversion units
+G01D   5/165  B	4	0	2F077	G01D   5/165	205	処理部に関するもの	of  processing units
+G01D   5/165  Z	4	0	2F077	G01D   5/165	3	その他	others
+G01D   5/18  \	3	3	2F077	G01D   5/18	17	放電管または半導体装置の実効インピーダンス変化によるもの	by varying effective impedance of discharge tubes or semiconductor devices
+G01D   5/18  D	3	0	2F077	G01D   5/18	68	ひずみ−インピーダンス変換によるもの	utilizing the conversion between distortion and impedance
+G01D   5/18  E	3	0	2F077	G01D   5/18	379	磁気−インピーダンス変換によるもの	utilizing the conversion between magnetic field and impedance
+G01D   5/18  Z	3	0	2F077	G01D   5/18	41	その他	Others
+G01D   5/20  \	3	3	2F077	G01D   5/20	21	インダクタンス変化によるもの，例．可動鉄片によるもの	by varying inductance, e.g. by a movable armature
+G01D   5/20  J	3	0	2F077	G01D   5/20	214	インダクタンスまたはその変化の検出部の構造に関するもの	ragarding the structure of units detecting inductance or its variation.
+G01D   5/20  A	3	1	2F077	G01D   5/20	549	検出コイルと磁性体が相対移動するもの	Detecting coil and magnetic material, being under relative displacement
+G01D   5/20  D	3	1	2F077	G01D   5/20	103	検出コイルと磁石が相対移動するもの	Detecting coil and magnet, being under relative displacement
+G01D   5/20  G	3	1	2F077	G01D   5/20	46	磁気飽和を利用するもの	utilizing magnetic saturation
+G01D   5/20  K	3	1	2F077	G01D   5/20	351	検出コイルと非磁性導体が相対移動するもの	Detecting coil and non-magnetic conductor, being under relative displacement
+G01D   5/20  H	3	2	2F077	G01D   5/20	68	短絡環を用いるもの	using short-circuit ring
+G01D   5/20  Q	3	0	2F077	G01D   5/20	425	処理部に関するもの	regarding the processing units
+G01D   5/20  Z	3	0	2F077	G01D   5/20	27	その他	Others
+G01D   5/20 110 \	4	4	2F077	G01D   5/20	2	相互インダクタンスの変化によるもの	by varying mutual inductance
+G01D   5/20 110 A	4	0	2F077	G01D   5/20	19	被検出部に関するもの	of the objects to be detected
+G01D   5/20 110 B	4	1	2F077	G01D   5/20	256	被検出部が磁性体であるもの	of the objects to be detected being magnetic material
+G01D   5/20 110 C	4	1	2F077	G01D   5/20	11	被検出部が磁石であるもの	of the objects to be detected being magnet
+G01D   5/20 110 D	4	1	2F077	G01D   5/20	330	被検出部がコイルを有するもの	of the objects to be detected with coils
+G01D   5/20 110 E	4	2	2F077	G01D   5/20	198	励磁コイルと検出コイルが相対移動するもの	relative movements of exiting coils and detecting coils
+G01D   5/20 110 F	4	1	2F077	G01D   5/20	88	被検出部が非磁性導体であるもの	of the objects to be detected being non-magnetic conductors
+G01D   5/20 110 H	4	0	2F077	G01D   5/20	595	検出部に関するもの	of detectors
+G01D   5/20 110 Q	4	0	2F077	G01D   5/20	1336	処理部に関するもの	of processing units
+G01D   5/20 110 X	4	0	2F077	G01D   5/20	376	その他の構造に関するもの	of other structures
+G01D   5/20 110 Z	4	0	2F077	G01D   5/20	30	その他	others
+G01D   5/22  \	4	4	2F077	G01D   5/22	3	差動コイルの電磁誘導によるもの	differentially influencing two coils
+G01D   5/22  C	4	0	2F077	G01D   5/22	130	差動トランスを用いるもの	using differential transformer
+G01D   5/22  A	4	1	2F077	G01D   5/22	190	変換部の構造に関するもの	regarding the structure of conversion units
+G01D   5/22  B	4	1	2F077	G01D   5/22	264	処理部に関するもの	regarding processing units
+G01D   5/22  Z	4	0	2F077	G01D   5/22	21	その他	Others
+G01D   5/24  \	3	3	2F077	G01D   5/24	21	キャパシタンス変化によるもの	by varying capacitance
+G01D   5/24  A	3	0	2F077	G01D   5/241	120	変換部の構造に関するもの	regarding the structure of conversion units
+G01D   5/24  S	3	1	2F077	G01D   5/24	60	検知電極間の誘電体が変化するもの	dielectric between detection electrodes, being under change
+G01D   5/24  D	3	0	2F077	G01D   5/24	137	処理部に関するもの	regarding processing units
+G01D   5/24  Z	3	0	2F077	G01D   5/24	34	その他	Others
+G01D   5/241  \	4	4	2F077	G01D   5/241	0	コンデンサ電極の相対運動によるもの［６］	by relative movement of capacitor electrodes [6]
+G01D   5/241  A	4	0	2F077	G01D   5/241	13	変換部の構造に関するもの	of the structure of the conversion units
+G01D   5/241  B	4	1	2F077	G01D   5/241	295	検知電極間の対向面積が変化するもの	of varying opposed areas between detecting electrodes
+G01D   5/241  C	4	1	2F077	G01D   5/241	149	検知電極間の間隔が変化するもの	of varying distances between detecting electrodes
+G01D   5/241  D	4	0	2F077	G01D   5/241	382	処理部に関するもの	of processing units
+G01D   5/241  Z	4	0	2F077	G01D   5/241	3	その他	others
+G01D   5/242  \	3	3	2F077	G01D   5/242	59	電気力学的装置の，例．速度発電機の，発生する出力によるもの	by varying output of an electrodynamic device, e.g. of a tachodynamo
+G01D   5/242  A	3	0	2F077	G01D   5/242	14	変換部の構造に関するもの	regarding the structure of conversion units
+G01D   5/242  B	3	0	2F077	G01D   5/242	13	処理部に関するもの	regarding processing units
+G01D   5/242  Z	3	0	2F077	G01D   5/242	40	その他	Others
+G01D   5/243  \	2	2	2F077	G01D   5/243	23	交流の位相または周波数に作用するもの	influencing the phase or frequency of ac
+G01D   5/243  A	2	0	2F077	G01D   5/243	155	交流信号の位相変化に関するもの	regarding phase variation of AC signal
+G01D   5/243  B	2	1	2F077	G01D   5/243	84	インダクタンス変化によるもの	depending on the variation of inductance
+G01D   5/243  C	2	1	2F077	G01D   5/243	68	キャパシタンス変化によるもの	by varying capacitance
+G01D   5/243  F	2	0	2F077	G01D   5/243	186	交流信号の周波数変化に関するもの	regarding on the frequency variation of AC signal
+G01D   5/243  G	2	1	2F077	G01D   5/243	1	インダクタンス変化によるもの	by varying inductance
+G01D   5/243  H	2	1	2F077	G01D   5/243	337	キャパシタンス変化によるもの	by varying capacitance
+G01D   5/243  Z	2	0	2F077	G01D   5/243	61	その他	Others
+G01D   5/244  \	2	2	2F077	G01D   5/244	123	パルスまたはパルス列の特性に作用するもの；パルスまたはパルス列を発生するもの［６］	influencing characteristics of pulses or pulse trains; generating pulses or pulse trains [6]
+G01D   5/244  A	2	0	2F077	G01D   5/244	1171	基準位置，原点の検出に関するもの	regarding detection of reference position and starting point
+G01D   5/244  C	2	0	2F077	G01D   5/244	376	移動方向を検出するもの	detecting the move direction
+G01D   5/244  B	2	0	2F077	G01D   5/244	398	補償，調整，異常検出に関するもの	regarding compensation, adjustment and anomaly detection
+G01D   5/244  D	2	1	2F077	G01D   5/244	131	温度補償に関するもの	regarding compensation of temperature
+G01D   5/244  E	2	1	2F077	G01D   5/244	435	電源，停電対策；消費電力の低減に関するもの	regarding power supply, measures against power failure and redution of power consumption
+G01D   5/244  F	2	1	2F077	G01D   5/244	837	波形，パルスの整形に関するもの	regarding shaping of waveform and pulse
+G01D   5/244  G	2	1	2F077	G01D   5/244	578	分解能の向上，分解能の切換に関するもの	regarding improvement and switching of resolution
+G01D   5/244  H	2	2	2F077	G01D   5/244	457	分解能の向上に関するもの	regarding improvement of resolution
+G01D   5/244  J	2	1	2F077	G01D   5/244	603	位相を求める処理に特徴を有するもの	characterized by the process to detect phase
+G01D   5/244  K	2	1	2F077	G01D   5/244	840	異常検出に関するもの	regarding anomaly detection
+G01D   5/244  L	2	0	2F077	G01D   5/244	55	変調に関するもの	regarding modulation
+G01D   5/244  Z	2	0	2F077	G01D   5/244	152	その他	Others
+G01D   5/245  \	3	3	2F077	G01D   5/245	61	パルス列におけるパルスの変化数を利用するもの	using a variable number of pulses in a train
+G01D   5/245  A	3	0	2F077	G01D   5/245	61	検出素子の検出方式に関するもの	Related to detection methods of detection elements
+G01D   5/245  C	3	1	2F077	G01D   5/245	171	静電容量変化を利用するもの	utilizing the variation of electrostatic capacity
+G01D   5/245  P	3	1	2F077	G01D   5/245	31	圧電素子を用いるもの	using of piezo electric elements
+G01D   5/245  T	3	1	2F077	G01D   5/245	288	接触スイッチを用いるもの	using contact switch
+G01D   5/245  B	3	1	2F077	G01D   5/245	509	磁気変化を利用するもの	Use of magnetic change
+G01D   5/245  F	3	2	2F077	G01D   5/245	17	磁気回路に関するもの	regarding magnetic circuit
+G01D   5/245  H	3	2	2F077	G01D   5/245	645	ホール素子を用いるもの	using Hall element
+G01D   5/245  L	3	2	2F077	G01D   5/245	767	コイルを用いるもの	using of coils
+G01D   5/245  E	3	3	2F077	G01D   5/245	1047	励磁コイルと検出コイルを用いるもの	using exciting coil and detecting coil
+G01D   5/245  M	3	2	2F077	G01D   5/245	96	磁気抵抗効果を利用するもの	utilizing the effect of magneto-resistance
+G01D   5/245  R	3	3	2F077	G01D   5/245	2373	磁気抵抗効果素子（ＭＲ素子）を用いるもの	using magneto-resistance effect elements (MR elements)
+G01D   5/245  N	3	4	2F077	G01D   5/245	224	巨大磁気抵抗効果素子（ＧＭＲ素子）を用いるもの	using giant magneto-resistance effect elements (GMR elements)
+G01D   5/245  S	3	2	2F077	G01D   5/245	196	リードスイッチを用いるもの	using reed switch
+G01D   5/245  W	3	2	2F077	G01D   5/245	213	双安定磁気特性素子を用いるもの	using bistable magnetic property elements
+G01D   5/245  Z	3	0	2F077	G01D   5/245	144	その他	Others
+G01D   5/245 110 \	4	4	2F077	G01D   5/245	1	エンコーダの構造，細部	structure and details of encoders
+G01D   5/245 110 A	4	0	2F077	G01D   5/245	697	検出部の構造に関するもの	of the structures of detectors
+G01D   5/245 110 B	4	1	2F077	G01D   5/245	480	検出素子の配列に関するもの	of the arrays of sensors
+G01D   5/245 110 C	4	1	2F077	G01D   5/245	358	検出部のケーシング構造に関するもの	of the casing structures of detectors
+G01D   5/245 110 J	4	0	2F077	G01D   5/245	148	被検出部の構造に関するもの	of the structures of the objects to be detected
+G01D   5/245 110 K	4	1	2F077	G01D   5/245	129	被検出部が非着磁磁性体であるもの	of the objects to be detected being non-magnetisation magnetic substance
+G01D   5/245 110 L	4	1	2F077	G01D   5/245	429	被検出部が着磁部材，磁石であるもの	of the objects to be detected being magnetisation materials, magnets
+G01D   5/245 110 M	4	2	2F077	G01D   5/245	2098	被検出部が多極であるもの	of the objects to be detected being multipole
+G01D   5/245 110 P	4	1	2F077	G01D   5/245	26	被検出部がコイルを有するもの	of the objects to be detected having coils
+G01D   5/245 110 Q	4	2	2F077	G01D   5/245	111	被検出部が多数のコイルを有するもの	of the objects to be detected having a number of coils
+G01D   5/245 110 R	4	1	2F077	G01D   5/245	101	被検出部が非磁性導体であるもの	of the objects to be detected being non-magnetisation conductors
+G01D   5/245 110 W	4	0	2F077	G01D   5/245	281	その他の構造に関するもの	of other structures
+G01D   5/245 110 X	4	1	2F077	G01D   5/245	1926	エンコーダのケーシング構造に関するもの	of the casing structures of encoders
+G01D   5/245 110 Z	4	0	2F077	G01D   5/245	22	その他	others
+G01D   5/246  \	3	3	2F077	G01D   5/246	51	個々のパルスの持続期間の変化によるもの	by varying the duration of individual pulses
+G01D   5/247  \	3	3	2F077	G01D   5/247	6	パルスの時間シフトを利用するもの	using time shifts of pulses
+G01D   5/248  \	3	3	2F077	G01D   5/248	26	パルスの繰返し周波数の変化によるもの	by varying pulse repetition frequency
+G01D   5/249  \	3	3	2F077	G01D   5/249	126	パルスコードを利用するもの	using pulse code
+G01D   5/249  T	3	0	2F077	G01D   5/249	443	変換部の構造に関するもの	regarding the structure of conversion units
+G01D   5/249  C	3	1	2F077	G01D   5/249	276	磁気的または誘導的手段を用いるもの	using magnetic or inductive measures
+G01D   5/249  K	3	2	2F077	G01D   5/249	83	ビットパターンが直列方向に配列されたもの	Bit pattern being arrayed in series
+G01D   5/249  B	3	1	2F077	G01D   5/249	17	容量的または静電的手段を用いるもの	using capacitive or electrostatic measures
+G01D   5/249  P	3	1	2F077	G01D   5/249	160	インクリメンタル方式を併用するもの	Incremental method being under combined use
+G01D   5/249  Q	3	0	2F077	G01D   5/249	257	処理部に関するもの	regarding processing units
+G01D   5/249  S	3	0	2F077	G01D   5/249	132	検出部と被検出部の相対移動によらない変換に関するもの	regarding the conversion in which relative displacement between detection unit and non-detection unit is not used
+G01D   5/249  Z	3	0	2F077	G01D   5/249	52	その他	Others
+G01D   5/25  \	2	2	2F077	G01D   5/25	236	複数個の導体またはチャンネルから１以上の導体またはチャンネルを選択するもの，例．接点の閉路によるもの	Selecting one or more conductors or channels from a plurality of conductors or channels, e.g. by closing contacts
+G01D   5/251  \	3	3	2F077	G01D   5/251	16	単一の導体またはチャンネル	one conductor or channel
+G01D   5/252  \	3	3	2F077	G01D   5/252	22	複数の導体またはチャンネルの組み合わせ	a combination of conductors or channels
+G01D   5/252  A	3	0	2F077	G01D   5/252	268	パルスコード型エンコーダ	of pulse coding encoders
+G01D   5/252  B	3	1	2F077	G01D   5/252	11	ビットパターンが直列方向に配列されたもの	of arrays of bit pattern in series direction
+G01D   5/252  Z	3	0	2F077	G01D   5/252	23	その他	others
+G01D   5/26  \	1	1	2F103	G01D   5/26	897	光学的手段を使用するもの，すなわち赤外線，可視光線または紫外線を用いるもの	using optical means, i.e. using infra-red, visible or ultra-violet light
+G01D   5/26  A	1	0	2F103	G01D   5/26	154	指示手段に関するもの	regarding the measures of direction
+G01D   5/26  C	1	0	2F103	G01D   5/26	368	変換部の構造に関するもの	regarding the structure of conversion units
+G01D   5/26  S	1	1	2F103	G01D   5/26	340	投光部，受光部の構造に関するもの	of the structures of receivers and transmitters
+G01D   5/26  D	1	2	2F103	G01D   5/26	1083	ライトガイドを用いるもの	using light guide
+G01D   5/26  J	1	1	2F103	G01D   5/26	189	力，温度，磁界等による光学特性の変化を利用するもの〔光ファイバの光学特性の変化を利用するものは５／３５３〕	using the change in optical characteristics induced by force, temperature and magnetic field [Utilization of the change in optical characteristics of optical fiber G01D5/353]
+G01D   5/26  F	1	2	2F103	G01D   5/26	205	回折，干渉を利用するもの〔５／３５３，５／３８優先〕	utilizing diffraction and interference [G01D5/353, 5/38 take precedence]
+G01D   5/26  K	1	1	2F103	G01D   5/26	232	撮像手段を用いるもの	using photographing measures
+G01D   5/26  G	1	0	2F103	G01D   5/26	141	処理部に関するもの	regarding processing units
+G01D   5/26  L	1	1	2F103	G01D   5/26	78	補償，調整，異常検出に関するもの	regarding compensation, adjustment and anomaly detection
+G01D   5/26  M	1	2	2F103	G01D   5/26	31	光量の補償，調整に関するもの	regarding compensation and adjustment of intensity of light
+G01D   5/26  N	1	2	2F103	G01D   5/26	8	温度補償に関するもの	regarding compensation of temperature
+G01D   5/26  Z	1	0	2F103	G01D   5/26	74	その他	Others
+G01D   5/28  \	2	2	2F103	G01D   5/28	43	光ビームの偏向があるもの，例．直示型光点指示用（Ｇ０１Ｄ５／４０が優先）	with deflection of beams of light, e.g. for direct optical indication (G01D 5/40 takes precedence)
+G01D   5/28  A	2	0	2F103	G01D   5/28	153	光の偏向によって指示するもの	being directed by the polarization of optical beams
+G01D   5/28  D	2	1	2F103	G01D   5/28	25	反射部に特徴あるもの	Characterised by reflectors
+G01D   5/28  Z	2	0	2F103	G01D   5/28	7	その他	Others
+G01D   5/30  \	3	3	2F103	G01D   5/30	117	光ビームをフォトセルで検知するもの	the beams of light being detected by photocells
+G01D   5/30  A	3	0	2F103	G01D   5/30	748	変換部の構造に関するもの	regarding the structure of conversion units
+G01D   5/30  Z	3	0	2F103	G01D   5/30	26	その他	Others
+G01D   5/32  \	2	2	2F103	G01D   5/32	37	光ビームの減衰，または全部または一部の遮蔽のあるもの（Ｇ０１Ｄ５／４０が優先）	with attenuation or whole or partial obturation of beams of light (G01D 5/40 takes precedence)
+G01D   5/32  A	2	0	2F103	G01D   5/32	104	光の遮蔽によって指示するもの	directing by the shielding of light
+G01D   5/32  Z	2	0	2F103	G01D   5/32	11	その他	Others
+G01D   5/34  \	3	3	2F103	G01D   5/34	298	光ビームをフォトセルで検知するもの	the beams of light being detected by photocells
+G01D   5/34  R	3	0	2F103	G01D   5/34	73	変換部の構造に関するもの〔５／３４７〜５／３８優先〕	ragarding the structure of conversion units [G01D5/347-5/38 take precedence]
+G01D   5/34  Z	3	0	2F103	G01D   5/34	52	その他	Others
+G01D   5/347  \	4	4	2F103	G01D   5/347	5	変位エンコーダスケールを用いるもの［６］	using displacement encoding scales [6]
+G01D   5/347  A	4	0	2F103	G01D   5/347	190	アナログ変化型	of analogous change
+G01D   5/347  B	4	0	2F103	G01D   5/347	717	パルスコード型	of pulse code
+G01D   5/347  C	4	1	2F103	G01D   5/347	173	ビットパターンが直列方向に配列されたもの	of arrays of bit pattern in series direction
+G01D   5/347  D	4	0	2F103	G01D   5/347	1276	インクリメンタル型	of incremental
+G01D   5/347  E	4	1	2F103	G01D   5/347	114	異なる方式のエンコーダを併用するもの	of combination with different encoding method
+G01D   5/347  Z	4	0	2F103	G01D   5/347	6	その他	others
+G01D   5/347 110 \	5	5	2F103	G01D   5/347	3	エンコーダの構造，細部	structures and details of encoders
+G01D   5/347 110 A	5	0	2F103	G01D   5/347	1021	エンコーダ板の構造に関するもの〔５／３８優先〕	of the structures of encoder board [5/38 takes precedence]
+G01D   5/347 110 B	5	1	2F103	G01D   5/347	562	基準位置，原点に関するもの	of the reference mark and origin
+G01D   5/347 110 C	5	1	2F103	G01D   5/347	801	反射部の構造に関するもの	of the structures of reflecting areas
+G01D   5/347 110 D	5	1	2F103	G01D   5/347	88	２次元，３次元の変位を検出するもの	of detecting two-dimensional and three-dimensional displacement
+G01D   5/347 110 E	5	1	2F103	G01D   5/347	546	３つの格子を用いるもの	using three gratings
+G01D   5/347 110 F	5	1	2F103	G01D   5/347	147	モアレ縞を形成するためのもの	of forming moire fringes
+G01D   5/347 110 L	5	0	2F103	G01D   5/347	212	処理部に関するもの	of the processing units
+G01D   5/347 110 M	5	1	2F103	G01D   5/347	256	補償，調整，異常検出に関するもの	of compensations, arrangements, and detection of abnormal conditions
+G01D   5/347 110 N	5	2	2F103	G01D   5/347	103	光量の補償，調整に関するもの	of compensations and arrangements of quantity of light
+G01D   5/347 110 P	5	2	2F103	G01D   5/347	19	温度補償に関するもの	of compensations of temperature
+G01D   5/347 110 Q	5	1	2F103	G01D   5/347	257	変調光を用いるもの	using modulated light
+G01D   5/347 110 S	5	0	2F103	G01D   5/347	2149	投光部，受光部の構造に関するもの	of the structures of receivers and transmitters
+G01D   5/347 110 T	5	1	2F103	G01D   5/347	502	多数の受光素子が配列されたもの	of arrays of a number of light receiving devices
+G01D   5/347 110 U	5	1	2F103	G01D   5/347	98	光学系に関するもの	of optical systems
+G01D   5/347 110 V	5	2	2F103	G01D   5/347	425	ライトガイドを用いるもの	using light guides
+G01D   5/347 110 X	5	0	2F103	G01D   5/347	180	その他の構造に関するもの	of other structures
+G01D   5/347 110 Z	5	0	2F103	G01D   5/347	11	その他	others
+G01D   5/353  \	4	4	2F103	G01D   5/353	3	光ファイバの伝送特性に影響を与えるもの［６］	influencing the transmission properties of an optical fibre [6]
+G01D   5/353  A	4	0	2F103	G01D   5/353	431	光ファイバを用いるもの	using optical fibre
+G01D   5/353  B	4	1	2F103	G01D   5/353	542	散乱を利用するもの	using scattering
+G01D   5/353  C	4	1	2F103	G01D   5/353	363	回折格子を用いるもの	by diffraction gratings
+G01D   5/353  Z	4	0	2F103	G01D   5/353	27	その他	others
+G01D   5/36  \	4	4	2F103	G01D   5/36	1221	光をパルスに変えるもの	Forming the light into pulses
+G01D   5/36  G	4	0	2F103	G01D   5/36	382	処理部に関するもの	regarding processing units
+G01D   5/36  Q	4	1	2F103	G01D   5/36	318	分解能を向上させるもの	improving resolution
+G01D   5/36  W	4	1	2F103	G01D   5/36	685	補償，調整，異常検出に関するもの	regarding compensation, adjustment and anomaly detection
+G01D   5/36  U	4	2	2F103	G01D   5/36	297	光量の補償，調整に関するもの	regarding compensation and adjustment of intensity of light
+G01D   5/36  Y	4	2	2F103	G01D   5/36	60	温度補償に関するもの	regarding compensation of temperature
+G01D   5/36  X	4	1	2F103	G01D   5/36	289	基準位置，原点の検出に関するもの	regarding detection of reference position and starting point
+G01D   5/36  F	4	1	2F103	G01D   5/36	172	移動方向を検出するもの	detecting the move direction
+G01D   5/36  R	4	1	2F103	G01D   5/36	136	変調光を用いるもの	using modulated light
+G01D   5/36  Z	4	0	2F103	G01D   5/36	175	その他	Others
+G01D   5/38  \	5	5	2F103	G01D   5/38	327	回折格子によるもの	by diffraction gratings
+G01D   5/38  A	5	0	2F103	G01D   5/38	987	変換部に関するもの	regarding conversion units
+G01D   5/38  G	5	1	2F103	G01D   5/38	100	回折格子の構造に関するもの	of diffraction gratings
+G01D   5/38  B	5	0	2F103	G01D   5/38	102	処理部に関するもの	regarding processing units
+G01D   5/38  Z	5	0	2F103	G01D   5/38	54	その他	Others
+G01D   5/39  \	2	2	2F077	G01D   5/39	8	測定値の可視指示を走査し，遠隔地点で，例．陰極線管のスクリーンに，この指示を再生するもの	Scanning a visible indication of the measured value and reproducing this indication at a remote place, e.g. on the screen of a cathode-ray tube
+G01D   5/40  \	2	2	2F077	G01D   5/40	13	特に赤外線の使用に適したもの	specially adapted for use with infra-red light
+G01D   5/42  \	1	1	2F077	G01D   5/42	249	流体式手段を使用するもの	using fluid means
+G01D   5/42  D	1	0	2F077	G01D   5/42	298	電空，空電変換に関するもの	regarding electro-pneumatic and pneumatic-electro conversions
+G01D   5/42  Z	1	0	2F077	G01D   5/42	62	その他	Others
+G01D   5/44  \	2	2	2F077	G01D   5/44	81	流体の噴射によるもの	using jets of fluid
+G01D   5/46  \	3	3	2F077	G01D   5/46	32	流れの偏向または抑制によるもの	by deflecting or throttling the flow
+G01D   5/48  \	1	1	2F077	G01D   5/48	151	波または粒子放射による手段を使用するもの（Ｇ０１Ｄ５／２６が優先）	using wave or particle radiation means (G01D 5/26 takes precedence)
+G01D   5/48  B	1	0	2F077	G01D   5/48	122	振動波を用いるもの	using oscillatory wave
+G01D   5/48  A	1	1	2F077	G01D   5/48	221	磁歪振動を用いるもの	using magnetostrictive vibration
+G01D   5/48  Z	1	0	2F077	G01D   5/48	56	その他	Other means
+G01D   5/50  \	2	2	2F077	G01D   5/50	18	放射線源をそなえたもの	derived from a radioactive source
+G01D   5/52  \	3	3	2F077	G01D   5/52	0	計数管で検知するもの	detected by a counter tube
+G01D   5/54  \	1	1	2F077	G01D   5/54	7	グループＧ０１Ｄ５／０２，Ｇ０１Ｄ５／１２，Ｇ０１Ｄ５／２６，Ｇ０１Ｄ５／４２およびＧ０１Ｄ５／４８のうち２以上に分類される手段を使用するもの	using means specified in two or more of groups ; G01D  5/02, G01D  5/12, G01D  5/26, G01D  5/42, and G01D  5/48
+G01D   5/56  \	2	2	2F077	G01D   5/56	43	電気的または磁気的手段を使用するもの	using electric or magnetic means
+G01D   5/58  \	2	2	2F077	G01D   5/58	11	光学的手段を使用するもの，すなわち，赤外線，可視光線または紫外線を利用するもの	using optical means, i.e. using infra-red, visible or ultra-violet light
+G01D   5/60  \	2	2	2F077	G01D   5/60	3	流体式手段を使用するもの	using fluid means
+G01D   5/62  \	2	2	2F077	G01D   5/62	2	５／５８に包含されない波または粒子放射による手段を使用するもの	using wave or particle radiation means not covered by group G01D 5/58
+G01D   7/00  \	0	0	2F041	G01D   7/00	88	測定値の指示	Indicating measured values
+G01D   7/00  A	0	0	2F041	G01D   7/00	950	測定値の指示〔共通〕	Indicating measured values (common)
+G01D   7/00  B	0	0	2F041	G01D   7/00	36	指示装置の電力を節約することに関するもの	Related to saving power consumption by indicating devices
+G01D   7/00  C	0	0	2F041	G01D   7/00	316	多重目盛を有する指示	Indicating with multiple scales
+G01D   7/00  D	0	0	2F041	G01D   7/00	217	目盛板を切換える指示	Indicating by switching scales
+G01D   7/00  E	0	0	2F041	G01D   7/00	193	多点測定に関係する指示	Indicating related to multi-point measurements
+G01D   7/00  F	0	0	2F041	G01D   7/00	210	動作を指示することに関連するもの	Related to indicating motions
+G01D   7/00  G	0	0	2F041	G01D   7/00	147	故障を指示することに関連するもの	Related to indicating failures
+G01D   7/00  H	0	0	2F041	G01D   7/00	43	調節計に関係する指示	Indicating related to controllers
+G01D   7/00  J	0	0	2F041	G01D   7/00	210	偏差を指示するためのもの	For indicating deviations
+G01D   7/00  K	0	0	2F041	G01D   7/00	1916	自動車等乗物に関する指示	Indicating related to vehicles such as automobiles
+G01D   7/00  L	0	0	2F041	G01D   7/00	7	３６０°以上指示可能なもの	Able to indicate by 360 degrees or more
+G01D   7/00  M	0	0	2F041	G01D   7/00	12	防じんカバ−〔Ｇ０１Ｄ１１／２６が優先〕	Dustproof covers (G 01 D 11/26 takes precedence.)
+G01D   7/00  N	0	0	2F041	G01D   7/00	25	フイルタ−の目詰まりの指示に関するもの	Related to indicating of clogged filters
+G01D   7/00  P	0	0	2F041	G01D   7/00	36	ランプの切換による指示・警報	Indicating or alarm by switching lamps
+G01D   7/00  Q	0	0	2F041	G01D   7/00	322	ランプの点滅による指示・警報	Indicating or alarm by flickering lamps
+G01D   7/00  R	0	0	2F041	G01D   7/00	105	所定値以下・以上の指示	Indicating levels above or below predetermined levels
+G01D   7/00  S	0	0	2F041	G01D   7/00	103	レンジ切替に関する指示	Indicating related to switching ranges
+G01D   7/00  Z	0	0	2F041	G01D   7/00	551	その他	Others
+G01D   7/00 301 \	1	1	2F041	G01D   7/00	7	指示素子の選択に特長のあるもの	Characterised by selections of indicating elements
+G01D   7/00 301 A	1	0	2F041	G01D   7/00	512	液晶を用いた指示〔共通〕	Indications using of liquid crystal (common)
+G01D   7/00 301 B	1	0	2F041	G01D   7/00	206	液晶を用いた指示〔電圧変化を利用する指示〕	Indications using of liquid crystal (indicating using of voltage changes)
+G01D   7/00 301 C	1	0	2F041	G01D   7/00	43	液晶を用いた指示〔温度変化を利用する指示〕	Indications using of liquid crystal (indicating using of temperature changes)
+G01D   7/00 301 D	1	0	2F041	G01D   7/00	196	液晶を用いた指示〔時計に関係するもの〕	Indications using of liquid crystal (related to clocks)
+G01D   7/00 301 E	1	0	2F041	G01D   7/00	140	発光ダイオ−ドを用いた指示	Indications using of light emitting diodes
+G01D   7/00 301 F	1	0	2F041	G01D   7/00	125	エレクトロ・ルミネツクスを用いた指示	Indications using of electro-luminecs
+G01D   7/00 301 G	1	0	2F041	G01D   7/00	77	エレクトロ・クロミツクスを用いた指示	Indications using of electro-chromics
+G01D   7/00 301 H	1	0	2F041	G01D   7/00	48	蛍光表示管を用いた指示	Indications using of fluorescent indicating tubes
+G01D   7/00 301 J	1	0	2F041	G01D   7/00	138	ガス放電管を用いた指示	Indications using of gas discharging tubes
+G01D   7/00 301 K	1	0	2F041	G01D   7/00	248	ホログラフイ等を用いた指示	Indications using of holography
+G01D   7/00 301 L	1	0	2F041	G01D   7/00	124	回転ドラムを用いた指示〔らせんを用いる指示等〕	Indications using of obtaining drums (indications using spirals)
+G01D   7/00 301 M	1	0	2F041	G01D   7/00	1056	ＣＲＴを用いた指示	Indications using of CRT
+G01D   7/00 301 N	1	0	2F041	G01D   7/00	41	リ−フ式文字板を用いる指示	Indications using of leafy character plates
+G01D   7/00 301 P	1	0	2F041	G01D   7/00	120	液柱等，液体を用いた指示	Indications using liquid columns or liquids
+G01D   7/00 301 Z	1	0	2F041	G01D   7/00	62	その他	Others
+G01D   7/00 302 \	1	1	2F041	G01D   7/00	2	指示形態に特長のあるもの（７／１２が優先）	Characterised by indicating forms (7/12 takes precedence.)
+G01D   7/00 302 A	1	0	2F041	G01D   7/00	1071	段階指示〔共通〕	Step indications (common)
+G01D   7/00 302 B	1	0	2F041	G01D   7/00	177	段階指示〔設定点で警報を発するもの〕	Step indications (generating alarms at set points)
+G01D   7/00 302 C	1	0	2F041	G01D   7/00	577	数字指示〔セグメント等数字自体に関するもの〕	Number indications (related to numbers per se such as segments)
+G01D   7/00 302 D	1	0	2F041	G01D   7/00	268	数字指示〔文字車〕	Number indications (character wheels)
+G01D   7/00 302 E	1	0	2F041	G01D   7/00	524	数字指示〔回路に関係するもの〕	Number indications (related to circuits)
+G01D   7/00 302 F	1	0	2F041	G01D   7/00	150	数字指示〔ちらつきを防止する関係のもの〕	Number indications (related to preventing flickering)
+G01D   7/00 302 G	1	0	2F041	G01D   7/00	209	数字指示〔時計に関係するもの〕	Number indications (related to clocks)
+G01D   7/00 302 H	1	0	2F041	G01D   7/00	31	数字指示〔はかりに関係するもの〕	Number indications (related to scales)
+G01D   7/00 302 J	1	0	2F041	G01D   7/00	13	数字指示〔ダイナミツク駆動に関係するもの〕	Number indications (related to dynamic motions)
+G01D   7/00 302 K	1	0	2F041	G01D   7/00	32	数字指示〔換算に関係するもの〕	Number indications (related to conversions)
+G01D   7/00 302 L	1	0	2F041	G01D   7/00	27	数字指示〔永久磁石を内蔵した回転円筒〕	Number indications (rotating cylinder with built-in permanent magnet)
+G01D   7/00 302 M	1	0	2F041	G01D   7/00	206	デイジタル・アナログ同時指示	Simultaneous digital and analogue indications
+G01D   7/00 302 N	1	0	2F041	G01D   7/00	73	マイクロリ−ダに関係があるもの	Related to micro-readers
+G01D   7/00 302 P	1	0	2F041	G01D   7/00	244	色の変化による指示〔目盛板の色分け等〕	Indications by colour changes (colour coding of scales plates)
+G01D   7/00 302 Q	1	0	2F041	G01D   7/00	201	色帯の長さの変化による指示	Indications by changes in coloured band lengths
+G01D   7/00 302 R	1	0	2F041	G01D   7/00	229	ランプにより，色が変化する指示	Indications using of lamps with varying colours
+G01D   7/00 302 S	1	0	2F041	G01D   7/00	105	ランプの光量，色調の変化による指示	Indications using of lamps by varying intensity or colour tones
+G01D   7/00 302 T	1	0	2F041	G01D   7/00	119	バツクライトによる指示	Indications by backlighting
+G01D   7/00 302 U	1	0	2F041	G01D   7/00	180	ランプ・光フアイバ−を介した指示	Indication via lamps or optical fibres
+G01D   7/00 302 V	1	0	2F041	G01D   7/00	197	スポツト投影による指示	Indications by spot projections
+G01D   7/00 302 Z	1	0	2F041	G01D   7/00	102	その他	Others
+G01D   7/00 303 \	1	1	2F041	G01D   7/00	6	視認性向上のための手段を付加するもの（３０２が優先）	adding means for improving visibility (302 takes precedence.)
+G01D   7/00 303 A	1	0	2F041	G01D   7/00	167	表示素子の輝度調整に関するもの	Related to brightness adjustments of indicating elements
+G01D   7/00 303 B	1	0	2F041	G01D   7/00	247	指示の読取り〔共通〕	Reading indications (common)
+G01D   7/00 303 C	1	0	2F041	G01D   7/00	233	指示の読取り〔多方向から読取り可能なもの〕	Reading indications (capable of being read from multiple directions)
+G01D   7/00 303 D	1	0	2F041	G01D   7/00	163	指示の読取り〔視誤差を防止するためのもの〕	Reading indications (for preventing parallax)
+G01D   7/00 303 E	1	0	2F041	G01D   7/00	410	指示の読取り〔光学素子に関係があるもの〕	Reading indications (related to optical elements)
+G01D   7/00 303 F	1	0	2F041	G01D   7/00	77	スクリ−ンへの投影に関するもの	Related to projections to screens
+G01D   7/00 303 Z	1	0	2F041	G01D   7/00	100	その他	Others
+G01D   7/02  \	1	1	2F041	G01D   7/02	708	２以上の変量値の同時指示	Indicating value of two or more variables simultaneously
+G01D   7/04  \	2	2	2F041	G01D   7/04	157	各変量にそれぞれ指示素子を用いるもの	using a separate indicating element for each variable
+G01D   7/06  \	3	3	2F041	G01D   7/06	40	共通スクリーンへの光学的指示	Luminous indications projected on a common screen
+G01D   7/08  \	2	2	2F041	G01D   7/08	332	２以上の変量に共通の指示素子を用いるもの	using a common indicating element for two or more variables
+G01D   7/10  \	3	3	2F041	G01D   7/10	33	同形式の指示を与えるもの	giving indication in co-ordinate form
+G01D   7/12  \	1	1	2F041	G01D   7/12	370	計器の指示値の音響的指示，例．盲人用［２］	Audible indication of meter readings, e.g. for the blind [2]
+G01D   9/00  \	0	0	2F070	G01D   9/00	32	測定値の記録	Recording measured values
+G01D   9/00  A	0	0	2F070	G01D   9/00	1214	デ−タ集録：電子的記憶	Collecting and recording data: electronic memory
+G01D   9/00  B	0	0	2F070	G01D   9/00	239	マ−カ−	Markers
+G01D   9/00  C	0	0	2F070	G01D   9/00	153	読み取り	Reading
+G01D   9/00  D	0	0	2F070	G01D   9/00	53	自動平衡記録計	Automatic equilibrium recorders
+G01D   9/00  E	0	0	2F070	G01D   9/00	302	走査式記録計	Scanning recorders
+G01D   9/00  F	0	0	2F070	G01D   9/00	114	異常現象の記録	Recording abnormal phenomena
+G01D   9/00  G	0	0	2F070	G01D   9/00	18	高速繰り返し波の記録	Recording rapidly repeating waves
+G01D   9/00  H	0	0	2F070	G01D   9/00	219	測定変量との関係	Relationship with measurement variables
+G01D   9/00  J	0	1	2F070	G01D   9/00	181	長さ：変位：形状：軌跡	Lengths: displacements: profiles: loci
+G01D   9/00  K	0	1	2F070	G01D   9/00	426	運行記録	Operation records
+G01D   9/00  L	0	1	2F070	G01D   9/00	107	医療	Medical
+G01D   9/00  M	0	1	2F070	G01D   9/00	31	水位：流量	Water levels: flow
+G01D   9/00  N	0	1	2F070	G01D   9/00	53	光：放射線	Lights: radioactive rays
+G01D   9/00  P	0	1	2F070	G01D   9/00	108	温度	Temperatures
+G01D   9/00  Q	0	1	2F070	G01D   9/00	74	力：圧力：重量	Force: pressures: weights
+G01D   9/00  R	0	1	2F070	G01D   9/00	30	試験	Tests
+G01D   9/00  S	0	1	2F070	G01D   9/00	120	分析：クロマトグラフ	Analysis: chromatograph
+G01D   9/00  T	0	1	2F070	G01D   9/00	82	速度：加速度：回転数	Speeds: accelerations: revolution speeds
+G01D   9/00  U	0	1	2F070	G01D   9/00	63	電気量	Quantity of electricity
+G01D   9/00  V	0	1	2F070	G01D   9/00	64	地震：振動：音響	Earthquakes: vibration: sounds
+G01D   9/00  W	0	1	2F070	G01D   9/00	47	気象	Weather conditions
+G01D   9/00  X	0	1	2F070	G01D   9/00	47	時間	Time
+G01D   9/00  Y	0	1	2F070	G01D   9/00	63	稼動：作動	Operation: activation
+G01D   9/00  Z	0	0	2F070	G01D   9/00	681	その他のもの	Others
+G01D   9/02  \	1	1	2F070	G01D   9/02	14	単一の変量について１種または複数の記録をするもの	Producing one or more recordings of the values of a single variable
+G01D   9/04  \	2	2	2F070	G01D   9/04	53	多重記録または切換記録によるもの	with provision for multiple or alternative recording
+G01D   9/06  \	3	3	2F070	G01D   9/06	23	多重記録，例．複製	Multiple recording, e.g. duplicating
+G01D   9/08  \	4	4	2F070	G01D   9/08	78	図的記録と数値的記録とをともに与えるもの	giving both graphical and numerical recording
+G01D   9/10  \	2	2	2F070	G01D   9/10	36	変量にしたがって動作する記録素子，例．ペン，および時間にしたがって動作する記録媒体，例．紙ロール	the recording element, e.g. stylus, being controlled in accordance with the variable, and the recording medium, e.g. paper roll, being controlled in accordance with time
+G01D   9/12  \	3	3	2F070	G01D   9/12	14	事象の連続記録	recording occurring continuously
+G01D   9/12  A	3	0	2F070	G01D   9/12	29	スケ−ル移動	Transferring scales
+G01D   9/12  Z	3	0	2F070	G01D   9/12	43	その他のもの	Others
+G01D   9/14  \	4	4	2F070	G01D   9/14	75	記録される変量の大きさにしたがって記録媒体を変速する装置を備えたもの	with provision for altering speed of recording medium in accordance with the magnitude of the variable to be recorded
+G01D   9/16  \	3	3	2F070	G01D   9/16	3	事象の間欠記録，例．打杆によるもの	recording occurring at separated intervals, e.g. by chopper bar
+G01D   9/16  A	3	0	2F070	G01D   9/16	90	打点式	Dot-punching types
+G01D   9/16  B	3	1	2F070	G01D   9/16	17	記録針を電磁的に上下動するもの	electromagnetically moving recording needle up and down
+G01D   9/16  Z	3	0	2F070	G01D   9/16	82	その他のもの	Others
+G01D   9/18  \	4	4	2F070	G01D   9/18	51	変量値の変化のみにより動作する記録素子	recording element actuated only upon change in value of variable
+G01D   9/20  \	2	2	2F070	G01D   9/20	19	時間にしたがって動作する記録素子，例．ペン，および変量にしたがって動作する記録媒体，例．紙ロール	the recording element, e.g. stylus, being controlled in accordance with time and the recording medium, e.g. paper roll, being controlled in accordance with the variable
+G01D   9/22  \	3	3	2F070	G01D   9/22	9	事象の連続記録	recording occurring continuously
+G01D   9/24  \	3	3	2F070	G01D   9/24	5	事象の間欠記録，例．打杆によるもの	recording occurring at separated intervals, e.g. by chopper bar
+G01D   9/26  \	2	2	2F070	G01D   9/26	8	記録素子，例．ペン，または記録媒体，例．紙ロール，の何れかが，時間と変量の両者により動作するもの	either the recording element, e.g. stylus, or the recording medium, e.g. paper roll, being controlled in accordance with both time and the variable
+G01D   9/28  \	1	1	2F070	G01D   9/28	155	２以上の異なる変量値についてそれぞれを１種または多種の記録をするもの（Ｇ０１Ｄ９／３８，Ｇ０１Ｄ９／４０が優先）	Producing one or more recordings, each recording being of the values of two or more different variables (G01D 9/38, G01D 9/40 take precedence)
+G01D   9/30  \	2	2	2F070	G01D   9/30	234	各変量に対して記録素子が別々にあるもの，例．多ペン型記録計	there being a separate recording element for each variable, e.g. multiple-pen recorder
+G01D   9/32  \	2	2	2F070	G01D   9/32	11	２以上の変量に共通の記録素子のあるもの	there being a common recording element for two or more variables
+G01D   9/32  A	2	0	2F070	G01D   9/32	74	打点式	Dot-punching types
+G01D   9/32  B	2	1	2F070	G01D   9/32	177	印点車を用いるもの	using of printing wheels
+G01D   9/32  C	2	1	2F070	G01D   9/32	89	多色リボンを用いるもの	using colour ribbons
+G01D   9/32  Z	2	0	2F070	G01D   9/32	251	その他のもの	Others
+G01D   9/34  \	3	3	2F070	G01D   9/34	8	変量が一定の順序で記録されるもの	the variables being recorded in predetermined sequence
+G01D   9/36  \	4	4	2F070	G01D   9/36	10	別々の記録欄に記録するもの	in separate columns
+G01D   9/38  \	1	1	2F070	G01D   9/38	111	ある変量に応じて記録素子，例．ペン，を動作させ，他の変量に応じて記録媒体，例．紙ロールを，動作させることにより１種または多種の記録をするもの	Producing one or more recordings, each recording being produced by controlling the recording element, e.g. stylus, in accordance with one variable and controlling the recording medium, e.g. paper roll, in accordance with another variable
+G01D   9/40  \	1	1	2F070	G01D   9/40	296	２以上の変量に応じて記録素子，例．ペン，または記録媒体，例．紙ロール，のいずれかを動作させることにより１種または多種の記録をするもの	Producing one or more recordings, each recording being produced by controlling either the recording element, e.g. stylus, or the recording medium, e.g. paper roll, in accordance with two or more variables
+G01D   9/42  \	1	1	2F070	G01D   9/42	105	写真的手段による測定器の，例．カウンターの，指示の記録	Recording indications of measuring instruments by photographic means, e.g. of counters
+G01D  11/00  \	0	0	2F074	G01D  11/00	4	特に特定の変量に適用されない測定装置の構成部品（Ｇ０１Ｄ１３／００，Ｇ０１Ｄ１５／００優先）	Component parts of measuring arrangements not specially adapted for a specific variable (G01D 13/00, G01D 15/00 take precedence)
+G01D  11/00  K	0	0	2F074	G01D  11/00	237	帰零手段	Means for resetting
+G01D  11/00  S	0	0	2F074	G01D  11/00	319	設定手段	Means for setting
+G01D  11/00  Z	0	0	2F074	G01D  11/00	161	その他のもの	Others
+G01D  11/00 101 \	1	1	2F074	G01D  11/00	130	零点調整装置	zero point adjustment devices
+G01D  11/00 101 A	1	0	2F074	G01D  11/00	39	固定目盛板または固定指標の変位によるもの	By displacing fixed scale plate or index
+G01D  11/00 101 B	1	0	2F074	G01D  11/00	102	伝達機構におけるもの〔拡大率の調整はＧ０１Ｄ５／０２〕	By transfer mechanisms (adjusting expanding rate G 01 D 5/02)
+G01D  11/00 101 C	1	0	2F074	G01D  11/00	11	指示器全体の変位によるもの	By displacing whole indicating instruments
+G01D  11/00 101 D	1	0	2F074	G01D  11/00	77	制御スプリングにおけるもの	By control springs
+G01D  11/00 101 Z	1	0	2F074	G01D  11/00	58	その他のもの	Others
+G01D  11/02  \	1	1	2F074	G01D  11/02	381	可動部の軸受，または懸吊	Bearings or suspensions for moving parts
+G01D  11/02  M	1	0	2F074	G01D  11/02	62	磁気軸受	Magnetic bearings
+G01D  11/02  P	1	0	2F074	G01D  11/02	198	ピボツト軸受	Pivot bearings
+G01D  11/02  Z	1	0	2F074	G01D  11/02	112	その他のもの	Others
+G01D  11/04  \	2	2	2F074	G01D  11/04	79	ナイフエッジ軸受	Knive-edge bearings
+G01D  11/06  \	2	2	2F074	G01D  11/06	225	帯懸吊または糸条懸吊，例．張力の	Strip or thread suspensions, e.g. in tension
+G01D  11/08  \	1	1	2F074	G01D  11/08	109	可動部の平衡をとるための素子	Elements for balancing moving parts
+G01D  11/10  \	1	1	2F074	G01D  11/10	85	部品の運動を制動するための素子	Elements for damping the movement of parts
+G01D  11/12  \	2	2	2F074	G01D  11/12	212	流体制動を用いたもの	using fluid damping
+G01D  11/14  \	2	2	2F074	G01D  11/14	110	電磁制動を用いたもの	using magnetic induction damping
+G01D  11/16  \	1	1	2F074	G01D  11/16	15	部品を制止する，または部品の運動を妨げる，ための素子，例．指針の帰零用（不使用時における可動部品の係止Ｇ０１Ｄ１１／２０）	Elements for restraining or preventing the movement of parts, e.g. for zeroising (caging of moving parts when not in use G01D 11/20)
+G01D  11/16  C	1	0	2F074	G01D  11/16	112	クランプ	Clamps
+G01D  11/16  S	1	0	2F074	G01D  11/16	218	ストツパ−	Stoppers
+G01D  11/16  Z	1	0	2F074	G01D  11/16	9	その他のもの	Others
+G01D  11/18  \	2	2	2F074	G01D  11/18	100	スプリング（Ｇ０１Ｄ１１／０６が優先）	Springs (G01D 11/06 takes precedence)
+G01D  11/20  \	1	1	2F074	G01D  11/20	42	不使用時に可動部を係止する装置	Caging devices for moving parts when not in use
+G01D  11/22  \	2	2	2F074	G01D  11/22	20	自動的に作用するもの	automatically actuated
+G01D  11/24  \	1	1	2F074	G01D  11/24	170	計器箱	Housings
+G01D  11/24  A	1	0	2F074	G01D  11/24	618	組立に特徴があるもの	Characterised by assemblies
+G01D  11/24  B	1	0	2F074	G01D  11/24	970	内部保護のためのもの，例．防水，防湿，防音，断熱用	For internal protection e.g. waterproof, humidity-proof, acoustic or thermal insulation
+G01D  11/24  D	1	0	2F074	G01D  11/24	323	表示部の視認性向上のためのもの，例．フ−ド，チルト式表示部	For improving visibility of indicating units e.g. hoods, tilted indicating units
+G01D  11/24  H	1	0	2F074	G01D  11/24	141	引出し型計器箱	Drawer type housings
+G01D  11/24  K	1	0	2F074	G01D  11/24	374	箱内への組込み	Assembly in housings
+G01D  11/24  W	1	0	2F074	G01D  11/24	732	配線，配管に特徴があるもの	Characterised by wiring or piping
+G01D  11/24  Z	1	0	2F074	G01D  11/24	605	その他のもの	Others
+G01D  11/26  \	2	2	2F074	G01D  11/26	816	窓；カバーガラス；その密閉	Windows; Cover glasses; Sealings therefor
+G01D  11/26  A	2	0	2F074	G01D  11/26	287	視認性向上	Improving visibility
+G01D  11/26  B	2	0	2F074	G01D  11/26	40	暗色	Dark color
+G01D  11/26  C	2	0	2F074	G01D  11/26	182	密閉のための工夫	Devices for sealing
+G01D  11/26  D	2	0	2F074	G01D  11/26	329	カバーガラスの組付・固定	assembling and fixing cover glasses
+G01D  11/26  E	2	1	2F074	G01D  11/26	76	カバーガラスを着脱可能なもの	removable cover glasses
+G01D  11/26  F	2	0	2F074	G01D  11/26	55	カバーガラスの材質	material of cover glasses
+G01D  11/26  Z	2	0	2F074	G01D  11/26	121	その他	Others
+G01D  11/28  \	1	1	2F074	G01D  11/28	14	構造的に結合した照明装置	Structurally-combined illuminating devices
+G01D  11/28  A	1	0	2F074	G01D  11/28	386	目盛板の照明	Illuminating scales
+G01D  11/28  B	1	1	2F074	G01D  11/28	1131	バツクライト型	back lighting
+G01D  11/28  C	1	1	2F074	G01D  11/28	250	エツジライト型	edge lighting
+G01D  11/28  D	1	0	2F074	G01D  11/28	467	調光装置	Dimming devices
+G01D  11/28  E	1	0	2F074	G01D  11/28	199	ＥＬ，ＬＥＤによる照明装置〔Ｐが優先〕	Illumination devices using of EL or LED (P takes precedence.)
+G01D  11/28  L	1	0	2F074	G01D  11/28	1861	照明部材〔ランプ，遮光板，導光材〕	Illuminating members (lamps, light shields, light guides)
+G01D  11/28  P	1	0	2F074	G01D  11/28	1185	指針の照明	Illuminating pointers
+G01D  11/28  T	1	0	2F074	G01D  11/28	347	特定用途の計器に特に適合した照明装置	Illuminating devices specially conforming to instruments for specific applications
+G01D  11/28  Z	1	0	2F074	G01D  11/28	264	その他のもの	Others
+G01D  11/30  \	1	1	2F074	G01D  11/30	30	計器に特に適合した支持装置；計器のセットに特に適合した支持装置	Supports specially adapted for an instrument; Supports specially adapted for a set of instruments
+G01D  11/30  B	1	0	2F074	G01D  11/30	209	防振支持装置	Vibration resisting supports
+G01D  11/30  C	1	0	2F074	G01D  11/30	58	携帯用装置，例．ハンドル	Portable devices, e.g. handles
+G01D  11/30  L	1	0	2F074	G01D  11/30	174	支脚；スタンド	Supports; stands
+G01D  11/30  M	1	0	2F074	G01D  11/30	200	取付台；ラツク	Mounting bases; racks
+G01D  11/30  P	1	0	2F074	G01D  11/30	507	パネルの開口部への取付装置	Mounting devices at panel openings
+G01D  11/30  S	1	0	2F074	G01D  11/30	768	センサ部のセツト用支持具〔Ｌが優先〕	Supports for setting sensor units (L takes precedence.)
+G01D  11/30  V	1	0	2F074	G01D  11/30	198	車両用支持装置	Supports for automobile applications
+G01D  11/30  Z	1	0	2F074	G01D  11/30	474	その他のもの	Others
+G01D  13/00  \	0	0	2F074	G01D  13/00	59	特に特定の変量に適用されない測定装置用指示器の構成部品	Component parts of indicators for measuring arrangements not specially adapted for a specific variable
+G01D  13/02  \	1	1	2F074	G01D  13/02	23	目盛板；ダイヤル	Scales; Dials
+G01D  13/02  A	1	0	2F074	G01D  13/02	50	回転軸への目盛板の取付	Mounting scales on rotating axes
+G01D  13/02  B	1	0	2F074	G01D  13/02	270	目盛板の照明	Illuminating scales
+G01D  13/02  C	1	0	2F074	G01D  13/02	279	製造〔方法・装置〕	Manufacturing (methods or devices)
+G01D  13/02  D	1	0	2F074	G01D  13/02	63	時計用目盛板の製造〔方法・装置〕	Manufacturing graduation plates for clocks (methods or equipment)
+G01D  13/02  Z	1	0	2F074	G01D  13/02	258	その他	Others
+G01D  13/02 101 \	2	2	2F074	G01D  13/02	24	筐体への取付け	Mounting on enclosures
+G01D  13/02 101 A	2	0	2F074	G01D  13/02	96	時計用目盛板の取付	Mounting graduation plates for clocks
+G01D  13/02 101 B	2	0	2F074	G01D  13/02	93	ダイヤル板の取付	Mounting dials
+G01D  13/02 101 C	2	0	2F074	G01D  13/02	48	電子レンジ用目盛板の取付	Mounting dials for microwave ovens
+G01D  13/02 101 Z	2	0	2F074	G01D  13/02	454	その他	Others
+G01D  13/04  \	2	2	2F074	G01D  13/04	17	構造	Construction
+G01D  13/04  A	2	0	2F074	G01D  13/04	147	時計用文字板の構造	Structures of clock graduation plates
+G01D  13/04  Z	2	0	2F074	G01D  13/04	1103	その他	Others
+G01D  13/06  \	3	3	2F074	G01D  13/06	44	可動帯（Ｇ０１Ｄ１３／１０が優先）	Moving bands (G01D 13/10 takes precedence)
+G01D  13/08  \	3	3	2F074	G01D  13/08	94	回転筒（Ｇ０１Ｄ１３／１０が優先）	Rotating drums (G01D 13/10 takes precedence)
+G01D  13/10  \	3	3	2F074	G01D  13/10	56	調整できる目盛のあるもの；補助目盛のあるもの，例．副尺	with adjustable scales; with auxiliary scales, e.g. vernier
+G01D  13/12  \	2	2	2F074	G01D  13/12	385	目盛	Graduation
+G01D  13/14  \	3	3	2F074	G01D  13/14	3	３６０度以上の回転のためのもの	for rotations of more than 360&deg;
+G01D  13/16  \	3	3	2F074	G01D  13/16	1	鋸歯状に目盛線をもつもの	with staggered markings
+G01D  13/18  \	3	3	2F074	G01D  13/18	6	長短の目盛線をもつもの	with raised or recessed markings
+G01D  13/20  \	3	3	2F074	G01D  13/20	125	発光性の目盛線をつけたもの	with luminescent markings
+G01D  13/22  \	1	1	2F074	G01D  13/22	37	指針，例．設定指針	Pointers, e.g. settable pointer
+G01D  13/22  A	1	0	2F074	G01D  13/22	265	設定指針；指標，マ−カ−，カ−ソル	Setting pointers; indices; markers, cursors
+G01D  13/22  B	1	0	2F074	G01D  13/22	55	製造〔方法・装置〕	Manufacturing (methods or devices)
+G01D  13/22  Z	1	0	2F074	G01D  13/22	71	その他	Others
+G01D  13/22 101 \	2	2	2F074	G01D  13/22	1017	形状；構造	profiles; structures
+G01D  13/22 102 \	2	2	2F074	G01D  13/22	66	軸，駆動部材への取付け	mounting on shafts or driving members
+G01D  13/22 102 A	2	0	2F074	G01D  13/22	147	嵌合〔弾性力利用〕のみによる取付	Mounting only by fitting (using of elastic materials)
+G01D  13/22 102 B	2	0	2F074	G01D  13/22	68	流体又は磁性体を介在させた取付	Mounting via fluids or magnetic substances
+G01D  13/22 102 Z	2	0	2F074	G01D  13/22	270	その他	Others
+G01D  13/24  \	2	2	2F074	G01D  13/24	97	最大または最小を指示するためのもの	for indicating a maximum or minimum
+G01D  13/26  \	2	2	2F074	G01D  13/26	119	さらに別の作用を行なうために適合したもの，例．電気接点を作動するもの	adapted to perform a further operation, e.g. making electrical contact
+G01D  13/28  \	2	2	2F074	G01D  13/28	834	発光性を帯びたもの	with luminescent markings
+G01D  15/00  \	0	0	2F070	G01D  15/00	127	特に特定の変量に適用されない測定装置用記録装置の構成部品	Component parts of recorders for measuring arrangements not specially adapted for a specific variable
+G01D  15/00  A	0	0	2F070	G01D  15/00	148	ペン上下	Moving pens up or down
+G01D  15/00  B	0	0	2F070	G01D  15/00	42	ペン交換	Replacing pens
+G01D  15/00  C	0	0	2F070	G01D  15/00	78	ペン支持	Supporting pens
+G01D  15/00  D	0	0	2F070	G01D  15/00	43	筐体	Enclosures
+G01D  15/00  E	0	0	2F070	G01D  15/00	17	多針型記録ペンの共通事項	Items common to multi-needle recording pens
+G01D  15/00  Z	0	0	2F070	G01D  15/00	206	その他のもの	Others
+G01D  15/02  \	1	1	2F070	G01D  15/02	36	記録体表面を機械的に変形させるかまたは記録体表面に穴をあけるスタイラスまたは他の記録素子（プリンティング記録素子Ｇ０１Ｄ１５／２０）	Styli or other recording elements acting to mechanically deform or perforate the recording surface (printing recording elements G01D 15/20)
+G01D  15/04  \	2	2	2F070	G01D  15/04	20	記録体表面にパンチするもの	acting to punch holes in the recording surface
+G01D  15/06  \	1	1	2F070	G01D  15/06	9	電気的記録素子，例．電解質のもの	Electric recording elements, e.g. electrolytic
+G01D  15/06  A	1	0	2F070	G01D  15/06	73	静電式記録素子	Static-electricity recording elements
+G01D  15/06  Z	1	0	2F070	G01D  15/06	210	その他のもの	Others
+G01D  15/08  \	2	2	2F070	G01D  15/08	106	放電破壊用	for spark erosion
+G01D  15/10  \	1	1	2F070	G01D  15/10	482	感熱記録層に作用する熱記録素子	Heated recording elements acting on heat-sensitive layers
+G01D  15/12  \	1	1	2F070	G01D  15/12	112	磁気的記録素子	Magnetic recording elements
+G01D  15/14  \	1	1	2F070	G01D  15/14	174	光学的記録素子；Ｘ線または放射線を用いた記録素子	Optical recording elements; Recording elements using X- or nuclear radiation
+G01D  15/16  \	1	1	2F070	G01D  15/16	61	記録体表面に記録剤，例．インキ，を移す記録素子（プリンティング記録素子Ｇ０１Ｄ１５／２０）	Recording elements transferring recording material, e.g. ink, to the recording surface (printing recording elements G01D 15/20)
+G01D  15/16  A	1	0	2F070	G01D  15/16	351	インクの給送	Feeding ink
+G01D  15/16  Z	1	0	2F070	G01D  15/16	414	その他のもの	Others
+G01D  15/18  \	2	2	2F070	G01D  15/18	149	記録剤をノズルから噴射するもの	Nozzles emitting recording material
+G01D  15/20  \	1	1	2F070	G01D  15/20	287	インキを用いてプリントするか記録体表面の変形または穴あけによってプリントするための記録素子，例．エンボス加工	Recording elements for printing with ink or for printing by deformation or perforation of the recording surface, e.g. embossing
+G01D  15/22  \	1	1	2F070	G01D  15/22	8	記録素子を記録体表面に接触させるための打杆	Chopper bars for bringing recording element into contact with recording surface
+G01D  15/24  \	1	1	2F070	G01D  15/24	10	５／００に包含されない記録素子または記録体表面のための駆動	Drives for recording elements or surfaces, not covered by group G01D 5/00
+G01D  15/24  A	1	0	2F070	G01D  15/24	337	記録素子の駆動	Driving of recording elements
+G01D  15/24  B	1	0	2F070	G01D  15/24	505	記録体表面の駆動	Driving of recording surfaces
+G01D  15/24  Z	1	0	2F070	G01D  15/24	7	その他のもの	Others
+G01D  15/26  \	2	2	2F070	G01D  15/26	58	時計機構により動作するもの	operating by clockwork
+G01D  15/28  \	1	1	2F070	G01D  15/28	23	記録体表面の保持手段；記録体表面の案内手段；記録体表面の取替え手段	Holding means for recording surfaces; Guiding means for recording surfaces; Exchanging means for recording surfaces
+G01D  15/28  A	1	0	2F070	G01D  15/28	157	記録体表面の保持，案内，取替えに関する保安警告表示装置	Indicating devices for safety warnings related to supporting, guiding or mounting recording surfaces
+G01D  15/28  Z	1	0	2F070	G01D  15/28	716	その他のもの	Others
+G01D  15/30  \	2	2	2F070	G01D  15/30	224	折りたたみ式帯状記録紙用	for foldable strip charts
+G01D  15/32  \	2	2	2F070	G01D  15/32	98	円形記録紙用	for circular charts
+G01D  15/34  \	1	1	2F070	G01D  15/34	11	記録体表面	Recording surfaces
+G01D  15/34  A	1	0	2F070	G01D  15/34	51	目盛等の記載事項	Contents of scales
+G01D  15/34  B	1	0	2F070	G01D  15/34	40	長さ：位置：残量	Lengths: positions: remaining amounts
+G01D  15/34  C	1	0	2F070	G01D  15/34	23	折れ目：切れ目：接続	Folds: breaks: connections
+G01D  15/34  D	1	0	2F070	G01D  15/34	37	円形記録紙	Round recording papers
+G01D  15/34  Z	1	0	2F070	G01D  15/34	116	その他のもの	Others
+G01D  18/00  \	0	0	2F076	G01D  18/00	941	グループＧ０１Ｄ１／００からＧ０１Ｄ１５／００に分類された装置の試験または較正	Testing or calibrating apparatus or arrangements provided for in groups G01D 1/00-G01D 15/00
+G01D  21/00  \	0	0	2F076	G01D  21/00	475	他に分類されない測定または試験	Measuring or testing not otherwise provided for
+G01D  21/00  A	0	0	2F076	G01D  21/00	181	動物	Animals
+G01D  21/00  B	0	0	2F076	G01D  21/00	80	移動体	Moving objects
+G01D  21/00  C	0	0	2F076	G01D  21/00	527	海洋	Ocean
+G01D  21/00  D	0	0	2F076	G01D  21/00	1141	土木	Civil engineering
+G01D  21/00  G	0	0	2F076	G01D  21/00	828	測定用変換器およびその取付	Converters for measurements and mounting thereof
+G01D  21/00  K	0	0	2F076	G01D  21/00	142	移動検測車	Moving detecting and measuring vehicles
+G01D  21/00  M	0	0	2F076	G01D  21/00	1306	測定	Measuring
+G01D  21/00  N	0	0	2F076	G01D  21/00	583	試験	Testing
+G01D  21/00  Q	0	0	2F076	G01D  21/00	1984	監視	Monitoring
+G01D  21/00  Z	0	0	2F076	G01D  21/00	348	その他のもの	Others
+G01D  21/02  \	1	1	2F076	G01D  21/02	662	単一の他のサブクラスに包含されない手段による２以上の変量の測定	Measuring two or more variables by means not covered by a single other subclass

@@ -1,0 +1,866 @@
+H04N   1/00		文書または類似のものの走査，伝送または再生，例．ファクシミリ伝送；それらの細部［３，４］	Scanning, transmission or reproduction of documents or the like, e.g. facsimile transmission; Details thereof	137502
+H04N   1/024	・	走査ヘッドの細部［３，４］	Details of scanning heads	1450
+H04N   1/028	・・	画像情報読取のためのもの［３，４］	for picture-information pick-up	15880
+H04N   1/029	・・・	一度に一つの画素のみに光学的に焦点を合わせるヘッド［６］	Heads optically focused on only one picture element at a time	172
+H04N   1/03	・・・	実質的にライン状に配列された光検出器を有するもの［６］	with photodetectors arranged in a substantially linear array	741
+H04N   1/031	・・・・	走査される画素と一対一の光学的に正立の対応を有する光検出器，例．密着形ラインセンサ［６］	the photodetectors having a one-to-one and optically positive correspondence with the scanned picture elements, e.g. linear contact sensors	1051
+H04N   1/032	・・	画像情報再生のためのもの［３，４］	for picture-information reproduction	2992
+H04N   1/034	・・・	インクを用いるもの，例．インクジェットヘッド［５］	using ink, e.g. ink-jet heads	980
+H04N   1/036	・・・	光学的再生のためのもの［３，４］	for optical reproduction	5790
+H04N   1/04	・	走査装置（Ｈ０４Ｎ１／３８７が優先）［４］	Scanning arrangements(H04N1/387 takes precedence)	57094
+H04N   1/047	・・	走査速度または位置の検知，制御または誤差補償（Ｈ０４Ｎ１／１７が優先）［６］	Detection, control or error compensation of scanning velocity or position(H04N1/17 takes precedence)	1995
+H04N   1/053	・・・	主走査方向におけるもの，例．一走査線における走査開始または画素の同期［６］	in main scanning direction, e.g. synchronisation of line start or picture elements in a line	813
+H04N   1/06	・・	円筒状画像支持面を用いるもの［４］	using cylindrical picture-bearing surfaces	1708
+H04N   1/08	・・・	ドラムのまわりにシートを取り付けまたは保持するための機構［４］	Mechanisms for mounting or holding the sheet around the drum	1032
+H04N   1/10	・・	フラットな画像載置面を用いるもの［４］	using flat picture-bearing surfaces	9942
+H04N   1/107	・・・	手動走査を有するもの［６］	with manual scanning	10044
+H04N   1/113	・・	振動鏡または回転鏡を用いるもの［６］	using oscillating or rotating mirrors	15089
+H04N   1/12	・・	低速なシート搬送機構を用いるもの（多素子アレイを用いるものＨ０４Ｎ１／１９）［４，６］	using the sheet-feed movement as the slow scanning component(using multi-element arrays H04N1/19)	5278
+H04N   1/14	・・・	走査ヘッドを備える回転無端ベルトを用いるもの［４］	using a rotating endless belt carrying the scanning heads	269
+H04N   1/16	・・・	回転ヘリカル要素を用いるもの［４］	using a rotating helical element	247
+H04N   1/17	・・	走査速度が画像の内容によって決まるもの［３，４］	the scanning speed being dependent on content of picture	1343
+H04N   1/19	・・	多素子アレイを用いるもの［６］	using multi-element arrays	10926
+H04N   1/191	・・・	アレイが１次元配列からなるもの［６］	the array comprising a one-dimensional array	1168
+H04N   1/192	・・・・	同時に一つの主走査線上の画素を走査するもの［６］	Simultaneously scanning picture elements on one main scanning line	171
+H04N   1/193	・・・・・	電気的に走査するライン状のアレイを用いるもの［６］	using electrically scanned linear arrays	2576
+H04N   1/195	・・・	アレイが２次元配列からなるもの［６］	the array comprising a two-dimensional array	1176
+H04N   1/203	・・	複数の別個の画像を同時に走査するもの［６］	Simultaneous scanning of two or more separate pictures	707
+H04N   1/207	・・	元の画像と再生画像を共通の走査装置で同時に走査するもの［６］	Simultaneous scanning of the original picture and the reproduced picture with a common scanning device	205
+H04N   1/21	・	中間情報蓄積（Ｈ０４Ｎ１／３８７，Ｈ０４Ｎ１／４１が優先）［４］	Intermediate information storage(H04N1/387, H04N1/41 take precedence)	20279
+H04N   1/23	・	再生装置［４］	Reproducing arrangements	14836
+H04N   1/27	・・	磁気的中間画像の生成を伴うもの［４］	involving production of a magnetic intermediate picture	265
+H04N   1/29	・・	静電的中間画像の生成を伴うもの［４］	involving production of an electrostatic intermediate picture	4998
+H04N   1/31	・・	画像伝送のための機械的装置，例．クラッチ，伝動装置，歯車伝動装置の適用［４］	Mechanical arrangements for picture transmission, e.g. adaptation of clutches, gearing, gear transmissions	580
+H04N   1/32	・	送信機と受信機間の制御または監視のための回路または装置	Circuits or arrangements for control or supervision between transmitter and receiver	36498
+H04N   1/327	・・	単一モード通信の開始，継続または終了；そのためのハンドシェイキング［６］	Initiating, continuing or ending a single-mode communication; Handshaking therefor	1502
+H04N   1/333	・・	モード信号の通信またはモード変更；そのためのハンドシェイキング［６］	Mode signalling or mode changing; Handshaking therefor	1097
+H04N   1/34	・・	有料方式	for coin-freed systems	1168
+H04N   1/36	・・	送信機と受信機を同期または整相するためのもの	for synchronising or phasing transmitter and receiver	1259
+H04N   1/38	・	画像の不要部分の消去するための回路または装置（Ｈ０４Ｎ１／３８７が優先）［４］	Circuits or arrangements for blanking or otherwise eliminating unwanted parts of pictures(H04N1/387 takes precedence)	2500
+H04N   1/387	・	原画の編集，再配置またはその他の変形［４］	Composing, repositioning or otherwise modifying originals	38524
+H04N   1/393	・・	拡大または縮小［４］	Enlarging or reducing	7748
+H04N   1/40	・	画像信号回路（Ｈ０４Ｎ１／３８７が優先）［４］	Picture signal circuits(H04N1/387 takes precedence)	30013
+H04N   1/401	・・	読取または再生ヘッドの位置的な応答のばらつきを補償するもの（Ｈ０４Ｎ１／４０３が優先）［６］	Compensating positionaly unequal response of the pick-up or reproducing head(H04N1/403 takes precedence)	4223
+H04N   1/403	・・	２値原画の画像信号の２値化［６］	Discrimination between the two tones in the picture signal of a two-tone original	2840
+H04N   1/405	・・	中間調にするもの，すなわち，連続階調の原画の画像信号を相当する２レベルのみを示す信号に変換するもの［６］	Halftoning, i.e. converting the picture signal of a continuous-tone original into a corresponding signal showing only two levels	10251
+H04N   1/407	・・	階調または最大最小レベルの制御または修正，例．バックグラウンドレベル［６］	Control or modification of tonal gradation or of extreme levels, e.g. background level	10867
+H04N   1/409	・・	輪郭または細部の強調；雑音またはエラーの抑制［６］	Edge or detail enhancement; Noise or error suppression	8835
+H04N   1/41	・	帯域または冗長度の圧縮（走査によるものＨ０４Ｎ１／１７）［３］	Bandwidth or redundancy reduction(by scanning H04N1/17)	13995
+H04N   1/411	・・	２値画像の伝送または再生のためのもの，例．白黒画像［４］	for the transmission or reproduction of two-tone pictures, e.g. black and white pictures	1710
+H04N   1/413	・・・	画像情報の損失または変更を伴わずに画像を再生するための方式または装置［４］	Systems or arrangements allowing the picture to be reproduced without loss or modification of picture-information	3017
+H04N   1/415	・・・・	画素が固定された１次元または２次元のブロックに分割または配置されるもの［４］	in which the picture-elements are subdivided or grouped into fixed one-dimensional or two-dimensional blocks	1560
+H04N   1/417	・・・・	予測または差分符号化を用いるもの［４］	using predictive or differential encoding	1603
+H04N   1/419	・・・・	走査線方向の同値の画素の連続長を符号化するもののみであるもの［４］	in which encoding of the length of a succession of picture-elements of the same value along a scanning line is the only encoding step	1220
+H04N   1/42	・	双方向動作方式	Systems for two-way working	517
+H04N   1/44	・	秘密方式	Secrecy systems	6310
+H04N   1/46	・	カラー画像通信方式	Colour picture communication systems	25619
+H04N   1/48	・・	画像信号発生器（中間調スクリーン用Ｈ０４Ｎ１／５２）［６］	Picture signal generators(for halftone screening H04N1/52)	4297
+H04N   1/50	・・	画像再生器（中間調スクリーン用Ｈ０４Ｎ１／５２）［６］	Picture reproducers(for halftone screening H04N1/52)	1774
+H04N   1/52	・・	中間調スクリーン回路または装置［６］	Circuits or arrangements for halftone screening	2282
+H04N   1/54	・・	カラー画像信号を，特殊な混合色を表わす信号が含まれた複数信号に変換，例．繊維印刷用［６］	Conversion of colour picture signals to a plurality of signals some of which represent particular mixed colours, e.g. for textile printing	615
+H04N   1/56	・・	カラー画像信号の処理（Ｈ０４Ｎ１／５２が優先）［６］	Processing of colour picture signals(H04N1/52 takes precedence)	1293
+H04N   1/58	・・・	輪郭または細部の強調；雑音またはエラーの抑制，例．色ずれの補正（Ｈ０４Ｎ１／６２が優先）［６］	Edge or detail enhancement; Noise or error suppression, e.g. colour misregistration correction(H04N1/62 takes precedence)	1262
+H04N   1/60	・・・	色修正または制御［６］	Colour correction or control	27745
+H04N   1/62	・・・・	リタッチ，すなわち，孤立した色のみ，または孤立した色領域のみの補正［６］	Retouching, i.e. modification of isolated colours only or in isolated picture areas only	1041
+H04N   1/64	・・	カラー画像信号の伝送または蓄積方式；そのための細部，例．そのための符号化または復号化手段［６］	Systems for the transmission or the storage of the colour picture signal; Details therefor, e.g. coding or decoding means therefor	1704
+H04N   3/00		テレビジョン方式の走査の細部；それらと走査用電圧の発生手段との結合［４］	Scanning details of television systems; Combination thereof with generation of supply voltages	561
+H04N   3/02	・	光学的―機械的手段のみによるもの（Ｈ０４Ｎ３／３６が優先）［２］	by optical-mechanical means only(H04N3/36 takes precedence)	772
+H04N   3/04	・・	動く開口を有するもの	having a moving aperture	481
+H04N   3/06	・・	可動レンズまたは他の屈折体を含むもの	having a moving lens or other refractor	98
+H04N   3/08	・・	可動反射鏡を含むもの	having a moving reflector	1090
+H04N   3/09	・・・	不可視領域の電磁放射のためのもの，例．赤外線［４］	for electromagnetic radiation in the invisible region, e.g. infrared	427
+H04N   3/10	・	光学的−機械的のみでない手段によるもの（Ｈ０４Ｎ３／３６が優先）［２］	by means not exclusively optical-mechanical(H04N3/36 takes precedence)	472
+H04N   3/12	・・	ランプまたは光電セルの集合を切換えることによるもの，または静止した光のリレーによるもの	by switched stationary formation of lamps, photocells, or light relays	1112
+H04N   3/14	・・	電気的に走査される半導体装置の走査（画像信号の発生Ｈ０４Ｎ２５／００）［２００６．０１］	by means of electrically scanned solid-state devices(for picture generation H04N25/00)	4554
+H04N   3/16	・・	陰極線管の中の電子の束を偏倚することによるもの	by deflecting electron beam in cathode-ray tube	4901
+H04N   3/18	・・・	電子ビームの偏向に結合する供給電圧の発生［４］	Generation of supply voltages, in combination with electron beam deflecting	3819
+H04N   3/185	・・・・	直流電圧を一定に保持するもの［４］	Maintaining DC voltage constant	1553
+H04N   3/19	・・・・	供給回路における耐高電圧のための装置または組立体［３］	Arrangements or assemblies in supply circuits for the purpose of withstanding high voltages	1020
+H04N   3/20	・・・	走査が停止した場合の陰極線管の保護	Prevention of damage to cathode-ray tubes in event of failure of scanning	1287
+H04N   3/22	・・・	スクリーン上の像の大きさ，形状または中心を制御するための回路	Circuits for controlling dimensions, shape or centering of picture on screen	2092
+H04N   3/223	・・・・	大きさの制御（陰極線管の高電圧を一定に保持することによるものＨ０４Ｎ３／１８５）［４］	Controlling dimensions(by maintaining the cathode-ray tube high voltage constant H04N3/185)	966
+H04N   3/227	・・・・	センタリング［４］	Centering	576
+H04N   3/23	・・・・	ひずみ補正，例．糸巻ひずみの補正，Ｓ字ひずみの補正，のためのもの［４］	Distortion correction, e.g. for pincushion distortion correction, S-correction	2130
+H04N   3/233	・・・・・	能動素子を用いるもの［４］	using active elements	835
+H04N   3/237	・・・・・	受動素子を用いるもの［４］	using passive elements	561
+H04N   3/24	・・・	帰線消去回路	Blanking circuits	730
+H04N   3/26	・・・	集束を改善するための走査装置の変形	Modifications of scanning arrangements to improve focusing	1462
+H04N   3/27	・・・	マルチスタンダード受信機に対する特殊回路［３，４］	Circuits special to multi-standard receivers	1540
+H04N   3/28	・・	複数の走査の発生によるもの，すなわち，同時に２個以上のスポットを用いるもの	producing multiple scanning, i.e. using more than one spot at the same time	157
+H04N   3/30	・・	一定速度ではないもの，または単方向のまっすぐな線または本質的に垂直または水平の線によらないで像を形成するもの	otherwise than with constant velocity or otherwise than in pattern formed by unidirectional, straight, substantially horizontal or vertical lines	382
+H04N   3/32	・・・	像の情報に応じて変化する速度を有するもの	Velocity varied in dependence upon picture information	497
+H04N   3/34	・・・	主走査方向に直角な方向に急速に振動走査する区域を有するもの	Elemental scanning area oscillated rapidly in direction transverse to main scanning direction	321
+H04N   3/36	・	映画フィルムの走査，例．テレシネ［２］	Scanning of motion picture films, e.g. for telecine	729
+H04N   3/38	・・	連続的に走行するフィルムを有するもの［４］	with continuously moving film	364
+H04N   3/40	・・	間けつ的に走行するフィルムを有するもの［４］	with intermittently moving film	171
+H04N   5/00		テレビジョン方式の細部（走査の細部またはそれらと走査用電圧の発生手段との結合Ｈ０４Ｎ３／００）［４，２０１１．０１］	Details of television systems(scanning details or combination thereof with generation of supply voltages H04N3/00)	17858
+H04N   5/04	・	同期（パルス符号変調を用いるテレビジョン方式のためのものＨ０４Ｎ７／５６）［４］	Synchronising(for television systems using pulse code modulation H04N7/56)	6043
+H04N   5/05	・・	同期範囲を拡張するための装置を有する同期回路，例．複数の時定数を切換えるもの［２］	Synchronising circuits with arrangements for extending range of synchronisation, e.g. by using switching between several time constants	398
+H04N   5/06	・・	同期信号の発生	Generation of synchronising signals	3327
+H04N   5/067	・・・	送信機端における装置または回路［４］	Arrangements or circuits at the transmitter end	702
+H04N   5/073	・・・・	複数の同期信号源，例．スタジオまたは中継局，を相互にロックするためのもの［４］	for mutually locking plural sources of synchronising signals, e.g. studios or relay stations	1588
+H04N   5/08	・・	映像信号からの同期信号の分離	Separation of synchronising signals from picture signals	2366
+H04N   5/10	・・・	垂直同期信号と水平同期信号の分離	Separation of line synchronising signal from frame synchronising signal	1636
+H04N   5/12	・・	同期装置と同期される走査装置との間で位相差が生ずる場合にのみ同期を補正する信号を発生する装置，例．フライホイール同期［２］	Devices in which the synchronising signals are only operative if a phase difference occurs between synchronising and synchronised scanning devices, e.g. flywheel synchronising	2333
+H04N   5/14	・	映像周波数帯域用の映像信号回路  （電子イメージセンサを含むカメラまたはカメラモジュールおよびその制御Ｈ０４Ｎ２３／００）［２００６．０１］	Picture signal circuitry for video frequency region(cameras or camera modules comprising electronic image sensors, or control thereof H04N23/00)	13658
+H04N   5/16	・・	信号の直流および低周波成分の再生回路；黒または白レベル保持のための回路	Circuitry for reinsertion of DC and slowly varying components of signal; Circuitry for preservation of black or white level	2197
+H04N   5/18	・・・	スイッチング回路により作動されるクランプ回路によるもの	by means of "clamp" circuit operated by switching circuit	1982
+H04N   5/20	・・	振幅レスポンス制御用回路	Circuitry for controlling amplitude response	2835
+H04N   5/202	・・・	ガンマ補正（シーンの明るさとは関係なくカメラの応答を制御するためのものＨ０４Ｎ２３／８２）［２０２３．０１］	Gamma control (circuits for controlling camera response irrespective of the scene brightness H04N23/82)	2427
+H04N   5/205	・・・	振幅対周波数特性の補正のためのもの［４］	for correcting amplitude <u>versus</u> frequency characteristic	715
+H04N   5/208	・・・・	高周波成分の減衰を補償するためのもの，例．クリスプニング，開口ひずみ補正［４］	for compensating for attenuation of high frequency components, e.g. crispening, aperture distortion correction	4336
+H04N   5/21	・・	妨害，例．モアレまたはハロー	Circuitry for suppressing or minimising disturbance, e.g. moire or halo	10008
+H04N   5/213	・・・	インパルス性雑音を抑制または最小にする回路（画像信号生成の妨害を抑制または最小にするためのものＨ０４Ｎ２３／８１）［２００６．０１］	Circuitry for suppressing or minimising impulsive noise(for suppressing or minimising disturbance in image signal generation H04N23/81)	1222
+H04N   5/222	・	スタジオ回路；スタジオ装置；スタジオ機器（電子イメージセンサを含むカメラまたはカメラモジュールおよびその制御Ｈ０４Ｎ２３／００）［２００６．０１］	Studio circuitry; Studio devices; Studio equipment(cameras or camera modules comprising electronic image sensors, or control thereof H04N23/00)	16375
+H04N   5/253	・・	映画フィルムまたはスライドオペークの走査による映像信号の発生，例．テレシネのためのもの（その走査の細部Ｈ０４Ｎ３／３６）［４］	Picture signal generating by scanning motion picture films or slide opaques, e.g. for telecine(scanning details therefor H04N3/36)	2256
+H04N   5/257	・・	飛点走査器を用いる映像信号の発生（Ｈ０４Ｎ５／２５３が優先）［４］	Picture signal generators using flying-spot scanners(H04N5/253 takes precedence)	720
+H04N   5/262	・・	スタジオ回路，例．ミキシング，切換え，像の特質の変更，別の特殊効果のためのもの［４］	Studio circuits, e.g. for mixing, switching-over, change of character of image, other special effects	22548
+H04N   5/265	・・・	ミキシング［４］	Mixing	10801
+H04N   5/268	・・・	信号の分配または切換え［４］	Signal distribution or switching	8135
+H04N   5/272	・・・	背景の像の中に前景の像を挿入するための手段，すなわち．インレイ，アウトレイ［４］	Means for inserting a foreground image in a background image, i.e. inlay, outlay	4370
+H04N   5/275	・・・・	キーイング信号の発生［４］	Generation of keying signals	421
+H04N   5/278	・・・	字幕の挿入［４］	Subtitling	4093
+H04N   5/28	・・	移動スタジオ	Mobile studios	451
+H04N   5/30	・	光または類似信号から電気信号への変換（走査の細部Ｈ０４Ｎ３／００；電子イメージセンサを含むカメラまたはカメラモジュールおよびその制御Ｈ０４Ｎ２３／００；固体撮像素子［ＳＳＩＳ］の回路，またはその制御Ｈ０４Ｎ２５／００）［２００６．０１］	Transforming light or analogous information into electric information (scanning details H04N3/00;  cameras or camera modules comprising electronic image sensors, or control thereof H04N23/00;  circuitry of solid-state image sensors [SSIS] or control thereof H04N25/00)	4623
+H04N   5/32	・・	Ｘ線の変換（Ｘ線から画像信号を生成するためのカメラまたはカメラモジュールＨ０４Ｎ２３／３０；Ｘ線を画像信号に変換するためのＳＳＩＳの回路Ｈ０４Ｎ２５／３０）［２０２３．０１］	Transforming X-rays(cameras or camera modules for generating image signals from X-rays H04N23/30; circuitry of SSIS for transforming X-rays into image signals H04N25/30)	4378
+H04N   5/321	・・・	蛍光像の伝送を行うもの［５］	with video transmission of fluoroscopic images	538
+H04N   5/325	・・・・	画像強調，例．エネルギーの異なる複数のＸ線を用いて得た画像を減算処理することによるもの［５］	Image enhancement, e.g. by subtraction techniques using polyenergetic X-rays	910
+H04N   5/33	・・	赤外線の変換（赤外線から画像信号を生成するためのカメラまたはカメラモジュールＨ０４Ｎ２３／２０；赤外線を画像信号に変換するためのＳＳＩＳの回路Ｈ０４Ｎ２５／２０）［２０２３．０１］	Transforming infrared radiation(cameras or camera modules for generating image signals from infrared radiation H04N23/20; circuitry of SSIS for transforming infrared radiation into image signals H04N25/20)	11908
+H04N   5/38	・	送信機回路（Ｈ０４Ｎ５／１４が優先）［４］	Transmitter circuitry(H04N5/14 takes precedence)	3341
+H04N   5/40	・・	変調回路	Modulation circuits	1087
+H04N   5/42	・・	白黒またはカラー信号を任意に送信するためのもの	for transmitting at will black-and-white or colour signals	31
+H04N   5/44	・	受信機回路（Ｈ０４Ｎ５／１４が優先）［４，２０１１．０１］	Receiver circuitry(H04N5/14 takes precedence)	47298
+H04N   5/445	・・	付加的な情報を表示するためのもの（Ｈ０４Ｎ５／５０が優先）［４，２０１１．０１］	for displaying additional information(H04N5/50  takes precedence)	28554
+H04N   5/45	・・・	映像の中に他の映像があるもの［４，２０１１．０１］	Picture in picture	6470
+H04N   5/455	・・	復調回路［４］	Demodulation-circuits	2242
+H04N   5/46	・・	２以上の標準方式の信号を任意に受信するためのもの（マルチスタンダード受信機の偏向回路Ｈ０４Ｎ３／２７）［４］	for receiving on more than one standard at will(deflecting circuits of multi-standard receivers H04N3/27)	5266
+H04N   5/50	・・	同調指示器；自動同調制御［４］	Tuning indicators; Automatic tuning control	7705
+H04N   5/52	・・	自動利得制御［４］	Automatic gain control	2081
+H04N   5/53	・・・	キード自動利得制御［４］	Keyed automatic gain control	631
+H04N   5/54	・・・	正変調映像信号のためのもの（Ｈ０４Ｎ５／５３が優先）［４］	for positively-modulated picture signals(H04N5/53 takes precedence)	38
+H04N   5/56	・・・	負変調映像信号のためのもの（Ｈ０４Ｎ５／５３が優先）［４］	for negatively-modulated picture signals(H04N5/53 takes precedence)	22
+H04N   5/57	・・	コントラストまたは輝度の調整［４］	Control of contrast or brightness	4396
+H04N   5/58	・・・	周囲の明るさに依存するもの［４］	in dependence upon ambient light	1040
+H04N   5/59	・・・	陰極線管のビーム電流に依存するもの［４］	in dependence upon beam current of cathode ray tube	571
+H04N   5/60	・・	音声信号用	for the sound signals	8938
+H04N   5/62	・・・	インターキャリヤ回路，すなわち音声と映像の搬送波をヘテロダインするもの	Intercarrier circuits, i.e. heterodyning sound and vision carriers	574
+H04N   5/63	・	テレビジョン受像機に特に適合する電力の発生または供給［４］	Generation or supply of power specially adapted for television receivers	7347
+H04N   5/64	・	受信機の構造の細部，例．キャビネットまたはダストカバー（家具としての特徴を有するものＡ４７Ｂ８１／０６）［２］	Constructional details of receivers, e.g. cabinets or dust covers(furniture aspects A47B81/06)	36944
+H04N   5/645	・・	シャシまたはハウジングへの受像管の実装	Mounting of picture tube on chassis or in housing	2339
+H04N   5/65	・・	保護板または前面マスク用保持装置	Holding-devices for protective discs or for picture masks	1737
+H04N   5/655	・・	シャシの構造または取付けたとえば受像管の高さを変えるためのもの	Construction or mounting of chassis, e.g. for varying the elevation of the tube	4120
+H04N   5/66	・	電気信号の光信号への変換（走査の細部Ｈ０４Ｎ３／００）	Transforming electric information into light information(scanning details H04N3/00)	17964
+H04N   5/68	・・	陰極線表示管用回路	Circuit details for cathode-ray display tubes	2539
+H04N   5/70	・・	エレクトロルミネッセント装置用回路	Circuit details for electroluminescent devices	938
+H04N   5/72	・	光学フィルタまたは拡散スクリーンによるテレビジョン画像の修正	Modifying the appearance of television pictures by optical filters or diffusing screens	1410
+H04N   5/74	・	映像再生のための投写装置，例．アイドホールを用いるもの	Projection arrangements for image reproduction, e.g. using eidophor	30251
+H04N   5/76	・	テレビジョン信号の記録［３，４］	Television signal recording	47596
+H04N   5/761	・・	録画のための時間をプログラムするシステム，すなわち，その時間になると事前に決めておいたテレビ・チャンネルが録画のために選ばれるもの［７］	Systems for programming the time at which predetermined television channels will be selected for recording	653
+H04N   5/7613	・・・	ユーザーが入力したデータおよびレコーダーに組み込まれたレファレンス・タイミング・クロック（時計）を用いるもの［７］	by using data entered by the user and a reference timing clock incorporated in the recorder	38
+H04N   5/7617	・・・	ユーザーが入力したデータおよび放送局が送信したレファレンス・データを用いるもの［７］	by using data entered by the user and reference data transmitted by the broadcasting station	102
+H04N   5/765	・・	記録装置と他の装置の間のインタフェース回路［６］	Interface circuits between an apparatus for recording and another apparatus	29069
+H04N   5/77	・・・	記録装置とテレビカメラとの間のもの［６］	between a recording apparatus and a television camera	8175
+H04N   5/775	・・・	記録装置とテレビ受信機との間のもの［６］	between a recording apparatus and a television receiver	3839
+H04N   5/78	・・	磁気記録を用いるもの（Ｈ０４Ｎ５／９１が優先）［３］	using magnetic recording(H04N5/91 takes precedence)	5260
+H04N   5/781	・・・	ディスクまたはドラムに記録するもの［３］	on disks or drums	10571
+H04N   5/782	・・・	テープに記録するもの［３］	on tape	6360
+H04N   5/7822	・・・・	静止磁気ヘッドをもつもの［６］	with stationary magnetic heads	21
+H04N   5/7824	・・・・	回転磁気ヘッドをもつもの［６］	with rotating magnetic heads	20
+H04N   5/7826	・・・・・	磁気テープのヘリカル走査を伴うもの［６］	involving helical scanning of the magnetic tape	7508
+H04N   5/7828	・・・・・	磁気テープの横断走査を伴うもの［６］	involving transversal scanning of the magnetic tape	11
+H04N   5/783	・・・・	記録速度と異なった速度で再生するために適したもの［３］	Adaptations for reproducing at a rate different from the recording rate	5109
+H04N   5/784	・・・	シート上に記録するもの［６］	on a sheet	6
+H04N   5/80	・・	静電記録を用いるもの（Ｈ０４Ｎ５／９１が優先）［３］	using electrostatic recording(H04N5/91 takes precedence)	179
+H04N   5/82	・・・	変形可能な熱可塑性記録媒体を用いるもの	using deformable thermoplastic recording medium	253
+H04N   5/83	・・・・	ディスクまたはドラムに記録するもの［３］	on disks or drums	42
+H04N   5/84	・・	光学的記録を用いるもの（Ｈ０４Ｎ５／８０，Ｈ０４Ｎ５／８９，Ｈ０４Ｎ５／９１が優先）［３，４］	using optical recording(H04N5/80, H04N5/89, H04N5/91 take precedence)	2247
+H04N   5/85	・・・	ディスクまたはドラムに記録するもの［３］	on discs or drums	8857
+H04N   5/87	・・・	テレビジョン信号から映画フィルムの作製［３，４］	Producing a motion picture film from a television signal	146
+H04N   5/89	・・	ホログラフィ記録を用いるもの（Ｈ０４Ｎ５／９１が優先）［３］	using holographic recording(H04N5/91 take precedence)	391
+H04N   5/90	・・・	ディスクまたはドラムに記録するもの［３］	on discs or drums	30
+H04N   5/903	・・	可変電気容量記憶を用いるもの（Ｈ０４Ｎ５／９１が優先）［４］	using variable electrical capacitive recording(H04N5/91 takes precedence)	214
+H04N   5/907	・・	静的記憶手段，例．蓄積管，半導体メモリ，を用いるもの（Ｈ０４Ｎ５／９１が優先）［４］	using static stores, e.g. storage tubes or semiconductor memories(H04N5/91 takes precedence)	8931
+H04N   5/91	・・	以上のためのテレビジョン信号処理［３］	Television signal processing therefor	41692
+H04N   5/911	・・・	雑音抑制のためのもの［６］	for the suppression of noise	352
+H04N   5/913	・・・	スクランブルのためのもの［６］	for scrambling	2586
+H04N   5/915	・・・	フィールドスキップまたはフレームスキップの記録用または再生用［６］	for field- or frame-skip recording or reproducing	2360
+H04N   5/917	・・・	帯域圧縮用［６］	for bandwidth reduction	814
+H04N   5/919	・・・・	複数の記録チャンネル中のサンプリング点または信号のセグメント，例．走査線，を分割することによるもの［６］	by dividing samples or signal segments, e.g. television lines, among a plurality of recording channels	184
+H04N   5/92	・・・	記録のためのテレビジョン信号の変換，例．変調，周波数変換；再生のための逆変換［３］	Transformation of the television signal for recording, e.g. modulation, frequency changing; Inverse transformation for playback	22675
+H04N   5/921	・・・・	ベースバンド信号の記録または再生によるもの［６］	by recording or reproducing the baseband signal	100
+H04N   5/922	・・・・	搬送波上の信号の変調によるもの，例．振幅または周波数変調［６］	by modulation of the signal on a carrier wave, e.g. amplitude or frequency modulation	1192
+H04N   5/923	・・・・	変調前の信号のプリエンファシスおよび変調後の信号のディエンファシスを用いるもの［６］	using preemphasis of the signal before modulation and deemphasis of the signal after demodulation	138
+H04N   5/924	・・・・	パルス幅変調を用いるもの［６］	using duty cycle modulation	3
+H04N   5/926	・・・・	パルス符号変調によるもの（Ｈ０４Ｎ５／９１９が優先）［６］	by pulse code modulation(H04N5/919 takes precedence)	1686
+H04N   5/928	・・・・	音声信号が，パルス符号変調されて，被変調映像信号と時分割多重記録されるもの［６］	the sound signal being pulse code modulated and recorded in time division multiplex with the modulated video signal	1216
+H04N   5/93	・・・	テレビ信号またはその選択された部分の再生［３］	Regeneration of the television signal or of selected parts thereof	20965
+H04N   5/931	・・・・	再生信号のレベルを回復するためのもの［６］	for restoring the level of the reproduced signal	283
+H04N   5/932	・・・・	アナログ同期信号の再発生［６］	Regeneration of analogue synchronisation signals	475
+H04N   5/935	・・・・	デジタル同期信号の再発生［６］	Regeneration of digital synchronisation signals	306
+H04N   5/937	・・・・	中間記憶媒体に画素ブロックを集めることによるもの［６］	by assembling picture element blocks in an intermediate store	2659
+H04N   5/94	・・・・	ドロップアウトの補償［３］	Signal drop-out compensation	1419
+H04N   5/945	・・・・・	パルス符号変調により記録された信号用［６］	for signals recorded by pulse code modulation	238
+H04N   5/95	・・・・	時間軸誤差の補償［３］	Time-base error compensation	1589
+H04N   5/953	・・・・・	アナログメモリを用いるもの，例．電圧制御発振器によって遅延量が制御されるＣＣＤシフトレジスタ［６］	by using an analogue memory, e.g. a CCD-shift register, the delay of which is controlled by a voltage controlled oscillator	344
+H04N   5/956	・・・・・	独立した書き込みおよび読み取りクロック発生器をもつデジタルメモリを用いるもの［６］	by using a digital memory with independent write-in and read-out clock generators	716
+H04N   7/00		テレビジョン方式（細部Ｈ０４Ｎ３／００，Ｈ０４Ｎ５／００；デジタルビデオ信号を符号化，復号化，圧縮または伸張するための方法または装置Ｈ０４Ｎ１９／００；選択的なコンテンツ配信Ｈ０４Ｎ２１／００）［４，２０１１．０１］	Television systems(details H04N3/00, H04N5/00; methods or arrangements, for coding, decoding, compressing or decompressing digital video signals H04N19/00; selective content distribution H04N21/00)	9746
+H04N   7/01	・	標準方式の変換［４］	Conversion of standards	15475
+H04N   7/015	・	高精細度テレビジョン方式［６］	High-definition television systems	7340
+H04N   7/025	・	デジタル非画像データ，例．テレビジョンの有効画面中のテキスト，の伝送方式［６］	Systems for transmission of digital non-picture data, e.g. of text during the active part of a television frame	7759
+H04N   7/03	・・	そのための書き込み方式［６］	Subscription systems therefor	5095
+H04N   7/035	・・	デジタル非画像データ信号用の回路，例．データ信号のスライス回路，データクロック信号の再生回路，データ信号の誤り検出または誤り検出回路［６］	Circuits for the digital non-picture data signal, e.g. for slicing of the data signal, for regeneration of the data-clock signal, for error detection or correction of the data signal	5435
+H04N   7/04	・	１つのテレビジョン信号，すなわち，画像および音声の両方を１つの搬送波により伝送する方式［４］	Systems for the transmission of one television signal, i.e. both picture and sound, by a single carrier	861
+H04N   7/045	・・	搬送波を周波数変調するもの［６］	the carrier being frequency modulated	311
+H04N   7/06	・	１つのテレビジョン信号，すなわち，画像および音声の両方を２つ以上の搬送波により同時に伝送する方式［４］	Systems for the simultaneous transmission of one television signal, i.e. both picture and sound, by more than one carrier	719
+H04N   7/08	・	同じ周波数帯域の全部または一部をしめる２つ以上のテレビジョン信号，例．付加情報信号，を同時，または順次に伝送する方式，［４，６］	Systems for the simultaneous or sequential transmission of more than one television signal, e.g. additional information signals, the signals occupying wholly or partially the same frequency band	14713
+H04N   7/081	・・	付加情報信号を副搬送波により伝送するもの［６］	the additional information signals being transmitted by means of a subcarrier	8016
+H04N   7/083	・・	垂直および水平帰線期間に信号が挿入されているもの［６］	with signal insertion during the vertical and the horizontal blanking interval	1047
+H04N   7/084	・・	水平帰線期間に信号が挿入されているもの［６］	with signal insertion during the horizontal blanking interval	319
+H04N   7/085	・・・	挿入信号がデジタルであるもの［６］	the inserted signal being digital	251
+H04N   7/087	・・	垂直帰線期間に信号が挿入されているもの［４］	with signal insertion during the vertical blanking interval	1228
+H04N   7/088	・・・	挿入信号がデジタルであるもの［６］	the inserted signal being digital	2962
+H04N   7/10	・	有線テレビジョン方式（Ｈ０４Ｎ７／１２が優先）［４］	Adaptations for transmission by electrical cable(H04N7/12 takes precedence)	11111
+H04N   7/12	・	１チャンネルまたは複数の並列チャンネルを通してテレビジョン信号が伝送され，各チャンネルの帯域幅がテレビジョン信号の帯域幅より狭くなっている方式（Ｈ０４Ｎ７／２４が優先）［４］	Systems in which the television signal is transmitted <u>via</u> one channel or a plurality of parallel channels, the bandwidth of each channel being less than the bandwidth of the television signal(H04N7/24 takes precedence)	11110
+H04N   7/14	・	双方向動作方式（Ｈ０４Ｎ７／１７３が優先）［４］	Systems for two-way working(H04N7/173 takes precedence)	25941
+H04N   7/15	・・	会議方式［５］	Conference systems	22977
+H04N   7/16	・	アナログ秘密テレビジョン方式；アナログ加入テレビジョン方式［１，２０１１．０１］	Analogue secrecy systems; Analogue subscription systems	20880
+H04N   7/167	・・	テレビジョン信号の暗号化およびその解読［４，２０１１．０１］	Systems rendering the television signal unintelligible and subsequently intelligible	7552
+H04N   7/169	・・・	テレビジョン信号の時間領域を操作する方式［６，２０１１．０１］	Systems operating in the time domain of the television signal	550
+H04N   7/171	・・・	テレビジョン信号の振幅領域を操作する方式［６，２０１１．０１］	Systems operating in the amplitude domain of the television signal	634
+H04N   7/173	・・	双方向動作を伴うもの，例．加入者がプログラム選択信号を送るもの［４，２０１１．０１］	with two-way working, e.g. subscriber sending a programme selection signal	50069
+H04N   7/18	・	閉回路テレビジョン［ＣＣＴＶ］方式，すなわちビデオ信号が放送されない方式［２００６．０１］	Closed-circuit television [CCTV] systems, i.e. systems in which the video signal is not broadcast	196611
+H04N   7/20	・	ギガヘルツ周波数帯域で伝送する方式，例．衛星を介するもの［４］	Adaptations for transmission via a GHz frequency band, e.g. via satellite	5933
+H04N   7/22	・	光伝送方式［４］	Adaptations for optical transmission	3707
+H04N   7/24	・	パルス符号変調を用いるテレビジョン信号の伝送方式（Ｈ０４Ｎ２１／００が優先）［６，２０１１．０１］	Systems for the transmission of television signals using pulse code modulation(H04N21/00 takes precedence)	17504
+H04N   7/52	・・	他のパルス符号変調信号，例．音響信号または同期信号，を多重するパルス符号変調映像信号の伝送方式（サーバにおける，ビデオストリームと他のコンテンツまたは付加データの組合せによる多重ストリームの組立て，スタッフィング・ビットの多重ストリームへの挿入，ＰＥＳの組立てＨ０４Ｎ２１／２３６；クライアントにおける，多重ストリームの解体，多重ストリームの再多重化，ＳＩの抽出または処理，ＰＥＳの解体Ｈ０４Ｎ２１／４３４）［６，２０１１．０１］	Systems for transmission of a pulse code modulated with one or more other pulse code modulated signals, e.g. an audio signal or a synchronizing signal(assembling of a multiplex stream by combining a video stream with other content or additional data, remultiplexing of multiplex streams, insertion of stuffing bits into the multiplex stream, assembling of a packetised elementary stream at server side H04N21/236; disassembling of a multiplex stream, remultiplexing of multiplex streams, extraction or processing of Service Information, disassembling of packetised elementary stream at client side H04N21/434)	2580
+H04N   7/54	・・・	他のパルス符号変調信号が同期しているもの［６］	the signals being synchronous	362
+H04N   7/56	・・・・	そのための同期方式［６］	Synchronising systems therefor	364
+H04N   9/00		カラーテレビジョン方式の細部［４］	Details of colour television systems	2936
+H04N   9/01	・	位相変調された色信号を、カラーストライプフィルタを用いて復調するための回路［２０２３．０１］	Circuitry for demodulating colour component signals modulated spatially by colour striped filters by phase separation	201
+H04N   9/03	・	周波数変調された色信号を、カラーストライプフィルタを用いて復調するための回路［２０２３．０１］	Circuitry for demodulating colour component signals modulated spatially by colour striped filters by frequency separation	575
+H04N   9/11	・	カラー映画フィルムの走査，例．テレシネのためのもの［２，４］	Scanning of colour motion picture films, e.g. for telecine	994
+H04N   9/12	・	映像再生装置（Ｈ０４Ｎ９／１１が優先）［２，４］	Picture reproducers(H04N9/11 takes precedence)	2522
+H04N   9/14	・・	光学―機械的走査手段のみを用いるもの［２，４］	using optical-mechanical scanning means only	108
+H04N   9/16	・・	陰極線管を用いるもの（Ｈ０４Ｎ９／１１が優先）［２，４］	using cathode ray tubes(H04N9/11 takes precedence)	632
+H04N   9/18	・・・	各原色信号に対し別々の電子ビームを用いるもの（Ｈ０４Ｎ９／２７が優先）［２，４］	using separate electron beams for the primary colour signals(H04N9/27 takes precedence)	326
+H04N   9/20	・・・・	１つの受像管中に２つ以上のビームを持つもの［４］	with more than one beam in a tube	252
+H04N   9/22	・・・	２つ以上の原色信号に対し同一ビームを用いるもの（Ｈ０４Ｎ９／２７が優先）［２，４］	using the same beam for more than one primary colour information(H04N9/27 takes precedence)	275
+H04N   9/24	・・・・	電子ビーム瞬時位置を指示するための信号を発生するための管の手段を用いるもの［４］	using means, integral with, or external to, the tube, for producing signal indicating instantaneous beam position	1158
+H04N   9/26	・・・・	電子光学的色選択手段を用いるもの，例．ライングリッド，電子銃の内部または近傍，または蛍光スクリーンの近傍の色選択のための偏向手段［４］	using electron-optical colour selection means, e.g. line grid, deflection means in or near the gun or near the phosphor screen	285
+H04N   9/27	・・・	発光層への電子ビームの透過の深さが可変であるもの，例．ペネドロン［２，４］	with variable depth of penetration of electron beam into the luminescent layer, e.g. penetrons	130
+H04N   9/28	・・・	集束または集中のための装置［４］	Arrangements for convergence or focusing	4346
+H04N   9/285	・・・・	４極レンズを用いるもの［４］	using quadrupole lenses	76
+H04N   9/29	・・・	消磁または外部磁界の補正装置［２，４］	using demagnetisation or compensation of external magnetic fields	2164
+H04N   9/30	・・	固体色彩表示装置を用いるもの［４］	using solid-state colour display devices	1605
+H04N   9/31	・・	カラー映像表示のための投射装置［２，４］	Projection devices for colour picture display	24961
+H04N   9/43	・	カラー画像表示を行うための単色映像信号からカラー映像信号への変換［４］	Conversion of monochrome picture signals to colour picture signals for colour picture display	443
+H04N   9/44	・	色同期［４］	Colour synchronisation	1177
+H04N   9/45	・・	カラー副搬送波の発生または再生［４］	Generation or recovery of colour sub-carriers	1508
+H04N   9/455	・・	カラーバースト信号の発生；カラー映像信号内へのカラーバースト信号の挿入またはカラー映像信号からのカラーバースト信号の分離（Ｈ０４Ｎ９／４５が優先）［４］	Generation of colour burst signals; Insertion of colour burst signals in colour picture signals or separation of colour burst signals from colour picture signals(H04N9/45 takes precedence)	1046
+H04N   9/465	・・	ＰＡＬ―スイッチの同期［４］	Synchronisation of the PAL-switch	346
+H04N   9/47	・・	順次式信号のためのもの［２，４］	for sequential signals	2024
+H04N   9/475	・・	異なる同期信号を相互にロックするためのもの［４］	for mutually locking different synchronisation sources	576
+H04N   9/64	・	色信号を処理するための回路（Ｈ０４Ｎ９／７７が優先；色信号を処理するためのパイプライン処理するカメラＨ０４Ｎ２３／８４）［２０２３．０１］	Circuits for processing colour signals(H04N9/77 takes precedence; camera processing pipelines for processing colour signals H04N23/84)	15061
+H04N   9/65	・・	同期変調器のためのもの［４］	for synchronous modulators	396
+H04N   9/66	・・	同期復調器のためのもの［４］	for synchronous demodulators	943
+H04N   9/67	・・	マトリックスのためのもの（色信号をマトリックス化するためのパイプライン処理するカメラＨ０４Ｎ２３／８５）［２０２３．０１］	for matrixing(camera processing pipelines for matrixing of colour signals H04N23/85)	1652
+H04N   9/68	・・	色信号の振幅を制御するためのもの，例．自動色飽和度制御回路（Ｈ０４Ｎ９／７１，Ｈ０４Ｎ９／７３が優先；色信号の飽和度を制御するためのパイプライン処理するカメラＨ０４Ｎ２３／８６）［２０２３．０１］	for controlling the amplitude of colour signals, e.g. automatic chroma control circuits (H04N9/71, H04N9/73 take precedence;  camera processing pipelines for controlling the colour saturation of colour signals H04N23/86)	3802
+H04N   9/69	・・・	ガンマ補正により色信号を修正するためのもの（色信号を用いたカメラ応答の制御Ｈ０４Ｎ２３／８３）	for modifying the colour signals by gamma correction(controlling camera response for colour signals H04N23/83)	1334
+H04N   9/70	・・	色消去のためのもの［４］	for colour killing	569
+H04N   9/71	・・・	色利得制御と結合されているもの［４］	combined with colour gain control	231
+H04N   9/72	・・	色信号の直流分および低周波分の再挿入のためのもの（色信号の直流分および低周波分の再挿入のためのパイプライン処理するカメラＨ０４Ｎ２３／８７）［２０２３．０１］	for reinsertion of DC and slowly varying components of colour signals(camera processing pipelines for reinsertion of DC or slowly varying components of colour signals H04N23/87)	529
+H04N   9/73	・・	色バランス回路，例．白バランス回路または色温度制御（色バランスに関するパイプライン処理するカメラＨ０４Ｎ２３／８８）［２０２３．０１］	Colour balance circuits, e.g. white balance circuits or colour temperature control(camera processing pipelines for colour balance H04N23/88)	7506
+H04N   9/74	・・	特殊効果を得るためのもの（Ｈ０４Ｎ９／６５〜Ｈ０４Ｎ９／７３が優先）［４］	for obtaining special effects(H04N9/65 to H04N9/73  take precedence)	2937
+H04N   9/75	・・・	クロマキー［４］	Chroma key	1024
+H04N   9/76	・・・	色信号の混合のためのもの（Ｈ０４Ｎ９／７５が優先）［４］	for mixing of colour signals(H04N9/75 takes precedence)	425
+H04N   9/77	・	輝度信号と色度信号とを関連して処理するための回路，例．輝度信号と色信号との位相合わせ，微分利得の補正または微分位相の補正（マトリックス化のための回路Ｈ０４Ｎ９／６７）［４］	Circuits for processing the brightness signal and the chrominance signal relative to each other, e.g. adjusting the phase of the brightness signal relative to the colour signal, correcting differential gain or differential phase(circuits for matrixing H04N9/67)	3252
+H04N   9/78	・・	カラーテレビジョン信号から輝度信号または色度もしくは搬送色信号を分離するためのもの，例．櫛形フイルタを用いるもの［４］	for separating the brightness signal or the chrominance signal from the colour television signal, e.g. using comb filter	3004
+H04N   9/79	・	記録に関連するカラーテレビジョン信号の処理［４］	Processing of colour television signals in connection with recording	6501
+H04N   9/793	・・	色度信号のレベルを制御するためのもの，例．自動クロマレベル制御回路を使うもの［６］	for controlling the level of the chrominance signal, e.g. by means of automatic chroma control circuits	904
+H04N   9/797	・・	各チャンネルの帯域幅が信号の帯域幅より狭い，複数のチャンネルに信号を記録するためのもの（Ｈ０４Ｎ９／８０４，Ｈ０４Ｎ９／８１，Ｈ０４Ｎ９／８２が優先）［６］	for recording the signal in a plurality of channels, the bandwidth of each channel being less than the bandwidth of the signal(H04N9/804, H04N9/81, H04N9/82 take precedence)	573
+H04N   9/80	・・	記録のためのテレビジョン信号の変換，例．変調，周波数変換；再生のための逆変換［４］	Transformation of the television signal for recording, e.g. modulation, frequency changing; Inverse transformation for playback	4155
+H04N   9/802	・・・	音声信号の処理を伴うもの（Ｈ０４Ｎ９／８０６，Ｈ０４Ｎ９／８３５が優先）［６］	involving processing of the sound signal(H04N9/806, H04N9/835 take precedence)	924
+H04N   9/804	・・・	複数の色信号成分のパルス符号変調を伴うもの［６］	involving pulse code modulation of the colour picture signal components	5487
+H04N   9/806	・・・・	音声信号の処理を伴うもの［６］	with processing of the sound signal	1053
+H04N   9/808	・・・	複合カラー映像信号のパルス符号変調を伴うもの［６］	involving pulse code modulation of the composite colour video-signal	976
+H04N   9/81	・・・	各カラー映像信号成分を順次に記録するもの［４］	the individual colour picture signal components being recorded sequentially only	819
+H04N   9/815	・・・・	輝度信号および順次式色成分信号が別個のチャンネルに記録されるもの［６］	the luminance signal and the sequential colour component signals being recorded in separate recording channels	202
+H04N   9/82	・・・	各カラー映像信号成分を同時に記録するもの［４］	the individual colour picture signal components being recorded simultaneously only	3571
+H04N   9/825	・・・・	輝度および色度信号が別個のチャンネルに記録されるもの［６］	the luminance and chrominance signals being recorded in separate channels	126
+H04N   9/83	・・・・	記録された色彩信号が記録された輝度信号の周波数帯域より低い周波数帯域を占有するもの［４］	the recorded chrominance signal occupying a frequency band under the frequency band of the recorded brightness signal	2233
+H04N   9/835	・・・・・	音声信号の処理を伴うもの［６］	involving processing of the sound signal	193
+H04N   9/84	・・・・・	記録された信号が近接したトラックの各部分で異なる特徴，例．異なる位相または周波数，を有するもの［４］	the recorded signal showing a feature, which is different in adjacent track parts, e.g. different phase or frequency	751
+H04N   9/85	・・・・	記録された輝度信号が記録された色彩信号の周波数帯域に全体的に重なり合った周波数帯域を占有するもの，例．周波数インタリーブ［４］	the recorded brightness signal occupying a frequency band totally overlapping the frequency band of the recorded chrominance signal, e.g. frequency interleaving	487
+H04N   9/86	・・・	各カラー映像信号成分を順次および同時に記録するもの，例．ＳＥＣＡＭ方式に相当するもの［４］	the individual colour picture signal components being recorded sequentially and simultaneously, e.g. corresponding to SECAM-system	912
+H04N   9/87	・・	カラーテレビジョン信号の再生（Ｈ０４Ｎ９／８０が優先）［４］	Regeneration of colour television signals(H04N9/80 takes precedence)	2420
+H04N   9/873	・・・	再生時に色成分信号の連続性を回復するもの［６］	for restoring the colour component sequence of the reproduced signal	76
+H04N   9/877	・・・	中間メモリを用いて画素ブロックを集めることによるもの［６］	by assembling picture element blocks in an intermediate memory	326
+H04N   9/88	・・・	信号ドロップアウトの補償［４］	Signal drop-out compensation	512
+H04N   9/882	・・・・	信号が複合カラー映像信号であるもの［６］	the signal being a composite colour television signal	67
+H04N   9/885	・・・・・	デジタル中間メモリを用いるもの［６］	using a digital intermediate memory	46
+H04N   9/888	・・・・	パルス符号変調により記録された信号に用いるもの［６］	for signals recorded by pulse code modulation	186
+H04N   9/89	・・・	時間軸誤差の補償［４］	Time-base error compensation	1048
+H04N   9/893	・・・・	アナログメモリを用いるもの，例．電圧制御発振器によって遅延量が制御されるＣＣＤシフトレジスタ［６］	using an analogue memory, e.g. a CCD-shift register, the delay of which is controlled by a voltage controlled oscillator	70
+H04N   9/896	・・・・	独立した書込みおよび読み出しクロック発生器を持つデジタルメモリを用いるもの［６］	using a digital memory with independent write-in and read-out clock generators	572
+H04N   9/898	・・・	再生カラー信号と他の再生補助信号との周波数多重を用いるもの，例．パイロット信号搬送波［６］	using frequency multiplication of the reproduced colour signal with another auxiliary reproduced signal, e.g. a pilot signal carrier	146
+H04N  11/00		カラーテレビジョン方式（細部Ｈ０４Ｎ９／００）［４］	Colour television systems(details H04N9/00)	2035
+H04N  11/02	・	帯域幅を減少させるもの（Ｈ０４Ｎ１１／０４が優先）［４］	with bandwidth reduction(H04N11/04 takes precedence)	5263
+H04N  11/04	・	パルス符号変調を用いるもの［４］	using pulse code modulation	7457
+H04N  11/06	・	カラー映像信号成分の結合の仕方によって特徴づけられる伝送方式［４］	Transmission systems characterised by the manner in which the individual colour picture signal components are combined	452
+H04N  11/08	・・	順次式信号のみを用いるもの（点順次方式Ｈ０４Ｎ１１／１２）［４］	using sequential signals only(dot sequential systems H04N11/12)	566
+H04N  11/10	・・・	色信号が輝度信号の帰線期間に挿入されているもの［４］	in which colour signals are inserted in the blanking interval of brightness signal	109
+H04N  11/12	・・	同時式信号のみを用いるもの［４］	using simultaneous signals only	274
+H04N  11/14	・・・	第１の信号が位相および振幅変調されて色度情報を伝達し，第２の信号が輝度情報を伝達するもの，例．ＮＴＳＣ方式［４］	in which one signal, modulated in phase and amplitude, conveys colour information and a second signal conveys brightness information, e.g. NTSC-system	624
+H04N  11/16	・・・・	搬送色信号の位相が交互に変わるもの，例．ＰＡＬ方式［４］	the chrominance signal alternating in phase, e.g. PAL-system	514
+H04N  11/18	・・	順次式および同時式信号を用いるもの，例，ＳＥＣＡＭ方式［４］	using simultaneous and sequential signals, e.g. SECAM-system	502
+H04N  11/20	・・	各カラー映像信号成分の結合の仕方を変換するもの，例．カラーテレビジョン標準方式の変換［４］	Conversion of the manner in which the individual colour picture signal components are combined, e.g. conversion of colour television standards	2309
+H04N  11/22	・・・	同時式信号が順時式信号にまたはその逆に変換されるもの［４］	in which simultaneous signals are converted into sequential signals or <u>vice versa</u>	390
+H04N  11/24	・	高精細度テレビジョン方式［６］	High-definition television systems	1814
+H04N  13/00		立体視ビデオシステム；マルチビュービデオシステム；その細部［２０１８．０１］<br><b><ul>注</ul></b><br>このグループは３次元［３Ｄ］効果を提供するシステム，または，異なる視点から取得され得る画像を表す電子信号もしくはデプス情報を含む信号により１以上の視聴者に異なるビューを提供するシステムを包含する。	Stereoscopic video systems; Multi-view video systems; Details thereof; <br><br><b><u>Note(s)</u></b><br><br>This group <u>covers</u> systems providing a three-dimensional [3D] effect, or different views to one or more viewers by means of electronic signals representing images, which could be taken from different viewpoints, or by means of signals including depth information.	20317
+H04N  13/10	・	立体視またはマルチビュー画像信号の処理，記録または伝送［２０１８．０１］	Processing, recording or transmission of stereoscopic or multi-view image signals	447
+H04N  13/106	・・	画像信号の処理（マルチビュービデオシーケンス符号化Ｈ０４Ｎ１９／５９７）［２０１８．０１］	Processing image signals (for multi-view video sequence encoding H04N19/597)	1437
+H04N  13/111	・・・	仮想視点に対応する画像信号の変換，例．画像の空間的補間［２０１８．０１］	Transformation of image signals corresponding to virtual viewpoints, e.g. spatial image interpolation	934
+H04N  13/117	・・・・	仮想視点が視聴者により選択されるまたは視聴者トラッキングにより決定されるもの［２０１８．０１］	the virtual viewpoint locations being selected by the viewers or determined by viewer tracking	1049
+H04N  13/122	・・・	画像信号コンテンツの修正による立体視画像の３Ｄ効果の改善，例．フィルタリングまたは単視点デプスキューを付加するもの（Ｈ０４Ｎ１３／１２８が優先）［２０１８．０１］	Improving the 3D impression of stereoscopic images by modifying image signal contents, e.g. by filtering or adding monoscopic depth cues (H04N13/128 takes precedence)	1753
+H04N  13/125	・・・・	クロストーク低減のためのもの［２０１８．０１］	for crosstalk reduction	164
+H04N  13/128	・・・	デプスまたは視差を調整するもの［２０１８．０１］	Adjusting depth or disparity	1796
+H04N  13/133	・・・	異なる画像成分の特徴，例．それらの平均輝度または色バランス，を均一化するもの［２０１８．０１］	Equalising the characteristics of different image components, e.g. their average brightness or colour balance	217
+H04N  13/139	・・・	フォーマット変換，例．フレームレートまたはサイズの変換［２０１８．０１］	Format conversion, e.g. of frame-rate or size	532
+H04N  13/144	・・・	フリッカ低減のためのもの［２０１８．０１］	for flicker reduction	139
+H04N  13/15	・・・	画像信号の色彩的観点のためのもの［２０１８．０１］	for colour aspects of image signals	449
+H04N  13/156	・・・	画像信号を混合するもの［２０１８．０１］	Mixing image signals	943
+H04N  13/161	・・・	異なる画像信号成分の符号化，多重化または多重分離（マルチビュービデオシーケンス符号化Ｈ０４Ｎ１９／５９７）［２０１８．０１］	Encoding, multiplexing or demultiplexing different image signal components(for multi-view video sequence encoding H04N19/597)	1506
+H04N  13/167	・・・	画像信号の同期または制御［２０１８．０１］	Synchronising or controlling image signals	444
+H04N  13/172	・・・	画像信号が非画像信号成分，例．ヘッダーまたはフォーマット情報，からなるもの［２０１８．０１］	image signals comprising non-image signal components, e.g. headers or format information	199
+H04N  13/178	・・・・	メタデータ，例．視差情報［２０１８．０１］	Metadata, e.g. disparity information	551
+H04N  13/183	・・・・	オンスクリーンディスプレイ［ＯＳＤ］情報，例．字幕またはメニュー［２０１８．０１］	On-screen display [OSD] information, e.g. subtitles or menus	217
+H04N  13/189	・・	画像信号の記録；記録された画像信号の再生［２０１８．０１］	Recording image signals; Reproducing recorded image signals	454
+H04N  13/194	・・	画像信号の伝送［２０１８．０１］	Transmission of image signals	1426
+H04N  13/20	・	画像信号生成装置［２０１８．０１］	Image signal generators	1320
+H04N  13/204	・・	立体視画像カメラを用いるもの（立体写真Ｇ０３Ｂ３５／００）［２０１８．０１］	using stereoscopic image cameras(stereoscopic photography G03B35/00)	1970
+H04N  13/207	・・・	単一の２Ｄイメージセンサを用いるもの［２０１８．０１］	using a single 2D image sensor	544
+H04N  13/211	・・・・	時間的多重化を利用するもの［２０１８．０１］	using temporal multiplexing	171
+H04N  13/214	・・・・	スペクトル多重化を利用するもの［２０１８．０１］	using spectral multiplexing	41
+H04N  13/218	・・・・	空間的多重化を利用するもの［２０１８．０１］	using spatial multiplexing	227
+H04N  13/221	・・・・	カメラと対象物との間の相対的な動きを利用するもの［２０１８．０１］	using the relative movement between cameras and objects	550
+H04N  13/225	・・・・	視差バリアを用いるもの［２０１８．０１］	using parallax barriers	66
+H04N  13/229	・・・・	レンチキュラーレンズを用いるもの，例．円筒状レンズを配列したもの［２０１８．０１］	using lenticular lenses, e.g. arrangements of cylindrical lenses	78
+H04N  13/232	・・・・	フライアイレンズを用いるもの，例．円形レンズを配列したもの［２０１８．０１］	using fly-eye lenses, e.g. arrangements of circular lenses	268
+H04N  13/236	・・・・	可変焦点式レンズまたはミラーを用いるもの［２０１８．０１］	using varifocal lenses or mirrors	125
+H04N  13/239	・・・	眼間距離に一致または関連した相対的位置を有する２つの２Ｄイメージセンサを用いるもの（Ｈ０４Ｎ１３／２４３が優先）［２０１８．０１］	using two 2D image sensors having a relative position equal to or related to the interocular distance (H04N13/243 takes precedence)	4370
+H04N  13/243	・・・	３以上の２Ｄイメージセンサーを用いるもの［２０１８．０１］	using three or more 2D image sensors	1823
+H04N  13/246	・・・	カメラのキャリブレーション［２０１８．０１］	Calibration of cameras	865
+H04N  13/25	・・・	視点位置または視野以外の特性が異なる２以上のイメージセンサを用いるもの，例．異なる解像度またはカラーピックアップ特性を有するもの；１つのセンサからの画像信号を用いて他のセンサの特性を制御するもの［２０１８．０１］	using two or more image sensors with different characteristics other than in their location or field of view, e.g. having different resolutions or colour pickup characteristics; using image signals from one sensor to control the characteristics of another sensor	397
+H04N  13/254	・・・	被写体を照らす電磁放射線源と組み合わせるもの［２０１８．０１］	in combination with electromagnetic radiation sources for illuminating objects	1226
+H04N  13/257	・・	色彩的観点［２０１８．０１］	Colour aspects	528
+H04N  13/261	・・	単視点画像から立体視画像への変換によるもの［２０１８．０１］	with monoscopic-to-stereoscopic image conversion 	573
+H04N  13/264	・・・	２つのビデオフレームまたはフィールド間の相対的な動きを利用するもの［２０１８．０１］	using the relative movement of objects in two video frames or fields	43
+H04N  13/268	・・・	デプス画像に基づいたレンダリング［ＤＩＢＲ］に基づくもの［２０１８．０１］	based on depth image-based rendering [DIBR]	203
+H04N  13/271	・・	生成された画像信号がデプスマップまたは視差マップを含むもの［２０１８．０１］	wherein the generated image signals comprise depth maps or disparity maps	1969
+H04N  13/275	・・	３Ｄオブジェクトモデルから得るもの，例．コンピュータにより生成された立体視画像信号［２０１８．０１］	from 3D object models, e.g. computer-generated stereoscopic image signals	1339
+H04N  13/279	・・・	仮想視点位置が視聴者により選択されるまたはトラッキングにより決定されるもの［２０１８．０１］	the virtual viewpoint locations being selected by the viewers or determined by tracking	471
+H04N  13/282	・・	３以上の幾何学的な視点位置に対応する画像信号を生成するためのもの，例．マルチビューシステム［２０１８．０１］	for generating image signals corresponding to three or more geometrical viewpoints, e.g. multi-view systems	1046
+H04N  13/286	・・	単視点モードおよび立体視モードを有するもの［２０１８．０１］	having separate monoscopic and stereoscopic modes	70
+H04N  13/289	・・・	単視点モードと立体視モードとの間の切換［２０１８．０１］	Switching between monoscopic and stereoscopic modes	67
+H04N  13/293	・・	混合された立体視画像を生成するもの；混合された単視点画像および立体視画像を生成するもの，例．単視点の背景画像上にオーバーレイされた立体視画像ウィンドウ［２０１８．０１］	Generating mixed stereoscopic images; Generating mixed monoscopic and stereoscopic images, e.g. a stereoscopic image overlay window on a monoscopic image background	224
+H04N  13/296	・・	その同期；その制御［２０１８．０１］	Synchronisation thereof; Control thereof	1351
+H04N  13/30	・	画像再生装置（立体視または他の３次元効果を生ずるための光学システムＧ０２Ｂ３０／００）［２０１８．０１］	Image reproducers  (optical systems for producing stereoscopic or other three-dimensional effects G02B30/00)	2141
+H04N  13/302	・・	専用メガネを利用しないで視聴するためのもの，すなわち，裸眼立体視ディスプレイを用いるもの［２０１８．０１］	for viewing without the aid of special glasses, i.e. using autostereoscopic displays	1572
+H04N  13/305	・・・	レンチキュラーレンズを用いるもの，例．円筒状レンズを配列したもの［２０１８．０１］	using lenticular lenses, e.g. arrangements of cylindrical lenses	825
+H04N  13/307	・・・	フライアイレンズを用いるもの，例．円形レンズを配列したもの［２０１８．０１］	using  fly-eye lenses, e.g. arrangements of circular lenses	403
+H04N  13/31	・・・	視差バリアを用いるもの［２０１８．０１］	using parallax barriers	591
+H04N  13/312	・・・・	視差バリアがディスプレイパネルの背後，例．バックライトと空間光変調器［ＳＬＭ］との間，に設置されるもの［２０１８．０１］	the parallax barriers being placed behind the display panel, e.g. between backlight and spatial light modulator [SLM]	92
+H04N  13/315	・・・・	視差バリアが時間変化するもの［２０１８．０１］	the parallax barriers being time-variant	111
+H04N  13/317	・・・	傾斜した視差光学系を用いるもの［２０１８．０１］	using slanted parallax optics	154
+H04N  13/32	・・・	可制御光源アレイを用いるもの；可動式アパーチャまたは可動式光源を用いるもの［２０１８．０１］	using arrays of controllable light sources; using moving apertures or moving light sources	345
+H04N  13/322	・・・	可変焦点式レンズまたはミラーを用いるもの［２０１８．０１］	using varifocal lenses or mirrors	167
+H04N  13/324	・・	色彩的観点［２０１８．０１］	Colour aspects	511
+H04N  13/327	・・	そのキャリブレーション［２０１８．０１］	Calibration thereof	569
+H04N  13/332	・・	専用メガネを利用して視聴するディスプレイまたは頭部装着型ディスプレイ［ＨＭＤ］［２０１８．０１］	Displays for viewing with the aid of special glasses or head-mounted displays [HMD]	2013
+H04N  13/334	・・・	スペクトル多重化を利用するもの［２０１８．０１］	using spectral multiplexing	64
+H04N  13/337	・・・	偏光多重化を利用するもの［２０１８．０１］	using polarisation multiplexing	270
+H04N  13/339	・・・	空間的多重化を利用するもの（Ｈ０４Ｎ１３／３３７が優先）［２０１８．０１］	using spatial multiplexing (H04N13/337 takes precedence)	75
+H04N  13/341	・・・	時間的多重化を利用するもの［２０１８．０１］	using temporal multiplexing	273
+H04N  13/344	・・・	頭部装着型左右ディスプレイによるもの［２０１８．０１］	with head-mounted left-right displays	2236
+H04N  13/346	・・	プリズムまたはハーフミラーを用いるもの［２０１８．０１］	using prisms or semi-transparent mirrors 	415
+H04N  13/349	・・	３以上の幾何学的な視点位置を視聴者トラッキング無しで表示するためのマルチビューディスプレイ（専用メガネを利用しないでフライアイレンズを用いて視聴するためのものＨ０４Ｎ１３／３０７）［２０１８．０１］	Multi-view displays for displaying three or more geometrical viewpoints without viewer tracking  (for viewing without the aid of special glasses using fly-eye lenses H04N13/307)	502
+H04N  13/351	・・・	同時に表示するためのもの［２０１８．０１］	for displaying simultaneously 	385
+H04N  13/354	・・・	順に表示するためのもの［２０１８．０１］	for displaying sequentially 	69
+H04N  13/356	・・	単視点モードおよび立体視モードを有するもの［２０１８．０１］	having separate monoscopic and stereoscopic modes	175
+H04N  13/359	・・・	単視点モードと立体視モードとの間の切換［２０１８．０１］	Switching between monoscopic and stereoscopic modes	312
+H04N  13/361	・・	混合された立体視画像を生成するもの；混合された単視点画像および立体視画像を生成するもの，例．単視点の背景画像上にオーバーレイされた立体視画像ウィンドウ［２０１８．０１］	Reproducing mixed stereoscopic images; Reproducing mixed monoscopic and stereoscopic images, e.g. a stereoscopic image overlay window on a monoscopic image background	360
+H04N  13/363	・・	画像投影スクリーンを用いるもの（ボリュームディスプレイＨ０４Ｎ１３／３８８）［２０１８．０１］	using image projection screens  (volumetric displays H04N13/388)	2184
+H04N  13/365	・・	デジタル・マイクロミラー・デバイス［ＤＭＤ］を用いるもの［２０１８．０１］	using digital micromirror devices [DMD]	59
+H04N  13/366	・・	視聴者トラッキングを用いるもの［２０１８．０１］	using viewer tracking	1501
+H04N  13/368	・・・	２以上の視聴者のためのもの［２０１８．０１］	for two or more viewers	182
+H04N  13/371	・・・	眼間距離の異なる視聴者をトラッキングするためのもの；頭部の垂直軸周りの回転をトラッキングするためのもの［２０１８．０１］	for tracking viewers with different interocular distances; for tracking rotational head movements around the vertical axis	107
+H04N  13/373	・・・	頭部の前後の平行移動，すなわち，縦の動き，をトラッキングするためのもの［２０１８．０１］	for tracking forward-backward translational head movements, i.e. longitudinal movements	126
+H04N  13/376	・・・	頭部の左右の平行移動，すなわち，横の動き，をトラッキングするためのもの［２０１８．０１］	for tracking left-right translational head movements, i.e. lateral movements	165
+H04N  13/378	・・・	頭部の画面に垂直な軸周りの回転をトラッキングするためのもの［２０１８．０１］	for tracking rotational head movements around an axis perpendicular to the screen	76
+H04N  13/38	・・・	頭部の垂直方向の平行移動をトラッキングするためのもの［２０１８．０１］	for tracking vertical translational head movements	50
+H04N  13/383	・・・	注視検知，すなわち，視聴者の視線検知，によりトラッキングするためのもの［２０１８．０１］	for tracking with gaze detection, i.e. detecting the lines of sight of the viewer's eyes	1371
+H04N  13/385	・・	表示画面上で左右画像の位置を瞬時に交換するもの（専用メガネを利用しないで時間変化する視差バリアを用いて視聴するためのものＨ０４Ｎ１３／３１５；専用メガネを利用して視聴するディスプレイまたは頭部装着型ディスプレイであって時間的多重化を利用するものＨ０４Ｎ１３／３４１）［２０１８．０１］	alternating rapidly the location of the left-right image components on the display screens(for viewing without the aid of special glasses using time variant parallax barriers H04N13/315; displays for viewing with the aid of special glasses or head-mounted displays using temporal multiplexing H04N13/341)	78
+H04N  13/388	・・	ボリュームディスプレイ，すなわち，ボリューム上に配置された画素から画像が構築されるシステム［２０１８．０１］	Volumetric displays, i.e. systems where the image is built up from picture elements distributed through a volume	331
+H04N  13/39	・・・	一対の光線が交わる透明素材中の位置で画素が光を放つもの［２０１８．０１］	the picture elements emitting light at places where a pair of light beams intersect in a transparent material	94
+H04N  13/393	・・・	ボリュームが面の動き，例．振動または回転，により生成されるもの［２０１８．０１］	the volume being generated by a moving, e.g. vibrating or rotating, surface	199
+H04N  13/395	・・・	デプスサンプリングによるもの，すなわち，ボリュームが２Ｄ画像プレーンの堆積または連続から構成されるもの［２０１８．０１］	with depth sampling, i.e. the volume being constructed from a stack or sequence of 2D image planes	448
+H04N  13/398	・・	その同期；その制御［２０１８．０１］	Synchronisation thereof; Control thereof	1592
+H04N  17/00		テレビジョン方式またはその細部のための診断，試験または測定［４］	Diagnosis, testing or measuring for television systems or their details	23470
+H04N  17/02	・	カラーテレビジョン信号のためのもの［４］	for colour television signals	2834
+H04N  17/04	・	受信機のためのもの［４］	for receivers	5822
+H04N  17/06	・	記録器のためのもの［４］	for recorders	920
+H04N  19/00		デジタルビデオ信号を符号化，復号化，圧縮または伸張するための方法または装置［２０１４．０１］	Methods or arrangements for coding, decoding, compressing or decompressing digital video signals	19179
+H04N  19/10	・	適応的符号化を用いるもの［２０１４．０１］<br><b><ul>注</ul></b><br>このグループに分類するときは，適応的符号化に関連する各側面は，可能な限りＨ０４Ｎ１９／１０２，Ｈ０４Ｎ１９／１３４，Ｈ０４Ｎ１９／１６９およびＨ０４Ｎ１９／１８９のサブグループにそれぞれ分類されるべきである［２０１４．０１］	using adaptive coding; <br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, each aspect relating to adaptive coding should, insomuch as possible, be classified in each one of subgroups H04N19/102, H04N19/134, H04N19/169 and H04N19/189.	497
+H04N  19/102	・・	適応的符号化によって影響を受けるまたは制御される要素，パラメータまたは選択に特徴があるもの［２０１４．０１］	characterised by the element, parameter or selection affected or controlled by the adaptive coding	5731
+H04N  19/103	・・・	符号化モードまたは予測モードの選択［２０１４．０１］	Selection of coding mode or of prediction mode	4435
+H04N  19/105	・・・・	選択された符号化モードまたは予測モードの範囲内での予測のための参照ユニットの選択，例．予測に用いられる画素の位置および数の適応的な選択［２０１４．０１］	Selection of the reference unit for prediction within a chosen coding or prediction mode, e.g. adaptive choice of position and number of pixels used for prediction	9951
+H04N  19/107	・・・・	空間的および時間的予測符号化の間での選択，例．ピクチャリフレッシュ［２０１４．０１］	between spatial and temporal predictive coding, e.g. picture refresh	2979
+H04N  19/109	・・・・	複数の時間的予測符号化モードの中からの選択［２０１４．０１］	among a plurality of temporal predictive coding modes	1614
+H04N  19/11	・・・・	複数の空間的予測符号化モードの中からの選択［２０１４．０１］	among a plurality of spatial predictive coding modes	4008
+H04N  19/112	・・・・	与えられた表示モードによるもの，例．インターレースまたはプログレッシブ表示モードのためのもの［２０１４．０１］	according to a given display mode, e.g. for interlaced or progressive display mode	413
+H04N  19/114	・・・・	グループオブピクチャ［ＧＯＰ］構造の適合，例．２つのアンカーフレームの間のＢフレームの数（Ｈ０４Ｎ１９／１０７が優先）［２０１４．０１］	Adapting the group of pictures [GOP] structure, e.g. number of B-frames between two anchor frames(H04N19/107 takes precedence)	1111
+H04N  19/115	・・・	符号化前に行われる符号化ユニットのための符号量の選択［２０１４．０１］	Selection of the code volume for a coding unit prior to coding	2759
+H04N  19/117	・・・	フィルタ，例．前処理または後処理のためのもの（サブバンドフィルタバンクＨ０４Ｎ１９／６３５）［２０１４．０１］	Filters, e.g. for pre-processing or post-processing(sub-band filter banks H04N19/635)	5855
+H04N  19/119	・・・	適応的な再分割の側面，例．長方形または非長方形符号化ブロックへのピクチャの再分割［２０１４．０１］	Adaptive subdivision aspects e.g. subdivision of a picture into rectangular or non-rectangular coding blocks	5731
+H04N  19/12	・・・	複数の変換または標準からの選択，例．離散コサイン変換［ＤＣＴ］およびサブバンド変換の間での選択またはＨ．２６３およびＨ．２６４の間での選択［２０１４．０１］<br><b><ul>注</ul></b><br>このグループに分類するときは，各圧縮アルゴリズムはグループＨ０４Ｎ１９／６０またはＨ０４Ｎ１９／９０の関連するサブグループにさらに分類される［２０１４．０１］	Selection from among a plurality of transforms or standards, e.g. selection between discrete cosine transform [DCT] and sub-band transform or selection between H.263 and H.264; <br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, each compression algorithm is further classified in the relevant subgroups of groups H04N19/60 or H04N19/90.   	2975
+H04N  19/122	・・・・	変換サイズの選択，例．８ｘ８または２ｘ４ｘ８ＤＣＴ；構造またはタイプが変化するサブバンド変換の選択［２０１４．０１］	Selection of transform size, e.g. 8x8 or 2x4x8 DCT; Selection of sub-band transforms of varying structure or type	2072
+H04N  19/124	・・・	量子化［２０１４．０１］	Quantisation	7425
+H04N  19/126	・・・・	正規化または重みづけ関数の詳細，例．正規化マトリクスまたは可変一様量子化器［２０１４．０１］	Details of normalisation or weighting functions, e.g. normalisation matrices or variable uniform quantisers	4702
+H04N  19/127	・・・	ハードウェアまたは計算リソースの優先づけ［２０１４．０１］	Prioritisation of hardware or computational resources	859
+H04N  19/129	・・・	符号化ユニットのスキャン，例．変換係数のジグザグスキャンまたはフレキシブルマクロブロックオーダリング［ＦＭＯ］［２０１４．０１］	Scanning of coding units, e.g. zig-zag scan of transform coefficients or flexible macroblock ordering [FMO]	1465
+H04N  19/13	・・・	適応的エントロピー符号化，例．適応的可変長符号化［ＡＶＬＣ］またはコンテキスト適応型二値算術符号化［ＣＡＢＡＣ］［２０１４．０１］	Adaptive entropy coding, e.g. adaptive variable length coding [AVLC] or context adaptive binary arithmetic coding [CABAC]	4629
+H04N  19/132	・・・	符号化ユニットのサンプリング，マスキングまたはトランケーション，例．適応的再サンプリング，フレームスキップ，フレーム補間または高周波変換係数のマスキング［２０１４．０１］	Sampling, masking or truncation of coding units, e.g. adaptive resampling, frame skipping, frame interpolation or high-frequency transform coefficient masking	7476
+H04N  19/134	・・	適応的符号化に影響を与えるまたはそれを制御する要素，パラメータまたは基準に特徴があるもの［２０１４．０１］	characterised by the element, parameter or criterion affecting or controlling the adaptive coding	7970
+H04N  19/136	・・・	入力ビデオ信号の特徴または特性［２０１４．０１］	Incoming video signal characteristics or properties	10854
+H04N  19/137	・・・・	符号化ユニット内の動き，例．フィールド，フレームまたはブロックの平均誤差［２０１４．０１］	Motion inside a coding unit, e.g. average field, frame or block difference	5005
+H04N  19/139	・・・・・	動きベクトルの分析，例．その大きさ，方向，分散または信頼性［２０１４．０１］	Analysis of motion vectors, e.g. their magnitude, direction, variance or reliability	4929
+H04N  19/14	・・・・	符号化ユニットの複雑度，例．アクティビティの量またはエッジの有無の推定（Ｈ０４Ｎ１９／１４６が優先）［２０１４．０１］	Coding unit complexity, e.g. amount of activity or edge presence estimation(H04N19/146 takes precedence)	4626
+H04N  19/142	・・・	シーンカットまたはシーンチェンジの検出［２０１４．０１］	Detection of scene cut or scene change	1205
+H04N  19/146	・・・	符号化器の出力でのデータレートまたは符号量［２０１４．０１］	Data rate or code amount at the encoder output	4658
+H04N  19/147	・・・・	レート歪み基準によるもの（動き推定のための基準としてのレート歪みＨ０４Ｎ１９／５６７）［２０１４．０１］	according to rate distortion criteria(rate-distortion as a criterion for motion estimation H04N19/567)	3925
+H04N  19/149	・・・・	モデルを用いた符号量の推定，例．数学的モデルまたは統計学的モデル［２０１４．０１］	by estimating the code amount by means of a model, e.g. mathematical model or statistical model	1503
+H04N  19/15	・・・・	伝送バッファへの格納を決定する前にメモリ内の実際の圧縮されたデータのサイズを監視することによるもの［２０１４．０１］	by monitoring actual compressed data size at the memory before deciding storage at the transmission buffer	1231
+H04N  19/152	・・・・	伝送バッファの充満度を測定することによるもの［２０１４．０１］	by measuring the fullness of the transmission buffer	1782
+H04N  19/154	・・・	復号後の測定されたまたは主観的に推定された視覚的品質，例．歪みの測定（レート歪み基準の使用Ｈ０４Ｎ１９／１４７）（［２０１４．０１］	Measured or subjectively estimated visual quality after decoding, e.g. measurement of distortion(use of rate-distortion criteria H04N19/147)	2995
+H04N  19/156	・・・	ハードウェアまたは計算リソースの利用可能性，例．消費電力節約基準に基づく符号化［２０１４．０１］	Availability of hardware or computational resources, e.g. encoding based on power-saving criteria	1337
+H04N  19/157	・・・	割り当てられた符号化モード，すなわち他の要素またはパラメータの選択にさらに用いられるために予め定められたまたは予め選択された符号化モード［２０１４．０１］	Assigned coding mode, i.e. the coding mode being predefined or preselected to be further used for selection of another element or parameter	3576
+H04N  19/159	・・・・	予測のタイプ，例．フレーム内，フレーム間または双方向フレーム予測［２０１４．０１］	Prediction type, e.g. intra-frame, inter-frame or bidirectional frame prediction	6851
+H04N  19/16	・・・・	与えられた表示モードのためのもの，例．インターレースまたはプログレッシブ表示モードのためのもの［２０１４．０１］	for a given display mode, e.g. for interlaced or progressive display mode	353
+H04N  19/162	・・・	ユーザ入力［２０１４．０１］	User input	1360
+H04N  19/164	・・・	受信機または伝送チャネルからのフィードバック［２０１４．０１］	Feedback from the receiver or from the transmission channel	1210
+H04N  19/166	・・・・	伝送誤りの量に関するもの，例．ビットエラーレート［ＢＥＲ］［２０１４．０１］	concerning the amount of transmission errors, e.g. bit error rate [BER]	1371
+H04N  19/167	・・・	ビデオ画像内での位置，例．関心領域［ＲＯＩ］［２０１４．０１］	Position within a video image, e.g. region of interest [ROI]	4404
+H04N  19/169	・・	符号化ユニット，すなわち適応的符号化の主体または客体となるビデオ信号の構造的部分または意味的部分，に特徴があるもの［２０１４．０１］	characterised by the coding unit, i.e. the structural portion or semantic portion of the video signal being the object or the subject of the adaptive coding	2483
+H04N  19/17	・・・	ユニットが画像領域，例．オブジェクト，であるもの［２０１４．０１］	the unit being an image region, e.g. an object	1833
+H04N  19/172	・・・・	領域がピクチャ，フレームまたはフィールドであるもの［２０１４．０１］	the region being a picture, frame or field	8492
+H04N  19/174	・・・・	領域がスライス，例．ブロックのラインまたはブロックのグループ，であるもの［２０１４．０１］	the region being a slice, e.g. a line of blocks or a group of blocks	3172
+H04N  19/176	・・・・	領域がブロック，例．マクロブロック，であるもの［２０１４．０１］	the region being a block, e.g. a macroblock	23284
+H04N  19/177	・・・	ユニットがグループオブピクチャ［ＧＯＰ］であるもの［２０１４．０１］	the unit being a group of pictures [GOP]	1817
+H04N  19/179	・・・	ユニットがシーンまたはショットであるもの［２０１４．０１］	the unit being a scene or a shot	541
+H04N  19/18	・・・	ユニットが変換係数の集合であるもの［２０１４．０１］	the unit being a set of transform coefficients	1965
+H04N  19/182	・・・	ユニットが画素であるもの［２０１４．０１］	the unit being a pixel	4265
+H04N  19/184	・・・	ユニットが複数のビット，例．圧縮されたビデオストリームのもの，であるもの［２０１４．０１］	the unit being bits, e.g. of the compressed video stream	3281
+H04N  19/186	・・・	ユニットがカラーまたはクロミナンスコンポーネントであるもの［２０１４．０１］	the unit being a colour or a chrominance component	7657
+H04N  19/187	・・・	ユニットがスケーラブルビデオレイヤであるもの［２０１４．０１］	the unit being a scalable video layer	1166
+H04N  19/189	・・	適応的符号化のために用いられる適応方法，適応ツールまたは適応タイプに特徴があるもの［２０１４．０１］	characterised by the adaptation method, adaptation tool or adaptation type used for the adaptive coding	3490
+H04N  19/19	・・・	ラグランジュ乗数に基づく最適化を用いるもの［２０１４．０１］	using optimisation based on Lagrange multipliers	918
+H04N  19/192	・・・	適応方法，適応ツールまたは適応タイプが反復的または再帰的であるもの［２０１４．０１］	the adaptation method, adaptation tool or adaptation type being iterative or recursive	1011
+H04N  19/194	・・・・	２回のみのパスに関するもの［２０１４．０１］	involving only two passes	551
+H04N  19/196	・・・	符号化パラメータの計算のために特別に適合したもの，例．以前に計算された符号化パラメータの平均を取ることによるもの（動きベクトルの処理Ｈ０４Ｎ１９／５１３）［２０１４．０１］	being specially adapted for the computation of encoding parameters, e.g. by averaging previously computed encoding parameters(processing of motion vectors H04N19/513)	12765
+H04N  19/20	・	ビデオオブジェクト符号化を用いるもの［２０１４．０１］	using video object coding	2676
+H04N  19/21	・・	ビデオオブジェクトのための二値アルファプレーン符号化，例．コンテキストベース算術符号化［ＣＡＥ］，を伴うもの［２０１４．０１］	with binary alpha-plane coding for video objects, e.g. context-based arithmetic encoding [CAE]	526
+H04N  19/23	・・	ビデオセグメントの全体にわたって存在する領域，例．スプライト，背景またはモザイク，の符号化を伴うもの［２０１４．０１］	with coding of regions that are present throughout a whole video segment, e.g. sprites, background or mosaic	308
+H04N  19/25	・・	シーン記述の符号化，例．シーンのためのバイナリフォーマット［ＢＩＦＳ］の圧縮，を伴うもの［２０１４．０１］	with scene description coding, e.g. binary format for scenes [BIFS] compression	379
+H04N  19/27	・・	合成的および自然的な画像コンポーネントの両方に関するもの，例．合成自然ハイブリッド符号化［ＳＮＨＣ］［２０１４．０１］	involving both synthetic and natural picture components, e.g. synthetic natural hybrid coding [SNHC]	232
+H04N  19/29	・・	オブジェクトレベルでのスケーラビリティ，例．ビデオオブジェクトレイヤ［ＶＯＬ］［２０１４．０１］	involving scalability at the object level, e.g. video object layer [VOL]	177
+H04N  19/30	・	階層的技術，例．スケーラビリティ，を用いるもの（Ｈ０４Ｎ１９／６３が優先）［２０１４．０１］	using hierarchical techniques, e.g. scalability(H04N19/63 takes precedence)	3799
+H04N  19/31	・・	時間領域でのもの［２０１４．０１］	in the temporal domain	981
+H04N  19/33	・・	空間領域でのもの［２０１４．０１］	in the spatial domain	2087
+H04N  19/34	・・	エンハンスメントレイヤのプログレッシブビットプレーンベース符号化に関するスケーラビリティ技術，例．ファイングラニュラースケーラビリティ［ＦＧＳ］［２０１４．０１］	Scalability techniques involving progressive bit-plane based encoding of the enhancement layer, e.g. fine granular scalability [FGS]	1021
+H04N  19/36	・・	復号後の画像の歪みの関数としてレイヤを形成することに関するスケーラビリティ技術，例．信号対雑音比［ＳＮＲ］スケーラビリティ［２０１４．０１］	Scalability techniques involving formatting the layers as a function of picture distortion after decoding, e.g. signal-to-noise [SNR] scalability	710
+H04N  19/37	・・	ビデオ入力データまたはビデオ符号化データに対して異なる伝送優先度を割り当てるための装置を伴うもの［２０１４．０１］	with arrangements for assigning different transmission priorities to video input data or to video coded data	507
+H04N  19/39	・・	多重記述符号化［ＭＤＣ］，すなわち個々のレイヤが独立に復号できる入力画像データの記述として構成されたもの，に関するもの［２０１４．０１］	involving multiple description coding [MDC], i.e. with separate layers being structured as independently decodable descriptions of input picture data	214
+H04N  19/40	・	ビデオトランスコーディング，すなわち符号化された入力ストリームを部分的にまたは完全に復号した後で，復号された出力ストリームを再符号化すること，を用いるもの［２０１４．０１］	using video transcoding, i.e. partial or full decoding of a coded input stream followed by re-encoding of the decoded output stream	3541
+H04N  19/42	・	ビデオの圧縮または伸張に特別に適合した実装の詳細またはハードウェアに特徴があるもの，例．専用のソフトウェア実装（Ｈ０４Ｎ１９／６３５が優先）［２０１４．０１］	characterised by implementation details or hardware specially adapted for video compression or decompression, e.g. dedicated software implementation(H04N19/635 takes precedence)	8803
+H04N  19/423	・・	メモリ配置に特徴があるもの（Ｈ０４Ｎ１９／４３３が優先）［２０１４．０１］	characterised by memory arrangements(H04N19/433 takes precedence)	16931
+H04N  19/426	・・・	メモリ削減方法を用いるもの［２０１４．０１］	using memory downsizing methods	2699
+H04N  19/43	・・	動き推定または動き補償のために特別に適合したハードウェア［２０１４．０１］	Hardware specially adapted for motion estimation or compensation	584
+H04N  19/433	・・・	メモリアクセスのための技術に特徴があるもの［２０１４．０１］	characterised by techniques for memory access	499
+H04N  19/436	・・	並列化された計算配置を用いるもの［２０１４．０１］	using parallelised computational arrangements	3521
+H04N  19/44	・	そのために特別に適合した復号器，例．符号化器と非対称のビデオ復号器［２０１４．０１］	Decoders specially adapted therefor, e.g. video decoders which are asymmetric with respect to the encoder	10043
+H04N  19/46	・	圧縮処理中にビデオ信号に付加的な情報を埋め込むもの（Ｈ０４Ｎ１９／５１７，Ｈ０４Ｎ１９／６８，Ｈ０４Ｎ１９／７０が優先）［２０１４．０１］	Embedding additional information in the video signal during the compression process(H04N19/517, H04N19/68, H04N19/70 take precedence)	11842
+H04N  19/463	・・	伝送前に符号化パラメータを圧縮することによるもの［２０１４．０１］	by compressing encoding parameters before transmission	3049
+H04N  19/467	・・	埋め込まれた情報が不可視であることに特徴があるもの，例．ウォーターマーキング［２０１４．０１］	characterised by the embedded information being invisible, e.g. watermarking	1956
+H04N  19/48	・	復号以外の圧縮領域処理技術，例．変換係数，可変長符号化［ＶＬＣ］データまたはランレングスデータの修正（変換領域での動き推定Ｈ０４Ｎ１９／５４７；復号された動きベクトルの処理Ｈ０４Ｎ１９／５１３）［２０１４．０１］	using compressed domain processing techniques other than decoding, e.g. modification of transform coefficients, variable length coding [VLC] data or run-length data(motion estimation in a transform domain H04N19/547; processing of decoded motion vectors H04N19/513)	1417
+H04N  19/50	・	予測符号化を用いるもの（Ｈ０４Ｎ１９／６１が優先）［２０１４．０１］	using predictive coding(H04N19/61 takes precedence)	15155
+H04N  19/503	・・	時間的予測に関するもの（空間的および時間的予測符号化の間の適応的選択を伴う適応的符号化Ｈ０４Ｎ１９／１０７；複数の時間的予測符号化モードの中からの適応的選択を伴う適応的符号化Ｈ０４Ｎ１９／１０９）［２０１４．０１］	involving temporal prediction(adaptive coding with adaptive selection between spatial and temporal predictive coding H04N19/107; adaptive coding with adaptive selection among a plurality of temporal predictive coding modes H04N19/109)	11260
+H04N  19/507	・・・	条件付画素補充を用いるもの［２０１４．０１］	using conditional replenishment	159
+H04N  19/51	・・・	動き推定または動き補償［２０１４．０１］	Motion estimation or motion compensation	10642
+H04N  19/513	・・・・	動きベクトルの処理［２０１４．０１］	Processing of motion vectors	5693
+H04N  19/517	・・・・・	符号化によるもの［２０１４．０１］	by encoding	917
+H04N  19/52	・・・・・・	予測符号化によるもの［２０１４．０１］	by predictive encoding	3713
+H04N  19/523	・・・・	小数画素精度で行うもの［２０１４．０１］	with sub-pixel accuracy	1444
+H04N  19/527	・・・・	グローバル動きベクトル推定［２０１４．０１］	Global motion vector estimation	1007
+H04N  19/53	・・・・	マルチ解像度動き推定；階層的動き推定［２０１４．０１］	Multi-resolution motion estimation; Hierarchical motion estimation	702
+H04N  19/533	・・・・	マルチステップ探索，例．２Ｄ−ｌｏｇサーチまたはワンアットアタイムサーチ［ＯＴＳ］，を用いる動き推定［２０１４．０１］	Motion estimation using multistep search, e.g. 2D-log search or one-at-a-time search [OTS]	728
+H04N  19/537	・・・・	ブロックベース以外の動き推定［２０１４．０１］	Motion estimation other than block-based	487
+H04N  19/54	・・・・・	特徴点またはメッシュを用いるもの［２０１４．０１］	using feature points or meshes	579
+H04N  19/543	・・・・・	領域を用いるもの［２０１４．０１］	using regions	457
+H04N  19/547	・・・・	変換領域で行なわれる動き推定［２０１４．０１］	Motion estimation performed in a transform domain	192
+H04N  19/55	・・・・	空間的制約，例．画像または領域の境界でのもの，を伴う動き推定［２０１４．０１］	Motion estimation with spatial constraints, e.g. at image or region borders	374
+H04N  19/553	・・・・	オクルージョンを扱う動き推定［２０１４．０１］	Motion estimation dealing with occlusions	123
+H04N  19/557	・・・・	特定の基準，例．誤差量が大きすぎる場合，に基づいて計算または反復を止めること，すなわち探索を早期に打ち切ること，に特徴がある動き推定［２０１４．０１］	Motion estimation characterised by stopping computation or iteration based on certain criteria, e.g. error magnitude being too large or early exit	187
+H04N  19/56	・・・・	ベクトル探索の初期化．例．探索を開始するための良い候補を推定すること，を伴う動き推定［２０１４．０１］	Motion estimation with initialisation of the vector search, e.g. estimating a good candidate to initiate a search	1062
+H04N  19/563	・・・・	パディング，すなわち推定のために任意の形状の画像のブロックまたは領域に非オブジェクト値を埋めること，を伴う動き推定，［２０１４．０１］	Motion estimation with padding, i.e. with filling of non-object values in an arbitrarily shaped picture block or region for estimation purposes	274
+H04N  19/567	・・・・	レート歪み基準に基づいた動き推定［２０１４．０１］	Motion estimation based on rate distortion criteria	733
+H04N  19/57	・・・・	可変のサイズまたは形状をもつ探索ウィンドウに特徴がある動き推定［２０１４．０１］	Motion estimation characterised by a search window with variable size or shape	1552
+H04N  19/573	・・・・	与えられた１つの予測方向の２以上の参照フレームを用いたマルチフレーム予測を伴う動き補償［２０１４．０１］	Motion compensation with multiple frame prediction using two or more reference frames in a given prediction direction	1542
+H04N  19/577	・・・・	双方向フレーム補間を伴う動き補償，すなわちＢピクチャを用いること［２０１４．０１］	Motion compensation with bidirectional frame interpolation, i.e. using B-pictures	3474
+H04N  19/58	・・・・	ロングターム予測，すなわち現在のフレームに対する参照フレームが時間的に最も近いものではないこと，を伴う動き補償（Ｈ０４Ｎ１９／２３が優先）［２０１４．０１］	Motion compensation with long-term prediction, i.e. the reference frame for a current frame not being the temporally closest one(H04N19/23 takes precedence)	519
+H04N  19/583	・・・・	オーバーラップしたブロックでの動き補償［２０１４．０１］	Motion compensation with overlapping blocks	481
+H04N  19/587	・・	時間的サブサンプリングまたは補間に関するもの，例．ビデオシーケンス中の画像の間引きまたはその後の補間［２０１４．０１］	involving temporal sub-sampling or interpolation, e.g. decimation or subsequent interpolation of pictures in a video sequence	2095
+H04N  19/59	・・	空間的サブサンプリングまたは補間に関するもの，例．画像サイズまたは解像度の変更［２０１４．０１］	involving spatial sub-sampling or interpolation, e.g. alteration of picture size or resolution	6478
+H04N  19/593	・・	空間的予測技術に関するもの［２０１４．０１］	involving spatial prediction techniques	9468
+H04N  19/597	・・	マルチビュービデオシーケンス符号化のために特別に適合したもの［２０１４．０１］	specially adapted for multi-view video sequence encoding	5201
+H04N  19/60	・	変換符号化を用いるもの［２０１４．０１］	using transform coding	11019
+H04N  19/61	・・	予測符号化と結合したもの［２０１４．０１］	in combination with predictive coding	12091
+H04N  19/615	・・・	動き補償時間フィルタリング［ＭＣＴＦ］を用いるもの［２０１４．０１］	using motion compensated temporal filtering [MCTF]	226
+H04N  19/62	・・	３次元で周波数変換を行うもの（Ｈ０４Ｎ１９／６３が優先）［２０１４．０１］	by frequency transforming in three dimensions(H04N19/63 takes precedence)	176
+H04N  19/625	・・	離散コサイン変換［ＤＣＴ］を用いるもの［２０１４．０１］	using discrete cosine transform [DCT]	11889
+H04N  19/63	・・	サブバンドに基づいた変換，例．ウェーブレット，を用いるもの［２０１４．０１］	using sub-band based transform, e.g. wavelets	2299
+H04N  19/635	・・・	フィルタの定義または実装の詳細に特徴があるもの［２０１４．０１］	characterised by filter definition or implementation details	912
+H04N  19/64	・・・	係数またはビットの伝送順序に特徴があるもの［２０１４．０１］	characterised by ordering of coefficients or of bits for transmission	299
+H04N  19/645	・・・・	変換の後に係数をブロックにグループ化することによるもの［２０１４．０１］	by grouping of coefficients into blocks after the transform	135
+H04N  19/65	・	誤り耐性を用いるもの［２０１４．０１］	using error resilience	3925
+H04N  19/66	・・	データパーティショニング，すなわち重要度に応じてデータをパケットまたはパーティションに分割すること，に関するもの［２０１４．０１］	involving data partitioning, i.e. separation of data into packets or partitions according to importance	322
+H04N  19/67	・・	不均一誤り保護［ＵＥＰ］，すなわちデータの重要度に従って保護を与えること，に関するもの［２０１４．０１］	involving unequal error protection [UEP], i.e. providing protection according to the importance of the data	771
+H04N  19/68	・・	ビットストリームへの再同期マーカの挿入に関するもの［２０１４．０１］	involving the insertion of resynchronisation markers into the bitstream	212
+H04N  19/69	・・	リバーシブル可変長符号化［ＲＶＬＣ］に関するもの［２０１４．０１］	involving reversible variable length codes [RVLC]	59
+H04N  19/70	・	ビデオ符号化に関連したシンタックス側面に特徴があるもの，例．圧縮標準規格に関連したもの［２０１４．０１］	characterised by syntax aspects related to video coding, e.g. related to compression standards	22075
+H04N  19/80	・	ビデオ圧縮に特別に適合したフィルタリング処理の詳細，例．画素補間のためのもの（Ｈ０４Ｎ１９／６３５，Ｈ０４Ｎ１９／８６が優先）［２０１４．０１］	Details of filtering operations specially adapted for video compression, e.g. for pixel interpolation(H04N19/635, H04N19/86 take precedence)	5369
+H04N  19/82	・・	予測ループ内でのフィルタリングに関するもの［２０１４．０１］	involving filtering within a prediction loop	3283
+H04N  19/85	・	ビデオ圧縮のために特別に適合した前処理または後処理を用いるもの［２０１４．０１］	using pre-processing or post-processing specially adapted for video compression	12668
+H04N  19/86	・・	符号化アーティファクト，例．ブロックノイズ，の低減に関するもの［２０１４．０１］	involving reduction of coding artifacts, e.g. of blockiness	3833
+H04N  19/87	・・	ビデオ圧縮と結合されたシーンカットまたはシーンチェンジの検出に関するもの［２０１４．０１］	involving scene cut or scene change detection in combination with video compression	764
+H04N  19/88	・・	異なる符号化ユニットの間でのデータの再配置，例．画素データのシャッフリング，インターリービング，スクランブリングまたは並べ替えまたは異なるブロックの間での変換係数データの並べ替え，に関するもの［２０１４．０１］	involving rearrangement of data among different coding units, e.g. shuffling, interleaving, scrambling or permutation of pixel data or permutation of transform coefficient data among different blocks	1118
+H04N  19/89	・・	復号器における伝送誤りの検出のための方法または装置に関するもの［２０１４．０１］	involving methods or arrangements for detection of transmission errors at the decoder	4068
+H04N  19/895	・・・	誤り隠蔽と結合したもの［２０１４．０１］	in combination with error concealment	1737
+H04N  19/90	・	グループＨ０４Ｎ１９／１０〜Ｈ０４Ｎ１９／８５に含まれない符号化技術，例．フラクタル，を用いるもの［２０１４．０１］	using coding techniques not provided for in groups H04N19/10 to H04N19/85 , e.g. fractals	2015
+H04N  19/91	・・	エントロピー符号化，例．可変長符号化［ＶＬＣ］または算術符号化［２０１４．０１］	Entropy coding, e.g. variable length coding [VLC] or arithmetic coding	14342
+H04N  19/93	・・	ランレングス符号化［２０１４．０１］	Run-length coding	1862
+H04N  19/94	・・	ベクトル量子化［２０１４．０１］	Vector quantisation	1539
+H04N  19/96	・・	ツリー符号化，例．クワッドツリー符号化［２０１４．０１］	Tree coding, e.g. quad-tree coding	3171
+H04N  19/97	・・	マッチングパースート符号化［２０１４．０１］	Matching pursuit coding	64
+H04N  19/98	・・	適応的ダイナミックレンジ符号化［ＡＤＲＣ］［２０１４．０１］	Adaptive-dynamic-range coding [ADRC]	881
+H04N  21/00		選択的なコンテンツ配信，例．双方向テレビジョンまたはビデオオンデマンド［ＶＯＤ］（動画データのリアルタイム双方向通信Ｈ０４Ｎ７／１４）［２０１１．０１］<br><b><ul>注</ul></b><br>（１）このグループは以下のものを包含する：<br>―インタラクティブなビデオ配信方法，方式，またそのための要素であって，一対多のシステム構成によって特徴付けられ，かつ，主として，システムオペレータ，例．アクセス・プロバイダ，サービス・プロバイダ，あるいはユーザ，例．視聴契約者，と，システム要素との間の相互作用の結果としての，動画データの一方向配信，配送に用いられるもの。［２０１１．０１］<br>―そのような方式は，テレビジョン配信方式であって，主として動画データを指示されたように配信，配送するが，それに加えてさらなる別の一方向または双方向のデータ通信やサービスのためのフレームワークも提供するかもしれない，ただし，この配布方法では下り回線の帯域の大部分は動画で占められる，ような通信方式を含む。［２０１１．０１］<br>―典型的には，送信側の要素を持つシステム・オペレータのインターフェースまたは受信側の要素を持つユーザのインターフェースで，それらの要素間の相互作用を通じて，システム中の種々の地点におけるデータ処理またはデータの流れの動的な制御を容易にするもの。この相互作用は本来，典型的には不定期又は周期的に生じるものである。［２０１１．０１］<br>―データの生成，配布および処理のために特に適合した方法，方式またはその要素で，そのデータは，ビデオ・コンテンツに結びついている，例．メタデータ，レーティング，か，あるいはユーザまたはその環境に関連しており，かつ能動的あるいは受動的に収集されたものである。このデータは相互作用を容易にするために，あるいはコンテンツを変更するまたは対象づけるために用いられる。［２０１１．０１］<br>（２）このメイングループにおいては，ファーストプレイス優先ルールが適用される，すなわち階層上の各レベルで，相反する指示のない限り，最初の適切な箇所に分類する。［２０１１．０１］	Selective content distribution, e.g. interactive television or video on demand [VOD](real-time bi-directional transmission of motion video data H04N7/14);<br><br><b><u>Note(s)</u></b><br><br>This group <u>covers </u>: interactive video distribution processes, systems, or elements thereof, which are characterised by point-to-multipoint system configurations, and which are mainly used for motion video data unidirectional distribution or delivery resulting from interactions between systems operators, e.g. access or service providers, or users e.g. subscribers, and system elements.         such systems include dedicated communication systems, such as television distribution systems, which primarily distribute or deliver motion video data in the manner indicated, which may, in addition, provide a framework for further, diverse data communications or services in either unidirectional or bi-directional form. However, video will occupy most of the downlink bandwidth in the distribution process.         typically, system operators interface with transmitter-side elements or users' interface with receiver-side elements in order to facilitate, through interaction with such elements, the dynamic control of data processing or data flow at various points in the system. This interaction is typically occasional or intermittent in nature.         processes, systems or elements thereof specially adapted to the generation, distribution and processing of data, which is either associated with video content, e.g. metadata, ratings, or related to the user or his environment and which has been actively or passively gathered. This data is either used to facilitate interaction or to alter or target the content.          In this main group, the first place priority rule is applied, i.e. at each hierarchical level, in the absence of an indication to the contrary, classification is made in the first appropriate place.        	1299
+H04N  21/20	・	コンテンツの配信に特に適合したサーバ，例．ＶＯＤサーバ；それらの操作［２０１１．０１］	Servers specifically adapted for the distribution of content, e.g. VOD servers; Operations thereof	646
+H04N  21/21	・・	サーバの構成要素またはアーキテクチャ［２０１１．０１］	Server components or server architectures	985
+H04N  21/214	・・・	サーバの特別な設置場所，例．航空機，ホテルまたは病院に設置されたサーバ［２０１１．０１］	Specialised server platform, e.g. server located in an airplane, hotel or hospital	936
+H04N  21/218	・・・	オーディオまたはビデオコンテンツのソース，例．ローカル・ディスク・アレイ［２０１１．０１］	Source of audio or video content, e.g. local disk arrays	3427
+H04N  21/2183	・・・・	キャッシュメモリ［２０１１．０１］	Cache memory	360
+H04N  21/2187	・・・・	ライブ映像［２０１１．０１］	Live feed	12634
+H04N  21/222	・・・	二次的サーバ，例．プロキシ・サーバまたはケーブルテレビジョンのヘッドエンド装置［２０１１．０１］	Secondary servers, e.g. proxy server or cable television Head-end	1858
+H04N  21/2225	・・・・	ローカルのＶＯＤサーバ［２０１１．０１］	Local VOD servers	355
+H04N  21/226	・・・	サーバ内部の構成要素［２０１１．０１］	Internal components of the server	731
+H04N  21/23	・・	コンテンツまたは追加データの処理；基礎的なサーバ操作；サーバのミドルウェア［２０１１．０１］	Processing of content or additional data; Elementary server operations; Server middleware	1683
+H04N  21/231	・・・	コンテンツの蓄積操作，例．映画の短期ストレージのためのキャッシング，複数のサーバ間でのデータ複製または消去のためのデータの順序づけ［２０１１．０１］	Content storage operation, e.g. caching movies for short term storage, replicating data over plural servers or prioritizing data for deletion	4984
+H04N  21/2312	・・・・	ディスクアレイへのデータ配置［２０１１．０１］	Data placement on disk arrays	157
+H04N  21/2315	・・・・・	インターリービングを用いるもの［２０１１．０１］	using interleaving	62
+H04N  21/2318	・・・・・	ストライピングを用いるもの［２０１１．０１］	using striping	51
+H04N  21/232	・・・	サーバ内のコンテンツ取得操作，例．ディスクアレイからのビデオストリームの読み出し［２０１１．０１］	Content retrieval operation within server, e.g. reading video streams from disk arrays	1914
+H04N  21/233	・・・	オーディオ・エレメンタリ・ストリームの処理［２０１１．０１］	Processing of audio elementary streams	2863
+H04N  21/234	・・・	ビデオエレメンタリストリームの処理，例．ビデオストリームのスプライシングまたはエンコードされた動画ストリームのシーングラフの操作［２０１１．０１］	Processing of video elementary streams, e.g. splicing of video streams or manipulating encoded video stream scene graphs	11951
+H04N  21/2343	・・・・	配信するため，またはエンドユーザの要求またはエンドユーザの装置の要求に応じるための，ビデオ信号の再フォーマット操作を含むもの［２０１１．０１］	involving reformatting operations of video signals for distribution or compliance with end-user requests or end-user device requirements	11980
+H04N  21/2347	・・・・	ビデオストリームの暗号化を含むもの［２０１１．０１］	involving video stream encryption	2927
+H04N  21/235	・・・	付加データの処理，例．付加データのスクランブリングまたはコンテンツ記述の処理［２０１１．０１］	Processing of additional data, e.g. scrambling of additional data or processing content descriptors	8356
+H04N  21/236	・・・	ビデオストリームと他のコンテンツまたは付加データの組合せによる多重ストリーム，例．トランスポートストリーム，の組立て，例．ＵＲＬ［ユニフォーム・リソース・ロケータ］のビデオストリームへの挿入，ソフトウェアデータのビデオストリームへの多重化；多重ストリームの再多重化；スタッフィング・ビットの多重ストリームへの挿入，例．固定ビットレートにするためのもの；ＰＥＳの組立て［２０１１．０１］	Assembling of a multiplex stream, e.g. transport stream, by combining a video stream with other content or additional data, e.g. inserting a URL [Uniform Resource Locator ] into a video stream, multiplexing software data into a video stream; Remultiplexing of multiplex streams; Insertion of stuffing bits into the multiplex stream, e.g. to obtain a constant bit-rate; Assembling of a packetised elementary stream	5822
+H04N  21/2362	・・・・	ＳＩ［サービス情報］の生成または処理［２０１１．０１］	Generation or processing of SI [Service Information]	1336
+H04N  21/2365	・・・・	複数のビデオストリームの多重化［２０１１．０１］	Multiplexing of several video streams	1688
+H04N  21/2368	・・・・	オーディオストリームとビデオストリームの多重化［２０１１．０１］	Multiplexing of audio and video streams	1085
+H04N  21/237	・・・	付加データサーバとの通信［２０１１．０１］	Communication with additional data server	496
+H04N  21/238	・・・	伝送ネットワークの下り経路をインターフェースすること，例．ビデオストリームの伝送レートをネットワーク帯域に適合させる；多重ストリームの処理［２０１１．０１］	Interfacing the downstream path of the transmission network, e.g. adapting the transmission rate of a video stream to network bandwidth; Processing of multiplex streams	3965
+H04N  21/2381	・・・・	多重ストリームを特定のネットワーク，例．ＩＰ［インターネット・プロトコル］ネットワーク，に適合させること［２０１１．０１］	Adapting the multiplex stream to a specific network, e.g. an IP [Internet Protocol] network	1299
+H04N  21/2383	・・・・	デジタル・ビットストリームの伝送路符号化，例．変調［２０１１．０１］	Channel coding of digital bit-stream, e.g. modulation	1371
+H04N  21/2385	・・・・	チャンネルの割当て（Ｈ０４Ｎ２１／２６６が優先）；帯域の割当て（Ｈ０４Ｎ２１／２４が優先）［２０１１．０１］	Channel allocation(H04N21/266  takes precedence);Bandwidth allocation(H04N21/24 takes precedence)	1720
+H04N  21/2387	・・・・	エンドユーザからの再生要求，例．特殊再生，に応じたストリーム処理［２０１１．０１］	Stream processing in response to a playback request from an end-user, e.g. for trick-play	2364
+H04N  21/2389	・・・・	多重ストリーム処理，例．多重ストリームの暗号化［２０１１．０１］	Multiplex stream processing, e.g. multiplex stream encrypting	1365
+H04N  21/239	・・・	伝送ネットワークの上り経路をインターフェースすること，例．クライアントの要求に優先順位を付ける［２０１１．０１］	Interfacing the upstream path of the transmission network, e.g. prioritizing client requests	5136
+H04N  21/24	・・・	処理またはリソースの監視，例．サーバの負荷，利用可能な帯域あるいは上りの要求の監視［２０１１．０１］	Monitoring of processes or resources, e.g. monitoring of server load, available bandwidth or upstream requests	8147
+H04N  21/241	・・・	オペレーティング・システム［ＯＳ］の処理，例．サーバのセットアップ［２０１１．０１］	Operating system [OS] processes, e.g. server setup	233
+H04N  21/242	・・・	同期処理，例．ＰＣＲ［プログラム・クロック・リファレンス］の処理［２０１１．０１］	Synchronization processes, e.g. processing of PCR [Program Clock References]	2577
+H04N  21/25	・・	サーバが行う管理操作であって，コンテンツの配信を容易にするため，あるいはエンドユーザまたはクライアントの装置に関するデータを管理するためのもの，例．エンドユーザまたはクライアントの装置の認証，映画推薦のためのユーザ嗜好の学習［２０１１．０１］	Management operations performed by the server for facilitating the content distribution or administrating data related to end-users or client devices, e.g. end-user or client device authentication or learning user preferences for recommending movies	4457
+H04N  21/254	・・・	付加データサーバ，例．買い物用サーバまたは権利管理用サーバ，における管理［２０１１．０１］	Management at additional data server, e.g. shopping server or rights management server	4826
+H04N  21/2543	・・・・	課金［２０１１．０１］	Billing	1807
+H04N  21/2547	・・・・・	第三者への課金，例．広告主への課金［２０１１．０１］	Third party billing, e.g. billing of advertiser	355
+H04N  21/258	・・・	クライアントまたはエンドユーザのデータ管理，例．クライアントの能力，ユーザの嗜好または年齢構成あるいは多数のエンドユーザの嗜好から協調的なデータを得ること［２０１１．０１］	Client or end-user data management, e.g. managing client capabilities, user preferences or demographics or processing of multiple end-users preferences to derive collaborative data	15228
+H04N  21/262	・・・	コンテンツまたは付加データの配信スケジューリング，例．付加データをピーク時以外に伝送すること，ソフトウェアのモジュールを更新すること，カルーセル伝送の周期を計算すること，ビデオストリームの伝送を遅延させること、またはプレイリストの生成［２０１１．０１］	Content or additional data distribution scheduling, e.g. sending additional data at off-peak times, updating software modules, calculating the carousel transmission frequency, delaying a video stream transmission or generating play-lists	9280
+H04N  21/266	・・・	チャネルまたはコンテンツの管理，例．限定受信方式における鍵および限定受信メッセージの生成と管理あるいはＶＯＤユニキャスト・チャネルを併合してマルチキャスト・チャネルにすること［２０１１．０１］	Channel or content management, e.g. generation and management of keys and entitlement messages in a conditional access system or merging a VOD unicast channel into a multicast channel	4476
+H04N  21/2662	・・・・	ビデオストリームの複雑性の制御，例．クライアントの能力に従ったビデオストリームの解像度またはビットレートのスケーリング［２０１１．０１］	Controlling the complexity of the video stream, e.g. by scaling the resolution or bitrate of the video stream based on the client capabilities	3205
+H04N  21/2665	・・・・	異なるソース，例．インターネット及び衛星，からコンテンツを集めること［２０１１．０１］	Gathering content from different sources, e.g. Internet and satellite	1254
+H04N  21/2668	・・・・	特定のエンドユーザのグループのためのチャネルを生成すること，例．ビデオストリームの中にエンドユーザのプロファイルに基づいて特定された広告を挿入することによるもの［２０１１．０１］	Creating a channel for a dedicated end-user group, e.g. by inserting targeted commercials into a video stream based on end-user profiles	3650
+H04N  21/27	・・	サーバを基礎としたエンドユーザのアプリケーション［２０１１．０１］	Server based end-user applications	681
+H04N  21/274	・・・	エンドユーザの要求に対応してエンドユーザに特化されたコンテンツまたは付加データを蓄積すること［２０１１．０１］	Storing end-user specific content or additional data in response to end-user request	1192
+H04N  21/2743	・・・・	クライアントからアップロードされたビデオデータのホスティング［２０１１．０１］	Video hosting of uploaded data from client	2077
+H04N  21/2747	・・・・	下り経路経由で，例．サーバから，受信するビデオプログラムの遠隔蓄積［２０１１．０１］	Remote storage of video programs received via the downstream path, e.g. from the server	549
+H04N  21/278	・・・	エンドユーザがアクセスするためのコンテンツ記述のデータベースサービスまたはディレクトリサービス［２０１１．０１］	Content descriptor database or directory service for end-user access	637
+H04N  21/40	・	コンテンツの受信またはコンテンツとの相互作用に特に適合したクライアントの機器，例．ＳＴＢ［セット・トップ・ボックス］；それらの操作［２０１１．０１］	Client devices specifically adapted for the reception of, or interaction with, content, e.g. STB [set-top-box]; Operations thereof	1547
+H04N  21/41	・・	クライアントの構成；クライアント周辺機器の構成［２０１１．０１］	Structure of client; Structure of client peripherals	17547
+H04N  21/414	・・・	特殊化したクライアントのプラットフォーム，例．車内受信機または移動体端末に埋め込まれたもの［２０１１．０１］	Specialised client platforms, e.g. receiver in car or embedded in a mobile appliance	6636
+H04N  21/4143	・・・・	ＰＣ［パーソナル・コンピュータ］［２０１１．０１］	PC [Personal Computer]	394
+H04N  21/4147	・・・・	ＰＶＲ［パーソナル・ビデオ・レコーダ］（Ｈ０４Ｎ５／７６が優先）［２０１１．０１］	PVR [Personal Video Recorder](H04N5/76 takes precedence)	1529
+H04N  21/418	・・・	クライアント装置と共に使用される外部カード，例．条件付アクセス用［２０１１．０１］	External card to be used in combination with the client device, e.g. for conditional access	2036
+H04N  21/4185	・・・・	支払い用［２０１１．０１］	for payment	240
+H04N  21/422	・・・	入力のみの周辺機器，例．ＧＰＳ［グローバル・ポジショニング・システム］［２０１１．０１］	Input-only peripherals, e.g. global positioning system [GPS]	14150
+H04N  21/4223	・・・・	カメラ（Ｈ０４Ｎ２３／００が優先）［２０１１．０１］	Cameras(H04N23/00 takes precedence)	2966
+H04N  21/4227	・・・・	クライアントの装置から遠隔地，例．業務地，にいるユーザによる遠隔入力［２０１１．０１］	Remote input by a user located remotely from the client device, e.g. at work	1036
+H04N  21/426	・・・	クライアントの内部構成部品（Ｈ０４Ｎ５／４４が優先）［２０１１．０１］	Internal components of the client(H04N5/44  takes precedence)	7150
+H04N  21/43	・・	コンテンツまたは付加データの処理，例．デジタル・ビデオストリームからの付加データの多重分離；基礎的なクライアント操作，例．ホーム・ネットワークの監視またはデコーダ・クロックの同期；クライアントのミドルウェア［２０１１．０１］	Processing of content or additional data, e.g. demultiplexing additional data from a digital video stream; Elementary client operations, e.g. monitoring of home network or synchronizing decoder's clock; Client middleware	10458
+H04N  21/431	・・・	ビジュアル・インターフェースの生成；コンテンツまたは付加データのレンダリング［２０１１．０１］	Generation of visual interfaces; Content or additional data rendering	23228
+H04N  21/432	・・・	ローカルな蓄積媒体，例．ハードディスク，からのコンテンツ取得操作［２０１１．０１］	Content retrieval operation from a local storage medium, e.g. hard-disk	2573
+H04N  21/433	・・・	コンテンツの蓄積操作，例．停止要求またはキャッシング操作に応じた蓄積操作［２０１１．０１］	Content storage operation, e.g. storage operation in response to a pause request or caching operations	11149
+H04N  21/4335	・・・・	ハウスキーピング処理，例．蓄積スペースの制約による消去のためのコンテンツの順位付け［２０１１．０１］	Housekeeping operations, e.g. prioritizing content for deletion because of storage space restrictions	886
+H04N  21/434	・・・	多重ストリームの解体，例．音声ストリームと映像ストリームの多重分離あるいはビデオストリームからの付加データの抽出；多重ストリームの再多重化；ＳＩの抽出または処理；ＰＥＳの解体［２０１１．０１］	Disassembling of a multiplex stream, e.g. demultiplexing audio and video streams or extraction of additional data from a video stream; Remultiplexing of multiplex streams; Extraction or processing of SI; Disassembling of packetised elementary stream	6680
+H04N  21/435	・・・	付加データの処理，例．付加データの暗号解除あるいはトランスポート・ストリームから抜き取ったモジュールからのソフトウェアの再構築［２０１１．０１］	Processing of additional data, e.g. decrypting of additional data or reconstructing software from modules extracted from the transport stream	9732
+H04N  21/436	・・・	ローカルな配信ネットワークをインターフェースすること，例．別のＳＴＢと通信するまたは家庭内で通信すること［２０１１．０１］	Interfacing a local distribution network, e.g. communicating with another STB or inside the home	9740
+H04N  21/4363	・・・・	ビデオストリームを特定のローカルネットワーク，例．ブルートゥース（登録商標）ネットワーク，に適合させること［２０１１．０１］	Adapting the video stream to a specific local network, e.g. a Bluetooth$00AE network	8014
+H04N  21/4367	・・・・	クライアントと周辺機器またはスマートカードの間に安全な通信を確立させること［２０１１．０１］	Establishing a secure communication between the client and a peripheral device or smart card	1054
+H04N  21/437	・・・	伝送ネットワークの上り経路をインターフェースすること，例．クライアントの要求をＶＯＤサーバに伝送するため［２０１１．０１］	Interfacing the upstream path of the transmission network, e.g. for transmitting client requests to a VOD server	2648
+H04N  21/438	・・・	サーバから発せられる伝送ネットワークの下り経路をインターフェースすること，例．ＩＰネットワークからエンコードされた動画ストリームのパケットを取得する［２０１１．０１］	Interfacing the downstream path of the transmission network originating from a server, e.g. retrieving encoded video stream packets from an IP network	7043
+H04N  21/4385	・・・・	多重ストリーム処理，例．多重ストリームの暗号解除［２０１１．０１］	Multiplex stream processing, e.g. multiplex stream decrypting	1234
+H04N  21/439	・・・	オーディオ・エレメンタリ・ストリームの処理［２０１１．０１］	Processing of audio elementary streams	7800
+H04N  21/44	・・・	ビデオ・エレメンタリ・ストリームの処理，例．入力されるビデオストリームとローカルの蓄積から取得されたビデオクリップとをスプライシングすること，あるいはエンコードされた動画ストリームのシーン・グラフに従ってシーンをレンダリングすること［２０１１．０１］	Processing of video elementary streams, e.g. splicing a video clip retrieved from local storage with an incoming video stream or rendering scenes according to encoded video stream scene graphs	17980
+H04N  21/4402	・・・・	家庭用の再分配，蓄積またはリアルタイムの表示のためのビデオ信号の再フォーマット処理を含むもの［２０１１．０１］	involving reformatting operations of video signals for household redistribution, storage or real-time display	11068
+H04N  21/4405	・・・・	ビデオストリームの暗号解除を含むもの［２０１１．０１］	involving video stream decryption	2490
+H04N  21/4408	・・・・	ビデオストリームの暗号化を含むもの，例．ホームネットワーク配信のための，暗号解除されたビデオストリームの再暗号化［２０１１．０１］	involving video stream encryption, e.g. re-encrypting a decrypted video stream for redistribution in a home network	1249
+H04N  21/441	・・・	エンドユーザ識別の獲得［２０１１．０１］	Acquiring end-user identification	1189
+H04N  21/4415	・・・・	ユーザの生体的特徴を用いるもの，例．音声認識または指紋走査によるもの［２０１１．０１］	using biometric characteristics of the user, e.g. by voice recognition or fingerprint scanning	1247
+H04N  21/442	・・・	処理またはリソースの監視，例．記録装置の失敗の検出，下りの帯域，映画が視聴された回数あるいは内部のハードディスクから利用可能な蓄積スペースの監視［２０１１．０１］	Monitoring of processes or resources, e.g. detecting the failure of a recording device, monitoring the downstream bandwidth, the number of times a movie has been viewed or the storage space available from the internal hard disk	19122
+H04N  21/4425	・・・・	クライアントのエラー処理またはハードウェアの欠陥の監視［２０１１．０１］	Monitoring of client processing errors or hardware failure	1392
+H04N  21/443	・・・	ＯＳ手順，例．ＳＴＢの起動，ＳＴＢへのＪａｖａ仮想マシンの実装あるいはＳＴＢ内の電源管理［２０１１．０１］	OS processes, e.g. booting an STB, implementing a Java virtual machine in an STB or power management in an STB	7793
+H04N  21/45	・・	受信あるいはコンテンツとの相互作用を容易にするためあるいはエンドユーザまたはクライアントの機器それ自体に関連したデータを管理するために，クライアントが行う管理操作，例．映画を薦めるためあるいはスケジュールの競合を解消するためのユーザ嗜好の学習［２０１１．０１］	Management operations performed by the client for facilitating the reception of or the interaction with the content or administrating data related to the end-user or to the client device itself, e.g. learning user preferences for recommending movies or resolving scheduling conflicts	8004
+H04N  21/454	・・・	コンテンツのフィルタリング，例．広告のブロック［２０１１．０１］	Content filtering, e.g. blocking advertisements	2017
+H04N  21/4545	・・・・	フィルタリング用アルゴリズムへの入力，例．画面のある領域のフィルタリング［２０１１．０１］	Input to filtering algorithms, e.g. filtering a region of the image	600
+H04N  21/458	・・・	個人向けのストリームを生成するためのコンテンツのスケジューリング，例．ローカルに蓄積された広告を入力されるストリームと組み合わせることによるもの；更新操作，例．ＯＳモジュールのためのもの［２０１１．０１］	Scheduling content for creating a personalised stream, e.g. by combining a locally stored advertisement with an incoming stream; Updating operations, e.g. for OS modules	4329
+H04N  21/462	・・・	コンテンツまたは付加データの管理，例．インターネットとヘッドエンドから受信したデータからマスターＥＰＧを作成すること，あるいはクライアントの能力に基づいて解像度またはビットレートをスケーリングすることによってビデオストリームの複雑性を制御すること［２０１１．０１］	Content or additional data management e.g. creating a master electronic program guide from data received from the Internet and a Head-end or controlling the complexity of a video stream by scaling the resolution or bit-rate based on the client capabilities	7419
+H04N  21/4623	・・・・	限定受信メッセージの処理，例．ＥＣＭ［エンタイトルメント・コントロール・メッセージ］またはＥＭＭ［エンタイトルメント・マネジメント・メッセージ］［２０１１．０１］	Processing of entitlement messages, e.g. ECM [Entitlement Control Message] or EMM [Entitlement Management Message]	1787
+H04N  21/4627	・・・・	権利の管理［２０１１．０１］	Rights management	2923
+H04N  21/466	・・・	知的な管理のための学習プロセス，例．映画を薦めるためのユーザ嗜好の学習［２０１１．０１］	Learning process for intelligent management, e.g. learning user preferences for recommending movies	6399
+H04N  21/47	・・	エンドユーザのアプリケーション［２０１１．０１］	End-user applications	2262
+H04N  21/472	・・・	コンテンツ，付加データまたはサービスを要求するためのエンドユーザ・インターフェース；コンテンツと相互作用するためのエンドユーザ・インターフェイス，例．コンテンツ予約またはリマインダの設定のためのもの，イベント通知を要求するためのものあるいは表示されたコンテンツを操作するためのもの［２０１１．０１］	End-user interface for requesting content, additional data or services; End-user interface for interacting with content, e.g. for content reservation or setting reminders, for requesting event notification or for manipulating displayed content	20675
+H04N  21/4722	・・・・	コンテンツと結合された付加データを要求するためのもの［２０１１．０１］	for requesting additional data associated with the content	2446
+H04N  21/4725	・・・・・	画面上のインタラクティブな領域，例．ホットスポット，を用いるもの［２０１１．０１］	using interactive regions of the image, e.g. hot spots	1147
+H04N  21/4728	・・・・	ＲＯＩ［関心の領域］を選択するためのもの，例．選択した領域について解像度の高い版を要求するためのもの［２０１１．０１］	for selecting a ROI [Region Of Interest], e.g. for requesting a higher resolution version of a selected region	1918
+H04N  21/475	・・・	エンドユーザのデータ，例．ＰＩＮ［個人識別番号］または嗜好データ，を入力するためのエンドユーザ・インターフェース［２０１１．０１］	End-user interface for inputting end-user data, e.g. PIN [Personal Identification Number] or preference data	6441
+H04N  21/478	・・・	補助的なサービス，例．電話発信者の識別表示または買い物アプリケーション［２０１１．０１］	Supplemental services, e.g. displaying phone caller identification or shopping application	6654
+H04N  21/4782	・・・・	ウェブ・ブラウジング［２０１１．０１］	Web browsing	2433
+H04N  21/4784	・・・・	報償を受け取るもの［２０１１．０１］	receiving rewards	904
+H04N  21/4786	・・・・	電子メール［２０１１．０１］	e-mailing	407
+H04N  21/4788	・・・・	他のユーザとの通信，例．チャット［２０１１．０１］	communicating with other users, e.g. chatting	8797
+H04N  21/482	・・・	番組選択のためのエンドユーザ・インターフェース［２０１１．０１］	End-user interface for program selection	9784
+H04N  21/485	・・・	クライアントの環境設定のためのエンドユーザ・インターフェース［２０１１．０１］	End-user interface for client configuration	5826
+H04N  21/488	・・・	データ・サービス，例．ニュース・ティッカー［２０１１．０１］	Data services, e.g. news ticker	7796
+H04N  21/60	・	サーバとクライアントの間，あるいは離れた複数のクライアント間でビデオ配信するためのネットワークの構成または処理；クライアント，サーバおよびネットワーク構成部分間の制御信号；サーバとクライアント間の管理データの伝送；サーバとクライアント間の通信の細部［２０１１．０１］	Network structure or processes for video distribution between server and client or between remote clients; Control signalling between clients, server and network components; Transmission of management data between server and client; Communication details between server and client	794
+H04N  21/61	・・	ネットワークの物理的な構成；信号処理［２０１１．０１］	Network physical structure; Signal processing	8451
+H04N  21/63	・・	クライアント，サーバおよびネットワーク構成部分の間の制御信号；サーバとクライアントの間のビデオ配信のためのネットワーク手順，例．基礎層と強化層を異なる伝送経路によって伝送すること，離れた複数のＳＴＢ間にインターネット経由でピア−トゥ−ピアの通信を確立すること；通信プロトコル；アドレッシング［２０１１．０１］	Control signaling between client, server and network components; Network processes for video distribution between server and clients, e.g. transmitting basic layer and enhancement layers over different transmission paths, setting up a peer-to-peer communication via Internet between remote STB's; Communication protocols; Addressing	2513
+H04N  21/633	・・・	サーバからネットワーク構成部分またはクライアントに対して発行される制御信号［２０１１．０１］	Control signals issued by server directed to the network components or client	174
+H04N  21/6332	・・・・	クライアントに対するもの［２０１１．０１］	directed to client	866
+H04N  21/6334	・・・・・	認証のためのもの，例．鍵を伝送することによるもの［２０１１．０１］	for authorisation, e.g. by transmitting a key	1696
+H04N  21/6336	・・・・・	デコーダに対するもの［２０１１．０１］	directed to decoder	215
+H04N  21/6338	・・・・	ネットワークに対するもの［２０１１．０１］	directed to network	206
+H04N  21/637	・・・	クライアントからサーバまたはネットワーク構成部分に対して発行される制御信号［２０１１．０１］	Control signals issued by the client directed to the server or network components	286
+H04N  21/6371	・・・・	ネットワークに対するもの［２０１１．０１］	directed to network	137
+H04N  21/6373	・・・・	レート制御のためのもの［２０１１．０１］	for rate control	652
+H04N  21/6375	・・・・	再送要求のためのもの［２０１１．０１］	for requesting retransmission	400
+H04N  21/6377	・・・・	サーバに対するもの［２０１１．０１］	directed to server	974
+H04N  21/6379	・・・・・	エンコーダに対するもの［２０１１．０１］	directed to encoder	324
+H04N  21/64	・・・	アドレッシング［２０１１．０１］	Addressing	528
+H04N  21/6402	・・・・	クライアントのためのアドレス割当て処理［２０１１．０１］	Address allocation for clients	380
+H04N  21/6405	・・・・	マルチキャスティングのためのもの［２０１１．０１］	Multicasting	1597
+H04N  21/6408	・・・・	ユニキャスティングのためのもの［２０１１．０１］	Unicasting	476
+H04N  21/643	・・・	通信プロトコル［２０１１．０１］	Communication protocols	4941
+H04N  21/6433	・・・・	ＤＳＭ−ＣＣ［デジタル・ストレージ・メディア−コマンド・アンド・コントロール・プロトコル］［２０１１．０１］	DSM-CC [Digital Storage Media - Command and Control Protocol]	39
+H04N  21/6437	・・・・	ＲＴＰ［リアルタイム・トランスポート・プロトコル］［２０１１．０１］	RTP [Real-time Transport Protocol]	2021
+H04N  21/647	・・・	ネットワーク構成部分とサーバまたはクライアントの間の制御信号；サーバとクライアントの間のビデオ配信のためのネットワーク手順，例．パケットをドロップすることによりビデオストリームの品質を制御するもの，ネットワーク内における不正な改変からコンテンツを保護するもの，ネットワーク負荷を監視するもの，ＩＰと無線のような２つの異なるネットワークの間を橋渡しするもの［２０１１．０１］	Control signaling between network components and server or clients; Network processes for video distribution between server and clients, e.g. controlling the quality of the video stream, by dropping packets, protecting content from unauthorised alteration within the network, monitoring of network load or bridging between two different networks, e.g. between IP and wireless	5525
+H04N  21/65	・・	クライアントとサーバの間の管理データの伝送［２０１１．０１］	Transmission of management data between client and server	314
+H04N  21/654	・・・	サーバによるクライアント向けの伝送［２０１１．０１］	Transmission by server directed to the client	485
+H04N  21/6543	・・・・	クライアントに操作，例．蓄積，を強要するもの［２０１１．０１］	for forcing some client operations, e.g. recording	799
+H04N  21/6547	・・・・	パラメータ，例．クライアントのセットアップのためのもの，からなるもの［２０１１．０１］	comprising parameters, e.g. for client setup	660
+H04N  21/658	・・・	クライアントによるサーバ向けの伝送［２０１１．０１］	Transmission by the client directed to the server	3214
+H04N  21/6583	・・・・	確認応答［２０１１．０１］	Acknowledgement	165
+H04N  21/6587	・・・・	制御パラメータ，例．特殊再生のコマンドまたは視点の選択［２０１１．０１］	Control parameters, e.g. trick play commands or viewpoint selection	2266
+H04N  21/80	・	コンテンツ・クリエーターによる，配信手順とは独立した，コンテンツまたは追加データの生成または処理；コンテンツそれ自体［２０１１．０１］	Generation or processing of content or additional data by content creator independently of the distribution process; Content <u>per se</u>	638
+H04N  21/81	・・	コンテンツのモノメディア構成部分［２０１１．０１］	Monomedia components thereof	17220
+H04N  21/83	・・	コンテンツと関連づけられた保護データまたは記述データの生成または処理；コンテンツの構造化［２０１１．０１］	Generation or processing of protective or descriptive data associated with content; Content structuring	856
+H04N  21/835	・・・	保護データ，例．証明書，の生成［２０１１．０１］	Generation of protective data, e.g. certificates	1071
+H04N  21/8352	・・・・	コンテンツまたはソースを特定するデータを含むもの，例．ＵＭＩＤ［ユニーク・マテリアル・アイデンティファイア］［２０１１．０１］	involving content or source identification data, e.g. UMID [Unique Material Identifier]	1135
+H04N  21/8355	・・・・	使用法のデータ，例．許可されたコピーの枚数または閲覧の回数，を含むもの［２０１１．０１］	involving usage data, e.g. number of copies or viewings allowed	893
+H04N  21/8358	・・・・	電子透かしを含むもの［２０１１．０１］	involving watermark	1906
+H04N  21/84	・・・	記述データ，例．コンテンツ記述，の生成または処理［２０１１．０１］	Generation or processing of descriptive data, e.g. content descriptors	4304
+H04N  21/8405	・・・・	キーワードで表されるもの［２０１１．０１］	represented by keywords	588
+H04N  21/845	・・・	コンテンツの構造化，例．コンテンツを時間区分に分解するもの［２０１１．０１］	Structuring of content, e.g. decomposing content into time segments	9665
+H04N  21/85	・・	コンテンツの組立て；マルチメディアアプリケーションの生成［２０１１．０１］	Assembly of content; Generation of multimedia applications	589
+H04N  21/854	・・・	コンテンツのオーサリング［２０１１．０１］	Content authoring	3476
+H04N  21/8541	・・・・	枝分かれ，例．物語の異なるエンディングへの，を含むもの［２０１１．０１］	involving branching, e.g. to different story endings	286
+H04N  21/8543	・・・・	記述言語，例．ＭＨＥＧ［マルチメディア・ハイパーメディア・インフォメーション・コーディング・エキスパート・グループ］またはＸＭＬ［エクステンシブル・マークアップ・ランゲージ］，を用いるもの［２０１１．０１］	using a description language, e.g. MHEG [Multimedia and Hypermedia information coding Expert Group] or XML [eXtensible Markup Language]	921
+H04N  21/8545	・・・・	インタラクティブアプリケーションを生成するためのもの［２０１１．０１］	for generating interactive applications	851
+H04N  21/8547	・・・・	コンテンツを同期させるためのタイムスタンプを含むもの［２０１１．０１］	involving timestamps for synchronizing content	3799
+H04N  21/8549	・・・・	映像の要約，例．映画予告編，の作成［２０１１．０１］	Creating video summaries, e.g. movie trailer	2133
+H04N  21/858	・・・	データをコンテンツにリンクさせること，例．ＵＲＬを対象ビデオにリンクさせるものあるいはホットスポットを生成することによるもの［２０１１．０１］	Linking data to content, e.g. by linking an URL to a video object or by creating a hotspot	3902
+H04N  23/00		電子イメージセンサを含むカメラまたはカメラモジュールおよびその制御［２０２３．０１］	Cameras or camera modules comprising electronic image sensors; Control thereof	2878
+H04N  23/10	・	異なる波長の光から画像信号を生成するためのもの［２０２３．０１］	for generating image signals from different wavelengths	495
+H04N  23/11	・・	可視光線から赤外線までの波長の光から画像信号を生成するもの［２０２３．０１］	for generating image signals from visible and infrared light wavelengths	817
+H04N  23/12	・・	１つのセンサのみを有するもの［２０２３．０１］	with one sensor only	11960
+H04N  23/13	・・	複数のセンサを有するもの［２０２３．０１］	with multiple sensors	2349
+H04N  23/15	・・・	レジストレーションずれを回避または補正するための回路を用いる画像信号の生成［２０２３．０１］	Image signal generation with circuitry for avoiding or correcting image misregistration	565
+H04N  23/16	・・・	これに関連する光学的装置，例．分光のためのものまたは色補正のためのもの［２０２３．０１］	Optical arrangements associated therewith, e.g. for beam-splitting or for colour correction	995
+H04N  23/17	・・	光学―機械的走査手段のみを用いるもの［２０２３．０１］	using opto-mechanical scanning means only	55
+H04N  23/20	・	赤外線のみから画像信号を生成するもの［２０２３．０１］	for generating image signals from infrared radiation only	936
+H04N  23/21	・・	近赤外［ＮＩＲ］線から［２０２３．０１］	from near infrared [NIR] radiation	74
+H04N  23/23	・・	熱赤外線から［２０２３．０１］	from thermal infrared radiation	569
+H04N  23/30	・	Ｘ線から画像信号を生成するためのもの［２０２３．０１］	for generating image signals from X-rays	91
+H04N  23/40	・	撮像管用回路の細部	Circuit details for pick-up tubes	8860
+H04N  23/45	・	異なるタイプまたは異なるモードで動作する２つ以上のイメージセンサーから画像信号を生成するもの，例．動画用ＣＭＯＳセンサーと静止画用ＣＣＤの組み合わせ［２０２３．０１］	for generating image signals from two or more image sensors being of different type or operating in different modes, e.g. with a CMOS sensor for moving images in combination with a charge-coupled device [CCD] for still images	1192
+H04N  23/50	・	構造的細部［２０２３．０１］	Constructional details	16957
+H04N  23/51	・・	筐体［２０２３．０１］	Housings	6272
+H04N  23/52	・・	イメージセンサの動作を最適化する要素，例．電磁干渉［ＥＭＩ］対策、熱伝導または冷却要素による温度制御［２０２３．０１］	Elements optimising image sensor operation, e.g. for electromagnetic interference [EMI] protection or temperature control by heat transfer or cooling elements	2400
+H04N  23/53	・・	電子ビューファインダ，例．回動可能、着脱可能［２０２３．０１］	of electronic viewfinders, e.g. rotatable or detachable	519
+H04N  23/54	・・	電子イメージセンサ，撮像管，変位コイルまたは集束コイル［２０２３．０１］	Mounting of pick-up tubes, electronic image sensors, deviation or focusing coils	4943
+H04N  23/55	・・	電子イメージセンサに特に適合させた光学要素，およびその実装［２０２３．０１］	Optical parts specially adapted for electronic image sensors; Mounting thereof	7719
+H04N  23/56	・	照明手段を備えるもの［２０２３．０１］	provided with illuminating means	3801
+H04N  23/57	・	他の機器に組み込むために特に適合させたカメラやカメラモジュールの機械的または電気的細部［２０２３．０１］	Mechanical or electrical details of cameras or camera modules specially adapted for being embedded in other devices	5385
+H04N  23/58	・	カメラ本体を動かすことなくカメラの視野を変更するための手段，例．光学要素やイメージセンサを揺れ動かすまたはパンニングするもの［２０２３．０１］	Means for changing the camera field of view without moving the camera body, e.g. nutating or panning of optics or image sensors	444
+H04N  23/60	・	カメラまたはカメラモジュールの制御［２０２３．０１］	Control of cameras or camera modules	8666
+H04N  23/61	・・	認識された物体に基づく制御［２０２３．０１］	based on recognised objects	1828
+H04N  23/611	・・・	認識された物体が人体のパーツを含むもの［２０２３．０１］	where the recognised objects include parts of the human body	1823
+H04N  23/617	・・	カメラ制御のためのプログラムないしアプリケーションのアップグレードまたはアップデート［２０２３．０１］	Upgrading or updating of programs or applications for camera control	315
+H04N  23/62	・・	ユーザインタフェースを介したパラメータの制御［２０２３．０１］	Control of parameters via user interfaces	1384
+H04N  23/63	・・	電子ビューファインダを用いる制御［２０２３．０１］	by using electronic viewfinders	3801
+H04N  23/65	・・	電源供給に関連したカメラ動作の制御［２０２３．０１］	Control of camera operation in relation to power supply	1114
+H04N  23/66	・・	カメラまたはカメラパーツの遠隔制御，例．遠隔制御装置による制御［２０２３．０１］	Remote control of cameras or camera parts, e.g. by remote control devices	1652
+H04N  23/661	・・・	ネットワークを介してカメラ制御信号を伝送するもの，例．インターネットを介した制御［２０２３．０１］	Transmitting camera control signals through networks, e.g. control via the Internet	1354
+H04N  23/663	・・・	電子イメージセンサ信号に基づいて交換可能なカメラパーツを制御するためのもの［２０２３．０１］	for controlling interchangeable camera parts based on electronic image sensor signals	119
+H04N  23/667	・・	カメラの動作モードの切替，例．静止画／動画，スポーツ／ノーマル，または高解像度／低解像度の間で［２０２３．０１］	Camera operation mode switching, e.g. between still and video, sport and normal or high and low resolution modes	1774
+H04N  23/67	・・	電子イメージセンサ信号に基づく焦点制御［２０２３．０１］	Focus control based on electronic image sensor signals	3658
+H04N  23/68	・・	シーンの安定した撮像のための制御，例．カメラ本体の振動に対する補正［２０２３．０１］	for stable pick-up of the scene, e.g. compensating for camera body vibrations	3341
+H04N  23/69	・・	視野角を変更するための手段の制御，例．光学ズーム，電子ズーム［２０２３．０１］	Control of means for changing angle of the field of view, e.g. optical zoom objectives or electronic zooming	1609
+H04N  23/695	・・	視野を変更するためのカメラ方向の制御，例．パン，チルトまたは被写体追跡に基づくもの［２０２３．０１］	Control of camera direction for changing a field of view, e.g. pan, tilt or based on tracking of objects	7732
+H04N  23/698	・・	拡大された視野を達成するための制御，例．パノラマ画像撮影［２０２３．０１］	for achieving an enlarged field of view, e.g. panoramic image capture	1820
+H04N  23/70	・	シーンの明るさの差異あるいは変化を補正するための回路［２０２３．０１］	Circuitry for compensating brightness variation in the scene	819
+H04N  23/71	・・	明るさの差異あるいは変化を評価するための回路［２０２３．０１］	Circuitry for evaluating the brightness variation	1350
+H04N  23/72	・・	２つ以上の補正制御の組み合わせ［２０２３．０１］	Combination of two or more compensation controls	378
+H04N  23/73	・・	露光時間に作用させることにより補正するもの［２０２３．０１］	by influencing the exposure time	1514
+H04N  23/74	・・	照明手段を用いてシーンの明るさに影響を与えることにより補正するもの［２０２３．０１］	by influencing the scene brightness using illuminating means	1519
+H04N  23/741	・・	電子イメージセンサのダイナミックレンジと比較して，画像のダイナミックレンジを拡大させるもの［２０２３．０１］	by increasing the dynamic range of the image compared to the dynamic range of the electronic image sensors	796
+H04N  23/743	・・	ブラケティング，すなわち，露光条件を変化させながら一連の画像を取得するもの［２０２３．０１］	Bracketing, i.e. taking a series of images with varying exposure conditions	239
+H04N  23/745	・・	照明によって生じるフリッカの抑制またはフリッカ周波数の検出，例．蛍光灯照明またはパルスＬＥＤ照明によるもの［２０２３．０１］	Detection of flicker frequency or suppression of flicker wherein the flicker is caused by illumination, e.g. due to fluorescent tube illumination or pulsed LED illumination	231
+H04N  23/75	・・	カメラの光学的部分に作用させることにより補正するもの［２０２３．０１］	by influencing optical camera components	9407
+H04N  23/76	・・	映像信号に作用させることにより補正するもの［２０２３．０１］	by influencing the image signals	6266
+H04N  23/80	・	パイプライン処理するカメラ；その要素［２０２３．０１］	Camera processing pipelines; Components thereof	1498
+H04N  23/81	・・	画像信号生成の妨害を抑制または最小にするためのもの［２０２３．０１］	for suppressing or minimising disturbance in the image signal generation	1055
+H04N  23/82	・・	シーンの明るさとは関係なくカメラの応答を制御するためのもの，例．ガンマ補正［２０２３．０１］	for controlling camera response irrespective of the scene brightness, e.g. gamma correction	64
+H04N  23/83	・・・	色信号に特に適したもの［２０２３．０１］	specially adapted for colour signals	57
+H04N  23/84	・・	色信号を処理するためのもの［２０２３．０１］	for processing colour signals	886
+H04N  23/85	・・・	マトリックスのためのもの［２０２３．０１］	for matrixing	105
+H04N  23/86	・・・	色信号の色の飽和を制御するためのもの，例．自動色飽和度制御回路［２０２３．０１］	for controlling the colour saturation of colour signals, e.g. automatic chroma control circuits	106
+H04N  23/87	・・・	色信号の直流分および低周波分の再挿入のためのもの［２０２３．０１］	for reinsertion of DC or slowly varying components of colour signals	4
+H04N  23/88	・・・	色バランスのためのもの，例．白バランス回路または色温度制御［２０２３．０１］	for colour balance, e.g. white-balance circuits or colour temperature control	608
+H04N  23/90	・	カメラまたはカメラモジュールの配置，例．テレビスタジオまたはスポーツスタジアムにおける複数のカメラ［２０２３．０１］	Arrangement of cameras or camera modules, e.g. multiple cameras in TV studios or sports stadiums	11608
+H04N  23/95	・	コンピュテーショナルフォトグラフィーシステム，例．ライトフィールドイメージングシステム［２０２３．０１］	Computational photography systems, e.g. light-field imaging systems	1285
+H04N  23/951	・・	２以上の画像を使用して、解像度、フレームレート、アスペクト比に影響を与えるもの［２０２３．０１］	by using two or more images to influence resolution, frame rate or aspect ratio	1332
+H04N  23/955	・・	レンズレスイメージングのためのもの［２０２３．０１］	for lensless imaging	36
+H04N  23/957	・・	ライトフィールドまたはプレノプティックカメラまたはカメラモジュール［２０２３．０１］	Light-field or plenoptic cameras or camera modules	218
+H04N  23/958	・・	拡張された被写界深度のためのシステム［２０２３．０１］	for extended depth of field imaging	72
+H04N  23/959	・・・	撮影中の被写界深度調整によるもの，例．シーンの特徴に基づいた深度範囲の最大化または設定［２０２３．０１］	by adjusting depth of field during image capture, e.g. maximising or setting range based on scene characteristics	123
+H04N  25/00		固体撮像素子［ＳＳＩＳ］の回路，またはその制御［２０２３．０１］	Circuitry of solid-state image sensors [SSIS]; Control thereof	38805
+H04N  25/10	・	異なる波長の光を画像信号に変換するためのもの［２０２３．０１］	for transforming different wavelengths into image signals	361
+H04N  25/11	・・	カラーフィルタアレイ［ＣＦＡ］の配置；フィルタのモザイク［２０２３．０１］	Arrangement of colour filter arrays [CFA]; Filter mosaics	309
+H04N  25/13	・・・	フィルタ要素のスペクトルの特性に特徴のあるもの［２０２３．０１］	characterised by the spectral characteristics of the filter elements	415
+H04N  25/131	・・・・	赤外線波長を通過させる要素を含むもの［２０２３．０１］	including elements passing infrared wavelengths	123
+H04N  25/133	・・・・	可視光の全色を通過させる要素を含むもの，例．白色光を通すフィルタ［２０２３．０１］	including elements passing panchromatic light, e.g. filters passing white light	88
+H04N  25/17	・・	光子吸収深度に基づく色分解，例．各画素位置で同時に取得されるフルカラー解像度［２０２３．０１］	Colour separation based on photon absorption depth, e.g. full colour resolution obtained simultaneously at each pixel location	25
+H04N  25/20	・	赤外線のみを画像信号に変換するためのもの［２０２３．０１］	for transforming only infrared radiation into image signals	115
+H04N  25/21	・・	熱赤外線を画像信号に変換するためのもの［２０２３．０１］	for transforming thermal infrared radiation into image signals	59
+H04N  25/30	・	Ｘ線を画像信号に変換するためのもの［２０２３．０１］	for transforming X-rays into image signals	81
+H04N  25/40	・	走査回路の制御による固体撮像素子からの画素データの取得に特徴のあるもの，例．画素数の変更［２０２３．０１］	Extracting pixel data from image sensors by controlling scanning circuits, e.g. by modifying the number of pixels sampled or to be sampled	512
+H04N  25/42	・・	解像度またはアスペクト比が異なる動作モード間での切替え，例．インターレースモードとノンインターレースモード［２０２３．０１］	by switching between different modes of operation using different resolutions or aspect ratios, e.g. switching between interlaced and non-interlaced mode	1077
+H04N  25/44	・・	ＳＩＳＳアレイの部分的な読出しによるもの［２０２３．０１］	by partially reading an SSIS array	196
+H04N  25/441	・・・	画素アレイの選択された行または列から連続して画素を読み出すことによるもの，例．インターレース走査［２０２３．０１］	by reading contiguous pixels from selected rows or columns of the array, e.g. interlaced scanning	51
+H04N  25/443	・・・	画素アレイの選択された二次元領域から画素を読み出すことによるもの，例．ウィンドウイングまたは電子ズームのためのもの［２０２３．０１］	by reading pixels from selected 2D regions of the array, e.g. for windowing or digital zooming	92
+H04N  25/445	・・・	画素アレイの読み出し部分の中で，複数の連続する画素をスキップすることによるもの［２０２３．０１］	by skipping some contiguous pixels within the read portion of the array	45
+H04N  25/447	・・・	情報の損失の有無にかかわらずカラーパターンを維持するもの［２０２３．０１］	by preserving the colour pattern with or without loss of information	9
+H04N  25/46	・・	画素の合成またはビニングによるもの［２０２３．０１］	by combining or binning pixels	2996
+H04N  25/47	・	画素アドレスを生成する画像センサ；イベント駆動方式の画像センサ：画像データに基づく読み出し画素の選択［２０２３．０１］	Image sensors with pixel address output; Event-driven image sensors; Selection of pixels to be read out based on image data	346
+H04N  25/48	・	シーンとセンサとの相対的な位置をシフトさせることによる高解像度化［２０２３．０１］	Increasing resolution by shifting the sensor relative to the scene	1295
+H04N  25/50	・	ＳＳＩＳの露光の制御［２０２３．０１］	Control of the SSIS exposure	226
+H04N  25/51	・・	利得の制御［２０２３．０１］	Control of the gain	92
+H04N  25/53	・・	蓄積時間の制御［２０２３．０１］	Control of the integration time	289
+H04N  25/531	・・・	ＣＭＯＳ型ＳＳＩＳにおいて、ローリングシャッターの制御をするもの［２０２３．０１］	by controlling rolling shutters in CMOS SSIS	140
+H04N  25/532	・・・	ＣＭＯＳ型ＳＳＩＳにおいて、グルーバルシャッターの制御をするもの［２０２３．０１］	by controlling global shutters in CMOS SSIS	70
+H04N  25/533	・・・	異なるセンサ領域に異なる蓄積時間を使用することによるもの［２０２３．０１］	by using differing integration times for different sensor regions	86
+H04N  25/534	・・・・	スペクトル成分に依存するもの［２０２３．０１］	depending on the spectral component	15
+H04N  25/535	・・・・	動的領域の選択によるもの［２０２３．０１］	by dynamic region selection	12
+H04N  25/57	・・	ダイナミックレンジの制御［２０２３．０１］	Control of the dynamic range	551
+H04N  25/571	・・・	非線形応答を伴うもの［２０２３．０１］	involving a non-linear response	50
+H04N  25/58	・・・	多重露光を伴うもの［２０２３．０１］	involving two or more exposures	132
+H04N  25/581	・・・・	同時に取得するもの［２０２３．０１］	acquired simultaneously	40
+H04N  25/583	・・・・・	異なる蓄積時間を有するもの［２０２３．０１］	with different integration times	98
+H04N  25/585	・・・・・	センサ内で異なる感度の画素を有するもの，例．高速または低速画素，または異なるサイズの画素［２０２３．０１］	with pixels having different sensitivities within the sensor, e.g. fast or slow pixels or pixels having different sizes	106
+H04N  25/587	・・・・	連続的に取得するもの，例．奇数と偶数フィールドの組み合わせを用いるもの［２０２３．０１］	acquired sequentially, e.g. using the combination of odd and even image fields	34
+H04N  25/589	・・・・・	異なる蓄積時間を有するもの，例．短時間露光と長時間露光［２０２３．０１］	with different integration times, e.g. short and long exposures	99
+H04N  25/59	・・・	画素内に蓄積可能な電荷量の制御によるもの，例．フローティングノード容量の電荷変換比を変更するもの［２０２３．０１］	by controlling the amount of charge storable in the pixel, e.g. modification of the charge conversion ratio of the floating node capacitance	280
+H04N  25/60	・	ノイズ処理，例．ノイズの検出，補正，低減または除去［２０２３．０１］	Noise processing, e.g. detecting, correcting, reducing or removing noise	657
+H04N  25/61	・・	レンズユニットにのみ起因するノイズ，例．フレア，シェーディング，口径食または　”ｃｏｓ４　”［２０２３．０１］	the noise originating only from the lens unit, e.g. flare, shading, vignetting or "cos4"	135
+H04N  25/611	・・・	色収差の修正［２０２３．０１］	Correction of chromatic aberration	46
+H04N  25/615	・・・	光学系システムをモデル化した伝達関数を含むもの，例．光学伝達関数［ＯＴＦ］，位相伝達関数［ＰｈＴＦ］または変調伝達関数［ＭＴＦ］［２０２３．０１］	involving a transfer function modelling the optical system, e.g. optical transfer function [OTF], phase transfer function [PhTF] or modulation transfer function [MTF]	24
+H04N  25/616	・・	相関サンプリング機能を含むもの，例．相関二重サンプリング［ＣＤＳ］または相関三重サンプリング［２０２３．０１］	involving a correlated sampling function, e.g. correlated double sampling [CDS] or triple sampling	183
+H04N  25/617	・・	電磁干渉を減少させるためのもの，例．クロッキングノイズ［２０２３．０１］	for reducing electromagnetic interference, e.g. clocking noise	56
+H04N  25/618	・・	ランダムまたは高周波数ノイズに関するもの［２０２３．０１］	for random or high-frequency noise	28
+H04N  25/62	・・	露光により発生した過剰電荷のノイズの検出または低減，例．スミア，　ブルーミング，　ゴースト画像，画素間のクロストークまたは漏洩［２０２３．０１］	Detection or reduction of noise due to excess charges produced by the exposure, e.g. smear, blooming, ghost image, crosstalk or leakage between pixels	213
+H04N  25/621	・・・	ブルーミングを制御するためのもの［２０２３．０１］	for the control of blooming	47
+H04N  25/625	・・・	スミアを制御するためのもの［２０２３．０１］	for the control of smear	17
+H04N  25/626	・・・	画像の読み出し後に残る残留電荷によるノイズの低減，例．ゴースト画像または残像を削除するためのもの［２０２３．０１］	Reduction of noise due to residual charges remaining after image readout, e.g. to remove ghost images or afterimages	39
+H04N  25/627	・・・	反転したコントラストまたは食現象の検出または低減［２０２３．０１］	Detection or reduction of inverted contrast or eclipsing effects	13
+H04N  25/628	・・・	ＣＭＯＳセンサの飽和領域により発生する横筋を低減するためのもの［２０２３．０１］	for reducing horizontal stripes caused by saturated regions of CMOS sensors	13
+H04N  25/63	・・	暗電流に適用されるもの［２０２３．０１］	applied to dark current	290
+H04N  25/633	・・・	オプティカルブラック画素の使用によるもの［２０２３．０１］	by using optical black pixels	76
+H04N  25/65	・・	リセットノイズに適用されるもの，例．ＣＤＳ以外の技術によるＣＭＯＳの構造と関連性を有するＫＴＣノイズ［２０２３．０１］	applied to reset noise, e.g. KTC noise related to CMOS structures by techniques other than CDS	2133
+H04N  25/67	・・	固定パターンノイズに適用されるもの，例．応答の非均一性［２０２３．０１］	applied to fixed-pattern noise, e.g. non-uniformity of response	124
+H04N  25/671	・・・	非均一性の検出または補正のためのもの［２０２３．０１］	for non-uniformity detection or correction	96
+H04N  25/672	・・・・	単一画像を読み出すための隣接したセンサ間または出力レジスタ間のもの［２０２３．０１］	between adjacent sensors or output registers for reading a single image	12
+H04N  25/673	・・・・	参照情報の使用によるもの［２０２３．０１］	by using reference sources	32
+H04N  25/674	・・・・・	シーン自身に基づくもの，例．デフォーカシング［２０２３．０１］	based on the scene itself, e.g. defocusing	10
+H04N  25/677	・・・・	行または列の固定パターンノイズを低減させるためのもの［２０２３．０１］	for reducing the column or line fixed pattern noise	49
+H04N  25/68	・・	欠陥に適用されるもの［２０２３．０１］	applied to defects	146
+H04N  25/683	・・・	シーン信号上で行われる欠陥推定によるもの，例．リアルタイムまたはその場での検出［２０２３．０１］	by defect estimation performed on the scene signal, e.g. real time or on the fly detection	60
+H04N  25/69	・・・	画素以外の回路を試験または修正する構造を含むＳＳＩＳ［２０２３．０１］	SSIS comprising testing or correcting structures for circuits other than pixel cells	31
+H04N  25/70	・	ＳＳＩＳの構造；それに関連する回路［２０２３．０１］	SSIS architectures; Circuits associated therewith	2065
+H04N  25/701	・・	ラインセンサ［２０２３．０１］	Line sensors	79
+H04N  25/702	・・	非同一，非等距離または非平面画素レイアウトを特徴とするＳＳＩＳの構造［２０２３．０１］	SSIS architectures characterised by non-identical, non-equidistant or non-planar pixel layout	147
+H04N  25/703	・・	画像信号以外の信号を生成するための，画素群が配列されたＳＳＩＳの構造［２０２３．０１］	SSIS architectures incorporating pixels for producing signals other than image signals	122
+H04N  25/704	・・・	焦点合わせに特に適した画素，例．位相差検出画素群［２０２３．０１］	Pixels specially adapted for focusing, e.g. phase difference pixel sets	268
+H04N  25/705	・・・	奥行きを測定するための画素，例．ＲＧＢＺ［２０２３．０１］	Pixels for depth measurement, e.g. RGBZ	209
+H04N  25/706	・・・	露光または周囲の光を測定するための画素［２０２３．０１］	Pixels for exposure or ambient light measuring	67
+H04N  25/707	・・・	イベント検出のための画素［２０２３．０１］	Pixels for event detection	148
+H04N  25/708	・・・	エッジ検出のための画素［２０２３．０１］	Pixels for edge detection	17
+H04N  25/709	・・	電源を制御するための回路［２０２３．０１］	Circuitry for control of the power supply	293
+H04N  25/71	・・	電荷結合素子［ＣＣＤ］センサ；ＣＣＤセンサに特に適した電荷転送レジスタ［２０２３．０１］	Charge-coupled device [CCD] sensors; Charge-transfer registers specially adapted for CCD sensors	358
+H04N  25/711	・・・	時間遅延積分［ＴＤＩ］レジスタ；ＴＤＩシフトレジスタ［２０２３．０１］	Time delay and integration [TDI] registers; TDI shift registers	36
+H04N  25/713	・・・	転送レジスタまたは読出レジスタ；分割読出レジスタまたは多数の読出レジスタ［２０２３．０１］	Transfer or readout registers; Split readout registers or multiple readout registers	21
+H04N  25/715	・・・	フレームインターライン転送型［ＦＩＴ］を用いるもの［２０２３．０１］	using frame interline transfer [FIT]	972
+H04N  25/72	・・・	フレーム転送型［ＦＴ］を用いるもの［２０２３．０１］	using frame transfer [FT]	1285
+H04N  25/73	・・・	インターライン転送型［ＩＴ］を用いるもの［２０２３．０１］	using interline transfer [IT]	3565
+H04N  25/74	・・・	画素アレイを走査またはアドレス指定するための回路［２０２３．０１］	Circuitry for scanning or addressing the pixel array	129
+H04N  25/75	・・・	画素アレイから画像信号を生成，修正または処理するための回路［２０２３．０１］	Circuitry for providing, modifying or processing image signals from the pixel array	991
+H04N  25/76	・・	アドレス型センサ，例．ＭＯＳ型またはＣＭＯＳ型センサ［２０２３．０１］	Addressed sensors, e.g. MOS or CMOS sensors	1652
+H04N  25/766	・・・	複数の機能を共有する画素制御ラインまたは画素出力ラインからなるもの，例．出力，駆動，リセットまたは電源ライン［２０２３．０１］	comprising control or output lines used for a plurality of functions, e.g. for pixel output, driving, reset or power	170
+H04N  25/767	・・・	水平読み出し線，マルチプレクサまたはレジスタ［２０２３．０１］	Horizontal readout lines, multiplexers or registers	86
+H04N  25/768	・・・	時間遅延積分方式［ＴＤＩ］［２０２３．０１］	for time delay and integration [TDI]	47
+H04N  25/77	・・・	画素回路，例．メモリ，Ａ／Ｄ変換器，画素増幅器，共用の回路または共用の要素［２０２３．０１］	Pixel circuitry, e.g. memories, A/D converters, pixel amplifiers, shared circuits or shared components	1340
+H04N  25/771	・・・・	浮遊拡散層［ＦＤ］以外の蓄積手段を有するもの［２０２３．０１］	comprising storage means other than floating diffusion	417
+H04N  25/772	・・・・	Ａ／Ｄ，Ｖ／Ｔ，Ｖ／Ｆ，Ｉ／ＴまたはＩ／Ｆ変換器を有するもの［２０２３．０１］	comprising A/D, V/T, V/F, I/T or I/F converters	637
+H04N  25/773	・・・・・	光子計数回路を有するもの，例．単一光子検出［ＳＰＤ］または単一光子アバランシェダイオード［ＳＰＡＤ］［２０２３．０１］	comprising photon counting circuits, e.g. single photon detection [SPD] or single photon avalanche diodes [SPAD]	179
+H04N  25/778	・・・・	複数の画素間で共有される増幅器を有するもの，すなわち増幅器の少なくとも一部がセンサアレイ内になければならない［２０２３．０１］	comprising amplifiers shared between a plurality of pixels, i.e. at least one part of the amplifier must be on the sensor array itself	247
+H04N  25/779	・・・	画素アレイを走査またはアドレス指定するための回路［２０２３．０１］	Circuitry for scanning or addressing the pixel array	260
+H04N  25/78	・・・	アドレス設定されたセンサのための読み出し回路，例．出力増幅器またはＡ／Ｄ変換器［２０２３．０１］	Readout circuits for addressed sensors, e.g. output amplifiers or A/D converters	1339
+H04N  25/79	・・	異なるまたは複数の基板，チップまたは回路基板に分かれた，回路配置，例．積層型画像センサ［２０２３．０１］	Arrangements of circuitry being divided between different or multiple substrates, chips or circuit boards, e.g. stacked image sensors	557
+H04N 101/00		スチールビデオカメラ［６］	Still video cameras	21777

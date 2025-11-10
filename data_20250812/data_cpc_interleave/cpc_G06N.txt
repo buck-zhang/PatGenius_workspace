@@ -1,0 +1,83 @@
+G06N3/00	7	Computing arrangements based on biological models	G06N3/00	G06N3/00		699
+G06N3/002	8	{Biomolecular computers, i.e. using biomolecules, proteins, cells (using DNA G06N3/123; using neurons G06N3/061)}	G06N3/00	G06N3/00		301
+G06N3/004	8	Artificial life, i.e. computing arrangements simulating life	G06N3/004	G06N3/004		692
+G06N3/006	9	based on simulated virtual individual or collective life forms, e.g. social simulations or particle swarm optimisation [PSO]	G06N3/006	G06N3/006		27696
+G06N3/008	9	based on physical entities controlled by simulated intelligence so as to replicate intelligent life forms, e.g. based on robots replicating pets or humans in their appearance or behaviour	G06N3/008	G06N3/008		1836
+G06N3/02	8	Neural networks	G06N3/02	G06N3/02		11004
+G06N3/04	9	Architecture, e.g. interconnection topology<br><br><u>WARNING</u><br>Group G06N3/04 is impacted by reclassification into groups G06N3/0464, G06N3/0475, G06N3/0495 and G06N3/0499.<br>All groups listed in this Warning should be considered in order to perform a complete search.	G06N3/04	G06N3/04		33412
+G06N3/0409	10	{Adaptive resonance theory [ART] networks}	G06N3/04	G06N3/04		90
+G06N3/0418	10	{using chaos or fractal principles}	G06N3/04	G06N3/04		251
+G06N3/042	10	Knowledge-based neural networks; Logical representations of neural networks	G06N3/042	G06N3/042		11117
+G06N3/043	10	based on fuzzy logic, fuzzy membership or fuzzy inference, e.g. adaptive neuro-fuzzy inference systems [ANFIS]	G06N3/043	G06N3/043		1225
+G06N3/044	10	Recurrent networks, e.g. Hopfield networks<br><br><u>WARNING</u><br>Group G06N3/044 is impacted by reclassification into group G06N3/0442.<br>Groups G06N3/044 and G06N3/0442 should be considered in order to perform a complete search.	G06N3/044	G06N3/044		31175
+G06N3/0442	11	characterised by memory or gating, e.g. long short-term memory [LSTM] or gated recurrent units [GRU]<br><br><u>WARNING</u><br>Group G06N3/0442 is incomplete pending reclassification of documents from group G06N3/044.<br>Groups G06N3/044 and G06N3/0442 should be considered in order to perform a complete search.	G06N3/0442	G06N3/0442		22914
+G06N3/045	10	Combinations of networks<br><br><u>WARNING</u><br>Group G06N3/045 is impacted by reclassification into group G06N3/0455.<br>Groups G06N3/045 and G06N3/0455 should be considered in order to perform a complete search.	G06N3/045	G06N3/045		153725
+G06N3/0455	11	Auto-encoder networks; Encoder-decoder networks<br><br><u>WARNING</u><br>Group G06N3/0455 is incomplete pending reclassification of documents from group G06N3/045.<br>Groups G06N3/045 and G06N3/0455 should be considered in order to perform a complete search.	G06N3/0455	G06N3/0455		28662
+G06N3/0463	10	{Neocognitrons}	G06N3/04	G06N3/04		131
+G06N3/0464	10	Convolutional networks [CNN, ConvNet]<br><br><u>WARNING</u><br>Group G06N3/0464 is incomplete pending reclassification of documents from group G06N3/04.<br>Groups G06N3/04 and G06N3/0464 should be considered in order to perform a complete search.	G06N3/0464	G06N3/0464		81760
+G06N3/047	10	Probabilistic or stochastic networks<br><br><u>WARNING</u><br>Group G06N3/047 is impacted by reclassification into group G06N3/0475.<br>Groups G06N3/047 and G06N3/0475 should be considered in order to perform a complete search.	G06N3/047	G06N3/047		16502
+G06N3/0475	10	Generative networks<br><br><u>WARNING</u><br>Group G06N3/0475 is incomplete pending reclassification of documents from groups G06N3/04 and G06N3/047.<br>Groups G06N3/04, G06N3/047, and G06N3/0475 should be considered in order to perform a complete search.	G06N3/0475	G06N3/0475		10507
+G06N3/048	10	Activation functions	G06N3/048	G06N3/048		30378
+G06N3/049	10	Temporal neural networks, e.g. delay elements, oscillating neurons or pulsed inputs	G06N3/049	G06N3/049		10924
+G06N3/0495	10	Quantised networks; Sparse networks; Compressed networks<br><br><u>WARNING</u><br>Group G06N3/0495 is incomplete pending reclassification of documents from group G06N3/04.<br>Groups G06N3/04 and G06N3/0495 should be considered in order to perform a complete search.	G06N3/0495	G06N3/0495		2705
+G06N3/0499	10	Feedforward networks<br><br><u>WARNING</u><br>Group G06N3/0499 is incomplete pending reclassification of documents from group G06N3/04.<br>Groups G06N3/04 and G06N3/0499 should be considered in order to perform a complete search.	G06N3/0499	G06N3/0499		8369
+G06N3/06	9	Physical realisation, i.e. hardware implementation of neural networks, neurons or parts of neurons	G06N3/06	G06N3/06		669
+G06N3/061	10	{using biological neurons, e.g. biological neurons connected to an integrated circuit}	G06N3/06	G06N3/06		1550
+G06N3/063	10	using electronic means	G06N3/063	G06N3/063		15477
+G06N3/065	11	Analogue means	G06N3/065	G06N3/065		2676
+G06N3/067	10	using optical means	G06N3/067	G06N3/067		478
+G06N3/0675	11	{using electro-optical, acousto-optical or opto-electronic means}	G06N3/067	G06N3/067		729
+G06N3/08	9	Learning methods<br><br><u>WARNING</u><br>Group G06N3/08 is impacted by reclassification into groups G06N3/0895, G06N3/09, G06N3/091, G06N3/092, G06N3/094, G06N3/096, G06N3/098 and G06N3/0985.<br>All groups listed in this Warning should be considered in order to perform a complete search.	G06N3/08	G06N3/08		197620
+G06N3/082	10	modifying the architecture, e.g. adding, deleting or silencing nodes or connections	G06N3/082	G06N3/082		11593
+G06N3/084	10	Backpropagation, e.g. using gradient descent	G06N3/084	G06N3/084		64447
+G06N3/086	10	using evolutionary algorithms, e.g. genetic algorithms or genetic programming	G06N3/086	G06N3/086		3143
+G06N3/088	10	Non-supervised learning, e.g. competitive learning	G06N3/088	G06N3/088		13640
+G06N3/0895	10	Weakly supervised learning, e.g. semi-supervised or self-supervised learning<br><br><u>WARNING</u><br>Group G06N3/0895 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/0895 should be considered in order to perform a complete search.	G06N3/0895	G06N3/0895		5858
+G06N3/09	10	Supervised learning<br><br><u>WARNING</u><br>Group G06N3/09 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/09 should be considered in order to perform a complete search.	G06N3/09	G06N3/09		12785
+G06N3/091	10	Active learning<br><br><u>WARNING</u><br>Group G06N3/091 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/091 should be considered in order to perform a complete search.	G06N3/091	G06N3/091		457
+G06N3/092	10	Reinforcement learning<br><br><u>WARNING</u><br>Group G06N3/092 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/092 should be considered in order to perform a complete search.	G06N3/092	G06N3/092		8704
+G06N3/094	10	Adversarial learning<br><br><u>WARNING</u><br>Group G06N3/094 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/094 should be considered in order to perform a complete search.	G06N3/094	G06N3/094		8012
+G06N3/096	10	Transfer learning<br><br><u>WARNING</u><br>Group G06N3/096 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/096 should be considered in order to perform a complete search.	G06N3/096	G06N3/096		7622
+G06N3/098	10	Distributed learning, e.g. federated learning<br><br><u>WARNING</u><br>Group G06N3/098 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/098 should be considered in order to perform a complete search.	G06N3/098	G06N3/098		4172
+G06N3/0985	10	Hyperparameter optimisation; Meta-learning; Learning-to-learn<br><br><u>WARNING</u><br>Group G06N3/0985 is incomplete pending reclassification of documents from group G06N3/08.<br>Groups G06N3/08 and G06N3/0985 should be considered in order to perform a complete search.	G06N3/0985	G06N3/0985		5815
+G06N3/10	9	Interfaces, programming languages or software development kits, e.g. for simulating neural networks	G06N3/10	G06N3/10		1510
+G06N3/105	10	{Shells for specifying net layout}	G06N3/10	G06N3/10		586
+G06N3/12	8	using genetic models	G06N3/12	G06N3/12		409
+G06N3/123	9	DNA computing	G06N3/123	G06N3/123		482
+G06N3/126	9	Evolutionary algorithms, e.g. genetic algorithms or genetic programming	G06N3/126	G06N3/126		15618
+G06N5/00	7	Computing arrangements using knowledge-based models	G06N5/00	G06N5/00		792
+G06N5/01	8	Dynamic search techniques; Heuristics; Dynamic trees; Branch-and-bound	G06N5/01	G06N5/01		17376
+G06N5/013	9	{Automatic theorem proving}	G06N5/01	G06N5/01		136
+G06N5/02	8	Knowledge representation; Symbolic representation	G06N5/02	G06N5/02		8233
+G06N5/022	9	Knowledge engineering; Knowledge acquisition	G06N5/022	G06N5/022		15001
+G06N5/025	10	Extracting rules from data	G06N5/025	G06N5/025		6212
+G06N5/027	9	{Frames}	G06N5/02	G06N5/02		1107
+G06N5/04	8	Inference or reasoning models	G06N5/04	G06N5/04		17840
+G06N5/041	9	{Abduction}	G06N5/04	G06N5/04		5108
+G06N5/042	9	{Backward inferencing}	G06N5/04	G06N5/04		1229
+G06N5/043	9	Distributed expert systems; Blackboards	G06N5/043	G06N5/043		1128
+G06N5/045	9	Explanation of inference; Explainable artificial intelligence [XAI]; Interpretable artificial intelligence	G06N5/045	G06N5/045		2404
+G06N5/046	9	Forward inferencing; Production systems	G06N5/046	G06N5/046		2247
+G06N5/047	10	Pattern matching networks; Rete networks	G06N5/047	G06N5/047		548
+G06N5/048	9	Fuzzy inferencing	G06N5/048	G06N5/048		2085
+G06N7/00	7	Computing arrangements based on specific mathematical models	G06N7/00	G06N7/00		973
+G06N7/01	8	Probabilistic graphical models, e.g. probabilistic networks	G06N7/01	G06N7/01		20023
+G06N7/02	8	using fuzzy logic (computing arrangements based on biological models G06N3/00; computing arrangements using knowledge-based models G06N5/00)	G06N7/02	G06N7/02		2140
+G06N7/023	9	{Learning or tuning the parameters of a fuzzy system}	G06N7/02	G06N7/02		411
+G06N7/026	9	{Development tools for entering the parameters of a fuzzy system}	G06N7/02	G06N7/02		63
+G06N7/04	9	Physical realisation	G06N7/04	G06N7/04		213
+G06N7/043	10	{Analogue or partially analogue implementation}	G06N7/04	G06N7/04		67
+G06N7/046	10	{Implementation by means of a neural network (neural networks using fuzzy logic G06N3/043)}	G06N7/04	G06N7/04		102
+G06N7/06	9	Simulation on general purpose computers	G06N7/06	G06N7/06		148
+G06N7/08	8	using chaos models or non-linear system models	G06N7/08	G06N7/08		974
+G06N10/00	7	Quantum computing, i.e. information processing based on quantum-mechanical phenomena	G06N10/00	G06N10/00		2581
+G06N10/20	8	Models of quantum computing, e.g. quantum circuits or universal quantum computers	G06N10/20	G06N10/20		3453
+G06N10/40	8	Physical realisations or architectures of quantum processors or components for manipulating qubits, e.g. qubit coupling or qubit control	G06N10/40	G06N10/40		3996
+G06N10/60	8	Quantum algorithms, e.g. based on quantum optimisation, quantum Fourier or Hadamard transforms	G06N10/60	G06N10/60		2525
+G06N10/70	8	Quantum error correction, detection or prevention, e.g. surface codes or magic state distillation	G06N10/70	G06N10/70		1258
+G06N10/80	8	Quantum programming, e.g. interfaces, languages or software-development kits for creating or handling programs capable of running on quantum computers; Platforms for simulating or accessing quantum computers, e.g. cloud-based quantum computing	G06N10/80	G06N10/80		866
+G06N20/00	7	Machine learning	G06N20/00	G06N20/00		109790
+G06N20/10	8	using kernel methods, e.g. support vector machines [SVM]	G06N20/10	G06N20/10		11715
+G06N20/20	8	Ensemble learning	G06N20/20	G06N20/20		17655
+G06N99/00	7	Subject matter not provided for in other groups of this subclass	G06N99/00	G06N99/00		714
+G06N99/007	8	{Molecular computers, i.e. using inorganic molecules (using biomolecules G06N3/002)}	G06N99/00	G06N99/00		74

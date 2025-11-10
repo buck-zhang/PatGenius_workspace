@@ -1,0 +1,97 @@
+H03L   1/00  \	0	0	5J106	H03L   1/00	117	物理的な値，例，供給電力，の変化に対する発生器出力の安定化［２００６．０１］	Stabilisation of generator output against variations of physical values, e.g. power supply [2006.01]
+H03L   1/02  \	1	1	5J106	H03L   1/02	625	温度の変化のみに対するもの［３］	against variations of temperature only [3]
+H03L   1/04  \	2	2	5J106	H03L   1/04	78	温度を一定に維持するための構造上の細部［３］	Constructional details for maintaining temperature constant [3]
+H03L   3/00  \	0	0	5J106	H03L   3/00	251	発生器の起動［３］	Starting of generators [3]
+H03L   5/00  \	0	0	5J106	H03L   5/00	302	電圧，電流または電力の自動制御［３］	Automatic control of voltage, current, or power [3]
+H03L   5/02  \	1	1	5J106	H03L   5/02	76	電力の自動制御［３］	of power [3]
+H03L   7/00  \	0	0	5J106	H03L   7/00	1501	周波数または位相の自動制御；同期［２００６．０１］	Automatic control of frequency or phase; Synchronisation [2006.01]
+H03L   7/00 210 \	1	1	5J106	H03L   7/00	492	複数の発振器の相互同期，現用予備	Mutual synchronisation of multiple oscillators, reserved for service
+H03L   7/00 220 \	2	2	5J106	H03L   7/00	454	移相器又は遅延線を制御する手段を含むもの	including a means of controlling the phase shifter or delay line
+H03L   7/00 230 \	1	1	5J106	H03L   7/00	190	入力信号が変調又は符号化されているもの（Ｈ０３Ｌ７／０８　１０７が優先）	input signal being modulated or encoded (H03L7/08 107 takes precedence)
+H03L   7/02  \	1	1	5J106	H03L   7/02	501	受動周波数決定素子からなる周波数弁別器を用いるもの［３］	using a frequency discriminator comprising a passive frequency-determining element [3]
+H03L   7/04  \	2	2	5J106	H03L   7/04	72	周波数決定素子が分布定数インダクタンスとキャパシタンスからなるもの［３］	wherein the frequency-determining element comprises distributed inductance and capacitance [3]
+H03L   7/06  \	1	1	5J106	H03L   7/06	856	周波数または位相ロックループに加えられる基準信号を用いるもの［３］	using a reference signal applied to a frequency- or phase-locked loop [3]
+H03L   7/06 210 \	2	2	5J106	H03L   7/06	758	位相ロックループ	Phase lock loop
+H03L   7/06 220 \	2	2	5J106	H03L   7/06	297	数値基準を用いるもの	using a numeric reference
+H03L   7/06 230 \	2	2	5J106	H03L   7/06	436	周波数比較によるもの（Ｈ０３Ｌ７／０６　２４０が優先）	using frequency comparison (H03L7/06 240 takes precedence.)
+H03L   7/06 240 \	2	2	5J106	H03L   7/06	114	２つの周波数電圧変換器の出力電圧を比較するもの	comparing the output voltages of two frequency voltage converters
+H03L   7/07  \	2	2	5J106	H03L   7/07	569	いくつかのループを用いるもの，例．冗長クロック信号発生のためのもの［２００６．０１］	using several loops, e.g. for redundant clock signal generation [2006.01]
+H03L   7/08  \	2	2	5J106	H03L   7/08	950	位相ロックループの細部［３］	Details of the phase-locked loop [2006.01]
+H03L   7/08 102 \	3	3	5J106	H03L   7/08	1494	電力消費量の軽減に適したループ（Ｈ０３Ｌ７／１４が優先）	loop adapted to reducing electric power consumption (H03L7/14 takes precedence)
+H03L   7/08 105 \	3	3	5J106	H03L   7/08	414	ループ外部の使用のために追加的な制御信号を提供することに適したループ	loop adapted to providing additional control signal for use at outside of loop
+H03L   7/08 107 \	3	3	5J106	H03L   7/08	2354	主に基準信号のリカバリー回路に関するもの	mainly  involving recovery circuit of standard signal
+H03L   7/08 210 \	3	3	5J106	H03L   7/08	1497	ＰＬＬの入力部に関するもの	related to the PLL input unit
+H03L   7/08 220 \	3	3	5J106	H03L   7/08	1123	ＰＬＬの出力部に関するもの	related to the PLL output unit
+H03L   7/08 230 \	3	3	5J106	H03L   7/08	364	ＰＬＬの定常位相誤差を低減する手段に関するもの	related to the means of reducing the constant phase error of PLL
+H03L   7/08 240 \	3	3	5J106	H03L   7/08	345	入力信号と出力信号を特別の周波数または位相関係で位相同期させるための構成に関するもの	related to the configuration for phase synchronisation between the input signal and output signal in a particular frequency-phase correlation
+H03L   7/08 250 \	4	4	5J106	H03L   7/08	498	ループ中に周波数変換器を持つもの	having a frequency converter in a loop
+H03L   7/081  \	3	3	5J106	H03L   7/081	310	付加的な制御移相器を有するもの［５］	provided with an additional controlled phase shifter [5]
+H03L   7/081 120 \	4	4	5J106	H03L   7/081	430	電圧または電源制御発振器を使用しないもの	not using voltage or power source controlling oscillator
+H03L   7/081 140 \	5	5	5J106	H03L   7/081	396	デジタル制御される移相装置	digitally controlled phase shifer
+H03L   7/081 160 \	5	5	5J106	H03L   7/081	451	制御位相器および周波数または位相検知装置が共通の入力に接続されているもの	controlled phase shifter and frequeny or phase detector being connected to commoon input
+H03L   7/081 180 \	5	5	5J106	H03L   7/081	124	制御位相器が粗くかつ精密な遅延または位相シフト手段からなるもの	phase shifter consist of rough and precise delay or pase sft means
+H03L   7/083  \	3	3	5J106	H03L   7/083	87	基準信号が付加的に直接発生器に加えられるもの［２００６．０１］	the reference signal being additionally directly applied to the generator [2006.01]
+H03L   7/085  \	3	3	5J106	H03L   7/085	1492	出力信号のろ波又は増幅を含む主として周波数または位相検出装置に関するもの（Ｈ０３Ｌ７／１０が優先；互いに独立な２つの振動の位相または周波数を比較するための回路Ｈ０３Ｄ１３／００）［２００６．０１］	concerning mainly the frequency- or phase-detection arrangement including the filtering or amplification of its output signal  (H03L 7/10 takes precedence; circuits for comparing the phase or frequency of two mutually-independent oscillations H03D 13/00) [2006.01]
+H03L   7/087  \	4	4	5J106	H03L   7/087	1384	ループ中に少なくとも２つの位相検出器または周波数検出器と位相検出器を用いるもの［５］	using at least two phase detectors or a frequency and phase detector in the loop [5]
+H03L   7/089  \	4	4	5J106	H03L   7/089	660	アップダウンパルスを出力する位相または周波数検出器（Ｈ０３Ｌ７／０８７が優先）［５］	the phase or frequency detector generating up-down pulses(H03L7/087 takes precedence) [5]
+H03L   7/089 110 \	5	5	5J106	H03L   7/089	207	ソースおよびシンク電流発生器，例．アップダウンパルスにより制御されるチャージポンプ	source and sink current generator, e.g. charge pump controlled by up-down pulse
+H03L   7/089 130 \	6	6	5J106	H03L   7/089	72	アップダウンパルスにより制御される，ループ中の異なる位置に接続された少なくとも２つのソース電流発生器または少なくとも２つのシンク電流発生器	two or more source current generators or two or more sink current generators each connected to different locations of loop and controlled by up-down pulse
+H03L   7/089 150 \	6	6	5J106	H03L   7/089	127	電流発生器の細部（Ｈ０３Ｌ７／０８９　１３０が優先）	details of curret generator (H03L7/089 130 takes precedence)
+H03L   7/089 160 \	7	7	5J106	H03L   7/089	55	差動アップダウンパルスにより制御される電流発生器	current generator controlled by differential up-down pulse
+H03L   7/089 180 \	7	7	5J106	H03L   7/089	36	ソースまたはシンク電流値が可変であるもの（Ｈ０３Ｌ７／０８９　１６０が優先）	source or sink current value being variables (H03L7/089 160 takes precedence)
+H03L   7/091  \	4	4	5J106	H03L   7/091	370	サンプリング装置を用いる位相または周波数検出器（Ｈ０３Ｌ７／０８７が優先）［５］	the phase or frequency detector using a sampling device(H03L7/087 takes precedence) [5]
+H03L   7/093  \	4	4	5J106	H03L   7/093	3121	ループ中で特別なろ波または増幅特性を用いるもの（Ｈ０３Ｌ７／０８７〜Ｈ０３Ｌ７／０９１が優先）［５］	using special filtering or amplification characteristics in the loop (H03L7/087 to H03L7/091  take precedence) [5]
+H03L   7/095  \	4	4	5J106	H03L   7/095	925	ロック検出器を用いるもの（Ｈ０３Ｌ７／０８７が優先）［５］	using a lock detector(H03L7/087 takes precedence) [5]
+H03L   7/097  \	4	4	5J106	H03L   7/097	1	２つの周波数電圧変換器の出力電圧を比較する比較器を用いるもの［５］	using a comparator for comparing the voltages obtained from two frequency to voltage converters [5]
+H03L   7/099  \	3	3	5J106	H03L   7/099	1352	主としてループ中の制御発振器に関するもの［５］	concerning mainly the controlled oscillator of the loop [5]
+H03L   7/099 110 \	4	4	5J106	H03L   7/099	170	デジタル発振器，例．固定発振器に可変分周器が続くものからなるもの（Ｈ０３Ｌ７／０９９　１５０が優先；各種位相より選択する手段を有する固定発振器Ｈ０３Ｌ７／０８１　１４０）	digital oscillator, e.g. consists of variable frequency divider joined with fixed oscillator (H03L7/099 150 takes precedence, fixed oscillator having means to select from various phases H03L7/081 140)
+H03L   7/099 120 \	5	5	5J106	H03L   7/099	499	計数器または分周器からなるもの	consist of counter or divider
+H03L   7/099 130 \	6	6	5J106	H03L   7/099	148	さらにパルスを追加または削除するための回路を含むもの	further including circuit for adding or deleting pulse
+H03L   7/099 140 \	5	5	5J106	H03L   7/099	127	積算器からなるもの	consist of integrator
+H03L   7/099 150 \	4	4	5J106	H03L   7/099	535	リング発振器からなる発振器	oscillator consist of ring oscillator
+H03L   7/099 160 \	5	5	5J106	H03L   7/099	41	リング発振器により生じる複数の移相信号から１つの信号を選択するもの	selecting one signal among plural phase shifting signal grenerated from ring oscillator
+H03L   7/099 170 \	5	5	5J106	H03L   7/099	60	リング発振器に直列接続された遅延要素数を制御するもの	controls delay element numbers serially connected to ring oscillator
+H03L   7/099 180 \	5	5	5J106	H03L   7/099	7	位相補間を用いるもの（Ｈ０３Ｌ７／０９９　１５０も参照）	using phase interpolation (also refer to H03L7/099 150)
+H03L   7/10  \	3	3	5J106	H03L   7/10	552	初期同期を確実にするためのもの，またはキャプチャーレンジを広くするためのもの［３］	for assuring initial synchronisation or for broadening the capture range [3]
+H03L   7/10 110 \	4	4	5J106	H03L   7/10	152	ループの中で生成した信号から発生した追加制御信号を制御ループ発振器に用いるもの（Ｈ０３Ｌ７／１１３およびＨ０３Ｌ７／１８７が優先）	sing additional control signal generated from signal created in loop to control loop oscillator (H03L7/113 and H03L7/187 take precedence)
+H03L   7/10 120 \	5	5	5J106	H03L   7/10	106	追加信号が制御ループ発振器に直接適用されるもの	additional signal is applied directly to control loop oscillator
+H03L   7/10 130 \	6	6	5J106	H03L   7/10	99	追加信号がデジタル信号であるもの	additional signal being digital signal
+H03L   7/10 140 \	4	4	5J106	H03L   7/10	1303	ループの中でパラメータを設定または制御するために，ループの外から追加信号を用いるもの（Ｈ０３Ｌ７／１０７，Ｈ０３Ｌ７／１８７が優先）	using additional signal from outside of loop to establis or coontrol parameter inside loop (H03L7/107, H03L7/187 take precedence)
+H03L   7/10 150 \	4	4	5J106	H03L   7/10	21	周波数が所定の制限値外のときの制御発振器のリセット	resetting controlled oscillator when freqency exceeds predetermined limit value
+H03L   7/107  \	4	4	5J106	H03L   7/107	421	ループに対して可変伝達関数を用いるもの，例．可変帯域巾をもつローパスフィルタ［５］	using a variable transfer function for the loop, e.g. low pass filter having a variable bandwidth [5]
+H03L   7/107 120 \	5	5	5J106	H03L   7/107	260	チャージポンプの特性を変更することによるもの，例．ゲインの変更	by altering characteristics of charge pump, e.g. altering gain
+H03L   7/107 150 \	5	5	5J106	H03L   7/107	760	ループフィルタの特性を変更することによるもの，例．ゲインの変更，帯域巾の変更（Ｈ０３Ｌ７／１０７　１２０が優先）	by altering characteristics of loop filter, e.g. altering gain, altering bandwidth (H03L7/107 120 takes precedence)
+H03L   7/107 170 \	5	5	5J106	H03L   7/107	168	位相または周波数検知手段の特性を変更することによるもの（Ｈ０３Ｌ７／１０７　１２０が優先）	by altering characteristics of phase or frequency detection means (H03L7/107 120 takes precedence)
+H03L   7/113  \	4	4	5J106	H03L   7/113	621	周波数弁別器を用いるもの［５］	using frequency discriminator [5]
+H03L   7/12  \	4	4	5J106	H03L   7/12	286	掃引信号を用いるもの［２００６．０１］	using a scanning signal [2006.01]
+H03L   7/14  \	3	3	5J106	H03L   7/14	537	供給電圧または補正電圧が低下したとき周波数を一定にすることを確実にするためのもの［３］	for assuring constant frequency when supply or correction voltages fail [3]
+H03L   7/14 110 \	4	4	5J106	H03L   7/14	4	いくつかの発振器を順番に制御する位相ロックループ	phase lock loop for controling multiple oscillator in order
+H03L   7/14 130 \	4	4	5J106	H03L   7/14	114	位相ロックループの基準信号を切り換えることによるもの	by switching standard signal of phase lock loop
+H03L   7/14 150 \	5	5	5J106	H03L   7/14	57	切り換える基準信号が制御発振器の出力信号に由来するもの	standard signal to be switched originated in output signal of controled oscillator
+H03L   7/14 160 \	4	4	5J106	H03L   7/14	159	発振器制御信号を生成するデジタル手段を用いるもの（Ｈ０３Ｌ７／１４　１１０，Ｈ０３Ｌ７／１４　１３０が優先）	using digital means generating oscillatot controled signal (H03L7/14 110, H03L7/14 130 take precedence)
+H03L   7/14 180 \	5	5	5J106	H03L   7/14	17	デジタル手段が計数器または分周器からなるもの	digital means coonsist of counter or divider
+H03L   7/16  \	2	2	5J106	H03L   7/16	901	間接的な周波数の合成，すなわち周波数または位相ロックループを用いる予め決められた多数の周波数の内の所望の一つを発生するもの［３］	Indirect frequency synthesis, i.e. generating a desired one of a number of predetermined frequencies using a frequency- or phase-locked loop [3]
+H03L   7/18  \	3	3	5J106	H03L   7/18	1102	ループの中に分周器または計数器を用いるもの（Ｈ０３Ｌ７／２０，Ｈ０３Ｌ７／２２が優先）［３］	using a frequency divider or counter in the loop (H03L 7/20, H03L 7/22 take precedence) [3]
+H03L   7/18 103 \	4	4	5J106	H03L   7/18	4	分周器または計数器が分周信号を生成するパルススワロー回路に接続されるもの	dvider or counter being connected to pulse swallow circuit generating frequency-division signal
+H03L   7/18 106 \	4	4	5J106	H03L   7/18	36	分周器が分周信号を生成する位相積算器からなるもの	frequency divider consist of phase integrator generating ftreqency-division signal
+H03L   7/181  \	4	4	5J106	H03L   7/181	27	ループをロックするために数値計数結果を用いるもの，一定期間計数する計数器［５］	a numerical count result being used for locking the loop, the counter counting during fixed time intervals [5]
+H03L   7/183  \	4	4	5J106	H03L   7/183	2129	ループをロックするために時間差を用いるもの，一定数値間計数器または一定数値で分周する分周器［５］	a time difference being used for locking the loop, the counter counting between fixed numbers or the frequency divider dividing by a fixed number [5]
+H03L   7/185  \	5	5	5J106	H03L   7/185	659	ループ中にミキサーを用いるもの（Ｈ０３Ｌ７／１８７〜Ｈ０３Ｌ７／１９５が優先）［５］	sing mixer in loop (H03L7/187 - H03L7/195 take precedence) [5]
+H03L   7/187  \	5	5	5J106	H03L   7/187	749	ループ中の電圧制御発振器を粗同調するための手段を用いるもの（Ｈ０３Ｌ７／１９１〜Ｈ０３Ｌ７／１９５が優先）［５］	usig means for coarse tuning voltage-controlled oscillators in loop (H03L7/1891 - H03L7/195 take precedence) [5]
+H03L   7/189  \	6	6	5J106	H03L   7/189	181	粗同調電圧を発生するためのＤ／Ａ変換器を含むもの［５］	comprising a D/A converter for generating a coarse tuning voltage [5]
+H03L   7/191  \	5	5	5J106	H03L   7/191	33	時間差を決定するために分周器または計数器から少なくとも２つの異なる信号を用いるもの（Ｈ０３Ｌ７／１９３，Ｈ０３Ｌ７／１９５が優先）［５］	using at least two different signals from the frequency divider or the counter for determining the time difference(H03L7/193, H03L7/195 take precedence) [5]
+H03L   7/193  \	5	5	5J106	H03L   7/193	183	互換性のある前置分周器からなる分周器または計数器，例．２モジュール分周器［２００６．０１］	the frequency divider/counter comprising a commutable pre-divider, e.g. a two modulus divider [2006.01]
+H03L   7/195  \	5	5	5J106	H03L   7/195	1	ループ中の計数器が２つの異なった非零数値間を計数するもの，例．オフセット周波数を発生するためのもの（Ｈ０３Ｌ７／１９３が優先）［２００６．０１］	in which the counter of the loop counts between two different non zero numbers, e.g. for generating an offset frequency  (H03L 7/193 takes precedence) [2006.01]
+H03L   7/197  \	4	4	5J106	H03L   7/197	152	ループをロックするために時間差を用いるもの，適時変化可能な数値間を計数する計数器，または適時変化可能な係数によって分周する分周器，例．非整数の周波数分周を得るもの［５］	a time difference being used for locking the loop, the counter counting between numbers which are variable in time or the frequency divider dividing by a factor variable in time, e.g. for obtaining fractional frequency division [5]
+H03L   7/197 120 \	5	5	5J106	H03L   7/197	52	ロック時間を短縮するためのもの（Ｈ０３Ｌ７／１９７　１４０，Ｈ０３Ｌ７／１９９が優先）	for reducing lock time (H03L7/197 140, H03L7/199 take precedence)
+H03L   7/197 140 \	5	5	5J106	H03L   7/197	184	非整数の周波数分周のためのもの	for frequency division in noninteger
+H03L   7/197 160 \	6	6	5J106	H03L   7/197	300	計数器または分周器を制御するために位相積算器を用いるもの	using phase integrator for controling counter or divider
+H03L   7/197 180 \	7	7	5J106	H03L   7/197	2	周期またはパルス除去回路を用いるもの	using cycle or pulse removal circuit
+H03L   7/199  \	5	5	5J106	H03L   7/199	18	分周器または計数器のリセットを用いるもの，例．初期同期を確実にするためのもの［５］	with reset of the frequency divider or the counter, e.g. for assuring initial synchronisation [5]
+H03L   7/20  \	3	3	5J106	H03L   7/20	99	高調波位相ロックループ，すなわち供給された多数の高調波関係にある周波数の内の一つにロックされることができるループを用いるもの（Ｈ０３Ｌ７／２２が優先）［３］	using a harmonic phase-locked loop, i.e. a loop which can be locked to one of a number of harmonically related frequencies applied to it (H03L 7/22 takes precedence) [3]
+H03L   7/22  \	3	3	5J106	H03L   7/22	640	二つ以上のループを用いるもの［３］	using more than one loop [3]
+H03L   7/23  \	4	4	5J106	H03L   7/23	435	パルス計数器または分周器を有するもの［５］	with pulse counters or frequency dividers [5]
+H03L   7/23 150 \	5	5	5J106	H03L   7/23	42	入れ子式位相ロックループ	nested phase lock loop
+H03L   7/24  \	1	1	5J106	H03L   7/24	434	基準信号が発生器に直接加えられるもの［３］	using a reference signal directly applied to the generator [3]
+H03L   7/26  \	1	1	5J106	H03L   7/26	902	周波数の基準として分子，原子または亜原子粒子のエネルギレベルを用いるもの［３］	using energy levels of molecules, atoms, or subatomic particles as a frequency reference [3]
+H03L   9/00  \	0	0	5J106	H03L   9/00	1	このサブクラスの他のグループに分類されない自動制御［８］	Automatic control not provided for in other groups of this subclass [8]

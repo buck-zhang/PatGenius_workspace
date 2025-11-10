@@ -1,0 +1,413 @@
+G01L1/00	7	Measuring force or stress, in general (measuring force due to impact G01L5/00)	G01L1/00	G01L1/00		1759
+G01L1/005	8	{by electrical means and not provided for in G01L1/06 - G01L1/22}	G01L1/00	G01L1/00		622
+G01L1/02	8	by hydraulic or pneumatic means	G01L1/02	G01L1/02		858
+G01L1/04	8	by measuring elastic deformation of gauges, e.g. of springs	G01L1/04	G01L1/04		984
+G01L1/042	9	{of helical springs}	G01L1/04	G01L1/04		195
+G01L1/044	9	{of leaf springs}	G01L1/04	G01L1/04		195
+G01L1/046	9	{of spiral springs}	G01L1/04	G01L1/04		30
+G01L1/048	9	{of torsionally deformable elements}	G01L1/04	G01L1/04		51
+G01L1/06	8	by measuring the permanent deformation of gauges, e.g. of compressed bodies	G01L1/06	G01L1/06		177
+G01L1/08	8	by the use of counterbalancing forces	G01L1/08	G01L1/08		98
+G01L1/083	9	{using hydraulic or pneumatic counterbalancing forces}	G01L1/08	G01L1/08		55
+G01L1/086	9	{using electrostatic or electromagnetic counterbalancing forces}	G01L1/08	G01L1/08		102
+G01L1/10	8	by measuring variations of frequency of stressed vibrating elements, e.g. of stressed strings (using resistance strain gauges G01L1/22)	G01L1/10	G01L1/10		457
+G01L1/103	9	{optical excitation or measuring of vibrations}	G01L1/10	G01L1/10		66
+G01L1/106	9	{Constructional details}	G01L1/10	G01L1/10		253
+G01L1/12	8	by measuring variations in the magnetic properties of materials resulting from the application of stress	G01L1/12	G01L1/12		444
+G01L1/122	9	{by using permanent magnets}	G01L1/12	G01L1/12		183
+G01L1/125	9	{by using magnetostrictive means (magnetostrictive sensors H10N35/101)}	G01L1/12	G01L1/12		700
+G01L1/127	9	{by using inductive means (G01L1/122, G01L1/125 take precedence)}	G01L1/12	G01L1/12		569
+G01L1/14	8	by measuring variations in capacitance or inductance of electrical elements, e.g. by measuring variations of frequency of electrical oscillators	G01L1/14	G01L1/14		1295
+G01L1/142	9	{using capacitors}	G01L1/14	G01L1/14		1419
+G01L1/144	10	{with associated circuitry (G01L1/146 and G01L1/148 take precedence)}	G01L1/14	G01L1/14		371
+G01L1/146	10	{for measuring force distributions, e.g. using force arrays (G01L1/148 takes precedence)}	G01L1/14	G01L1/14		727
+G01L1/148	10	{using semiconductive material, e.g. silicon}	G01L1/14	G01L1/14		327
+G01L1/16	8	using properties of piezoelectric devices	G01L1/16	G01L1/16		2582
+G01L1/162	9	{using piezoelectric resonators}	G01L1/16	G01L1/16		295
+G01L1/165	10	{with acoustic surface waves}	G01L1/16	G01L1/16		167
+G01L1/167	10	{optical excitation or measuring of vibrations}	G01L1/16	G01L1/16		29
+G01L1/18	8	using properties of piezo-resistive materials, i.e. materials of which the ohmic resistance varies according to changes in magnitude or direction of force applied to the material	G01L1/18	G01L1/18		2638
+G01L1/183	9	{by measuring variations of frequency of vibrating piezo-resistive material}	G01L1/18	G01L1/18		124
+G01L1/186	10	{optical excitation or measuring of vibrations}	G01L1/18	G01L1/18		27
+G01L1/20	8	by measuring variations in ohmic resistance of solid materials or of electrically-conductive fluids (of piezo-resistive materials G01L1/18); by making use of electrokinetic cells, i.e. liquid-containing cells wherein an electrical potential is produced or varied upon the application of stress	G01L1/20	G01L1/20		1477
+G01L1/205	9	{using distributed sensing elements}	G01L1/20	G01L1/20		1047
+G01L1/22	9	using resistance strain gauges	G01L1/22	G01L1/22		2629
+G01L1/2206	10	{Special supports with preselected places to mount the resistance strain gauges; Mounting of supports}	G01L1/22	G01L1/22		1023
+G01L1/2212	11	{particularly adapted to unbounded-wire-type strain gauges}	G01L1/22	G01L1/22		144
+G01L1/2218	11	{the supports being of the column type, e.g. cylindric, adapted for measuring a force along a single direction}	G01L1/22	G01L1/22		399
+G01L1/2225	12	{the direction being perpendicular to the central axis}	G01L1/22	G01L1/22		212
+G01L1/2231	11	{the supports being disc- or ring-shaped, adapted for measuring a force along a single direction}	G01L1/22	G01L1/22		513
+G01L1/2237	12	{the direction being perpendicular to the central axis}	G01L1/22	G01L1/22		137
+G01L1/2243	11	{the supports being parallelogram-shaped}	G01L1/22	G01L1/22		382
+G01L1/225	10	{Measuring circuits therefor}	G01L1/22	G01L1/22		599
+G01L1/2256	11	{involving digital counting}	G01L1/22	G01L1/22		109
+G01L1/2262	11	{involving simple electrical bridges}	G01L1/22	G01L1/22		706
+G01L1/2268	10	{Arrangements for correcting or for compensating unwanted effects}	G01L1/22	G01L1/22		249
+G01L1/2275	11	{for non linearity}	G01L1/22	G01L1/22		65
+G01L1/2281	11	{for temperature variations}	G01L1/22	G01L1/22		566
+G01L1/2287	10	{constructional details of the strain gauges (adjustable resistors H01C10/00)}	G01L1/22	G01L1/22		1619
+G01L1/2293	11	{of the semi-conductor type}	G01L1/22	G01L1/22		571
+G01L1/24	8	by measuring variations of optical properties of material when it is stressed, e.g. by photoelastic stress analysis {using infrared, visible light, ultraviolet}	G01L1/24	G01L1/24		1542
+G01L1/241	9	{by photoelastic stress analysis}	G01L1/24	G01L1/24		478
+G01L1/242	9	{the material being an optical fibre}	G01L1/24	G01L1/24		1599
+G01L1/243	10	{using means for applying force perpendicular to the fibre axis}	G01L1/24	G01L1/24		246
+G01L1/245	11	{using microbending}	G01L1/24	G01L1/24		142
+G01L1/246	10	{using integrated gratings, e.g. Bragg gratings}	G01L1/24	G01L1/24		1427
+G01L1/247	9	{using distributed sensing elements, e.g. microcapsules (along a single optical fibre G01L1/242)}	G01L1/24	G01L1/24		354
+G01L1/248	9	{using infrared (G01L1/241, G01L1/242 take precedence)}	G01L1/24	G01L1/24		130
+G01L1/25	8	using wave or particle radiation, e.g. X-rays {, microwaves}, neutrons (G01L1/24 takes precedence)	G01L1/25	G01L1/25		317
+G01L1/255	9	{using acoustic waves, or acoustic emission (G01L1/10 and G01L1/16 take precedence)}	G01L1/25	G01L1/25		621
+G01L1/26	8	Auxiliary measures taken, or devices used, in connection with the measurement of force, e.g. for preventing influence of transverse components of force, for preventing overload	G01L1/26	G01L1/26		1382
+G01L3/00	7	Measuring torque, work, mechanical power, or mechanical efficiency, in general	G01L3/00	G01L3/00		1154
+G01L3/02	8	Rotary-transmission dynamometers	G01L3/02	G01L3/02		308
+G01L3/04	9	wherein the torque-transmitting element comprises a torsionally-flexible shaft	G01L3/04	G01L3/04		412
+G01L3/045	10	{by measuring variations of frequency of stressed vibrating elements}	G01L3/04	G01L3/04		29
+G01L3/06	10	involving mechanical means for indicating	G01L3/06	G01L3/06		108
+G01L3/08	10	involving optical means for indicating	G01L3/08	G01L3/08		185
+G01L3/10	10	involving electric or magnetic means for indicating	G01L3/10	G01L3/10		967
+G01L3/101	11	{involving magnetic or electromagnetic means}	G01L3/10	G01L3/10		550
+G01L3/102	12	{involving magnetostrictive means (magnetostrictive sensors H10N35/101)}	G01L3/10	G01L3/10		829
+G01L3/103	13	{Details about the magnetic material used}	G01L3/10	G01L3/10		156
+G01L3/104	12	{involving permanent magnets}	G01L3/10	G01L3/10		762
+G01L3/105	12	{involving inductive means (G01L3/102, G01L3/104 take precedence)}	G01L3/10	G01L3/10		790
+G01L3/106	11	{involving electrostatic means}	G01L3/10	G01L3/10		101
+G01L3/107	11	{involving potentiometric means}	G01L3/10	G01L3/10		32
+G01L3/108	11	{involving resistance strain gauges}	G01L3/10	G01L3/10		633
+G01L3/109	11	{involving measuring phase difference of two signals or pulse trains}	G01L3/10	G01L3/10		431
+G01L3/12	11	involving photoelectric means	G01L3/12	G01L3/12		384
+G01L3/14	9	wherein the torque-transmitting element is other than a torsionally-flexible shaft	G01L3/14	G01L3/14		224
+G01L3/1407	10	{involving springs}	G01L3/14	G01L3/14		79
+G01L3/1414	11	{using mechanical or hydraulic transducers}	G01L3/14	G01L3/14		30
+G01L3/1421	11	{using optical transducers}	G01L3/14	G01L3/14		71
+G01L3/1428	11	{using electrical transducers}	G01L3/14	G01L3/14		69
+G01L3/1435	12	{involving magnetic or electromagnetic means}	G01L3/14	G01L3/14		242
+G01L3/1442	12	{involving electrostatic means}	G01L3/14	G01L3/14		41
+G01L3/145	12	{involving potentiometric means}	G01L3/14	G01L3/14		10
+G01L3/1457	12	{involving resistance strain gauges}	G01L3/14	G01L3/14		312
+G01L3/1464	10	{involving screws and nuts, screw-gears or cams}	G01L3/14	G01L3/14		128
+G01L3/1471	11	{using planet wheels or conical gears}	G01L3/14	G01L3/14		148
+G01L3/1478	10	{involving hinged levers}	G01L3/14	G01L3/14		117
+G01L3/1485	10	{involving fluidic means}	G01L3/14	G01L3/14		119
+G01L3/1492	10	{involving electric couplings}	G01L3/14	G01L3/14		37
+G01L3/16	8	Rotary-absorption dynamometers, e.g. of brake type	G01L3/16	G01L3/16		173
+G01L3/18	9	mechanically actuated	G01L3/18	G01L3/18		129
+G01L3/20	9	fluid actuated	G01L3/20	G01L3/20		319
+G01L3/205	10	{of the air brake type}	G01L3/20	G01L3/20		48
+G01L3/22	9	electrically or magnetically actuated	G01L3/22	G01L3/22		303
+G01L3/24	8	Devices for determining the value of power, e.g. by measuring and simultaneously multiplying the values of torque and revolutions per unit of time, by multiplying the values of tractive or propulsive force and velocity	G01L3/24	G01L3/24		720
+G01L3/242	9	{by measuring and simultaneously multiplying torque and velocity}	G01L3/24	G01L3/24		372
+G01L3/245	9	{by measuring and simultaneously multiplying pressure and velocity}	G01L3/24	G01L3/24		93
+G01L3/247	9	{by measuring and simultaneously multiplying tractive or propulsive force and velocity}	G01L3/24	G01L3/24		60
+G01L3/26	8	Devices for measuring efficiency, i.e. the ratio of power output to power input	G01L3/26	G01L3/26		274
+G01L5/00	7	Apparatus for, or methods of, measuring force, work, mechanical power, or torque, specially adapted for specific purposes	G01L5/00	G01L5/00		5953
+G01L5/0004	8	{Force transducers adapted for mounting in a bore of the force receiving structure (G01L5/0009 takes precedence)}	G01L5/00	G01L5/00		537
+G01L5/0009	8	{Force sensors associated with a bearing (testing of bearings G01M13/04)}	G01L5/00	G01L5/00		503
+G01L5/0014	9	{by using capacitive sensors}	G01L5/00	G01L5/00		33
+G01L5/0019	9	{by using strain gages, piezoelectric, piezo-resistive or other ohmic-resistance based sensors}	G01L5/00	G01L5/00		486
+G01L5/0023	9	{by using magnetic sensors}	G01L5/00	G01L5/00		105
+G01L5/0028	8	{Force sensors associated with force applying means (G01L5/0052, G01L5/0057, G01L5/0061 take precedence)}	G01L5/00	G01L5/00		2206
+G01L5/0033	9	{applying a pulling force}	G01L5/00	G01L5/00		928
+G01L5/0038	9	{applying a pushing force}	G01L5/00	G01L5/00		1020
+G01L5/0042	9	{applying a torque}	G01L5/00	G01L5/00		888
+G01L5/0047	8	{measuring forces due to residual stresses}	G01L5/00	G01L5/00		1163
+G01L5/0052	8	{measuring forces due to impact (G01L5/0061, G01L5/14 take precedence; impact testing of structures G01M7/08; impact testing of material G01N3/00)}	G01L5/00	G01L5/00		1388
+G01L5/0057	8	{measuring forces due to spring-shaped elements}	G01L5/00	G01L5/00		424
+G01L5/0061	8	{Force sensors associated with industrial machines or actuators (for the specific machine or actuator involved see relevant class, e.g. F01, F04, F16, B66, E21)}	G01L5/00	G01L5/00		960
+G01L5/0066	9	{Calibration arrangements}	G01L5/00	G01L5/00		111
+G01L5/0071	9	{Specific indicating arrangements, e.g. of overload}	G01L5/00	G01L5/00		182
+G01L5/0076	9	{Force sensors associated with manufacturing machines (G01L5/0066, G01L5/0071 and B23Q17/09 take precedence; for the specific machine or operation involved see relevant class, e.g. B21&#160;-&#160;B42)}	G01L5/00	G01L5/00		590
+G01L5/008	10	{Force sensors integrated in an article or a dummy workpiece}	G01L5/00	G01L5/00		105
+G01L5/0085	10	{Force sensors adapted for insertion between cooperating machine elements, e.g. for measuring the nip force between rollers}	G01L5/00	G01L5/00		203
+G01L5/009	10	{Force sensors associated with material gripping devices}	G01L5/00	G01L5/00		249
+G01L5/0095	8	{measuring work or mechanical power}	G01L5/00	G01L5/00		115
+G01L5/03	8	for measuring release force of ski safety bindings	G01L5/03	G01L5/03		68
+G01L5/04	8	for measuring tension in flexible members, e.g. ropes, cables, wires, threads, belts or bands {(G01L5/0004 takes precedence)}	G01L5/04	G01L5/04		1505
+G01L5/042	9	{by measuring vibrational characteristics of the flexible member}	G01L5/04	G01L5/04		330
+G01L5/045	9	{for measuring the tension across the width of a band-shaped flexible member (measuring flatness G01B)}	G01L5/04	G01L5/04		252
+G01L5/047	9	{Specific indicating or recording arrangements, e.g. for remote indication, for indicating overload or underload}	G01L5/04	G01L5/04		355
+G01L5/06	9	using mechanical means {(G01L5/042, G01L5/045 take precedence)}	G01L5/06	G01L5/06		574
+G01L5/08	9	using fluid means {(G01L5/042, G01L5/045 take precedence)}	G01L5/08	G01L5/08		187
+G01L5/10	9	using electrical means	G01L5/10	G01L5/10		946
+G01L5/101	10	using sensors inserted into the flexible member	G01L5/101	G01L5/101		299
+G01L5/102	10	using sensors located at a non-interrupted part of the flexible member	G01L5/102	G01L5/102		350
+G01L5/103	10	using sensors fixed at one end of the flexible member	G01L5/103	G01L5/103		249
+G01L5/105	10	using electro-optical means	G01L5/105	G01L5/105		171
+G01L5/106	10	for measuring a reaction force applied on a cantilever beam	G01L5/106	G01L5/106		236
+G01L5/107	10	for measuring a reaction force applied on an element disposed between two supports, e.g. on a plurality of rollers or gliders	G01L5/107	G01L5/107		336
+G01L5/108	10	for measuring a reaction force applied on a single support, e.g. a glider	G01L5/108	G01L5/108		306
+G01L5/12	8	for measuring axial thrust in a rotary shaft, e.g. of propulsion plants	G01L5/12	G01L5/12		565
+G01L5/13	8	for measuring the tractive or propulsive power of vehicles	G01L5/13	G01L5/13		280
+G01L5/133	9	{for measuring thrust of propulsive devices, e.g. of propellers (aeroplanes B64C; marine propulsion B63H; jet-engines F02K)}	G01L5/13	G01L5/13		312
+G01L5/136	9	{Force sensors associated with a vehicle traction coupling (vehicle connections B60D; control of vehicle brakes B60T)}	G01L5/13	G01L5/13		232
+G01L5/14	8	for measuring the force of explosions; for measuring the energy of projectiles	G01L5/14	G01L5/14		508
+G01L5/16	8	for measuring several components of force	G01L5/16	G01L5/16		1218
+G01L5/161	9	using variations in ohmic resistance	G01L5/161	G01L5/161		233
+G01L5/162	10	of piezoresistors	G01L5/162	G01L5/162		351
+G01L5/1623	10	of pressure sensitive conductors (using piezoresistors G01L5/162)	G01L5/1623	G01L5/1623		45
+G01L5/1627	10	of strain gauges (using piezoresistors G01L5/162)	G01L5/1627	G01L5/1627		847
+G01L5/163	10	of potentiometers	G01L5/163	G01L5/163		31
+G01L5/164	9	using variations in inductance	G01L5/164	G01L5/164		99
+G01L5/165	9	using variations in capacitance	G01L5/165	G01L5/165		319
+G01L5/166	9	using photoelectric means	G01L5/166	G01L5/166		257
+G01L5/167	9	using piezoelectric means	G01L5/167	G01L5/167		292
+G01L5/168	9	using counterbalancing forces	G01L5/168	G01L5/168		25
+G01L5/169	9	using magnetic means	G01L5/169	G01L5/169		159
+G01L5/171	9	using fluid means	G01L5/171	G01L5/171		37
+G01L5/173	9	using acoustic means	G01L5/173	G01L5/173		34
+G01L5/18	8	for measuring ratios of force	G01L5/18	G01L5/18		54
+G01L5/20	8	for measuring wheel side-thrust	G01L5/20	G01L5/20		146
+G01L5/22	8	for measuring the force applied to control members, e.g. control members of vehicles, triggers	G01L5/22	G01L5/22		553
+G01L5/221	9	{to steering wheels, e.g. for power assisted steering}	G01L5/22	G01L5/22		1104
+G01L5/223	9	{to joystick controls}	G01L5/22	G01L5/22		226
+G01L5/225	9	{to foot actuated controls, e.g. brake pedals}	G01L5/22	G01L5/22		302
+G01L5/226	9	{to manipulators, e.g. the force due to gripping}	G01L5/22	G01L5/22		450
+G01L5/228	10	{using tactile array force sensors}	G01L5/22	G01L5/22		455
+G01L5/24	8	for determining value of torque or twisting moment for tightening a nut or other member which is similarly stressed	G01L5/24	G01L5/24		1801
+G01L5/243	9	{using washers}	G01L5/24	G01L5/24		349
+G01L5/246	9	{using acoustic waves}	G01L5/24	G01L5/24		351
+G01L5/26	8	for determining the characteristic of torque in relation to revolutions per unit of time	G01L5/26	G01L5/26		142
+G01L5/28	8	for testing brakes	G01L5/28	G01L5/28		1277
+G01L5/282	9	{the vehicle wheels cooperating with rotatable rolls}	G01L5/28	G01L5/28		275
+G01L5/284	9	{Measuring braking-time or braking distance}	G01L5/28	G01L5/28		108
+G01L5/286	9	{Measuring deceleration}	G01L5/28	G01L5/28		70
+G01L5/288	9	{Measuring the force necessary to rotate a braked wheel}	G01L5/28	G01L5/28		272
+G01L7/00	7	Measuring the steady or quasi-steady pressure of a fluid or a fluent solid material by mechanical or fluid pressure-sensitive elements ({G01L11/004 takes precedence;} transmitting or indicating the displacement of mechanical pressure-sensitive elements by electric {, e.g., photoelectric} or magnetic means G01L9/00; measuring differences of two or more pressure values G01L13/00; measuring two or more pressure values simultaneously G01L15/00)	G01L7/00	G01L7/00		1658
+G01L7/02	8	in the form of elastically-deformable gauges	G01L7/02	G01L7/02		213
+G01L7/022	9	{constructional details, e.g. mounting of elastically-deformable gauges (G01L7/041, G01L7/061, G01L7/082, G01L7/102, G01L7/163, G01L7/182 take precedence)}	G01L7/02	G01L7/02		207
+G01L7/024	9	{with mechanical transmitting or indicating means (G01L7/043, G01L7/063, G01L7/084, G01L7/104, G01L7/166, G01L7/185 take precedence)}	G01L7/02	G01L7/02		103
+G01L7/026	9	{with optical transmitting or indicating means (G01L7/045, G01L7/065, G01L7/086, G01L7/106, G01L7/187 take precedence)}	G01L7/02	G01L7/02		41
+G01L7/028	9	{correcting or regulating means (G01L7/048, G01L7/068, G01L7/088, G01L7/108 take precedence)}	G01L7/02	G01L7/02		21
+G01L7/04	9	in the form of flexible, deformable tubes, e.g. Bourdon gauges	G01L7/04	G01L7/04		601
+G01L7/041	10	{Construction or mounting of deformable tubes}	G01L7/04	G01L7/04		399
+G01L7/043	10	{with mechanical transmitting or indicating means}	G01L7/04	G01L7/04		291
+G01L7/045	10	{with optical transmitting or indicating means}	G01L7/04	G01L7/04		26
+G01L7/046	10	{with exhausted tubes}	G01L7/04	G01L7/04		1
+G01L7/048	10	{correcting or regulating means for flexible, deformable tubes}	G01L7/04	G01L7/04		105
+G01L7/06	9	of the bellows type	G01L7/06	G01L7/06		105
+G01L7/061	10	{construction or mounting of bellows}	G01L7/06	G01L7/06		75
+G01L7/063	10	{with mechanical transmitting or indicating means}	G01L7/06	G01L7/06		150
+G01L7/065	10	{with optical transmitting or indicating means}	G01L7/06	G01L7/06		23
+G01L7/066	10	{with exhausted bellows}	G01L7/06	G01L7/06		8
+G01L7/068	10	{correcting or regulating means for bellows}	G01L7/06	G01L7/06		30
+G01L7/08	9	of the flexible-diaphragm type	G01L7/08	G01L7/08		461
+G01L7/082	10	{construction or mounting of diaphragms (of semiconductive diaphragms G01L9/0042)}	G01L7/08	G01L7/08		408
+G01L7/084	10	{with mechanical transmitting or indicating means}	G01L7/08	G01L7/08		336
+G01L7/086	10	{with optical transmitting or indicating means}	G01L7/08	G01L7/08		106
+G01L7/088	10	{correcting or regulating means for flexible diaphragms}	G01L7/08	G01L7/08		68
+G01L7/10	9	of the capsule type	G01L7/10	G01L7/10		44
+G01L7/102	10	{construction or mounting of capsules}	G01L7/10	G01L7/10		55
+G01L7/104	10	{with mechanical transmitting or indicating means}	G01L7/10	G01L7/10		109
+G01L7/106	10	{with optical transmitting or indicating means}	G01L7/10	G01L7/10		16
+G01L7/108	10	{correcting or regulating means for capsules}	G01L7/10	G01L7/10		20
+G01L7/12	10	with exhausted chamber; Aneroid barometers	G01L7/12	G01L7/12		106
+G01L7/14	11	with zero-setting means	G01L7/14	G01L7/14		29
+G01L7/16	8	in the form of pistons	G01L7/16	G01L7/16		561
+G01L7/163	9	{construction or mounting of pistons}	G01L7/16	G01L7/16		116
+G01L7/166	9	{with mechanical transmitting or indicating means}	G01L7/16	G01L7/16		223
+G01L7/18	8	using liquid as the pressure-sensitive medium, e.g. liquid-column gauges	G01L7/18	G01L7/18		702
+G01L7/182	9	{constructional details, e.g. mounting}	G01L7/18	G01L7/18		159
+G01L7/185	9	{with mechanical transmitting or indicating means}	G01L7/18	G01L7/18		30
+G01L7/187	9	{with optical transmitting or indicating means}	G01L7/18	G01L7/18		34
+G01L7/20	9	involving a closed chamber above the liquid level, the chamber being exhausted or housing low-pressure gas; Liquid barometers	G01L7/20	G01L7/20		76
+G01L7/22	9	involving floats, e.g. floating bells	G01L7/22	G01L7/22		164
+G01L7/24	9	involving balances in the form of rings partly filled with liquid	G01L7/24	G01L7/24		143
+G01L9/00	7	Measuring steady of quasi-steady pressure of fluid or fluent solid material by electric or magnetic pressure-sensitive elements {(G01L11/004 takes precedence)}; Transmitting or indicating the displacement of mechanical pressure-sensitive elements, used to measure the steady or quasi-steady pressure of a fluid or fluent solid material, by electric or magnetic means (measuring differences of two or more pressure values G01L13/00; measuring two or more pressure values simultaneously G01L15/00)	G01L9/00	G01L9/00		873
+G01L9/0001	8	{Transmitting or indicating the displacement of elastically deformable gauges by electric, electro-mechanical, magnetic or electro-magnetic means (G01L9/0026, G01L9/0033, G01L9/0082, G01L9/0089, G01L9/0091 take precedence)}	G01L9/00	G01L9/00		298
+G01L9/0002	9	{using variations in ohmic resistance (G01L9/0051 takes precedence)}	G01L9/00	G01L9/00		444
+G01L9/0004	9	{using variations in inductance (G01L9/007 takes precedence)}	G01L9/00	G01L9/00		88
+G01L9/0005	9	{using variations in capacitance (G01L9/0072 takes precedence)}	G01L9/00	G01L9/00		201
+G01L9/0007	9	{using photoelectric means (G01L9/0076 takes precedence)}	G01L9/00	G01L9/00		92
+G01L9/0008	9	{using vibrations}	G01L9/00	G01L9/00		160
+G01L9/001	10	{of an element not provided for in the following subgroups of G01L9/0008}	G01L9/00	G01L9/00		18
+G01L9/0011	11	{Optical excitation or measuring}	G01L9/00	G01L9/00		22
+G01L9/0013	10	{of a string}	G01L9/00	G01L9/00		94
+G01L9/0014	11	{Optical excitation or measuring of vibrations}	G01L9/00	G01L9/00		14
+G01L9/0016	10	{of a diaphragm}	G01L9/00	G01L9/00		134
+G01L9/0017	11	{Optical excitation or measuring}	G01L9/00	G01L9/00		23
+G01L9/0019	10	{of a semiconductive element}	G01L9/00	G01L9/00		116
+G01L9/002	11	{Optical excitation or measuring}	G01L9/00	G01L9/00		57
+G01L9/0022	10	{of a piezoelectric element}	G01L9/00	G01L9/00		359
+G01L9/0023	11	{Optical excitation or measuring}	G01L9/00	G01L9/00		24
+G01L9/0025	11	{with acoustic surface waves}	G01L9/00	G01L9/00		173
+G01L9/0026	8	{Transmitting or indicating the displacement of flexible, deformable tubes by electric, electromechanical, magnetic or electromagnetic means (G01L9/0008 takes precedence)}	G01L9/00	G01L9/00		177
+G01L9/0027	9	{using variations in ohmic resistance}	G01L9/00	G01L9/00		117
+G01L9/0029	9	{using variations in inductance}	G01L9/00	G01L9/00		74
+G01L9/003	9	{using variations in capacitance}	G01L9/00	G01L9/00		42
+G01L9/0032	9	{using photoelectric means}	G01L9/00	G01L9/00		63
+G01L9/0033	8	{Transmitting or indicating the displacement of bellows by electric, electromechanical, magnetic, or electromagnetic means (G01L9/0008 takes precedence)}	G01L9/00	G01L9/00		70
+G01L9/0035	9	{using variations in ohmic resistance}	G01L9/00	G01L9/00		104
+G01L9/0036	9	{using variations in inductance}	G01L9/00	G01L9/00		94
+G01L9/0038	9	{using variations in capacitance}	G01L9/00	G01L9/00		45
+G01L9/0039	9	{using photoelectric means}	G01L9/00	G01L9/00		66
+G01L9/0041	8	{Transmitting or indicating the displacement of flexible diaphragms}	G01L9/00	G01L9/00		370
+G01L9/0042	9	{Constructional details associated with semiconductive diaphragm sensors, e.g. etching, or constructional details of non-semiconductive diaphragms (details about the integration or bonding of piezoresistor in or on the diaphragm G01L9/0052 and G01L9/0057 respectively)}	G01L9/00	G01L9/00		1157
+G01L9/0044	10	{Constructional details of non-semiconductive diaphragms}	G01L9/00	G01L9/00		287
+G01L9/0045	10	{Diaphragm associated with a buried cavity}	G01L9/00	G01L9/00		149
+G01L9/0047	10	{Diaphragm with non uniform thickness, e.g. with grooves, bosses or continuously varying thickness}	G01L9/00	G01L9/00		143
+G01L9/0048	10	{Details about the mounting of the diaphragm to its support or about the diaphragm edges, e.g. notches, round shapes for stress relief}	G01L9/00	G01L9/00		210
+G01L9/005	10	{Non square semiconductive diaphragm}	G01L9/00	G01L9/00		32
+G01L9/0051	9	{using variations in ohmic resistance}	G01L9/00	G01L9/00		635
+G01L9/0052	10	{of piezoresistive elements (circuits therefor G01L9/06)}	G01L9/00	G01L9/00		565
+G01L9/0054	11	{integral with a semiconducting diaphragm}	G01L9/00	G01L9/00		838
+G01L9/0055	11	{bonded on a diaphragm}	G01L9/00	G01L9/00		630
+G01L9/0057	10	{of potentiometers}	G01L9/00	G01L9/00		115
+G01L9/0058	10	{of pressure sensitive conductive solid or liquid material, e.g. carbon granules}	G01L9/00	G01L9/00		79
+G01L9/006	10	{of metallic strain gauges fixed to an element other than the pressure transmitting diaphragm}	G01L9/00	G01L9/00		211
+G01L9/0061	11	{using unbounded-wire-type strain gauges}	G01L9/00	G01L9/00		58
+G01L2009/0063	11	{using a fluid coupling between strain gauge carrier and diaphragm}	G01L9/00	G01L9/00		4
+G01L9/0064	11	{the element and the diaphragm being in intimate contact}	G01L9/00	G01L9/00		48
+G01L2009/0066	10	{Mounting arrangements of diaphragm transducers;  Details thereof, e.g. electromagnetic shielding means}	G01L9/00	G01L9/00		28
+G01L2009/0067	11	{with additional isolating diaphragms}	G01L9/00	G01L9/00		10
+G01L2009/0069	11	{the transducer being mounted on a flexible element}	G01L9/00	G01L9/00		17
+G01L9/007	9	{using variations in inductance}	G01L9/00	G01L9/00		504
+G01L9/0072	9	{using variations in capacitance}	G01L9/00	G01L9/00		1133
+G01L9/0073	10	{using a semiconductive diaphragm}	G01L9/00	G01L9/00		806
+G01L9/0075	10	{using a ceramic diaphragm, e.g. alumina, fused quartz, glass}	G01L9/00	G01L9/00		571
+G01L9/0076	9	{using photoelectric means}	G01L9/00	G01L9/00		206
+G01L9/0077	10	{for measuring reflected light}	G01L9/00	G01L9/00		292
+G01L9/0079	11	{with Fabry-Perot arrangements}	G01L9/00	G01L9/00		188
+G01L9/008	9	{using piezoelectric devices (piezoelectric resonators G01L9/0022; surface acoustic waves G01L9/0025)}	G01L9/00	G01L9/00		428
+G01L9/0082	8	{Transmitting or indicating the displacement of capsules by electric, electromechanical, magnetic, or electromechanical means (G01L9/0008 takes precedence)}	G01L9/00	G01L9/00		49
+G01L9/0083	9	{using variations in ohmic resistance}	G01L9/00	G01L9/00		67
+G01L9/0085	9	{using variations in inductance}	G01L9/00	G01L9/00		85
+G01L9/0086	9	{using variations in capacitance}	G01L9/00	G01L9/00		97
+G01L9/0088	9	{using photoelectric means}	G01L9/00	G01L9/00		31
+G01L9/0089	8	{Transmitting or indicating the displacement of pistons by electrical, electromechanical, magnetic or electromagnetic means (G01L9/0008 takes precedence)}	G01L9/00	G01L9/00		202
+G01L9/0091	8	{Transmitting or indicating the displacement of liquid mediums by electrical, electromechanical, magnetic or electromagnetic means (G01L9/0008 takes precedence)}	G01L9/00	G01L9/00		158
+G01L9/0092	9	{using variations in ohmic resistance}	G01L9/00	G01L9/00		109
+G01L9/0094	9	{using variations in inductance}	G01L9/00	G01L9/00		47
+G01L9/0095	9	{using variations in capacitance}	G01L9/00	G01L9/00		56
+G01L9/0097	9	{using photoelectric means}	G01L9/00	G01L9/00		45
+G01L9/0098	8	{using semiconductor body comprising at least one PN junction as detecting element}	G01L9/00	G01L9/00		129
+G01L9/02	8	by making use of variations in ohmic resistance, e.g. of potentiometers {, electric circuits therefor, e.g. bridges, amplifiers or signal conditioning}	G01L9/02	G01L9/02		412
+G01L9/025	9	{with temperature compensating means (non electric temperature compensating means G01L19/04)}	G01L9/02	G01L9/02		104
+G01L9/04	9	of resistance-strain gauges	G01L9/04	G01L9/04		773
+G01L9/045	10	{with electric temperature compensating means (non electric temperature compensating means G01L19/04)}	G01L9/04	G01L9/04		174
+G01L9/06	9	of piezo-resistive devices	G01L9/06	G01L9/06		854
+G01L9/065	10	{with temperature compensating means (non electric temperature compensating means G01L19/04)}	G01L9/06	G01L9/06		374
+G01L9/08	8	by making use of piezoelectric devices {, i.e. electric circuits therefor}	G01L9/08	G01L9/08		719
+G01L9/085	9	{with temperature compensating means (non electric temperature compensating means G01L19/04)}	G01L9/08	G01L9/08		98
+G01L9/10	8	by making use of variations in inductance {, i.e. electric circuits therefor}	G01L9/10	G01L9/10		221
+G01L9/105	9	{with temperature compensating means (non electric temperature compensating means G01L19/04)}	G01L9/10	G01L9/10		45
+G01L9/12	8	by making use of variations in capacitance {, i.e. electric circuits therefor}	G01L9/12	G01L9/12		1230
+G01L9/125	9	{with temperature compensating means (non electric temperature compensating means G01L19/04)}	G01L9/12	G01L9/12		277
+G01L9/14	8	involving the displacement of magnets, e.g. electromagnets	G01L9/14	G01L9/14		254
+G01L9/16	8	by making use of variations in the magnetic properties of material resulting from the application of stress	G01L9/16	G01L9/16		219
+G01L9/18	8	by making use of electrokinetic cells, i.e. liquid-containing cells wherein an electric potential is produced or varied upon the application of stress	G01L9/18	G01L9/18		36
+G01L11/00	7	Measuring steady or quasi-steady pressure of a fluid or a fluent solid material by means not provided for in group G01L7/00 or G01L9/00	G01L11/00	G01L11/00		2395
+G01L11/002	8	{by thermal means, e.g. hypsometer}	G01L11/00	G01L11/00		143
+G01L11/004	8	{by the use of counterbalancing forces (measuring force by the use of counterbalancing forces G01L1/08)}	G01L11/00	G01L11/00		117
+G01L11/006	9	{hydraulic or pneumatic counterbalancing forces}	G01L11/00	G01L11/00		170
+G01L11/008	9	{electrostatic or electromagnetic counterbalancing forces}	G01L11/00	G01L11/00		157
+G01L11/02	8	by optical means	G01L11/02	G01L11/02		796
+G01L11/025	9	{using a pressure-sensitive optical fibre}	G01L11/02	G01L11/02		821
+G01L11/04	8	by acoustic means	G01L11/04	G01L11/04		185
+G01L11/06	9	Ultrasonic means	G01L11/06	G01L11/06		122
+G01L13/00	7	Devices or apparatus for measuring differences of two or more fluid pressure values	G01L13/00	G01L13/00		978
+G01L13/02	8	using elastically-deformable members or pistons as sensing elements	G01L13/02	G01L13/02		523
+G01L13/021	9	{using deformable tubes}	G01L13/02	G01L13/02		34
+G01L13/023	9	{using bellows}	G01L13/02	G01L13/02		123
+G01L13/025	9	{using diaphragms}	G01L13/02	G01L13/02		1014
+G01L13/026	10	{involving double diaphragm}	G01L13/02	G01L13/02		160
+G01L13/028	9	{using capsules}	G01L13/02	G01L13/02		48
+G01L13/04	8	using floats or liquids as sensing elements	G01L13/04	G01L13/04		87
+G01L13/06	8	using electric or magnetic pressure-sensitive elements	G01L13/06	G01L13/06		345
+G01L15/00	7	Devices or apparatus for measuring two or more fluid pressure values simultaneously	G01L15/00	G01L15/00		716
+G01L17/00	7	Devices or apparatus for measuring tyre pressure or the pressure in other inflated bodies	G01L17/00	G01L17/00		1618
+G01L17/005	8	{using a sensor contacting the exterior surface, e.g. for measuring deformation}	G01L17/00	G01L17/00		330
+G01L19/00	7	Details of, or accessories for, apparatus for measuring steady or quasi-steady pressure of a fluent medium insofar as such details or accessories are not special to particular types of pressure gauges	G01L19/00	G01L19/00		2175
+G01L19/0007	8	{Fluidic connecting means}	G01L19/00	G01L19/00		1651
+G01L19/0015	9	{using switching means}	G01L19/00	G01L19/00		315
+G01L19/0023	9	{for flowthrough systems having a flexible pressure transmitting element}	G01L19/00	G01L19/00		361
+G01L19/003	9	{using a detachable interface or adapter between the process medium and the pressure gauge}	G01L19/00	G01L19/00		455
+G01L19/0038	9	{being part of the housing (other details about the housing G01L19/14)}	G01L19/00	G01L19/00		872
+G01L19/0046	9	{using isolation membranes (G01L13/026 and G01L19/0645 take precedence)}	G01L19/00	G01L19/00		543
+G01L2019/0053	8	{Pressure sensors associated with other sensors, e.g. for measuring acceleration, temperature}	G01L19/00	G01L19/00		238
+G01L19/0061	8	{Electrical connection means}	G01L19/00	G01L19/00		353
+G01L19/0069	9	{from the sensor to its support}	G01L19/00	G01L19/00		282
+G01L19/0076	10	{using buried connections}	G01L19/00	G01L19/00		66
+G01L19/0084	9	{to the outside of the housing (other details about the housing seeG01L19/14)}	G01L19/00	G01L19/00		928
+G01L19/0092	8	{Pressure sensor associated with other sensors, e.g. for measuring acceleration or temperature (G01L9/025, G01L9/045, G01L9/065, G01L9/085, G01L9/105, G01L9/125, G01L19/02, G01L19/04 take precedence; measuring two or more variable G01D21/02; temperature sensors with pressure compensation G01K1/26)}	G01L19/00	G01L19/00		1341
+G01L19/02	8	Arrangements for preventing, or for compensating for, effects of inclination or acceleration of the measuring device; Zero-setting means (for aneroid barometers G01L7/14)	G01L19/02	G01L19/02		372
+G01L19/04	8	Means for compensating for effects of changes of temperature {, i.e. other than electric compensation}	G01L19/04	G01L19/04		1173
+G01L19/06	8	Means for preventing overload or deleterious influence of the measured medium on the measuring device or vice versa	G01L19/06	G01L19/06		827
+G01L19/0609	9	{Pressure pulsation damping arrangements}	G01L19/06	G01L19/06		456
+G01L19/0618	9	{Overload protection}	G01L19/06	G01L19/06		760
+G01L19/0627	9	{Protection against aggressive medium in general}	G01L19/06	G01L19/06		521
+G01L19/0636	10	{using particle filters}	G01L19/06	G01L19/06		242
+G01L19/0645	10	{using isolation membranes, specially adapted for protection}	G01L19/06	G01L19/06		943
+G01L19/0654	10	{against moisture or humidity}	G01L19/06	G01L19/06		325
+G01L19/0663	9	{Flame protection; Flame barriers}	G01L19/06	G01L19/06		99
+G01L19/0672	9	{Leakage or rupture protection or detection}	G01L19/06	G01L19/06		396
+G01L19/0681	9	{Protection against excessive heat}	G01L19/06	G01L19/06		341
+G01L19/069	9	{Protection against electromagnetic or electrostatic interferences}	G01L19/06	G01L19/06		149
+G01L19/08	8	Means for indicating or recording, e.g. for remote indication	G01L19/08	G01L19/08		1241
+G01L19/083	9	{electrical}	G01L19/08	G01L19/08		535
+G01L19/086	9	{for remote indication}	G01L19/08	G01L19/08		680
+G01L19/10	9	mechanical	G01L19/10	G01L19/10		346
+G01L19/12	9	Alarms or signals	G01L19/12	G01L19/12		1326
+G01L19/14	8	Housings {(G01L19/0007, G01L19/0084, G01L19/0092, G01L19/04, G01L19/06 take precedence)}	G01L19/14	G01L19/14		1435
+G01L19/141	9	{Monolithic housings, e.g. molded or one-piece housings}	G01L19/14	G01L19/14		480
+G01L19/142	9	{Multiple part housings}	G01L19/14	G01L19/14		472
+G01L19/143	10	{Two part housings}	G01L19/14	G01L19/14		668
+G01L19/144	10	{with dismountable parts, e.g. for maintenance purposes or for ensuring sterile conditions (for detachable interface or adapter between the process medium and the pressure gauge G01L19/003)}	G01L19/14	G01L19/14		168
+G01L19/145	9	{with stress relieving means}	G01L19/14	G01L19/14		125
+G01L19/146	10	{using flexible element between the transducer and the support}	G01L19/14	G01L19/14		160
+G01L19/147	9	{Details about the mounting of the sensor to support or covering means}	G01L19/14	G01L19/14		1397
+G01L19/148	9	{Details about the circuit board integration, e.g. integrated with the diaphragm surface or encapsulation}	G01L19/14	G01L19/14		740
+G01L19/149	9	{of immersion sensor, e.g. where the sensor is immersed in the measuring medium or for in vivo measurements, e.g. by using catheter tips}	G01L19/14	G01L19/14		107
+G01L19/16	8	Dials; Mounting of dials	G01L19/16	G01L19/16		260
+G01L21/00	7	Vacuum gauges	G01L21/00	G01L21/00		905
+G01L21/02	8	having a compression chamber in which gas, whose pressure is to be measured, is compressed	G01L21/02	G01L21/02		48
+G01L21/04	9	wherein the chamber is closed by liquid; Vacuum gauges of the McLeod type	G01L21/04	G01L21/04		68
+G01L21/06	10	actuated by rotating or inverting the measuring device	G01L21/06	G01L21/06		5
+G01L21/08	8	by measuring variations in the transmission of acoustic waves through the medium, the pressure of which is to be measured	G01L21/08	G01L21/08		16
+G01L21/10	8	by measuring variations in the heat conductivity of the medium, the pressure of which is to be measured	G01L21/10	G01L21/10		44
+G01L21/12	9	measuring changes in electric resistance of measuring members, e.g. of filaments; Vacuum gauges of the Pirani type	G01L21/12	G01L21/12		252
+G01L21/14	9	using thermocouples	G01L21/14	G01L21/14		62
+G01L21/16	8	by measuring variation of frictional resistance of gases	G01L21/16	G01L21/16		12
+G01L21/18	9	using a pendulum	G01L21/18	G01L21/18		2
+G01L21/20	9	using members oscillating about a vertical axis	G01L21/20	G01L21/20		2
+G01L21/22	9	using resonance effects of a vibrating body; Vacuum gauges of the Klumb type	G01L21/22	G01L21/22		53
+G01L21/24	9	using rotating members; Vacuum gauges of the Langmuir type	G01L21/24	G01L21/24		23
+G01L21/26	8	by making use of radiometer action, i.e. of the pressure caused by the momentum of molecules passing from a hotter to a cooler member; Vacuum gauges of the Knudsen type	G01L21/26	G01L21/26		11
+G01L21/28	9	using torsional rotary measuring members	G01L21/28	G01L21/28		
+G01L21/30	8	by making use of ionisation effects	G01L21/30	G01L21/30		142
+G01L21/32	9	using electric discharge tubes with thermionic cathodes	G01L21/32	G01L21/32		111
+G01L21/34	9	using electric discharge tubes with cold cathodes	G01L21/34	G01L21/34		107
+G01L21/36	9	using radioactive substances	G01L21/36	G01L21/36		13
+G01L23/00	7	Devices or apparatus for measuring or indicating or recording rapid changes, such as oscillations, in the pressure of steam, gas, or liquid; Indicators for determining work or energy of steam, internal-combustion, or other fluid-pressure engines from the condition of the working fluid	G01L23/00	G01L23/00		255
+G01L23/02	8	mechanically indicating or recording and involving loaded or return springs	G01L23/02	G01L23/02		367
+G01L23/04	8	involving means subjected to known counteracting pressure	G01L23/04	G01L23/04		23
+G01L23/06	8	Indicating or recording by optical means	G01L23/06	G01L23/06		60
+G01L23/08	8	operated electrically {(G01L23/22 takes precedence)}	G01L23/08	G01L23/08		262
+G01L23/085	9	{by measuring fluctuations of starter motor current or of battery voltage (battery testing arrangements G01R31/36; testing of electrical installation on transport means G01R31/005; battery testing arrangements G01R31/36)}	G01L23/08	G01L23/08		50
+G01L23/10	9	by pressure-sensitive members of the piezoelectric type	G01L23/10	G01L23/10		614
+G01L23/12	9	by changing capacitance or inductance	G01L23/12	G01L23/12		33
+G01L23/125	10	{by changing capacitance}	G01L23/12	G01L23/12		111
+G01L23/14	9	by electromagnetic elements	G01L23/14	G01L23/14		32
+G01L23/145	10	{by magnetostrictive elements}	G01L23/14	G01L23/14		20
+G01L23/16	9	by photoelectric means	G01L23/16	G01L23/16		124
+G01L23/18	9	by resistance strain gauges	G01L23/18	G01L23/18		282
+G01L23/20	8	combined with planimeters or integrators	G01L23/20	G01L23/20		13
+G01L23/22	8	for detecting or indicating knocks in internal-combustion engines; Units comprising pressure-sensitive members combined with ignitors for firing internal-combustion engines	G01L23/22	G01L23/22		432
+G01L23/221	9	{for detecting or indicating knocks in internal combustion engines}	G01L23/22	G01L23/22		419
+G01L23/222	10	{using piezoelectric devices}	G01L23/22	G01L23/22		417
+G01L23/223	10	{using magnetic or magnetostrictive means}	G01L23/22	G01L23/22		63
+G01L23/225	10	{circuit arrangements therefor}	G01L23/22	G01L23/22		814
+G01L23/226	11	{using specific filtering}	G01L23/22	G01L23/22		31
+G01L23/227	11	{using numerical analyses}	G01L23/22	G01L23/22		43
+G01L2023/228	9	{circuit arrangements therefor}	G01L23/22	G01L23/22		14
+G01L23/24	8	{specially adapted} for measuring pressure in inlet or exhaust ducts of internal-combustion engines	G01L23/24	G01L23/24		260
+G01L23/26	8	Details or accessories	G01L23/26	G01L23/26		261
+G01L23/28	9	Cooling means	G01L23/28	G01L23/28		65
+G01L23/30	9	Means for indicating consecutively positions of pistons or cranks of internal-combustion engines in combination with pressure indicators	G01L23/30	G01L23/30		63
+G01L23/32	9	Apparatus specially adapted for recording pressure changes measured by indicators	G01L23/32	G01L23/32		84
+G01L25/00	7	Testing or calibrating of apparatus for measuring force, torque, work, mechanical power, or mechanical efficiency	G01L25/00	G01L25/00		2375
+G01L25/003	8	{for measuring torque}	G01L25/00	G01L25/00		1006
+G01L25/006	8	{for measuring work or mechanical power or mechanical efficiency}	G01L25/00	G01L25/00		120
+G01L27/00	7	Testing or calibrating of apparatus for measuring fluid pressure	G01L27/00	G01L27/00		982
+G01L27/002	8	{Calibrating, i.e. establishing true relation between transducer output value and value to be measured, zeroing, linearising or span error determination}	G01L27/00	G01L27/00		865
+G01L27/005	9	{Apparatus for calibrating pressure sensors}	G01L27/00	G01L27/00		1309
+G01L27/007	8	{Malfunction diagnosis, i.e. diagnosing a sensor defect}	G01L27/00	G01L27/00		754
+G01L27/02	8	of indicators	G01L27/02	G01L27/02		123

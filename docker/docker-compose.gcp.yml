@@ -1,0 +1,128 @@
+version: '3.8'
+
+services:
+  # OpenSearch for patent classification data
+  opensearch:
+    image: opensearchproject/opensearch:2.11.1
+    container_name: patent_opensearch
+    environment:
+      - cluster.name=patent-cluster
+      - node.name=patent-node
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms2g -Xmx2g"
+      - DISABLE_SECURITY_PLUGIN=true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+      - ./config/opensearch_tags_analysis.json:/usr/share/opensearch/config/opensearch_tags_analysis.json:ro
+    ports:
+      - "9200:9200"
+      - "9600:9600"
+    networks:
+      - patent-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # Patent Classification API (RAG-based)
+  classification-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: patent_classification_api
+    depends_on:
+      opensearch:
+        condition: service_healthy
+    environment:
+      - OPENSEARCH_HOST=opensearch
+      - OPENSEARCH_PORT=9200
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data_20250812:/app/data_20250812:ro
+    ports:
+      - "8000:8000"
+    networks:
+      - patent-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Google Patents Scraping API
+  google-patents-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.google-patents
+    container_name: google_patents_api
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DISPLAY=:99
+    volumes:
+      - ./downloads:/app/downloads
+    ports:
+      - "8001:8001"
+    networks:
+      - patent-network
+    restart: unless-stopped
+    shm_size: 2gb
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8001/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  # OpenSearch Dashboards (optional, for visualization)
+  opensearch-dashboards:
+    image: opensearchproject/opensearch-dashboards:2.11.1
+    container_name: patent_opensearch_dashboards
+    depends_on:
+      opensearch:
+        condition: service_healthy
+    environment:
+      - 'OPENSEARCH_HOSTS=["http://opensearch:9200"]'
+      - DISABLE_SECURITY_DASHBOARDS_PLUGIN=true
+    ports:
+      - "5601:5601"
+    networks:
+      - patent-network
+    volumes:
+      - ./config/opensearch_dashboards.yml:/usr/share/opensearch-dashboards/config/opensearch_dashboards.yml:ro
+    restart: unless-stopped
+
+  # Nginx reverse proxy (optional, for production)
+  nginx:
+    image: nginx:alpine
+    container_name: patent_nginx
+    depends_on:
+      - classification-api
+      - google-patents-api
+    volumes:
+      - ./config/nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - patent-network
+    restart: unless-stopped
+
+networks:
+  patent-network:
+    driver: bridge
+
+volumes:
+  opensearch-data:
+    driver: local

@@ -1,0 +1,742 @@
+B66B   1/00  \	0	0	3F502	B66B   1/00	598	エレベータの制御システム一般（安全装置Ｂ６６Ｂ５／００；扉またはゲート操作の制御Ｂ６６Ｂ１３／００）	Control systems of elevators in general (safety devices B66B 5/00; controlling door or gate operation B66B 13/00)
+B66B   1/02  \	1	1	3F502	B66B   1/02	0	調整手段のない制御システム，すなわち反作用動作のないもの	Control systems without regulation, i.e. without retroactive action
+B66B   1/04  \	2	2	3F502	B66B   1/04	134	流体的なもの	hydraulic
+B66B   1/04  A	2	0	3F502	B66B   1/04	111	油温に応じた制御〔例．冷却．運転制限〕	Control depending oil temperatures, e.g. cooling, restricting operation
+B66B   1/04  Z	2	0	3F502	B66B   1/04	169	その他のもの	Others
+B66B   1/06  \	2	2	3F502	B66B   1/06	986	電気的なもの	electric
+B66B   1/06  A	2	0	3F502	B66B   1/06	160	照明の制御	Illumination control
+B66B   1/06  B	2	0	3F502	B66B   1/06	223	空調の制御〔例．特定空調階への運転〕	Air conditioning control, e.g. operation for particular floors
+B66B   1/06  C	2	0	3F502	B66B   1/06	125	特殊エレベータ用の制御〔例．展望用〕	Control for special lifts, e.g. for observatory
+B66B   1/06  D	2	1	3F502	B66B   1/06	136	ダブルデッキ用	for double decks
+B66B   1/06  E	2	0	3F502	B66B   1/06	69	荷物・車両用エレベータの制御	Control of lifts for loads or vehicles
+B66B   1/06  F	2	0	3F502	B66B   1/06	91	専用運転制御，優先運転制御	Exclusive operation control, priority operation control
+B66B   1/06  G	2	1	3F502	B66B   1/06	40	身障者用，車椅子用	for handicapped, for wheel chairs
+B66B   1/06  H	2	0	3F502	B66B   1/06	80	休止制御	Pause control
+B66B   1/06  J	2	0	3F502	B66B   1/06	34	待機制御	Standby control
+B66B   1/06  K	2	0	3F502	B66B   1/06	300	省エネルギー制御	Energy-saving control
+B66B   1/06  L	2	0	3F502	B66B   1/06	335	騒音防止制御，振動防止制御	Noise prevention control, vibration prevention control
+B66B   1/06  M	2	0	3F502	B66B   1/06	36	運転頻度・起動回数に関する制御	Related to operating or starting frequencies
+B66B   1/06  Z	2	0	3F502	B66B   1/06	650	その他のもの	Others
+B66B   1/08  \	3	3	3F502	B66B   1/08	21	運動の直接制御のためのカーまたはケージ中の装置，例．ハンドルまたはレバーをもつもの	with devices, e.g. handles or levers, in the cars or cages for direct control of movements
+B66B   1/10  \	4	4	3F502	B66B   1/10	1	特に鉱山用ホイストに適応されるもの	specially adapted for mining hoists
+B66B   1/12  \	3	3	3F502	B66B   1/12	17	運動の直接制御のためにコントロールステーションに配置された装置，例．ハンドルまたはレバーをもつもの，例．鉱山用電気的ホイスト制御システム	with devices, e.g. handles or levers, located at a control station for direct control of movements, e.g. electric mining-hoist control systems
+B66B   1/14  \	3	3	3F502	B66B   1/14	1282	運動の間接制御のための装置，例．押釦，をもつもの	with devices, e.g. push-buttons, for indirect control of movements
+B66B   1/14  A	3	0	3F502	B66B   1/14	41	照明の制御	Illumination control
+B66B   1/14  B	3	0	3F502	B66B   1/14	62	空調の制御〔例．特定空調階への運転〕	Air conditioning control, e.g. operation for particular floors
+B66B   1/14  C	3	0	3F502	B66B   1/14	42	特殊エレベータ用の制御〔例．展望用〕	Control for special lifts, e.g. for observatory
+B66B   1/14  D	3	1	3F502	B66B   1/14	92	ダブルデッキ用	for double decks
+B66B   1/14  E	3	0	3F502	B66B   1/14	219	荷物・車両用エレベータの制御	Control of lifts for loads or vehicles
+B66B   1/14  F	3	0	3F502	B66B   1/14	491	専用運転制御，優先運転制御	Exclusive operation control, priority operation control
+B66B   1/14  G	3	1	3F502	B66B   1/14	271	身障者用，車椅子用	for handicapped, for wheel chairs
+B66B   1/14  H	3	0	3F502	B66B   1/14	75	休止制御	Pause control
+B66B   1/14  J	3	0	3F502	B66B   1/14	81	待機制御〔例．待機階の変更〕	Standby control, e.g. changing standby floors
+B66B   1/14  K	3	0	3F502	B66B   1/14	291	乗場に行先呼び装置を持つもの	with destination caller at stand
+B66B   1/14  L	3	0	3F502	B66B   1/14	1291	呼びの操作方法に特徴のあるもの〔呼び登録の制限〕	Characterised by operating method for calls (restricting call registrations)
+B66B   1/14  M	3	0	3F502	B66B   1/14	199	呼びの取消に特徴のあるもの	Characterised by cancelling calls
+B66B   1/14  Z	3	0	3F502	B66B   1/14	495	その他のもの	Others
+B66B   1/16  \	4	4	3F502	B66B   1/16	259	１個のカーまたはケージの運動を制御するパルスを蓄積するための手段をもつもの	with means for storing pulses controlling the movements of a single car or cage
+B66B   1/16  A	4	0	3F502	B66B   1/16	7	照明の制御	Illumination control
+B66B   1/16  B	4	0	3F502	B66B   1/16	6	空調の制御〔例．特定空調階への運転〕	Air conditioning control, e.g. operation for particular floors
+B66B   1/16  C	4	0	3F502	B66B   1/16	12	特殊エレベータ用の制御〔例．展望用〕	Control for special lifts, e.g. for observatory
+B66B   1/16  D	4	1	3F502	B66B   1/16	30	ダブルデッキ用	for double decks
+B66B   1/16  E	4	0	3F502	B66B   1/16	29	荷物・車両用エレベータの制御	Control of lifts for loads or vehicles
+B66B   1/16  F	4	0	3F502	B66B   1/16	96	専用運転制御，優先運転制御	Exclusive operation control, priority operation control
+B66B   1/16  G	4	1	3F502	B66B   1/16	26	身障者用，車椅子用	for handicapped, for wheel chairs
+B66B   1/16  H	4	0	3F502	B66B   1/16	12	休止制御	Pause control
+B66B   1/16  J	4	0	3F502	B66B   1/16	14	待機制御〔例．待機階の変更〕	Standby control, e.g. changing standby floors
+B66B   1/16  K	4	0	3F502	B66B   1/16	15	乗場に行先呼び装置を持つもの	with destination caller at stand
+B66B   1/16  L	4	0	3F502	B66B   1/16	105	呼びの操作方法に特徴のあるもの〔呼び登録の制限〕	Characterised by operating method for calls (restricting call registrations)
+B66B   1/16  M	4	0	3F502	B66B   1/16	59	呼びの取消に特徴のあるもの	Characterised by cancelling calls
+B66B   1/16  Z	4	0	3F502	B66B   1/16	112	その他のもの	Others
+B66B   1/18  \	4	4	3F502	B66B   1/18	1498	多数個のカーまたはケージの運動を制御するパルスを蓄積するための手段をもつもの	with means for storing pulses controlling the movements of several cars or cages
+B66B   1/18  A	4	0	3F502	B66B   1/18	4	照明の制御	Illumination control
+B66B   1/18  B	4	0	3F502	B66B   1/18	5	空調の制御〔例．特定空調階への運転〕	Air conditioning control, e.g. operation for particular floors
+B66B   1/18  C	4	0	3F502	B66B   1/18	185	特殊エレベータ用の制御〔例．展望用〕	Control for special lifts, e.g. for observatory
+B66B   1/18  D	4	1	3F502	B66B   1/18	97	ダブルデッキ用	for double decks
+B66B   1/18  E	4	0	3F502	B66B   1/18	36	荷物・車両用エレベータの制御	Control of lifts for loads or vehicles
+B66B   1/18  F	4	0	3F502	B66B   1/18	206	専用運転制御，優先運転制御	Exclusive operation control, priority operation control
+B66B   1/18  G	4	1	3F502	B66B   1/18	64	身障者用，車椅子用	for handicapped, for wheel chairs
+B66B   1/18  H	4	0	3F502	B66B   1/18	91	休止制御，運転台数制御	Pause control
+B66B   1/18  J	4	0	3F502	B66B   1/18	155	待機制御〔例．分散待機〕	Standby control, e.g. changing standby floors
+B66B   1/18  K	4	0	3F502	B66B   1/18	535	乗場に行先呼び装置を持つもの	with destination caller at stand
+B66B   1/18  L	4	0	3F502	B66B   1/18	338	呼びの操作方法に特徴のあるもの〔呼び登録の制限〕	Characterised by operating method for calls (restricting call registrations)
+B66B   1/18  M	4	0	3F502	B66B   1/18	60	呼びの取消に特徴のあるもの	Characterised by cancelling calls
+B66B   1/18  N	4	0	3F502	B66B   1/18	700	呼び割当制御	Call allotment control
+B66B   1/18  P	4	1	3F502	B66B   1/18	432	評価式による割当	Allotments by evaluation type
+B66B   1/18  Q	4	2	3F502	B66B   1/18	224	満員を考慮するもの	Considering full loading
+B66B   1/18  R	4	2	3F502	B66B   1/18	168	長待ちを考慮するもの	Considering prolonged waiting
+B66B   1/18  S	4	2	3F502	B66B   1/18	442	測定された交通需要統計に基づくもの〔学習制御〕	Based on measured traffic demand statistics (learning control)
+B66B   1/18  T	4	1	3F502	B66B   1/18	112	分割帯域〔固定ゾーン〕内の呼び割当	Call allotments within divided zones (fixed zones)
+B66B   1/18  U	4	1	3F502	B66B   1/18	86	移動するサービスゾーン内の呼び割当	Call allotments within moving service zones
+B66B   1/18  V	4	0	3F502	B66B   1/18	102	所定階からの出発間隔制御	Departure interval control from specific floors
+B66B   1/18  W	4	0	3F502	B66B   1/18	164	かご相互の位置間隔制御〔例．時間的間隔〕	Position interval control among cages, e.g. time intervals
+B66B   1/18  X	4	0	3F502	B66B   1/18	145	乗継の制御，群〔バンク〕間の関連制御	Transit control, related control among banks
+B66B   1/18  Y	4	1	3F502	B66B   1/18	56	スカイロビーを持つもの	with sky lobby
+B66B   1/18  Z	4	0	3F502	B66B   1/18	537	その他のもの〔群管理一般〕	Others (bank management in general)
+B66B   1/20  \	5	5	3F502	B66B   1/20	57	かつ特別な輸送状態，例．“一方向のラッシュアワー輸送”，に適合するために操作の方法を変えるためのもの	and for varying the manner of operation to suit particular traffic conditions, e.g. "one-way rush-hour traffic"
+B66B   1/20  A	5	0	3F502	B66B   1/20	1	照明の制御	Illumination control
+B66B   1/20  B	5	0	3F502	B66B   1/20	1	空調の制御〔例．特定空調階への運転〕	Air conditioning control, e.g. operation for particular floors
+B66B   1/20  C	5	0	3F502	B66B   1/20	5	特殊エレベータ用の制御〔例．展望用〕	Control for special lifts, e.g. for observatory
+B66B   1/20  D	5	1	3F502	B66B   1/20	15	ダブルデッキ用	for double decks
+B66B   1/20  E	5	0	3F502	B66B   1/20	1	荷物・車両用エレベータの制御	Control of lifts for loads or vehicles
+B66B   1/20  F	5	0	3F502	B66B   1/20	32	専用運転制御，優先運転制御	Exclusive operation control, priority operation control
+B66B   1/20  G	5	1	3F502	B66B   1/20	4	身障者用，車椅子用	for handicapped, for wheel chairs
+B66B   1/20  H	5	0	3F502	B66B   1/20	6	休止制御，運転台数制御	Pause control
+B66B   1/20  J	5	0	3F502	B66B   1/20	21	待機制御〔例．分散待機〕	Standby control, e.g. dispersed standby
+B66B   1/20  K	5	0	3F502	B66B   1/20	24	乗場に行先呼び装置を持つもの	with destination caller at stand
+B66B   1/20  L	5	0	3F502	B66B   1/20	14	呼びの操作方法に特徴のあるもの〔呼び登録の制限〕	Characterised by operating method for calls (restricting call registrations)
+B66B   1/20  M	5	0	3F502	B66B   1/20	1	呼びの取消に特徴のあるもの	Characterised by cancelling calls
+B66B   1/20  N	5	0	3F502	B66B   1/20	49	呼び割当制御	Call allotment control
+B66B   1/20  P	5	1	3F502	B66B   1/20	27	評価式による割当	Allotments by evaluation type
+B66B   1/20  Q	5	2	3F502	B66B   1/20	24	満員を考慮するもの	Considering full loading
+B66B   1/20  R	5	2	3F502	B66B   1/20	19	長待ちを考慮するもの	Considering prolonged waiting
+B66B   1/20  S	5	2	3F502	B66B   1/20	72	測定された交通需要統計に基づくもの〔学習制御〕	Based on measured traffic demand statistics (learning control)
+B66B   1/20  T	5	1	3F502	B66B   1/20	28	分割帯域〔固定ゾーン〕内の呼び割当	Call allotments within divided zones (fixed zones)
+B66B   1/20  U	5	1	3F502	B66B   1/20	19	移動するサービスゾーン内の呼び割当	Call allotments within moving service zones
+B66B   1/20  V	5	0	3F502	B66B   1/20	19	所定階からの出発間隔制御	Departure interval control from specific floors
+B66B   1/20  W	5	0	3F502	B66B   1/20	5	かご相互の位置間隔制御〔例．時間的間隔〕	Position interval control among cages, e.g. time intervals
+B66B   1/20  X	5	0	3F502	B66B   1/20	10	乗継の制御．群〔バンク〕間の関連制御	Transit control, related control among banks
+B66B   1/20  Y	5	1	3F502	B66B   1/20	4	スカイロビーを持つもの	with sky lobby
+B66B   1/20  Z	5	0	3F502	B66B   1/20	46	その他のもの	Others
+B66B   1/22  \	4	4	3F502	B66B   1/22	7	遅れた呼出を考慮する手段をもつもの	with means for taking account of delayed calls
+B66B   1/24  \	1	1	3F502	B66B   1/24	742	走行速度，加速度，または減速度に影響をおよぼすための調整手段，すなわち反作用動作，をもつ制御システム	Control systems with regulation, i.e. with retroactive action, for influencing travelling speed, acceleration, or deceleration
+B66B   1/26  \	2	2	3F502	B66B   1/26	793	機械的なもの	mechanical
+B66B   1/28  \	2	2	3F502	B66B   1/28	1171	電気的なもの（過速度を検知するものＢ６６Ｂ５／０４）	electrical (detecting excessive speed B66B 5/04)
+B66B   1/30  \	3	3	3F502	B66B   1/30	209	駆動装置に影響を与えるもの	effective on driving gear
+B66B   1/30  A	3	0	3F502	B66B   1/30	248	起動トルク制御	Starting torque control
+B66B   1/30  B	3	0	3F502	B66B   1/30	681	速度パターンの発生	Generating speed patterns
+B66B   1/30  C	3	1	3F502	B66B   1/30	63	加速度パターンを積分するもの	Integrating speed patterns
+B66B   1/30  D	3	0	3F502	B66B   1/30	175	直流エレベータの制御	DC lift control
+B66B   1/30  E	3	0	3F502	B66B   1/30	183	交流エレベータの制御	AC lift control
+B66B   1/30  F	3	1	3F502	B66B   1/30	70	多段変速交流機〔例．２段速〕	Multi-speed AC lifts, e.g. dual speed
+B66B   1/30  G	3	1	3F502	B66B   1/30	111	１次電圧制御	Primary voltage control
+B66B   1/30  H	3	1	3F502	B66B   1/30	769	インバータ制御	Inverter control
+B66B   1/30  Z	3	0	3F502	B66B   1/30	284	その他のもの	Others
+B66B   1/32  \	3	3	3F502	B66B   1/32	577	ブレーキ装置に影響を与えるもの	effective on braking devices
+B66B   1/34  \	1	1	3F502	B66B   1/34	22	細部	Details
+B66B   1/34  A	1	0	3F502	B66B   1/34	977	電源，給電に関するもの	Related to power supply or power feed
+B66B   1/34  B	1	0	3F502	B66B   1/34	138	駆動装置に関するもの	Relate to driving arrangements
+B66B   1/34  C	1	0	3F502	B66B   1/34	638	制御盤・制御装置の構造	Structures of control panels or arrangements
+B66B   1/34  Z	1	0	3F502	B66B   1/34	63	その他のもの	Others
+B66B   1/36  \	2	2	3F502	B66B   1/36	656	あらかじめ設定された位置にカー，ケージ，またはスキップを停止するための手段	Means for stopping the cars, cages, or skips at predetermined levels
+B66B   1/36  A	2	0	3F502	B66B   1/36	111	油圧エレベータの着床制御	Landing control of hydraulic lifts
+B66B   1/36  B	2	0	3F502	B66B   1/36	190	着床位置検出器，又はその検出結果に基づく制御に特徴があるもの	Characterised by landing position detectors or control based on detection results thereof
+B66B   1/36  C	2	0	3F502	B66B   1/36	34	再着床	Re-landing
+B66B   1/36  Z	2	0	3F502	B66B   1/36	155	その他のもの	Others
+B66B   1/38  \	3	3	3F502	B66B   1/38	0	かつ制御ハンドルまたはレバーを中立位置へ戻すためのもの	and for returning the controlling handle or lever to its neutral position
+B66B   1/40  \	3	3	3F502	B66B   1/40	85	かつ階床に正確に位置するためのもの	and for correct levelling at landings
+B66B   1/40  A	3	0	3F502	B66B   1/40	43	油圧エレベータの着床制御	Landing control of hydraulic lifts
+B66B   1/40  B	3	0	3F502	B66B   1/40	187	着床位置検出器，又はその検出結果に基づく制御に特徴があるもの	Characterised by landing position detectors or control based on detection results thereof
+B66B   1/40  C	3	0	3F502	B66B   1/40	112	再着床	Re-landing
+B66B   1/40  Z	3	0	3F502	B66B   1/40	129	その他のもの	Others
+B66B   1/42  \	4	4	3F502	B66B   1/42	19	主駆動から分離するもの	separate from the main drive
+B66B   1/42  A	4	0	3F502	B66B   1/42	6	油圧エレベータの着床制御	Landing control of hydraulic lifts
+B66B   1/42  B	4	0	3F502	B66B   1/42	30	着床位置検出器，又はその検出結果に基づく制御に特徴があるもの	Characterised by landing position detectors or control based on detection results thereof
+B66B   1/42  C	4	0	3F502	B66B   1/42	16	再着床	Re-landing
+B66B   1/42  Z	4	0	3F502	B66B   1/42	79	その他のもの	Others
+B66B   1/44  \	3	3	3F502	B66B   1/44	77	かつ妨害要因，例．負荷荷重の変動，を考慮するためのもの	and for taking account of disturbance factors, e.g. variation of load weight
+B66B   1/44  A	3	0	3F502	B66B   1/44	42	油圧エレベータの着床制御	Landing control of hydraulic lifts
+B66B   1/44  B	3	0	3F502	B66B   1/44	65	着床位置検出器，又はその検出結果に基づく制御に特徴があるもの	Characterised by landing position detectors or control based on detection results thereof
+B66B   1/44  C	3	0	3F502	B66B   1/44	19	再着床	Re-landing
+B66B   1/44  D	3	0	3F502	B66B   1/44	195	荷重検出手段	Load detecting means
+B66B   1/44  Z	3	0	3F502	B66B   1/44	100	その他のもの	Others
+B66B   1/46  \	2	2	3F502	B66B   1/46	380	スイッチまたはスイッチ装置の適用	Adaptations of switches or switchgear
+B66B   1/46  A	2	0	3F502	B66B   1/46	865	形状，構造に特徴のあるもの	characterised by profiles or structures
+B66B   1/46  B	2	0	3F502	B66B   1/46	115	取付位置に特徴のあるもの	characterised by mounting positions
+B66B   1/46  Z	2	0	3F502	B66B   1/46	272	その他のもの	Others
+B66B   1/48  \	3	3	3F502	B66B   1/48	356	機械的に操作されるリミットスイッチの適用	Adaptations of mechanically-operated limit switches
+B66B   1/50  \	3	3	3F502	B66B   1/50	223	カーまたはケージ内または昇降路内に装備された操作または制御機構をもつもの	with operating or control mechanisms mounted in the car or cage or in the lift well or hoistway
+B66B   1/50  A	3	0	3F502	B66B   1/50	555	形状，構造に特徴のあるもの	characterised by profiles or structures
+B66B   1/50  B	3	0	3F502	B66B   1/50	97	取付位置に特徴のあるもの	characterised by mounting positions
+B66B   1/50  Z	3	0	3F502	B66B   1/50	150	その他のもの	Others
+B66B   1/52  \	3	3	3F502	B66B   1/52	205	階床選択器	Floor selectors
+B66B   1/52  A	3	0	3F502	B66B   1/52	188	エレベータの動きを縮尺するもの	Scaling lift motions
+B66B   1/52  B	3	0	3F502	B66B   1/52	193	パルスカウントによるもの	by pulse count
+B66B   1/52  Z	3	0	3F502	B66B   1/52	18	その他のもの	Others
+B66B   3/00  \	0	0	3F303	B66B   3/00	259	エレベータの操作状態の表示または信号のための装置の応用	Applications of devices for indicating or signalling operating conditions&nbsp; of elevators
+B66B   3/00  A	0	0	3F303	B66B   3/00	48	展望エレベ−タ用	for observatory lifts
+B66B   3/00  B	0	0	3F303	B66B   3/00	53	ダブルデツキエレベ−タ用	for double deck lifts
+B66B   3/00  C	0	0	3F303	B66B   3/00	11	乗継エレベ−タ用	for connecting lifts
+B66B   3/00  D	0	0	3F303	B66B   3/00	74	触覚による表示	Indicating by sense of touch
+B66B   3/00  E	0	0	3F303	B66B   3/00	409	音響による表示	Indicating by sound
+B66B   3/00  F	0	0	3F303	B66B   3/00	1036	音声による表示または音声認識	Indicating by voice or voice recognition
+B66B   3/00  G	0	0	3F303	B66B   3/00	971	画像による表示〔例．液晶，ＴＶ〕	Indicating by images, e.g. liquid crystal, TV sets
+B66B   3/00  H	0	0	3F303	B66B   3/00	839	着床の予報または走行方向の案内	Forecasting landing or guiding running directions
+B66B   3/00  J	0	0	3F303	B66B   3/00	216	待時間の表示または予測	Indicating or forecasting waiting time
+B66B   3/00  K	0	0	3F303	B66B   3/00	1983	呼びの検出または表示	Detecting or indicating calls
+B66B   3/00  L	0	0	3F303	B66B   3/00	1521	かご内乗客の検出または表示	Detecting or indicating passengers in cage
+B66B   3/00  M	0	0	3F303	B66B   3/00	942	乗場待客の検出または表示	Detecting or indicating waiting passengers at stand
+B66B   3/00  N	0	0	3F303	B66B   3/00	318	階間交通量の検出，記録または推定	Detecting, recording or assuming inter-floor traffic
+B66B   3/00  P	0	0	3F303	B66B   3/00	909	かご内または乗場の監視	Monitoring cage or stand
+B66B   3/00  Q	0	0	3F303	B66B   3/00	573	運転状態の表示〔例；先発，休止，専用運転の表示。満員→Ｌ〕	Indicating operating status, e.g. indicating first departure, out of service or exclusive operation.  Full R L)
+B66B   3/00  R	0	0	3F303	B66B   3/00	2287	機器状態の検出，記録または監視	Detecting, recording or monitoring instrumental statuses
+B66B   3/00  S	0	0	3F303	B66B   3/00	474	マイコンの内部構成またはマイコン内部での信号の取扱	Internal structures of microprocessors or handling of signals within microprocessors
+B66B   3/00  T	0	0	3F303	B66B   3/00	606	インタ−ホン	Interphones
+B66B   3/00  U	0	0	3F303	B66B   3/00	1364	信号伝送〔例；直列伝送〕	Signal transmissions, e.g. serial transmission
+B66B   3/00  V	0	0	3F303	B66B   3/00	148	表示装置の点検用動作	Inspecting motions of indicating arrangements
+B66B   3/00  W	0	0	3F303	B66B   3/00	423	扉に関する表示〔扉の制御に関する表示は，１３／１４Ｆにも付与する〕	Indications related to doors (Also assign 13/14 F to indications related to door control.)
+B66B   3/00  Z	0	0	3F303	B66B   3/00	812	その他〔例；店内案内〕	Others, e.g. store information
+B66B   3/02  \	1	1	3F303	B66B   3/02	30	位置または深さ表示器	Position or depth indicators
+B66B   3/02  A	1	0	3F303	B66B   3/02	83	文字が変化する表示〔例．文字自体が発光と非発光，透明と不透明などの変化をするもの。表示窓に表われる文字が変化するもの。投影表示される文字が変化するもの〕	Indicating with variable characters, e.g. light emitting and non-light emitting, or transparent and opaque characters per se.  Variable characters that appear in indicating windows.  Variable characters projected.
+B66B   3/02  B	1	1	3F303	B66B   3/02	126	ドツトマトリクス表示，セグメントによる表示，数字管による表示〔例．７セグメント表示器（−型）〕	Indicating by dot matrix, segments or numerical tubes, e.g. segment indicators (- type)
+B66B   3/02  C	1	0	3F303	B66B   3/02	11	文字の指示による表示〔例．突出による指示。照光による指示→Ｆ〕	Indicating by specifying characters, e.g. specifying by protruding.  Specifying by illuminating R F
+B66B   3/02  D	1	1	3F303	B66B   3/02	31	色の境界または明度の境界による指示	Specifying by colour or brightness of colour
+B66B   3/02  E	1	1	3F303	B66B   3/02	57	指針による指示	Indicating by pointers
+B66B   3/02  F	1	0	3F303	B66B   3/02	97	文字の照光による表示〔照光部分の長さによる表示→Ｄ，投影による表示→Ａ〕	Indicating by illumination of characters (indicating by length of illuminated portions R D, indicating by projecting R A)
+B66B   3/02  G	1	1	3F303	B66B   3/02	149	照光のための構成〔例．ランプの取付，遮蔽用仕切板，文字板自体〕	Illuminating structures, e.g. mounting lamps, shielding partition boards, character panels per se
+B66B   3/02  H	1	1	3F303	B66B   3/02	153	表示装置の取付〔例．三方枠上部またはかご上部への取付，保守用開口〕	Mounting of indicators, e.g. mounting on top of three-way frame or cage
+B66B   3/02  J	1	2	3F303	B66B   3/02	74	乗場壁への取付	Mounting on stand wall
+B66B   3/02  K	1	0	3F303	B66B   3/02	453	特殊な表示動作〔例．呼び登録階，呼び登録可能階，隣接エレベ−タ位置などの表示，急行区間のまとめ表示，自階床を明示した乗場表示器〕	Special indicating operations, e.g. indicating call registered floors, call registrable floors, adjacent lift positions, summary of express segments, stand indicator with clear floor display
+B66B   3/02  L	1	1	3F303	B66B   3/02	42	非停止階や待客不在階の表示器の表示動作の阻止または減光	Preventing or dimming indicated operations of indicators at passed floors or without any passengers
+B66B   3/02  M	1	1	3F303	B66B   3/02	34	停電時の表示	Indicating upon power failures
+B66B   3/02  N	1	0	3F303	B66B   3/02	224	特殊な形態の表示装置〔例．取付位置が特殊なもの〔例．扉，床，天井，取手〕，方向表示器との特殊な結合，複数台のエレベ−タの集中表示装置〕	Special forms of indicators, e.g. special mounting positions, e.g. door, floor, ceiling, handle, special connection with direction indicators, integrated indicator for multiple lifts
+B66B   3/02  P	1	0	3F303	B66B   3/02	367	位置検出	Detecting positions
+B66B   3/02  Q	1	1	3F303	B66B   3/02	290	昇降路に取付けたカムまたは検出器	Cams or detectors mounted on rising and falling path
+B66B   3/02  R	1	2	3F303	B66B   3/02	97	磁気検出器の構造またはその取付構造	Structures of magnetic detectors or mounting structures thereof
+B66B   3/02  S	1	1	3F303	B66B   3/02	231	走行パルスの計数	Counting running pulses
+B66B   3/02  T	1	2	3F303	B66B   3/02	114	誤差または誤パルスの補正	Compensating errors or error pulses
+B66B   3/02  U	1	1	3F303	B66B   3/02	11	先行かご位置の検出	D5etecting preceding cage positions
+B66B   3/02  V	1	1	3F303	B66B   3/02	205	着床位置またはドアゾ−ンの検出	Detecting landing position or door zone
+B66B   3/02  Z	1	0	3F303	B66B   3/02	63	その他	Others
+B66B   5/00  \	0	0	3F304	B66B   5/00	111	エレベータ内の検査，過失訂正または安全装置の応用	Applications of checking, fault-correcting or safety devices in elevators
+B66B   5/00  A	0	0	3F304	B66B   5/00	296	非常時における脱出，救出用手段	Means for evacuation or rescue upon emergencies
+B66B   5/00  B	0	1	3F304	B66B   5/00	152	天井部または床部に設けられた脱出用扉及び関連手段	Evacuation doors and related means provided on floor or ceiling
+B66B   5/00  C	0	1	3F304	B66B   5/00	124	側壁に設けられた脱出用扉及び関連手段	Evacuation doors and related means provided on wall
+B66B   5/00  D	0	0	3F304	B66B   5/00	2357	保守・点検用設備	Maintenance or inspection facilities
+B66B   5/00  E	0	0	3F304	B66B   5/00	311	電気的なもの	Electrical
+B66B   5/00  F	0	1	3F304	B66B   5/00	1039	防犯制御	Security control
+B66B   5/00  G	0	1	3F304	B66B   5/00	3992	保守，点検制御〔例．監視センタ−による監視〕	Maintenance or inspection control, e.g. monitoring by monitoring centre
+B66B   5/00  H	0	1	3F304	B66B   5/00	111	隣接かごの救出運転制御	Rescue operation control for adjacent cages
+B66B   5/00  Z	0	0	3F304	B66B   5/00	133	その他のもの	Others
+B66B   5/02  \	1	1	3F304	B66B   5/02	89	異常な操作状態に応答するもの	responsive to abnormal operating conditions
+B66B   5/02  A	1	0	3F304	B66B   5/02	163	脱レ−ル検知〔ガイドレ−ルに関連した安全装置→７／０２Ｋ〕	detecting derailing (safety device related to guide rails R 7/02 K)
+B66B   5/02  B	1	1	3F304	B66B   5/02	71	脱レ−ル防止手段	means for preventing derailing
+B66B   5/02  C	1	0	3F304	B66B   5/02	553	ロ−プ等の異常検知〔ロ−プまたはケ−ブルの弛緩の検出装置→５／１２Ａ；ロ−プ又はケ−ブルの検査，潤滑または掃除手段→７／１２Ｚ〕	detecting faults of ropes (devices for detecting slackened rope or cable R 5/12 A, means for inspecting, lubricating or cleaning rope or cable R 7/12 Z)
+B66B   5/02  D	1	0	3F304	B66B   5/02	31	荷のはみ出し検知	detecting protruded loads
+B66B   5/02  E	1	0	3F304	B66B   5/02	215	火災，煙応答設備	facilities responsive to fires or smokes
+B66B   5/02  F	1	0	3F304	B66B   5/02	262	地震，揺動応答設備	facilities responsive to earthquakes or oscillations
+B66B   5/02  G	1	0	3F304	B66B   5/02	595	制御手段〔注．浸水，イタズラ操作に応答するものはここに分類する〕	control means (note: Assign here if the control means respond to flooding or tampering
+B66B   5/02  H	1	1	3F304	B66B   5/02	341	停電に応答するもの	responsive to power failures
+B66B   5/02  J	1	2	3F304	B66B   5/02	285	停電中にかごを移動させるもの	moving cage during power failures
+B66B   5/02  K	1	3	3F304	B66B   5/02	196	駆動装置に電力を供給するもの	feeding power to drive arrangements
+B66B   5/02  L	1	4	3F304	B66B   5/02	290	蓄電池を有するもの	with batteries
+B66B   5/02  M	1	5	3F304	B66B   5/02	196	蓄電池の直流を交流に変換するもの	converting DC from battery into AC
+B66B   5/02  N	1	4	3F304	B66B   5/02	43	補助電動機を有するもの	with auxiliary motor
+B66B   5/02  P	1	1	3F304	B66B   5/02	735	地震または揺動に応答するもの	responsive to earthquakes or oscillations
+B66B   5/02  Q	1	2	3F304	B66B   5/02	293	地震または揺動の程度によつて応答を変えるもの	varying responses based on degrees of earthquakes or oscillations
+B66B   5/02  R	1	1	3F304	B66B   5/02	493	火災に応答するもの	responsive to fires
+B66B   5/02  S	1	1	3F304	B66B   5/02	1158	エレベ−タ装置の異常動作または故障に応答するもの	responsive to abnormal motions or failures of lifts
+B66B   5/02  T	1	2	3F304	B66B   5/02	156	呼び装置の異常に応答するもの	responsive to faults of calling arrangements
+B66B   5/02  U	1	2	3F304	B66B   5/02	381	速度制御装置または駆動制御装置の異常に応答するもの	responsive to faults of speed or drive controller
+B66B   5/02  V	1	3	3F304	B66B   5/02	87	速度検出器の異常に応答するもの	responsive to faults of speed detector
+B66B   5/02  W	1	2	3F304	B66B   5/02	291	制動装置の異常に応答するもの	responsive to faults of control arrangements
+B66B   5/02  X	1	2	3F304	B66B   5/02	385	扉の異常に応答するもの〔扉の制御１３／１４〕	responsive to door faults (door control 13/14)
+B66B   5/02  Y	1	0	3F304	B66B   5/02	242	油圧的なもの	hydraulic
+B66B   5/02  Z	1	0	3F304	B66B   5/02	252	その他のもの	Others
+B66B   5/04  \	2	2	3F304	B66B   5/04	12	過速度を検出するためのもの	for detecting excessive speed
+B66B   5/04  A	2	0	3F304	B66B   5/04	119	ガバナ−によるもの	by governors
+B66B   5/04  B	2	1	3F304	B66B   5/04	153	デイスク形ガバナ−	disk type governors
+B66B   5/04  C	2	2	3F304	B66B   5/04	196	ガバナ−ロ−プを介するもの	via governor rope
+B66B   5/04  D	2	1	3F304	B66B   5/04	75	フライボ−ル形ガバナ−	fly ball type governors
+B66B   5/04  E	2	0	3F304	B66B   5/04	115	その他の検出手段によるもの〔電気的なもの５／０６〕	by other detecting means (electrical 5/06)
+B66B   5/04  F	2	0	3F304	B66B   5/04	204	ガバナ−ロ−プ装置〔ガバナ−ロ−プの配置→７／０６Ｊ〕	governor rope arrangements (arrangements of governor ropes R 7/06 J)
+B66B   5/04  G	2	1	3F304	B66B   5/04	62	配列関連	arrangement relation
+B66B   5/04  H	2	1	3F304	B66B   5/04	162	ロ−プとケ−ジとの関連〔含非常止め手段〕	relation between rope and cage (including emergency stopping means)
+B66B   5/04  Z	2	0	3F304	B66B   5/04	87	その他のもの	Others
+B66B   5/06  \	3	3	3F304	B66B   5/06	8	電気的なもの	electrical
+B66B   5/06  A	3	0	3F304	B66B   5/06	81	指令値との偏差により速度異常を検出するもの	detecting speed faults by deviation from command value
+B66B   5/06  B	3	0	3F304	B66B   5/06	91	起動不能あるいは逆方向運転を検出するもの	detecting failure to start or motion toward opposite direction
+B66B   5/06  C	3	0	3F304	B66B   5/06	193	終端階に関するもの〔フアイナルスイツチ５／１０〕	related to last floor (final switch 5/10)
+B66B   5/06  Z	3	0	3F304	B66B   5/06	178	その他のもの	Others
+B66B   5/08  \	2	2	3F304	B66B   5/08	28	過巻を防止するためのもの	for preventing overwinding
+B66B   5/10  \	3	3	3F304	B66B   5/10	77	電気的なもの	electrical
+B66B   5/12  \	2	2	3F304	B66B   5/12	7	ロープまたはケーブル弛緩の場合のもの	in case of rope or cable slack
+B66B   5/12  A	2	0	3F304	B66B   5/12	233	検出部に特徴を有するもの〔ロ−プ等の異常検知→５／０２Ｃ；ロ−プまたはケ−ブルの検査，潤滑，または掃除手段→７／１２Ｚ〕	characterised by detectors (detecting faults of ropes etc.R 5/02 C; inspecting, lubricating or cleaning means for ropes or cables R 7/12 Z)
+B66B   5/12  B	2	1	3F304	B66B   5/12	109	検出結果に基づく制御手段	control means based on detection results
+B66B   5/12  C	2	0	3F304	B66B   5/12	241	ロ−プ切断等による落下防止手段	means for preventing falling due to torn rope
+B66B   5/12  Z	2	0	3F304	B66B   5/12	64	その他のもの	Others
+B66B   5/14  \	2	2	3F304	B66B   5/14	9	過負荷の場合のもの	in case of excessive loads
+B66B   5/14  A	2	0	3F304	B66B   5/14	276	検出手段に特徴を有するもの	characterized by detecting means
+B66B   5/14  B	2	1	3F304	B66B   5/14	61	検出結果に基づく警報・表示に特徴を有するもの	characterized by alarms or indications based on detection results
+B66B   5/14  C	2	0	3F304	B66B   5/14	147	電気的なもの	electrical
+B66B   5/14  Z	2	0	3F304	B66B   5/14	49	その他のもの	Others
+B66B   5/16  \	2	2	3F304	B66B   5/16	18	昇降路内または立抗内の固定案内部材または固定表面とカー，ケージまたはスキップとの間で操作するブレーキまたはキャッチ装置	Braking or catch devices operating between cars, cages, or skips and fixed guide elements or surfaces in hoistway or well
+B66B   5/16  A	2	0	3F304	B66B   5/16	25	パンタグラフ式リンクまたはねじ式昇降機用	for pantograph type linkage or screw type lifts
+B66B   5/16  Z	2	0	3F304	B66B   5/16	233	その他のもの	Others
+B66B   5/18  \	3	3	3F304	B66B   5/18	22	かつ摩擦阻止力を用いるもの	and applying frictional retarding forces
+B66B   5/18  A	3	0	3F304	B66B   5/18	99	傾斜面とロ−ラから構成されたもの	consisting of tilted surface and rollers
+B66B   5/18  Z	3	0	3F304	B66B   5/18	255	その他のもの	Others
+B66B   5/20  \	4	4	3F304	B66B   5/20	101	回転できる偏心的に装備された部材によるもの（Ｂ６６Ｂ５／２４が優先）	by means of rotatable eccentrically- mounted members (B66B 5/24 takes precedence)
+B66B   5/22  \	4	4	3F304	B66B   5/22	23	直線的に移動可能なくさびによるもの（Ｂ６６Ｂ５／２４が優先）	by means of linearly-movable wedges (B66B 5/24 takes precedence)
+B66B   5/22  A	4	0	3F304	B66B   5/22	126	当接面に特徴を有するもの	characterized by contact surfaces
+B66B   5/22  Z	4	0	3F304	B66B   5/22	372	その他のもの	Others
+B66B   5/24  \	4	4	3F304	B66B   5/24	173	ガイドロープまたはケーブルに作用することによるもの	by acting on guide ropes or cables
+B66B   5/26  \	3	3	3F304	B66B   5/26	167	確実に作動する装置，例．ラッチ・ナイフ	Positively-acting devices, e.g. latches, knives
+B66B   5/28  \	1	1	3F304	B66B   5/28	3	カー，ケージ，またはスキップのためのバッファーストップ	Buffer-stops for cars, cages, or skips
+B66B   5/28  A	1	0	3F304	B66B   5/28	183	バツフア−ストツプの形状・構造に特徴を有するもの	characterized by buffer stop profiles or structures
+B66B   5/28  B	1	1	3F304	B66B   5/28	138	液圧を利用するもの	using of liquid pressures
+B66B   5/28  C	1	0	3F304	B66B   5/28	91	バツフア−ストツプの取付け	mounting buffer stops
+B66B   5/28  Z	1	0	3F304	B66B   5/28	146	その他のもの	Others
+B66B   7/00  \	0	0	3F305	B66B   7/00	95	エレベータのその他の共通的特徴	Other common features of elevators
+B66B   7/00  A	0	0	3F305	B66B   7/00	669	昇降路の構造，配列	Structures or arrangements of lift-well
+B66B   7/00  B	0	1	3F305	B66B   7/00	343	上部に巻上装置を配したもの	With winding arrangements located on top
+B66B   7/00  C	0	1	3F305	B66B   7/00	184	底部に巻上装置を配したもの	With winding arrangements located on bottom
+B66B   7/00  D	0	1	3F305	B66B   7/00	137	横側部に巻上装置を配したもの	With winding arrangement located on side
+B66B   7/00  E	0	0	3F305	B66B   7/00	144	昇降路内壁部の保護板〔フェッシャープレート〕	Protection plate (facilities plate) for protecting walls in lift-well
+B66B   7/00  F	0	0	3F305	B66B   7/00	690	昇降路内の諸設備〔照明・空調・整風等〕	Various facilities in lift-well (illuminations, air conditioning, wind rectification)
+B66B   7/00  G	0	0	3F305	B66B   7/00	784	昇降路，エレベータ設備の組立，工法	Assembling or construction methods for lift-well, lifting arrangements
+B66B   7/00  H	0	1	3F305	B66B   7/00	160	足場を組んで行なうもの	By assembling scaffoldings
+B66B   7/00  J	0	1	3F305	B66B   7/00	291	足場なしに行なうもの	Without scaffoldings
+B66B   7/00  K	0	1	3F305	B66B   7/00	1120	古いものを新しいものに取替えるもの	Replacing old articles with new ones
+B66B   7/00  L	0	1	3F305	B66B   7/00	230	芯出し〔ガイドレールに関連した据付，芯出し，曲がり検出→７／０２Ｈ〕	Centring (installation1related to guide rails, cantering, detecting bending R 7/02 H)
+B66B   7/00  M	0	1	3F305	B66B   7/00	186	位置決め，固定〔ガイドレールに関連した据付，芯出し，曲がり検出→７／０２Ｈ〕	Positioning or fixing  (installation1related to guide rails, cantering, detecting bending R 7/02 H)
+B66B   7/00  Z	0	0	3F305	B66B   7/00	129	その他のもの	Others
+B66B   7/02  \	1	1	3F305	B66B   7/02	36	案内軌条；ガイド	Guideways; Guides
+B66B   7/02  A	1	0	3F305	B66B   7/02	143	ガイドレール，軌条	Guide rails, guide ways
+B66B   7/02  B	1	1	3F305	B66B   7/02	216	形状，製法に特徴を有するもの	characterised by profiles or manufacturing methods
+B66B   7/02  C	1	0	3F305	B66B   7/02	153	ガイドレールの取付け手段	mounting means of guide rails
+B66B   7/02  D	1	1	3F305	B66B   7/02	109	固定具	fixing devices
+B66B   7/02  E	1	1	3F305	B66B   7/02	346	支持ブラケット，取付板に特徴を有するもの	characterised by supporting brackets or mounting plates
+B66B   7/02  F	1	1	3F305	B66B   7/02	64	ガイドレールの端部の固定手段	fixing means at end of guide rails
+B66B   7/02  G	1	1	3F305	B66B   7/02	191	ガイドレールの長手方向の接続手段	longitudinal connecting means for guide rails
+B66B   7/02  H	1	0	3F305	B66B   7/02	444	ガイドレールに関連した据付け，芯出し，曲がり検出に特徴を有するもの	characterised by installation, cantering or detecting bending related to guide rails
+B66B   7/02  J	1	0	3F305	B66B   7/02	351	ガイドレールに関連した配設，位置関係に特徴を有するもの	characterised by arrangements or positional relationships related to guide rails
+B66B   7/02  K	1	0	3F305	B66B   7/02	179	ガイドレールに関連した安全手段〔脱レール検出，位置検出等〕〔脱レール検知→５／０２Ａ〕	safety means related to guide rails (detecting derailing, detecting positions) (detecting derailing R 5/02 A)
+B66B   7/02  L	1	0	3F305	B66B   7/02	78	案内ロープ	Guide ropes
+B66B   7/02  Z	1	0	3F305	B66B   7/02	212	その他のもの	Others
+B66B   7/04  \	2	2	3F305	B66B   7/04	16	シュー；ローラ	Shoes; Rollers
+B66B   7/04  A	2	0	3F305	B66B   7/04	139	シューを用いたもの	using shoes
+B66B   7/04  B	2	1	3F305	B66B   7/04	177	シューの形状，構造に特徴を有するもの	characterised by shoe profiles or structures
+B66B   7/04  C	2	0	3F305	B66B   7/04	292	ローラを用いたもの	using of rollers
+B66B   7/04  D	2	1	3F305	B66B   7/04	185	ローラの形状，構造に特徴を有するもの	characterised by roller profile or structures
+B66B   7/04  Z	2	0	3F305	B66B   7/04	207	その他のもの	Others
+B66B   7/06  \	1	1	3F305	B66B   7/06	41	ロープまたはケーブルの配置	Arrangements of ropes or cables
+B66B   7/06  A	1	0	3F305	B66B   7/06	1122	主索の配置	Arrangements of main cables
+B66B   7/06  B	1	1	3F305	B66B   7/06	134	複索の配置	Arrangements of secondary cables
+B66B   7/06  C	1	0	3F305	B66B   7/06	100	釣合い補償ロープ・鎖の配置〔釣合い錘装置１１／００〕	Balance compensating ropes or chain arrangements (balancing weight devices 11/00)
+B66B   7/06  D	1	1	3F305	B66B   7/06	138	釣合い車装置	Balancing wheel devices
+B66B   7/06  E	1	1	3F305	B66B   7/06	73	釣合い鎖・ロープの形状，構造	Profiles or structures of balancing chains or ropes
+B66B   7/06  F	1	1	3F305	B66B   7/06	114	取付け，装着手段	Mounting, equipping means
+B66B   7/06  G	1	0	3F305	B66B   7/06	105	制振，振れ止め，ガイド体	Damping, preventing vibration, guide bodies
+B66B   7/06  H	1	1	3F305	B66B   7/06	265	主索用	for main cables
+B66B   7/06  J	1	1	3F305	B66B   7/06	183	ガバナーロープ用〔ガバナーロープ装置→５／０４Ｆ〕	for governor ropes (governor rope devices R 5/04 F)
+B66B   7/06  K	1	1	3F305	B66B   7/06	106	釣合い補償ロープ用	for balance compensating ropes
+B66B   7/06  L	1	0	3F305	B66B   7/06	380	プーリ，シーブの形状，構造；支持手段〔駆動装置とロープ関連機構に於けるシーブの支持構造→１１／０８Ｌ，シーブの形状構造，ロープとの係合面→１１／０８Ｍ〕	Profiles or structures of pulleys or sheaves; Support means (supporting structures for  sheaves with mechanisms related to driving arrangements and ropes R 11/08 L, profiles or structures of sheaves, connecting surface with rope R 11/08 M)
+B66B   7/06  M	1	0	3F305	B66B   7/06	203	制御・給電ケーブルの配置	Arrangements of control or power feed cables
+B66B   7/06  N	1	1	3F305	B66B   7/06	268	振れ止め，ガイド，保護手段	Bracings, guides, protection means
+B66B   7/06  P	1	1	3F305	B66B   7/06	158	端部取付け・吊持手段	End mounting or suspension means
+B66B   7/06  Q	1	1	3F305	B66B   7/06	75	配電機器接続部	Connections of power distribution devices
+B66B   7/06  R	1	1	3F305	B66B   7/06	119	ケーブルの形状，構造	Cable profile or structures
+B66B   7/06  S	1	1	3F305	B66B   7/06	54	斜行エレベータ用	for inclined lifts
+B66B   7/06  Z	1	0	3F305	B66B   7/06	168	その他のもの	Others
+B66B   7/08  \	2	2	3F305	B66B   7/08	16	カーまたはケージと連結するためのもの，例．カップリング	for connection to the cars or cages, e.g. couplings
+B66B   7/08  A	2	0	3F305	B66B   7/08	251	取付け手段	Mounting means
+B66B   7/08  B	2	1	3F305	B66B   7/08	238	吸振，制振手段を介して取付けたもの	Mounted via damping means
+B66B   7/08  C	2	1	3F305	B66B   7/08	113	シーブを介して取付けたもの	Mounted via sheaves
+B66B   7/08  D	2	0	3F305	B66B   7/08	198	ロープ端部を固定部材へ取付けたもの〔例ロープ端部を昇降路内の建物ビームに取付けたもの〕	Rope end fixed to fixing element, e.g. rope end fixed to building beam in lift-well
+B66B   7/08  Z	2	0	3F305	B66B   7/08	61	その他のもの	Others
+B66B   7/10  \	2	2	3F305	B66B   7/10	195	ロープまたはケーブルの張力を一様にするためのもの	for equalising rope or cable tension
+B66B   7/12  \	1	1	3F305	B66B   7/12	39	ロープ，ケーブル，またはガイドのための検査，油滑，または掃除手段	Checking, lubricating, or cleaning means for ropes, cables, or guides
+B66B   7/12  A	1	0	3F305	B66B   7/12	335	ガイドレール用	for guide rails
+B66B   7/12  Z	1	0	3F305	B66B   7/12	581	その他のもの〔ロープ等の異常検知→５／０２Ｃ；ロープ等弛緩の検出装置→５／１２Ａ〕	Others (detecting faults on ropes R 5/02 C; detection devices for slacked ropes R 5/12 A)
+B66B   9/00  \	0	0	3F301	B66B   9/00	40	建物または他の構造物の中に設けられたまたはそれらの建物や構造物に付設されたリフトの種類または型式（制御システムを特徴とするものＢ６６Ｂ１／００）	Lifts in, or associated with, buildings
+B66B   9/00  A	0	0	3F301	B66B   9/00	206	展望用	for observatory
+B66B   9/00  B	0	0	3F301	B66B   9/00	39	水中，水上用	for under or on water
+B66B   9/00  C	0	0	3F301	B66B   9/00	54	鉄塔，タワー用	for towers
+B66B   9/00  D	0	0	3F301	B66B   9/00	102	特殊環境用，例．クリーンルーム内，冷蔵庫内	for special environments (in clean rooms or refrigerators)
+B66B   9/00  E	0	0	3F301	B66B   9/00	37	船舶用	for boats
+B66B   9/00  F	0	0	3F301	B66B   9/00	520	低層住宅用	for low-rise houses
+B66B   9/00  Z	0	0	3F301	B66B   9/00	588	その他のもの	Others
+B66B   9/02  \	1	1	3F301	B66B   9/02	20	ロープまたはケーブルによるものでなく機械的に作動されるもの	actuated mechanically otherwise than by rope or cable
+B66B   9/02  A	1	0	3F301	B66B   9/02	378	ラック・ピニオン式	Rack and pinion type
+B66B   9/02  B	1	0	3F301	B66B   9/02	259	ねじ駆動式	Screw driven type
+B66B   9/02  Z	1	0	3F301	B66B   9/02	741	その他のもの，例．リニアモータ式，パンタグラフ式等	Others (linear motor or pantograph type)
+B66B   9/04  \	1	1	3F301	B66B   9/04	49	空気圧的または液圧的に作動されるもの（短距離の昇降のためのプラット・フォームＢ６６Ｆ７／００）	actuated pneumatically or hydraulically (platforms for lifting or lowering through short distances B66F 7/00)
+B66B   9/04  A	1	0	3F301	B66B   9/04	186	液圧，油圧により作動されるもの	actuated by liquid or hydraulic pressures
+B66B   9/04  B	1	1	3F301	B66B   9/04	140	直結式	directly connected
+B66B   9/04  C	1	2	3F301	B66B   9/04	32	ケージと液圧ジャッキとの連結	connection between cage and liquid pressure jack
+B66B   9/04  D	1	1	3F301	B66B   9/04	174	間接式	indirect
+B66B   9/04  E	1	2	3F301	B66B   9/04	136	ロープ関連	related to ropes
+B66B   9/04  F	1	1	3F301	B66B   9/04	263	液圧ジャッキの構造	structures of hydraulic jacks
+B66B   9/04  G	1	2	3F301	B66B   9/04	125	取付け・支持構造，据付け	mounting or supporting structures, installation
+B66B   9/04  H	1	1	3F301	B66B   9/04	350	液圧駆動部，液圧パワーユニツト	liquid pressure drives, liquid pressure power units
+B66B   9/04  J	1	1	3F301	B66B   9/04	250	液圧管路系	liquid pressure piping systems
+B66B   9/04  K	1	1	3F301	B66B   9/04	145	液温検出，調整関連（システム制御Ｂ６６Ｂ１／００）	related to detecting or adjusting liquid pressures (system control 1/00)
+B66B   9/04  L	1	1	3F301	B66B   9/04	415	制御弁関連（システム制御Ｂ６６Ｂ１／００）	related to control valves (system control 1/00)
+B66B   9/04  M	1	0	3F301	B66B   9/04	93	空気圧，気体圧により作動されるもの	actuated by pneumatic or gas pressures
+B66B   9/04  Z	1	0	3F301	B66B   9/04	71	その他のもの	Others
+B66B   9/06  \	1	1	3F301	B66B   9/06	9	傾斜するもの，例．衝風炉に供給するもの	inclined, e.g. serving blast furnaces
+B66B   9/06  A	1	0	3F301	B66B   9/06	117	昇降路内を移動するもの	Moving in lift-well
+B66B   9/06  B	1	1	3F301	B66B   9/06	70	昇降路に特徴を有するもの	characterised by lift-wells
+B66B   9/06  D	1	0	3F301	B66B   9/06	21	昇降路を備えていないもの	without any lift-well
+B66B   9/06  E	1	1	3F301	B66B   9/06	34	荷物用リフター	load lifters
+B66B   9/06  C	1	0	3F301	B66B   9/06	76	ケージに特徴を有するもの	characterised by cages
+B66B   9/06  F	1	0	3F301	B66B   9/06	27	駆動装置	Drives
+B66B   9/06  G	1	0	3F301	B66B   9/06	32	安全装置	Safety devices
+B66B   9/06  Z	1	0	3F301	B66B   9/06	31	その他のもの	Others
+B66B   9/08  \	2	2	3F301	B66B   9/08	6	階段に付設したもの，例．身体障害者を運ぶためのもの	associated with stairways, e.g. for transporting disabled persons
+B66B   9/08  A	2	0	3F301	B66B   9/08	58	型式，例．駆動，配置	Models (drive, arrangement)
+B66B   9/08  B	2	1	3F301	B66B   9/08	203	自走式	self-running type
+B66B   9/08  C	2	1	3F301	B66B   9/08	82	牽引式	towed type
+B66B   9/08  D	2	2	3F301	B66B   9/08	60	無端帯によるもの	by endless belts
+B66B   9/08  E	2	1	3F301	B66B   9/08	46	吊下げ式	suspension type
+B66B   9/08  F	2	0	3F301	B66B   9/08	192	搬送器に特徴を有するもの	characterised by transporters
+B66B   9/08  G	2	0	3F301	B66B   9/08	161	案内レールに特徴を有するもの	characterised by guide rails
+B66B   9/08  H	2	0	3F301	B66B   9/08	94	安全設備，手段	Safety facilities or means
+B66B   9/08  Z	2	0	3F301	B66B   9/08	46	その他のもの	Others
+B66B   9/10  \	1	1	3F301	B66B   9/10	270	循環式	paternoster type
+B66B   9/16  \	1	1	3F301	B66B   9/16	169	建物または他の構造物の一つの部分からもう一つの部分へ，または別の建物や構造物へ移動するのに特に適用される移動式または移送可能なリフト	Mobile or transportable lifts specially adapted to be shifted from one part of a building or other structure to another part or to another building or structure
+B66B   9/16  A	1	0	3F301	B66B   9/16	75	建物または構造物に独立して支えられる昇降路をもつ移動または輸送可能なリフト	movable or transportable lift having hoistway independently supported by building or structure
+B66B   9/16  Z	1	0	3F301	B66B   9/16	249	その他のもの	Others
+B66B   9/187  \	2	2	3F301	B66B   9/187	3	建物または他の構造物への一時的な接続のために特に適用されるリフトウエイをもつもの（Ｂ６６Ｂ９／１９３が優先）［６］	with liftway specially adapted for temporary connection to a building or other structure (B66B  9/193 takes precedence);;
+B66B   9/187  A	2	0	3F301	B66B   9/187	318	ロープの巻取り，牽引による昇降装置	lifting apparatus by means of winding or pulling of rope
+B66B   9/187  B	2	1	3F301	B66B   9/187	46	駆動手段を上部に固定したもの	with drive means fixed at upper part
+B66B   9/187  C	2	0	3F301	B66B   9/187	95	ステップアップ形エレベータ，例．高層建築物建設工事用	step up type elevator, e.g. for construction of high rise building
+B66B   9/187  D	2	0	3F301	B66B   9/187	110	移動機械室形エレベータ	movable machine room type elevator
+B66B   9/187  E	2	0	3F301	B66B   9/187	131	ロープを用いない昇降装置，例．自走式	lifting apparatus without using rope, e.g. self propelled type
+B66B   9/187  F	2	1	3F301	B66B   9/187	33	伸縮部材，パンタグラフ式リンクによるもの	by elastic member, pantographic linkage
+B66B   9/187  G	2	0	3F301	B66B   9/187	148	ケージ，ゴンドラの構造	structure of cage, gondola
+B66B   9/187  H	2	1	3F301	B66B   9/187	75	荷台手摺，安全柵	carrier handrail, safety fence
+B66B   9/187  Z	2	0	3F301	B66B   9/187	143	その他のもの	Others
+B66B   9/193  \	2	2	3F301	B66B   9/193	122	傾斜したリフトウエイをもつもの［６］	with inclined liftways
+B66B  11/00  \	0	0	3F306	B66B  11/00	20	建物または他の構造物内またはこれらに付設したリフトの主構成部材	Main component parts of lifts in, or associated with, buildings or other structures
+B66B  11/00  A	0	0	3F306	B66B  11/00	447	釣合い錘装置〔釣合い補償ロ−プ・鎖手段７／０６Ｃ〜Ｆ〕	Balance weights (balance compensation ropes or chain means 7/06 C to F)
+B66B  11/00  B	0	1	3F306	B66B  11/00	226	錘の形状，構造に特徴を有するもの	Characterised by weight profiles or structures
+B66B  11/00  C	0	2	3F306	B66B  11/00	51	錘単体または充填材を用いるもの	Using weight only or fillers
+B66B  11/00  D	0	1	3F306	B66B  11/00	200	枠体関連	Related to frames
+B66B  11/00  Z	0	0	3F306	B66B  11/00	90	その他のもの	Others
+B66B  11/02  \	1	1	3F306	B66B  11/02	21	ケージ（ケージから，またはそれへの，出入を制御する扉，ゲート，またはその他の装置Ｂ６６Ｂ１３／００）	Cages (doors, gates, or other apparatus controlling access to, or exit from, cages B66B 13/00)
+B66B  11/02  A	1	0	3F306	B66B  11/02	230	ケ−ジ本体	cage bodies
+B66B  11/02  G	1	1	3F306	B66B  11/02	451	パネル，板材	panels or sheets
+B66B  11/02  H	1	2	3F306	B66B  11/02	417	その結合手段，目地材	connection means thereof or joint materials
+B66B  11/02  J	1	1	3F306	B66B  11/02	259	天井構造	ceiling structures
+B66B  11/02  K	1	1	3F306	B66B  11/02	378	床構造	floor structures
+B66B  11/02  L	1	2	3F306	B66B  11/02	112	物品用	for articles
+B66B  11/02  M	1	1	3F306	B66B  11/02	101	幅木部〔キツクプレ−ト〕	baseboards (kick plates)
+B66B  11/02  B	1	0	3F306	B66B  11/02	382	ケ−ジ枠	cage frames
+B66B  11/02  C	1	0	3F306	B66B  11/02	959	ケ−ジの付属装置	cage accessories
+B66B  11/02  N	1	1	3F306	B66B  11/02	541	スイツチ等の操作盤，その取付構造〔呼びの登録表示３／００〕	operation panels for switches, mounting structure thereof (indicating call registrations 3/00)
+B66B  11/02  P	1	1	3F306	B66B  11/02	583	テレビカメラ，鏡，音響・画像設備	TV cameras, mirrors, audio or video facilities
+B66B  11/02  Q	1	1	3F306	B66B  11/02	213	てすり	Handrails
+B66B  11/02  R	1	1	3F306	B66B  11/02	175	身障者用設備	Facilities for handicapped
+B66B  11/02  S	1	1	3F306	B66B  11/02	148	トランクを備えたもの	with trunk
+B66B  11/02  T	1	1	3F306	B66B  11/02	310	二室以上に区画されたもの〔例．ダブルデツキ〕	divided into two or more compartments, e.g. double deck
+B66B  11/02  U	1	1	3F306	B66B  11/02	207	展望用ケ−ジ	observatory cages
+B66B  11/02  V	1	1	3F306	B66B  11/02	277	整風・防音手段	wind rectification or acoustic means
+B66B  11/02  D	1	1	3F306	B66B  11/02	536	ケ−ジの防振のためのもの	for damping cages
+B66B  11/02  E	1	1	3F306	B66B  11/02	530	照明装置	illumination arrangements
+B66B  11/02  W	1	2	3F306	B66B  11/02	387	照明板，カバ−，レンズおよびその取付け	illumination panels, covers, lenses and mounting thereof
+B66B  11/02  F	1	1	3F306	B66B  11/02	703	空調装置	air conditioning arrangements
+B66B  11/02  X	1	2	3F306	B66B  11/02	139	凝結水処理手段	means for processing condensed water
+B66B  11/02  Z	1	0	3F306	B66B  11/02	519	その他のもの	Others
+B66B  11/04  \	1	1	3F306	B66B  11/04	31	駆動装置	Driving gear
+B66B  11/04  A	1	0	3F306	B66B  11/04	194	機械室設備〔制御盤，制御装置の構造→１／３４Ｃ〕	machine room facilities (structures of control panels or controls R 1/34 C)
+B66B  11/04  B	1	1	3F306	B66B  11/04	387	駆動装置等の支持構造	supporting structures of drives
+B66B  11/04  C	1	2	3F306	B66B  11/04	239	防振手段を介するもの	via damping means
+B66B  11/04  D	1	1	3F306	B66B  11/04	74	遮音，防音構造	acoustic or damping structures
+B66B  11/04  Z	1	0	3F306	B66B  11/04	243	その他のもの	Others
+B66B  11/06  \	2	2	3F306	B66B  11/06	247	確実に巻胴に取付けられるホイスト用ロープまたはケーブルをもつもの	with hoisting rope or cable positively attached to a winding drum
+B66B  11/08  \	2	2	3F306	B66B  11/08	31	巻胴または滑車と摩擦係合によって操作されるホイスト用ロープまたはケーブルをもつもの	with hoisting rope or cable operated by frictional engagement with a winding drum or sheave
+B66B  11/08  A	2	0	3F306	B66B  11/08	476	駆動装置	drives
+B66B  11/08  B	2	1	3F306	B66B  11/08	78	減速機構に特徴を有するもの	characterised by reduction mechanisms
+B66B  11/08  C	2	2	3F306	B66B  11/08	59	平行軸系	parallel shaft systems
+B66B  11/08  D	2	2	3F306	B66B  11/08	49	直交軸系	vertical shaft systems
+B66B  11/08  E	2	2	3F306	B66B  11/08	38	遊星歯車等	planetary gears
+B66B  11/08  F	2	1	3F306	B66B  11/08	268	減速機構をもたないもの〔ギヤレス式〕	without reduction mechanism (gearless type)
+B66B  11/08  G	2	1	3F306	B66B  11/08	1000	ブレ−キ部に特徴を有するもの	characterised by brakes
+B66B  11/08  H	2	1	3F306	B66B  11/08	93	振動抑制・減少手段に特徴を有するもの	characterised by means for inhibiting or reducing vibrations
+B66B  11/08  P	2	1	3F306	B66B  11/08	68	駆動制御	drive control
+B66B  11/08  J	2	0	3F306	B66B  11/08	242	ロ−プとの関連機構	mechanisms related to rope
+B66B  11/08  K	2	1	3F306	B66B  11/08	209	駆動綱車とそらせシ−ブの位置関係	positional relationship between drive sheaves and guide sheaves
+B66B  11/08  L	2	1	3F306	B66B  11/08	159	シ−ブの支持構造〔駆動機構の支持構造，１１／０４Ｂ；ロ−プ又はケ−ブルの配置におけるプ−リ−シ−ブの形状，構造，支持手段→７／０６Ｌ〕	Supporting structures for sheaves (supporting structures for drive mechanisms 11/04 B; profiles, structures or supporting means of sheaves with rope or cable arrangements R 7-06 L)
+B66B  11/08  M	2	1	3F306	B66B  11/08	325	シ−ブの形状，構造；ロ−プとの係合面	profiles or structures of sheaves; connection surface with rope
+B66B  11/08  Z	2	0	3F306	B66B  11/08	68	その他のもの	Others
+B66B  13/00  \	0	0	3F307	B66B  13/00	44	ケージまたは昇降路の階床から，またはそれへの，出入を制御する扉，ゲートまたはその他の装置	Doors, gates, or other apparatus controlling access to, or exit from, cages or lift-well landings
+B66B  13/02  \	1	1	3F307	B66B  13/02	50	扉またはゲート操作	Door or gate operation
+B66B  13/04  \	2	2	3F307	B66B  13/04	72	開き戸のもの	of swinging doors
+B66B  13/06  \	2	2	3F307	B66B  13/06	17	引き戸のもの	of sliding doors
+B66B  13/06  A	2	0	3F307	B66B  13/06	115	上下開閉式引き戸	sliding doors opening and closing vertically
+B66B  13/06  B	2	1	3F307	B66B  13/06	137	開閉作動・駆動機構	actuating or driving mechanisms for opening and closing
+B66B  13/06  C	2	2	3F307	B66B  13/06	26	上下両開き用	for upper and lower door opening
+B66B  13/06  D	2	1	3F307	B66B  13/06	40	ガイド手段	guiding means
+B66B  13/06  Z	2	0	3F307	B66B  13/06	56	その他のもの〔←可撓性扉・シヤツタ−〕	Others (&larr; flexible doors or shutters)
+B66B  13/08  \	3	3	3F307	B66B  13/08	27	水平運動のために案内されるもの	guided for horizontal movement
+B66B  13/08  A	3	0	3F307	B66B  13/08	267	開閉作動・駆動機構およびその配置	actuating or drive mechanisms for opening and closing and arrangements there of
+B66B  13/08  B	3	0	3F307	B66B  13/08	51	駆動源と扉間の伝動機構	transmission mechanisms between drive source and doors
+B66B  13/08  C	3	1	3F307	B66B  13/08	115	リンク機構	linkage mechanisms
+B66B  13/08  D	3	1	3F307	B66B  13/08	157	ロ−プ，ケ−ブル等の伝動機構	transmission mechanisms such as ropes, cables
+B66B  13/08  E	3	0	3F307	B66B  13/08	169	扉に常時一方向へ作用する力を付与するもの〔例．ばね，重錘等による自動戸閉装置〕	giving a force to doors acting only in one direction at any time, e.g. automatic door closers using springs, weights
+B66B  13/08  F	3	0	3F307	B66B  13/08	55	円筒形エレベ−タ用	for cylindrical lifts
+B66B  13/08  Z	3	0	3F307	B66B  13/08	128	その他のもの	Others
+B66B  13/10  \	3	3	3F307	B66B  13/10	15	カーまたはケージ運動によるもの	by car or cage movement
+B66B  13/12  \	2	2	3F307	B66B  13/12	9	ケージ扉と階床扉との開閉を同期させるための構成	Arrangements for effecting simultaneous opening or closing of cage and landing doors
+B66B  13/12  A	2	0	3F307	B66B  13/12	95	係合装置	connecting arrangements
+B66B  13/12  B	2	1	3F307	B66B  13/12	40	配置に特徴を有するもの	characterised by arrangements
+B66B  13/12  C	2	1	3F307	B66B  13/12	116	機構に特徴を有するもの	characterised by mechanisms
+B66B  13/12  D	2	2	3F307	B66B  13/12	107	扉開閉リンク機構に連動して挟持作用を行なうもの	gripping motions interlocked with linkage mechanism for opening and closing doors
+B66B  13/12  E	2	2	3F307	B66B  13/12	91	係合部材の形状・構造に特徴を有するもの	characterised by profiles or structures of connecting members
+B66B  13/12  F	2	1	3F307	B66B  13/12	78	係合装置に関連した検出手段を備えたもの	with detecting means related to connecting arrangements
+B66B  13/12  G	2	0	3F307	B66B  13/12	37	水平引き戸以外の扉用〔例．開き戸，円筒形エレベ−タ扉，斜行エレベ−タ扉等〕	for door excluding horizontal sliding doors, e.g. sliding doors, door for cylindrical lifts, doors for inclined lifts
+B66B  13/12  H	2	1	3F307	B66B  13/12	43	上下開閉扉用	for door opening and closing vertically
+B66B  13/12  Z	2	0	3F307	B66B  13/12	19	その他のもの	Others
+B66B  13/14  \	2	2	3F307	B66B  13/14	90	制御システムまたは装置	Control systems or devices
+B66B  13/14  A	2	0	3F307	B66B  13/14	178	特殊エレベ−タの扉制御〔例．かごの前後に扉を持つもの，かご内に自動販売機や郵便受けが設けられたもの〕	door control for special lifts, e.g. doors provided both in front and rear of cage, vending machines or letter boxes provided in cage
+B66B  13/14  B	2	1	3F307	B66B  13/14	46	ダブルデツキエレベ−タ用〔２階建てエレベ−タ用〕	for double deck lifts (for two-storied lifts)
+B66B  13/14  C	2	0	3F307	B66B  13/14	27	上下開閉扉の制御	control of doors opening and closing vertically
+B66B  13/14  D	2	0	3F307	B66B  13/14	276	扉の開閉異常検出〔乗客が扉にはさまれないようにするもの→１３／２４〜１３／２８，検出結果に基づく制御→１３／１４Ｋ〕	detecting opening or closing fault of doors (preventing passengers from being seized by the doors R 13/24 to 13/28, control based on detection results R 13/14 K)
+B66B  13/14  E	2	0	3F307	B66B  13/14	143	扉開閉用操作手段に特徴があるもの〔例；釦の形状，無線手段，他の釦を開閉用に用いるもの；乗場釦によるもの→１３／１４Ｓ〕	operating means for opening and closing doors, e.g. button profiles, wireless means, using of other buttons for opening and closing; of stand buttons R 13/14 S)
+B66B  13/14  F	2	0	3F307	B66B  13/14	348	扉に関する表示又は警報〔扉に関する表示一般→３／００Ｗ〕	Indications or warnings related to doors (indications in general related to doors R 3/00 W)
+B66B  13/14  G	2	1	3F307	B66B  13/14	136	開閉動作の表示又は警報	Indicating or alarm for opening and closing motions
+B66B  13/14  H	2	0	3F307	B66B  13/14	213	非常時における扉制御〔例．エレベ−タ故障，火災，地震，停電；戸開閉異常時の制御→１３／１４Ｋ〕	door control upon emergent situations, e.g. lift failures, fires, earthquakes, power failures; control upon occurrence of opening or closing motion fault R 13/14 K)
+B66B  13/14  J	2	0	3F307	B66B  13/14	78	ドアゾ−ンに関連した制御〔例．ランデイングオ−プン〕	control related to door zones, e.g. landing open
+B66B  13/14  K	2	0	3F307	B66B  13/14	410	扉開閉異常時の制御〔検出→１３／２４〜１３／２８，１３／１４Ｄ〕	control upon occurrence of opening or closing motion fault of doors (detection R 13/24 to 13/28, 13/14 D)
+B66B  13/14  L	2	0	3F307	B66B  13/14	317	扉開の条件に関するもの〔特定の条件に応じて扉開又は扉開阻止を行うもの；乗場呼釦によるもの→１３／１４Ｓ，ドアゾ−ンと関連するもの→１３／１４Ｊ〕	related to door opening conditions (opening door or preventing door from being opened depending on particular conditions; by stand buttons R 13/14 S, related to door zones R 13/14 J)
+B66B  13/14  M	2	0	3F307	B66B  13/14	320	扉閉の条件に関するもの〔特定の条件に応じて扉閉，扉閉阻止，扉閉釦の無効化等を行うもの〕	related to door closing conditions (closing door, preventing door from being closed or invalidating door closing button depending on particular conditions)
+B66B  13/14  N	2	0	3F307	B66B  13/14	379	扉開放時間の制御〔不干渉時間の制御〕	control of door open duration (control of non-interference duration)
+B66B  13/14  P	2	1	3F307	B66B  13/14	193	人為的操作によるもの	by human operations
+B66B  13/14  Q	2	0	3F307	B66B  13/14	257	扉の開閉速度の制御〔例．身障者運転時に速度低下させるもの；速度パタ−ンの設定→１３／１４Ｚ〕	control of opening and closing sped of doors, e.g. reducing speed when used by handicapped; setting speed patterns R 13/14 Z)
+B66B  13/14  R	2	0	3F307	B66B  13/14	68	扉の開き幅の制御〔例．開き幅を半分にするもの〕	control of door opening width, e.g. reducing the width by one half
+B66B  13/14  S	2	0	3F307	B66B  13/14	77	乗場呼釦による扉の再開制御	re-open control of doors with stand button
+B66B  13/14  Z	2	0	3F307	B66B  13/14	349	その他〔通常状態における扉の制御一般〕	Others door control in general under normal conditions)
+B66B  13/16  \	3	3	3F307	B66B  13/16	14	ケージの状態，例．運動または位置，によって制御されまたは予備的に制御される扉またはゲートの鎖錠装置	Door or gate locking devices controlled or primarily controlled by condition of cage, e.g. movement or position
+B66B  13/16  A	3	0	3F307	B66B  13/16	188	保守点検用の鍵による解錠装置	unlocking devices using keys for maintenance and inspection
+B66B  13/16  B	3	0	3F307	B66B  13/16	66	手動式鎖錠装置	manual locking devices
+B66B  13/16  Z	3	0	3F307	B66B  13/16	95	その他のもの〔←一時的係止機構〕	Others (&larr; temporary connecting mechanisms)
+B66B  13/18  \	4	4	3F307	B66B  13/18	10	扉の鎖錠または解錠を完全にするための手動操作装置をもたぬもの	without manually-operable devices for completing locking or unlocking of doors
+B66B  13/18  A	4	0	3F307	B66B  13/18	138	ケ−ジ扉の鎖錠・解錠機構	locking and unlocking devices for cage doors
+B66B  13/18  B	4	1	3F307	B66B  13/18	54	昇降路に設けた部材と協働するもの	cooperating with members provided in lift-well
+B66B  13/18  C	4	0	3F307	B66B  13/18	110	階床扉の鎖錠・解錠機構〔ケ−ジに関連するもの→１３／２０Ａ，Ｂ，Ｚ〕	locking and unlocking devices for floor doors (related to cages R 13/20 A, B, Z)
+B66B  13/18  D	4	0	3F307	B66B  13/18	32	上下開閉式扉の鎖錠・解錠機構	locking and unlocking mechanism for doors opening and closing vertically
+B66B  13/18  Z	4	0	3F307	B66B  13/18	46	その他のもの	Others
+B66B  13/20  \	5	5	3F307	B66B  13/20	5	ケージ上のアバットメントまたは突出片によって機械的に作動する鎖錠機構	Lock mechanisms actuated mechanically by abutments or projections on the cages
+B66B  13/20  A	5	0	3F307	B66B  13/20	127	ケ−ジに設けた突出片，カムによる階床扉の鎖錠・解錠	locking and unlocking floor doors by protruded strip or cam provided on cage
+B66B  13/20  B	5	0	3F307	B66B  13/20	118	ケ−ジ上の係合装置による階床扉の鎖錠・解錠	locking and unlocking of floor doors by connecting devices on cage
+B66B  13/20  Z	5	0	3F307	B66B  13/20	8	その他のもの	Others
+B66B  13/22  \	1	1	3F307	B66B  13/22	6	扉またはゲートのスイッチの作動	Operation of door or gate contacts
+B66B  13/22  A	1	0	3F307	B66B  13/22	203	扉またはゲ−トの開または閉を検知するもの〔鎖錠の検知→１３／１６〜１３／２０，係合装置に関連した検知→１３／１２〕	detecting opened or closed door gate (detecting locking R 13/16 to 13/20, detecting related to connecting devices R 13/12)
+B66B  13/22  Z	1	0	3F307	B66B  13/22	52	その他のもの	Others
+B66B  13/24  \	1	1	3F307	B66B  13/24	94	乗客がとらえられることを防止するための乗客用リフト中の安全装置で，他の類に属さないもの	Safety devices in passenger lifts, not otherwise provided for, for preventing trapping of passengers
+B66B  13/26  \	2	2	3F307	B66B  13/26	14	閉鎖中の扉間のもの	between closing doors
+B66B  13/26  A	2	0	3F307	B66B  13/26	105	接触式	contact type
+B66B  13/26  B	2	1	3F307	B66B  13/26	292	セフテイシユ−〔機械的検知素子〕によるもの	by safety shoes (mechanical detecting elements)
+B66B  13/26  C	2	2	3F307	B66B  13/26	32	上下開閉式扉用	for doors opening and closing vertically
+B66B  13/26  D	2	1	3F307	B66B  13/26	72	過負荷検知手段を備えたもの〔←駆動源，モ−タに関するもの〕	with means for detecting overloading (&larr; related to drive source or motor)
+B66B  13/26  E	2	2	3F307	B66B  13/26	43	駆動源と扉間の伝動機構内に備えたもの	provided within transfer mechanisms between drive source and doors
+B66B  13/26  F	2	0	3F307	B66B  13/26	185	非接触式〔←イメ−ジセンサ，空間フイルタ，マイクロ波等〕	non-contact type (&larr; image sensors, space filters, microwaves)
+B66B  13/26  G	2	1	3F307	B66B  13/26	62	静電容量式検出器によるもの	by capacitance detectors
+B66B  13/26  H	2	1	3F307	B66B  13/26	343	光電式検出器によるもの	by photoelectric detectors
+B66B  13/26  J	2	1	3F307	B66B  13/26	40	超音波式検出器によるもの	by ultrasonic detectors
+B66B  13/26  Z	2	0	3F307	B66B  13/26	44	その他のもの	Others
+B66B  13/28  \	2	2	3F307	B66B  13/28	7	カーまたはケージと昇降路との間のもの	between car or cage and wells
+B66B  13/28  A	2	0	3F307	B66B  13/28	64	乗り場とケ−ジの両敷居間の安全装置〔←照光手段〕	safety devices for two thresholds of stand and cage (&larr; illuminating means)
+B66B  13/28  B	2	1	3F307	B66B  13/28	257	両敷居間の間隙を縮小，閉塞させるための手段	means for reducing or blocking gaps between two thresholds
+B66B  13/28  C	2	1	3F307	B66B  13/28	65	両敷居間の間隙における落下物受け手段	means for receiving falling objects in gap between two thresholds
+B66B  13/28  D	2	0	3F307	B66B  13/28	89	階間停止時における乗り場またはケ−ジからの転落防止手段	means for preventing falling accidents from stand or cage when the cage is located between floors
+B66B  13/28  E	2	0	3F307	B66B  13/28	85	戸袋方向への挟み込み，侵入防止手段	means for preventing seizure or entering door pocket
+B66B  13/28  F	2	1	3F307	B66B  13/28	137	検出手段を備えたもの	with detecting means
+B66B  13/28  Z	2	0	3F307	B66B  13/28	24	その他のもの	Others
+B66B  13/30  \	1	1	3F307	B66B  13/30	61	扉またはゲートの構造上の特徴	Constructional features of doors or gates
+B66B  13/30  A	1	0	3F307	B66B  13/30	130	扉，ゲ−ト	Doors or gates
+B66B  13/30  B	1	1	3F307	B66B  13/30	345	形状，構造，板材パネル	Profiles, structures or sheet panels
+B66B  13/30  C	1	2	3F307	B66B  13/30	100	パネル表面に特徴を有するもの	Characterised by panel surfaces
+B66B  13/30  D	1	1	3F307	B66B  13/30	210	戸当り部，衝合部，目地	Door stops, abutting parts, joints
+B66B  13/30  E	1	1	3F307	B66B  13/30	245	扉支持・案内手段〔例．ハンガ−部，ハンガ−ロ−ル〕	Means for supporting or guiding doors, e.g. hangers, hanger rolls
+B66B  13/30  F	1	2	3F307	B66B  13/30	280	〔下部案内〕ガイドシユ−	(lower guide) guide shoes
+B66B  13/30  G	1	0	3F307	B66B  13/30	79	乗り場，出入口装置	Stand, entrance or exit devices
+B66B  13/30  H	1	1	3F307	B66B  13/30	307	出入口枠，三方枠構造	Structures of entrance/exit frames or 3-direction frames
+B66B  13/30  J	1	2	3F307	B66B  13/30	281	建築構造物に対する据付け，取付け〔←取付け治具〕	Installation or mounting to building structures (&larr; mounting jigs)
+B66B  13/30  K	1	1	3F307	B66B  13/30	220	敷居	Thresholds
+B66B  13/30  L	1	2	3F307	B66B  13/30	177	取付け，固定に特徴を有するもの	Characterised by mounting or fixing
+B66B  13/30  M	1	2	3F307	B66B  13/30	79	乗かご側敷居〔←取付け〕〔乗かご，ケ−ジ→１１／０２〕	Threshold on cage side (&larr; mounting) (cage R 11/02)
+B66B  13/30  N	1	2	3F307	B66B  13/30	225	異物〔ゴミ，水等〕処理手段を備えたもの	With means for processing foreign materials (refuse, water)
+B66B  13/30  P	1	1	3F307	B66B  13/30	201	扉ハンガ−ケ−ス，ハンガ−レ−ル	Door hanger cases, hanger rails
+B66B  13/30  Q	1	1	3F307	B66B  13/30	531	乗り場，出入口装置のその他の設備	Other facilities at stand, entrance or exit devices
+B66B  13/30  R	1	0	3F307	B66B  13/30	566	防火，防煙，防音等の手段〔火災，煙応答設備→５／０２Ｅ〕	Means for preventing fires, smokes or acoustic insulation (fire or smoke responsive facilities R 5/02 E)
+B66B  13/30  Z	1	0	3F307	B66B  13/30	139	その他のもの	Others
+B66B  15/00  \	0	0	3F302	B66B  15/00	2	鉱山用ホイストの巻上装置の主構成部材	Main component parts of mining-hoist winding devices
+B66B  15/02  \	1	1	3F302	B66B  15/02	4	ロープまたはケーブルの運搬機	Rope or cable carriers
+B66B  15/04  \	2	2	3F302	B66B  15/04	36	摩擦シーブ；“ケーペ”プーリ	Friction sheaves; "Koepe" pulleys
+B66B  15/06  \	2	2	3F302	B66B  15/06	2	巻胴	Drums
+B66B  15/08  \	1	1	3F302	B66B  15/08	8	駆動装置	Driving gear
+B66B  17/00  \	0	0	3F302	B66B  17/00	10	昇降路設備	Hoistway equipment
+B66B  17/02  \	1	1	3F302	B66B  17/02	15	上部構造に装備されるもの	mounted in head-frames
+B66B  17/04  \	1	1	3F302	B66B  17/04	45	鉱山用ホイストのカーまたはケージ	Mining-hoist cars or cages
+B66B  17/06  \	2	2	3F302	B66B  17/06	5	傾動プラットホームをもつもの	with tiltable platforms
+B66B  17/08  \	1	1	3F302	B66B  17/08	19	鉱山用スキップ	Mining skips
+B66B  17/10  \	2	2	3F302	B66B  17/10	4	人間運搬に適用されるもの	adapted for passenger transport
+B66B  17/12  \	1	1	3F302	B66B  17/12	28	釣合い錘	Counterpoises
+B66B  17/14  \	1	1	3F302	B66B  17/14	74	荷積みまたは荷おろし設備の応用	Applications of loading or unloading equipment
+B66B  17/16  \	2	2	3F302	B66B  17/16	5	鉱山用ホイストのカーまたはケージに荷積みまたは荷おろしするためのもの	for loading or unloading mining-hoist cars or cages
+B66B  17/16  A	2	0	3F302	B66B  17/16	130	物品搬送システム	Article transferring systems
+B66B  17/16  B	2	1	3F302	B66B  17/16	188	ケ−ジへの搬入，搬出に特徴を有するもの	Characterised by loading to or unloading from cage
+B66B  17/16  C	2	1	3F302	B66B  17/16	118	着床時におけるケ−ジの支持またはロツク装置	Supporting or locking devices for cages upon landing
+B66B  17/16  Z	2	0	3F302	B66B  17/16	41	その他のもの	Others
+B66B  17/18  \	3	3	3F302	B66B  17/18	91	はね上げ橋，例．カーまたはケージと階床との間の位置の差異を補うためのもの	Swinging bridges, e.g. for compensating for differences in level between car or cage and landing
+B66B  17/20  \	3	3	3F302	B66B  17/20	19	カーまたはケージへの出入する移動車によるもの	by moving vehicles into, or out of, the cars or cages
+B66B  17/20  A	3	0	3F302	B66B  17/20	253	車輛搬送システム	Vehicle transfer systems
+B66B  17/20  B	3	1	3F302	B66B  17/20	140	ケ−ジへの搬入，搬出に特徴を有するもの	Characterised by loading to or unloading from cage
+B66B  17/20  C	3	1	3F302	B66B  17/20	89	階床側設備に特徴を有するもの	Characterised by floor facilities
+B66B  17/20  Z	3	0	3F302	B66B  17/20	38	その他のもの	Others
+B66B  17/22  \	3	3	3F302	B66B  17/22	72	カーまたはケージにおける車輛の固定	Securing vehicles in cars or cages
+B66B  17/24  \	4	4	3F302	B66B  17/24	68	カーまたはケージ上に装備されるもの	mounted on the car or cage
+B66B  17/26  \	2	2	3F302	B66B  17/26	5	鉱山用ホイストのスキップに荷積みまたは荷おろしするためのもの	for loading or unloading mining-hoist skips
+B66B  17/26  A	2	0	3F302	B66B  17/26	132	スキツプホイスト〔バケツトリフタ−〕	Skip hoists (bucket lifts)
+B66B  17/26  B	2	1	3F302	B66B  17/26	70	反転，転倒に特徴を有するもの〔容器の傾動および荷あけのための装置→Ｂ６５Ｇ６５／２３〕	Characterised by overturning or stumbling (devices for tilting or unloading containers R B 65 G 65/23)
+B66B  17/26  C	2	0	3F302	B66B  17/26	85	垂直昇降し傾動して荷卸しするもの	Unloading by tilting after rising and falling vertically
+B66B  17/26  D	2	0	3F302	B66B  17/26	69	底開きまたはシヤツタ−開閉式	Bottom or shutter opening type
+B66B  17/26  E	2	0	3F302	B66B  17/26	56	投入・排出に特徴を有するもの	Characterised by loading or unloading
+B66B  17/26  F	2	0	3F302	B66B  17/26	25	構成部材〔レ−ル等〕に特徴を有するもの	Characterised by structural members (rails)
+B66B  17/26  G	2	0	3F302	B66B  17/26	65	駆動，制御，安全	Drive, control, safety
+B66B  17/26  H	2	1	3F302	B66B  17/26	19	計量関連	Related to metering
+B66B  17/26  Z	2	0	3F302	B66B  17/26	36	その他のもの	Others
+B66B  17/28  \	2	2	3F302	B66B  17/28	10	電気的に制御されるもの	electrically controlled
+B66B  17/30  \	3	3	3F302	B66B  17/30	1	カーまたはケージのためのもの	for cars or cages
+B66B  17/32  \	3	3	3F302	B66B  17/32	6	スキップのためのもの	for skips
+B66B  17/34  \	1	1	3F302	B66B  17/34	12	安全用クリップ；ケツプス	Safe lift clips; Keps
+B66B  17/36  \	1	1	3F302	B66B  17/36	14	カー，ケージ，もしくは昇降路の階床から，またはそれらの，出入を制御するゲートもしくはその他の装置	Gates or other apparatus controlling access to, or exit from, cars, cages, or hoistway landings
+B66B  19/00  \	0	0	3F302	B66B  19/00	9	鉱山用ホイストの操作	Mining-hoist operation
+B66B  19/02  \	1	1	3F302	B66B  19/02	11	ロープまたはケーブル取付けまたは交換	Installing or exchanging ropes or cables
+B66B  19/04  \	1	1	3F302	B66B  19/04	2	鉱山用ホイストカー，ケージ，またはスキップの取付けまたは取外し	Installing or removing mining-hoist cars, cages, or skips
+B66B  19/06  \	1	1	3F302	B66B  19/06	56	信号装置の応用（深さ表示装置Ｂ６６Ｂ３／０２）	Applications of signalling devices (depth indicators B66B 3/02)
+B66B  20/00  \	0	0	3F309	B66B  20/00	0	グループＢ６６Ｂ１／００〜Ｂ６６Ｂ１９／００に分類されないエレベータ［８］	Elevators not provided for in groups B66B 1/00-B66B 19/00 [8]
+B66B  21/00  \	0	0	3F321	B66B  21/00	2	エスカレータまたは移動歩道の種類または型［４］	Kinds or types of escalators or moving walkways [4]
+B66B  21/00  A	0	0	3F321	B66B  21/00	33	直曲路を水平及び昇降移動するもの	Horizontally and vertically moving straight and winding paths
+B66B  21/00  B	0	0	3F321	B66B  21/00	25	階段昇降補助用の移動手すり	Movable handrails for assisting going up and down stairs
+B66B  21/00  C	0	0	3F321	B66B  21/00	20	自動階段〔各階段が１段分の高さだけ往復上下動するもの〕	Automatic stairs (each stair moving vertically by one step stroke)
+B66B  21/00  Z	0	0	3F321	B66B  21/00	54	その他	Others
+B66B  21/02  \	1	1	3F321	B66B  21/02	0	エスカレータ［４］	Escalators [4]
+B66B  21/02  A	1	0	3F321	B66B  21/02	90	中間部高速型	High-speed intermediate section type
+B66B  21/02  Z	1	0	3F321	B66B  21/02	25	その他	Others
+B66B  21/04  \	2	2	3F321	B66B  21/04	3	直線型［４］	linear type [4]
+B66B  21/04  A	2	0	3F321	B66B  21/04	47	上昇と下降の組合せ又は一体化	Combinations of rising and falling or integration
+B66B  21/04  Z	2	0	3F321	B66B  21/04	97	その他〔例．船舶用，荷物専用，途中乗車可能なもの；車椅子用又は搬送車用→Ｂ６６Ｂ２９／０８〕	Others, e.g. for boats, exclusively for loads, stopovers; for wheel chairs or transfer carts R B 66 B 29/08)
+B66B  21/06  \	2	2	3F321	B66B  21/06	222	螺旋型［４］	spiral type [4]
+B66B  21/08  \	2	2	3F321	B66B  21/08	78	循環型，すなわち．エスカレータが上昇および下降に同時に用いられるもの（Ｂ６６Ｂ２１／０６が優先）［４］	paternoster type, i.e. the escalator being used simultaneously for climbing and descending (B66B 21/06 takes precedence) [4]
+B66B  21/10  \	1	1	3F321	B66B  21/10	8	移動歩道［４］	Moving walkways [4]
+B66B  21/10  A	1	0	3F321	B66B  21/10	75	移動歩道間で乗換をするもの	Transferring type between moving walkways
+B66B  21/10  Z	1	0	3F321	B66B  21/10	195	その他	Others
+B66B  21/12  \	2	2	3F321	B66B  21/12	264	可変速度型［４］	of variable speed type [4]
+B66B  23/00  \	0	0	3F321	B66B  23/00	10	エスカレータまたは移動歩道の構成部品［４］	Component parts of escalators or moving walkways [4]
+B66B  23/00  A	0	0	3F321	B66B  23/00	284	主枠	Main frames
+B66B  23/00  B	0	0	3F321	B66B  23/00	554	据付または支持装置	Installation or supporting devices
+B66B  23/00  C	0	0	3F321	B66B  23/00	374	乗降部の床	Floors at entrance or exits
+B66B  23/00  Z	0	0	3F321	B66B  23/00	278	その他〔例．排水，オイルパン，外装〕	Others, e.g. draining, oil pan, exterior
+B66B  23/02  \	1	1	3F321	B66B  23/02	11	駆動装置［４］	Driving gear [4]
+B66B  23/02  A	1	0	3F321	B66B  23/02	155	ブレーキ装置	Brakes
+B66B  23/02  B	1	0	3F321	B66B  23/02	331	スプロケットまたはチェーン	Sprockets or chains
+B66B  23/02  D	1	1	3F321	B66B  23/02	30	螺旋エスカレータ用〔２１／０６にも付与〕	for spiral escalators (also assign to 21/06)
+B66B  23/02  C	1	0	3F321	B66B  23/02	138	配置または据付	Arrangements or installation
+B66B  23/02  E	1	0	3F321	B66B  23/02	139	中間部に設けた駆動装置	Driving devices provided at intermediary portions
+B66B  23/02  Z	1	0	3F321	B66B  23/02	284	その他	Others
+B66B  23/04  \	2	2	3F321	B66B  23/04	10	手すり用［４］	for handrails [4]
+B66B  23/04  A	2	0	3F321	B66B  23/04	93	狭圧型〔手摺ベルトの上下面を駆動ローラ等で狭みつけて駆動するもの〕	Gripping type (driving with drive rollers by gripping top and bottom surfaces of handrails)
+B66B  23/04  B	2	1	3F321	B66B  23/04	221	直線状のもの〔駆動ローラ等が直線状に配列されたもの〕	Linear type (linearly arranged drive rollers)
+B66B  23/04  C	2	0	3F321	B66B  23/04	100	巻掛型〔手摺ベルトを駆動プーリ等に巻掛けて駆動するもの〕	Wound type (driving handrail belts by winding them around drive pulley)
+B66B  23/04  Z	2	0	3F321	B66B  23/04	99	その他〔例．チェーン駆動，磁石駆動，狭圧や巻掛以外の摩擦駆動〕	Others, e.g. chain, magnetic or friction drive excluding gripping or winding
+B66B  23/06  \	3	3	3F321	B66B  23/06	64	階段部または移送ベルトと手すりの作動を同期させる装置を有するもの［４］	with means synchronising the operation of the steps or the carrying belts and the handrails [4]
+B66B  23/08  \	1	1	3F321	B66B  23/08	139	移送面［４］	Carrying surfaces [4]
+B66B  23/10  \	2	2	3F321	B66B  23/10	125	移送ベルト［４］	Carrying belts [4]
+B66B  23/12  \	2	2	3F321	B66B  23/12	35	階段部［４］	Steps [4]
+B66B  23/12  C	2	0	3F321	B66B  23/12	89	特殊形状〔例．前後面にライザを持つもの，折畳めるもの，半月状のもの〕	Special profiles, e.g. with risers on both front and rear surfaces, foldable, crescent shaped)
+B66B  23/12  A	2	1	3F321	B66B  23/12	44	螺旋エスカレータ用〔２１／０６にも付与〕	for spiral escalators (also assign to 21/06)
+B66B  23/12  B	2	1	3F321	B66B  23/12	280	車椅子または搬送車用〔２９／０８Ａ〜Ｇにも付与〕	for wheel chairs or transfer carts (also assign to 29/08 A to G)
+B66B  23/12  D	2	0	3F321	B66B  23/12	168	安全のための構成〔２９／０２Ａ〜２９／０４Ｂにも付与〕	Structures for safety (also assign to 29/02 A to 29/04 B)
+B66B  23/12  E	2	0	3F321	B66B  23/12	65	一体成形したもの〔例．ライザと踏面の一体成形〕	Moulded in one piece, e.g. one-piece moulding of riser and step surface
+B66B  23/12  F	2	0	3F321	B66B  23/12	187	枠体または車軸〔車輪→２３／１４Ｃ〕	Frame bodies or axles (wheels R 23/14 C)
+B66B  23/12  G	2	0	3F321	B66B  23/12	359	踏板〔水平移動（移動歩道）の踏板は，２３／０８で分類する〕	Step plates (assign 23/08 for step plates moving horizontally (moving walkways))
+B66B  23/12  H	2	0	3F321	B66B  23/12	131	ライザ〔蹴上板〕	Risers (kick up plates)
+B66B  23/12  Z	2	0	3F321	B66B  23/12	321	その他〔例．排水，保修，取付，養生シート〕	Others, e.g. draining, repairing, mounting, curing sheets
+B66B  23/14  \	1	1	3F321	B66B  23/14	4	移送面の案内装置［４］	Guiding means for carrying surfaces [4]
+B66B  23/14  A	1	0	3F321	B66B  23/14	298	案内レール	Guide rails
+B66B  23/14  B	1	1	3F321	B66B  23/14	144	反転部	Overturning unit
+B66B  23/14  C	1	0	3F321	B66B  23/14	168	案内ローラ〔車軸及び車軸の踏段への取付→２３／１２Ｆ〕	Guide rollers (mounting of step plates to wheels and axles R 23/12 F)
+B66B  23/14  D	1	0	3F321	B66B  23/14	100	蛇行または浮き上がりを防止するもの〔２９／００Ｄまたは２９／０２Ｅにも付与〕	Preventing winding or lifting (also assign to 29/00 D or 29/02 E)
+B66B  23/14  Z	1	0	3F321	B66B  23/14	76	その他	Others
+B66B  23/16  \	1	1	3F321	B66B  23/16	19	無端部材を緊張させる装置［４］	Means allowing tensioning of the endless member [4]
+B66B  23/18  \	2	2	3F321	B66B  23/18	131	移送面のためのもの［４］	for carrying surfaces [4]
+B66B  23/20  \	2	2	3F321	B66B  23/20	85	手すりのためのもの［４］	for handrails [4]
+B66B  23/22  \	1	1	3F321	B66B  23/22	28	らんかん［４］	Balustrades [4]
+B66B  23/22  A	1	0	3F321	B66B  23/22	216	側パネル上縁部と手すりガイドとの取付	Mounting top end of side panel and handrail guide
+B66B  23/22  B	1	0	3F321	B66B  23/22	144	側パネル下縁部の取付	Mounting bottom end of side panels
+B66B  23/22  C	1	0	3F321	B66B  23/22	96	ニューアル〔手すりの反転部〕	Newels (overturning of handrails)
+B66B  23/22  D	1	0	3F321	B66B  23/22	200	欄干支柱又は側パネル	Newel posts or side panels
+B66B  23/22  E	1	0	3F321	B66B  23/22	90	上部デッキボード〔手すり付近に配置されたデッキボード〕	Upper deck boards (deck boards arranged nearby handrails)
+B66B  23/22  F	1	0	3F321	B66B  23/22	252	下部デッキボード〔踏板付近の高さに配置されたデッキボード〕	Lower deck boards (deck boards arranged at height of step plate)
+B66B  23/22  G	1	0	3F321	B66B  23/22	209	スカートガード	Skirt guards
+B66B  23/22  H	1	0	3F321	B66B  23/22	312	照明装置の欄干への配置〔３１／００Ｅにも付与〕	Arrangements of illuminating devices on balustrades (also assign to 31/00 E)
+B66B  23/22  J	1	0	3F321	B66B  23/22	94	表示装置の欄干への配置〔２７／００Ａ，２９／００Ｚまたは３１／００Ａにも付与〕	Arrangements of indicators on balustrades (also assign to 27/00 A, 29/00 Z or 31/00 A)
+B66B  23/22  Z	1	0	3F321	B66B  23/22	196	その他	Others
+B66B  23/24  \	2	2	3F321	B66B  23/24	9	手すり（そのための駆動装置Ｂ６６Ｂ２３／０２；そのための緊張装置Ｂ６６Ｂ２３／１６；その異物による作動停止を防止するものＢ６６Ｂ２９／０４；そのための付属装置Ｂ６６Ｂ３１／０２）［４］	Handrails (driving gear therefor B66B 23/02; tensioning means therefor B66B 23/16; preventing jamming thereof by foreign objects B66B 29/04; accessories therefor B66B 31/02) [4]
+B66B  23/24  A	2	0	3F321	B66B  23/24	539	手すりベルト	Handrail belts
+B66B  23/24  B	2	1	3F321	B66B  23/24	200	装飾されたもの	Decorated
+B66B  23/24  C	2	0	3F321	B66B  23/24	365	手すりガイド〔側パネルへの取付→２３／２２Ａ〕	Handrail guides (mounting to side panel R 23/22 A)
+B66B  23/24  D	2	1	3F321	B66B  23/24	70	基部	Bases
+B66B  23/24  Z	2	0	3F321	B66B  23/24	142	その他	Others
+B66B  23/26  \	3	3	3F321	B66B  23/26	60	可変速度型［４］	of variable speed type [4]
+B66B  25/00  \	0	0	3F321	B66B  25/00	15	エスカレータまたは移動歩道の制御（可変速度型移動歩道Ｂ６６Ｂ２１／１２；可変速度型手すりＢ６６Ｂ２３／２６）［４］	Control of escalators or moving walkways (walkways of variable speed type B66B 21/12; handrails of variable speed type B66B 23/26) [4]
+B66B  25/00  A	0	0	3F321	B66B  25/00	256	多段速度型エスカレ−タの制御	Controlling multi-speed escalators
+B66B  25/00  B	0	0	3F321	B66B  25/00	320	自動運転制御〔乗客の接近に応じて運転開始するもの〕	Automatic operation control (starting operation as the passengers approach)
+B66B  25/00  C	0	0	3F321	B66B  25/00	56	複数台の統合制御	Integrated control of multiple escalators
+B66B  25/00  D	0	0	3F321	B66B  25/00	85	負荷に応じた電動機出力の切替制御	Switching control of motor outputs depending on loading
+B66B  25/00  E	0	0	3F321	B66B  25/00	37	複数台電動機による負荷分担制御	Load sharing control by multiple motors
+B66B  25/00  F	0	0	3F321	B66B  25/00	153	ブレ−キ制御	Brake control
+B66B  25/00  Z	0	0	3F321	B66B  25/00	339	その他	Others
+B66B  27/00  \	0	0	3F321	B66B  27/00	4	エスカレータまたは移動歩道の作動状態の指示［４］	Indicating operating conditions of escalators or moving walkways [4]
+B66B  27/00  A	0	0	3F321	B66B  27/00	85	運転方向表示	Indicating running direction
+B66B  27/00  B	0	0	3F321	B66B  27/00	102	運転状態変更時の注意表示または警報〔例．起動時や変速時の注意表示〕	Indicating cautions or warnings upon changing operating conditions, e.g. indicating cautions upon starting or speed change
+B66B  27/00  C	0	0	3F321	B66B  27/00	403	運転状態監視装置，故障または異常表示	Operating condition monitors, indicating failures or faults
+B66B  27/00  Z	0	0	3F321	B66B  27/00	80	その他〔例．高速運転中の表示〕	Others, e.g. indicating high-speed operation
+B66B  29/00  \	0	0	3F321	B66B  29/00	17	エスカレータまたは移動歩道の安全装置［４］	Safety devices of escalators or moving walkways [4]
+B66B  29/00  A	0	0	3F321	B66B  29/00	117	非常停止用操作スイツチ	Operation switch for emergency stop
+B66B  29/00  B	0	0	3F321	B66B  29/00	255	チエ−ンの異常に対するもの〔例．駆動チエ−ンまたは踏段チエ−ンの切断〕	For chain faults, e.g. cutting of drive or step chains
+B66B  29/00  C	0	0	3F321	B66B  29/00	51	ブレ−キの異常に対するもの〔例．制動力低下，ブレ−キ回路接点の溶着〕	For brake faults, e.g. reduced braking force, melting of brake circuit contacts
+B66B  29/00  D	0	0	3F321	B66B  29/00	230	踏段の異常に対するもの〔例．蛇行；足狭み防止→２９／０２Ｅ〕	For step faults, e.g. winding; preventing seizures of foot R 29/02 E)
+B66B  29/00  E	0	1	3F321	B66B  29/00	53	速度の異常に対するもの	For speed faults
+B66B  29/00  F	0	0	3F321	B66B  29/00	35	欄干の異常に対するもの〔例．欄干の倒壊，破壊；乗客の狭み込み防止→２９／０４Ａ〜Ｚ〕	For balustrades faults, e.g. collapsed or fractured balustrades; preventing seizures of passengers R 29/04 A to Z)
+B66B  29/00  G	0	0	3F321	B66B  29/00	265	移動手すりの異常に対するもの〔例．速度低下，過負荷，破断〕	For moving handrail faults, e.g. reduced speed, overloading, fracture
+B66B  29/00  H	0	0	3F321	B66B  29/00	67	電動機の異常に対するもの〔例．欠相，接点溶着，停電〕	For motor faults, e.g. single phase, melted contacts, power failures)
+B66B  29/00  J	0	0	3F321	B66B  29/00	142	地震または火災に対するもの	For earthquakes or fires
+B66B  29/00  K	0	0	3F321	B66B  29/00	172	乗客の乗り込み制限〔例．方向変換時，起動時，混雑時などに制限を行うゲ−トまたは表示〕	Limiting passenger swarming, e.g. limiting gates or indications upon changing directions, starting or congested periods
+B66B  29/00  L	0	0	3F321	B66B  29/00	6	螺旋エスカレ−タ用〔２１／０６にも付与〕	For spiral escalators (also assign to 21/06)
+B66B  29/00  Z	0	0	3F321	B66B  29/00	388	その他〔例．危険度に応じた安全動作，非常脱出口，逆方向起動の禁止〕	Others, e.g. safety motions depending on degree of risks, emergency exits, prohibiting starting in opposite direction)
+B66B  29/02  \	1	1	3F321	B66B  29/02	2	異物による作動停止に応答またはそれを防止するもの［４］	responsive to, or preventing, jamming by foreign objects [4]
+B66B  29/02  A	1	0	3F321	B66B  29/02	63	ライザに関するもの	Related to risers
+B66B  29/02  B	1	0	3F321	B66B  29/02	71	踏板縁部の注意標色または安全突起	Caution colours or safety protrusions at end of step plates
+B66B  29/02  C	1	1	3F321	B66B  29/02	139	注意標色部分が踏板とは別体のもの	Caution colour portions separately provided from step plates
+B66B  29/02  D	1	0	3F321	B66B  29/02	89	乗る位置を指示するもの	Specifying riding positions
+B66B  29/02  E	1	0	3F321	B66B  29/02	109	踏段間への足狭みに対するもの〔例．踏段の浮上り防止または検出〕	Preventing seizures of foot between step plates, e.g. preventing or detecting lifted steps
+B66B  29/02  Z	1	0	3F321	B66B  29/02	54	その他〔例．天井への衝突防止；三角部への狭み防止→２９／０４Ｆ〕	Others, e.g. preventing collisions with ceiling; preventing seizures at triangular corners R 29/04 F)
+B66B  29/04  \	2	2	3F321	B66B  29/04	9	らんかんまたは手すり用［４］	for balustrades or handrails [4]
+B66B  29/04  A	2	0	3F321	B66B  29/04	64	スカ−トガ−ドと踏段との間の足狭みに対するもの	for seizures of foot between skirt guard and step plate
+B66B  29/04  B	2	1	3F321	B66B  29/04	88	踏段とスカ−トガ−ドとの隙間をなくすもの	for eliminating gap between step plates and skirt guard
+B66B  29/04  C	2	1	3F321	B66B  29/04	94	スカ−トガ−ドまたは欄干に接近防止具を設けたもの	with approach stopper provided on skirt guards or balustrades
+B66B  29/04  D	2	1	3F321	B66B  29/04	28	スカ−トガ−ドを低摩擦にするもの	for reducing frictions of skirt guard
+B66B  29/04  E	2	1	3F321	B66B  29/04	155	スカ−トガ−ドへの接触または異常接近を検出するもの	for detecting contact or extraordinary approach to skirt guard
+B66B  29/04  F	2	0	3F321	B66B  29/04	256	天井と移動手すり間の三角部への異物侵入に対するもの〔例．三角部ガ−ド板〕	for foreign materials entering triangular portion between ceiling and moving handrail, e.g. triangular guard plate
+B66B  29/04  G	2	0	3F321	B66B  29/04	133	移動手すり引込部への異物侵入に対するもの	preventing foreign materials from entering into the moving handrail entering section
+B66B  29/04  H	2	1	3F321	B66B  29/04	179	移動手すり引込部への異物侵入の検出	detecting migration of foreign materials into the moving handrail entering section
+B66B  29/04  J	2	0	3F321	B66B  29/04	93	欄干外側部への異物侵入に対するもの〔例．並設エスカレ−タ間の隙間への侵入を防止する柵〕	for foreign materials entering outside of balustrades, e.g. fences for preventing entrance in to gap between escalators installed in parallel
+B66B  29/04  Z	2	0	3F321	B66B  29/04	71	その他〔例．安全を目的とするスカ−トガ−ドやデツキの変形防止構造〕	Others, e.g. structures for preventing deforming of skirt guard or deck for safety
+B66B  29/06  \	2	2	3F321	B66B  29/06	8	櫛型プレート［４］	Combplates [4]
+B66B  29/06  A	2	0	3F321	B66B  29/06	181	異常検知を行うもの	Detecting faults
+B66B  29/06  Z	2	0	3F321	B66B  29/06	182	その他	Others
+B66B  29/08  \	1	1	3F321	B66B  29/08	17	乗客の乗降を容易にするための装置（移動手すりＢ６６Ｂ２３／２４）［４］	Means to facilitate passenger entry or exit (moving handrails B66B 23/24) [4]
+B66B  29/08  A	1	0	3F321	B66B  29/08	230	車椅子または搬送車用	For wheel chairs or transfer carts
+B66B  29/08  B	1	1	3F321	B66B  29/08	69	補助具	Auxiliary devices
+B66B  29/08  C	1	1	3F321	B66B  29/08	79	踏板に車止めを設けたもの	Wheel stopper provided on step plate
+B66B  29/08  D	1	1	3F321	B66B  29/08	117	踏板が移動するもの	Movable step plates
+B66B  29/08  E	1	2	3F321	B66B  29/08	186	垂直移動	Vertical movements
+B66B  29/08  F	1	2	3F321	B66B  29/08	53	水平移動	Horizontal movements
+B66B  29/08  G	1	1	3F321	B66B  29/08	26	踏段全部が二連結であるもの〔車椅子または搬送車用以外のもの→２３／１２Ｃ〕	All steps double-linked (other than for wheel chairs or transfer carts R 23/12 C)
+B66B  29/08  Z	1	0	3F321	B66B  29/08	346	その他〔例．乗客誘導用の柵，エスカレ−タに設置された移動椅子，乗降口を明示するための表示〕	Others, e.g. fences for guiding passengers, movable chairs mounted on escalator, indications for clearly showing entrance or exit
+B66B  31/00  \	0	0	3F321	B66B  31/00	18	エスカレータまたは移動歩道の付属装置，例．殺菌用，清掃用（安全用Ｂ６６Ｂ２９／００）［４］	Accessories for escalators, or moving walkways, e.g. for sterilising or cleaning (for safety B66B 29/00) [4]
+B66B  31/00  A	0	0	3F321	B66B  31/00	416	表示装置	Indicating devices
+B66B  31/00  B	0	0	3F321	B66B  31/00	245	放送装置	Announcing devices
+B66B  31/00  C	0	0	3F321	B66B  31/00	536	乗客検出装置	Passenger detecting devices
+B66B  31/00  D	0	0	3F321	B66B  31/00	1186	保守，点検または試験用装置	Maintenance, inspection or test devices
+B66B  31/00  E	0	0	3F321	B66B  31/00	425	照明装置	Illuminating devices
+B66B  31/00  F	0	0	3F321	B66B  31/00	684	清掃，潤滑または給油装置	Cleaning, lubricating or oiling devices
+B66B  31/00  Z	0	0	3F321	B66B  31/00	316	その他	Others
+B66B  31/02  \	1	1	3F321	B66B  31/02	7	手すり用［４］	for handrails [4]
+B66B  31/02  A	1	0	3F321	B66B  31/02	395	清掃または消毒装置	Cleaning or sterilising devices
+B66B  31/02  Z	1	0	3F321	B66B  31/02	437	その他	Others

@@ -1,0 +1,362 @@
+G01D1/00	7	Measuring arrangements giving results other than momentary value of variable, of general application (G01D3/00 takes precedence; in tariff metering apparatus G01D4/00; transducers not specially adapted for a specific variable G01D5/00)	G01D1/00	G01D1/00		413
+G01D1/02	8	giving mean values, e.g. root means square values (measuring root mean square values of currents or voltages G01R19/02)	G01D1/02	G01D1/02		299
+G01D1/04	8	giving integrated values (giving mean values G01D1/02)	G01D1/04	G01D1/04		252
+G01D1/06	9	by intermittent summation	G01D1/06	G01D1/06		29
+G01D1/08	10	over fixed periods of time	G01D1/08	G01D1/08		28
+G01D1/10	8	giving differentiated values	G01D1/10	G01D1/10		73
+G01D1/12	8	giving a maximum or minimum of a value	G01D1/12	G01D1/12		149
+G01D1/14	8	giving a distribution function of a value, i.e. number of times the value comes within specified ranges of amplitude	G01D1/14	G01D1/14		224
+G01D1/16	8	giving a value which is a function of two or more values, e.g. product or ratio	G01D1/16	G01D1/16		331
+G01D1/18	8	with arrangements for signalling that a predetermined value of an unspecified parameter has been exceeded (G01D1/14 takes precedence)	G01D1/18	G01D1/18		367
+G01D3/00	7	Indicating or recording apparatus with provision for the special purposes referred to in the subgroups	G01D3/00	G01D3/00		147
+G01D3/02	8	with provision for altering or correcting the law of variation	G01D3/02	G01D3/02		582
+G01D3/021	9	{using purely analogue techniques}	G01D3/02	G01D3/02		136
+G01D3/022	9	{having an ideal characteristic, map or correction data stored in a digital memory}	G01D3/02	G01D3/02		612
+G01D3/024	9	for range change; Arrangements for substituting one sensing member by another	G01D3/024	G01D3/024		135
+G01D3/028	8	mitigating undesired influences, e.g. temperature, pressure	G01D3/028	G01D3/028		633
+G01D3/032	9	affecting incoming signal, e.g. by averaging; gating undesired signals	G01D3/032	G01D3/032		367
+G01D3/036	9	on measuring arrangements themselves	G01D3/036	G01D3/036		678
+G01D3/0365	10	{the undesired influence being measured using a separate sensor, which produces an influence related signal}	G01D3/036	G01D3/036		510
+G01D3/06	8	with provision for operation by a null method	G01D3/06	G01D3/06		76
+G01D3/063	9	{Comparing the measuring value with a reference value which periodically or incidentally scans the measuring range}	G01D3/06	G01D3/06		52
+G01D3/066	9	{Balancing a force which represents the measuring value, by means of a reference force}	G01D3/06	G01D3/06		19
+G01D3/08	8	with provision for safeguarding the apparatus, e.g. against abnormal operation, against breakdown	G01D3/08	G01D3/08		1672
+G01D3/10	8	with provision for switching-in of additional or auxiliary indicators or recorders	G01D3/10	G01D3/10		182
+G01D4/00	7	Tariff metering apparatus (in taximeters G07B13/00; apparatus actuated by coins, cards or the like with meter-controlled dispensing of liquid, gas, or electricity G07F15/00)	G01D4/00	G01D4/00		560
+G01D4/002	8	{Remote reading of utility meters}	G01D4/00	G01D4/00		1195
+G01D4/004	9	{Remote reading of utility meters to a fixed location}	G01D4/00	G01D4/00		1388
+G01D4/006	9	{Remote reading of utility meters to a non-fixed location, i.e. mobile location}	G01D4/00	G01D4/00		299
+G01D4/008	8	{Modifications to installed utility meters to enable remote reading}	G01D4/00	G01D4/00		439
+G01D4/02	8	Details	G01D4/02	G01D4/02		374
+G01D4/04	9	Resetting-mechanisms, e.g. for indicating members	G01D4/04	G01D4/04		11
+G01D4/06	9	Arrangement of clutches between driving and indicating member, e.g. of hysteresis clutch (G01D4/04 takes precedence)	G01D4/06	G01D4/06		7
+G01D4/08	9	Transfer of indication from a counter into a summing counter	G01D4/08	G01D4/08		30
+G01D4/10	8	Maximum indicating or recording apparatus, i.e. where the tariff for a period is based on a maximum demand within that period	G01D4/10	G01D4/10		69
+G01D4/12	9	Apparatus for indicating or recording progressive maximum	G01D4/12	G01D4/12		4
+G01D4/14	9	Fixed-demand indicating or recording apparatus, i.e. where indication is made when a predetermined quantity has been consumed during a time interval greater or less than a predetermined time interval	G01D4/14	G01D4/14		54
+G01D4/16	8	Apparatus for indicating or recording maximum or minimum load hours	G01D4/16	G01D4/16		15
+G01D4/18	8	Apparatus for indicating or recording overconsumption with opposing torque which comes into effect when a predetermined level is exceeded, e.g. subtraction meters	G01D4/18	G01D4/18		19
+G01D5/00	7	Mechanical means for transferring the output of a sensing member; Means for converting the output of a sensing member to another variable where the form or nature of the sensing member does not constrain the means for converting; Transducers not specially adapted for a specific variable (G01D3/00 takes precedence; specially adapted for apparatus giving results other than momentary value of variable G01D1/00)<br><br><u>NOTE</u><br><br>The subgroups of this main group are distinguished by the means which is of major importance. Thus the mere application of other means for giving a final indication does not affect the classification.	G01D5/00	G01D5/00		488
+G01D5/02	8	using mechanical means	G01D5/02	G01D5/02		338
+G01D5/04	9	using levers; using cams; using gearing	G01D5/04	G01D5/04		784
+G01D5/06	9	acting through a wall or enclosure, e.g. by bellows, by magnetic coupling	G01D5/06	G01D5/06		160
+G01D5/08	9	Reducing the effects of friction, e.g. by applying vibrations	G01D5/08	G01D5/08		10
+G01D5/10	9	Applying external forces to increase force available for operation of indicating or recording part	G01D5/10	G01D5/10		60
+G01D5/12	8	using electric or magnetic means (G01D5/06 takes precedence)	G01D5/12	G01D5/12		2293
+G01D5/125	9	{characterised by a first part whose movement represents the measuring value, and by a second part which is moved by an external force in order to follow the movement of the first part}	G01D5/12	G01D5/12		57
+G01D5/14	9	influencing the magnitude of a current or voltage	G01D5/14	G01D5/14		1410
+G01D5/142	10	{using Hall-effect devices (measuring magnetic variables using Hall-effect or other galvanomagnetic devices G01R33/06)}	G01D5/14	G01D5/14		926
+G01D5/145	11	{influenced by the relative movement between the Hall device and magnetic fields (seeG01R33/06)}	G01D5/14	G01D5/14		5810
+G01D5/147	11	{influenced by the movement of a third element, the position of Hall device and the source of magnetic field being fixed in respect to each other}	G01D5/14	G01D5/14		994
+G01D5/16	10	by varying resistance	G01D5/16	G01D5/16		1179
+G01D5/165	11	by relative movement of a point of contact {or actuation} and a resistive track	G01D5/165	G01D5/165		643
+G01D5/1655	12	{more than one point of contact or actuation on one or more tracks}	G01D5/165	G01D5/165		142
+G01D5/18	10	by varying effective impedance of discharge tubes or semiconductor devices	G01D5/18	G01D5/18		96
+G01D5/183	11	{Sensing rotation or linear movement using strain, force or pressure sensors}	G01D5/18	G01D5/18		43
+G01D5/185	12	{using piezoelectric sensors}	G01D5/18	G01D5/18		66
+G01D5/20	10	by varying inductance, e.g. by a movable armature	G01D5/20	G01D5/20		1304
+G01D5/2006	11	{by influencing the self-induction of one or more coils (G01D5/22 takes precedence)}	G01D5/20	G01D5/20		429
+G01D5/2013	12	{by a movable ferromagnetic element, e.g. a core (G01D5/2033 takes precedence)}	G01D5/20	G01D5/20		901
+G01D5/202	12	{by movable a non-ferromagnetic conductive element (G01D5/2033 takes precedence)}	G01D5/20	G01D5/20		536
+G01D5/2026	13	{constituting a short-circuiting element}	G01D5/20	G01D5/20		82
+G01D5/2033	12	{controlling the saturation of a magnetic circuit by means of a movable element, e.g. a magnet}	G01D5/20	G01D5/20		294
+G01D5/204	11	{by influencing the mutual induction between two or more coils (G01D5/22 takes precedence)}	G01D5/20	G01D5/20		413
+G01D5/2046	12	{by a movable ferromagnetic element, e.g. a core}	G01D5/20	G01D5/20		638
+G01D5/2053	12	{by a movable non-ferromagnetic conductive element}	G01D5/20	G01D5/20		584
+G01D5/206	13	{constituting a short-circuiting element}	G01D5/20	G01D5/20		80
+G01D5/2066	12	{by movement of a single coil with respect to a single other coil}	G01D5/20	G01D5/20		179
+G01D5/2073	12	{by movement of a single coil with respect to two or more coils}	G01D5/20	G01D5/20		407
+G01D5/208	13	{using polyphase currents}	G01D5/20	G01D5/20		95
+G01D5/2086	12	{by movement of two or more coils with respect to two or more other coils}	G01D5/20	G01D5/20		206
+G01D5/2093	13	{using polyphase currents}	G01D5/20	G01D5/20		35
+G01D5/22	11	differentially influencing two coils	G01D5/22	G01D5/22		169
+G01D5/2208	12	{by influencing the self-induction of the coils}	G01D5/22	G01D5/22		65
+G01D5/2216	13	{by a movable ferromagnetic element, e.g. a core}	G01D5/22	G01D5/22		249
+G01D5/2225	13	{by a movable non-ferromagnetic conductive element}	G01D5/22	G01D5/22		72
+G01D5/2233	14	{constituting a short-circuiting element}	G01D5/22	G01D5/22		17
+G01D5/2241	13	{by controlling the saturation of a magnetic circuit by means of a movable element, e.g. a magnet}	G01D5/22	G01D5/22		46
+G01D5/225	12	{by influencing the mutual induction between the two coils}	G01D5/22	G01D5/22		92
+G01D5/2258	13	{by a movable ferromagnetic element, e.g. core}	G01D5/22	G01D5/22		168
+G01D5/2266	14	{specially adapted circuits therefor}	G01D5/22	G01D5/22		50
+G01D5/2275	13	{by a movable non-ferromagnetic conductive element}	G01D5/22	G01D5/22		55
+G01D5/2283	14	{constituting a short-circuiting element}	G01D5/22	G01D5/22		31
+G01D5/2291	12	{Linear or rotary variable differential transformers (LVDTs/RVDTs) having a single primary coil and two secondary coils}	G01D5/22	G01D5/22		409
+G01D5/24	10	by varying capacitance	G01D5/24	G01D5/24		1621
+G01D5/2403	11	{by moving plates, not forming part of the capacitor itself, e.g. shields}	G01D5/24	G01D5/24		130
+G01D5/2405	11	{by varying dielectric}	G01D5/24	G01D5/24		481
+G01D5/241	11	by relative movement of capacitor electrodes	G01D5/241	G01D5/241		208
+G01D5/2412	12	{by varying overlap}	G01D5/241	G01D5/241		323
+G01D5/2415	13	{adapted for encoders}	G01D5/241	G01D5/241		335
+G01D5/2417	12	{by varying separation}	G01D5/241	G01D5/241		576
+G01D5/242	10	by carrying output of an electrodynamic device, e.g. a tachodynamo	G01D5/242	G01D5/242		94
+G01D5/243	9	influencing the phase or frequency of AC	G01D5/243	G01D5/243		478
+G01D5/244	9	influencing characteristics of pulses or pulse trains; generating pulses or pulse trains	G01D5/244	G01D5/244		919
+G01D5/24404	10	{Interpolation using high frequency signals}	G01D5/244	G01D5/244		272
+G01D5/24409	10	{Interpolation using memories}	G01D5/244	G01D5/244		128
+G01D5/24414	10	{Encoders having selectable interpolation factors}	G01D5/244	G01D5/244		17
+G01D5/24419	10	{Interpolation not coverd by groups G01D5/24404, G01D5/24409 or G01D5/24414}	G01D5/244	G01D5/244		43
+G01D5/24423	10	{Mounting means or means for restraining during shipping (G01D5/24442 takes precedence)}	G01D5/244	G01D5/244		56
+G01D5/24428	10	{Error prevention}	G01D5/244	G01D5/244		115
+G01D5/24433	11	{by mechanical means}	G01D5/244	G01D5/244		92
+G01D5/24438	12	{Special design of the sensing element or scale}	G01D5/244	G01D5/244		256
+G01D5/24442	12	{by mounting means}	G01D5/244	G01D5/244		287
+G01D5/24447	11	{by energy backup}	G01D5/244	G01D5/244		24
+G01D5/24457	10	{Failure detection}	G01D5/244	G01D5/244		183
+G01D5/24461	11	{by redundancy or plausibility}	G01D5/244	G01D5/244		295
+G01D5/24466	11	{Comparison of the error value to a threshold}	G01D5/244	G01D5/244		141
+G01D5/24471	10	{Error correction}	G01D5/244	G01D5/244		90
+G01D5/24476	11	{Signal processing (G01D5/2448&#160;-&#160;G01D5/24495 take precedence)}	G01D5/244	G01D5/244		571
+G01D5/2448	11	{Correction of gain, threshold, offset or phase control}	G01D5/244	G01D5/244		525
+G01D5/24485	11	{using other sensors}	G01D5/244	G01D5/244		179
+G01D5/2449	11	{using hard-stored calibration data}	G01D5/244	G01D5/244		314
+G01D5/24495	11	{using previous values}	G01D5/244	G01D5/244		101
+G01D5/245	10	using a variable number of pulses in a train	G01D5/245	G01D5/245		814
+G01D5/2451	11	{Incremental encoders (G01D5/2454 takes precedence)}	G01D5/245	G01D5/245		1302
+G01D5/2452	12	{incorporating two or more tracks having an (n, n+1, ...) relationship}	G01D5/245	G01D5/245		228
+G01D5/2454	11	{Encoders incorporating incremental and absolute signals}	G01D5/245	G01D5/245		153
+G01D5/2455	12	{with incremental and absolute tracks on the same encoder}	G01D5/245	G01D5/245		222
+G01D5/2457	13	{Incremental encoders having reference marks}	G01D5/245	G01D5/245		630
+G01D5/2458	12	{with incremental and absolute tracks on separate encoders}	G01D5/245	G01D5/245		91
+G01D5/246	10	by varying the duration of individual pulses	G01D5/246	G01D5/246		152
+G01D5/247	10	using time shifts of pulses	G01D5/247	G01D5/247		183
+G01D5/248	10	by varying pulse repetition frequency	G01D5/248	G01D5/248		95
+G01D5/249	10	using pulse code	G01D5/249	G01D5/249		192
+G01D5/2492	11	{Pulse stream}	G01D5/249	G01D5/249		259
+G01D5/2495	12	{Pseudo-random code}	G01D5/249	G01D5/249		83
+G01D5/2497	11	{Absolute encoders (G01D5/2454 takes precedence)}	G01D5/249	G01D5/249		484
+G01D5/25	9	Selecting one or more conductors or channels from a plurality of conductors or channels, e.g. by closing contacts	G01D5/25	G01D5/25		231
+G01D5/251	10	one conductor or channel	G01D5/251	G01D5/251		52
+G01D5/2515	11	{with magnetically controlled switches, e.g. by movement of a magnet}	G01D5/251	G01D5/251		154
+G01D5/252	10	a combination of conductors or channels	G01D5/252	G01D5/252		138
+G01D5/2525	11	{with magnetically controlled switches, e.g. by movement of a magnet}	G01D5/252	G01D5/252		19
+G01D5/26	8	characterised by optical transfer means, i.e. using infrared, visible, or ultraviolet light	G01D5/26	G01D5/26		1866
+G01D5/262	9	{with optical projection of a pointer or a scale}	G01D5/26	G01D5/26		63
+G01D5/264	9	{Mechanical constructional elements therefor (G01D5/28, G01D5/32, G01D5/39 and G01D5/40 take precedence); Mechanical adjustment thereof}	G01D5/26	G01D5/26		230
+G01D5/266	9	{by interferometric means (G01D5/353 takes precedence)}	G01D5/26	G01D5/26		570
+G01D5/268	9	{using optical fibres (G01D5/28 - G01D5/38 take precedence)}	G01D5/26	G01D5/26		1673
+G01D5/28	9	with deflection of beams of light, e.g. for direct optical indication (G01D5/40 takes precedence; {mechanical adjustment G01D5/264})	G01D5/28	G01D5/28		199
+G01D5/285	10	{using a movable mirror}	G01D5/28	G01D5/28		97
+G01D5/30	10	the beams of light being detected by photocells	G01D5/30	G01D5/30		622
+G01D5/305	11	{controlling the movement of a following part}	G01D5/30	G01D5/30		54
+G01D5/32	9	with attenuation or whole or partial obturation of beams of light (G01D5/40 takes precedence {; mechanical adjustment G01D5/264})	G01D5/32	G01D5/32		206
+G01D5/34	10	the beams of light being detected by photocells	G01D5/34	G01D5/34		1011
+G01D5/341	11	{controlling the movement of a following part}	G01D5/34	G01D5/34		72
+G01D5/342	11	{the sensed object being the obturating part}	G01D5/34	G01D5/34		317
+G01D5/344	11	{using polarisation (G01D5/35303 takes precedence)}	G01D5/34	G01D5/34		233
+G01D5/345	12	{Polarising encoders}	G01D5/34	G01D5/34		146
+G01D5/347	11	using displacement encoding scales	G01D5/347	G01D5/347		764
+G01D5/34707	12	{Scales; Discs, e.g. fixation, fabrication, compensation}	G01D5/347	G01D5/347		843
+G01D5/34715	13	{Scale reading or illumination devices}	G01D5/347	G01D5/347		1043
+G01D5/34723	14	{involving light-guides}	G01D5/347	G01D5/347		230
+G01D5/3473	12	{Circular or rotary encoders}	G01D5/347	G01D5/347		1324
+G01D5/34738	13	{Axles; Driving or coupling means}	G01D5/347	G01D5/347		323
+G01D5/34746	12	{Linear encoders}	G01D5/347	G01D5/347		417
+G01D5/34753	13	{Carriages; Driving or coupling means}	G01D5/347	G01D5/347		222
+G01D5/34761	13	{Protection devices, e.g. caps; Blowing devices}	G01D5/347	G01D5/347		77
+G01D5/34769	14	{Sealing means}	G01D5/347	G01D5/347		63
+G01D5/34776	12	{Absolute encoders with analogue or digital scales}	G01D5/347	G01D5/347		299
+G01D5/34784	13	{with only analogue scales or both analogue and incremental scales}	G01D5/347	G01D5/347		150
+G01D5/34792	13	{with only digital scales or both digital and incremental scales}	G01D5/347	G01D5/347		516
+G01D5/34794	14	{Optical encoders using the Vernier principle, i.e. incorporating two or more tracks having a (n, n+1, ...) relationship}	G01D5/347	G01D5/347		78
+G01D5/353	11	influencing the transmission properties of an optical fibre	G01D5/353	G01D5/353		1049
+G01D5/35303	12	{using a reference fibre, e.g. interferometric devices}	G01D5/353	G01D5/353		486
+G01D5/35306	12	{using an interferometer arrangement}	G01D5/353	G01D5/353		308
+G01D5/35309	13	{using multiple waves interferometer}	G01D5/353	G01D5/353		27
+G01D5/35312	14	{using a Fabry Perot}	G01D5/353	G01D5/353		465
+G01D5/35316	14	{using a Bragg gratings}	G01D5/353	G01D5/353		1053
+G01D5/35319	14	{using other multiple wave interferometer}	G01D5/353	G01D5/353		15
+G01D5/35322	13	{using interferometer with one loop with several directions of circulation of the light, e.g. Sagnac interferometer}	G01D5/353	G01D5/353		64
+G01D5/35325	13	{using interferometer with two arms in reflection, e.g. Mickelson interferometer}	G01D5/353	G01D5/353		127
+G01D5/35329	13	{using interferometer with two arms in transmission, e.g. Mach-Zender interferometer}	G01D5/353	G01D5/353		242
+G01D5/35332	13	{using other interferometers}	G01D5/353	G01D5/353		32
+G01D5/35335	13	{Aspects of emitters or receivers used by an interferometer in an optical fibre sensor arrangement (using multiple sensor devices using multiplexing techniques G01D5/35383)}	G01D5/353	G01D5/353		67
+G01D5/35338	12	{using other arrangements than interferometer arrangements}	G01D5/353	G01D5/353		69
+G01D5/35341	13	{Sensor working in transmission}	G01D5/353	G01D5/353		62
+G01D5/35345	14	{using Amplitude variations to detect the measured quantity}	G01D5/353	G01D5/353		181
+G01D5/35348	14	{using stimulated emission to detect the measured quantity}	G01D5/353	G01D5/353		37
+G01D5/35351	14	{using other means to detect the measured quantity}	G01D5/353	G01D5/353		53
+G01D5/35354	13	{Sensor working in reflection}	G01D5/353	G01D5/353		287
+G01D5/35358	14	{using backscattering to detect the measured quantity}	G01D5/353	G01D5/353		341
+G01D5/35361	15	{using elastic backscattering to detect the measured quantity, e.g. using Rayleigh backscattering}	G01D5/353	G01D5/353		462
+G01D5/35364	15	{using inelastic backscattering to detect the measured quantity, e.g. using Brillouin or Raman backscattering}	G01D5/353	G01D5/353		495
+G01D5/35367	14	{using reflected light other than backscattered to detect the measured quantity}	G01D5/353	G01D5/353		88
+G01D5/3537	12	{Optical fibre sensor using a particular arrangement of the optical fibre itself}	G01D5/353	G01D5/353		191
+G01D5/35374	13	{Particular layout of the fiber}	G01D5/353	G01D5/353		277
+G01D5/35377	13	{Means for amplifying or modifying the measured quantity}	G01D5/353	G01D5/353		183
+G01D5/3538	13	{using a particular type of fiber, e.g. fibre with several cores, PANDA fiber, fiber with an elliptic core or the like}	G01D5/353	G01D5/353		344
+G01D5/35383	12	{using multiple sensor devices using multiplexing techniques}	G01D5/353	G01D5/353		439
+G01D5/35387	13	{using wavelength division multiplexing}	G01D5/353	G01D5/353		240
+G01D5/3539	13	{using time division multiplexing}	G01D5/353	G01D5/353		88
+G01D5/35393	13	{using frequency division multiplexing}	G01D5/353	G01D5/353		35
+G01D5/35396	13	{using other forms of multiplexing}	G01D5/353	G01D5/353		34
+G01D5/36	11	Forming the light into pulses	G01D5/36	G01D5/36		940
+G01D5/363	12	{Direction discrimination}	G01D5/36	G01D5/36		151
+G01D5/366	12	{Particular pulse shapes}	G01D5/36	G01D5/36		245
+G01D5/38	12	by diffraction gratings	G01D5/38	G01D5/38		1398
+G01D5/39	9	Scanning a visible indication of the measured value and reproducing this indication at the remote place, e.g. on the screen of a cathode ray tube {(mechanical adjustment G01D5/264)}	G01D5/39	G01D5/39		257
+G01D5/40	9	specially adapted for use with infrared light {(mechanical adjustment G01D5/264)}	G01D5/40	G01D5/40		98
+G01D5/42	8	using fluid means	G01D5/42	G01D5/42		201
+G01D5/425	9	{characterised by a first part whose movement represents the measuring value, and by a second part which is moved by an external force in order to follow the movement of the first part}	G01D5/42	G01D5/42		17
+G01D5/44	9	using jets of fluid	G01D5/44	G01D5/44		37
+G01D5/46	10	by deflecting or throttling the flow	G01D5/46	G01D5/46		46
+G01D5/48	8	using wave or particle radiation means (G01D5/26 takes precedence)	G01D5/48	G01D5/48		554
+G01D5/485	9	{using magnetostrictive devices}	G01D5/48	G01D5/48		271
+G01D5/50	9	derived from a radioactive source	G01D5/50	G01D5/50		22
+G01D5/52	10	detected by a counter tube	G01D5/52	G01D5/52		8
+G01D5/54	8	using means specified in two or more of groups G01D5/02, G01D5/12, G01D5/26, G01D5/42, and G01D5/48<br><br><u>NOTE</u><br><br>For a combination of two or more of the means specified, the first applicable one of the subgroups below takes precedence over any others of these groups.<br>Classification is made in this group only if no other group can be selected as being predominantly applicable.	G01D5/54	G01D5/54		56
+G01D5/56	9	using electric or magnetic means	G01D5/56	G01D5/56		162
+G01D5/58	9	using optical means, i.e. using infrared, visible or ultraviolet light	G01D5/58	G01D5/58		94
+G01D5/60	9	using fluid means	G01D5/60	G01D5/60		7
+G01D5/62	9	using wave or particle radiation means not covered by group G01D5/58	G01D5/62	G01D5/62		16
+G01D7/00	7	Indicating measured values	G01D7/00	G01D7/00		1136
+G01D7/002	8	{giving both analog and numerical indication}	G01D7/00	G01D7/00		427
+G01D7/005	8	{Indication of measured value by colour change}	G01D7/00	G01D7/00		372
+G01D7/007	8	{Indication of measured value by tactile means}	G01D7/00	G01D7/00		32
+G01D7/02	8	Indicating value of two or more variables simultaneously	G01D7/02	G01D7/02		443
+G01D7/04	9	using a separate indicating element for each variable	G01D7/04	G01D7/04		374
+G01D7/06	10	Luminous indications projected on a common screen	G01D7/06	G01D7/06		259
+G01D7/08	9	using a common indicating element for two or more variables	G01D7/08	G01D7/08		251
+G01D7/10	10	giving indication in co-ordinate form	G01D7/10	G01D7/10		70
+G01D7/12	8	Audible indication of meter readings, e.g. for the blind	G01D7/12	G01D7/12		244
+G01D9/00	7	Recording measured values	G01D9/00	G01D9/00		646
+G01D9/005	8	{Solid-state data loggers}	G01D9/00	G01D9/00		925
+G01D9/007	9	{Data loggers attached to transport containers for perishable products, e.g. food or medicines}	G01D9/00	G01D9/00		120
+G01D9/02	8	Producing one or more recordings of the values of a single variable	G01D9/02	G01D9/02		187
+G01D9/04	9	with provision for multiple or alternative recording	G01D9/04	G01D9/04		25
+G01D9/06	10	Multiple recording, e.g. duplicating	G01D9/06	G01D9/06		46
+G01D9/08	11	giving both graphical and numerical recording	G01D9/08	G01D9/08		57
+G01D9/10	9	the recording element, e.g. stylus, being controlled in accordance with the variable, and the recording medium, e.g. paper roll, being controlled in accordance with time	G01D9/10	G01D9/10		95
+G01D9/12	10	recording occurring continuously	G01D9/12	G01D9/12		87
+G01D9/14	11	with provision for altering speed of recording medium in accordance with the magnitude of the variable to be recorded	G01D9/14	G01D9/14		27
+G01D9/16	10	recording occurring at separated intervals, e.g. by chopper bar	G01D9/16	G01D9/16		212
+G01D9/18	11	recording element actuated only upon change in value of variable	G01D9/18	G01D9/18		14
+G01D9/20	9	the recording element, e.g. stylus, being controlled in accordance with time and the recording medium, e.g. paper roll, being controlled in accordance with the variable	G01D9/20	G01D9/20		33
+G01D9/22	10	recording occurring continuously	G01D9/22	G01D9/22		9
+G01D9/24	10	recording occurring at separated intervals, e.g. by chopper bar	G01D9/24	G01D9/24		15
+G01D9/26	9	either the recording element, e.g. stylus, or the recording medium, e.g. paper roll, being controlled in accordance with both time and the variable	G01D9/26	G01D9/26		12
+G01D9/28	8	Producing one or more recordings, each recording being of the values of two or more different variables (G01D9/38, G01D9/40 take precedence)	G01D9/28	G01D9/28		444
+G01D9/285	9	{producing additional marks (e.g. reference lines time marks)}	G01D9/28	G01D9/28		153
+G01D9/30	9	there being a separate recording element for each variable, e.g. multiple-pen recorder	G01D9/30	G01D9/30		235
+G01D9/32	9	there being a common recording element for two or more variables	G01D9/32	G01D9/32		118
+G01D9/34	10	the variables being recorded in a predetermined sequence	G01D9/34	G01D9/34		160
+G01D9/36	11	in separate columns	G01D9/36	G01D9/36		26
+G01D9/38	8	Producing one or more recordings, each recording being produced by controlling the recording element, e.g. stylus, in accordance with one variable and controlling the recording medium, e.g. paper roll, in accordance with another variable	G01D9/38	G01D9/38		118
+G01D9/40	8	Producing one or more recordings, each recording being produced by controlling either the recording element, e.g. stylus or the recording medium, e.g. paper roll, in accordance with two or more variables	G01D9/40	G01D9/40		138
+G01D9/42	8	Recording indications of measuring instruments by photographic means, e.g. of counters	G01D9/42	G01D9/42		115
+G01D11/00	7	Component parts of measuring arrangements not specially adapted for a specific variable (G01D13/00, G01D15/00 take precedence)	G01D11/00	G01D11/00		3532
+G01D11/02	8	Bearings or suspensions for moving parts	G01D11/02	G01D11/02		314
+G01D11/04	9	Knive-edge bearings	G01D11/04	G01D11/04		8
+G01D11/06	9	Strip or thread suspensions, e.g. in tension	G01D11/06	G01D11/06		78
+G01D11/08	8	Elements for balancing moving parts	G01D11/08	G01D11/08		19
+G01D11/10	8	Elements for damping the movement of parts	G01D11/10	G01D11/10		267
+G01D11/12	9	using fluid damping	G01D11/12	G01D11/12		101
+G01D11/14	9	using magnetic induction damping	G01D11/14	G01D11/14		34
+G01D11/16	8	Elements for restraining, or preventing the movement of, parts, e.g. for zeroising (caging of moving parts when not in use G01D11/20)	G01D11/16	G01D11/16		1316
+G01D11/18	9	Springs (G01D11/06 takes precedence)	G01D11/18	G01D11/18		252
+G01D11/20	8	Caging devices for moving parts when not in use	G01D11/20	G01D11/20		82
+G01D11/22	9	automatically actuated	G01D11/22	G01D11/22		16
+G01D11/24	8	Housings {; Casings for instruments}	G01D11/24	G01D11/24		2886
+G01D11/245	9	{Housings for sensors}	G01D11/24	G01D11/24		4720
+G01D11/26	9	Windows; Cover glasses; Sealings therefor	G01D11/26	G01D11/26		911
+G01D11/28	8	Structurally-combined illuminating devices	G01D11/28	G01D11/28		1686
+G01D11/30	8	Supports specially adapted for an instrument; Supports specially adapted for a set of instruments	G01D11/30	G01D11/30		5740
+G01D11/305	9	{Panel mounting of instruments}	G01D11/30	G01D11/30		155
+G01D13/00	7	Component parts of indicators for measuring arrangements not specially adapted for a specific variable	G01D13/00	G01D13/00		348
+G01D13/02	8	Scales; Dials	G01D13/02	G01D13/02		409
+G01D13/04	9	Construction	G01D13/04	G01D13/04		326
+G01D13/06	10	Moving bands (G01D13/10 takes precedence)	G01D13/06	G01D13/06		111
+G01D13/08	10	Rotating drums (G01D13/10 takes precedence)	G01D13/08	G01D13/08		52
+G01D13/10	10	with adjustable scales; with auxiliary scales, e.g. vernier	G01D13/10	G01D13/10		155
+G01D13/12	9	Graduation	G01D13/12	G01D13/12		229
+G01D13/14	10	for rotations of more than 360 degrees	G01D13/14	G01D13/14		27
+G01D13/16	10	with staggered markings	G01D13/16	G01D13/16		13
+G01D13/18	10	with raised or recessed markings	G01D13/18	G01D13/18		13
+G01D13/20	10	with luminescent markings	G01D13/20	G01D13/20		113
+G01D13/22	8	Pointers, e.g. settable pointer	G01D13/22	G01D13/22		558
+G01D13/24	9	for indicating a maximum or minimum	G01D13/24	G01D13/24		96
+G01D13/26	9	adapted to perform a further operation, e.g. making electrical contact	G01D13/26	G01D13/26		345
+G01D13/265	10	{Pointers which conduct light}	G01D13/26	G01D13/26		232
+G01D13/28	9	with luminescent markings	G01D13/28	G01D13/28		185
+G01D15/00	7	Component parts of recorders for measuring arrangements not specially adapted for a specific variable	G01D15/00	G01D15/00		282
+G01D15/005	8	{Effaceable recording}	G01D15/00	G01D15/00		35
+G01D15/02	8	Styli or other recording elements acting to mechanically deform or perforate the recording surface (printing recording elements G01D15/20)	G01D15/02	G01D15/02		84
+G01D15/04	9	acting to punch holes in the recording surface	G01D15/04	G01D15/04		27
+G01D15/06	8	Electric recording elements, e.g. electrolytic	G01D15/06	G01D15/06		285
+G01D15/08	9	for spark erosion	G01D15/08	G01D15/08		118
+G01D15/10	8	Heated recording elements acting on heatsensitive layers	G01D15/10	G01D15/10		323
+G01D15/12	8	Magnetic recording elements	G01D15/12	G01D15/12		102
+G01D15/14	8	Optical recording elements; Recording elements using X-or nuclear radiation	G01D15/14	G01D15/14		721
+G01D15/16	8	Recording elements transferring recording material, e.g. ink, to the recording surface (printing recording elements G01D15/20)	G01D15/16	G01D15/16		607
+G01D15/18	9	Nozzles emitting recording material	G01D15/18	G01D15/18		314
+G01D15/20	8	Recording elements for printing with ink or for printing by deformation or perforation of the recording surface, e.g. embossing	G01D15/20	G01D15/20		155
+G01D15/22	8	Chopper bars for bringing recording element into contact with recording surface	G01D15/22	G01D15/22		79
+G01D15/24	8	Drives for recording elements and surfaces not covered by G01D5/00	G01D15/24	G01D15/24		784
+G01D15/26	9	operating by clockwork	G01D15/26	G01D15/26		47
+G01D15/28	8	Holding means for recording surfaces; Guiding means for recording surfaces; Exchanging means for recording surfaces	G01D15/28	G01D15/28		488
+G01D15/30	9	for foldable strip charts	G01D15/30	G01D15/30		58
+G01D15/32	9	for circular charts	G01D15/32	G01D15/32		86
+G01D15/34	8	Recording surfaces	G01D15/34	G01D15/34		136
+G01D15/342	9	{of circular shape}	G01D15/34	G01D15/34		11
+G01D15/345	9	{of cylindrical shape}	G01D15/34	G01D15/34		5
+G01D15/347	9	{Strip or Tape}	G01D15/34	G01D15/34		10
+G01D18/00	7	Testing or calibrating apparatus or arrangements provided for in groups G01D1/00 - G01D15/00	G01D18/00	G01D18/00		4890
+G01D18/001	8	{Calibrating encoders}	G01D18/00	G01D18/00		556
+G01D18/002	8	{Automatic recalibration (G01D18/008 takes precedence)}	G01D18/00	G01D18/00		230
+G01D18/004	9	{Continuous recalibration}	G01D18/00	G01D18/00		137
+G01D18/006	9	{Intermittent recalibration}	G01D18/00	G01D18/00		195
+G01D18/008	8	{with calibration coefficients stored in memory}	G01D18/00	G01D18/00		627
+G01D21/00	7	Measuring or testing not otherwise provided for	G01D21/00	G01D21/00		4931
+G01D21/02	8	Measuring two or more variables by means not covered by a single other subclass	G01D21/02	G01D21/02		55834
+G01D2204/00	7	Indexing scheme relating to details of tariff-metering apparatus	CPCONLY	G01D2204/00		1
+G01D2204/10	8	Analysing; Displaying	CPCONLY	G01D2204/10		6
+G01D2204/12	9	Determination or prediction of behaviour, e.g. likely power consumption or unusual usage patterns	CPCONLY	G01D2204/12		196
+G01D2204/125	10	Utility meter reading systems specially adapted for determining the environmental impact of user behaviour	CPCONLY	G01D2204/125		43
+G01D2204/14	9	Displaying of utility usage with respect to time, e.g. for monitoring evolution of usage or with respect to weather conditions	CPCONLY	G01D2204/14		165
+G01D2204/16	9	Displaying of utility pricing or cost	CPCONLY	G01D2204/16		50
+G01D2204/18	9	Remote displaying of utility meter readings	CPCONLY	G01D2204/18		168
+G01D2204/20	8	Monitoring; Controlling	CPCONLY	G01D2204/20		7
+G01D2204/22	9	Arrangements for detecting or reporting faults, outages or leaks	CPCONLY	G01D2204/22		109
+G01D2204/24	9	Identification of individual loads, e.g. by analysing current/voltage waveforms	CPCONLY	G01D2204/24		200
+G01D2204/26	9	Remote utility meter reading systems with control function, i.e. reading systems including mechanisms for turning on/off the supply	CPCONLY	G01D2204/26		23
+G01D2204/28	9	Processes or tasks scheduled according to the power required, the power available or the power price	CPCONLY	G01D2204/28		20
+G01D2204/30	8	Remote utility meter reading systems specially adapted for metering the generated energy or power	CPCONLY	G01D2204/30		21
+G01D2204/35	9	Monitoring the performance of renewable electricity generating systems, e.g. of solar panels	CPCONLY	G01D2204/35		24
+G01D2204/40	8	Networks; Topology	CPCONLY	G01D2204/40		9
+G01D2204/43	9	Identification of a specific meter	CPCONLY	G01D2204/43		16
+G01D2204/45	9	Utility meters networked together within a single building	CPCONLY	G01D2204/45		211
+G01D2204/47	9	Methods for determining the topology or arrangement of meters in a network	CPCONLY	G01D2204/47		57
+G01D2205/00	7	Indexing scheme relating to details of means for transferring or converting the output of a sensing member	CPCONLY	G01D2205/00		
+G01D2205/10	8	Detecting linear movement	CPCONLY	G01D2205/10		20
+G01D2205/14	9	by converting the linear movement into a rotary movement	CPCONLY	G01D2205/14		86
+G01D2205/18	9	using magnetic means not otherwise provided for in this subclass	CPCONLY	G01D2205/18		75
+G01D2205/20	8	Detecting rotary movement	CPCONLY	G01D2205/20		21
+G01D2205/22	9	by converting the rotary movement into a linear movement	CPCONLY	G01D2205/22		127
+G01D2205/24	9	using magnetic means not otherwise provided for in this subclass	CPCONLY	G01D2205/24		21
+G01D2205/26	9	Details of encoders or position sensors specially adapted to detect rotation beyond a full turn of 360&#176;, e.g. multi-rotation	CPCONLY	G01D2205/26		496
+G01D2205/28	9	The target being driven in rotation by additional gears	CPCONLY	G01D2205/28		201
+G01D2205/40	8	Position sensors comprising arrangements for concentrating or redirecting magnetic flux	CPCONLY	G01D2205/40		204
+G01D2205/50	8	Grounding or electrostatically shielding a position sensor or encoder	CPCONLY	G01D2205/50		32
+G01D2205/60	8	Means for precisely aligning or centering the disk of a rotary encoder, e.g. fitting jigs	CPCONLY	G01D2205/60		72
+G01D2205/70	8	Position sensors comprising a moving target with particular shapes, e.g. of soft magnetic targets	CPCONLY	G01D2205/70		5
+G01D2205/73	9	Targets mounted eccentrically with respect to the axis of rotation	CPCONLY	G01D2205/73		71
+G01D2205/77	9	Specific profiles	CPCONLY	G01D2205/77		118
+G01D2205/771	10	Toothed profiles	CPCONLY	G01D2205/771		48
+G01D2205/772	11	Sawtooth profiles	CPCONLY	G01D2205/772		21
+G01D2205/773	10	Spiral profiles	CPCONLY	G01D2205/773		62
+G01D2205/774	10	Profiles with a discontinuity, e.g. edge or stepped profile	CPCONLY	G01D2205/774		54
+G01D2205/775	10	Tapered profiles	CPCONLY	G01D2205/775		161
+G01D2205/776	10	Cam-shaped profiles	CPCONLY	G01D2205/776		35
+G01D2205/777	10	Whorl-shaped profiles	CPCONLY	G01D2205/777		63
+G01D2205/80	8	Manufacturing details of magnetic targets for magnetic encoders	CPCONLY	G01D2205/80		340
+G01D2205/85	8	Determining the direction of movement of an encoder, e.g. of an incremental encoder	CPCONLY	G01D2205/85		95
+G01D2205/90	8	Two-dimensional encoders, i.e. having one or two codes extending in two directions	CPCONLY	G01D2205/90		139
+G01D2205/95	8	Three-dimensional encoders, i.e. having codes extending in three directions	CPCONLY	G01D2205/95		24
+G01D2207/00	7	Indexing scheme relating to details of indicating measuring values	CPCONLY	G01D2207/00		2
+G01D2207/10	8	Displays which are primarily used in aircraft or display aircraft-specific information	CPCONLY	G01D2207/10		82
+G01D2207/20	8	Displays for vehicles in which information is superimposed on an external view, e.g. heads-up displays or enhanced reality displays	CPCONLY	G01D2207/20		10
+G01D2207/30	8	Displays providing further information, in addition to measured values, e.g. status	CPCONLY	G01D2207/30		83
+G01D2213/00	7	Indexing scheme relating to constructional details of indicators	CPCONLY	G01D2213/00		11
+G01D2213/10	8	Drivers for gauges	CPCONLY	G01D2213/10		67
+G01D2213/20	8	Gauges having a single pointer and two or more scales	CPCONLY	G01D2213/20		29
+G01D2218/00	7	Indexing scheme relating to details of testing or calibration	CPCONLY	G01D2218/00		7
+G01D2218/10	8	Testing of sensors or measuring arrangements	CPCONLY	G01D2218/10		261

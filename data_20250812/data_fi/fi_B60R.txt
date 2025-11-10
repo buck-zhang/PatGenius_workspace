@@ -1,0 +1,780 @@
+B60R   1/00  \	0	0	3D021	B60R   1/00	366	光学的視認装置；運転者又は乗員の支援のためのリアルタイム視認装置であって撮像システム，例．車内又は車外で用いることに特に適合するカメラ又はビデオシステム，を利用するもの［２０１６．０１］	Optical viewing arrangements; Real-time viewing arrangements for drivers or passengers using optical image capturing systems, e.g. cameras or video systems specially adapted for use in or on vehicles [1, 2, 2006.01, 2022.01]
+B60R   1/02  \	1	1	3D021	B60R   1/02	346	後写鏡装置（展望鏡装置Ｂ６０Ｒ１／１０）［１，２００６．０１］	Rear-view mirror arrangements (periscope arrangements B60R 1/10) [1, 2006.01]
+B60R   1/04  \	2	2	3D021	B60R   1/04	191	車内に取り付けられるもの（Ｂ６０Ｒ１／０８が優先）［１，７，２００６．０１］	mounted inside vehicle (B60R 1/08 takes precedence) [1, 7, 2006.01]
+B60R   1/04  A	2	0	3D021	B60R   1/04	252	防眩，例．防眩スイッチ	Antiglare, e.g. antiglare switches
+B60R   1/04  B	2	1	3D021	B60R   1/04	277	反射率切換式	switching-type of reflection coefficient
+B60R   1/04  C	2	2	3D021	B60R   1/04	186	自動切換式	automatically switching-type
+B60R   1/04  D	2	3	3D021	B60R   1/04	480	液晶等を用いたもの	using liquid crystal and the like
+B60R   1/04  G	2	0	3D021	B60R   1/04	479	死角域視認	Confirming blind spots by looking
+B60R   1/04  H	2	1	3D021	B60R   1/04	143	複数のミラーを組合せたもの	with the combination of multiple mirrors
+B60R   1/04  J	2	2	3D021	B60R   1/04	57	車内と車外を組合せたもの	combined with equipment inside and outside of vehicles
+B60R   1/04  K	2	0	3D021	B60R   1/04	136	緩衝・離脱・復元	Shock-absorbing, coming-off, restoring
+B60R   1/04  Z	2	0	3D021	B60R   1/04	1462	その他のもの	Others
+B60R   1/06  \	2	2	3D053	B60R   1/06	119	車外に取付けられるもの（Ｂ６０Ｒ１／０８が優先）［１，７，２００６．０１］	mounted on vehicle exterior (B60R 1/08 takes precedence) [1, 7, 2006.01]
+B60R   1/06  D	2	0	3D053	B60R   1/06	3049	ドアミラー，例．遠隔操作・緩衝・離脱・復元	Door mirrors, e.g. remote controlling, shock-absorbing, coming-off, restoring
+B60R   1/06  G	2	0	3D053	B60R   1/06	1668	死角域視認	Confirming blind spots by looking
+B60R   1/06  K	2	0	3D053	B60R   1/06	507	緩衝・離脱・復元するもので，ドアミラーを除く	having the characteistics of shock-absorbing, coming-off or restoring, excluding door mirrors
+B60R   1/06  M	2	0	3D053	B60R   1/06	1267	鏡面の除氷，除滴（ワイパー，ウォッシャーＢ６０Ｓ１／５６）	Removing the ice or droplets from a mirror surface (wipers, washer B60S1/56)
+B60R   1/06  P	2	1	3D053	B60R   1/06	4	鏡面が発熱するもの（発熱素子そのものＨ０５Ｂ３／８４）	Mirror surface which generates heat (heating element per se H05B3/84)
+B60R   1/06  Q	2	1	3D053	B60R   1/06	469	鏡面が撥水，親水，又は同類の機能を持つ被膜又はフィルムを有するもの	Mirror planes with coatings or films which provide water repellency or hydrophilic qualities, or have similar functions
+B60R   1/06  R	2	1	3D053	B60R   1/06	472	鏡面が運動，例．振動又は面内回転，をするもの	Mirror surface which moves, e.g. which vibrates or rotates in-plane
+B60R   1/06  Z	2	0	3D053	B60R   1/06	1992	その他のもの	Others
+B60R   1/062  \	3	3	3D053	B60R   1/062	195	姿勢調節のための遠隔制御を用いるもの［７，２００６．０１］	with remote control for adjusting position [7, 2006.01]
+B60R   1/064  \	4	4	3D053	B60R   1/064	226	手動の駆動手段を使って調節するもの［７，２００６．０１］	by manually powered actuator [7, 2006.01]
+B60R   1/066  \	5	5	3D053	B60R   1/066	225	ハウジングに対して鏡面を調節するもの［７，２００６．０１］	for adjusting the mirror relative to its housing [7, 2006.01]
+B60R   1/068  \	6	6	3D053	B60R   1/068	425	調節にケーブルを利用するもの［７，２００６．０１］	using cables [7, 2006.01]
+B60R   1/07  \	4	4	3D053	B60R   1/07	162	電動の駆動手段を使って調節するもの［７，２００６．０１］	by electrically powered actuator [7, 2006.01]
+B60R   1/072  \	5	5	3D053	B60R   1/072	680	ハウジングに対して鏡面を調節するもの［７，２００６．０１］	for adjusting the mirror relative to its housing [7, 2006.01]
+B60R   1/074  \	5	5	3D053	B60R   1/074	697	非使用位置へ折り畳まって車両に横付けされるもの［７，２００６．０１］	for retracting the mirror arrangements to a non-use position alongside the vehicle [7, 2006.01]
+B60R   1/076  \	3	3	3D053	B60R   1/076	1669	過度の外力で変位するとともに，使用位置に戻すための目安を有するもの（Ｂ６０Ｒ１／０６２が優先）［７，２００６．０１］	yieldable to excessive external force and provided with an indexed use position (B60R 1/062 takes precedence) [7, 2006.01]
+B60R   1/078  \	3	3	3D053	B60R   1/078	501	容易に取り外しできるもの；全体がまとまって外方へ移動できるように搭載されているもの，例．車両がトレーラーを牽引する時のもの［７，２００６．０１］	easily removable; mounted for bodily outward movement, e.g. when towing [7, 2006.01]
+B60R   1/08  \	2	2	3D021	B60R   1/08	24	特別な光学的特徴を含むもの，例．死角をなくすもの［１，２００６．０１］	involving special optical features, e.g. avoiding blind spots [1, 2006.01]
+B60R   1/08  A	2	0	3D021	B60R   1/08	122	床下に配置したもの	Arranged under the floor
+B60R   1/08  B	2	0	3D021	B60R   1/08	199	ボンネツト上に配置したもの	Arranged on bonnets
+B60R   1/08  C	2	0	3D021	B60R   1/08	133	屋根に配置したもの	Arranged on roofs
+B60R   1/08  P	2	0	3D021	B60R   1/08	58	ペリスコープ式	Periscope-type
+B60R   1/08  Z	2	0	3D021	B60R   1/08	932	その他のもの	Others
+B60R   1/10  \	1	1	3D021	B60R   1/10	329	前写鏡装置；展望鏡装置［１，２００６．０１］	Front-view mirror arrangements; Periscope arrangements [1, 2006.01]
+B60R   1/12  \	1	1	3D021	B60R   1/12	605	他の物品，例．時計，と組み合って鏡ユニットをなすもの［１，２００６．０１］	Mirror assemblies combined with other articles, e.g. clocks [1, 2006.01]
+B60R   1/12  A	1	0	3D021	B60R   1/12	522	照明具つき	with lighting tools
+B60R   1/12  Z	1	0	3D021	B60R   1/12	946	その他のもの	Others
+B60R   1/20  \	1	1	3D021	B60R   1/20	77	運転者又は乗員のためのリアルタイム視認装置であって撮像システム，例．車内又は車外で用いることに特に適合するカメラ又はビデオシステム，を利用するもの［２０２２．０１］	Real-time viewing arrangements for drivers or passengers using optical image capturing systems, e.g. cameras or video systems specially adapted for use in or on vehicles [2022.01]
+B60R   1/20 100 \	2	2	3D021	B60R   1/20	8747	表示に特徴があるもの	characterised by display
+B60R   1/22  \	2	2	3D021	B60R   1/22	94	車両の外，例．車両外部，を視認するためのもの［２０２２．０１］	for viewing an area outside the vehicle, e.g. the exterior of the vehicle [2022.01]
+B60R   1/23  \	3	3	3D021	B60R   1/23	106	視野が固定されているもの［２０２２．０１］	with a predetermined field of view [2022.01]
+B60R   1/24  \	4	4	3D021	B60R   1/24	5043	車両の前方を視認するためのもの［２０２２．０１］	in front of the vehicle [2022.01]
+B60R   1/25  \	4	4	3D021	B60R   1/25	3453	車両の側方を視認するためのもの［２０２２．０１］	to the sides of the vehicle [2022.01]
+B60R   1/26  \	4	4	3D021	B60R   1/26	321	車両の後方を視認するためのもの［２０２２．０１］	to the rear of the vehicle [2022.01]
+B60R   1/26 100 \	5	5	3D021	B60R   1/26	5555	車両の後部，例．トランクリッド又はリアバンパー，にカメラがあるもの	with cameras at the back part of a motor vehicle, e.g. mounted on a trunk lid or on a rear bumper
+B60R   1/26 200 \	5	5	3D021	B60R   1/26	1956	車両の側部，例．サイドドア又はフェンダーパネル，にカメラがあるもの	with cameras on the side of a motor vehicle, e.g. mounted on a side door or on a fender panel
+B60R   1/27  \	4	4	3D021	B60R   1/27	2020	車両の全周囲を見渡せるようにしたもの，例．全方位カメラを用いるもの［２０２２．０１］	providing all-round vision, e.g. using omnidirectional cameras [2022.01]
+B60R   1/28  \	3	3	3D021	B60R   1/28	12	視野が調整できるもの［２０２２．０１］	with an adjustable field of view [2022.01]
+B60R   1/28 100 \	4	4	3D021	B60R   1/28	122	視野の広狭が調整できるもの，例．焦点距離が変更できるもの	being able to adjust the field of view, e.g. able to change a focal distance
+B60R   1/28 200 \	4	4	3D021	B60R   1/28	411	視野の方向が調整できるもの	being able to change the direction of the field of view
+B60R   1/29  \	2	2	3D021	B60R   1/29	815	車両の中を視認するためのもの，例．乗員又は積荷を視認するためのもの［２０２２．０１］	for viewing an area inside the vehicle, e.g. for viewing passengers or cargo [2022.01]
+B60R   1/30  \	2	2	3D021	B60R   1/30	725	不可視光帯域の画像，例．暗視画像又は赤外画像，をもたらすもの［２０２２．０１］	providing vision in the non-visible spectrum, e.g. night or infrared vision [2022.01]
+B60R   1/31  \	2	2	3D021	B60R   1/31	49	立体視をもたらすもの［２０２２．０１］	providing stereoscopic vision [2022.01]
+B60R   3/00  \	0	0	3D022	B60R   3/00	2223	階段，例．踏板（車両の上部構造の一部として作られているものＢ６２Ｄ２５／２２）	Arrangements of steps, e.g. running-boards (constructed as superstructure sub-units of road vehicles B62D 25/22)
+B60R   3/02  \	1	1	3D022	B60R   3/02	843	伸縮自在の階段	Retractable steps
+B60R   3/04  \	1	1	3D022	B60R   3/04	58	靴の泥をこすり落せるようになっているもの	with provisions for shoe-scraping
+B60R   5/00  \	0	0	3D022	B60R   5/00	880	トランク，スーツケースまたはこれに類するもの用の，またはそれを収容できる大きさのある車両内の小室（荷物運搬車両における主として荷物積み込みを意図したものＢ６０Ｐ；予備タイヤ収納装置Ｂ６２Ｄ４３／０６）	Compartments within vehicle body primarily intended or sufficiently spacious for trunks, suit-cases, or the like (primarily intended for stowing loads in load-transporting vehicles B60P; arrangements for stowing spare wheels B62D 43/06)
+B60R   5/02  \	1	1	3D022	B60R   5/02	44	車両の前部に取付けられたもの	arranged at front of vehicle
+B60R   5/04  \	1	1	3D022	B60R   5/04	294	車両の後部に取付けられたもの	arranged at rear of vehicle
+B60R   5/04  T	1	0	3D022	B60R   5/04	1331	トノカバ−又はトノボ−ド	Tonneau covers or tonneau boards
+B60R   5/04  Z	1	0	3D022	B60R   5/04	1882	その他のもの	Others
+B60R   7/00  \	0	0	3D022	B60R   7/00	1275	スーツケースより小さい個人の所有品を主として意図した車両内部のしまい込みまたは保持用具，例．旅行用品または地図（ラジオ，テレビ，電話，またはそれに類するもの，運転中に操作するカメラの取付け，工具，またはスペアー部品Ｂ６０Ｒ１１／０２からＢ６０Ｒ１１／０６；ゴミ，食料，飲料，タバコの容器類Ｂ６０Ｎ３／００）	Stowing or holding appliances inside of vehicle primarily intended for personal property smaller than suit-cases, e.g. travelling articles, or maps (for radio sets, television sets, telephones, or the like, mounting of cameras operative during drive, tools, or spare parts B60R 11/02-B60R 11/06; for receptacles for refuse, food, beverages, cigarettes B60N 3/00)
+B60R   7/02  \	1	1	3D022	B60R   7/02	169	分れている小荷物室内にあるもの	in a separate luggage compartment
+B60R   7/04  \	1	1	3D022	B60R   7/04	250	運転手または乗客の座席内にあるもの	in driver or passenger space
+B60R   7/04  C	1	0	3D022	B60R   7/04	3148	コンソ−ルボツクス	Console boxes
+B60R   7/04  S	1	0	3D022	B60R   7/04	1612	座席に付設した物入れ	Ditty bags attached to seats
+B60R   7/04  T	1	0	3D022	B60R   7/04	873	内装トリム〔天井ライナ−，ドアトリム等〕に付設した物入れ	Ditty bags attached to interior trims (liners on ceilings, door trims and the like)
+B60R   7/04  Z	1	0	3D022	B60R   7/04	888	その他のもの	Others
+B60R   7/05  \	2	2	3D022	B60R   7/05	117	日よけ板に取付けたもの［５］	mounted on sun visor [5]
+B60R   7/06  \	2	2	3D022	B60R   7/06	201	計器板上または下に取付けるもの	mounted on or below dashboards
+B60R   7/06  G	2	0	3D022	B60R   7/06	2470	グロ−ブボツクス	Glove boxes
+B60R   7/06  Z	2	0	3D022	B60R   7/06	868	その他のもの	Others
+B60R   7/08  \	1	1	3D022	B60R   7/08	184	棚，クリップまたはそれに類するもの	Disposition of racks, clips, or the like
+B60R   7/08  R	1	0	3D022	B60R   7/08	768	リヤパ−セルシエルフ	Rear parcel shelves
+B60R   7/08  Z	1	0	3D022	B60R   7/08	745	その他のもの	Others
+B60R   7/10  \	2	2	3D022	B60R   7/10	183	帽子，衣服または衣紋掛けを支持するためのもの［５］	for supporting hats, clothes or clothes hangers [5]
+B60R   7/12  \	2	2	3D022	B60R   7/12	901	傘を支持するためのもの［５］	for supporting umbrellas [5]
+B60R   7/14  \	2	2	3D022	B60R   7/14	1	武器を支持するためのもの［５］	for supporting weapons [5]
+B60R   9/00  \	0	0	3D020	B60R   9/00	69	積荷，例．荷物，スポーツ用品または類似のものを運搬するための車両外部の補助部品［５］	Supplementary fittings on vehicle exterior for carrying loads, e.g. luggage, sports gear or the like [5]
+B60R   9/02  \	1	1	3D020	B60R   9/02	95	側面にあるもの，例．踏板上のもの	at the sides, e.g. on running-board
+B60R   9/04  \	1	1	3D020	B60R   9/04	1336	車両の屋根に関連する付属荷物台（Ｂ６０Ｒ９／０８が優先）［５］	Carriers associated with vehicle roof (B60R 9/08 takes precedence) [5]
+B60R   9/042  \	2	2	3D020	B60R   9/042	98	積荷の積込みまたは荷揚げを容易にする手段を特徴とする付属荷物台，例．ローラ，トラック，または類似のもの［５］	Carriers characterised by means to facilitate loading or unloading of the load, e.g. rollers, tracks, or the like [5]
+B60R   9/045  \	2	2	3D020	B60R   9/045	67	調節可能または変形可能な付属荷物台，例．伸長可能なもの，折りたたみ可能なもの［５］	Carriers being adjustable or transformable, e.g. expansible, collapsible [5]
+B60R   9/048  \	2	2	3D020	B60R   9/048	238	把握物品，保持物品，または固定手段物品を特徴とする付属荷物台［５］	Carriers characterised by article-gripping, -retaining, or -locking means [5]
+B60R   9/05  \	2	2	3D020	B60R   9/05	22	風偏向手段を特徴とする付属荷物台［５］	Carriers characterised by wind deflecting means [5]
+B60R   9/052  \	2	2	3D020	B60R   9/052	39	車両を横切る方向にだけ延びる細長い部材を有する付属荷物台（Ｂ６０Ｒ９／０８が優先）［５］	Carriers comprising elongate members extending only transversely of vehicle (B60R 9/08 takes precedence) [5]
+B60R   9/055  \	2	2	3D020	B60R   9/055	76	囲い型付属荷物台，例．容器，箱（Ｂ６０Ｒ９／０４８が優先）［５］	Enclosure-type carriers, e.g. containers, boxes (B60R 9/048 takes precedence) [5]
+B60R   9/058  \	2	2	3D020	B60R   9/058	100	付属荷物台と屋根間の取外し可能な取付け手段を特徴とするもの［５］	characterised by releasable attaching means between carrier and roof [5]
+B60R   9/06  \	1	1	3D020	B60R   9/06	171	車両の前後にあるもの	at vehicle front or rear
+B60R   9/08  \	1	1	3D020	B60R   9/08	161	特にスポーツ用具のために用いるもの	specially adapted for sports gear
+B60R   9/10  \	2	2	3D020	B60R   9/10	113	自転車用	for cycles
+B60R   9/12  \	2	2	3D020	B60R   9/12	533	スキー用	for skis
+B60R  11/00  \	0	0	3D020	B60R  11/00	1067	他に分類されない物品の保持または支持装置	Arrangements for holding or mounting articles, not otherwise provided for
+B60R  11/02  \	1	1	3D020	B60R  11/02	1659	ラジオ，テレビ，電話またはこれらに類するもののためのもの；それらの制御装置の配置	for radio sets, television sets, telephones, or the like; Arrangement of controls thereof
+B60R  11/02  A	1	0	3D020	B60R  11/02	1678	アンテナの取付・配置に関するもの	Concerning mounting, arrangements of antennas
+B60R  11/02  B	1	0	3D020	B60R  11/02	4460	音響機器の取付・配置に関するもの〔ヘツドホ−ンを含む〕	Concerning mounting, arrangements of acoustic instruments (including head phones)
+B60R  11/02  M	1	1	3D020	B60R  11/02	990	マイクロホンの取付・配置に関するもの	concerning mounting, arrangements of microphones
+B60R  11/02  S	1	1	3D020	B60R  11/02	3009	スピ−カ（ヘツドホンを含む）の取付・配置に関するもの	concerning mounting, arrangements of speakers (including headphones)
+B60R  11/02  W	1	1	3D020	B60R  11/02	1014	通信機器の配置に関するもの	concerning arrangements of telecommunication equipment
+B60R  11/02  C	1	0	3D020	B60R  11/02	8833	映像機器の取付・配置に関するもの	Concerning mounting, arrangements of imaging equipment
+B60R  11/02  T	1	0	3D020	B60R  11/02	970	電話機の取付・配置に関するもの	Concerning mounting, arrangements of telephone sets
+B60R  11/02  Z	1	0	3D020	B60R  11/02	1898	その他のもの	Others
+B60R  11/04  \	1	1	3D020	B60R  11/04	2504	運転中に操作するカメラの支持；車両に関連してのそれらの制御装置の配置	Mounting of cameras operative during drive; Arrangement of controls thereof relative to the vehicle
+B60R  11/06  \	1	1	3D020	B60R  11/06	843	工具またはスペア部品用（スペア車輪用Ｂ６２Ｄ４３／００）	for tools or spare parts (for spare wheels B62D 43/00)
+B60R  13/00  \	0	0	3D024	B60R  13/00	2272	車体の仕上，標識，装飾のための部材；広告目的のための配置または適用	Elements for body-finishing, identifying, or decorating; Arrangements or adaptations for advertising purposes
+B60R  13/01  \	1	1	3D023	B60R  13/01	275	荷物プラットホーム用または荷物室用ライナー［５］	Liners for load platforms or load compartments [5]
+B60R  13/02  \	1	1	3D023	B60R  13/02	199	縁を飾る金具；レッジ；ウオールライナー；ルーフライナー（Ｂ６０Ｒ１３／０１が優先）［５］	Trim mouldings; Ledges; Wall liners; Roof liners (B60R 13/01 takes precedence) [5]
+B60R  13/02  A	1	0	3D023	B60R  13/02	3113	ル−フライナ−〔天井用〕	Roof liners (for ceilings)
+B60R  13/02  B	1	0	3D023	B60R  13/02	4654	内装用トリム〔側壁用〕〔ドアトリムを含む〕	Trims for interiors (for side walls) (including door trims)
+B60R  13/02  C	1	0	3D023	B60R  13/02	1399	ピラ−トリム〔ピラ−用〕	Pillar trims (for pillars)
+B60R  13/02  Z	1	0	3D023	B60R  13/02	2648	その他のもの	Others
+B60R  13/04  \	1	1	3D023	B60R  13/04	432	装飾用または危険防止；装飾用の刻銘	Ornamental or guard strips; Ornamental inscriptive devices
+B60R  13/04  A	1	0	3D023	B60R  13/04	3234	サイドモ−ル，バンパモ−ル，ル−フモ−ル	Side mould, bumper mould, roof mould
+B60R  13/04  B	1	0	3D023	B60R  13/04	1156	縁飾り〔フ−ドモ−ル，Ｂ６２Ｄ２５／１２；フエンダモ−ル，Ｂ６２Ｄ２５／１８〕	Purfles (for hood mould, B62D25/12; for fender mould, B62D25/18)
+B60R  13/04  C	1	0	3D023	B60R  13/04	186	縁飾り等の芯材	Core materials for purfles
+B60R  13/04  Z	1	0	3D023	B60R  13/04	1976	その他のもの	Others
+B60R  13/06  \	1	1	3D201	B60R  13/06	5001	防水線条	Sealing strips
+B60R  13/07  \	1	1	3D024	B60R  13/07	676	屋根構造物と一体でない排水または案内装置（Ｂ６０Ｒ１３／０６が優先，ボンネットまたはリッドのウオーターデフレクタＢ６２Ｄ２５／１３）［４］	Water drainage or guide means not integral with roof structure (B60R 13/06 takes precedence; water deflectors for bonnets or lids B62D 25/13) [4]
+B60R  13/08  \	1	1	3D023	B60R  13/08	4318	隔離部材，例．遮音のためのもの［４］	Insulating elements, e.g. for sound insulation [4]
+B60R  13/10  \	1	1	3D024	B60R  13/10	1134	登録標識，免許表示またはそれに類する装置	Registration, licensing, or like devices
+B60R  15/00  \	0	0	3D024	B60R  15/00	201	衛生装置の配置または適用	Arrangements or adaptations of sanitation devices
+B60R  15/02  \	1	1	3D024	B60R  15/02	43	洗面設備	Washing facilities
+B60R  15/04  \	1	1	3D024	B60R  15/04	189	トイレット設備	Toilet facilities
+B60R  16/00  \	0	0	3D015	B60R  16/00	95	電気回路または流体回路で，特に車両に適用されるものであって，他に分類されないもの；電気回路または流体回路の要素の配置で，特に車両に適用されるものであって，他に分類されないもの［３］	Electric or fluid circuits specially adapted for vehicles and not otherwise provided for elsewhere; Arrangement of elements of electric or fluid circuits specially adapted for vehicles and not otherwise provided for elsewhere [3]
+B60R  16/02  \	1	1	3D015	B60R  16/02	564	電気によるもの［３］	electric [3]
+B60R  16/02 610 \	2	2	3D015	B60R  16/02	32	電装品の取付，配置または収納に関するもの	concerning mounting, arrangement, storage of electric equipment
+B60R  16/02 610 A	2	0	3D015	B60R  16/02	2376	電装品の収納容器に関するもの（車載機器の収納容器Ｂ６０Ｒ１１／０２）	Concerning storage vessels of electric equipment (for storage vessels for equipment loaded in vehicles, B60R11/02)
+B60R  16/02 610 B	2	1	3D015	B60R  16/02	1076	収納容器の防水に関するもの	concerning waterproof for storage vessels
+B60R  16/02 610 C	2	1	3D015	B60R  16/02	337	収納容器の通気に関するもの	concerning ventilation for storage vessels
+B60R  16/02 610 D	2	1	3D015	B60R  16/02	485	断熱または吸熱を考慮した収納容器	Storage vessels considering heat-insulation, or endothermy
+B60R  16/02 610 J	2	0	3D015	B60R  16/02	747	電装品の取り付け用ブラケットに関するもの（車載機器の取り付け用ブラケットＢ６０Ｒ１１／０２）	Concerning brackets for mounting electric equipment (for brackets for mounting equipment in vehicles, B60R11/02)
+B60R  16/02 610 Z	2	0	3D015	B60R  16/02	508	その他のもの	Others
+B60R  16/02 620 \	2	2	3D015	B60R  16/02	9	ワイヤハーネスに特徴あるもの	characterised by wire harnesses
+B60R  16/02 620 A	2	0	3D015	B60R  16/02	1055	フロアに配線したワイヤハーネス	Wire harnesses wired on floors
+B60R  16/02 620 B	2	0	3D015	B60R  16/02	452	計器板に配線したワイヤハーネス	Wire harnesses wired on instrument panels
+B60R  16/02 620 C	2	0	3D015	B60R  16/02	1692	ドアに配線したワイヤハーネス	Wire harnesses wired on doors
+B60R  16/02 620 J	2	0	3D015	B60R  16/02	584	組電線にしたワイヤハーネス	Wire harnesses as raddled wires
+B60R  16/02 620 P	2	0	3D015	B60R  16/02	55	光ファイバを用いたワイヤハーネス	Wire harnesses using optic fibers
+B60R  16/02 620 S	2	0	3D015	B60R  16/02	579	ワイヤハーネスのワイヤリングシステムに関するもの	Concerning wiring systems of wire harnesses
+B60R  16/02 620 Z	2	0	3D015	B60R  16/02	1788	その他のもの	Others
+B60R  16/02 621 \	3	3	3D015	B60R  16/02	5	ワイヤハーネスのコネクタに関するもの	concerning connectors of wire harnesses
+B60R  16/02 621 A	3	0	3D015	B60R  16/02	321	車体取付部を有するコネクタ	Connectors with mounting parts on vehicles
+B60R  16/02 621 B	3	1	3D015	B60R  16/02	132	接触型の車体取付部を有するコネクタ	Connectors with contact-type mounting parts on vehicles
+B60R  16/02 621 C	3	1	3D015	B60R  16/02	767	差し込み型の車体取付部を有するコネクタ	Connectors with plug-type mounting parts on vehicles
+B60R  16/02 621 D	3	1	3D015	B60R  16/02	83	オプシヨン部品用の車体取付部を有するコネクタ	Connectors with  mounting parts on vehicles for optional components
+B60R  16/02 621 J	3	0	3D015	B60R  16/02	576	機能を組み込んだコネクタ	Connectors with integrated functions
+B60R  16/02 621 Z	3	0	3D015	B60R  16/02	467	その他のもの	Others
+B60R  16/02 622 \	3	3	3D015	B60R  16/02	1682	ワイヤハーネスのグロメットに関するもの	concerning grommets for wire harnesses
+B60R  16/02 623 \	3	3	3D015	B60R  16/02	43	ワイヤハーネスのクランプまたはプロテクタに関するもの	concerning clamps or protectors for wire harnesses
+B60R  16/02 623 A	3	0	3D015	B60R  16/02	398	別体の車体取付部を有するクランプに関するもの	Concerning clamps with separate mounting parts on vehicles
+B60R  16/02 623 B	3	1	3D015	B60R  16/02	160	スナップ型のクランプ	Snap-type clamps
+B60R  16/02 623 C	3	2	3D015	B60R  16/02	434	開閉型のスナップを持つもの	having snaps of open-and-shut type
+B60R  16/02 623 D	3	2	3D015	B60R  16/02	909	狭持型のスナップを持つもの	having snaps of gripping type
+B60R  16/02 623 H	3	1	3D015	B60R  16/02	439	２以上の部材からなるクランプ	Clamps comprising two or more elements
+B60R  16/02 623 P	3	0	3D015	B60R  16/02	189	車体構成部材に一体に形成された取付部を有するもの	Having mounting parts formed integratedly on elements constructing vehicle bodies
+B60R  16/02 623 Q	3	1	3D015	B60R  16/02	59	車体に溶着または接着，例．溶接，により固着されたもの	fixed on vehicle bodies by means of welding, adhesion
+B60R  16/02 623 T	3	0	3D015	B60R  16/02	1114	プロテクタに関するもの	Concerning protectors
+B60R  16/02 623 U	3	1	3D015	B60R  16/02	1589	チューブ型のプロテクタ	Tube-type protectors
+B60R  16/02 623 V	3	1	3D015	B60R  16/02	551	ワイヤハーネスクランプを有するプロテクタ	Protectors with wire-harness clamps
+B60R  16/02 623 Z	3	0	3D015	B60R  16/02	329	その他のもの	Others
+B60R  16/02 630 \	2	2	3D015	B60R  16/02	7	スイッチに特徴あるもの	characterised by switches
+B60R  16/02 630 A	2	0	3D015	B60R  16/02	407	計器板に取り付けたスイッチに関するもの	Concerning switches mounted on instrument panels
+B60R  16/02 630 B	2	0	3D015	B60R  16/02	629	ハンドルポストに取り付けたスイッチに関するもの	Concerning switches mounted on handle posts
+B60R  16/02 630 J	2	0	3D015	B60R  16/02	895	多機能型のスイッチに関するもの	Concerning switches of multi-function type
+B60R  16/02 630 K	2	1	3D015	B60R  16/02	557	レバー型のスイッチに関するもの	concerning switches of lever type
+B60R  16/02 630 L	2	1	3D015	B60R  16/02	1229	パネル表示型のスイッチに関するもの	concerning switches of panel-indicating type
+B60R  16/02 630 P	2	0	3D015	B60R  16/02	160	格納型のスイッチに関するもの	Concerning switches of storage type
+B60R  16/02 630 Q	2	0	3D015	B60R  16/02	132	位置調節型のスイッチに関するもの	Concerning switches of position-adjusting type
+B60R  16/02 630 R	2	0	3D015	B60R  16/02	94	着脱型のスイッチに関するもの	Concerning switches which can be attached or removed
+B60R  16/02 630 Z	2	0	3D015	B60R  16/02	1182	その他のもの	Others
+B60R  16/02 635 \	2	2	3D015	B60R  16/02	488	ヒューズに関するもの	concerning fuses
+B60R  16/02 640 \	2	2	3D015	B60R  16/02	22	計器に関するもの	concerning instruments
+B60R  16/02 640 A	2	0	3D015	B60R  16/02	149	時計に関するもの	Concerning clocks
+B60R  16/02 640 D	2	0	3D015	B60R  16/02	218	燃料計に関するもの	Concerning fuel gauges
+B60R  16/02 640 J	2	0	3D015	B60R  16/02	653	走行案内装置，すなわちナビゲーションシステム（ディスプレイの支持装置はＢ６０Ｒ１１／０２Ｃ）	Guiding devices for running, i. e. navigation systems (supporting device for display B60R11/02C)
+B60R  16/02 640 K	2	1	3D015	B60R  16/02	2081	車両情報の表示機能を有するもの	having indicating functions of information on vehicles
+B60R  16/02 640 Z	2	0	3D015	B60R  16/02	752	その他のもの	Others
+B60R  16/02 645 \	2	2	3D015	B60R  16/02	6	電装品の給電制御に関するもの	concerning feeding control for electric equipment
+B60R  16/02 645 A	2	0	3D015	B60R  16/02	753	スイッチ回路に関するもの	Concerning switching circuits
+B60R  16/02 645 B	2	1	3D015	B60R  16/02	76	補助スイッチを有する回路に関するもの	concerning circuits with auxiliary switches
+B60R  16/02 645 C	2	1	3D015	B60R  16/02	517	切換スイッチを有する回路に関するもの	concerning circuits with changing-over switches
+B60R  16/02 645 D	2	1	3D015	B60R  16/02	817	リレーを有する回路に関するもの	concerning circuits with relays
+B60R  16/02 645 Z	2	0	3D015	B60R  16/02	732	その他のもの	Others
+B60R  16/02 650 \	2	2	3D015	B60R  16/02	4	安全または警報に関するもの	concerning safety or alarms
+B60R  16/02 650 A	2	0	3D015	B60R  16/02	639	警報回路に関するもの	Concerning alarm circuits
+B60R  16/02 650 C	2	1	3D015	B60R  16/02	568	音声警報に関するもの	concerning voice alarms
+B60R  16/02 650 D	2	1	3D015	B60R  16/02	616	画面表示警報に関するもの	concerning alarms displayed on screens
+B60R  16/02 650 J	2	0	3D015	B60R  16/02	2596	故障診断または管理に関するもの	Concerning examination for breakdowns or management
+B60R  16/02 650 P	2	0	3D015	B60R  16/02	232	電装品の破損防止に関するもの	Concerning damage prevention of electric equipment
+B60R  16/02 650 Q	2	1	3D015	B60R  16/02	40	過負荷検出に関するもの	concerning detection of overload
+B60R  16/02 650 R	2	1	3D015	B60R  16/02	244	短絡検出に関するもの	concerning detection of short circuit
+B60R  16/02 650 S	2	1	3D015	B60R  16/02	325	過電流または過電圧の検出に関するもの	concerning detection of overcurrent or overvoltage
+B60R  16/02 650 U	2	0	3D015	B60R  16/02	267	電装品の誤動作防止に関するもの	Concerning prevention of malfunctions of electric equipment
+B60R  16/02 650 V	2	0	3D015	B60R  16/02	187	サーキットブレーカに関するもの	Concerning circuit breakers
+B60R  16/02 650 W	2	0	3D015	B60R  16/02	53	負荷回路の切り忘れ防止に関するもの	Concerning prevention of forgetting to turn off loading circuits
+B60R  16/02 650 X	2	0	3D015	B60R  16/02	106	火炎防止に関するもの	Concerning fire prevention
+B60R  16/02 650 Y	2	0	3D015	B60R  16/02	346	アースに関するもの	Concerning earthing
+B60R  16/02 650 Z	2	0	3D015	B60R  16/02	486	その他のもの	Others
+B60R  16/02 655 \	2	2	3D015	B60R  16/02	8	音声入力制御に関するもの	concerning voice-input control
+B60R  16/02 655 A	2	0	3D015	B60R  16/02	334	音声の認識に関するもの	Concerning voice recognition
+B60R  16/02 655 B	2	1	3D015	B60R  16/02	148	音声パターンの比較に関するもの	concerning comparison of voice patterns
+B60R  16/02 655 C	2	1	3D015	B60R  16/02	34	一括音声命令の認識に関するもの	concerning recognition of lump voice orders
+B60R  16/02 655 J	2	1	3D015	B60R  16/02	39	運転者以外の音声の認識に関するもの	concerning recognition of voices of other than drivers
+B60R  16/02 655 K	2	0	3D015	B60R  16/02	114	誤認識の防止に関するもの	Concerning prevention of false recognition
+B60R  16/02 655 P	2	1	3D015	B60R  16/02	71	騒音検出に関するもの	concerning detection of noise
+B60R  16/02 655 R	2	0	3D015	B60R  16/02	111	制御する負荷の音声のよる報知に関するもの	Concerning informing about loads to be controlled by voices
+B60R  16/02 655 T	2	0	3D015	B60R  16/02	88	入力スイッチに関するもの	Concerning power-input switches
+B60R  16/02 655 V	2	0	3D015	B60R  16/02	81	マイクの配置に関するもの	Concerning arrangements of microphones
+B60R  16/02 655 Z	2	0	3D015	B60R  16/02	100	その他のもの	Others
+B60R  16/02 660 \	2	2	3D015	B60R  16/02	11	コンピュータ制御に関するもの	concerning control by computers
+B60R  16/02 660 A	2	0	3D015	B60R  16/02	376	車両負荷の制御に関するもの	Concerning control of vehicle loads
+B60R  16/02 660 B	2	1	3D015	B60R  16/02	1539	複数の負荷の制御に関するもの	concerning control of plural loads
+B60R  16/02 660 D	2	1	3D015	B60R  16/02	296	車両負荷の故障検知の関するもの	concerning detection of breakdown of vehicle loads
+B60R  16/02 660 E	2	2	3D015	B60R  16/02	39	過負荷の検知に関するもの	concerning detection of overload
+B60R  16/02 660 F	2	1	3D015	B60R  16/02	615	走行状況，例．トンネルの走行または高速走行，の検知に関するもの	concerning detection of running circumstances, e.g. running through tunnels or  on highways
+B60R  16/02 660 G	2	0	3D015	B60R  16/02	463	車両負荷制御用マルチコンピュータに関するもの	Concerning multi-computers for controlling vehicle loads
+B60R  16/02 660 H	2	1	3D015	B60R  16/02	365	複数のコンピュータが主従関係にあるもの	with plural computers working either as masters or slaves
+B60R  16/02 660 J	2	2	3D015	B60R  16/02	79	１つはバックアップ用コンピュータであるもの	with one of them being a back-up computer
+B60R  16/02 660 K	2	0	3D015	B60R  16/02	101	コンピュータ用電源に関するもの	Concerning power source for computers
+B60R  16/02 660 L	2	1	3D015	B60R  16/02	95	コンピュータのバックアップ用電源に関するもの	concerning back-up power source for computers
+B60R  16/02 660 M	2	1	3D015	B60R  16/02	175	コンピュータ電源電圧の監視に関するもの	concerning monitor of voltage of computer power source
+B60R  16/02 660 N	2	1	3D015	B60R  16/02	351	コンピュータの節電に関するもの	concerning saving electricity for computers
+B60R  16/02 660 P	2	1	3D015	B60R  16/02	42	電源の瞬断の記憶に関するもの	concerning remembering instant shut-off of power source
+B60R  16/02 660 Q	2	0	3D015	B60R  16/02	322	コンピュータの誤作動防止に関するもの	Concerning prevention of computer malfunction
+B60R  16/02 660 R	2	1	3D015	B60R  16/02	124	プログラム暴走検知に関するもの	concerning detection of programmes going out of control
+B60R  16/02 660 S	2	1	3D015	B60R  16/02	68	電波障害に関するもの	concerning electric-wave interference
+B60R  16/02 660 T	2	0	3D015	B60R  16/02	448	車両負荷制御用プログラムに関するもの	Concerning programmes for controlling vehicle loads
+B60R  16/02 660 U	2	1	3D015	B60R  16/02	1508	プログラム内容の変更に関するもの	concerning changes of programme contents
+B60R  16/02 660 V	2	2	3D015	B60R  16/02	99	外部ＲＯＭの接続によるプログラム内容の変更	changes of programme contents by connecting to external ROMs
+B60R  16/02 660 W	2	1	3D015	B60R  16/02	179	プログラム内容のチェックに関するもの	concerning checks on programme contents
+B60R  16/02 660 X	2	1	3D015	B60R  16/02	266	優先処理または割り込み処理に関するもの	concerning priority processing or interruption processing
+B60R  16/02 660 Z	2	0	3D015	B60R  16/02	342	その他のもの	Others
+B60R  16/02 680 \	2	2	3D015	B60R  16/02	235	ワンマンバスに関するもの	concerning one-man buses
+B60R  16/023  \	2	2	3D015	B60R  16/023	14	車両部品またはサブシステム間での信号伝達のためのもの［８］	for transmission of signals between vehicle parts or subsystems [8]
+B60R  16/023  A	2	0	3D015	B60R  16/023	67	光通信による多重化によるもの	by multiplexing through optical communications
+B60R  16/023  B	2	1	3D015	B60R  16/023	27	周波数分割による多重化	multiplexing by frequency division
+B60R  16/023  C	2	1	3D015	B60R  16/023	80	時分割による多重化	multiplexing by time division
+B60R  16/023  J	2	0	3D015	B60R  16/023	118	周波数分割による多重化（Ｂ６０Ｒ１６／０２３Ｂが優先）	Multiplexing by frequency division (B60R16/023B takes precedence)
+B60R  16/023  P	2	0	3D015	B60R  16/023	2323	時分割による多重化（Ｂ６０Ｒ１６／０２３Ｃが優先）	Multiplexing by time division (B60R16/023C takes precedence)
+B60R  16/023  Z	2	0	3D015	B60R  16/023	1250	その他のもの	Others
+B60R  16/027  \	3	3	3D015	B60R  16/027	2	当該車両の相対的に可動な部品間におけるもの，例．ステアリングホイールとコラム間におけるもの［８］	between relatively movable parts of the vehicle, e.g. between steering wheel and column [8]
+B60R  16/027  A	3	0	3D015	B60R  16/027	118	ステアリングホイールにおけるパッド静止保持機構に関するもの	related to mechanism maintaining resting position of pad in steering  wheel
+B60R  16/027  B	3	1	3D015	B60R  16/027	33	カム機構によるパッド静止保持機構	Mechanisms for stationary-retaining of pads by cams
+B60R  16/027  C	3	1	3D015	B60R  16/027	234	遊星歯車機構によるパッド静止保持機構	Mechanisms for stationary-retaining of pads by planetary gears
+B60R  16/027  J	3	0	3D015	B60R  16/027	102	ステアリングホイールにおける信号伝達に関するもの	related to mechanism maintaining resting position of pad in steering  wheel
+B60R  16/027  K	3	1	3D015	B60R  16/027	23	光信号によるもの	by optical signals
+B60R  16/027  L	3	2	3D015	B60R  16/027	40	多重化による信号伝達	signal transmission by multiplexing
+B60R  16/027  M	3	2	3D015	B60R  16/027	69	光電リングなどの導光体に関するもの	concerning light-guiding bodies such as photoelectric rings
+B60R  16/027  N	3	2	3D015	B60R  16/027	33	光スイッチに関するもの	concerning optical switches
+B60R  16/027  P	3	2	3D015	B60R  16/027	132	受光器または発光器の配置に関するもの	concerning arrangement for light-emitting or light-receiving devices
+B60R  16/027  Q	3	1	3D015	B60R  16/027	360	通電機構に関するもの	concerning current-carrying mechanisms
+B60R  16/027  R	3	2	3D015	B60R  16/027	342	スリップリングに関するもの	concerning slip rings
+B60R  16/027  S	3	2	3D015	B60R  16/027	902	ケーブルに関するもの	concerning cables
+B60R  16/027  T	3	0	3D015	B60R  16/027	1397	スイッチまたは計器の配置に関するもの	concerning arrangement for switches, instruments
+B60R  16/027  Z	3	0	3D015	B60R  16/027	131	その他のもの	Others
+B60R  16/03  \	2	2	3D015	B60R  16/03	6	車両のサブシステムへの電力の供給のためのもの［８］	for supply of electrical power to vehicle subsystems [8]
+B60R  16/03  A	2	0	3D015	B60R  16/03	740	複数の電源を有するもの	Having plural power sources
+B60R  16/03  J	2	0	3D015	B60R  16/03	340	発電回路に関するもの	Concerning power generation circuits
+B60R  16/03  K	2	1	3D015	B60R  16/03	421	オルタネータに関するもの	concerning alternators
+B60R  16/03  S	2	0	3D015	B60R  16/03	668	電源電圧の調整に関するもの	Concerning adjustments of voltage of power sources
+B60R  16/03  T	2	1	3D015	B60R  16/03	223	定電圧に関するもの	concerning constant voltage
+B60R  16/03  V	2	0	3D015	B60R  16/03	313	外部電源の接続に関するもの	Concerning connexion of outer power sources
+B60R  16/03  Z	2	0	3D015	B60R  16/03	521	その他のもの	Others
+B60R  16/033  \	3	3	3D015	B60R  16/033	4	電池の使用に特徴のあるもの［８］	characterised by use of cell
+B60R  16/033  B	3	0	3D015	B60R  16/033	770	電源の切換に関するもの	concerning switching of power sources
+B60R  16/033  C	3	0	3D015	B60R  16/033	721	補助電源に関するもの	concerning auxiliary power sources
+B60R  16/033  D	3	0	3D015	B60R  16/033	338	充電用電源に関するもの	concerning power sources for charging
+B60R  16/033  P	3	0	3D015	B60R  16/033	540	過放電防止に関するもの	Concerning prevention of over discharge
+B60R  16/033  Q	3	1	3D015	B60R  16/033	144	タイマーを組み込んだもの	incorporate timer
+B60R  16/033  Z	3	0	3D015	B60R  16/033	463	その他のもの	Others
+B60R  16/037  \	2	2	3D015	B60R  16/037	819	乗員の快適性のためのもの［８］	for occupant comfort [8]
+B60R  16/04  \	2	2	3D015	B60R  16/04	1547	バッテリーの配置［３，６，８］	arrangement of batteries [3, 6, 8]
+B60R  16/04  A	2	0	3D015	B60R  16/04	257	車両用バッテリーの配置または取付に関するもの	Concerning arrangements or mounting of vehicle batteries
+B60R  16/04  B	2	1	3D015	B60R  16/04	382	バッテリーの収納ケースに関するもの	concerning storage cases for batteries
+B60R  16/04  C	2	1	3D015	B60R  16/04	184	車両用バッテリーの支持台に関するもの	concerning supporting tables for vehicle batteries
+B60R  16/04  D	2	2	3D015	B60R  16/04	573	支持台の車体への取付に関するもの	concerning mounting of supporting tables on vehicle bodies
+B60R  16/04  E	2	2	3D015	B60R  16/04	525	車両用バッテリーの保持部材に関するもの	concerning supporting elements for vehicle batteries
+B60R  16/04  F	2	3	3D015	B60R  16/04	106	可撓性保持部材に関するもの	concerning flexible supporting elements
+B60R  16/04  G	2	3	3D015	B60R  16/04	42	大きさの異なるバッテリー支持台に関するもの	concerning battery-supporting tables of different sizes
+B60R  16/04  H	2	3	3D015	B60R  16/04	82	複数のバッテリーを支持する支持台に関するもの	concerning plural battery-supporting tables
+B60R  16/04  J	2	1	3D015	B60R  16/04	251	車両用バッテリーのカバーに関するもの	concerning covers for vehicle batteries
+B60R  16/04  K	2	1	3D015	B60R  16/04	102	車両用バッテリーの交換を考慮したもの	considering exchanges for vehicle batteries
+B60R  16/04  L	2	2	3D015	B60R  16/04	153	引出し型のもの	of pulling-out type
+B60R  16/04  M	2	2	3D015	B60R  16/04	128	持ち上げ型のもの	of lifting type
+B60R  16/04  S	2	1	3D015	B60R  16/04	808	車両用バッテリーの充電に関するもの	Concerning charging for vehicle batteries
+B60R  16/04  T	2	1	3D015	B60R  16/04	191	バッテリーケーブルに関するもの	Concerning battery cables
+B60R  16/04  U	2	1	3D015	B60R  16/04	187	車両用太陽電池に関するもの	Concerning solar batteries for vehicles
+B60R  16/04  V	2	2	3D015	B60R  16/04	215	太陽電池を充電用電源として用いるもの	using solar batteries as power sources for charging
+B60R  16/04  W	2	1	3D015	B60R  16/04	1579	バッテリーのチェックに関するもの	Concerning battery check
+B60R  16/04  X	2	1	3D015	B60R  16/04	240	車外機器用コンセントの電源に関するもの	Concerning power sources for outlets for instruments outside of vehicles
+B60R  16/04  Y	2	1	3D015	B60R  16/04	230	車両用バッテリーの保温または断熱に関するもの	Concerning heat-retention or heat-insulation for vehicle batteries
+B60R  16/04  Z	2	0	3D015	B60R  16/04	244	その他のもの	Others
+B60R  16/06  \	2	2	3D015	B60R  16/06	344	静電荷を除去するためのもの［３］	for carrying-off electrostatic charges [3]
+B60R  16/06  A	2	0	3D015	B60R  16/06	148	車体に取り付ける接地部材に関するもの	Concerning earthing elements mounted on vehicle bodies
+B60R  16/06  B	2	1	3D015	B60R  16/06	35	接地部材がベルトであるもの	with earthing elements being belts
+B60R  16/06  C	2	1	3D015	B60R  16/06	37	接地部材がチェーンであるもの	with earthing elements being chains
+B60R  16/06  J	2	0	3D015	B60R  16/06	41	タンクローリー用の静電化除去に関するもの	Concerning carrying-off electrostatic charges for tank lorries
+B60R  16/06  P	2	0	3D015	B60R  16/06	165	車両内装部材用の静電化除去に関するもの	Concerning carrying-off electrostatic charges for interior elements for vehicles
+B60R  16/06  Z	2	0	3D015	B60R  16/06	141	その他のもの	Others
+B60R  16/08  \	1	1	3D015	B60R  16/08	894	流体によるもの［３］	fluid [3]
+B60R  16/08  A	1	0	3D015	B60R  16/08	49	複数の補機類の制御に関するもの	Concerning control of plural auxiliary machines
+B60R  16/08  B	1	1	3D015	B60R  16/08	209	単一のポンプによる制御に関するもの	concerning control by single pump
+B60R  16/08  C	1	1	3D015	B60R  16/08	99	複数のポンプによる制御に関するもの	concerning control by plural pumps
+B60R  16/08  D	1	1	3D015	B60R  16/08	251	切り換え弁による制御に関するもの	concerning control by diverter valves
+B60R  16/08  E	1	1	3D015	B60R  16/08	81	油圧の監視に関するもの	concerning monitor of hydraulic pressure
+B60R  16/08  J	1	0	3D015	B60R  16/08	151	車体への配管に関するもの	Concerning pipe arrangements on vehicle bodies
+B60R  16/08  K	1	1	3D015	B60R  16/08	295	配管方法に関するもの	concerning pipe arrangement means
+B60R  16/08  L	1	1	3D015	B60R  16/08	193	配管用取付具に関するもの	concerning mounting tools for pipe arrangements
+B60R  16/08  M	1	2	3D015	B60R  16/08	218	クリップまたはクランプによる配管用取付具	Mounting tools for pipe arrangements by clipping or clamping
+B60R  16/08  P	1	0	3D015	B60R  16/08	140	オイルタンクに関するもの	Concerning oil tanks
+B60R  16/08  Z	1	0	3D015	B60R  16/08	149	その他のもの	Others
+B60R  17/00  \	0	0	3D015	B60R  17/00	245	潤滑方式または装置の配置または適用	Arrangements or adaptations of lubricating systems or devices
+B60R  17/00  A	0	0	3D015	B60R  17/00	111	自動給油装置に関するもの	Concerning automatic oil-feeding devices
+B60R  17/00  B	0	1	3D015	B60R  17/00	28	補機操作用アクチユエ−タと連動するもの	interlocking with actuators for operating auxiliary machines
+B60R  17/00  Z	0	0	3D015	B60R  17/00	119	その他のもの	Others
+B60R  17/02  \	1	1	3D015	B60R  17/02	28	方式，例．中央集中潤滑方式	Systems, e.g. central lubrication systems
+B60R  19/00  \	0	0	3D016	B60R  19/00	133	ホイールガード；ラジエターガード；障害物除去装置；衝突時の緩衝装置（どろ除けＢ６２Ｄ２５／１６）	Wheel guards; Radiator guards; Obstruction removers; Fittings damping bouncing force in collisions (mudguards B62D 25/16)
+B60R  19/02  \	1	1	3D016	B60R  19/02	12	バンパー，すなわち．車両を保護しまたは他の車両または物体からの打撃を防ぐため，衝撃を受け止めまたは吸収する部材（船舶に取り付けられた，またはそれに特に適したものＢ６３Ｂ５９／０２）［４］	Bumpers, i.e. impact receiving or absorbing members for protecting vehicles or fending off blows from other vehicles or objects (integral with waterborne vessels or specially adapted therefor B63B 59/02) [4]
+B60R  19/02  B	1	0	3D016	B60R  19/02	20	農業又は建設機械用バンパ	Bumpers for agricultural or construction machines
+B60R  19/02  C	1	1	3D016	B60R  19/02	138	農業機械用	for agricultural machines
+B60R  19/02  D	1	1	3D016	B60R  19/02	40	建設機械用	for construction machines
+B60R  19/02  E	1	2	3D016	B60R  19/02	21	バランスウエイトと兼用するもの	used also as counterweights
+B60R  19/02  F	1	0	3D016	B60R  19/02	90	バンパ一般	Bumpers in general
+B60R  19/02  G	1	1	3D016	B60R  19/02	78	車体との間隙を塞ぐもの	filling in gaps with vehicle bodies
+B60R  19/02  H	1	2	3D016	B60R  19/02	71	バンパ本体と別体のもの	separated from bumpers per se
+B60R  19/02  Z	1	0	3D016	B60R  19/02	281	その他のもの	Others
+B60R  19/03  \	2	2	3D016	B60R  19/03	41	材料に特徴があるもの，例．複合物（Ｂ６０Ｒ１９／１８が優先）［４］	characterised by material, e.g. composite (B60R 19/18 takes precedence) [4]
+B60R  19/03  A	2	0	3D016	B60R  19/03	200	材料に特徴があるバンパ	Bumpers characterised by materials
+B60R  19/03  B	2	1	3D016	B60R  19/03	204	金属製バンパ	Metal bumpers
+B60R  19/03  C	2	1	3D016	B60R  19/03	611	合成樹脂製バンパ	Plastic bumpers
+B60R  19/03  D	2	2	3D016	B60R  19/03	115	中空のもの	of being hollow
+B60R  19/03  E	2	2	3D016	B60R  19/03	125	補強されたもの	of being reinforced
+B60R  19/03  Z	2	0	3D016	B60R  19/03	48	その他のもの	Others
+B60R  19/04  \	2	2	3D016	B60R  19/04	709	２部品以上のものから形成されるもの（Ｂ６０Ｒ１９／１８が優先）［４］	formed from more than one section (B60R 19/18 takes precedence) [4]
+B60R  19/04  A	2	0	3D016	B60R  19/04	155	２部品以上から形成されるもの	Formed from more than one section
+B60R  19/04  B	2	1	3D016	B60R  19/04	186	バンパ表皮と補強部材との結合	connexion of bumper skins and reinforcing members
+B60R  19/04  C	2	2	3D016	B60R  19/04	38	スナツプ結合	snapping connexion
+B60R  19/04  D	2	2	3D016	B60R  19/04	102	クリツプ結合	clipping connexion
+B60R  19/04  E	2	2	3D016	B60R  19/04	252	ボルト・ナツト結合	bolt-and-nut connexion
+B60R  19/04  F	2	1	3D016	B60R  19/04	96	バンパ表皮とバンパモ−ルとの結合	connexion of bumper skins and bumper moulds
+B60R  19/04  G	2	2	3D016	B60R  19/04	40	スナツプ結合	snapping connexion
+B60R  19/04  H	2	2	3D016	B60R  19/04	75	クリツプ結合	clipping connexion
+B60R  19/04  J	2	2	3D016	B60R  19/04	43	ボルト・ナツト結合	bolt-and-nut connexion
+B60R  19/04  K	2	1	3D016	B60R  19/04	189	バンパ表皮	bumper skins
+B60R  19/04  L	2	2	3D016	B60R  19/04	204	複数の分割体から構成されたもの	constituted by plural separate bodies
+B60R  19/04  M	2	1	3D016	B60R  19/04	1202	バンパの補強部材	reinforcing members for bumpers
+B60R  19/04  N	2	2	3D016	B60R  19/04	133	ＦＲＰ製	made of fibre-reinforced plastics
+B60R  19/04  Z	2	0	3D016	B60R  19/04	39	その他のもの	Others
+B60R  19/12  \	3	3	3D016	B60R  19/12	220	垂直方向に隔置されるもの［４］	vertically spaced [4]
+B60R  19/14  \	3	3	3D016	B60R  19/14	25	折りたたみ部片を有するもの［４］	having folding parts [4]
+B60R  19/16  \	3	3	3D016	B60R  19/16	166	そらせ部材をもつもの，例．ローラ，ボール［４］	having deflecting members, e.g. rollers, balls [4]
+B60R  19/18  \	2	2	3D016	B60R  19/18	17	バンパー内に設けられた衝撃吸収装置［４］	Means within the bumper to absorb impact [4]
+B60R  19/18  A	2	0	3D016	B60R  19/18	490	バンパ内に設けられた衝撃吸収装置	Means within the bumper to absorb impact
+B60R  19/18  B	2	1	3D016	B60R  19/18	64	バンパと一体に構成されたもの	formed integratedly with bumpers
+B60R  19/18  C	2	2	3D016	B60R  19/18	112	バンパ表皮と一体のもの	integrated with bumper skins
+B60R  19/18  D	2	3	3D016	B60R  19/18	167	リブを形成したもの	forming ribs
+B60R  19/18  E	2	4	3D016	B60R  19/18	37	格子状リブを形成したもの	forming lattice-like ribs
+B60R  19/18  F	2	3	3D016	B60R  19/18	41	補強部材との結合部	connected part with reinforcing members
+B60R  19/18  G	2	2	3D016	B60R  19/18	139	補強部材と一体に形成されたもの	formed integratedly with reinforcing members
+B60R  19/18  H	2	2	3D016	B60R  19/18	96	バンパ表皮と補強部材間に形成された中空部	hollow part formed between bumper skins and reinforcing members
+B60R  19/18  J	2	1	3D016	B60R  19/18	280	バンパと別体に構成されたもの	constituted separately of bumpers
+B60R  19/18  K	2	2	3D016	B60R  19/18	77	格子状の構造体	Lattice-like structures
+B60R  19/18  L	2	3	3D016	B60R  19/18	104	衝突方向に開口したもの	opened toward direction of impact
+B60R  19/18  M	2	2	3D016	B60R  19/18	212	補強部材への取付構造	structure for mounting on reinforced members
+B60R  19/18  N	2	2	3D016	B60R  19/18	137	組成に特徴のあるもの	characterised by composition
+B60R  19/18  P	2	2	3D016	B60R  19/18	691	形状に特徴のあるもの	characterised by shape
+B60R  19/18  Q	2	1	3D016	B60R  19/18	151	バンパ中央部の衝撃吸収装置	Shock-absorbing devices in the centre of bumpers
+B60R  19/18  R	2	1	3D016	B60R  19/18	119	バンパコ−ナ部の衝撃吸収装置	Shock-absorbing devices on the corner of bumpers
+B60R  19/18  S	2	1	3D016	B60R  19/18	151	リアバンパ内の衝撃吸収装置	Shock-absorbing devices in rear bumpers
+B60R  19/18  Z	2	0	3D016	B60R  19/18	26	その他のもの	Others
+B60R  19/20  \	3	3	3D016	B60R  19/20	6	ガスまたは液体を含有するもの，例．膨脹可能なもの［４］	containing gas or liquid, e.g. inflatable [4]
+B60R  19/20  A	3	0	3D016	B60R  19/20	96	ガス又は液体を含む衝撃吸収装置	Shock-absorbing devices including gas or liquid
+B60R  19/20  B	3	1	3D016	B60R  19/20	118	ガスを含むもの	including gas
+B60R  19/20  C	3	2	3D016	B60R  19/20	52	バルブ付きチユ−ブを有するもの	having tubes with valves
+B60R  19/20  Z	3	0	3D016	B60R  19/20	116	その他のもの	Others
+B60R  19/22  \	3	3	3D016	B60R  19/22	9	細胞質材料，例．固体発泡体，を含有するもの［４］	containing cellular material, e.g. solid foam [4]
+B60R  19/22  A	3	0	3D016	B60R  19/22	40	細胞質材料を含む衝撃吸収装置	Shock-absorbing devices including cellular material
+B60R  19/22  B	3	1	3D016	B60R  19/22	309	合成樹脂製発泡体からなるもの	comprising plastic foam
+B60R  19/22  C	3	2	3D016	B60R  19/22	63	複数個の分割体から構成されたもの	constituted by plural separate bodies
+B60R  19/22  D	3	2	3D016	B60R  19/22	77	硬度の異なるもの	with different hardness
+B60R  19/22  Z	3	0	3D016	B60R  19/22	142	その他のもの	Others
+B60R  19/24  \	2	2	3D016	B60R  19/24	8	車両へのバンパー取付け用装置［４］	Arrangements for mounting bumpers on vehicles [4]
+B60R  19/24  B	2	0	3D016	B60R  19/24	35	車両へのバンパサイドの取付	Mounting bumper side on vehicles
+B60R  19/24  C	2	1	3D016	B60R  19/24	179	車体側面に固定するもの	fixing on the side of vehicle bodies
+B60R  19/24  D	2	2	3D016	B60R  19/24	223	中間部材を介在させるもの	through intermediate members
+B60R  19/24  E	2	3	3D016	B60R  19/24	138	バンパサイドと中間部材との結合	connexion of bumper side and intermediate members
+B60R  19/24  F	2	3	3D016	B60R  19/24	78	車体側面と中間部材との結合	connexion of side of vehicle bodies and intermediate members
+B60R  19/24  G	2	1	3D016	B60R  19/24	152	衝突時に移動可能に取付けたもの	mounted movably on impact
+B60R  19/24  H	2	2	3D016	B60R  19/24	33	車体の外側方へ移動するもの	moving outward of vehicle bodies
+B60R  19/24  J	2	0	3D016	B60R  19/24	118	車両へのバンパの取付	Mounting bumpers on vehicles
+B60R  19/24  K	2	1	3D016	B60R  19/24	182	車体パネルへの直接的取付	direct mounting on vehicle panels
+B60R  19/24  L	2	2	3D016	B60R  19/24	183	取付具がバンパと一体に形成されたもの	with mounting tools formed integratedly with bumpers
+B60R  19/24  M	2	1	3D016	B60R  19/24	372	中間部材を介する取付	mounting through intermediate members
+B60R  19/24  N	2	2	3D016	B60R  19/24	710	バンパステを介する取付	mounting through bumper stays
+B60R  19/24  P	2	3	3D016	B60R  19/24	123	バンパステと一体の補強部材を介する取付	mounting through reinforcing members integrated with bumpers
+B60R  19/24  Q	2	3	3D016	B60R  19/24	390	バンパステとサイドフレ−ムとの結合	connexion of bumper stays and side frames
+B60R  19/24  R	2	1	3D016	B60R  19/24	491	リアバンパの取付	mounting of rear bumpers
+B60R  19/24  S	2	2	3D016	B60R  19/24	67	車体の補強部材を有するもの	having reinforcing members for vehicle bodies
+B60R  19/24  Z	2	0	3D016	B60R  19/24	729	その他のもの	Others
+B60R  19/26  \	3	3	3D016	B60R  19/26	144	屈撓自在な取付け装置を備えるもの［４］	comprising yieldable mounting means [4]
+B60R  19/28  \	4	4	3D016	B60R  19/28	172	金属スプリング［４］	Metallic springs [4]
+B60R  19/30  \	4	4	3D016	B60R  19/30	138	エラストマー材料［４］	Elastomeric material [4]
+B60R  19/32  \	4	4	3D016	B60R  19/32	272	流体衝撃吸収装置［４］	Fluid shock absorbers [4]
+B60R  19/34  \	4	4	3D016	B60R  19/34	1220	衝撃により破壊されるもの，例．一撃型［４］	destroyed upon impact, e.g. one-shot type [4]
+B60R  19/36  \	4	4	3D016	B60R  19/36	63	異なる型式の屈撓自在な取付け装置の組合せ［４］	Combinations of yieldable mounting means of different types [4]
+B60R  19/38  \	3	3	3D016	B60R  19/38	14	調整自在または可動に取付けられるもの，例．駐車車両間の空間を確保するために水平方向に移動可能なもの［４］	adjustably or movably mounted, e.g. horizontally displaceable for securing a space between parked vehicles [4]
+B60R  19/38  A	3	0	3D016	B60R  19/38	149	調整自在又は可動な取付	Mounted adjustably or movably
+B60R  19/38  B	3	1	3D016	B60R  19/38	90	荷台又はキヤブの傾動に追従するもの	following slanted movement of beds or cabs
+B60R  19/38  C	3	1	3D016	B60R  19/38	11	地上高を検知するもの	detecting height from the ground
+B60R  19/38  D	3	1	3D016	B60R  19/38	130	前後方向に移動するもの	moving to-and-fro
+B60R  19/38  Z	3	0	3D016	B60R  19/38	144	その他のもの	Others
+B60R  19/40  \	4	4	3D016	B60R  19/40	82	衝突前に障害物の方向に［４］	in the direction of an obstacle before a collision [4]
+B60R  19/42  \	2	2	3D016	B60R  19/42	200	車両の側面にそい，またはそれを完全に包囲するように主として延びるもの［４］	extending primarily along the sides of, or completely encircling, a vehicle [4]
+B60R  19/44  \	2	2	3D016	B60R  19/44	2	バンパーガード［４］	Bumper guards [4]
+B60R  19/44  A	2	0	3D016	B60R  19/44	129	バンパ−ガ−ド	Bumper guards
+B60R  19/44  B	2	1	3D016	B60R  19/44	29	オ−バライダ	Overriders
+B60R  19/44  C	2	2	3D016	B60R  19/44	43	バンパとの取付部	mounting parts with bumpers
+B60R  19/44  D	2	1	3D016	B60R  19/44	69	プロテクタ	Protectors
+B60R  19/44  E	2	2	3D016	B60R  19/44	66	バンパとの取付部	mounting parts with bumpers
+B60R  19/44  Z	2	0	3D016	B60R  19/44	10	その他のもの	Others
+B60R  19/46  \	3	3	3D016	B60R  19/46	4	スプリングに，または枢軸に取り付けられるもの［４］	spring- or pivotally-mounted [4]
+B60R  19/48  \	2	2	3D016	B60R  19/48	22	他の装置または物体に組み合わせたもの，またはそれに転換できるもの，例．道路ブラシと組合わされた，ベッドに転換できるバンパーバンパー［４］	combined with, or convertible into, other devices or objects, e.g. bumpers combined with road brushes, bumpers convertible into beds [4]
+B60R  19/48  B	2	0	3D016	B60R  19/48	552	バンパと障害物検知装置との組合せ	Combination of bumpers and obstacle-detecting devices
+B60R  19/48  C	2	1	3D016	B60R  19/48	101	バンパ自体が変位するもの	with bumpers per se changing positions
+B60R  19/48  D	2	2	3D016	B60R  19/48	59	揺動リンクを有するもの	having oscillating links
+B60R  19/48  E	2	2	3D016	B60R  19/48	140	弾性変形するもの	deforming elastically
+B60R  19/48  F	2	3	3D016	B60R  19/48	52	テ−プスイツチを有するもの	having tape switches
+B60R  19/48  G	2	3	3D016	B60R  19/48	242	弾性チユ−ブを有するもの	having elastic tubes
+B60R  19/48  H	2	3	3D016	B60R  19/48	126	リミツトスイツチを有するもの	having limit switches
+B60R  19/48  J	2	1	3D016	B60R  19/48	68	接触検知棒を有するもの	having contact-detector bars
+B60R  19/48  K	2	1	3D016	B60R  19/48	144	同一方向に複数の検知部を有するもの	having plural detecting parts in the same direction
+B60R  19/48  L	2	0	3D016	B60R  19/48	585	バンパと他の装置又は物体との組合せ	Combination of bumpers and other devices or objects
+B60R  19/48  M	2	1	3D016	B60R  19/48	163	冷却用空気取入孔を有するバンパ	Bumpers with air intake holes for cooling
+B60R  19/48  N	2	2	3D016	B60R  19/48	149	通気量を調整するもの	adjusting air flow
+B60R  19/48  P	2	2	3D016	B60R  19/48	242	導風部を有するもの	having air-guiding part
+B60R  19/48  Q	2	1	3D016	B60R  19/48	57	空気抵抗を減少させるもの	reducing air resistance
+B60R  19/48  R	2	2	3D016	B60R  19/48	47	バンパ自体の形状	Shapes of bumpers per se
+B60R  19/48  S	2	2	3D016	B60R  19/48	74	空気流通用開口部を有するもの	having openings for air flow
+B60R  19/48  T	2	1	3D016	B60R  19/48	173	エアダムスカ−トとの組合せ	combination with air dam skirts
+B60R  19/48  U	2	1	3D016	B60R  19/48	82	収納部との組合せ	combination with storage parts
+B60R  19/48  V	2	1	3D016	B60R  19/48	133	ステツプとの組合せ	combination with steps
+B60R  19/48  W	2	1	3D016	B60R  19/48	210	牽引フツクとの組合せ	combination with traction hooks
+B60R  19/48  Z	2	0	3D016	B60R  19/48	834	その他のもの	Others
+B60R  19/50  \	3	3	3D016	B60R  19/50	26	照明装置または登録標識をつけたもの［４］	with lights or registration plates [4]
+B60R  19/50  A	3	0	3D016	B60R  19/50	136	照明又は登録標識を有するバンパ	Bumpers with lights or registration plates
+B60R  19/50  B	3	1	3D016	B60R  19/50	231	照明装置を有するもの	having lighting devices
+B60R  19/50  C	3	2	3D016	B60R  19/50	309	照明装置の取付	mounting lighting devices
+B60R  19/50  D	3	3	3D016	B60R  19/50	100	衝突時に移動可能な取付	mounted movably on collision
+B60R  19/50  E	3	1	3D016	B60R  19/50	83	登録標識を有するもの	having registration plates
+B60R  19/50  F	3	2	3D016	B60R  19/50	162	取付部材	Mounted members
+B60R  19/50  Z	3	0	3D016	B60R  19/50	20	その他のもの	Others
+B60R  19/52  \	1	1	3D016	B60R  19/52	33	ラジエータまたはグリル保護体［４］	Radiator or grille guards [4]
+B60R  19/52  A	1	0	3D016	B60R  19/52	247	ラジエ−タ保護体又はグリル	Radiator guards or grilles
+B60R  19/52  B	1	1	3D016	B60R  19/52	91	ラジエ−タ保護体	Radiator guards
+B60R  19/52  C	1	1	3D016	B60R  19/52	423	グリル	Grilles
+B60R  19/52  D	1	2	3D016	B60R  19/52	293	車体への取付	mounting on vehicle bodies
+B60R  19/52  E	1	3	3D016	B60R  19/52	100	取付具	Mounting tools
+B60R  19/52  F	1	4	3D016	B60R  19/52	91	クリツプ	Clips
+B60R  19/52  G	1	5	3D016	B60R  19/52	61	取外しが容易なもの	easily dismountable
+B60R  19/52  H	1	4	3D016	B60R  19/52	105	ネジ又はボルト	screws or bolts
+B60R  19/52  J	1	3	3D016	B60R  19/52	68	衝突時に移動可能な取付	mounted movably on collision
+B60R  19/52  K	1	2	3D016	B60R  19/52	496	グリルの形状又は構造	Shapes or structure of grilles
+B60R  19/52  L	1	3	3D016	B60R  19/52	86	ヘツドランプフイニツシヤとの組合せ	combination with head lamp finishers
+B60R  19/52  M	1	3	3D016	B60R  19/52	191	通気量を調整するもの	adjusting air flow
+B60R  19/52  N	1	1	3D016	B60R  19/52	87	農業機械用	for agricultural machines
+B60R  19/52  P	1	1	3D016	B60R  19/52	43	建設機械用	for construction machines
+B60R  19/52  Z	1	0	3D016	B60R  19/52	35	その他のもの	Others
+B60R  19/54  \	1	1	3D016	B60R  19/54	191	障害物除去またはそらせ装置（Ｂ６０Ｒ１９／１６，Ｂ６０Ｒ２１／３４が優先）［４］	Obstruction removers or deflectors (B60R 19/16, B60R 21/34 take precedence) [4]
+B60R  19/56  \	1	1	3D016	B60R  19/56	543	下側に車両または物体が突込むことを防止するための，高床車両，例．ローリー，用装置［４］	Arrangements on high-riding vehicles, e.g. lorries, for preventing vehicles or objects from running thereunder [4]
+B60R  21/00  \	0	0	3D017	B60R  21/00	541	事故又は他の交通危機の場合乗員又は歩行者を負傷から保護又は防止するための車両の装置又は部品（車両における安全ベルトまたは身体用設備Ｂ６０Ｒ２２／００；異常加速度による影響から乗っている人間を保護する様，特に設計された座席，例．安全座席，Ｂ６０Ｎ２／４２；車両操向用ハンドホイールエネルギー吸収装置Ｂ６２Ｄ１／１１；車両操向用コラムエネルギー吸収装置Ｂ６２Ｄ１／１９）［４，５］	Arrangements or fittings on vehicles for protecting or preventing injuries to occupants or pedestrians in case of accidents or other traffic risks (safety belts or body harnesses in vehicles B60R 22/00; seats constructed to protect the occupant from the effect of abnormal g-forces, e.g. crash or safety seats, B60N 2/42; energy-absorbing arrangements for hand wheels for steering vehicles B62D 1/11; energy-absorbing arrangements for vehicle steering columns B62D 1/19) [4,5]
+B60R  21/00 310 \	1	1	3D017	B60R  21/00	61	事故の種類	type of accident
+B60R  21/00 310 A	1	0	3D017	B60R  21/00	215	特徴のある正面衝突	Characteristic frontal collision
+B60R  21/00 310 B	1	0	3D017	B60R  21/00	354	特徴のある側面衝突	Characteristic lateral collision
+B60R  21/00 310 C	1	0	3D017	B60R  21/00	77	特徴のある斜め衝突	Characteristic oblique collision
+B60R  21/00 310 D	1	0	3D017	B60R  21/00	87	特徴のあるオフセット衝突	Characteristic offset collision
+B60R  21/00 310 E	1	0	3D017	B60R  21/00	126	特徴のある横転	Characteristic rollover
+B60R  21/00 310 F	1	0	3D017	B60R  21/00	62	電柱への衝突	Collision to utility pole
+B60R  21/00 310 G	1	0	3D017	B60R  21/00	150	後部衝突または衝突後の跳ね返り	Rear collision or recoiling bounce after collision
+B60R  21/00 310 H	1	0	3D017	B60R  21/00	308	特徴のある歩行者との衝突	Characteristic collision with pedestrians
+B60R  21/00 310 J	1	0	3D017	B60R  21/00	45	二輪車との衝突	Collision with two-wheel vehicles
+B60R  21/00 310 K	1	0	3D017	B60R  21/00	12	動物との衝突	Collision with animals
+B60R  21/00 310 L	1	0	3D017	B60R  21/00	33	大型車の下に潜り込む衝突	Underrun collision
+B60R  21/00 310 M	1	0	3D017	B60R  21/00	623	落下	free fall
+B60R  21/00 310 N	1	0	3D017	B60R  21/00	148	水没	fall in water
+B60R  21/00 310 Z	1	0	3D017	B60R  21/00	177	その他	Others
+B60R  21/00 320 \	1	1	3D017	B60R  21/00	16	車両の型式	Type of vehicles
+B60R  21/00 321 \	2	2	3D017	B60R  21/00	64	小型車，例．パーソナルモビリティ	small vehicles, e.g. personal mobility
+B60R  21/00 322 \	2	2	3D017	B60R  21/00	80	大型車，例．バスまたはトレーラー	Large vehicles, e.g. buses or trailers
+B60R  21/00 323 \	2	2	3D017	B60R  21/00	60	作業車，例．建設または農業用	Working vehicles, e.g. for construction or agricultural vehicles
+B60R  21/00 330 \	1	1	3D017	B60R  21/00	204	事故時の車両からの脱出	Escaping from the vehicle upon an accident
+B60R  21/00 340 \	1	1	3D017	B60R  21/00	535	事故の自動通報	Automatic reporting of an accident
+B60R  21/00 350 \	1	1	3D017	B60R  21/00	185	事故時における車外または他車両への警報	Alarm to outside of vehicle or other vehicles upon an accident
+B60R  21/00 360 \	1	1	3D017	B60R  21/00	207	衝突する旨の乗員への報知；衝突までのカウントダウン	Notifying passengers regarding coming collision; Countdown to impact
+B60R  21/00 991 \	1	1	3D017	B60R  21/00	13103	認知に関するもの	relating to recognition
+B60R  21/00 992 \	1	1	3D017	B60R  21/00	9130	判断に関するもの	relating to judgement
+B60R  21/00 993 \	1	1	3D017	B60R  21/00	12759	操作に関するもの	relating to operation
+B60R  21/01  \	1	1	3D017	B60R  21/01	1201	交通事故又は差し迫った交通事故の場合における安全装置の始動のための電気回路［７］	Electrical circuits for triggering safety arrangements in case of vehicle accidents or impending vehicle accidents [7]
+B60R  21/01 310 \	2	2	3D017	B60R  21/01	748	電気部品の配置または取付，例．加速度センサ，衝突判定用ＥＣＵ	Arrangment or mounting of electrical components in vehicles, e.g. accelerometer, ECU for collision judgement
+B60R  21/01 320 \	2	2	3D017	B60R  21/01	155	データ伝送	Data transmission
+B60R  21/01 321 \	3	3	3D017	B60R  21/01	79	無線	Wireless
+B60R  21/01 330 \	2	2	3D017	B60R  21/01	88	故障に関するもの	relating to malfunction
+B60R  21/01 331 \	3	3	3D017	B60R  21/01	563	故障診断	Mulfunction evaluation
+B60R  21/01 332 \	3	3	3D017	B60R  21/01	157	故障の報知	Notification of mulfunction
+B60R  21/01 340 \	2	2	3D017	B60R  21/01	631	誤作動防止	Mulfunction prevention
+B60R  21/01 350 \	2	2	3D017	B60R  21/01	54	セキュリティ	security
+B60R  21/013  \	2	2	3D017	B60R  21/013	266	衝突，差し迫った衝突，又は横転を検知するための手段を含むもの［８］	including means for detecting collisions, impending collisions or roll-over [8]
+B60R  21/013 310 \	3	3	3D017	B60R  21/013	226	路面状況の検知	Detecting road surface conditions
+B60R  21/013 320 \	3	3	3D017	B60R  21/013	103	他のデバイスの作動状況の検知，例．制動システムまたは操舵システム	Detection of other devices' operating conditions, e.g. Braking system or steering system
+B60R  21/0132  \	3	3	3D017	B60R  21/0132	398	車両挙動を表すパラメータに応答するもの［８］	responsive to vehicle motion parameters [8]
+B60R  21/0132 310 \	4	4	3D017	B60R  21/0132	103	進行方向のパラメータ	Parameter of heading direction
+B60R  21/0132 320 \	4	4	3D017	B60R  21/0132	153	車幅方向のパラメータ	Parameter of vehicle widthwise direction
+B60R  21/0132 330 \	4	4	3D017	B60R  21/0132	322	ロール方向のパラメータ	Parameter of roll direction
+B60R  21/0132 340 \	4	4	3D017	B60R  21/0132	67	ヨー方向のパラメータ	Parameter of yaw direction
+B60R  21/0132 350 \	4	4	3D017	B60R  21/0132	190	振動，騒音	Vibration, noise
+B60R  21/0134  \	3	3	3D017	B60R  21/0134	1097	障害物との差し迫った接触に応答するもの［８］	responsive to imminent contact with an obstacle [8]
+B60R  21/0134 310 \	4	4	3D017	B60R  21/0134	361	周辺環境の認知手段	Means to recognize peripheral conditions
+B60R  21/0134 311 \	5	5	3D017	B60R  21/0134	482	可視光カメラ	Visible light camera
+B60R  21/0134 312 \	5	5	3D017	B60R  21/0134	605	電波を用いるもの，例．ミリ波レーダー	using electric wave, e.g. millimeter wave radar
+B60R  21/0134 313 \	5	5	3D017	B60R  21/0134	221	レーザーを用いるもの，例．ＬｉＤＡＲまたはレーザーレーダー	using laser, e.g. LiDAR or Laser Radar
+B60R  21/0134 314 \	5	5	3D017	B60R  21/0134	167	超音波センサ	Ultrasonic sensor
+B60R  21/0136  \	3	3	3D017	B60R  21/0136	3488	障害物との実際の接触に応答するもの［８］	responsive to actual contact with an obstacle [8]
+B60R  21/0136 310 \	4	4	3D017	B60R  21/0136	2438	速度，加速度，角速度または角加速度の検出によるもの	by detection of velocity, acceleration, angle velocity or angle acceleration
+B60R  21/0136 320 \	4	4	3D017	B60R  21/0136	423	流体圧力の検出によるもの	by detection of fluid pressure
+B60R  21/015  \	2	2	3D017	B60R  21/015	1700	乗客，乗客用シート，又は子供用シートの存在又は位置を検知する手段を含むもの，例．始動を不能にするための手段［８］	including means for detecting the presence or position of passengers, passenger seats or child seats, e.g. for disabling triggering [8]
+B60R  21/015 310 \	3	3	3D017	B60R  21/015	599	乗員の検知	Detecting passengers
+B60R  21/015 311 \	4	4	3D017	B60R  21/015	759	乗員タイプ，例．女性，妊婦，子供または体格	Passenger category, e.g. female, pregnant woman, child or physique
+B60R  21/015 312 \	4	4	3D017	B60R  21/015	457	乗員の姿勢	Passenger posture
+B60R  21/015 320 \	3	3	3D017	B60R  21/015	227	シートポジション	seating position
+B60R  21/015 330 \	3	3	3D017	B60R  21/015	254	シートベルトの装着状況	Conditions of seatbelt applied status
+B60R  21/015 340 \	3	3	3D017	B60R  21/015	311	チャイルドシートの検知	Detecting child seat
+B60R  21/017  \	2	2	3D017	B60R  21/017	1086	安全装置に電力を供給する装置を含むもの［８］	including arrangements for providing electric power to the safety arrangements [8]
+B60R  21/017 310 \	3	3	3D017	B60R  21/017	305	予備または補助電源	spare or supplemental power supply
+B60R  21/02  \	1	1	3D017	B60R  21/02	3285	乗員安全装置又は部品［４］	Occupant safety arrangements or fittings [4]
+B60R  21/04  \	2	2	3D017	B60R  21/04	503	車両内部のパッド入り内張り［４］	Padded linings for the vehicle interior [4]
+B60R  21/04 310 \	3	3	3D017	B60R  21/04	189	パッド入り内張りの取付	mounting of padded lining
+B60R  21/04 320 \	3	3	3D017	B60R  21/04	560	パッド入り内張りの組成または形状	composition or shape of padded lining
+B60R  21/04 330 \	3	3	3D017	B60R  21/04	511	ドアに関するもの	relating to doors
+B60R  21/045  \	3	3	3D017	B60R  21/045	782	インストルメントパネル又はダッシュボードとの関連させたもの［４］	associated with the instrument panel or dashboard [4]
+B60R  21/045 310 \	4	4	3D017	B60R  21/045	90	パッドの取付	mounting pads
+B60R  21/045 320 \	4	4	3D017	B60R  21/045	131	パッドの組成または形状	composition or shape of pads
+B60R  21/045 330 \	4	4	3D017	B60R  21/045	73	ニープロテクター	Knee protector
+B60R  21/045 331 \	5	5	3D017	B60R  21/045	237	ニープロテクターの取付	mounting knee protector
+B60R  21/045 332 \	5	5	3D017	B60R  21/045	320	ニープロテクターの組成または形状	composition or shape of knee protector
+B60R  21/05  \	3	3	3D017	B60R  21/05	1243	操向ホイール，操向手動レバー又は操向コラムと関連させたもの［４，５］	associated with the steering wheel, hand lever or column [4,5]
+B60R  21/055  \	2	2	3D017	B60R  21/055	1005	パッド入り部品，例．ヘッドレスト，サンバイザ［４］	Padded fittings, e.g. head rests, sun visors [4]
+B60R  21/06  \	2	2	3D017	B60R  21/06	100	安全ネット；透明シート，カーテン，又は類似のもの，例．乗員とガラスの間に配置されるもの（Ｂ６０Ｒ２１／１１，Ｂ６０Ｒ２１／１２，Ｂ６０Ｒ２１／１６が優先）［４］	Safety nets, transparent sheets, curtains, or the like, e.g. between occupants and glass (B60R 21/11, B60R 21/12, B60R 21/16 take precedence) [4]
+B60R  21/08  \	3	3	3D017	B60R  21/08	133	非作動位置から作動位置間で可動のもの，例．衝突時［４，７］	movable from an inoperative to an operative position, e.g. in a collision [4,7]
+B60R  21/08  A	3	0	3D017	B60R  21/08	112	ネット状のもの	Net-like
+B60R  21/08  B	3	0	3D017	B60R  21/08	98	袋状のもの	Bag-like
+B60R  21/08  C	3	0	3D017	B60R  21/08	81	板状のもの	Plate-like
+B60R  21/08  D	3	0	3D017	B60R  21/08	25	ベルト状のもの	Belt-like
+B60R  21/08  E	3	0	3D017	B60R  21/08	42	複数の保護体の組み合わせ	Combined with plural guards
+B60R  21/08  F	3	0	3D017	B60R  21/08	40	保護体の作動又は作動形態に関わるもの	Concerning actuation or actuating pattern of guards
+B60R  21/08  G	3	1	3D017	B60R  21/08	15	トリガ装置に関するもの	concerning triggering devices
+B60R  21/08  H	3	2	3D017	B60R  21/08	16	ソレノイドを用いているもの	using solenoids
+B60R  21/08  J	3	2	3D017	B60R  21/08	148	ガスを用いているもの	using gases
+B60R  21/08  K	3	2	3D017	B60R  21/08	50	ばねを用いているもの	using springs
+B60R  21/08  M	3	2	3D017	B60R  21/08	48	回動するもの	turning
+B60R  21/08  N	3	2	3D017	B60R  21/08	46	スライドするもの	sliding
+B60R  21/08  P	3	0	3D017	B60R  21/08	92	座席に設置されたもの	Installed on seats
+B60R  21/08  Z	3	0	3D017	B60R  21/08	35	その他のもの	Others
+B60R  21/09  \	2	2	3D017	B60R  21/09	92	作動位置から邪魔にならない位置へ可動の制御要素又は操作ハンドル，例．スイッチノブ，窓用クランク［４］	Control elements or operating handles movable from an operative to an out-of-the way position, e.g. switch knobs, window cranks [4]
+B60R  21/11  \	2	2	3D017	B60R  21/11	1157	頭上ガード，例．積荷の落下に対するもの［４］	Overhead guards, e.g. against loads falling down [4]
+B60R  21/12  \	2	2	3D017	B60R  21/12	233	乗員を車両の内外からの人体攻撃から保護するもの［４］	which protect the occupants against personal attack from the inside or the outside of the vehicle [4]
+B60R  21/13  \	2	2	3D017	B60R  21/13	244	横転時の保護［４，７］	Roll-over protection [4,7]
+B60R  21/13  A	2	0	3D017	B60R  21/13	190	ロールバー	Roll bars
+B60R  21/13  B	2	1	3D017	B60R  21/13	192	車体への取付	mounting on vehicle bodies
+B60R  21/13  C	2	2	3D017	B60R  21/13	44	着脱自在な取付	mountable or dismountable installation
+B60R  21/13  D	2	1	3D017	B60R  21/13	72	屋根との関連構造	structure in relation with roofs
+B60R  21/13  E	2	0	3D017	B60R  21/13	80	座席との関連構造	Structure in relation with seats
+B60R  21/13  Z	2	0	3D017	B60R  21/13	261	その他のもの	Others
+B60R  21/16  \	2	2	3D054	B60R  21/16	8611	衝突時に膨張するように設計された膨張可能な乗員拘束又は抑制装置，例．エアバッグ［４］	Inflatable occupant restraints or confinements designed to inflate upon impact or impending impact, e.g. air bags [4]
+B60R  21/18  \	3	3	3D054	B60R  21/18	695	ベルト又はハーネス又はベルト若しくはハーネスと組み合わされたものとして形成された膨張可能な部材［４］	the inflatable member formed as a belt or harness or combined with a belt or harness arrangement [4]
+B60R  21/20  \	3	3	3D054	B60R  21/20	5722	膨張可能な部材を不使用時又は収縮時保管するための装置；エアバッグモジュール若しくはその構成部品の配置又はそれらの取付［４，８，２０１１．０１］	Arrangements for storing inflatable members in their non-use or deflated condition; Arrangement or mounting of air bag modules or components [4, 8, 2011.01]
+B60R  21/201  \	4	4	3D054	B60R  21/201	408	膨張可能な部材を梱包するためのストラップ又は包装［２０１１．０１］	Straps or packages for packaging inflatable members [2011, 01]
+B60R  21/203  \	4	4	3D054	B60R  21/203	2613	ステアリングホイール又はステアリングコラムにおけるもの［８］	in steering wheels or steering columns [8]
+B60R  21/205  \	4	4	3D054	B60R  21/205	2918	ダッシュボードにおけるもの［８，２０１１．０１］	in dashboards [8,2011.01]
+B60R  21/206  \	5	5	3D054	B60R  21/206	745	ダッシュボードの下方におけるもの，例．膝保護用［２０１１．０１］	in the lower part of dashboards, e.g. for protecting the knees [2011.01]
+B60R  21/207  \	4	4	3D054	B60R  21/207	3065	車両用シートにおけるもの［８］	in vehicle seats [8]
+B60R  21/21  \	4	4	3D054	B60R  21/21	454	車両の側面パネルにおけるもの，例．ドア（ピラーにおけるものについてはＢ６０Ｒ２１／２１３）［８，２０１１．０１］	in vehicle side panels, e.g. doors or pillars [8,2011.01]
+B60R  21/213  \	4	4	3D054	B60R  21/213	1923	車両のルーフフレーム又はピラーにおけるもの［８，２０１１．０１］	in vehicle roofs, e.g. in roof frames [8,2011.01]
+B60R  21/214  \	4	4	3D054	B60R  21/214	186	ルーフパネルにおけるもの［２０１１．０１］	in roof panels [2011.01]
+B60R  21/215  \	4	4	3D054	B60R  21/215	2140	膨張可能な部材のカバーに特徴のあるもの［８，２０１１．０１］	characterised by the covers for the inflatable member [8,2011.01]
+B60R  21/2155  \	5	5	3D054	B60R  21/2155	45	カバーの動きが複雑であるもの；展開中にライニングの裏面に引き込むもの［２０１１．０１］	with complex motion of the cover; Retraction under the lining during opening [2011.01]
+B60R  21/216  \	5	5	3D054	B60R  21/216	171	展開中のカバーの動きを規制するテザーを含むもの［２０１１．０１］	comprising tether means for limitation of cover motion during deployment [2011.01]
+B60R  21/2165  \	5	5	3D054	B60R  21/2165	1211	開口部を規定するテアラインに特徴のあるもの［２０１１．０１］	characterised by a tear line for defining a deployment opening [2011.01]
+B60R  21/217  \	4	4	3D054	B60R  21/217	2076	膨張流体の供給源保持器，例．反応容器；反応容器とバッグ，カバー，ディフューザ又は膨張流体の供給源との結合［８，２０１１．０１］	Inflation fluid source retainers, e.g. reaction canisters; Connection of bags, diffusers or inflation fluid sources thereto [8,2011.01]
+B60R  21/23  \	3	3	3D054	B60R  21/23	799	膨張可能な部材（Ｂ６０Ｒ２１／１８が優先）［８］	Inflatable members () [8]
+B60R  21/231  \	4	4	3D054	B60R  21/231	1518	その形状，構造又は空間配置に特徴のあるもの［８，２０１１．０１］	characterised by their shape, e.g. shaped with respect to a specific part of the occupant's body (B60R 21/233 takes precedence) [8,2011.01]
+B60R  21/232  \	5	5	3D054	B60R  21/232	1261	主として上縁から垂直方向へ展開するカーテン型エアバッグ［２０１１．０１］	Curtain-type airbags deploying mainly in a vertical direction from their top edge [2011.01]
+B60R  21/233  \	5	5	3D054	B60R  21/233	768	複数の独立室からなるもの；一方が他方の内部にある２又はそれ以上の袋状部材からなるもの（Ｂ６０Ｒ２１／２３２が優先）［８］	comprising a plurality of individual compartments; comprising two or more bag-like members, one within the other () [8]
+B60R  21/2334  \	5	5	3D054	B60R  21/2334	346	形状調整されるもの［２０１１．０１］	Expansion regulating features [2011.01]
+B60R  21/2338  \	6	6	3D054	B60R  21/2338	2087	テザーを用いるもの［２０１１．０１］	Tethers [2011.01]
+B60R  21/2342  \	6	6	3D054	B60R  21/2342	316	テアシームを用いるもの［２０１１．０１］	Tear seams [2011.01]
+B60R  21/2346  \	6	6	3D054	B60R  21/2346	669	ソフトディフューザを用いるもの［２０１１．０１］	Soft diffusers [2011.01]
+B60R  21/235  \	4	4	3D054	B60R  21/235	1487	材料に特徴のあるもの［８］	characterised by their material [8]
+B60R  21/237  \	4	4	3D054	B60R  21/237	1072	折り畳み方に特徴のあるもの［８］	characterised by the way they are folded [8]
+B60R  21/239  \	4	4	3D054	B60R  21/239	964	排気手段に特徴のあるもの［８］	characterised by their venting means [8]
+B60R  21/26  \	3	3	3D054	B60R  21/26	3732	膨張流体の供給源又は膨張流体の流れを制御する手段に特徴のあるもの［４，２０１１．０１］	characterised by the inflation fluid source or means to control inflation fluid flow [4, 2011.01]
+B60R  21/261  \	4	4	3D054	B60R  21/261	476	袋体構造以外の手段により，膨張流体の流れを拡散又はガイドするもの［２０１１．０１］	with means other than bag structure to diffuse or guide inflation fluid [2011.01]
+B60R  21/262  \	5	5	3D054	B60R  21/262	131	細長い管状のディフューザ，例．カーテン型エアバッグ用［２０１１．０１］	Elongated tubular diffusers, e.g. curtain-type [2011.01]
+B60R  21/263  \	4	4	3D054	B60R  21/263	541	可変供給源，例．複数の段階又は制御された出力（ハイブリッドインフレータＢ６０Ｒ２１／２７２）［２０１１．０１］	using a variable source, e.g. plural stage or controlled output(hybrid inflator B60R21/272) [2011.01]
+B60R  21/264  \	4	4	3D054	B60R  21/264	2551	ガスの瞬間発生によるもの，例．火工品（Ｂ６０Ｒ２１／２６８が優先）［８］	using instantaneous generation of gas, e.g. pyrotechnic () [8]
+B60R  21/268  \	4	4	3D054	B60R  21/268	268	貯蔵された加圧ガスの瞬間放出によるもの［８，２０１１．０１］	using instantaneous release of stored pressurised gas [8,2011.01]
+B60R  21/272  \	5	5	3D054	B60R  21/272	394	解放直前又は解放中のガスの圧力増加の手段を有するもの，例．ハイブリッドインフレータ［８］	with means for increasing the pressure of the gas just before or during liberation, e.g. hybrid inflators [8]
+B60R  21/274  \	5	5	3D054	B60R  21/274	314	流体の供給源を破裂又は開放する手段に特徴のあるもの［２０１１．０１］	characterised by means to rupture or open the fluid source [2011.01]
+B60R  21/276  \	4	4	3D054	B60R  21/276	291	膨張流体の供給源に排気手段を有するもの，例．過圧時に使用されるもの［８］	with means to vent the inflation fluid source, e.g. in case of overpressure [8]
+B60R  21/30  \	4	4	3D054	B60R  21/30	182	周囲空気を供給ラインに引込み，それを膨張流体と混合する手段を有するもの［４］	with means to draw ambient air into the flow line and mix such air with the inflation fluid [4]
+B60R  21/33  \	3	3	3D054	B60R  21/33	285	膨張の非電気的始動のための装置［８］	Arrangements for non-electric triggering of inflation [8]
+B60R  21/34  \	1	1	3D017	B60R  21/34	3019	車両の非乗員，例．歩行者の保護［４，２０１１．０１］	Protecting non-occupants of a vehicle, e.g. pedestrians [4,2011.01]
+B60R  21/36  \	2	2	3D017	B60R  21/36	854	エアバッグを用いるもの［２０１１．０１］	using airbags [2011.01]
+B60R  21/36 310 \	3	3	3D017	B60R  21/36	170	起動判断	Initial movement judgement
+B60R  21/36 320 \	3	3	3D017	B60R  21/36	335	袋体	Airbag
+B60R  21/36 330 \	3	3	3D017	B60R  21/36	74	ガス発生装置	Gas generating device
+B60R  21/36 340 \	3	3	3D017	B60R  21/36	214	車体への取付	mountinging on vehicles
+B60R  21/36 350 \	3	3	3D017	B60R  21/36	50	エアバッグの展開位置	expansion position of airbag
+B60R  21/36 351 \	4	4	3D017	B60R  21/36	286	フロントピラー	front pillar
+B60R  21/36 352 \	4	4	3D017	B60R  21/36	289	ボンネットとフロントガラスの間	between hood and front windshield
+B60R  21/36 353 \	4	4	3D017	B60R  21/36	145	ボンネット	Hood
+B60R  21/36 354 \	4	4	3D017	B60R  21/36	164	車両前部，例．バンパーまたはフロントグリル	front of vehicle, e.g. Bumper or front grill
+B60R  21/38  \	2	2	3D017	B60R  21/38	703	ボンネットを持ち上げるもの［２０１１．０１］	using means for lifting bonnets [2011.01]
+B60R  21/38 310 \	3	3	3D017	B60R  21/38	136	起動判断	Initial movement judgement
+B60R  21/38 320 \	3	3	3D017	B60R  21/38	56	アクチュエータ	Actuator
+B60R  21/38 321 \	4	4	3D017	B60R  21/38	50	機械式，例．ばね	mechanical type, e.g. spring
+B60R  21/38 322 \	4	4	3D017	B60R  21/38	42	電気式，例．ソレノイド	electrical type, e.g. solenoid
+B60R  21/38 323 \	4	4	3D017	B60R  21/38	321	流体式，例．ガス	fluid mechanical type, e.g. gas
+B60R  21/38 330 \	3	3	3D017	B60R  21/38	173	動力伝達機構	Power transmission mechanism
+B60R  21/38 340 \	3	3	3D017	B60R  21/38	96	エネルギー吸収機構	Energy absorption mechanism
+B60R  22/00  \	0	0	3D018	B60R  22/00	90	車両における安全ベルトまたは身体装具［４］	Safety belts or body harnesses in vehicles [4]
+B60R  22/00 101 \	1	1	3D018	B60R  22/00	47	ひざ用，足用または頭部用のベルト	belt for knee, foot or head
+B60R  22/00 103 \	1	1	3D018	B60R  22/00	3	抑留者を拘束するためのもの	to restrain detainee
+B60R  22/00 105 \	1	1	3D018	B60R  22/00	49	手荷物を拘束するためのもの	to restrict baggage
+B60R  22/00 108 \	1	1	3D018	B60R  22/00	45	妊娠している使用者に特に適合するもの	specially adapted to pregnant user
+B60R  22/00 201 \	1	1	3D018	B60R  22/00	661	非使用位置においてタングまたはバックルを保持するための手段，例．使用者が容易に使用できるもの	means to hold tongue or buckle when not in use, e.g. easy to use for user
+B60R  22/00 202 \	1	1	3D018	B60R  22/00	188	２ドア車の後部座席へのアクセスを容易にする手段を持つもの	having means to access easily to back seat of 2-door vehicle
+B60R  22/00 204 \	1	1	3D018	B60R  22/00	83	小さな乗客に特に適合するもの（子供に特に適合するものはＢ６０Ｒ２２／１０，１０５）	specially adapted to small size passengers (specially adapted tochildren B60R22/10,105)
+B60R  22/00 206 \	1	1	3D018	B60R  22/00	139	ベルトの少なくとも両端が使用後に引き込み可能なもの	at least both end of belt is retractable after usage
+B60R  22/00 207 \	1	1	3D018	B60R  22/00	203	４点式シートベルトシステム，例．互いに連結された２つの上部点をもつもの	four point type seat belt system, e.g. each having mutually connected 2 upper points
+B60R  22/00 208 \	1	1	3D018	B60R  22/00	21	寝るときの位置での使用に特に適合するもの，例．リクライニング座席用のもの	specially adapted to using in sleeping position, e.g. for use in reclining seat
+B60R  22/02  \	1	1	3D018	B60R  22/02	335	半自動拘束装置，例．自動的に着用か取外しのどちらかができるが，両方はできないもの［４］	Semi-passive restraint systems, e.g. systems applied or removed automatically but not both [4]
+B60R  22/03  \	2	2	3D018	B60R  22/03	404	着用者にベルトまたはその一部を提供するための手段［６］	Means for presenting the belt or part thereof to the wearer
+B60R  22/04  \	1	1	3D018	B60R  22/04	874	自動拘束装置，すなわち，自動的に着用も取外しもする装置，例．車両ドアの移動によるもの［４］	Passive restraint systems, i.e. systems both applied and removed automatically, e.g. by movement of the vehicle door [4]
+B60R  22/06  \	2	2	3D018	B60R  22/06	1348	車両に取り付けられた軌道内で摺動自在な部材に連結されたベルトまたは装具を有するもの［４］	having the belt or harness connected to a member slidable in a vehicle-mounted track [4]
+B60R  22/08  \	2	2	3D018	B60R  22/08	447	車両閉鎖体，例．ドア，上または内に取り付けられたベルト巻込器を有するもの［４］	having the belt retractor mounted on or in a vehicle closure, e.g. the door [4]
+B60R  22/10  \	1	1	3D018	B60R  22/10	872	子供または動物に特に適合するもの［４］	specially adapted for children or animals
+B60R  22/10 105 \	2	2	3D018	B60R  22/10	922	子供に特に適合するもの	specially adapted to children
+B60R  22/12  \	1	1	3D018	B60R  22/12	3167	シートベルトまたは装具の構造（Ｂ６０Ｒ２１／１８が優先）［４］	Construction of belts or harnesses (B60R 21/18 takes precedence) [4]
+B60R  22/14  \	2	2	3D018	B60R  22/14	535	拡大された拘束面積を有するもの，例．ベスト，ネット［４］	incorporating enlarged restraint areas, e.g. vests, nets [4]
+B60R  22/16  \	2	2	3D018	B60R  22/16	52	永久変形するベルト，すなわち，一度だけ使用するベルト，を用いるもの［４］	using belts which become permanently deformed, i.e. one time use [4]
+B60R  22/18  \	1	1	3D018	B60R  22/18	1572	係止装置［４］	Anchoring devices [4]
+B60R  22/18 118 \	2	2	3D018	B60R  22/18	1348	ベルトガイド	belt guide
+B60R  22/18 125 \	3	3	3D018	B60R  22/18	140	ローラを用いるもの	using rollers
+B60R  22/18 131 \	3	3	3D018	B60R  22/18	62	平面内で滑る溝が切ってある台板からなるもの，例．環状ガイド内にあるもの	composed of base plate having sliding ditch in plane, e.g. having in circular guide
+B60R  22/185  \	2	2	3D018	B60R  22/185	59	緊急時にベルトに直接作用する停止手段を有するもの，例．クランプまたは摩擦によるもの［７］	with stopping means for acting directly upon the belt in an emergency, e.g. by clamping or friction
+B60R  22/185 105 \	3	3	3D018	B60R  22/185	206	停止手段がベルトの張力によって作動するもの	means to stop operating by tension of belt
+B60R  22/19  \	2	2	3D018	B60R  22/19	230	通常時の使用中にベルトの張力を減ずる手段を有するもの［７］	having means to decrease tension of the belt during regular hour use
+B60R  22/195  \	2	2	3D018	B60R  22/195	233	緊急時にベルトを引き締める手段を有するもの	with means to tension the belt in an emergency
+B60R  22/195 102 \	3	3	3D018	B60R  22/195	310	ケーブルによりベルトを引き締めるもの	tighten belt by cable
+B60R  22/195 104 \	3	3	3D018	B60R  22/195	594	流体アクチュエータを有するもの	having fluid actuator
+B60R  22/195 107 \	3	3	3D018	B60R  22/195	61	電気アクチュエータを有するもの	having electric actuator
+B60R  22/195 108 \	3	3	3D018	B60R  22/195	102	スプリングアクチュエータを有するもの	having spring actuator
+B60R  22/20  \	2	2	3D018	B60R  22/20	1088	係止位置，例．高さ，を調整できるもの［４］	adjustable in position, e.g. in height [4]
+B60R  22/20 101 \	3	3	3D018	B60R  22/20	288	車両側部材の軌道を動くことが可能なスライダに接続されたベルトアンカを有するもの	having belt anchor connected to slider that is movable along track of vehicle's side members
+B60R  22/20 102 \	4	4	3D018	B60R  22/20	30	スライダがスプリングによって作動するロック手段を有するもの	having means to lock where slider operates by spring
+B60R  22/20 103 \	5	5	3D018	B60R  22/20	316	ロック手段がスライダ上に取り付けられるもの	means to lick is amountable to slider
+B60R  22/20 105 \	4	4	3D018	B60R  22/20	43	スライダが緊急時に作動するロック手段からなるもの	composed of means to lock where slider operates in emergency
+B60R  22/20 107 \	3	3	3D018	B60R  22/20	147	水平または横方向に調整できるもの	adjustable horizontally or sideways
+B60R  22/20 108 \	3	3	3D018	B60R  22/20	192	自動的または遠隔操作手段によって調整できるもの	adjustable by means of automatic or remote operation
+B60R  22/22  \	2	2	3D018	B60R  22/22	1490	車両の床に固定されるもの［４］	secured to the vehicle floor [4]
+B60R  22/24  \	2	2	3D018	B60R  22/24	3194	車両の側部，ドア，または屋根に固定されるもの［４］	secured to the side, door, or roof of the vehicle [4]
+B60R  22/26  \	2	2	3D018	B60R  22/26	3191	座席に固定されるもの［４］	secured to the seat [4]
+B60R  22/28  \	1	1	3D018	B60R  22/28	954	エネルギー吸収装置を備えるもの［４］	incorporating energy-absorbing devices [4]
+B60R  22/28 102 \	2	2	3D018	B60R  22/28	72	流体または粘弾性材料を用いるもの	uses fluid or viscoelastic materials
+B60R  22/28 103 \	2	2	3D018	B60R  22/28	128	材料の引き裂きまたは引っ掻きを用いるもの	uses tear or scratch of materials
+B60R  22/28 104 \	2	2	3D018	B60R  22/28	40	電気的または磁気制動手段を用いるもの	uses electric or magnetic braking means
+B60R  22/28 105 \	2	2	3D018	B60R  22/28	108	摩擦表面を用いるもの	uses friction surface
+B60R  22/28 106 \	2	2	3D018	B60R  22/28	561	材料の変形を用いるもの	uses deformation of materials
+B60R  22/28 107 \	3	3	3D018	B60R  22/28	502	ねじり棒または管であるもの	being torsion bar or tube
+B60R  22/30  \	1	1	3D018	B60R  22/30	245	バックル以外の連結装置で，長さを調節できる備品を含むもの［４］	Coupling devices other than buckles, including length-adjusting fittings [4]
+B60R  22/32  \	1	1	3D018	B60R  22/32	300	緊急時，例．事故後，の解除装置［４］	Devices for releasing in an emergency, e.g. after an accident [4]
+B60R  22/32 101 \	2	2	3D018	B60R  22/32	109	電気的手段を用いるもの	uses electrical means
+B60R  22/32 102 \	2	2	3D018	B60R  22/32	195	機械的手段を用いるもの	uses mechanical means
+B60R  22/32 104 \	3	3	3D018	B60R  22/32	18	ベルトに加わる強い引っ張りによって解除するもの	release by strong tension on belt
+B60R  22/32 105 \	2	2	3D018	B60R  22/32	22	遠隔操作手段を用いるもの	uses remote control means
+B60R  22/32 108 \	2	2	3D018	B60R  22/32	36	ベルトを切断するための手段からなるもの	composed of means to cut belt
+B60R  22/34  \	1	1	3D018	B60R  22/34	1535	ベルト巻取り器，例．リール（緊急時にベルトを引締める手段を有する係止装置Ｂ６０Ｒ２２／１９５）［４，７］	Belt retractors, e.g. reels [4]
+B60R  22/34 105 \	2	2	3D018	B60R  22/34	19	非回転型であるもの	being non-rotating type
+B60R  22/34 119 \	2	2	3D018	B60R  22/34	177	エンドロック防止手段を持つもの	having end lock prevention means
+B60R  22/34 121 \	2	2	3D018	B60R  22/34	16	非使用位置においてリールをロックするための手段をもつもの	having means to lock reel at not-in-use position
+B60R  22/34 124 \	2	2	3D018	B60R  22/34	153	多スプールまたは多ベルト巻き取り器	winding tool for multiple spool or multiple belt
+B60R  22/34 127 \	2	2	3D018	B60R  22/34	70	リール上のベルトの連結	connecting belt on reel
+B60R  22/343  \	2	2	3D018	B60R  22/343	150	電気的に作動するロック手段を有するもの［６］	with electrically actuated locking means
+B60R  22/347  \	2	2	3D018	B60R  22/347	42	ベルトの着用中に永続的に巻取り器をロックする手段を有するもの（Ｂ６０Ｒ２２／３４３，Ｂ６０Ｒ２２／４１５が優先）［６］	with means for permanently locking the retractor during the wearing of the belt (B60R 22/343, B60R 22/415 take precedence);;
+B60R  22/347 105 \	3	3	3D018	B60R  22/347	15	ベルトに対して直接作用する手段をもつもの，例．締め付けまたは摩擦によるもの	having means to directly act against belt, e.g. by squeeze or by friction
+B60R  22/35  \	3	3	3D018	B60R  22/35	60	自動的に作動するロック手段［６］	the locking means being automatically actuated
+B60R  22/353  \	4	4	3D018	B60R  22/353	109	着用者がベルトを装着するときのベルトの動きに反応するもの［６］	in response to belt movement when a wearer applies the belt
+B60R  22/357  \	4	4	3D018	B60R  22/357	16	ベルトバックルの締付けに反応するもの［６］	in response to fastening of the belt buckle
+B60R  22/36  \	2	2	3D018	B60R  22/36	910	緊急時に自己ロック性のもの（Ｂ６０Ｒ２２／３４３が優先）［４］	self-locking in an emergency (B60R 22/343 takes precedence) [4]
+B60R  22/38  \	3	3	3D018	B60R  22/38	625	ベルトの動きだけに反応するもの［４］	responsive only to belt movement [4]
+B60R  22/38 105 \	4	4	3D018	B60R  22/38	10	可変感度をもつもの	having variable sensitivity
+B60R  22/40  \	3	3	3D018	B60R  22/40	1364	車両の移動だけに反応するもの［４］	responsive only to vehicle movement [4]
+B60R  22/40 101 \	4	4	3D018	B60R  22/40	39	可変感知器をもつもの	having variable sensor
+B60R  22/40 102 \	5	5	3D018	B60R  22/40	96	自動的に調整して垂直位置を保持するもの，例．座席または車両の傾斜に関係の無いもの	automatically adjust and maintain vertical position, e.g. not related to inclination of seat or vehicle
+B60R  22/405  \	3	3	3D018	B60R  22/405	649	ベルトの動きと車両の移動に反応するもの［６］	responsive to belt movement and vehicle movement
+B60R  22/41  \	3	3	3D018	B60R  22/41	121	あらかじめ決めた条件のもとでロックを防ぐための付加的手段を有するもの［６］	with additional means for preventing locking under predetermined conditions
+B60R  22/415  \	3	3	3D018	B60R  22/415	74	ベルトの着用中に巻取り器の永続的ロックを可能にする付加手段を有するもの［６］	with additional means allowing a permanent locking of the retractor during the wearing of the belt
+B60R  22/42  \	3	3	3D018	B60R  22/42	555	ベルトに直接作用する装置，例．クランプまたは摩擦によるもの，を有するもの［４］	having means for acting directly upon the belt, e.g. by clamping or friction [4]
+B60R  22/44  \	2	2	3D018	B60R  22/44	119	通常時の使用中にベルトの張力を減ずる手段を有するもの［４］	with means for reducing belt tension during use under normal conditions [4]
+B60R  22/44 101 \	3	3	3D018	B60R  22/44	341	巻取りをロックするもの	to lock winding
+B60R  22/44 106 \	3	3	3D018	B60R  22/44	55	バネの形状；バネの特性によるもの	spring shape; by special quality of spring
+B60R  22/44 113 \	3	3	3D018	B60R  22/44	70	収縮バネを動力伝達装置を用いてリールに接続することによるもので，この動力伝達装置によってベルトが引き出されたときにバネ力が減少するもの，例．円錐状の滑車を用いるもの	using power transmitting device connecting contracting sprinig to reel to pull out belt causes decrease in spring strength, e.g. using cone shaped pulley
+B60R  22/44 120 \	3	3	3D018	B60R  22/44	4	バネと付加的巻き込み装置を並列に用いるもの	use spring and additional winding device in parallel
+B60R  22/44 126 \	4	4	3D018	B60R  22/44	102	付加的巻き込み装置がバネであるもの	additional winding device being spring
+B60R  22/44 140 \	4	4	3D018	B60R  22/44	78	付加的巻き込み装置が電気式アクチュエータであるもの	additional winding device being electric actuator
+B60R  22/44 146 \	3	3	3D018	B60R  22/44	6	バネと付加的巻き込み装置を直列に用いるもの	use spring and additional winding device in series
+B60R  22/44 153 \	4	4	3D018	B60R  22/44	105	付加的巻き込み装置がバネであるもの	additional winding device being spring
+B60R  22/44 166 \	4	4	3D018	B60R  22/44	77	付加的巻き込み装置が電気式アクチュエータであるもの	additional winding device being electric actuator
+B60R  22/44 173 \	3	3	3D018	B60R  22/44	99	電気式巻き込み装置のみを用いるもの	use only electric winding device
+B60R  22/46  \	2	2	3D018	B60R  22/46	2832	緊急時にベルトを引き締める手段を有するもの［４，７］	with means to tension the belt in an emergency [4]
+B60R  22/46 119 \	3	3	3D018	B60R  22/46	223	ケーブルの力によって張力を伝達するもの	transmit tension by cable strength
+B60R  22/46 128 \	3	3	3D018	B60R  22/46	961	流体アクチュエータを有するもの	having fluid actuator
+B60R  22/46 142 \	4	4	3D018	B60R  22/46	268	柔軟な駆動手段をガスによって直接推進させるもの，例．管状の小室内の複数の連続質量体をガスによって推進させるもの	directly thrust flexible driving means by gas, e.g. thrust multiple continuous mass in small chambers in tubular state
+B60R  22/46 161 \	4	4	3D018	B60R  22/46	57	通気手段からなるもの，例．火災時の過剰圧力を避けるためのもの，またはエネルギー吸収により復帰運動を許容するためのもの	composed of ventilation means, e.g. to avooid excess presure at times of fire, or to allow return movement by energy absorption
+B60R  22/46 166 \	3	3	3D018	B60R  22/46	665	電気式アクチュエータを有するもの	having electric actuator
+B60R  22/46 185 \	3	3	3D018	B60R  22/46	121	外部パラメータに基づいて，張力を調整する手段をもつもの	having means to adjust tension based on external parameter
+B60R  22/48  \	1	1	3D018	B60R  22/48	245	ベルトまたは装具の正しい適用のための制御装置，警報，またはインターロック装置［４］	Control systems, alarms, or interlock systems, for the correct application of the belt or harness [4]
+B60R  22/48 101 \	2	2	3D018	B60R  22/48	288	インタ−ロック装置	inter lock device
+B60R  22/48 102 \	2	2	3D018	B60R  22/48	1231	巻取器に関するもの	related to winder
+B60R  22/48 103 \	2	2	3D018	B60R  22/48	1403	スイッチ機構またはセンサに特徴があるもの	characterized by switch mechanizm or sensor
+B60R  22/48 104 \	3	3	3D018	B60R  22/48	477	バックルまたはラッチ機構に特徴があるもの	characterized by buckle or latch mechanizm
+B60R  22/48 105 \	2	2	3D018	B60R  22/48	846	警報装置	alarm device
+B60R  22/48 106 \	2	2	3D018	B60R  22/48	450	電気回路に特徴のあるもの	characterized by electric circuit
+B60R  25/00  \	0	0	3D019	B60R  25/00	724	車両の無断使用や盗難を防いだり知らせたりする付属品またはシステム（車両用の錠Ｅ０５Ｂ７７／００〜Ｅ０５Ｂ８５／００）［５，２０１３．０１］	Fittings or systems for preventing or indicating unauthorised use or theft of vehicles (locks for vehicles E05B 77/00-E05B 85/00) [5,2013.01]
+B60R  25/01  \	1	1	3D019	B60R  25/01	1186	車両システムまたは車両付属品に作用するもの，例．ドア，座席またはフロントガラス［２０１３．０１］	operating on vehicle systems or fittings, e.g. on doors, seats or windscreens [2013.01]
+B60R  25/02  \	2	2	3D019	B60R  25/02	1028	操向機構に作用するもの［１，２０１３．０１］	operating on the steering mechanism [1,2013.01]
+B60R  25/021  \	3	3	3D019	B60R  25/021	1074	ステアリングコラムまたはステアリングホイールハブの動きを制限するもの，例．イグニション・スイッチによって制御された規制手段［２０１３．０１］	restraining movement of the steering column or steering wheel hub, e.g. restraining means controlled by ignition switch [2013.01]
+B60R  25/0215  \	4	4	3D019	B60R  25/0215	817	電気的手段の使用によるもの，例．電気モータ，ソレノイド［２０１３．０１］	using electric means, e.g. electric motors or solenoids [2013.01]
+B60R  25/022  \	3	3	3D019	B60R  25/022	100	ステアリングホイールに作用するもの，例．ステアリングホイールのリム上にロックされた棒（Ｂ６０Ｒ２５／０２１が優先）［２０１３．０１］	operating on the steering wheel, e.g. bars locked to the steering wheel rim () [2013.01]
+B60R  25/023  \	3	3	3D019	B60R  25/023	192	ステアリングロックの物理的な破壊に対抗する手段［２０１３．０１］	Countermeasures against the physical destruction of the steering lock [2013.01]
+B60R  25/04  \	2	2	3D019	B60R  25/04	1196	推進システム，例．エンジンまたは駆動モータ，に作用するもの［１，２０１３．０１］	operating on the propulsion system, e.g. engine or drive motor [1,2013.01]
+B60R  25/042  \	3	3	3D019	B60R  25/042	184	燃料の供給に作用するもの［２０１３．０１］	operating on the fuel supply [2013.01]
+B60R  25/043  \	3	3	3D019	B60R  25/043	9	排気を妨げることによるもの［２０１３．０１］	by blocking the exhaust [2013.01]
+B60R  25/044  \	3	3	3D019	B60R  25/044	14	空気の供給を制限または妨げることによるもの［２０１３．０１］	by limiting or blocking the air supply [2013.01]
+B60R  25/045  \	3	3	3D019	B60R  25/045	565	推進ユニットへの電気の供給を制限または切断することによるもの［２０１３．０１］	by limiting or cutting the electrical supply to the propulsion unit [2013.01]
+B60R  25/06  \	3	3	3D019	B60R  25/06	413	トランスミッションに作用するもの	operating on the vehicle transmission
+B60R  25/08  \	2	2	3D019	B60R  25/08	194	制動装置に作用するもの	operating on brakes or brake systems
+B60R  25/09  \	2	2	3D019	B60R  25/09	110	車輪の回転の制限によるもの，例．車輪クランプ［２０１３．０１］	by restraining wheel rotation, e.g. wheel clamps [2013.01]
+B60R  25/10  \	1	1	3D019	B60R  25/10	2238	信号装置を作動させるもの［１，２０１３．０１］	actuating a signalling device [1,2013.01]
+B60R  25/102  \	2	2	3D019	B60R  25/102	1123	遠隔地へ送られる信号，例．警察署，警備会社または所有者へ送られる無線信号［２０１３．０１］	a signal being sent to a remote location, e.g. a radio signal being transmitted to a police station, a security company or the owner [2013.01]
+B60R  25/104  \	2	2	3D019	B60R  25/104	812	盗難警報信号のタイプにより特徴付けられるもの，例．特別な特徴のある可視または可聴信号［２０１３．０１］	characterised by the type of theft warning signal, e.g. visual or audible signals with special characteristics [2013.01]
+B60R  25/20  \	1	1	3D019	B60R  25/20	385	盗難防止システムをオンまたはオフにスイッチする手段［２０１３．０１］	Means to switch the anti-theft system on or off [2013.01]
+B60R  25/21  \	2	2	3D019	B60R  25/21	135	隠されたスイッチを用いるもの［２０１３．０１］	using hidden switches [2013.01]
+B60R  25/22  \	2	2	3D019	B60R  25/22	405	機械的な識別子を用いるもの［２０１３．０１］	using mechanical identifiers [2013.01]
+B60R  25/23  \	2	2	3D019	B60R  25/23	748	英数字記号の手動入力を用いるもの［２０１３．０１］	using manual input of alphanumerical codes [2013.01]
+B60R  25/24  \	2	2	3D019	B60R  25/24	7478	ユーザーによって記憶されない記号を含む電子的な識別子を用いるもの［２０１３．０１］	using electronic identifiers containing a code not memorised by the user [2013.01]
+B60R  25/25  \	2	2	3D019	B60R  25/25	634	バイオメトリクスを用いるもの［２０１３．０１］	using biometry [2013.01]
+B60R  25/30  \	1	1	3D019	B60R  25/30	889	盗難に関連した検知または盗難防止システムに関係ある他の事象に関連した検知［２０１３．０１］	Detection related to theft or to other events relevant to anti-theft systems [2013.01]
+B60R  25/31  \	2	2	3D019	B60R  25/31	1348	車両の内部または外部の人間の存在の検知［２０１３．０１］	of human presence inside or outside the vehicle [2013.01]
+B60R  25/32  \	2	2	3D019	B60R  25/32	738	車両の動的パラメータ，例．速度または加速度，の検知［２０１３．０１］	of vehicle dynamic parameters, e.g. speed or acceleration [2013.01]
+B60R  25/33  \	2	2	3D019	B60R  25/33	605	地球上の位置の検知，例．ＧＰＳ座標の提供によるもの［２０１３．０１］	of global position, e.g. by providing GPS coordinates [2013.01]
+B60R  25/34  \	2	2	3D019	B60R  25/34	1603	車両の部品，例．窓，ドアロックまたはギヤ・セレクタ，の状態の検知［２０１３．０１］	of conditions of vehicle components, e.g. of windows, door locks or gear selectors [2013.01]
+B60R  25/40  \	1	1	3D019	B60R  25/40	1016	盗難防止システムのための動力供給に関する特徴，例．盗難防止バッテリー，動力供給源のバックアップまたはバッテリーの電力を節約する手段［２０１３．０１］	Features of the power supply for the anti-theft system, e.g. anti-theft batteries, back-up power supply or means to save battery power [2013.01]
+B60R  99/00  \	0	0	3D019	B60R  99/00	1219	このサブクラスの他のグループに分類されない主題事項　［２００９．０１］	Subject matter not provided for in other groups of this subclass [2009.01]
+B60R  99/00 310 \	1	1	3D019	B60R  99/00	116	駐車支援に関するもの	relating to parking assistance
+B60R  99/00 320 \	2	2	3D019	B60R  99/00	285	周辺環境の認知	recognition of peripheral environment
+B60R  99/00 321 \	3	3	3D019	B60R  99/00	424	白線，マークまたは標識の検出によるもの	by detecting white line, marks or signs
+B60R  99/00 322 \	3	3	3D019	B60R  99/00	1019	物体の検出によるもの，例．他車両，障害物，縁石または輪止め	by detecting objects, e.g. other vehicles, obstacles, curbs or wheel stoppers
+B60R  99/00 330 \	2	2	3D019	B60R  99/00	894	駐車スペースの認知または設定	recognition or setting of parking spaces
+B60R  99/00 340 \	2	2	3D019	B60R  99/00	851	駐車経路の算出または設定	calculation or setting of route to park
+B60R  99/00 350 \	2	2	3D019	B60R  99/00	172	ユーザーインターフェース	User interface
+B60R  99/00 351 \	3	3	3D019	B60R  99/00	1484	視覚によるもの	by vision
+B60R  99/00 352 \	3	3	3D019	B60R  99/00	352	聴覚によるもの	by hearing
+B60R  99/00 353 \	3	3	3D019	B60R  99/00	55	触覚によるもの	by touch
+B60R  99/00 360 \	2	2	3D019	B60R  99/00	275	外部との通信を用いるもの，例．駐車場側設備との通信，車々間通信，歩車間通信またはＧＰＳ座標の利用	using external communication, e.g. communication with parking facility, inter-vehicle communication, inter-pedestrian/vehicle communication or use of GPs coordinates
+B60R  99/00 370 \	2	2	3D019	B60R  99/00	56	駐車レイアウト	Parking layout
+B60R  99/00 371 \	3	3	3D019	B60R  99/00	84	並列駐車	Parallel parking
+B60R  99/00 372 \	3	3	3D019	B60R  99/00	106	縦列駐車	In-line parking

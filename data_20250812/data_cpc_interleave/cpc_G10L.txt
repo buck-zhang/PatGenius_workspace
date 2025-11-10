@@ -1,0 +1,237 @@
+G10L13/00	7	Speech synthesis; Text to speech systems	G10L13/00	G10L13/00		3488
+G10L13/02	8	Methods for producing synthetic speech; Speech synthesisers	G10L13/02	G10L13/02		3759
+G10L2013/021	9	{Overlap-add techniques}	G10L13/02	G10L13/02		123
+G10L13/027	9	Concept to speech synthesisers; Generation of natural phrases from machine-based concepts (generation of parameters for speech synthesis out of text G10L13/08)	G10L13/027	G10L13/027		1221
+G10L13/033	9	Voice editing, e.g. manipulating the voice of the synthesiser	G10L13/033	G10L13/033		1785
+G10L13/0335	10	{Pitch control}	G10L13/033	G10L13/033		290
+G10L13/04	9	Details of speech synthesis systems, e.g. synthesiser structure or memory management	G10L13/04	G10L13/04		1379
+G10L13/047	10	Architecture of speech synthesisers	G10L13/047	G10L13/047		1157
+G10L13/06	8	Elementary speech units used in speech synthesisers; Concatenation rules	G10L13/06	G10L13/06		562
+G10L13/07	9	Concatenation rules	G10L13/07	G10L13/07		220
+G10L13/08	8	Text analysis or generation of parameters for speech synthesis out of text, e.g. grapheme to phoneme translation, prosody generation or stress or intonation determination	G10L13/08	G10L13/08		5016
+G10L2013/083	9	{Special characters, e.g. punctuation marks}	G10L13/08	G10L13/08		121
+G10L13/086	9	{Detection of language}	G10L13/08	G10L13/08		237
+G10L13/10	9	Prosody rules derived from text; Stress or intonation	G10L13/10	G10L13/10		1296
+G10L2013/105	10	{Duration}	G10L13/10	G10L13/10		135
+G10L15/00	7	Speech recognition (G10L17/00 takes precedence)	G10L15/00	G10L15/00		2473
+G10L15/005	8	{Language recognition}	G10L15/00	G10L15/00		2330
+G10L15/01	8	Assessment or evaluation of speech recognition systems	G10L15/01	G10L15/01		1260
+G10L15/02	8	Feature extraction for speech recognition; Selection of recognition unit	G10L15/02	G10L15/02		8773
+G10L2015/022	9	{Demisyllables, biphones or triphones being the recognition units}	G10L15/02	G10L15/02		67
+G10L2015/025	9	{Phonemes, fenemes or fenones being the recognition units}	G10L15/02	G10L15/02		1960
+G10L2015/027	9	{Syllables being the recognition units}	G10L15/02	G10L15/02		279
+G10L15/04	8	Segmentation; Word boundary detection	G10L15/04	G10L15/04		3045
+G10L15/05	9	Word boundary detection	G10L15/05	G10L15/05		528
+G10L15/06	8	Creation of reference templates; Training of speech recognition systems, e.g. adaptation to the characteristics of the speaker&apos;s voice (G10L15/14 takes precedence)	G10L15/06	G10L15/06		1305
+G10L15/063	9	{Training}	G10L15/06	G10L15/06		8908
+G10L2015/0631	10	{Creating reference templates; Clustering}	G10L15/06	G10L15/06		1365
+G10L2015/0633	11	{using lexical or orthographic knowledge sources}	G10L15/06	G10L15/06		192
+G10L2015/0635	10	{updating or merging of old and new templates; Mean values; Weighting}	G10L15/06	G10L15/06		856
+G10L2015/0636	11	{Threshold criteria for the updating}	G10L15/06	G10L15/06		118
+G10L2015/0638	10	{Interactive procedures}	G10L15/06	G10L15/06		474
+G10L15/065	9	Adaptation	G10L15/065	G10L15/065		594
+G10L15/07	10	to the speaker	G10L15/07	G10L15/07		984
+G10L15/075	11	{supervised, i.e. under machine guidance}	G10L15/07	G10L15/07		114
+G10L15/08	8	Speech classification or search	G10L15/08	G10L15/08		5038
+G10L2015/081	9	{Search algorithms, e.g. Baum-Welch or Viterbi}	G10L15/08	G10L15/08		191
+G10L15/083	9	{Recognition networks (G10L15/142, G10L15/16 take precedence)}	G10L15/08	G10L15/08		467
+G10L2015/085	9	{Methods for reducing search complexity, pruning}	G10L15/08	G10L15/08		147
+G10L2015/086	9	{Recognition of spelled words}	G10L15/08	G10L15/08		121
+G10L2015/088	9	{Word spotting}	G10L15/08	G10L15/08		3718
+G10L15/10	9	using distance or distortion measures between unknown speech and reference templates	G10L15/10	G10L15/10		1365
+G10L15/12	9	using dynamic programming techniques, e.g. dynamic time warping [DTW]	G10L15/12	G10L15/12		297
+G10L15/14	9	using statistical models, e.g. Hidden Markov Models [HMMs] (G10L15/18 takes precedence)	G10L15/14	G10L15/14		990
+G10L15/142	10	{Hidden Markov Models [HMMs]}	G10L15/14	G10L15/14		924
+G10L15/144	11	{Training of HMMs}	G10L15/14	G10L15/14		519
+G10L15/146	12	{with insufficient amount of training data, e.g. state sharing, tying, deleted interpolation}	G10L15/14	G10L15/14		22
+G10L15/148	11	{Duration modelling in HMMs, e.g. semi HMM, segmental models or transition probabilities}	G10L15/14	G10L15/14		85
+G10L15/16	9	using artificial neural networks	G10L15/16	G10L15/16		6781
+G10L15/18	9	using natural language modelling	G10L15/18	G10L15/18		2403
+G10L15/1807	10	{using prosody or stress}	G10L15/18	G10L15/18		288
+G10L15/1815	10	{Semantic context, e.g. disambiguation of the recognition hypotheses based on word meaning}	G10L15/18	G10L15/18		3033
+G10L15/1822	10	{Parsing for meaning understanding}	G10L15/18	G10L15/18		4418
+G10L15/183	10	using context dependencies, e.g. language models	G10L15/183	G10L15/183		2374
+G10L15/187	11	Phonemic context, e.g. pronunciation rules, phonotactical constraints or phoneme n-grams	G10L15/187	G10L15/187		1028
+G10L15/19	11	Grammatical context, e.g. disambiguation of the recognition hypotheses based on word sequence rules	G10L15/19	G10L15/19		635
+G10L15/193	12	Formal grammars, e.g. finite state automata, context free grammars or word networks	G10L15/193	G10L15/193		385
+G10L15/197	12	Probabilistic grammars, e.g. word n-grams	G10L15/197	G10L15/197		791
+G10L15/20	8	Speech recognition techniques specially adapted for robustness in adverse environments, e.g. in noise, of stress induced speech (G10L21/02 takes precedence)	G10L15/20	G10L15/20		3002
+G10L15/22	8	Procedures used during a speech recognition process, e.g. man-machine dialogue	G10L15/22	G10L15/22		31619
+G10L2015/221	9	{Announcement of recognition results}	G10L15/22	G10L15/22		944
+G10L15/222	9	{Barge in, i.e. overridable guidance for interrupting prompts}	G10L15/22	G10L15/22		203
+G10L2015/223	9	{Execution procedure of a spoken command}	G10L15/22	G10L15/22		16339
+G10L2015/225	9	{Feedback of the input speech}	G10L15/22	G10L15/22		3489
+G10L2015/226	9	{using non-speech characteristics}	G10L15/22	G10L15/22		620
+G10L2015/227	10	{of the speaker;  Human-factor methodology}	G10L15/22	G10L15/22		943
+G10L2015/228	10	{of application context}	G10L15/22	G10L15/22		2061
+G10L15/24	8	Speech recognition using non-acoustical features	G10L15/24	G10L15/24		889
+G10L15/25	9	using position of the lips, movement of the lips or face analysis	G10L15/25	G10L15/25		1155
+G10L15/26	8	Speech to text systems (G10L15/08 takes precedence)	G10L15/26	G10L15/26		24595
+G10L15/28	8	Constructional details of speech recognition systems	G10L15/28	G10L15/28		2039
+G10L15/285	9	{Memory allocation or algorithm optimisation to reduce hardware requirements}	G10L15/28	G10L15/28		280
+G10L15/30	9	Distributed recognition, e.g. in client-server systems, for mobile phones or network applications	G10L15/30	G10L15/30		5857
+G10L15/32	9	Multiple recognisers used in sequence or in parallel; Score combination systems therefor, e.g. voting systems	G10L15/32	G10L15/32		1236
+G10L15/34	9	Adaptation of a single recogniser for parallel processing, e.g. by use of multiple processors or cloud computing	G10L15/34	G10L15/34		586
+G10L17/00	7	Speaker identification or verification techniques	G10L17/00	G10L17/00		3807
+G10L17/02	8	Preprocessing operations, e.g. segment selection; Pattern representation or modelling, e.g. based on linear discriminant analysis [LDA] or principal components; Feature selection or extraction	G10L17/02	G10L17/02		3661
+G10L17/04	8	Training, enrolment or model building	G10L17/04	G10L17/04		3380
+G10L17/06	8	Decision making techniques; Pattern matching strategies	G10L17/06	G10L17/06		1635
+G10L17/08	9	Use of distortion metrics or a particular distance between probe pattern and reference templates	G10L17/08	G10L17/08		612
+G10L17/10	9	Multimodal systems, i.e. based on the integration of multiple recognition engines or fusion of expert systems	G10L17/10	G10L17/10		269
+G10L17/12	9	Score normalisation	G10L17/12	G10L17/12		159
+G10L17/14	9	Use of phonemic categorisation or speech recognition prior to speaker recognition or verification	G10L17/14	G10L17/14		725
+G10L17/16	8	Hidden Markov models [HMM]	G10L17/16	G10L17/16		131
+G10L17/18	8	Artificial neural networks; Connectionist approaches	G10L17/18	G10L17/18		1744
+G10L17/20	8	Pattern transformations or operations aimed at increasing system robustness, e.g. against channel noise or different working conditions	G10L17/20	G10L17/20		432
+G10L17/22	8	Interactive procedures; Man-machine interfaces	G10L17/22	G10L17/22		3084
+G10L17/24	9	the user being prompted to utter a password or a predefined phrase	G10L17/24	G10L17/24		1221
+G10L17/26	8	Recognition of special voice characteristics, e.g. for use in lie detectors; Recognition of animal voices	G10L17/26	G10L17/26		1826
+G10L19/00	7	Speech or audio signals analysis-synthesis techniques for redundancy reduction, e.g. in vocoders; Coding or decoding of speech or audio signals, using source filter models or psychoacoustic analysis (in musical instruments G10H)	G10L19/00	G10L19/00		2112
+G10L2019/0001	8	{Codebooks}	G10L19/00	G10L19/00		122
+G10L2019/0002	9	{Codebook adaptations}	G10L19/00	G10L19/00		116
+G10L2019/0003	9	{Backward prediction of gain}	G10L19/00	G10L19/00		52
+G10L2019/0004	9	{Design or structure of the codebook}	G10L19/00	G10L19/00		65
+G10L2019/0005	10	{Multi-stage vector quantisation}	G10L19/00	G10L19/00		192
+G10L2019/0006	10	{Tree or treillis structures; Delayed decisions}	G10L19/00	G10L19/00		8
+G10L2019/0007	9	{Codebook element generation}	G10L19/00	G10L19/00		86
+G10L2019/0008	10	{Algebraic codebooks}	G10L19/00	G10L19/00		50
+G10L2019/0009	10	{Orthogonal codebooks}	G10L19/00	G10L19/00		1
+G10L2019/001	10	{Interpolation of codebook vectors}	G10L19/00	G10L19/00		8
+G10L2019/0011	9	{Long term prediction filters, i.e. pitch estimation}	G10L19/00	G10L19/00		152
+G10L2019/0012	9	{Smoothing of parameters of the decoder interpolation}	G10L19/00	G10L19/00		71
+G10L2019/0013	9	{Codebook search algorithms}	G10L19/00	G10L19/00		176
+G10L2019/0014	10	{Selection criteria for distances}	G10L19/00	G10L19/00		53
+G10L2019/0015	10	{Viterbi algorithms}	G10L19/00	G10L19/00		7
+G10L2019/0016	9	{Codebook for LPC parameters}	G10L19/00	G10L19/00		52
+G10L19/0017	8	{Lossless audio signal coding; Perfect reconstruction of coded audio signal by transmission of coding error (G10L19/24 takes precedence)}	G10L19/00	G10L19/00		588
+G10L19/0018	8	{Speech coding using phonetic or linguistical decoding of the source; Reconstruction using text-to-speech synthesis}	G10L19/00	G10L19/00		433
+G10L19/002	8	Dynamic bit allocation (for perceptual audio coders G10L19/032)	G10L19/002	G10L19/002		508
+G10L19/005	8	Correction of errors induced by the transmission channel, if related to the coding algorithm	G10L19/005	G10L19/005		1236
+G10L19/008	8	Multichannel audio signal coding or decoding using interchannel correlation to reduce redundancy, e.g. joint-stereo, intensity-coding or matrixing	G10L19/008	G10L19/008		3698
+G10L19/012	8	Comfort noise or silence coding	G10L19/012	G10L19/012		510
+G10L19/018	8	Audio watermarking, i.e. embedding inaudible data in the audio signal	G10L19/018	G10L19/018		1462
+G10L19/02	8	using spectral analysis, e.g. transform vocoders or subband vocoders	G10L19/02	G10L19/02		2058
+G10L19/0204	9	{using subband decomposition}	G10L19/02	G10L19/02		899
+G10L19/0208	10	{Subband vocoders}	G10L19/02	G10L19/02		368
+G10L19/0212	9	{using orthogonal transformation}	G10L19/02	G10L19/02		951
+G10L19/0216	10	{using wavelet decomposition}	G10L19/02	G10L19/02		132
+G10L19/022	9	Blocking, i.e. grouping of samples in time; Choice of analysis windows; Overlap factoring	G10L19/022	G10L19/022		521
+G10L19/025	10	Detection of transients or attacks for time/frequency resolution switching	G10L19/025	G10L19/025		225
+G10L19/028	9	Noise substitution, i.e. substituting non-tonal spectral components by noisy source (comfort noise for discontinuous speech transmission G10L19/012)	G10L19/028	G10L19/028		166
+G10L19/03	9	Spectral prediction for preventing pre-echo; Temporary noise shaping [TNS], e.g. in MPEG2 or MPEG4	G10L19/03	G10L19/03		101
+G10L19/032	9	Quantisation or dequantisation of spectral components	G10L19/032	G10L19/032		762
+G10L19/035	10	Scalar quantisation	G10L19/035	G10L19/035		233
+G10L19/038	10	Vector quantisation, e.g. TwinVQ audio	G10L19/038	G10L19/038		498
+G10L19/04	8	using predictive techniques	G10L19/04	G10L19/04		919
+G10L19/06	9	Determination or coding of the spectral characteristics, e.g. of the short-term prediction coefficients	G10L19/06	G10L19/06		668
+G10L19/07	10	Line spectrum pair [LSP] vocoders	G10L19/07	G10L19/07		258
+G10L19/08	9	Determination or coding of the excitation function; Determination or coding of the long-term prediction parameters	G10L19/08	G10L19/08		426
+G10L19/083	10	the excitation function being an excitation gain (G10L25/90 takes precedence)	G10L19/083	G10L19/083		168
+G10L19/087	10	using mixed excitation models, e.g. MELP, MBE, split band LPC or HVXC	G10L19/087	G10L19/087		101
+G10L19/09	10	Long term prediction, i.e. removing periodical redundancies, e.g. by using adaptive codebook or pitch predictor	G10L19/09	G10L19/09		260
+G10L19/093	10	using sinusoidal excitation models	G10L19/093	G10L19/093		110
+G10L19/097	10	using prototype waveform decomposition or prototype waveform interpolative [PWI] coders	G10L19/097	G10L19/097		55
+G10L19/10	10	the excitation function being a multipulse excitation	G10L19/10	G10L19/10		292
+G10L19/107	11	Sparse pulse excitation, e.g. by using algebraic codebook	G10L19/107	G10L19/107		88
+G10L19/113	11	Regular pulse excitation	G10L19/113	G10L19/113		23
+G10L19/12	10	the excitation function being a code excitation, e.g. in code excited linear prediction [CELP] vocoders	G10L19/12	G10L19/12		707
+G10L19/125	11	Pitch excitation, e.g. pitch synchronous innovation CELP [PSI-CELP]	G10L19/125	G10L19/125		111
+G10L19/13	11	Residual excited linear prediction [RELP]	G10L19/13	G10L19/13		41
+G10L19/135	11	Vector sum excited linear prediction [VSELP]	G10L19/135	G10L19/135		32
+G10L19/16	9	Vocoder architecture	G10L19/16	G10L19/16		942
+G10L19/167	10	{Audio streaming, i.e. formatting and decoding of an encoded audio signal representation into a data stream for transmission or storage purposes}	G10L19/16	G10L19/16		1349
+G10L19/173	10	{Transcoding, i.e. converting between two coded representations avoiding cascaded coding-decoding}	G10L19/16	G10L19/173		470
+G10L19/18	10	Vocoders using multiple modes	G10L19/18	G10L19/18		595
+G10L19/20	11	using sound class specific coding, hybrid encoders or object based coding	G10L19/20	G10L19/20		483
+G10L19/22	11	Mode decision, i.e. based on audio signal content versus external parameters	G10L19/22	G10L19/22		471
+G10L19/24	11	Variable rate codecs, e.g. for generating different qualities using a scalable representation such as hierarchical encoding or layered encoding	G10L19/24	G10L19/24		1057
+G10L19/26	9	Pre-filtering or post-filtering	G10L19/26	G10L19/26		1056
+G10L19/265	10	{Pre-filtering, e.g. high frequency emphasis prior to encoding}	G10L19/26	G10L19/26		218
+G10L21/00	7	Speech or voice signal processing techniques to produce another audible or non-audible signal, e.g. visual or tactile, in order to modify its quality or its intelligibility (G10L19/00 takes precedence)	G10L21/00	G10L21/00		681
+G10L21/003	8	Changing voice quality, e.g. pitch or formants	G10L21/003	G10L21/003		888
+G10L21/007	9	characterised by the process used	G10L21/007	G10L21/007		746
+G10L21/01	10	Correction of time axis	G10L21/01	G10L21/01		142
+G10L21/013	10	Adapting to target pitch	G10L21/013	G10L21/013		581
+G10L2021/0135	11	{Voice conversion or morphing}	G10L21/013	G10L21/013		738
+G10L21/02	8	Speech enhancement, e.g. noise reduction or echo cancellation (reducing echo effects in line transmission systems H04B3/20; echo suppression in hands-free telephones H04M9/08)	G10L21/02	G10L21/02		2296
+G10L21/0208	9	Noise filtering	G10L21/0208	G10L21/0208		8842
+G10L2021/02082	10	{the noise being echo, reverberation of the speech}	G10L21/0208	G10L21/0208		2560
+G10L2021/02085	10	{Periodic noise}	G10L21/0208	G10L21/0208		105
+G10L2021/02087	10	{the noise being separate speech, e.g. cocktail party}	G10L21/0208	G10L21/0208		655
+G10L21/0216	10	characterised by the method used for estimating noise	G10L21/0216	G10L21/0216		3325
+G10L2021/02161	11	{Number of inputs available containing the signal or the noise to be suppressed}	G10L21/0216	G10L21/0216		156
+G10L2021/02163	12	{Only one microphone}	G10L21/0216	G10L21/0216		230
+G10L2021/02165	12	{Two microphones, one receiving mainly the noise signal and the other one mainly the speech signal}	G10L21/0216	G10L21/0216		801
+G10L2021/02166	12	{Microphone arrays; Beamforming}	G10L21/0216	G10L21/0216		2596
+G10L2021/02168	11	{the estimation exclusively taking place during speech pauses}	G10L21/0216	G10L21/0216		125
+G10L21/0224	11	Processing in the time domain	G10L21/0224	G10L21/0224		811
+G10L21/0232	11	Processing in the frequency domain	G10L21/0232	G10L21/0232		3256
+G10L21/0264	10	characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques	G10L21/0264	G10L21/0264		1013
+G10L21/0272	9	Voice signal separating	G10L21/0272	G10L21/0272		2539
+G10L21/028	10	using properties of sound source	G10L21/028	G10L21/028		821
+G10L21/0308	10	characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques	G10L21/0308	G10L21/0308		488
+G10L21/0316	9	by changing the amplitude	G10L21/0316	G10L21/0316		644
+G10L21/0324	10	Details of processing therefor	G10L21/0324	G10L21/0324		140
+G10L21/0332	11	involving modification of waveforms	G10L21/0332	G10L21/0332		116
+G10L21/034	11	Automatic adjustment	G10L21/034	G10L21/034		504
+G10L21/0356	10	for synchronising with other signals, e.g. video signals	G10L21/0356	G10L21/0356		114
+G10L21/0364	10	for improving intelligibility	G10L21/0364	G10L21/0364		1107
+G10L2021/03643	11	{Diver speech}	G10L21/0364	G10L21/0364		20
+G10L2021/03646	11	{Stress or Lombard effect}	G10L21/0364	G10L21/0364		33
+G10L21/038	9	using band spreading techniques	G10L21/038	G10L21/038		800
+G10L21/0388	10	Details of processing therefor	G10L21/0388	G10L21/0388		171
+G10L21/04	8	Time compression or expansion	G10L21/04	G10L21/04		604
+G10L21/043	9	by changing speed	G10L21/043	G10L21/043		197
+G10L21/045	10	using thinning out or insertion of a waveform	G10L21/045	G10L21/045		30
+G10L21/047	11	characterised by the type of waveform to be thinned out or inserted	G10L21/047	G10L21/047		16
+G10L21/049	11	characterised by the interconnection of waveforms	G10L21/049	G10L21/049		6
+G10L21/055	9	for synchronising with other signals, e.g. video signals	G10L21/055	G10L21/055		346
+G10L21/057	9	for improving intelligibility	G10L21/057	G10L21/057		113
+G10L2021/0575	10	{Aids for the handicapped in speaking}	G10L21/057	G10L21/057		80
+G10L21/06	8	Transformation of speech into a non-audible representation, e.g. speech visualisation or speech processing for tactile aids (G10L15/26 takes precedence)	G10L21/06	G10L21/06		633
+G10L2021/065	9	{Aids for the handicapped in understanding}	G10L21/06	G10L21/06		285
+G10L21/10	9	Transforming into visible information	G10L21/10	G10L21/10		1448
+G10L2021/105	10	{Synthesis of the lips movements from speech, e.g. for talking heads}	G10L21/10	G10L21/10		634
+G10L21/12	10	by displaying time domain information	G10L21/12	G10L21/12		100
+G10L21/14	10	by displaying frequency domain information	G10L21/14	G10L21/14		178
+G10L21/16	9	Transforming into a non-visible representation (devices or methods enabling ear patients to replace direct auditory perception by another kind of perception A61F11/04)	G10L21/16	G10L21/16		142
+G10L21/18	9	Details of the transformation process	G10L21/18	G10L21/18		102
+G10L25/00	7	Speech or voice analysis techniques not restricted to a single one of groups G10L15/00 - G10L21/00(muting semiconductor-based amplifiers when some special characteristics of a signal are sensed by a speech detector, e.g. sensing when no signal is present, H03G3/34)	G10L25/00	G10L25/00		453
+G10L25/03	8	characterised by the type of extracted parameters	G10L25/03	G10L25/03		3485
+G10L25/06	9	the extracted parameters being correlation coefficients	G10L25/06	G10L25/06		562
+G10L25/09	9	the extracted parameters being zero crossing rates	G10L25/09	G10L25/09		180
+G10L25/12	9	the extracted parameters being prediction coefficients	G10L25/12	G10L25/12		389
+G10L25/15	9	the extracted parameters being formant information	G10L25/15	G10L25/15		525
+G10L25/18	9	the extracted parameters being spectral information of each sub-band	G10L25/18	G10L25/18		4717
+G10L25/21	9	the extracted parameters being power information	G10L25/21	G10L25/21		1758
+G10L25/24	9	the extracted parameters being the cepstrum	G10L25/24	G10L25/24		3802
+G10L25/27	8	characterised by the analysis technique	G10L25/27	G10L25/27		2461
+G10L25/30	9	using neural networks	G10L25/30	G10L25/30		8632
+G10L25/33	9	using fuzzy logic	G10L25/33	G10L25/33		48
+G10L25/36	9	using chaos theory	G10L25/36	G10L25/36		21
+G10L25/39	9	using genetic algorithms	G10L25/39	G10L25/39		35
+G10L25/45	8	characterised by the type of analysis window	G10L25/45	G10L25/45		910
+G10L25/48	8	specially adapted for particular use	G10L25/48	G10L25/48		2815
+G10L25/51	9	for comparison or discrimination	G10L25/51	G10L25/51		10321
+G10L25/54	10	for retrieval	G10L25/54	G10L25/54		818
+G10L25/57	10	for processing of video signals	G10L25/57	G10L25/57		1291
+G10L25/60	10	for measuring the quality of voice signals	G10L25/60	G10L25/60		1664
+G10L25/63	10	for estimating an emotional state	G10L25/63	G10L25/63		5355
+G10L25/66	10	for extracting parameters related to health condition (detecting or measuring for diagnostic purposes A61B5/00)	G10L25/66	G10L25/66		1394
+G10L25/69	9	for evaluating synthetic or decoded voice signals	G10L25/69	G10L25/69		725
+G10L25/72	9	for transmitting results of analysis	G10L25/72	G10L25/72		263
+G10L25/75	8	for modelling vocal tract parameters	G10L25/75	G10L25/75		101
+G10L25/78	8	Detection of presence or absence of voice signals (switching of direction of transmission by voice frequency in two-way loud-speaking telephone systems H04M9/10)	G10L25/78	G10L25/78		4003
+G10L2025/783	9	{based on threshold decision}	G10L25/78	G10L25/78		752
+G10L2025/786	10	{Adaptive threshold}	G10L25/78	G10L25/78		202
+G10L25/81	9	for discriminating voice from music	G10L25/81	G10L25/81		278
+G10L25/84	9	for discriminating voice from noise	G10L25/84	G10L25/84		1442
+G10L25/87	9	Detection of discrete points within a voice signal	G10L25/87	G10L25/87		1351
+G10L25/90	8	Pitch determination of speech signals	G10L25/90	G10L25/90		1609
+G10L2025/903	9	{using a laryngograph}	G10L25/90	G10L25/90		12
+G10L2025/906	9	{Pitch tracking}	G10L25/90	G10L25/90		149
+G10L25/93	8	Discriminating between voiced and unvoiced parts of speech signals (G10L25/90 takes precedence)	G10L25/93	G10L25/93		908
+G10L2025/932	9	{Decision in previous or following frames}	G10L25/93	G10L25/93		43
+G10L2025/935	9	{Mixed voiced class; Transitions}	G10L25/93	G10L25/93		30
+G10L2025/937	9	{Signal energy in various frequency bands}	G10L25/93	G10L25/93		79
+G10L99/00	7	Subject matter not provided for in other groups of this subclass	G10L99/00	G10L99/00		24

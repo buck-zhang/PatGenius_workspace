@@ -1,0 +1,1116 @@
+F02D   1/00  \	0	0	3G060	F02D   1/00	11	燃料噴射ポンプの制御，例．高圧噴射型の制御（Ｆ０２Ｄ３／００が優先）［２］	Controlling fuel-injection pumps, e.g. of high-pressure injection type (F02D 3/00 takes precedence) [2]
+F02D   1/00  A	0	0	3G060	F02D   1/00	37	検出装置	Detection device
+F02D   1/00  B	0	1	3G060	F02D   1/00	101	位置を検出するもの	detecting a position
+F02D   1/00  Z	0	0	3G060	F02D   1/00	24	その他のもの	Others
+F02D   1/02  \	1	1	3G060	F02D   1/02	36	噴射時期の調整だけに限定されないもの，例．燃料分配量の変更	not restricted to adjustment of injection timing, e.g. varying amount of fuel delivered
+F02D   1/02  A	1	0	3G060	F02D   1/02	129	独立した噴射量及び噴射時期調節装置でそれらが関連制御されるもの	Independent fuel injection volume and fuel injection time controller, which are relatively controlled
+F02D   1/02  D	1	0	3G060	F02D   1/02	108	気筒数制御手段をもつもの	having a means of controlling the number of cylinders
+F02D   1/02  E	1	0	3G060	F02D   1/02	76	二元燃料機関	Binary fuel engine
+F02D   1/02  F	1	0	3G060	F02D   1/02	177	電磁弁式燃料噴射ポンプ〔スピル式〕	Solenoid type fuel injection pump (spill type)
+F02D   1/02  K	1	0	3G060	F02D   1/02	253	コントロ−ルラツクの制御構造	Control structure of a control rack
+F02D   1/02  Z	1	0	3G060	F02D   1/02	107	その他のもの	Others
+F02D   1/02 301 \	2	2	3G060	F02D   1/02	8	噴射率を制御するもの	controlling the fuel injection rate
+F02D   1/02 301 A	2	0	3G060	F02D   1/02	95	ポンプ圧力室容積を可変とするもの	Variable capacity of the pump pressure chamber
+F02D   1/02 301 B	2	0	3G060	F02D   1/02	142	高圧室と低圧室を連通したもの	High-pressure chamber and low-pressure chamber communicated together
+F02D   1/02 301 C	2	1	3G060	F02D   1/02	127	プランジヤにスピルポ−トを設けたもの〔分配型用〕	Spill port provided on a plunger (for the distributed type)
+F02D   1/02 301 D	2	0	3G060	F02D   1/02	71	ポンプ吐出ポ−トとインゼクタ間に弁を設けるもの	Valve provided between the pump delivery port and injector
+F02D   1/02 301 E	2	0	3G060	F02D   1/02	58	インゼクタ部の制御	Injector control
+F02D   1/02 301 F	2	0	3G060	F02D   1/02	42	プランジヤストロ−クを変更するもの〔列型用〕	changing the plunger stroke (for the series type)
+F02D   1/02 301 H	2	0	3G060	F02D   1/02	33	全運転域での噴射率制御	Fuel injection rate control in the full operation range
+F02D   1/02 301 J	2	1	3G060	F02D   1/02	11	初期噴射率を制御するもの	controlling the initial fuel injection rate
+F02D   1/02 301 K	2	2	3G060	F02D   1/02	10	アイドリングのためのもの	for idling
+F02D   1/02 301 L	2	0	3G060	F02D   1/02	108	パイロツト噴射に特徴があるもの	characterized by pilot fuel injection
+F02D   1/02 301 Z	2	0	3G060	F02D   1/02	65	その他のもの	Others
+F02D   1/02 311 \	2	2	3G060	F02D   1/02	1	機関運転状態に応じた噴射量制御	Fuel injection volume control according to the engine's running state
+F02D   1/02 311 A	2	0	3G060	F02D   1/02	59	特定運転状態時の制御	Control in a particular running state
+F02D   1/02 311 B	2	1	3G060	F02D   1/02	342	始動のためのもの	for starting
+F02D   1/02 311 C	2	2	3G060	F02D   1/02	129	機関・外気温度に応じたもの	corresponding to the engine or outer air temperature
+F02D   1/02 311 D	2	2	3G060	F02D   1/02	61	燃料，潤滑油圧力に応じたもの	corresponding to the fuel or lubricant pressure
+F02D   1/02 311 E	2	2	3G060	F02D   1/02	41	過給圧力に応じたもの〔吸気圧力も含む〕	corresponding to the supercharge pressure (including the feed pressure)
+F02D   1/02 311 F	2	2	3G060	F02D   1/02	19	大気圧力に応じたもの〔Ｅが優先〕	corresponding to the atmospheric pressure (E takes precedence.)
+F02D   1/02 311 G	2	1	3G060	F02D   1/02	43	暖機のためのもの〔Ｂが優先〕	for warming up (B takes precedence.)
+F02D   1/02 311 H	2	1	3G060	F02D   1/02	159	アイドリングのためのもの	for idling
+F02D   1/02 311 J	2	1	3G060	F02D   1/02	50	過渡運転状態時	in the transient running state
+F02D   1/02 311 K	2	1	3G060	F02D   1/02	50	負荷の領域	Load range
+F02D   1/02 311 L	2	1	3G060	F02D   1/02	40	回転数のみの領域	Range of the number of revolutions only
+F02D   1/02 311 M	2	1	3G060	F02D   1/02	97	車両の運転状態に応じたもの〔変速機・クラツチ・ブレ−キ操作等との関連〕	corresponding to the vehicle's running state (related to the transmission, clutch, brake, etc.)
+F02D   1/02 311 N	2	1	3G060	F02D   1/02	31	入力パラメ−タが温度であるもの〔始動時は除く〕	Temperature as the input parameter (excluding starting)
+F02D   1/02 311 P	2	1	3G060	F02D   1/02	27	入力パラメ−タが圧力であるもの〔始動時は除く〕	Pressure as the input parameter (excluding starting)
+F02D   1/02 311 Q	2	1	3G060	F02D   1/02	80	噴射停止	Fuel injection stop
+F02D   1/02 311 R	2	2	3G060	F02D   1/02	147	手動操作によるもの	with manual operation
+F02D   1/02 311 S	2	2	3G060	F02D   1/02	283	自動停止〔キ−スイツチ等の操作も含む〕	Automatic stop (including the operation of the key switch, etc.)
+F02D   1/02 311 T	2	3	3G060	F02D   1/02	113	機関の不適当な作動の防止	Engine's inadequate operation prevention
+F02D   1/02 311 U	2	4	3G060	F02D   1/02	33	過回転防止	Over-rotation prevention
+F02D   1/02 311 V	2	4	3G060	F02D   1/02	74	逆回転防止	Reverse rotation prevention
+F02D   1/02 311 W	2	4	3G060	F02D   1/02	33	過熱防止〔潤滑油圧力低下によるもの→Ｘ〕	Overheat prevention (caused by the low lubricant pressure R X)
+F02D   1/02 311 X	2	4	3G060	F02D   1/02	32	作動流体圧力異常時対策	Countermeasures for working fluid pressure faults
+F02D   1/02 311 Z	2	0	3G060	F02D   1/02	35	その他のもの	Others
+F02D   1/02 321 \	2	2	3G060	F02D   1/02	0	噴射量を制限するもの	limiting the fuel injection volume
+F02D   1/02 321 A	2	0	3G060	F02D   1/02	125	制限器が固定式のもの	Stationary type limiter
+F02D   1/02 321 B	2	1	3G060	F02D   1/02	145	トルク調整が可能のもの〔トルクスプリング等〕	Torque adjustment possible (torque spring, etc.)
+F02D   1/02 321 C	2	0	3G060	F02D   1/02	181	制限器位置を任意に変更可能なもの〔構造に特徴があるもの，ただし，制御に特徴があるもの→Ｋ〕	Limiter position arbitrarily changeable (characterized by the structure. Characterized by control R K)
+F02D   1/02 321 D	2	1	3G060	F02D   1/02	106	温度に応じたもの〔吸気，燃料，外気等〕	corresponding to the temperature (feed, fuel, outer air, etc.)
+F02D   1/02 321 E	2	1	3G060	F02D   1/02	445	過給圧力に応じたもの〔ブ−ストコンペンセ−タ〕	corresponding to the supercharge pressure (boost compensator)
+F02D   1/02 321 J	2	1	3G060	F02D   1/02	139	大気圧力に応じたもの	corresponding to the atmospheric pressure
+F02D   1/02 321 K	2	1	3G060	F02D   1/02	107	特定の運転状態に応じたもの〔車両状態含む〕	corresponding to a particular running state (including the vehicle state)
+F02D   1/02 321 L	2	2	3G060	F02D   1/02	137	始動・暖機時	at the start or warming up
+F02D   1/02 321 M	2	2	3G060	F02D   1/02	49	アイドリング時	during idling
+F02D   1/02 321 N	2	2	3G060	F02D   1/02	59	過渡運転時〔遅延・緩衝はＳへ〕	in the transient operation (delay and buffering S)
+F02D   1/02 321 P	2	2	3G060	F02D   1/02	63	負荷の領域	Load range
+F02D   1/02 321 Q	2	2	3G060	F02D   1/02	78	回転数のみの領域	Range of the number of revolutions only
+F02D   1/02 321 R	2	1	3G060	F02D   1/02	105	噴射量制御信号の遅延・緩衝	Fuel injection volume control signal delay or buffering
+F02D   1/02 321 S	2	2	3G060	F02D   1/02	116	急加速・減速時	in abrupt acceleration or deceleration
+F02D   1/02 321 Z	2	0	3G060	F02D   1/02	38	その他のもの	Others
+F02D   1/04  \	2	2	3G060	F02D   1/04	28	機関速度に応じる機械的手段によるもの，例．遠心調速機を使用するもの（Ｆ０２Ｄ１／０８が優先）	by mechanical means dependent on engine speed, e.g. using centrifugal governors (F02D 1/08 takes precedence)
+F02D   1/04  H	2	0	3G060	F02D   1/04	402	調整，組立，部分品	Adjustment, assembly, parts
+F02D   1/04  J	2	1	3G060	F02D   1/04	211	ガバナウエイト部に特徴があるもの	characterized by the governor weight
+F02D   1/04  K	2	1	3G060	F02D   1/04	36	ガバナ部の潤滑	Governor lubrication
+F02D   1/04  Z	2	0	3G060	F02D   1/04	67	その他のもの	Others
+F02D   1/04 301 \	3	3	3G060	F02D   1/04	0	遠心式のもの	Centrifugal type
+F02D   1/04 301 A	3	0	3G060	F02D   1/04	342	遠心式調速機	Centrifugal type governor
+F02D   1/04 301 B	3	1	3G060	F02D   1/04	112	始動のためのもの	for starting
+F02D   1/04 301 C	3	1	3G060	F02D   1/04	95	低回転域制御〔アイドリングを含む〕	Low-revolution range control (including idling)
+F02D   1/04 301 D	3	1	3G060	F02D   1/04	125	最大負荷時の制御〔最大噴射量制御〕	Control against the maximum load (maximum fuel injection volume control)
+F02D   1/04 301 E	3	1	3G060	F02D   1/04	74	最高回転速度制御〔速度変動率〕	Maximum rotational speed control (speed variation rate)
+F02D   1/04 301 F	3	1	3G060	F02D   1/04	53	停止のためのもの	for stopping
+F02D   1/04 301 H	3	1	3G060	F02D   1/04	55	三レバ−式調速機をもつもの〔ＲＳＶ型〕	having a 3-lever type governor (RSV type)
+F02D   1/04 301 J	3	2	3G060	F02D   1/04	24	始動のためのもの	for starting
+F02D   1/04 301 K	3	2	3G060	F02D   1/04	33	低回転域制御〔アイドリングを含む〕	Low-revolution range control (including idling)
+F02D   1/04 301 L	3	2	3G060	F02D   1/04	69	最大負荷時の制御〔最大噴射量制御〕	Control against the maximum load (maximum fuel injection volume control)
+F02D   1/04 301 M	3	2	3G060	F02D   1/04	29	最高回転数制御〔速度変動率〕	Maximum rotational speed control (speed variation rate)
+F02D   1/04 301 N	3	2	3G060	F02D   1/04	18	停止のためのもの	for stopping
+F02D   1/04 301 P	3	1	3G060	F02D   1/04	40	全速度調速機と最高・最低調速機のガバナ特性を有するもの	having governor characteristics of the full-speed governor and maximum-/minimum-speed governor
+F02D   1/04 301 Q	3	2	3G060	F02D   1/04	46	切換え手段に特徴があるもの	characterized by the change-over means
+F02D   1/04 301 S	3	1	3G060	F02D   1/04	51	過給機付機関用〔ブ−コンは除く〕	for engines having a supercharger (excluding the booster control)
+F02D   1/04 301 T	3	1	3G060	F02D   1/04	24	空気調速機を兼用するもの〔コンバインドガバナ〕	also used as the air governor (combined governor)
+F02D   1/04 301 Z	3	0	3G060	F02D   1/04	26	その他のもの	Others
+F02D   1/04 311 \	3	3	3G060	F02D   1/04	2	油圧式のもの	Hydraulic type
+F02D   1/04 311 A	3	0	3G060	F02D   1/04	72	油圧式調速機〔フイ−ドポンプ圧による〕	Hydraulic type governor (using the feed point pressure)
+F02D   1/04 311 B	3	0	3G060	F02D   1/04	105	遠心式手段を含むもの	including a centrifugal means
+F02D   1/04 311 C	3	0	3G060	F02D   1/04	55	油圧電気式のもの	Hydraulic or electrical type
+F02D   1/04 311 Z	3	0	3G060	F02D   1/04	4	その他のもの	Others
+F02D   1/04 321 \	3	3	3G060	F02D   1/04	0	分配型噴射ポンプ用のもの	for the distributed type injection pump
+F02D   1/04 321 A	3	0	3G060	F02D   1/04	112	分配型燃料噴射ポンプ用	for the distributed type fuel injection pump
+F02D   1/04 321 B	3	1	3G060	F02D   1/04	51	始動のためのもの	for starting
+F02D   1/04 321 C	3	1	3G060	F02D   1/04	43	低回転速度域の制御〔アイドルを含む〕	Control of the low rotational speed range (including idling)
+F02D   1/04 321 D	3	1	3G060	F02D   1/04	18	最高回転速度制御〔速度変動率〕	Maximum rotational speed control (speed variation rate)
+F02D   1/04 321 E	3	1	3G060	F02D   1/04	32	最大負荷時制御〔最大燃料噴射量〕	Control against the maximum load (maximum fuel injection volume)
+F02D   1/04 321 F	3	1	3G060	F02D   1/04	3	停止のためのもの	for stopping
+F02D   1/04 321 Z	3	0	3G060	F02D   1/04	28	その他のもの	Others
+F02D   1/06  \	2	2	3G060	F02D   1/06	7	機関の動作流体の圧力に応じる手段によるもの（Ｆ０２Ｄ１／０８が優先）	by means dependent on pressure of engine working fluid (F02D 1/08 takes precedence)
+F02D   1/06  A	2	0	3G060	F02D   1/06	200	空気式調速機	Pneumatic type governor
+F02D   1/06  B	2	1	3G060	F02D   1/06	17	始動のためのもの	for starting
+F02D   1/06  C	2	1	3G060	F02D   1/06	21	低回転速度域の制御〔アイドルを含む〕	Control of the low rotational speed range (including idling)
+F02D   1/06  D	2	1	3G060	F02D   1/06	14	最高回転速度制御〔速度変動率〕	Maximum rotational speed control (speed variation rate)
+F02D   1/06  E	2	1	3G060	F02D   1/06	29	最大負荷時の制御〔最大噴射量〕	Control against the maximum load (maximum fuel injection volume)
+F02D   1/06  F	2	1	3G060	F02D   1/06	29	停止のためのもの	for stopping
+F02D   1/06  Z	2	0	3G060	F02D   1/06	27	その他のもの	Others
+F02D   1/08  \	2	2	3G060	F02D   1/08	3	ポンプ制御部への制御信号の伝達，例．動力付きまたは補助動力付きのもの	Transmission of control impulse to pump control, e.g. with power drive or power assistance
+F02D   1/08  A	2	0	3G060	F02D   1/08	274	電気式ガバナ〔絞り弁関係→Ｆ０２Ｄ９／０２，３３１Ｄ〕	Electrical governor (related to the throttle valve R F 02 D 9/02, 331 D)
+F02D   1/08  B	2	1	3G060	F02D   1/08	168	アクチユエ−タの構造，配置	Actuator structure or layout
+F02D   1/08  C	2	1	3G060	F02D   1/08	135	電気・機械式のもの	Electrical or mechanical type
+F02D   1/08  D	2	1	3G060	F02D   1/08	43	電気・空気式	Electrical or pneumatic type
+F02D   1/08  E	2	0	3G060	F02D   1/08	84	特殊な用途の機関のための制御	Control for special-purpose engines
+F02D   1/08  F	2	0	3G060	F02D   1/08	68	噴射弁の制御〔ユニツト式を含む，１／０２優先〕	Fuel injection valve control (including the unit type. 1/02 takes precedence.)
+F02D   1/08  G	2	1	3G060	F02D   1/08	28	増圧式のもの	Booster type
+F02D   1/08  J	2	0	3G060	F02D   1/08	50	複数ポンプ，インゼクタを制御するもの	controlling multiple pumps or injectors
+F02D   1/08  Z	2	0	3G060	F02D   1/08	86	その他のもの	Others
+F02D   1/10  \	3	3	3G060	F02D   1/10	8	機械式のもの	mechanical
+F02D   1/10  B	3	0	3G060	F02D   1/10	77	操作特性を変更するもの〔操作力操作量〕	changing the operation characteristics (operation force, operated volume)
+F02D   1/10  Z	3	0	3G060	F02D   1/10	258	その他のもの	Others
+F02D   1/12  \	3	3	3G060	F02D   1/12	163	機械式でないもの，例．液圧式	non-mechanical, e.g. hydraulic
+F02D   1/14  \	4	4	3G060	F02D   1/14	113	空気圧式	pneumatic
+F02D   1/16  \	1	1	3G060	F02D   1/16	12	噴射時期の調整（Ｆ０２Ｄ１／０２が優先）	Adjustment of injection timing (F02D 1/02 takes precedence)
+F02D   1/16  A	1	0	3G060	F02D   1/16	122	回転軸間の位相を変えるもの	changing the phase between rotary shafts
+F02D   1/16  B	1	1	3G060	F02D   1/16	83	遠心式のもの〔オ−トマチツクタイマ〕	Centrifugal type (automatic timer)
+F02D   1/16  C	1	2	3G060	F02D   1/16	90	構成の細部	Configuration details
+F02D   1/16  D	1	2	3G060	F02D   1/16	21	スプリングの張力を変えるもの	changing the spring tension
+F02D   1/16  E	1	2	3G060	F02D   1/16	15	カムプロフイ−ルを変更するもの	changing the cam profile
+F02D   1/16  F	1	2	3G060	F02D   1/16	32	運転状態に応じた制御	Control according to the running state
+F02D   1/16  G	1	2	3G060	F02D   1/16	24	遍心輪式のもの	Eccentric wheel type
+F02D   1/16  H	1	3	3G060	F02D   1/16	40	構成の細部	Configuration details
+F02D   1/16  J	1	3	3G060	F02D   1/16	14	スプリングの張力を変えるもの	changing the spring tension
+F02D   1/16  K	1	3	3G060	F02D   1/16	17	不正運動の防止〔ウエイト〕	Illegal motion prevention (weight)
+F02D   1/16  L	1	3	3G060	F02D   1/16	19	運転状態に応じた制御	Control according to the running state
+F02D   1/16  M	1	1	3G060	F02D   1/16	108	油圧式のもの	Hydraulic type
+F02D   1/16  N	1	2	3G060	F02D   1/16	32	構成の細部	Configuration details
+F02D   1/16  P	1	2	3G060	F02D   1/16	55	油圧回路に特徴があるもの〔フイルタ等配置〕	characterized by the hydraulic circuit (layout of the filter, etc.)
+F02D   1/16  Q	1	2	3G060	F02D   1/16	89	運転状態に応じた制御	Control according to the running state
+F02D   1/16  T	1	2	3G060	F02D   1/16	42	遍心輪式のもの	Centrifugal wheel type
+F02D   1/16  U	1	1	3G060	F02D   1/16	51	電気式のもの	Electrical type
+F02D   1/16  V	1	1	3G060	F02D   1/16	18	タイミングベルトを調整するもの	adjusting the timing belt
+F02D   1/16  W	1	0	3G060	F02D   1/16	60	カムロ−ラ部に調節機構があるもの	Adjusting mechanism provided on the cam roller
+F02D   1/16  X	1	1	3G060	F02D   1/16	18	プランジヤ位置を調整するもの〔Ｆ０２Ｄ１／１８Ｈが優先〕	adjusting the plunger position (F 02 D 1/18 H takes precedence.)
+F02D   1/16  Z	1	0	3G060	F02D   1/16	127	その他のもの	Others
+F02D   1/18  \	2	2	3G060	F02D   1/18	2	制御信号伝達用の機械的でない手段をもつもの；制御信号の増幅装置をもつもの	with non-mechanical means for transmitting control impulse; with amplification of control impulse
+F02D   1/18  A	2	0	3G060	F02D   1/18	136	タイマピストンによるもの〔分配型〕	using a timer piston (distributed type)
+F02D   1/18  B	2	1	3G060	F02D   1/18	61	アクチユエ−タの構成	Actuator configuration
+F02D   1/18  C	2	1	3G060	F02D   1/18	19	初期調整	Initial adjustment
+F02D   1/18  D	2	1	3G060	F02D   1/18	97	圧力制御弁を制御するもの	controlling a pressure control valve
+F02D   1/18  E	2	1	3G060	F02D   1/18	51	オ−バ−フロ−弁を制御するもの	controlling an overflow valve
+F02D   1/18  F	2	1	3G060	F02D   1/18	50	プランジヤにスピル孔を設けたもの〔１／０２優先〕	Spill hole provided on the plunger (1/02 takes precedence.)
+F02D   1/18  G	2	1	3G060	F02D   1/18	58	電磁弁式のもの〔１／０２優先〕	Solenoid type (1/02 takes precedence.)
+F02D   1/18  J	2	1	3G060	F02D   1/18	66	ロ−ドタイマによるもの	using a load timer
+F02D   1/18  K	2	1	3G060	F02D   1/18	66	燃料ポンプ圧力によつてのみ制御されるもの	controlled by the fuel pump pressure only
+F02D   1/18  N	2	1	3G060	F02D   1/18	88	運転状態に応じた制御	Control according to the running state
+F02D   1/18  P	2	2	3G060	F02D   1/18	132	始動又は暖機時	at the start or warming up
+F02D   1/18  Q	2	2	3G060	F02D   1/18	98	機関温度に応じたもの〔始動時を除く〕	corresponding to the engine temperature (excluding starting)
+F02D   1/18  R	2	2	3G060	F02D   1/18	31	アイドリング時	during idling
+F02D   1/18  S	2	2	3G060	F02D   1/18	40	過渡運転時	in the transient operation
+F02D   1/18  T	2	2	3G060	F02D   1/18	63	負荷の領域	Load range
+F02D   1/18  U	2	3	3G060	F02D   1/18	14	大気圧との関連制御	Relative control with the atmospheric pressure
+F02D   1/18  W	2	2	3G060	F02D   1/18	44	大気圧力に応じたもの	corresponding to the atmospheric pressure
+F02D   1/18  X	2	2	3G060	F02D   1/18	19	過給圧力に応じたもの	corresponding to the supercharge pressure
+F02D   1/18  Y	2	1	3G060	F02D   1/18	43	不適当な作動の防止	Inadequate operation prevention
+F02D   1/18  H	2	0	3G060	F02D   1/18	125	プランジヤに切欠を設けたもの〔列型用〕	Notch provided on the plunger (for the series type)
+F02D   1/18  Z	2	0	3G060	F02D   1/18	53	その他のもの	Others
+F02D   3/00  \	0	0	3G082	F02D   3/00	8	低圧燃料噴射，すなわち低圧力で噴射された燃料を含んだ燃料ー空気混合気が大部分機関の圧縮行程で圧縮されるものの制御で，噴射ポンプのみの制御によるもの以外の制御［２００６．０１］	Controlling low-pressure fuel injection, i.e. where the fuel-air mixture containing fuel thus injected will besubstantially compressed by the compression stroke of the engine, by means other than controlling only an injection pump [1, 2, 2006.01]
+F02D   3/00  A	0	0	3G082	F02D   3/00	107	吸入空気量に応じて空気・燃料比を調整するもの	Air-fuel ration adjusted according to the fed air volume
+F02D   3/00  B	0	1	3G082	F02D   3/00	55	吸入空気量測定装置の構造，配置	Structure or layout of the fed air volume measuring device
+F02D   3/00  C	0	1	3G082	F02D   3/00	145	燃料計量，分配機構に特徴があるもの	characterized by the fuel measuring or distributing mechanism
+F02D   3/00  D	0	2	3G082	F02D   3/00	44	電気式計量弁によるもの	using an electrical measuring valve
+F02D   3/00  E	0	1	3G082	F02D   3/00	109	燃料圧力調整機構に特徴があるもの	characterized by the fuel pressure adjusting mechanism
+F02D   3/00  G	0	1	3G082	F02D   3/00	56	燃料噴射弁部に特徴があるもの〔配置含む〕	characterized by the fuel injection valve (including layout)
+F02D   3/00  H	0	2	3G082	F02D   3/00	44	複数噴射弁を用いるもの	using multiple fuel injection valves
+F02D   3/00  J	0	2	3G082	F02D   3/00	32	燃料通路に空気を混入させるもの	mixing air in the fuel channel
+F02D   3/00  L	0	0	3G082	F02D   3/00	18	過給機付機関用	for engines with a supercharger
+F02D   3/00  P	0	0	3G082	F02D   3/00	55	流体素子を用いるもの	using a fluid device
+F02D   3/00  Q	0	0	3G082	F02D   3/00	20	検出装置	Detecting device
+F02D   3/00  Z	0	0	3G082	F02D   3/00	378	その他のもの	Others
+F02D   3/02  \	1	1	3G082	F02D   3/02	9	連続的な噴射または噴射ノズル上流での連続的な流れを有するもの［２］	with continuous injection or continuous flow upstream of the injection nozzle [2]
+F02D   3/02 301 \	2	2	3G082	F02D   3/02	163	空気計量弁を用いるもの	using an air measuring valve
+F02D   3/02 311 \	2	2	3G082	F02D   3/02	261	ベンチユリ負圧により燃圧を制御するもの	controlling the combustion pressure with a Venturi negative pressure
+F02D   3/04  \	1	1	3G082	F02D   3/04	63	燃料の噴射および気化の制御，例．両者が選択的に可能な装置の制御	Controlling fuel injection and carburation, e.g. of alternative systems
+F02D   7/00  \	0	0	3G082	F02D   7/00	211	その他の非電気的な燃料噴射の制御［４］	Other non-electrical fuel injection control [4]
+F02D   7/02  \	1	1	3G082	F02D   7/02	5	圧縮空気によって燃料が噴射される燃料噴射の制御	Controlling fuel injection where fuel is injected by compressed air
+F02D   9/00  \	0	0	3G065	F02D   9/00	14	空気の，または燃料および空気の吸入管または排気管を絞ることによる機関の制御	Controlling engines by throttling air or fuel-and-air induction conduits or exhaust conduits
+F02D   9/00  A	0	0	3G065	F02D   9/00	632	絞り弁開度検出〔機械的特徴点をもつもの〕	Throttle valve opening detection (having a mechanical feature)
+F02D   9/00  B	0	1	3G065	F02D   9/00	151	特定開度の検出	Detection of particular opening
+F02D   9/00  Z	0	0	3G065	F02D   9/00	18	その他のもの	Others
+F02D   9/02  \	1	1	3G065	F02D   9/02	44	吸気管に関するもの（導管中の絞り弁，またはその配置Ｆ０２Ｄ９／０８）	concerning induction conduits (throttle valves, or arrangements thereof in conduits F02D 9/08)
+F02D   9/02  A	1	0	3G065	F02D   9/02	136	特定型式の機関を制御するもの	controlling a particular type engine
+F02D   9/02  B	1	1	3G065	F02D   9/02	137	気筒数制御機関用	for engines that control the number of cylinders
+F02D   9/02  C	1	1	3G065	F02D   9/02	444	過給機付機関用	for engines with a supercharger
+F02D   9/02  D	1	1	3G065	F02D   9/02	110	吸気管内タイミングバルブを備える機関用（タイミングバルブはＦ０２Ｂ２９／が優先）	for engines that have a timing valve in the feed pipe (F02B29/ takes precedence for timing valves)
+F02D   9/02  E	1	1	3G065	F02D   9/02	19	副燃焼室付機関用	for engines with a sub combustion chamber
+F02D   9/02  F	1	1	3G065	F02D   9/02	127	他に分類されないディーゼル機関用	for diesel engines not categorised into the others
+F02D   9/02  G	1	1	3G065	F02D   9/02	65	他に分類されない２サイクル機関用	for 2-cycle engines not categorised into the others
+F02D   9/02  H	1	0	3G065	F02D   9/02	123	特種用途の機関を制御するもの	controlling special-purpose engines
+F02D   9/02  J	1	0	3G065	F02D   9/02	171	変速機・クラッチの作動に関連した制御（９／０２，３０５Ｈが優先）	Control related to operations of transmissions or clutches (9/02, 305@H takes precedence)
+F02D   9/02  K	1	1	3G065	F02D   9/02	151	変速機・クラッチの切換中の制御	Control during change-over of the transmission or clutch
+F02D   9/02  L	1	1	3G065	F02D   9/02	72	変速・クラッチレバーで制御するもの〔舶用等〕	controlling with a transmission or clutch level (for ships)
+F02D   9/02  M	1	1	3G065	F02D   9/02	160	自動変速機を備えたもの（Ｋが優先）	equipped with an automatic transmission (K takes precedence)
+F02D   9/02  N	1	2	3G065	F02D   9/02	69	無段変速機を備えたもの	equipped with a stepless transmission
+F02D   9/02  P	1	0	3G065	F02D   9/02	81	他に分類されない車両駆動用	for driving vehicles not categorised into the others
+F02D   9/02  Q	1	0	3G065	F02D   9/02	752	他の制御対象との関連制御	Relative control with other control objects
+F02D   9/02  R	1	1	3G065	F02D   9/02	407	燃料供給との関連制御（他の分類が優先）	Relative control with fuel supply (Other categories take precedence)
+F02D   9/02  S	1	1	3G065	F02D   9/02	562	ＥＧＲとの関連制御	Relative control with EGR
+F02D   9/02  T	1	0	3G065	F02D   9/02	272	スロットルバイパスの制御（Ｆ０２Ｄ３３／，４１／〜が優先）	Throttle bypass control (F02D33/ and 41/ take precedence)
+F02D   9/02  U	1	0	3G065	F02D   9/02	165	他に分類されない電気的制御	Electrical control not categorised into the others
+F02D   9/02  Z	1	0	3G065	F02D   9/02	216	その他のもの	Others
+F02D   9/02 301 \	2	2	3G065	F02D   9/02	10	機関運転状態に応じた制御	Control according to the engine running state
+F02D   9/02 301 A	2	0	3G065	F02D   9/02	116	他に分類されない吸気管内負圧調整弁（９／０２Ｂが優先）	Negative pressure adjusting valve in the feed pipe not categorised into the others (9/02 B takes precedence)
+F02D   9/02 301 Z	2	0	3G065	F02D   9/02	118	その他のもの	Others
+F02D   9/02 305 \	3	3	3G065	F02D   9/02	5	始動・暖機・アイドル時の制御	Control in starting, warming up, or idling
+F02D   9/02 305 A	3	0	3G065	F02D   9/02	170	運転状態に応じた制御一般	Control according to the running state in general
+F02D   9/02 305 B	3	1	3G065	F02D   9/02	346	始動時対策手段をもつもの	having a means in starting
+F02D   9/02 305 C	3	2	3G065	F02D   9/02	37	高温始動時用のもの	for high-temperature starting
+F02D   9/02 305 D	3	1	3G065	F02D   9/02	73	暖機状態に応じたアイドル制御（Ｂが優先）	Idling control according to the warming up state (B takes precedence)
+F02D   9/02 305 E	3	2	3G065	F02D   9/02	157	温度に応じて制御するもの	Control according to the temperature
+F02D   9/02 305 F	3	2	3G065	F02D   9/02	91	チョーク弁との関連制御	Relative control with the choke valve
+F02D   9/02 305 G	3	1	3G065	F02D   9/02	163	負荷に応じたアイドル制御	Idling control according to the load
+F02D   9/02 305 H	3	2	3G065	F02D   9/02	78	変速機・クラッチ作動時の負荷	Load during transmission or clutch operation
+F02D   9/02 305 J	3	2	3G065	F02D   9/02	48	発電負荷	Power generation load
+F02D   9/02 305 K	3	2	3G065	F02D   9/02	23	パワーステアリングの負荷	Power steering load
+F02D   9/02 305 L	3	2	3G065	F02D   9/02	135	クーラ・エアコンの負荷	Cooler or air conditioner load
+F02D   9/02 305 M	3	1	3G065	F02D   9/02	291	他の制御要素との関連制御	Relative control with other control elements
+F02D   9/02 305 N	3	0	3G065	F02D   9/02	79	操作装置，含．電熱式アクチュエータ	Operating device including the electrically heated actuator
+F02D   9/02 305 P	3	1	3G065	F02D   9/02	79	アイドル制御用電動アクチュエータ	Electrical actuator for idling control
+F02D   9/02 305 Q	3	1	3G065	F02D   9/02	71	アイドルアジャスタ〔ネジ等〕	Idling adjuster [screw, etc.]
+F02D   9/02 305 R	3	0	3G065	F02D   9/02	270	ディーゼル機関用	for diesel engines
+F02D   9/02 305 Z	3	0	3G065	F02D   9/02	71	その他のもの	Others
+F02D   9/02 311 \	3	3	3G065	F02D   9/02	266	加速時の制御	Control during acceleration
+F02D   9/02 315 \	3	3	3G065	F02D   9/02	6	減速時の制御	Control during deceleration
+F02D   9/02 315 A	3	0	3G065	F02D   9/02	130	車両・機関状態に応じて制御するもの	Control according to the vehicle or engine state
+F02D   9/02 315 B	3	1	3G065	F02D   9/02	351	他の制御対象との関連制御	Relative control with other control objects
+F02D   9/02 315 C	3	1	3G065	F02D   9/02	12	減速時以外の制御も行うもの	Control that is also performed in the time other than deceleration
+F02D   9/02 315 D	3	2	3G065	F02D   9/02	35	アイドルアップ機能も有するもの	also having an idling up function
+F02D   9/02 315 E	3	1	3G065	F02D   9/02	53	減速時にアイドル開度以上閉じるもの	closing larger then the idling opening during deceleration
+F02D   9/02 315 F	3	1	3G065	F02D   9/02	64	電気的に制御するもの（Ｂ〜Ｅが優先）	Electrical control (B to E take precedence)
+F02D   9/02 315 G	3	1	3G065	F02D   9/02	298	ダッシュポット・スロットルポジショナ用（Ｂ〜Ｆが優先）	for the dash pot or throttle positioner (B to F take precedence)
+F02D   9/02 315 H	3	1	3G065	F02D   9/02	100	スロットルオープナ用（Ｂ〜Ｇが優先）	for the throttle opener (B to G take precedence)
+F02D   9/02 315 J	3	0	3G065	F02D   9/02	60	制御装置の部分構造（Ａ〜Ｈが優先）	Partial structure of the controller (A to H take precedence)
+F02D   9/02 315 K	3	0	3G065	F02D   9/02	72	ディーゼル機関用	for diesel engines
+F02D   9/02 315 Z	3	0	3G065	F02D   9/02	65	その他のもの	Others
+F02D   9/02 321 \	3	3	3G065	F02D   9/02	6	低負荷・高負荷時の制御	Control during low load or high load
+F02D   9/02 321 A	3	0	3G065	F02D   9/02	49	ディーゼル機関用	for diesel engines
+F02D   9/02 321 Z	3	0	3G065	F02D   9/02	99	その他のもの	Others
+F02D   9/02 325 \	3	3	3G065	F02D   9/02	16	停止時の制御	Control during stop
+F02D   9/02 325 A	3	0	3G065	F02D   9/02	85	ディーゼル機関用	for diesel engines
+F02D   9/02 325 Z	3	0	3G065	F02D   9/02	236	その他のもの（異常時の停止は９／０２，３４１が優先）	Others (9/02 and 341 take precedence for stop upon failure occurrence)
+F02D   9/02 331 \	2	2	3G065	F02D   9/02	1	定回転数制御	Control of the constant number of revolutions
+F02D   9/02 331 A	2	0	3G065	F02D   9/02	310	遠心式ガバナをもつもの（Ｂ，Ｄが優先）	having a centrifugal governor (B and D take precedence)
+F02D   9/02 331 B	2	0	3G065	F02D   9/02	81	流体式ガバナをもつもの，例．エアガバナ	having a fluid type governor, e.g. air governor
+F02D   9/02 331 C	2	1	3G065	F02D   9/02	28	ファンガバナをもつもの	having a fan governor
+F02D   9/02 331 D	2	0	3G065	F02D   9/02	127	電気式ガバナをもつもの	having an electrical governor
+F02D   9/02 331 E	2	0	3G065	F02D   9/02	262	定速走行用〔機械的特徴点をもつもののみ分類〕	for travelling at a constant speed (those having mechanical features only categorised)
+F02D   9/02 331 Z	2	0	3G065	F02D   9/02	68	その他のもの	Others
+F02D   9/02 341 \	2	2	3G065	F02D   9/02	1	不適当な作動の防止	Inadequate operation prevention
+F02D   9/02 341 A	2	0	3G065	F02D   9/02	590	絞り弁操作系統故障対策用	for measures against failures of the throttle valve operating system
+F02D   9/02 341 B	2	1	3G065	F02D   9/02	52	機関を停止させるもの	stopping the engine
+F02D   9/02 341 C	2	1	3G065	F02D   9/02	486	絞り弁操作用センサ・制御回路の故障対策用	for measures against failures of the throttle valve operating sensor or control circuit
+F02D   9/02 341 D	2	1	3G065	F02D   9/02	137	故障防止用	for failure prevention
+F02D   9/02 341 E	2	0	3G065	F02D   9/02	78	変速機・クラッチ操作時対策用	for measures in operating the transmission or clutch
+F02D   9/02 341 F	2	0	3G065	F02D   9/02	361	スリップ対策用	for measures against slip
+F02D   9/02 341 G	2	0	3G065	F02D   9/02	179	排気浄化装置対策用	for measures against the exhaust clarifying device
+F02D   9/02 341 H	2	0	3G065	F02D   9/02	51	過給機付機関用（Ａ〜Ｇが優先）	for engines with a supercharger (A to G take precedence)
+F02D   9/02 341 J	2	0	3G065	F02D   9/02	38	過負荷・加熱対策用（Ａ〜Ｈが優先）	for measures against overload or heating (A to H take precedence)
+F02D   9/02 341 K	2	0	3G065	F02D   9/02	224	過回転防止・最高速制御（Ａ〜Ｊが優先）	Over-rotation prevention or maximum speed control (A to J take precedence)
+F02D   9/02 341 L	2	0	3G065	F02D   9/02	32	逆転・吹き返し対策用	for measures against reverse rotation or blow-back
+F02D   9/02 341 Z	2	0	3G065	F02D   9/02	201	その他のもの	Others
+F02D   9/02 351 \	2	2	3G065	F02D   9/02	27	調整・操作装置	Adjusting or operating devices
+F02D   9/02 351 A	2	0	3G065	F02D   9/02	94	機械的制御機構によるもの（Ｋ，Ｍが優先）	using a mechanical control mechanism (K and M take precedence)
+F02D   9/02 351 B	2	1	3G065	F02D   9/02	181	初期操作部，例．手動レバー，ペダル，グリップ	Initial operation units, e.g. manual lever, pedal, grip
+F02D   9/02 351 C	2	2	3G065	F02D   9/02	110	所定位置での係止手段をもつもの	having a coupling means at a certain position
+F02D   9/02 351 D	2	1	3G065	F02D   9/02	340	初期操作部と絞り弁駆動レバー部間の機構	Mechanism between the initial operation unit and throttle valve driving lever
+F02D   9/02 351 E	2	2	3G065	F02D   9/02	241	開度特性を変える手段をもつもの	having a means that changes the opening characteristics
+F02D   9/02 351 F	2	2	3G065	F02D   9/02	77	緩衝手段を介在させるもの（Ｂ〜ＦはＦ０２Ｄ１１／が優先）	Buffer means provided (F02D11/ takes precedence for B to F)
+F02D   9/02 351 G	2	1	3G065	F02D   9/02	677	絞り弁駆動レバー部	Throttle valve driving lever
+F02D   9/02 351 H	2	2	3G065	F02D   9/02	156	アイドル調整ネジ（電動式→Ｎ）	Idling adjusting screw (electrical N)
+F02D   9/02 351 J	2	2	3G065	F02D   9/02	399	リターンスプリング	Return spring
+F02D   9/02 351 K	2	0	3G065	F02D   9/02	191	流体式制御機構によるもの	using a fluid type control mechanism
+F02D   9/02 351 L	2	1	3G065	F02D   9/02	107	電気的制御手段をもつもの	having an electrical control means
+F02D   9/02 351 M	2	0	3G065	F02D   9/02	1886	電気式制御機構によるもの	using an electrical control mechanism
+F02D   9/02 351 N	2	1	3G065	F02D   9/02	222	閉弁位置を制御するもの	controlling the closed valve position
+F02D   9/02 351 P	2	1	3G065	F02D   9/02	774	電気式アクチュエータ部	Electrical actuator
+F02D   9/02 351 Z	2	0	3G065	F02D   9/02	29	その他のもの	Others
+F02D   9/02 361 \	2	2	3G065	F02D   9/02	2	複数絞り弁の制御	Control of multiple throttle valves
+F02D   9/02 361 A	2	0	3G065	F02D   9/02	95	気筒毎に複数の吸気通路をもつもの	having multiple feed channels for each cylinder
+F02D   9/02 361 B	2	1	3G065	F02D   9/02	42	副燃焼室付機関用	for engines with a sub combustion chamber
+F02D   9/02 361 C	2	1	3G065	F02D   9/02	119	開閉弁をバイパスする吸気通路をもつもの	having a feed channel that bypasses the on-off valve
+F02D   9/02 361 D	2	1	3G065	F02D   9/02	48	ロータリ型スワール制御弁をもつもの	having a rotary type swirl control valve
+F02D   9/02 361 E	2	1	3G065	F02D   9/02	55	各吸気通路に燃料供給装置をもつもの	having a fuel supply device in each feed channel
+F02D   9/02 361 F	2	1	3G065	F02D   9/02	114	気筒毎に複数の吸気弁をもつ機関用（Ｂ〜Ｅが優先）	for engines having multiple feed valves for each cylinder (B to E take precedence)
+F02D   9/02 361 G	2	0	3G065	F02D   9/02	45	気筒数制御用開閉弁をもつもの	having an on-off valve for controlling the number of cylinders
+F02D   9/02 361 H	2	0	3G065	F02D   9/02	781	絞り弁を直列に配置したもの（Ａ〜Ｇが優先）	Throttle valves laid out in series (A to G take precedence)
+F02D   9/02 361 J	2	0	3G065	F02D   9/02	777	絞り弁を並列に配置したもの（Ａ〜Ｇが優先）	Throttle valves laid out in parallel (A to G take precedence)
+F02D   9/02 361 K	2	1	3G065	F02D   9/02	219	多連気化器用	for compound carbureters
+F02D   9/02 361 Z	2	0	3G065	F02D   9/02	168	その他のもの	Others
+F02D   9/04  \	1	1	3G065	F02D   9/04	6	排気管に関するもの（導管中の絞り弁，またはその配置Ｆ０２Ｄ９／０８）	concerning exhaust conduits (throttle valves, or arrangements thereof in conduits F02D 9/08)
+F02D   9/04  A	1	0	3G065	F02D   9/04	216	暖機・アイドル時に閉じるもの	closed in warming up or idling
+F02D   9/04  B	1	1	3G065	F02D   9/04	86	排気ブレーキ時にも閉じるもの	also closed while the exhaust brake is active
+F02D   9/04  C	1	0	3G065	F02D   9/04	366	他の機関制御要素との関連制御	Relative control with other engine control elements
+F02D   9/04  D	1	1	3G065	F02D   9/04	148	吸気系制御要素との関連制御	Relative control with feed system control elements
+F02D   9/04  E	1	0	3G065	F02D   9/04	683	消音・排気浄化・吸気加熱対策用	for measures of soundproofing, exhaust clarifying, and feed heating
+F02D   9/04  F	1	0	3G065	F02D   9/04	24	気筒数制御機関用	for engines that control the number of cylinders
+F02D   9/04  G	1	0	3G065	F02D   9/04	197	過給機付機関用	for engines with a supercharger
+F02D   9/04  H	1	0	3G065	F02D   9/04	197	２サイクル機関用	for 2-cycle engines
+F02D   9/04  Z	1	0	3G065	F02D   9/04	235	その他のもの	Others
+F02D   9/06  \	2	2	3G065	F02D   9/06	42	排気ブレーキ	Exhaust brakes
+F02D   9/06  A	2	0	3G065	F02D   9/06	253	他の制御対象との関連制御	Relative control with other control objects
+F02D   9/06  B	2	1	3G065	F02D   9/06	168	吸気系制御対象との関連制御	Relative control with feed system control objects
+F02D   9/06  C	2	1	3G065	F02D   9/06	124	排気弁との関連制御	Relative control with the exhaust valve
+F02D   9/06  D	2	1	3G065	F02D   9/06	118	他の制動手段との関連制御	Relative control with other brake means
+F02D   9/06  E	2	2	3G065	F02D   9/06	62	車両用ブレーキとの関連制御	Relative control with a vehicle brake
+F02D   9/06  F	2	0	3G065	F02D   9/06	81	暖機・アイドル時にも閉じるもの	also closed in warming up or idling
+F02D   9/06  G	2	0	3G065	F02D   9/06	78	機関の停止・安全対策用（Ａが優先）	for engine stop or safety measures (A takes precedence)
+F02D   9/06  H	2	0	3G065	F02D   9/06	103	過給機付機関用（Ａが優先）	for engines with a supercharger (A takes precedence)
+F02D   9/06  J	2	0	3G065	F02D   9/06	82	排気圧力の一部を逃がすもの	Part of the exhaust pressure relieved
+F02D   9/06  K	2	0	3G065	F02D   9/06	108	排気ブレーキ解除の制御	Control of exhaust brake resetting
+F02D   9/06  L	2	0	3G065	F02D   9/06	315	バルブ・アクチュエータの構造	Valve or actuator structure
+F02D   9/06  M	2	1	3G065	F02D   9/06	97	スライド式バルブをもつもの	having a slide type valve
+F02D   9/06  N	2	0	3G065	F02D   9/06	48	複数の排気ブレーキバルブの制御	Control of multiple exhaust brake valves
+F02D   9/06  Z	2	0	3G065	F02D   9/06	216	その他のもの	Others
+F02D   9/08  \	1	1	3G065	F02D   9/08	100	特に上記の制御に適用した絞り弁；そのような弁の導管中における配置［２００６．０１］	Throttle valves specially adapted therefor; Arrangements of such valves in conduits [1, 2006.01]
+F02D   9/10  \	2	2	3G065	F02D   9/10	31	回転軸上に支持された弁板のあるもの	having pivotally-mounted flaps
+F02D   9/10  A	2	0	3G065	F02D   9/10	697	弁自体の構造	Structure of a valve per se
+F02D   9/10  B	2	1	3G065	F02D   9/10	124	複数に分割された弁構造を有するもの	having a valve structure divided into multiple segments
+F02D   9/10  C	2	0	3G065	F02D   9/10	695	軸・軸受の構造	Shaft or bearing structure
+F02D   9/10  D	2	1	3G065	F02D   9/10	151	排気系バルブ用	for exhaust system valves
+F02D   9/10  E	2	2	3G065	F02D   9/10	126	軸受部にシールをもつもの	having a seal on the bearing
+F02D   9/10  F	2	1	3G065	F02D   9/10	165	軸受部にシールをもつもの（Ｅが優先）	having a seal on the bearing (E takes precedence)
+F02D   9/10  G	2	0	3G065	F02D   9/10	436	弁の駆動・調整装置（吸気系絞り弁用は，９／０２，３５１が優先）	Valve driving or adjusting devices (9/02 and 351 take precedence for feed system throttle valves)
+F02D   9/10  H	2	0	3G065	F02D   9/10	1759	弁の配置・スロットルボディーの関連	related to valve layout or throttle body
+F02D   9/10  J	2	0	3G065	F02D   9/10	52	弁またはその周囲に電熱体をもつもの	having an electrical heater on or around a valve
+F02D   9/10  Z	2	0	3G065	F02D   9/10	160	その他のもの	Others
+F02D   9/12  \	2	2	3G065	F02D   9/12	76	滑動可能に支持された弁部材のあるもの；導管の長手方向に可動な弁部材のあるもの	having slidably-mounted valve-members; having valve-members movable longitudinally of conduit
+F02D   9/14  \	3	3	3G065	F02D   9/14	17	導管を横断する方向に滑動する部材	the members being slidable transversely of conduit
+F02D   9/14  A	3	0	3G065	F02D   9/14	132	排気管用	for exhaust pipes
+F02D   9/14  Z	3	0	3G065	F02D   9/14	141	その他のもの	Others
+F02D   9/16  \	3	3	3G065	F02D   9/16	175	回転式の部材	the members being rotatable
+F02D   9/18  \	2	2	3G065	F02D   9/18	28	弾性弁部材のあるもの	having elastic-wall valve-members
+F02D  11/00  \	0	0	3G065	F02D  11/00	39	自動式でない機関制御操作開始手段，例．オペレータによる操作開始手段のための構成または適用（特に逆転のためのものＦ０２Ｄ２７／００）［２００６．０１］	Arrangements for, or adaptations to, non-automatic engine control initiation means, e.g. operator initiated (specially for reversing F02D 27/00) [1, 2, 5, 2006.01]
+F02D  11/02  \	1	1	3G065	F02D  11/02	12	手，足等，オペレータにより制御される操作開始手段で特徴づけられるもの［５］	characterised by hand, foot, or like operator controlled initiation means [5]
+F02D  11/02  A	1	0	3G065	F02D  11/02	150	エンジン停止用操作装置	Operating devices for engine stop
+F02D  11/02  B	1	1	3G065	F02D  11/02	81	停止位置保持・解除手段に特徴があるもの	characterized by the stop position retaining or resetting means
+F02D  11/02  C	1	0	3G065	F02D  11/02	181	スイッチを連動操作するもの	Switch operated in an interlocked manner
+F02D  11/02  D	1	1	3G065	F02D  11/02	93	停止スイッチを連動操作するもの	Stop switch operated in an interlocked manner
+F02D  11/02  E	1	0	3G065	F02D  11/02	296	ワイヤ・リンクの連結・調整	Wire/link connection or adjustment
+F02D  11/02  F	1	1	3G065	F02D  11/02	165	操作部の連結	Operating unit connection
+F02D  11/02  G	1	1	3G065	F02D  11/02	333	制御部の連結	Control unit connection
+F02D  11/02  H	1	0	3G065	F02D  11/02	125	レギュレータハンドル	Regulator handle
+F02D  11/02  J	1	0	3G065	F02D  11/02	183	操作範囲の制限	Operation range limitation
+F02D  11/02  K	1	0	3G065	F02D  11/02	117	誤操作防止	Prevention of incorrect operation
+F02D  11/02  L	1	0	3G065	F02D  11/02	96	操作位置での係止	Coupling at the operating position
+F02D  11/02  M	1	1	3G065	F02D  11/02	94	押圧係止するもの	Pressing and coupling
+F02D  11/02  N	1	1	3G065	F02D  11/02	107	かけ止め係止するもの	Coupling by hooking
+F02D  11/02  P	1	0	3G065	F02D  11/02	129	操作手段の構造	Structure of an operating means
+F02D  11/02  Q	1	1	3G065	F02D  11/02	274	アクセルレバー部構造，含．ノブ	Accelerator lever structure, including the knob
+F02D  11/02  R	1	1	3G065	F02D  11/02	254	グリップ部構造	Grip structure
+F02D  11/02  S	1	1	3G065	F02D  11/02	415	ペダル部構造	Pedal structure
+F02D  11/02  T	1	0	3G065	F02D  11/02	143	操作手段の配置	Layout of an operating means
+F02D  11/02  U	1	0	3G065	F02D  11/02	82	制御レバーの位置保持手段	Control lever position retaining means
+F02D  11/02  Z	1	0	3G065	F02D  11/02	93	その他のもの	Others
+F02D  11/04  \	1	1	3G065	F02D  11/04	6	機械的制御機構で特徴づけられるもの（Ｆ０２Ｄ１１／０６が優先）［２００６．０１］	characterised by mechanical control linkages (F02D 11/06 takes precedence) [1, 5, 2006.01]
+F02D  11/04  A	1	0	3G065	F02D  11/04	128	単一の制御系	Single control system
+F02D  11/04  B	1	1	3G065	F02D  11/04	161	ガバナ付機関	Engines with a governor
+F02D  11/04  C	1	1	3G065	F02D  11/04	271	操作力の調整	Operating force adjustment
+F02D  11/04  D	1	2	3G065	F02D  11/04	109	応答性の変更	Response change
+F02D  11/04  E	1	1	3G065	F02D  11/04	180	操作レバーと制御レバーの伝達特性を変更するもの	changing characteristics of transmission between the operating lever and control lever
+F02D  11/04  F	1	0	3G065	F02D  11/04	304	単一の制御対象に対して複数の入力部をもつもの	having multiple input units for a single control object
+F02D  11/04  G	1	1	3G065	F02D  11/04	101	他の操作手段と連動して制御レバーを操作するもの	operating a control lever in a manner that another operating means is interlocked
+F02D  11/04  H	1	1	3G065	F02D  11/04	113	アクセルレバーとペダルの連結構造	Structure of linkage between the acceleration lever and pedal
+F02D  11/04  J	1	1	3G065	F02D  11/04	106	定速走行装置〔機構に特徴があるもの〕	Constant-speed travelling devices (characterised by the mechanism)
+F02D  11/04  L	1	0	3G065	F02D  11/04	134	複数の制御対象をもつもの	having multiple control objects
+F02D  11/04  M	1	1	3G065	F02D  11/04	79	制御対象がクラッチを含むもの	Control objects that contain the clutch
+F02D  11/04  N	1	1	3G065	F02D  11/04	65	制御対象が変速装置を含むもの	Control objects that contain the transmission
+F02D  11/04  P	1	1	3G065	F02D  11/04	89	制御対象がチョークを含むもの	Control objects that contain the choke
+F02D  11/04  Q	1	1	3G065	F02D  11/04	18	制御対象がデコンプを含むもの	Control objects that contain the decompressor
+F02D  11/04  R	1	1	3G065	F02D  11/04	68	制御対象が停止装置を含むもの	Control objects that contain the stop device
+F02D  11/04  S	1	1	3G065	F02D  11/04	81	制御対象が複数の絞り弁であるもの	Multiple throttle valves as the control object
+F02D  11/04  Z	1	0	3G065	F02D  11/04	34	その他のもの	Others
+F02D  11/06  \	1	1	3G065	F02D  11/06	5	非機械的制御機構，例．流体式制御機構，または動力付きあるいは補助動力付きの制御機構で特徴づけられるもの［５］	characterised by non-mechanical control linkages, e.g. fluid control linkages or by control linkages with power drive or assistance [5]
+F02D  11/06  A	1	0	3G065	F02D  11/06	143	流体アクチュエータの構造	Fluid actuator structure
+F02D  11/06  B	1	0	3G065	F02D  11/06	100	制御レバーの操作	Control lever operation
+F02D  11/06  C	1	1	3G065	F02D  11/06	52	アイドリングのためのもの	for idling
+F02D  11/06  D	1	1	3G065	F02D  11/06	60	始動又は停止のためのもの	for starting or stopping
+F02D  11/06  E	1	1	3G065	F02D  11/06	62	負荷に応じたもの	corresponding to the load
+F02D  11/06  F	1	2	3G065	F02D  11/06	40	変速機・クラッチ操作時の制御	Control during transmission or clutch operation
+F02D  11/06  H	1	1	3G065	F02D  11/06	40	段階的に制御するもの	Step-by-step control
+F02D  11/06  J	1	1	3G065	F02D  11/06	61	故障・異常時対策手段をもつもの	having a means of measures against failures or faults
+F02D  11/06  K	1	1	3G065	F02D  11/06	47	操作量の制限	Operation volume limitation
+F02D  11/06  L	1	1	3G065	F02D  11/06	78	排気絞り弁の制御	Exhaust throttle valve control
+F02D  11/06  Z	1	0	3G065	F02D  11/06	84	その他のもの	Others
+F02D  11/08  \	2	2	3G065	F02D  11/08	3	空気圧式のもの［５］	of the pneumatic type [5]
+F02D  11/08  A	2	0	3G065	F02D  11/08	112	圧縮空気により制御レバーを駆動するもの	driving a control lever by compressed air
+F02D  11/08  Z	2	0	3G065	F02D  11/08	116	その他のもの	Others
+F02D  11/10  \	2	2	3G065	F02D  11/10	64	電気式のもの［５］	of the electric type [5]
+F02D  11/10  A	2	0	3G065	F02D  11/10	370	電気式アクチュエータの構造又は配置	Structure or layout of electrical actuators
+F02D  11/10  B	2	1	3G065	F02D  11/10	394	アクチュエータと制御レバー間の動力伝達部に特徴があるもの	characterized by the power transmission between the actuator and control lever
+F02D  11/10  C	2	1	3G065	F02D  11/10	239	アクチュエータ自体の構造に特徴があるもの	characterized by the structure of the actuator per se
+F02D  11/10  D	2	1	3G065	F02D  11/10	286	アクチュエータの制御回路に特徴があるもの	characterized by the actuator's control circuit
+F02D  11/10  E	2	0	3G065	F02D  11/10	538	電気アクチュエータによる制御	Control by an electrical actuator
+F02D  11/10  F	2	1	3G065	F02D  11/10	656	アクセル又は制御レバーの操作量を補正するもの	correcting the operation volume of the accelerator or control lever
+F02D  11/10  G	2	2	3G065	F02D  11/10	148	始動又は暖機のためのもの	for starting or warming up
+F02D  11/10  H	2	2	3G065	F02D  11/10	133	アイドリングのためのもの	for idling
+F02D  11/10  J	2	2	3G065	F02D  11/10	144	停止のためのもの	for stopping
+F02D  11/10  K	2	1	3G065	F02D  11/10	879	アクセル操作量と制御レバーの操作特性を変更するもの	changing the accelerator operation volume or control lever operation characteristics
+F02D  11/10  N	2	0	3G065	F02D  11/10	388	機械的操作手段を備えるもの	equipped with a mechanical operation means
+F02D  11/10  P	2	1	3G065	F02D  11/10	159	定速走行装置	Constant-speed travelling devices
+F02D  11/10  Q	2	0	3G065	F02D  11/10	854	安全装置	Safety devices
+F02D  11/10  U	2	0	3G065	F02D  11/10	707	操作部材の位置検出又は信号処理のための構成	Configuration for operating member position detection or signal processing
+F02D  11/10  Z	2	0	3G065	F02D  11/10	105	その他のもの	Others
+F02D  13/00  \	0	0	3G092	F02D  13/00	82	吸気または排気弁の作動特性，例．タイミング，の変更による機関出力の制御［２００６．０１］	Controlling the engine output power by varying inlet or exhaust valve operating characteristics, e.g. timing [1, 2006.01]
+F02D  13/02  \	1	1	3G092	F02D  13/02	316	機関運転中のもの	during engine operation
+F02D  13/02  A	1	0	3G092	F02D  13/02	306	２サイクル機関用	for 2-cycle engines
+F02D  13/02  B	1	0	3G092	F02D  13/02	443	過給機付機関用	for engines with a supercharger
+F02D  13/02  C	1	0	3G092	F02D  13/02	49	副室用バルブを備えた機関用	for engines equipped with a sub chamber valve
+F02D  13/02  D	1	0	3G092	F02D  13/02	1185	吸気バルブで吸気量制御を行う機関用	for engines that control the feed volume by a feed valve
+F02D  13/02  E	1	0	3G092	F02D  13/02	223	複数の吸排気バルブの１つだけが停止するもの	Only one of multiple feed/exhaust valves that stops
+F02D  13/02  F	1	0	3G092	F02D  13/02	179	吸気管内に吸気タイミング制御弁をもつもの	having a feed timing control valve in the feed pipe
+F02D  13/02  G	1	0	3G092	F02D  13/02	3072	バルブ制御回路・制御手段（制御機構はＦ０１Ｌ）	Valve control circuit or control means (control mechanism F01L)
+F02D  13/02  H	1	1	3G092	F02D  13/02	4083	特定運転領域のための制御	Control for a particular operation range
+F02D  13/02  J	1	1	3G092	F02D  13/02	3319	他の制御対象との関連制御	Relative control with other control objects
+F02D  13/02  K	1	0	3G092	F02D  13/02	1318	燃焼室内排気残留・内部ＥＧＲのためのもの	for the residual exhaust in the combustion chamber or internal EGR
+F02D  13/02  L	1	0	3G092	F02D  13/02	320	特殊な機能のためのバルブを備えたもの	equipped with a vale for a special function
+F02D  13/02  Z	1	0	3G092	F02D  13/02	276	その他のもの	Others
+F02D  13/04  \	2	2	3G092	F02D  13/04	33	機関をブレーキとして使うもの	using engine as brake
+F02D  13/04  A	2	0	3G092	F02D  13/04	341	シリンダ内圧縮空気を排出するもの，例．パワータード（弁装置→Ｆ０１Ｌ１３／０６優先）	Discharging the compressed air of the cylinder, e.g. powertard(valve devices F01L13/06 takes precedence)
+F02D  13/04  B	2	1	3G092	F02D  13/04	130	排出専用の弁を備えたもの	equipped with a valve for discharge only
+F02D  13/04  Z	2	0	3G092	F02D  13/04	143	その他のもの	Others
+F02D  13/06  \	2	2	3G092	F02D  13/06	154	シリンダを休止させるもの	Cutting-out cylinders
+F02D  13/06  A	2	0	3G092	F02D  13/06	39	特殊機関用（デイーゼル機関・過給機付機関等：Ｆ０２Ｄ１７／０２Ａ参照）	for special engines (see F02D17/02@A for diesel engines, engines with a supercharger, etc.)
+F02D  13/06  B	2	0	3G092	F02D  13/06	170	他の制御対象との関連制御	Relative control with other control objects
+F02D  13/06  C	2	1	3G092	F02D  13/06	159	燃料供給との関連制御〔単なる燃料供給停止は除く〕	Relative control with fuel supply (excluding simple fuel supply stop)
+F02D  13/06  D	2	1	3G092	F02D  13/06	91	吸気系制御との関連制御	Relative control with feed system control
+F02D  13/06  E	2	0	3G092	F02D  13/06	212	気筒数切換時・部分気筒運転中のバルブ制御	Valve control upon change-over of the number of cylinders or during partial cylinder operation
+F02D  13/06  F	2	0	3G092	F02D  13/06	100	気筒数制御手段一般	Means of controlling the number of cylinders in general
+F02D  13/06  G	2	0	3G092	F02D  13/06	80	制御機構に特徴を有するもの（バルブ駆動機構のみはＦ０１Ｌ１３／）	characterized by the control mechanism (valve driving mechanism only F01L13/)
+F02D  13/06  Z	2	0	3G092	F02D  13/06	49	その他のもの	Others
+F02D  13/08  \	1	1	3G092	F02D  13/08	19	機関を不作動または無負荷状態とするもの	for rendering engine inoperative or idling
+F02D  13/08  A	1	0	3G092	F02D  13/08	174	デコンプ用	for the decompressor
+F02D  13/08  Z	1	0	3G092	F02D  13/08	35	その他のもの（吸排気弁の作動による機関停止一般→Ｆ０２Ｄ１７／００Ｈ；吸排気弁の作動による異常時の機関停止→Ｆ０２Ｄ１７／０４）	Others (engine stop by feed/exhaust valve operation in general F02D17/00@H ; engine stop upon failure occurrence by operation of the feed/exhaust valve F02D17/04)
+F02D  15/00  \	0	0	3G092	F02D  15/00	25	圧縮比を変化させるもの［２００６．０１］	Varying compression ratio [1, 2006.01]
+F02D  15/00  A	0	0	3G092	F02D  15/00	74	圧縮ガスを放出するもの	emitting the compressed gas
+F02D  15/00  B	0	1	3G092	F02D  15/00	193	始動用デコンプ・停止のためのもの	for stopping the starting decompressor
+F02D  15/00  C	0	2	3G092	F02D  15/00	63	２サイクル機関用のもの	for 2-cycle engines
+F02D  15/00  D	0	2	3G092	F02D  15/00	101	自動的な減圧・解除〔Ｃが優先〕	Automatic decompression or resetting (C takes precedence.)
+F02D  15/00  E	0	0	3G092	F02D  15/00	472	給気量の変更によるもの〔吸気弁のタイミング変更も含む〕	changing the feed volume (including the feed valve timing change)
+F02D  15/00  Z	0	0	3G092	F02D  15/00	159	その他のもの	Others
+F02D  15/02  \	1	1	3G092	F02D  15/02	38	ピストン行程の変更または変位によるもの	by alteration or displacement of piston stroke
+F02D  15/02  A	1	0	3G092	F02D  15/02	293	ピストンピン部分での行程変更	Stroke change on the piston pin
+F02D  15/02  B	1	0	3G092	F02D  15/02	227	ピストンヘツド上面の移動による行程変更	Stroke change by moving the piston head top surface
+F02D  15/02  C	1	0	3G092	F02D  15/02	900	クランクピン部分での行程変更	Stroke change on the crank pin
+F02D  15/02  Z	1	0	3G092	F02D  15/02	202	その他のもの	Others
+F02D  15/04  \	1	1	3G092	F02D  15/04	29	ピストン行程を変化させないで圧縮空間容積を変更するもの	by alteration of volume of compression space without changing piston stroke
+F02D  15/04  A	1	0	3G092	F02D  15/04	142	機関運転状態に応じた圧縮比の制御	Compression ratio control according the engine running state
+F02D  15/04  B	1	1	3G092	F02D  15/04	236	特定運転状態時の制御	Control in a particular running state
+F02D  15/04  C	1	1	3G092	F02D  15/04	331	他の制御対象との関連制御	Relative control with other control objects
+F02D  15/04  D	1	0	3G092	F02D  15/04	316	圧縮比変更のための構造に特徴のあるもの〔Ａが優先〕	characterized by the structure for changing the compression ratio (A takes precedence.)
+F02D  15/04  E	1	1	3G092	F02D  15/04	70	副室の容積を可変とする構造	Structure that makes the sub chamber capacity variable
+F02D  15/04  F	1	2	3G092	F02D  15/04	159	運転状態に応じて可変とする構造	Structure that makes the sub chamber capacity variable according to the running state
+F02D  15/04  G	1	1	3G092	F02D  15/04	226	副室を連通または非連通とするもの	Sub chamber communicated or non-communicated
+F02D  15/04  H	1	1	3G092	F02D  15/04	120	燃焼室内に容積調整部材を突出させるもの	Capacity adjusting member that protrudes inside the combustion chamber
+F02D  15/04  Z	1	0	3G092	F02D  15/04	46	その他のもの	Others
+F02D  17/00  \	0	0	3G092	F02D  17/00	28	個々のシリンダを休止させて機関を制御するもの；機関を不作動または無負荷状態とするもの（吸気または排気弁の作動特性を変更して機関を制御または不作動の状態とするものＦ０２Ｄ１３／００）	Controlling engines by cutting-out individual cylinders; Rendering engines inoperative or idling (controlling or rendering inoperative by varying inlet or exhaust valve operating characteristics F02D 13/00)
+F02D  17/00  A	0	0	3G092	F02D  17/00	50	機関停止時の制御対象が特定されるもの	Control object upon engine stop identified
+F02D  17/00  B	0	1	3G092	F02D  17/00	403	燃料系を制御するもの	controlling the fuel system
+F02D  17/00  C	0	2	3G092	F02D  17/00	160	高圧燃料噴射の制御	Control of high-pressure fuel injection
+F02D  17/00  D	0	3	3G092	F02D  17/00	136	ポンプ内部・ガバナ・ラックを直接制御するもの	Direct control of the pump inside, governor, or rack
+F02D  17/00  E	0	3	3G092	F02D  17/00	26	燃料戻し通路を制御するもの（Ｆ０２Ｍ３７／００３３１参照）	Control of the fuel return channel (see F02M37/00331)
+F02D  17/00  F	0	1	3G092	F02D  17/00	220	点火系を制御するもの	Control of the ignition system
+F02D  17/00  G	0	1	3G092	F02D  17/00	174	吸気管・排気管の弁を制御するもの	Control of the feed/exhaust pipe valve
+F02D  17/00  H	0	1	3G092	F02D  17/00	206	吸排気バルブを制御するもの，含．デコンプバルブ（Ｆ０２Ｄ１３／０８が優先）	Control of the feed/exhaust valve, including the decompression valve (F02D13/08 takes precedence)
+F02D  17/00  J	0	1	3G092	F02D  17/00	20	シリンダ内に加圧空気を供給するもの	Pressurised air supplied into the cylinder
+F02D  17/00  K	0	0	3G092	F02D  17/00	99	停止用操作レバー機構	Stop operation lever mechanism
+F02D  17/00  L	0	1	3G092	F02D  17/00	81	他の操作を連動するもの	Other operations interlocked
+F02D  17/00  M	0	0	3G092	F02D  17/00	259	停止時の関連制御	Relative control during stop
+F02D  17/00  N	0	1	3G092	F02D  17/00	83	ランオン・アフタファイア防止	Running-on or after-burning prevention
+F02D  17/00  P	0	0	3G092	F02D  17/00	342	自動停止	Automatic stop
+F02D  17/00  Q	0	1	3G092	F02D  17/00	2618	自動停止・始動を行うもの	Automatic stopping or starting performed
+F02D  17/00  R	0	2	3G092	F02D  17/00	18	フライホイールによる始動手段をもつもの	having a starting means with a flywheel
+F02D  17/00  Z	0	0	3G092	F02D  17/00	84	その他のもの	Others
+F02D  17/02  \	1	1	3G092	F02D  17/02	74	作動休止（多機関配列における機関の休止Ｆ０２Ｄ２５／０４）	Cutting-out (cutting-out engines in multiple-engine arrangements F02D 25/04)
+F02D  17/02  A	1	0	3G092	F02D  17/02	47	特定機関用	for particular engines
+F02D  17/02  B	1	1	3G092	F02D  17/02	248	ディーゼル機関用	for diesel engines
+F02D  17/02  C	1	1	3G092	F02D  17/02	92	過給機付機関用（過給機付機関特有のもの→Ｆ０２Ｄ２３／）	for engines with a supercharger (peculiar to engines with a super charger F02D23/)
+F02D  17/02  D	1	1	3G092	F02D  17/02	37	圧縮機として作動する機関用（Ｆ０４Ｂ４１／０４が優先）	for engines that run as a compressor (F04B41/04 takes precedence)
+F02D  17/02  E	1	1	3G092	F02D  17/02	18	クランク軸２分割式機関用（Ｆ０２Ｄ２５／０４が優先）	for engines with a crank shaft divided into two (F02D25/04 takes precedence)
+F02D  17/02  F	1	0	3G092	F02D  17/02	28	制御対象	Control objects
+F02D  17/02  G	1	1	3G092	F02D  17/02	140	空燃比を制御するもの	Control of the air-fuel ratio
+F02D  17/02  H	1	1	3G092	F02D  17/02	287	吸気系制御弁を制御するもの，例．絞り弁・遮断弁	Control of the feed system control valve, e.g. throttle valve, shut-off valve
+F02D  17/02  J	1	2	3G092	F02D  17/02	37	吸気系制御弁のバイパス弁を制御するもの	Control of the bypass valve for the feed system control valve
+F02D  17/02  K	1	3	3G092	F02D  17/02	27	遮断弁下流への新気導入を制御するもの	Control of new air guiding to the downstream of the shut-off valve
+F02D  17/02  L	1	2	3G092	F02D  17/02	56	吸気系制御弁と排気還流を制御するもの	Control of the feed system control valve and exhaust return
+F02D  17/02  M	1	1	3G092	F02D  17/02	400	吸排気バルブを制御するもの（Ｆ０２Ｄ１３／０６が優先；バルブ機構はＦ０１Ｌ１３／）	Control of the feed/exhaust valve (F02D13/06 takes precedence.; valve mechanism F01L13/)
+F02D  17/02  N	1	1	3G092	F02D  17/02	217	点火系を制御するもの（Ｆ０２Ｐが優先）	Control of the ignition system (F02P takes precedence.)
+F02D  17/02  P	1	1	3G092	F02D  17/02	121	排気処理装置を制御するもの	Control of the exhaust processing unit
+F02D  17/02  Q	1	1	3G092	F02D  17/02	141	排気の還流を制御するもの	Control of exhaust return
+F02D  17/02  R	1	1	3G092	F02D  17/02	683	燃料供給を制御するもの（他の分識が優先）	Control of fuel supply (Other categories take precedence.)
+F02D  17/02  S	1	0	3G092	F02D  17/02	209	変速機・クラッチの作動に関連した制御	Control related to transmission or clutch operation
+F02D  17/02  T	1	0	3G092	F02D  17/02	231	外部負荷に関連した制御	Control related to an external load
+F02D  17/02  U	1	0	3G092	F02D  17/02	468	部分気筒切換時・運転中の制御	Control upon partial cylinder change-over or during running
+F02D  17/02  V	1	1	3G092	F02D  17/02	345	作動停止気筒の選択・気筒数多段制御	Selection of the cylinder whose operation is to be stopped or multistage control of the number of cylinders
+F02D  17/02  W	1	0	3G092	F02D  17/02	233	全気筒運転に切換え時の制御	Control upon change-over to full-cylinder operation
+F02D  17/02  X	1	0	3G092	F02D  17/02	34	制御装置自体・配置	Controller per se or layout
+F02D  17/02  Y	1	0	3G092	F02D  17/02	65	気筒数制御機関自体の要素	Elements of the engine per se that controls the number of cylinders
+F02D  17/02  Z	1	0	3G092	F02D  17/02	103	その他のもの（先掲分識が優先；除：Ｐ及び展開分識）	Others (Above categories take precedence; excluding P and allocated categories.)
+F02D  17/04  \	1	1	3G092	F02D  17/04	12	機関を不作動または無負荷状態とするもの，例．異常状態に基づくもの（潤滑状態によるものＦ０１Ｍ１／２２；冷却状態によるものＦ０１Ｐ５／１４）	rendering engines inoperative or idling, e.g. caused by abnormal conditions (dependent on lubricating conditions F01M 1/22; dependent on cooling F01P 5/14)
+F02D  17/04  A	1	0	3G092	F02D  17/04	94	エンジン温度の異常時〔油温・水温を含む：除・排気温〕	upon fault of the engine temperature (including the oil temperature and water temperature; excluding the exhaust temperature)
+F02D  17/04  B	1	0	3G092	F02D  17/04	121	速度の異常時〔車速を含む〕	upon speed fault (including the car speed)
+F02D  17/04  C	1	0	3G092	F02D  17/04	115	潤滑系の異常時（除：潤滑油温度→Ａ）	upon lubrication system fault (excluding the lubricant temperature A)
+F02D  17/04  D	1	0	3G092	F02D  17/04	34	冷却系の異常時（除：冷却水温度→Ａ）	upon cooling system fault (excluding the cooling water temperature A)
+F02D  17/04  E	1	0	3G092	F02D  17/04	89	絞り弁作動系の異常時	upon throttle valve running system fault
+F02D  17/04  F	1	0	3G092	F02D  17/04	82	燃料系の異常時	upon fuel system fault
+F02D  17/04  G	1	0	3G092	F02D  17/04	69	制御装置の異常時，含．回路・アクチュエータ	upon controller fault, including the circuit and actuator
+F02D  17/04  H	1	0	3G092	F02D  17/04	21	過負荷・焼付時，除．焼付防止	upon overload or seizure, excluding seizure prevention
+F02D  17/04  J	1	0	3G092	F02D  17/04	96	衝突・傾斜・転倒時	upon collision, slant, or fall
+F02D  17/04  K	1	0	3G092	F02D  17/04	80	作業機・作業者保護用，含．一般車両以外のエンジン駆動機器の保護	for protecting the working machine or operator, including protection of engine driving components other than general vehicles
+F02D  17/04  L	1	0	3G092	F02D  17/04	33	過給機保護用	for supercharger protection
+F02D  17/04  M	1	0	3G092	F02D  17/04	36	排気浄化装置保護用	for protection of the exhaust clarifying device
+F02D  17/04  N	1	0	3G092	F02D  17/04	34	逆転時	upon reverse rotation
+F02D  17/04  P	1	1	3G092	F02D  17/04	57	逆転検出手段に特徴のあるもの	characterized by the reverse rotation detection means
+F02D  17/04  Q	1	1	3G092	F02D  17/04	40	吸排気管の弁を制御するもの	Control of the feed/exhaust pipe valve
+F02D  17/04  R	1	1	3G092	F02D  17/04	51	燃料系を制御するもの	Control of the fuel system
+F02D  17/04  S	1	2	3G092	F02D  17/04	41	噴射ポンプを制御するもの	Control of the fuel injection pump
+F02D  17/04  T	1	0	3G092	F02D  17/04	41	複数の異常状態に応じた制御，例．潤滑油及び冷却水の異常	Control according to multiple fault states, e.g. lubricant and cooling water faults
+F02D  17/04  U	1	0	3G092	F02D  17/04	133	特定されない異常時の制御，例．潤滑油または冷却水等の異常	Control upon unidentified fault, e.g. lubricant or cooling water fault
+F02D  17/04  V	1	0	3G092	F02D  17/04	253	その他の異常時の停止制御	Stop control upon any other fault
+F02D  17/04  Z	1	0	3G092	F02D  17/04	81	その他のもの（異常時の停止以外は１７／００が優先）	Others (17/00 takes precedence for other than stop upon fault)
+F02D  19/00  \	0	0	3G092	F02D  19/00	16	液体でない燃料，複数の燃料または可燃性混合物に添加された燃料でない物質を使用することを特徴とする機関の制御（燃料でない物質で気体状のものＦ０２Ｄ２１／００）	Controlling engines characterised by their use of non-liquid fuels, pluralities of fuels, or non-fuel substances added to the combustible mixtures (the non-fuel substances being gaseous F02D 21/00)
+F02D  19/02  \	1	1	3G092	F02D  19/02	43	気体燃料で作動する機関に特有のもの［２００６．０１］	peculiar to engines working with gaseous fuels [1, 2006.01]
+F02D  19/02  A	1	0	3G092	F02D  19/02	186	特殊ガス使用，例．木炭ガス，消化ガス	Special gas used, e.g. charcoal gas, fire-extinguishing gas
+F02D  19/02  B	1	1	3G092	F02D  19/02	511	水素ガス使用	Hydrogen gas used
+F02D  19/02  C	1	1	3G092	F02D  19/02	203	改質ガス使用	Modified gas used
+F02D  19/02  D	1	0	3G092	F02D  19/02	642	ガス噴射式機関用（Ａ〜Ｃが優先）	for gas injection type engines (A to C take precedence.)
+F02D  19/02  E	1	1	3G092	F02D  19/02	170	ディーゼル機関（液体燃料も供給するもの→１９／０８が優先）	Diesel engines (liquid fuel also supplied 19/08 takes precedence)
+F02D  19/02  F	1	0	3G092	F02D  19/02	705	空燃比制御をするもの	Control of the air-fuel ratio
+F02D  19/02  Z	1	0	3G092	F02D  19/02	924	その他のもの	Others
+F02D  19/04  \	1	1	3G092	F02D  19/04	25	固体燃料，例．微粉炭，で作動する機関に特有なもの	peculiar to engines working with solid fuels, e.g. pulverised coal
+F02D  19/06  \	1	1	3G092	F02D  19/06	24	２種以上の燃料によって作動する機関，例．軽油および重油燃料を交代使用できるもの，であって消費燃料を特定しない機関を除いた機関に特有のもの	peculiar to engines working with pluralities of fuels, e.g. alternatively with light and heavy fuel oil, other than engines indifferent to the fuel consumed
+F02D  19/06  A	1	0	3G092	F02D  19/06	205	アルコール燃料と切換えるもの	changed over to an alcohol fuel
+F02D  19/06  B	1	0	3G092	F02D  19/06	641	ガス燃料と切換えるもの	changed over to a gas fuel
+F02D  19/06  C	1	1	3G092	F02D  19/06	67	常温で液体燃料の気化ガス，例．改質ガス，と切換えるもの	changed over to a gasified liquid fuel, e.g. modified gas at the room temperature
+F02D  19/06  D	1	1	3G092	F02D  19/06	258	液化ガス，例．ＬＰＧ，とガソリンとを切換えるもの	Change-over between the liquefied gas, e.g. LPG and gasoline
+F02D  19/06  E	1	0	3G092	F02D  19/06	70	灯油とガソリンとを切換えるもの	Change-over between the kerosene and gasoline
+F02D  19/06  F	1	1	3G092	F02D  19/06	66	気化器で切換えるもの	Change-over by a Carbureter
+F02D  19/06  G	1	0	3G092	F02D  19/06	108	重油燃料を切換えるもの	Change-over of a heavy oil fuel
+F02D  19/06  Z	1	0	3G092	F02D  19/06	290	その他のもの	Others
+F02D  19/08  \	2	2	3G092	F02D  19/08	44	同時に２種以上の燃料を使用するもの（Ｆ０２Ｄ１９／１２が優先）	simultaneously using pluralities of fuels (F02D 19/12 takes precedence)
+F02D  19/08  A	2	0	3G092	F02D  19/08	141	軽質油と重質油を供給するもの	Light oil and heavy oil supplied
+F02D  19/08  B	2	0	3G092	F02D  19/08	364	改質燃料を供給するもの	Modified fuel supplied
+F02D  19/08  C	2	0	3G092	F02D  19/08	695	ガス燃料を供給するもの（Ｂが優先）	Gas fuel supplied (B takes precedence)
+F02D  19/08  D	2	0	3G092	F02D  19/08	1114	液体アルコール類を供給するもの（Ｂ，Ｃが優先）	Liquid alcohols supplied (B and C take precedence)
+F02D  19/08  Z	2	0	3G092	F02D  19/08	372	その他のもの（燃料の切換えと混合の両方を行うもの→１９／０６が優先）	Others (Both fuel change-over and mixing performed 19/06 takes precedence)
+F02D  19/10  \	3	3	3G092	F02D  19/10	291	主燃料が気体である圧縮点火機関に特有のもの	peculiar to compression-ignition engines in which the main fuel is gaseous
+F02D  19/12  \	1	1	3G092	F02D  19/12	9	燃料でない物質またはアンチノック剤，例．アンチノック性燃料，を添加して作動する機関に特有のもの［２００６．０１］	peculiar to engines working with non-fuel substances or with anti-knock agents, e.g. with anti-knockfuel [1, 2006.01]
+F02D  19/12  A	1	0	3G092	F02D  19/12	602	水・水蒸気を添加するもの	Water or steam added
+F02D  19/12  Z	1	0	3G092	F02D  19/12	212	その他のもの	Others
+F02D  21/00  \	0	0	3G092	F02D  21/00	56	空気中のものでない酸素またはその他の燃料でない気体が供給されることを特徴とする機関の制御	Controlling engines characterised by their being supplied with non-airborne oxygen or other non-fuel gas
+F02D  21/02  \	1	1	3G092	F02D  21/02	93	酸素が供給される機関に特有のもの	peculiar to oxygen-fed engines
+F02D  21/04  \	2	2	3G092	F02D  21/04	86	密閉回路または準密閉回路で排気ガスが循環するもの	with circulation of exhaust gases in closed or semi-closed circuits
+F02D  21/06  \	1	1	3G092	F02D  21/06	140	燃焼空気に他の燃料でない気体が添加される機関に特有のもの	peculiar to engines having other non-fuel gas added to combustion-air
+F02D  21/08  \	2	2	3G092	F02D  21/08	51	機関の排気ガスが添加されるもの［２００６．０１］	the other gas being the exhaust gas ofengine [1, 2006.01]
+F02D  21/08  L	2	0	3G092	F02D  21/08	262	排気ガスの添加のみに特徴を有するもの	characterized by addition only of the exhaust gas
+F02D  21/08  Z	2	0	3G092	F02D  21/08	243	その他のもの	Others
+F02D  21/08 301 \	3	3	3G092	F02D  21/08	22	他の機関制御との結合	Coupling with another engine control
+F02D  21/08 301 A	3	0	3G092	F02D  21/08	1284	吸気系制御との結合	Coupling with feed system control
+F02D  21/08 301 J	3	1	3G092	F02D  21/08	109	吸気系二次空気との結合	Coupling with the feed system secondary air
+F02D  21/08 301 B	3	1	3G092	F02D  21/08	566	ディーゼル機関用	for diesel engines
+F02D  21/08 301 C	3	0	3G092	F02D  21/08	1213	燃料系制御との結合	Coupling with fuel system control
+F02D  21/08 301 D	3	1	3G092	F02D  21/08	788	ディーゼル機関用	for diesel engines
+F02D  21/08 301 E	3	0	3G092	F02D  21/08	395	帰還制御との結合（Ａ，Ｃ，Ｆ，Ｇが優先）	Coupling with feedback control (A, C, F and G take precedence)
+F02D  21/08 301 F	3	0	3G092	F02D  21/08	54	排気系二次空気制御との結合（Ｊが優先）	Coupling with exhaust system secondary air control (J takes precedence)
+F02D  21/08 301 G	3	0	3G092	F02D  21/08	494	点火系制御との結合	Coupling with ignition system control
+F02D  21/08 301 H	3	0	3G092	F02D  21/08	373	ディーゼル機関用（Ａ〜Ｅが優先）	for diesel engines (A to E take precedence)
+F02D  21/08 301 Z	3	0	3G092	F02D  21/08	631	その他のもの	Others
+F02D  21/08 311 \	3	3	3G092	F02D  21/08	2	特殊機関用	for special engines
+F02D  21/08 311 A	3	0	3G092	F02D  21/08	151	気筒数制御機関用	for engines that control the number of cylinders
+F02D  21/08 311 B	3	0	3G092	F02D  21/08	1316	過給機付機関用	for engines with a supercharger
+F02D  21/08 311 C	3	0	3G092	F02D  21/08	27	多点着火機関用	for multi-point ignition engines
+F02D  21/08 311 Z	3	0	3G092	F02D  21/08	195	その他のもの	Others
+F02D  21/10  \	2	2	3G092	F02D  21/10	5	燃料−空気混合気に２次空気が添加されるもの［２００６．０１］	having secondary air added to fuel-airmixture [1, 2006.01]
+F02D  21/10  A	2	0	3G092	F02D  21/10	38	排気ガス成分により制御するもの（Ｂ〜Ｆが優先）	Control according to the exhaust gas components (B to F take precedence)
+F02D  21/10  B	2	0	3G092	F02D  21/10	71	燃料制御との結合	Coupling with fuel control
+F02D  21/10  C	2	0	3G092	F02D  21/10	17	絞り弁制御との結合	Coupling with throttle valve control
+F02D  21/10  D	2	0	3G092	F02D  21/10	18	点火系制御との結合	Coupling with ignition system control
+F02D  21/10  E	2	0	3G092	F02D  21/10	11	排気系二次空気との結合	Coupling with the exhaust system secondary air
+F02D  21/10  F	2	0	3G092	F02D  21/10	45	ＥＧＲ制御との結合	Coupling with EGR control
+F02D  21/10  G	2	0	3G092	F02D  21/10	7	気筒数制御機関用（Ａ〜Ｆが優先）	for engines that control the number of cylinders (A to F take precedence)
+F02D  21/10  Z	2	0	3G092	F02D  21/10	91	その他のもの	Others
+F02D  23/00  \	0	0	3G092	F02D  23/00	66	過給されることを特徴とする機関の制御	Controlling engines characterised by their being supercharged
+F02D  23/00  A	0	0	3G092	F02D  23/00	139	特定型式機関の制御	Control of a particular type engine
+F02D  23/00  B	0	1	3G092	F02D  23/00	101	気筒数制御機関用	for engines that control the number of cylinders
+F02D  23/00  C	0	1	3G092	F02D  23/00	32	排気脈動による過給機を備えたもの	equipped with a supercharger using exhaust pulsation
+F02D  23/00  D	0	1	3G092	F02D  23/00	448	タービンに電動機・発電機を備えたもの	equipped with a motor or generated on the turbine
+F02D  23/00  E	0	0	3G092	F02D  23/00	458	空燃比制御	Air-fuel ratio control
+F02D  23/00  F	0	0	3G092	F02D  23/00	707	絞り弁制御	Throttle valve control
+F02D  23/00  G	0	0	3G092	F02D  23/00	115	スロットルバイパス弁制御	Throttle bypass valve control
+F02D  23/00  H	0	0	3G092	F02D  23/00	222	点火系制御	Ignition system control
+F02D  23/00  J	0	0	3G092	F02D  23/00	1239	ＥＧＲ制御	EGR control
+F02D  23/00  K	0	0	3G092	F02D  23/00	620	吸排気弁制御	Feed/exhaust valve control
+F02D  23/00  L	0	0	3G092	F02D  23/00	152	圧縮比制御	Compression ratio control
+F02D  23/00  M	0	0	3G092	F02D  23/00	15	気化器の制御	Carbureter control
+F02D  23/00  N	0	0	3G092	F02D  23/00	1053	その他の制御対象を制御するもの	Control of other control objects
+F02D  23/00  P	0	0	3G092	F02D  23/00	626	複数の制御対象を制御するもの	Control of multiple control objects
+F02D  23/00  Z	0	0	3G092	F02D  23/00	376	その他のもの（気化器以外の燃料制御→２３／０２が優先）	Others (fuel control for other than the carbureter 23/02 takes precedence)
+F02D  23/02  \	1	1	3G092	F02D  23/02	15	燃料噴射形の機関	the engines being of fuel-injection type
+F02D  23/02  A	1	0	3G092	F02D  23/02	282	燃料噴射量制御	Fuel injection volume control
+F02D  23/02  B	1	1	3G092	F02D  23/02	128	低圧燃料噴射用	for low-pressure fuel injection
+F02D  23/02  K	1	2	3G092	F02D  23/02	261	機関の負荷状態に応ずるもの	corresponding to the engine's load state
+F02D  23/02  L	1	2	3G092	F02D  23/02	99	過過給を防止するもの	Over-supercharge prevention
+F02D  23/02  M	1	2	3G092	F02D  23/02	64	機関温度・吸気（給気）温度に応ずるもの	corresponding to the engine temperature or feed (air supply) temperature
+F02D  23/02  N	1	2	3G092	F02D  23/02	85	異常，例．機能不全，故障，時の制御（Ｌが優先）	Control upon faults, e.g. malfunction, failure (L takes precedence)
+F02D  23/02  C	1	1	3G092	F02D  23/02	199	高圧燃料噴射用	for high-pressure fuel injection
+F02D  23/02  D	1	2	3G092	F02D  23/02	124	噴射ポンプのみを制御するもの	Control of the fuel injection pump only
+F02D  23/02  E	1	3	3G092	F02D  23/02	134	始動・暖機・アイドル時の制御	Control in starting, warming up, or idling
+F02D  23/02  F	1	3	3G092	F02D  23/02	102	加速時の制御	Control upon acceleration
+F02D  23/02  G	1	3	3G092	F02D  23/02	71	異常時の制御	Control upon faults
+F02D  23/02  H	1	0	3G092	F02D  23/02	250	燃料噴射時期制御	Fuel injection time control
+F02D  23/02  J	1	0	3G092	F02D  23/02	91	燃料圧力制御	Fuel pressure control
+F02D  23/02  Z	1	0	3G092	F02D  23/02	77	その他のもの	Others
+F02D  25/00  \	0	0	3G092	F02D  25/00	133	複数の協動して作動する機関の制御	Controlling two or more co-operating engines
+F02D  25/02  \	1	1	3G092	F02D  25/02	78	機関速度を同期させるもの	to synchronise speed
+F02D  25/04  \	1	1	3G092	F02D  25/04	6	機関休止によるもの	by cutting-out engines
+F02D  25/04  A	1	0	3G092	F02D  25/04	58	クラツチにより切離されるもの	disconnected by a clutch
+F02D  25/04  Z	1	0	3G092	F02D  25/04	44	その他のもの〔２５／０２が優先〕	Others (25/02 takes precedence.)
+F02D  27/00  \	0	0	3G092	F02D  27/00	2	逆転可能なことを特徴とする機関の制御	Controlling engines characterised by their being reversible
+F02D  27/00  A	0	0	3G092	F02D  27/00	44	燃料噴射の制御	Fuel injection control
+F02D  27/00  B	0	0	3G092	F02D  27/00	32	高圧空気供給の制御	High-pressure air supply control
+F02D  27/00  C	0	0	3G092	F02D  27/00	26	吸排気弁駆動装置の操作	Operation of a feed/exhaust valve driving device
+F02D  27/00  Z	0	0	3G092	F02D  27/00	89	その他のもの	Others
+F02D  27/02  \	1	1	3G092	F02D  27/02	94	設定された作動を行なうもの	by performing a programme
+F02D  28/00  \	0	0	3G092	F02D  28/00	3	機関のプログラム制御［２００６．０１］	Programme-control of engines [2, 2006.01]
+F02D  28/00  A	0	0	3G092	F02D  28/00	45	自動運転用	for automatic operation
+F02D  28/00  B	0	0	3G092	F02D  28/00	24	遠隔制御用	for remote control
+F02D  28/00  C	0	0	3G092	F02D  28/00	36	機関試験用	for engine tests
+F02D  28/00  Z	0	0	3G092	F02D  28/00	36	その他のもの	Others
+F02D  29/00  \	0	0	3G093	F02D  29/00	40	機関の作動に不可欠な部品または補機以外の装置であって機関により駆動されるものに特有な制御，例．機関外からの信号による機関の制御［２］	Controlling engines, such controlling being peculiar to the devices driven thereby, the devices being other than parts or accessories essential to engine operation, e.g. controlling of engines by signals external thereto [2]
+F02D  29/00  A	0	0	3G093	F02D  29/00	149	航空機用機関特有の制御	Control peculiar to aircraft engines
+F02D  29/00  B	0	0	3G093	F02D  29/00	2193	作業機用機関の制御	Control of working machine engines
+F02D  29/00  C	0	0	3G093	F02D  29/00	3189	自動変速機付機関の制御（変速制御も行うものＢ６０Ｗ１０）	Control of engines with an automatic transmission (speed change control also performed H)
+F02D  29/00  D	0	1	3G093	F02D  29/00	306	アイドル時の制御（Ｆ０２Ｄ２９／０２，３３１が優先）	Control in idling (29/02 and 331 take precedence.)
+F02D  29/00  E	0	1	3G093	F02D  29/00	23	変速中絞り弁を全閉するもの	Throttle valve fully opened during speed change
+F02D  29/00  F	0	0	3G093	F02D  29/00	758	手動変速機付機関の制御	Control of engines with a manual transmission
+F02D  29/00  G	0	0	3G093	F02D  29/00	1104	クラッチ作動との関連制御（クラッチ制御も行うものＢ６０Ｗ１０）	Relative control with clutch motion (clutch control also performed H)
+F02D  29/00  Z	0	0	3G093	F02D  29/00	1285	その他のもの	Others
+F02D  29/02  \	1	1	3G093	F02D  29/02	158	車両を駆動する機関に特有のもの；可変ピッチのプロペラを駆動する機関に特有のもの［２］	peculiar to engines driving vehicles; peculiar to engines driving variable-pitch propellers [2]
+F02D  29/02  A	1	0	3G093	F02D  29/02	542	舶用機関に特有のもの	peculiar to ship engines
+F02D  29/02  B	1	1	3G093	F02D  29/02	95	可変ピッチプロペラ駆動機関用	for variable-pitch propeller driving engines
+F02D  29/02  C	1	1	3G093	F02D  29/02	137	スロットル駆動レバー部分	Throttle driving lever part
+F02D  29/02  E	1	0	3G093	F02D  29/02	71	車両試験時の運転制御	Cruising control in the vehicle test
+F02D  29/02  F	1	0	3G093	F02D  29/02	325	補機駆動に応じた制御（ポンプの駆動に応じた制御Ｆ０２Ｄ２９／０４，発電機の駆動に応じた制御Ｆ０２Ｄ２９／０６）	Control according to driving the accessory machine (air conditioners 29/04, power generators 29/06)
+F02D  29/02  G	1	0	3G093	F02D  29/02	241	パワステアリングの作動に応じた制御	Control according to the power steering motion
+F02D  29/02  H	1	0	3G093	F02D  29/02	500	無線・音波等による車両の遠隔制御	Vehicle remote control by radio, acoustic wave, etc.
+F02D  29/02  J	1	0	3G093	F02D  29/02	234	特殊車両用	for special vehicles
+F02D  29/02  K	1	0	3G093	F02D  29/02	1687	安全対策手段をもつもの，例．盗難防止手段をもつもの	having a means for safety measures
+F02D  29/02  L	1	0	3G093	F02D  29/02	1030	運転管理・表示	Cruising management or indication
+F02D  29/02  Z	1	0	3G093	F02D  29/02	2931	その他のもの	Others
+F02D  29/02 301 \	2	2	3G093	F02D  29/02	20	車速制御（定速走行Ｂ６０Ｋ３１／００）	Car speed control (constant-speed travelling B 60 K 31/00)
+F02D  29/02 301 A	2	0	3G093	F02D  29/02	354	定速走行用	for constant-speed travelling
+F02D  29/02 301 B	2	1	3G093	F02D  29/02	397	機械的特徴点を備えたもの	equipped with mechanical features
+F02D  29/02 301 C	2	1	3G093	F02D  29/02	2293	電気的制御一般	Electrical control in general
+F02D  29/02 301 D	2	0	3G093	F02D  29/02	1679	車間距離に応じた車速制御	Car speed control according to the car-to-car distance
+F02D  29/02 301 Z	2	0	3G093	F02D  29/02	478	その他のもの	Others
+F02D  29/02 311 \	2	2	3G093	F02D  29/02	18	車速制限	Car speed limitation
+F02D  29/02 311 A	2	0	3G093	F02D  29/02	3377	加速スリップ・スキッド防止用	for slip/skid prevention during acceleration
+F02D  29/02 311 B	2	0	3G093	F02D  29/02	348	最高車速を制限するもの（制御対象が特定されないものを含む）	limiting the maximum car speed (including the case that the control object is not identified)
+F02D  29/02 311 C	2	1	3G093	F02D  29/02	282	給気系統を制御するもの（絞り弁やアクセル系統一般を制御するものを含む）	Control of the air inlet system, e.g. throttle valves; including the accelerator system in general
+F02D  29/02 311 D	2	2	3G093	F02D  29/02	55	２次絞り弁を制御するもの	Control of the secondary throttle valve
+F02D  29/02 311 E	2	2	3G093	F02D  29/02	111	アクセルペダルと絞り弁間の連結機構を制御するもの	Control of the linkage mechanism between the accelerator pedal and throttle valve
+F02D  29/02 311 F	2	1	3G093	F02D  29/02	232	燃料系統を制御するもの	Control of the fuel system
+F02D  29/02 311 G	2	1	3G093	F02D  29/02	99	点火系統を制御するもの	Control of the ignition system
+F02D  29/02 311 H	2	1	3G093	F02D  29/02	49	その他の制御対象を制御するもの	Control of other control objects
+F02D  29/02 311 J	2	1	3G093	F02D  29/02	87	複数の制御対象を関連して制御するもの	Relative control of multiple control objects
+F02D  29/02 311 Z	2	0	3G093	F02D  29/02	202	その他のもの	Others
+F02D  29/02 321 \	2	2	3G093	F02D  29/02	23	始動・停止の制御	Control of starting and stopping
+F02D  29/02 321 A	2	0	3G093	F02D  29/02	4623	停車・発進時にエンジンの停止・再始動を行うもの，すなわちエコランシステム	Stopping and restarting the engine upon car stop and start (economical run system)
+F02D  29/02 321 B	2	0	3G093	F02D  29/02	2982	始動時の制御（暖機終了後に停止するものを含む）	Control upon starting (including stop after completion of warming up)
+F02D  29/02 321 C	2	0	3G093	F02D  29/02	2232	停止時の制御	Control upon stopping
+F02D  29/02 321 Z	2	0	3G093	F02D  29/02	175	その他のもの	Others
+F02D  29/02 331 \	2	2	3G093	F02D  29/02	33	アイドル時の制御	Control in idling
+F02D  29/02 331 A	2	0	3G093	F02D  29/02	250	負荷に応じたアイドルアップ（変速機・クラッチ作動負荷に応じた制御Ｆ０２Ｄ２９／００，ポンプ負荷に応じた制御Ｆ０２Ｄ２９／０４，発電機負荷に応じた制御Ｆ０２Ｄ２９／０６）	Idling-up according to the load (transmission or clutch motion load R 29/00; air conditioner load R 29/04; power generation load R 29/06)
+F02D  29/02 331 Z	2	0	3G093	F02D  29/02	318	その他のもの	Others
+F02D  29/02 341 \	2	2	3G093	F02D  29/02	1253	制動時の制御	Control in braking
+F02D  29/04  \	1	1	3G093	F02D  29/04	7	ポンプ駆動の機関に特有のもの	peculiar to engines driving pumps
+F02D  29/04  A	1	0	3G093	F02D  29/04	58	冷凍機・クーラ駆動機関	Refrigerator or cooler driving engine
+F02D  29/04  B	1	1	3G093	F02D  29/04	582	補機としてのクーラを駆動する機関（エアコンを駆動するものを含む）	Engines that drive a cooler as an accessory machine (including air conditioners)
+F02D  29/04  C	1	2	3G093	F02D  29/04	377	アイドリング時の制御	Control in idling
+F02D  29/04  D	1	1	3G093	F02D  29/04	128	冷凍機・クーラ駆動の専用機関	Dedicated engines for driving a refrigerator or cooler
+F02D  29/04  E	1	0	3G093	F02D  29/04	199	圧縮機駆動機関（Ｆ０２Ｄ２９／０４Ａ〜Ｄが優先）	Engines that drive a compressor (A to D take precedence.)
+F02D  29/04  F	1	0	3G093	F02D  29/04	263	液体ポンプ駆動機関	Engines that drive a liquid pump
+F02D  29/04  G	1	1	3G093	F02D  29/04	830	油圧アクチュエータ用ポンプ駆動機関	Engines that drive a pump for a hydraulic actuator
+F02D  29/04  H	1	2	3G093	F02D  29/04	552	可変容量型ポンプをもつもの	having a variable capacity type pump
+F02D  29/04  Z	1	0	3G093	F02D  29/04	79	その他のもの	Others
+F02D  29/06  \	1	1	3G093	F02D  29/06	40	発電機駆動の機関に特有のもの	peculiar to engines driving electric generators
+F02D  29/06  A	1	0	3G093	F02D  29/06	257	特定用途の発電機用	for special-purpose power generators
+F02D  29/06  B	1	1	3G093	F02D  29/06	57	非常用発電機	Emergency power generators
+F02D  29/06  C	1	1	3G093	F02D  29/06	46	溶接用発電機	Welding power generators
+F02D  29/06  D	1	1	3G093	F02D  29/06	2079	車両駆動モータ用発電機（シリーズ式ハイブリッド車両Ｂ６０Ｋ６／４６）	Power generators for vehicle driving motors
+F02D  29/06  E	1	1	3G093	F02D  29/06	835	機関補機としての発電機	Power generators as an accessory machine for an engine
+F02D  29/06  F	1	2	3G093	F02D  29/06	495	始動・暖機・アイドル時の制御	Control in starting, warming up, or idling
+F02D  29/06  G	1	2	3G093	F02D  29/06	312	機関のトルク変動抑制制御	Control for engine torque variation suppression
+F02D  29/06  H	1	0	3G093	F02D  29/06	265	運転状態に応じた自動制御（Ｆ０２Ｄ２９／０６Ａ〜Ｇが優先）	Automatic control according to the running state (A to G take precedence.)
+F02D  29/06  J	1	1	3G093	F02D  29/06	224	始動・暖機時の制御	Control in starting or warming up
+F02D  29/06  K	1	1	3G093	F02D  29/06	111	アイドル・負荷遮断時の制御	Control is idling or shutting off the load
+F02D  29/06  L	1	1	3G093	F02D  29/06	513	負荷を検出して制御するもの（電圧を検出して制御するものを含む）	Control by detecting a load (including voltage detection)
+F02D  29/06  M	1	2	3G093	F02D  29/06	68	負荷投入時の制御	Control in turning on the load
+F02D  29/06  N	1	1	3G093	F02D  29/06	281	回転数を検出して制御するもの	Control by detecting the number of revolutions
+F02D  29/06  P	1	0	3G093	F02D  29/06	60	周波数を切換えるもの	Frequency change-over
+F02D  29/06  Q	1	0	3G093	F02D  29/06	289	異常時制御・安全装置	Control or safety devices for faults
+F02D  29/06  Z	1	0	3G093	F02D  29/06	104	その他のもの	Others
+F02D  31/00  \	0	0	3G094	F02D  31/00	10	非電気的な速度検出のガバナーを燃焼機関の制御に使用するもので他に分類されないもの	Use of non-electrical speed-sensing governors to control combustion engines, not otherwise provided for
+F02D  31/00 301 \	1	1	3G094	F02D  31/00	0	速度検出のガバナ−の構造に特徴があるもの	characterized by the structure of the speed detection governor
+F02D  31/00 301 A	1	0	3G094	F02D  31/00	212	速度検出部から出力制御部までの構造に特徴があるもの	characterized by the structure from the speed detector to the output control unit
+F02D  31/00 301 B	1	1	3G094	F02D  31/00	154	速度検出部の構造に特徴があるもの	characterized by the structure of the speed detector
+F02D  31/00 301 C	1	1	3G094	F02D  31/00	250	ガバナレバ−を用いるもの	using a governor lever
+F02D  31/00 301 D	1	2	3G094	F02D  31/00	83	ガバナレバ−自体に特徴があるもの	characterized by the governor lever per se
+F02D  31/00 301 E	1	0	3G094	F02D  31/00	31	潤滑装置	Lubrication device
+F02D  31/00 301 Z	1	0	3G094	F02D  31/00	139	その他	Others
+F02D  31/00 310 \	1	1	3G094	F02D  31/00	1	燃焼機関の制御に特徴があるもの	characterized by control of a combustion engine
+F02D  31/00 310 A	1	0	3G094	F02D  31/00	33	特殊な型式の燃焼機関	Special type combustion engines
+F02D  31/00 310 B	1	0	3G094	F02D  31/00	49	特殊な用途の燃焼機関	Combustion engines for special applications
+F02D  31/00 310 C	1	0	3G094	F02D  31/00	58	特殊な運転状態のためのもの	for special running states
+F02D  31/00 310 D	1	1	3G094	F02D  31/00	17	制動・停止	Braking or stopping
+F02D  31/00 310 E	1	1	3G094	F02D  31/00	49	安全装置	Safety devices
+F02D  31/00 310 Z	1	0	3G094	F02D  31/00	8	その他	Others
+F02D  33/00  \	0	0	3G094	F02D  33/00	95	燃料または燃焼空気の配分の非電気的な制御で他に分類されないもの	Non-electrical control of delivery of fuel or combustion-air, not otherwise provided for
+F02D  33/00 301 \	1	1	3G094	F02D  33/00	0	特殊な型式の燃焼機関のための非電気的な制御で他に分類されないもの	Non-electrical control for special type combustion engines that is not categorised into the others
+F02D  33/00 301 A	1	0	3G094	F02D  33/00	41	排気系に浄化装置を備えた機関	Engines equipped with a clarifying device in the exhaust system
+F02D  33/00 301 B	1	0	3G094	F02D  33/00	9	２サイクル機関	2-cycle engines
+F02D  33/00 301 C	1	0	3G094	F02D  33/00	60	多気筒機関	Multi-cylinder engines
+F02D  33/00 301 D	1	1	3G094	F02D  33/00	39	気筒数制御機関	Engines that control the number of cylinders
+F02D  33/00 301 E	1	0	3G094	F02D  33/00	41	過給機付機関	Engines with a supercharger
+F02D  33/00 301 F	1	0	3G094	F02D  33/00	13	ＥＧＲ付機関	Engines with an EGR
+F02D  33/00 301 H	1	0	3G094	F02D  33/00	165	成層燃焼機関	Layered combustion engines
+F02D  33/00 301 J	1	0	3G094	F02D  33/00	64	渦流燃焼型機関	Eddy combustion type engines
+F02D  33/00 301 K	1	0	3G094	F02D  33/00	68	リーンリッチ機関	Lean/rich engines
+F02D  33/00 301 L	1	0	3G094	F02D  33/00	30	蒸発燃料処理装置を有するもの	having an evaporating fuel processing unit
+F02D  33/00 301 M	1	0	3G094	F02D  33/00	68	ガソリン以外の燃料を使用する機関	Engines that use a fuel other than gasoline
+F02D  33/00 301 Z	1	0	3G094	F02D  33/00	74	低圧燃料噴射型	Low-pressure fuel injection type
+F02D  33/00 303 \	2	2	3G094	F02D  33/00	0	ディーゼル機関のためのもの	for a diesel engine
+F02D  33/00 303 E	2	0	3G094	F02D  33/00	7	過給機付き	with a supercharger
+F02D  33/00 303 F	2	0	3G094	F02D  33/00	4	ＥＧＲ付き	with an EGR
+F02D  33/00 303 M	2	0	3G094	F02D  33/00	2	ガソリン以外	Other than gasoline
+F02D  33/00 303 Z	2	0	3G094	F02D  33/00	170	その他のもの	Others
+F02D  33/00 305 \	1	1	3G094	F02D  33/00	1	特殊な用途の燃焼機関のための非電気的な制御で他に分類されないもの	Non-electrical control for special application combustion engines that is not categorised into the others
+F02D  33/00 310 \	1	1	3G094	F02D  33/00	0	特定の運転状態のための非電気的な制御で他に分類されないもの（アイドルスピードコントロールバルブはＦ０２Ｍ６９／３２）	Non-electrical control for a particular running state that is not categorised into the others
+F02D  33/00 310 A	1	0	3G094	F02D  33/00	174	過渡時	in transition
+F02D  33/00 310 B	1	1	3G094	F02D  33/00	82	始動又は暖機	Starting or warming up
+F02D  33/00 310 C	1	1	3G094	F02D  33/00	86	アイドル	Idling
+F02D  33/00 310 D	1	2	3G094	F02D  33/00	55	アイドルアップ	Idling-up
+F02D  33/00 310 E	1	1	3G094	F02D  33/00	29	加速	Acceleration
+F02D  33/00 310 F	1	1	3G094	F02D  33/00	134	減速	Deceleration
+F02D  33/00 310 G	1	1	3G094	F02D  33/00	12	停止	Stopping
+F02D  33/00 310 H	1	0	3G094	F02D  33/00	9	負荷の領域	Load range
+F02D  33/00 310 J	1	1	3G094	F02D  33/00	14	低負荷時	Low-loaded
+F02D  33/00 310 K	1	1	3G094	F02D  33/00	8	高負荷時	High-loaded
+F02D  33/00 310 L	1	1	3G094	F02D  33/00	25	車輛の補機，例．クーラー，パワステ	Accessory machines for vehicles (cooler, power steering)
+F02D  33/00 310 M	1	1	3G094	F02D  33/00	8	車輛の走行状態，例．クラッチ，ギヤ，ブレーキ	Vehicle travelling state (clutch, gear, brake)
+F02D  33/00 310 N	1	1	3G094	F02D  33/00	10	機関回転数，車速のみに応じた領域	Range according to the engine's number of revolutions or car speed only
+F02D  33/00 310 P	1	0	3G094	F02D  33/00	51	大気状態	Atmospheric state
+F02D  33/00 310 Q	1	0	3G094	F02D  33/00	14	機関温度	Engine temperature
+F02D  33/00 310 R	1	1	3G094	F02D  33/00	5	排気系	Exhaust system
+F02D  33/00 310 S	1	0	3G094	F02D  33/00	2	電源電圧	Supply voltage
+F02D  33/00 310 Z	1	0	3G094	F02D  33/00	8	その他のもの	Others
+F02D  33/00 345 \	1	1	3G094	F02D  33/00	23	燃焼機関の異常状態のための安全装置または表示装置	Safety devices or indication devices for faulty states of combustion engines
+F02D  33/02  \	1	1	3G094	F02D  33/02	12	燃焼空気の配分	of combustion-air
+F02D  35/00  \	0	0	3G094	F02D  35/00	114	機関の外部または内部状態による機関の非電気的な制御で他に分類されないもの	Non-electrical control of engines, dependent on conditions exterior or interior to engines, not otherwise provided for
+F02D  35/00 301 \	1	1	3G094	F02D  35/00	0	特殊な型式の燃焼機関のための非電気的な制御で他に分類されないもの	Non-electrical control for special type combustion engines that is not categorised into the others
+F02D  35/00 301 A	1	0	3G094	F02D  35/00	11	デイ−ゼル機関	Diesel engines
+F02D  35/00 301 B	1	0	3G094	F02D  35/00	7	２サイクル機関	2-cycle engines
+F02D  35/00 301 C	1	0	3G094	F02D  35/00	6	多気筒機関	Multi-cylinder engines
+F02D  35/00 301 D	1	1	3G094	F02D  35/00	12	気筒数制御機関	Engines that control the number of cylinders
+F02D  35/00 301 E	1	0	3G094	F02D  35/00	25	過給機付機関	Engines with a supercharger
+F02D  35/00 301 F	1	0	3G094	F02D  35/00	12	ＥＧＲ付機関	Engines with an EGR
+F02D  35/00 301 G	1	0	3G094	F02D  35/00	16	リ−ンバ−ン機関	Lean-burn engines
+F02D  35/00 301 H	1	1	3G094	F02D  35/00	3	成層燃焼機関	Layered combustion engines
+F02D  35/00 301 J	1	1	3G094	F02D  35/00	2	渦流燃焼機関	Eddy combustion type engines
+F02D  35/00 301 K	1	0	3G094	F02D  35/00	3	リ−ンリツチ機関	Lean/rich engines
+F02D  35/00 301 L	1	0	3G094	F02D  35/00	8	蒸発燃料処理装置付機関	Engines with an evaporating fuel processing unit
+F02D  35/00 301 M	1	0	3G094	F02D  35/00	13	ガソリン以外の燃料を用いる機関	Engines that use a fuel other than gasoline
+F02D  35/00 301 Z	1	0	3G094	F02D  35/00	9	その他	Others
+F02D  35/00 305 \	1	1	3G094	F02D  35/00	0	特殊な用途の燃焼機関のための非電気的な制御で他に分類されないもの	Non-electrical control for special application combustion engines that is not categorised into the others
+F02D  35/00 305 A	1	0	3G094	F02D  35/00	12	船舶用機関	Ship engines
+F02D  35/00 305 B	1	0	3G094	F02D  35/00	13	陸上作業用機関	Engines for ground work
+F02D  35/00 305 C	1	1	3G094	F02D  35/00	5	工事用機関	Construction engines
+F02D  35/00 305 D	1	1	3G094	F02D  35/00	17	農作業用機関	Engines for agricultural work
+F02D  35/00 305 E	1	1	3G094	F02D  35/00	5	発電機駆動用機関	Engines for driving a power generator
+F02D  35/00 305 F	1	1	3G094	F02D  35/00	11	ポンプ圧縮機駆動用機関	Engines for driving a pump compressor
+F02D  35/00 305 Z	1	0	3G094	F02D  35/00	3	その他	Others
+F02D  35/00 310 \	1	1	3G094	F02D  35/00	0	特定の運転状態のための制御信号を発生する非電気的な制御手段で他に分類されないもの	Non-electrical control means that generates a control signal for a particular running state and is not categorised into the others
+F02D  35/00 310 A	1	0	3G094	F02D  35/00	3	過渡時	in transition
+F02D  35/00 310 B	1	1	3G094	F02D  35/00	12	始動，暖機	Starting or warming up
+F02D  35/00 310 C	1	1	3G094	F02D  35/00	6	アイドル	Idling
+F02D  35/00 310 D	1	2	3G094	F02D  35/00	2	アイドルアツプ	Idling-up
+F02D  35/00 310 E	1	1	3G094	F02D  35/00	4	加速	Acceleration
+F02D  35/00 310 F	1	1	3G094	F02D  35/00	4	減速	Deceleration
+F02D  35/00 310 G	1	1	3G094	F02D  35/00	4	停止〔異常時のための停止手段は３４５〕	Stopping (stop means for faults 345)
+F02D  35/00 310 H	1	0	3G094	F02D  35/00	1	負荷の領域	Load range
+F02D  35/00 310 J	1	1	3G094	F02D  35/00	5	低負荷時のみ	Low-loaded
+F02D  35/00 310 K	1	1	3G094	F02D  35/00	2	高負荷時のみ	High-loaded
+F02D  35/00 310 L	1	1	3G094	F02D  35/00	1	車両の補機〔ク−ラ−・パワステ等〕	Accessory machines for vehicles (cooler, power steering, etc.)
+F02D  35/00 310 M	1	1	3G094	F02D  35/00	6	車両の走行状態〔クラツチ，ギヤ，ブレ−キ等〕	Vehicle travelling state (clutch, gear, brake, etc.)
+F02D  35/00 310 N	1	1	3G094	F02D  35/00	5	機関の回転数，車速のみに応じた領域	Range according to the engine's number of revolutions or car speed only
+F02D  35/00 310 P	1	0	3G094	F02D  35/00	3	大気状態	Atmospheric state
+F02D  35/00 310 Q	1	0	3G094	F02D  35/00	11	機関温度〔冷却水温，油温，燃料温等〕	Engine temperature (cooling water temperature, oil temperature, fuel temperature, etc.)
+F02D  35/00 310 R	1	1	3G094	F02D  35/00	2	排気系の温度	Exhaust system temperature
+F02D  35/00 310 S	1	0	3G094	F02D  35/00	19	電源電圧	Supply voltage
+F02D  35/00 310 T	1	0	3G094	F02D  35/00	5	エンジン製造時の初期調整，エンジンの劣化に対する補正，エンジンの機種毎の補正	Initial adjustment in engine manufacturing, correction against engine degradation, correction for each engine model
+F02D  35/00 310 Z	1	0	3G094	F02D  35/00	2	その他	Others
+F02D  35/00 312 \	2	2	3G094	F02D  35/00	0	特定の運転状態のための補正の導入（特有の制御パタ−ンを有するもの）	Introduction of correction for particular running states (having a particular control pattern)
+F02D  35/00 312 A	2	0	3G094	F02D  35/00	2	過渡時	in transition
+F02D  35/00 312 B	2	1	3G094	F02D  35/00	28	始動，暖機	Starting or warming up
+F02D  35/00 312 C	2	1	3G094	F02D  35/00	13	アイドル	Idling
+F02D  35/00 312 D	2	2	3G094	F02D  35/00	6	アイドルアツプ	Idling-up
+F02D  35/00 312 E	2	1	3G094	F02D  35/00	12	加速	Acceleration
+F02D  35/00 312 F	2	1	3G094	F02D  35/00	17	減速	Deceleration
+F02D  35/00 312 G	2	1	3G094	F02D  35/00	26	停止〔異常時のための停止手段は３４５〕	Stopping (stop means for faults 345)
+F02D  35/00 312 H	2	0	3G094	F02D  35/00	11	負荷の領域	Load range
+F02D  35/00 312 J	2	1	3G094	F02D  35/00	3	低負荷時のみ	Low-loaded only
+F02D  35/00 312 K	2	1	3G094	F02D  35/00	3	高負荷時のみ	High-loaded only
+F02D  35/00 312 L	2	1	3G094	F02D  35/00	6	車両の補機〔ク−ラ−・パワステ等〕	Accessory machines for vehicles (cooler, power steering, etc.)
+F02D  35/00 312 M	2	1	3G094	F02D  35/00	14	車両の走行状態〔クラツチ，ギヤ，ブレ−キ等〕	Vehicle travelling state (clutch, gear, brake, etc.)
+F02D  35/00 312 N	2	1	3G094	F02D  35/00	11	機関の回転数，車速のみに応じた領域	Range according to the engine's number of revolutions or car speed only
+F02D  35/00 312 P	2	0	3G094	F02D  35/00	21	大気状態	Atmospheric state
+F02D  35/00 312 Q	2	0	3G094	F02D  35/00	19	機関温度〔冷却水温，油温，燃料温等〕	Engine temperature (cooling water temperature, oil temperature, fuel temperature, etc.)
+F02D  35/00 312 R	2	1	3G094	F02D  35/00	2	排気系の温度	Exhaust system temperature
+F02D  35/00 312 S	2	0	3G094	F02D  35/00	3	電源電圧	Supply voltage
+F02D  35/00 312 T	2	0	3G094	F02D  35/00	2	エンジン製造時の初期調整，エンジンの劣化に対する補正，エンジンの機構毎の補正	Initial adjustment in engine manufacturing, correction against engine degradation, correction for each engine model
+F02D  35/00 312 Z	2	0	3G094	F02D  35/00	13	その他	Others
+F02D  35/00 314 \	2	2	3G094	F02D  35/00	0	特定の運転状態の判別及び特定の運転状態のためのセンサ信号の前処理のための手段に特徴があるもの	characterized by the means for particular running state identification or sensor signal pre-processing for a particular running state
+F02D  35/00 314 A	2	0	3G094	F02D  35/00	7	過渡時	in transition
+F02D  35/00 314 B	2	1	3G094	F02D  35/00	5	始動，暖機	Starting or warming up
+F02D  35/00 314 C	2	1	3G094	F02D  35/00	5	アイドル	Idling
+F02D  35/00 314 D	2	2	3G094	F02D  35/00	6	アイドルアツプ	Idling-up
+F02D  35/00 314 E	2	1	3G094	F02D  35/00	20	加速	Acceleration
+F02D  35/00 314 F	2	1	3G094	F02D  35/00	6	減速	Deceleration
+F02D  35/00 314 G	2	1	3G094	F02D  35/00	2	停止〔異常時のための停止手段は３４５〕	Stopping (stop means for faults 345)
+F02D  35/00 314 H	2	0	3G094	F02D  35/00	3	負荷の領域	Load range
+F02D  35/00 314 J	2	1	3G094	F02D  35/00	1	低負荷時のみ	Low-loaded only
+F02D  35/00 314 K	2	1	3G094	F02D  35/00	3	高負荷時のみ	High-loaded only
+F02D  35/00 314 L	2	1	3G094	F02D  35/00	1	車両の補機〔ク−ラ−・パワステ等〕	Accessory machines for vehicles (cooler, power steering, etc.)
+F02D  35/00 314 M	2	1	3G094	F02D  35/00	6	車両の走行状態〔クラツチ，ギヤ，ブレ−キ等〕	Vehicle travelling state (clutch, gear, brake, etc.)
+F02D  35/00 314 N	2	1	3G094	F02D  35/00	3	機関の回転数，車速のみに応じた領域	Range according to the engine's number of revolutions or car speed only
+F02D  35/00 314 P	2	0	3G094	F02D  35/00	3	大気状態	Atmospheric state
+F02D  35/00 314 Q	2	0	3G094	F02D  35/00	8	機関温度〔冷却水温，油温，燃料温等〕	Engine temperature (cooling water temperature, oil temperature, fuel temperature, etc.)
+F02D  35/00 314 R	2	1	3G094	F02D  35/00	4	排気系の温度	Exhaust system temperature
+F02D  35/00 314 S	2	0	3G094	F02D  35/00	1	電源電圧	Supply voltage
+F02D  35/00 314 T	2	0	3G094	F02D  35/00	2	エンジン製造時の初期調整，エンジンの劣化に対する補正，エンジンの機構毎の補正	Initial adjustment in engine manufacturing, correction against engine degradation, correction for each engine model
+F02D  35/00 314 Z	2	0	3G094	F02D  35/00	3	その他	Others
+F02D  35/00 320 \	2	2	3G094	F02D  35/00	6	閉ル−プ補正を導入するもの	Introduction of closed loop correction
+F02D  35/00 345 \	2	2	3G094	F02D  35/00	0	燃焼機関の異常状態のための安全装置または表示装置	Safety devices or indication devices for faulty states of combustion engines
+F02D  35/00 345 A	2	0	3G094	F02D  35/00	5	異常燃焼防止	Faulty combustion prevention
+F02D  35/00 345 B	2	1	3G094	F02D  35/00	6	ノツキング防止〔ノツキングの判定は３６８〕	Knocking prevention (knocking identification 368)
+F02D  35/00 345 C	2	0	3G094	F02D  35/00	5	スト−ル防止	Stall prevention
+F02D  35/00 345 D	2	0	3G094	F02D  35/00	2	過負荷防止	Overload prevention
+F02D  35/00 345 E	2	0	3G094	F02D  35/00	37	過熱防止	Overheat prevention
+F02D  35/00 345 F	2	0	3G094	F02D  35/00	15	過回転防止	Over-rotation prevention
+F02D  35/00 345 G	2	0	3G094	F02D  35/00	2	スリツプ防止	Slip prevention
+F02D  35/00 345 H	2	0	3G094	F02D  35/00	6	逆転防止	Reverse rotation prevention
+F02D  35/00 345 J	2	0	3G094	F02D  35/00	3	過給防止	Over-supercharge prevention
+F02D  35/00 345 K	2	0	3G094	F02D  35/00	21	燃料供給異常の防止	Fuel supply fault prevention
+F02D  35/00 345 L	2	0	3G094	F02D  35/00	4	異常時に燃焼機関を停止するための停止手段に特徴があるもの	characterized by the stopping means for stopping the combustion engine upon fault
+F02D  35/00 345 Z	2	0	3G094	F02D  35/00	74	その他	Others
+F02D  35/00 355 \	1	1	3G094	F02D  35/00	3	特定の運転状態に依存しない一般的な燃焼機関の制御装置の特徴	characterised by controllers for combustion engines in general that do not depend on a particular running state
+F02D  35/00 360 \	2	2	3G094	F02D  35/00	1	燃焼機関を制御するために特有な構造を有するセンサ又はセンサの燃焼機関への取り付け（センサ自体の構造はそれぞれのサブクラスを参照）	Sensors having particular structure for controlling engines or installation of a sensor on a combustion engine (For the structure of a sensor, refer to each subclass.)
+F02D  35/00 360 A	2	0	3G094	F02D  35/00	129	温度	Temperature
+F02D  35/00 360 B	2	1	3G094	F02D  35/00	62	冷却水温	Cooling water temperature
+F02D  35/00 360 C	2	1	3G094	F02D  35/00	105	排気系温度	Exhaust system temperature
+F02D  35/00 360 D	2	1	3G094	F02D  35/00	7	安全装置	Safety devices
+F02D  35/00 360 E	2	0	3G094	F02D  35/00	13	大気状態	Atmospheric state
+F02D  35/00 360 F	2	1	3G094	F02D  35/00	152	吸気温	Feed temperature
+F02D  35/00 360 G	2	1	3G094	F02D  35/00	27	湿度	Humidity
+F02D  35/00 360 H	2	1	3G094	F02D  35/00	42	大気圧	Atmospheric pressure
+F02D  35/00 360 J	2	1	3G094	F02D  35/00	5	安全装置	Safety devices
+F02D  35/00 360 Z	2	0	3G094	F02D  35/00	159	その他	Others
+F02D  35/00 362 \	3	3	3G094	F02D  35/00	5	クランク軸位置，機関回転数，車速を検出するもの	Detection of the crank shaft position, engine's number of revolutions, or car speed
+F02D  35/00 362 A	3	0	3G094	F02D  35/00	345	クランク軸位置の検出	Crank shaft position detection
+F02D  35/00 362 B	3	1	3G094	F02D  35/00	94	基準位置信号も出力するもの	also outputting the reference position signal
+F02D  35/00 362 C	3	2	3G094	F02D  35/00	18	上死点	Inner dead point
+F02D  35/00 362 D	3	1	3G094	F02D  35/00	50	気筒判別	Cylinder identification
+F02D  35/00 362 E	3	1	3G094	F02D  35/00	11	点火信号により検出するもの	Detection by the ignition signal
+F02D  35/00 362 F	3	1	3G094	F02D  35/00	25	安全装置	Safety devices
+F02D  35/00 362 G	3	0	3G094	F02D  35/00	114	機関の回転数の検出	Detection of the engine's number of revolutions
+F02D  35/00 362 H	3	1	3G094	F02D  35/00	18	回転数変動	Variation of the number of revolutions
+F02D  35/00 362 K	3	1	3G094	F02D  35/00	15	安全装置	Safety devices
+F02D  35/00 362 L	3	0	3G094	F02D  35/00	15	車速の検出	Car speed detection
+F02D  35/00 362 M	3	1	3G094	F02D  35/00	2	安全装置	Safety devices
+F02D  35/00 362 Z	3	0	3G094	F02D  35/00	50	その他	Others
+F02D  35/00 364 \	3	3	3G094	F02D  35/00	3	燃焼機関の負荷を検出するもの	Detection of the engine's load
+F02D  35/00 364 A	3	0	3G094	F02D  35/00	18	トルク	Torque
+F02D  35/00 364 B	3	1	3G094	F02D  35/00	6	トルク変動	Torque variation
+F02D  35/00 364 C	3	1	3G094	F02D  35/00	2	安全装置	Safety devices
+F02D  35/00 364 D	3	0	3G094	F02D  35/00	281	負圧	Negative pressure
+F02D  35/00 364 E	3	1	3G094	F02D  35/00	14	過給圧	Supercharge pressure
+F02D  35/00 364 F	3	1	3G094	F02D  35/00	13	安全装置	Safety devices
+F02D  35/00 364 G	3	0	3G094	F02D  35/00	318	スロツトル弁開度	Opening of a throttle valve
+F02D  35/00 364 R	3	1	3G094	F02D  35/00	124	特定開度で信号を出力するもの	outputting the signal at a particular opening
+F02D  35/00 364 S	3	2	3G094	F02D  35/00	163	開度に比例した信号を出力するもの	outputting the signal that is proportional to an opening
+F02D  35/00 364 H	3	3	3G094	F02D  35/00	193	すべり抵抗を用いるもの	using slip resistance
+F02D  35/00 364 J	3	1	3G094	F02D  35/00	15	安全装置	Safety devices
+F02D  35/00 364 K	3	0	3G094	F02D  35/00	65	燃料供給状態	Fuel supply state
+F02D  35/00 364 L	3	1	3G094	F02D  35/00	28	燃料残量	Fuel residue
+F02D  35/00 364 M	3	1	3G094	F02D  35/00	68	燃費	Fuel economy
+F02D  35/00 364 N	3	1	3G094	F02D  35/00	56	燃料供給量・流量	Fuel supply volume or flow rate
+F02D  35/00 364 P	3	1	3G094	F02D  35/00	7	燃料供給時期	Fuel supply time
+F02D  35/00 364 Q	3	1	3G094	F02D  35/00	3	安全装置	Safety devices
+F02D  35/00 364 Z	3	0	3G094	F02D  35/00	25	その他	Others
+F02D  35/00 366 \	4	4	3G094	F02D  35/00	1	吸入空気量によるもの	using the air inlet volume
+F02D  35/00 366 A	4	0	3G094	F02D  35/00	44	動圧によるもの	using a dynamic pressure
+F02D  35/00 366 B	4	1	3G094	F02D  35/00	46	フラツプ式	Flap type
+F02D  35/00 366 C	4	0	3G094	F02D  35/00	4	可変ベンチユリ−型	Variable Venturi type
+F02D  35/00 366 D	4	0	3G094	F02D  35/00	58	吸入負圧により測定するもの	Measurement with the air inlet negative pressure
+F02D  35/00 366 E	4	0	3G094	F02D  35/00	374	熱線式	Heat wire type
+F02D  35/00 366 F	4	1	3G094	F02D  35/00	204	バイパス通路に設けたもの	provided in the bypass channel
+F02D  35/00 366 G	4	0	3G094	F02D  35/00	17	カルマン式	Karman type
+F02D  35/00 366 H	4	1	3G094	F02D  35/00	40	吸気通路の形状に特徴があるもの	characterized by the shape of a feed channel
+F02D  35/00 366 J	4	0	3G094	F02D  35/00	8	音波の伝達速度から求めるもの	obtaining from the acoustic wave transmission speed
+F02D  35/00 366 K	4	0	3G094	F02D  35/00	10	複数の信号から求めるもの	obtaining from multiple signals
+F02D  35/00 366 L	4	0	3G094	F02D  35/00	159	エアフロ−センサの配置	Air flow sensor layout
+F02D  35/00 366 M	4	1	3G094	F02D  35/00	18	複数のエアフロ−センサをもつもの	having multiple air flow sensors
+F02D  35/00 366 N	4	0	3G094	F02D  35/00	49	安全装置	Safety devices
+F02D  35/00 366 Z	4	0	3G094	F02D  35/00	46	その他のもの	Others
+F02D  35/00 368 \	3	3	3G094	F02D  35/00	12	燃焼状態を検出するもの	Detection of the combustion state
+F02D  35/00 368 A	3	0	3G094	F02D  35/00	184	ノツキング	Knocking
+F02D  35/00 368 B	3	0	3G094	F02D  35/00	344	Ｏ↓２センサ	O2 sensor
+F02D  35/00 368 C	3	1	3G094	F02D  35/00	419	とりつけ	Installation
+F02D  35/00 368 D	3	2	3G094	F02D  35/00	118	保護カバ−を有するもの	having a protection cover
+F02D  35/00 368 E	3	2	3G094	F02D  35/00	293	排気管の形状に特徴があるもの	characterized by the shape of an exhaust pipe
+F02D  35/00 368 Z	3	0	3G094	F02D  35/00	472	その他	Others
+F02D  35/00 370 \	1	1	3G094	F02D  35/00	0	制御装置の構成	Controller configuration
+F02D  35/00 370 A	1	0	3G094	F02D  35/00	22	制御手段間又は制御手段と機関とを接続するためのコネクタの構造	Structure of the connector for connection between control means or between the control means and engine
+F02D  35/00 370 B	1	0	3G094	F02D  35/00	19	バキユ−ムタンク	Vacuum tank
+F02D  35/00 370 C	1	0	3G094	F02D  35/00	76	ダイヤフラム	Diaphragm
+F02D  35/00 370 D	1	0	3G094	F02D  35/00	10	バイメタル，サ−モワツクス	Bimetal, Thermowax
+F02D  35/00 370 E	1	0	3G094	F02D  35/00	11	エア−フイルタ−	Air filter
+F02D  35/00 370 F	1	0	3G094	F02D  35/00	7	ベロ−ズ	Bellows
+F02D  35/00 370 G	1	0	3G094	F02D  35/00	3	コイル	Coil
+F02D  35/00 370 H	1	1	3G094	F02D  35/00	3	モ−タ	Motor
+F02D  35/00 370 J	1	0	3G094	F02D  35/00	22	弁，弁座	Valve, valve seat
+F02D  35/00 370 K	1	0	3G094	F02D  35/00	6	安全装置	Safety devices
+F02D  35/00 370 L	1	1	3G094	F02D  35/00	9	防振	Vibrationproofing
+F02D  35/00 370 M	1	1	3G094	F02D  35/00	4	耐摩耗性向上	Wear resistance improvement
+F02D  35/00 370 N	1	1	3G094	F02D  35/00	6	防水	Waterproofing
+F02D  35/00 370 P	1	1	3G094	F02D  35/00	4	防音	Soundproofing
+F02D  35/00 370 Z	1	0	3G094	F02D  35/00	46	その他	Others
+F02D  35/00 372 \	2	2	3G094	F02D  35/00	1	駆動信号に応じた信号を生成するための手段	Means for generating a signal corresponding to the drive signal
+F02D  35/00 374 \	3	3	3G094	F02D  35/00	0	機械式に駆動するもの	Mechanical driving
+F02D  35/00 374 A	3	0	3G094	F02D  35/00	25	変位量を制御するもの	Displacement volume control
+F02D  35/00 374 D	3	0	3G094	F02D  35/00	8	電気信号を生ずるもの	Electrical signal generation
+F02D  35/00 374 E	3	0	3G094	F02D  35/00	6	液体流量を制御するもの	Liquid flow rate control
+F02D  35/00 374 G	3	0	3G094	F02D  35/00	15	気体圧力を制御するもの	Gas pressure control
+F02D  35/00 374 Z	3	0	3G094	F02D  35/00	3	その他	Others
+F02D  35/00 376 \	4	4	3G094	F02D  35/00	0	遠心力	Centrifugal force
+F02D  35/00 376 A	4	0	3G094	F02D  35/00	5	変位量を制御するもの	Displacement volume control
+F02D  35/00 376 D	4	0	3G094	F02D  35/00	1	電気信号を生ずるもの	Electrical signal generation
+F02D  35/00 376 E	4	0	3G094	F02D  35/00	1	液体流量を制御するもの	Liquid flow rate control
+F02D  35/00 376 G	4	0	3G094	F02D  35/00	1	気体圧力を制御するもの	Gas pressure control
+F02D  35/00 376 Z	4	0	3G094	F02D  35/00	1	その他	Others
+F02D  35/00 378 \	3	3	3G094	F02D  35/00	0	気体の圧力で駆動するもの	Driving with a gas pressure
+F02D  35/00 378 A	3	0	3G094	F02D  35/00	27	変位量を制御するもの	Displacement volume control
+F02D  35/00 378 D	3	0	3G094	F02D  35/00	6	電気信号を生ずるもの	Electrical signal generation
+F02D  35/00 378 E	3	0	3G094	F02D  35/00	30	液体流量を制御するもの	Liquid flow rate control
+F02D  35/00 378 G	3	0	3G094	F02D  35/00	44	気体圧力を制御するもの	Gas pressure control
+F02D  35/00 378 H	3	1	3G094	F02D  35/00	27	負圧スイツチ〔導通・非導通を制御するもの〕	Negative pressure switch (controlling continuity and non-continuity)
+F02D  35/00 378 K	3	1	3G094	F02D  35/00	37	負圧遅延弁，絞り・オリフイス，逆止弁，圧力差保持弁，バキユ−ムリミツタ−	Negative pressure delay valve, throttle/orifice, check valve, pressure difference retaining valve, vacuum limiter
+F02D  35/00 378 N	3	1	3G094	F02D  35/00	13	設定した圧力の負圧を作るもの	generating a preset negative pressure
+F02D  35/00 378 P	3	2	3G094	F02D  35/00	3	２種類以上の負圧を混合するもの	mixing at least 2 types of negative pressures
+F02D  35/00 378 Q	3	3	3G094	F02D  35/00	2	出力の負圧を検出してフイ−ドバツクするもの	Feedback by detecting the output negative pressure
+F02D  35/00 378 Z	3	0	3G094	F02D  35/00	11	その他	Others
+F02D  35/00 380 \	4	4	3G094	F02D  35/00	0	大気圧を導入するもの	guiding the atmospheric pressure
+F02D  35/00 380 A	4	0	3G094	F02D  35/00	11	変位量を制御するもの	Displacement volume control
+F02D  35/00 380 D	4	0	3G094	F02D  35/00	4	電気信号を生ずるもの	Electrical signal generation
+F02D  35/00 380 E	4	0	3G094	F02D  35/00	8	液体流量を制御するもの	Liquid flow rate control
+F02D  35/00 380 G	4	0	3G094	F02D  35/00	8	気体圧力を制御するもの	Gas pressure control
+F02D  35/00 380 H	4	1	3G094	F02D  35/00	30	負圧スイツチ〔導通・非導通を制御するもの〕	Negative pressure switch (controlling continuity and non-continuity)
+F02D  35/00 380 K	4	1	3G094	F02D  35/00	12	負圧遅延弁，絞り・オリフイス，逆止弁，圧力差保持弁，バキユ−ムリミツタ−	Negative pressure delay valve, throttle/orifice, check valve, pressure difference retaining valve, vacuum limiter
+F02D  35/00 380 N	4	1	3G094	F02D  35/00	4	設定した圧力の負圧を作るもの	generating a preset negative pressure
+F02D  35/00 380 P	4	2	3G094	F02D  35/00	14	２種類以上の負圧を混合するもの	mixing at least 2 types of negative pressures
+F02D  35/00 380 Q	4	3	3G094	F02D  35/00	12	出力の負圧を検出してフイ−ドバツクするもの	Feedback by detecting the output negative pressure
+F02D  35/00 380 Z	4	0	3G094	F02D  35/00	1	その他	Others
+F02D  35/00 382 \	4	4	3G094	F02D  35/00	11	脈動圧を導入するもの	guiding a pulsation pressure
+F02D  35/00 384 \	3	3	3G094	F02D  35/00	13	液体の圧力で駆動するもの	driving with a liquid pressure
+F02D  35/00 386 \	3	3	3G094	F02D  35/00	0	温度に応じて生じる力を用いるもの（バイメタル等）	using a force generated according to the temperature (bimetal, etc.)
+F02D  35/00 386 A	3	0	3G094	F02D  35/00	6	変位量を制御するもの	Displacement volume control
+F02D  35/00 386 D	3	0	3G094	F02D  35/00	6	電気信号を生ずるもの	Electrical signal generation
+F02D  35/00 386 E	3	0	3G094	F02D  35/00	6	液体流量を制御するもの	Liquid flow rate control
+F02D  35/00 386 G	3	0	3G094	F02D  35/00	44	気体圧力を制御するもの	Gas pressure control
+F02D  35/00 386 Z	3	0	3G094	F02D  35/00	2	その他	Others
+F02D  35/00 388 \	3	3	3G094	F02D  35/00	1	電気式に駆動するもの	driving electrically
+F02D  35/00 388 A	3	0	3G094	F02D  35/00	21	変位量を制御するもの	Displacement volume control
+F02D  35/00 388 D	3	0	3G094	F02D  35/00	3	電気信号を生ずるもの	Electrical signal generation
+F02D  35/00 388 E	3	0	3G094	F02D  35/00	7	液体流量を制御するもの	Liquid flow rate control
+F02D  35/00 388 G	3	0	3G094	F02D  35/00	17	気体圧力を制御するもの	Gas pressure control
+F02D  35/00 388 H	3	1	3G094	F02D  35/00	16	負圧スイツチ〔導通・非導通を制御するもの〕	Negative pressure switch (controlling continuity and non-continuity)
+F02D  35/00 388 K	3	1	3G094	F02D  35/00	1	負圧遅延弁・絞り・オリフイス・逆止弁・圧力差・保持弁・バキユ−ムリミツタ−	Negative pressure delay valve, throttle/orifice, check valve, pressure difference retaining valve, vacuum limiter
+F02D  35/00 388 N	3	1	3G094	F02D  35/00	5	設定した圧力の負圧を作るもの	generating a preset negative pressure
+F02D  35/00 388 P	3	2	3G094	F02D  35/00	7	２種類以上の負圧を混合するもの	mixing at least 2 types of negative pressures
+F02D  35/00 388 Q	3	3	3G094	F02D  35/00	7	出力の負圧を検出してフイ−ドバツクするもの	Feedback by detecting the output negative pressure
+F02D  35/00 388 Z	3	0	3G094	F02D  35/00	3	その他	Others
+F02D  35/00 396 \	2	2	3G094	F02D  35/00	28	複数のアクチユエ−タを共通に制御するためのもの	for common control of multiple actuators
+F02D  35/00 398 \	2	2	3G094	F02D  35/00	102	制御装置の燃焼機関・車両への取り付け	Installation of a controller on the combustion engine or vehicle
+F02D  35/02  \	1	1	3G094	F02D  35/02	32	内部状態によるもの	on interior conditions
+F02D  37/00  \	0	0	3G094	F02D  37/00	8	機関の複数の作用の結合的で非電気的な制御で他に分類されないもの	Non-electrical conjoint control of &nbsp;two or more functions of engines, not otherwise provided for
+F02D  37/00 301 \	1	1	3G094	F02D  37/00	0	制御対象	Control objects
+F02D  37/00 301 A	1	0	3G094	F02D  37/00	7	点火を制御するもの	Ignition control
+F02D  37/00 301 B	1	1	3G094	F02D  37/00	116	点火時期	Ignition time
+F02D  37/00 301 C	1	0	3G094	F02D  37/00	2	グロ−プラグを制御するもの	Glow plug control
+F02D  37/00 301 D	1	0	3G094	F02D  37/00	2	燃料−空気の混合を制御するもの〔Ｅ〜Ｌ優先〕	Control of mixing between the fuel and air (E to L take precedence.)
+F02D  37/00 301 E	1	1	3G094	F02D  37/00	9	空燃比〔制御手段を限定できないもの〕	Air-fuel ratio (control means not limitable)
+F02D  37/00 301 F	1	2	3G094	F02D  37/00	37	気化器によるもの	using a carbureter
+F02D  37/00 301 G	1	2	3G094	F02D  37/00	4	噴射装置によるもの〔デイ−ゼル用を含む〕	using a fuel injection device (including diesel)
+F02D  37/00 301 H	1	3	3G094	F02D  37/00	37	噴射量〔燃料カツト・再開を含む〕	Fuel injection volume (including fuel cut-off and restart)
+F02D  37/00 301 J	1	1	3G094	F02D  37/00	7	噴射時期〔噴射周期の変更を含む〕	Fuel injection time (including the fuel injection cycle change)
+F02D  37/00 301 K	1	1	3G094	F02D  37/00	78	絞り弁を制御するもの	Throttle valve control
+F02D  37/00 301 L	1	1	3G094	F02D  37/00	12	スロツトルバイパス弁を制御するもの	Throttle bypass valve control
+F02D  37/00 301 M	1	0	3G094	F02D  37/00	6	機関への吸入以前に燃焼空気，燃料または燃料−空気混合気を処理するもの	processing the combustion air, fuel, or fuel and air mixed gas before feed to the engine
+F02D  37/00 301 N	1	1	3G094	F02D  37/00	361	ＥＧＲを制御するもの	EGR control
+F02D  37/00 301 P	1	1	3G094	F02D  37/00	2	熱処理〔加熱，冷却〕するもの	Heat treatment (heating, cooling)
+F02D  37/00 301 Q	1	1	3G094	F02D  37/00	1	霧化するもの	Atomisation
+F02D  37/00 301 R	1	0	3G094	F02D  37/00	10	過給を制御するもの	Supercharge control
+F02D  37/00 301 S	1	0	3G094	F02D  37/00	2	圧縮比を制御するもの〔燃焼室の容積を変化させるもの〕	Compression ratio control (combustion chamber capacity change)
+F02D  37/00 301 T	1	0	3G094	F02D  37/00	41	排ガス処理装置を制御するもの〔２次空気を含む〕	Exhaust gas processing unit control (including the secondary air)
+F02D  37/00 301 U	1	0	3G094	F02D  37/00	7	スワ−ルを制御するもの	Swirl control
+F02D  37/00 301 V	1	0	3G094	F02D  37/00	1	スタ−タを制御するもの	Starter control
+F02D  37/00 301 W	1	0	3G094	F02D  37/00	13	デイ−ゼル機関に用いるもの	used for diesel engines
+F02D  37/00 301 Y	1	0	3G094	F02D  37/00	5	安全装置〔機関の異常時の外制御装置の異常に対処するものも含む〕	Safety devices (including those for engine faults and for controller faults)
+F02D  37/00 301 Z	1	0	3G094	F02D  37/00	41	その他のもの〔吸・排気弁，冷却装置等〕	Others (feed/exhaust valve, cooler, etc.)
+F02D  37/00 310 \	1	1	3G094	F02D  37/00	2	制御装置の特徴	characterised by controllers
+F02D  37/02  \	1	1	3G094	F02D  37/02	42	点火作用をその中に含むもの［２００６．０１］	one of the functions being ignition [1, 2006.01]
+F02D  39/00  \	0	0	3G094	F02D  39/00	64	その他の非電気的制御［４］	Other non-electrical control [4]
+F02D  39/02  \	1	1	3G094	F02D  39/02	3	４サイクル機関のためのもの	for four-stroke engines
+F02D  39/04  \	1	1	3G094	F02D  39/04	32	４サイクル以外のサイクル，例．２サイクル，の機関のためのもの	for engines with other cycles than four-stroke, e.g. two-stroke
+F02D  39/06  \	1	1	3G094	F02D  39/06	28	燃料が大部分圧縮行程の終りに加えられる機関のためのもの	for engines adding the fuel substantially at end of compression stroke
+F02D  39/08  \	1	1	3G094	F02D  39/08	5	燃料が大部分圧縮行程の前に加えられる機関のためのもの	for engines adding the fuel substantially before compression stroke
+F02D  39/10  \	1	1	3G094	F02D  39/10	31	自由ピストン機関のためのもの；回転する主軸のない機関のためのもの	for free-piston engines; for engines without rotary main shaft
+F02D  41/00  \	0	0	3G301	F02D  41/00	309	燃焼可能な混合気またはその成分の供給の電気的制御（Ｆ０２Ｄ４３／００が優先）［４］	Electrical control of supply of combustible mixture or its constituents (F02D 43/00 takes precedence) [4]
+F02D  41/02  \	1	1	3G301	F02D  41/02	11481	制御信号を発生する回路装置［４］	Circuit arrangements for generating control signals [4]
+F02D  41/04  \	2	2	3G301	F02D  41/04	22668	特定の運転状態に対応する補正の導入（Ｆ０２Ｄ４１／１４が優先）［４］	Introducing corrections for particular operating conditions (F02D 41/14 takes precedence) [4]
+F02D  41/06  \	3	3	3G301	F02D  41/06	7147	機関の始動または暖機運転のためのもの［４］	for engine starting or warming up [4]
+F02D  41/08  \	3	3	3G301	F02D  41/08	2773	アイドリングのためのもの（Ｆ０２Ｄ４１／０６，Ｆ０２Ｄ４１／１６が優先）［４］	for idling (F02D 41/06, F02D 41/16 take precedence) [4]
+F02D  41/10  \	3	3	3G301	F02D  41/10	3089	加速のためのもの［４］	for acceleration [4]
+F02D  41/12  \	3	3	3G301	F02D  41/12	4191	減速のためのもの［４］	for deceleration [4]
+F02D  41/14  \	2	2	3G301	F02D  41/14	15538	閉ループ補正を導入するもの［４］	Introducing closed-loop corrections [4]
+F02D  41/16  \	3	3	3G301	F02D  41/16	3438	アイドリングのためのもの［４］	for idling [4]
+F02D  41/18  \	2	2	3G301	F02D  41/18	1918	吸気量の測定によるもの［２００６．０１］	by measuring intake air flow [4, 2006.01]
+F02D  41/20  \	1	1	3G301	F02D  41/20	3322	出力回路，例．指令コイルの電流の制御のためのもの［２００６．０１］	Output circuits, e.g. for controlling currents in command coils [4, 2006.01]
+F02D  41/22  \	1	1	3G301	F02D  41/22	9043	異常状態のための安全装置または表示装置［４］	Safety or indicating devices for abnormal conditions [4]
+F02D  41/24  \	1	1	3G301	F02D  41/24	40	デジタル手段の使用を特徴とするもの［４］	characterised by the use of digital means [4]
+F02D  41/26  \	2	2	3G301	F02D  41/26	228	コンピュータ，例．マイクロプロセッサ，を使用するもの［４］	using computer, e.g. microprocessor [4]
+F02D  41/28  \	3	3	3G301	F02D  41/28	79	インターフェイス回路［４］	Interface circuits [4]
+F02D  41/30  \	1	1	3G301	F02D  41/30	174	燃料の噴射を制御するもの［４］	Controlling fuel injection [4]
+F02D  41/32  \	2	2	3G301	F02D  41/32	1445	低圧型のもの［４］	of the low pressure type [4]
+F02D  41/34  \	3	3	3G301	F02D  41/34	8226	噴射時期または噴射時間を制御する手段をもつもの［２００６．０１］	with means for controlling injection timing or duration [4, 2006.01]
+F02D  41/34 100 \	4	4	3G301	F02D  41/34	1370	１気筒当たり複数のインジェクターを設けるもの	providing multiple injectors per cylinder
+F02D  41/36  \	3	3	3G301	F02D  41/36	1199	配電を制御する手段をもつもの［２００６．０１］	with means for controlling distribution [4, 2006.01]
+F02D  41/38  \	2	2	3G301	F02D  41/38	3866	高圧型のもの［４］	of the high pressure type [4]
+F02D  41/40  \	3	3	3G301	F02D  41/40	4736	噴射時期または噴射時間を制御する手段をもつもの［４］	with means for controlling injection timing or duration [4]
+F02D  43/00  \	0	0	3G384	F02D  43/00	166	２つ以上の機能，例．点火，燃料―空気の混合，再循環，過給または排気ガス処理，の結合した電気的制御［２００６．０１］	Conjoint electrical control of two or more functions,e.g. ignition, fuel-air mixture, recirculation,supercharging or exhaust-gas treatment [4, 2006.01]
+F02D  43/00 301 \	1	1	3G384	F02D  43/00	9	制御対象	Control objects
+F02D  43/00 301 A	1	0	3G384	F02D  43/00	850	点火を制御するもの	Ignition control
+F02D  43/00 301 B	1	1	3G384	F02D  43/00	4200	点火時期	Ignition time
+F02D  43/00 301 C	1	0	3G384	F02D  43/00	94	グロープラグを制御するもの	Glow plug control
+F02D  43/00 301 D	1	0	3G384	F02D  43/00	165	燃料−空気の混合を制御するもの（Ｅ〜Ｌ優先）	Fuel-air mixing control (E to L take precedence)
+F02D  43/00 301 E	1	1	3G384	F02D  43/00	1448	空燃比〔制御手段を限定できないもの〕	Air-fuel ratio (control means not limitable)
+F02D  43/00 301 F	1	2	3G384	F02D  43/00	102	気化器によるもの	using a carbureter
+F02D  43/00 301 G	1	2	3G384	F02D  43/00	791	噴射装置によるもの，含．デイーゼル用	using a fuel injection device, including diesel
+F02D  43/00 301 H	1	3	3G384	F02D  43/00	4054	噴射量，含．燃料カット・再開	Fuel injection volume, including fuel cut-off and restart
+F02D  43/00 301 J	1	1	3G384	F02D  43/00	2148	噴射時期，含．噴射周期の変更	Injection time, including the fuel injection cycle change
+F02D  43/00 301 K	1	1	3G384	F02D  43/00	2730	絞り弁を制御するもの	Throttle valve control
+F02D  43/00 301 L	1	1	3G384	F02D  43/00	408	スロットルバイパス弁を制御するもの	Throttle bypass valve control
+F02D  43/00 301 M	1	0	3G384	F02D  43/00	284	機関への吸入以前に燃焼空気，燃料または燃料−空気混合気を処理するもの	processing the combustion air, fuel, or fuel and air mixed gas before feed to the engine
+F02D  43/00 301 N	1	1	3G384	F02D  43/00	2949	ＥＧＲを制御するもの	EGR control
+F02D  43/00 301 P	1	1	3G384	F02D  43/00	119	熱処理〔加熱・冷却〕するもの	Heat treatment (heating, cooling)
+F02D  43/00 301 Q	1	1	3G384	F02D  43/00	32	霧化するもの	Atomisation
+F02D  43/00 301 R	1	0	3G384	F02D  43/00	1600	過給を制御するもの	Supercharge control
+F02D  43/00 301 S	1	0	3G384	F02D  43/00	467	圧縮比を制御するもの〔燃焼室の容積を変化させるもの〕	Compressing ratio control (changing the combustion chamber capacity)
+F02D  43/00 301 T	1	0	3G384	F02D  43/00	1310	排ガス処理装置を制御するもの，含．２次空気	Exhaust gas processing unit control, including the secondary air
+F02D  43/00 301 U	1	0	3G384	F02D  43/00	561	スワールを制御するもの	Swirl control
+F02D  43/00 301 V	1	0	3G384	F02D  43/00	196	スタータを制御するもの	Starter control
+F02D  43/00 301 W	1	0	3G384	F02D  43/00	431	ディーゼル機関に用いるもの	used for diesel engines
+F02D  43/00 301 Y	1	0	3G384	F02D  43/00	481	安全装置〔機関の異常時の外，制御装置の異常に対処するものも含む〕	Safety devices (including those for engine faults and for controller faults)
+F02D  43/00 301 Z	1	0	3G384	F02D  43/00	3228	その他のもの，例．吸・排気弁，冷却装置	Others, e.g. feed/exhaust valve, cooler
+F02D  43/00 310 \	1	1	3G384	F02D  43/00	3	制御装置の特徴	characterized by the controller
+F02D  43/00 310 A	1	0	3G384	F02D  43/00	406	閉ループ補正を行うもの	Closed loop correction
+F02D  43/00 310 Z	1	0	3G384	F02D  43/00	139	その他	Others
+F02D  43/02  \	1	1	3G384	F02D  43/02	1	アナログ手段のみを用いるもの［４］	using only analogue means [4]
+F02D  43/04  \	1	1	3G384	F02D  43/04	20	ディジタル手段のみを用いるもの［４］	using only digital means [4]
+F02D  45/00  \	0	0	3G384	F02D  45/00	25062	グループＦ０２Ｄ４１／００〜Ｆ０２Ｄ４３／００に分類されない電気的制御［２００６．０１］	Electrical control not provided for in groups F02D 41/00-F02D 43/00 [4, 2006.01]
+F02D  45/00 345 \	1	1	3G384	F02D  45/00	6564	燃焼機関の異常状態のための安全装置または表示装置	Safety devices or indication devices for faulty states of the combustion engines
+F02D  45/00 358 \	1	1	3G384	F02D  45/00	2797	センサからの信号の前処理部の構成	Configuration of the pre-processor for the signal from the sensor
+F02D  45/00 360 \	2	2	3G384	F02D  45/00	25	特定のセンサに特有なもの（センサ自体の構造はそれぞれのサブクラスを参照）	peculiar to a particular sensor (For the structure of the sensor per se, refer to each subclass.)
+F02D  45/00 360 A	2	0	3G384	F02D  45/00	2121	温度	temperature
+F02D  45/00 360 E	2	0	3G384	F02D  45/00	1040	大気状態	Atmospheric state
+F02D  45/00 360 Z	2	0	3G384	F02D  45/00	775	その他	Others
+F02D  45/00 362 \	3	3	3G384	F02D  45/00	6018	クランク軸位置，機関回転数，車速を検出するもの	Detection of the crank shaft position, engine's number of revolutions, or car speed
+F02D  45/00 364 \	3	3	3G384	F02D  45/00	74	燃焼機関の負荷を検出するもの	Detection of the engine's load
+F02D  45/00 364 A	3	0	3G384	F02D  45/00	1670	トルク	torque
+F02D  45/00 364 D	3	0	3G384	F02D  45/00	1458	大気圧，燃焼圧は含まない負圧などの圧力	Pressures such as the negative pressure excluding the atmospheric pressure and combustion pressure
+F02D  45/00 364 E	3	1	3G384	F02D  45/00	285	過給圧，例．２サイクルクランク室内圧	Supercharge pressure, e.g., the internal pressure of the 2-cycle crank chamber
+F02D  45/00 364 G	3	0	3G384	F02D  45/00	1598	スロットル弁開度	Opening of a throttle valve
+F02D  45/00 364 Z	3	0	3G384	F02D  45/00	376	その他	Others
+F02D  45/00 366 \	4	4	3G384	F02D  45/00	2634	吸入空気量によるもの	using the air inlet volume
+F02D  45/00 368 \	3	3	3G384	F02D  45/00	51	燃焼状態を検出するもの	Detection of the combustion state
+F02D  45/00 368 A	3	0	3G384	F02D  45/00	2129	ノッキングを検出するもの	Knocking detection
+F02D  45/00 368 F	3	0	3G384	F02D  45/00	3833	空燃比を検出するもの（Ｏ↓２センサＦ０２Ｄ３５／００，３６８Ｂ）	Detection of the air-fuel ratio (O2 sensor F02D 35/00, 368 B)
+F02D  45/00 368 S	3	0	3G384	F02D  45/00	2670	気筒内の燃焼圧などの圧力	Pressures such as the combustion pressure in the cylinder
+F02D  45/00 368 Z	3	0	3G384	F02D  45/00	3018	その他，例．失火検知	Others, e.g., misfire detection
+F02D  45/00 369 \	3	3	3G384	F02D  45/00	4842	燃料供給状態，例．供給量，燃費，残量，性状，を検出するもの	Fuel supply state, e.g. detecting supply volume, fuel economy, residual quantity and properties
+F02D  45/00 370 \	1	1	3G384	F02D  45/00	2169	演算部の構成	Configuration of the operation unit
+F02D  45/00 372 \	2	2	3G384	F02D  45/00	1960	マイクロコンピュータ制御に特有なもの	peculiar to microcomputer control
+F02D  45/00 374 \	2	2	3G384	F02D  45/00	784	複数の制御対象を制御するための構造に特徴があるもの（単一のマイクロコンピュータによる時分割制御Ｆ０２Ｄ４５／００，３７２），例．総合制御	characterized by the structure for controlling multiple control objects (time division control by a single microcomputerF02D45/00,  372), e.g. integrated control
+F02D  45/00 376 \	2	2	3G384	F02D  45/00	2607	記憶手段，例．メモリ，可変抵抗，スイッチ，の使用方法に特徴があるもの	characterized by the use of the storage means, e.g. memory, variable resistor, switch
+F02D  45/00 378 \	2	2	3G384	F02D  45/00	124	パルス変調手段に特徴があるもの	characterized by the pulse modulation means
+F02D  45/00 380 \	2	2	3G384	F02D  45/00	397	信号の伝達方法に特徴があるもの	characterized by the signal transmission method
+F02D  45/00 395 \	1	1	3G384	F02D  45/00	632	電源部の構成	Configuration of the power supply unit

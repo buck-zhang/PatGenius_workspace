@@ -1,0 +1,734 @@
+H01J   1/00		電子管または放電ランプの２以上の基本的な型に共通な電極，磁気制御手段，スクリーンあるいはそれらのマウントまたは間隔保持の細部（電子光学的装置またはイオントラップの細部Ｈ０１Ｊ３／００）	Details of electrodes, of magnetic control means, of screens, or of the mounting or spacing thereof, common to two or more basic types of discharge tubes or lamps(details of electron-optical arrangements or of ion traps H01J3/00)	754
+H01J   1/02	・	主電極	Main electrodes	990
+H01J   1/04	・・	液状電極，例．液体陰極	Liquid electrodes, e.g. liquid cathode	38
+H01J   1/05	・・・	材料に特徴のあるもの	characterised by material	71
+H01J   1/06	・・・	液溜電極用の容器；その装置またはマウント	Containers for liquid-pool electrodes; Arrangement or mounting thereof	13
+H01J   1/08	・・・	液溜陰極の表面上の陰極輝点の位置決めまたは移動	Positioning or moving the cathode spot on the surface of a liquid-pool cathode	6
+H01J   1/10	・・・	液溜電極における液体の冷却，加熱，循環，ろ過あるいは液面の制御	Cooling, heating, circulating, filtering, or controlling level of liquid in a liquid-pool electrode	17
+H01J   1/12	・・	管の動作中，陰極表面に堆積した水銀または液状アルカリ金属をもった陰極	Cathodes having mercury or liquid alkali metal deposited on the cathode surface during operation of the tube	8
+H01J   1/13	・・	固体熱電子陰極	Solid thermionic cathodes	698
+H01J   1/14	・・・	材料に特徴のあるもの	characterised by the material	1766
+H01J   1/142	・・・・	電子放射物質として，アルカリ土類金属酸化物，または還元剤とともに用いるこのような酸化物をもつもの［６］	with alkaline-earth metal oxides, or such oxides used in conjunction with reducing agents, as an emissive material	150
+H01J   1/144	・・・・	電子放射物質として他の金属酸化物をもつもの［６］	with other metal oxides as an emissive material	76
+H01J   1/146	・・・・	電子放射物質として金属または合金をもつもの［６］	with metals or alloys as an emissive material	132
+H01J   1/148	・・・・	電子放射物質として金属導電性を有する化合物をもつもの，例．ランタンホウ化物［６］	with compounds having metallic conductive properties, e.g. lanthanum boride, as an emissive material	107
+H01J   1/15	・・・	電流によって直接加熱される陰極	Cathodes heated directly by an electric current	1391
+H01J   1/16	・・・・	形状に特徴のあるもの	characterised by the shape	577
+H01J   1/18	・・・・	支持体；振動を緩衝する装置	Supports; Vibration-damping arrangements	1073
+H01J   1/20	・・・	電流によって間接的に加熱される陰極；電子またはイオン衝撃によって加熱される陰極	Cathodes heated indirectly by an electric current; Cathodes heated by electron or ion bombardment	2008
+H01J   1/22	・・・・	ヒータ	Heaters	813
+H01J   1/24	・・・・	ヒータと放射物質間に設けられる絶縁層または絶縁体	Insulating layer or body located between heater and emissive material	284
+H01J   1/26	・・・・	放射物質の支持体	Supports for the emissive material	592
+H01J   1/28	・・・・	ディスペンサ型陰極，例．Ｌ―カソード	Dispenser-type cathodes, e.g. L-cathode	1252
+H01J   1/30	・・	冷陰極	Cold cathodes	5051
+H01J   1/304	・・・	電界放射陰極［７］	Field-emissive cathodes	5125
+H01J   1/308	・・・	半導体陰極，例，ＰＮ接合層のある陰極［７］	Semiconductor cathodes, e.g. cathodes with PN junction layers	365
+H01J   1/312	・・・	表面に対して垂直の電界を持つもの，例，金属−絶縁体−金属［ＭＩＭ］タイプの，トンネル効果陰極［２００６．０１］	having an electric field perpendicular to the surface, e.g. tunnel-effect cathodes of metal-insulator-metal [MIM] type	740
+H01J   1/316	・・・	表面に対して平行の電界を持つもの，例，薄膜陰極［７］	having an electric field parallel to the surface, e.g. thin film cathodes	1071
+H01J   1/32	・・	二次電子放射電極（Ｈ０１Ｊ１／３５が優先）	Secondary-electron emitting electrodes(H01J1/35 takes precedence)	415
+H01J   1/34	・・	光電子放射陰極（Ｈ０１Ｊ１／３５が優先）	Photo-emissive cathodes(H01J1/35 takes precedence)	902
+H01J   1/35	・・	２次電子放射と光電子放射の両方を行なう電極	Electrodes exhibiting both secondary emission and photo-emission	56
+H01J   1/36	・・	固体陽極；放電維持用固体補助陽極	Solid anodes; Solid auxiliary anodes for maintaining a discharge	150
+H01J   1/38	・・・	材料に特徴のあるもの	characterised by the material	77
+H01J   1/40	・・・	電子管または放電ランプの外囲容器を形成する部分	forming part of the envelope of the tube or lamp	57
+H01J   1/42	・・・	陽極の冷却（Ｈ０１Ｊ１／４４が優先）；陽極の加熱	Cooling of anodes(H01J1/44 takes precedence);Heating of anodes	95
+H01J   1/44	・・・	回転陽極；陽極を回転するための装置；冷却回転陽極	Rotary anodes; Arrangements for rotating anodes; Cooling rotary anodes	17
+H01J   1/46	・	制御電極，例．グリッド（点弧装置Ｈ０１Ｊ７／３０）；補助電極（放電維持用補助陽極Ｈ０１Ｊ１／３６）	Control electrodes, e.g. grid(for igniting arrangements H01J7/30);Auxiliary electrodes(auxiliary anodes for maintaining a discharge H01J1/36)	573
+H01J   1/48	・・	材料に特徴のあるもの	characterised by the material	120
+H01J   1/50	・	放電を制御するための磁気的手段	Magnetic means for controlling the discharge	281
+H01J   1/52	・	遮へい用スクリーン；放電を誘導する案内；電子流内におかれるマスク	Screens for shielding; Guides for influencing the discharge; Masks interposed in the electron stream	193
+H01J   1/53	・	像またはパターンが形成され，捕捉され変換され，または蓄積されるスクリーンと密接に関係のある電極	Electrodes intimately associated with a screen on or from which an image or pattern is formed, picked-up, converted, or stored	33
+H01J   1/54	・	像またはパターンが形成され，捕捉され変換され，または蓄積されるスクリーン；うつわ上のルミネッセント被覆	Screens on or from which an image or pattern is formed, picked-up, converted, or stored; Luminescent coatings on vessels	112
+H01J   1/56	・・	シャッタ作用によって光弁として作用するもの，例．アイドフォール用のもの	acting as light valves by shutter operation, e.g. for eidophor	15
+H01J   1/58	・・	変色により作用するもの，例．ハライドスクリーン	acting by discolouration, e.g. halide screen	9
+H01J   1/60	・・	白熱スクリーン	Incandescent screens	83
+H01J   1/62	・・	ルミネッセントスクリーン；うつわ上のルミネッセント被覆用の材料の選択	Luminescent screens; Selection of materials for luminescent coatings on vessels	6229
+H01J   1/63	・・・	ルミネッセント材料によって特徴づけられるもの	characterised by the luminescent material	1241
+H01J   1/64	・・・	ルミネッセント材料をその支持体に固着するための結着剤または粘着剤に特徴のあるもの	characterised by the binder or adhesive for securing the luminescent material to its support	50
+H01J   1/66	・・・	ルミネッセント材料の支持体	Supports for luminescent material	34
+H01J   1/68	・・・	積層されたルミネッセント層をもつもの	with superimposed luminescent layers	23
+H01J   1/70	・・・	保護層，導電層あるいは反射層をもつもの	with protective, conductive, or reflective layers	169
+H01J   1/72	・・・	たとえば点または線状のごとく非連続に配置されたルミネッセント材料をもつもの	with luminescent material discontinuously arranged, e.g. in dots or lines	41
+H01J   1/74	・・・・	異なったルミネッセント材料が隣接した点または線状のもの	with adjacent dots or lines of different luminescent material	27
+H01J   1/76	・・・	常設されたマークまたは指示を備えるもの	provided with permanent marks or references	6
+H01J   1/78	・・	光電スクリーン；電荷蓄積スクリーン	Photoelectric screens; Charge-storage screens	24
+H01J   1/88	・	電極または電極集合体のマウント，支持，間隔保持または絶縁	Mounting, supporting, spacing, or insulating of electrodes or of electrode assemblies	885
+H01J   1/90	・・	真空空間内での電極または支持体の間の絶縁	Insulation between electrodes or supports within the vacuum space	61
+H01J   1/92	・・	電極集合体全体のマウント	Mountings for the electrode assembly as a whole	62
+H01J   1/94	・・	個々の電極のマウント	Mountings for individual electrodes	128
+H01J   1/96	・・	外囲容器に沿う間隔保持部材	Spacing members extending to the envelope	62
+H01J   1/98	・・・	間隔保持部材と外囲容器との間に定着関係のないもの	without fixed connection between spacing member and envelope	6
+H01J   3/00		電子管または放電ランプの２以上の基本的な型に共通な電子光学またはイオン光学装置，またはイオントラップの細部	Details of electron-optical or ion-optical arrangements or of ion traps common to two or more basic types of discharge tubes or lamps	195
+H01J   3/02	・	電子銃	Electron guns	3346
+H01J   3/04	・	イオン銃	Ion guns	541
+H01J   3/06	・	単一真空空間に配置された２以上の銃，例．複数の粒子線を用いる管（Ｈ０１Ｊ３／０７が優先）［２］	two or more guns being arranged in a single vacuum space, e.g. for plural-ray tubes(H01J3/07 takes precedence)	26
+H01J   3/07	・	複数のビームの収れんを制御する装置［２］	Arrangements for controlling convergence of a plurality of beams	29
+H01J   3/08	・	荷電粒子線またはビームの強度を制御する装置（Ｈ０１Ｊ３／０２，Ｈ０１Ｊ３／０４が優先）	Arrangements for controlling intensity of ray or beam(H01J3/02, H01J3/04 take precedence)	85
+H01J   3/10	・	荷電粒子線またはビームを集中させる装置（Ｈ０１Ｊ３／０２，Ｈ０１Ｊ３／０４が優先）	Arrangements for centering ray or beam(H01J3/02, H01J3/04 take precedence)	48
+H01J   3/12	・	荷電粒子線またはビームの断面を制御する装置；ビームの収差を補正する装置，例．レンズによるもの（Ｈ０１Ｊ３／０２，Ｈ０１Ｊ３／０４が優先）	Arrangements for controlling cross-section of ray or beam; Arrangements for correcting aberration of beam, e.g. due to lenses(H01J3/02, H01J3/04 take precedence)	91
+H01J   3/14	・	荷電粒子線またはビームを集束または反射させる装置（Ｈ０１Ｊ３／０２，Ｈ０１Ｊ３／０４が優先）	Arrangements for focusing or reflecting ray or beam(H01J3/02, H01J3/04 take precedence)	1318
+H01J   3/16	・・	鏡	Mirrors	39
+H01J   3/18	・・	静電レンズ	Electrostatic lenses	248
+H01J   3/20	・・	磁界レンズ	Magnetic lenses	86
+H01J   3/22	・・・	電磁界的手段のみを使うもの	using electromagnetic means only	49
+H01J   3/24	・・・	永久磁石のみを使うもの	using permanent magnets only	39
+H01J   3/26	・	（荷電）粒子線またはビームを偏向させる装置	Arrangements for deflecting ray or beam	294
+H01J   3/28	・・	１つの直線または２つの垂直な直線に沿うもの	along one straight line or along two perpendicular straight lines	8
+H01J   3/30	・・・	電界のみによるもの	by electric fields only	58
+H01J   3/32	・・・	磁界のみによるもの	by magnetic fields only	58
+H01J   3/34	・・	円，ら旋，または回転する放射状線に沿うもの	along a circle, spiral, or rotating radial line	24
+H01J   3/36	・	主偏向システムを通過した後，粒子線またはビームを制御する装置，例．後段加速用または後段集中用	Arrangements for controlling the ray or beam after passing the main deflection system, e.g. for post-acceleration or post-concentration	18
+H01J   3/38	・	電子光学またはイオン光学装置のマウント，支持，間隔保持または絶縁	Mounting, supporting, spacing, or insulating electron-optical or ion-optical arrangements	87
+H01J   3/40	・	不要粒子たとえば負イオン，周縁の電子を取り去りまたはそらすトラップ；速度または質量を選択する装置	Traps for removing or diverting unwanted particles, e.g. negative ions, fringing electrons; Arrangements for velocity or mass selection	84
+H01J   5/00		電子管または放電ランプの２以上の基本的な型に共通なうつわまたは導入線に関連する細部	Details relating to vessels or to leading-in conductors common to two or more basic types of discharge tubes or lamps	266
+H01J   5/02	・	うつわ；容器；それらと関連する遮へい；真空封止	Vessels; Containers; Shields associated therewith; Vacuum locks	1109
+H01J   5/03	・・	うつわまたは容器の内破の効果を防止しまたは軽減する装置［２］	Arrangements for preventing or mitigating effects of implosion of vessels or containers	175
+H01J   5/04	・・	うつわまたは容器の材料に特徴のあるもの	Vessels or containers characterised by the material thereof	184
+H01J   5/06	・・	高電圧で動作する場合に特に用いられるうつわまたは容器，例．うつわの表面上のポテンシャル分布を改良する手段を用いたもの	Vessels or containers specially adapted for operation at high tension, e.g. by improved potential distribution over surface of vessel	203
+H01J   5/08	・・	その壁上に被覆のあるもの；被覆材料の選択（ルミネッセント被覆Ｈ０１Ｊ１／６２）	provided with coatings on the walls thereof; Selection of materials for the coatings(luminescent coatings H01J1/62)	433
+H01J   5/10	・・・	内表面の被覆	on internal surfaces	77
+H01J   5/12	・・	２重壁のうつわまたは容器	Double-wall vessels or containers	250
+H01J   5/14	・・	取り外し可能なうつわまたは容器，例．陰極ヒーターを取り換えるようになっているもの	Dismountable vessels or containers, e.g. for replacing cathode heater	18
+H01J   5/16	・・	構造上，容器と構造的に結合した光学または写真装置	Optical or photographic arrangements structurally combined with the vessel	876
+H01J   5/18	・・	Ｘ線，ガンマ線あるいは粒子を透過できる窓	Windows permeable to X-rays, gamma-rays, or particles	298
+H01J   5/20	・	うつわの各部分間の封止	Seals between parts of vessels	433
+H01J   5/22	・・	うつわの各部分間の真空気密接合	Vacuum-tight joints between parts of vessel	110
+H01J   5/24	・・・	うつわの各絶縁部分の間	between insulating parts of vessel	683
+H01J   5/26	・・・	うつわの絶縁部分と導電部分との間	between insulating and conductive parts of vessel	492
+H01J   5/28	・・・	うつわの各導電部分の間	between conductive parts of vessel	152
+H01J   5/30	・・・	パッキング材料を用いるもの，例．封止液または弾性そう入物	using packing material, e.g. sealing liquid or elastic insert	200
+H01J   5/32	・	導入線の封止	Seals for leading-in conductors	970
+H01J   5/34	・・	個々の導体に対するもの（ピンチステム封止Ｈ０１Ｊ５／３８；エンドディスク封止Ｈ０１Ｊ５／４０；環状封止Ｈ０１Ｊ５／４４	for an individual conductor(pinched-stem seals H01J5/38; end-disc seals H01J5/40; annular seals H01J5/44)	61
+H01J   5/36	・・・	中間物を用いるもの	using intermediate part	29
+H01J   5/38	・・	ピンチステムまたは類似の封止	Pinched-stem or analogous seals	75
+H01J   5/40	・・	エンドディスク封止，例．平面ヘッダ	End-disc seals, e.g. flat header	219
+H01J   5/42	・・・	中間物を用いるもの	using intermediate part	417
+H01J   5/44	・・	うつわの各端部間にある環状封止	Annular seals disposed between the ends of the vessel	105
+H01J   5/46	・	導入線	Leading-in conductors	619
+H01J   5/48	・	管またはランプを支持するための部品を形成する手段	Means forming part of the tube or lamp for the purpose of supporting it	788
+H01J   5/50	・	電気的接続を行うための管またはランプの部分を形成する手段	Means forming part of the tube or lamp for the purpose of providing electrical connection to it	2848
+H01J   5/52	・・	うつわの部分に直接適用されるもの，またはうつわの部分を形成しているもの	directly applied to, or forming part of, the vessel	163
+H01J   5/54	・・	分離した部分によって支持されるもの，例．ベース	supported by a separate part, e.g. base	913
+H01J   5/56	・・・	分離した部分の形状	Shape of the separate part	530
+H01J   5/58	・・・	うつわに分離した部分を固着する手段，例．セメントによるもの	Means for fastening the separate part to the vessel, e.g. by cement	214
+H01J   5/60	・・・・	機械的手段により固着するもの	for fastening by mechanical means	281
+H01J   5/62	・・・	分離した部分によって支持された接続子へのうつわから突き出た線の接続	Connection of wires protruding from the vessel to connectors carried by the separate part	308
+H01J   7/00		グループＨ０１Ｊ１／００〜Ｈ０１Ｊ５／００に分類されず，電子管または放電ランプの２以上の基本的な型に共通な細部	Details not provided for in groups H01J1/00 to H01J5/00  and common to two or more basic types of discharge tubes or lamps	273
+H01J   7/02	・	ガス封入物の物質の選択；特定の動作圧力，温度	Selection of substances for gas fillings; Specified operating pressure or temperature	57
+H01J   7/04	・・	主成分として１以上の炭素化合物をもつもの	having one or more carbon compounds as the principal constituent	25
+H01J   7/06	・・	主成分としてヘリウム，アルゴン，ネオン，クリプトン，またはキセノンをもつもの	having helium, argon, neon, krypton, or xenon as the principal constituent	42
+H01J   7/08	・・	主成分として金属蒸気をもつもの	having a metallic vapour as the principal constituent	15
+H01J   7/10	・・・	水銀蒸気	mercury vapour	72
+H01J   7/12	・・・	アルカリ金属の蒸気	vapour of an alkali metal	10
+H01J   7/14	・	容器内で所望する圧力を得または維持する手段	Means for obtaining or maintaining the desired pressure within the vessel	108
+H01J   7/16	・・	管またはランプの動作中に排気を可能にする手段	Means for permitting pumping during operation of the tube or lamp	40
+H01J   7/18	・・	ガス吸収または吸着する手段，例．ゲッタによるもの	Means for absorbing or adsorbing gas, e.g. by gettering	1859
+H01J   7/20	・・	管またはランプの動作中ガスまたは蒸気を発生させ，導入しあるいは補充する手段	Means for producing, introducing, or replenishing gas or vapour during operation of the tube or lamp	188
+H01J   7/22	・・	そのために管を設けたもの，例．排気用；その密閉	Tubulations therefor, e.g. for exhausting; Closures therefor	142
+H01J   7/24	・	冷却装置；加熱装置；ガスまたは蒸気を放電空間内で循環させる手段	Cooling arrangements; Heating arrangements; Means for circulating gas or vapour within the discharge space	2027
+H01J   7/26	・・	管またはランプに結合した通路を通る液体の流れによるもの	by flow of fluid through passages associated with tube or lamp	318
+H01J   7/28	・・	冷却液の潜熱または蒸発によるもの	by latent heat or evaporation of cooling liquid	83
+H01J   7/30	・	起動装置	Igniting arrangements	65
+H01J   7/32	・・	抵抗性または容量性点弧子をもつもの	having resistive or capacitative igniter	20
+H01J   7/34	・・・	抵抗性点弧子のみをもつもの	having resistive igniter only	19
+H01J   7/36	・・	固体電極の移動による起動	Igniting by movement of a solid electrode	5
+H01J   7/38	・・	うつわ全体の移動による起動，例．傾けること	Igniting by movement of vessel as a whole, e.g. tilting	
+H01J   7/40	・・	放射性物質または封入物による起動	Igniting by associated radioactive materials or fillings	14
+H01J   7/42	・	管またはランプと構造的に結合されていて，欠陥または前に使用したことを指示するための手段	Means structurally associated with the tube or lamp for indicating defects or previous use	134
+H01J   7/44	・	管またはランプと構造的に結合された１以上の回路素子	One or more circuit elements structurally associated with the tube or lamp	448
+H01J   7/46	・・	分布インダクタンスおよび分布容量をもつ共振器を構造的に結合したもの	Structurally associated resonator having distributed inductance and capacitance	74
+H01J   9/00		電子管，放電ランプまたはその部品の製造に特に適用される装置または方法；電子管または放電ランプからの材料の回収［１，７］	Apparatus or processes specially adapted for the manufacture of electric discharge tubes, discharge lamps, or parts thereof; Recovery of material from discharge tubes or lamps	5051
+H01J   9/02	・	電極または電極システムの製造	Manufacture of electrodes or electrode systems	15205
+H01J   9/04	・・	熱陰極の製造	of thermionic cathodes	3812
+H01J   9/06	・・・	そのための機械	Machines therefor	372
+H01J   9/08	・・	間接加熱陰極用ヒーターの製造	Manufacture of heaters for indirectly-heated cathodes	403
+H01J   9/10	・・・	そのための機械	Machines therefor	127
+H01J   9/12	・・	光電子放射陰極の製造；二次電子放射電極の製造	of photo-emissive cathodes; of secondary-emission electrodes	1410
+H01J   9/14	・・	電子を放射しない電極の製造	of non-emitting electrodes	5171
+H01J   9/16	・・・	グリッド線製造用の機械	Machines for making wire grids	93
+H01J   9/18	・・	電極システムの構成部品の組み立て	Assembling together the component parts of electrode systems	2372
+H01J   9/20	・	像またはパターンが形成され，捕捉され，変換され，または蓄積されるスクリーンの製造；うつわへ被覆を施すこと	Manufacture of screens on or from which an image or pattern is formed, picked-up, converted or stored; Applying coatings to the vessel	4318
+H01J   9/22	・・	ルミネッセント被覆を施すこと	Applying luminescent coatings	4233
+H01J   9/227	・・・	不連続に配列されたルミネツセント材料をもつもの，例．点または線状のもの［２］	with luminescent material discontinuously arranged, e.g. in dots or lines	6209
+H01J   9/233	・・	光電スクリーンまたは電荷蓄積スクリーンの製造［２］	Manufacture of photoelectric screens or charge-storage screens	723
+H01J   9/236	・	陰極線管用磁界偏向装置の製造［３］	Manufacture of magnetic deflecting devices for cathode-ray tubes	927
+H01J   9/24	・	うつわ，導入線またはベースの製造または接合	Manufacture or joining of vessels, leading-in conductors, or bases	8194
+H01J   9/26	・・	うつわの部分どうしの封止	Sealing together parts of vessels	4188
+H01J   9/28	・・	導入線の製造	Manufacture of leading-in conductors	585
+H01J   9/30	・・	ベースの製造	Manufacture of bases	420
+H01J   9/32	・・	導入線の封止	Sealing leading-in conductors	1743
+H01J   9/34	・・	ベースのうつわへの接合	Joining base to vessel	965
+H01J   9/36	・・	内部電極システムへの接続子の接合	Joining connectors to internal electrode system	546
+H01J   9/38	・	うつわの排気，脱ガス，封入あるいは洗浄	Exhausting, degassing, filling, or cleaning vessels	2942
+H01J   9/385	・・	うつわの排気［２］	Exhausting vessels	1824
+H01J   9/39	・・	うつわの脱ガス［２］	Degassing vessels	850
+H01J   9/395	・・	うつわの封入［２］	Filling vessels	1797
+H01J   9/40	・	うつわの密閉	Closing vessels	1583
+H01J   9/42	・	製造中の測定または試験	Measurement or testing during manufacture	3723
+H01J   9/44	・	所望する許容度に応じるための完成した電子管または放電ランプの工場調整	Factory adjustment of completed discharge tubes or lamps to comply with desired tolerances	2018
+H01J   9/46	・	順次に配置された動作位置をもった機械	Machines having sequentially-arranged operating stations	1461
+H01J   9/48	・・	動作位置間で加工物が自動的に移動するもの	with automatic transfer of workpieces between operating stations	576
+H01J   9/50	・	使用されたまたは欠陥のある電子管，放電ランプ，またはその回収可能な部品の修理または再生	Repairing or regenerating used or defective discharge tubes, lamps or their salvageable components	1312
+H01J   9/52	・	電子管または放電ランプからの材料の回収（Ｈ０１Ｊ９／５０が優先）［７］	Recovery of material from discharge tubes or lamps(H01J9/50 takes precedence)	499
+H01J  11/00		放電の交流電流誘導を有するガス入り放電管，例．交流型プラズマディスプレイパネル［ＡＣ−ＰＤＰ］（ＰＤＰを駆動させる回路または方法Ｇ０９Ｇ３／２８）；うつわ内に主電極をもたないガス入り放電管；うつわ外に少なくとも１つの主電極をもつガス入り放電管［２０１２．０１］<br><b><ul>注</ul></b><br>（１）このグループに分類する場合は，適切な箇所のすべてに分類がなされる。［２０１２．０１］<br>（２）このグループにおいては、下記の用語は以下に示す意味で用いる：<br>−「主電極」は，サステイン電極，スキャン電極またはアドレス電極を意味する。［２０１２．０１］	Gas-filled discharge tubes with alternating current induction of the discharge, e.g. alternating current plasma display panels [AC-PDP](circuits or methods for driving PDPs G09G3/28);Gas-filled discharge tubes without any main electrode inside the vessel; Gas-filled discharge tubes with at least one main electrode outside the vessel; <br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, classification is made in all appropriate places.  In this group, the following term is used with the meaning indicated: "main electrode" means any of a sustain electrode, scan electrode or address electrode.  	509
+H01J  11/10	・	少なくとも１つの主電極がプラズマと接触しないＡＣ−ＰＤＰ［２０１２．０１］	AC-PDPs with at least one main electrode being out of contact with the plasma	1345
+H01J  11/12	・・	主電極が放電空間の両側に設けられたもの［２０１２．０１］	with main electrodes provided on both sides of the discharge space	5542
+H01J  11/14	・・	主電極が放電空間の片側だけに設けられたもの［２０１２．０１］	with main electrodes provided only on one side of the discharge space	1355
+H01J  11/16	・・	主電極がスペーサの内部または側面に設けられたもの［２０１２．０１］	with main electrodes provided inside or on the side face of the spacers	405
+H01J  11/18	・・	ガスを閉じ込めるために独立の閉鎖構造を複数含むもの，例．プラズマチューブアレイ［ＰＴＡ］表示パネル［２０１２．０１］	containing a plurality of independent closed structures for containing the gas, e.g. plasma tube array [PTA] display panels	219
+H01J  11/20	・	構造上の細部［２０１２．０１］	Constructional details	1292
+H01J  11/22	・・	電極，例．特別な形状，材料または構成［２０１２．０１］	Electrodes, e.g. special shape, material or configuration	9175
+H01J  11/24	・・・	サステイン電極またはスキャン電極［２０１２．０１］	Sustain electrodes or scan electrodes	7192
+H01J  11/26	・・・	アドレス電極［２０１２．０１］	Address electrodes	4665
+H01J  11/28	・・・	補助電極，例．プライミング電極またはトリガー電極［２０１２．０１］	Auxiliary electrodes, e.g. priming electrodes or trigger electrodes	1051
+H01J  11/30	・・・	フローティング電極［２０１２．０１］	Floating electrodes	151
+H01J  11/32	・・・	電極の配置［２０１２．０１］	Disposition of the electrodes	1143
+H01J  11/34	・・	うつわ、容器、またはその部品，例．基板［２０１２．０１］	Vessels, containers or parts thereof, e.g. substrates	9701
+H01J  11/36	・・・	スペーサ、障壁、リブ、隔壁または類似のもの［２０１２．０１］	Spacers, barriers, ribs, partitions or the like	6058
+H01J  11/38	・・・	誘電体層または絶縁層［２０１２．０１］	Dielectric or insulating layers	4535
+H01J  11/40	・・・	保護層、または電子放出を促進する層，例．ＭｇＯ層［２０１２．０１］	Layers for protecting or enhancing the electron emission, e.g. MgO layers	2536
+H01J  11/42	・・・	蛍光層［２０１２．０１］	Fluorescent layers	3926
+H01J  11/44	・・・	光学装置と遮蔽装置，例．フィルタ，ブラックマトリクス，光反射手段または電磁遮蔽手段［２０１２．０１］	Optical arrangements or shielding arrangements, e.g. filters, black matrices, light reflecting means or electromagnetic shielding means	3618
+H01J  11/46	・・	接続または供給手段，例．導入線［２０１２．０１］	Connecting or feeding means, e.g. leading-in conductors	1790
+H01J  11/48	・・	封止，例．導入線に特に適合する封止［２０１２．０１］	Sealing, e.g. seals specially adapted for leading-in conductors	1414
+H01J  11/50	・・	充填，例．ガス混合物の選択［２０１２．０１］	Filling, e.g. selection of gas mixture	1475
+H01J  11/52	・・	ガス混合物を吸収または吸着する手段，例．ゲッタによるもの［２０１２．０１］	Means for absorbing or adsorbing the gas mixture, e.g. by gettering	185
+H01J  11/54	・・	ガスを排気する手段［２０１２．０１］	Means for exhausting the gas	681
+H01J  13/00		液溜陰極をもつ電子管，例．金属蒸気整流管	Discharge tubes with liquid-pool cathodes, e.g. metal-vapour rectifying tubes	256
+H01J  13/02	・	細部	Details	317
+H01J  13/04	・・	主電極；補助陽極	Main electrodes; Auxiliary anodes	121
+H01J  13/06	・・・	陰極	Cathodes	102
+H01J  13/08	・・・・	材料に特徴のあるもの	characterised by the material	51
+H01J  13/10	・・・・	液溜用の容器；それらの装置またはマウント	Containers for the liquid pool; Arrangement or mounting thereof	162
+H01J  13/12	・・・・	液溜上の陰極輝点の位置決めまたは移動	Positioning or moving the cathode spot on the surface of the pool	136
+H01J  13/14	・・・・	液の冷却，加熱，循環，ろ過または液面制御	Cooling, heating, circulating, filtering, or controlling level of the liquid	186
+H01J  13/16	・・・	陽極；放電維持用の補助陽極	Anodes; Auxiliary anodes for maintaining the discharge	346
+H01J  13/18	・・・・	陽極の冷却または加熱	Cooling or heating of anodes	95
+H01J  13/20	・・	制御電極，例．グリッド（起動装置用Ｈ０１Ｊ１３／３４）	Control electrodes, e.g. grid(for igniting arrangements H01J13/34)	305
+H01J  13/22	・・	スクリーン，例．逆弧の防止または除去	Screens, e.g. for preventing or eliminating arcing-back	148
+H01J  13/24	・・	うつわ；容器	Vessels; Containers	66
+H01J  13/26	・・	うつわの部分間の封止；導入線の封止；導入線	Seals between parts of vessels; Seals for leading-in conductors; Leading-in conductors	255
+H01J  13/28	・・	ガス封入物質の選択；管内で所望の圧力を得または維持するための手段［２］	Selection of substances for gas filling; Means for obtaining or maintaining the desired pressure within the tube	234
+H01J  13/30	・・・	管の動作中，排気を可能にする手段	Means for permitting pumping during operation of the tube	12
+H01J  13/32	・・	冷却装置；加熱装置（陰極用Ｈ０１Ｊ１３／１４；陽極用Ｈ０１Ｊ１３／１８）	Cooling arrangements; Heating arrangements(for cathodes H01J13/14; for anodes H01J13/18)	633
+H01J  13/34	・・	起動装置	Igniting arrangements	386
+H01J  13/36	・・・	抵抗性または容量性点弧子をもつもの	having resistive or capacitative igniter	3
+H01J  13/38	・・・・	抵抗性点弧子のみをもつもの	having resistive igniter only	186
+H01J  13/40	・・・	固体電極の移動による起動	Igniting by movement of a solid electrode	9
+H01J  13/42	・・・	うつわ全体の移動による起動，例．傾けること	Igniting by movement of vessel as a whole, e.g. tilting	50
+H01J  13/44	・・	逆弧の防止または除去のための装置	Devices for preventing or eliminating arcing-back	30
+H01J  13/46	・・	管と構造的に結合した１以上の回路素子	One or more circuit elements structurally associated with the tube	163
+H01J  13/48	・・	管の特定用途に使用されず，かつ他のどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	775
+H01J  13/50	・	単一の主陽極をもつ管	Tubes having a single main anode	357
+H01J  13/52	・・	１以上の中間制御電極による制御を用いるもの	with control by one or more intermediate control electrodes	9
+H01J  13/54	・・	点弧子による制御を用いるもの，例．単一陽極イグナイトロン	with control by igniter, e.g. single-anode ignitron	22
+H01J  13/56	・	２以上の主陽極をもつ管	Tubes having two or more main anodes	55
+H01J  13/58	・・	１以上の中間制御電極による制御を用いるもの	with control by one or more intermediate control electrodes	
+H01J  15/00		ガス状陰極をもつガス入り電子管，例．プラズマ陰極	Gas-filled discharge tubes with gaseous cathodes, e.g. plasma cathodes	157
+H01J  15/02	・	細部，例．電極，ガス封入，うつわの形状	Details, e.g. electrode, gas filling, shape of vessel	34
+H01J  15/04	・・	管の特殊用途に使用されず，かつ他のどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	31
+H01J  17/00		固体陰極をもつガス入り電子管（Ｈ０１Ｊ２５／００，Ｈ０１Ｊ２７／００，Ｈ０１Ｊ３１／００〜Ｈ０１Ｊ４１／００が優先；ガス入りスパークギャップＨ０１Ｔ；マルクス変換器Ｈ０２Ｍ７／２６）	Gas-filled discharge tubes with solid cathodes(H01J25/00, H01J27/00, H01J31/00 to H01J41/00  take precedence; gas filled spark gaps H01T; Marx converters H02M7/26)	1228
+H01J  17/02	・	細部	Details	806
+H01J  17/04	・・	電極；スクリーン［１，２０１２．０１］	Electrodes; Screens	3045
+H01J  17/06	・・・	陰極	Cathodes	1261
+H01J  17/08	・・・・	管の動作中，陰極表面に堆積される水銀または液状アルカリ金属をもつもの	having mercury or liquid alkali metal deposited on the cathode surface during operation of the tube	23
+H01J  17/10	・・・	陽極	Anodes	98
+H01J  17/12	・・・	制御電極	Control electrodes	114
+H01J  17/14	・・	放電制御のための磁気的手段	Magnetic means for controlling the discharge	380
+H01J  17/16	・・	うつわ；容器［１，２０１２．０１］	Vessels; Containers	2591
+H01J  17/18	・・	うつわの部分間の封止；導入線の封止；導入線［１，２０１２．０１］	Seals between parts of vessels; Seals for leading-in conductors; Leading-in conductors	721
+H01J  17/20	・・	ガス封入物の物質の選択；特定の動作圧力または温度［１，２０１２．０１］	Selection of substances for gas fillings; Specified operating pressures or temperatures	618
+H01J  17/22	・・	管内で所望の圧力を得るかまたは維持するための方法［１，２０１２．０１］	Means for obtaining or maintaining the desired pressure within the tube	199
+H01J  17/24	・・・	ガスを吸着させ，または吸収するための手段，例．ゲッタによるもの［１，２０１２．０１］	Means for absorbing or adsorbing gas, e.g. by gettering	202
+H01J  17/26	・・・	管の動作中，ガスまたは蒸気を発生させ，導入し，あるいは補充する手段［１，２０１２．０１］	Means for producing, introducing, or replenishing gas or vapour during operation of the tube	289
+H01J  17/28	・・	冷却装置	Cooling arrangements	966
+H01J  17/30	・・	起動装置	Igniting arrangements	399
+H01J  17/32	・・・	加えられた放射性物質または放射性封入物による起動	Igniting by associated radioactive materials or fillings	87
+H01J  17/34	・・	管と構造的に結合した１以上の回路素子	One or more circuit elements structurally associated with the tube	279
+H01J  17/36	・・	管の特殊用途に使用されず，かつどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	158
+H01J  17/38	・	冷陰極管	Cold-cathode tubes	351
+H01J  17/40	・・	１つの陰極と１つの陽極をもつもの，例．グロー放電管，同調指示グロー放電管，定電圧放電管または電圧指示管	with one cathode and one anode, e.g. glow tubes, tuning-indicator glow tubes, voltage-stabiliser tubes or voltage-indicator tubes	758
+H01J  17/42	・・・	１以上の探針電極をもつもの，例．電位分割用	having one or more probe electrodes, e.g. for potential dividing	15
+H01J  17/44	・・・	１以上の制御電極をもつもの	having one or more control electrodes	330
+H01J  17/46	・・・・	点弧を防ぎ，次いで点弧を可能にするがその後は制御をしないもの	for preventing and then permitting ignition, but thereafter having no control	57
+H01J  17/48	・・	２以上の陰極または陽極をもつもの，例．シーケンス放電管，計数管，デカトロン	with more than one cathode or anode, e.g. sequence-discharge tube, counting tube, dekatron	1981
+H01J  17/49	・・・	表示パネル，例．交差電極を有するもの［３，２０１２．０１］	Display panels, e.g. with crossed electrodes	7774
+H01J  17/50	・	熱陰極放電管	Thermionic-cathode tubes	146
+H01J  17/52	・・	１つの陰極と１つの陽極をもつもの	with one cathode and one anode	74
+H01J  17/54	・・・	１以上の制御電極をもつもの	having one or more control electrodes	145
+H01J  17/56	・・・・	点弧を防ぎ，次いで点弧を可能にするがその後は制御をしないもの	for preventing and then permitting ignition, but thereafter having no control	286
+H01J  17/58	・・	２以上の陰極あるいは陽極をもつもの	with more than one cathode or anode	62
+H01J  17/60	・・・	あらかじめきめられた順序で点弧する放電通路をもつもの，例．計数管	the discharge paths priming each other in a predetermined sequence, e.g. counting tube	5
+H01J  17/62	・・・	中間電極によって制御される独立した放電通路をもつもの，例．多相整流管	with independent discharge paths controlled by intermediate electrodes, e.g. polyphase rectifier	6
+H01J  17/64	・	導波管内で切り換えあるいは変調するよう特に設計された放電管，例．ＴＲボックス	Tubes specially designed for switching or modulating in a waveguide, e.g. TR box	40
+H01J  19/00		グループＨ０１Ｊ２１／００に含まれている型の真空管の細部	Details of vacuum tubes of the types covered by group H01J21/00	1242
+H01J  19/02	・	電子放射電極；陰極	Electron-emitting electrodes; Cathodes	407
+H01J  19/04	・・	熱電子陰極	Thermionic cathodes	49
+H01J  19/06	・・・	材料に特徴のあるもの	characterised by the material	174
+H01J  19/062	・・・・	電子放射物質として，アルカリ土類金属酸化物，または還元剤とともに用いるこのような酸化物をもつもの［６］	with alkaline-earth metal oxides, or such oxides used in conjunction with reducing agents, as an emissive material	5
+H01J  19/064	・・・・	電子放射物質として他の金属酸化物をもつもの［６］	with other metal oxides as an emissive material	3
+H01J  19/066	・・・・	電子放射物質として金属または合金をもつもの［６］	with metals or alloys as an emissive material	6
+H01J  19/068	・・・・	電子放射物質として金属導電性を有する化合物をもつもの，例．ランタンホウ化物［６］	with compounds having metallic conductive properties, e.g. lanthanum boride, as an emissive material	5
+H01J  19/08	・・・	電流によって直接に加熱される陰極	Cathodes heated directly by an electric current	54
+H01J  19/10	・・・	形状に特徴のあるもの	characterised by the shape	42
+H01J  19/12	・・・・	支持体；振動緩衝装置	Supports; Vibration-damping arrangements	50
+H01J  19/14	・・・	電流によって間接的に加熱される陰極；電子またはイオン衝撃によって加熱される陰極	Cathodes heated indirectly by an electric current; Cathodes heated by electron or ion bombardment	48
+H01J  19/16	・・・・	ヒータ	Heaters	27
+H01J  19/18	・・・・	ヒータと電子放射物質間に設けられる絶縁層または絶縁体	Insulating layer or body located between heater and emissive material	6
+H01J  19/20	・・・・	電子放射材料の支持体	Supports for the emissive material	9
+H01J  19/22	・・・・	ディスペンサ型陰極，例．Ｌカソード	Dispenser-type cathodes, e.g. L-cathode	6
+H01J  19/24	・・	冷陰極，例．電界放射陰極	Cold cathodes, e.g. field-emissive cathode	384
+H01J  19/28	・	非電子放射電極；スクリーン	Non-electron-emitting electrodes; Screens	380
+H01J  19/30	・・	材料に特徴のあるもの	characterised by the material	502
+H01J  19/32	・・	陽極	Anodes	117
+H01J  19/34	・・・	外囲容器の一部を形成するもの	forming part of the envelope	372
+H01J  19/36	・・・	陽極の冷却	Cooling of anodes	702
+H01J  19/38	・・	制御電極，例．グリッド	Control electrodes, e.g. grid	684
+H01J  19/40	・・	遮へい用スクリーン	Screens for shielding	181
+H01J  19/42	・	電極または電極集合体のマウント，支持，間隔保持または絶縁	Mounting, supporting, spacing, or insulating of electrodes or of electrode assemblies	1338
+H01J  19/44	・・	真空空間内の電極または支持体間の絶縁	Insulation between electrodes or supports within the vacuum space	221
+H01J  19/46	・・	電極集合体全体のマウント	Mountings for the electrode assembly as a whole	297
+H01J  19/48	・・	個々の電極マウント	Mountings for individual electrodes	51
+H01J  19/50	・・	外囲容器にまで達するスペーサ部材	Spacing members extending to the envelope	276
+H01J  19/52	・・・	スペーサ部材と外囲容器との間が固定されていないもの	without fixed connection between spacing member and envelope	140
+H01J  19/54	・	うつわ；容器；それらと結合した遮へい物	Vessels; Containers; Shields associated therewith	91
+H01J  19/56	・・	うつわまたは容器の材料に特徴のあるもの	characterised by the material of the vessel or container	22
+H01J  19/57	・・	その壁に被覆のあるもの；被覆材料の選択	provided with coatings on the walls thereof; Selection of materials for the coatings	37
+H01J  19/58	・	うつわの各部分間の封止	Seals between parts of vessels	39
+H01J  19/60	・	導入線の封止	Seals for leading-in conductors	29
+H01J  19/62	・	導入線	Leading-in conductors	51
+H01J  19/64	・	管を支持する部分の形成手段	Means forming part of the tube for the purpose of supporting it	17
+H01J  19/66	・	管の電気的接続を行なうための部分を形成する手段	Means forming part of the tube for the purpose of providing electrical connection to it	761
+H01J  19/68	・	管に低圧で導入された特定のガス，例．空間電荷を減少させあるいつこれに影響をあたえるもの	Specified gas introduced into the tube at low pressure, e.g. for reducing or influencing space charge	120
+H01J  19/70	・	真空に達成しまたは維持する手段，例．ゲッタによるもの	Means for obtaining or maintaining the vacuum, e.g. by gettering	113
+H01J  19/72	・・	そのための管を設けたもの，例．排気用；そのための封止	Tubulations therefor, e.g. for exhausting; Closures therefor	15
+H01J  19/74	・	冷却装置（陽極の冷却Ｈ０１Ｊ１９／３６）	Cooling arrangements(cooling of anodes H01J19/36)	246
+H01J  19/76	・	欠陥または以前に使用したことがあることを指示するために管と構造的に結合された手段	Means structurally associated with the tube for indicating defects or previous use	3
+H01J  19/78	・	管と構造的に結合された１個以上の回路素子	One or more circuit elements structurally associated with the tube	171
+H01J  19/80	・・	分布インダクタンスと分布キャパシタンスを有する構造的に結合された共振器	Structurally associated resonator having distributed inductance and capacitance	304
+H01J  19/82	・	管の特定用途に使用されず，かつ他のどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	159
+H01J  21/00		真空管（Ｈ０１Ｊ２５／００，Ｈ０１Ｊ３１／００〜Ｈ０１Ｊ４０／００，Ｈ０１Ｊ４３／００，Ｈ０１Ｊ４７／００，Ｈ０１Ｊ４９／００が優先；真空管の細部Ｈ０１Ｊ１９／００）	Vacuum tubes(H01J25/00, H01J31/00 to H01J40/00 , H01J43/00, H01J47/00, H01J49/00 take precedence; details of vacuum tubes H01J19/00)	180
+H01J  21/02	・	単一の放電通路を有する真空管	Tubes with a single discharge path	862
+H01J  21/04	・・	制御手段のないもの，例．２極管	without control means, i.e. diodes	101
+H01J  21/06	・・	静電的制御手段だけを有するもの	having electrostatic control means only	571
+H01J  21/08	・・・	可動電極を有するもの	with movable electrode or electrodes	170
+H01J  21/10	・・・	１以上の不動の内部制御電極を有するもの，例．３極管，５極管，８極管	with one or more immovable internal control electrodes, e.g. triode, pentode, octode	590
+H01J  21/12	・・・・	可変増幅定数を有する真空管	Tubes with variable amplification factor	98
+H01J  21/14	・・・・	電子流を集中させる手段を有する真空管，例．ビーム４極管	Tubes with means for concentrating the electron stream, e.g. beam tetrode	308
+H01J  21/16	・・・	外部静電制御手段を有し内部制御電極を有しまたは有しないもの	with external electrostatic control means and with or without internal control electrodes	54
+H01J  21/18	・・	磁気的制御手段を有するもの；磁気的制御手段と静電的制御手段の両方を有するもの	having magnetic control means; having both magnetic and electrostatic control means	286
+H01J  21/20	・	２以上の放電通路を有する管；複合管，例．双２極管または３極管−６極管	Tubes with more than one discharge path; Multiple tubes, e.g. double diode or triode-hexode	612
+H01J  21/22	・・	可動電極を有するもの	with movable electrode or electrodes	10
+H01J  21/24	・・	可変増幅定数を有するもの	with variable amplification factor	4
+H01J  21/26	・・	電子流を集中させる手段を有するもの	with means for concentrating the electron stream	12
+H01J  21/34	・	走行時間効果を除くように配置され寸法づけられた電極システムを有する管（平面電極を有するものＨ０１Ｊ２１／３６）	Tubes with electrode system arranged or dimensioned so as to eliminate transit-time effect(with flat electrodes H01J21/36)	9
+H01J  21/36	・	平面電極を有する管，例．円板電極	Tubes with flat electrodes, e.g. disc electrode	517
+H01J  23/00		グループＨ０１Ｊ２５／００に含まれている型の走行時間型電子管の細部	Details of transit-time tubes of the types covered by group H01J25/00	1804
+H01J  23/02	・	電極；磁気的制御手段；スクリーン（共振器または遅延システムと結合したものＨ０１Ｊ２３／１６）	Electrodes; Magnetic control means; Screens(associated with resonator or delay system H01J23/16)	388
+H01J  23/027	・・	集電極［２］	Collectors	863
+H01J  23/033	・・・	集電極冷却装置［２］	Collector cooling devices	831
+H01J  23/04	・・	陰極	Cathodes	1206
+H01J  23/05	・・・	円筒形電子放出面を有するもの，例．マグネトロン用陰極［３］	having a cylindrical emissive surface, e.g. cathodes for magnetrons	637
+H01J  23/06	・・	電子銃またはイオン銃	Electron or ion guns	807
+H01J  23/065	・・・	円筒形ビームを形成するもの（Ｈ０１Ｊ２３／０７５が優先）［３］	producing a solid cylindrical beam(H01J23/075 takes precedence)	191
+H01J  23/07	・・・	中空円筒形ビームを形成するもの（Ｈ０１Ｊ２３／０７５が優先）［３］	producing a hollow cylindrical beam(H01J23/075 takes precedence)	39
+H01J  23/075	・・・	マグネトロン入射電子銃［３］	Magnetron injection guns	82
+H01J  23/08	・・	集束装置，例．電子流を集中させるもの，電子流が拡がるのを防止するもの	Focusing arrangements, e.g. for concentrating stream of electrons, for preventing spreading of stream	247
+H01J  23/083	・・・	静電集束装置［３］	Electrostatic focusing arrangements	152
+H01J  23/087	・・・	磁気集束装置［３］	Magnetic focusing arrangements	984
+H01J  23/09	・・	荷電粒子（線）を所望の通路に沿うように方向づけまたは偏向するための電気的システム（集束装置Ｈ０１Ｊ２３／０８）	Electric systems for directing or deflecting the discharge along a desired path, e.g. E-type(focusing arrangements H01J23/08)	39
+H01J  23/10	・・	荷電粒子（線）を所望の通路に沿うように方向づけまたは偏向するための磁石系，例．ら旋通路（磁気集束装置Ｈ０１Ｊ２３／０８）	Magnet systems for directing or deflecting the discharge along a desired path, e.g. a spiral path(magnetic focusing arrangements H01J23/08)	1143
+H01J  23/11	・・	雑音を減少するための手段（電子銃またはイオン銃に用いるものＨ０１Ｊ２３／０６）	Means for reducing noise(in electron or ion gun H01J23/06)	102
+H01J  23/12	・	うつわ；容器	Vessels; Containers	800
+H01J  23/14	・	導入部構造；そのための封止	Leading-in arrangements; Seals therefor	1237
+H01J  23/15	・・	管の導入部構造と構造的に結合された電磁エネルギー漏洩防止手段，例．フィルタ，チョーク，減衰装置［４］	Means for preventing wave energy leakage structurally associated with tube leading-in arrangements, e.g. filters, chokes, attenuating devices	1117
+H01J  23/16	・	分布容量と分布インダクタンスを有し，構造的に管と結合され放電と相互作用をする回路素子	Circuit elements, having distributed capacitance and inductance, structurally associated with the tube and interacting with the discharge	307
+H01J  23/18	・・	共振器	Resonators	215
+H01J  23/20	・・・	空胴共振器；それらの調整または同調	Cavity resonators; Adjustment or tuning thereof	1325
+H01J  23/207	・・・・	単一の共振器の同調［２］	Tuning of single resonator	211
+H01J  23/213	・・・・	二つ以上の共振器の同時同調，例．磁電管の共振空洞［２］	Simultaneous tuning of more than one resonator, e.g. resonant cavities of a magnetron	468
+H01J  23/22	・・・	共振器間の接続，例．磁電管の共振器の接続のための均圧環	Connections between resonators, e.g. strapping for connecting resonators of a magnetron	409
+H01J  23/24	・・	遅波構造	Slow-wave structures	1137
+H01J  23/26	・・・	ら旋状遅波構造；それらの調整	Helical slow-wave structures; Adjustment therefor	905
+H01J  23/27	・・・・	遅波構造を誘導するら旋［３］	Helix-derived slow-wave structures	168
+H01J  23/28	・・・	交叉型遅波構造；それらの調整	Interdigital slow-wave structures; Adjustment therefor	144
+H01J  23/30	・・・	遅波構造に結合された減衰装置，例．望ましくない発振の抑制のためのもの	Damping arrangements associated with slow-wave structures, e.g. for suppression of unwanted oscillations	490
+H01J  23/34	・	管の特定用途に使用されず，かつ他のどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	719
+H01J  23/36	・	電磁エネルギーを導入したり取り出したりするための管と構造的に結合された，分布容量およびインダクタンスを有する結合装置［４］	Coupling devices having distributed capacitance and inductance, structurally associated with the tube, for introducing or removing wave energy	723
+H01J  23/38	・・	荷電粒子（線）にまたは荷電粒子（線）から取り出したり導入したりするもの［４］	to or from the discharge	91
+H01J  23/40	・・	相互作用回路へまたはそれからのもの［４］	to or from the interaction circuit	980
+H01J  23/42	・・・	ら旋またはら旋から誘導される遅波構造との相互作用回路（Ｈ０１Ｊ２３／４４〜Ｈ０１Ｊ２３／４８が優先）［４］	the interaction circuit being a helix or a helix-derived slow-wave structure(H01J23/44 to H01J23/48  take precedence)	154
+H01J  23/44	・・・	ロッド型結合装置（Ｈ０１Ｊ２３／４６，Ｈ０１Ｊ２３／４８，Ｈ０１Ｊ２３／５４が優先）［４］	Rod-type coupling devices(H01J23/46, H01J23/48, H01J23/54 take precedence)	15
+H01J  23/46	・・・	ループ結合装置［４］	Loop coupling devices	72
+H01J  23/48	・・・	同軸線と相互作用回路を連結するためのもの；対になったら旋型式の装置（Ｈ０１Ｊ２３／４６が優先）［４］	for linking interaction circuit with coaxial lines; Devices of the coupled helices type(H01J23/46 takes precedence)	156
+H01J  23/50	・・・・	ら旋またはら旋から誘導される相互作用回路（Ｈ０１Ｊ２３／５２が優先）［４］	the interaction circuit being a helix or derived from a helix(H01J23/52 takes precedence)	135
+H01J  23/52	・・・・	互いのまわりに同軸に配置される結合ら旋［４］	the coupled helices being disposed coaxially around one another	30
+H01J  23/54	・・	相互作用回路へのまたはそれからの望ましくない周波数またはモードを阻止するフィルタ装置；装置外への高周波漏洩の防止［４］	Filtering devices preventing unwanted frequencies or modes to be coupled to, or out of, the interaction circuit; Prevention of high frequency leakage in the environment	410
+H01J  25/00		走行時間型電子管，例．速度変調管，進行波管，磁電管（走行時間型電子管の細部Ｈ０１Ｊ２３／００；粒子加速器Ｈ０５Ｈ）	Transit-time tubes, e.g. klystrons, travelling-wave tubes, magnetrons(details of transit-time tubes H01J23/00; particle accelerators H05H)	1050
+H01J  25/02	・	変調区間で速度または密度変調されその後誘導区間でエネルギーを放出する電子流のある真空管で，上記両区間は１またはそれ以上の共振器と結合しているもの	Tubes with electron stream modulated in velocity or density in a modulator zone and thereafter giving-up energy in an inducing zone, the zones being associated with one or more resonators	505
+H01J  25/04	・・	１つまたはそれ以上の共振器を有し，電子流の反射なしに，そしてその変調区間での変調が主として密度変調であるような管，例．ハエッフ管	Tubes having one or more resonators, without reflection of the electron stream, and in which the modulation produced in the modulator zone is mainly density modulation, e.g. Haeff tube	154
+H01J  25/06	・・	単一の共振器を有し，電子流の反射なしに，そしてその変調区間での変調が主として速度変調であるような管，例．リューディークライストロン	Tubes having only one resonator, without reflection of the electron stream, and in which the modulation produced in the modulator zone is mainly velocity modulation, e.g. L$00FCdi klystron	108
+H01J  25/08	・・・	共振器の軸に直角な電子流のあるもの	with electron stream perpendicular to the axis of the resonator	84
+H01J  25/10	・・	速度変調管，すなわち２つ以上の共振器を有し，電子流の反射なしに，かつ入力共振器部分で主としてその電子流が速度変調されるような管	Klystrons, i.e. tubes having two or more resonators, without reflection of the electron stream, and in which the stream is modulated mainly by velocity in the zone of the input resonator	612
+H01J  25/11	・・・	拡がった相互作用をなす速度変調管［２］	Extended interaction klystrons	44
+H01J  25/12	・・・	共振器の軸上での電子流がペンシル状であるもの	with pencil-like electron stream in the axis of the resonators	523
+H01J  25/14	・・・	共振器の軸と同軸の管状電子流をもつもの	with tube-like electron stream coaxial with the axis of the resonators	30
+H01J  25/16	・・・	共振器の軸に直角なペンシル状電子流をもつもの	with pencil-like electron stream perpendicular to the axis of the resonators	73
+H01J  25/18	・・・	共振器の軸に直角な放射状または板状の電子流をもつもの	with radial or disc-like electron stream perpendicular to the axis of the resonators	29
+H01J  25/20	・・・	共振器間の空間に特殊な装置を有するもの，例．抵抗壁増幅管，空間電荷増幅管，速度飛躍管	having special arrangements in the space between resonators, e.g. resistive-wall amplifier tube, space-charge amplifier tube, velocity-jump tube	67
+H01J  25/22	・・	反射速度変調管，すなわち１つあるいはそれ以上の共振器を有し，電子流の反射が１つであり，変調部において電子流が主として速度によって変調される管	Reflex klystrons, i.e. tubes having one or more resonators, with a single reflection of the electron stream, and in which the stream is modulated mainly by velocity in the modulator zone	102
+H01J  25/24	・・・	電子流が共振器の軸上にあり，かつ反射される前にはペンシル状であるもの	in which the electron stream is in the axis of the resonator or resonators and is pencil-like before reflection	398
+H01J  25/26	・・・	電子流が共振器の軸と同軸でありかつ反射される前は管状であるもの	in which the electron stream is coaxial with the axis of the resonator or resonators and is tube-like before reflection	16
+H01J  25/28	・・・	電子流が共振器の軸に直角でありかつ反射される前はペンシル状であるもの	in which the electron stream is perpendicular to the axis of the resonator or resonators and is pencil-like before reflection	26
+H01J  25/30	・・・	電子流が共振器の軸に直角でありかつ反射される前は放射状または板状であるもの	in which the electron stream is perpendicular to the axis of the resonator or resonators and is radial or disc-like before reflection	34
+H01J  25/32	・・	複数の反射を有する管，例．コエテリア管	Tubes with plural reflection, e.g. Coeterier tube	45
+H01J  25/34	・	進行波管；進行波が空隙間にあらわれるもの	Travelling-wave tubes; Tubes in which a travelling wave is simulated at spaced gaps	825
+H01J  25/36	・・	電子流が遅延線または等価インピーダンス素子の列にそって進行する波と相互作用し，かつ電界と交わる磁界を作る磁石システムをもたない管	Tubes in which an electron stream interacts with a wave travelling along a delay line or equivalent sequence of impedance elements, and without magnet system producing an H-field crossing the E-field	169
+H01J  25/38	・・・	進行波が利用されているもの	the forward-travelling wave being utilised	529
+H01J  25/40	・・・	後進波が利用されているもの	the backward-travelling wave being utilised	147
+H01J  25/42	・・	電子流が遅延線または等価インピーダンス素子の列にそって進行する波と相互作用し，かつ電界と交わる磁界を作る磁石システムをもつもの（電子空間の周囲を進行波が完全に動くものＨ０１Ｊ２５／５０）	Tubes in which an electron stream interacts with a wave travelling along a delay line or equivalent sequence of impedance elements, and with a magnet system producing an H-field crossing the E-field(with travelling wave moving completely around the electron space H01J25/50)	196
+H01J  25/44	・・・	進行波が利用されているもの	the forward-travelling wave being utilised	220
+H01J  25/46	・・・	後進波が利用されているもの	the backward-travelling wave being utilised	120
+H01J  25/48	・・	速度の異なる２つの電子流が相互に作用し合う真空管，例．電子波管	Tubes in which two electron streams of different velocities interact with one another, e.g. electron-wave tube	59
+H01J  25/49	・・	パラメトリック原理を用いた管，例．パラメトリック増幅器用	Tubes using the parametric principle, e.g. for parametric amplification	171
+H01J  25/50	・	磁電管，すなわち電界と交わる磁界を作る磁石システムをもつ管（電子空間の周囲を進行波が完全には動かないものＨ０１Ｊ２５／４２；複数の反射または逆サイクロトロン動作で作用するものＨ０１Ｊ２５／６２，Ｈ０１Ｊ２５／６４）	Magnetrons, i.e. tubes with a magnet system producing an H-field crossing the E-field(with travelling wave not moving completely around the electron space H01J25/42; functioning with plural reflection or with reversed cyclotron action H01J25/62, H01J25/64)	1518
+H01J  25/52	・・	陰極または案内電極の周囲をどんな電子も完全に動くのを妨げない形をもつ電子空間のあるもの	with an electron space having a shape that does not prevent any electron from moving completely around the cathode or guide electrode	302
+H01J  25/54	・・・	単一の空胴または他の共振器を有するもの，例．ニュートロード管	having only one cavity or other resonator, e.g. neutrode tubes	95
+H01J  25/55	・・・・	同軸空胴磁電管［２］	Coaxial-cavity magnetrons	125
+H01J  25/56	・・・・	陽極の交さ指型構成のあるもの，例．ターベータ管	with interdigital arrangement of anodes, e.g. turbator tube	139
+H01J  25/58	・・・	多数の共振器を有するもの；集成共振器を有するもの，例．ら旋	having a number of resonators; having a composite resonator, e.g. a helix	158
+H01J  25/587	・・・・	多空胴磁電管［２］	Multi-cavity magnetrons	515
+H01J  25/593	・・・・・	ライジングサン型磁電管［２］	Rising-sun magnetrons	44
+H01J  25/60	・・	陰極または案内電極の周囲をどんな電子も完全に動くことを妨げる形を有する電子空間のあるもの；線形磁電管	with an electron space having a shape that prevents any electron from moving completely around the cathode or guide electrode; Linear magnetrons	17
+H01J  25/61	・	ハイブリッド管，すなわち速度変調管部分と進行波管部分とからなる管［２］	Hybrid tubes, i.e. tubes comprising a klystron section and a travelling-wave section	14
+H01J  25/62	・	ストロホトロン，すなわち電界と交わる磁界がありかつ複数反射の作用をする管	Strophotrons, i.e. tubes with H-field crossing the E-field and functioning with plural reflection	16
+H01J  25/64	・	タービン管，すなわち電界と交わる磁界があり，かつ逆サイクロトロン動作の作用をする管	Turbine tubes, i.e. tubes with H-field crossing the E-field and functioning with reversed cyclotron action	34
+H01J  25/66	・	電子流が自身で交わり，かつそれによって自身を遮断したりまたは干渉する管	Tubes with electron stream crossing itself and thereby interrupting, or interfering with, itself	11
+H01J  25/68	・	正格子と減速界があり発振器として動作するように特別に設計された管，例．バルクハウゼン・クルツ発振器（２次電子放射のあるものＨ０１Ｊ２５／７６）	Tubes specially designed to act as oscillator with positive grid and retarding field, e.g. for Barkhausen-Kurz oscillators(with secondary emission H01J25/76)	255
+H01J  25/70	・・	分布インダクタンスと分布キャパシタンスを有する共振器のあるもの，例．ピンチュ管	with resonator having distributed inductance and capacitance, e.g. Pintsch tube	75
+H01J  25/72	・・	定在波またはそれのかなりの部分が電極にそって作られているもの，例．クラビエル管（分布インダクタンスと分布キャパシタンスを有する共振器をもつものＨ０１Ｊ２５／７０）	in which a standing wave or a considerable part thereof is produced along an electrode, e.g. Clavier tube(with resonator having distributed inductance and capacitance H01J25/70)	39
+H01J  25/74	・	走行時間２極管発振器として動作するように特別に設計された管，例．モノトロン	Tubes specially designed to act as transit-time diode oscillators, e.g. monotrons	67
+H01J  25/76	・	動的電子増倍管，例．ファルンスワース電子増倍管，マルチパクタ	Dynamic electron-multiplier tubes, e.g. Farnsworth multiplier tube, multipactor	166
+H01J  25/78	・	共振器中の偏向によって電子流が変調される管	Tubes with electron stream modulated by deflection in a resonator	229
+H01J  27/00		イオンビーム管（Ｈ０１Ｊ２５／００，Ｈ０１Ｊ３３／００，Ｈ０１Ｊ３７／００が優先；粒子加速器Ｈ０５Ｈ）	Ion beam tubes(H01J25/00, H01J33/00, H01J37/00 take precedence; particle accelerators H05H)	706
+H01J  27/02	・	イオン源；イオン銃［３］	Ion sources; Ion guns	2503
+H01J  27/04	・・	反射放電を利用するもの，例．ペニングイオン源［３］	using reflex discharge, e.g. Penning ion sources	391
+H01J  27/06	・・・	磁界を加えないもの［３］	without applied magnetic field	31
+H01J  27/08	・・	アーク放電を利用するもの［３］	using arc discharge	1300
+H01J  27/10	・・・	デュオプラズマトロン［３］	Duoplasmatrons	128
+H01J  27/12	・・・・	膨張カップを備えたもの［３］	provided with an expansion cup	15
+H01J  27/14	・・・	加えられた磁界を利用する他のアーク放電によるイオン源［３］	Other arc discharge ion sources using an applied magnetic field	406
+H01J  27/16	・・	高周波励起，例．マイクロ波励起，を利用するもの［３］	using high-frequency excitation, e.g. microwave excitation	776
+H01J  27/18	・・・	軸方向に加えられた磁界を有するもの［３］	with an applied axial magnetic field	487
+H01J  27/20	・・	粒子の衝撃を利用するもの，例．電離器［３］	using particle bombardment, e.g. ionisers	685
+H01J  27/22	・・・	金属イオン源［３］	Metal ion sources	181
+H01J  27/24	・・	光電離を利用するもの，例．レーザビームを用いるもの［３］	using photo-ionisation, e.g. using laser beam	334
+H01J  27/26	・・	表面電離を利用するもの，例．電界効果イオン源，熱イオン源（Ｈ０１Ｊ２７／２０，Ｈ０１Ｊ２７／２４が優先）［３］	using surface ionisation, e.g. field effect ion sources, thermionic ion sources(H01J27/20, H01J27/24 take precedence)	1053
+H01J  29/00		グループＨ０１Ｊ３１／００に含まれている型の陰極線管あるいは電子ビーム管の細部	Details of cathode-ray tubes or of electron-beam tubes of the types covered by group H01J31/00	1826
+H01J  29/02	・	電極；スクリーン；それらのマウント，支持，間隔保持あるいは絶縁	Electrodes; Screens; Mounting, supporting, spacing, or insulating thereof	6359
+H01J  29/04	・・	陰極	Cathodes	4911
+H01J  29/06	・・	遮へい用スクリーン；電子流にそう入されるマスク	Screens for shielding; Masks interposed in the electron stream	625
+H01J  29/07	・・・	カラーテレビジョン管のためのシヤドウマスク［２］	Shadow masks for colour-television tubes	6017
+H01J  29/08	・・	像またはパターンが形成され，捕捉され，変換されまたは蓄積されるスクリーンに密接に関係している電極，例．２次電子収集ための蓄積管または陰極用の背板	Electrodes intimately associated with a screen on or from which an image or pattern is formed, picked-up, converted or stored, e.g. backing-plates for storage tubes or electrodes for collecting secondary electrons	575
+H01J  29/10	・・	像またはパターンが形成され，捕捉され，変換されまたは蓄積されるスクリーン	Screens on, or from, which an image or pattern is formed, picked-up, converted, or stored	552
+H01J  29/12	・・・	シャッタ操作によって光弁として働くもの，例．アイドホール用のもの	acting as light valves by shutter operation, e.g. for eidophor	99
+H01J  29/14	・・・	変色によって働くもの，例．ハロゲン化合物スクリーン	acting by discolouration, e.g. halide screen	233
+H01J  29/16	・・・	白熱発光スクリーン	Incandescent screens	55
+H01J  29/18	・・・	ルミネッセントスクリーン	Luminescent screens	1754
+H01J  29/20	・・・・	ルミネッセント材料に特徴のあるもの	characterised by the luminescent material	2044
+H01J  29/22	・・・・	ルミネッセント材料をその支持体に固着する結合剤または粘着剤に特徴のあるもの，例．うつわ	characterised by the binder or adhesive for securing the luminescent material to its support, e.g. vessel	262
+H01J  29/24	・・・・	ルミネッセント材料の支持体	Supports for luminescent material	451
+H01J  29/26	・・・・	積層されたルミネッセント層のあるもの	with superimposed luminescent layers	224
+H01J  29/28	・・・・	保護，導電あるいは反射層のあるもの	with protective, conductive, or reflective layers	1418
+H01J  29/30	・・・・	不連続に配置されたルミネッセント材料のあるもの，例．点または線状のもの	with luminescent material discontinuously arranged, e.g. in dots or lines	193
+H01J  29/32	・・・・・	異なるルミネッセント材料の点または線が隣接しているもの，例．カラーテレビジョン用	with adjacent dots or lines of different luminescent material, e.g. for colour television	1622
+H01J  29/34	・・・・	常設されたマークまたは指示を備えるもの	provided with permanent marks or references	601
+H01J  29/36	・・・	光電スクリーン；電荷蓄積スクリーン	Photoelectric screens; Charge-storage screens	129
+H01J  29/38	・・・・	電荷蓄積に用いないもの，例．光電子放射スクリーン，拡がり陰極	not using charge storage, e.g. photo-emissive screen, extended cathode	784
+H01J  29/39	・・・・	電荷蓄積スクリーン	Charge-storage screens	430
+H01J  29/41	・・・・・	２次電子放出を用いるもの，例．スーパーアイコノスコープ	using secondary emission, e.g. for supericonoscope	351
+H01J  29/43	・・・・・	光電子放射モザイクを用いるもの，例．オルシコン用，アイコノスコープ用	using photo-emissive mosaic, e.g. for orthicon, for iconoscope	245
+H01J  29/44	・・・・・	粒子放射により生じる内部の電気的効果を示すもの，例．衝撃により生じる導電性	exhibiting internal electric effects caused by particle radiation, e.g. bombardment-induced conductivity	193
+H01J  29/45	・・・・・	電磁放射により生じる内部の電気的効果を示すもの，光導電スクリーン，光誘電体スクリーン，光電圧スクリーン	exhibiting internal electric effects caused by electromagnetic radiation, e.g. photoconductive screen, photodielectric screen, photovoltaic screen	1784
+H01J  29/46	・	電子線またはビームを発生または制御するための電極装置および関連部品，例．電子光学装置	Arrangements of electrodes and associated parts for generating or controlling the ray or beam, e.g. electron-optical arrangement	1781
+H01J  29/48	・・	電子銃	Electron guns	6323
+H01J  29/50	・・・	単一の真空空間に配置された二つ以上の銃，例．多重電子線管（Ｈ０１Ｊ２９／５１が優先）［２］	two or more guns being arranged in a single vacuum space, e.g. for plural-ray tubes(H01J29/51 takes precedence)	3383
+H01J  29/51	・・・	複数のビームの集中を制御する装置［２］<br><b><ul>注</ul></b><br>グループ２９／４８は，グループ２９／５２から２９／５８に優先する。	Arrangements for controlling convergence of a plurality of beams	840
+H01J  29/52	・・	電子線またはビームの強度を制御する装置，例．変調用	Arrangements for controlling intensity of ray or beam, e.g. for modulation	521
+H01J  29/54	・・	電子線やビームのセンタリング装置	Arrangements for centring ray or beam	1643
+H01J  29/56	・・	電子線またはビームの横断面を制御する装置；電子ビームの収差補正装置，例．レンズによるもの	Arrangements for controlling cross-section of ray or beam; Arrangements for correcting aberration of beam, e.g. due to lenses	753
+H01J  29/58	・・	電子線またはビームを集束しまたは反射する装置	Arrangements for focusing or reflecting ray or beam	420
+H01J  29/60	・・・	鏡	Mirrors	57
+H01J  29/62	・・・	静電レンズ	Electrostatic lenses	928
+H01J  29/64	・・・	磁気レンズ	Magnetic lenses	454
+H01J  29/66	・・・・	電磁的手段だけを用いるもの	using electromagnetic means only	252
+H01J  29/68	・・・・	永久磁石だけを用いるもの	using permanent magnets only	278
+H01J  29/70	・・	電子線またはビームを偏向する装置	Arrangements for deflecting ray or beam	2431
+H01J  29/72	・・・	１つの直線または２つの直交する直線に沿うもの	along one straight line or along two perpendicular straight lines	273
+H01J  29/74	・・・・	電界のみによる偏向	Deflecting by electric fields only	822
+H01J  29/76	・・・・	磁界のみによる偏向	Deflecting by magnetic fields only	8183
+H01J  29/78	・・・	円，ら旋，または回転放射線にそうもの，例．レーダ表示用	along a circle, spiral, or rotating radial line, e.g. for radar display	91
+H01J  29/80	・・	主偏向システムを通過した後の電子線またはビームを制御する装置，例．後段加速または後段集束用，色切り換え用	Arrangements for controlling the ray or beam after passing the main deflection system, e.g. for post-acceleration or post-concentration, for colour switching	747
+H01J  29/81	・・・	シャドウマスクを用いるもの［３］	using shadow masks	248
+H01J  29/82	・・	電子光学またはイオン光学装置のマウント，支持，間隔保持または絶縁	Mounting, supporting, spacing, or insulating electron-optical or ion-optical arrangements	2387
+H01J  29/84	・	望ましくない粒子たとえば陰イオンまたは周縁電子除去または逸脱させるためのトラップ；速度または質量の選別装置	Traps for removing or diverting unwanted particles, e.g. negative ions or fringing electrons; Arrangements for velocity or mass selection	294
+H01J  29/86	・	うつわ；容器；真空封止	Vessels; Containers; Vacuum locks	5087
+H01J  29/87	・・	うつわまたは容器の内破の効果を防止しまたは軽減する装置［２］	Arrangements for preventing or mitigating effects of implosion of vessels or containers	2966
+H01J  29/88	・・	それらの壁上に被覆のあるもの；被覆の材料の選択	provided with coatings on the walls thereof; Selection of materials for the coatings	2321
+H01J  29/89	・・	うつわと構造的に結合された光学または写真装置	Optical or photographic arrangements structurally combined with the vessel	2808
+H01J  29/90	・	導入線装置，そのための封止	Leading-in arrangements; Seals therefor	969
+H01J  29/92	・	電気的接続のため管の部品を形成する手段	Means forming part of the tube for the purpose of providing electrical connection to it	1863
+H01J  29/94	・	ガス封入物の材料の選択；管内で所望の圧力を得るかまたは維持する手段，例．ゲッタによるもの	Selection of substances for gas fillings; Means for obtaining or maintaining the desired pressure within the tube, e.g. by gettering	1552
+H01J  29/96	・	管と構造的に結合する１つ以上の回路素子	One or more circuit elements structurally associated with the tube	755
+H01J  29/98	・	管の特定用途に使用されず，かつ他のどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	339
+H01J  31/00		陰極線管；電子ビーム管（Ｈ０１Ｊ２５／００，Ｈ０１Ｊ３３／００，Ｈ０１Ｊ３５／００，Ｈ０１Ｊ３７／００が優先；陰極線管または電子ビーム管の細部Ｈ０１Ｊ２９／００）	Cathode-ray tubes; Electron-beam tubes(H01J25/00, H01J33/00, H01J35/00, H01J37/00 take precedence;  details of cathode-ray tubes or of electron-beam tubes H01J29/00)	1147
+H01J  31/02	・	電子線またはビームによって選択的に衝撃され，その上で，それから，またはそれをこえて電子線またはビームが偏向されまたは分散される１つ以上の出力電極を有するもの	having one or more output electrodes which may be impacted selectively by the ray or beam, and onto, from, or over which the ray or beam may be deflected or de-focused	147
+H01J  31/04	・・	１つまたは２つの出力電極のみのあるもの	with only one or two output electrodes	325
+H01J  31/06	・・	３つ以上の出力電極のあるもの，例．多切り換えまたは計数のためのもの	with more than two output electrodes, e.g. for multiple switching or counting	453
+H01J  31/08	・	その上にまたはそこから像またはパターンが形成され，捕捉され，変換され，または蓄積されるスクリーンを有するもの	having a screen on or from which an image or pattern is formed, picked-up, converted, or stored	746
+H01J  31/10	・・	映像またはパターンを表示する管，すなわち電気的入力と光学的出力を有するもの；走査目的のためのフライングスポット管	Image or pattern display tubes, i.e. having electrical input and optical output; Flying-spot tubes for scanning purposes	1689
+H01J  31/12	・・・	ルミネッセントスクリーンのあるもの	with luminescent screen	10172
+H01J  31/14	・・・・	マジックアイまたは近似の同調指示器	Magic-eye or analogous tuning indicators	232
+H01J  31/15	・・・・	ルミネツセント陽極セグメントへ選択的に照射される光線またはビームを有するもの［３］	with ray or beam selectively directed to luminescent anode segments	5519
+H01J  31/16	・・・・	多数の選択的表示信号のあるマスクを有するもの，例．ニューメロスコープ	with mask carrying a number of selectively displayable signs, e.g. numeroscope	162
+H01J  31/18	・・・・	像が格子状電荷蓄積スクリーン上に電子線またはビームによって書かれ，そしてルミネッセントスクリーンを衝撃する前にこの電子線またはビームがこのスクリーンを通過して影響を与えるもの，例．直視型蓄積管	with image written by a ray or beam on a grid-like charge-accumulating screen, and with a ray or beam passing through, and influenced by, this screen before striking the luminescent screen, e.g. direct-view storage tube	261
+H01J  31/20	・・・	２色以上で像やパターンを表示するもの	for displaying images or patterns in two or more colours	3540
+H01J  31/22	・・・	立体表示用のもの	for stereoscopic displays	69
+H01J  31/24	・・・	シャッタ操作によって光弁として働くスクリーンのあるもの，例，アイドホール	with screen acting as light valve by shutter operation, e.g. eidophor	167
+H01J  31/26	・・	可視光線の入力と電気出力を有する撮像管（限定された電子ビームなしで光電子放射スクリーンを光線で走査する管Ｈ０１Ｊ４０／２０）	Image pick-up tubes having an input of visible light and electric output(tubes without defined electron beams and having a light ray scanning a photo-emissive screen H01J40/20)	700
+H01J  31/28	・・・	映像スクリーンを電子線で走査するもの	with electron ray scanning the image screen	811
+H01J  31/30	・・・・	陽極電位としてのスクリーン電位の調整をするもの，例．アイコノスコープ	having regulation of screen potential at anode potential, e.g. iconoscope	121
+H01J  31/32	・・・・・	映像増幅部のある管，例．イメージ・アイコノスコープ，スーパーアイコノスコープ	Tubes with image-amplification section, e.g. image-iconoscope, supericonoscope	110
+H01J  31/34	・・・・	陰極電位としてのスクリーン電位の調整をするもの，例．オルシコン	having regulation of screen potential at cathode potential, e.g. orthicon	90
+H01J  31/36	・・・・・	映像増幅部のある管，例．イメージオルシコン	Tubes with image-amplification section, e.g. image-orthicon	264
+H01J  31/38	・・・・・	光導電スクリーンのある管，例．ビディコン	Tubes with photoconductive screen, e.g. vidicon	1217
+H01J  31/40	・・・・	出力電極を衝撃する前に電子線が通過し影響される格子状映像膜を有するもの，例．「３極管動作」を有するもの	having grid-like image screen through which the electron ray passes and by which the ray is influenced before striking the output electrode, i.e. having "triode action"	53
+H01J  31/42	・・・	固定した探針の後で全体としてあたかも走査してみえるように偏向される複合電子ビームを発生する映像スクリーンをもつもの，例．ファルンスワース撮像管	with image screen generating a composite electron beam which is deflected as a whole past a stationary probe to simulate a scanning effect, e.g. Farnsworth pick-up tube	107
+H01J  31/44	・・・・	映像増幅部のある管	Tubes with image-amplification section	54
+H01J  31/46	・・・	映像の色と強度を電気的出力として表わす管	Tubes in which electrical output represents both intensity and colour of image	741
+H01J  31/48	・・・	真空空間にある電子増倍装置によって影響される出力の増幅のある真空管	Tubes with amplification of output effected by electron-multiplier arrangements within the vacuum space	159
+H01J  31/49	・・	可視光線以外の電磁放射の入力および電気的出力を有する撮像管，例．Ｘ線入力用，赤外線入力用	Pick-up tubes adapted for an input of electromagnetic radiation other than visible light and having an electric output, e.g. for an input of X-rays, for an input of infrared radiation	513
+H01J  31/495	・・	音波，超音波または機械的振動の入力および電気的出力を有する撮像管	Pick-up tubes adapted for an input of sonic, ultrasonic, or mechanical vibrations and having an electric output	70
+H01J  31/50	・・	映像変換または映像増幅管，すなわち光学的，Ｘ線または類似の入力および光学的出力を有するもの	Image-conversion or image-amplification tubes, i.e. having optical, X-ray, or analogous input, and optical output	3136
+H01J  31/52	・・・	ルミネッセント出力スクリーンを衝撃する前に電子線またはビームが通過し影響される格子状映像スクリーンを有するもの，すなわち「３極管動作」を有するもの	having grid-like image screen through which the electron ray or beam passes and by which the ray or beam is influenced before striking the luminescent output screen, i.e. having "triode action"	76
+H01J  31/54	・・・	電子線またはビームが映像入力スクリーンにより映像出力スクリーン上に反射されるもの	in which the electron ray or beam is reflected by the image input screen on to the image output screen	28
+H01J  31/56	・・・	２色以上の色で映像変換させまた増幅するもの	for converting or amplifying images in two or more colours	54
+H01J  31/58	・・	像または情報パターンの蓄積のためのまたはテレビジョンまたは同様の映像の鮮明度の変換のための管，すなわち電気的入力と電気的出力を有するもの	Tubes for storage of image or information pattern or for conversion of definition of television or like images, i.e. having electrical input and electrical output	283
+H01J  31/60	・・・	スクリーンの分離された表面素子上に電子線を選択的にか連続的にか偏向する手段を有するもの（回路だけのものＨ０１Ｊ２９／９８）	having means for deflecting, either selectively or sequentially, an electron ray on to separate surface elements of the screen(by circuitry alone H01J29/98)	234
+H01J  31/62	・・・・	分離された読み取り線および書き込み線のあるもの	with separate reading and writing rays	56
+H01J  31/64	・・・・・	スクリーンの反対側にあるもの，例．鮮明度の変換のためのもの	on opposite sides of screen, e.g. for conversion of definition	113
+H01J  31/66	・・・	一様な電子ビームの選択された横断面要素のものの全部をスクリーンの対応する素子に到達せしめるための手段を有するもの，例．セレクトロン	having means for allowing all but selected cross-section elements of a homogeneous electron beam to reach corresponding elements of the screen, e.g. selectron	7
+H01J  31/68	・・・	情報パターンが２色以上で表現されるもの	in which the information pattern represents two or more colours	8
+H01J  33/00		うつわから電子またはイオンを取り出す設備をもった放電管（粒子加速器Ｈ０５Ｈ）；レナード管	Discharge tubes with provision for emergence of electrons or ions from the vessel(particle accelerators H05H);Lenard tubes	419
+H01J  33/02	・	細部	Details	143
+H01J  33/04	・・	窓	Windows	257
+H01J  35/00		Ｘ線管	X-ray tubes	1723
+H01J  35/02	・	細部	Details	1304
+H01J  35/04	・・	電極	Electrodes	792
+H01J  35/06	・・・	陰極	Cathodes	2401
+H01J  35/08	・・・	陽極；対陰極	Anodes; Anticathodes	2156
+H01J  35/10	・・・・	回転陽極；陽極を回転するための装置；冷却される回転陽極	Rotary anodes; Arrangements for rotating anodes; Cooling rotary anodes	3524
+H01J  35/12	・・・・	冷却される非回転陽極	Cooling non-rotary anodes	747
+H01J  35/14	・・	陰極線を集中，集束または指向する装置	Arrangements for concentrating, focusing, or directing the cathode ray	1746
+H01J  35/16	・・	うつわ；容器；それらと結合した遮へい	Vessels; Containers; Shields associated therewith	1889
+H01J  35/18	・・・	窓	Windows	943
+H01J  35/20	・・	ガス封入物の物質の選択；管内に所望の圧力を得るかまたは保持する手段，例．ゲッタによるもの	Selection of substances for gas fillings; Means for obtaining or maintaining the desired pressure within the tube, e.g. by gettering	342
+H01J  35/22	・	極めて短い時間に極めて大きい電流を流すように特に設計されたもの，例．フラッシュ作動のためのもの	specially designed for passing a very high current for a very short time, e.g. for flash operation	457
+H01J  35/24	・	陽極または対陰極上で陰極線が衝撃する点がその表面上において可動する管	Tubes wherein the point of impact of the cathode ray on the anode or anticathode is movable relative to the surface thereof	557
+H01J  35/26	・・	陽極または対陰極の回転によるもの	by rotation of the anode or anticathode	404
+H01J  35/28	・・	陽極または対陰極の振動，揺動，往復運動あるいは旋転斜盤運動によるもの	by vibration, oscillation, reciprocation, or swash-plate motion of the anode or anticathode	113
+H01J  35/30	・・	陰極線の偏向によるもの	by deflection of the cathode ray	601
+H01J  35/32	・	Ｘ線が，管の末端またはその一部においてまたはその近くで発生される管であって，その管またはその一部を小さい孔または空洞に入れやすくするため小さい横断面をもつもの	Tubes wherein the X-rays are produced at or near the end of the tube or a part thereof, which tube or part has a small cross-section to facilitate introduction into a small hole or cavity	257
+H01J  37/00		放電にさらされる物体または材料を導入する設備を有する電子管，例，その試験や処理をするためのもの（Ｈ０１Ｊ３３／００，Ｈ０１Ｊ４０／００，Ｈ０１Ｊ４１／００，Ｈ０１Ｊ４７／００，Ｈ０１Ｊ４９／００が優先）［２，５］	Discharge tubes with provision for introducing objects or material to be exposed to the discharge, e.g. for the purpose of examination or processing thereof(H01J33/00, H01J40/00, H01J41/00, H01J47/00, H01J49/00 take precedence)	1105
+H01J  37/02	・	細部	Details	1879
+H01J  37/04	・・	電極装置および放電を発生しまたは制御するための関連部品，例．電子光学装置，イオン光学装置	Arrangements of electrodes and associated parts for generating or controlling the discharge, e.g. electron-optical arrangement, ion-optical arrangement	3660
+H01J  37/05	・・・	電子またはイオンをそれらのエネルギーに応じて分離するための電子光学的またはイオン光学的装置（粒子分離管Ｈ０１Ｊ４９／００）［３］	Electron- or ion-optical arrangements for separating electrons or ions according to their energy(particle separator tubes H01J49/00)	1252
+H01J  37/06	・・・	電子源；電子銃	Electron sources; Electron guns	2677
+H01J  37/063	・・・・	ビームを形成するための電極の幾何学的配置［３］	Geometrical arrangement of electrodes for beam-forming	424
+H01J  37/065	・・・・	銃の構造またはそのための部品（Ｈ０１Ｊ３７／０６７〜Ｈ０１Ｊ３７／０７７が優先）［３］	Construction of guns or parts thereof(H01J37/067 to H01J37/077  take precedence)	558
+H01J  37/067	・・・・	銃の部品の取り換え，電極間の相互調整（Ｈ０１Ｊ３７／０７３〜Ｈ０１Ｊ３７／０７７が優先；真空封止Ｈ０１Ｊ３７／１８）［３］	Replacing parts of guns; Mutual adjustment of electrodes(H01J37/073 to H01J37/077  take precedence; vacuum locks H01J37/18)	225
+H01J  37/07	・・・・	熱効果または電界，磁界によって生じる有害な影響の除去［３］	Eliminating deleterious effects due to thermal effects or electric or magnetic fields (H01J37/073 to H01J37/077  take precedence)	222
+H01J  37/073	・・・・	電界放出，光電子放出，または２次電子放出による電子源を用いる電子銃［３］	Electron guns using field emission, photo emission, or secondary emission electron sources	1522
+H01J  37/075	・・・・	粒子の衝撃によりまたは照射により，例．レーザにより，熱せられた陰極からの熱電子放出を利用する電子銃［３］	Electron guns using thermionic emission from cathodes heated by particle bombardment or by irradiation, e.g. by laser	246
+H01J  37/077	・・・・	電子源としてガスまたは蒸気の放電を利用する電子銃［３］	Electron guns using discharge in gases or vapours as electron sources	311
+H01J  37/08	・・・	イオン源；イオン銃	Ion sources; Ion guns	6075
+H01J  37/09	・・・	ダイヤフラム；電子光学的またはイオン光学的装置と組合わされた遮蔽体，擾乱界の補償［３］	Diaphragms; Shields associated with electron- or ion-optical arrangements; Compensation of disturbing fields	2129
+H01J  37/10	・・・	レンズ	Lenses	677
+H01J  37/12	・・・・	静電的なもの	electrostatic	1037
+H01J  37/14	・・・・	磁気的なもの	magnetic	521
+H01J  37/141	・・・・・	電磁レンズ［３］	Electromagnetic lenses	1738
+H01J  37/143	・・・・・	永久磁石レンズ［３］	Permanent magnetic lenses	137
+H01J  37/145	・・・・	静電レンズと電磁レンズの組合わせ［３］	Combinations of electrostatic and magnetic lenses	296
+H01J  37/147	・・・	希望する通路に沿って放電を直進しまたは偏向するための装置（レンズＨ０１Ｊ３７／１０）［２］	Arrangements for directing or deflecting the discharge along a desired path(lenses H01J37/10)	4717
+H01J  37/15	・・・・	電子光学的またはイオン光学的構成体の外部からの機械的調整（Ｈ０１Ｊ３７／０６７，Ｈ０１Ｊ３７／２０が優先）［３］	External mechanical adjustment of electron- or ion-optical components(H01J37/067, H01J37/20 take precedence)	346
+H01J  37/153	・・・	像欠陥を補正するための電子光学的またはイオン光学的装置，例．スチグマトール［２］	Electron-optical or ion-optical arrangements for the correction of image defects, e.g. stigmators	1575
+H01J  37/16	・・	うつわ；容器	Vessels; Containers	1325
+H01J  37/18	・・	真空封止	Vacuum locks	2365
+H01J  37/20	・・	物体または材料を支持しまたは位置づける手段；支持体に関連した隔膜壁またはレンズを調節する手段	Means for supporting or positioning the object or the material; Means for adjusting diaphragms or lenses associated with the support	10094
+H01J  37/21	・・	焦点を調整するための手段［２］	Means for adjusting the focus	1556
+H01J  37/22	・・	管と関連した光学または写真装置	Optical or photographic arrangements associated with the tube	6222
+H01J  37/24	・・	管の特定用途に使用されず，かつ他のどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	1173
+H01J  37/244	・・	検出器；関連の構成要素またはそのための回路［３］	Detectors; Associated components or circuits therefor	5232
+H01J  37/248	・・	高電圧共給と組合わせられた構成要素［３］	Components associated with high voltage supply	1095
+H01J  37/252	・	電子またはイオンによるスポット分析のための管；マイクロアナライザー［３］	Tubes for spot-analysing by electron or ion beams; Microanalysers	2270
+H01J  37/256	・・	走査ビームを用いるもの［３］	using scanning beams	618
+H01J  37/26	・	電子またはイオン顕微鏡；電子またはイオン回折管［２］	Electron or ion microscopes; Electron- or ion-diffraction tubes	6045
+H01J  37/27	・・	陰影顕微鏡［３］	Shadow microscopy	33
+H01J  37/28	・・	走査ビームを有するもの	with scanning beams	10553
+H01J  37/285	・・	放射型顕微鏡，例．電界放射型顕微鏡［２］	Emission microscopes, e.g. field-emission microscopes	473
+H01J  37/29	・・	反射型顕微鏡［２］	Reflection microscopes	494
+H01J  37/295	・・	電子またはイオン回折管［２］	Electron- or ion-diffraction tubes	527
+H01J  37/30	・	物体の局所的な処理のための電子ビームまたはイオンビーム管	Electron-beam or ion-beam tubes for localised treatment of objects	4506
+H01J  37/301	・・	相違する圧力領域間を通過するビームを得るための装置［３］	Arrangements enabling beams to pass between regions of different pressure	224
+H01J  37/302	・・	外部情報による管の制御，例．プログラム制御（Ｈ０１Ｊ３７／３０４が優先）［３］	Controlling tubes by external information, e.g. programme control(H01J37/304 takes precedence)	1292
+H01J  37/304	・・	物体からの情報，例．訂正信号，による管の制御［３］	Controlling tubes by information coming from the objects, e.g. correction signals	1992
+H01J  37/305	・・	鋳造する，溶かす，脱水するまたはエッチングするためのもの［２］	for casting, melting, evaporating, or etching	6166
+H01J  37/31	・・	切断または穴あけのためのもの［２］	for cutting or drilling	351
+H01J  37/315	・・	溶接するためのもの［２］	for welding	462
+H01J  37/317	・・	物体の特性をかえるためのものまたはその上に薄層を形成するためのもの，例．イオン注入（Ｈ０１Ｊ３７／３６が優先）［３］	for changing properties of the objects or for applying thin layers thereon, e.g. ion implantation(H01J37/36 takes precedence)	11679
+H01J  37/32	・	ガス入り放電管（放電によって加熱されるものＨ０５Ｂ）	Gas-filled discharge tubes(heating by discharge H05B)	27902
+H01J  37/34	・・	陰極スパッタをともなって動作するもの（Ｈ０１Ｊ３７／３６が優先）［３］	operating with cathodic sputtering(H01J37/36 takes precedence)	5497
+H01J  37/36	・・	放電部へ導入された，例．蒸発によって導入された，物質のイオンでメッキする間に表面をきれいにするためのもの［３］	for cleaning surfaces while plating with ions of materials introduced into the discharge, e.g. introduced by evaporation	266
+H01J  40/00		ガスの電離を含まない光電管（Ｈ０１Ｊ４９／００が優先）［３］	Photoelectric discharge tubes not involving the ionisation of a gas(H01J49/00 takes precedence)	443
+H01J  40/02	・	細部［３］	Details	252
+H01J  40/04	・・	電極［３］	Electrodes	358
+H01J  40/06	・・・	光電子放出陰極［３］	Photo-emissive cathodes	806
+H01J  40/08	・・	放電を制御するための磁気的手段［３］	Magnetic means for controlling discharge	5
+H01J  40/10	・・	ガス封入物の物質の選択［３］	Selection of substances for gas fillings	17
+H01J  40/12	・・	管と構造的に結合する１つ以上の回路要素［３］	One or more circuit elements structurally associated with the tube	43
+H01J  40/14	・・	管の特定用途に使用されず，かつ他に分類されない回路装置［３］	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	2454
+H01J  40/16	・	光電子放出陰極をもつもの，例．アルカリ光電池（２次電子放出動作のあるものＨ０１Ｊ４３／００）［３］	having photo-emissive cathode, e.g. alkaline photoelectric cell(operating with secondary emission H01J43/00)	504
+H01J  40/18	・・	管の感度に影響を与えるルミネッセント被覆を有するもの，例．入力波長を変換することによるもの［３］	with luminescent coatings for influencing the sensitivity of the tube, e.g. by converting the input wavelength	55
+H01J  40/20	・・	光電子放出スクリーンを光線が走査するもの［３］	wherein a light-ray scans a photo-emissive screen	5
+H01J  41/00		ガスの圧力を測定するための放電管およびそれに不可欠な手段；イオンの拡散により排気するための放電管	Discharge tubes and means integral therewith for measuring gas pressure; Discharge tubes for evacuation by diffusion of ions	88
+H01J  41/02	・	ガスの圧力を測定するための放電管およびそれに不可欠な手段［２］	Discharge tubes and means integral therewith for measuring gas pressure	135
+H01J  41/04	・・	熱電子陰極による電離を用いるもの［２］	with ionisation by means of thermionic cathodes	357
+H01J  41/06	・・	冷陰極による電離を用いるもの［２］	with ionisation by means of cold cathodes	249
+H01J  41/08	・・	放射性物質による電離を用いるもの，例．アルファトロン［２］	with ionisation by means of radioactive substances, e.g. alphatrons	82
+H01J  41/10	・・	粒子分光型のもの（粒子分光器一般Ｈ０１Ｊ４９／００）［２］	of particle-spectrometer type(particle spectrometers in general H01J49/00)	21
+H01J  41/12	・	イオンの拡散により排気するための放電管，例．イオンポンプ，ゲッターイオンポンプ［２］	Discharge tubes for evacuating by diffusion of ions, e.g. ion pumps, getter ion pumps	501
+H01J  41/14	・・	熱電子陰極による電離を用いるもの［２］	with ionisation by means of thermionic cathodes	73
+H01J  41/16	・・・	ゲッター物質を用いるもの［２］	using gettering substances	185
+H01J  41/18	・・	冷陰極による電離を用いるもの［２］	with ionisation by means of cold cathodes	135
+H01J  41/20	・・・	ゲッター物質を用いるもの［２］	using gettering substances	405
+H01J  43/00		二次電子放出管；電子増幅管（動的電子増幅管Ｈ０１Ｊ２５／７６）	Secondary-emission tubes; Electron-multiplier tubes(dynamic electron-multiplier tubes H01J25/76)	277
+H01J  43/02	・	内部において１つまたはいくつかの電極が２次電子放出電極であるような管	Tubes in which one or a few electrodes are secondary-electron-emitting electrodes	327
+H01J  43/04	・	電子増倍器	Electron multipliers	766
+H01J  43/06	・・	電極装置	Electrode arrangements	283
+H01J  43/08	・・・	陰極装置（光電陰極の構造Ｈ０１Ｊ４０／０６，Ｈ０１Ｊ４０／１６，Ｈ０１Ｊ４７／００，Ｈ０１Ｊ４９／０８）	Cathode arrangements(construction of photo cathodes H01J40/06, H01J40/16, H01J47/00, H01J49/08)	299
+H01J  43/10	・・・	２次電子放出電極（Ｈ０１Ｊ４３／２４，Ｈ０１Ｊ４３／２６が優先）	Dynodes(H01J43/24, H01J43/26 take precedence)	228
+H01J  43/12	・・・	陽極装置	Anode arrangements	142
+H01J  43/14	・・・	磁界による電子ビームの制御	Control of electron beam by magnetic field	23
+H01J  43/16	・・・	事実上１つの２次電子放出電極を用いている電極装置	Electrode arrangements using essentially one dynode	60
+H01J  43/18	・・・	事実上２つ以上の２次電子放出電極を用いている電極装置	Electrode arrangements using essentially more than one dynode	217
+H01J  43/20	・・・・	板状の材料で構成された２次電子放出電極，例．平板，曲板	Dynodes consisting of sheet material, e.g. plane, bent	332
+H01J  43/22	・・・・	電子浸透材料で構成された２次電子放出電極，例．箔，格子，管，ベニス風すだれ	Dynodes consisting of electron-permeable material, e.g. foil, grid, tube, venetian blind	303
+H01J  43/24	・・・・	その表面に沿った電位傾度を有する２次電子放出電極	Dynodes having potential gradient along their surfaces	915
+H01J  43/26	・・・・	箱型２次電子放出電極	Box dynodes	48
+H01J  43/28	・・	うつわ；窓；スクリーン；不必要の放電または電流の抑制	Vessels; Windows; Screens; Suppressing undesired discharges or currents	446
+H01J  43/30	・・	管の特定用途に使用されず，かつ，他のどの分類にも属しない回路装置	Circuit arrangements not adapted to a particular application of the tube and not otherwise provided for	541
+H01J  45/00		熱電子発生装置として作用する電子管	Discharge tubes functioning as thermionic generators	844
+H01J  47/00		放射線または粒子の，存在，強度，密度またはエネルギーを決定するための管（ガスの電離を含まない光電管Ｈ０１Ｊ４０／００）［３］	Tubes for determining the presence, intensity, density or energy of radiation or particles(photoelectric discharge tubes not involving the ionisation of a gas H01J40/00)	646
+H01J  47/02	・	電離箱［３］	Ionisation chambers	1433
+H01J  47/04	・・	容量型電離箱，例．電位計として用いられる電極［３］	Capacitive ionisation chambers, e.g. the electrodes of which are used as electrometers	262
+H01J  47/06	・	比例計数管［３］	Proportional counter tubes	522
+H01J  47/08	・	ガイガーミユラー計数管［３］	Geiger-M$00FCller counter tubes	484
+H01J  47/10	・	スパークカウンター（Ｈ０１Ｊ４７／１４が優先；スパークギャップＨ０１Ｔ）［３］	Spark counters(H01J47/14 takes precedence; spark gaps H01T)	76
+H01J  47/12	・	中性子検出管，例．ＢＦ↓３管［３］	Neutron detector tubes, e.g. BF<sub>3</sub> tubes	339
+H01J  47/14	・	平行電極型スパークチェンバーまたはストリーマーチェンバー；線型スパークチェンバーまたはストリーマーチェンバー［３］	Parallel electrode spark or streamer chambers; Wire spark or streamer chambers	55
+H01J  47/16	・・	個々のワイヤーの読出しによって特徴づけられるもの［３］	characterised by readout of each individual wire	7
+H01J  47/18	・・・	読み出しが電気的なもの（Ｈ０１Ｊ４７／２０が優先）［３］	the readout being electrical(H01J47/20 takes precedence)	7
+H01J  47/20	・・・	電気的または機械的遅延線を用いる読み出し，例．磁わい遅延線［３］	the readout employing electrical or mechanical delay lines, e.g. magnetostrictive delay lines	5
+H01J  47/22	・・	他の形式の読み出しによって特徴づけられるもの［３］	characterised by another type of readout	5
+H01J  47/24	・・・	読み出しが音響的なもの［３］	the readout being acoustical	
+H01J  47/26	・・・	読み出しが光学的なもの［３］	the readout being optical	14
+H01J  49/00		粒子分析器または粒子分離管［３］<br><b><ul>注</ul></b><br>粒子分光器の分類において，分光技術と分光写真技術との間に区別はなく，その差は，分光技術は検知方法が電気的であるのに対し，分光写真技術は検知方法が写真フイルムによるものである点のみである。［３］	Particle spectrometers or separator tubes; <br><br><b><u>Note(s)</u></b><br><br>In classifying particle separators, no distinction is made between spectrometry and spectrography, the difference being only in the manner of detection which in the first case is electrical and in the second case is by means of a photographic film.	6030
+H01J  49/02	・	細部［３］	Details	3374
+H01J  49/04	・・	分析材料導入取り出しのための装置，例．真空封止；電子光学的またはイオン光学的構成体の外部調節装置［３］	Arrangements for introducing or extracting samples to be analysed, e.g. vacuum locks; Arrangements for external adjustment of electron- or ion-optical components	6454
+H01J  49/06	・・	電子光学的またはイオン光学的装置（Ｈ０１Ｊ４９／０４が優先）［３］	Electron- or ion-optical arrangements(H01J49/04 takes precedence)	3452
+H01J  49/08	・・	電子源，例．光電子，２次電子またはオージェ電子を発生するためのもの［３］	Electron sources, e.g. for generating photo-electrons, secondary electrons or Auger electrons	180
+H01J  49/10	・・	イオン源；イオン銃［３］	Ion sources; Ion guns	4136
+H01J  49/12	・・・	アーク放電を利用するもの，例．デュオプラズマ型のもの［３］	using an arc discharge, e.g. of the duoplasmatron type	404
+H01J  49/14	・・・	粒子の衝撃を利用するもの，例．電離箱［３］	using particle bombardment, e.g. ionisation chambers	1603
+H01J  49/16	・・・	表面電離を利用するもの，例．電界放出，熱放出または光放出［３］	using surface ionisation, e.g. field-, thermionic- or photo-emission	3072
+H01J  49/18	・・・	スパーク電離を利用するもの［３］	using spark ionisation	95
+H01J  49/20	・・	磁気偏向［３］	Magnetic deflection	284
+H01J  49/22	・・	静電偏向［３］	Electrostatic deflection	284
+H01J  49/24	・・	真空システム，例．所望の圧力を保持するためのもの［３］	Vacuum systems, e.g. maintaining desired pressures	771
+H01J  49/26	・	質量分析器または質量分離管［３］	Mass spectrometers or separator tubes	5697
+H01J  49/28	・・	静的分析器［３］	Static spectrometers	515
+H01J  49/30	・・・	磁気的分析器を用いるもの［３］	using magnetic analysers	728
+H01J  49/32	・・・	二重集束を用いるもの［３］	using double focusing	432
+H01J  49/34	・・	動的分析器［３］	Dynamic spectrometers	409
+H01J  49/36	・・・	ＲＦ分析器，例．ベネット型分析器；レッドヘッド型分析器［３］	Radio frequency spectrometers, e.g. Bennett-type spectrometers;  Redhead-type spectrometers	227
+H01J  49/38	・・・・	オメガトロン［３］	Omegatrons	325
+H01J  49/40	・・・	飛行時間型分析器（Ｈ０１Ｊ４９／３６が優先）［３］	Time-of-flight spectrometers(H01J49/36 takes precedence)	3561
+H01J  49/42	・・・	走行安定型分析器，例．単極，四重極，多重極；ファービトロン［３］	Stability-of-path spectrometers, e.g. monopole, quadrupole, multipole, farvitrons	3948
+H01J  49/44	・	エネルギー分析器，例．アルファー線分析器，ベーター線分析器［３］	Energy spectrometers, e.g. alpha-, beta-spectrometers	723
+H01J  49/46	・・	静的分析器［３］	Static spectrometers	182
+H01J  49/48	・・・	静電分析器を用いるもの，例．円筒形分離器，ウイーンフィルター［３］	using electrostatic analysers, e.g. cylindrical sector, Wien filter	539
+H01J  61/00		ガス放電または蒸気放電ランプ（消耗する電極をもつアーク灯Ｈ０５Ｂ；エレクトロルミネッセント灯Ｈ０５Ｂ）	Gas-discharge or vapour-discharge lamps(arc lamps with consumable electrodes H05B; electroluminescent lamps H05B)	2286
+H01J  61/02	・	細部	Details	2334
+H01J  61/04	・・	電極（点弧用のものＨ０１Ｊ６１／５４）；スクリーン；シールド	Electrodes(for igniting H01J61/54);Screens; Shields	1819
+H01J  61/06	・・・	主電極	Main electrodes	1654
+H01J  61/067	・・・・	低圧放電ランプのためのもの［２］	for low-pressure discharge lamps	2809
+H01J  61/073	・・・・	高圧放電ランプのためのもの［２］	for high-pressure discharge lamps	2863
+H01J  61/09	・・・・	ホロー陰極［２］	Hollow cathodes	444
+H01J  61/10	・・・	放電に影響を与えるシールド，スクリーンあるいは案内	Shield, screens, or guides for influencing the discharge	1170
+H01J  61/12	・・	封入物の物質の選択；特定の動作圧力または温度	Selection of substances for gas fillings; Specified operating pressure or temperature	1769
+H01J  61/14	・・・	主成分として１つ以上の炭素化合物をもつもの	having one or more carbon compounds as the principal constituents	52
+H01J  61/16	・・・	主成分としてヘリウム，アルゴン，ネオン，クリプトンまたはキセノンを含むもの	having helium, argon, neon, krypton, or xenon as the principle constituent	1760
+H01J  61/18	・・・	主成分として金属蒸気を含むもの	having a metallic vapour as the principal constituent	787
+H01J  61/20	・・・・	水銀蒸気	mercury vapour	2319
+H01J  61/22	・・・・	アルカリ金属の蒸気	vapour of an alkali metal	396
+H01J  61/24	・・	うつわ内に所望の圧力を得るかまたは保持する手段	Means for obtaining or maintaining the desired pressure within the vessel	1140
+H01J  61/26	・・・	ガスを吸収または吸着する手段，例．ゲッタによるもの；外囲器の黒化を防止する手段	Means for absorbing or adsorbing gas, e.g. by gettering; Means for preventing blackening of the envelope	922
+H01J  61/28	・・・	ランプの動作中にガスまたは蒸気を発生し，導入しあるいは捕充する手段	Means for producing, introducing, or replenishing gas or vapour during operation of the lamp	1215
+H01J  61/30	・・	うつわ，容器	Vessels; Containers	8219
+H01J  61/32	・・・	長さ方向に特殊な形状となっているもの，例．広告を目的としたもの	Special longitudinal shape, e.g. for advertising purposes	2356
+H01J  61/33	・・・	横断面が特殊な形状となっているもの，例．クールスポットを得るためのもの	Special shape of cross-section, e.g. for producing cool spot	920
+H01J  61/34	・・・	２重壁のうつわまたは容器	Double-wall vessels or containers	2983
+H01J  61/35	・・・	その壁の上に被覆のあるもの；被覆の材料の選択（色彩のある被覆を用いたものＨ０１Ｊ６１／４０；ルミネッセント被覆を用いたものＨ０１Ｊ６１／４２）	provided with coatings on the walls thereof; Selection of materials for the coatings (using coloured coatings H01J61/40;  using luminescent coatings H01J61/42)	4268
+H01J  61/36	・・	うつわの部品間の封止；導入線の封止；導入線	Seals between parts of vessels; Seals for leading-in conductors; Leading-in conductors	6226
+H01J  61/38	・・	光の色彩または波長に影響を与えるための装置	Devices for influencing the colour or wavelength of the light	393
+H01J  61/40	・・・	光のフィルタによるもの；容器内または容器外の色彩の被覆によるもの	by light-filters; by coloured coatings in or on the envelope	982
+H01J  61/42	・・・	ルミネッセンスにより光の波長を変化させることによるもの	by transforming the wavelength of the light by luminescence	1294
+H01J  61/44	・・・・	ルミネッセント材料によって特徴づけられる装置	Devices characterised by the luminescent material	2481
+H01J  61/46	・・・・	ルミネッセント材料の接着剤または他のルミネッセントでない組成に特徴のある装置，例．所望の流動性や乾燥性を得るためのもの	Devices characterised by the binder or other non-luminescent constituent of the luminescent material, e.g. for obtaining desired pouring or drying properties	546
+H01J  61/48	・・・・	異なったルミネッセント材料を別々に被覆したもの	Separate coatings of different luminous materials	379
+H01J  61/50	・・	容器の破壊による爆発の危険を減少するための容器内部の補助部品または固型材，例．鉱山用	Auxiliary parts or solid material within the envelope for reducing risk of explosion upon breakage of the envelope, e.g. for use in mines	813
+H01J  61/52	・・	冷却装置；加熱装置；放電空間のガスまたは蒸気を循環させる手段	Cooling arrangements; Heating arrangements; Means for circulating gas or vapour within the discharge space	4226
+H01J  61/54	・・	点弧装置，例．始動のためイオン化を促進するもの	Igniting arrangements, e.g. promoting ionisation for starting	3652
+H01J  61/56	・・	ランプと構造的に結合した１つ以上の回路素子	One or more circuit elements structurally associated with the lamp	2862
+H01J  61/58	・	液体陽極と液体陰極の両方をもつランプ	Lamps with both liquid anode and liquid cathode	101
+H01J  61/60	・	点弧前に放電空間が実質的に水銀で満たされているランプ	Lamps in which the discharge space is substantially filled with mercury before ignition	46
+H01J  61/62	・	ガス状の陰極をもつランプ，例．プラズマ陰極	Lamps with gaseous, e.g. plasma cathode	64
+H01J  61/64	・	陰極グローランプ	Cathode glow lamps	404
+H01J  61/66	・・	１個以上の特殊な形の陰極をもつもの，例．広告を目的としたもの	having one or more specially shaped cathodes, e.g. for advertising purposes	55
+H01J  61/68	・	主放電が電流供給ガイドの部分間にあるランプ，例．ホローランプ	Lamps in which the main discharge is between parts of a current-carrying guide, e.g. halo lamp	261
+H01J  61/70	・	低圧の収斂されない放電をもつランプ	Lamps with low-pressure unconstricted discharge	357
+H01J  61/72	・・	主に容易に蒸発する金属蒸気の光放射封入物をもつもの，例．水銀	having a main light-emitting filling of easily vaporisable metal vapour, e.g. mercury	1541
+H01J  61/74	・・	主に蒸発性の少ない金属蒸気の光放射封入物をもつもの，例．ナトリウム	having a main light-emitting filling of difficult vaporisable metal vapour, e.g. sodium	94
+H01J  61/76	・・	永久ガスのみの封入物をもつもの	having a filling of permanent gas or gases only	193
+H01J  61/78	・・・	冷陰極をもつもの；放電によってのみ加熱される陰極をもつもの，例．広告用高電圧ランプ	with cold cathode; with cathode heated only by discharge, e.g. high-tension lamp for advertising	311
+H01J  61/80	・・	間欠的操作にのみ適したランプ，例．フラッシュランプ	Lamps suitable only for intermittent operation, e.g. flash lamp	398
+H01J  61/82	・	高圧の収斂されない放電をもつランプ	Lamps with high-pressure unconstricted discharge	1459
+H01J  61/84	・	高圧により収斂された放電をもつランプ	Lamps with discharge constricted by high pressure	196
+H01J  61/86	・・	近接した電極間の空間によって付加的に収斂される放電をもつもの，例．光学的投射用のもの	with discharge additionally constricted by close spacing of electrodes, e.g. for optical projection	1012
+H01J  61/88	・・	容器によって付加的に収斂された放電をもつもの	with discharge additionally constricted by envelope	1658
+H01J  61/90	・・	間欠的操作にのみ適したランプ，例．フラッシュランプ	Lamps suitable only for intermittent operation, e.g. flash lamp	317
+H01J  61/92	・	２つ以上の主放電路をもつランプ	Lamps with more than one main discharge path	729
+H01J  61/94	・・	異った波長の光を生ずる放電路，例．擬似昼光用	Paths producing light of different wavelengths, e.g. for simulating daylight	526
+H01J  61/95	・	光の輝度または波長を変化させるための制御電極をもつランプ，例．調光用	Lamps with control electrode for varying intensity or wavelength of the light, e.g. for producing modulated light	79
+H01J  61/96	・	共通外囲器内に光を放射する放電路および別に加熱された白熱体をもつランプ，例．擬似昼光用	Lamps with light-emitting discharge path and separately-heated incandescent body within a common envelope, e.g. for simulating daylight	440
+H01J  61/98	・	光放射放電による白熱状態により加熱される接近した間隔の電極をもつランプ，例．タングステンアークランプ	Lamps with closely spaced electrodes heated to incandescence by light-emitting discharge, e.g. tungsten arc lamp	164
+H01J  63/00		陰極線または電子流ランプ	Cathode-ray or electron-stream lamps	247
+H01J  63/02	・	細部，例．電極，ガス封入物，うつわの形状	Details, e.g. electrode, gas filling, shape of vessel	481
+H01J  63/04	・・	ルミネッセント被覆のある容器；被覆材料の選択	Vessels provided with luminescent coatings; Selection of materials for the coatings	2699
+H01J  63/06	・	陰極線または電子流によって励起されるルミネッセントスクリーンをもつランプ	Lamps with luminescent screen excited by the ray or stream	1316
+H01J  63/08	・	陰極線または電子流によって励起されるガスプラズマをもつランプ	Lamps with gas plasma excited by the ray or stream	169
+H01J  65/00		うつわ内部に電極をもたないランプ；うつわ外部に少なくとも１つの主電極をもつランプ	Lamps without any electrode inside the vessel; Lamps with at least one main electrode outside the vessel	3470
+H01J  65/04	・	ガス封入物が外部の電磁界または外部の微粒子放射によって励起され発光するランプ，例．指示用のもの	Lamps in which a gas filling is excited to luminesce by an external electromagnetic field or by external corpuscular radiation, e.g. for indicating	5374
+H01J  65/06	・	ガス封入物が構造的にランプと結合した放射能材料によって励起され発光するランプ，例．うつわ内部にあるもの	Lamps in which a gas filling is excited to luminesce by radioactive material structurally associated with the lamp, e.g. inside the vessel	80
+H01J  65/08	・	スクリーンまたは被覆がうつわ内部におかれた放射能材料によって励起され発光するランプ	Lamps in which a screen or coating is excited to luminesce by radioactive material located inside the vessel	161
+H01J  99/00		このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass	29
