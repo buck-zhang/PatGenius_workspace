@@ -52,6 +52,15 @@ models/
 # Logs
 *.log
 logs/
+!logs/.gitkeep
+
+# Service Account Files (NEVER commit these!)
+ttdc-in-house-dev-*.json
+*service-account*.json
+*credentials*.json
+
+# Claude IDE
+.claude/
 
 # Docker
 .dockerignore
