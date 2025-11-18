@@ -1,0 +1,668 @@
+G11C5/00	7	Details of stores covered by group G11C11/00	G11C5/00	G11C5/00		573
+G11C5/005	8	{Circuit means for protection against loss of information of semiconductor storage devices}	G11C5/00	G11C5/00		397
+G11C5/02	8	Disposition of storage elements, e.g. in the form of a matrix array	G11C5/02	G11C5/02		1616
+G11C5/025	9	{Geometric lay-out considerations of storage- and peripheral-blocks in a semiconductor storage device (geometrical lay-out of the components in integrated circuits, geometrical lay-out of the components in integrated circuits H10D89/10)}	G11C5/02	G11C5/02		3364
+G11C5/04	9	Supports for storage elements {, e.g. memory modules}; Mounting or fixing of storage elements on such supports	G11C5/04	G11C5/04		2631
+G11C5/05	10	Supporting of cores in matrix	G11C5/05	G11C5/05		117
+G11C5/06	8	Arrangements for interconnecting storage elements electrically, e.g. by wiring	G11C5/06	G11C5/06		1751
+G11C5/063	9	{Voltage and signal distribution in integrated semi-conductor memory access lines, e.g. word-line, bit-line, cross-over resistance, propagation delay}	G11C5/06	G11C5/06		3313
+G11C5/066	9	{Means for reducing external access-lines for a semiconductor memory clip, e.g. by multiplexing at least address and data signals}	G11C5/06	G11C5/06		467
+G11C5/08	9	for interconnecting magnetic elements, e.g. toroidal cores	G11C5/08	G11C5/08		91
+G11C5/10	9	for interconnecting capacitors	G11C5/10	G11C5/10		127
+G11C5/12	8	Apparatus or processes for interconnecting storage elements, e.g. for threading magnetic cores	G11C5/12	G11C5/12		152
+G11C5/14	8	Power supply arrangements {, e.g. power down, chip selection or deselection, layout of wirings or power grids, or multiple supply levels}	G11C5/14	G11C5/14		3478
+G11C5/141	9	{Battery and back-up supplies}	G11C5/14	G11C5/14		622
+G11C5/142	9	{Contactless power supplies, e.g. RF, induction, or IR}	G11C5/14	G11C5/14		80
+G11C5/143	9	{Detection of memory cassette insertion or removal; Continuity checks of supply or ground lines; Detection of supply variations, interruptions or levels (G11C5/148 takes precedence); Switching between alternative supplies (G11C5/141 takes precedence)}	G11C5/14	G11C5/14		1653
+G11C5/144	10	{Detection of predetermined disconnection or reduction of power supply, e.g. power down or power standby}	G11C5/14	G11C5/14		205
+G11C5/145	9	{Applications of charge pumps; Boosted voltage circuits; Clamp circuits therefor (G11C5/141 takes precedence)}	G11C5/14	G11C5/14		2618
+G11C5/146	10	{Substrate bias generators (G11C5/141 takes precedence)}	G11C5/14	G11C5/14		474
+G11C5/147	9	{Voltage reference generators, voltage or current regulators; Internally lowered supply levels; Compensation for voltage drops (G11C5/141 takes precedence)}	G11C5/14	G11C5/14		5401
+G11C5/148	9	{Details of power up or power down circuits, standby circuits or recovery circuits}	G11C5/14	G11C5/14		1043
+G11C7/00	7	Arrangements for writing information into, or reading information out from, a digital store (G11C5/00 takes precedence; auxiliary circuits for stores using semiconductor devices G11C11/4063, G11C11/413)	G11C7/00	G11C7/00		2303
+G11C7/005	8	{with combined beam-and individual cell access}	G11C7/00	G11C7/00		209
+G11C7/02	8	with means for avoiding parasitic signals	G11C7/02	G11C7/02		1558
+G11C7/04	8	with means for avoiding disturbances due to temperature effects	G11C7/04	G11C7/04		2501
+G11C7/06	8	Sense amplifiers; Associated circuits {, e.g. timing or triggering circuits}	G11C7/06	G11C7/06		3239
+G11C7/062	9	{Differential amplifiers of non-latching type, e.g. comparators, long-tailed pairs}	G11C7/06	G11C7/06		1625
+G11C7/065	9	{Differential amplifiers of latching type}	G11C7/06	G11C7/06		2094
+G11C7/067	9	{Single-ended amplifiers}	G11C7/06	G11C7/06		712
+G11C7/08	9	Control thereof	G11C7/08	G11C7/08		2097
+G11C7/10	8	Input/output [I/O] data interface arrangements, e.g. I/O data control circuits, I/O data buffers	G11C7/10	G11C7/10		3264
+G11C7/1003	9	{Interface circuits for daisy chain or ring bus memory arrangements}	G11C7/10	G11C7/10		89
+G11C7/1006	9	{Data managing, e.g. manipulating data before writing or reading out, data bus switches or control circuits therefor}	G11C7/10	G11C7/10		4302
+G11C7/1009	10	{Data masking during input/output}	G11C7/10	G11C7/10		261
+G11C7/1012	10	{Data reordering during input/output, e.g. crossbars, layers of multiplexers, shifting or rotating}	G11C7/10	G11C7/10		787
+G11C7/1015	9	{Read-write modes for single port memories, i.e. having either a random port or a serial port}	G11C7/10	G11C7/10		236
+G11C7/1018	10	{Serial bit line access mode, e.g. using bit line address shift registers, bit line address counters, bit line burst counters}	G11C7/10	G11C7/10		563
+G11C7/1021	11	{Page serial bit line access mode, i.e. using an enabled row address stroke pulse with its associated word line address and a sequence of enabled column address stroke pulses each with its associated bit line address}	G11C7/10	G11C7/10		216
+G11C7/1024	12	{Extended data output [EDO] mode, i.e. keeping output buffer enabled during an extended period of time}	G11C7/10	G11C7/10		65
+G11C7/1027	11	{Static column decode serial bit line access mode, i.e. using an enabled row address stroke pulse with its associated word line address and a sequence of enabled bit line addresses}	G11C7/10	G11C7/10		133
+G11C7/103	10	{using serially addressed read-write data registers (G11C7/1036 takes precedence)}	G11C7/10	G11C7/10		221
+G11C7/1033	11	{using data registers of which only one stage is addressed for sequentially outputting data from a predetermined number of stages, e.g. nibble read-write mode}	G11C7/10	G11C7/10		84
+G11C7/1036	10	{using data shift registers}	G11C7/10	G11C7/10		242
+G11C7/1039	10	{using pipelining techniques, i.e. using latches between functional memory parts, e.g. row/column decoders, I/O buffers, sense amplifiers}	G11C7/10	G11C7/10		1187
+G11C7/1042	10	{using interleaving techniques, i.e. read-write of one part of the memory while preparing another part}	G11C7/10	G11C7/10		488
+G11C7/1045	10	{Read-write mode select circuits}	G11C7/10	G11C7/10		1451
+G11C7/1048	9	{Data bus control circuits, e.g. precharging, presetting, equalising}	G11C7/10	G11C7/10		2205
+G11C7/1051	9	{Data output circuits, e.g. read-out amplifiers, data output buffers, data output registers, data output level conversion circuits}	G11C7/10	G11C7/10		4133
+G11C7/1054	10	{Optical output buffers}	G11C7/10	G11C7/10		55
+G11C7/1057	10	{Data output buffers, e.g. comprising level conversion circuits, circuits for adapting load}	G11C7/10	G11C7/10		2484
+G11C7/106	10	{Data output latches}	G11C7/10	G11C7/10		1900
+G11C7/1063	10	{Control signal output circuits, e.g. status or busy flags, feedback command signals}	G11C7/10	G11C7/10		1202
+G11C7/1066	10	{Output synchronization}	G11C7/10	G11C7/10		2135
+G11C7/1069	10	{I/O lines read out arrangements}	G11C7/10	G11C7/10		1255
+G11C7/1072	9	{for memories with random access ports synchronised on clock signal pulse trains, e.g. synchronous memories, self timed memories}	G11C7/10	G11C7/10		2040
+G11C7/1075	9	{for multiport memories each having random access ports and serial ports, e.g. video RAM}	G11C7/10	G11C7/10		905
+G11C7/1078	9	{Data input circuits, e.g. write amplifiers, data input buffers, data input registers, data input level conversion circuits}	G11C7/10	G11C7/10		2820
+G11C7/1081	10	{Optical input buffers}	G11C7/10	G11C7/10		45
+G11C7/1084	10	{Data input buffers, e.g. comprising level conversion circuits, circuits for adapting load}	G11C7/10	G11C7/10		2010
+G11C7/1087	10	{Data input latches}	G11C7/10	G11C7/10		1527
+G11C7/109	10	{Control signal input circuits}	G11C7/10	G11C7/10		1272
+G11C7/1093	10	{Input synchronization}	G11C7/10	G11C7/10		1439
+G11C7/1096	10	{Write circuits, e.g. I/O line write drivers}	G11C7/10	G11C7/10		1371
+G11C7/12	8	Bit line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, equalising circuits, for bit lines	G11C7/12	G11C7/12		5489
+G11C7/14	8	Dummy cell management; Sense reference voltage generators	G11C7/14	G11C7/14		1361
+G11C7/16	8	Storage of analogue signals in digital stores using an arrangement comprising analogue/digital [A/D] converters, digital memories and digital/analogue [D/A] converters&#160;	G11C7/16	G11C7/16		1723
+G11C7/18	8	Bit line organisation; Bit line lay-out	G11C7/18	G11C7/18		3076
+G11C7/20	8	Memory cell initialisation circuits, e.g. when powering up or down, memory clear, latent image memory	G11C7/20	G11C7/20		1745
+G11C7/22	8	Read-write [R-W] timing or clocking circuits; Read-write [R-W] control signal generators or management&#160;	G11C7/22	G11C7/22		6939
+G11C7/222	9	{Clock generating, synchronizing or distributing circuits within memory device}	G11C7/22	G11C7/22		4710
+G11C7/225	9	{Clock input buffers}	G11C7/22	G11C7/22		489
+G11C7/227	9	{Timing of memory operations based on dummy memory elements or replica circuits}	G11C7/22	G11C7/22		361
+G11C7/24	8	Memory cell safety or protection circuits, e.g. arrangements for preventing inadvertent reading or writing; Status cells; Test cells	G11C7/24	G11C7/24		1410
+G11C8/00	7	Arrangements for selecting an address in a digital store (for stores using transistors G11C11/407, G11C11/413)	G11C8/00	G11C8/00		1126
+G11C8/005	8	{with travelling wave access}	G11C8/00	G11C8/00		116
+G11C8/04	8	using a sequential addressing device, e.g. shift register, counter	G11C8/04	G11C8/04		922
+G11C8/06	8	Address interface arrangements, e.g. address buffers	G11C8/06	G11C8/06		1505
+G11C8/08	8	Word line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, for word lines	G11C8/08	G11C8/08		4548
+G11C8/10	8	Decoders	G11C8/10	G11C8/10		3552
+G11C8/12	8	Group selection circuits, e.g. for memory block selection, chip selection, array selection	G11C8/12	G11C8/12		3460
+G11C8/14	8	Word line organisation; Word line lay-out	G11C8/14	G11C8/14		2338
+G11C8/16	8	Multiple access memory array, e.g. addressing one storage element via at least two independent addressing line groups	G11C8/16	G11C8/16		1599
+G11C8/18	8	Address timing or clocking circuits; Address control signal generation or management, e.g. for row address strobe [RAS] or column address strobe [CAS] signals	G11C8/18	G11C8/18		2990
+G11C8/20	8	Address safety or protection circuits, i.e. arrangements for preventing unauthorized or accidental access	G11C8/20	G11C8/20		285
+G11C11/00	7	Digital stores characterised by the use of particular electric or magnetic storage elements; Storage elements therefor (G11C14/00&#160;-&#160;G11C21/00 take precedence)<br><br><u>NOTE</u><br><br>Group G11C11/56 takes precedence over groups G11C11/02 - G11C11/54.<br>This Note corresponds to IPC Note (1) relating to G11C11/02 - G11C11/56.	G11C11/00	G11C11/00		254
+G11C11/005	8	{comprising combined but independently operative RAM-ROM, RAM-PROM, RAM-EPROM cells}	G11C11/00	G11C11/00		988
+G11C11/02	8	using magnetic elements	G11C11/02	G11C11/02		214
+G11C11/04	9	using storage elements having cylindrical form, e.g. rod, wire (G11C11/12, G11C11/14 take precedence)	G11C11/04	G11C11/04		236
+G11C11/06	9	using single-aperture storage elements, e.g. ring core; using multi-aperture plates in which each individual aperture forms a storage element	G11C11/06	G11C11/06		199
+G11C11/06007	10	{using a single aperture or single magnetic closed circuit}<br><br><u>NOTE</u><br><br>Provisionally contains the following details; control write -, read -, address circuitry (pulse generators in general H03K5/00, H03K17/00 ); arrangements for temperature compensation; checking of the correct functioning and repair arrangements (checking methods in general G06F11/00, G06F11/28; testing magnetic elements per seG01R33/00 ); magnetic properties, choice of materials or the like (materials per seH01F1/00 ) 	G11C11/06	G11C11/06		470
+G11C11/06014	11	{using one such element per bit}	G11C11/06	G11C11/06		214
+G11C11/06021	12	{with destructive read-out}	G11C11/06	G11C11/06		6
+G11C11/06028	13	{Matrixes}	G11C11/06	G11C11/06		20
+G11C11/06035	14	{Bit core selection for writing or reading, by at least two coincident partial currents, e.g. "bit"- organised, 2L/2D, or 3D}	G11C11/06	G11C11/06		235
+G11C11/06042	14	{"word"-organised, e.g. 2D organisation or linear selection, i.e. full current selection through all the bit-cores of a word during reading}	G11C11/06	G11C11/06		160
+G11C11/0605	12	{with non-destructive read-out}	G11C11/06	G11C11/06		57
+G11C11/06057	13	{Matrixes}	G11C11/06	G11C11/06		4
+G11C11/06064	14	{"bit"-organised (2 1/2D, 3D or similar organisation)}	G11C11/06	G11C11/06		11
+G11C11/06071	14	{"word"-organised (2D organisation or linear selection)}	G11C11/06	G11C11/06		11
+G11C11/06078	11	{using two or more such elements per bit}	G11C11/06	G11C11/06		130
+G11C11/06085	10	{Multi-aperture structures or multi-magnetic closed circuits, each aperture storing a "bit", realised by rods, plates, grids, waffle-irons,(i.e. grooved plates) or similar devices}	G11C11/06	G11C11/06		120
+G11C11/06092	10	{Multi-aperture structures or multi-magnetic closed circuits using two or more apertures per bit}	G11C11/06	G11C11/06		10
+G11C11/061	10	using elements with single aperture or magnetic loop for storage, one element per bit, and for destructive read-out {(contains no documents, seeG11C11/06007, G11C11/06014, G11C11/06021, G11C11/06028)}	G11C11/061	G11C11/061		10
+G11C11/063	11	bit organised, such as 2 1/2D, 3D organisation, i.e. for selection of an element by means of at least two coincident partial currents both for reading and for writing {(contains no documents; seeG11C11/06035)}	G11C11/063	G11C11/063		9
+G11C11/065	11	word organised, such as 2D organisation, or linear selection, i.e. for selection of all the elements of a word by means of a single full current for reading {(contains no documents; seeG11C11/06042)}	G11C11/065	G11C11/065		2
+G11C11/067	10	using elements with single aperture or magnetic loop for storage, one element per bit, and for non-destructive read-out {(contains no documents, seeG11C11/0605&#160;-&#160;G11C11/06071)}	G11C11/067	G11C11/067		4
+G11C11/08	9	using multi-aperture storage elements, e.g. using transfluxors; using plates incorporating several individual multi-aperture storage elements (G11C11/10 takes precedence)	G11C11/08	G11C11/08		105
+G11C11/10	9	using multi-axial storage elements	G11C11/10	G11C11/10		30
+G11C11/12	9	using tensors; using twistors, i.e. elements in which one axis of magnetisation is twisted	G11C11/12	G11C11/12		39
+G11C11/14	9	using thin-film elements	G11C11/14	G11C11/14		1348
+G11C11/15	10	using multiple magnetic layers (G11C11/155 takes precedence)	G11C11/15	G11C11/15		1772
+G11C11/155	10	with cylindrical configuration	G11C11/155	G11C11/155		135
+G11C11/16	9	using elements in which the storage effect is based on magnetic spin effect	G11C11/16	G11C11/16		2911
+G11C11/161	10	{details concerning the memory cell structure, e.g. the layers of the ferromagnetic memory cell}	G11C11/16	G11C11/16		4971
+G11C11/165	10	{Auxiliary circuits}	G11C11/16	G11C11/16		235
+G11C11/1653	11	{Address circuits or decoders}	G11C11/16	G11C11/16		493
+G11C11/1655	12	{Bit-line or column circuits}	G11C11/16	G11C11/16		924
+G11C11/1657	12	{Word-line or row circuits}	G11C11/16	G11C11/16		881
+G11C11/1659	11	{Cell access}	G11C11/16	G11C11/16		2156
+G11C11/1673	11	{Reading or sensing circuits or methods}	G11C11/16	G11C11/16		3098
+G11C11/1675	11	{Writing or programming circuits or methods}	G11C11/16	G11C11/16		4015
+G11C11/1677	11	{Verifying circuits or methods}	G11C11/16	G11C11/16		219
+G11C11/1693	11	{Timing circuits or methods}	G11C11/16	G11C11/16		645
+G11C11/1695	11	{Protection circuits or methods}	G11C11/16	G11C11/16		164
+G11C11/1697	11	{Power supply circuits}	G11C11/16	G11C11/16		441
+G11C11/18	8	using Hall-effect devices	G11C11/18	G11C11/18		563
+G11C11/19	8	using non-linear reactive devices in resonant circuits	G11C11/19	G11C11/19		2
+G11C11/20	9	using parametrons	G11C11/20	G11C11/20		72
+G11C11/21	8	using electric elements	G11C11/21	G11C11/21		86
+G11C11/22	9	using ferroelectric elements	G11C11/22	G11C11/22		2320
+G11C11/221	10	{using ferroelectric capacitors}	G11C11/22	G11C11/22		940
+G11C11/223	10	{using MOS with ferroelectric gate insulating film}	G11C11/22	G11C11/22		621
+G11C11/225	10	{Auxiliary circuits}	G11C11/22	G11C11/22		101
+G11C11/2253	11	{Address circuits or decoders}	G11C11/22	G11C11/22		132
+G11C11/2255	12	{Bit-line or column circuits}	G11C11/22	G11C11/22		333
+G11C11/2257	12	{Word-line or row circuits}	G11C11/22	G11C11/22		342
+G11C11/2259	11	{Cell access}	G11C11/22	G11C11/22		346
+G11C11/2273	11	{Reading or sensing circuits or methods}	G11C11/22	G11C11/22		825
+G11C11/2275	11	{Writing or programming circuits or methods}	G11C11/22	G11C11/22		716
+G11C11/2277	11	{Verifying circuits or methods}	G11C11/22	G11C11/22		49
+G11C11/2293	11	{Timing circuits or methods}	G11C11/22	G11C11/22		188
+G11C11/2295	11	{Protection circuits or methods}	G11C11/22	G11C11/22		42
+G11C11/2297	11	{Power supply circuits}	G11C11/22	G11C11/22		254
+G11C11/23	9	using electrostatic storage on a common layer, e.g. Forrester-Haeff tubes {or William tubes}(G11C11/22 takes precedence)	G11C11/23	G11C11/23		269
+G11C11/24	9	using capacitors (G11C11/22 takes precedence; using a combination of semiconductor devices and capacitors G11C11/34, e.g. G11C11/40)	G11C11/24	G11C11/24		296
+G11C11/26	9	using discharge tubes	G11C11/26	G11C11/26		16
+G11C11/265	10	{counting tubes, e.g. decatrons or trochotrons}	G11C11/26	G11C11/26		19
+G11C11/28	10	using gas-filled tubes	G11C11/28	G11C11/28		97
+G11C11/30	10	using vacuum tubes (G11C11/23 takes precedence)	G11C11/30	G11C11/30		27
+G11C11/34	9	using semiconductor devices	G11C11/34	G11C11/34		1640
+G11C11/35	10	with charge storage in a depletion layer, e.g. charge coupled devices	G11C11/35	G11C11/35		143
+G11C11/36	10	using diodes, e.g. as threshold elements {, i.e. diodes assuming a stable ON-stage when driven above their threshold (S- or N-characteristic)}	G11C11/36	G11C11/36		127
+G11C11/38	11	using tunnel diodes	G11C11/38	G11C11/38		146
+G11C11/39	10	using thyristors {or the avalanche or negative resistance type, e.g. PNPN, SCR, SCS, UJT}	G11C11/39	G11C11/39		318
+G11C11/40	10	using transistors	G11C11/40	G11C11/40		1320
+G11C11/401	11	forming cells needing refreshing or charge regeneration, i.e. dynamic cells	G11C11/401	G11C11/401		1649
+G11C11/402	12	with charge regeneration individual to each memory cell, i.e. internal refresh	G11C11/402	G11C11/402		162
+G11C11/4023	13	{using field effect transistors}	G11C11/402	G11C11/402		198
+G11C11/4026	13	{using bipolar transistors}	G11C11/402	G11C11/402		42
+G11C11/403	12	with charge regeneration common to a multiplicity of memory cells, i.e. external refresh	G11C11/403	G11C11/403		428
+G11C11/404	13	with one charge-transfer gate, e.g. MOS transistor, per cell	G11C11/404	G11C11/404		1254
+G11C11/4045	14	{using a plurality of serially connected access transistors, each having a storage capacitor}	G11C11/404	G11C11/404		49
+G11C11/405	13	with three charge-transfer gates, e.g. MOS transistors, per cell	G11C11/405	G11C11/405		592
+G11C11/406	12	Management or control of the refreshing or charge-regeneration cycles	G11C11/406	G11C11/406		3650
+G11C11/40603	13	{Arbitration, priority and concurrent access to memory cells for read/write or refresh operations}	G11C11/406	G11C11/406		509
+G11C11/40607	13	{Refresh operations in memory devices with an internal cache or data buffer}	G11C11/406	G11C11/406		160
+G11C11/40611	13	{External triggering or timing of internal or partially internal refresh operations, e.g. auto-refresh or CAS-before-RAS triggered refresh}	G11C11/406	G11C11/406		1047
+G11C11/40615	13	{Internal triggering or timing of refresh, e.g. hidden refresh, self refresh, pseudo-SRAMs}	G11C11/406	G11C11/406		1575
+G11C11/40618	13	{Refresh operations over multiple banks or interleaving}	G11C11/406	G11C11/406		818
+G11C11/40622	13	{Partial refresh of memory arrays}	G11C11/406	G11C11/406		582
+G11C11/40626	13	{Temperature related aspects of refresh operations}	G11C11/406	G11C11/406		604
+G11C11/4063	12	Auxiliary circuits, e.g. for addressing, decoding, driving, writing, sensing or timing	G11C11/4063	G11C11/4063		699
+G11C11/4067	13	for memory cells of the bipolar type	G11C11/4067	G11C11/4067		32
+G11C11/407	13	for memory cells of the field-effect type	G11C11/407	G11C11/407		1453
+G11C11/4072	14	Circuits for initialization, powering up or down, clearing memory or presetting	G11C11/4072	G11C11/4072		786
+G11C11/4074	14	Power supply or voltage generation circuits, e.g. bias voltage generators, substrate voltage generators, back-up power, power control circuits	G11C11/4074	G11C11/4074		3529
+G11C11/4076	14	Timing circuits (for regeneration management G11C11/406)	G11C11/4076	G11C11/4076		4352
+G11C11/4078	14	Safety or protection circuits, e.g. for preventing inadvertent or unauthorised reading or writing; Status cells; Test cells (protection of memory contents during checking or testing G11C29/52)	G11C11/4078	G11C11/4078		427
+G11C11/408	14	Address circuits	G11C11/408	G11C11/408		1503
+G11C11/4082	15	{Address Buffers; level conversion circuits}	G11C11/408	G11C11/408		446
+G11C11/4085	15	{Word line control circuits, e.g. word line drivers, - boosters, - pull-up, - pull-down, - precharge}	G11C11/408	G11C11/408		1988
+G11C11/4087	15	{Address decoders, e.g. bit - or word line decoders; Multiple line decoders}	G11C11/408	G11C11/408		1543
+G11C11/409	14	Read-write [R-W] circuits&#160;	G11C11/409	G11C11/409		864
+G11C11/4091	15	Sense or sense/refresh amplifiers, or associated sense circuitry, e.g. for coupled bit-line precharging, equalising or isolating	G11C11/4091	G11C11/4091		3559
+G11C11/4093	15	Input/output [I/O] data interface arrangements, e.g. data buffers	G11C11/4093	G11C11/4093		2652
+G11C11/4094	15	Bit-line management or control circuits	G11C11/4094	G11C11/4094		2486
+G11C11/4096	15	Input/output [I/O] data management or control circuits, e.g. reading or writing circuits, I/O drivers or bit-line switches&#160;	G11C11/4096	G11C11/4096		3621
+G11C11/4097	15	Bit-line organisation, e.g. bit-line layout, folded bit lines	G11C11/4097	G11C11/4097		1840
+G11C11/4099	15	Dummy cell treatment; Reference voltage generators	G11C11/4099	G11C11/4099		523
+G11C11/41	11	forming {static} cells with positive feedback, i.e. cells not needing refreshing or charge regeneration, e.g. bistable multivibrator or Schmitt trigger	G11C11/41	G11C11/41		942
+G11C11/411	12	using bipolar transistors only	G11C11/411	G11C11/411		115
+G11C11/4113	13	{with at least one cell access to base or collector of at least one of said transistors, e.g. via access diodes, access transistors}	G11C11/411	G11C11/411		228
+G11C11/4116	13	{with at least one cell access via separately connected emittors of said transistors or via multiple emittors, e.g. T2L, ECL}	G11C11/411	G11C11/411		217
+G11C11/412	12	using field-effect transistors only	G11C11/412	G11C11/412		3181
+G11C11/4125	13	{Cells incorporating circuit means for protecting against loss of information}	G11C11/412	G11C11/412		461
+G11C11/413	12	Auxiliary circuits, e.g. for addressing, decoding, driving, writing, sensing, timing or power reduction	G11C11/413	G11C11/413		2025
+G11C11/414	13	for memory cells of the bipolar type	G11C11/414	G11C11/414		103
+G11C11/415	14	Address circuits	G11C11/415	G11C11/415		146
+G11C11/416	14	Read-write [R-W] circuits&#160;	G11C11/416	G11C11/416		331
+G11C11/417	13	for memory cells of the field-effect type	G11C11/417	G11C11/417		1291
+G11C11/418	14	Address circuits	G11C11/418	G11C11/418		1294
+G11C11/419	14	Read-write [R-W] circuits	G11C11/419	G11C11/419		3428
+G11C11/42	9	using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically- coupled {or feedback-coupled}	G11C11/42	G11C11/42		188
+G11C11/44	9	using super-conductive elements, e.g. cryotron	G11C11/44	G11C11/44		795
+G11C11/46	8	using thermoplastic elements	G11C11/46	G11C11/46		6
+G11C11/48	8	using displaceable coupling elements, e.g. ferromagnetic cores, to produce change between different states of mutual or self-inductance {(contains no documents; seeG11C17/00 and subgroups)}	G11C11/48	G11C11/48		8
+G11C11/50	8	using actuation of electric contacts to store the information	G11C11/50	G11C11/50		36
+G11C11/52	9	using electromagnetic relays	G11C11/52	G11C11/52		4
+G11C11/54	8	using elements simulating biological cells, e.g. neuron	G11C11/54	G11C11/54		1578
+G11C11/56	8	using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency	G11C11/56	G11C11/56		1447
+G11C11/5607	9	{using magnetic storage elements}	G11C11/56	G11C11/56		669
+G11C11/5614	9	{using conductive bridging RAM [CBRAM] or programming metallization cells [PMC]}	G11C11/56	G11C11/56		179
+G11C11/5621	9	{using charge storage in a floating gate}	G11C11/56	G11C11/56		1273
+G11C11/5628	10	{Programming or writing circuits; Data input circuits}	G11C11/56	G11C11/56		4608
+G11C11/5635	11	{Erasing circuits}	G11C11/56	G11C11/56		804
+G11C11/5642	10	{Sensing or reading circuits; Data output circuits}	G11C11/56	G11C11/56		3691
+G11C11/565	9	{using capacitive charge storage elements}	G11C11/56	G11C11/56		372
+G11C11/5657	9	{using ferroelectric storage elements}	G11C11/56	G11C11/56		329
+G11C11/5664	9	{using organic memory material storage elements}	G11C11/56	G11C11/56		161
+G11C11/5671	9	{using charge trapping in an insulator}	G11C11/56	G11C11/56		1110
+G11C11/5678	9	{using amorphous/crystalline phase transition storage elements}	G11C11/56	G11C11/56		1079
+G11C11/5685	9	{using storage elements comprising metal oxide memory material, e.g. perovskites}	G11C11/56	G11C11/56		543
+G11C11/5692	9	{read-only digital stores using storage elements with more than two stable states}	G11C11/56	G11C11/56		317
+G11C13/00	7	Digital stores characterised by the use of storage elements not covered by groups G11C11/00, G11C23/00, or G11C25/00	G11C13/00	G11C13/00		620
+G11C13/0002	8	{using resistive RAM [RRAM] elements}	G11C13/00	G11C13/00		1643
+G11C13/0004	9	{comprising amorphous/crystalline phase transition cells}	G11C13/00	G11C13/00		4766
+G11C13/0007	9	{comprising metal oxide memory material, e.g. perovskites}	G11C13/00	G11C13/00		2641
+G11C13/0009	9	{RRAM elements whose operation depends upon chemical change}	G11C13/00	G11C13/00		403
+G11C13/0011	10	{comprising conductive bridging RAM [CBRAM] or programming metallization cells [PMCs]}	G11C13/00	G11C13/00		914
+G11C13/0014	10	{comprising cells based on organic memory material}	G11C13/00	G11C13/00		860
+G11C13/0016	11	{comprising polymers}	G11C13/00	G11C13/00		431
+G11C13/0019	11	{comprising bio-molecules}	G11C13/00	G11C13/00		331
+G11C13/0021	9	{Auxiliary circuits}	G11C13/00	G11C13/00		329
+G11C13/0023	10	{Address circuits or decoders}	G11C13/00	G11C13/00		901
+G11C13/0026	11	{Bit-line or column circuits}	G11C13/00	G11C13/00		1351
+G11C13/0028	11	{Word-line or row circuits}	G11C13/00	G11C13/00		1236
+G11C13/003	10	{Cell access}	G11C13/00	G11C13/00		1882
+G11C13/0033	10	{Disturbance prevention or evaluation; Refreshing of disturbed memory data}	G11C13/00	G11C13/00		745
+G11C13/0035	10	{Evaluating degradation, retention or wearout, e.g. by counting writing cycles}	G11C13/00	G11C13/00		284
+G11C13/0038	10	{Power supply circuits}	G11C13/00	G11C13/00		949
+G11C13/004	10	{Reading or sensing circuits or methods}	G11C13/00	G11C13/00		3593
+G11C2013/0042	11	{Read using differential sensing, e.g. bit line [BL] and bit line bar [BLB]}	G11C13/00	G11C13/00		217
+G11C2013/0045	11	{Read using current through the cell}	G11C13/00	G11C13/00		467
+G11C2013/0047	11	{Read destroying or disturbing the data}	G11C13/00	G11C13/00		51
+G11C2013/005	11	{Read using potential difference applied between cell electrodes}	G11C13/00	G11C13/00		145
+G11C2013/0052	11	{Read process characterized by the shape, e.g. form, length, amplitude of the read pulse}	G11C13/00	G11C13/00		114
+G11C2013/0054	11	{Read is performed on a reference element, e.g. cell, and the reference sensed value is used to compare the sensed value of the selected cell}	G11C13/00	G11C13/00		826
+G11C2013/0057	11	{Read done in two steps, e.g. wherein the cell is read twice and one of the two read values serving as a reference value}	G11C13/00	G11C13/00		181
+G11C13/0059	10	{Security or protection circuits or methods}	G11C13/00	G11C13/00		191
+G11C13/0061	10	{Timing circuits or methods}	G11C13/00	G11C13/00		852
+G11C13/0064	10	{Verifying circuits or methods}	G11C13/00	G11C13/00		765
+G11C2013/0066	11	{Verify correct writing whilst writing is in progress, e.g. by detecting onset or cessation of current flow in cell and using the detector output to terminate writing}	G11C13/00	G11C13/00		168
+G11C13/0069	10	{Writing or programming circuits or methods}	G11C13/00	G11C13/00		4699
+G11C2013/0071	11	{Write using write potential applied to access device gate}	G11C13/00	G11C13/00		247
+G11C2013/0073	11	{Write using bi-directional cell biasing}	G11C13/00	G11C13/00		593
+G11C2013/0076	11	{Write operation performed depending on read result}	G11C13/00	G11C13/00		299
+G11C2013/0078	11	{Write using current through the cell}	G11C13/00	G11C13/00		659
+G11C2013/008	11	{Write by generating heat in the surroundings of the memory material, e.g. thermowrite}	G11C13/00	G11C13/00		167
+G11C2013/0083	11	{Write to perform initialising, forming process, electro forming or conditioning}	G11C13/00	G11C13/00		429
+G11C2013/0085	11	{Write a page or sector of information simultaneously, e.g. a complete row or word line}	G11C13/00	G11C13/00		39
+G11C2013/0088	11	{Write with the simultaneous writing of a plurality of cells}	G11C13/00	G11C13/00		159
+G11C2013/009	11	{Write using potential difference applied between cell electrodes}	G11C13/00	G11C13/00		538
+G11C2013/0092	11	{Write characterized by the shape, e.g. form, length, amplitude of the write pulse}	G11C13/00	G11C13/00		700
+G11C2013/0095	11	{Write using strain induced by, e.g. piezoelectric, thermal effects}	G11C13/00	G11C13/00		25
+G11C13/0097	10	{Erasing, e.g. resetting, circuits or methods}	G11C13/00	G11C13/00		713
+G11C13/02	8	using elements whose operation depends upon chemical change {(G11C13/0009 takes precedence)}	G11C13/02	G11C13/02		533
+G11C13/025	9	{using fullerenes, e.g. C60, or nanotubes, e.g. carbon or silicon nanotubes}	G11C13/02	G11C13/02		544
+G11C13/04	8	using optical elements {; using other beam accessed elements, e.g. electron or ion beam}	G11C13/04	G11C13/04		860
+G11C13/041	9	{using photochromic storage elements (G11C13/042 takes precedence)}	G11C13/04	G11C13/04		130
+G11C13/042	9	{using information stored in the form of interference pattern}	G11C13/04	G11C13/04		442
+G11C13/043	10	{using magnetic-optical storage elements}	G11C13/04	G11C13/04		21
+G11C13/044	10	{using electro-optical elements}	G11C13/04	G11C13/04		54
+G11C13/045	10	{using photochromic storage elements}	G11C13/04	G11C13/04		43
+G11C13/046	10	{using other storage elements storing information in the form of an interference pattern}	G11C13/04	G11C13/04		49
+G11C13/047	9	{using electro-optical elements (G11C13/042 takes precedence)}	G11C13/04	G11C13/04		307
+G11C13/048	9	{using other optical storage elements}	G11C13/04	G11C13/04		546
+G11C13/06	9	using magneto-optical elements {(G11C13/042 takes precedence)}	G11C13/06	G11C13/06		310
+G11C14/00	7	Digital stores characterised by arrangements of cells having volatile and non-volatile storage properties for back-up when the power is down	G11C14/00	G11C14/00		647
+G11C14/0009	8	{in which the volatile element is a DRAM cell}	G11C14/00	G11C14/00		95
+G11C14/0018	9	{whereby the nonvolatile element is an EEPROM element, e.g. a floating gate or metal-nitride-oxide-silicon [MNOS] transistor}	G11C14/00	G11C14/00		209
+G11C14/0027	9	{and the nonvolatile element is a ferroelectric element}	G11C14/00	G11C14/00		31
+G11C14/0036	9	{and the nonvolatile element is a magnetic RAM [MRAM] element or ferromagnetic cell}	G11C14/00	G11C14/00		55
+G11C14/0045	9	{and the nonvolatile element is a resistive RAM element, i.e. programmable resistors, e.g. formed of phase change or chalcogenide material}	G11C14/00	G11C14/00		91
+G11C14/0054	8	{in which the volatile element is a SRAM cell}	G11C14/00	G11C14/00		124
+G11C14/0063	9	{and the nonvolatile element is an EEPROM element, e.g. a floating gate or MNOS transistor}	G11C14/00	G11C14/00		156
+G11C14/0072	9	{and the nonvolatile element is a ferroelectric element}	G11C14/00	G11C14/00		103
+G11C14/0081	9	{and the nonvolatile element is a magnetic RAM [MRAM] element or ferromagnetic cell}	G11C14/00	G11C14/00		210
+G11C14/009	9	{and the nonvolatile element is a resistive RAM element, i.e. programmable resistors, e.g. formed of phase change or chalcogenide material}	G11C14/00	G11C14/00		196
+G11C15/00	7	Digital stores in which information comprising one or more characteristic parts is written into the store and in which information is read-out by searching for one or more of these characteristic parts, i.e. associative or content-addressed stores	G11C15/00	G11C15/00		1261
+G11C15/02	8	using magnetic elements	G11C15/02	G11C15/02		233
+G11C15/04	8	using semiconductor elements	G11C15/04	G11C15/04		1579
+G11C15/043	9	{using capacitive charge storage elements}	G11C15/04	G11C15/04		173
+G11C15/046	9	{using non-volatile storage elements}	G11C15/04	G11C15/04		498
+G11C15/06	8	using cryogenic elements	G11C15/06	G11C15/06		94
+G11C16/00	7	Erasable programmable read-only memories (G11C14/00 takes precedence)	G11C16/00	G11C16/00		657
+G11C16/02	8	electrically programmable	G11C16/02	G11C16/02		595
+G11C16/04	9	using variable threshold transistors, e.g. FAMOS	G11C16/04	G11C16/04		1596
+G11C16/0408	10	{comprising cells containing floating gate transistors (G11C16/0483, G11C16/0491 take precedence)}	G11C16/04	G11C16/04		798
+G11C16/0416	11	{comprising cells containing a single floating gate transistor and no select transistor, e.g. UV EPROM}	G11C16/04	G11C16/04		906
+G11C16/0425	11	{comprising cells containing a merged floating gate and select transistor}	G11C16/04	G11C16/04		661
+G11C16/0433	11	{comprising cells containing a single floating gate transistor and one or more separate select transistors}	G11C16/04	G11C16/04		1153
+G11C16/0441	11	{comprising cells containing multiple floating gate devices, e.g. separate read-and-write FAMOS transistors with connected floating gates}	G11C16/04	G11C16/04		556
+G11C16/045	12	{Floating gate memory cells with both P and N channel memory transistors, usually sharing a common floating gate}	G11C16/04	G11C16/04		135
+G11C16/0458	12	{comprising two or more independent floating gates which store independent data}	G11C16/04	G11C16/04		239
+G11C16/0466	10	{comprising cells with charge storage in an insulating layer, e.g. metal-nitride-oxide-silicon [MNOS], silicon-oxide-nitride-oxide-silicon [SONOS] (G11C16/0483, G11C16/0491 take precedence)}	G11C16/04	G11C16/04		1323
+G11C16/0475	11	{comprising two or more independent storage sites which store independent data}	G11C16/04	G11C16/04		688
+G11C16/0483	10	{comprising cells having several storage transistors connected in series}	G11C16/04	G11C16/04		11226
+G11C16/0491	10	{Virtual ground arrays}	G11C16/04	G11C16/04		468
+G11C16/06	9	Auxiliary circuits, e.g. for writing into memory	G11C16/06	G11C16/06		2246
+G11C16/08	10	Address circuits; Decoders; Word-line control circuits	G11C16/08	G11C16/08		7268
+G11C16/10	10	Programming or data input circuits	G11C16/10	G11C16/10		10657
+G11C16/102	11	{External programming circuits, e.g. EPROM programmers; In-circuit programming or reprogramming; EPROM emulators}	G11C16/10	G11C16/10		1362
+G11C16/105	12	{Circuits or methods for updating contents of nonvolatile memory, especially with &apos;security&apos; features to ensure reliable replacement, i.e. preventing that old data is lost before new data is reliably written}	G11C16/10	G11C16/10		363
+G11C16/107	11	{Programming all cells in an array, sector or block to the same state prior to flash erasing}	G11C16/10	G11C16/10		207
+G11C16/12	11	Programming voltage switching circuits	G11C16/12	G11C16/12		2397
+G11C16/14	11	Circuits for erasing electrically, e.g. erase voltage switching circuits	G11C16/14	G11C16/14		2954
+G11C16/16	12	for erasing blocks, e.g. arrays, words, groups	G11C16/16	G11C16/16		2968
+G11C16/18	11	Circuits for erasing optically	G11C16/18	G11C16/18		194
+G11C16/20	11	Initialising; Data preset; Chip identification	G11C16/20	G11C16/20		906
+G11C16/22	10	Safety or protection circuits preventing unauthorised or accidental access to memory cells	G11C16/22	G11C16/22		1073
+G11C16/225	11	{Preventing erasure, programming or reading when power supply voltages are outside the required ranges}	G11C16/22	G11C16/22		329
+G11C16/24	10	Bit-line control circuits	G11C16/24	G11C16/24		3897
+G11C16/26	10	Sensing or reading circuits; Data output circuits	G11C16/26	G11C16/26		9110
+G11C16/28	11	using differential sensing or reference cells, e.g. dummy cells	G11C16/28	G11C16/28		1839
+G11C16/30	10	Power supply circuits	G11C16/30	G11C16/30		5517
+G11C16/32	10	Timing circuits	G11C16/32	G11C16/32		2826
+G11C16/34	10	Determination of programming status, e.g. threshold voltage, overprogramming or underprogramming, retention	G11C16/34	G11C16/34		1946
+G11C16/3404	11	{Convergence or correction of memory cell threshold voltages; Repair or recovery of overerased or overprogrammed cells}	G11C16/34	G11C16/34		1589
+G11C16/3409	12	{Circuits or methods to recover overerased nonvolatile memory cells detected during erase verification, usually by means of a "soft" programming step}	G11C16/34	G11C16/34		412
+G11C16/3413	12	{Circuits or methods to recover overprogrammed nonvolatile memory cells detected during program verification, usually by means of a "soft" erasing step}	G11C16/34	G11C16/34		103
+G11C16/3418	11	{Disturbance prevention or evaluation; Refreshing of disturbed memory data}	G11C16/34	G11C16/34		2335
+G11C16/3422	12	{Circuits or methods to evaluate read or write disturbance in nonvolatile memory, without steps to mitigate the problem}	G11C16/34	G11C16/34		218
+G11C16/3427	12	{Circuits or methods to prevent or reduce disturbance of the state of a memory cell when neighbouring cells are read or written}	G11C16/34	G11C16/34		1604
+G11C16/3431	12	{Circuits or methods to detect disturbed nonvolatile memory cells, e.g. which still read as programmed but with threshold less than the program verify threshold or read as erased but with threshold greater than the erase verify threshold, and to reverse the disturbance via a refreshing programming or erasing step}	G11C16/34	G11C16/34		733
+G11C16/3436	11	{Arrangements for verifying correct programming or erasure}	G11C16/34	G11C16/34		514
+G11C16/344	12	{Arrangements for verifying correct erasure or for detecting overerased cells}	G11C16/34	G11C16/34		414
+G11C16/3445	13	{Circuits or methods to verify correct erasure of nonvolatile memory cells}	G11C16/34	G11C16/34		1123
+G11C16/345	13	{Circuits or methods to detect overerased nonvolatile memory cells, usually during erasure verification}	G11C16/34	G11C16/34		124
+G11C16/3454	12	{Arrangements for verifying correct programming or for detecting overprogrammed cells}	G11C16/34	G11C16/34		1008
+G11C16/3459	13	{Circuits or methods to verify correct programming of nonvolatile memory cells}	G11C16/34	G11C16/34		3106
+G11C16/3463	13	{Circuits or methods to detect overprogrammed nonvolatile memory cells, usually during program verification}	G11C16/34	G11C16/34		58
+G11C16/3468	12	{Prevention of overerasure or overprogramming, e.g. by verifying whilst erasing or writing}	G11C16/34	G11C16/34		326
+G11C16/3472	13	{Circuits or methods to verify correct erasure of nonvolatile memory cells whilst erasing is in progress, e.g. by detecting onset or cessation of current flow in cells and using the detector output to terminate erasure}	G11C16/34	G11C16/34		98
+G11C16/3477	13	{Circuits or methods to prevent overerasing of nonvolatile memory cells, e.g. by detecting onset or cessation of current flow in cells and using the detector output to terminate erasing}	G11C16/34	G11C16/34		200
+G11C16/3481	13	{Circuits or methods to verify correct programming of nonvolatile memory cells whilst programming is in progress, e.g. by detecting onset or cessation of current flow in cells and using the detector output to terminate programming}	G11C16/34	G11C16/34		208
+G11C16/3486	13	{Circuits or methods to prevent overprogramming of nonvolatile memory cells, e.g. by detecting onset or cessation of current flow in cells and using the detector output to terminate programming}	G11C16/34	G11C16/34		145
+G11C16/349	11	{Arrangements for evaluating degradation, retention or wearout, e.g. by counting erase cycles}	G11C16/34	G11C16/34		1791
+G11C16/3495	12	{Circuits or methods to detect or delay wearout of nonvolatile EPROM or EEPROM memory devices, e.g. by counting numbers of erase or reprogram cycles, by using multiple memory areas serially or cyclically}	G11C16/34	G11C16/34		1053
+G11C17/00	7	Read-only memories programmable only once; Semi-permanent stores, e.g. manually-replaceable information cards	G11C17/00	G11C17/00		779
+G11C17/005	8	{with a storage element common to a large number of data, e.g. perforated card (G11C17/02, G11C17/04 take precedence)}	G11C17/00	G11C17/00		58
+G11C17/02	8	using magnetic or inductive elements (G11C17/14 takes precedence)	G11C17/02	G11C17/02		475
+G11C17/04	8	using capacitive elements (G11C17/06, G11C17/14 take precedence)	G11C17/04	G11C17/04		143
+G11C17/06	8	using diode elements (G11C17/14 takes precedence)	G11C17/06	G11C17/06		254
+G11C17/08	8	using semiconductor devices, e.g. bipolar elements (G11C17/06, G11C17/14 take precedence)	G11C17/08	G11C17/08		296
+G11C17/10	9	in which contents are determined during manufacturing by a predetermined arrangement of coupling elements, e.g. mask-programmable ROM	G11C17/10	G11C17/10		154
+G11C17/12	10	using field-effect devices	G11C17/12	G11C17/12		759
+G11C17/123	11	{comprising cells having several storage transistors connected in series}	G11C17/12	G11C17/12		134
+G11C17/126	11	{Virtual ground arrays}	G11C17/12	G11C17/12		170
+G11C17/14	8	in which contents are determined by selectively establishing, breaking or modifying connecting links by permanently altering the state of coupling elements, e.g. PROM	G11C17/14	G11C17/14		418
+G11C17/143	9	{using laser-fusible links}	G11C17/14	G11C17/14		99
+G11C17/146	9	{Write once memory, i.e. allowing changing of memory content by writing additional bits}	G11C17/14	G11C17/14		106
+G11C17/16	9	using electrically-fusible links	G11C17/16	G11C17/16		2547
+G11C17/165	10	{Memory cells which are electrically programmed to cause a change in resistance, e.g. to permit multiple resistance steps to be programmed rather than conduct to or from non-conduct change of fuses and antifuses (digital stores using resistance random access memory elements G11C13/0002)}	G11C17/16	G11C17/16		485
+G11C17/18	9	Auxiliary circuits, e.g. for writing into memory	G11C17/18	G11C17/18		2540
+G11C19/00	7	Digital stores in which the information is moved stepwise, e.g. shift registers	G11C19/00	G11C19/00		1272
+G11C19/005	8	{with ferro-electric elements (condensers)}	G11C19/00	G11C19/00		30
+G11C19/02	8	using magnetic elements (G11C19/14 takes precedence)	G11C19/02	G11C19/02		37
+G11C19/04	9	using cores with one aperture or magnetic loop	G11C19/04	G11C19/04		478
+G11C19/06	9	using structures with a number of apertures or magnetic loops, e.g. transfluxors {laddic}	G11C19/06	G11C19/06		158
+G11C19/08	9	using thin films in plane structure	G11C19/08	G11C19/08		167
+G11C19/0808	10	{using magnetic domain propagation}	G11C19/08	G11C19/08		324
+G11C19/0816	11	{using a rotating or alternating coplanar magnetic field}	G11C19/08	G11C19/08		245
+G11C19/0825	11	{using a variable perpendicular magnetic field}	G11C19/08	G11C19/08		45
+G11C19/0833	11	{using magnetic domain interaction}	G11C19/08	G11C19/08		76
+G11C19/0841	11	{using electric current}	G11C19/08	G11C19/08		426
+G11C19/085	10	{Generating magnetic fields therefor, e.g. uniform magnetic field for magnetic domain stabilisation}	G11C19/08	G11C19/08		367
+G11C19/0858	10	{Generating, replicating or annihilating magnetic domains (also comprising different types of magnetic domains, e.g. "Hard Bubbles") (G11C19/0866 takes precedence)}	G11C19/08	G11C19/08		274
+G11C19/0866	10	{Detecting magnetic domains}	G11C19/08	G11C19/08		329
+G11C19/0875	10	{Organisation of a plurality of magnetic shift registers}	G11C19/08	G11C19/08		349
+G11C19/0883	11	{Means for switching magnetic domains from one path into another path, i.e. transfer switches, swap gates or decoders}	G11C19/08	G11C19/08		292
+G11C19/0891	12	{using hybrid structure, e.g. ion doped layers}	G11C19/08	G11C19/08		44
+G11C19/10	9	using thin films on rods; with twistors	G11C19/10	G11C19/10		73
+G11C19/12	8	using non-linear reactive devices in resonant circuits {, e.g. parametrons; magnetic amplifiers with overcritical feedback}	G11C19/12	G11C19/12		53
+G11C19/14	8	using magnetic elements in combination with active elements, e.g. discharge tubes, semiconductor elements {(contains no documents, see provisionally G11C19/02&#160;-&#160;G11C19/10)}	G11C19/14	G11C19/14		10
+G11C19/18	8	using capacitors as main elements of the stages {(if capacitors are used as auxiliary stage in between main stages with other elements, the latter take precedence; G11C19/005 takes precedence)}	G11C19/18	G11C19/18		71
+G11C19/182	9	{in combination with semiconductor elements, e.g. bipolar transistors, diodes}	G11C19/18	G11C19/18		90
+G11C19/184	10	{with field-effect transistors, e.g. MOS-FET}	G11C19/18	G11C19/18		747
+G11C19/186	11	{using only one transistor per capacitor, e.g. bucket brigade shift register}	G11C19/18	G11C19/18		100
+G11C19/188	10	{Organisation of a multiplicity of shift registers, e.g. regeneration, timing or input-output circuits}	G11C19/18	G11C19/18		91
+G11C19/20	8	using discharge tubes (G11C19/14 takes precedence)	G11C19/20	G11C19/20		3
+G11C19/202	9	{with vacuum tubes (G11C19/207 takes precedence)}	G11C19/20	G11C19/20		42
+G11C19/205	9	{with gas-filled tubes (G11C19/207 takes precedence)}	G11C19/20	G11C19/20		29
+G11C19/207	9	{with counting tubes}	G11C19/20	G11C19/20		13
+G11C19/28	8	using semiconductor elements (G11C19/14, G11C19/36 take precedence)	G11C19/28	G11C19/28		4446
+G11C19/282	9	{with charge storage in a depletion layer, i.e. charge coupled devices [CCD]}	G11C19/28	G11C19/28		224
+G11C19/285	10	{Peripheral circuits, e.g. for writing into the first stage; for reading-out of the last stage}	G11C19/28	G11C19/28		425
+G11C19/287	9	{Organisation of a multiplicity of shift registers}	G11C19/28	G11C19/28		898
+G11C19/30	8	using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled	G11C19/30	G11C19/30		52
+G11C19/32	8	using super-conductive elements	G11C19/32	G11C19/32		87
+G11C19/34	8	using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency	G11C19/34	G11C19/34		13
+G11C19/36	9	using {multistable} semiconductor elements	G11C19/36	G11C19/36		84
+G11C19/38	8	two-dimensional, e.g. horizontal and vertical shift registers	G11C19/38	G11C19/38		90
+G11C21/00	7	Digital stores in which the information circulates {continuously}(stepwise G11C19/00)	G11C21/00	G11C21/00		257
+G11C21/005	8	{using electrical delay lines}	G11C21/00	G11C21/00		20
+G11C21/02	8	using electromechanical delay lines, e.g. using a mercury tank	G11C21/02	G11C21/02		41
+G11C21/023	9	{using piezoelectric transducers, e.g. mercury tank}	G11C21/02	G11C21/02		10
+G11C21/026	9	{using magnetostriction transducers, e.g. nickel delay line}	G11C21/02	G11C21/02		59
+G11C23/00	7	Digital stores characterised by movement of mechanical parts to effect storage, e.g. using balls; Storage elements therefor	G11C23/00	G11C23/00		311
+G11C25/00	7	Digital stores characterised by the use of flowing media; Storage elements therefor	G11C25/00	G11C25/00		42
+G11C27/00	7	Electric analogue stores, e.g. for storing instantaneous values	G11C27/00	G11C27/00		426
+G11C27/005	8	{with non-volatile charge storage, e.g. on floating gate or MNOS}	G11C27/00	G11C27/00		402
+G11C27/02	8	Sample-and-hold arrangements (G11C27/04 takes precedence)	G11C27/02	G11C27/02		635
+G11C27/022	9	{using a magnetic memory element}	G11C27/02	G11C27/02		72
+G11C27/024	9	{using a capacitive memory element (G11C27/04 takes precedence)}	G11C27/02	G11C27/02		881
+G11C27/026	10	{associated with an amplifier (G11C27/028 takes precedence)}	G11C27/02	G11C27/02		909
+G11C27/028	10	{Current mode circuits, e.g. switched current memories}	G11C27/02	G11C27/02		96
+G11C27/04	8	Shift registers	G11C27/04	G11C27/04		595
+G11C29/00	7	Checking stores for correct operation {; Subsequent repair}; Testing stores during standby or offline operation	G11C29/00	G11C29/00		2433
+G11C29/003	8	{in serial memories}	G11C29/00	G11C29/00		126
+G11C29/006	8	{at wafer scale level, i.e. wafer scale integration [WSI]}	G11C29/00	G11C29/00		773
+G11C29/02	8	Detection or location of defective auxiliary circuits, e.g. defective refresh counters	G11C29/02	G11C29/02		1926
+G11C29/021	9	{in voltage or current generators}	G11C29/02	G11C29/02		2004
+G11C29/022	9	{in I/O circuitry}	G11C29/02	G11C29/02		1241
+G11C29/023	9	{in clock generator or timing circuitry}	G11C29/02	G11C29/02		1234
+G11C29/024	9	{in decoders}	G11C29/02	G11C29/02		152
+G11C29/025	9	{in signal lines}	G11C29/02	G11C29/02		1147
+G11C29/026	9	{in sense amplifiers}	G11C29/02	G11C29/02		381
+G11C29/027	9	{in fuses}	G11C29/02	G11C29/02		425
+G11C29/028	9	{with adaption or trimming of parameters}	G11C29/02	G11C29/02		4255
+G11C29/04	8	Detection or location of defective memory elements {, e.g. cell constructio details, timing of test signals}	G11C29/04	G11C29/04		1083
+G11C2029/0401	9	{in embedded memories}	G11C29/04	G11C29/04		539
+G11C2029/0403	9	{during or with feedback to manufacture}	G11C29/04	G11C29/04		354
+G11C2029/0405	9	{comprising complete test loop}	G11C29/04	G11C29/04		167
+G11C2029/0407	9	{on power on}	G11C29/04	G11C29/04		315
+G11C2029/0409	9	{Online test}	G11C29/04	G11C29/04		1718
+G11C2029/0411	9	{Online error correction}	G11C29/04	G11C29/04		2377
+G11C29/06	9	Acceleration testing	G11C29/06	G11C29/06		312
+G11C29/08	9	Functional testing, e.g. testing during refresh, power-on self testing [POST] or distributed testing	G11C29/08	G11C29/08		1121
+G11C29/10	10	Test algorithms, e.g. memory scan [MScan] algorithms; Test patterns, e.g. checkerboard patterns&#160;	G11C29/10	G11C29/10		992
+G11C29/12	10	Built-in arrangements for testing, e.g. built-in self testing [BIST] {or interconnection details}	G11C29/12	G11C29/12		1384
+G11C29/12005	11	{comprising voltage or current generators}	G11C29/12	G11C29/12		1040
+G11C29/1201	11	{comprising I/O circuitry}	G11C29/12	G11C29/12		1718
+G11C29/12015	11	{comprising clock generation or timing circuitry}	G11C29/12	G11C29/12		929
+G11C2029/1202	11	{Word line control}	G11C29/12	G11C29/12		821
+G11C2029/1204	11	{Bit line control}	G11C29/12	G11C29/12		593
+G11C2029/1206	11	{Location of test circuitry on chip or wafer}	G11C29/12	G11C29/12		202
+G11C2029/1208	11	{Error catch memory}	G11C29/12	G11C29/12		323
+G11C29/14	11	Implementation of control logic, e.g. test mode decoders	G11C29/14	G11C29/14		1409
+G11C29/16	12	using microprogrammed units, e.g. state machines	G11C29/16	G11C29/16		547
+G11C29/18	11	Address generation devices; Devices for accessing memories, e.g. details of addressing circuits	G11C29/18	G11C29/18		1144
+G11C2029/1802	12	{Address decoder}	G11C29/18	G11C29/18		197
+G11C2029/1804	12	{Manipulation of word size}	G11C29/18	G11C29/18		34
+G11C2029/1806	12	{Address conversion or mapping, i.e. logical to physical address}	G11C29/18	G11C29/18		147
+G11C29/20	12	using counters or linear-feedback shift registers [LFSR]	G11C29/20	G11C29/20		392
+G11C29/22	12	Accessing serial memories	G11C29/22	G11C29/22		17
+G11C29/24	12	Accessing extra cells, e.g. dummy cells or redundant cells	G11C29/24	G11C29/24		723
+G11C29/26	12	Accessing multiple arrays (G11C29/24 takes precedence)	G11C29/26	G11C29/26		573
+G11C2029/2602	13	{Concurrent test}	G11C29/26	G11C29/26		457
+G11C29/28	13	Dependent multiple arrays, e.g. multi-bit arrays	G11C29/28	G11C29/28		195
+G11C29/30	12	Accessing single arrays	G11C29/30	G11C29/30		74
+G11C29/32	13	Serial access; Scan testing	G11C29/32	G11C29/32		522
+G11C2029/3202	13	{Scan chain}	G11C29/32	G11C29/32		281
+G11C29/34	13	Accessing multiple bits simultaneously	G11C29/34	G11C29/34		392
+G11C29/36	11	Data generation devices, e.g. data inverters	G11C29/36	G11C29/36		904
+G11C2029/3602	12	{Pattern generator}	G11C29/36	G11C29/36		405
+G11C29/38	11	Response verification devices	G11C29/38	G11C29/38		983
+G11C29/40	12	using compression techniques	G11C29/40	G11C29/40		514
+G11C2029/4002	13	{Comparison of products, i.e. test results of chips or with golden chip}	G11C29/40	G11C29/40		84
+G11C29/42	12	using error correcting codes [ECC] or parity check	G11C29/42	G11C29/42		3377
+G11C29/44	11	Indication or identification of errors, e.g. for repair	G11C29/44	G11C29/44		2595
+G11C29/4401	12	{for self repair}	G11C29/44	G11C29/44		1295
+G11C2029/4402	11	{Internal storage of test result, quality data, chip identification, repair information}	G11C29/44	G11C29/44		1426
+G11C29/46	11	Test trigger logic	G11C29/46	G11C29/46		814
+G11C29/48	10	Arrangements in static stores specially adapted for testing by means external to the store, e.g. using direct memory access [DMA] or using auxiliary access paths	G11C29/48	G11C29/48		1241
+G11C29/50	9	Marginal testing, e.g. race, voltage or current testing	G11C29/50	G11C29/50		2816
+G11C29/50004	10	{of threshold voltage}	G11C29/50	G11C29/50		850
+G11C29/50008	10	{of impedance}	G11C29/50	G11C29/50		492
+G11C29/50012	10	{of timing}	G11C29/50	G11C29/50		1080
+G11C29/50016	10	{of retention}	G11C29/50	G11C29/50		500
+G11C2029/5002	10	{Characteristic}	G11C29/50	G11C29/50		670
+G11C2029/5004	10	{Voltage}	G11C29/50	G11C29/50		920
+G11C2029/5006	10	{Current}	G11C29/50	G11C29/50		733
+G11C29/52	8	Protection of memory contents; Detection of errors in memory contents	G11C29/52	G11C29/52		3559
+G11C29/54	8	Arrangements for designing test circuits, e.g. design for test [DFT] tools	G11C29/54	G11C29/54		225
+G11C29/56	8	External testing equipment for static stores, e.g. automatic test equipment [ATE]; Interfaces therefor	G11C29/56	G11C29/56		2920
+G11C29/56004	9	{Pattern generation}	G11C29/56	G11C29/56		444
+G11C29/56008	9	{Error analysis, representation of errors}	G11C29/56	G11C29/56		714
+G11C29/56012	9	{Timing aspects, clock generation, synchronisation}	G11C29/56	G11C29/56		453
+G11C29/56016	9	{Apparatus features}	G11C29/56	G11C29/56		574
+G11C2029/5602	9	{Interface to device under test}	G11C29/56	G11C29/56		696
+G11C2029/5604	9	{Display of error information}	G11C29/56	G11C29/56		165
+G11C2029/5606	9	{Error catch memory}	G11C29/56	G11C29/56		212
+G11C29/70	8	{Masking faults in memories by using spares or by reconfiguring}	G11C29/00	G11C29/70		775
+G11C29/702	9	{by replacing auxiliary circuits, e.g. spare voltage generators, decoders or sense amplifiers, to be used instead of defective ones}	G11C29/00	G11C29/702		244
+G11C29/72	9	{with optimized replacement algorithms}	G11C29/00	G11C29/72		401
+G11C29/74	9	{using duplex memories, i.e. using dual copies}	G11C29/00	G11C29/74		534
+G11C29/76	9	{using address translation or modifications}	G11C29/00	G11C29/76		1284
+G11C29/765	10	{in solid state disks}	G11C29/00	G11C29/765		266
+G11C29/78	9	{using programmable devices}	G11C29/00	G11C29/78		428
+G11C29/781	10	{combined in a redundant decoder}	G11C29/00	G11C29/781		288
+G11C29/783	10	{with refresh of replacement cells, e.g. in DRAMs}	G11C29/00	G11C29/783		210
+G11C29/785	10	{with redundancy programming schemes}	G11C29/00	G11C29/785		710
+G11C29/787	11	{using a fuse hierarchy}	G11C29/00	G11C29/787		931
+G11C29/789	11	{using non-volatile cells or latches}	G11C29/00	G11C29/789		495
+G11C29/80	10	{with improved layout}	G11C29/00	G11C29/80		279
+G11C29/802	11	{by encoding redundancy signals}	G11C29/00	G11C29/802		159
+G11C29/804	11	{to prevent clustered faults}	G11C29/00	G11C29/804		72
+G11C29/806	11	{by reducing size of decoders}	G11C29/00	G11C29/806		78
+G11C29/808	11	{using a flexible replacement scheme}	G11C29/00	G11C29/808		1024
+G11C29/81	11	{using a hierarchical redundancy scheme}	G11C29/00	G11C29/81		147
+G11C29/812	11	{using a reduced amount of fuses}	G11C29/00	G11C29/812		148
+G11C29/814	11	{for optimized yield}	G11C29/00	G11C29/814		102
+G11C29/816	11	{for an application-specific layout}	G11C29/00	G11C29/816		161
+G11C29/818	12	{for dual-port memories}	G11C29/00	G11C29/818		18
+G11C29/82	12	{for EEPROMs}	G11C29/00	G11C29/82		439
+G11C29/822	12	{for read only memories}	G11C29/00	G11C29/822		58
+G11C29/824	12	{for synchronous memories}	G11C29/00	G11C29/824		31
+G11C29/83	10	{with reduced power consumption}	G11C29/00	G11C29/83		284
+G11C29/832	11	{with disconnection of faulty elements}	G11C29/00	G11C29/832		199
+G11C29/835	10	{with roll call arrangements for redundant substitutions}	G11C29/00	G11C29/835		140
+G11C29/838	10	{with substitution of defective spares}	G11C29/00	G11C29/838		147
+G11C29/84	10	{with improved access time or stability}	G11C29/00	G11C29/84		281
+G11C29/842	11	{by introducing a delay in a signal path}	G11C29/00	G11C29/842		93
+G11C29/844	11	{by splitting the decoders in stages}	G11C29/00	G11C29/844		58
+G11C29/846	11	{by choosing redundant lines at an output stage}	G11C29/00	G11C29/846		468
+G11C29/848	11	{by adjacent switching}	G11C29/00	G11C29/848		304
+G11C29/86	9	{in serial access memories, e.g. shift registers, CCDs, bubble memories}	G11C29/00	G11C29/86		120
+G11C29/88	9	{with partially good memories}	G11C29/00	G11C29/88		583
+G11C29/883	10	{using a single defective memory device with reduced capacity, e.g. half capacity}	G11C29/00	G11C29/883		209
+G11C29/886	10	{combining plural defective memory devices to provide a contiguous address range, e.g. one device supplies working blocks to replace defective blocks in another device}	G11C29/00	G11C29/886		84
+G11C99/00	7	Subject matter not provided for in other groups of this subclass	G11C99/00	G11C99/00		6
+G11C2207/00	7	Indexing scheme relating to arrangements for writing information into, or reading information out from, a digital store	CPCONLY	G11C2207/00		6
+G11C2207/002	8	Isolation gates, i.e. gates coupling bit lines to the sense amplifier	CPCONLY	G11C2207/002		770
+G11C2207/005	8	Transfer gates, i.e. gates coupling the sense amplifier output to data lines, I/O lines or global bit lines	CPCONLY	G11C2207/005		543
+G11C2207/007	8	Register arrays	CPCONLY	G11C2207/007		44
+G11C2207/06	8	Sense amplifier related aspects	CPCONLY	G11C2207/06		9
+G11C2207/061	9	Sense amplifier enabled by a address transition detection related control signal	CPCONLY	G11C2207/061		19
+G11C2207/063	9	Current sense amplifiers	CPCONLY	G11C2207/063		441
+G11C2207/065	9	Sense amplifier drivers	CPCONLY	G11C2207/065		294
+G11C2207/066	9	Frequency reading type sense amplifier	CPCONLY	G11C2207/066		13
+G11C2207/068	9	Integrator type sense amplifier	CPCONLY	G11C2207/068		26
+G11C2207/10	8	Aspects relating to interfaces of memory device to external buses	CPCONLY	G11C2207/10		28
+G11C2207/101	9	Analog or multilevel bus	CPCONLY	G11C2207/101		33
+G11C2207/102	9	Compression or decompression of data before storage	CPCONLY	G11C2207/102		49
+G11C2207/104	9	Embedded memory devices, e.g. memories with a processing device on the same die or ASIC memory designs	CPCONLY	G11C2207/104		380
+G11C2207/105	9	Aspects related to pads, pins or terminals	CPCONLY	G11C2207/105		892
+G11C2207/107	9	Serial-parallel conversion of data or prefetch	CPCONLY	G11C2207/107		416
+G11C2207/108	9	Wide data ports	CPCONLY	G11C2207/108		209
+G11C2207/12	8	Equalization of bit lines	CPCONLY	G11C2207/12		44
+G11C2207/16	8	Solid state audio	CPCONLY	G11C2207/16		416
+G11C2207/22	8	Control and timing of internal memory operations	CPCONLY	G11C2207/22		27
+G11C2207/2209	9	Concurrent read and write	CPCONLY	G11C2207/2209		101
+G11C2207/2218	9	Late write	CPCONLY	G11C2207/2218		30
+G11C2207/2227	9	Standby or low power modes	CPCONLY	G11C2207/2227		1084
+G11C2207/2236	9	Copy	CPCONLY	G11C2207/2236		72
+G11C2207/2245	9	Memory devices with an internal cache buffer	CPCONLY	G11C2207/2245		334
+G11C2207/2254	9	Calibration	CPCONLY	G11C2207/2254		1655
+G11C2207/2263	9	Write conditionally, e.g. only if new data and old data differ	CPCONLY	G11C2207/2263		51
+G11C2207/2272	9	Latency related aspects	CPCONLY	G11C2207/2272		622
+G11C2207/2281	9	Timing of a read operation	CPCONLY	G11C2207/2281		310
+G11C2207/229	9	Timing of a write operation	CPCONLY	G11C2207/229		291
+G11C2211/00	7	Indexing scheme relating to digital stores characterized by the use of particular electric or magnetic storage elements; Storage elements therefor	CPCONLY	G11C2211/00		1
+G11C2211/401	8	Indexing scheme relating to cells needing refreshing or charge regeneration, i.e. dynamic cells	CPCONLY	G11C2211/401		4
+G11C2211/4013	9	Memory devices with multiple cells per bit, e.g. twin-cells	CPCONLY	G11C2211/4013		81
+G11C2211/4016	9	Memory devices with silicon-on-insulator cells	CPCONLY	G11C2211/4016		332
+G11C2211/406	9	Refreshing of dynamic cells	CPCONLY	G11C2211/406		19
+G11C2211/4061	10	Calibration or ate or cycle tuning	CPCONLY	G11C2211/4061		378
+G11C2211/4062	10	Parity or ECC in refresh operations	CPCONLY	G11C2211/4062		137
+G11C2211/4063	10	Interleaved refresh operations	CPCONLY	G11C2211/4063		15
+G11C2211/4065	10	Low level details of refresh operations	CPCONLY	G11C2211/4065		292
+G11C2211/4066	10	Pseudo-SRAMs	CPCONLY	G11C2211/4066		40
+G11C2211/4067	10	Refresh in standby or low power modes	CPCONLY	G11C2211/4067		311
+G11C2211/4068	10	Voltage or leakage in refresh operations	CPCONLY	G11C2211/4068		158
+G11C2211/56	8	Indexing scheme relating to G11C11/56 and sub-groups for features not covered by these groups	CPCONLY	G11C2211/56		3
+G11C2211/561	9	Multilevel memory cell aspects	CPCONLY	G11C2211/561		15
+G11C2211/5611	10	Multilevel memory cell with more than one control gate	CPCONLY	G11C2211/5611		28
+G11C2211/5612	10	Multilevel memory cell with more than one floating gate	CPCONLY	G11C2211/5612		68
+G11C2211/5613	10	Multilevel memory cell with additional gates, not being floating or control gates	CPCONLY	G11C2211/5613		24
+G11C2211/5614	10	Multilevel memory cell comprising negative resistance, quantum tunneling or resonance tunneling elements	CPCONLY	G11C2211/5614		143
+G11C2211/5615	10	Multilevel magnetic memory cell using non-magnetic non-conducting interlayer, e.g. MTJ	CPCONLY	G11C2211/5615		75
+G11C2211/5616	10	Multilevel magnetic memory cell using non-magnetic conducting interlayer, e.g. GMR, SV, PSV	CPCONLY	G11C2211/5616		21
+G11C2211/5617	10	Multilevel ROM cell programmed by source, drain or gate contacting	CPCONLY	G11C2211/5617		11
+G11C2211/562	9	Multilevel memory programming aspects	CPCONLY	G11C2211/562		59
+G11C2211/5621	10	Multilevel programming verification	CPCONLY	G11C2211/5621		1052
+G11C2211/5622	10	Concurrent multilevel programming of more than one cell	CPCONLY	G11C2211/5622		95
+G11C2211/5623	10	Concurrent multilevel programming and reading	CPCONLY	G11C2211/5623		23
+G11C2211/5624	10	Concurrent multilevel programming and programming verification	CPCONLY	G11C2211/5624		58
+G11C2211/5625	10	Self-converging multilevel programming	CPCONLY	G11C2211/5625		15
+G11C2211/563	9	Multilevel memory reading aspects	CPCONLY	G11C2211/563		69
+G11C2211/5631	10	Concurrent multilevel reading of more than one cell	CPCONLY	G11C2211/5631		63
+G11C2211/5632	10	Multilevel reading using successive approximation	CPCONLY	G11C2211/5632		60
+G11C2211/5633	10	Mixed concurrent serial multilevel reading	CPCONLY	G11C2211/5633		5
+G11C2211/5634	10	Reference cells	CPCONLY	G11C2211/5634		417
+G11C2211/564	9	Miscellaneous aspects	CPCONLY	G11C2211/564		1
+G11C2211/5641	10	Multilevel memory having cells with different number of storage levels	CPCONLY	G11C2211/5641		1023
+G11C2211/5642	10	Multilevel memory with buffers, latches, registers at input or output	CPCONLY	G11C2211/5642		558
+G11C2211/5643	10	Multilevel memory comprising cache storage devices	CPCONLY	G11C2211/5643		123
+G11C2211/5644	10	Multilevel memory comprising counting devices	CPCONLY	G11C2211/5644		214
+G11C2211/5645	10	Multilevel memory with current-mirror arrangements	CPCONLY	G11C2211/5645		72
+G11C2211/5646	10	Multilevel memory with flag bits, e.g. for showing that a "first page" of a word line is programmed but not a "second page"	CPCONLY	G11C2211/5646		138
+G11C2211/5647	10	Multilevel memory with bit inversion arrangement	CPCONLY	G11C2211/5647		79
+G11C2211/5648	10	Multilevel memory programming, reading or erasing operations wherein the order or sequence of the operations is relevant	CPCONLY	G11C2211/5648		281
+G11C2211/5649	10	Multilevel memory with plate line or layer, e.g. in order to lower programming voltages	CPCONLY	G11C2211/5649		10
+G11C2211/565	10	Multilevel memory comprising elements in triple well structure	CPCONLY	G11C2211/565		54
+G11C2213/00	7	Indexing scheme relating to G11C13/00 for features not covered by this group	CPCONLY	G11C2213/00		1
+G11C2213/10	8	Resistive cells; Technology aspects	CPCONLY	G11C2213/10		3
+G11C2213/11	9	Metal ion trapping, i.e. using memory material including cavities, pores or spaces in form of tunnels or channels wherein metal ions can be trapped but do not react and form an electro-deposit creating filaments or dendrites	CPCONLY	G11C2213/11		78
+G11C2213/12	9	Non-metal ion trapping, i.e. using memory material trapping non-metal ions given by the electrode or another layer during a write operation, e.g. trapping, doping	CPCONLY	G11C2213/12		24
+G11C2213/13	9	Dissociation, i.e. using memory material including molecules which, during a write operation, are dissociated in ions which migrate further in the memory material	CPCONLY	G11C2213/13		18
+G11C2213/14	9	Use of different molecule structures as storage states, e.g. part of molecule being rotated	CPCONLY	G11C2213/14		46
+G11C2213/15	9	Current-voltage curve	CPCONLY	G11C2213/15		583
+G11C2213/16	9	Memory cell being a nanotube, e.g. suspended nanotube	CPCONLY	G11C2213/16		100
+G11C2213/17	9	Memory cell being a nanowire transistor	CPCONLY	G11C2213/17		112
+G11C2213/18	9	Memory cell being a nanowire having RADIAL composition	CPCONLY	G11C2213/18		54
+G11C2213/19	9	Memory cell comprising at least a nanowire and only two terminals	CPCONLY	G11C2213/19		41
+G11C2213/30	8	Resistive cell, memory material aspects	CPCONLY	G11C2213/30		39
+G11C2213/31	9	Material having complex metal oxide, e.g. perovskite structure	CPCONLY	G11C2213/31		452
+G11C2213/32	9	Material having simple binary metal oxide structure	CPCONLY	G11C2213/32		536
+G11C2213/33	9	Material including silicon	CPCONLY	G11C2213/33		164
+G11C2213/34	9	Material includes an oxide or a nitride	CPCONLY	G11C2213/34		251
+G11C2213/35	9	Material including carbon, e.g. graphite, grapheme	CPCONLY	G11C2213/35		167
+G11C2213/50	8	Resistive cell structure aspects	CPCONLY	G11C2213/50		44
+G11C2213/51	9	Structure including a barrier layer preventing or limiting migration, diffusion of ions or charges or formation of electrolytes near an electrode	CPCONLY	G11C2213/51		186
+G11C2213/52	9	Structure characterized by the electrode material, shape, etc.	CPCONLY	G11C2213/52		329
+G11C2213/53	9	Structure wherein the resistive material being in a transistor, e.g. gate	CPCONLY	G11C2213/53		171
+G11C2213/54	9	Structure including a tunneling barrier layer, the memory effect implying the modification of tunnel barrier conductivity	CPCONLY	G11C2213/54		59
+G11C2213/55	9	Structure including two electrodes, a memory active layer and at least two other layers which can be a passive or source or reservoir layer or a less doped memory active layer	CPCONLY	G11C2213/55		128
+G11C2213/56	9	Structure including two electrodes, a memory active layer and a so called passive or source or reservoir layer which is NOT an electrode, wherein the passive or source or reservoir layer is a source of ions which migrate afterwards in the memory active layer to be only trapped there, to form conductive filaments there or to react with the material of the memory active layer in redox way	CPCONLY	G11C2213/56		269
+G11C2213/70	8	Resistive array aspects	CPCONLY	G11C2213/70		29
+G11C2213/71	9	Three dimensional array	CPCONLY	G11C2213/71		1559
+G11C2213/72	9	Array wherein the access device being a diode	CPCONLY	G11C2213/72		1227
+G11C2213/73	9	Array where access device function, e.g. diode function, being merged with memorizing function of memory element	CPCONLY	G11C2213/73		171
+G11C2213/74	9	Array wherein each memory cell has more than one access device	CPCONLY	G11C2213/74		373
+G11C2213/75	9	Array having a NAND structure comprising, for example, memory cells in series or memory elements in series, a memory element being a memory cell in parallel with an access transistor	CPCONLY	G11C2213/75		282
+G11C2213/76	9	Array using an access device for each cell which being not a transistor and not a diode	CPCONLY	G11C2213/76		572
+G11C2213/77	9	Array wherein the memory element being directly connected to the bit lines and word lines without any access device being used	CPCONLY	G11C2213/77		900
+G11C2213/78	9	Array wherein the memory cells of a group share an access device, all the memory cells of the group having a common electrode and the access device being not part of a word line or a bit line driver	CPCONLY	G11C2213/78		216
+G11C2213/79	9	Array wherein the access device being a transistor	CPCONLY	G11C2213/79		1968
+G11C2213/80	9	Array wherein the substrate, the cell, the conductors and the access device are all made up of organic materials	CPCONLY	G11C2213/80		18
+G11C2213/81	9	Array wherein the array conductors, e.g. word lines, bit lines, are made of nanowires	CPCONLY	G11C2213/81		198
+G11C2213/82	9	Array having, for accessing a cell, a word line, a bit line and a plate or source line receiving different potentials	CPCONLY	G11C2213/82		320
+G11C2216/00	7	Indexing scheme relating to G11C16/00 and subgroups, for features not directly covered by these groups	CPCONLY	G11C2216/00		
+G11C2216/02	8	Structural aspects of erasable programmable read-only memories	CPCONLY	G11C2216/02		21
+G11C2216/04	9	Nonvolatile memory cell provided with a separate control gate for erasing the cells, i.e. erase gate, independent of the normal read control gate	CPCONLY	G11C2216/04		76
+G11C2216/06	9	Floating gate cells in which the floating gate consists of multiple isolated silicon islands, e.g. nanocrystals	CPCONLY	G11C2216/06		93
+G11C2216/08	9	Nonvolatile memory wherein data storage is accomplished by storing relatively few electrons in the storage layer, i.e. single electron memory	CPCONLY	G11C2216/08		111
+G11C2216/10	9	Floating gate memory cells with a single polysilicon layer	CPCONLY	G11C2216/10		230
+G11C2216/12	8	Reading and writing aspects of erasable programmable read-only memories	CPCONLY	G11C2216/12		7
+G11C2216/14	9	Circuits or methods to write a page or sector of information simultaneously into a nonvolatile memory, typically a complete row or word line in flash memory	CPCONLY	G11C2216/14		413
+G11C2216/16	9	Flash programming of all the cells in an array, sector or block simultaneously	CPCONLY	G11C2216/16		43
+G11C2216/18	9	Flash erasure of all the cells in an array, sector or block simultaneously	CPCONLY	G11C2216/18		76
+G11C2216/20	9	Suspension of programming or erasing cells in an array in order to read other cells in it	CPCONLY	G11C2216/20		124
+G11C2216/22	9	Nonvolatile memory in which reading can be carried out from one memory bank or array whilst a word or sector in another bank or array is being erased or programmed simultaneously	CPCONLY	G11C2216/22		154
+G11C2216/24	9	Nonvolatile memory in which programming can be carried out in one memory bank or array whilst a word or sector in another bank or array is being erased simultaneously	CPCONLY	G11C2216/24		24
+G11C2216/26	9	Floating gate memory which is adapted to be one-time programmable [OTP], e.g. containing multiple OTP blocks permitting limited update ability	CPCONLY	G11C2216/26		84
+G11C2216/28	9	Floating gate memory programmed by reverse programming, e.g. programmed with negative gate voltage and erased with positive gate voltage or programmed with high source or drain voltage and erased with high gate voltage	CPCONLY	G11C2216/28		22
+G11C2216/30	9	Reduction of number of input/output pins by using a serial interface to transmit or receive addresses or data, i.e. serial access memory	CPCONLY	G11C2216/30		88
+G11C2229/00	7	Indexing scheme relating to checking stores for correct operation, subsequent repair or testing stores during standby or offline operation	CPCONLY	G11C2229/00		1
+G11C2229/70	8	Indexing scheme relating to G11C29/70, for implementation aspects of redundancy repair	CPCONLY	G11C2229/70		1
+G11C2229/72	9	Location of redundancy information	CPCONLY	G11C2229/72		1
+G11C2229/723	10	Redundancy information stored in a part of the memory core to be repaired	CPCONLY	G11C2229/723		30
+G11C2229/726	10	Redundancy information loaded from the outside into the memory	CPCONLY	G11C2229/726		14
+G11C2229/74	9	Time at which the repair is done	CPCONLY	G11C2229/74		2
+G11C2229/743	10	After packaging	CPCONLY	G11C2229/743		19
+G11C2229/746	10	Before packaging	CPCONLY	G11C2229/746		4
+G11C2229/76	9	Storage technology used for the repair	CPCONLY	G11C2229/76		1
+G11C2229/763	10	E-fuses, e.g. electric fuses or antifuses, floating gate transistors	CPCONLY	G11C2229/763		108
+G11C2229/766	10	Laser fuses	CPCONLY	G11C2229/766		24

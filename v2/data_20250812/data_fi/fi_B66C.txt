@@ -1,0 +1,776 @@
+B66C   1/00  \	0	0	3F004	B66C   1/00	35	クレーンの持ち上げ，下げ，または牽引装置に取り付けられているかまたはこれと連結されていて物品または物品のグループに持ち上げ力を伝える荷物の係合要素または装置（ケーブルまたはロープの結合手段Ｆ１６Ｇ１１／００）	Load-engaging elements or devices attached to lifting, lowering, or hauling gear of cranes, or adapted for connection therewith for transmitting forces to articles or groups of articles (fastening to cables or ropes F16G 11/00)
+B66C   1/02  \	1	1	3F004	B66C   1/02	6	真空吸着装置によるもの	by suction means
+B66C   1/02  A	1	0	3F004	B66C   1/02	248	吊ビ−ムに取付けられたもの〔例．バキユ−ムリフト〕〔吊りビ−ム１／１０Ａ〕	mounted on suspension beam, e.g. vacuum lifts (suspension beams 1/10 A)
+B66C   1/02  B	1	0	3F004	B66C   1/02	475	吸着パツドの構造〔取り付けを目的とする吸着カツプＦ１６Ｂ４７／００〕	structures of suction pads (suction cups aiming at mounting F 16 B 47/00)
+B66C   1/02  C	1	0	3F004	B66C   1/02	358	吸着の制御，回路	Suction control, circuits
+B66C   1/02  D	1	0	3F004	B66C   1/02	78	単一の吸着具の支持	supporting single suction device
+B66C   1/02  E	1	0	3F004	B66C   1/02	19	ベルヌ−イ式	Bernoulli type
+B66C   1/02  Z	1	0	3F004	B66C   1/02	309	その他のもの	Others
+B66C   1/04  \	1	1	3F004	B66C   1/04	141	磁石装置によるもの	by magnetic means
+B66C   1/06  \	2	2	3F004	B66C   1/06	6	電磁石装置によるもの	electromagnetic
+B66C   1/06  A	2	0	3F004	B66C   1/06	166	吊りビ−ムに取付けられたもの〔Ｂ〜Ｑ優先，吊りビ−ム１／１０Ａ〕	mounted on suspension beams (B to Q take precedence.  Suspension beams 1/10 A)
+B66C   1/06  B	2	0	3F004	B66C   1/06	111	安全装置〔例．停電時または事故時における吊り上げた物品の落下防止用補助部材を有するもの〕	Safety devices, e.g. with auxiliary members for preventing falling of suspended articles upon power failures or accidents
+B66C   1/06  C	2	0	3F004	B66C   1/06	46	反転または転回用〔反転または転回用補助装置１３／０８〕	for overturning or rotating (auxiliary devices for overturning or rotating 13/08)
+B66C   1/06  D	2	0	3F004	B66C   1/06	36	物品の形状に合うようにしたもの	adapted to match with profile of articles
+B66C   1/06  E	2	1	3F004	B66C   1/06	306	可動磁極を有するもの	with movable magnetic poles
+B66C   1/06  F	2	0	3F004	B66C   1/06	30	物品の選択的吊り上げ〔例．鋼板の枚数選択吊り，厚板→←薄板の選択吊り〕〔そのための制御，１／０８Ｃ〕	selective lifting of articles, e.g. lifting of steel plates after selecting number of plates, selecting lifting between thin or thick plates) (control thereof 1/08 C)
+B66C   1/06  G	2	1	3F004	B66C   1/06	20	可動磁極を有するもの	with movable magnetic poles
+B66C   1/06  H	2	0	3F004	B66C   1/06	65	磁気回路の構成部材〔例．コアまたはヨ−ク〕として永久磁石鋼を用いたもの〔例．永久磁石式吊り上げ電磁石〕	Using of permanent magnet steels as structural members for magnetic circuits, e.g. cores or yokes (e.g. permanent magnet type suspension solenoid)
+B66C   1/06  J	2	0	3F004	B66C   1/06	215	吊り上げ電磁石，リフテイング・マグネツトの構造〔ア−マチユアのない電磁石一般Ｈ０１Ｆ７／２０〕	Lifting magnet structures (solenoids in general without armature H 01 F 7/20)
+B66C   1/06  P	2	1	3F004	B66C   1/06	34	緩衝体を有するもの	with dampers
+B66C   1/06  Q	2	1	3F004	B66C   1/06	39	強制冷却	Forced cooling
+B66C   1/06  K	2	0	3F004	B66C   1/06	23	吸着した物品の機械的切離し用補助部材を有するもの	with auxiliary members for mechanically severing attracted articles
+B66C   1/06  L	2	0	3F004	B66C   1/06	48	位置決め，センタ−リングまたはガイド用補助装置を有するもの〔位置表示１３／４６〕	with auxiliary devices for positioning, cantering or guide (indicating positions 13/46)
+B66C   1/06  M	2	0	3F004	B66C   1/06	95	ジブに取り付けられたもの	mounted on jib
+B66C   1/06  N	2	0	3F004	B66C   1/06	49	特にばら物〔例．スクラツプ金属〕を取り扱うのに適したもの	specially adapted for handling  bulky articles, e.g. scrap metals
+B66C   1/06  Z	2	0	3F004	B66C   1/06	125	その他のもの	Others
+B66C   1/08  \	3	3	3F004	B66C   1/08	5	電磁石のための回路（一般的な電磁石についてＨ０１Ｆ７／１８）	Circuits therefor (for electromagnets in general H01F 7/18)
+B66C   1/08  C	3	0	3F004	B66C   1/08	159	物品の選択的吊り上げ用〔例．鋼板の枚数選択，厚板　薄板の選択〕	for selective lifting of articles, e.g. selecting number of steel plates to be lifted, selection between thin or thick plates
+B66C   1/08  D	3	0	3F004	B66C   1/08	116	着床検知，吸着検知，位置決め〔位置表示１３／４６〕	detecting landing, detecting attracting, positioning (indicating positions 13/46)
+B66C   1/08  E	3	0	3F004	B66C   1/08	375	励磁または消磁：正励磁　逆励磁の切り換え；残留磁気の脱磁；給電〔給電ケ−ブルの配置１３／１２〕；安全装置〔例．非常用電源を有するもの〕；警報装置	Magnetising or de-magnetising; switching between positive or negative magnetising; de-magnetising residual magnetism, power feed (arrangements of power feed cables 13/12); safety devices, e.g. with emergency power supply; alarms
+B66C   1/08  Z	3	0	3F004	B66C   1/08	52	その他のもの	Others
+B66C   1/10  \	1	1	3F004	B66C   1/10	17	機械的装置によるもの	by mechanical means
+B66C   1/10  A	1	0	3F004	B66C   1/10	692	吊りビ−ム〔Ｈ〜Ｘ優先〕	Suspension beams (H to X take precedence)
+B66C   1/10  B	1	1	3F004	B66C   1/10	182	ビ−ムが伸縮可能なもの	Telescopic beams
+B66C   1/10  C	1	1	3F004	B66C   1/10	334	吊り具がビ−ムに沿つて移動可能なもの	Slings movable along beams
+B66C   1/10  G	1	1	3F004	B66C   1/10	22	ビ−ムが曲折可能なもの	Foldable beams
+B66C   1/10  H	1	0	3F004	B66C   1/10	59	コンテナ等に用いられるスプレツダ	Spreaders used for containers
+B66C   1/10  J	1	1	3F004	B66C   1/10	62	係合部に特徴を有するもの	characterised by connections
+B66C   1/10  K	1	2	3F004	B66C   1/10	227	ツイストロツク型〔ロツク確認含む〕	Twist locked type (including checking of locking)
+B66C   1/10  L	1	1	3F004	B66C   1/10	23	制御装置に特徴を有するもの〔例．安全装置〕	characterised by controls, e.g. safety devices
+B66C   1/10  M	1	2	3F004	B66C   1/10	42	油圧式	hydraulic
+B66C   1/10  N	1	2	3F004	B66C   1/10	20	電気式	electric
+B66C   1/10  P	1	1	3F004	B66C   1/10	109	コンテナ用ガイド〔例．ガイドフリツパ，アライニングア−ム〕	Container guides, e.g. guide flippers, aligning arms
+B66C   1/10  Q	1	1	3F004	B66C   1/10	139	複数個のコンテナ用；スプレツダ連結装置〔例．伸縮式〕	for multiple containers; spreader connecting devices, e.g. telescopic
+B66C   1/10  R	1	1	3F004	B66C   1/10	76	振れ止め	Bracings
+B66C   1/10  S	1	1	3F004	B66C   1/10	100	位置調整〔例．微少移動，トリム，旋回〕	Adjusting positions, e.g. minute movement, trimming, turning
+B66C   1/10  T	1	2	3F004	B66C   1/10	97	位置検出装置を有するもの〔例．イコライジングビ−ム，着床検出〕	with position detectors, e.g. equalising beams, detecting landing
+B66C   1/10  U	1	1	3F004	B66C   1/10	22	給電〔給電ケ−ブルの配置１３／１２〕；給油	Power feed (arrangements of power feed cables 13/12); fuelling
+B66C   1/10  V	1	1	3F004	B66C   1/10	14	スタツカクレ−ン用	for stacker cranes
+B66C   1/10  W	1	1	3F004	B66C   1/10	100	フオ−クリフト用〔例．片口スプレツダ，レツグ〕	for forklifts, e.g. single ended spreaders, legs)
+B66C   1/10  X	1	1	3F004	B66C   1/10	133	特殊目的：特殊用途	Special purposes: special applications
+B66C   1/10  Z	1	0	3F004	B66C   1/10	99	その他のもの	Others
+B66C   1/12  \	2	2	3F004	B66C   1/12	10	チェーン，ワイヤ，ロープ，または帯体からなるスリング；ネット（クレーンのフックからロープまたはチェーンによって吊り下げられる，物品側面把持器Ｂ６６Ｃ１／４２）	Slings comprising chains, wires, ropes, or bands; Nets (article side grippers suspended by ropes or chains from crane hooks B66C 1/42)
+B66C   1/12  A	2	0	3F004	B66C   1/12	42	スリング〔例．玉掛けロ−プ〕	Slings, e.g. slinging ropes
+B66C   1/12  B	2	1	3F004	B66C   1/12	204	形状；構造〔ロ−プまたはケ−ブル一般の構造Ｄ０７Ｂ１／００〕	Profiles; structures (rope or cable structures in general D 07 B 1/00)
+B66C   1/12  D	2	1	3F004	B66C   1/12	119	玉掛け作業補助装置	Auxiliary devices for slinging work
+B66C   1/12  E	2	2	3F004	B66C   1/12	233	スリングの拡開具，設定具	Sling expanders or setters
+B66C   1/12  F	2	2	3F004	B66C   1/12	12	不使用時にスリングを縮めておく弾性体〔例．スプリング〕を有するもの〔外れ止め用Ｎ，フツク付きスリング用１／１４Ｈ〕	with elastic bodies for shrinking slings when not used, e.g. spring (e.g. for preventing disengagement N, for slings with hook 1/14 H)
+B66C   1/12  G	2	2	3F004	B66C   1/12	104	自動玉掛け装置	Automatic slinging devices
+B66C   1/12  H	2	1	3F004	B66C   1/12	127	チヨ−ク吊りするもの〔フツク付きスリング１／１４Ｂ〕	for choke slinging (slings with hooks 1/14 B)
+B66C   1/12  J	2	1	3F004	B66C   1/12	290	反転または転回用〔反転または転回用補助装置１３／０８〕	for overturning or rotating (auxiliary devices for overturning or rotating 13/08)
+B66C   1/12  K	2	1	3F004	B66C   1/12	5	特に物品を牽引するためのもの	mainly for towing articles
+B66C   1/12  L	2	1	3F004	B66C   1/12	112	補助具〔Ｄ優先〕	Auxiliary devices (D takes precedence)
+B66C   1/12  M	2	2	3F004	B66C   1/12	236	物品の保護具または保持具〔例．当て金，保護コ−ナ〕〔包装結束用Ｂ６５Ｄ５９／００，７１／０４〕外れ止め〔フツク付きスリング用１／１４Ｊ〕	Protectors or retainers for articles, e.g. backing plates, corner protections (for tying packages B 65 D 59/00, 71/04) stoppers (for slings with hooks 1/14 J)
+B66C   1/12  N	2	2	3F004	B66C   1/12	65	外れ止め〔フツク付きスリング用１／１４Ｊ〕	Stoppers (for slings with hooks 1/18 G)
+B66C   1/12  P	2	0	3F004	B66C   1/12	203	ネツト〔例．モツコ〕〔帯状スリングからなるもの１／１８Ｇ〕	Nets, e.g. straw mats (consisting of strip slings 1/18 G)
+B66C   1/12  Q	2	1	3F004	B66C   1/12	38	安全装置〔例．オ−バ−ロ−ド表示，寿命表示〕	Safety devices, e.g. indicating overloading or life
+B66C   1/12  R	2	1	3F004	B66C   1/12	27	スリングチエ−ン吊掛具	Sling chain hooks
+B66C   1/12  Z	2	0	3F004	B66C   1/12	137	その他のもの	Others
+B66C   1/14  \	3	3	3F004	B66C   1/14	4	フックを有するスリング	Slings with hooks
+B66C   1/14  A	3	0	3F004	B66C   1/14	76	物品にスリングを巻回して吊り上げまたは牽引するもの	Lifting or towing by winding sling around articles
+B66C   1/14  B	3	1	3F004	B66C   1/14	128	チヨ−ク吊りするもの	Choke slinging
+B66C   1/14  C	3	0	3F004	B66C   1/14	310	フツクが物品に係合するもの〔例．ハツカ〕	Hookers engaged with articles, e.g. hacker
+B66C   1/14  D	3	1	3F004	B66C   1/14	132	クランプ型ハツカ〔横吊りクランプ自体，１／４８〕	Clamp type hackers (horizontal clamps per se 1/48)
+B66C   1/14  E	3	1	3F004	B66C   1/14	110	物品に設けられた孔に係合するもの	Engaging in holes provided in articles
+B66C   1/14  F	3	1	3F004	B66C   1/14	84	物品に設けられた凸起，ピンに係合するもの	Engaging with protrusions or pins provided on articles
+B66C   1/14  G	3	0	3F004	B66C   1/14	133	補助具	Auxiliary devices
+B66C   1/14  H	3	1	3F004	B66C   1/14	39	不使用時にスリングを縮めておく弾性体〔例．スプリング〕を有するもの	with elastic bodies for shrinking slings when not used, e.g. spring
+B66C   1/14  J	3	1	3F004	B66C   1/14	37	外れ止め〔フツクの外れ止め〕	Stoppers (preventing hooks from being dislocated)
+B66C   1/14  Z	3	0	3F004	B66C   1/14	117	その他のもの	Others
+B66C   1/16  \	3	3	3F004	B66C   1/16	652	荷物係合用のプラットホームまたは枠組を有するスリング	Slings with load-engaging platforms or frameworks
+B66C   1/18  \	3	3	3F004	B66C   1/18	8	帯状スリング	Band-type slings
+B66C   1/18  A	3	0	3F004	B66C   1/18	27	金属製〔例．ワイヤロ−プベルト，チエ−ンベルト，金網ベルト〕	made of metals, e.g. wire rope belts, chain belts, wire mesh belts
+B66C   1/18  B	3	0	3F004	B66C   1/18	293	繊維製〔例．高分子繊維スリングベルト〕〔金属繊維はＡ〕	made of fabrics, e.g. high polymer fibre sling belts (metal fibres A)
+B66C   1/18  D	3	1	3F004	B66C   1/18	49	安全装置〔例．オ−バ−ロ−ド表示，寿命表示〕	Safety devices, e.g. indicating overloading or life
+B66C   1/18  F	3	1	3F004	B66C   1/18	60	連結具	Connecting devices
+B66C   1/18  G	3	0	3F004	B66C   1/18	205	帯状スリングからなるネツト〔他のスリングからなるもの１／１２Ｐ〕	Nets made of strip slings (made of other slings 1/12 P)
+B66C   1/18  Z	3	0	3F004	B66C   1/18	30	その他のもの	Others
+B66C   1/20  \	3	3	3F004	B66C   1/20	122	車を取り扱うために特に適合するもの	specially adapted for handling vehicles
+B66C   1/22  \	2	2	3F004	B66C   1/22	1	荷物の下面と係合する部分を有する剛直な部材，例．Ｌ形状の部材；クレーンフック	Rigid members, e.g. L-shaped members, with parts engaging the under surface of the loads; Crane hooks
+B66C   1/22  A	2	0	3F004	B66C   1/22	14	吊ビ−ムに懸吊されたもの〔吊ビ−ム１／１０〕	suspended from suspension beams (suspension beams 1/10)
+B66C   1/22  B	2	0	3F004	B66C   1/22	21	バ−型またはＵ型のフツク	Bar or U-shaped hooks
+B66C   1/22  Z	2	0	3F004	B66C   1/22	14	その他のもの	Others
+B66C   1/24  \	3	3	3F004	B66C   1/24	405	１つの側面のみから荷物を係合する１個の部材	Single members engaging the loads from one side only
+B66C   1/24  A	3	0	3F004	B66C   1/24	42	吊りビ−ムに懸吊されたもの	suspended from suspension beams
+B66C   1/24  B	3	0	3F004	B66C   1/24	153	Ｌ型フツク；クレ−ンフオ−ク〔フオ−クリフト用Ｂ６６Ｆ９／１２〕	L-shaped hooks; crane forks (for forklifts B 66 F 9/12)
+B66C   1/24  C	3	1	3F004	B66C   1/24	63	クランプ部材を有するもの	with clamping members
+B66C   1/24  D	3	0	3F004	B66C   1/24	358	Ｃ型フツク；クロ−クレ−ンのクロ−	C-shaped hooks; claws of claw cranes
+B66C   1/24  E	3	1	3F004	B66C   1/24	320	クランプ部材を有するもの	with clamping members
+B66C   1/24  F	3	0	3F004	B66C   1/24	141	細部；構造	Details; structures
+B66C   1/24  Z	3	0	3F004	B66C   1/24	83	その他のもの	Others
+B66C   1/26  \	4	4	3F004	B66C   1/26	13	荷物を解放する手段をもつもの	with means for releasing the loads
+B66C   1/28  \	3	3	3F004	B66C   1/28	864	２つの側面から荷物に係合する一対の部材，例．枢着された部材	Duplicate, e.g. pivoted, members engaging the loads from two sides
+B66C   1/28  A	3	0	3F004	B66C   1/28	44	部材の揺動により係合するもの〔Ｊ優先〕	engaged by oscillation of articles (J takes precedence)
+B66C   1/28  B	3	1	3F004	B66C   1/28	329	動力式	Power type
+B66C   1/28  C	3	1	3F004	B66C   1/28	215	無動力式	Non-power type
+B66C   1/28  D	3	0	3F004	B66C   1/28	547	部材の水平移動により係合するもの〔Ｋ優先〕	engaged by horizontal movement of articles (K takes precedence)
+B66C   1/28  E	3	1	3F004	B66C   1/28	120	平行リンク機構によるもの	by parallel linkage mechanisms
+B66C   1/28  F	3	0	3F004	B66C   1/28	202	部材の係合先端部が揺動または回動するもの〔Ｈ優先〕	oscillating or revolving engagement tip of articles (H takes precedence)
+B66C   1/28  G	3	1	3F004	B66C   1/28	174	垂直軸回りに回動するもの	revolving around vertical axis
+B66C   1/28  H	3	0	3F004	B66C   1/28	277	物品の頭部等のフランジまたは突部に係合するもの	engaging with flange or protrusion on article head
+B66C   1/28  J	3	1	3F004	B66C   1/28	321	揺動式	Oscillating type
+B66C   1/28  K	3	1	3F004	B66C   1/28	295	水平移動式	Horizontal movement type
+B66C   1/28  Z	3	0	3F004	B66C   1/28	319	その他のもの	Others
+B66C   1/30  \	4	4	3F004	B66C   1/30	0	かつ，荷物の側面を把持するために配置したもの	and also arranged to grip the sides of the loads
+B66C   1/30  A	4	0	3F004	B66C   1/30	2	部材の揺動により係合するもの〔Ｊ優先〕	engaged by oscillation of articles (J takes precedence)
+B66C   1/30  B	4	1	3F004	B66C   1/30	3	動力式	Power type
+B66C   1/30  C	4	1	3F004	B66C   1/30	4	無動力式	Non-power type
+B66C   1/30  D	4	0	3F004	B66C   1/30	7	部材の水平移動により係合するもの〔Ｋ優先〕	engaged by horizontal movement of articles (K takes precedence)
+B66C   1/30  E	4	1	3F004	B66C   1/30	1	平行リンク機構によるもの	by parallel linkage mechanisms
+B66C   1/30  F	4	0	3F004	B66C   1/30	2	部材の係合先端部が揺動または回動するもの〔Ｈ優先〕	oscillating or revolving engagement tip of articles (H takes precedence)
+B66C   1/30  G	4	1	3F004	B66C   1/30	3	垂直軸回りに回動するもの	revolving around vertical axis
+B66C   1/30  H	4	0	3F004	B66C   1/30	1	物品の頭部等のフランジまたは突部に係合するもの	engaging with flange or protrusion on article head
+B66C   1/30  J	4	1	3F004	B66C   1/30	1	揺動式	Oscillating type
+B66C   1/30  K	4	1	3F004	B66C   1/30	1	水平移動式	Horizontal movement type
+B66C   1/30  Z	4	0	3F004	B66C   1/30	1	その他のもの	Others
+B66C   1/32  \	5	5	3F004	B66C   1/32	0	積み重ねた物品の側面を把持するために配置したもの	of piled or stacked articles
+B66C   1/32  A	5	0	3F004	B66C   1/32	0	部材の揺動により係合するもの〔Ｊ優先〕	engaged by oscillation of articles (J takes precedence)
+B66C   1/32  B	5	1	3F004	B66C   1/32	0	動力式	Power type
+B66C   1/32  C	5	1	3F004	B66C   1/32	1	無動力式	Non-power type
+B66C   1/32  D	5	0	3F004	B66C   1/32	1	部材の水平移動により係合するもの〔Ｋ優先〕	engaged by horizontal movement of articles (K takes precedence)
+B66C   1/32  E	5	1	3F004	B66C   1/32	0	平行リンク機構によるもの	by parallel linkage mechanisms
+B66C   1/32  F	5	0	3F004	B66C   1/32	3	部材の係合先端部が揺動または回動するもの〔Ｈ優先〕	oscillating or revolving engagement tip of articles (H takes precedence)
+B66C   1/32  G	5	1	3F004	B66C   1/32	0	垂直軸回りに回動するもの	revolving around vertical axis
+B66C   1/32  H	5	0	3F004	B66C   1/32	0	物品の頭部等のフランジまたは突部に係合するもの	engaging with flange or protrusion on article head
+B66C   1/32  J	5	1	3F004	B66C   1/32	2	揺動式	Oscillating type
+B66C   1/32  K	5	1	3F004	B66C   1/32	0	水平移動式	Horizontal movement type
+B66C   1/32  Z	5	0	3F004	B66C   1/32	1	その他のもの	Others
+B66C   1/34  \	3	3	3F004	B66C   1/34	1074	クレーンのフック	Crane hooks
+B66C   1/34  A	3	0	3F004	B66C   1/34	221	フツクの形状；構造〔フツク一般Ｆ１６Ｂ４５／００〕	Hook profiles; structures (hook in general F 16 B 45/00)
+B66C   1/34  B	3	1	3F004	B66C   1/34	12	ラミネ−ト・フツク	Laminated hooks
+B66C   1/34  C	3	0	3F004	B66C   1/34	508	フツクの支持装置；フツクブロツク〔プ−リ・ブロツクＢ６６Ｄ３／０４〕	Hook supports; hook blocks (pulleys or blocks B 66 D 3/04)
+B66C   1/34  D	3	1	3F004	B66C   1/34	437	回転装置を有するもの	With rotating devices
+B66C   1/34  E	3	1	3F004	B66C   1/34	91	回転防止；振れ止め〔荷の振れ止め１３／０６〕	Preventing from turning; braces (load braces 13/06)
+B66C   1/34  F	3	1	3F004	B66C   1/34	40	電気的絶縁〔それ自体Ｈ０１Ｂ３／００，１７／００〕	Electric insulation (electric insulation per se H 01B 3/00, 17/00)
+B66C   1/34  G	3	1	3F004	B66C   1/34	80	緩衝，徐降；インチング〔緩衝一般Ｆ１６Ｆ；インチング自体１３／０８〕	Damping, gradual falling; inching (damping in general 16 F; inching per se 13/08)
+B66C   1/34  H	3	0	3F004	B66C   1/34	410	特殊目的用〔Ｌ優先〕	For special purposes (L takes precedence)
+B66C   1/34  J	3	1	3F004	B66C   1/34	68	チエ−ン・グラブ・フツク	Chains, grabs or hooks
+B66C   1/34  K	3	1	3F004	B66C   1/34	145	バケツトを吊り上げ操作するためのもの；レ−ドルクレ−ン用〔ラミネ−トフツクＢ，レ−ドルクレ−ン１７／１０〕	for lifting and operating buckets; for ladle cranes (laminated hooks B, ladle cranes 17/10)
+B66C   1/34  L	3	0	3F004	B66C   1/34	423	荷物を解放する手段をもつもの〔例．手動によるもの〕	with means for releasing loads, e.g. by hand operations
+B66C   1/34  M	3	1	3F004	B66C   1/34	511	自動解放型；遠隔操作によるもの〔ケ−ブルの弛みによるもの１／３８〕〔Ｎ優先〕	automatic release type: by remote operations (by slackened cables 1/38) (N takes precedence)
+B66C   1/34  N	3	1	3F004	B66C   1/34	52	自動掛け外し可能なもの	Automatically engaged and disengaged
+B66C   1/34  P	3	1	3F004	B66C   1/34	177	チヤツカ−，すなわち係合ピンを抜き取つて解放するもの	releasing by pulling out chucker, e.g. engagement pin
+B66C   1/34  Q	3	0	3F004	B66C   1/34	39	フツクとの係合部材〔例．シヤツクル〕がフツクに自動的に掛け外し可能なもの	engagement members with hooks, e.g. shackles that can be automatically engaged or disengaged with hook
+B66C   1/34  Z	3	0	3F004	B66C   1/34	124	その他のもの	Others
+B66C   1/36  \	4	4	3F004	B66C   1/36	327	荷物が不注意に外れる事を防ぐための装置をもつもの，例．バネで付勢された戻り止め装置	with means, e.g. spring-biased detents, for preventing inadvertent disengagement of loads
+B66C   1/36  A	4	0	3F004	B66C   1/36	418	外れ止め部材がピボツト支持されているもの〔例．水平軸回りに回転可能なもの〕〔Ｃ優先，一般的なフツクについてＦ１６Ｂ４５／０２〕	stopping members supported by pivot, e.g. can be rotated around horizontal axis (C takes precedence  Hooks in general F 16 B 45/02)
+B66C   1/36  B	4	1	3F004	B66C   1/36	25	垂直軸回りに回転可能なもの	can be rotated around vertical axis
+B66C   1/36  C	4	0	3F004	B66C   1/36	61	外れ止め部材が摺動してフツクの開口部を閉塞するもの〔一般的なフツクについてＦ１６Ｂ４５／０４〕	stopping members blocking hook opening by sliding (hooks in general F 16 B 45/04)
+B66C   1/36  D	4	0	3F004	B66C   1/36	52	一対のピボツト支持されたフツク部材をもつもの〔一般的なフツクについてＦ１６Ｂ４５／０６〕	with a pair of hook members supported by pivot (hooks in general F 16 B 45/06)
+B66C   1/36  E	4	0	3F004	B66C   1/36	23	フツクの形状〔例．凸起を設けたもの〕	Hook profiles, e.g. with protrusions
+B66C   1/36  F	4	0	3F004	B66C   1/36	20	係合時に吊り上げられる物品側でフツクの離脱防止をはかるもの；係合時にフツクが物品を挟持するもの	preventing hooks from being dislocated on the article suspended when engaged; hooks gripping articles when engaged
+B66C   1/36  Z	4	0	3F004	B66C   1/36	104	その他のもの	Others
+B66C   1/38  \	4	4	3F004	B66C   1/38	460	ケーブルの緊張がなくなると荷物から自動的に解放するように適合させたもの（パラシュート用のものＢ６４Ｄ）	adapted for automatic disengagement from loads on release of cable tensions (for parachutes B64D)
+B66C   1/40  \	4	4	3F004	B66C   1/40	163	荷物の測定または表示の装置を有する構成または取付けをしたもの	formed or fitted with load-measuring or indicating devices
+B66C   1/42  \	2	2	3F004	B66C   1/42	1058	物品の外側面または内側面のみと係合するつかみ部材（製造中に鋳物またはインゴットを取り扱うまたは取り除くためのものＢ２２Ｄ２９／００）	Gripping members engaging only the external or internal surface of the articles (for handling or stripping castings or ingots during manufacture B22D 29/00)
+B66C   1/42  A	2	0	3F004	B66C   1/42	165	一対の掴み部材の揺動により物品を掴むもの〔Ｊ優先〕	gripping articles by oscillation of a pair of gripping members (J takes precedence)
+B66C   1/42  B	2	1	3F004	B66C   1/42	610	動力式	Power type
+B66C   1/42  C	2	2	3F004	B66C   1/42	18	開閉ロツク機構を有するもの	with opening and closing locking mechanisms
+B66C   1/42  D	2	1	3F004	B66C   1/42	351	無動力式	Non-power type
+B66C   1/42  E	2	2	3F004	B66C   1/42	336	自動開閉ロツク機構を有するもの，すなわち下降時に開き，係合後上昇時に閉じてロツクするもの	with automatic locking mechanisms for opening and closing motions, that is, opening when falling and locking upon rising after engagement
+B66C   1/42  F	2	0	3F004	B66C   1/42	363	一対の掴み部材の水平移動により物品を掴むもの〔Ｊ優先〕	gripping articles by horizontal movement of a pair of gripping members (J takes precedence)
+B66C   1/42  G	2	1	3F004	B66C   1/42	120	一方の掴み部材のみが移動するもの	only one gripping member moving
+B66C   1/42  H	2	1	3F004	B66C   1/42	87	平行リンク機構によるもの	by parallel linkage mechanisms
+B66C   1/42  J	2	0	3F004	B66C   1/42	41	特殊目的のためのもの	For special purposes
+B66C   1/42  K	2	1	3F004	B66C   1/42	249	物品を回転または反転可能に支持するもの	supporting articles so that they can be rotated or overturned
+B66C   1/42  L	2	1	3F004	B66C   1/42	143	物品の凹部に係合するもの〔例．間知ブロツク用〔間知ブロツクＥ０２Ｄ２９／００〕〕	engaging with concave on articles, e.g. for wedge blocks (wedge blocks E 02 D 29/00)
+B66C   1/42  M	2	1	3F004	B66C   1/42	132	円柱体用，木材用〔例．ログクランプ，テインバ−グラブ〕〔ログロ−ダＢ６６Ｆ９／１８〕	for cylinders or timbers, e.g. log clamps, timber grabs (log loaders B 66 F 9/18)
+B66C   1/42  Z	2	0	3F004	B66C   1/42	379	その他のもの	Others
+B66C   1/44  \	3	3	3F004	B66C   1/44	99	および，摩擦力を応用したもの	and applying frictional forces
+B66C   1/44  A	3	0	3F004	B66C   1/44	4	一対の掴み部材の揺動により物品を掴むもの〔Ｊ優先〕	gripping articles by oscillation of a pair of gripping members (J takes precedence)
+B66C   1/44  B	3	1	3F004	B66C   1/44	10	動力式	Power type
+B66C   1/44  C	3	2	3F004	B66C   1/44	0	開閉ロツク機構を有するもの	with opening and closing locking mechanisms
+B66C   1/44  D	3	1	3F004	B66C   1/44	19	無動力式	Non-power type
+B66C   1/44  E	3	2	3F004	B66C   1/44	7	自動開閉ロツク機構を有するもの，すなわち下降時に開き，係合後上昇時に閉じてロツクするもの	with automatic locking mechanisms for opening and closing motions, that is, opening when falling and locking upon rising after engagement
+B66C   1/44  F	3	0	3F004	B66C   1/44	8	一対の掴み部材の水平移動により物品を掴むもの〔Ｊ優先〕	gripping articles by horizontal movement of a pair of gripping members (J takes precedence)
+B66C   1/44  G	3	1	3F004	B66C   1/44	5	一方の掴み部材のみが移動するもの	only one gripping member moving
+B66C   1/44  H	3	1	3F004	B66C   1/44	4	平行リンク機構によるもの	by parallel linkage mechanisms
+B66C   1/44  J	3	0	3F004	B66C   1/44	3	特殊目的のためのもの	For special purposes
+B66C   1/44  K	3	1	3F004	B66C   1/44	10	物品を回転または反転可能に支持するもの	supporting articles so that they can be rotated or overturned
+B66C   1/44  L	3	1	3F004	B66C   1/44	3	物品の凹部に係合するもの〔例．間知ブロツク用〔間知ブロツクＥ０２Ｄ２９／００〕〕	engaging with concave on articles, e.g. for wedge blocks (wedge blocks E 02 D 29/00)
+B66C   1/44  M	3	1	3F004	B66C   1/44	3	円柱体，木材または中実棒用〔例．ログクランプ，テインバ−グラブ〕〔ログロ−ダＢ６６Ｆ９／１８〕	for cylindrical bodies, timbers or solid rods, e.g. log clamps, timber grabs (log loaders B 66 F 9/18)
+B66C   1/44  N	3	2	3F004	B66C   1/44	97	締め付けによるもの；クランプ式〔パイプ用１／４８〕	by tightening; clamp type (for pipe 1/48)
+B66C   1/44  P	3	0	3F004	B66C   1/44	272	細部；掴み部材の物品との接触部の形状・構造	Details; profiles or structures of contacts between gripping members and articles
+B66C   1/44  Z	3	0	3F004	B66C   1/44	6	その他のもの	Others
+B66C   1/46  \	4	4	3F004	B66C   1/46	155	膨張要素によるもの	by inflatable elements
+B66C   1/48  \	4	4	3F004	B66C   1/48	643	シートまたはパイプ等の薄肉の物品または薄肉壁で囲まれた物品の垂直端部に用いるもの（内部拡張式の把持器Ｂ６６Ｃ１／５４）	to vertical edge portions of sheets, tubes, or like thin or thin-walled articles (internally-expanding grippers B66C 1/54)
+B66C   1/54  \	4	4	3F004	B66C   1/54	381	中空物品の取扱い用内部拡張式把持器（Ｂ６６Ｃ１／４６が優先）［２］	Internally-expanding grippers for handling hollow articles (B66C 1/46 takes precedence) [2]
+B66C   1/56  \	5	5	3F004	B66C   1/56	183	チューブ取り扱い用のもの	for handling tubes
+B66C   1/58  \	3	3	3F004	B66C   1/58	256	および物品を変形させるもの，例．トングまたはグラップルのような掴み部材を用いるもの	and deforming the articles, e.g. by using gripping members such as tongs or grapples
+B66C   1/58  A	3	0	3F004	B66C   1/58	186	一対の掴み部材の揺動により物品を掴むもの〔Ｊ優先〕	gripping articles with a pair of gripping members (J takes precedence)
+B66C   1/58  B	3	1	3F004	B66C   1/58	15	動力式	power type
+B66C   1/58  C	3	2	3F004	B66C   1/58	1	開閉ロツク機構を有するもの	with opening and closing locking mechanisms
+B66C   1/58  D	3	1	3F004	B66C   1/58	6	無動力式	non-power type
+B66C   1/58  E	3	2	3F004	B66C   1/58	3	自動開閉ロツク機構を有するもの，すなわち下降時に開き，係合後上昇時に閉じてロツクするもの	with automatically opened and closed locking mechanisms, e.g. opened during falling and closed and locked during rising after engagement
+B66C   1/58  F	3	0	3F004	B66C   1/58	6	一対の掴み部材の水平移動により物品を掴むもの〔Ｊ優先〕	gripping articles by horizontal motion of a pair of gripping member (J takes precedence)
+B66C   1/58  G	3	1	3F004	B66C   1/58	3	一方の掴み部材のみが移動するもの	only one gripping member moving
+B66C   1/58  H	3	1	3F004	B66C   1/58	0	平行リンク機構によるもの	by parallel linkage mechanisms
+B66C   1/58  J	3	0	3F004	B66C   1/58	2	特殊目的のためのもの	for special purposes
+B66C   1/58  K	3	1	3F004	B66C   1/58	9	物品を回転または反転可能に支持するもの	supporting articles so that they can be rotated or overturned
+B66C   1/58  L	3	1	3F004	B66C   1/58	1	物品の凹部に係合するもの〔例．間知ブロツク用〕	engaging with concave on articles, e.g. for kenchi blocks
+B66C   1/58  M	3	1	3F004	B66C   1/58	3	円柱体用，木材用〔例．ログクランプ，テインバ−グラブ〕	for cylindrical bodies, timbers or solid rods, e.g. log clamps, timber grabs
+B66C   1/58  P	3	0	3F004	B66C   1/58	136	細部；掴み部材の物品との接解部〔例．トングポンチ〕の形状，構造；その取替え	Details; profiles or structures of contact portions between gripping members and articles, e.g. tongue punch; replacements thereof
+B66C   1/58  Z	3	0	3F004	B66C   1/58	3	その他のもの	Others
+B66C   1/59  \	4	4	3F004	B66C   1/59	59	袋用のトング［３］	Tongs for sacks [3]
+B66C   1/62  \	2	2	3F004	B66C   1/62	12	取り扱おうとする物品の形状に合うようにした形状の物品係合部材	comprising article-engaging members of a shape complementary to that of the articles to be handled
+B66C   1/62  A	2	0	3F004	B66C   1/62	205	物品の頭部〔例．ボトルネツク〕に係合するもの	engaging with head of articles, e.g. bottle neck
+B66C   1/62  B	2	0	3F004	B66C   1/62	218	缶体〔例．ドラム缶，ガスボンべ〕を取扱うためのもの〔例．ドラムグリツパ−〕	for handling cans, e.g. drums, gas cylinders (e.g. drum grippers)
+B66C   1/62  C	2	0	3F004	B66C   1/62	388	長尺物〔例．円柱，角柱〕用〔例．水平吊り〕〔形鋼用１／６４〕	for elongated articles, e.g. cylinders or prisms (e.g. horizontal suspension) (for shaped steels 1/64)
+B66C   1/62  E	2	1	3F004	B66C   1/62	226	縦吊り	vertical suspension
+B66C   1/62  G	2	0	3F004	B66C   1/62	320	板状体の縦吊り〔クランプによるもの，１／４８〕	vertical suspension of bodies in platy (by clamps 1/48)
+B66C   1/62  H	2	0	3F004	B66C   1/62	322	コンクリ−ト製品用〔例．間知ブロツク，レンガ用〕	for concrete products, e.g. for kenchi blocks or bricks
+B66C   1/62  M	2	1	3F004	B66C   1/62	95	消波ブロツク用	for wave blocks
+B66C   1/62  N	2	1	3F004	B66C   1/62	136	Ｕ字溝用	for U-shaped ditches
+B66C   1/62  P	2	2	3F004	B66C   1/62	117	Ｕ字溝に設けられた穴に係合する部材を有するもの〔Ｕ字溝に設けられた穴の補強具含む〕	with members engaged with holes provided in U-shaped ditches (including reinforcing articles for holes provided with U-shaped ditches)
+B66C   1/62  Z	2	0	3F004	B66C   1/62	223	その他のもの	Others
+B66C   1/64  \	3	3	3F004	B66C   1/64	281	ＴまたはＩ断面のビームもしくはガーダー用のもの	for T- or I-section beams or girders
+B66C   1/66  \	3	3	3F004	B66C   1/66	237	物品の取り扱いを容易にするためにその物品に特別に用意された係合の孔，くぼみ，または突出部もしくは受部，またはそのための係合部材	for engaging holes, recesses, or abutments on articles specially provided for facilitating handling thereof
+B66C   1/66  K	3	0	3F004	B66C   1/66	491	物品の孔または中空物品の中空部に挿入してから拡開し，物品の底縁に係合するもの	unfolded and engaged at bottom rim of articles after inserted into hole in article or hollow portion of hollow article
+B66C   1/66  P	3	0	3F004	B66C   1/66	1004	物品の係合部，またはそのための係合部材；吊り金具〔例．アイボルト，アイプレ−ト〕	engagement portions or members for articles; suspension pieces, e.g. eyebolts, eye plates
+B66C   1/66  Q	3	1	3F004	B66C   1/66	153	コンクリ−ト製品吊上げ用植込みボルト	stud bolts for suspending concrete products
+B66C   1/66  R	3	1	3F004	B66C   1/66	228	物品の孔に係合部材〔例．ピン〕を側面より挿入するもの〔Ｕ字溝用１／６２Ｐ〕	inserting engagement members, e.g. pins into holes of articles from side surface (for U-shaped ditches 1/62 P)
+B66C   1/66  Z	3	0	3F004	B66C   1/66	81	その他のもの	Others
+B66C   1/68  \	1	1	3F004	B66C   1/68	352	ジブに取り付けられたものまたはこれにより案内されるもの（ジブＢ６６Ｃ２３／６４）	mounted on, or guided by, jibs (jibs B66C 23/64)
+B66C   1/68  A	1	0	3F004	B66C   1/68	211	フツク〔それ自体１／３４〕	Hooks (per se 1/34)
+B66C   1/68  B	1	0	3F004	B66C   1/68	689	掴み部材〔それ自体１／４２〕	Gripping members (per se 1/42)
+B66C   1/68  Z	1	0	3F004	B66C   1/68	133	その他のもの〔例．フオ−ク〕〔電磁石装置１／０６Ｍ，グラブバケツト３／２０〕	Others, e.g. forks (solenoid devices 1/06 M, grab buckets 3/20)
+B66C   3/00  \	0	0	3F004	B66C   3/00	386	クレーンのもち上げ，下げの装置に取付けられているかまたはこれとの連結に適合されていて，主としてばら物に持ち上げる力を伝えることを意図するところの荷物係合要素または装置；グラブ（バケットまたはその他の容器Ｂ６５Ｄ，例．パレットＢ６５Ｄ１９／００，グラブを備えた掘削機，凌渫機Ｅ０２Ｆ）	Load-engaging elements or devices attached to lifting or lowering gear of cranes or adapted for connection therewith and intended primarily for transmitting lifting forces to loose materials; Grabs (buckets or other containers B65D, e.g. pallets B65D 19/00; dredges equipped with grabs E02F)
+B66C   3/02  \	1	1	3F004	B66C   3/02	12	バケットグラブ	Bucket grabs
+B66C   3/02  A	1	0	3F004	B66C   3/02	305	クラムシエル型	Clam shell type
+B66C   3/02  F	1	0	3F004	B66C   3/02	56	多顎型〔例．ポリツプ型，オレンジピ−ル型〕	Multi-jaw type, e.g. polyp type or orange peel type
+B66C   3/02  Z	1	0	3F004	B66C   3/02	75	その他のもの	Others
+B66C   3/04  \	1	1	3F004	B66C   3/04	49	クシ歯グラブ	Tine grabs
+B66C   3/06  \	1	1	3F004	B66C   3/06	101	単索または単鎖により作動するグラブ	Grabs actuated by a single rope or chain
+B66C   3/08  \	2	2	3F004	B66C   3/08	97	および傾動環を有するもの	and having tipping rings
+B66C   3/10  \	2	2	3F004	B66C   3/10	95	およびグラブが品物の山の上へ降下すると自動的に開くバケットを有するもの	and having buckets opening automatically upon the grab being lowered on to the dump of material
+B66C   3/12  \	1	1	3F004	B66C   3/12	200	２本またはそれ以上のロープにより作動するグラブ	Grabs actuated by two or more ropes
+B66C   3/14  \	1	1	3F004	B66C   3/14	158	グラブ上のモータで開閉するグラブ	Grabs opened or closed by driving motors thereon
+B66C   3/16  \	2	2	3F004	B66C   3/16	263	流体モータによるもの	by fluid motors
+B66C   3/18  \	2	2	3F004	B66C   3/18	161	電動機によるもの	by electric motors
+B66C   3/20  \	1	1	3F004	B66C   3/20	95	ジブに取り付けられたものまたはこれにより案内されるもの（ジブＢ６６Ｃ２３／６４）	mounted on, or guided by, jibs (jibs B66C 23/64)
+B66C   5/00  \	0	0	3F202	B66C   5/00	599	脚を有する基部支持構造	Base-supporting structures with legs
+B66C   5/02  \	1	1	3F202	B66C   5/02	709	固定または走行式のブリッジまたはガントリー，すなわち逆Ｌまたは逆Ｕ型の細長い構造のもの	Fixed or travelling bridges or gantries, i.e. elongated structures of inverted-L- or of inverted-U-shape
+B66C   5/04  \	2	2	3F202	B66C   5/04	108	ブリッジまたはガントリーに対して相対移動するように支持された走行路または軌道をもつもの	with runways or tracks supported for movements relative to bridge or gantry
+B66C   5/06  \	2	2	3F202	B66C   5/06	52	横へ揺動するように支持された走行路またはトラックを有するもの	with runways or tracks supported for lateral swinging movements
+B66C   5/08  \	2	2	3F202	B66C   5/08	172	垂直に傾けられる走行路または軌道をもつもの	with vertically-inclinable runways or tracks
+B66C   5/10  \	1	1	3F202	B66C   5/10	35	門，すなわち旋回ジブクレーンを支持するために特に適合させ，３本またはそれ以上の脚をもった円形または四角形のプラットホームを必須とするもの	Portals, i.e. essentially circular or square platforms with three or more legs specially adapted for supporting slewing jib cranes
+B66C   6/00  \	0	0	3F202	B66C   6/00	348	特にクレーンに適合させたガーダーまたは軌道支持の構造（脚を有する基部支持構造Ｂ６６Ｃ５／００；けた一般Ｅ０４Ｃ３／０２）	Girders, or track-supporting structures, specially adapted for cranes (base-supporting structures with legs B66C 5/00; girders in general E04C 3/02)
+B66C   7/00  \	0	0	3F202	B66C   7/00	228	トロリーまたはクレーン用の走行路，軌道，トラックウエイ	Runways, tracks, or trackways for trolleys or cranes
+B66C   7/02  \	1	1	3F202	B66C   7/02	111	トロリーまたはクレーンを吊り下げるもの	for underhung trolleys or cranes
+B66C   7/04  \	2	2	3F202	B66C   7/04	121	トラックウエイの支持構造	Trackway suspension
+B66C   7/06  \	3	3	3F202	B66C   7/06	79	簡単な組立で建造した支柱によるもの，例．輸送可能なもの	on supports constructed for easy erection, e.g. transportable
+B66C   7/08  \	1	1	3F202	B66C   7/08	287	走行路のレールまたはレールの支持についての構造上の特徴（一般の適用Ｅ０１Ｂ）	Constructional features of runway rails or rail mountings (of general application E01B)
+B66C   7/10  \	1	1	3F202	B66C   7/10	193	張り出し走行路または軌道についての装置	Arrangements or devices for extending runways or tracks
+B66C   7/12  \	1	1	3F202	B66C   7/12	481	走行方向を変更させる装置，または一つの走行路から他へ移動させる装置；クロッシング；軌間の異なった軌道の結合装置（一般に適用する移動装置Ｅ０１Ｂ）	Devices for changing direction of travel or for transferring from one runway to another; Crossings; Combinations of tracks of different gauges (transfer devices of general application E01B)
+B66C   7/14  \	2	2	3F202	B66C   7/14	356	走行路をつなぎ合わせる装置	Runway interlocking devices
+B66C   7/16  \	1	1	3F202	B66C   7/16	231	トロリーまたはクレーンの走行を制限するために特に適合した装置；緩衝停止装置（この適用とは別の重要な緩衝停止装置Ｂ６１Ｋ７／１８；リミットスイッチ配列，リミット回路Ｂ６６Ｄ１／５６）	Devices specially adapted for limiting trolley or crane travel; Arrangements of buffer-stops (buffer-stops of interest apart from this application B61K 7/18; limit-switch arrangements, limit circuits B66D 1/56)
+B66C   9/00  \	0	0	3F203	B66C   9/00	169	トロリーまたはクレーンに組み込まれ，または取付けられた走行装置（浚渫船用Ｅ０２Ｆ）	Travelling gear incorporated in, or fitted to, trolleys or cranes (for dredgers E02F)
+B66C   9/02  \	1	1	3F203	B66C   9/02	72	トロリーまたはクレーンを吊り下げるもの	for underhung trolleys or cranes
+B66C   9/04  \	1	1	3F203	B66C   9/04	119	カーブの通過を容易にするためのもの	to facilitate negotiation of curves
+B66C   9/06  \	1	1	3F203	B66C   9/06	28	二つ以上の軌間のためのもの	for more than one rail gauge
+B66C   9/08  \	1	1	3F203	B66C   9/08	529	走行部；走行部の軸受（軌条車両用の車輪Ｂ６０Ｂ）	Runners; Runner bearings (wheels for railbound vehicles B60B)
+B66C   9/10  \	1	1	3F203	B66C   9/10	306	車台またはボギー，例．端部台架，端部ボギー	Undercarriages or bogies, e.g. end carriages, end bogies
+B66C   9/12  \	2	2	3F203	B66C   9/12	61	車輪の負荷を平等にするための荷重分配装置をもつもの	with load-distributing means for equalising wheel pressure
+B66C   9/14  \	1	1	3F203	B66C   9/14	599	トロリーまたはクレーンの走行駆動装置（荷物またはトロリー用のロープ装置，ケーブル装置，チェーン装置Ｂ６６Ｃ１１／１６；制御装置Ｂ６６Ｃ１３／１８）	Trolley or crane travel drives (rope, cable, or chain drives for loads or trolleys B66C 11/16; control B66C 13/18)
+B66C   9/16  \	1	1	3F203	B66C   9/16	18	車輪と軌道との間の整合を維持するための装置をもつもの	with means for maintaining alignment between wheels and track
+B66C   9/16  A	1	0	3F203	B66C   9/16	95	蛇行防止〔制御手段，ただし蛇行停止・修正制御は，Ｂ６６Ｃ１３／２２Ｇ，Ｊ〕「図」	preventing winding (control means, stopping winding or correction control B 66 C 13/22 G or J) [figure]
+B66C   9/16  Z	1	0	3F203	B66C   9/16	444	その他のもの〔蛇行防止用ガイド材構〕「図」	Others (guide material structures for preventing winding) [figure]
+B66C   9/18  \	1	1	3F203	B66C   9/18	379	トロリーまたはクレーンが不注意に動かないよう防止するために走行路または軌道に対してロックする装置をもつもの	with means for locking trolleys or cranes to runways or tracks to prevent inadvertent movements
+B66C  11/00  \	0	0	3F203	B66C  11/00	627	トロリーまたはクラブ，例．走行路の上で作動するもの（トロリーまたはクラブ用の走行路，軌道またはトラックウェイＢ６６Ｃ７／００；ウインチ機構Ｂ６６Ｄ）	Trolleys or crabs, e.g. operating above runways (runways, tracks, or trackways therefor B66C 7/00; winch mechanisms B66D)
+B66C  11/02  \	1	1	3F203	B66C  11/02	213	走行路，軌道から吊り下げまたはズラせたところの運転装置または運転室をもつもの	with operating gear or operator's cabin suspended, or laterally offset, from runway or track
+B66C  11/04  \	2	2	3F203	B66C  11/04	355	吊り下がりトロリー（共通のハウジング中に含まれる駆動モータおよびドラムまたはバレルを有する動力作動ホイストＢ６６Ｄ３／２０）	Underhung trolleys (power-operated hoists with driving motor and drum or barrel contained in a common housing B66D 3/20)
+B66C  11/06  \	3	3	3F203	B66C  11/06	317	モノレール上を走行するもの（天井走行軌道方式Ｂ６１Ｂ）	running on monorails (overhead railway systems B61B)
+B66C  11/08  \	1	1	3F203	B66C  11/08	117	ターンテーブルをもつもの	with turntables
+B66C  11/10  \	2	2	3F203	B66C  11/10	60	ジブを備えているもの（ジブクレーンＢ６６Ｃ２３／００）	equipped with jibs (jib cranes B66C 23/00)
+B66C  11/12  \	1	1	3F203	B66C  11/12	99	特別な荷物係合装置に適合したホイスト装置であってその他の分類に属さないもの	having hoisting gear adapted to special load-engaging elements and not otherwise provided for
+B66C  11/14  \	1	1	3F203	B66C  11/14	81	特別の形態のクレーンまたはブリッジ構造の上で作動するために適合せしめたもの，例．長方形断面の補強されたコンクリートガーダーの上で	adapted to operate on crane or bridge structure of particular configuration, e.g. on reinforced concrete girders of rectangular cross-section
+B66C  11/16  \	1	1	3F203	B66C  11/16	457	トロリー用のロープ駆動，ケーブル駆動またはチェーン駆動；ホイスト装置を有するそれら駆動の組み合せ	Rope, cable, or chain drives for trolleys; Combinations of such drives with hoisting gear
+B66C  11/18  \	2	2	3F203	B66C  11/18	307	エンドレスロープまたはケーブルを含むもの	comprising endless ropes or cables
+B66C  11/20  \	2	2	3F203	B66C  11/20	79	走行装置およびホイスト装置の同時運転または選択運転を可能にする装置，例．差動歯車を含む装置；走行およびホイストの両方に同じロープまたはケーブルを使用した装置，例．テンパリークレーン中のもの（駆動モータおよびウインチドラム間の動力伝達Ｂ６６Ｄ１／１４）	Arrangements, e.g. comprising differential gears, enabling simultaneous or selective operation of travelling and hoisting gear; Arrangements using the same rope or cable for both travelling and hoisting, e.g. in Temperley cranes (power transmissions between driving motors and winch drums B66D 1/14)
+B66C  11/22  \	2	2	3F203	B66C  11/22	51	空気圧または液圧で作動するもの	actuated pneumatically or hydraulically
+B66C  11/24  \	2	2	3F203	B66C  11/24	54	あらかじめ決められた位置に荷物またはトロリを置くためまたは保持するための装置をもつもの；ヘイホイスト	with means for locating or sustaining the loads or trolleys in predetermined positions; Hay hoists
+B66C  11/26  \	3	3	3F203	B66C  11/26	2	当り面；停止ブロック；端部止め具	Abutments; Stop blocks; End stops
+B66C  13/00  \	0	0	3F204	B66C  13/00	31	他の構造上の特徴または細部	Other constructional features or details
+B66C  13/00  A	0	0	3F204	B66C  13/00	278	防塵〔除塵〕；防音；防熱；清掃；除氷；防雨	Dustproof (dust removal); acoustic insulation; thermal insulation; cleaning; ice removal; rainproof
+B66C  13/00  B	0	0	3F204	B66C  13/00	102	給油〔給脂〕；塗油	Oiling (greasing); applying oil
+B66C  13/00  C	0	0	3F204	B66C  13/00	6	砂撒き	Scattering sand
+B66C  13/00  D	0	0	3F204	B66C  13/00	761	監視装置〔例．テレビカメラ〕	Monitoring devices, e.g. of TV cameras
+B66C  13/00  E	0	0	3F204	B66C  13/00	67	音声合成；音声識別	Synthesising voices; recognising voices
+B66C  13/00  F	0	0	3F204	B66C  13/00	168	ロ−プの取替；掛替；取付	Replacing ropes; switching; mounting
+B66C  13/00  G	0	0	3F204	B66C  13/00	95	ロ−プの絡み防止；ロ−プのよりもどし	Preventing ropes from being entangling; correcting entangled ropes
+B66C  13/00  H	0	0	3F204	B66C  13/00	46	ロ−プの端部処理	Terminating treatment for ropes
+B66C  13/00  J	0	0	3F204	B66C  13/00	14	通話装置	Calling devices
+B66C  13/00  K	0	0	3F204	B66C  13/00	24	運転訓練用シミユレ−タ	Simulators for operation training
+B66C  13/00  Z	0	0	3F204	B66C  13/00	241	その他のもの	Others
+B66C  13/02  \	1	1	3F204	B66C  13/02	58	浮いている物体の回収を容易にする装置，例．水面から船舶を回収するためのもの（救命艇を取扱うものＢ６３Ｂ２３／００；船舶上の装置を用いて浮いている貨物を積込または積卸しするものＢ６３Ｂ２７／３６；水上浮揚構造物の引上げまたは船台上への牽引による運搬Ｂ６３Ｃ；巻取り機構の制御Ｂ６６Ｄ１／５２）	Devices for facilitating retrieval of floating objects, e.g. for recovering craft from water (equipment for handling lifeboats or the like B63B 23/00; loading or unloading floating cargo using ship-based equipment B63B 27/36; salvaging, or hauling-out on slipways, waterborne vessels B63C; winding mechanism controls B66D 1/52)
+B66C  13/04  \	1	1	3F204	B66C  13/04	27	吊り下げた荷物の移動を制御するため，またはケーブルのゆるみを防止するための補助装置	Auxiliary devices for controlling movements of suspended loads, or for preventing cable slack
+B66C  13/06  \	2	2	3F204	B66C  13/06	28	荷物の縦，横の揺動を最小にするためまたは防止するためのもの	for minimising or preventing longitudinal or transverse swinging of loads
+B66C  13/06  A	2	0	3F204	B66C  13/06	261	ガイド部材	Guide members
+B66C  13/06  B	2	1	3F204	B66C  13/06	84	パンタグラフ；リンク	Pantographs; linkages
+B66C  13/06  C	2	1	3F204	B66C  13/06	108	テレスコピツク	Telescopic
+B66C  13/06  D	2	1	3F204	B66C  13/06	110	凹部，凸部	Concave, convex
+B66C  13/06  E	2	0	3F204	B66C  13/06	169	多点吊り	Multi-point suspension
+B66C  13/06  F	2	1	3F204	B66C  13/06	26	シ−ブ間隔変更	Changing sheave pitch
+B66C  13/06  G	2	1	3F204	B66C  13/06	93	緩衝；制動；減衰装置	Damping; braking; attenuating devices
+B66C  13/06  H	2	0	3F204	B66C  13/06	30	ロ−プトロリ−	Rope trolleys
+B66C  13/06  J	2	1	3F204	B66C  13/06	33	シ−ブ間隔変更	Changing sheave pitch
+B66C  13/06  K	2	1	3F204	B66C  13/06	81	緩衝；制動；減衰装置	Damping; braking; attenuating devices
+B66C  13/06  L	2	1	3F204	B66C  13/06	8	凹部，凸部	Concave, convex
+B66C  13/06  M	2	0	3F204	B66C  13/06	279	振れ止め＆姿勢調整	Braces
+B66C  13/06  Z	2	0	3F204	B66C  13/06	115	その他のもの〔揺動検出Ｂ６６Ｃ１３／２２Ｒ〕	Others (detecting oscillation B 66 C 13/22 R)
+B66C  13/08  \	2	2	3F204	B66C  13/08	41	要求された姿勢または位置に荷物を置くためのもの	for depositing loads in desired attitudes or positions
+B66C  13/08  A	2	0	3F204	B66C  13/08	122	イコライジングビ−ム〔例．張力均等配分装置〕	Equalising beams, e.g. tension distributor
+B66C  13/08  B	2	1	3F204	B66C  13/08	100	吊点が直線移動	Linearly moving suspension points
+B66C  13/08  C	2	2	3F204	B66C  13/08	19	２自由度	Two degrees of freedom
+B66C  13/08  D	2	1	3F204	B66C  13/08	106	ロ−プ長の変更	Changing rope length
+B66C  13/08  E	2	2	3F204	B66C  13/08	19	２自由度	Two degrees of freedom
+B66C  13/08  F	2	1	3F204	B66C  13/08	161	バランスウエイト	Balance weight
+B66C  13/08  G	2	1	3F204	B66C  13/08	35	荷の支持位置調整	Adjusting supporting position of loads
+B66C  13/08  H	2	0	3F204	B66C  13/08	149	荷の姿勢調整	Adjusting load attitudes
+B66C  13/08  J	2	1	3F204	B66C  13/08	248	多点吊り〔ロ−プトロリ−式のスプレツダ等含む〕	Multi-point suspension (including spreaders of rope trolley type)
+B66C  13/08  K	2	2	3F204	B66C  13/08	81	小旋回	Small turning
+B66C  13/08  L	2	1	3F204	B66C  13/08	233	旋回装置	Turning devices
+B66C  13/08  M	2	2	3F204	B66C  13/08	40	旋回フツク〔回転装置を有するクレ−ンフツク，Ｂ６６Ｃ１／３４Ｄ〕	Turning hooks (crane hooks with rotating devices B 66 C 1/34 D)
+B66C  13/08  N	2	1	3F204	B66C  13/08	214	傾動装置	Tilting devices
+B66C  13/08  P	2	2	3F204	B66C  13/08	35	吊り点の直線移動	Linearly moving suspension points
+B66C  13/08  Q	2	1	3F204	B66C  13/08	162	荷の位置調整	Adjusting load positions
+B66C  13/08  R	2	1	3F204	B66C  13/08	291	荷の反転〔空中における〕〔反転又は回転用吊具，Ｂ６６Ｃ１／１２Ｊ，Ｂ６６Ｃ１／４２Ｋ，Ｂ６６Ｃ１／４４Ｋ，Ｂ６６Ｃ１／５８Ｋ〕	Overturning loads (in air) (suspenders for overturning or rotating B 66 C 1/12 J, B 66 C 1/42 K, B 66 C 1/44 K, B 66 C 1/58 K)
+B66C  13/08  S	2	2	3F204	B66C  13/08	148	荷の片側が接地	One side of load contacting ground
+B66C  13/08  T	2	1	3F204	B66C  13/08	26	インチング	Inching
+B66C  13/08  U	2	0	3F204	B66C  13/08	124	荷の傾斜検出	Detecting tiled load
+B66C  13/08  Z	2	0	3F204	B66C  13/08	31	その他のもの	Others
+B66C  13/10  \	2	2	3F204	B66C  13/10	32	ケーブルのゆるみを防止するためのもの（ロープ，ケーブルもしくはチェーンの巻き取り機構用の制御装置，例．張力の制御Ｂ６６Ｄ１／４０）	for preventing cable slack (control devices for rope, cable, or chain winding mechanisms, e.g. for controlling tension, B66D 1/40)
+B66C  13/10  A	2	0	3F204	B66C  13/10	65	ロ−プトロリ−用ロ−プハンガ−	Rope hangers for rope trolleys
+B66C  13/10  Z	2	0	3F204	B66C  13/10	219	その他のもの	Others
+B66C  13/12  \	1	1	3F204	B66C  13/12	35	作動部分，装置に空気圧，液圧または電力を送るための装置の配列（長尺物の貯蔵，繰返し繰出し，および再貯蔵に特に適するまたはそのために取付けられる一般的な分野で用いられる装置Ｂ６５Ｈ７５／３４）	Arrangements of means for transmitting pneumatic, hydraulic, or electric power to movable parts or devices (devices of general interest specially adapted or mounted for storing and repeatedly paying-out and re-storing lengths of material B65H 75/34)
+B66C  13/12  A	1	0	3F204	B66C  13/12	200	流体伝送	Fluid transmission
+B66C  13/12  B	1	1	3F204	B66C  13/12	71	ケ−ブルドラツグチエ−ン	Cable drag chains
+B66C  13/12  C	1	1	3F204	B66C  13/12	64	ロ−タリ−ジヨイント	Rotary joints
+B66C  13/12  D	1	0	3F204	B66C  13/12	397	給電〔電気的推進車両の動力供給線，Ｂ６０Ｍ，そのための集電装置，Ｂ６０Ｌ５／００，集電装置一般Ｈ０１Ｒ；相対的移動部分間の電気ケ−ブルの配置，Ｈ０２Ｇ１１／００〕	Power feed (power feed lines for electrically propelled vehicles B 60 M, current collectors thereof B 60 L 5/00, current collectors in general H 01 R; arrangements of electric cables between relatively moving portions H 02 G 11/00)
+B66C  13/12  E	1	1	3F204	B66C  13/12	175	移動部	Moving portions
+B66C  13/12  F	1	2	3F204	B66C  13/12	115	ロ−ラ	Rollers
+B66C  13/12  G	1	2	3F204	B66C  13/12	202	シユ−	Shoes
+B66C  13/12  H	1	2	3F204	B66C  13/12	57	スリツプリング	Slip rings
+B66C  13/12  J	1	2	3F204	B66C  13/12	232	リ−ル巻取ドラム	Reel winding drums
+B66C  13/12  K	1	2	3F204	B66C  13/12	175	トロリ−ハンガ支持	Trolley hanger supports
+B66C  13/12  L	1	2	3F204	B66C  13/12	78	プ−リ支持	Pulley supports
+B66C  13/12  Z	1	0	3F204	B66C  13/12	76	その他のもの	Others
+B66C  13/14  \	2	2	3F204	B66C  13/14	90	荷物係合装置または荷物係合モータに空気圧，液圧もしくは電力を送るためそれらと組合わせた装置の配列	to load-engaging elements or motors associated therewith
+B66C  13/16  \	1	1	3F204	B66C  13/16	34	表示装置，記録装置または重量測定装置の適用（クレーンフツクの中にあるものＢ６６Ｃ１／４０；安全装置の中にあるものＢ６６Ｃ１５／００；重量測定装置Ｇ０１Ｇ；遠隔指示一般Ｇ０８）	Applications of indicating, registering, or weighing devices (in crane hooks B66C 1/40; in safety gear B66C 15/00; weighing-apparatus G01G; remote indicating in general G08)
+B66C  13/16  A	1	0	3F204	B66C  13/16	154	荷重検出一般	Detecting loads in general
+B66C  13/16  B	1	1	3F204	B66C  13/16	96	吊り具に検出手段を有するもの	with detecting means provided on suspenders
+B66C  13/16  C	1	1	3F204	B66C  13/16	43	デリツクシリンダ又は軸に検出手段を有するもの	with detecting means provided on derrick cylinder or shaft
+B66C  13/16  D	1	1	3F204	B66C  13/16	110	アウトリガに検出手段を有するもの	with detecting means provided on outriggers
+B66C  13/16  E	1	1	3F204	B66C  13/16	38	負荷検出ブリツジ回路	Load detecting bridge circuits
+B66C  13/16  F	1	1	3F204	B66C  13/16	134	荷重検出演算手段を有するもの	with means for detecting and processing loads
+B66C  13/16  G	1	0	3F204	B66C  13/16	128	ロ−プ張力検出一般〔ウインチロ−プの張力検出，Ｂ６６Ｄ１／５４Ｃ，Ｂ６６Ｄ１／５８Ｄ〕	Detecting rope tensions in general (detecting tension of winch rope B 66 D 1/54 C, B 66 D 1/58 D)
+B66C  13/16  H	1	1	3F204	B66C  13/16	60	滑車にかかる荷重を検出するもの	Detecting load applied on pulleys
+B66C  13/16  J	1	1	3F204	B66C  13/16	69	三つの滑車の組によるもの	by a set of three pulleys
+B66C  13/16  Z	1	0	3F204	B66C  13/16	147	その他のもの	Others
+B66C  13/18  \	1	1	3F204	B66C  13/18	95	制御方式または制御装置（特にロープ，ケーブルもしくはチェーンの巻き取り機構用Ｂ６６Ｄ１／４０）	Control systems or devices (exclusively for rope, cable, or chain winding mechanisms B66D 1/40)
+B66C  13/20  \	2	2	3F204	B66C  13/20	717	非電気駆動用のもの（制御パルスを送るものＢ６６Ｃ１３／４０）	for non-electric drives (transmitting control pulses B66C 13/40)
+B66C  13/22  \	2	2	3F204	B66C  13/22	41	電気駆動用のもの（制御パルスを送るものＢ６６Ｃ１３／４０；一般的に適用する方式もしくは装置Ｈ０２Ｐ）	for electric drives (transmitting control pulses B66C 13/40; systems or devices of general application H02P)
+B66C  13/22  A	2	0	3F204	B66C  13/22	269	走行・横行制御一般	Run or traverse control in general
+B66C  13/22  B	2	1	3F204	B66C  13/22	13	荷の起立動作と関連	Related to standing motion of loads
+B66C  13/22  C	2	1	3F204	B66C  13/22	41	基準値からの偏差検出	Detecting deviations from standard values
+B66C  13/22  D	2	1	3F204	B66C  13/22	71	速度可変	Variable speeds
+B66C  13/22  E	2	2	3F204	B66C  13/22	31	起動特性	Starting characteristics
+B66C  13/22  F	2	1	3F204	B66C  13/22	87	操作部；配線	Operating controls; wiring
+B66C  13/22  G	2	1	3F204	B66C  13/22	66	走行軌道修正	Correcting running orbit
+B66C  13/22  H	2	0	3F204	B66C  13/22	392	定位置停止；走行位置検知	Stopping at fixed positions; detecting running positions
+B66C  13/22  J	2	1	3F204	B66C  13/22	34	ねじれ停止補正	Compensating twisted stops
+B66C  13/22  K	2	1	3F204	B66C  13/22	44	非常停止；走路端停止〔クレ−ンの暴走防止，非常停止一般，Ｂ６６Ｃ１５／００Ｃ〕	Emergency stop; stopping at running stroke end (preventing crane runaway, emergency stops in general B 66 C 15/00 C)
+B66C  13/22  L	2	0	3F204	B66C  13/22	57	共吊り〔ジブクレ−ンの共吊り制御，Ｂ６６Ｃ２３／００Ｂ；ウインチの共吊り制御，Ｂ６６Ｄ１／４０Ａ〕	co-suspension (co-suspension control of jib cranes B 66 C 23/00 B; co-suspension control of winches B 66 D 1/40 A)
+B66C  13/22  M	2	0	3F204	B66C  13/22	561	振れ止め制御〔例．速度パタ−ン制御〕	Brace control, e.g. speed pattern control
+B66C  13/22  N	2	1	3F204	B66C  13/22	83	旋回時；上下動時	During rotating; during vertical motions
+B66C  13/22  P	2	1	3F204	B66C  13/22	16	共吊り	co-suspension
+B66C  13/22  Q	2	1	3F204	B66C  13/22	30	障害物回避	Evading obstacles
+B66C  13/22  R	2	1	3F204	B66C  13/22	289	揺動検出	Detecting oscillating
+B66C  13/22  S	2	0	3F204	B66C  13/22	106	制動制御	Brake control
+B66C  13/22  T	2	0	3F204	B66C  13/22	241	荷物係合要素の位置決め制御；荷の位置検出〔荷物係合要素の位置検出一般，Ｂ６６Ｃ１３／４６Ａ〕	Positioning control of load engagement elements; detecting load positions (detecting positions in general for load engagement elements B 66 C 13/46 A)
+B66C  13/22  U	2	1	3F204	B66C  13/22	61	水平面内位置検出	Detecting positions on horizontal plane
+B66C  13/22  V	2	2	3F204	B66C  13/22	193	非接触式	Non-contact type
+B66C  13/22  W	2	1	3F204	B66C  13/22	93	上下位置検出	Detecting vertical positions
+B66C  13/22  X	2	2	3F204	B66C  13/22	71	非接触式	Non-contact type
+B66C  13/22  Y	2	1	3F204	B66C  13/22	228	三次元位置検出	within horizontal plane
+B66C  13/22  Z	2	0	3F204	B66C  13/22	115	その他のもの	Others
+B66C  13/23  \	3	3	3F204	B66C  13/23	4	荷物の降下制御用の回路	Circuits for controlling the lowering of the load
+B66C  13/23  A	3	0	3F204	B66C  13/23	106	制御一般〔例．トルク制御〕	Control in general, e.g. torque control
+B66C  13/23  B	3	1	3F204	B66C  13/23	94	速度制御	Speed control
+B66C  13/23  C	3	1	3F204	B66C  13/23	30	負荷状態による自動速度切換	Automatic speed shifting based on loading conditions
+B66C  13/23  D	3	1	3F204	B66C  13/23	75	定位置停止；制動；インチング〔インチング，１３／０８Ｔ〕	Stopping at fixed positions; braking; inching (inching 13/08 T)
+B66C  13/23  E	3	1	3F204	B66C  13/23	47	複数巻上機の制御；同期制御	Control of multiple winding machines; synchronous control
+B66C  13/23  F	3	1	3F204	B66C  13/23	19	誤操作防止；非常時運転	Preventing malfunctioning; emergency operations
+B66C  13/23  G	3	1	3F204	B66C  13/23	28	暴走防止；非常停止	Preventing runaways; emergency stop
+B66C  13/23  H	3	1	3F204	B66C  13/23	36	落下防止；失速防止	Preventing falling; preventing stalling
+B66C  13/23  Z	3	0	3F204	B66C  13/23	35	その他のもの	Others
+B66C  13/24  \	4	4	3F204	B66C  13/24	3	直流モータによるもの	by dc motors
+B66C  13/26  \	4	4	3F204	B66C  13/26	16	交流モータによるもの	by ac motors
+B66C  13/28  \	5	5	3F204	B66C  13/28	36	重い荷物の降下制御用に回生ブレーキを利用するものおよび，荷物を解放した時もち上げ方向へのモータの回転を防止するための装置を有するもの	utilising regenerative braking for controlling descent of heavy loads and having means for preventing rotation of motor in the hoisting direction when load is released
+B66C  13/30  \	3	3	3F204	B66C  13/30	20	ブレーキ用モータ，横行用モータまたは旋回用モータのための回路	Circuits for braking, traversing, or slewing motors
+B66C  13/32  \	3	3	3F204	B66C  13/32	3	荷物のもち上げ，下げ用およびバケツトあごの開閉用の両方に使用するところの１個またはそれ以上の電動機装置によりグラブバケツトのもち上げ操作をするためのもの（特にグラブバケット作動用に適合せしめたところのロープ，ケーブルもしくはチェーンの巻き取り機構以外の形態Ｂ６６Ｄ１／６２）	for operating grab-bucket hoists by means of one or more electric motors used both for hoisting and lowering the loads and for opening and closing the bucket jaws (other aspects of rope, cable, or chain winding mechanisms specially adapted for actuating grab buckets B66D 1/62)
+B66C  13/32  A	3	0	3F204	B66C  13/32	280	グラブバケツトの制御一般	Grab bucket control in general
+B66C  13/32  B	3	1	3F204	B66C  13/32	37	掴み量制御・検出	Controlling or detecting grabbing amount
+B66C  13/32  C	3	1	3F204	B66C  13/32	19	沈み込み掴み〔シンキング〕	Sinking
+B66C  13/32  D	3	1	3F204	B66C  13/32	64	巻上下制御	wind up/down control
+B66C  13/32  E	3	1	3F204	B66C  13/32	56	開閉度制御・検出	Controlling or detecting degree of opening
+B66C  13/32  F	3	1	3F204	B66C  13/32	37	着床検出〔荷物係合要素又は荷の着床，地切り検出一般，Ｂ６６Ｃ１３／４６Ｅ〕	landing detection (load-engaging elements or load-landing, critical lift detection in general B 66 C 13/46 E)
+B66C  13/32  G	3	1	3F204	B66C  13/32	22	転倒防止；傾斜検出〔荷の傾斜検出，Ｂ６６Ｃ１３／０８Ｕ〕	Preventing tipping over; detecting tilting (detecting tilting of loads B 66 C 13/08 U)
+B66C  13/32  H	3	1	3F204	B66C  13/32	18	旋回〔荷の旋回一般，Ｂ６６Ｃ１３／０８Ｌ〕	Turning (turning loads in general B 66 C 13/08 L)
+B66C  13/32  J	3	1	3F204	B66C  13/32	37	他の荷物係合要素との取替	Replacing with other load engagement elements
+B66C  13/32  K	3	1	3F204	B66C  13/32	26	振れ止め〔例．タグロ−プ〕〔多点吊りによる振れ止め一般，Ｂ６６Ｃ１３／０６Ｅ〕	Braces, e.g. tag ropes (braces in general by multi-point suspension B 66 C 13/06 E)
+B66C  13/32  L	3	1	3F204	B66C  13/32	42	ロ−プのゆるみ防止	Preventing ropes from being slackened
+B66C  13/32  M	3	0	3F204	B66C  13/32	32	トングクレ−ンの制御	Tongue crane control
+B66C  13/32  Z	3	0	3F204	B66C  13/32	24	その他のもの	Others
+B66C  13/34  \	4	4	3F204	B66C  13/34	0	差動歯車または遊星歯車を経るもの	through differential or planetary gearing
+B66C  13/36  \	4	4	3F204	B66C  13/36	1	１個のモータによる駆動の制御方式	Single-motor-drive control systems
+B66C  13/38  \	4	4	3F204	B66C  13/38	5	独立したモータを制御する方式	Systems controlling independent motors
+B66C  13/40  \	2	2	3F204	B66C  13/40	16	制御パルス伝達用装置の適用；遠隔制御装置の適用（一般的な制御Ｇ０５）	Applications of devices for transmitting control pulses; Applications of remote control devices (control in general G05)
+B66C  13/40  A	2	0	3F204	B66C  13/40	183	遠隔操作；信号伝送一般	Remote control; signal transmissions in general
+B66C  13/40  B	2	1	3F204	B66C  13/40	225	有線式	Wired type
+B66C  13/40  C	2	2	3F204	B66C  13/40	29	荷物係合要素上	on load engagement elements
+B66C  13/40  D	2	1	3F204	B66C  13/40	441	無線式	Wireless type
+B66C  13/40  E	2	2	3F204	B66C  13/40	59	荷物係合要素上	on load engagement elements
+B66C  13/40  F	2	1	3F204	B66C  13/40	30	集材用のもの〔ケ−ブルクレ−ン，２１／００〕	for collecting materials (cable cranes 21/00)
+B66C  13/40  Z	2	0	3F204	B66C  13/40	26	その他のもの	Others
+B66C  13/42  \	3	3	3F204	B66C  13/42	107	液圧の伝達装置	Hydraulic transmitters
+B66C  13/44  \	3	3	3F204	B66C  13/44	346	電気の伝達装置	Electrical transmitters
+B66C  13/46  \	2	2	3F204	B66C  13/46	26	吊り下げた荷物またはクレーン要素の位置表示器	Position indicators for suspended loads or for crane elements
+B66C  13/46  A	2	0	3F204	B66C  13/46	81	荷物係合要素の位置検出	Detecting load engagement elements
+B66C  13/46  B	2	1	3F204	B66C  13/46	168	上下位置検出	Detecting vertical positions
+B66C  13/46  C	2	1	3F204	B66C  13/46	132	水平面内位置検出	Detecting positions on horizontal plane
+B66C  13/46  D	2	1	3F204	B66C  13/46	114	三次元位置検出	Up and down
+B66C  13/46  E	2	0	3F204	B66C  13/46	145	荷物係合要素又は荷の着床・地切り検出〔グラブバケツトのもの，Ｂ６６Ｃ１３／３２Ｆ〕	load-engaging elements or load-landing, critical lift detection (related grab buckets B 66 C 13/32F)
+B66C  13/46  F	2	0	3F204	B66C  13/46	162	荷物係合要素又は荷の移動状態表示〔荷物の測定または表示の装置を有するクレ−ンフツク，Ｂ６６Ｃ１／４０〕	Indicating moving conditions of load engagement elements or loads (crane hooks with load measuring or indicating devices B 66 C 1/40)
+B66C  13/46  G	2	0	3F204	B66C  13/46	79	荷役の記録	Recording docking
+B66C  13/46  H	2	0	3F204	B66C  13/46	107	在荷検出；把持検出	Detecting loads; detecting gripping
+B66C  13/46  J	2	0	3F204	B66C  13/46	15	トングの開閉度検出	Detecting degree of tongue opening
+B66C  13/46  K	2	0	3F204	B66C  13/46	45	ドラムの回転検出；ロ−プの伸び検出〔ウインチのロ−プの異状検知（伸び，張力等）Ｂ６６Ｄ１／５４Ｃ〕	Detecting rotation of drums; detecting stretching of ropes (detecting winch rope faults (stretching or tension) B 66 D 1/54 C)
+B66C  13/46  Z	2	0	3F204	B66C  13/46	236	その他のもの	Others
+B66C  13/48  \	2	2	3F204	B66C  13/48	8	単一または反復の作動サイクルを生じさせるクレーン駆動の自動制御；プログラム制御	Automatic control of crane drives for producing a single or repeated working cycle; Programme control
+B66C  13/48  A	2	0	3F204	B66C  13/48	360	天井走行〔又はガントリ−〕クレ−ンの自動運転	Automatic operation of ceiling (or gantry) cranes
+B66C  13/48  B	2	1	3F204	B66C  13/48	264	荷役位置検出〔非接触式〕〔テレビカメラ，１３／００Ｄ〕	Detecting docking positions (non-contact type) (TV camera 13/00 D)
+B66C  13/48  C	2	1	3F204	B66C  13/48	138	バケツトクレ−ン	Bucket cranes
+B66C  13/48  D	2	1	3F204	B66C  13/48	42	異常検出；故障診断〔クレ−ン一般，１５／００Ａ〕	Detecting faults; troubleshooting (cranes in general 15/00 A)
+B66C  13/48  E	2	1	3F204	B66C  13/48	57	巻上・巻下	Winding up or down
+B66C  13/48  F	2	1	3F204	B66C  13/48	30	テイ−チング〔例．模擬運転後に自動運転〕	Teaching, e.g. automatic operation after simulated operation
+B66C  13/48  G	2	0	3F204	B66C  13/48	133	ジブクレ−ンの自動運転	Automatic operation of jib cranes
+B66C  13/48  H	2	1	3F204	B66C  13/48	14	テイ−チング	Teaching
+B66C  13/48  J	2	1	3F204	B66C  13/48	56	一定軌跡	Constant orbit
+B66C  13/48  K	2	1	3F204	B66C  13/48	4	水平多関節クレ−ン	Horizontal multi-joint cranes
+B66C  13/48  L	2	0	3F204	B66C  13/48	44	ケ−ブルクレ−ンの自動運転	Automatic operation of cable cranes
+B66C  13/48  Z	2	0	3F204	B66C  13/48	133	その他のもの	Others
+B66C  13/50  \	2	2	3F204	B66C  13/50	8	リミット回路またはリミットスイッチ配列の適用（巻き取り機構についてのものＢ６６Ｄ１／５６）	Applications of limit circuits or of limit-switch arrangements (for winding mechanisms B66D 1/56)
+B66C  13/52  \	1	1	3F204	B66C  13/52	5	駆動エンジンまたはモータのための部品の細部または運転者の台または運転室の細部	Details of compartments for driving engines or motors or of operator's stands or cabins
+B66C  13/52  A	1	0	3F204	B66C  13/52	94	空調；防音	Air conditioning; acoustic insulation
+B66C  13/52  B	1	0	3F204	B66C  13/52	95	運転席	Operator seats
+B66C  13/52  C	1	0	3F204	B66C  13/52	65	窓；扉	Windows; doors
+B66C  13/52  Z	1	0	3F204	B66C  13/52	79	その他のもの	Others
+B66C  13/54  \	2	2	3F204	B66C  13/54	50	運転者用の台または運転室	Operator's stands or cabins
+B66C  13/54  A	2	0	3F204	B66C  13/54	139	固定型	Fixed type
+B66C  13/54  B	2	0	3F204	B66C  13/54	272	移動型	Movable type
+B66C  13/54  Z	2	0	3F204	B66C  13/54	61	その他のもの	Others
+B66C  13/56  \	3	3	3F204	B66C  13/56	786	ハンドル装置またはペダル装置の配置	Arrangements of handles or pedals
+B66C  15/00  \	0	0	3F204	B66C  15/00	22	安全装置（ロープ，ケーブルもしくはチェーンの巻き取り機構用のものＢ６６Ｄ１／５４）	Safety gear (for rope, cable, or chain winding mechanisms B66D 1/54)
+B66C  15/00  A	0	0	3F204	B66C  15/00	539	誤操作または異常状態での作動制限〔故障診断含む〕〔ジブクレ−ンのモ−メントリミツタ，Ｂ６６Ｃ２３／９０，Ｂ６６Ｃ２３／９４Ｅ〕	Limiting operation upon malfunctioning or faulty conditions (including troubleshooting) (jib crane moment limiter B 66 C 23/90, B 66 C 23/94 E)
+B66C  15/00  B	0	0	3F204	B66C  15/00	272	耐震クレ−ン〔風圧等による起振防止含む〕	Seismic resisting cranes (including prevention of vibration due to wind pressures)
+B66C  15/00  C	0	0	3F204	B66C  15/00	87	暴走防止；非常停止〔制御，Ｂ６６Ｃ１３／２２Ｋ，制動制御，Ｂ６６Ｃ１３／２２Ｓ〕	Preventing runaways; emergency stop (control B 66 C 13/22 K, brake control B 66 C 13/22 S)
+B66C  15/00  D	0	0	3F204	B66C  15/00	28	非常時横行装置	Emergency traversing gears
+B66C  15/00  E	0	0	3F204	B66C  15/00	292	衝突防止〔対障害物〕〔ジブクレ−ン用，Ｂ６６Ｃ２３／８８Ｄ〕	Preventing collisions (against obstacles) (for jib cranes B 66 C 23/88 D)
+B66C  15/00  F	0	0	3F204	B66C  15/00	132	過負荷防止；過荷重防止〔荷重検出，Ｂ６６Ｃ１３／１６〕	Detecting overloading; preventing overloading (detecting loads B 66 C 13/16)
+B66C  15/00  G	0	0	3F204	B66C  15/00	79	過巻防止〔ジブクレ−ン用，Ｂ６６Ｃ２３／８８Ｑ〕	Preventing over winding (for jib cranes B 66 C 23/88 Q)
+B66C  15/00  H	0	0	3F204	B66C  15/00	58	照明	Illuminations
+B66C  15/00  J	0	0	3F204	B66C  15/00	87	緩衝装置	Dampers
+B66C  15/00  K	0	0	3F204	B66C  15/00	259	落下防止網；安全柵；搭乗はしご	Nets for preventing falling; safety fences; boarding ladders
+B66C  15/00  L	0	0	3F204	B66C  15/00	179	点検・作業台	Inspection or work stands
+B66C  15/00  M	0	0	3F204	B66C  15/00	51	荷の脱落検出；在荷検出〔一般，Ｂ６６Ｃ１３／４６Ｈ〕	Detecting falling of loads; detecting loads (in general B 66 C 13/46 H)
+B66C  15/00  Z	0	0	3F204	B66C  15/00	298	その他のもの	Others
+B66C  15/02  \	1	1	3F204	B66C  15/02	6	ロープまたはケーブルが切断した場合に荷物係合装置を保持するためのもの	for retaining load-engaging elements in the event of rope or cable breakage
+B66C  15/02  A	1	0	3F204	B66C  15/02	51	ロ−プの切断またはゆるみ検出	Detecting slackened or loosened ropes
+B66C  15/02  B	1	0	3F204	B66C  15/02	15	切断されたロ−プを挟持するもの	Gripping cut ropes
+B66C  15/02  C	1	0	3F204	B66C  15/02	70	他部材により支持するもの	Supporting with other members
+B66C  15/02  D	1	0	3F204	B66C  15/02	55	補助索により支持するもの	Supporting with auxiliary ropes
+B66C  15/02  E	1	0	3F204	B66C  15/02	14	巻上装置の異常に対処するもの	Coping with winding device faults
+B66C  15/02  Z	1	0	3F204	B66C  15/02	18	その他のもの	Others
+B66C  15/04  \	1	1	3F204	B66C  15/04	6	衝突を防止するためのもの，例．同一軌道上で運転しているクレーンまたはトロリー間での衝突	for preventing collisions, e.g. between cranes or trolleys operating on the same track
+B66C  15/04  A	1	0	3F204	B66C  15/04	89	非接触式検出器を有するもの	with non-contact detectors
+B66C  15/04  B	1	1	3F204	B66C  15/04	70	光電式検出器を有するもの	with photoelectric detectors
+B66C  15/04  C	1	1	3F204	B66C  15/04	67	電気回路により存在区間を検出するもの	Detecting existing segments by electric circuits
+B66C  15/04  D	1	0	3F204	B66C  15/04	31	接触式検出器を有するもの	with non-contact detectors
+B66C  15/04  E	1	0	3F204	B66C  15/04	17	二クレ−ン間に連結部材または間隔規制部材を有するもの	with connection or gap limiting device between two cranes
+B66C  15/04  F	1	0	3F204	B66C  15/04	32	特定区間への侵入制御	Entrance control into particular segments
+B66C  15/04  G	1	1	3F204	B66C  15/04	12	交差区間	Crossing segments
+B66C  15/04  H	1	1	3F204	B66C  15/04	13	上下クレ−ン	Upper and lower cranes
+B66C  15/04  J	1	1	3F204	B66C  15/04	15	左右クレ−ン	Right and left cranes
+B66C  15/04  Z	1	0	3F204	B66C  15/04	41	その他のもの	Others
+B66C  15/06  \	1	1	3F204	B66C  15/06	211	警報装置の配置または使用［２］	Arrangements or use of warning devices [2]
+B66C  17/00  \	0	0	3F203	B66C  17/00	739	実質上水平な一本または複数本のガーダーをもち該ガーダーの端部が間隔をもった支持部材に保持された軌条に車輪またはローラにより直接支持されている天井走行クレーン（ガーダーまたは軌道支持構造の適合Ｂ６６Ｃ６／００）	Overhead travelling cranes comprising one or more substantially-horizontal girders the ends of which are directly supported by wheels or rollers running on tracks carried by spaced supports (adaptations of girders or of track-supporting structures B66C 6/00)
+B66C  17/04  \	1	1	3F203	B66C  17/04	1049	荷物係合装置，例．磁石，フック，を支持するためのもち上げ用ビーム，例．旋回ビーム，を有するもの（荷物係合装置の構造Ｂ６６Ｃ１／００，Ｂ６６Ｃ３／００）	with lifting beams, e.g. slewable beams, carrying load-engaging elements, e.g. magnets, hooks (constructions of load-engaging elements B66C 1/00, B66C 3/00)
+B66C  17/06  \	1	1	3F203	B66C  17/06	267	特別の目的，例．鋳造工場用，鍛造工場用，に特別に適合せしめたもの；特別の目的に役立つ補助の装置を組み合わせたもの（Ｂ６６Ｃ１７／０４が優先）	specially adapted for particular purposes, e.g. in foundries, forges; combined with auxiliary apparatus serving particular purposes (B66C 17/04 takes precedence)
+B66C  17/08  \	2	2	3F203	B66C  17/08	137	処理室，例．炉，キルン，窯，への装入のためのもの（炉への装入一般Ｆ２７Ｄ３／００）	for charging treatment chambers, e.g. furnaces, kilns, ovens (charging furnaces in general F27D 3/00)
+B66C  17/10  \	2	2	3F203	B66C  17/10	143	とりべ輸送用のもの	for transporting ladles
+B66C  17/12  \	2	2	3F203	B66C  17/12	133	素材，例．インゴット，を処理室の中に一時保持されることを必要とする該素材を取扱うためのもの，例．トングレーン，ソーキングピットクレーン，ストリッパークレーン（鍛造中にインゴットを操作するためのものＢ６６Ｃ１７／１８；製造中に鋳物またはインゴットを取扱うまたは取除くための把持器Ｂ２２Ｄ２９／００）	for handling workpieces, e.g. ingots, which require to be supported temporarily within, or withdrawn from, a treatment chamber, e.g. tong cranes, soaking-pit cranes, stripper cranes (for manipulating ingots during forging B66C 17/18; grippers for handling or stripping castings or ingots during manufacture B22D 29/00)
+B66C  17/14  \	3	3	3F203	B66C  17/14	1	トングに相対的に品物押し器を動かす装置をもつトングクレーン	Tong cranes with means for moving article-pushers relative to the tongs
+B66C  17/16  \	3	3	3F203	B66C  17/16	4	垂直軸に関してトングを旋回させる装置をもつトングクレーン	Tong cranes with means for turning the tongs about a vertical axis
+B66C  17/18  \	2	2	3F203	B66C  17/18	6	鍛造工程の間じゅう素材を取り扱うためのもの（鍛造機の中の素材取り扱い機Ｂ２１Ｊ１３／１０）	for manipulating workpieces during forging operations (workpiece manipulators in forging machines B21J 13/10)
+B66C  17/20  \	2	2	3F203	B66C  17/20	46	重い荷物の運搬具，例．貨物輸送コンテナー，鉄道貨車，をもち上げまたは下げするためのもの	for hoisting or lowering heavy load carriers, e.g. freight containers, railway wagons
+B66C  17/22  \	2	2	3F203	B66C  17/22	16	機関車をもち上げまたは下げするためのもの	for hoisting or lowering locomotives
+B66C  17/24  \	2	2	3F203	B66C  17/24	17	造船台の上で船を建造するためのもの	for building ships on slipways
+B66C  17/26  \	2	2	3F203	B66C  17/26	6	補助装置，例．丸太のこぎり，車からおろすための押し出し器，鉄道車輛を転轍するための装置，を組み合わせたもの	combined with auxiliary apparatus, e.g. log saws, pushers for unloading vehicles, means for shunting railway vehicles
+B66C  19/00  \	0	0	3F205	B66C  19/00	201	固定または可動のブリッジまたはガントリー上を走行するトロリーまたはクラブを有するクレーン（Ｂ６６Ｃ１７／００が優先；脚を有する基部支持構造Ｂ６６Ｃ５／００；ガーダーまたは軌道支持構造の適合Ｂ６６Ｃ６／００；ジブクレーンＢ６６Ｃ２３／００）	Cranes comprising trolleys or crabs running on fixed or movable bridges or gantries (B66C 17/00 takes precedence; base-supporting structures with legs B66C 5/00; adaptations of girders or of track-supporting structures B66C 6/00; jib cranes B66C 23/00)
+B66C  19/00  A	0	0	3F205	B66C  19/00	346	ガントリクレ−ン	Gantry cranes
+B66C  19/00  B	0	1	3F205	B66C  19/00	632	コンテナ荷役のためのもの〔クレ−ンによるコンテナ荷役，Ｂ６５Ｇ６３／００Ｍ；船舶に対する積みおろし，Ｂ６５Ｇ６７／６０〕	for docking containers (container docking by crane B 65 G 63/00 M; loading and unloading boats B 65 G 67/60)
+B66C  19/00  C	0	1	3F205	B66C  19/00	94	粉粒体，ばら物質のためのもの	for powders, granules or bulk materials
+B66C  19/00  D	0	1	3F205	B66C  19/00	78	船上に設置されるもの〔船舶に対する積みおろし，Ｂ６５Ｇ６７／６０〕	mounted on boat (loading and unloading boats B 65 G 67/60)
+B66C  19/00  E	0	1	3F205	B66C  19/00	105	可搬型のもの	Movable type
+B66C  19/00  F	0	2	3F205	B66C  19/00	23	折りたたみ可能なもの	Foldable type
+B66C  19/00  G	0	0	3F205	B66C  19/00	116	ガントリクレ−ンの分解・組立	Disassembling or assembling gantry cranes
+B66C  19/00  Z	0	0	3F205	B66C  19/00	76	その他	Others
+B66C  19/02  \	1	1	3F205	B66C  19/02	58	折りたたみできるもの	collapsible
+B66C  21/00  \	0	0	3F205	B66C  21/00	67	ケーブルクレーン，すなわち空中索道を走行するホイスト装置をもつもの（ガーダーまたは軌道支持構造の適合Ｂ６６Ｃ６／００；トロリー用のロープまたはケーブルの装置，ホイスト装置とそれらの装置との組み合わせＢ６６Ｃ１１／１６；軌道の方式Ｂ６１Ｂ；ロープまたはケーブルの巻上装置Ｂ６６Ｄ１／００）	Cable cranes, i.e. comprising hoisting devices running on aerial cable-ways (adaptations of girders or of track-supporting structures B66C 6/00; rope or cable drives for trolleys, combinations of such drives with hoisting gear B66C 11/16; railway systems B61B; rope or cable winding mechanisms B66D 1/00)
+B66C  21/00  A	0	0	3F205	B66C  21/00	30	ケ−ブルクレ−ン	Cable cranes
+B66C  21/00  B	0	1	3F205	B66C  21/00	96	陸上用のもの	for land
+B66C  21/00  C	0	1	3F205	B66C  21/00	14	海上用のもの	for marine
+B66C  21/00  D	0	0	3F205	B66C  21/00	64	細部	Details
+B66C  21/00  E	0	1	3F205	B66C  21/00	72	ケ−ブルの配置	cable arrangements
+B66C  21/00  F	0	1	3F205	B66C  21/00	166	搬器の駆動・制御機構	driving or control mechanisms for carriers
+B66C  21/00  G	0	2	3F205	B66C  21/00	55	ケ−ブルの張力制御機構	cable tension control mechanisms
+B66C  21/00  H	0	1	3F205	B66C  21/00	44	搬器	Carriers
+B66C  21/00  J	0	2	3F205	B66C  21/00	80	搬器に内蔵の走行または吊荷昇降のための制御機構	control mechanisms built in carriers for running or rising and falling suspended loads
+B66C  21/00  K	0	2	3F205	B66C  21/00	47	吊荷の固定・解放手段	Means for fixing or releasing loads
+B66C  21/00  Z	0	0	3F205	B66C  21/00	25	その他	Others
+B66C  21/02  \	1	1	3F205	B66C  21/02	23	地面係合装置に対して揺動できるように連結した骨組上に支持された索道をもつもの	with cable-ways supported on framework swingably connected to ground-engaging elements
+B66C  21/04  \	1	1	3F205	B66C  21/04	49	自身で移動可能な骨組，例．軌道上にすえた骨組，の上に索道の一端または両端を支持した索道をもつもの	with cable-ways supported at one end or both ends on bodily-movable framework, e.g. framework mounted on rail track
+B66C  21/06  \	2	2	3F205	B66C  21/06	21	カーブした走路，例．環状走路，の中の移動可能な骨組に支持された一端，および垂直軸で旋回する支柱による他端をもつもの	with one end supported on a framework movable in a curved, e.g. circular, path and the other end by a column rotatable around a vertical axis
+B66C  21/08  \	1	1	3F205	B66C  21/08	19	吊り下げられているまたは吊り下げられていないサグキャリアまたはロープトロリー，例．走行装置に対して距離をもって固定されているもの	Sag carriers or rope trolleys, suspended or not, e.g. fixed but offering clearance for travelling gear
+B66C  21/10  \	2	2	3F205	B66C  21/10	54	走行するもの	travelling
+B66C  23/00  \	0	0	3F205	B66C  23/00	86	ビーム，ブームまたは片持梁として作動する三角形状構造物を必須構成とし，これらが水平面，垂直面内の直進，揺動またはこれらの組合された運動をするよう取付けられているクレーン，例．ジブクレーン，デリッククレーンまたは塔クレーン（脚を有する基部支持構造Ｂ６６Ｃ５／００；ガーダーまたは軌道支持構造の適合Ｂ６６Ｃ６／００）	Cranes comprising essentially a beam, boom or triangular structure acting as a cantilever and mounted for translatory or swinging movements in vertical or horizontal planes or a combination of such movements, e.g. jib cranes, derricksor tower cranes (base-supporting structures with legs B66C  5/00; adaptations of girders or of track-supporting structures B66C  6/00)
+B66C  23/00  A	0	0	3F205	B66C  23/00	233	制御一般	Control in general
+B66C  23/00  B	0	1	3F205	B66C  23/00	81	共吊り制御（電気駆動用クレーン共吊制御一般Ｂ６６Ｃ１３／２２Ｌ；ウインチ共吊り制御Ｂ６６Ｄ１／４０Ａ）	co-suspension control co-suspension control in general for cranes (electrically driven) B 66 C 13/22 L; winch co-suspension control B 66 D 1/40 A)
+B66C  23/00  C	0	1	3F205	B66C  23/00	186	振れ止め制御（振れ止め制御一般Ｂ６６Ｃ１３／２２Ｍ）	Brace control (brace control in general B 66 C 13/22 M)
+B66C  23/00  D	0	0	3F205	B66C  23/00	27	ツインクレーン	Twin cranes
+B66C  23/00  E	0	0	3F205	B66C  23/00	57	空気圧または液圧のモータ，例．トラクタ上のジブクレーンを作動するためのもの，をもつもの	air pressured or liquid pressued motor, e.g. for having, operating jib crane installed on tractor
+B66C  23/00  F	0	1	3F205	B66C  23/00	14	往復運動形式のもの	reciprocating motion type
+B66C  23/00  Z	0	0	3F205	B66C  23/00	79	その他	Others
+B66C  23/02  \	1	1	3F205	B66C  23/02	34	単に旋回運動するために取付けられ，調節および傾けることができないジブをもつもの	with non-adjustable and non-inclinable jibs mounted solely for slewing movements
+B66C  23/02  A	1	0	3F205	B66C  23/02	84	傾斜しない単体ジブ	Single jib without tilting
+B66C  23/02  B	1	1	3F205	B66C  23/02	114	ジブに沿ってトロリが走行するもの	trolleys running along jib
+B66C  23/02  Z	1	0	3F205	B66C  23/02	16	その他	Others
+B66C  23/04  \	1	1	3F205	B66C  23/04	18	有効な長さが操作中に変動可能，例．軸方向に移動，延長可能なジブをもつもの	with jibs the effective length of which is variable in operation, e.g. longitudinally displaceable, extensible
+B66C  23/04  A	1	0	3F205	B66C  23/04	52	傾斜しない伸縮ジブをもつもの	with telescopic jib without tilting
+B66C  23/04  B	1	1	3F205	B66C  23/04	35	ジブに沿ってトロリが走行するもの	trolleys running along jib
+B66C  23/04  C	1	0	3F205	B66C  23/04	70	水平多関節ジブをもつもの	with horizontal multi-joint jib
+B66C  23/04  Z	1	0	3F205	B66C  23/04	17	その他	Others
+B66C  23/06  \	1	1	3F205	B66C  23/06	47	俯仰運動をするように取付けられたジブをもつもの	with jibs mounted for jibbing or luffing movements
+B66C  23/06  A	1	0	3F205	B66C  23/06	125	単体ジブを用いているもの	using of single jib
+B66C  23/06  Z	1	0	3F205	B66C  23/06	41	その他	Others
+B66C  23/08  \	2	2	3F205	B66C  23/08	15	そして荷物があらかじめ決められた走路中を動くように適合したもの	and adapted to move the loads in predetermined paths
+B66C  23/10  \	3	3	3F205	B66C  23/10	52	その走路が実質上水平であるもの；水平引込式ジブクレーン	the paths being substantially horizontal; Level-luffing jib cranes
+B66C  23/12  \	4	4	3F205	B66C  23/12	196	持ち上げロープまたはケーブルの有効な長さを自動的に変える装置を有するもの	with means for automatically varying the effective length of the hoisting rope or cable
+B66C  23/14  \	4	4	3F205	B66C  23/14	136	ジブの構成を変える装置，例．パンタグラフ装置をもつもの	with means, e.g. pantograph arrangements, for varying jib configuration
+B66C  23/16  \	1	1	3F205	B66C  23/16	178	支柱により支持されたジブをもつもの，例．旋回運動するような下端を有する塔により支持されたもの	with jibs supported by columns, e.g. towers having their lower end mounted for slewing movements
+B66C  23/18  \	1	1	3F205	B66C  23/18	266	特別の位置でまた特別の目的で用いるために特に適合させたもの（Ｂ６６Ｃ２３／０２〜Ｂ６６Ｃ２３／１６，Ｂ６６Ｃ２３／５８〜Ｂ６６Ｃ２３／８８が優先）［５］	specially adapted for use in particular locations or for particular purposes
+B66C  23/20  \	2	2	3F205	B66C  23/20	148	建物の壁またはそれに似た構造に用意された支持用の連結具をもつもの	with supporting couples provided by walls of buildings or like structures
+B66C  23/22  \	3	3	3F205	B66C  23/22	123	窓クレーン，すなわち窓の開口部に支持するように適合させたもの	Window cranes, i.e. adapted to be supported in window openings
+B66C  23/24  \	3	3	3F205	B66C  23/24	21	移動式壁クレーン	Mobile wall cranes
+B66C  23/26  \	2	2	3F205	B66C  23/26	108	建物の敷地で使用するもの；順次高くなる位置で作動するため，道路または鉄道で輸送するために，速く組立または分解することを容易にするための構造，例．分解できる部分を有するもの（建物の壁に用意された支持用の連結具をもつものＢ６６Ｃ２３／２０；車に取付けられたものＢ６６Ｃ２３／３６）［５］	for use on building sites; constructed, e.g. with separable parts, to facilitate rapid assembly or dismantling, for operation at successively higher levels, for transport by road or rail (with supporting couples provided by walls or buildings B66C 23/20; mounted on vehicles B66C 23/36; jib constructions B66C 23/64)
+B66C  23/26  A	2	0	3F205	B66C  23/26	90	建物位置の上で使用するもの；屋上クレーン	for use on building sites; roof cranes
+B66C  23/26  B	2	1	3F205	B66C  23/26	73	移動式屋上クレーン	movable roof cranes
+B66C  23/26  C	2	0	3F205	B66C  23/26	584	クレーン要素の分解・組立分割輸送一般	disassembling, assembling, dividing or transporting crane elements in general
+B66C  23/26  D	2	1	3F205	B66C  23/26	142	ジャッキを用いて行なうもの	using of jacks
+B66C  23/26  E	2	1	3F205	B66C  23/26	300	ブームを折りたたんで収納するもの	accommodating by folding boom
+B66C  23/26  F	2	1	3F205	B66C  23/26	89	ペンダントロープ，ブライドル部の着脱・固定	attaching, detaching or fixing to pendant rope or bridle
+B66C  23/26  G	2	1	3F205	B66C  23/26	94	旋回部上下着脱機構	mechanisms for vertically attaching and detaching turning units
+B66C  23/26  Z	2	0	3F205	B66C  23/26	48	その他	Others
+B66C  23/28  \	3	3	3F205	B66C  23/28	21	順次高くなる位置で作動するように構成されているもの	constructed to operate at successively higher levels
+B66C  23/28  A	3	0	3F205	B66C  23/28	152	クライミングクレーン一般	climbing cranes in general
+B66C  23/28  B	3	1	3F205	B66C  23/28	69	鉄塔建設用	for building towers
+B66C  23/28  C	3	1	3F205	B66C  23/28	27	煙突建設用	for building chimneys
+B66C  23/28  Z	3	0	3F205	B66C  23/28	44	その他	Others
+B66C  23/30  \	4	4	3F205	B66C  23/30	51	伸縮自在要素の構成をした骨組をもつもの	with frameworks composed of telescopic elements
+B66C  23/32  \	4	4	3F205	B66C  23/32	81	クレーン自身でもち上がるクレーン	Self-hoisting cranes
+B66C  23/32  A	4	0	3F205	B66C  23/32	217	支柱を上方から継ぎ足すもの	adding posts from top
+B66C  23/32  B	4	0	3F205	B66C  23/32	88	支柱を下方から継ぎ足すもの	adding posts from bottom
+B66C  23/32  C	4	0	3F205	B66C  23/32	109	ステップアップ式クライミングクレーン	step-up climbing cranes
+B66C  23/32  D	4	1	3F205	B66C  23/32	30	水平移動可能なもの	horizontally movable
+B66C  23/32  E	4	0	3F205	B66C  23/32	175	支柱；支柱支持構造	posts; pillar support mechanisms
+B66C  23/32  F	4	0	3F205	B66C  23/32	68	昇降駆動装置	hoist drivers
+B66C  23/32  Z	4	0	3F205	B66C  23/32	22	その他	Others
+B66C  23/34  \	3	3	3F205	B66C  23/34	30	クレーン自身で直立するクレーン，すなわちクレーンを直立させる目的のために適合したホイスト装置をもつもの	Self-erecting cranes, i.e. with hoisting gear adapted for crane erection purposes
+B66C  23/36  \	2	2	3F205	B66C  23/36	290	道路車両または鉄道車両上に取付けられたもの；工場内で使うための手動ジブクレーン；浮きクレーン（空気圧モータまたは液圧モータをもつものＢ６６Ｃ２３／５４；車または船の形状Ｂ６０〜Ｂ６３）	mounted on road or rail vehicles; Manually-movable jib cranes for use in workshops; Floating cranes (vehicle or ship aspects B60-B63)
+B66C  23/36  A	2	0	3F205	B66C  23/36	367	一体ジブを有する車両クレーン	vehicle cranes with integrated jib
+B66C  23/36  B	2	0	3F205	B66C  23/36	57	サイドクレーン	side cranes
+B66C  23/36  C	2	0	3F205	B66C  23/36	23	レッカー車として兼用できるもの	can also be used as tow truck
+B66C  23/36  D	2	0	3F205	B66C  23/36	329	他機能複合型及び特殊用途の車両ジブクレーン	vehicle jig cranes with combined functions or special purposes
+B66C  23/36  Z	2	0	3F205	B66C  23/36	235	その他	Others
+B66C  23/38  \	3	3	3F205	B66C  23/38	21	クレーン用および車用に分けられた原動機をもつもの	with separate prime movers for crane and vehicle
+B66C  23/40  \	3	3	3F205	B66C  23/40	98	クレーン用および車用の両用に一個の原動機をもつもの	with a single prime mover for both crane and vehicle
+B66C  23/42  \	3	3	3F205	B66C  23/42	464	調節可能の構造のジブ，例．折りたたみ可能なジブ，をもつもの	with jibs of adjustable configuration, e.g. foldable
+B66C  23/42  A	3	0	3F205	B66C  23/42	609	伸縮ブームを有する車両クレーン	vehicle cranes with telescopic boom
+B66C  23/42  B	3	0	3F205	B66C  23/42	272	タワー型トラッククレーン（ブームの折りたたみ格納Ｂ６６Ｃ２３／２６Ｅ）	Tower truck cranes (accommodation by folding boom B 66 C 23/26 E)
+B66C  23/42  C	3	1	3F205	B66C  23/42	113	伸縮ジブ；伸縮支柱をもつもの	telescopic jibs; with telescopic posts
+B66C  23/42  D	3	1	3F205	B66C  23/42	31	トロリー走行路をもつもの	with trolley tracks
+B66C  23/42  Z	3	0	3F205	B66C  23/42	53	その他	Others
+B66C  23/44  \	3	3	3F205	B66C  23/44	46	普通の車，例．農業用トラクタ，に取り付けられるよう適合したジブクレーン	Jib cranes adapted for attachment to standard vehicles, e.g. agricultural tractors
+B66C  23/44  A	3	0	3F205	B66C  23/44	455	車両の荷台に設けられた荷役用ジブクレーン	docking jib cranes mounted on vehicle deck
+B66C  23/44  B	3	1	3F205	B66C  23/44	97	クローラの荷台に設けられたもの	mounted on crawler deck
+B66C  23/44  Z	3	0	3F205	B66C  23/44	45	その他	Others
+B66C  23/46  \	3	3	3F205	B66C  23/46	10	旋回不可能なジブをもった移動式ジブクレーン	Mobile jib cranes with non-slewable jibs
+B66C  23/48  \	3	3	3F205	B66C  23/48	178	工場内で使用するための手動ジブクレーン	Manually-movable jib cranes for use in workshops
+B66C  23/50  \	3	3	3F205	B66C  23/50	136	鉄道車両に取り付けられたもの，例．応急作業クレーン車	mounted on railway vehicles, e.g. breakdown cranes
+B66C  23/52  \	3	3	3F205	B66C  23/52	415	浮きクレーン（浮き浚渫機Ｅ０２Ｆ）	Floating cranes (floating dredgers E02F)
+B66C  23/53  \	4	4	3F205	B66C  23/53	58	船舶もしくはプラットホームの傾斜，不平衡またはねじれを補償するための釣合いおもりまたは手段を含むもの（持ち上げ連結具と釣合うための釣合い重りまたは支持部材Ｂ６６Ｃ２３／７２；望ましくない船の運動を減じる装置Ｂ６３Ｂ３９／００）［４］	including counterweight or means to compensate for list, trim, or skew of the vessel or platform (counterweights or supports for balancing lifting couples B66C 23/72; equipment to decrease unwanted vessel movements B63B 39/00) [4]
+B66C  23/58  \	1	1	3F205	B66C  23/58	6	所望の連続操作，例．旋回に続くもち上げを自動的に遂行するようになされているもの	arranged to carry-out a desired sequence of operations automatically, e.g. hoisting followed by luffing and slewing
+B66C  23/60  \	1	1	3F205	B66C  23/60	46	デリック［３］	Derricks [3]
+B66C  23/60  A	1	0	3F205	B66C  23/60	72	ブームをロープで直接旋回するもの	directly turning boom with rope
+B66C  23/60  B	1	1	3F205	B66C  23/60	44	アウトリガを設けた支柱を用いるもの	using of posts provided with outrigger
+B66C  23/60  C	1	0	3F205	B66C  23/60	75	複数ブームをもつもの	with multiple booms
+B66C  23/60  D	1	0	3F205	B66C  23/60	32	吊下げ部；ブーム頭部構造	suspenders; boom head structures
+B66C  23/60  E	1	0	3F205	B66C  23/60	33	ブーム基端連結部（ジブクレーン一般Ｂ６６Ｃ２３／８２Ｂ）	boom end connections (jib cranes in general B 66 C 23/82 B)
+B66C  23/60  Z	1	0	3F205	B66C  23/60	131	その他	Others
+B66C  23/61  \	2	2	3F205	B66C  23/61	6	ピボットエンドに回転力が作用するもの［３］	with slewing force exerted at pivoted end [3]
+B66C  23/62  \	1	1	3F205	B66C  23/62	214	構造上の特徴または細部（浚渫機の特徴，細部Ｅ０２Ｆ）	Constructional features or details (of dredgers E02F)
+B66C  23/64  \	2	2	3F205	B66C  23/64	377	ジブ	Jibs
+B66C  23/66  \	3	3	3F205	B66C  23/66	172	外端または上端の構造	Outer or upper end constructions
+B66C  23/66  A	3	0	3F205	B66C  23/66	284	ジブ頭部滑車装置	jib head pulley devices
+B66C  23/66  B	3	1	3F205	B66C  23/66	93	副フックをもつもの	with supplemental hooks
+B66C  23/66  Z	3	0	3F205	B66C  23/66	128	その他	Others
+B66C  23/68  \	3	3	3F205	B66C  23/68	300	構造において，折りたたみ可能またはその他の調節可能なもの（Ｂ６６Ｃ２３／６８７，Ｂ６６Ｃ２３／７０が優先）［５］	foldable or otherwise adjustable in configuration
+B66C  23/683  \	4	4	3F205	B66C  23/683	0	使用中［５］	while in use
+B66C  23/683  A	4	0	3F205	B66C  23/683	180	折りたたみブーム（水平多関節ブームＢ６６Ｃ２３／０４Ｃ）	folding boom (horizontal multi-articulated boom B66C23/04C)
+B66C  23/683  B	4	1	3F205	B66C  23/683	130	伸縮ブームを含むもの	telescopic boom
+B66C  23/683  Z	4	0	3F205	B66C  23/683	10	その他	Others
+B66C  23/687  \	3	3	3F205	B66C  23/687	4	伸縮自在なもの［５］	telescopic
+B66C  23/687  A	3	0	3F205	B66C  23/687	67	伸縮ジブ自体の構造	structure of telescopic jib per se
+B66C  23/687  B	3	0	3F205	B66C  23/687	60	伸縮機構に特徴を有するもの	characterized by telescopic mechanism
+B66C  23/687  Z	3	0	3F205	B66C  23/687	48	その他	Others
+B66C  23/69  \	4	4	3F205	B66C  23/69	40	使用中［５］	while in use
+B66C  23/693  \	5	5	3F205	B66C  23/693	0	流体圧力により伸張可能なもの［５］	extensible by fluid pressure
+B66C  23/693  A	5	0	3F205	B66C  23/693	234	伸縮ジブ自体の構造	structure of telescopic jib per se
+B66C  23/693  B	5	0	3F205	B66C  23/693	73	単一のシリンダ装置により作動させる一段伸縮ブーム	one step telescopic boom activated by single cylinder device
+B66C  23/693  C	5	0	3F205	B66C  23/693	40	複数のシリンダを有する多段伸縮ブーム	multi steps telescopic boom having multiple cylinders
+B66C  23/693  D	5	1	3F205	B66C  23/693	173	独立した複数のシリンダを用いるもの	using multiple independent cylinders
+B66C  23/693  E	5	1	3F205	B66C  23/693	75	同軸複シリンダを用いるもの	using multiple cylinders of same axis
+B66C  23/693  F	5	0	3F205	B66C  23/693	47	ブーム同時伸縮制御回路をもつもの	having control circuit to simultaneously expand or contract boom
+B66C  23/693  G	5	1	3F205	B66C  23/693	15	モータ・ポンプ型分集流器をもつもの	having motor pump type flow divider/rectifier
+B66C  23/693  H	5	0	3F205	B66C  23/693	183	ブーム順次伸縮制御回路をもつもの	having control circuit to sequentially expand or contract boom
+B66C  23/693  J	5	0	3F205	B66C  23/693	125	ブーム，シリンダの選択係止手段をもつもの	having means to optionally locking boom, cylinder
+B66C  23/693  K	5	1	3F205	B66C  23/693	44	ブームの伸縮により順次作動するもの	activated sequentially by expanding or contracting of boom
+B66C  23/693  L	5	0	3F205	B66C  23/693	284	ロープ連動式ブーム伸縮機構をもつもの	having rope linked type boom telescopic mechanizm
+B66C  23/693  M	5	0	3F205	B66C  23/693	19	他に分類されないブーム伸縮機構をもつもの	having boom telescopic machanizm not otherwise provided for
+B66C  23/693  N	5	0	3F205	B66C  23/693	223	伸縮ブーム案内部	guidance part of telescopic boom
+B66C  23/693  P	5	0	3F205	B66C  23/693	80	シリンダ座屈防止手段	cylinder buckling prevention means
+B66C  23/693  Z	5	0	3F205	B66C  23/693	281	その他	Others
+B66C  23/697  \	4	4	3F205	B66C  23/697	198	接合部分間に軸受手段を備えるもの［５］	providing bearing means between sections
+B66C  23/70  \	3	3	3F205	B66C  23/70	68	長さの異なったジブを形成するために，別個の部材から組立てたもの	assembled from separate sections to form jibs of various discrete lengths
+B66C  23/70  A	3	0	3F205	B66C  23/70	86	補助ジブ	auxiliary jibs
+B66C  23/70  B	3	1	3F205	B66C  23/70	155	水平面内の回動で補助ジブを収納するもの	accommodating auxiliary jibs by revolving on horizontal plane
+B66C  23/70  C	3	1	3F205	B66C  23/70	203	垂直面内の回動で補助ジブを収納するもの	accommodating auxiliary jibs by revolving on vertical plane
+B66C  23/70  D	3	1	3F205	B66C  23/70	130	垂直面内の回動と，補助ジブ軸線まわりの回動で，ブーム側方に収納するもの	accommodating at side of boom by revolution on vertical plane and auxiliary jib axis
+B66C  23/70  E	3	1	3F205	B66C  23/70	89	先端ブーム内へ又は，先端ブーム外面に沿って補助ジブを引き込み収納するもの	accommodating by retracting auxiliary jib into top boom or along external surface of top boom
+B66C  23/70  F	3	1	3F205	B66C  23/70	45	複合型補助ジブ	combined auxiliary jibs
+B66C  23/70  G	3	1	3F205	B66C  23/70	178	先端ブームへの取付角度が調整できるもの	adjustable mounting angle to top boom
+B66C  23/70  H	3	0	3F205	B66C  23/70	172	先端ブームへの補助ジブ固定装置；固定ピン	devices for fixing auxiliary jib to top boom; fixing pins
+B66C  23/70  Z	3	0	3F205	B66C  23/70	51	その他	Others
+B66C  23/72  \	2	2	3F205	B66C  23/72	71	もち上げ連結具と釣り合うための釣り合いおもりまたは支持部材	Counterweights or supports for balancing lifting couples
+B66C  23/74  \	3	3	3F205	B66C  23/74	104	ジブから分離したもの	separate from jib
+B66C  23/74  A	3	0	3F205	B66C  23/74	134	カウンタウエイト一般（フォークリフト車用Ｂ６６Ｆ９／０７５Ｃ，トラクター用Ｂ６２Ｄ４９／０８，シャベル車用Ｅ０２Ｆ９／１８）	Counterweights in general (for forklifts B 66 F 9/075 C, for tractors B 62 D 49/08, for shovel cars E 62 F 9/18)
+B66C  23/74  B	3	1	3F205	B66C  23/74	265	カウンタウエイトの構造	Structures of counterweights
+B66C  23/74  C	3	1	3F205	B66C  23/74	134	カウンタウエイトの着脱	Attaching and detaching counterweights
+B66C  23/74  D	3	2	3F205	B66C  23/74	291	旋回台後部のカウンタウエイト着脱	Attaching and detaching counterweight at rear of turning base
+B66C  23/74  E	3	2	3F205	B66C  23/74	56	カウンタウエイトの着脱検出・制御	Detecting or controlling attached or detached counterweight
+B66C  23/74  Z	3	0	3F205	B66C  23/74	33	その他	Others
+B66C  23/76  \	4	4	3F205	B66C  23/76	31	荷重の変化，またはジブの長さの変化を考慮して移動するもの	and movable to take account of variations of load or of variations of length of jib
+B66C  23/76  A	4	0	3F205	B66C  23/76	58	調節可能なカウンタウエイト	adjustable counterweights
+B66C  23/76  B	4	1	3F205	B66C  23/76	106	揺動型カウンタウエイト	oscillating counterweights
+B66C  23/76  C	4	1	3F205	B66C  23/76	140	摺動型カウンタウエイト	sliding counterweights
+B66C  23/76  D	4	1	3F205	B66C  23/76	75	段積み型カウンタウエイト	stacking counterweights
+B66C  23/76  E	4	1	3F205	B66C  23/76	14	流体を用いているもの，例．水タンク	using of fluids, e.g. water tank
+B66C  23/76  Z	4	0	3F205	B66C  23/76	89	その他	Others
+B66C  23/78  \	3	3	3F205	B66C  23/78	121	移動式クレーンの支持材，例．アウトリガー	Supports, e.g. outriggers, for mobile cranes
+B66C  23/78  A	3	0	3F205	B66C  23/78	276	アウトリガ，支持部材一般（一般車両用，Ｂ６０Ｓ９／００，フォークリフト車用，Ｂ６６Ｆ９／０７５Ｌ，シャベル車用，Ｅ０２Ｆ９／０８Ａ）	outriggers, supporting members in general (for ordinary vehicles B 60 S 9/00,  for forklifts B 66 F9/075 L, for shovel cars E 02 F 9/08 A)
+B66C  23/78  B	3	1	3F205	B66C  23/78	87	車輪型支持部材	wheel type supporting members
+B66C  23/78  C	3	1	3F205	B66C  23/78	323	水平伸縮ビームをもつもの	with horizontal telescopic booms
+B66C  23/78  D	3	1	3F205	B66C  23/78	46	アウトリガを用いてクレーン本体を移動するもの	moving crane bodies using outriggers
+B66C  23/78  E	3	1	3F205	B66C  23/78	159	アウトリガの配置	outrigger arrangements
+B66C  23/78  F	3	1	3F205	B66C  23/78	112	フロート；接地部	floats; earthing
+B66C  23/78  G	3	2	3F205	B66C  23/78	88	フロート部の収納機構	float accommodation mechanisms
+B66C  23/78  H	3	1	3F205	B66C  23/78	432	検出，警報装置；制御回路	detection, alarm devices; control circuits
+B66C  23/78  Z	3	0	3F205	B66C  23/78	68	その他	Others
+B66C  23/80  \	4	4	3F205	B66C  23/80	336	液圧作動のもの	hydraulically actuated
+B66C  23/82  \	2	2	3F205	B66C  23/82	123	ラッフィングギヤ	Luffing gear
+B66C  23/82  A	2	0	3F205	B66C  23/82	228	俯仰装置一般	Luffing gears in general
+B66C  23/82  B	2	1	3F205	B66C  23/82	167	デリックシリンダ取付構造；ブーム枢支部構造	Derrick cylinder mounting structures; boom pivoting structures
+B66C  23/82  C	2	1	3F205	B66C  23/82	161	Ａフレーム	A frames
+B66C  23/82  D	2	1	3F205	B66C  23/82	51	イコライザシーブ部（分解・組立Ｂ６６Ｃ２３／２６Ｆ）	Equaliser sheaves (disassembling or assembling B 66 F 23/26 F)
+B66C  23/82  E	2	1	3F205	B66C  23/82	66	引込駆動装置	Retraction drive devices
+B66C  23/82  F	2	1	3F205	B66C  23/82	164	俯仰制御回路	Luffing control circuits
+B66C  23/82  Z	2	0	3F205	B66C  23/82	68	その他	Others
+B66C  23/84  \	2	2	3F205	B66C  23/84	173	スルーイングギヤ（ころがり軸受Ｆ１６Ｃ）	Slewing gear (anti-friction bearings F16C)
+B66C  23/84  A	2	0	3F205	B66C  23/84	299	旋回装置一般	Turning gears in general
+B66C  23/84  B	2	1	3F205	B66C  23/84	81	可撓体，例．ロープ；チェーン，による旋回駆動手段	Turning drive means by flexible bodies (ropes; chains)
+B66C  23/84  C	2	1	3F205	B66C  23/84	56	シリンダによる駆動	Driving by cylinders
+B66C  23/84  D	2	1	3F205	B66C  23/84	3	ウォームギヤによる駆動	Driving by worm gears
+B66C  23/84  E	2	1	3F205	B66C  23/84	213	旋回リング駆動装置，例．内歯車駆動型	Turning ring driving gears (internal gear drive type)
+B66C  23/84  F	2	2	3F205	B66C  23/84	18	旋回輪荷重等分配装置	Devices for equally distributing rotating wheel loads
+B66C  23/84  G	2	1	3F205	B66C  23/84	58	潤滑，清掃，防塵	Lubricating, cleaning, dustproof
+B66C  23/84  H	2	1	3F205	B66C  23/84	143	旋回制御のための電気制御回路	Electric control circuits for turning control
+B66C  23/84  Z	2	0	3F205	B66C  23/84	56	その他	Others
+B66C  23/86  \	3	3	3F205	B66C  23/86	95	液圧作動のもの	hydraulically actuated
+B66C  23/86  A	3	0	3F205	B66C  23/86	318	液圧制御回路	hydraulic control circuits
+B66C  23/86  Z	3	0	3F205	B66C  23/86	13	その他	Others
+B66C  23/88  \	1	1	3F205	B66C  23/88	198	安全装置（一般的なクレーン用のものＢ６６Ｃ１５／００；ロープ，ケーブルまたはチェーン巻き取り機構用のものＢ６６Ｄ１／５４）	Safety gear (for cranes in general B66C 15/00; for rope, cable, or chain winding mechanisms B66D 1/54)
+B66C  23/88  A	1	0	3F205	B66C  23/88	185	倒壊防止	preventing tipping collapsing
+B66C  23/88  B	1	1	3F205	B66C  23/88	126	クレーン本体の傾斜検出	detecting tilting of crane bodies
+B66C  23/88  C	1	1	3F205	B66C  23/88	47	機械的手段によるもの，例．ストッパ	by mechanical means, e.g. stoppers
+B66C  23/88  D	1	0	3F205	B66C  23/88	454	衝突防止	preventing collisions
+B66C  23/88  E	1	1	3F205	B66C  23/88	103	クレーン間のもの	between cranes
+B66C  23/88  F	1	0	3F205	B66C  23/88	53	異常電圧発生防止	preventing generation of faulty voltage
+B66C  23/88  G	1	0	3F205	B66C  23/88	42	ブームの絶縁	insulating booms
+B66C  23/88  H	1	0	3F205	B66C  23/88	183	俯仰制限（Ｂ６６Ｃ２３／９２が優先）	limiting luffing, 23/92 takes precedence
+B66C  23/88  J	1	0	3F205	B66C  23/88	15	起伏シリンダの保護	protecting luffing cylinders
+B66C  23/88  K	1	0	3F205	B66C  23/88	51	ブームの自然降下または落下防止	preventing free falling (dropping) of boom
+B66C  23/88  L	1	0	3F205	B66C  23/88	196	ブームレストを有するブームの格納	accommodating booms provided with boom rest
+B66C  23/88  M	1	0	3F205	B66C  23/88	194	ジブ頭部へのフックの格納	accommodating hook into jib head
+B66C  23/88  N	1	0	3F205	B66C  23/88	105	車体部へのフックの格納	accommodating hook in vehicle body
+B66C  23/88  P	1	0	3F205	B66C  23/88	32	立入防止柵	fences for preventing entrance
+B66C  23/88  Q	1	0	3F205	B66C  23/88	331	過巻防止；ジブの伸縮等によるくり出しロープ長の変化を防止するもの	preventing over winding; preventing changes in length of paid out rope due to expansion or contraction of jib
+B66C  23/88  R	1	0	3F205	B66C  23/88	113	ワイヤロープの保護；緩衝	wire rope protection; damping
+B66C  23/88  S	1	0	3F205	B66C  23/88	38	横吊防止	preventing side suspension
+B66C  23/88  Z	1	0	3F205	B66C  23/88	346	その他	Others
+B66C  23/90  \	2	2	3F205	B66C  23/90	207	もち上げ動作を表示，もしくは制限するための装置	Devices for indicating or limiting lifting movement
+B66C  23/90  A	2	0	3F205	B66C  23/90	212	モーメントリミッタ一般	Moment limiters in general
+B66C  23/90  B	2	1	3F205	B66C  23/90	141	荷重と変位の検出を関連させたもの	Correlating detections in loads and displacements
+B66C  23/90  C	2	1	3F205	B66C  23/90	126	伸縮ブーム長検出・表示	Detecting or indicating telescopic boom lengths
+B66C  23/90  D	2	1	3F205	B66C  23/90	142	角度検出・表示	Detecting or indicating angles
+B66C  23/90  E	2	1	3F205	B66C  23/90	52	複合型変位検出・表示	Detecting or indicating combined displacements
+B66C  23/90  F	2	2	3F205	B66C  23/90	119	作業半径検出・表示	Detecting or indicating work radii
+B66C  23/90  G	2	1	3F205	B66C  23/90	74	モーメントリミッタの表示装置一般	Indicating devices in general for moment limiters
+B66C  23/90  H	2	2	3F205	B66C  23/90	94	アラーム警報装置	Alarming devices
+B66C  23/90  J	2	2	3F205	B66C  23/90	43	警告ランプ，表示灯	Alarm or indicator lamps
+B66C  23/90  K	2	2	3F205	B66C  23/90	75	指針，アナログ表示	Pointers, analogue indications
+B66C  23/90  L	2	2	3F205	B66C  23/90	55	デジタル表示	Digital indications
+B66C  23/90  M	2	2	3F205	B66C  23/90	102	グラフ・図形表示	Graph or object indications
+B66C  23/90  N	2	1	3F205	B66C  23/90	166	作業範囲・作業状態により負荷設定値が変化するもの	Variable load settings depending on work area or conditions
+B66C  23/90  P	2	2	3F205	B66C  23/90	81	ブーム長の変化と関連するもの	Related to changes in boom length
+B66C  23/90  Q	2	2	3F205	B66C  23/90	57	旋回位置と関連するもの（旋回用モーメントリミッタＢ６６Ｃ２３／９４Ｅ）	Related to turning positions (moment limiters for turning B 66 C 23/94 E)
+B66C  23/90  R	2	2	3F205	B66C  23/90	121	アウトリガの張出状態と関連するもの（アウトリガ張出状態の検出Ｂ６６Ｃ２３／７８Ｈ）	Related to extended conditions of outrigger (detecting extended conditions of outrigger B 66 C 23/78 H)
+B66C  23/90  S	2	2	3F205	B66C  23/90	38	車速・クレーン動作速度と関連するもの	Related to vehicle or crane motion speeds
+B66C  23/90  T	2	1	3F205	B66C  23/90	115	定格荷重発生回路・メモリ	Rated load generating devices or memories
+B66C  23/90  U	2	1	3F205	B66C  23/90	84	誤差補正回路	Error compensating circuits
+B66C  23/90  V	2	1	3F205	B66C  23/90	57	故障検出	Detecting failures
+B66C  23/90  W	2	1	3F205	B66C  23/90	45	油圧回路に特徴があるもの	Characterised by hydraulic circuits
+B66C  23/90  X	2	2	3F205	B66C  23/90	50	アウトリガの接地圧を検出するもの（一般Ｂ６６Ｃ１３／１６Ｄ）	Detecting earthing pressure of outrigger (in general B 66 C 13/16 D)
+B66C  23/90  Y	2	2	3F205	B66C  23/90	77	デリックシリンダー圧を検出するもの（一般，Ｂ６６Ｃ１３／１６Ｃ）	Detecting derrick cylinder pressures (in general B 66 C 13/16 C)
+B66C  23/90  Z	2	0	3F205	B66C  23/90	53	その他	Others
+B66C  23/92  \	2	2	3F205	B66C  23/92	119	ジブの後方への揺動，例．ケーブルまたは索が切れた場合の揺動，を防止するための緩衝機またはダッシュポット	Snubbers or dash-pots for preventing backwards-swinging of jibs, e.g. in the event of cable or tackle breakage
+B66C  23/94  \	2	2	3F205	B66C  23/94	99	旋回運動を制限するためのもの	for limiting slewing movements
+B66C  23/94  A	2	0	3F205	B66C  23/94	103	旋回輪固定装置；ロックピン	Turning wheel fixing devices; lock pins
+B66C  23/94  B	2	0	3F205	B66C  23/94	36	旋回位置規制用メカニカルストッパ	Mechanical stoppers for restricting turning positions
+B66C  23/94  C	2	0	3F205	B66C  23/94	128	旋回用ブレーキ	Turning brakes
+B66C  23/94  D	2	0	3F205	B66C  23/94	100	旋回位置検出装置；リミットスイッチ	Turning position detectors; limit switches
+B66C  23/94  E	2	0	3F205	B66C  23/94	90	旋回用モーメントリミッタ（モーメントリミッタ一般Ｂ６６Ｃ２３／９０）	Moment limiters for turning (moment limiters in general B 66 C 23/90)
+B66C  23/94  F	2	0	3F205	B66C  23/94	82	旋回警報装置・表示手段（衝突の防止，Ｂ６６Ｃ２３／８８Ｄ）	Means for alarming or indicating turning (preventing collisions B 66 C 23/88 D)
+B66C  23/94  Z	2	0	3F205	B66C  23/94	29	その他	Others
+B66C  25/00  \	0	0	3F209	B66C  25/00	1	グループＢ６６Ｃ１７／００〜Ｂ６６Ｃ２３／００に分類されないクレーン［８］	Cranes not provided for in groups B66C 17/00-B66C 23/00 [8]

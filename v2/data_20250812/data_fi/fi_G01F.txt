@@ -1,0 +1,488 @@
+G01F   1/00  \	0	0	2F030	G01F   1/00	165	流体が連続流で計器を通過するときの流体もしくは流動性固体の体積流量または質量流量の測定（体積流量の比例の測定Ｇ０１Ｆ５／００　）［２０２２．０１］	Measuring the volume flow or mass flow of fluid or fluent solid material wherein the fluid passes through a meter in a continuous flow (measuring a proportion of the volume flow G01F 5/00) [1, 2, 2006.01, 2022.01]
+G01F   1/00  B	0	0	2F030	G01F   1/00	119	特殊な流量計	Special flow meters
+G01F   1/00  A	0	0	2F030	G01F   1/00	263	検出方法に特徴のあるもの	Characterised by detecting methods
+G01F   1/00  H	0	1	2F030	G01F   1/00	414	流量の推定方法，例．水位から	Methods for estimating flow e.g. from water levels
+G01F   1/00  J	0	0	2F030	G01F   1/00	213	特殊な検出装置により流量算出，例．光	Calculating flow using of special detecting devices e.g. light
+G01F   1/00  K	0	0	2F030	G01F   1/00	150	流速分布を考慮するもの	Consider flow velocity distribution
+G01F   1/00  C	0	0	2F030	G01F   1/00	41	特殊な流体に適用するもの	Applying to special fluids
+G01F   1/00  L	0	1	2F030	G01F   1/00	63	特殊な気体	Special gases
+G01F   1/00  M	0	1	2F030	G01F   1/00	106	特殊な流体，例．粘土	Special fluids, e.g. clay
+G01F   1/00  N	0	2	2F030	G01F   1/00	30	原子炉に用いるもの，例．Ｎａ，Ｈ	For nuclear reactors, e.g. Na, H
+G01F   1/00  P	0	2	2F030	G01F   1/00	50	溶鉱炉に用いるもの，例．Ｆｅ，Ｎｅ	Fr blast furnaces, e.g. Fe, Ne
+G01F   1/00  Q	0	2	2F030	G01F   1/00	240	医療に用いるもの，例．血，体液	For medical, e.g. blood, humors
+G01F   1/00  E	0	0	2F030	G01F   1/00	78	流量計の共通事項	Items common to flow meters
+G01F   1/00  R	0	0	2F030	G01F   1/00	122	検出部に特徴のあるもの，例．センサ	characterised by detecting units e.g. sensors
+G01F   1/00  S	0	1	2F030	G01F   1/00	441	副管を用いるもの，例．側路，バイパス管を用いるもの	Using of supplemental tubes, e.g. side tubes, bypass tubes
+G01F   1/00  T	0	1	2F030	G01F   1/00	1135	もれ，断水検知，異常検知，安全装置	Detecting leakage, detecting shutoff,  detecting abnormalities, safety devices
+G01F   1/00  U	0	1	2F030	G01F   1/00	149	検流計（検流計自体はＧ０１Ｐ１３／００）	Galvanometers (galvanometers per se G01P13/00)
+G01F   1/00  V	0	0	2F030	G01F   1/00	160	流量計の切替，例．異種，レンジの切替（複合流量計はＧ０１Ｆ７／００）	Switching flow meters, e.g. different types, switching ranges (compound meters G01F7/00)
+G01F   1/00  F	0	0	2F030	G01F   1/00	768	流量算出，例．算出回路	Calculating flow, e.g. calculating circuits
+G01F   1/00  W	0	0	2F030	G01F   1/00	467	器差補正，例．温度，圧力補償	Compensating instrument errors, e.g. temperature, pressure compensations
+G01F   1/00  X	0	0	2F030	G01F   1/00	450	流量制御	Regulating flow
+G01F   1/00  Y	0	0	2F030	G01F   1/00	858	表示，例．遠隔指示	Indicating, e.g. remote indicating
+G01F   1/00  G	0	0	2F030	G01F   1/00	1046	付側部材・取付部材に特徴のあるもの，例．フィルタ	characterised by accessory or mounting members e.g. filters
+G01F   1/00  Z	0	0	2F030	G01F   1/00	659	その他	Others
+G01F   1/002  \	1	1	2F030	G01F   1/002	630	流れが開水路の流れであるもの［２０２２．０１］	wherein the flow is in an open channel [2022.01]
+G01F   1/05  \	1	1	2F030	G01F   1/05	137	機械的な効果を使用するもの［２００６．０１］	by using mechanical effects [2, 2006.01]
+G01F   1/06  \	2	2	2F030	G01F   1/06	842	接線式の回転翼を使用するもの［２］	using rotating vanes with tangential admission [2]
+G01F   1/06  A	2	0	2F030	G01F   1/06	382	単箱式水道メータ	Single-box water meters
+G01F   1/06  B	2	0	2F030	G01F   1/06	268	複箱式水道メータ	Multi-box water meters
+G01F   1/06  Z	2	0	2F030	G01F   1/06	124	その他	Others
+G01F   1/07  \	3	3	2F030	G01F   1/07	60	指示装置と機械的結合をもつもの［２］	with mechanical coupling to the indicating device [2]
+G01F   1/075  \	3	3	2F030	G01F   1/075	335	指示装置と磁気的または電気的結合をもつもの［２］	with magnetic or electromagnetic coupling to the indicating device [2]
+G01F   1/08  \	3	3	2F030	G01F   1/08	45	そのための調整，補正または補償手段［２］	Adjusting, correcting, or compensating means therefor [2]
+G01F   1/10  \	2	2	2F030	G01F   1/10	922	軸流式の回転翼を使用するもの［２］	using rotating vanes with axial admission [2]
+G01F   1/11  \	3	3	2F030	G01F   1/11	36	指示装置と機械的結合をもつもの［２］	with mechanical coupling to the indicating device [2]
+G01F   1/115  \	3	3	2F030	G01F   1/115	333	指示装置と磁気的または電気的結合をもつもの［２］	with magnetic or electromagnetic coupling to the indicating device [2]
+G01F   1/12  \	3	3	2F030	G01F   1/12	87	そのための調整，補正または補償手段	Adjusting, correcting, or compensating means therefor
+G01F   1/20  \	2	2	2F030	G01F   1/20	85	流れの力学的効果を検出することによるもの［２００６．０１］	by detection of dynamic effects of theflow [2, 2006.01]
+G01F   1/20  A	2	0	2F030	G01F   1/20	114	力学的効果を検出するもの一般	Detecting dynamic effects in general
+G01F   1/20  B	2	1	2F030	G01F   1/20	203	球の移動を検出するもの	detecting sphere movements
+G01F   1/20  C	2	1	2F030	G01F   1/20	37	翼の移動を検出するもの，翼式流量計	detecting vane movements, vane flow meters
+G01F   1/20  D	2	1	2F030	G01F   1/20	71	部材の振動を検出するもの（渦型流量計はＧ０１Ｆ１／３２）	detecting vibrations of members (swirl flowmeter G01F1/32)
+G01F   1/20  E	2	1	2F030	G01F   1/20	758	フルイデック流量計	fluidic flow meter
+G01F   1/20  F	2	1	2F030	G01F   1/20	61	流れの落下形状，位置を検出するもの	detecting falling profiles, positions of a flow
+G01F   1/20  G	2	1	2F030	G01F   1/20	156	点滴数を計数するもの，微少流量計	counting droplets, minute flow meters
+G01F   1/20  Z	2	0	2F030	G01F   1/20	10	その他	Others
+G01F   1/22  \	3	3	2F030	G01F   1/22	757	面積流量計［２］	by variable-area meters [2]
+G01F   1/22  A	3	0	2F030	G01F   1/22	572	テーパ管を用いたもの	using of tapered tubes
+G01F   1/22  B	3	0	2F030	G01F   1/22	94	スプリングにより浮子，受圧板が偏倚されるもの	Displacing floats, pressure receiving plates by spring
+G01F   1/22  C	3	0	2F030	G01F   1/22	72	浮子，受圧板の構造に特徴のあるもの	characterised by structure of floats, pressure receiving plates
+G01F   1/22  Z	3	0	2F030	G01F   1/22	119	その他	Others
+G01F   1/24  \	4	4	2F030	G01F   1/24	95	指示装置と磁気的または電気的結合をもつもの［２］	with magnetic or electric coupling to the indicating device [2]
+G01F   1/26  \	4	4	2F030	G01F   1/26	108	弁型のもの［２］	of the valve type [2]
+G01F   1/28  \	3	3	2F030	G01F   1/28	82	牽引力によるもの，例．ベーン型または衝撃式流量計［２］	by drag-force, e.g. vane type or impact flowmeter [2]
+G01F   1/28  A	3	0	2F030	G01F   1/28	548	受圧板が回動する型	Rotating pressure receiving plates
+G01F   1/28  B	3	0	2F030	G01F   1/28	330	受圧板が前後動する型	Pressure receiving plates moving back and forth
+G01F   1/28  C	3	0	2F030	G01F   1/28	205	受圧板が弾性変形する型	Elastically deforming pressure receiving plates
+G01F   1/28  Z	3	0	2F030	G01F   1/28	31	その他	Others
+G01F   1/30  \	4	4	2F030	G01F   1/30	113	流動性固体用［２］	for fluent solid material [2]
+G01F   1/32  \	3	3	2F004	G01F   1/32	1383	渦型流量計を用いるもの［２０２２．０１］	using swirl flowmeters [2, 2006.01, 2022.01]
+G01F   1/32  A	3	0	2F004	G01F   1/32	64	カルマン型一般	Karman types in general
+G01F   1/32  B	3	1	2F004	G01F   1/32	180	渦発生体の形状	profiles of vortex generator
+G01F   1/32  C	3	1	2F004	G01F   1/32	246	渦発生補助体，例．管路に特徴のあるもの	supplemental bodies for generating vortices, e.g. characterised by passages
+G01F   1/32  T	3	1	2F004	G01F   1/32	549	信号処理回路	Signal processing circuits
+G01F   1/32  U	3	1	2F004	G01F   1/32	47	清掃に特徴のあるもの	characterized by cleaning
+G01F   1/32  V	3	1	2F004	G01F   1/32	167	取付けに特徴のあるもの	characterized by mounting
+G01F   1/32  W	3	0	2F004	G01F   1/32	33	スワール型	Swirl types
+G01F   1/32  Z	3	0	2F004	G01F   1/32	43	その他	Others
+G01F   1/325  \	4	4	2F004	G01F   1/325	0	渦を間接的に示す変量を検出するための手段［２０２２．０１］	Means for detecting quantities used as proxy variables for swirl [2022.01]
+G01F   1/325  E	4	0	2F004	G01F   1/325	135	側面に検知部材を設置	having members for detection on the side
+G01F   1/325  F	4	0	2F004	G01F   1/325	148	導圧孔を有するもの	with pressure guide holes
+G01F   1/325  G	4	1	2F004	G01F   1/325	69	ダイアフラムに特徴のあるもの	characterised by diaphragms
+G01F   1/325  H	4	1	2F004	G01F   1/325	89	感温素子を利用するもの	using temperature-sensitive elements
+G01F   1/325  J	4	1	2F004	G01F   1/325	72	光を利用するもの	using light
+G01F   1/325  K	4	1	2F004	G01F   1/325	25	磁力を利用するもの	using magnetic force
+G01F   1/325  L	4	0	2F004	G01F   1/325	73	流路中の振動する部材の歪，例．渦発生体自体の歪	Distortion of vibrating members disposed in a flow path, e.g. distortion of vortex generators per se
+G01F   1/325  M	4	1	2F004	G01F   1/325	332	感圧素子によるもの，例．歪ゲージ	with pressure-sensitive elements, e.g. strain gauges
+G01F   1/325  N	4	1	2F004	G01F   1/325	63	光を利用するもの	using light
+G01F   1/325  P	4	1	2F004	G01F   1/325	37	磁力変化を検出	Detecting changes in magnetic forces
+G01F   1/325  Q	4	1	2F004	G01F   1/325	24	静電容量変化を検出	Detecting changes in capacitance
+G01F   1/325  R	4	1	2F004	G01F   1/325	22	音さ検出	Detection with tuning forks
+G01F   1/325  S	4	0	2F004	G01F   1/325	339	渦そのものを検知，例．超音波	Detecting vortexes per se, e.g. ultrasonic waves
+G01F   1/325  Z	4	0	2F004	G01F   1/325	16	その他	Others
+G01F   1/34  \	2	2	2F030	G01F   1/34	411	圧力または差圧測定によるもの［２］	by measuring pressure or differential pressure [2]
+G01F   1/34  A	2	0	2F030	G01F   1/34	109	単一の圧力測定によるもの	By single pressure measurement
+G01F   1/34  B	2	0	2F030	G01F   1/34	24	曲管式流量計	Bent tube flow meters
+G01F   1/34  C	2	0	2F030	G01F   1/34	52	ソニックノズルによる流量計	Sonic nozzle flow meters
+G01F   1/34  Z	2	0	2F030	G01F   1/34	191	その他	Others
+G01F   1/36  \	3	3	2F030	G01F   1/36	383	圧力または差圧が絞りを用いることにより作られるもの［２］	the pressure or differential pressure being created by the use of flow constriction [2]
+G01F   1/37  \	4	4	2F030	G01F   1/37	229	圧力または差圧が連通管または可動液面を伴なう槽によって測定されるもの，例．Ｕ字管によるもの［２］	the pressure or differential pressure being measured by means of communicating tubes or reservoirs with movable fluid levels, e.g. by U-tubes [2]
+G01F   1/38  \	4	4	2F030	G01F   1/38	314	圧力または差圧が可動部材によって測定されるもの，例．ダイアフラム，ピストン，ブルドン管または可撓性のカプセル［２］	the pressure or differential pressure being measured by means of a movable element, e.g. diaphragm, piston, Bourdon tube or flexible capsule [2]
+G01F   1/40  \	4	4	2F030	G01F   1/40	248	流れ絞り装置の構造の細部［２］	Details of construction of the flow constriction devices [2]
+G01F   1/42  \	5	5	2F030	G01F   1/42	399	オリフィスまたはノズル［２］	Orifices or nozzles [2]
+G01F   1/42  A	5	0	2F030	G01F   1/42	209	オリフィスプレートを用いたもの	Using of orifice plates
+G01F   1/42  B	5	0	2F030	G01F   1/42	64	ノズルを用いたもの	Using of nozzles
+G01F   1/42  C	5	0	2F030	G01F   1/42	148	可変オリフィスを用いたもの	Using of variable orifices
+G01F   1/42  D	5	0	2F030	G01F   1/42	79	特殊なオリフィスを用いたもの	Using of special orifices
+G01F   1/42  Z	5	0	2F030	G01F   1/42	71	その他	Others
+G01F   1/44  \	5	5	2F030	G01F   1/44	211	ベンチュリー管［２］	Venturi tubes [2]
+G01F   1/46  \	5	5	2F030	G01F   1/46	419	ピトー管［２］	Pitot tubes [2]
+G01F   1/48  \	3	3	2F030	G01F   1/48	224	圧力または差圧が毛細管部材によって作られるもの［２］	the pressure or differential pressure being created by a capillary element [2]
+G01F   1/50  \	3	3	2F030	G01F   1/50	216	補正または補償手段［２］	Correcting or compensating means [2]
+G01F   1/52  \	2	2	2F030	G01F   1/52	374	流体流の揚力による液面の高さを測定することによるもの［２］	by measuring the height of the fluid level due to the lifting power of the fluid flow [2]
+G01F   1/52  A	2	0	2F030	G01F   1/52	83	フリューム式流量計	Flume type flow meters
+G01F   1/52  B	2	0	2F030	G01F   1/52	128	せき式流量計	Weir type flow meters
+G01F   1/52  Z	2	0	2F030	G01F   1/52	46	その他	Others
+G01F   1/54  \	2	2	2F030	G01F   1/54	16	流れによって導びかれ，そして動かされる鎖，可撓性の帯またはワイヤーの手段によるもの［２］	by means of chains, flexible bands, or wires introduced into, and moved by, the flow [2]
+G01F   1/56  \	1	1	2F035	G01F   1/56	321	電気的または磁気的な効果を使用するもの（Ｇ０１Ｆ１／６６が優先）［２］	by using electric or magnetic effects (G01F 1/66 takes precedence) [2]
+G01F   1/58  \	2	2	2F035	G01F   1/58	273	電磁流量計［２］	by electromagnetic flowmeters [2]
+G01F   1/58  A	2	0	2F035	G01F   1/58	362	導管Ｉ，例．ライニング	Conduits I, e.g. linings
+G01F   1/58  B	2	0	2F035	G01F   1/58	183	導管ＩＩ，例．フランジ，接続	Conduits II, e.g. flanges, connections
+G01F   1/58  C	2	0	2F035	G01F   1/58	508	電極Ｉ，例．構造；洗浄	Electrodes I, e.g. structures; cleaning
+G01F   1/58  D	2	0	2F035	G01F   1/58	108	電極ＩＩ，例．複数電極等	Electrodes II, e.g. multiple electrodes
+G01F   1/58  E	2	0	2F035	G01F   1/58	438	磁界発生，例．コイル，コア，磁石等	Generating magnetic fields, e.g. coils, cores, magnets
+G01F   1/58  F	2	1	2F035	G01F   1/58	27	不均一磁界	Uneven magnetic fields
+G01F   1/58  G	2	1	2F035	G01F   1/58	18	放射磁界	Spreading magnetic fields
+G01F   1/58  H	2	0	2F035	G01F   1/58	135	アース	Grounding
+G01F   1/58  J	2	0	2F035	G01F   1/58	67	ケース，例．端子箱，端子板	Grounding, e.g. terminal boxes, terminate plates
+G01F   1/58  K	2	0	2F035	G01F   1/58	17	摩耗検知	Detecting wear
+G01F   1/58  L	2	0	2F035	G01F   1/58	97	ノイズ補償	Compensating noises
+G01F   1/58  M	2	0	2F035	G01F   1/58	67	リード線	Lead wires
+G01F   1/58  N	2	0	2F035	G01F   1/58	81	非満水検知	Detecting less-than-full water levels
+G01F   1/58  P	2	0	2F035	G01F   1/58	22	シールドドライブ	Shielded drives
+G01F   1/58  Q	2	0	2F035	G01F   1/58	44	校正	Calibrating
+G01F   1/58  R	2	0	2F035	G01F   1/58	74	挿入型	Inserted types
+G01F   1/58  S	2	0	2F035	G01F   1/58	22	浸漬型	Immersed types
+G01F   1/58  Z	2	0	2F035	G01F   1/58	640	その他	Others
+G01F   1/60  \	3	3	2F035	G01F   1/60	1195	そのための回路［２］	Circuits therefor [2]
+G01F   1/64  \	2	2	2F035	G01F   1/64	141	流体流中を流れる電流を測定することによるもの；流体流によって生じる電位を測定することによるもの，例．電気化学的な，接触，または摩擦効果によるもの（Ｇ０１Ｆ１／５８が優先）［２］	by measuring electrical currents passing through the fluid flow; by measuring electrical potential generated by the fluid flow, e.g. by electrochemical, contact, or friction effects (G01F 1/58 takes precedence) [2]
+G01F   1/66  \	1	1	2F035	G01F   1/66	172	電磁波または他の波の周波数，位相変化または伝播時間を測定することによるもの，例．超音波流量計［２０２２．０１］	by measuring frequency, phase shift or propagation time of electromagnetic or other waves, e.g. using ultrasonic flowmeters [2, 2006.01, 2022.01]
+G01F   1/66  B	1	0	2F035	G01F   1/66	175	多測線；平均；開水路	Multiple measurement lines; averaging; open channels
+G01F   1/66  Z	1	0	2F035	G01F   1/66	924	その他	Others
+G01F   1/66 101 \	2	2	2F035	G01F   1/66	2137	流体中の波の伝播時間又は位相差を測定することによるもの	by measuring wave transmission time or phase difference in fluids
+G01F   1/66 102 \	3	3	2F035	G01F   1/66	191	シングアラウンド方式によるもの	by sing-around method
+G01F   1/661  \	2	2	2F035	G01F   1/661	155	光を用いるもの［２０２２．０１］	using light [2022.01]
+G01F   1/663  \	2	2	2F035	G01F   1/663	700	ドップラー周波数変化を測定することによるもの［２０２２．０１］	by measuring Doppler frequency shift [2022.01]
+G01F   1/667  \	2	2	2F035	G01F   1/667	0	超音波流量計の振動子の配置；超音波流量計を動作させるための回路［２０２２．０１］	Arrangements of transducers for ultrasonicflowmeters; Circuits for operating ultrasonicflowmeters [2022.01]
+G01F   1/667  A	2	0	2F035	G01F   1/667	1647	超音波流量計の振動子の配置・取付	Arrangement and attachment of the oscillators of ultrasonic flowmeters
+G01F   1/667  B	2	0	2F035	G01F   1/667	611	超音波流量計の振動子の構造	Structures of the oscillators of ultrasonic flowmeters
+G01F   1/667  C	2	0	2F035	G01F   1/667	1166	超音波流量計を動作させるための回路	Circuits to make ultrasonic flowmeters operative
+G01F   1/667  Z	2	0	2F035	G01F   1/667	97	その他	Others
+G01F   1/68  \	1	1	2F035	G01F   1/68	3358	熱的効果を使用するもの［２］	by using thermal effects [2]
+G01F   1/68  A	1	0	2F035	G01F   1/68	755	自動車エンジンの吸入空気量測定に特徴	Characteristic having measurement of suction air amount of car engine
+G01F   1/68  B	1	0	2F035	G01F   1/68	191	故障，不具合検出	Detection of failure and trouble
+G01F   1/68  Z	1	0	2F035	G01F   1/68	294	その他	Others
+G01F   1/684  \	2	2	2F035	G01F   1/684	8	構造配置；素子の取付け，例．流体流量に関連しているもの［６］	Structural arrangements; Mounting of elements, e.g. in relation to fluid flow [6]
+G01F   1/684  A	2	0	2F035	G01F   1/684	1602	センサ本体	Main body of sensor
+G01F   1/684  B	2	0	2F035	G01F   1/684	1353	流路	Flow path
+G01F   1/684  C	2	0	2F035	G01F   1/684	292	整流部材	Rectification member
+G01F   1/684  Z	2	0	2F035	G01F   1/684	459	その他	Others
+G01F   1/688  \	3	3	2F035	G01F   1/688	218	加熱，冷却または感知要素の特殊な型式を用いるもの［６］	using a particular type of heating, cooling or sensing element [6]
+G01F   1/69  \	4	4	2F035	G01F   1/69	3	抵抗型の［６］	of resistive type [6]
+G01F   1/69  A	4	0	2F035	G01F   1/69	608	形状に特徴	Characteristic having shape
+G01F   1/69  B	4	0	2F035	G01F   1/69	189	材料に特徴	Characteristic having material
+G01F   1/69  C	4	0	2F035	G01F   1/69	44	製造方法に特徴	Characteristic having manufacturing process
+G01F   1/69  Z	4	0	2F035	G01F   1/69	249	その他	Others
+G01F   1/692  \	5	5	2F035	G01F   1/692	6	薄膜構造［６］	Thin-film arrangements [6]
+G01F   1/692  A	5	0	2F035	G01F   1/692	1187	形状に特徴	Characteristic having shape
+G01F   1/692  B	5	0	2F035	G01F   1/692	468	材料に特徴	Characteristic having material
+G01F   1/692  C	5	0	2F035	G01F   1/692	328	製造方法に特徴	Characteristic having manufacturing process
+G01F   1/692  Z	5	0	2F035	G01F   1/692	162	その他	Others
+G01F   1/696  \	2	2	2F035	G01F   1/696	2	そのための回路，例．定電流流量メーター［６］	Circuits therefor, e.g. constant-current flow meters [6]
+G01F   1/696  A	2	0	2F035	G01F   1/696	145	感知素子に特徴（構造はＧ０１Ｆ１／６８４）	Characteristic having sensor element (construction G01F1/684)
+G01F   1/696  B	2	0	2F035	G01F   1/696	60	差動増幅器に特徴	Characteristic having differential amplifier
+G01F   1/696  C	2	0	2F035	G01F   1/696	156	駆動電源に特徴	Characteristic having drive power source
+G01F   1/696  Z	2	0	2F035	G01F   1/696	746	その他	Others
+G01F   1/698  \	3	3	2F035	G01F   1/698	0	帰還回路または再平衡回路，例．自己加熱定温流量メーター［６］	Feedback or rebalancing circuits, e.g. self heated constant temperature flowmeters [6]
+G01F   1/698  A	3	0	2F035	G01F   1/698	314	感知素子に特徴（構造はＧ０１Ｆ１／６８４）	Characteristic having sensor element (construction G01F1/684)
+G01F   1/698  B	3	0	2F035	G01F   1/698	144	差動増幅器に特徴	Characteristic having differential amplifier
+G01F   1/698  C	3	0	2F035	G01F   1/698	295	駆動電源に特徴	Characteristic having drive power source
+G01F   1/698  Z	3	0	2F035	G01F   1/698	346	その他	Others
+G01F   1/699  \	4	4	2F035	G01F   1/699	30	別個の加熱または冷却要素の制御によるもの［６］	by control of a separate heating or cooling element [6]
+G01F   1/704  \	1	1	2F035	G01F   1/704	166	流体流中にマークした領域または存在する不均一性，例．統計的に流体パラメータに生ずる変化，を用いるもの（Ｇ０１Ｆ１／７６，Ｇ０１Ｆ２５／００が優先）［２００６．０１］	using marked regions or existing inhomogeneities within the fluid stream, e.g. statistically occurring variations in a fluid parameter (G01F 1/76,G01F 25/00 take precedence) [4, 2006.01]
+G01F   1/708  \	2	2	2F035	G01F   1/708	300	一定距離を走行する時間を測定するもの［２０２２．０１］	Measuring the time taken to traverse a fixed distance [4, 2006.01, 2022.01]
+G01F   1/7082  \	3	3	2F035	G01F   1/7082	90	音響的検出装置を用いるもの［２０２２．０１］	using acoustic detecting arrangements [2022.01]
+G01F   1/7084  \	3	3	2F035	G01F   1/7084	122	熱的検出装置を用いるもの［２０２２．０１］	using thermal detecting arrangements [2022.01]
+G01F   1/7086  \	3	3	2F035	G01F   1/7086	187	光学的検出装置を用いるもの［２０２２．０１］	using optical detecting arrangements [2022.01]
+G01F   1/7088  \	3	3	2F035	G01F   1/7088	37	トレーサーとして荷電粒子を用いるもの［２０２２．０１］	using electrically charged particles astracers [2022.01]
+G01F   1/712  \	3	3	2F035	G01F   1/712	201	自己相関検出手段または相互相関検出手段を使用するもの［２００６．０１］	using auto-correlation or cross-correlation detection means [4, 2006.01]
+G01F   1/716  \	3	3	2F035	G01F   1/716	53	電子常磁性共鳴［ＥＰＲ］または核磁気共鳴［ＮＭＲ］を用いるもの［２００６．０１］	using electron paramagnetic resonance [EPR] or nuclear magnetic resonance [NMR] [2006.01]
+G01F   1/72  \	1	1	2F035	G01F   1/72	364	脈動する流体流を測定するための装置［２］	Devices for measuring pulsing fluid flows [2]
+G01F   1/74  \	1	1	2F035	G01F   1/74	574	他の流体中に浮遊している流体の流量または流動性固体の流量を測定するための装置［２］	Devices for measuring flow of a fluid or flow of a fluent solid material in suspension in another fluid [2]
+G01F   1/76  \	1	1	2F035	G01F   1/76	94	流体または流動性固体の質量流量を測定するための装置［２］	Devices for measuring mass flow of a fluid or a fluent solid material [2]
+G01F   1/78  \	2	2	2F035	G01F   1/78	183	直接的質量流量計［２］	Direct mass flowmeters [2]
+G01F   1/80  \	3	3	2F035	G01F   1/80	119	回転運動が得られるところの流体の流れの圧力，力，運動量または周波数を測定することによって作動するもの［２］	operating by measuring pressure, force, momentum, or frequency of a fluid flow to which a rotational movement has been imparted [2]
+G01F   1/82  \	4	4	2F035	G01F   1/82	19	翼車の如き駆動される回転輪と，弾性部材，例．バネ部材，によって角度的に制動された一つもしくはそれ以上の回転輪または可動素子を測定装置として用いるもの［２］	using a driven wheel as impeller and one or more other wheels or moving elements which are angularly restrained by a resilient member, e.g. spring member, as the measuring device [2]
+G01F   1/84  \	4	4	2F035	G01F   1/84	1207	コリオリ式またはジャイロスコープ式質量流量計［２］	Coriolis or gyroscopic mass flowmeters [2]
+G01F   1/86  \	2	2	2F035	G01F   1/86	273	間接的質量流量計，例．体積流量と密度，温度または圧力を測るもの［２］	Indirect mass flowmeters, e.g. measuring volume flow and density, temperature, or pressure [2]
+G01F   1/88  \	3	3	2F035	G01F   1/88	46	体積流量を決定するために差圧測定を行なうもの［２］	with differential-pressure measurement to determine the volume flow [2]
+G01F   1/90  \	3	3	2F035	G01F   1/90	5	体積流量を決定するために正の変位計またはタービンメータを用いるもの［２］	with positive-displacement meter or turbine meter to determine the volume flow [2]
+G01F   3/00  \	0	0	2F030	G01F   3/00	285	流れにより駆動される計器で，その計器を流体が連続してかつ幾分かの量あてに隔離されて通過するときの流体または流動性固体の体積流量の測定（体積流量の比例の測定Ｇ０１Ｆ５／００）	Measuring the volume flow of fluids or fluent solid material wherein the fluid passes through the meter in successive and more or less isolated quantities, the meter being driven by the flow (measuring a proportion of the volume flow G01F 5/00)
+G01F   3/02  \	1	1	2F030	G01F   3/02	6	測定中に膨張または収縮する測定室をもつもの	with measuring chambers which expand or contract during measurement
+G01F   3/04  \	2	2	2F030	G01F   3/04	10	堅い可動壁をもつもの	having rigid movable walls
+G01F   3/06  \	3	3	2F030	G01F   3/06	160	ハウジング内で流体密なまたは実質的に流体密な方法で回転する要素からなるもの	comprising members rotating in a fluid-tight or substantially fluid-tight manner in a housing
+G01F   3/08  \	4	4	2F030	G01F   3/08	137	ロータリーピストンまたはリングピストン型流量計	Rotary-piston or ring-piston meters
+G01F   3/10  \	4	4	2F030	G01F   3/10	524	歯車型または突子型流量計	Geared or lobed impeller meters
+G01F   3/10  A	4	0	2F030	G01F   3/10	119	歯車（回転子）の構造に特徴のあるもの	Characterised by structures of gear wheels (rotators)
+G01F   3/10  B	4	0	2F030	G01F   3/10	89	回転検出手段（エンコ−ダ）に特徴のあるもの	Characterised by means for detecting revolution (encoders)
+G01F   3/10  C	4	0	2F030	G01F   3/10	54	回転子の軸受潤滑手段を持つもの	With means for lubricating bearing for rotators
+G01F   3/10  D	4	0	2F030	G01F   3/10	33	サ−ボ式容積流量計	Servo type volume flow meters
+G01F   3/10  Z	4	0	2F030	G01F   3/10	313	その他のもの	Others
+G01F   3/12  \	4	4	2F030	G01F   3/12	9	章動素子，例．円板，をもつ流量計	Meters with nutating members, e.g. discs
+G01F   3/14  \	3	3	2F030	G01F   3/14	150	往復運動，例．回転体における往復運動，ピストンから成るもの	comprising reciprocating pistons, e.g. reciprocating in a rotating body
+G01F   3/16  \	4	4	2F030	G01F   3/16	133	静止シリンダにおけるもの	in stationary cylinders
+G01F   3/18  \	5	5	2F030	G01F   3/18	66	複数のシリンダを含むもの	involving two or more cylinders
+G01F   3/20  \	2	2	2F030	G01F   3/20	34	可撓性可動壁，例．ダイヤフラム，ベローズ，をもつもの	having flexible movable walls, e.g. diaphragms, bellows
+G01F   3/20  A	2	0	2F030	G01F   3/20	73	液体用膜式	Film types for liquids
+G01F   3/20  B	2	0	2F030	G01F   3/20	53	石鹸膜式	Soap film types
+G01F   3/20  C	2	0	2F030	G01F   3/20	32	器差調整	Adjusting device errors
+G01F   3/20  D	2	0	2F030	G01F   3/20	14	温度補償	Compensating temperatures
+G01F   3/20  Z	2	0	2F030	G01F   3/20	43	その他	Others
+G01F   3/22  \	3	3	2F030	G01F   3/22	337	ガス用	for gases
+G01F   3/22  A	3	0	2F030	G01F   3/22	659	ガス用膜式	Film types for gases
+G01F   3/22  B	3	0	2F030	G01F   3/22	1811	安全装置〔含．遮断弁〕	Safety devices (including shutoff valves)
+G01F   3/22  C	3	0	2F030	G01F   3/22	357	取付け装置〔含．管接手〕	Mounting devices (including pipe fittings)
+G01F   3/22  D	3	0	2F030	G01F   3/22	877	表示装置〔含．パルス発生，遠隔伝送〕	Indicating devices (including pulse generations, remote transmissions)
+G01F   3/22  Z	3	0	2F030	G01F   3/22	1442	その他	Others
+G01F   3/24  \	1	1	2F030	G01F   3/24	50	作動中動く測定室をもつもの（湿式ガスメータＧ０１Ｆ３／３０）	with measuring chambers moved during operation (wet gas-meters G01F 3/30)
+G01F   3/26  \	2	2	2F030	G01F   3/26	8	傾斜流量計	Tilting-trap meters
+G01F   3/28  \	2	2	2F030	G01F   3/28	14	測定室中の液体の重量によって回転する運搬体によるもの	on carriers rotated by the weight of the liquid in the measuring chambers
+G01F   3/30  \	1	1	2F030	G01F   3/30	83	湿式ガスメータ	Wet gas-meters
+G01F   3/32  \	2	2	2F030	G01F   3/32	30	液体中で回転または章動する仕切りをつけられたドラムからなるもの	comprising partitioned drums rotating or nutating in a liquid
+G01F   3/34  \	2	2	2F030	G01F   3/34	1	液体中で往復運動するベルからなるもの	comprising bells reciprocating in a liquid
+G01F   3/36  \	1	1	2F030	G01F   3/36	126	測定中に一定体積を有し静止した測定室をもつもの（測定中に膨張または収縮する測定室をもつものＧ０１Ｆ３／０２）	with stationary measuring chambers having constant volume during measurement (with measuring chambers which expand or contract during measurement G01F 3/02)
+G01F   3/38  \	2	2	2F030	G01F   3/38	117	ただ一つの測定室をもつもの	having only one measuring chamber
+G01F   5/00  \	0	0	2F030	G01F   5/00	263	体積流量比の測定	Measuring a proportion of the volume flow
+G01F   7/00  \	0	0	2F030	G01F   7/00	474	複数の測定範囲をもつ体積流量測定装置；複合流量計	Volume-flow measuring devices with two or more measuring ranges; Compound meters
+G01F   9/00  \	0	0	2F030	G01F   9/00	74	他の変量と関連した体積流量の測定，例．エンジン用液体燃料の	Measuring volume flow relative to another variable, e.g. of liquid fuel for an engine
+G01F   9/00  A	0	0	2F030	G01F   9/00	160	燃費試験装置	Fuel mileage testing devices
+G01F   9/00  B	0	0	2F030	G01F   9/00	41	デイ−ゼルエンジン用燃費算出	Calculating fuel mileage for diesel engines
+G01F   9/00  C	0	0	2F030	G01F   9/00	95	燃料噴射弁用エンジン燃費算出	Calculating fuel consumption rate of engines for fuel injection valves
+G01F   9/00  D	0	0	2F030	G01F   9/00	127	残存燃料量の算出	Calculating remaining fuel
+G01F   9/00  E	0	0	2F030	G01F   9/00	122	残存走行可能距離の算出	Calculating traveling distance that can be covered with the remaining fuel
+G01F   9/00  F	0	0	2F030	G01F   9/00	351	燃費の表示	Indicating fuel mileage
+G01F   9/00  G	0	0	2F030	G01F   9/00	128	吸入空気量の測定（含空燃比制御）　	Measuring intake air volume (including controlling air-to-fuel ratios)
+G01F   9/00  Z	0	0	2F030	G01F   9/00	396	その他〔燃焼一般・燃費の算出に特徴〕	Others (characterised by combustion in general or calculating fuel mileage)
+G01F   9/02  \	1	1	2F030	G01F   9/02	51	他の変量が車の速度であるもの	wherein the other variable is the speed of a vehicle
+G01F  11/00  \	0	0	2F032	G01F  11/00	64	供給物または容器から所定容量の流体または流動性固体を，重量には関係なく，くりかえされる同一の操作のそれぞれにおいて測定し分離し旦つそれを送り出すために適応した外的操作部材を必要とする装置	Apparatus requiring external operation adapted at each repeated and identical operation to measure and separate a predetermined volume of fluid or fluent solid material from a supply or container, without regard to weight, and to deliver it
+G01F  11/00  A	0	0	2F032	G01F  11/00	351	流体の体積測定	Measuring fluid volumes
+G01F  11/00  B	0	0	2F032	G01F  11/00	125	粉体の体積測定	Measuring powder volumes
+G01F  11/00  C	0	0	2F032	G01F  11/00	95	固定容器の米びつ	Rice chests of fixed containers
+G01F  11/00  D	0	0	2F032	G01F  11/00	149	移動容器の米びつ	Rice chests of movable containers
+G01F  11/00  Z	0	0	2F032	G01F  11/00	11	その他	Others
+G01F  11/02  \	1	1	2F032	G01F  11/02	232	測定中に膨張または収縮する測定室をもつもの	with measuring chambers which expand or contract during measurement
+G01F  11/04  \	2	2	2F032	G01F  11/04	377	フリーピストン型のもの	of the free-piston type
+G01F  11/06  \	3	3	2F032	G01F  11/06	177	ピストンの行程を変える装置をもつもの	with provision for varying the stroke of the piston
+G01F  11/08  \	2	2	2F032	G01F  11/08	87	ダイヤフラムまたはベローズ型のもの	of the diaphragm or bellows type
+G01F  11/10  \	1	1	2F032	G01F  11/10	29	作動中に動く測定室をもつもの	with measuring chambers moved during operation
+G01F  11/12  \	2	2	2F032	G01F  11/12	33	弁形式のもの，すなわち流体密または粉体密な運動によってなされる分離（供給容器の傾斜または転倒を含むものＧ０１Ｆ１１／２６）	of the valve type, i.e. the separating being effected by fluid-tight or powder-tight movements (involving the tilting or inverting of the supply vessel G01F 11/26)
+G01F  11/14  \	3	3	2F032	G01F  11/14	14	測定室が往復運動するもの	wherein the measuring chamber reciprocates
+G01F  11/16  \	4	4	2F032	G01F  11/16	30	液体または半液体用	for liquid or semiliquid
+G01F  11/18  \	4	4	2F032	G01F  11/18	212	流動性固体用	for fluent solid material
+G01F  11/20  \	3	3	2F032	G01F  11/20	27	測定室が回転または振動するもの	wherein the measuring chamber rotates or oscillates
+G01F  11/22  \	4	4	2F032	G01F  11/22	104	液体または半液体用	for liquid or semiliquid
+G01F  11/24  \	4	4	2F032	G01F  11/24	517	流動性固体用	for fluent solid material
+G01F  11/26  \	2	2	2F032	G01F  11/26	274	供給容器を傾斜または転倒することによって測定室が満たされ空にされるもの，例．びんを空にする装置	wherein the measuring chamber is filled and emptied by tilting or inverting the supply vessel, e.g. bottle-emptying apparatus
+G01F  11/28  \	1	1	2F032	G01F  11/28	380	測定中に一定容積を有し，静止した測定室をもつもの	with stationary measuring chambers having constant volume during measurement
+G01F  11/28  A	1	0	2F032	G01F  11/28	270	液体に用いるもの	for liquids
+G01F  11/28  B	1	1	2F032	G01F  11/28	113	浮子を利用するもの	using of floats
+G01F  11/28  C	1	0	2F032	G01F  11/28	141	粉粒体に用いるもの	for powders
+G01F  11/28  Z	1	0	2F032	G01F  11/28	17	その他	Others
+G01F  11/30  \	2	2	2F032	G01F  11/30	9	リフトまたはプラグリフト型の供給弁および排出弁をもつもの	with supply and discharge valves of the lift or plug-lift type
+G01F  11/32  \	3	3	2F032	G01F  11/32	106	液体または半液体用	for liquid or semiliquid
+G01F  11/34  \	3	3	2F032	G01F  11/34	10	流動性固体用	for fluent solid material
+G01F  11/36  \	2	2	2F032	G01F  11/36	21	直線的に動く摺動型の供給または排出弁をもつもの	with supply or discharge valves of the rectilinearly-moved slide type
+G01F  11/38  \	3	3	2F032	G01F  11/38	16	液体または半液体用	for liquid or semiliquid
+G01F  11/40  \	3	3	2F032	G01F  11/40	120	流動性固体用	for fluent or solid material
+G01F  11/42  \	2	2	2F032	G01F  11/42	29	回転または振動型の供給弁または排出弁をもつもの	with supply or discharge valves of the rotary or oscillatory type
+G01F  11/44  \	3	3	2F032	G01F  11/44	55	液体または半液体用	for liquid or semiliquid
+G01F  11/46  \	3	3	2F032	G01F  11/46	165	流動性固体用	for fluent solid material
+G01F  13/00  \	0	0	2F032	G01F  13/00	30	前述のグループに分類されないもので流体または流動性固体を体積により測定しまたは供給する装置	Apparatus for measuring by volume and delivering fluids or fluent solid materials, not provided for in the preceding groups
+G01F  13/00 301 \	1	1	2F032	G01F  13/00	9	液体の計量供給	Measuring or feeding liquids
+G01F  13/00 301 V	1	0	2F032	G01F  13/00	87	滴量測定	Titration measurement
+G01F  13/00 301 W	1	0	2F032	G01F  13/00	82	ガソリン計量機の付属機構	Accessories for gasoline measuring apparatuses
+G01F  13/00 301 Z	1	0	2F032	G01F  13/00	46	その他	Others
+G01F  13/00 311 \	2	2	2F032	G01F  13/00	5	排出の制御に関するもの	Related to controlling discharge
+G01F  13/00 311 A	2	0	2F032	G01F  13/00	198	システム制御一般	Controlling systems in general
+G01F  13/00 311 B	2	1	2F032	G01F  13/00	58	二段制御弁を用いたシステム制御	System control using two-stage control valves
+G01F  13/00 311 C	2	1	2F032	G01F  13/00	79	プリセツト機構	Preset mechanisms
+G01F  13/00 311 D	2	2	2F032	G01F  13/00	72	機械的プリセツト機構	Mechanical preset mechanisms
+G01F  13/00 311 E	2	0	2F032	G01F  13/00	132	流量演算機構〔含．流量・料金の表示〕	Flow processing mechanisms (including indicating flow or fees)
+G01F  13/00 311 F	2	0	2F032	G01F  13/00	58	流れの検知〔含．もれ，異常，安全装置〕	Detecting flow (including leakage, abnormalities, safety devices)
+G01F  13/00 311 G	2	0	2F032	G01F  13/00	30	流量補正	Compensating flow
+G01F  13/00 311 Z	2	0	2F032	G01F  13/00	14	その他	Others
+G01F  13/00 321 \	2	2	2F032	G01F  13/00	1	排出部の構造に関するもの	Related to structures of  discharging units
+G01F  13/00 321 H	2	0	2F032	G01F  13/00	38	一定量排出弁	Constant discharge valve
+G01F  13/00 321 J	2	1	2F032	G01F  13/00	37	キヤツプ弁〔容器の定量弁〕	Cap valves (fixed-volume valves of containers)
+G01F  13/00 321 K	2	1	2F032	G01F  13/00	15	把持部付排出弁	Discharging valve with handles
+G01F  13/00 321 L	2	0	2F032	G01F  13/00	49	計量移送機構〔定量供給〕	Measuring and transferring mechanisms (constant feed)
+G01F  13/00 321 M	2	0	2F032	G01F  13/00	163	微少排出機構〔例．分注器，ピペツト〕	Minute quantity discharging mechanisms e.g. partial discharge syringes, pipettes
+G01F  13/00 321 N	2	0	2F032	G01F  13/00	47	分配器	Distributors
+G01F  13/00 321 P	2	0	2F032	G01F  13/00	26	複数液〔異種〕比例移送，排出	Proportionally transferring or discharging multiple liquids (different liquids)
+G01F  13/00 321 Z	2	0	2F032	G01F  13/00	12	その他	Others
+G01F  13/00 331 \	2	2	2F032	G01F  13/00	0	計量部の構造に関するもの	Related to structures of measuring units
+G01F  13/00 331 Q	2	0	2F032	G01F  13/00	84	計量容器	Measuring containers
+G01F  13/00 331 R	2	0	2F032	G01F  13/00	161	定量シリンダ−〔例．シリンダ−と弁との連動〕	Constant -volume cylinder e.g. interlocking of cylinders and valves
+G01F  13/00 331 S	2	0	2F032	G01F  13/00	162	液位の測定と弁との連動	Measuring liquid levels and interlocking with valves
+G01F  13/00 331 T	2	0	2F032	G01F  13/00	74	オ−バ−・フロ−管	Overflow tubes
+G01F  13/00 331 U	2	0	2F032	G01F  13/00	82	大気圧を利用するもの〔含．サイフオン〕	Using of atmospheric pressure (including siphons)
+G01F  13/00 331 Z	2	0	2F032	G01F  13/00	11	その他	Others
+G01F  13/00 341 \	1	1	2F032	G01F  13/00	10	粉体の計量供給	Measuring and feeding powders
+G01F  13/00 341 X	1	0	2F032	G01F  13/00	163	排出の制御に関するもの	Related to controlling discharging
+G01F  13/00 341 Y	1	0	2F032	G01F  13/00	142	排出部の構造に関するもの	Related to structures of discharging units
+G01F  13/00 341 Z	1	0	2F032	G01F  13/00	36	その他	Others
+G01F  15/00  \	0	0	2F031	G01F  15/00	890	細部または器具がこのような装置の特殊な型に適合しないグループＧ０１Ｆ１／００〜Ｇ０１Ｆ１３／００の装置の細部または付属品	Details of, or accessories for, apparatus of groups G01F 1/00-G01F 13/00 insofar as such details or appliances are not adapted to particular types of such apparatus
+G01F  15/02  \	1	1	2F031	G01F  15/02	549	圧力，密度，または温度の変化に対する補償または補正	Compensating or correcting for variations in pressure, density, or temperature
+G01F  15/04  \	2	2	2F031	G01F  15/04	504	被測定ガスの	of gases to be measured
+G01F  15/06  \	1	1	2F031	G01F  15/06	1346	指示または記録装置［２０２２．０１］	Indicating or recording devices [1, 2006.01, 2022.01]
+G01F  15/061  \	2	2	2F031	G01F  15/061	1007	遠隔指示用［２０２２．０１］	for remote indication [2022.01]
+G01F  15/063  \	3	3	2F031	G01F  15/063	609	電気的手段を用いるもの［２０２２．０１］	using electrical means [2022.01]
+G01F  15/07  \	1	1	2F031	G01F  15/07	703	全流量を与えるための積算，例．機械的に操作される積算機構を用いるもの［２］	Integration to give total flow, e.g. using mechanically-operated integrating mechanism [2]
+G01F  15/075  \	2	2	2F031	G01F  15/075	606	電気的に操作される積算手段を用いるもの［２］	using electrically-operated integrating means [2]
+G01F  15/08  \	1	1	2F031	G01F  15/08	138	液体用計器と結合した空気またはガス分離器；ガスメータと結合した液体分離器	Air or gas separators in combination with liquid meters; Liquid separators in combination with gas-meters
+G01F  15/10  \	1	1	2F031	G01F  15/10	144	凍結または過不足な圧力による損害を予防すること	Preventing damage by freezing or excess pressure or insufficient pressure
+G01F  15/12  \	1	1	2F031	G01F  15/12	526	清掃装置；フイルタ	Cleaning arrangements; Filters
+G01F  15/14  \	1	1	2F031	G01F  15/14	401	ケーシング，例．特殊物質の	Casings, e.g. of special material
+G01F  15/16  \	1	1	2F031	G01F  15/16	120	ダイヤフラム；ベローズ；その取付け	Diaphragms; Bellows; Mountings therefor
+G01F  15/18  \	1	1	2F031	G01F  15/18	692	計器用の支持または接続手段	Supports or connecting means for meters
+G01F  17/00  \	0	0	2F032	G01F  17/00	8	容器または中空体の容積，または固体の体積の測定のための方法または装置（体積を測定するために寸法を測定することＧ０１Ｂ）	Methods or apparatus for determining the capacity of containers or cavities, or the volume of solid bodies (measuring linear dimensions to determine volume G01B)
+G01F  17/00  A	0	0	2F032	G01F  17/00	124	気体の体積の測定	Measuring gas volumes
+G01F  17/00  B	0	0	2F032	G01F  17/00	325	固体の体積の測定	Measuring solid volumes
+G01F  17/00  C	0	0	2F032	G01F  17/00	454	容器・中空体の容積の測定	Measuring volumes of containers or hollow objects
+G01F  17/00  D	0	0	2F032	G01F  17/00	81	体積の測定一般〔気体・固体・中空体以外〕	Measuring volumes in general (excluding gases, solids, hollow objects)
+G01F  17/00  Z	0	0	2F032	G01F  17/00	17	その他	Others
+G01F  19/00  \	0	0	2F032	G01F  19/00	926	流体または流動性固体のための目盛による容積測定器，例．計量カップ	Calibrated capacity measures for fluids or fluent solid material, e.g. measuring cups
+G01F  19/00  A	0	0	2F032	G01F  19/00	381	容器の構造に特徴のあるもの	Characterised by structures of containers
+G01F  19/00  B	0	1	2F032	G01F  19/00	133	容量可変カツプ	Cups with variable capacity
+G01F  19/00  C	0	1	2F032	G01F  19/00	101	複数カツプ	Multiple cups
+G01F  19/00  D	0	1	2F032	G01F  19/00	88	排出部に特徴のあるもの	Characterised by discharging units
+G01F  19/00  E	0	2	2F032	G01F  19/00	113	すりきり部	Brimming sections
+G01F  19/00  F	0	2	2F032	G01F  19/00	24	オ−バ−フロ−部	Overflow units
+G01F  19/00  G	0	1	2F032	G01F  19/00	62	組立てに特徴のあるもの	Characterised by assemblies
+G01F  19/00  H	0	1	2F032	G01F  19/00	256	目盛・表示に特徴のあるもの	Characterised by scales or indicating
+G01F  19/00  J	0	2	2F032	G01F  19/00	55	貼付・着脱自在の目盛	Scales that can be freely adhered or removed
+G01F  19/00  K	0	2	2F032	G01F  19/00	62	斜向目盛	Tilted scales
+G01F  19/00  L	0	0	2F032	G01F  19/00	66	付属カツプに特徴のあるもの	Characterised by attached caps
+G01F  19/00  M	0	1	2F032	G01F  19/00	115	蓋，計量キヤツプ	Lids or measuring caps
+G01F  19/00  N	0	1	2F032	G01F  19/00	83	他の用途の組合せに特徴のあるもの	Characterised by combinations of other applications
+G01F  19/00  P	0	1	2F032	G01F  19/00	29	カツプスタンド	Cup stands
+G01F  19/00  Z	0	0	2F032	G01F  19/00	50	その他	Others
+G01F  22/00  \	0	0	2F032	G01F  22/00	197	他に分類されない流体または流動性固体の体積を測定するための方法または装置［５］	Methods or apparatus for measuring volume of fluids or fluent solid material, not otherwise provided for [5]
+G01F  22/02  \	1	1	2F032	G01F  22/02	197	圧力測定を含むもの［５］	involving measurement of pressure [5]
+G01F  23/00  \	0	0	2F014	G01F  23/00	554	液位または流動性固体のレベルの指示または測定，例．体積による指示または警報器による指示［２０２２．０１］	Indicating or measuring liquid level or level of fluent solid material, e.g. indicating in terms of volume or indicating by means of an alarm [1, 2006.01, 2022.01]
+G01F  23/00  B	0	0	2F014	G01F  23/00	636	構造	Structures
+G01F  23/00  C	0	0	2F014	G01F  23/00	574	表示	Indicating
+G01F  23/00  D	0	0	2F014	G01F  23/00	384	他に分類されない計測手段	Means for measuring not classified in others
+G01F  23/00  E	0	1	2F014	G01F  23/00	332	重錘又はサウンジングロッド	Weights or sounding rods
+G01F  23/00  F	0	1	2F014	G01F  23/00	119	音響によるもの	By sounds
+G01F  23/00  H	0	0	2F014	G01F  23/00	87	風呂ブザー	Bath buzzers
+G01F  23/00  Z	0	0	2F014	G01F  23/00	867	その他	Others
+G01F  23/02  \	1	1	2F042	G01F  23/02	126	被測定レベルまたは液体の主要部分と自由に連通している液柱のレベルを直接観察するための窓または透明管を含んでいるゲージグラスまたは他の装置によるもの	by gauge glasses or other apparatus involving a window or transparent tube for directly observing the level to be measured or the level of a liquid column in free communication with the main body of the liquid
+G01F  23/02  A	1	0	2F042	G01F  23/02	138	窓を通して観察するもの	Observing through windows
+G01F  23/02  B	1	1	2F042	G01F  23/02	141	窓を上方向から観察するもの	Observing windows from upward
+G01F  23/02  E	1	1	2F042	G01F  23/02	228	窓を横方向から観察するもの	Observing window from sideways
+G01F  23/02  F	1	2	2F042	G01F  23/02	191	窓部に特徴を有するもの	Characterised by windows
+G01F  23/02  G	1	2	2F042	G01F  23/02	115	取付け部に特徴を有するもの	Characterised by mounts
+G01F  23/02  H	1	3	2F042	G01F  23/02	42	窓部が一体成形されているもの	Windows formed in one piece
+G01F  23/02  J	1	0	2F042	G01F  23/02	425	透明管〔連通管〕を通して観察するもの	Observing via transparent tubes (connected tubes)
+G01F  23/02  K	1	1	2F042	G01F  23/02	196	管部に特徴を有するもの	Characterised by tubes
+G01F  23/02  L	1	2	2F042	G01F  23/02	46	反射型	Reflecting types
+G01F  23/02  M	1	2	2F042	G01F  23/02	54	液体の屈折力を利用するもの	Using of refracting power of liquids
+G01F  23/02  N	1	1	2F042	G01F  23/02	148	取付け部に特徴を有するもの	Characterised by mounts
+G01F  23/02  P	1	1	2F042	G01F  23/02	19	異種の液体を観察するもの	Observing different liquids
+G01F  23/02  Q	1	1	2F042	G01F  23/02	64	魔法瓶用のもの	For thermo-bottles
+G01F  23/02  Z	1	0	2F042	G01F  23/02	739	その他	Others
+G01F  23/04  \	1	1	2F042	G01F  23/04	75	浸漬素子，例．浸漬棒，によるもの	by dip members, e.g. dip-sticks
+G01F  23/04  A	1	0	2F042	G01F  23/04	262	キャップ部に特徴を有するもの	Characterised by caps
+G01F  23/04  B	1	1	2F042	G01F  23/04	45	クリーナ部を有するもの	With cleaners
+G01F  23/04  C	1	0	2F042	G01F  23/04	127	目盛部に特徴を有するもの	Characterised by scales or indicating
+G01F  23/04  D	1	1	2F042	G01F  23/04	309	構造に特徴を有するもの	Characterised by structures of containers
+G01F  23/04  E	1	1	2F042	G01F  23/04	26	材料に特徴を有するもの	Characterised by materials
+G01F  23/04  F	1	0	2F042	G01F  23/04	101	標柱に関するもの	Related to pylons
+G01F  23/04  G	1	0	2F042	G01F  23/04	459	炊飯器用のもの	For rice cookers
+G01F  23/04  Z	1	0	2F042	G01F  23/04	433	その他	Others
+G01F  23/14  \	1	1	2F014	G01F  23/14	1868	圧力測定によるもの	by measurement of pressure
+G01F  23/16  \	2	2	2F014	G01F  23/16	181	機械的または流体的手段によって操作される指示，記録または警報装置，例．伝達素子としてのガス，水銀，またはダイヤフラムを使用するもの，または液柱によるもの	Indicating, recording, or alarm devices being actuated by mechanical or fluid means, e.g. using gas, mercury, or a diaphragm as transmitting element, or by a column of liquid
+G01F  23/18  \	2	2	2F014	G01F  23/18	489	電気的に操作される指示，記録または警報装置	Indicating, recording, or alarm devices actuated electrically
+G01F  23/20  \	1	1	2F014	G01F  23/20	278	重量測定によるもの，例．貯蔵液化ガスのレベル測定のためのもの	by measurement of weight, e.g. to determine the level of stored liquefied gas
+G01F  23/22  \	1	1	2F014	G01F  23/22	4	被測定レベルによって定まる直線寸法，圧力または重量以外の物理的変量の測定によるもの，例．蒸気または水の熱伝達の差異によるもの（うきの使用を含むものＧ０１Ｆ２３／３０）［２００６．０１］	by measuring physical variables, other than linear dimensions, pressure or weight, dependent on the level to be measured, e.g. by difference of heat transfer of steam or water (involving the use of floats G01F 23/30) [1, 2006.01]
+G01F  23/22  A	1	0	2F014	G01F  23/22	1374	温度変化によるもの	by temperature changes
+G01F  23/22  B	1	1	2F014	G01F  23/22	111	液化ガス	liquefied gases
+G01F  23/22  H	1	0	2F014	G01F  23/22	314	振動利用によるもの	using of vibrations
+G01F  23/22  L	1	0	2F014	G01F  23/22	118	力，トルク等の検出によるもの	by detecting forces or torque
+G01F  23/22  Z	1	0	2F014	G01F  23/22	632	その他のもの	Others
+G01F  23/24  \	2	2	2F014	G01F  23/24	1671	導電性流体と接触することによる抵抗器の抵抗変化の測定によるもの	by measuring variations of resistance of resistors due to contact with conductor fluid
+G01F  23/24  A	2	0	2F014	G01F  23/24	1751	導通型	Conducting types
+G01F  23/24  B	2	1	2F014	G01F  23/24	186	サウンジング型	Sounding types
+G01F  23/24  N	2	0	2F014	G01F  23/24	683	抵抗型	Resistance types
+G01F  23/24  M	2	1	2F014	G01F  23/24	38	サウンジング型	Sounding types
+G01F  23/24  Z	2	0	2F014	G01F  23/24	331	その他の電気抵抗型	Other electric resistance types
+G01F  23/26  \	2	2	2F014	G01F  23/26	49	電場または電磁場における液体または流動性固体の存在に起因するキャパシタまたはインダクタのキャパシタンスまたはインダクタンスの変化の測定によるもの　［２０２２．０１］	by measuring variations of capacity or inductance of capacitors or inductors arising from the presence of liquid or fluent solid material in the electric or electromagnetic fields [1, 2006.01, 2022.01]
+G01F  23/26  B	2	0	2F014	G01F  23/26	576	インダクタンス変化の測定によるもの	by measuring changes in inductance
+G01F  23/26  Z	2	0	2F014	G01F  23/26	40	その他	Others
+G01F  23/263  \	3	3	2F014	G01F  23/263	1748	キャパシタのキャパシタンスの変化を測定することによるもの［２０２２．０１］	by measuring variations in capacitance of capacitors [2022.01]
+G01F  23/28  \	2	2	2F014	G01F  23/28	71	液体または流動性固体に直接当てられた電磁波または音波のパラメータの変化の測定によるもの［２００６．０１］	by measuring the variations of parameters of electromagnetic or acoustic waves applied directly to the liquid or fluent solid material [1, 6, 2006.01]
+G01F  23/284  \	3	3	2F014	G01F  23/284	510	電磁波［６］	Electromagnetic waves
+G01F  23/288  \	4	4	2F014	G01F  23/288	258	Ｘ線；ガンマ線［６］	X-rays; Gamma rays
+G01F  23/292  \	4	4	2F014	G01F  23/292	15	光［６］	Light
+G01F  23/292  A	4	0	2F014	G01F  23/292	610	吸収率型	absorptance type
+G01F  23/292  B	4	0	2F014	G01F  23/292	672	反射型	reflection type
+G01F  23/292  C	4	0	2F014	G01F  23/292	766	屈折率型	refractive index type
+G01F  23/292  Z	4	0	2F014	G01F  23/292	581	その他　例．テレビカメラ	others, e.g. TV camera
+G01F  23/296  \	3	3	2F014	G01F  23/296	226	音波［２０２２．０１］	Acoustic waves [6, 2006.01, 2022.01]
+G01F  23/2962  \	4	4	2F014	G01F  23/2962	1293	反射波の伝播時間を測定するもの［２０２２．０１］	Measuring transit time of reflected waves [2022.01]
+G01F  23/2965  \	4	4	2F014	G01F  23/2965	194	伝送波の減衰を測定するもの［２０２２．０１］	Measuring attenuation of transmitted waves [2022.01]
+G01F  23/30  \	1	1	2F013	G01F  23/30	45	うきによるもの［４］	by floats [4]
+G01F  23/30  A	1	0	2F013	G01F  23/30	78	表示に関するもの	related to indicating
+G01F  23/30  B	1	0	2F013	G01F  23/30	207	回路に関するもの	related to circuits
+G01F  23/30  C	1	0	2F013	G01F  23/30	30	風呂用のもの	for baths
+G01F  23/30  D	1	0	2F013	G01F  23/30	186	光を利用するもの	using of lights
+G01F  23/30  Z	1	0	2F013	G01F  23/30	217	その他	Others
+G01F  23/32  \	2	2	2F013	G01F  23/32	159	回転アームまたは他のピボットで支えうる伝達要素を用いるもの［４］	using rotatable arms or other pivotable transmission elements [4]
+G01F  23/32  A	2	0	2F013	G01F  23/32	25	光を利用するもの	using of lights
+G01F  23/32  Z	2	0	2F013	G01F  23/32	99	その他	Others
+G01F  23/34  \	3	3	2F013	G01F  23/34	325	機械的に作動される指示手段を用いるもの［４］	using mechanically actuated indicating means [4]
+G01F  23/36  \	3	3	2F013	G01F  23/36	998	電気的に作動される指示手段を用いるもの［４］	using electrically actuated indicating means [4]
+G01F  23/38  \	3	3	2F013	G01F  23/38	502	磁気的に作動される指示手段を用いるもの［４］	using magnetically actuated indicating means [4]
+G01F  23/40  \	2	2	2F013	G01F  23/40	214	伝達要素としてバンドまたはワイヤを用いるもの［４］	using bands or wires as transmission elements [4]
+G01F  23/40  A	2	0	2F013	G01F  23/40	18	光を利用するもの	using of lights
+G01F  23/40  Z	2	0	2F013	G01F  23/40	80	その他	Others
+G01F  23/42  \	3	3	2F013	G01F  23/42	362	機械的に作動される指示手段を用いるもの［４］	using mechanically actuated indicating means [4]
+G01F  23/44  \	3	3	2F013	G01F  23/44	305	電気的に作動される指示手段を用いるもの［４］	using electrically actuated indicating means [4]
+G01F  23/46  \	3	3	2F013	G01F  23/46	113	磁気的に作動される指示手段を用いるもの［４］	using magnetically actuated indicating means [4]
+G01F  23/48  \	2	2	2F013	G01F  23/48	67	伝達要素としてねじれスピンドルを用いるもの［４］	using twisted spindles as transmission elements [4]
+G01F  23/48  A	2	0	2F013	G01F  23/48	3	光を利用するもの	using of lights
+G01F  23/48  Z	2	0	2F013	G01F  23/48	9	その他	Others
+G01F  23/50  \	3	3	2F013	G01F  23/50	25	機械的に作動される指示手段を用いるもの［４］	using mechanically actuated indicating means [4]
+G01F  23/52  \	3	3	2F013	G01F  23/52	11	電気的に作動される指示手段を用いるもの［４］	using electrically actuated indicating means [4]
+G01F  23/54  \	3	3	2F013	G01F  23/54	49	磁気的に作動される指示手段を用いるもの［４］	using magnetically actuated indicating means [4]
+G01F  23/56  \	2	2	2F013	G01F  23/56	497	伝達要素として，うきに固着されてこれとともに直線的に動く要素を用いるもの［４］	using elements rigidly fixed to, and rectilinearly moving with, the floats as transmission elements [4]
+G01F  23/56  A	2	0	2F013	G01F  23/56	145	光を利用するもの	using of lights
+G01F  23/56  Z	2	0	2F013	G01F  23/56	148	その他	Others
+G01F  23/58  \	3	3	2F013	G01F  23/58	239	機械的に作動される指示手段を用いるもの［４］	using mechanically actuated indicating means [4]
+G01F  23/60  \	3	3	2F013	G01F  23/60	522	電気的に作動される指示手段を用いるもの［４］	using electrically actuated indicating means [4]
+G01F  23/60  A	3	0	2F013	G01F  23/60	248	抵抗値変化を利用するもの［４］	using changes in resistances
+G01F  23/60  B	3	0	2F013	G01F  23/60	182	スイッチを有するもの	with switches
+G01F  23/60  C	3	0	2F013	G01F  23/60	53	ロードセルを有するもの	with load cells
+G01F  23/60  D	3	0	2F013	G01F  23/60	25	回路に特徴があるもの	Characterised by circuits
+G01F  23/60  N	3	0	2F013	G01F  23/60	52	コイルを有するもの	with coils
+G01F  23/60  Z	3	0	2F013	G01F  23/60	59	その他	Others
+G01F  23/62  \	3	3	2F013	G01F  23/62	1004	磁気的に作動される指示手段を用いるもの［４］	using magnetically actuated indicating means [4]
+G01F  23/62  A	3	0	2F013	G01F  23/62	244	磁気検出にリードスイッチを用いるもの	using lead switches for detecting magnetism
+G01F  23/62  B	3	1	2F013	G01F  23/62	24	リードスイッチ部に特徴を有するもの	Characterised by lead switches
+G01F  23/62  C	3	2	2F013	G01F  23/62	72	リードスイッチを１個有するもの	with one lead switch
+G01F  23/62  D	3	3	2F013	G01F  23/62	25	リードスイッチの取付けに特徴を有するもの	Characterised by mounting of lead switches
+G01F  23/62  E	3	4	2F013	G01F  23/62	13	リードスイッチの取付けを容器の上方向から行なうもの	mounting lead switches from top of containers
+G01F  23/62  G	3	4	2F013	G01F  23/62	25	リードスイッチの取付けを容器の横方向から行なうもの	mounting lead switches from side of containers
+G01F  23/62  H	3	4	2F013	G01F  23/62	27	リードスイッチの取付けを容器の下方向から	mounting lead switches from bottom of containers
+G01F  23/62  J	3	2	2F013	G01F  23/62	103	リードスイッチを２個以上有するもの	with two or more lead switches
+G01F  23/62  K	3	3	2F013	G01F  23/62	16	リードスイッチの取付けに特徴を有するもの	Characterised by mounting of lead switches
+G01F  23/62  L	3	1	2F013	G01F  23/62	13	キャップ部に特徴を有するもの	Characterised by caps
+G01F  23/62  M	3	1	2F013	G01F  23/62	4	うきを浮力に抗して動かす作動部を有するもの	with drive units moving the float against buoyancy
+G01F  23/62  N	3	0	2F013	G01F  23/62	88	磁気検出にコイルを用いるもの	using of coils for detecting magnetism
+G01F  23/62  P	3	0	2F013	G01F  23/62	318	磁気検出にリードスイッチ，コイル以外の磁電変換素子を用いるもの	using of magnetism-electricity converting elements other than lead switches or coils for detecting magnetism
+G01F  23/62  Q	3	0	2F013	G01F  23/62	78	磁電変換素子を有せず磁気により直接指示部を作動するもの	driving indicating units directly by magnetism without using magnet-electricity converting units
+G01F  23/62  Z	3	0	2F013	G01F  23/62	56	その他	Others
+G01F  23/64  \	2	2	2F013	G01F  23/64	9	自由なうきの形式よりなるもの［４］	of the free float type [4]
+G01F  23/64  A	2	0	2F013	G01F  23/64	53	光を利用するもの	using of lights
+G01F  23/64  Z	2	0	2F013	G01F  23/64	60	その他	Others
+G01F  23/66  \	3	3	2F013	G01F  23/66	13	機械的に作動される指示手段を用いるもの［４］	using mechanically actuated indicating means [4]
+G01F  23/68  \	3	3	2F013	G01F  23/68	136	電気的に作動される指示手段を用いるもの［４］	using electrically actuated indicating means [4]
+G01F  23/70  \	4	4	2F013	G01F  23/70	25	離れた点においてのみレベルの変化を感知するもの［４］	for sensing changes in level only at discrete points [4]
+G01F  23/72  \	3	3	2F013	G01F  23/72	65	磁気的に作動される指示手段を用いるもの［４］	using magnetically actuated indicating means [4]
+G01F  23/74  \	4	4	2F013	G01F  23/74	11	離れた点においてのみレベルの変化を感知するもの［４］	for sensing changes in level only at discrete points [4]
+G01F  23/76  \	2	2	2F013	G01F  23/76	111	うきの構造によって特徴づけられるもの［４］	characterised by the construction of the float [4]
+G01F  23/76  A	2	0	2F013	G01F  23/76	52	材料に特徴を有するもの	Characterised by materials
+G01F  23/76  Z	2	0	2F013	G01F  23/76	185	その他	Others
+G01F  23/80  \	1	1	2F014	G01F  23/80	910	信号処理のための装置［２０２２．０１］	Arrangements for signal processing [2022.01]
+G01F  25/00  \	0	0	2F043	G01F  25/00	372	体積，体積流量，もしくは液位を測定するための，または体積によって計量するための装置を試験または較正するもの［２０２２．０１］	Testing or calibration of apparatus for measuring volume, volume flow or liquid level or for metering by volume [1, 2006.01, 2022.01]
+G01F  25/10  \	1	1	2F043	G01F  25/10	0	流量計のもの［２０２２．０１］	of flowmeters [2022.01]
+G01F  25/10  D	1	0	2F043	G01F  25/10	19	基準器自体に関するもの（較正された容器を用いるものはＧ０１Ｆ２５／１７）	relating to standards per se (using calibrated container G01F25/17)
+G01F  25/10  B	1	1	2F043	G01F  25/10	99	パイププルーバー，ボールを用いるもの	using pipe provers, balls
+G01F  25/10  E	1	1	2F043	G01F  25/10	56	ソニックノズルを用いるもの	using sonic nozzles
+G01F  25/10  F	1	1	2F043	G01F  25/10	8	ベンチュリーを用いるもの	using venturis
+G01F  25/10  K	1	0	2F043	G01F  25/10	16	基準器の付属構成	Accessory structures of standards
+G01F  25/10  L	1	1	2F043	G01F  25/10	39	基準器と被検器との配置	Positional relationship with standards and instruments to be tested
+G01F  25/10  M	1	1	2F043	G01F  25/10	44	基準器と被検器との接続・取付け	Connecting or attaching standards to instruments to be tested
+G01F  25/10  N	1	1	2F043	G01F  25/10	29	基準器と被検器との切替	Switching between standards and instruments to be tested
+G01F  25/10  P	1	1	2F043	G01F  25/10	35	文字車からの検定・較正	Verification and calibration using character wheels
+G01F  25/10  Q	1	0	2F043	G01F  25/10	109	流量計自体での検定・較正	Verification and calibration with flow meters per se
+G01F  25/10  R	1	0	2F043	G01F  25/10	120	器差の検出・修正値の演算	Detecting instrument errors or calculating correction values
+G01F  25/10  S	1	1	2F043	G01F  25/10	25	複数同時較正	Calibrating multiple instruments simultaneously
+G01F  25/10  Z	1	0	2F043	G01F  25/10	296	その他	Others
+G01F  25/17  \	2	2	2F043	G01F  25/17	0	較正された容器を用いるもの［２０２２．０１］	using calibrated reservoirs [2022.01]
+G01F  25/17  H	2	0	2F043	G01F  25/17	44	シリンダーを用いるもの	using cylinders
+G01F  25/17  J	2	0	2F043	G01F  25/17	6	ビューレットを用いるもの	using burettes
+G01F  25/17  Z	2	0	2F043	G01F  25/17	54	その他，例．基準計量室を用いるもの	Others, e.g. using rooms for standard measurement
+G01F  25/20  \	1	1	2F043	G01F  25/20	244	液位を測定するための装置のもの［２０２２．０１］	of apparatus for measuring liquid level [2022.01]

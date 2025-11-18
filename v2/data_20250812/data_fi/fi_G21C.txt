@@ -1,0 +1,785 @@
+G21C   1/00  \	0	0	2G070	G21C   1/00	95	原子炉の種類［２０１８．０１］	Reactor types [2018.01]
+G21C   1/00 100 \	1	1	2G070	G21C   1/00	117	特殊な炉型の原子炉	special types of reactors
+G21C   1/00 200 \	1	1	2G070	G21C   1/00	24	設置場所に特徴のある原子炉	Reactors characterised by location thereof
+G21C   1/00 210 \	2	2	2G070	G21C   1/00	40	海洋に設置されるもの	installed in the ocean
+G21C   1/00 220 \	2	2	2G070	G21C   1/00	45	地下に設置されるもの	installed underground
+G21C   1/00 230 \	2	2	2G070	G21C   1/00	27	宇宙衛星用原子炉	Reactors for satellites
+G21C   1/02  \	1	1	2G070	G21C   1/02	287	高速炉，すなわち減速材を用いない原子炉［２００６．０１］	Fast fission reactors, i.e. reactors not using a moderator [2006.01]
+G21C   1/02 100 \	2	2	2G070	G21C   1/02	161	全体構造	Overall structures
+G21C   1/02 200 \	2	2	2G070	G21C   1/02	303	原子炉容器内の構造	Inside structures of reactor vessels
+G21C   1/02 210 \	3	3	2G070	G21C   1/02	123	炉心上部機構	Core upper mechanism
+G21C   1/02 220 \	3	3	2G070	G21C   1/02	25	吊り胴	suspended cylinders
+G21C   1/02 230 \	3	3	2G070	G21C   1/02	134	原子炉容器内の熱交換器，ポンプに関連する構造	structures related to heat exchangers and pumps within reactor vessels
+G21C   1/02 231 \	4	4	2G070	G21C   1/02	103	熱交換器のみに関連する構造	related only to heat exchangers
+G21C   1/02 240 \	3	3	2G070	G21C   1/02	27	内筒	Inner cylinders
+G21C   1/02 300 \	2	2	2G070	G21C   1/02	31	二重タンク型高速増殖炉	Double tank fast breeder reactors
+G21C   1/03  \	2	2	2G070	G21C   1/03	7	本質的に加圧されていない冷却材によって冷却されるもの，例．プール型原子炉［２００６．０１］	cooled by a coolant not essentially pressurised, e.g. pool-type reactors [2006.01]
+G21C   1/04  \	1	1	2G070	G21C   1/04	7	熱中性子炉［２００６．０１］	Thermal reactors [2006.01]
+G21C   1/06  \	2	2	2G070	G21C   1/06	25	非均質炉，すなわち燃料と減速材が分離しているもの［２００６．０１］	Heterogeneous reactors, i.e. in which fuel and moderator are separated [2006.01]
+G21C   1/07  \	3	3	2G070	G21C   1/07	14	ペブルベッド原子炉；粒状燃料をもつ原子炉［２００６．０１］	Pebble-bed reactors; Reactors with granular fuel [2006.01]
+G21C   1/07 100 \	4	4	2G070	G21C   1/07	43	全体構造	Overall structures
+G21C   1/07 110 \	5	5	2G070	G21C   1/07	31	燃料球の供給、排出のための構造	structures for supplying and removing fuel balls
+G21C   1/08  \	3	3	2G070	G21C   1/08	500	減速材が高圧で加圧されているもの，例．沸騰水型原子炉，積分過熱型原子炉，加圧水型原子炉（Ｇ２１Ｃ１／２２が優先）　［２００６．０１］	moderator being highly pressurised, e.g. boiling-water reactor, integral-superheat reactor, pressurised-water reactor (G21C 1/22 takes precedence) [2006.01]
+G21C   1/09  \	4	4	2G070	G21C   1/09	21	圧力調整装置，すなわち加圧器［２００６．０１］	Pressure regulating arrangements, i.e. pressurisers [2006.01]
+G21C   1/10  \	4	4	2G070	G21C   1/10	24	減速材と冷却材が異なるか，または分離しているもの［２００６．０１］	moderator and coolant being different or separated [2006.01]
+G21C   1/12  \	5	5	2G070	G21C   1/12	209	減速材が固体であるもの，例．マグノックス炉［２００６．０１］	moderator being solid, e.g. Magnox reactor [2006.01]
+G21C   1/14  \	3	3	2G070	G21C   1/14	49	減速材が実質的に加圧されていないもの，例．水泳プール型原子炉（Ｇ２１Ｃ１／２２が優先）［２００６．０１］	moderator being substantially not pressurised, e.g. swimming-pool reactor (G21C 1/22 takes precedence) [2006.01]
+G21C   1/16  \	4	4	2G070	G21C   1/16	15	減速材と冷却材が異なるか，または分離しているもの，例．ナトリウム―黒鉛炉［２００６．０１］	moderator and coolant being different or separated, e.g. sodium-graphite reactor [2006.01]
+G21C   1/18  \	5	5	2G070	G21C   1/18	4	冷却材が加圧されているもの［２００６．０１］	coolant being pressurised [2006.01]
+G21C   1/20  \	6	6	2G070	G21C   1/20	46	減速材が液体のもの，例．圧力管型原子炉［２００６．０１］	moderator being liquid, e.g. pressure-tube reactor [2006.01]
+G21C   1/20 100 \	7	7	2G070	G21C   1/20	120	全体構造（カランドリアタンクはＧ２１Ｃ１３／００Ａ）	Overall structures (Calandria G21C13/00A)
+G21C   1/20 110 \	8	8	2G070	G21C   1/20	86	圧力管，カランドリア管	Pressure tubes, calandria tubes
+G21C   1/20 120 \	8	8	2G070	G21C   1/20	5	蒸気ドラム，蒸気放出	steam drum, steam release
+G21C   1/20 130 \	8	8	2G070	G21C   1/20	3	断熱ガス，カバーガス	Adiabatic gases, cover gases
+G21C   1/20 200 \	7	7	2G070	G21C   1/20	12	研究用	for laboratory use
+G21C   1/22  \	3	3	2G070	G21C   1/22	75	液体状または気体状燃料を用いるもの［２００６．０１］	using liquid or gaseous fuel [2006.01]
+G21C   1/24  \	2	2	2G070	G21C   1/24	42	均質炉，すなわち燃料および減速材が中性子に対して効果的な均質媒体として存在するもの［２００６．０１］	Homogeneous reactors, i.e. in which fuel and moderator present an effectively homogeneous medium to the neutrons [2006.01]
+G21C   1/26  \	3	3	2G070	G21C   1/26	1	単一領域型原子炉	Single-region reactors
+G21C   1/28  \	3	3	2G070	G21C   1/28	9	二領域型原子炉	Two-region reactors
+G21C   1/30  \	1	1	2G070	G21C   1/30	24	未臨界炉	Subcritical reactors
+G21C   1/32  \	1	1	2G070	G21C   1/32	54	一体型原子炉，すなわち機能的に原子炉と関連しているが反応には必須でない部分，例．熱交換器，が炉心をもつ密閉容器の内部に配置されている原子炉（Ｇ２１Ｃ１／０２〜Ｇ２１Ｃ１／３０が優先）［３］	Integral reactors, i.e. reactors wherein parts functionally associated with the reactor but not essential to the reaction, e.g. heat exchangers, are disposed inside the enclosure with the core (G21C1/02-G21C1/30 take precedence) [3]
+G21C   3/00  \	0	0	2G071	G21C   3/00	325	原子炉燃料要素またはその集合体；原子炉燃料用物質	Reactor fuel elements or their assemblies; Selection of substances for use as reactor fuel elements
+G21C   3/00 100 \	1	1	2G071	G21C   3/00	18	ブレードガイド	Blade guides
+G21C   3/00 200 \	1	1	2G071	G21C   3/00	68	燃料輸送用ライナー	Liners for fuel transportation
+G21C   3/02  \	1	1	2G071	G21C   3/02	14	燃料要素	Fuel elements
+G21C   3/02 100 \	2	2	2G071	G21C   3/02	68	燃料要素の識別に関するもの	Related to identification of fuel elements
+G21C   3/02 200 \	2	2	2G071	G21C   3/02	79	燃料要素の検査に関するもの	Related to inspection of fuel elements
+G21C   3/02 210 \	3	3	2G071	G21C   3/02	61	タグガスに関するもの	related to tagging gases
+G21C   3/04  \	2	2	2G071	G21C   3/04	6	構造の細部	Constructional details
+G21C   3/06  \	3	3	2G071	G21C   3/06	71	被覆管；ジャケット	Casings; Jackets
+G21C   3/06 100 \	4	4	2G071	G21C   3/06	60	構造	Construction
+G21C   3/06 110 \	5	5	2G071	G21C   3/06	50	軽水炉のみに用いるもの	used only for light water reactors
+G21C   3/06 120 \	5	5	2G071	G21C   3/06	15	ＦＢＲのみに用いるもの	used only for FBR
+G21C   3/06 200 \	4	4	2G071	G21C   3/06	74	被覆管の外部被覆，被覆管の外表面	Outer canning for casings and outer surfaces thereof
+G21C   3/06 210 \	5	5	2G071	G21C   3/06	175	Ｚｒ，Ｚｒ合金被覆管におけるもの	in Zr and Zr alloy casings
+G21C   3/06 220 \	5	5	2G071	G21C   3/06	35	ステンレス鋼被覆管におけるもの	in stainless steel casings
+G21C   3/06 300 \	4	4	2G071	G21C   3/06	59	被覆管の製造，被覆管の内部金属組織	Manufacture of casings and metallic structures therein
+G21C   3/06 310 \	5	5	2G071	G21C   3/06	79	Ｚｒ，Ｚｒ合金被覆管におけるもの	in Zr and Zr alloy casings
+G21C   3/06 312 \	6	6	2G071	G21C   3/06	128	被覆管の内部金属組織，そのための加工方法	metallic casings within casings and processing methods therefor
+G21C   3/06 314 \	6	6	2G071	G21C   3/06	29	被覆管の内面仕上げ，内面の圧縮応力	finishes on, and compressive stress of, the inner surface of casings
+G21C   3/06 320 \	5	5	2G071	G21C   3/06	22	ステンレス鋼被覆管におけるもの	in stainless steel casings
+G21C   3/06 400 \	4	4	2G071	G21C   3/06	9	被覆管の修理，延性回復	Repair and ductility recovery of casings
+G21C   3/07  \	4	4	2G071	G21C   3/07	75	被覆管またはジャケットの材料によって特徴づけられるもの，例．合金［５］	characterised by their material, e.g. alloys [5]
+G21C   3/07 100 \	5	5	2G071	G21C   3/07	210	Ｚｒ合金	Zr alloys
+G21C   3/07 200 \	5	5	2G071	G21C   3/07	69	ステンレス鋼	Stainless steels
+G21C   3/08  \	4	4	2G071	G21C   3/08	83	熱交換を促進するために設けられた外部構造，例．ひれ，そらせ板，ひだ	provided with external means to promote heat-transfer, e.g. fins, baffles, corrugations
+G21C   3/10  \	4	4	2G071	G21C   3/10	29	端部閉塞部	End closures
+G21C   3/10 100 \	5	5	2G071	G21C   3/10	225	端栓の構造	Structure of end closures
+G21C   3/10 200 \	5	5	2G071	G21C   3/10	55	端栓の材料，製造方法	Materials and manufacture methods of end closures
+G21C   3/12  \	4	4	2G071	G21C   3/12	8	燃料要素を原子炉炉心内に設置するために燃料要素の一部を形成する手段；この目的のための外部スペーサ	Means forming part of the element for locating it within the reactor core; External spacers for this purpose
+G21C   3/12 100 \	5	5	2G071	G21C   3/12	151	スペーサパッド付き燃料要素	Fuel elements with a spacer pad
+G21C   3/14  \	4	4	2G071	G21C   3/14	2	燃料要素を炉心内に挿入または炉心から取り出すために燃料要素の一部を形成する手段；隣接燃料要素を結合する手段	Means forming part of the element for inserting it into, or removing it from, the core; Means for coupling adjacent elements
+G21C   3/16  \	3	3	2G071	G21C   3/16	13	燃料被覆管内の細部構造	Details of the construction within the casing
+G21C   3/16 100 \	4	4	2G071	G21C   3/16	50	ベント型燃料要素	vent type of fuel elements
+G21C   3/16 200 \	4	4	2G071	G21C   3/16	47	圧力調整	Adjusting pressure
+G21C   3/16 300 \	4	4	2G071	G21C   3/16	24	軽水炉用燃料被覆管内の細部構造	Details of the construction within the fuel casing for light water reactors
+G21C   3/16 400 \	4	4	2G071	G21C   3/16	39	ＦＢＲ用燃料被覆管内の細部構造	Details of the construction within the fuel casing for FBR
+G21C   3/17  \	4	4	2G071	G21C   3/17	1	燃料要素内の気体の貯蔵または不動化手段［５］	Means for storage or immobilisation of gases in fuel elements [5]
+G21C   3/17 100 \	5	5	2G071	G21C   3/17	125	ゲッタを有するもの	Having getters
+G21C   3/17 200 \	5	5	2G071	G21C   3/17	46	Ｈｅ，Ｎｅガス等が封入されたもの	sealed with He, Ne gases and the like
+G21C   3/18  \	4	4	2G071	G21C   3/18	13	燃料被覆管の内部に設けられたスペーサーまたはその他の非活性物質，例．燃料棒の延びの補償，または過剰反応度の補償（中間層Ｇ２１Ｃ３／２０）	Internal spacers or other non-active material within the casing, e.g. compensating for expansion of fuel rods or for compensating excess reactivity (interlayers G21C?3/20)
+G21C   3/18 100 \	5	5	2G071	G21C   3/18	125	スプリングを含むもの	Including springs
+G21C   3/18 200 \	5	5	2G071	G21C   3/18	76	スプリング以外のスペーサによる支持	Supports by spacers other than springs
+G21C   3/20  \	4	4	2G071	G21C   3/20	10	燃料表面または燃料被覆管の内面に被覆を有するもの；燃料被覆管と活性物質の間に非活性物資を有するもの	with coating on fuel or on inside of casing; with non-active interlayer between casing and active material
+G21C   3/20 100 \	5	5	2G071	G21C   3/20	120	被覆管の内面被覆	Coating on inside of casing
+G21C   3/20 110 \	6	6	2G071	G21C   3/20	35	ライナがＺｒ［合金］，その酸化物のみからなるもの	liners thereof only consisting of Zr (alloy) and oxides thereof
+G21C   3/20 115 \	7	7	2G071	G21C   3/20	138	Ｚｒ［合金］被覆管にＺｒ［合金］単層ライナーを施したもの	applying a single layer line of Zr (alloy) to Zr (alloy) casing
+G21C   3/20 120 \	6	6	2G071	G21C   3/20	40	Ｚｒ［合金］被覆管にＣｕ［合金］ライナーを施したもの［Ｚｒ，Ｃｕの酸化物層が形成されたものも含む］	applying a Cu (alloy) liner to Zr (alloy) casing (including the one on which a oxide layer of Zr or Cu is formed)
+G21C   3/20 130 \	6	6	2G071	G21C   3/20	33	減速材，液体金属，可燃性毒物，潤滑材等のライナー	liners of moderators, liquid-metals, burnable poisons, lubricants, and the like
+G21C   3/20 140 \	6	6	2G071	G21C   3/20	16	被覆管に酸化被膜のみ施されたもの	applying only oxide coating to casings
+G21C   3/20 150 \	6	6	2G071	G21C   3/20	4	ライナーに圧縮応力がかかっているもの	to whose liner compressive stress is applied
+G21C   3/20 160 \	6	6	2G071	G21C   3/20	13	ＦＢＲ用燃料被覆管にライナーが施されたもの	applying a liner to fuel casings for FBR
+G21C   3/20 170 \	6	6	2G071	G21C   3/20	14	ライナー厚み測定のための構成	construction for measuring the thickness of liners
+G21C   3/20 200 \	5	5	2G071	G21C   3/20	65	燃料ペレットの被覆	Coatings on fuel pellets
+G21C   3/22  \	2	2	2G071	G21C   3/22	5	冷却材と接触する核分裂性または増殖性物質を有するもの	with fissile or breeder material in contact with coolant
+G21C   3/22 100 \	3	3	2G071	G21C   3/22	31	ペブルベッド原子炉用燃料	Materials for pebble bed reactors
+G21C   3/24  \	2	2	2G071	G21C   3/24	5	非活性燃料被覆管内に液体状の核分裂性または増殖性物質を有するもの	with fissile or breeder material in fluid form within a non-active casing
+G21C   3/26  \	2	2	2G071	G21C   3/26	46	非活性燃料被覆管内に粒子状の核分裂性または増殖性物質を有するもの	with fissile or breeder material in powder form within a non-active casing
+G21C   3/28  \	2	2	2G071	G21C   3/28	17	非活性燃料被覆管内に固体状の核分裂性または増殖性物質を有するもの	with fissile or breeder material in solid form within a non-active casing
+G21C   3/28 100 \	3	3	2G071	G21C   3/28	105	ペレットの形状	Shapes of pellets
+G21C   3/28 110 \	4	4	2G071	G21C   3/28	51	中空ペレット	hollow pellets
+G21C   3/28 200 \	3	3	2G071	G21C   3/28	11	ペレットの識別	Identification of pellets
+G21C   3/28 300 \	3	3	2G071	G21C   3/28	16	ペレットの連結	Connection of pellets
+G21C   3/28 400 \	3	3	2G071	G21C   3/28	31	被覆管とペレットの間隙，被覆管とペレットの粗さ	Spacing between a casing and a pellet and roughness of the casing and pellet
+G21C   3/28 500 \	3	3	2G071	G21C   3/28	102	ペレットの軸方向分布［ＦＢＲ用燃料要素を除く］	Distribution of pellets along an axis (excluding fuel elements for FBR)
+G21C   3/28 600 \	3	3	2G071	G21C   3/28	116	断熱材，吸収材，反射材，減速材等を有するもの	having adiabators, absorbers, reflectors, moderators, and the like
+G21C   3/28 700 \	3	3	2G071	G21C   3/28	31	中心空孔部を有する燃料要素	Fuel elements with a hollow sections at the center thereof
+G21C   3/28 800 \	3	3	2G071	G21C   3/28	22	中間端栓により連結された燃料要素	Fuel elements connected through intermediate end plugs
+G21C   3/28 900 \	3	3	2G071	G21C   3/28	85	ＦＢＲ用燃料要素	Fuel elements for FBR
+G21C   3/30  \	1	1	2G071	G21C   3/30	34	固定ユニットの形状をとる多数の燃料要素の集合体	Assemblies of a number of fuel elements in the form of a rigid unit
+G21C   3/30 100 \	2	2	2G071	G21C   3/30	480	燃料集合体の構造	Construction of an assembly of fuels
+G21C   3/30 110 \	3	3	2G071	G21C   3/30	25	チャンネルポスト	channel posts
+G21C   3/30 120 \	3	3	2G071	G21C   3/30	113	中性子遮蔽体を有するもの	having neutron shielding
+G21C   3/30 130 \	3	3	2G071	G21C   3/30	210	不純物除去部材，フィルタ，ゲッタ	impurities removing materials, filters, and getters
+G21C   3/30 200 \	2	2	2G071	G21C   3/30	93	燃料集合体の識別，検査のための構成（燃料もしくは燃料要素を監視または検査するための装置または配置Ｇ２１Ｃ１７／０６）	Construction for identification and inspection of an assembly of fuels (devices or arrangements for monitoring or testing fuel or fuel elements G21C 17/06)
+G21C   3/30 300 \	2	2	2G071	G21C   3/30	173	燃料集合体の材料	Materials of an assembly of fuels
+G21C   3/32  \	2	2	2G071	G21C   3/32	22	平行配列のピン状，棒状または管状の燃料要素の束	Bundles of parallel pin-, rod-, or tube-shaped fuel elements
+G21C   3/322  \	3	3	2G071	G21C   3/322	256	燃料要素の束を通過するかあるいはその周囲を流れる冷却材流に影響を与える手段［５］	Means to influence the coolant flow through or around the bundles [5]
+G21C   3/322 100 \	4	4	2G071	G21C   3/322	76	冷却材漏洩防止用板ばね	flat springs for preventing coolants from leaking
+G21C   3/322 200 \	4	4	2G071	G21C   3/322	208	冷却材流量調整機構	control mechanisms for the discharge of coolants
+G21C   3/324  \	3	3	2G071	G21C   3/324	519	燃料要素の束の被覆または覆い［５］	Coats or envelopes for the bundles [5]
+G21C   3/326  \	3	3	2G071	G21C   3/326	10	燃料要素が異なる組成から成るもの；燃料要素に加えて，他のピン状，棒状または管状の要素から成るもの，例．制御棒，格子板支持棒，潜在核燃料棒，毒物棒またはダミー棒［５］	comprising fuel elements of different composition; Comprising, in addition to the fuel elements, other pin-, rod-, or tube-shaped elements, e.g. control rods, grid support rods, fertile rods, poison rods or dummy rods [5]
+G21C   3/326 100 \	4	4	2G071	G21C   3/326	278	短尺燃料棒を有するもの	Having short fuel rods
+G21C   3/326 200 \	4	4	2G071	G21C   3/326	370	ウォータロッド，減速材棒	Water rods and moderator bars
+G21C   3/326 210 \	5	5	2G071	G21C   3/326	90	管状でないもの，ウォータクロス，ウォータボックス	not having the shape of a tube, water cross, and water box
+G21C   3/326 220 \	5	5	2G071	G21C   3/326	42	固体減速材を含むもの	including permanent moderators
+G21C   3/326 300 \	4	4	2G071	G21C   3/326	97	制御棒案内管の構造	Construction of the guide tube of a control rod
+G21C   3/326 400 \	4	4	2G071	G21C   3/326	65	燃料集合体内の中性子源，中性子吸収材	Neutron sources and absorbers within an assembly of fuels
+G21C   3/328  \	4	4	2G071	G21C   3/328	4	燃料要素の束の格子における各要素の相対配置［５］	Relative disposition of the elements in the bundle lattice [5]
+G21C   3/328 100 \	5	5	2G071	G21C   3/328	301	燃料集合体内の燃料装荷量，組成	quantity of, and composition of, fuel charge within an assembly of fuels
+G21C   3/328 200 \	5	5	2G071	G21C   3/328	377	燃料要素の配列	Arrangement of fuel elements
+G21C   3/328 300 \	5	5	2G071	G21C   3/328	510	垂直方向燃料濃度等の分布	Vertical distribution of fuel density and the like
+G21C   3/328 400 \	5	5	2G071	G21C   3/328	544	水平方向燃料濃縮度等の分布	Horizontal distribution of fuel density and the like
+G21C   3/33  \	3	3	2G071	G21C   3/33	2	燃料要素の束において各要素を支持または懸架するもの（スペーサー格子板Ｇ２１Ｃ３／３４）；炉心に燃料要素の束を挿入または炉心から取り除くために燃料要素の束の一部を形成する手段，隣接する燃料要素の束を連結する手段［５］	Supporting or hanging of elements in the bundle (spacer grids G21C 33/40); Means forming part of the bundle for inserting it into, or removing it from, the core; Means for coupling adjacent bundles [5]
+G21C   3/33 100 \	4	4	2G071	G21C   3/33	40	ハンドル	handles
+G21C   3/33 200 \	4	4	2G071	G21C   3/33	214	上部タイプレート［ＢＷＲ］，上部ノズル［ＰＷＲ］	upper tie plates (BWR) and upper nozzles (PWR)
+G21C   3/33 300 \	4	4	2G071	G21C   3/33	34	ハンドリングヘッド［ＦＢＲ］	handling heads (FBR)
+G21C   3/33 400 \	4	4	2G071	G21C   3/33	401	下部タイプレート［ＢＷＲ］，下部ノズル［ＰＷＲ］，エントランスノズル［ＦＢＲ］	lower tie plates (BWR) and lower nozzles (PWR), and entrance nozzles (FBR)
+G21C   3/33 500 \	4	4	2G071	G21C   3/33	128	燃料集合体の連結，支持構造	Construction of the connections and supports of an assembly of fuels
+G21C   3/33 510 \	5	5	2G071	G21C   3/33	87	チャンネルファスナー部	channel fastener sections
+G21C   3/33 520 \	5	5	2G071	G21C   3/33	20	燃料集合体のセルフオリエンテーション機構	self orientation mechanisms for an assembly of fuels
+G21C   3/33 600 \	4	4	2G071	G21C   3/33	65	燃料要素の支持，取り付け，取り外しのための燃料集合体の構成	Construction of an assembly of fuels for supporting, installing, and removing fuel elements
+G21C   3/33 610 \	5	5	2G071	G21C   3/33	232	上，下部タイプレート，上，下部ノズルによるもの	with upper and lower tie plates and nozzles
+G21C   3/33 612 \	6	6	2G071	G21C   3/33	48	ロッキングタブワッシャによる結合燃料棒［タイロッド］の固定	securing a connection fuel bar (tie rod) through locking tab washers
+G21C   3/33 614 \	6	6	2G071	G21C   3/33	26	上部タイプレート，上部ノズルを通しての燃料要素の取り外し	removal of fuel elements through upper tie plates and upper nozzles
+G21C   3/33 616 \	6	6	2G071	G21C   3/33	11	燃料保持バネ，例．膨張吸収バネ	hold springs for fuels, e.g.  expansion absorbing springs
+G21C   3/33 620 \	5	5	2G071	G21C   3/33	49	ノックバーへの燃料要素の取付け	installing a fuel element to a knock bar
+G21C   3/33 630 \	5	5	2G071	G21C   3/33	22	バッフル流に対する制振部材，保護部材	materials for control and protection sections for baffle flows
+G21C   3/33 700 \	4	4	2G071	G21C   3/33	133	ウォータロッド，減速材棒の支持	supports for water rods and moderator bars
+G21C   3/33 800 \	4	4	2G071	G21C   3/33	149	制御棒案内管の取り付け	installation of the guide tube of a control rod
+G21C   3/332  \	4	4	2G071	G21C   3/332	27	スペーサー格子板の支持体［５］	Supports for spacer grids [5]
+G21C   3/332 100 \	5	5	2G071	G21C   3/332	35	スペーサー格子板の支持体の取り付け	Installation of supports for spacer grids
+G21C   3/334  \	3	3	2G071	G21C   3/334	110	燃料要素の束の集合したもの［５］	Assembling the bundles [5]
+G21C   3/335  \	3	3	2G071	G21C   3/335	1	照射された燃料要素において交換する各要素［５］	Exchanging elements in irradiated bundles [5]
+G21C   3/336  \	3	3	2G071	G21C   3/336	76	燃料要素の束における燃料棒用のスペーサー要素（スペーサー格子板Ｇ２１Ｃ３／３４）［５］	Spacer elements for fuel rods in the bundle (spacer grids G21C 3/34) [5]
+G21C   3/338  \	4	4	2G071	G21C   3/338	119	らせん状スペーサー要素［５］	Helicoidal spacer elements [5]
+G21C   3/34  \	3	3	2G071	G21C   3/34	201	スペーサ格子板	Spacer grids
+G21C   3/34 100 \	4	4	2G071	G21C   3/34	37	スペーサのチャンネルボックス，ラッパ管等への取り付け	Installation of spacers to a channel box, wrapper tube, and the like
+G21C   3/34 200 \	4	4	2G071	G21C   3/34	160	スペーサの組立，検査	Assembly and inspection of spacers
+G21C   3/34 300 \	4	4	2G071	G21C   3/34	100	スペーサの配置	Arrangement of spacers
+G21C   3/34 400 \	4	4	2G071	G21C   3/34	169	スペーサの材料	Materials of spacers
+G21C   3/34 500 \	4	4	2G071	G21C   3/34	40	燃料要素の挿入を容易にするためのスペーサの構造	Construction of spacers to facilitate the insertion of fuel elements
+G21C   3/34 600 \	4	4	2G071	G21C   3/34	8	ガス炉用のもの	for gas reactor
+G21C   3/34 700 \	4	4	2G071	G21C   3/34	66	特殊スペーサ，例．耐震スペーサ，曲り抑制スペーサ	special spacers, e.g. antiseismic spacers and bend resistant spacers
+G21C   3/344  \	4	4	2G071	G21C   3/344	0	管状要素の集合体により形成されるもの［５］	formed of assembled tubular elements [5]
+G21C   3/344 100 \	5	5	2G071	G21C   3/344	318	円筒，多角筒スペーサ［スリーブ内に燃料要素を支持するもの］	right-cylinder and polygon prizm spacers (supporting fuel elements within the sleeve thereof)
+G21C   3/344 110 \	6	6	2G071	G21C   3/344	44	スペーサセルとスペーサ支持管，制御棒案内管等との結合構造	link construction of spacer cells, spacer support tubes, control rod guide tubes, and the like
+G21C   3/344 200 \	5	5	2G071	G21C   3/344	22	円筒，多角筒スペーサ［複数のスリーブで燃料要素を支持するもの］	right-cylinder and polygon prizm spacers (supporting fuel elements with a plurality of the sleeve thereof)
+G21C   3/348  \	4	4	2G071	G21C   3/348	0	交差しない帯板の集合体により形成されるもの［５］	formed of assembled non-intersecting strips [5]
+G21C   3/348 100 \	5	5	2G071	G21C   3/348	2	格子板のストラップ	straps for a grid
+G21C   3/348 200 \	5	5	2G071	G21C   3/348	0	スペーサ外枠	outer frames for a spacer
+G21C   3/352  \	4	4	2G071	G21C   3/352	0	交差する帯板の集合体により形成されるもの［５］	formed of assembled intersecting strips [5]
+G21C   3/352 100 \	5	5	2G071	G21C   3/352	0	格子板のストラップ	straps for a grid
+G21C   3/352 200 \	5	5	2G071	G21C   3/352	0	スペーサ外枠	outer frames for a spacer
+G21C   3/356  \	4	4	2G071	G21C   3/356	51	燃料要素支持部材を備えているもの［５］	being provided with fuel element supporting members [5]
+G21C   3/356 100 \	5	5	2G071	G21C   3/356	47	スペーサセルとスペーサ支持管，ウォータロッドとの結合構造	link construction of spacer cells and spacer support tubes and water rods
+G21C   3/356 200 \	5	5	2G071	G21C   3/356	122	燃料要素の剛性，弾性支持部材［格子板におけるもの］	support materials for rigidity and elasticity of fuel elements (in grids)
+G21C   3/356 300 \	5	5	2G071	G21C   3/356	34	ブロックスペーサ，ランタンスプリング	block spacers and lantern springs
+G21C   3/36  \	2	2	2G071	G21C   3/36	77	板状燃料要素または同心円管の集合体	Assemblies of plate-shaped fuel elements or coaxial tubes
+G21C   3/38  \	1	1	2G071	G21C   3/38	8	支持スリーブ内の単一の燃料要素よりなる燃料ユニット	Fuel units consisting of a single fuel element in a supporting sleeve
+G21C   3/38 100 \	2	2	2G071	G21C   3/38	100	ガス冷却炉の燃料要素	Fuel elements for gas-cooled reactors
+G21C   3/38 110 \	3	3	2G071	G21C   3/38	54	ガス冷却炉の燃料ブロック	fuel blocks for gas-cooled reactors
+G21C   3/40  \	1	1	2G071	G21C   3/40	6	核分裂による熱から直接，電気エネルギーを発生させるための熱電素子と燃料要素との組合せ（温度測定用装置と燃料要素との組合せＧ２１Ｃ１７／１１２）	Structural combination of fuel element with thermoelectric element for direct production of electric energy from fission heat (structural combination of fuel element with instruments for temperature measurement G21C?17/112)
+G21C   3/42  \	1	1	2G071	G21C   3/42	15	原子炉燃料として使用する物質の選択	Selection of substances for use as reactor fuel
+G21C   3/44  \	2	2	2G071	G21C   3/44	2	流体または流体状原子炉燃料	Fluid or fluent reactor fuel
+G21C   3/46  \	3	3	2G071	G21C   3/46	3	水溶液状組成	Aqueous compositions
+G21C   3/48  \	4	4	2G071	G21C   3/48	1	活性組成物の溶液またはコロイド状溶液	True or colloidal solutions of the active constituent
+G21C   3/50  \	4	4	2G071	G21C   3/50	2	活性組成物の懸濁液；スラリー	Suspensions of the active constituent; Slurries
+G21C   3/52  \	3	3	2G071	G21C   3/52	3	液体金属組成	Liquid metal compositions
+G21C   3/54  \	3	3	2G071	G21C   3/54	28	溶融塩，酸化物または水酸化物	Fused salt, oxide, or hydroxide compositions
+G21C   3/56  \	3	3	2G071	G21C   3/56	2	気体状組成；気体状担体中の懸濁	Gaseous compositions; Suspensions in a gaseous carrier
+G21C   3/58  \	2	2	2G071	G21C   3/58	11	固体状原子炉燃料	Solid reactor fuel
+G21C   3/60  \	3	3	2G071	G21C   3/60	148	金属燃料；金属分散体	Metallic fuel; Intermetallic dispersions
+G21C   3/62  \	3	3	2G071	G21C   3/62	39	セラミック燃料	Ceramic fuel
+G21C   3/62 100 \	4	4	2G071	G21C   3/62	123	粒状燃料，その製造方法	Granulated fuel and the manufacture methods thereof
+G21C   3/62 110 \	5	5	2G071	G21C   3/62	93	ゾルゲル法等によるもの	by sol-gel method and the like
+G21C   3/62 120 \	5	5	2G071	G21C   3/62	134	被覆処理	coating process
+G21C   3/62 200 \	4	4	2G071	G21C   3/62	60	燃料ペレット又は棒状燃料	Fuel pellets or cylindrical fuel
+G21C   3/62 210 \	5	5	2G071	G21C   3/62	68	多領域ペレット，内部仕切を有するもの，その製造方法	multi-region pellets or fuel that has inner partitions, and the manufacture methods thereof
+G21C   3/62 220 \	5	5	2G071	G21C   3/62	209	添加物	additives
+G21C   3/62 225 \	6	6	2G071	G21C   3/62	235	可燃性毒物を有するもの	having burnable poisons
+G21C   3/62 300 \	4	4	2G071	G21C   3/62	356	燃料ペレット又は棒状燃料の製造方法	Manufacture methods of fuel pellets or cylindrical fuel
+G21C   3/62 400 \	4	4	2G071	G21C   3/62	36	欠陥燃料の再生	Regeneration of defective fuel
+G21C   3/62 500 \	4	4	2G071	G21C   3/62	81	マトリックス分散型燃料	matrix dispersion fuel
+G21C   3/62 600 \	4	4	2G071	G21C   3/62	75	炭化物，窒化物燃料	Carbide and nitride fuel
+G21C   3/62 700 \	4	4	2G071	G21C   3/62	298	プルトニウムを含む燃料（例えばＭＯＸ型燃料）	fuel including plutonium, e.g. MOX type fuel
+G21C   3/62 800 \	4	4	2G071	G21C   3/62	54	燃料水溶液からの酸化物燃料の製造	Manufacture oxide fuel from fuel solution
+G21C   3/64  \	4	4	2G071	G21C   3/64	24	セラミック分散燃料，例．サーメット	Ceramic dispersion fuel, e.g. cermet
+G21C   5/00  \	0	0	2G070	G21C   5/00	99	減速材または炉心の構造；減速材用材料の選択	Moderator or core structure; Selection of materials for use as moderator
+G21C   5/00  A	0	0	2G070	G21C   5/00	615	炉心構成要素の構造・配置（構成要素単品に関するものは各々の分類が優先）　	Construction and arrangement of core components (for single component article, each classification takes precedence)
+G21C   5/00  C	0	0	2G070	G21C   5/00	185	炉心構成要素の材料	Materials of core components
+G21C   5/00  D	0	0	2G070	G21C   5/00	39	使用済燃料、放射性廃棄物を貯蔵するもの	Storing used fuel and radioactive wastes
+G21C   5/00  B	0	0	2G070	G21C   5/00	315	燃料シャフリング、燃料交換計画、そのための支援装置　	Plans for fuel shuffling and exchange and supporting devices therefor
+G21C   5/00  Z	0	0	2G070	G21C   5/00	22	その他のもの	Others
+G21C   5/02  \	1	1	2G070	G21C   5/02	50	細部	Details
+G21C   5/04  \	2	2	2G070	G21C   5/04	2	ウイグナー成長に対応できるような空間配置	Spatial arrangements allowing for Wigner growth
+G21C   5/06  \	2	2	2G070	G21C   5/06	464	燃料要素を支持または配置するための手段	Means for locating or supporting fuel elements
+G21C   5/08  \	2	2	2G070	G21C   5/08	5	全体構造の望ましくない非対称膨脹を防止するための手段	Means for preventing undesired asymmetric expansion of the complete structure
+G21C   5/10  \	2	2	2G070	G21C   5/10	517	全体構造を支持する手段	Means for supporting the complete structure
+G21C   5/12  \	1	1	2G070	G21C   5/12	373	組成に特徴のあるもの，例．減速材の耐熱性を改善する物質を付加した減速材	characterised by composition, e.g. the moderator containing additional substances which ensure improved heat resistance of the moderator
+G21C   5/14  \	1	1	2G070	G21C   5/14	24	形状に特徴のあるもの	characterised by shape
+G21C   5/16  \	2	2	2G070	G21C   5/16	18	構成部分の形状	Shape of its constituent parts
+G21C   5/18  \	1	1	2G070	G21C   5/18	189	二以上の活性領域を有することによって特徴づけられたもの	characterised by the provision of more than one active zone
+G21C   5/20  \	2	2	2G070	G21C   5/20	213	一つの領域が核分裂性物質を有し，他方の領域が増殖物質を有するもの	wherein one zone contains fissile material and another zone contains breeder material
+G21C   5/22  \	2	2	2G070	G21C   5/22	11	一つの領域が過熱部であるもの	wherein one zone is a superheating zone
+G21C   7/00  \	0	0	2G072	G21C   7/00	281	原子核反応の制御［２００６．０１］	Control of nuclear reaction
+G21C   7/00 100 \	1	1	2G072	G21C   7/00	99	燃料ペレット対燃料被覆材の相互作用［ＰＣＩ］による燃料破損の防止に関するもの	related to prevention of fuel damage due to interaction between fuel pellets and fuel coating material (PCI)
+G21C   7/00 200 \	1	1	2G072	G21C   7/00	230	炉心における制御棒または燃料棒の配置に特徴のあるもの	characterised by arrangements of control rods or fuel rods in reactor core
+G21C   7/00 300 \	1	1	2G072	G21C   7/00	54	燃料の濃縮度変化によるもの	by enrichment change of fuel
+G21C   7/02  \	1	1	2G072	G21C   7/02	19	原子炉材料の自己制御性を用いるもの（温度安定性を有する配置Ｇ２１Ｃ７／３２）［２００６．０１］	by using self-regulating properties of reactor materials (arrangements that involve temperature stability G21C7/32)
+G21C   7/04  \	2	2	2G072	G21C   7/04	176	可燃性毒物を用いるもの（燃料棒内の可燃性毒物Ｇ２１Ｃ３／３２６）［２００６．０１］	of burnable poisons (burnable poisons in fuel rods G21C3/326) [5]
+G21C   7/06  \	1	1	2G072	G21C   7/06	68	中性子吸収材，すなわち散乱断面積よりもはるかに大きい吸収断面積を有する材料を応用したもの［２００６．０１］	by application of neutron-absorbing material, i.e. material with absorption cross-section very much in excess of reflection cross-section
+G21C   7/08  \	2	2	2G072	G21C   7/08	349	固体制御要素，例．制御棒，の変位によるもの［２００６．０１］	by displacement of solid control elements, e.g. control rods
+G21C   7/08 100 \	3	3	2G072	G21C   7/08	262	制御棒の引抜監視に関するもの	related to control rod drawing monitoring
+G21C   7/10  \	3	3	2G072	G21C   7/10	284	制御要素の構造［２００６．０１］	Construction of control elements
+G21C   7/10 100 \	4	4	2G072	G21C   7/10	50	グレーノーズ型制御棒に関するもの	related to gray nose control rods
+G21C   7/10 200 \	4	4	2G072	G21C   7/10	48	制御棒の構成部材が着脱可能になっているもの	having replaceable components of control rods
+G21C   7/10 300 \	4	4	2G072	G21C   7/10	240	材料に特徴のあるもの（Ｇ２１Ｃ７／２４が優先）	characterised by material (G21C7/24 takes precedence)
+G21C   7/10 400 \	4	4	2G072	G21C   7/10	75	中性子吸収材の移動を防止するようにしたもの	preventing movement of neutron absorbers
+G21C   7/10 500 \	4	4	2G072	G21C   7/10	212	中性子吸収能力に分布をもたせたもの	providing a distribution of neutron absorption capacity
+G21C   7/103  \	4	4	2G072	G21C   7/103	40	１つ以上の吸収材のほかに，他の要素，例．燃料または減速材要素を含む制御集合体［２００６．０１］	Control assemblies containing one or more absorbants as well as other elements, e.g. fuel or moderator elements [5]
+G21C   7/107  \	4	4	2G072	G21C   7/107	33	ペブルベッド原子炉に適合された制御要素［２００６．０１］	Control elements adapted for pebble-bed reactors [5]
+G21C   7/11  \	4	4	2G072	G21C   7/11	59	変形可能な制御要素，例．可撓性，伸縮自在，関節式［２００６．０１］	Deformable control elements, e.g. flexible, telescopic, articulated [5]
+G21C   7/113  \	4	4	2G072	G21C   7/113	400	平板要素で作られた制御要素；制御要素が十字形の横断面をもつもの［２００６．０１］	Control elements made of flat elements; Control elements having cruciform cross-section [5]
+G21C   7/117  \	4	4	2G072	G21C   7/117	140	制御棒のクラスタ；スパイダー構造［２００６．０１］	Clusters of control rods; Spider construction [5]
+G21C   7/12  \	3	3	2G072	G21C   7/12	112	制御要素を所望の位置に移動させる手段（緊急時における反応炉心へ制御棒を落下させるものＧ２１Ｃ９／０２）［２００６．０１］	Means for moving control elements to desired position (dropping control rods into the reactor core in an emergency G21C 9/02 )
+G21C   7/12 100 \	4	4	2G072	G21C   7/12	185	通常時は機械的駆動機構，異常時は液圧式または気圧式駆動機構を用いるもの	using mechanical drive arrangements in normal conditions, and hydraulic or pneumatic drive arrangements in abnormal conditions
+G21C   7/12 200 \	4	4	2G072	G21C   7/12	80	駆動機構にステップモータ，すなわちパルスモータ，を用いるもの	using stepper (pulse) motors for drive arrangements
+G21C   7/12 300 \	4	4	2G072	G21C   7/12	64	材料に特徴のあるもの	characterised by material
+G21C   7/14  \	4	4	2G072	G21C   7/14	371	機械的駆動機構［２００６．０１］	Mechanical drive arrangements
+G21C   7/14 100 \	5	5	2G072	G21C   7/14	174	部材間の係合機構に関するもの	related to engagement mechanisms between components
+G21C   7/14 110 \	6	6	2G072	G21C   7/14	194	制御棒と制御棒駆動機構との係合に特徴のあるもの	characterised by engagement between control rods and control rod drive arrangements
+G21C   7/14 200 \	5	5	2G072	G21C   7/14	54	シールベローズに関するもの	related to seal bellows
+G21C   7/14 300 \	5	5	2G072	G21C   7/14	13	カバーガスに関するもの	related to cover gases
+G21C   7/14 400 \	5	5	2G072	G21C   7/14	32	制御棒または制御棒案内管の浮き上がり防止機構に関するもの	related to ballooning prevention mechanisms for control rods or control rod guide tubes
+G21C   7/14 500 \	5	5	2G072	G21C   7/14	54	制御棒の流力振動抑制に関するもの	related to suppression of flow-induced oscillations of control rods
+G21C   7/14 600 \	5	5	2G072	G21C   7/14	118	駆動機構としてワイヤーロープを用いたもの	using wire ropes as drive arrangements
+G21C   7/14 700 \	5	5	2G072	G21C   7/14	65	駆動機構として可動コイルを用いたもの	using movable coils as drive arrangements
+G21C   7/14 800 \	5	5	2G072	G21C   7/14	78	磁気ジャッキ式駆動機構を有するもの	having drive mechanisms with magnetic jacks
+G21C   7/14 900 \	5	5	2G072	G21C   7/14	136	制御棒案内管に関するもの	related to control rod guide tubes
+G21C   7/16  \	4	4	2G072	G21C   7/16	120	水圧または気圧式駆動機構［２００６．０１］	Hydraulic or pneumatic drive arrangements
+G21C   7/16 100 \	5	5	2G072	G21C   7/16	190	駆動機構の構造に関するもの	related to structure of drive arrangements
+G21C   7/16 110 \	6	6	2G072	G21C   7/16	78	制御棒と制御棒駆動機構との係合機構に特徴のあるもの	characterised by engagement mechanisms between control rods and control rod drive arrangements
+G21C   7/16 120 \	6	6	2G072	G21C   7/16	46	付属関連装置	Accessory equipments
+G21C   7/16 200 \	5	5	2G072	G21C   7/16	253	液圧系または気圧系に関するもの	related to hydraulic or pneumatic systems
+G21C   7/16 210 \	6	6	2G072	G21C   7/16	141	水圧制御ユニット［ＨＣＵ］に関するもの	related to hydraulic control units (HCU)
+G21C   7/16 300 \	5	5	2G072	G21C   7/16	37	制御棒案内管に関するもの	related to control rod guide tubes
+G21C   7/16 400 \	5	5	2G072	G21C   7/16	53	制御棒の位置検出装置を備えたもの	with control rod position indicators
+G21C   7/16 500 \	5	5	2G072	G21C   7/16	88	制御棒ハウジングに関するもの	related to control rod housings
+G21C   7/16 600 \	5	5	2G072	G21C   7/16	22	制御棒の速度制御に関するもの	related to velocity control of control rods
+G21C   7/18  \	3	3	2G072	G21C   7/18	4	制御要素に差動運動をあたえる手段［２００６．０１］	Means for obtaining differential movement of control elements
+G21C   7/20  \	3	3	2G072	G21C   7/20	120	衝撃吸収装置の配置［２００６．０１］	Disposition of shock-absorbing devices
+G21C   7/22  \	2	2	2G072	G21C   7/22	225	流体状または流動状中性子吸収材の変位によるもの［２００６．０１］	by displacement of a fluid or fluent neutron-absorbing material
+G21C   7/24  \	2	2	2G072	G21C   7/24	302	中性子吸収材用物質の選択［２００６．０１］	Selection of substances for use as neutron-absorbing material
+G21C   7/26  \	1	1	2G072	G21C   7/26	128	減速材またはその一部の変位によるもの［２００６．０１］	by displacement of the moderator or parts thereof
+G21C   7/26 100 \	2	2	2G072	G21C   7/26	318	再循環流量制御に関するもの	related to recirculation flow control
+G21C   7/27  \	2	2	2G072	G21C   7/27	162	スペクトルシフト制御［２００６．０１］	Spectral shift control [5]
+G21C   7/28  \	1	1	2G072	G21C   7/28	139	反射材またはその一部の変位によるもの［２００６．０１］	by displacement of the reflector or parts thereof
+G21C   7/30  \	1	1	2G072	G21C   7/30	53	原子炉燃料またはその一部の燃料要素の変位によるもの［２００６．０１］	by displacement of reactor fuel or fuel elements
+G21C   7/32  \	1	1	2G072	G21C   7/32	75	炉心の冷却材の流れの変化によるもの［２００６．０１］	by varying flow of coolant through the core
+G21C   7/32 100 \	2	2	2G072	G21C   7/32	18	給水温度の制御によるもの	by controlling the temperature of feedwater
+G21C   7/34  \	1	1	2G072	G21C   7/34	58	一次中性子源の利用によるもの［２００６．０１］	by utilisation of a primary neutron source
+G21C   7/36  \	1	1	2G072	G21C   7/36	109	制御回路［２００６．０１］	Control circuits
+G21C   9/00  \	0	0	2G002	G21C   9/00	924	原子炉と構造上関連する緊急防護のための構成（緊急冷却のための構成Ｇ２１Ｃ１５／１８）	Emergency protection arrangements structurally associated with the reactor (emergency cooling arrangements G21C15/18)
+G21C   9/00 100 \	1	1	2G002	G21C   9/00	261	気体の漏洩防止または減少	Prevention or reduction of gas leakage
+G21C   9/004  \	1	1	2G002	G21C   9/004	970	圧力抑制［５］	Pressure suppression [5]
+G21C   9/004 100 \	2	2	2G002	G21C   9/004	251	蒸気の吹出口	steam outlets
+G21C   9/004 200 \	2	2	2G002	G21C   9/004	67	支持または補強	support or reinforcement
+G21C   9/004 300 \	2	2	2G002	G21C   9/004	117	水の浄化または水質改善	Water purification or water quality improvement
+G21C   9/004 400 \	2	2	2G002	G21C   9/004	147	格納容器スプレー	Containment spray
+G21C   9/008  \	2	2	2G002	G21C   9/008	148	破裂板またはダイアフラム［５］	by rupture-discs or -diaphragms [5]
+G21C   9/012  \	2	2	2G002	G21C   9/012	651	熱蓄積によるものまたは蒸気凝縮によるもの，例．アイスコンデンサ［５］	by thermal accumulation or by steam condensation, e.g. ice condensers [5]
+G21C   9/016  \	1	1	2G002	G21C   9/016	326	コアキャッチャー［５］	Core catchers [5]
+G21C   9/02  \	1	1	2G002	G21C   9/02	152	事故時に反応度を急速に減少させるための手段，例．原子炉ヒューズ	Means for effecting very rapid reduction of the reactivity factor under fault conditions, e.g. reactor fuse
+G21C   9/027  \	2	2	2G002	G21C   9/027	313	固体，例．粒状吸収体，の高速投入によるもの［５］	by fast movement of a solid, e.g. pebbles [5]
+G21C   9/033  \	2	2	2G002	G21C   9/033	182	吸収流体によるもの［５］	by an absorbent fluid [5]
+G21C   9/04  \	1	1	2G002	G21C   9/04	200	火災を抑制するための手段	Means for suppressing fires
+G21C   9/06  \	2	2	2G002	G21C   9/06	265	爆発性ガスの蓄積を防止するための手段，例．再結合器［５］	Means for preventing accumulation of explosives gases, e.g. recombiners [5]
+G21C  11/00  \	0	0	2G073	G21C  11/00	30	原子炉と構造上関連する遮へい	Shielding structurally associated with the reactor
+G21C  11/02  \	1	1	2G073	G21C  11/02	100	生体遮へい	Biological shielding
+G21C  11/02 100 \	2	2	2G073	G21C  11/02	260	原子炉本体におけるもの	In reactors proper
+G21C  11/02 200 \	2	2	2G073	G21C  11/02	129	配管等の貫通孔におけるもの	in through holes such as piping
+G21C  11/02 210 \	3	3	2G073	G21C  11/02	70	移動可動な構造になっているもの	having movable construction
+G21C  11/04  \	2	2	2G073	G21C  11/04	6	船舶におけるもの	on waterborne craft
+G21C  11/06  \	1	1	2G073	G21C  11/06	160	反射用遮へい，すなわち中性子の損失を最小にするためのもの	Reflecting shields, i.e. for minimising loss of neutrons
+G21C  11/08  \	1	1	2G073	G21C  11/08	371	熱遮へい；遮熱内張り，すなわちガンマ線により発生し，外側の生体遮へいを加熱するおそれのある熱を消散させるための手段	Thermal shields; Thermal linings, i.e. for dissipating heat from gamma radiation which would otherwise heat an outer biological shield
+G21C  13/00  \	0	0	2G073	G21C  13/00	269	圧力容器；格納容器；格納一般	Pressure vessels; Containment vessels; Containment in general
+G21C  13/00 100 \	1	1	2G073	G21C  13/00	455	圧力容器，原子炉容器［ガードベッセルも含む］，カランドリアタンク	Pressure vessels, reactor vessels (including guard vessels), and calandria tanks
+G21C  13/00 110 \	2	2	2G073	G21C  13/00	143	圧力容器上蓋，フランジ	upper lid of a pressure vessel and flanges
+G21C  13/00 120 \	2	2	2G073	G21C  13/00	195	圧力容器鏡部，制御棒駆動機構，ハウジング貫通部	mirrors of pressure vessels, control rod drive mechanisms, and through section of housing
+G21C  13/00 130 \	2	2	2G073	G21C  13/00	110	圧力容器の製造	Manufacture of pressure vessels
+G21C  13/00 200 \	1	1	2G073	G21C  13/00	503	格納容器	Containment vessels
+G21C  13/00 210 \	2	2	2G073	G21C  13/00	54	格納容器フランジ，格納容器ヘッド開口部	containment vessel flanges and head openings thereof
+G21C  13/00 220 \	2	2	2G073	G21C  13/00	136	格納容器上部構造［原子炉ウエル，機器仮置プール等］	superstructures of containment vessels (such as reactor wells and pools where equipment is placed temporarily)
+G21C  13/00 230 \	2	2	2G073	G21C  13/00	83	ペデスタルを貫通するトンネルを有するもの	having a tunnel through pedestal
+G21C  13/00 240 \	2	2	2G073	G21C  13/00	97	ダイヤフラムフロア，その据え付け方法，その支持	Diaphragm floors, installation methods and supports thereof
+G21C  13/00 300 \	1	1	2G073	G21C  13/00	291	建屋，原子炉建屋	Buildings; reactor buildings
+G21C  13/00 400 \	1	1	2G073	G21C  13/00	113	タービン建屋	Turbine buildings
+G21C  13/00 500 \	1	1	2G073	G21C  13/00	488	空調	Air conditioning
+G21C  13/00 600 \	1	1	2G073	G21C  13/00	310	圧力抑制に関連する格納容器，建屋（Ｇ２１Ｃ９／００が優先）	Containment vessels and buildings related to pressure suppression (G21C 9/00 takes precedence)
+G21C  13/00 700 \	1	1	2G073	G21C  13/00	112	原子力プラントの建設，基礎工事，海上原子炉の建設	Construction and foundation work of nuclear plants, and construction of offshore reactors
+G21C  13/00 750 \	2	2	2G073	G21C  13/00	67	原子炉建屋の建設	construction of reactor buildings
+G21C  13/00 751 \	3	3	2G073	G21C  13/00	222	原子炉建屋，格納容器のコンクリート部の施工	execution of reactor buildings and the concrete section of containment vessels thereof
+G21C  13/00 753 \	3	3	2G073	G21C  13/00	133	格納容器の据え付け，建設	installation and construction of containment vessels
+G21C  13/00 755 \	3	3	2G073	G21C  13/00	46	格納容器上部ドームの建設，建屋内クレーンの据え付け	construction of the upper dome of a containment vessel and installation of cranes in the building
+G21C  13/00 757 \	3	3	2G073	G21C  13/00	19	トーラス室の建設	construction of torus rooms
+G21C  13/00 759 \	3	3	2G073	G21C  13/00	265	天井，壁，床の施工，配管類の施工［ユニット工法］	execution of ceilings, walls, and floors, and execution of pipes and the like (unit construction method)
+G21C  13/00 761 \	3	3	2G073	G21C  13/00	254	圧力容器，炉内構造物，機器の運搬，搬入，据え付け	transportation, acceptance, and installation of pressure vessels, structures within reactors, and equipment
+G21C  13/02  \	1	1	2G073	G21C  13/02	44	細部	Details
+G21C  13/02 100 \	2	2	2G073	G21C  13/02	211	ボルト，ナット，スタッドボルトテンショナー	Bolts, nuts, and stud bolt tensioners
+G21C  13/02 200 \	2	2	2G073	G21C  13/02	111	原子炉構造物の支持（Ｇ２１Ｃ１３／０２４が優先）	Support of reactor structures (G21C 13/02 takes precedence)
+G21C  13/02 300 \	2	2	2G073	G21C  13/02	213	ハッチ，扉，エアロック	hatches, doors, and air locks
+G21C  13/02 400 \	2	2	2G073	G21C  13/02	8	階段	Steps
+G21C  13/024  \	2	2	2G073	G21C  13/024	0	圧力容器または格納容器の支持構造［５］	Supporting constructions for pressure vessels or containment vessels [5]
+G21C  13/024 100 \	3	3	2G073	G21C  13/024	306	圧力容器，原子炉容器［ガードベッセルを含む］，カランドリアタンクの支持	Supports for pressure vessels, reactor vessels (including guard vessels), and calandria tanks
+G21C  13/024 110 \	4	4	2G073	G21C  13/024	131	ペデスタル，ペデスタルの支持	Pedestals and support thereof
+G21C  13/024 120 \	4	4	2G073	G21C  13/024	57	スタビライザ	stabilisers
+G21C  13/024 200 \	3	3	2G073	G21C  13/024	215	格納容器，建屋の支持，免震構造	Support and aseismatic structure of containment vessels and buildings
+G21C  13/024 210 \	4	4	2G073	G21C  13/024	28	サンドクッション	sand cushions
+G21C  13/024 220 \	4	4	2G073	G21C  13/024	33	シアキー，シアラグ	shear key and shear lug
+G21C  13/028  \	2	2	2G073	G21C  13/028	98	密封，例．圧力容器または格納容器のためのもの［５］	Seals, e.g. for pressure vessels or containment vessels [5]
+G21C  13/028 100 \	3	3	2G073	G21C  13/028	36	ダイヤフラムフロアのシール構造	Sealing structure of diaphragm floors
+G21C  13/028 200 \	3	3	2G073	G21C  13/028	65	原子炉ウエルシールベローズ，燃料交換ベローズ	reactor well seal bellows and fuel exchange bellows
+G21C  13/032  \	2	2	2G073	G21C  13/032	164	管と容器壁間の継ぎ手，例．熱応力を考慮に入れるもの［５］	Joints between tubes and vessel walls, e.g. taking into account thermal stresses [5]
+G21C  13/036  \	3	3	2G073	G21C  13/036	7	容器壁内を貫通する管，すなわち壁の両側まで伸びているもの［５］	the tube passing through the vessel wall, i.e. continuing on both sides of the wall [5]
+G21C  13/04  \	2	2	2G073	G21C  13/04	7	膨脹および収縮のための構成	Arrangements for expansion and contraction
+G21C  13/06  \	2	2	2G073	G21C  13/06	169	気密プラグ	Sealing-plugs
+G21C  13/067  \	3	3	2G073	G21C  13/067	1	管状部材のためのもの，例．スタンドパイプ；プラグ用ロック装置［５］	for tubes, e.g. standpipes; Locking devices for plugs [5]
+G21C  13/067 100 \	4	4	2G073	G21C  13/067	73	主蒸気ノズル閉塞装置	closing devices for main heat nozzles
+G21C  13/067 200 \	4	4	2G073	G21C  13/067	35	圧力管のシールプラグ，遮蔽プラグ	sealing-plugs and shielding-plugs for pressure tubes
+G21C  13/073  \	3	3	2G073	G21C  13/073	111	原子炉容器用の蓋，例．回転可能なもの［５］	Closures for reactor-vessels, e.g. rotatable [5]
+G21C  13/073 100 \	4	4	2G073	G21C  13/073	121	遮蔽プラグと回転プラグの間隙部のシール	Sealing space between a shielding plug and a revolving plug
+G21C  13/073 110 \	5	5	2G073	G21C  13/073	114	フリーズシール	freeze seal
+G21C  13/073 200 \	4	4	2G073	G21C  13/073	13	間隙部の異物除去	removal of foreign matters from spaces
+G21C  13/073 300 \	4	4	2G073	G21C  13/073	39	プラグの昇降，回転	elevation and revolving of plugs
+G21C  13/073 400 \	4	4	2G073	G21C  13/073	98	プラグの加熱，冷却，断熱	heating, cooling, and thermal insulation of plugs
+G21C  13/073 500 \	4	4	2G073	G21C  13/073	20	ディッププレート	dip plates
+G21C  13/08  \	1	1	2G073	G21C  13/08	137	材料に特徴のある容器；圧力容器用材料の選択	Vessels characterised by the material; Selection of materials for pressure vessels
+G21C  13/087  \	2	2	2G073	G21C  13/087	123	金属製容器［５］	Metallic vessels [5]
+G21C  13/093  \	2	2	2G073	G21C  13/093	8	コンクリート容器［５］	Concrete vessels [5]
+G21C  13/093 100 \	3	3	2G073	G21C  13/093	96	プレストレストコンクリート圧力容器，格納容器	prestressed concrete pressure vessels and containment vessels
+G21C  13/093 200 \	3	3	2G073	G21C  13/093	250	ライナー，アンカー，ライナー部のコンクリート注入	Concrete injection into liners, anchors, and liner sections
+G21C  13/10  \	1	1	2G073	G21C  13/10	170	漏洩による汚染を防ぐための手段	Means for preventing contamination in event of leakage
+G21C  15/00  \	0	0	2G074	G21C  15/00	8	炉心を有する圧力容器内の冷却系；特定の冷却材の選択	Cooling arrangements within the pressure vessel containing the core; Selection of specific coolants
+G21C  15/00  A	0	0	2G074	G21C  15/00	19	ドレンプラグ，流量調節プラグ，弁	Drain plugs, discharge control plugs, and valves
+G21C  15/00  B	0	0	2G074	G21C  15/00	68	ＢＷＲ	BWR
+G21C  15/00  P	0	0	2G074	G21C  15/00	27	ＰＷＲ	PWR
+G21C  15/00  F	0	0	2G074	G21C  15/00	69	ＦＢＲ	FBR
+G21C  15/00  D	0	0	2G074	G21C  15/00	6	重水減速炉	Heavy water moderator reactors
+G21C  15/00  G	0	0	2G074	G21C  15/00	19	ガス冷却炉	Gas-cooled reactors
+G21C  15/00  Z	0	0	2G074	G21C  15/00	55	その他のもの	Others
+G21C  15/02  \	1	1	2G074	G21C  15/02	6	熱を冷却材に伝達する径路の構造または配置，例．燃料要素の支持物を通して冷却材を循環するためのもの	Arrangement or disposition of passages in which heat is transferred to the coolant, e.g. for coolant circulation through the supports of the fuel elements
+G21C  15/02  B	1	0	2G074	G21C  15/02	161	炉内冷却材の経路の構造または配置	Structure or arrangement of paths of coolants within reactors
+G21C  15/02  C	1	1	2G074	G21C  15/02	165	炉心上部	upper core
+G21C  15/02  H	1	2	2G074	G21C  15/02	94	炉心上部機構の整流装置	rectifier in the upper mechanism of a core
+G21C  15/02  M	1	1	2G074	G21C  15/02	111	炉心部	core section
+G21C  15/02  U	1	1	2G074	G21C  15/02	100	炉心下部	lower core
+G21C  15/02  E	1	2	2G074	G21C  15/02	124	燃料支持金具における流量調節	discharge control in fuel supporting fixtures
+G21C  15/02  A	1	2	2G074	G21C  15/02	135	エントランスノズルと連結管による流量調節	discharge control with entrance nozzles and connection tubes
+G21C  15/02  N	1	1	2G074	G21C  15/02	87	炉容器壁周辺	areas around reactor vessels
+G21C  15/02  Q	1	1	2G074	G21C  15/02	91	ポンプ周辺部	areas around pumps
+G21C  15/02  R	1	1	2G074	G21C  15/02	130	熱交換器周辺部（ポンプ周辺部優先）	areas around heat exchangers (area around pumps take precedence)
+G21C  15/02  S	1	1	2G074	G21C  15/02	125	炉心と炉容器の間	space between a core and reactor vessel
+G21C  15/02  V	1	1	2G074	G21C  15/02	127	冷却材出入口周辺部	areas around the exit and entry of coolants
+G21C  15/02  K	1	2	2G074	G21C  15/02	56	給水スパージャー	water supply spargers
+G21C  15/02  Z	1	0	2G074	G21C  15/02	40	その他のもの	Others
+G21C  15/04  \	2	2	2G074	G21C  15/04	0	核分裂性または増殖物質から熱を取り出すもの	from fissile or breeder material
+G21C  15/04  S	2	0	2G074	G21C  15/04	21	スウイミングプール型	Swimming pool type
+G21C  15/04  Z	2	0	2G074	G21C  15/04	2	その他のもの	Others
+G21C  15/06  \	3	3	2G074	G21C  15/06	2	燃料要素におけるもの	in fuel elements
+G21C  15/06  A	3	0	2G074	G21C  15/06	155	水	Water
+G21C  15/06  C	3	0	2G074	G21C  15/06	69	ナトリウム	Sodium
+G21C  15/06  E	3	0	2G074	G21C  15/06	69	ガス	Gases
+G21C  15/06  Z	3	0	2G074	G21C  15/06	7	その他のもの	Others
+G21C  15/08  \	2	2	2G074	G21C  15/08	7	減速材から熱を取り出すもの	from moderating material
+G21C  15/10  \	2	2	2G074	G21C  15/10	18	反射材または熱遮へいから熱を取り出すもの	from reflector or thermal shield
+G21C  15/12  \	2	2	2G074	G21C  15/12	11	圧力容器から熱を取り出すもの	from pressure vessel; from containment vessel
+G21C  15/12  A	2	0	2G074	G21C  15/12	72	冷却材が水の原子炉〔ＢＷＲ，ＰＷＲ，重水炉等〕	Coolants are water reactors (such as BWR, PWR, and heavy water reactors)
+G21C  15/12  F	2	0	2G074	G21C  15/12	123	ＦＢＲ	FBR
+G21C  15/12  G	2	0	2G074	G21C  15/12	21	ガス冷却炉	Gas-cooled reactors
+G21C  15/12  Z	2	0	2G074	G21C  15/12	8	その他のもの	Others
+G21C  15/14  \	2	2	2G074	G21C  15/14	32	熱流体を導く導管から熱を取り出すもの；補助装置，例．ポンプ，カメラ，を含んでなる導管から熱を取り出すもの	from ducts conducting a hot fluid; from ducts comprising auxiliary apparatus, e.g. pumps, cameras
+G21C  15/16  \	1	1	2G074	G21C  15/16	265	気液分離手段を含むもの	comprising means for separating liquid and steam
+G21C  15/18  \	1	1	2G074	G21C  15/18	10	緊急冷却系；原子炉停止後に発生する熱を除去するもの	Emergency cooling arrangements; Removing shut-down heat
+G21C  15/18  A	1	0	2G074	G21C  15/18	339	緊急冷却系	Emergency cooling arrangements
+G21C  15/18  V	1	1	2G074	G21C  15/18	165	緊急冷却系の制御に関するもの	related to control on emergency cooling arrangements
+G21C  15/18  M	1	0	2G074	G21C  15/18	380	原子炉停止後に発生する熱を除去する冷却系	Cooling arrangements removing shut-down heat
+G21C  15/18  Y	1	1	2G074	G21C  15/18	149	原子炉停止後に発生する熱を除去する冷却系の制御に関するもの	related to control on emergency cooling arrangements removing shut-down heat
+G21C  15/18  K	1	0	2G074	G21C  15/18	139	暖気、待機、封水、テストに関するもの	Related to heat, waiting, sealing water, and tests
+G21C  15/18  B	1	0	2G074	G21C  15/18	298	減圧手段に関するもの（自動減圧系、蒸気凝縮、蒸気排出等）	Related to decompression means (such as automatic decompression systems, steam condensation, and steam emission)
+G21C  15/18  L	1	0	2G074	G21C  15/18	145	冷却材注入手段に特徴のあるもの（重力落下式、蓄圧注入式、受動的注入方式等）	Characterised by coolant injection means (falling-with -gravity, pressure build-up injection, and passive injection methods)
+G21C  15/18  W	1	0	2G074	G21C  15/18	176	水源に特徴のあるもの	Characterized by water sources
+G21C  15/18  T	1	0	2G074	G21C  15/18	185	配管、弁に特徴のあるもの	Characterized by piping and valves
+G21C  15/18  F	1	0	2G074	G21C  15/18	85	冷却材注入口、出口及びその周辺に特徴のあるもの	Characterized by entries and exits, and peripheral areas of coolants
+G21C  15/18  C	1	0	2G074	G21C  15/18	85	容器内の冷却構造に特徴のあるもの	Characterized by the cooling structure within a container
+G21C  15/18  E	1	1	2G074	G21C  15/18	136	炉心部の冷却構造に特徴のあるもの	Characterized by the cooling structure in a core
+G21C  15/18  H	1	1	2G074	G21C  15/18	183	スプレー配管の配置、スプレー分布に特徴のあるもの	Characterized by arrangement of spray pipes and spray distribution
+G21C  15/18  J	1	1	2G074	G21C  15/18	27	スプレーノズルに特徴のあるもの	Characterized by spray nozzles
+G21C  15/18  P	1	0	2G074	G21C  15/18	96	ポンプの構成等に特徴のあるもの	Characterized by the construction and the like of pumps
+G21C  15/18  R	1	0	2G074	G21C  15/18	234	熱交換器を有する経路に特徴のあるもの	Characterized by paths having heat exchangers
+G21C  15/18  U	1	1	2G074	G21C  15/18	80	空気冷却器	air coolers
+G21C  15/18  G	1	0	2G074	G21C  15/18	92	浄化装置を有する経路に特徴のあるもの	Characterized by paths having purifying devices
+G21C  15/18  S	1	0	2G074	G21C  15/18	55	補助機器、海水冷却系と関連のあるもの	Related to aiding equipment and seawater cooling systems
+G21C  15/18  Z	1	0	2G074	G21C  15/18	64	その他	Others
+G21C  15/20  \	1	1	2G074	G21C  15/20	5	燃料チャンネルと減速材の間の仕切りまたは熱絶縁，例．圧力管形原子炉におけるもの	Partitions or thermal insulation between fuel channel and moderator, e.g. in pressure tube reactors
+G21C  15/22  \	1	1	2G074	G21C  15/22	14	ヘッダまたは他の管と冷却管の結合構造，例．圧力管形原子炉におけるもの［４］	Structural association of coolant tubes with headers or other pipes, e.g. in pressure tube reactors [4]
+G21C  15/22  A	1	0	2G074	G21C  15/22	68	軽水炉	Light water reactors
+G21C  15/22  D	1	0	2G074	G21C  15/22	13	重水炉	heavy water reactors
+G21C  15/22  Z	1	0	2G074	G21C  15/22	5	その他のもの	Others
+G21C  15/24  \	1	1	2G074	G21C  15/24	27	冷却材の流れを促進するもの	Promoting flow of the coolant
+G21C  15/243  \	2	2	2G074	G21C  15/243	125	液体用［５］	for liquids [5]
+G21C  15/243 510 \	3	3	2G074	G21C  15/243	51	インターナルポンプ	internal pumps
+G21C  15/243 510 A	3	0	2G074	G21C  15/243	147	インターナルポンプの構造に関するもの	Related to the structure of an internal pump
+G21C  15/243 510 B	3	1	2G074	G21C  15/243	25	ディフューザーに関するもの	related to diffusers
+G21C  15/243 510 C	3	1	2G074	G21C  15/243	12	インペラに関するもの	related to impellers
+G21C  15/243 510 D	3	1	2G074	G21C  15/243	19	ストレッチチューブに関するもの	related to stretch tubes
+G21C  15/243 510 E	3	1	2G074	G21C  15/243	23	軸受けに関するもの	related to bearings
+G21C  15/243 510 F	3	1	2G074	G21C  15/243	15	漏れ防止に関するもの	related to the prevention of leakage
+G21C  15/243 510 G	3	1	2G074	G21C  15/243	44	シールに関するもの	related to sealing
+G21C  15/243 510 H	3	1	2G074	G21C  15/243	30	パージに関するもの	related to purge
+G21C  15/243 510 J	3	0	2G074	G21C  15/243	22	熱応力対策に関するもの	related to countermeasures against thermal stress
+G21C  15/243 510 Z	3	0	2G074	G21C  15/243	30	その他	Others
+G21C  15/243 520 \	4	4	2G074	G21C  15/243	29	取り付け、支持、振動防止、落下防止等	installation, support, prevention of vibrations, prevention of falling, and the like
+G21C  15/243 520 A	4	0	2G074	G21C  15/243	193	取扱い、着脱、メンテナンスに関するもの	Related to handling, installation and removal, and maintenance
+G21C  15/243 520 B	4	0	2G074	G21C  15/243	91	振動防止、耐震に関するもの	Related to prevention of vibrations and earthquake proof
+G21C  15/243 520 C	4	0	2G074	G21C  15/243	14	落下防止に関するもの	Related to prevention of falling
+G21C  15/243 520 Z	4	0	2G074	G21C  15/243	17	その他	Others
+G21C  15/243 530 \	4	4	2G074	G21C  15/243	106	制御（再循環制御Ｇ２１Ｃ７／２６），駆動，電源	control (recirculating control)
+G21C  15/247  \	3	3	2G074	G21C  15/247	125	液体金属用［５］	for liquid metals [5]
+G21C  15/25  \	3	3	2G074	G21C  15/25	336	ジェットポンプを用いるもの［５］	using jet pumps [5]
+G21C  15/253  \	2	2	2G074	G21C  15/253	5	気体用，例．送風装置［５］	for gases, e.g. blowers [5]
+G21C  15/257  \	2	2	2G074	G21C  15/257	18	ヒートパイプを用いるもの［５］	using heat-pipes [5]
+G21C  15/26  \	2	2	2G074	G21C  15/26	123	対流によるもの，例．煙突状のもの，放散チャンネルを用いるもの	by convection, e.g. using chimneys, using divergent channels
+G21C  15/28  \	1	1	2G074	G21C  15/28	10	特定の冷却材の選択（減速材として用いられる場合Ｇ２１Ｃ５／１２）	Selection of specific coolants (if serving as the moderator G21C 5/12)
+G21C  15/28  A	1	0	2G074	G21C  15/28	45	有機材料	Organic materials
+G21C  15/28  C	1	0	2G074	G21C  15/28	23	無機材料	Inorganic materials
+G21C  15/28  E	1	0	2G074	G21C  15/28	9	ガス	Gases
+G21C  15/28  Z	1	0	2G074	G21C  15/28	11	その他のもの	Others
+G21C  17/00  \	0	0	2G075	G21C  17/00	327	監視；試験	Monitoring; Testing
+G21C  17/00 010 \	1	1	2G075	G21C  17/00	112	原子炉保護系の監視，試験	
+G21C  17/00 020 \	1	1	2G075	G21C  17/00	256	運転訓練シュミレータ，模擬物を用いる試験	
+G21C  17/00 030 \	1	1	2G075	G21C  17/00	350	信号伝送（冷却材監視用伝送系Ｇ２１Ｃ１７／０２）	
+G21C  17/00 040 \	1	1	2G075	G21C  17/00	107	格納容器内ガスモニター	
+G21C  17/00 050 \	1	1	2G075	G21C  17/00	208	振動，波動による監視［Ａ．Ｅ．法，加速度計，音響トランスジューサー］	
+G21C  17/00 100 \	1	1	2G075	G21C  17/00	386	プラント全体の監視または診断	Monitoring and diagnosis of the whole plant
+G21C  17/00 110 \	2	2	2G075	G21C  17/00	350	異常の診断または予測［特に事故時におけるもの］	diagnosis and predictions of failures (especially, when an accident happens)
+G21C  17/00 200 \	1	1	2G075	G21C  17/00	204	炉心の監視または診断	Monitoring and diagnosis of cores
+G21C  17/00 210 \	2	2	2G075	G21C  17/00	310	出力分布の測定または監視，炉心のシュミレータ	measurement and monitoring of an output distribution and simulators for a core
+G21C  17/00 220 \	2	2	2G075	G21C  17/00	181	炉心状態または出力分布の予測，ゼノン濃度分布の監視・予測	predictions of the state of a core and of an output distribution, and monitoring and predictions of the distribution of a xenon concentration
+G21C  17/00 230 \	2	2	2G075	G21C  17/00	199	熱的余裕または燃料健全性の監視または予測	monitoring and predictions of heating margins and health of materials
+G21C  17/00 240 \	2	2	2G075	G21C  17/00	116	原子炉，炉心またはチャンネルの安定性の監視	monitoring of the safety of reactors, cores, and channels
+G21C  17/00 300 \	1	1	2G075	G21C  17/00	93	ゆらぎの測定による監視または診断	Monitoring and diagnosis by measuring fluctuations
+G21C  17/00 400 \	1	1	2G075	G21C  17/00	301	試料の採取，処理	Sampling and treatment of specimen
+G21C  17/00 500 \	1	1	2G075	G21C  17/00	524	放射能，放射線の監視；出入口管理	Monitoring of radioactivity and radiation; management of the access
+G21C  17/00 600 \	1	1	2G075	G21C  17/00	224	定期試験計画，支援装置，または耐圧試験	Periodic test plans, support equipment, or pressure proof tests
+G21C  17/00 700 \	1	1	2G075	G21C  17/00	376	制御計装盤；表示	Control instrumentation panels; indication
+G21C  17/003  \	1	1	2G075	G21C  17/003	1920	容器，例．圧力容器，の遠隔検査［５］	Remote inspection of vessels, e.g. pressure vessels [5]
+G21C  17/003 100 \	2	2	2G075	G21C  17/003	524	超音波探傷	supersonic crack detection
+G21C  17/003 200 \	2	2	2G075	G21C  17/003	295	蒸気発生器の点検，監視	inspection and monitoring of steam generators
+G21C  17/007  \	2	2	2G075	G21C  17/007	91	容器の外側表面の検査［５］	Inspection of the outer surfaces of vessels [5]
+G21C  17/01  \	2	2	2G075	G21C  17/01	423	容器の内側表面の検査［５］	Inspection of the inner surfaces of vessels [5]
+G21C  17/013  \	2	2	2G075	G21C  17/013	435	検査をする移動体［５］	Inspection vehicles [5]
+G21C  17/017  \	1	1	2G075	G21C  17/017	812	原子力設備内の配管または管の検査または保守［５］	Inspection or maintenance of pipe-lines or tubes in nuclear installations [5]
+G21C  17/02  \	1	1	2G075	G21C  17/02	467	冷却材もしくは減速材を監視するための装置または配置	Devices or arrangements for monitoring coolant or moderator
+G21C  17/02 100 \	2	2	2G075	G21C  17/02	217	温度の測定	Measuring temperature
+G21C  17/02 200 \	2	2	2G075	G21C  17/02	75	圧力の測定	Measuring pressure
+G21C  17/02 300 \	2	2	2G075	G21C  17/02	412	成分濃度の測定	Measuring the density of components
+G21C  17/02 400 \	2	2	2G075	G21C  17/02	108	放射能の測定	Measuring radiation
+G21C  17/02 500 \	2	2	2G075	G21C  17/02	42	流動状態，キャビテーション，管路の閉塞の監視	Monitoring the state of fluidity, cavitation, and closing of conduits
+G21C  17/02 600 \	2	2	2G075	G21C  17/02	24	冷却材監視用伝送系，圧力伝送路	Transmission systems for monitoring coolants and pressure transmission paths
+G21C  17/022  \	2	2	2G075	G21C  17/022	881	液体冷却材または減速材を監視するためのもの［５］	for monitoring liquid coolants or moderators [5]
+G21C  17/025  \	3	3	2G075	G21C  17/025	3	液体金属冷却材を監視するためのもの［５］	for monitoring liquid metal coolants [5]
+G21C  17/025 100 \	4	4	2G075	G21C  17/025	265	ナトリウムの漏洩の監視	monitoring the leakage of sodium
+G21C  17/025 200 \	4	4	2G075	G21C  17/025	95	漏洩時にナトリウム−水反応をともなうもの	involving the reaction of sodium and water at leakage
+G21C  17/028  \	2	2	2G075	G21C  17/028	31	気体冷却材を監視するためのもの［５］	for monitoring gaseous coolants [5]
+G21C  17/032  \	2	2	2G075	G21C  17/032	291	原子炉冷却材の流れの測定または監視［５］	Reactor-coolant flow measuring or monitoring [5]
+G21C  17/035  \	2	2	2G075	G21C  17/035	349	減速材または冷却材のレベル検出装置［５］	Moderator- or coolant-level detecting devices [5]
+G21C  17/038  \	2	2	2G075	G21C  17/038	100	減速材または冷却材の沸騰検出［５］	Boiling detection in moderator or coolant [5]
+G21C  17/04  \	2	2	2G075	G21C  17/04	99	破片の検出	Detecting burst slugs
+G21C  17/06  \	1	1	2G075	G21C  17/06	135	燃料もしくは燃料要素を炉心の外側で監視また検査するための装置または配置，例．バーンアップ，汚染に対するもの（Ｇ２１Ｃ１７／０８，Ｇ２１Ｃ１７／１０が優先；原子炉運転中の燃料要素の漏洩の検出Ｇ２１Ｃ１７／０４）	Devices or arrangements for monitoring or testing fuel or fuel elements outside the reactor core, e.g. for burn-up, for contamination (G21C?17/08, G21C?17/10 take precedence; detecting leaking fuel elements during reactor operation G21C?17/04)
+G21C  17/06 010 \	2	2	2G075	G21C  17/06	111	燃焼度の測定	
+G21C  17/06 020 \	2	2	2G075	G21C  17/06	142	燃料組成物［Ｐｕ，Ｇｄ，ウラン２３５等］の測定	
+G21C  17/06 030 \	2	2	2G075	G21C  17/06	464	燃料集合体の検査［間隙，バネ特性も含む］，スペーサの検査	
+G21C  17/06 040 \	2	2	2G075	G21C  17/06	262	燃料要素の検査	
+G21C  17/06 050 \	2	2	2G075	G21C  17/06	179	燃料ペレット，球体状または粉末状の燃料の検査	
+G21C  17/06 060 \	2	2	2G075	G21C  17/06	73	反応度，Ｋｅｆｆの測定	
+G21C  17/06 070 \	2	2	2G075	G21C  17/06	100	臨界［未臨界］度の測定	
+G21C  17/06 080 \	2	2	2G075	G21C  17/06	66	燃料取扱いの監視または燃料の管理	
+G21C  17/06 090 \	2	2	2G075	G21C  17/06	74	燃料要素と計測器との組合せ［ＩＦＡ］	
+G21C  17/06 100 \	2	2	2G075	G21C  17/06	55	燃料要素の識別	identification of fuel elements
+G21C  17/06 110 \	2	2	2G075	G21C  17/06	40	燃料要素内圧の測定	measurement of the pressure within fuel elements
+G21C  17/07  \	2	2	2G075	G21C  17/07	92	漏洩試験［５］	Leak testing [5]
+G21C  17/07 100 \	3	3	2G075	G21C  17/07	236	インコアシッピングによるもの	by in-core shipping
+G21C  17/07 200 \	3	3	2G075	G21C  17/07	79	アウトコアシッピングによるもの，燃料移送中におけるもの	by out-core shipping; while transferring fuels
+G21C  17/07 300 \	3	3	2G075	G21C  17/07	49	燃料の特殊な構造によるもの	by the special structure of a fuel
+G21C  17/07 400 \	3	3	2G075	G21C  17/07	88	位置検知に特徴を有するもの	Characterized by the detection of position
+G21C  17/07 500 \	3	3	2G075	G21C  17/07	40	遅発中性子によるもの	by delayed neutrons
+G21C  17/07 600 \	3	3	2G075	G21C  17/07	37	プレシピテータ法によるもの	by the precipitator method
+G21C  17/07 700 \	3	3	2G075	G21C  17/07	68	β線またはγ線によるもの	by beta or gamma rays
+G21C  17/07 800 \	3	3	2G075	G21C  17/07	50	超音波によるもの	by supersonic waves
+G21C  17/07 900 \	3	3	2G075	G21C  17/07	49	タギング法によるもの	by the tagging method
+G21C  17/08  \	1	1	2G075	G21C  17/08	611	炉心または減速材構造と観察装置，例．テレビジョンカメラ，ペリスコープ，窓，との組合せ	Structural combination of reactor core or moderator structure with viewing means, e.g. with television camera, periscope, window
+G21C  17/10  \	1	1	2G075	G21C  17/10	63	燃料要素，制御棒，炉心または減速材構造と感知計器，例．放射能，ひずみ測定手段との組合せ	Structural combination of fuel element, control rod, reactor core, or moderator structure with sensitive instruments, e.g. for measuring radioactivity, strain
+G21C  17/10 100 \	2	2	2G075	G21C  17/10	92	炉物理的特性の測定	Measuring the physical characteristics of a reactor
+G21C  17/10 200 \	2	2	2G075	G21C  17/10	129	信号処理に特徴を有するもの	Characterized by the process of signals
+G21C  17/10 300 \	2	2	2G075	G21C  17/10	43	検出器の配置に特徴を有するもの	Characterized by the arrangement of neutron detectors
+G21C  17/10 400 \	2	2	2G075	G21C  17/10	249	炉内計装管の構造または支持	Construction or support of instrument tubes within a reactor
+G21C  17/10 410 \	3	3	2G075	G21C  17/10	44	原子炉容器との結合部	linking section with a reactor vessel
+G21C  17/10 420 \	3	3	2G075	G21C  17/10	66	炉内構造物との支持手段に特徴を有するもの	Characterized by the structure of a reactor and support means
+G21C  17/10 500 \	2	2	2G075	G21C  17/10	175	検出器の走行または駆動装置	Travelling or driving devices for the detector
+G21C  17/10 510 \	3	3	2G075	G21C  17/10	92	走行制御，走行通路の選択に特徴を有するもの	Characterized by selecting travelling control and the passage thereof
+G21C  17/10 600 \	2	2	2G075	G21C  17/10	181	感知計器が中性子束測定手段以外のもの	Sensitivity instruments not using neutron flux measurement means
+G21C  17/10 700 \	2	2	2G075	G21C  17/10	132	制御棒［スペクトルシフト棒等も含む］に関連する監視	Monitoring related to control rods (including spectral rods and the like)
+G21C  17/10 710 \	3	3	2G075	G21C  17/10	218	制御棒の位置検出または表示	Detecting or displaying the location of a control rod
+G21C  17/10 720 \	3	3	2G075	G21C  17/10	31	制御棒の動作時間または駆動速度の測定	Measuring the operation time or drive speed of a control rod
+G21C  17/10 730 \	3	3	2G075	G21C  17/10	27	制御棒の落下の監視	Monitoring the falling of a control rod
+G21C  17/10 740 \	3	3	2G075	G21C  17/10	18	制御棒と制御棒駆動機構との結合確認	Verifying the connection between control rods and control rod drive arrangements
+G21C  17/10 750 \	3	3	2G075	G21C  17/10	82	スクラム時における制御棒の位置または動作の監視，測定	Monitoring and measuring the operation or position of a control rod at scram
+G21C  17/10 760 \	3	3	2G075	G21C  17/10	165	制御棒操作の監視または指示	Monitoring or directing the operation of control rods
+G21C  17/104  \	2	2	2G075	G21C  17/104	102	反応度を測定するもの［５］	Measuring reactivity [5]
+G21C  17/108  \	2	2	2G075	G21C  17/108	185	原子炉のフラックスを測定するもの［５］	Measuring reactor flux [5]
+G21C  17/108 100 \	3	3	2G075	G21C  17/108	150	出力分布または中性子束の測定	Measuring the output distribution or neutron flux
+G21C  17/108 110 \	4	4	2G075	G21C  17/108	93	ＴＩＰ［走行型中性子検出器］によるもの，ＴＩＰを用いた中性子検出器の較正，ゲイン調整	using a TIP (neutron detector on a vehicle); calibration and gain adjustment of a neutron detector by using a TIP
+G21C  17/108 120 \	4	4	2G075	G21C  17/108	96	中性子検出器の較正，ゲイン調整［ＴＩＰを用いるものは除く］	calibration and gain adjustment of a neutron detector (excluding any method using TIP)
+G21C  17/108 200 \	3	3	2G075	G21C  17/108	70	ワイドレンジモニタ，レンジの切替	Wide range monitors; switching ranges
+G21C  17/108 300 \	3	3	2G075	G21C  17/108	63	炉外からの中性子束の測定	Measuring neutron flux from outside of a reactor
+G21C  17/112  \	2	2	2G075	G21C  17/112	153	温度を測定するもの［５］	Measuring temperature [5]
+G21C  17/116  \	2	2	2G075	G21C  17/116	148	通路または絶縁体，例．電気ケーブル用［５］	Passages or insulators, e.g. for electric cables [5]
+G21C  17/12  \	2	2	2G075	G21C  17/12	22	制御要素の一部を形成する検出素子	Sensitive element forming part of control element
+G21C  17/12 100 \	3	3	2G075	G21C  17/12	103	中性子検出器	Neutron detectors
+G21C  17/12 200 \	3	3	2G075	G21C  17/12	19	中性子検出器以外のもの	Other than neutron detectors
+G21C  17/12 300 \	3	3	2G075	G21C  17/12	70	検出器の保護，遮蔽，支持に特徴を有するもの	Characterized by the protection, shielding, and support of a neutron detector
+G21C  17/12 400 \	3	3	2G075	G21C  17/12	11	制御棒に検出器が設けられたもの	having a control rod with a neutron detector built-in
+G21C  17/14  \	1	1	2G075	G21C  17/14	35	原子炉周期計	Period meters
+G21C  19/00  \	0	0	2G076	G21C  19/00	79	原子炉内，例．その圧力容器内，で使用される燃料またはその他の物資の処理，取扱い，または取扱いを容易にするための構成［２］	Arrangements for treating, for handling, or for facilitating the handling of, fuel or other materials which are used within the reactor, e.g. within its pressure vessel  [2]
+G21C  19/02  \	1	1	2G076	G21C  19/02	124	取扱い装置の細部	Details of handling arrangements
+G21C  19/02 010 \	2	2	2G076	G21C  19/02	34	燃料集合体の識別技術	
+G21C  19/02 020 \	2	2	2G076	G21C  19/02	157	炉内又は燃料等の移送経路中又はプール内の状況の観察の容易化，照明，可視可技術（Ｇ２１Ｃ１７／０８参照）	
+G21C  19/02 030 \	2	2	2G076	G21C  19/02	19	クレーン等の運転室の放射能防護または空調，運転室の配置	
+G21C  19/02 040 \	2	2	2G076	G21C  19/02	147	燃料交換時等においての炉容器蓋の撤去技術及び原子炉ウェルへの水張り技術，蓋及び炉内構造物の仮置プールの配置または構造，炉容器開口とプールの橋絡技術	
+G21C  19/02 050 \	2	2	2G076	G21C  19/02	1000	炉容器内での構造物の取付，取外し，補修または溶接，大物構造物の炉容器への搬出入	
+G21C  19/02 060 \	2	2	2G076	G21C  19/02	210	インターナルポンプまたはジェットポンプの取付，取外し	
+G21C  19/02 070 \	2	2	2G076	G21C  19/02	62	炉容器又は炉容器蓋の開孔への盲栓の着脱	
+G21C  19/02 080 \	2	2	2G076	G21C  19/02	57	炉容器又はその他の容器又は容器蓋の開孔から遠隔操作治具を出入するもの，開孔部に治具の足場を固定するもの	
+G21C  19/02 090 \	2	2	2G076	G21C  19/02	187	炉容器内部及び炉容器内部と連通するパイプ配管の洗浄，炉容器内での炉内機器の洗浄またはスラッジの除去，炉内浮遊塵の回収	
+G21C  19/02 100 \	2	2	2G076	G21C  19/02	122	プール内水中作業［機器の把持，フランジ接続，プール壁修理，ボルト締め等］	Underwater work in a pool (holding equipment, connecting flanges, repairing the walls of the pool, tightening bolts, and so on)
+G21C  19/02 110 \	2	2	2G076	G21C  19/02	19	プール内においてのＰＷＲ炉用燃料集合体からの制御棒抜出し治具	Jigs for pulling a control rod from an assembly of fuels for a PWR reactor inside a pool
+G21C  19/02 120 \	2	2	2G076	G21C  19/02	48	プール内で燃料集合体等を修理又は検査するために使用される燃料集合体等支持用架台	Frames for supporting an assembly of fuels and the like used for repairing or inspecting an assembly of fuels and the like inside a pool
+G21C  19/02 130 \	2	2	2G076	G21C  19/02	82	燃料要素とチャンネルボックスの両者を除く炉内機器の切断または圧潰	Cutting or collapsing equipment within a reactor excluding both fuel elements and channel boxes
+G21C  19/02 140 \	2	2	2G076	G21C  19/02	72	炉内機器の切断屑または研磨屑の回収，プール内においての炉内機器の研磨による補修	Collecting cutting or polishing refuse; repairing equipment within a reactor by polishing it inside a pool
+G21C  19/02 150 \	2	2	2G076	G21C  19/02	8	燃料集合体の曲り修正，応力除去技術	Repairing the bent sections of an assembly of fuels; techniques for removing stress
+G21C  19/02 160 \	2	2	2G076	G21C  19/02	49	ＣＲＤ以外の炉内機器，炉内機器を取扱う機器または燃料集合体等の炉外での洗浄	Cleaning equipment within a reactor except CRD, equipment handling equipment within a reactor, an assembly of fuels, and so on, outside of a reactor
+G21C  19/02 170 \	2	2	2G076	G21C  19/02	53	軸封技術；軸封パッキンの配置，構造または交換；軸封ベローズの配置または構造	Shaft seal techniques, and location, construction, and exchange of shaft seal packing; location and construction of shaft seal bellows
+G21C  19/02 180 \	2	2	2G076	G21C  19/02	18	燃料交換時又は定検時に使用されるクレーン又はウインチの据付け技術	Techniques for installing cranes or winches used at fuel exchange or routine inspection
+G21C  19/02 190 \	2	2	2G076	G21C  19/02	32	天井走行クレーンまたは車輌の案内構造，急停止手段，クランプ手段	Guide construction, emergency stop and clamp means for overhead travelling cranes or vehicles
+G21C  19/02 200 \	2	2	2G076	G21C  19/02	259	炉容器内部以外の原子力施設の補修，蒸気発生器，パイプラインの補修	Repair of the nuclear facilities other than those within a reactor vessel; repair of steam generators and pipelines
+G21C  19/04  \	2	2	2G076	G21C  19/04	10	取り扱われる物体に対する冷却材の流れを制御するための手段；取り扱われるチャンネルを流れる冷却材の流れを制御するための手段	Means for controlling flow of coolant over objects being handled; Means for controlling flow of coolant through channel being serviced
+G21C  19/06  \	2	2	2G076	G21C  19/06	54	燃料要素または制御要素を支持または貯蔵するための手段［４］	Means for supporting or storing fuel elements or control elements
+G21C  19/06 100 \	3	3	2G076	G21C  19/06	119	使用済燃料を溶液内または固化体内で貯蔵するもの，使用済燃料を皮膜で被覆して貯蔵するもの	Storing an assembly of fuels for FBR reactors in a liquid metal inside or outside of the reactors
+G21C  19/06 200 \	3	3	2G076	G21C  19/06	476	使用済燃料の乾式貯蔵施設，地下貯蔵施設または燃料を収容しているキャスクを貯蔵する施設	Dry storage and underground storage facilities for used fuels; facilities for storing casks accommodating fuels
+G21C  19/06 300 \	3	3	2G076	G21C  19/06	45	燃料棒の貯蔵，解体された燃料棒の貯蔵，組立前の燃料棒の貯蔵	Storing fuel rods; storing disassembled fuel rods; storing fuel rods before assembling
+G21C  19/06 400 \	3	3	2G076	G21C  19/06	37	破損燃料の収納容器	Storage container for damaged fuels
+G21C  19/07  \	3	3	2G076	G21C  19/07	12	貯蔵ラック；貯蔵プール［５］	Storage racks; Storage pools [5]
+G21C  19/07 100 \	3	3	2G076	G21C  19/07	119	燃料貯蔵用水冷プールの形状または構造，プールのライニング，ライニングの点検	Shape or construction of a water cooling pool for storing fuels; lining of the pool, and inspection thereof
+G21C  19/07 200 \	3	3	2G076	G21C  19/07	216	燃料貯蔵用水冷プールの除熱または空調，プール水の冷法浄化，燃料貯蔵用ラックへの水の循環，プール内の清掃	Heat removal or air conditioning of a water cooling pool for storing fuels; cooling purification of the pool water; circulating water into a rack for storing fuels, and cleaning the inside of the pool
+G21C  19/07 300 \	3	3	2G076	G21C  19/07	89	燃料貯蔵用水冷プールの水位調節，プール空調用ダクト配管への浸水防止，地震時等のプール水のスロッシング防止	Water level adjustment for a water cooling pool for storing fuels; prevention of water getting into duct pipes for the air conditioning for the pool, and prevention of thrashing of the pool water at earthquakes and the like
+G21C  19/07 400 \	3	3	2G076	G21C  19/07	63	原子力施設における水冷プールのゲート，プール間の水封用パッキン	Gates for a water cooling pool at nuclear facilities; packing for water seal between pools
+G21C  19/07 500 \	3	3	2G076	G21C  19/07	375	燃料集合体貯蔵用ラックの形状または構造，ラックの相互配置，ラック内での燃料集合体の配置または載置の方法	Shape or construction of a rack for storing an assembly of fuels; interrelated locations of racks; methods for positioning an assembly of fuels and stacking them within a rack
+G21C  19/07 600 \	3	3	2G076	G21C  19/07	175	燃料集合体等貯蔵用ラックの床または側壁への据付，ラックの耐震支持，ラックの吊下支持	Installation of a rack for storing an assembly of fuels to a floor or side wall; aseismatic support for a rack; hanging support for a rack
+G21C  19/07 700 \	3	3	2G076	G21C  19/07	94	ＣＲ，ＣＲＤ，中性子モニタ，ブレードガイド，チャンネルボックス，燃料集合体支持金具等の炉内機器の貯蔵または保管，原子力発電施設におけるその他の汚染された備品の貯蔵または保管	Preservation or storage of equipment within a reactor such as CR, CRD, neutron monitors, blade guides, channel boxes, and supporting metal fixtures for an assembly of fuels; preservation or storage of the other contaminated fittings in nuclear power plant facilities
+G21C  19/07 800 \	3	3	2G076	G21C  19/07	49	ＦＢＲ炉用燃料集合体を炉内又は炉外において液体金属内で貯蔵するもの	Storing an assembly of fuels for FBR reactors in a liquid metal inside or outside of the reactors
+G21C  19/08  \	2	2	2G076	G21C  19/08	4	燃料要素を炉心内に導入する前に加熱するための手段；炉心から燃料要素を除去した後，加熱または冷却する手段	Means for heating fuel elements before introduction into the core; Means for heating or cooling fuel elements after removal from the core
+G21C  19/08 100 \	3	3	2G076	G21C  19/08	15	炉内導入前に燃料を予熱するもの	Preheating fuels before introduction into the reactor
+G21C  19/08 200 \	3	3	2G076	G21C  19/08	20	炉から燃料貯蔵プールの手前迄において使用済燃料を冷却するもの，燃料出入用グリッパ案内管又はメンテナンスキャスク内又は燃料中継室内で燃料を冷却するもの	Cooling used fuels before they reach the fuel storage pool departing at the reactor; cooling fuels in a gripper guide tube for entrance of fuels or in a maintenance cask or in a fuel relay room
+G21C  19/08 300 \	3	3	2G076	G21C  19/08	3	炉内導入前に燃料等の表面から不純物を除去するもの	Removing impurities from the surface of fuels and the like before introduction into the reactor
+G21C  19/10  \	2	2	2G076	G21C  19/10	114	燃料要素または制御要素と協同して用いられる扛重または巻上げ装置	Lifting devices or pulling devices adapted for co-operation with fuel elements or with control elements
+G21C  19/105  \	3	3	2G076	G21C  19/105	1	把持または拡張継ぎ手要素をもつもの［５］	with grasping or spreading coupling elements [5]
+G21C  19/11  \	3	3	2G076	G21C  19/11	0	回転継ぎ手要素をもつもの，例．ソケット継ぎ手［５］	with revolving coupling elements, e.g. socket coupling [5]
+G21C  19/115  \	3	3	2G076	G21C  19/115	0	掛け金装置とボール継ぎ手をもつもの［５］	with latching devices and ball couplings [5]
+G21C  19/12  \	2	2	2G076	G21C  19/12	2	燃料要素または制御要素に直接，水圧または気圧による力を加えるための構成	Arrangements for exerting direct hydraulic or pneumatic force on fuel element or on control element
+G21C  19/14  \	1	1	2G076	G21C  19/14	10	原子炉内の水平チャンネルに用いられることに特徴のあるもの	characterised by their adaptation for use with horizontal channels in the reactor core
+G21C  19/16  \	1	1	2G076	G21C  19/16	3	原子炉内のチャンネルと連通するための関節結合部を有する，または，入れこ式シュートまたは導管	Articulated or telescopic chutes or tubes for connection to channels in the reactor core
+G21C  19/16 100 \	2	2	2G076	G21C  19/16	56	ＦＢＲ炉におけるグリッパ案内管の形状または構造，グリッパ案内面に付着したＮａの除去手段，ホールドダウン機能を具備したグリッパ案内管	Shape or construction of a gripper guide tube in the FBR reactor; means for removing Na attached to the inner surface of the gripper guide tube; gipper guide tubes provided with the hold down function
+G21C  19/16 200 \	2	2	2G076	G21C  19/16	20	ＦＢＲ炉におけるグリッパ案内管内での燃料集合体冷却手段	Cooling means for an assembly of fuels within a gripper guide tube in the FBR reactor
+G21C  19/16 300 \	2	2	2G076	G21C  19/16	71	燃料集合体等の移送用斜道または斜道管，斜道管内での移送手段	Ramps or ramp tubes for transferring an assembly of fuels and the like; transfer means within the ramp tube
+G21C  19/18  \	1	1	2G076	G21C  19/18	28	燃料要素を，例．貯蔵所から，原子炉の装填領域に移送する装置	Apparatus for bringing fuel elements to the reactor charge area, e.g. from a storage place
+G21C  19/18 100 \	2	2	2G076	G21C  19/18	152	座標系を用いての燃料移送または交換システム，燃料の目的地への移送径路問題または正確な位置への停止制御	Fuel transfer or exchange systems using co-ordinate systems; the problems of transfer path to the destination of the fuel or control for stopping the fuel at the exact position
+G21C  19/18 200 \	2	2	2G076	G21C  19/18	42	模擬スクリーンまたは表示器等を視認しての燃料または炉内機器の移送操作	Transfer operation of fuels or equipment within a reactor by visually inspecting simulation screens or display devices
+G21C  19/18 300 \	2	2	2G076	G21C  19/18	44	ＢＷＲ炉またはＰＷＲ炉等で使用される燃料交換用マストの構造，マスト伸縮用ロープのたるみ防止技術	Construction of a mast for fuel exchange used for BWR or PWR reactors, and the like; techniques for preventing a rope for stretching and contracting the mast from being slackened
+G21C  19/18 400 \	2	2	2G076	G21C  19/18	67	ＢＷＲ炉またはＰＷＲ炉等で使用される燃料交換用マストの制振，被吊上物の制振，燃料交換用マストの調芯位置決め技術	Control over the vibrations of a mast for fuel exchange used for BWR or PWR reactors, and the like; control over the vibrations of the hung; techniques for positioning the adjusting centre of the mast for fuel exchange
+G21C  19/18 500 \	2	2	2G076	G21C  19/18	36	ＢＷＲ炉またはＰＷＲ炉等で使用される燃料交換用マストにおいてマスト内部に燃料を導入するもの，燃料吊上時の放射線遮蔽カバー	Masts for fuel exchange used for BWR or PWR reactors that introduces fuels inside it; radiation shield cover when lifting up a fuel
+G21C  19/18 600 \	2	2	2G076	G21C  19/18	57	ＦＢＲ炉等で使用されるメンテナンスキャスクの形状または構造，メンテナンスキャスクの定置または据付技術	Shape or construction of maintenance casks used for FBR reactors and the like; techniques for installing the maintenance cask in place
+G21C  19/18 700 \	2	2	2G076	G21C  19/18	76	ＦＢＲ炉等で使用されるドアバルブ	door bulbs used for FBR reactors and the like
+G21C  19/18 800 \	2	2	2G076	G21C  19/18	45	ＦＢＲ炉の燃料移送用通路等における落下Ｎａ滴の回収または処理技術，Ｎａ滴の受け皿，燃料集合体等の表面の脱Ｎａ処理	Techniques for collecting or processing fallen Na drops in passages and the like for transferring fuels of an FBR reactor; Na removal techniques from the surface of the pan of Na drops, an assembly of fuels, and the like
+G21C  19/19  \	1	1	2G076	G21C  19/19	139	取扱いを容易にするために特に用いられる原子炉の部品，例．燃料要素の装填または取出しを容易にするためのもの［３］	Reactor parts specifically adapted to facilitate handling, e.g. to facilitate charging or discharging of fuel elements  [3]
+G21C  19/19 010 \	2	2	2G076	G21C  19/19	104	グリッパ又は燃料交換用マスト等の昇降制御，荷重検出，荷重及びグリッパ又は被吊上物の高さ位置検出とグリッパ開閉の相互関連制御，ワイヤ破断の検出と対処技術	
+G21C  19/19 020 \	2	2	2G076	G21C  19/19	58	グリッパ又はフック又は燃料交換用マストの自転で被吊下物ハンドリング部に対して角度調整するもの，自転必要角度の検出，ワイヤの振れ防止，セルフオリエンテーション可能な構造のグリッパ又はフック	
+G21C  19/19 030 \	2	2	2G076	G21C  19/19	7	非常時にグリッパ又はフックから吊上物を強制的に切離すもの	
+G21C  19/19 040 \	2	2	2G076	G21C  19/19	30	軸棒往復又はカム軸回転機構を用いてグリッパ開閉をするもの，グリッパ案内管内面のカムでグリッパ開閉や開閉のロックをするもの	
+G21C  19/19 050 \	2	2	2G076	G21C  19/19	24	ワイヤ又はテープの巻き取りまたは繰り出し制御でグリッパ開閉をするもの	
+G21C  19/19 060 \	2	2	2G076	G21C  19/19	148	炉心への燃料集合体の装荷や取出技術，ＢＷＲ炉で定検時等において燃料集合体支持金具又は制御棒を炉心へ着脱する技術	
+G21C  19/19 070 \	2	2	2G076	G21C  19/19	151	燃料集合体吊上用のグリッパ又はフックの構造または作動形態，把持の確認，セルフロック式把持，被吊上物の姿勢拘束，把持解除時の被吊上物の倒れ防止	
+G21C  19/19 080 \	2	2	2G076	G21C  19/19	74	燃料集合体支持金具吊上用グリッパ，燃料集合体と制御棒を両吊りするフック，燃料棒吊上用グリッパ，プラグ吊り上げ用グリッパ，種々物品の吊上容易化のためのグリッパアダプタ及びグリッパアジャスタ	
+G21C  19/19 090 \	2	2	2G076	G21C  19/19	54	燃料交換用マストまたはアーム式燃料交換機等を用いての横方向物体検知，炉外又は炉内の横方向物体検知，炉外または炉内の横方向状況検知，障害物衝突時の安全化技術，グリッパ吊上軸と被吊上物の軸との偏心を検出する技術	
+G21C  19/19 100 \	2	2	2G076	G21C  19/19	94	ＦＢＲ炉における回転プラグまたは偏心プラグ利用の燃料交換技術，回転プラグまたは偏心プラグの駆動，同停止技術（Ｇ２１Ｃ１３／０６Ａ〜Ｅ）	Fuel exchange techniques using revolving plugs or eccentric plugs in FBR reactors; techniques for driving or stopping revolving plugs or eccentric plugs (G21C13/06A to E)
+G21C  19/19 110 \	2	2	2G076	G21C  19/19	127	アーム式燃料交換機［アームオフセット式燃料交換機，パンタグラフ式燃料交換機］	Arm type fuel exchangers (arm offset fuel exchangers, pantograph type fuel exchangers)
+G21C  19/19 120 \	2	2	2G076	G21C  19/19	38	炉容器内における燃料の中継技術	Techniques for relaying fuels in a reactor vessel
+G21C  19/19 130 \	2	2	2G076	G21C  19/19	34	ブレードガイド	Plate guides
+G21C  19/19 140 \	2	2	2G076	G21C  19/19	80	圧力管型原子炉における燃料集合体の取扱技術および燃料交換技術	Techniques for handling an assembly of fuels in pressure tube reactors and for exchanging fuels
+G21C  19/19 150 \	2	2	2G076	G21C  19/19	65	ガス冷却炉又は黒鉛減速炉における燃料の取扱技術および燃料交換技術	Techniques for handling an assembly of fuels in gas-cooled reactors or graphite moderated reactors and for exchanging fuels
+G21C  19/19 160 \	2	2	2G076	G21C  19/19	15	ＰＷＲ炉において燃料交換の準備のための制御棒の事前取扱，炉心への一斉挿入又は炉心からの一斉退避	handling in advance of control rods for preparing for fuel exchange; inserting them into the core at one time or remove them from the core at one time
+G21C  19/20  \	1	1	2G076	G21C  19/20	52	目的物を圧力容器内に導入するための構成；圧力容器内で目的物を取り扱うための構成；圧力容器から目的物を取り出すための構成	Arrangements for introducing objects into the pressure vessel; Arrangements for handling objects within the pressure vessel; Arrangements for removing objects from the pressure vessel
+G21C  19/20 010 \	2	2	2G076	G21C  19/20	102	中性子計測管の炉心格子への案内または脱着技術，脱着不能時の切断技術	
+G21C  19/20 020 \	2	2	2G076	G21C  19/20	69	中性子計測管の炉外への移送技術，中性子計測管内の中性子計測器ケーブルの炉外への取出，巻取り回収又は切断技術，炉外に装備された中性子計測器の取扱技術	
+G21C  19/20 030 \	2	2	2G076	G21C  19/20	14	中性子源ホルダの取扱技術	
+G21C  19/20 040 \	2	2	2G076	G21C  19/20	87	ＢＷＲ炉において炉下部室に配備されたＣＲＤ着脱または移送のための種々の装置，炉下部室内においてのＣＲＤ受渡技術，およびＣＲＤ着脱用着脱装置の受渡し技術	
+G21C  19/20 050 \	2	2	2G076	G21C  19/20	56	ＢＷＲ炉でのＣＲＤとＣＲＤハウジングとの着脱構造，ＣＲＤ着脱用ボルトの着脱操作，ＣＲＤ着脱用ボルトの各ボルト位置に着脱装置の各ボルトレンチを整合位置決めする技術	
+G21C  19/20 060 \	2	2	2G076	G21C  19/20	59	ＢＷＲ炉においてＣＲＤ着脱装置の位置決め制御または芯出し制御，荷重の検知とそれに伴う制御	
+G21C  19/20 070 \	2	2	2G076	G21C  19/20	52	ＢＷＲ炉においてＣＲＤ取外し時や中性子計測管取外し時のドレン水処理およびその時の洗浄技術，又は水漏防止技術	
+G21C  19/20 080 \	2	2	2G076	G21C  19/20	30	ＢＷＲ炉においてＣＲＤを炉下部室から室外へ移送するもの，炉下部室外でのＣＲＤの移送技術，およびそのためのクレーンまたは台車	
+G21C  19/20 090 \	2	2	2G076	G21C  19/20	38	ＣＲＤの分解装置，分解と洗浄または組立をするための装置	
+G21C  19/20 100 \	2	2	2G076	G21C  19/20	41	炉容器へのＣＲＤハウジングの取付技術	Techniques for installing a CRD housing to a reactor vessel
+G21C  19/20 110 \	2	2	2G076	G21C  19/20	30	ＣＲ案内管を炉容器内に取付または取外しする技術	Techniques for installing a CR guide tube to the inside of a reactor vessel or removing therefrom
+G21C  19/20 120 \	2	2	2G076	G21C  19/20	52	ＢＷＲ炉においてＣＲとＣＲＤを連結または切離しする技術，炉容器にＣＲＤを着脱する時の燃料集合体支持金具の取扱技術	Techniques for connecting CR with CRD or disconnecting CR from CRD in BWR reactors; techniques for handling support metal fixtures for an assembly of fuels when installing CRD to a reactor vessel or removing CRD therefrom
+G21C  19/20 130 \	2	2	2G076	G21C  19/20	29	ＰＷＲ炉，ＦＢＲ炉，圧力管型炉またはガス冷却炉等において，ＣＲＤを炉容器に取付または取外す技術，および前記炉においてＣＲとＣＲＤを連結または切離しする技術	Techniques for installing or removing CRD from a reactor vessel in PWR reactors, FBR reactors, pressure tube reactors or gas-cooled reactors and the like as well as techniques for connecting CR with CRD or disconnecting CR from CRD in said reactors
+G21C  19/22  \	2	2	2G076	G21C  19/22	3	原子炉作動中に圧力容器の内部に近接できるための構成	Arrangements for obtaining access to the interior of a pressure vessel whilst the reactor is operating
+G21C  19/24  \	3	3	2G076	G21C  19/24	3	圧力容器を一時的に密封する補助容器を用いることによるもの	by using an auxiliary vessel which is temporarily sealed to the pressure vessel
+G21C  19/26  \	1	1	2G076	G21C  19/26	39	変形または破損した燃料要素または制御要素を取り出すための構成；その破損部分を移送する構成	Arrangements for removing jammed or damaged fuel elements or control elements; Arrangements for moving broken parts thereof
+G21C  19/26 100 \	2	2	2G076	G21C  19/26	86	炉内やプール内の異物回収技術	Techniques for collection foreign matters within a reactor for a pool
+G21C  19/28  \	1	1	2G076	G21C  19/28	77	流体状物質を炉心内に導入するための構成；炉心から流体状物質を取り出すための構成	Arrangements for introducing fluent material into the reactor core; Arrangements for removing fluent material from the reactor core
+G21C  19/30  \	2	2	2G076	G21C  19/30	48	循環する流体状物質を，例．核分裂生成物の抽出により，連続的に浄化するもの	with continuous purification of circulating fluent material, e.g. by extraction of fission products
+G21C  19/30 100 \	3	3	2G076	G21C  19/30	24	液体金属の浄化またはカバーガスの浄化に関しての管理技術，純度の管理，メッシュまたはフィルタの目詰まり検知	Techniques for managing the purification of liquid metals or cover gases; management of purity; detection of blinding of meshes or filters
+G21C  19/30 200 \	3	3	2G076	G21C  19/30	37	水［Ｈ↓２Ｏ］，重水［Ｄ↓２Ｏ］，液体金属，ガス等からトリチウムを除去する技術	Techniques for removing tritium from water (H2O), heavy water (D2O), liquid metals, gases and the like
+G21C  19/303  \	3	3	2G076	G21C  19/303	1	特に気体用に適合されたもの（気体の汚染除去Ｇ２１Ｆ９／０２）［５］	specially adapted for gases (decontamination of gases G21F 9/02) [5]
+G21C  19/303 100 \	4	4	2G076	G21C  19/303	45	Ｈ↓２ガス，Ｏ↓２ガス，希ガス等の脱ガス	Removing gases such as H2, O2, and noble gases
+G21C  19/303 200 \	4	4	2G076	G21C  19/303	76	カバーガス中から液体金属ベーパーまたは液体金属ミストを捕獲するもの	Capturing liquid metal vapour or mists from cover gases
+G21C  19/303 300 \	4	4	2G076	G21C  19/303	35	ガス冷却炉におけるガスの浄化技術，例．ヘリウムガスから水素ガスを除去するもの	Techniques for purifying gases in gas-cooled reactors, e.g. removing hydrogen gas from helium gas
+G21C  19/307  \	3	3	2G076	G21C  19/307	0	特に液体用に適合されたもの（液体の汚染除去Ｇ２１Ｆ９／０４）［５］	specially adapted for liquids (decontamination of liquids G21F 9/04) [5]
+G21C  19/307 100 \	4	4	2G076	G21C  19/307	76	冷却水［Ｈ↓２Ｏ］のドレン回収技術，圧力抑制プール水の浄化技術	Drain recovery techniques for cooling water (H2O); purification techniques for pool water for pressure suppression
+G21C  19/307 200 \	4	4	2G076	G21C  19/307	178	冷却水［Ｈ↓２Ｏ］配管等におけるクラッド発生防止技術，配管腐食防止技術，付着したクラッドを溶解法で除去する技術	Techniques for preventing the piping of cooling water (H2O) from having cladding; techniques for preventing the piping from being corroded; techniques for removing the attached cladding by using a dissolving method
+G21C  19/307 300 \	4	4	2G076	G21C  19/307	371	原子炉冷却水［Ｈ↓２Ｏ］浄化系および浄化系の運転技術，流路の切換	Purification systems for a reactor cooling water (H2O) and operating techniques therefor; switching of the passage of the flow
+G21C  19/307 400 \	4	4	2G076	G21C  19/307	469	冷却水［Ｈ↓２Ｏ］の浄化装置の構造，ストレーナ，浄化吸着材，磁気フィルタ，浄化装置の洗浄および再生	Construction of purification equipment for cooling water (H2O); cleaning and regeneration of the strainers, cleanup absorbent, magnetic filters, and purification equipment
+G21C  19/307 500 \	4	4	2G076	G21C  19/307	11	重水［Ｄ↓２Ｏ］の浄化	Purification of heavy water (D2O)
+G21C  19/31  \	4	4	2G076	G21C  19/31	0	溶融金属用［５］	for molten metals [5]
+G21C  19/31 100 \	5	5	2G076	G21C  19/31	9	液体金属冷却材浄化を偏析法または温度勾配による濃度拡散法を利用して行うもの	Purifying liquid metal cooling materials by using a segregation method or a concentration diffusion method through temperature ramp
+G21C  19/31 200 \	5	5	2G076	G21C  19/31	3	液体金属冷却材浄化を比重沈降法または遠心分離法を利用して行うもの，沈降した不純物高濃度の液体金属の処理	Purifying liquid metal cooling materials by using a gravity settling method or a centrifugal separation method; processing for settled liquid metals with high concentration of impurities
+G21C  19/31 300 \	5	5	2G076	G21C  19/31	37	液体金属冷却材浄化をＮｉ系の不純物ゲッターを用いて行うもの	Purifying liquid metal cooling materials by using impurity getters including Ni
+G21C  19/31 400 \	5	5	2G076	G21C  19/31	23	液体金属冷却材浄化を磁場利用で行うもの及び液体金属を電磁的に撹拌するもの	Purifying liquid metal cooling materials by using magnetic fields, and electromagnetically agitating liquid metals
+G21C  19/31 500 \	5	5	2G076	G21C  19/31	12	液体金属冷却材浄化を化学反応法またはホットトラップ法利用で行うもの	Purifying liquid metal cooling materials by using a chemical reaction method or a hot trap method
+G21C  19/31 600 \	5	5	2G076	G21C  19/31	16	液体金属冷却材浄化を種々の吸着剤，凝離剤利用で行うもの，カーボン製吸着剤を利用するもの	Purifying liquid metal cooling materials by using various kinds of absorbent or segregation materials, and carbonaceous absorbent
+G21C  19/31 700 \	5	5	2G076	G21C  19/31	3	液体金属冷却材中から不純物であるカーボンを除去するもの	Removing carbon that is impurity from liquid metal cooling materials
+G21C  19/31 800 \	5	5	2G076	G21C  19/31	16	液体金属冷却材に対し蒸発法を利用して液体金属と不純物とに分離するもの，液体金属中から脱ガスするもの	Separating liquid metal cooling materials into the liquid metals and impurities by applying an evaporation method thereto; degassing liquid metals
+G21C  19/313  \	5	5	2G076	G21C  19/313	0	コールドトラップを用いるもの［５］	using cold traps [5]
+G21C  19/313 100 \	6	6	2G076	G21C  19/313	55	液体金属冷却材浄化系および浄化系の運転技術，コールドトラップ装置内への非放射性同位元素の添加による浄化方法，コールドトラップ装置外の前後での温度調整浄化	Purification systems for liquid metal cooling materials and operating techniques therefor; purification methods using nonradioactive isotopes added to cold trap equipment; temperature control purification systems after and before the cold trap equipment
+G21C  19/313 200 \	6	6	2G076	G21C  19/313	35	液体金属冷却材浄化用コールドトラップの再生技術，再生時の不純物高濃度の液体金属ドレンの処理	Regeneration techniques for the purification of cold traps for liquid metal cooling materials; drain processing for liquid metals with high concentration of impurities at regeneration
+G21C  19/313 300 \	6	6	2G076	G21C  19/313	141	液体金属冷却材浄化用コールドトラップの構造，コールドトラップ内の流れの設定，メッシュの構造，メッシュ使用部位の変更	Construction of cold traps for purifying liquid metal cooling materials, setting the flow within the cold trap; construction of the mesh; changing the used sections of the mesh
+G21C  19/313 400 \	6	6	2G076	G21C  19/313	13	液体金属冷却材浄化用コールドトラップ装置を液体金属中に浸して使用するもの	Using cold trap equipment for purifying liquid metal cooling materials by immersing it in the liquid metal
+G21C  19/313 500 \	6	6	2G076	G21C  19/313	10	浄化のため液体金属冷却材を対流または毛細管現象を利用してトラップ通過させるもの	Making liquid metal cooling materials pass through a trap by using convection or capillary phenomenon for purification
+G21C  19/317  \	3	3	2G076	G21C  19/317	110	放射線分解生成物のための再結合装置［５］	Recombination devices for radiolytic dissociation products [5]
+G21C  19/32  \	1	1	2G076	G21C  19/32	70	放射性物体または物質を原子炉の取出し領域から，例．貯蔵所へ，移送するための装置；放射性物体または材料を貯蔵所内で取り扱うかまたは貯蔵所から取り出す装置（廃棄物処理Ｇ２１Ｆ９／００）	Apparatus for removing radioactive objects or materials from the reactor discharge area, e.g. to a storage place; Apparatus for handling radioactive objects or materials within a storage place or removing them therefrom (disposal of waste material G21F 9/00)
+G21C  19/32 010 \	2	2	2G076	G21C  19/32	166	燃料を室から室へと移送するもの，移送用垂直ポート，移送用トンネル，各種室の立体的配置および平面的配置，燃料中継室	
+G21C  19/32 020 \	2	2	2G076	G21C  19/32	16	各種水プールの相互配置	
+G21C  19/32 030 \	2	2	2G076	G21C  19/32	64	燃料又は燃料移送容器の水中移送技術，水中での受渡し技術，水路	
+G21C  19/32 040 \	2	2	2G076	G21C  19/32	215	燃料移送用バケットまたはバスケット，およびそれらの取扱い	
+G21C  19/32 050 \	2	2	2G076	G21C  19/32	65	ＦＢＲ炉用燃料の移送ポットやその取扱，移送ポットへの燃料の出し入れ	
+G21C  19/32 060 \	2	2	2G076	G21C  19/32	377	キャスクの運搬または吊下移送，キャスクの起倒，キャスクの案内または定置，キャスクピットプール内でのキャスクの垂直移送に関する技術，キャスク強度化のためのキャスク構造	
+G21C  19/32 070 \	2	2	2G076	G21C  19/32	23	キャスクピットプールの配置およびキャスクピットプール水の制御または取扱	
+G21C  19/32 080 \	2	2	2G076	G21C  19/32	239	キャスクへの燃料集合体や燃料バスケットの出し入れ，キャスク蓋の封印または開封技術，キャスク内での燃料収納配置	
+G21C  19/32 090 \	2	2	2G076	G21C  19/32	65	キャスク外表面の汚染防止，汚染から保護したり汚染拡散を防止する膜	
+G21C  19/32 100 \	2	2	2G076	G21C  19/32	149	キャスクの床上へ落下時のショックアブソーバ	Shocks absorbers for the cask that falls down on a floor
+G21C  19/32 110 \	2	2	2G076	G21C  19/32	344	キャスクの放熱，キャスク内部からの水またはガスの取出し，キャスク内部圧の調整，キャスクのメンテナンス技術	Techniques for the heat release of a cast, removal of water or gases from the inside thereof, control on pressure therein, and the maintenance thereof
+G21C  19/32 120 \	2	2	2G076	G21C  19/32	5	キャスク内に封入前に使用済燃料集合体又は燃料棒に事前処理をするもの，例．使用済燃料のガス抜き	Processing in advance a spent assembly of fuels or fuel rods before sealing them into a cask, e.g. degassing spent fuels
+G21C  19/33  \	1	1	2G076	G21C  19/33	9	使用済み燃料要素のストリングを分解する装置または方法（Ｇ２１Ｃ１９／３４が優先）［２］	Apparatus or processes for dismantling strings of spent fuel elements (G21C?19/34 takes precedence)  [2]
+G21C  19/33 100 \	2	2	2G076	G21C  19/33	57	ＢＷＲ炉用燃料集合体の構造の解体または再組立，燃料集合体に対しての燃料棒の抜出しまたは挿入，上部タイプレートまたは下部タイプレートの着脱	Dismantling and reassembling of the construction of an assembly of fuels for BWR reactors; pull-out and insertion of fuel rods into an assembly of fuels; installation and removal of the upper or lower tie plates
+G21C  19/33 200 \	2	2	2G076	G21C  19/33	106	ＰＷＲ炉用燃料集合体の構造の解体または再組立，燃料集合体に対しての燃料棒の抜出しまたは挿入，上部ノズルまたは下部ノズルの着脱	Dismantling and reassembling of the construction of an assembly of fuels for PWR reactors; pull-out and insertion of fuel rods into an assembly of fuels; installation and removal of the upper or lower nozzles
+G21C  19/33 300 \	2	2	2G076	G21C  19/33	12	その他の炉［ＦＢＲ炉，ガス炉，重水減速炉等］用の燃料集合体等の構造の解体または再組立	Dismantling and reassembling of the construction of an assembly of fuels for other reactors (such as FBR reactors, gas reactors, and heavy water moderating reactors
+G21C  19/34  \	1	1	2G076	G21C  19/34	14	核燃料を分解する装置と方法，例．再処理の前工程［５］	Apparatus or processes for dismantling nuclear fuel, e.g. before reprocessing  [5]
+G21C  19/34 100 \	2	2	2G076	G21C  19/34	33	化学反応利用の化学的手段と機械的手段，例．機械的振動の付与，を組合せて燃料と燃料被覆金属とを分離採取するもの	Sampling fuels and fuel shielded metals separately by combining chemical reactive means with mechanical ones, e.g. means providing mechanical vibrations
+G21C  19/34 200 \	2	2	2G076	G21C  19/34	10	電気化学的手段を用いて燃料と燃料被覆金属とを分離採取するもの	Sampling fuels and fuel shielded metals separately by using electrochemical means
+G21C  19/36  \	2	2	2G076	G21C  19/36	15	機械的手段のみ	Mechanical means only
+G21C  19/365  \	3	3	2G076	G21C  19/365	1	燃料からその被覆またはケーシングを除去するもの［５］	Removing cannings or casings from fuel [5]
+G21C  19/365 100 \	4	4	2G076	G21C  19/365	56	チャンネルボックスの着脱技術	Techniques for installing and removing channel boxes
+G21C  19/365 200 \	4	4	2G076	G21C  19/365	37	燃料棒において燃料皮覆金膜を切り込みして膜を除去するもの，膨脹または収縮率の差異を利用するもの，燃料棒等を圧潰するもの	Removing metal membranes of fuel shield by slitting the shield in a fuel rod; using the difference between the coefficient of contraction and that of expansion; collapsing the fuel rod and the like
+G21C  19/37  \	4	4	2G076	G21C  19/37	109	被覆またはケーシングと燃料要素の両方を小片に分割することによるもの，例．切断または剪断によるもの［５］	by separating into pieces both the canning or the casing and the fuel element, e.g. by cutting or shearing [5]
+G21C  19/375  \	3	3	2G076	G21C  19/375	51	減容化装置，例．燃料集合体用［５］	Compacting devices, e.g. for fuel assemblies [5]
+G21C  19/38  \	2	2	2G076	G21C  19/38	27	化学的手段のみ	Chemical means only
+G21C  19/40  \	1	1	2G076	G21C  19/40	44	臨界状態が，例．貯蔵中に，生ずるのを防止するための構成	Arrangements for preventing occurrence of critical conditions, e.g. during storage
+G21C  19/40 100 \	2	2	2G076	G21C  19/40	101	臨界防止の計測管理，搬送時の集合状況管理	Instrumentation control to prevent occurrence of critical conditions; control on the status of aggregation during transportation
+G21C  19/40 200 \	2	2	2G076	G21C  19/40	163	燃料貯蔵ラックへの中性子吸収材の利用，臨界防止のための燃料貯蔵時の燃料配列	Using neutron absorbers to fuel storage racks; arrangement of fuels during fuel storage to prevent critical conditions
+G21C  19/40 300 \	2	2	2G076	G21C  19/40	53	溶液または粉体の臨界防止	Preventing the critical conditions of solutions and fine particles
+G21C  19/42  \	1	1	2G076	G21C  19/42	70	照射済燃料の再処理	Reprocessing of irradiated fuel
+G21C  19/44  \	2	2	2G076	G21C  19/44	15	照射済固体燃料について	of irradiated solid fuel
+G21C  19/44 100 \	3	3	2G076	G21C  19/44	51	前処理	Preprocessing
+G21C  19/44 110 \	4	4	2G076	G21C  19/44	13	黒鉛の分離	Separation of graphites
+G21C  19/44 120 \	4	4	2G076	G21C  19/44	19	酸化処理，ボロオキシデーション	oxidation and voloxidation
+G21C  19/44 200 \	3	3	2G076	G21C  19/44	12	乾式処理	Dry processing
+G21C  19/44 210 \	4	4	2G076	G21C  19/44	49	フッ化物揮発法	fluoride volatility process
+G21C  19/44 215 \	5	5	2G076	G21C  19/44	29	六フッ化物の処理	process of hexafluoride
+G21C  19/44 220 \	4	4	2G076	G21C  19/44	10	塩化物揮発法	chloride volatility process
+G21C  19/44 230 \	4	4	2G076	G21C  19/44	20	溶融金属法	molten metal process
+G21C  19/44 240 \	4	4	2G076	G21C  19/44	69	溶融塩法	molten salt process
+G21C  19/44 250 \	4	4	2G076	G21C  19/44	149	溶融塩電解法	molten salt electrolytic process
+G21C  19/46  \	3	3	2G076	G21C  19/46	141	水溶液による処理	Aqueous processes
+G21C  19/46 100 \	4	4	2G076	G21C  19/46	32	前処理	Preprocessing
+G21C  19/46 200 \	4	4	2G076	G21C  19/46	56	電解操作を用いるもの	Using electrolytic operations
+G21C  19/46 300 \	4	4	2G076	G21C  19/46	187	溶解	Solution
+G21C  19/46 310 \	5	5	2G076	G21C  19/46	46	溶解剤，溶解条件	soluble materials, solubility conditions
+G21C  19/46 400 \	4	4	2G076	G21C  19/46	41	廃ガス処理	Disposal of waste gases
+G21C  19/46 500 \	4	4	2G076	G21C  19/46	107	不溶解残渣の分離	Separation of insoluble residue
+G21C  19/46 600 \	4	4	2G076	G21C  19/46	97	溶解後の溶液の処理	process of solution after melting
+G21C  19/46 610 \	5	5	2G076	G21C  19/46	39	イオン交換体を用いるもの	using ion exchangers
+G21C  19/46 620 \	5	5	2G076	G21C  19/46	107	抽出	extraction
+G21C  19/46 622 \	6	6	2G076	G21C  19/46	99	抽出装置	extraction devices
+G21C  19/46 624 \	6	6	2G076	G21C  19/46	226	有機相からのＵ，Ｐｕ，核分裂生成物の分離	separating U, Pu, and fission products from an organic phase
+G21C  19/46 626 \	6	6	2G076	G21C  19/46	46	有機溶媒の延命処理	process for prolonging the life of organic solvents
+G21C  19/46 630 \	5	5	2G076	G21C  19/46	70	脱硝	denitration
+G21C  19/48  \	3	3	2G076	G21C  19/48	15	非水溶液による処理	Non-aqueous processes
+G21C  19/50  \	2	2	2G076	G21C  19/50	6	照射済流体状燃料について	of irradiated fluid fuel
+G21C  21/00  \	0	0	2G071	G21C  21/00	67	原子炉またはその部分品の製造のために特に用いられる装置または方法	Apparatus or processes specially adapted to the manufacture of reactors or parts thereof
+G21C  21/00 100 \	1	1	2G071	G21C  21/00	11	燃料集合体の組立	Assembling of an assembly of fuels
+G21C  21/00 110 \	2	2	2G071	G21C  21/00	65	ＢＷＲ用燃料集合体の組立	Assembling of an assembly of fuels for BWRs
+G21C  21/00 115 \	3	3	2G071	G21C  21/00	4	ワッシャ固定装置	washer securing devices
+G21C  21/00 120 \	2	2	2G071	G21C  21/00	91	ＰＷＲ用燃料集合体の組立	Assembling of an assembly of fuels for PWRs
+G21C  21/00 125 \	3	3	2G071	G21C  21/00	19	制御棒案内管を上部ノズルに装着する装置	devices installing a control rod guide tube to a upper nozzle
+G21C  21/00 130 \	2	2	2G071	G21C  21/00	16	ＦＢＲ用燃料集合体の組立	Assembling of an assembly of fuels for FBRs
+G21C  21/00 140 \	2	2	2G071	G21C  21/00	3	圧力管型原子炉用燃料集合体の組立	Assembling of an assembly of fuels for pressure tube reactors
+G21C  21/00 200 \	1	1	2G071	G21C  21/00	10	ガス炉用燃料要素の製造	Manufacture of fuel elements for gas reactors
+G21C  21/00 300 \	1	1	2G071	G21C  21/00	112	燃料要素をスペーサに挿入する方法，装置	Methods and devices to insert a fuel element into a spacer
+G21C  21/00 310 \	2	2	2G071	G21C  21/00	53	スペーサばね弛緩用治具	Jigs for loosening spacer springs
+G21C  21/00 400 \	1	1	2G071	G21C  21/00	69	燃料集合体のパーツの製造（スペーサの製造はＧ２１Ｃ３／３４，２００）	Manufacture of the parts of an assembly of fuels (the manufacture of spacers G21C 3/34, 200)
+G21C  21/00 500 \	1	1	2G071	G21C  21/00	28	燃料集合体のパーツの移送	Transfer of the parts of an assembly of fuels
+G21C  21/00 600 \	1	1	2G071	G21C  21/00	15	燃料製造プラント	Fuel manufacturing plants
+G21C  21/00 700 \	1	1	2G071	G21C  21/00	21	原子炉またはその部分品の製造	Manufacture of reactors and parts thereof
+G21C  21/02  \	1	1	2G071	G21C  21/02	11	非活性被覆管内の燃料要素または増殖要素の製造	Manufacture of fuel elements or breeder elements contained in non-active casings
+G21C  21/02 100 \	2	2	2G071	G21C  21/02	105	燃料要素の製造（被覆管の製造はＧ２１Ｃ３／０６，３００，端栓の製造はＧ２１Ｃ３／１０，２００）	Manufacture of fuel elements (manufacture of casings G21C 3/06, 300, manufacture of end plugs G21C 3/10, 200)
+G21C  21/02 110 \	3	3	2G071	G21C  21/02	203	端栓部の溶接	Welding of end plugs
+G21C  21/02 120 \	3	3	2G071	G21C  21/02	91	被覆管への燃料ペレットの充填	filling fuel pellets into casings
+G21C  21/02 130 \	3	3	2G071	G21C  21/02	36	被覆管へのガス充填	filling gases into casings
+G21C  21/02 200 \	2	2	2G071	G21C  21/02	34	核燃料物質の製造装置，取扱い装置	Manufacture equipment and handling equipment of nuclear fuel materials
+G21C  21/02 210 \	3	3	2G071	G21C  21/02	79	被覆粒子燃料の製造装置	Manufacturing equipment of covered granular fuel
+G21C  21/02 220 \	3	3	2G071	G21C  21/02	52	燃料ペレット又は棒状燃料の製造装置	manufacture equipment of fuel pellets or rod type of fuels
+G21C  21/02 230 \	3	3	2G071	G21C  21/02	68	燃料粉末の取扱い，移送	handling and transferring of fuel powder
+G21C  21/02 240 \	3	3	2G071	G21C  21/02	71	燃料粉末の混合，粉砕装置	blender and granulator of fuel powder
+G21C  21/02 250 \	3	3	2G071	G21C  21/02	73	燃料粉末のプレス装置	fuel powder press
+G21C  21/02 260 \	3	3	2G071	G21C  21/02	52	ペレット成形，ペレットコーティング装置	pellet forming equipment and pellet coating equipment
+G21C  21/02 270 \	3	3	2G071	G21C  21/02	129	加熱，焼結装置	heating equipment and sintering machines
+G21C  21/02 275 \	4	4	2G071	G21C  21/02	25	マイクロ波加熱装置	microwave heating equipment
+G21C  21/02 300 \	2	2	2G071	G21C  21/02	137	ペレットの移送，取扱い装置	Transfer and handling equipment of pellets
+G21C  21/02 400 \	2	2	2G071	G21C  21/02	34	燃料要素のパーツの移送，取扱い装置	Transfer and handling equipment of parts in fuel elements
+G21C  21/04  \	2	2	2G071	G21C  21/04	42	振動による詰込みまたは押圧によるもの	by vibrational compaction or tamping
+G21C  21/06  \	2	2	2G071	G21C  21/06	14	スウェジによるもの	by swaging
+G21C  21/08  \	2	2	2G071	G21C  21/08	0	すべりはめ（スリップフイット）被覆方法によるもの	by a slip-fit cladding process
+G21C  21/10  \	2	2	2G071	G21C  21/10	6	押出し，引抜きまたは引伸しによるもの	by extrusion, drawing, or stretching
+G21C  21/12  \	2	2	2G071	G21C  21/12	2	水圧または高温空気圧製かんによるもの	by hydrostatic or thermo-pneumatic canning
+G21C  21/14  \	2	2	2G071	G21C  21/14	1	流体中における鍍金によるもの	by plating in a fluid
+G21C  21/16  \	2	2	2G071	G21C  21/16	6	鋳造またはどぶづけ技術によるもの	by casting or dipping techniques
+G21C  21/18  \	1	1	2G071	G21C  21/18	26	グループＧ２１Ｃ７／００に包含される制御要素の製造	Manufacture of control elements covered by group G21C 7/00
+G21C  23/00  \	0	0	2G076	G21C  23/00	50	実験または照射を容易にするための原子炉の設備［３］	Adaptations of reactors to facilitate experimentation or irradiation [3]
+G21C  23/00 100 \	1	1	2G076	G21C  23/00	20	原子炉内照射試験	irradiation test within a reactor
+G21C  23/00 110 \	2	2	2G076	G21C  23/00	53	実験孔，サーマルコラム，インパイルループ	experimental holes, thermal columns, and in-pile loop
+G21C  23/00 120 \	2	2	2G076	G21C  23/00	28	照射試験のための原子炉の構成	Configuration of a reactor for irradiation tests
+G21C  23/00 125 \	3	3	2G076	G21C  23/00	54	燃料集合体等炉心構成要素	core components such as an assembly of fuels
+G21C  23/00 130 \	2	2	2G076	G21C  23/00	67	照射キャプセル	irradiation capsules
+G21C  23/00 140 \	2	2	2G076	G21C  23/00	74	照射試料，キャプセルの取扱い装置	handling equipment of irradiation materials and capsules
+G21C  23/00 145 \	3	3	2G076	G21C  23/00	37	流体圧で照射試料，キャプセルを移送するもの	transferring irradiation materials and capsules by fluid pressure
+G21C  23/00 150 \	2	2	2G076	G21C  23/00	31	照射試料の温度，圧力の制御	control on the temperature and pressure of irradiation materials

@@ -1,0 +1,393 @@
+G01L   1/00  \	0	0	2F049	G01L   1/00	81	力または応力の測定一般（衝撃による力の測定Ｇ０１Ｌ５／００）［４］	Measuring force or stress, in general (measuring force due to impact G01L 5/00) [4]
+G01L   1/00  A	0	0	2F049	G01L   1/00	567	応力の測定	Measuring stress levels
+G01L   1/00  B	0	1	2F049	G01L   1/00	745	光学的手段によるもの	By optical means
+G01L   1/00  C	0	1	2F049	G01L   1/00	147	音響的手段によるもの	By acoustic means
+G01L   1/00  D	0	1	2F049	G01L   1/00	394	歪ゲ−ジを用いるもの	Using of strain gages
+G01L   1/00  E	0	1	2F049	G01L   1/00	150	応力塗料，皮膜を用いるもの	Using of stress paints, films
+G01L   1/00  F	0	1	2F049	G01L   1/00	339	磁気的手段によるもの	By magnetic means
+G01L   1/00  G	0	1	2F049	G01L   1/00	285	応力分布の測定	Measuring stress distributions
+G01L   1/00  H	0	0	2F049	G01L   1/00	161	引張り力の測定	Measuring tensile forces
+G01L   1/00  J	0	0	2F049	G01L   1/00	105	測定回路	Measuring circuits
+G01L   1/00  K	0	1	2F049	G01L   1/00	117	補償用回路	Compensating circuits
+G01L   1/00  L	0	0	2F049	G01L   1/00	123	表面弾性波を用いるもの	Using of surface acoustic waves
+G01L   1/00  M	0	0	2F049	G01L   1/00	265	モデルを用いて応力を演算するもの（Ｈ１１　新設）	Calculating stress levels using of models (newly established in H11)
+G01L   1/00  Z	0	0	2F049	G01L   1/00	406	その他のもの	Others
+G01L   1/02  \	1	1	2F049	G01L   1/02	276	液圧または空気圧によるもの	by hydraulic or pneumatic means
+G01L   1/04  \	1	1	2F049	G01L   1/04	334	ゲージ，例．スプリング，の弾性変形の測定によるもの	by measuring elastic deformation of gauges, e.g. of springs
+G01L   1/06  \	1	1	2F049	G01L   1/06	56	ゲージ，例．圧縮体，の永久変形の測定によるもの	by measuring the permanent deformation of gauges, e.g. of compressed bodies
+G01L   1/08  \	1	1	2F049	G01L   1/08	146	平衡力を使用するもの	by the use of counterbalancing forces
+G01L   1/10  \	1	1	2F049	G01L   1/10	86	応力を加えた振動素子，例．張線，の周波数変化の測定によるもの（抵抗ストレンゲージを使用するものＧ０１Ｌ１／２２）	by measuring variations of frequency of stressed vibrating elements, e.g. of stressed strings (using resistance strain gauges G01L 1/22)
+G01L   1/10  A	1	0	2F049	G01L   1/10	232	圧電物質を用いるもの	Using of piezoelectric substances
+G01L   1/10  Z	1	0	2F049	G01L   1/10	302	その他のもの	Others
+G01L   1/12  \	1	1	2F049	G01L   1/12	562	応力の印加による物質の磁気特性変化の測定によるもの	by measuring variations in the magnetic properties of materials resulting from the application of stress
+G01L   1/14  \	1	1	2F049	G01L   1/14	28	電気的素子の容量またはインダクタンスの変化の測定によるもの，例．電気的発振器の周波数の変化を測定するもの	by measuring variations in capacitance or inductance of electrical elements, e.g. by measuring variations of frequency of electrical oscillators
+G01L   1/14  A	1	0	2F049	G01L   1/14	443	容量変化によるもの	By capacity changes
+G01L   1/14  J	1	1	2F049	G01L   1/14	753	構造に関するもの（Ｈ１１　新設）	Related to structures (newly established in H11)
+G01L   1/14  K	1	2	2F049	G01L   1/14	112	微細加工技術を利用して製造するもの（Ｈ１１　新設）	Manufacturing by using of micro machining techniques (newly established in H11)
+G01L   1/14  L	1	1	2F049	G01L   1/14	173	測定回路に関するもの（Ｈ１１　新設）	Related to measuring circuits (newly established in H11)
+G01L   1/14  B	1	0	2F049	G01L   1/14	126	インダクタンス変化によるもの	By changes in inductance
+G01L   1/14  Z	1	0	2F049	G01L   1/14	52	その他のもの	Others
+G01L   1/16  \	1	1	2F049	G01L   1/16	539	圧電装置の特性を利用するもの	using properties of piezo-electric devices
+G01L   1/16  A	1	0	2F049	G01L   1/16	268	圧電材料に関するもの（Ｈ１１　新設）	Related to piezoelectric materials (newly established in H11)
+G01L   1/16  B	1	0	2F049	G01L   1/16	786	構造・配置に関するもの（Ｈ１１　新設）	Related to structures or arrangements (newly established in H11)
+G01L   1/16  C	1	1	2F049	G01L   1/16	327	積層構造に関するもの（Ｈ１１　新設）	Related to laminated structures (newly established in H11)
+G01L   1/16  G	1	0	2F049	G01L   1/16	217	測定回路に関するもの（Ｈ１１　新設）	Related to measuring circuits (newly established in H11)
+G01L   1/16  Z	1	0	2F049	G01L   1/16	124	その他のもの（Ｈ１１　新設）	Others (newly established in H11)
+G01L   1/18  \	1	1	2F049	G01L   1/18	598	圧抵抗物質，すなわち加えられた力の大きさまたは方向の変化に応じてオーム抵抗が変化する物質，の特性を利用するもの	using properties of piezo-resistive materials, i.e. materials of which the ohmic resistance varies according to changes in magnitude or direction of force applied to the material
+G01L   1/18  A	1	0	2F049	G01L   1/18	666	半導体基板上にピエゾ抵抗素子を形成するもの（Ｈ１１　新設）	Forming piezo electric resistance elements on semiconductor substrates (newly established in H11)
+G01L   1/18  B	1	0	2F049	G01L   1/18	84	電界効果トランジスタ〔ＦＥＴ〕を使用するもの（Ｈ１１　新設）	Using of field effect transistors (FET) (newly established in H11)
+G01L   1/18  Z	1	0	2F049	G01L   1/18	257	その他のもの（Ｈ１１　新設）	Others (newly established in H11)
+G01L   1/20  \	1	1	2F049	G01L   1/20	187	固体物質または導電性流体のオーム抵抗変化の測定によるもの（圧抵抗物質のオーム抵抗変化の測定によるものＧ０１Ｌ１／１８）；動電セル，すなわち応力の印加によって電圧が誘起または変化する含液セルを利用するもの	by measuring variations in ohmic resistance of solid materials or of electrically-conductive fluids (of piezo-resistive materials G01L 1/18); by making use of electrokinetic cells, i.e. liquid-containing cells wherein an electrical potential is produced or varied upon the application of stress
+G01L   1/20  A	1	0	2F049	G01L   1/20	306	導電ゴムを利用するもの（Ｈ１１　新設）	Using of conductive rubbers (newly established in H11)
+G01L   1/20  B	1	1	2F049	G01L   1/20	121	感圧位置を検出可能なもの（Ｈ１１　新設）	Capable of detecting pressure-sensing positions (newly established in H11)
+G01L   1/20  C	1	1	2F049	G01L   1/20	109	導電ゴムの形状が筒状のもの（Ｈ１１　新設）	Cylindrical conductive rubber profiles (newly established in H11)
+G01L   1/20  G	1	0	2F049	G01L   1/20	177	弾性導電部材の接触面積変化を測定するもの（Ｈ１１　新設）	Measuring changes in contact area of elastic conductive materials (newly established in H11)
+G01L   1/20  Z	1	0	2F049	G01L   1/20	419	その他のもの（Ｈ１１　新設）	Others (newly established in H11)
+G01L   1/22  \	2	2	2F049	G01L   1/22	159	抵抗ストレンゲージを用いるもの	using resistance strain gauges
+G01L   1/22  A	2	0	2F049	G01L   1/22	176	測定回路	Measuring circuits
+G01L   1/22  B	2	1	2F049	G01L   1/22	187	補償用回路	Compensating circuits
+G01L   1/22  C	2	0	2F049	G01L   1/22	115	ストレンゲ−ジ以外の補償用素子を付加したもの	With additional elements excluding strain gages
+G01L   1/22  D	2	0	2F049	G01L   1/22	191	素子部分の密封	Sealing element units
+G01L   1/22  E	2	0	2F049	G01L   1/22	434	平行四辺形型「図」	Parallelogram types [figure]
+G01L   1/22  F	2	0	2F049	G01L   1/22	371	両端，周辺固定型「図」	Both ends, fixed perimeters [figure]
+G01L   1/22  G	2	0	2F049	G01L   1/22	73	ピン型「図」	Pin types [figure]
+G01L   1/22  H	2	0	2F049	G01L   1/22	85	複合片持型「図」	Complex cantilever types [figure]
+G01L   1/22  L	2	0	2F049	G01L   1/22	111	剪断応力検出型	Shearing stress detecting types
+G01L   1/22  M	2	0	2F049	G01L   1/22	342	薄膜ゲ−ジを用いたもの	Using of thin film gages
+G01L   1/22  Z	2	0	2F049	G01L   1/22	878	その他のもの	Others
+G01L   1/24  \	1	1	2F049	G01L   1/24	306	応力が加えられた時の物質の光学的特性の変化を測定することによるもの，例．光弾性応力分析によるもの	by measuring variations of optical properties of material when it is stressed, e.g. by photoelastic stress analysis
+G01L   1/24  A	1	0	2F049	G01L   1/24	764	感圧部材として光ファイバーを使用するもの（Ｈ１１　新設）	Using of optical fibres as pressure sensitive materials (newly established in H11)
+G01L   1/24  Z	1	0	2F049	G01L   1/24	363	その他のもの（Ｈ１１　新設）	Others (newly established in H11)
+G01L   1/25  \	1	1	2F049	G01L   1/25	130	波動性または粒子性放射線，例．Ｘ線，中性子，を使用するもの（Ｇ０１Ｌ１／２４が優先）［４］	using wave or particle radiation, e.g. X-rays, neutrons (G01L 1/24 takes precedence) [4]
+G01L   1/26  \	1	1	2F049	G01L   1/26	37	力の測定に関連して行なわれる補助測定または力の測定に関連して使用される装置，例．横方向成分の力の影響の防止，過負荷の防止	Auxiliary measures taken, or devices used, in connection with the measurement of force, e.g. for preventing influence of transverse components of force, for preventing overload
+G01L   1/26  A	1	0	2F049	G01L   1/26	91	偏荷重防止	Preventing unbalanced loading
+G01L   1/26  B	1	0	2F049	G01L   1/26	247	過負荷防止	Preventing overloading
+G01L   1/26  C	1	0	2F049	G01L   1/26	53	端子部構造	Terminal structures
+G01L   1/26  D	1	0	2F049	G01L   1/26	138	補償用装置	Compensating devices
+G01L   1/26  Z	1	0	2F049	G01L   1/26	375	その他のもの	Others
+G01L   3/00  \	0	0	2F050	G01L   3/00	60	トルク，仕事，機械的動力，または機械的効率の測定一般	Measuring torque, work, mechanical power, or mechanical efficiency, in general
+G01L   3/00  A	0	0	2F050	G01L   3/00	42	衝撃的なトルクの検出	Detecting impact torque
+G01L   3/00  C	0	0	2F050	G01L   3/00	71	反動トルクの検出	Detecting reaction torque
+G01L   3/00  E	0	0	2F050	G01L   3/00	13	伝達式動力計と吸収式動力計とを組合せたもの	Combinations of transmission type power meter and absorption type power meters
+G01L   3/00  Z	0	0	2F050	G01L   3/00	518	その他	Others
+G01L   3/02  \	1	1	2F050	G01L   3/02	59	回転伝達式動力計	Rotary-transmission dynamometers
+G01L   3/04  \	2	2	2F050	G01L   3/04	234	トルク伝達要素がねじりたわみ軸からなるもの	wherein the torque-transmitting element comprises a torsionally-flexible shaft
+G01L   3/06  \	3	3	2F050	G01L   3/06	30	指示用の機械的手段を含んでいるもの	involving mechanical means for indicating
+G01L   3/08  \	3	3	2F050	G01L   3/08	179	指示用の光学的手段を含んでいるもの	involving optical means for indicating
+G01L   3/10  \	3	3	2F050	G01L   3/10	116	指示用の電気的，磁気的手段を含んでいるもの	involving electric or magnetic means for indicating
+G01L   3/10 301 \	4	4	2F050	G01L   3/10	3	磁歪を検出するもの	with detecting magnetostriction
+G01L   3/10 301 A	4	0	2F050	G01L   3/10	313	磁歪軸の構造	Structure of magnetostriction axis
+G01L   3/10 301 B	4	1	2F050	G01L   3/10	162	磁歪材料	Magnetostrictive materials
+G01L   3/10 301 D	4	1	2F050	G01L   3/10	192	その製造方法	Manufacturing methods for magnetostrictive materials
+G01L   3/10 301 H	4	0	2F050	G01L   3/10	52	励磁・検出手段	Excitation and detetion means
+G01L   3/10 301 J	4	1	2F050	G01L   3/10	667	励磁・検出手段（コイル）の配置，取付	Arramgement and mounting of excitation and detection means (coils)
+G01L   3/10 301 L	4	1	2F050	G01L   3/10	114	回路	Circuits
+G01L   3/10 301 M	4	2	2F050	G01L   3/10	179	補償用（例、温度、スパン）	for compensation (e.g. temperatures, spans)
+G01L   3/10 301 R	4	0	2F050	G01L   3/10	53	付属装置	Accessories
+G01L   3/10 301 Z	4	0	2F050	G01L   3/10	80	その他（例、用途のみに特徴のあるもの）	Others (e.g. items only characterized by applications
+G01L   3/10 303 \	4	4	2F050	G01L   3/10	6	インダクタンス変化を検出するもの	detecting change in inductance
+G01L   3/10 303 A	4	0	2F050	G01L   3/10	551	回転方向変位を検出するもの	detecting change in rotating direction
+G01L   3/10 303 H	4	0	2F050	G01L   3/10	98	軸方向変位を検出するもの	detecting change in axial displacement
+G01L   3/10 303 Z	4	0	2F050	G01L   3/10	52	その他	Others
+G01L   3/10 305 \	4	4	2F050	G01L   3/10	731	磁石からの磁界変化を検出するもの	detecting change in magnetic field of magnets
+G01L   3/10 311 \	4	4	2F050	G01L   3/10	524	歪みゲージを使用するもの	by use of strain gages
+G01L   3/10 313 \	4	4	2F050	G01L   3/10	45	ポテンショメータを使用するもの	by use of potentimeters
+G01L   3/10 315 \	4	4	2F050	G01L   3/10	90	静電容量変化を測定するもの	mesuring change in capacitance
+G01L   3/10 317 \	4	4	2F050	G01L   3/10	710	位相差を検出するもの	detecting phase difference
+G01L   3/12  \	4	4	2F050	G01L   3/12	194	光電手段を含んでいるもの	involving photoelectric means
+G01L   3/14  \	2	2	2F050	G01L   3/14	23	トルク伝達要素がねじりたわみ軸以外のものからなるもの	wherein the torque-transmitting element is other than a torsionally-flexible shaft
+G01L   3/14  G	2	0	2F050	G01L   3/14	130	歯車伝達	Gear transmission
+G01L   3/14  A	2	1	2F050	G01L   3/14	98	差動歯車	Differential gears
+G01L   3/14  B	2	1	2F050	G01L   3/14	60	はすば歯車，ウオ−ム歯車	Bevel gears, worm gears
+G01L   3/14  H	2	0	2F050	G01L   3/14	52	フエイスカム	Face cams
+G01L   3/14  L	2	0	2F050	G01L   3/14	231	ばね	Springs
+G01L   3/14  M	2	1	2F050	G01L   3/14	56	軸方向コイルバネ	Axial coil springs
+G01L   3/14  Z	2	0	2F050	G01L   3/14	388	その他のもの	Others
+G01L   3/16  \	1	1	2F050	G01L   3/16	22	回転吸収式動力計，例．制動型動力計	Rotary-absorption dynamometers, e.g. of brake type
+G01L   3/16  A	1	0	2F050	G01L   3/16	68	軸受部，揺動部	Bearings, oscillators
+G01L   3/16  B	1	0	2F050	G01L   3/16	34	揺動部の固定	Fixing oscillators
+G01L   3/16  D	1	0	2F050	G01L   3/16	104	吸収トルクの伝達，検出	Transferring or detecting absorption torque
+G01L   3/16  F	1	0	2F050	G01L   3/16	11	縦型	Vertical types
+G01L   3/16  Z	1	0	2F050	G01L   3/16	152	その他	Others
+G01L   3/18  \	2	2	2F050	G01L   3/18	89	機械的に作動されるもの	mechanically actuated
+G01L   3/20  \	2	2	2F050	G01L   3/20	178	流体によって作動されるもの	fluid actuated
+G01L   3/22  \	2	2	2F050	G01L   3/22	12	電気的または磁気的に作動されるもの	electrically or magnetically actuated
+G01L   3/22  A	2	0	2F050	G01L   3/22	66	渦電流型	Eddy current types
+G01L   3/22  B	2	1	2F050	G01L   3/22	77	冷却	Cooling
+G01L   3/22  C	2	0	2F050	G01L   3/22	34	演算型	Processing types
+G01L   3/22  D	2	0	2F050	G01L   3/22	145	吸収動力の制御	Controlling absorbed power
+G01L   3/22  Z	2	0	2F050	G01L   3/22	122	その他のもの	Others
+G01L   3/24  \	1	1	2F050	G01L   3/24	108	動力の値を決定する装置，例．トルクの値と単位時間当りの回転数を測定しかつ同時に掛算することによるもの，けん引力または推進力の大きさと速度との掛算によるもの	Devices for determining the value of power, e.g. by measuring and simultaneously multiplying the values of torque and revolutions per unit of time, by multiplying the values of tractive or propulsive force and velocity
+G01L   3/26  \	1	1	2F050	G01L   3/26	44	効率，すなわち動力の入力と動力の出力との比を測定する装置	Devices for measuring efficiency, i.e. the ratio of power output to power input
+G01L   5/00  \	0	0	2F051	G01L   5/00	111	特定の目的に特に適合した，力，仕事，機械的動力またはトルクを測定する装置または方法［２００６．０１］	Apparatus for or methods of measuring force work mechanical power or torque specially adapted for specific purposes
+G01L   5/00  A	0	0	2F051	G01L   5/00	473	土圧	Earth pressures
+G01L   5/00  B	0	0	2F051	G01L   5/00	166	接点圧	Contact point pressures
+G01L   5/00  C	0	0	2F051	G01L   5/00	160	ローラ接触圧	Roller contact pressures
+G01L   5/00  D	0	0	2F051	G01L   5/00	149	切削力（工作機械における測定装置の配置はＢ２３Ｑ１７／０９）	Cutting forces (arrangements of measuring devices for machine tools B23Q17/09)
+G01L   5/00  E	0	0	2F051	G01L   5/00	62	筆圧	Brush stroking pressures
+G01L   5/00  F	0	0	2F051	G01L   5/00	636	衝撃力	Impact forces
+G01L   5/00  G	0	0	2F051	G01L   5/00	510	摩擦力	Friction forces
+G01L   5/00  K	0	0	2F051	G01L   5/00	1099	軸受	Of bearings
+G01L   5/00  H	0	0	2F051	G01L   5/00	363	電動機のトルク	Torque of electrical motors
+G01L   5/00  J	0	0	2F051	G01L   5/00	163	内燃機関のトルク	Torque of internal combustion engines
+G01L   5/00  L	0	0	2F051	G01L   5/00	159	プレス圧	Pressing pressures
+G01L   5/00  M	0	0	2F051	G01L   5/00	37	ピストンリング面圧	Surface pressures of piston rings
+G01L   5/00  N	0	0	2F051	G01L   5/00	159	カセットテープトルク	Cassette tape torque
+G01L   5/00  Z	0	0	2F051	G01L   5/00	2765	その他のもの	Others
+G01L   5/00 101 \	1	1	2F051	G01L   5/00	97	圧力分布を測定するもの	Measuring pressure distribution
+G01L   5/00 101 A	1	0	2F051	G01L   5/00	159	マイクロカプセルシートによるもの	By microcapsule sheets
+G01L   5/00 101 Z	1	0	2F051	G01L   5/00	2037	その他のもの	Others
+G01L   5/00 103 \	1	1	2F051	G01L   5/00	50	締付力を測定するもの（締付トルクはＧ０１Ｌ５／２４）	Measuring tightening forces (tightening torque G01L5/24)
+G01L   5/00 103 A	1	0	2F051	G01L   5/00	47	シール材の	Of seals
+G01L   5/00 103 B	1	0	2F051	G01L   5/00	303	ボルトの，例．ボルト軸力	Of bolts, e.g., axial tensions of bolts
+G01L   5/00 103 C	1	1	2F051	G01L   5/00	187	音響的手段によるもの	By acoustic means
+G01L   5/00 103 D	1	1	2F051	G01L   5/00	179	歪ゲージを用いるもの	Using strain gauges
+G01L   5/00 103 E	1	1	2F051	G01L   5/00	74	座金型	Washer types
+G01L   5/00 103 F	1	1	2F051	G01L   5/00	64	磁気的手段によるもの	By magnetic means
+G01L   5/00 103 Z	1	0	2F051	G01L   5/00	236	その他のもの	Others
+G01L   5/00 104 \	1	1	2F051	G01L   5/00	67	解放力を測定するもの（スキーのセーフティビンディング用Ｇ０１Ｌ５／０３）	Measuring releasing forces (for safety binding of skiing plates G01L5/03)
+G01L   5/03  \	1	1	2F051	G01L   5/03	19	スキーのセーフティビンディングの解放力を測定するもの	for measuring release force of ski safety bindings
+G01L   5/04  \	1	1	2F051	G01L   5/04	45	可撓性部材，例．ロープ，ケーブル，線条，糸，ベルトまたは帯の張力を測定するもの［２００６．０１］	for measuring tension in flexible members e.g. ropes cables wires threads belts or bands
+G01L   5/04  A	1	0	2F051	G01L   5/04	105	帯状体の幅方向の張力分布を測定するもの	Measuring tension distribution along width of strip materials
+G01L   5/04  B	1	1	2F051	G01L   5/04	82	分割ローラによるもの	By sprit rollers
+G01L   5/04  C	1	1	2F051	G01L   5/04	38	音響的手段によるもの	By acoustic means
+G01L   5/04  F	1	1	2F051	G01L   5/04	22	磁気的手段によるもの	By magnetic means
+G01L   5/04  G	1	0	2F051	G01L   5/04	197	三点ローラ式	Three-point rollers
+G01L   5/04  Z	1	0	2F051	G01L   5/04	497	その他のもの	Others
+G01L   5/06  \	2	2	2F051	G01L   5/06	20	機械的手段を用いるもの	using mechanical means
+G01L   5/06  G	2	0	2F051	G01L   5/06	108	三点ローラ式	Three-point rollers
+G01L   5/06  Z	2	0	2F051	G01L   5/06	258	その他のもの	Others
+G01L   5/08  \	2	2	2F051	G01L   5/08	6	流体を用いるもの	using fluid means
+G01L   5/08  G	2	0	2F051	G01L   5/08	12	三点ローラ式	Three-point rollers
+G01L   5/08  Z	2	0	2F051	G01L   5/08	92	その他のもの	Others
+G01L   5/10  \	2	2	2F051	G01L   5/10	193	電気的手段を用いるもの［２０２０．０１］	using electric means
+G01L   5/10  C	2	0	2F051	G01L   5/10	140	音響的手段によるもの	By acoustic means
+G01L   5/10  F	2	0	2F051	G01L   5/10	92	磁気的手段によるもの	By magnetic means
+G01L   5/10  Z	2	0	2F051	G01L   5/10	571	その他のもの	Others
+G01L   5/101  \	3	3	2F051	G01L   5/101	116	可撓性部材に挿入されたセンサを用いるもの［２０２０．０１］	using sensors inserted into the flexible member
+G01L   5/102  \	3	3	2F051	G01L   5/102	216	可撓性部材の不断部分に取り付けられたセンサを用いるもの［２０２０．０１］	using sensors located at a non-interrupted part of the flexible member
+G01L   5/103  \	3	3	2F051	G01L   5/103	159	可撓性部材の一端に固定されたセンサを用いるもの［２０２０．０１］	using sensors fixed at one end of the flexible member
+G01L   5/105  \	3	3	2F051	G01L   5/105	120	電気光学的手段を用いるもの［２０２０．０１］	using electro-optical means
+G01L   5/106  \	3	3	2F051	G01L   5/106	62	片持ちばりに加えられる反力を測定するためのもの［２０２０．０１］	for measuring a reaction force applied on a cantilever beam
+G01L   5/107  \	3	3	2F051	G01L   5/107	259	二つの支持部材，例．複数のローラまたは滑り，間に配置された要素に加えられる反力を測定するためのもの［２０２０．０１］	for measuring a reaction force applied on an element disposed between two supports e.g. on a plurality of rollers or gliders
+G01L   5/108  \	3	3	2F051	G01L   5/108	148	一つの支持部材，例．滑り，に配置された要素に加えられる反力を測定するためのもの［２０２０．０１］	for measuring a reaction force applied on a single support e.g. a glider
+G01L   5/12  \	1	1	2F051	G01L   5/12	254	回転軸の軸方向押力を測定するもの，例．推進装置におけるもの	for measuring axial thrust in a rotary shaft, e.g. of propulsion plants
+G01L   5/13  \	1	1	2F051	G01L   5/13	276	乗物のけん引力または推進力を測定するもの	for measuring the tractive or propulsive power of vehicles
+G01L   5/14  \	1	1	2F051	G01L   5/14	28	爆発力を測定するもの；発射体のエネルギーを測定するもの	for measuring the force of explosions; for measuring the energy of projectiles
+G01L   5/16  \	1	1	2F051	G01L   5/16	1872	力の複数分力を測定するもの	for measuring several components of force
+G01L   5/161  \	2	2	2F051	G01L   5/161	80	オーム抵抗の変化を用いるもの［２０２０．０１］	using variations in ohmic resistance
+G01L   5/162  \	3	3	2F051	G01L   5/162	864	ピエゾ抵抗を用いるもの［２０２０．０１］	of piezoresistors
+G01L   5/1623  \	3	3	2F051	G01L   5/1623	146	感圧導電体を用いるもの（ピエゾ抵抗を用いるものＧ０１Ｌ５／１６２）［２０２０．０１］	of pressure sensitive conductors (using piezoresistors G01L5/162)
+G01L   5/1627  \	3	3	2F051	G01L   5/1627	640	抵抗ストレンゲージを用いるもの（ピエゾ抵抗を用いるものＧ０１Ｌ５／１６２）［２０２０．０１］	of strain gauges (using piezoresistors G01L5/162)
+G01L   5/163  \	3	3	2F051	G01L   5/163	5	ポテンショメータを用いるもの［２０２０．０１］	of potentiometers
+G01L   5/164  \	2	2	2F051	G01L   5/164	38	インダクタンスの変化を用いるもの［２０２０．０１］	using variations in inductance
+G01L   5/165  \	2	2	2F051	G01L   5/165	333	キャパシタンスの変化を用いるもの［２０２０．０１］	using variations in capacitance
+G01L   5/166  \	2	2	2F051	G01L   5/166	184	光電的手段を用いるもの［２０２０．０１］	using photoelectric means
+G01L   5/167  \	2	2	2F051	G01L   5/167	271	圧電手段を用いるもの［２０２０．０１］	using piezo-electric means
+G01L   5/168  \	2	2	2F051	G01L   5/168	25	平衡力を用いるもの［２０２０．０１］	using counterbalancing forces
+G01L   5/169  \	2	2	2F051	G01L   5/169	156	磁気的手段を用いるもの［２０２０．０１］	using magnetic means
+G01L   5/171  \	2	2	2F051	G01L   5/171	29	流体的手段を用いるもの［２０２０．０１］	using fluid means
+G01L   5/173  \	2	2	2F051	G01L   5/173	109	音響的手段を用いるもの［２０２０．０１］	using acoustic means
+G01L   5/18  \	1	1	2F051	G01L   5/18	12	力の比を測定するもの	for measuring ratios of force
+G01L   5/20  \	1	1	2F051	G01L   5/20	107	車輪の側圧を測定するもの	for measuring wheel side-thrust
+G01L   5/22  \	1	1	2F051	G01L   5/22	708	制御部材，例．乗物の制御部材，引き金，に加えられる力を測定するもの	for measuring the force applied to control members, e.g. control members of vehicles, triggers
+G01L   5/24  \	1	1	2F051	G01L   5/24	523	ナットまたは類似応力が加わるその他の部材を締め付けるトルクまたはねじりモーメントの値を測定するもの	for determining value of torque or twisting moment for tightening a nut or other member which is similarly stressed
+G01L   5/26  \	1	1	2F051	G01L   5/26	30	単位時間当りの回転数に関連したトルク特性を測定するもの	for determining the characteristic of torque in relation to revolutions per unit of time
+G01L   5/28  \	1	1	2F051	G01L   5/28	47	ブレーキを試験するもの	for testing brakes
+G01L   5/28  A	1	0	2F051	G01L   5/28	162	ローラ駆動型	Roller-driving
+G01L   5/28  Z	1	0	2F051	G01L   5/28	328	その他のもの	Others
+G01L   7/00  \	0	0	2F055	G01L   7/00	206	機械的または流体的感圧素子による流体または流動性固体の定常圧または準定常圧の測定（電気的または磁気的手段による機械的感圧素子の変位の伝達または指示Ｇ０１Ｌ９／００；２以上の圧力の差の測定Ｇ０１Ｌ１３／００；２以上の圧力の同時測定Ｇ０１Ｌ１５／００）	Measuring the steady or quasi-steady pressure of a fluid or a fluent solid material by mechanical or fluid pressure-sensitive elements (transmitting or indicating the displacement of mechanical pressure-sensitive elements by electric or magnetic means G01L 9/00; measuring differences of two or more pressure values G01L 13/00; measuring two or more pressure values simultaneously G01L 15/00)
+G01L   7/00  A	0	0	2F055	G01L   7/00	291	特定個所の圧力測定	Measuring pressures at specific positions
+G01L   7/00  B	0	1	2F055	G01L   7/00	91	間隙水圧	Gap water pressures
+G01L   7/00  C	0	1	2F055	G01L   7/00	209	身体	Bodies
+G01L   7/00  D	0	1	2F055	G01L   7/00	215	管内圧力	Pipe pressures
+G01L   7/00  E	0	0	2F055	G01L   7/00	79	圧力の測定原理	Principles for measuring pressures
+G01L   7/00  F	0	1	2F055	G01L   7/00	84	力平衝式	Force balanced types
+G01L   7/00  G	0	2	2F055	G01L   7/00	40	電気的	Electrical
+G01L   7/00  H	0	1	2F055	G01L   7/00	43	沈鐘式：重錘式	Bell types: weight types
+G01L   7/00  J	0	0	2F055	G01L   7/00	127	絶対圧	Absolute pressures
+G01L   7/00  K	0	0	2F055	G01L   7/00	96	圧力変動率	Pressure fluctuations
+G01L   7/00  L	0	0	2F055	G01L   7/00	98	特殊流体用	For special fluids
+G01L   7/00  M	0	0	2F055	G01L   7/00	35	静圧	Static pressures
+G01L   7/00  N	0	0	2F055	G01L   7/00	36	動圧	Dynamic pressures
+G01L   7/00  P	0	0	2F055	G01L   7/00	91	大気圧	Atmospheric pressures
+G01L   7/00  Q	0	0	2F055	G01L   7/00	5	超高圧	Very high pressures
+G01L   7/00  R	0	0	2F055	G01L   7/00	37	微少圧	Minute pressures
+G01L   7/00  S	0	0	2F055	G01L   7/00	36	風圧	Wind pressures
+G01L   7/00  T	0	0	2F055	G01L   7/00	14	平均	Averages
+G01L   7/00  U	0	0	2F055	G01L   7/00	40	最大・最小	Maximum or minimum
+G01L   7/00  V	0	0	2F055	G01L   7/00	29	圧力比	Pressure ratios
+G01L   7/00  Z	0	0	2F055	G01L   7/00	289	その他のもの	Others
+G01L   7/02  \	1	1	2F055	G01L   7/02	89	弾性的変形可能のゲージ形式によるもの	in the form of elastically-deformable gauges
+G01L   7/04  \	2	2	2F055	G01L   7/04	599	可撓変形管形式によるもの，例．ブルドン管圧力計	in the form of flexible, deformable tubes, e.g. Bourdon gauges
+G01L   7/06  \	2	2	2F055	G01L   7/06	226	ベローズ型	of the bellows type
+G01L   7/08  \	2	2	2F055	G01L   7/08	648	ダイアフラム型	of the flexible-diaphragm type
+G01L   7/10  \	2	2	2F055	G01L   7/10	312	カプセル型	of the capsule type
+G01L   7/12  \	3	3	2F055	G01L   7/12	29	排気室をもつもの；アネロイド気圧計	with exhausted chamber; Aneroid barometers
+G01L   7/14  \	4	4	2F055	G01L   7/14	4	零点調整手段をもつもの	with zero-setting means
+G01L   7/16  \	1	1	2F055	G01L   7/16	255	ピストン形式によるもの	in the form of pistons
+G01L   7/18  \	1	1	2F055	G01L   7/18	553	感圧媒体として液体を使用するもの，例．液柱ゲージ	using liquid as the pressure-sensitive medium, e.g. liquid-column gauges
+G01L   7/20  \	2	2	2F055	G01L   7/20	18	液面上に，密閉真空室または低圧ガス室のあるもの；液柱気圧計	involving a closed chamber above the liquid level, the chamber being exhausted or housing low-pressure gas; Liquid barometers
+G01L   7/22  \	2	2	2F055	G01L   7/22	23	フロートをもつもの，例．浮動ベル	involving floats, e.g. floating bells
+G01L   7/24  \	2	2	2F055	G01L   7/24	56	部分的に液体を満した環状体の平衡によるもの	involving balances in the form of rings partly filled with liquid
+G01L   9/00  \	0	0	2F055	G01L   9/00	227	電気的または磁気的感圧素子による流体または流動性固体の定常圧または準定常圧の測定；流体または流動性固体の定常圧または準定常圧の測定に用いられる機械的感圧素子の変位の電気的または磁気的手段による伝達または指示（２つ以上の圧力の差の測定Ｇ０１Ｌ１３／００；２つ以上の圧力の同時測定Ｇ０１Ｌ１５／００）	Measuring steady or quasi-steady pressure of a fluid or a fluent solid material by electric or magnetic pressure-sensitive elements; Transmitting or indicating the displacement of mechanical pressure-sensitive elements, used to measure the steady or quasi-steady pressure of a fluid or fluent solid material, by electric or magnetic means (measuring differences of two or more pressure values G01L 13/00; measuring two or more pressure values simultaneously G01L 15/00)
+G01L   9/00  A	0	0	2F055	G01L   9/00	126	表面弾性波を利用するもの	Using of surface acoustic waves
+G01L   9/00  B	0	0	2F055	G01L   9/00	523	変位を光学的手段により検出するもの	Detecting displacements by optical means
+G01L   9/00  C	0	0	2F055	G01L   9/00	720	振動を用いるもの	Using of vibrations
+G01L   9/00  D	0	0	2F055	G01L   9/00	223	スイツチを用いるもの	Using of switches
+G01L   9/00  E	0	0	2F055	G01L   9/00	391	回路に関するもの	Related to circuits
+G01L   9/00  Z	0	0	2F055	G01L   9/00	692	その他のもの	Others
+G01L   9/00 301 \	1	1	2F055	G01L   9/00	0	感圧素子として半導体を使用するもの（３０３〜３０９優先）	by use of semiconductors as pressure sensitive elements (303 to 309 take precedence)
+G01L   9/00 301 A	1	0	2F055	G01L   9/00	119	検知手段によらない素子の製造方法	Manufacrturing methods for non-senseing type elements
+G01L   9/00 301 G	1	0	2F055	G01L   9/00	93	圧力センサチップの基板への取付け構造	Strutures for mounting pressure sensor chips to substrates
+G01L   9/00 301 H	1	1	2F055	G01L   9/00	21	固定部の形状	Shapes of fixing portions
+G01L   9/00 301 J	1	1	2F055	G01L   9/00	25	リード，パターン	Leads, patterns
+G01L   9/00 301 Z	1	0	2F055	G01L   9/00	174	その他	Others
+G01L   9/00 303 \	2	2	2F055	G01L   9/00	5	半導体基板上に抵抗層を形成したもの	Semiconductor substrates having resistive layers on them
+G01L   9/00 303 A	2	0	2F055	G01L   9/00	552	素子自体の構造	Structures of elements
+G01L   9/00 303 B	2	1	2F055	G01L   9/00	111	ダイアフラム形状	Shapes of diaphragms
+G01L   9/00 303 C	2	2	2F055	G01L   9/00	142	起歪部の断面形状に特徴	characterized by cross sectional shapes of strained portions
+G01L   9/00 303 D	2	2	2F055	G01L   9/00	46	起歪部の平面形状に特徴	characterized by planar shpapes of strained portions
+G01L   9/00 303 E	2	1	2F055	G01L   9/00	189	ピエゾ抵抗の配置、例　結晶面との関係	Arrangement of piezoresistances, e.g. relationship with crystal plane
+G01L   9/00 303 F	2	1	2F055	G01L   9/00	524	素子の製造方法	Manufacturing methods for elements
+G01L   9/00 303 G	2	2	2F055	G01L   9/00	108	２枚以上の半導体基板の接合	Junction of two or more semiconductor substrates
+G01L   9/00 303 H	2	2	2F055	G01L   9/00	411	電極等の回路の形成	Formation of circuits, e.g. electrodes
+G01L   9/00 303 J	2	0	2F055	G01L   9/00	705	素子の支持、固定、接続構造	Element support, fixing and connecting structures
+G01L   9/00 303 K	2	1	2F055	G01L   9/00	192	素子と固定部材（例；台座、ステム）の接合構造	Structures for joint between elements and fixing members (e.g. pedestals, stems)
+G01L   9/00 303 L	2	2	2F055	G01L   9/00	289	熱応力対策	Countermeasures against thermal stress
+G01L   9/00 303 M	2	1	2F055	G01L   9/00	465	電気的接続構造（リード配置等）	Electrical connection structures (e.g. arrangement of leads)
+G01L   9/00 303 N	2	1	2F055	G01L   9/00	857	圧力導入部との接続構造	Structrues for connection with pressure lead-in
+G01L   9/00 303 P	2	1	2F055	G01L   9/00	304	ハウジング構造	Housing structrues
+G01L   9/00 303 Q	2	0	2F055	G01L   9/00	133	その他の付属部（シールド構造等）	Other supplementary portions (e.g. shield structures)
+G01L   9/00 303 S	2	0	2F055	G01L   9/00	253	測定回路	Measuring circuits
+G01L   9/00 303 T	2	1	2F055	G01L   9/00	495	補償用	for compensation
+G01L   9/00 303 U	2	1	2F055	G01L   9/00	90	故障、診断回路	Failure, diagnostic circuits
+G01L   9/00 303 Z	2	0	2F055	G01L   9/00	125	その他	Others
+G01L   9/00 305 \	2	2	2F055	G01L   9/00	0	容量変化を利用するもの	by use of change in capacitance
+G01L   9/00 305 A	2	0	2F055	G01L   9/00	254	素子自体の構造	Element structures
+G01L   9/00 305 B	2	1	2F055	G01L   9/00	118	製造方法に関するもの	related to manufacturing methods
+G01L   9/00 305 C	2	2	2F055	G01L   9/00	113	特殊なエッチング手段（犠牲層の利用等）	Special etching method (e.g. use of sacrifice layers)
+G01L   9/00 305 D	2	2	2F055	G01L   9/00	44	素子同士の接合手段	Coupling means for elements
+G01L   9/00 305 G	2	1	2F055	G01L   9/00	249	電極配置について	related to arrangement of electrodes
+G01L   9/00 305 H	2	0	2F055	G01L   9/00	114	固定、収納構造に関するもの	related to fixing and housing structures
+G01L   9/00 305 S	2	0	2F055	G01L   9/00	18	測定回路	Measuring circuits
+G01L   9/00 305 T	2	1	2F055	G01L   9/00	19	補償用	for compensation
+G01L   9/00 305 U	2	1	2F055	G01L   9/00	10	故障、診断回路	Failure, diagnostic circuits
+G01L   9/00 305 Z	2	0	2F055	G01L   9/00	37	その他	Others
+G01L   9/00 307 \	2	2	2F055	G01L   9/00	163	振動梁によるもの	by use of vibration members
+G01L   9/00 309 \	2	2	2F055	G01L   9/00	164	その他、半導体の特殊性を利用しもの、例　ＦＥＴによるもの	by use of other special properties of semiconductors, e.g. FET
+G01L   9/02  \	1	1	2F055	G01L   9/02	202	オーム抵抗の，例．ポテンショメータの，変化を利用するもの	by making use of variations in ohmic resistance, e.g. of potentiometers
+G01L   9/04  \	2	2	2F055	G01L   9/04	870	抵抗ストレンゲージを使用するもの	of resistance strain gauges
+G01L   9/06  \	2	2	2F055	G01L   9/06	193	圧電―抵抗装置を使用するもの	of piezo-resistive devices
+G01L   9/08  \	1	1	2F055	G01L   9/08	592	圧電装置を利用するもの	by making use of piezo-electric devices
+G01L   9/10  \	1	1	2F055	G01L   9/10	255	インダクタンスの変化を利用するもの	by making use of variations in inductance
+G01L   9/12  \	1	1	2F055	G01L   9/12	1751	容量の変化を利用するもの	by making use of variations in capacitance
+G01L   9/14  \	1	1	2F055	G01L   9/14	190	磁石，例．電磁石，の変位によるもの	involving the displacement of magnets, e.g. electromagnets
+G01L   9/16  \	1	1	2F055	G01L   9/16	286	応力の印加による物質の磁気特性の変化を利用するもの	by making use of variations in the magnetic properties of material resulting from the application of stress
+G01L   9/18  \	1	1	2F055	G01L   9/18	6	動電セル，すなわち応力の印加によって電圧が誘起または変化する含液セル，を使用するもの	by making use of electrokinetic cells, i.e. liquid-containing cells wherein an electric potential is produced or varied upon the application of stress
+G01L  11/00  \	0	0	2F055	G01L  11/00	79	グループＧ０１Ｌ７／００またはＧ０１Ｌ９／００に分類されない手段による流体，または流動性固体の定常圧あるいは準定常圧の測定	Measuring steady or quasi-steady pressure of a fluid or a fluent solid material by means not provided for in group G01L 7/00 or G01L 9/00
+G01L  11/00  A	0	0	2F055	G01L  11/00	317	密封容器内の圧力測定	Measuring pressures in sealed containers
+G01L  11/00  T	0	0	2F055	G01L  11/00	17	熱的手段によるもの	with thermal methods
+G01L  11/00  Z	0	0	2F055	G01L  11/00	204	その他のもの	Others
+G01L  11/02  \	1	1	2F055	G01L  11/02	299	光学的手段によるもの［６］	by optical means [6]
+G01L  11/04  \	1	1	2F055	G01L  11/04	22	音波的手段によるもの［６］	by acoustic means [6]
+G01L  11/06  \	2	2	2F055	G01L  11/06	44	超音波手段［６］	Ultrasonic means [6]
+G01L  13/00  \	0	0	2F055	G01L  13/00	45	２以上の流体圧力の差を測定する装置	Devices or apparatus for measuring differences of two or more fluid pressure values
+G01L  13/00  A	0	0	2F055	G01L  13/00	224	細部	Details
+G01L  13/00  B	0	0	2F055	G01L  13/00	195	付属	Accessories
+G01L  13/00  C	0	0	2F055	G01L  13/00	137	特定用途	Specific applications
+G01L  13/00  D	0	0	2F055	G01L  13/00	53	力平衡式	Force balanced types
+G01L  13/00  Z	0	0	2F055	G01L  13/00	286	その他のもの	Others
+G01L  13/02  \	1	1	2F055	G01L  13/02	215	感圧素子として弾性的に変形可能な部材またはピストンを用いるもの	using elastically-deformable members or pistons as sensing elements
+G01L  13/02  A	1	0	2F055	G01L  13/02	159	受圧ダイアフラムによる封液	Liquid sealing by use of pressure receiving diaphragams
+G01L  13/02  B	1	1	2F055	G01L  13/02	40	受圧ダイアフラムの構造	Structures of pressure receiving diaphragms
+G01L  13/02  C	1	1	2F055	G01L  13/02	44	シール構造	Sealing structures
+G01L  13/02  Z	1	0	2F055	G01L  13/02	77	その他	Others
+G01L  13/04  \	1	1	2F055	G01L  13/04	25	感圧素子としてフロートまたは液体を用いるもの	using floats or liquids as sensing elements
+G01L  13/06  \	1	1	2F055	G01L  13/06	107	電気的または磁気的感圧素子を用いるもの	using electric or magnetic pressure-sensitive elements
+G01L  13/06  C	1	0	2F055	G01L  13/06	275	静電容量式	Capacitance types
+G01L  13/06  L	1	0	2F055	G01L  13/06	38	インダクタンス式	Inductance types
+G01L  13/06  R	1	0	2F055	G01L  13/06	318	電気抵抗変化	Electric resistance types
+G01L  13/06  Z	1	0	2F055	G01L  13/06	172	その他	Others
+G01L  15/00  \	0	0	2F055	G01L  15/00	102	２以上の流体圧力を同時に測定する装置	Devices or apparatus for measuring two or more fluid pressure values simultaneously
+G01L  17/00  \	0	0	2F055	G01L  17/00	82	タイヤ内圧またはその他の膨脹体の内圧を測定する装置	Devices or apparatus for measuring tyre pressure or the pressure in other inflated bodies
+G01L  17/00 301 \	1	1	2F055	G01L  17/00	5	車両用タイヤの空気圧を測定するもの	Measuring vehicle tire inflation pressrues
+G01L  17/00 301 A	1	0	2F055	G01L  17/00	40	車体に組み込んだもの	Devices assembled into vehicles
+G01L  17/00 301 B	1	1	2F055	G01L  17/00	149	検出手段	Detection means
+G01L  17/00 301 C	1	2	2F055	G01L  17/00	75	測定回路に関するもの	related to measuring circuits
+G01L  17/00 301 G	1	2	2F055	G01L  17/00	361	圧力以外の物理量から演算するもの	Executing operations by use of physical properties other than pressure
+G01L  17/00 301 L	1	2	2F055	G01L  17/00	226	検出器の取り付け、配置	Mounting, arrangement of detectors
+G01L  17/00 301 N	1	1	2F055	G01L  17/00	31	測定信号の伝送、表示	Transmission, indication of measured signals
+G01L  17/00 301 P	1	2	2F055	G01L  17/00	885	無線伝送	Radio transmission
+G01L  17/00 301 Q	1	2	2F055	G01L  17/00	194	警報	Alarms
+G01L  17/00 301 V	1	0	2F055	G01L  17/00	43	車体外よりタイヤ空気圧を測定ないし推定するもの	Estimating tire inflation pressures from outside of vehicles
+G01L  17/00 301 Z	1	0	2F055	G01L  17/00	43	その他	Others
+G01L  19/00  \	0	0	2F055	G01L  19/00	111	流動体の定常圧または準定常圧測定装置の細部または付属品であって，特定形式の圧力計に限定されないもの	Details of, or accessories for, apparatus for measuring steady or quasi-steady pressure of a fluent medium insofar as such details or accessories are not special to particular types of pressure gauges
+G01L  19/00  A	0	0	2F055	G01L  19/00	773	圧力導入部	Pressure intakes
+G01L  19/00  B	0	0	2F055	G01L  19/00	195	元弁・切替弁	Source valves or switching valves
+G01L  19/00  Z	0	0	2F055	G01L  19/00	856	その他のもの	Others
+G01L  19/00 101 \	1	1	2F055	G01L  19/00	353	圧力計の支持を兼ねた被測定流体の導入部	Intakes for liquids to be measured that also function as pressure gage supports
+G01L  19/02  \	1	1	2F055	G01L  19/02	92	測定装置の傾斜または加速度の影響を防止または補償する装置；零点調整手段（アネロイド気圧計用Ｇ０１Ｌ７／１４）	Arrangements for preventing, or for compensating for, effects of inclination or acceleration of the measuring device; Zero-setting means (for aneroid barometers G01L 7/14)
+G01L  19/04  \	1	1	2F055	G01L  19/04	908	温度変化の影響を補償する手段	Means for compensating for effects of changes of temperature
+G01L  19/06  \	1	1	2F055	G01L  19/06	86	過負荷または被測定体が測定装置におよぼすあるいはその逆におよぼす悪影響を防止する手段	Means for preventing overload or deleterious influence of the measured medium on the measuring device or <u>vice versa</u>
+G01L  19/06  A	1	0	2F055	G01L  19/06	765	隔液：受圧部	Isolating liquids: pressure receiving units
+G01L  19/06  Z	1	0	2F055	G01L  19/06	624	その他のもの	Others
+G01L  19/06 101 \	2	2	2F055	G01L  19/06	230	脈圧を緩衝するもの	Dampening pulsating pressures
+G01L  19/06 102 \	2	2	2F055	G01L  19/06	206	過圧を遮断するもの	Shutting off excessive pressures
+G01L  19/08  \	1	1	2F055	G01L  19/08	493	指示または記録手段，例．遠隔指示のためのもの	Means for indicating or recording, e.g. for remote indication
+G01L  19/10  \	2	2	2F055	G01L  19/10	52	機械的なもの	mechanical
+G01L  19/12  \	2	2	2F055	G01L  19/12	164	警報または信号	Alarms or signals
+G01L  19/12  A	2	0	2F055	G01L  19/12	38	被測定対象の異常警報	Alarms on abnormal measured objects
+G01L  19/12  H	2	0	2F055	G01L  19/12	23	センサ自体の異常警報	Alarms on abnormal sensors
+G01L  19/12  J	2	1	2F055	G01L  19/12	103	異常検出手段	Abnromal event detection means
+G01L  19/12  Z	2	0	2F055	G01L  19/12	27	その他	Others
+G01L  19/14  \	1	1	2F055	G01L  19/14	1519	ハウジング	Housings
+G01L  19/16  \	1	1	2F055	G01L  19/16	24	ダイアル；その取付け	Dials; Mounting of dials
+G01L  21/00  \	0	0	2F055	G01L  21/00	73	真空計	Vacuum gauges
+G01L  21/00  A	0	0	2F055	G01L  21/00	155	特定対象物の真空度「真空遮断器用」	Vacuum pressures of particular objects for vacuum shutters
+G01L  21/00  Z	0	0	2F055	G01L  21/00	287	その他のもの	Others
+G01L  21/02  \	1	1	2F055	G01L  21/02	4	被測圧ガスを圧縮する圧縮室をもつもの	having a compression chamber in which gas, whose pressure is to be measured, is compressed
+G01L  21/04  \	2	2	2F055	G01L  21/04	47	圧縮室が液体によって閉じられているもの；マクレオド型真空計	wherein the chamber is closed by liquid; Vacuum gauges of the McLeod type
+G01L  21/06  \	3	3	2F055	G01L  21/06	11	測定装置の回転または反転によって作動されるもの	actuated by rotating or inverting the measuring device
+G01L  21/08  \	1	1	2F055	G01L  21/08	13	被測圧媒体を通る音波の伝達状態の変化の測定によるもの	by measuring variations in the transmission of acoustic waves through the medium, the pressure of which is to be measured
+G01L  21/10  \	1	1	2F055	G01L  21/10	51	被測圧媒体の熱伝導率の変化の測定によるもの	by measuring variations in the heat conductivity of the medium, the pressure of which is to be measured
+G01L  21/12  \	2	2	2F055	G01L  21/12	202	測定部材，例．フィラメント，の電気抵抗の変化を測定するもの；ピラニ型真空計	measuring changes in electric resistance of measuring members, e.g. of filaments; Vacuum gauges of the Pirani type
+G01L  21/14  \	2	2	2F055	G01L  21/14	23	熱電対を用いるもの	using thermocouples
+G01L  21/16  \	1	1	2F055	G01L  21/16	12	ガスの摩擦抵抗の変化の測定によるもの	by measuring variation of frictional resistance of gases
+G01L  21/18  \	2	2	2F055	G01L  21/18	2	振り子を用いるもの	using a pendulum
+G01L  21/20  \	2	2	2F055	G01L  21/20	2	垂直軸のまわりに振動する部材を用いるもの	using members oscillating about a vertical axis
+G01L  21/22  \	2	2	2F055	G01L  21/22	59	振動体の共振効果を利用するもの；クラム型真空計	using resonance effects of a vibrating body; Vacuum gauges of the Klumb type
+G01L  21/24  \	2	2	2F055	G01L  21/24	5	回転部材を用いるもの；ラングミュアー型真空計	using rotating members; Vacuum gauges of the Langmuir type
+G01L  21/26  \	1	1	2F055	G01L  21/26	5	輻射計の機能，すなわちホッタからクーラへ流れる分子の運動量によって発生する圧力，を利用するもの；クヌードセン型真空計	by making use of radiometer action, i.e. of the pressure caused by the momentum of molecules passing from a hotter to a cooler member; Vacuum gauges of the Knudsen type
+G01L  21/28  \	2	2	2F055	G01L  21/28	0	ねじり回転測定部材を用いるもの	using torsional rotary measuring members
+G01L  21/30  \	1	1	2F055	G01L  21/30	45	イオン化効果を利用するもの	by making use of ionisation effects
+G01L  21/30  A	1	0	2F055	G01L  21/30	73	電離・放電を用いた特定分野における真空度の測定	Measuring vacuum pressures in particular fields using of ionisation or discharging
+G01L  21/30  Z	1	0	2F055	G01L  21/30	88	その他のもの	Others
+G01L  21/32  \	2	2	2F055	G01L  21/32	216	熱陰極放電管を用いるもの	using electric discharge tubes with thermionic cathodes
+G01L  21/34  \	2	2	2F055	G01L  21/34	188	冷陰極放電管を用いるもの	using electric discharge tubes with cold cathodes
+G01L  21/36  \	2	2	2F055	G01L  21/36	8	放射性物質を用いるもの	using radioactive substances
+G01L  23/00  \	0	0	2F055	G01L  23/00	244	蒸気，ガス，または液体の圧力における振動のような急激な変化を測定，指示または記録する装置；作業流体の状態から蒸気機関，内燃機関またはその他の流体圧機関の仕事またはエネルギーを決定する指示器	Devices or apparatus for measuring or indicating or recording rapid changes, such as oscillations, in the pressure of steam, gas, or liquid; Indicators for determining work or energy of steam, internal-combustion, or other fluid-pressure engines from the condition of the working fluid
+G01L  23/02  \	1	1	2F055	G01L  23/02	85	負荷または復帰スプリングを含む機械的指示または記録	mechanically indicating or recording and involving loaded or return springs
+G01L  23/04  \	1	1	2F055	G01L  23/04	16	既知反作用圧の支配を受ける手段を含むもの	involving means subjected to known counteracting pressure
+G01L  23/06  \	1	1	2F055	G01L  23/06	24	光学的手段による指示または記録	Indicating or recording by optical means
+G01L  23/08  \	1	1	2F055	G01L  23/08	140	電気的に作動するもの	operated electrically
+G01L  23/10  \	2	2	2F055	G01L  23/10	647	圧電型の感圧部材によるもの	by pressure-sensitive members of the piezo-electric type
+G01L  23/12  \	2	2	2F055	G01L  23/12	16	容量またはインダクタンスの変化によるもの	by changing capacitance or inductance
+G01L  23/14  \	2	2	2F055	G01L  23/14	13	電磁的素子によるもの	by electromagnetic elements
+G01L  23/16  \	2	2	2F055	G01L  23/16	10	光電的手段によるもの	by photoelectric means
+G01L  23/18  \	2	2	2F055	G01L  23/18	191	抵抗ストレンゲージによるもの	by resistance strain gauges
+G01L  23/20  \	1	1	2F055	G01L  23/20	46	面積計または積分器と結合したもの	combined with planimeters or integrators
+G01L  23/22  \	1	1	2F055	G01L  23/22	1070	内燃機関のノックを検出または指示するもの；内燃機関を点火する点火栓と組み合わされた感圧部材をもつユニット	for detecting or indicating knocks in internal-combustion engines; Units comprising pressure-sensitive members combined with ignitors for firing internal-combustion engines
+G01L  23/24  \	1	1	2F055	G01L  23/24	398	内燃機関の吸気または排気ダクトの圧力を測定するもの	for measuring pressure in inlet or exhaust ducts of internal-combustion engines
+G01L  23/26  \	1	1	2F055	G01L  23/26	157	細部または付属品	Details or accessories
+G01L  23/28  \	2	2	2F055	G01L  23/28	35	冷却手段	Cooling means
+G01L  23/30  \	2	2	2F055	G01L  23/30	55	指圧計と組み合わされた内燃機関のピストンまたはクランクの連続的位置指示手段	Means for indicating consecutively positions of pistons or cranks of internal-combustion engines in combination with pressure indicators
+G01L  23/32  \	2	2	2F055	G01L  23/32	31	指示計で測定された圧力変化の記録に特に適合する装置	Apparatus specially adapted for recording pressure changes measured by indicators
+G01L  25/00  \	0	0	2F049	G01L  25/00	43	力，トルク，仕事，機械的動力または機械的効率を測定する装置の試験または較正［２］	Testing or calibrating of apparatus for measuring force, torque, work, mechanical power, or mechanical efficiency [2]
+G01L  25/00  A	0	0	2F049	G01L  25/00	202	試験	Testing
+G01L  25/00  B	0	0	2F049	G01L  25/00	257	較正	Calibrating
+G01L  25/00  C	0	1	2F049	G01L  25/00	167	トルク測定装置の	Of Torque measurement devices
+G01L  25/00  D	0	2	2F049	G01L  25/00	64	動力計の	Of power meters
+G01L  25/00  Z	0	0	2F049	G01L  25/00	53	その他のもの	Others
+G01L  27/00  \	0	0	2F055	G01L  27/00	885	流体圧力測定装置の試験または較正［２］	Testing or calibrating of apparatus for measuring fluid pressure [2]
+G01L  27/02  \	1	1	2F055	G01L  27/02	49	指示器の	of indicators

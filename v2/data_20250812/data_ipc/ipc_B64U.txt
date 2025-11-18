@@ -1,0 +1,157 @@
+B64U  10/00		ＵＡＶの種類［２０２３．０１］	Type of UAV	236
+B64U  10/10	・	回転翼航空機［２０２３．０１］	Rotorcrafts	363
+B64U  10/11	・・	オートジャイロ［２０２３．０１］	Autogyros	155
+B64U  10/13	・・	フライングプラットフォーム［２０２３．０１］	Flying platforms	1887
+B64U  10/14	・・・	４つの別個の回転翼軸を有するもの，例．クアッドコプター［２０２３．０１］	with four distinct rotor axes, e.g. quadcopters	5151
+B64U  10/16	・・・	５つ以上の別個の回転翼軸を有するもの，例．オクトコプター［２０２３．０１］	with five or more distinct rotor axes, e.g. octocopters	944
+B64U  10/17	・・	ヘリコプター（フライングプラットフォームＢ６４Ｕ１０／１３）［２０２３．０１］	Helicopters(flying platforms B64U10/13)	358
+B64U  10/20	・	垂直離着陸［ＶＴＯＬ］航空機（フライングプラットフォームＢ６４Ｕ１０／１３；ヘリコプターＢ６４Ｕ１０／１７）［２０２３．０１］	Vertical take-off and landing [VTOL] aircraft(flying platforms B64U10/13; helicopters B64U10/17)	466
+B64U  10/25	・	固定翼航空機（ＶＴＯＬ航空機Ｂ６４Ｕ１０／２０）［２０２３．０１］	Fixed-wing aircraft(VTOL aircraft B64U10/20)	630
+B64U  10/30	・	軽航空機，例．空気静圧による航空機［２０２３．０１］	Lighter-than-air aircraft, e.g. aerostatic aircraft	67
+B64U  10/40	・	羽ばたき機［２０２３．０１］	Ornithopters	178
+B64U  10/50	・	グライダ型ＵＡＶ，例．パラシュート、パラセールまたはカイトを有するもの（着陸のためのものＢ６４Ｕ７０／８３）［２０２３．０１］	Glider-type UAVs, e.g. with parachute, parasail or kite(for landing B64U70/83)	48
+B64U  10/60	・	繋留されている航空機［２０２３．０１］	Tethered aircraft	239
+B64U  10/70	・	転換式航空機、例．陸上車両に転換可能なもの［２０２３．０１］	Convertible aircraft, e.g. convertible into land vehicles	372
+B64U  10/80	・	大きさが小さいことを特徴とするＵＡＶ，例．マイクロエアビークル［ＭＡＶ］［２０２３．０１］	UAVs characterised by their small size, e.g. micro air vehicles [MAV]	69
+B64U  20/00		ＵＡＶの構造上の観点（揚力発生手段のものＢ６４Ｕ３０／００）［２０２３．０１］	Constructional aspects of UAVs(of lift-producing means B64U30/00)	411
+B64U  20/10	・	ステルスのためのもの，例．レーダーによる断面情報の捕捉を困難にするもの［２０２３．０１］	for stealth, e.g. reduction of cross-section detectable by radars	30
+B64U  20/20	・	消音のためのもの［２０２３．０１］	for noise reduction	34
+B64U  20/30	・	安全のためのもの，例．壊れやすい構成部品を用いるもの（回転翼ガードＢ６４Ｕ３０／２９９）［２０２３．０１］	for safety, e.g. with frangible components(rotor guards B64U30/299)	1310
+B64U  20/40	・	モジュール型ＵＡＶ［２０２３．０１］	Modular UAVs	115
+B64U  20/50	・	折り畳み可能な，または組み立て可能なＵＡＶ（壊れやすい構成部品を用いるものＢ６４Ｕ２０／３０）［２０２３．０１］	Foldable or collapsible UAVs(with frangible components B64U20/30)	592
+B64U  20/60	・	材料に特徴のあるＵＡＶ［２０２３．０１］	UAVs characterised by the material	52
+B64U  20/65	・・	複合材料［２０２３．０１］	Composite materials	59
+B64U  20/70	・	ＵＡＶ本体の構造上の観点［２０２３．０１］	Constructional aspects of the UAV body	715
+B64U  20/73	・・	モノコック構造の本体［２０２３．０１］	Monocoque body	12
+B64U  20/75	・・	繋げた外殻で，またはシャシを覆う外殻で形成される本体［２０２３．０１］	the body formed by joined shells or by a shell overlaying a chassis	32
+B64U  20/77	・・	翼または回転翼の支持体と一体形成されている本体［２０２３．０１］	the body being formed integrally with wings or rotor supports	24
+B64U  20/80	・	機内電子機器の配置，　例．アビオニクスシステムまたは配線，［２０２３．０１］	Arrangement of on-board electronics, e.g. avionics systems or wiring	3041
+B64U  20/83	・・	航空機の構成要素と構造的に一体化した電子構成部品，例．回路基板付き荷箱［２０２３．０１］	Electronic components structurally integrated with aircraft elements, e.g. circuit boards carrying loads	153
+B64U  20/87	・・	撮像装置の取り付け，例．ジンバルの取り付け［２０２３．０１］	Mounting of imaging devices, e.g. mounting of gimbals	4317
+B64U  20/90	・	冷却［２０２３．０１］	Cooling	90
+B64U  20/92	・・	アビオニクスの［２０２３．０１］	of avionics	156
+B64U  20/94	・・	回転翼または回転翼のモーターの［２０２３．０１］	of rotors or rotor motors	52
+B64U  20/96	・・	空気を利用するもの［２０２３．０１］	using air	227
+B64U  20/98	・・	液体を利用するもの，例．潤滑油を用いるもの［２０２３．０１］	using liquid, e.g. using lubrication oil	80
+B64U  30/00		揚力発生手段；尾翼；尾翼の配置［２０２３．０１］	Means for producing lift; Empennages; Arrangements thereof	43
+B64U  30/10	・	翼［２０２３．０１］	Wings	407
+B64U  30/12	・・	可変翼または　取り外し可能翼，例．調整可能な羽根が付いた翼［２０２３．０１］	Variable or detachable wings, e.g. wings with adjustable sweep	250
+B64U  30/14	・・・	取り外し可能な［２０２３．０１］	detachable	82
+B64U  30/16	・・・	ＵＡＶの本体に沿って移動可能なもの［２０２３．０１］	movable along the UAV body	83
+B64U  30/20	・	回転翼；回転翼の支持体［２０２３．０１］	Rotors; Rotor supports	434
+B64U  30/21	・・	回転翼［２０２３．０１］	Rotary wings	106
+B64U  30/24	・・	同軸回転翼［２０２３．０１］	Coaxial rotors	203
+B64U  30/26	・・	ダクト付き回転翼または，シュラウド付き回転翼［２０２３．０１］	Ducted or shrouded rotors	238
+B64U  30/27	・・	リム駆動の回転翼［２０２３．０１］	Rim-driven rotors	4
+B64U  30/29	・・	回転翼または回転翼の支持体の構造上の観点；回転翼または回転翼の支持体の配置［２０２３．０１］	Constructional aspects of rotors or rotor supports; Arrangements thereof	404
+B64U  30/291	・・・	取り外し可能な回転翼または回転翼の支持体［２０２３．０１］	Detachable rotors or rotor supports	132
+B64U  30/292	・・・・	クイックリリースに特に適した回転翼または回転翼の支持体［２０２３．０１］	Rotors or rotor supports specially adapted for quick release	121
+B64U  30/293	・・・	折り畳み可能な，または組み立て可能な回転翼または回転翼の支持体［２０２３．０１］	Foldable or collapsible rotors or rotor supports	719
+B64U  30/294	・・・	ＵＡＶの本体に配列された回転翼［２０２３．０１］	Rotors arranged in the UAV body	51
+B64U  30/295	・・・	翼に配列された回転翼［２０２３．０１］	Rotors arranged in the wings	60
+B64U  30/296	・・・	ＵＡＶの本体に対して変更可能な空間位置に取り付けられている回転翼（折り畳み可能な，または組み立て可能な回転翼Ｂ６４Ｕ３０／２９３）［２０２３．０１］	Rotors with variable spatial positions relative to the UAV body(foldable or collapsible rotors B64U30/293)	113
+B64U  30/297	・・・・	傾斜回転翼［２０２３．０１］	Tilting rotors	231
+B64U  30/298	・・・	ヘリコプターのフライバー［２０２３．０１］	Helicopter flybars	
+B64U  30/299	・・・	回転翼ガード（ダクト付きまたはシュラウド付き回転翼Ｂ６４Ｕ３０／２６；地上推進手段として用いられるガードＢ６４Ｕ６０／６０）［２０２３．０１］	Rotor guards(ducted or shrouded rotors B64U30/26; guards used as ground propulsion B64U60/60)	709
+B64U  30/30	・	放射状に広がる気流を利用する浮力発生手段［２０２３．０１］	Lift-producing means using radial airflow	30
+B64U  30/40	・	尾翼，例．Ｖテール（折り畳み可能な，または組み立て可能なＵＡＶＢ６４Ｕ２０／５０）［２０２３．０１］	Empennages, e.g. V-tails (foldable or collapsible UAVs B64U20/50)	207
+B64U  40/00		操縦翼面または回転翼を調節するための機内の機械的装置；ベースの構成を飛行中に調整するための機内の機械的装置（航空機または宇宙航空機の位置，進路，高度または姿勢の制御，例．自動操縦装置，Ｇ０５Ｄ１／００）［２０２３．０１］	On-board mechanical arrangements for adjusting control surfaces or rotors; On-board mechanical arrangements for in-flight adjustment of the base configuration(control of position, course, altitude or attitude of air or space vehicles, e.g. automatic pilot, G05D1/00)	49
+B64U  40/10	・	操縦翼面または回転翼を調節するためのもの［２０２３．０１］	for adjusting control surfaces or rotors	362
+B64U  40/20	・	ベースの構成を飛行中に調整するためのもの［２０２３．０１］	for in-flight adjustment of the base configuration	112
+B64U  50/00		推進力；動力供給［２０２３．０１］	Propulsion; Power supply	34
+B64U  50/10	・	推進力（回転翼航空機またはＶＴＯＬ航空機に特に適した回転翼Ｂ６４Ｕ３０／２０）［２０２３．０１］	Propulsion(rotors specially adapted for rotorcraft or VTOL B64U30/20)	155
+B64U  50/11	・・	ピストン内燃機関を用いるもの［２０２３．０１］	using internal combustion piston engines	128
+B64U  50/12	・・	タービン機関を用いるもの，例．ターボジェットまたはターボファン［２０２３．０１］	using turbine engines, e.g. turbojets or turbofans	44
+B64U  50/13	・・	外装のファンまたはプロペラを用いるもの［２０２３．０１］	using external fans or propellers	198
+B64U  50/14	・・・	ダクト付きまたはシュラウド付き［２０２３．０１］	ducted or shrouded	83
+B64U  50/15	・・	ターボジェットまたはターボファン以外の燃焼排気を用いるもの，例．ロケット、ラムジェット，スクラムジェットまたはパルス反応器を用いるもの［２０２３．０１］	using combustion exhausts other than turbojets or turbofans, e.g. using rockets, ramjets, scramjets or pulse-reactors	25
+B64U  50/16	・・	空気または燃焼排気以外の手段を用いるもの，例．水または磁気浮上［２０２３．０１］	using means other than air displacement or combustion exhaust, e.g. water or magnetic levitation	5
+B64U  50/18	・・	推進の方向を変えるもの［２０２３．０１］	Thrust vectoring	28
+B64U  50/19	・・	電気駆動のモーターを用いるもの［２０２３．０１］	using electrically powered motors	1292
+B64U  50/20	・	機械的駆動力を回転翼またはプロペラに伝達するもの［２０２３．０１］	Transmission of mechanical power to rotors or propellers	102
+B64U  50/23	・・	それぞれが専用のモーターを有する推進手段を用いるもの［２０２３．０１］	with each propulsion means having an individual motor	220
+B64U  50/27	・・	単独のモーターが２つ以上の回転翼またはプロペラに動力を供給するもの［２０２３．０１］	with a single motor serving two or more rotors or propellers	37
+B64U  50/30	・	電力の供給または配給［２０２３．０１］	Supply or distribution of electrical power	659
+B64U  50/31	・・	光起電力により発生されるもの［２０２３．０１］	generated by photovoltaics	269
+B64U  50/32	・・	燃料電池により発生されるもの［２０２３．０１］	generated by fuel cells	108
+B64U  50/33	・・	内燃機関により発生されるもの［２０２３．０１］	generated by combustion engines	63
+B64U  50/34	・・	飛行中に充電するもの（光起電力Ｂ６４Ｕ５０／３１）［２０２３．０１］	In-flight charging(photovoltaics B64U50/31)	206
+B64U  50/35	・・・	無線伝送によるもの，例．誘導によるもの［２０２３．０１］	by wireless transmission, e.g. by induction	71
+B64U  50/36	・・・	風力タービンによるもの，例．ラムエアタービン［ＲＡＴ］［２０２３．０１］	by wind turbines, e.g. ram air turbines [RAT]	9
+B64U  50/37	・・	飛行中ではない時に充電するもの［２０２３．０１］	Charging when not in flight	410
+B64U  50/38	・・・	無線伝送によるもの［２０２３．０１］	by wireless transmission	217
+B64U  50/39	・・	バッテリーを交換するもの［２０２３．０１］	Battery swapping	316
+B64U  60/00		降着装置［２０２３．０１］	Undercarriages	861
+B64U  60/10	・	水上での利用に特に適したもの［２０２３．０１］	specially adapted for use on water	224
+B64U  60/20	・	起伏のある地面に特に適したもの［２０２３．０１］	specially adapted for uneven terrain	136
+B64U  60/30	・	本体から取り外し可能なもの［２０２３．０１］	detachable from the body	190
+B64U  60/40	・	折り畳み可能なものまたは引き込み式のもの［２０２３．０１］	foldable or retractable	614
+B64U  60/50	・	着陸脚を有するもの［２０２３．０１］	with landing legs	1073
+B64U  60/55	・・	地上推進手段としても用いられる脚［２０２３．０１］	the legs being also used as ground propulsion	42
+B64U  60/60	・	転がりケージを有するもの［２０２３．０１］	with rolling cages	12
+B64U  60/70	・	可動翼，回転翼の支持体またはシュラウドとして機能する接地要素［２０２３．０１］	Movable wings, rotor supports or shrouds acting as ground-engaging elements	18
+B64U  70/00		打ち上げ，離陸または着陸装置［２０２３．０１］	Launching, take-off or landing arrangements	241
+B64U  70/10	・	手でＵＡＶを放つまたは捕獲するためのもの［２０２３．０１］	for releasing or capturing UAVs by hand	20
+B64U  70/20	・	別の航空機によって飛行中のＵＡＶを放つまた捕獲するためのもの［２０２３．０１］	for releasing or capturing UAVs in flight by another aircraft	124
+B64U  70/30	・	飛行中のＵＡＶを地上または海上に設置された拘引装置で捕獲するためのもの，例．ケーブルまたはネットによるもの［２０２３．０１］	for capturing UAVs in flight by ground or sea-based arresting gear, e.g. by a cable or a net	121
+B64U  70/40	・	飛行運動に特徴がある着陸，例．ディープストール［２０２３．０１］	Landing characterised by flight manoeuvres, e.g. deep stall	10
+B64U  70/50	・	収納容器から打ち上げるもの，例．潜水艦ミサイル発射管から打ち上げるもの［２０２３．０１］	Launching from storage containers, e.g. from submarine missile tubes	79
+B64U  70/60	・	ＵＡＶ自身の動力による滑走路からの離陸または着陸［２０２３．０１］	Take-off or landing of UAVs from a runway using their own power	9
+B64U  70/70	・	カタパルト，トラックまたはレールを用いて打ち上げまたは着陸するもの（収納容器から打ち上げるものＢ６４Ｕ７０／５０）［２０２３．０１］	Launching or landing using catapults, tracks or rails(launching from storage containers B64U70/50)	231
+B64U  70/80	・	垂直離陸または着陸，例．ロケットを用いるもの（回転翼航空機Ｂ６４Ｕ１０／１０；ＶＴＯＬ航空機Ｂ６４Ｕ１０／２０）［２０２３．０１］	Vertical take-off or landing, e.g. using rockets(rotorcrafts B64U10/10; VTOL aircraft B64U10/20)	96
+B64U  70/83	・・	パラシュート，バルーンまたは類似のものを用いるもの［２０２３．０１］	using parachutes, balloons or the like	197
+B64U  70/87	・・	膨張可能な緩衝物を用いるもの［２０２３．０１］	using inflatable cushions	24
+B64U  70/90	・	プラットフォームから打ち上げるものまたは，プラットフォームに着陸するもの［２０２３．０１］	Launching from or landing on platforms	553
+B64U  70/92	・・	携帯可能なプラットフォーム［２０２３．０１］	Portable platforms	324
+B64U  70/93	・・・	陸上車両または船舶上で使用するためのもの［２０２３．０１］	for use on a land or nautical vehicle	456
+B64U  70/95	・・	着陸中のＵＡＶをプラットフォームに導くための手段，例．照明手段［２０２３．０１］	Means for guiding the landing UAV towards the platform, e.g. lighting means	134
+B64U  70/97	・・	ＵＡＶをプラットフォーム上の特定の場所に導くための手段，例．中心からずれた位置への着陸を防止するプラットフォームの構造［２０２３．０１］	Means for guiding the UAV to a specific location on the platform, e.g. platform structures preventing landing off-centre	317
+B64U  70/99	・・	ＵＡＶをプラットフォーム上に留めるための手段，例．輪止めまたは磁石［２０２３．０１］	Means for retaining the UAV on the platform, e.g. dogs or magnets	450
+B64U  80/00		ＵＡＶに特に適した輸送または保管［２０２３．０１］	Transport or storage specially adapted for UAVs	191
+B64U  80/10	・	補給場または打ち上げ場にＵＡＶを移動するための手段を有するもの，例．ロボットアームまたはカルーセル［２０２３．０１］	with means for moving the UAV to a supply or launch location, e.g. robotic arms or carousels	121
+B64U  80/20	・	ＵＡＶを整備するための装置を有するもの［２０２３．０１］	with arrangements for servicing the UAV	179
+B64U  80/25	・・	バッテリーを再充電するためのもの；燃料を補給するためのもの［２０２３．０１］	for recharging batteries; for refuelling	714
+B64U  80/30	・	デ−タ伝送のための装置を有するもの［２０２３．０１］	with arrangements for data transmission	78
+B64U  80/40	・	２つ以上のＵＡＶのためのもの［２０２３．０１］	for two or more UAVs	161
+B64U  80/50	・	分解された状態のＵＡＶ［２０２３．０１］	the UAVs being disassembled	15
+B64U  80/60	・	ウェアラブルなものによるもの，例．衣服またはヘルメット［２０２３．０１］	by wearable objects, e.g. garments or helmets	15
+B64U  80/70	・	容器の中のもの（Ｂ６４Ｕ８０／６０が優先）［２０２３．０１］	in containers(B64U80/60 takes precedence)	481
+B64U  80/80	・	乗物によるもの［２０２３．０１］	by vehicles	21
+B64U  80/82	・・	空中輸送機［２０２３．０１］	Airborne vehicles	69
+B64U  80/84	・・	水上輸送機［２０２３．０１］	Waterborne vehicles	93
+B64U  80/86	・・	陸上車両［２０２３．０１］	Land vehicles	657
+B64U 101/00		特定の用途または応用に特に適したＵＡＶ［２０２３．０１］	UAVs specially adapted for particular uses or applications	1618
+B64U 101/05	・	スポーツまたは競技のためのもの，例．ドローンレース［２０２３．０１］	for sports or gaming, e.g. drone racing	35
+B64U 101/10	・	離れた場所に供給される電力を発生させるためのもの，例．ソーラーパネルを有するＵＡＶ［２０２３．０１］	for generating power to be supplied to a remote station, e.g. UAVs with solar panels	19
+B64U 101/15	・	従来の戦争または電子戦のためのもの［２０２３．０１］	for conventional or electronic warfare	144
+B64U 101/16	・・	他の乗り物を制御，捕獲または移動不能にするためのもの［２０２３．０１］	for controlling, capturing or immobilising other vehicles	19
+B64U 101/17	・・	通信を探知，妨害または阻止するためのもの［２０２３．０１］	for detecting, disrupting or countering communications	98
+B64U 101/18	・・	爆弾を投下するためのもの；弾薬を発砲するためのもの［２０２３．０１］	for dropping bombs; for firing ammunition	102
+B64U 101/19	・・	標的またはおとりとして用いるためのもの［２０２３．０１］	for use as targets or decoys	7
+B64U 101/20	・	通信中継局として用いるためのもの，例．高高度プラットフォーム［２０２３．０１］	for use as communications relays, e.g. high altitude platforms	181
+B64U 101/21	・・	インターネットへのアクセスを提供するためもの［２０２３．０１］	for providing Internet access	10
+B64U 101/23	・・	電話サービスを提供するためのもの［２０２３．０１］	for providing telephone services	4
+B64U 101/24	・・	飛行ディスプレーとして用いるためのもの，例．広告または広告板［２０２３．０１］	for use as flying displays, e.g. advertising or billboards	18
+B64U 101/25	・	製造または整備のためのもの［２０２３．０１］	for manufacturing or servicing	71
+B64U 101/26	・・	製造，検査または修理のためのもの［２０２３．０１］	for manufacturing, inspections or repairs	678
+B64U 101/28	・・	塗装またはマーキングのためのもの［２０２３．０１］	for painting or marking	20
+B64U 101/29	・・	清掃のためのもの［２０２３．０１］	for cleaning	172
+B64U 101/30	・	画像化，写真撮影またはビデオ撮影のためのもの［２０２３．０１］	for imaging, photography or videography	3361
+B64U 101/31	・・	監視のためのもの［２０２３．０１］	for surveillance	849
+B64U 101/32	・・	地図製作または地形図作成のためのもの［２０２３．０１］	for cartography or topography	446
+B64U 101/35	・	科学に関するもの，例．気象学［２０２３．０１］	for science, e.g. meteorology	215
+B64U 101/40	・	農作業または林業の作業のためのもの［２０２３．０１］	for agriculture or forestry operations	1301
+B64U 101/45	・	飛行中に液体または粉末を放出するためのもの，例．粉末農薬の散布［２０２３．０１］	for releasing liquids or powders in-flight, e.g. crop-dusting	1209
+B64U 101/47	・・	消火のためのもの［２０２３．０１］	for fire fighting	306
+B64U 101/55	・	人命救助または救助作業のためのもの；医療のために使用するためのもの［２０２３．０１］	for life-saving or rescue operations; for medical use	224
+B64U 101/56	・・	行方不明の人または動物を見つけるためのもの［２０２３．０１］	for locating missing persons or animals	39
+B64U 101/57	・・	危険な状態にある人または動物に緊急事態の補給品を運ぶためのもの，例．ロープまたは救命胴衣［２０２３．０１］	for bringing emergency supplies to persons or animals in danger, e.g. ropes or life vests	123
+B64U 101/58	・・	医療避難のためのもの，すなわち人または動物を治療が受けられる場所に搬送すること［２０２３．０１］	for medical evacuation, i.e. the transportation of persons or animals to a place where they can receive medical care	9
+B64U 101/60	・	乗客を輸送するためのもの；武器以外の品物を輸送するためのもの［２０２３．０１］	for transporting passengers; for transporting goods other than weapons	909
+B64U 101/61	・・	乗客を輸送するためのもの［２０２３．０１］	for transporting passengers	19
+B64U 101/64	・・	小包を配送または回収するためのもの［２０２３．０１］	for parcel delivery or retrieval	209
+B64U 101/66	・・・	小包を回収するためのもの［２０２３．０１］	for retrieving parcels	14
+B64U 101/67	・・	品物を下ろすためのテザーを含むＵＡＶ［２０２３．０１］	the UAVs comprising tethers for lowering the goods	64
+B64U 101/69	・・	品物を空中投下するための手段を有するＵＡＶ，例．降下中にパラシュートが開傘するもの［２０２３．０１］	the UAVs provided with means for airdropping goods, e.g. deploying a parachute during descent	230
+B64U 101/70	・	囲いで仕切られた空間の内部で使用するためのもの，例．建物の中または乗り物の中［２０２３．０１］	for use inside enclosed spaces, e.g. in buildings or in vehicles	44
+B64U 101/75	・	地球上以外で使用するためのもの，例．月または火星で［２０２３．０１］	for extra-terrestrial use, e.g. on the Moon or Mars	24

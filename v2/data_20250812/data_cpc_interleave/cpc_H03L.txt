@@ -1,0 +1,102 @@
+H03L1/00	7	Stabilisation of generator output against variations of physical values, e.g. power supply	H03L1/00	H03L1/00		732
+H03L1/02	8	against variations of temperature only	H03L1/02	H03L1/02		490
+H03L1/021	9	{of generators comprising distributed capacitance and inductance}	H03L1/02	H03L1/02		68
+H03L1/022	9	{by indirect stabilisation, i.e. by generating an electrical correction signal which is a function of the temperature (H03L1/021 takes precedence)}	H03L1/02	H03L1/02		532
+H03L1/023	10	{by using voltage variable capacitance diodes}	H03L1/02	H03L1/02		208
+H03L1/025	11	{and a memory for digitally storing correction values}	H03L1/02	H03L1/02		145
+H03L1/026	10	{by using a memory for digitally storing correction values (H03L1/025 takes precedence)}	H03L1/02	H03L1/02		410
+H03L1/027	10	{by using frequency conversion means which is variable with temperature, e.g. mixer, frequency divider, pulse add/subtract logic circuit (H03L1/023, H03L1/026 take precedence)}	H03L1/02	H03L1/02		207
+H03L1/028	9	{of generators comprising piezoelectric resonators (H03L1/021, H03L1/022 take precedence; oscillation generators with a piezoelectric resonator H03B5/32)}	H03L1/02	H03L1/02		413
+H03L1/04	9	Constructional details for maintaining temperature constant	H03L1/04	H03L1/04		478
+H03L3/00	7	Starting of generators	H03L3/00	H03L3/00		408
+H03L5/00	7	Automatic control of voltage, current, or power	H03L5/00	H03L5/00		934
+H03L5/02	8	of power	H03L5/02	H03L5/02		210
+H03L7/00	7	Automatic control of frequency or phase; Synchronisation	H03L7/00	H03L7/00		1995
+H03L7/02	8	using a frequency discriminator comprising a passive frequency-determining element	H03L7/02	H03L7/02		337
+H03L7/04	9	wherein the frequency-determining element comprises distributed inductance and capacitance	H03L7/04	H03L7/04		334
+H03L7/06	8	using a reference signal applied to a frequency- or phase-locked loop	H03L7/06	H03L7/06		1259
+H03L7/07	9	using several loops, e.g. for redundant clock signal generation	H03L7/07	H03L7/07		1360
+H03L7/08	9	Details of the phase-locked loop	H03L7/08	H03L7/08		2186
+H03L7/0802	10	{the loop being adapted for reducing power consumption (H03L7/14 takes precedence)}	H03L7/08	H03L7/08		558
+H03L7/0805	10	{the loop being adapted to provide an additional control signal for use outside the loop}	H03L7/08	H03L7/08		1038
+H03L7/0807	10	{concerning mainly a recovery circuit for the reference signal}	H03L7/08	H03L7/08		935
+H03L7/081	10	provided with an additional controlled phase shifter {(H03L7/0998 takes precedence)}	H03L7/081	H03L7/081		1253
+H03L7/0812	11	{and where no voltage or current controlled oscillator is used}	H03L7/081	H03L7/081		1198
+H03L7/0814	12	{the phase shifting device being digitally controlled}	H03L7/081	H03L7/081		2123
+H03L7/0816	12	{the controlled phase shifter and the frequency- or phase-detection arrangement being connected to a common input}	H03L7/081	H03L7/081		1474
+H03L7/0818	12	{the controlled phase shifter comprising coarse and fine delay or phase-shifting means}	H03L7/081	H03L7/081		625
+H03L7/083	10	the reference signal being additionally directly applied to the generator	H03L7/083	H03L7/083		217
+H03L7/085	10	concerning mainly the frequency- or phase-detection arrangement including the filtering or amplification of its output signal (H03L7/10 takes precedence; circuits for comparing the phase or frequency of two mutually-independent oscillations H03D13/00)	H03L7/085	H03L7/085		2730
+H03L7/087	11	using at least two phase detectors or a frequency and phase detector in the loop	H03L7/087	H03L7/087		2288
+H03L7/089	11	the phase or frequency detector generating up-down pulses (H03L7/087 takes precedence)	H03L7/089	H03L7/089		1058
+H03L7/0891	12	{the up-down pulses controlling source and sink current generators, e.g. a charge pump}	H03L7/089	H03L7/089		2319
+H03L7/0893	13	{the up-down pulses controlling at least two source current generators or at least two sink current generators connected to different points in the loop}	H03L7/089	H03L7/089		367
+H03L7/0895	13	{Details of the current generators (H03L7/0893 takes precedence)}	H03L7/089	H03L7/089		510
+H03L7/0896	14	{the current generators being controlled by differential up-down pulses}	H03L7/089	H03L7/089		398
+H03L7/0898	14	{the source or sink current values being variable (H03L7/0896 takes precedence)}	H03L7/089	H03L7/089		475
+H03L7/091	11	the phase or frequency detector using a sampling device (H03L7/087 takes precedence)	H03L7/091	H03L7/091		1745
+H03L7/093	11	using special filtering or amplification characteristics in the loop (H03L7/087&#160;-&#160;H03L7/091 take precedence)	H03L7/093	H03L7/093		3531
+H03L7/095	11	using a lock detector (H03L7/087 takes precedence)	H03L7/095	H03L7/095		1164
+H03L7/097	11	using a comparator for comparing the voltages obtained from two frequency to voltage converters	H03L7/097	H03L7/097		222
+H03L7/099	10	concerning mainly the controlled oscillator of the loop	H03L7/099	H03L7/099		3803
+H03L7/0991	11	{the oscillator being a digital oscillator, e.g. composed of a fixed oscillator followed by a variable frequency divider (H03L7/0995 takes precedence; fixed oscillators with means for selecting among various phases H03L7/0814)}	H03L7/099	H03L7/099		757
+H03L7/0992	12	{comprising a counter or a frequency divider}	H03L7/099	H03L7/099		822
+H03L7/0993	13	{and a circuit for adding and deleting pulses}	H03L7/099	H03L7/099		73
+H03L7/0994	12	{comprising an accumulator}	H03L7/099	H03L7/099		239
+H03L7/0995	11	{the oscillator comprising a ring oscillator}	H03L7/099	H03L7/099		1674
+H03L7/0996	12	{Selecting a signal among the plurality of phase-shifted signals produced by the ring oscillator}	H03L7/099	H03L7/099		265
+H03L7/0997	12	{Controlling the number of delay elements connected in series in the ring oscillator}	H03L7/099	H03L7/099		158
+H03L7/0998	12	{using phase interpolation}	H03L7/099	H03L7/099		202
+H03L7/10	10	for assuring initial synchronisation or for broadening the capture range	H03L7/10	H03L7/10		784
+H03L7/101	11	{using an additional control signal to the controlled loop oscillator derived from a signal generated in the loop (H03L7/113, H03L7/187 take precedence)}	H03L7/10	H03L7/10		209
+H03L7/102	12	{the additional signal being directly applied to the controlled loop oscillator}	H03L7/10	H03L7/10		123
+H03L7/103	13	{the additional signal being a digital signal}	H03L7/10	H03L7/10		144
+H03L7/104	11	{using an additional signal from outside the loop for setting or controlling a parameter in the loop (H03L7/107, H03L7/12 take precedence)}	H03L7/10	H03L7/10		299
+H03L7/105	11	{Resetting the controlled oscillator when its frequency is outside a predetermined limit}	H03L7/10	H03L7/10		58
+H03L7/107	11	using a variable transfer function for the loop, e.g. low pass filter having a variable bandwidth	H03L7/107	H03L7/107		358
+H03L7/1072	12	{by changing characteristics of the charge pump, e.g. changing the gain}	H03L7/107	H03L7/107		249
+H03L7/1075	12	{by changing characteristics of the loop filter, e.g. changing the gain, changing the bandwidth (H03L7/1072 takes precedence)}	H03L7/107	H03L7/107		637
+H03L7/1077	12	{by changing characteristics of the phase or frequency detection means (H03L7/1072 takes precedence)}	H03L7/107	H03L7/107		120
+H03L7/113	11	using frequency discriminator	H03L7/113	H03L7/113		693
+H03L7/12	11	using a scanning signal	H03L7/12	H03L7/12		274
+H03L7/14	10	for assuring constant frequency when supply or correction voltages fail	H03L7/14	H03L7/14		483
+H03L7/141	11	{the phase-locked loop controlling several oscillators in turn}	H03L7/14	H03L7/14		44
+H03L7/143	11	{by switching the reference signal of the phase-locked loop}	H03L7/14	H03L7/14		124
+H03L7/145	12	{the switched reference signal being derived from the controlled oscillator output signal}	H03L7/14	H03L7/14		39
+H03L7/146	11	{by using digital means for generating the oscillator control signal (H03L7/141, H03L7/143 take precedence)}	H03L7/14	H03L7/14		149
+H03L7/148	12	{said digital means comprising a counter or a divider}	H03L7/14	H03L7/14		102
+H03L7/16	9	Indirect frequency synthesis, i.e. generating a desired one of a number of predetermined frequencies using a frequency- or phase-locked loop	H03L7/16	H03L7/16		951
+H03L7/18	10	using a frequency divider or counter in the loop (H03L7/20, H03L7/22 take precedence)	H03L7/18	H03L7/18		3670
+H03L7/1803	11	{the counter or frequency divider being connected to a cycle or pulse swallowing circuit}	H03L7/18	H03L7/18		65
+H03L7/1806	11	{the frequency divider comprising a phase accumulator generating the frequency divided signal}	H03L7/18	H03L7/18		202
+H03L7/181	11	a numerical count result being used for locking the loop, the counter counting during fixed time intervals {(H03L7/1806 takes precedence)}	H03L7/181	H03L7/181		254
+H03L7/183	11	a time difference being used for locking the loop, the counter counting between fixed numbers or the frequency divider dividing by a fixed number {(H03L7/1806 takes precedence)}	H03L7/183	H03L7/183		982
+H03L7/185	12	using a mixer in the loop (H03L7/187&#160;-&#160;H03L7/195 take precedence)	H03L7/185	H03L7/185		373
+H03L7/187	12	using means for coarse tuning the voltage controlled oscillator of the loop (H03L7/191&#160;-&#160;H03L7/195 take precedence)	H03L7/187	H03L7/187		321
+H03L7/189	13	comprising a D/A converter for generating a coarse tuning voltage	H03L7/189	H03L7/189		281
+H03L7/191	12	using at least two different signals from the frequency divider or the counter for determining the time difference (H03L7/193, H03L7/195 take precedence)	H03L7/191	H03L7/191		165
+H03L7/193	12	the frequency divider/counter comprising a commutable pre-divider, e.g. a two modulus divider	H03L7/193	H03L7/193		363
+H03L7/195	12	in which the counter of the loop counts between two different non zero numbers, e.g. for generating an offset frequency (H03L7/193 takes precedence)	H03L7/195	H03L7/195		33
+H03L7/197	11	a time difference being used for locking the loop, the counter counting between numbers which are variable in time or the frequency divider dividing by a factor variable in time, e.g. for obtaining fractional frequency division {(H03L7/1806 takes precedence)}	H03L7/197	H03L7/197		375
+H03L7/1972	12	{for reducing the locking time interval (H03L7/1974, H03L7/199 take precedence)}	H03L7/197	H03L7/197		99
+H03L7/1974	12	{for fractional frequency division}	H03L7/197	H03L7/197		551
+H03L7/1976	13	{using a phase accumulator for controlling the counter or frequency divider}	H03L7/197	H03L7/197		948
+H03L7/1978	14	{using a cycle or pulse removing circuit}	H03L7/197	H03L7/197		73
+H03L7/199	12	with reset of the frequency divider or the counter, e.g. for assuring initial synchronisation	H03L7/199	H03L7/199		274
+H03L7/20	10	using a harmonic phase-locked loop, i.e. a loop which can be locked to one of a number of harmonically related frequencies applied to it (H03L7/22 takes precedence)	H03L7/20	H03L7/20		289
+H03L7/22	10	using more than one loop	H03L7/22	H03L7/22		341
+H03L7/23	11	with pulse counters or frequency dividers	H03L7/23	H03L7/23		773
+H03L7/235	12	{Nested phase locked loops}	H03L7/23	H03L7/23		167
+H03L7/24	8	using a reference signal directly applied to the generator	H03L7/24	H03L7/24		616
+H03L7/26	8	using energy levels of molecules, atoms, or subatomic particles as a frequency reference	H03L7/26	H03L7/26		1067
+H03L9/00	7	Automatic control not provided for in other groups of this subclass	H03L9/00	H03L9/00		14
+H03L2207/00	7	Indexing scheme relating to automatic control of frequency or phase and to synchronisation	CPCONLY	H03L2207/00		7
+H03L2207/04	8	Modifications for maintaining constant the phase-locked loop damping factor when other loop parameters change	CPCONLY	H03L2207/04		89
+H03L2207/05	8	Compensating for non-linear characteristics of the controlled oscillator	CPCONLY	H03L2207/05		46
+H03L2207/06	8	Phase locked loops with a controlled oscillator having at least two frequency control terminals	CPCONLY	H03L2207/06		977
+H03L2207/08	8	Modifications of the phase-locked loop for ensuring constant frequency when the power supply fails or is interrupted, e.g. for saving power	CPCONLY	H03L2207/08		53
+H03L2207/10	8	Indirect frequency synthesis using a frequency multiplier in the phase-locked loop or in the reference signal path	CPCONLY	H03L2207/10		152
+H03L2207/12	8	Indirect frequency synthesis using a mixer in the phase-locked loop	CPCONLY	H03L2207/12		182
+H03L2207/14	8	Preventing false-lock or pseudo-lock of the PLL	CPCONLY	H03L2207/14		146
+H03L2207/18	8	Temporarily disabling, deactivating or stopping the frequency counter or divider	CPCONLY	H03L2207/18		52
+H03L2207/50	8	All digital phase-locked loop	CPCONLY	H03L2207/50		1014

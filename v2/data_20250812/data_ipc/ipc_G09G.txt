@@ -1,0 +1,93 @@
+G09G   1/00		陰極線管表示器にのみ関連した，制御装置または回路［３］	Control arrangements or circuits, of interest only in connection with cathode-ray tube indicators	10068
+G09G   1/02	・	蓄積回路（Ｇ０９Ｇ１／０６〜Ｇ０９Ｇ１／２８が優先）［３］	Storage circuits(G09G1/06 to G09G1/28  take precedence)	2583
+G09G   1/04	・	偏向回路［３］	Deflection circuits	2415
+G09G   1/06	・	単一ビーム管を用いるもの（Ｇ０９Ｇ１／２６，Ｇ０９Ｇ１／２８が優先）［３］	using single beam tubes(G09G1/26, G09G1/28 take precedence)	5031
+G09G   1/07	・・	ラスター走査とキャリグラフィック表示との結合を有するもの［５］	with combined raster scan and calligraphic display	88
+G09G   1/08	・・	ビームが文字を直接追跡するもの，表示される情報が２つの空間的な座標における時間の関数として，例．デカルト座標系に従って，偏向を制御するもの［３］	the beam directly tracing characters, the information to be displayed controlling the deflection as a function of time in two spatial co-ordinates, e.g. according to a cartesian co-ordinate system	1031
+G09G   1/10	・・・	偏向信号が本質的にディジタル手段によって，例．増加的に，作られているもの［３］	the deflection signals being produced by essentially digital means, e.g. incrementally	454
+G09G   1/12	・・・	偏向信号が主としてアナログ手段によって形成されるもの［３］	the deflection signals being produced by essentially analogue means	221
+G09G   1/14	・・	ビームが表示される情報とは独立にパターンをトレースし，かつ後者が明暗でえがかれるパターンの部分を決定するもの［３］	the beam tracing a pattern independent of the information to be displayed, this latter determining the parts of the pattern rendered respectively visible and invisible	1110
+G09G   1/16	・・・	直角座標のパターンがスクリーンの全体にわたって拡大されるもの，例．テレビジョン型ラスター［３］	the pattern of rectangular co-ordinates extending over the whole area of the screen, i.e. television type raster	4839
+G09G   1/18	・・・	小さな局部パターンが単一の文字のみを含み，かつ次の文字のための位置に，例．直角または極座標において，または星形において，進むもの［３］	a small local pattern covering only a single character, and stepping to a position for the following character, e.g. in rectangular or polar co-ordinates, or in the form of a framed star	207
+G09G   1/20	・	多重ビーム管を用いるもの（Ｇ０９Ｇ１／２６，Ｇ０９Ｇ１／２８優先）［３］	using multi-beam tubes(G09G1/26, G09G1/28 take precedence)	393
+G09G   1/22	・	多数の文字から一つの完全な文字が選択できる管を用いるもの［３］	using tubes permitting selection of a complete character from a number of characters	101
+G09G   1/24	・	一つの文字を形成する個々のエレメントの選択ができる管を用いるもの［３］	using tubes permitting selection of individual elements forming in combination a character	13
+G09G   1/26	・	蓄積管を用いるもの［３］	using storage tubes	154
+G09G   1/28	・	カラー管を用いるもの［３］	using colour tubes	2654
+G09G   3/00		陰極線管以外の可視的表示器にのみ関連した，制御装置または回路［３］	Control arrangements or circuits, of interest only in connection with visual indicators other than cathode-ray tubes	23528
+G09G   3/02	・	スクリーン上を光ビームでトレースまたは走査するもの［３］	by tracing or scanning a light beam on a screen	2125
+G09G   3/04	・	多数の文字からの選択または個々の要素を組み合わせることによって単一の文字を表示するためのもの，例．セグメント型［３］	for presentation of a single character by selection from a plurality of characters, or by composing the character by combination of individual elements, e.g. segments	4516
+G09G   3/06	・・	制御された光源を用いるもの［３］	using controlled light sources	472
+G09G   3/08	・・・	白熱フイラメントを用いるもの［３］	using incandescent filaments	299
+G09G   3/10	・・・	ガス管を用いるもの［３］	using gas tubes	1978
+G09G   3/12	・・・	エレクトロルミネッセント要素を用いるもの［３］	using electroluminescent elements	1741
+G09G   3/14	・・・・	半導体装置，例．ダイオード［３］	Semiconductor devices, e.g. diodes	3543
+G09G   3/16	・・	独立の光源からの光を制御するもの［３］	by control of light from an independent source	992
+G09G   3/18	・・・	液晶を用いるもの［３］	using liquid crystals	6544
+G09G   3/19	・・・	エレクトロクロミック装置を使用するもの［５］	using electrochromic devices	755
+G09G   3/20	・	マトリックス状に配置された個々の要素の組み合わせによりその集合を構成することによって多数の文字の集合，例．１頁，を表示するためのもの［３］	for presentation of an assembly of a number of characters, e.g. a page, by composing the assembly by combination of individual elements arranged in a matrix	90612
+G09G   3/22	・・	制御された光源を用いるもの［３］	using controlled light sources	3035
+G09G   3/24	・・・	白熱フイラメントを用いるもの［３］	using incandescent filaments	137
+G09G   3/26	・・・・	移動信号を表わすもの［３］	to give the appearance of moving signs	266
+G09G   3/28	・・・	発光ガス放電パネル，例．プラズマパネル，を用いるもの［３，２０１３．０１］	using luminous gas-discharge panels, e.g. plasma panels	6391
+G09G   3/2807	・・・・	放電が特別に適合された高周波信号によって生起されるもの［２０１３．０１］	with discharge activated by high-frequency signals specially adapted therefor	49
+G09G   3/2813	・・・・	交流［ＡＣ］−直流［ＤＣ］ハイブリッド型パネルを用いるもの［２０１３．０１］	using alternating current [AC] - direct current [DC] hybrid-type panels	33
+G09G   3/282	・・・・	ＤＣ型パネルを用いるもの［７］	using DC panels	687
+G09G   3/285	・・・・・	セルフ・スキャンを用いるもの［７］	using self-scanning	295
+G09G   3/288	・・・・	ＡＣ型パネルを用いるもの［７，２０１３．０１］	using AC panels	4980
+G09G   3/29	・・・・・	セルフシフトパネルを使用するもの［５］	using self-shift panels	388
+G09G   3/291	・・・・・	放電セルの状態を制御するためにガス放電を制御するもの，例．特定のパルスの形状を用いるもの［２０１３．０１］	controlling the gas discharge to control a cell condition, e.g. by means of specific pulse shapes	4947
+G09G   3/292	・・・・・・	アドレス工程以外の工程におけるリセット放電，予備放電または消去放電のためのもの［２０１３．０１］	for reset discharge, priming discharge or erase discharge occurring in a phase other than addressing	2202
+G09G   3/293	・・・・・・	アドレス放電のためのもの［２０１３．０１］	for address discharge	1963
+G09G   3/294	・・・・・・	発光または維持放電のためのもの［２０１３．０１］	for lighting or sustain discharge	3400
+G09G   3/296	・・・・・	駆動電極に印加される波形を生成するための駆動回路［２０１３．０１］	Driving circuits for producing the waveforms applied to the driving electrodes	7179
+G09G   3/297	・・・・・	対向放電型パネルを用いるもの［２０１３．０１］	using opposed discharge type panels	131
+G09G   3/298	・・・・・	面放電型パネルを用いるもの［２０１３．０１］	using surface discharge panels	3202
+G09G   3/299	・・・・・・	ＡＬＩＳ（Ａｌｔｅｒｎａｔｅ　Ｌｉｇｈｔｉｎｇ　ｏｆ　Ｓｕｒｆａｃｅ）型パネルを用いるもの［２０１３．０１］	using alternate lighting of surface-type panels	117
+G09G   3/30	・・・	エレクトロルミネッセントパネルを用いるもの［３］	using electroluminescent panels	17778
+G09G   3/32	・・・・	半導体，例．発光ダイオード［ＬＥＤ］［３，２０１６．０１］	semiconductive, e.g. using light-emitting diodes [LED]	29896
+G09G   3/3208	・・・・・	有機的なもの，例．有機発光ダイオード［ＯＬＥＤ］［２０１６．０１］	organic, e.g. using organic light-emitting diodes [OLED]	10734
+G09G   3/3216	・・・・・・	パッシブマトリックスを用いるもの［２０１６．０１］	using a passive matrix	314
+G09G   3/3225	・・・・・・	アクティブマトリックスを用いるもの［２０１６．０１］	using an active matrix	7801
+G09G   3/3233	・・・・・・・	発光素子を流れる電流を制御する画素回路を備えるもの［２０１６．０１］	with pixel circuitry controlling the current through the light-emitting element	9307
+G09G   3/3241	・・・・・・・・	発光素子を流れる電流がデータドライバによるデータ電流を用いて設定されるもの，例．２つのトランジスタを用いたカレントミラー回路を使用するもの［２０１６．０１］	the current through the light-emitting element being set using a data current provided by the data driver, e.g. by using a two-transistor current mirror	318
+G09G   3/325	・・・・・・・・・	セッティング期間中に駆動トランジスタにデータ電流を流すもの，例．駆動トランジスタをデータドライバに接続するためのスイッチを用いるもの［２０１６．０１］	the data current flowing through the driving transistor during a setting phase, e.g. by using a switch for connecting the driving transistor to the data driver	325
+G09G   3/3258	・・・・・・・	発光素子に印加される電圧を制御する画素回路を備えるもの［２０１６．０１］	with pixel circuitry controlling the voltage across the light-emitting element	3349
+G09G   3/3266	・・・・・・	走査電極用ドライバの細部［２０１６．０１］	Details of drivers for scan electrodes	6166
+G09G   3/3275	・・・・・・	データ電極用ドライバの細部［２０１６．０１］	Details of drivers for data electrodes	3206
+G09G   3/3283	・・・・・・・	発光素子を流れる電流，又は，発光素子に印加される電圧を設定するために可変データ電流を供給するデータドライバ［２０１６．０１］	in which the data driver supplies a variable data current for setting the current through, or the voltage across, the light-emitting elements	418
+G09G   3/3291	・・・・・・・	発光素子を流れる電流，又は，発光素子に印加される電圧を設定するために可変データ電圧を供給するデータドライバ［２０１６．０１］	in which the data driver supplies a variable data voltage for setting the current through, or the voltage across, the light-emitting elements	2700
+G09G   3/34	・・	独立の光源よりの光の制御によるもの［３］	by control of light from an independent source	26009
+G09G   3/36	・・・	液晶を用いるもの［３］	using liquid crystals	87335
+G09G   3/38	・・・	エレクトロクロミック装置を使用するもの［５］	using electrochromic devices	1031
+G09G   5/00		陰極線管表示器および他の可視的表示器に共通の可視的表示器用の制御装置または回路［５］	Control arrangements or circuits for visual indicators common to cathode-ray tube indicators and other visual indicators	89437
+G09G   5/02	・	色を表示する方法に特徴があるもの［５］	characterised by the way in which colour is displayed	16452
+G09G   5/04	・・	色表示装置とのインターフェイスのための回路を使用するもの［５］	using circuits for interfacing with colour displays	1198
+G09G   5/06	・・	カラーパレット，例．ルックアップテーブル，を使用するもの［５］	using colour palettes, e.g. look-up tables	3089
+G09G   5/08	・	カーソル回路［５］	Cursor circuits	6157
+G09G   5/10	・	輝度回路［５］	Intensity circuits	16120
+G09G   5/12	・	表示装置と他の装置，例．他の表示装置，ビデオ―ディスクプレーヤー，との間の同期［５］	Synchronisation between the display unit and other units, e.g. other display units, video-disc players	2937
+G09G   5/14	・	多数のビューポートの表示［５］	Display of multiple viewports	10361
+G09G   5/16	・	右から左へ表記する言語の表示［５］	Display of right-to-left language	43
+G09G   5/18	・	ラスター走査ディスプレイ用のタイミング回路（特にテレビジョンに適合されたものＨ０４Ｎ）［５］	Timing circuits for raster scan displays(specially adapted for television H04N)	3313
+G09G   5/20	・	関数発生回路，例．円発生器［５］	Function-generator circuits, e.g. circle generators	1142
+G09G   5/22	・	文字コードメモリを用いる，個々の文字またはしるしの表示に特徴があるもの（Ｇ０９Ｇ５／４２が優先）［５，７］	characterised by the display of individual characters or indicia using display control signals derived from coded signals representing the characters or indicia with a character-code memory(G09G5/42 takes precedence)	4988
+G09G   5/24	・・	個別文字パターンの発生［５］	Generation of individual character patterns	7075
+G09G   5/26	・・・	文字の寸法を変更するためのもの，例．２倍幅，２倍高［５］	for modifying the character dimension, e.g. double width, double height	2571
+G09G   5/28	・・・	文字の形の向上のためのもの，例．スムージング［５］	for enhancement of character form, e.g. smoothing	1489
+G09G   5/30	・・	表示属性の制御［５］	Control of display attribute	1729
+G09G   5/32	・・	表示位置を制御するための手段を有するもの［５］	with means for controlling the display position	3476
+G09G   5/34	・	ローリングまたはスクローリングのためのもの［５］	for rolling or scrolling	3690
+G09G   5/36	・	ビット・マップ・メモリを用いる，個々のグラフィックパターンの表示に特徴があるもの（Ｇ０９Ｇ５／４２が優先）［５，７］	characterised by the display of individual graphic patterns using a bit-mapped memory(G09G5/42 takes precedence)	29272
+G09G   5/37	・・	グラフィックパターン上の操作の細部（Ｇ０９Ｇ５／３８が優先）［７］	Details of the operation on graphic patterns(G09G5/38 takes precedence)	1316
+G09G   5/373	・・・	グラフィックパターンのサイズ変更をするためのもの［７］	for modifying the size of the graphic pattern	1211
+G09G   5/377	・・・	２つ以上のグラフィックパターンを合成または重畳するためのもの（Ｇ０９Ｇ５／０２，Ｇ０９Ｇ５／３９７が優先）［７］	for mixing or overlaying two or more graphic patterns(G09G5/02, G09G5/397 take precedence)	8037
+G09G   5/38	・・	表示位置を制御するための手段を有するもの［５］	with means for controlling the display position	5839
+G09G   5/39	・・	ビット・マップ・メモリの制御［７］	Control of the bit-mapped memory	2920
+G09G   5/391	・・・	解像度変更回路，例．可変画面フォーマット［７］	Resolution modifying circuits, e.g. variable screen formats	3175
+G09G   5/393	・・・	ビット・マップ・メモリの内容を更新するための制御［７］	Arrangements for updating the contents of the bit-mapped memory	2578
+G09G   5/395	・・・	ビット・マップ・メモリの内容を画面に送るのに特に適した制御（Ｇ０９Ｇ５／３９９が優先）［７］	Arrangements specially adapted for transferring the contents of the bit-mapped memory to the screen(G09G5/399 takes precedence)	1911
+G09G   5/397	・・・・	２つ以上のビット・マップ・メモリの内容を，同時に画面に送るのに特に適した制御，例．合成または重畳するためのもの（Ｇ０９Ｇ５／０２が優先）［７］	Arrangements specially adapted for transferring the contents of two or more bit-mapped memories to the screen simultaneously, e.g. for mixing or overlay(G09G5/02 takes precedence)	1088
+G09G   5/399	・・・	２つ以上のビット・マップ・メモリを用いるもので，その操作を交互に切り替えるもの，例．ピンポン・バッファ［７］	using two or more bit-mapped memories, the operations of which are switched in time, e.g. ping-pong buffers	1145
+G09G   5/40	・	文字コードにより決定されるパターンと他のパターンとの両方のパターンが同時に表示されるか，あるいは一方のパターンが選択的に表示される方法に特徴があるもの，例．文字コードメモリ及びビットマップメモリを有するもの［５］	characterised by the way in which both a pattern determined by character code and another pattern are displayed simultaneously, or either pattern is displayed selectively, e.g. with character code memory and a bit-mapped memory	1376
+G09G   5/42	・	表示メモリの内容と画面の表示位置との間に，一定した位置関係の相関性がない表示メモリを用いる，パターンの表示に特徴があるもの［７］	characterised by the display of patterns using a display memory without fixed position correspondence between the display memory contents and the display position on the screen	759

@@ -1,0 +1,707 @@
+H05B   1/00  \	0	0	3K058	H05B   1/00	44	電気加熱装置の細部［２００６．０１］	Details of electric heating devices
+H05B   1/02  \	1	1	3K058	H05B   1/02	71	加熱装置に特に適合した自動開閉装置（熱動スイッチＨ０１Ｈ３７／００）	Automatic switching arrangements specially adapted to heating apparatus (thermally-actuated switches H01H 37/00)
+H05B   3/00  \	0	0	3K058	H05B   3/00	112	抵抗加熱	Ohmic-resistance heating
+H05B   3/00 310 \	1	1	3K058	H05B   3/00	11	抵抗加熱の回路	Resistor heat circuit
+H05B   3/00 310 A	1	0	3K058	H05B   3/00	362	抵抗加熱の主回路	Resistor heat main circuit
+H05B   3/00 310 B	1	0	3K058	H05B   3/00	383	抵抗加熱の制御回路	Resistor heat control circuit
+H05B   3/00 310 C	1	1	3K058	H05B   3/00	949	諸変量の検出によるもの	using detection of various variables
+H05B   3/00 310 D	1	2	3K058	H05B   3/00	1469	温度検出によるもの	using temperature detection
+H05B   3/00 310 E	1	3	3K058	H05B   3/00	1209	感熱素子を用いたもの	using a heat-sensitive device
+H05B   3/00 310 F	1	4	3K058	H05B   3/00	50	面感熱体を用いたもの	using a heat-sensitive plane device
+H05B   3/00 310 G	1	4	3K058	H05B   3/00	431	サーモスタットを用いたもの	using a thermostat
+H05B   3/00 310 H	1	5	3K058	H05B   3/00	346	サーモスタット・温度ヒューズの取付	using a thermostat or temperature fuse
+H05B   3/00 310 J	1	1	3K058	H05B   3/00	468	サイリスタを用いたもの	using a thyristor
+H05B   3/00 310 K	1	2	3K058	H05B   3/00	212	ゼロボルトスイッチング	Zero-volt switching
+H05B   3/00 310 L	1	1	3K058	H05B   3/00	123	手動による出力切替装置	Manual output change-over device
+H05B   3/00 310 Z	1	0	3K058	H05B   3/00	73	その他のもの	Others
+H05B   3/00 320 \	1	1	3K058	H05B   3/00	8	抵抗加熱の保護	Resistor heat protection
+H05B   3/00 320 A	1	0	3K058	H05B   3/00	196	表示装置	Indication device
+H05B   3/00 320 B	1	0	3K058	H05B   3/00	355	断線検知によるもの	using wire break detection
+H05B   3/00 320 C	1	0	3K058	H05B   3/00	102	漏電・感電防止	Leak current or electric shock prevention
+H05B   3/00 320 Z	1	0	3K058	H05B   3/00	708	その他のもの	Others
+H05B   3/00 330 \	1	1	3K058	H05B   3/00	17	抵抗加熱装置	Resistor heat device
+H05B   3/00 330 A	1	0	3K058	H05B   3/00	1039	調理器における加熱要素の制御	Control of the heating element on a cooker
+H05B   3/00 330 B	1	0	3K058	H05B   3/00	652	炊飯器・ポット等の加熱要素の制御	Control of the heating elements such as the rice boiler and pot
+H05B   3/00 330 Z	1	0	3K058	H05B   3/00	720	その他のもの	Others
+H05B   3/00 335 \	2	2	3K058	H05B   3/00	3435	回転加熱ローラ	Rotary heating roller
+H05B   3/00 340 \	2	2	3K058	H05B   3/00	733	直接通電加熱	Heating by direct power delivery
+H05B   3/00 345 \	2	2	3K058	H05B   3/00	662	反射鏡を用いるもの	using a reflection mirror
+H05B   3/00 350 \	2	2	3K058	H05B   3/00	325	電気炉の回路装置	Electrical furnace circuit device
+H05B   3/00 355 \	2	2	3K058	H05B   3/00	22	面状発熱体の回路装置	Heat generating plane member circuit device
+H05B   3/00 355 A	2	0	3K058	H05B   3/00	272	制御器に関するもの	related to the controller
+H05B   3/00 355 Z	2	0	3K058	H05B   3/00	90	その他のもの	Others
+H05B   3/00 360 \	3	3	3K058	H05B   3/00	18	面状発熱体を単体で用いるもの	Heat generating plane member used as a single unit
+H05B   3/00 365 \	4	4	3K058	H05B   3/00	9	単数のヒータを有するもの	having a single heater
+H05B   3/00 365 A	4	0	3K058	H05B   3/00	152	検出部を有するもの	having a detection unit
+H05B   3/00 365 B	4	1	3K058	H05B   3/00	134	温度検出によるもの	using temperature detection
+H05B   3/00 365 C	4	2	3K058	H05B   3/00	186	単数の温度検出部を有するもの	having a single temperature detection unit
+H05B   3/00 365 D	4	3	3K058	H05B   3/00	92	面状の温度検出部を有するもの	having a plane temperature detection unit
+H05B   3/00 365 E	4	4	3K058	H05B   3/00	238	負荷電流が交流のもの	AC load current
+H05B   3/00 365 F	4	4	3K058	H05B   3/00	171	負荷電流が直流のもの	DC load current
+H05B   3/00 365 G	4	2	3K058	H05B   3/00	126	複数の温度検出部を有するもの	having multiple temperature detection units
+H05B   3/00 365 H	4	3	3K058	H05B   3/00	110	周囲温度を検知するもの	Detection of the ambient temperature
+H05B   3/00 365 J	4	3	3K058	H05B   3/00	79	面状発熱体の各所の温度を検知するもの	Detection of the temperature at each position of the plane heat generating member
+H05B   3/00 365 K	4	1	3K058	H05B   3/00	116	電気的プロセス量の検出によるもの	using detection of the electrically processed volume
+H05B   3/00 365 L	4	1	3K058	H05B   3/00	25	湿度検出によるもの	using humidity detection
+H05B   3/00 365 M	4	0	3K058	H05B   3/00	91	起動時の制御	Control upon starting
+H05B   3/00 365 N	4	0	3K058	H05B   3/00	362	異常時にのみ通電遮断するもの	Power delivery shut off upon occurrence of a failure only
+H05B   3/00 365 Z	4	0	3K058	H05B   3/00	99	その他のもの	Others
+H05B   3/00 370 \	4	4	3K058	H05B   3/00	836	複数のヒータを有するもの	having multiple heaters
+H05B   3/00 375 \	3	3	3K058	H05B   3/00	77	他の機器と組合せて用いるもの	used in a combination with another component
+H05B   3/02  \	1	1	3K092	H05B   3/02	336	細部	Details
+H05B   3/02  A	1	0	3K092	H05B   3/02	1521	接続端子	Connection terminal
+H05B   3/02  B	1	1	3K092	H05B   3/02	1487	面状発熱体の端子部	Terminal of the plane heat generating member
+H05B   3/02  Z	1	0	3K092	H05B   3/02	311	その他のもの	Others
+H05B   3/03  \	2	2	3K092	H05B   3/03	1607	電極［２］	Electrodes [2]
+H05B   3/04  \	2	2	3K092	H05B   3/04	870	防水または気密ヒータ	Waterproof or air-tight seals for heaters
+H05B   3/06  \	2	2	3K092	H05B   3/06	348	結合素子または支持体と構造的に組み合わせた発熱素子	Heater elements structurally combined with coupling elements or with holders
+H05B   3/06  A	2	0	3K092	H05B   3/06	1227	棒・管状ヒータの支持	Rod or tube type heater supported
+H05B   3/06  B	2	0	3K092	H05B   3/06	603	面状発熱体の支持	plane heat generating member supported
+H05B   3/06  C	2	0	3K092	H05B   3/06	410	コイル状ヒータの支持	Coil type heater supported
+H05B   3/06  D	2	0	3K092	H05B   3/06	172	ヒータ線の止めかけ	Heater wire fastening
+H05B   3/06  Z	2	0	3K092	H05B   3/06	599	その他のもの	Others
+H05B   3/08  \	3	3	3K092	H05B   3/08	145	高温に特に適した電気的接続をもつもの	having electric connections specially adapted for high temperatures
+H05B   3/10  \	1	1	3K092	H05B   3/10	789	材料の組成または性質または導体の配置に特徴のある加熱要素［２００６．０１］	Heating elements characterised by the composition or nature of the materials or by the arrangement of the conductor [2006.01]
+H05B   3/10  A	1	0	3K092	H05B   3/10	1619	導体の配置に特徴のあるもの	characterized by the conductor layout
+H05B   3/10  B	1	0	3K092	H05B   3/10	2119	赤外線を放射するもの	radiating infrared ray
+H05B   3/10  C	1	0	3K092	H05B   3/10	1040	絶縁材料	Insulation material
+H05B   3/10  Z	1	0	3K092	H05B   3/10	622	その他のもの	Others
+H05B   3/12  \	2	2	3K092	H05B   3/12	133	導体材料の組成または性質に特徴のあるもの	characterised by the composition or nature of the conductive material
+H05B   3/12  A	2	0	3K092	H05B   3/12	940	金属	Metal
+H05B   3/12  B	2	0	3K092	H05B   3/12	312	ヒータ表面	Heater surface
+H05B   3/12  Z	2	0	3K092	H05B   3/12	178	その他のもの	Others
+H05B   3/14  \	3	3	3K092	H05B   3/14	925	材料が非金属のもの	the material being non-metallic
+H05B   3/14  A	3	0	3K092	H05B   3/14	3388	正特性抵抗発熱体［ＰＴＣ］	PTC (positive characteristic resistance heat generating member)
+H05B   3/14  B	3	0	3K092	H05B   3/14	1214	無機物	Inorganic material
+H05B   3/14  C	3	1	3K092	H05B   3/14	434	炭化ケイ素	Silicon carbide
+H05B   3/14  D	3	1	3K092	H05B   3/14	242	ケイ素・ケイ化物	Silicon or silicide
+H05B   3/14  E	3	0	3K092	H05B   3/14	472	有機物	Organic material
+H05B   3/14  F	3	1	3K092	H05B   3/14	781	炭素	Carbon
+H05B   3/14  G	3	1	3K092	H05B   3/14	406	炭素繊維	Carbon fibre
+H05B   3/14  Z	3	0	3K092	H05B   3/14	154	その他のもの	Others
+H05B   3/16  \	2	2	3K092	H05B   3/16	549	導体が絶縁基体にそう着されているもの	the conductor being mounted on an insulating base
+H05B   3/18  \	2	2	3K092	H05B   3/18	1089	導体が絶縁物質の中に埋込まれたもの	the conductor being embedded in an insulating material
+H05B   3/20  \	1	1	3K034	H05B   3/20	96	２次元の平面の表面をもつ発熱素子，例．プレートヒータ（Ｈ０５Ｂ３／６２，Ｈ０５Ｂ３／６８，Ｈ０５Ｂ３／７８，Ｈ０５Ｂ３／８４が優先）［５］	Heating elements having extended surface area substantially in a two-dimensional plane, e.g. plate-heater (H05B 3/62, H05B 3/68, H05B 3/78 take precedence)
+H05B   3/20 301 \	2	2	3K034	H05B   3/20	1056	発熱素子の形状には特定がないもの，例．材料，製法，取りつけ，その他に特定のあるもの	Shape of the heat generating device not specified, &larr; e.g. material, manufacturing method, installation, etc. specified
+H05B   3/20 303 \	2	2	3K034	H05B   3/20	70	発熱素子の形状に特定のあるもの	Shape of the heat generating device specified
+H05B   3/20 305 \	3	3	3K034	H05B   3/20	361	発熱素子がシート状のもの，例．箔，フィルム，リボン，テープ状のもの（板状，薄板状のものＨ０５Ｂ３／２０，３９６）	Sheet type heat generating device (&larr; foil, film, ribbon, tape; plate, thin plate R 396)
+H05B   3/20 307 \	4	4	3K034	H05B   3/20	75	上記発熱素子を取りつける基部が絶縁物のもの（絶縁物の素材が特定されているものＨ０５Ｂ３／２０，３１３〜Ｈ０５Ｂ３／２０，３３３）	Insulator as the base for installing the said heat generating devices (If the insulator is specified, such specification takes precedence), e.g. 313 to 333
+H05B   3/20 309 \	5	5	3K034	H05B   3/20	267	絶縁物の内部に取りつけるもの	installed inside the insulator.
+H05B   3/20 310 \	6	6	3K034	H05B   3/20	563	絶縁シートではさむもの	caught between insulation sheets
+H05B   3/20 311 \	5	5	3K034	H05B   3/20	367	絶縁物の表面に取りつけるもの	installed on the insulator surface
+H05B   3/20 312 \	6	6	3K034	H05B   3/20	240	絶縁シートの表面に取りつけるもの	installed on the insulation sheet surface
+H05B   3/20 313 \	5	5	3K034	H05B   3/20	59	上記発熱素子を取りつける基部が樹脂，例．ゴムのもの	Resin (&larr; rubber) as the base for installing the said heat generating devices
+H05B   3/20 315 \	5	5	3K034	H05B   3/20	148	樹脂の内部に取りつけるもの	installed inside the resin
+H05B   3/20 316 \	6	6	3K034	H05B   3/20	694	樹脂シートではさむもの	caught between resin sheets
+H05B   3/20 317 \	6	6	3K034	H05B   3/20	137	樹脂の表面に取りつけるもの	installed on the resin surface
+H05B   3/20 318 \	7	7	3K034	H05B   3/20	215	樹脂シートの表面に取りつけるもの	installed on the resin sheet surface
+H05B   3/20 319 \	5	5	3K034	H05B   3/20	58	上記発熱素子を取りつける基部が布状物のもの，例．繊維，合成繊維，ガラスクロス，フェルトのもの	Cloth (&larr; fibre, synthetic fibre, glass cloth, felt) as the base for installing the said heat generating device
+H05B   3/20 321 \	6	6	3K034	H05B   3/20	99	発熱素子を布状物の表面へ取りつけるもの	installing the heat generating device on the cloth surface
+H05B   3/20 322 \	6	6	3K034	H05B   3/20	93	発熱素子を布状物で包むまたははさむもの	wrapping (catching) the heat generating device with cloth
+H05B   3/20 323 \	5	5	3K034	H05B   3/20	55	上記発熱素子を取りつける基部が木のもの，例．合板のもの	Wood (&larr; plywood) as the base for attaching the said heat generating devices
+H05B   3/20 324 \	5	5	3K034	H05B   3/20	47	上記発熱素子を取りつける基部が紙のもの，例．粘着紙のもの	Paper (&larr; adhesive paper) as the base for attaching the said heat generating device
+H05B   3/20 325 \	5	5	3K034	H05B   3/20	17	上記発熱素子を取りつける基部が石綿，すなわちアスベストのもの	Asbestos as the base for attaching the said heat generating device
+H05B   3/20 326 \	5	5	3K034	H05B   3/20	105	上記発熱素子を取りつける基部がガラスのもの，例．鏡のもの（ほうろうのものＨ０５Ｂ３／２０，３３２，ガラスクロスのものＨ０５Ｂ３／２０，３１９）	Glass as the base for attaching the said heat generating device (&larr; mirror; enamel R 332, glass cloth R 319)
+H05B   3/20 326 A	5	0	3K034	H05B   3/20	196	ガラス基部にそう着されているもの	mounted on the glass base
+H05B   3/20 326 B	5	0	3K034	H05B   3/20	76	ガラス基部の中に埋込まれたもの	embedded in the glass base
+H05B   3/20 326 Z	5	0	3K034	H05B   3/20	12	その他	Others
+H05B   3/20 327 \	6	6	3K034	H05B   3/20	106	自動車用のもの	for automobiles
+H05B   3/20 327 A	6	0	3K034	H05B   3/20	215	ガラス基部にそう着されているもの	mounted on the glass base
+H05B   3/20 327 B	6	0	3K034	H05B   3/20	108	ガラス基部の中に埋込まれたもの	embedded in the glass base
+H05B   3/20 327 Z	6	0	3K034	H05B   3/20	30	その他	Others
+H05B   3/20 328 \	5	5	3K034	H05B   3/20	609	上記発熱素子を取りつける基部がセラミックのもの，例．碍子，コンクリート，石材のもの	Ceramic as the base for attaching the said heat generating device (&larr; insulator, concrete, stone)
+H05B   3/20 329 \	5	5	3K034	H05B   3/20	62	上記発熱素子を取りつける基部がマイカのもの	Mica as the base for attaching the said heat generating device
+H05B   3/20 330 \	4	4	3K034	H05B   3/20	227	上記発熱素子を取りつける基部が金属のもの（ほうろうのものＨ０５Ｂ３／２０，３３２）	Metal as the base for attaching the said heat generating device (enamel R 332)
+H05B   3/20 332 \	5	5	3K034	H05B   3/20	54	上記発熱素子を取りつける基部がほうろうのもの	Enamel as the base for attaching the said heat generating device
+H05B   3/20 333 \	4	4	3K034	H05B   3/20	19	上記発熱素子を取りつける基部が絶縁物，金属以外のもの	Other than the insulator and metal as the base for attaching the said heat generating device
+H05B   3/20 335 \	3	3	3K034	H05B   3/20	218	発熱素子がコードまたはひも状のもの，例．電熱線を用いるもの（シーズヒータを使用するものＨ０５Ｂ３／２０，３９６）	Cord (strap) type heat generating device (&larr; heating wire; using the sheathed wire heater R 396)
+H05B   3/20 337 \	4	4	3K034	H05B   3/20	77	上記発熱素子を取りつける基部が絶縁物のもの（絶縁物の素材が特定されているものＨ０５Ｂ３／２０，３４２〜Ｈ０５Ｂ３／２０，３６０）	Insulator as the base for installing the said heat generating device (If the insulator is specified, such specification takes precedence), e.g. 342 to 360
+H05B   3/20 338 \	5	5	3K034	H05B   3/20	268	絶縁物の内部に取りつけるもの	installing inside the insulator
+H05B   3/20 339 \	6	6	3K034	H05B   3/20	213	絶縁シートではさむもの	catching between insulation sheets
+H05B   3/20 340 \	5	5	3K034	H05B   3/20	291	絶縁物の表面に取りつけるもの	installing on the surface of the insulator
+H05B   3/20 341 \	6	6	3K034	H05B   3/20	73	絶縁シートの表面に取りつけるもの	installing on the surface of the insulator
+H05B   3/20 342 \	5	5	3K034	H05B   3/20	31	上記発熱素子を取りつける基部が樹脂のもの，例．ゴムのもの	Resin (&larr; rubber) as the base for installing the said heat generating device
+H05B   3/20 344 \	6	6	3K034	H05B   3/20	203	樹脂の内部に取りつけるもの	installing inside the resin
+H05B   3/20 345 \	7	7	3K034	H05B   3/20	269	樹脂シートではさむもの	catching between resin sheets
+H05B   3/20 346 \	6	6	3K034	H05B   3/20	104	樹脂の表面に取りつけるもの	installing on the surface of the resin
+H05B   3/20 347 \	7	7	3K034	H05B   3/20	103	樹脂シ−トの表面に取りつけるもの	installing on the surface of the resin sheet
+H05B   3/20 348 \	5	5	3K034	H05B   3/20	79	上記発熱素子を取りつける基部が布状物のもの，例．繊維，合成繊維，ガラスクロス，フェルトのもの	Cloth (&larr; fibre, synthetic fibre, glass cloth, felt) as the base for installing the said heat generating device
+H05B   3/20 349 \	6	6	3K034	H05B   3/20	427	発熱素子と繊維とを織って布状物にするもの	Cloth made by weaving the heat generating device and fibre
+H05B   3/20 350 \	6	6	3K034	H05B   3/20	241	発熱素子を布状物の表面へ取りつけるもの	installing the heat generating device on the cloth surface
+H05B   3/20 351 \	6	6	3K034	H05B   3/20	529	発熱素子を布状物で包むまたははさむもの	wrapping (catching) the heat generating device with cloth
+H05B   3/20 352 \	5	5	3K034	H05B   3/20	41	上記発熱素子を取りつける基部が木のもの，例．合板のもの	Wood (&larr; plywood) as the base for attaching the said heat generating devices
+H05B   3/20 353 \	5	5	3K034	H05B   3/20	37	上記発熱素子を取りつける基部が紙のもの，例．粘着紙のもの	Paper (&larr; adhesive paper) as the base for attaching the said heat generating device
+H05B   3/20 354 \	5	5	3K034	H05B   3/20	33	上記発熱素子を取りつける基部が石綿，すなわちアスベストのもの	Asbestos as the base for attaching the said heat generating device
+H05B   3/20 355 \	5	5	3K034	H05B   3/20	49	上記発熱素子を取りつける基部がガラスのもの，例．鏡のもの（ほうろうのものＨ０５Ｂ３／２０，３５９，ガラスクロスのものＨ０５Ｂ３／２０，３４８）	Glass as the base for attaching the said heat generating device (&larr; mirror; enamel R 359, glass cloth R 348)
+H05B   3/20 355 A	5	0	3K034	H05B   3/20	96	ガラス基部にそう着されているもの	mounted on the glass base
+H05B   3/20 355 B	5	0	3K034	H05B   3/20	93	ガラス基部の中に埋込まれたもの	embedded in the glass base
+H05B   3/20 355 Z	5	0	3K034	H05B   3/20	4	その他	Others
+H05B   3/20 356 \	5	5	3K034	H05B   3/20	300	上記発熱素子を取りつける基部がセラミックのもの，例．碍子，コンクリート，石材のもの	Ceramic as the base for attaching the said heat generating device (&larr; insulator, concrete, stone)
+H05B   3/20 357 \	5	5	3K034	H05B   3/20	186	上記発熱素子を取りつける基部がマイカのもの	Mica as the base for attaching the said heat generating device
+H05B   3/20 358 \	4	4	3K034	H05B   3/20	298	上記発熱素子を取りつける基部が金属のもの（ほうろうのものＨ０５Ｂ３／２０，３５９）	Metal as the base for attaching the said heat generating device (enamel R 359)
+H05B   3/20 359 \	5	5	3K034	H05B   3/20	22	上記発熱素子を取りつける基部がほうろうのもの	Enamel as the base for attaching the said heat generating device
+H05B   3/20 360 \	4	4	3K034	H05B   3/20	9	上記発熱素子を取りつける基部が絶縁物，金属以外のもの	Other than the insulator and metal as the base for attaching the said heat generating device
+H05B   3/20 361 \	3	3	3K034	H05B   3/20	146	発熱素子が網，すなわちメッシュ状のもの	Mesh type heat generating device
+H05B   3/20 363 \	4	4	3K034	H05B   3/20	21	上記発熱素子を取りつける基部が絶縁物のもの（絶縁物の素材が特定されているものＨ０５Ｂ３／２０，３６４〜Ｈ０５Ｂ３／２０，３７１）	Insulator as the base for installing the said heat generating device (If the insulator is specified, such specification takes precedence), e.g. 364 to 371
+H05B   3/20 364 \	5	5	3K034	H05B   3/20	75	上記発熱素子を取りつける基部が樹脂のもの，例．ゴムのもの	Resin (&larr; rubber) as the base for installing the said heat generating device
+H05B   3/20 365 \	5	5	3K034	H05B   3/20	47	上記発熱素子を取りつける基部が布状物のもの，例．繊維，化学繊維，ガラスクロス，フェルト板のもの	Cloth (&larr; fibre, synthetic fibre, glass cloth, felt plate) as the base for installing the said heat generating device
+H05B   3/20 367 \	5	5	3K034	H05B   3/20	15	上記発熱素子を取りつける基部がガラスのもの，例．鏡のもの（ほうろうのものＨ０５Ｂ３／２０，３６９，ガラスクロスのものＨ０５Ｂ３／２０，３６５）	Glass as the base for installing the said heat generating device (&larr; mirror; enamel R 369, glass cloth R 365)
+H05B   3/20 367 A	5	0	3K034	H05B   3/20	15	ガラス基部にそう着されているもの	mounted on the glass base
+H05B   3/20 367 B	5	0	3K034	H05B   3/20	18	ガラス基部の中に埋込まれたもの	embedded in the glass base
+H05B   3/20 367 Z	5	0	3K034	H05B   3/20	1	その他	Others
+H05B   3/20 368 \	5	5	3K034	H05B   3/20	37	上記発熱素子を取りつける基部がセラミックのもの，例．碍子，コンクリート，石材のもの	Ceramic as the base for attaching the said heat generating device (&larr; insulator, concrete, stone)
+H05B   3/20 369 \	4	4	3K034	H05B   3/20	3	上記発熱素子を取りつける基部が金属のもの，例．ほうろうのもの	Metal as the base for installing the said heat generating device (&larr; enamel)
+H05B   3/20 369 A	4	0	3K034	H05B   3/20	11	ほうろうであるもの	Enamel
+H05B   3/20 369 Z	4	0	3K034	H05B   3/20	12	その他のもの	Others
+H05B   3/20 371 \	4	4	3K034	H05B   3/20	3	上記発熱素子を取りつける基部が絶縁物，金属以外のもの	Other than the insulator and metal as the base for attaching the said heat generating device
+H05B   3/20 373 \	3	3	3K034	H05B   3/20	191	発熱素子が液状のもの，例．ペースト，塗料，インクのもの（発熱素子の形状がシート状のものＨ０５Ｂ３／２０，３０５，コード状のものＨ０５Ｂ３／２０，３３５，網状のものＨ０５Ｂ３／２０，３６１，剛板のものＨ０５Ｂ３／２０，３９６）	Liquid (paste, paint, ink) as the heat generating device (If the shape after moulding is specified, such specification takes precedence, e.g. sheet R 305 or later, cord R 335 or later, mesh R 361 or later, rigid plate R 396 or later)
+H05B   3/20 375 \	4	4	3K034	H05B   3/20	55	上記発熱素子を取りつける基部が絶縁物のもの（絶縁物の素材が特定されているものＨ０５Ｂ３／２０，３８０〜Ｈ０５Ｂ３／２０，３９５）	Insulator as the base for installing the said heat generating device (If the insulator is specified, such specification takes precedence), e.g. 380 to 395
+H05B   3/20 376 \	5	5	3K034	H05B   3/20	64	絶縁物の内部に取りつけるもの	installed inside the insulator.
+H05B   3/20 377 \	6	6	3K034	H05B   3/20	97	絶縁シートではさむもの	caught between insulation sheets
+H05B   3/20 378 \	5	5	3K034	H05B   3/20	170	絶縁物の表面に取りつけるもの	installed on the surface of the insulator
+H05B   3/20 379 \	6	6	3K034	H05B   3/20	111	絶縁シートの表面に取りつけるもの	installed on the surface of the insulation sheet
+H05B   3/20 380 \	5	5	3K034	H05B   3/20	21	上記発熱素子を取りつける基部が樹脂のもの，例．ゴムのもの	Resin (rubber) as the base for installing the said heat generating device
+H05B   3/20 382 \	6	6	3K034	H05B   3/20	82	樹脂の内部に取りつけるもの	installed inside the resin
+H05B   3/20 384 \	7	7	3K034	H05B   3/20	137	樹脂シートではさむもの	caught between resin sheets
+H05B   3/20 386 \	6	6	3K034	H05B   3/20	88	樹脂の表面に取りつけるもの	installed on the surface of the resin
+H05B   3/20 388 \	7	7	3K034	H05B   3/20	135	樹脂シートの表面に取りつけるもの	installed on the surface of the resin sheet
+H05B   3/20 389 \	5	5	3K034	H05B   3/20	93	上記発熱素子を取りつける基部が布状物のもの，例．繊維，化学繊維，ガラスクロス，フェルト板のもの	Cloth (&larr; fibre, chemical fibre, glass cloth, felt plate) as the base for installing the said heat generating device
+H05B   3/20 390 \	6	6	3K034	H05B   3/20	177	発熱素子を布状物の表面へ設けるもの	Heat generating device provided on the cloth surface
+H05B   3/20 391 \	6	6	3K034	H05B   3/20	50	発熱素子を布状物で包むまたははさむもの	Heat generating device wrapped (caught) by cloth
+H05B   3/20 392 \	5	5	3K034	H05B   3/20	94	上記発熱素子を取りつける基部がガラスのもの，例．鏡のもの（ほうろうのものＨ０５Ｂ３／２０，３９４，ガラスクロスＨ０５Ｂ３／２０，３８９）	Glass as the base for installing the said heat generating device (&larr; mirror; enamel R 394, glass cloth R389)
+H05B   3/20 392 A	5	0	3K034	H05B   3/20	158	ガラス基部にそう着されているもの	mounted on the glass base
+H05B   3/20 392 B	5	0	3K034	H05B   3/20	54	ガラス基部の中に埋込まれたもの	embedded in the glass base
+H05B   3/20 392 Z	5	0	3K034	H05B   3/20	8	その他	Others
+H05B   3/20 393 \	5	5	3K034	H05B   3/20	727	上記発熱素子を取りつける基部がセラミックのもの，例．碍子，コンクリート，石材のもの	Ceramic as the base for attaching the said heat generating device (&larr; insulator, concrete, stone)
+H05B   3/20 394 \	4	4	3K034	H05B   3/20	94	上記発熱素子を取りつける基部が金属のもの，例．ほうろうのもの	Metal as the base for installing the said heat generating device (&larr; enamel)
+H05B   3/20 395 \	4	4	3K034	H05B   3/20	5	上記発熱素子を取りつける基部が絶縁物，金属以外のもの	Other than the insulator and metal as the base for attaching the said heat generating device
+H05B   3/20 396 \	3	3	3K034	H05B   3/20	303	発熱素子が剛板または剛線状のもの，例．シーズヒータ状のもの	Rigid plate or rigid wire heat generating device (&larr; sheathed wire heater)
+H05B   3/20 397 \	4	4	3K034	H05B   3/20	172	上記発熱素子を取りつける基部が絶縁のもの	Insulator as the base for installing the said heat generating device
+H05B   3/20 397 A	4	0	3K034	H05B   3/20	7	上記基部がガラスのもの	Glass as the said base
+H05B   3/20 397 B	4	1	3K034	H05B   3/20	19	ガラス基部にそう着されているもの	mounted on the glass base
+H05B   3/20 397 C	4	1	3K034	H05B   3/20	10	ガラス基部の中に埋込まれたもの	embedded in the glass base
+H05B   3/20 397 Z	4	0	3K034	H05B   3/20	213	その他	Others
+H05B   3/20 398 \	4	4	3K034	H05B   3/20	279	上記発熱素子を取りつける基板が金属のもの	Metal as the base for installing the said heat generating device
+H05B   3/20 399 \	4	4	3K034	H05B   3/20	13	上記発熱素子を取りつける基部が絶縁物，金属以外のもの	Other than the insulator and metal as the base for attaching the said heat generating device
+H05B   3/22  \	2	2	3K034	H05B   3/22	31	非可撓性のもの	non-flexible
+H05B   3/24  \	3	3	3K034	H05B   3/24	26	発熱導体が自己支持しているもの	heating conductor being self-supporting
+H05B   3/26  \	3	3	3K034	H05B   3/26	133	絶縁基体に取り付けられた発熱導体	heating conductor mounted on insulating base
+H05B   3/28  \	3	3	3K034	H05B   3/28	148	絶縁物質に埋込まれた発熱導体	heating conductor embedded in insulating material
+H05B   3/30  \	4	4	3K034	H05B   3/30	46	金属板の上または間に設けられたもの	on or between metallic plates
+H05B   3/32  \	3	3	3K034	H05B   3/32	8	発熱導体が金属わく上の絶縁体にそう着されているもの	heating conductor mounted on insulators on a metallic frame
+H05B   3/34  \	2	2	3K034	H05B   3/34	428	可撓性のもの，例．網または織ったもの	flexible, e.g. heating nets or webs
+H05B   3/36  \	3	3	3K034	H05B   3/36	176	発熱導体が絶縁物質に埋込まれているもの	heating conductor embedded in insulating material
+H05B   3/38  \	4	4	3K034	H05B   3/38	27	粉末導体	Powder conductors
+H05B   3/40  \	1	1	3K092	H05B   3/40	122	棒あるいは管状の発熱素子（Ｈ０５Ｂ３／６２，Ｈ０５Ｂ３／６８，Ｈ０５Ｂ３／７８が優先）	Heating elements having the shape of rods or tubes (H05B 3/62, H05B 3/68, H05B 3/78 take precedence)
+H05B   3/40  A	1	0	3K092	H05B   3/40	609	流体輸送管の加熱	Heating of the fluid transportation pipe
+H05B   3/40  B	1	0	3K092	H05B   3/40	95	表皮電流による加熱	Heating by the epidermal current
+H05B   3/40  Z	1	0	3K092	H05B   3/40	362	その他のもの	Others
+H05B   3/42  \	2	2	3K092	H05B   3/42	457	非可撓性のもの	non-flexible
+H05B   3/44  \	3	3	3K092	H05B   3/44	1408	発熱導体が絶縁物の棒または管の中に配置されているもの	heating conductor arranged within rods or tubes of insulating material
+H05B   3/46  \	3	3	3K092	H05B   3/46	375	発熱導体が絶縁基体に取り付けられているもの	heating conductor mounted on insulating base
+H05B   3/48  \	3	3	3K092	H05B   3/48	2536	発熱導体が絶縁物に埋込まれているもの	heating conductor embedded in insulating material
+H05B   3/50  \	4	4	3K092	H05B   3/50	174	発熱導体が金属管中に配置され，放熱表面に導熱フィンをもつもの	heating conductor arranged in metal tubes, the radiating surface having heat-conducting fins
+H05B   3/52  \	4	4	3K092	H05B   3/52	130	管の中に絶縁物質を充てんもしくは圧縮する装置または方法	Apparatus or processes for filling or compressing insulating material in tubes
+H05B   3/54  \	2	2	3K092	H05B   3/54	161	可撓性のもの	flexible
+H05B   3/56  \	3	3	3K092	H05B   3/56	117	加熱電線	Heating cables
+H05B   3/56  A	3	0	3K092	H05B   3/56	313	発熱素線を有すもの	having a heat generating wire
+H05B   3/56  B	3	1	3K092	H05B   3/56	580	芯線に発熱素線を巻回するもの	Heat generating wire wound around the conductor
+H05B   3/56  C	3	0	3K092	H05B   3/56	73	電極間に発熱体を配するもの，例．同軸電極	Heat generating member provided between electrodes, e.g. coaxial electrodes
+H05B   3/56  D	3	1	3K092	H05B   3/56	236	並行電極を有すもの	having parallel electrodes
+H05B   3/56  Z	3	0	3K092	H05B   3/56	140	その他のもの	Others
+H05B   3/58  \	3	3	3K092	H05B   3/58	123	発熱ホース；発熱環	Heating hoses; Heating collars
+H05B   3/60  \	1	1	3K092	H05B   3/60	50	加熱電流が粒状物，粉末体または液体物質を流れる加熱装置，例．塩槽炉，電解加熱（Ｈ０５Ｂ３／３８が優先）	Heating arrangements wherein the heating current flows through granular, powdered or fluid material, e.g. for salt-bath furnace, electrolytic heating (H05B 3/38 takes precedence)
+H05B   3/60  A	1	0	3K092	H05B   3/60	119	塩槽炉	Salt-bath furnance
+H05B   3/60  B	1	0	3K092	H05B   3/60	20	被加熱物に電流が流れないもの	No current to workpieces
+H05B   3/60  Z	1	0	3K092	H05B   3/60	441	その他のもの	Others
+H05B   3/62  \	1	1	3K092	H05B   3/62	1300	炉に特に適合した発熱素子（Ｈ０５Ｂ３／６０が優先；オーム抵抗加熱を用いた炉内または炉上の電気発熱素子の構成Ｆ２７Ｄ１１／０２）	Heating elements specially adapted for furnaces (; arrangements of elements for electric heating in or on furnaces using ohmic resistance heating F27D 11/02)
+H05B   3/64  \	2	2	3K092	H05B   3/64	267	帯状，棒状または線状発熱体を用いたもの	using ribbon, rod, or wire heater
+H05B   3/66  \	2	2	3K092	H05B   3/66	255	側壁または屋根の上または中に発熱体を支持または装着するもの	Supports or mountings for heaters on or in the wall or roof
+H05B   3/68  \	1	1	3K092	H05B   3/68	1216	特に料理板あるいは類似加熱板に適した加熱装置（Ｈ０５Ｂ３／７０，Ｈ０５Ｂ３／７２，Ｈ０５Ｂ３／７４よりもＨ０５Ｂ３／７６が優先）	Heating arrangements specially adapted for cooking plates or analogous hot-plates
+H05B   3/70  \	2	2	3K092	H05B   3/70	225	鋳造金属板	Plates of cast metal
+H05B   3/72  \	2	2	3K092	H05B   3/72	146	板金からなる熱板	Plates of sheet metal
+H05B   3/74  \	2	2	3K092	H05B   3/74	1174	非金属板	Non-metallic plates
+H05B   3/76  \	2	2	3K092	H05B   3/76	209	らせん状に巻いた発熱管をもつ熱板	Plates with spirally-wound heating tubes
+H05B   3/78  \	1	1	3K092	H05B   3/78	667	特に投込み加熱に適した加熱装置	Heating arrangements specially adapted for immersion heating
+H05B   3/80  \	2	2	3K092	H05B   3/80	37	携帯投込み発熱体	Portable immersion heaters
+H05B   3/82  \	2	2	3K092	H05B   3/82	191	投込み発熱体を固定してあるもの	Fixedly-mounted immersion heaters
+H05B   3/84  \	1	1	3K034	H05B   3/84	1595	透明または反射部分に特に適合した加熱装置，例．窓，鏡，または車両の風防ガラスを防曇または防氷するためのもの［５］	Heating arrangements specially adapted for transparent or reflecting areas, e.g. for demisting or de-icing windows, mirrors or vehicle windshields
+H05B   3/86  \	2	2	3K034	H05B   3/86	1067	発熱導体が透明または反射物質の中に埋込まれたもの［５］	the heating conductors being embedded in the transparent or reflecting material
+H05B   6/00  \	0	0	3K059	H05B   6/00	44	電界，磁界または電磁界による加熱［２００６．０１］	Heating by electric, magnetic, or electromagnetic fields (radiation therapy using microwaves A61N 5/02) [3]
+H05B   6/02  \	1	1	3K059	H05B   6/02	115	誘導加熱［３］	Induction heating [3]
+H05B   6/02  A	1	0	3K059	H05B   6/02	138	狭義の誘導加熱に入らないもの，例．永久磁石を回転させるもの	Not included in induction heating in a narrow sense, e.g. rotation of a permanent magnet
+H05B   6/02  B	1	0	3K059	H05B   6/02	55	他の機器〔例，照明器具・ガス器具〕との組み合わせ	Combination with another component, e.g. lighting device, gas device
+H05B   6/02  Z	1	0	3K059	H05B   6/02	380	その他のもの	Others
+H05B   6/04  \	2	2	3K059	H05B   6/04	10	電流源［３］	Sources of current [3]
+H05B   6/04 301 \	3	3	3K059	H05B   6/04	106	主回路，用途に特定のあるものはその用途に分類する。（たとえば，調理器→６／１２３２０，誘導炉→６／１０以下）	Main circuit. If the application is specified, such specification takes precedence. (e.g. cooking device R 6/12320, induction furnace R 6/10 or below)
+H05B   6/04 311 \	4	4	3K059	H05B   6/04	40	低周波電流源（商用電源）	Low-frequency current source (commercial power supply)
+H05B   6/04 321 \	4	4	3K059	H05B   6/04	437	高周波電流源	High-frequency current source
+H05B   6/04 331 \	3	3	3K059	H05B   6/04	120	保護回路	Protection circuit
+H05B   6/06  \	2	2	3K059	H05B   6/06	314	制御，例．温度の制御，電力の制御［３］	Control, e.g. of temperature, of power [3]
+H05B   6/06 301 \	3	3	3K059	H05B   6/06	342	制御回路	Control circuit
+H05B   6/06 311 \	3	3	3K059	H05B   6/06	12	フイ−ドバツク制御	Feedback control
+H05B   6/06 321 \	4	4	3K059	H05B   6/06	11	低周波用	for low frequency
+H05B   6/06 325 \	5	5	3K059	H05B   6/06	2	電源のある状態（電源オン）を検出することによる制御	Control by detecting the state of power existence (power on)
+H05B   6/06 331 \	5	5	3K059	H05B   6/06	31	電源電力（電流を含む）を検出することによる制御	Control by detecting the power of the power supply (including the current)
+H05B   6/06 335 \	5	5	3K059	H05B   6/06	11	電源電圧を検出することによる制御	Control by detecting the supply voltage
+H05B   6/06 341 \	5	5	3K059	H05B   6/06	13	周波数を検出することによる制御	Control by detecting the frequency
+H05B   6/06 345 \	5	5	3K059	H05B   6/06	5	力率を検出することによる制御	Control by detecting the power factor
+H05B   6/06 351 \	5	5	3K059	H05B   6/06	55	負荷の温度を検出することによる制御	Control by detecting the load temperature
+H05B   6/06 355 \	5	5	3K059	H05B   6/06	12	負荷の状態を検出することによる制御	Control by detecting the load state
+H05B   6/06 361 \	4	4	3K059	H05B   6/06	183	高周波用	for high frequency
+H05B   6/06 363 \	5	5	3K059	H05B   6/06	28	電源のある状態（電源オン）を検出することによる制御	Control by detecting the state of power existence (power on)
+H05B   6/06 366 \	5	5	3K059	H05B   6/06	129	インバ−タの入力電力（電流を含む）を検出することによる制御	Control by detecting the inverter input power (including the current)
+H05B   6/06 369 \	5	5	3K059	H05B   6/06	53	インバ−タの入力電圧を検出することによる制御	Control by detecting the inverter input voltage
+H05B   6/06 371 \	5	5	3K059	H05B   6/06	39	スイツチング素子の電流を検出することによる制御	Control by detecting the current of the switching device
+H05B   6/06 373 \	5	5	3K059	H05B   6/06	32	スイツチング素子の電圧を検出することによる制御	Control by detecting the voltage of the switching device
+H05B   6/06 376 \	5	5	3K059	H05B   6/06	6	インバ−タのスイツチング素子以外の補助部品（転流コンデンサ，フライホイルダイオ−ド）の電流を検出することによる制御	Control by detecting the current of the inverter's supplementary part other than the switching device (commutating capacitor, flywheel diode)
+H05B   6/06 379 \	5	5	3K059	H05B   6/06	10	インバ−タのスイツチング素子以外の補助部品（転流コンデンサ，フライホイルダイオ−ド）の電圧を検出することによる制御	Control by detecting the voltage of the inverter's supplementary part other than the switching device (commutating capacitor, flywheel diode)
+H05B   6/06 381 \	5	5	3K059	H05B   6/06	238	インバ−タの出力電力（電流を含む）を検出することによる制御	Control by detecting the inverter's output power (including the current)
+H05B   6/06 383 \	5	5	3K059	H05B   6/06	126	インバ−タの出力電圧を検出することによる制御	Control by detecting the inverter's output voltage
+H05B   6/06 386 \	5	5	3K059	H05B   6/06	110	インバ−タの出力周波数を検出することによる制御	Control by detecting the inverter's output frequency
+H05B   6/06 389 \	5	5	3K059	H05B   6/06	12	インバ−タのある状態（タ−ンオフ時間）を検出することによる制御	Control by detecting a state of the inverter (turn-off period)
+H05B   6/06 391 \	5	5	3K059	H05B   6/06	165	被加熱物（負荷）のある状態を検出することによる制御	Control by detecting a state of the heated object (load)
+H05B   6/06 393 \	5	5	3K059	H05B   6/06	548	被加熱物（負荷）の温度を検出することによる制御	Control by detecting the temperature of the heated object (load)
+H05B   6/08  \	3	3	3K059	H05B   6/08	51	補償装置あるいは平衡装置を用いたもの［３］	using compensating or balancing arrangements [3]
+H05B   6/10  \	2	2	3K059	H05B   6/10	231	特殊な応用のための炉以外の誘導加熱装置［３］	Induction heating apparatus, other than furnaces, for specific applications [3]
+H05B   6/10 301 \	3	3	3K059	H05B   6/10	213	気体の誘導加熱装置	Gas induction heating device
+H05B   6/10 311 \	3	3	3K059	H05B   6/10	610	液体の誘導加熱装置	Liquid induction heating device
+H05B   6/10 321 \	3	3	3K059	H05B   6/10	88	粉状体の誘導加熱装置	Powder induction heating device
+H05B   6/10 331 \	3	3	3K059	H05B   6/10	942	単品の誘導加熱装置（←堅型炉）	Single-unit induction heating device (&larr; vertical furnace)
+H05B   6/10 341 \	3	3	3K059	H05B   6/10	489	連続品（ビレツト）の誘導加熱装置（←トンネル炉）	Continuous product (billet) induction heating device (&larr; tunnel furnace)
+H05B   6/10 351 \	3	3	3K059	H05B   6/10	142	線状体の誘導加熱装置	Wire member induction heating device
+H05B   6/10 361 \	3	3	3K059	H05B   6/10	368	無限の棒（管）状体の誘導加熱装置（有限の棒・筒→３７１）	Unlimited rod (tube) member induction heating device (limited rod/cylinder R 371)
+H05B   6/10 371 \	3	3	3K059	H05B   6/10	793	有限の棒（管・筒）状体の誘導加熱装置	Limited rod (tube/cylinder) member induction heating device
+H05B   6/10 381 \	3	3	3K059	H05B   6/10	1091	帯・板状体の誘導加熱装置	Belt/plate member induction heating device
+H05B   6/12  \	3	3	3K151	H05B   6/12	68	調理器［３］	Cooking devices [3]
+H05B   6/12 301 \	4	4	3K151	H05B   6/12	101	狭義の誘導加熱調理器に入らないもの，例．永久磁石を回転させるもの	not included in induction heating cooking devices in a narrow sense, e.g. rotation of a permanent magnet
+H05B   6/12 302 \	4	4	3K151	H05B   6/12	816	他の機器，例．超音波技術装置，との組み合わせ	Combination with another component, e.g. device using ultrasonic technology
+H05B   6/12 303 \	4	4	3K151	H05B   6/12	834	複数の誘導加熱調理器	Multiple induction heating cooking devices
+H05B   6/12 304 \	4	4	3K151	H05B   6/12	397	誘導加熱調理器の回路装置	Circuit devices of multiple induction heating cooking devices
+H05B   6/12 305 \	5	5	3K151	H05B   6/12	1292	上板	Upper plate
+H05B   6/12 306 \	6	6	3K151	H05B   6/12	24	上板のひび割れ検知	Upper plate crack detection
+H05B   6/12 307 \	6	6	3K151	H05B   6/12	303	上板の上へ載置されるもの，例．発熱用マツト	mounted on the upper plate, e.g. heat generating mat
+H05B   6/12 308 \	5	5	3K151	H05B   6/12	1284	誘導加熱コイル	Induction heating coil
+H05B   6/12 309 \	6	6	3K151	H05B   6/12	82	コイルの巻回数を変えることによる磁界均一化	Making the magnetic field even by changing the number of turns on the coil
+H05B   6/12 310 \	6	6	3K151	H05B   6/12	48	コイルの上下移動	Moving the coil vertically
+H05B   6/12 311 \	6	6	3K151	H05B   6/12	85	コイルの製造方法	Coil manufacturing method
+H05B   6/12 312 \	5	5	3K151	H05B   6/12	1416	表示部	Indication unit
+H05B   6/12 313 \	5	5	3K151	H05B   6/12	1366	制御・操作部	Control or operation unit
+H05B   6/12 314 \	5	5	3K151	H05B   6/12	1019	誘導加熱調理器用鍋	Pan for the induction heating cooking device
+H05B   6/12 315 \	6	6	3K151	H05B   6/12	438	適正鍋の有無の検知	Detection of presence/absence of the proper pan
+H05B   6/12 316 \	6	6	3K151	H05B   6/12	183	鍋の適正位置の検知	Detection of the pan's proper position
+H05B   6/12 317 \	5	5	3K151	H05B   6/12	1585	冷却部	Cooling unit
+H05B   6/12 318 \	5	5	3K151	H05B   6/12	1215	温度検知部	Temperature sensor
+H05B   6/12 319 \	5	5	3K151	H05B   6/12	530	シ−ルド部（ア−ス部も含む）	Shield (including earth)
+H05B   6/12 320 \	4	4	3K151	H05B   6/12	60	誘導加熱調理器の回路	Circuit of the induction heating cooking device
+H05B   6/12 321 \	5	5	3K151	H05B   6/12	23	商用周波数を加熱コイルに与える回路	Circuit that gives the commercial frequency to the heater coil
+H05B   6/12 322 \	5	5	3K151	H05B   6/12	59	高周波誘導加熱調理器の回路	Circuit of the high-frequency induction heating cooking device
+H05B   6/12 323 \	6	6	3K151	H05B   6/12	418	主回路	Main circuit
+H05B   6/12 324 \	6	6	3K151	H05B   6/12	1512	制御回路（フイ−ドバツク制御を除く）	Control circuit (excluding feedback control)
+H05B   6/12 325 \	6	6	3K151	H05B   6/12	76	フイ−ドバツク制御回路	Feedback control circuit
+H05B   6/12 326 \	7	7	3K151	H05B   6/12	159	電源のある状態を検出することによる制御	Control by detecting the state of power existence
+H05B   6/12 327 \	7	7	3K151	H05B   6/12	501	インバ−タの入力電力（電流を含む）を検出することによる制御	Control by detecting the inverter's input power (including the current)
+H05B   6/12 328 \	7	7	3K151	H05B   6/12	152	インバ−タの入力電圧を検出することによる制御	Control by detecting the inverter's input voltage
+H05B   6/12 329 \	7	7	3K151	H05B   6/12	106	スイツチング素子の電流を検出することによる制御	Control by detecting the current of the switching device
+H05B   6/12 330 \	7	7	3K151	H05B   6/12	169	スイツチング素子の電圧を検出することによる制御	Control by detecting the voltage of the switching device
+H05B   6/12 331 \	7	7	3K151	H05B   6/12	447	インバ−タ出力の出力電力（電流を含む）を検出することによる制御	Control by detecting the output power (including the current) of the inverter output
+H05B   6/12 332 \	7	7	3K151	H05B   6/12	135	インバ−タ出力電圧を検出することによる制御	Control by detecting the inverter's output voltage
+H05B   6/12 333 \	7	7	3K151	H05B   6/12	127	インバ−タ出力周波数を検出することによる制御	Control by detecting the inverter's output frequency
+H05B   6/12 334 \	7	7	3K151	H05B   6/12	600	負荷のある状態（例えば，不適切鍋）を検出することによる調節	Control by detecting the state of load presence, e.g. improper pan
+H05B   6/12 335 \	8	8	3K151	H05B   6/12	1191	負荷の温度を検出することによる制御	Control by detecting the load temperature
+H05B   6/14  \	3	3	3K059	H05B   6/14	2224	器具，例．ノズル，ローラー，カレンダー［３］	Tools, e.g. nozzles, rollers, calenders [3]
+H05B   6/16  \	2	2	3K059	H05B   6/16	246	環状鉄心を有する炉（Ｈ０５Ｂ６／３４が優先）［３］	Furnaces having endless cores (H05B 6/34 takes precedence) [3]
+H05B   6/18  \	3	3	3K059	H05B   6/18	42	溶融槽をもつもの［３］	having melting basin [3]
+H05B   6/20  \	3	3	3K059	H05B   6/20	5	溶融チャンネルのみをもつもの［３］	having melting channel only [3]
+H05B   6/22  \	2	2	3K059	H05B   6/22	171	環状鉄心を有しない炉（Ｈ０５Ｂ６／３４が優先）［３］	Furnaces without an endless core (H05B 6/34 takes precedence) [3]
+H05B   6/24  \	3	3	3K059	H05B   6/24	602	るつぼ炉（Ｈ０５Ｂ６／３０が優先）［３］	Crucible furnaces (H05B 6/30 takes precedence) [3]
+H05B   6/26  \	4	4	3K059	H05B   6/26	136	真空または特殊ガスによる雰囲気を用いるもの［３］	using vacuum or particular gas atmosphere [3]
+H05B   6/28  \	4	4	3K059	H05B   6/28	122	保護装置［３］	Protective systems [3]
+H05B   6/30  \	3	3	3K059	H05B   6/30	71	再溶融装置または帯域溶融装置［３］	Arrangements for remelting or zone melting [3]
+H05B   6/32  \	3	3	3K059	H05B   6/32	234	浮揚溶融装置［３］	Arrangements for simultaneous levitation and heating [3]
+H05B   6/34  \	2	2	3K059	H05B   6/34	58	溶湯の攪拌装置［３］	Arrangements for circulation of melts [3]
+H05B   6/36  \	2	2	3K059	H05B   6/36	185	コイル［３］	Coil arrangements [3]
+H05B   6/36  A	2	0	3K059	H05B   6/36	162	コイルの製造に関するもの	related to coil manufacture
+H05B   6/36  B	2	1	3K059	H05B   6/36	171	材料	Material
+H05B   6/36  C	2	1	3K059	H05B   6/36	79	巻きとり	Take-up
+H05B   6/36  D	2	0	3K059	H05B   6/36	595	コイルの形状に関するもの	related to the coil shape
+H05B   6/36  E	2	1	3K059	H05B   6/36	467	空心コイル	Air-core coil
+H05B   6/36  F	2	1	3K059	H05B   6/36	384	炉用コイル、焼入れ用・特殊形状のコイル→６／３８，６／４０	Coils for furnaces; coils for quenching or with a special shape R 6/38, 6/40
+H05B   6/36  Z	2	0	3K059	H05B   6/36	395	その他のもの	Others
+H05B   6/38  \	3	3	3K059	H05B   6/38	123	被加熱物のくぼみ部分に嵌め合せるようにしたもの［３］	specially adapted for fitting into hollow spaces of workpieces [3]
+H05B   6/40  \	3	3	3K059	H05B   6/40	956	希望する熱分布の確立，例．被加熱物の特定部分の加熱［３］	Establishing desired heat distribution, e.g. to heat particular parts of workpieces [3]
+H05B   6/42  \	3	3	3K059	H05B   6/42	518	コイルの冷却［３］	Cooling of coils [3]
+H05B   6/44  \	3	3	3K059	H05B   6/44	1180	２個以上のコイルまたは２個以上のコイル区分を有するもの［３］	having more than one coil or coil segment [3]
+H05B   6/46  \	1	1	3K090	H05B   6/46	436	誘電加熱（Ｈ０５Ｂ６／６４が優先）［３］	Dielectric heating (H05B 6/64 take precedence) [3]
+H05B   6/48  \	2	2	3K086	H05B   6/48	165	回路［３］	Circuits [3]
+H05B   6/50  \	3	3	3K086	H05B   6/50	102	監視または制御のためのもの［３］	for monitoring or control [3]
+H05B   6/52  \	2	2	3K090	H05B   6/52	31	給電路［３］	Feed lines [3]
+H05B   6/54  \	2	2	3K090	H05B   6/54	569	電極［３］	Electrodes [3]
+H05B   6/56  \	3	3	3K090	H05B   6/56	10	回転電極［３］	Rolling electrodes [3]
+H05B   6/58  \	3	3	3K090	H05B   6/58	0	“ミシン”型［３］	"sewing machine" type [3]
+H05B   6/60  \	2	2	3K090	H05B   6/60	35	被加熱材の連続移動装置［３］	Arrangements for continuous movement of material [3]
+H05B   6/62  \	2	2	3K090	H05B   6/62	105	特殊応用装置［３］	Apparatus for specific applications [3]
+H05B   6/64  \	1	1	3K090	H05B   6/64	62	マイクロ波を用いた加熱［３］	Heating using microwaves [3]
+H05B   6/64  A	1	0	3K090	H05B   6/64	1037	冷却	Cooling
+H05B   6/64  B	1	1	3K090	H05B   6/64	551	プロペラフアンを用いるもの	using a propeller fan
+H05B   6/64  C	1	0	3K090	H05B   6/64	981	取付，照明	Installation or lighting
+H05B   6/64  D	1	0	3K090	H05B   6/64	1108	加熱室	Heating chamber
+H05B   6/64  E	1	0	3K090	H05B   6/64	656	安全，ドアスイツチ	Safety or door switch
+H05B   6/64  F	1	1	3K090	H05B   6/64	180	状態検知手段を備えるもの	equipped with a means of state detection
+H05B   6/64  G	1	0	3K090	H05B   6/64	193	半導体素子によるマイクロ波の発生	Microwave generation by a semiconductor device
+H05B   6/64  H	1	0	3K090	H05B   6/64	122	反射手段	Reflection means
+H05B   6/64  J	1	0	3K090	H05B   6/64	676	容器	Container
+H05B   6/64  K	1	0	3K090	H05B   6/64	198	表示	Indication
+H05B   6/64  Z	1	0	3K090	H05B   6/64	589	その他のもの	Others
+H05B   6/66  \	2	2	3K086	H05B   6/66	9	回路［３］	Circuits [3]
+H05B   6/66  A	2	0	3K086	H05B   6/66	441	回路の機械的構成	Mechanical configuration of a circuit
+H05B   6/66  B	2	0	3K086	H05B   6/66	609	高周波電源回路	High-frequency power supply circuit
+H05B   6/66  C	2	0	3K086	H05B   6/66	88	マイクロ波発生源として半導体素子を用いるもの	using a semiconductor device as the microwave generation source
+H05B   6/66  Z	2	0	3K086	H05B   6/66	205	その他のもの	Others
+H05B   6/68  \	3	3	3K086	H05B   6/68	60	監視または制御のためのもの［３］	for monitoring or control [3]
+H05B   6/68 310 \	4	4	3K086	H05B   6/68	3	アナログ制御回路（含表示，送風回路）	Analogue control circuit (including indication and blower circuits)
+H05B   6/68 310 A	4	0	3K086	H05B   6/68	240	表示回路，報知回路の制御	Control of the indication circuit or reporting circuit
+H05B   6/68 310 B	4	0	3K086	H05B   6/68	134	送風回路の制御	Control of the blower circuit
+H05B   6/68 310 Z	4	0	3K086	H05B   6/68	272	その他のもの	Others
+H05B   6/68 320 \	5	5	3K086	H05B   6/68	5	マグネトロンの制御回路	Magnetron control circuit
+H05B   6/68 320 A	5	0	3K086	H05B   6/68	358	高周波電源を用いるもの	using a high-frequency power supply
+H05B   6/68 320 B	5	0	3K086	H05B   6/68	146	マグネトロンの励磁を制御するもの	Control of magnetron excitation
+H05B   6/68 320 C	5	0	3K086	H05B   6/68	289	起動時制御	Control upon starting
+H05B   6/68 320 D	5	0	3K086	H05B   6/68	420	出力可変制御	Output variable control
+H05B   6/68 320 E	5	0	3K086	H05B   6/68	95	起動時制御と出力可変制御の両方を行うもの	Both control upon starting and output variable control performed
+H05B   6/68 320 F	5	0	3K086	H05B   6/68	110	出力一定制御	Output constant control
+H05B   6/68 320 G	5	0	3K086	H05B   6/68	147	加熱設定手段を伴うもの	accompanied by a heating setup means
+H05B   6/68 320 H	5	1	3K086	H05B   6/68	132	カム機構等により加熱設定を行うもの	Heating set up by the cam mechanism, etc.
+H05B   6/68 320 J	5	2	3K086	H05B   6/68	30	既存のモ−タ機構に連動するもの	linked with the existing motor mechanism
+H05B   6/68 320 K	5	3	3K086	H05B   6/68	149	タイマ機構に連動するもの	linked with the timer mechanism
+H05B   6/68 320 L	5	1	3K086	H05B   6/68	191	加熱時間設定を伴うもの，すなわち時間制御回路	accompanied by heating time setup i.e. time control circuit
+H05B   6/68 320 M	5	0	3K086	H05B   6/68	362	加熱状態検知手段を伴うもの	accompanied by a means of heating state detection
+H05B   6/68 320 N	5	1	3K086	H05B   6/68	310	重量検知	Weight detection
+H05B   6/68 320 P	5	1	3K086	H05B   6/68	316	電磁波検知	Electromagnetic wave detection
+H05B   6/68 320 Q	5	1	3K086	H05B   6/68	530	赤外線検知	Infrared ray detection
+H05B   6/68 320 R	5	1	3K086	H05B   6/68	284	湿度検知	Humidity detection
+H05B   6/68 320 S	5	1	3K086	H05B   6/68	520	感熱抵抗体，例．サ−ミスタ	Thermo-sensitive resistor, e.g. thermistor
+H05B   6/68 320 T	5	1	3K086	H05B   6/68	189	加熱状態検知信号をワイヤレスで送信するもの	Heating state detection signal transmitted in wireless mode
+H05B   6/68 320 U	5	0	3K086	H05B   6/68	136	加熱時間設定手段と加熱状態検知手段の両方を伴うもの	accompanied by both heating time setup means and heating state detection means
+H05B   6/68 320 V	5	1	3K086	H05B   6/68	188	加熱状態検知信号により加熱設定時間を制御するもの	Heating setup time controlled by the heating state detection signal
+H05B   6/68 320 Z	5	0	3K086	H05B   6/68	72	その他のもの	Others
+H05B   6/68 330 \	5	5	3K086	H05B   6/68	6	安全回路（異常電圧，電流，異常加熱の検知；ドアスイツチ回路，フイルタ−回路）	Safety circuit (abnormal voltage, current, abnormal heating detection; door switch circuit, filter circuit)
+H05B   6/68 330 A	5	0	3K086	H05B   6/68	334	異常電圧，電流を検知するもの	Detection of the abnormal voltage or current
+H05B   6/68 330 B	5	0	3K086	H05B   6/68	74	異常加熱状態を検知するもの	Detection of the abnormal heating state
+H05B   6/68 330 C	5	1	3K086	H05B   6/68	97	異常電磁波状態を検知	Detection of the abnormal electromagnetic wave state
+H05B   6/68 330 D	5	1	3K086	H05B   6/68	185	異常温度を検知	Detection of the abnormal temperature
+H05B   6/68 330 E	5	0	3K086	H05B   6/68	272	ドアスイツチ回路	Door switch circuit
+H05B   6/68 330 F	5	0	3K086	H05B   6/68	111	フイルタ−回路	Filter circuit
+H05B   6/68 330 Z	5	0	3K086	H05B   6/68	197	その他のもの	Others
+H05B   6/68 340 \	4	4	3K086	H05B   6/68	246	デイジタル制御回路（３１０が優先）	Digital control circuit (310 takes precedence.)
+H05B   6/68 350 \	5	5	3K086	H05B   6/68	3	マグネトロンの制御回路	Magnetron control circuit
+H05B   6/68 350 A	5	0	3K086	H05B   6/68	132	加熱時間設定手段を伴うもの，すなわち時間制御回路	accompanied by the heating time setup means i.e. time control circuit
+H05B   6/68 350 B	5	0	3K086	H05B   6/68	83	加熱状態検知手段を伴うもの	accompanied by the heating state detection means
+H05B   6/68 350 C	5	0	3K086	H05B   6/68	70	加熱時間設定手段と加熱状態検知手段の両方を伴うもの	accompanied by both heating time setup means and heating state detection means
+H05B   6/68 350 D	5	1	3K086	H05B   6/68	132	加熱状態検知信号により加熱設定時間を制御するもの	Control of the heating setup time by the heating state detection signal
+H05B   6/68 350 Z	5	0	3K086	H05B   6/68	84	その他のもの	Others
+H05B   6/68 360 \	5	5	3K086	H05B   6/68	168	安全回路	Safety circuit
+H05B   6/68 370 \	4	4	3K086	H05B   6/68	127	マイクロ波発生源として半導体素子を用いるもの	using a semiconductor device as the microwave generation source
+H05B   6/70  \	2	2	3K090	H05B   6/70	8	給電路［３］	Feed lines [3]
+H05B   6/70  A	2	0	3K090	H05B   6/70	123	ストリツプ線路、表面波線路	Strip channel, surface wave
+H05B   6/70  B	2	0	3K090	H05B   6/70	71	ラダ−導波管、リツジ付導波管	Ladder wave guide, ridged wave guide
+H05B   6/70  C	2	0	3K090	H05B   6/70	301	給電路における整合濾波〔例．スタブ，オリフイスによるもの〕	Matching and filtering in the feeder channel, e.g. using the stub or orifice
+H05B   6/70  D	2	0	3K090	H05B   6/70	68	同軸線	Coaxial line
+H05B   6/70  E	2	0	3K090	H05B   6/70	612	導波管	Wave guide
+H05B   6/70  F	2	0	3K090	H05B   6/70	228	複数伝幡路，複数の周波数の合成・分離	Synthesising or separation of multiple propagation channels or multiple frequencies
+H05B   6/70  Z	2	0	3K090	H05B   6/70	33	その他のもの	Others
+H05B   6/72  \	2	2	3K090	H05B   6/72	37	放射器またはアンテナ［３］	Radiators or aerials [3]
+H05B   6/72  A	2	0	3K090	H05B   6/72	698	給電口の回転、回転アンテナ	Feeder port rotation, rotary antenna
+H05B   6/72  B	2	0	3K090	H05B   6/72	127	線状の放射	Linear radiation
+H05B   6/72  C	2	0	3K090	H05B   6/72	350	アンテナ	Antenna
+H05B   6/72  D	2	0	3K090	H05B   6/72	579	給電口	Feeder port
+H05B   6/72  Z	2	0	3K090	H05B   6/72	41	その他のもの	Others
+H05B   6/74  \	2	2	3K090	H05B   6/74	6	モード変換またはモード攪拌［３］	Mode transformers or mode stirrers [3]
+H05B   6/74  A	2	0	3K090	H05B   6/74	744	電波吸収体を介する加熱	Heating via an electrowave absorber
+H05B   6/74  B	2	0	3K090	H05B   6/74	136	表面波線路	Surface wave channel
+H05B   6/74  C	2	0	3K090	H05B   6/74	88	ラダ−導波管、リツジ付導波管	Ladder wave guide, ridged wave guide
+H05B   6/74  D	2	0	3K090	H05B   6/74	249	複数の伝幡路によるもの、サ−キユレ−タによる分離〔含、複数の発振器〕	using multiple propagation channels, separation by a circulator (including multiple oscillators)
+H05B   6/74  E	2	0	3K090	H05B   6/74	934	均一，電界分布，反射	Uniformalisation, electric field distribution, reflection
+H05B   6/74  F	2	0	3K090	H05B   6/74	522	モ−ド撹拌〔スタ−ラ，可動反射板〕一般及び駆動法	Mode stirring (stirrer, movable reflection plate) in general and drive method
+H05B   6/74  G	2	1	3K090	H05B   6/74	126	マグネトロンアンテナ，ストリツプアンテナと同軸，同位置	Magnetron antenna coaxial with or same position as the strip antenna
+H05B   6/74  H	2	1	3K090	H05B   6/74	141	結合アンテナ，放射口と同軸上	Coupled antenna coaxial with the radiation port
+H05B   6/74  J	2	1	3K090	H05B   6/74	227	アンテナ，放射口からずれている	Antenna deviating from the radiation port
+H05B   6/74  K	2	1	3K090	H05B   6/74	315	羽根の形状，材質	Blade shape or material
+H05B   6/74  L	2	1	3K090	H05B   6/74	246	軸，支持部	Shaft or support
+H05B   6/74  Z	2	0	3K090	H05B   6/74	33	その他のもの	Others
+H05B   6/76  \	2	2	3K090	H05B   6/76	20	マイクロ波漏洩防止，例．ドアシール［３］	Prevention of microwave leakage, e.g. door sealings [3]
+H05B   6/76  A	2	0	3K090	H05B   6/76	532	シ−ル材〔気密一般〕	Sealant (airtightness in general)
+H05B   6/76  B	2	0	3K090	H05B   6/76	157	電波吸収体〔材料〕	Electromagnetic wave absorber (material)
+H05B   6/76  C	2	0	3K090	H05B   6/76	281	チヨ−クシ−ル一般，誘電体チヨ−ク，ドア以外	Choke seal in general other than the dielectric choke and door
+H05B   6/76  F	2	1	3K090	H05B   6/76	389	周期体〔付加仕切板１又は０〕	Cyclic member (additional division plate 1 or 0)
+H05B   6/76  G	2	1	3K090	H05B   6/76	306	断面複雑，多チヨ−ク並置	Complex cross section, multiple chokes laid out in parallel
+H05B   6/76  H	2	1	3K090	H05B   6/76	267	チヨ−クカバ−，チヨ−クに吸収体付加	Absorber added to the choke cover or choke
+H05B   6/76  D	2	0	3K090	H05B   6/76	639	扉装置	Door device
+H05B   6/76  E	2	0	3K090	H05B   6/76	492	窓	Window
+H05B   6/76  Z	2	0	3K090	H05B   6/76	411	その他のもの	Others
+H05B   6/78  \	2	2	3K090	H05B   6/78	22	被加熱材の連続移動装置［３］	Arrangements for continuous movement of material [3]
+H05B   6/78  A	2	0	3K090	H05B   6/78	656	タ−ンテ−ブル一般	Turntable in general
+H05B   6/78  D	2	1	3K090	H05B   6/78	143	タ−ンテ−ブルの揺動〔上下，横〕	Turntable rocking (vertical, horizontal)
+H05B   6/78  E	2	1	3K090	H05B   6/78	415	タ−ンテ−ブル軸のカプリング	Turntable shaft coupling
+H05B   6/78  F	2	1	3K090	H05B   6/78	381	軸が歯車モ−タに直結	Shaft directly connected to the gear motor
+H05B   6/78  G	2	1	3K090	H05B   6/78	278	台車，支持台	Carriage, supporting stand
+H05B   6/78  H	2	1	3K090	H05B   6/78	229	磁石等で間接駆動	Indirect drive by a magnet, etc.
+H05B   6/78  B	2	0	3K090	H05B   6/78	441	コンベヤ等平行移動	Parallel motion of conveyers, etc.
+H05B   6/78  C	2	1	3K090	H05B   6/78	446	導波管中をコンベヤが貫通	Conveyer penetrating the wave guide
+H05B   6/78  Z	2	0	3K090	H05B   6/78	88	その他のもの	Others
+H05B   6/80  \	2	2	3K090	H05B   6/80	50	特殊応用装置（マイクロ波を用いて加熱するストーブまたはレンジＦ２４Ｃ７／０２）［３］	Apparatus for specific applications (stoves or ranges heated&nbsp;using microwaves&nbsp;F24C 7/02) [3]
+H05B   6/80  A	2	0	3K090	H05B   6/80	115	マイクロ波溶融	Fusing with microwave
+H05B   6/80  Z	2	0	3K090	H05B   6/80	1104	その他のもの	Others
+H05B   7/00  \	0	0	3K084	H05B   7/00	15	放電加熱（プラズマトーチＨ０５Ｈ１／２６）	Heating by electric discharge (plasma torches H05H 1/26)
+H05B   7/00  B	0	0	3K084	H05B   7/00	243	電子ビ−ム	Electron beam
+H05B   7/00  Z	0	0	3K084	H05B   7/00	61	その他	Others
+H05B   7/02  \	1	1	3K084	H05B   7/02	3	細部	Details
+H05B   7/02  A	1	0	3K084	H05B   7/02	36	撹拌	Stirring
+H05B   7/02  B	1	0	3K084	H05B   7/02	59	炉蓋	Oven door
+H05B   7/02  C	1	0	3K084	H05B   7/02	49	炉壁	Furnace wall
+H05B   7/02  Z	1	0	3K084	H05B   7/02	46	その他	Others
+H05B   7/06  \	2	2	3K084	H05B   7/06	89	電極	Electrodes
+H05B   7/07  \	3	3	3K084	H05B   7/07	39	使用において溶融するように設計されたもの［２］	designed to melt in use [2]
+H05B   7/08  \	3	3	3K084	H05B   7/08	3	消耗しないもの［２］	non-consumable [2]
+H05B   7/08  A	3	0	3K084	H05B   7/08	78	形状	Shape
+H05B   7/08  Z	3	0	3K084	H05B   7/08	20	その他	Others
+H05B   7/085  \	4	4	3K084	H05B   7/085	7	主として炭素からなるもの［２］	mainly consisting of carbon [2]
+H05B   7/085  A	4	0	3K084	H05B   7/085	107	形状	Shape
+H05B   7/085  B	4	0	3K084	H05B   7/085	118	組成	Composition
+H05B   7/085  C	4	0	3K084	H05B   7/085	123	処理法	Treatment method
+H05B   7/085  Z	4	0	3K084	H05B   7/085	8	その他	Others
+H05B   7/09  \	5	5	3K084	H05B   7/09	0	自焼成電極［２］	Self-baking electrodes [2]
+H05B   7/09  A	5	0	3K084	H05B   7/09	56	形状	Shape
+H05B   7/09  B	5	0	3K084	H05B   7/09	45	組成・処理	Composition or treatment
+H05B   7/09  Z	5	0	3K084	H05B   7/09	69	その他	Others
+H05B   7/10  \	2	2	3K084	H05B   7/10	145	取り付け，支持，端子，または電極の給送または案内装置［２］	Mountings, supports, terminals, or arrangements for feeding or guiding electrodes [2]
+H05B   7/101  \	3	3	3K084	H05B   7/101	85	電極の先端，すなわちアークから離れた端部，における取り付け，支持または端子［２］	Mountings, supports, or terminals at head of electrode, i.e. at the end remote from the arc [2]
+H05B   7/102  \	4	4	3K084	H05B   7/102	25	消耗電極に特に適合したもの［２］	specially adapted for consumable electrodes [2]
+H05B   7/103  \	3	3	3K084	H05B   7/103	144	ジョーによる取り付け，支持または端子（Ｈ０５Ｂ７／１０１が優先）［２］	Mountings, supports, or terminals with jaws (H05B 7/101 takes precedence) [2]
+H05B   7/105  \	4	4	3K084	H05B   7/105	3	周辺に沿って等しく配置された三つ以上のジョーからなるもの，例．リングホルダー［２］	comprising more than two jaws equally spaced along circumference, e.g. ring holders [2]
+H05B   7/107  \	3	3	3K084	H05B   7/107	42	自焼成電極に特に適合したもの［２］	specially adapted for self-baking electrodes [2]
+H05B   7/109  \	3	3	3K084	H05B   7/109	60	給送装置（Ｈ０５Ｂ７／１０７が優先；電極の移動が電力の自動制御の閉ループの一部であるものＨ０５Ｂ７／１４８）［２］	Feeding arrangements (H05B 7/107 takes precedence; where the electrode movement is a part of a closed loop for automatic control of power H05B 7/148) [2]
+H05B   7/109  A	3	0	3K084	H05B   7/109	32	電極長の測定	Measurement of the electrode length
+H05B   7/109  Z	3	0	3K084	H05B   7/109	48	その他	Others
+H05B   7/11  \	2	2	3K084	H05B   7/11	192	電極端子に電流を導くための装置［２］	Arrangements for conducting current to the electrode terminals [2]
+H05B   7/12  \	2	2	3K084	H05B   7/12	5	電極の冷却，密閉または保護のための装置［２］	Arrangements for cooling, sealing, or protecting electrodes [2]
+H05B   7/12  A	2	0	3K084	H05B   7/12	194	冷却	Cooling
+H05B   7/12  B	2	0	3K084	H05B   7/12	104	密閉	Full closing
+H05B   7/12  C	2	0	3K084	H05B   7/12	53	保護	Protection
+H05B   7/12  Z	2	0	3K084	H05B   7/12	11	その他	Others
+H05B   7/14  \	2	2	3K084	H05B   7/14	7	連続する電極部分を接続するための装置または方法［２］	Arrangements or methods for connecting successive electrode sections [2]
+H05B   7/14  A	2	0	3K084	H05B   7/14	198	ニツプル	Nipple
+H05B   7/14  B	2	0	3K084	H05B   7/14	114	継足装置	Joining device
+H05B   7/14  Z	2	0	3K084	H05B   7/14	5	その他	Others
+H05B   7/144  \	2	2	3K084	H05B   7/144	12	放電加熱に特に適合した電力給電；電力の自動制御，例．電極の位置決めによるもの［２］	Power supplies specially adapted for heating by electric discharge; Automatic control of power, e.g. by positioning of electrodes [2]
+H05B   7/144  A	2	0	3K084	H05B   7/144	84	保護	Protection
+H05B   7/144  Z	2	0	3K084	H05B   7/144	183	その他	Others
+H05B   7/148  \	3	3	3K084	H05B   7/148	9	電力の自動制御（電極給電装置Ｈ０５Ｂ７／１０９；スポット溶接，シーム溶接または切断のための電極の自動送給または移動Ｂ２３Ｋ９／１２；炉内または炉上における電極の配置Ｆ２７Ｄ１１／１０；アークの電気的特性の調整Ｇ０５Ｆ１／０２）［２］	Automatic control of power (electrode feeding arrangements H05B 7/109; automatic feeding or moving of electrodes for spot or seam welding or cutting B23K 9/12; disposition of electrodes in or on furnaces F27D 11/10; regulating electric characteristics of arcs G05F 1/02) [2]
+H05B   7/148  A	3	0	3K084	H05B   7/148	108	測定	Measurement
+H05B   7/148  B	3	0	3K084	H05B   7/148	259	制御	Control
+H05B   7/148  C	3	0	3K084	H05B   7/148	17	折損防止	Breakage prevention
+H05B   7/148  D	3	0	3K084	H05B   7/148	44	炉況監視	Situation monitoring
+H05B   7/148  Z	3	0	3K084	H05B   7/148	6	その他	Others
+H05B   7/152  \	4	4	3K084	H05B   7/152	201	電極の位置決めのために電気機械的手段によるもの［２］	by electromechanical means for positioning of electrodes [2]
+H05B   7/156  \	4	4	3K084	H05B   7/156	27	電極の位置決めのために水力または空気の手段によるもの［２］	by hydraulic or pneumatic means for positioning of electrodes [2]
+H05B   7/16  \	1	1	3K084	H05B   7/16	196	グロー放電による加熱	Heating by glow discharge
+H05B   7/18  \	1	1	3K084	H05B   7/18	28	アーク放電による加熱	Heating by arc discharge
+H05B   7/18  A	1	0	3K084	H05B   7/18	244	炉全体	Entire furnace
+H05B   7/18  B	1	0	3K084	H05B   7/18	79	ア−ク処理	Arc treatment
+H05B   7/18  E	1	0	3K084	H05B   7/18	545	プラズマア−ク	Plasma arc
+H05B   7/18  Z	1	0	3K084	H05B   7/18	84	その他	Others
+H05B   7/20  \	2	2	3K084	H05B   7/20	135	アーク放電による直接加熱，すなわち少くともアークの一端が加熱される物体に直接作用し，加熱される物体を通って流れるアーク電流による抵抗加熱を付加したものを含む［２］	Direct heating by arc discharge, i.e. where at least one end of the arc directly acts on the material to be heated, including additional resistance heating by arc current flowing through the material to be heated [2]
+H05B   7/22  \	2	2	3K084	H05B   7/22	33	アーク放電による間接加熱［２］	Indirect heating by arc discharge [2]
+H05B  11/00  \	0	0	3K086	H05B  11/00	11	グループＨ０５Ｂ３／００〜Ｈ０５Ｂ７／００の二つ以上に含まれる方法の組み合せによる加熱（Ｈ０５Ｂ７／２０が優先）	Heating by combined application of processes covered by two or more of groups H05B 3/00-H05B 7/00 (H05B 7/20 takes precedence)
+H05B  11/00  A	0	0	3K086	H05B  11/00	209	回路	Circuit
+H05B  11/00  B	0	1	3K086	H05B  11/00	118	高周波電源回路	High-frequency power supply circuit
+H05B  11/00  C	0	1	3K086	H05B  11/00	230	加熱設定手段を伴う制御回路，例．時間制御回路	Control means accompanied by a heating setup means, e.g. time control circuit
+H05B  11/00  D	0	1	3K086	H05B  11/00	244	加熱状態検知手段を伴う制御回路，例．温度制御回路	Control circuit accompanied by a heating state detection means, e.g. temperature control circuit
+H05B  11/00  E	0	1	3K086	H05B  11/00	184	加熱設定手段と加熱状態検知手段の両方を伴う制御回路	Control circuit accompanied by both heating setup means and heating state detection means
+H05B  11/00  F	0	0	3K086	H05B  11/00	373	内部に他の加熱手段を備えたマイクロ波加熱室での電波対策，例．他の加熱手段取付部での電波漏洩防止	Electrowave measure in the microwave heating chamber equipped with another heating means internally, e.g. electrowave leak prevention on the part where another heating means is installed
+H05B  11/00  G	0	0	3K086	H05B  11/00	556	ヒ−タの構造，材料	Heater structure or material
+H05B  11/00  H	0	0	3K086	H05B  11/00	160	マイクロ波に関する構造	Structure related to microwave
+H05B  11/00  Z	0	0	3K086	H05B  11/00	545	その他のもの	Others
+H05B  31/00  \	0	0	3K074	H05B  31/00	119	アークランプ（アークの電気的特性の調整Ｇ０５Ｆ１／０２）	Electric arc lamps (regulating electric characteristics of arcs G05F 1/02)
+H05B  31/02  \	1	1	3K074	H05B  31/02	4	細部	Details
+H05B  31/04  \	2	2	3K074	H05B  31/04	6	外枠	Housings
+H05B  31/06  \	2	2	3K074	H05B  31/06	137	電極	Electrodes
+H05B  31/08  \	3	3	3K074	H05B  31/08	27	炭素電極	Carbon electrodes
+H05B  31/10  \	4	4	3K074	H05B  31/10	13	有心炭素電極	Cored carbon electrodes
+H05B  31/12  \	4	4	3K074	H05B  31/12	0	ベック効果電極	Beck-effect electrodes
+H05B  31/14  \	3	3	3K074	H05B  31/14	11	金属電極	Metal electrodes
+H05B  31/16  \	3	3	3K074	H05B  31/16	1	特に電極製造に用いられる装置または製法	Apparatus or processes specially adapted for manufacturing electrodes
+H05B  31/18  \	2	2	3K074	H05B  31/18	188	電極の取り付け；電極給送装置	Mountings for electrodes; Electrode feeding devices
+H05B  31/20  \	3	3	3K074	H05B  31/20	3	電極給送用の機械的装置	Mechanical arrangements for feeding electrodes
+H05B  31/22  \	3	3	3K074	H05B  31/22	1	電極給送用の電気的装置	Electromagnetic arrangements for feeding electrodes
+H05B  31/24  \	2	2	3K074	H05B  31/24	33	冷却装置	Cooling arrangements
+H05B  31/26  \	2	2	3K074	H05B  31/26	3	ガス吹きつけ装置によりアーク放電の型に影響を与えるもの	Influencing the shape of arc discharge by gas blowing devices
+H05B  31/28  \	2	2	3K074	H05B  31/28	15	磁気的手段によりアーク放電の型に影響を与えるもの	Influencing the shape of arc discharge by magnetic means
+H05B  31/30  \	2	2	3K074	H05B  31/30	50	起動；点灯	Starting; Igniting
+H05B  31/32  \	2	2	3K074	H05B  31/32	0	スイッチオフ	Switching-off
+H05B  31/34  \	2	2	3K074	H05B  31/34	0	電極の消耗指示	Indicating consumption of electrodes
+H05B  31/36  \	1	1	3K074	H05B  31/36	2	整列した２電極をもっているもの	having two electrodes in line
+H05B  31/38  \	2	2	3K074	H05B  31/38	0	特に交流用に適したもの	specially adapted for ac
+H05B  31/40  \	1	1	3K074	H05B  31/40	2	交叉状に２電極をもっているもの	having two electrodes at an angle
+H05B  31/42  \	2	2	3K074	H05B  31/42	0	特に交流用に適したもの	specially adapted for ac
+H05B  31/44  \	1	1	3K074	H05B  31/44	1	並列に２電極をもっているもの	having two parallel electrodes
+H05B  31/46  \	2	2	3K074	H05B  31/46	2	特に交流用に適したもの	specially adapted for ac
+H05B  31/48  \	1	1	3K074	H05B  31/48	1	２以上の電極をもっているもの	having more than two electrodes
+H05B  31/50  \	2	2	3K074	H05B  31/50	0	特に交流用に適したもの	specially adapted for ac
+H05B  31/52  \	3	3	3K074	H05B  31/52	1	位相の異なる電源から給電される電極	electrodes energised from different phases of the supply
+H05B  33/00  \	0	0	3K107	H05B  33/00	996	エレクトロルミネッセンス光源［１，８］	Electroluminescent light sources (discharge lamps H01J 61/00-H01J 65/00; semi-conductor devices with at least one particular jump barrier or surface barrier adapted for light emission H01L 33/00; compositions <u>per se</u>, <u>see</u> the relevant subclasses)
+H05B  33/02  \	1	1	3K107	H05B  33/02	15972	細部	Details
+H05B  33/04  \	2	2	3K107	H05B  33/04	11385	封止装置	Sealing arrangements
+H05B  33/06  \	2	2	3K107	H05B  33/06	3979	電極端子	Electrode terminals
+H05B  33/10  \	1	1	3K107	H05B  33/10	25676	エレクトロルミネッセンス光源の製造に特に適用する装置または方法	Apparatus or processes specially adapted to the manufacture of electroluminescent light sources
+H05B  33/12  \	1	1	3K107	H05B  33/12	460	実質的に２次元放射面をもつ光源	Light sources with substantially two-dimensional radiating surfaces
+H05B  33/12  A	1	0	3K107	H05B  33/12	172	カラー化方式	Colouring system
+H05B  33/12  B	1	1	3K107	H05B  33/12	7821	並置方式	Parallel layout system
+H05B  33/12  C	1	1	3K107	H05B  33/12	2674	積層方式	Lamination system
+H05B  33/12  D	1	1	3K107	H05B  33/12	114	二重基板方式	Double-board system
+H05B  33/12  E	1	1	3K107	H05B  33/12	4372	色変換方式	Colour conversion system
+H05B  33/12  Z	1	0	3K107	H05B  33/12	7739	その他のもの	Others
+H05B  33/14  \	2	2	3K107	H05B  33/14	2125	エレクトロルミネッセンス材料の配置あるいは化学的または物理的組成によって特徴づけられたもの	characterised by the chemical or physical composition or the arrangement of the electroluminescent material
+H05B  33/14  A	2	0	3K107	H10K  50/10	59054	発光物質が有機物	Organic material as the light emitting substance
+H05B  33/14  B	2	1	3K107	H10K  50/10	16048	材料に特徴のあるもの	characterized by the material
+H05B  33/14  Z	2	0	3K107	H05B  33/14	9150	その他のもの	Others
+H05B  33/18  \	2	2	3K107	H05B  33/18	247	活性化不純物の性質または密度によって特徴づけられたもの	characterised by the nature or concentration of the activator
+H05B  33/20  \	2	2	3K107	H05B  33/20	499	エレクトロルミネッセンス材料が埋め込まれた物質の配置あるいは化学的または物理的組成によって特徴づけられたもの	characterised by the chemical or physical composition or the arrangement of the material in which the electroluminescent material is embedded
+H05B  33/22  \	2	2	3K107	H05B  33/22	1581	補助的な誘電体または反射層の配置あるいは化学的または物理的組成によって特徴づけられたもの	characterised by the chemical or physical composition or the arrangement of auxiliary dielectric or reflective layers
+H05B  33/22  A	2	0	3K107	H05B  33/22	3106	電子注入・輸送層	Electron impregnating/transporting layer
+H05B  33/22  B	2	1	3K107	H10K  50/16	7611	材料が有機物	Organic material
+H05B  33/22  C	2	0	3K107	H05B  33/22	3085	正孔注入・輸送層	Positive hole impregnating/transporting layer
+H05B  33/22  D	2	1	3K107	H10K  50/15	9267	材料が有機物	Inorganic material
+H05B  33/22  Z	2	0	3K107	H05B  33/22	10238	その他のもの	Others
+H05B  33/24  \	3	3	3K107	H05B  33/24	2224	金属反射層（Ｈ０５Ｂ３３／２６が優先）	of metallic reflective layers (H05B 33/26 takes precedence)
+H05B  33/26  \	2	2	3K107	H05B  33/26	1180	電極として使用される導電物質の配置あるいは組成によって特徴づけられたもの	characterised by the composition or arrangement of the conductive material used as an electrode
+H05B  33/26  A	2	0	3K107	H05B  33/26	710	有機物からなるもの	consisting of an organic material
+H05B  33/26  Z	2	0	3K107	H05B  33/26	8053	その他のもの	Others
+H05B  33/28  \	3	3	3K107	H05B  33/28	4127	半透明電極	of translucent electrodes
+H05B  35/00  \	0	0	3K074	H05B  35/00	215	異なった型の光源を組み合せて用いた電気的光源	Electric light sources using a combination of different types of light generation
+H05B  39/00  \	0	0	3K273	H05B  39/00	167	白熱光源を制御するための回路装置［２００６．０１］	Circuit arrangements or apparatus for operating incandescent light sources
+H05B  39/02  \	1	1	3K273	H05B  39/02	173	スイッチオン，例．点灯電流を設定割合で増加させるもの	Switching-on, e.g. with predetermined rate of increase of lighting current
+H05B  39/04  \	1	1	3K273	H05B  39/04	367	制御	Controlling
+H05B  39/06  \	2	2	3K273	H05B  39/06	24	スイッチ装置，例．直列操作から並列操作への切り替え	Switching arrangements, e.g. from series operation to parallel operation
+H05B  39/08  \	2	2	3K273	H05B  39/08	127	ガス入制御管に加えるトリガ電圧の位相変化によるもの	by shifting phase of trigger voltage applied to gas-filled controlling tubes
+H05B  39/09  \	1	1	3K273	H05B  39/09	292	パルスが供給されるランプ	in which the lamp is fed by pulses
+H05B  39/10  \	1	1	3K273	H05B  39/10	87	故障の場合に光源の取り替えに備えた回路	Circuits providing for substitution of the light source in case of its failure
+H05B  41/00  \	0	0	3K081	H05B  41/00	711	放電ランプの点弧または点灯のための回路装置または装置	Circuit arrangements or apparatus for igniting or operating discharge lamps
+H05B  41/02  \	1	1	3K081	H05B  41/02	861	細部	Details
+H05B  41/04  \	2	2	3K081	H05B  41/04	367	始動スイッチ	Starting switches
+H05B  41/06  \	3	3	3K081	H05B  41/06	62	熱動作のみによるもの	thermal only
+H05B  41/08  \	4	4	3K081	H05B  41/08	638	グロー放電による加熱	heated by glow discharge
+H05B  41/10  \	3	3	3K081	H05B  41/10	13	磁気的のみによるもの	magnetic only
+H05B  41/12  \	3	3	3K081	H05B  41/12	16	熱的なものと磁気的なものの組合せ	combined thermal and magnetic
+H05B  41/14  \	1	1	3K082	H05B  41/14	1557	回路装置	Circuit arrangements
+H05B  41/16  \	2	2	3K082	H05B  41/16	2685	直流または低周波交流，例．５０ヘルツの交流，によって給電されるランプのためのもの（Ｈ０５Ｂ４１／２６が優先）	in which the lamp is fed by dc or by low-frequency ac, e.g. by 50 cycles/sec ac (H05B 41/26 takes precedence)
+H05B  41/18  \	3	3	3K083	H05B  41/18	4336	始動スイッチをもつもの	having a starting switch
+H05B  41/19  \	4	4	3K083	H05B  41/19	261	補助始動電極をもつランプのためのもの	for lamps having an auxiliary starting electrode
+H05B  41/20  \	3	3	3K083	H05B  41/20	1	始動スイッチをもたないもの	having no starting switch
+H05B  41/22  \	4	4	3K083	H05B  41/22	91	補助始動電極をもつランプのためのもの	for lamps having an auxiliary starting electrode
+H05B  41/23  \	4	4	3K083	H05B  41/23	453	補助始動電極をもたないランプのためのもの	for lamps not having an auxiliary starting electrode
+H05B  41/231  \	5	5	3K083	H05B  41/231	356	高圧ランプのためのもの	for high-pressure lamps
+H05B  41/232  \	5	5	3K083	H05B  41/232	641	低圧ランプのためのもの	for low-pressure lamps
+H05B  41/233  \	6	6	3K083	H05B  41/233	114	共振回路を用いるもの	using resonance circuitry
+H05B  41/234  \	6	6	3K083	H05B  41/234	102	ストロボ効果を減少させるためのもの，例．２個のランプに異なる位相の電圧を印加するもの	to eliminate stroboscopic effects, e.g. feeding two lamps with different phases
+H05B  41/24  \	2	2	3K072	H05B  41/24	13447	高周波交流によって給電されるランプのためのもの（Ｈ０５Ｂ４１／２６が優先）	in which the lamp is fed by high-frequency ac (H05B 41/26 takes precedence)
+H05B  41/26  \	2	2	3K072	H05B  41/26	43	変換器による直流，例．高電圧直流，によって給電されるランプのためのもの	in which the lamp is fed by power derived from dc by means of a converter, e.g. by high-voltage dc
+H05B  41/28  \	3	3	3K072	H05B  41/28	3	静止型変換器を用いるもの	using static converters
+H05B  41/282  \	4	4	3K072	H05B  41/282	355	半導体装置を有するもの（Ｈ０５Ｂ４１／２８８，Ｈ０５Ｂ４１／２９５が優先）［７］	with semiconductor devices (H05B 41/288, H05B 41/295 take precedence);;
+H05B  41/285  \	5	5	3K072	H05B  41/285	86	異常動作状態からランプまたは回路を保護するための装置［７］	Arrangements for protecting lamps or circuits against abnormal operating conditions
+H05B  41/288  \	4	4	3K072	H05B  41/288	994	半導体装置を有し，かつ，予熱電極のないランプ，例．高輝度放電ランプ，高圧水銀ランプまたは高圧ナトリウムランプ，または低圧ナトリウムランプ，のために特に適用されるもの［７］	with semiconductor devices and specially adapted for lamps without preheating electrodes, e.g. for high-intensity discharge lamps, high-pressure mercury or sodium lamps or low-pressure sodium lamps
+H05B  41/292  \	5	5	3K072	H05B  41/292	317	異常動作状態からランプまたは回路を保護するための装置［７］	Arrangements for protecting lamps or circuits against abnormal operating conditions
+H05B  41/295  \	4	4	3K072	H05B  41/295	952	半導体装置を有し，かつ，予熱電極を持つランプ，例．蛍光灯，に特に適用されたもの［７］	with semiconductor devices and specially adapted for lamps with preheating electrodes, e.g. for fluorescent lamps
+H05B  41/298  \	5	5	3K072	H05B  41/298	373	異常動作状態からランプまたは回路を保護するための装置［７］	Arrangements for protecting lamps or circuits against abnormal operating conditions
+H05B  41/30  \	2	2	3K098	H05B  41/30	683	パルスによって給電されるランプのためのもの，例．フラッシュランプのためのもの	in which the lamp is fed by pulses, e.g. flash lamp
+H05B  41/32  \	3	3	3K098	H05B  41/32	2543	単発フラッシュ操作のためのもの	for single flash operation
+H05B  41/34  \	3	3	3K098	H05B  41/34	659	連続フラッシュを備えるもの	to provide a sequence of flashes
+H05B  41/36  \	2	2	3K098	H05B  41/36	779	制御	Controlling
+H05B  41/38  \	3	3	3K098	H05B  41/38	162	光の明暗度の調節	Controlling the intensity of light
+H05B  41/39  \	4	4	3K098	H05B  41/39	136	連続的のもの	continuously
+H05B  41/391  \	5	5	3K098	H05B  41/391	102	可飽和磁気装置を用いるもの	using saturable magnetic devices
+H05B  41/392  \	5	5	3K098	H05B  41/392	2872	半導体装置，例．サイリスタ，を用いるもの	using semiconductor devices, e.g. thyristor
+H05B  41/40  \	4	4	3K098	H05B  41/40	210	不連続的なもの	discontinuously
+H05B  41/42  \	5	5	3K098	H05B  41/42	527	２段階のみのもの	in two steps only
+H05B  41/44  \	3	3	3K098	H05B  41/44	75	特殊光学効果，例．光の漸進的移動，を与えるためのもの	for providing special optical effects, e.g. progressive motion of light
+H05B  41/46  \	2	2	3K098	H05B  41/46	34	ランプが故障の際予備回路に切り換える回路	Circuits providing for substitution in case of failure of the lamp
+H05B  44/00  \	0	0	3K107	H05B  44/00	2637	エレクトロルミネッセンス光源を制御するための回路装置（発光ダイオ−ドを制御するためのものＨ０５Ｂ４５／００）［２０２２．０１］	Circuit arrangements for operating electroluminescent light sources (for operating light emitting diodes H05B 45/00) [2022.01]
+H05B  45/00  \	0	0	3K273	H05B  45/00	236	発光ダイオ−ド［ＬＥＤ］を制御するための回路装置［２０２２．０１］	Circuit arrangements for operating light-emitting diodes [LED] [2020.01, 2022.01]
+H05B  45/10  \	1	1	3K273	H05B  45/10	3729	光の強度の調整［２０２０．０１］	Controlling the intensity of the light
+H05B  45/12  \	2	2	3K273	H05B  45/12	522	光学フィードバックによるもの［２０２０．０１］	using optical feedback
+H05B  45/14  \	2	2	3K273	H05B  45/14	1582	ＬＥＤまたはＬＥＤモジュールからの電気的フィードバックによるもの［２０２０．０１］	using electrical feedback from LEDs or from LED modules
+H05B  45/18  \	2	2	3K273	H05B  45/18	492	温度のフィードバックによるもの［２０２０．０１］	using temperature feedback
+H05B  45/20  \	1	1	3K273	H05B  45/20	1673	光の色度の調整［２０２０．０１］	Controlling the colour of the light
+H05B  45/22  \	2	2	3K273	H05B  45/22	261	光学フィードバックによるもの［２０２０．０１］	using optical feedback
+H05B  45/24  \	2	2	3K273	H05B  45/24	538	ＬＥＤまたはＬＥＤモジュールからの電気的フィードバックによるもの［２０２０．０１］	using electrical feedback from LEDs or from LED modules
+H05B  45/28  \	2	2	3K273	H05B  45/28	277	温度のフィードバックによるもの［２０２０．０１］	using temperature feedback
+H05B  45/30  \	1	1	3K273	H05B  45/30	1435	駆動回路［２０２０．０１］	Driver circuits
+H05B  45/305  \	2	2	3K273	H05B  45/305	1667	周波数制御回路［２０２０．０１］	Frequency-control circuits
+H05B  45/31  \	2	2	3K273	H05B  45/31	377	位相制御回路［２０２０．０１］	Phase-control circuits
+H05B  45/315  \	3	3	3K273	H05B  45/315	162	逆位相制御回路［２０２０．０１］	Reverse phase-control circuits
+H05B  45/32  \	2	2	3K273	H05B  45/32	196	パルス制御回路［２０２０．０１］	Pulse-control circuits
+H05B  45/325  \	3	3	3K273	H05B  45/325	3086	パルス幅変調［ＰＷＭ］［２０２０．０１］	Pulse-width modulation [PWM]
+H05B  45/327  \	3	3	3K273	H05B  45/327	650	バースト調光［２０２０．０１］	Burst dimming
+H05B  45/33  \	3	3	3K273	H05B  45/33	585	パルス振幅変調［ＰＡＭ］［２０２０．０１］	Pulse-amplitude modulation [PAM]
+H05B  45/335  \	3	3	3K273	H05B  45/335	1015	パルス周波数変調［ＰＦＭ］［２０２０．０１］	Pulse-frequency modulation [PFM]
+H05B  45/34  \	2	2	3K273	H05B  45/34	860	電圧安定化；電圧を一定に保つこと［２０２０．０１］	Voltage stabilisation; Maintaining constant voltage
+H05B  45/345  \	2	2	3K273	H05B  45/345	2702	電流安定化；電流を一定に保つこと［２０２０．０１］	Current stabilisation; Maintaining constant current
+H05B  45/347  \	2	2	3K273	H05B  45/347	101	ダイナミック・ヘッドルーム制御［ＤＨＣ］［２０２０．０１］	Dynamic headroom control [DHC]
+H05B  45/35  \	2	2	3K273	H05B  45/35	74	平衡回路［２０２０．０１］	Balancing circuits
+H05B  45/355  \	2	2	3K273	H05B  45/355	414	力率改善［ＰＦＣ］；無効電力補償［２０２０．０１］	Power factor correction [PFC]; Reactive power compensation
+H05B  45/357  \	2	2	3K273	H05B  45/357	319	レトロフィットＬＥＤ光源に特に適するもの［２０２０．０１］	specially adapted for retrofit LED light sources
+H05B  45/3574  \	3	3	3K273	H05B  45/3574	53	白熱ランプの電気的特性または機能的特性を模倣するもの［２０２０．０１］	Emulating the electrical or functional characteristics of incandescent lamps
+H05B  45/3575  \	4	4	3K273	H05B  45/3575	109	ダミー負荷またはブリーダー回路を用いるもの，例．調光器のためのもの［２０２０．０１］	by means of dummy loads or bleeder circuits e.g. for dimmers
+H05B  45/3577  \	4	4	3K273	H05B  45/3577	271	白熱ランプの調光特性，明るさまたは色温度を模倣するもの［２０２０．０１］	Emulating the dimming characteristics brightness or colour temperature of incandescent lamps
+H05B  45/3578  \	3	3	3K273	H05B  45/3578	98	放電ランプの電気的特性または機能的特性を模倣するもの［２０２０．０１］	Emulating the electrical or functional characteristics of discharge lamps
+H05B  45/36  \	2	2	3K273	H05B  45/36	1492	高調波干渉，リップル干渉または電磁波干渉［ＥＭＩ］を低減または抑圧するための回路［２０２０．０１］	Circuits for reducing or suppressing harmonics, ripples or electromagnetic interferences [EMI] [2020.01]
+H05B  45/37  \	2	2	3K273	H05B  45/37	571	コンバーター回路［２０２０．０１］	Converter circuits
+H05B  45/3725  \	3	3	3K273	H05B  45/3725	444	スイッチング電源［ＳＭＰＳ］［２０２０．０１］	Switched mode power supply [SMPS]
+H05B  45/375  \	4	4	3K273	H05B  45/375	1315	バックトポロジを用いるもの［２０２０．０１］	using buck topology
+H05B  45/38  \	4	4	3K273	H05B  45/38	877	ブーストトポロジを用いるもの［２０２０．０１］	using boost topology
+H05B  45/382  \	4	4	3K273	H05B  45/382	328	入力回路と出力回路の間が電気的に絶縁されたもの［２０２０．０１］	with galvanic isolation between input and output
+H05B  45/385  \	4	4	3K273	H05B  45/385	500	フライバックトポロジを用いるもの［２０２０．０１］	using flyback topology
+H05B  45/39  \	4	4	3K273	H05B  45/39	199	インバーターブリッジを含む回路［２０２０．０１］	Circuits containing inverter bridges
+H05B  45/392  \	4	4	3K273	H05B  45/392	26	ＬＥＤが絶縁トランスの二次側にある還流ダイオードとして取り付けられるもの［２０２０．０１］	wherein the LEDs are placed as freewheeling diodes at the secondary side of an isolation transformer
+H05B  45/395  \	2	2	3K273	H05B  45/395	213	リニアレギュレータ［２０２０．０１］	Linear regulators
+H05B  45/397  \	3	3	3K273	H05B  45/397	118	カレントミラー回路［２０２０．０１］	Current mirror circuits
+H05B  45/40  \	1	1	3K273	H05B  45/40	726	ＬＥＤ負荷回路の詳細［２０２０．０１］	Details of LED load circuits
+H05B  45/42  \	2	2	3K273	H05B  45/42	145	逆並列配置［２０２０．０１］	Antiparallel configurations
+H05B  45/44  \	2	2	3K273	H05B  45/44	279	ＬＥＤマトリクス内部にアクティブ制御を備えたもの［２０２０．０１］	with an active control inside an LED matrix
+H05B  45/46  \	3	3	3K273	H05B  45/46	2938	ＬＥＤが並列に配置されているもの［２０２０．０１］	having LEDs disposed in parallel lines
+H05B  45/48  \	3	3	3K273	H05B  45/48	347	ＬＥＤがストリング構造を有し、並列にシャント装置を有するもの［２０２０．０１］	having LEDs organised in strings and incorporating parallel shunting devices
+H05B  45/50  \	1	1	3K273	H05B  45/50	832	ＬＥＤの異常または好ましくない動作に応答するもの；ＬＥＤの寿命に応答するもの；保護回路［２０２２．０１］	responsive to malfunctions or undesirable behaviour of LEDs; responsive to LED life; Protective circuits [2020.01, 2022.01]
+H05B  45/52  \	2	2	3K273	H05B  45/52	1158	ＬＥＤの並列配置［２０２０．０１］	in a parallel array of LEDs
+H05B  45/54  \	2	2	3K273	H05B  45/54	1972	ＬＥＤの直列配置［２０２０．０１］	in a series array of LEDs
+H05B  45/56  \	2	2	3K273	H05B  45/56	1404	ＬＥＤの異常温度を防止する手段を含むもの［２０２０．０１］	involving measures to prevent abnormal temperature of the LEDs
+H05B  45/58  \	2	2	3K273	H05B  45/58	180	ＬＥＤの寿命検出を含むもの［２０２０．０１］	involving end of life detection of LEDs
+H05B  45/59  \	2	2	3K273	H05B  45/59	616	ちらつきまたはグロー効果を軽減または抑制するためのもの［２０２２．０１］	for reducing or suppressing flicker or glow effects [2022.01]
+H05B  45/60  \	1	1	3K107	H05B  45/60	2675	有機化合物を含むＬＥＤを制御するための回路装置，例．有機発光ダイオード［ＯＬＥＤ］または高分子発光ダイオード［ＰＬＥＤ］を制御するためのもの［２０２２．０１］	Circuit arrangements for operating LEDs comprising organic material, e.g. for operating organic lightemitting diodes [OLED] or polymer light-emitting diodes [PLED] [2022.01]
+H05B  46/00  \	0	0	3K098	H05B  46/00	65	可燃性物質を充填使用する光源の回路装置［２０２０．０１］	Circuit arrangements for light sources using a charge of combustible material
+H05B  47/00  \	0	0	3K273	H05B  47/00	256	一般的な光源，すなわち光源の種類は関係しない，を制御するための回路装置［２０２０．０１］	Circuit arrangements for operating light sources in general i.e. where the type of the light source is not relevant
+H05B  47/10  \	1	1	3K273	H05B  47/10	4040	光源を制御するもの［２０２０．０１］	Controlling the light source
+H05B  47/105  \	2	2	3K273	H05B  47/105	8518	定められたパラメーターに応答するもの［２０２０．０１］	in response to determined parameters
+H05B  47/11  \	3	3	3K273	H05B  47/11	5122	周囲の光の明るさまたは色温度の検出によるもの［２０２０．０１］	by determining the brightness or colour temperature of ambient light
+H05B  47/115  \	3	3	3K273	H05B  47/115	2273	物体または生物の存在または移動の検出によるもの［２０２０．０１］	by determining the presence or movement of objects or living beings
+H05B  47/12  \	4	4	3K273	H05B  47/12	832	可聴音の検出によるもの［２０２０．０１］	by detecting audible sound
+H05B  47/125  \	4	4	3K273	H05B  47/125	1060	カメラの利用によるもの［２０２０．０１］	by using cameras
+H05B  47/13  \	4	4	3K273	H05B  47/13	1382	パッシブ赤外線センサーの利用によるもの［２０２０．０１］	by using passive infrared detectors
+H05B  47/135  \	3	3	3K273	H05B  47/135	315	制御される光源の種類の検出によるもの（制御される光源の電気パラメータ　Ｈ０５Ｂ４７／１４）［２０２０．０１］	by determining the type of light source being controlled (electrical parameters of light source being controlled H05B47/14)
+H05B  47/14  \	3	3	3K273	H05B  47/14	1146	光源の電気的パラメータの検出によるもの［２０２０．０１］	by determining electrical parameters of the light source
+H05B  47/155  \	2	2	3K273	H05B  47/155	3214	２つ以上の光源を協調制御するもの［２０２０．０１］	Coordinated control of two or more light sources
+H05B  47/16  \	2	2	3K273	H05B  47/16	6021	タイミング手段によるもの［２０２０．０１］	by timing means
+H05B  47/165  \	2	2	3K273	H05B  47/165	6757	事前に割り当てられプログラムされたシーケンスに従うもの；論理制御［ＬＣ］［２０２０．０１］	following a pre-assigned programmed sequence; Logic control [LC]
+H05B  47/17  \	2	2	3K273	H05B  47/17	1777	操作モード，例．手動操作モードから自動操作モードへの切換または特定操作の防止［２０２０．０１］	Operational modes e.g. switching from manual to automatic mode or prohibiting specific operations
+H05B  47/175  \	2	2	3K273	H05B  47/175	2148	遠隔操作によるもの［２０２０．０１］	by remote control
+H05B  47/18  \	3	3	3K273	H05B  47/18	3607	データバス通信を介するもの［２０２０．０１］	via data-bus transmission
+H05B  47/185  \	3	3	3K273	H05B  47/185	677	電力線通信を介するもの［２０２０．０１］	via power line carrier transmission
+H05B  47/19  \	3	3	3K273	H05B  47/19	3118	ワイヤレス通信を介するもの［２０２０．０１］	via wireless transmission
+H05B  47/195  \	4	4	3K273	H05B  47/195	1886	可視光または赤外線による通信［２０２０．０１］	the transmission using visible or infrared light
+H05B  47/20  \	1	1	3K273	H05B  47/20	2785	光源の異常に応答するもの；光源の寿命に応答するもの；保護を目的とするもの［２０２０．０１］	Responsive to malfunctions or to light source life; for protection
+H05B  47/21  \	2	2	3K273	H05B  47/21	333	２つ以上の光源が並列でつながっているもの［２０２０．０１］	of two or more light sources connected in parallel
+H05B  47/23  \	2	2	3K273	H05B  47/23	258	２つ以上の光源が直列でつながっているもの［２０２０．０１］	of two or more light sources connected in series
+H05B  47/24  \	2	2	3K273	H05B  47/24	315	過電圧を防止するための回路装置［２０２０．０１］	Circuit arrangements for protecting against  overvoltage
+H05B  47/25  \	2	2	3K273	H05B  47/25	786	過電流を防止するための回路装置［２０２０．０１］	Circuit arrangements for protecting against overcurrent
+H05B  47/26  \	2	2	3K273	H05B  47/26	29	地絡を防止するための回路装置［２０２０．０１］	Circuit arrangements for protecting against earth faults
+H05B  47/28  \	2	2	3K273	H05B  47/28	1924	異常温度を防止するための回路装置［２０２０．０１］	Circuit arrangements for protecting against abnormal temperature
+H05B  47/29  \	2	2	3K273	H05B  47/29	383	故障の場合に光源の取り替えに備えた回路［２０２０．０１］	Circuits providing for substitution of the light source in case of its failure

@@ -1,0 +1,77 @@
+G08C13/00	7	Arrangements for influencing the relationship between signals at input and output, e.g. differentiating, delaying	G08C13/00	G08C13/00		75
+G08C13/02	8	to yield a signal which is a function of two or more signals, e.g. sum or product	G08C13/02	G08C13/02		121
+G08C15/00	7	Arrangements characterised by the use of multiplexing for the transmission of a plurality of signals over a common path	G08C15/00	G08C15/00		656
+G08C15/02	8	simultaneously, i.e. using frequency division	G08C15/02	G08C15/02		99
+G08C15/04	9	the signals being modulated on carrier frequencies	G08C15/04	G08C15/04		111
+G08C15/06	8	successively, i.e. using time division	G08C15/06	G08C15/06		419
+G08C15/08	9	the signals being represented by amplitude of current or voltage in transmission link	G08C15/08	G08C15/08		142
+G08C15/10	9	the signals being represented by frequencies or phase of current or voltage in transmission link	G08C15/10	G08C15/10		60
+G08C15/12	9	the signals being represented by pulse characteristics in transmission link	G08C15/12	G08C15/12		529
+G08C17/00	7	Arrangements for transmitting signals characterised by the use of a wireless electrical link	G08C17/00	G08C17/00		2602
+G08C17/02	8	using a radio link	G08C17/02	G08C17/02		36403
+G08C17/04	8	using magnetically coupled devices	G08C17/04	G08C17/04		542
+G08C17/06	8	using capacity coupling	G08C17/06	G08C17/06		93
+G08C19/00	7	Electric signal transmission systems (G08C17/00 takes precedence)	G08C19/00	G08C19/00		4284
+G08C19/02	8	in which the signal transmitted is magnitude of current or voltage (G08C19/36, G08C19/38 take precedence)	G08C19/02	G08C19/02		1865
+G08C19/025	9	{using fixed values of magnitude of current or voltage}	G08C19/02	G08C19/02		112
+G08C19/04	9	using variable resistance	G08C19/04	G08C19/04		74
+G08C19/06	9	using variable inductance	G08C19/06	G08C19/06		139
+G08C19/08	10	differentially influencing two coils	G08C19/08	G08C19/08		13
+G08C19/10	9	using variable capacitance	G08C19/10	G08C19/10		35
+G08C19/12	8	in which the signal transmitted is frequency or phase of AC	G08C19/12	G08C19/12		544
+G08C19/14	9	using combination of fixed frequencies	G08C19/14	G08C19/14		150
+G08C19/16	8	in which transmission is by pulses	G08C19/16	G08C19/16		591
+G08C19/18	9	using a variable number of pulses in a train	G08C19/18	G08C19/18		109
+G08C19/20	10	operating on dynamo-electric devices, e.g. step motor	G08C19/20	G08C19/20		100
+G08C19/22	9	by varying the duration of individual pulses	G08C19/22	G08C19/22		311
+G08C19/24	9	using time shift of pulses	G08C19/24	G08C19/24		163
+G08C19/26	9	by varying pulse repetition frequency	G08C19/26	G08C19/26		249
+G08C19/28	9	using pulse code	G08C19/28	G08C19/28		1062
+G08C19/30	8	in which transmission is by selection of one or more conductors or channels from a plurality of conductors or channels (G08C19/38 takes precedence)	G08C19/30	G08C19/30		247
+G08C19/32	9	of one conductor or channel	G08C19/32	G08C19/32		51
+G08C19/34	9	of a combination of conductors or channels	G08C19/34	G08C19/34		59
+G08C19/36	8	using optical means to covert the input signal {(characterised by optical transfer means G01D5/26; optical analogue digital converters G02F7/00)}	G08C19/36	G08C19/36		94
+G08C19/38	8	using dynamo-electric devices (operated by pulses G08C19/20)	G08C19/38	G08C19/38		404
+G08C19/40	9	of which only the rotor or the stator carries a winding to which a signal is applied, e.g. using step motor	G08C19/40	G08C19/40		45
+G08C19/42	10	having three stator poles	G08C19/42	G08C19/42		29
+G08C19/44	10	having more than three stator poles	G08C19/44	G08C19/44		38
+G08C19/46	9	of which both rotor and stator carry windings (having squirrel-cage rotor G08C19/40)	G08C19/46	G08C19/46		193
+G08C19/48	10	being the type with a three-phase stator and a rotor fed by constant-frequency AC, e.g. selsyn, magslip	G08C19/48	G08C19/48		303
+G08C21/00	7	Systems for transmitting the position of an object with respect to a predetermined reference system, e.g. tele-autographic system	G08C21/00	G08C21/00		583
+G08C23/00	7	Non-electrical signal transmission systems, e.g. optical systems	G08C23/00	G08C23/00		193
+G08C23/02	8	using infrasonic, sonic or ultrasonic waves	G08C23/02	G08C23/02		901
+G08C23/04	8	using light waves, e.g. infrared	G08C23/04	G08C23/04		5971
+G08C23/06	8	through light guides, e.g. optical fibres	G08C23/06	G08C23/06		811
+G08C25/00	7	Arrangements for preventing or correcting errors; Monitoring arrangements	G08C25/00	G08C25/00		1509
+G08C25/02	8	by signalling back receiving station to transmitting station	G08C25/02	G08C25/02		353
+G08C25/04	8	by recording transmitted signals	G08C25/04	G08C25/04		99
+G08C2200/00	7	Transmission systems for measured values, control or similar signals	CPCONLY	G08C2200/00		379
+G08C2201/00	7	Transmission systems of control signals via wireless link	CPCONLY	G08C2201/00		103
+G08C2201/10	8	Power supply of remote control devices	CPCONLY	G08C2201/10		297
+G08C2201/11	9	Energy harvesting	CPCONLY	G08C2201/11		68
+G08C2201/112	10	Mechanical energy, e.g. vibration, piezoelectric	CPCONLY	G08C2201/112		87
+G08C2201/114	10	Solar power	CPCONLY	G08C2201/114		78
+G08C2201/12	9	Power saving techniques of remote control or controlled devices	CPCONLY	G08C2201/12		240
+G08C2201/20	8	Binding and programming of remote control devices	CPCONLY	G08C2201/20		1050
+G08C2201/21	9	Programming remote control devices via third means	CPCONLY	G08C2201/21		337
+G08C2201/30	8	User interface	CPCONLY	G08C2201/30		1060
+G08C2201/31	9	Voice input	CPCONLY	G08C2201/31		400
+G08C2201/32	9	Remote control based on movements, attitude of remote control device	CPCONLY	G08C2201/32		640
+G08C2201/33	9	Remote control using macros, scripts	CPCONLY	G08C2201/33		158
+G08C2201/34	9	Context aware guidance	CPCONLY	G08C2201/34		71
+G08C2201/40	8	Remote control systems using repeaters, converters, gateways	CPCONLY	G08C2201/40		784
+G08C2201/41	9	Remote control of gateways	CPCONLY	G08C2201/41		247
+G08C2201/42	9	Transmitting or receiving remote control signals via a network	CPCONLY	G08C2201/42		777
+G08C2201/50	8	Receiving or transmitting feedback, e.g. replies, status updates, acknowledgements, from the controlled devices	CPCONLY	G08C2201/50		753
+G08C2201/51	9	Remote controlling of devices based on replies, status thereof	CPCONLY	G08C2201/51		436
+G08C2201/60	8	Security, fault tolerance	CPCONLY	G08C2201/60		209
+G08C2201/61	9	Password, biometric	CPCONLY	G08C2201/61		236
+G08C2201/62	9	Rolling code	CPCONLY	G08C2201/62		75
+G08C2201/63	9	Redundant transmissions	CPCONLY	G08C2201/63		123
+G08C2201/70	8	Device selection	CPCONLY	G08C2201/70		186
+G08C2201/71	9	Directional beams	CPCONLY	G08C2201/71		177
+G08C2201/90	8	Additional features	CPCONLY	G08C2201/90		48
+G08C2201/91	9	Remote control based on location and proximity	CPCONLY	G08C2201/91		561
+G08C2201/92	9	Universal remote control	CPCONLY	G08C2201/92		788
+G08C2201/93	9	Remote control using other portable devices, e.g. mobile phone, PDA, laptop	CPCONLY	G08C2201/93		1904
+G08C2201/94	9	Smart cards	CPCONLY	G08C2201/94		66

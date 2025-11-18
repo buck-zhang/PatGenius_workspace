@@ -1,0 +1,121 @@
+H03H   1/00		電気的動作姿態が特定されていないか２種類以上の回路網に適用できるインピーダンス回路網の構造の細部（電気機械的トランスジューサーの構造の細部Ｈ０３Ｈ９／００）	Constructional details of impedance networks whose electrical mode of operation is not specified or applicable to more than one type of network(constructional details of electromechanical transducers H03H9/00)	4592
+H03H   1/02	・	ＲＣ回路，例．フィルタ［２００６．０１］	RC networks, e.g. filters	507
+H03H   2/00		グループＨ０３Ｈ３／００〜Ｈ０３Ｈ２１／００にあてはまらない素子または技術を使った回路網［３］	Networks using elements or techniques not provided for in groups H03H3/00 to H03H21/00 	1204
+H03H   3/00		インピーダンス回路網，共振回路，共振器の製造に特有な装置または工程	Apparatus or processes specially adapted for the manufacture of impedance networks, resonating circuits, resonators	831
+H03H   3/007	・	電気機械的共振器または回路網の製造のためのもの［３］	for the manufacture of electromechanical resonators or networks	1504
+H03H   3/013	・・	所望の周波数または温度係数を得るためのもの（Ｈ０３Ｈ３／０４，Ｈ０３Ｈ３／１０が優先）［３］	for obtaining desired frequency or temperature coefficient(H03H3/04, H03H3/10 take precedence)	286
+H03H   3/02	・・	圧電または電わい共振器または回路網の製造のためのもの（Ｈ０３Ｈ３／０８が優先）［３］	for the manufacture of piezoelectric or electrostrictive resonators or networks(H03H3/08 takes precedence)	10571
+H03H   3/04	・・・	所望の周波数または温度係数を得るためのもの［３］	for obtaining desired frequency or temperature coefficient	2712
+H03H   3/06	・・	磁わい共振器または回路網の製造のためのもの［３］	for the manufacture of magnetostrictive resonators or networks	37
+H03H   3/08	・・	弾性表面波を用いる共振器または回路網の製造のためのもの［３］	for the manufacture of resonators or networks using surface acoustic waves	7545
+H03H   3/10	・・・	所望の周波数または温度係数を得るためのもの［３］	for obtaining desired frequency or temperature coefficient	647
+H03H   5/00		回路網の部品として受動的電気素子のみを含む一端子対回路網［３］	One-port networks comprising only passive electrical elements as network components	964
+H03H   5/02	・	電圧または電流に依存しない素子をもつもの	without voltage- or current-dependent elements	1002
+H03H   5/10	・・	定められた温度係数をもつ素子を少なくとも１個含むもの	comprising at least one element with prescribed temperature coefficient	41
+H03H   5/12	・	電圧または電流に依存する素子を少なくとも１個もつもの	with at least one voltage- or current-dependent element	453
+H03H   7/00		回路網の部品として受動的電気素子のみを含む多端子対回路網［２００６．０１］	Multiple-port networks comprising only passive electrical elements as network components	1818
+H03H   7/01	・	周波数選択二端子対回路網［３］	Frequency selective two-port networks	12349
+H03H   7/03	・・	損失の補償のための手段を含むもの［３］	comprising means for compensation of loss	180
+H03H   7/06	・・	抵抗器を含むもの（Ｈ０３Ｈ７／０７５，Ｈ０３Ｈ７／０９，Ｈ０３Ｈ７／１２，Ｈ０３Ｈ７／１３が優先）［３］	including resistors(H03H7/075, H03H7/09, H03H7/12, H03H7/13 take precedence)	1755
+H03H   7/065	・・・	並列Ｔ型濾波器［３］	Parallel T-filters	70
+H03H   7/07	・・・	ブリッヂＴ型濾波器［３］	Bridged T-filters	168
+H03H   7/075	・・	梯子型回路網，例．電気的濾波器［３］	Ladder networks, e.g. electric wave filters	3029
+H03H   7/09	・・	相互インダクタンスを含む濾波器［３］	Filters comprising mutual inductance	3712
+H03H   7/12	・・	調整可能な帯域幅および固定中心周波数をもつ帯域通過または帯域阻止濾波器（Ｈ０３Ｈ７／０９が優先）［２００６．０１］	Bandpass or bandstop filters with adjustable bandwidth and fixed centre frequency(H03H7/09 takes precedence)	1392
+H03H   7/13	・・	電気一光学素子を用いるもの［３］	using electro-optical elements	12
+H03H   7/18	・	移相回路網	Networks for phase shifting	949
+H03H   7/19	・・	予め定められた位相推移を与える二端子対移相器，例．「全域通過」濾波器［３］	Two-port phase shifters providing a predetermined phase shift, e.g. "all-pass" filters	152
+H03H   7/20	・・	調整可能な位相推移を与える二端子対移相器［３］	Two-port phase shifters providing an adjustable phase shift	715
+H03H   7/21	・・	２以上の位相推移された信号を提供するもの，例．ｎ相出力［３］	providing two or more phase shifted output signals, e.g. n-phase output	329
+H03H   7/24	・	周波数に依存しない減衰器	Frequency-independent attenuators	1957
+H03H   7/25	・・	電気的または磁気的変数によって制御される素子を含むもの（Ｈ０３Ｈ７／２７が優先）［３］	comprising an element controlled by an electric or magnetic variable(H03H7/27 takes precedence)	818
+H03H   7/27	・・	光電素子を含むもの［３］	comprising a photo-electric element	47
+H03H   7/30	・	時間遅延回路網	Time-delay networks	2953
+H03H   7/32	・・	集中インダクタンスと集中キャパシタンスをもつもの	with lumped inductance and capacitance	617
+H03H   7/34	・・	集中リアクタンスと分布リアクタンスをもつもの	with lumped and distributed reactance	477
+H03H   7/38	・	インピーダンス整合回路網	Impedance-matching networks	5398
+H03H   7/40	・・	電源インピーダンスに対する負荷インピーダンスの自動整合	Automatic matching of load impedance to source impedance	2186
+H03H   7/42	・	平衡信号を不平衡信号に変換するための，またはその逆に変換するための回路網，例．バラン［２００６．０１］	Networks for transforming balanced signals into unbalanced signals and <u>vice versa</u>, e.g. baluns	1683
+H03H   7/46	・	相異った周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網［２００６．０１］	Networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common load or source	2672
+H03H   7/48	・	同一の周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網（２以上の出力信号を提供する移相器Ｈ０３Ｈ７／２１）［３］	Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source(phase shifters providing two or more output signals H03H7/21)	2243
+H03H   7/52	・	１方向性伝送回路網，例．ユニライン	One-way transmission networks, i.e. unilines	333
+H03H   7/54	・	温度変化の影響を軽減するための回路網の変形［３］	Modifications of networks to reduce influence of variations of temperature	103
+H03H   9/00		電気機械的または電気音響的素子を含む回路網；電気機械的共振器（機械的に入出力する圧電装置，電わい装置または磁わい装置，例．アクチュエータまたはセンサー，Ｈ１０Ｎ３０／００，Ｈ１０Ｎ３５／００；拡声器，マイクロフォン，蓄音機ピックアップ等の電気音響的変換器Ｈ０４Ｒ）［２００６．０１］	Networks comprising electromechanical or electro-acoustic elements; Electromechanical resonators (piezoelectric, electrostrictive or magnetostrictive devices with mechanical input or output, e.g. actuators or sensors, H10N30/00, H10N35/00; electro-acoustic transducers such as loudspeakers, microphones or gramophone pick-ups H04R)	2902
+H03H   9/02	・	細部［３］	Details	19319
+H03H   9/05	・・	保持具または支持体［３］	Holders or supports	6385
+H03H   9/08	・・・	温度調整手段をもつ保持具	Holders with means for regulating temperature	510
+H03H   9/09	・・・	弾性または制動のある支持体［３］	Elastic or damping supports	1038
+H03H   9/10	・・・	封入容器中での実装	Mounting in enclosures	7028
+H03H   9/12	・・・・	光波と音波の相互作用のある回路網のためのもの	for networks with interaction of optical and acoustic waves	38
+H03H   9/125	・・	駆動手段，例．電極，コイル［３］	Driving means, e.g. electrodes, coils	735
+H03H   9/13	・・・	圧電または電わい材料からなる回路網のためのもの（弾性表面波を用いる回路網のためのものＨ０３Ｈ９／１４５）［２００６．０１］	for networks consisting of piezoelectric or electrostrictive materials (for networks using surface acoustic waves H03H9/145)	3512
+H03H   9/135	・・・	磁わい材料からなる回路網のためのもの（Ｈ０３Ｈ９／１４５が優先）［３］	for networks consisting of magnetostrictive materials(H03H9/145 takes precedence)	74
+H03H   9/145	・・・	弾性表面波を用いる回路網のためのもの［３］	for networks using surface acoustic waves	8374
+H03H   9/15	・	圧電または電わい材料からなる共振器の構造上の特徴（Ｈ０３Ｈ９／２５が優先）［３］	Constructional features of resonators consisting of piezoelectric or electrostrictive material(H03H9/25 takes precedence)	1645
+H03H   9/17	・・	単一の共振器を持つもの（結晶チューニングフォークＨ０３Ｈ９／２１）［３］	having a single resonator(crystal tuning forks H03H9/21)	9184
+H03H   9/19	・・・	水晶からなるもの［３］	consisting of quartz	8605
+H03H   9/205	・・	多数の共振器を持つもの（結晶チューニングフォークＨ０３Ｈ９／２１）［３］	having multiple resonators(crystal tuning forks H03H9/21)	1317
+H03H   9/21	・・	結晶チューニングフォーク［３］	Crystal tuning forks	1299
+H03H   9/215	・・・	水晶からなるもの［３］	consisting of quartz	1936
+H03H   9/22	・	磁わい材料からなる共振器の構造上の特徴	Constructional features of resonators consisting of magnetostricitve material	172
+H03H   9/24	・	圧電，電わい，または磁わい以外の材料からなる共振器の構造上の特徴	Constructional features of resonators of material which is not piezoelectric, electrostrictive, or magnetostrictive	2548
+H03H   9/25	・	弾性表面波を使用する共振器の構造上の特徴［３］<br><b><ul>注</ul></b><br>グループ９／１５から９／２５はグループ９／３０から９／７４に優先する。［３］	Constructional features of resonators using surface acoustic waves	10237
+H03H   9/30	・	時間遅延回路網	Time-delay networks	1211
+H03H   9/36	・・	非調整遅延時間をもつもの（Ｈ０３Ｈ９／４０，Ｈ０３Ｈ９／４２が優先）［３］	with non-adjustable delay time(H03H9/40, H03H9/42 take precedence)	1329
+H03H   9/38	・・	可調整遅延時間をもつもの（Ｈ０３Ｈ９／４０，Ｈ０３Ｈ９／４２が優先）［３］	with adjustable delay time(H03H9/40, H03H9/42 take precedence)	156
+H03H   9/40	・・	周波数依存遅延線，例．分散的遅延線（Ｈ０３Ｈ９／４２が優先）［３］	Frequency-dependent delay lines, e.g. dispersive delay lines(H03H9/42 takes precedence)	82
+H03H   9/42	・・	弾性表面波を用いるもの［３］	using surface acoustic waves	760
+H03H   9/44	・・・	周波数依存遅延線，例．分散的遅延線［３］	Frequency-dependent delay lines, e.g. dispersive delay lines	189
+H03H   9/46	・	濾波器（多端子対の電気機械的濾波器Ｈ０３Ｈ９／７０）［３］	Filters(multiple-port electromechanical filters H03H9/70)	2141
+H03H   9/48	・・	それ用の結合手段［３］	Coupling means therefor	222
+H03H   9/50	・・・	機械的結合手段［３］	Mechanical coupling means	479
+H03H   9/52	・・・	電気的結合手段［３］	Electric coupling means	201
+H03H   9/54	・・	圧電または電わい材料からなる共振器を含むもの（弾性表面波を用いる共振器を含むものＨ０３Ｈ９／６４）［２００６．０１］	comprising resonators of piezoelectric or electrostrictive material (comprising resonators using surface acoustic waves H03H9/64)	4021
+H03H   9/56	・・・	単一の結晶を持つ濾波器［３］	Monolithic crystal filters	2912
+H03H   9/58	・・・	複数の結晶を持つ濾波器［３］	Multiple crystal filters	2413
+H03H   9/60	・・・・	それ用の電気的結合手段［３］	Electric coupling means therefor	771
+H03H   9/62	・・	磁わい材料からなる共振器を含むもの（Ｈ０３Ｈ９／６４が優先）［３］	comprising resonators of magnetostrictive material(H03H9/64 takes precedence)	123
+H03H   9/64	・・	弾性表面波を用いるもの［３］	using surface acoustic waves	7721
+H03H   9/66	・	移相器［３］	Phase shifters	82
+H03H   9/68	・・	弾性表面波を用いるもの［３］	using surface acoustic waves	100
+H03H   9/70	・	相異った周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための多端子回路網［３］	Multiple-port networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common or source	1292
+H03H   9/72	・・	弾性表面波を用いる回路網［３］	Networks using surface acoustic waves	2458
+H03H   9/74	・	同一の周波数または周波数帯域で動作する若干の電源または負荷を共通負荷または共通電源に接続するための多端子対回路網（位相推移のための回路網Ｈ０３Ｈ９／６６）［３］	Multiple-port networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source(networks for phase shifting H03H9/66)	52
+H03H   9/76	・・	弾性表面波を用いる回路網［３］	Networks using surface acoustic waves	143
+H03H  11/00		能動素子を用いる回路網	Networks using active elements	695
+H03H  11/02	・	多端子対回路網［３］	Multiple-port networks	834
+H03H  11/04	・・	周波数選択性２端子対回路網［３］	Frequency selective two-port networks	4968
+H03H  11/06	・・・	損失の補償用手段を含むもの［３］	comprising means for compensation of loss	142
+H03H  11/08	・・・	ジャイレータを用いるもの［３］	using gyrators	155
+H03H  11/10	・・・	負性インピーダンス変換器を用いるもの（Ｈ０３Ｈ１１／０８が優先）［３］	using negative impedance converters(H03H11/08 takes precedence)	122
+H03H  11/12	・・・	帰還を持つ増巾器を用いるもの（Ｈ０３Ｈ１１／０８，Ｈ０３Ｈ１１／１０が優先）［３］	using amplifiers with feedback(H03H11/08, H03H11/10 take precedence)	3334
+H03H  11/14	・・・	電気光学装置を用いるもの［３］	using electro-optical devices	42
+H03H  11/16	・・	位相推移のための回路網［３］	Networks for phase shifting	1051
+H03H  11/18	・・・	予め定められた位相推移を与える二端子対移相器，例．「全域通過」濾波器［３］	Two-port phase shifters providing a predetermined phase shift, e.g. "all-pass" filters	379
+H03H  11/20	・・・	可調整位相推移を与える二端子対移相器［３］	Two-port phase shifters providing an adjustable phase shift	849
+H03H  11/22	・・・	２以上の位相推移された信号を提供するもの，例．ｎ相出力［３］	providing two or more phase shifted output signals, e.g. n-phase output	329
+H03H  11/24	・・	周波数に依存しない減衰器［３］	Frequency-independent attenuators	1512
+H03H  11/26	・・	時間遅延回路網［２００６．０１］	Time-delay networks	2390
+H03H  11/28	・・	インピーダンス整合回路網［３］	Impedance matching networks	1068
+H03H  11/30	・・・	電源インピーダンスを負荷インピーダンスに自動整合するもの［３］	Automatic matching of source impedance to load impedance	316
+H03H  11/32	・・	平衡信号を不平衡信号に変換するための，またはその逆に変換するための回路網，例．バラン［２００６．０１］	Networks for transforming balanced signals into unbalanced signals and <u>vice versa</u>, e.g. baluns	400
+H03H  11/34	・・	相異った周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網［２００６．０１］	Networks for connecting several sources or loads working on different frequencies or frequency bands, to a common load or source	349
+H03H  11/36	・・	同一の周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網（２以上の出力信号を提供する移相器Ｈ０３Ｈ１１／２２）［３］	Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source(phase shifters providing two or more output signals H03H11/22)	321
+H03H  11/38	・・	１方向性伝送回路網，例．ユニライン［３］	One-way transmission networks, i.e. unilines	202
+H03H  11/40	・・	インピーダンス変換器［３］	Impedance converters	400
+H03H  11/42	・・・	ジャイレータ（周波数選択回路網に用いるものＨ０３Ｈ１１／０８）［３］	Gyrators(used in frequency selective networks H03H11/08)	198
+H03H  11/44	・・・	負性インピーダンス変換器（Ｈ０３Ｈ１１／４２が優先）［２００６．０１］	Negative impedance converters(H03H11/42 takes precedence)	103
+H03H  11/46	・	１端子対回路網［３］	One-port networks	911
+H03H  11/48	・・	リアクタンスを擬似するもの［３］	simulating reactances	695
+H03H  11/50	・・・	ジャイレータを用いるもの［３］	using gyrators	119
+H03H  11/52	・・	負性抵抗を擬似するもの［３］	simulating negative resistances	189
+H03H  11/54	・	温度の変化による影響を軽減するための回路網の変形［３］	Modifications of networks to reduce influence of variations of temperature	126
+H03H  15/00		トランスバーサルフィルタ（電気機械的濾波器Ｈ０３Ｈ９／４６，Ｈ０３Ｈ９／７０）［３］	Transversal filters(electromechanical filters H03H9/46, H03H9/70)	2343
+H03H  15/02	・	アナログシフトレジスタを用いるもの［３］	using analogue shift registers	678
+H03H  17/00		ディジタル技術を用いる回路網［３］	Networks using digital techniques	5811
+H03H  17/02	・	周波数選択回路網［３］	Frequency-selective networks	9681
+H03H  17/04	・・	巡回型濾波器［３］	Recursive filters	1773
+H03H  17/06	・・	非巡回型濾波器［３］	Non-recursive filters	3423
+H03H  17/08	・	位相推移を与える回路網［３］	Networks for phase-shifting	664
+H03H  19/00		時間変化要素を用いる回路網，例．Ｎ一路フィルター［３］	Networks using time-varying elements, e.g. N-path filters	1980
+H03H  21/00		適応型回路網［３］	Adaptive networks	5225

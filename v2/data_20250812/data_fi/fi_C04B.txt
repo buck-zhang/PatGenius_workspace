@@ -1,0 +1,959 @@
+C04B   2/00  \	0	0	4G112	C04B   2/00	59	石灰，マグネシアまたはドロマイト［４］	Lime, magnesia or dolomite [4]
+C04B   2/02  \	1	1	4G112	C04B   2/02	355	石灰［４］	Lime [4]
+C04B   2/04  \	2	2	4G112	C04B   2/04	129	消化［４］	Slaking [4]
+C04B   2/06  \	3	3	4G112	C04B   2/06	78	物質，例．疎水化剤，の添加によるもの［４］	with addition of substances, e.g. hydrophobic agents [4]
+C04B   2/08  \	3	3	4G112	C04B   2/08	104	その装置［４］	Devices therefor [4]
+C04B   2/10  \	1	1	4G112	C04B   2/10	330	予熱，焼成，か焼または冷却（セメント原料の焼成期間中の脱炭酸Ｃ０４Ｂ７／４３）［４］	Preheating, burning, calcining or cooling (decarbonation during burning of cement raw materials C04B 7/43) [4]
+C04B   2/12  \	2	2	4G112	C04B   2/12	192	直立炉または堅形炉におけるもの［４］	in shaft or vertical furnaces [4]
+C04B   5/00  \	0	0	4G112	C04B   5/00	20	溶融スラグの処理（スラグウールの製造Ｃ０３Ｂ；金属の製造中または製造用のスラグの処理　Ｃ２１Ｂ，Ｃ２２Ｂ）；溶融スラグからの人造石［４］	Treatment of molten slag (manufacture of slag wool C03B; treatment of slag in or for the production of metals C21B, C22B); Artificial stone from molten slag [4]
+C04B   5/00  A	0	0	4G112	C04B   5/00	121	溶融スラグからの熱回収	Heat recovery from melted slug
+C04B   5/00  B	0	0	4G112	C04B   5/00	370	冷却前の処理；冷却方法	Treatments before cooling, cooling methods
+C04B   5/00  C	0	0	4G112	C04B   5/00	670	冷却後の処理	Treatments after cooling
+C04B   5/00  Z	0	0	4G112	C04B   5/00	509	その他のもの	Others
+C04B   5/02  \	1	1	4G112	C04B   5/02	16	造粒（造粒装置Ｂ０１Ｊ２／００）；脱水；乾燥	Granulating (granulating apparatus B01J 2/00); Dehydrating; Drying
+C04B   5/02  A	1	0	4G112	C04B   5/02	557	水砕スラグの製造方法，処理方法（Ｃ０４Ｂ５／０２Ｂ優先）	Water granulated slug, treatment methods (5/02 B takes precedence.)
+C04B   5/02  B	1	1	4G112	C04B   5/02	302	スラリーからの水砕スラグの脱水または乾燥	Dehydration or drying of water granulated slug from slurry
+C04B   5/02  Z	1	0	4G112	C04B   5/02	501	その他のもの	Others
+C04B   5/06  \	1	1	4G112	C04B   5/06	770	溶融スラグに添加された水以外の成分；ガスまたはガス発生材料による処理，例．多孔質スラグを得るためのもの［４］	Ingredients, other than water, added to the molten slag; Treatment with gases or gas generating material, e.g. to obtain porous slag [4]
+C04B   7/00  \	0	0	4G112	C04B   7/00	245	水硬性セメント	Cements
+C04B   7/02  \	1	1	4G112	C04B   7/02	989	ポルトランドセメント	Portland cement
+C04B   7/04  \	2	2	4G112	C04B   7/04	135	石こうを含む原料を使用するもの	using raw materials containing gypsum
+C04B   7/06  \	2	2	4G112	C04B   7/06	22	アルカリ原料を使用するもの	using alkaline raw materials
+C04B   7/12  \	1	1	4G112	C04B   7/12	88	天然ポゾラン；天然ポゾランセメント［４］	Natural pozzuolanas; Natural pozzuolana cements [4]
+C04B   7/13  \	2	2	4G112	C04B   7/13	125	無機セメント質材料，例．ポルトランドセメント，との混合物［４］	Mixtures thereof with inorganic cementitious materials, e.g. Portland cements [4]
+C04B   7/14  \	1	1	4G112	C04B   7/14	188	スラグを含むセメント	Cements containing slag
+C04B   7/147  \	2	2	4G112	C04B   7/147	143	冶金スラグ［４］	Metallurgical slag [4]
+C04B   7/153  \	3	3	4G112	C04B   7/153	303	他の無機セメント質材料または他の活性化剤との混合物［４］	Mixtures thereof with other inorganic cementitious materials or other activators [4]
+C04B   7/17  \	4	4	4G112	C04B   7/17	49	活性化剤を含有する酸化カルシウムとの［４］	with calcium oxide containing activators [4]
+C04B   7/19  \	5	5	4G112	C04B   7/19	390	ポルトランドセメント［４］	Portland cements [4]
+C04B   7/21  \	4	4	4G112	C04B   7/21	163	活性化剤を含有する硫酸カルシウムとの［４］	with calcium sulfate containing activators [4]
+C04B   7/22  \	1	1	4G112	C04B   7/22	11	鉄鉱セメント	Iron ore cements
+C04B   7/24  \	1	1	4G112	C04B   7/24	710	油頁岩，残留物またはスラグ以外の廃棄物から製造されたセメント［４］	Cements from oil shales, residues or waste other than slag [4]
+C04B   7/26  \	2	2	4G112	C04B   7/26	419	煙道ダストを含む原料からのもの	from raw materials containing flue dust
+C04B   7/28  \	2	2	4G112	C04B   7/28	452	燃料残留物からのもの（Ｃ０４Ｂ７／２６が優先）［４］	from combustion residues (C04B 7/26 takes precedence) [4]
+C04B   7/30  \	2	2	4G112	C04B   7/30	17	油頁岩からのもの；油頁岩残留物からのもの［４］	from oil shale; from oil shale residues [4]
+C04B   7/32  \	1	1	4G112	C04B   7/32	486	アルミナセメント	Aluminous cements
+C04B   7/34  \	1	1	4G112	C04B   7/34	104	水硬性石灰セメント；ローマンセメント	Hydraulic lime cements; Roman cements
+C04B   7/345  \	1	1	4G112	C04B   7/345	649	グループＣ０４Ｂ７／０２〜Ｃ０４Ｂ７／３４の１つに属さない水硬性セメント［４］	Hydraulic cements not provided for in one of the groups C04B 7/02-C04B 7/34 [4]
+C04B   7/36  \	1	1	4G112	C04B   7/36	357	水硬性セメントの製造一般	Manufacture of hydraulic cements in general
+C04B   7/38  \	2	2	4G112	C04B   7/38	1003	個々の，またはバッチとしての原料の調整または処理［４］	Preparing or treating the raw materials individually or as batches [4]
+C04B   7/40  \	3	3	4G112	C04B   7/40	121	脱水；成形，例．造粒（造粒装置Ｂ０１Ｊ２／００）	Dehydrating; Forming, e.g. granulating (granulating apparatus B01J 2/00)
+C04B   7/42  \	3	3	4G112	C04B   7/42	91	焼成工程の前またはその期間中に添加される活性成分	Active ingredients added before, or during, the burning process
+C04B   7/43  \	2	2	4G112	C04B   7/43	124	熱処理，例．予備か焼，焼成，溶融；冷却［４］	Heat treatment, e.g. precalcining, burning, melting; Cooling [4]
+C04B   7/44  \	3	3	4G112	C04B   7/44	1377	焼成；溶融［４］	Burning; Melting [4]
+C04B   7/44 101 \	4	4	4G112	C04B   7/44	555	予熱；か焼	Pre-heating, calcination
+C04B   7/44 102 \	5	5	4G112	C04B   7/44	335	仮焼用バーナを使用するもの	Using of calcination burners
+C04B   7/45  \	4	4	4G112	C04B   7/45	166	流動床での［４］	in fluidised beds [4]
+C04B   7/46  \	4	4	4G112	C04B   7/46	28	電気的なもの［４］	electric [4]
+C04B   7/47  \	3	3	4G112	C04B   7/47	502	冷却［４］	Cooling [4]
+C04B   7/48  \	2	2	4G112	C04B   7/48	109	クリンカー処理（Ｃ０４Ｂ７／４７が優先）［４］	Clinker treatment (C04B 7/47 takes precedence) [4]
+C04B   7/51  \	3	3	4G112	C04B   7/51	5	水和［４］	Hydrating [4]
+C04B   7/52  \	3	3	4G112	C04B   7/52	446	粉砕	Grinding
+C04B   7/60  \	2	2	4G112	C04B   7/60	738	アルカリ金属またはその化合物の除去方法［４］	Methods for eliminating alkali metals or compounds thereof [4]
+C04B   9/00  \	0	0	4G112	C04B   9/00	145	マグネシウムセメントまたはそれに類似するセメント	Magnesium cements or silimar cements
+C04B   9/02  \	1	1	4G112	C04B   9/02	18	塩化物を含むマグネシウムセメント，例．ソーレルセメント	Magnesium cements containing chlorides, e.g. Sorel cement
+C04B   9/04  \	1	1	4G112	C04B   9/04	35	硫酸塩，硝酸塩，りん酸塩またはふっ化物を含むマグネシウムセメント	Magnesium cements containing sulfates, nitrates, phosphates, or fluorides
+C04B   9/06  \	1	1	4G112	C04B   9/06	10	マグネシウム化合物以外の金属化合物，例．亜鉛または鉛化合物，を含有するセメント	Cements containing metal compounds other than magnesium compounds, e.g. compounds of zinc or lead
+C04B   9/11  \	1	1	4G112	C04B   9/11	8	他の無機セメント質材料との混合物［４］	Mixtures thereof with other inorganic cementitious materials [4]
+C04B   9/12  \	2	2	4G112	C04B   9/12	16	水硬性セメント，例．ポルトランドセメント，との［４］	with hydraulic cements, e.g. Portland cements [4]
+C04B   9/20  \	1	1	4G112	C04B   9/20	5	製造，例．バッチの調整（石灰岩，マグネサイトまたはドロマイトの予熱，焼成，か焼または冷却Ｃ０４Ｂ２／１０）	Manufacture, e.g. preparing the batches (preheating, burning, calcining or cooling lime stone, magnesite or dolomite C04B 2/10)
+C04B  11/00  \	0	0	4G112	C04B  11/00	135	硫酸カルシウムセメント	Calcium sulfate cements
+C04B  11/02  \	1	1	4G112	C04B  11/02	152	石こうの脱水	Dehydrating gypsum
+C04B  11/024  \	2	2	4G112	C04B  11/024	97	か焼工程の前またはその期間中に添加される成分，例．か焼変性剤［４］	Ingredients added before, or during, the calcining process, e.g. calcination modifiers [4]
+C04B  11/028  \	2	2	4G112	C04B  11/028	57	その装置［４］	Devices therefor [4]
+C04B  11/032  \	3	3	4G112	C04B  11/032	23	湿式法，例．溶液中でのまたは飽和蒸気条件下での脱水，のためのもの［４］	for the wet process, e.g. dehydrating in solution or under saturated vapor conditions [4]
+C04B  11/036  \	3	3	4G112	C04B  11/036	41	乾式法，例．流動床またはロータリーキルン中での脱水，のためのもの［４］	for the dry process, e.g. dehydrating in a fluidised bed or in a rotary kiln [4]
+C04B  11/05  \	1	1	4G112	C04B  11/05	67	無水石こうの取得（Ｃ０４Ｂ１１／０２８が優先）［４］	obtaining anhydrite (C04B 11/028 takes precedence) [4]
+C04B  11/06  \	1	1	4G112	C04B  11/06	3	硬石こうを出発物質とするもの	starting from anhydrite
+C04B  11/26  \	1	1	4G112	C04B  11/26	138	りん酸石こうまたは廃棄物，例．煙の浄化生成物，を出発物質とするもの（Ｃ０４Ｂ１１／０２が優先）［４］	starting from phosphogypsum or from waste, e.g. purification products of smoke (C04B 11/02 takes precedence) [4]
+C04B  11/28  \	1	1	4G112	C04B  11/28	60	他の無機セメント質材料との混合物（Ｃ０４Ｂ７／０４，Ｃ０４Ｂ７／１５３が優先）［４］	Mixtures thereof with other inorganic cementitious materials (C04B 7/04, C04B 7/153 take precedence) [4]
+C04B  11/30  \	2	2	4G112	C04B  11/30	158	水硬性セメント，例．ポルトランドセメント，との［４］	with hydraulic cements, e.g. Portland cements [4]
+C04B  12/00  \	0	0	4G112	C04B  12/00	94	グループＣ０４Ｂ７／００〜Ｃ０４Ｂ１１／００に属さないセメント［４］	Cements not provided for in groups C04B 7/00-C04B 11/00 [4]
+C04B  12/02  \	1	1	4G112	C04B  12/02	174	りん酸セメント［４］	Phosphate cements [4]
+C04B  12/04  \	1	1	4G112	C04B  12/04	232	アルカリ金属またはけい酸アンモニウムセメント［４］	Alkali metal or ammonium silicate cements [4]
+C04B  14/00  \	0	0	4G112	C04B  14/00	62	モルタル，コンクリートまたは人造石のための充填材，例．顔料，としての無機物の使用；モルタル，コンクリートまたは人造石に対する無機物の充填性を向上させるのに特に適合する処理（建築材料用補強要素Ｅ０４Ｃ５／００）［４］	Use of inorganic materials as fillers, e.g. pigments, for mortars, concrete or artificial stone; Treatment of inorganic materials specially adapted to enhance their filling properties in mortars, concrete or artificial stone (reinforcing elements for building&nbsp;E04C 5/00) [4]
+C04B  14/02  \	1	1	4G112	C04B  14/02	177	粒状材料［４］	Granular materials [4]
+C04B  14/02  A	1	0	4G112	C04B  14/02	431	着色材料	Colouring materials
+C04B  14/02  B	1	0	4G112	C04B  14/02	612	軽量化したもの	Lightweight
+C04B  14/02  C	1	0	4G112	C04B  14/02	246	製造装置等	Production devices
+C04B  14/02  Z	1	0	4G112	C04B  14/02	628	その他	Others
+C04B  14/04  \	2	2	4G112	C04B  14/04	144	けい素に富んだ材料；けい酸塩［４］	Silica-rich materials; Silicates [4]
+C04B  14/04  A	2	0	4G112	C04B  14/04	217	軽量化したもの	Lighter weight
+C04B  14/04  C	2	0	4G112	C04B  14/04	238	非晶質シリカ	Amorphous silica
+C04B  14/04  Z	2	0	4G112	C04B  14/04	945	その他	Others
+C04B  14/06  \	3	3	4G112	C04B  14/06	127	石英；砂［４］	Quartz; Sand [4]
+C04B  14/06  A	3	0	4G112	C04B  14/06	67	水による処理	Treatments with water
+C04B  14/06  B	3	0	4G112	C04B  14/06	135	粉砕または研磨処理	Crushing or grinding processes
+C04B  14/06  Z	3	0	4G112	C04B  14/06	1113	その他	Others
+C04B  14/08  \	3	3	4G112	C04B  14/08	160	けいそう土［４］	Diatomaceous earth [4]
+C04B  14/10  \	3	3	4G112	C04B  14/10	83	粘土［４］	Clay [4]
+C04B  14/10  A	3	0	4G112	C04B  14/10	235	粘土の精製または変性	Purification or denaturing of clay
+C04B  14/10  B	3	0	4G112	C04B  14/10	295	複鎖構造型粘土	Clay with chain structures
+C04B  14/10  Z	3	0	4G112	C04B  14/10	741	その他	Others
+C04B  14/12  \	4	4	4G112	C04B  14/12	112	膨張した粘土［４］	Expanded clay [4]
+C04B  14/14  \	3	3	4G112	C04B  14/14	265	火山起原の鉱物［４］	Minerals of vulcanic origin [4]
+C04B  14/16  \	4	4	4G112	C04B  14/16	300	多孔質のもの，例．軽石［４］	porous, e.g. pumice [4]
+C04B  14/18  \	4	4	4G112	C04B  14/18	459	パーライト［４］	Perlite [4]
+C04B  14/20  \	3	3	4G112	C04B  14/20	70	雲母；ひる石［４］	Mica; Vermiculite [4]
+C04B  14/20  A	3	0	4G112	C04B  14/20	244	雲母	Mica
+C04B  14/20  Z	3	0	4G112	C04B  14/20	140	その他	Others
+C04B  14/22  \	3	3	4G112	C04B  14/22	223	ガラス［４］	Glass [4]
+C04B  14/24  \	4	4	4G112	C04B  14/24	161	多孔質のもの，例．発泡ガラス［４］	porous, e.g. foamed glass [4]
+C04B  14/26  \	2	2	4G112	C04B  14/26	104	炭酸塩［４］	Carbonates [4]
+C04B  14/28  \	3	3	4G112	C04B  14/28	947	カルシウムの［４］	of calcium [4]
+C04B  14/30  \	2	2	4G112	C04B  14/30	540	シリカ以外の酸化物［４］	Oxides other than silica [4]
+C04B  14/32  \	2	2	4G112	C04B  14/32	82	炭化物；窒化物；ほう化物［４］	Carbides; Nitrides; Borides [4]
+C04B  14/34  \	2	2	4G112	C04B  14/34	261	金属［４］	Metals [4]
+C04B  14/36  \	2	2	4G112	C04B  14/36	754	グループＣ０４Ｂ１４／０２〜Ｃ０４Ｂ１４／３４に属さない無機物［４］	Inorganic materials not provided for in groups C04B 14/04-C04B 14/34 [4]
+C04B  14/38  \	1	1	4G112	C04B  14/38	264	繊維状材料；ウィスカー［４］	Fibrous materials; Whiskers [4]
+C04B  14/38  A	1	0	4G112	C04B  14/38	535	炭素繊維	Carbon fibres
+C04B  14/38  B	1	0	4G112	C04B  14/38	14	石こう繊維	Gypsum fibres
+C04B  14/38  C	1	0	4G112	C04B  14/38	220	ケイ酸塩繊維	Silica fibres
+C04B  14/38  Z	1	0	4G112	C04B  14/38	623	その他	Others
+C04B  14/40  \	2	2	4G112	C04B  14/40	148	石綿［４］	Asbestos [4]
+C04B  14/42  \	2	2	4G112	C04B  14/42	76	ガラス［４］	Glass [4]
+C04B  14/42  A	2	0	4G112	C04B  14/42	123	組成に特徴があるもの	Characterized by structures
+C04B  14/42  B	2	0	4G112	C04B  14/42	81	形状に特徴があるもの	Characterized by profiles
+C04B  14/42  C	2	1	4G112	C04B  14/42	88	チョップドストランド型のもの	Of chopped strand types
+C04B  14/42  Z	2	0	4G112	C04B  14/42	426	その他	Others
+C04B  14/44  \	3	3	4G112	C04B  14/44	3	アルカリ耐性を増加させるための処理［４］	Treatment for enhancing alkali resistance [4]
+C04B  14/44  A	3	0	4G112	C04B  14/44	55	無機物によるもの	With inorganic substances
+C04B  14/44  B	3	0	4G112	C04B  14/44	35	有機物によるもの	With organic substances
+C04B  14/44  C	3	1	4G112	C04B  14/44	63	樹脂によるもの	With resins
+C04B  14/44  D	3	0	4G112	C04B  14/44	19	無機物＋有機物によるもの	Combination of inorganic and organic substances
+C04B  14/44  Z	3	0	4G112	C04B  14/44	19	その他	Others
+C04B  14/46  \	2	2	4G112	C04B  14/46	151	岩綿［４］	Rock wool [4]
+C04B  14/48  \	2	2	4G112	C04B  14/48	27	金属［４］	Metal [4]
+C04B  14/48  A	2	0	4G112	C04B  14/48	136	材質に特徴があるもの	Characterized by materials
+C04B  14/48  B	2	0	4G112	C04B  14/48	41	被覆処理したもの	With coatings
+C04B  14/48  C	2	0	4G112	C04B  14/48	171	形状に特徴があるもの	Characterized by profiles
+C04B  14/48  D	2	1	4G112	C04B  14/48	165	寸法を特定したもの	With specified dimensions
+C04B  14/48  Z	2	0	4G112	C04B  14/48	277	その他	Others
+C04B  16/00  \	0	0	4G112	C04B  16/00	41	モルタル，コンクリートまたは人造石のための充填材，例．顔料，としての有機物の使用；モルタル，コンクリートまたは人造石に対する有機物の充填性を向上させるのに特に適合する処理（建築材料用補強要素Ｅ０４Ｃ５／００）［４］	Use of organic materials as fillers, e.g. pigments, for mortars, concrete or artificial stone; Treatment of organic materials specially adapted to enhance their filling properties in mortars, concrete or artificial stone (reinforcing elements for building&nbsp;E04C 5/00) [4]
+C04B  16/02  \	1	1	4G112	C04B  16/02	163	セルロース質材料［４］	Cellulosic materials [4]
+C04B  16/02  A	1	0	4G112	C04B  16/02	133	セルロース質材料＋無機繊維	Combination of cellulose material and inorganic fibre
+C04B  16/02  Z	1	0	4G112	C04B  16/02	979	その他	Others
+C04B  16/04  \	1	1	4G112	C04B  16/04	305	高分子化合物（Ｃ０４Ｂ１６／０２が優先）［４］	Macromolecular compounds (C04B 16/02 takes precedence) [4]
+C04B  16/06  \	2	2	4G112	C04B  16/06	200	繊維状の［４］	fibrous [4]
+C04B  16/06  A	2	0	4G112	C04B  16/06	863	繊維の材質に特徴があるもの	Characterized by fibre materials
+C04B  16/06  B	2	1	4G112	C04B  16/06	424	ポリビニルアルコール系のもの	Polyvinyl alcohol
+C04B  16/06  C	2	0	4G112	C04B  16/06	203	被覆処理をしたもの	With coatings
+C04B  16/06  D	2	0	4G112	C04B  16/06	151	繊維の形状に特徴があるもの	fibre profiles
+C04B  16/06  E	2	1	4G112	C04B  16/06	409	寸法を特定したもの	With specified dimensions
+C04B  16/06  F	2	1	4G112	C04B  16/06	93	表面が凸凹のもの（Ｃ０４Ｂ１６／０６Ｃ優先）	With uneven surfaces (Coating takes precedence.)
+C04B  16/06  G	2	0	4G112	C04B  16/06	102	有機繊維＋無機繊維	Combination of organic and inorganic substances
+C04B  16/06  Z	2	0	4G112	C04B  16/06	565	その他	Others
+C04B  16/08  \	2	2	4G112	C04B  16/08	359	多孔質の，例．発泡ポリスチレンビーズ［４］	porous, e.g. expanded polystyrene beads [4]
+C04B  16/10  \	3	3	4G112	C04B  16/10	77	モルタルとの混合性を高めるための処理［４］	Treatment for enhancing the mixability with the mortar [4]
+C04B  16/12  \	1	1	4G112	C04B  16/12	32	形状によって特徴づけられたもの（繊維状高分子化合物Ｃ０４Ｂ１６／０６；多孔質高分子化合物Ｃ０４Ｂ１６／０８）［４］	characterised by the shape (fibrous macromolecular compounds C04B 16/06; porous macromolecular compounds C04B 16/08) [4]
+C04B  18/00  \	0	0	4G112	C04B  18/00	50	モルタル，コンクリート，または人造石のための充填材としての塊成化物質もしくは廃棄物または屑の使用；モルタル，コンクリート，または人造石に対する塊成化物質もしくは廃棄物または屑の充填性を向上させるのに特に適合する処理（建築用補強要素Ｅ０４Ｃ５／００）［２００６．０１］	Use of agglomerated or waste materials or refuse as fillers for mortars, concrete or artificial stone; Treatment of agglomerated or waste materials or refuse, specially adapted to enhance their filling properties in mortars, concrete or artificial stone (reinforcing elements for building E04C 5/00) [4, 2006.01]
+C04B  18/02  \	1	1	4G112	C04B  18/02	55	塊成化物質［４］	Agglomerated materials [4]
+C04B  18/04  \	1	1	4G112	C04B  18/04	533	廃棄物；屑［４］	Waste materials; Refuse [4]
+C04B  18/06  \	2	2	4G112	C04B  18/06	187	燃焼残留物，例．煙，煙霧または排ガスの浄化生成物［４］	Combustion residues, e.g. purification products of smoke, fumes or exhaust gases [4]
+C04B  18/08  \	3	3	4G112	C04B  18/08	87	煙道ダスト［４］	Flue dust [4]
+C04B  18/08  A	3	0	4G112	C04B  18/08	128	焼成するもの	Baking
+C04B  18/08  B	3	1	4G112	C04B  18/08	310	原料に特徴があるもの	Characterized by materials
+C04B  18/08  Z	3	0	4G112	C04B  18/08	1579	その他	Others
+C04B  18/10  \	3	3	4G112	C04B  18/10	51	焼成屑［４］	Burned refuse [4]
+C04B  18/10  A	3	0	4G112	C04B  18/10	647	石炭灰	Coal ash
+C04B  18/10  B	3	0	4G112	C04B  18/10	164	モミガラ；木粉炭化物	Carbides of rise hulls or wood chips
+C04B  18/10  Z	3	0	4G112	C04B  18/10	533	その他	Others
+C04B  18/12  \	2	2	4G112	C04B  18/12	168	採石場，鉱山または類似のものからのもの［４］	from quarries, mining or the like [4]
+C04B  18/14  \	2	2	4G112	C04B  18/14	144	冶金学的工程からのもの（溶融スラグの処理Ｃ０４Ｂ５／００）［４］	from metallurgical processes (treatment of molten slag C04B 5/00) [4]
+C04B  18/14  A	2	0	4G112	C04B  18/14	1216	高炉スラグ	Blast furnace slug
+C04B  18/14  B	2	1	4G112	C04B  18/14	41	急冷スラグ	Quenched slug
+C04B  18/14  C	2	2	4G112	C04B  18/14	327	水砕スラグ	Water granulated slug
+C04B  18/14  D	2	1	4G112	C04B  18/14	22	膨脹スラグ	Expanded slug
+C04B  18/14  E	2	2	4G112	C04B  18/14	20	乾式法によるもの	by drying methods
+C04B  18/14  F	2	0	4G112	C04B  18/14	494	製鋼スラグ	Steel slug
+C04B  18/14  G	2	0	4G112	C04B  18/14	81	赤泥	Red slug
+C04B  18/14  H	2	0	4G112	C04B  18/14	52	高炉ダスト類	Blast furnace dusts
+C04B  18/14  J	2	1	4G112	C04B  18/14	15	加熱軽量化するもの	Weight reduction by heating
+C04B  18/14  K	2	2	4G112	C04B  18/14	87	ケイ酸アルカリを添加するもの	by adding alkali silicates
+C04B  18/14  Z	2	0	4G112	C04B  18/14	1156	その他	Others
+C04B  18/16  \	2	2	4G112	C04B  18/16	1539	建築またはセラミック工業からのもの［２０２３．０１］	from building or ceramic industry [4, 2006.01, 2023.01]
+C04B  18/162  \	3	3	4G112	C04B  18/162	45	セメントキルンダスト；ライムキルンダスト［２０２３．０１］	Cement kiln dust; Lime kiln dust [2023.01]
+C04B  18/165  \	3	3	4G112	C04B  18/165	169	セラミック廃棄物［２０２３．０１］	Ceramic waste [2023.01]
+C04B  18/167  \	3	3	4G112	C04B  18/167	807	再生材料，すなわち，同じ材料の生産に再利用される廃材料［２０２３．０１］	Recycled materials, i.e. waste materials reused in the production of the same materials [2023.01]
+C04B  18/18  \	2	2	4G112	C04B  18/18	25	有機的なもの（Ｃ０４Ｂ１８／１０が優先）［４］	organic (C04B 18/10 takes precedence) [4]
+C04B  18/20  \	3	3	4G112	C04B  18/20	222	高分子化合物からのもの［４］	from macromolecular compounds [4]
+C04B  18/22  \	4	4	4G112	C04B  18/22	58	ゴム［４］	Rubber [4]
+C04B  18/24  \	3	3	4G112	C04B  18/24	55	植物屑，例．もみがら，トウモロコシ屑；セルロース質材料，例．紙［４］	Vegetable refuse, e.g. rice husks, maize-ear refuse; Cellulosic materials, e.g. paper [4]
+C04B  18/24  A	3	0	4G112	C04B  18/24	138	パルプスラッジ	Pulp sludge
+C04B  18/24  Z	3	0	4G112	C04B  18/24	297	その他	Others
+C04B  18/26  \	4	4	4G112	C04B  18/26	382	木材，例．鋸屑，かんな屑［４］	Wood, e.g. sawdust, wood shavings [4]
+C04B  18/28  \	4	4	4G112	C04B  18/28	85	鉱物化；そのための組成物［４］	Mineralising; Compositions therefor [4]
+C04B  18/30  \	2	2	4G112	C04B  18/30	376	混合廃棄物；組成不明の廃棄物，例．都市ごみ（Ｃ０４Ｂ１８／１０が優先）［４］	Mixed waste; Waste of undefined composition, e.g. municipal waste (C04B 18/10 takes precedence) [4]
+C04B  20/00  \	0	0	4G112	C04B  20/00	37	モルタル，コンクリート，または人造石のための充填材としての物質であって，グループＣ０４Ｂ１４／００〜Ｃ０４Ｂ１８／００の２以上に属するとともに形状または粒度分布に特徴のあるものの使用；モルタル，コンクリートまたは人造石に対するグループＣ０４Ｂ１４／００〜Ｃ０４Ｂ１８／００の２以上に属する物質の充てん性を向上させるのに特に適合する処理；物質の膨張または解繊（建築材料用補強要素Ｅ０４Ｃ５／００）［４］	Use of materials as fillers for mortars, concrete or artificial stone according to more than one of groups C04B 14/00-C04B 18/00 and characterised by shape or grain distribution; Treatment of materials according to more than one of the groups C04B 14/00-C04B 18/00 specially adapted to enhance their filling properties in mortars, concrete or artificial stone; Expanding or defibrillating materials (reinforcing elements for building&nbsp;E04C 5/00) [4]
+C04B  20/00  A	0	0	4G112	C04B  20/00	232	形状に特徴があるもの	Characterized by profiles
+C04B  20/00  B	0	0	4G112	C04B  20/00	940	粒度分布に特徴があるもの	Characterized by granule distributions
+C04B  20/00  Z	0	0	4G112	C04B  20/00	102	その他	Others
+C04B  20/02  \	1	1	4G112	C04B  20/02	41	処理［４］	Treatment [4]
+C04B  20/02  A	1	0	4G112	C04B  20/02	41	膨張処理；はく離処理	Expansion or peeling treatment
+C04B  20/02  Z	1	0	4G112	C04B  20/02	86	その他	Others
+C04B  20/04  \	2	2	4G112	C04B  20/04	53	熱処理［４］	Heat treatment [4]
+C04B  20/06  \	3	3	4G112	C04B  20/06	8	膨張粘土，パーライト，ひる石または類似の粒状材料［４］	Expanding clay, perlite, vermiculite or like granular materials [4]
+C04B  20/06  A	3	0	4G112	C04B  20/06	96	焼成炉または装置	Baking furnaces or devices
+C04B  20/06  Z	3	0	4G112	C04B  20/06	120	その他	Others
+C04B  20/08  \	2	2	4G112	C04B  20/08	19	石綿の解繊［４］	Defibrillating asbestos [4]
+C04B  20/10  \	1	1	4G112	C04B  20/10	839	被覆または含浸［４］	Coating or impregnating [4]
+C04B  20/12  \	2	2	4G112	C04B  20/12	64	多層被覆または含浸［４］	Multiple coating or impregnating [4]
+C04B  22/00  \	0	0	4G112	C04B  22/00	269	モルタル，コンクリートまたは人造石のための活性成分としての無機材料，例．硬化促進剤，の使用［４］	Use of materials as active ingredients
+C04B  22/02  \	1	1	4G112	C04B  22/02	126	元素［４］	Elements [4]
+C04B  22/04  \	2	2	4G112	C04B  22/04	359	金属，例．発泡剤として使用するアルミニウム［４］	Metals, e.g. aluminium used as blowing agent [4]
+C04B  22/06  \	1	1	4G112	C04B  22/06	239	酸化物；水酸化物［４］	Oxides; Hydroxides [4]
+C04B  22/06  A	1	0	4G112	C04B  22/06	1093	けい素を含有するもの	Containing silicon
+C04B  22/06  Z	1	0	4G112	C04B  22/06	2146	その他のもの	Others
+C04B  22/08  \	1	1	4G112	C04B  22/08	122	酸またはその塩［４］	Acids or salts thereof [4]
+C04B  22/08  A	1	0	4G112	C04B  22/08	1009	けい酸塩	Silicates
+C04B  22/08  B	1	0	4G112	C04B  22/08	397	陰イオン中に窒素を含有するもの	Containing nitrogen in cation
+C04B  22/08  Z	1	0	4G112	C04B  22/08	1736	その他のもの	Others
+C04B  22/10  \	2	2	4G112	C04B  22/10	1328	陰イオン中に炭素を含有するもの，例．炭酸塩［４］	containing carbon in the anion, e.g. carbonates [4]
+C04B  22/12  \	2	2	4G112	C04B  22/12	718	陰イオン中にハロゲンを含有するもの，例．塩化カルシウム［４］	containing halogen in the anion, e.g. calcium chloride [4]
+C04B  22/14  \	2	2	4G112	C04B  22/14	172	陰イオン中に硫黄を含有するもの，例．硫化物［４］	containing sulfur in the anion, e.g. sulfides [4]
+C04B  22/14  A	2	0	4G112	C04B  22/14	1273	無機硫酸塩	Inorganic sulfides
+C04B  22/14  B	2	1	4G112	C04B  22/14	1824	硫酸カルシウム	Calcium sulfides
+C04B  22/14  C	2	2	4G112	C04B  22/14	190	カルシウム〔ハロ〕アルミネートを含有するもの	Containing calcium (halo) aluminate
+C04B  22/14  D	2	1	4G112	C04B  22/14	545	カルシウムサルホアルミネート	Calcium sulfoaluminate
+C04B  22/14  E	2	2	4G112	C04B  22/14	60	カルシウムサルホアルミネートの合成	Synthesizing of calcium sulfoaluminate
+C04B  22/14  Z	2	0	4G112	C04B  22/14	245	その他のもの	Others
+C04B  22/16  \	2	2	4G112	C04B  22/16	71	陰イオン中にリンを含有するもの，例．りん酸塩［４］	containing phosphorus in the anion, e.g. phosphates [4]
+C04B  22/16  A	2	0	4G112	C04B  22/16	386	他の活性成分を併用するもの	Combinations with other active constituents
+C04B  22/16  Z	2	0	4G112	C04B  22/16	184	その他のもの	Others
+C04B  24/00  \	0	0	4G112	C04B  24/00	831	モルタル，コンクリートまたは人造石のための活性成分としての有機物，例．流動化剤，の使用［４］	Use of organic materials as active ingredients for mortars, concrete or artificial stone, e.g. plasticisers [4]
+C04B  24/02  \	1	1	4G112	C04B  24/02	977	アルコール；フェノール；エーテル［４］	Alcohols; Phenols; Ethers [4]
+C04B  24/04  \	1	1	4G112	C04B  24/04	987	カルボン酸；その塩，無水物またはエステル［４］	Carboxylic acids; Salts, anhydrides or esters thereof [4]
+C04B  24/06  \	2	2	4G112	C04B  24/06	125	水酸基を含有するもの［４］	containing hydroxy groups [4]
+C04B  24/06  A	2	0	4G112	C04B  24/06	847	他の活性成分を併用するもの	Combinations with other active constituents
+C04B  24/06  Z	2	0	4G112	C04B  24/06	168	その他のもの	Others
+C04B  24/08  \	1	1	4G112	C04B  24/08	421	脂肪；脂肪油；エステル型ろう；高級脂肪酸，すなわち１個のカルボキシル基に結合する中断しない鎖結合中に少なくとも７個の炭素原子を有するもの；酸化された油または脂肪［４］	Fats; Fatty oils; Ester type waxes; Higher fatty acids, i.e. having at least seven carbon atoms in an unbroken chain bound to a carboxyl group; Oxidised oils or fats [4]
+C04B  24/10  \	1	1	4G112	C04B  24/10	322	炭水化物またはその誘導体［４］	Carbohydrates or derivatives thereof [4]
+C04B  24/12  \	1	1	4G112	C04B  24/12	86	窒素含有化合物［４］	Nitrogen containing compounds [4]
+C04B  24/12  A	1	0	4G112	C04B  24/12	921	他の活性成分を併用するもの	Combinations with other active constituents
+C04B  24/12  Z	1	0	4G112	C04B  24/12	352	その他のもの	Others
+C04B  24/14  \	2	2	4G112	C04B  24/14	158	ペプチド；蛋白質；これらの誘導体［４］	Peptides; Proteins; Derivatives thereof [4]
+C04B  24/16  \	1	1	4G112	C04B  24/16	577	いおう含有化合物［４］	Sulfur-containing compounds [4]
+C04B  24/18  \	2	2	4G112	C04B  24/18	45	リグニンスルフォン酸またはその誘導体，例．亜硫酸法パルプ廃液［４］	Lignin sulfonic acid or derivatives thereof, e.g. sulfite lye [4]
+C04B  24/18  A	2	0	4G112	C04B  24/18	217	他の活性成分を併用するもの	Combinations with other active constituents
+C04B  24/18  B	2	1	4G112	C04B  24/18	316	他の有機活性成分を併用するもの	Combinations with other active organic constituents
+C04B  24/18  Z	2	0	4G112	C04B  24/18	149	その他のもの	Others
+C04B  24/20  \	2	2	4G112	C04B  24/20	349	スルホン化された芳香族化合物［４］	Sulfonated aromatic compounds [4]
+C04B  24/22  \	3	3	4G112	C04B  24/22	112	その縮合生成物［４］	Condensation products thereof [4]
+C04B  24/22  A	3	0	4G112	C04B  24/22	280	他の活性成分を併用するもの	Combinations with other active constituents
+C04B  24/22  B	3	1	4G112	C04B  24/22	254	他の有機活性成分を併用するもの	Combinations with other active organic constituents
+C04B  24/22  C	3	2	4G112	C04B  24/22	292	他の高分子活性成分を併用するもの	Combinations with other active macromolecular constituents
+C04B  24/22  D	3	3	4G112	C04B  24/22	67	リグニンスルフォン酸またはその誘導体を併用するもの	Combinations with lignin sulfonate or its derivatives
+C04B  24/22  E	3	3	4G112	C04B  24/22	117	炭素−炭素不飽和結合のみが関与する反応によって得られた高分子化合物を併用するもの	Combinations with macromolecular compounds obtained by reactions only involving carbon-to-carbon unsaturated bonds
+C04B  24/22  Z	3	0	4G112	C04B  24/22	277	その他のもの	Others
+C04B  24/24  \	1	1	4G112	C04B  24/24	182	高分子化合物（Ｃ０４Ｂ２４／１４が優先；スルフォン酸塩または硫酸エステルを含む高分子化合物Ｃ０４Ｂ２４／１６）［４，６］	Macromolecular compounds (C04B 24/14 takes precedence; macromolecular compounds comprising sulfonate or sulfate groups C04B 24/16) [4,6]
+C04B  24/24  A	1	0	4G112	C04B  24/24	210	他の活性成分を併用するもの	Combinations with other active constituents
+C04B  24/24  B	1	1	4G112	C04B  24/24	172	他の有機活性成分を併用するもの	Combinations with other active organic constituents
+C04B  24/24  Z	1	0	4G112	C04B  24/24	497	その他のもの	Others
+C04B  24/26  \	2	2	4G112	C04B  24/26	184	炭素―炭素不飽和結合のみが関与する反応によって得られたもの［４］	obtained by reactions only involving carbon-to-carbon unsaturated bonds [4]
+C04B  24/26  A	2	0	4G112	C04B  24/26	595	ビニル系重合体	Vinyl polymers
+C04B  24/26  B	2	1	4G112	C04B  24/26	1314	ポリビニルアルコール	Polyvinyl alcohol
+C04B  24/26  C	2	1	4G112	C04B  24/26	461	酢酸ビニル系重合体	Acetic vinyl polymers
+C04B  24/26  D	2	1	4G112	C04B  24/26	777	アクリル系，メタクリル系重合体	Acrylic or metacrylic polymers
+C04B  24/26  E	2	2	4G112	C04B  24/26	2744	アクリル酸系，メタクリル酸系重合体	Acrylic acid or metacrylic acid polymers
+C04B  24/26  F	2	2	4G112	C04B  24/26	1734	アクリル酸エステル系，メタクリル酸エステル系重合体	Acrylic acid or metacrylic acid ester polymers
+C04B  24/26  G	2	1	4G112	C04B  24/26	525	スチレン系重合体	Styrene polymers
+C04B  24/26  H	2	0	4G112	C04B  24/26	1181	不飽和脂肪族ジカルボン酸系重合体	Unsaturated fat dicarboxylic acid polymers
+C04B  24/26  Z	2	0	4G112	C04B  24/26	548	その他のもの	Others
+C04B  24/28  \	2	2	4G112	C04B  24/28	32	炭素―炭素不飽和結合のみが関与する反応以外の反応によって得られたもの［４］	obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds [4]
+C04B  24/28  A	2	0	4G112	C04B  24/28	183	ポリエポキシド	Polyepoxide
+C04B  24/28  Z	2	0	4G112	C04B  24/28	366	その他のもの	Others
+C04B  24/30  \	3	3	4G112	C04B  24/30	83	アルデヒドまたはケトンの縮合物［４］	Condensation polymers of aldehydes or ketones [4]
+C04B  24/30  A	3	0	4G112	C04B  24/30	168	メラミンスルホン酸ホルムアルデヒド縮合物	Melamine sulfonic acid formaldehyde condensate
+C04B  24/30  B	3	1	4G112	C04B  24/30	138	他の活性成分を併用するもの	Combination with other active constituents
+C04B  24/30  C	3	2	4G112	C04B  24/30	118	他の有機活性成分を併用するもの	Combination with other active organic constituents
+C04B  24/30  D	3	3	4G112	C04B  24/30	215	他の高分子活性成分を併用するもの	Combination with other active macromolecular constituents
+C04B  24/30  Z	3	0	4G112	C04B  24/30	203	その他のもの	Others
+C04B  24/32  \	3	3	4G112	C04B  24/32	95	ポリエーテル，例．アルキルフェノールポリグリコールエーテル［４］	Polyethers, e.g. alkylphenol polyglycolether [4]
+C04B  24/32  A	3	0	4G112	C04B  24/32	1062	他の活性成分を併用するもの	Combination with other active constituents
+C04B  24/32  Z	3	0	4G112	C04B  24/32	338	その他のもの	Others
+C04B  24/34  \	2	2	4G112	C04B  24/34	62	天然樹脂，例．松脂［４］	Natural resins, e.g. rosin [4]
+C04B  24/36  \	2	2	4G112	C04B  24/36	133	瀝青物，例．タール，ピッチ［４］	Bituminous materials, e.g. tar, pitch [4]
+C04B  24/38  \	2	2	4G112	C04B  24/38	142	多糖類またはその誘導体［４］	Polysaccharides or derivatives thereof [4]
+C04B  24/38  A	2	0	4G112	C04B  24/38	462	セルロースまたはその誘導体	Cellulose or its derivatives
+C04B  24/38  B	2	1	4G112	C04B  24/38	371	他の活性成分を併用するもの	Combination with other active constituents
+C04B  24/38  C	2	2	4G112	C04B  24/38	186	他の有機活性成分を併用するもの	Combination with other active organic constituents
+C04B  24/38  D	2	3	4G112	C04B  24/38	528	他の高分子活性成分を併用するもの	Combination with other active macromolecular constituents
+C04B  24/38  Z	2	0	4G112	C04B  24/38	615	その他のもの	Others
+C04B  24/40  \	1	1	4G112	C04B  24/40	160	けい素，チタンまたはジルコニウムを含有する化合物［４］	Compounds containing silicon, titanium or zirconium [4]
+C04B  24/42  \	2	2	4G112	C04B  24/42	47	炭素―けい素間結合を１個以上有する化合物［４］	Compounds having one or more carbon-to-silicon linkages [4]
+C04B  24/42  A	2	0	4G112	C04B  24/42	248	他の活性成分を併用するもの	Combination with other active constituents
+C04B  24/42  Z	2	0	4G112	C04B  24/42	188	その他のもの	Others
+C04B  26/00  \	0	0	4G112	C04B  26/00	84	有機結合剤のみを含有するモルタル，コンクリートまたは人造石の組成物［４］	;  Compositions of mortars, concrete or artificial stone
+C04B  26/02  \	1	1	4G112	C04B  26/02	148	高分子化合物［４］	Macromolecular compounds [4]
+C04B  26/02  A	1	0	4G112	C04B  26/02	73	不燃化または難燃化したもの	Items made non-combustible or fire-resistant
+C04B  26/02  B	1	0	4G112	C04B  26/02	100	着色または模様づけしたもの	Colouring or patterning
+C04B  26/02  C	1	0	4G112	C04B  26/02	170	製造方法	Production methods
+C04B  26/02  Z	1	0	4G112	C04B  26/02	307	その他	Others
+C04B  26/04  \	2	2	4G112	C04B  26/04	54	炭素―炭素不飽和結合のみが関与する反応によって得られたもの［４］	obtained by reactions only involving carbon-to-carbon unsaturated bonds [4]
+C04B  26/04  A	2	0	4G112	C04B  26/04	51	ゴム	Rubbers
+C04B  26/04  B	2	0	4G112	C04B  26/04	98	ＰＶＡ；ポリ酢酸ビニル	PVA, polyvinyl acetate
+C04B  26/04  C	2	0	4G112	C04B  26/04	45	ポリエチレン；ポリプロピレン	Polyethylene, polypropylene
+C04B  26/04  Z	2	0	4G112	C04B  26/04	174	その他	Others
+C04B  26/06  \	3	3	4G112	C04B  26/06	570	アクリル酸エステル［４］	Acrylates [4]
+C04B  26/08  \	3	3	4G112	C04B  26/08	42	ハロゲンを含有するもの［４］	containing halogen [4]
+C04B  26/10  \	2	2	4G112	C04B  26/10	155	炭素―炭素不飽和結合のみが関与する反応以外の反応によって得られたもの［４］	obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds [4]
+C04B  26/12  \	3	3	4G112	C04B  26/12	122	アルデヒドまたはケトンの縮合物［４］	Condensation polymers of aldehydes or ketones [4]
+C04B  26/14  \	3	3	4G112	C04B  26/14	214	ポリエポキシド［４］	Polyepoxides [4]
+C04B  26/16  \	3	3	4G112	C04B  26/16	136	ポリウレタン［４］	Polyurethanes [4]
+C04B  26/18  \	3	3	4G112	C04B  26/18	74	ポリエステル；ポリカーボネート［４］	Polyesters; Polycarbonates [4]
+C04B  26/18  A	3	0	4G112	C04B  26/18	94	結合剤に特徴があるもの	Characterized by binders
+C04B  26/18  B	3	0	4G112	C04B  26/18	65	添加物に特徴があるもの	Characterized by additives
+C04B  26/18  C	3	1	4G112	C04B  26/18	47	有機物系添加物	Organic additives
+C04B  26/18  D	3	1	4G112	C04B  26/18	161	無機物系添加物	Inorganic additives
+C04B  26/18  Z	3	0	4G112	C04B  26/18	68	その他	Others
+C04B  26/20  \	3	3	4G112	C04B  26/20	15	ポリアミド［４］	Polyamides [4]
+C04B  26/22  \	2	2	4G112	C04B  26/22	18	天然樹脂，例．松脂［４］	Natural resins, e.g. rosin [4]
+C04B  26/24  \	3	3	4G112	C04B  26/24	3	セルロース廃液，例．亜硫酸法パルプ廃液［４］	Cellulosic waste liquor, e.g. sulfite lye [4]
+C04B  26/26  \	2	2	4G112	C04B  26/26	46	瀝青物，例．タール，ピッチ［４］	Bituminous materials, e.g. tar, pitch [4]
+C04B  26/26  A	2	0	4G112	C04B  26/26	56	樹脂を含むもの	Containing resins
+C04B  26/26  Z	2	0	4G112	C04B  26/26	211	その他	Others
+C04B  26/28  \	2	2	4G112	C04B  26/28	102	多糖類またはその誘導体［４］	Polysaccharides or derivatives thereof [4]
+C04B  26/30  \	1	1	4G112	C04B  26/30	1	炭素―金属または炭素―けい素間結合を１個以上有する化合物［４］	Compounds having one or more carbon-to-metal or carbon-to-silicon linkages [4]
+C04B  26/32  \	2	2	4G112	C04B  26/32	56	けい素を含有するもの［４］	containing silicon [4]
+C04B  28/00  \	0	0	4G112	C04B  28/00	1369	無機結合剤を含有するかまたは無機結合剤と有機結合剤との反応生成物を含有するモルタル，コンクリートまたは人造石の組成物，例．ポリカルボン酸セメント［４］	Compositions of mortars, concrete or artificial stone, containing inorganic binders or the reaction product of an inorganic and an organic binder, e.g. polycarboxylate cements [4]
+C04B  28/02  \	1	1	4G112	C04B  28/02	12858	硫酸カルシウム以外の水硬性セメントを含有するもの［４］	containing hydraulic cements other than calcium sulfates [4]
+C04B  28/04  \	2	2	4G112	C04B  28/04	2695	ポルトランドセメント［４］	Portland cements [4]
+C04B  28/06  \	2	2	4G112	C04B  28/06	804	アルミナセメント［４］	Aluminous cements [4]
+C04B  28/08  \	2	2	4G112	C04B  28/08	1509	スラグセメント［４］	Slag cements [4]
+C04B  28/10  \	2	2	4G112	C04B  28/10	299	石灰セメントまたは酸化マグネシウムセメント［４］	Lime cements or magnesium oxide cements [4]
+C04B  28/12  \	3	3	4G112	C04B  28/12	287	水硬性石灰［４］	Hydraulic lime [4]
+C04B  28/14  \	1	1	4G112	C04B  28/14	1995	硫酸カルシウムセメントを含有するもの［４］	containing calcium sulfate cements [4]
+C04B  28/16  \	2	2	4G112	C04B  28/16	288	無水石こうを含有するもの［４］	containing anhydrite [4]
+C04B  28/18  \	1	1	4G112	C04B  28/18	1643	シリカー石灰型の混合物を含有するもの［４］	containing mixtures of the silica-lime type [4]
+C04B  28/20  \	2	2	4G112	C04B  28/20	68	砂―石灰［４］	Sand-lime [4]
+C04B  28/22  \	2	2	4G112	C04B  28/22	216	石灰およびポゾラン［４］	Lime and pozzuolanas [4]
+C04B  28/24  \	1	1	4G112	C04B  28/24	335	けい酸アルキルアンモニウムまたはアルカリ金属のけい酸塩を含有するもの；シリカゾルを含有するもの［４］	containing alkyl ammonium or alkali metal silicates; containing silica sols [4]
+C04B  28/26  \	2	2	4G112	C04B  28/26	1332	アルカリ金属のけい酸塩［４］	Silicates of the alkali metals [4]
+C04B  28/28  \	1	1	4G112	C04B  28/28	34	多価の有機酸を含有するもの，例．ポリカルボン酸セメント［４］	containing organic polyacids, e.g. polycarboxylate cements [4]
+C04B  28/30  \	1	1	4G112	C04B  28/30	58	マグネシウムセメントを含有するもの（酸化マグネシウムセメントＣ０４Ｂ２８／１０）［４］	containing magnesium cements (magnesium oxide cements C04B 28/10) [4]
+C04B  28/30  A	1	0	4G112	C04B  28/30	57	炭酸マグネシウムセメントを含有するもの	Containing magnesium carbonate cement
+C04B  28/30  Z	1	0	4G112	C04B  28/30	91	その他のもの	Others
+C04B  28/32  \	2	2	4G112	C04B  28/32	39	オキシ塩化マグネシウムセメント，例．ソーレルセメント［４］	Magnesium oxychloride cements, e.g. Sorel cement [4]
+C04B  28/34  \	1	1	4G112	C04B  28/34	415	冷間りん酸塩結合剤を含有するもの［４］	containing cold phosphate binders [4]
+C04B  28/36  \	1	1	4G112	C04B  28/36	156	いおう，硫化物またはセレンを含有するもの［４］	containing sulfur, sulfides or selenium [4]
+C04B  30/00  \	0	0	4G112	C04B  30/00	18	結合剤を含有しない人造石のための組成物（溶融スラグからの人造石Ｃ０４Ｂ５／００）［４］	Compositions for artificial stone, not containing binders (artificial stone from molten slag C04B 5/00) [4]
+C04B  30/00  A	0	0	4G112	C04B  30/00	40	バーミキュライト板	Vermiculite sheets
+C04B  30/00  Z	0	0	4G112	C04B  30/00	36	その他	Others
+C04B  30/02  \	1	1	4G112	C04B  30/02	217	繊維状材料を含有するもの［４］	containing fibrous materials [4]
+C04B  32/00  \	0	0	4G112	C04B  32/00	105	このサブクラスの他のグループに属さない人造石（溶融スラグからの人造石Ｃ０４Ｂ５／００）［４］	Artificial stone not provided for in other groups of this subclass (artificial stone from molten slag C04B 5/00) [4]
+C04B  32/00  A	0	0	4G112	C04B  32/00	613	断熱材	Thermal insulation materials
+C04B  32/00  B	0	0	4G112	C04B  32/00	311	防音材	Acoustic materials
+C04B  32/00  Z	0	0	4G112	C04B  32/00	632	その他	Others
+C04B  32/02  \	1	1	4G112	C04B  32/02	92	強化材を有するもの［４］	with reinforcements [4]
+C04B  32/02  A	1	0	4G112	C04B  32/02	83	ガラス系強化材	Glass reinforcements
+C04B  32/02  B	1	0	4G112	C04B  32/02	78	炭素系強化材	Carbon reinforcements
+C04B  32/02  C	1	0	4G112	C04B  32/02	144	金属系強化材	Metal reinforcements
+C04B  32/02  D	1	1	4G112	C04B  32/02	58	防蝕	Corrosion protection
+C04B  32/02  E	1	0	4G112	C04B  32/02	159	有機物系強化材	Organic reinforcements
+C04B  32/02  Z	1	0	4G112	C04B  32/02	223	その他	Others
+C04B  33/00  \	0	0	4G025	C04B  33/00	306	粘土製品（モノリシックな耐火物または耐火モルタルＣ０４Ｂ３５／６６；多孔質製品Ｃ０４Ｂ３８／００）［２］	Clay-wares (monolithic refractories or refractory mortars C04B 35/66; porous products C04B 38/00) [2]
+C04B  33/02  \	1	1	4G025	C04B  33/02	204	個々の，またはバッチとしての原料の調製または処理	Preparing or treating the raw materials individually or as batches
+C04B  33/04  \	2	2	4G025	C04B  33/04	150	粘土；カオリン	Clay; Kaolin
+C04B  33/04  A	2	0	4G025	C04B  33/04	60	粘土鉱石の粉砕，分級	Crushing or classifying clay ores
+C04B  33/04  B	2	0	4G025	C04B  33/04	54	粘土の造粒	Pelletizing clay
+C04B  33/04  Z	2	0	4G025	C04B  33/04	175	その他	Others
+C04B  33/06  \	3	3	4G025	C04B  33/06	2	石灰の無害化	Rendering lime harmless
+C04B  33/08  \	4	4	4G025	C04B  33/08	2	白華防止	Preventing efflorescence
+C04B  33/10  \	2	2	4G025	C04B  33/10	53	鉄または石灰の除去	Eliminating iron or lime
+C04B  33/13  \	2	2	4G025	C04B  33/13	309	配合成分（Ｃ０４Ｂ３３／３６，Ｃ０４Ｂ３５／７１が優先）［２］	Compounding ingredients (C04B 33/36, C04B 35/71 take precedence) [2]
+C04B  33/13  A	2	0	4G025	C04B  33/13	593	無機物，例．鉱石粉	Inorganic substances (ore powders)
+C04B  33/13  B	2	1	4G025	C04B  33/13	114	ガラス粉	Glass powder
+C04B  33/13  C	2	1	4G025	C04B  33/13	34	金属粉	Metal powder
+C04B  33/13  P	2	0	4G025	C04B  33/13	169	有機物，例．空隙形成用のもの	Organic substances (for forming space)
+C04B  33/13  Z	2	0	4G025	C04B  33/13	110	その他	Others
+C04B  33/132  \	3	3	4G025	C04B  33/132	2	廃棄物；ゴミ（Ｃ０４Ｂ３３／１６が優先）［８］	Waste materials; Refuse (C04B 33/16 takes precedence);;
+C04B  33/135  \	4	4	4G025	C04B  33/135	10	燃焼残滓，例．フライアッシュ，焼却ゴミ［８］	Combustion residues, e.g fly ash, incineration waste
+C04B  33/138  \	4	4	4G025	C04B  33/138	13	冶金的方法からの廃棄物，例．鉱滓，炉塵，亜鉛メッキからのもの［８］	from metallurgical processes, e.g. slag, furnace dust, galvanic waste
+C04B  33/14  \	3	3	4G025	C04B  33/14	149	着色物質	Colouring matters
+C04B  33/16  \	3	3	4G025	C04B  33/16	35	非可塑性物質，例．焼粉，石英	Lean materials, e.g. grog, quartz
+C04B  33/18  \	3	3	4G025	C04B  33/18	7	バッチを液状化するためのもの	for liquefying the batches
+C04B  33/20  \	2	2	4G025	C04B  33/20	37	乾式プレスのためのもの（Ｃ０４Ｂ３３／１３が優先）	for dry-pressing (C04B 33/13 takes precedence)
+C04B  33/22  \	1	1	4G025	C04B  33/22	90	焼粉製品	Grog products
+C04B  33/24  \	1	1	4G025	C04B  33/24	247	磁器または白色陶磁器の製造	Manufacture of porcelain or white ware
+C04B  33/24  A	1	0	4G025	C04B  33/24	116	異形物品の製造	Manufacture of products with different profiles
+C04B  33/24  Z	1	0	4G025	C04B  33/24	272	その他	Others
+C04B  33/26  \	2	2	4G025	C04B  33/26	86	電気絶縁用磁器の	of porcelain for electrical insulation
+C04B  33/28  \	1	1	4G025	C04B  33/28	165	でいしょう鋳込み成形	Slip casting
+C04B  33/30  \	1	1	4G025	C04B  33/30	306	乾燥方法	Drying methods
+C04B  33/30  A	1	0	4G025	C04B  33/30	43	加熱	Heating
+C04B  33/30  B	1	1	4G025	C04B  33/30	109	熱風	Hot air
+C04B  33/30  C	1	1	4G025	C04B  33/30	116	電気，光エネルギー	Electricity, light energy
+C04B  33/30  K	1	0	4G025	C04B  33/30	65	乾燥炉	Drying furnaces
+C04B  33/30  L	1	1	4G025	C04B  33/30	133	連続式	Continuous types
+C04B  33/30  U	1	0	4G025	C04B  33/30	174	乾燥用受具	Receptacles for drying
+C04B  33/30  Z	1	0	4G025	C04B  33/30	94	その他	Others
+C04B  33/32  \	1	1	4G025	C04B  33/32	595	焼成方法	Burning methods
+C04B  33/32  D	1	0	4G025	C04B  33/32	65	雰囲気組成	Atmospheric compositions
+C04B  33/32  E	1	1	4G025	C04B  33/32	56	還元雰囲気	Reduction atmosphere
+C04B  33/32  F	1	2	4G025	C04B  33/32	129	燻し瓦の製造	Manufacture of smoked tiles
+C04B  33/32  K	1	0	4G025	C04B  33/32	252	焼成炉	Burning furnaces
+C04B  33/32  L	1	1	4G025	C04B  33/32	166	連続式	Of continuous types
+C04B  33/32  Q	1	0	4G025	C04B  33/32	258	炉内外の付属装置	Accessories inside and outside furnace
+C04B  33/32  R	1	1	4G025	C04B  33/32	118	移送装置	Transfer devices
+C04B  33/32  S	1	1	4G025	C04B  33/32	105	整列装置	Alignment devices
+C04B  33/32  T	1	1	4G025	C04B  33/32	268	焼成用具	Burning apparatuses
+C04B  33/32  Z	1	0	4G025	C04B  33/32	275	その他	Others
+C04B  33/34  \	2	2	4G025	C04B  33/34	383	施釉と結合されたもの	combined with glazing
+C04B  33/36  \	1	1	4G025	C04B  33/36	116	強化粘土製品［２］	Reinforced clay-wares [2]
+C04B  35/00  \	0	0	4G030	C04B  35/00	9032	組成に特徴を持つ成形セラミック製品；セラミック組成（炭化物，ダイヤモンド，酸化物，ほう化物，窒化物，けい化物に結合しているか，または他の金属化合物，例．酸窒化物もしくは硫化物，と結合している巨視的な強化材としての使用以外の遊離金属を含有するセラミック組成物，例．サーメットＣ２２Ｃ）；セラミック製品を製造するための無機化合物粉末の処理［４］	Shaped ceramic products characterised by their composition; ceramic compositions (containing free metal bonded to carbides, diamond, oxides, borides, nitrides, silicides, e.g. cermets, or other metal compounds, e.g. oxynitrides or sulfides, other than as macroscopic reinforcing agents C22C); Processing powders of inorganic compounds preparatory to the manufacturing of ceramic products [4]
+C04B  35/01  \	1	1	4G030	C04B  35/01	2493	酸化物を基とするもの［６］	based on oxides [6]
+C04B  35/01 300 \	2	2	4G030	C04B  35/01	83	炭素を含有するもの（Ｃ０４Ｂ３５／１０３が優先）	containing carbon (C04B35/103 takes precedence)
+C04B  35/01 600 \	2	2	4G030	C04B  35/01	120	亜マンガン酸塩を基とするもの	based on manganite
+C04B  35/03  \	2	2	4G030	C04B  35/03	229	酸化マグネシウム，酸化カルシウムまたはドロマイトから誘導した混合酸化物を基とするもの［６］	based on magnesium oxide, calcium oxide or oxide mixtures derived from dolomite [6]
+C04B  35/035  \	3	3	4G030	C04B  35/035	98	非酸化物耐火物質，例．炭素，を含有する粗粒サイズの混合物からの耐火物［６］	Refractories from grain sized mixtures containing non-oxide refractory materials, e.g. carbon [6]
+C04B  35/04  \	3	3	4G030	C04B  35/04	443	酸化マグネシウムを基とするもの［６］	based on magnesium oxide [6]
+C04B  35/043  \	4	4	4G030	C04B  35/043	1453	粗粒サイズの混合物からの耐火物［６］	Refractories from grain sized mixtures [6]
+C04B  35/043 500 \	5	5	4G030	C04B  35/043	303	酸化クロムまたはクロム鉱石以外の耐火性金属化合物を含有するもの	containing refractory metal compounds other than chromium oxide or chrome ore
+C04B  35/047  \	5	5	4G030	C04B  35/047	281	酸化クロムまたはクロム鉱石を含有するもの［６］	containing chromium oxide or chrome ore [6]
+C04B  35/047 300 \	6	6	4G030	C04B  35/047	24	溶融粒から得たもの	obtained from fused grains
+C04B  35/047 600 \	6	6	4G030	C04B  35/047	3	予備反応させた焼結粒子から得たもの，例．同時焼結	obtained from prereacted sintered particles, e.g. simultaneous sintering
+C04B  35/05  \	4	4	4G033	C04B  35/05	34	溶融鋳造による耐火物［６］	Refractories by fusion casting [6]
+C04B  35/05 100 \	5	5	4G033	C04B  35/05	33	酸化クロムまたはクロム鉱石を含有するもの	containing chromium oxide or chrome ore
+C04B  35/053  \	4	4	4G030	C04B  35/053	257	ファインセラミックス［６］	Fine ceramics [6]
+C04B  35/057  \	3	3	4G030	C04B  35/057	295	酸化カルシウムを基とするもの［６］	based on calcium oxide [6]
+C04B  35/06  \	3	3	4G030	C04B  35/06	275	ドロマイトから誘導した混合酸化物を基とするもの	based on oxide mixtures derived from dolomite
+C04B  35/08  \	2	2	4G030	C04B  35/08	43	酸化ベリリウムを基とするもの［６］	based on beryllium oxide [6]
+C04B  35/10  \	2	2	4G030	C04B  35/10	2882	酸化アルミニウムを基とするもの［６］	based on aluminium oxide [6]
+C04B  35/101  \	3	3	4G030	C04B  35/101	992	粗粒サイズの混合物からの耐火物［６］	Refractories from grain sized mixtures [6]
+C04B  35/101 500 \	4	4	4G030	C04B  35/101	206	Ｃ０４Ｂ３５／１０３〜Ｃ０４Ｂ３５／１０６に包含されるもの以外の耐火金属化合物を含有するもの	containing refractory metal compounds other than those covered by C04B35/103 to C04B35/106
+C04B  35/103  \	4	4	4G030	C04B  35/103	746	非酸化物耐火物質，例．炭素を含有するもの（Ｃ０４Ｂ３５／１０６が優先）［６］	containing non-oxide refractory materials, e.g. carbon(C04B35/106 takes precedence) [6]
+C04B  35/105  \	4	4	4G030	C04B  35/105	105	酸化クロムまたはクロム鉱石を含有するもの［６］	containing chromium oxide or chrome ore [6]
+C04B  35/106  \	4	4	4G030	C04B  35/106	156	酸化ジルコニウムまたはジルコン（ＺｒＳｉＯ↓４）を含有するもの［６］	containing zirconium oxide or zircon (ZrSiO<sub>4</sub>) [6]
+C04B  35/107  \	3	3	4G033	C04B  35/107	88	溶融鋳造による耐火物［６］	Refractories by fusion casting [6]
+C04B  35/109  \	4	4	4G030	C04B  35/109	56	酸化ジルコニウムまたはジルコン（ＺｒＳｉＯ↓４）を含有するもの［６］	containing zirconium oxide or zircon (ZrSiO<sub>4</sub>) [6]
+C04B  35/111  \	3	3	4G030	C04B  35/111	1714	ファインセラミックス［６］	Fine ceramics [6]
+C04B  35/111 500 \	4	4	4G030	C04B  35/111	118	微小焼結体，例．焼結砥粒または小板状体のような成形された粒子（研磨材Ｃ０９Ｋ３／１４）	Minute sintered entities, e.g. sintered abrasive grains or shaped particles such as platelets (abrasives C09K3/14)
+C04B  35/113  \	4	4	4G030	C04B  35/113	280	ベータ酸化アルミニウムを基とするもの［６］	based on beta-aluminium oxide [6]
+C04B  35/115  \	4	4	4G030	C04B  35/115	262	半透明または透明製品［６］	Translucent or transparent products [6]
+C04B  35/117  \	4	4	4G030	C04B  35/117	1904	複合組成物［６］	Composites [6]
+C04B  35/119  \	5	5	4G030	C04B  35/119	515	酸化ジルコニウムをもつもの［６］	with zirconium oxide [6]
+C04B  35/12  \	2	2	4G030	C04B  35/12	206	酸化クロムを基とするもの（Ｃ０４Ｂ３５／０４７，Ｃ０４Ｂ３５／１０５が優先）［６］	based on chromium oxide (C04B 35/047, C04B 35/105 take precedence) [6]
+C04B  35/14  \	2	2	4G030	C04B  35/14	911	シリカを基とするもの［６］	based on silica
+C04B  35/16  \	2	2	4G030	C04B  35/16	2044	粘土以外のけい酸塩を基とするもの［６］	based on silicates other than clay [6]
+C04B  35/18  \	3	3	4G030	C04B  35/18	1566	酸化アルミニウムに富むもの［６］	rich in aluminium oxide [6]
+C04B  35/185  \	4	4	4G030	C04B  35/185	528	ムライト［６］	Mullite [6]
+C04B  35/19  \	4	4	4G030	C04B  35/19	248	アルカリ金属アルミノけい酸塩，例．黝輝石（スポジューメン）［６］	Alkali metal aluminosilicates, e.g. spodumene [6]
+C04B  35/195  \	4	4	4G030	C04B  35/195	1136	アルカリ土類金属アルミノけい酸塩，例．菫青石（コージェライト）［６］	Alkaline earth aluminosilicates, e.g. cordierite [6]
+C04B  35/20  \	3	3	4G030	C04B  35/20	393	酸化マグネシウムに富むもの［６］	rich in aluminium oxide [6]
+C04B  35/22  \	3	3	4G030	C04B  35/22	260	酸化カルシウムに富むもの［６］	rich in magnesium oxide [6]
+C04B  35/26  \	2	2	4G018	C04B  35/26	1882	フェライトを基とするもの［２，６］	based on ferrites [2,6]
+C04B  35/28  \	3	3	4G018	C04B  35/28	108	主酸化物として酸化ニッケルをもつもの［２，６］	with nickel oxide as the principal oxide [2,6]
+C04B  35/30  \	4	4	4G018	C04B  35/30	695	酸化亜鉛をもつもの［２，６］	with zinc oxide [2,6]
+C04B  35/32  \	3	3	4G018	C04B  35/32	49	主酸化物として酸化コバルトをもつもの［２，６］	with cobalt oxide as the principal oxide [2,6]
+C04B  35/34  \	4	4	4G018	C04B  35/34	20	酸化亜鉛をもつもの［２，６］	with zinc oxide [2,6]
+C04B  35/36  \	3	3	4G018	C04B  35/36	96	主酸化物として酸化マンガンをもつもの［２，６］	with manganese oxide as the principal oxide [2,6]
+C04B  35/38  \	4	4	4G018	C04B  35/38	996	酸化亜鉛をもつもの［２，６］	with zinc oxide [2,6]
+C04B  35/40  \	3	3	4G018	C04B  35/40	241	希土類酸化物をもつもの［２，６］	with rare earth oxide [2,6]
+C04B  35/42  \	2	2	4G031	C04B  35/42	279	亜クロム酸塩を基とするもの（Ｃ０４Ｂ３５／０４７，Ｃ０４Ｂ３５／１０５が優先）［２，６］	based on chromites (C04B35/047, C04B35/105 take precedence) [2,6]
+C04B  35/44  \	2	2	4G031	C04B  35/44	579	アルミン酸塩を基とするもの［２，６］	based on aluminates [2,6]
+C04B  35/443  \	3	3	4G031	C04B  35/443	566	アルミン酸マグネシウムスピネル［６］	Magnesium aluminate spinel [6]
+C04B  35/447  \	2	2	4G031	C04B  35/447	589	リン酸塩を基とするもの［６］	based on phosphates [6]
+C04B  35/45  \	2	2	4G030	C04B  35/45	2941	酸化銅または酸化銅と他の酸化物の固溶体を基とするもの［６］	based on copper oxide or solid solutions thereof with other oxides[6]
+C04B  35/45 040 \	3	3	4G030	C04B  35/45	1931	希土類酸化物を含有するもの	
+C04B  35/45 120 \	3	3	4G030	C04B  35/45	200	酸化タリウムを含有するもの	containing thallium oxide
+C04B  35/45 170 \	4	4	4G030	C04B  35/45	47	さらに酸化鉛も含有するもの	furthermore containing lead oxide
+C04B  35/45 210 \	3	3	4G030	C04B  35/45	496	酸化ビスマスを含有するもの	containing bismuth oxide
+C04B  35/45 250 \	4	4	4G030	C04B  35/45	280	さらに酸化鉛も含有するもの	furthermore containing lead oxide
+C04B  35/453  \	2	2	4G030	C04B  35/453	2126	酸化亜鉛，酸化スズまたは酸化ビスマスまたはそれらと他の酸化物，例．亜鉛酸塩，スズ酸塩またはビスマス酸塩，の固溶体を基とするもの［６］	based on zinc, tin or bismuth oxides or solid solutions thereof with other oxides, e.g. zincates, stannates or bismuthates [6]
+C04B  35/457  \	3	3	4G030	C04B  35/457	444	酸化スズまたはスズ酸塩を基とするもの［６］	based on tin oxides or stannates [6]
+C04B  35/46  \	2	2	4G031	C04B  35/46	929	酸化チタンまたはチタン酸塩を基とするもの（酸化ジルコニウムまたは酸化ハフニウム，ジルコニウム酸塩またはハフニウム酸塩を含むものＣ０４Ｂ３５／４９）［６］	based on titanium oxides or titanates (containing also zirconium or hafnium oxides, zirconates or hafnates C04B35/49) [6]
+C04B  35/462  \	3	3	4G031	C04B  35/462	1997	チタン酸塩を基とするもの［６］	based on titanates [6]
+C04B  35/465  \	4	4	4G031	C04B  35/465	510	アルカリ土類金属のチタン酸塩を基とするもの［６］	based on alkaline earth metal titanates [6]
+C04B  35/468  \	5	5	4G031	C04B  35/468	3574	チタン酸バリウムを基とするもの［６］	based on barium titanates [6]
+C04B  35/468 200 \	6	6	4G031	C04B  35/468	571	ＢａＴｉＯ３ペロブスカイト相を基とするもの	based on BaTiO3 perofskite phase
+C04B  35/468 400 \	7	7	4G031	C04B  35/468	16	鉛化合物を含有するもの（Ｃ０４Ｂ３５／４７２が優先）	containing lead compounds (C04B35/472 takes precedence)
+C04B  35/468 600 \	6	6	4G031	C04B  35/468	103	ＢａＴｉＯ３ペロブスカイト相以外の相を基とするもの	based on phases other than BaTiO3 perofskite phase
+C04B  35/468 800 \	7	7	4G031	C04B  35/468	42	鉛化合物を含有するもの（Ｃ０４Ｂ３５／４７２が優先）	containing lead compounds (C04B35/472 takes precedence)
+C04B  35/47  \	5	5	4G031	C04B  35/47	1061	チタン酸ストロンチウムを基とするもの［６］	based on strontium titanates [6]
+C04B  35/472  \	4	4	4G031	C04B  35/472	822	チタン酸鉛を基とするもの［６］	based on lead titanates [6]
+C04B  35/475  \	4	4	4G031	C04B  35/475	273	チタン酸ビスマスを基とするもの［６］	based on bismuth titanates [6]
+C04B  35/478  \	4	4	4G031	C04B  35/478	497	チタン酸アルミニウムを基とするもの［６］	based on aluminium titanates [6]
+C04B  35/48  \	2	2	4G031	C04B  35/48	2888	酸化ジルコニウムまたは酸化ハフニウムまたはジルコニウム酸塩またはハフニウム酸塩を基とするもの［６］	based on zirconium or hafnium oxides or zirconates or hafnates [6]
+C04B  35/482  \	3	3	4G031	C04B  35/482	368	粗粒サイズの混合物からの耐火物［６］	Refractories from grain sized mixtures [6]
+C04B  35/484  \	3	3	4G031	C04B  35/484	124	溶融鋳造による耐火物［６］	Refractories by fusion casting [6]
+C04B  35/486  \	3	3	4G031	C04B  35/486	1366	ファインセラミックス［６］	Fine ceramics [6]
+C04B  35/488  \	4	4	4G031	C04B  35/488	1211	複合組成物［６］	Composites [6]
+C04B  35/488 500 \	5	5	4G031	C04B  35/488	441	酸化アルミニウムとの	with aluminium oxide
+C04B  35/49  \	3	3	4G031	C04B  35/49	847	酸化チタンまたはチタン酸塩を含むもの［３，６］	containing also titanium oxide or titanates [3,6]
+C04B  35/491  \	4	4	4G031	C04B  35/491	1330	ジルコニウム酸鉛およびチタン酸鉛を基とするもの［６］	based on lead zirconates and lead titanates [6]
+C04B  35/493  \	5	5	4G031	C04B  35/493	1297	他の鉛化合物も含むもの［６］	containing also other lead compounds [6]
+C04B  35/495  \	2	2	4G031	C04B  35/495	1618	酸化バナジウム，酸化ニオブ，酸化タンタル，酸化モリブデンまたは酸化タングステンまたはそれらと他の酸化物との固溶体，例．バナジウム酸塩，ニオブ酸塩，タンタル酸塩，モリブデン酸塩またはタングステン酸塩，を基とするもの［６］	based on vanadium, niobium, tantalum, molybdenum or tungsten oxides or solid solutions thereof with other oxides, e.g. vanadates, niobates, tantalates, molybdates or tungstates [6]
+C04B  35/497  \	3	3	4G031	C04B  35/497	482	酸化鉛との固溶体を基とするもの［６］	based on solid solutions with lead oxide [6]
+C04B  35/499  \	4	4	4G031	C04B  35/499	374	チタン酸塩ももつもの［６］	containing also titanates [6]
+C04B  35/50  \	1	1	4G031	C04B  35/50	2125	希土類化合物を基とするもの	based on rare earth compounds
+C04B  35/505  \	2	2	4G031	C04B  35/505	451	酸化イットリウムを基とするもの［６］	based on yttrium oxide [6]
+C04B  35/51  \	1	1	4G031	C04B  35/51	159	アクチニド系化合物を基とするもの［２］	based on compounds of actinides [2]
+C04B  35/515  \	1	1	4G031	C04B  35/515	77	非酸化物を基とするもの（Ｃ０４Ｂ３５／５０，Ｃ０４Ｂ３５／５１が優先）［６］	based on non-oxides(C04B35/50, C04B35/51 take precedence) [6]
+C04B  35/52  \	2	2	4G132	C04B  35/52	3893	炭素，例．黒鉛，を基とするもの［６］	based on carbon, e.g. graphite [6]
+C04B  35/524  \	3	3	4G132	C04B  35/524	817	ポリマー前駆体，例．ガラス状炭素物質，から得たもの［６］	obtained from polymer precursors, e.g. glass-like carbon material [6]
+C04B  35/528  \	3	3	4G132	C04B  35/528	705	他の非有機成分を有するまたは有しない炭素質粒子から得たもの［６］	obtained from carbonaceous particles with or without other non-organic components [6]
+C04B  35/532  \	4	4	4G132	C04B  35/532	787	炭化できる結合剤を含むもの［６］	containing a carbonisable binder [6]
+C04B  35/536  \	3	3	4G132	C04B  35/536	112	膨張黒鉛を基とするもの［６］	based on expanded graphite [6]
+C04B  35/547  \	2	2	4G030	C04B  35/547	338	硫化物またはセレン化合物を基とするもの［６］	based on sulfides or selenides [6]
+C04B  35/553  \	2	2	4G030	C04B  35/553	110	ふっ化物を基とするもの［６］	based on fluorides [6]
+C04B  35/56  \	2	2	4G001	C04B  35/56	424	炭化物を基とするもの［４］	based on carbides [4]
+C04B  35/56 030 \	3	3	4G001	C04B  35/56	12	明確に定義された酸素含有量，例．オキシカーバイド	
+C04B  35/56 070 \	3	3	4G001	C04B  35/56	186	耐火性金属炭化物を基とするもの	
+C04B  35/56 110 \	4	4	4G001	C04B  35/56	358	炭化チタンを基とするもの	based on titanium carbide
+C04B  35/56 150 \	5	5	4G001	C04B  35/56	26	チタンシリコンカーバイドを基とするもの	based on titanium silicon carbides
+C04B  35/56 180 \	5	5	4G001	C04B  35/56	118	チタンアルミニウムカーバイドを基とするもの	based on titanium aluminium carbides
+C04B  35/56 220 \	4	4	4G001	C04B  35/56	59	炭化ジルコニウムまたは炭化ハフニウムを基とするもの	based on zirconium or hafnium carbides
+C04B  35/56 260 \	4	4	4G001	C04B  35/56	311	炭化タングステンを基とするもの	based on tungsten carbide
+C04B  35/563  \	3	3	4G001	C04B  35/563	298	炭化ほう素を基とするもの［６］	based on boron carbide [6]
+C04B  35/565  \	3	3	4G001	C04B  35/565	3383	炭化けい素を基とするもの［６］	based on silicon carbide [6]
+C04B  35/567  \	4	4	4G001	C04B  35/567	188	粗粒サイズの混合物からの耐火物［６］	Refractories from grain sized mixtures [6]
+C04B  35/569  \	4	4	4G001	C04B  35/569	887	ファインセラミックス［６］	Fine ceramics [6]
+C04B  35/571  \	5	5	4G001	C04B  35/571	366	ポリマー前駆体から得たもの［６］	obtained from polymer precursors [6]
+C04B  35/573  \	5	5	4G001	C04B  35/573	731	反応焼結により得たもの［６］	obtained by reaction sintering [6]
+C04B  35/575  \	5	5	4G001	C04B  35/575	227	加圧焼結により得たもの［６］	obtained by pressure sintering [6]
+C04B  35/575 500 \	6	6	4G001	C04B  35/575	41	ガス圧焼結により得たもの	obtained by gas pressure sintering
+C04B  35/576  \	5	5	4G001	C04B  35/576	203	無加圧焼結により得たもの［６］	obtained by sintering without pressure [6]
+C04B  35/577  \	5	5	4G001	C04B  35/577	993	複合組成物［６］	Composites [6]
+C04B  35/58  \	2	2	4G001	C04B  35/58	493	ほう化物，窒化物またはけい化物を基とするもの［４，６］	based on borides, nitrides or silicides [4]
+C04B  35/58 007 \	3	3	4G001	C04B  35/58	101	耐火性金属窒化物を基とするもの	
+C04B  35/58 014 \	4	4	4G001	C04B  35/58	279	窒化チタンを基とするもの	
+C04B  35/58 021 \	5	5	4G001	C04B  35/58	148	炭窒化チタンを基とするもの	
+C04B  35/58 028 \	4	4	4G001	C04B  35/58	26	窒化ジルコニウムまたは窒化ハフニウムを基とするもの	
+C04B  35/58 035 \	5	5	4G001	C04B  35/58	6	炭窒化ジルコニウムまたは炭窒化ハフニウムを基とするもの	
+C04B  35/58 042 \	3	3	4G001	C04B  35/58	33	鉄族金属窒化物を基とするもの	
+C04B  35/58 050 \	3	3	4G001	C04B  35/58	622	ほう化物を基とするもの	
+C04B  35/58 057 \	4	4	4G001	C04B  35/58	13	ほう化マグネシウムを基とするもの，例．ＭｇＢ２	
+C04B  35/58 064 \	4	4	4G001	C04B  35/58	67	ほう化耐火物を基とするもの	
+C04B  35/58 071 \	5	5	4G001	C04B  35/58	311	ほう化チタンを基とするもの	
+C04B  35/58 078 \	5	5	4G001	C04B  35/58	167	ほう化ジルコニウムまたはほう化ハフニウムを基とするもの	
+C04B  35/58 085 \	3	3	4G001	C04B  35/58	259	けい化物を基とするもの	
+C04B  35/58 092 \	4	4	4G001	C04B  35/58	146	耐火金属けい化物を基とするもの	
+C04B  35/581  \	3	3	4G001	C04B  35/581	2229	窒化アルミニウムを基とするもの［６］	based on aluminium nitride [6]
+C04B  35/582  \	4	4	4G001	C04B  35/582	1108	複合組成物［６］	Composites [6]
+C04B  35/583  \	3	3	4G001	C04B  35/583	1387	窒化ほう素を基とするもの［６］	based on boron nitride [6]
+C04B  35/5831  \	4	4	4G001	C04B  35/5831	717	立方晶窒化ほう素を基とするもの［６］	based on cubic boron nitride [6]
+C04B  35/5833  \	4	4	4G001	C04B  35/5833	138	六方晶窒化ほう素を基とするもの［６］	based on hexagonal boron nitride [6]
+C04B  35/5835  \	4	4	4G001	C04B  35/5835	886	複合組成物［６］	Composites [6]
+C04B  35/584  \	3	3	4G001	C04B  35/584	3860	窒化けい素を基とするもの［６］	based on silicon nitride [6]
+C04B  35/586  \	4	4	4G001	C04B  35/586	82	粗粒サイズの混合物からの耐火物［６］	Refractories from grain sized mixtures [6]
+C04B  35/587  \	4	4	4G001	C04B  35/587	1575	ファインセラミックス［６］	Fine ceramics [6]
+C04B  35/589  \	5	5	4G001	C04B  35/589	215	ポリマー前駆体から得たもの［６］	obtained from polymer precursors [6]
+C04B  35/591  \	5	5	4G001	C04B  35/591	520	反応焼結により得たもの［６］	obtained by reaction sintering [6]
+C04B  35/593  \	5	5	4G001	C04B  35/593	326	加圧焼結により得たもの（Ｃ０４Ｂ３５／５９４が優先）［６］	obtained by pressure sintering(C04B35/594 takes precedence)[6]
+C04B  35/593 500 \	6	6	4G001	C04B  35/593	413	ガス圧焼結により得たもの	obtained by gas pressure sintering
+C04B  35/594  \	5	5	4G001	C04B  35/594	106	反応焼結製品の加圧または無加圧焼結により得たもの［６］	obtained by sintering a reaction-sintered product, with or without pressure [6]
+C04B  35/596  \	5	5	4G001	C04B  35/596	2511	複合組成物［６］	Composites [6]
+C04B  35/597  \	3	3	4G001	C04B  35/597	81	酸窒化けい素を基とするもの［６］	based on silicon oxynitrides [6]
+C04B  35/599  \	4	4	4G001	C04B  35/599	822	けい素アルミニウム酸窒化物［サイアロン］を基とするもの［２００６．０１］	based on silicon aluminium oxynitrides [SiAlON] [2006.01]
+C04B  35/622  \	1	1	4G033	C04B  35/622	3646	製造方法；セラミック製品を製造するための無機化合物粉末の処理方法［６］	Forming processes; Processing powders of inorganic compounds for the manufacturing of ceramic products [6]
+C04B  35/622 040 \	2	2	4G033	C04B  35/622	602	廃棄物または塵芥を使うもの（廃棄物を含有する陶器Ｃ０４Ｂ３３／１３２）	
+C04B  35/622 090 \	3	3	4G033	C04B  35/622	5	セラミック製品の中に残っている木質材料を使用（多孔製品を取得するために燃焼Ｃ０４Ｂ３８／０６）	
+C04B  35/622 130 \	3	3	4G033	C04B  35/622	12	米素材の使用，例．ふすままたは殻もしくはさや	using rice materials, e.g. bran or hulls or husks
+C04B  35/624  \	2	2	4G033	C04B  35/624	758	ゾル−ゲル法［６］	Sol-gel processing [6]
+C04B  35/626  \	2	2	4G033	C04B  35/626	895	個々のまたは一括しての粉末の製造または処理［６］	preparing or treating the powders individually or as batches [6]
+C04B  35/626 050 \	3	3	4G033	C04B  35/626	140	出発粉末を個別にまたは混合物として処理	
+C04B  35/626 100 \	4	4	4G033	C04B  35/626	64	製粉	Milling
+C04B  35/626 150 \	5	5	4G033	C04B  35/626	45	高エネルギーまたは反応性ボール製粉	High energy or reactive ball milling
+C04B  35/626 200 \	5	5	4G033	C04B  35/626	71	仮焼；焼結した原料，セラミックスの製粉	Calcination; milling of sintered raw materials, ceramics
+C04B  35/626 250 \	4	4	4G033	C04B  35/626	235	湿潤混合物	wet mixtures
+C04B  35/626 300 \	5	5	4G033	C04B  35/626	37	その固形物重量により特徴付けられるもの，すなわち，固形体の割合	characterised by weight of solids, i.e. the ratio of solid bodies
+C04B  35/626 350 \	5	5	4G033	C04B  35/626	68	混合の詳細	Details of mixing
+C04B  35/626 400 \	5	5	4G033	C04B  35/626	94	混合媒体，例．有機溶媒	mixed media, e.g. organic solvents
+C04B  35/626 450 \	4	4	4G033	C04B  35/626	105	粉体またはその混合物の焼結以外の熱処理	heat treatment other than sintering of powders or mixtures thereof
+C04B  35/626 500 \	5	5	4G033	C04B  35/626	71	還元または酸化が関連するもの	related to reduction or oxidation
+C04B  35/626 550 \	5	5	4G033	C04B  35/626	108	乾燥法，例．凍結乾燥，噴霧乾燥，高周波乾燥または超臨界乾燥	Drying, e.g. freeze-drying, spray-drying, microwave drying or supercritical drying
+C04B  35/626 600 \	6	6	4G033	C04B  35/626	12	湿度を調節した乾燥	Humidity controlled drying
+C04B  35/626 650 \	5	5	4G033	C04B  35/626	60	フレーム，プラズマまたは溶融処理	Flame, plasma or melting treatment
+C04B  35/626 700 \	5	5	4G033	C04B  35/626	49	熱分解，分解蒸留または自動燃焼反応	Pyrolysis, carbonization or auto-combustion reactions
+C04B  35/626 750 \	5	5	4G033	C04B  35/626	54	処理温度により特徴付けられるもの	characterised by the treatment temperature
+C04B  35/626 800 \	5	5	4G033	C04B  35/626	49	加えられた圧力または大気の種類により特徴づけられるもの，例．真空内で，水素内でまたは特定の酸素圧の中で	characterised by the applied pressure or the type of atmosphere, e.g. in vacuum, hydrogen or specific oxygen pressure
+C04B  35/626 850 \	4	4	4G033	C04B  35/626	14	成分または添加物を追加する順番により特徴付けられるもの	characterised by the order of addition of constituents or additives
+C04B  35/626 900 \	4	4	4G033	C04B  35/626	19	混合物の硬化	Curing of mixtures
+C04B  35/626 950 \	4	4	4G033	C04B  35/626	247	粒状化または造粒	Granulation or pelletizing
+C04B  35/628  \	3	3	4G033	C04B  35/628	883	粉末を被覆するもの［６］	Coating the powders [6]
+C04B  35/628 020 \	4	4	4G033	C04B  35/628	26	粉状被覆材料	
+C04B  35/628 050 \	5	5	4G033	C04B  35/628	64	酸化物セラミック	
+C04B  35/628 070 \	6	6	4G033	C04B  35/628	25	けい土またはけい酸塩	
+C04B  35/628 100 \	6	6	4G033	C04B  35/628	8	アルカリ土類金属酸化物	alkaline earth metal oxides
+C04B  35/628 130 \	6	6	4G033	C04B  35/628	31	アルミナまたはアルミン酸塩	Alumina or aluminates
+C04B  35/628 150 \	6	6	4G033	C04B  35/628	20	希土類金属酸化物	Rare earth metal oxides
+C04B  35/628 180 \	6	6	4G033	C04B  35/628	7	耐火金属酸化物	Refractory metal oxides
+C04B  35/628 210 \	7	7	4G033	C04B  35/628	6	酸化チタン	titanium oxides
+C04B  35/628 230 \	7	7	4G033	C04B  35/628	9	酸化ジルコニウムまたは酸化ハフニウム	zirconium or hafnium oxides
+C04B  35/628 260 \	6	6	4G033	C04B  35/628	6	鉄属金属酸化物	Iron group metal oxides
+C04B  35/628 280 \	5	5	4G033	C04B  35/628	5	非酸化物セラミック	Non-oxide ceramics
+C04B  35/628 310 \	6	6	4G033	C04B  35/628	8	炭化物	Carbides
+C04B  35/628 340 \	7	7	4G033	C04B  35/628	12	炭化けい素	Silicon carbide
+C04B  35/628 360 \	6	6	4G033	C04B  35/628	22	窒化物	Nitrides
+C04B  35/628 390 \	6	6	4G033	C04B  35/628	23	炭素	Carbon
+C04B  35/628 420 \	5	5	4G033	C04B  35/628	36	金属	Metals
+C04B  35/628 440 \	4	4	4G033	C04B  35/628	9	被覆繊維	Coating fibers
+C04B  35/628 470 \	5	5	4G033	C04B  35/628	8	酸化物セラミックを用いて	using oxide ceramics
+C04B  35/628 490 \	6	6	4G033	C04B  35/628	3	けい土またはけい酸塩	Silica or silicates
+C04B  35/628 520 \	6	6	4G033	C04B  35/628	2	アルミナまたはアルミン酸塩	Alumina or aluminates
+C04B  35/628 550 \	6	6	4G033	C04B  35/628	0	耐火金属酸化物	Refractory metal oxides
+C04B  35/628 570 \	5	5	4G033	C04B  35/628	2	非酸化物セラミックを用いて	with non-oxide ceramics
+C04B  35/628 600 \	6	6	4G033	C04B  35/628	4	炭化物	Carbides
+C04B  35/628 630 \	7	7	4G033	C04B  35/628	10	炭化けい素	Silicon carbide
+C04B  35/628 650 \	6	6	4G033	C04B  35/628	1	窒化物	Nitrides
+C04B  35/628 680 \	7	7	4G033	C04B  35/628	5	窒化ほう素	Boron nitrides
+C04B  35/628 710 \	7	7	4G033	C04B  35/628	3	窒化けい素	Silicon nitrides
+C04B  35/628 730 \	6	6	4G033	C04B  35/628	9	炭素	Carbon
+C04B  35/628 760 \	5	5	4G033	C04B  35/628	7	金属を用いて	using metals
+C04B  35/628 780 \	5	5	4G033	C04B  35/628	2	ほう素またはけい素を用いて	using boron or silicon
+C04B  35/628 810 \	5	5	4G033	C04B  35/628	3	金属塩，例．リン酸塩，を用いて	using metal salt, e.g. phosphate
+C04B  35/628 840 \	4	4	4G033	C04B  35/628	20	気相技術による	by gas phase techniques
+C04B  35/628 860 \	4	4	4G033	C04B  35/628	21	湿式化学技術による	by wet chemical techniques
+C04B  35/628 890 \	4	4	4G033	C04B  35/628	1	不連続被覆層を用いて	using discontinuous coating layers
+C04B  35/628 920 \	4	4	4G033	C04B  35/628	5	粒子からなる被覆層を用いて	using coating layers comprising particles
+C04B  35/628 940 \	4	4	4G033	C04B  35/628	10	２以上の被覆層を用いて	using two ore more coating layers
+C04B  35/628 970 \	4	4	4G033	C04B  35/628	3	厚さにより特徴付けられる被覆	coating characterised by thickness
+C04B  35/63  \	3	3	4G033	C04B  35/63	822	特に製品の製造に適合する添加剤を用いるもの［６］	using additives specially adapted for manufacturing the products [6]
+C04B  35/63 030 \	4	4	4G033	C04B  35/63	481	無機添加物	
+C04B  35/63 060 \	5	5	4G033	C04B  35/63	67	リン酸またはリン酸塩を基とする結合剤	
+C04B  35/63 090 \	6	6	4G033	C04B  35/63	56	リン酸アルミニウム	
+C04B  35/63 130 \	6	6	4G033	C04B  35/63	37	アルカリ金属リン酸塩またアルカリ土類金属リン酸塩	Alkali metal or alkaline earth metal phosphates
+C04B  35/63 160 \	5	5	4G033	C04B  35/63	161	シリコン化合物を基とする結合剤	Binders based on silicon compounds
+C04B  35/632  \	4	4	4G033	C04B  35/632	2308	有機添加剤［６］	Organic additives [6]
+C04B  35/632 500 \	5	5	4G033	C04B  35/632	96	有機金属化合物を基とするもの	based on silicon-metallic compounds
+C04B  35/634  \	5	5	4G033	C04B  35/634	572	ポリマー（Ｃ０４Ｂ３５／６３６が優先）［６］	Polymers(C04B35/636 takes precedence) [6]
+C04B  35/634 040 \	6	6	4G033	C04B  35/634	41	炭素−炭素不飽和結合のみを含む反応により得たもの	
+C04B  35/634 080 \	7	7	4G033	C04B  35/634	104	ポリアルケン	
+C04B  35/634 120 \	7	7	4G033	C04B  35/634	1	クマロン重合体	Coumarone polymers
+C04B  35/634 160 \	7	7	4G033	C04B  35/634	142	ポリビニルアルコール［ＰＶＡ］；ポリビニルアセテート	polyvinyl alcohols[PVA]; polyvinyl acetate
+C04B  35/634 200 \	7	7	4G033	C04B  35/634	236	ポリビニルアセタール，例．ポリビニルブチラール［ＰＶＢ］	polyvinyl acetals, e.g. polyvinylbutyral [PVB]
+C04B  35/634 240 \	7	7	4G033	C04B  35/634	335	ポリアクリレート；ポリメタクリレート	Polyacrylates; Polymethacrylates
+C04B  35/634 280 \	7	7	4G033	C04B  35/634	46	エチレン性不飽和ジカルボン酸無水物重合体，例．無水マレイン酸物共重合体	ethylenically unsaturated dicarboxylic acid anhydride polymers, e.g. maleic anhydride copolymers
+C04B  35/634 320 \	7	7	4G033	C04B  35/634	58	ポリスチレン	Polystyrene
+C04B  35/634 360 \	7	7	4G033	C04B  35/634	10	ハロゲン含有重合体，例．ポリ塩化ビニル	Halogen-containing polymers, e.g. PVC
+C04B  35/634 400 \	7	7	4G033	C04B  35/634	17	少なくとも異なった三種のモノマーを含有する共重合体	Copolymers containing at least three different monomers
+C04B  35/634 440 \	7	7	4G033	C04B  35/634	45	窒素を含有する重合体，例．ポリアクリルアミド，ポリアクリロニトリルまたはポリビニルピロリドン［ＰＶＰ］	Nitrogen-containing polymers, e.g. polyacrylamides, polyacrylonitriles or polyvinylpyrrolidone [PVP]
+C04B  35/634 480 \	6	6	4G033	C04B  35/634	21	炭素−炭素不飽和結合のみが関連する反応以外により得たもの	Compounds obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds
+C04B  35/634 520 \	7	7	4G033	C04B  35/634	29	ポリエポキシド	Polyepoxide
+C04B  35/634 560 \	7	7	4G033	C04B  35/634	44	ポリウレタン；ポリイソシアネート	Polyurethanes; Polyisocyanates
+C04B  35/634 600 \	7	7	4G033	C04B  35/634	35	ポリエステル	Polyesters
+C04B  35/634 640 \	7	7	4G033	C04B  35/634	22	ポリカーボネート	Polycarbonates
+C04B  35/634 680 \	7	7	4G033	C04B  35/634	20	ポリアミド	Polyamide
+C04B  35/634 720 \	7	7	4G033	C04B  35/634	7	アルデヒドまたはケトンの縮重合体	Condensation polymers of aldehydes or ketones
+C04B  35/634 760 \	8	8	4G033	C04B  35/634	238	フェノール−ホルムアルデヒド縮重合体	Phenol-formaldehyde condensation polymers
+C04B  35/634 800 \	8	8	4G033	C04B  35/634	10	メラミン−ホルムアルデヒド縮重合体	Melamine-formaldehyde condensation polymers
+C04B  35/634 840 \	8	8	4G033	C04B  35/634	8	尿素−ホルムアルデヒド縮重合体	Urea-formaldehyde condensation polymers
+C04B  35/634 880 \	7	7	4G033	C04B  35/634	104	ポリエーテル，例．アルキルフェノールポリグリコールエーテル，ポリエチレングリコール［ＰＥＧ］，またはポリエチレンオキシド［ＰＥＯ］	Polyethers, e.g. alkylphenol polyglycolether, polyethylene glycol [PEG], polyethylene oxide [PEO]
+C04B  35/634 920 \	6	6	4G033	C04B  35/634	18	天然樹脂，例．ロジン	Natural resins, e.g. rosin
+C04B  35/634 960 \	6	6	4G033	C04B  35/634	154	瀝青物，例．タールまたはピッチ	Bituminous materials, e.g. tar or pitch
+C04B  35/636  \	5	5	4G033	C04B  35/636	96	多糖類またはその誘導体［６］	Polysaccharides or derivatives thereof [6]
+C04B  35/636 500 \	6	6	4G033	C04B  35/636	228	セルロースまたはその誘導体	Cellulose or derivatives thereof
+C04B  35/638  \	4	4	4G033	C04B  35/638	742	その除去［６］	Removal thereof [6]
+C04B  35/64  \	2	2	4G033	C04B  35/64	5543	焼成または焼結方法（Ｃ０４Ｂ３３／３２が優先）［６］	Burning or sintering processes (C04B 33/32 takes precedence) [6]
+C04B  35/645  \	3	3	4G033	C04B  35/645	678	加圧焼結［６］	Pressure sintering [6]
+C04B  35/645 500 \	4	4	4G033	C04B  35/645	735	熱間静水圧プレス	Hot static press
+C04B  35/65  \	3	3	4G033	C04B  35/65	207	遊離金属または遊離けい素を含む組成物の反応焼結［３］	Reaction sintering of free metal- or free silicon-containing compositions [3]
+C04B  35/65 100 \	4	4	4G033	C04B  35/65	22	テルミットタイプの焼結，例．燃焼焼結	Thermite type sintering, e.g. combustion sintering
+C04B  35/65 200 \	4	4	4G033	C04B  35/65	4	指向的酸化または擬固，例．ランキサイド法	Directional oxidation or solidification, e.g. Lanxide process
+C04B  35/653  \	2	2	4G033	C04B  35/653	597	溶融段階を伴う方法［６］	Processes involving a melting step [6]
+C04B  35/657  \	3	3	4G033	C04B  35/657	562	耐火物製造用（Ｃ０４Ｂ３５／０５，Ｃ０４Ｂ３５／１０７，Ｃ０４Ｂ３５／４８４が優先）［６］	for manufacturing refractories(C04B35/05, C04B35/107, C04B35/484 take precedence) [6]
+C04B  35/66  \	1	1	4G033	C04B  35/66	4313	モノリシックな耐火物または耐火モルタルであって，粘土を含み，または含まぬもの	Monolithic refractories or refractory mortars, including those whether or not containing clay
+C04B  35/71  \	1	1	4G033	C04B  35/71	66	巨視的な強化用物質を含むセラミック製品（Ｃ０４Ｂ３５／６６が優先）［３，４］	Ceramic products containing macroscopic reinforcing agents (C04B 35/66 takes precedence) [3,4]
+C04B  35/74  \	2	2	4G033	C04B  35/74	209	成形された金属材料を含むもの［２］	containing shaped metallic materials [2]
+C04B  35/76  \	3	3	4G033	C04B  35/76	186	繊維，フィラメント，ウィスカー，小板状体または類似物［２］	Fibres, filaments, whiskers, platelets, or the like [2]
+C04B  35/78  \	2	2	4G033	C04B  35/78	77	非金属材料を含有するもの［２］	containing non-metallic materials [2]
+C04B  35/80  \	3	3	4G033	C04B  35/80	2203	繊維，フィラメント，ウィスカー，小板状体または類似物［２］	Fibres, filaments, whiskers, platelets, or the like [2]
+C04B  35/80 300 \	4	4	4G033	C04B  35/80	487	酸化物のみからなるセラミック製品のマトリックス	Matrix of ceramic products consisting of oxides only
+C04B  35/80 600 \	4	4	4G033	C04B  35/80	860	非酸化物のみからなるセラミック製品のマトリックス	Matrix of ceramic products consisting of non-oxides only
+C04B  35/81  \	4	4	4G033	C04B  35/81	476	ウィスカー［６］	Whiskers [6]
+C04B  35/82  \	4	4	4G033	C04B  35/82	55	アスベスト；ガラス；溶融シリカ［２］	Asbestos; Glass; Fused silica [2]
+C04B  35/83  \	4	4	4G033	C04B  35/83	1421	炭素基質の炭素繊維［６］	Carbon fibres in a carbon matrix [6]
+C04B  35/84  \	3	3	4G033	C04B  35/84	225	含浸されたまたは被覆された材料［２］	Impregnated or coated materials [2]
+C04B  37/00  \	0	0	4G026	C04B  37/00	77	焼成セラミック物品と他の焼成セラミック物品または他の物品との加熱による接合	Joining burned ceramic articles with other burned ceramic articles or other articles by heating
+C04B  37/00  A	0	0	4G026	C04B  37/00	1211	接合剤の組成に特徴を有するもの	Characterized by compositions of joining agents
+C04B  37/00  B	0	1	4G026	C04B  37/00	696	金属を含むもの	Containing metals
+C04B  37/00  C	0	0	4G026	C04B  37/00	419	直接融着によるもの	By direct melting
+C04B  37/00  Z	0	0	4G026	C04B  37/00	1155	その他のもの	Others
+C04B  37/02  \	1	1	4G026	C04B  37/02	170	金属物品との	with metallic articles
+C04B  37/02  A	1	0	4G026	C04B  37/02	540	接合剤の組成に特徴を有するもの	Characterized by compositions of joining agents
+C04B  37/02  B	1	1	4G026	C04B  37/02	2490	金属を含むもの	Containing metals
+C04B  37/02  C	1	0	4G026	C04B  37/02	609	直接融着によるもの	By direct melting
+C04B  37/02  Z	1	0	4G026	C04B  37/02	1449	その他のもの	Others
+C04B  37/04  \	1	1	4G026	C04B  37/04	149	ガラスから作られた物品との	with articles made from glass
+C04B  38/00  \	0	0	4G019	C04B  38/00	256	多孔質化モルタル，コンクリート，人造石又はセラミックス製品；その製造（ガスまたはガス生成物質によるスラグの処理Ｃ０４Ｂ５／０６）［４，６］	Porous mortars, concrete, artificial stone or ceramic ware; Preparation thereof (treating slag with gases or gas generating material C04B  5/06)
+C04B  38/00 301 \	1	1	4G019	C04B  38/00	4	多孔質人造石	Porous artificial stones
+C04B  38/00 301 A	1	0	4G019	C04B  38/00	474	形状または構造に特徴があるもの	Characterized by profiles, structures
+C04B  38/00 301 B	1	0	4G019	C04B  38/00	226	発泡性鉱物を原料とするもの	Foaming minerals used as the raw materials
+C04B  38/00 301 C	1	0	4G019	C04B  38/00	621	無機繊維板	Inorganic fibre sheets
+C04B  38/00 301 D	1	0	4G019	C04B  38/00	115	有機繊維板	Organic fibre sheets
+C04B  38/00 301 Z	1	0	4G019	C04B  38/00	522	その他	Others
+C04B  38/00 302 \	1	1	4G019	C04B  38/00	4	多孔質人造石の製造	Preparation of porous artificial stones
+C04B  38/00 302 A	1	0	4G019	C04B  38/00	157	吸着ガスの放出，液体の蒸発または固体の昇華による多孔化	Obtain porous materials by releasing adsorption gas, evaporating liquids or sublimating solids
+C04B  38/00 302 B	1	0	4G019	C04B  38/00	40	発泡合成樹脂ビーズを溶融あるいは収縮させるもの	Melting or shrinking synthetic foaming resin beads
+C04B  38/00 302 C	1	0	4G019	C04B  38/00	222	骨材間に空隙を形成するもの，スポンジ等に含浸させるもの	Forming gap in aggregates, impinging in sponge
+C04B  38/00 302 D	1	0	4G019	C04B  38/00	65	炭酸ガスで硬化するもの	Hardening by carbon dioxide gas
+C04B  38/00 302 E	1	0	4G019	C04B  38/00	54	防水処理	Waterproof treatments
+C04B  38/00 302 Z	1	0	4G019	C04B  38/00	520	その他	Others
+C04B  38/00 303 \	1	1	4G019	C04B  38/00	27	多孔質セラミック製品	Porous ceramic products
+C04B  38/00 303 A	1	0	4G019	C04B  38/00	485	セラミック繊維板	Ceramic fibre sheets
+C04B  38/00 303 Z	1	0	4G019	C04B  38/00	3389	その他	Others
+C04B  38/00 304 \	1	1	4G019	C04B  38/00	19	多孔質セラミック製品の製造	Preparation of porous ceramic products
+C04B  38/00 304 A	1	0	4G019	C04B  38/00	268	網状フォームに泥漿を付着させるもの	Adhering slips to netlike foam
+C04B  38/00 304 B	1	0	4G019	C04B  38/00	236	吸着ガスの放出または液体の蒸発によるもの	By releasing adsorption gases or evaporating liquids
+C04B  38/00 304 Z	1	0	4G019	C04B  38/00	1684	その他	Others
+C04B  38/02  \	1	1	4G019	C04B  38/02	60	化学的発泡剤の添加によるもの［４］	by adding chemical blowing agents [4]
+C04B  38/02  A	1	0	4G019	C04B  38/02	205	多孔質人造石	Porous artificial stones
+C04B  38/02  B	1	1	4G019	C04B  38/02	56	化学的発泡剤＋樹脂	Combination of chemical foaming agents and resins
+C04B  38/02  C	1	1	4G019	C04B  38/02	107	水ガラス	Water-glass
+C04B  38/02  D	1	1	4G019	C04B  38/02	100	炭酸塩等	Carbonates
+C04B  38/02  E	1	1	4G019	C04B  38/02	527	金属粉末	Metal powders
+C04B  38/02  F	1	2	4G019	C04B  38/02	42	金属粉末＋樹脂	Combination of metal powders and resins
+C04B  38/02  G	1	1	4G019	C04B  38/02	70	過酸化物	Peroxides
+C04B  38/02  H	1	1	4G019	C04B  38/02	85	有機物	Organic substances
+C04B  38/02  J	1	2	4G019	C04B  38/02	69	イソシアナート系	Isocyanato systems
+C04B  38/02  K	1	0	4G019	C04B  38/02	333	セラミツク製品	Ceramic products
+C04B  38/02  L	1	1	4G019	C04B  38/02	26	水ガラス	Water-glass
+C04B  38/02  M	1	1	4G019	C04B  38/02	87	炭酸塩等	Carbonates
+C04B  38/02  N	1	1	4G019	C04B  38/02	47	金属粉末	Metal powders
+C04B  38/02  P	1	1	4G019	C04B  38/02	59	炭素	Carbon
+C04B  38/02  Z	1	0	4G019	C04B  38/02	84	その他	Others
+C04B  38/04  \	1	1	4G019	C04B  38/04	20	添加物質の溶出によるもの［４］	by dissolving-out added substances [4]
+C04B  38/04  A	1	0	4G019	C04B  38/04	63	多孔質人造石	Porous artificial stones
+C04B  38/04  B	1	0	4G019	C04B  38/04	148	セラミック製品	Ceramic products
+C04B  38/04  Z	1	0	4G019	C04B  38/04	4	その他	Others
+C04B  38/06  \	1	1	4G019	C04B  38/06	132	添加物質の焼失によるもの［４］	by burning-out added substances [4]
+C04B  38/06  A	1	0	4G019	C04B  38/06	37	多孔質人造石	Porous artificial stones
+C04B  38/06  B	1	0	4G019	C04B  38/06	497	セラミック製品	Ceramic products
+C04B  38/06  C	1	1	4G019	C04B  38/06	221	粘土	Clay
+C04B  38/06  D	1	1	4G019	C04B  38/06	470	酸化物	Oxides
+C04B  38/06  E	1	1	4G019	C04B  38/06	223	窒化物，ほう化物，炭化物またはケイ化物	Nitrides, borides, carbides, silicates
+C04B  38/06  F	1	1	4G019	C04B  38/06	324	炭素	Carbon
+C04B  38/06  G	1	1	4G019	C04B  38/06	239	焼成前の処理に特徴があるもの	Characterized by treatment before burring
+C04B  38/06  H	1	1	4G019	C04B  38/06	107	発泡剤の使用	Use of foaming agents
+C04B  38/06  J	1	1	4G019	C04B  38/06	317	焼成前の成型に特徴があるもの	Characterized by moulding before burning
+C04B  38/06  Z	1	0	4G019	C04B  38/06	41	その他	Others
+C04B  38/08  \	1	1	4G019	C04B  38/08	65	多孔質物質の添加によるもの［４］	by adding porous substances [4]
+C04B  38/08  A	1	0	4G019	C04B  38/08	76	多孔質人造石	Porous artificial stones
+C04B  38/08  B	1	1	4G019	C04B  38/08	1284	無機多孔質	Inorganic porous articles
+C04B  38/08  C	1	1	4G019	C04B  38/08	334	有機多孔質	Organic porous articles
+C04B  38/08  D	1	0	4G019	C04B  38/08	401	セラミック製品	Ceramic products
+C04B  38/08  Z	1	0	4G019	C04B  38/08	92	その他	Others
+C04B  38/10  \	1	1	4G019	C04B  38/10	50	起泡剤の使用によるもの（Ｃ０４Ｂ３８／０２が優先）［４］	by using foaming agents (C04B 38/02 takes precedence) [4]
+C04B  38/10  A	1	0	4G019	C04B  38/10	287	多孔質人造石	Porous artificial stones
+C04B  38/10  B	1	1	4G019	C04B  38/10	103	起泡剤＋泡安定剤	Combinations of foaming agents and foam stabilizers
+C04B  38/10  C	1	1	4G019	C04B  38/10	25	起泡剤＋水ガラス	Combinations of foaming agents and water-glass
+C04B  38/10  D	1	1	4G019	C04B  38/10	80	起泡剤＋多孔質	Combinations of foaming agents and porous articles
+C04B  38/10  E	1	1	4G019	C04B  38/10	72	起泡剤＋補強繊維	Combinations of foaming agents and reinforcement fibres
+C04B  38/10  F	1	1	4G019	C04B  38/10	102	起泡剤＋樹脂	Combinations of foaming agents and resins
+C04B  38/10  G	1	1	4G019	C04B  38/10	69	起泡装置または方法	Foaming devices, methods
+C04B  38/10  H	1	2	4G019	C04B  38/10	59	撹拌によるもの	by agitation
+C04B  38/10  J	1	2	4G019	C04B  38/10	49	吹き込みによるもの	by blowing
+C04B  38/10  K	1	2	4G019	C04B  38/10	19	減圧によるもの	by reducing pressures
+C04B  38/10  L	1	0	4G019	C04B  38/10	153	セラミック製品	Ceramic products
+C04B  38/10  Z	1	0	4G019	C04B  38/10	37	その他	Others
+C04B  40/00  \	0	0	4G112	C04B  40/00	1001	モルタル組成物，コンクリート組成物または人造石組成物の性質，例．凝結もしくは硬化性，に影響を与えるかそれを変化させるためのプロセス一般（活性成分の選択によるものＣ０４Ｂ２２／００〜Ｃ０４Ｂ２４／００；明確に規定された組成物の硬化Ｃ０４Ｂ２６／００〜Ｃ０４Ｂ２８／００；多孔質，細胞状または軽量化するものＣ０４Ｂ３８／００）［４，６］	Processes, in general, for influencing or modifying the properties of mortars, concrete or artificial stone compositions, e.g. their setting or hardening ability (by selecting active ingredients C04B 22/00-C04B 24/00; hardening of a well-defined composition C04B 26/00-C04B 28/00; making porous, cellular or lightening C04B 38/00) [4,6]
+C04B  40/02  \	1	1	4G112	C04B  40/02	1700	硬化環境の選択［４］	Selection of the hardening environment [4]
+C04B  40/04  \	1	1	4G112	C04B  40/04	376	混合水の蒸発防止（永久的な被覆Ｃ０４Ｂ４１／００）［４］	Preventing evaporation of the mixing water (permanent coverings C04B 41/00) [4]
+C04B  40/06  \	1	1	4G112	C04B  40/06	38	凝結抑制，例．破壊可能容器中に水を含有する遅硬化型モルタル［４］	Inhibiting the setting, e.g. mortars of the deferred action type containing water in breakable containers [4]
+C04B  41/00  \	0	0	4G028	C04B  41/00	189	モルタル，コンクリート，人造石またはセラミックスの後処理；天然石の処理（冷間うわ薬以外のうわ薬Ｃ０３Ｃ８／００）［３］	After-treatment of mortars, concrete, artificial stone or ceramics; Treatment of natural stone (glazes, other than cold glazes, C03C  8/00)
+C04B  41/45  \	1	1	4G028	C04B  41/45	121	被覆または含浸［４］	Coating or impregnating [4]
+C04B  41/46  \	2	2	4G028	C04B  41/46	65	有機物によるもの［４］	with organic materials [4]
+C04B  41/47  \	3	3	4G028	C04B  41/47	8	油，脂肪またはろう［４］	Oils, fats or waxes [4]
+C04B  41/48  \	3	3	4G028	C04B  41/48	211	高分子化合物［４］	Macromolecular compounds [4]
+C04B  41/49  \	3	3	4G028	C04B  41/49	89	炭素―金属または炭素―けい素間結合を１個以上有する化合物［４］	Compounds having one or more carbon-to-metal or carbon-to-silicon linkages [4]
+C04B  41/50  \	2	2	4G028	C04B  41/50	294	無機物によるもの［４］	with inorganic materials [4]
+C04B  41/51  \	3	3	4G028	C04B  41/51	52	金属化［４］	Metallising [4]
+C04B  41/52  \	2	2	4G028	C04B  41/52	74	多段被覆または含浸［４］	Multiple coating or impregnating [4]
+C04B  41/53  \	1	1	4G028	C04B  41/53	62	処理した物品からの材料の一部の除去を含む［４］	involving the removal of part of the materials of the treated article [4]
+C04B  41/60  \	1	1	4G028	C04B  41/60	456	人造石のみの［４］	of only artificial stone [4]
+C04B  41/61  \	2	2	4G028	C04B  41/61	365	被覆または含浸［４］	Coating or impregnating [4]
+C04B  41/62  \	3	3	4G028	C04B  41/62	428	有機物によるもの［４］	with organic materials [4]
+C04B  41/63  \	4	4	4G028	C04B  41/63	1638	高分子化合物［４］	Macromolecular compounds [4]
+C04B  41/64  \	4	4	4G028	C04B  41/64	362	炭素―金属または炭素―けい素間結合を１個以上有する化合物［４］	Compounds having one or more carbon-to-metal or carbon-to-silicon linkages [4]
+C04B  41/65  \	3	3	4G028	C04B  41/65	1909	無機物によるもの［４］	with inorganic materials [4]
+C04B  41/66  \	4	4	4G028	C04B  41/66	38	ふっ化物，例．オクラテーション［４］	Fluorides, e.g. ocratation [4]
+C04B  41/67  \	4	4	4G028	C04B  41/67	115	りん酸塩［４］	Phosphates [4]
+C04B  41/68  \	4	4	4G028	C04B  41/68	625	けい酸；けい酸塩［４］	Silicic acid; Silicates [4]
+C04B  41/69  \	4	4	4G028	C04B  41/69	171	金属［４］	Metals [4]
+C04B  41/70  \	3	3	4G028	C04B  41/70	376	異なった組成を有する少なくとも２つの積層された被覆を得るためのもの［４］	for obtaining at least two superposed coatings having different compositions [4]
+C04B  41/71  \	4	4	4G028	C04B  41/71	1060	被覆の少なくとも１つは有機物であるもの［４］	at least one coating being an organic material [4]
+C04B  41/72  \	2	2	4G028	C04B  41/72	591	処理した物品からの材料の一部の除去を含むもの，例．エッチング［４］	involving the removal of part of the materials of the treated articles, e.g. etching [4]
+C04B  41/80  \	1	1	4G029	C04B  41/80	33	セラミックスのみの［４］	of only ceramics [4]
+C04B  41/80  A	1	0	4G029	C04B  41/80	516	加熱処理；表面溶融	Heat treatment (including surface melting)
+C04B  41/80  B	1	0	4G029	C04B  41/80	228	拡散浸透；イオン注入処理	Cementation or ion injection treatments
+C04B  41/80  Z	1	0	4G029	C04B  41/80	421	その他	Others
+C04B  41/81  \	2	2	4G029	C04B  41/81	19	被覆または含浸［４］	Coating or impregnating [4]
+C04B  41/81  A	2	0	4G029	C04B  41/81	68	含浸方法または装置	Impregnation methods or devices
+C04B  41/81  Z	2	0	4G029	C04B  41/81	171	その他	Others
+C04B  41/82  \	3	3	4G029	C04B  41/82	14	有機物によるもの［４］	with organic materials [4]
+C04B  41/82  A	3	0	4G029	C04B  41/82	142	被覆	Coating or palletizing aggregates
+C04B  41/82  B	3	0	4G029	C04B  41/82	75	含浸	Impregnation
+C04B  41/82  C	3	1	4G029	C04B  41/82	70	炭素材への含浸	Impregnating carbon materials
+C04B  41/82  D	3	1	4G029	C04B  41/82	63	耐火物への含浸	Impregnating refractories
+C04B  41/82  Z	3	0	4G029	C04B  41/82	28	その他	Others
+C04B  41/83  \	4	4	4G029	C04B  41/83	20	高分子化合物［４］	Macromolecular compounds [4]
+C04B  41/83  A	4	0	4G029	C04B  41/83	305	被覆	Coating
+C04B  41/83  B	4	1	4G029	C04B  41/83	49	焼成タイル表面の被覆	Coating burnt tile surface
+C04B  41/83  C	4	1	4G029	C04B  41/83	48	耐火物表面の被覆	Coating refractory surface
+C04B  41/83  D	4	0	4G029	C04B  41/83	176	含浸	Impregnating
+C04B  41/83  E	4	1	4G029	C04B  41/83	100	炭素材への含浸	Impregnating carbon materials
+C04B  41/83  F	4	1	4G029	C04B  41/83	24	耐火物への含浸	Impregnating refractories
+C04B  41/83  G	4	1	4G029	C04B  41/83	79	非酸化物焼結体への含浸	Impregnating non-oxide sintering
+C04B  41/83  Z	4	0	4G029	C04B  41/83	50	その他	Others
+C04B  41/84  \	4	4	4G029	C04B  41/84	19	炭素―金属または炭素―けい素間結合を１個以上有する化合物［４］	Compounds having one or more carbon-to-metal or carbon-to-silicon linkages [4]
+C04B  41/84  A	4	0	4G029	C04B  41/84	149	被覆	Coating
+C04B  41/84  B	4	0	4G029	C04B  41/84	56	含浸	Impregnation
+C04B  41/84  Z	4	0	4G029	C04B  41/84	22	その他	Others
+C04B  41/85  \	3	3	4G029	C04B  41/85	32	無機物によるもの［４］	with inorganic materials [4]
+C04B  41/85  A	3	0	4G029	C04B  41/85	121	焼結体への無機物含浸処理	Impregnation treatment of inorganic substances into sintering
+C04B  41/85  B	3	1	4G029	C04B  41/85	216	含浸後さらに後処理するもの	Post-processing after impregnation
+C04B  41/85  C	3	0	4G029	C04B  41/85	813	多孔質焼結体への無機物被覆・含浸処理	Coating or impregnating processing of inorganic substances for porous sintering
+C04B  41/85  D	3	1	4G029	C04B  41/85	317	触媒担体	Catalyst carriers
+C04B  41/85  E	3	1	4G029	C04B  41/85	134	耐火物への無機物含浸処理	Impregnation processing of inorganic substances into refractories
+C04B  41/85  F	3	1	4G029	C04B  41/85	181	炭素物への無機物含浸処理	Impregnation processing of inorganic substances into carbon
+C04B  41/85  G	3	1	4G029	C04B  41/85	55	炭素質電極または耐火物	Carbon electrodes or refractories
+C04B  41/85  H	3	0	4G029	C04B  41/85	138	非酸化物焼結体への無機物含浸処理	Impregnation processing of inorganic substances into non-oxide sintering
+C04B  41/85  J	3	0	4G029	C04B  41/85	136	陶磁器の無機物被覆による模様付け	Patterning pottery and chinaware by coating with inorganic substances
+C04B  41/85  Z	3	0	4G029	C04B  41/85	290	その他	Others
+C04B  41/86  \	4	4	4G029	C04B  41/86	26	うわ薬；冷間うわ薬［４］	Glazes; Cold glazes [4]
+C04B  41/86  A	4	0	4G029	C04B  41/86	474	釉薬	Glaze
+C04B  41/86  B	4	1	4G029	C04B  41/86	166	顔料に特徴があるもの	Characterized by pigments
+C04B  41/86  C	4	0	4G029	C04B  41/86	32	施釉紙	Glazing papers
+C04B  41/86  D	4	0	4G029	C04B  41/86	247	施釉方法	Glazing methods
+C04B  41/86  E	4	0	4G029	C04B  41/86	59	施釉前処理法	Processing methods before glazing
+C04B  41/86  F	4	0	4G029	C04B  41/86	64	施釉後処理法	Processing methods after glazing
+C04B  41/86  G	4	0	4G029	C04B  41/86	156	転写による絵付法	Painting methods by transferring
+C04B  41/86  H	4	1	4G029	C04B  41/86	131	転写紙	Transfer paper
+C04B  41/86  J	4	0	4G029	C04B  41/86	62	釉薬層の固着方法または装置	Fixing methods or devices for glaze layers
+C04B  41/86  K	4	0	4G029	C04B  41/86	121	施釉装置または補助具	Glazing devices or auxiliary devices thereof
+C04B  41/86  L	4	1	4G029	C04B  41/86	155	吹付または撤布によるもの	By blowing or spraying
+C04B  41/86  M	4	1	4G029	C04B  41/86	45	浸漬によるもの	By dipping
+C04B  41/86  N	4	1	4G029	C04B  41/86	95	塗布，スタンプ，印刷またはロール掛けによるもの	By applying, stamping, printing or rolling
+C04B  41/86  P	4	1	4G029	C04B  41/86	46	釉薬不要部分の除去装置	Devices to eliminate unwanted glaze
+C04B  41/86  Q	4	1	4G029	C04B  41/86	50	瓦への施釉装置	Glazing devices for tiles
+C04B  41/86  R	4	0	4G029	C04B  41/86	419	施釉製品	Glazed products
+C04B  41/86  S	4	0	4G029	C04B  41/86	77	耐火物または炭素材表面のガラス質被覆	Glass coating to surfaces of refractories or carbon materials
+C04B  41/86  T	4	0	4G029	C04B  41/86	97	電気材料表面のガラス質被覆	Glass coating on electrical materials surfaces
+C04B  41/86  U	4	1	4G029	C04B  41/86	135	グレーズド基板	Glazed substrates
+C04B  41/86  Z	4	0	4G029	C04B  41/86	154	その他	Others
+C04B  41/87  \	4	4	4G029	C04B  41/87	100	セラミックス［４］	Ceramics [4]
+C04B  41/87  A	4	0	4G029	C04B  41/87	581	焼結体表面の無機物被覆方法	Coating methods of inorganic substances on sintering surface
+C04B  41/87  B	4	1	4G029	C04B  41/87	121	絶縁基板表面の無機物被覆	Coating methods of inorganic substances on insulated substrate surface
+C04B  41/87  C	4	1	4G029	C04B  41/87	165	焼結体表面の導電性無機物被覆	Inorganic conductive coating on sintering surface
+C04B  41/87  D	4	0	4G029	C04B  41/87	161	焼結体表面での酸化物以外の無機質被膜形成法	Inorganic coating film forming method on sintering surface rather than with oxides
+C04B  41/87  E	4	0	4G029	C04B  41/87	164	蒸熱による無機物被覆	Inorganic material coating by steam heat
+C04B  41/87  F	4	1	4G029	C04B  41/87	477	ＰＶＤによるもの	by PVD
+C04B  41/87  G	4	1	4G029	C04B  41/87	542	ＣＶＤによるもの	by CVD
+C04B  41/87  H	4	0	4G029	C04B  41/87	245	熱分解炭素またはダイヤモンドによる被覆	Coating by thermally decomposed carbon or diamond
+C04B  41/87  J	4	0	4G029	C04B  41/87	307	溶射による無機物被覆	Inorganic coating by injection
+C04B  41/87  K	4	1	4G029	C04B  41/87	145	溶射材料	Injection materials
+C04B  41/87  L	4	0	4G029	C04B  41/87	65	赤外線放射材料による被覆	Coating by materials emitting infrared rays
+C04B  41/87  M	4	0	4G029	C04B  41/87	520	非酸化物焼結体表面の無機物被覆処理	Coating processes on non-oxide sintering surface with inorganic substances
+C04B  41/87  N	4	0	4G029	C04B  41/87	401	硬質材料，例．工具材，の無機物被覆	Inorganic coating of hard materials (tool materials)
+C04B  41/87  P	4	0	4G029	C04B  41/87	243	耐火物表面の無機物被覆処理	Inorganic coating processes of refractory surfaces
+C04B  41/87  Q	4	1	4G029	C04B  41/87	97	酸化防止のための処理	Treatment for preventing oxidation
+C04B  41/87  R	4	1	4G029	C04B  41/87	260	無機質被覆材	Inorganic coating materials
+C04B  41/87  S	4	0	4G029	C04B  41/87	302	炭素材表面の無機物被覆処理	Inorganic coating processes of carbon surfaces
+C04B  41/87  T	4	1	4G029	C04B  41/87	128	炭素質耐火物または電極表面の被覆処理	Coating processing of carbon refractories or electrode surfaces
+C04B  41/87  U	4	1	4G029	C04B  41/87	217	無機質被覆材	Inorganic coating materials
+C04B  41/87  V	4	1	4G029	C04B  41/87	387	ＳｉＣ被覆	SiC coating
+C04B  41/87  W	4	0	4G029	C04B  41/87	71	装飾のための無機物被覆	Inorganic coating for decoration
+C04B  41/87  Z	4	0	4G029	C04B  41/87	675	その他	Others
+C04B  41/88  \	4	4	4G029	C04B  41/88	73	金属［４］	Metals [4]
+C04B  41/88  A	4	0	4G029	C04B  41/88	203	金属被覆焼結体	Metal coating sintering
+C04B  41/88  B	4	0	4G029	C04B  41/88	141	焼結体のメタライズ用組成物	Composites for metallizing sintering
+C04B  41/88  C	4	1	4G029	C04B  41/88	439	導電層形成のためのもの	For forming conductive layers
+C04B  41/88  D	4	1	4G029	C04B  41/88	79	装飾のためのもの	For decoration
+C04B  41/88  E	4	0	4G029	C04B  41/88	85	焼結体表面の電気メッキ	Electric plating of sintering surfaces
+C04B  41/88  F	4	0	4G029	C04B  41/88	118	焼結体表面の無電解メッキ	Non-electrolytic plating of sintering surfaces
+C04B  41/88  G	4	1	4G029	C04B  41/88	141	無電解メッキのための前処理	Pre-processing for non-electrolytic plating
+C04B  41/88  H	4	2	4G029	C04B  41/88	52	活性化剤	Activating agents
+C04B  41/88  J	4	0	4G029	C04B  41/88	134	焼結体表面の蒸着による金属被覆	Metallic coating on sintering surfaces by depositing
+C04B  41/88  K	4	0	4G029	C04B  41/88	52	焼結体表面の溶射による金属被覆	Metallic coating on sintering surfaces by injecting
+C04B  41/88  L	4	0	4G029	C04B  41/88	88	焼結体表面の還元メタライズ法	Reduced metallizing methods for sintering surfaces
+C04B  41/88  M	4	0	4G029	C04B  41/88	133	絶縁基板表面の金属化	Metallizing insulating substrate surfaces
+C04B  41/88  N	4	1	4G029	C04B  41/88	42	スルーホールを有するもの	With through holes
+C04B  41/88  P	4	1	4G029	C04B  41/88	58	パターン形成手段に特徴があるもの	Characterized by means for forming patterns
+C04B  41/88  Q	4	0	4G029	C04B  41/88	308	非酸化物焼結体表面の金属被覆	Metallic coating on non-oxide sintering surfaces
+C04B  41/88  R	4	0	4G029	C04B  41/88	101	炭素またはダイヤモンド表面の金属被覆	Metallic coating on carbon or diamond surfaces
+C04B  41/88  S	4	0	4G029	C04B  41/88	77	多孔質焼結体表面の金属被覆	Metallic coating on porous sintering surfaces
+C04B  41/88  T	4	0	4G029	C04B  41/88	50	耐火物表面の金属被覆	Metallic coating on refractory surfaces
+C04B  41/88  U	4	0	4G029	C04B  41/88	559	焼結体への金属含浸	Impregnating metals on sintering
+C04B  41/88  V	4	1	4G029	C04B  41/88	159	炭素材への金属含浸	Impregnating metals on carbon materials
+C04B  41/88  Z	4	0	4G029	C04B  41/88	217	その他	Others
+C04B  41/89  \	3	3	4G029	C04B  41/89	39	異なった組成を有する少なくとも２つの積層された被覆を得るためのもの［４］	for obtaining at least two superposed coatings having different compositions [4]
+C04B  41/89  A	3	0	4G029	C04B  41/89	482	多層被覆方法	Multi-layer coating methods
+C04B  41/89  B	3	0	4G029	C04B  41/89	63	有機物による多層被覆	Multi-layer coatings with organic substances
+C04B  41/89  C	3	0	4G029	C04B  41/89	124	陶磁器表面に粉末，粒状物，繊維状物を樹脂，ガラス，その他で固着したもの	Fixing powered, pellets or fibrous substances on pottery and chinaware surfaces by resins, glass or others
+C04B  41/89  D	3	0	4G029	C04B  41/89	149	陶磁器表面の装飾のための多層被覆	Multi-layer coatings on pottery and chinaware surfaces for decoration
+C04B  41/89  E	3	1	4G029	C04B  41/89	57	下絵付後施釉	Glazing after preparatory painting
+C04B  41/89  F	3	2	4G029	C04B  41/89	71	釉が透明または半透明なもの	Transparent or translucent glaze
+C04B  41/89  G	3	1	4G029	C04B  41/89	36	下絵付後樹脂被覆	Resin coating after preparatory painting
+C04B  41/89  H	3	1	4G029	C04B  41/89	105	施釉後上絵付	Final painting after glazing
+C04B  41/89  J	3	0	4G029	C04B  41/89	207	多層被覆した硬質材料，例．工具	Hard materials with multi-layers (tools)
+C04B  41/89  K	3	0	4G029	C04B  41/89	455	多層被覆した炭素材，炭化珪素材及び耐火物	Carbon materials, silicon carbides or refractories with multi-layer coatings
+C04B  41/89  Z	3	0	4G029	C04B  41/89	385	その他	Others
+C04B  41/90  \	4	4	4G029	C04B  41/90	25	被覆の少なくとも１つは金属であるもの［４］	at least one coating being a metal [4]
+C04B  41/90  A	4	0	4G029	C04B  41/90	253	焼結体表面の多層金属被覆	Multi-layer metallic coatings on sintering surfaces
+C04B  41/90  B	4	0	4G029	C04B  41/90	171	焼結体表面に金属被膜形成後無機物被覆	Inorganic coating after forming metallic coating films on sintering surfaces
+C04B  41/90  C	4	0	4G029	C04B  41/90	270	焼結体表面に無機質被膜形成後金属被覆	Metallic coating after forming inorganic coating films on sintering surfaces
+C04B  41/90  D	4	0	4G029	C04B  41/90	102	金属被覆層を有する装飾陶磁器	Decorated pottery and chinaware with metallic coating layers
+C04B  41/90  Z	4	0	4G029	C04B  41/90	103	その他	Others
+C04B  41/91  \	2	2	4G029	C04B  41/91	35	処理した物品からの材料の一部の除去を含むもの，例．エッチング［４］	involving the removal of part of the materials of the treated articles, e.g. etching [4]
+C04B  41/91  A	2	0	4G029	C04B  41/91	32	電解エッチング	Electrolytic etching
+C04B  41/91  B	2	0	4G029	C04B  41/91	302	化学エッチング	Chemical etching
+C04B  41/91  C	2	0	4G029	C04B  41/91	37	エッチングの際のマスキング	Masking upon etching
+C04B  41/91  D	2	0	4G029	C04B  41/91	121	サンドブラストによる除去	Removal by sandblast
+C04B  41/91  E	2	0	4G029	C04B  41/91	195	レーザー・プラズマジェットによる除去	Removal by laser plasma jet
+C04B  41/91  Z	2	0	4G029	C04B  41/91	356	その他	Others
+C04B 103:00  \	0	0		C04B 103/00	68	活性成分の機能または特性［６］	Indexing scheme associated with groups C04B 22/00 and C04B 24/00, relating to the function or property of the active ingredients.
+C04B 103:10  \	1	1		C04B 103/10	93	促進剤［６］	Accelerators [6]
+C04B 103:12  \	2	2		C04B 103/12	308	凝結促進剤［６］	Set accelerators [6]
+C04B 103:14  \	2	2		C04B 103/14	290	硬化促進剤［６］	Hardening accelerators [6]
+C04B 103:20  \	1	1		C04B 103/20	47	遅延剤［６］	Retarders [6]
+C04B 103:22  \	2	2		C04B 103/22	96	凝結遅延剤［６］	Set retarders [6]
+C04B 103:24  \	2	2		C04B 103/24	48	硬化遅延剤［６］	Hardening retarders [6]
+C04B 103:30  \	1	1		C04B 103/30	464	減水剤，流動化剤，ＡＥ剤［６］	Water reducers, plasticisers, air-entrainers [6]
+C04B 103:32  \	2	2		C04B 103/32	425	高性能流動化剤（高性能減水剤）［６］	Superplasticisers [6]
+C04B 103:40  \	1	1		C04B 103/40	596	界面活性剤；分散剤［６］	Surface-active agents;  Dispersants
+C04B 103:42  \	1	1		C04B 103/42	50	孔形成剤［６］	Pore formers [6]
+C04B 103:44  \	1	1		C04B 103/44	307	濃度増加剤，ゲル増加剤または粘度増加剤［６］	Thickening, gelling or viscosity increasing agents [6]
+C04B 103:46  \	1	1		C04B 103/46	28	水損失減少剤，吸湿剤または親水化剤［６］	Water-loss reducers, hygroscopic or hydrophilic agents [6]
+C04B 103:48  \	1	1		C04B 103/48	57	泡安定剤［６］	Foam stabilisers [6]
+C04B 103:50  \	1	1		C04B 103/50	85	消泡剤；脱泡剤［６］	Defoamers; Air detrainers
+C04B 103:52  \	1	1		C04B 103/52	58	粉砕助剤［６］	Grinding aids [6]
+C04B 103:54  \	1	1		C04B 103/54	19	顔料；染料［６］	Pigments; Dyes [6]
+C04B 103:56  \	1	1		C04B 103/56	6	乳濁剤［６］	Opacifiers [6]
+C04B 103:60  \	1	1		C04B 103/60	546	化学的，物理的または生物学的破壊作用に対する保護剤［６］	Agents for protection against chemical, physical or biological attack [6]
+C04B 103:61  \	2	2		C04B 103/61	68	防錆剤［６］	Corrosion inhibitors [6]
+C04B 103:63  \	2	2		C04B 103/63	6	防炎剤［６］	Flame-proofing agents [6]
+C04B 103:65  \	2	2		C04B 103/65	98	防水剤または撥水剤［６］	Water proofers or repellants [6]
+C04B 103:67  \	2	2		C04B 103/67	67	殺生物剤［６］	Biocides [6]
+C04B 103:69  \	3	3		C04B 103/69	49	殺菌剤［６］	Fungicides [6]
+C04B 111:00  \	0	0		C04B 111/00	229	モルタル，コンクリートまたは人造石の機能，特性または使用［６］	Indexing scheme associated with groups C04B 26/00-C04B 32/00, relating to the function, property or use of the mortars, concrete or artificial stone.
+C04B 111:10  \	1	1		C04B 111/10	20	特定の物質が含まれていないことに特徴のある組成物［６］	Compositions characterised by the absence of a specified material [6]
+C04B 111:12  \	2	2		C04B 111/12	72	アスベストの不在，例．セメント−アスベスト代用物［６］	Absence of asbestos, e.g. cement-asbestos substitutes [6]
+C04B 111:20  \	1	1		C04B 111/20	540	化学的，物理的または生物学的破壊作用の阻止［６］	Resistance against chemical, physical or biological attack [6]
+C04B 111:21  \	2	2		C04B 111/21	71	耐エフロレッセンス［６］	Efflorescence resistance [6]
+C04B 111:22  \	2	2		C04B 111/22	77	耐中性化［６］	Carbonation resistance [6]
+C04B 111:23  \	2	2		C04B 111/23	135	耐酸［６］	Acid resistance [6]
+C04B 111:24  \	2	2		C04B 111/24	75	耐海水［６］	Sea water resistance [6]
+C04B 111:25  \	2	2		C04B 111/25	0	耐落書き［６］	Graffiti resistance [6]
+C04B 111:26  \	2	2		C04B 111/26	93	補強性腐食［６］	Corrosion of reinforcement resistance [6]
+C04B 111:27  \	2	2		C04B 111/27	191	耐水，すなわち防水または撥水材料［２００６．０１］	Water resistance, i.e. waterproof or water-repellent materials [6, 2006.01]
+C04B 111:28  \	2	2		C04B 111/28	257	耐火［６］	Fire resistance [6]
+C04B 111:30  \	1	1		C04B 111/30	70	釘付け可能な，またはのこぎりでひける材料［６］	Nailable or sawable materials [6]
+C04B 111:32  \	1	1		C04B 111/32	16	膨張禁止材料［６］	Expansion inhibited materials [6]
+C04B 111:34  \	1	1		C04B 111/34	192	防縮材料［６］	Non-shrinking materials [6]
+C04B 111:40  \	1	1		C04B 111/40	705	多孔性または軽量の材料［６］	Porous or lightweight materials [6]
+C04B 111:42  \	2	2		C04B 111/42	6	浮上材料［６］	Floating materials [6]
+C04B 111:50  \	1	1		C04B 111/50	29	柔軟性または伸縮性材料［６］	Flexible or elastic materials [6]
+C04B 111:52  \	1	1		C04B 111/52	38	防音材料［６］	Sound insulating materials [6]
+C04B 111:54  \	1	1		C04B 111/54	256	自然石の代用品，例．人造大理石［６］	Substitutes for natural stone, e.g. artificial marble [6]
+C04B 111:56  \	1	1		C04B 111/56	73	管の構成に適した組成物，例．遠心鋳造によるもの［６］	Compositions suited for fabrication of pipes, e.g. by centrifugal casting [6]
+C04B 111:60  \	1	1		C04B 111/60	61	床材料［６］	Flooring materials [6]
+C04B 111:62  \	2	2		C04B 111/62	178	セルフレベリング組成物［６］	Self-levelling compositions [6]
+C04B 111:70  \	1	1		C04B 111/70	665	グラウト［６］	Grouts [6]
+C04B 111:72  \	1	1		C04B 111/72	281	既存の建築物または建築材料の修理に用いられる組成物［６］	Compositions used for repairing existing buildings or building materials [6]
+C04B 111:74  \	1	1		C04B 111/74	90	水中における適用［６］	Underwater applications [6]
+C04B 111:76  \	1	1		C04B 111/76	113	氷点下温度における使用［６］	Use at sub-zero temperatures [6]
+C04B 111:80  \	1	1		C04B 111/80	12	光学的特性，例．透明［６］	Optical properties, e.g. transparency [6]
+C04B 111:82  \	2	2		C04B 111/82	35	着色した材料［６］	Coloured materials [6]
+C04B 111:90  \	1	1		C04B 111/90	30	電気的特性［６］	Electrical properties [6]
+C04B 111:92  \	2	2		C04B 111/92	4	電気絶縁材料［６］	Electrically insulating materials [6]
+C04B 111:94  \	2	2		C04B 111/94	61	導電材料［６］	Electrically conducting materials [6]

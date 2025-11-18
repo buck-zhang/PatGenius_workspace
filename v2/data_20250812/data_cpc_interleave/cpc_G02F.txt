@@ -1,0 +1,639 @@
+G02F1/00	7	Devices or arrangements for the control of the intensity, colour, phase, polarisation or direction of light arriving from an independent light source, e.g. switching, gating or modulating; Non-linear optics<br><br><u>NOTE</u><br><br> This group covers only : <br>devices or arrangements, e.g. cells, the optical operation of  which is modified by changing the optical properties of the  medium of the devices or arrangements by the influence or  control of physical parameters, e.g. electric fields, electric  current, magnetic fields, sound or mechanical vibrations,  stress or thermal effects; <br>devices or arrangements in which the electric or magnetic  field component of the light beams influences the optical  properties of the medium, i.e. non-linear optics; <br>control of light by electromagnetic waves, e.g. radio waves,  or by electrons or other elementary particles. 	G02F1/00	G02F1/00		528
+G02F1/0009	8	{Materials therefor}<br><br><u>NOTE</u><br><br>G02F1/0009 and subgroups contain mostly non-patent literature.	G02F1/00	G02F1/00		262
+G02F1/0018	9	{Electro-optical materials}	G02F1/00	G02F1/00		388
+G02F1/0027	10	{Ferro-electric materials}	G02F1/00	G02F1/00		84
+G02F1/0036	9	{Magneto-optical materials}	G02F1/00	G02F1/00		303
+G02F1/0045	9	{Liquid crystals characterised by their physical properties}	G02F1/00	G02F1/00		163
+G02F1/0054	9	{Structure, phase transitions, NMR, ESR, Moessbauer spectra}	G02F1/00	G02F1/00		85
+G02F1/0063	9	{Optical properties, e.g. absorption, reflection or birefringence (materials for non-linear optics G02F1/355)}	G02F1/00	G02F1/00		332
+G02F1/0072	9	{Mechanical, acoustic, electro-elastic, magneto-elastic properties}	G02F1/00	G02F1/00		59
+G02F1/0081	9	{Electric or magnetic properties}	G02F1/00	G02F1/00		97
+G02F1/009	9	{Thermal properties}	G02F1/00	G02F1/00		256
+G02F1/01	8	for the control of the intensity, phase, polarisation or colour&#160; (G02F1/29, G02F1/35 take precedence)	G02F1/01	G02F1/01		1020
+G02F1/0102	9	{Constructional details, not otherwise provided for in this subclass}	G02F1/01	G02F1/01		1077
+G02F1/0105	10	{Illuminating devices}	G02F1/01	G02F1/01		134
+G02F1/0107	10	{Gaskets, spacers or sealing of cells; Filling and closing of cells}	G02F1/01	G02F1/01		285
+G02F1/011	9	{in optical waveguides, not otherwise provided for in this subclass}	G02F1/01	G02F1/01		1076
+G02F1/0113	10	{Glass-based, e.g. silica-based, optical waveguides}	G02F1/01	G02F1/01		203
+G02F1/0115	10	{in optical fibres}	G02F1/01	G02F1/01		321
+G02F1/0118	11	{by controlling the evanescent coupling of light from a fibre into an active, e.g. electro-optic, overlay}	G02F1/01	G02F1/01		128
+G02F1/0121	9	{Operation of devices; Circuit arrangements, not otherwise provided for in this subclass}	G02F1/01	G02F1/01		1238
+G02F1/0123	10	{Circuits for the control or stabilisation of the bias voltage, e.g. automatic bias control [ABC] feedback loops}	G02F1/01	G02F1/01		780
+G02F1/0126	9	{Opto-optical modulation, i.e. control of one light beam by another light beam, not otherwise provided for in this subclass}	G02F1/01	G02F1/01		695
+G02F1/0128	9	{based on electro-mechanical, magneto-mechanical, elasto-optic effects}	G02F1/01	G02F1/01		183
+G02F1/0131	10	{based on photo-elastic effects, e.g. mechanically induced birefringence}	G02F1/01	G02F1/01		172
+G02F1/0134	11	{in optical waveguides}	G02F1/01	G02F1/01		319
+G02F1/0136	9	{for the control of polarisation, e.g. state of polarisation [SOP] control, polarisation scrambling, TE-TM mode conversion or separation (G02F1/0353 takes precedence)}	G02F1/01	G02F1/01		1312
+G02F1/0139	10	{Polarisation scrambling devices; Depolarisers}	G02F1/01	G02F1/01		63
+G02F1/0142	10	{TE-TM mode conversion}	G02F1/01	G02F1/01		93
+G02F1/0144	10	{TE-TM mode separation}	G02F1/01	G02F1/01		44
+G02F1/0147	9	{based on thermo-optic effects (G02F1/132 takes precedence)}	G02F1/01	G02F1/01		2335
+G02F1/015	9	based on semiconductor elements having potential barriers, e.g. having a PN or PIN junction (G02F1/03 takes precedence)	G02F1/015	G02F1/015		857
+G02F1/0151	10	{modulating the refractive index}	G02F1/015	G02F1/015		253
+G02F1/0152	11	{using free carrier effects, e.g. plasma effect}	G02F1/015	G02F1/015		242
+G02F1/0153	11	{using electro-refraction, e.g. Kramers-Kronig relation}	G02F1/015	G02F1/015		30
+G02F1/0154	11	{using electro-optic effects, e.g. linear electro optic [LEO], Pockels, quadratic electro optical [QEO] or Kerr effect}	G02F1/015	G02F1/015		99
+G02F1/0155	10	{modulating the optical absorption}	G02F1/015	G02F1/015		163
+G02F1/0156	11	{using free carrier absorption}	G02F1/015	G02F1/015		77
+G02F1/0157	11	{using electro-absorption effects, e.g. Franz-Keldysh [FK] effect or quantum confined stark effect [QCSE]}	G02F1/015	G02F1/015		306
+G02F1/0158	12	{Blue-shift of the absorption band}	G02F1/015	G02F1/015		11
+G02F1/0159	12	{Red-shift of the absorption band}	G02F1/015	G02F1/015		9
+G02F1/017	10	Structures with periodic or quasi periodic potential variation, e.g. superlattices, quantum wells	G02F1/017	G02F1/017		477
+G02F1/01708	11	{in an optical wavequide structure}	G02F1/017	G02F1/017		413
+G02F1/01716	11	{Optically controlled superlattice or quantum well devices}	G02F1/017	G02F1/017		166
+G02F1/01725	11	{Non-rectangular quantum well structures, e.g. graded or stepped quantum wells}	G02F1/017	G02F1/017		105
+G02F1/01733	12	{Coupled or double quantum wells}	G02F1/017	G02F1/017		29
+G02F1/01741	13	{Asymmetrically coupled or double quantum wells}	G02F1/017	G02F1/017		12
+G02F1/0175	12	{with a spatially varied well profile, e.g. graded or stepped quantum wells}	G02F1/017	G02F1/017		44
+G02F1/01758	13	{with an asymmetric well profile, e.g. asymmetrically stepped quantum wells}	G02F1/017	G02F1/017		22
+G02F1/01766	11	{Strained superlattice devices; Strained quantum well devices}	G02F1/017	G02F1/017		53
+G02F1/01775	11	{involving an inter-subband transition in one well, e.g. e1-&gt;e2}	G02F1/017	G02F1/017		16
+G02F1/01783	11	{Quantum wires}	G02F1/017	G02F1/017		20
+G02F1/01791	11	{Quantum boxes or quantum dots}	G02F1/017	G02F1/017		377
+G02F1/025	10	in an optical waveguide structure (G02F1/017, {G02F1/2257} take precedence)	G02F1/025	G02F1/025		1676
+G02F1/03	9	based on ceramics or electro-optical crystals, e.g. exhibiting Pockels effect or Kerr effect (G02F1/061 takes precedence)	G02F1/03	G02F1/03		651
+G02F1/0305	10	{Constructional arrangements (G02F1/0327&#160;-&#160;G02F1/05 take precedence)}	G02F1/03	G02F1/03		726
+G02F1/0311	11	{Structural association of optical elements, e.g. lenses, polarizers, phase plates, with the crystal}	G02F1/03	G02F1/03		415
+G02F1/0316	11	{Electrodes}	G02F1/03	G02F1/03		946
+G02F1/0322	11	{Arrangements comprising two or more independently controlled crystals}	G02F1/03	G02F1/03		175
+G02F1/0327	10	{Operation of the cell; Circuit arrangements (G02F1/05 takes precedence)}	G02F1/03	G02F1/03		621
+G02F1/0333	10	{addressed by a beam of charged particles (G02F1/05 takes precedence)}	G02F1/03	G02F1/03		84
+G02F1/0338	10	{structurally associated with a photoconductive layer or having photo-refractive properties (G02F1/05 takes precedence)}	G02F1/03	G02F1/03		204
+G02F1/0344	10	{controlled by a high-frequency electromagnetic wave component in an electric waveguide (G02F1/0356, G02F1/05, G02F1/2255, G02F1/3134 take precedence)}	G02F1/03	G02F1/03		86
+G02F1/035	10	in an optical waveguide structure	G02F1/035	G02F1/035		1742
+G02F1/0353	11	{involving an electro-optic TE-TM mode conversion}	G02F1/035	G02F1/035		131
+G02F1/0356	11	{controlled by a high-frequency electromagnetic wave component in an electric waveguide structure}	G02F1/035	G02F1/035		510
+G02F1/05	10	with ferro-electric properties (G02F1/035, G02F1/055 take precedence)	G02F1/05	G02F1/05		164
+G02F1/0508	11	{specially adapted for gating or modulating in optical waveguides}	G02F1/05	G02F1/05		35
+G02F1/0516	11	{Operation of the cell; Circuit arrangements}	G02F1/05	G02F1/05		24
+G02F1/0525	11	{addressed by a beam of charged particles}	G02F1/05	G02F1/05		12
+G02F1/0533	11	{structurally associated with a photo-conductive layer}	G02F1/05	G02F1/05		21
+G02F1/0541	11	{using photorefractive effects}	G02F1/05	G02F1/05		60
+G02F1/055	10	the active material being a ceramic (G02F1/035 takes precedence)	G02F1/055	G02F1/055		179
+G02F1/0551	11	{Constructional details}	G02F1/055	G02F1/055		156
+G02F1/0553	11	{specially adapted for gating or modulating in optical waveguides}	G02F1/055	G02F1/055		41
+G02F1/0555	11	{Operation of the cell; Circuit arrangements}	G02F1/055	G02F1/055		50
+G02F1/0556	11	{specially adapted for a particular application}	G02F1/055	G02F1/055		50
+G02F1/0558	11	{structurally associated with a photoconductive layer or exhibiting photo-refractive properties}	G02F1/055	G02F1/055		29
+G02F1/061	9	based on electro-optical organic material (G02F1/07, {G02F1/13} take precedence)	G02F1/061	G02F1/061		151
+G02F1/065	10	in an optical waveguide structure	G02F1/065	G02F1/065		505
+G02F1/07	9	based on electro-optical liquids exhibiting Kerr effect	G02F1/07	G02F1/07		264
+G02F1/073	10	{specially adapted for gating or modulating in optical waveguides}	G02F1/07	G02F1/07		14
+G02F1/076	10	{Operation of the cell; Circuit arrangements}	G02F1/07	G02F1/07		9
+G02F1/09	9	based on magneto-optical elements, e.g. exhibiting Faraday effect	G02F1/09	G02F1/09		969
+G02F1/091	10	{based on magneto-absorption or magneto-reflection}	G02F1/09	G02F1/09		123
+G02F1/092	10	{Operation of the cell; Circuit arrangements}	G02F1/09	G02F1/09		103
+G02F1/093	10	{used as non-reciprocal devices, e.g. optical isolators, circulators (G02F1/0955 takes precedence)}	G02F1/09	G02F1/09		875
+G02F1/094	10	{based on magnetophoretic effect}	G02F1/09	G02F1/09		99
+G02F1/095	10	in an optical waveguide structure	G02F1/095	G02F1/095		265
+G02F1/0955	11	{used as non-reciprocal devices, e.g. optical isolators, circulators}	G02F1/095	G02F1/095		334
+G02F1/11	9	based on acousto-optical elements, e.g. using variable diffraction by sound or like mechanical waves (acousto-optical deflection G02F1/33)	G02F1/11	G02F1/11		839
+G02F1/113	10	{Circuit or control arrangements}	G02F1/11	G02F1/11		327
+G02F1/116	10	{using an optically anisotropic medium, wherein the incident and the diffracted light waves have different polarizations, e.g. acousto-optic tunable filter [AOTF] (G02F1/125 takes precedence)}	G02F1/11	G02F1/11		221
+G02F1/125	10	in an optical waveguide structure	G02F1/125	G02F1/125		419
+G02F1/13	9	based on liquid crystals, e.g. single liquid crystal display cells	G02F1/13	G02F1/13		7354
+G02F1/1303	10	{Apparatus specially adapted to the manufacture of LCDs}	G02F1/13	G02F1/13		11373
+G02F1/1306	10	{Details}	G02F1/13	G02F1/13		115
+G02F1/1309	11	{Repairing; Testing}	G02F1/13	G02F1/13		6028
+G02F1/1313	10	{specially adapted for a particular application}	G02F1/13	G02F1/13		1816
+G02F1/1316	10	{Methods for cleaning the liquid crystal cells, or components thereof, during manufacture: Materials therefor}	G02F1/13	G02F1/13		890
+G02F1/132	10	{Thermal activation of liquid crystals exhibiting a thermo-optic effect}	G02F1/13	G02F1/13		488
+G02F1/1323	10	{Arrangements for providing a switchable viewing angle}	G02F1/13	G02F1/13		1748
+G02F1/1326	10	{Liquid crystal optical waveguides or liquid crystal cells specially adapted for gating or modulating between optical waveguides}	G02F1/13	G02F1/13		397
+G02F1/133	10	Constructional arrangements; Operation of liquid crystal cells; Circuit arrangements (arrangements or circuits for control of liquid crystal elements in a matrix, not structurally associated with these elements G09G3/36)	G02F1/133	G02F1/133		7370
+G02F1/13306	11	{Circuit arrangements or driving methods for the control of single liquid crystal cells (G02F1/132, G02F1/133382 take precedence)}	G02F1/133	G02F1/133		4707
+G02F1/13312	12	{Circuits comprising photodetectors for purposes other than feedback}	G02F1/133	G02F1/133		681
+G02F1/13318	12	{Circuits comprising a photodetector}	G02F1/133	G02F1/133		1085
+G02F1/13324	12	{Circuits comprising solar cells}	G02F1/133	G02F1/133		367
+G02F1/1333	11	Constructional arrangements; {Manufacturing methods}(G02F1/135, G02F1/136 take precedence)	G02F1/1333	G02F1/1333		13099
+G02F1/133302	12	{Rigid substrates, e.g. inorganic substrates}	G02F1/1333	G02F1/1333		1487
+G02F1/133305	12	{Flexible substrates, e.g. plastics, organic film}	G02F1/1333	G02F1/1333		4447
+G02F1/133308	12	{Support structures for LCD panels, e.g. frames or bezels}	G02F1/1333	G02F1/1333		11792
+G02F1/133311	13	{Environmental protection, e.g. against dust or humidity}	G02F1/1333	G02F1/1333		956
+G02F1/133314	13	{Back frames}	G02F1/1333	G02F1/1333		3829
+G02F1/133317	13	{Intermediate frames, e.g. between backlight housing and front frame}	G02F1/1333	G02F1/1333		2730
+G02F1/13332	13	{Front frames}	G02F1/1333	G02F1/1333		1624
+G02F1/133322	13	{Mechanical guidance or alignment of LCD panel support components}	G02F1/1333	G02F1/1333		1599
+G02F1/133325	13	{Assembling processes}	G02F1/1333	G02F1/1333		1615
+G02F1/133328	13	{Segmented frames}	G02F1/1333	G02F1/1333		728
+G02F1/133331	13	{Cover glasses}	G02F1/1333	G02F1/1333		2090
+G02F1/133334	13	{Electromagnetic shields}	G02F1/1333	G02F1/1333		826
+G02F1/133337	12	{Layers preventing ion diffusion, e.g. by ion absorption}	G02F1/1333	G02F1/1333		104
+G02F1/13334	12	{Plasma addressed liquid crystal cells [PALC]}	G02F1/1333	G02F1/1333		233
+G02F1/133342	12	{for double-sided displays}	G02F1/1333	G02F1/1333		689
+G02F1/133345	12	{Insulating layers (G02F1/1335, G02F1/1337, G02F1/135, G02F1/136 take precedence)}	G02F1/1333	G02F1/1333		3923
+G02F1/133348	12	{Charged particles addressed liquid crystal cells, e.g. controlled by an electron beam}	G02F1/1333	G02F1/1333		104
+G02F1/133351	12	{Manufacturing of individual cells out of a plurality of cells, e.g. by dicing}	G02F1/1333	G02F1/1333		1523
+G02F1/133354	12	{Arrangements for aligning or assembling substrates}	G02F1/1333	G02F1/1333		1401
+G02F1/133357	12	{Planarisation layers}	G02F1/1333	G02F1/1333		1037
+G02F1/13336	12	{Combining plural substrates to produce large-area displays, e.g. tiled displays}	G02F1/1333	G02F1/1333		1250
+G02F1/133362	12	{Optically addressed liquid crystal cells (G02F1/135 takes precedence)}	G02F1/1333	G02F1/1333		100
+G02F1/133365	12	{Cells in which the active layer comprises a liquid crystalline polymer}	G02F1/1333	G02F1/1333		325
+G02F1/133368	12	{Cells having two substrates with different characteristics, e.g. different thickness or material}	G02F1/1333	G02F1/1333		171
+G02F1/133371	12	{Cells with varying thickness of the liquid crystal layer}	G02F1/1333	G02F1/1333		913
+G02F1/133374	12	{for displaying permanent signs or marks}	G02F1/1333	G02F1/1333		353
+G02F1/133377	12	{Cells with plural compartments or having plurality of liquid crystal microcells partitioned by walls, e.g. one microcell per pixel}	G02F1/1333	G02F1/1333		882
+G02F1/13338	12	{Input devices, e.g. touch panels}	G02F1/1333	G02F1/1333		8461
+G02F1/133382	12	{Heating or cooling of liquid crystal cells other than for activation, e.g. circuits or arrangements for temperature control, stabilisation or uniform distribution over the cell}	G02F1/1333	G02F1/1333		1344
+G02F1/133385	13	{with cooling means, e.g. fans}	G02F1/1333	G02F1/1333		1137
+G02F1/133388	12	{with constructional differences between the display region and the peripheral region}	G02F1/1333	G02F1/1333		1558
+G02F1/133391	12	{Constructional arrangement for sub-divided displays}	G02F1/1333	G02F1/1333		146
+G02F1/133394	12	{Piezoelectric elements associated with the cells}	G02F1/1333	G02F1/1333		118
+G02F1/133397	12	{for suppressing after-image or image-sticking}	G02F1/1333	G02F1/1333		281
+G02F1/1334	12	based on polymer dispersed liquid crystals, e.g. microencapsulated liquid crystals	G02F1/1334	G02F1/1334		3789
+G02F1/13342	13	{Holographic polymer dispersed liquid crystals}	G02F1/1334	G02F1/1334		213
+G02F1/13345	13	{Network or three-dimensional gels}	G02F1/1334	G02F1/1334		415
+G02F1/13347	13	{working in reverse mode, i.e. clear in the off-state and scattering in the on-state}	G02F1/1334	G02F1/1334		148
+G02F1/1335	12	Structural association of cells with optical devices, e.g. polarisers or reflectors	G02F1/1335	G02F1/1335		13274
+G02F1/133502	13	{Antiglare, refractive index matching layers}	G02F1/1335	G02F1/1335		1627
+G02F1/133504	13	{Diffusing, scattering, diffracting elements (associated to illuminating devices G02F1/133606)}	G02F1/1335	G02F1/1335		3292
+G02F1/133507	14	{Films for enhancing the luminance}	G02F1/1335	G02F1/1335		669
+G02F1/133509	13	{Filters, e.g. light shielding masks}	G02F1/1335	G02F1/1335		1347
+G02F1/133512	14	{Light shielding layers, e.g. black matrix (G02F1/136209 takes precedence)}	G02F1/1335	G02F1/1335		9895
+G02F1/133514	14	{Colour filters}	G02F1/1335	G02F1/1335		11305
+G02F1/133516	15	{Methods for their manufacture, e.g. printing, electro-deposition or photolithography}	G02F1/1335	G02F1/1335		2992
+G02F1/133519	15	{Overcoatings}	G02F1/1335	G02F1/1335		772
+G02F1/133521	15	{Interference filters}	G02F1/1335	G02F1/1335		223
+G02F1/133524	13	{Light-guides, e.g. fibre-optic bundles, louvered or jalousie light-guides}	G02F1/1335	G02F1/1335		3594
+G02F1/133526	13	{Lenses, e.g. microlenses or Fresnel lenses}	G02F1/1335	G02F1/1335		2482
+G02F1/133528	13	{Polarisers}	G02F1/1335	G02F1/1335		11142
+G02F1/133531	14	{characterised by the arrangement of polariser or analyser axes}	G02F1/1335	G02F1/1335		1423
+G02F1/133533	14	{Colour selective polarisers (G02F1/1347 takes precedence)}	G02F1/1335	G02F1/1335		356
+G02F1/133536	14	{Reflective polarizers (G02F1/13362 takes precedence)}	G02F1/1335	G02F1/1335		1600
+G02F1/133538	14	{with spatial distribution of the polarisation direction}	G02F1/1335	G02F1/1335		246
+G02F1/133541	14	{Circular polarisers}	G02F1/1335	G02F1/1335		589
+G02F1/133543	14	{Cholesteric polarisers}	G02F1/1335	G02F1/1335		386
+G02F1/133545	14	{Dielectric stack polarisers}	G02F1/1335	G02F1/1335		176
+G02F1/133548	14	{Wire-grid polarisers}	G02F1/1335	G02F1/1335		832
+G02F1/13355	14	{Polarising beam splitters [PBS]}	G02F1/1335	G02F1/1335		222
+G02F1/133553	13	{Reflecting elements (associated to illuminating devices G02F1/133605)}	G02F1/1335	G02F1/1335		4499
+G02F1/133555	14	{Transflectors}	G02F1/1335	G02F1/1335		2680
+G02F1/133557	15	{Half-mirrors}	G02F1/1335	G02F1/1335		144
+G02F1/13356	13	{characterised by the placement of the optical elements}	G02F1/1335	G02F1/1335		198
+G02F1/133562	14	{on the viewer side}	G02F1/1335	G02F1/1335		765
+G02F1/133565	14	{inside the LC elements, i.e. between the cell substrates}	G02F1/1335	G02F1/1335		646
+G02F1/133567	14	{on the back side}	G02F1/1335	G02F1/1335		410
+G02F1/1336	13	{Illuminating devices}	G02F1/13357	G02F1/133		6151
+G02F1/133601	14	{for spatial active dimming}	G02F1/1335	G02F1/133		663
+G02F1/133602	14	{Direct backlight}	G02F1/13357	G02F1/133		1783
+G02F1/133603	15	{with LEDs}	G02F1/13357	G02F1/133		9273
+G02F1/133604	15	{with lamps}	G02F1/13357	G02F1/133		3899
+G02F1/133605	15	{including specially adapted reflectors}	G02F1/13357	G02F1/133		4232
+G02F1/133606	15	{including a specially adapted diffusing, scattering or light controlling members}	G02F1/13357	G02F1/133		7173
+G02F1/133607	16	{the light controlling member including light directing or refracting elements, e.g. prisms or lenses}	G02F1/1335	G02F1/133		4428
+G02F1/133608	15	{including particular frames or supporting means}	G02F1/13357	G02F1/133		5573
+G02F1/133609	15	{including means for improving the color mixing, e.g. white}	G02F1/13357	G02F1/133		853
+G02F1/133611	15	{including means for improving the brightness uniformity}	G02F1/13357	G02F1/133		3234
+G02F1/133612	15	{Electrical details}	G02F1/1335	G02F1/133		1992
+G02F1/133613	15	{characterized by the sequence of light sources}	G02F1/1335	G02F1/133		432
+G02F1/133614	14	{using photoluminescence, e.g. phosphors illuminated by UV or blue light}	G02F1/1335	G02F1/133		2985
+G02F1/133615	14	{Edge-illuminating devices, i.e. illuminating from the side}	G02F1/13357	G02F1/133		9689
+G02F1/133616	14	{Front illuminating devices}	G02F1/1335	G02F1/133		775
+G02F1/133617	14	{Illumination with ultraviolet light; Luminescent elements or materials associated to the cell}	G02F1/13357	G02F1/133		1462
+G02F1/133618	14	{for ambient light}	G02F1/1335	G02F1/133		317
+G02F1/13362	14	{providing polarized light, e.g. by converting a polarisation component into another one}	G02F1/13357	G02F1/133		1362
+G02F1/133621	14	{providing coloured light (G02F1/133617, G02F1/133533 take precedence)}	G02F1/13357	G02F1/133		1700
+G02F1/133622	15	{Colour sequential illumination}	G02F1/1335	G02F1/133		473
+G02F1/133623	15	{Inclined coloured light beams}	G02F1/1335	G02F1/133		82
+G02F1/133624	14	{characterised by their spectral emissions}	G02F1/1335	G02F1/133		290
+G02F1/133625	14	{Electron stream lamps}	G02F1/1335	G02F1/133		68
+G02F1/133626	14	{providing two modes of illumination, e.g. day-night}	G02F1/1335	G02F1/133		577
+G02F1/133627	15	{Projection-direct viewing}	G02F1/1335	G02F1/133		71
+G02F1/133628	14	{with cooling means}	G02F1/1335	G02F1/133		1655
+G02F1/13363	13	Birefringent elements, e.g. for optical compensation	G02F1/13363	G02F1/13363		4905
+G02F1/133631	14	{with a spatial distribution of the retardation value}	G02F1/13363	G02F1/13363		530
+G02F1/133632	14	{with refractive index ellipsoid inclined relative to the LC-layer surface}	G02F1/13363	G02F1/13363		309
+G02F1/133633	14	{using mesogenic materials}	G02F1/13363	G02F1/13363		432
+G02F1/133634	14	{the refractive index Nz perpendicular to the element surface being different from in-plane refractive indices Nx and Ny, e.g. biaxial or with normal optical axis}	G02F1/13363	G02F1/13363		1291
+G02F1/133635	14	{Multifunctional compensators}	G02F1/13363	G02F1/13363		213
+G02F1/133636	14	{with twisted orientation, e.g. comprising helically oriented LC-molecules or a plurality of twisted birefringent sublayers}	G02F1/13363	G02F1/13363		221
+G02F1/133637	14	{characterised by the wavelength dispersion}	G02F1/13363	G02F1/13363		303
+G02F1/133638	14	{Waveplates, i.e. plates with a retardation value of lambda/n}	G02F1/13363	G02F1/13363		1648
+G02F1/1337	12	Surface-induced orientation of the liquid crystal molecules, e.g. by alignment layers	G02F1/1337	G02F1/1337		6464
+G02F1/133703	13	{by introducing organic surfactant additives into the liquid crystal material}	G02F1/1337	G02F1/1337		214
+G02F1/133707	13	{Structures for producing distorted electric fields, e.g. bumps, protrusions, recesses, slits in pixel electrodes}	G02F1/1337	G02F1/1337		3398
+G02F1/133711	13	{by organic films, e.g. polymeric films}	G02F1/1337	G02F1/1337		2373
+G02F1/133715	14	{by first depositing a monomer}	G02F1/1337	G02F1/1337		196
+G02F1/133719	14	{with coupling agent molecules, e.g. silane}	G02F1/1337	G02F1/1337		301
+G02F1/133723	14	{Polyimide, polyamide-imide}	G02F1/1337	G02F1/1337		2199
+G02F1/133726	14	{made of a mesogenic material}	G02F1/1337	G02F1/1337		306
+G02F1/13373	13	{Disclination line; Reverse tilt}	G02F1/1337	G02F1/1337		140
+G02F1/133734	13	{by obliquely evaporated films, e.g. Si or SiO2 films}	G02F1/1337	G02F1/1337		247
+G02F1/133738	13	{for homogeneous alignment}	G02F1/1337	G02F1/1337		458
+G02F1/133742	13	{for homeotropic alignment}	G02F1/1337	G02F1/1337		1116
+G02F1/133746	13	{for high pretilt angles, i.e. higher than 15 degrees}	G02F1/1337	G02F1/1337		200
+G02F1/133749	13	{for low pretilt angles, i.e. lower than 15 degrees}	G02F1/1337	G02F1/1337		182
+G02F1/133753	13	{with different alignment orientations or pretilt angles on a same surface, e.g. for grey scale or improved viewing angle}	G02F1/1337	G02F1/1337		1687
+G02F1/133757	14	{with different alignment orientations}	G02F1/1337	G02F1/1337		729
+G02F1/133761	14	{with different pretilt angles}	G02F1/1337	G02F1/1337		374
+G02F1/133765	13	{without a surface treatment}	G02F1/1337	G02F1/1337		192
+G02F1/133769	13	{comprising an active, e.g. switchable, alignment layer}	G02F1/1337	G02F1/1337		81
+G02F1/133773	13	{the alignment material or treatment being different for the two opposite substrates}	G02F1/1337	G02F1/1337		209
+G02F1/133776	13	{having structures locally influencing the alignment, e.g. unevenness}	G02F1/1337	G02F1/1337		358
+G02F1/13378	13	{by treatment of the surface, e.g. embossing, rubbing or light irradiation (G02F1/133711, G02F1/133734, G02F1/133753 take precedence)}	G02F1/1337	G02F1/1337		676
+G02F1/133784	14	{by rubbing}	G02F1/1337	G02F1/1337		1461
+G02F1/133788	14	{by light irradiation, e.g. linearly polarised light photo-polymerisation}	G02F1/1337	G02F1/1337		2645
+G02F1/133792	14	{by etching}	G02F1/1337	G02F1/1337		79
+G02F1/133796	13	{having conducting property}	G02F1/1337	G02F1/1337		98
+G02F1/1339	12	Gaskets; Spacers; Sealing of cells	G02F1/1339	G02F1/1339		8281
+G02F1/13392	13	{spacers dispersed on the cell substrate, e.g. spherical particles, microfibres}	G02F1/1339	G02F1/1339		1054
+G02F1/13394	13	{spacers regularly patterned on the cell subtrate, e.g. walls, pillars (G02F1/133377 takes precedence)}	G02F1/1339	G02F1/1339		5041
+G02F1/13396	13	{Spacers having different sizes}	G02F1/1339	G02F1/1339		1082
+G02F1/13398	13	{Spacer materials; Spacer properties}	G02F1/1339	G02F1/1339		1310
+G02F1/1341	12	Filling or closing of cells	G02F1/1341	G02F1/1341		3385
+G02F1/13415	13	{Drop filling process}	G02F1/1341	G02F1/1341		793
+G02F1/1343	12	Electrodes {(reflective electrodes G02F1/133553)}	G02F1/1343	G02F1/1343		6304
+G02F1/134309	13	{characterised by their geometrical arrangement}	G02F1/1343	G02F1/1343		9227
+G02F1/134318	14	{having a patterned common electrode}	G02F1/1343	G02F1/1343		1531
+G02F1/134327	14	{Segmented, e.g. alpha numeric display}	G02F1/1343	G02F1/1343		389
+G02F1/134336	14	{Matrix}	G02F1/1343	G02F1/1343		2401
+G02F1/134345	14	{Subdivided pixels, e.g. for grey scale or redundancy}	G02F1/1343	G02F1/1343		2488
+G02F1/134354	15	{the sub-pixels being capacitively coupled}	G02F1/1343	G02F1/1343		204
+G02F1/134363	14	{for applying an electric field parallel to the substrate, i.e. in-plane switching [IPS]}	G02F1/1343	G02F1/1343		5470
+G02F1/134372	14	{for fringe field switching [FFS] where the common electrode is not patterned}	G02F1/1343	G02F1/1343		2278
+G02F1/134381	14	{Hybrid switching mode, i.e. for applying an electric field with components parallel and orthogonal to the substrates}	G02F1/1343	G02F1/1343		621
+G02F1/13439	13	{characterised by their electrical, optical, physical properties; materials therefor; method of making}	G02F1/1343	G02F1/1343		5164
+G02F1/1345	12	Conductors connecting electrodes to cell terminals	G02F1/1345	G02F1/1345		4859
+G02F1/13452	13	{Conductors connecting driver circuitry and terminals of panels}	G02F1/1345	G02F1/1345		6627
+G02F1/13454	13	{Drivers integrated on the active matrix substrate (G02F1/136277 takes precedence)}	G02F1/1345	G02F1/1345		2226
+G02F1/13456	13	{Cell terminals located on one side of the display only}	G02F1/1345	G02F1/1345		463
+G02F1/13458	13	{Terminal pads}	G02F1/1345	G02F1/1345		2947
+G02F1/1347	12	Arrangement of liquid crystal layers or cells in which the final condition of one light beam is achieved by the addition of the effects of two or more layers or cells	G02F1/1347	G02F1/1347		2206
+G02F1/13471	13	{in which all the liquid crystal cells or layers remain transparent, e.g. FLC, ECB, DAP, HAN, TN, STN, SBE-LC cells (G02F1/13475 takes precedence)}	G02F1/1347	G02F1/1347		1381
+G02F1/13473	14	{for wavelength filtering or for colour display without the use of colour mosaic filters}	G02F1/1347	G02F1/1347		311
+G02F1/13475	13	{in which at least one liquid crystal cell or layer is doped with a pleochroic dye, e.g. GH-LC cell (G02F1/13476 takes precedence)}	G02F1/1347	G02F1/1347		365
+G02F1/13476	13	{in which at least one liquid crystal cell or layer assumes a scattering state}	G02F1/1347	G02F1/1347		366
+G02F1/13478	13	{based on selective reflection}	G02F1/1347	G02F1/1347		182
+G02F1/135	11	Liquid crystal cells structurally associated with a photoconducting or a ferro-electric layer, the properties of which can be optically or electrically varied {(G02F1/133348 takes precedence)}	G02F1/135	G02F1/135		632
+G02F1/1351	12	{Light-absorbing or blocking layers}	G02F1/135	G02F1/135		140
+G02F1/1352	12	{Light-reflecting layers}	G02F1/135	G02F1/135		47
+G02F1/1354	12	{having a particular photoconducting structure or material}	G02F1/135	G02F1/135		207
+G02F1/1355	13	{Materials or manufacture processes thereof}	G02F1/135	G02F1/135		25
+G02F1/1357	12	{Electrode structure}	G02F1/135	G02F1/135		59
+G02F1/1358	12	{the supplementary layer being a ferro-electric layer}	G02F1/135	G02F1/135		40
+G02F1/136	11	Liquid crystal cells structurally associated with a semi-conducting layer or substrate, e.g. cells forming part of an integrated circuit (G02F1/135 takes precedence)	G02F1/136	G02F1/136		3447
+G02F1/13606	12	{having means for reducing parasitic capacitance}	G02F1/136	G02F1/136		633
+G02F1/13613	12	{the semiconductor element being formed on a first substrate and thereafter transferred to the final cell substrate}	G02F1/136	G02F1/136		165
+G02F1/1362	12	Active matrix addressed cells {(G02F1/134336, G02F1/134363 take precedence)}	G02F1/1362	G02F1/1362		5739
+G02F1/136204	13	{Arrangements to prevent high voltage or static electricity failures}	G02F1/1362	G02F1/1362		1804
+G02F1/136209	13	{Light shielding layers, e.g. black matrix, incorporated in the active matrix substrate, e.g. structurally associated with the switching element}	G02F1/1362	G02F1/1362		3772
+G02F1/136213	13	{Storage capacitors associated with the pixel electrode}	G02F1/1362	G02F1/1362		3712
+G02F1/136218	13	{Shield electrodes}	G02F1/1362	G02F1/1362		779
+G02F1/136222	13	{Colour filters incorporated in the active matrix substrate}	G02F1/1362	G02F1/1362		2325
+G02F1/136227	13	{Through-hole connection of the pixel electrode to the active element through an insulation layer}	G02F1/1362	G02F1/1362		5281
+G02F1/136231	13	{for reducing the number of lithographic steps}	G02F1/1362	G02F1/1362		658
+G02F1/136236	14	{using a grey or half tone lithographic process}	G02F1/1362	G02F1/1362		534
+G02F1/13624	13	{having more than one switching element per pixel}	G02F1/1362	G02F1/1362		1737
+G02F1/136245	14	{having complementary transistors}	G02F1/1362	G02F1/1362		129
+G02F1/13625	13	{Patterning using multi-mask exposure}	G02F1/1362	G02F1/1362		436
+G02F1/136254	13	{Checking; Testing}	G02F1/1362	G02F1/1362		1021
+G02F1/136259	13	{Repairing; Defects}	G02F1/1362	G02F1/1362		1578
+G02F1/136263	14	{Line defects}	G02F1/1362	G02F1/1362		744
+G02F1/136268	14	{Switch defects}	G02F1/1362	G02F1/1362		183
+G02F1/136272	14	{Auxiliary lines}	G02F1/1362	G02F1/1362		387
+G02F1/136277	13	{formed on a semiconductor substrate, e.g. of silicon}	G02F1/1362	G02F1/1362		1231
+G02F1/136281	14	{having a transmissive semiconductor substrate}	G02F1/1362	G02F1/1362		99
+G02F1/136286	13	{Wiring, e.g. gate line, drain line}	G02F1/1362	G02F1/1362		15484
+G02F1/13629	14	{Multilayer wirings}	G02F1/1362	G02F1/1362		1137
+G02F1/136295	14	{Materials; Compositions; Manufacture processes}	G02F1/1362	G02F1/1362		1839
+G02F1/1365	13	in which the switching element is a two-electrode device {(G02F1/136277 takes precedence)}	G02F1/1365	G02F1/1365		485
+G02F1/1368	13	in which the switching element is a three-electrode device {(G02F1/136277 takes precedence)}	G02F1/1368	G02F1/1368		12294
+G02F1/13685	14	{Top gates}	G02F1/1368	G02F1/1368		583
+G02F1/137	10	characterised by the electro-optical or magneto-optical effect, e.g. field-induced phase transition, orientation effect, guest-host interaction or dynamic scattering	G02F1/137	G02F1/137		2067
+G02F1/13706	11	{the liquid crystal having positive dielectric anisotropy}	G02F1/137	G02F1/137		324
+G02F1/13712	11	{the liquid crystal having negative dielectric anisotropy}	G02F1/137	G02F1/137		630
+G02F1/13718	11	{based on a change of the texture state of a cholesteric liquid crystal}	G02F1/137	G02F1/137		1520
+G02F1/13725	11	{based on guest-host interaction (G02F1/13762, G02F1/13737, take precedence)}	G02F1/137	G02F1/137		849
+G02F1/13731	11	{based on a field-induced phase transition (G02F1/13781 takes precedence)}	G02F1/137	G02F1/137		85
+G02F1/13737	12	{in liquid crystals doped with a pleochroic dye}	G02F1/137	G02F1/137		240
+G02F1/13743	11	{based on electrohydrodynamic instabilities or domain formation in liquid crystals}	G02F1/137	G02F1/137		27
+G02F1/1375	12	{using dynamic scattering}	G02F1/137	G02F1/137		72
+G02F1/13756	11	{the liquid crystal selectively assuming a light-scattering state (G02F1/1334,&#160;G02F1/13718&#160;take precedence)}	G02F1/137	G02F1/137		240
+G02F1/13762	11	{containing luminescent or electroluminescent additives}	G02F1/137	G02F1/137		72
+G02F1/13768	11	{based on magneto-optical effects}	G02F1/137	G02F1/137		31
+G02F1/13775	11	{Polymer-stabilized liquid crystal layers}	G02F1/137	G02F1/137		561
+G02F1/13781	11	{using smectic liquid crystals (G02F1/141 takes precedence)}	G02F1/137	G02F1/137		130
+G02F1/13787	11	{Hybrid-alignment cells (G02F1/1393&#160;takes precedence)}	G02F1/137	G02F1/137		48
+G02F1/13793	11	{Blue phases}	G02F1/137	G02F1/137		299
+G02F1/139	11	based on orientation effects in which the liquid crystal remains transparent	G02F1/139	G02F1/139		481
+G02F1/1391	12	{Bistable or multi-stable liquid crystal cells (G02F1/141 takes precedence)}	G02F1/139	G02F1/139		343
+G02F1/1392	12	{using a field-induced sign-reversal of the dielectric anisotropy}	G02F1/139	G02F1/139		92
+G02F1/1393	12	{the birefringence of the liquid crystal being electrically controlled, e.g. ECB-, DAP-, HAN-, PI-LC cells (G02F1/1396, G02F1/141 take precedence)}	G02F1/139	G02F1/139		1759
+G02F1/1395	13	{Optically compensated birefringence [OCB]- cells or PI- cells}	G02F1/139	G02F1/139		422
+G02F1/1396	12	{the liquid crystal being selectively controlled between a twisted state and a non-twisted state, e.g. TN-LC cell (G02F1/141 takes precedence)}	G02F1/139	G02F1/139		1025
+G02F1/1397	13	{the twist being substantially higher than 90&#176;, e.g. STN-, SBE-, OMI-LC cells}	G02F1/139	G02F1/139		362
+G02F1/1398	13	{the twist being below 90&#176;}	G02F1/139	G02F1/139		85
+G02F1/141	12	using ferroelectric liquid crystals	G02F1/141	G02F1/141		995
+G02F1/1412	13	{Antiferroelectric liquid crystals}	G02F1/141	G02F1/141		58
+G02F1/1414	13	{Deformed helix ferroelectric [DHL]}	G02F1/141	G02F1/141		21
+G02F1/1416	13	{Details of the smectic layer structure, e.g. bookshelf, chevron, C1 and C2}	G02F1/141	G02F1/141		94
+G02F1/1418	13	{using smectic liquid crystals, e.g. based on the electroclinic effect}	G02F1/141	G02F1/141		47
+G02F1/15	9	based on an electrochromic effect	G02F1/15	G02F1/15		1267
+G02F2001/1502	10	{complementary cell}	G02F1/15	G02F1/15		182
+G02F2001/15025	11	{having an inorganic electrochromic layer and a second solid organic electrochromic layer}	G02F1/15	G02F1/15		27
+G02F1/1503	10	caused by oxidation-reduction reactions in organic liquid solutions, e.g. viologen solutions	G02F1/1503	G02F1/1503		498
+G02F1/1506	10	caused by electrodeposition, e.g. electrolytic deposition of an inorganic material on or close to an electrode	G02F1/1506	G02F1/1506		420
+G02F1/1508	11	{using a solid electrolyte}	G02F1/1506	G02F1/15		254
+G02F1/1514	10	characterised by the electrochromic material, e.g. by the electrodeposited material	G02F1/1514	G02F1/1514		319
+G02F2001/15145	11	{the electrochromic layer comprises a mixture of anodic and cathodic compounds}	G02F1/1514	G02F1/1514		219
+G02F1/1516	11	comprising organic material	G02F1/1516	G02F1/1516		490
+G02F1/15165	12	{Polymers}	G02F1/1516	G02F1/1516		863
+G02F2001/1517	12	{Cyano complex compounds, e.g. Prussian blue}	G02F1/1516	G02F1/15		106
+G02F2001/1518	12	{Ferrocene compounds}	G02F1/1516	G02F1/15		59
+G02F1/1523	11	comprising inorganic material	G02F1/1523	G02F1/1523		566
+G02F1/1524	12	Transition metal compounds	G02F1/1524	G02F1/1524		939
+G02F1/15245	13	{based on iridium oxide or hydroxide}	G02F1/1524	G02F1/1524		109
+G02F1/1525	12	{characterised by a particular ion transporting layer, e.g. electrolyte}	G02F1/1523	G02F1/15		873
+G02F1/153	10	Constructional details	G02F1/153	G02F1/153		1889
+G02F1/1533	11	{structural features not otherwise provided for}	G02F1/153	G02F1/153		1458
+G02F2001/1536	12	{additional, e.g. protective, layer inside the cell}	G02F1/153	G02F1/153		392
+G02F1/155	11	Electrodes	G02F1/155	G02F1/155		2465
+G02F2001/1552	12	{Inner electrode, e.g. the electrochromic layer being sandwiched between the inner electrode and the support substrate}	G02F1/155	G02F1/155		135
+G02F2001/1555	12	{Counter electrode}	G02F1/155	G02F1/155		224
+G02F2001/1557	12	{Side by side arrangements of working and counter electrodes}	G02F1/155	G02F1/155		91
+G02F1/157	11	Structural association of cells with optical devices, e.g. reflectors or illuminating devices	G02F1/157	G02F1/157		1017
+G02F1/161	11	Gaskets; Spacers; Sealing of cells; Filling or closing of cells	G02F1/161	G02F1/161		657
+G02F1/163	10	Operation of electrochromic cells, e.g. electrodeposition cells; Circuit arrangements therefor	G02F1/163	G02F1/163		2163
+G02F2001/1635	11	{the pixel comprises active switching elements, e.g. TFT}	G02F1/163	G02F1/163		173
+G02F2001/164	10	{the electrolyte is made of polymers}	G02F1/15	G02F2001/164		316
+G02F1/165	9	based on translational movement of particles in a fluid under the influence of an applied field	G02F1/165	G02F1/165		45
+G02F1/166	10	characterised by the electro-optical or magneto-optical effect	G02F1/166	G02F1/166		63
+G02F1/167	11	by electrophoresis	G02F1/167	G02F1/167		5161
+G02F1/1671	11	involving dry toners	G02F1/1671	G02F1/1671		90
+G02F1/1673	11	by magnetophoresis	G02F1/1673	G02F1/1673		52
+G02F1/1675	10	Constructional details	G02F1/1675	G02F1/1675		656
+G02F1/16753	11	Structures for supporting or mounting cells, e.g. frames or bezels	G02F1/16753	G02F1/16753		172
+G02F1/16755	11	Substrates	G02F1/16755	G02F1/16755		370
+G02F1/16756	11	Insulating layers	G02F1/16756	G02F1/16756		244
+G02F1/16757	11	Microcapsules	G02F1/16757	G02F1/16757		661
+G02F1/1676	11	Electrodes	G02F1/1676	G02F1/1676		1067
+G02F1/16761	12	Side-by-side arrangement of working electrodes and counter-electrodes	G02F1/16761	G02F1/16761		94
+G02F1/16762	12	having three or more electrodes per pixel	G02F1/16762	G02F1/16762		134
+G02F1/16766	12	for active matrices	G02F1/16766	G02F1/16766		289
+G02F1/1677	11	Structural association of cells with optical devices, e.g. reflectors or illuminating devices	G02F1/1677	G02F1/1677		911
+G02F2001/1678	11	{characterised by the composition or particle type}	G02F1/1675	G02F1/167		1368
+G02F1/1679	11	Gaskets; Spacers; Sealing of cells; Filling or closing of cells	G02F1/1679	G02F1/1679		576
+G02F1/1681	12	having two or more microcells partitioned by walls, e.g. of microcup type	G02F1/1681	G02F1/1681		771
+G02F1/1685	10	Operation of cells; Circuit arrangements affecting the entire cell	G02F1/1685	G02F1/1685		1004
+G02F1/169	9	based on orientable non-spherical particles having a common optical characteristic, e.g. suspended particles of reflective metal flakes	G02F1/169	G02F1/169		72
+G02F1/17	9	based on variable-absorption elements not provided for in groups G02F1/015 - G02F1/169	G02F1/17	G02F1/17		258
+G02F1/172	10	{based on a suspension of orientable dipolar particles, e.g. suspended particles displays}	G02F1/17	G02F1/17		491
+G02F1/174	10	{based on absorption band-shift, e.g. Stark - or Franz-Keldysh effect (G02F1/015, G02F1/178 take precedence)}	G02F1/17	G02F1/17		72
+G02F1/176	10	{using acid- based indicators}	G02F1/17	G02F1/17		15
+G02F1/178	10	{based on pressure effects (G02F1/195 takes precedence)}	G02F1/17	G02F1/17		21
+G02F1/19	9	based on variable-reflection or variable-refraction elements not provided for in groups G02F1/015 - G02F1/169	G02F1/19	G02F1/19		359
+G02F1/195	10	{by using frustrated reflection (digital reflection using controlled total internal reflection G02F1/315)}	G02F1/19	G02F1/19		166
+G02F1/21	9	by interference	G02F1/21	G02F1/21		739
+G02F1/211	10	{Sagnac type}	G02F1/21	G02F1/21		55
+G02F1/212	10	{Mach-Zehnder type}	G02F1/21	G02F1/21		1871
+G02F1/213	10	{Fabry-Perot type}	G02F1/21	G02F1/21		311
+G02F1/215	10	{Michelson type}	G02F1/21	G02F1/21		47
+G02F1/216	10	{using liquid crystals, e.g. liquid crystal Fabry-Perot filters}	G02F1/21	G02F1/21		139
+G02F1/217	10	{Multimode interference type}	G02F1/21	G02F1/21		156
+G02F1/218	10	{using semi-conducting materials}	G02F1/21	G02F1/21		157
+G02F1/225	10	in an optical waveguide structure	G02F1/225	G02F1/225		1634
+G02F1/2252	11	{in optical fibres}	G02F1/225	G02F1/225		121
+G02F1/2255	11	{controlled by a high-frequency electromagnetic component in an electric waveguide structure}	G02F1/225	G02F1/225		774
+G02F1/2257	11	{the optical waveguides being made of semiconducting material}	G02F1/225	G02F1/225		795
+G02F1/23	9	for the control of the colour (G02F1/03&#160;-&#160;G02F1/21 take precedence)	G02F1/23	G02F1/23		233
+G02F1/25	10	as to hue or predominant wavelength	G02F1/25	G02F1/25		103
+G02F1/29	8	for the control of the position or the direction of light beams, i.e. deflection	G02F1/29	G02F1/29		2533
+G02F1/291	9	{Two-dimensional analogue deflection}	G02F1/29	G02F1/29		227
+G02F1/292	9	{by controlled diffraction or phased-array beam steering (controlled diffraction for optical switching G02F1/31)}	G02F1/29	G02F1/29		1116
+G02F1/293	9	{by another light beam, i.e. opto-optical deflection}	G02F1/29	G02F1/29		174
+G02F1/294	9	{Variable focal length devices}	G02F1/29	G02F1/29		1064
+G02F1/295	9	{Analog deflection from or} in an optical waveguide structure]	G02F1/295	G02F1/295		329
+G02F1/2955	10	{by controlled diffraction or phased-array beam steering (controlled diffraction for optical waveguide switching G02F1/313)}	G02F1/295	G02F1/295		388
+G02F1/31	9	Digital deflection, {i.e. optical switching}(G02F1/33 takes precedence)	G02F1/31	G02F1/31		807
+G02F1/311	10	{Cascade arrangement of plural switches}	G02F1/31	G02F1/31		75
+G02F1/313	10	in an optical waveguide structure	G02F1/313	G02F1/313		397
+G02F1/3131	11	{in optical fibres}	G02F1/313	G02F1/313		100
+G02F1/3132	11	{of directional coupler type}	G02F1/313	G02F1/313		629
+G02F1/3133	12	{the optical waveguides being made of semiconducting materials}	G02F1/313	G02F1/313		249
+G02F1/3134	12	{controlled by a high-frequency electromagnetic wave component in an electric waveguide structure}	G02F1/313	G02F1/313		49
+G02F1/3135	12	{Vertical structure}	G02F1/313	G02F1/313		53
+G02F1/3136	11	{of interferometric switch type}	G02F1/313	G02F1/313		328
+G02F1/3137	11	{with intersecting or branching waveguides, e.g. X-switches and Y-junctions}	G02F1/313	G02F1/313		412
+G02F1/3138	12	{the optical waveguides being made of semiconducting materials}	G02F1/313	G02F1/313		158
+G02F1/315	10	based on the use of controlled internal reflection	G02F1/315	G02F1/315		261
+G02F1/33	9	Acousto-optical deflection devices {(circuit or control arrangements therefor G02F1/113)}	G02F1/33	G02F1/33		700
+G02F1/332	10	{comprising a plurality of transducers on the same crystal surface, e.g. multi-channel Bragg cell}	G02F1/33	G02F1/33		111
+G02F1/335	10	having an optical waveguide structure	G02F1/335	G02F1/335		297
+G02F1/35	8	Non-linear optics	G02F1/35	G02F1/35		515
+G02F1/3501	9	{Constructional details or arrangements of non-linear optical devices, e.g. shape of non-linear crystals}	G02F1/35	G02F1/35		624
+G02F1/3503	10	{Structural association of optical elements, e.g. lenses, with the non-linear optical device}	G02F1/35	G02F1/35		383
+G02F1/3505	10	{Coatings; Housings; Supports}	G02F1/35	G02F1/35		204
+G02F1/3507	10	{Arrangements comprising two or more nonlinear optical devices}	G02F1/35	G02F1/35		254
+G02F1/3509	10	{Shape, e.g. shape of end face}	G02F1/35	G02F1/35		94
+G02F1/3511	9	{Self-focusing or self-trapping of light; Light-induced birefringence; Induced optical Kerr-effect}	G02F1/35	G02F1/35		265
+G02F1/3513	10	{Soliton propagation}	G02F1/35	G02F1/35		119
+G02F1/3515	9	{All-optical modulation, gating, switching, e.g. control of a light beam by another light beam (G02F1/353, G02F1/37, G02F1/39 take precedence)}	G02F1/35	G02F1/35		384
+G02F1/3517	10	{using an interferometer}	G02F1/35	G02F1/35		190
+G02F1/3519	11	{of Sagnac type, i.e. nonlinear optical loop mirror [NOLM]}	G02F1/35	G02F1/35		139
+G02F1/3521	10	{using a directional coupler}	G02F1/35	G02F1/35		61
+G02F1/3523	9	{Non-linear absorption changing by light, e.g. bleaching}	G02F1/35	G02F1/35		285
+G02F1/3525	9	{Optical damage}	G02F1/35	G02F1/35		78
+G02F1/3526	9	{using two-photon emission or absorption processes}	G02F1/35	G02F1/35		199
+G02F1/3528	9	{for producing a supercontinuum}	G02F1/35	G02F1/35		315
+G02F1/353	9	{Frequency conversion, i.e. wherein a light beam is generated with frequency components different from those of the incident light beams}	G02F1/35	G02F1/35		1182
+G02F1/3532	10	{Arrangements of plural nonlinear devices for generating multi-colour light beams, e.g. arrangements of SHG, SFG, OPO devices for generating RGB light beams}	G02F1/35	G02F1/35		191
+G02F1/3534	10	{Three-wave interaction, e.g. sum-difference frequency generation (G02F1/3532 takes precedence)}	G02F1/35	G02F1/35		598
+G02F1/3536	10	{Four-wave interaction}	G02F1/35	G02F1/35		426
+G02F1/3538	11	{for optical phase conjugation (controlling the intensity, frequency, phase, polarisation or direction of the emitted radiation using optical phase conjugation H01S3/10076)}	G02F1/35	G02F1/35		144
+G02F1/354	10	{Third or higher harmonic generation}	G02F1/35	G02F1/35		333
+G02F1/3542	10	{Multipass arrangements, i.e. arrangements to make light pass multiple times through the same element, e.g. using an enhancement cavity}	G02F1/35	G02F1/35		216
+G02F1/3544	10	{Particular phase matching techniques}	G02F1/35	G02F1/35		354
+G02F1/3546	11	{Active phase matching, e.g. by electro- or thermo-optic tuning}	G02F1/35	G02F1/35		179
+G02F1/3548	11	{Quasi phase matching [QPM], e.g. using a periodic domain inverted structure}	G02F1/35	G02F1/35		403
+G02F1/355	9	characterised by the materials used	G02F1/355	G02F1/355		289
+G02F1/3551	10	{Crystals}	G02F1/355	G02F1/355		1270
+G02F1/3553	11	{having the formula MTiOYO4, where M=K, Rb, TI, NH4 or Cs and Y=P or As, e.g. KTP}	G02F1/355	G02F1/355		90
+G02F1/3555	10	{Glasses}	G02F1/355	G02F1/355		87
+G02F1/3556	10	{Semiconductor materials, e.g. quantum wells}	G02F1/355	G02F1/355		204
+G02F1/3558	10	{Poled materials, e.g. with periodic poling; Fabrication of domain inverted structures, e.g. for quasi-phase-matching [QPM]}	G02F1/355	G02F1/355		598
+G02F1/361	10	Organic materials	G02F1/361	G02F1/361		396
+G02F1/3611	11	{containing Nitrogen}	G02F1/361	G02F1/361		217
+G02F1/3612	12	{Heterocycles having N as heteroatom}	G02F1/361	G02F1/361		197
+G02F1/3613	11	{containing Sulfur}	G02F1/361	G02F1/361		77
+G02F1/3614	12	{Heterocycles having S as heteroatom}	G02F1/361	G02F1/361		117
+G02F1/3615	11	{containing polymers}	G02F1/361	G02F1/361		224
+G02F1/3616	12	{having the non-linear optical group in the main chain}	G02F1/361	G02F1/361		75
+G02F1/3617	12	{having the non-linear optical group in a side chain}	G02F1/361	G02F1/361		274
+G02F1/3618	11	{Langmuir Blodgett Films}	G02F1/361	G02F1/361		66
+G02F1/3619	11	{Organometallic compounds}	G02F1/361	G02F1/361		71
+G02F1/365	9	in an optical waveguide structure (G02F1/377, {G02F1/395} take precedence)	G02F1/365	G02F1/365		987
+G02F1/37	9	for second-harmonic generation {(G02F1/3532 takes precedence)}	G02F1/37	G02F1/37		1135
+G02F1/372	10	{Means for homogenizing the output beam}	G02F1/37	G02F1/37		51
+G02F1/374	10	{Cherenkov radiation}	G02F1/37	G02F1/37		59
+G02F1/377	10	in an optical waveguide structure	G02F1/377	G02F1/377		363
+G02F1/3775	11	{with a periodic structure, e.g. domain inversion, for quasi-phase-matching [QPM] (G02F1/383 takes precedence)}	G02F1/377	G02F1/377		388
+G02F1/383	11	of the optical fibre type	G02F1/383	G02F1/383		155
+G02F1/39	9	for parametric generation or amplification of light, infrared or ultraviolet waves	G02F1/39	G02F1/39		1107
+G02F1/392	10	{Parametric amplification}	G02F1/39	G02F1/39		325
+G02F1/395	10	{in optical waveguides}	G02F1/39	G02F1/39		358
+G02F1/397	10	{Amplification of light by wave mixing involving an interference pattern, e.g. using photorefractive material}	G02F1/39	G02F1/39		41
+G02F2/00	7	Demodulating light; Transferring the modulation of modulated light; Frequency-changing of light (G02F1/35 takes precedence)	G02F2/00	G02F2/00		306
+G02F2/002	8	{using optical mixing}	G02F2/00	G02F2/00		264
+G02F2/004	8	{Transferring the modulation of modulated light, i.e. transferring the information from one optical carrier of a first wavelength to a second optical carrier of a second wavelength, e.g. all-optical wavelength converter}	G02F2/00	G02F2/00		260
+G02F2/006	9	{All-optical wavelength conversion}	G02F2/00	G02F2/00		128
+G02F2/008	9	{Opto-electronic wavelength conversion, i.e. involving photo-electric conversion of the first optical carrier}	G02F2/00	G02F2/00		25
+G02F2/02	8	Frequency-changing of light, e.g. by quantum counters	G02F2/02	G02F2/02		415
+G02F3/00	7	Optical logic elements; Optical bistable devices	G02F3/00	G02F3/00		848
+G02F3/02	8	Optical bistable devices	G02F3/02	G02F3/02		109
+G02F3/022	9	{based on electro-, magneto- or acousto-optical elements (G02F3/028 takes precedence)}	G02F3/02	G02F3/02		60
+G02F3/024	9	{based on non-linear elements, e.g. non-linear Fabry-Perot cavity (G02F3/028 takes precedence)}	G02F3/02	G02F3/02		120
+G02F3/026	9	{based on laser effects}	G02F3/02	G02F3/02		180
+G02F3/028	9	{based on self electro-optic effect devices [SEED]}	G02F3/02	G02F3/02		64
+G02F7/00	7	Optical analogue/digital converters<br><br><u>NOTE</u><br><br> This group covers only converters based in substantial manner on elements which are provided for in group G02F1/00. 	G02F7/00	G02F7/00		361
+G02F2201/00	7	Constructional arrangements not provided for in groups G02F1/00&#160;-&#160;G02F7/00	CPCONLY	G02F2201/00		9
+G02F2201/02	8	fibre	CPCONLY	G02F2201/02		222
+G02F2201/04	8	monomode	CPCONLY	G02F2201/04		19
+G02F2201/05	8	multimode	CPCONLY	G02F2201/05		53
+G02F2201/06	8	integrated waveguide	CPCONLY	G02F2201/06		149
+G02F2201/063	9	ridge; rib; strip loaded	CPCONLY	G02F2201/063		257
+G02F2201/066	9	channel; buried	CPCONLY	G02F2201/066		109
+G02F2201/07	8	buffer layer	CPCONLY	G02F2201/07		177
+G02F2201/08	8	light absorbing layer	CPCONLY	G02F2201/08		261
+G02F2201/083	9	infrared absorbing	CPCONLY	G02F2201/083		103
+G02F2201/086	9	UV absorbing	CPCONLY	G02F2201/086		306
+G02F2201/12	8	electrode	CPCONLY	G02F2201/12		634
+G02F2201/121	9	common or background	CPCONLY	G02F2201/121		2788
+G02F2201/122	9	having a particular pattern	CPCONLY	G02F2201/122		764
+G02F2201/123	9	pixel	CPCONLY	G02F2201/123		4260
+G02F2201/124	9	interdigital	CPCONLY	G02F2201/124		385
+G02F2201/125	9	delta-beta	CPCONLY	G02F2201/125		32
+G02F2201/126	9	push-pull	CPCONLY	G02F2201/126		110
+G02F2201/127	9	travelling wave	CPCONLY	G02F2201/127		169
+G02F2201/128	9	field shaping	CPCONLY	G02F2201/128		161
+G02F2201/14	8	asymmetric	CPCONLY	G02F2201/14		55
+G02F2201/15	8	periodic	CPCONLY	G02F2201/15		32
+G02F2201/16	8	series; tandem	CPCONLY	G02F2201/16		483
+G02F2201/17	8	Multi-pass arrangements, i.e. arrangements to pass light a plurality of times through the same element, e.g. by using an enhancement cavity	CPCONLY	G02F2201/17		219
+G02F2201/18	8	parallel	CPCONLY	G02F2201/18		75
+G02F2201/20	8	delay line	CPCONLY	G02F2201/20		114
+G02F2201/205	9	of fibre type	CPCONLY	G02F2201/205		23
+G02F2201/30	8	grating	CPCONLY	G02F2201/30		270
+G02F2201/302	9	grating coupler	CPCONLY	G02F2201/302		131
+G02F2201/305	9	diffraction grating	CPCONLY	G02F2201/305		386
+G02F2201/307	9	Reflective grating, i.e. Bragg grating	CPCONLY	G02F2201/307		492
+G02F2201/34	8	reflector	CPCONLY	G02F2201/34		377
+G02F2201/343	9	cholesteric liquid crystal reflector	CPCONLY	G02F2201/343		199
+G02F2201/346	9	distributed (Bragg) reflector	CPCONLY	G02F2201/346		153
+G02F2201/36	8	Airflow channels, e.g. constructional arrangements facilitating the flow of air	CPCONLY	G02F2201/36		236
+G02F2201/38	8	Anti-reflection arrangements	CPCONLY	G02F2201/38		409
+G02F2201/40	8	Arrangements for improving the aperture ratio	CPCONLY	G02F2201/40		1455
+G02F2201/42	8	Arrangements for providing conduction through an insulating substrate	CPCONLY	G02F2201/42		372
+G02F2201/44	8	Arrangements combining different electro-active layers, e.g. electrochromic, liquid crystal or electroluminescent layers	CPCONLY	G02F2201/44		929
+G02F2201/46	8	Fixing elements	CPCONLY	G02F2201/46		1705
+G02F2201/465	9	Snap -fit	CPCONLY	G02F2201/465		1162
+G02F2201/48	8	Flattening arrangements	CPCONLY	G02F2201/48		200
+G02F2201/50	8	Protective arrangements	CPCONLY	G02F2201/50		2103
+G02F2201/501	9	Blocking layers, e.g. against migration of ions	CPCONLY	G02F2201/501		290
+G02F2201/503	9	Arrangements improving the resistance to shock	CPCONLY	G02F2201/503		1302
+G02F2201/505	9	Arrangements improving the resistance to acoustic resonance like noise	CPCONLY	G02F2201/505		61
+G02F2201/506	9	Repairing, e.g. with redundant arrangement against defective part	CPCONLY	G02F2201/506		149
+G02F2201/508	10	Pseudo repairing, e.g. a defective part is brought into a condition in which it does not disturb the functioning of the device	CPCONLY	G02F2201/508		131
+G02F2201/52	8	RGB geometrical arrangements	CPCONLY	G02F2201/52		1368
+G02F2201/54	8	Arrangements for reducing warping-twist	CPCONLY	G02F2201/54		678
+G02F2201/56	8	Substrates having a particular shape, e.g. non-rectangular	CPCONLY	G02F2201/56		606
+G02F2201/58	8	Arrangements comprising a monitoring photodetector	CPCONLY	G02F2201/58		768
+G02F2202/00	7	Materials and properties	CPCONLY	G02F2202/00		98
+G02F2202/01	8	dipole	CPCONLY	G02F2202/01		15
+G02F2202/02	8	organic material	CPCONLY	G02F2202/02		307
+G02F2202/021	9	low molecular weight	CPCONLY	G02F2202/021		14
+G02F2202/022	9	polymeric	CPCONLY	G02F2202/022		685
+G02F2202/023	10	curable	CPCONLY	G02F2202/023		419
+G02F2202/025	11	thermocurable	CPCONLY	G02F2202/025		100
+G02F2202/026	9	charge transfer complex	CPCONLY	G02F2202/026		6
+G02F2202/027	9	Langmuir-Blodgett film	CPCONLY	G02F2202/027		15
+G02F2202/028	9	photobleached	CPCONLY	G02F2202/028		2
+G02F2202/04	8	dye	CPCONLY	G02F2202/04		325
+G02F2202/043	9	pleochroic	CPCONLY	G02F2202/043		119
+G02F2202/046	9	fluorescent	CPCONLY	G02F2202/046		125
+G02F2202/06	8	dopant	CPCONLY	G02F2202/06		139
+G02F2202/07	8	poled	CPCONLY	G02F2202/07		80
+G02F2202/08	8	glass transition temperature	CPCONLY	G02F2202/08		25
+G02F2202/09	8	inorganic glass	CPCONLY	G02F2202/09		93
+G02F2202/10	8	semiconductor	CPCONLY	G02F2202/10		421
+G02F2202/101	9	Ga&#215;As and alloy	CPCONLY	G02F2202/101		117
+G02F2202/102	9	In&#215;P and alloy	CPCONLY	G02F2202/102		106
+G02F2202/103	9	a-Si	CPCONLY	G02F2202/103		231
+G02F2202/104	9	poly-Si	CPCONLY	G02F2202/104		426
+G02F2202/105	9	single crystal Si	CPCONLY	G02F2202/105		231
+G02F2202/106	9	Cd&#215;Se or Cd&#215;Te and alloys	CPCONLY	G02F2202/106		29
+G02F2202/107	9	Zn&#215;S or Zn&#215;Se and alloys	CPCONLY	G02F2202/107		25
+G02F2202/108	9	quantum wells	CPCONLY	G02F2202/108		180
+G02F2202/12	8	photoconductor	CPCONLY	G02F2202/12		73
+G02F2202/13	8	photorefractive	CPCONLY	G02F2202/13		72
+G02F2202/14	8	photochromic	CPCONLY	G02F2202/14		154
+G02F2202/16	8	conductive	CPCONLY	G02F2202/16		342
+G02F2202/20	8	LiNbO3, LiTaO3	CPCONLY	G02F2202/20		472
+G02F2202/22	8	Antistatic materials or arrangements	CPCONLY	G02F2202/22		1233
+G02F2202/28	8	Adhesive materials or arrangements	CPCONLY	G02F2202/28		4244
+G02F2202/30	8	Metamaterials	CPCONLY	G02F2202/30		264
+G02F2202/32	8	Photonic crystals	CPCONLY	G02F2202/32		669
+G02F2202/34	8	Metal hydrides materials	CPCONLY	G02F2202/34		59
+G02F2202/36	8	Micro- or nanomaterials	CPCONLY	G02F2202/36		1690
+G02F2202/38	8	Sol-gel materials	CPCONLY	G02F2202/38		37
+G02F2202/40	8	Materials having a particular birefringence, retardation	CPCONLY	G02F2202/40		629
+G02F2202/42	8	Materials having a particular dielectric constant	CPCONLY	G02F2202/42		136
+G02F2203/00	7	Function characteristic	CPCONLY	G02F2203/00		3
+G02F2203/01	8	transmissive	CPCONLY	G02F2203/01		641
+G02F2203/02	8	reflective	CPCONLY	G02F2203/02		1505
+G02F2203/023	9	total internal reflection	CPCONLY	G02F2203/023		101
+G02F2203/026	9	attenuated or frustrated internal reflection	CPCONLY	G02F2203/026		46
+G02F2203/03	8	scattering	CPCONLY	G02F2203/03		309
+G02F2203/04	8	wavelength independent	CPCONLY	G02F2203/04		117
+G02F2203/05	8	wavelength dependent	CPCONLY	G02F2203/05		244
+G02F2203/055	9	wavelength filtering	CPCONLY	G02F2203/055		772
+G02F2203/06	8	Polarisation independent	CPCONLY	G02F2203/06		354
+G02F2203/07	8	Polarisation dependent	CPCONLY	G02F2203/07		351
+G02F2203/09	8	transflective	CPCONLY	G02F2203/09		536
+G02F2203/10	8	plasmon	CPCONLY	G02F2203/10		365
+G02F2203/11	8	involving infrared radiation	CPCONLY	G02F2203/11		422
+G02F2203/12	8	spatial light modulator	CPCONLY	G02F2203/12		645
+G02F2203/13	8	involving THZ radiation	CPCONLY	G02F2203/13		426
+G02F2203/15	8	involving resonance effects, e.g. resonantly enhanced interaction	CPCONLY	G02F2203/15		712
+G02F2203/16	8	involving spin polarization effects	CPCONLY	G02F2203/16		5
+G02F2203/17	8	involving soliton waves	CPCONLY	G02F2203/17		26
+G02F2203/18	8	adaptive optics, e.g. wavefront correction	CPCONLY	G02F2203/18		230
+G02F2203/19	8	linearised modulation; reduction of harmonic distortions	CPCONLY	G02F2203/19		72
+G02F2203/20	8	Intrinsic phase difference, i.e. optical bias, of an optical modulator; Methods for the pre-set thereof	CPCONLY	G02F2203/20		100
+G02F2203/21	8	Thermal instability, i.e. DC drift, of an optical modulator; Arrangements or methods for the reduction thereof	CPCONLY	G02F2203/21		345
+G02F2203/22	8	diffractive	CPCONLY	G02F2203/22		132
+G02F2203/24	8	beam steering	CPCONLY	G02F2203/24		282
+G02F2203/25	8	Frequency chirping of an optical modulator; Arrangements or methods for the pre-set or tuning thereof	CPCONLY	G02F2203/25		86
+G02F2203/255	9	Negative chirp	CPCONLY	G02F2203/255		15
+G02F2203/26	8	Pulse shaping; Apparatus or methods therefor	CPCONLY	G02F2203/26		208
+G02F2203/28	8	focussing or defocussing	CPCONLY	G02F2203/28		193
+G02F2203/30	8	Gray scale	CPCONLY	G02F2203/30		460
+G02F2203/34	8	Colour display without the use of colour mosaic filters	CPCONLY	G02F2203/34		500
+G02F2203/48	8	Variable attenuator	CPCONLY	G02F2203/48		535
+G02F2203/50	8	Phase-only modulation	CPCONLY	G02F2203/50		660
+G02F2203/52	8	Optical limiters	CPCONLY	G02F2203/52		75
+G02F2203/54	8	Optical pulse train (comb) synthesizer	CPCONLY	G02F2203/54		91
+G02F2203/56	8	Frequency comb synthesizer	CPCONLY	G02F2203/56		277
+G02F2203/58	8	Multi-wavelength, e.g. operation of the device at a plurality of wavelengths	CPCONLY	G02F2203/58		112
+G02F2203/585	9	Add/drop devices	CPCONLY	G02F2203/585		147
+G02F2203/60	8	Temperature independent	CPCONLY	G02F2203/60		257
+G02F2203/62	8	Switchable arrangements whereby the element being usually not switchable	CPCONLY	G02F2203/62		350
+G02F2203/64	8	Normally black display, i.e. the off state being black	CPCONLY	G02F2203/64		139
+G02F2203/66	8	Normally white display, i.e. the off state being white	CPCONLY	G02F2203/66		86
+G02F2203/68	8	Green display, e.g. recycling, reduction of harmful substances	CPCONLY	G02F2203/68		127
+G02F2203/69	8	Arrangements or methods for testing or calibrating a device	CPCONLY	G02F2203/69		539
+G02F2203/70	8	Semiconductor optical amplifier [SOA] used in a device covered by G02F	CPCONLY	G02F2203/70		94
+G02F2413/00	7	Indexing scheme related to G02F1/13363, i.e. to birefringent elements, e.g. for optical compensation, characterised by the number, position, orientation or value of the compensation plates	CPCONLY	G02F2413/00		29
+G02F2413/01	8	Number of plates being 1	CPCONLY	G02F2413/01		358
+G02F2413/02	8	Number of plates being 2	CPCONLY	G02F2413/02		637
+G02F2413/03	8	Number of plates being 3	CPCONLY	G02F2413/03		139
+G02F2413/04	8	Number of plates greater than or equal to 4	CPCONLY	G02F2413/04		216
+G02F2413/05	8	Single plate on one side of the LC cell	CPCONLY	G02F2413/05		170
+G02F2413/06	8	Two plates on one side of the LC cell	CPCONLY	G02F2413/06		136
+G02F2413/07	8	All plates on one side of the LC cell	CPCONLY	G02F2413/07		156
+G02F2413/08	8	with a particular optical axis orientation	CPCONLY	G02F2413/08		406
+G02F2413/10	8	with refractive index ellipsoid inclined, or tilted, relative to the LC-layer surface O plate	CPCONLY	G02F2413/10		117
+G02F2413/105	9	with varying inclination in thickness direction, e.g. hybrid oriented discotic LC	CPCONLY	G02F2413/105		197
+G02F2413/12	8	Biaxial compensators	CPCONLY	G02F2413/12		209
+G02F2413/13	8	Positive birefingence	CPCONLY	G02F2413/13		161
+G02F2413/14	8	Negative birefingence	CPCONLY	G02F2413/14		128
+G02F2413/15	8	with twisted orientation, e.g. comprising helically oriented LC-molecules or a plurality of twisted birefringent sublayers	CPCONLY	G02F2413/15		88

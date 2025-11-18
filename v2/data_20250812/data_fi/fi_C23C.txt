@@ -1,0 +1,535 @@
+C23C   2/00  \	0	0	4K027	C23C   2/00	4045	形状に影響を及ぼすことのない溶融状態にある被覆材料の適用による溶融メッキまたは溶融浸漬法；そのための装置［４］	Hot-dipping or immersion processes for applying the coating material in the molten state without affecting the shape; Apparatus therefor [4]
+C23C   2/02  \	1	1	4K027	C23C   2/02	2427	被覆される材料の前処理，例．選択された表面部分を被覆するためのもの（Ｃ２３Ｃ２／３０が優先）［４］	Pretreatment of the material to be coated, e.g. for coating on selected surface areas (C23C 2/30 takes precedence) [4]
+C23C   2/04  \	1	1	4K027	C23C   2/04	230	被覆材料に特徴があるもの［４］	characterised by the coating material [4]
+C23C   2/06  \	2	2	4K027	C23C   2/06	6756	亜鉛もしくはカドミウムまたはそれらを基とする合金［４］	Zinc or cadmium or alloys based thereon [4]
+C23C   2/08  \	2	2	4K027	C23C   2/08	667	すずまたはすず基合金［４］	Tin or alloys based thereon [4]
+C23C   2/10  \	2	2	4K027	C23C   2/10	313	鉛または鉛基合金［４］	Lead or alloys based thereon [4]
+C23C   2/12  \	2	2	4K027	C23C   2/12	1791	アルミニウムまたはアルミニウム基合金［４］	Aluminium or alloys based thereon [4]
+C23C   2/14  \	1	1	4K027	C23C   2/14	331	溶融被覆層の過剰量除去；被膜厚さの制御または調整［４］	Removing excess of molten coatings; Controlling or regulating the coating thickness [4]
+C23C   2/16  \	2	2	4K027	C23C   2/16	198	加圧流体を用いるもの，例．エアナイフ［４］	using fluids under pressure, e.g. air knives [4]
+C23C   2/18  \	3	3	4K027	C23C   2/18	75	長尺材料からの溶融被覆層の過剰量除去［４］	Removing excess of molten coatings from elongated material [4]
+C23C   2/20  \	4	4	4K027	C23C   2/20	1106	ストリップ；板［４］	Strips; Plates [4]
+C23C   2/22  \	2	2	4K027	C23C   2/22	26	ラビング（ｒｕｂｂｉｎｇ）によるもの，例．ナイフを用いるもの［４］	by rubbing, e.g. using knives [4]
+C23C   2/24  \	2	2	4K027	C23C   2/24	130	磁場または電場を用いるもの［４］	using magnetic or electric fields [4]
+C23C   2/26  \	1	1	4K027	C23C   2/26	1742	後処理（Ｃ２３Ｃ２／１４が優先）［４］	After-treatment (C23C 2/14 takes precedence) [4]
+C23C   2/28  \	2	2	4K027	C23C   2/28	3007	熱による後処理，例．油浴処理［４］	Thermal after-treatment, e.g. treatment in oil bath [4]
+C23C   2/30  \	1	1	4K027	C23C   2/30	219	溶融浴上のフラックスまたは被覆材（Ｃ２３Ｃ２／２２が優先）［４］	Fluxes or coverings on molten baths (C23C 2/22 takes precedence) [4]
+C23C   2/32  \	1	1	4K027	C23C   2/32	166	振動エネルギーを浴または基板に作用させるもの（Ｃ２３Ｃ２／１４が優先）［４］	using vibratory energy applied to the bath or substrate (C23C 2/14 takes precedence) [4]
+C23C   2/34  \	1	1	4K027	C23C   2/34	232	処理される材料の形状に特徴があるもの（Ｃ２３Ｃ２／１４が優先）［４］	characterised by the shape of the material to be treated (C23C 2/14 takes precedence) [4]
+C23C   2/36  \	2	2	4K027	C23C   2/36	87	長尺材料［４］	Elongated material [4]
+C23C   2/38  \	3	3	4K027	C23C   2/38	1202	線材；管［４］	Wires; Tubes [4]
+C23C   2/40  \	3	3	4K027	C23C   2/40	3029	板；ストリップ［４］	Plates; Strips [4]
+C23C   4/00  \	0	0	4K031	C23C   4/00	772	溶解被覆材料のスプレーによる被覆，例．火炎，プラズマまたは放電によるもの（肉盛溶接Ｂ２３Ｋ，例．Ｂ２３Ｋ５／１８，Ｂ２３Ｋ９／０４）［４，２０１６．０１］	Coating by spraying the coating material in the molten state, e.g. by flame, plasma or electric discharge (built-up welding B23K, e.g. B23K 5/18, B23K 9/04; spraying guns B05B; making alloys containing fibres or filaments by thermal spraying of metal C22C 47/16; plasma guns H05H) [4]
+C23C   4/01  \	1	1	4K031	C23C   4/01	31	被覆される材料の前処理無しで行う選択的被覆，例．パターン被覆［２０１６．０１］	Selective coating, e.g. pattern coating, without pre-treatment of the material to be coated [2016.01]
+C23C   4/02  \	1	1	4K031	C23C   4/02	793	被覆される材料の前処理，例．選択された表面部分に被覆するためのもの［４］	Pretreatment of the material to be coated, e.g. for coating on selected surface areas [4]
+C23C   4/04  \	1	1	4K031	C23C   4/04	1013	被覆材料に特徴のあるもの［４］	characterised by the coating material [4]
+C23C   4/06  \	2	2	4K031	C23C   4/06	2093	金属質材料［４，２０１６．０１］	Metallic material [4]
+C23C   4/067  \	3	3	4K031	C23C   4/067	57	非金属元素の遊離粒子を含むもの，非金属元素の例．炭素，ケイ素，ホウ素，リンまたはヒ素［２０１６．０１］	containing free particles of non-metal elements, e.g. carbon, silicon, boron, phosphorus or arsenic [2016.01]
+C23C   4/073  \	3	3	4K031	C23C   4/073	229	非金属元素の含有の有無に関わらずＭＣｒＡＩまたはＭＣｒＡＩＹ合金を含むもの，Ｍはニッケル，コバルトまたは鉄［２０１６．０１］	containing MCrAl or MCrAlY alloys, where M is nickel, cobalt or iron, with or without non-metal elements [2016.01]
+C23C   4/08  \	3	3	4K031	C23C   4/08	1833	金属元素のみを含むもの（Ｃ２３Ｃ４／０７３が優先）［４，２０１６．０１］	containing only metal elements [4]
+C23C   4/10  \	2	2	4K031	C23C   4/10	2589	酸化物，ほう化物，炭化物，窒化物またはけい化物；それらの混合物［４，２０１６．０１］	Oxides, borides, carbides, nitrides, silicides or mixtures thereof [4]
+C23C   4/11  \	3	3	4K031	C23C   4/11	1966	酸化物［２０１６．０１］	Oxides [2016.01]
+C23C   4/12  \	1	1	4K031	C23C   4/12	2149	スプレー方法に特徴のあるもの［４，２０１６．０１］	characterised by the method of spraying [4]
+C23C   4/123  \	2	2	4K031	C23C   4/123	1297	金属の溶射［２０１６．０１］	Spraying molten metal [2016.01]
+C23C   4/126  \	2	2	4K031	C23C   4/126	156	爆発溶射［２０１６．０１］	Detonation spraying [2016.01]
+C23C   4/129  \	2	2	4K031	C23C   4/129	702	フレーム溶射［２０１６．０１］	Flame spraying [2016.01]
+C23C   4/131  \	2	2	4K031	C23C   4/131	444	ワイヤアーク溶射［２０１６．０１］	Wire arc spraying [2016.01]
+C23C   4/134  \	2	2	4K031	C23C   4/134	1211	プラズマ溶射［２０１６．０１］	Plasma spraying [2016.01]
+C23C   4/137  \	2	2	4K031	C23C   4/137	233	真空又は不活性雰囲気中で行う溶射［２０１６．０１］	Spraying in vacuum or in an inert atmosphere [2016.01]
+C23C   4/14  \	2	2	4K031	C23C   4/14	73	長尺材料を被覆するためのもの［４］	for covering elongated material [4]
+C23C   4/16  \	3	3	4K031	C23C   4/16	206	線材；管［４，２０１６．０１］	Wires; Tubes [4]
+C23C   4/18  \	1	1	4K031	C23C   4/18	1512	後処理［４］	After-treatment [4]
+C23C   6/00  \	0	0	4K031	C23C   6/00	82	基板上に溶融材料を鋳込むことによる被覆［４］	Coating by casting molten material on the substrate [4]
+C23C   8/00  \	0	0	4K028	C23C   8/00	63	金属質材料表面への非金属元素のみの固相拡散（けい素の拡散Ｃ２３Ｃ１０／００）；表面と反応性ガスとの反応による金属質材料の化学的表面処理，であって表面材料の反応生成物を被覆層中に残すもの，例．化成被覆［ｃｏｎｖｅｒｓｉｏｎｃｏａｔｉｎｇｓ］，金属の不働態化（Ｃ２３Ｃ１４／００が優先）［４］	Solid state diffusion of only non-metal elements into metallic material surfaces (diffusion of silicon C23C 10/00); Chemical surface treatment of metallic material by reaction of the surface with a reactive gas, leaving reaction products of surface material in the coating, e.g. conversion coatings, passivation of metals (C23C 14/00 takes precedence) [4]
+C23C   8/02  \	1	1	4K028	C23C   8/02	478	被覆される材料の前処理（Ｃ２３Ｃ８／０４が優先）［４］	Pretreatment of the material to be coated (C23C 8/04 takes precedence) [4]
+C23C   8/04  \	1	1	4K028	C23C   8/04	281	選択された表面部分，例．マスクを用いるもの［４］	Treatment of selected surface areas, e.g. using masks [4]
+C23C   8/06  \	1	1	4K028	C23C   8/06	204	ガスを用いるもの（Ｃ２３Ｃ８／３６が優先）［４］	using gases [4]
+C23C   8/08  \	2	2	4K028	C23C   8/08	233	１元素のみが用いられるもの［４］	only one element being applied [4]
+C23C   8/10  \	3	3	4K028	C23C   8/10	663	酸化［４］	Oxidising [4]
+C23C   8/12  \	4	4	4K028	C23C   8/12	539	元素状酸素またはオゾンを用いるもの［４］	using elemental oxygen or ozone [4]
+C23C   8/14  \	5	5	4K028	C23C   8/14	519	鉄系表面の酸化［４］	Oxidising of ferrous surfaces [4]
+C23C   8/16  \	4	4	4K028	C23C   8/16	353	酸素含有化合物を用いるもの，例．Ｈ↓２Ｏ，ＣＯ↓２［４］	using oxygen-containing compounds, e.g. H<sub>2</sub>O, CO<sub>2</sub> [4]
+C23C   8/18  \	5	5	4K028	C23C   8/18	497	鉄系表面の酸化［４］	Oxidising of ferrous surfaces [4]
+C23C   8/20  \	3	3	4K028	C23C   8/20	615	浸炭［４］	Carburising [4]
+C23C   8/22  \	4	4	4K028	C23C   8/22	1897	鉄系表面の浸炭［４］	of ferrous surfaces [4]
+C23C   8/24  \	3	3	4K028	C23C   8/24	715	窒化［４］	Nitriding [4]
+C23C   8/26  \	4	4	4K028	C23C   8/26	1700	鉄系表面の窒化［４］	of ferrous surfaces [4]
+C23C   8/28  \	2	2	4K028	C23C   8/28	184	２以上の元素が１段階で用いられるもの［４］	more than one element being applied in one step [4]
+C23C   8/30  \	3	3	4K028	C23C   8/30	137	浸炭窒化［４］	Carbo-nitriding [4]
+C23C   8/32  \	4	4	4K028	C23C   8/32	1037	鉄系表面の浸炭窒化［４］	of ferrous surfaces [4]
+C23C   8/34  \	2	2	4K028	C23C   8/34	323	２以上の元素が２段階以上で用いられるもの［４］	more than one element being applied in more than one step [4]
+C23C   8/36  \	2	2	4K028	C23C   8/36	879	イオン化されたガスを用いるもの，例．イオン窒化［４］	using ionised gases, e.g. ionitriding [4]
+C23C   8/38  \	3	3	4K028	C23C   8/38	543	鉄系表面の処理［４］	Treatment of ferrous surfaces [4]
+C23C   8/40  \	1	1	4K028	C23C   8/40	94	液体を用いるもの，例．塩浴，液状懸濁物［４］	using liquids, e.g. salt baths, liquid suspensions [4]
+C23C   8/42  \	2	2	4K028	C23C   8/42	281	１元素のみが用いられるもの［４］	only one element being applied [4]
+C23C   8/44  \	3	3	4K028	C23C   8/44	208	浸炭［４］	Carburising [4]
+C23C   8/46  \	4	4	4K028	C23C   8/46	63	鉄系表面の浸炭［４］	of ferrous surfaces [4]
+C23C   8/48  \	3	3	4K028	C23C   8/48	102	窒化［４］	Nitriding [4]
+C23C   8/50  \	4	4	4K028	C23C   8/50	252	鉄系表面の窒化［４］	of ferrous surfaces [4]
+C23C   8/52  \	2	2	4K028	C23C   8/52	52	２以上の元素が１段階で用いられるもの［４］	more than one element being applied in one step [4]
+C23C   8/54  \	3	3	4K028	C23C   8/54	59	浸炭窒化［４］	Carbo-nitriding [4]
+C23C   8/56  \	4	4	4K028	C23C   8/56	116	鉄系表面の浸炭窒化［４］	of ferrous surfaces [4]
+C23C   8/58  \	2	2	4K028	C23C   8/58	28	２以上の元素が２段階以上で用いられるもの［４］	more than one element being applied in more than one step [4]
+C23C   8/60  \	1	1	4K028	C23C   8/60	20	固体を用いるもの，例．粉末，ペースト（固体の液中懸濁液を用いるものＣ２３Ｃ８／４０）［４］	using solids, e.g. powders, pastes (using liquid suspensions of solids C23C 8/40) [4]
+C23C   8/62  \	2	2	4K028	C23C   8/62	74	１元素のみが用いられるもの［４］	only one element being applied [4]
+C23C   8/64  \	3	3	4K028	C23C   8/64	112	浸炭［４］	Carburising [4]
+C23C   8/66  \	4	4	4K028	C23C   8/66	174	鉄系表面の浸炭［４］	of ferrous surfaces [4]
+C23C   8/68  \	3	3	4K028	C23C   8/68	105	ボロナイジング［４］	Boronising [4]
+C23C   8/70  \	4	4	4K028	C23C   8/70	81	鉄系表面のボロナイジング［４］	of ferrous surfaces [4]
+C23C   8/72  \	2	2	4K028	C23C   8/72	18	２以上の元素が１段階で用いられるもの［４］	more than one element being applied in one step [4]
+C23C   8/74  \	3	3	4K028	C23C   8/74	15	浸炭窒化［４］	Carbo-nitriding [4]
+C23C   8/76  \	4	4	4K028	C23C   8/76	14	鉄系表面の浸炭窒化［４］	of ferrous surfaces [4]
+C23C   8/78  \	2	2	4K028	C23C   8/78	13	２以上の元素が２段階以上で用いられるもの［４］	more than one element being applied in more than one step [4]
+C23C   8/80  \	1	1	4K028	C23C   8/80	422	後処理［４］	After-treatment [4]
+C23C  10/00  \	0	0	4K028	C23C  10/00	76	金属質材料表面への金属元素のみまたはけい素の固相拡散［４］	Solid state diffusion of only metal elements or silicon into metallic material surfaces [4]
+C23C  10/02  \	1	1	4K028	C23C  10/02	65	被覆される材料の前処理（Ｃ２３Ｃ１０／０４が優先）［４］	Pretreatment of the material to be coated (C23C 10/04 takes precedence) [4]
+C23C  10/04  \	1	1	4K028	C23C  10/04	44	選択された表面部分への拡散，例．マスクを用いるもの［４］	Diffusion into selected surface areas, e.g. using masks [4]
+C23C  10/06  \	1	1	4K028	C23C  10/06	40	ガスを用いるもの［４］	using gases [4]
+C23C  10/08  \	2	2	4K028	C23C  10/08	209	１元素のみが拡散されるもの［４］	only one element being diffused [4]
+C23C  10/10  \	3	3	4K028	C23C  10/10	56	クロマイジング［４］	Chromising [4]
+C23C  10/12  \	4	4	4K028	C23C  10/12	12	鉄系表面のクロマイジング［４］	of ferrous surfaces [4]
+C23C  10/14  \	2	2	4K028	C23C  10/14	21	２以上の元素が１段階で拡散されるもの［４］	more than one element being diffused in one step [4]
+C23C  10/16  \	2	2	4K028	C23C  10/16	5	２以上の元素が２段階以上で拡散されるもの［４］	more than one element being diffused in more than one step [4]
+C23C  10/18  \	1	1	4K028	C23C  10/18	27	液体を用いるもの，例．塩浴，液体状懸濁液［４］	using liquids, e.g. salt baths, liquid suspensions [4]
+C23C  10/20  \	2	2	4K028	C23C  10/20	51	１元素のみが拡散されるもの［４］	only one element being diffused [4]
+C23C  10/22  \	3	3	4K028	C23C  10/22	30	拡散される元素を含む溶融金属［４］	Metal melt containing the element to be diffused [4]
+C23C  10/24  \	3	3	4K028	C23C  10/24	141	拡散される元素を含む塩浴［４］	Salt bath containing the element to be diffused [4]
+C23C  10/26  \	2	2	4K028	C23C  10/26	61	２以上の元素が拡散されるもの［４］	more than one element being diffused [4]
+C23C  10/28  \	1	1	4K028	C23C  10/28	1319	固体を用いるもの，例．粉末，ペースト［４］	using solids, e.g. powders, pastes [4]
+C23C  10/30  \	2	2	4K028	C23C  10/30	351	表面上に粉末またはペーストの層を用いるもの（固体の液中懸濁液を用いるものＣ２３Ｃ１０／１８）［４］	using a layer of powder or paste on the surface (using liquid suspensions of solids C23C 10/18) [4]
+C23C  10/32  \	3	3	4K028	C23C  10/32	68	クロマイジング［４］	Chromising [4]
+C23C  10/34  \	2	2	4K028	C23C  10/34	32	粉末混合物中に埋め込むもの，例．パックセメンテーション［４］	Embedding in a powder mixture, i.e. pack cementation [4]
+C23C  10/36  \	3	3	4K028	C23C  10/36	122	１元素のみが拡散されるもの［４］	only one element being diffused [4]
+C23C  10/38  \	4	4	4K028	C23C  10/38	62	クロマイジング［４］	Chromising [4]
+C23C  10/40  \	5	5	4K028	C23C  10/40	52	鉄系表面のクロマイジング［４］	of ferrous surfaces [4]
+C23C  10/42  \	6	6	4K028	C23C  10/42	61	揮発性移送添加剤が存在するもの，例．ハロゲン化物質［４］	in the presence of volatile transport additives, e.g. halogenated substances [4]
+C23C  10/44  \	4	4	4K028	C23C  10/44	53	シリコナイジング［４］	Siliconising [4]
+C23C  10/46  \	5	5	4K028	C23C  10/46	33	鉄系表面のシリコナイジング［４］	of ferrous surfaces [4]
+C23C  10/48  \	4	4	4K028	C23C  10/48	203	アルミナイジング［４］	Aluminising [4]
+C23C  10/50  \	5	5	4K028	C23C  10/50	105	鉄系表面のアルミナイジング［４］	of ferrous surfaces [4]
+C23C  10/52  \	3	3	4K028	C23C  10/52	140	２以上の元素が１段階で拡散されるもの［４］	more than one element being diffused in one step [4]
+C23C  10/54  \	4	4	4K028	C23C  10/54	55	少なともクロムが拡散するもの［４］	Diffusion of at least chromium [4]
+C23C  10/56  \	5	5	4K028	C23C  10/56	64	少くともクロムおよびアルミニウムが拡散するもの［４］	and at least aluminium [4]
+C23C  10/58  \	3	3	4K028	C23C  10/58	80	２以上の元素が２段階以上で拡散されるもの［４］	more than one element being diffused in more than one step [4]
+C23C  10/60  \	1	1	4K028	C23C  10/60	105	後処理［４］	After-treatment [4]
+C23C  12/00  \	0	0	4K028	C23C  12/00	246	金属質材料表面へのけい素以外の少くとも１つの非金属元素および少くとも１つの金属元素またはけい素の固相拡散［４］	Solid state diffusion of at least one non-metal element other than silicon and at least one metal element or silicon into metallic material surfaces [4]
+C23C  12/02  \	1	1	4K028	C23C  12/02	229	１段階による拡散［４］	Diffusion in one step [4]
+C23C  14/00  \	0	0	4K029	C23C  14/00	748	被覆形成材料の真空蒸着，スパッタリングまたはイオン注入法による被覆［４］	Coating by vacuum evaporation, by sputtering or by ion implantation [4]
+C23C  14/00  A	0	0	4K029	C23C  14/00	315	箔、粉末の製造	Making foils, powders
+C23C  14/00  B	0	0	4K029	C23C  14/00	1456	装置の清浄、汚染防止〔清浄，汚染防止法を含む〕	Cleaning of devices, prevention of contamination (including cleaning, contamination preventing methods)
+C23C  14/00  C	0	0	4K029	C23C  14/00	246	真空処理	Vacuum treatment
+C23C  14/00  D	0	0	4K029	C23C  14/00	70	磁性材料	Magnetic materials
+C23C  14/00  Z	0	0	4K029	C23C  14/00	132	その他のＰＶＤ	Other PVD
+C23C  14/02  \	1	1	4K029	C23C  14/02	810	被覆される材料の前処理（Ｃ２３Ｃ１４／０４が優先）［４］	Pretreatment of the material to be coated (C23C 14/04 takes precedence) [4]
+C23C  14/02  A	1	0	4K029	C23C  14/02	569	有機質基板の前処理	Pre-treatment of organic substrates
+C23C  14/02  B	1	0	4K029	C23C  14/02	178	磁性材料、半導体の前処理	Pre-treatment of magnetic materials, semiconductors
+C23C  14/02  Z	1	0	4K029	C23C  14/02	1077	その他の前処理	Other pre-treatment
+C23C  14/04  \	1	1	4K029	C23C  14/04	1261	選択された表面部分の被覆，例．マスクを用いるもの［４］	Coating on selected surface areas, e.g. using masks [4]
+C23C  14/04  A	1	0	4K029	C23C  14/04	2898	マスク	Masks
+C23C  14/04  B	1	0	4K029	C23C  14/04	228	レジスト	Resist
+C23C  14/04  C	1	0	4K029	C23C  14/04	123	転写	Transfer
+C23C  14/04  Z	1	0	4K029	C23C  14/04	702	その他の選択被覆	Other selective covering
+C23C  14/06  \	1	1	4K029	C23C  14/06	3844	被覆材料に特徴のあるもの（Ｃ２３Ｃ１４／０４が優先）［４］	characterised by the coating material (C23C 14/04 takes precedence) [4]
+C23C  14/06  A	1	0	4K029	C23C  14/06	3157	窒化物〔ＢＮ，炭窒化物等を除く〕	Nitrides (excluding BN, carbontrides etc.)
+C23C  14/06  B	1	0	4K029	C23C  14/06	593	炭化物〔Ｃを除く〕	Carbides (excluding C)
+C23C  14/06  C	1	0	4K029	C23C  14/06	184	硼化物〔ＢＮを除く〕	Boron compounds (excluding BN)
+C23C  14/06  D	1	0	4K029	C23C  14/06	194	硫化物	Sulfides
+C23C  14/06  E	1	0	4K029	C23C  14/06	520	けい化物	Silicides
+C23C  14/06  F	1	0	4K029	C23C  14/06	1390	炭化膜〔グラフアイトダイヤモンド〕	Carbide coating (graphite diamond)
+C23C  14/06  G	1	0	4K029	C23C  14/06	543	その他の化合物被膜〔Ｆ化物，Ａｓ化物〕	Other compound coverings (fluorine compounds, arsenic compounds.)
+C23C  14/06  H	1	0	4K029	C23C  14/06	834	炭窒化物〔炭化物，窒化物との並列も含む〕	Carbonitrides (including juxtaposition with carbides, nitrides)
+C23C  14/06  J	1	0	4K029	C23C  14/06	226	ＢＮ	BN
+C23C  14/06  K	1	0	4K029	C23C  14/06	523	複合化合物被覆〔炭窒化物，多元金属化合物を除く〕	Composite compound coating (excluding carbonitrides, multi-metal compounds)
+C23C  14/06  L	1	0	4K029	C23C  14/06	1089	混合物膜〔多元金属化合物も含む〕	Compound coating (including multi-metal compounds)
+C23C  14/06  M	1	0	4K029	C23C  14/06	234	積層被覆一般〔拡散層は層に数えない，改質層は数える〕	Laminate coating in general (diffused layers are not counted in layers, reformed layers are counted)
+C23C  14/06  N	1	1	4K029	C23C  14/06	2626	金属層を含む積層被覆	Laminate coating including metal layer
+C23C  14/06  P	1	1	4K029	C23C  14/06	2278	金属層を含まない積層被覆	Laminate coating not including metal layer
+C23C  14/06  Q	1	1	4K029	C23C  14/06	502	有機質層を含む積層被覆〔Ｎ，Ｐに優先〕	Laminate coating including organic layer (precedence over N, P)
+C23C  14/06  R	1	0	4K029	C23C  14/06	243	反射膜	Reflective coating
+C23C  14/06  S	1	0	4K029	C23C  14/06	185	超電導膜	Superconducting coating
+C23C  14/06  T	1	0	4K029	C23C  14/06	390	磁性膜	Magnetic coating
+C23C  14/06  Z	1	0	4K029	C23C  14/06	312	その他の被覆材料	Other coating materials
+C23C  14/08  \	2	2	4K029	C23C  14/08	1989	酸化物（Ｃ２３Ｃ１４／１０が優先）［４］	Oxides (C23C 14/10 takes precedence) [4]
+C23C  14/08  A	2	0	4K029	C23C  14/08	860	アルミ酸化物	Aluminium oxides
+C23C  14/08  B	2	0	4K029	C23C  14/08	75	鉄酸化物	Iron oxides
+C23C  14/08  C	2	0	4K029	C23C  14/08	740	亜鉛酸化物	Zinc oxides
+C23C  14/08  D	2	0	4K029	C23C  14/08	1632	錫酸化物またはインジウム酸化物（ＩＴＯ膜も含む）	Stannic oxides or indium oxides (including ITO coating)
+C23C  14/08  E	2	0	4K029	C23C  14/08	500	チタン酸化物	Titanic oxides
+C23C  14/08  F	2	0	4K029	C23C  14/08	180	Ｚｒ、Ｈｆの酸化物	Oxides of Zr, Hf
+C23C  14/08  G	2	0	4K029	C23C  14/08	229	耐火性金属（Ｔｉ、Ｚｒ、Ｈｆを除く、例Ｖ、Ｎｂ）の酸化物	Oxides of refractory metals (excluding Ti, Zr, Hf, e.g. V, Nb)
+C23C  14/08  H	2	0	4K029	C23C  14/08	48	貴金属の酸化物	Oxides of precious metals
+C23C  14/08  J	2	0	4K029	C23C  14/08	573	その他の単金属酸化物	Other single metal oxides
+C23C  14/08  K	2	0	4K029	C23C  14/08	2262	複合酸化物（ＩＴＯ膜を除く多元金属酸化物）	Composite oxides (polygenetic metallic oxides excluding ITO coating)
+C23C  14/08  L	2	0	4K029	C23C  14/08	907	酸化物超電導体	Superconductor oxides
+C23C  14/08  M	2	0	4K029	C23C  14/08	128	酸化物磁性膜	Magnetic coating oxides
+C23C  14/08  N	2	0	4K029	C23C  14/08	1132	酸化物を含む積層	Laminate
+C23C  14/08  Z	2	0	4K029	C23C  14/08	315	その他	Others
+C23C  14/10  \	2	2	4K029	C23C  14/10	763	ガラスまたはシリカ［４］	Glass or silica [4]
+C23C  14/12  \	2	2	4K029	C23C  14/12	1718	有機質材料［４］	Organic material [4]
+C23C  14/14  \	2	2	4K029	C23C  14/14	1994	金属質材料，ほう素またはけい素［４］	Metallic material, boron or silicon [4]
+C23C  14/14  A	2	0	4K029	C23C  14/14	300	けい素	Silicides
+C23C  14/14  B	2	0	4K029	C23C  14/14	630	Ａｌ〔Ａｌ５０％以上の合金を含む〕	Al (containing alloy of Al 50% or more)
+C23C  14/14  C	2	0	4K029	C23C  14/14	124	Ｚｎ〔Ｚｎ合金を含む，例Ｚｎ−Ｍｇ合金〕	Zn (containing Zn alloy, e.g. Zn-Mg alloy)
+C23C  14/14  D	2	0	4K029	C23C  14/14	2034	金属質材料〔その他金属を特定したもの，Ｂを含む〕	Metallic materials (with specified other metals, containing B)
+C23C  14/14  E	2	0	4K029	C23C  14/14	90	非晶質金属質材料	Amorphous metallic materials
+C23C  14/14  F	2	0	4K029	C23C  14/14	759	磁性金属薄膜〔磁気記録媒体等〕	Magnetic metal film (magnetic recording media etc.)
+C23C  14/14  G	2	0	4K029	C23C  14/14	891	金属層のみからなる積層被膜	Laminate coating consisting of metal layer only
+C23C  14/14  Z	2	0	4K029	C23C  14/14	492	その他の金属質薄膜	Other metallic material film
+C23C  14/16  \	3	3	4K029	C23C  14/16	538	金属質基板上またはほう素もしくはけい素の基板上に被覆するもの［４］	on metallic substrates or on substrates of boron or silicon [4]
+C23C  14/16  A	3	0	4K029	C23C  14/16	320	鋼板	Steel plate
+C23C  14/16  B	3	0	4K029	C23C  14/16	230	超硬合金	Super-hard alloys
+C23C  14/16  C	3	0	4K029	C23C  14/16	78	装飾品	Decorations
+C23C  14/16  D	3	0	4K029	C23C  14/16	29	磁石	Magnets
+C23C  14/16  Z	3	0	4K029	C23C  14/16	463	その他、金属質〔硼素，けい素を含む〕基板に特徴があるもの	Characterized by other metallic material substrates (including boron, silicon)
+C23C  14/18  \	3	3	4K029	C23C  14/18	296	その他の無機質基板上に被覆するもの［４］	on other inorganic substrates [4]
+C23C  14/20  \	3	3	4K029	C23C  14/20	1718	有機質基板上に被覆するもの［４］	on organic substrates [4]
+C23C  14/20  A	3	0	4K029	C23C  14/20	1472	樹脂基板上への被覆	Coating on resin substrates
+C23C  14/20  B	3	0	4K029	C23C  14/20	195	塗膜上への被覆	Coating on paint layer
+C23C  14/20  C	3	0	4K029	C23C  14/20	7	二層塗膜上への被覆	Coating on double paint layer
+C23C  14/20  D	3	0	4K029	C23C  14/20	55	金属層の接着，転写	Adhesion, transfer on metal layer
+C23C  14/20  Z	3	0	4K029	C23C  14/20	166	その他、有機質〔紙、繊維、等〕基板に特徴があるもの	Characterized by other organic material substrates (paper, fibre etc.)
+C23C  14/22  \	1	1	4K029	C23C  14/22	882	被覆の方法に特徴のあるもの［４］	characterised by the process of coating [4]
+C23C  14/22  A	1	0	4K029	C23C  14/22	158	真空蒸着とイオン注入の併用〔ビ−ムの同時照射１４／４８を除く〕	Combined use of vacuum evaporation and ion implantation (excluding simultaneous irradiation of beam 14/48)
+C23C  14/22  B	1	0	4K029	C23C  14/22	72	スパツタリングとイオン注入の併用〔ビ−ムの同時照射１４／４８を除く〕	Combined use of sputtering and ion implantation (excluding simultaneous irradiation of beam 14/48)
+C23C  14/22  C	1	0	4K029	C23C  14/22	162	真空蒸着とスパツタリングの併用	Combined use of vacuum evaporation and sputtering (excluding simultaneous irradiation of beam 14/48)
+C23C  14/22  D	1	0	4K029	C23C  14/22	66	マイクロ波を用いた被覆方法一般	General coating methods using microwave
+C23C  14/22  E	1	0	4K029	C23C  14/22	59	磁性膜の被覆方法一般	General coating methods of magnetic coating
+C23C  14/22  F	1	0	4K029	C23C  14/22	201	補助的なエネルギ−照射〔光照射を含む〕	Auxiliary energy irradiation (including light irradiation)
+C23C  14/22  Z	1	0	4K029	C23C  14/22	296	その他被覆方法に特徴	Characterised by other coating methods
+C23C  14/24  \	2	2	4K029	C23C  14/24	3319	真空蒸着［４］	Vacuum evaporation [4]
+C23C  14/24  A	2	0	4K029	C23C  14/24	1809	蒸発源容器本体〔材質、形状、構造、内面被覆〕	Evaporation source container unit (material quality, structure, inner coating)
+C23C  14/24  B	2	0	4K029	C23C  14/24	502	蒸発源容器の加熱，冷却	Heating, cooling of evaporation source container
+C23C  14/24  C	2	0	4K029	C23C  14/24	677	蒸発源容器の数，位置移動	Number of evaporation source containers, movement of position
+C23C  14/24  D	2	0	4K029	C23C  14/24	612	蒸発源材料の供給、補給	Supply, replenishment of evaporation source materials
+C23C  14/24  E	2	0	4K029	C23C  14/24	985	蒸発源材料自体	Evaporation source materials per se
+C23C  14/24  F	2	0	4K029	C23C  14/24	888	電弧放電による蒸発，ア−ク放電蒸着	Evaporation by electric arc discharge, arc discharge evaporation
+C23C  14/24  G	2	0	4K029	C23C  14/24	1323	真空蒸着〔シヤツタ−，マスク〕	Vacuum evaporation (shutter, mask)
+C23C  14/24  H	2	0	4K029	C23C  14/24	133	真空蒸着膜形成用基板本体	Substrate units for formation of vacuum evaporation coat
+C23C  14/24  J	2	0	4K029	C23C  14/24	558	真空蒸着膜形成用基板の保持移動	Retention and movement of substrates for formation of vacuum evaporation coat
+C23C  14/24  K	2	0	4K029	C23C  14/24	285	真空蒸着膜形成用基板の加熱冷却	Heating and cooling of substrates for formation of vacuum evaporation coat
+C23C  14/24  L	2	0	4K029	C23C  14/24	211	真空蒸着における加熱冷却〔基板の加熱，冷却を除く〕	Heating and cooling in vacuum evaporation (excluding heating, cooling of substrates)
+C23C  14/24  M	2	0	4K029	C23C  14/24	519	真空蒸着における給排気，ガス組成	Air supply and discharge in vacuum evaporation, gas composition
+C23C  14/24  N	2	0	4K029	C23C  14/24	387	真空蒸着〔被膜を指定したもの〕	Vacuum evaporation (with designated film
+C23C  14/24  P	2	0	4K029	C23C  14/24	242	真空蒸着〔磁性，磁石〕	Vacuum evaporation (magnetism, magnet)
+C23C  14/24  Q	2	0	4K029	C23C  14/24	77	真空蒸着〔超電導被膜〕	Vacuum evaporation (superconducting film)
+C23C  14/24  R	2	0	4K029	C23C  14/24	304	真空蒸着方法〔数値限定のあるもの〕	Vacuum evaporation method (with limited values)
+C23C  14/24  S	2	0	4K029	C23C  14/24	608	真空蒸着方法〔数値限定のないもの〕	Vacuum evaporation method (with no limited values)
+C23C  14/24  T	2	0	4K029	C23C  14/24	943	上記に分類されない真空蒸着装置	Vacuum evaporation devices not classified above
+C23C  14/24  U	2	0	4K029	C23C  14/24	695	真空蒸着の制御、検出	Control, detection of vacuum evaporation
+C23C  14/24  V	2	0	4K029	C23C  14/24	158	真空蒸着の連続処理	Continuous treatment of vacuum evaporation
+C23C  14/24  Z	2	0	4K029	C23C  14/24	73	その他	Others
+C23C  14/26  \	3	3	4K029	C23C  14/26	597	ソースの抵抗加熱または誘導加熱によるもの［４］	by resistance or inductive heating of the source [4]
+C23C  14/26  A	3	0	4K029	C23C  14/26	401	抵抗加熱	Resistance heating
+C23C  14/26  B	3	0	4K029	C23C  14/26	75	誘導加熱	Induced heating
+C23C  14/26  Z	3	0	4K029	C23C  14/26	66	その他	Others
+C23C  14/28  \	3	3	4K029	C23C  14/28	1031	波動エネルギーまたは粒子放射によるもの（Ｃ２３Ｃ１４／３２〜Ｃ２３Ｃ１４／４８が優先）［４］	by wave energy or particle radiation (C23C 14/32-C23C 14/48 take precedence) [4]
+C23C  14/30  \	4	4	4K029	C23C  14/30	841	電子衝撃によるもの［４］	by electron bombardment [4]
+C23C  14/30  A	4	0	4K029	C23C  14/30	534	蒸発源〔構造、移動、冷却、補給、検知、制御〕	Evaporation source (structure, transport, cooling, replenishment, detection, control)
+C23C  14/30  B	4	0	4K029	C23C  14/30	435	電子線源〔電子銃の構造、電子ビ−ムの偏向〕	Electronic source (structure of electronic guns, deflection of electronic beams)
+C23C  14/30  Z	4	0	4K029	C23C  14/30	400	その他	Others
+C23C  14/32  \	3	3	4K029	C23C  14/32	1950	爆発によるもの；蒸発およびその後の蒸気のイオン化によるもの（Ｃ２３Ｃ１４／３４〜Ｃ２３Ｃ１４／４８が優先）［４］	by explosion; by evaporation and subsequent ionisation of the vapours (C23C 14/34-C23C 14/48 take precedence) [4]
+C23C  14/32  A	3	0	4K029	C23C  14/32	458	蒸発源	Evaporation source
+C23C  14/32  B	3	0	4K029	C23C  14/32	605	イオン化部	Ionisation area
+C23C  14/32  C	3	0	4K029	C23C  14/32	99	加速部	Acceleration area
+C23C  14/32  D	3	0	4K029	C23C  14/32	275	基板部	Substrate area
+C23C  14/32  E	3	0	4K029	C23C  14/32	141	ガス供給排気部	Gas supply exhaust area
+C23C  14/32  F	3	0	4K029	C23C  14/32	389	イオンビ−ム蒸着	Ion beam evaporation
+C23C  14/32  G	3	1	4K029	C23C  14/32	419	クラスタ−イオンビ−ム蒸着	Cluster ion beam evaporation
+C23C  14/32  H	3	0	4K029	C23C  14/32	236	ＨＣＤ	HCD
+C23C  14/32  Z	3	0	4K029	C23C  14/32	1039	その他	Others
+C23C  14/34  \	2	2	4K029	C23C  14/34	4667	スパッタリング［４］	Sputtering [4]
+C23C  14/34  A	2	0	4K029	C23C  14/34	7533	タ−ゲツトの材質〔複合タ−ゲツトを含む〕	Material quality of target (including combined targets)
+C23C  14/34  B	2	0	4K029	C23C  14/34	958	タ−ゲツトの形状	Shape of target
+C23C  14/34  C	2	0	4K029	C23C  14/34	2374	タ−ゲツトの設置〔周辺装置，複数タ−ゲツトを含む〕	Installation of target (including peripherals, multiple targets)
+C23C  14/34  D	2	0	4K029	C23C  14/34	343	対向タ−ゲツト式スパツタリング	Facing target type sputtering
+C23C  14/34  E	2	0	4K029	C23C  14/34	125	同軸型スパツタリング	Coaxial sputtering
+C23C  14/34  F	2	0	4K029	C23C  14/34	86	スパツタガン	Sputter guns
+C23C  14/34  G	2	0	4K029	C23C  14/34	346	シヤツタ−	Shutters
+C23C  14/34  H	2	0	4K029	C23C  14/34	175	スパツタリング膜形成用基板本体	Substrate units for formation of sputtering coat
+C23C  14/34  J	2	0	4K029	C23C  14/34	777	スパツタリング膜形成用基板の保持移動	Retention and movement of substrates for formation of sputtering coat
+C23C  14/34  K	2	0	4K029	C23C  14/34	423	スパツタリング膜形成用基板の加熱冷却	Heating and cooling of substrates for formation of sputtering coat
+C23C  14/34  L	2	0	4K029	C23C  14/34	289	スパツタリングにおける加熱冷却〔基板の加熱冷却を除く〕	Heating and cooling in sputtering  (excluding heating, cooling of substrates)
+C23C  14/34  M	2	0	4K029	C23C  14/34	1407	スパツタリングにおける給排気、ガス組成	Air supply and discharge in sputtering, gas composition
+C23C  14/34  N	2	0	4K029	C23C  14/34	1287	スパツタリング〔被膜を指定したもの〕	Sputtering  (with designated film)
+C23C  14/34  P	2	0	4K029	C23C  14/34	494	スパツタリング〔磁性、磁石〕	Sputtering  (magnetism, magnet)
+C23C  14/34  Q	2	0	4K029	C23C  14/34	186	スパツタリング〔超電導被膜〕	Sputtering  (superconducting film)
+C23C  14/34  R	2	0	4K029	C23C  14/34	796	スパツタリング方法〔数値限定のあるもの〕	Sputtering method (with limited values)
+C23C  14/34  S	2	0	4K029	C23C  14/34	1059	スパツタリング方法〔数値限定のないもの〕	Sputtering method (with no limited values)
+C23C  14/34  T	2	0	4K029	C23C  14/34	1746	上記に分類されないスパツタリング装置	Sputtering devices not classified above
+C23C  14/34  U	2	0	4K029	C23C  14/34	1077	スパツタリングの制御、検出	Control, detection of  sputtering
+C23C  14/34  V	2	0	4K029	C23C  14/34	313	スパツタリングの連続処理	Continuous treatment of  sputtering
+C23C  14/34  Z	2	0	4K029	C23C  14/34	211	その他	Others
+C23C  14/35  \	3	3	4K029	C23C  14/35	716	磁界の適用によるもの，例．マグネトロンスパッタリング［５］	by application of a magnetic field, e.g. magnetron sputtering [5]
+C23C  14/35  A	3	0	4K029	C23C  14/35	266	エロ−ジヨン領域の拡大	Expansion of erosion area
+C23C  14/35  B	3	1	4K029	C23C  14/35	795	磁石の移動	Movement of magnets
+C23C  14/35  C	3	1	4K029	C23C  14/35	652	磁界の制御	Control of magnetic field
+C23C  14/35  D	3	2	4K029	C23C  14/35	180	磁性体タ−ゲツトに対する漏洩磁界の形成	Formation of leaking magnetic field against magnetic body target
+C23C  14/35  E	3	0	4K029	C23C  14/35	137	平行磁界の形成	Formation of parallel magnetic field
+C23C  14/35  F	3	0	4K029	C23C  14/35	202	マイクロ波の利用	Use of microwave
+C23C  14/35  Z	3	0	4K029	C23C  14/35	1121	その他	Others
+C23C  14/36  \	3	3	4K029	C23C  14/36	724	ダイオードスパッタリング（Ｃ２３Ｃ１４／３５が優先）［４，５］	Diode sputtering (C23C 14/35 takes precedence) [4,5]
+C23C  14/38  \	4	4	4K029	C23C  14/38	203	直流グロー放電によるもの［４］	by direct current glow discharge [4]
+C23C  14/40  \	4	4	4K029	C23C  14/40	512	交流放電を伴うもの，例．高周波放電［４］	with alternating current discharge, e.g. high-frequency discharge [4]
+C23C  14/42  \	3	3	4K029	C23C  14/42	73	トリオードスパッタリング（Ｃ２３Ｃ１４／３５が優先）［４，５］	Triode sputtering (C23C 14/35 takes precedence) [4,5]
+C23C  14/44  \	4	4	4K029	C23C  14/44	140	高周波および追加的な直流電圧の適用によるもの［４］	by application of high frequencies and additional direct voltages [4]
+C23C  14/46  \	3	3	4K029	C23C  14/46	347	外部のイオン源により作られたイオンビームによるもの（Ｃ２３Ｃ１４／４０が優先）［４］	by ion beam produced by an external ion source (C23C 14/40 takes precedence) [4]
+C23C  14/46  A	3	0	4K029	C23C  14/46	57	反応性	Reactivity
+C23C  14/46  B	3	0	4K029	C23C  14/46	219	ビ−ム源及びビ−ムの処理	Treatment of beam source and beam
+C23C  14/46  C	3	0	4K029	C23C  14/46	128	タ−ゲツト部	Target area
+C23C  14/46  Z	3	0	4K029	C23C  14/46	208	その他	Others
+C23C  14/48  \	2	2	4K029	C23C  14/48	1079	イオン注入法［４］	Ion implantation [4]
+C23C  14/48  A	2	0	4K029	C23C  14/48	439	注入条件の限定〔注入量，加速電圧，入射角等〕	Limitation of implantation conditions (implantation volume. Acceleration voltage, angle of incidence)
+C23C  14/48  B	2	0	4K029	C23C  14/48	334	注入条件の検出または制御	Detection or control of implantation conditions
+C23C  14/48  C	2	0	4K029	C23C  14/48	132	蓄積電荷の除去	Removal of accumulated charge
+C23C  14/48  D	2	0	4K029	C23C  14/48	491	イオンビ−ムミキシング〔ビ−ムアシストを含む〕	Ion beam mixing (including beam assist)
+C23C  14/48  Z	2	0	4K029	C23C  14/48	1225	その他	Others
+C23C  14/50  \	2	2	4K029	C23C  14/50	1435	基板保持具［４］	Substrate holders [4]
+C23C  14/50  A	2	0	4K029	C23C  14/50	399	固着手段〔吸着〕	Fixing means (adsorption)
+C23C  14/50  B	2	0	4K029	C23C  14/50	136	固着手段〔弾性〕	Fixing means (elasticity)
+C23C  14/50  C	2	0	4K029	C23C  14/50	40	固着手段〔中間層〕	Fixing means (intermediate layer)
+C23C  14/50  D	2	0	4K029	C23C  14/50	354	固着手段一般	Fixing means in general
+C23C  14/50  E	2	0	4K029	C23C  14/50	813	基板の加熱，冷却	Heating, cooling of substrates
+C23C  14/50  F	2	0	4K029	C23C  14/50	455	基板の保持〔マスク・シヤツタ−〕	Retention of substrates (mass/shutter)
+C23C  14/50  G	2	0	4K029	C23C  14/50	281	公転	Revolution
+C23C  14/50  H	2	1	4K029	C23C  14/50	433	自公転	Rotation and revolution
+C23C  14/50  J	2	0	4K029	C23C  14/50	196	自転のみ	Rotation only
+C23C  14/50  K	2	0	4K029	C23C  14/50	614	被蒸着物の移動〔脱着・搬出入・振動・直線移動〕	Moving of evaporated items (desorption, carry-in/carry-out, vibration, linear movement)
+C23C  14/50  Z	2	0	4K029	C23C  14/50	334	その他	Others
+C23C  14/52  \	2	2	4K029	C23C  14/52	419	被覆工程の観察のための手段［４］	Means for observation of the coating process [4]
+C23C  14/54  \	2	2	4K029	C23C  14/54	1467	被覆工程の制御または調整［４］	Controlling or regulating the coating process [4]
+C23C  14/54  A	2	0	4K029	C23C  14/54	404	膜材料供給部の制御	Control of coating material supply area
+C23C  14/54  B	2	0	4K029	C23C  14/54	702	真空槽内雰囲気〔給排気・プラズマ等〕の制御	Control of atmosphere inside vacuum tank (air supply and discharge/plasma etc.)
+C23C  14/54  C	2	0	4K029	C23C  14/54	463	膜形成部の制御	Control of coat forming area
+C23C  14/54  D	2	1	4K029	C23C  14/54	251	基板及び被膜の温度制御	Temperature control of substrate and coating
+C23C  14/54  E	2	0	4K029	C23C  14/54	398	被膜の光学的検知	Optical detection of coating
+C23C  14/54  F	2	0	4K029	C23C  14/54	304	フイ−ドバツク制御	Feedback control
+C23C  14/54  G	2	0	4K029	C23C  14/54	214	マスク、シヤツタ−の制御	Control of masks, shutters
+C23C  14/54  Z	2	0	4K029	C23C  14/54	465	その他の制御	Other controls
+C23C  14/56  \	2	2	4K029	C23C  14/56	2147	連続被覆のために特に適合した装置；真空を維持するための装置，例．真空ロック［４］	Apparatus specially adapted for continuous coating; Arrangements for maintaining the vacuum, e.g. vacuum locks [4]
+C23C  14/56  A	2	0	4K029	C23C  14/56	1181	長尺物基体の連続処理	Continuous treatment of elongated substrates
+C23C  14/56  B	2	1	4K029	C23C  14/56	422	移動に関するもの	Related to moving
+C23C  14/56  C	2	1	4K029	C23C  14/56	338	シ−ルに関するもの	Related to seal
+C23C  14/56  D	2	1	4K029	C23C  14/56	287	加熱冷却	Heating and cooling
+C23C  14/56  E	2	1	4K029	C23C  14/56	226	スパツタリングに関するもの	Related to sputtering
+C23C  14/56  F	2	0	4K029	C23C  14/56	295	長尺物を除く基体の連続処理	Continuous treatment of those other than elongated substrates
+C23C  14/56  G	2	1	4K029	C23C  14/56	1258	移動及び搬出入に関するもの	Related to moving and carry-in/carry-out
+C23C  14/56  H	2	1	4K029	C23C  14/56	276	スパツタリングに関するもの	Related to sputtering
+C23C  14/56  J	2	0	4K029	C23C  14/56	232	マスク、シヤツタ−	Masks, shutters
+C23C  14/56  K	2	0	4K029	C23C  14/56	141	磁性膜	Magnetic coating
+C23C  14/56  L	2	0	4K029	C23C  14/56	27	コンデンサ−用電極箔	Electrode foils for condensers
+C23C  14/56  Z	2	0	4K029	C23C  14/56	103	その他	Others
+C23C  14/58  \	1	1	4K029	C23C  14/58	736	後処理［４］	After-treatment [4]
+C23C  14/58  A	1	0	4K029	C23C  14/58	1059	熱処理〔Ｃ優先〕	Heat treatment (C takes precedence)
+C23C  14/58  B	1	0	4K029	C23C  14/58	161	ＰＶＤ膜上に新たな膜形成を伴うもの	Accompanied by formation of new coating on PVD coating
+C23C  14/58  C	1	0	4K029	C23C  14/58	349	エネルギ−ビ−ム照射	Energy beam irradiation
+C23C  14/58  D	1	0	4K029	C23C  14/58	112	磁性膜の後処理	After-treatment of magnetic coating
+C23C  14/58  Z	1	0	4K029	C23C  14/58	685	その他の後処理	Other after-treatment
+C23C  16/00  \	0	0	4K030	C23C  16/00	332	ガス状化合物の分解による化学的被覆であって，表面材料の反応生成物を被覆層中に残さないもの，すなわち化学蒸着［ＣＶＤ］法（反応性スパッタリングまたは真空蒸着Ｃ２３Ｃ１４／００）［２００６．０１］	Chemical coating by decomposition of gaseous compounds, without leaving reaction products of surface material in the coating, i.e. chemical vapour deposition [CVD] processes (reactive sputtering or vacuum evaporation C23C 14/00) [2006.01]
+C23C  16/01  \	1	1	4K030	C23C  16/01	410	一時的な基板上に行うもの，例．エッチングによって結果的に除去されるような基板の上［７］	on temporary substrates, e.g. on substrates subsequently removed by etching [7]
+C23C  16/02  \	1	1	4K030	C23C  16/02	1599	被覆される材料の前処理（Ｃ２３Ｃ１６／０４が優先）［４］	Pretreatment of the material to be coated (C23C 16/04 takes precedence) [4]
+C23C  16/04  \	1	1	4K030	C23C  16/04	1000	選択された表面部分への被覆，例．マスクを用いるもの［４］	Coating on selected surface areas, e.g. using masks [4]
+C23C  16/06  \	1	1	4K030	C23C  16/06	592	金属質材料の析出に特徴のあるもの［４］	characterised by the deposition of metallic material [4]
+C23C  16/08  \	2	2	4K030	C23C  16/08	389	金属ハロゲン化物からのもの［４］	from metal halides [4]
+C23C  16/10  \	3	3	4K030	C23C  16/10	15	クロムのみの析出［４］	Deposition of chromium only [4]
+C23C  16/12  \	3	3	4K030	C23C  16/12	64	アルミニウムのみの折出［４］	Deposition of aluminium only [4]
+C23C  16/14  \	3	3	4K030	C23C  16/14	579	その他の１金属元素のみの析出［４］	Deposition of only one other metal element [4]
+C23C  16/16  \	2	2	4K030	C23C  16/16	255	金属カルボニル化合物からのもの［４］	from metal carbonyl compounds [4]
+C23C  16/18  \	2	2	4K030	C23C  16/18	1699	金属有機質化合物からのもの［４］	from metallo-organic compounds [4]
+C23C  16/20  \	3	3	4K030	C23C  16/20	155	アルミニウムのみの析出［４］	Deposition of aluminium only [4]
+C23C  16/22  \	1	1	4K030	C23C  16/22	226	金属質材料以外の無機質材料の析出に特徴のあるもの［４］	characterised by the deposition of inorganic material, other than metallic material [4]
+C23C  16/24  \	2	2	4K030	C23C  16/24	2385	けい素のみの析出［４］	Deposition of silicon only [4]
+C23C  16/26  \	2	2	4K030	C23C  16/26	2937	炭素のみの析出［４］	Deposition of carbon only [4]
+C23C  16/27  \	3	3	4K030	C23C  16/27	3337	ダイヤモンドのみの析出［７］	Diamond only [7]
+C23C  16/28  \	2	2	4K030	C23C  16/28	104	その他の１非金属元素のみの析出［４］	Deposition of only one other non-metal element [4]
+C23C  16/30  \	2	2	4K030	C23C  16/30	4063	化合物，混合物または固溶体の析出，例．ほう化物，炭化物，窒化物［４］	Deposition of compounds, mixtures or solid solutions, e.g. borides, carbides, nitrides [4]
+C23C  16/32  \	3	3	4K030	C23C  16/32	1127	炭化物［４］	Carbides [4]
+C23C  16/34  \	3	3	4K030	C23C  16/34	4407	窒化物［４］	Nitrides [4]
+C23C  16/36  \	3	3	4K030	C23C  16/36	963	炭窒化物［４］	Carbo-nitrides [4]
+C23C  16/38  \	3	3	4K030	C23C  16/38	280	ほう化物［４］	Borides [4]
+C23C  16/40  \	3	3	4K030	C23C  16/40	5133	酸化物［４］	Oxides [4]
+C23C  16/42  \	3	3	4K030	C23C  16/42	4342	けい化物［４］	Silicides [4]
+C23C  16/44  \	1	1	4K030	C23C  16/44	986	被覆の方法に特徴のあるもの（Ｃ２３Ｃ１６／０４が優先）［４］	characterised by the method of coating (C23C 16/04 takes precedence) [4]
+C23C  16/44  A	1	0	4K030	C23C  16/44	1099	方法	Methods
+C23C  16/44  B	1	0	4K030	C23C  16/44	2231	装置と関連するもの	Related to devices
+C23C  16/44  E	1	1	4K030	C23C  16/44	724	廃ガスの処理	Treatment of waste gas
+C23C  16/44  F	1	1	4K030	C23C  16/44	1309	基体の搬送	Transportation of bases
+C23C  16/44  G	1	1	4K030	C23C  16/44	395	基台の駆動	Driving of bases
+C23C  16/44  J	1	1	4K030	C23C  16/44	3772	反応物の除去、付着防止	Removal, prevention of attachment of reactants
+C23C  16/44  Z	1	0	4K030	C23C  16/44	405	その他	Others
+C23C  16/442  \	2	2	4K030	C23C  16/442	94	流体床法を用いるもの［７］	using fluidised bed processes [7]
+C23C  16/448  \	2	2	4K030	C23C  16/448	1997	反応性ガス流を発生させるために用いる方法に特徴があるもの，例．先行する材料の蒸発または昇華によるもの［７］	characterised by the method used for generating reactive gas streams, e.g. by evaporation or sublimation of precursor materials [7]
+C23C  16/452  \	3	3	4K030	C23C  16/452	315	反応室に導入する前に反応ガス流を活性化させることによるもの，例．反応種のイオン化または添加によるもの［７］	by activating reactive gas streams before introduction into the reaction chamber, e.g. by ionization or by addition of reactive species [7]
+C23C  16/453  \	2	2	4K030	C23C  16/453	71	反応ガスをバーナーまたはトーチへ通すもの，例．空気圧ＣＶＤ（Ｃ２３Ｃ１６／５１３が優先；溶解被覆材料の，火炎またはプラズマによるスプレー用のものＣ２３Ｃ４／００）［７］	passing the reaction gases through burners or torches, e.g. atmospheric pressure CVD (C23C 16/513 takes precedence; for flame or plasma spraying of coating material in the molten state C23C 4/00) [7]
+C23C  16/455  \	2	2	4K030	C23C  16/455	8029	ガスを反応室に導入するため，または反応室のガス流を変えるために使われる方法に特徴があるもの［７］	characterised by the method used for introducing gases into the reaction chamber or for modifying gas flows in the reaction chamber [7]
+C23C  16/458  \	2	2	4K030	C23C  16/458	2673	反応室の基板を支えるのに使われる方法に特徴があるもの［７］	characterised by the method used for supporting substrates in the reaction chamber [7]
+C23C  16/46  \	2	2	4K030	C23C  16/46	2539	基板を加熱するのに使われる方法に特徴があるもの（Ｃ２３Ｃ１６／４８，Ｃ２３Ｃ１６／５０が優先）［４］	characterised by the method used for heating the substrate (C23C 16/48, C23C 16/50 take precedence) [4]
+C23C  16/48  \	2	2	4K030	C23C  16/48	1501	放射によるもの，例．光分解，放射線分解，粒子放射［４］	by irradiation, e.g. photolysis, radiolysis, particle radiation [4]
+C23C  16/50  \	2	2	4K030	C23C  16/50	7993	放電を用いるもの［４］	using electric discharges [4]
+C23C  16/503  \	3	3	4K030	C23C  16/503	322	交流または直流放電を使用するもの［７］	using dc or ac discharges [7]
+C23C  16/505  \	3	3	4K030	C23C  16/505	1948	高周波放電によるもの［７］	using radio frequency discharges [7]
+C23C  16/507  \	4	4	4K030	C23C  16/507	516	外部電極，例．トンネル型のリアクトル，を用いるもの［７］	using external electrodes, e.g. in tunnel type reactors [7]
+C23C  16/509  \	4	4	4K030	C23C  16/509	1880	内部電極を用いるもの［７］	using internal electrodes [7]
+C23C  16/511  \	3	3	4K030	C23C  16/511	3593	マイクロ波放電を用いるもの［７］	using microwave discharges [7]
+C23C  16/513  \	3	3	4K030	C23C  16/513	253	プラズマジェットを用いるもの［７］	using plasma jets [7]
+C23C  16/515  \	3	3	4K030	C23C  16/515	474	パルス放電を用いるもの［７］	using pulsed discharges [7]
+C23C  16/517  \	3	3	4K030	C23C  16/517	77	Ｃ２３Ｃ１６／５０３〜Ｃ２３Ｃ１６／５１５のグループのうち二つ以上に分類される放電の組み合わせを用いるもの［７］	using a combination of discharges covered by two or more of groups C23C 16/503-C23C 16/515 [7]
+C23C  16/52  \	2	2	4K030	C23C  16/52	2850	被覆工程の制御または調整［４］	Controlling or regulating the coating process [4]
+C23C  16/54  \	2	2	4K030	C23C  16/54	1508	連続被覆に特に適合した装置［４］	Apparatus specially adapted for continuous coating [4]
+C23C  16/56  \	1	1	4K030	C23C  16/56	1350	後処理［４］	After-treatment [4]
+C23C  18/00  \	0	0	4K022	C23C  18/00	195	液状化合物または溶液のいずれかからなる被覆形成化合物の分解による化学的被覆であって表面材料の反応生成物を被覆層中に残さないもの；接触メッキ［４］	Chemical coating by decomposition of either liquid compounds or solutions of the coating forming compounds, without leaving reaction products of surface material in the coating; Contact plating [4]
+C23C  18/02  \	1	1	4K022	C23C  18/02	187	熱分解によるもの［４］	by thermal decomposition [4]
+C23C  18/04  \	2	2	4K022	C23C  18/04	51	被覆される材料の前処理（Ｃ２３Ｃ１８／０６が優先）［４］	Pretreatment of the material to be coated (C23C 18/06 takes precedence) [4]
+C23C  18/06  \	2	2	4K022	C23C  18/06	50	選択された表面部分の被覆，例．マスクを用いるもの［４］	Coating on selected surface areas, e.g. using masks [4]
+C23C  18/08  \	2	2	4K022	C23C  18/08	395	金属質材料の析出に特徴のあるもの［４］	characterised by the deposition of metallic material [4]
+C23C  18/10  \	3	3	4K022	C23C  18/10	54	アルミニウムのみの析出［４］	Deposition of aluminium only [4]
+C23C  18/12  \	2	2	4K022	C23C  18/12	1327	金属質材料以外の無機質材料の析出に特徴のあるもの［４］	characterised by the deposition of inorganic material other than metallic material [4]
+C23C  18/14  \	1	1	4K022	C23C  18/14	265	放射による分解，例．光分解，粒子放射［４］	Decomposition by irradiation, e.g. photolysis, particle radiation [4]
+C23C  18/16  \	1	1	4K022	C23C  18/16	2006	還元または置換によるもの，例．無電解メッキ（Ｃ２３Ｃ１８／５４が優先）［４］	by reduction or substitution, i.e. electroless plating (C23C 18/54 takes precedence) [4]
+C23C  18/16  A	1	0	4K022	C23C  18/16	1666	樹脂表面へのメッキ	Characterized by plastic substrates
+C23C  18/16  B	1	0	4K022	C23C  18/16	526	半導体表面へのメツキ	Plating on semiconductor surfaces
+C23C  18/16  Z	1	0	4K022	C23C  18/16	832	その他（含　廃液処理、後処理）	Others
+C23C  18/18  \	2	2	4K022	C23C  18/18	2349	被覆される材料の前処理［４］	Pretreatment of the material to be coated [4]
+C23C  18/20  \	3	3	4K022	C23C  18/20	339	有機質表面の前処理，例．樹脂［４］	of organic surfaces, e.g. resins [4]
+C23C  18/20  A	3	0	4K022	C23C  18/20	500	電磁波照射	Irradiation of electromagnetic waves
+C23C  18/20  Z	3	0	4K022	C23C  18/20	1311	その他	Others
+C23C  18/22  \	4	4	4K022	C23C  18/22	490	粗面化，例．エッチングによるもの［４］	Roughening, e.g. by etching [4]
+C23C  18/24  \	5	5	4K022	C23C  18/24	300	酸性水溶液を用いるもの［４］	using acid aqueous solutions [4]
+C23C  18/26  \	5	5	4K022	C23C  18/26	138	有機質液体を用いるもの［４］	using organic liquids [4]
+C23C  18/28  \	4	4	4K022	C23C  18/28	640	増感処理または活性化処理［４］	Sensitising or activating [4]
+C23C  18/30  \	5	5	4K022	C23C  18/30	1053	活性化処理［４］	Activating [4]
+C23C  18/31  \	2	2	4K022	C23C  18/31	113	金属による被覆［５］	Coating with metals [5]
+C23C  18/31  A	2	0	4K022	C23C  18/31	2519	特定物品〔除、プリント配線板〕への被覆	Coating on specific articles (excluding printed boards)
+C23C  18/31  E	2	0	4K022	C23C  18/31	1901	装置	Devices
+C23C  18/31  Z	2	0	4K022	C23C  18/31	1435	その他	Others
+C23C  18/32  \	3	3	4K022	C23C  18/32	910	鉄，コバルトまたはニッケルのうちいずれか一種による被覆；これら金属の１つとりんまたはほう素の混合物で被覆するもの［４，５］	Coating with one of iron, cobalt or nickel; Coating with mixtures of phosphorus or boron with one of these metals [4,5]
+C23C  18/34  \	4	4	4K022	C23C  18/34	1230	還元剤を用いるもの［４，５］	using reducing agents [4,5]
+C23C  18/36  \	5	5	4K022	C23C  18/36	797	次亜りん酸塩を用いるもの［４，５］	using hypophosphites [4,5]
+C23C  18/38  \	3	3	4K022	C23C  18/38	547	銅による被覆［４，５］	Coating with copper [4,5]
+C23C  18/40  \	4	4	4K022	C23C  18/40	1694	還元剤を用いるもの［４，５］	using reducing agents [4,5]
+C23C  18/42  \	3	3	4K022	C23C  18/42	722	貴金属による被覆［４，５］	Coating with noble metals [4,5]
+C23C  18/44  \	4	4	4K022	C23C  18/44	1095	還元剤を用いるもの［４，５］	using reducing agents [4,5]
+C23C  18/48  \	2	2	4K022	C23C  18/48	336	合金による被覆［４，５］	Coating with alloys [4,5]
+C23C  18/50  \	3	3	4K022	C23C  18/50	479	鉄，コバルトまたはニッケルを基とする合金によるもの（Ｃ２３Ｃ１８／３２が優先）［４，５］	with alloys based on iron, cobalt or nickel (C23C 18/32 takes precedence) [4,5]
+C23C  18/52  \	2	2	4K022	C23C  18/52	107	グループＣ２３Ｃ１８／３２〜Ｃ２３Ｃ１８／５０の単一グループに分類されない金属質材料による被覆のために還元剤を用いるもの［４］	using reducing agents for coating with metallic material not provided for in a single one of groups C23C 18/32-C23C 18/50 [4]
+C23C  18/52  A	2	0	4K022	C23C  18/52	533	粒子分散複合メツキ液を用いるもの	Using grain diffusion composite plating liquid
+C23C  18/52  B	2	0	4K022	C23C  18/52	779	多層メツキ	Laminated plating
+C23C  18/52  Z	2	0	4K022	C23C  18/52	115	その他	Others
+C23C  18/54  \	1	1	4K022	C23C  18/54	110	接触メッキ，すなわち無電解電気化学メッキ［４］	Contact plating, i.e. electroless electrochemical plating [4]
+C23C  20/00  \	0	0	4K022	C23C  20/00	115	固体化合物または懸濁物のいずれかからなる被覆形成化合物の分解による化学的被覆であって，表面材料の反応生成物を被覆層中に残さないもの［４］	Chemical coating by decomposition of either solid compounds or suspensions of the coating forming compounds, without leaving reaction products of surface material in the coating [4]
+C23C  20/02  \	1	1	4K022	C23C  20/02	64	金属質材料による被覆［４］	Coating with metallic material [4]
+C23C  20/04  \	2	2	4K022	C23C  20/04	134	金属によるもの［４］	with metals [4]
+C23C  20/06  \	1	1	4K022	C23C  20/06	130	金属質材料以外の無機質材料による被覆［４］	Coating with inorganic material, other than metallic material [4]
+C23C  20/08  \	2	2	4K022	C23C  20/08	244	化合物，混合物または固溶体によるもの，例．ほう化物，炭化物，窒化物［４］	with compounds, mixtures or solid solutions, e.g. borides, carbides, nitrides [4]
+C23C  22/00  \	0	0	4K026	C23C  22/00	77	表面と反応性液体との反応による金属質材料の化学的表面処理であって，表面材料の反応生成物を被覆層中に残すもの，例．化成被覆（ｃｏｎｖｅｒｓｉｏｎｃｏａｔｉｎｇｓ）金属の不動態化［４］	Chemical surface treatment of metallic material by reaction of the surface with a reactive liquid, leaving reaction products of surface material in the coating, e.g. conversion coatings, passivation of metals [4]
+C23C  22/00  A	0	0	4K026	C23C  22/00	1031	電磁鋼板〔フオルステライト被膜が主〕	Electromagnetic steel plate (mainly forsterite coating)
+C23C  22/00  B	0	1	4K026	C23C  22/00	755	りん酸，クロム酸を用いるもの	Using phosphoric acid, chromic acid
+C23C  22/00  Z	0	0	4K026	C23C  22/00	2058	その他	Others
+C23C  22/02  \	1	1	4K026	C23C  22/02	175	非水溶液を用いるもの［４］	using non-aqueous solutions [4]
+C23C  22/03  \	2	2	4K026	C23C  22/03	95	りん化合物を含むもの［４］	containing phosphorus compounds [4]
+C23C  22/04  \	2	2	4K026	C23C  22/04	31	６価クロム化合物を含むもの［４］	containing hexavalent chromium compounds [4]
+C23C  22/05  \	1	1	4K026	C23C  22/05	266	水溶液を使用するもの［５］	using aqueous solutions [5]
+C23C  22/06  \	2	2	4K026	C23C  22/06	242	ｐＨ＜６の酸性水溶液を用いるもの［４，５］	using aqueous acidic solutions with pH &lt; 6 [4,5]
+C23C  22/07  \	3	3	4K026	C23C  22/07	1149	りん酸塩を含むもの［４，５］	containing phosphates [4,5]
+C23C  22/08  \	4	4	4K026	C23C  22/08	413	オルトりん酸塩を含むもの［４，５］	Orthophosphates [4,5]
+C23C  22/10  \	5	5	4K026	C23C  22/10	93	酸化剤を含むもの［４，５］	containing oxidants [4,5]
+C23C  22/12  \	5	5	4K026	C23C  22/12	587	亜鉛のカチオンを含むもの［４，５］	containing zinc cations [4,5]
+C23C  22/13  \	6	6	4K026	C23C  22/13	195	硝酸または亜硝酸のアニオンをさらに含むもの［４，５］	containing also nitrate or nitrite anions [4,5]
+C23C  22/14  \	6	6	4K026	C23C  22/14	42	塩素酸アニオンをさらに含むもの［４，５］	containing also chlorate anions [4,5]
+C23C  22/16  \	6	6	4K026	C23C  22/16	39	過酸化物をさらに含むもの［４，５］	containing also peroxy-compounds [4,5]
+C23C  22/17  \	6	6	4K026	C23C  22/17	134	有機酸をさらに含むもの［４，５］	containing also organic acids [4,5]
+C23C  22/18  \	5	5	4K026	C23C  22/18	336	マンガンカチオンを含むもの［４，５］	containing manganese cations [4,5]
+C23C  22/20  \	5	5	4K026	C23C  22/20	194	アルミニウムカチオンを含むもの［４，５］	containing aluminium cations [4,5]
+C23C  22/22  \	5	5	4K026	C23C  22/22	252	アルカリ土類金属のカチオンを含むもの［４，５］	containing alkaline earth metal cations [4,5]
+C23C  22/23  \	4	4	4K026	C23C  22/23	111	縮合りん酸塩を含むもの［４，５］	Condensed phosphates [4,5]
+C23C  22/24  \	3	3	4K026	C23C  22/24	1123	６価クロム化合物を含むもの［４，５］	containing hexavalent chromium compounds [4,5]
+C23C  22/26  \	4	4	4K026	C23C  22/26	118	有機化合物をさらに含むもの［４，５］	containing also organic compounds [4,5]
+C23C  22/27  \	5	5	4K026	C23C  22/27	73	酸を含むもの［４，５］	Acids [4,5]
+C23C  22/28  \	5	5	4K026	C23C  22/28	261	高分子化合物を含むもの［４，５］	Macromolecular compounds [4,5]
+C23C  22/30  \	4	4	4K026	C23C  22/30	641	３価クロムをさらに含むもの［４，５］	containing also trivalent chromium [4,5]
+C23C  22/32  \	4	4	4K026	C23C  22/32	43	粉末状金属をさらに含むもの［４，５］	containing also pulverulent metals [4,5]
+C23C  22/33  \	4	4	4K026	C23C  22/33	325	りん酸塩をさらに含むもの［４，５］	containing also phosphates [4,5]
+C23C  22/34  \	3	3	4K026	C23C  22/34	903	ふっ化物または錯ふっ化物を含むもの［４，５］	containing fluorides or complex fluorides [4,5]
+C23C  22/36  \	4	4	4K026	C23C  22/36	481	りん酸塩をさらに含むもの［４，５］	containing also phosphates [4,5]
+C23C  22/37  \	4	4	4K026	C23C  22/37	114	６価クロム化合物をさらに含むもの［４，５］	containing also hexavalent chromium compounds [4,5]
+C23C  22/38  \	5	5	4K026	C23C  22/38	105	りん酸塩をさらに含むもの［４，５］	containing also phosphates [4,5]
+C23C  22/40  \	3	3	4K026	C23C  22/40	337	モリブデン酸塩，タングステン酸塩またはバナジン酸塩を含むもの［４，５］	containing molybdates, tungstates or vanadates [4,5]
+C23C  22/42  \	4	4	4K026	C23C  22/42	280	りん酸塩をさらに含むもの［４，５］	containing also phosphates [4,5]
+C23C  22/43  \	4	4	4K026	C23C  22/43	25	６価クロム化合物をさらに含むもの［４，５］	containing also hexavalent chromium compounds [4,5]
+C23C  22/44  \	4	4	4K026	C23C  22/44	193	ふっ化物または錯ふっ化物をさらに含むもの［４，５］	containing also fluorides or complex fluorides [4,5]
+C23C  22/46  \	3	3	4K026	C23C  22/46	118	しゅう酸塩を含むもの［４，５］	containing oxalates [4,5]
+C23C  22/47  \	4	4	4K026	C23C  22/47	23	りん酸塩をさらに含むもの［４，５］	containing also phosphates [4,5]
+C23C  22/48  \	3	3	4K026	C23C  22/48	240	りん酸塩，６価クロム化合物，ふっ化物もしくは錯ふっ化物，モリブデン酸塩，タングステン酸塩，バナジン酸塩またはしゅう酸塩を含まないもの［４，５］	not containing phosphates, hexavalent chromium compounds, fluorides or complex fluorides, molybdates, tungstates, vanadates or oxalates [4,5]
+C23C  22/50  \	4	4	4K026	C23C  22/50	444	鉄または鉄を基とする合金の処理［４，５］	Treatment of iron or alloys based thereon [4,5]
+C23C  22/52  \	4	4	4K026	C23C  22/52	262	銅または銅を基とする合金の処理［４，５］	Treatment of copper or alloys based thereon [4,5]
+C23C  22/53  \	4	4	4K026	C23C  22/53	474	亜鉛または亜鉛を基とする合金の処理［４，５］	Treatment of zinc or alloys based thereon [4,5]
+C23C  22/54  \	4	4	4K026	C23C  22/54	41	耐火金属または耐火金属を基とする合金の処理［４，５］	Treatment of refractory metals or alloys based thereon [4,5]
+C23C  22/56  \	4	4	4K026	C23C  22/56	424	アルミニウムまたはアルミニウムを基とする合金の処理［４，５］	Treatment of aluminium or alloys based thereon [4,5]
+C23C  22/57  \	4	4	4K026	C23C  22/57	97	マグネシウムまたはマグネシウムを基とする合金の処理［４，５］	Treatment of magnesium or alloys based thereon [4,5]
+C23C  22/58  \	4	4	4K026	C23C  22/58	103	その他金属質材料の処理［４，５］	Treatment of other metallic material [4,5]
+C23C  22/60  \	2	2	4K026	C23C  22/60	325	ｐＨ＞８のアルカリ性水溶液を用いるもの［４，５］	using alkaline aqueous solutions with pH &gt; 8 [4,5]
+C23C  22/62  \	3	3	4K026	C23C  22/62	244	鉄または鉄を基とする合金の処理［４，５］	Treatment of iron or alloys based thereon [4,5]
+C23C  22/63  \	3	3	4K026	C23C  22/63	196	銅または銅を基とする合金の処理［４，５］	Treatment of copper or alloys based thereon [4,5]
+C23C  22/64  \	3	3	4K026	C23C  22/64	18	耐火金属または耐火金属を基とする合金の処理［４，５］	Treatment of refractory metals or alloys based thereon [4,5]
+C23C  22/66  \	3	3	4K026	C23C  22/66	434	アルミニウムまたはアルミニウムを基とする合金の処理［４，５］	Treatment of aluminium or alloys based thereon [4,5]
+C23C  22/67  \	4	4	4K026	C23C  22/67	22	６価クロムを含む溶液によるもの［４，５］	with solutions containing hexavalent chromium [4,5]
+C23C  22/68  \	2	2	4K026	C23C  22/68	652	ｐＨ６〜８の水溶液を用いるもの［４，５］	using aqueous solutions with pH between 6 and 8 [4,5]
+C23C  22/70  \	1	1	4K026	C23C  22/70	24	溶融物を用いるもの［４］	using melts [4]
+C23C  22/72  \	2	2	4K026	C23C  22/72	36	鉄または鉄を基とする合金の処理［４］	Treatment of iron or alloys based thereon [4]
+C23C  22/73  \	1	1	4K026	C23C  22/73	68	方法に特徴のあるもの［４］	characterised by the process [4]
+C23C  22/73  A	1	0	4K026	C23C  22/73	732	装置に特徴のあるもの〔スプレ−除く〕	Characterized by devices (excluding sprays)
+C23C  22/73  Z	1	0	4K026	C23C  22/73	388	その他	Others
+C23C  22/74  \	2	2	4K026	C23C  22/74	284	焼付け化成被覆層を得るためのもの［４］	for obtaining burned-in conversion coatings [4]
+C23C  22/76  \	2	2	4K026	C23C  22/76	159	スプレーにより液体を適用するもの［４］	Applying the liquid by spraying [4]
+C23C  22/77  \	2	2	4K026	C23C  22/77	223	被覆工程の制御または調整［４］	Controlling or regulating of the coating process [4]
+C23C  22/78  \	1	1	4K026	C23C  22/78	1244	被覆される材料の前処理［４］	Pretreatment of the material to be coated [4]
+C23C  22/80  \	2	2	4K026	C23C  22/80	122	チタニウムまたはジルコニウム化合物を含む溶液によるもの［４］	with solutions containing titanium or zirconium compounds [4]
+C23C  22/82  \	1	1	4K026	C23C  22/82	568	後処理［４］	After-treatment [4]
+C23C  22/83  \	2	2	4K026	C23C  22/83	548	化学的後処理［４］	Chemical after-treatment [4]
+C23C  22/84  \	2	2	4K026	C23C  22/84	47	染色［４］	Dyeing [4]
+C23C  22/86  \	1	1	4K026	C23C  22/86	207	被覆浴の再生［４］	Regeneration of coating baths [4]
+C23C  24/00  \	0	0	4K044	C23C  24/00	225	無機質粉末から出発する被覆（溶融状態にある被覆材料のスプレーＣ２３Ｃ４／００；固相拡散Ｃ２３Ｃ８／００〜Ｃ２３Ｃ１２／００）［４］	Coating starting from inorganic powder (spraying of the coating material in molten state C23C4/00; solid state diffusion C23C8/00-C23C12/00) [4]
+C23C  24/02  \	1	1	4K044	C23C  24/02	91	圧力のみを加えることによるもの［４］	by application of pressure only [4]
+C23C  24/04  \	2	2	4K044	C23C  24/04	1552	粒子の衝撃析出または動力学的析出［４］	Impact or kinetic deposition of particles [4]
+C23C  24/06  \	2	2	4K044	C23C  24/06	104	粉末状被覆物質を加圧するもの，例．圧延によるもの［４］	Compressing powdered coating material, e.g. by milling [4]
+C23C  24/08  \	1	1	4K044	C23C  24/08	64	熱または圧力と熱の適用によるもの（Ｃ２３Ｃ２４／０４が優先）［４］	by application of heat or pressure and heat (C23C 24/04 takes precedence) [4]
+C23C  24/08  A	1	0	4K044	C23C  24/08	300	金属質材料による被覆	Coating by metallic material
+C23C  24/08  B	1	1	4K044	C23C  24/08	478	金属材料	Metallic material
+C23C  24/08  C	1	0	4K044	C23C  24/08	670	無機質非金属質材料による被覆	Coating by inorganic non-metallic material
+C23C  24/08  Z	1	0	4K044	C23C  24/08	92	その他のもの	Others
+C23C  24/10  \	2	2	4K044	C23C  24/10	42	層内で液相の中間形成によるもの［４］	with intermediate formation of a liquid phase in the layer [4]
+C23C  24/10  A	2	0	4K044	C23C  24/10	116	金属質材料による被覆	Coating by metallic material
+C23C  24/10  B	2	1	4K044	C23C  24/10	157	金属材料	Metallic material
+C23C  24/10  D	2	2	4K044	C23C  24/10	39	低溶点材料のみが溶融するもの	With only low melting point materials melting
+C23C  24/10  C	2	0	4K044	C23C  24/10	85	無機質非金属質材料による被覆	Coating by inorganic non-metallic material
+C23C  24/10  Z	2	0	4K044	C23C  24/10	28	その他のもの	Others
+C23C  26/00  \	0	0	4K044	C23C  26/00	84	グループＣ２３Ｃ２／００〜Ｃ２３Ｃ２４／００に分類されない被覆［４］	Coating not provided for in groups C23C 2/00-C23C 24/00 [4]
+C23C  26/00  A	0	0	4K044	C23C  26/00	2025	被覆材料〔Ｄ〜Ｍが優先〕	Coating material (D to M take precedence)
+C23C  26/00  B	0	1	4K044	C23C  26/00	536	金属質材料	Metallic material
+C23C  26/00  N	0	2	4K044	C23C  26/00	47	層内で液相の中間形成によるもの	With intermediate formation of a liquid phase in the layer
+C23C  26/00  C	0	1	4K044	C23C  26/00	2121	無機質非金属質材料	Inorganic non-metallic material
+C23C  26/00  D	0	0	4K044	C23C  26/00	461	放電被覆	Discharge coating
+C23C  26/00  G	0	1	4K044	C23C  26/00	174	接触開離によるもの	By contact opening
+C23C  26/00  E	0	0	4K044	C23C  26/00	850	高エネルギ−定を適用するもの〔基材までとかす場合も含む〕	Applying high energy fixing (including cases where subtracted are melted)
+C23C  26/00  H	0	1	4K044	C23C  26/00	60	添加成分が気体であるもの	With gaseous additional ingredients being
+C23C  26/00  J	0	1	4K044	C23C  26/00	65	添加成分を用いないもの	Without using additional ingredients
+C23C  26/00  F	0	0	4K044	C23C  26/00	193	着色	Colouring
+C23C  26/00  K	0	0	4K044	C23C  26/00	182	含浸，充填	Impregnation, filling
+C23C  26/00  L	0	0	4K044	C23C  26/00	103	被覆方法に特徴のない表面処理工程	Surface treatment process not characterized by coating method
+C23C  26/00  M	0	1	4K044	C23C  26/00	190	被膜への処理，例．放電，摩擦力〔基材をとかさない場合〕	Treatment of coating, e.g. discharge, friction (when substrate is no melted
+C23C  26/00  Z	0	0	4K044	C23C  26/00	633	その他のもの	Others
+C23C  26/02  \	1	1	4K044	C23C  26/02	171	基板に溶融材料を適用するもの［４］	applying molten material to the substrate [4]
+C23C  28/00  \	0	0	4K044	C23C  28/00	77	メイングループＣ２３Ｃ２／００からＣ２３Ｃ２６／００の単一のメイングループに分類されない方法によるかまたはサブクラスＣ２３ＣおよびＣ２５Ｄに分類される方法の組合わせによる少なくとも２以上の重ね合わせ被覆層を得るための被覆［４］	Coating for obtaining at least two superposed coatings either by methods not provided for in a single one of main groups C23C 2/00-C23C 26/00, or by combinations of methods provided for in subclasses C23C and C25D [4]
+C23C  28/00  A	0	0	4K044	C23C  28/00	1910	金属質材料の被覆を有するもの	Having coating of metallic material
+C23C  28/00  B	0	1	4K044	C23C  28/00	2535	金属質材料と無機質非金属質材料の被覆を有するもの	Having coating of metallic material and inorganic non-metallic material
+C23C  28/00  C	0	2	4K044	C23C  28/00	3142	無機質非金属質材料の被覆が化成処理によるもの〔含陽極酸化，電解クロメ−ト〕	With reduction-treated inorganic non-metallic material coating (including anode oxidation, electrolytic chromate)
+C23C  28/00  D	0	0	4K044	C23C  28/00	221	非金属基材への被覆	Coating on non-metal substrates
+C23C  28/00  E	0	0	4K044	C23C  28/00	287	パタ−ンの形成；部分被覆	Formation of patterns; partial coating
+C23C  28/00  Z	0	0	4K044	C23C  28/00	983	その他のもの	Others
+C23C  28/02  \	1	1	4K044	C23C  28/02	2015	金属質材料のみの被覆［４］	only coatings of metallic material [4]
+C23C  28/04  \	1	1	4K044	C23C  28/04	1449	無機質非金属材料のみの被覆［４］	only coatings of inorganic non-metallic material [4]
+C23C  30/00  \	0	0	4K044	C23C  30/00	97	金属材料の組成にのみ特徴のある金属質材料による被覆，すなわち被覆方法に特徴のないもの（Ｃ２３Ｃ２６／００，Ｃ２３Ｃ２８／００が優先）［４］	Coating with metallic material characterised only by the composition of the metallic material, i.e. not characterised by the coating process (C23C 26/00, C23C 28/00 take precedence) [4]
+C23C  30/00  A	0	0	4K044	C23C  30/00	717	金属質材料による被覆	Coating by metallic material
+C23C  30/00  B	0	1	4K044	C23C  30/00	1175	金属材料による被覆	Coating by metallic material
+C23C  30/00  D	0	0	4K044	C23C  30/00	100	非金属基材への被覆	Coating on non-metal substrates
+C23C  30/00  E	0	0	4K044	C23C  30/00	71	パタ−ンの形成；部分被覆	Formation of patterns; partial coating
+C23C  30/00  Z	0	0	4K044	C23C  30/00	194	その他のもの	Others

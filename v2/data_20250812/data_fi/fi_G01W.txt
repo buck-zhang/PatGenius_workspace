@@ -1,0 +1,99 @@
+G01W   1/00  \	0	0	2G089	G01W   1/00	7	気象学	Meteorology
+G01W   1/00  A	0	0	2G089	G01W   1/00	307	大気の移動・拡散現象の解析，検出	Analysis and detection of atmospheric  movement and dispersion
+G01W   1/00  C	0	0	2G089	G01W   1/00	336	レ−ダ−気象一般	Radar - meteorology in general
+G01W   1/00  E	0	0	2G089	G01W   1/00	80	雲高計，雲の存在の検知	Ceilometer to detect the presence of clouds
+G01W   1/00  G	0	0	2G089	G01W   1/00	60	氷，霜の検知〔Ｊ優先〕	Detection of ice and frost  (J takes precedence)
+G01W   1/00  J	0	0	2G089	G01W   1/00	496	路面の状態判別，路面の凍結検知	Evaluation of road surface and detection of frozen road surface
+G01W   1/00  L	0	0	2G089	G01W   1/00	99	記録手段一般	Recording means in general
+G01W   1/00  Z	0	0	2G089	G01W   1/00	586	その他	Others
+G01W   1/02  \	1	1	2G089	G01W   1/02	3	２以上の変量，例．湿度，気圧，温度，雲量，風速，の測定による天気状況を指示する計器（Ｇ０１Ｗ１／１０が優先）	Instruments for indicating weather conditions by measuring two or more variables, e.g. humidity, pressure, temperature, cloud cover, wind speed (G01W 1/10 takes precedence)
+G01W   1/02  A	1	0	2G089	G01W   1/02	298	デ−タ収集の方法に特徴のあるもの	Characterized by data collection method
+G01W   1/02  B	1	0	2G089	G01W   1/02	171	信号処理に特徴のあるもの	Characterized by signal processing
+G01W   1/02  C	1	0	2G089	G01W   1/02	199	表示方法に特徴のあるもの	Characterized by display method
+G01W   1/02  Z	1	0	2G089	G01W   1/02	158	その他	Others
+G01W   1/04  \	2	2	2G089	G01W   1/04	18	測定された変量を別々に指示するもの	giving only separate indications of the variables measured
+G01W   1/06  \	2	2	2G089	G01W   1/06	61	天気状況を総合して指示するもの（天気状況または人体に対する空気の影響のいずれかに関係する“冷却値”を測定するカタ温度計Ｇ０１Ｗ１／１７）	giving a combined indication of weather conditions (catathermometers for measuring "cooling value" related either to weather conditions or to comfort of other human environment G01W 1/17)
+G01W   1/08  \	1	1	2G089	G01W   1/08	2	気象目的のための気球，ミサイルまたは航空機の適合；ラジオゾンデ	Adaptations of balloons, missiles, or aircraft for meteorological purposes; Radiosondes
+G01W   1/08  A	1	0	2G089	G01W   1/08	5	ミサイルの利用	Using missiles
+G01W   1/08  C	1	0	2G089	G01W   1/08	74	航空機の利用	Using aircraft
+G01W   1/08  E	1	0	2G089	G01W   1/08	70	気球の利用	Using balloons
+G01W   1/08  G	1	0	2G089	G01W   1/08	73	ブイ・船舶の利用	Using buoys and ships
+G01W   1/08  H	1	0	2G089	G01W   1/08	41	ラジオゾンデ	Radiosonde
+G01W   1/08  J	1	1	2G089	G01W   1/08	39	ラジオゾンデそれ自体の構造	Structure of radiosonde
+G01W   1/08  K	1	1	2G089	G01W   1/08	27	気象変数の測定	Measurement of meteorological variables
+G01W   1/08  L	1	2	2G089	G01W   1/08	49	単一変数の測定	Measurement of a single variable
+G01W   1/08  P	1	0	2G089	G01W   1/08	193	気象衛星の利用	Use of  meteorological satellites
+G01W   1/08  R	1	0	2G089	G01W   1/08	12	Ａ〜Ｐ以外の手段の利用，複数手段の利用	Use of  means other than A to P, use of multiple means
+G01W   1/08  T	1	0	2G089	G01W   1/08	13	信号処理	Signal processing
+G01W   1/08  U	1	1	2G089	G01W   1/08	47	送信手段に特徴のあるもの	Characterized by  transmission means
+G01W   1/08  Z	1	0	2G089	G01W   1/08	61	その他	Others
+G01W   1/10  \	1	1	2G089	G01W   1/10	6	天気状況の予報装置	Devices for predicting weather conditions
+G01W   1/10  A	1	0	2G089	G01W   1/10	29	降霜，着氷の予知	Prediction of  frosting and icing
+G01W   1/10  B	1	1	2G089	G01W   1/10	92	路面の凍結予知	Prediction of  frozen road surfaces
+G01W   1/10  D	1	0	2G089	G01W   1/10	118	測定された気象変数に基づく予知〔Ａ，Ｂ優先〕	Prediction based on measured meteorological variables (A and B take preference)
+G01W   1/10  E	1	1	2G089	G01W   1/10	106	雷雲からの情報に基づく予知〔落雷に伴う発光等〕	Prediction based on iinformation from thundercloud (lightening resulting from thunderbolt)
+G01W   1/10  F	1	2	2G089	G01W   1/10	44	空間電位の変化	Change in spatial potential
+G01W   1/10  H	1	1	2G089	G01W   1/10	55	日射量に基づく予知	Prediction based on rate of solar radiation
+G01W   1/10  K	1	1	2G089	G01W   1/10	75	湿度，温度に基づく予知	Prediction based on humidity and temperature
+G01W   1/10  M	1	1	2G089	G01W   1/10	149	気圧に基づく予知	Prediction based on atmospheric pressure
+G01W   1/10  P	1	1	2G089	G01W   1/10	280	降雨，降雪に基づく予知	Prediction based on precipitation and snowfall
+G01W   1/10  R	1	1	2G089	G01W   1/10	119	複数の気象変数に基づく予知〔Ｅ優先〕	Prediction based on multiple meteorologiacl variables (E takes precedence)
+G01W   1/10  T	1	0	2G089	G01W   1/10	195	レ−ダ−情報に基づく予知	Prediction based on radar information
+G01W   1/10  U	1	0	2G089	G01W   1/10	54	目覚し時計等日常生活品と組み合わせたもの	A combination with daily supplies including alarm clocks
+G01W   1/10  Z	1	0	2G089	G01W   1/10	190	その他	Others
+G01W   1/11  \	1	1	2G089	G01W   1/11	1	大気中の湿度を表示するための装置	Devices for indicating atmospheric humidity
+G01W   1/11  A	1	0	2G089	G01W   1/11	22	防雨，防風手段；百葉箱	Rain and wind protecting means; instrument shelter
+G01W   1/11  C	1	0	2G089	G01W   1/11	31	湿度計自体	Hygrometer
+G01W   1/11  D	1	1	2G089	G01W   1/11	23	光学的〔色変化〕，機械的〔伸び〕手段の利用	Using optical (color change)  and mechanical (elongation) means
+G01W   1/11  E	1	1	2G089	G01W   1/11	28	電気的手段の利用	Using the electrical means
+G01W   1/11  F	1	2	2G089	G01W   1/11	40	検出部の構造，材料	Structure and material of detector
+G01W   1/11  H	1	0	2G089	G01W   1/11	51	結露の検出	Detection of  dew condensation
+G01W   1/11  J	1	1	2G089	G01W   1/11	18	光学的手段の利用	Using the optical means
+G01W   1/11  L	1	0	2G089	G01W   1/11	14	日常生活品との組み合わせ	Combination with daily supplies
+G01W   1/11  Z	1	0	2G089	G01W   1/11	30	その他	Others
+G01W   1/12  \	1	1	2G089	G01W   1/12	1	自記日照（時間）計	Sunshine-duration recorders
+G01W   1/12  A	1	0	2G089	G01W   1/12	71	日照計	Heliograph
+G01W   1/12  B	1	1	2G089	G01W   1/12	95	日照強度の測定に特徴のあるもの	Characterized by measurement of  sunshine intensity
+G01W   1/12  C	1	2	2G089	G01W   1/12	42	太陽の方位，高度の補償	Compensation for sun direction and altitude
+G01W   1/12  D	1	2	2G089	G01W   1/12	54	受光部に特徴のあるもの〔Ｃ優先〕	Characterized by light receiver (C takes precedence)
+G01W   1/12  G	1	0	2G089	G01W   1/12	22	雲の判別を行なうもの	Evaluating clouds
+G01W   1/12  J	1	0	2G089	G01W   1/12	78	日照，日影の範囲，時間の算出具	An instruments to calculate the range and time of sunshine and eclipse
+G01W   1/12  K	1	1	2G089	G01W   1/12	95	シミユレ−タ	Simulator
+G01W   1/12  Z	1	0	2G089	G01W   1/12	73	その他	Others
+G01W   1/14  \	1	1	2G089	G01W   1/14	7	雨量計または降水量計	Rainfall or precipitation gauges
+G01W   1/14  A	1	0	2G089	G01W   1/14	56	単一の測定手段からなるもの	Comprising of  single measuring means
+G01W   1/14  B	1	1	2G089	G01W   1/14	579	光を利用したもの	Using light
+G01W   1/14  C	1	1	2G089	G01W   1/14	115	音波を利用したもの	Using sound wave
+G01W   1/14  D	1	1	2G089	G01W   1/14	47	温度を利用したもの	Using temperature
+G01W   1/14  E	1	1	2G089	G01W   1/14	139	放射線，電磁波を利用したもの	Using radiation and electromagnetic wave
+G01W   1/14  F	1	1	2G089	G01W   1/14	277	電気抵抗・容量を利用したもの	Using  electric resistance and capacitance
+G01W   1/14  G	1	1	2G089	G01W   1/14	110	圧力，重量を利用したもの	Using pressure and weight
+G01W   1/14  H	1	1	2G089	G01W   1/14	13	測定器の昇降量を利用したもの	Using the elevation of  measuring instruments
+G01W   1/14  J	1	0	2G089	G01W   1/14	44	複数手段の利用	Using multiple means
+G01W   1/14  K	1	0	2G089	G01W   1/14	74	降雨，降雪用の受けます，管，槽を有すもの	A measure to receive rainwater and snowfall, provided with a pipe and tank
+G01W   1/14  L	1	1	2G089	G01W   1/14	93	転倒ます型	An inserted measure
+G01W   1/14  M	1	2	2G089	G01W   1/14	59	計数方法に特徴のあるもの	Characterized by  counting method
+G01W   1/14  N	1	1	2G089	G01W   1/14	165	貯水型	Water storage type
+G01W   1/14  P	1	1	2G089	G01W   1/14	38	水滴計数，流量測定を行なうもの	Counting water drops and measuring flow rate
+G01W   1/14  Q	1	0	2G089	G01W   1/14	155	雨と雪の判別，雪の状態をみるもの	Identifying between rain and snow, and checking the conditions of snow
+G01W   1/14  Z	1	0	2G089	G01W   1/14	156	その他	Others
+G01W   1/16  \	1	1	2G089	G01W   1/16	5	大気中の電位差測定，例．雲の帯電によるもの	Measuring atmospheric potential differences, e.g. due to electrical charges in clouds
+G01W   1/16  A	1	0	2G089	G01W   1/16	76	空間電位の測定	Measuring space potential
+G01W   1/16  B	1	1	2G089	G01W   1/16	12	フイ−ルドミルを用いるもの	Using field mills
+G01W   1/16  C	1	0	2G089	G01W   1/16	57	落雷の方位，距離の測定	Measuring the bearing and distance of  lightening
+G01W   1/16  D	1	1	2G089	G01W   1/16	9	音波を利用したもの	Using sound wave
+G01W   1/16  E	1	1	2G089	G01W   1/16	84	電磁波を利用したもの	Using electromagnetic wave
+G01W   1/16  F	1	2	2G089	G01W   1/16	17	光を利用したもの	Using light
+G01W   1/16  G	1	1	2G089	G01W   1/16	19	複数手段の利用	Using  multiple means
+G01W   1/16  Z	1	0	2G089	G01W   1/16	47	その他	Others
+G01W   1/17  \	1	1	2G089	G01W   1/17	0	天気状況または人体に対する空気の影響のどちらかに関係する“冷却値”を測定するカタ温度計	Catathermometers for measuring "cooling value" related either to weather conditions or to comfort of other human environment
+G01W   1/17  A	1	0	2G089	G01W   1/17	14	カタ温度計	Kata thermometer
+G01W   1/17  C	1	0	2G089	G01W   1/17	17	不快指数計	Discomfort index meter
+G01W   1/17  D	1	1	2G089	G01W   1/17	45	乾球，湿球温度計の利用	Using dry-  and wet-bulb thermometers
+G01W   1/17  E	1	2	2G089	G01W   1/17	10	電気的なもの	An electric instrument
+G01W   1/17  F	1	1	2G089	G01W   1/17	20	Ｄ，Ｅ以外の測定値の組み合わせ，単一測定量の利用	Combination of measurements other than D and E.  Use of single measurements
+G01W   1/17  G	1	1	2G089	G01W   1/17	1	電気回路に特徴のあるもの	Characterized by electrical circuits
+G01W   1/17  H	1	0	2G089	G01W   1/17	25	室内空調の利用に特徴のあるもの	Characterized by the use of room air conditioning
+G01W   1/17  J	1	0	2G089	G01W   1/17	37	不快状況の算出手段，方法	Means and method for calculating discomfort index
+G01W   1/17  Z	1	0	2G089	G01W   1/17	55	その他	Others
+G01W   1/18  \	1	1	2G089	G01W   1/18	31	気象測器の試験または較正	Testing or calibrating meteorological apparatus

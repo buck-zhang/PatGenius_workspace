@@ -1,0 +1,298 @@
+B61L1/00	7	Devices along the route controlled by interaction with the vehicle or train (detonators B61L5/20; operation of points or signals by passage of the vehicle B61L11/00, B61L13/00; operation of gates, or gates and signals, by approaching vehicle B61L29/18)	B61L1/00	B61L1/00		251
+B61L1/02	8	Electric devices associated with track {, e.g. rail contacts}	B61L1/02	B61L1/02		373
+B61L1/025	9	{actuated by variation of resistance or by piezoelectricity}	B61L1/02	B61L1/02		36
+B61L1/04	9	mechanically actuated by a part of the vehicle	B61L1/04	B61L1/04		299
+B61L1/045	10	{actuated by fluid-pressure}	B61L1/04	B61L1/04		137
+B61L1/06	9	actuated by deformation of rail; actuated by vibration in rail	B61L1/06	B61L1/06		284
+B61L1/08	9	magnetically actuated; electrostatically actuated	B61L1/08	B61L1/08		161
+B61L1/10	9	actuated by electromagnetic radiation; actuated by particle radiation	B61L1/10	B61L1/10		144
+B61L1/12	8	Electric devices associated with overhead trolley wires	B61L1/12	B61L1/12		31
+B61L1/14	8	Devices for indicating the passing of the end of the vehicle or train	B61L1/14	B61L1/14		141
+B61L1/16	8	Devices for counting axles; Devices for counting vehicles	B61L1/16	B61L1/16		217
+B61L1/161	9	{characterised by the counting methods}	B61L1/16	B61L1/16		326
+B61L1/162	9	{characterised by the error correction}	B61L1/16	B61L1/16		96
+B61L1/163	9	{Detection devices}	B61L1/16	B61L1/16		53
+B61L1/164	10	{Mechanical}	B61L1/16	B61L1/16		89
+B61L1/165	10	{Electrical}	B61L1/16	B61L1/16		463
+B61L1/166	10	{Optical}	B61L1/16	B61L1/16		93
+B61L1/167	9	{Circuit details}	B61L1/16	B61L1/16		289
+B61L1/168	9	{Specific transmission details}	B61L1/16	B61L1/16		44
+B61L1/169	9	{Diagnosis}	B61L1/16	B61L1/16		101
+B61L1/18	8	Railway track circuits (rail joints E01B11/00, e.g. insulated rail joints E01B11/54)	B61L1/18	B61L1/18		327
+B61L1/181	9	{Details}	B61L1/18	B61L1/18		339
+B61L1/182	10	{Use of current of indifferent sort or a combination of different current types}	B61L1/18	B61L1/18		81
+B61L1/183	11	{Use of means on the vehicle for improving short circuit, e.g. in vehicles with rubber bandages}	B61L1/18	B61L1/18		83
+B61L1/184	11	{Use of additional conductors for examining leakages between rails}	B61L1/18	B61L1/18		16
+B61L1/185	10	{Use of direct current}	B61L1/18	B61L1/18		247
+B61L1/186	10	{Use of rectified alternating current}	B61L1/18	B61L1/18		23
+B61L1/187	10	{Use of alternating current}	B61L1/18	B61L1/18		583
+B61L1/188	10	{Use of coded current}	B61L1/18	B61L1/18		221
+B61L1/20	8	Safety arrangements for preventing or indicating malfunction of the device, e.g. by leakage current, by lightning	B61L1/20	B61L1/20		856
+B61L3/00	7	Devices along the route for controlling devices on the vehicle or train, e.g. to release brake or to operate a warning signal	B61L3/00	B61L3/00		140
+B61L3/02	8	at selected places along the route, e.g. intermittent control {simultaneous mechanical and electrical control}	B61L3/02	B61L3/02		267
+B61L3/04	9	controlling mechanically {(arrangements of making elements acting directly on tread B60T1/04)}	B61L3/04	B61L3/04		1993
+B61L3/06	9	controlling by electromagnetic or particle radiation, e.g. by light beam	B61L3/06	B61L3/06		56
+B61L3/065	10	{controlling optically}	B61L3/06	B61L3/06		151
+B61L3/08	9	controlling electrically	B61L3/08	B61L3/08		533
+B61L3/10	10	using current passing between devices along the route and devices on the vehicle or train	B61L3/10	B61L3/10		604
+B61L3/103	11	{Details of current transmitting conductors or contact brushes}	B61L3/10	B61L3/10		146
+B61L3/106	11	{with mechanically controlled electrical switch on the vehicle}	B61L3/10	B61L3/10		430
+B61L3/12	10	using magnetic or electrostatic induction; using radio waves	B61L3/12	B61L3/12		157
+B61L3/121	11	{using magnetic induction}	B61L3/12	B61L3/12		1545
+B61L2003/122	12	{German standard for inductive train protection, called "Induktive Zugsicherung"[INDUSI]}	B61L3/12	B61L3/12		35
+B61L2003/123	12	{French standard for inductive train protection, called "Contr&#244;le de vitesse par balises" [KVB]}	B61L3/12	B61L3/12		62
+B61L3/125	11	{using short-range radio transmission}	B61L3/12	B61L3/12		537
+B61L3/126	11	{Constructional details}	B61L3/12	B61L3/12		118
+B61L3/127	11	{for remote control of locomotives (remote control of locomotives within a train consist B61C17/12)}	B61L3/12	B61L3/12		169
+B61L3/128	11	{for control of tilting trains by external control devices, e.g. by Eurobalise (tilting details B61F5/22)}	B61L3/12	B61L3/12		9
+B61L3/14	9	to cut-off the power supply to traction motors of electrically-propelled vehicles	B61L3/14	B61L3/14		99
+B61L3/16	8	Continuous control along the route	B61L3/16	B61L3/16		58
+B61L3/18	9	using electric current passing between devices along the route and devices on the vehicle or train	B61L3/18	B61L3/18		70
+B61L3/185	10	{using separate conductors}	B61L3/18	B61L3/18		447
+B61L3/20	10	employing different frequencies or coded pulse groups {, e.g. using currents carried by traction current}	B61L3/20	B61L3/20		57
+B61L3/22	9	using magnetic or electrostatic induction; using electromagnetic radiation	B61L3/22	B61L3/22		106
+B61L3/221	10	{using track circuits}	B61L3/22	B61L3/22		863
+B61L3/222	11	{Arrangements on the track only}	B61L3/22	B61L3/22		300
+B61L2003/223	11	{French cab signaling system, called "Transmission Voie-Machine" [TVM]}	B61L3/22	B61L3/22		
+B61L3/225	10	{using separate conductors along the route}	B61L3/22	B61L3/22		545
+B61L2003/226	11	{German inductive continuous train control, called &apos;Linienzugbeeinflussung&apos; [LZB]}	B61L3/22	B61L3/22		79
+B61L3/227	10	{using electromagnetic radiation}	B61L3/22	B61L3/22		55
+B61L2003/228	10	{Constructional details}	B61L3/22	B61L3/22		19
+B61L3/24	10	employing different frequencies or coded pulse groups {, e.g. in combination with track circuits}	B61L3/24	B61L3/24		45
+B61L3/243	11	{using alternating current}	B61L3/24	B61L3/24		26
+B61L3/246	11	{using coded current}	B61L3/24	B61L3/24		61
+B61L5/00	7	Local operating mechanisms for points or track-mounted scotch-blocks; Visible or audible signals; Local operating mechanisms for visible or audible signals (B61L11/00 takes precedence)	B61L5/00	B61L5/00		678
+B61L5/02	8	Mechanical devices for operating points or scotch-blocks {, e.g. local manual control}	B61L5/02	B61L5/02		1424
+B61L5/023	9	{using funicular driving means}	B61L5/02	B61L5/02		38
+B61L5/026	9	{fixing switch-rails to the driving means}	B61L5/02	B61L5/02		263
+B61L5/04	8	Fluid-pressure devices for operating points or scotch-blocks	B61L5/04	B61L5/04		210
+B61L5/045	9	{using electrically controlled fluid-pressure operated driving means}	B61L5/04	B61L5/04		193
+B61L5/06	8	Electric devices for operating points or scotch-blocks {, e.g. using electromotive driving means}	B61L5/06	B61L5/06		569
+B61L5/062	9	{Wiring diagrams}	B61L5/06	B61L5/06		512
+B61L5/065	9	{Construction of driving mechanism}	B61L5/06	B61L5/06		485
+B61L5/067	9	{using electromagnetic driving means}	B61L5/06	B61L5/06		100
+B61L5/08	8	Underground actuating arrangements, e.g. for tramways	B61L5/08	B61L5/08		22
+B61L5/10	8	Locking mechanisms for points; Means for indicating the setting of points	B61L5/10	B61L5/10		910
+B61L5/102	9	{Controlling electrically}	B61L5/10	B61L5/10		143
+B61L5/105	9	{Controlling funicularly}	B61L5/10	B61L5/10		18
+B61L5/107	9	{electrical control of points position}	B61L5/10	B61L5/10		413
+B61L5/12	8	Visible signals	B61L5/12	B61L5/12		89
+B61L5/125	9	{Fixed signals, beacons, or the like}	B61L5/12	B61L5/12		154
+B61L5/14	9	Form signals, e.g. semaphore arms	B61L5/14	B61L5/14		181
+B61L5/16	10	Local operating mechanisms for form signals	B61L5/16	B61L5/16		34
+B61L5/161	11	{using electromotive driving means}	B61L5/16	B61L5/16		16
+B61L5/162	12	{Wiring diagrams}	B61L5/16	B61L5/16		52
+B61L5/163	12	{Driving mechanisms}	B61L5/16	B61L5/16		63
+B61L5/165	11	{using electromagnetic driving means}	B61L5/16	B61L5/16		18
+B61L5/166	11	{using electrically controlled gravity operated driving means}	B61L5/16	B61L5/16		8
+B61L5/167	11	{using electrically controlled fluid-pressure operated driving means}	B61L5/16	B61L5/16		15
+B61L5/168	11	{using funicular driving means}	B61L5/16	B61L5/16		60
+B61L5/18	9	Light signals; Mechanisms associated therewith, e.g. blinders	B61L5/18	B61L5/18		400
+B61L5/1809	10	{Daylight signals}	B61L5/18	B61L5/18		141
+B61L5/1818	11	{using mobile coloured screen}	B61L5/18	B61L5/18		212
+B61L5/1827	11	{using light sources of different colours and a common optical system}	B61L5/18	B61L5/18		98
+B61L5/1836	11	{using light sources of different colours and separate optical systems}	B61L5/18	B61L5/18		125
+B61L5/1845	11	{Optical systems, lenses}	B61L5/18	B61L5/18		180
+B61L5/1854	11	{Mounting and focussing of the light source in a lamp, fixing means}	B61L5/18	B61L5/18		112
+B61L5/1863	11	{Lamp mountings on a mast}	B61L5/18	B61L5/18		80
+B61L5/1872	11	{Mobile mounting arrangements on a mast; Arrangements for hoisting of the lamp along the mast}	B61L5/18	B61L5/18		50
+B61L5/1881	11	{Wiring diagrams for power supply, control or testing}	B61L5/18	B61L5/18		607
+B61L5/189	10	{using flashing light sources}	B61L5/18	B61L5/18		71
+B61L5/20	8	Audible signals, e.g. detonator {audible signalling}	B61L5/20	B61L5/20		70
+B61L5/203	9	{Detonators; Track mounting means; Composition of the detonative product}	B61L5/20	B61L5/20		409
+B61L5/206	9	{Signalling means for special purposes}	B61L5/20	B61L5/20		69
+B61L5/22	9	Devices for initiating the release of detonators in a certain position of a signal	B61L5/22	B61L5/22		101
+B61L5/24	9	Replacement of detonators	B61L5/24	B61L5/24		32
+B61L7/00	7	Remote control of local operating means for points, signals, or track-mounted scotch-blocks (B61L11/00, B61L13/00 take precedence; interlocking arrangements B61L19/00)	B61L7/00	B61L7/00		46
+B61L7/02	8	using mechanical transmission, e.g. wire, lever	B61L7/02	B61L7/02		34
+B61L7/021	9	{Driving wheels or supports for traction wires}	B61L7/02	B61L7/02		96
+B61L7/022	9	{Guiding means or supporting foundations in beton}	B61L7/02	B61L7/02		15
+B61L7/024	9	{Coupling for wires or traction bars}	B61L7/02	B61L7/02		24
+B61L7/025	9	{Bracing or compensating arrangements}	B61L7/02	B61L7/02		41
+B61L7/027	9	{Control levers}	B61L7/02	B61L7/02		69
+B61L7/028	9	{Indicating or fixing arrangements in the event of breaking or tension difference of transmission wires for points, signals or similar}	B61L7/02	B61L7/02		26
+B61L7/04	8	using fluid-pressure transmission	B61L7/04	B61L7/04		89
+B61L7/06	8	using electrical transmission	B61L7/06	B61L7/06		226
+B61L7/061	9	{using electromotive driving means}	B61L7/06	B61L7/06		36
+B61L7/062	10	{Wiring diagrams}	B61L7/06	B61L7/06		159
+B61L7/063	10	{Construction of driving mechanism}	B61L7/06	B61L7/06		57
+B61L7/065	9	{using electromagnetic driving means}	B61L7/06	B61L7/06		11
+B61L7/066	9	{using electrically controlled fluid-pressure operated driving means}	B61L7/06	B61L7/06		10
+B61L7/067	9	{Supply for electric safety arrangements}	B61L7/06	B61L7/06		59
+B61L7/068	9	{Protection against eddy-currents, short-circuits, or the like, for electric safety arrangements}	B61L7/06	B61L7/06		68
+B61L7/08	9	Circuitry	B61L7/08	B61L7/08		193
+B61L7/081	10	{Direct line wire control}	B61L7/08	B61L7/08		91
+B61L7/083	10	{Common line wire control using currents of different amplitudes, polarities, frequencies, or the like}	B61L7/08	B61L7/08		62
+B61L7/085	10	{Common line wire control using synchronous distributors}	B61L7/08	B61L7/08		47
+B61L7/086	10	{Common line wire control using relay distributors}	B61L7/08	B61L7/08		24
+B61L7/088	10	{Common line wire control using series of coded pulses}	B61L7/08	B61L7/08		581
+B61L7/10	10	for light signals, e.g. for supervision, back-signalling	B61L7/10	B61L7/10		77
+B61L7/103	11	{Electric control of the setting of signals}	B61L7/10	B61L7/10		47
+B61L7/106	12	{for form signals}	B61L7/10	B61L7/10		23
+B61L9/00	7	Illumination specially adapted for points, form signals, or gates	B61L9/00	B61L9/00		140
+B61L9/02	8	non-electric	B61L9/02	B61L9/02		167
+B61L9/04	8	electric	B61L9/04	B61L9/04		137
+B61L11/00	7	Operation of points from the vehicle or by the passage of the vehicle	B61L11/00	B61L11/00		439
+B61L11/02	8	using mechanical interaction between vehicle and track	B61L11/02	B61L11/02		1977
+B61L11/04	9	Trailable point locks	B61L11/04	B61L11/04		79
+B61L11/06	9	with fluid-pressure transmission	B61L11/06	B61L11/06		27
+B61L11/08	8	using electrical or magnetic interaction between vehicle and track	B61L11/08	B61L11/08		167
+B61L11/083	9	{Magnetic control}	B61L11/08	B61L11/08		44
+B61L2011/086	9	{German radio based operations, called "Funkfahrbetrieb" [FFB]}	B61L11/08	B61L11/08		23
+B61L13/00	7	Operation of signals from the vehicle or by the passage of the vehicle	B61L13/00	B61L13/00		50
+B61L13/002	8	{actuated by the passage of the vehicle}	B61L13/00	B61L13/00		84
+B61L13/005	8	{optically actuated}	B61L13/00	B61L13/00		33
+B61L13/007	8	{acoustically actuated}	B61L13/00	B61L13/00		4
+B61L13/02	8	using mechanical interaction between vehicle and track	B61L13/02	B61L13/02		30
+B61L13/04	8	using electrical or magnetic interaction between vehicle and track {, e.g. by conductor circuits using special means or special conductors}	B61L13/04	B61L13/04		91
+B61L13/042	9	{using isolated rail sections}	B61L13/04	B61L13/04		81
+B61L13/045	9	{using separated rail contacts, pedals or similar (B61L1/02 takes precedence)}	B61L13/04	B61L13/04		186
+B61L13/047	9	{controlling inductively or magnetically}	B61L13/04	B61L13/04		247
+B61L15/00	7	Indicators provided on the vehicle or train for signalling purposes	B61L15/00	B61L15/00		1027
+B61L15/0009	8	{wiring diagrams for start- or stop-signals on vehicles having one or more carriages and having electrical communication lines between the carriages}	B61L15/00	B61L15/00		157
+B61L15/0018	8	{Communication with or on the vehicle or train}	B61L15/00	B61L15/00		740
+B61L15/0027	9	{Radio-based, e.g. using GSM-R}	B61L15/00	B61L15/00		1927
+B61L15/0036	9	{Conductor-based, e.g. using CAN-Bus, train-line or optical fibres}	B61L15/00	B61L15/00		919
+B61L15/0045	8	{Destination indicators, identification panels or distinguishing signs on the vehicles}	B61L15/00	B61L15/00		214
+B61L15/0054	8	{Train integrity supervision, e.g. end-of-train [EOT] devices}	B61L15/00	B61L15/00		573
+B61L15/0058	8	{On-board optimisation of vehicle or vehicle train operation}	B61L15/00	B61L15/00		567
+B61L15/0062	8	{On-board target speed calculation or supervision}	B61L15/00	B61L15/00		660
+B61L15/0063	8	{Multiple on-board control systems, e.g. "2 out of 3"-systems}	B61L15/00	B61L15/00		377
+B61L15/0072	8	{On-board train data handling}	B61L15/00	B61L15/00		1826
+B61L15/0081	8	{On-board diagnosis or maintenance}	B61L15/00	B61L15/00		1806
+B61L15/009	8	{On-board display devices}	B61L15/00	B61L15/00		927
+B61L15/0092	8	{Memory means reproducing during the running of the vehicle or vehicle train, e.g. smart cards}	B61L15/00	B61L15/00		120
+B61L15/0094	8	{Recorders on the vehicle}	B61L15/00	B61L15/00		211
+B61L15/02	8	Head or tail indicators, e.g. light	B61L15/02	B61L15/02		220
+B61L17/00	7	Switching systems for classification yards	B61L17/00	B61L17/00		570
+B61L17/02	8	Details, e.g. indicating degree of track filling	B61L17/02	B61L17/02		72
+B61L17/023	9	{Signalling; Signals with multiple indicating means}	B61L17/02	B61L17/02		106
+B61L17/026	9	{Brake devices}	B61L17/02	B61L17/02		53
+B61L19/00	7	Arrangements for interlocking between points and signals by means of a single interlocking device {, e.g. central control}	B61L19/00	B61L19/00		47
+B61L19/02	8	Interlocking devices having mechanical or fluid-pressure operation	B61L19/02	B61L19/02		127
+B61L19/023	9	{purely mechanical (control levers B61L7/027)}	B61L19/02	B61L19/02		88
+B61L19/026	9	{using fluid-pressure operated points or signals}	B61L19/02	B61L19/02		25
+B61L19/04	9	Details, e.g. hand lever, back-signalling device	B61L19/04	B61L19/04		3
+B61L19/06	8	Interlocking devices having electrical operation	B61L19/06	B61L19/06		1138
+B61L2019/065	9	{with electronic means}	B61L19/06	B61L19/06		132
+B61L19/08	9	Special arrangements for power supply for interlocking devices	B61L19/08	B61L19/08		13
+B61L19/10	9	with mechanical locks	B61L19/10	B61L19/10		1
+B61L19/12	10	Details	B61L19/12	B61L19/12		1
+B61L19/14	9	with electrical locks	B61L19/14	B61L19/14		279
+B61L19/16	10	Details	B61L19/16	B61L19/16		102
+B61L21/00	7	Station blocking between signal boxes in one yard	B61L21/00	B61L21/00		215
+B61L21/02	8	Mechanical locking and release of the route; Repeat locks; Coupling of semaphores	B61L21/02	B61L21/02		21
+B61L21/04	8	Electrical locking and release of the route; Electrical repeat locks	B61L21/04	B61L21/04		239
+B61L21/06	8	Vehicle-on-line indication; Monitoring locking and release of the route	B61L21/06	B61L21/06		424
+B61L21/065	9	{for signals, including signals actuated by the vehicle}	B61L21/06	B61L21/06		110
+B61L21/08	8	Order transmission and reception arrangements for giving or withholding permission	B61L21/08	B61L21/08		40
+B61L21/10	8	Arrangements for trains which are closely following one another	B61L21/10	B61L21/10		126
+B61L23/00	7	Control, warning or like safety means along the route or between vehicles or trains	B61L23/00	B61L23/00		2085
+B61L23/002	8	{Control or safety means for heart-points and crossings of aerial railways, funicular rack-railway}	B61L23/00	B61L23/00		295
+B61L23/005	9	{Automatic control or safety means for points for operator-less railway, e.g. transportation systems}	B61L23/00	B61L23/00		409
+B61L23/007	8	{Safety arrangements on railway crossings}	B61L23/00	B61L23/00		62
+B61L23/02	8	for indicating along the route the failure of brakes	B61L23/02	B61L23/02		24
+B61L23/04	8	for monitoring the mechanical state of the route	B61L23/04	B61L23/04		617
+B61L23/041	9	{Obstacle detection}	B61L23/04	B61L23/04		1295
+B61L23/042	9	{Track changes detection}	B61L23/04	B61L23/04		562
+B61L23/044	10	{Broken rails}	B61L23/04	B61L23/04		425
+B61L23/045	10	{Rail wear}	B61L23/04	B61L23/04		271
+B61L23/047	10	{Track or rail movements}	B61L23/04	B61L23/04		377
+B61L23/048	10	{Road bed changes, e.g. road bed erosion}	B61L23/04	B61L23/04		189
+B61L23/06	8	for warning men working on the route	B61L23/06	B61L23/06		740
+B61L23/08	8	for controlling traffic in one direction only	B61L23/08	B61L23/08		128
+B61L23/10	9	manually operated {, e.g. block arrangements}	B61L23/10	B61L23/10		127
+B61L23/12	9	partly operated by train	B61L23/12	B61L23/12		379
+B61L23/14	9	automatically operated	B61L23/14	B61L23/14		646
+B61L23/16	10	Track circuits specially adapted for section blocking	B61L23/16	B61L23/16		222
+B61L23/161	11	{using current of indifferent sorte or a combination of different current types}	B61L23/16	B61L23/16		32
+B61L23/163	11	{using direct current}	B61L23/16	B61L23/16		341
+B61L23/165	11	{using rectified alternating current}	B61L23/16	B61L23/16		17
+B61L23/166	11	{using alternating current}	B61L23/16	B61L23/16		418
+B61L23/168	11	{using coded current}	B61L23/16	B61L23/16		426
+B61L23/18	10	specially adapted for changing lengths of track sections in dependence upon speed and traffic density	B61L23/18	B61L23/18		148
+B61L23/20	10	with transmission of instructions to stations along the route	B61L23/20	B61L23/20		17
+B61L23/22	8	for controlling traffic in two directions over the same pair of rails	B61L23/22	B61L23/22		592
+B61L23/24	9	using token systems, e.g. train staffs, tablets	B61L23/24	B61L23/24		123
+B61L23/26	9	with means for actuating signals from the vehicle or by passage of the vehicle	B61L23/26	B61L23/26		33
+B61L23/28	9	using non-automatic blocking from a place along the route	B61L23/28	B61L23/28		7
+B61L23/30	9	using automatic section blocking	B61L23/30	B61L23/30		49
+B61L23/32	10	with provision for the blocking of passing sidings	B61L23/32	B61L23/32		7
+B61L23/34	8	for indicating the distance between vehicles or trains by the transmission of signals therebetween	B61L23/34	B61L23/34		509
+B61L25/00	7	Recording or indicating positions or identities of vehicles or trains or setting of track apparatus	B61L25/00	B61L25/00		165
+B61L25/02	8	Indicating or recording positions or identities of vehicles or trains	B61L25/02	B61L25/02		1439
+B61L25/021	9	{Measuring and recording of train speed}	B61L25/02	B61L25/02		1762
+B61L25/023	9	{Determination of driving direction of vehicle or train}	B61L25/02	B61L25/02		383
+B61L25/025	9	{Absolute localisation, e.g. providing geodetic coordinates}	B61L25/02	B61L25/02		2266
+B61L25/026	9	{Relative localisation, e.g. using odometer}	B61L25/02	B61L25/02		864
+B61L25/028	9	{Determination of vehicle position and orientation within a train consist, e.g. serialisation}	B61L25/02	B61L25/02		390
+B61L25/04	9	Indicating or recording train identities	B61L25/04	B61L25/04		950
+B61L25/041	10	{using reflecting tags}	B61L25/04	B61L25/04		113
+B61L25/043	10	{using inductive tags}	B61L25/04	B61L25/04		106
+B61L25/045	10	{using reradiating tags}	B61L25/04	B61L25/04		134
+B61L25/046	10	{using magnetic tags}	B61L25/04	B61L25/04		39
+B61L25/048	10	{using programmable tags}	B61L25/04	B61L25/04		64
+B61L25/06	8	Indicating or recording the setting of track apparatus, e.g. of points, of signals	B61L25/06	B61L25/06		307
+B61L25/065	9	{for signalling systems on the vehicle using current conduction}	B61L25/06	B61L25/06		60
+B61L25/08	9	Diagrammatic displays	B61L25/08	B61L25/08		431
+B61L27/00	7	Central railway traffic control systems; Trackside control; Communication systems specially adapted therefor	B61L27/00	B61L27/00		1549
+B61L27/02	8	Manual systems	B61L27/02	B61L27/02		53
+B61L27/04	8	Automatic systems, e.g. controlled by train; Change-over to manual control	B61L27/04	B61L27/04		1635
+B61L27/10	8	Operations, e.g. scheduling or time tables	B61L27/10	B61L27/10		863
+B61L27/12	9	Preparing schedules	B61L27/12	B61L27/12		261
+B61L27/14	9	Following schedules	B61L27/14	B61L27/14		238
+B61L27/16	9	Trackside optimisation of vehicle or train operation	B61L27/16	B61L27/16		629
+B61L27/18	9	Crew rosters; Itineraries	B61L27/18	B61L27/18		57
+B61L27/20	8	Trackside control of safe travel of vehicle or train, e.g. braking curve calculation	B61L27/20	B61L27/20		2161
+B61L2027/202	9	{using European Train Control System [ETCS]}	B61L27/20	B61L27/20		269
+B61L2027/204	9	{using Communication-based Train Control [CBTC]}	B61L27/20	B61L27/20		563
+B61L27/30	8	Trackside multiple control systems, e.g. switch-over between different systems	B61L27/30	B61L27/30		213
+B61L27/33	9	Backup systems, e.g. switching when failures occur	B61L27/33	B61L27/33		157
+B61L27/37	9	Migration, e.g. parallel installations running simultaneously	B61L27/37	B61L27/37		62
+B61L27/40	8	Handling position reports or trackside vehicle data	B61L27/40	B61L27/40		1496
+B61L27/50	8	Trackside diagnosis or maintenance, e.g. software upgrades	B61L27/50	B61L27/50		233
+B61L27/53	9	for trackside elements or systems, e.g. trackside supervision of trackside control system conditions	B61L27/53	B61L27/53		940
+B61L27/57	9	for vehicles or trains, e.g. trackside supervision of train conditions	B61L27/57	B61L27/57		880
+B61L27/60	8	Testing or simulation	B61L27/60	B61L27/60		689
+B61L27/70	8	Details of trackside communication	B61L27/70	B61L27/70		1608
+B61L29/00	7	Safety means for rail/road crossing traffic	B61L29/00	B61L29/00		197
+B61L29/02	8	Guards or obstacles for preventing access to the route (cattle guards connected to the permanent way E01B17/00)	B61L29/02	B61L29/02		354
+B61L29/023	9	{Special gates}	B61L29/02	B61L29/02		64
+B61L29/026	10	{Preventing access by means of obstacles raising across the route}	B61L29/02	B61L29/02		163
+B61L29/04	8	Gates for level crossings	B61L29/04	B61L29/04		201
+B61L29/06	9	yielding to vehicles in one direction but operated in a different direction	B61L29/06	B61L29/06		12
+B61L29/08	8	Operation of gates; Combined operation of gates and signals	B61L29/08	B61L29/08		109
+B61L29/10	9	Means for securing gates in their desired position	B61L29/10	B61L29/10		19
+B61L29/12	9	Manual operation	B61L29/12	B61L29/12		6
+B61L29/14	10	mechanically	B61L29/14	B61L29/14		5
+B61L29/16	10	electrically	B61L29/16	B61L29/16		36
+B61L29/18	9	Operation by approaching rail vehicle or train	B61L29/18	B61L29/18		58
+B61L29/20	10	mechanically	B61L29/20	B61L29/20		623
+B61L29/22	10	electrically	B61L29/22	B61L29/22		181
+B61L29/222	11	{using conductor circuits with separate contacts or conductors}	B61L29/22	B61L29/22		89
+B61L29/224	12	{using rail contacts}	B61L29/22	B61L29/22		154
+B61L29/226	11	{using track-circuits, closed or short-circuited by train or using isolated rail-sections}	B61L29/22	B61L29/22		212
+B61L29/228	11	{using optical means}	B61L29/22	B61L29/22		29
+B61L29/24	8	Means for warning road traffic that a gate is closed or closing, or that rail traffic is approaching, e.g. for visible or audible warning	B61L29/24	B61L29/24		336
+B61L29/243	9	{Transmission mechanism or acoustical signals for gates}	B61L29/24	B61L29/24		135
+B61L29/246	9	{Signals or brake- or lighting devices mounted on the road vehicle and controlled from the vehicle or train}	B61L29/24	B61L29/24		124
+B61L29/26	9	mechanically operated	B61L29/26	B61L29/26		336
+B61L29/28	9	electrically operated	B61L29/28	B61L29/28		239
+B61L29/282	10	{magnetic or inductive control by the vehicle}	B61L29/28	B61L29/28		74
+B61L29/284	10	{using rail-contacts, rail microphones, or the like, controlled by the vehicle}	B61L29/28	B61L29/28		261
+B61L29/286	10	{using conductor circuits controlled by the vehicle}	B61L29/28	B61L29/28		287
+B61L29/288	10	{Wiring diagram of the signal control circuits}	B61L29/28	B61L29/28		419
+B61L29/30	10	Supervision, e.g. monitoring arrangements	B61L29/30	B61L29/30		320
+B61L29/32	10	Timing, e.g. advance warning of approaching train	B61L29/32	B61L29/32		131
+B61L99/00	7	Subject matter not provided for in other groups of this subclass	B61L99/00	B61L99/00		27
+B61L99/002	8	{Autonomous vehicles, i.e. under distributed traffic control}	B61L99/00	B61L99/00		69
+B61L2201/00	7	Control methods	CPCONLY	B61L2201/00		369
+B61L2201/02	8	Fuzzy control	CPCONLY	B61L2201/02		12
+B61L2205/00	7	Communication or navigation systems for railway traffic	CPCONLY	B61L2205/00		555
+B61L2205/02	8	Global system for mobile communication - railways [GSM-R]	CPCONLY	B61L2205/02		191
+B61L2205/04	8	Satellite based navigation systems, e.g. global positioning system [GPS]	CPCONLY	B61L2205/04		1019
+B61L2207/00	7	Features of light signals	CPCONLY	B61L2207/00		30
+B61L2207/02	8	using light-emitting diodes [LEDs]	CPCONLY	B61L2207/02		344
+B61L2210/00	7	Vehicle systems	CPCONLY	B61L2210/00		7
+B61L2210/02	8	Single autonomous vehicles	CPCONLY	B61L2210/02		60
+B61L2210/04	8	Magnetic elevation vehicles [maglev]	CPCONLY	B61L2210/04		84

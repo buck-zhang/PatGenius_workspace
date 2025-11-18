@@ -1,0 +1,398 @@
+H02J   1/00  \	0	0	5G165	H02J   1/00	103	直流幹線または直流配電網のための回路装置［２００６．０１］	Circuit arrangements for dc mains or dc distribution networks
+H02J   1/00 301 \	1	1	5G165	H02J   1/00	17	直流送電	Feeding DC electric  power
+H02J   1/00 301 B	1	0	5G165	H02J   1/00	471	送電制御	Control electric  power feeding
+H02J   1/00 301 C	1	0	5G165	H02J   1/00	148	起動・停止	Starting or shutting down
+H02J   1/00 301 D	1	0	5G165	H02J   1/00	474	保護	Protection
+H02J   1/00 301 E	1	0	5G165	H02J   1/00	130	設備	Facilities
+H02J   1/00 301 F	1	0	5G165	H02J   1/00	25	交直並列送電	Parallel AC and DC electric  power feed
+H02J   1/00 301 Z	1	0	5G165	H02J   1/00	75	その他	Others
+H02J   1/00 302 \	1	1	5G165	H02J   1/00	176	直流電源	DC electric power supplies
+H02J   1/00 303 \	2	2	5G165	H02J   1/00	171	供給回路	Supply circuits
+H02J   1/00 304 \	3	3	5G165	H02J   1/00	25	供給形態	Supply forms
+H02J   1/00 304 A	3	0	5G165	H02J   1/00	183	一般電源	General electric power supplies
+H02J   1/00 304 B	3	1	5G165	H02J   1/00	105	集中	Central
+H02J   1/00 304 C	3	1	5G165	H02J   1/00	53	個別	Individual
+H02J   1/00 304 D	3	1	5G165	H02J   1/00	115	融通	Allotment
+H02J   1/00 304 E	3	1	5G165	H02J   1/00	990	切替	Switching
+H02J   1/00 304 F	3	2	5G165	H02J   1/00	46	電流切替	Current switching
+H02J   1/00 304 G	3	0	5G165	H02J   1/00	142	発電機	Generators
+H02J   1/00 304 H	3	0	5G165	H02J   1/00	721	電池	Batteries
+H02J   1/00 304 J	3	1	5G165	H02J   1/00	184	交直両用	For both AC and DC
+H02J   1/00 304 Z	3	0	5G165	H02J   1/00	69	その他	Others
+H02J   1/00 305 \	3	3	5G165	H02J   1/00	37	供給処理	Supply processing
+H02J   1/00 306 \	4	4	5G165	H02J   1/00	15	制御	Control
+H02J   1/00 306 A	4	0	5G165	H02J   1/00	120	制御一般	Control in general
+H02J   1/00 306 B	4	1	5G165	H02J   1/00	1000	電圧制御	Voltage control
+H02J   1/00 306 C	4	2	5G165	H02J   1/00	159	変動電源	Fluctuating electric  power supply
+H02J   1/00 306 D	4	2	5G165	H02J   1/00	485	複数電圧出力	Multiple voltage outputs
+H02J   1/00 306 E	4	2	5G165	H02J   1/00	107	極性	Polarities
+H02J   1/00 306 F	4	1	5G165	H02J   1/00	347	電流制御	Regulating currents
+H02J   1/00 306 G	4	1	5G165	H02J   1/00	314	電力制御	Regulating electric  power
+H02J   1/00 306 H	4	2	5G165	H02J   1/00	88	変動電源	Fluctuating electric  power supply
+H02J   1/00 306 J	4	1	5G165	H02J   1/00	81	プログラム制御	Program control
+H02J   1/00 306 K	4	1	5G165	H02J   1/00	821	複数電源制御	Regulating multiple electric power supplies
+H02J   1/00 306 L	4	1	5G165	H02J   1/00	1310	充放電制御	Regulating charging or discharging
+H02J   1/00 306 M	4	1	5G165	H02J   1/00	146	負荷分担	Load sharing
+H02J   1/00 306 Z	4	0	5G165	H02J   1/00	30	その他	Others
+H02J   1/00 307 \	4	4	5G165	H02J   1/00	20	節電	Energy saving
+H02J   1/00 307 A	4	0	5G165	H02J   1/00	87	一括ＯＮ	Collective ON
+H02J   1/00 307 B	4	0	5G165	H02J   1/00	105	一括ＯＦＦ	Collective OFF
+H02J   1/00 307 C	4	0	5G165	H02J   1/00	458	一部ＯＦＦ	Partial ON
+H02J   1/00 307 D	4	0	5G165	H02J   1/00	130	ＯＦＦ処理	Off processing
+H02J   1/00 307 E	4	0	5G165	H02J   1/00	193	タイマ−	Timers
+H02J   1/00 307 F	4	0	5G165	H02J   1/00	532	低調〔動作状態を下げる〕	lowed-pitched (Lower operating conditions)
+H02J   1/00 307 G	4	0	5G165	H02J   1/00	122	休止	Pausing
+H02J   1/00 307 Z	4	0	5G165	H02J   1/00	181	その他	Others
+H02J   1/00 308 \	4	4	5G165	H02J   1/00	23	ＯＮ，ＯＦＦ	ON or OFF
+H02J   1/00 308 A	4	0	5G165	H02J   1/00	162	ＯＮ	ON
+H02J   1/00 308 B	4	1	5G165	H02J   1/00	122	処理後ＯＮ	ON after processing
+H02J   1/00 308 C	4	2	5G165	H02J   1/00	248	確認後ＯＮ	ON after checking
+H02J   1/00 308 D	4	3	5G165	H02J   1/00	10	変動電源用	for fluctuating electric power supplies
+H02J   1/00 308 E	4	2	5G165	H02J   1/00	131	シ−ケンス処理後ＯＮ	ON after sequence processing
+H02J   1/00 308 F	4	1	5G165	H02J   1/00	38	ＯＮ後処理	Processing after ON
+H02J   1/00 308 G	4	1	5G165	H02J   1/00	33	個別ＯＮ	Individual ON
+H02J   1/00 308 H	4	0	5G165	H02J   1/00	66	ＯＦＦ	OFF
+H02J   1/00 308 J	4	1	5G165	H02J   1/00	125	処理後ＯＦＦ	OFF after processing
+H02J   1/00 308 K	4	2	5G165	H02J   1/00	133	確認後ＯＦＦ	OFF after checking
+H02J   1/00 308 L	4	2	5G165	H02J   1/00	60	シ−ケンス処理後ＯＦＦ	OFF after sequence processing
+H02J   1/00 308 M	4	1	5G165	H02J   1/00	48	ＯＦＦ後処理	Processing after OFF
+H02J   1/00 308 N	4	1	5G165	H02J   1/00	16	個別ＯＦＦ	Individual OFF
+H02J   1/00 308 P	4	0	5G165	H02J   1/00	323	ＯＮ，ＯＦＦ処理	ON or OFF processing
+H02J   1/00 308 Z	4	0	5G165	H02J   1/00	175	その他	Others
+H02J   1/00 309 \	2	2	5G165	H02J   1/00	29	異常防止	Preventing faults
+H02J   1/00 309 A	2	0	5G165	H02J   1/00	108	電圧	Voltage
+H02J   1/00 309 B	2	1	5G165	H02J   1/00	312	ダウン〔バツクアツプを含む〕	Down (including backup)
+H02J   1/00 309 C	2	2	5G165	H02J   1/00	306	断，停電	Shutoff or electric power failures
+H02J   1/00 309 D	2	2	5G165	H02J   1/00	455	低下	Drops
+H02J   1/00 309 E	2	3	5G165	H02J   1/00	23	変動電源用	for fluctuating electric power supplies
+H02J   1/00 309 F	2	1	5G165	H02J   1/00	142	変動	Fluctuations
+H02J   1/00 309 G	2	1	5G165	H02J   1/00	108	逆電圧，電圧差	Reverse voltages, voltage differentials
+H02J   1/00 309 H	2	1	5G165	H02J   1/00	322	過電圧	Over-voltages
+H02J   1/00 309 J	2	1	5G165	H02J   1/00	92	異常一般〔雑〕	Faults in general (miscellaneous)
+H02J   1/00 309 K	2	0	5G165	H02J   1/00	28	電流	Currents
+H02J   1/00 309 L	2	1	5G165	H02J   1/00	15	ダウン	Down
+H02J   1/00 309 M	2	2	5G165	H02J   1/00	12	ゼロ	Zero
+H02J   1/00 309 N	2	2	5G165	H02J   1/00	13	低下	Drops
+H02J   1/00 309 P	2	1	5G165	H02J   1/00	141	逆電流，電流差	Reverse voltages, voltage differentials
+H02J   1/00 309 Q	2	1	5G165	H02J   1/00	547	過電流	Over-currents
+H02J   1/00 309 R	2	2	5G165	H02J   1/00	1051	突入電流防止	Preventing rush-in currents
+H02J   1/00 309 S	2	1	5G165	H02J   1/00	69	漏洩	Leakage
+H02J   1/00 309 T	2	0	5G165	H02J   1/00	71	物理条件〔電圧，電流以外〕	Physical conditions (excluding voltage or current)
+H02J   1/00 309 U	2	0	5G165	H02J   1/00	194	ノイズ	Noises
+H02J   1/00 309 V	2	0	5G165	H02J   1/00	78	システム異常	System faults
+H02J   1/00 309 W	2	0	5G165	H02J   1/00	341	接続異常	Connection faults
+H02J   1/00 309 Z	2	0	5G165	H02J   1/00	165	その他	Others
+H02J   1/00 310 \	3	3	5G165	H02J   1/00	10	ＯＮ，ＯＦＦ時の誤動作防止	Preventing malfunctioning upon ON or OFF
+H02J   1/00 310 A	3	0	5G165	H02J   1/00	34	１電源	One electric power supply
+H02J   1/00 310 B	3	1	5G165	H02J   1/00	21	リニヤ−立上げ	Linear starting
+H02J   1/00 310 C	3	1	5G165	H02J   1/00	143	遅延立上げ	Delayed starting
+H02J   1/00 310 D	3	1	5G165	H02J   1/00	27	段階立上げ	Step starting
+H02J   1/00 310 E	3	1	5G165	H02J   1/00	15	全電圧立上げ	Full-voltage starting
+H02J   1/00 310 F	3	1	5G165	H02J   1/00	24	速応立下げ	Starting based on speed
+H02J   1/00 310 G	3	1	5G165	H02J   1/00	9	リニヤ−立下げ	Linear starting
+H02J   1/00 310 H	3	1	5G165	H02J   1/00	5	段階立下げ	Step starting
+H02J   1/00 310 J	3	0	5G165	H02J   1/00	91	複数電源	Multiple electric power supplies
+H02J   1/00 310 K	3	1	5G165	H02J   1/00	172	順序立上げ	Sequential starting
+H02J   1/00 310 L	3	1	5G165	H02J   1/00	58	順序立下げ	Sequential ending
+H02J   1/00 310 Z	3	0	5G165	H02J   1/00	23	その他	Others
+H02J   1/02  \	1	1	5G165	H02J   1/02	720	高調波またはリップルを減少する装置［２００６．０１］	Arrangements for reducing harmonics or ripples (in converters H02M 1/14)
+H02J   1/04  \	1	1	5G165	H02J   1/04	71	定電流供給方式［２００６．０１］	Constant-current supply systems
+H02J   1/06  \	1	1	5G165	H02J   1/06	12	２線式［２００６．０１］	Two-wire systems
+H02J   1/08  \	1	1	5G165	H02J   1/08	16	３線式；３線より多い方式［２００６．０１］	Three-wire systems; Systems having more than three wires
+H02J   1/10  \	1	1	5G165	H02J   1/10	1157	直流源の並列運転［２００６．０１］	Parallel operation of dc sources (involving batteries H02J 7/34)
+H02J   1/12  \	2	2	5G165	H02J   1/12	256	コンバータをもつ直流発電装置の並列運転，例．水銀整流器をもつもの［２００６．０１］	Parallel operation of dc generators with converters, e.g. with mercury-arc rectifier
+H02J   1/14  \	1	1	5G165	H02J   1/14	56	回路網内の負荷平衡［２００６．０１］	Balancing the load in a network (by batteries H02J 7/34)
+H02J   1/16  \	2	2	5G165	H02J   1/16	23	はずみ車に結合された回転電気機械を用いるもの［２００６．０１］	using dynamo-electric machines coupled to flywheels
+H02J   3/00  \	0	0	5G066	H02J   3/00	3332	交流幹線または交流配電網のための回路装置［２００６．０１］	Circuit arrangements for ac mains or ac distribution networks
+H02J   3/00 130 \	1	1	5G066	H02J   3/00	2045	負荷予測，例．将来の負荷需要を予測するための方法およびシステム	load forecasting, e.g. method and system for forecasting future demand of load
+H02J   3/00 150 \	1	1	5G066	H02J   3/00	345	複数の電力線または電源の一つに負荷を選択的に結合する装置（中断しない電源供給を提供するためのものＨ０２Ｊ９／００）	device to selectively combine load with one of several lectric power lines or electric power sources (to provide electric power supply without interruption H02J9/00)
+H02J   3/00 160 \	2	2	5G066	H02J   3/00	181	主要な通路が故障の時，負荷と電源の間の代替給電路を提供するためのもの，例．トランス，母線	to provide alternative feed line between load and e;ectric power source when main line is out of order, e.g. trans, generating line
+H02J   3/00 170 \	1	1	5G066	H02J   3/00	5201	シミュレーション，例．計画，信頼性チェック，モデリング	simulation, e.g. planning, reliability check, modelling
+H02J   3/00 180 \	1	1	5G066	H02J   3/00	1465	エネルギーやエネルギー伝送権の売買を伴うもの	involves selling and buying of energy or energy transmission right
+H02J   3/01  \	1	1	5G066	H02J   3/01	1645	高調波またはリップルを低減するための装置［２００６．０１］	Arrangements for reducing harmonics or ripples (in converters H02M 1/12) [3]
+H02J   3/02  \	1	1	5G066	H02J   3/02	112	異なる周波数で電力を同時配電するための単一回路網を用いるもの；交流電力と直流電力の同時配電のための単一回路網を用いるもの［２００６．０１］	using a single network for simultaneous distribution of power at different frequencies; using a single network for simultaneous distribution of ac power and of dc power
+H02J   3/04  \	1	1	5G066	H02J   3/04	541	同一周波数でしかも異なる電源から供給される回路網を接続するためのもの［２００６．０１］	for connecting networks of the same frequency but supplied from different sources
+H02J   3/06  \	2	2	5G066	H02J   3/06	675	連系回路網間の電力伝送の制御；連系回路網間の負荷分担の制御［２００６．０１］	Controlling transfer of power between connected networks; Controlling sharing of load between connected networks
+H02J   3/08  \	2	2	5G066	H02J   3/08	381	回路網の同期［２００６．０１］	Synchronising of networks
+H02J   3/10  \	1	1	5G066	H02J   3/10	48	定電流供給方式［２００６．０１］	Constant-current supply systems
+H02J   3/12  \	1	1	5G066	H02J   3/12	1494	回路網負荷の特性を変化させることによって交流回路網内の電圧を調整するためのもの［２００６．０１］	for adjusting voltage in ac networks by changing a characteristic of the network load
+H02J   3/14  \	2	2	5G066	H02J   3/14	2259	回路網への負荷の接続または回路網からの負荷の遮断によるもの，例．順次平衡装架［２００６．０１］	by switching loads on to, or off from, network, e.g. progressively balanced loading
+H02J   3/14 130 \	3	3	5G066	H02J   3/14	2247	家電機器管理	husehold electric eqipment management
+H02J   3/14 160 \	3	3	5G066	H02J   3/14	857	料金に基づく負荷管理	load management based on fee
+H02J   3/16  \	2	2	5G066	H02J   3/16	1222	無効電力の調整によるもの［２００６．０１］	by adjustment of reactive power
+H02J   3/18  \	1	1	5G066	H02J   3/18	355	回路網内の無効電力を調整，除去または補償するための装置（電圧調整のためのものＨ０２Ｊ３／１６）［２００６．０１］	Arrangements for adjusting, eliminating, or compensating reactive power in networks (for adjustment of voltage H02J 3/12; use of Petersen coils H02H 9/08)
+H02J   3/18 107 \	2	2	5G066	H02J   3/18	113	直列補償器を用いるもの	using serial compensator
+H02J   3/18 114 \	3	3	5G066	H02J   3/18	79	少なくとも一つのリアクタンス素子がブリッジコンバータにより積極的に制御されるもの，例．総合潮流制御装置	at least one reactance element is actively controlled by bridge converter, e.g. general tide control unit
+H02J   3/18 121 \	2	2	5G066	H02J   3/18	76	分路補償器を使用するもの（Ｈ０２Ｊ３／１８，１０７とＨ０２Ｊ３／１８，１７８が優先）	using shunt compensator (H02J3/18, 107 and H02J3/18, 178 take precedence)
+H02J   3/18 128 \	3	3	5G066	H02J   3/18	841	段階的な制御，または段階的な制御が考慮されていない補償器の投入や切り離しの組み合わせが可能なもの	being able to control in stages, or being able to make phases by combining or separating compensator having no consideration for staged control
+H02J   3/18 135 \	3	3	5G066	H02J   3/18	393	無段階制御のもの	non-staged control
+H02J   3/18 142 \	4	4	5G066	H02J   3/18	503	少なくとも一つのリアクタンス素子がブリッジコンバータにより積極的に制御されるもの，例．能動フィルタ	at least one reactance element is actively controlled by bridge converter, e.g. active filter
+H02J   3/18 150 \	5	5	5G066	H02J   3/18	20	リアクタンス素子が完全な誘導性であるもの，例．超伝導磁気エネルギー貯蔵システム［ＳＭＥＳ］	reactance element being perfectly inductive, e.g. superconducting magnetic energy storage system [SMES]
+H02J   3/18 157 \	5	5	5G066	H02J   3/18	33	ブリッジコンバータがマルチレベルコンバータであるもの	bridge converter being multi-level converter
+H02J   3/18 164 \	4	4	5G066	H02J   3/18	582	無効電力の無段階制御が半導体スイッチと直列接続される少なくとも一つのリアクタンス素子により得られるもの	reactive power gained from at least one reactance element connected in series to semiconductor switch being non-staged controlled
+H02J   3/18 171 \	3	3	5G066	H02J   3/18	14	分路無効電力補償装置の設置を計画する方法	method of planning for installment of shunt reactive power device
+H02J   3/18 178 \	2	2	5G066	H02J   3/18	162	タップ切替または位相シフトトランスを用いるもの	using tap switch or phase shift transformer
+H02J   3/18 185 \	2	2	5G066	H02J   3/18	213	回転手段を用いるもの，例．同期発電機	using rotating means, e.g. synchronous generator
+H02J   3/18 192 \	2	2	5G066	H02J   3/18	19	装置が負荷と一体化しているもの，例．モータまたはその制御回路	device being integrated with load, e.g. motor or its control circuit
+H02J   3/20  \	2	2	5G066	H02J   3/20	7	長距離架空線におけるもの［２００６．０１］	in long overhead lines
+H02J   3/22  \	2	2	5G066	H02J   3/22	14	ケーブルにおけるもの［２００６．０１］	in cables
+H02J   3/24  \	1	1	5G066	H02J   3/24	1258	回路網内の電力振動を防止または減少させるための装置（単一発電機により行なわれる制御によるものＨ０２Ｐ９／００）［２００６．０１］	Arrangements for preventing or reducing oscillations of power in networks (by control effected upon a single generator H02P 9/00)
+H02J   3/26  \	1	1	5G066	H02J   3/26	584	多相回路網内の非対称性を除去または減少させるための装置［２００６．０１］	Arrangements for eliminating or reducing asymmetry in polyphase networks
+H02J   3/28  \	1	1	5G066	H02J   3/28	674	エネルギ蓄積により回路網内の負荷を平衡するための装置［２００６．０１］	Arrangements for balancing the load in a network by storage of energy
+H02J   3/30  \	2	2	5G066	H02J   3/30	247	フライホイールに結合された回転電気機械を使用するもの［２００６．０１］	using dynamo-electric machines coupled to flywheels
+H02J   3/32  \	2	2	5G066	H02J   3/32	6853	コンバータ手段をもつ電池を使用するもの［２００６．０１］	using batteries with converting means
+H02J   3/34  \	1	1	5G066	H02J   3/34	225	実質的に異なる周波数の回路網間の電力伝送のための装置［２００６．０１］	Arrangements for transfer of electric power between networks of substantially different frequency (frequency converters H02M)
+H02J   3/36  \	1	1	5G066	H02J   3/36	787	高圧直流連絡線を介する交流回路網間の電力伝送のための装置［２００６．０１］	Arrangements for transfer of electric power between ac networks <u>via</u> a high-tension dc link
+H02J   3/38  \	1	1	5G066	H02J   3/38	1193	２個以上の発電機，コンバータまたは変圧器により単一回路網へ並列給電するための装置［２００６．０１］	Arrangements for parallelly feeding a single network by two or more generators, converters, or transformers
+H02J   3/38 110 \	2	2	5G066	H02J   3/38	5921	分散型電源	dispersion type power source
+H02J   3/38 120 \	3	3	5G066	H02J   3/38	1337	再生可能エネルギーを用いた発電機	generator using recyclable energy
+H02J   3/38 130 \	4	4	5G066	H02J   3/38	5709	太陽エネルギー，例．太陽光発電エネルギー（光の変換による電力発電はＨ０２Ｓ）	solar energy, e.g. photovoltaic power generation energy (electric power generation by light conversion H02S)
+H02J   3/38 150 \	5	5	5G066	H02J   3/38	486	太陽光発電電源のための最大電力点追従制御（ＰＶモジュールと結合したインバータ手段はＨ０２Ｓ４０／３２）	maximum power point tracking for photovoltaic power source (inverter means combined with PV module H02S40/32)
+H02J   3/38 160 \	4	4	5G066	H02J   3/38	1630	風力エネルギー（風力原動機はＦ０３Ｄ）	wind power energy (wind power motor F03D)
+H02J   3/38 170 \	3	3	5G066	H02J   3/38	1785	燃料電池を用いるもの（燃料電池それ自体はＨ０１Ｍ８／００）	using fuel cell (fuel cell per se H01M8/00)
+H02J   3/38 180 \	2	2	5G066	H02J   3/38	2489	単独運転，すなわち局所電源のネットワークからの切断	single operation, i.e. cut off from network of local power supply
+H02J   3/40  \	2	2	5G066	H02J   3/40	641	回路網または他の発電機への接続のための発電機の同期［２００６．０１］	Synchronising a generator for connection to a network or to another generator
+H02J   3/42  \	3	3	5G066	H02J   3/42	510	同期が達成された時自動的に並列接続するもの［２００６．０１］	with automatic parallel connection when synchronism is achieved
+H02J   3/44  \	3	3	5G066	H02J   3/44	58	正確な位相順序を保障する装置をもつもの［２００６．０１］	with means for ensuring correct phase sequence
+H02J   3/46  \	2	2	5G066	H02J   3/46	4071	発電機，コンバータ，変圧器間の出力分担の制御［２００６．０１］	Controlling the sharing of output between the generators, converters, or transformers
+H02J   3/48  \	3	3	5G066	H02J   3/48	79	同相分の分担の制御［２００６．０１］	Controlling the sharing of the in-phase component
+H02J   3/50  \	3	3	5G066	H02J   3/50	193	異相分の分担の制御［２００６．０１］	Controlling the sharing of the out-of-phase component
+H02J   4/00  \	0	0	5G066	H02J   4/00	270	交流または直流として指定されていない幹線または配電網のための回路装置［２］	Circuit arrangements for mains or distribution networks not specified as ac or dc [2]
+H02J   5/00  \	0	0	5G066	H02J   5/00	277	交流回路網と直流回路網間の電力伝送のための回路装置（Ｈ０２Ｊ３／３６が優先）［１，２０１６．０１］	Circuit arrangements for transfer of electric power between ac networks and dc networks (H02J 3/36 takes precedence) [1, 2016.01]
+H02J   7/00  \	0	0	5G503	H02J   7/00	2901	電池の充電または減極または電池から負荷への電力給電のための回路装置	Circuit arrangements for charging or depolarising batteries or for supplying loads from batteries
+H02J   7/00  A	0	0	5G503	H02J   7/00	1744	充放電回路〔一般〕〔過充電過放電防止を含む〕	Charging or discharging circuits (in general) (including circuits for preventing over-charging or over-discharging)
+H02J   7/00  B	0	1	5G503	H02J   7/00	2718	電気量による充放電制御	Control charging or discharging by quantity of electricity
+H02J   7/00  C	0	2	5G503	H02J   7/00	101	電解素子を用いるもの	using electrolytic elements
+H02J   7/00  H	0	1	5G503	H02J   7/00	1259	充放電切替〔例・交直電源切替，充電・放電切替〕	Switching from charging to discharging or vice versa, e.g. switching AC to DC, switching from charging to discharging or vice versa
+H02J   7/00  J	0	2	5G503	H02J   7/00	278	トランジスタ・インバ−タを用いる回路	Circuits using transistors or inverters
+H02J   7/00  K	0	2	5G503	H02J   7/00	675	直並列切替〔例・並列充電・直列給電〕	Switching from DC to AC or vice versa, e.g. parallel charging or serial feeding
+H02J   7/00  L	0	2	5G503	H02J   7/00	939	変換器〔インバ−タ等〕を充放電に兼用するもの	Commonly using converters (inverters) for both charging and discharging
+H02J   7/00  P	0	1	5G503	H02J   7/00	16329	電気車用電源	electric power supplies for electric vehicles
+H02J   7/00  R	0	2	5G503	H02J   7/00	112	チヨツパ制御	Control by chopper
+H02J   7/00  S	0	0	5G503	H02J   7/00	5249	保護	Protection
+H02J   7/00  T	0	1	5G503	H02J   7/00	417	逆接続保護	Protection from reverse connection
+H02J   7/00  U	0	0	5G503	H02J   7/00	408	表示一般〔充電表示は，７／０２〕	Indicating in general (indicating charging 7/02)
+H02J   7/00  V	0	1	5G503	H02J   7/00	303	充放電表示	Indicating charging or discharging
+H02J   7/00  W	0	2	5G503	H02J   7/00	60	負荷オン・オフ表示	Indicating tuned on or off load
+H02J   7/00  X	0	1	5G503	H02J   7/00	4147	残量表示〔容量，過放電の表示〕	Indicating residual capacity (indicating capacity or over-discharging)
+H02J   7/00  M	0	2	5G503	H02J   7/00	847	充放電電流積算値によるもの	by calculated charging or discharging currents
+H02J   7/00  N	0	2	5G503	H02J   7/00	846	電圧が一定値以下になつたことを表示するもの	indicating voltage drop below a certain level
+H02J   7/00  Y	0	1	5G503	H02J   7/00	5078	異常，劣化の表示	Indicating faults or degradations
+H02J   7/00  Q	0	2	5G503	H02J   7/00	2814	試験	Tests
+H02J   7/00  Z	0	0	5G503	H02J   7/00	410	その他	Others
+H02J   7/00 301 \	1	1	5G503	H02J   7/00	73	装置の構造	Arrangement structures
+H02J   7/00 301 A	1	0	5G503	H02J   7/00	2372	充電装置の構造〔一般〕	Structures of charging arrangements (in general)
+H02J   7/00 301 B	1	1	5G503	H02J   7/00	4163	コネクタ，ケ−ス	Connectors, cases
+H02J   7/00 301 C	1	1	5G503	H02J   7/00	656	スイツチングのための構造	Structures for switching
+H02J   7/00 301 D	1	1	5G503	H02J   7/00	7967	誘導結合	Inductive coupling
+H02J   7/00 301 E	1	1	5G503	H02J   7/00	308	構成要素の構造〔電池，トランス等〕	Structures for construction elements (batteries, transformers)
+H02J   7/00 301 Z	1	0	5G503	H02J   7/00	168	その他〔Ａ優先〕	Others (A takes precedence.)
+H02J   7/00 302 \	1	1	5G503	H02J   7/00	37	電池からの給電のための回路	Circuits for feeding electric power from batteries
+H02J   7/00 302 A	1	0	5G503	H02J   7/00	2037	給電回路一般	electric power feeding circuits in general
+H02J   7/00 302 B	1	1	5G503	H02J   7/00	964	複数負荷への給電〔例．電圧の異なる負荷〕	electric power feeding to multiple loads, e.g. loads with different voltages
+H02J   7/00 302 C	1	1	5G503	H02J   7/00	4341	複数電池からの給電	electric power feeding from multiple batteries
+H02J   7/00 302 D	1	1	5G503	H02J   7/00	1911	過放電防止	Preventing over-charging
+H02J   7/00 302 Z	1	0	5G503	H02J   7/00	109	その他〔Ａ優先〕	Others (A takes precedence.)
+H02J   7/00 303 \	1	1	5G503	H02J   7/00	17	充電用電源	Charging electric power supplies
+H02J   7/00 303 A	1	0	5G503	H02J   7/00	947	電源一般	electric power supplies in general
+H02J   7/00 303 B	1	1	5G503	H02J   7/00	263	風力発電機	Wind generators
+H02J   7/00 303 C	1	1	5G503	H02J   7/00	1818	電池	Batteries
+H02J   7/00 303 D	1	2	5G503	H02J   7/00	132	車両のシガ−ライタ−ソケツトからの充電	Charging from cigar lighter equipped in vehicle
+H02J   7/00 303 E	1	2	5G503	H02J   7/00	628	燃料電池〔給電も含む〕	Fuel cells (including electric power feeding)
+H02J   7/00 303 Z	1	0	5G503	H02J   7/00	261	その他〔Ａ優先〕	Others (A takes precedence.)
+H02J   7/02  \	1	1	5G503	H02J   7/02	588	コンバータにより交流幹線から電池を充電するためのもの［１，２０１６．０１］	for charging batteries from ac mains by converters [2016.01] [2016.01]
+H02J   7/02  A	1	0	5G503	H02J   7/02	452	充電一般	Charging in general
+H02J   7/02  B	1	1	5G503	H02J   7/02	1151	充電方法	Charging methods
+H02J   7/02  C	1	1	5G503	H02J   7/02	163	異なる電源電圧に対応するもの〔例．１００Ｖ／２００Ｖ切替〕	adopted for coping with different electric power supply voltages, e.g. switching from 100 to 200 v or vice versa
+H02J   7/02  D	1	1	5G503	H02J   7/02	66	トランスレス充電器	Chargers without transformer
+H02J   7/02  E	1	1	5G503	H02J   7/02	328	活性化のための充電	Charging for activation
+H02J   7/02  F	1	0	5G503	H02J   7/02	1720	複数電池の充電	Charging multiple batteries
+H02J   7/02  G	1	1	5G503	H02J   7/02	882	順次切替えて充電するもの	Charging by switching from one to another in sequence
+H02J   7/02  H	1	1	5G503	H02J   7/02	4274	直列充電	Serial chafing
+H02J   7/02  J	1	1	5G503	H02J   7/02	1495	並列充電	Parallel charging
+H02J   7/02  K	1	1	5G503	H02J   7/02	58	２組の電池を半波毎に充電するもの	Charging two sets of batteries by half-wave
+H02J   7/02  U	1	0	5G503	H02J   7/02	529	充電表示	Indicating charging
+H02J   7/02  V	1	1	5G503	H02J   7/02	406	制御と関連した表示	Indicating related to charging
+H02J   7/02  W	1	2	5G503	H02J   7/02	55	インバ−タを用いた充電回路における表示	Indicating for charging circuits using inverters
+H02J   7/02  X	1	1	5G503	H02J   7/02	127	電圧検出による表示	Indicating by detecting voltages
+H02J   7/02  Z	1	0	5G503	H02J   7/02	11	その他〔Ａ優先〕	Others (A takes precedence.)
+H02J   7/04  \	2	2	5G503	H02J   7/04	853	充電電流または電圧の調整	Regulation of the charging current or voltage
+H02J   7/04  A	2	0	5G503	H02J   7/04	1176	充電制御一般	Regulating charging in general
+H02J   7/04  B	2	1	5G503	H02J   7/04	336	残量放電の後，充電するもの	Charging after discharging remaining charge
+H02J   7/04  C	2	1	5G503	H02J   7/04	1007	タイマを用いた充電制御	Regulating charging using timers
+H02J   7/04  D	2	2	5G503	H02J   7/04	78	電流積算値に対応するタイマ〔電解素子等を含む〕	Timers corresponding to calculated electric power values (including electrolytic elements)
+H02J   7/04  E	2	1	5G503	H02J   7/04	15	充電終期に大電流充電を行なうもの	Charging bulk currents before ending charging
+H02J   7/04  F	2	1	5G503	H02J   7/04	465	パルス充電	Pulse charging
+H02J   7/04  G	2	1	5G503	H02J   7/04	167	保守のための充電	Charging for maintenance
+H02J   7/04  H	2	1	5G503	H02J   7/04	237	非電気的パラメ−タに基づく充電制御	Regulating charging based on non-electrical parameters
+H02J   7/04  J	2	2	5G503	H02J   7/04	56	ガス発生〔ガス吸収電極電圧を含む〕	Generating gases (including gas absorbing electrode voltage)
+H02J   7/04  K	2	3	5G503	H02J   7/04	87	内圧	Internal pressures
+H02J   7/04  L	2	2	5G503	H02J   7/04	1267	電池温度	Battery temperatures
+H02J   7/04  M	2	3	5G503	H02J   7/04	150	サ−モスタツトによる電池温度検出	Detecting battery temperatures using thermostats
+H02J   7/04  N	2	2	5G503	H02J   7/04	165	素子等の温度	Temperatures of elements
+H02J   7/04  P	2	2	5G503	H02J   7/04	38	電解液比重	Specific gravities of electrolytic solutions
+H02J   7/04  Q	2	1	5G503	H02J   7/04	146	温度補償	Compensating temperatures
+H02J   7/04  Z	2	0	5G503	H02J   7/04	17	その他〔Ａ優先〕	Others (A takes precedence.)
+H02J   7/06  \	3	3	5G503	H02J   7/06	0	放電管または半導体装置を用いるもの	using discharge tubes or semiconductor devices
+H02J   7/08  \	4	4	5G503	H02J   7/08	6	放電管のみを用いるもの	using discharge tubes only
+H02J   7/10  \	4	4	5G503	H02J   7/10	1218	半導体装置のみを用いるもの	using semiconductor devices only
+H02J   7/10  A	4	0	5G503	H02J   7/10	464	充電制御一般	Regulating charging in general
+H02J   7/10  B	4	1	5G503	H02J   7/10	3069	電圧検出〔７／０４Ｃが優先〕	Detecting voltages (7/04 C takes precedence.)
+H02J   7/10  C	4	2	5G503	H02J   7/10	590	電圧変化率検出	Detecting voltage change ratios
+H02J   7/10  D	4	3	5G503	H02J   7/10	57	微分回路を用いるもの	using differentiating circuits
+H02J   7/10  E	4	3	5G503	H02J   7/10	59	パルス充電における電圧変化率検出	Detecting voltage change ratios with pulse charging
+H02J   7/10  F	4	2	5G503	H02J   7/10	173	非充電期間の電圧検出	Detecting voltage while not being charged
+H02J   7/10  G	4	2	5G503	H02J   7/10	12	補助電池電圧を基準電圧とするもの	using auxiliary battery voltage as datum voltage
+H02J   7/10  H	4	1	5G503	H02J   7/10	2314	電流検出を含むもの	involving detecting currents
+H02J   7/10  J	4	1	5G503	H02J   7/10	339	デジタル・タイマを用いるもの	using digital timers
+H02J   7/10  K	4	2	5G503	H02J   7/10	232	デジタル・タイマを用いた充放電制御	Charging or discharging charging using digital timers
+H02J   7/10  P	4	1	5G503	H02J   7/10	459	インバ−タ，コンバ−タを用いるもの	using inverters or converters
+H02J   7/10  R	4	2	5G503	H02J   7/10	514	トランジスタ・インバ−タ	Transistors or inverters
+H02J   7/10  L	4	1	5G503	H02J   7/10	1440	電池温度検出	Detecting battery voltages
+H02J   7/10  N	4	1	5G503	H02J   7/10	223	素子等の温度	Temperatures of elements
+H02J   7/10  Q	4	1	5G503	H02J   7/10	259	温度補償	Compensating temperatures
+H02J   7/10  Z	4	0	5G503	H02J   7/10	39	その他	Others
+H02J   7/12  \	3	3	5G503	H02J   7/12	4	飽和度の制御可能な磁気装置を用いるもの，すなわちトランスダクタ	using magnetic devices having controllable degree of saturation, i.e. transductors
+H02J   7/14  \	1	1	5G060	H02J   7/14	25	可変速度で駆動される発電機から電池を充電するためのもの，例．車両用	for charging batteries from dynamo-electric generators driven at varying speed, e.g. on vehicle
+H02J   7/14  A	1	0	5G060	H02J   7/14	446	一般	General
+H02J   7/14  B	1	1	5G060	H02J   7/14	89	構造，配置	Structures or arrangements
+H02J   7/14  C	1	1	5G060	H02J   7/14	257	原動機制御による出力制御〔変速機制御も含む〕	Regulating outputs by motor control (including transmission gear control)
+H02J   7/14  E	1	1	5G060	H02J   7/14	238	保護	Protection
+H02J   7/14  H	1	1	5G060	H02J   7/14	585	複数電池	Multiple batteries
+H02J   7/14  K	1	0	5G060	H02J   7/14	79	磁石式発電機〔表示はＵ〕	magnetic generators (indicating U)
+H02J   7/14  L	1	1	5G060	H02J   7/14	185	負荷への給電〔昼夜切替等〕	Feeding electric power to loads (switching day and night)
+H02J   7/14  M	1	1	5G060	H02J   7/14	96	出力制御	Regulating outputs
+H02J   7/14  N	1	2	5G060	H02J   7/14	129	並列制御	Parallel regulation
+H02J   7/14  P	1	2	5G060	H02J   7/14	248	直列制御〔ＳＣＲブリツジ整流回路〕	Serial control (SCR bridge rectification circuits)
+H02J   7/14  Q	1	0	5G060	H02J   7/14	88	表示，警報，試験	Indicating, alarms or tests
+H02J   7/14  R	1	1	5G060	H02J   7/14	41	充電表示	Indicating charging
+H02J   7/14  S	1	2	5G060	H02J   7/14	137	半導体回路による	by semiconductor circuits
+H02J   7/14  T	1	2	5G060	H02J   7/14	61	接点式回路による	by contact circuits
+H02J   7/14  U	1	2	5G060	H02J   7/14	20	界磁制御をしないものにおける充電表示	Indicating charging for circuits without field control
+H02J   7/14  V	1	1	5G060	H02J   7/14	215	異常表示	Indicating faults
+H02J   7/14  W	1	1	5G060	H02J   7/14	45	試験	Tests
+H02J   7/14  Z	1	0	5G060	H02J   7/14	36	その他〔Ａ優先〕	Others (A takes precedence.)
+H02J   7/16  \	2	2	5G060	H02J   7/16	21	界磁変化による充電電流または電圧の調整	Regulation of the charging current or voltage by variation of field
+H02J   7/16  A	2	0	5G060	H02J   7/16	265	界磁制御	Regulating fields
+H02J   7/16  B	2	1	5G060	H02J   7/16	53	結線切替〔整流回路，巻線の構成切替〕	Switching line connections (switching rectification circuits or winding configurations)
+H02J   7/16  C	2	1	5G060	H02J   7/16	64	バツテリ−・リレ−〔誤動作防止を含む〕〔Ｂリレ−による保護も含む〕	Batteries or relays (including preventing malfunctions) (including protections with B relays)
+H02J   7/16  D	2	1	5G060	H02J   7/16	59	温度補償	Compensating temperatures
+H02J   7/16  E	2	1	5G060	H02J   7/16	108	保護	Protection
+H02J   7/16  H	2	1	5G060	H02J   7/16	194	複数電池	Multiple batteries
+H02J   7/16  J	2	1	5G060	H02J   7/16	137	複数発電機，複数出力巻線	Multiple generators or output windings
+H02J   7/16  X	2	1	5G060	H02J   7/16	563	エンジン状態〔負荷，回転数，始動時等〕に応じた制御〔設定電圧変更，充電停止等〕〔制御回路の消費電力を減らすためのものは７／２４Ｇ〕	Regulation corresponding to engine conditions (loading, revolution speeds, starting) (changing regulating voltages, stopping charging) (for reducing electric power consumption by regulating circuits 7/24 G)
+H02J   7/16  Y	2	1	5G060	H02J   7/16	380	電気負荷状態に応じた制御〔電圧ドロツブ検出等，間接検出によるものも含む〕〔アイドルアツプは７／１４Ｃ〕	Regulation corresponding to electrical loading conditions (including detecting voltage drops or indirect detection) (increasing idling speeds 7/14 C)
+H02J   7/16  Z	2	0	5G060	H02J   7/16	93	その他	Others
+H02J   7/18  \	3	3	5G060	H02J   7/18	2	界磁回路へ段階的に接続または切り外される抵抗を用い，界磁回路内のオーム抵抗の変化にもとづくもの	due to variation of ohmic resistance in field circuit, using resistance switching in or out of circuit step by step
+H02J   7/20  \	3	3	5G060	H02J   7/20	4	連続的可変オーム抵抗の変化にもとづくもの	due to variation of continuously-variable ohmic resistor
+H02J   7/22  \	3	3	5G060	H02J   7/22	162	断続的作動接触子の閉成対開放比の変化によるもの，例．チリル調整機	due to variation of make-to-break ratio of intermittently-operating contacts, e.g. using Tirrill regulator
+H02J   7/24  \	3	3	5G060	H02J   7/24	11	放電管または半導体装置を使用するもの（Ｈ０２Ｊ７／２８が優先）	using discharge tubes or semiconductor devices
+H02J   7/24  A	3	0	5G060	H02J   7/24	353	界磁制御	Regulating fields
+H02J   7/24  B	3	1	5G060	H02J   7/24	54	ＳＣＲによる界磁制御	Regulating field by SCR
+H02J   7/24  C	3	1	5G060	H02J   7/24	190	デイジタル制御〔マイコン制御〕	Digital regulation (microcomputer regulation)
+H02J   7/24  D	3	1	5G060	H02J   7/24	114	温度補償	Compensating temperatures
+H02J   7/24  E	3	1	5G060	H02J   7/24	193	保護〔異常表示のみはＶ〕	Protection (indicating faults only V)
+H02J   7/24  F	3	2	5G060	H02J   7/24	56	二重化による保護	Protection by doubling
+H02J   7/24  G	3	1	5G060	H02J   7/24	94	励磁電流の制限〔初期励磁，低速時等〕	Limiting excitation voltages (initial excitation, at low speeds)
+H02J   7/24  Z	3	0	5G060	H02J   7/24	22	その他	Others
+H02J   7/26  \	3	3	5G060	H02J   7/26	7	飽和度が制御可能な磁気装置を用いるもの（Ｈ０２Ｊ７／２８が優先）	using magnetic devices with controllable degree of saturation
+H02J   7/28  \	3	3	5G060	H02J   7/28	3	制御放電管または制御半導体装置と結合した飽和度の制御可能な磁気装置を用いるもの	using magnetic devices with controllable degree of saturation in combination with controlled discharge tube or controlled semiconductor device
+H02J   7/30  \	3	3	5G060	H02J   7/30	0	電機子反作用励磁機を用いるもの	using armature-reaction-excited machines
+H02J   7/32  \	1	1	5G060	H02J   7/32	96	非電気的原動機をもつ充電装置から電池を充電するためのもの	for charging batteries from a charging set comprising a non-electric prime mover
+H02J   7/34  \	1	1	5G503	H02J   7/34	468	電池と他の直流源の双方を使用する回路網内での並列運転，例．バッファリングの提供（Ｈ０２Ｊ７／１４が優先）［４］	Parallel operation in networks using both storage and other dc sources, e.g. providing buffering (H02J 7/14 takes precedence) [4]
+H02J   7/34  A	1	0	5G503	H02J   7/34	1005	一般	General
+H02J   7/34  B	1	1	5G503	H02J   7/34	1844	複数電池	Multiple batteries
+H02J   7/34  G	1	1	5G503	H02J   7/34	1428	非常用電源〔停電時にスイツチを介して給電するもの，Ｃ〜Ｆ優先〕	Emergency electric power supplies (feeding electric power via switches upon electric power failures C to F take precedence.)
+H02J   7/34  H	1	2	5G503	H02J   7/34	107	非常用発電機をもつもの	with emergency generators
+H02J   7/34  J	1	2	5G503	H02J   7/34	826	変換器〔インバ−タ等〕を充放電に兼用するもの〔電力系統との整合（周液数，位相等）を図るのが主眼であれば，Ｈ０２Ｊ３／３２〕	using converters (inverters) also for charging {mainly aiming at matching with electric power systems (frequency, phase) H 02 J 3/32}
+H02J   7/34  C	1	1	5G503	H02J   7/34	934	充電制御〔均等充電，回復充電等〕	Regulating charging (uniform charging, recovery charging)
+H02J   7/34  D	1	2	5G503	H02J   7/34	609	電気量による制御	Regulation by electric amounts
+H02J   7/34  E	1	1	5G503	H02J   7/34	369	負荷電圧調整〔Ｃ優先〕	Regulating load voltages (C takes precedence.)
+H02J   7/34  K	1	2	5G503	H02J   7/34	30	被充電電池を基準電圧とするもの	using charged batteries as datum voltage
+H02J   7/34  F	1	1	5G503	H02J   7/34	392	過放電防止〔Ｃ優先〕	Preventing over-charging (C takes precedence.)
+H02J   7/34  Z	1	0	5G503	H02J   7/34	105	その他	Others
+H02J   7/35  \	2	2	5G503	H02J   7/35	520	光電池をもつもの［４］	with light sensitive cells [4]
+H02J   7/35  A	2	0	5G503	H02J   7/35	758	充電〔一般〕	Charging (in general)
+H02J   7/35  B	2	1	5G503	H02J   7/35	573	電圧または電流検出による充電制御	Regulating charging by detecting voltages or currents
+H02J   7/35  C	2	2	5G503	H02J   7/35	139	シヤント制御	Regulating shunting
+H02J   7/35  D	2	2	5G503	H02J   7/35	57	入射光量制御	Regulating amounts of irradiated lights
+H02J   7/35  E	2	2	5G503	H02J   7/35	176	電源または電池の構成変更による制御	Regulation by shunting structures of electric power supplies or batteries
+H02J   7/35  F	2	2	5G503	H02J   7/35	227	電源出力を昇圧または降圧するもの	by increasing or reducing the electric power supply outputs
+H02J   7/35  G	2	1	5G503	H02J   7/35	181	非電気量検出による充電制御〔例．照度〕	Regulating charging by detecting non-electric amounts, e.g. illumination
+H02J   7/35  J	2	0	5G503	H02J   7/35	669	負荷への給電制御	Regulating electric power feeding to loads
+H02J   7/35  K	2	1	5G503	H02J   7/35	3373	他の電源〔一次電池，商用電源〕との連携	Cooperation with other electric power supplies (primary batteries, commercial electric power supplies)
+H02J   7/35  H	2	0	5G503	H02J   7/35	612	装置の構造	Device structures
+H02J   7/35  Z	2	0	5G503	H02J   7/35	257	その他	Others
+H02J   7/36  \	1	1	5G503	H02J   7/36	88	端電池切り換えを使用する装置	Arrangements using end-cell switching
+H02J   9/00  \	0	0	5G015	H02J   9/00	819	非常用または待機用電源の回路装置，例．非常用照明のためのもの［２００６．０１］	Circuit arrangements for emergency or stand-by power supply, e.g. for emergency lighting (with provision for charging standby battery H02J 7/00)
+H02J   9/00 120 \	1	1	5G015	H02J   9/00	609	重要でない負荷を切断することによりエネルギー源の残量を維持するもの，例．エンジンを始動するために車両バッテリーの充電量を維持するもの	preserve remaining quantity of energy sources by cutting off insignificant load, e.g. preserve charging amount of vehicle batteries to start up engine
+H02J   9/00 150 \	1	1	5G015	H02J   9/00	116	省電力モードを使用するもの（コピー機のためのものＧ０３Ｇ２１／００）	using power saving mode (for copying machine G03G21/00)
+H02J   9/02  \	1	1	5G015	H02J   9/02	993	その内，補助配電系統とそれに関連したランプを役立たせるもの［２００６．０１］	in which an auxiliary distribution system and its associated lamps are brought into service
+H02J   9/04  \	1	1	5G015	H02J   9/04	355	その内，配電系統が平常時の電源から切り離され，そして待機用電源に接続されるもの［２００６．０１］	in which the distribution system is disconnected from the normal source and connected to a standby source
+H02J   9/06  \	2	2	5G015	H02J   9/06	1143	自動転換をもつもの［２００６．０１］	with automatic change-over
+H02J   9/06 110 \	3	3	5G015	H02J   9/06	4561	電子手段の使用により特徴付けられるもの（Ｈ０２Ｊ９／０６，１２０とＨ０２Ｊ９／０６，１５０が優先）	characterized by use of electronic means (H02J9/06, 120 and H02J9/06, 150 take precedence)
+H02J   9/06 120 \	3	3	5G015	H02J   9/06	4203	静止型直流／交流変換装置を含むもの	including stationary type DC/AC converter device
+H02J   9/06 150 \	4	4	5G015	H02J   9/06	476	照明目的のためのもの	for lighting purpose
+H02J   9/06 160 \	3	3	5G015	H02J   9/06	250	回転電気機械の使用により特徴付けられるもの（Ｈ０２Ｊ９／０８が優先）	characterized by use of rotating electric machine (H02J9/08 takes precedence)
+H02J   9/08  \	3	3	5G015	H02J   9/08	904	原動機起動を必要とするもの［２００６．０１］	requiring starting of a prime-mover
+H02J  11/00  \	0	0	5G015	H02J  11/00	194	電力を発電，配電または変換される局の補助設備に必要電力を供給するための回路装置［２００６．０１］	Circuit arrangements for providing service supply to auxiliaries of stations in which electric power is generated, distributed, or converted (emergency or standby arrangements H02J 9/00)
+H02J  13/00  \	0	0	5G064	H02J  13/00	77	回路網状態の遠隔指示を備える回路装置，例．回路網内の各々の遮断器の開閉状態の瞬時記録，電力配電回路網内にあるスイッチ手段の遠隔制御を備える回路装置，例．回路網によって伝送されるパルスコードシグナルを使うことにより需用家のスイッチを入，切するもの	Circuit arrangements for providing remote indication of network conditions, e.g. an instantaneous record of the open or closed condition of each circuitbreaker in the network; Circuit arrangements for providing remote control of switching means in a power distribution network, e.g. switching in and out of current consumers by using a pulse code signal carried by the network
+H02J  13/00  A	0	0	5G064	H02J  13/00	254	伝送に特徴を持つもの	Characterised by transmitting
+H02J  13/00  B	0	1	5G064	H02J  13/00	815	電力線と信号線を共用するもの	Sharing electric power and signal lines
+H02J  13/00  C	0	2	5G064	H02J  13/00	130	パルスコ−ド式	Pulse coded type
+H02J  13/00  D	0	2	5G064	H02J  13/00	226	送受信器に特徴を持つもの	Characterised by transmitters or receivers
+H02J  13/00  E	0	2	5G064	H02J  13/00	96	細部：ブロツクフイルタ，雑音防止	Details: block filters, preventing noises
+H02J  13/00  F	0	2	5G064	H02J  13/00	56	電力時分割伝送	Time-shared electric power transmission
+H02J  13/00  J	0	0	5G064	H02J  13/00	68	選択に特徴を持つもの	Characterised by selection
+H02J  13/00  M	0	0	5G064	H02J  13/00	298	誤動作防止，誤操作防止	Preventing malfunctioning or faulty operations
+H02J  13/00  N	0	0	5G064	H02J  13/00	143	試験	Tests
+H02J  13/00  Z	0	0	5G064	H02J  13/00	333	その他のもの	Others
+H02J  13/00 301 \	1	1	5G064	H02J  13/00	35	回路網状態の遠隔指示	Remote indication of network conditions
+H02J  13/00 301 A	1	0	5G064	H02J  13/00	6572	デ−タの収集，状態の把握	Collecting data or seizing conditions
+H02J  13/00 301 B	1	1	5G064	H02J  13/00	553	状態変化検出	Detecting state changes
+H02J  13/00 301 C	1	1	5G064	H02J  13/00	218	スイツチの開閉の監視	Monitoring switch operations
+H02J  13/00 301 D	1	1	5G064	H02J  13/00	824	故障検出	Detecting failures
+H02J  13/00 301 J	1	0	5G064	H02J  13/00	1013	表示に特徴を持つもの	characterised by indicating electric power supplies (Others take precedence.)
+H02J  13/00 301 K	1	1	5G064	H02J  13/00	622	ＣＲＴを用いたもの	using CRT
+H02J  13/00 301 Z	1	0	5G064	H02J  13/00	33	その他	Others
+H02J  13/00 311 \	1	1	5G064	H02J  13/00	26	回路網内のスイツチ手段の遠隔制御	Remote control for switching means within network
+H02J  13/00 311 A	1	0	5G064	H02J  13/00	760	回路網内のスイツチの遠隔制御一般〔Ｒ〜Ｕが優先〕	Remoter control in general for switches in network (R to U take precedence.)
+H02J  13/00 311 B	1	1	5G064	H02J  13/00	337	電力線に信号を重畳しスイツチを制御するもの	Control switches by superimposing signal onto electric power line
+H02J  13/00 311 C	1	2	5G064	H02J  13/00	259	屋内配電線におけるスイツチの制御	Control switches for indoor electric power lines
+H02J  13/00 311 E	1	1	5G064	H02J  13/00	381	連絡線を用いたスイツチの制御	Control switches using connecting lines
+H02J  13/00 311 F	1	2	5G064	H02J  13/00	343	直接式	Direct type
+H02J  13/00 311 H	1	2	5G064	H02J  13/00	34	順次投入	Sequential loading
+H02J  13/00 311 K	1	1	5G064	H02J  13/00	449	無線，光，音によるスイツチの制御	Control switches by radio, lights or sounds
+H02J  13/00 311 M	1	1	5G064	H02J  13/00	199	送受信器に特徴を持つもの	characterised by transmitters or receivers
+H02J  13/00 311 N	1	2	5G064	H02J  13/00	279	屋内機器制御用送受信器	Transmitters or receivers for controlling indoor instruments
+H02J  13/00 311 R	1	0	5G064	H02J  13/00	2591	電力系統の制御	Control electric power systems
+H02J  13/00 311 S	1	1	5G064	H02J  13/00	414	区分開閉器の遠隔制御	Remote controlling portion switches
+H02J  13/00 311 T	1	0	5G064	H02J  13/00	2508	消費電力制御〔例．低優先度負荷の遮断〕	Control electric power consumption, e.g. shutting off low priority loads
+H02J  13/00 311 U	1	0	5G064	H02J  13/00	228	プログラム制御	Program control
+H02J  13/00 311 Z	1	0	5G064	H02J  13/00	33	その他	Others
+H02J  15/00  \	0	0	5G062	H02J  15/00	14	電気エネルギーを蓄積するための方式（そのための機械的な方式Ｆ０１〜Ｆ０４；化学的形態におけるものＨ０１Ｍ）［２］	Systems for storing electric energy (mechanical systems therefor F01-F04; in chemical form H01M) [2]
+H02J  15/00  A	0	0	5G062	H02J  15/00	708	はずみ車〔フライホイール〕によるもの	by flywheels
+H02J  15/00  B	0	0	5G062	H02J  15/00	387	コイル〔例．超電導コイル〕によるもの	by coils, e.g. super conductive coils
+H02J  15/00  F	0	1	5G062	H02J  15/00	72	エネルギー転送回路に特徴があるもの	characterised by energy transfer circuits
+H02J  15/00  C	0	0	5G062	H02J  15/00	298	位置エネルギ−を利用したもの	using position energy
+H02J  15/00  D	0	0	5G062	H02J  15/00	389	蓄電池を用いたもの	using condensers
+H02J  15/00  E	0	0	5G062	H02J  15/00	315	気体の圧力を利用したもの	using gas pressures
+H02J  15/00  G	0	0	5G062	H02J  15/00	250	電気分解を利用するもの	using electrolysis
+H02J  15/00  H	0	0	5G062	H02J  15/00	75	蓄熱によるもの（Ｈ１１新設）	by accumulating heat (Newly established in H11.)
+H02J  15/00  J	0	0	5G062	H02J  15/00	15	蓄氷，蓄冷によるもの（Ｈ１１新設）	by accumulated ice or coldness (Newly established in H11.)
+H02J  15/00  Z	0	0	5G062	H02J  15/00	90	その他	Others
+H02J  50/00  \	0	0	5G063	H02J  50/00	175	ワイヤレスで電力給電または電力配電を行うための回路装置または方式［２０１６．０１］	Circuit arrangements or systems for wireless supply or distribution of electric power [2016.01]
+H02J  50/05  \	1	1	5G063	H02J  50/05	817	容量結合を用いるもの［２０１６．０１］	using capacitive coupling [2016.01]
+H02J  50/10  \	1	1	5G063	H02J  50/10	8243	誘導結合を用いるもの［２０１６．０１］	using inductive coupling [2016.01]
+H02J  50/12  \	2	2	5G063	H02J  50/12	6367	共振方式による［２０１６．０１］	of the resonant type [2016.01]
+H02J  50/15  \	1	1	5G063	H02J  50/15	82	超音波を用いるもの［２０１６．０１］	using ultrasonic waves [2016.01]
+H02J  50/20  \	1	1	5G063	H02J  50/20	1545	マイクロ波や高周波【ＲＦ】を用いるもの［２０１６．０１］	using microwaves or radio frequency waves [2016.01]
+H02J  50/23  \	2	2	5G063	H02J  50/23	147	送電アンテナの型式により特徴付けられるもの，例．指向性アレイアンテナまたは八木アンテナ［２０１６．０１］	characterised by the type of transmitting antennas, e.g. directional array antennas or Yagi antennas [2016.01]
+H02J  50/27  \	2	2	5G063	H02J  50/27	194	受電アンテナの型式により特徴付けられるもの，例．レクテナ［２０１６．０１］	characterised by the type of receiving antennas, e.g. rectennas [2016.01]
+H02J  50/30  \	1	1	5G063	H02J  50/30	587	光を用いるもの，例．レーザー［２０１６．０１］	using light, e.g. lasers [2016.01]
+H02J  50/40  \	1	1	5G063	H02J  50/40	3311	２つ以上の送電装置または受電装置を用いるもの（Ｈ０２Ｊ５０／５０が優先）［２０１６．０１］	using two or more transmitting or receiving devices(H02J50/50 takes precedence) [2016.01]
+H02J  50/50  \	1	1	5G063	H02J  50/50	434	送電装置と受電装置の間に追加の電力中継器を用いるもの［２０１６．０１］	using additional energy repeaters between transmitting devices and receiving devices [2016.01]
+H02J  50/60  \	1	1	5G063	H02J  50/60	1481	異物の存在に対応するもの，例．生き物の検出［２０１６．０１］	responsive to the presence of foreign objects, e.g. detection of living beings [2016.01]
+H02J  50/70  \	1	1	5G063	H02J  50/70	1508	電界，磁界または電磁界の漏洩の低減を含むもの［２０１６．０１］	involving the reduction of electric, magnetic or electromagnetic leakage fields [2016.01]
+H02J  50/80  \	1	1	5G063	H02J  50/80	4853	送電装置と受電装置の間での電力の給電または配電に関するデータの交換を含むもの［２０１６．０１］	involving the exchange of data, concerning supply or distribution of electric power, between transmitting devices and receiving devices [2016.01]
+H02J  50/90  \	1	1	5G063	H02J  50/90	3166	位置検出や位置最適化を含むもの，例．位置合わせ［２０１６．０１］	involving detection or optimisation of position, e.g. alignment [2016.01]

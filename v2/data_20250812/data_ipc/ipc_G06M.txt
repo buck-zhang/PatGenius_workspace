@@ -1,0 +1,44 @@
+G06M   1/00		一般的構成事項	Design features of general application	1778
+G06M   1/02	・	ハウジング（測定器用一般Ｇ０１Ｄ）	Housing(for measuring instruments in general G01D)	1100
+G06M   1/04	・	最下位の段の駆動のための構成（駆動の比が可変のものＧ０６Ｍ１／３８）	for driving the stage of lowest order(with variable ratio of drive G06M1/38)	1393
+G06M   1/06	・・	段の連続回転を生じさせるもの，例．歯車列によるもの	producing continuous revolution of the stage, e.g. with gear train	682
+G06M   1/08	・	駆動作動のための構成	for actuating the drive	1287
+G06M   1/10	・・	電気的または磁気的手段によるもの	by electric or magnetic means	3156
+G06M   1/12	・・	流体手段によるもの	by fluid means	145
+G06M   1/14	・	ある段から高位段へ桁送りするための構成（桁送りの比が可変のものＧ０６Ｍ１／３８）	for transferring a condition from one stage to a higher stage(with variable ratio of transfer G06M1/38)	361
+G06M   1/16	・・	自己作動のもの，例．ジェネバ機構によるもの	self-operating, e.g. by Geneva mechanism	564
+G06M   1/18	・・	外部作動を要するもの，例．電磁力によるもの	requiring external operation, e.g. by electromagnetic force	92
+G06M   1/20	・・	各単位でそれぞれとりうる値の個数が異なる単位群に特に適するもの，例．角度における度や分のためのもの	specially adapted for denominations with unequal numbers in each stage, e.g. degrees and minutes of angle	43
+G06M   1/22	・	計数機構上の計数結果を可視表示するための構成，例．拡大レンズをもつ窓によるもの	for visual indication of the result of count on counting mechanisms, e.g. by window with magnifying lens	782
+G06M   1/24	・・	表示ドラム；目盛り盤；指針	Drums; Dials; Pointers	784
+G06M   1/26	・・	整列手段	Aligning means	213
+G06M   1/27	・	計数結果を電気信号の形で出力するための構成，例．計数ドラム上のマークを感知することによるもの	for representing the result of count in the form of electric signals, e.g. by sensing markings on the counter drum	1614
+G06M   1/272	・・	光電的手段を用いるもの	using photoelectric means	3546
+G06M   1/274	・・	磁気的手段を用いるもの；ホール効果素子を用いるもの	using magnetic means; using Hall-effect devices	469
+G06M   1/276	・・	機械的に作動される接点を用いるもの	using mechanically-actuated contacts	483
+G06M   1/28	・	特定値への設定または帰零のための構成	for zeroising or setting to a particular value	1016
+G06M   1/30	・・	ハート形または類似のカムを用いるもの；レバーを用いるもの	using heart-shaped or similar cams; using levers	705
+G06M   1/32	・・・	作動手段，例．磁石，ばね，おもり	Actuating means, e.g. magnet, spring, weight	94
+G06M   1/34	・・	再設定軸を用いるもの	using reset shafts	415
+G06M   1/36	・・・	作動手段，例．磁石，ばね，おもり	Actuating means, e.g. magnet, spring, weight	143
+G06M   1/38	・	駆動または桁送りの比を可変にするための構成，例．複数の計数輪列を択一的に用いるもの	for varying ratio of drive or transfer mechanism, e.g. by using alternative counting trains	121
+G06M   3/00		付加的手段をもつ計数器（間隔がランダムな電気パルスの発生Ｈ０３Ｋ３／８４）	Counters with additional facilities(generating electric pulses at random intervals H03K3/84)	2349
+G06M   3/02	・	設定計数値における作動，例．機械の停止，を行なわせるための手段	for performing an operation at a predetermined value of the count, e.g. arresting a machine	1127
+G06M   3/04	・・	逆方向作動用の付加計数輪列をもつもの	with an additional counter train operating in the reverse direction	61
+G06M   3/06	・	計数結果を印字または別表示するための手段（表示システムＧ０９）	for printing or separately displaying result of count(display systems G09)	575
+G06M   3/08	・	数個の源からの入力を計数するための手段；異なる量の入力を計数するための手段	for counting the input from several sources; for counting inputs of different amounts	330
+G06M   3/10	・	各単位でそれぞれとりうる値の個数が異なる単位群の計数をするための手段，例．角度における度や分（桁送り機構Ｇ０６Ｍ１／２０）	for counting denominations with unequal numbers in each stage, e.g. degrees and minutes of angle(transfer mechanism therefor G06M1/20)	40
+G06M   3/12	・	不適当な作動を防止するための手段，例．偽報防止用	for preventing incorrect actuation, e.g. for preventing falsification	468
+G06M   3/14	・	正および負の作動の差を記録するための手段	for registering difference of positive and negative actuations	174
+G06M   7/00		コンベヤによって運ばれる物品の計数	Counting of objects carried by a conveyor	5844
+G06M   7/02	・	検出素子へ達する前に物品が引き続く物品間で明確な空隙を生ずるように分離されるもの	wherein objects ahead of the sensing element are separated to produce a distinct gap between successive objects	623
+G06M   7/04	・・	塊状の物品，例．箱，の計数	Counting of piece goods, e.g. of boxes	1129
+G06M   7/06	・・	平板状の物品，例．紙，の計数	Counting of flat articles, e.g. of sheets of paper	2970
+G06M   7/08	・	物品が検出される位置で物品の移動方向が変更されるもの	wherein the direction of movement of the objects is changed at the station where they are sensed	133
+G06M   7/10	・・	オーバーラップしている平板状物品，例．カード，の計数	Counting of flat overlapped articles, e.g. of cards	227
+G06M   9/00		積み重なった物品の計数	Counting of objects in a stack thereof	1079
+G06M   9/02	・	流体吸引ノズルと共働する回転分離装置を用いるもの	by using a rotating separator incorporating pneumatic suction nozzles	639
+G06M  11/00		ランダムに分布している物品の計数，例．一表面上に分布しているものの計数	Counting of objects distributed at random, e.g. on a surface	2011
+G06M  11/02	・	一つの表面を次々と線状に走査する電子ビームを用いるもの，例．基板上の血球についてのもの	using an electron beam scanning a surface line by line, e.g. of blood cells on a substrate	238
+G06M  11/04	・・	寸法が異なる物品を区別する手段をもつもの（粒子の寸法の調査一般Ｇ０１Ｎ１５／００）	with provision for distinguishing between different sizes of objects(investigating particle size in general G01N15/00)	242
+G06M  15/00		他に分類されない物品の計数［２０１１．０１］	Counting of objects, not otherwise provided for	293

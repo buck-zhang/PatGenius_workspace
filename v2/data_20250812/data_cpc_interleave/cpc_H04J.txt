@@ -1,0 +1,326 @@
+H04J1/00	7	Frequency-division multiplex systems (H04J14/00 takes precedence)	H04J1/00	H04J1/00		547
+H04J1/02	8	Details	H04J1/02	H04J1/02		122
+H04J1/04	9	Frequency-transposition arrangements {(modulation with carrier or side-band suppression H03C1/52, H03C1/60; single-band suppression H04B1/00, H04B15/00; telegraphic communication H04L27/02, H04L25/49; transference of modulation from one carrier to another, e.g. frequency- changing H03D7/00; demodulation or transference of modulation of modulated electromagnetic waves H03D9/00)}	H04J1/04	H04J1/04		360
+H04J1/045	10	{Filters applied to frequency transposition}	H04J1/04	H04J1/04		142
+H04J1/05	10	using digital techniques	H04J1/05	H04J1/05		153
+H04J1/06	9	Arrangements for supplying the carrier waves {; Arrangements for supplying synchronisation signals (synchronisation in general H03B; frequency multiplication H03B19/00, H03B21/00; mixing H03D7/00, H03D9/00; carrier supply H04L5/10)}	H04J1/06	H04J1/06		405
+H04J1/065	10	{Synchronisation of carrier sources at the receiving station with the carrier source at the transmitting station}	H04J1/06	H04J1/06		109
+H04J1/08	9	Arrangements for combining channels {(branching filters H01P1/213, H03H7/46)}	H04J1/08	H04J1/08		250
+H04J1/085	10	{Terminal station; Combined modulator and demodulator circuits}	H04J1/08	H04J1/08		65
+H04J1/10	9	Intermediate station arrangements, e.g. for branching, for tapping-off {(repeater circuits H04B3/36, H04B3/58; two-way amplifiers H03F3/62)}	H04J1/10	H04J1/10		219
+H04J1/12	9	Arrangements for reducing cross-talk between channels {(in line transmission systems H04B3/32; in cables or lines H04B3/26&#160;-&#160;H04B3/30)}	H04J1/12	H04J1/12		297
+H04J1/14	9	Arrangements providing for calling or supervisory signals	H04J1/14	H04J1/14		399
+H04J1/16	9	Monitoring arrangements {(for transmission in general H04B17/00; for amplifiers H03F1/52, H03F1/523)}	H04J1/16	H04J1/16		399
+H04J1/18	8	in which all the carriers are amplitude-modulated (H04J1/02 takes precedence {in telephony H04Q11/02, H04Q11/023; in stereophony H04H; in telegraphy H04L5/06; in telemetry G08C15/02, G08C15/04})	H04J1/18	H04J1/18		118
+H04J1/20	8	in which at least one carrier is angle-modulated (H04J1/02 takes precedence; FM without multiplex H04B1/00, H04B14/006, H04B15/00; PSK H04L5/12; impulse-modulation without multiplex H04B14/02; time-division multiplexing for data transmission H04L5/22; telemetry G08C15/06&#160;-&#160;G08C15/12; telephony H04Q11/00, H04Q11/04, H04Q11/0407)	H04J1/20	H04J1/20		107
+H04J3/00	7	Time-division multiplex systems (H04J14/00 takes precedence; relay systems H04B7/14; selecting techniques H04Q)	H04J3/00	H04J3/00		906
+H04J3/02	8	Details (electronic switching or gating H03K17/00)	H04J3/02	H04J3/02		270
+H04J3/025	9	{Filter arrangements (H04J3/08 takes precedence; filters per seH03H7/00, H03H9/00)}	H04J3/02	H04J3/02		53
+H04J3/04	9	Distributors combined with modulators or demodulators {(pulse distributors in general H03K5/15; pulse counters H03K21/00&#160;-&#160;H03K29/06; for telegraphy H04L5/22, H04L13/00&#160;-&#160;H04L23/00, H04L25/45; for telephony H04Q11/04)}	H04J3/04	H04J3/04		327
+H04J3/042	10	{Distributors with electron or gas discharge tubes}	H04J3/04	H04J3/04		267
+H04J3/045	10	{Distributors with CRT}	H04J3/04	H04J3/04		168
+H04J3/047	10	{Distributors with transistors or integrated circuits}	H04J3/04	H04J3/04		824
+H04J3/06	9	Synchronising arrangements {(for television systems H04N5/04; bit-synchronisation H04L7/00)}	H04J3/06	H04J3/06		1014
+H04J3/0602	10	{Systems characterised by the synchronising information used}	H04J3/06	H04J3/06		757
+H04J3/0605	11	{Special codes used as synchronising signal}	H04J3/06	H04J3/06		665
+H04J3/0608	12	{Detectors therefor, e.g. correlators, state machines}	H04J3/06	H04J3/06		598
+H04J3/0611	12	{PN codes (H04J3/0608 takes precedence)}	H04J3/06	H04J3/06		82
+H04J3/0614	11	{the synchronising signal being characterised by the amplitude, duration or polarity}	H04J3/06	H04J3/06		158
+H04J3/0617	11	{the synchronising signal being characterised by the frequency or phase}	H04J3/06	H04J3/06		362
+H04J3/062	10	{Synchronisation of signals having the same nominal but fluctuating bit rates, e.g. using buffers (pulse-stuffing H04J3/07; asynchronous-synchronous conversion H04L5/24; speed conversion H04L25/05; speed conversion in computers G06F5/06)}	H04J3/06	H04J3/06		281
+H04J3/0623	11	{Synchronous multiplexing systems, e.g. synchronous digital hierarchy/synchronous optical network (SDH/SONET), synchronisation with a pointer process}	H04J3/06	H04J3/06		374
+H04J3/0626	11	{plesiochronous multiplexing systems, e.g. plesiochronous digital hierarchy [PDH], jitter attenuators}	H04J3/06	H04J3/06		304
+H04J3/0629	12	{in a network, e.g. in combination with switching or multiplexing, slip buffers}	H04J3/06	H04J3/06		199
+H04J3/0632	11	{Synchronisation of packets and cells, e.g. transmission of voice via a packet network, circuit emulation service [CES] (queuing arrangements in packet switching elements H04L49/90; synchronising systems for the synchronous transmission of a pulse code modulated video signal with one or more other pulse code modulated signals H04N7/56)}	H04J3/06	H04J3/06		888
+H04J3/0635	10	{Clock or time synchronisation in a network (timer in protocols H04L69/28)}	H04J3/06	H04J3/06		674
+H04J3/0638	11	{Clock or time synchronisation among nodes; Internode synchronisation (synchronization for ring networks H04L12/422; data switching networks with synchronous transmission H04L12/43)}	H04J3/06	H04J3/06		2774
+H04J3/0641	12	{Change of the master or reference, e.g. take-over or failure of the master}	H04J3/06	H04J3/06		851
+H04J3/0644	12	{External master-clock}	H04J3/06	H04J3/06		933
+H04J3/0647	12	{Synchronisation among TDM nodes}	H04J3/06	H04J3/06		281
+H04J3/065	13	{using timestamps}	H04J3/06	H04J3/06		215
+H04J3/0652	12	{Synchronisation among time division multiple access [TDMA] nodes, e.g. time triggered protocol [TTP] (bus network with centralized control in which slots are of a TDMA packet structure H04L12/4035)}	H04J3/06	H04J3/06		340
+H04J3/0655	13	{using timestamps}	H04J3/06	H04J3/06		285
+H04J3/0658	12	{Clock or time synchronisation among packet nodes}	H04J3/06	H04J3/06		1112
+H04J3/0661	13	{using timestamps}	H04J3/06	H04J3/06		1084
+H04J3/0664	14	{unidirectional timestamps}	H04J3/06	H04J3/06		569
+H04J3/0667	14	{Bidirectional timestamps, e.g. NTP or PTP for compensation of clock drift and for compensation of propagation delays (arrangements for monitoring round trip delays in packet switching networks H04L43/0864)}	H04J3/06	H04J3/06		2860
+H04J3/067	14	{Details of the timestamp structure}	H04J3/06	H04J3/06		119
+H04J3/0673	13	{using intermediate nodes, e.g. modification of a received timestamp before further transmission to the next packet node, e.g. including internal delay time or residence time into the packet}	H04J3/06	H04J3/06		369
+H04J3/0676	11	{Mutual}	H04J3/06	H04J3/06		264
+H04J3/0679	11	{by determining clock distribution path in a network}	H04J3/06	H04J3/06		201
+H04J3/0682	11	{by delay compensation, e.g. by compensation of propagation delay or variations thereof, by ranging}	H04J3/06	H04J3/06		1935
+H04J3/0685	11	{Clock or time synchronisation in a node; Intranode synchronisation}	H04J3/06	H04J3/06		1242
+H04J3/0688	12	{Change of the master or reference, e.g. take-over or failure of the master}	H04J3/06	H04J3/06		561
+H04J3/0691	12	{Synchronisation in a TDM node}	H04J3/06	H04J3/06		171
+H04J3/0694	12	{Synchronisation in a TDMA node, e.g. TTP}	H04J3/06	H04J3/06		80
+H04J3/0697	12	{Synchronisation in a packet node}	H04J3/06	H04J3/06		674
+H04J3/07	10	using pulse stuffing for systems with different or fluctuating information rates {or bit rates}	H04J3/07	H04J3/07		393
+H04J3/073	11	{Bit stuffing, e.g. PDH}	H04J3/07	H04J3/07		202
+H04J3/076	11	{Bit and byte stuffing, e.g. SDH/PDH desynchronisers, bit-leaking}	H04J3/07	H04J3/07		233
+H04J3/08	9	Intermediate station arrangements, e.g. for branching, for tapping-off	H04J3/08	H04J3/08		398
+H04J3/085	10	{for ring networks, e.g. SDH/SONET rings, self-healing rings, meashed SDH/SONET networks}	H04J3/08	H04J3/08		552
+H04J3/10	9	Arrangements for reducing cross-talk between channels	H04J3/10	H04J3/10		330
+H04J3/12	9	Arrangements providing for calling or supervisory signals	H04J3/12	H04J3/12		676
+H04J3/125	10	{One of the channel pulses or the synchronisation pulse is also used for transmitting monitoring or supervisory signals}	H04J3/12	H04J3/12		204
+H04J3/14	9	Monitoring arrangements {(for SDH/SONET rings H04J3/085)}	H04J3/14	H04J3/14		2020
+H04J3/16	8	in which the time allocation to individual channels within a transmission cycle is variable, e.g. to accommodate varying complexity of signals, to vary number of channels transmitted (H04J3/17, H04J3/24 take precedence)	H04J3/16	H04J3/16		553
+H04J3/1605	9	{Fixed allocated frame structures}	H04J3/16	H04J3/16		190
+H04J3/1611	10	{Synchronous digital hierarchy [SDH] or SONET (H04J3/1664 takes precedence for interactions with OTN)}	H04J3/16	H04J3/16		904
+H04J3/1617	11	{carrying packets or ATM cells}	H04J3/16	H04J3/16		410
+H04J3/1623	10	{Plesiochronous digital hierarchy [PDH]}	H04J3/16	H04J3/16		127
+H04J3/1629	11	{Format building algorithm}	H04J3/16	H04J3/16		71
+H04J3/1635	11	{Format conversion, e.g. CEPT/US}	H04J3/16	H04J3/16		85
+H04J3/1641	11	{Hierarchical systems}	H04J3/16	H04J3/16		91
+H04J3/1647	11	{Subrate or multislot multiplexing}	H04J3/16	H04J3/16		259
+H04J3/1652	10	{Optical Transport Network [OTN]}	H04J3/16	H04J3/16		793
+H04J3/1658	11	{carrying packets or ATM cells; (H04J3/1664 takes precedence for payloads with different packet types)}	H04J3/16	H04J3/16		273
+H04J3/1664	11	{carrying hybrid payloads, e.g. different types of packets or carrying frames and packets in the paylaod}	H04J3/16	H04J3/16		151
+H04J3/167	11	{interaction with SDH/SONET, e.g. carrying SDH/SONET frames, interfacing with SDH/SONET (H04J3/1664 takes precedence)}	H04J3/16	H04J3/16		60
+H04J3/1676	9	{Time-division multiplex with pulse-position, pulse-interval, or pulse-width modulation}	H04J3/16	H04J3/16		175
+H04J3/1682	9	{Allocation of channels according to the instantaneous demands of the users, e.g. concentrated multiplexers, statistical multiplexers}	H04J3/16	H04J3/16		591
+H04J3/1688	10	{the demands of the users being taken into account after redundancy removal, e.g. by predictive coding, by variable sampling (reducing bandwidth of signals in general H04B1/66; in PCM-systems H04B14/046; removal of redundancy in telegraph communication H03M7/30)}	H04J3/16	H04J3/16		236
+H04J3/1694	9	{Allocation of channels in TDM/TDMA networks, e.g. distributed multiplexers (Passive Optical Networks H04Q11/0062)}	H04J3/16	H04J3/16		1039
+H04J3/17	8	in which the transmission channel allotted to a first user may be taken away and re-allotted to a second user if the first user becomes inactive, e.g. TASI {(speech analysis or identification G10L)}	H04J3/17	H04J3/17		210
+H04J3/172	9	{Digital speech interpolation, i.e. DSI}	H04J3/17	H04J3/17		62
+H04J3/175	9	{Speech activity or inactivity detectors (echo suppressors H04B3/20)}	H04J3/17	H04J3/17		83
+H04J3/177	9	{Freeze-out systems, e.g. taking away active sources from transmission}	H04J3/17	H04J3/17		31
+H04J3/18	8	using frequency compression and subsequent expansion of the individual signals	H04J3/18	H04J3/18		189
+H04J3/20	8	using resonant transfer	H04J3/20	H04J3/20		203
+H04J3/22	8	in which the sources have different rates or codes {(simultaneous speech and digital data or video transmission H04M11/06; see provisional also H04J3/16)}	H04J3/22	H04J3/22		182
+H04J3/24	8	in which the allocation is indicated by an address {the different channels being transmitted sequentially}(H04J3/17 takes precedence; in computers G06F12/00, G06F13/00{code multiplex systems H04J13/00; selecting techniques H04Q; relay systems H04B7/14})	H04J3/24	H04J3/24		177
+H04J3/242	9	{the frames being of variable length}	H04J3/24	H04J3/24		34
+H04J3/245	9	{in which the allocation protocols between more than two stations share the same transmission medium (stations for satellite systems H04B7/185)}	H04J3/24	H04J3/24		88
+H04J3/247	9	{ATM or packet multiplexing}	H04J3/24	H04J3/24		268
+H04J3/26	9	in which the information and the address are simultaneously transmitted	H04J3/26	H04J3/26		84
+H04J4/00	7	Combined time-division and frequency-division multiplex systems (H04J13/00 takes precedence {; data transmission H04L5/26; telemetry G08C15/00})	H04J4/00	H04J4/00		264
+H04J4/005	8	{Transmultiplexing}	H04J4/00	H04J4/00		136
+H04J7/00	7	Multiplex systems in which the amplitudes or durations of the signals in individual channels are characteristic of those channels	H04J7/00	H04J7/00		193
+H04J7/02	8	in which the polarity of the amplitude is characteristic	H04J7/02	H04J7/02		55
+H04J9/00	7	Multiplex systems in which each channel is represented by a different type of modulation of the carrier	H04J9/00	H04J9/00		243
+H04J11/00	7	Orthogonal multiplex systems, {e.g. using WALSH codes}(H04J13/00 takes precedence)	H04J11/00	H04J11/00		1702
+H04J2011/0003	8	{Combination with other multiplexing techniques}	H04J11/00	H04J11/00		29
+H04J2011/0006	9	{with CDM/CDMA}	H04J11/00	H04J11/00		62
+H04J2011/0009	9	{with FDM/FDMA}	H04J11/00	H04J11/00		86
+H04J2011/0013	9	{with TDM/TDMA}	H04J11/00	H04J11/00		49
+H04J2011/0016	9	{with FDM/FDMA and TDM/TDMA}	H04J11/00	H04J11/00		53
+H04J2011/002	9	{Delay multiplexing}	H04J11/00	H04J11/00		9
+H04J11/0023	8	{Interference mitigation or co-ordination (direct sequence spread spectrum [DSSS] systems H04B1/7097; frequency hopping H04B1/713; allocation criteria for ingress interference avoidance H04L5/0062; frequency allocation criteria for requirements on out-of-channel emissions H04L5/0066; arrangements for removing intersymbol interference or baseband equalisers H04L25/03006; peak power aspects in multicarrier modulation H04L27/2614; power management H04W52/00; traffic scheduling H04W72/54, H04W72/541)}	H04J11/00	H04J11/00		968
+H04J11/0026	9	{of multi-user interference}	H04J11/00	H04J11/00		262
+H04J11/003	10	{at the transmitter (transmission to multiple receive units in multiple input multiple output [MIMO] H04B7/0452; transmit antenna weighting H04B7/0615)}	H04J11/00	H04J11/00		268
+H04J11/0033	11	{by pre-cancellation of known interference, e.g. using a matched filter, dirty paper coder or Thomlinson-Harashima precoder (correlative coding in synchronous or start-stop systems H04L25/497)}	H04J11/00	H04J11/00		106
+H04J11/0036	10	{at the receiver}	H04J11/00	H04J11/00		272
+H04J11/004	11	{using regenerative subtractive interference cancellation}	H04J11/00	H04J11/00		383
+H04J11/0043	12	{by grouping or ordering the users}	H04J11/00	H04J11/00		53
+H04J11/0046	11	{using joint detection algorithms}	H04J11/00	H04J11/00		72
+H04J11/005	9	{of intercell interference}	H04J11/00	H04J11/00		1098
+H04J11/0053	10	{using co-ordinated multipoint transmission/reception (co-ordinated antenna or beam-forming aspects H04B7/022)}	H04J11/00	H04J11/00		455
+H04J11/0056	10	{Inter-base station aspects}	H04J11/00	H04J11/00		511
+H04J11/0059	10	{Out-of-cell user aspects}	H04J11/00	H04J11/00		97
+H04J11/0063	9	{of multipath interference, e.g. Rake receivers}	H04J11/00	H04J11/00		127
+H04J11/0066	9	{of narrowband interference (narrowband interference reduction H04B1/1036)}	H04J11/00	H04J11/00		119
+H04J11/0069	8	{Cell search, i.e. determining cell identity [cell-ID] (design of multiplexing codes H04J13/00; processing access restriction or access information H04W48/16; discovery of network devices for network data management H04W8/005; sounding signals for channel estimation H04L25/0226; structure of reference signals in multicarrier modulation systems H04L27/2613; frame, time or carrier synchronisation in multicarrier modulation systems H04L27/2655)}	H04J11/00	H04J11/00		1261
+H04J11/0073	9	{Acquisition of primary synchronisation channel, e.g. detection of cell-ID within cell-ID group}	H04J11/00	H04J11/00		657
+H04J11/0076	9	{Acquisition of secondary synchronisation channel, e.g. detection of cell-ID group}	H04J11/00	H04J11/00		604
+H04J11/0079	9	{Acquisition of downlink reference signals, e.g. detection of cell-ID}	H04J11/00	H04J11/00		298
+H04J11/0083	9	{Multi-mode cell search, i.e. where several modes or systems can be used, e.g. backwards compatible, dual mode or flexible systems}	H04J11/00	H04J11/00		51
+H04J11/0086	9	{Search parameters, e.g. search strategy, accumulation length, range of search, thresholds (code acquisition in DSSS H04B1/7075)}	H04J11/00	H04J11/00		207
+H04J11/0089	9	{Search hardware arrangements, e.g. sharing of correlators to reduce complexity}	H04J11/00	H04J11/00		18
+H04J11/0093	9	{Neighbour cell search}	H04J11/00	H04J11/00		232
+H04J2011/0096	8	{Network synchronisation}	H04J11/00	H04J11/00		206
+H04J13/00	7	Code division multiplex systems (for frequency hopping H04B1/713)<br><br><u>NOTE</u><br><br> When classifying in this group, any aspect of spread spectrum techniques not specific to frequency hopping, and which is considered to represent information of interest for search, may also be classified in group H04B1/69. 	H04J13/00	H04J13/00		1066
+H04J13/0003	8	{Code application, i.e. aspects relating to how codes are applied to form multiplexed channels}	H04J13/00	H04J13/00		412
+H04J13/0007	8	{Code type}<br><br><u>NOTE</u><br><br>Code type information should be classified in addition to other relevant aspects. This should also be done in cases where the other relevant symbol refers to code type, e.g. H04J13/14, H04J13/20) 	H04J13/00	H04J13/00		56
+H04J13/0011	9	{Complementary}	H04J13/00	H04J13/00		29
+H04J13/0014	10	{Golay}	H04J13/00	H04J13/00		130
+H04J13/0018	9	{Chaotic}	H04J13/00	H04J13/00		60
+H04J13/0022	9	{PN, e.g. Kronecker}	H04J13/00	H04J13/00		706
+H04J13/0025	10	{M-sequences}	H04J13/00	H04J13/00		155
+H04J13/0029	10	{Gold}	H04J13/00	H04J13/00		185
+H04J13/0033	10	{Kasami}	H04J13/00	H04J13/00		17
+H04J2013/0037	9	{Multilevel codes}	H04J13/00	H04J13/00		60
+H04J13/004	9	{Orthogonal}	H04J13/00	H04J13/00		667
+H04J13/0044	10	{OVSF [orthogonal variable spreading factor]}	H04J13/00	H04J13/00		295
+H04J13/0048	10	{Walsh}	H04J13/00	H04J13/00		703
+H04J13/0051	10	{Orthogonal gold}	H04J13/00	H04J13/00		22
+H04J13/0055	9	{ZCZ [zero correlation zone]}	H04J13/00	H04J13/00		90
+H04J13/0059	10	{CAZAC [constant-amplitude and zero auto-correlation]}	H04J13/00	H04J13/00		231
+H04J13/0062	11	{Zadoff-Chu}	H04J13/00	H04J13/00		654
+H04J13/0066	11	{GCL [generalized chirp-like] sequences}	H04J13/00	H04J13/00		22
+H04J13/007	10	{LAS, i.e. LA, LS and LAS codes}	H04J13/00	H04J13/00		26
+H04J13/0074	8	{Code shifting or hopping}	H04J13/00	H04J13/00		385
+H04J13/0077	8	{Multicode, e.g. multiple codes assigned to one user}	H04J13/00	H04J13/00		425
+H04J2013/0081	9	{with FDM/FDMA}	H04J13/00	H04J13/00		12
+H04J2013/0085	9	{with TDM/TDMA}	H04J13/00	H04J13/00		4
+H04J2013/0088	9	{with FDM/FDMA and TDM/TDMA}	H04J13/00	H04J13/00		6
+H04J2013/0092	9	{Delay multiplexing}	H04J13/00	H04J13/00		
+H04J2013/0096	8	{Network synchronisation}	H04J13/00	H04J13/00		50
+H04J13/10	8	Code generation	H04J13/10	H04J13/10		977
+H04J13/102	9	{Combining codes}	H04J13/10	H04J13/10		160
+H04J13/105	10	{by extending}	H04J13/10	H04J13/10		35
+H04J13/107	10	{by concatenation}	H04J13/10	H04J13/10		126
+H04J13/12	9	Generation of orthogonal codes	H04J13/12	H04J13/12		485
+H04J13/14	9	Generation of codes with a zero correlation zone	H04J13/14	H04J13/14		127
+H04J13/16	8	Code allocation	H04J13/16	H04J13/16		923
+H04J2013/165	9	{Joint allocation of code together with frequency or time}	H04J13/16	H04J13/16		40
+H04J13/18	9	Allocation of orthogonal codes	H04J13/18	H04J13/18		590
+H04J13/20	10	having an orthogonal variable spreading factor [OVSF]	H04J13/20	H04J13/20		178
+H04J13/22	9	Allocation of codes with a zero correlation zone	H04J13/22	H04J13/22		126
+H04J14/00	7	Optical multiplex systems	H04J14/00	H04J14/00		223
+H04J14/002	8	{Coherencemultiplexing}	H04J14/00	H04J14/00		104
+H04J14/005	8	{Optical Code Multiplex}	H04J14/00	H04J14/00		320
+H04J14/007	9	{Orthogonal Optical Code Multiplex}	H04J14/00	H04J14/00		73
+H04J14/02	8	Wavelength-division multiplex systems	H04J14/02	H04J14/02		1949
+H04J14/0201	9	{Add-and-drop multiplexing}	H04J14/02	H04J14/02		605
+H04J14/0202	10	{Arrangements therefor}	H04J14/02	H04J14/02		625
+H04J14/0204	11	{Broadcast and select arrangements, e.g. with an optical splitter at the input before adding or dropping}	H04J14/02	H04J14/02		706
+H04J14/0205	11	{Select and combine arrangements, e.g. with an optical combiner at the output after adding or dropping}	H04J14/02	H04J14/02		558
+H04J14/0206	11	{Express channels arrangements}	H04J14/02	H04J14/02		568
+H04J14/0208	11	{Interleaved arrangements}	H04J14/02	H04J14/02		201
+H04J14/0209	11	{Multi-stage arrangements, e.g. by cascading multiplexers or demultiplexers}	H04J14/02	H04J14/02		530
+H04J14/021	11	{Reconfigurable arrangements, e.g. reconfigurable optical add/drop multiplexers [ROADM] or tunable optical add/drop multiplexers [TOADM]}	H04J14/02	H04J14/02		397
+H04J14/0212	12	{using optical switches or wavelength selective switches [WSS]}	H04J14/02	H04J14/02		1003
+H04J14/02122	12	{Colourless, directionless or contentionless [CDC] arrangements}	H04J14/02	H04J14/02		195
+H04J14/02126	12	{Multicast switch arrangements}	H04J14/02	H04J14/02		72
+H04J14/0213	11	{Groups of channels or wave bands arrangements}	H04J14/02	H04J14/02		926
+H04J14/0215	10	{Architecture aspects}	H04J14/02	H04J14/02		105
+H04J14/0216	11	{Bidirectional architectures}	H04J14/02	H04J14/02		254
+H04J14/0217	11	{Multi-degree architectures, e.g. having a connection degree greater than two}	H04J14/02	H04J14/02		413
+H04J14/0219	11	{Modular or upgradable architectures}	H04J14/02	H04J14/02		270
+H04J14/022	11	{For interconnection of WDM optical networks}	H04J14/02	H04J14/02		161
+H04J14/0221	9	{Power control, e.g. to keep the total optical power constant}	H04J14/02	H04J14/02		657
+H04J14/02212	10	{by addition of a dummy signal}	H04J14/02	H04J14/02		84
+H04J14/02214	10	{by re-allocation of data channels}	H04J14/02	H04J14/02		22
+H04J14/02216	10	{by gain equalization}	H04J14/02	H04J14/02		738
+H04J14/02218	10	{Centralized control}	H04J14/02	H04J14/02		44
+H04J14/02219	10	{Distributed control}	H04J14/02	H04J14/02		35
+H04J14/0223	9	{Conversion to or from optical TDM}	H04J14/02	H04J14/02		106
+H04J14/0224	9	{Irregular wavelength spacing, e.g. to accommodate interference to all wavelengths}	H04J14/02	H04J14/02		174
+H04J14/0226	9	{Fixed carrier allocation, e.g. according to service}	H04J14/02	H04J14/02		752
+H04J14/0227	9	{Operation, administration, maintenance or provisioning [OAMP] of WDM networks, e.g. media access, routing or wavelength allocation}	H04J14/02	H04J14/02		2717
+H04J14/0228	10	{Wavelength allocation for communications one-to-all, e.g. broadcasting wavelengths}	H04J14/02	H04J14/02		127
+H04J14/023	11	{in WDM passive optical networks [WDM-PON]}	H04J14/02	H04J14/02		86
+H04J14/0232	12	{for downstream transmission}	H04J14/02	H04J14/02		302
+H04J14/0234	13	{using multiple wavelengths}	H04J14/02	H04J14/02		55
+H04J14/0235	12	{for upstream transmission}	H04J14/02	H04J14/02		26
+H04J14/0236	13	{using multiple wavelengths}	H04J14/02	H04J14/02		23
+H04J14/0238	10	{Wavelength allocation for communications one-to-many, e.g. multicasting wavelengths}	H04J14/02	H04J14/02		268
+H04J14/0239	11	{in WDM-PON sharing multiple downstream wavelengths for groups of optical network units [ONU], e.g. multicasting wavelengths}	H04J14/02	H04J14/02		88
+H04J14/0241	10	{Wavelength allocation for communications one-to-one, e.g. unicasting wavelengths}	H04J14/02	H04J14/02		766
+H04J14/0242	11	{in WDM-PON}	H04J14/02	H04J14/02		110
+H04J14/0245	12	{for downstream transmission, e.g. optical line terminal [OLT] to ONU}	H04J14/02	H04J14/02		163
+H04J14/0246	13	{using one wavelength per ONU}	H04J14/02	H04J14/02		997
+H04J14/0247	13	{Sharing one wavelength for at least a group of ONUs}	H04J14/02	H04J14/02		498
+H04J14/0249	12	{for upstream transmission, e.g. ONU-to-OLT or ONU-to-ONU}	H04J14/02	H04J14/02		152
+H04J14/025	13	{using one wavelength per ONU, e.g. for transmissions from-ONU-to-OLT or from-ONU-to-ONU}	H04J14/02	H04J14/02		775
+H04J14/0252	13	{Sharing one wavelength for at least a group of ONUs, e.g. for transmissions from-ONU-to-OLT or from-ONU-to-ONU}	H04J14/02	H04J14/02		491
+H04J2014/0253	12	{Allocation of downstream wavelengths for upstream transmission}	H04J14/02	H04J14/02		156
+H04J14/0254	10	{Optical medium access}	H04J14/02	H04J14/02		57
+H04J14/0256	11	{at the optical channel layer}	H04J14/02	H04J14/02		355
+H04J14/0257	12	{Wavelength assignment algorithms}	H04J14/02	H04J14/02		492
+H04J14/0258	12	{Wavelength identification or labelling}	H04J14/02	H04J14/02		231
+H04J14/026	12	{using WDM channels of different transmission rates}	H04J14/02	H04J14/02		141
+H04J14/0261	11	{at the optical multiplex section layer}	H04J14/02	H04J14/02		51
+H04J14/0263	12	{Multiplex section layer wavelength assignment algorithms}	H04J14/02	H04J14/02		33
+H04J14/0264	12	{Multiplex identification or labelling}	H04J14/02	H04J14/02		18
+H04J14/0265	12	{Multiplex arrangements in bidirectional systems, e.g. interleaved allocation of wavelengths or allocation of wavelength groups}	H04J14/02	H04J14/02		96
+H04J14/0267	11	{Optical signaling or routing}	H04J14/02	H04J14/02		626
+H04J14/0268	12	{Restoration of optical paths, e.g. p-cycles}	H04J14/02	H04J14/02		150
+H04J14/0269	12	{using tables for routing}	H04J14/02	H04J14/02		186
+H04J14/0271	12	{Impairment aware routing}	H04J14/02	H04J14/02		195
+H04J14/0272	11	{Transmission of OAMP information}	H04J14/02	H04J14/02		240
+H04J14/0273	12	{using optical overhead, e.g. overhead processing}	H04J14/02	H04J14/02		105
+H04J14/0275	12	{using an optical service channel}	H04J14/02	H04J14/02		207
+H04J14/0276	12	{using pilot tones}	H04J14/02	H04J14/02		90
+H04J14/02762	11	{Spectrum slot allocation}	H04J14/02	H04J14/02		26
+H04J14/02764	11	{Multiplex arrangements for radio-frequency networks access; policies therefor (radio over fibre arrangement H04B10/2575)}	H04J14/02	H04J14/02		26
+H04J14/0278	9	{WDM optical network architectures}	H04J14/02	H04J14/02		170
+H04J14/0279	10	{WDM point-to-point architectures}	H04J14/02	H04J14/02		453
+H04J14/028	10	{WDM bus architectures}	H04J14/02	H04J14/02		264
+H04J14/0282	10	{WDM tree architectures}	H04J14/02	H04J14/02		1623
+H04J14/0283	10	{WDM ring architectures}	H04J14/02	H04J14/02		1303
+H04J14/0284	10	{WDM mesh architectures}	H04J14/02	H04J14/02		700
+H04J14/0286	10	{WDM hierarchical architectures}	H04J14/02	H04J14/02		331
+H04J14/02862	10	{WDM data centre network [DCN] architectures}	H04J14/02	H04J14/02		20
+H04J14/0287	9	{Protection in WDM systems}	H04J14/02	H04J14/02		269
+H04J14/0289	10	{Optical multiplex section protection}	H04J14/02	H04J14/02		110
+H04J14/029	11	{Dedicated protection at the optical multiplex section (1+1)}	H04J14/02	H04J14/02		140
+H04J14/0291	11	{Shared protection at the optical multiplex section (1:1, n:m)}	H04J14/02	H04J14/02		392
+H04J14/0293	10	{Optical channel protection}	H04J14/02	H04J14/02		158
+H04J14/0294	11	{Dedicated protection at the optical channel (1+1)}	H04J14/02	H04J14/02		286
+H04J14/0295	11	{Shared protection at the optical channel (1:1, n:m)}	H04J14/02	H04J14/02		483
+H04J14/0297	10	{Optical equipment protection}	H04J14/02	H04J14/02		370
+H04J14/0298	9	{with sub-carrier multiplexing [SCM]}	H04J14/02	H04J14/02		774
+H04J14/03	9	{WDM arrangements (ADM arrangements H04J14/0202; WDM network architectures H04J14/0278)}	H04J14/02	H04J14/03		53
+H04J14/0305	10	{in end terminals}	H04J14/02	H04J14/0305		608
+H04J14/0307	10	{Multiplexers; Demultiplexers}	H04J14/02	H04J14/0307		831
+H04J14/04	8	Mode multiplex systems	H04J14/04	H04J14/04		346
+H04J14/05	8	{Spatial multiplexing systems}	H04J14/00	H04J14/05		71
+H04J14/052	9	{using multicore fibre (mode multiplex systems H04J14/04)}	H04J14/00	H04J14/052		155
+H04J14/06	8	Polarisation multiplex systems	H04J14/06	H04J14/06		1125
+H04J14/07	8	{Orbital angular momentum [OAM] multiplex systems}	H04J14/00	H04J14/07		79
+H04J14/08	8	Time-division multiplex systems	H04J14/08	H04J14/08		1045
+H04J14/083	9	{Add and drop multiplexing}	H04J14/08	H04J14/08		73
+H04J14/086	9	{Medium access (H04J3/16 takes precedence)}	H04J14/08	H04J14/08		63
+H04J99/00	7	Subject matter not provided for in other groups of this subclass	H04J99/00	H04J99/00		337
+H04J2203/00	7	Aspects of optical multiplex systems other than those covered by H04J14/05 and H04J14/07	CPCONLY	H04J2203/00		4
+H04J2203/0001	8	Provisions for broadband connections in integrated services digital network using frames of the Optical Transport Network [OTN] or using synchronous transfer mode [STM], e.g. SONET, SDH	CPCONLY	H04J2203/0001		20
+H04J2203/0003	9	Switching fabrics, e.g. transport network, control network	CPCONLY	H04J2203/0003		82
+H04J2203/0005	10	Switching elements	CPCONLY	H04J2203/0005		93
+H04J2203/0007	11	Space switch details	CPCONLY	H04J2203/0007		19
+H04J2203/0008	11	Time switch details	CPCONLY	H04J2203/0008		18
+H04J2203/001	11	using a shared central buffer	CPCONLY	H04J2203/001		13
+H04J2203/0012	10	Switching modules and their interconnections	CPCONLY	H04J2203/0012		151
+H04J2203/0014	11	Clos	CPCONLY	H04J2203/0014		11
+H04J2203/0016	11	Crossbar	CPCONLY	H04J2203/0016		5
+H04J2203/0017	11	Parallel switch planes	CPCONLY	H04J2203/0017		4
+H04J2203/0019	10	Multicast/broadcast capabilities	CPCONLY	H04J2203/0019		25
+H04J2203/0021	10	Control mechanisms	CPCONLY	H04J2203/0021		28
+H04J2203/0023	10	Routing/path finding	CPCONLY	H04J2203/0023		22
+H04J2203/0025	10	Peripheral units	CPCONLY	H04J2203/0025		91
+H04J2203/0026	10	Physical details	CPCONLY	H04J2203/0026		65
+H04J2203/0028	9	Local loop	CPCONLY	H04J2203/0028		43
+H04J2203/003	10	Medium of transmission, e.g. fibre, cable, radio	CPCONLY	H04J2203/003		13
+H04J2203/0032	11	Fibre	CPCONLY	H04J2203/0032		54
+H04J2203/0033	11	Metallic	CPCONLY	H04J2203/0033		16
+H04J2203/0035	11	Radio	CPCONLY	H04J2203/0035		54
+H04J2203/0037	11	Satellite	CPCONLY	H04J2203/0037		5
+H04J2203/0039	10	Topology	CPCONLY	H04J2203/0039		15
+H04J2203/0041	11	Star, e.g. cross-connect, concentrator, subscriber group equipment, remote electronics	CPCONLY	H04J2203/0041		92
+H04J2203/0042	11	Ring	CPCONLY	H04J2203/0042		333
+H04J2203/0044	11	Bus, e.g. DQDB	CPCONLY	H04J2203/0044		19
+H04J2203/0046	9	User Network Interface	CPCONLY	H04J2203/0046		92
+H04J2203/0048	10	Network termination, e.g. NT1, NT2, PBX	CPCONLY	H04J2203/0048		67
+H04J2203/005	10	Terminal equipment, e.g. codecs, synch	CPCONLY	H04J2203/005		56
+H04J2203/0051	9	Network Node Interface, e.g. tandem connections, transit switching	CPCONLY	H04J2203/0051		110
+H04J2203/0053	10	Routing	CPCONLY	H04J2203/0053		112
+H04J2203/0055	10	Network design, dimensioning, topology or optimisation	CPCONLY	H04J2203/0055		32
+H04J2203/0057	9	Operations, administration and maintenance [OAM]	CPCONLY	H04J2203/0057		170
+H04J2203/0058	10	Network management, e.g. Intelligent nets	CPCONLY	H04J2203/0058		120
+H04J2203/006	10	Fault tolerance and recovery	CPCONLY	H04J2203/006		929
+H04J2203/0062	9	Testing	CPCONLY	H04J2203/0062		98
+H04J2203/0064	9	Admission Control	CPCONLY	H04J2203/0064		14
+H04J2203/0066	10	Signalling, e.g. protocols, reference model	CPCONLY	H04J2203/0066		99
+H04J2203/0067	10	Resource management and allocation	CPCONLY	H04J2203/0067		149
+H04J2203/0069	11	Channel allocation	CPCONLY	H04J2203/0069		132
+H04J2203/0071	11	Monitoring	CPCONLY	H04J2203/0071		70
+H04J2203/0073	9	Services, e.g. multimedia, GOS, QOS	CPCONLY	H04J2203/0073		70
+H04J2203/0075	10	Connection-oriented	CPCONLY	H04J2203/0075		16
+H04J2203/0076	10	Channel characteristics, e.g. BER, error detection, error correction, delay, jitter	CPCONLY	H04J2203/0076		47
+H04J2203/0078	10	Support of N-ISDN	CPCONLY	H04J2203/0078		11
+H04J2203/008	10	Support of video	CPCONLY	H04J2203/008		40
+H04J2203/0082	10	Interaction of SDH with non-ATM protocols	CPCONLY	H04J2203/0082		165
+H04J2203/0083	11	Support of the IP protocol	CPCONLY	H04J2203/0083		50
+H04J2203/0085	11	Support of Ethernet	CPCONLY	H04J2203/0085		379
+H04J2203/0087	10	Support of voice	CPCONLY	H04J2203/0087		16
+H04J2203/0089	9	Multiplexing, e.g. coding, scrambling, SONET	CPCONLY	H04J2203/0089		580
+H04J2203/0091	10	Time slot assignment	CPCONLY	H04J2203/0091		62
+H04J2203/0092	10	Code Division Multiple Access [CDMA]	CPCONLY	H04J2203/0092		8
+H04J2203/0094	10	Virtual Concatenation	CPCONLY	H04J2203/0094		199
+H04J2203/0096	10	Serial Concatenation	CPCONLY	H04J2203/0096		50
+H04J2203/0098	9	Traffic aspects, e.g. arbitration, load balancing, smoothing, buffer management	CPCONLY	H04J2203/0098		63
+H04J2211/00	7	Orthogonal indexing scheme relating to orthogonal multiplex systems	CPCONLY	H04J2211/00		3
+H04J2211/001	8	using small cells within macro cells, e.g. femto, pico or microcells	CPCONLY	H04J2211/001		96
+H04J2211/003	8	within particular systems or standards	CPCONLY	H04J2211/003		16
+H04J2211/005	9	Long term evolution [LTE]	CPCONLY	H04J2211/005		453
+H04J2211/006	9	Single carrier frequency division multiple access [SC FDMA]	CPCONLY	H04J2211/006		50
+H04J2211/008	9	Interleaved frequency division multiple access [IFDMA]	CPCONLY	H04J2211/008		17

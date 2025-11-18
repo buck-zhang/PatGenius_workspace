@@ -1,0 +1,178 @@
+G08G   1/00  \	0	0	5H181	G08G   1/00	147	道路上の車両に対する交通制御システム（道路標識または交通信号の装置Ｅ０１Ｆ９／００）	Traffic control systems for road vehicles (arrangement of road signs or traffic signals E01F 9/00)
+G08G   1/00  A	0	0	5H181	G08G   1/00	2113	交通情報一般の収集，解析，伝送，記録〔予測，シミュレーター，モデリング，表示，モニターなど〕〔交通量の検出，監視は１／０１〕	Collecting, analyzing, transmitting, recording traffic information in general (prediction, simulators, modeling, displays,
+G08G   1/00  C	0	1	5H181	G08G   1/00	1068	交通流，交通量の分布，配分，分岐〔予測，シミュレーターなど〕	Distribution, arrangement, branching of traffic flows and traffic volumes (predictions, simulators and the equivalent)
+G08G   1/00  D	0	1	5H181	G08G   1/00	7230	運行管理〔運行記録，旅行時間，出発時刻など〕	Operation administrations (operation histories, travel time, departure time and so on) (displaying the location, route guidance, operation instruction 1)
+G08G   1/00  J	0	1	5H181	G08G   1/00	2025	路面の異常検出〔自然現象，災害，事故，障害物の検出と通報処理，交通可能性判断など〕〔衝突防止は１／１６，自然現象それ自体の検出はＧ０１Ｗ〕	Detecting abnormal conditions of road surfaces (report processing and judgements for traffic possibilities and the like due to natural phenomenon, natural disasters, accidents, detecting obstacles and the equivalent)
+G08G   1/00  K	0	2	5H181	G08G   1/00	208	特定場所におけるもの〔トンネル，橋上，踏切，カーブなど〕	At particular locations (tunnels, bridges, railway crosses, bending roads and the equivalent)
+G08G   1/00  X	0	0	5H181	G08G   1/00	3581	専用走行路，軌道，構内走行のためのもの〔鉄道，新交通システム，無人車，フォークリフト，クレーン，エレベータなど〕	For dedicated traffic systems, railway tracks, used within the limit of premises (railway systems, advanced traffic systems, full automatic traffic systems without drivers, forklift trucks)
+G08G   1/00  Z	0	0	5H181	G08G   1/00	472	その他のもの〔使用せず〕	Others
+G08G   1/005  \	1	1	5H181	G08G   1/005	5106	歩行者用の誘導案内表示装置［５］	including pedestrian guidance indicator [5]
+G08G   1/01  \	1	1	5H181	G08G   1/01	81	計数または制御されるべき交通量の検出（Ｇ０８Ｇ１／０７〜Ｇ０８Ｇ１／１４が優先；車両または車両の利用者に対する道路利用料金制または混雑時課金制　Ｇ０７Ｂ１５／０６）	Detecting movement of traffic to be counted or controlled (; road pricing or congestion charging of vehicles or vehicle users G07B 15/06)
+G08G   1/01  A	1	0	5H181	G08G   1/01	2490	交通量，交通状態量変動の検出，処理一般〔伝送，記録，表示，監視，モニター，故障検出，保守など〕〔監視一般は１／００Ａ〕	Detecting and processing the changes of traffic volumes and volumes of particular traffic conditions (transmitting, recording, displaying, supervising, monitoring, detecting failures
+G08G   1/01  C	1	1	5H181	G08G   1/01	658	変量の検出，および検出装置	Detecting variation of volumes and detecting equipment
+G08G   1/01  D	1	2	5H181	G08G   1/01	454	車両の走行状態に対応するもの〔スピード別はＰ，車線別，分岐路別，方向別はＱ，車種別は１／０１５〕	Corresponding to running conditions of vehicles (1/052 for classified by speed of vehicles)
+G08G   1/01  E	1	2	5H181	G08G   1/01	877	渋滞，混雑度〔密度，オキュパンシ，分布，渋滞原因の検知など〕	Traffic congestion, degrees or levels of congestion (detecting density, occupancy, distribution, reasons of congestion)
+G08G   1/01  F	1	2	5H181	G08G   1/01	481	歩行者〔判別法など〕	Pedestrians (judging methods for identifying pedestrians and the like)
+G08G   1/01  K	1	2	5H181	G08G   1/01	210	分離識別装置をもつもの〔車両間，車両と車両以外のもの，車線間など〕	With identifying devices for distances (between vehicles, between a vehicle and other than vehicle, lateral distances (between separate lanes on the roads) and the equivalent)
+G08G   1/01  Z	1	0	5H181	G08G   1/01	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/015  \	2	2	5H181	G08G   1/015	62	各種の自動車と二輪車を判別するための装置を持つもの	with provision for distinguishing between motor cars and cycles
+G08G   1/015  A	2	0	5H181	G08G   1/015	1056	車種判別装置〔大，中，小型車，バス，普通車など〕	Identifying the types of vehicles (large, middle and small size vehicles, buses, regular size and the like)
+G08G   1/015  C	2	1	5H181	G08G   1/015	117	特殊車，二，三輪車を判別するもの〔トレーラなど〕	Identifying special purpose vehicles, bicycles and tricycles (such as lorries with trailers)
+G08G   1/015  Z	2	0	5H181	G08G   1/015	1	その他のもの〔使用せず〕	Others (unused)
+G08G   1/017  \	2	2	5H181	G08G   1/017	1873	車両の同定（Ｇ０８Ｇ１／０１５，Ｇ０８Ｇ１／０５４が優先）［５］	identifying vehicles (G08G 1/015, G08G 1/054 take precedence) [5]
+G08G   1/02  \	2	2	5H181	G08G   1/02	8	道路に設けられた踏板を用いるもの	using treadles built into the road
+G08G   1/02  A	2	0	5H181	G08G   1/02	225	踏み板，または類似物を使用するもの〔車種判別装置は１／０１５〕	Using stepping boards or similar articles (identifying devices for the types of vehicles for 1/015)
+G08G   1/02  Z	2	0	5H181	G08G   1/02	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/04  \	2	2	5H181	G08G   1/04	72	光学式または超音波式検出装置を用いるもの	using optical or ultrasonic detectors
+G08G   1/04  A	2	0	5H181	G08G   1/04	528	光学式のもの〔オンオフ式など〕	With optical means (working by on/off)
+G08G   1/04  C	2	1	5H181	G08G   1/04	1385	撮像装置〔光電変換素子〕を使用するもの〔レンズ系の使用など〕	Using devices for photographing images (photoelectric conversion elements) (using lenses or the equivalent)
+G08G   1/04  D	2	2	5H181	G08G   1/04	1702	テレビジョン監視装置〔ビデオカメラの使用，ビデオ信号の処理など〕	Supervising equipment for televisions (using video cameras, processing video signals and the like)
+G08G   1/04  J	2	0	5H181	G08G   1/04	294	超音波式のもの	Using ultrasonic waves
+G08G   1/04  Z	2	0	5H181	G08G   1/04	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/042  \	2	2	5H181	G08G   1/042	22	誘導または磁気検出装置を持つもの［５］	using inductive or magnetic detectors [5]
+G08G   1/042  A	2	0	5H181	G08G   1/042	231	誘導または磁気検出装置をもつもの	With induction or magnetism detecting devices
+G08G   1/042  B	2	1	5H181	G08G   1/042	201	ループコイルを使用するもの	Using loop coils
+G08G   1/042  Z	2	0	5H181	G08G   1/042	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/048  \	2	2	5H181	G08G   1/048	73	環境または条件による補償装置を持つもの，例．雪，検出装置の所で止まった車両［５］	with provision for compensation of environmental or other condition, e.g. snow, vehicle stopped at detector [5]
+G08G   1/052  \	2	2	5H181	G08G   1/052	452	スピードまたはオーバースピードの検出装置を持つもの［５］	with provision for determining speed or overspeed [5]
+G08G   1/054  \	3	3	5H181	G08G   1/054	22	オーバースピードの車両の撮影［５］	photographing overspeeding vehicles [5]
+G08G   1/054  A	3	0	5H181	G08G   1/054	261	撮影装置によるもの〔Ｇ０３Ｂ１５／００参照〕	By photographing equipment (refer G03B15/00)
+G08G   1/054  Z	3	0	5H181	G08G   1/054	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/056  \	2	2	5H181	G08G   1/056	273	車両の移動方向を判別する装置を持つもの［５］	with provision for distinguishing direction of travel [5]
+G08G   1/065  \	1	1	5H181	G08G   1/065	38	道路のある区域内の車両または駐車区域にある車両を計数すること，すなわち入ってくる数と出て行く数との比較によるもの（車両または車両の利用者に対する道路利用料金制または混雑時課金制　Ｇ０７Ｂ１５／０６）	by counting the vehicles in a section of the road or in a parking area, i.e. comparing incoming count with outgoing count (road pricing or congestion charging of vehicles or vehicle users G07B 15/06)
+G08G   1/065  A	1	0	5H181	G08G   1/065	180	道路上，駐車場などの特定区域におけるもの〔トンネル，橋上など〕	For particular area such as on the surface of roads or parking areas and the equivalent (tunnels, on bridges and the like)
+G08G   1/065  Z	1	0	5H181	G08G   1/065	0	その他のもの〔使用せず〕	Others
+G08G   1/07  \	1	1	5H181	G08G   1/07	28	交通信号の制御	Controlling traffic signals
+G08G   1/07  A	1	0	5H181	G08G   1/07	261	交通信号，制御情報の処理〔伝送，符号化，記録，表示など〕〔標識情報の制御は１／０９〕〔交通信号灯，標識装置，駆動制御装置自体は１／０９５〕	Processing of traffic lights and control information (transmission, encoding, recording, display and the like) (refer 1/0 for controlling information displayed on signs)
+G08G   1/07  C	1	1	5H181	G08G   1/07	329	交通信号，制御情報の発生，設定〔信号パターン，タイマーなど〕	Occurrence and setting of traffic lights and control information (signaling patterns, timer, and the equivalent)
+G08G   1/07  D	1	2	5H181	G08G   1/07	112	こよみ，時刻との関連，動作モードの切り替え，時刻標準の補償	Relating to calendars and time, switching operating modes, compensating time standards
+G08G   1/07  E	1	2	5H181	G08G   1/07	166	利用者の操作によるもの〔押しボタン式，車両からの操作によるものなど〕	By operations of users (press buttons, operating from the vehicles and the like)
+G08G   1/07  P	1	1	5H181	G08G   1/07	127	特定地域，事態に対応するもの〔工事現場など〕	Corresponding to particular areas and situations (constructions sites and the like)
+G08G   1/07  Q	1	2	5H181	G08G   1/07	138	特定路線に対応するもの〔狭隘路，優先車レーン，一方通行路，誘導路，合流など〕	Corresponding to particular routes (narrow roads, with priority lanes of roads, one-way traffic, guiding roads, merging traffic and the equivalent)
+G08G   1/07  R	1	2	5H181	G08G   1/07	110	特定地点に対応するもの〔トンネル，橋，踏切，ゲート，変則交差点など〕	Corresponding to particular points of places (tunnels, bridges, railway crossings, gates, irregular intersections)
+G08G   1/07  Z	1	0	5H181	G08G   1/07	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/08  \	2	2	5H181	G08G   1/08	42	検出された車両の数または速度によって制御されるもの	according to detected number or speed of vehicles
+G08G   1/08  A	2	0	5H181	G08G   1/08	707	検出装置をもつもの〔感応式，半感応式におけるものなど〕	Containing detecting devices (with sensing means, semi-sensing means and the like)
+G08G   1/08  C	2	1	5H181	G08G   1/08	169	歩行者を検出するもの〔横断者など〕	Detecting pedestrians (sensing pedestrians walking on the pedestrian crossing and the equivalent)
+G08G   1/08  Z	2	0	5H181	G08G   1/08	1	その他のもの〔使用せず〕	Others (unused)
+G08G   1/081  \	2	2	5H181	G08G   1/081	213	共通に制御される複数の交差点［５］	Plural intersections under common control [5]
+G08G   1/082  \	3	3	5H181	G08G   1/082	75	隣接交差点の同一サイクル内における同相信号の開始時間間隔の制御［５］	Controlling the time between beginning of the same phase of a cycle at adjacent intersections [5]
+G08G   1/083  \	3	3	5H181	G08G   1/083	35	同一サイクル内における各相信号の時間配分の制御［５］	Controlling the allocation of time between phases of a cycle [5]
+G08G   1/085  \	2	2	5H181	G08G   1/085	0	自走式サイクリックタイマを用いるもの	using a free-running cyclic timer
+G08G   1/085  A	2	0	5H181	G08G   1/085	56	交通信号のためのもの	For traffic lights
+G08G   1/085  Z	2	0	5H181	G08G   1/085	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/087  \	2	2	5H181	G08G   1/087	226	緊急事態への対応，例．緊急車両から発信された信号によるもの［５］	Override of traffic control, e.g. by signal transmitted by an emergency vehicle [5]
+G08G   1/09  \	1	1	5H181	G08G   1/09	139	可変の交通指令をあたえるための装置	Arrangements for giving variable traffic instructions
+G08G   1/09  A	1	0	5H181	G08G   1/09	439	可変標識，制御情報の処理〔交通管制システム，交通情報案内システム，モニターなど〕	Processing for variable signs and controlling information (traffic control systems, traffic guidance system, monitoring traffic and the like)
+G08G   1/09  C	1	1	5H181	G08G   1/09	466	検出装置をもつもの〔自然現象，交通量など〕	Containing detecting devices (for natural phenomenon and traffic volumes and the equivalent)
+G08G   1/09  D	1	1	5H181	G08G   1/09	2518	車載装置と共同で行うもの〔標識，交通信号情報などの読み取り，通信など〕	Coordinating with devices mounted on vehicles (communications, reading traffic signs and the like)
+G08G   1/09  E	1	2	5H181	G08G   1/09	292	車両側からリクエストできるもの	Able to make requests from vehicles
+G08G   1/09  F	1	2	5H181	G08G   1/09	9713	送受信エネルギーの結合装置〔例えば，ビーコンなど路車間通信を利用するもの〕	Devices that combining sending energies with receiving energies
+G08G   1/09  G	1	2	5H181	G08G   1/09	350	ラジオ放送によるもの〔ラジオ，ＴＶによるものなど〕	By radio broadcasting (radio, TV sets and the like)
+G08G   1/09  H	1	1	5H181	G08G   1/09	5315	その他の車載装置〔例えば，車車間通信，車路車間通信を利用するもの〕	Others that mounted on vehicles
+G08G   1/09  P	1	1	5H181	G08G   1/09	604	特定地域，事態に対応するもの〔工事現場など〕	Corresponding to the particular area and conditions (such as construction sites)
+G08G   1/09  Q	1	2	5H181	G08G   1/09	482	特定路線に対応するもの〔狭隘路，優先車レーン，一方通行路，誘導路，合流など〕	Corresponding to particular routes (narrow roads, with priority lanes of roads, one-way traffic, guiding roads, merging traffic and the equivalent)
+G08G   1/09  R	1	2	5H181	G08G   1/09	811	特定地点に対応するもの〔トンネル，橋，踏切，ゲート，変則交差点など〕	Corresponding to particular points of areas (tunnels, bridges, railway crossing, gates, irregular intersections)
+G08G   1/09  S	1	2	5H181	G08G   1/09	508	スピード，走行条件に対応するもの	Corresponding to speed of vehicles and running conditions of vehicles
+G08G   1/09  V	1	1	5H181	G08G   1/09	2202	車両の運転を強制制御するもの〔加減速，走行方向など〕	Controlling driving conditions of vehicles forcefully (acceleration/deceleration, directions of vehicles)
+G08G   1/09  Z	1	0	5H181	G08G   1/09	1	その他のもの〔使用せず〕	Others (unused)
+G08G   1/095  \	2	2	5H181	G08G   1/095	60	交通信号灯	Traffic lights
+G08G   1/095  A	2	0	5H181	G08G   1/095	254	交通信号，及び標識装置〔一般的なもの，遮断機，車線変更装置，監視，保守など〕	Traffic lights and traffic sign devices (for general purposes, barriers, changing lanes devices, supervising, maintenance and the equivalent)
+G08G   1/095  C	2	1	5H181	G08G   1/095	381	筐体，支持取り付け装置，付属装置〔電源など〕	Cabinets, devices for mounting supports, additional devices (such as power sources and the like)
+G08G   1/095  D	2	2	5H181	G08G   1/095	345	環境に対応するもの〔フード，耐風，耐雪など〕	Corresponding to environment (hoods, wind-resistance devices, snow-resistance devices and the equivalent)
+G08G   1/095  E	2	1	5H181	G08G   1/095	339	駆動制御〔点滅，ノイズ除去，輝度調節，省力運転など〕	Controlling driving mechanisms (blinking, noise reductions, adjusting luminance, power economizing operations)
+G08G   1/095  F	2	1	5H181	G08G   1/095	295	補助表示装置をもつもの〔音声装置など〕	Containing auxiliary display devices (devices for producing voices and sound and the equivalent)
+G08G   1/095  J	2	1	5H181	G08G   1/095	481	信号，標識の表示装置自体〔表示装置自体の組立て，取り付けなど〕	Display devices per se for traffic lights and traffic signs (assembling and mounting of display devices per se and the like)
+G08G   1/095  K	2	2	5H181	G08G   1/095	436	交通信号灯のためのもの	For lamps of traffic lights
+G08G   1/095  L	2	1	5H181	G08G   1/095	345	表示装置に画素を利用するもの〔半導体，液晶，光ファイバ，ＣＲＴ，ドットによるものなど〕	Using pixels for display devices (by semiconductors, liquid crystals, optical fibres, CRT and dots)
+G08G   1/095  M	2	2	5H181	G08G   1/095	308	交通信号灯のためのもの	For lamps of traffic lights
+G08G   1/095  Z	2	0	5H181	G08G   1/095	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/0955  \	3	3	5H181	G08G   1/0955	15	可搬型のもの［５］	transportable [5]
+G08G   1/0955  A	3	0	5H181	G08G   1/0955	232	可搬型のもの〔携帯型，教習用など〕	Movable types (mobile type. learning tools and the like)
+G08G   1/0955  B	3	1	5H181	G08G   1/0955	119	交通信号灯のためのもの	For lamps of traffic signals
+G08G   1/0955  Z	3	0	5H181	G08G   1/0955	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/096  \	2	2	5H181	G08G   1/096	19	時間の経過を示しながら進行するマークをもつ表示装置，例．青信号の	provided with indicators in which a mark progresses showing the time elapsed, e.g. of green phase
+G08G   1/096  A	2	0	5H181	G08G   1/096	168	表示時間の経過を示すもの〔残り時間，信号切り替えの予告など〕	Indicating elapse time of displaying operations (showing remaining time, predicting and warning the switching the lamps of traffic lights and the like)
+G08G   1/096  Z	2	0	5H181	G08G   1/096	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/0962  \	2	2	5H181	G08G   1/0962	877	車両内に搭載された指示装置を持つもの，例．声によるメッセージを伝えるもの［５］	having an indicator mounted inside the vehicle, e.g. giving voice messages [5]
+G08G   1/0965  \	3	3	5H181	G08G   1/0965	289	他の車両からの信号に応答するもの，例．緊急車両［５］	responding to signals from another vehicle, e.g. emergency vehicle [5]
+G08G   1/0967  \	3	3	5H181	G08G   1/0967	83	高速道路の情報通信を含むシステム，例．天候，制限時速（Ｇ０８Ｇ１／０９６８が優先）［５］	Systems involving transmission of highway information, e.g. weather, speed limits () [5]
+G08G   1/0968  \	3	3	5H181	G08G   1/0968	629	車両にナビゲーション指示を伝えることを含むシステム［５］	Systems involving transmission of navigation instructions to the vehicle [5]
+G08G   1/0968  A	3	0	5H181	G08G   1/0968	437	バス以外の車両の運行のためのもの	Vehicles operations for other than buses
+G08G   1/0968  B	3	1	5H181	G08G   1/0968	538	車外装置のみ、または車載装置と共同で行うもの	Devices for only outside of vehicles or outside devices coordinating with the devices mounted on vehicles
+G08G   1/0968  Z	3	0	5H181	G08G   1/0968	4	その他のもの〔使用せず〕	Others (unused)
+G08G   1/0969  \	4	4	5H181	G08G   1/0969	19742	地図形式の表示装置を持つもの［５］	having a display in the form of a map [5]
+G08G   1/097  \	1	1	5H181	G08G   1/097	13	交通制御システムの監視，例．２つの交差する道路が同時に青信号になると警報をあたえるもの	Supervising of traffic control systems, e.g. by giving an alarm if two crossing streets have green light simultaneously
+G08G   1/097  A	1	0	5H181	G08G   1/097	372	異常事態，監視に対応するもの〔故障検出，モード切り替え，フェイルセイフなど〕	Corresponding to abnormal situations and supervisions (detecting failures, switching mode of operations, failsafe and the equivalent)
+G08G   1/097  Z	1	0	5H181	G08G   1/097	0	その他のもの〔使用せず〕	Others (unused)
+G08G   1/123  \	1	1	5H181	G08G   1/123	334	車両の位置の表示，例．時刻表によって運行される車両［５］	indicating the position of vehicles, e.g. scheduled vehicles [5]
+G08G   1/123  A	1	0	5H181	G08G   1/123	2534	車両の位置の表示〔経路運行案内、配車走行指令など〕〔交通情報を利用せず、また他から管制、交信を受けない航行システムのみのものはＧ０１Ｃ２１／００〕	Displaying locations of vehicles (route guidance, instructing running vehicles on delivery, and the equivalent)
+G08G   1/123  Z	1	0	5H181	G08G   1/123	14	その他のもの〔使用せず〕	Others (unused)
+G08G   1/127  \	2	2	5H181	G08G   1/127	110	中央ステーションに向かうもの［５］	to a central station [5]
+G08G   1/127  A	2	0	5H181	G08G   1/127	714	バスの運行のためのもの	For operations of buses
+G08G   1/127  B	2	1	5H181	G08G   1/127	609	車外装置のみ、または車載装置と共同で行うもの	Devices for only outside of vehicles or outside devices coordinating with the devices mounted on vehicles
+G08G   1/127  Z	2	0	5H181	G08G   1/127	27	その他のもの〔使用せず〕	Others (unused)
+G08G   1/13  \	3	3	5H181	G08G   1/13	4994	地図形式の表示装置［５］	the indicator being in the form of a map [5]
+G08G   1/133  \	2	2	5H181	G08G   1/133	505	車載のもの［５］	within the vehicle [5]
+G08G   1/137  \	3	3	5H181	G08G   1/137	3331	地図形式の表示装置［５］	the indicator being in the form of a map [5]
+G08G   1/14  \	1	1	5H181	G08G   1/14	238	駐車場における空席の表示	indicating individual free spaces in parking areas
+G08G   1/14  A	1	0	5H181	G08G   1/14	3402	駐車場とその管理〔ゲート，自転車，駐車設備など〕	Administrations of parking spaces (bicycles, parking facilities, and the equivalent)
+G08G   1/14  Z	1	0	5H181	G08G   1/14	15	その他のもの〔使用せず〕	Others (unused)
+G08G   1/16  \	1	1	5H181	G08G   1/16	219	衝突防止システム［２，８］	Anti-collision systems [2,8]
+G08G   1/16  A	1	0	5H181	G08G   1/16	5331	衝突防止装置，監視警戒装置〔近接触接検知，追い抜きの合図，車高車幅の検知など〕	Devices for preventing collisions, supervising and warning devices (detecting dangerously close distances from the other vehicles, signaling for passing over, detecting height and width of vehicles, and the equivalent)
+G08G   1/16  C	1	1	5H181	G08G   1/16	23741	車載装置のみでおこなうもの	Operations exclusively by devices mounted on vehicles
+G08G   1/16  D	1	1	5H181	G08G   1/16	4758	視界不良，危険区域〔カーブ，交差点，踏切，霧など〕〔障害物の検出は１／００Ｊ，Ｋ〕	Limited visibility conditions, dangerous areas (bending roads, intersections, railway crossings, fogs, and the equivalent) (refer 1/00J, K for detecting obstacles)
+G08G   1/16  E	1	1	5H181	G08G   1/16	3131	前方車間距離の制御〔適正距離，発車許可など〕	Controlling distance between vehicles in front (appropriate distances, staring vehicle permissions)
+G08G   1/16  F	1	1	5H181	G08G   1/16	4248	居眠り運転への対応〔飲酒，薬剤など〕	Corresponding to sleeping drivers while driving vehicles (drinking, alcoholic beverages, medicines and the equivalent)
+G08G   1/16  Z	1	0	5H181	G08G   1/16	12	その他のもの〔使用せず〕	Others (unused)
+G08G   3/00  \	0	0	5H181	G08G   3/00	26	船舶に対する交通制御システム（航路の表示Ｂ６３Ｂ５１／００）	Traffic control systems for marine craft (marking of navigational route&nbsp;B63B 51/00)
+G08G   3/00  A	0	0	5H181	G08G   3/00	730	船舶に関するもの	Regarding ships
+G08G   3/00  Z	0	0	5H181	G08G   3/00	1	その他のもの〔使用せず〕	Others (unused)
+G08G   3/02  \	1	1	5H181	G08G   3/02	20	衝突防止システム	Anti-collision systems
+G08G   3/02  A	1	0	5H181	G08G   3/02	439	衝突防止に関するもの	Regarding collision prevention
+G08G   3/02  Z	1	0	5H181	G08G   3/02	0	その他のもの〔使用せず〕	Others (unused)
+G08G   5/00  \	0	0	5H181	G08G   5/00	1950	航空機に対する交通制御システム［２０２５．０１］	Traffic control systems for aircraft[2025.01]
+G08G   5/20  \	1	1	5H181	G08G   5/20	0	交通情報を取得，生成，共有または表示するための装置（交通を監視するための装置Ｇ０８Ｇ５／７２）［２０２５．０１］	Arrangements for acquiring, generating, sharing or displaying traffic information (arrangements for monitoring traffic G08G 5/72)[2025.01]
+G08G   5/21  \	2	2	5H181	G08G   5/21	0	航空機内に配置されるもの［２０２５．０１］	located onboard the aircraft[2025.01]
+G08G   5/22  \	2	2	5H181	G08G   5/22	0	地上に配置されるもの［２０２５．０１］	located on the ground[2025.01]
+G08G   5/23  \	2	2	5H181	G08G   5/23	0	ユーザー用出力インターフェースの細部，例．提示される情報［２０２５．０１］	Details of user output interfaces, e.g. information presented[2025.01]
+G08G   5/24  \	2	2	5H181	G08G   5/24	0	ユーザー用入力インターフェースの細部，例．音声認識または特定のテキスト形式の利用［２０２５．０１］	Details of user input interfaces, e.g. use of speech recognition or specific text formats[2025.01]
+G08G   5/25  \	2	2	5H181	G08G   5/25	0	航空機間における交通に関する情報の伝送［２０２５．０１］	Transmission of traffic-related information between aircraft[2025.01]
+G08G   5/26  \	2	2	5H181	G08G   5/26	0	航空機と地上局との間における交通に関する情報の伝送［２０２５．０１］	Transmission of traffic-related information between aircraft and ground stations[2025.01]
+G08G   5/265  \	3	3	5H181	G08G   5/265	0	航空交通管制［ＡＴＣ］のクリアランスを管理するためのもの［２０２５．０１］	for managing air traffic control [ATC] clearance[2025.01]
+G08G   5/27  \	2	2	5H181	G08G   5/27	0	ネットワークのカバー範囲を管理するためのもの，例．無人航空機［ＵＡＶ］の伝送接続を保証するもの［２０２５．０１］	for managing network coverage, e.g. ensuring transmission connections for UAVs[2025.01]
+G08G   5/30  \	1	1	5H181	G08G   5/30	1	飛行計画の管理［２０２５．０１］	Flight plan management[2025.01]
+G08G   5/32  \	2	2	5H181	G08G   5/32	1	飛行計画を準備するためのもの［２０２５．０１］	for flight plan preparation[2025.01]
+G08G   5/34  \	2	2	5H181	G08G   5/34	2	飛行計画を修正するためのもの［２０２５．０１］	for flight plan modification[2025.01]
+G08G   5/36  \	2	2	5H181	G08G   5/36	0	認可された操縦士を識別するためのもの［２０２５．０１］	for identification of authorised pilots[2025.01]
+G08G   5/38  \	2	2	5H181	G08G   5/38	0	着陸地，例．変更先の空港，を識別するためのもの［２０２５．０１］	for identification of landing sites, e.g. of diversion airports[2025.01]
+G08G   5/50  \	1	1	5H181	G08G   5/50	0	航行または誘導案内の支援［２０２５．０１］	Navigation or guidance aids[2025.01]
+G08G   5/51  \	2	2	5H181	G08G   5/51	0	地上にいるときの制御のためのもの，例．タキシングまたはローリング［２０２５．０１］	for control when on the ground, e.g. taxiing or rolling[2025.01]
+G08G   5/52  \	2	2	5H181	G08G   5/52	0	離陸のためのもの［２０２５．０１］	for take-off[2025.01]
+G08G   5/53  \	2	2	5H181	G08G   5/53	0	巡航のためのもの［２０２５．０１］	for cruising[2025.01]
+G08G   5/54  \	2	2	5H181	G08G   5/54	1	アプローチまたは着陸のためのもの［２０２５．０１］	for approach or landing[2025.01]
+G08G   5/55  \	2	2	5H181	G08G   5/55	0	単一の航空機のためのもの［２０２５．０１］	for a single aircraft[2025.01]
+G08G   5/56  \	2	2	5H181	G08G   5/56	3	２以上の航空機のためのもの［２０２５．０１］	for two or more aircraft[2025.01]
+G08G   5/57  \	2	2	5H181	G08G   5/57	1	無人航空機のためのもの［２０２５．０１］	for unmanned aircraft[2025.01]
+G08G   5/58  \	2	2	5H181	G08G   5/58	0	非常事態の状況に対するもの，例．ハイジャックまたはバードストライク［２０２５．０１］	for emergency situations, e.g. hijacking or bird strikes[2025.01]
+G08G   5/59  \	2	2	5H181	G08G   5/59	0	予め定められた飛行領域に従うもの，例．飛行禁止区域を避けるためのもの［２０２５．０１］	in accordance with predefined flight zones, e.g. to avoid prohibited zones[2025.01]
+G08G   5/70  \	1	1	5H181	G08G   5/70	1	交通の状況または状態を監視するための装置［２０２５．０１］	Arrangements for monitoring traffic-related situations or conditions[2025.01]
+G08G   5/72  \	2	2	5H181	G08G   5/72	0	交通を監視するためのもの［２０２５．０１］	for monitoring traffic[2025.01]
+G08G   5/74  \	2	2	5H181	G08G   5/74	0	地形を監視するためのもの［２０２５．０１］	for monitoring terrain[2025.01]
+G08G   5/76  \	2	2	5H181	G08G   5/76	0	大気の状態を監視するためのもの［２０２５．０１］	for monitoring atmospheric conditions[2025.01]
+G08G   5/78  \	2	2	5H181	G08G   5/78	0	後方乱気流を監視するためのもの［２０２５．０１］	for monitoring wake turbulence[2025.01]
+G08G   5/80  \	1	1	5H181	G08G   5/80	6	衝突防止システム［２０２５．０１］	Anti-collision systems[2025.01]
+G08G   5/90  \	1	1	5H181	G08G   5/90	0	アーバン・エア・モビリティ［ＵＡＭ］に特に適合するもの［２０２５．０１］	specially adapted for urban air mobility [UAM][2025.01]
+G08G   7/00  \	0	0	5H181	G08G   7/00	6	２またはそれ以上の種類の航行体に対する同時制御のための交通制御システム［２］	Traffic control systems for simultaneous control of two or more different kinds of craft [2]
+G08G   7/00  A	0	0	5H181	G08G   7/00	28	二種以上のクラフトの同時制御に関するもの	Regarding controlling more than two air crafts simultaneously
+G08G   7/00  Z	0	0	5H181	G08G   7/00	0	その他のもの〔使用せず〕	Others (unused)
+G08G   7/02  \	1	1	5H181	G08G   7/02	2	衝突防止システム［２］	Anti-collision systems [2]
+G08G   7/02  A	1	0	5H181	G08G   7/02	7	衝突防止に関するもの	Regarding collision prevention
+G08G   7/02  Z	1	0	5H181	G08G   7/02	0	その他のもの〔使用せず〕	Others (unused)
+G08G   9/00  \	0	0	5H181	G08G   9/00	11	種類には無関係であるか特定されない航行体に対する交通制御システム［２］	Traffic control systems for craft where the kind of craft is irrelevant or unspecified [2]
+G08G   9/00  A	0	0	5H181	G08G   9/00	83	不特定の種類のクラフトに関するもの	Regarding indefinite types of air crafts
+G08G   9/00  Z	0	0	5H181	G08G   9/00	1	その他のもの〔使用せず〕	Others (unused)
+G08G   9/02  \	1	1	5H181	G08G   9/02	0	衝突防止システム［２］	Anti-collision systems [2]
+G08G   9/02  A	1	0	5H181	G08G   9/02	21	衝突防止に関するもの	Regarding collision prevention
+G08G   9/02  Z	1	0	5H181	G08G   9/02	0	その他のもの〔使用せず〕	Others (unused)
+G08G  99/00  \	0	0	5H181	G08G  99/00	0	このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass [8]

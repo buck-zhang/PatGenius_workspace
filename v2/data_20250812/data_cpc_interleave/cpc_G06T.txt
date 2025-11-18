@@ -1,0 +1,452 @@
+G06T1/00	7	General purpose image data processing	G06T1/00	G06T1/00		4092
+G06T1/0007	8	{Image acquisition}	G06T1/00	G06T1/00		3169
+G06T1/0014	8	{Image feed-back for automatic industrial control, e.g. robot with camera (robots B25J19/023)}	G06T1/00	G06T1/00		1605
+G06T1/0021	8	{Image watermarking}	G06T1/00	G06T1/00		3386
+G06T1/0028	9	{Adaptive watermarking, e.g. Human Visual System [HVS]-based watermarking}	G06T1/00	G06T1/00		1147
+G06T1/0035	10	{Output size adaptive watermarking}	G06T1/00	G06T1/00		120
+G06T1/0042	9	{Fragile watermarking, e.g. so as to detect tampering}	G06T1/00	G06T1/00		234
+G06T1/005	9	{Robust watermarking, e.g. average attack or collusion attack resistant}	G06T1/00	G06T1/00		1357
+G06T1/0057	10	{Compression invariant watermarking}	G06T1/00	G06T1/00		161
+G06T1/0064	10	{Geometric transfor invariant watermarking, e.g. affine transform invariant}	G06T1/00	G06T1/00		383
+G06T1/0071	10	{using multiple or alternating watermarks}	G06T1/00	G06T1/00		354
+G06T1/0078	10	{using multiple thresholds}	G06T1/00	G06T1/00		51
+G06T1/0085	9	{Time domain based watermarking, e.g. watermarks spread over several images}	G06T1/00	G06T1/00		332
+G06T1/0092	9	{Payload characteristic determination in a watermarking scheme, e.g. number of bits to be embedded}	G06T1/00	G06T1/00		180
+G06T1/20	8	Processor architectures; Processor configuration, e.g. pipelining	G06T1/20	G06T1/20		12289
+G06T1/60	8	Memory management	G06T1/60	G06T1/60		6443
+G06T3/00	7	Geometric image transformations in the plane of the image	G06T3/00	G06T3/00		2020
+G06T3/02	8	Affine transformations (for image registration G06T3/147; for image mosaicing G06T3/4038)	G06T3/02	G06T3/02		1772
+G06T3/04	8	Context-preserving transformations, e.g. by using an importance map (panospheric to cylindrical image transformations G06T3/12)	G06T3/04	G06T3/04		4384
+G06T3/047	9	Fisheye or wide-angle transformations	G06T3/047	G06T3/047		874
+G06T3/053	9	Detail-in-context presentations (fisheye or wide-angle transformations G06T3/047)	G06T3/053	G06T3/053		164
+G06T3/06	8	Topological mapping of higher dimensional structures onto lower dimensional surfaces	G06T3/06	G06T3/06		1422
+G06T3/067	9	Reshaping or unfolding 3D tree structures onto 2D planes	G06T3/067	G06T3/067		514
+G06T3/073	9	Transforming surfaces of revolution to planar images, e.g. cylindrical surfaces to planar images	G06T3/073	G06T3/073		165
+G06T3/08	8	Projecting images onto non-planar surfaces, e.g. geodetic screens	G06T3/08	G06T3/08		1242
+G06T3/10	8	Selection of transformation methods according to the characteristics of the input images	G06T3/10	G06T3/10		454
+G06T3/12	8	Panospheric to cylindrical image transformations	G06T3/12	G06T3/12		544
+G06T3/14	8	Transformations for image registration, e.g. adjusting or mapping for alignment of images	G06T3/14	G06T3/14		1507
+G06T3/147	9	using affine transformations	G06T3/147	G06T3/147		550
+G06T3/153	9	using elastic snapping	G06T3/153	G06T3/153		179
+G06T3/16	8	Spatio-temporal transformations, e.g. video cubism	G06T3/16	G06T3/16		234
+G06T3/18	8	Image warping, e.g. rearranging pixels individually	G06T3/18	G06T3/18		2058
+G06T3/20	8	Linear translation of whole images or parts thereof, e.g. panning	G06T3/20	G06T3/20		750
+G06T3/40	8	Scaling of whole images or parts thereof, e.g. expanding or contracting	G06T3/40	G06T3/40		8805
+G06T3/4007	9	based on interpolation, e.g. bilinear interpolation (image demosaicing G06T3/4015; edge-driven or edge-based scaling G06T3/403)	G06T3/4007	G06T3/4007		6477
+G06T3/4015	9	Image demosaicing, e.g. colour filter arrays [CFA] or Bayer patterns	G06T3/4015	G06T3/4015		1560
+G06T3/4023	9	based on decimating pixels or lines of pixels; based on inserting pixels or lines of pixels	G06T3/4023	G06T3/4023		1289
+G06T3/403	9	Edge-driven scaling; Edge-based scaling	G06T3/403	G06T3/403		994
+G06T3/4038	9	Image mosaicing, e.g. composing plane images from plane sub-images	G06T3/4038	G06T3/4038		11280
+G06T3/4046	9	using neural networks	G06T3/4046	G06T3/4046		3893
+G06T3/4053	9	based on super-resolution, i.e. the output image resolution being higher than the sensor resolution	G06T3/4053	G06T3/4053		7273
+G06T3/4061	10	by injecting details from different spectral ranges	G06T3/4061	G06T3/4061		201
+G06T3/4069	10	by subpixel displacements	G06T3/4069	G06T3/4069		260
+G06T3/4076	10	using the original low-resolution images to iteratively correct the high-resolution images	G06T3/4076	G06T3/4076		1093
+G06T3/4084	9	in the transform domain, e.g. fast Fourier transform [FFT] domain scaling	G06T3/4084	G06T3/4084		799
+G06T3/4092	9	Image resolution transcoding, e.g. by using client-server architectures	G06T3/4092	G06T3/4092		623
+G06T3/60	8	Rotation of whole images or parts thereof	G06T3/60	G06T3/60		3096
+G06T3/602	9	by block rotation, e.g. by recursive reversal or rotation	G06T3/602	G06T3/602		125
+G06T3/604	9	using coordinate rotation digital computer [CORDIC] devices	G06T3/604	G06T3/604		199
+G06T3/606	9	by memory addressing or mapping	G06T3/606	G06T3/606		241
+G06T3/608	9	by skew deformation, e.g. two-pass or three-pass rotation	G06T3/608	G06T3/608		489
+G06T5/00	7	Image enhancement or restoration<br><br><u>WARNING</u><br>Group G06T5/00 is impacted by reclassification into group G06T5/60.<br>Groups G06T5/00 and G06T5/60 should be considered in order to perform a complete search.	G06T5/00	G06T5/00		6203
+G06T5/10	8	using non-spatial domain filtering	G06T5/10	G06T5/10		3231
+G06T5/20	8	using local operators	G06T5/20	G06T5/20		10558
+G06T5/30	9	Erosion or dilatation, e.g. thinning	G06T5/30	G06T5/30		4788
+G06T5/40	8	using histogram techniques	G06T5/40	G06T5/40		7943
+G06T5/50	8	using two or more images, e.g. averaging or subtraction	G06T5/50	G06T5/50		26740
+G06T5/60	8	using machine learning, e.g. neural networks<br><br><u>WARNING</u><br> Group G06T5/60 is incomplete pending reclassification of documents from group G06T5/00.<br>Groups G06T5/00 and G06T5/60 should be considered in order to perform a complete search.	G06T5/60	G06T5/60		5005
+G06T5/70	8	Denoising; Smoothing	G06T5/70	G06T5/70		30959
+G06T5/73	8	Deblurring; Sharpening	G06T5/73	G06T5/73		10115
+G06T5/75	9	Unsharp masking	G06T5/75	G06T5/75		782
+G06T5/77	8	Retouching; Inpainting; Scratch removal	G06T5/77	G06T5/77		6444
+G06T5/80	8	Geometric correction	G06T5/80	G06T5/80		8357
+G06T5/90	8	Dynamic range modification of images or parts thereof	G06T5/90	G06T5/90		7207
+G06T5/92	9	based on global image properties	G06T5/92	G06T5/92		4833
+G06T5/94	9	based on local image properties, e.g. for local contrast enhancement	G06T5/94	G06T5/94		3870
+G06T7/00	7	Image analysis	G06T7/00	G06T7/00		8712
+G06T7/0002	8	{Inspection of images, e.g. flaw detection}	G06T7/00	G06T7/00		22903
+G06T7/0004	9	{Industrial image inspection}	G06T7/00	G06T7/00		35416
+G06T7/0006	10	{using a design-rule based approach}	G06T7/00	G06T7/00		2109
+G06T7/0008	10	{checking presence/absence}	G06T7/00	G06T7/00		3063
+G06T7/001	10	{using an image reference approach}	G06T7/00	G06T7/00		8755
+G06T7/0012	9	{Biomedical image inspection}	G06T7/00	G06T7/00		37462
+G06T7/0014	10	{using an image reference approach}	G06T7/00	G06T7/00		3630
+G06T7/0016	11	{involving temporal comparison}	G06T7/00	G06T7/00		2661
+G06T7/10	8	Segmentation; Edge detection (motion-based segmentation G06T7/215)<br><br><u>NOTE</u><br><br>When classifying in groups  G06T7/11 - G06T7/13, classification is also made in relevant groups of G06T7/136 - G06T7/194.	G06T7/10	G06T7/10		9985
+G06T7/11	9	Region-based segmentation	G06T7/11	G06T7/11		44995
+G06T7/12	9	Edge-based segmentation	G06T7/12	G06T7/12		9668
+G06T7/13	9	Edge detection	G06T7/13	G06T7/13		25716
+G06T7/136	9	involving thresholding	G06T7/136	G06T7/136		16203
+G06T7/143	9	involving probabilistic approaches, e.g. Markov random field [MRF] modelling	G06T7/143	G06T7/143		1316
+G06T7/149	9	involving deformable models, e.g. active contour models	G06T7/149	G06T7/149		1386
+G06T7/155	9	involving morphological operators	G06T7/155	G06T7/155		2547
+G06T7/162	9	involving graph-based methods	G06T7/162	G06T7/162		655
+G06T7/168	9	involving transform domain methods	G06T7/168	G06T7/168		662
+G06T7/174	9	involving the use of two or more images	G06T7/174	G06T7/174		2285
+G06T7/181	9	involving edge growing; involving edge linking	G06T7/181	G06T7/181		1674
+G06T7/187	9	involving region growing; involving region merging; involving connected component labelling	G06T7/187	G06T7/187		5887
+G06T7/194	9	involving foreground-background segmentation	G06T7/194	G06T7/194		10489
+G06T7/20	8	Analysis of motion (motion estimation for coding, decoding, compressing or decompressing digital video signals H04N19/43, H04N19/51)	G06T7/20	G06T7/20		12894
+G06T7/207	9	for motion estimation over a hierarchy of resolutions (multi-resolution motion estimation or hierarchical motion estimation for coding, decoding, compressing or decompressing digital video signals H04N19/53)	G06T7/207	G06T7/207		1000
+G06T7/215	9	Motion-based segmentation	G06T7/215	G06T7/215		2648
+G06T7/223	9	using block-matching	G06T7/223	G06T7/223		1139
+G06T7/231	10	using full search	G06T7/231	G06T7/231		184
+G06T7/238	10	using non-full search, e.g. three-step search	G06T7/238	G06T7/238		324
+G06T7/246	9	using feature-based methods, e.g. the tracking of corners or segments	G06T7/246	G06T7/246		16062
+G06T7/248	10	{involving reference images or patches}	G06T7/246	G06T7/248		3860
+G06T7/251	10	{involving models}	G06T7/246	G06T7/251		2196
+G06T7/254	9	involving subtraction of images	G06T7/254	G06T7/254		3167
+G06T7/262	9	using transform domain methods, e.g. Fourier domain methods	G06T7/262	G06T7/262		615
+G06T7/269	9	using gradient-based methods	G06T7/269	G06T7/269		2780
+G06T7/277	9	involving stochastic approaches, e.g. using Kalman filters	G06T7/277	G06T7/277		3185
+G06T7/285	9	using a sequence of stereo image pairs	G06T7/285	G06T7/285		601
+G06T7/292	9	Multi-camera tracking	G06T7/292	G06T7/292		2504
+G06T7/30	8	Determination of transform parameters for the alignment of images, i.e. image registration	G06T7/30	G06T7/30		6468
+G06T7/32	9	using correlation-based methods	G06T7/32	G06T7/32		1130
+G06T7/33	9	using feature-based methods	G06T7/33	G06T7/33		8976
+G06T7/337	10	{involving reference images or patches}	G06T7/33	G06T7/33		3431
+G06T7/344	10	{involving models}	G06T7/33	G06T7/344		1784
+G06T7/35	9	using statistical methods	G06T7/35	G06T7/35		684
+G06T7/37	9	using transform domain methods	G06T7/37	G06T7/37		444
+G06T7/38	9	Registration of image sequences	G06T7/38	G06T7/38		1148
+G06T7/40	8	Analysis of texture (depth or shape recovery from texture G06T7/529)	G06T7/40	G06T7/40		3235
+G06T7/41	9	based on statistical description of texture	G06T7/41	G06T7/41		1020
+G06T7/42	10	using transform domain methods	G06T7/42	G06T7/42		309
+G06T7/44	10	using image operators, e.g. filters, edge density metrics or local histograms	G06T7/44	G06T7/44		979
+G06T7/45	10	using co-occurrence matrix computation	G06T7/45	G06T7/45		507
+G06T7/46	10	using random fields	G06T7/46	G06T7/46		25
+G06T7/48	10	using fractals	G06T7/48	G06T7/48		81
+G06T7/49	9	based on structural texture description, e.g. using primitives or placement rules	G06T7/49	G06T7/49		309
+G06T7/50	8	Depth or shape recovery	G06T7/50	G06T7/50		8549
+G06T7/507	9	from shading (G06T7/586 takes precedence)	G06T7/507	G06T7/507		301
+G06T7/514	9	from specularities	G06T7/514	G06T7/514		317
+G06T7/521	9	from laser ranging, e.g. using interferometry; from the projection of structured light	G06T7/521	G06T7/521		4111
+G06T7/529	9	from texture	G06T7/529	G06T7/529		392
+G06T7/536	9	from perspective effects, e.g. by using vanishing points	G06T7/536	G06T7/536		514
+G06T7/543	9	from line drawings	G06T7/543	G06T7/543		153
+G06T7/55	9	from multiple images	G06T7/55	G06T7/55		5236
+G06T7/557	10	from light fields, e.g. from plenoptic cameras	G06T7/557	G06T7/557		571
+G06T7/564	10	from contours	G06T7/564	G06T7/564		484
+G06T7/571	10	from focus	G06T7/571	G06T7/571		616
+G06T7/579	10	from motion	G06T7/579	G06T7/579		1834
+G06T7/586	10	from multiple light sources, e.g. photometric stereo	G06T7/586	G06T7/586		438
+G06T7/593	10	from stereo images	G06T7/593	G06T7/593		4804
+G06T7/596	11	{from three or more stereo images}	G06T7/593	G06T7/596		391
+G06T7/60	8	Analysis of geometric attributes	G06T7/60	G06T7/60		12829
+G06T7/62	9	of area, perimeter, diameter or volume	G06T7/62	G06T7/62		19284
+G06T7/64	9	of convexity or concavity	G06T7/64	G06T7/64		1217
+G06T7/66	9	of image moments or centre of gravity	G06T7/66	G06T7/66		4277
+G06T7/68	9	of symmetry	G06T7/68	G06T7/68		856
+G06T7/70	8	Determining position or orientation of objects or cameras (camera calibration G06T7/80)	G06T7/70	G06T7/70		28587
+G06T7/73	9	using feature-based methods	G06T7/73	G06T7/73		27555
+G06T7/74	10	{involving reference images or patches}	G06T7/73	G06T7/74		7397
+G06T7/75	10	{involving models}	G06T7/73	G06T7/75		4137
+G06T7/77	9	using statistical methods	G06T7/77	G06T7/77		1000
+G06T7/80	8	Analysis of captured images to determine intrinsic or extrinsic camera parameters, i.e. camera calibration	G06T7/80	G06T7/80		16140
+G06T7/85	9	{Stereo camera calibration}	G06T7/80	G06T7/85		3796
+G06T7/90	8	Determination of colour characteristics	G06T7/90	G06T7/90		21286
+G06T7/97	8	{Determining parameters from multiple pictures (depth or shape recovery from multiple images G06T7/55; stereo camera calibration G06T7/85)}	G06T7/00	G06T7/97		2993
+G06T9/00	7	Image coding (bandwidth or redundancy reduction for static pictures H04N1/41; coding or decoding of static colour picture signals H04N1/64; methods or arrangements for coding, decoding, compressing or decompressing digital video signals H04N19/00)	G06T9/00	G06T9/00		5521
+G06T9/001	8	{Model-based coding, e.g. wire frame}	G06T9/00	G06T9/00		2554
+G06T9/002	8	{using neural networks}	G06T9/00	G06T9/00		2471
+G06T9/004	8	{Predictors, e.g. intraframe, interframe coding}	G06T9/00	G06T9/00		1654
+G06T9/005	8	{Statistical coding, e.g. Huffman, run length coding}	G06T9/00	G06T9/00		1273
+G06T9/007	8	{Transform coding, e.g. discrete cosine transform}	G06T9/00	G06T9/00		1050
+G06T9/008	8	{Vector quantisation}	G06T9/00	G06T9/00		523
+G06T9/20	8	Contour coding, e.g. using detection of edges	G06T9/20	G06T9/20		861
+G06T9/40	8	Tree coding, e.g. quadtree, octree	G06T9/40	G06T9/40		932
+G06T11/00	7	2D [Two Dimensional] image generation	G06T11/00	G06T11/00		9796
+G06T11/001	8	{Texturing; Colouring; Generation of texture or colour (inpainting G06T5/77)}	G06T11/00	G06T11/00		8500
+G06T11/003	8	{Reconstruction from projections, e.g. tomography}	G06T11/00	G06T11/00		3012
+G06T11/005	9	{Specific pre-processing for tomographic reconstruction, e.g. calibration, source positioning, rebinning, scatter correction, retrospective gating}	G06T11/00	G06T11/00		3464
+G06T11/006	9	{Inverse problem, transformation from projection-space into object-space, e.g. transform methods, back-projection, algebraic methods}	G06T11/00	G06T11/00		2905
+G06T11/008	9	{Specific post-processing after tomographic reconstruction, e.g. voxelisation, metal artifact correction}	G06T11/00	G06T11/00		2970
+G06T11/20	8	Drawing from basic elements, e.g. lines or circles	G06T11/20	G06T11/20		1600
+G06T11/203	9	{Drawing of straight lines or curves}	G06T11/20	G06T11/20		5275
+G06T11/206	9	{Drawing of charts or graphs}	G06T11/20	G06T11/20		8539
+G06T11/40	8	Filling a planar surface by adding surface attributes, e.g. colour or texture	G06T11/40	G06T11/40		4063
+G06T11/60	8	Editing figures and text; Combining figures or text	G06T11/60	G06T11/60		16829
+G06T11/80	8	Creating or modifying a manually drawn or painted image using a manual input device, e.g. mouse, light pen, direction keys on keyboard	G06T11/80	G06T11/80		598
+G06T13/00	7	Animation	G06T13/00	G06T13/00		2909
+G06T13/20	8	3D [Three Dimensional] animation	G06T13/20	G06T13/20		3216
+G06T13/205	9	{driven by audio data}	G06T13/20	G06T13/20		1084
+G06T13/40	9	of characters, e.g. humans, animals or virtual beings	G06T13/40	G06T13/40		9571
+G06T13/60	9	of natural phenomena, e.g. rain, snow, water or plants	G06T13/60	G06T13/60		539
+G06T13/80	8	2D [Two Dimensional] animation, e.g. using sprites	G06T13/80	G06T13/80		3217
+G06T15/00	7	3D [Three Dimensional] image rendering	G06T15/00	G06T15/00		5063
+G06T15/005	8	{General purpose rendering architectures}	G06T15/00	G06T15/00		11544
+G06T15/02	8	Non-photorealistic rendering	G06T15/02	G06T15/02		668
+G06T15/04	8	Texture mapping	G06T15/04	G06T15/04		7711
+G06T15/06	8	Ray-tracing	G06T15/06	G06T15/06		2628
+G06T15/08	8	Volume rendering	G06T15/08	G06T15/08		3364
+G06T15/10	8	Geometric effects	G06T15/10	G06T15/10		2147
+G06T15/20	9	Perspective computation	G06T15/20	G06T15/20		3691
+G06T15/205	10	{Image-based rendering}	G06T15/20	G06T15/20		4211
+G06T15/30	9	Clipping	G06T15/30	G06T15/30		496
+G06T15/40	9	Hidden part removal	G06T15/40	G06T15/40		1033
+G06T15/405	10	{using Z-buffer}	G06T15/40	G06T15/40		618
+G06T15/50	8	Lighting effects	G06T15/50	G06T15/50		2377
+G06T15/503	9	{Blending, e.g. for anti-aliasing}	G06T15/50	G06T15/50		1232
+G06T15/506	9	{Illumination models}	G06T15/50	G06T15/50		2318
+G06T15/55	9	Radiosity	G06T15/55	G06T15/55		382
+G06T15/60	9	Shadow generation	G06T15/60	G06T15/60		1100
+G06T15/80	9	Shading	G06T15/80	G06T15/80		1354
+G06T15/83	10	Phong shading	G06T15/83	G06T15/83		83
+G06T15/87	10	Gouraud shading	G06T15/87	G06T15/87		76
+G06T17/00	7	Three dimensional [3D] modelling, e.g. data description of 3D objects	G06T17/00	G06T17/00		40245
+G06T17/005	8	{Tree description, e.g. octree, quadtree}	G06T17/00	G06T17/00		1907
+G06T17/05	8	Geographic models	G06T17/05	G06T17/05		15128
+G06T17/10	8	Constructive solid geometry [CSG] using solid primitives, e.g. cylinders, cubes	G06T17/10	G06T17/10		5700
+G06T17/20	8	Finite element generation, e.g. wire-frame surface description, {tesselation}	G06T17/20	G06T17/20		14386
+G06T17/205	9	{Re-meshing}	G06T17/20	G06T17/20		3301
+G06T17/30	8	Polynomial surface description	G06T17/30	G06T17/30		1414
+G06T19/00	7	Manipulating 3D models or images for computer graphics	G06T19/00	G06T19/00		9339
+G06T19/003	8	{Navigation within 3D models or images}	G06T19/00	G06T19/00		6208
+G06T19/006	8	{Mixed reality (object pose determination, tracking or camera calibration for mixed reality G06T7/00)}	G06T19/00	G06T19/00		24811
+G06T19/20	8	Editing of 3D images, e.g. changing shapes or colours, aligning objects or positioning parts	G06T19/20	G06T19/20		18979
+G06T2200/00	7	Indexing scheme for image data processing or generation, in general	CPCONLY	G06T2200/00		14
+G06T2200/04	8	involving 3D image data	CPCONLY	G06T2200/04		5635
+G06T2200/08	8	involving all processing steps from image acquisition to 3D model generation	CPCONLY	G06T2200/08		3624
+G06T2200/12	8	involving antialiasing	CPCONLY	G06T2200/12		353
+G06T2200/16	8	involving adaptation to the client&apos;s capabilities	CPCONLY	G06T2200/16		571
+G06T2200/21	8	involving computational photography	CPCONLY	G06T2200/21		371
+G06T2200/24	8	involving graphical user interfaces [GUIs]	CPCONLY	G06T2200/24		8050
+G06T2200/28	8	involving image processing hardware	CPCONLY	G06T2200/28		1961
+G06T2200/32	8	involving image mosaicing	CPCONLY	G06T2200/32		3464
+G06T2200/36	8	Review paper; Tutorial; Survey	CPCONLY	G06T2200/36		14
+G06T2201/00	7	General purpose image data processing	CPCONLY	G06T2201/00		11
+G06T2201/005	8	Image watermarking	CPCONLY	G06T2201/005		160
+G06T2201/0051	9	Embedding of the watermark in the spatial domain	CPCONLY	G06T2201/0051		1117
+G06T2201/0052	9	Embedding of the watermark in the frequency domain	CPCONLY	G06T2201/0052		816
+G06T2201/0053	9	Embedding of the watermark in the coding stream, possibly without decoding; Embedding of the watermark in the compressed domain	CPCONLY	G06T2201/0053		191
+G06T2201/0061	9	Embedding of the watermark in each block of the image, e.g. segmented watermarking	CPCONLY	G06T2201/0061		539
+G06T2201/0062	9	Embedding of the watermark in text images, e.g. watermarking text documents using letter skew, letter distance or row distance	CPCONLY	G06T2201/0062		124
+G06T2201/0063	9	in relation to collusion attacks, e.g. collusion attack resistant	CPCONLY	G06T2201/0063		96
+G06T2201/0064	9	for copy protection or copy management, e.g. CGMS, copy only once, one-time copy	CPCONLY	G06T2201/0064		201
+G06T2201/0065	9	Extraction of an embedded watermark; Reliable detection	CPCONLY	G06T2201/0065		1177
+G06T2201/0081	9	whereby both original and watermarked images are required at decoder, e.g. destination-based, non-blind, non-oblivious	CPCONLY	G06T2201/0081		113
+G06T2201/0083	9	whereby only watermarked image required at decoder, e.g. source-based, blind, oblivious	CPCONLY	G06T2201/0083		347
+G06T2201/0201	9	whereby only tamper or origin are detected and no embedding takes place	CPCONLY	G06T2201/0201		70
+G06T2201/0202	9	whereby the quality of watermarked images is measured; Measuring quality or performance of watermarking methods; Balancing between quality and robustness	CPCONLY	G06T2201/0202		254
+G06T2201/0203	9	whereby the image with embedded watermark is reverted to the original condition before embedding, e.g. lossless, distortion-free or invertible watermarking	CPCONLY	G06T2201/0203		210
+G06T2201/0601	9	whereby calibration information is embedded in the watermark, e.g. a grid, a scale, a list of transformations	CPCONLY	G06T2201/0601		87
+G06T2207/00	7	Indexing scheme for image analysis or image enhancement	CPCONLY	G06T2207/00		22
+G06T2207/10	8	Image acquisition modality	CPCONLY	G06T2207/10		104
+G06T2207/10004	9	Still image; Photographic image	CPCONLY	G06T2207/10004		17257
+G06T2207/10008	10	from scanner, fax or copier	CPCONLY	G06T2207/10008		1183
+G06T2207/10012	10	Stereo images	CPCONLY	G06T2207/10012		6897
+G06T2207/10016	9	Video; Image sequence	CPCONLY	G06T2207/10016		34877
+G06T2207/10021	10	Stereoscopic video; Stereoscopic image sequence	CPCONLY	G06T2207/10021		2358
+G06T2207/10024	9	Color image	CPCONLY	G06T2207/10024		23977
+G06T2207/10028	9	Range image; Depth image; 3D point clouds	CPCONLY	G06T2207/10028		26517
+G06T2207/10032	9	Satellite or aerial image; Remote sensing	CPCONLY	G06T2207/10032		8031
+G06T2207/10036	10	Multispectral image; Hyperspectral image	CPCONLY	G06T2207/10036		1790
+G06T2207/10041	10	Panchromatic image	CPCONLY	G06T2207/10041		204
+G06T2207/10044	10	Radar image	CPCONLY	G06T2207/10044		3148
+G06T2207/10048	9	Infrared image	CPCONLY	G06T2207/10048		9503
+G06T2207/10052	9	Images from lightfield camera	CPCONLY	G06T2207/10052		1101
+G06T2207/10056	9	Microscopic image	CPCONLY	G06T2207/10056		5100
+G06T2207/10061	10	from scanning electron microscope	CPCONLY	G06T2207/10061		2211
+G06T2207/10064	9	Fluorescence image	CPCONLY	G06T2207/10064		1446
+G06T2207/10068	9	Endoscopic image	CPCONLY	G06T2207/10068		3302
+G06T2207/10072	9	Tomographic images	CPCONLY	G06T2207/10072		2618
+G06T2207/10076	10	4D tomography; Time-sequential 3D tomography	CPCONLY	G06T2207/10076		375
+G06T2207/10081	10	Computed x-ray tomography [CT]	CPCONLY	G06T2207/10081		14036
+G06T2207/10084	10	Hybrid tomography; Concurrent acquisition with multiple different tomographic modalities	CPCONLY	G06T2207/10084		127
+G06T2207/10088	10	Magnetic resonance imaging [MRI]	CPCONLY	G06T2207/10088		8435
+G06T2207/10092	11	Diffusion tensor magnetic resonance imaging [DTI]	CPCONLY	G06T2207/10092		204
+G06T2207/10096	11	Dynamic contrast-enhanced magnetic resonance imaging [DCE-MRI]	CPCONLY	G06T2207/10096		194
+G06T2207/10101	10	Optical tomography; Optical coherence tomography [OCT]	CPCONLY	G06T2207/10101		1736
+G06T2207/10104	10	Positron emission tomography [PET]	CPCONLY	G06T2207/10104		1990
+G06T2207/10108	10	Single photon emission computed tomography [SPECT]	CPCONLY	G06T2207/10108		610
+G06T2207/10112	10	Digital tomosynthesis [DTS]	CPCONLY	G06T2207/10112		176
+G06T2207/10116	9	X-ray image	CPCONLY	G06T2207/10116		6556
+G06T2207/10121	10	Fluoroscopy	CPCONLY	G06T2207/10121		696
+G06T2207/10124	10	Digitally reconstructed radiograph [DRR]	CPCONLY	G06T2207/10124		293
+G06T2207/10128	10	Scintigraphy	CPCONLY	G06T2207/10128		43
+G06T2207/10132	9	Ultrasound image	CPCONLY	G06T2207/10132		5594
+G06T2207/10136	10	3D ultrasound image	CPCONLY	G06T2207/10136		856
+G06T2207/10141	9	Special mode during image acquisition	CPCONLY	G06T2207/10141		240
+G06T2207/10144	10	Varying exposure	CPCONLY	G06T2207/10144		766
+G06T2207/10148	10	Varying focus	CPCONLY	G06T2207/10148		584
+G06T2207/10152	10	Varying illumination	CPCONLY	G06T2207/10152		1780
+G06T2207/20	8	Special algorithmic details	CPCONLY	G06T2207/20		148
+G06T2207/20004	9	Adaptive image processing	CPCONLY	G06T2207/20004		1078
+G06T2207/20008	10	Globally adaptive	CPCONLY	G06T2207/20008		354
+G06T2207/20012	10	Locally adaptive	CPCONLY	G06T2207/20012		1717
+G06T2207/20016	9	Hierarchical, coarse-to-fine, multiscale or multiresolution image processing; Pyramid transform	CPCONLY	G06T2207/20016		4078
+G06T2207/20021	9	Dividing image into blocks, subimages or windows	CPCONLY	G06T2207/20021		8665
+G06T2207/20024	9	Filtering details	CPCONLY	G06T2207/20024		4692
+G06T2207/20028	10	Bilateral filtering	CPCONLY	G06T2207/20028		1575
+G06T2207/20032	10	Median filtering	CPCONLY	G06T2207/20032		3654
+G06T2207/20036	9	Morphological image processing	CPCONLY	G06T2207/20036		2181
+G06T2207/20041	10	Distance transform	CPCONLY	G06T2207/20041		202
+G06T2207/20044	10	Skeletonization; Medial axis transform	CPCONLY	G06T2207/20044		816
+G06T2207/20048	9	Transform domain processing	CPCONLY	G06T2207/20048		722
+G06T2207/20052	10	Discrete cosine transform [DCT]	CPCONLY	G06T2207/20052		537
+G06T2207/20056	10	Discrete and fast Fourier transform, [DFT, FFT]	CPCONLY	G06T2207/20056		2758
+G06T2207/20061	10	Hough transform	CPCONLY	G06T2207/20061		1292
+G06T2207/20064	10	Wavelet transform [DWT]	CPCONLY	G06T2207/20064		1959
+G06T2207/20068	9	Projection on vertical or horizontal image axis	CPCONLY	G06T2207/20068		540
+G06T2207/20072	9	Graph-based image processing	CPCONLY	G06T2207/20072		978
+G06T2207/20076	9	Probabilistic image processing	CPCONLY	G06T2207/20076		4629
+G06T2207/20081	9	Training; Learning	CPCONLY	G06T2207/20081		69469
+G06T2207/20084	9	Artificial neural networks [ANN]	CPCONLY	G06T2207/20084		62379
+G06T2207/20088	9	Trinocular vision calculations; trifocal tensor	CPCONLY	G06T2207/20088		134
+G06T2207/20092	9	Interactive image processing based on input by user	CPCONLY	G06T2207/20092		1336
+G06T2207/20096	10	Interactive definition of curve of interest	CPCONLY	G06T2207/20096		261
+G06T2207/20101	10	Interactive definition of point of interest, landmark or seed	CPCONLY	G06T2207/20101		1041
+G06T2207/20104	10	Interactive definition of region of interest [ROI]	CPCONLY	G06T2207/20104		5008
+G06T2207/20108	10	Interactive selection of 2D slice in a 3D data set	CPCONLY	G06T2207/20108		131
+G06T2207/20112	9	Image segmentation details	CPCONLY	G06T2207/20112		1022
+G06T2207/20116	10	Active contour; Active surface; Snakes	CPCONLY	G06T2207/20116		482
+G06T2207/20121	10	Active appearance model [AAM]	CPCONLY	G06T2207/20121		58
+G06T2207/20124	10	Active shape model [ASM]	CPCONLY	G06T2207/20124		139
+G06T2207/20128	10	Atlas-based segmentation	CPCONLY	G06T2207/20128		367
+G06T2207/20132	10	Image cropping	CPCONLY	G06T2207/20132		4979
+G06T2207/20152	10	Watershed segmentation	CPCONLY	G06T2207/20152		709
+G06T2207/20156	10	Automatic seed setting	CPCONLY	G06T2207/20156		369
+G06T2207/20161	10	Level set	CPCONLY	G06T2207/20161		190
+G06T2207/20164	10	Salient point detection; Corner detection	CPCONLY	G06T2207/20164		1416
+G06T2207/20168	10	Radial search	CPCONLY	G06T2207/20168		127
+G06T2207/20172	9	Image enhancement details	CPCONLY	G06T2207/20172		679
+G06T2207/20182	10	Noise reduction or smoothing in the temporal domain; Spatio-temporal filtering	CPCONLY	G06T2207/20182		1533
+G06T2207/20192	10	Edge enhancement; Edge preservation	CPCONLY	G06T2207/20192		3789
+G06T2207/20201	10	Motion blur correction	CPCONLY	G06T2207/20201		1115
+G06T2207/20204	10	Removing film grain; Adding simulated film grain	CPCONLY	G06T2207/20204		108
+G06T2207/20208	10	High dynamic range [HDR] image processing	CPCONLY	G06T2207/20208		2171
+G06T2207/20212	9	Image combination	CPCONLY	G06T2207/20212		1294
+G06T2207/20216	10	Image averaging	CPCONLY	G06T2207/20216		860
+G06T2207/20221	10	Image fusion; Image merging	CPCONLY	G06T2207/20221		19527
+G06T2207/20224	10	Image subtraction	CPCONLY	G06T2207/20224		2984
+G06T2207/20228	9	Disparity calculation for image-based rendering	CPCONLY	G06T2207/20228		1044
+G06T2207/30	8	Subject of image; Context of image processing	CPCONLY	G06T2207/30		58
+G06T2207/30004	9	Biomedical image processing	CPCONLY	G06T2207/30004		7492
+G06T2207/30008	10	Bone	CPCONLY	G06T2207/30008		3104
+G06T2207/30012	11	Spine; Backbone	CPCONLY	G06T2207/30012		1155
+G06T2207/30016	10	Brain	CPCONLY	G06T2207/30016		4172
+G06T2207/30021	10	Catheter; Guide wire	CPCONLY	G06T2207/30021		478
+G06T2207/30024	10	Cell structures in vitro; Tissue sections in vitro	CPCONLY	G06T2207/30024		3954
+G06T2207/30028	10	Colon; Small intestine	CPCONLY	G06T2207/30028		905
+G06T2207/30032	11	Colon polyp	CPCONLY	G06T2207/30032		300
+G06T2207/30036	10	Dental; Teeth	CPCONLY	G06T2207/30036		2435
+G06T2207/30041	10	Eye; Retina; Ophthalmic	CPCONLY	G06T2207/30041		4142
+G06T2207/30044	10	Fetus; Embryo	CPCONLY	G06T2207/30044		417
+G06T2207/30048	10	Heart; Cardiac	CPCONLY	G06T2207/30048		3194
+G06T2207/30052	10	Implant; Prosthesis	CPCONLY	G06T2207/30052		352
+G06T2207/30056	10	Liver; Hepatic	CPCONLY	G06T2207/30056		1225
+G06T2207/30061	10	Lung	CPCONLY	G06T2207/30061		2952
+G06T2207/30064	11	Lung nodule	CPCONLY	G06T2207/30064		862
+G06T2207/30068	10	Mammography; Breast	CPCONLY	G06T2207/30068		2120
+G06T2207/30072	10	Microarray; Biochip, DNA array; Well plate	CPCONLY	G06T2207/30072		474
+G06T2207/30076	10	Plethysmography	CPCONLY	G06T2207/30076		176
+G06T2207/30081	10	Prostate	CPCONLY	G06T2207/30081		435
+G06T2207/30084	10	Kidney; Renal	CPCONLY	G06T2207/30084		426
+G06T2207/30088	10	Skin; Dermal	CPCONLY	G06T2207/30088		1815
+G06T2207/30092	10	Stomach; Gastric	CPCONLY	G06T2207/30092		665
+G06T2207/30096	10	Tumor; Lesion	CPCONLY	G06T2207/30096		7585
+G06T2207/30101	10	Blood vessel; Artery; Vein; Vascular	CPCONLY	G06T2207/30101		6249
+G06T2207/30104	11	Vascular flow; Blood flow; Perfusion	CPCONLY	G06T2207/30104		1526
+G06T2207/30108	9	Industrial image inspection	CPCONLY	G06T2207/30108		8189
+G06T2207/30112	10	Baggage; Luggage; Suitcase	CPCONLY	G06T2207/30112		252
+G06T2207/30116	10	Casting	CPCONLY	G06T2207/30116		239
+G06T2207/30121	10	CRT, LCD or plasma display	CPCONLY	G06T2207/30121		1099
+G06T2207/30124	10	Fabrics; Textile; Paper	CPCONLY	G06T2207/30124		1952
+G06T2207/30128	10	Food products	CPCONLY	G06T2207/30128		1132
+G06T2207/30132	10	Masonry; Concrete	CPCONLY	G06T2207/30132		1697
+G06T2207/30136	10	Metal	CPCONLY	G06T2207/30136		2190
+G06T2207/30141	10	Printed circuit board [PCB]	CPCONLY	G06T2207/30141		2015
+G06T2207/30144	10	Printing quality	CPCONLY	G06T2207/30144		1191
+G06T2207/30148	10	Semiconductor; IC; Wafer	CPCONLY	G06T2207/30148		5484
+G06T2207/30152	10	Solder	CPCONLY	G06T2207/30152		1384
+G06T2207/30156	10	Vehicle coating	CPCONLY	G06T2207/30156		269
+G06T2207/30161	10	Wood; Lumber	CPCONLY	G06T2207/30161		380
+G06T2207/30164	10	Workpiece; Machine component	CPCONLY	G06T2207/30164		7083
+G06T2207/30168	9	Image quality inspection	CPCONLY	G06T2207/30168		8275
+G06T2207/30172	9	Centreline of tubular or elongated structure	CPCONLY	G06T2207/30172		773
+G06T2207/30176	9	Document	CPCONLY	G06T2207/30176		1323
+G06T2207/30181	9	Earth observation	CPCONLY	G06T2207/30181		2257
+G06T2207/30184	10	Infrastructure	CPCONLY	G06T2207/30184		1702
+G06T2207/30188	10	Vegetation; Agriculture	CPCONLY	G06T2207/30188		3549
+G06T2207/30192	10	Weather; Meteorology	CPCONLY	G06T2207/30192		641
+G06T2207/30196	9	Human being; Person	CPCONLY	G06T2207/30196		10792
+G06T2207/30201	10	Face	CPCONLY	G06T2207/30201		10179
+G06T2207/30204	9	Marker	CPCONLY	G06T2207/30204		6044
+G06T2207/30208	10	Marker matrix	CPCONLY	G06T2207/30208		1230
+G06T2207/30212	9	Military	CPCONLY	G06T2207/30212		383
+G06T2207/30216	9	Redeye defect	CPCONLY	G06T2207/30216		184
+G06T2207/30221	9	Sports video; Sports image	CPCONLY	G06T2207/30221		903
+G06T2207/30224	10	Ball; Puck	CPCONLY	G06T2207/30224		508
+G06T2207/30228	10	Playing field	CPCONLY	G06T2207/30228		182
+G06T2207/30232	9	Surveillance	CPCONLY	G06T2207/30232		6358
+G06T2207/30236	9	Traffic on road, railway or crossing	CPCONLY	G06T2207/30236		1554
+G06T2207/30241	9	Trajectory	CPCONLY	G06T2207/30241		6306
+G06T2207/30242	9	Counting objects in image	CPCONLY	G06T2207/30242		3698
+G06T2207/30244	9	Camera pose	CPCONLY	G06T2207/30244		8017
+G06T2207/30248	9	Vehicle exterior or interior	CPCONLY	G06T2207/30248		1191
+G06T2207/30252	10	Vehicle exterior; Vicinity of vehicle	CPCONLY	G06T2207/30252		8647
+G06T2207/30256	11	Lane; Road marking	CPCONLY	G06T2207/30256		2504
+G06T2207/30261	11	Obstacle	CPCONLY	G06T2207/30261		2317
+G06T2207/30264	11	Parking	CPCONLY	G06T2207/30264		614
+G06T2207/30268	10	Vehicle interior	CPCONLY	G06T2207/30268		1021
+G06T2210/00	7	Indexing scheme for image generation or computer graphics	CPCONLY	G06T2210/00		9
+G06T2210/04	8	Architectural design, interior design	CPCONLY	G06T2210/04		2537
+G06T2210/08	8	Bandwidth reduction	CPCONLY	G06T2210/08		290
+G06T2210/12	8	Bounding box	CPCONLY	G06T2210/12		2218
+G06T2210/16	8	Cloth	CPCONLY	G06T2210/16		1076
+G06T2210/21	8	Collision detection, intersection	CPCONLY	G06T2210/21		1280
+G06T2210/22	8	Cropping	CPCONLY	G06T2210/22		495
+G06T2210/24	8	Fluid dynamics	CPCONLY	G06T2210/24		346
+G06T2210/28	8	Force feedback	CPCONLY	G06T2210/28		73
+G06T2210/32	8	Image data format	CPCONLY	G06T2210/32		546
+G06T2210/36	8	Level of detail	CPCONLY	G06T2210/36		932
+G06T2210/41	8	Medical	CPCONLY	G06T2210/41		5623
+G06T2210/44	8	Morphing	CPCONLY	G06T2210/44		525
+G06T2210/52	8	Parallel processing	CPCONLY	G06T2210/52		498
+G06T2210/56	8	Particle system, point based geometry or rendering	CPCONLY	G06T2210/56		1695
+G06T2210/61	8	Scene description	CPCONLY	G06T2210/61		878
+G06T2210/62	8	Semi-transparency	CPCONLY	G06T2210/62		654
+G06T2210/64	8	Weathering	CPCONLY	G06T2210/64		21
+G06T2211/00	7	Image generation	CPCONLY	G06T2211/00		13
+G06T2211/40	8	Computed tomography	CPCONLY	G06T2211/40		88
+G06T2211/404	9	Angiography	CPCONLY	G06T2211/404		298
+G06T2211/408	9	Dual energy	CPCONLY	G06T2211/408		416
+G06T2211/412	9	Dynamic	CPCONLY	G06T2211/412		596
+G06T2211/416	9	Exact reconstruction	CPCONLY	G06T2211/416		469
+G06T2211/421	9	Filtered back projection [FBP]	CPCONLY	G06T2211/421		670
+G06T2211/424	9	Iterative	CPCONLY	G06T2211/424		1148
+G06T2211/428	9	Real-time	CPCONLY	G06T2211/428		236
+G06T2211/432	9	Truncation	CPCONLY	G06T2211/432		197
+G06T2211/436	9	Limited angle	CPCONLY	G06T2211/436		422
+G06T2211/441	9	AI-based methods, deep learning or artificial neural networks	CPCONLY	G06T2211/441		522
+G06T2211/444	9	Low dose acquisition or reduction of radiation dose	CPCONLY	G06T2211/444		45
+G06T2211/448	9	involving metal artefacts, streaking artefacts, beam hardening or photon starvation	CPCONLY	G06T2211/448		81
+G06T2211/452	9	involving suppression of scattered radiation or scatter correction	CPCONLY	G06T2211/452		57
+G06T2211/456	9	Optical coherence tomography [OCT]	CPCONLY	G06T2211/456		32
+G06T2211/461	9	Phase contrast imaging or dark field imaging	CPCONLY	G06T2211/461		17
+G06T2211/464	9	Dual or multimodal imaging, i.e. combining two or more imaging modalities	CPCONLY	G06T2211/464		76
+G06T2213/00	7	Indexing scheme for animation	CPCONLY	G06T2213/00		16
+G06T2213/04	8	Animation description language	CPCONLY	G06T2213/04		76
+G06T2213/08	8	Animation software package	CPCONLY	G06T2213/08		207
+G06T2213/12	8	Rule based animation	CPCONLY	G06T2213/12		215
+G06T2215/00	7	Indexing scheme for image rendering	CPCONLY	G06T2215/00		18
+G06T2215/06	8	Curved planar reformation of 3D line structures	CPCONLY	G06T2215/06		191
+G06T2215/08	8	Gnomonic or central projection	CPCONLY	G06T2215/08		51
+G06T2215/12	8	Shadow map, environment map	CPCONLY	G06T2215/12		379
+G06T2215/16	8	Using real world measurements to influence rendering	CPCONLY	G06T2215/16		1208
+G06T2219/00	7	Indexing scheme for manipulating 3D models or images for computer graphics	CPCONLY	G06T2219/00		40
+G06T2219/004	8	Annotating, labelling	CPCONLY	G06T2219/004		1216
+G06T2219/008	8	Cut plane or projection plane definition	CPCONLY	G06T2219/008		567
+G06T2219/012	8	Dimensioning, tolerancing	CPCONLY	G06T2219/012		311
+G06T2219/016	8	Exploded view	CPCONLY	G06T2219/016		79
+G06T2219/021	8	Flattening	CPCONLY	G06T2219/021		169
+G06T2219/024	8	Multi-user, collaborative environment	CPCONLY	G06T2219/024		877
+G06T2219/028	8	Multiple view windows (top-side-front-sagittal-orthogonal)	CPCONLY	G06T2219/028		469
+G06T2219/20	8	Indexing scheme for editing of 3D models	CPCONLY	G06T2219/20		114
+G06T2219/2004	9	Aligning objects, relative positioning of parts	CPCONLY	G06T2219/2004		2447
+G06T2219/2008	9	Assembling, disassembling	CPCONLY	G06T2219/2008		769
+G06T2219/2012	9	Colour editing, changing, or manipulating; Use of colour codes	CPCONLY	G06T2219/2012		1948
+G06T2219/2016	9	Rotation, translation, scaling	CPCONLY	G06T2219/2016		3023
+G06T2219/2021	9	Shape modification	CPCONLY	G06T2219/2021		2498
+G06T2219/2024	9	Style variation	CPCONLY	G06T2219/2024		634

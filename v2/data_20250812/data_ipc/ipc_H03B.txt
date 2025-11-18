@@ -1,0 +1,71 @@
+H03B   1/00		細部	Details	3998
+H03B   1/02	・	電力発振器，例．加熱用発振器，の構造上の細部（電磁界による加熱のための発生器Ｈ０５Ｂ６／００）	Structural details of power oscillators, e.g. for heating(generators for heating by electromagnetic fields H05B6/00)	260
+H03B   1/04	・	不要発振，例．高調波，の低減	Reducing undesired oscillations, e.g. harmonics	791
+H03B   5/00		出力から入力への再生帰還による増幅器を用いた振動の発生（Ｈ０３Ｂ９／００，Ｈ０３Ｂ１５／００が優先）	Generation of oscillations using amplifier with regenerative feedback from output to input(H03B9/00, H03B15/00 take precedence)	918
+H03B   5/02	・	細部	Details	1283
+H03B   5/04	・・	物理的な値，例．電源，負荷，温度，の変化を補償するための発振器の変形	Modifications of generator to compensate for variations in physical values, e.g. power supply, load, temperature	3580
+H03B   5/06	・・	発振の起動を確実にするための発振器の変形（発生器の起動Ｈ０３Ｌ３／００）	Modifications of generator to ensure starting of oscillations(starting of generators H03L3/00)	679
+H03B   5/08	・	周波数決定素子が集中定数インダクタンスと集中定数キャパシタンスとからなるもの	with frequency-determining element comprising lumped inductance and capacitance	1516
+H03B   5/10	・・	増幅器の能動素子が真空管であるもの（Ｈ０３Ｂ５／１４が優先）	active element in amplifier being vacuum tube(H03B5/14 takes precedence)	988
+H03B   5/12	・・	増幅器の能動素子が半導体装置であるもの（Ｈ０３Ｂ５／１４，Ｈ０３Ｂ７／０６が優先）	active element in amplifier being semiconductor device(H03B5/14, H03B7/06 take precedence)	5906
+H03B   5/14	・・	周波数決定素子がブリッジ回路を経て信号が伝送される閉ループに結合されているもの	the frequency-determining element being connected <u>via</u> a bridge circuit to a closed loop in which the signal is transmitted	65
+H03B   5/16	・・・	増幅器の能動素子が真空管であるもの	active element in amplifier being vacuum tube	25
+H03B   5/18	・	周波数決定素子が分布定数インダクタンスと分布定数キャパシタンスとからなるもの	with frequency-determining element comprising distributed inductance and capacitance	4008
+H03B   5/20	・	周波数決定素子が抵抗とキャパシタンスまたはインダクタンスのいずれか一方とからなるもの，例．位相発振器	with frequency-determining element comprising resistance and either capacitance or inductance, e.g. phase-shift oscillator	961
+H03B   5/22	・・	増幅器の能動素子が真空管であるもの（Ｈ０３Ｂ５／２６が優先）	active element in amplifier being vacuum tube(H03B5/26 takes precedence)	156
+H03B   5/24	・・	増幅器の能動素子が半導体装置であるもの（Ｈ０３Ｂ５／２６が優先）	active element in amplifier being semiconductor device(H03B5/26 takes precedence)	946
+H03B   5/26	・・	周波数決定素子が，信号が伝送される閉ループ中のブリッジ回路の一部であるもの；周波数決定素子がブリッジ回路を経て，上記閉ループに結合されているもの，例．ウイーンブリッジ発振器，並列Ｔ型発振器	the frequency-determining element being part of a bridge circuit in a closed loop in which the signal is transmitted; the frequency-determining element being connected <u>via</u> a bridge circuit to such a closed loop, e.g. Wien-Bridge oscillator, parallel-T oscillator	369
+H03B   5/28	・・・	増幅器の能動素子が真空管であるもの	active element in amplifier being vacuum tube	48
+H03B   5/30	・	周波数決定素子が電気機械的振動子であるもの	with frequency-determining element being electromechanical resonator	2052
+H03B   5/32	・・	圧電気振動子であるもの	being a piezoelectric resonator	10795
+H03B   5/34	・・・	増幅器の能動素子が真空管であるもの（Ｈ０３Ｂ５／３８が優先）	active element in amplifier being vacuum tube(H03B5/38 takes precedence)	768
+H03B   5/36	・・・	増幅器の能動素子が半導体装置であるもの（Ｈ０３Ｂ５／３８が優先）	active element in amplifier being semiconductor device(H03B5/38 takes precedence)	2930
+H03B   5/38	・・・	周波数決定素子がブリッジ回路を経て信号が伝送される閉ループに結合されているもの	the frequency-determining element being connected <u>via</u> a bridge circuit to a closed loop in which the signal is transmitted	42
+H03B   5/40	・・	磁わい振動子であるもの（Ｈ０３Ｂ５／４２が優先）	being a magnetostrictive resonator(H03B5/42 takes precedence)	132
+H03B   5/42	・・	周波数決定素子がブリッジ回路を経て，信号が伝送される閉ループに結合されているもの	the frequency-determining element being connected <u>via</u> a bridge circuit to a closed loop in which the signal is transmitted	14
+H03B   7/00		２つの電極間に負性抵抗をもつ能動素子を用いた振動の発生（Ｈ０３Ｂ９／００が優先）	Generation of oscillations using active element having a negative resistance between two of its electrodes(H03B9/00 takes precedence)	175
+H03B   7/02	・	集中定数インダクタンスと集中定数キャパシタンスとからなる周波数決定素子を有するもの	with frequency-determining element comprising lumped inductance and capacitance	52
+H03B   7/04	・・	能動素子が真空管であるもの	active element being vacuum tube	107
+H03B   7/06	・・	能動素子が半導体装置であるもの	active element being semiconductor device	330
+H03B   7/08	・・・	トンネルダイオードであるもの	being a tunnel diode	275
+H03B   7/10	・・	能動素子がガス放電管またはアーク放電管であるもの	active element being gas-discharge or arc-discharge tube	94
+H03B   7/12	・	分布定数インダクタンスと分布定数キャパシタンスとからなる周波数決定素子を有するもの	with frequency-determining element comprising distributed inductance and capacitance	71
+H03B   7/14	・・	能動素子が半導体装置であるもの	active element being semiconductor device	546
+H03B   9/00		走行時間効果を用いた振動の発生［２］	Generation of oscillations using transit-time effects	83
+H03B   9/01	・	電子管を用いるもの［２］	using discharge tubes	215
+H03B   9/02	・・	遅延電磁界電子管を用いるもの（クライストロンを用いるものＨ０３Ｂ９／０４）［２］	using a retarding-field tube(using klystrons H03B9/04)	58
+H03B   9/04	・・	クライストロンを用いるもの［２］	using a klystron	48
+H03B   9/06	・・・	反射型クライストロンを用いるもの［２］	using a reflex klystron	12
+H03B   9/08	・・	進行波管を用いるもの［２］	using a travelling-wave tube	44
+H03B   9/10	・・	マグネトロンを用いるもの［２］	using a magnetron	1121
+H03B   9/12	・	固体装置を用いるもの，例．ガン効果装置［２］	using solid state devices, e.g. Gunn-effect devices	1431
+H03B   9/14	・・	分布インダクタンスとキャパシタンスとを構成する素子をも用いるもの［３］	and elements comprising distributed inductance and capacitance	966
+H03B  11/00		衝動励振同調回路を用いた振動の発生（帰還をもつものＨ０３Ｂ５／００）	Generation of oscillations using a shock-excited tuned circuit(with feedback H03B5/00)	121
+H03B  11/02	・	スパークにより励振されるもの	excited by spark	318
+H03B  11/04	・	断続器により励振されるもの	excited by interrupter	21
+H03B  11/06	・・	機械的断続器によるもの	by mechanical interrupter	122
+H03B  11/08	・・	断続器が電子管であるもの	interrupter being discharge tube	173
+H03B  11/10	・・	断続器が半導体装置であるもの	interrupter being semiconductor device	140
+H03B  13/00		陰極線管中の電子ビームの偏向を用いた振動の発生	Generation of oscillations using deflection of electron beam in a cathode-ray tube	161
+H03B  15/00		電流磁気効果装置，例．ホール効果装置，スピントランスファー効果を用いた装置，巨大磁気抵抗を用いた装置，または超伝導効果を用いた振動の発生	Generation of oscillations using galvano-magnetic devices, e.g. Hall-effect devices, devices using spin transfer effects, devices using giant magnetoresistance, or using super-conductivity effects	489
+H03B  17/00		放射源と検出器とを用いた振動の発生	Generation of oscillations using a radiation source and a detector	395
+H03B  19/00		別個の発生源からの信号周波数の非再生的，逓倍または逓降による振動の発生	Generation of oscillations by non-regenerative frequency multiplication or division of a signal from a separate source	2358
+H03B  19/03	・	非線形インダクタンスを用いるもの［３］	using non-linear inductance	500
+H03B  19/05	・	非線形キャパシタンス，例．バラクタダイオード，を用いるもの［３］	using non-linear capacitance, e.g. varactor diodes	201
+H03B  19/06	・	２以上の電極をもつ電子管または半導体装置によるもの	by means of discharge device or semiconductor device with more than two electrodes	114
+H03B  19/08	・・	電子管によるもの	by means of a discharge device	37
+H03B  19/10	・・・	逓倍のみを用いるもの	using multiplication only	540
+H03B  19/12	・・・	逓降のみを用いるもの	using division only	273
+H03B  19/14	・・	半導体装置によるもの	by means of a semiconductor device	1219
+H03B  19/16	・	無制御の整流装置を用いるもの，例．整流ダイオードまたはショットキーダイオードを用いるもの［３］	using uncontrolled rectifying devices, e.g. rectifying diodes or Schottky diodes	356
+H03B  19/18	・・	分布インダクタンスとキャパシタンスとを構成する素子をも用いるもの［３］	and elements comprising distributed inductance and capacitance	277
+H03B  19/20	・・	ダイオードが電荷蓄積またはエンハンスメント効果を示すもの［３］	being diodes exhibiting charge storage or enhancement effects	33
+H03B  21/00		相異なる周波数の非変調信号を結合することによる振動の発生（Ｈ０３Ｂ１９／００が優先）［３］	Generation of oscillations by combining unmodulated signals of different frequencies(H03B19/00 takes precedence)	887
+H03B  21/01	・	相異なる周波数の非変調信号間のビートによるもの［３］	by beating unmodulated signals of different frequencies	239
+H03B  21/02	・・	複数回のビートによるもの，例．周波数合成用［３］	by plural beating, i.e. for frequency synthesis	779
+H03B  21/04	・・	いくつかの似かよった段を用いるもの［３］	using several similar stages	119
+H03B  23/00		所定周波数範囲を周期的に掃引する振動の発生	Generation of oscillations periodically swept over a predetermined frequency range	876
+H03B  25/00		１個の自励発振器による，相異なる複数個の周波数の同時発生	Simultaneous generation by a free-running oscillator of oscillations having different frequencies	248
+H03B  27/00		単なる逆相関係の２出力ではなくて，周波数等しく位相相異なる複数個の出力を与える振動の発生	Generation of oscillations providing a plurality of outputs of the same frequency but differing in phase, other than merely two anti-phase outputs	973
+H03B  28/00		正弦波振動を発生するために波形の変形を含み，かつ，波形の修正による正弦波状振動の発生を含み，グループＨ０３Ｂ５／００〜Ｈ０３Ｂ２７／００に包含されない方法による振動の発生（計算動作を行うためのアナログ関数発生器Ｇ０６Ｇ７／２６）［４］	Generation of oscillations by methods not covered by groups H03B5/00 to H03B27/00 , including modification of the waveform to produce sinusoidal oscillations(analogue function generators for performing computing operations G06G7/26)	2028
+H03B  29/00		雑音電流および雑音電圧の発生（雑音発生器として特別に適合する固体陰極をもつガス入り電子管Ｈ０１Ｊ１７／００）	Generation of noise currents and voltages(gas-filled discharge tubes with solid cathode specially adapted as noise generators H01J17/00)	1625

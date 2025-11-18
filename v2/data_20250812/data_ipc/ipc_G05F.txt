@@ -1,0 +1,83 @@
+G05F   1/00		電気量の単一または複数の所望値からの偏差を系の出力部で検出し，系内の装置へフィードバックし，これにより検出量を単一または複数の所望値へ復元する自動制御系，すなわち反作用系	Automatic systems in which deviations of an electric quantity from one or more predetermined values are detected at the output of the system and fed back to a device within the system to restore the detected quantity to its predetermined value or values, i.e. retroactive systems	7712
+G05F   1/02	・	アークの電気的特性の調整［２００６．０１］	Regulating electric characteristics of arcs	323
+G05F   1/04	・・	可飽和磁気装置によるもの	by means of saturable magnetic devices	36
+G05F   1/06	・・	電子管装置によるもの	by means of discharge tubes	20
+G05F   1/08	・・	半導体装置によるもの	by means of semiconductor devices	188
+G05F   1/10	・	電圧または電流の調整（Ｇ０５Ｆ１／０２が優先）［２００６．０１］	Regulating voltage or current(G05F1/02 takes precedence)	17212
+G05F   1/12	・・	最終制御装置により実際に調整される変量が交流であるもの（Ｇ０５Ｆ１／６２５が優先）［４］	wherein the variable is actually regulated by the final control device is AC(G05F1/625 takes precedence)	1471
+G05F   1/13	・・・	最終制御装置として鉄共振変成器を使用するもの［４］	using ferroresonant transformers as final control devices	215
+G05F   1/14	・・・	最終制御装置としてタップ付変圧器またはタップ切換インダクタを使用するもの［４］	using tap transformers or tap changing inductors as final control devices	1620
+G05F   1/147	・・・・	電動機駆動タップスイッチを有するもの［４］	with motor driven tap switch	266
+G05F   1/153	・・・・・	放電管または半導体装置によって制御されるもの［４］	controlled by discharge tubes or semiconductor devices	118
+G05F   1/16	・・・・	電子管または半導体装置と組み合わされたもの	combined with discharge tubes or semiconductor devices	170
+G05F   1/20	・・・・・	半導体装置のみ	semiconductor devices only	926
+G05F   1/22	・・・・	飽和度の制御可能な磁気制御装置と組み合わされたもの	combined with separate magnetic control devices having a controllable degree of saturation	143
+G05F   1/24	・・・	最終制御装置として降圧または昇圧変圧器を用いるもの	using bucking or boosting transformers as final control devices	892
+G05F   1/247	・・・・	制御回路において電動機を有するもの［４］	with motor in control circuit	187
+G05F   1/253	・・・・	電源と負荷との間に直列の複数の巻線を含む変圧器（Ｇ０５Ｆ１／２４７が優先）［４］	the transformers including plural windings in series between source and load(G05F1/247 takes precedence)	79
+G05F   1/26	・・・・	電子管または半導体装置と組み合わされたもの	combined with discharge tubes or semiconductor devices	126
+G05F   1/30	・・・・・	半導体装置のみ	semiconductor devices only	426
+G05F   1/32	・・・	最終制御装置として飽和度の制御可能な磁気装置をもつもの	using magnetic devices having a controllable degree of saturation as final control devices	939
+G05F   1/325	・・・・	特定コア構造を有するもの，例．ギャップ，開口，スロット，永久磁石［４］	with specific core structure, e.g. gap, aperture, slot, permanent magnet	109
+G05F   1/33	・・・・	制御電流が通過する複線の巻線を有するもの［４］	with plural windings through which current to be controlled is conducted	265
+G05F   1/335	・・・・・	異なるコアにおけるもの［４］	on different cores	28
+G05F   1/34	・・・・	電子管または半導体装置と組み合わされたもの	combined with discharge tubes or semiconductor devices	284
+G05F   1/38	・・・・・	半導体装置のみ	semiconductor devices only	374
+G05F   1/40	・・・	最終装置として電子管または半導体装置を用いたもの	using discharge tubes or semiconductor devices as final control devices	1680
+G05F   1/42	・・・・	電子管のみ	discharge tubes only	302
+G05F   1/44	・・・・	半導体装置のみ	semiconductor devices only	2295
+G05F   1/445	・・・・・	負荷と直列にトランジスタのあるもの［３］	being transistors in series with the load	546
+G05F   1/45	・・・・・	負荷と直列に制御整流器のあるもの［３］	being controlled rectifiers in series with the load	1159
+G05F   1/455	・・・・・・	位相制御をもつもの［３］	with phase control	1854
+G05F   1/46	・・	最終制御装置により実際に調整される変量が直流であるもの（Ｇ０５Ｆ１／６２５が優先）［４］	wherein the variable actually regulated by the final control device is DC(G05F1/625 takes precedence)	7274
+G05F   1/52	・・・	最終制御装置として負荷と直列の放電管を使用するもの	using discharge tubes in series with the load as final control devices	887
+G05F   1/54	・・・・	非調整電源によって付加的に制御されるもの	additionally controlled by the unregulated supply	15
+G05F   1/56	・・・	最終制御装置として負荷と直列の半導体装置を使用するもの	using semiconductor devices in series with the load as final control devices	25848
+G05F   1/563	・・・・	２段の調整を含むもので，２段のうち少なくとも１段は出力レベルに応答するもの，例．粗および微調整［４］	including two stages of regulation, at least one of which is output level responsive, e.g. coarse and fine regulation	728
+G05F   1/565	・・・・	出力，例．電流，電圧，力率，の偏差に応答する手段に加えて，制御装置または負荷の状態の検知を行うもの（Ｇ０５Ｆ１／５６３が優先）［４］	sensing a condition of the system or its load in addition to means responsive to deviations in the output of the system, e.g. current, voltage, power factor(G05F1/563 takes precedence)	2287
+G05F   1/567	・・・・・	温度補償のためのもの［４］	for temperature compensation	2451
+G05F   1/569	・・・・・	保護のためのもの［４］	for protection	2120
+G05F   1/571	・・・・・・	過電圧検出器を持つもの［４］	with overvoltage detector	592
+G05F   1/573	・・・・・・	過電流検出器を持つもの［４］	with overcurrent detector	1547
+G05F   1/575	・・・・	フイードバック回路によって特徴づけられたもの［４］	characterised by the feedback circuit	2878
+G05F   1/577	・・・・	複数の負荷のためのもの［４］	for plural loads	666
+G05F   1/585	・・・・・	反対極性の電圧を与えるもの［４］	providing voltages of opposite polarities	332
+G05F   1/59	・・・・	単一負荷のための最終制御装置として複数の半導体装置を含むもの［４］	including plural semiconductor devices as final control devices for a single load	862
+G05F   1/595	・・・・・	半導体装置が直列に結合されたもの［４］	semiconductor devices connected in series	258
+G05F   1/607	・・・	最終制御装置として負荷と並列の放電管を使用するもの［３］	using discharge tubes in parallel with the load as final control devices	103
+G05F   1/61	・・・・	２段の調整を含むもので，２段のうち少なくとも１段は出力レベルに応答するもの［４］	including two stages of regulation, at least one of which is output level responsive	24
+G05F   1/613	・・・	最終制御装置として負荷と並列の半導体装置を使用するもの［３］	using semiconductor devices in parallel with the load as final control devices	1327
+G05F   1/614	・・・・	２段の調整を含むもので，２段のうち少なくとも１段は出力レベルに応答するもの［４］	including two stages of regulation, at least one of which is output level responsive	69
+G05F   1/618	・・・	最終制御装置として負荷と直列および並列の半導体装置を使用するもの［４］	using semiconductor devices in series and in parallel with the load as final control devices	889
+G05F   1/62	・・・	降圧または昇圧直流電源を用いるもの	using bucking or boosting DC sources	529
+G05F   1/625	・・	実際に調整される変量が交流または直流に無関係なもの［４］	wherein it is irrelevant whether the variable actually regulated is AC or DC	1120
+G05F   1/63	・・・	最終制御装置として負荷と直列の可変インピーダンスを使用するもの［４］	using variable impedances in series with the load as final control devices	100
+G05F   1/635	・・・・	ホール効果素子，磁気抵抗またはサーミスタを使うもの［４］	being Hall effect devices, magnetoresistors or thermistors	33
+G05F   1/644	・・・・	圧力感知抵抗器を使用するもの［４］	being pressure-sensitive resistors	23
+G05F   1/648	・・・・	選択可能な複数の抵抗器を使用するもの［４］	being plural resistors among which a selection is made	96
+G05F   1/652	・・・	最終制御装置として負荷と並列の可変インピーダンスを使用するもの［４］	using variable impedances in parallel with the load as final control devices	179
+G05F   1/656	・・・	最終制御装置として負荷と直列および並列の可変インピーダンスを使用するもの［４］	using variable impedances in series and in parallel with the load as final control devices	150
+G05F   1/66	・	電力の調整	Regulating electric power	4104
+G05F   1/67	・・	発電機から，例．太陽電池から，電力を最大利用するもの［４］	to the maximum power available from a generator, e.g. from solar cell	5752
+G05F   1/70	・	力率の調整；無効電流または無効電力の調整［３］	Regulating power factor; Regulating reactive current or power	4634
+G05F   3/00		自己調整特性を有する一つの非制御素子，または複数の素子から成る組合せであって自己調整特性を有するものによって，電気的変量を調整する非反作用系	Non-retroactive systems for regulating electric variables by using an uncontrolled element, or an uncontrolled combination of elements, such element or such combination having self-regulating properties	466
+G05F   3/02	・	電流または電圧の調整	Regulating voltage or current	2872
+G05F   3/04	・・	交流のもの	wherein the variable is AC	671
+G05F   3/06	・・・	飽和および非飽和のインダクタ装置を組み合わせて使用するもの，例．共振回路と組み合わされているもの	using combinations of saturated and unsaturated inductive devices, e g. combined with resonant circuit	1030
+G05F   3/08	・・	直流のもの	wherein the variable is DC	1121
+G05F   3/10	・・・	非線形特性を有する非制御素子を使用するもの［４］	using uncontrolled devices with non-linear characteristics	198
+G05F   3/12	・・・・	グロー放電管のあるもの	being glow discharge tubes	108
+G05F   3/16	・・・・	半導体装置であるもの［３］	being semiconductor devices	1959
+G05F   3/18	・・・・・	ツエナダイオードを用いるもの［３］	using Zener diodes	881
+G05F   3/20	・・・・・	ダイオードトランジスタの組合せを用いるもの（Ｇ０５Ｆ３／１８が優先）［３］	using diode-transistor combinations(G05F3/18 takes precedence)	1299
+G05F   3/22	・・・・・・	トランジスタはバイポーラ型のみであるもの（Ｇ０５Ｆ３／２６，Ｇ０５Ｆ３／３０が優先）［４］	wherein the transistors are of the bipolar type only(G05F3/26, G05F3/30 take precedence)	1144
+G05F   3/24	・・・・・・	トランジスタは電界効果型のみであるもの（Ｇ０５Ｆ３／２６，Ｇ０５Ｆ３／３０が優先）［４］	wherein the transistors are of the field-effect type only(G05F3/26, G05F3/30 take precedence)	3498
+G05F   3/26	・・・・・・	カレントミラー［４］	Current mirrors	5284
+G05F   3/28	・・・・・・・	非線形電流増幅器と組み合わされたもの［４］	combined with a non-linear current amplifier	98
+G05F   3/30	・・・・・・	異なる電流密度で働く２つのバイポーラトランジスタのベース・エミッタ電圧間の差を用いる調整器（Ｇ０５Ｆ３／２６が優先）［４］	Regulators using the difference between the base-emitter voltages of two bipolar transistors operating at different current densities(G05F3/26 takes precedence)	2072
+G05F   5/00		系の電気入力部において偏差検出を行ない，そして調整出力を得るように系内の装置を制御する電気的変量の調整系	Systems for regulating electric variables by detecting deviations in the electric input to the system and thereby controlling a device within the system to obtain a regulated output	2034
+G05F   5/02	・	電子管または３端子以上の半導体素子を使用する位相制御型スイッチング方式［４］	Phase controlled switching using electronic tubes or three or more terminal semiconductive devices	107
+G05F   5/04	・	最終制御装置として変圧器またはインダクタを使用するもの［４］	using a transformer or inductor as the final control device	76
+G05F   5/06	・・	可飽和であるもの［４］	saturable	13
+G05F   5/08	・	線形作動最終制御装置を使用するもの［４］	using a linearly acting final control device	57
+G05F   7/00		磁気的変量の調整［２００６．０１］	Regulating magnetic variables	515

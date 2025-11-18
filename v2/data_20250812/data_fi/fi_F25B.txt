@@ -1,0 +1,979 @@
+F25B   1/00  \	0	0	3L090	F25B   1/00	106	不可逆サイクルによる圧縮式機械，プラントまたはシステム（Ｆ２５Ｂ３／００，Ｆ２５Ｂ５／００，Ｆ２５Ｂ６／００，Ｆ２５Ｂ７／００，Ｆ２５Ｂ９／００が優先）［５］	Compression machines, plant or systems with non-reversible cycle (F25B 3/00, F25B 5/00, F25B 6/00, F25B 7/00, F25B 9/00 take precedence) [5]
+F25B   1/00  A	0	0	3L090	F25B   1/00	87	数個の凝縮器回路と数個の蒸発器回路とを併せもつもの	with both several condenser circuits and several evaporator circuits
+F25B   1/00  B	0	0	3L090	F25B   1/00	221	圧縮機，凝縮器，蒸発器および気液分離器の二以上のものの間の配置，例．高低差をもたせた配置，に特徴があるもの〔蒸発器，凝縮器への気液分離器の配置３９／００Ｎ，３９／０２Ｕ，３９／０４Ｓ；圧縮機への気液分離器の配置４３／００〕	arrangement between at least two compressors, condensers, evaporators, and vapor-liquid separators, e.g. characterized by arrangement with level differences (arrangement of vapor-liquid separators to evaporators and condensers 39/00N, 39/02U, 39/04S; arrangement of vapor-liquid separators to compressors 43/00)
+F25B   1/00  D	0	0	3L090	F25B   1/00	233	ユニツト化に特徴があるもの	Characterized by unitization
+F25B   1/00  Y	0	0	3L090	F25B   1/00	24	冷媒中に微粉末を混入したもの	refrigerants with fine powder mixed
+F25B   1/00  Z	0	0	3L090	F25B   1/00	421	その他のもの	Others
+F25B   1/00 101 \	1	1	3L090	F25B   1/00	13	バイパス回路をもつもの（６／００，６／０２，６／０４，１／０５３，３１１，３３１，３５１，３８７，３８９，３９１優先）	with bypass circuits (6/00, 6/02, 6/04, 1/05, 3, 311, 331, 351, 387, and 391 take precedence)
+F25B   1/00 101 D	1	0	3L090	F25B   1/00	427	蒸発器をバイパスするもの	bypassing evaporators
+F25B   1/00 101 E	1	0	3L090	F25B   1/00	942	蒸発器と減圧器，例．膨張弁またはキヤピラリチユ−ブ，とをバイパスするもの〔膨張弁またはキヤピラリチユ−ブのみをバイパスするもの３０４〕	evaporators and pressure reducers, e.g. bypassing expansion valves or capillary tubes (bypassing only expansion valves or capillary tubes 304)
+F25B   1/00 101 F	1	0	3L090	F25B   1/00	562	圧縮機をバイパスするもの	bypassing compressors
+F25B   1/00 101 G	1	0	3L090	F25B   1/00	516	凝縮器をバイパスするもの，例．凝縮回路の一部をバイパスするもの	bypassing condensers, e.g. bypassing a part of the condensation circuit
+F25B   1/00 101 H	1	0	3L090	F25B   1/00	765	凝縮器と減圧器，例．膨張弁またはキヤピラリチユ−ブ，とをバイパスするもの	condensers and pressure reducers, e.g. bypassing expansion valves or capillary tubes
+F25B   1/00 101 J	1	0	3L090	F25B   1/00	348	複数のバイパス回路をもつもの	with a plurality of bypass circuits
+F25B   1/00 101 Z	1	0	3L090	F25B   1/00	645	その他のもの	Others
+F25B   1/00 303 \	1	1	3L090	F25B   1/00	262	除湿サイクルに特徴があるもの（６／００，６／０２，６／０４，１／０５３優先，再熱器をもつもの２９／００　３９１）	characterized by the dehumidification cycle (6/00, 6/02, 6/04, and 1/053 take precedence, with reheaters 29/00, 391)
+F25B   1/00 304 \	1	1	3L090	F25B   1/00	13	流量制御手段に特徴があるもの，例．膨張弁の制御または圧縮機吸入量の制御（６／００，６／０２，６／０４，１／０５３，３５１優先，膨張弁自体４１／０６）	characterized by the flow rate control means, e.g. expansion valve control or compressor intake amount control (6/00, 6/02, 6/04, 1/053, and 351 take precedence, expansion valve 41.06)
+F25B   1/00 304 A	1	0	3L090	F25B   1/00	186	凝縮器と蒸発器との間に設けた減圧器，例．膨張弁またはキヤピラリチユ−ブ，によるもの	pressure reducers mounted between condensers and evaporators, e.g. by expansion valves or capillary tubes
+F25B   1/00 304 B	1	1	3L090	F25B   1/00	170	流路断面積が固定のもの，例．キヤピラリチユ−ブ	flow path sectional area fixed, e.g. capillary tubes
+F25B   1/00 304 C	1	2	3L090	F25B   1/00	117	冷媒とキヤピラリチユ−ブ内の冷媒とが熱交換するもの	refrigerants and refrigerants in capillary tubes exchanging heat
+F25B   1/00 304 D	1	1	3L090	F25B   1/00	322	流路断面積が可変のもの，例．弁の開閉によりキヤピラリチユ−ブを選択するものまたは膨張弁〔流路断面積が固定のものと可変のものとの両方をもつものＡ〕	flow path sectional area variable, e.g. capillary tubes selected by opening or closing the valve or expansion valves (with both flow path sectional areas fixed and variable A)
+F25B   1/00 304 E	1	2	3L090	F25B   1/00	159	電動機，圧縮機，潤滑油または電源の状態により流路断面積を変えるもの，例．圧縮機の温度によるもの〔Ｆ優先〕	flow path sectional area variable depending on the motor, compressor, lubricant, or power state, e.g. depending on compressor temperature (F takes precedence)
+F25B   1/00 304 F	1	2	3L090	F25B   1/00	546	圧縮機の能力制御と流量制御との組合せに特徴があるもの，例．圧縮機の回転数により膨張弁の開度を変えるもの	characterized by combination of compressor capacity control and flow rate control, e.g. the aperture of the expansion valve variable depending on the number of revolutions of the compressor
+F25B   1/00 304 G	1	2	3L090	F25B   1/00	248	冷媒の状態のみにより流路断面積を変えるもの	flow path sectional area changed only by the refrigerant state
+F25B   1/00 304 H	1	3	3L090	F25B   1/00	677	温度または圧力のみによるもの	only by temperature or pressure
+F25B   1/00 304 J	1	4	3L090	F25B   1/00	53	キヤピラリチユ−ブまたは開度固定の膨張弁を用いたもの〔Ｐ，Ｑ，Ｒが優先〕	using capillary tubes or expansion valves with the aperture fixed (P. Q, and R take precedence)
+F25B   1/00 304 K	1	4	3L090	F25B   1/00	173	感温筒をもつ温度式膨張弁を用いたもの〔Ｐ，Ｑ，Ｒが優先〕	using temperature expansion valves having temperature sensitive cylinders (P, Q, and R take precedence)
+F25B   1/00 304 L	1	4	3L090	F25B   1/00	775	電動式膨張弁，熱電式膨張弁を用いたもの〔Ｐ，Ｑ，Ｒが優先〕	using motor expansion valves and thermoelectric expansion valves (P, Q, and R take precedence)
+F25B   1/00 304 P	1	4	3L090	F25B   1/00	653	高圧側の温度または圧力のみによるもの〔Ｒが優先〕	by temperature or pressure on the high pressure side (R takes precedence)
+F25B   1/00 304 Q	1	4	3L090	F25B   1/00	432	高圧側および低圧側の温度または圧力のみによるもの，例．圧力差により膨張弁の開度を変えるもの，感温膨張弁の均圧管を高圧側または低圧側に切換えるもの〔Ｒが優先〕	only by temperature or pressure on the high pressure side and low pressure side, e.g. the aperture of the expansion valve being varied by the pressure difference, the equalizing tube of the temperature sensitive expansion valve being switched to the high pressure side or low pressure side (R takes precedence)
+F25B   1/00 304 R	1	4	3L090	F25B   1/00	188	冷媒間の熱交換部，バイパス管または気液分離器に接続したガス導出管および液導出管の一方の導出管の温度または圧力によるもの	by temperature or pressure of one derivation tube of the gas derivation tube and liquid derivation tube connected to the heat exchange unit between refrigerants, bypass tube, or vapor-liquid separator
+F25B   1/00 304 S	1	2	3L090	F25B   1/00	333	被加熱冷却物の温度のみにより流路断面積を変えるもの，例．室温または外気温	flow path sectional area being changed only by the temperature of heated and cooled articles, e.g. room temperature or air temperature
+F25B   1/00 304 T	1	2	3L090	F25B   1/00	311	冷媒の状態と被加熱冷却物の温度との組合せのみにより流路断面積を変えるもの	flow path sectional area being changed only by a combination of the refrigerant state and the temperature of heated and cooled articles
+F25B   1/00 304 W	1	0	3L090	F25B   1/00	357	蒸発器と圧縮機との間に設けた流量制御手段によるもの	by the flow rate control means mounted between the evaporator and compressor
+F25B   1/00 304 Z	1	0	3L090	F25B   1/00	444	その他のもの	Others
+F25B   1/00 311 \	1	1	3L090	F25B   1/00	4	インジエクシヨン手段に特徴があるもの，例．多効サイクル（６／００，６／０２，６／０４，１／０５３優先）	characterized by the injection means, e.g. multi-effect cycle (6/00, 6/02, 6/04, and 1/053 take precedence)
+F25B   1/00 311 A	1	0	3L090	F25B   1/00	142	気液分離したガス冷媒をインジエクシヨン回路に導入するもの，および液冷媒または気液混合冷媒をインジエクシヨン回路に導入するもの〔Ｄが優先〕	gas refrigerant subjected to vapor-liquid separation being  introduced into the injection circuit and liquid refrigerant or vapor and liquid mixed refrigerant being introduced into the injection circuit (D takes precedence)
+F25B   1/00 311 B	1	1	3L090	F25B   1/00	595	気液分離したガス冷媒をインジエクシヨン回路に導入するもの，例．ガスインジエクシヨン	gas refrigerant subjected to vapor-liquid separation being  introduced into the injection circuit, e.g. gas injection
+F25B   1/00 311 C	1	1	3L090	F25B   1/00	728	液冷媒または気液混合冷媒をインジエクシヨン回路に導入するもの，例．液インジエクシヨン	gas refrigerant subjected to vapor-liquid separation being  introduced into the injection circuit, e.g. liquid injection
+F25B   1/00 311 D	1	0	3L090	F25B   1/00	138	気液分離したガス冷媒をインジエクシヨン回路に導入するものと，または液冷媒または気液混合冷媒をインジエクシヨン回路に導入するものと圧縮機の能力制御手段との組合せに特徴があるもの	Characterized by a combination of gas refrigerant subjected to vapor-liquid separation being  introduced into the injection circuit or liquid refrigerant or vapor and liquid mixed refrigerant being introduced into the injection circuit and the compressor capacity control means
+F25B   1/00 311 E	1	1	3L090	F25B   1/00	77	気液分離したガス冷媒をインジエクシヨン回路に導入するもの	gas refrigerant subjected to vapor-liquid separation being  introduced into the injection circuit
+F25B   1/00 311 Z	1	0	3L090	F25B   1/00	172	その他のもの	Others
+F25B   1/00 321 \	1	1	3L090	F25B   1/00	24	補助加熱冷却手段に特徴のあるもの（３１１，３５１優先）	characterized by the auxiliary heating cooling means (311 and 351 take precedence)
+F25B   1/00 321 A	1	0	3L090	F25B   1/00	648	冷媒を冷却するもの，例．過冷却するもの〔Ｃ，Ｈが優先；過冷却器自体４０／０２〕	cooling refrigerants, e.g. overcooling (C and H take precedence; overcooling device 40/02)
+F25B   1/00 321 B	1	0	3L090	F25B   1/00	864	冷媒を加熱するもの，例．ス−パヒ−トするもの〔Ｃ，Ｈが優先；ス−パヒ−タ自体４０／０６；液体冷媒の残滓を蒸発させる装置自体４３／００〕	heating refrigerants, e.g. super heating (C and H take precedence; super heater 40/60; devices for evaporating residue of liquid refrigerants 43/00)
+F25B   1/00 321 C	1	0	3L090	F25B   1/00	654	蓄熱器により冷媒を加熱または冷却するもの	heating or cooling refrigerants by heat storage devices
+F25B   1/00 321 H	1	0	3L090	F25B   1/00	69	圧縮機，電動機，潤滑油または制御機器を加熱または冷却するもの	heating or cooling the compressor, motor, lubricant, or control device
+F25B   1/00 321 J	1	1	3L090	F25B   1/00	352	加熱するもの	heating
+F25B   1/00 321 K	1	1	3L090	F25B   1/00	279	冷却するもの	cooling
+F25B   1/00 321 L	1	2	3L090	F25B   1/00	471	冷媒を用いて冷却するもの，例．半導体素子を冷却するもの；冷媒と熱交換した別の冷媒を用いて，例．ヒ−トパイプを用いて，冷却するもの	cooling using refrigerants, e.g. cooling semiconductor elements; using another refrigerant which is heat-exchanged with the refrigerant, e.g. cooling using heat pipes
+F25B   1/00 321 M	1	3	3L090	F25B   1/00	173	圧縮機，電動機または潤滑油を冷却するもの	cooling the compressor, motor, or lubricant
+F25B   1/00 321 N	1	4	3L090	F25B   1/00	133	冷媒を電動機室内に導入して電動機を冷却するもの〔Ｑが優先〕	introducing refrigerants into the motor chamber and cooling the motor (Q takes precedence)
+F25B   1/00 321 P	1	5	3L090	F25B   1/00	62	吐出ガス冷媒を冷却し、電動機室内に導入して電動機を冷却した後、凝縮器へ流すもの，例．デス−パヒ−トするもの〔デス−パヒ−タ自体４０／０４〕	cooling discharged gas refrigerants, introducing into the motor chamber, and cooling the motor and then supplying them to the condenser,
+F25B   1/00 321 Q	1	4	3L090	F25B   1/00	97	圧縮機内に熱交換器をもつもの	with a heat exchanger in the compressor
+F25B   1/00 321 R	1	5	3L090	F25B   1/00	38	エジエクタまたはポンプにより熱交換器に冷媒を流すもの	supplying refrigerants to the heat exchanger by the ejector or pump
+F25B   1/00 321 S	1	4	3L090	F25B   1/00	127	潤滑油冷却器をもつもの〔Ｑが優先〕	with a lubricant cooler (Q takes precedence)
+F25B   1/00 321 Z	1	0	3L090	F25B   1/00	70	その他のもの	Others
+F25B   1/00 331 \	2	2	3L090	F25B   1/00	14	冷媒間で熱交換するもの	heat exchange between refrigerants
+F25B   1/00 331 A	2	0	3L090	F25B   1/00	33	電動機を冷却するもの，例．冷媒との熱交換によりデス−パヒ−トするもの〔デス−パヒ−タ自体４０／０４〕	cooling the motor, e.g. desuperheating by heat exchange with refrigerants (desuperheaters per se 40/04)
+F25B   1/00 331 B	2	0	3L090	F25B   1/00	94	冷媒とバイパス回路の冷媒とが熱交換するもの，例．減圧器間の中間圧側からバイパスするもの〔Ａが優先〕	heat exchange between refrigerants and refrigerants of the bypass circuit, e.g. bypassing the intermediate pressure side between pressure reducers (A takes precedence)
+F25B   1/00 331 C	2	1	3L090	F25B   1/00	122	低圧側からバイパスするもの	bypassing the low pressure side
+F25B   1/00 331 D	2	1	3L090	F25B   1/00	215	高圧側からバイパスするもの	bypassing the high pressure side
+F25B   1/00 331 E	2	2	3L090	F25B   1/00	1030	減圧したバイパス回路冷媒と高圧側冷媒とが熱交換するもの、例．過冷却するもの〔過冷却器自体４０／０２〕	the reduced refrigerant of the bypass circuit and the refrigerant on the high pressure side exchanging heat, e.g. overcooling (overcooling device 40/02)
+F25B   1/00 331 F	2	3	3L090	F25B   1/00	48	バイパス回路に補助圧縮機をもつもの	having an auxiliary compressor in the bypass circuit
+F25B   1/00 331 G	2	0	3L090	F25B   1/00	168	アキユムレ−タ内の冷媒と熱交換するもの〔アキユムレ−タ自体４３／００〕	exchanging heat with refrigerants in the accumulator (accumulator 43/00)
+F25B   1/00 331 Z	2	0	3L090	F25B   1/00	1176	その他のもの	Others
+F25B   1/00 341 \	1	1	3L090	F25B   1/00	17	始動・停止制御に特徴があるもの	Characterized by start and stop control
+F25B   1/00 341 A	1	0	3L090	F25B   1/00	72	始動停止信号を出力する検出対象の種類に特徴があるもの	Characterized by the kind of detection objects outputting a start or stop signal
+F25B   1/00 341 B	1	1	3L090	F25B   1/00	72	冷媒の状態のみ，例．気液の状態	only the refrigerant stage, e.g. vapor and liquid state
+F25B   1/00 341 C	1	2	3L090	F25B   1/00	300	温度，圧力のみ	only temperature and pressure
+F25B   1/00 341 D	1	3	3L090	F25B   1/00	188	低圧側の温度，圧力のみ	only temperature and pressure on the low pressure side
+F25B   1/00 341 F	1	1	3L090	F25B   1/00	107	被加熱冷却物の状態のみ，例．温度または風量	only heated and cooled article state, e.g. temperature or wind rate
+F25B   1/00 341 G	1	2	3L090	F25B   1/00	112	被冷却物の状態のみ	only cooled article state
+F25B   1/00 341 H	1	1	3L090	F25B   1/00	73	冷媒の状態と被冷却物の状態との組合せのみ	only a combination of the refrigerant state and cooled article state
+F25B   1/00 341 J	1	1	3L090	F25B   1/00	155	電源の状態，例．電動機の運転電流	power state, e.g. running current of the motor
+F25B   1/00 341 K	1	1	3L090	F25B   1/00	147	圧縮機またはその電動機の状態，例．圧縮機温度または回転数〔Ｊが優先〕	state of the compressor or its motor, e.g. compressor temperature or number of revolutions (J takes precedence)
+F25B   1/00 341 L	1	1	3L090	F25B   1/00	90	潤滑油の状態	lubricant state
+F25B   1/00 341 M	1	1	3L090	F25B   1/00	31	被加熱冷却物用フアン，ポンプまたはその電動機の状態〔Ｊが優先〕	state of the heated and cooled article fan, pump, or its motor (J takes precedence)
+F25B   1/00 341 P	1	0	3L090	F25B   1/00	178	始動制御に特徴があるもの〔Ｖが優先〕	characterized by start control (V takes precedence)
+F25B   1/00 341 Q	1	1	3L090	F25B   1/00	110	圧縮機能力制御との関係に特徴があるもの	Characterized by the relationship with compressor capacity control
+F25B   1/00 341 R	1	2	3L090	F25B   1/00	293	回転数制御によるもの	by engine speed control
+F25B   1/00 341 S	1	1	3L090	F25B   1/00	162	再始動制御に特徴があるもの〔Ｑが優先〕	characterized by restart control (Q takes precedence)
+F25B   1/00 341 T	1	2	3L090	F25B   1/00	155	タイマ制御によるもの	by timer control
+F25B   1/00 341 U	1	0	3L090	F25B   1/00	255	停止制御に特徴があるもの〔Ｖが優先〕	characterized by stop control (V takes precedence)
+F25B   1/00 341 V	1	0	3L090	F25B   1/00	312	数個の圧縮機または圧縮室をもつものの始動停止制御に特徴があるもの	Characterized by start and stop control of a device having several compressors or compression chambers
+F25B   1/00 341 Z	1	0	3L090	F25B   1/00	47	その他のもの	Others
+F25B   1/00 351 \	2	2	3L090	F25B   1/00	15	始動・停止時、圧縮機以外の機器の操作に特徴があるもの，例．停止時に高圧側から低圧側に冷媒が流れるのを阻止するもの	characterized by operation of devices other than the compressors at start or stop, e.g. preventing flow of refrigerants from the high pressure side to the low pressure side at stop
+F25B   1/00 351 A	2	0	3L090	F25B   1/00	197	始動・停止時の冷媒流量制御または流路切換に特徴があるもの〔Ｓ，Ｔ，Ｕが優先〕	characterized by refrigerant flow rate control or flow path switching at start or stop (S, T, and U take precedence)
+F25B   1/00 351 B	2	1	3L090	F25B   1/00	233	停止時に蒸発器への冷媒流入を阻止するもの，例．蒸発器の入口側に開閉弁，出口側に逆止弁を設けたもの〔Ｇが優先〕	prevention of refrigerant flow into the evaporator at stop, e.g. a switching valve mounted on the inlet side of the evaporator and a check valve mounted on the outlet side (G takes precedence)
+F25B   1/00 351 C	2	2	3L090	F25B   1/00	94	差圧弁によるもの	by differential valves
+F25B   1/00 351 D	2	1	3L090	F25B   1/00	125	停止時に高低圧をバランスするもの〔Ｇが優先〕	balancing high pressure and low pressure at stop (G takes precedence)
+F25B   1/00 351 E	2	2	3L090	F25B   1/00	167	バイパス回路によるもの〔Ｆが優先，減圧器のみをバイパスするものＤ〕	by the bypass circuit (F takes precedence, bypassing only the pressure reducer D)
+F25B   1/00 351 F	2	2	3L090	F25B   1/00	28	差圧弁によるもの	by differential valves
+F25B   1/00 351 G	2	1	3L090	F25B   1/00	87	停止時に蒸発器への冷媒流入を阻止するとともに高低圧をバランスするもの	preventing refrigerants from entering the evaporator at stop and balancing the high pressure and low pressure
+F25B   1/00 351 H	2	2	3L090	F25B   1/00	34	差圧弁によるもの	by differential valves
+F25B   1/00 351 J	2	1	3L090	F25B   1/00	139	始動時に流量制御するもの	flow rate control at start
+F25B   1/00 351 K	2	2	3L090	F25B   1/00	367	凝縮器と蒸発器との間に設けた減圧器により流量制御するもの	flow rate control by the pressure reducer mounted between the condenser and evaporator
+F25B   1/00 351 N	2	1	3L090	F25B   1/00	350	バイパス回路を操作するもの〔Ｅが優先；始動時に減圧器のみをバイパスするものＫ〕	operating the bypass circuit (E takes precedence; bypassing only the pressure reducer at start)
+F25B   1/00 351 S	2	0	3L090	F25B   1/00	186	潤滑油戻しに特徴があるもの	Characterized by returning of lubricants
+F25B   1/00 351 T	2	0	3L090	F25B   1/00	276	熱交換手段の操作に特徴があるもの，例．フアンの回転数を制御するもの	characterized by the operation of the heat exchange means, e.g. controlling the number of revolutions of the fan
+F25B   1/00 351 U	2	0	3L090	F25B   1/00	296	補助加熱冷却手段の操作に特徴があるもの，例．停止時に圧縮機を加熱するもの	characterized by the operation of the auxiliary heating and cooling means, e.g. heating the compressor at stop
+F25B   1/00 351 V	2	1	3L090	F25B   1/00	55	冷媒流路切換または流量制御によるもの，例．始動時に電動機室をバイパスするもの	by refrigerant flow path switching or flow rate control, e.g. bypassing the motor chamber at start
+F25B   1/00 351 Z	2	0	3L090	F25B   1/00	88	その他のもの	Others
+F25B   1/00 361 \	1	1	3L090	F25B   1/00	38	圧縮機の能力制御との関係に特徴があるもの（圧縮機の能力制御一般はＦ０４Ｂ４９／００）	characterized by the relationship with compressor capacity control (compressor capacity control in general F04B 49/00)
+F25B   1/00 361 A	1	0	3L090	F25B   1/00	520	回転数によるもの〔Ｃ，Ｌ，Ｐが優先〕	by the number of revolutions (C, L, and P take precedence)
+F25B   1/00 361 B	1	0	3L090	F25B   1/00	45	デユ−テイ比によるもの〔Ｌ，Ｐが優先〕	by the duty ratio (L and P take precedence)
+F25B   1/00 361 C	1	0	3L090	F25B   1/00	126	電動機によるもの，例．極数変換によるもの〔Ｂ，Ｌ，Ｐが優先〕	by the motor, e.g. by conversion of the number of poles (B, L, and P take precedence)
+F25B   1/00 361 D	1	1	3L090	F25B   1/00	1445	インバ−タによるもの	by the inverter
+F25B   1/00 361 G	1	0	3L090	F25B   1/00	209	能力可変圧縮機によるもの〔Ｂ，Ｌ，Ｐが優先〕	by the capacity variable compressor (B, L, and P take precedence)
+F25B   1/00 361 H	1	1	3L090	F25B   1/00	206	レリ−ス回路によるもの	by the release circuit
+F25B   1/00 361 J	1	0	3L090	F25B   1/00	546	数個の圧縮室をもつものまたは圧縮機によるもの，例．異なる容量の圧縮機の組合せにより能力制御するもの〔Ｌ，Ｐが優先〕	by having several compression chambers or compressors, e.g. capacity control by a combination of compressors having different capacities (L and P take precedence)
+F25B   1/00 361 L	1	0	3L090	F25B   1/00	359	数個の能力制御手段の組合せによるもの，例．容量固定の圧縮機とインバ−タ制御の圧縮機との組合せ	by a combination of several capacity control means, e.g. a combination of capacity-fixed compressors and inverter control compressors
+F25B   1/00 361 P	1	0	3L090	F25B   1/00	301	圧縮機能力制御と他の手段，例．バイパス回路，の制御との組合せ〔膨張弁の制御との組合せ３０４Ｆ，インジエクシヨン回路の制御との組合せ３１１Ｄ〕	a combination of compressor capacity control and control of other means, e.g. bypass circuit (a combination with expansion valve control 304F, a combination with injection circuit control 311D)
+F25B   1/00 361 Q	1	1	3L090	F25B   1/00	258	凝縮手段または蒸発手段の制御との組合せ，例．圧縮機回転数と凝縮器フアン回転数とを制御するもの	a combination with condensation means or evaporation means control, e.g. controlling the number of revolutions of the compressor and the number of revolutions of the condenser fan
+F25B   1/00 361 Z	1	0	3L090	F25B   1/00	83	その他のもの	Others
+F25B   1/00 371 \	2	2	3L090	F25B   1/00	6	制御量の種類，例．冷媒温度または圧力，に特徴があるもの	Characterized by the control amount kind, e.g. refrigerant temperature or pressure
+F25B   1/00 371 A	2	0	3L090	F25B   1/00	97	冷媒の状態のみ，例．アキユムレ−タの液面高さ〔Ｊが優先〕	only the refrigerant state, e.g. liquid level of the accumulator (J takes precedence)
+F25B   1/00 371 B	2	1	3L090	F25B   1/00	835	温度または圧力，例．温度および圧力	temperature or pressure, e.g. temperature and pressure
+F25B   1/00 371 C	2	2	3L090	F25B   1/00	502	圧力のみ	only pressure
+F25B   1/00 371 E	2	0	3L090	F25B   1/00	117	被加熱冷却物の状態；被加熱冷却物用フアン，ポンプまたはその電動機の状態〔Ｎが優先〕	heated and cooled article state; state of the heated and cooled article fan, pump, or its motor (N takes precedence)
+F25B   1/00 371 F	2	1	3L090	F25B   1/00	620	温度のみ，例．室温または外気温	only temperature, e.g. room temperature or air temperature
+F25B   1/00 371 J	2	0	3L090	F25B   1/00	216	冷媒の状態と被加熱冷却物の状態との組合せのみ	only a combination of the refrigerant state and heated and cooled article state
+F25B   1/00 371 M	2	0	3L090	F25B   1/00	246	潤滑油，圧縮機またはその電動機の状態，例．圧縮機の温度または運転率〔Ｎが優先〕	state of lubricant, compressor, or its motor, e.g. temperature of the compressor or running rate (N takes precedence)
+F25B   1/00 371 N	2	0	3L090	F25B   1/00	287	電源の状態，例．電動機の運転電流	power state, e.g. running current of the motor
+F25B   1/00 371 Z	2	0	3L090	F25B   1/00	190	その他のもの	Others
+F25B   1/00 381 \	1	1	3L090	F25B   1/00	7	凝縮手段に特徴があるもの，例．凝縮器フアンの制御（１０１，３５１優先，凝縮器自体３９／０４）	characterized by the condensation means, e.g. condenser fan control (101 and 351 take precedence, condenser 39/04)
+F25B   1/00 381 A	1	0	3L090	F25B   1/00	118	空冷式凝縮器	air cooling condenser
+F25B   1/00 381 B	1	1	3L090	F25B   1/00	66	ダンパをもつもの	with a damper
+F25B   1/00 381 C	1	1	3L090	F25B   1/00	98	数個のフアンをもつもの〔Ｂが優先〕	with several fans (B takes precedence)
+F25B   1/00 381 D	1	1	3L090	F25B   1/00	927	フアンの制御〔Ｂ，Ｃが優先〕	fan control (B and C take precedence)
+F25B   1/00 381 G	1	0	3L090	F25B   1/00	286	蒸発式凝縮器	evaporation type condenser
+F25B   1/00 381 H	1	0	3L090	F25B   1/00	405	水冷式凝縮器	water cooling condenser
+F25B   1/00 381 J	1	1	3L090	F25B   1/00	116	冷媒温度または圧力に応じて冷却水量を変えるもの	cooling water amount being changed according to the refrigerant temperature or pressure
+F25B   1/00 381 Z	1	0	3L090	F25B   1/00	136	その他のもの	Others
+F25B   1/00 383 \	1	1	3L090	F25B   1/00	737	蒸発手段に特徴があるもの，例．蒸発器フアンの制御（１０１，３５１優先，蒸発器自体３９／０２）	characterized by the evaporation means, e.g. evaporator fan control (101 and 351 take precedence, evaporator 39/02)
+F25B   1/00 385 \	1	1	3L090	F25B   1/00	35	冷媒循環量制御手段に特徴があるもの，例．液溜め容器を用いて冷媒循環量を制御するもの	characterized by the refrigerant circulation amount control means, e.g. refrigerant circulation amount being controlled using a liquid collection vessel
+F25B   1/00 385 A	1	0	3L090	F25B   1/00	128	液溜め容器内冷媒と管内冷媒とが熱交換するもの	the refrigerant in the liquid collection vessel and refrigerant in the tube being exchanged with heat
+F25B   1/00 385 Z	1	0	3L090	F25B   1/00	832	その他のもの	Others
+F25B   1/00 387 \	1	1	3L090	F25B   1/00	3	油戻し手段に特徴があるもの（３２１，３５１優先）	characterized by the oil return means (321 and 351 take precedence)
+F25B   1/00 387 A	1	0	3L090	F25B   1/00	352	高圧側で分離した潤滑油を圧縮機に戻すもの	lubricant separated on the high pressure side being returned to the compressor
+F25B   1/00 387 B	1	1	3L090	F25B   1/00	600	バイパス回路により潤滑油を圧縮機吸入管側に戻すもの	lubricant being returned to the intake tube of the compressor by the bypass circuit
+F25B   1/00 387 D	1	0	3L090	F25B   1/00	161	低圧側で分離した潤滑油を圧縮機に戻すもの	lubricant separated on the low pressure side being returned to the compressor
+F25B   1/00 387 E	1	1	3L090	F25B   1/00	85	分離して抽出した潤滑油を加熱するもの	lubricant separated and extracted being heated
+F25B   1/00 387 F	1	1	3L090	F25B   1/00	123	圧縮機内に戻すもの〔Ｅが優先；吸入管側に戻すものＤ〕	returning into the compressor (E takes precedence; returning to the intake pipe)
+F25B   1/00 387 G	1	1	3L090	F25B   1/00	191	アキユムレ−タで分離するもの〔Ｅ，Ｆが優先〕	separating by the accumulator (E and F take precedence)
+F25B   1/00 387 J	1	0	3L090	F25B   1/00	123	圧縮機で潤滑油を分離するもの；圧縮機内で潤滑油を循環するもの	separating lubricant by the compressor; circulating lubricant in the compressor
+F25B   1/00 387 K	1	0	3L090	F25B   1/00	520	数個の圧縮機をもつもの〔Ｌが優先〕	with several compressors
+F25B   1/00 387 L	1	0	3L090	F25B   1/00	319	圧縮機または流量制限器で流量を変えることにより潤滑油を圧縮機に戻すもの	returning lubricant to the compressor by changing the flow rate by the compressor or flow rate controller
+F25B   1/00 387 Z	1	0	3L090	F25B   1/00	252	その他のもの	Others
+F25B   1/00 389 \	1	1	3L090	F25B   1/00	3	再循環手段に特徴があるもの，例．凝縮器下流の冷媒をエゼクタにより凝縮器上流に流すもの（３２１優先）	characterized by the recirculation means, e.g. flowing refrigerant in the down stream of the condenser to the upstream of the condenser by the executor (321 takes precedence)
+F25B   1/00 389 A	1	0	3L090	F25B   1/00	789	エゼクタによるもの	by the executor
+F25B   1/00 389 Z	1	0	3L090	F25B   1/00	86	その他のもの	Others
+F25B   1/00 391 \	1	1	3L090	F25B   1/00	623	冷媒をサイクル内，例．受液器，に一時的に回収する手段に特徴があるもの，例．ポンプダウン（充填のため冷媒を回収容器，例．ボンベ，に回収するもの４５／００）	characterized by the means for temporarily collecting refrigerants in the cycle, e.g. in the liquid receiver, e.g. pump down (collecting refrigerant in the collection vessel for filling, e.g. in a cylinder 45/00)
+F25B   1/00 396 \	1	1	3L090	F25B   1/00	9	特殊な冷媒に適した冷凍サイクルの構成に特徴のあるもの	characterised by composition of freezing cycle suitable for special cooling medium
+F25B   1/00 396 A	1	0	3L090	F25B   1/00	1730	代替冷媒のみを用いたもの，例．ＨＦＣを用いたもの〔自然冷媒のみを用いたものＣ〕	Use of alternative refrigerant, e.g. use of HFC[C is natural refrigerant]
+F25B   1/00 396 B	1	1	3L090	F25B   1/00	1634	非共沸混合冷媒を用いたもの，例．Ｒ４○○	Use of non-azeotropic mixed refrigerant, e.g. R4 - -
+F25B   1/00 396 C	1	0	3L090	F25B   1/00	143	自然冷媒のみを用いたもの	Use of natural refrigerant
+F25B   1/00 396 D	1	1	3L090	F25B   1/00	3298	二酸化炭素を用いたもの	Use of carbon dioxide
+F25B   1/00 396 E	1	1	3L090	F25B   1/00	862	炭化水素を用いたもの	Use of hydrocarbon
+F25B   1/00 396 F	1	2	3L090	F25B   1/00	165	エタンを用いたもの	Use of ethane
+F25B   1/00 396 G	1	2	3L090	F25B   1/00	510	プロパンを用いたもの	Use of propane
+F25B   1/00 396 H	1	2	3L090	F25B   1/00	102	ブタンを用いたもの	Use of butane
+F25B   1/00 396 J	1	3	3L090	F25B   1/00	353	イソブタンを用いたもの	Use of isobutane
+F25B   1/00 396 K	1	2	3L090	F25B   1/00	70	ペンタンを用いたもの	Use of pentane
+F25B   1/00 396 L	1	3	3L090	F25B   1/00	6	イソペンタンを用いたもの	Use of iso-pentane
+F25B   1/00 396 M	1	2	3L090	F25B   1/00	6	ヘキサンを用いたもの	Use of hexanes
+F25B   1/00 396 R	1	1	3L090	F25B   1/00	341	アンモニアを用いたもの	Use of ammonia
+F25B   1/00 396 S	1	1	3L090	F25B   1/00	173	水を用いたもの	Use of water
+F25B   1/00 396 T	1	1	3L090	F25B   1/00	217	２種類以上の自然冷媒を混合した冷媒を用いたもの	Use of cooling medium mixed more than two kinds of natural refrigerants
+F25B   1/00 396 U	1	0	3L090	F25B   1/00	370	代替冷媒と自然冷媒を混合した冷媒を用いたもの	Use of cooling medium mixed alternative refrigerant with natural refrigerant
+F25B   1/00 396 Z	1	0	3L090	F25B   1/00	1757	その他のもの	Others
+F25B   1/00 397 \	1	1	3L090	F25B   1/00	2	数個の独立サイクルに特徴があるもの（カスケ−ド７／００）	characterized by several independent cycles (cascade 7/00)
+F25B   1/00 397 A	1	0	3L090	F25B   1/00	295	一方のサイクルの冷媒で他方のサイクルの冷媒を過冷却またはス−パヒ−トするもの	overcooling or superheating the other cycle refrigerant by one cycle refrigerant
+F25B   1/00 397 B	1	0	3L090	F25B   1/00	134	サイクル間が接続可能なもの	cycles capable of being connected
+F25B   1/00 397 C	1	0	3L090	F25B   1/00	291	熱交換器の配置または構造に特徴があるもの〔Ａ，Ｂが優先〕	characterized by arrangement or structure of the heat exchanger (A and B take precedence)
+F25B   1/00 397 E	1	0	3L090	F25B   1/00	435	制御〔Ａ，Ｂが優先〕	control (A and B take precedence)
+F25B   1/00 397 Z	1	0	3L090	F25B   1/00	184	その他のもの	Others
+F25B   1/00 399 \	1	1	3L090	F25B   1/00	5	冷媒循環サイクルとの組合せに特徴があるもの，例．自然循環サイクルと組合せたもの	characterized by the combination with the refrigerant circulation cycle, e.g. combined with the natural circulation cycle
+F25B   1/00 399 A	1	0	3L090	F25B   1/00	246	圧縮式サイクルの一部を冷媒循環サイクルに用いるもの	using a part of the compression type cycle for the refrigerant circulation cycle
+F25B   1/00 399 B	1	1	3L090	F25B   1/00	162	冷媒循環サイクルが冷媒加熱装置をもつもの	the refrigerant circulation cycle having a refrigerant heater
+F25B   1/00 399 C	1	2	3L090	F25B   1/00	161	自然循環式のもの	natural circulation type
+F25B   1/00 399 D	1	2	3L090	F25B   1/00	287	圧縮式サイクルの圧縮機を冷媒循環サイクルに用いるもの	a compressor of the compression type cycle being used for the refrigerant circulation cycle
+F25B   1/00 399 Y	1	0	3L090	F25B   1/00	2510	冷媒循環サイクルが圧縮式サイクルから独立しているもの	the refrigerant circulation cycle being independent of the compression type cycle
+F25B   1/00 399 Z	1	0	3L090	F25B   1/00	89	その他のもの	Others
+F25B   1/02  \	1	1	3L090	F25B   1/02	10	往復ピストン式圧縮機によるもの（Ｆ２５Ｂ１／１０が優先）	with compressor of reciprocating-piston type (F25B 1/10 takes precedence)
+F25B   1/02  A	1	0	3L090	F25B   1/02	88	振動式圧縮機によるもの	by the vibration type compressor
+F25B   1/02  Z	1	0	3L090	F25B   1/02	254	その他のもの	Others
+F25B   1/04  \	1	1	3L090	F25B   1/04	17	回転式圧縮機によるもの（Ｆ２５Ｂ１／１０が優先）	with compressor of rotary type (F25B 1/10 takes precedence)
+F25B   1/04  A	1	0	3L090	F25B   1/04	266	スクロ−ル圧縮機以外の圧縮機によるもの	by compressors other than the scroll compressor
+F25B   1/04  B	1	1	3L090	F25B   1/04	73	圧縮機の能力制御との関係に特徴があるもの	Characterized by the relationship with compressor capacity control
+F25B   1/04  C	1	2	3L090	F25B   1/04	30	レリ−ス回路によるもの	by the release circuit
+F25B   1/04  E	1	1	3L090	F25B   1/04	96	インジエクシヨン手段をもつもの	with the injection means
+F25B   1/04  J	1	1	3L090	F25B   1/04	65	圧縮機，電動機，油を冷却するもの，例．デス−パヒ−トするもの〔Ｅが優先；デス−パヒ−タ自体，４０／０４〕	cooling the compressor, motor, and oil, e.g. (E takes precedence; desuperheaters per se 40/40)
+F25B   1/04  L	1	1	3L090	F25B   1/04	52	圧縮機停止時に蒸発器への冷媒流入を阻止するもの	preventing refrigerant from flowing into the evaporator at stop of the compressor
+F25B   1/04  Y	1	0	3L090	F25B   1/04	458	スクロ−ル圧縮機によるもの	by the scroll compressor
+F25B   1/04  Z	1	0	3L090	F25B   1/04	118	その他のもの	Others
+F25B   1/047  \	2	2	3L090	F25B   1/047	1	スクリュー式のもの［５］	of screw type [5]
+F25B   1/047  P	2	0	3L090	F25B   1/047	57	圧縮機の能力制御との関係に特徴があるもの〔Ｒが優先〕	Characterized by the relationship with compressor capacity control (R takes precedence)
+F25B   1/047  R	2	0	3L090	F25B   1/047	112	インジエクシヨン手段をもつもの	with the injection means
+F25B   1/047  T	2	0	3L090	F25B   1/047	189	油戻しまたは油は冷却するもの	returning oil or cooling oil
+F25B   1/047  V	2	0	3L090	F25B   1/047	33	圧縮機，電動機を冷却するもの〔Ｒが優先〕	cooling the compressor and motor (R takes precedence)
+F25B   1/047  W	2	0	3L090	F25B   1/047	25	流量制御に特徴があるもの、例．感温膨張弁の感温筒および均圧管をスクリユ−圧縮機の吐出側に配置したもの	characterized by flow rate control, e.g. the temperature sensitive cylinder of the temperature sensitive expansion valve and equalizing tube being arranged on the discharge side of the screw compressor
+F25B   1/047  Z	2	0	3L090	F25B   1/047	77	その他のもの	Others
+F25B   1/053  \	2	2	3L090	F25B   1/053	9	ターボ式のもの［５］	of turbine type [5]
+F25B   1/053  A	2	0	3L090	F25B   1/053	123	数個の圧縮機をもつもの；数個の独立サイクルをもつもの	with several compressors; with several independent cycles
+F25B   1/053  B	2	0	3L090	F25B   1/053	80	バイパス回路をもつもの	with the bypass circuit
+F25B   1/053  C	2	0	3L090	F25B   1/053	124	潤滑油戻しまたは潤滑油を冷却するもの	returning lubricant or cooling lubricant
+F25B   1/053  D	2	0	3L090	F25B   1/053	92	電動機を冷却するもの	cooling motors
+F25B   1/053  J	2	0	3L090	F25B   1/053	90	制御〔Ａ〜Ｄが優先〕	control (A to D take precedence)
+F25B   1/053  K	2	1	3L090	F25B   1/053	24	圧縮機の能力制御との関係に特徴があるもの、例．デイフユ−ザベ−ンによるもの〔Ａ，Ｂが優先〕	Characterized by the relationship with compressor capacity control, e.g. by the defuse vane (A and B take precedence)
+F25B   1/053  L	2	2	3L090	F25B   1/053	43	回転数によるもの〔Ｍが優先〕	by the number of revolutions (M takes precedence)
+F25B   1/053  M	2	2	3L090	F25B   1/053	36	回転数と吸込ベ−ンまたは吸込ダンパとの組合せによるもの	by a combination of the number of revolutions and intake vane or intake damper
+F25B   1/053  N	2	2	3L090	F25B   1/053	89	吸込ベ−ンまたは吸込ダンパによるもの〔Ｍが優先〕	by the intake vane or intake damper (M takes precedence)
+F25B   1/053  Z	2	0	3L090	F25B   1/053	295	その他のもの	Others
+F25B   1/06  \	1	1	3L090	F25B   1/06	138	ジェット式圧縮機によるもの，例．加圧液体を用いるもの（Ｆ２５Ｂ１／１０が優先）	with compressor of jet type, e.g. using liquid under pressure (F25B 1/10 takes precedence)
+F25B   1/08  \	2	2	3L090	F25B   1/08	21	加圧蒸気を用いるもの	using vapour under pressure
+F25B   1/10  \	1	1	3L090	F25B   1/10	8	多段圧縮によるもの（カスケード式Ｆ２５Ｂ７／００）	with multi-stage compression (with cascade operation F25B 7/00)
+F25B   1/10  A	1	0	3L090	F25B   1/10	129	数個の凝縮器回路をもつもの	with several condenser circuits
+F25B   1/10  B	1	0	3L090	F25B   1/10	188	単段または多段圧縮切換手段をもつもの〔Ａ優先〕	with a single-stage or multi-stage compression switching means (A takes precedence)
+F25B   1/10  C	1	0	3L090	F25B   1/10	77	始動停止時の制御に特徴があるもの〔Ａ，Ｂが優先〕	characterized by control at start or stop (A and B take precedence)
+F25B   1/10  D	1	0	3L090	F25B   1/10	101	圧縮機の能力制御との関係に特徴があるもの〔Ａ，Ｂ，Ｃが優先〕	Characterized by the relationship with compressor capacity control (A, B, and C take precedence)
+F25B   1/10  E	1	0	3L090	F25B   1/10	335	インジエクシヨン手段をもつもの	with the injection means
+F25B   1/10  F	1	0	3L090	F25B   1/10	50	電動機を冷却するもの	cooling motors
+F25B   1/10  G	1	0	3L090	F25B   1/10	158	潤滑油を冷却または戻すもの	cooling or returning lubricant
+F25B   1/10  H	1	0	3L090	F25B   1/10	198	膨張機により圧縮機を駆動するもの，例．凝縮器・蒸発器間の膨張タ−ビンにより補助圧縮機を駆動するもの	driving the compressor by the expander, e.g. driving the auxiliary compressor by the expansion turbine between the condenser and evaporator
+F25B   1/10  J	1	0	3L090	F25B   1/10	72	型の異なる圧縮機を組合せたもの；エゼクタと圧縮機とを組合せたもの〔多段圧縮ではないもの１／００　３８９〕	combined with compressors of different types; combined with executors and compressors (not multi-stage compression 1/00 389)
+F25B   1/10  P	1	0	3L090	F25B   1/10	207	多段圧縮一段膨張〔Ａ〜Ｊが優先〕	one-stage expansion of multi-stage compression (A to J take precedence)
+F25B   1/10  Q	1	1	3L090	F25B   1/10	145	減圧したバイパス回路冷媒を圧縮機の中間に導入するもの	reduced refrigerant of the bypass circuit being introduced between compressors
+F25B   1/10  R	1	2	3L090	F25B   1/10	270	冷媒間で熱交換するもの，例．クロ−ズドエコノマイザサイクル	heat exchange between refrigerants, e.g. closed economizer cycle
+F25B   1/10  S	1	0	3L090	F25B   1/10	269	多段圧縮多段膨張，例．エコノマイザサイクル〔Ａ〜Ｊが優先〕	multi-stage compression and multi-stage expansion, e.g. economizer cycle (A to J take precedence)
+F25B   1/10  Z	1	0	3L090	F25B   1/10	207	その他のもの	Others
+F25B   3/00  \	0	0	3L090	F25B   3/00	43	自納式回転形圧縮式機械，すなわち圧縮機，凝縮機および蒸発器が単一体として回転するもの	Self-contained rotary compression machines, i.e. with compressor, condenser, and evaporator rotating as a single unit
+F25B   5/00  \	0	0	3L090	F25B   5/00	8	数個の蒸発器回路，例．冷凍容量の可変なもの，をもつ圧縮式機械，プラントまたはシステム（カスケード式Ｆ２５Ｂ７／００）	Compression machines, plant, or systems, with several evaporator circuits, e.g. for varying refrigerating capacity (with cascade operation F25B 7/00)
+F25B   5/00  A	0	0	3L090	F25B   5/00	319	蓄熱器または蓄冷器をもつもの	with a heat accumulator or cool accumulator
+F25B   5/00  B	0	0	3L090	F25B   5/00	174	冷媒流路切換手段に特徴があるもの	Characterized by the refrigerant flow path switching means
+F25B   5/00  C	0	1	3L090	F25B   5/00	85	気泡〔バブル〕ポンプによるもの	by the bubble pump
+F25B   5/00  D	0	0	3L090	F25B   5/00	39	インジエクシヨン回路を有するもの	with the injection circuit
+F25B   5/00  Z	0	0	3L090	F25B   5/00	29	その他のもの	Others
+F25B   5/00 102 \	1	1	3L090	F25B   5/00	74	除湿サイクルを有するもの（再熱器によるもの２９／００　３９１）	with the dehumidification cycle (by the reheater 29/00 391)
+F25B   5/00 301 \	1	1	3L090	F25B   5/00	1	圧縮機の能力制御との関係に特徴があるもの（圧縮機の能力制御一般はＦ０４Ｂ４９／００）	Characterized by the relationship with compressor capacity control (compressor capacity control in general F04B 49/00)
+F25B   5/00 301 A	1	0	3L090	F25B   5/00	28	圧縮機吐出量可変手段を有するもの	with the compressor discharge amount changing means
+F25B   5/00 301 B	1	1	3L090	F25B   5/00	157	複数圧縮機によるもの	by a plurality of compressors
+F25B   5/00 301 C	1	1	3L090	F25B   5/00	126	圧縮機回転数可変手段を有するもの〔Ｂが優先〕	with the compressor engine speed changing means (B takes precedence)
+F25B   5/00 301 D	1	1	3L090	F25B   5/00	31	圧縮機にレリ−スポ−トを設けたもの	compressor with release port mounted
+F25B   5/00 301 E	1	1	3L090	F25B   5/00	10	圧縮機吸入圧力を制御するもの	controlling compressor intake pressure
+F25B   5/00 301 Z	1	0	3L090	F25B   5/00	29	その他のもの	Others
+F25B   5/00 308 \	1	1	3L090	F25B   5/00	188	蒸発器を直列および並列に接続するもの	connecting evaporators in series and in parallel
+F25B   5/00 309 \	1	1	3L090	F25B   5/00	93	冷媒に特徴があるもの，例．非共沸混合冷媒を用いるもの	characterized by refrigerants, e.g. using non-azeotrope mixed refrigerant
+F25B   5/02  \	1	1	3L090	F25B   5/02	45	並列に配置されたもの［５］	arranged in parallel [5]
+F25B   5/02  A	1	0	3L090	F25B   5/02	192	冷媒量・冷媒圧力を制御するもの	controlling the refrigerant amount and refrigerant pressure
+F25B   5/02  B	1	0	3L090	F25B   5/02	408	冷媒流量の分配を制御するもの	controlling distribution of the refrigerant flow rate
+F25B   5/02  C	1	0	3L090	F25B   5/02	269	蒸発器の構造・配置に特徴があるもの	Characterized by the structure and arrangement of evaporators
+F25B   5/02  Z	1	0	3L090	F25B   5/02	260	その他のもの	Others
+F25B   5/02 510 \	2	2	3L090	F25B   5/02	6	多室用のもの（５３０が優先）	for many rooms (530 takes precedence)
+F25B   5/02 510 A	2	0	3L090	F25B   5/02	66	圧縮機起動・停止時の制御手段に特徴があるもの	Characterized by the control means at start or stop of the compressor
+F25B   5/02 510 B	2	1	3L090	F25B   5/02	21	圧縮機の再起動を遅延させるもの〔Ｃが優先〕	delaying restart of the compressor (C takes precedence)
+F25B   5/02 510 C	2	1	3L090	F25B   5/02	11	圧縮機停止・再起動時に圧力バランスを行うもの	balancing the pressure at stop and restart of the compressor
+F25B   5/02 510 D	2	2	3L090	F25B   5/02	32	バイパン流路によるもの	by the bypass flow path
+F25B   5/02 510 E	2	2	3L090	F25B   5/02	26	停止中の室内ユニツトに冷媒を流するもの	supplying refrigerants in the unit in the chamber during stop
+F25B   5/02 510 F	2	1	3L090	F25B   5/02	11	圧縮機停止時に高圧側と低圧側とを遮断するもの	interrupting the high pressure side and low pressure side at stop of the compressor
+F25B   5/02 510 G	2	0	3L090	F25B   5/02	66	冷媒循環量・冷媒圧力の制御手段に特徴があるもの。	characterized by the control means for the refrigerant circulation amount and refrigerant pressure
+F25B   5/02 510 H	2	1	3L090	F25B   5/02	62	液溜めによるもの	by the liquid collector
+F25B   5/02 510 J	2	1	3L090	F25B   5/02	83	バイパス流路によるもの〔Ｈが優先〕	by the bypass flow path (H takes precedence)
+F25B   5/02 510 K	2	0	3L090	F25B   5/02	51	冷媒間で熱交換を行うもの〔例、過冷却器をもつもの〕	exchanging heat between refrigerants, e.g. with overcooling devices
+F25B   5/02 510 L	2	0	3L090	F25B   5/02	167	複数蒸発器の運転制御に特徴があるもの	Characterized by running control of a plurality of evaporators
+F25B   5/02 510 M	2	1	3L090	F25B   5/02	36	蒸発器の運転に優先順位を設けたもの	priority being given to running of evaporators
+F25B   5/02 510 N	2	1	3L090	F25B   5/02	19	複数蒸発器の発停を同期させるもの	synchronizing start and stop of a plurality of evaporators
+F25B   5/02 510 P	2	1	3L090	F25B   5/02	52	熱交換器・フアンの能力製御に特徴があるもの	Characterized by capacity control of heat exchangers and fans
+F25B   5/02 510 Q	2	0	3L090	F25B   5/02	146	冷媒流路切換手段に特徴があるもの	Characterized by the refrigerant flow path switching means
+F25B   5/02 510 R	2	0	3L090	F25B   5/02	72	冷媒配管の接続部に特徴があるもの	Characterized by the connectors of refrigerant pipes
+F25B   5/02 510 Z	2	0	3L090	F25B   5/02	92	その他のもの	Others
+F25B   5/02 520 \	3	3	3L090	F25B   5/02	9	減圧手段に特徴があるもの	Characterized by the pressure reducing means
+F25B   5/02 520 A	3	0	3L090	F25B   5/02	49	負荷に応じて減圧手段を制御するもの	controlling the pressure reducing means according to the load
+F25B   5/02 520 B	3	1	3L090	F25B   5/02	69	蒸発器の運転台数に応じて減圧手段を制御するもの〔Ｃが優先〕	controlling the pressure reducing means according to the number of running evaporators (C takes precedence)
+F25B   5/02 520 C	3	1	3L090	F25B   5/02	55	冷媒の温度・圧力を検知して減圧手段を制御するもの	detecting the temperature and pressure of refrigerants and controlling the pressure reducing means
+F25B   5/02 520 D	3	2	3L090	F25B   5/02	138	低圧側冷媒温度・圧力または冷媒過熱度を検知するもの	detecting the refrigerant temperature and pressure on the low pressure side or overheating temperature of refrigerants
+F25B   5/02 520 E	3	1	3L090	F25B   5/02	18	液溜めによる冷媒循環量の制御を伴うもの	accompanied by control of the refrigerant circulation amount by the liquid collector
+F25B   5/02 520 F	3	1	3L090	F25B   5/02	32	各蒸発器に流入する冷媒流量が異なるように制御するもの	controlling the refrigerant flow rate into each evaporator so as to be different from each other
+F25B   5/02 520 G	3	0	3L090	F25B   5/02	8	圧縮機起動・停止時に減圧手段を制御するもの	controlling the pressure reducing means at start and stop of the compressor
+F25B   5/02 520 H	3	0	3L090	F25B   5/02	14	減圧手段と冷媒管との間で熱交換するもの	exchanging heat between the pressure reducing means and cooling pipes
+F25B   5/02 520 J	3	0	3L090	F25B   5/02	19	減圧手段の構造に特徴があるもの	Characterized by the structure of the pressure reducing means
+F25B   5/02 520 K	3	1	3L090	F25B   5/02	10	減圧手段と冷媒流量分配手配とが一体になつているもの	the pressure reducing means being integrated with the refrigerant flow rate distribution means
+F25B   5/02 520 Z	3	0	3L090	F25B   5/02	34	その他のもの〔旧５／００　３０５Ａ〜Ｚ→新５／０２５，２０Ａ〜Ｚ〕	others (old 5/00 305A to 305Z R new 5/025, 20A to 20Z)
+F25B   5/02 530 \	2	2	3L090	F25B   5/02	9	蒸発温度が異なるもの	different evaporation temperature
+F25B   5/02 530 A	2	0	3L090	F25B   5/02	140	圧縮手段に特徴があるもの	Characterized by the compression means
+F25B   5/02 530 B	2	0	3L090	F25B   5/02	137	蒸発温度が異なる冷蔵庫用蒸発器を備えたもの〔例、冷蔵用蒸発器と冷凍用蒸発器を備えたもの〕〔Ａが優先〕	with an evaporator for refrigerator being different in evaporation temperature, e.g. with evaporators for cold storage and evaporators for freezing (A takes precedence)
+F25B   5/02 530 C	2	1	3L090	F25B   5/02	127	冷媒流量、冷媒圧力の制御手段に特徴があるもの	Characterized by the control means for the refrigerant flow rate and refrigerant pressure
+F25B   5/02 530 D	2	1	3L090	F25B   5/02	144	冷媒流路切換手段の制御に特徴があるもの	Characterized by control of the refrigerant flow path switching means
+F25B   5/02 530 E	2	2	3L090	F25B   5/02	33	蒸発器に冷媒を流す優先順位を設けたもの	priority of supplying of refrigerants to evaporators being given
+F25B   5/02 530 F	2	3	3L090	F25B   5/02	21	低温蒸発器を優先するもの	low temperature evaporators take precedence
+F25B   5/02 530 G	2	3	3L090	F25B   5/02	16	高温蒸発器を優先するもの	high temperature evaporators take precedence
+F25B   5/02 530 H	2	2	3L090	F25B   5/02	47	蒸発器に冷媒を択一的に流すもの〔Ｅ〜Ｇが優先〕	supplying refrigerants to evaporators in an alternative way (E to G take precedence)
+F25B   5/02 530 J	2	1	3L090	F25B   5/02	37	その他の制御	other controls
+F25B   5/02 530 K	2	0	3L090	F25B   5/02	53	蒸発温度が異なる冷房用蒸発器を備えたもの〔Ａが優先〕	with air conditioning evaporators different in evaporation temperature (A takes precedence)
+F25B   5/02 530 L	2	0	3L090	F25B   5/02	187	冷房用蒸発器と冷蔵庫用蒸発器を備えたもの〔Ａが優先〕	with air conditioning evaporators and cold storage evaporators (A takes precedence)
+F25B   5/02 530 Z	2	0	3L090	F25B   5/02	125	その他のもの〔旧５／００　３０６Ａ〜Ｚ→新５／０２５，３０Ａ〜Ｚ〕	others (old 5/00 306A to 306Z R new 5/025, 30A to 30Z)
+F25B   5/04  \	1	1	3L090	F25B   5/04	11	直列に配置されたもの［５］	arranged in series [5]
+F25B   5/04  A	1	0	3L090	F25B   5/04	304	冷媒循環手段に特徴があるもの〔例、エジエクタ、循環ポンプを用いるもの〕	characterized by the refrigerant circulation means, e.g. using ejectors and circulation pumps
+F25B   5/04  B	1	0	3L090	F25B   5/04	465	蒸発温度が異なるもの〔Ａが優先〕	different evaporation temperature (A takes precedence)
+F25B   5/04  Z	1	0	3L090	F25B   5/04	376	その他のもの	Others
+F25B   6/00  \	0	0	3L090	F25B   6/00	45	数個の凝縮器回路をもつ圧縮式機械，プラントまたはシステム［５］	Compression machines, plant, or systems, with several condenser circuits [5]
+F25B   6/02  \	1	1	3L090	F25B   6/02	13	並列に配置されたもの［５］	arranged in parallel [5]
+F25B   6/02  H	1	0	3L090	F25B   6/02	166	空冷凝縮器と水冷凝縮器とからなるもの	comprising air cooling condensers and water cooling condensers
+F25B   6/02  J	1	0	3L090	F25B   6/02	190	多室用〔Ｈが優先〕	for many chambers (H takes precedence)
+F25B   6/02  Z	1	0	3L090	F25B   6/02	446	その他のもの	Others
+F25B   6/04  \	1	1	3L090	F25B   6/04	20	直列に配置されたもの［５］	arranged in series [5]
+F25B   6/04  B	1	0	3L090	F25B   6/04	102	凝縮器間に気液分離器を設けたもの	with vapor-liquid separators between condensers
+F25B   6/04  C	1	0	3L090	F25B   6/04	200	空冷凝縮器と水冷凝縮器とからなるもの	comprising air cooling condensers and water cooling condensers
+F25B   6/04  D	1	0	3L090	F25B   6/04	21	水冷凝縮器がドレン水を利用するもの	water cooling condensers using drain water
+F25B   6/04  Z	1	0	3L090	F25B   6/04	776	その他のもの	Others
+F25B   7/00  \	0	0	3L090	F25B   7/00	16	カスケード形の圧縮式機械，プラントまたはシステム，すなわち２つ以上の回路をもつもので，１回路の凝縮器発生熱が次の回路の蒸発器に吸収されるもの（Ｆ２５Ｂ９／００が優先）［２００６．０１］	Compression machines, plants or systems, with cascade operation, i.e. with two or more circuits, the heat from the condenser of one circuit being absorbed by the evaporator of the next circuit (F25B 9/00 takes precedence) [1, 2006.01]
+F25B   7/00  A	0	0	3L090	F25B   7/00	247	非共沸混合冷媒を用いたもの，例．混合冷媒カスケ−ドコンデンサをもつもの〔Ｄが優先〕	using non-azeotrope mixed refrigerants, e.g. with mixed refrigerant cascade condensers (D takes precedence)
+F25B   7/00  D	0	0	3L090	F25B   7/00	945	数個の独立サイクルをもつもの〔他のサイクルで過冷却またはス−パヒ−トするもの１／００　３９７〕	with several independent cycles (overcooled or superheated in other cycles 1/00 397)
+F25B   7/00  E	0	1	3L090	F25B   7/00	200	圧縮機の制御に特徴があるもの	Characterized by control of compressors
+F25B   7/00  Z	0	0	3L090	F25B   7/00	143	その他のもの	Others
+F25B   9/00  \	0	0	3L091	F25B   9/00	37	空気などの低沸騰点をもつ気体を冷媒にした圧縮式機械，プラントまたはシステム	Compression machines, plant, or systems, in which the refrigerant is air or other gas of low boiling point
+F25B   9/00  A	0	0	3L091	F25B   9/00	340	冷媒供給，回収または圧縮装置	refrigerant supply, collection, or compression devices
+F25B   9/00  B	0	0	3L091	F25B   9/00	142	管	pipes
+F25B   9/00  D	0	0	3L091	F25B   9/00	561	蓄冷器〔再生器〕	cold accumulators (reproducers)
+F25B   9/00  F	0	0	3L091	F25B   9/00	237	熱シ−ルド装置	heat shielding devices
+F25B   9/00  G	0	0	3L091	F25B   9/00	190	不純物除去装置	impurities removal devices
+F25B   9/00  H	0	0	3L091	F25B   9/00	407	コ−ルドヘツドまたはコ−ルドパネル	cold heads or cold panels
+F25B   9/00  J	0	0	3L091	F25B   9/00	238	熱交換器	heat exchangers
+F25B   9/00  K	0	1	3L091	F25B   9/00	80	再凝縮用	for recondensation
+F25B   9/00  Y	0	0	3L091	F25B   9/00	58	混合冷媒を用いるもの	using mixing refrigerants
+F25B   9/00  Z	0	0	3L091	F25B   9/00	835	その他のもの	Others
+F25B   9/00 301 \	1	1	3L091	F25B   9/00	527	空気サイクル	air cycle
+F25B   9/00 311 \	1	1	3L091	F25B   9/00	697	パルス管を用いるもの	using pulse pipes
+F25B   9/00 395 \	1	1	3L091	F25B   9/00	13	ジユ−ル・トムソンサイクルと他のサイクルとをもつもの，例．予冷サイクルをもつジユ−ル・トムソンサイクル	with Joule-Thomson cycle and other cycles, e.g. Joule-Thomson cycle having precooling cycle
+F25B   9/00 395 A	1	0	3L091	F25B   9/00	63	制御	control
+F25B   9/00 395 Z	1	0	3L091	F25B   9/00	138	その他のもの	Others
+F25B   9/02  \	1	1	3L091	F25B   9/02	2	ジュール・トムソン効果を用いるもの；ボルテックス効果を用いるもの	using Joule-Thompson effect; using vortex effect
+F25B   9/02  A	1	0	3L091	F25B   9/02	109	ジユ−ル・トムソン弁の上流側の冷媒と下流側の冷媒とがらせん状熱交換器で熱交換するもの，例．赤外線検出器冷却用	refrigerants on the upstream side of the Joule-Thomson valve and refrigerants on the downstream side being exchanged in heat by spiral heat exchangers, e.g. for cooling infrared ray detectors
+F25B   9/02  B	1	0	3L091	F25B   9/02	47	超流動ヘリウムを用いるもの	using superfluid helium
+F25B   9/02  C	1	0	3L091	F25B   9/02	116	予冷に特徴があるもの	Characterized by precooling
+F25B   9/02  D	1	0	3L091	F25B   9/02	38	冷媒を液化ガス槽内で冷却するもの	cooling refrigerants in the liquefied gas tank
+F25B   9/02  E	1	0	3L091	F25B   9/02	33	ジユ−ル・トムソン弁に特徴があるもの	Characterized by the Joule-Thomson valve
+F25B   9/02  J	1	0	3L091	F25B   9/02	135	制御〔Ａ〜Ｄが優先〕	control (A to D take precedence)
+F25B   9/02  K	1	1	3L091	F25B   9/02	42	ジユ−ル・トムソン弁の開度を変えるもの	changing the aperture of the Joule-Thomson valve
+F25B   9/02  Z	1	0	3L091	F25B   9/02	171	その他のもの	Others
+F25B   9/04  \	2	2	3L091	F25B   9/04	201	ボルテックス効果を用いるもの［５］	using vortex effect [5]
+F25B   9/06  \	1	1	3L091	F25B   9/06	8	膨張機を用いるもの（Ｆ２５Ｂ９／１０が優先）［５］	using expanders (F25B 9/10 takes precedence) [5]
+F25B   9/06  A	1	0	3L091	F25B   9/06	68	往復動型のもの	of the reciprocating motion type
+F25B   9/06  B	1	1	3L091	F25B   9/06	38	動力吸収装置に特徴があるもの	Characterized by the power absorber
+F25B   9/06  C	1	1	3L091	F25B   9/06	94	吸排気弁に特徴があるもの	Characterized by intake and exhaust valves
+F25B   9/06  D	1	1	3L091	F25B   9/06	55	ピストンまたはシリンダに特徴があるもの	Characterized by pistons or cylinders
+F25B   9/06  E	1	1	3L091	F25B   9/06	22	シ−ルに特徴があるもの	Characterized by sealing
+F25B   9/06  J	1	0	3L091	F25B   9/06	67	回動型のもの	of the rotary type
+F25B   9/06  K	1	1	3L091	F25B   9/06	243	膨張タ−ビンによるもの	by expansion turbines
+F25B   9/06  L	1	2	3L091	F25B   9/06	98	膨張タービンの構造	the structure of expansion turbines
+F25B   9/06  Z	1	0	3L091	F25B   9/06	73	その他のもの	Others
+F25B   9/08  \	1	1	3L091	F25B   9/08	35	エゼクタを用いるもの（Ｆ２５Ｂ９／１０が優先）［５］	using ejectors (F25B 9/10 takes precedence) [5]
+F25B   9/10  \	1	1	3L091	F25B   9/10	1	数個の冷却段をもつもの［５］	with several cooling stages [5]
+F25B   9/10  A	1	0	3L091	F25B   9/10	20	エゼクタをもつもの	with ejectors
+F25B   9/10  B	1	1	3L091	F25B   9/10	7	数個のエゼクタをもつもの	with several ejectors
+F25B   9/10  Z	1	0	3L091	F25B   9/10	36	その他のもの	Others
+F25B   9/12  \	1	1	3L091	F25B   9/12	64	↑３Ｈｅ―↑４Ｈｅ希釈を用いるもの［５］	using <sup>3</sup>He-<sup>4</sup>He dilution [5]
+F25B   9/14  \	1	1	3L091	F25B   9/14	8	用いられたサイクル，例．スターリングサイクル，に特徴のあるもの［５］	characterised by the cycle used, e.g. Stirling cycle [5]
+F25B   9/14  A	1	0	3L091	F25B   9/14	34	回動型のもの	of the rotation type
+F25B   9/14  Z	1	0	3L091	F25B   9/14	54	その他のもの	Others
+F25B   9/14 510 \	2	2	3L091	F25B   9/14	0	往復動型のもの	of the reciprocating motion type
+F25B   9/14 510 A	2	0	3L091	F25B   9/14	209	ＶＭサイクル	VM cycle
+F25B   9/14 510 B	2	0	3L091	F25B   9/14	339	ピストンまたはシリンダに特徴があるもの	Characterized by pistons or cylinders
+F25B   9/14 510 C	2	0	3L091	F25B   9/14	192	シ−ルに特徴があるもの	Characterized by sealing
+F25B   9/14 510 Z	2	0	3L091	F25B   9/14	132	その他のもの	Others
+F25B   9/14 520 \	3	3	3L091	F25B   9/14	9	スタ−リングサイクル（５４０が優先；スタ−リングエンジンにより圧縮機を駆動するもの２７／００）	stirring cycle (540 takes precedence; driving compressors by the stirring engine 27/00)
+F25B   9/14 520 A	3	0	3L091	F25B   9/14	265	デイスプレ−サピストンをもつもの	with displacer pistons
+F25B   9/14 520 B	3	1	3L091	F25B   9/14	147	スプリツト式のもの	of the split type
+F25B   9/14 520 E	3	0	3L091	F25B   9/14	131	ピストン移動手段に特徴があるもの	Characterized by the piston moving means
+F25B   9/14 520 F	3	1	3L091	F25B   9/14	395	リニアモータを用いるもの	using linear motors
+F25B   9/14 520 Z	3	0	3L091	F25B   9/14	649	その他のもの	Others
+F25B   9/14 530 \	3	3	3L091	F25B   9/14	8	ギフオ−ド・マクマホンサイクル（５４０が優先）	Giford-McMahon cycle (540 takes precedence)
+F25B   9/14 530 A	3	0	3L091	F25B   9/14	74	弁，例．弁の開閉または配置，に特徴があるもの	Characterized by valves, e.g. opening or closing of valves
+F25B   9/14 530 B	3	1	3L091	F25B   9/14	114	ロータリー弁を用いるもの	using rotary valves
+F25B   9/14 530 C	3	1	3L091	F25B   9/14	51	スライド弁を用いるもの	using slide valves
+F25B   9/14 530 Z	3	0	3L091	F25B   9/14	480	その他のもの	Others
+F25B   9/14 540 \	3	3	3L091	F25B   9/14	150	数個のサイクルをもつもの	with several cycles
+F25B  11/00  \	0	0	3L091	F25B  11/00	34	タービン，例．ガスタービン，を用いた圧縮式機械，プラントまたはシステム	Compression machines, plant, or systems, using turbines, e.g. gas turbines
+F25B  11/02  \	1	1	3L091	F25B  11/02	4	膨張機として用いたもの（Ｆ２５Ｂ９／０６が優先）［５］	as expanders (F25B 9/06 takes precedence) [5]
+F25B  11/02  A	1	0	3L091	F25B  11/02	283	凝縮器と蒸発器との間に膨張機を設けたもの	expanders being mounted between condensers and evaporators
+F25B  11/02  B	1	1	3L091	F25B  11/02	321	膨張機の出力で圧縮機を駆動するもの	driving compressors by the output of expanders
+F25B  11/02  C	1	0	3L091	F25B  11/02	22	圧縮機と凝縮器との間または蒸発器と圧縮機との間に膨張機を設けたもの	expanders being mounted between compressors and condensers or between evaporators and compressors
+F25B  11/02  D	1	0	3L091	F25B  11/02	29	圧縮機，凝縮器または蒸発器のバイパス回路に，またはインジエクシヨン回路に膨張機を設けたもの	expanders being mounted in compressors, condensers, or the bypass circuit of evaporators or in the injection circuit
+F25B  11/02  Z	1	0	3L091	F25B  11/02	48	その他のもの	Others
+F25B  11/04  \	2	2	3L091	F25B  11/04	5	遠心式のもの［５］	centrifugal type [5]
+F25B  13/00  \	0	0	3L092	F25B  13/00	110	可逆サイクルをもちいた圧縮式機械，プラントまたはシステム（除霜サイクルＦ２５Ｂ４７／０２）	Compression machines, plant, or systems, with reversible cycle (defrosting cycles F25B 47/02)
+F25B  13/00  A	0	0	3L092	F25B  13/00	707	冷媒に特徴があるもの，例．非共沸混合冷媒を用いるもの	characterized by refrigerants, e.g. using non-azeotrope mixed refrigerants
+F25B  13/00  J	0	0	3L092	F25B  13/00	1306	制御（始動時または停止時の制御に特徴があるもの３６１；空気調和機の制御Ｆ２４Ｆ１１／０２）	control (characterized by control at start or stop 361; controlling air conditioning devices F24F 11/02)
+F25B  13/00  K	0	1	3L092	F25B  13/00	545	熱交換器またはそのフアンを制御するもの	controlling heat exchangers or their fans
+F25B  13/00  M	0	1	3L092	F25B  13/00	1169	圧縮機を制御するもの	controlling compressors
+F25B  13/00  N	0	1	3L092	F25B  13/00	1449	減圧手段を制御するもの	controlling the pressure reducing means
+F25B  13/00  P	0	0	3L092	F25B  13/00	295	サイクルの構成部品または細部に特徴があるもの	Characterized by cycle component parts or details
+F25B  13/00  Q	0	1	3L092	F25B  13/00	214	気液分離機構に特徴があるもの〔気液分離機構自体４３／００；冷媒循環量の制御Ｍ〕	characterized by the vapor-liquid separation mechanism (vapor-liquid separation mechanism 43/00; controlling refrigerant circulation amount M)
+F25B  13/00  R	0	1	3L092	F25B  13/00	487	熱交換器またはフアンあるいはそれらの関係に特徴があるもの	Characterized by heat exchangers or fans or the relationship between them
+F25B  13/00  S	0	0	3L092	F25B  13/00	676	運転モ−ド切換機構に特徴があるもの	Characterized by the running mode switching mechanism
+F25B  13/00  U	0	0	3L092	F25B  13/00	457	複数の可逆圧縮式サイクルをもつもの；複数の圧縮機をもつもの〔複数の不可逆サイクルをもつもの１／００　３９７；不可逆圧縮式サイクルと可逆圧縮式サイクルとをもつもの２５／００Ｚ〕	with a plurality of reversible compression cycles; with a plurality of compressors (with a plurality of non-reversible cycles 1/00 397; with non-reversible compression cycles and reversible compression cycles 25/00Z)
+F25B  13/00  Z	0	0	3L092	F25B  13/00	207	その他のもの	Others
+F25B  13/00 103 \	1	1	3L092	F25B  13/00	219	除湿サイクルを有するもの	with dehumidification cycles
+F25B  13/00 104 \	1	1	3L092	F25B  13/00	2591	マルチタイプ	multi-type
+F25B  13/00 311 \	1	1	3L092	F25B  13/00	521	インジエクシヨン回路を有するもの	with injection circuits
+F25B  13/00 321 \	1	1	3L092	F25B  13/00	261	補助加熱冷却手段を有するもの（３１１が優先）	with the auxiliary heating and cooling means
+F25B  13/00 331 \	2	2	3L092	F25B  13/00	16	冷媒間で熱交換するもの	exchanging heat between refrigerants
+F25B  13/00 331 A	2	0	3L092	F25B  13/00	338	過冷却器，ス−パ−ヒ−タ−をもつもの〔Ｂが優先〕	with overcooling devices and superheaters (B takes precedence)
+F25B  13/00 331 B	2	0	3L092	F25B  13/00	198	圧縮機吸入管と熱交換するもの	exchanging heat with the intake pipe of the compressor
+F25B  13/00 331 Z	2	0	3L092	F25B  13/00	88	その他のもの	Others
+F25B  13/00 341 \	2	2	3L092	F25B  13/00	19	冷媒加熱手段を有するもの（３３１が優先）	with the refrigerant heating means (331 takes precedence)
+F25B  13/00 341 A	2	0	3L092	F25B  13/00	335	蒸発器または凝縮器を加熱するもの	heating evaporators or condensers
+F25B  13/00 341 B	2	0	3L092	F25B  13/00	328	回路中に冷媒加熱器をもつもの〔減圧器を介さないで冷媒を加熱蒸発させるもの１／００　３９９；冷媒加熱器をもつサイクルで四方弁以外の手段で切換操作をするものは２９／００　３２１などの２９／００内各項目参照；冷媒加熱器自体４１／００Ａ；冷媒加熱器をもつ室外ユニツトＦ２４Ｆ５／００Ｖ〕	with refrigerant heaters in the circuit (heating and evaporating refrigerants not via the pressure reducer 1/00 399; the switching operation being performed by means other than the 4-way valve in the cycle having refrigerant heaters, see each item in 29/00 such as 29/00 321; refrigerant heaters 41/00A; outside-chamber units having refrigerant heaters F24F 5/00V)
+F25B  13/00 341 C	2	1	3L092	F25B  13/00	329	冷媒加熱器が室外熱交換器に直列に配列されたもの〔Ｅが優先〕	refrigerant heaters being arranged in outside-chamber heat exchangers in series (E takes precedence)
+F25B  13/00 341 D	2	1	3L092	F25B  13/00	395	冷媒加熱器が室外熱交換器に並列に配列されたもの〔Ｅが優先〕	refrigerant heaters being arranged in outside-chamber heat exchangers in parallel (E takes precedence)
+F25B  13/00 341 E	2	1	3L092	F25B  13/00	606	制御，例．冷媒循環量の制御〔冷媒加熱器をもつ空気調和機の制御Ｆ２４Ｆ１１／０２　１０２Ｙ〕	control, e.g. controlling the refrigerant circulation amount (controlling air conditioning devices having refrigerant heaters F24 11/02 102Y)
+F25B  13/00 341 Z	2	0	3L092	F25B  13/00	43	その他のもの	Others
+F25B  13/00 351 \	1	1	3L092	F25B  13/00	1479	蓄熱回路を有するもの	with the heat accumulation circuit
+F25B  13/00 361 \	1	1	3L092	F25B  13/00	520	始動時または停止時の制御に特徴があるもの	Characterized by control at start or stop
+F25B  13/00 371 \	1	1	3L092	F25B  13/00	517	減圧手段に特徴があるもの	Characterized by the pressure reducing means
+F25B  15/00  \	0	0	3L093	F25B  15/00	25	連続作動形収着式機械，プラントまたはシステム，例．吸収式	Sorption machines, plant, or systems, operating continuously, e.g. absorption type
+F25B  15/00  A	0	0	3L093	F25B  15/00	68	分離された冷媒を加圧するもの	pressurizing separated refrigerants
+F25B  15/00  B	0	0	3L093	F25B  15/00	480	冷媒，およびまたは収着剤に特徴のあるもの	Characterized by refrigerants and/or sorption agents
+F25B  15/00  C	0	0	3L093	F25B  15/00	142	一重，二重効用兼用のもの	also for single and double effects
+F25B  15/00  D	0	0	3L093	F25B  15/00	183	２以上の収着式冷凍機械を組み合せたもの	combined with 2 or more sorption refrigerators
+F25B  15/00  E	0	0	3L093	F25B  15/00	65	舶用または自動車用として使用するもの〔３０１Ｅ，３０３Ｅが優先〕	used for ships and automobiles (301E and 303E take precedence)
+F25B  15/00  F	0	0	3L093	F25B  15/00	275	冷却系に特徴のあるもの〔３０６が優先〕	characterized by the cooling system (306 takes precedence)
+F25B  15/00  G	0	1	3L093	F25B  15/00	70	冷温水流路を切り換えることができるもの	switching the cold water path
+F25B  15/00  Z	0	0	3L093	F25B  15/00	566	その他のもの	Others
+F25B  15/00 101 \	1	1	3L093	F25B  15/00	17	一重効用のもの（１０３が優先）	single effects (103 takes precedence)
+F25B  15/00 102 \	1	1	3L093	F25B  15/00	148	多重効用のもの（１０３が優先）	multiple effects (103 takes precedence)
+F25B  15/00 103 \	1	1	3L093	F25B  15/00	0	溶液が重力で循環するもの	solutions circulating by the gravity
+F25B  15/00 104 \	1	1	3L093	F25B  15/00	2	発生器の加熱量の制御に特徴のあるもの	Characterized by control of heating amount of generators
+F25B  15/00 301 \	1	1	3L093	F25B  15/00	1	一重効用のもの（３０５，３０６が優先）	single effects (305 and 306 take precedence)
+F25B  15/00 301 A	1	0	3L093	F25B  15/00	290	溶液または冷媒の流路の特殊な配列	specific arrangement of the flow path of solutions or refrigerants
+F25B  15/00 301 B	1	0	3L093	F25B  15/00	331	熱交換器の配列に特徴のあるもの	Characterized by arrangement of heat exchangers
+F25B  15/00 301 C	1	0	3L093	F25B  15/00	99	受液器の配列に特徴のあるもの	Characterized by arrangement of liquid receivers
+F25B  15/00 301 E	1	0	3L093	F25B  15/00	375	熱源に特徴のあるもの，例．２以上の熱源を用いるもの〔ボイラ自体３３／００〕	characterized by the heat source, e.g. with two or more heat sources (boiler 33/00)
+F25B  15/00 301 J	1	0	3L093	F25B  15/00	100	２以上のボイラ，吸収器，吸着器，蒸発器または凝縮器を用いるもの〔二重効用のもの３０３〕	using two or more boilers, absorbers, sorbers, evaporators, or condensers (double effects 303)
+F25B  15/00 301 K	1	1	3L093	F25B  15/00	53	ボイラまたは凝縮器が２以上であるもの	two or more boilers or condensers
+F25B  15/00 301 L	1	1	3L093	F25B  15/00	149	蒸発器または吸収器が２以上であるもの	two or more evaporators or absorbers
+F25B  15/00 301 Z	1	0	3L093	F25B  15/00	166	その他のもの	Others
+F25B  15/00 303 \	1	1	3L093	F25B  15/00	2	二重効用のもの（３０５，３０６が優先）	double effects (305 and 306 take precedence)
+F25B  15/00 303 A	1	0	3L093	F25B  15/00	394	溶液または冷媒の流路の特殊な配列	special arrangement of solution or refrigerant flow paths
+F25B  15/00 303 B	1	0	3L093	F25B  15/00	448	熱交換器の配列に特徴のあるもの	Characterized by arrangement of heat exchangers
+F25B  15/00 303 C	1	0	3L093	F25B  15/00	84	受液器の配列に特徴のあるもの	Characterized by arrangement of liquid receivers
+F25B  15/00 303 E	1	0	3L093	F25B  15/00	290	熱源に特徴のあるもの，例．２以上の熱源を使用できるもの〔ボイラ自体３３／００〕	characterized by the heat source. e.g. with two or more heat sources (boiler 33/00)
+F25B  15/00 303 J	1	0	3L093	F25B  15/00	267	３以上のボイラもしくは２以上の吸収器，吸着器，蒸発器または凝縮器を用いるもの	using three or more boilers or two or more absorbers, sorbers, evaporators, or condensers
+F25B  15/00 303 Z	1	0	3L093	F25B  15/00	155	その他のもの	Others
+F25B  15/00 305 \	1	1	3L093	F25B  15/00	2	溶液が重力で循環するもの（３０６が優先）	solutions circulating by the gravity (306 takes precedence)
+F25B  15/00 305 A	1	0	3L093	F25B  15/00	67	溶液または冷媒の流路の特殊な配列	special arrangement of solution or refrigerant flow paths
+F25B  15/00 305 B	1	0	3L093	F25B  15/00	21	熱交換器の配列に特徴のあるもの	Characterized by arrangement of heat exchangers
+F25B  15/00 305 C	1	0	3L093	F25B  15/00	41	受液器の配列に特徴のあるもの	Characterized by arrangement of liquid receivers
+F25B  15/00 305 Z	1	0	3L093	F25B  15/00	18	その他のもの	Others
+F25B  15/00 306 \	1	1	3L093	F25B  15/00	5	制御に特徴のあるもの	Characterized by control
+F25B  15/00 306 A	1	0	3L093	F25B  15/00	394	冷凍機械，プラントまたはシステムの起動または停止，例．台数制御	start or stop of refrigerators, plant, or systems e.g. controlling the number
+F25B  15/00 306 B	1	0	3L093	F25B  15/00	21	高圧逃し弁の配列	arrangement of high pressure release valves
+F25B  15/00 306 C	1	0	3L093	F25B  15/00	556	熱源を制御するもの〔Ｊ，Ｋ，Ｒ，Ｘが優先〕	controlling the heat source (J, K, R, and X take precedence)
+F25B  15/00 306 D	1	1	3L093	F25B  15/00	111	熱源の起動または停止	start or stop of the heat source
+F25B  15/00 306 E	1	1	3L093	F25B  15/00	219	２以上の熱源を用いるもの	using two or more heat sources
+F25B  15/00 306 J	1	0	3L093	F25B  15/00	106	溶液，冷媒または冷却流体の流量制御の組合せ	a combination of flow rate control of solutions, refrigerants, or cooling fluids
+F25B  15/00 306 K	1	0	3L093	F25B  15/00	349	溶液の流量制御	solution flow rate control
+F25B  15/00 306 N	1	1	3L093	F25B  15/00	289	ポンプにより制御するもの	controlling by pumps
+F25B  15/00 306 P	1	1	3L093	F25B  15/00	221	バイパス流路の流量を制御するもの	controlling the flow rate of the bypass flow path
+F25B  15/00 306 Q	1	1	3L093	F25B  15/00	139	溶液レベルを制御することにより流量を制御するもの	controlling the flow rate by controlling the solution level
+F25B  15/00 306 R	1	0	3L093	F25B  15/00	351	冷媒の流量制御	controlling the refrigerant flow rate
+F25B  15/00 306 U	1	1	3L093	F25B  15/00	85	ポンプにより制御するもの	controlling by pumps
+F25B  15/00 306 V	1	1	3L093	F25B  15/00	191	溶液の中に冷媒を供給する弁を用いるもの	using valves for supplying refrigerants in the solution
+F25B  15/00 306 W	1	1	3L093	F25B  15/00	29	温水熱交換器を用いるもの	using hot water heat exchangers
+F25B  15/00 306 X	1	0	3L093	F25B  15/00	349	冷却流体の流量制御	controlling the flow rate of cooling fluids
+F25B  15/00 306 Z	1	0	3L093	F25B  15/00	461	その他のもの	Others
+F25B  15/02  \	1	1	3L093	F25B  15/02	109	不活性ガスを用いないもの（Ｆ２５Ｂ１５／１２，Ｆ２５Ｂ１５／１４，Ｆ２５Ｂ１５／１６が優先）	without inert gas (F25B 15/12, F25B 15/14, F25B 15/16 take precedence)
+F25B  15/04  \	2	2	3L093	F25B  15/04	309	水溶液から蒸発するアンモニアを冷媒とするもの	the refrigerant being ammonia evaporated from aqueous solution
+F25B  15/06  \	2	2	3L093	F25B  15/06	44	塩溶液，例．臭化リチウム，から蒸発する水蒸気を冷媒とするもの	the refrigerant being water vapour evaporated from a salt solution, e.g. lithium bromide
+F25B  15/08  \	2	2	3L093	F25B  15/08	1	硫酸を冷媒とするもの	the refrigerant being sulfuric acid
+F25B  15/09  \	2	2	3L093	F25B  15/09	7	水素化物から放出された水素を冷媒とするもの［５］	the refrigerant being hydrogen desorbed from a hydride [5]
+F25B  15/10  \	1	1	3L093	F25B  15/10	2	不活性ガスによるもの（Ｆ２５Ｂ１５／１２，Ｆ２５Ｂ１５／１４，Ｆ２５Ｂ１５／１６が優先）	with inert gas (F25B 15/12, F25B 15/14, F25B 15/16 take precedence)
+F25B  15/10  A	1	0	3L093	F25B  15/10	24	溶液または冷媒の流路の特殊な配列	special arrangement of flow paths of solutions or refrigerants
+F25B  15/10  B	1	0	3L093	F25B  15/10	20	熱交換器の配列に特徴のあるもの	Characterized by arrangement of heat exchangers
+F25B  15/10  C	1	0	3L093	F25B  15/10	9	受液器の配列に特徴のあるもの	Characterized by arrangement of liquid receivers
+F25B  15/10  Z	1	0	3L093	F25B  15/10	110	その他のもの	Others
+F25B  15/12  \	1	1	3L093	F25B  15/12	0	再吸収器を有するもの（Ｆ２５Ｂ１５／１４が優先）	with resorber (F25B 15/14 takes precedence)
+F25B  15/14  \	1	1	3L093	F25B  15/14	66	浸透を用いるもの	using osmosis
+F25B  15/16  \	1	1	3L093	F25B  15/16	8	デソープションサイクルを用いるもの	using desorption cycle
+F25B  17/00  \	0	0	3L093	F25B  17/00	11	間欠作動形収着式機械，プラントまたはシステム，例．吸収または吸着式	Sorption machines, plant, or systems, operating intermittently, e.g. absorption or adsorption type
+F25B  17/02  \	1	1	3L093	F25B  17/02	157	吸収剤または吸着剤が液状，例．塩水であるもの（Ｆ２５Ｂ１７／１０が優先）	the absorbent or adsorbent being a liquid, e.g. brine (F25B 17/10 takes precedence)
+F25B  17/04  \	2	2	3L093	F25B  17/04	15	２個以上のボイラが交互に作動するもの	with two or more boilers operating alternately
+F25B  17/06  \	2	2	3L093	F25B  17/06	1	傾動または回転可能にボイラおよび蒸発器が造られているもの	with the boiler and evaporator built-up as a unit in a tiltable or revolving arrangement
+F25B  17/08  \	1	1	3L093	F25B  17/08	17	吸収剤または吸着剤が固体，例．塩，であるもの（Ｆ２５Ｂ１７／１２が優先）［５］	the absorbent or adsorbent being a solid, e.g. salt (F25B 17/12 takes precedence) [5]
+F25B  17/08  A	1	0	3L093	F25B  17/08	187	ル−プ式，すなわち，冷媒がル−プ中を循環するもの〔Ｆが優先〕	loop type, e.g. refrigerants circulating in the loop (F takes precedence)
+F25B  17/08  B	1	1	3L093	F25B  17/08	224	２個以上のボイラが交互に作動するもの	two or more boilers operating alternately
+F25B  17/08  C	1	0	3L093	F25B  17/08	266	往復動式，すなわち，１本のパイプ中を冷媒が往復動するもの〔Ｆが優先〕	reciprocating motion, e.g. refrigerants moving in one pipe back and forth (F takes precedence)
+F25B  17/08  D	1	1	3L093	F25B  17/08	121	凝縮器を備えるもの〔Ｅが優先〕	with condensers (E takes precedence)
+F25B  17/08  E	1	1	3L093	F25B  17/08	184	２個以上のボイラが交互に作動するもの	two or more boilers operating alternately
+F25B  17/08  F	1	0	3L093	F25B  17/08	46	煩動または回動自在にボイラおよび蒸発器が造られているもの	boilers and evaporators being manufactured so as to freely react or rotate
+F25B  17/08  Z	1	0	3L093	F25B  17/08	460	その他のもの	Others
+F25B  17/10  \	1	1	3L093	F25B  17/10	4	吸熱性の塩溶液を用いるもの	using the endothermic solution of salt
+F25B  17/12  \	1	1	3L093	F25B  17/12	4	水素化物からの水素放出を用いるもの［５］	using desorption of hydrogen from a hydride [5]
+F25B  17/12  K	1	0	3L093	F25B  17/12	80	複数の反応系を有するもの	with a plurality of reaction systems
+F25B  17/12  L	1	1	3L093	F25B  17/12	100	複数の反応系の管路が独立しているもの	pipes of a plurality of reaction systems being independent
+F25B  17/12  M	1	0	3L093	F25B  17/12	78	金属水素化物自体が移動するものまたは金属容器が傾動または回転自在になつているもの	metal hydrogen compounds moving or metal vessels being inclined or rotating freely
+F25B  17/12  N	1	0	3L093	F25B  17/12	48	加熱源に特徴のあるもの	Characterized by the heating source
+F25B  17/12  P	1	0	3L093	F25B  17/12	157	細部，例．金属容器	details, e.g. metal vessels
+F25B  17/12  Q	1	0	3L093	F25B  17/12	119	制御・調整	control and adjustment
+F25B  17/12  Z	1	0	3L093	F25B  17/12	181	その他のもの	Others
+F25B  19/00  \	0	0	3L094	F25B  19/00	11	冷媒蒸気の回収を行わない蒸発を用いた機械，プラントまたはシステム	Machines, plant, or systems, using evaporation of a refrigerant but without recovery of the vapour
+F25B  19/00  A	0	0	3L094	F25B  19/00	177	減圧下において蒸発させるもの〔エジエクタにより吸引減圧するもの，１９／０２，１９／０４；エジエクタを用いたもので冷媒を回収するもの，１／０６，１／０８〕	articles being evaporated under reduced pressure (sucked and depressurized by the ejector, 19/02, 19/04; using the ejector and collecting refrigerants, 1/06, 1/08)
+F25B  19/00  Z	0	0	3L094	F25B  19/00	187	その他のもの	Others
+F25B  19/02  \	1	1	3L094	F25B  19/02	91	流体ジェット，例．蒸気のジェット，を用いるもの	using fluid jet, e.g. of steam
+F25B  19/04  \	2	2	3L094	F25B  19/04	97	液体ジェット，例．水のジェット，を用いるもの	using liquid jet, e.g. of water
+F25B  21/00  \	0	0	3L094	F25B  21/00	14	電気または磁気効果を用いた機械，プラントまたはシステム	Machines, plant, or systems, using electric or magnetic effects
+F25B  21/00  A	0	0	3L094	F25B  21/00	771	磁気効果を用いたもの〔コロナ放電によるものＺ〕	using the magnetic effect (by corona discharge Z)
+F25B  21/00  Z	0	0	3L094	F25B  21/00	89	その他のもの	Others
+F25B  21/02  \	1	1	3L094	F25B  21/02	97	ペルチェ効果を用いるもの；エッチングスハウゼン効果を用いるもの［２００６．０１］	using Peltier effect; using Nernst-Ettinghausen effect [1, 2006.01]
+F25B  21/02  A	1	0	3L094	F25B  21/02	743	ペルチエ効果を用いるもの〔同効果を用いた空調室内ユニツトＦ２４Ｆ１／００　３５１；同効果を用いた車輛冷房装置Ｂ６０Ｈ１／３２　１０２Ｗ；同効果を用いた冷蔵庫Ｆ２５Ｄ１１／００　１０１Ｗ〕	using the Peltier effect (units in the air conditioning room using the effect F24F 1/00 351; automobile coolers using the effect B 60 H 1/32 102W; refrigerators using the effect F25D 11/00 101W)
+F25B  21/02  D	1	1	3L094	F25B  21/02	143	ヒ−トパイプにより伝熱するもの	heat transfer by heat pips
+F25B  21/02  E	1	1	3L094	F25B  21/02	53	多重式のもの	by the multiple type
+F25B  21/02  F	1	1	3L094	F25B  21/02	230	制御，安全	control, safety
+F25B  21/02  G	1	1	3L094	F25B  21/02	55	流体の加熱又は冷却　（＠Ｄ〜Ｆが優先）	heating or cooling liquids (@D to F take precedence)
+F25B  21/02  H	1	2	3L094	F25B  21/02	155	気体の加熱又は冷却	heating or cooling gases
+F25B  21/02  J	1	3	3L094	F25B  21/02	9	気体の加熱	heating gases
+F25B  21/02  K	1	3	3L094	F25B  21/02	172	気体の冷却	cooling gases
+F25B  21/02  L	1	4	3L094	F25B  21/02	177	除湿；凝縮　（ペルチェ効果を用いた除湿装置　　Ｂ０１Ｄ５３／２６＠Ａ）	dehumidification; condensation (dehumidification devices using the Peltier effect B 01 D 53/26 @A)
+F25B  21/02  M	1	2	3L094	F25B  21/02	195	液体の加熱又は冷却	heating or cooling liquids
+F25B  21/02  N	1	3	3L094	F25B  21/02	35	液体の加熱	heating liquids
+F25B  21/02  P	1	4	3L094	F25B  21/02	11	蒸発；加湿	evaporation; moistening
+F25B  21/02  Q	1	3	3L094	F25B  21/02	209	液体の冷却　　（冷水器　　Ｆ２５Ｄ１１／００，１０２）	cooling liquids (water cooler F25D 11/00, 102)
+F25B  21/02  R	1	1	3L094	F25B  21/02	149	固体の加熱又は冷却	heating or cooling solids
+F25B  21/02  S	1	2	3L094	F25B  21/02	12	固体の加熱	heating solids
+F25B  21/02  T	1	2	3L094	F25B  21/02	196	固体の冷却	cooling solids
+F25B  21/02  Z	1	0	3L094	F25B  21/02	122	その他のもの	Others
+F25B  21/04  \	2	2	3L094	F25B  21/04	76	可逆のもの［５］	reversible [5]
+F25B  23/00  \	0	0	3L094	F25B  23/00	25	グループＦ２５Ｂ１／００〜Ｆ２５Ｂ２１／００に包含されない単一の作動様式，例．選択的な輻射効果を用いるもの，をもつ機械，プラントまたはシステム	Machines, plant, or systems, with a single mode of operation not covered by groups F25B 1/00-F25B 21/00, e.g. using selective radiation effect
+F25B  23/00  A	0	0	3L094	F25B  23/00	35	溶解熱を利用したもの〔気体の固体への吸着または気体の液体への吸収に伴なう反応熱を利用するもの１５／００，１７／００；放射冷却器Ｆ２５Ｄ３１／００	using the dissolution heat (using the reaction heat caused by sorption of gases to solids or absorption of gases to liquids 15/00, 17/00; radiation cooler F25D 31/00
+F25B  23/00  Z	0	0	3L094	F25B  23/00	178	その他のもの	Others
+F25B  25/00  \	0	0	3L094	F25B  25/00	9	グループＦ２５Ｂ１／００〜Ｆ２５Ｂ２３／００中の２個以上のグループに属する作動様式を組み合わせた形式の機械，プラントまたはシステム［２００６．０１］	Machines, plants or systems, using a combination of modes of operation covered by two or more of the groups F25B 1/00-F25B 23/00 [1, 2006.01]
+F25B  25/00  A	0	0	3L094	F25B  25/00	69	ペルチエ効果またはエツチングスハウゼン効果を用いた作動様式と他の作動様式とを組み合わせたもの	a combination of the operation mode using the Peltier effect or Ettinghausen effect with other operation modes
+F25B  25/00  B	0	0	3L094	F25B  25/00	38	磁気効果を用いた作動様式と他の作動様式とを組み合わせたもの	a combination of the operation mode using the magnetic effect with other operation modes
+F25B  25/00  Z	0	0	3L094	F25B  25/00	140	その他のもの	Others
+F25B  25/02  \	1	1	3L094	F25B  25/02	11	圧縮―収着式機械，プラントまたはシステム	Compression-sorption machines, plants, or systems
+F25B  25/02  A	1	0	3L094	F25B  25/02	318	圧縮−吸収式のもの〔圧縮式サイクルを駆動するエンジンの排熱を利用する吸収式サイクル２７／０２Ｋ〕	of the compression - absorption type (absorption type cycle using waste heat of the engine driving the compression type cycle 27/02 k)
+F25B  25/02  B	1	1	3L094	F25B  25/02	143	圧縮式サイクルと吸収式サイクルとが連通し，同一の冷媒が流れているもの，例．圧縮機が発生器に直列に設けられたもの	compression type cycle and absorption type cycle being connected and same refrigerant flowing, e.g. compressors connected to the generator in series
+F25B  25/02  C	1	2	3L094	F25B  25/02	10	エジエクタと吸収式サイクルとを組み合わせたもの〔太陽エネルギを用いるそのようなもの２７／００Ｎ；排熱を用いるそのようなもの２７／０２Ｎ；エジエクタと他の圧縮式サイクルとを多段に組み合わせたもの１／１０；それらを並列に組み合わせたもの１／００Ｚ〕	a combination of the ejector and the absorption type cycle (using solar energy 27/00N; using waste heat 27/02N; ejectors and other compression type cycles being combined in multi-stage 1/10; those devices combined in parallel 1/00Z)
+F25B  25/02  Z	1	0	3L094	F25B  25/02	95	その他のもの	Others
+F25B  27/00  \	0	0	3L094	F25B  27/00	83	特殊なエネルギ源を用いる機械，プラントまたはシステム（Ｆ２５Ｂ３０／０６が優先）	Machines, plant, or systems, using particular sources of energy (F25B 30/06 takes precedence)
+F25B  27/00  A	0	0	3L094	F25B  27/00	778	エンジンにより圧縮機を駆動するもの〔風力，波力あるいは人力により駆動するものＺ；内燃機関を利用した空調室外ユニツトＦ２４Ｆ５／００Ｘ〕	driving compressors by the engine (driving by wind force, wave force, or human force Z; units outside the air conditioning room using an internal-combustion engine F24F 5/00X)
+F25B  27/00  B	0	1	3L094	F25B  27/00	682	制御，安全〔Ｃ〜Ｆ優先〕	control, safety (C to F take precedence)
+F25B  27/00  C	0	1	3L094	F25B  27/00	208	車輛，船舶または航空機のエンジンにより圧縮機を駆動するもの〔Ｄ〜Ｆが優先；エンジンにより駆動される車輛冷房装置Ｂ６０Ｈ１／３２　１０２Ｇ，Ｔ〕	driving compressors by engines of automobiles, ships, or planes (D to F take precedence; automobile coolers driven by engines B 60 H 1/32 102G, T)
+F25B  27/00  D	0	1	3L094	F25B  27/00	47	内燃式ガスタ−ビンエンジンにより圧縮機を駆動するもの〔冷凍サイクルの構成部品としてタ−ビンを用いるもの１１／００；排気ガスタ−ビンにより圧縮機を駆動するもの２７／０２Ｌ〕	driving compressors by internal-combustion gas turbine engines (turbines used as a component part of the freezing cycle 11/00; driving compressors by exhaust gas turbines 27/02L)
+F25B  27/00  E	0	1	3L094	F25B  27/00	147	外燃機関〔例．スタ−リングエンジン，ランキンサイクル〕により圧縮機を駆動するもの〔外燃機関を介して太陽エネルギで圧縮機を駆動するものＬ〕	driving compressors by external-combustion engines, e.g. stirring engine, ranking cycle (driving compressors by solar energy via external-combustion engines L)
+F25B  27/00  F	0	2	3L094	F25B  27/00	90	冷凍サイクルに連通し，これと同一の冷媒が流れるランキンサイクルにより圧縮機を駆動するもの〔冷凍サイクル内に減圧弁の機能を兼ねるタ−ビンを有するもの１１／００〕	driving compressors by the ranking cycle which is connected to the freezing cycle and in which the same refrigerant flows (with turbines functioning as pressure reducing valves in the freezing cycle 11/00)
+F25B  27/00  G	0	0	3L094	F25B  27/00	51	流体圧〔例．油圧〕により圧縮機を駆動するもの	driving compressors by the fluid pressure, e.g. oil pressure
+F25B  27/00  H	0	0	3L094	F25B  27/00	320	太陽エネルギを用いるもの〔風力，波力を用いるものＺ〕	using solar energy (using wind force and wave force Z)
+F25B  27/00  J	0	1	3L094	F25B  27/00	180	冷凍サイクル内の冷媒を直接日射で加熱するもの〔Ｌ〜Ｎが優先〕	heating refrigerants in the freezing cycle by direct input (L to N take precedence)
+F25B  27/00  K	0	2	3L094	F25B  27/00	121	制御，安全	control, safety
+F25B  27/00  L	0	1	3L094	F25B  27/00	148	収着式〔例．吸収式〕のもの〔Ｎが優先〕	sorption type, e.g. absorption type (N takes precedence)
+F25B  27/00  M	0	1	3L094	F25B  27/00	160	太陽エネルギにより圧縮機を駆動するもの，例．ランキンサイクルを用いて太陽エネルギにより駆動するもの；太陽電池によるもの〔Ｎが優先〕	driving compressors by solar energy, e.g. driving by solar energy using the ranking cycle; by solar cells (N takes precedence)
+F25B  27/00  N	0	1	3L094	F25B  27/00	16	エジエクタによるもの	by ejectors
+F25B  27/00  P	0	0	3L094	F25B  27/00	371	温泉熱，地下水熱または地熱を用いるもの〔地下水熱または高温でない地熱を用いるヒ−トポンプ３０／０６Ｔ；風呂の残り湯の熱を用いるもの２７／０２Ｊ〜Ｚ〕	using hot spring heat, underground heat, or geothermal heat (heat pumps using underground heat or geothermal heat being not hot 30/60; using heat of remaining hot water of a bath 27/02J to Z)
+F25B  27/00  Q	0	0	3L094	F25B  27/00	72	燃料用液化ガス〔例．都市ガス用ＬＮＧ〕の冷熱を用いるもの〔この冷熱を用いる冷却装置Ｆ２５Ｄ３／１０Ｆ〕	using cooling heat of liquefied gas for fuel, e.g. town gas LNG (coolers using this cooling heat F25D 3/10F)
+F25B  27/00  R	0	0	3L094	F25B  27/00	100	Ａ〜Ｑに属さないエネルギ源の複数を用いるもの，例．空気熱源と水熱源とを切換使用するもの	using a plurality of energy sources not belonging to A to Q, e.g. switching the air heat source and water heat source
+F25B  27/00  Z	0	0	3L094	F25B  27/00	202	その他のもの	Others
+F25B  27/02  \	1	1	3L094	F25B  27/02	95	排熱，例．内燃機関の排熱，を用いるもの	using waste heat, e.g. from internal-combustion engines
+F25B  27/02  A	1	0	3L094	F25B  27/02	243	居住空間またはそれに類似する空間〔例．屋根裏，浴室〕の暖冷気の排熱を用いるもの〔Ｊ〜Ｐが優先；これらの空間の暖冷房を同時に行なうもの２９／００　３６１〕	using waste heat of heating and cooling air of the residence space or similar space, e.g. garret, bath room (J to P take precedence; air conditioning of these spaces being executed at the same time 29/00 361)
+F25B  27/02  B	1	0	3L094	F25B  27/02	21	照明器具の排熱を用いるもの〔Ｊ〜Ｐが優先；凝縮器排熱を用いるもの２９／００　３５１〜４４１；圧縮機排熱を用いるもの１／００　３０６Ｄ，１／００　３２１Ｍ〜Ｒ，１／０４Ｊ，Ｖ，１３／００　３４１などの１／００〜１３／００内の各項目参照，照明器具の発熱を利用した中央式空調Ｆ２４Ｆ３／０５６〕	using waste heat of lighting fixtures (J to P take precedence; using waste heat of condensers 29/00 351 to 441; using waste heat of compressors 1/00 306D, see each item in 1.00 to 13/00 such as 1/00 321M to 321R, 1/04J, 04V, 13/00 341, central air conditioning using generated heat of lighting fixtures F24F 3/056)
+F25B  27/02  C	1	0	3L094	F25B  27/02	376	エンジン排熱を用いるもの  （＠Ｊ〜Ｐが優先；圧縮機をエンジンで駆動するものは２７／００＠Ａが優先）	using waste heat of engines (@J to P take precedence; driving compressors by engines 27/00, @A takes precedence)
+F25B  27/02  D	1	1	3L094	F25B  27/02	178	制御，安全〔Ｅ〜Ｈが優先〕	control, safety (E to H take precedence)
+F25B  27/02  E	1	1	3L094	F25B  27/02	61	冷却媒体〔例．冷却水〕中にエンジンを浸漬するもの〔Ｇ，Ｈが優先〕	immersing engines in freezing media, e.g. cooling water (G and H take precedence)
+F25B  27/02  F	1	1	3L094	F25B  27/02	511	エンジン排熱で冷凍サイクル内の冷媒を加熱するもの，例．エンジン排熱で蒸発器を加熱するもの〔Ｇ，Ｈが優先〕	heating refrigerants in the freezing cycle by waste heat of engines, e.g. heating evaporators by waste heat of engines (G and H take precedence)
+F25B  27/02  U	1	2	3L094	F25B  27/02	136	外気熱源側熱交換器において冷媒をエンジン排熱で追加加熱するもの	additionally heating refrigerants in the heat exchanger on the external heat source side by waste heat of engines
+F25B  27/02  V	1	2	3L094	F25B  27/02	24	アキユムレ−タ，気液分離器，レシ−バにおいて冷媒をエンジン排熱で加熱するもの	heating refrigerants in the accumulator, vapor-liquid separator, and receiver by waste heat of engines
+F25B  27/02  G	1	1	3L094	F25B  27/02	114	車輛，船舶または航空機のエンジン排熱を用いるもの〔Ｈが優先〕	using waste heat of engines of automobiles, ships, or planes (H takes precedence)
+F25B  27/02  H	1	1	3L094	F25B  27/02	85	外燃機関〔例．スタ−リングエンジン，ランキンサイクル〕の排熱を用いるもの	using waste heat of external-combustion engines
+F25B  27/02  J	1	0	3L094	F25B  27/02	203	収着式〔例．水素吸蔵式〕機械，プラントまたはシステムでエネルギ源に排熱を用いるもの	using waste heat for the energy source in sorption machines, e.g. hydrogen absorption type, plant, or systems
+F25B  27/02  K	1	1	3L094	F25B  27/02	727	吸収式機械，プラントまたはシステムでエネルギ源に排熱を用いるもの〔Ｎが優先〕	using waste heat for the energy source in sorption machines, plant, or systems (N takes precedence)
+F25B  27/02  L	1	0	3L094	F25B  27/02	103	排熱により圧縮機を駆動する機械，プラントまたはシステム，例．排熱利用のタ−ビンにより圧縮機を駆動するもの〔Ｎが優先〕	machines, plant, or systems for driving compressors by waste heat, e.g. driving compressors by turbines using waste heat (N takes precedence)
+F25B  27/02  N	1	0	3L094	F25B  27/02	80	エジエクタを用いた機械，プラントまたはシステムでエネルギ源に排熱を用いるもの〔エジエクタを用いた機械，プラントまたはシステム自体１／０６，１／０８〕	using waste heat for the energy source in machines using ejectors, plant, or systems (machines, plant, or systems using ejectors 1/06, 1/08)
+F25B  27/02  P	1	0	3L094	F25B  27/02	21	フラツシユ槽を用いた機械，プラントまたはシステムでエネルギ源に排熱を用いるもの	using waste heat for the energy source in machines using flash tanks , plant, or systems
+F25B  27/02  Q	1	0	3L094	F25B  27/02	200	排液を熱源とするもの	using waste liquids as a heat source
+F25B  27/02  R	1	0	3L094	F25B  27/02	108	排気を熱源とするもの  （エンジン排気を熱源とするものは＠Ｃ）	using exhaust air as a heat source
+F25B  27/02  Z	1	0	3L094	F25B  27/02	261	その他のもの	Others
+F25B  29/00  \	0	0	3L094	F25B  29/00	117	加熱と冷凍との組みあわせシステム，例．交互または同時に作動するもの［５］	Combined heating and refrigeration systems, e.g. operating alternately or simultaneously [5]
+F25B  29/00 301 \	1	1	3L094	F25B  29/00	38	圧縮式サイクルを用いた加熱，冷凍組み合わせシステム（４３１，４４１優先）	a system combining heating and freezing using the compression type cycle (431 and 441 take precedence)
+F25B  29/00 311 \	2	2	3L094	F25B  29/00	68	加熱側と冷凍側とを交互に利用するもの（３５１優先）	using the heating side and the freezing side alternately (351 takes precedence)
+F25B  29/00 321 \	3	3	3L094	F25B  29/00	120	暖房と冷房とを交互に行なうもの（圧縮式可逆サイクル自体１３／００；多数の部屋の択一的な冷暖房に用いる可逆サイクル１３／００１０４）	heating and cooling alternately (compression type reversible cycle 13/00; reversible cycle using for air conditioning of many rooms in an alternative way)
+F25B  29/00 331 \	4	4	3L094	F25B  29/00	154	床暖房と冷房とを交互に行なうもの（床暖房と天井冷房とを同時に行なうもの３６１）	floor heating and cooling alternately (floor heating and ceiling heating alternately at the same time 361)
+F25B  29/00 341 \	3	3	3L094	F25B  29/00	26	水加熱と冷房とを交互に行なうもの	water heating and cooling alternately
+F25B  29/00 351 \	2	2	3L094	F25B  29/00	434	加熱側と冷凍側とを同時に利用するもの，例．冷凍シヨ−ケ−スの凝縮器発生熱を店内暖房に利用するもの	using the heating side and freezing side at the same time, e.g. using generated heat of condensers in freezing showcases for heating stores
+F25B  29/00 361 \	3	3	3L094	F25B  29/00	19	水加熱と水冷却とを同時に行なうもの；暖房と冷房とを同時に行なうもの	water heating and water cooling at the same time; heating and cooling at the same time
+F25B  29/00 361 A	3	0	3L094	F25B  29/00	402	四方弁により冷媒流路を切換えるもの	switching the refrigerant flow path by the 4-way valve
+F25B  29/00 361 B	3	0	3L094	F25B  29/00	375	四方弁以外の手段により熱交換器を蒸発器←→凝縮器切換使用するもの	using heat exchangers to switch evaporators and condensers each other by means other than the 4-way valve
+F25B  29/00 361 Z	3	0	3L094	F25B  29/00	324	その他のもの	Others
+F25B  29/00 371 \	3	3	3L094	F25B  29/00	5	水加熱と冷房とを同時に行なうもの	water heating and water cooling at the same time
+F25B  29/00 371 A	3	0	3L094	F25B  29/00	72	四方弁以外の手段により熱交換器を蒸発器←→凝縮器切換使用するもの〔そのようなものの制御，安全，Ｆ〕	using heat exchangers to switch evaporators and condensers each other by means other than the 4-way valve (control and safety for that, F)
+F25B  29/00 371 B	3	0	3L094	F25B  29/00	197	四方弁をもつもの〔そのようなものの制御，安全Ｆ〕	with 4-way valves (control and safety for that, F)
+F25B  29/00 371 C	3	1	3L094	F25B  29/00	90	「図」	[figure]
+F25B  29/00 371 D	3	1	3L094	F25B  29/00	97	「図」	[figure]
+F25B  29/00 371 E	3	1	3L094	F25B  29/00	75	複数の四方弁をもつもの〔そのような可逆圧縮式サイクル自体１３／００Ｓ〕	with a plurality of 4-way valves (such reversible compression type cycle 13/00S)
+F25B  29/00 371 F	3	0	3L094	F25B  29/00	161	制御，安全	control, safety
+F25B  29/00 371 G	3	1	3L094	F25B  29/00	34	タイマを用いたもの；時刻または季節判別デ−タによる制御〔Ｈ，Ｊ優先〕	using timers; control by the time or season discrimination data (H and J take precedence)
+F25B  29/00 371 H	3	1	3L094	F25B  29/00	29	暖房時に蒸発器が給湯水で加熱されるシステムの制御	controlling the system that evaporators are heated by supplied hot water during heating
+F25B  29/00 371 J	3	1	3L094	F25B  29/00	42	給湯優先または冷暖房優先運転	running that hot water supply or air conditioning takes precedence
+F25B  29/00 371 Z	3	0	3L094	F25B  29/00	133	その他のもの	Others
+F25B  29/00 381 \	3	3	3L094	F25B  29/00	81	空気の冷却とその再加熱とを同時に行なうもの	air cooling and reheating at the same time
+F25B  29/00 391 \	4	4	3L094	F25B  29/00	28	空気冷却時に除湿を行なうもの（除湿後空気の再加熱を行なわないもの１／００　３０３，１３／００　１０３）	dehumidification at the time of air cooling (not reheating air after dehumidification 1/00 303, 13/00 103)
+F25B  29/00 391 A	4	0	3L094	F25B  29/00	109	熱交換器，例．再熱器，に特徴があるもの	Characterized by the heat exchanger, e.g. reheaters
+F25B  29/00 391 Z	4	0	3L094	F25B  29/00	222	その他のもの	Others
+F25B  29/00 401 \	5	5	3L094	F25B  29/00	42	暖房，水の加熱冷却と除湿とを交互に行なうもの（４１１優先）	heating, water heating and cooling, and dehumidification alternately (411 takes precedence)
+F25B  29/00 411 \	5	5	3L094	F25B  29/00	0	冷房と除湿とを交互に行なうもの	cooling and dehumidification alternately
+F25B  29/00 411 A	5	0	3L094	F25B  29/00	176	直列タイプ，すなわち再熱器と室外熱交換器とが直列に設けられたもの，例．「図」	direct type, e.g. reheaters and outside-room heat exchangers being mounted in series, e.g. [figure]
+F25B  29/00 411 B	5	1	3L094	F25B  29/00	405	冷房時，再熱器内に低圧冷媒が流入し，蒸発器として機能するこの再熱器と他の室内蒸発器とが直列であるもの，例．「図」	during cooling, low pressure refrigerants entering the reheater and the reheater functioning as an evaporator and evaporators in other rooms being arranged in series
+F25B  29/00 411 C	5	2	3L094	F25B  29/00	84	冷房時と除湿時とで再熱器内の冷媒の流れ方向が逆になるもの，例．「図」	the refrigerant flowing directions in the reheater at the time of cooling and dehumidification being reverse, e.g. [figure]
+F25B  29/00 411 D	5	1	3L094	F25B  29/00	88	冷房時，再熱器内に低圧冷媒が流入し，蒸発器として機能するこの再熱器と他の室内蒸発器とが並列であるもの，例．「図」	during cooling, low pressure refrigerants entering the reheater and the reheater functioning as an evaporator and evaporators in other rooms being arranged in parallel
+F25B  29/00 411 E	5	0	3L094	F25B  29/00	207	並列タイプ，すなわち冷房時または除湿時において高圧冷媒を再熱器と室外熱交換器の両方またはいずれか一方に振り分けるもの，例．「図」	parallel type, e.g. during cooling or dehumidification, high pressure refrigerants being distributed in both or either one of the reheater and outside-room heat exchanger, e.g. [figure]
+F25B  29/00 411 F	5	1	3L094	F25B  29/00	20	冷房時，室外熱交換器を通過後減圧された低圧冷媒が再熱器内に流入し，蒸発器として機能するこの再熱器と他の室内蒸発器とが直列であるもの，例．「図」	during cooling, after passing the outside-room heat exchanger, the lower pressure refrigerant depressurized flowing into the reheater and the reheater functioning as an evaporator and other inside-room evaporators being arranged in series, e.g. [figure]
+F25B  29/00 411 G	5	1	3L094	F25B  29/00	42	冷房時，室外熱交換器を通過後減圧された低圧冷媒が再熱器内に流入し，蒸発器として機能するこの再熱器と他の室内蒸発器とが並列であるもの，例．「図」	during cooling, after passing the outside-room heat exchanger, the lower pressure refrigerant depressurized flowing into the reheater and the reheater functioning as an evaporator and other inside-room evaporators being arranged in parallel, e.g. [figure]
+F25B  29/00 411 H	5	0	3L094	F25B  29/00	128	複数の室外熱交換器をもつタイプ；中間分岐口のある室外熱交換器をもつタイプ〔Ａ〜Ｇに優先〕	type having a plurality of outside-room exchangers; type having outside-room heat exchangers with intermediate branch ports (A to G take precedence)
+F25B  29/00 411 J	5	0	3L094	F25B  29/00	41	冷凍サイクルの低圧冷媒により再熱を行なうタイプ〔Ａ〜Ｇに優先〕	type reheating by low pressure refrigerants of the freezing cycle (A to G take precedence)
+F25B  29/00 411 K	5	0	3L094	F25B  29/00	2	室内←→室外切換可能な熱交換器を用いるタイプ〔Ａ〜Ｇに優先〕	heat exchangers capable of switching inside-room and outside-room each other (A to G take precedence)
+F25B  29/00 411 L	5	0	3L094	F25B  29/00	57	再熱器内にサイクルの冷媒が流入しないもの，例．ヒ−トパイプを用いて再加熱するもの	no cycle refrigerants flowing into the reheater, e.g. reheating using the heat bypass
+F25B  29/00 411 Z	5	0	3L094	F25B  29/00	36	その他のもの	Others
+F25B  29/00 421 \	1	1	3L094	F25B  29/00	148	収着式，例．吸収式，サイクルを用いた加熱，冷凍組み合わせシステム（４３１，４４１優先）	sorption type, e.g. absorption type, systems combined with heating and freezing using the cycle (431 and 441 take precedence)
+F25B  29/00 431 \	1	1	3L094	F25B  29/00	14	複数のサイクルを用いた加熱，冷凍組み合わせシステム；複数の吐出口あるいは吸入口をもつ圧縮機または複数の圧縮機による加熱，冷凍組み合わせシステム	systems combined with heating and freezing using a plurality of cycles; systems combined with heating and freezing by a compressor or a plurality of compressors having a plurality of discharge ports and intake ports
+F25B  29/00 431 A	1	0	3L094	F25B  29/00	65	空気の冷却とその再加熱とを行なうもの	cooling and reheating air
+F25B  29/00 431 Z	1	0	3L094	F25B  29/00	187	その他のもの	Others
+F25B  29/00 441 \	2	2	3L094	F25B  29/00	185	カスケ−ド形のもの，すなわち．一のサイクルの凝縮器発生熱が他のサイクルの蒸発器に吸収させるタイプのもの（カスケ−ド形圧縮式サイクル自体７／００）	of the cascade type, i.e. of the type that a condenser generated heat of one cycle being absorbed in an evaporator of other cycles (cascade compression type cycle 7/00)
+F25B  30/00  \	0	0	3L094	F25B  30/00	28	ヒートポンプ（Ｆ２５Ｂ１／００〜Ｆ２５Ｂ２５／００，Ｆ２５Ｂ２９／００が優先）［２００６．０１］	Heat pumps (F25B 1/00-F25B 25/00, F25B 29/00 take precedence) [5, 2006.01]
+F25B  30/02  \	1	1	3L094	F25B  30/02	15	圧縮式のもの［５］	of the compression type [5]
+F25B  30/02  A	1	0	3L094	F25B  30/02	79	浴室または浴槽用	for bath rooms or bath tubs
+F25B  30/02  B	1	0	3L094	F25B  30/02	91	輻射暖房用，例．床暖房用	for radiation heating, e.g. for floor heating
+F25B  30/02  C	1	0	3L094	F25B  30/02	71	融雪用	for melting snow
+F25B  30/02  F	1	0	3L094	F25B  30/02	485	給湯用〔Ａが優先〕	for supplying hot water (A takes precedence)
+F25B  30/02  G	1	1	3L094	F25B  30/02	160	数個の水加熱用熱交換器をもつもの	with several heat exchangers for heating water
+F25B  30/02  H	1	1	3L094	F25B  30/02	492	制御〔Ｇが優先〕	control (G takes precedence)
+F25B  30/02  J	1	2	3L094	F25B  30/02	115	圧縮機の能力制御	compressor capacity control
+F25B  30/02  K	1	2	3L094	F25B  30/02	37	電気ヒ−タの制御	electric heater control
+F25B  30/02  Z	1	0	3L094	F25B  30/02	220	その他のもの	Others
+F25B  30/04  \	1	1	3L094	F25B  30/04	23	収着式のもの［５］	of the sorption type [5]
+F25B  30/04 510 \	2	2	3L094	F25B  30/04	6	一重効用のもの（５３０が優先，制御→１５／００　３０６）	single effect (530 takes precedence, control R 15/00 306)
+F25B  30/04 510 A	2	0	3L094	F25B  30/04	131	第２種ヒ−トポンプ，例．蒸発器に熱源流体を送るもの	2nd class heat pumps, e.g. heat source fluids being sent to evaporators
+F25B  30/04 510 B	2	0	3L094	F25B  30/04	34	温水熱交換器に特徴のあるもの	Characterized by the hot water heat exchanger
+F25B  30/04 510 C	2	0	3L094	F25B  30/04	158	溶液または冷媒の流路を切り換えることができるもの	solution or refrigerant flowing paths capable of being switched
+F25B  30/04 510 Z	2	0	3L094	F25B  30/04	137	その他のもの	Others
+F25B  30/04 520 \	2	2	3L094	F25B  30/04	0	二重効用のもの（５３０が優先，制御→１５／００　３０６）	double effects (530 takes precedence, control R 15/00 306)
+F25B  30/04 520 B	2	0	3L094	F25B  30/04	57	温水熱交換器に特徴のあるもの	Characterized by the hot water heat exchanger
+F25B  30/04 520 C	2	0	3L094	F25B  30/04	89	容液または冷媒の流路を切り換えることができるもの	solution or refrigerant flowing paths capable of being switched
+F25B  30/04 520 Z	2	0	3L094	F25B  30/04	53	その他のもの	Others
+F25B  30/04 530 \	2	2	3L094	F25B  30/04	48	溶液が重力で循環するもの	solutions circulating by the gravity
+F25B  30/06  \	1	1	3L094	F25B  30/06	9	低温熱源に特徴のあるもの［５］	characterised by the source of low potential heat [5]
+F25B  30/06  T	1	0	3L094	F25B  30/06	532	地下水熱または高温でない地熱を用いるヒ−トポンプ〔これらの熱源を用いる冷凍システムまたは高温地熱を用いるヒ−トポンプ２７／００Ｐ〕	heat pumps using underground heat or geothermal heat being not hot (freezing systems using these heat sources or heat pumps using high geothermal heat 27/00P)
+F25B  30/06  Z	1	0	3L094	F25B  30/06	89	その他のもの	Others
+F25B  31/00  \	0	0	3L095	F25B  31/00	13	圧縮機の配置［２００６．０１］	Compressor arrangements [1, 2006.01]
+F25B  31/00  A	0	0	3L095	F25B  31/00	226	複数の圧縮機の配置〔複数圧縮機の容量制御は１／００　３６１Ｊ，１３／００Ｊ，それらの始動制御は１／００　３４１Ｖ，１３／００　３６１等の１／００〜１３／００内の各項目参照〕	arrangement of a plurality of compressors (capacity control of a plurality of compressors 1/00 361J, 13/00J,  start control thereof, see each item in 1/00 to 13/00 such as 1/00 341V, 13/00 361, etc.
+F25B  31/00  B	0	0	3L095	F25B  31/00	88	受液器，蒸発器または凝縮器への圧縮機の配置〔Ａが優先；サイクルの形式に特徴のない圧縮機の冷却１／００　３２１；圧縮機への電装品の取り付け４９／００　３５１；車輛用冷房装置における圧縮機の配置と取り付けＢ６０Ｈ１／３２Ｇ；冷蔵庫における圧縮機の配置と取り付けＦ２５Ｄ１９／００Ｈ；空調室外ユニツトへの圧縮機の配置と取り付けＦ２４Ｆ５／００Ｕ〕	arrangement of compressors in liquid receivers, evaporators, or condensers (A takes precedence; cooling of compressors whose cycle type is not characterized 1/00 321; mounting of electrical parts to compressors 49/00 351; arrangement and mounting of compressors in vehicle coolers B 60 H 1/32G; arrangement and mounting of compressors in refrigerators F25D 19/00H; arrangement and mounting of compressors in units outside the air conditioning room F24F 5/00U)
+F25B  31/00  Z	0	0	3L095	F25B  31/00	188	その他のもの	Others
+F25B  31/02  \	1	1	3L095	F25B  31/02	10	モータと圧縮機とが単一体になっているもの	of motor-compressor units
+F25B  31/02  A	1	0	3L095	F25B  31/02	59	複数の圧縮機の配置〔冷媒用レシプロ式圧縮機Ｆ０４Ｂ２５／００〜４１／０６；そのための防音，防振，潤滑，冷却Ｆ０４Ｂ３９／００〜３９／０６；それの防振支持Ｆ０４Ｂ３９／００　１０２Ｆ，Ｇ；冷媒用ロ−タリ−式圧縮機Ｆ０４Ｃ１８／００〜２９／００；そのための消音，潤滑，冷却Ｆ０４Ｃ２９／００〜２９／０６；遠心式圧縮機Ｆ０４Ｄ〕	arrangement of a plurality of compressors (refrigerant reciprocating compressors F04B 25/00 to 41/06; sound-proof, vibration-proof, lubrication, and cooling for it F04B 39/00 to 39/06; vibration-proof support thereof F04B 39/00 102F, 102G; freezing rotary compressors F04C 18/00 to 29/00; sound arrest for it, lubrication, and cooling F04C 29/00 to 29/06; centrifugal compressors F04D)
+F25B  31/02  Z	1	0	3L095	F25B  31/02	272	その他のもの	Others
+F25B  33/00  \	0	0	3L096	F25B  33/00	19	ボイラ；アナライザ；精溜器（吸収器兼用ボイラＦ２５Ｂ３５／００）	Boilers; Analysers; Rectifiers (boiler-absorbers F25B 35/00)
+F25B  33/00  A	0	0	3L096	F25B  33/00	109	精溜器	fractionator
+F25B  33/00  B	0	0	3L096	F25B  33/00	130	小型冷凍機用のボイラ	boilers for small refrigerators
+F25B  33/00  Z	0	0	3L096	F25B  33/00	784	その他	Others
+F25B  35/00  \	0	0	3L096	F25B  35/00	24	吸収器兼用ボイラ，すなわち吸収または吸着に使用できるボイラ	Boiler-absorbers, i.e. boilers usable for absorption or adsorption
+F25B  35/02  \	1	1	3L096	F25B  35/02	9	液状収着剤，例．塩水，を用いるもの	using a liquid as sorbent, e.g. brine
+F25B  35/04  \	1	1	3L096	F25B  35/04	208	固体状収着剤を用いるもの	using a solid as sorbent
+F25B  37/00  \	0	0	3L096	F25B  37/00	789	吸収器；吸着器（吸収器兼用ボイラＦ２５Ｂ３５／００）［２００６．０１］	Absorbers; Adsorbers (boiler-absorbers F25B 35/00) [1, 2006.01]
+F25B  39/00  \	0	0	3L095	F25B  39/00	19	蒸発器；凝縮器	Evaporators; Condensers
+F25B  39/00  A	0	0	3L095	F25B  39/00	93	気体を直接加熱，冷却するもの〔Ｋ〜Ｓが優先〕	directly heating and cooling gas (K to S take precedence)
+F25B  39/00  B	0	1	3L095	F25B  39/00	112	フインをもつもの〔例．回転型のもの〕	with fins, e.g. rotary type
+F25B  39/00  C	0	2	3L095	F25B  39/00	643	積層型，すなわち偏平な冷媒管とフインの層とを交互に重ねたもの	laminating type, i.e. flat refrigerant pipes and fin layers being laminated alternately
+F25B  39/00  D	0	2	3L095	F25B  39/00	631	クロスフイン型，すなわち平板状のフインを冷媒管が貫通しているもの	cross fin type, i.e. refrigerant pipes passing through flat fins
+F25B  39/00  E	0	3	3L095	F25B  39/00	467	ヘツダまたは冷媒分配器をもつクロスフイン型	cross fin type having a header or refrigerant distributor
+F25B  39/00  F	0	1	3L095	F25B  39/00	65	フインをもたない平板状のもの〔例．ロ−ルボンド型，パイプオンシ−ト型〕	flat shape having no fins, e.g. roll bond type, pipe-on sheet type
+F25B  39/00  G	0	0	3L095	F25B  39/00	222	液体を直接加熱，冷却するもの〔Ｋ〜Ｓが優先〕	directly heating and cooling liquids (K to S take precedence)
+F25B  39/00  H	0	1	3L095	F25B  39/00	98	シエルアンドチユ−ブ型	shell and tube type
+F25B  39/00  J	0	0	3L095	F25B  39/00	15	気体と液体との両方を直接加熱，冷却するもの，例．切換式のもの；ヒ−トパイプによるもの〔Ｋ〜Ｓが優先〕	directly heating and cooling both gases and liquids, e.g. switching type; by heat pipes (K to S take precedence)
+F25B  39/00  K	0	0	3L095	F25B  39/00	272	収着式〔例．吸収式〕に特有なもの	intrinsic to the sorption type, e.g. absorption type
+F25B  39/00  L	0	0	3L095	F25B  39/00	114	膨脹機構〔例．キヤピラリチユ−ブ〕，サクシヨンパイプ，冷媒流入管またはコネクタ−との関連に特徴があるもの	Characterized by the relationship with the expansion mechanism, e.g. capillary tubes, suction pipes, refrigerant flow-in pipes, or connectors
+F25B  39/00  M	0	1	3L095	F25B  39/00	129	ヘツダ−，冷媒分配器をもつ蒸発器または凝縮器で膨脹機構との関連に特徴があるもの	Characterized by the relationship of headers, evaporators having refrigerant distributors or condensers with the expansion mechanism
+F25B  39/00  N	0	0	3L095	F25B  39/00	120	冷媒溜め，受液器，気液分離器，アキユムレ−タ，ドライヤまたはオイルセパレ−タとの関連に特徴があるもの	Characterized by the relationship with refrigerant collectors, liquid receivers, vapor-liquid separators, accumulators, driers, or oil separators
+F25B  39/00  P	0	0	3L095	F25B  39/00	115	部材の被ふくまたは表面処理に特徴があるもの	Characterized by coating of members or the surface treatment
+F25B  39/00  Q	0	0	3L095	F25B  39/00	201	冷媒管内への挿入物，ウイツクまたはインナ−フインに特徴があるもの；冷媒パイプの構造に特徴があるもの	Characterized by inserts in the refrigerant pipes and wick or inner fins; characterized by the refrigerant pipe structure
+F25B  39/00  R	0	0	3L095	F25B  39/00	29	除じんまたは清掃に特徴があるもの〔冷媒の除じん４３／００〕	characterized by dusting or cleaning (dusting of refrigerants 43/00)
+F25B  39/00  S	0	0	3L095	F25B  39/00	30	電気的手段，磁気的手段または加振手段による蒸発，凝縮の促進，例．超音波振動によるもの；補助的な冷却または加熱手段による蒸発，凝縮の促進	promotion of evaporation and condensation by the electric means, magnetic means, or vibration means, e.g. by ultrasonic vibration; promotion of evaporation and condensation by the auxiliary cooling or heating means
+F25B  39/00  Z	0	0	3L095	F25B  39/00	122	その他のもの	Others
+F25B  39/02  \	1	1	3L095	F25B  39/02	27	蒸発器	Evaporators
+F25B  39/02  A	1	0	3L095	F25B  39/02	83	気体を直接冷却するもの〔Ｒ〜Ｙが優先；サイクル全体に影響する蒸発器の制御は１／００〜２９／００内の各項目を参照〕	directly cooling gas (R to Y take precedence); for control of evaporators affecting the whole cycles, see  each item in 1/00 to 29/00)
+F25B  39/02  B	1	1	3L095	F25B  39/02	105	フインをもつもの，例．回転型あるいは針状フインをもつもの	with fins, e.g. with rotary or needle-shaped fins
+F25B  39/02  C	1	2	3L095	F25B  39/02	1021	積層型，すなわち偏平な冷媒管とフインの層とを交互に重ねたもの	laminating type, i.e. flat refrigerant pipes and fin layers being laminated alternately
+F25B  39/02  D	1	3	3L095	F25B  39/02	271	蛇行積層型，すなわち偏平な冷媒管を曲げ重ね，その間にフインの層をはさんだもの〔Ｅが優先〕〔Ｆ２８Ｆ９／０２，３０１Ｃも参照）	meandering laminating type, i.e. flat refrigerant pipes being bent and overlaid and fin layers being inserted between them (E takes precedence) (see F28F 9/02, 301C)
+F25B  39/02  E	1	3	3L095	F25B  39/02	485	積層型蒸発器における凝縮水の排除；フインの構造に特徴がある積層型蒸発器〔親水性コ−テイングに特徴があるものＶ〕	draining of condensed water in laminating type evaporators; laminating type evaporators characterized by the fin structure (characterized by hydrophilic coating V)
+F25B  39/02  F	1	2	3L095	F25B  39/02	295	クロスフイン型，すなわち平板状のフインを冷媒管が貫通しているもの	cross fin type, i.e. refrigerant pipes passing through flat fins
+F25B  39/02  G	1	3	3L095	F25B  39/02	346	ヘツダまたは冷媒分配器をもつクロスフイン型蒸発器〔Ｈ，Ｊが優先；冷媒分配器自体４１／００Ｃ〕	cross fin type evaporators having headers or refrigerant distributors (H and J take precedence; refrigerant distributors 41/00C)
+F25B  39/02  H	1	3	3L095	F25B  39/02	437	クロスフイン型蒸発器のための着霜の予防または着霜による目づまりの軽減	prevention of frost falling for cross fin type evaporators or reduction in clogging due to frost falling
+F25B  39/02  J	1	3	3L095	F25B  39/02	360	クロスフイン型蒸発器における除霜水，凝縮水の排除，例．凝縮水の飛散防止〔親水性コ−テイングに特徴があるものＶ〕	draining of defrosting water and condensed water in cross fin type evaporators, e.g. prevention of scattering of condensed water (characterized by hydrophilic coating)
+F25B  39/02  K	1	1	3L095	F25B  39/02	233	フインを持たない平板状蒸発器，例．ロ−ルボンド型蒸発器	flat evaporators having no fins, e.g. roll bond type evaporators
+F25B  39/02  L	1	2	3L095	F25B  39/02	146	パイプオンシ−ト型	pipe-on sheet type
+F25B  39/02  M	1	0	3L095	F25B  39/02	309	液体を直接冷却するもの，例．ブラインを冷却するもの〔Ｒ〜Ｙが優先；粉粒体を直接冷却するものＺ〕	directly cooling liquids, e.g. cooling brine (R to Y take precedence; directly cooling powder and grain Z)
+F25B  39/02  N	1	1	3L095	F25B  39/02	142	シエルアンドチユ−ブ型	shell and tube type
+F25B  39/02  P	1	2	3L095	F25B  39/02	194	シエル内に冷媒が貯留されているシエルアンドチユ−ブ型蒸発器〔チユ−ブの多孔質材による被ふくに特徴があるものＶ〕	shell and tube type evaporators that refrigerants being stored in the shell (
+F25B  39/02  Q	1	0	3L095	F25B  39/02	31	気体と液体との両方を直接冷却するもの，例．切換式のもの；ヒ−トパイプによるもの〔Ｒ〜Ｙ優先〕	directly cooling both gases and liquids, e.g. switching type; by heat pipes (R and Y take precedence)
+F25B  39/02  R	1	0	3L095	F25B  39/02	446	収着式〔例．吸収式〕に特有なもの	intrinsic to the sorption type, e.g. absorption type
+F25B  39/02  S	1	0	3L095	F25B  39/02	320	膨脹機構〔例．キヤピラリチユ−ブ〕，サクシヨンパイプ，冷媒流入管またはコネクタとの関連に特徴があるもの	Characterized by the relationship with the expansion mechanism, e.g. capillary tubes, suction pipes, refrigerant flow-in pipes, or connectors
+F25B  39/02  T	1	1	3L095	F25B  39/02	224	ヘツダまたは冷媒分流器を有する単数あるいは複数の蒸発器で膨脹機構との関連に特徴があるもの	Characterized by the relationship of headers or  single or plural evaporators having refrigerant distributors with the expansion mechanism
+F25B  39/02  U	1	0	3L095	F25B  39/02	200	冷媒溜め，受液器，気液分離器，アキユムレ−タ，ドライヤまたはオイルセパレ−タとの関連に特徴があるもの	Characterized by the relationship with refrigerant collectors, liquid receivers, vapor-liquid separators, accumulators, driers, or oil separators
+F25B  39/02  V	1	0	3L095	F25B  39/02	266	部材の被ふくまたは表面処理に特徴があるもの	Characterized by coating of members or the surface treatment
+F25B  39/02  W	1	0	3L095	F25B  39/02	204	冷媒管内への挿入物，ウイツクまたはインナ−フインに特徴があるもの；冷媒管の構造に特徴があるもの，例．冷媒管が蒸発器入口部で太く出口部で細いもの〔被ふく材に特徴があるものＶ〕	Characterized by inserts in the refrigerant pipes and wick or inner fins; characterized by the refrigerant pipe structure, e.g. refrigerant pipes being thick at the inlet of evaporators and thin at the outlet (characterized by coating materials V)
+F25B  39/02  X	1	0	3L095	F25B  39/02	63	除じんまたは清掃に特徴があるもの；電気的手段，磁気的手段または加振手段による蒸発の促進，例．超音波振動によるもの；補助的な加熱手段，例．電気ヒ−タ，による蒸発の促進〔凝縮水飛散防止用フイルタＥ，Ｊ，Ｙ；冷媒の除じん４３／００〕	characterized by dusting or cleaning; promotion of evaporation by the electric means, magnetic means, or vibration means, e.g. by ultrasonic vibration; promotion of evaporation by the auxiliary heating means, e.g. electric heaters (condensed water scattering prevention filters E, J, and Y; dusting of refrigerants 43/00)
+F25B  39/02  Y	1	0	3L095	F25B  39/02	168	積層型，クロスフイン型以外の蒸発器における着霜の予防，着霜による目づまりの軽減または除霜水，凝縮水の排除〔親水性コ−テイングに特徴があるものＶ；除霜４７／００〕	prevention of frost falling in evaporators other than  laminating type and cross fin type evaporators, reduction in clogging due to frost falling, or draining of defrosting water and condensed water (characterized by hydrophilic coating V; defrosting  47/00)
+F25B  39/02  Z	1	0	3L095	F25B  39/02	190	その他のもの	Others
+F25B  39/04  \	1	1	3L095	F25B  39/04	25	凝縮器	Condensers
+F25B  39/04  A	1	0	3L095	F25B  39/04	127	気体を直接加熱するもの〔Ｑ〜Ｙが優先；サイクル全体に影響する凝縮器の制御は，１／００〜２９／００内の各項目参照；凝縮器フアンの制御は，１／００，３８１，１３／００Ｋなどの，１／００〜２９／００内の各項目参照〕	directly heating gas (Q to Y take precedence); for control of evaporators affecting the whole cycles, see  each item in 1/00 to 29/00; for control of condenser fans, see each item in 1/00 to 29/00 such as 1/00, 381, 13/00K)
+F25B  39/04  B	1	1	3L095	F25B  39/04	118	フインをもつもの，例．回転型あるいはワイヤ−フインをもつもの	with fins, e.g. with rotary or wire fins
+F25B  39/04  C	1	2	3L095	F25B  39/04	580	積層型，すなわち偏平な冷媒管とフインの層とを交互に重ねたもの	laminating type, i.e. flat refrigerant pipes and fin layers being overlaid alternately
+F25B  39/04  D	1	3	3L095	F25B  39/04	110	蛇行積層型，すなわち偏平な冷媒管を曲げ重ね，その間にフインの層をはさんだもの	meandering laminating type, i.e. flat refrigerant pipes being bent and laid and fin layers being inserted between them
+F25B  39/04  E	1	2	3L095	F25B  39/04	199	クロスフイン型，すなわち平板状のフインを冷媒管が貫通しているもの	cross fin type, i.e. refrigerant pipes passing through flat fins
+F25B  39/04  F	1	3	3L095	F25B  39/04	161	ヘツダまたは冷媒分配器をもつクロスフイン型凝縮器	cross fin type condensers having headers or refrigerant distributors
+F25B  39/04  G	1	1	3L095	F25B  39/04	64	フインをもたない平板状凝縮器，例．ロ−ルボンド型またはパイプオンシ−ト型凝縮器	flat condensers having no fins, e.g. roll bond type or pipe-on sheet type condensers
+F25B  39/04  H	1	0	3L095	F25B  39/04	376	液体を直接加熱するもの，例．ブラインを加熱するもの〔Ｑ〜Ｙ優先；粉粒体を直接加熱するもの，Ｚ；被加熱液体循環ポンプの制御，１／００，３８１，１３／００Ｋなどの，１／００〜２９／００内の各項目参照〕	directly heating liquids, e.g. heating brine (Q to Y take precedence; directly heating powder and grain , Z; controlling of heated liquid circulation pumps, see each item in 1/00 to 29/00 such as 1/00, 381, 13/00K)
+F25B  39/04  J	1	1	3L095	F25B  39/04	246	シエルアンドチユ−ブ型，例．冷却水パイプの構造に特徴があるもの〔過冷却パイプに特徴があるもの，Ｙ〕	shell and tube type, e.g. characterized by the structure of cooling water pipes (characterized by overcooling pipes, Y)
+F25B  39/04  K	1	1	3L095	F25B  39/04	157	２重管または３重管型	double or triple pipe type
+F25B  39/04  L	1	0	3L095	F25B  39/04	69	気体と液体との両方を直接加熱するもの，例．切換式のもの；ヒ−トパイプによるもの〔Ｑ〜Ｙが優先；切換の制御１／００　３０５Ｃ，Ｈ〕	directly heating both gases and liquids, e.g. switching type; by heat pipes (Q to Y take precedence; switching control 1/00 305 C, H)
+F25B  39/04  M	1	0	3L095	F25B  39/04	100	凝縮器表面からの水の蒸発により冷却されるもの，例．毛細管現象により導水するもの〔Ｑ〜Ｙが優先〕	cooled by evaporation of water from the condenser surface, e.g. introducing water by the capillary phenomenon (Q to Y take precedence)
+F25B  39/04  N	1	1	3L095	F25B  39/04	594	散布，噴霧またはかけ流しにより凝縮器表面に水をかけるもの〔散布水循環ポンプの制御は１／００　３８１，１３／００Ｋなどの１／００〜１３／００内各項目を参照〕	spraying water on the condenser surface by scattering, spraying, or pouring water (for control of scattering water circulation pumps, see each item in 1/00 to 13/00 such as 1/00, 381, 13/00K)
+F25B  39/04  P	1	2	3L095	F25B  39/04	93	回転体により水を飛散させるもの	scattering water by the body of rotation
+F25B  39/04  Q	1	0	3L095	F25B  39/04	140	収着式〔例．吸収式〕に特有なもの〔Ｒ〜Ｙが優先〕	intrinsic to sorption type, e.g. absorption type (R to Y take precedence)
+F25B  39/04  R	1	0	3L095	F25B  39/04	97	膨脹機構〔例．キヤピラリチユ−ブ〕，サクシヨンパイプ，冷媒流入管またはコネクタとの関連に特徴があるもの	Characterized by the relationship with the expansion mechanism, e.g. capillary tubes, suction pipes, refrigerant flow-in pipes, or connectors
+F25B  39/04  S	1	0	3L095	F25B  39/04	710	冷媒溜め，受液器，気液分離器，アキユムレ−タ，ドライヤまたはオイルセパレ−タとの関連に特徴があるもの	Characterized by the relationship with refrigerant collectors, liquid receivers, vapor-liquid separators, accumulators, driers, or oil separators
+F25B  39/04  T	1	0	3L095	F25B  39/04	72	部材の被ふくまたは表面処理に特徴があるもの	Characterized by coating of members or the surface treatment
+F25B  39/04  U	1	0	3L095	F25B  39/04	174	冷媒管内への挿入物，ウイツクまたはインナ−フインに特徴があるもの；冷媒管の構造に特徴があるもの，例．冷媒管が凝縮器入口部で太く出口部で細いもの〔被ふく材に特徴があるものＴ；冷却水パイプに特徴があるものＨ〜Ｋ〕	Characterized by inserts in the refrigerant pipes and wick or inner fins; characterized by the refrigerant pipe structure, e.g. refrigerant pipes being thick at the inlet of evaporators and thin at the outlet (characterized by ^ materials T; characterized by cooling water pipes H to K)
+F25B  39/04  V	1	0	3L095	F25B  39/04	126	除じんまたは清掃に特徴があるもの〔冷媒の除じん，４３／００〕〔目づまり検知，４９／００〕	characterized by dusting or cleaning (dusting of refrigerants 43/00) (clogging detection, 49/00)
+F25B  39/04  W	1	0	3L095	F25B  39/04	31	電気的手段，磁気的手段または加振手段による凝縮の促進，例．静電位あるいは超音波振動によるもの；補助的な冷却手段による凝縮の促進〔液冷媒の一部を凝縮器入口に房し，凝縮を促進する不可逆圧縮式サイクル１／００　３８９〕	promotion of condensation by the electric means, magnetic means, or vibration means, e.g. by electrostatic potential or ultrasonic vibration; promotion of condensation by the auxiliary cooling means (non-reversible compression cycle returning a part of liquid refrigerants to the condenser inlet and promoting condensation 1/00 389)
+F25B  39/04  X	1	0	3L095	F25B  39/04	28	潤滑油冷却機構の凝縮器への配置と取り付け〔潤滑油冷却に特徴のある不可逆圧縮式サイクル１／００　３２１Ｓ，１／０４Ｖ，１／１０Ｇ〕	arrangement and mounting of the lubricant cooling mechanism in condensers (non-reversible compression cycle that lubricant cooling is characterized 1/00 321S, 1/04V, 1/10G)
+F25B  39/04  Y	1	0	3L095	F25B  39/04	277	過冷却機構の凝縮器への配置と取り付け〔過冷却器に特徴のある圧縮式サイクルは，１／００，３２１Ａ，３３１Ｅ，３９７，１３／００，３３１Ａなどの，１／００〜１３／００内の各項目参照；過冷却器自体，４１／００Ｐ，Ｑ〕	arrangement and mounting of the overcooling mechanism in condensers (compression cycle that over cooling devices are characterized, see each item in 1/00 to 13/00 such as 1/00, 321A, 331E, 397, 13/00, 331A; over cooling devices, 41/00P, Q)
+F25B  39/04  Z	1	0	3L095	F25B  39/04	169	その他のもの	Others
+F25B  40/00  \	0	0	3L095	F25B  40/00	0	過冷却器，デスーパーヒータまたはスーパーヒータ［５］	Subcoolers, desuperheaters or superheaters [5]
+F25B  40/00  V	0	0	3L095	F25B  40/00	376	高圧冷媒と低圧冷媒とが熱交換するもの〔そのような熱交換に特徴がある圧縮式サイクル１／００　３３１，１３／００　３３１〕	high pressure refrigerants and low pressure refrigerants exchanging heat (compression cycle characterized by such heat exchange 1/00 331, 13/00 331)
+F25B  40/00  W	0	0	3L095	F25B  40/00	27	キヤピラリチユ−ブと低圧冷媒とが熱交換するもの〔そのような熱交換に特徴がある圧縮式不可逆サイクル１／００　３０４Ｃ〕	capillary tubes and low pressure refrigerants exchanging heat (compression type non-reversible cycle characterized by such heat exchange 1/00 304C)
+F25B  40/00  Z	0	0	3L095	F25B  40/00	20	その他のもの	Others
+F25B  40/02  \	1	1	3L095	F25B  40/02	1	過冷却器［５］	Subcoolers [5]
+F25B  40/02  Q	1	0	3L095	F25B  40/02	41	液冷式のもの；水の蒸発により冷却されるもの〔過冷却器に特徴のある圧縮式サイクル，１／００，３２１Ａ，３３１Ｅ３９７，１３／００，３２１などの１／００〜１３／００内の各項目参照；中間冷却器に特徴がある多段圧縮式サイクル，１／１０Ｒ；凝縮器への過冷却機構の配置と取り付け，３９／０４Ｙ〕	of the liquid cooling type; cooled by evaporation of water (compression cycle that over cooling devices are characterized, see each item in 1/00 to 13/00 such as 1/00, 321A, 331E, 397, 13/00, 321; multi-stage compression cycle characterized by intermediate coolers, 1/10R; arrangement and mounting of the overcooling mechanism in condensers, 39/04Y)
+F25B  40/02  Z	1	0	3L095	F25B  40/02	103	その他のもの	Others
+F25B  40/04  \	1	1	3L095	F25B  40/04	0	デスーパーヒータ［５］	Desuperheaters [5]
+F25B  40/04  S	1	0	3L095	F25B  40/04	14	液冷式のもの，例．凝縮水により冷却されるもの；水の蒸発により冷却されるもの〔デス−パ−ヒ−タに特徴がある圧縮式サイクルは１／００　３２１Ａ，Ｐ，１／０４Ｊ，１３／００　３３１Ａなどの１／００〜１３／００内の各項目参照；中間冷却器に特徴がある多段圧縮式サイクル１／１０Ｒ〕	of the liquid cooling type, e.g. cooled by condensed water; cooled by evaporation of water (for compression-type cycles characterized by desuperheaters, see each item in 1/00 to 13/00 such as 1/00 321A, P, 1/04J, 13/00 331A; multi-stage compression type cycles characterized by intermediate coolers, 1/10R)
+F25B  40/04  Z	1	0	3L095	F25B  40/04	35	その他のもの	Others
+F25B  40/06  \	1	1	3L095	F25B  40/06	27	スーパーヒータ［５］	Superheaters [5]
+F25B  41/00  \	0	0	3L095	F25B  41/00	32	流体循環装置［２０２１．０１］	Fluid-circulation arrangements [2021.01]
+F25B  41/10  \	1	1	3L095	F25B  41/10	4	電気浸透を用いるもの［２０２１．０１］	using electro-osmosis [2021.01]
+F25B  41/20  \	1	1	3L095	F25B  41/20	0	弁の配置，例．開閉弁または流量制御弁の配置（膨張弁Ｆ２５Ｂ４１／３１）［２０２１．０１］	Disposition of valves, e.g. of on-off valves or flow control valves (expansion valves F25B 41/31) [2021.01]
+F25B  41/20  A	1	0	3L095	F25B  41/20	290	圧縮機停止に連動して閉となり，冷媒の移動を阻止する弁の配置	Arrangement of the valves closing at the same time as stop of compressors and preventing refrigerants from moving
+F25B  41/20  B	1	1	3L095	F25B  41/20	117	圧縮機停止時における冷媒の逆流阻止のみを意図したもの，例．逆止弁によるもの	intended to prevent back-flow of refrigerants when compressors stop, e.g. by check valves
+F25B  41/20  C	1	0	3L095	F25B  41/20	76	圧縮機停止に連動して開となる弁の配置，例．圧縮機停止時に高圧側と低圧側とを均圧するもの	Arrangement of the valves which open at the same time as stop of compressors , e.g., equalizing the pressure on the high pressure side and low pressure side when compressors stop
+F25B  41/20  D	1	0	3L095	F25B  41/20	214	異常な圧力または温度により開閉される弁の配置	Arrangement of valves opening or closing under abnormal pressure or at abnormal temperature
+F25B  41/20  Z	1	0	3L095	F25B  41/20	1007	その他のもの	Others
+F25B  41/22  \	2	2	3L095	F25B  41/22	273	蒸発器と圧縮機との間に設けられたもの［２０２１．０１］	between evaporator and compressor [2021.01]
+F25B  41/24  \	2	2	3L095	F25B  41/24	565	冷凍サイクルの一部，例．室外部分，を分離するための閉鎖弁の配置［２０２１．０１］	Arrangement of shut-off valves for disconnecting a part of the refrigerant cycle, e.g. an outdoor part [2021.01]
+F25B  41/26  \	2	2	3L095	F25B  41/26	1	流体流れを逆転させる弁の配置［２０２１．０１］	of fluid flow reversing valves [2021.01]
+F25B  41/26  A	2	0	3L095	F25B  41/26	783	四方弁によるもの	by a four-way valve
+F25B  41/26  B	2	0	3L095	F25B  41/26	102	五方以上の弁によるもの	by a five- or more way valve
+F25B  41/26  Z	2	0	3L095	F25B  41/26	265	その他のもの	Others
+F25B  41/28  \	2	2	3L095	F25B  41/28	64	収着式サイクルに特に適したもの［２０２１．０１］	specially adapted for sorption cycles [2021.01]
+F25B  41/30  \	1	1	3L095	F25B  41/30	400	膨張手段；その配置［２０２１．０１］	Expansion means; Dispositions thereof [2021.01]
+F25B  41/31  \	2	2	3L095	F25B  41/31	324	膨張弁［２０２１．０１］	Expansion valves [2021.01]
+F25B  41/315  \	3	3	3L095	F25B  41/315	33	フロートにより駆動されるもの［２０２１．０１］	actuated by floats [2021.01]
+F25B  41/32  \	3	3	3L095	F25B  41/32	350	弁体以外の流量制限部をもつもの，例．弁体をバイパスするオリフィスを弁本体にもつもの［２０２１．０１］	having flow rate limiting means other than the valve member, e.g. having bypass orifices in the valve body [2021.01]
+F25B  41/325  \	3	3	3L095	F25B  41/325	273	２以上の弁体をもつもの［２０２１．０１］	having two or more valve members [2021.01]
+F25B  41/33  \	3	3	3L095	F25B  41/33	308	流体圧，例．冷媒の圧力，により駆動される弁体をもつもの［２０２１．０１］	with the valve member being actuated by the fluid pressure, e.g. by the pressure of the refrigerant [2021.01]
+F25B  41/335  \	4	4	3L095	F25B  41/335	4	ダイヤフラムを介して駆動されるもの［２０２１．０１］	via diaphragms [2021.01]
+F25B  41/335  A	4	0	3L095	F25B  41/335	229	ダイヤフラム部分に特徴があるもの	characterised by the diaphragm part
+F25B  41/335  B	4	0	3L095	F25B  41/335	329	ダイヤフラムから弁体への駆動力伝達機構に特徴があるもの，例．弁作動棒またはそのシール	characterised by the mechanism to transfer driving forces from the diaphragm to the valve body, e.g. a valve working bar or its seal
+F25B  41/335  C	4	0	3L095	F25B  41/335	358	弁体または弁座に特徴があるもの	characterised by the valve body or the valve seat
+F25B  41/335  D	4	0	3L095	F25B  41/335	209	調整バネに特徴があるもの；バネ圧の調整機構に特徴があるもの，例．過熱度調整機構	characterised by adjustment springs; Characterised by the mechanisms to adjust the pressure of springs, e.g., the mechanisms to adjust superheat degree
+F25B  41/335  E	4	0	3L095	F25B  41/335	391	感温筒内の流体圧で弁体が駆動されるもの，例．感温筒内の流体圧を電気ヒータにより変更するもの	activating the valve body by the fluid pressure in the temperature sensitive cylinder, e.g. changing the fluid pressure in the temperature sensitive cylinder by electric heaters
+F25B  41/335  F	4	1	3L095	F25B  41/335	258	外部均圧型のもの，例．蒸発器出口側冷媒圧を用いて均圧させるもの	of the external pressure equalizing type, e.g., equalizing the pressure by use of the refrigerant pressure on the outlet side of the evaporator
+F25B  41/335  Z	4	0	3L095	F25B  41/335	689	その他のもの	Others
+F25B  41/34  \	3	3	3L095	F25B  41/34	211	電気的手段，例．圧電アクチュエータ，により駆動される弁体をもつもの［２０２１．０１］	with the valve member being actuated by electric means, e.g. by piezo-electric actuators [2021.01]
+F25B  41/345  \	4	4	3L095	F25B  41/345	370	ソレノイドにより駆動されるもの［２０２１．０１］	by solenoids [2021.01]
+F25B  41/35  \	4	4	3L095	F25B  41/35	941	回転モータ，例．ステッピングモータ，により駆動されるもの［２０２１．０１］	by rotary motors, e.g. by stepping motors [2021.01]
+F25B  41/355  \	4	4	3L095	F25B  41/355	100	バイメタル素子，形状記憶素子または熱膨張素子の電気加熱により駆動されるもの［２０２１．０１］	by electric heating of bimetal elements, shape memory elements or heat expanding elements [2021.01]
+F25B  41/36  \	3	3	3L095	F25B  41/36	84	流体，例．冷媒，の影響を受けるバイメタル素子または形状記憶素子により駆動される弁体をもつもの［２０２１．０１］	with the valve member being actuated by bimetal elements or shape-memory elements influenced by fluids, e.g. by the refrigerant [2021.01]
+F25B  41/37  \	2	2	3L095	F25B  41/37	462	キャピラリチューブ［２０２１．０１］	Capillary tubes [2021.01]
+F25B  41/375  \	3	3	3L095	F25B  41/375	120	可変抵抗に特徴があるもの，例．形状記憶合金製の制限器［２０２１．０１］	characterised by a variable restriction, e.g. restrictors made of shape memory alloy [2021.01]
+F25B  41/38  \	2	2	3L095	F25B  41/38	391	可逆サイクルに特に適したもの，例．双方向膨張制限器［２０２１．０１］	specially adapted for reversible cycles, e.g. bidirectional expansion restrictors [2021.01]
+F25B  41/385  \	2	2	3L095	F25B  41/385	108	同一の蒸発器に至る一の冷媒流路に並列に設けられた２以上の膨張手段の配置［２０２１．０１］	Dispositions with two or more expansion means arranged in parallel on a refrigerant line leading to the same evaporator [2021.01]
+F25B  41/39  \	2	2	3L095	F25B  41/39	180	直列に設けられた２以上の膨張手段の配置，すなわち同一の蒸発器に至る一の冷媒流路での多段膨張［２０２１．０１］	Dispositions with two or more expansion means arranged in series, i.e. multi-stage expansion, on a refrigerant line leading to the same evaporator [2021.01]
+F25B  41/40  \	1	1	3L095	F25B  41/40	1	流体流路装置［２０２１．０１］	Fluid line arrangements [2021.01]
+F25B  41/40  A	1	0	3L095	F25B  41/40	924	消音，防振，振動の吸収；冷媒の脈動防止	Sound arresting, vibration prevention, vibration absorption, prevention of refrigerants' pulsation
+F25B  41/40  B	1	0	3L095	F25B  41/40	469	管の配置と取り付け	Arrangement and mounting of pipes
+F25B  41/40  C	1	1	3L095	F25B  41/40	87	可とう管またはベローズの配置と取り付け	Arrangement and mounting of flexible pipes or bellows
+F25B  41/40  D	1	0	3L095	F25B  41/40	492	管継手，例．溶接継手，の配置と取り付け	Arrangement and mounting of pipe joints, e.g., welding joints
+F25B  41/40  E	1	1	3L095	F25B  41/40	242	分離型冷凍機械用管継手	Separation type pipe joints for freezing machines
+F25B  41/40  F	1	0	3L095	F25B  41/40	30	栓または管端シールの配置	Arrangement of plugs or pipe end seals
+F25B  41/40  G	1	0	3L095	F25B  41/40	173	収着式サイクルに特に適したもの	specially adapted for sorption cycles
+F25B  41/40  Z	1	0	3L095	F25B  41/40	299	その他のもの	Others
+F25B  41/42  \	2	2	3L095	F25B  41/42	1152	分流器または合流器，例．分岐流路または合流部［２０２１．０１］	Arrangements for diverging or converging flows, e.g. branch lines or junctions [2021.01]
+F25B  41/45  \	3	3	3L095	F25B  41/45	295	分流点の上流側で流れを制御するもの，例．乱流を発生させる螺旋構造をもつもの［２０２１．０１］	for flow control on the upstream side of the diverging point, e.g. with spiral structure for generating turbulence [2021.01]
+F25B  41/48  \	3	3	3L095	F25B  41/48	136	分流点の下流側で流路抵抗を制御するもの，例．オリフィスによるもの［２０２１．０１］	for flow path resistance control on the downstream side of the diverging point, e.g. by an orifice [2021.01]
+F25B  43/00  \	0	0	3L097	F25B  43/00	6	気体または液体の分離または精製装置（アナライザまたは精溜器におけるものＦ２５Ｂ３３／００）；液体冷媒の残滓を蒸発させる装置，例．加熱によるもの（Ｆ２５Ｂ４０／００が優先）［５］	Arrangements for separating or purifying gases or liquids (in analysers or rectifiers F25B 33/00); Arrangements for vaporising the residuum of liquid refrigerant, e.g. by heat (F25B 40/00 takes precedence) [5]
+F25B  43/00  A	0	0	3L097	F25B  43/00	236	気液を分離するもの，例．低圧側の気液分離器と高圧側の気液分離器とが一体のもの	separating vapor and fluid, e.g. the vapor-liquid separator on the low pressure side and the vapor-liquid separator on the high pressure side being integrated
+F25B  43/00  B	0	1	3L097	F25B  43/00	452	低圧側に設けたもの，例，アキユムレ−タ	mounted on the low pressure side, e.g. accumulators
+F25B  43/00  C	0	2	3L097	F25B  43/00	268	気液分離器の取り付けに特徴があるもの，例．圧縮機への取り付け	characterized by mounting of vapor-liquid separators, e.g. mounting to compressors
+F25B  43/00  D	0	2	3L097	F25B  43/00	662	内部構造に特徴があるもの；材質または製造方法に特徴があるもの	Characterized by the internal structure; characterized by materials or the manufacturing method
+F25B  43/00  E	0	3	3L097	F25B  43/00	471	管の形状または配置に特徴があるもの	Characterized by the shape or arrangement of pipes
+F25B  43/00  F	0	3	3L097	F25B  43/00	111	冷媒量検知手段をもつもの	with the refrigerant amount detection means
+F25B  43/00  G	0	2	3L097	F25B  43/00	314	加熱または冷却手段をもつもの，例．気液分離器内の冷媒と高圧冷媒とが熱交換するもの〔アキユムレ−タとレシ−バとが一体のものＡ〕	with the heating or cooling means, e.g. the refrigerant in the vapor-liquid separator and high pressure refrigerant exchanging heat (accumulators and receivers being integrated A)
+F25B  43/00  H	0	2	3L097	F25B  43/00	101	振動または騒音防止手段をもつもの	with the vibration or noise isolation means
+F25B  43/00  J	0	2	3L097	F25B  43/00	43	断熱または蓄熱手段をもつもの	with the adiabatic or heat accumulation means
+F25B  43/00  K	0	2	3L097	F25B  43/00	147	蒸発器の上流側または蒸発器の途中に設けたもの	mounted on the upstream side of evaporators or between evaporators
+F25B  43/00  L	0	1	3L097	F25B  43/00	996	高圧側に設けたもの，例．レシ−バ〔ドライヤの取り付けに特徴があるもの，Ｕ；サイトグラスをもつもの，４９／０２，５３０；可溶栓または安全弁をもつもの，４９／０２，５４０〕	mounted on the high pressure side, e.g. receivers (characterized by mounting of driers, V; with side glasses, 49/02, 530; with soluble plugs or safety valves, 49/02, 540)
+F25B  43/00  M	0	2	3L097	F25B  43/00	316	気液分離器の取り付けに特徴があるもの	Characterized by mounting of vapor-liquid separators
+F25B  43/00  N	0	2	3L097	F25B  43/00	146	加熱または冷却手段をもつもの，例．気液分離器内の冷媒と低圧冷媒とが熱交換するもの	with the heating or cooling means, e.g. e.g. the refrigerant in the vapor-liquid separator and low pressure refrigerant exchanging heat
+F25B  43/00  R	0	1	3L097	F25B  43/00	215	減圧器の途中に設けたもの	mounted between depressurizers
+F25B  43/00  S	0	0	3L097	F25B  43/00	451	冷媒から水分を分離するもの，例．ドライヤ	separating water from refrigerants, e.g. driers
+F25B  43/00  T	0	1	3L097	F25B  43/00	157	乾燥剤収納容器の取り付けに特徴があるもの	Characterized by mounting of desiccant storage vessels
+F25B  43/00  U	0	1	3L097	F25B  43/00	251	高圧側の気液分離器にドライヤを設けたもの	driers mounted in the vapor-liquid separator on the high pressure side
+F25B  43/00  V	0	0	3L097	F25B  43/00	204	冷媒から異物，例．ゴミ，を分離するもの，例．磁石により金属粉を吸着するもの	separation of foreign substances, e.g. dust, from refrigerants, e.g. metal powder attracted by magnets
+F25B  43/00  W	0	1	3L097	F25B  43/00	441	フイルタまたはストレ−ナによるもの	by filters or strainers
+F25B  43/00  Y	0	0	3L097	F25B  43/00	99	収着式特有のもの	intrinsic to the sorption type
+F25B  43/00  Z	0	0	3L097	F25B  43/00	166	その他のもの	Others
+F25B  43/02  \	1	1	3L097	F25B  43/02	37	冷媒から潤滑油の分離	for separating lubricants from the refrigerant
+F25B  43/02  A	1	0	3L097	F25B  43/02	919	高圧側で潤滑油を分離するもの	separating lubricants on the high pressure side
+F25B  43/02  D	1	0	3L097	F25B  43/02	129	低圧側で潤滑油を分離するもの	separating lubricants on the low pressure side
+F25B  43/02  E	1	1	3L097	F25B  43/02	109	アキユムレ−タで分離するもの	separating by accumulators
+F25B  43/02  F	1	2	3L097	F25B  43/02	22	数個のアキユムレ−タをもつもの	with several accumulators
+F25B  43/02  G	1	2	3L097	F25B  43/02	21	かく拌または霧化するもの	stirring or atomizing
+F25B  43/02  H	1	2	3L097	F25B  43/02	141	出口管に接続する潤滑油戻し管をもつもの	with lubricant return pipes connected to the outlet pipes
+F25B  43/02  J	1	2	3L097	F25B  43/02	195	出口管に潤滑油戻し孔をもつもの	with lubricant return holes in outlet pipes
+F25B  43/02  M	1	0	3L097	F25B  43/02	121	圧縮機内で潤滑油を分離するもの	separating lubricants in compressors
+F25B  43/02  N	1	0	3L097	F25B  43/02	186	潤滑油を回収するもの	collecting lubricants
+F25B  43/02  Z	1	0	3L097	F25B  43/02	92	その他のもの	Others
+F25B  43/04  \	1	1	3L097	F25B  43/04	5	不凝縮ガスの抽出	for withdrawing non-condensible gases
+F25B  43/04  A	1	0	3L097	F25B  43/04	539	収着式特有のもの	intrinsic to the sorption type
+F25B  43/04  Z	1	0	3L097	F25B  43/04	312	その他のもの	Others
+F25B  45/00  \	0	0	3L097	F25B  45/00	32	冷媒の充填または排出装置	Arrangements for charging or discharging refrigerant
+F25B  45/00  A	0	0	3L097	F25B  45/00	788	冷媒回収装置〔受液器に冷媒を一時的に回収するもの１／００　３９１〕	refrigerant collectors (collecting refrigerants in liquid receivers temporarily 1/00 391)
+F25B  45/00  B	0	0	3L097	F25B  45/00	341	冷媒充填装置〔Ａ，Ｈが優先〕	refrigerant filling device (A and H take precedence)
+F25B  45/00  C	0	1	3L097	F25B  45/00	173	制御〔Ｄが優先〕	control (D takes precedence)
+F25B  45/00  D	0	1	3L097	F25B  45/00	220	冷媒充填量検知手段をもつもの	with the refrigerant filling amount detection means
+F25B  45/00  F	0	1	3L097	F25B  45/00	345	冷媒充填用の弁または管	valves or tubes for filling refrigerants
+F25B  45/00  H	0	0	3L097	F25B  45/00	183	油回収または充填装置	oil collecting or filling devices
+F25B  45/00  Z	0	0	3L097	F25B  45/00	212	その他のもの	Others
+F25B  47/00  \	0	0	3L097	F25B  47/00	5	他のサブクラスに分類されない付着または腐食の防止または除去を行う装置	Arrangements for preventing or removing deposits or corrosion, not provided for in another subclass
+F25B  47/00  A	0	0	3L097	F25B  47/00	248	圧縮式のもの	of the compression type
+F25B  47/00  B	0	0	3L097	F25B  47/00	116	収着式のもの	of the sorption type
+F25B  47/00  Z	0	0	3L097	F25B  47/00	32	その他のもの	Others
+F25B  47/02  \	1	1	3L097	F25B  47/02	7	除霜サイクル［５］	Defrosting cycles [5]
+F25B  47/02  A	1	0	3L097	F25B  47/02	67	数個の蒸発器回路をもつもの	with several evaporator circuits
+F25B  47/02  B	1	0	3L097	F25B  47/02	45	散水によるもの，例．温水噴霧によるもの	by scattering water, e.g. by spraying hot water
+F25B  47/02  C	1	0	3L097	F25B  47/02	46	機械的手段によるもの；空気圧を用いた手段によるもの	by the mechanical means; by the means using the air pressure
+F25B  47/02  D	1	0	3L097	F25B  47/02	267	加熱手段によるもの〔Ａが優先〕	by the heating means (A takes precedence)
+F25B  47/02  E	1	1	3L097	F25B  47/02	352	蒸発器への電気ヒ−タの配置と取付け	arrangement and mounting of electric heaters to evaporators
+F25B  47/02  F	1	0	3L097	F25B  47/02	107	冷媒熱によるもの〔Ｄが優先〕	by refrigerant heat (D takes precedence)
+F25B  47/02  G	1	1	3L097	F25B  47/02	78	他の媒体を介して冷媒熱を伝えるもの	transferring refrigerant heat via other media
+F25B  47/02  H	1	0	3L097	F25B  47/02	107	フアン，冷水ポンプ運転によるもの	by operating fans and cooling water pumps
+F25B  47/02  Z	1	0	3L097	F25B  47/02	95	その他のもの	Others
+F25B  47/02 510 \	2	2	3L097	F25B  47/02	5	圧縮機を運転して行うもの（５６０が優先）	by operating compressors (560 takes precedence)
+F25B  47/02 510 A	2	0	3L097	F25B  47/02	147	数個の蒸発器回路をもつもの	with several evaporator circuits
+F25B  47/02 510 B	2	0	3L097	F25B  47/02	14	散水によるもの	by scattering water
+F25B  47/02 510 C	2	0	3L097	F25B  47/02	20	機械的手段によるもの，例、圧縮機の振動によるもの	by the mechanical means, e.g. by vibration of compressors
+F25B  47/02 510 D	2	0	3L097	F25B  47/02	92	加熱手段によるもの〔Ａが優先〕	by the heating means (A takes precedence)
+F25B  47/02 510 E	2	1	3L097	F25B  47/02	153	特殊な熱源，例．エンジン排熱または圧縮機の熱によるもの	by special heat sources, e.g. by waste heat of engines or heat of compressors
+F25B  47/02 510 F	2	0	3L097	F25B  47/02	71	蒸発温度制御によるもの，例．バイパス回路により制御するもの	by evaporation temperature control, e.g. controlling by the bypass circuit
+F25B  47/02 510 G	2	1	3L097	F25B  47/02	33	熱交換手段によるもの	by the heat exchange means
+F25B  47/02 510 H	2	2	3L097	F25B  47/02	76	フアンによるもの	by fans
+F25B  47/02 510 J	2	1	3L097	F25B  47/02	135	流量制御手段によるもの，例．蒸発器と圧縮機との間に設けた制御弁によるもの	by the flow rate control means, e.g. by control valves mounted between evaporators and compressors
+F25B  47/02 510 K	2	1	3L097	F25B  47/02	78	圧縮機の能力制御手段によるもの	by the compressor capacity control means
+F25B  47/02 510 Y	2	0	3L097	F25B  47/02	16	蒸発器またはドレンバン以外を除霜するもの	defrosting other than evaporators or drain vans
+F25B  47/02 510 Z	2	0	3L097	F25B  47/02	33	その他のもの	Others
+F25B  47/02 520 \	3	3	3L097	F25B  47/02	3	高温冷媒によるもの	by hot refrigerants
+F25B  47/02 520 A	3	0	3L097	F25B  47/02	48	数個の独立サイクルをもつもの	with several independent cycles
+F25B  47/02 520 B	3	0	3L097	F25B  47/02	176	数個の蒸発器回路をもつもの〔Ａが優先；蒸発作用を除霜時のみ行う補助蒸発器をもつものＤ〕	with several evaporator circuits (A takes precedence; with auxiliary evaporators performing the evaporation operation only during defrosting D)
+F25B  47/02 520 C	3	0	3L097	F25B  47/02	231	凝縮器と蒸発器との間の流路抵抗を小さくするもの，例．キヤピラリチユ−ブをバイパスするもの	making the flow path resistance between condensers and evaporators smaller, e.g. bypassing capillary tubes
+F25B  47/02 520 D	3	1	3L097	F25B  47/02	73	除霜後の冷媒を蒸発する補助蒸発器をもつもの	with auxiliary evaporators evaporating refrigerants after defrosting
+F25B  47/02 520 E	3	0	3L097	F25B  47/02	53	補助熱交換手段をもつもの〔Ｃが優先〕	with the auxiliary heat exchange means
+F25B  47/02 520 F	3	1	3L097	F25B  47/02	130	補助熱交換手段で蒸発器またはドレンパンを加熱するもの	heating evaporators or drain vans by the auxiliary heat exchange means
+F25B  47/02 520 G	3	2	3L097	F25B  47/02	38	他の媒体を介して，例．ヒ−トパイプを介して、蒸発器またはドレンパンを加熱するもの	heating evaporators or drain vans via other media, e.g. heat pipes
+F25B  47/02 520 Z	3	0	3L097	F25B  47/02	98	その他のもの	Others
+F25B  47/02 530 \	4	4	3L097	F25B  47/02	11	ホツトガスバイパスによるもの	by hot gas bypasses
+F25B  47/02 530 A	4	0	3L097	F25B  47/02	93	多段圧縮式のもの	multi-stage compression type
+F25B  47/02 530 B	4	0	3L097	F25B  47/02	161	単段圧縮式のもの〔Ｙが優先〕	single-stage compression type (Y takes precedence)
+F25B  47/02 530 C	4	1	3L097	F25B  47/02	232	ホツトガスバイパス回路に特徴があるもの〔Ｄ，Ｍが優先；ホツトガスバイパス回路に熱交換器をもつものＥ；ホツトガスバイパス回路の流量制御Ｐ〕	characterized in the hot gas bypass circuit (D and M take precedence; the hot gas bypass circuit having a heat exchanger E; flow rate control of the hot gas bypass circuit P)
+F25B  47/02 530 D	4	1	3L097	F25B  47/02	208	数個のホツトガスバイパス回路をもつもの；ホツトガスバイパス回路とバイパス回路とをもつもの	with several hot gas bypass circuits; with hot gas bypass circuits and bypass circuits
+F25B  47/02 530 E	4	1	3L097	F25B  47/02	38	補助熱交換手段をもつもの〔Ｌが優先〕	with the auxiliary heat exchange means (L takes precedence)
+F25B  47/02 530 F	4	2	3L097	F25B  47/02	77	補助熱交換手段で蒸発器を加熱するもの	heating evaporators by the auxiliary heat exchange means
+F25B  47/02 530 G	4	2	3L097	F25B  47/02	77	補助熱交換手段でドレンパンを加熱するもの	heating drain vans by the auxiliary heat exchange means
+F25B  47/02 530 H	4	2	3L097	F25B  47/02	51	除霜後の冷媒を補助蒸発器で蒸発するもの〔Ｋが優先〕	evaporating refrigerants after defrosting by the auxiliary evaporators (K takes precedence)
+F25B  47/02 530 J	4	3	3L097	F25B  47/02	46	冷媒間の熱交換により補助蒸発器で蒸発するもの	evaporating auxiliary evaporators by heat exchange between refrigerants
+F25B  47/02 530 K	4	2	3L097	F25B  47/02	237	蓄熱器をもつもの	with heat accumulators
+F25B  47/02 530 L	4	1	3L097	F25B  47/02	106	補助加熱手段をもつもの，例．圧縮機吸込側に電気ヒ−タを設けたもの	with the auxiliary heating means, e.g. electric heaters mounted on the intake side of compressors
+F25B  47/02 530 M	4	1	3L097	F25B  47/02	101	蒸発器のホツトガス導入箇所または流れの方向またはホツトガスを流す蒸発器の形状に特徴があるもの	Characterized by hot gas introducing parts of evaporators or flowing direction or shape of evaporators flowing hot gas
+F25B  47/02 530 P	4	1	3L097	F25B  47/02	295	制御に特徴があるもの〔Ｄ〜Ｍが優先〕	characterized by control (D to M take precedence)
+F25B  47/02 530 Q	4	2	3L097	F25B  47/02	166	除霜間始終了前後の制御	control before and after the start or end of defrosting
+F25B  47/02 530 R	4	3	3L097	F25B  47/02	43	ポンプダウン制御	pump down control
+F25B  47/02 530 S	4	2	3L097	F25B  47/02	133	熱交換手段の制御，例．凝縮器フアンの制御	heat exchange means control, e.g. condenser fan control
+F25B  47/02 530 Y	4	0	3L097	F25B  47/02	43	製氷機用のもの	for ice machines
+F25B  47/02 530 Z	4	0	3L097	F25B  47/02	26	その他のもの	Others
+F25B  47/02 540 \	5	5	3L097	F25B  47/02	2	数個の蒸発器回路をもつもの	with several evaporator circuits
+F25B  47/02 540 A	5	0	3L097	F25B  47/02	42	数個の独立サイクルをもつもの	with several independent cycles
+F25B  47/02 540 B	5	0	3L097	F25B  47/02	112	蒸発器回路が直列のもの	evaporator circuits in series
+F25B  47/02 540 C	5	0	3L097	F25B  47/02	78	蒸発器回路が並列のもの	evaporator circuits in parallel
+F25B  47/02 540 D	5	1	3L097	F25B  47/02	125	各蒸発器に選択的にホツトガスを導入するもの	hot gas being introduced selectively into each evaporator
+F25B  47/02 540 E	5	1	3L097	F25B  47/02	7	除霜時に蒸発器を直列に接続するもの	evaporators being connected in series during defrosting
+F25B  47/02 540 F	5	2	3L097	F25B  47/02	65	一方の蒸発器で凝縮し他方の蒸発器で蒸発するもの	condensed by one evaporator and evaporated by the other evaporator
+F25B  47/02 540 G	5	3	3L097	F25B  47/02	147	凝縮または蒸発する蒸発器を交互に選択するもの	selectively selecting evaporators to be condensed or evaporated
+F25B  47/02 540 H	5	4	3L097	F25B  47/02	34	制御に特徴があるもの	Characterized by control
+F25B  47/02 540 J	5	5	3L097	F25B  47/02	34	除霜開始終了前後の制御または他の蒸発器への除霜切換前後の制御に特徴があるもの	Characterized by control before and after the start or end of defrosting or control before and after switching defrosting to other evaporators
+F25B  47/02 540 K	5	5	3L097	F25B  47/02	20	熱交換手段の制御に特徴があるもの	Characterized by control of the heat exchange means
+F25B  47/02 540 Z	5	0	3L097	F25B  47/02	7	その他のもの	Others
+F25B  47/02 550 \	4	4	3L097	F25B  47/02	625	逆サイクルによるもの	by the reverse cycle
+F25B  47/02 550 A	4	0	3L097	F25B  47/02	150	数個の独立サイクルをもつもの	with several independent cycles
+F25B  47/02 550 B	4	0	3L097	F25B  47/02	119	着霜運転時に数個の凝縮器回路をもつもの	with several condenser circuits during the frost falling operation
+F25B  47/02 550 C	4	0	3L097	F25B  47/02	165	着霜運転時に数個の蒸発器回路をもつもの	with several evaporator circuits during the frost falling operation
+F25B  47/02 550 D	4	0	3L097	F25B  47/02	192	給湯回路をもつもの	with the hot water supply circuit
+F25B  47/02 550 E	4	0	3L097	F25B  47/02	105	補助熱交換手段をもつもの，例．ドレンパン加熱用熱交換器をもつもの	with the auxiliary heat exchange means, e.g. with the heat exchanger for heating drain vans
+F25B  47/02 550 F	4	1	3L097	F25B  47/02	211	蓄熱器または冷媒間の熱交換器をもつもの	with heat accumulators or heat exchangers between refrigerants
+F25B  47/02 550 G	4	0	3L097	F25B  47/02	153	補助加熱手段をもつもの	with the auxiliary heating means
+F25B  47/02 550 H	4	0	3L097	F25B  47/02	306	バイパス回路をもつもの〔減圧器のみをバイパスする回路をもつものＫ〕	with the bypass circuit (with a circuit for bypassing only depressurizers)
+F25B  47/02 550 J	4	0	3L097	F25B  47/02	51	インジエクシヨン手段をもつもの	with the injection means
+F25B  47/02 550 K	4	0	3L097	F25B  47/02	241	流量制御手段に特徴があるもの〔ポンプダウン制御Ｐ〕	characterized by the flow rate control means (pump down control P)
+F25B  47/02 550 P	4	0	3L097	F25B  47/02	327	制御に特徴があるもの〔Ａ〜Ｋが優先〕	characterized by control (A to K take precedence)
+F25B  47/02 550 Q	4	1	3L097	F25B  47/02	216	圧縮機または電動機の制御	control of compressors or motors
+F25B  47/02 550 R	4	1	3L097	F25B  47/02	253	フアンまたはダンパの制御	control of fans or dampers
+F25B  47/02 550 Z	4	0	3L097	F25B  47/02	170	その他のもの	Others
+F25B  47/02 560 \	2	2	3L097	F25B  47/02	189	２以上の異なる除霜サイクルによるもの	by two or more different defrosting cycles
+F25B  47/02 570 \	2	2	3L097	F25B  47/02	7	共通の制御，例．着霜検知による制御	common control, e.g. control by frost falling detection
+F25B  47/02 570 A	2	0	3L097	F25B  47/02	204	数個の独立サイクルまたは蒸発器回路をもつものに特徴があるもの	Characterized by having several independent cycles or evaporator circuits
+F25B  47/02 570 B	2	0	3L097	F25B  47/02	62	除霜開始終了信号の種類または除霜開始終了の検出対象の種類に特徴があるもの	Characterized by the kind of defrosting start or end signal or the kind of detection objects of start or end of defrosting
+F25B  47/02 570 C	2	1	3L097	F25B  47/02	70	始動時または停止時	at the time of start or stop
+F25B  47/02 570 D	2	1	3L097	F25B  47/02	261	タイマ，例．運転時間または運転率または時刻〔Ｅ〜Ｒとタイマとの組合せはそれぞれ，Ｅ〜Ｒが優先〕	timer, e.g. the running time, or running rate, or time (a combination of E to R and timer, E to R take precedence)
+F25B  47/02 570 E	2	1	3L097	F25B  47/02	119	霜または氷の状態，例．着霜による受光量の変化	state of frost or ice, e.g. changes in the light receiving amount
+F25B  47/02 570 F	2	1	3L097	F25B  47/02	109	圧縮機，その電動機またはその電源の状態，例．圧縮機の回転数または電動機の運転電流〔蒸発器用フアンの運転電流Ｈ；凝縮器用フアンの運転電流Ｇ〕	compressors, motors thereof, or power state, e.g. the number of revolutions of compressors or running current of motors (running current of evaporator fans H; running current of condenser fans G)
+F25B  47/02 570 G	2	1	3L097	F25B  47/02	92	被加熱物の状態，例．室温；被加熱物用フアン，ポンプ，その電動機またはその電源の状態	state of heated articles, e.g. state of heated article fans, pumps, their motors, or power sources
+F25B  47/02 570 H	2	1	3L097	F25B  47/02	147	被冷却物の状態，例．外気温；被冷却物用フアン，ポンプ，その電動機またはその電源の状態，例．フアンの運転電流	state of cooled articles, e.g. air temperature; state of cooled article fans, pumps, their motors, or power sources
+F25B  47/02 570 J	2	2	3L097	F25B  47/02	53	被冷却物の温度または湿度のみ〔Ｒが優先〕	only temperature or humidity of cooled articles (R takes precedence)
+F25B  47/02 570 K	2	3	3L097	F25B  47/02	153	温度のみ，例．外気温	only temperature, e.g. air temperature
+F25B  47/02 570 L	2	1	3L097	F25B  47/02	29	冷媒の状態	state of refrigerants
+F25B  47/02 570 M	2	2	3L097	F25B  47/02	645	温度または圧力のみ，例．温度とタイマとの組合せまたは温度の時間的変化量〔Ｒが優先〕	only temperature or pressure, e.g. a combination of temperature and timer or change amount of temperature with time (R takes precedence)
+F25B  47/02 570 R	2	1	3L097	F25B  47/02	307	冷媒の温度または圧力および被冷却物の温度または湿度，例．室外熱交換器の温度と外気温との差	temperature pressure of refrigerants and temperature or humidity of cooled articles, e.g. difference between the temperature of heat exchangers outside the room and air temperature
+F25B  47/02 570 W	2	0	3L097	F25B  47/02	167	圧縮機の能力制御に特徴があるもの	Characterized by compressor capacity control
+F25B  47/02 570 Z	2	0	3L097	F25B  47/02	132	その他のもの	Others
+F25B  49/00  \	0	0	3L097	F25B  49/00	27	制御または安全装置の配置と取り付け［２００６．０１］	Arrangement or mounting of control or safety devices [1, 2006.01]
+F25B  49/00  A	0	0	3L097	F25B  49/00	123	能力測定，試験装置	capacity measurement, testing machines
+F25B  49/00  B	0	0	3L097	F25B  49/00	54	表示装置	display device
+F25B  49/00  C	0	0	3L097	F25B  49/00	6	消火装置	fire extinguishers
+F25B  49/00  D	0	0	3L097	F25B  49/00	52	電源	power source
+F25B  49/00  Z	0	0	3L097	F25B  49/00	158	その他のもの	Others
+F25B  49/02  \	1	1	3L097	F25B  49/02	17	圧縮式機械，プラントまたはシステムのためのもの［５］	for compression type machines, plant or systems [5]
+F25B  49/02  A	1	0	3L097	F25B  49/02	270	能力測定，試験装置	capacity measurement, testing machines
+F25B  49/02  B	1	0	3L097	F25B  49/02	115	表示装置	display device
+F25B  49/02  C	1	0	3L097	F25B  49/02	17	消火装置	fire extinguishers
+F25B  49/02  D	1	0	3L097	F25B  49/02	317	電源	power source
+F25B  49/02  Z	1	0	3L097	F25B  49/02	352	その他のもの	Others
+F25B  49/02 510 \	2	2	3L097	F25B  49/02	20	冷媒状態検出装置の配置と取付け；被加熱冷却物状態検出装置の配置と取り付け（５２０，５３０，５５０優先）	arrangement and mounting of refrigerant state detector; arrangement and mounting of heated and cooled article state detector (520, 530, and 550 take precedence)
+F25B  49/02 510 A	2	0	3L097	F25B  49/02	316	温度検出装置	temperature detectors
+F25B  49/02 510 B	2	1	3L097	F25B  49/02	381	熱交換器に取り付けたもの	attachments to heat exchangers
+F25B  49/02 510 C	2	1	3L097	F25B  49/02	436	冷媒管に取り付けたもの	attachments to refrigerant pipes
+F25B  49/02 510 D	2	2	3L097	F25B  49/02	42	冷媒管内に挿入したもの	inserts into refrigerant pipes
+F25B  49/02 510 F	2	0	3L097	F25B  49/02	508	圧力検出装置	pressure detectors
+F25B  49/02 510 H	2	0	3L097	F25B  49/02	60	ス−パヒ−ト検出装置	super heat detectors
+F25B  49/02 510 K	2	0	3L097	F25B  49/02	130	気液状態検出装置，例．液バツク検出	vapor-liquid state detectors, e.g. liquid bag detection
+F25B  49/02 510 Z	2	0	3L097	F25B  49/02	168	その他のもの	Others
+F25B  49/02 520 \	2	2	3L097	F25B  49/02	8	冷媒量の過不足，冷媒の漏れ検出装置の配置と取り付け（５３０優先；充填時に充填冷媒量を検出するもの４５／００）	arrangement and mounting of detectors of too-many or little refrigerant amount and leakage of refrigerants (530 takes precedence; detecting the filled refrigerant amount during filling 45/00)
+F25B  49/02 520 A	2	0	3L097	F25B  49/02	239	冷媒の状態のみにより検出するもの〔Ｈ，Ｋ，Ｍが優先〕	detection only by the refrigerant state (H, K, and M take precedence)
+F25B  49/02 520 B	2	1	3L097	F25B  49/02	192	圧力のみのによるもの	only by pressure
+F25B  49/02 520 C	2	1	3L097	F25B  49/02	253	温度のみによるもの〔Ｄ，Ｅが優先〕	only by temperature (D and E take precedence)
+F25B  49/02 520 D	2	1	3L097	F25B  49/02	181	過冷却度によるもの	by overcooling temperature
+F25B  49/02 520 E	2	1	3L097	F25B  49/02	197	過熱度によるもの	by overheating temperature
+F25B  49/02 520 F	2	1	3L097	F25B  49/02	275	気液の状態によるもの，例．液位，気泡または湿り度	by the liquid state, e.g. liquid level, bubbles, or dampness
+F25B  49/02 520 H	2	0	3L097	F25B  49/02	212	被加熱冷却物の状態により検出するもの；冷媒の状態と被加熱冷却物の状態とにより検出するもの，例．冷媒圧力と外気温〔Ｋが優先〕	detecting by the state of heated and cooled articles; detecting by the state of refrigerants and the state of heated and cooled articles, e.g. refrigerant pressure and air temperature (K takes precedence)
+F25B  49/02 520 K	2	0	3L097	F25B  49/02	135	圧縮機，電動機または電源の状態により検出するもの	detecting by the state of compressors, motors, or power sources
+F25B  49/02 520 M	2	0	3L097	F25B  49/02	1689	漏洩冷媒を検知するもの	detecting leaked refrigerants
+F25B  49/02 520 Z	2	0	3L097	F25B  49/02	336	その他のもの	Others
+F25B  49/02 530 \	2	2	3L097	F25B  49/02	6	サイトグラスの配置と取り付け	arrangement and mounting of side glasses
+F25B  49/02 530 A	2	0	3L097	F25B  49/02	113	レシ−バに取り付けたもの	mounted to receivers
+F25B  49/02 530 Z	2	0	3L097	F25B  49/02	110	その他のもの	Others
+F25B  49/02 540 \	2	2	3L097	F25B  49/02	248	可溶栓，安全弁の配置と取り付け	arrangement and mounting of soluble plugs and safety valves
+F25B  49/02 550 \	2	2	3L097	F25B  49/02	202	冷媒中の不純物，油検出装置，例．水分検出器，の配置と取り付け（５３０優先）	detectors of impurities in refrigerants and oil, e.g. arrangement and mounting of water detectors (530 takes precedence)
+F25B  49/02 560 \	2	2	3L097	F25B  49/02	379	電装品，例．圧縮機保護装置，の配置と取り付け（圧縮機の保護装置一般はＦ０４Ｂ４９／１０）	electrical parts, e.g. arrangement and mounting of compressor protective devices (protective devices for compressors in general F04B 49/10)
+F25B  49/02 570 \	2	2	3L097	F25B  49/02	6	異常検出表示装置の配置と取り付け（５１０〜５６０が優先）	arrangement and mounting of error detection display devices (510 to 560 take precedence)
+F25B  49/02 570 A	2	0	3L097	F25B  49/02	384	圧縮機，電動機または電源の異常を検出表示するもの	detecting and displaying errors of compressors, motors, or power sources
+F25B  49/02 570 B	2	0	3L097	F25B  49/02	174	熱交換器の異常を検出表示するもの	detecting and displaying errors of heat exchangers
+F25B  49/02 570 C	2	0	3L097	F25B  49/02	153	流量制御器の異常を検出表示するもの	detecting and displaying errors of flow rate controllers
+F25B  49/02 570 D	2	0	3L097	F25B  49/02	164	検出器の異常を検出表示するもの	detecting and displaying errors of detectors
+F25B  49/02 570 Z	2	0	3L097	F25B  49/02	588	その他のもの	Others
+F25B  49/04  \	1	1	3L097	F25B  49/04	302	吸着式機械，プラントまたはシステムのためのもの［５］	for sorption type machines, plant or systems [5]

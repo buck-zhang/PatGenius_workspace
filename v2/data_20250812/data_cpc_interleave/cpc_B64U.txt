@@ -1,0 +1,163 @@
+B64U10/00	7	Type of UAV	B64U10/00	B64U10/00		679
+B64U10/10	8	Rotorcrafts	B64U10/10	B64U10/10		5869
+B64U10/11	9	Autogyros	B64U10/11	B64U10/11		41
+B64U10/13	9	Flying platforms	B64U10/13	B64U10/13		4499
+B64U10/14	10	with four distinct rotor axes, e.g. quadcopters	B64U10/14	B64U10/14		5340
+B64U10/16	10	with five or more distinct rotor axes, e.g. octocopters	B64U10/16	B64U10/16		1115
+B64U10/17	9	Helicopters (flying platforms B64U10/13)	B64U10/17	B64U10/17		394
+B64U10/20	8	Vertical take-off and landing [VTOL] aircraft (flying platforms B64U10/13; helicopters B64U10/17)	B64U10/20	B64U10/20		953
+B64U10/25	8	Fixed-wing aircraft (VTOL aircraft B64U10/20)	B64U10/25	B64U10/25		2255
+B64U10/30	8	Lighter-than-air aircraft, e.g. aerostatic aircraft	B64U10/30	B64U10/30		517
+B64U10/40	8	Ornithopters	B64U10/40	B64U10/40		387
+B64U10/50	8	Glider-type UAVs, e.g. with parachute, parasail or kite (for landing B64U70/83)	B64U10/50	B64U10/50		157
+B64U10/60	8	Tethered aircraft	B64U10/60	B64U10/60		762
+B64U10/70	8	Convertible aircraft, e.g. convertible into land vehicles	B64U10/70	B64U10/70		434
+B64U10/80	8	UAVs characterised by their small size, e.g. micro air vehicles [MAV]	B64U10/80	B64U10/80		375
+B64U20/00	7	Constructional aspects of UAVs (of lift-producing means B64U30/00)	B64U20/00	B64U20/00		246
+B64U20/10	8	for stealth, e.g. reduction of cross-section detectable by radars	B64U20/10	B64U20/10		110
+B64U20/20	8	for noise reduction	B64U20/20	B64U20/20		108
+B64U20/30	8	for safety, e.g. with frangible components (rotor guards B64U30/299)	B64U20/30	B64U20/30		656
+B64U20/40	8	Modular UAVs	B64U20/40	B64U20/40		291
+B64U20/50	8	Foldable or collapsible UAVs (with frangible components B64U20/30)	B64U20/50	B64U20/50		440
+B64U20/60	8	UAVs characterised by the material	B64U20/60	B64U20/60		172
+B64U20/65	9	Composite materials	B64U20/65	B64U20/65		265
+B64U20/70	8	Constructional aspects of the UAV body	B64U20/70	B64U20/70		632
+B64U20/73	9	Monocoque body	B64U20/73	B64U20/73		27
+B64U20/75	9	the body formed by joined shells or by a shell overlaying a chassis	B64U20/75	B64U20/75		63
+B64U20/77	9	the body being formed integrally with wings or rotor supports	B64U20/77	B64U20/77		42
+B64U20/80	8	Arrangement of on-board electronics, e.g. avionics systems or wiring	B64U20/80	B64U20/80		1917
+B64U20/83	9	Electronic components structurally integrated with aircraft elements, e.g. circuit boards carrying loads	B64U20/83	B64U20/83		212
+B64U20/87	9	Mounting of imaging devices, e.g. mounting of gimbals	B64U20/87	B64U20/87		3581
+B64U20/90	8	Cooling	B64U20/90	B64U20/90		95
+B64U20/92	9	of avionics	B64U20/92	B64U20/92		115
+B64U20/94	9	of rotors or rotor motors	B64U20/94	B64U20/94		89
+B64U20/96	9	using air	B64U20/96	B64U20/96		234
+B64U20/98	9	using liquid, e.g. using lubrication oil	B64U20/98	B64U20/98		75
+B64U30/00	7	Means for producing lift; Empennages; Arrangements thereof	B64U30/00	B64U30/00		78
+B64U30/10	8	Wings	B64U30/10	B64U30/10		1058
+B64U30/12	9	Variable or detachable wings, e.g. wings with adjustable sweep	B64U30/12	B64U30/12		722
+B64U30/14	10	detachable	B64U30/14	B64U30/14		133
+B64U30/16	10	movable along the UAV body	B64U30/16	B64U30/16		100
+B64U30/20	8	Rotors; Rotor supports	B64U30/20	B64U30/20		3501
+B64U30/21	9	Rotary wings	B64U30/21	B64U30/21		219
+B64U30/24	9	Coaxial rotors	B64U30/24	B64U30/24		422
+B64U30/26	9	Ducted or shrouded rotors	B64U30/26	B64U30/26		821
+B64U30/27	9	Rim-driven rotors	B64U30/27	B64U30/27		14
+B64U30/29	9	Constructional aspects of rotors or rotor supports; Arrangements thereof	B64U30/29	B64U30/29		483
+B64U30/291	10	Detachable rotors or rotor supports	B64U30/291	B64U30/291		155
+B64U30/292	11	Rotors or rotor supports specially adapted for quick release	B64U30/292	B64U30/292		61
+B64U30/293	10	Foldable or collapsible rotors or rotor supports	B64U30/293	B64U30/293		716
+B64U30/294	10	Rotors arranged in the UAV body	B64U30/294	B64U30/294		136
+B64U30/295	10	Rotors arranged in the wings	B64U30/295	B64U30/295		121
+B64U30/296	10	Rotors with variable spatial positions relative to the UAV body (foldable or collapsible rotors B64U30/293)	B64U30/296	B64U30/296		133
+B64U30/297	11	Tilting rotors	B64U30/297	B64U30/297		551
+B64U30/298	10	Helicopter flybars	B64U30/298	B64U30/298		9
+B64U30/299	10	Rotor guards (ducted or shrouded rotors B64U30/26; guards used as ground propulsion B64U60/60)	B64U30/299	B64U30/299		430
+B64U30/30	8	Lift-producing means using radial airflow	B64U30/30	B64U30/30		57
+B64U30/40	8	Empennages, e.g. V-tails (foldable or collapsible UAVs B64U20/50)	B64U30/40	B64U30/40		267
+B64U40/00	7	On-board mechanical arrangements for adjusting control surfaces or rotors; On-board mechanical arrangements for in-flight adjustment of the base configuration (control of position, course, altitude or attitude of air or space vehicles, e.g. automatic pilot, G05D1/00)	B64U40/00	B64U40/00		73
+B64U40/10	8	for adjusting control surfaces or rotors	B64U40/10	B64U40/10		400
+B64U40/20	8	for in-flight adjustment of the base configuration	B64U40/20	B64U40/20		205
+B64U50/00	7	Propulsion; Power supply	B64U50/00	B64U50/00		131
+B64U50/10	8	Propulsion (rotors specially adapted for rotorcraft or VTOL B64U30/20)	B64U50/10	B64U50/10		157
+B64U50/11	9	using internal combustion piston engines	B64U50/11	B64U50/11		699
+B64U50/12	9	using turbine engines, e.g. turbojets or turbofans	B64U50/12	B64U50/12		329
+B64U50/13	9	using external fans or propellers	B64U50/13	B64U50/13		1492
+B64U50/14	10	ducted or shrouded	B64U50/14	B64U50/14		807
+B64U50/15	9	using combustion exhausts other than turbojets or turbofans, e.g. using rockets, ramjets, scramjets or pulse-reactors	B64U50/15	B64U50/15		130
+B64U50/16	9	using means other than air displacement or combustion exhaust, e.g. water or magnetic levitation	B64U50/16	B64U50/16		32
+B64U50/18	9	Thrust vectoring	B64U50/18	B64U50/18		120
+B64U50/19	9	using electrically powered motors	B64U50/19	B64U50/19		6491
+B64U50/20	8	Transmission of mechanical power to rotors or propellers	B64U50/20	B64U50/20		144
+B64U50/23	9	with each propulsion means having an individual motor	B64U50/23	B64U50/23		231
+B64U50/27	9	with a single motor serving two or more rotors or propellers	B64U50/27	B64U50/27		45
+B64U50/30	8	Supply or distribution of electrical power	B64U50/30	B64U50/30		868
+B64U50/31	9	generated by photovoltaics<br><br><u>WARNING</u><br>Group B64U50/31 is incomplete pending reclassification of documents from group B64D27/353.Groups B64U50/31 and B64D27/353 should be considered in order to perform a complete search. 	B64U50/31	B64U50/31		677
+B64U50/32	9	generated by fuel cells	B64U50/32	B64U50/32		235
+B64U50/33	9	generated by combustion engines	B64U50/33	B64U50/33		125
+B64U50/34	9	In-flight charging (photovoltaics B64U50/31)	B64U50/34	B64U50/34		971
+B64U50/35	10	by wireless transmission, e.g. by induction	B64U50/35	B64U50/35		157
+B64U50/36	10	by wind turbines, e.g. ram air turbines [RAT]	B64U50/36	B64U50/36		27
+B64U50/37	9	Charging when not in flight	B64U50/37	B64U50/37		683
+B64U50/38	10	by wireless transmission	B64U50/38	B64U50/38		350
+B64U50/39	9	Battery swapping	B64U50/39	B64U50/39		407
+B64U60/00	7	Undercarriages	B64U60/00	B64U60/00		302
+B64U60/10	8	specially adapted for use on water	B64U60/10	B64U60/10		199
+B64U60/20	8	specially adapted for uneven terrain	B64U60/20	B64U60/20		112
+B64U60/30	8	detachable from the body	B64U60/30	B64U60/30		87
+B64U60/40	8	foldable or retractable	B64U60/40	B64U60/40		359
+B64U60/50	8	with landing legs	B64U60/50	B64U60/50		1005
+B64U60/55	9	the legs being also used as ground propulsion	B64U60/55	B64U60/55		90
+B64U60/60	8	with rolling cages	B64U60/60	B64U60/60		66
+B64U60/70	8	Movable wings, rotor supports or shrouds acting as ground-engaging elements	B64U60/70	B64U60/70		56
+B64U70/00	7	Launching, take-off or landing arrangements	B64U70/00	B64U70/00		565
+B64U70/10	8	for releasing or capturing UAVs by hand	B64U70/10	B64U70/10		67
+B64U70/20	8	for releasing or capturing UAVs in flight by another aircraft	B64U70/20	B64U70/20		391
+B64U70/30	8	for capturing UAVs in flight by ground or sea-based arresting gear, e.g. by a cable or a net	B64U70/30	B64U70/30		552
+B64U70/40	8	Landing characterised by flight manoeuvres, e.g. deep stall	B64U70/40	B64U70/40		39
+B64U70/50	8	Launching from storage containers, e.g. from submarine missile tubes	B64U70/50	B64U70/50		199
+B64U70/60	8	Take-off or landing of UAVs from a runway using their own power	B64U70/60	B64U70/60		172
+B64U70/70	8	Launching or landing using catapults, tracks or rails (launching from storage containers B64U70/50)	B64U70/70	B64U70/70		459
+B64U70/80	8	Vertical take-off or landing, e.g. using rockets (rotorcrafts B64U10/10; VTOL aircraft B64U10/20)	B64U70/80	B64U70/80		300
+B64U70/83	9	using parachutes, balloons or the like	B64U70/83	B64U70/83		615
+B64U70/87	9	using inflatable cushions	B64U70/87	B64U70/87		71
+B64U70/90	8	Launching from or landing on platforms	B64U70/90	B64U70/90		695
+B64U70/92	9	Portable platforms	B64U70/92	B64U70/92		273
+B64U70/93	10	for use on a land or nautical vehicle	B64U70/93	B64U70/93		496
+B64U70/95	9	Means for guiding the landing UAV towards the platform, e.g. lighting means	B64U70/95	B64U70/95		331
+B64U70/97	9	Means for guiding the UAV to a specific location on the platform, e.g. platform structures preventing landing off-centre	B64U70/97	B64U70/97		320
+B64U70/99	9	Means for retaining the UAV on the platform, e.g. dogs or magnets	B64U70/99	B64U70/99		406
+B64U80/00	7	Transport or storage specially adapted for UAVs	B64U80/00	B64U80/00		197
+B64U80/10	8	with means for moving the UAV to a supply or launch location, e.g. robotic arms or carousels	B64U80/10	B64U80/10		169
+B64U80/20	8	with arrangements for servicing the UAV	B64U80/20	B64U80/20		169
+B64U80/25	9	for recharging batteries; for refuelling	B64U80/25	B64U80/25		973
+B64U80/30	8	with arrangements for data transmission	B64U80/30	B64U80/30		113
+B64U80/40	8	for two or more UAVs	B64U80/40	B64U80/40		173
+B64U80/50	8	the UAVs being disassembled	B64U80/50	B64U80/50		42
+B64U80/60	8	by wearable objects, e.g. garments or helmets	B64U80/60	B64U80/60		99
+B64U80/70	8	in containers (B64U80/60 takes precedence)	B64U80/70	B64U80/70		749
+B64U80/80	8	by vehicles	B64U80/80	B64U80/80		54
+B64U80/82	9	Airborne vehicles	B64U80/82	B64U80/82		300
+B64U80/84	9	Waterborne vehicles	B64U80/84	B64U80/84		267
+B64U80/86	9	Land vehicles	B64U80/86	B64U80/86		1035
+B64U2101/00	7	UAVs specially adapted for particular uses or applications	B64U101/00	B64U101/00		6182
+B64U2101/05	8	for sports or gaming, e.g. drone racing	B64U101/05	B64U101/05		139
+B64U2101/10	8	for generating power to be supplied to a remote station, e.g. UAVs with solar panels	B64U101/10	B64U101/10		143
+B64U2101/15	8	for conventional or electronic warfare	B64U101/15	B64U101/15		450
+B64U2101/16	9	for controlling, capturing or immobilising other vehicles	B64U101/16	B64U101/16		100
+B64U2101/17	9	for detecting, disrupting or countering communications	B64U101/17	B64U101/17		84
+B64U2101/18	9	for dropping bombs; for firing ammunition	B64U101/18	B64U101/18		196
+B64U2101/19	9	for use as targets or decoys	B64U101/19	B64U101/19		54
+B64U2101/20	8	for use as communications relays, e.g. high-altitude platforms	B64U101/20	B64U101/20		1025
+B64U2101/21	9	for providing Internet access	B64U101/21	B64U101/21		68
+B64U2101/23	9	for providing telephone services	B64U101/23	B64U101/23		56
+B64U2101/24	9	for use as flying displays, e.g. advertising or billboards	B64U101/24	B64U101/24		160
+B64U2101/25	8	for manufacturing or servicing	B64U101/25	B64U101/25		311
+B64U2101/26	9	for manufacturing, inspections or repairs	B64U101/26	B64U101/26		1056
+B64U2101/28	9	for painting or marking	B64U101/28	B64U101/28		87
+B64U2101/29	9	for cleaning	B64U101/29	B64U101/29		314
+B64U2101/30	8	for imaging, photography or videography	B64U101/30	B64U101/30		9168
+B64U2101/31	9	for surveillance	B64U101/31	B64U101/31		1536
+B64U2101/32	9	for cartography or topography	B64U101/32	B64U101/32		507
+B64U2101/35	8	for science, e.g. meteorology	B64U101/35	B64U101/35		464
+B64U2101/40	8	for agriculture or forestry operations	B64U101/40	B64U101/40		1168
+B64U2101/45	8	for releasing liquids or powders in-flight, e.g. crop-dusting	B64U101/45	B64U101/45		1008
+B64U2101/47	9	for fire fighting	B64U101/47	B64U101/47		310
+B64U2101/55	8	for life-saving or rescue operations; for medical use	B64U101/55	B64U101/55		330
+B64U2101/56	9	for locating missing persons or animals	B64U101/56	B64U101/56		70
+B64U2101/57	9	for bringing emergency supplies to persons or animals in danger, e.g. ropes or life vests	B64U101/57	B64U101/57		127
+B64U2101/58	9	for medical evacuation, i.e. the transportation of persons or animals to a place where they can receive medical care	B64U101/58	B64U101/58		29
+B64U2101/60	8	for transporting passengers; for transporting goods other than weapons	B64U101/60	B64U101/60		2334
+B64U2101/61	9	for transporting passengers	B64U101/61	B64U101/61		149
+B64U2101/64	9	for parcel delivery or retrieval	B64U101/64	B64U101/64		1352
+B64U2101/66	10	for retrieving parcels	B64U101/66	B64U101/66		84
+B64U2101/67	9	the UAVs comprising tethers for lowering the goods	B64U101/67	B64U101/67		256
+B64U2101/69	9	the UAVs provided with means for airdropping goods, e.g. deploying a parachute during descent	B64U101/69	B64U101/69		209
+B64U2101/70	8	for use inside enclosed spaces, e.g. in buildings or in vehicles	B64U101/70	B64U101/70		174
+B64U2101/75	8	for extra-terrestrial use, e.g. on the Moon or Mars	B64U101/75	B64U101/75		25
+B64U2201/00	7	UAVs characterised by their flight controls	CPCONLY	B64U2201/00		1372
+B64U2201/10	8	autonomous, i.e. by navigating independently from ground or air stations, e.g. by using inertial navigation systems [INS]	CPCONLY	B64U2201/10		4137
+B64U2201/102	9	adapted for flying in formations	CPCONLY	B64U2201/102		645
+B64U2201/104	9	using satellite radio beacon positioning systems, e.g. GPS	CPCONLY	B64U2201/104		1396
+B64U2201/20	8	Remote controls	CPCONLY	B64U2201/20		6735
+B64U2201/202	9	using tethers for connecting to ground station	CPCONLY	B64U2201/202		566

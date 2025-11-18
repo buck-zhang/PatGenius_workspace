@@ -1,0 +1,752 @@
+G06F   1/00		グループＧ０６Ｆ３／００〜Ｇ０６Ｆ１３／００およびＧ０６Ｆ２１／００に包含されないデータ処理装置の細部（プログラム記憶式汎用計算機のアーキテクチャＧ０６Ｆ１５／７６）［２００６．０１］	Details not covered by groups G06F3/00 to G06F13/00  and G06F21/00(architectures of general purpose stored program computers G06F15/76)	39350
+G06F   1/02	・	デジタル型関数発生器［２００６．０１］	Digital function generators	2978
+G06F   1/025	・・	二値振幅をもつ関数のためのもの，例．ウォルシュ関数のためのもの［２００６．０１］	for functions having two-valued amplitude, e.g. Walsh functions	290
+G06F   1/03	・・	少なくとも一部分はテーブル・ルックアップによって作動するもの（Ｇ０６Ｆ１／０２５が優先）［２００６．０１］<br><b><ul>注</ul></b><br>このグループに分類されるためには，テーブルは単に係数だけでなく，所望の関数または中間の関数の関数値を含んでいなければならない［５］	working, at least partly, by table look-up(G06F1/025 takes precedence);<br><br><b><u>Note(s)</u></b><br><br>In order to be classified in this group, the table must contain function values of the desired or an intermediate function, not merely coefficients.	1115
+G06F   1/035	・・・	テーブルのサイズの縮小［２００６．０１］	Reduction of table size	376
+G06F   1/04	・	クロック信号またはそれから直接誘導された信号の発生または分配［２００６．０１］	Generating or distributing clock signals or signals derived directly therefrom	12447
+G06F   1/06	・・	複数のクロック信号を発生するクロック発生装置［２００６．０１］	Clock generators producing several clock signals	3501
+G06F   1/08	・・	クロック周波数が可変またはプログラマブルであるクロック発生装置［２００６．０１］	Clock generators with changeable or programmable clock frequency	4652
+G06F   1/10	・・	クロック信号の分配［２００６．０１］	Distribution of clock signals	4967
+G06F   1/12	・・	異なるクロック信号の同期［２００６．０１］	Synchronisation of different clock signals	5462
+G06F   1/14	・・	時間監視装置，例．リアルタイムクロック［２００６．０１］	Time supervision arrangements, e.g. real time clock	4215
+G06F   1/16	・	構造上の細部または配置［２００６．０１］	Constructional details or arrangements	142133
+G06F   1/18	・・	実装または電力の分配［２００６．０１］	Packaging or power distribution	71699
+G06F   1/20	・・	冷却手段［２００６．０１］	Cooling means	86980
+G06F   1/22	・	ピン／ゲート比率を制限または制御する手段［２００６．０１］	Means for limiting or controlling the pin/gate ratio	258
+G06F   1/24	・	リセット手段［２００６．０１］	Resetting means	9039
+G06F   1/26	・	電力供給手段，例．電源の安定化（メモリのためのものＧ１１Ｃ）［２００６．０１］	Power supply means, e.g. regulation thereof(for memories G11C)	42081
+G06F   1/28	・・	電源の監視，例．規定値はずれの監視による電力供給不良の検知［２００６．０１］	Supervision thereof, e.g. detecting power-supply failure by out of limits supervision	10586
+G06F   1/30	・・	電力供給不良または中断，例．電源変動の際作動するための手段（リセットのためだけのものＧ０６Ｆ１／２４）［２００６．０１］	Means for acting in the event of power-supply failure or interruption, e.g. power-supply fluctuations (for resetting only G06F1/24)	9215
+G06F   1/32	・・	電力節約のための手段［２０１９．０１］	Means for saving power	32525
+G06F   1/3203	・・・	電力管理，すなわちイベントベースの省電力モードの開始［２０１９．０１］	Power management, i.e. event-based initiation of a power-saving mode	1473
+G06F   1/3206	・・・・	電力状態の変化をトリガするイベント，装置またはパラメータの監視［２０１９．０１］	Monitoring of events, devices or parameters that trigger a change in power modality	2992
+G06F   1/3209	・・・・・	遠隔動作を監視するもの，例．電話回線またはネットワーク接続によるもの［２０１９．０１］	Monitoring remote activity, e.g. over telephone lines or network connections	589
+G06F   1/3212	・・・・・	バッテリーレベルを監視するもの，例．バッテリ電圧が所定値を下回ったことにより節電を開始するもの［２０１９．０１］	Monitoring battery levels, e.g. power saving mode being initiated when battery voltage goes below a certain level	924
+G06F   1/3215	・・・・・	周辺装置を監視してコンピュータの節電を行うもの［２０１９．０１］	Monitoring of peripheral devices	692
+G06F   1/3218	・・・・・・	ディスプレイ装置を監視してコンピュータの節電を行うもの［２０１９．０１］	of display devices	580
+G06F   1/3221	・・・・・・	ディスク駆動装置を監視してコンピュータの節電を行うもの［２０１９．０１］	of disk drive devices	76
+G06F   1/3225	・・・・・・	メモリ装置を監視してコンピュータの節電を行うもの［２０１９．０１］	of memory devices	467
+G06F   1/3228	・・・・・	タスクの終了を監視するもの，例．アイドルタイマ，停止コマンドまたは待ちコマンドの使用によるもの［２０１９．０１］	Monitoring task completion, e.g. by use of idle timers, stop commands or wait commands	689
+G06F   1/3231	・・・・・	ユーザの有無または動きを監視するもの［２０１９．０１］	Monitoring the presence, absence or movement of users	1175
+G06F   1/3234	・・・・	実行される動作に特徴がある節電［２０１９．０１］	Power saving characterised by the action undertaken	6032
+G06F   1/3237	・・・・・	クロックの生成または供給を停止することによるもの［２０１９．０１］	by disabling clock generation or distribution	367
+G06F   1/324	・・・・・	クロック周波数の低減によるもの［２０１９．０１］	by lowering clock frequency	1433
+G06F   1/3246	・・・・・	電源オフになるために起動されたソフトウェアによるもの［２０１９．０１］	by software initiated power-off	177
+G06F   1/3287	・・・・・	コンピュータシステムの個別の機能ユニットをオフにすることによるもの［２０１９．０１］	by switching off individual functional units in the computer system	2746
+G06F   1/329	・・・・・	タスクスケジューリングによるもの［２０１９．０１］	by task scheduling	1226
+G06F   1/3293	・・・・・	消費電力の少ないプロセッサへの切替によるもの，例．サブＣＰＵ［２０１９．０１］	by switching to a less power-consuming processor, e.g. sub-CPU	604
+G06F   1/3296	・・・・・	供給電圧または動作電圧を下げることによるもの［２０１９．０１］	by lowering the supply or operating voltage	2021
+G06F   3/00		計算機で処理しうる形式にデータを変換するための入力装置；処理ユニットから出力ユニットへデータを転送するための出力装置，例．インタフェース装置［２００６．０１］	Input arrangements for transferring data to be processed into a form capable of being handled by the computer; Output arrangements for transferring data from processing unit to output unit, e.g. interface arrangements	74194
+G06F   3/01	・	ユーザーと計算機との相互作用のための入力装置または入力と出力が結合した装置（Ｇ０６Ｆ３／１６が優先）［２００６．０１］	Input arrangements or combined input and output arrangements for interaction between user and computer(G06F3/16 takes precedence)	113713
+G06F   3/02	・・	手動で操作されるスイッチを用いる入力装置，例．キーボードまたはダイヤルを用いるもの［２００６．０１］	Input arrangements using manually operated switches, e.g. using keyboards or dials	62491
+G06F   3/023	・・・	情報の離散的項目をコード信号に変換するための装置，例．キーボードで発生したコードを英数字コード，オペランドコードまたは命令コードとして解釈するための装置［２００６．０１］	Arrangements for converting discrete items of information into a coded form, e.g. arrangements for interpreting keyboard generated codes as alphanumeric codes, operand codes or instruction codes	38168
+G06F   3/027	・・・・	小数点挿入のためのもの［２００６．０１］	for insertion of the decimal point	109
+G06F   3/03	・・	器具の位置または変位をコード信号に変換するための装置［２００６．０１］<br><b><ul>注</ul></b><br>このグループでは，ファーストプレイス優先ルールが適用される，すなわち各階層レベルにおいて，相反する指示がない限り，最初の適切な箇所に分類する。［２００６．０１］	Arrangements for converting the position or the displacement of a member into a coded form; <br><br><b><u>Note(s)</u></b><br><br>In this group, the first place priority rule is applied, i.e. at each hierarchical level, in the absence of an indication to the contrary, classification is made in the first appropriate place.  	24460
+G06F   3/033	・・・	ユーザにより変位または位置決めされるポインティングデバイス；その付属具（変換手段によって特徴付けられたデジタイザＧ０６Ｆ３／０４１）［３，８，２０１３．０１］	Pointing devices displaced or positioned by the user; Accessories therefor(digitisers characterised by the transducing means G06F3/041)	32570
+G06F   3/0338	・・・・	デバイスの操作部位の中立位置からの限定された直線的変位または角度変位を検出するもの，例．アイソトニックまたはアイソメトリック・ジョイスティック［２０１３．０１］	with detection of limited linear or angular displacement of an operating part of the device from a neutral position, e.g. isotonic or isometric joysticks	3685
+G06F   3/0346	・・・・	三次元空間における，デバイスの向きまたは自由運動を検出するもの，例．３Ｄマウス，ジャイロや加速度センサや傾きセンサを使用する６自由度ポインタ［２０１３．０１］	with detection of the device orientation or free movement in a 3D space, e.g. 3D mice, 6-DOF [six degrees of freedom] pointers using gyroscopes, accelerometers or tilt-sensors	14024
+G06F   3/0354	・・・・	デバイスまたはその操作部位と，平面または表面との間の，二次元相対運動を検出するもの，例．二次元マウス，トラックボール，ペンまたはパック［２０１３．０１］	with detection of 2D relative movements between the device, or an operating part thereof, and a plane or surface, e.g. 2D mice, trackballs, pens or pucks	39773
+G06F   3/0362	・・・・	デバイスの操作部位の一次元の移動または回転を検出するもの，例．スクロールホイール，スライダ，ノブ，ローラーまたはベルト［２０１３．０１］	with detection of 1D translations or rotations of an operating part of the device, e.g. scroll wheels, sliders, knobs, rollers or belts	3287
+G06F   3/037	・・・・	器具の位置を検知するために陰極線管［ＣＲＴ］のラスター走査を用いるもの，例．ＣＲＴモニタと共働するライトペン［３，８，２０１３．０１］	using the raster scan of a cathode-ray tube [CRT] for detecting the position of the member, e.g. light pens cooperating with CRT monitors	1681
+G06F   3/038	・・・・	その制御インタフェース装置，例．ドライバまたはデバイスに埋め込まれた制御回路［８，２０１３．０１］	Control and interface arrangements therefor, e.g. drivers or device-embedded control circuitry	22347
+G06F   3/039	・・・・	その付属具，例．マウスパッド［８，２０１３．０１］	Accessories therefor, e.g. mouse pads	7429
+G06F   3/041	・・・	変換手段によって特徴付けられたデジタイザー，例．タッチスクリーンまたはタッチパッド用のもの［２００６．０１］	Digitisers, e.g. for touch screens or touch pads, characterised by the transducing means	142953
+G06F   3/042	・・・・	光電子手段によるもの［２００６．０１］	by opto-electronic means	20481
+G06F   3/043	・・・・	伝播する音波を用いるもの［２００６．０１］	using propagating acoustic waves	3272
+G06F   3/044	・・・・	容量性手段によるもの［２００６．０１］	by capacitive means	45165
+G06F   3/045	・・・・	抵抗性要素を用いるもの，例．１つの連続した面または接触しうるように置かれた２つの平行な面を用いるもの［２００６．０１］	using resistive elements, e.g. a single continuous surface or two parallel surfaces put in contact	9436
+G06F   3/046	・・・・	電磁的手段によるもの［２００６．０１］	by electromagnetic means	5606
+G06F   3/047	・・・・	組みになっているワイヤを用いるもの，例．交差ワイヤ［２００６．０１］	using sets of wires, e.g. crossed wires	2235
+G06F   3/048	・・	グラフィカルユーザインタフェース［ＧＵＩ］に基づく相互作用技術［２０１３．０１］<br><b><ul>注</ul></b><br>このグループは，ユーザが表示されたデータと相互作用可能な手段に焦点をあてた主題事項を包含する。特定の機能と関連したデータ処理が可能な特定のアプリケーションソフトウェアまたは特定の装置を開示する文脈中で，単に標準的なＧＵＩが存在するだけの場合は，それらのアプリケーションソフトウェアまたは特定の装置と関連した適切なサブクラスに一般的に分類する。［２０１３．０１］	Interaction techniques based on graphical user interfaces [GUI]; <br><br><b><u>Note(s)</u></b><br><br>This group <u>covers</u> subject matter where the focus is placed on the way the user can interact with the displayed data. The mere presence of a standard GUI in the context of the disclosure of a specific software application or a specific device capable of processing data related to its specific function, should in general be classified in the appropriate subclasses related to those software applications or specific devices.	90733
+G06F   3/0481	・・・	表示された相互作用オブジェクトの特定の特性，またはメタファベースの環境に基づくもの，例．ウィンドウまたはアイコンのようなデスクトップ要素との相互作用，あるいはカーソルの挙動や外観の変化によって補助されるもの［２０２２．０１］	based on specific properties of the displayed interaction object or a metaphor-based environment, e.g. interaction with desktop elements like windows or icons, or assisted by a cursor's changing behaviour or appearance	62296
+G06F   3/04812	・・・・	カーソルの外観または振舞に基づく相互作用技術，例．表示オブジェクトの存在により影響を受けるもの［２０２２．０１］	Interaction techniques based on cursor appearance or behaviour, e.g. being affected by the presence of displayed objects	1468
+G06F   3/04815	・・・・	立体的に表示されている、メタファに基づく環境または相互作用オブジェクトとの相互作用，例．メタファに基づく環境または相互作用オブジェクトに関するユーザの視点を変えるもの［２０２２．０１］	Interaction with a metaphor-based environment or interaction object displayed as three-dimensional, e.g. changing the user viewpoint with respect to the environment or object	4180
+G06F   3/04817	・・・・	アイコンを用いるもの（アイコン的記号を用いるグラフィカルまたはビジュアルプログラミングＧ０６Ｆ８／３４）［２０２２．０１］	using icons(graphical or visual programming using iconic symbols G06F8/34)	7403
+G06F   3/0482	・・・・	選択可能な事項のリストとの相互作用，例．メニュー［２０１３．０１］	Interaction with lists of selectable items, e.g. menus	38761
+G06F   3/0483	・・・・	ページにより構成された環境との相互作用，例．本のメタファ［２０１３．０１］	Interaction with page-structured environments, e.g. book metaphor	6495
+G06F   3/0484	・・・	特定の機能または動作を制御するためのもの，例．オブジェクトや画像または表示されている文字要素の選択や操作，パラメータ値の設定，範囲の選択［２０２２．０１］	for the control of specific functions or operations, e.g. selecting or manipulating an object, an image or a displayed text element, setting a parameter value or selecting a range	69566
+G06F   3/04842	・・・・	表示されているオブジェクトまたは表示されている文字要素の選択（Ｇ０６Ｆ３／０４８２が優先）［２０２２．０１］	Selection of displayed objects or displayed text elements(G06F3/0482 takes precedence)	8682
+G06F   3/04845	・・・・	画像を操作するためのもの，例．ドラッグ，回転，拡大，色の変更［２０２２．０１］	for image manipulation, e.g. dragging, rotation, expansion or change of colour	6478
+G06F   3/04847	・・・・	パラメータ設定を制御する相互作用技術，例．スライダまたはダイヤルとの相互作用［２０２２．０１］	Interaction techniques to control parameter settings, e.g. interaction with sliders or dials	6188
+G06F   3/0485	・・・・	スクロールまたはパン［２０２２．０１］	Scrolling or panning	12225
+G06F   3/04855	・・・・・	スクロールバーとの相互作用［２０２２．０１］	Interaction with scrollbars	448
+G06F   3/0486	・・・・	ドラッグ・アンド・ドロップ［２０１３．０１］	Drag-and-drop	8669
+G06F   3/0487	・・・	入力デバイスによって提供される特定の特徴を利用するもの，例．２つのセンサを備えたマウスの回転によって制御される機能，または入力デバイスの性質によるもの，例．デジタイザが感知する圧力に基づくタップ動作［２０２２．０１］	using specific features provided by the input device, e.g. functions controlled by the rotation of a mouse with dual sensing arrangements, or of the nature of the input device, e.g. tap gestures based on pressure sensed by a digitiser	16421
+G06F   3/0488	・・・・	タッチスクリーンまたはデジタイザを利用するもの，例．追跡されたジェスチャーによるコマンドの入力［２０２２．０１］	using a touch-screen or digitiser, e.g. input of commands through traced gestures	69968
+G06F   3/04883	・・・・・	手書きによりデータを入力するためのもの，例．ジェスチャーまたは文字［２０２２．０１］	for inputting data by handwriting, e.g. gesture or text	6434
+G06F   3/04886	・・・・・	タッチスクリーンの表示領域またはデジタイズ用タブレットの表面を個別に制御可能な領域に分割することによるもの，例．仮想キーボード，メニュー［２０２２．０１］	by partitioning the display area of the touch-screen or the surface of the digitising tablet into independently controllable areas, e.g. virtual keyboards or menus	2962
+G06F   3/0489	・・・・	専用のキーボードのキーまたはそれらの組合せを利用するもの［２０２２．０１］	using dedicated keyboard keys or combinations thereof	4695
+G06F   3/04892	・・・・・	ある離散位置から別の離散位置へのカーソルの移動を指示するコードに基づいてカーソルの位置を制御するための装置，例．異なる方向と関連付けられたカーソル制御キーを使用するもの，またはタブキーを使用するもの（座標信号に基づいてカーソルの位置を制御するための装置Ｇ０６Ｆ３／０３８）［２０２２．０１］	Arrangements for controlling cursor position based on codes indicative of cursor displacements from one discrete location to another, e.g. using cursor control keys associated to different directions or using the tab key(arrangements for controlling cursor position based on coordinate signals G06F3/038)	73
+G06F   3/04895	・・・・・	キーボードによる入力操作中の案内，例．入力を促すもの［プロンプティング］［２０２２．０１］	Guidance during keyboard input operation, e.g. prompting	120
+G06F   3/05	・	一定の時間間隔でのアナログ量のサンプリングを用いるデジタル入力  ［２００６．０１］	Digital input using the sampling of an analogue quantity at regular intervals of time	3253
+G06F   3/06	・	記録担体からのデジタル入力または記録担体へのデジタル出力  ［２００６．０１］	Digital input from, or digital output to, record carriers	95613
+G06F   3/08	・・	個別的な記録担体たとえばせん孔カードからのデジタル入力またはこのような記録担体へのデジタル出力［２００６．０１］	from or to individual record carriers, e.g. punched card	5331
+G06F   3/09	・	タイプライターへのデジタル出力［２００６．０１］	Digital output to typewriters	825
+G06F   3/12	・	印字ユニットへのデジタル出力［２００６．０１］	Digital output to print unit	105635
+G06F   3/13	・	プロッタへのデジタル出力［２００６．０１］	Digital output to plotter	1092
+G06F   3/14	・	表示装置へのデジタル出力［２００６．０１］	Digital output to display device	75502
+G06F   3/147	・・	表示パネルを用いるもの［２００６．０１］	using display panels	10869
+G06F   3/153	・・	陰極線管を用いるもの［２００６．０１］	using cathode-ray tubes	15102
+G06F   3/16	・	音声入力；音声出力（音声処理Ｇ１０Ｌ）［２００６．０１］	Sound input; Sound output (speech processing G10L)	42899
+G06F   3/18	・	自動曲線追従器からのデジタル入力［２００６．０１］	Digital input from automatic curve follower	84
+G06F   5/00		処理するデータの順序または内容を変更することなくデータ変換を行うための方法または装置［４］	Methods or arrangements for data conversion without changing the order or content of the data handled	5314
+G06F   5/01	・	桁送りのためのもの，例．位置調整，位取り，正規化，のためのもの［５］	for shifting, e.g. justifying, scaling, normalising	1801
+G06F   5/06	・	データ・フローの速度を変えるためのもの，すなわち速度調整のためのもの	for changing the speed of data flow, i.e. speed regularising	4657
+G06F   5/08	・・	格納位置が連続しており，中間のデータは格納または取り出しを行う際にアクセス不能であるもの，例．シフトレジスタを使用するもの［８］	having a sequence of storage locations, the intermediate ones not being accessible for either enqueue or dequeue operations, e.g. using a shift register	431
+G06F   5/10	・・	格納位置が連続しており，各データが格納および取り出しを行う際にそれぞれ独立してアクセス可能であるもの，例．ランダムアクセスメモリを使用するもの［８］	having a sequence of storage locations each being individually accessible for both enqueue and dequeue operations, e.g. using random access memory	1052
+G06F   5/12	・・・	充填度を監視する手段；衝突，即ち，同時に格納および取り出しを行う際のコンフリクト，を解消する手段［８］	Means for monitoring the fill level; Means for resolving contention, i.e. conflicts between simultaneous enqueue and dequeue operations	522
+G06F   5/14	・・・・	オーバーフローまたはアンダーフローを扱うもの，例．満杯または空を示すフラグ［８］	for overflow or underflow handling, e.g. full or empty flags	662
+G06F   5/16	・・	多重方式，即ち，２つ以上の同様な装置を使用し，格納および取り出しを行う際に交互にアクセスするもの，例．ピンポン・バッファ［８］	Multiplexed systems, i.e. using two or more similar devices which are alternately accessed for enqueue and dequeue operations, e.g. ping-pong buffers	526
+G06F   7/00		取扱うデータの順序または内容を操作してデータを処理するための方法または装置（論理回路Ｈ０３Ｋ１９／００）	Methods or arrangements for processing data by operating upon the order or content of the data handled(logic circuits H03K19/00)	50723
+G06F   7/02	・	デジタル値の比較（Ｇ０６Ｆ７／０６，Ｇ０６Ｆ７／３８が優先）	Comparing digital values(G06F7/06, G06F7/38 take precedence)	4051
+G06F   7/04	・・	同一性の比較，すなわち値が同じか異なるかの比較	Identity comparison, i.e. for like or unlike values	11185
+G06F   7/06	・	個々の記録担体上のデータをソート，選別，マージ，または別々の記録担体上のデータを比較するための装置	Arrangements for sorting, selecting, merging, or comparing data on individual record carriers	3492
+G06F   7/08	・・	ソート，すなわち記録担体が有している少なくともある情報の類別によって，記録担体を番号順または他の一定順序に群分けすること（２組以上の記録担体を一定順序にマージするものＧ０６Ｆ７／１６）	Sorting, i.e. grouping record carriers in numerical or other ordered sequence according to the classification of at least some of the information they carry(by merging two or more sets of carriers in ordered sequence G06F7/16)	1657
+G06F   7/10	・・	選別，すなわち順番にまたは無秩序に配列された多数の記録坦体上のある種のデータによって識別可能な記録坦体上のデータ中から別種のデータを得ること	Selecting, i.e. obtaining data of one kind from those record carriers which are identifiable by data of a second kind from a mass of ordered or randomly-distributed record carriers	1027
+G06F   7/12	・・・	選択された項目の表を印刷する手段をもつもの	with provision for printing-out a list of selected items	70
+G06F   7/14	・・	マージ，すなわち各々同じ順序に配列された少なくとも２組の記録担体を，同じ順序を有する１組の記録担体にまとめること	Merging, i.e. combining at least two sets of record carriers each arranged in the same ordered sequence to produce a single set having the same ordered sequence	346
+G06F   7/16	・・・	マージとソートを組み合わせたもの	Combined merging and sorting	159
+G06F   7/20	・・	同じ順序に配列された別々の記録担体の組を比較して，１組中の少なくともあるデータが他の１組または数組中のデータと一致しているか否かを決めるもの	Comparing separate sets of record carriers arranged in the same sequence to determine whether at least some of the data in one set is identical with that in the other set or sets	361
+G06F   7/22	・	連続的記録担体，例．テープ，ドラム，ディスク，上のデータをソートまたはマージする装置	Arrangements for sorting or merging computer data on continuous record carriers, e.g. tape, drum, disc	1382
+G06F   7/24	・・	ソート，一つ以上の記録担体からデータを引き出し，番号順または他の一定順序にそのデータを並べ直し，かつもとの記録担体または別の記録担体あるいは組になった記録担体上に，ソートされたデータを再記録すること（Ｇ０６Ｆ７／３６が優先）	Sorting, i.e. extracting data from one or more carriers, re-arranging the data in numerical or other ordered sequence, and re-recording the sorted data on the original carrier or on a different carrier or set of carriers(G06F7/36 takes precedence)	1877
+G06F   7/26	・・・	ソートされたデータを中間の記憶装置を用いずにもとの記録担体上のそのデータがソート前に記録されていた同じスペース内に記録するもの	the sorted data being recorded on the original record carrier within the same space in which the data had been recorded prior to their sorting, without using intermediate storage	46
+G06F   7/32	・・	マージ，すなわち少なくとも２つの記録担体上に一定の順序で入れられているデータを組み合わせて，もとのデータの全てを順序よく保持する一つの記録担体あるいは組になった記録担体を作るもの（Ｇ０６Ｆ７／３６が優先）	Merging, i.e. combining data contained in ordered sequence on at least two record carriers to produce a single carrier or set of carriers having all the original data in the ordered sequence(G06F7/36 takes precedence)	361
+G06F   7/36	・・	マージとソートを組み合わせたもの	Combined merging and sorting	259
+G06F   7/38	・	位取り記数法を用いて計算を行なうための方法または装置，例．２進，３進，１０進法を用いるもの［３］	Methods or arrangements for performing computations using exclusively denominational number representation, e.g. using binary, ternary, decimal representation	6462
+G06F   7/40	・・	接点開閉素子，例．電磁継電器，を用いるもの（Ｇ０６Ｆ７／４６が優先）	using contact-making devices, e.g. electromagnetic relay(G06F7/46 takes precedence)	165
+G06F   7/42	・・・	加算；減算	Adding; Subtracting	325
+G06F   7/44	・・・	乗算；除算	Multiplying; Dividing	512
+G06F   7/46	・・	電気機械的計数器型の累算器を用いるもの	using electromechanical counter-type accumulators	454
+G06F   7/48	・・	無接点素子，例．真空管，固体素子，を用いるもの；素子を特定しないで用いるもの［３］	using non-contact-making devices, e.g. tube, solid state device; using unspecified devices	1441
+G06F   7/483	・・・	位取り数を非線形に組み合わせて表現した数を用いて計算するもの，例．有理数，対数方式，または浮動小数点数［８］	Computations with numbers represented by a non-linear combination of denominational numbers, e.g. rational numbers, logarithmic number system or floating-point numbers	1507
+G06F   7/485	・・・・	加算；減算［８］	Adding; Subtracting	824
+G06F   7/487	・・・・	乗算；除算［８］	Multiplying; Dividing	839
+G06F   7/49	・・・	２進，８進，１６進または１０進以外の基数，例．３進，負または虚の基数，混合基数，を用いて計算するもの［３］	Computations with a radix, other than binary, 8, 16 or decimal, e.g. ternary, negative or imaginary radices, mixed radix	920
+G06F   7/491	・・・	１０進数を用いて計算するもの［８］	Computations with decimal numbers	859
+G06F   7/492	・・・・	各位取り内では２進の重み付け表現がされているもの［８］	using a binary weighted representation within each denomination	20
+G06F   7/493	・・・・・	自然２進符号，即ち８４２１符号，で表現されているもの［８］	the representation being the natural binary coded representation, i.e. 8421-code	369
+G06F   7/494	・・・・・・	加算；減算［８］	Adding; Subtracting	357
+G06F   7/495	・・・・・・・	デジットシリアル演算形式であるもの，即ち，全ての位取りを次々に扱う１つのデジット処理回路を有するもの［８］	in digit-serial fashion, i.e. having a single digit-handling circuit treating all denominations after each other	116
+G06F   7/496	・・・・・・	乗算；除算［８］	Multiplying; Dividing	346
+G06F   7/498	・・・・	計数器型の累算器を使用するもの［８］	using counter-type accumulators	557
+G06F   7/499	・・・	位取り処理または例外処理，例．丸め，オーバーフロー［８］	Denomination or exception handling, e.g. rounding or overflow	931
+G06F   7/50	・・・	加算；減算（Ｇ０６Ｆ７／４８３〜Ｇ０６Ｆ７／４９１，Ｇ０６Ｆ７／５４４〜Ｇ０６Ｆ７／５５６が優先）［３，８］	Adding; Subtracting(G06F7/483 to G06F7/491 , G06F7/544 to G06F7/556  take precedence)	6205
+G06F   7/501	・・・・	半加算器または全加算器，即ち，１桁の位取りに対する基本的な加算セル［８］	Half or full adders, i.e. basic adder cells for one denomination	1002
+G06F   7/502	・・・・・	半加算器；２つの半加算器を縦続接続してなる全加算器［８］	Half adders; Full adders consisting of two cascaded half adders	181
+G06F   7/503	・・・・・	キャリ信号を使用するもの，即ち，入力されたキャリが直接，もしくは反転器を通すのみで，キャリ伝搬信号の値の制御下においてキャリ出力に接続されているもの［８］	using carry switching, i.e. the incoming carry being connected directly, or only via an inverter, to the carry output under control of a carry propagate signal	399
+G06F   7/504	・・・・	ビットシリアル演算形式であるもの，即ち，全ての位取りを次々に扱う１つのデジット処理回路を有するもの［８］	in bit-serial fashion, i.e. having a single digit-handling circuit treating all denominations after each other	211
+G06F   7/505	・・・・	ビットパラレル演算形式であるもの，即ち，各々の位取りに対して異なるデジット処理回路を有するもの［８］	in bit-parallel fashion, i.e. having a different digit-handling circuit for each denomination	799
+G06F   7/506	・・・・・	２箇所以上において同時にキャリの生成，もしくはキャリの伝搬が起こるもの［８］	with simultaneous carry generation for, or propagation over, two or more stages	789
+G06F   7/507	・・・・・・	２つの条件について計算されたキャリまたはサムの値から選択を行うもの［８］	using selection between two conditionally calculated carry or sum values	415
+G06F   7/508	・・・・・・	桁上げ先見回路を使用するもの［８］	using carry look-ahead circuits	1545
+G06F   7/509	・・・・・	多数のオペランドに対するもの，例．デジタル積分器［８］	for multiple operands, e.g. digital integrators	463
+G06F   7/52	・・・	乗算；除算（Ｇ０６Ｆ７／４８３〜Ｇ０６Ｆ７／４９１，Ｇ０６Ｆ７／５４４〜Ｇ０６Ｆ７／５５６が優先）［３，８］	Multiplying; Dividing(G06F7/483 to G06F7/491 , G06F7/544 to G06F7/556  take precedence)	5653
+G06F   7/523	・・・・	乗算のみ［８］	Multiplying only	2322
+G06F   7/525	・・・・・	シリアル−シリアル演算形式であるもの，即ち，両方のオペランドが直列に入力されるもの（Ｇ０６Ｆ７／５３３が優先）［８］	in serial-serial fashion, i.e. both operands being entered serially(G06F7/533 takes precedence)	153
+G06F   7/527	・・・・・	シリアル−パラレル演算形式であるもの，即ち，一方のオペランドが直列に入力され，他方のオペランドが並列に入力されるもの（Ｇ０６Ｆ７／５３３が優先）［８］	in serial-parallel fashion, i.e. one operand being entered serially and the other in parallel(G06F7/533 takes precedence)	605
+G06F   7/53	・・・・・	パラレル−パラレル演算形式であるもの，即ち，両方のオペランドが並列に入力されるもの（Ｇ０６Ｆ７／５３３が優先）［８］	in parallel-parallel fashion, i.e. both operands being entered in parallel(G06F7/533 takes precedence)	1526
+G06F   7/533	・・・・・	反復する過程または段階の回数を削減するもの，例．ブースアルゴリズム，対数加算，奇数−偶数，を使用するもの［８］	Reduction of the number of iteration steps or stages, e.g. using the Booth algorithm, log-sum, odd-even	898
+G06F   7/535	・・・・	除算のみ［８］	Dividing only	1394
+G06F   7/537	・・・・・	反復する過程または段階の回数を削減するもの，例．Ｓｗｅｅｎｙ−Ｒｏｂｅｒｔｓｏｎ−Ｔｏｃｈｅｒ［ＳＲＴ］アルゴリズムを使用するもの［８］	Reduction of the number of iteration steps or stages, e.g. using the Sweeny-Robertson-Tocher [SRT] algorithm	418
+G06F   7/544	・・・	計算によって関数の値を求めるためのもの	for evaluating functions by calculation	3833
+G06F   7/548	・・・・	三角関数；座標変換［３］	Trigonometric functions; Co-ordinate transformations	981
+G06F   7/552	・・・・	べき乗またはべき根［３］	Powers or roots	1265
+G06F   7/556	・・・・	対数または指数関数［３］	Logarithmic or exponential functions	789
+G06F   7/57	・・・	算術論理演算ユニット［ＡＬＵ］，即ち，グループＧ０６Ｆ７／４８３〜Ｇ０６Ｆ７／５５６に包含される２以上の演算を実行する装置または論理演算を実行する装置［８］	Arithmetic logic units [ALU], i.e. arrangements or devices for performing two or more of the operations covered by groups G06F7/483 to G06F7/556  or for performing logical operations	2338
+G06F   7/575	・・・・	基本的な算術論理演算ユニット，即ち，少なくとも部分的に，同じ回路を使用し，加算，減算，または複数の論理演算の１つの何れかを選択して実行できる装置［８］	Basic arithmetic logic units, i.e. devices selectable to perform either addition, subtraction or one of several logical operations, using, at least partially, the same circuitry	686
+G06F   7/58	・	乱数または擬似乱数発生器［３］	Random or pseudo-random number generators	8372
+G06F   7/60	・	デジタルな非位取り記数法，すなわち．基数を用いない数表現を用いて計算を行うための方法または装置；位取り記数法と非位取り記数法の組合せを用いる計算装置［３］	Methods or arrangements for performing computations using a digital non-denominational number representation, i.e. number representation without radix; Computing devices using combinations of denominational and non-denominational quantity representations	2479
+G06F   7/62	・・	パルスの総数を計数することのみにより演算を実行するもの［３］	Performing operations exclusively by counting total number of pulses	799
+G06F   7/64	・・	デジタル微分解析機，すなわち増分を表示するパルスを用いて，微分，積分もしくは微分または積分方程式を解くための計算装置；差分方程式を解くためのその他の増分計算機（Ｇ０６Ｆ７／７０が優先；ハイブリッド計算技術を用いた微分解析機Ｇ０６Ｊ１／０２）［３］	Digital differential analysers, i.e. computing devices for differentiation, integration or solving differential or integral equations, using pulses representing increments; Other incremental computing devices for solving difference equations(G06F7/70 takes precedence; differential analysers using hybrid computing techniques G06J1/02)	601
+G06F   7/66	・・・	単位増分のみを表わすパルスを用いるもの［３］	wherein pulses represent unitary increments only	270
+G06F   7/68	・・	パルス率乗算器または除算器を用いるもの（Ｇ０６Ｆ７／７０が優先）［３］	using pulse rate multipliers or dividers(G06F7/70 takes precedence)	791
+G06F   7/70	・・	推計パルス列，すなわち平均パルス率で数を表現するランダムに発生するパルス列を用いるもの［３］	using stochastic pulse trains, i.e. randomly occurring pulses the average pulse rates of which represent numbers	1434
+G06F   7/72	・・	剰余計算を用いるもの［３］	using residue arithmetic	2670
+G06F   7/74	・	１語内の，指定値を有する１以上のビットの位置を選別または符号化すること，例．最上位または最下位の有意な０または１の検出，プライオリティ・エンコーダ［８］	Selecting or encoding within a word the position of one or more bits having a specified value, e.g. most or least significant one or zero detection, priority encoders	469
+G06F   7/76	・	データ内容から独立して定められたルールによるデータの再配置，並べ替え，または選別のための装置［８］	Arrangements for rearranging, permuting or selecting data according to predetermined rules, independently of the content of the data	2588
+G06F   7/78	・・	データ・フローの順序を変えるためのもの，例．行と列との入れ換え，ＬＩＦＯバッファ；そのオバーフローまたはアンダーフローの処理［８］	for changing the order of data flow, e.g. matrix transposition or LIFO buffers; Overflow or underflow handling therefor	591
+G06F   8/00		ソフトウェアエンジニアリングのための装置（テストまたはデバッグＧ０６Ｆ１１／３６；ソフトウェアプロジェクト管理における運用，計画または組織化の観点Ｇ０６Ｑ１０／０６）［２０１８．０１］	Arrangements for software engineering(testing or debugging G06F11/36; administrative, planning or organisation aspects of software project management G06Q10/06)	592
+G06F   8/10	・	要求分析；仕様化技術［２０１８．０１］	Requirements analysis; Specification techniques	2416
+G06F   8/20	・	ソフトウェアの設計［２０１８．０１］	Software design	8659
+G06F   8/30	・	ソースコードの作成または生成［２０１８．０１］	Creation or generation of source code	11062
+G06F   8/33	・・	インテリジェントエディタ［２０１８．０１］	Intelligent editors	2122
+G06F   8/34	・・	グラフィカルまたはビジュアルプログラミング［２０１８．０１］	Graphical or visual programming	7911
+G06F   8/35	・・	モデル駆動［２０１８．０１］	model driven	2742
+G06F   8/36	・・	ソフトウェアの再利用［２０１８．０１］	Software reuse	5696
+G06F   8/38	・・	ユーザインタフェースの実装のためのもの［２０１８．０１］	for implementing user interfaces	11792
+G06F   8/40	・	プログラムコードの変換［２０１８．０１］	Transformation of program code	909
+G06F   8/41	・・	コンパイル［２０１８．０１］	Compilation	17636
+G06F   8/51	・・	ソースからソースへ［２０１８．０１］	Source to source	753
+G06F   8/52	・・	バイナリからバイナリへ［２０１８．０１］	Binary to binary	312
+G06F   8/53	・・	逆コンパイル；逆アセンブル［２０１８．０１］	Decompilation; Disassembly	904
+G06F   8/54	・・	ロード時より前のリンク編集［２０１８．０１］	Link editing before load time	220
+G06F   8/60	・	ソフトウェアの配備［２０１８．０１］	Software deployment	6094
+G06F   8/61	・・	インストール［２０１８．０１］	Installation	14776
+G06F   8/65	・・	アップデート（そのためのセキュリティ装置Ｇ０６Ｆ２１／５７）［２０１８．０１］	Updates  (security arrangements therefor G06F21/57)	25142
+G06F   8/654	・・・	書換可能な固体記憶装置に特に適合した技術を用いるもの，例．ＥＥＰＲＯＭまたはフラッシュメモリのためのもの［２０１８．０１］	using techniques specially adapted for alterable solid state memories, e.g. for EEPROM or flash memories	2543
+G06F   8/656	・・・	実行中にアップデートするもの［２０１８．０１］	while running	1895
+G06F   8/658	・・・	増分アップデート；差分アップデート［２０１８．０１］	Incremental updates; Differential updates	2255
+G06F   8/70	・	ソフトウェアの保守または管理［２０１８．０１］	Software maintenance or management	3850
+G06F   8/71	・・	バージョン制御（そのためのセキュリティ装置Ｇ０６Ｆ２１／５７）；構成管理［２０１８．０１］	Version control (security arrangements therefor G06F21/57);Configuration management	20330
+G06F   8/72	・・	コードリファクタリング［２０１８．０１］	Code refactoring	1013
+G06F   8/73	・・	プログラムドキュメンテーション［２０１８．０１］	Program documentation	1974
+G06F   8/74	・・	リバースエンジニアリング；ソースコードから設計情報を抽出するもの［２０１８．０１］	Reverse engineering; Extracting design information from source code	544
+G06F   8/75	・・	プログラム理解のための構造分析［２０１８．０１］	Structural analysis for program understanding	1596
+G06F   8/76	・・	異なる環境で動作するようプログラムコードを適合させるもの；移植［２０１８．０１］	Adapting program code to run in a different environment; Porting	2005
+G06F   8/77	・・	ソフトウェアメトリクス［２０１８．０１］	Software metrics	973
+G06F   9/00		プログラム制御のための装置，例．制御装置（周辺装置のためのプログラム制御Ｇ０６Ｆ１３／１０）［２０１８．０１］	Arrangements for program control, e.g. control units(program control for peripheral devices G06F13/10)	16925
+G06F   9/02	・	ワイヤー接続，例．プラグボード，を用いるもの［２００６．０１］	using wired connections, e.g. plugboards	688
+G06F   9/04	・	プログラム命令のみを保持する記録担体を用いるもの（Ｇ０６Ｆ９／０６が優先）［２００６．０１］	using record carriers containing only program instructions (G06F9/06 takes precedence)	432
+G06F   9/06	・	プログラム記憶方式を用いるもの，すなわちプログラムを受取りまたは保持するために処理装置の内部記憶装置を用いるもの［２００６．０１］	using stored programs, i.e. using an internal store of processing equipment to receive or retain programs	24845
+G06F   9/22	・・	マイクロ制御またはマイクロプログラム装置［２００６．０１］	Microcontrol or microprogram arrangements	8311
+G06F   9/24	・・・	マイクロプログラムのローディング［２００６．０１］	Loading of the microprogram	2997
+G06F   9/26	・・・	次位マイクロ命令のアドレス指定（Ｇ０６Ｆ９／２８が優先）［２００６．０１］	Address formation of the next microinstruction(G06F9/28 takes precedence)	2956
+G06F   9/28	・・・	演算速度の増強，例．並列に動作する幾つかのマイクロ制御装置を用いるもの［２００６．０１］	Enhancement of operational speed, e.g. by using several microcontrol devices operating in parallel	1606
+G06F   9/30	・・	機械語命令を実行するための装置，例．命令のデコード（マイクロ命令を実行するためのものＧ０６Ｆ９／２２）［２０１８．０１］	Arrangements for executing machine instructions, e.g. instruction decode  (for executing microinstructions G06F9/22)	26191
+G06F   9/302	・・・	算術演算の実行を制御するもの［２０１８．０１］	Controlling the executing of arithmetic operations	1621
+G06F   9/305	・・・	論理演算の実行を制御するもの［２０１８．０１］	Controlling the executing of logical operations	1056
+G06F   9/308	・・・	単一ビット演算を制御するもの（Ｇ０６Ｆ９／３０５が優先）［２０１８．０１］	Controlling single bit operations(G06F9/305 takes precedence)	485
+G06F   9/312	・・・	ロード，ストアまたはクリアの演算を制御するもの［２０１８．０１］	Controlling loading, storing or clearing operations	2044
+G06F   9/315	・・・	移動，桁送りまたは回転の演算を制御するもの［２０１８．０１］	Controlling moving, shifting or rotation operations	970
+G06F   9/318	・・・	演算の拡張または修飾を伴うもの［２０１８．０１］	with operation extension or modification	2430
+G06F   9/32	・・・	次の命令のアドレスの指定，例．命令カウンタのインクリメント（Ｇ０６Ｆ９／３８が優先）［２０１８．０１］	Address formation of the next instruction, e.g. by incrementing the instruction counter (G06F9/38 takes precedence)	5049
+G06F   9/34	・・・	命令オペランドまたは演算結果のアドレシングまたはアクセシング［２０１８．０１］	Addressing or accessing the instruction operand or the result	3860
+G06F   9/345	・・・・	多重のオペランドまたは演算結果に対するもの［２０１８．０１］	of multiple operands or results	665
+G06F   9/35	・・・・	間接アドレシング［２０１８．０１］	Indirect addressing	378
+G06F   9/355	・・・・	インデクスアドレシング［２０１８．０１］	Indexed addressing	1120
+G06F   9/38	・・・	命令の同時実行，例．パイプライン，ルック・アヘッド［２０１８．０１］	Concurrent instruction execution, e.g. pipeline or look ahead	27901
+G06F   9/44	・・	特定のプログラムを実行するための装置［２０１８．０１］	Arrangements for executing specific programs	96383
+G06F   9/4401	・・・	ブートストラップ（そのためのセキュリティ装置Ｇ０６Ｆ２１／５７）［２０１８．０１］	Bootstrapping  (security arrangements therefor G06F21/57)	13972
+G06F   9/445	・・・	プログラムのローディングまたは起動（ブートストラップＧ０６Ｆ９／４４０１；プログラムのローディングまたは起動のためのセキュリティ装置Ｇ０６Ｆ２１／５７）［２０１８．０１］	Program loading or initiating  (bootstrapping G06F9/4401;   security arrangements for program loading or initiating G06F21/57)	78765
+G06F   9/448	・・・	実行パラダイム，例．プログラミングパラダイムの実装［２０１８．０１］	Execution paradigms, e.g. implementations of programming paradigms	6596
+G06F   9/451	・・・	ユーザインタフェースのための実行装置［２０１８．０１］	Execution arrangements for user interfaces	39036
+G06F   9/455	・・・	エミュレーション；インタープリタによる実行；ソフトウェアシミュレーション，例．アプリケーションまたはＯＳの実行エンジンの仮想化またはエミュレーション［２０１８．０１］	Emulation; Interpretation; Software simulation, e.g. virtualisation or emulation of application or operating system execution engines	51186
+G06F   9/46	・・	マルチプログラミング装置［２００６．０１］	Multiprogramming arrangements	52043
+G06F   9/48	・・・	プログラムの起動；プログラムの切換，例．割込みによるもの［２００６．０１］	Program initiating; Program switching, e.g. by interrupt	48072
+G06F   9/50	・・・	リソースの割り当て，例．中央処理装置［ＣＰＵ］［２００６．０１］	Allocation of resources, e.g. of the central processing unit [CPU]	77240
+G06F   9/52	・・・	プログラム同期；相互排除，例．セマフォによるもの［２００６．０１］	Program synchronisation; Mutual exclusion, e.g. by means of semaphores	9064
+G06F   9/54	・・・	プログラム間通信［２００６．０１］	Interprogram communication	42099
+G06F  11/00		エラー検出；エラー訂正；監視（記録担体と変換器との間の相対運動に基づく情報記憶装置におけるエラーの検出，訂正または監視Ｇ１１Ｂ２０／１８；モニタ，すなわち，記録または再生過程の監視Ｇ１１Ｂ２７／３６；静的記憶装置におけるものＧ１１Ｃ２９／００）［４］	Error detection; Error correction; Monitoring(error detection, correction or monitoring in information storage based on relative movement between record carrier and transducer G11B20/18;  monitoring, i.e. supervising the progress of recording or reproducing G11B27/36;  in static stores G11C29/00)	58960
+G06F  11/07	・	故障の発生への応答，例．耐故障性［７］	Responding to the occurrence of a fault, e.g. fault tolerance	30428
+G06F  11/08	・・	データの表現形態に冗長性をもたせることによるエラー検出またはエラー訂正，例．チェック・コードを用いることによるもの	Error detection or correction by redundancy in data representation, e.g. by using checking codes	4308
+G06F  11/10	・・・	符号化された情報に特別のビットまたは記号を付加したもの，例．パリティチェック，９または１１のキャスティングアウト	Adding special bits or symbols to the coded information, e.g. parity check, casting out nines or elevens	26775
+G06F  11/14	・・	演算に冗長性を持たせることによるデータのエラー検出または訂正，例．同じ結果になる別の演算式を用いることによるもの（Ｇ０６Ｆ１１／１６が優先）［３］	Error detection or correction of the data by redundancy in operation, e.g. by using different operation sequences leading to the same result(G06F11/16 takes precedence)	40457
+G06F  11/16	・・	ハードウェアに冗長性を持たせることによるデータのエラー検出または訂正［３］	Error detection or correction of the data by redundancy in hardware	8916
+G06F  11/18	・・・	冗長回路の受動的フォールトマスキングによるもの，例．クアッディング等の冗長回路の組み合わせロジックによるものまたは多数決回路によるもの［３］	using passive fault-masking of the redundant circuits, e.g. by quadding or by majority decision circuits	3111
+G06F  11/20	・・・	能動的なフォールトマスキングによるもの，例．故障要素を切り離すことによるものまたは予備の要素に切り換えることによるもの［３］	using active fault-masking, e.g. by switching out faulty elements or by switching in spare elements	17454
+G06F  11/22	・	待機作動中または遊休時間中の検査によるコンピュータ故障箇所の検出または故障位置の指示，例．始動試験［３］	Detection or location of defective computer hardware by testing during standby operation or during idle time, e.g. start-up testing	34936
+G06F  11/24	・・	限界試験［３］	Marginal testing	564
+G06F  11/25	・・	論理動作の試験，例．ロジック・アナライザによる［６］	Testing of logic operation, e.g. by logic analysers	2855
+G06F  11/26	・・	機能試験［３］	Functional testing	7639
+G06F  11/263	・・・	試験入力の発生，例．テストベクトル，パターンまたはシーケンス［６］	Generation of test inputs, e.g. test vectors, patterns or sequences	2422
+G06F  11/267	・・・	試験用構成変更回路，例．ＬＳＳＤ，区切り［６］	Reconfiguring circuits for testing, e.g. LSSD, partitioning	2559
+G06F  11/27	・・・	作り付け試験［６］	Built-in tests	1067
+G06F  11/273	・・・	テスターハードウェア，すなわち，出力処理回路［６］	Tester hardware, i.e. output processing circuits	3019
+G06F  11/277	・・・・	実際のレスポンスと既知の正確なレスポンスとの間の比較をもつもの［６］	with comparison between actual response and known fault-free response	571
+G06F  11/28	・	処理順序の正しさを検査することによるもの（Ｇ０６Ｆ１１／０７〜Ｇ０６Ｆ１１／２２が優先）［３］	by checking the correct order of processing(G06F11/07, G06F11/22 take precedence)	14898
+G06F  11/30	・	監視［３］	Monitoring	62374
+G06F  11/32	・・	装置の機能の可視表示手段を有するもの［３］	with visual indication of the functioning of the machine	16765
+G06F  11/34	・・	コンピュータ動作の記録または統計的評価，例．故障時間のまたは入出力動作の記録または統計的評価［３］	Recording or statistical evaluation of computer activity, e.g. of down time, of input/output operation	39165
+G06F  11/36	・	ソフトウェアの分析，デバッグまたは検査によるエラー防止［２０２５．０１］	Prevention of errors by analysis, debugging or testing of software	61034
+G06F  11/3604	・・	プログラムの特性を検証するための，ソフトウェアの分析（ソフトウェアの試験Ｇ０６Ｆ１１／３６６８）［２０２５．０１］	Analysis of software for verifying properties of programs(testing of software G06F11/3668)	
+G06F  11/362	・・	ソフトウェアのデバッグ［２０２５．０１］	Debugging of software	
+G06F  11/3668	・・	ソフトウェアの試験［２０２５．０１］	Testing of software	
+G06F  11/3698	・・	ソフトウェアの分析，デバッグまたは試験のための環境［２０２５．０１］	Environments for analysis, debugging or testing of software	
+G06F  12/00		メモリシステムまたはアーキテクチャ内でのアクセシング，アドレシングまたはアロケーティング（記録媒体，例．ディスク記録ユニット，からのデジタル入力，またはデジタル出力Ｇ０６Ｆ３／０６）［２００６．０１］	Accessing, addressing or allocating within memory systems or architectures(digital input from, or digital output to record carriers, e.g. to disk storage units, G06F3/06)	96728
+G06F  12/02	・	アドレシングまたはアロケーション；リロケーション（プログラム・アドレス順序制御Ｇ０６Ｆ９／００；デジタル記憶におけるアドレス選択装置Ｇ１１Ｃ８／００）［２００６．０１］	Addressing or allocation; Relocation (program address sequencing G06F9/00;  arrangements for selecting an address in a digital store G11C8/00)	37072
+G06F  12/04	・・	可変長語，または語の一部，のアドレシング［２００６．０１］	Addressing variable-length words or parts of words	3298
+G06F  12/06	・・	ロケーションの物理的ブロックのアドレシング，例．ベース・アドレシング，モジュール・アドレシング，メモリ空間拡張，メモリ専用（Ｇ０６Ｆ１２／０８が優先）［２００６．０１］	Addressing a physical block of locations, e.g. base addressing, module addressing, address space extension, memory dedication(G06F12/08 takes precedence)	19045
+G06F  12/08	・・	階層構造のメモリ・システム，例．仮想メモリ・システム，におけるもの［２０１６．０１］	in hierarchically structured memory systems, e.g. virtual memory systems	29329
+G06F  12/0802	・・・	所望データまたはデータブロックへのアクセスが連想アドレシングを要求する，メモリレベルのアドレシング，例．キャッシュ［２０１６．０１］	Addressing of a memory level in which the access to the desired data or data block requires associative addressing means, e.g. caches	2135
+G06F  12/0804	・・・・	主メモリのアップデートを伴うもの（Ｇ０６Ｆ１２／０８０６が優先）［２０１６．０１］	with main memory updating(G06F12/0806 takes precedence)	1463
+G06F  12/0806	・・・・	マルチユーザ，マルチプロセッサ，マルチプロセッシングのキャッシュ・システム［２０１６．０１］	Multiuser, multiprocessor or multiprocessing cache systems	731
+G06F  12/0808	・・・・・	キャッシュ無効化手段を有するもの（Ｇ０６Ｆ１２／０８１５が優先）［２０１６．０１］	with cache invalidating means(G06F12/0815 takes precedence)	417
+G06F  12/0811	・・・・・	マルチレベルのキャッシュ階層を有するもの［２０１６．０１］	with multilevel cache hierarchies	1911
+G06F  12/0813	・・・・・	ネットワークまたはマトリクス構成を有するもの［２０１６．０１］	with a network or matrix configuration	547
+G06F  12/0815	・・・・・	キャッシュ一貫性プロトコル［２０１６．０１］	Cache consistency protocols	1122
+G06F  12/0817	・・・・・・	ディレクトリ手法を用いるもの［２０１６．０１］	using directory methods	698
+G06F  12/0831	・・・・・・	バス・スキームを用いるもの，例．バス監視またはウオッチ手段を有するもの［２０１６．０１］	using a bus scheme, e.g. with bus monitoring or watching means	1093
+G06F  12/0837	・・・・・・	ソフトウエア制御を有するもの，例．ノンキャッシャブル・データ［２０１６．０１］	with software control, e.g. non-cacheable data	137
+G06F  12/084	・・・・・	共有キャッシュを有するもの［２０１６．０１］	with a shared cache	1220
+G06F  12/0842	・・・・・	マルチプロセッシングまたはマルチタスクのためのもの［２０１６．０１］	for multiprocessing or multitasking	796
+G06F  12/0844	・・・・	複数同時または準同時キャッシュアクセシング［２０１６．０１］	Multiple simultaneous or quasi-simultaneous cache accessing	190
+G06F  12/0846	・・・・・	同時アクセス可能な複数のタグまたはデータアレイを有するキャッシュ［２０１６．０１］	Cache with multiple tag or data arrays being simultaneously accessible	525
+G06F  12/0853	・・・・・	マルチポートのタグまたはデータアレイを有するキャッシュ［２０１６．０１］	Cache with multiport tag or data arrays	128
+G06F  12/0855	・・・・・	オーバーラップしたキャッシュアクセシング，例．パイプライン（Ｇ０６Ｆ１２／０８４６が優先）［２０１６．０１］	Overlapped cache accessing, e.g. pipeline(G06F12/0846 takes precedence)	288
+G06F  12/0862	・・・・	プリフェッチを伴うもの［２０１６．０１］	with prefetch	1801
+G06F  12/0864	・・・・	擬似連想手段，例．セットアソシアティブ，ハッシング，を有するもの［２０１６．０１］	using pseudo-associative means, e.g. set-associative or hashing	641
+G06F  12/0866	・・・・	周辺記憶システム，例．ディスクキャッシュ，のためのもの［２０１６．０１］	for peripheral storage systems, e.g. disk cache	1377
+G06F  12/0868	・・・・・	キャッシュメモリとその他のサブシステム，例．ストレージ装置またはホストシステム，の間のデータ転送［２０１６．０１］	Data transfer between cache memory and other subsystems, e.g. storage devices or host systems	1396
+G06F  12/0871	・・・・・	キャッシュ空間の割り当てまたは管理［２０１６．０１］	Allocation or management of cache space	1381
+G06F  12/0873	・・・・・	特定のストレージ装置またはストレージ装置の部分への，キャッシュメモリのマッピング［２０１６．０１］	Mapping of cache memory to specific storage devices or parts thereof	605
+G06F  12/0875	・・・・	専用キャッシュ，例．命令またはスタック，を有するもの［２０１６．０１］	with dedicated cache, e.g. instruction or stack	1688
+G06F  12/0877	・・・・	キャッシュアクセスモード［２０１６．０１］	Cache access modes	1330
+G06F  12/0879	・・・・・	バーストモード［２０１６．０１］	Burst mode	108
+G06F  12/0882	・・・・・	ページモード［２０１６．０１］	Page mode	999
+G06F  12/0884	・・・・・	パラレルモード，例．主メモリまたはＣＰＵとの並行処理［２０１６．０１］	Parallel mode, e.g. in parallel with main memory or CPU	136
+G06F  12/0886	・・・・・	可変長語のアクセス［２０１６．０１］	Variable-length word access	137
+G06F  12/0888	・・・・	選択的なキャッシュ処理を用いるもの，例．バイパス［２０１６．０１］	using selective caching, e.g. bypass	602
+G06F  12/0891	・・・・	クリア，無効化またはリセット手段を用いるもの［２０１６．０１］	using clearing, invalidating or resetting means	1384
+G06F  12/0893	・・・・	編成または構造により特徴づけられるキャッシュ［２０１６．０１］	Caches characterised by their organisation or structure	914
+G06F  12/0895	・・・・・	キャッシュの部分のためのもの，例．ディレクトリまたはタグアレイ［２０１６．０１］	of parts of caches, e.g. directory or tag array	785
+G06F  12/0897	・・・・・	複数のキャッシュ階層レベルを有するもの（マルチレベルのキャッシュ階層を有するものＧ０６Ｆ１２／０８１１）［２０１６．０１］	with two or more cache hierarchy levels(with multilevel cache hierarchies G06F12/0811)	1091
+G06F  12/10	・・・	アドレス変換［２０１６．０１］	Address translation	9268
+G06F  12/1009	・・・・	ページテーブル，例．ページテーブル構造，を用いるもの［２０１６．０１］	using page tables, e.g. page table structures	2968
+G06F  12/1018	・・・・・	ハッシング技術，例．逆引きページテーブル，を含むもの［２０１６．０１］	involving hashing techniques, e.g. inverted page tables	288
+G06F  12/1027	・・・・	連想または擬似連想アドレス変換手段，例．変換索引バッファ［ＴＬＢ］，を用いるもの［２０１６．０１］	using associative or pseudo-associative address translation means, e.g. translation look-aside buffer [TLB]	1310
+G06F  12/1036	・・・・・	複数の仮想アドレス空間，例．セグメンテーション，のためのもの（Ｇ０６Ｆ１２／１０４５が優先）［２０１６．０１］	for multiple virtual address spaces, e.g. segmentation(G06F12/1045 takes precedence)	462
+G06F  12/1045	・・・・・	データキャッシュと結合するもの［２０１６．０１］	associated with a data cache	626
+G06F  12/1072	・・・・	分散アドレス変換，例．分散共有メモリ・システムにおけるもの［２０１６．０１］	Decentralised address translation, e.g. in distributed shared memory systems	199
+G06F  12/1081	・・・・	主メモリへの周辺アクセス，例．ダイレクトメモリーアクセス［ＤＭＡ］，のためのもの［２０１６．０１］	for peripheral access to main memory, e.g. direct memory access [DMA]	631
+G06F  12/109	・・・・	複数の仮想アドレス空間，例．セグメンテーション，のためのもの（Ｇ０６Ｆ１２／１０３６が優先）［２０１６．０１］	for multiple virtual address spaces, e.g. segmentation(G06F12/1036 takes precedence)	651
+G06F  12/12	・・・	置換制御［２０１６．０１］	Replacement control	5114
+G06F  12/121	・・・・	置換アルゴリズムを用いるもの［２０１６．０１］	using replacement algorithms	482
+G06F  12/122	・・・・・	使用頻度が最小［ＬＦＵ］のタイプのもの，例．個々の計数値をもつもの［２０１６．０１］	of the least frequently used [LFU] type, e.g. with individual count value	346
+G06F  12/123	・・・・・	年齢リストを有するもの，例．キュー，ｍｏｓｔ　ｒｅｃｅｎｔｌｙ　ｕｓｅｄ［ＭＲＵ］リストまたはｌｅａｓｔ　ｒｅｃｅｎｔｌｙ　ｕｓｅｄ［ＬＲＵ］リスト［２０１６．０１］	with age lists, e.g. queue, most recently used [MRU] list or least recently used [LRU] list	947
+G06F  12/126	・・・・・	特別なデータの取り扱いを有するもの，例．データまたは命令の優先度，エラーの取り扱い，固定［２０１６．０１］	with special data handling, e.g. priority of data or instructions, handling errors or pinning	585
+G06F  12/127	・・・・・・	追加の置換アルゴリズムを用いるもの［２０１６．０１］	using additional replacement algorithms	122
+G06F  12/128	・・・・・	多次元キャッシュ・システムに適合させたもの，例．セットアソシアティブ，マルチキャッシュ，マルチセットまたはマルチレベル［２０１６．０１］	adapted to multidimensional cache systems, e.g. set-associative, multicache, multiset or multilevel	586
+G06F  12/14	・	メモリの不正な使用に対する保護［２００６．０１］	Protection against unauthorised use of memory	31394
+G06F  12/16	・	メモリ内容の破壊に対する保護［２００６．０１］	Protection against loss of memory contents	26164
+G06F  13/00		メモリ，入力／出力装置または中央処理ユニットの間の情報または他の信号の相互接続または転送（特定の入力／出力装置のためのインタフェース回路Ｇ０６Ｆ３／００，マルチプロセッサシステムＧ０６Ｆ１５／１６）［４］	Interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units(interface circuits for specific input/output devices G06F3/00; multi-processor systems G06F15/16)	156614
+G06F  13/10	・	周辺装置のためのプログラム制御（Ｇ０６Ｆ１３／１４〜Ｇ０６Ｆ１３／４２が優先）［４］	Program control for peripheral devices (G06F13/14 to G06F13/42  take precedence)	17313
+G06F  13/12	・・	中央プロセッサーとは独立のハードウェアを用いるもの，例．チャネルまたは周辺装置用プロセッサ［４］	using hardware independent of the central processor, e.g. channel or peripheral processor	12651
+G06F  13/14	・	相互接続または転送のための接続要求［４］	Handling requests for interconnection or transfer	19410
+G06F  13/16	・・	メモリバスに対するアクセスのためのもの（Ｇ０６Ｆ１３／２８が優先）［４］	for access to memory bus(G06F13/28 takes precedence)	19467
+G06F  13/18	・・・	優先制御によるもの［４］	with priority control	2813
+G06F  13/20	・・	入力／出力バスに対するアクセスのためのもの［４］	for access to input/output bus	4180
+G06F  13/22	・・・	連続的走査を用いるもの，例．ポーリング（Ｇ０６Ｆ１３／２４が優先）［４］	using successive scanning, e.g. polling(G06F13/24 takes precedence)	1005
+G06F  13/24	・・・	割込みを用いるもの（Ｇ０６Ｆ１３／３２が優先）［４］	using interrupt(G06F13/32 takes precedence)	5340
+G06F  13/26	・・・・	優先制御によるもの［４］	with priority control	1366
+G06F  13/28	・・・	バーストモード転送を用いるもの，例．ダイレクトメモリアクセス，サイクルスチール（Ｇ０６Ｆ１３／３２が優先）［４］	using burst mode transfer, e.g. direct memory access, cycle steal(G06F13/32 takes precedence)	15691
+G06F  13/30	・・・・	優先制御によるもの［４］	with priority control	561
+G06F  13/32	・・・	割込みおよびバーストモード転送の組合わせを用いるもの［４］	using combination of interrupt and burst mode transfer	664
+G06F  13/34	・・・・	優先制御によるもの［４］	with priority control	204
+G06F  13/36	・・	共通バスまたはバスシステムに対するアクセスのためのもの［４］	for access to common bus or bus system	9788
+G06F  13/362	・・・	集中型アクセス制御をもつもの［５］	with centralised access control	4266
+G06F  13/364	・・・・	独立した要求または許可を用いるもの，例．個別の要求及び許可ラインを用いるもの［５］	using independent requests or grants, e.g. using separated request and grant lines	1371
+G06F  13/366	・・・・	集中ポーリングアービタを用いるもの［５］	using a centralised polling arbiter	529
+G06F  13/368	・・・	分散型アクセス制御をもつもの［５］	with decentralised access control	660
+G06F  13/37	・・・・	物理的な位置に存在する優先順位を用いるもの，例．デイジーチェーン，ラウンドロビンまたはトークンパッシング［５］	using a physical-position-dependent priority, e.g. daisy chain, round robin or token passing	760
+G06F  13/372	・・・・	時間に依存する優先順位を用いるもの，例．個別に設定された時間カウンタまたはタイムスロット［５］	using a time-dependent priority, e.g. individually loaded time counters or time slot	696
+G06F  13/374	・・・・	個別優先コード比較器をもつ自己選択方法を用いるもの［５］	using a self-select method with individual priority code comparator	420
+G06F  13/376	・・・・	競合解決方法を用いるもの，例．衝突検出，衝突回避［５］	using a contention resolving method, e.g. collision detection, collision avoidance	331
+G06F  13/378	・・・・	パラレルポール方法を用いるもの［５］	using a parallel poll method	86
+G06F  13/38	・	情報転送，例．バス上での（Ｇ０６Ｆ１３／１４が優先）［４］	Information transfer, e.g. on bus(G06F13/14 takes precedence)	33132
+G06F  13/40	・・	バス構造［４］	Bus structure	32673
+G06F  13/42	・・	バス転送プロトコル，例．ハンドシェイク；同期化［４］	Bus transfer protocol, e.g. handshake; Synchronisation	31191
+G06F  15/00		デジタル計算機一般（細部Ｇ０６Ｆ１／００〜Ｇ０６Ｆ１３／００）；データ処理装置一般［２００６．０１］	Digital computers in general(details G06F1/00 to G06F13/00 );Data processing equipment in general	51205
+G06F  15/02	・	入力はキーボードを通して，計算は組込みプログラムを用いて，手動的に操作するもの，例．ポケット計算機［２００６．０１］	manually operated with input through keyboard and computation using a built-in program, e.g. pocket calculators	23367
+G06F  15/04	・	処理されるデータの導入と同時にプログラムされるもの，例．データと同一の記録担体上にプログラムされるもの［２００６．０１］	programmed simultaneously with the introduction of data to be processed, e.g. on the same record carrier	419
+G06F  15/08	・	プログラミングのためにプラグ・ボードを用いるもの［２００６．０１］	using a plugboard for programming	129
+G06F  15/10	・・	タビュレータ［２００６．０１］	Tabulators	189
+G06F  15/12	・・・	印刷とせん孔の両方の出力手段をもつもの［２００６．０１］	having provision for both printed and punched output	137
+G06F  15/14	・・	計算せん孔機［２００６．０１］	Calculating-punches	36
+G06F  15/16	・	各々が少くとも算術演算ユニット，プログラム・ユニットおよびレジスタをもつ２つ以上のデジタル計算機が結合されたもの，例．数個のプログラムの同時処理を行うためのもの［２００６．０１］	Combinations of two or more digital computers each having at least an arithmetic unit, a program unit and a register, e.g. for a simultaneous processing of several programs	115287
+G06F  15/163	・・	プロセッサ間通信［２００６．０１］	Interprocessor communication	5311
+G06F  15/167	・・・	共通メモリ，例．メールボックス，を用いるもの［２００６．０１］	using a common memory, e.g. mailbox	8044
+G06F  15/17	・・・	入力／出力型接続，例．チャネル，Ｉ／Ｏポート，を用いるもの［２００６．０１］	using an input/output type connection, e.g. channel, I/O port	3324
+G06F  15/173	・・・	相互接続ネットワークを用いるもの，例．マトリックス，シャフル，ピラミッド，スターまたはスノーフレーク［２００６．０１］	using an interconnection network, e.g. matrix, shuffle, pyramid, star or snowflake	39403
+G06F  15/177	・・	初期化または構成制御（監視，試験または故障時のための構成制御Ｇ０６Ｆ１１／００）［２００６．０１］	Initialisation or configuration control(configuration control for monitoring, testing or in case of failure G06F11/00)	28473
+G06F  15/76	・	プログラム記憶式汎用計算機のアーキテクチャ（プログラム・プラグ・ボードをもつものＧ０６Ｆ１５／０８；多重計算機Ｇ０６Ｆ１５／１６）［２００６．０１］	Architectures of general purpose stored program computers  (with program plugboard G06F15/08;   multicomputers G06F15/16)	3457
+G06F  15/78	・・	単一の中央処理装置からなるもの［２００６．０１］	comprising a single central processing unit	18443
+G06F  15/80	・・	共通制御機構をもつ処理装置の配列からなるもの，例．単一命令複数データプロセッサ（Ｇ０６Ｆ１５／８２が優先）［２００６．０１］	comprising an array of processing units with common control, e.g. single instruction multiple data processors(G06F15/82 takes precedence)	5977
+G06F  15/82	・・	データまたは要求駆動型［２００６．０１］	data or demand driven	1569
+G06F  16/00		情報検索；そのためのデータベース構造；そのためのファイルシステム構造［２０１９．０１］	Information retrieval; Database structures therefor; File system structures therefor	16849
+G06F  16/10	・	ファイルシステム；ファイルサーバ［２０１９．０１］	File systems; File servers	646
+G06F  16/11	・・	ファイルシステム管理，例．アーカイビングまたはスナップショットの細部（ファイルシステムのバックアップＧ０６Ｆ１１／１４）［２０１９．０１］	File system administration, e.g. details of archiving or snapshots(file system backup G06F11/14)	8194
+G06F  16/13	・・	ファイルアクセス構造，例．分散インデックス（記録担体からの入力または記録担体への出力装置Ｇ０６Ｆ３／０６）［２０１９．０１］	File access structures, e.g. distributed indices(arrangements of input from, or output to, record carriers G06F3/06)	7041
+G06F  16/14	・・	ファイルのメタデータに基づくファイルサーチの細部［２０１９．０１］	Details of searching files based on file metadata	5443
+G06F  16/16	・・	ファイルまたはフォルダの操作，例．ファイルシステムに特に適合したユーザーインターフェイスの細部［２０１９．０１］	File or folder operations, e.g. details of user interfaces specifically adapted to file systems	11437
+G06F  16/17	・・	さらなるファイルシステム機能の細部［２０１９．０１］	Details of further file system functions	4599
+G06F  16/172	・・・	ファイルのキャッシュ処理，先取または蓄積［２０１９．０１］	Caching, prefetching or hoarding of files	5239
+G06F  16/174	・・・	ファイルシステムにより行われる冗長性の除去（データの重複排除を使用するバックアップまたはバックアップリストアに関わるデータの管理Ｇ０６Ｆ１１／１４）［２０１９．０１］	Redundancy elimination performed by the file system(management of the data involved in backup or backup restore using de-duplication of the data G06F11/14)	3716
+G06F  16/176	・・・	ファイルへの共有アクセスのサポート；ファイル共有サポート［２０１９．０１］	Support for shared access to files; File sharing support	3075
+G06F  16/178	・・・	ファイルシステム内のファイル同期のための技術［２０１９．０１］	Techniques for file synchronisation in file systems	2653
+G06F  16/18	・・	ファイルシステム型［２０１９．０１］	File system types	6262
+G06F  16/182	・・・	分散ファイルシステム［２０１９．０１］	Distributed file systems	9999
+G06F  16/185	・・・	階層記憶管理［ＨＳＭ］システム，例．ファイルの移行またはそのポリシー（アーカイビングの細部Ｇ０６Ｆ１６／１１）［２０１９．０１］	Hierarchical storage management [HSM] systems, e.g. file migration or policies thereof(details of archiving G06F16/11)	764
+G06F  16/188	・・・	仮想ファイルシステム［２０１９．０１］	Virtual file systems	852
+G06F  16/20	・	構造化データのもの，例．リレーショナルデータ［２０１９．０１］	of structured data, e.g. relational data	1698
+G06F  16/21	・・	データベースの設計，管理または保守［２０１９．０１］	Design, administration or maintenance of databases	17322
+G06F  16/215	・・・	データ品質を改善するもの；データクレンジング，例．重複排除，無効なエントリの削除または誤字の修正［２０１９．０１］	Improving data quality; Data cleansing, e.g. de-duplication, removing invalid entries or correcting typographical errors	17236
+G06F  16/22	・・	インデキシング；そのためのデータ構造；ストレージ構造［２０１９．０１］	Indexing; Data structures therefor; Storage structures	41292
+G06F  16/23	・・	アップデート［２０１９．０１］	Updating	30379
+G06F  16/24	・・	クエリ［２０１９．０１］	Querying	3277
+G06F  16/242	・・・	クエリの定式化［２０１９．０１］	Query formulation	15582
+G06F  16/245	・・・	クエリ処理［２０１９．０１］	Query processing	7548
+G06F  16/2452	・・・・	クエリ変換［２０１９．０１］	Query translation	1653
+G06F  16/2453	・・・・	クエリの最適化［２０１９．０１］	Query optimisation	8369
+G06F  16/2455	・・・・	クエリの実行［２０１９．０１］	Query execution	27768
+G06F  16/2457	・・・・	ユーザーニーズに適応させるもの［２０１９．０１］	with adaptation to user needs	13796
+G06F  16/2458	・・・・	特殊なクエリ，例．統計クエリ，ファジークエリまたは分散クエリ［２０１９．０１］	Special types of queries, e.g. statistical queries, fuzzy queries or distributed queries	30175
+G06F  16/248	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	12118
+G06F  16/25	・・	データベース管理システムを含むシステムの統合またはインターフェース［２０１９．０１］	Integrating or interfacing systems involving database management systems	32639
+G06F  16/26	・・	ビジュアルデータマイニング；構造化データのブラウジング［２０１９．０１］	Visual data mining; Browsing structured data	7517
+G06F  16/27	・・	データベース間または分散データベースシステム内でのデータの複製，分配または同期；そのための分散データベースシステムアーキテクチャ［２０１９．０１］	Replication, distribution or synchronisation of data between databases or within a distributed database system; Distributed database system architectures therefor	36851
+G06F  16/28	・・	データベースモデルに特徴のあるデータベース，例．リレーショナルモデルまたはオブジェクトモデル［２０１９．０１］	Databases characterised by their database models, e.g. relational or object models	30992
+G06F  16/29	・・	地理情報データベース［２０１９．０１］	Geographical information databases	29871
+G06F  16/30	・	構造化されていないテキストデータのもの（文書管理システムＧ０６Ｆ１６／９３）［２０１９．０１］<br><b><ul>注</ul></b><br>グループＧ０６Ｆ１６／３０〜Ｇ０６Ｆ１６／３６において，メタデータを用いることに特徴がある検索に関連する主題は，新規かつ非自明であると判断された場合には，グループＧ０６Ｆ１６／３８〜Ｇ０６Ｆ１６／３８７にも分類されなければならない。	of unstructured textual data(document management systems G06F16/93);<br><br><b><u>Note(s)</u></b><br><br>In groups G06F16/30 to G06F16/36 , subject matter relevant to retrieval characterised by using metadata, when it is determined to be novel and non-obvious, must also be classified in groups G06F16/38 to G06F16/387 .	1874
+G06F  16/31	・・	インデキシング；そのためのデータ構造；ストレージ構造［２０１９．０１］	Indexing; Data structures therefor; Storage structures	7652
+G06F  16/33	・・	クエリ［２０２５．０１］	Querying	28896
+G06F  16/332	・・・	クエリの定式化［２０２５．０１］	Query formulation	22376
+G06F  16/3329	・・・・	自然言語によるクエリの定式化［２０２５．０１］	Natural language query formulation	
+G06F  16/3331	・・・	クエリの処理［２０２５．０１］	Query processing	
+G06F  16/3332	・・・・	クエリの変換［２０２５．０１］	Query translation	
+G06F  16/334	・・・・	クエリの実行（追加データに基づくフィルタリングＧ０６Ｆ１６／３３５）［２０２５．０１］	Query execution(filtering based on additional data G06F16/335)	
+G06F  16/3349	・・・・	検索結果履歴の再利用［２０２５．０１］	Reuse of stored results of previous queries	
+G06F  16/335	・・・	追加データ，例．ユーザーまたはグループのプロファイル，に基づくフィルタリング（ウェブコンテキストでのフィルタリングＧ０６Ｆ１６／９５３５，Ｇ０６Ｆ１６／９５３６）［２０１９．０１］	Filtering based on additional data, e.g. user or group profiles(filtering in web context G06F16/9535, G06F16/9536)	7495
+G06F  16/338	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	4297
+G06F  16/34	・・	ブラウジング；そのための視覚化（クラスタリングまたは分類のためのブラウジングまたは視覚化Ｇ０６Ｆ１６／３５８）［２０２５．０１］	Browsing; Visualisation therefor(browsing or visualisation for clustering or classification G06F16/358)	4551
+G06F  16/35	・・	クラスタリング；分類［２０２５．０１］	Clustering; Classification	32469
+G06F  16/353	・・・	定義済分類へのクラスタリングまたは分類［２０２５．０１］	into predefined classes	
+G06F  16/355	・・・	分類またはクラスタの生成や修正［２０２５．０１］	Creation or modification of classes or clusters	
+G06F  16/358	・・・	ブラウジング；そのための視覚化［２０２５．０１］	Browsing; Visualisation therefor	
+G06F  16/36	・・	セマンティックツールの作成，例．オントロジーまたはシソーラス［２０１９．０１］	Creation of semantic tools, e.g. ontology or thesauri	21340
+G06F  16/38	・・	メタデータ，例．コンテンツから取得したものではないメタデータまたは手動で生成されたメタデータ，を用いることに特徴のある検索［２０１９．０１］	Retrieval characterised by using metadata, e.g. metadata not derived from the content or metadata generated manually	1953
+G06F  16/383	・・・	コンテンツから自動取得したメタデータの使用［２０１９．０１］	using metadata automatically derived from the content	1413
+G06F  16/387	・・・	地理情報または空間情報，例．位置情報，の使用［２０１９．０１］	using geographical or spatial information, e.g. location	615
+G06F  16/40	・	マルチメディアデータのもの，例．画像と追加音声データを含むスライドショー（静止画データの検索Ｇ０６Ｆ１６／５０；音声データの検索Ｇ０６Ｆ１６／６０；ビデオデータの検索Ｇ０６Ｆ１６／７０）［２０１９．０１］<br><b><ul>注</ul></b><br>グループＧ０６Ｆ１６／４０〜Ｇ０６Ｆ１６／４５において，メタデータを用いることに特徴がある検索に関連する主題は，新規かつ非自明であると判断された場合には，グループＧ０６Ｆ１６／４８〜Ｇ０６Ｆ１６／４８７にも分類されなければならない。	of multimedia data, e.g. slideshows comprising image and additional audio data(retrieval of still image data G06F16/50; retrieval of audio data G06F16/60; retrieval of video data G06F16/70);<br><br><b><u>Note(s)</u></b><br><br>In groups G06F16/40 to G06F16/45 , subject matter relevant to retrieval characterised by using metadata, when it is determined to be novel and non-obvious, must also be classified in groups G06F16/48 to G06F16/487 .	649
+G06F  16/41	・・	インデキシング；そのためのデータ構造；ストレージ構造［２０１９．０１］	Indexing; Data structures therefor; Storage structures	1116
+G06F  16/43	・・	クエリ［２０１９．０１］	Querying	853
+G06F  16/432	・・・	クエリの定式化［２０１９．０１］	Query formulation	1101
+G06F  16/435	・・・	追加データ，例．ユーザーまたはグループのプロファイル，に基づくフィルタリング［２０１９．０１］	Filtering based on additional data, e.g. user or group profiles	2192
+G06F  16/438	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	1831
+G06F  16/44	・・	ブラウジング；そのための視覚化［２０１９．０１］	Browsing; Visualisation therefor	1488
+G06F  16/45	・・	クラスタリング；分類［２０１９．０１］	Clustering; Classification	1054
+G06F  16/48	・・	メタデータ，例．コンテンツから取得したものではないメタデータまたは手動で生成されたメタデータ，を用いることに特徴のある検索［２０１９．０１］	Retrieval characterised by using metadata, e.g. metadata not derived from the content or metadata generated manually	1611
+G06F  16/483	・・・	コンテンツから自動取得したメタデータの使用［２０１９．０１］	using metadata automatically derived from the content	1006
+G06F  16/487	・・・	地理情報または空間情報，例．位置情報，の使用［２０１９．０１］	using geographical or spatial information, e.g. location	441
+G06F  16/50	・	静止画データのもの［２０１９．０１］<br><b><ul>注</ul></b><br>グループＧ０６Ｆ１６／５０〜Ｇ０６Ｆ１６／５６において，メタデータを用いることに特徴がある検索に関連する主題は，新規かつ非自明であると判断された場合には，グループＧ０６Ｆ１６／５８〜Ｇ０６Ｆ１６／５８７にも分類されなければならない。	of still image data ; <br><br><b><u>Note(s)</u></b><br><br>In groups G06F16/50 to G06F16/56 , subject matter relevant to retrieval characterised by using metadata, when it is determined to be novel and non-obvious, must also be classified in groups G06F16/58 to G06F16/587 .	1318
+G06F  16/51	・・	インデキシング；そのためのデータ構造；ストレージ構造［２０１９．０１］	Indexing; Data structures therefor; Storage structures	5991
+G06F  16/53	・・	クエリ［２０１９．０１］	Querying	2849
+G06F  16/532	・・・	クエリの定式化，例．グラフィカルクエリ［２０１９．０１］	Query formulation, e.g. graphical querying	2564
+G06F  16/535	・・・	追加データ，例．ユーザーまたはグループのプロファイル，に基づくフィルタリング［２０１９．０１］	Filtering based on additional data, e.g. user or group profiles	1717
+G06F  16/538	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	1569
+G06F  16/54	・・	ブラウジング；そのための視覚化［２０１９．０１］	Browsing; Visualisation therefor	1922
+G06F  16/55	・・	クラスタリング；分類［２０１９．０１］	Clustering; Classification	3859
+G06F  16/56	・・	ベクトル形式を有するもの［２０１９．０１］	having vectorial format	1080
+G06F  16/58	・・	メタデータ，例．コンテンツから取得したものではないメタデータまたは手動で生成されたメタデータ，を用いることに特徴のある検索［２０１９．０１］	Retrieval characterised by using metadata, e.g. metadata not derived from the content or metadata generated manually	5074
+G06F  16/583	・・・	コンテンツから自動取得したメタデータの使用［２０１９．０１］	using metadata automatically derived from the content	10696
+G06F  16/587	・・・	地理情報または空間情報，例．位置情報，の使用［２０１９．０１］	using geographical or spatial information, e.g. location	1977
+G06F  16/60	・	音声データ［２０１９．０１］<br><b><ul>注</ul></b><br>グループＧ０６Ｆ１６／６０〜Ｇ０６Ｆ１６／６５において，メタデータを用いることに特徴がある検索に関連する主題は，新規かつ非自明であると判断された場合には，グループＧ０６Ｆ１６／６８〜Ｇ０６Ｆ１６／６８７にも分類されなければならない。	of audio data ; <br><br><b><u>Note(s)</u></b><br><br>In groups G06F16/60 to G06F16/65 , subject matter relevant to retrieval characterised by using metadata, when it is determined to be novel and non-obvious, must also be classified in groups G06F16/68 to G06F16/687 .	359
+G06F  16/61	・・	インデキシング；そのためのデータ構造；ストレージ構造［２０１９．０１］	Indexing; Data structures therefor; Storage structures	751
+G06F  16/63	・・	クエリ［２０１９．０１］	Querying	515
+G06F  16/632	・・・	クエリの定式化［２０１９．０１］	Query formulation	508
+G06F  16/635	・・・	追加データ，例．ユーザーまたはグループのプロファイル，に基づくフィルタリング［２０１９．０１］	Filtering based on additional data, e.g. user or group profiles	1631
+G06F  16/638	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	1033
+G06F  16/64	・・	ブラウジング；そのための視覚化（オーディオデータのリストまたはセットの生成Ｇ０６Ｆ１６／６３８）［２０１９．０１］	Browsing; Visualisation therefor(generation of a list or set of audio data G06F16/638)	388
+G06F  16/65	・・	クラスタリング；分類［２０１９．０１］	Clustering; Classification	803
+G06F  16/68	・・	メタデータ，例．コンテンツから取得したものではないメタデータまたは手動で生成されたメタデータ，を用いることに特徴のある検索［２０１９．０１］	Retrieval characterised by using metadata, e.g. metadata not derived from the content or metadata generated manually	1529
+G06F  16/683	・・・	コンテンツから自動取得したメタデータの使用［２０１９．０１］	using metadata automatically derived from the content	1881
+G06F  16/687	・・・	地理情報または空間情報，例．位置情報，の使用［２０１９．０１］	using geographical or spatial information, e.g. location	188
+G06F  16/70	・	ビデオデータのもの［２０１９．０１］<br><b><ul>注</ul></b><br>グループＧ０６Ｆ１６／７０〜Ｇ０６Ｆ１６／７５において，メタデータを用いることに特徴がある検索に関連する主題は，新規かつ非自明であると判断された場合には，グループＧ０６Ｆ１６／７８〜Ｇ０６Ｆ１６／７８７にも分類されなければならない。	of video data; <br><br><b><u>Note(s)</u></b><br><br>In groups G06F16/70 to G06F16/75 , subject matter relevant to retrieval characterised by using metadata, when it is determined to be novel and non-obvious, must also be classified in groups G06F16/78 to G06F16/787 .	553
+G06F  16/71	・・	インデキシング；そのためのデータ構造；ストレージ構造［２０１９．０１］	Indexing; Data structures therefor; Storage structures	1759
+G06F  16/73	・・	クエリ［２０１９．０１］	Querying	876
+G06F  16/732	・・・	クエリの定式化［２０１９．０１］	Query formulation	1032
+G06F  16/735	・・・	追加データ，例．ユーザーまたはグループのプロファイル，に基づくフィルタリング［２０１９．０１］	Filtering based on additional data, e.g. user or group profiles	2140
+G06F  16/738	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	1515
+G06F  16/74	・・	ブラウジング；そのための視覚化（ビデオコンテンツを要求または相互作用するためのエンドユーザインターフェイス，例．ビデオオンデマンドインターフェイスまたは電子プログラムガイドＨ０４Ｎ２１／４７２）［２０１９．０１］	Browsing; Visualisation therefor(end-user interfaces for requesting or interacting with video content, e.g. video on demand interfaces or electronic program guides, H04N21/472)	1278
+G06F  16/75	・・	クラスタリング；分類［２０１９．０１］	Clustering; Classification	1546
+G06F  16/78	・・	メタデータ，例．コンテンツから取得したものではないメタデータまたは手動で生成されたメタデータ，を用いることに特徴のある検索［２０１９．０１］	Retrieval characterised by using metadata, e.g. metadata not derived from the content or metadata generated manually	3071
+G06F  16/783	・・・	コンテンツから自動取得したメタデータの使用［２０１９．０１］	using metadata automatically derived from the content	4499
+G06F  16/787	・・・	地理情報または空間情報，例．位置情報，の使用［２０１９．０１］	using geographical or spatial information, e.g. location	506
+G06F  16/80	・	半構造化データのもの，例．ＳＧＭＬ，ＸＭＬまたはＨＴＭＬなどのマークアップ言語構造化データ（ウェブデータのコンテンツベース検索Ｇ０６Ｆ１６／９５）［２０１９．０１］	of semi-structured data, e.g. markup language structured data such as SGML, XML or HTML (content-based retrieval of web data G06F16/95)	281
+G06F  16/81	・・	インデキシング，例．ＸＭＬタグ；そのためのデータ構造；ストレージ構造［２０１９．０１］	Indexing, e.g. XML tags; Data structures therefor; Storage structures	826
+G06F  16/83	・・	クエリ［２０１９．０１］	Querying	239
+G06F  16/832	・・・	クエリの定式化［２０１９．０１］	Query formulation	73
+G06F  16/835	・・・	クエリ処理［２０１９．０１］	Query processing	332
+G06F  16/838	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	156
+G06F  16/84	・・	マッピング；変換［２０１９．０１］	Mapping; Conversion	1145
+G06F  16/90	・	検索されたデータ型に依存しないデータベース機能の細部［２０１９．０１］<br><b><ul>注</ul></b><br>グループＧ０６Ｆ１６／９０〜Ｇ０６Ｆ１６／９０６において，メタデータを用いることに特徴がある検索に関連する主題は，新規かつ非自明であると判断された場合には，グループＧ０６Ｆ１６／９０７〜Ｇ０６Ｆ１６／９０９にも分類されなければならない。	Details of database functions independent of the retrieved data types; <br><br><b><u>Note(s)</u></b><br><br>In groups G06F16/90 to G06F16/906 , subject matter relevant to retrieval characterised by using metadata, when it is determined to be novel and non-obvious, must also be classified in groups G06F16/907 to G06F16/909 .	2886
+G06F  16/901	・・	インデキシング；そのためのデータ構造；ストレージ構造（ウェブからの検索用Ｇ０６Ｆ１６／９５１）［２０１９．０１］	Indexing; Data structures therefor; Storage structures (for retrieval from the  web G06F16/951)	18522
+G06F  16/903	・・	クエリ（ウェブからの検索用Ｇ０６Ｆ１６／９５３）［２０１９．０１］	Querying (for retrieval from the web G06F16/953)	13858
+G06F  16/9032	・・・	クエリの定式化［２０１９．０１］	Query formulation	4080
+G06F  16/9035	・・・	追加データ，例．ユーザーまたはグループのプロファイル，に基づくフィルタリング［２０１９．０１］	Filtering based on additional data, e.g. user or group profiles	5733
+G06F  16/9038	・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	3889
+G06F  16/904	・・	ブラウジング；そのための視覚化（ウェブをナビゲートするためのものＧ０６Ｆ１６／９５４；ウェブのブラウジング最適化Ｇ０６Ｆ１６／９５７）［２０１９．０１］	Browsing; Visualisation therefor  (for navigating the web G06F16/954;   browsing optimisation for the web G06F16/957)	4773
+G06F  16/906	・・	クラスタリング；分類［２０１９．０１］	Clustering; Classification	9078
+G06F  16/907	・・	メタデータ，例．コンテンツから取得したものではないメタデータまたは手動で生成されたメタデータ，を用いることに特徴のある検索［２０１９．０１］	Retrieval characterised by using metadata, e.g. metadata not derived from the content or metadata generated manually	2506
+G06F  16/908	・・・	コンテンツから自動取得したメタデータの使用［２０１９．０１］	using metadata automatically derived from the content	996
+G06F  16/909	・・・	地理情報または空間情報，例．位置情報，の使用（ウェブからの空間または時間依存検索Ｇ０６Ｆ１６／９５３７）［２０１９．０１］	using geographical or spatial information, e.g. location  (spatial or temporal dependent retrieval from the web G06F16/9537)	2621
+G06F  16/93	・・	文書管理システム［２０１９．０１］	Document management systems	3995
+G06F  16/95	・・	ウェブからの検索［２０１９．０１］	Retrieval from the web	1333
+G06F  16/951	・・・	インデキシング；ウェブクローリング技術［２０１９．０１］	Indexing; Web crawling techniques	12725
+G06F  16/953	・・・	クエリ，例．ウェブ検索エンジンを使用するもの［２０１９．０１］	Querying, e.g. by the use of web search engines	6826
+G06F  16/9532	・・・・	クエリの定式化［２０１９．０１］	Query formulation	2075
+G06F  16/9535	・・・・	ユーザープロファイルとパーソナライゼーションに基づいた検索のカスタマイズ［２０１９．０１］	Search customisation based on user profiles and personalisation	36176
+G06F  16/9536	・・・・	ソーシャルフィルタリングまたは協調フィルタリングに基づいた検索のカスタマイズ［２０１９．０１］	Search customisation based on social or collaborative filtering	7212
+G06F  16/9537	・・・・	空間または時間依存検索，例．時空間クエリ［２０１９．０１］	Spatial or temporal dependent retrieval, e.g. spatiotemporal queries	11137
+G06F  16/9538	・・・・	クエリ結果の表示［２０１９．０１］	Presentation of query results	6199
+G06F  16/954	・・・	ナビゲーション，例．分類されたブラウジングを用いるもの［２０１９．０１］	Navigation, e.g. using categorised browsing	1449
+G06F  16/955	・・・	情報識別子を用いるもの，例．ユニフォームリソースロケータ［ＵＲＬ］［２０１９．０１］	using information identifiers, e.g. uniform resource locators [URL]	12187
+G06F  16/957	・・・	ブラウジングの最適化，例．キャッシュ処理またはコンテンツ洗練［２０１９．０１］	Browsing optimisation, e.g. caching or content distillation	12162
+G06F  16/958	・・・	ウェブサイトコンテンツの構成または管理，例．公開，ページの維持または自動リンク［２０１９．０１］	Organisation or management of web site content, e.g. publishing, maintaining pages or automatic linking	16876
+G06F  17/00		特定の機能に特に適合したデジタル計算またはデータ処理の装置または方法（そのための情報検索，データベース構造またはファイルシステム構造Ｇ０６Ｆ１６／００）［２０１９．０１］	Digital computing or data processing equipment or methods, specially adapted for specific functions(information retrieval, database structures or file system structures therefor G06F16/00)	94786
+G06F  17/10	・	複合した数学演算［６］	Complex mathematical operations	31072
+G06F  17/11	・・	方程式を解くためのもの［６］	for solving equations	16686
+G06F  17/12	・・・	連立方程式を解くためのもの［６］	Simultaneous equations	3694
+G06F  17/13	・・・	微分方程式を解くためのもの（デジタル微分解析器を用いるものＧ０６Ｆ７／６４）［６］	Differential equations(using digital differential analysers G06F7/64)	4343
+G06F  17/14	・・	フーリエ，ウオルシュまたは類似の領域変換［６］	Fourier, Walsh or analogous domain transformations	11320
+G06F  17/15	・・	相関関数の計算［６］	Correlation function computation	11006
+G06F  17/16	・・	マトリックスまたはベクトルの計算［６］	Matrix or vector computation	34265
+G06F  17/17	・・	近似法による関数の計算，例．内挿法または外挿法，平滑法または最小二乗法（［６］	Function evaluation by approximation methods, e.g. interpolation or extrapolation, smoothing or least mean square method	4180
+G06F  17/18	・・	統計データの算出のためのもの［６］	for evaluating statistical data	40880
+G06F  17/40	・	データ取得および記録（計算機への入力のためのものＧ０６Ｆ３／００）［６］	Data acquisition and logging(for input to computer G06F3/00)	16549
+G06F  18/00		パターン認識［２０２３．０１］	Pattern recognition	3942
+G06F  18/10	・	前処理；データクレンジング［２０２３．０１］	Pre-processing; Data cleansing	12820
+G06F  18/15	・・	統計的前処理，例．正規化技術または欠損データの補完技術［２０２３．０１］	Statistical pre-processing, e.g. techniques for normalisation or restoring missing data	5983
+G06F  18/20	・	分析［２０２３．０１］	Analysing	7183
+G06F  18/21	・・	認識システムまたは認識技術の設計またはセットアップ；特徴空間における特徴抽出；ブラインド信号源分離［２０２３．０１］	Design or setup of recognition systems or techniques; Extraction of features in feature space; Blind source separation	6388
+G06F  18/211	・・・	特徴集合のうち最も重要な部分集合の選択［２０２３．０１］	Selection of the most significant subset of features	1419
+G06F  18/2111	・・・・	進化的計算技術を用いるもの，例．遺伝的アルゴリズム［２０２３．０１］	by using evolutionary computational techniques, e.g. genetic algorithms	156
+G06F  18/2113	・・・・	特徴集合のランク付けまたはフィルタリングによるもの，例．分散の尺度または特徴の相互相関の尺度を用いるもの［２０２３．０１］	by ranking or filtering the set of features, e.g. using a measure of variance or of feature cross-correlation	1861
+G06F  18/2115	・・・・	最適化基準により異なる部分集合を評価するもの，例．変数増加法または変数減少法［２０２３．０１］	by evaluating different subsets according to an optimisation criterion, e.g. class separability, forward selection or backward elimination	195
+G06F  18/213	・・・	特徴抽出，例．特徴空間の変換によるもの；要約；マッピング，例．部分空間法［２０２３．０１］	Feature extraction, e.g. by transforming the feature space; Summarisation; Mappings, e.g. subspace methods	22224
+G06F  18/2131	・・・・	変換領域の処理に基づくもの，例．ウェーブレット変換［２０２３．０１］	based on a transform domain processing, e.g. wavelet transform	2401
+G06F  18/2132	・・・・	判別基準に基づくもの，例．判別分析［２０２３．０１］	based on discrimination criteria, e.g. discriminant analysis	533
+G06F  18/2133	・・・・	自然性基準に基づくもの，例．非負値行列因子分解または負の相関を用いるもの［２０２３．０１］	based on naturality criteria, e.g. with non-negative factorisation or negative correlation	62
+G06F  18/2134	・・・・	分離性基準に基づくもの，例．独立成分分析［２０２３．０１］	based on separation criteria, e.g. independent component analysis	401
+G06F  18/2135	・・・・	近似性基準に基づくもの，例．主成分分析［２０２３．０１］	based on approximation criteria, e.g. principal component analysis	3916
+G06F  18/2136	・・・・	疎性基準に基づくもの，例．過完備基底を用いるもの［２０２３．０１］	based on sparsity criteria, e.g. with an overcomplete basis	237
+G06F  18/2137	・・・・	位相保持基準に基づくもの，例．多次元スケーリングまたは自己組織化マップ［２０２３．０１］	based on criteria of topology preservation, e.g. multidimensional scaling or self-organising maps	122
+G06F  18/214	・・・	訓練パターンの生成；ブートストラップ法，例．バギングまたはブースティング［２０２３．０１］	Generating training patterns; Bootstrap methods, e.g. bagging or boosting	39142
+G06F  18/22	・・	マッチング基準，例．近接度［２０２３．０１］	Matching criteria, e.g. proximity measures	22594
+G06F  18/23	・・	クラスタリング技術［２０２３．０１］	Clustering techniques	9920
+G06F  18/231	・・・	階層的技術，すなわちデンドログラムを得るためのパターン集合の分割または結合［２０２３．０１］	Hierarchical techniques, i.e. dividing or merging pattern sets so as to obtain a dendrogram	693
+G06F  18/232	・・・	非階層的技術［２０２３．０１］	Non-hierarchical techniques	734
+G06F  18/2321	・・・・	統計または関数最適化を用いるもの，例．確率密度関数のモデリング［２０２３．０１］	using statistics or function optimisation, e.g. modelling of probability density functions	2478
+G06F  18/23211	・・・・・	クラスタ数が適応的なもの［２０２３．０１］	with adaptive number of clusters	184
+G06F  18/23213	・・・・・	クラスタ数が一定のもの，例．Ｋ平均法［２０２３．０１］	with fixed number of clusters, e.g. K-means clustering	8285
+G06F  18/2323	・・・・	グラフ理論に基づくもの，例．　最小全域木［ＭＳＴ］またはグラフカット［２０２３．０１］	based on graph theory, e.g. minimum spanning trees [MST] or graph cuts	418
+G06F  18/2325	・・・・	ベクトル量子化を用いるもの［２０２３．０１］	using vector quantisation	24
+G06F  18/2337	・・・・	ファジー論理，すなわちファジークラスタリングを用いるもの［２０２３．０１］	using fuzzy logic, i.e. fuzzy clustering	502
+G06F  18/24	・・	分類技術［２０２３．０１］	Classification techniques	19344
+G06F  18/241	・・・	分類モデルに関するもの，例．パラメトリック法またはノンパラメトリック法［２０２３．０１］	relating to the classification model, e.g. parametric or non-parametric approaches	15748
+G06F  18/2411	・・・・	決定面との近接性に基づくもの，例．サポートベクターマシン［２０２３．０１］	based on the proximity to a decision surface, e.g. support vector machines	5051
+G06F  18/2413	・・・・	訓練パターンまたは参照パターンとの距離に基づくもの［２０２３．０１］	based on distances to training or reference patterns	3108
+G06F  18/2415	・・・・	パラメトリックモデルまたは確率モデルに基づくもの，例．尤度比または　他人受入率対本人拒否率に基づくもの［２０２３．０１］	based on parametric or probabilistic models, e.g. based on likelihood ratio or false acceptance rate versus a false rejection rate	8761
+G06F  18/243	・・・	クラス数に関するもの［２０２３．０１］	relating to the number of classes	5430
+G06F  18/2431	・・・・	多クラス［２０２３．０１］	Multiple classes	7344
+G06F  18/2433	・・・・	単一クラスの観点，例．一対多分類；新規性検知；異常検知［２０２３．０１］	Single-class perspective, e.g. one-against-all classification; Novelty detection; Outlier detection	8596
+G06F  18/245	・・・	決定面に関するもの［２０２３．０１］	relating to the decision surface	27
+G06F  18/2451	・・・・	線形のもの，例．超平面［２０２３．０１］	linear, e.g. hyperplane	246
+G06F  18/2453	・・・・	非線形のもの，例．多項式識別器［２０２３．０１］	non-linear, e.g. polynomial classifier	31
+G06F  18/25	・・	融合技術［２０２３．０１］	Fusion techniques	19721
+G06F  18/26	・・	頻出パターンを発見するもの［２０２３．０１］	Discovering frequent patterns	572
+G06F  18/27	・・	回帰，例．線形回帰またはロジスティック回帰［２０２３．０１］	Regression, e.g. linear or logistic regression	7166
+G06F  18/28	・・	代表的な参照パターンを決定するもの，例．平均または歪みによるもの；辞書の生成［２０２３．０１］	Determining representative reference patterns, e.g. by averaging or distorting; Generating dictionaries	344
+G06F  18/30	・	後処理［２０２３．０１］	Post-processing	79
+G06F  18/40	・	パターン認識に特に適したソフトウエアの構成，例．そのためのユーザインタフェースまたはツールボックス［２０２３．０１］	Software arrangements specially adapted for pattern recognition, e.g. user interfaces or toolboxes therefor	514
+G06F  21/00		不正行為から計算機，その部品，プログラムまたはデータを保護するためのセキュリティ装置［８，２０１３．０１］	Security arrangements for protecting computers, components thereof, programs or data against unauthorised activity	40499
+G06F  21/10	・	配布されたプログラムまたはコンテンツを保護するもの，例．著作物を販売またはライセンスするもの（ビデオシステムまたは有料放送における保護Ｈ０４Ｎ７／１６）［２０１３．０１］<br><b><ul>注</ul></b><br>このグループにおいては，下記の用語または表現は以下に示す意味で用いられる：<br>“ｃｏｎｔｅｎｔ”とはすべての知的創作物で，その著作権が保護されるべきものを意味する。	Protecting distributed programs or content, e.g. vending or licensing of copyrighted material(protection in video systems or pay television H04N7/16);<br><br><b><u>Note(s)</u></b><br><br>In this group, the following terms or expressions are used with the meaning indicated:"content" means any intellectually created work whose copyright is to be safeguarded.	23096
+G06F  21/12	・・	実行可能なソフトウェアを保護するもの［２０１３．０１］	Protecting executable software	11501
+G06F  21/14	・・・	ソフトウェア分析またはリバースエンジニアリングに対するもの，例．難読化によるもの［２０１３．０１］	against software analysis or reverse engineering, e.g. by obfuscation	3785
+G06F  21/16	・・	プログラムまたはコンテンツの追跡可能性，例．透かしによる［２０１３．０１］	Program or content traceability, e.g. by watermarking	3356
+G06F  21/30	・	認証，すなわちセキュリティ主体の身元又は認可の確立［２０１３．０１］	Authentication, i.e. establishing the identity or authorisation of security principals	6336
+G06F  21/31	・・	ユーザーの認証［２０１３．０１］	User authentication	40525
+G06F  21/32	・・・	生体データを用いるもの，例．指紋，虹彩スキャンまたは声紋［２０１３．０１］	using biometric data, e.g. fingerprints, iris scans or voiceprints	34618
+G06F  21/33	・・・	証明書を用いるもの［２０１３．０１］	using certificates	7323
+G06F  21/34	・・・	外付機器の使用を含むもの，例．ドングルまたはスマートカード［２０１３．０１］	involving the use of external additional devices, e.g. dongles or smart cards	9359
+G06F  21/35	・・・・	無線通信するもの［２０１３．０１］	communicating wirelessly	4077
+G06F  21/36	・・・	画像または像の提示によるもの［２０１３．０１］	by graphic or iconic representation	5843
+G06F  21/40	・・・	集団によるもの，すなわち２以上のセキュリティ主体が必要とされるもの［２０１３．０１］	by quorum, i.e. whereby two or more security principals are required	779
+G06F  21/41	・・・	複数の計算機へのアクセスを提供するシングルサインオン［２０１３．０１］	where a single sign-on provides access to a plurality of computers	2456
+G06F  21/42	・・・	セキュリティデータのために別のチャンネルを用いるもの［２０１３．０１］	using separate channels for security data	743
+G06F  21/43	・・・・	無線チャネル［２０１３．０１］	wireless channels	473
+G06F  21/44	・・	プログラムまたは機器の認証［２０１３．０１］	Program or device authentication	18275
+G06F  21/45	・・	認証管理のための構造またはツール［２０１３．０１］	Structures or tools for the administration of authentication	8309
+G06F  21/46	・・・	パスワードの設計，またはパスワードの強度を検査するためのもの［２０１３．０１］	by designing passwords or checking the strength of passwords	4434
+G06F  21/50	・	プラットフォーム，（例．プロセッサ，ファームウェアまたはＯＳ）の完全性を維持するために、ユーザー，プログラムまたはデバイスを監視するもの［２０１３．０１］	Monitoring users, programs or devices to maintain the integrity of platforms, e.g. of processors, firmware or operating systems	3625
+G06F  21/51	・・	アプリケーションのロード時，完全性またはソースの信頼性に基づいて、実行可能なソフトウェアを，例えば受理し，拒絶し，開始しまたは抑止するもの［２０１３．０１］	at application loading time, e.g. accepting, rejecting, starting or inhibiting executable software based on integrity or source reliability	3859
+G06F  21/52	・・	プログラムの実行中に，例えばスタックの完全性，バッファのオーバーフローまたは望まないデータ消去を防止するもの［２０１３．０１］	during program execution, e.g. stack integrity, buffer overflow or preventing unwanted data erasure	2959
+G06F  21/53	・・・	制限された環境内で実行するもの，例．サンドボックスまたはセキュアなバーチャル・マシン［２０１３．０１］	by executing in a restricted environment, e.g. sandbox or secure virtual machine	6197
+G06F  21/54	・・・	セキュリティルーチンまたはオブジェクトをプログラムに追加することによるもの［２０１３．０１］	by adding security routines or objects to programs	2151
+G06F  21/55	・・	ローカルへの侵入を検知または対抗策を実行するもの［２０１３．０１］	Detecting local intrusion or implementing counter-measures	16584
+G06F  21/56	・・・	コンピュータ・マルウェアの検出または処理，例．アンチ・ウィルス装置［２０１３．０１］	Computer malware detection or handling, e.g. anti-virus arrangements	19062
+G06F  21/57	・・	信頼された計算機プラットフォームの保証または維持，例．セキュアブートまたは電源断，バージョンの管理，システム・ソフトウェアの検査，セキュア更新または脆弱性評価［２０１３．０１］	Certifying or maintaining trusted computer platforms, e.g. secure boots or power-downs, version controls, system software checks, secure updates or assessing vulnerabilities	24049
+G06F  21/60	・	データを保護するもの［２０１３．０１］	Protecting data	72581
+G06F  21/62	・・	プラットフォームからのデータへのアクセスを保護するもの，例．鍵またはアクセスコントロールルールを用いるもの［２０１３．０１］	Protecting access to data via a platform, e.g. using keys or access control rules	85910
+G06F  21/64	・・	データの完全性を保護するもの，例．チェックサム，証明書または署名を用いるもの［２０１３．０１］	Protecting data integrity, e.g. using checksums, certificates or signatures	30979
+G06F  21/70	・	特定の内部部品または周辺部品を保護するものであり，あるコンポーネントの保護により計算機全体が保護されるもの［２０１３．０１］	Protecting specific internal or peripheral components, in which the protection of a component leads to protection of the entire computer	1501
+G06F  21/71	・・	セキュア演算または情報処理を保証するもの［２０１３．０１］	to assure secure computing or processing of information	3068
+G06F  21/72	・・・	暗号回路［２０１３．０１］	in cryptographic circuits	3738
+G06F  21/73	・・・	ハードウェア識別情報をを生成または決定することによるもの，例．シリアルナンバー［２０１３．０１］	by creating or determining hardware identification, e.g. serial numbers	1949
+G06F  21/74	・・・	デュアルまたは区画されたモード，（すなわち最低１つ以上のモード）で動作するもの［２０１３．０１］	operating in dual or compartmented mode, i.e. at least one secure mode	2116
+G06F  21/75	・・・	回路または演算の分析を抑止するもの，例．リバースエンジニアリング対策［２０１３．０１］	by inhibiting the analysis of circuitry or operation, e.g. to counteract reverse engineering	2099
+G06F  21/76	・・・	特定用途向け集積回路［ＡＳＩＣ］またはフィールド・プログラマブル機器，例えばフィールド・プログラマブル・ゲートアレイ［ＦＰＧＡ］またはプログラマブル論理回路［ＰＬＤ］［２０１３．０１］	in application-specific integrated circuits [ASIC] or field-programmable devices, e.g. field-programmable gate arrays [FPGA] or programmable logic devices [PLD]	1099
+G06F  21/77	・・・	スマートカード［２０１３．０１］	in smart cards	1137
+G06F  21/78	・・	データのセキュアなストレージを保証するもの（メモリの不正な使用に対するアドレス保護Ｇ０６Ｆ１２／１４；少なくともその一部にデジタルマークが記録されるように設計され，かつ機械で使用される記録担体Ｇ０６Ｋ１９／００）［２０１３．０１］	to assure secure storage of data(address-based protection against unauthorised use of memory G06F12/14; record carriers for use with machines and with at least a part designed to carry digital markings G06K19/00)	5662
+G06F  21/79	・・・	半導体記憶媒体，例．直接的にアドレス可能なメモリ［２０１３．０１］	in semiconductor storage media, e.g. directly-addressable memories	4590
+G06F  21/80	・・・	磁気または光学技術に基づく記憶媒体，例．セクターを有するディスク（ディスク型の記憶可能媒体の不正な複製または複写を防止するＧ１１Ｂ２０／００）［２０１３．０１］	in storage media based on magnetic or optical technology, e.g. disks with sectors (preventing unauthorised reproduction or copying of disc-type recordable media G11B20/00)	1602
+G06F  21/81	・・	電源供給で動作するもの，例．電源投入，スリープまたは復帰動作を可能または不可能にするもの［２０１３．０１］	by operating on the power supply, e.g. enabling or disabling power-on, sleep or resume operations	1211
+G06F  21/82	・・	入力，出力または相互接続デバイスを保護するもの［２０１３．０１］	Protecting input, output or interconnection devices	851
+G06F  21/83	・・・	入力装置，例．キーボード，マウスまたはそれらのコントローラ［２０１３．０１］	input devices, e.g. keyboards, mice or controllers thereof	2339
+G06F  21/84	・・・	出力装置，例．ディスプレイまたはモニタ［２０１３．０１］	output devices, e.g. displays or monitors	3132
+G06F  21/85	・・・	相互接続機器，例．バスに連結された機器またはインライン機器［２０１３．０１］	interconnection devices, e.g. bus-connected or in-line devices	2850
+G06F  21/86	・・	セキュアまたは耐タンパなハウジング［２０１３．０１］	Secure or tamper-resistant housings	3534
+G06F  21/87	・・・	カプセル化の手法によるもの，例．集積回路のためのもの［２０１３．０１］	by means of encapsulation, e.g. for integrated circuits	548
+G06F  21/88	・・	窃盗または紛失を検出または防止するもの［２０１３．０１］	Detecting or preventing theft or loss	3187
+G06F  30/00		計算機利用設計［ＣＡＤ］［２０２０．０１］	Computer-aided design [CAD]; <br><br><b><u>Note(s)</u></b><br><br>In this group, it is desirable to add the indexing codes of groups G06F111/00 to G06F119/00 .	3451
+G06F  30/10	・	幾何学的設計用ＣＡＤ［２０２０．０１］	Geometric CAD	7953
+G06F  30/12	・・	ＣＡＤへの適用に特化された設計入力手段により特徴付けられるもの，例．ＣＡＤへの適用に特化されたグラフィカルユーザインタフェース［ＧＵＩ］［２０２０．０１］	characterised by design entry means specially adapted for CAD, e.g. graphical user interfaces [GUI] specially adapted for CAD	4774
+G06F  30/13	・・	建築設計，例．建物，橋，景観，生産プラントまたは道路の設計に関するコンピュータ支援建築設計［ＣＡＡＤ］［２０２０．０１］	Architectural design, e.g. computer-aided architectural design [CAAD] related to design of buildings, bridges, landscapes, production plants or roads	26657
+G06F  30/15	・・	車両，飛行機または船舶の設計［２０２０．０１］	Vehicle, aircraft or watercraft design	18875
+G06F  30/17	・・	機械的パラメトリックまたはバリエーショナル設計［２０２０．０１］	Mechanical parametric or variational design	23158
+G06F  30/18	・・	ネットワーク設計，例．電気・ガス・水道システム，配管，暖房・換気・空調設備［ＨＶＡＣ］またはケーブル配線のトポロジーまたは相互接続の側面に基づく設計（物理的レベルの回路設計Ｇ０６Ｆ３０／３９；ネットワークプランニングツールＨ０４Ｗ１６／１８）［２０２０．０１］	Network design, e.g. design based on topological or interconnect aspects of utility systems, piping, heating ventilation air conditioning [HVAC] or cabling(circuit design at the physical level G06F30/39; network planning tools for wireless communication networks H04W16/18)	8129
+G06F  30/20	・	設計の最適化，検証またはシミュレーション（回路設計の最適化，検証またはシミュレーションＧ０６Ｆ３０／３０）［２０２０．０１］	Design optimisation, verification or simulation(optimisation, verification or simulation of circuit designs G06F30/30)	91794
+G06F  30/22	・・	ペトリネットモデルを用いるもの［２０２０．０１］	using Petri net models	225
+G06F  30/23	・・	有限要素法［ＦＥＭ］または有限差分法［ＦＤＭ］を用いるもの［２０２０．０１］	using finite element methods [FEM] or finite difference methods [FDM]	29766
+G06F  30/25	・・	粒子法を用いるもの［２０２０．０１］	using particle-based methods	3244
+G06F  30/27	・・	機械学習を用いるもの，例．人工知能，ニューラルネットワーク，サポートベクターマシン［ＳＶＭ］またはモデルのトレーニング［２０２０．０１］	using machine learning, e.g. artificial intelligence, neural networks, support vector machines [SVM] or training a model	34600
+G06F  30/28	・・	流体力学を用いるもの，例．ナビエ・ストークス方程式または数値流体力学［ＣＦＤ］を用いるもの［２０２０．０１］	using fluid dynamics, e.g. using Navier-Stokes equations or computational fluid dynamics [CFD]	16474
+G06F  30/30	・	回路の設計［２０２０．０１］	Circuit design	1784
+G06F  30/31	・・	設計入力，例．回路設計への適用に特化されたエディタ［２０２０．０１］	Design entry, e.g. editors specifically adapted for circuit design	596
+G06F  30/32	・・	デジタルレベル回路設計（リコンフィギャラブル回路Ｇ０６Ｆ３０／３４）［２０２０．０１］	Circuit design at the digital level(reconfigurable circuits G06F30/34)	609
+G06F  30/323	・・・	翻訳または移行，例．ロジックからロジック，ハードウェア記述言語［ＨＤＬ］翻訳またはネットリスト翻訳［２０２０．０１］	Translation or migration, e.g. logic to logic, hardware description language [HDL] translation or netlist translation	190
+G06F  30/327	・・・	論理合成；動作合成，例．マッピングロジック，ＨＤＬからネットリスト，高級言語からＲＴＬまたはネットリスト［２０２０．０１］	Logic synthesis; Behaviour synthesis, e.g. mapping logic, HDL to netlist, high-level language to RTL or netlist	1424
+G06F  30/33	・・・	設計検証，例．機能シミュレーションまたはモデル検証［２０２０．０１］	Design verification, e.g. functional simulation or model checking	1810
+G06F  30/3308	・・・・	シミュレーションを用いるもの［２０２０．０１］	using simulation	1460
+G06F  30/331	・・・・・	ハードウエア・アクセラレーションによるもの，例．フィールドプログラマブルゲートアレイ［ＦＰＧＡ］またはエミュレーションを用いるもの［２０２０．０１］	with hardware acceleration, e.g. by using field programmable gate array [FPGA] or emulation	569
+G06F  30/3312	・・・・・	タイミング解析［２０２０．０１］	Timing analysis	689
+G06F  30/3315	・・・・	スタティックタイミング解析［ＳＴＡ］を用いるもの［２０２０．０１］	using static timing analysis [STA]	306
+G06F  30/3323	・・・・	フォーマル検証を用いるもの，例．等価性検証またはプロパティ検証［２０２０．０１］	using formal methods, e.g. equivalence checking or property checking	569
+G06F  30/333	・・・	テスト容易化設計［ＤＦＴ］，例．スキャンチェーンまたはビルトインセルフテスト［ＢＩＳＴ］の設計［２０２０．０１］	Design for testability [DFT], e.g. scan chain or built-in self-test [BIST]	348
+G06F  30/337	・・・	設計最適化［２０２０．０１］	Design optimisation	818
+G06F  30/34	・・	リコンフィギャラブル回路のためのもの，例．フィールドプログラマブルゲートアレイ［ＦＰＧＡ］またはプログラマブルロジックデバイス［ＰＬＤ］［２０２０．０１］	for reconfigurable circuits, e.g. field programmable gate arrays [FPGA] or programmable logic devices [PLD]	955
+G06F  30/343	・・・	論理レベル［２０２０．０１］	Logical level	358
+G06F  30/347	・・・	物理レベル，例．配置またはルーティング［２０２０．０１］	Physical level, e.g. placement or routing	467
+G06F  30/35	・・	遅延非依存回路設計，例．非同期型または自己タイミング型［２０２０．０１］	Delay-insensitive circuit design, e.g. asynchronous or self-timed	33
+G06F  30/36	・・	アナログレベルの回路設計［２０２０．０１］	Circuit design at the analogue level	719
+G06F  30/367	・・・	設計検証，例．シミュレーション，ＳＰＩＣＥ，直接法または反復法を用いるもの［２０２０．０１］	Design verification, e.g. using simulation, simulation program with integrated circuit emphasis [SPICE], direct methods or relaxation methods	3252
+G06F  30/373	・・・	設計の最適化［２０２０．０１］	Design optimisation	669
+G06F  30/38	・・	アナログ・デジタル信号混合レベル回路設計［２０２０．０１］	Circuit design at the mixed level of analogue and digital signals	175
+G06F  30/39	・・	物理レベル回路設計（リコンフィギャラブル回路のための物理レベル設計Ｇ０６Ｆ３０／３４７）［２０２０．０１］	Circuit design at the physical level(physical level design for reconfigurable circuits G06F30/347)	1596
+G06F  30/392	・・・	フロアプランニングまたはレイアウト，例．パーティショニングまたは配置［２０２０．０１］	Floor-planning or layout, e.g. partitioning or placement	4977
+G06F  30/394	・・・	ルーティング（Ｇ０６Ｆ３０／３９６が優先）［２０２０．０１］	Routing(G06F30/396 takes precedence)	2117
+G06F  30/3947	・・・・	グローバル（大域的）配線［２０２０．０１］	global	198
+G06F  30/3953	・・・・	詳細配線［２０２０．０１］	detailed	279
+G06F  30/396	・・・	クロックツリー［２０２０．０１］	Clock trees	323
+G06F  30/398	・・・	設計検証または最適化，例．デザインルールチェック［ＤＲＣ］，レイアウト対回路比較［ＬＶＳ］または有限要素法［ＦＥＭ］を用いるもの（光近接効果補正［ＯＰＣ］設計処理Ｇ０３Ｆ１／３６）［２０２０．０１］	Design verification or optimisation, e.g. using design rule check [DRC], layout versus schematics [LVS] or finite element methods [FEM](optical proximity correction [OPC] design processes G03F1/36)	5262
+G06F  40/00		自然言語データの取扱い（音声分析または音声合成，音声認識Ｇ１０Ｌ）［２０２０．０１］	Handling natural language data(speech analysis or synthesis, speech recognition G10L)	5772
+G06F  40/10	・	テキスト処理（自然言語解析Ｇ０６Ｆ４０／２０；セマンティック解析Ｇ０６Ｆ４０／３０；自然言語の処理または翻訳Ｇ０６Ｆ４０／４０）［２０２０．０１］	Text processing(natural language analysis G06F40/20; semantic analysis G06F40/30; processing or translation of natural language G06F40/40)	908
+G06F  40/103	・・	フォーマッティング，すなわちドキュメントのプレゼンテーションを変更するもの（自動行揃えＧ０６Ｆ４０／１８９；自動ハイフン付けＧ０６Ｆ４０／１９１）［２０２０．０１］	Formatting, i.e. changing of presentation of documents(automatic justification G06F40/189; automatic line break hyphenation G06F40/191)	1729
+G06F  40/106	・・・	ドキュメントのレイアウト表示；プレビュー［２０２０．０１］	Display of layout of documents; Previewing	2301
+G06F  40/109	・・・	フォントの取扱い；時間的または動的タイポグラフィ［２０２０．０１］	Font handling; Temporal or kinetic typography	1844
+G06F  40/111	・・・	数学または科学的，下付き文字，上付き文字［２０２０．０１］	Mathematical or scientific formatting; Subscripts; Superscripts	136
+G06F  40/114	・・・	ページネーション［２０２０．０１］	Pagination	182
+G06F  40/117	・・・	タグ付け；マーキングアップ（マークアップ言語の細部Ｇ０６Ｆ４０／１４３）；ブロックの指定；属性の設定（スタイルシート，例えば拡張型スタイルシート言語変換［ＸＳＬＴ］，Ｇ０６Ｆ４０／１５４）［２０２０．０１］	Tagging; Marking up (details of markup languages G06F40/143);Designating a block; Setting of attributes (style sheets, e.g. eXtensible Stylesheet Language Transformation [XSLT], G06F40/154)	2013
+G06F  40/12	・・	文字で表現されたエンティティの取扱いのための符号の使用［２０２０．０１］	Use of codes for handling textual entities	668
+G06F  40/123	・・・	ストレージ［２０２０．０１］	Storage facilities	160
+G06F  40/126	・・・	文字符号化［２０２０．０１］	Character encoding	3951
+G06F  40/129	・・・・	非ラテン語文字の取扱い，例．仮名から漢字への変換［２０２０．０１］	Handling non-Latin characters, e.g. kana-to-kanji conversion	223
+G06F  40/131	・・・	テキストファイルの断片化，例．再使用可能なテキストブロックの生成；断片へのリンク，例．Ｘインクルードの使用；ネームスペース［２０２０．０１］	Fragmentation of text files, e.g. creating reusable text-blocks; Linking to fragments, e.g. using XInclude; Namespaces	339
+G06F  40/134	・・・	ハイパーリンク［２０２０．０１］	Hyperlinking	630
+G06F  40/137	・・・	階層処理，例．アウトライン［２０２０．０１］	Hierarchical processing, e.g. outlines	295
+G06F  40/14	・・・	ツリー構造のドキュメント（解析処理Ｇ０６Ｆ４０／２０５；確認Ｇ０６Ｆ４０／２２６）［２０２０．０１］	Tree-structured documents (parsing G06F40/205;  validation G06F40/226)	1893
+G06F  40/143	・・・・	マークアップ，例．標準一般化マーク付け言語［ＳＧＭＬ］または文書型定義［ＤＴＤ］［２０２０．０１］	Markup, e.g. Standard Generalized Markup Language [SGML] or Document Type Definition [DTD]	4160
+G06F  40/146	・・・・	コーディングまたは木構造データの圧縮［２０２０．０１］	Coding or compression of tree-structured data	160
+G06F  40/149	・・・	ストリーミングのためのテキストデータの適応，例．効率的なＸＭＬ交換［ＥＸＩ］フォーマット［２０２０．０１］	Adaptation of the text data for streaming purposes, e.g. Efficient XML Interchange [EXI] format	141
+G06F  40/151	・・・	変換［２０２０．０１］	Transformation	3673
+G06F  40/154	・・・・	ツリー構造またはマークアップドキュメントのためのツリー変換，例．ＸＳＬＴ，ＸＳＬ−ＦＯまたはスタイルシート［２０２０．０１］	Tree transformation for tree-structured or markup documents, e.g. XSLT, XSL-FO or stylesheets	654
+G06F  40/157	・・・・	辞書またはテーブルを使用するもの［２０２０．０１］	using dictionaries or tables	409
+G06F  40/16	・・・・	変換規則を自動的に学習するもの，例．例により学習するもの［２０２０．０１］	Automatic learning of transformation rules, e.g. from examples	403
+G06F  40/163	・・・	空白の取扱い［２０２０．０１］	Handling of whitespace	72
+G06F  40/166	・・	編集，例．挿入／削除［２０２０．０１］	Editing, e.g. inserting or deleting	7389
+G06F  40/169	・・・	注，例．コメントデータまたは脚注［２０２０．０１］	Annotation, e.g. comment data or footnotes	2392
+G06F  40/171	・・・	デジタルインクの使用によるもの［２０２０．０１］	by use of digital ink	205
+G06F  40/174	・・・	書式充填；結合［２０２０．０１］	Form filling; Merging	3089
+G06F  40/177	・・・	テーブル；罫線［２０２０．０１］	of tables; using ruled lines	1061
+G06F  40/18	・・・・	スプレッドシート（書式充填Ｇ０６Ｆ４０／１７４）［２０２０．０１］	of spreadsheets (form-filling G06F40/174)	4958
+G06F  40/183	・・・	タビュレーション，例．一次元的な位置決め［２０２０．０１］	Tabulation, i.e. one-dimensional positioning	434
+G06F  40/186	・・・	テンプレート［２０２０．０１］	Templates	8802
+G06F  40/189	・・	自動行揃え［２０２０．０１］	Automatic justification	1825
+G06F  40/191	・・	自動ハイフン付け［２０２０．０１］	Automatic line break hyphenation	589
+G06F  40/194	・・	ファイル間の差の計算［２０２０．０１］	Calculation of difference between files	3747
+G06F  40/197	・・	バージョン制御（ソフトウエアに関するものＧ０６Ｆ８／７１）［２０２０．０１］	Version control(for software G06F8/71)	643
+G06F  40/20	・	自然言語解析［２０２０．０１］	Natural language analysis(semantic analysis of natural language G06F40/30)	4231
+G06F  40/205	・・	解析処理［２０２０．０１］	Parsing	7853
+G06F  40/211	・・・	構文の解析処理，例．文脈自由文法［ＣＦＧ］，ユニフィケーション文法に基づくもの［２０２０．０１］	Syntactic parsing, e.g. based on context-free grammar [CFG] or unification grammars	6432
+G06F  40/216	・・・	統計的方法［２０２０．０１］	using statistical methods	9681
+G06F  40/221	・・・	マークアップ言語ストリームの構文解析（ストリーミングＧ０６Ｆ４０／１４９）［２０２０．０１］	Parsing markup language streams(streaming G06F40/149)	207
+G06F  40/226	・・・	確認［２０２０．０１］	Validation	651
+G06F  40/232	・・	綴字訂正，例．綴字照合をするもの，母音化［２０２０．０１］	Orthographic correction, e.g. spell checking or vowelisation	1900
+G06F  40/237	・・	語彙的ツール［２０２０．０１］	Lexical tools	1278
+G06F  40/242	・・・	辞書［２０２０．０１］	Dictionaries	5056
+G06F  40/247	・・・	シソーラス；同義語［２０２０．０１］	Thesauruses; Synonyms	2730
+G06F  40/253	・・	文法的解析；文体批評［２０２０．０１］	Grammatical analysis; Style critique	3357
+G06F  40/258	・・	見出し抽出；自動的な題付け；番号付け［２０２０．０１］	Heading extraction; Automatic titling; Numbering	1459
+G06F  40/263	・・	言語の識別［２０２０．０１］	Language identification	650
+G06F  40/268	・・	形態素解析［２０２０．０１］	Morphological analysis	1443
+G06F  40/274	・・	符号から単語への変換；部分ワードからの推測［２０２０．０１］	Converting codes to words; Guess-ahead of partial word inputs	765
+G06F  40/279	・・	文字で表現されたエンティティの認識［２０２０．０１］	Recognition of textual entities	8551
+G06F  40/284	・・・	字句解析，例．トークン化，連結［２０２０．０１］	Lexical analysis, e.g. tokenisation or collocates	13693
+G06F  40/289	・・・	句の解析，例．有限状態技法，チャンキング［２０２０．０１］	Phrasal analysis, e.g. finite state techniques or chunking	18573
+G06F  40/295	・・・・	固有表現抽出［２０２０．０１］	Named entity recognition	11219
+G06F  40/30	・	セマンティック解析［２０２０．０１］	Semantic analysis	33677
+G06F  40/35	・・	談話または対話表示［２０２０．０１］	Discourse or dialogue representation	4123
+G06F  40/40	・	自然言語の処理または翻訳（自然言語解析Ｇ０６Ｆ４０／２０；セマンティック解析Ｇ０６Ｆ４０／３０）［２０２０．０１］	Processing or translation of natural language(natural language analysis G06F40/20; semantic analysis G06F40/30)	3281
+G06F  40/42	・・	データ駆動翻訳［２０２０．０１］	Data-driven translation	428
+G06F  40/44	・・・	統計的手法；例．確率モデル［２０２０．０１］	Statistical methods, e.g. probability models	897
+G06F  40/45	・・・	例に基づく機械翻訳；アライメント［２０２０．０１］	Example-based machine translation; Alignment	201
+G06F  40/47	・・・	機械介助による翻訳，例．翻訳メモリ［２０２０．０１］	Machine-assisted translation, e.g. using translation memory	503
+G06F  40/49	・・・	非常に大きいコーパスを使用するもの，例．ウェブ［２０２０．０１］	using very large corpora, e.g. the web	241
+G06F  40/51	・・	翻訳評価［２０２０．０１］	Translation evaluation	512
+G06F  40/53	・・	非ラテン語テキストの処理（仮名から漢字への変換Ｇ０６Ｆ４０／１２９；母音化Ｇ０６Ｆ４０／２３２）［２０２０．０１］	Processing of non-Latin text(kana-to-kanji conversion G06F40/129; vowelisation G06F40/232)	139
+G06F  40/55	・・	規則に基づく翻訳［２０２０．０１］	Rule-based translation	190
+G06F  40/56	・・・	自然言語の生成［２０２０．０１］	Natural language generation	1437
+G06F  40/58	・・	機械翻訳の使用，例．多言語検索，クライアント装置のためのサーバー側翻訳，実時間翻訳［２０２０．０１］	Use of machine translation, e.g. for multi-lingual retrieval, for server-side translation for client devices or for real-time translation	5907
+G06F 111/00		ＣＡＤ技術に関する細部［２０２０．０１］	Details relating to CAD techniques	33
+G06F 111/02	・	ネットワーク環境におけるＣＡＤ，例．協調設計ＣＡＤまたは分散シミュレーション［２０２０．０１］	CAD in a network environment, e.g. collaborative CAD or distributed simulation	1266
+G06F 111/04	・	制約ベースＣＡＤ［２０２０．０１］	Constraint-based CAD	14991
+G06F 111/06	・	多目的最適化，例．シミュレーテッドアニーリング［ＳＡ］，蟻コロニーアルゴリズムまたは遺伝的アルゴリズムを用いたパレート最適化［２０２０．０１］	Multi-objective optimisation, e.g. Pareto optimisation using simulated annealing [SA], ant colony algorithms or genetic algorithms [GA]	6597
+G06F 111/08	・	確率的設計によるＣＡＤ［２０２０．０１］	Probabilistic or stochastic CAD	6029
+G06F 111/10	・	数値モデリング［２０２０．０１］	Numerical modelling	20676
+G06F 111/12	・	記号による回路図［２０２０．０１］	Symbolic schematics	189
+G06F 111/14	・	ナノテクノロジーに関するもの［２０２０．０１］	related to nanotechnology	107
+G06F 111/16	・	カスタマイズまたはパーソナライズ［２０２０．０１］	Customisation or personalisation	509
+G06F 111/18	・	仮想現実または拡張現実を用いるもの［２０２０．０１］	using virtual or augmented reality	907
+G06F 111/20	・	コンフィギュレーション設計用ＣＡＤ，例．設計済みモジュールのライブラリから選択したモジュールを組み立てまたは配置して設計を行うもの［２０２０．０１］	Configuration CAD, e.g. designing by assembling or positioning modules selected from libraries of predesigned modules	2678
+G06F 113/00		適用分野に関する細部［２０２０．０１］	Details relating to the application field	12
+G06F 113/02	・	データセンタ［２０２０．０１］	Data centres	77
+G06F 113/04	・	送電線網［２０２０．０１］	Power grid distribution networks	6654
+G06F 113/06	・	風力タービンまたは風力発電基地［２０２０．０１］	Wind turbines or wind farms	2194
+G06F 113/08	・	流体［２０２０．０１］	Fluids	16607
+G06F 113/10	・	付加製造，例．３Ｄプリンティング［２０２０．０１］	Additive manufacturing, e.g. 3D printing	1378
+G06F 113/12	・	布［２０２０．０１］	Cloth	508
+G06F 113/14	・	配管［２０２０．０１］	Pipes	4404
+G06F 113/16	・	ケーブル，ケーブルツリーまたはワイヤハーネス［２０２０．０１］	Cables, cable trees or wire harnesses	1646
+G06F 113/18	・	チップパッケージング［２０２０．０１］	Chip packaging	309
+G06F 113/20	・	梱包，例．箱または容器［２０２０．０１］	Packaging, e.g. boxes or containers	105
+G06F 113/22	・	型による成形［２０２０．０１］	Moulding	454
+G06F 113/24	・	シート材料［２０２０．０１］	Sheet material	310
+G06F 113/26	・	複合材料［２０２０．０１］	Composites	2647
+G06F 113/28	・	機体の外装または内装［２０２０．０１］	Fuselage, exterior or interior	537
+G06F 115/00		回路の種類に関する細部［２０２０．０１］	Details relating to the type of the circuit	17
+G06F 115/02	・	システムオンチップ［ＳｏＣ］設計［２０２０．０１］	System on chip [SoC] design	600
+G06F 115/04	・	微小電気機械システム［ＭＥＭＳ］［２０２０．０１］	Micro electro-mechanical systems [MEMS]	14
+G06F 115/06	・	ストラクチャードＡＳＩＣ［２０２０．０１］	Structured ASICs	265
+G06F 115/08	・	ＩＰブロックまたはＩＰコア［２０２０．０１］	Intellectual property [IP] blocks or IP cores	222
+G06F 115/10	・	プロセッサ［２０２０．０１］	Processors	172
+G06F 115/12	・	プリント回路基板［ＰＣＢ］またはマルチチップモジュール［ＭＣＭ］［２０２０．０１］	Printed circuit boards [PCB] or multi-chip modules [MCM]	1398
+G06F 117/00		回路設計の種類または目的に関する細部［２０２０．０１］	Details relating to the type or aim of the circuit design	12
+G06F 117/02	・	フォールトトレランス，例．過渡障害抑制のためのもの［２０２０．０１］	Fault tolerance, e.g. for transient fault suppression	61
+G06F 117/04	・	クロックゲーティング［２０２０．０１］	Clock gating	82
+G06F 117/06	・	予備リソース，例．永久障害抑制のためのもの［２０２０．０１］	Spare resources, e.g. for permanent fault suppression	17
+G06F 117/08	・	ハードウェア・ソフトウェア協調設計，例．ハードウェア・ソフトウェア分割［２０２０．０１］	HW-SW co-design, e.g. HW-SW partitioning	103
+G06F 117/10	・	バッファ挿入［２０２０．０１］	Buffer insertion	34
+G06F 117/12	・	寸法の設計，例．トランジスタまたはゲート［２０２０．０１］	Sizing, e.g. of transistors or gates	124
+G06F 119/00		解析または最適化の種類または目的に関する細部［２０２０．０１］	Details relating to the type or aim of the analysis or the optimisation	43
+G06F 119/02	・	信頼性解析または信頼性最適化；故障解析，例．ワーストケースシナリオ性能，故障モード影響解析［ＦＭＥＡ］［２０２０．０１］	Reliability analysis or reliability optimisation; Failure analysis, e.g. worst case scenario performance, failure mode and effects analysis [FMEA]	13661
+G06F 119/04	・	経年劣化解析または経年劣化に対する最適化［２０２０．０１］	Ageing analysis or optimisation against ageing	5619
+G06F 119/06	・	電力解析または電力の最適化［２０２０．０１］	Power analysis or power optimisation	2992
+G06F 119/08	・	熱解析または熱の最適化［２０２０．０１］	Thermal analysis or thermal optimisation	16241
+G06F 119/10	・	ノイズ解析またはノイズ最適化［２０２０．０１］	Noise analysis or noise optimisation	2152
+G06F 119/12	・	タイミング解析またはタイミングの最適化［２０２０．０１］	Timing analysis or timing optimisation	2110
+G06F 119/14	・	力解析または力最適化，例．静的または動的な力［２０２０．０１］	Force analysis or force optimisation, e.g. static or dynamic forces	46459
+G06F 119/16	・	等価性検証［２０２０．０１］	Equivalence checking	128
+G06F 119/18	・	製造性解析または製造性最適化［２０２０．０１］	Manufacturability analysis or optimisation for manufacturability	1831
+G06F 119/20	・	設計の再利用，再利用性解析または再利用性最適化［２０２０．０１］	Design reuse, reusability analysis or reusability optimisation	353
+G06F 119/22	・	歩留まり解析または歩留まり最適化［２０２０．０１］	Yield analysis or yield optimisation	206
+G06F 123/00		データの種類［２０２３．０１］	Data types	69
+G06F 123/02	・	時間領域におけるもの，例．時系列データ［２０２３．０１］	in the time domain, e.g. time-series data	5375

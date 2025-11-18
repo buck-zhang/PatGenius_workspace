@@ -1,0 +1,106 @@
+G06G1/00	7	Hand manipulated computing devices (planimeters G01B5/26)	G06G1/00	G06G1/00		671
+G06G1/0005	8	{characterised by a specific application}	G06G1/00	G06G1/00		435
+G06G1/001	9	{for medical purposes, for biological purposes}	G06G1/00	G06G1/00		214
+G06G1/0015	9	{for computing periodic phenomena, e.g. fertility periods}	G06G1/00	G06G1/00		77
+G06G1/0021	9	{for civil engineering}	G06G1/00	G06G1/00		41
+G06G1/0026	9	{for machining}	G06G1/00	G06G1/00		65
+G06G1/0031	9	{for hydraulics}	G06G1/00	G06G1/00		15
+G06G1/0036	9	{for electricity, for electronics}	G06G1/00	G06G1/00		22
+G06G1/0042	9	{for optics, for photography}	G06G1/00	G06G1/00		47
+G06G1/0047	9	{for printing}	G06G1/00	G06G1/00		17
+G06G1/0052	9	{for air navigation or sea navigation}	G06G1/00	G06G1/00		270
+G06G1/0057	9	{for gun laying, for bomb aiming}	G06G1/00	G06G1/00		25
+G06G1/0063	9	{for calculating fuel consumption}	G06G1/00	G06G1/00		29
+G06G1/0068	9	{for conversion from one unit system to another, e.g. from British to metric}	G06G1/00	G06G1/00		61
+G06G1/0073	9	{for commerce, bank or invoicing}	G06G1/00	G06G1/00		127
+G06G1/0078	10	{for calculating interests}	G06G1/00	G06G1/00		29
+G06G1/0084	10	{for calculating earned incomes}	G06G1/00	G06G1/00		6
+G06G1/0089	10	{for calculating taxes}	G06G1/00	G06G1/00		24
+G06G1/0094	9	{for trigonometric computations}	G06G1/00	G06G1/00		30
+G06G1/02	8	Devices in which computing is effected by adding, subtracting, or comparing lengths of parallel or concentric graduated scales {(G06G1/0005 takes precedence)}	G06G1/02	G06G1/02		128
+G06G1/025	9	{decimal point positioning devices}	G06G1/02	G06G1/02		45
+G06G1/04	9	characterised by construction (G06G1/10 takes precedence)	G06G1/04	G06G1/04		723
+G06G1/045	10	{with scales borne by bands}	G06G1/04	G06G1/04		19
+G06G1/06	10	with rectilinear scales, e.g. slide rule	G06G1/06	G06G1/06		110
+G06G1/065	11	{construction of the cursor}	G06G1/06	G06G1/06		109
+G06G1/08	10	with circular or helical scales	G06G1/08	G06G1/08		166
+G06G1/085	11	{borne by a cylinder}	G06G1/08	G06G1/08		160
+G06G1/10	9	characterised by the graduation	G06G1/10	G06G1/10		130
+G06G1/105	10	{linear graduations}	G06G1/10	G06G1/10		6
+G06G1/12	10	logarithmic graduations, e.g. for multiplication	G06G1/12	G06G1/12		494
+G06G1/14	8	in which a straight or curved line has to be drawn from given points on one or more input scales to one or more points on a result scale	G06G1/14	G06G1/14		765
+G06G1/16	8	in which a straight or curved line has to be drawn through related points on one or more families of curves	G06G1/16	G06G1/16		42
+G06G3/00	7	Devices in which the computing operation is performed mechanically (G06G1/00 takes precedence)	G06G3/00	G06G3/00		459
+G06G3/02	8	for performing additions or subtractions, e.g. differential gearing	G06G3/02	G06G3/02		21
+G06G3/04	8	for performing multiplications or divisions, e.g. variable-ratio gearing	G06G3/04	G06G3/04		25
+G06G3/06	8	for evaluating functions by using cams and cam followers	G06G3/06	G06G3/06		81
+G06G3/08	8	for integrating or differentiating, e.g. by wheel and disc	G06G3/08	G06G3/08		196
+G06G3/10	8	for simulating specific processes, systems, or devices	G06G3/10	G06G3/10		23
+G06G5/00	7	Devices in which the computing operation is performed by means of fluid-pressure elements (such elements in general F15C)	G06G5/00	G06G5/00		213
+G06G7/00	7	Devices in which the computing operation is performed by varying electric or magnetic quantities	G06G7/00	G06G7/00		39
+G06G7/02	8	Details not covered by G06G7/04&#160;-&#160;G06G7/10, {e.g. monitoring, construction, maintenance}	G06G7/02	G06G7/02		47
+G06G7/04	8	Input or output devices (graph readers G06K11/00; function plotters, co-ordinate plotters G06K15/22, {G09G3/001})	G06G7/04	G06G7/04		61
+G06G7/06	8	Programming arrangements, e.g. plugboard for interconnecting functional units of the computer; Digital programming {(hybrid computers G06J)}	G06G7/06	G06G7/06		143
+G06G7/10	8	Power supply arrangements	G06G7/10	G06G7/10		8
+G06G7/12	8	Arrangements for performing computing operations, e.g. operational amplifiers (amplifiers in general H03F; {adapted for telemeasuring or for indicating or recording the results of the measurement G01D1/10, G01D1/16; for fuzzy computing G06N7/02})	G06G7/12	G06G7/12		142
+G06G7/122	9	for optimisation, e.g. least square fitting, linear programming, critical path analysis, gradient method	G06G7/122	G06G7/122		116
+G06G7/14	9	for addition or subtraction&#160; (of vector quantities&#160;G06G7/22&#160; {; computing the average by addition; differential amplifiers&#160;H03F3/45})	G06G7/14	G06G7/14		455
+G06G7/16	9	for multiplication or division {(G06G7/19 and G06G7/24 take precedence; measuring electric power G01R21/00)}	G06G7/16	G06G7/16		552
+G06G7/161	10	with pulse modulation, e.g. modulation of amplitude, width, frequency, phase or form {(pulse modulators H03K7/00)}	G06G7/161	G06G7/161		375
+G06G7/162	10	using galvano- magnetic effects, e.g. Hall effect; using similar magnetic effects	G06G7/162	G06G7/162		81
+G06G7/163	10	using a variable impedance controlled by one of the input signals, variable amplification or transfer function {(G06G7/161, G06G7/162 take precedence)}	G06G7/163	G06G7/163		446
+G06G7/164	10	using means for evaluating powers, e.g. quarter square multiplier (evaluating powers G06G7/20)	G06G7/164	G06G7/164		102
+G06G7/18	9	for integration or differentiation; for forming integrals (G06G7/19 takes precedence)	G06G7/18	G06G7/18		198
+G06G7/1806	10	{with respect to a variable other than time}	G06G7/18	G06G7/18		8
+G06G7/1813	10	{using electrochemical elements, e.g. solion}	G06G7/18	G06G7/18		14
+G06G7/182	10	using magnetic elements	G06G7/182	G06G7/182		51
+G06G7/184	10	using capacitive elements	G06G7/184	G06G7/184		289
+G06G7/186	11	using an operational amplifier comprising a capacitor or a resistor in the feedback loop	G06G7/186	G06G7/186		310
+G06G7/1865	12	{with initial condition setting}	G06G7/186	G06G7/186		191
+G06G7/188	10	using electromechanical elements	G06G7/188	G06G7/188		87
+G06G7/19	9	for forming integrals of products, e.g. Fourier integrals, Laplace integrals, correlation integrals; for analysis or synthesis of functions using orthogonal functions (Fourier or spectrum analysis G01R23/16; sound analysis or synthesis G10L)	G06G7/19	G06G7/19		54
+G06G7/1907	10	{using charge transfer devices}	G06G7/19	G06G7/19		49
+G06G7/1914	10	{using a magnetic medium, a linear filter}	G06G7/19	G06G7/19		85
+G06G7/1921	10	{for forming Fourier integrals, harmonic analysis and synthesis (spectrum analysis G01R23/00)}	G06G7/19	G06G7/19		96
+G06G7/1928	10	{for forming correlation integrals; for forming convolution integrals (G06G7/195, G06G7/1907 and G06G7/1914 take precedence)}	G06G7/19	G06G7/19		190
+G06G7/1935	11	{by converting at least one the input signals into a two level signal, e.g. polarity correlators}	G06G7/19	G06G7/19		60
+G06G7/1942	10	{for forming other integrals of product, e.g. orthogonal functions, Laplace, Laguerre, Walsh, Hadamard, Hilbert (G06G7/195, G06G7/1907 and G06G7/1914 take precedence)}	G06G7/19	G06G7/19		9
+G06G7/195	10	using electro- acoustic elements	G06G7/195	G06G7/195		162
+G06G7/20	9	for evaluating powers, roots, polynomes, mean square values, standard deviation (G06G7/122, G06G7/28 take precedence; gamma correction in television systems H04N5/20, H04N9/69)	G06G7/20	G06G7/20		363
+G06G7/22	9	for evaluating trigonometric functions; for conversion of co-ordinates; for computations involving vector quantities (trigonometric computations using simultaneous equations G06G7/34{for computations in the complex plane; G06G7/20, G06G7/28 take precedence})	G06G7/22	G06G7/22		575
+G06G7/24	9	for evaluating logarithmic or exponential functions, e.g. hyperbolic functions {(for multiplication, division or for evaluating powers or roots using logarithmic functions; gamma correction in television systems H04N5/20, H04N9/69)}	G06G7/24	G06G7/24		543
+G06G7/25	9	for discontinuous functions, e.g. backlash, dead zone, limiting absolute value or peak value {(measuring the maximum value of currents or voltages G01R19/30)}	G06G7/25	G06G7/25		282
+G06G7/26	9	Arbitrary function generators {(using Fourier series or other orthogonal functions G06G7/19; using curve followers G06K11/02)}	G06G7/26	G06G7/26		341
+G06G7/28	10	for synthesising functions by piecewise approximation	G06G7/28	G06G7/28		418
+G06G7/30	9	for interpolation or extrapolation (G06G7/122 takes precedence)	G06G7/30	G06G7/30		134
+G06G7/32	9	for solving of equations {or inequations; for matrices}	G06G7/32	G06G7/32		35
+G06G7/34	10	of simultaneous equations (G06G7/122 takes precedence)	G06G7/34	G06G7/34		73
+G06G7/36	10	of single equations of quadratic or higher degree (G06G7/22, G06G7/24 take precedence)	G06G7/36	G06G7/36		20
+G06G7/38	10	of differential or integral equations	G06G7/38	G06G7/38		39
+G06G7/40	11	of partial differential equations {of field or wave equations}(simulating specific devices G06G7/48)	G06G7/40	G06G7/40		15
+G06G7/42	12	using electrolytic tank	G06G7/42	G06G7/42		29
+G06G7/44	12	using continuous medium, current-sensitive paper	G06G7/44	G06G7/44		30
+G06G7/46	12	using discontinuous medium, e.g. resistance network	G06G7/46	G06G7/46		42
+G06G7/48	8	Analogue computers for specific processes, systems or devices, e.g. simulators	G06G7/48	G06G7/48		230
+G06G7/485	9	{for determining the trajectory of particles, e.g. of electrons (measurement performed on radiation beams G01T1/29; processing or analysing tracks of particles G01T5/02)}	G06G7/48	G06G7/48		13
+G06G7/50	9	for distribution networks, e.g. for fluids (G06G7/62 takes precedence)	G06G7/50	G06G7/50		26
+G06G7/52	9	for economic systems; for statistics (G06G7/122, G06G7/19 take precedence)	G06G7/52	G06G7/52		78
+G06G7/54	9	for nuclear physics, e.g. nuclear reactors, radioactive fall {(processing of scintigraphic or other radio-isotope data G01T1/1647, G01T1/2992)}	G06G7/54	G06G7/54		75
+G06G7/56	9	for heat flow (G06G7/58 takes precedence)	G06G7/56	G06G7/56		51
+G06G7/57	9	for fluid flow (G06G7/50 takes precedence){; for distribution networks}	G06G7/57	G06G7/57		130
+G06G7/58	9	for chemical processes (G06G7/75 takes precedence); {for physico-chemical processes; for metallurgical processes}	G06G7/58	G06G7/58		70
+G06G7/60	9	for living beings, e.g. their nervous systems {; for problems in the medical field}	G06G7/60	G06G7/60		159
+G06G7/62	9	for electric systems or apparatus {(G06G7/78 takes precedence)}<br><br><u>NOTE</u><br><br>This group covers only computers specially adapted for electronic systems or devices 	G06G7/62	G06G7/62		104
+G06G7/625	10	for filters; for delay lines {(measuring characteristics of electric networks, e.g. plotting Nyquist diagram G01R27/28)}	G06G7/625	G06G7/625		76
+G06G7/63	10	for power apparatus, e.g. motors, or supply distribution networks {(for control systems of electric power apparatus G06G7/66)}	G06G7/63	G06G7/63		121
+G06G7/635	11	for determining the most economical distribution in power systems	G06G7/635	G06G7/635		44
+G06G7/64	9	for non-electric machines, e.g. turbine	G06G7/64	G06G7/64		88
+G06G7/66	9	for control systems {(for optimisation G06G7/122)}	G06G7/66	G06G7/66		63
+G06G7/68	9	for civil engineering structures, e.g. beam, strut, girder, {elasticity computation}	G06G7/68	G06G7/68		47
+G06G7/70	9	for vehicles, e.g. to determine permissible loading of ships {, centre of gravity, necessary fuel}	G06G7/70	G06G7/70		217
+G06G7/72	10	Flight simulator (Link trainers G09B9/00)	G06G7/72	G06G7/72		8
+G06G7/75	9	for component analysis, e.g. of mixtures, of colours (G06G7/122 takes precedence {; gas chromatography G01N30/00})	G06G7/75	G06G7/75		138
+G06G7/76	9	for traffic	G06G7/76	G06G7/76		38
+G06G7/78	9	for direction-finding, locating, distance or velocity measuring, or navigation systems	G06G7/78	G06G7/78		335
+G06G7/80	9	for gunlaying; for bomb aiming; for guiding missiles	G06G7/80	G06G7/80		141
+G06G99/00	7	Subject matter not provided for in other groups of this subclass	G06G99/00	G06G99/00		2

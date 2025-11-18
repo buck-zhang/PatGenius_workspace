@@ -1,0 +1,722 @@
+H05K   1/00  \	0	0	5E338	H05K   1/00	322	印刷回路［２００６．０１］	Printed circuits (assemblies of a plurality of individual semiconductor or solid state devices H01L25/00; devices consisting of a plurality of solid state components formed in or on a common substrate, e.g. integrated circuits, thin-film or thick-film circuits, H01L27/00)
+H05K   1/02  \	1	1	5E338	H05K   1/02	1155	細部［２００６．０１］	Details
+H05K   1/02  A	1	0	5E338	H05K   1/02	2015	基板の形状・構造に特徴を有するもの	characterized by the shape or structure of the board
+H05K   1/02  B	1	1	5E338	H05K   1/02	3705	板状体として変形したもの	deformed as a plate member
+H05K   1/02  C	1	1	5E338	H05K   1/02	3781	孔の形状・配置に関するもの	related to the shape or layout of the hole
+H05K   1/02  D	1	1	5E338	H05K   1/02	2058	基板の補強に関するもの〔単なる補強。導電層を持つもの同士は１／１４〕	related to board reinforcement (simple reinforcement; each having a conductive layer 1/14)
+H05K   1/02  E	1	2	5E338	H05K   1/02	761	金属箔による補強〔基板の反り防止のためのダミ−パタ−ンなど〕	Reinforcement by a metal foil (dummy pattern for preventing board camber)
+H05K   1/02  F	1	1	5E338	H05K   1/02	2858	区域変質したもの〔放熱板はここへ付与〕〔配線以外による冷却はここへ〕	Area-deteriorated (this category is assigned to the heat radiation plate) (this category is assigned to cooling by other than wiring.)
+H05K   1/02  G	1	1	5E338	H05K   1/02	2703	切断の手段を有する基板〔割るところに補強部分があるのはＧ〕	Board having a cutting means (reinforcement provided on the cut-off position G)
+H05K   1/02  H	1	2	5E338	H05K   1/02	248	切断される基板がジャンパ−線をもつもの	Board to be cut that has a jumper wire
+H05K   1/02  J	1	0	5E338	H05K   1/02	5289	配線パタ−ンに特徴を有するもの〔電気部品として機能しないもの〕	characterized by the wiring pattern (not functioning as an electrical part)
+H05K   1/02  K	1	1	5E338	H05K   1/02	622	保護配線に関するもの〔配線の間接的保護はＤへ〕	related to protective wiring (relative protection of wiring D)
+H05K   1/02  L	1	1	5E338	H05K   1/02	979	配線導体を立体的に変形したもの〔基板と共に変形するものを含む〕	Wiring conductor deformed in three-dimensional manner (including deformation along with the board)
+H05K   1/02  M	1	1	5E338	H05K   1/02	331	ユニバ−サル配線基板に関するもの	related to the universal wiring board
+H05K   1/02  N	1	1	5E338	H05K   1/02	2998	電源・ア−ス配線に関するもの〔Ｐより優先〕	related to the power supply or earth wiring (takes precedence over P.)
+H05K   1/02  P	1	1	5E338	H05K   1/02	3108	シ−ルド配線に関するもの〔インピ−ダンス整合も含む〕	related to the shield wiring (including impedance matching)
+H05K   1/02  Q	1	1	5E338	H05K   1/02	1189	放熱配線に関するもの〔配線以外により放熱するものはＦ〕	related to the heat radiation wiring (heat radiation by other than wiring F)
+H05K   1/02  R	1	0	5E338	H05K   1/02	2571	識別表示を施した基板〔Ｈ０５Ｋ３／００Ｐも参照〕	Board having ID indication (Also refer to H 05 K 1/18.)
+H05K   1/02  S	1	1	5E338	H05K   1/02	251	色による識別	Identification by colour
+H05K   1/02  T	1	0	5E338	H05K   1/02	746	光伝導手段をもつ基板	Board having an optical conduction means
+H05K   1/02  Z	1	0	5E338	H05K   1/02	277	その他	Others
+H05K   1/03  \	2	2	5E341	H05K   1/03	796	基体用材料の使用［２００６．０１］	Use of materials for the substrate [3]
+H05K   1/03 610 \	3	3	5E341	H05K   1/03	20	基体部分が実質的に一層のもの	Substantially one layer as the board member
+H05K   1/03 610 A	3	0	5E341	H05K   1/03	161	一層からなる基体［多層積層構造であっても同一材料を積層するものは一層として扱う］	Board member consisting of one layer (lamination of the same material is treated as one layer even though the structure consists of multi-layer lamination.)
+H05K   1/03 610 B	3	0	5E341	H05K   1/03	410	無機成分を主成分とするもの［例；アルミナ、ガラス、マイカ、セラミックペ−パ］	Inorganic component as the main component, e.g. alumina, glass, mica, ceramic paper
+H05K   1/03 610 C	3	1	5E341	H05K   1/03	328	成分組成に特徴を有するもの	characterized by composition of components
+H05K   1/03 610 D	3	2	5E341	H05K   1/03	1716	セラミックスからなるもの	consisting of ceramics
+H05K   1/03 610 E	3	3	5E341	H05K   1/03	490	窒化アルミニウム，ＡＩＮからなるもの	consisting of aluminium nitride or AIN
+H05K   1/03 610 G	3	0	5E341	H05K   1/03	675	有機成分を主成分とするもの	Organic component as the main component
+H05K   1/03 610 H	3	1	5E341	H05K   1/03	2780	樹脂成分に特徴を有するもの	characterized by the resin component
+H05K   1/03 610 J	3	2	5E341	H05K   1/03	351	ポリオレフィン系、アクリル系	Polyolefin, acryl
+H05K   1/03 610 K	3	2	5E341	H05K   1/03	445	フェノ−ル系	Phenol
+H05K   1/03 610 L	3	2	5E341	H05K   1/03	3074	エポキシ系	Epoxy
+H05K   1/03 610 M	3	2	5E341	H05K   1/03	600	ポリエステル系「飽和、不飽和］	Polyester (saturated or unsaturated)
+H05K   1/03 610 N	3	2	5E341	H05K   1/03	2511	ポリイミド系、ポリアミド系	Polyimide, polyamide
+H05K   1/03 610 P	3	3	5E341	H05K   1/03	601	ポリイミド前駆体、ポリアミド酸	Polyimide precursor, polyamic acid, polyamide acid
+H05K   1/03 610 Q	3	1	5E341	H05K   1/03	309	添加剤に特徴を有するもの［基材となる有機成分に添加されるもの］	characterized by the additive (added to the organic component as the base
+H05K   1/03 610 R	3	2	5E341	H05K   1/03	1799	無機化合物添加剤	Additive for an inorganic compound
+H05K   1/03 610 S	3	2	5E341	H05K   1/03	643	有機化合物添加剤	Additive for an organic compound
+H05K   1/03 610 T	3	1	5E341	H05K   1/03	1858	プリプレグの基材に特徴を有するもの「ガラスクロス、織物、不織布、ペ−パ］	characterized by the pre-preg base (glass cloth, fabric, non-woven fabric, paper)
+H05K   1/03 610 U	3	2	5E341	H05K   1/03	506	アラミド、全芳香族アミド	Aramid, all aromatic amides
+H05K   1/03 610 Z	3	0	5E341	H05K   1/03	136	その他	Others
+H05K   1/03 630 \	3	3	5E341	H05K   1/03	5	積層	Lamination
+H05K   1/03 630 A	3	0	5E341	H05K   1/03	264	基体が積層構造からなるもの	Base consisting of a lamination structure
+H05K   1/03 630 B	3	1	5E341	H05K   1/03	190	有機成分からなる積層体	Lamination consisting of an organic component
+H05K   1/03 630 C	3	2	5E341	H05K   1/03	315	一層のみが特定されているもの［層を構成する樹脂成分］	One layer only specified (resin component configuring the layer)
+H05K   1/03 630 D	3	2	5E341	H05K   1/03	945	二層が特定されているもの	Two layers specified
+H05K   1/03 630 E	3	2	5E341	H05K   1/03	296	三層以上から構成されるもの	consisting of at least three layers
+H05K   1/03 630 F	3	2	5E341	H05K   1/03	579	複数種類のプリプレグのみからなるもの［含むコンポジットタイプ］	consisting of multiple types of pre-pregs only (including the composite type)
+H05K   1/03 630 G	3	1	5E341	H05K   1/03	357	無機層を含む積層体	Lamination including an inorganic later
+H05K   1/03 630 H	3	2	5E341	H05K   1/03	1565	銅張積層体、金属箔、銅箔を含むもの	Copper-plated lamination including the metal foil or copper foil
+H05K   1/03 630 J	3	2	5E341	H05K   1/03	519	セラミックスを含むもの	including ceramics
+H05K   1/03 630 Z	3	0	5E341	H05K   1/03	21	その他	Others
+H05K   1/03 650 \	3	3	5E341	H05K   1/03	1379	接着剤層を介して接合するもの	Bonding via an adhesive layer
+H05K   1/03 670 \	3	3	5E341	H05K   1/03	478	フレキシブル基体	Flexible base
+H05K   1/03 670 A	3	0	5E341	H05K   1/03	890	接着剤層のないもの	having no adhesive layer
+H05K   1/03 670 Z	3	0	5E341	H05K   1/03	1237	その他	Others
+H05K   1/05  \	3	3	5E315	H05K   1/05	225	絶縁金属基体［２００６．０１］	Insulated metal substrate [3]
+H05K   1/05  A	3	0	5E315	H05K   1/05	1207	絶縁材料に特徴を有するもの〔構造と材質〕	characterized by the insulation material (structure and material)
+H05K   1/05  B	3	0	5E315	H05K   1/05	759	金属材料に特徴を有するもの〔構造と材質〕	characterized by the metal material (structure and material)
+H05K   1/05  C	3	0	5E315	H05K   1/05	213	ほうろう基板に関するもの〔Ａ，Ｂより優先〕	related to the porcelain enamel board (takes precedence over A and B.)
+H05K   1/05  Z	3	0	5E315	H05K   1/05	1429	その他〔金属芯と回路導体とのア−ス接続など〕	Others (earth connection of the metal core and circuit conductor)
+H05K   1/09  \	2	2	4E351	H05K   1/09	203	金属パターンのための材料の使用［２００６．０１］	Use of materials for the metallic pattern [3]
+H05K   1/09  A	2	0	4E351	H05K   1/09	4110	導電材に特徴を有するもの	characterized by the conductive material
+H05K   1/09  B	2	1	4E351	H05K   1/09	411	モリブデン，タングステンを含むもの	including molybdenum and tungsten
+H05K   1/09  C	2	1	4E351	H05K   1/09	2716	導電材の多層としての使用〔Ｈ０５Ｋ３／２４，３／２２を参照〕	using the conductive material for multiple layers (Refer to H 05 K 3/24, 3/22.)
+H05K   1/09  D	2	0	4E351	H05K   1/09	1250	有機材料に特徴を有するもの〔無機材（Ｂ↓２Ｏ↓３，Ａｌ↓２Ｏ↓３）はＺへ。有機ビヒクルなどはここへ。〕	characterized by the organic material (inorganic material (B2O3, Al2O3) Z. This category is applied to organic vehicles.)
+H05K   1/09  Z	2	0	4E351	H05K   1/09	617	その他〔ガラスフリットなど〕	Others (glass frit, etc.)
+H05K   1/11  \	2	2	5E317	H05K   1/11	290	印刷回路への，または印刷回路間の電気的接続のための印刷要素［２００６．０１］	Printed elements for providing electric connections to or between printed circuits [3]
+H05K   1/11  A	2	0	5E317	H05K   1/11	1069	同一基板上における配線間の接続に関するもの	related to the connection between wires on a board
+H05K   1/11  B	2	1	5E317	H05K   1/11	230	印刷による接続	Connection by printing
+H05K   1/11  C	2	0	5E317	H05K   1/11	1422	基板の接栓部に関するもの	related to the board connection
+H05K   1/11  D	2	1	5E317	H05K   1/11	1139	配線パタ−ンに関するもの〔接栓部のパタ−ンに特徴のあるもの〕	related to the wiring pattern (characterized by the connection pattern)
+H05K   1/11  E	2	1	5E317	H05K   1/11	298	保護手段が施されているもの	Protection means applied
+H05K   1/11  F	2	0	5E317	H05K   1/11	538	表裏導体の側面接続に関するもの	related to the side connection of the front and rear conductor
+H05K   1/11  G	2	1	5E317	H05K   1/11	111	接続具によるもの	using a connection device
+H05K   1/11  H	2	0	5E317	H05K   1/11	2037	表裏導体のスル−ホ−ル接続〔貫通孔の内壁の導電層による接続〕	Through-hole connection of the front and rear conductor (connection by the conductive layer on the inner surface of the through-hole)
+H05K   1/11  J	2	1	5E317	H05K   1/11	197	リ−ド線によるもの〔スル−ホ−ル内にリ−ド線を挿入して表裏面の接続〕	using a lead wire (connection between the front and rear sides by inserting a lead wire into the through-hole)
+H05K   1/11  K	2	1	5E317	H05K   1/11	158	導体の変形によるもの〔配線層から連続した導体の変形〕	Using deformation of the conductor (deformation of the conductor that continues from the wiring layer)
+H05K   1/11  L	2	1	5E317	H05K   1/11	520	中実導体によるもの〔ピンなど〕	using a solid conductor (pin, etc.)
+H05K   1/11  M	2	1	5E317	H05K   1/11	192	中空導体によるもの〔はとめなど〕	using a hollow conductor (eyelet, etc.)
+H05K   1/11  N	2	1	5E317	H05K   1/11	2486	導電材料の充填によるもの	filling a conductive material
+H05K   1/11  Z	2	0	5E317	H05K   1/11	962	その他〔検査用端子部に関するもの〕	Others (blind hole, inspection terminal)
+H05K   1/14  \	2	2	5E344	H05K   1/14	420	２つ以上の印刷回路の構造的結合（印刷回路に対するまたは印刷回路間の電気的接続をするためのものＨ０５Ｋ１／１１，Ｈ０１Ｒ１２／００）［２００６．０１］	Structural association of two or more printed circuits (providing electric connection to or between printed circuits H05K 1/11, H01R 12/00)
+H05K   1/14  A	2	0	5E344	H05K   1/14	1495	印刷回路基板の直接接続	Direct connection of printed circuit boards
+H05K   1/14  B	2	1	5E344	H05K   1/14	271	印刷回路基板の嵌め込み	Fitting one printed circuit board into another
+H05K   1/14  C	2	1	5E344	H05K   1/14	3214	印刷回路基板とフレキシブル基板との接続	Connection between the printed circuit board and flexible board
+H05K   1/14  D	2	1	5E344	H05K   1/14	1304	印刷回路基板の垂直接続	Vertical connection of printed circuit boards
+H05K   1/14  E	2	0	5E344	H05K   1/14	1381	印刷回路基板の接続部材を介した接続	Connection of printed circuit boards via a connection member
+H05K   1/14  F	2	1	5E344	H05K   1/14	474	接続部材として電子部品が関与しているもの	Electronic part used as the connection member
+H05K   1/14  G	2	1	5E344	H05K   1/14	1656	印刷回路基板の重ね合せによる接続	Connection by overlapping printed circuit boards together
+H05K   1/14  H	2	1	5E344	H05K   1/14	2239	接続部材に特徴のあるもの	characterized by the connection member
+H05K   1/14  J	2	2	5E344	H05K   1/14	979	接続部材が有機導電性材料であるもの〔Ｈ０５Ｋ３／３２参照〕	Organic conductive material as the connection member (Refer to H 05 K 3/32.)
+H05K   1/14  Z	2	0	5E344	H05K   1/14	337	その他	Others
+H05K   1/16  \	1	1	4E351	H05K   1/16	414	印刷電気部品，例．印刷抵抗器，印刷コンデンサまたは印刷インダクタンス，を備えるもの［２００６．０１］	incorporating printed electric components, e.g. printed resistor, capacitor, inductor
+H05K   1/16  A	1	0	4E351	H05K   1/16	449	印刷電気部品のみからなるもの	consisting of printed electrical parts only
+H05K   1/16  B	1	1	4E351	H05K   1/16	1501	単一印刷部品〔主に印刷コイル，主は，Ｈ０１Ｆ１７又は，１５〕	Single printed part (mainly printed coil. Main category is H 01 F 17 or 15.)
+H05K   1/16  C	1	2	4E351	H05K   1/16	2409	印刷抵抗	Printed resistor
+H05K   1/16  D	1	2	4E351	H05K   1/16	1104	印刷コンデンサ	Printed capacitor
+H05K   1/16  E	1	0	4E351	H05K   1/16	750	印刷電気部品と印刷によらない電気部品との組み合せ	Combination of the printed electrical part and non-printed electrical part
+H05K   1/16  Z	1	0	4E351	H05K   1/16	364	その他	Others
+H05K   1/18  \	1	1	5E336	H05K   1/18	192	印刷によらない電気部品と構造的に結合した印刷回路（Ｈ０５Ｋ１／１６が優先）［２００６．０１］	Printed circuits structurally associated with non-printed electric components (H05K 1/16 takes precedence)
+H05K   1/18  A	1	0	5E336	H05K   1/18	1895	電気部品のリ−ド端子挿入による印刷回路への直接取付	Direct installation to the printed circuit by inserting the lead terminal of the electrical part
+H05K   1/18  B	1	1	5E336	H05K   1/18	1618	リ−ド端子の形状又は材料に特徴をもつもの	characterized by the shape or material of the lead terminal
+H05K   1/18  C	1	1	5E336	H05K   1/18	749	リ−ド端子を除く取付用端子又は部品の形状に特徴をもつもの	characterized by shape of the installing terminal other than the lead terminal or by the shape of the part
+H05K   1/18  D	1	1	5E336	H05K   1/18	1681	付属具を用いる取付〔スペ−サなど〕	Installation using an accessory (spacer, etc.)
+H05K   1/18  E	1	2	5E336	H05K   1/18	446	付属具が電気的接続用のものであるもの〔はとめなど〕〔コネクタを介しての取付，１／１８Ｕ〕	Accessory for electrical connection (eyelet, etc.) (installation via a connector 1/18 u)
+H05K   1/18  F	1	0	5E336	H05K   1/18	826	電気部品の面接続による印刷回路への直接取付〔←付属具を用いるもの，→コネクタを介するもの，１／１８Ｕ〕	Direction installation to the printed circuit by plane connection of the electrical part (&larr; using an accessory, R via a connector 1/18 u)
+H05K   1/18  G	1	1	5E336	H05K   1/18	1075	リ−ド部品であるもの	Part with leads
+H05K   1/18  H	1	2	5E336	H05K   1/18	1886	リ−ド部品の形状に特徴をもつもの〔←リ−ド及び本体の構造〕	characterized by the shape of the part with leads (&larr; lead and body structures)
+H05K   1/18  J	1	1	5E336	H05K   1/18	2262	リ−ドレス部品であるもの	Leadless part
+H05K   1/18  K	1	2	5E336	H05K   1/18	1475	リ−ドレス部品の形状に特徴をもつもの	characterized by the shape of the leadless part
+H05K   1/18  L	1	3	5E336	H05K   1/18	1233	フリップチップ〔主は，Ｈ０１Ｌ〕	Flip chip (mainly H 01 L)
+H05K   1/18  M	1	0	5E336	H05K   1/18	302	電気部品本体の基板の貫通孔への直接取付〔←付属具をもちいるもの〕	Direct installation of the electrical part body to the through-hole on the board (&larr; using an accessory)
+H05K   1/18  N	1	1	5E336	H05K   1/18	552	リ−ド部品であるもの	Part with leads
+H05K   1/18  P	1	1	5E336	H05K   1/18	662	リ−ドレス部品であるもの	Leadless part
+H05K   1/18  Q	1	0	5E336	H05K   1/18	644	電気部品本体の基板の凹所への直接取付〔リ−ド部品の取付及び付属具を用いる取付〕	Direct installation of the electrical part body to the concavity  on the board (installation of the part with leads and installation using an accessory)
+H05K   1/18  R	1	1	5E336	H05K   1/18	831	リ−ドレス部品であるもの	Leadless part
+H05K   1/18  S	1	0	5E336	H05K   1/18	3270	複数の部品の印刷回路への直接取付	Direct installation of multiple parts on the printed board
+H05K   1/18  T	1	1	5E336	H05K   1/18	661	付属具を用いるもの〔→コネクタを介するもの，Ｕ〕	using an accessory ( , via a connector U)
+H05K   1/18  U	1	0	5E336	H05K   1/18	1896	電気部品の印刷回路への間接的な取付〔コネクタそのもの，Ｈ０１Ｒ〕	Indirect installation of the electrical part on the printed board (connector itself H 01 R)
+H05K   1/18  Z	1	0	5E336	H05K   1/18	469	その他	Others
+H05K   3/00  \	0	0	5E342	H05K   3/00	229	印刷回路を製造するための装置または方法［２００６．０１］	Apparatus or processes for manufacturing printed circuits (photomechanical production of textured or patterned surfaces, materials or originals therefor, apparatus specially adapted therefor, in general G03F; involving the manufacture of semiconductor devices H01L) [3]
+H05K   3/00  A	0	0	5E342	H05K   3/00	329	特殊方法による印刷配線の製造［←キンタロウアメ法］	Manufacture of the printed wiring by a special method (&larr; cookie-cutter method)
+H05K   3/00  W	0	1	5E342	H05K   3/00	895	樹脂成型技術をもちいるもの［←インサート成形］	using the resin moulding technology (&larr; insertion moulding)
+H05K   3/00  B	0	0	5E342	H05K   3/00	266	複合工程からなる印刷配線の製造［サブトラクト工程とアディティブ工程との組合せ，セミアディティブ法（含，ＵＴＣ法）はアディティブ法へ］	Manufacture of the printed wiring in composite processes (combination of the subtractive process and additive process, semi-additive method (including the UTC method) included in the additive method)
+H05K   3/00  X	0	0	5E342	H05K   3/00	2468	多数枚取りによる印刷配線の製造［←二枚取りのもの］	Manufacture of the printed wiring by taking multiple pieces ( &larr; 2-piece taking)
+H05K   3/00  C	0	0	5E342	H05K   3/00	257	多段工程からなる印刷配線の製造［Ｂ，Ｘが優先］	Manufacture of the printed wiring in multiple processes (B and X take precedence.)
+H05K   3/00  D	0	0	5E342	H05K   3/00	1576	ＣＡＤによる印刷配線の設計［主分類→Ｇ０６Ｆ１５］	Design of the printed wiring by CAD (main category R  G 06 F 15)
+H05K   3/00  Y	0	0	5E342	H05K   3/00	179	ＣＡＤによらない印刷配線の設計［←設計用具，用品］	Design of the printed wiring not using CAD (&larr; design tool, utilities)
+H05K   3/00  E	0	0	5E342	H05K   3/00	388	露光用マスク［主分類→Ｇ０３Ｆ］	Exposure mask (main category R G 03 F)
+H05K   3/00  F	0	0	5E342	H05K   3/00	1186	汎用レジスト材料［主分類→Ｇ０３Ｆ，一般的エッチングレジスト材料→３／０６Ｈ］	Multi-purpose resist material (main category R G 03 F, etching resist material in general R 3/06 H)
+H05K   3/00  G	0	0	5E342	H05K   3/00	639	露光方法［主分類→Ｇ０３Ｆ］	Exposure method (main category R G 03 F)
+H05K   3/00  H	0	0	5E342	H05K   3/00	924	露光装置［主分類→Ｇ０３Ｆ］	Exposure device (main category R G 03 F)
+H05K   3/00  J	0	0	5E342	H05K   3/00	1348	基板の機械的加工法［←加工時の位置決め法，打ち抜き法，割り法，加工後の検査法］	Mechanical machining method for the board (&larr; alignment method in machining, punching method, indexing method, method of inspection after machining)
+H05K   3/00  K	0	1	5E342	H05K   3/00	1403	孔あけ法［←エッチングによる孔あけ法，座ぐり法，孔あけ後の検査法］	Boring method (&larr; boring method by etching, spot facing method, method of inspection after boring)
+H05K   3/00  L	0	0	5E342	H05K   3/00	1312	基板の機械的加工装置［加工用治具，付属装置］	Mechanical machining device for the board (machining jig, accessory device)
+H05K   3/00  M	0	1	5E342	H05K   3/00	678	孔あけ装置	Boring device
+H05K   3/00  N	0	0	5E342	H05K   3/00	2852	基板のレーザー加工［Ｊ，Ｌより優先する，レーザーによる配線パターンの形成→３／０８Ｄ，レーザー加工一般→Ｂ２３Ｋ］	Laser machining for the board (takes precedence over J and L. Forming the wiring pattern by laser R 3/08 D, laser machining in general R B 23 K)
+H05K   3/00  P	0	0	5E342	H05K   3/00	1081	印刷配線・回路板へのマーキング［マーキングされたもの→１／０２Ｒ，Ｓ］	Marking on the printed wiring/circuit board (marked R 1/02 R, S)
+H05K   3/00  V	0	0	5E342	H05K   3/00	542	印刷配線の試験，検査［主分類→Ｇ０１Ｒ，Ｇ０１Ｎ，エッチングの試験，検査→３／０６Ｄ］	Testing or inspection of the printed wiring (main category R G 01 R, G 01 N, testing or inspection of etching R 3/06 D)
+H05K   3/00  Q	0	1	5E342	H05K   3/00	1658	光を利用した試験，検査［←人間の視覚によるもの］	Testing or inspection utilising light (&larr; by human's visual sense)
+H05K   3/00  S	0	2	5E342	H05K   3/00	197	スルーホール部分の試験，検査	Testing or inspection of the through-hole
+H05K   3/00  T	0	1	5E342	H05K   3/00	2250	電気を利用した試験，検査［Ｑが優先］	Testing or inspection utilising electricity (Q takes precedence.)
+H05K   3/00  U	0	2	5E342	H05K   3/00	111	スルーホール部分の試験，検査	Testing or inspection of the through-hole
+H05K   3/00  R	0	0	5E342	H05K   3/00	1638	導電性物質を絶縁支持部材の全面に施すもの［積層一般→Ｂ３２Ｂ，スパッタリング一般→Ｃ２３Ｃ］	Conductive substance applied to the entire surface of the insulation supporting member (lamination in general R B 32 B, spattering in general R C 23 C)
+H05K   3/00  Z	0	0	5E342	H05K   3/00	760	その他	Others
+H05K   3/02  \	1	1	5E339	H05K   3/02	40	導電性物質が絶縁支持部材の表面に施されその後電流の伝導や遮へいのために使わない部分が表面から取り除かれるもの［２００６．０１］	in which the conductive material is applied to the surface of the insulating support and is thereafter removed from such areas of the surface which are not intended for current conducting or shielding
+H05K   3/02  A	1	0	5E339	H05K   3/02	243	リフトオフ法をもちいるもの〔下層を除去することにより，その上にある層を同時に除去する〕	using the lift-off method (by removing the lower layer, the upper layer is removed at the same time.)
+H05K   3/02  B	1	0	5E339	H05K   3/02	187	導電性物質が感光性組成物のもの	Conductive substance having the light-sensitive composition
+H05K   3/02  Z	1	0	5E339	H05K   3/02	82	その他〔導体層の選択的不導体化〕	Others (making the conductor layer non-conductive selectively)
+H05K   3/04  \	2	2	5E339	H05K   3/04	12	導電性物質が機械的に取り除かれるもの，例．パンチによるもの［２００６．０１］	the conductive material being removed mechanically, e.g. by punching
+H05K   3/04  A	2	0	5E339	H05K   3/04	99	切削によるもの	by cutting
+H05K   3/04  B	2	0	5E339	H05K   3/04	156	打抜によるもの〔←ダイスタンプ法〕〔打抜きと同時に樹脂に埋込むもの；パターン状に打抜いてから貼るものは，３／２０Ｚ〕	by punching (&larr; die stamp method) (punched and embedded into the resin at the same time; pattern punching then bonding 3/20 Z)
+H05K   3/04  C	2	1	5E339	H05K   3/04	36	金型に関するもの	related to the metal mold
+H05K   3/04  D	2	0	5E339	H05K   3/04	56	サンドブラストによるもの	using sand blasting
+H05K   3/04  Z	2	0	5E339	H05K   3/04	71	その他〔サンドブラストを除く研磨によるもの〕	Others (by polishing other than sand blasting)
+H05K   3/06  \	2	2	5E339	H05K   3/06	164	導電性物質が化学的にまたは電気分解により取り除かれるもの，例．ホトエッチング法［２００６．０１］	the conductive material being removed chemically or electrolytically, e.g. by photo-etch process
+H05K   3/06  A	2	0	5E339	H05K   3/06	1637	エッチング法一般〔エッチング工程を含む製造法〕	Etching method in general (manufacturing method including the etching process)
+H05K   3/06  B	2	1	5E339	H05K   3/06	276	前処理〔←保護膜の除去〕〔レジスト形成面の清浄化などレジスト形成前の処理〕	Pre-treatment (&larr; protective layer removal) (process such as cleaning of the resist forming surface before resist forming)
+H05K   3/06  C	2	1	5E339	H05K   3/06	328	後処理〔←レジストの除去〕〔エッチング後の処理〕	Post-treatment (&larr; resist removal) (process after etching)
+H05K   3/06  D	2	1	5E339	H05K   3/06	275	エッチングの制御，検査〔←レジストの検査〕〔エッチング液の管理，制御〕	Etching control or inspection (&larr; resist inspection) (etching liquid management or control)
+H05K   3/06  E	2	0	5E339	H05K   3/06	1063	レジストの形成〔露光→３／００Ｇ，Ｈ〕	Resist forming (exposure R 3/00 G, H)
+H05K   3/06  F	2	1	5E339	H05K   3/06	490	レジストの塗布〔←パターンの直接形成〕	Resist coating (&larr; direct pattern forming)
+H05K   3/06  G	2	1	5E339	H05K   3/06	208	レジストの現像〔剥離現像→３／０６Ｊ〕	Resist developing (peeling development R 3/06 J)
+H05K   3/06  H	2	0	5E339	H05K   3/06	1262	レジスト材料に特徴のあるもの〔感光性フィルム→Ｇ０３Ｃ〕	characterized by the resist material (light-sensitive film R G 03 C)
+H05K   3/06  J	2	1	5E339	H05K   3/06	1160	フィルムレジストをもちいるもの〔ラミネータ；テープの貼着，剥離装置；フィルムレジスト層をもつ回路基板材料〕	using a film resist (laminator; tape bonding/peeling device; circuit board material having a film resist layer)
+H05K   3/06  K	2	1	5E339	H05K   3/06	328	メタルレジストをもちいるもの〔金属酸化物レジストを含む〕	using a metal resist (including the metal oxide resist)
+H05K   3/06  L	2	1	5E339	H05K   3/06	179	二層のレジストをもちいるもの	using a 2-layer resist
+H05K   3/06  M	2	0	5E339	H05K   3/06	417	エッチング材料に特徴のあるもの	characterized by the etching material
+H05K   3/06  N	2	1	5E339	H05K   3/06	348	銅に対するエッチング材料	Etching material for copper
+H05K   3/06  P	2	1	5E339	H05K   3/06	106	非金属に対するエッチング材料	Etching material for non-metal
+H05K   3/06  Q	2	0	5E339	H05K   3/06	545	エッチング装置〔装置に特徴のある方法〕	Etching apparatus (method characterized by the device)
+H05K   3/06  Z	2	0	5E339	H05K   3/06	96	その他〔←気相エッチング，ただしプラズマ，スパッタ，イオン，レーザの各エッチングは３／０８Ａ〜Ｄ〕	Others (&larr; gas phase etching; plasma, spatter, ion, or laser etching 3/08 A to D)
+H05K   3/07  \	3	3	5E339	H05K   3/07	62	電気分解により除去されるもの［２００６．０１］	being removed electrolytically [3]
+H05K   3/08  \	2	2	5E339	H05K   3/08	2	導電性物質が放電によって取り除かれるもの，例．火花放電の侵食［２００６．０１］	the conductive material being removed by electric discharge, e.g. by spark erosion
+H05K   3/08  A	2	0	5E339	H05K   3/08	80	プラズマエッチングによるもの〔プラズマ雰囲気中のエッチング〕	using plasma etching (etching in the plasma atmosphere)
+H05K   3/08  B	2	0	5E339	H05K   3/08	33	スパッタエッチングによるもの〔平行の電極板があり高周波を印加して行うエッチング〕	using spatter etching (etching by applying high frequency to parallel electrode plates)
+H05K   3/08  C	2	0	5E339	H05K   3/08	42	イオンエッチングによるもの〔イオン発生源から発生させたイオンを処理基板にぶつけて行うエッチング〕	using ion etching (etching by hitting the ion generated from the ion generation source against the board)
+H05K   3/08  D	2	0	5E339	H05K   3/08	361	レーザエッチングによるもの〔レーザー加工→３／００Ｎ〕	using laser etching (laser machining R 3/00 N)
+H05K   3/08  Z	2	0	5E339	H05K   3/08	25	その他〔←放電エッチングによるもの〕〔その他の気相エッチング→３／０６Ｚ〕	Others (&larr;  using discharge etching) (other gas phase etching R 3/06 Z)
+H05K   3/10  \	1	1	5E343	H05K   3/10	35	導電性物質が希望する導電模様を形成するように絶縁支持部材に施されるもの［２００６．０１］	in which conductive material is applied to the insulating support in such a manner as to form the desired conductive pattern
+H05K   3/10  A	1	0	5E343	H05K   3/10	345	ワイヤ布線法〔←マルチワイヤ法〕	Wire installation method (&larr; multi-wire R method)
+H05K   3/10  B	1	0	5E343	H05K   3/10	164	粉体付着法	Powder adhesion method
+H05K   3/10  C	1	0	5E343	H05K   3/10	634	エネルギー照射によるパターン形成	Pattern forming by energy irradiation
+H05K   3/10  D	1	0	5E343	H05K   3/10	1784	吐出法〔描画法〕	Delivery method (drawing method)
+H05K   3/10  E	1	0	5E343	H05K   3/10	935	凹所への導電材料の充填	Filling concavity with the conductive material
+H05K   3/10  Z	1	0	5E343	H05K   3/10	229	その他	Others
+H05K   3/12  \	2	2	5E343	H05K   3/12	138	導電性物質を付着するのに印刷技術を用いるもの［２００６．０１］	using printing techniques to apply the conductive material
+H05K   3/12 610 \	3	3	5E343	H05K   3/12	16	スクリーン印刷によるもの	using screen printing
+H05K   3/12 610 A	3	0	5E343	H05K   3/12	392	有機基板への印刷（基板材料に特定のないものはＡ〜Ｅ）	Printing on an organic board (board material not specified A to E)
+H05K   3/12 610 B	3	1	5E343	H05K   3/12	961	導電ペーストに特徴のあるもの、導電ペーストの処理	characterized by the conductive paste, conductive paste treatment
+H05K   3/12 610 C	3	1	5E343	H05K   3/12	205	前処理	Pre-treatment
+H05K   3/12 610 D	3	1	5E343	H05K   3/12	446	後処理（硬化処理を含む）	Post-treatment (including the hardening process)
+H05K   3/12 610 E	3	1	5E343	H05K   3/12	101	位置合わせ	Alignment
+H05K   3/12 610 F	3	0	5E343	H05K   3/12	136	無機基板への印刷（Ｍ優先）	Printing on an inorganic board (M takes precedence.)
+H05K   3/12 610 G	3	1	5E343	H05K   3/12	547	導電ペーストに特徴のあるもの、導電ペーストの処理	characterized by the conductive paste, conductive paste treatment
+H05K   3/12 610 H	3	1	5E343	H05K   3/12	119	前処理	Pre-treatment
+H05K   3/12 610 J	3	1	5E343	H05K   3/12	325	後処理（焼成処理を含む）	Post-treatment (including the baking process)
+H05K   3/12 610 K	3	1	5E343	H05K   3/12	95	焼成装置（焼成炉、焼成用治具）	Baking apparatus (baking furnace, baking jig)
+H05K   3/12 610 L	3	1	5E343	H05K   3/12	54	位置合わせ	Alignment
+H05K   3/12 610 M	3	1	5E343	H05K   3/12	263	グリーンシートへの印刷（基板と導電模様を同時焼成するもの）	Printing on the green sheet (board and conductor pattern baked at the same time)
+H05K   3/12 610 N	3	0	5E343	H05K   3/12	938	スクリーン印刷装置（主Ｂ４１Ｆ）	Screen printing apparatus (mainly B 41 F)
+H05K   3/12 610 P	3	1	5E343	H05K   3/12	804	スクリーン、マスク	Screen, mask
+H05K   3/12 610 Q	3	1	5E343	H05K   3/12	321	着肉装置、スキージ	Device for ink tack, squeezee
+H05K   3/12 610 R	3	1	5E343	H05K   3/12	285	位置合わせ装置	Alignment apparatus
+H05K   3/12 610 Z	3	0	5E343	H05K   3/12	36	その他	Others
+H05K   3/12 630 \	3	3	5E343	H05K   3/12	17	スクリーン印刷以外の印刷法によるもの	using a printing method other than screen printing
+H05K   3/12 630 A	3	0	5E343	H05K   3/12	236	静電・磁気印刷	Electrostatic or magnetic printing
+H05K   3/12 630 Z	3	0	5E343	H05K   3/12	714	その他（平版、凹版印刷など）	Others (lithography, letterpress, etc.)
+H05K   3/14  \	2	2	5E343	H05K   3/14	18	導電性物質を付着するのにスプレ技術を用いるもの［２００６．０１］	using spraying techniques to apply the conductive material
+H05K   3/14  A	2	0	5E343	H05K   3/14	450	蒸着・イオンプレーティング〔方法〕	Evaporation or ion plating (method)
+H05K   3/14  B	2	1	5E343	H05K   3/14	132	装置〔マスクを含む〕	Apparatus (including masking)
+H05K   3/14  Z	2	0	5E343	H05K   3/14	98	その他〔溶射〕	Others (flame spraying)
+H05K   3/16  \	3	3	5E343	H05K   3/16	262	カソードスパッタリングによるもの［２００６．０１］	by cathodic sputtering
+H05K   3/18  \	2	2	5E343	H05K   3/18	97	導電性物質を付着するのに沈でん技術を用いるもの［２００６．０１］	using precipitation techniques to apply the conductive material
+H05K   3/18  A	2	0	5E343	H05K   3/18	1323	前処理〔←接着層形成，ｅｔｃ．〕	Pre-treatment (&larr; adhesive layer forming, etc.)
+H05K   3/18  K	2	1	5E343	H05K   3/18	323	粗面化	Coarse surface making
+H05K   3/18  B	2	1	5E343	H05K   3/18	1368	メッキ核の形成〔←活性化，増感〕	Plating core forming (&larr; activation, sensitisation)
+H05K   3/18  C	2	2	5E343	H05K   3/18	302	光によるもの	using light
+H05K   3/18  D	2	1	5E343	H05K   3/18	1983	メッキレジスト〔←メッキマスク〕	Plating resist (&larr; plating mask)
+H05K   3/18  E	2	0	5E343	H05K   3/18	975	基板への最初の無電解メッキ〔無電解メッキの工程結合，処理操作に特徴のあるもの〕	Primary non-electrolytic plating to the board (characterized by the process combination or operation of non-electrolytic plating)
+H05K   3/18  F	2	1	5E343	H05K   3/18	333	メッキ液〔組成に特徴〕〔主は，Ｃ２３Ｃ１８／〕	Plating liquid (characterized by the composition (mainly C 23 C 18/)
+H05K   3/18  G	2	0	5E343	H05K   3/18	1200	基板への二次的な電解メッキ〔電解めっき液〕	Secondary electrolytic plating to the board (electrolytic plating liquid, electrolytic plating device) (copper foil as the base in most cases) (paste, etc. as the base 3/24 A)
+H05K   3/18  H	2	1	5E343	H05K   3/18	547	最初の導電層が無電解メッキによるもの	First conductive layer made by non-electrolytic plating
+H05K   3/18  J	2	0	5E343	H05K   3/18	377	基板への二次的な無電解メッキ〔下地銅箔，蒸着膜が多い〕	Secondary non-electrolytic plating to the board (copper foil or evaporated film as the base in most cases)
+H05K   3/18  L	2	0	5E343	H05K   3/18	110	メッキ装置（一般的なメッキ装置）（主はＣ２３Ｃ、Ｃ２５Ｄ）	Plating apparatus (plating apparatus in general) (mainly C 23 C, C 25 D)
+H05K   3/18  M	2	1	5E343	H05K   3/18	75	無電解メッキ装置（主はＣ２３Ｃ）	Non-electrolytic plating apparatus (mainly C 23 C)
+H05K   3/18  N	2	1	5E343	H05K   3/18	285	電解メッキ装置（主はＣ２５Ｄ）	Electrolytic plating apparatus (mainly C 25 D)
+H05K   3/18  Z	2	0	5E343	H05K   3/18	275	その他	Others
+H05K   3/20  \	2	2	5E343	H05K   3/20	13	あらかじめ組み立てた導体模様を貼着するもの［２００６．０１］	by affixing prefabricated conductor pattern
+H05K   3/20  A	2	0	5E343	H05K   3/20	954	転写によるもの〔導体模様をエッチング，蒸着などで作成した転写基材〕〔←基体の射出成形〕	using copy (copy base that created the conductor pattern by etching or evaporation) (&larr; injection moulding of the base)
+H05K   3/20  B	2	1	5E343	H05K   3/20	654	メッキによる導体模様からなる転写体	Copy member consisting of the conductor pattern made by plating
+H05K   3/20  C	2	1	5E343	H05K   3/20	563	印刷による導体模様からなる転写体	Copy member consisting of the conductor pattern made by printing
+H05K   3/20  Z	2	0	5E343	H05K   3/20	891	その他〔配線パターン状の導体板などを基板に貼りつけ〕	Others (conductor plate having the wiring pattern bonded to the board)
+H05K   3/22  \	1	1	5E343	H05K   3/22	30	印刷回路の２次的処理［２００６．０１］	Secondary treatment of printed circuits
+H05K   3/22  A	1	0	5E343	H05K   3/22	852	導体模様の修正・変更	Modification or change of the conductor pattern
+H05K   3/22  D	1	1	5E343	H05K   3/22	128	導体の析出によるもの［電解メッキ、無電解メッキ、ＰＶＤ、ＣＶＤなどによるもの］	using conductor deposition (electrolytic plating, non-electrolytic plating, PVD, CVD, etc.)
+H05K   3/22  E	1	1	5E343	H05K   3/22	473	導体模様の除去によるもの［切断、導体の不導体化を含む］	Removal of the conductor pattern (including cut-off and making the conductor non-conductive)
+H05K   3/22  B	1	0	5E343	H05K   3/22	580	導体模様の平滑化〔平滑基板〕〔配線の埋込，配線間に絶縁層を埋込む〕	Smoothing of the conductor patterns (smooth board) (wiring embedded, insulation layer embedded between wires)
+H05K   3/22  C	1	0	5E343	H05K   3/22	267	印刷回路基板のソリの矯正	Correction for camber of the printed circuit board
+H05K   3/22  Z	1	0	5E343	H05K   3/22	324	その他〔エージング，熱処理〕	Others (aging, heat treatment)
+H05K   3/24  \	2	2	5E343	H05K   3/24	21	導電模様の補強［２００６．０１］	Reinforcing of the conductive pattern
+H05K   3/24  A	2	0	5E343	H05K   3/24	2647	メッキによるもの〔２層以上の異種導体で電解又は化学めっき層を少くとも最外層にもつもの〕	using plating (conductor consisting of at least two different type layers with the electrolytic plating layer or chemical plating layer provided on the outer-most layer, e.g. paste for the base layer and copper plating for the upper layer)
+H05K   3/24  C	2	1	5E343	H05K   3/24	299	下地層が導電ペーストで形成されたもの	Base layer formed with conductive paste
+H05K   3/24  D	2	1	5E343	H05K   3/24	387	部分的に補強するもの	Partial reinforcement
+H05K   3/24  E	2	2	5E343	H05K   3/24	30	部分メッキ装置	Partial plating apparatus
+H05K   3/24  B	2	0	5E343	H05K   3/24	940	ハンダによるもの〔溶融はんだ又は電解はんだめっきで配線を被覆したもの〕	using soldering (wiring covered by fused solder or electrolytic solder plating)
+H05K   3/24  F	2	1	5E343	H05K   3/24	87	ハンダ被覆後の後処理（フュージング、レベリングなど）	Post-treatment after covering with solder (fusing, levelling, etc.)
+H05K   3/24  Z	2	0	5E343	H05K   3/24	718	その他〔ペースト，蒸着，導電箔の張り合わせなどによる補強〕	Others (reinforcement by paste, evaporation, or bonding a conductive foil)
+H05K   3/26  \	2	2	5E343	H05K   3/26	1461	導電模様の洗浄または研摩［２００６．０１］	Cleaning or polishing of the conductive pattern
+H05K   3/26  A	2	0	5E343	H05K   3/26	959	洗浄［洗浄方法、装置］	Washing (washing method or apparatus)
+H05K   3/26  B	2	1	5E343	H05K   3/26	300	孔内の洗浄	Washing in the hole
+H05K   3/26  C	2	1	5E343	H05K   3/26	123	後処理［絞り、乾燥など］	Post-treatment (squeezing, drying, etc.)
+H05K   3/26  D	2	1	5E343	H05K   3/26	54	洗浄液の再生［洗浄液の検査を含む］	Recycling of the washing liquid (including inspection of the washing liquid)
+H05K   3/26  E	2	1	5E343	H05K   3/26	521	洗浄液［洗浄液の組成］	Washing liquid (composition of the washing liquid)
+H05K   3/26  F	2	0	5E343	H05K   3/26	411	研摩［機械的研摩、化学的研摩を含む］	Polishing (including mechanical polishing and chemical polishing)
+H05K   3/26  Z	2	0	5E343	H05K   3/26	56	その他	Others
+H05K   3/28  \	2	2	5E314	H05K   3/28	132	非金属質の保護被覆を施すこと［２００６．０１］	Applying non-metallic protective coatings
+H05K   3/28  A	2	0	5E314	H05K   3/28	650	保護被覆が無機材料のみからなるもの〔←ガラスペースト〕	Protection covering consisting of the inorganic material only (&larr; glass paste)
+H05K   3/28  B	2	0	5E314	H05K   3/28	3998	保護被覆が有機材料を含むもの〔ソルダレジストの組成に特徴がなく塗布方法や塗布パターンに特徴があるもの〕	Protection covering containing the organic material (not characterized by the solder resist composition but characterized by the coating method or coating pattern)
+H05K   3/28  C	2	1	5E314	H05K   3/28	2411	材料に特徴をもつもの	characterized by the material
+H05K   3/28  D	2	2	5E314	H05K   3/28	3460	光硬化性樹脂〔←フォトソルダレジスト〕	Light-hardened resin (&larr; photo solder resist)
+H05K   3/28  E	2	1	5E314	H05K   3/28	497	塗布装置	Coating device
+H05K   3/28  F	2	1	5E314	H05K   3/28	2717	フィルムラミネートによるもの〔ドライフィルム〕	using the film laminate (dry film)
+H05K   3/28  G	2	0	5E314	H05K   3/28	2391	印刷配線板と部品の両者に保護被覆を施すもの〔部品上のコーティング〕	Protection covering applied to both printed wiring board and parts (coating over parts)
+H05K   3/28  Z	2	0	5E314	H05K   3/28	254	その他	Others
+H05K   3/30  \	1	1	5E353	H05K   3/30	172	電気部品，例．抵抗器，を印刷回路に取り付けること［２００６．０１］	Assembling printed circuits with electric components, e.g. with resistor
+H05K   3/32  \	2	2	5E319	H05K   3/32	62	印刷回路に対する電気部品または電線の電気的接続［２００６．０１］	electrically connecting electric components or wires to printed circuits
+H05K   3/32  A	2	0	5E319	H05K   3/32	207	有機導電材料による接続〔ゼブラコネクタ等〕	Connection using an organic conductive material (zebra connector, etc.)
+H05K   3/32  B	2	1	5E319	H05K   3/32	3348	導電性接着剤によるもの〔異方導電性接着材，接着シート〕	using a conductive adhesive (adhesive member or sheet that provides conductivity in some direction)
+H05K   3/32  C	2	0	5E319	H05K   3/32	1036	冶金的接続〔熱圧着など〕	Metallurgical connection (heat crimping, etc.)
+H05K   3/32  Z	2	0	5E319	H05K   3/32	947	その他〔めっき，接触によるもの〕	Others (using plating, fusing, etc.)
+H05K   3/34  \	3	3	5E319	H05K   3/34	263	ハンダ付けによるもの［２００６．０１］	by soldering
+H05K   3/34 501 \	4	4	5E319	H05K   3/34	9	前処理	Pre-treatment
+H05K   3/34 501 A	4	0	5E319	H05K   3/34	412	導電パターンのランド形状	Shape of the land on the conductive pattern
+H05K   3/34 501 B	4	1	5E319	H05K   3/34	813	挿入用ランド	Land for insertion
+H05K   3/34 501 C	4	1	5E319	H05K   3/34	289	挿入多端子用ランド	Land for multiple terminals to be inserted
+H05K   3/34 501 D	4	1	5E319	H05K   3/34	2296	面実装用ランド	Land for plane mounting
+H05K   3/34 501 E	4	1	5E319	H05K   3/34	2058	面実装多端子用ランド	Land for multiple terminals to be mounted planely
+H05K   3/34 501 F	4	0	5E319	H05K   3/34	791	多層ランド	Multi-layer land
+H05K   3/34 501 Z	4	0	5E319	H05K   3/34	823	その他〔プリント基板のそり防止、部品の位置合わせなど〕	Others (printed circuit board camber prevention, parts alignment, etc.)
+H05K   3/34 502 \	4	4	5E319	H05K   3/34	2	マスキング	Masking
+H05K   3/34 502 A	4	0	5E319	H05K   3/34	175	ソルダーレジストパターン〔ソルダーレジスト塗布方法＝３／２８〕〔ガラスペーストによるものも含む〕	Solder resist pattern (solder resist coating method 3/28) (including the use of glass paste)
+H05K   3/34 502 B	4	1	5E319	H05K   3/34	359	挿入多端子レジストパターン	Resist pattern for multiple terminals to be inserted
+H05K   3/34 502 C	4	1	5E319	H05K   3/34	142	挿入用レジストパターン	Resist pattern for insertion
+H05K   3/34 502 D	4	1	5E319	H05K   3/34	919	面実装レジストパターン	Resist pattern for plane mounting
+H05K   3/34 502 E	4	1	5E319	H05K   3/34	652	面実装多端子レジストパターン	Resist pattern for multiple terminals to be mounted planely
+H05K   3/34 502 Z	4	0	5E319	H05K   3/34	553	その他〔治具を用いるもの、マスキング一般など〕	Others (using a jig, masking in general, etc.)
+H05K   3/34 503 \	4	4	5E319	H05K   3/34	14	フラックス処理	Flux process
+H05K   3/34 503 A	4	0	5E319	H05K   3/34	626	フラックスの塗布	Flux coating
+H05K   3/34 503 B	4	1	5E319	H05K   3/34	677	フラックス塗布装置	Flux coating device
+H05K   3/34 503 Z	4	0	5E319	H05K   3/34	521	その他	Others
+H05K   3/34 504 \	4	4	5E319	H05K   3/34	5	部品の仮固定	Temporary fastening of parts
+H05K   3/34 504 A	4	0	5E319	H05K   3/34	374	接着による部品の仮固定	Temporary fastening of parts by adhesion
+H05K   3/34 504 B	4	1	5E319	H05K   3/34	764	表面実装部品の接着	Bonding of front side mounted parts
+H05K   3/34 504 C	4	0	5E319	H05K   3/34	266	接着剤塗布装置〔ディスペンサーを除く〕	Adhesive coating device (excluding the dispenser)
+H05K   3/34 504 D	4	1	5E319	H05K   3/34	449	ディスペンサー	Dispenser
+H05K   3/34 504 E	4	0	5E319	H05K   3/34	144	接着剤の硬化	Hardening of the adhesive
+H05K   3/34 504 Z	4	0	5E319	H05K   3/34	478	その他〔治具によるもの、磁石を使用するものなど〕	Others (using a jig, using a magnet, etc.)
+H05K   3/34 505 \	4	4	5E319	H05K   3/34	21	はんだの供給〔部品への予備はんだのみ＝Ｈ０１Ｇ、Ｈ０１Ｌ〕	Solder supply (only the solder that is preliminarily supplied to parts H 01 G, H 01 L)
+H05K   3/34 505 A	4	0	5E319	H05K   3/34	2644	箔、成形、めっき、溶融はんだ等によるもの	using foil, moulding, plating, or fused solder
+H05K   3/34 505 B	4	0	5E319	H05K   3/34	1131	ペーストはんだの供給	Paste solder supply
+H05K   3/34 505 C	4	1	5E319	H05K   3/34	1056	スクリーン印刷によるもの	using screen printing
+H05K   3/34 505 D	4	2	5E319	H05K   3/34	2626	スクリーン印刷機〔マスクも含む〕	Screen printer (including the mask)
+H05K   3/34 505 E	4	1	5E319	H05K   3/34	323	はんだの供給（部品への）	Parts to which solder is supplied
+H05K   3/34 505 F	4	1	5E319	H05K   3/34	182	はんだの供給（部品と基板への）	Parts to which solder is supplied + Board
+H05K   3/34 505 Z	4	0	5E319	H05K   3/34	132	その他	Others
+H05K   3/34 506 \	4	4	5E319	H05K   3/34	8	ディップはんだ付け	Dip soldering
+H05K   3/34 506 A	4	0	5E319	H05K   3/34	357	挿入部品と面実装部品の両品のディップはんだ付け	Dip soldering of both parts inserted and parts planely mounted
+H05K   3/34 506 B	4	1	5E319	H05K   3/34	595	挿入部品のディップはんだ付け	Dip soldering of inserted parts
+H05K   3/34 506 C	4	1	5E319	H05K   3/34	253	面接続部品のディップはんだ付け	Dip soldering of planely connected parts
+H05K   3/34 506 D	4	0	5E319	H05K   3/34	635	ディップはんだ付け装置	Dip soldering device
+H05K   3/34 506 E	4	1	5E319	H05K   3/34	76	ディップ手段	Dip means
+H05K   3/34 506 F	4	1	5E319	H05K   3/34	191	雰囲気	Atmosphere
+H05K   3/34 506 G	4	1	5E319	H05K   3/34	346	搬送	Carriage
+H05K   3/34 506 H	4	2	5E319	H05K   3/34	373	キャリヤ、キャリヤレス	Carrier, carrierless
+H05K   3/34 506 J	4	1	5E319	H05K   3/34	309	はんだ槽	Solder bath
+H05K   3/34 506 K	4	2	5E319	H05K   3/34	1216	噴流はんだ槽	Jet solder bath
+H05K   3/34 506 Z	4	0	5E319	H05K   3/34	67	その他	Others
+H05K   3/34 507 \	4	4	5E319	H05K   3/34	34	リフローはんだ付け、鏝はんだ付け	Reflow soldering, iron soldering
+H05K   3/34 507 A	4	0	5E319	H05K   3/34	344	挿入部品と面実装部品の両品のリフローはんだ付け〔ステップはんだ付けはここに包含〕	Reflow soldering of both inserted parts and planely mounted parts (including step soldering)
+H05K   3/34 507 B	4	1	5E319	H05K   3/34	289	挿入部品のリフローはんだ付け	Reflow soldering of inserted parts
+H05K   3/34 507 C	4	1	5E319	H05K   3/34	2223	面実装部品のリフローはんだ付け	Reflow soldering of planely mounted parts
+H05K   3/34 507 D	4	0	5E319	H05K   3/34	256	はんだ付け部分の非接触加熱〔主として装置に関するもの〕	Contactless heating of the soldered part (mainly related to the device)
+H05K   3/34 507 E	4	1	5E319	H05K   3/34	835	レーザ、赤外線	Laser, infrared ray
+H05K   3/34 507 F	4	1	5E319	H05K   3/34	238	蒸気	Steam
+H05K   3/34 507 G	4	1	5E319	H05K   3/34	308	熱風	Hot air
+H05K   3/34 507 H	4	1	5E319	H05K   3/34	422	リフロー炉〔赤外線、熱風全体加熱を含む〕	Reflow furnace (including overall heating by infrared ray or hot air)
+H05K   3/34 507 J	4	2	5E319	H05K   3/34	447	雰囲気	Atmosphere
+H05K   3/34 507 K	4	2	5E319	H05K   3/34	732	温度、加熱	Temperature, heating
+H05K   3/34 507 L	4	2	5E319	H05K   3/34	423	搬送〔Ｊ、Ｋが優先〕	Carriage (J and K take precedence.)
+H05K   3/34 507 M	4	0	5E319	H05K   3/34	702	接触加熱によるリフローはんだ付け	Reflow soldering by contact heating
+H05K   3/34 507 N	4	1	5E319	H05K   3/34	682	リフローチップはんだ鏝	Reflow chip soldering iron
+H05K   3/34 507 Z	4	0	5E319	H05K   3/34	164	その他	Others
+H05K   3/34 508 \	4	4	5E319	H05K   3/34	9	その他のはんだ付け、異種はんだ付けの併用	Co-use of another soldering or different-type soldering
+H05K   3/34 508 A	4	0	5E319	H05K   3/34	353	異種はんだ付けの併用	Co-use of different-type soldering
+H05K   3/34 508 Z	4	0	5E319	H05K   3/34	45	その他	Others
+H05K   3/34 509 \	4	4	5E319	H05K   3/34	846	はんだ付け用治具〔除く、マスキング用・仮固定用〕	Soldering jig (excluding those for masking or temporary fastening)
+H05K   3/34 510 \	4	4	5E319	H05K   3/34	1001	はんだ付けされた部品の取外し、交換	Removal or replacement of the soldered part
+H05K   3/34 511 \	4	4	5E319	H05K   3/34	406	後処理〔そりの矯正＝３／２２Ｃ、洗浄＝３／２６〕	Post-treatment (camber correction 3/22 C, washing 3/26)
+H05K   3/34 512 \	4	4	5E319	H05K   3/34	28	その他、関連技術等	Others such as the related technology
+H05K   3/34 512 A	4	0	5E319	H05K   3/34	1062	検査、測定〔はんだ付け検査、Ｇ０１Ｎ、Ｇ０１Ｒを参照〕	Inspection or measurement (soldering inspection. Refer to G 01 N, G 01 R.)
+H05K   3/34 512 B	4	1	5E319	H05K   3/34	1331	光による検査、測定	Inspection or measurement by light
+H05K   3/34 512 C	4	0	5E319	H05K   3/34	2176	はんだの組成	Solder composition
+H05K   3/34 512 Z	4	0	5E319	H05K   3/34	176	その他	Others
+H05K   3/36  \	1	1	5E344	H05K   3/36	34	印刷回路と他の印刷回路の組み合わせ［２００６．０１］	Assembling printed circuits with other printed circuits
+H05K   3/36  A	1	0	5E344	H05K   3/36	1734	印刷回路同士の直接接続〔各基板間を導電性接着材などはんだ以外で接続〕	Direct connection of printed boards (connection of boards via a conductive adhesive other than solder)
+H05K   3/36  B	1	1	5E344	H05K   3/36	1202	ハンダ付けによるもの	using soldering
+H05K   3/36  Z	1	0	5E344	H05K   3/36	869	その他〔リード線，コネクタなどによるもの〕	Others (using the lead wire, connector, etc.)
+H05K   3/38  \	1	1	5E343	H05K   3/38	232	絶縁基体と金属間の接着の改良［２００６．０１］	Improvement of the adhesion between the insulating substrate and the metal [3]
+H05K   3/38  A	1	0	5E343	H05K   3/38	1821	絶縁基体に関するもの〔イオンボンバード（マイクロエッチング）による表面粗化等〕	related to the insulation base (making the surface coarse by ion bombardment (micro-etching), etc. D)
+H05K   3/38  B	1	0	5E343	H05K   3/38	1966	金属材料に関するもの〔付着してゆく金属に特徴があるもの，粗面化，化成層，メッキ層等〕	related to the metal material (characterized by the deposited metal; making the surface coarse, conversion treatment layer, plated layer, etc.)
+H05K   3/38  C	1	1	5E343	H05K   3/38	346	二種以上の金属の併用	Co-use of at least two types of metals
+H05K   3/38  D	1	0	5E343	H05K   3/38	867	接着方法〔材料に特徴のないもの〕〔セラミックと金属物品との加熱接合，Ｃ０４Ｂ３７／０２；非電気的接合（圧力，振動等）Ｂ２３Ｋ２０／００〕	Bonding method (not characterized by the material) (bonding ceramic and metal together by heating C 04 B 37/02; non-electrical bonding (pressure, vibration, shock, etc.) B 23 K 20/00)
+H05K   3/38  E	1	0	5E343	H05K   3/38	1297	接着剤に特徴のあるもの〔ボンディングシートの成分〕	characterized by the adhesive (bonding sheet components)
+H05K   3/38  J	1	0	5E343	H05K   3/38	69	ＵＴＣ〔Ｕｌｔｒａ　ｔｈｉｎ　ｃｏｐｐｅｒで転写法〕	UTC (Ultra Thin Copper copy method)
+H05K   3/38  Z	1	0	5E343	H05K   3/38	174	その他	Others
+H05K   3/40  \	1	1	5E317	H05K   3/40	175	印刷回路への，または印刷回路間の電気的接続のための印刷要素の形成［２００６．０１］	Forming printed elements for providing electric connections to or between printed circuits [3]
+H05K   3/40  A	1	0	5E317	H05K   3/40	243	同一基板上における配線間の接続方法	Method of connection between wires on a board
+H05K   3/40  B	1	1	5E317	H05K   3/40	88	印刷による接続	Connection by printing
+H05K   3/40  C	1	0	5E317	H05K   3/40	363	基板の接栓部の製造〔接栓めっき，３／２４Ａ〕	Manufacture of the board connector (connector plating 3/24 A)
+H05K   3/40  D	1	0	5E317	H05K   3/40	300	表裏導体の側面接続方法〔印刷，めっき，接続具を用いるもの〕	Method of side connection for the front and rear conductors (using printing, plating, or connection clamp)
+H05K   3/40  E	1	0	5E317	H05K   3/40	951	表裏導体のスルホール接続方法〔電気めっき，化学めっきは，３／４２，スパッタや印刷によるもの〕	Method of through-hole connection for the front and rear conductors (electric plating, chemical plating 3/42 by spattering or printing)
+H05K   3/40  F	1	1	5E317	H05K   3/40	103	リード線によるもの〔細い導線の変形を伴うもの〕	using the leader wire (accompanied by deformation of the thin conductive wire)
+H05K   3/40  G	1	1	5E317	H05K   3/40	184	導体の変形によるもの〔表裏の配線導体をプレス等で変形したもの〕	using conductor deformation (front and rear wiring conductors deformed by the press, etc.)
+H05K   3/40  H	1	1	5E317	H05K   3/40	358	中実導体によるもの〔ピンなどによるもの〕	using a solid conductor (pin, etc.)
+H05K   3/40  J	1	1	5E317	H05K   3/40	103	中空導体によるもの〔ハトメなど〕	using a hollow conductor (eyelet, etc.)
+H05K   3/40  K	1	1	5E317	H05K   3/40	3369	導電材料の充填によるもの〔導電ペーストやめっき金属，成形金属体（ボール等）を孔に埋めたもの〕	filling with the conductive material (conductive paste, plated metal, or moulded metal (ball, etc.) embedded in the hole)
+H05K   3/40  Z	1	0	5E317	H05K   3/40	454	その他〔検査用端子部に関するもの〕	Others (connection in the blind hole, related to the inspection terminal)
+H05K   3/42  \	2	2	5E317	H05K   3/42	206	メッキされた貫通孔［２００６．０１］	Plated through-holes [3]
+H05K   3/42 610 \	3	3	5E317	H05K   3/42	7	導体パターン形成工程が明記されていないもの	Conductor pattern forming process not described
+H05K   3/42 610 A	3	0	5E317	H05K   3/42	706	前処理［孔開け、洗浄、スミア除去など］	Pre-treatment (boring, washing, smear removal, etc.)
+H05K   3/42 610 B	3	0	5E317	H05K   3/42	525	メッキ方法、装置	Plating method or device
+H05K   3/42 610 C	3	0	5E317	H05K   3/42	196	後処理［スルーホール内への処理、スリット形成など］	Post-treatment (treatment in the through-hole, slit forming, etc.)
+H05K   3/42 610 Z	3	0	5E317	H05K   3/42	144	その他	Others
+H05K   3/42 620 \	3	3	5E317	H05K   3/42	19	導体パターン形成前にスルーホールメッキをするもの	Through-hole plating performed before the conductor patter is formed
+H05K   3/42 620 A	3	0	5E317	H05K   3/42	674	導体パターンの形成がサブトラクティブ法によるもの	using the subtractive method for forming the conductor pattern
+H05K   3/42 620 B	3	0	5E317	H05K   3/42	246	導体パターンの形成がセミアディティブ法によるもの	using the semi-additive method for forming the conductor pattern
+H05K   3/42 620 Z	3	0	5E317	H05K   3/42	45	その他	Others
+H05K   3/42 630 \	3	3	5E317	H05K   3/42	23	導体パターンの形成と同時にスルーホールメッキをするもの	Conductor pattern formed and through-hole plating performed at the same time
+H05K   3/42 630 A	3	0	5E317	H05K   3/42	263	導体パターンの形成がフルアディティブ法によるもの	using the full additive method for forming the conductor pattern
+H05K   3/42 630 Z	3	0	5E317	H05K   3/42	78	その他	Others
+H05K   3/42 640 \	3	3	5E317	H05K   3/42	7	導体パターン形成後にスルーホールメッキをするもの	Through-hole plating performed after the conductor patter is formed
+H05K   3/42 640 A	3	0	5E317	H05K   3/42	88	導体パターン形成前にスルーホール内に触媒を付与しておくもの	Catalyst given in the through-hole before the conductor pattern is formed
+H05K   3/42 640 B	3	0	5E317	H05K   3/42	286	導体パターン形成後に孔開けをするもの	Boring performed after the conductor pattern is formed
+H05K   3/42 640 Z	3	0	5E317	H05K   3/42	70	その他	Others
+H05K   3/42 650 \	3	3	5E317	H05K   3/42	5	スルーホールに補強層を形成するもの	Reinforcing layer formed in the through-hole
+H05K   3/42 650 A	3	0	5E317	H05K   3/42	57	導体パターン形成工程が明記されていないもの	Conductor pattern forming process not described
+H05K   3/42 650 B	3	0	5E317	H05K   3/42	263	補強層形成後に導体パターンを形成するもの	Conductor pattern formed after the reinforcing layer is formed
+H05K   3/42 650 C	3	0	5E317	H05K   3/42	175	導体パターン形成後に補強層を形成するもの	Reinforcing layer formed after the conductor pattern is formed
+H05K   3/42 650 Z	3	0	5E317	H05K   3/42	8	その他	Others
+H05K   3/44  \	1	1	5E315	H05K   3/44	88	絶縁された金属心回路の製造［２００６．０１］	Manufacturing insulated metal core circuits [3]
+H05K   3/44  A	1	0	5E315	H05K   3/44	602	絶縁方法	Insulation method
+H05K   3/44  B	1	1	5E315	H05K   3/44	202	スルーホール内壁の絶縁方法〔基板全体とスルーホール両方の絶縁はここへ〕	Through-hole inner wall insulation method (This category is applied to insulation of both entire board and through-hole.)
+H05K   3/44  C	1	1	5E315	H05K   3/44	108	ほうろう基板の製造	Manufacture of the porcelain enamel board
+H05K   3/44  Z	1	0	5E315	H05K   3/44	689	その他	Others
+H05K   3/46  \	1	1	5E316	H05K   3/46	1532	多重層回路の製造［２００６．０１］	Manufacturing multi-layer circuits [3]
+H05K   3/46  B	1	0	5E316	H05K   3/46	6987	多層回路の製造一般	Multi-layer circuit manufacture in general
+H05K   3/46  C	1	0	5E316	H05K   3/46	1187	厚膜多層回路	Thick-film multi-layer circuit
+H05K   3/46  E	1	0	5E316	H05K   3/46	1919	薄膜多層回路	Thin-film multi-layer circuit
+H05K   3/46  G	1	0	5E316	H05K   3/46	6297	積層型多層回路	Laminated multi-layer circuit
+H05K   3/46  H	1	1	5E316	H05K   3/46	5004	無機質〔セラミックス〕多層回路	Inorganic (ceramic) multi-layer circuit
+H05K   3/46  J	1	0	5E316	H05K   3/46	250	ワイヤ布線回路	Wired circuit
+H05K   3/46  K	1	0	5E316	H05K   3/46	329	両面多層回路	Double-side multi-layer circuit
+H05K   3/46  L	1	0	5E316	H05K   3/46	2047	複合型多層回路	Composite multi-layer circuit
+H05K   3/46  M	1	0	5E316	H05K   3/46	350	クロスオーバー配線	Crossover wiring
+H05K   3/46  N	1	0	5E316	H05K   3/46	13060	導電層間の電気的接続	Electrical connection between conductive layers
+H05K   3/46  Q	1	0	5E316	H05K   3/46	9514	部品の実装〔内装〕された多層回路	Parts mounted (containing) multi-layer circuit
+H05K   3/46  S	1	0	5E316	H05K   3/46	2315	多層回路用の材料	Material for multi-layer circuits
+H05K   3/46  T	1	1	5E316	H05K   3/46	7486	絶縁材料	Insulation material
+H05K   3/46  U	1	0	5E316	H05K   3/46	1178	多層回路の放熱〔主，金属基板〕	Heat radiation from the multi-layer circuit (mainly for metal boards)
+H05K   3/46  V	1	0	5E316	H05K   3/46	369	多層回路の二次処理〔後処理〕	Secondary processing of the multi-layer circuit (post-treatment)
+H05K   3/46  W	1	0	5E316	H05K   3/46	771	多層回路の試験	Testing of the multi-layer circuit
+H05K   3/46  X	1	0	5E316	H05K   3/46	2644	多層回路の機械的加工	Mechanical machining of the multi-layer circuit
+H05K   3/46  Y	1	0	5E316	H05K   3/46	1180	多層回路の製造装置，治具	Manufacturing device or jig for the multi-layer circuit
+H05K   3/46  Z	1	0	5E316	H05K   3/46	4088	その他	Others
+H05K   5/00  \	0	0	4E360	H05K   5/00	95	電気装置のための箱体，キャビネットまたは引き出し［２０２５．０１］	Casings, cabinets or drawers for electric apparatus
+H05K   5/00  A	0	0	4E360	H05K   5/00	1729	プリント基板・混成集積回路板の容器	Container for the printed board or hybrid integrated circuit board
+H05K   5/00  B	0	1	4E360	H05K   5/00	968	モ−ルドされたもの	moulded
+H05K   5/00  C	0	0	4E360	H05K   5/00	768	電子部品の容器〔副分類〕	Container for electronic parts (sub-category)
+H05K   5/00  D	0	1	4E360	H05K   5/00	795	モ−ルドされたもの〔副分類〕	moulded (sub-category)
+H05K   5/00  Z	0	0	4E360	H05K   5/00	278	その他	Others
+H05K   5/02  \	1	1	4E360	H05K   5/02	201	細部［２００６．０１］	Details
+H05K   5/02  A	1	0	4E360	H05K   5/02	4181	前面板・パネルの取付〔回転パネル，スライドパネル，引き出しパネル，エスカツシヨン（飾枠）弾性取付〕	Front plate or panel installation (rotary panel, slide panel, pull-out panel, escutcheon (ornamental frame), elastic installation)
+H05K   5/02  B	1	0	4E360	H05K   5/02	2537	脚・載せ台〔スタンド一般，Ｆ１６Ｍ〕〔キヤスタ−，吸着脚，足，タ−ンテ−ブル，載置ラツク脚の固定，床上固定〕	Leg or mounting stand (stands in general F 16 M) (casters, adsorbing leg, foot, turntable, mounting rack, leg fastening, fastening on the floor)
+H05K   5/02  C	1	0	4E360	H05K   5/02	921	携帯用ケ−ス	Portable case
+H05K   5/02  D	1	0	4E360	H05K   5/02	1948	把手・携帯用ベルト〔把手一般Ｂ６５Ｄ〕	Handle or carry belt (handles in general B 65 D)
+H05K   5/02  E	1	0	4E360	H05K   5/02	2679	筐体の取付け〔クリツプ，壁等への取り付け〕	Cabinet installation (clip, installation on the wall, etc.)
+H05K   5/02  F	1	1	4E360	H05K   5/02	974	通信機の乗物への取付〔通信機→機器〕	Installation of the communication device on the vehicle R components)
+H05K   5/02  G	1	0	4E360	H05K   5/02	846	付属部品の収納〔コ−ドの巻取保持等〕	Storage of accessories (cord take-up, holding, etc.)
+H05K   5/02  H	1	0	4E360	H05K   5/02	2147	機能別ケ−ス〔引き出し等〕〔容器に特定な機能があるもの〕	Case for each function (drawer, etc.) (particular function provided for the container)
+H05K   5/02  V	1	0	4E360	H05K   5/02	2407	筐体間の結合に特徴を有するもの	Coupling between cabinets
+H05K   5/02  J	1	0	4E360	H05K   5/02	1437	ケ−スの材質に特徴を有するもの	characterized by the case material
+H05K   5/02  K	1	1	4E360	H05K   5/02	237	音響特性に特徴を有するもの	characterized by the acoustic characteristics
+H05K   5/02  L	1	0	4E360	H05K   5/02	3530	防音・防振・防火・防水・防塵に関するもの	related to sound-proofing, vibration-proofing, fire-proofing, water-proofing, and dust-proofing
+H05K   5/02  M	1	0	4E360	H05K   5/02	480	折り曲げによる筐体の形成	Cabinet formed by bending
+H05K   5/02  N	1	0	4E360	H05K   5/02	557	支柱を有する筐体	Cabinet having supports
+H05K   5/02  R	1	0	4E360	H05K   5/02	399	偏平な筐体〔携帯用電卓Ｇ０６Ｆ〕	Flat cabinet (pocket calculator G 06 F)
+H05K   5/02  S	1	0	4E360	H05K   5/02	233	操作卓を有するもの	having an operation console
+H05K   5/02  T	1	0	4E360	H05K   5/02	226	円柱状の筐体〔円柱状→柱状と考える〕	Cylindrical cabinet (cylindrical R considered as the column type)
+H05K   5/02  Z	1	0	4E360	H05K   5/02	2554	その他	Others
+H05K   5/03  \	2	2	4E360	H05K   5/03	81	カバー［２００６．０１］	Covers
+H05K   5/03  A	2	0	4E360	H05K   5/03	2712	カバ−	Cover
+H05K   5/03  B	2	0	4E360	H05K   5/03	2237	扉・蓋	Door or lid
+H05K   5/03  C	2	1	4E360	H05K   5/03	2216	回転軸部に特徴を有するもの	characterized by the rotary shaft
+H05K   5/03  D	2	1	4E360	H05K   5/03	2256	ロツク機構に特徴を有するもの	characterized by the lock mechanism
+H05K   5/03  G	2	1	4E360	H05K   5/03	944	弾性による蓋の取付け	Lid installed by elasticity
+H05K   5/03  H	2	1	4E360	H05K   5/03	612	ネジによる蓋の取付け	Lid installed by screws
+H05K   5/03  Z	2	0	4E360	H05K   5/03	113	その他	Others
+H05K   5/04  \	1	1	4E360	H05K   5/04	1094	金属製ケース［２００６．０１］	Metal casings
+H05K   5/06  \	1	1	4E360	H05K   5/06	46	密閉されたケース［２００６．０１］	Hermetically-sealed casings
+H05K   5/06  A	1	0	4E360	H05K   5/06	2507	密閉されたケ−ス	Fully closed case
+H05K   5/06  B	1	1	4E360	H05K   5/06	274	防爆容器	Explosion-proof container
+H05K   5/06  D	1	1	4E360	H05K   5/06	1735	パツキング・ガスケツトを有するもの	having a backing gasket
+H05K   5/06  E	1	1	4E360	H05K   5/06	1287	ケ−スの貫通部の密閉	Full enclosing of the penetrated part on the case
+H05K   5/06  Z	1	0	4E360	H05K   5/06	80	その他	Others
+H05K   5/10  \	1	1	4E360	H05K   5/10	9262	閉じた箱体を形成する複数の部分を含むもの［２０２５．０１］	comprising several parts forming a closed casing
+H05K   5/13  \	2	2	4E360	H05K   5/13	785	ねじにより組み立てられるもの［２０２５．０１］	assembled by screws
+H05K   5/15  \	2	2	4E360	H05K   5/15	916	弾性部材により組み立てられるもの［２０２５．０１］	assembled by resilient members
+H05K   5/30  \	1	1	4E360	H05K   5/30	4367	並列配置または積層配置［２０２５．０１］	Side-by-side or stacked arrangements
+H05K   7/00  \	0	0	4E352	H05K   7/00	403	異なる型の電気装置に共通の構造的細部（ケース，キャビネット，引き出しＨ０５Ｋ５／００）［２００６．０１］	Constructional details common to different types of electric apparatus (casings, cabinets, drawers H05K 5/00)
+H05K   7/00  A	0	0	4E352	H05K   7/00	668	電線，コ−ドの余長収納	Storage of the excessive length of the wire or cord
+H05K   7/00  B	0	0	4E352	H05K   7/00	681	移動する機器，可動部のための配線〔Ａに優先〕	Wiring for the moving component or part (takes precedence over A.)
+H05K   7/00  C	0	0	4E352	H05K   7/00	90	電線，コ−ドの長さ調整	Wire or cord length adjustment
+H05K   7/00  D	0	0	4E352	H05K   7/00	695	電線，コ−ドの束線	Wire or cords bundled
+H05K   7/00  E	0	0	4E352	H05K   7/00	273	光ケ−ブルによる電気機器の配線	Wiring of electrical components using the optical cable
+H05K   7/00  F	0	0	4E352	H05K   7/00	1854	電気機器への電線，コ−ドの据え付け固定	Installation and fastening of the wire or cord to the electrical components
+H05K   7/00  G	0	1	4E352	H05K   7/00	949	基板への電線，ケ−ブルの固定	Fastening of the wire or cable to the board
+H05K   7/00  H	0	1	4E352	H05K   7/00	1575	電線，コ−ドの束線固定	Fastening the bundled wires or cords
+H05K   7/00  J	0	1	4E352	H05K   7/00	190	電気機器への電線，コ−ドの吊着	Hanging the wire or cord on the electrical component
+H05K   7/00  K	0	0	4E352	H05K   7/00	529	電気機器における電線導入部	Wire guide on the electrical component
+H05K   7/00  L	0	1	4E352	H05K   7/00	623	電気機器における電線導入口	Wire guide port on the electrical component
+H05K   7/00  M	0	1	4E352	H05K   7/00	1553	電線導入部の封止	Sealing of the wire guide
+H05K   7/00  N	0	1	4E352	H05K   7/00	479	屈曲に対する導入部の電線の保護	Protecting the wire on the guide from bending
+H05K   7/00  P	0	1	4E352	H05K   7/00	937	導入部における電線の係止	Engaging the wire on the guide
+H05K   7/00  Q	0	2	4E352	H05K   7/00	556	屈曲，巻付によるもの	using bending or winding
+H05K   7/00  R	0	2	4E352	H05K   7/00	60	電線の結び目によるもの	using the knot of the wire
+H05K   7/00  S	0	2	4E352	H05K   7/00	105	ねじ込によるもの	using screwing
+H05K   7/00  T	0	2	4E352	H05K   7/00	242	ケ−スによる挟持〔Ｑに優先〕	holding by a case (takes precedence over Q.)
+H05K   7/00  U	0	2	4E352	H05K   7/00	110	爪によるもの	using pawls
+H05K   7/00  V	0	0	4E352	H05K   7/00	244	導入部における電線，コ−ドの耐張力止	Tension-resistance fastening of the wire or cord on the guide
+H05K   7/00  Z	0	0	4E352	H05K   7/00	494	その他	Others
+H05K   7/02  \	1	1	5E333	H05K   7/02	696	支持装置上の回路素子または配線の配置［２００６．０１］	Arrangements of circuit components or wiring on supporting structure
+H05K   7/02  L	1	0	5E333	H05K   7/02	77	架配線	Frame wiring
+H05K   7/02  M	1	1	5E333	H05K   7/02	202	架の構造に関するもの	related to the frame structure
+H05K   7/02  N	1	1	5E333	H05K   7/02	123	ケ−ブルダクト（内の配線）に関するもの（Ｑ，Ｒに優先）	related to the cable duct (or winding in the cable duct) (takes precedence over Q and R.)
+H05K   7/02  Q	1	1	5E333	H05K   7/02	250	ケ−ブルの保持、取付に関するもの	related to cable holding or installation
+H05K   7/02  R	1	1	5E333	H05K   7/02	217	ケ−ブルによる配線構造に関するもの	related to the wiring structure using cables
+H05K   7/02  Z	1	0	5E333	H05K   7/02	1217	その他（例、回路、方法等）	Others, e.g. circuit, method, etc.
+H05K   7/04  \	2	2	5E333	H05K   7/04	122	導電性シャシー上におけるもの［２００６．０１］	on conductive chassis
+H05K   7/04  A	2	0	5E333	H05K   7/04	239	シヤ−シの構造	Chassis structure
+H05K   7/04  B	2	0	5E333	H05K   7/04	46	シヤ−シの材質	Chassis material
+H05K   7/04  C	2	0	5E333	H05K   7/04	51	シヤ−シの製造	Manufacture of the chassis
+H05K   7/04  D	2	0	5E333	H05K   7/04	79	プリントパタ−ンのあるシヤ−シ	Chassis having a printed pattern
+H05K   7/04  E	2	0	5E333	H05K   7/04	89	シヤ−シ上での配線および中継端子	Wiring and relay terminal on the chassis
+H05K   7/04  F	2	0	5E333	H05K   7/04	81	冷却	Cooling
+H05K   7/04  G	2	0	5E333	H05K   7/04	171	メカニカルシヤ−シ	Mechanical chassis
+H05K   7/04  H	2	0	5E333	H05K   7/04	309	シヤ−シに対する部品の取り付け	Installation of parts on the chassis
+H05K   7/04  J	2	0	5E333	H05K   7/04	428	印刷配線板の取り付け	Installation of the printed wiring board
+H05K   7/04  K	2	1	5E333	H05K   7/04	191	シヤ−シの切起し部への印刷配線の取り付け	Installation of the printed wiring on the cut and bent up parts of the chassis
+H05K   7/04  L	2	1	5E333	H05K   7/04	84	半田付による印刷配線板の取り付け	Installation of the printed wiring board by soldering
+H05K   7/04  M	2	1	5E333	H05K   7/04	151	スペ−サを介した印刷配線板の取り付け	Installation of the printed wiring board via a spacer
+H05K   7/04  Z	2	0	5E333	H05K   7/04	125	その他	Others
+H05K   7/06  \	2	2	5E333	H05K   7/06	70	絶縁性板上におけるもの［２００６．０１］	on insulating boards
+H05K   7/06  A	2	0	5E333	H05K   7/06	112	モ−ルドによるもの	moulded
+H05K   7/06  B	2	0	5E333	H05K   7/06	86	印刷配線に特徴のあるもの	characterized by the printed wiring
+H05K   7/06  C	2	0	5E333	H05K   7/06	1469	バス・バ−配線	Bus/bar wiring
+H05K   7/06  D	2	0	5E333	H05K   7/06	37	デイスクリ−ト配線（分離した配線）	Discrete wiring (separate wiring)
+H05K   7/06  E	2	0	5E333	H05K   7/06	40	端子による部品の塔載	Mounting parts by using terminals
+H05K   7/06  F	2	0	5E333	H05K   7/06	29	絶縁した金属板によるもの（モ−ルドを除く）	using an insulated metal plate (excluding the mould)
+H05K   7/06  Z	2	0	5E333	H05K   7/06	186	その他	Others
+H05K   7/08  \	3	3	5E333	H05K   7/08	276	穴あき板上におけるもの［２００６．０１］	on perforated boards
+H05K   7/08  A	3	0	5E333	H05K   7/08	571	部品の取付	Installation of parts
+H05K   7/08  B	3	0	5E333	H05K   7/08	104	ケ−ス，シ−ルド板の取付	Installation of the case or shield plate
+H05K   7/08  C	3	0	5E333	H05K   7/08	241	基板の取付	Installation of the board
+H05K   7/08  D	3	1	5E333	H05K   7/08	119	スペ−サによるもの（スペ−サ自体も含む）	using a spacer (including the spacer per se)
+H05K   7/08  E	3	0	5E333	H05K   7/08	98	基板自体の構造に関するもの	related to the structure of the board per se
+H05K   7/08  Z	3	0	5E333	H05K   7/08	17	その他	Others
+H05K   7/10  \	2	2	5E333	H05K   7/10	67	回路素子のプラグ―インによる組み立て［２００６．０１］	Plug-in assemblages of components
+H05K   7/10  C	2	0	5E333	H05K   7/10	164	基板への部品のコネクタによる取付	Installation of a part on the board by using a connector
+H05K   7/10  D	2	0	5E333	H05K   7/10	220	ケ−ス間又はケ−スへのコネクタによる取付	Installation between cases or to the case by using a connector
+H05K   7/10  E	2	0	5E333	H05K   7/10	66	コネクタ自体の構造に関するもの	related to the structure of the connector per se
+H05K   7/10  Z	2	0	5E333	H05K   7/10	15	その他	Others
+H05K   7/12  \	2	2	4E353	H05K   7/12	89	構造物に対する部品の弾性またはクランプによる取付手段［２００６．０１］	Resilient or clamping means for holding component to structure (holding two-part couplings together H01R 13/00)
+H05K   7/12  A	2	0	4E353	H05K   7/12	546	弾性による部品の取付	Installation of parts by elasticity
+H05K   7/12  B	2	1	4E353	H05K   7/12	566	部品それ自身が弾性をもつもの	Part per se having elasticity
+H05K   7/12  C	2	1	4E353	H05K   7/12	668	部品を取り付ける相手側が弾性をもつもの	Mate having elasticity for the part
+H05K   7/12  D	2	0	4E353	H05K   7/12	1074	ねじによる部品の取付	Installation of parts by screws
+H05K   7/12  E	2	1	4E353	H05K   7/12	309	ねじによるトランジスタ等の素子の取付	Installation of devices such as the transistor by screws
+H05K   7/12  F	2	1	4E353	H05K   7/12	222	一端をねじで固定し，他端に他の種類の固定を併用した部品の取付	Installation of a part, an end of which is fastened by a screw and the others end uses another type fastening
+H05K   7/12  G	2	0	4E353	H05K   7/12	113	枢軸で回転可能なクランプ部材による部品の取付，例．挟持あごを持つ旋回腕	Installation of a part by a clamp member that can rotate around the main axis, e.g. swing arm having catching jaws
+H05K   7/12  H	2	0	4E353	H05K   7/12	143	バヨネツト結合による部品の取付	Installation of a part by bayonet coupling
+H05K   7/12  J	2	0	4E353	H05K   7/12	505	挿入もしくは平行移動による部品の取付	Installation of a part by insertion or parallel moving
+H05K   7/12  K	2	0	4E353	H05K   7/12	244	かしめ，捻り，折曲等の永久変形による部品の取付	Installation of a part by permanent deformation such as caulking, twisting, bending, etc.
+H05K   7/12  L	2	0	4E353	H05K   7/12	488	線状，もしくは帯状の固定具を用いる部品の取付〔電線の取付→Ｈ０５Ｋ７／００〕	Installation of a part using a line type or belt type fixing clamp (wire installation R H 05 K 7/00)
+H05K   7/12  M	2	0	4E353	H05K   7/12	408	溶接，半田付，熱収縮，接着，着脱テ−プによる部品の取付	Installation of a part using welding, soldering, heat shrinkage, bonding, or removable tape
+H05K   7/12  N	2	0	4E353	H05K   7/12	396	位置決めされた部品の取付〔Ｔ，Ｕ，Ｖが優先する〕	Installation of an aligned part (T, U, and V take precedence.)
+H05K   7/12  P	2	0	4E353	H05K   7/12	381	防振機能をもつ部品の取付	Installation of a part having the vibration-proof function
+H05K   7/12  Q	2	0	4E353	H05K   7/12	313	部品取付に伴なうリ−ド線もしくは端子の取付	Installation of the lead wire or terminal for installation of a part
+H05K   7/12  R	2	0	4E353	H05K   7/12	645	前面パネル等の貫通孔への部品の取付	Installation of a part into the through-hole on the front panel, etc.
+H05K   7/12  S	2	0	4E353	H05K   7/12	643	レ−ルへの部品の取付	Installation of a part on a rail
+H05K   7/12  T	2	0	4E353	H05K   7/12	467	操作部品の取付	Installation of operating parts
+H05K   7/12  U	2	1	4E353	H05K   7/12	592	回転軸を持つ操作部品の取付	Installation of an operating part having a rotary shaft
+H05K   7/12  V	2	0	4E353	H05K   7/12	933	表示素子，光素子の取付	Installation of the indication device or optical device
+H05K   7/12  Z	2	0	4E353	H05K   7/12	512	その他	Others
+H05K   7/14  \	1	1	5E348	H05K   7/14	125	ケース中またはフレームもしくは架上への支持装置の取り付け［２００６．０１］	Mounting supporting structure in casing or on frame or rack
+H05K   7/14  A	1	0	5E348	H05K   7/14	2049	印刷回路基板のケ−ス等への取り付け〔Ｂ以下に分類されないもの〕	Installation of a printed circuit board in a case, etc. (not categorized into B or below)
+H05K   7/14  B	1	1	5E348	H05K   7/14	2354	導電部に特徴のあるもの例．ケ−スへの半田付による固定	characterized by the conductor unit, e.g. fastening on the case by soldering
+H05K   7/14  C	1	1	5E348	H05K   7/14	1953	同時に取り付けられる他部品と関連するもの	related to another part that is installed at the same time
+H05K   7/14  D	1	1	5E348	H05K   7/14	598	防振機能をもつもの〔防振一般→Ｆ１６Ｆ〕	having a vibration-proof function (vibration-proofing in general R F 16 F)
+H05K   7/14  E	1	1	5E348	H05K   7/14	1720	弾性爪，溝，レ−ルによるもの〔Ｆに優先〕〔ラツクの側面にレ−ルがあり，奥にコネクタがある場合は，Ｓ〕	using an elastic pawl, groove, or rail (takes precedence over F.) (rail provided on a side of the rack and connector provided on the far end S)
+H05K   7/14  F	1	1	5E348	H05K   7/14	703	ボス，エンボスによるもの〔ケ−ス等にモ−ルドや押し出しによつて取付用のボス，エンボスをつけたもの〕	using boss or emboss (boss or emboss for installation provided on the case, etc. by moulding or extrusion moulding
+H05K   7/14  G	1	1	5E348	H05K   7/14	1157	結合具（スペ−サ）による印刷回路基板のケ−ス等への水平取り付け	Horizontal installation of a printed circuit board in the case by using a coupling clamp (spacer)
+H05K   7/14  H	1	1	5E348	H05K   7/14	558	印刷回路基板のケ−ス等への垂直取り付け〔印刷回路基板だけで自立するものは、１／１４Ｄとする〕	Vertical installation of a printed circuit board in the case (stand-alone printed circuit board 1/14 D)
+H05K   7/14  J	1	1	5E348	H05K   7/14	486	集積回路基板のケ−ス，フレ−ム，架への取り付け〔混成集積回路，マイクロ波用基板等で精密小型の基板の取りつけ〕	Installation of an integrated circuit board on the case or frame (installation of a small precision board such as the hybrid integrated circuit, microwave board, etc.)
+H05K   7/14  K	1	1	5E348	H05K   7/14	1138	可撓性印刷回路基板のケ−ス等への取り付け〔補強だけで取付に至つていないときは、１／０２Ｄ〕	Installation of a flexible printed circuit board on the case (reinforcement made but installation not performed 1/02 D)
+H05K   7/14  L	1	0	5E348	H05K   7/14	254	印刷回路の保管もしくは輸送用の容器〔製造中の保管のための容器は，１３／０２〕	Container for storage or transportation of a printed circuit (container for storage during manufacture 13/02)
+H05K   7/14  M	1	0	5E348	H05K   7/14	585	シヤ−シのケ−ス，フレ−ム，架への取付	Installation of a chassis on the case or frame
+H05K   7/14  N	1	0	5E348	H05K   7/14	467	プラグインユニツト〔Ａ〜Ｋに優先〕〔部品のプラグインは，７／１０，Ｐ〜Ｖに展開できないものを分類する〕	Plug-in unit (takes precedence over A to K.) (This category is applied to part plug-in that cannot be categorised into 7/10 P to V.)
+H05K   7/14  P	1	1	5E348	H05K   7/14	1793	プラグインユニツトにおける挿入具，引抜具およびロツク機構〔Ｒに優先〕〔ケ−スをラツクに取りつけるためのものを含める。工具一般→Ｂ２５Ｂ２７／１４〕	Inserting clamp, removing clamp, and lock mechanism in the plug-in unit (takes precedence over R.) (tools for installing a case on the rack included; tools in general R B 25 B 27/14)
+H05K   7/14  Q	1	1	5E348	H05K   7/14	640	プラグインユニツトにおける誤挿脱防止および不完全挿入防止〔Ｒ，Ｓに優先〕	Prevention of faulty insertion/removal and prevention of incomplete insertion on the plug-in unit (takes precedence over R and S.)
+H05K   7/14  R	1	1	5E348	H05K   7/14	332	プラグインユニツトの架への取り付け〔Ｓ〜Ｖに展開できないものを分類する〕	Installation of a plug-in unit on the frame (those not categorised into S to V)
+H05K   7/14  S	1	1	5E348	H05K   7/14	1916	プラグイン印刷回路シ−トユニツトのサブラツクへの取り付け〔棒状の部材を組合せたラツクに箱状のサブラツクを固定し、そのサブラツクの中に印刷回路基板を挿入し、プラグイン接続するもの〕	Installation of a plug-in printed circuit sheet unit on the subrack (A box type subrack is fastened onto the rack made by combining rod type members. The printed circuit board is inserted into the subrack and plug-in connection is made.)
+H05K   7/14  T	1	2	5E348	H05K   7/14	1986	プラグイン印刷回路シ−トユニツトにおける配線，電気接続	Wiring or electrical connection on the plug-in printed circuit sheet unit
+H05K   7/14  U	1	3	5E348	H05K   7/14	294	プラグイン印刷回路シ−トユニツトの試験用もしくは調整用の基板延長〔エクステンシヨンカ−ド〕	Board extension for testing or adjusting the plug-in printed circuit sheet unit (extension card)
+H05K   7/14  V	1	2	5E348	H05K   7/14	329	プラグイン印刷回路シ−トユニツトの正面板	Front plate of the plug-in printed circuit sheet unit
+H05K   7/14  W	1	0	5E348	H05K   7/14	156	筒状，格子状等の印刷回路の立体配置〔３次元の組合せであり，重ね合せＧ，垂直にするだけは，Ｈ〕	Cubic layout of printed circuits in the cylindrical or grid mode (three-dimensional combination; overlapping G, vertical layout only H)
+H05K   7/14  Z	1	0	5E348	H05K   7/14	604	その他〔殆んど使用しない〕	Other (almost unused)
+H05K   7/16  \	2	2	5E334	H05K   7/16	72	ヒンジまたはピボット上への取り付け［２００６．０１］	on hinges or pivots
+H05K   7/16  A	2	0	5E334	H05K   7/16	220	ピボツトによるもの	using a pivot
+H05K   7/16  B	2	0	5E334	H05K   7/16	105	長穴または切溝による取り付け	Installation using an oblong hole or cut groove
+H05K   7/16  C	2	0	5E334	H05K   7/16	220	ヒンジによる取り付け	Installation using a hinge
+H05K   7/16  D	2	1	5E334	H05K   7/16	104	プラスチツクヒンジによる取り付け	Installation using a plastic hinge
+H05K   7/16  E	2	0	5E334	H05K   7/16	117	回転角が規制されている取り付け	Installation for which the rotation angle is regulated
+H05K   7/16  F	2	0	5E334	H05K   7/16	84	着脱できる取り付け	Installation that allows removal
+H05K   7/16  Z	2	0	5E334	H05K   7/16	151	その他	Others
+H05K   7/18  \	1	1	5E335	H05K   7/18	124	架またはフレームの構造［２００６．０１］	Construction of rack or frame
+H05K   7/18  A	1	0	5E335	H05K   7/18	330	カバ−・側板	Cover or side plate
+H05K   7/18  B	1	0	5E335	H05K   7/18	357	棚・取付枠	Shelf or installation frame
+H05K   7/18  C	1	0	5E335	H05K   7/18	141	継手の構造	Joint structure
+H05K   7/18  D	1	0	5E335	H05K   7/18	525	支柱・フレ−ム等の構造	Structure of the support, frame, etc.
+H05K   7/18  E	1	0	5E335	H05K   7/18	748	配線・電気接続・布線	Wiring, electrical connection, routing
+H05K   7/18  F	1	0	5E335	H05K   7/18	322	ひきだし	Drawer
+H05K   7/18  G	1	0	5E335	H05K   7/18	212	回転部または車輪をもつもの	having a rotary part or wheels
+H05K   7/18  H	1	0	5E335	H05K   7/18	152	架の据付および床	Frame installation and floor
+H05K   7/18  J	1	0	5E335	H05K   7/18	182	ユニツト結合ラツク・ラツク相互の結合	Unit coupled rack or coupling of racks together
+H05K   7/18  K	1	0	5E335	H05K   7/18	677	冷却	Cooling
+H05K   7/18  L	1	0	5E335	H05K   7/18	581	ラツクに対する装置の取付	Installation of a device on the rack
+H05K   7/18  M	1	0	5E335	H05K   7/18	236	音響・映像・パソコン用のラツク	Rack for audio, video, or PC
+H05K   7/18  N	1	0	5E335	H05K   7/18	41	スリムラツク	Slim rack
+H05K   7/18  P	1	0	5E335	H05K   7/18	118	プリント板等の保管・製造用ラツク	Rack for storage or manufacture of printed circuit boards, etc.
+H05K   7/18  Q	1	0	5E335	H05K   7/18	486	載置台，架台	Mounting stand, frame stand
+H05K   7/18  Z	1	0	5E335	H05K   7/18	125	その他	Others
+H05K   7/20  \	1	1	5E322	H05K   7/20	236	冷却，換気または加熱を容易にするための変形［２００６．０１］	Modifications to facilitate cooling, ventilating, or heating
+H05K   7/20  A	1	0	5E322	H05K   7/20	985	空冷および伝導による冷却	Air-cooling or cooling by conduction
+H05K   7/20  B	1	1	5E322	H05K   7/20	5655	自冷および固体伝導用の冷却器もしくは実質的な冷却器をもつもの〔シヤ−ジヤケ−ス等が冷却器になつているもの〕	having a self-cooling or solid conductive cooler or a substantial cooler (e.g. chassis or case as a cooler)
+H05K   7/20  C	1	2	5E322	H05K   7/20	1300	冷却器が配線基板であるもの〔放熱パタ−ン，放熱層をもち，配線基板が冷却機能をもつもの〕	Wiring board as a cooler (heat radiation pattern or heat radiation layer provided and the wiring board provided with the cooling function)
+H05K   7/20  D	1	2	5E322	H05K   7/20	2725	半導体および集積回路用の冷却器〔クレ−ムに半導体等の限定があれば，Ｈ０１Ｌ２３／３６〕	Cooler for the semiconductor or integrated circuit (limitation of the semiconductor, etc. described in the claim H 01 L 23/36)
+H05K   7/20  E	1	3	5E322	H05K   7/20	3239	取付に関するもの	related to installation
+H05K   7/20  F	1	1	5E322	H05K   7/20	4321	被冷却部品と冷却器との間に介在する伝熱体〔充填物→７／２０Ａ〕	Heat conductor provided between the cooled part and cooler (filler R 7/20 A)
+H05K   7/20  G	1	1	5E322	H05K   7/20	3595	通風口，ダクト等の空気流路	Airflow channel such as vent, duct, etc.
+H05K   7/20  H	1	1	5E322	H05K   7/20	6458	強制空冷〔Ｂ〜Ｇに優先する〕	Forced air-cooling (takes precedence over B to G.)
+H05K   7/20  J	1	2	5E322	H05K   7/20	1359	送風機の制御〔電動機の制御→Ｈ０２Ｐ，温度制御→Ｇ０５Ｄ２３／００〕	Blower control (motor control R H 02 P, temperature control R G 05 D 23/00)
+H05K   7/20  K	1	1	5E322	H05K   7/20	820	空冷のための空気清浄，防塵，除塵〔Ｈに優先する〕〔一般分類，Ｂ０１Ｄ〕	Air cleaning, dust-proofing, or dust removal for air-cooling (takes precedence over H.) (in general B 01 D)
+H05K   7/20  L	1	0	5E322	H05K   7/20	77	空気以外の気体による冷却	Cooling by gas other than air
+H05K   7/20  M	1	0	5E322	H05K   7/20	1507	液体による冷却	Cooling by liquid
+H05K   7/20  N	1	1	5E322	H05K   7/20	2722	液冷用の冷却器および冷却容器〔半導体の冷却→Ｈ０１Ｌ２３／００〕	Liquid-cooling cooler and cooling container (semiconductor cooling R H 01 L 23/00)
+H05K   7/20  P	1	1	5E322	H05K   7/20	943	水冷	Water-cooling
+H05K   7/20  Q	1	0	5E322	H05K   7/20	1840	相変化する冷媒による冷却，例．沸騰冷却〔液相←→気相〕〔半導体は，Ｈ０１Ｌ２３／４２，変圧器は，Ｈ０１Ｆ２７／１８に分類する〕	Cooling by a refrigerant that changes its phase, e.g. cooling by boiling (liquid phase &larr; R gas phase) (semiconductor H 01 L 23/42, transformer H 01 F 27/18)
+H05K   7/20  R	1	1	5E322	H05K   7/20	2497	ヒ−トパイプによる冷却〔ヒ−トパイプ一般→Ｆ２８Ｄ１５／０２〕	Cooling by a heat pipe (heat pipes in general R F 28 D 15/02)
+H05K   7/20  S	1	0	5E322	H05K   7/20	468	電気的冷却〔一般分類，Ｈ０１Ｌ３５／００〕	Electrical cooling (in general H 01 L 35/00)
+H05K   7/20  T	1	0	5E322	H05K   7/20	983	複数の半導体の冷却〔Ａ〜Ｓに優先する〕〔ブリツヂ接続されたダイオ−ド，サイリスタツク等〕	Cooling of multiple semiconductors (takes precedence over A to S.) (bridge-connected diode, thyristor, etc.)
+H05K   7/20  U	1	0	5E322	H05K   7/20	2259	ラツクおよびラツク実装部品の冷却〔Ａ〜Ｔに優先する〕〔７／１４Ｓ，７／１８等に分類される型式のものの冷却〕	Cooling of the rack and rack-mounted parts (takes precedence over A to T.) (cooling of types categorised into 7/14 S, 7/18, etc.)
+H05K   7/20  V	1	1	5E322	H05K   7/20	667	送風フアンおよびその制御	Blower fan and its control
+H05K   7/20  W	1	1	5E322	H05K   7/20	655	ヒ−トパイプ，液体冷却器等を有するもの〔Ｎ，Ｒに優先〕	having the heat pipe, liquid cooler, etc. (takes precedence over N and R.)
+H05K   7/20  X	1	0	5E322	H05K   7/20	488	結露防止，除湿，防湿〔電気機器の冷却や換気に伴うものに限る〕	Dew condensation prevention, humidity removal, or humidity-proofing (limited to cooling or ventilation of electrical components)
+H05K   7/20  Y	1	0	5E322	H05K   7/20	955	遮熱，恒温容器，加熱〔屋外に設置する無線中継器の太陽光からの遮熱等を分類し，恒温の加熱にあるが昇温の加熱は取扱わない〕	Insulation, isothermal container, heating (Insulation of the sunlight from outdoor radio repeaters is included, but temperatuer risings as isothermal heating is not.)
+H05K   7/20  Z	1	0	5E322	H05K   7/20	279	その他	Others
+H05K   9/00  \	0	0	5E321	H05K   9/00	327	電場または磁場に対する装置または部品の遮へい（アンテナからの輻射を吸収するための装置Ｈ０１Ｑ１７／００）	Screening of apparatus or components against electric or magnetic fields (devices for absorbing radiation from an antenna H01Q17/00)
+H05K   9/00  A	0	0	5E321	H05K   9/00	807	静電シ−ルド	Electrostatic shield
+H05K   9/00  B	0	1	5E321	H05K   9/00	97	コロナシ−ルド	Corona shield
+H05K   9/00  C	0	1	5E321	H05K   9/00	3302	静電シ−ルド容器	Electrostatic shield container
+H05K   9/00  D	0	2	5E321	H05K   9/00	764	非金属製静電シ−ルド容器	Non-metal electrostatic shield container
+H05K   9/00  E	0	2	5E321	H05K   9/00	1574	静電シ−ルド容器の蓋，扉，ガスケツト	Lid, door, or gasket of the electrostatic shield container
+H05K   9/00  F	0	1	5E321	H05K   9/00	1163	静電シ−ルド板	Electrostatic shield plate
+H05K   9/00  G	0	1	5E321	H05K   9/00	2323	静電シ−ルド用取付〔Ｃ〜Ｆに優先〕	Installation for electrostatic shield (takes precedence over C to F.)
+H05K   9/00  H	0	0	5E321	H05K   9/00	1714	磁気シ−ルド	Magnetic shield
+H05K   9/00  J	0	1	5E321	H05K   9/00	603	磁気シ−ルド容器	Magnetic shield container
+H05K   9/00  K	0	0	5E321	H05K   9/00	1670	線路からの雑音の阻止	Prevention of noise from the channel
+H05K   9/00  L	0	1	5E321	H05K   9/00	2440	電線および電気接続部のシ−ルド〔Ｑ，Ｒに優先〕	Shield of the wire or electrically connected part (takes precedence over Q and R.)
+H05K   9/00  M	0	0	5E321	H05K   9/00	4748	電波吸収〔Ｈ，Ｊ，Ｗ，Ｘに優先〕	Electrowave absorption (takes precedence over H, J, W, and X.)
+H05K   9/00  N	0	1	5E321	H05K   9/00	961	電波暗室	Electrowave dark room
+H05K   9/00  P	0	1	5E321	H05K   9/00	753	電波もれ防止	Prevention of electrowave leak
+H05K   9/00  Q	0	0	5E321	H05K   9/00	1498	シ−ルド導体を有する部品	Part having a shield conductor
+H05K   9/00  R	0	1	5E321	H05K   9/00	2731	シ−ルド導体を有する印刷回路	Printed circuit having a shield conductor
+H05K   9/00  S	0	0	5E321	H05K   9/00	108	真空管のシ−ルド〔Ａ〜Ｊに優先〕	Shield of a vacuum tube (takes precedence over A to J.)
+H05K   9/00  T	0	0	5E321	H05K   9/00	600	他の目的を兼ねたシ−ルド	Shield also used for another purpose
+H05K   9/00  U	0	1	5E321	H05K   9/00	1097	冷却兼用のシ−ルド	Shield also used for cooling
+H05K   9/00  V	0	0	5E321	H05K   9/00	2997	透光性のシ−ルド〔他のすべてに優先〕	Light-transmitting shield (takes precedence over all of the others.)
+H05K   9/00  W	0	0	5E321	H05K   9/00	3683	シ−ルド材料	Shield material
+H05K   9/00  X	0	1	5E321	H05K   9/00	907	シ−ルド用樹脂組成物	Resin composition for shield
+H05K   9/00  Z	0	0	5E321	H05K   9/00	437	その他	Others
+H05K  10/00  \	0	0	5E311	H05K  10/00	274	電子装置の動作信頼性を改善するための装置，例．同様な予備装置を設けるもの［２００６．０１］	Arrangements for improving the operating reliability of electronic equipment, e.g. by providing a similar stand-by unit
+H05K  11/00  \	0	0	5E312	H05K  11/00	31	ラジオ受信機またはテレビジョン受像機とは異なった主要な機能をもつ装置とラジオ受信機またはテレビジョン受像機との組み合わせ	Combinations of a radio or television receiver with apparatus having a different main function
+H05K  11/00  A	0	0	5E312	H05K  11/00	70	テ−プレコ−ダまたはレコ−ドプレ−ヤとの組み合わせ	Combination with a tape recorder or record player
+H05K  11/00  B	0	0	5E312	H05K  11/00	12	眼鏡との組み合わせ	Combination with eyeglasses
+H05K  11/00  C	0	0	5E312	H05K  11/00	8	喫煙具との組み合わせ	Combination with the smoker's requisites
+H05K  11/00  D	0	0	5E312	H05K  11/00	10	望遠鏡，双眼鏡との組み合わせ	Combination with a telescope or binocular
+H05K  11/00  E	0	0	5E312	H05K  11/00	7	オルゴ−ルとの組み合わせ	Combination with a music box
+H05K  11/00  F	0	0	5E312	H05K  11/00	53	装飾もしくは玩具を兼ねたもの	also used for decoration or as a toy
+H05K  11/00  G	0	0	5E312	H05K  11/00	31	照明器具との組み合わせ	Combination with a lighting apparatus
+H05K  11/00  H	0	0	5E312	H05K  11/00	37	時計との組み合わせ	Combination with a clock
+H05K  11/00  J	0	0	5E312	H05K  11/00	103	その他に出願公告されたもの	Others filed and disclosed
+H05K  11/00  Z	0	0	5E312	H05K  11/00	863	その他のもの	Others
+H05K  11/02  \	1	1	5E312	H05K  11/02	27	車をもつもの	with vehicles
+H05K  13/00  \	0	0	5E353	H05K  13/00	113	電気部品の組立体の製造または調整に特に適した装置または方法［２００６．０１］	Apparatus or processes specially adapted for manufacturing or adjusting assemblages of electric components
+H05K  13/00  A	0	0	5E353	H05K  13/00	237	手作業による部品の取付けを補助する手段〔例．作業台，その配置〕	Means as an aid for manual installation of a part, e.g. workbench, its layout)
+H05K  13/00  B	0	1	5E353	H05K  13/00	112	印刷配線基板上の表示	Indication on the printed wiring board
+H05K  13/00  C	0	2	5E353	H05K  13/00	106	光〔例．スポツト〕による表示	Indication by light, e.g. spot
+H05K  13/00  D	0	3	5E353	H05K  13/00	40	プロジエクタ−	Projector
+H05K  13/00  E	0	4	5E353	H05K  13/00	54	部品容器と連動するもの	linked with the part container
+H05K  13/00  F	0	0	5E353	H05K  13/00	198	手工具〔部品の着脱のためのもの→１３／０４Ｒ，部品のリ−ド線の処理を行うもの→１３／０４Ｓ〕	Manual tools (part setting/removal R 13/04 R, part lead wire processing R 13/04 S)
+H05K  13/00  G	0	0	5E353	H05K  13/00	276	組立体の調整・修理・エ−ジング	Adjustment, repair, or aging of an assembly
+H05K  13/00  Y	0	0	5E353	H05K  13/00	931	部品供給部と部品取付け部とをもつもの	having the part supply unit and part installation unit
+H05K  13/00  Z	0	0	5E353	H05K  13/00	1787	その他のもの	Others
+H05K  13/02  \	1	1	5E353	H05K  13/02	165	部品の供給［２００６．０１］	Feeding of components (in general B65G)
+H05K  13/02  A	1	0	5E353	H05K  13/02	904	マガジンの積込み，移送，切換え，積降ろし	Magazine loading, transfer, change-over, and unloading
+H05K  13/02  B	1	0	5E353	H05K  13/02	3922	部品連・テ−プによる供給	Supply by series of parts or tapes
+H05K  13/02  C	1	1	5E353	H05K  13/02	910	部品連・テ−プからの分離，取出し〔分離，取出しを装着ヘツドで行なうもの→１３／０４Ａ〜Ｄ，分離，取出しとともにリ−ド線の成形を行なうもの→１３／０４Ａ〜Ｄ〕	Separation or removal from series of parts or tape (separation and removal by the mounting head R 14/04 A to D, lead wire formed along with separation and removal R 13/04 A to D)
+H05K  13/02  D	1	0	5E353	H05K  13/02	1703	部品連・テ−プ以外の手段による順次供給	Sequential supply by a means other than series of parts or tape
+H05K  13/02  E	1	1	5E353	H05K  13/02	724	マガジンからの取出し	Removal from the magazine
+H05K  13/02  F	1	1	5E353	H05K  13/02	225	回転体をもちいた供給	Supply using a rotor
+H05K  13/02  G	1	1	5E353	H05K  13/02	199	ＤＩＰ素子の供給〔１３／０２Ｅ，Ｆ優先〕	Supply of the DIP device (13/02 E and F take precedence.)
+H05K  13/02  J	1	0	5E353	H05K  13/02	241	複数の部品の同時供給	Simultaneous supply of multiple parts
+H05K  13/02  K	1	1	5E353	H05K  13/02	160	複数のマガジンをもちいるもの	using multiple magazines
+H05K  13/02  L	1	1	5E353	H05K  13/02	267	整列板をもちいるもの	using an arrangement plate
+H05K  13/02  M	1	2	5E353	H05K  13/02	50	シヤツタを有する整列板をもちいるもの	using an arrangement plate having a shutter
+H05K  13/02  P	1	0	5E353	H05K  13/02	393	部品の方向を整列しながら供給するもの	Supply by arranging the part direction
+H05K  13/02  Q	1	1	5E353	H05K  13/02	201	磁気を利用するもの	utilising magnetism
+H05K  13/02  R	1	1	5E353	H05K  13/02	257	部品の形状を利用するもの	utilising the part shape
+H05K  13/02  T	1	0	5E353	H05K  13/02	520	印刷配線板，回路板の積込み，積降ろし	Loading or unloading of the printed wiring board or circuit board
+H05K  13/02  U	1	0	5E353	H05K  13/02	1265	印刷配線板の移送	Transfer of the printed wiring board
+H05K  13/02  V	1	1	5E353	H05K  13/02	391	移送中の印刷配線板の支持	Supporting of the printed wiring board during transfer
+H05K  13/02  W	1	0	5E353	H05K  13/02	377	部品，印刷配線板の選別・分類	Sorting or categorisation of parts or printed wiring boards
+H05K  13/02  Z	1	0	5E353	H05K  13/02	1354	その他のもの	Others
+H05K  13/04  \	1	1	5E353	H05K  13/04	123	部品の取り付け［２００６．０１］	Mounting of components
+H05K  13/04  A	1	0	5E353	H05K  13/04	4042	装着ヘツドによる部品の取付け	Installation of parts by the mounting head
+H05K  13/04  B	1	1	5E353	H05K  13/04	4830	表面実装によるもの	using surface mounting
+H05K  13/04  C	1	1	5E353	H05K  13/04	1386	挿入実装によるもの	using insertion mounting
+H05K  13/04  D	1	2	5E353	H05K  13/04	109	ＤＩＰ素子のためのもの	for DIP devices
+H05K  13/04  F	1	0	5E353	H05K  13/04	549	印刷配線基板への板付前のリ−ド線の折曲・切断〔１３／０４Ａ優先〕	Bending or cutting the lead wire before installation on the printed wiring board (13/04 A takes precedence.)
+H05K  13/04  G	1	1	5E353	H05K  13/04	302	リ−ド線の矯正	Lead wire correction
+H05K  13/04  J	1	0	5E353	H05K  13/04	321	印刷配線基板への取付後のリ−ド線の折曲・切断〔１３／０４Ａ優先〕	Bending or cutting the lead wire before installation on the printed wiring board (13/04 A takes precedence.)
+H05K  13/04  K	1	1	5E353	H05K  13/04	300	取付と同時に行うもの〔１３／０４Ａ優先〕	performed simultaneously with installation (13/04 A takes precedence.)
+H05K  13/04  L	1	1	5E353	H05K  13/04	226	回転カツタ−による切断	Cutting by a rotary cutter
+H05K  13/04  M	1	0	5E353	H05K  13/04	3538	部品の取付位置の位置決め	Alignment of the part installed position
+H05K  13/04  N	1	0	5E353	H05K  13/04	160	取付孔へのリ−ド線の案内具	Tool for guiding the lead wire to the installation hole
+H05K  13/04  P	1	0	5E353	H05K  13/04	1840	印刷配線基板の支持・位置決め	Supporting or alignment of the printed wiring board
+H05K  13/04  Q	1	1	5E353	H05K  13/04	431	基板の変形防止	Prevention of board deformation
+H05K  13/04  R	1	0	5E353	H05K  13/04	246	部品の取付けのための手工具〔部品の引抜き→１３／００Ｆ〕	Manual tool for installation of parts (part removal R 13/00 F)
+H05K  13/04  S	1	0	5E353	H05K  13/04	156	リ−ド線の折曲・切断のための手工具	Manual too for bending or cutting the lead wire
+H05K  13/04  Z	1	0	5E353	H05K  13/04	3113	その他のもの	Others
+H05K  13/06  \	1	1	5E353	H05K  13/06	3	機械による配線［２００６．０１］	Wiring by machine
+H05K  13/06  A	1	0	5E353	H05K  13/06	117	手作業による配線のための表示・指示	Indication or instruction for manual wiring
+H05K  13/06  B	1	0	5E353	H05K  13/06	283	配線装置	Wiring device
+H05K  13/06  C	1	1	5E353	H05K  13/06	166	ワイヤ−ハ−ネスのためのもの	for the wire harness
+H05K  13/06  Z	1	0	5E353	H05K  13/06	88	その他のもの	Others
+H05K  13/08  \	1	1	5E353	H05K  13/08	34	組立体の製造の監視［２００６．０１］	Monitoring manufacture of assemblages
+H05K  13/08  A	1	0	5E353	H05K  13/08	1368	部品の供給の監視	Monitoring supply of parts
+H05K  13/08  K	1	1	5E353	H05K  13/08	149	部品リ−ドの曲がりの検出	Detection of part's lead bending
+H05K  13/08  L	1	1	5E353	H05K  13/08	66	部品の極性を検出	Detection of part's polarity
+H05K  13/08  B	1	0	5E353	H05K  13/08	1165	部品の取付の監視（把持・吸着の監視等）	Monitoring part's installation (monitoring of holding and adsorption)
+H05K  13/08  M	1	1	5E353	H05K  13/08	34	挿入に関するもの（光センサー、カメラを使用しない）	related to insertion (not using the optical sensor and camera)
+H05K  13/08  N	1	1	5E353	H05K  13/08	92	面実装に関するもの（光センサー、カメラを使用しない）	related to surface mounting (not using the optical sensor and camera)
+H05K  13/08  P	1	1	5E353	H05K  13/08	426	光センサ−を使用するもの	using an optical sensor
+H05K  13/08  Q	1	1	5E353	H05K  13/08	2788	カメラ（映像処理）によるもの	using a camera (video processing)
+H05K  13/08  C	1	0	5E353	H05K  13/08	104	配線の監視	Monitoring of wiring
+H05K  13/08  D	1	0	5E353	H05K  13/08	1101	組立体の検査	Inspection of an assembly
+H05K  13/08  T	1	1	5E353	H05K  13/08	81	透過光によるもの	using transmitting light
+H05K  13/08  U	1	1	5E353	H05K  13/08	654	反射光によるもの	using reflected light
+H05K  13/08  Z	1	0	5E353	H05K  13/08	279	その他のもの	Others

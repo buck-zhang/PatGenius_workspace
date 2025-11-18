@@ -1,0 +1,57 @@
+H03D   1/00		振幅変調された振動の復調（Ｈ０３Ｄ５／００，Ｈ０３Ｄ９／００，Ｈ０３Ｄ１１／００が優先；デジタル変調された搬送システムに適した振幅復調器，例．オンオフのキーイングを用いる，シングル側波帯または残留側波帯変調Ｈ０４Ｌ２７／０６）	Demodulation of amplitude-modulated oscillations(H03D5/00, H03D9/00, H03D11/00 take precedence; amplitude demodulators adapted for digitally modulated carrier systems, e.g. using on-off keying, single sideband or vestigial sideband modulation H04L27/06)	2173
+H03D   1/02	・	細部	Details	107
+H03D   1/04	・・	不要信号による混信を低減するための復調器の変形	Modifications of demodulators to reduce interference by undesired signals	1215
+H03D   1/06	・・	ひずみを低減するための復調器の変形，例．負帰還によるもの	Modifications of demodulators to reduce distortion, e.g. by negative feedback	601
+H03D   1/08	・	非線形２端子素子によるもの（Ｈ０３Ｄ１／２２，Ｈ０３Ｄ１／２６，Ｈ０３Ｄ１／２８が優先）	by means of non-linear two-pole elements(H03D1/22, H03D1/26, H03D1/28 take precedence)	115
+H03D   1/10	・・	ダイオードによるもの	of diodes	794
+H03D   1/12	・・・	ＡＣ負荷とＤＣ負荷とを等化できるもの	with provision for equalising AC and DC loads	35
+H03D   1/14	・	３以上の端子を有する非線形素子によるもの（Ｈ０３Ｄ１／２２，Ｈ０３Ｄ１／２６，Ｈ０３Ｄ１／２８が優先）	by means of non-linear elements having more than two poles(H03D1/22, H03D1/26, H03D1/28 take precedence)	34
+H03D   1/16	・・	電子管によるもの	of discharge tubes	252
+H03D   1/18	・・	半導体装置によるもの	of semiconductor devices	675
+H03D   1/20	・・	不要形式の復調を予防するための備えのあるもの，例．グリッド検波回路におけるアノード検波を予防するための備えのあるもの	with provision for preventing undesired type of demodulation, e.g. preventing anode detection in a grid detection circuit	12
+H03D   1/22	・	ホモダイン回路またはシンクロダイン回路	Homodyne or synchrodyne circuits	1501
+H03D   1/24	・・	一つの側帯波または搬送波が全部または一部抑圧された信号の復調のためのもの	for demodulation of signals wherein one sideband or the carrier has been wholly or partially suppressed	596
+H03D   1/26	・	電子走行時間型電子管によるもの	by means of transit-time tubes	99
+H03D   1/28	・	電子管内の電子ビームの偏向によるもの（Ｈ０３Ｄ１／２６が優先）	by deflecting an electron beam in a discharge tube(H03D1/26 takes precedence)	14
+H03D   3/00		角度変調された振動の復調（Ｈ０３Ｄ５／００，Ｈ０３Ｄ９／００，Ｈ０３Ｄ１１／００が優先；デジタル変調された搬送システムに適した復調器，すなわち周波数シフトキーイングを用いるＨ０４Ｌ２７／１４；デジタル変調された搬送システムに適した位相復調Ｈ０４Ｌ２７／２２）	Demodulation of angle-modulated oscillations(H03D5/00, H03D9/00, H03D11/00 take precedence; frequency demodulators adapted for digitally modulated carrier systems, i.e. using frequency shift keying H04L27/14; phase demodulators adapted for digitally modulated carrier systems, i.e. using phase shift keying H04L27/22)	4102
+H03D   3/02	・	入力信号から得られた二つの信号間の位相差の検波によるもの（Ｈ０３Ｄ３／２８〜Ｈ０３Ｄ３／３２が優先）	by detecting phase difference between two signals obtained from input signal(H03D3/28 to H03D3/32  take precedence)	959
+H03D   3/04	・・	振動のサイクルの計数または積分によるもの	by counting or integrating cycles of oscillations	387
+H03D   3/06	・・	信号の相加的結合または相乗復調器での結合によるもの	by combining signals additively or in product demodulators	634
+H03D   3/08	・・・	ダイオードによるもの，例．フオスターシーレイ弁別器	by means of diodes, e.g. Foster-Seeley discriminator	257
+H03D   3/10	・・・・	各ダイオードが信号の同一半周期において同時に導通するもの，例．レシオ検波器	in which the diodes are simultaneously conducting during the same half period of the signal, e.g. ratio detector	211
+H03D   3/12	・・・	３以上の電極を有する電子管によるもの	by means of discharge tubes having more than two electrodes	62
+H03D   3/14	・・・	３以上の電極を有する半導体装置によるもの	by means of semiconductor devices having more than two electrodes	193
+H03D   3/16	・・・	電気機械的共振器によるもの	by means of electromechanical resonators	294
+H03D   3/18	・・	同期ゲート配置によるもの	by means of synchronous gating arrangements	328
+H03D   3/20	・・・	振幅または持続時間が位相差に依存するようなパルスの発生するもの	producing pulses whose amplitude or duration depends on the phase difference	88
+H03D   3/22	・・	復調すべき信号から得られ，かつ周波数偏差に関係した位相差をもつ２つの信号が印加される３以上の電極を有する能動素子によるもの，例．φ検波器	by means of active elements with more than two electrodes to which two signals are applied derived from the signal to be demodulated and having a phase difference related to the frequency deviation, e.g. phase detector	393
+H03D   3/24	・・	連動（ｌｏｃｋｅｄ−ｉｎ）発振器により振幅変動を排除または除去するための復調器の変形	Modifications of demodulators to reject or remove amplitude variations by means of locked-in oscillator circuits	1815
+H03D   3/26	・	同調回路またはリアクタンス回路の傾斜せる振幅―周波数特性によるもの（Ｈ０３Ｄ３／２８〜Ｈ０３Ｄ３／３２が優先）	by means of sloping amplitude/frequency characteristic of tuned or reactive circuit(H03D3/28 to H03D3/32  take precedence)	315
+H03D   3/28	・	温度変化の影響を低減するための復調器の変形	Modifications of demodulators to reduce effect of temperature variations	60
+H03D   3/30	・	電子走行時間型電子管によるもの	by means of transit-time tubes	7
+H03D   3/32	・	電子管内の電子ビームの偏向によるもの（Ｈ０３Ｄ３／３０が優先）	by deflecting an electron beam in a discharge tube(H03D3/30 takes precedence)	26
+H03D   3/34	・	電気―機械素子によるもの（Ｈ０３Ｄ３／１６が優先）［３］	by means of electromechanical devices(H03D3/16 takes precedence)	42
+H03D   5/00		任意に振幅変調または角度変調された振動を復調するための回路（Ｈ０３Ｄ９／００，Ｈ０３Ｄ１１／００が優先；振幅変調と角度変調の組み合わせによって特徴付けられる，デジタル変調された搬送システムに適した復調器，例．直交振幅変調Ｈ０４Ｌ２７／３８）	Circuits for demodulating amplitude-modulated or angle-modulated oscillations at will(H03D9/00, H03D11/00 take precedence; demodulators adapted for digitally modulated carrier systems characterised by combinations of amplitude and angle modulation, e.g. quadrature amplitude modulation H04L27/38)	661
+H03D   7/00		１つの搬送波から他の搬送波への変調の変換，例．周波数変換（Ｈ０３Ｄ９／００，Ｈ０３Ｄ１１／００が優先；周波数変換器として用いられた誘電体増幅器，磁気増幅器，パラメトリック増幅器Ｈ０３Ｆ）	Transference of modulation from one carrier to another, e.g. frequency-changing(H03D9/00, H03D11/00 take precedence; dielectric amplifiers, magnetic amplifiers, parametric amplifiers used as frequency-changers H03F)	2726
+H03D   7/02	・	ダイオードによるもの（Ｈ０３Ｄ７／１４〜Ｈ０３Ｄ７／２２が優先）	by means of diodes(H03D7/14 to H03D7/22  take precedence)	612
+H03D   7/04	・・	負性抵抗特性を有するダイオード，例．トンネルダイオード，によるもの	having negative resistance characteristic, e.g. tunnel diode	83
+H03D   7/06	・	３以上の電極を有する電子管によるもの（Ｈ０３Ｄ７／１４〜Ｈ０３Ｄ７／２２が優先）	by means of discharge tubes having more than two electrodes(H03D7/14 to H03D7/22  take precedence)	90
+H03D   7/08	・・	混合されるべき信号が同一２電極間に印加されるもの	the signals to be mixed being applied between the same two electrodes	260
+H03D   7/10	・・	混合されるべき信号が異なる対の電極間に印加されるもの	the signals to be mixed being applied between different pairs of electrodes	307
+H03D   7/12	・	３以上の電極を有する半導体装置によるもの（Ｈ０３Ｄ７／１４〜Ｈ０３Ｄ７／２２が優先）	by means of semiconductor devices having more than two electrodes(H03D7/14 to H03D7/22  take precedence)	1703
+H03D   7/14	・	平衡配置	Balanced arrangements	3059
+H03D   7/16	・	多重周波数変換（スーパーヘテロダイン受信機Ｈ０４Ｂ１／２６）	Multiple frequency-changing(superheterodyne receivers H04B1/26)	3298
+H03D   7/18	・	イメージ周波数を除去するための周波数変換器の変形	Modifications of frequency-changers for eliminating image frequencies	945
+H03D   7/20	・	電子走行時間型電子管によるもの	by means of transit-time tubes	62
+H03D   7/22	・	電子管内の電子ビームの偏向によるもの（Ｈ０３Ｄ７／２０が優先）	by deflecting an electron beam in a discharge tube(H03D7/20 takes precedence)	19
+H03D   9/00		変調された電磁波の復調または変換（光を復調するための，変調光の変調を変換するための，または光の周波数を変換するための部品または装置Ｇ０２Ｆ２／００）	Demodulation or transference of modulation of modulated electromagnetic waves(devices or arrangements for demodulating light, transferring the modulation of modulated light or for changing the frequency of light G02F2/00)	273
+H03D   9/02	・	分布インダクタンスおよび分布キャパシタンスを用いる復調，例．給電線における	Demodulation using distributed inductance and capacitance, e.g. in feeder lines	191
+H03D   9/04	・・	角度変調された振動のためのもの	for angle-modulated oscillations	200
+H03D   9/06	・	分布インダクタンスおよび分布キャパシタンスを用いる変調の変換	Transference of modulation using distributed inductance and capacitance	1793
+H03D  11/00		超再生復調器回路	Super-regenerative demodulator circuits	63
+H03D  11/02	・	振幅変調された振動のためのもの	for amplitude-modulated oscillations	377
+H03D  11/04	・・	３以上の電極を有する半導体装置によるもの	by means of semiconductor devices having more than two electrodes	100
+H03D  11/06	・	角度変調された振動のためのもの	for angle-modulated oscillations	44
+H03D  11/08	・・	３以上の電極を有する半導体装置によるもの	by means of semiconductor devices having more than two electrodes	17
+H03D  13/00		互いに独立な２つの振動の位相または周波数を比較するための回路（電圧と電流間または電圧間または電流間の位相角を測定する装置Ｇ０１Ｒ２５／００）	Circuits for comparing the phase or frequency of two mutually-independent oscillations(arrangements for measuring phase angle between a voltage and a current or between voltages or currents G01R25/00)	2119
+H03D  99/00		このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass	18

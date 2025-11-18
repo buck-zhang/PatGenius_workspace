@@ -1,0 +1,368 @@
+H02M1/00	7	Details of apparatus for conversion	H02M1/00	H02M1/00		6304
+H02M1/0003	8	{Details of control, feedback or regulation circuits}	H02M1/00	H02M1/00		4973
+H02M1/0006	9	{Arrangements for supplying an adequate voltage to the control circuit of converters}	H02M1/00	H02M1/00		2715
+H02M1/0009	9	{Devices or circuits for detecting current in a converter}	H02M1/00	H02M1/00		7088
+H02M1/0012	9	{Control circuits using digital or numerical techniques (in DC/DC converters H02M3/157, H02M3/33515; in DC-AC converters H02M7/53873)}	H02M1/00	H02M1/00		2455
+H02M1/0016	9	{Control circuits providing compensation of output voltage deviations using feedforward of disturbance parameters}	H02M1/00	H02M1/00		564
+H02M1/0019	10	{the disturbance parameters being load current fluctuations}	H02M1/00	H02M1/00		529
+H02M1/0022	10	{the disturbance parameters being input voltage fluctuations}	H02M1/00	H02M1/00		1082
+H02M1/0025	9	{Arrangements for modifying reference values, feedback values or error values in the control loop of a converter}	H02M1/00	H02M1/00		3942
+H02M1/0029	9	{Circuits or arrangements for limiting the slope of switching signals, e.g. slew rate}	H02M1/00	H02M1/00		464
+H02M1/0032	9	{Control circuits allowing low power mode operation, e.g. in standby mode}	H02M1/00	H02M1/00		3493
+H02M1/0035	10	{using burst mode control}	H02M1/00	H02M1/00		581
+H02M1/0038	9	{Circuits or arrangements for suppressing, e.g. by masking incorrect turn-on or turn-off signals, e.g. due to current spikes in current mode control}	H02M1/00	H02M1/00		1946
+H02M1/0041	9	{Control circuits in which a clock signal is selectively enabled or disabled}	H02M1/00	H02M1/00		290
+H02M1/0043	8	{Converters switched with a phase shift, i.e. interleaved (non-isolated DC/DC converters H02M3/1586)}	H02M1/00	H02M1/00		866
+H02M1/0045	8	{Converters combining the concepts of switch-mode regulation and linear regulation, e.g. linear pre-regulator to switching converter, linear and switching converter in parallel, same converter or same transistor operating either in linear or switching mode}	H02M1/00	H02M1/00		1361
+H02M1/0048	8	{Circuits or arrangements for reducing losses (using snubbers H02M1/34)}	H02M1/00	H02M1/00		3601
+H02M1/0051	9	{Diode reverse recovery losses}	H02M1/00	H02M1/00		258
+H02M1/0054	9	{Transistor switching losses (periodically suspending operation of switching converter in low power mode H02M1/0035)}	H02M1/00	H02M1/00		3088
+H02M1/0058	10	{by employing soft switching techniques, i.e. commutation of transistors when applied voltage is zero or when current flow is zero (using an auxiliary actively switched resonant commutation circuit connected to an intermediate DC voltage or between two push-pull branches of an inverter bridge H02M7/4811; in resonant inverters H02M7/4815; in inverters operating from a resonant DC source H02M7/4826)}	H02M1/00	H02M1/00		5362
+H02M1/0061	8	{using discharge tubes}	H02M1/00	H02M1/00		115
+H02M1/0064	8	{Magnetic structures combining different functions, e.g. storage, filtering or transformation}	H02M1/00	H02M1/00		1764
+H02M1/0067	8	{Converter structures employing plural converter units, other than for parallel operation of the units on a single load}	H02M1/00	H02M1/00		1186
+H02M1/007	9	{Plural converter units in cascade (push-pull DC/DC converters with pre-regulator H02M3/3374; DC-AC converters following a DC-DC stage including a high frequency transformer H02M7/4807; DC-AC converters following a DC-DC conversion stage generating periodically varying voltages H02M7/4826)}	H02M1/00	H02M1/00		5953
+H02M1/0074	9	{Plural converter units whose inputs are connected in series}	H02M1/00	H02M1/00		942
+H02M1/0077	9	{Plural converter units whose outputs are connected in series}	H02M1/00	H02M1/00		1098
+H02M1/008	9	{Plural converter units for generating at two or more independent and non-parallel outputs, e.g. systems with plural point of load switching regulators}	H02M1/00	H02M1/00		1566
+H02M1/0083	8	{Converters characterised by their input or output configuration}	H02M1/00	H02M1/00		754
+H02M1/0085	9	{Partially controlled bridges}	H02M1/00	H02M1/00		883
+H02M1/0087	9	{adapted for receiving as input a current source}	H02M1/00	H02M1/00		90
+H02M1/009	9	{having two or more independently controlled outputs (for DC-DC converter with intermediate AC H02M3/33561)}	H02M1/00	H02M1/00		2106
+H02M1/0093	9	{wherein the output is created by adding a regulated voltage to or subtracting it from an unregulated input}	H02M1/00	H02M1/00		340
+H02M1/0095	8	{Hybrid converter topologies, e.g. NPC mixed with flying capacitor, thyristor converter mixed with MMC or charge pump mixed with buck}	H02M1/00	H02M1/00		1669
+H02M1/0096	8	{Means for increasing hold-up time, i.e. the duration of time that a converter&apos;s output will remain within regulated limits following a loss of input power}	H02M1/00	H02M1/00		268
+H02M1/02	8	Circuits specially adapted for the generation of grid-control or igniter-control voltages for discharge tubes incorporated in static converters	H02M1/02	H02M1/02		260
+H02M1/04	9	for tubes with grid control	H02M1/04	H02M1/04		260
+H02M1/042	10	{wherein the phase of the control voltage is adjustable with reference to the AC voltage}	H02M1/04	H02M1/04		290
+H02M1/045	11	{for multiphase systems}	H02M1/04	H02M1/04		220
+H02M1/047	11	{for ignition at the zero-crossing of voltage or current}	H02M1/04	H02M1/04		18
+H02M1/06	8	Circuits specially adapted for rendering non-conductive gas discharge tubes or equivalent semiconductor devices, e.g. thyratrons, thyristors	H02M1/06	H02M1/06		687
+H02M1/065	9	{for discharge tubes}	H02M1/06	H02M1/06		74
+H02M1/08	8	Circuits specially adapted for the generation of control voltages for semiconductor devices incorporated in static converters	H02M1/08	H02M1/08		12969
+H02M1/081	9	{wherein the phase of the control voltage is adjustable with reference to the AC source}	H02M1/08	H02M1/08		595
+H02M1/082	10	{with digital control}	H02M1/08	H02M1/08		146
+H02M1/083	9	{for the ignition at the zero crossing of the voltage or the current}	H02M1/08	H02M1/08		1876
+H02M1/084	9	using a control circuit common to several phases of a multi-phase system	H02M1/084	H02M1/084		566
+H02M1/0845	10	{digitally controlled (or with digital control)}	H02M1/084	H02M1/084		256
+H02M1/088	9	for the simultaneous control of series or parallel connected semiconductor devices	H02M1/088	H02M1/088		8294
+H02M1/092	10	the control signals being transmitted optically	H02M1/092	H02M1/092		878
+H02M1/096	10	the power supply of the control circuit being connected in parallel to the main switching element (H02M1/092 takes precedence)	H02M1/096	H02M1/096		191
+H02M1/10	8	Arrangements incorporating converting means for enabling loads to be operated at will from different kinds of power supplies, e.g. from AC or DC	H02M1/10	H02M1/10		2510
+H02M1/12	8	Arrangements for reducing harmonics from AC input or output	H02M1/12	H02M1/12		5357
+H02M1/123	9	{Suppression of common mode voltage or current}	H02M1/12	H02M1/12		1647
+H02M1/126	9	{using passive filters}	H02M1/12	H02M1/12		2524
+H02M1/14	8	Arrangements for reducing ripples from DC input or output	H02M1/14	H02M1/14		6431
+H02M1/143	9	{using compensating arrangements (for reducing noise from the supply in transmission systems H04B15/005)}	H02M1/14	H02M1/14		661
+H02M1/146	9	{using discharge tubes}	H02M1/14	H02M1/14		44
+H02M1/15	9	using active elements	H02M1/15	H02M1/15		1533
+H02M1/16	8	Means for providing current step on switching, e.g. with saturable reactor	H02M1/16	H02M1/16		230
+H02M1/20	8	Contact mechanisms of dynamic converters	H02M1/20	H02M1/20		515
+H02M1/22	9	incorporating collectors and brushes	H02M1/22	H02M1/22		505
+H02M1/24	9	incorporating rolling or tumbling contacts	H02M1/24	H02M1/24		174
+H02M1/26	9	incorporating cam-operated contacts	H02M1/26	H02M1/26		867
+H02M1/28	9	incorporating electromagnetically-operated vibrating contacts	H02M1/28	H02M1/28		102
+H02M1/30	9	incorporating liquid contacts	H02M1/30	H02M1/30		226
+H02M1/32	8	Means for protecting converters other than automatic disconnection	H02M1/32	H02M1/32		16866
+H02M1/322	9	{Means for rapidly discharging a capacitor of the converter for protecting electrical components or for preventing electrical shock}	H02M1/32	H02M1/32		1408
+H02M1/325	9	{with means for allowing continuous operation despite a fault, i.e. fault tolerant converters}	H02M1/32	H02M1/32		2028
+H02M1/327	9	{against abnormal temperatures}	H02M1/32	H02M1/32		2058
+H02M1/34	9	Snubber circuits	H02M1/34	H02M1/34		1897
+H02M1/342	10	{Active non-dissipative snubbers}	H02M1/34	H02M1/34		694
+H02M1/344	10	{Active dissipative snubbers}	H02M1/34	H02M1/34		312
+H02M1/346	10	{Passive non-dissipative snubbers}	H02M1/34	H02M1/34		497
+H02M1/348	10	{Passive dissipative snubbers}	H02M1/34	H02M1/34		517
+H02M1/36	8	Means for starting or stopping converters	H02M1/36	H02M1/36		7068
+H02M1/38	8	Means for preventing simultaneous conduction of switches	H02M1/38	H02M1/38		1933
+H02M1/385	9	{with means for correcting output voltage deviations introduced by the dead time}	H02M1/38	H02M1/38		802
+H02M1/40	8	Means for preventing magnetic saturation	H02M1/40	H02M1/40		404
+H02M1/42	8	Circuits or arrangements for compensating for or adjusting power factor in converters or inverters	H02M1/42	H02M1/42		1997
+H02M1/4208	9	{Arrangements for improving power factor of AC input}	H02M1/42	H02M1/42		2603
+H02M1/4216	10	{operating from a three-phase input voltage (H02M1/4233 takes precedence)}	H02M1/42	H02M1/42		950
+H02M1/4225	10	{using a non-isolated boost converter}	H02M1/42	H02M1/42		3096
+H02M1/4233	10	{using a bridge converter comprising active switches}	H02M1/42	H02M1/42		1400
+H02M1/4241	10	{using a resonant converter}	H02M1/42	H02M1/42		543
+H02M1/425	10	{using a single converter stage both for correction of AC input power factor and generation of a high frequency AC output voltage}	H02M1/42	H02M1/42		256
+H02M1/4258	10	{using a single converter stage both for correction of AC input power factor and generation of a regulated and galvanically isolated DC output voltage (H02M1/4241 takes precedence)}	H02M1/42	H02M1/42		1121
+H02M1/4266	10	{using passive elements}	H02M1/42	H02M1/42		342
+H02M1/4275	10	{by adding an auxiliary output voltage in series to the input}	H02M1/42	H02M1/42		77
+H02M1/4283	10	{by adding a controlled rectifier in parallel to a first rectifier feeding a smoothing capacitor}	H02M1/42	H02M1/42		132
+H02M1/4291	10	{by using a Buck converter to switch the input current}	H02M1/42	H02M1/42		192
+H02M1/44	8	Circuits or arrangements for compensating for electromagnetic interference in converters or inverters	H02M1/44	H02M1/44		6792
+H02M3/00	7	Conversion of DC power input into DC power output	H02M3/00	H02M3/00		2024
+H02M3/003	8	{Constructional details, e.g. physical layout, assembly, wiring or busbar connections}	H02M3/00	H02M3/00		1872
+H02M3/005	8	{using Cuk converters}	H02M3/00	H02M3/00		256
+H02M3/01	8	{Resonant DC/DC converters}	H02M3/00	H02M3/01		4093
+H02M3/015	9	{with means for adaptation of resonance frequency, e.g. by modification of capacitance or inductance of resonance circuit}	H02M3/00	H02M3/015		299
+H02M3/02	8	without intermediate conversion into AC	H02M3/02	H02M3/02		281
+H02M3/04	9	by static converters	H02M3/04	H02M3/04		1917
+H02M3/06	10	using resistors or capacitors, e.g. potential divider	H02M3/06	H02M3/06		757
+H02M3/07	11	using capacitors charged and discharged alternately by semiconductor devices with control electrode {, e.g. charge pumps}	H02M3/07	H02M3/07		7199
+H02M3/071	12	{adapted to generate a negative voltage output from a positive voltage source}	H02M3/07	H02M3/07		315
+H02M3/072	12	{adapted to generate an output voltage whose value is lower than the input voltage}	H02M3/07	H02M3/07		486
+H02M3/073	12	{Charge pumps of the Schenkel-type}	H02M3/07	H02M3/07		1460
+H02M3/075	13	{including a plurality of stages and two sets of clock signals, one set for the odd and one set for the even numbered stages}	H02M3/07	H02M3/07		265
+H02M3/076	13	{the clock signals being boosted to a value being higher than the input voltage value}	H02M3/07	H02M3/07		105
+H02M3/077	13	{with parallel connected charge pump stages}	H02M3/07	H02M3/07		379
+H02M3/078	13	{with means for reducing the back bias effect, i.e. the effect which causes the threshold voltage of transistors to increase as more stages are added to the converters}	H02M3/07	H02M3/07		99
+H02M3/08	10	using discharge tubes without control electrode or semiconductor devices without control electrode	H02M3/08	H02M3/08		149
+H02M3/10	10	using discharge tubes with control electrode or semiconductor devices with control electrode (H02M3/07 takes precedence)	H02M3/10	H02M3/10		800
+H02M3/125	11	using devices of a thyratron or thyristor type requiring extinguishing means	H02M3/125	H02M3/125		12
+H02M3/13	12	using discharge tubes only	H02M3/13	H02M3/13		15
+H02M3/135	12	using semiconductor devices only	H02M3/135	H02M3/135		421
+H02M3/137	13	with automatic control of output voltage or current, e.g. switching regulators	H02M3/137	H02M3/137		341
+H02M3/139	14	with digital control	H02M3/139	H02M3/139		64
+H02M3/142	14	including plural semiconductor devices as final control devices for a single load	H02M3/142	H02M3/142		79
+H02M3/145	11	using devices of a triode or transistor type requiring continuous application of a control signal	H02M3/145	H02M3/145		102
+H02M3/15	12	using discharge tubes only	H02M3/15	H02M3/15		28
+H02M3/155	12	using semiconductor devices only	H02M3/155	H02M3/155		5664
+H02M3/1552	13	{Boost converters exploiting the leakage inductance of a transformer or of an alternator as boost inductor}	H02M3/155	H02M3/155		169
+H02M3/1555	13	{for the generation of a regulated current to a load whose impedance is substantially inductive}	H02M3/155	H02M3/155		350
+H02M3/1557	13	{Single ended primary inductor converters [SEPIC]}	H02M3/155	H02M3/155		198
+H02M3/156	13	with automatic control of output voltage or current, e.g. switching regulators	H02M3/156	H02M3/156		10249
+H02M3/1563	14	{without using an external clock (H02M3/158 takes precedence)}	H02M3/156	H02M3/156		784
+H02M3/1566	14	{with means for compensating against rapid load changes, e.g. with auxiliary current source, with dual mode control or with inductance variation}	H02M3/156	H02M3/156		950
+H02M3/157	14	with digital control	H02M3/157	H02M3/157		3054
+H02M3/158	14	including plural semiconductor devices as final control devices for a single load	H02M3/158	H02M3/158		10454
+H02M3/1582	15	{Buck-boost converters (H02M3/1584 takes precedence)}	H02M3/158	H02M3/158		4465
+H02M3/1584	15	{with a plurality of power processing stages connected in parallel}	H02M3/158	H02M3/158		4455
+H02M3/1586	16	{switched with a phase shift, i.e. interleaved}	H02M3/158	H02M3/158		1715
+H02M3/1588	15	{comprising at least one synchronous rectifier element (H02M3/1582, H02M3/1584 take precedence)}	H02M3/158	H02M3/158		2394
+H02M3/16	9	by dynamic converters	H02M3/16	H02M3/16		58
+H02M3/18	10	using capacitors or batteries which are alternately charged and discharged, e.g. charged in parallel and discharged in series	H02M3/18	H02M3/18		177
+H02M3/20	9	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters	H02M3/20	H02M3/20		31
+H02M3/22	8	with intermediate conversion into AC	H02M3/22	H02M3/22		241
+H02M3/24	9	by static converters	H02M3/24	H02M3/24		664
+H02M3/26	10	using discharge tubes without control electrode or semiconductor devices without control electrode to produce the intermediate AC	H02M3/26	H02M3/26		49
+H02M3/28	10	using discharge tubes with control electrode or semiconductor devices with control electrode to produce the intermediate AC	H02M3/28	H02M3/28		3193
+H02M3/285	11	{Single converters with a plurality of output stages connected in parallel (parallel operation of a plurality of converters in DC distribution networks&#160;H02J1/10)}	H02M3/28	H02M3/28		1263
+H02M3/305	11	using devices of a thyratron or thyristor type requiring extinguishing means	H02M3/305	H02M3/305		8
+H02M3/31	12	using discharge tubes only	H02M3/31	H02M3/31		34
+H02M3/315	12	using semiconductor devices only	H02M3/315	H02M3/315		135
+H02M3/3155	13	{with automatic control of the output voltage or current}	H02M3/315	H02M3/315		194
+H02M3/325	11	using devices of a triode or a transistor type requiring continuous application of a control signal	H02M3/325	H02M3/325		43
+H02M3/33	12	using discharge tubes only	H02M3/33	H02M3/33		105
+H02M3/335	12	using semiconductor devices only	H02M3/335	H02M3/335		4244
+H02M3/33507	13	{with automatic control of the output voltage or current, e.g. flyback converters (H02M3/33561, H02M3/33569 take precedence)}	H02M3/335	H02M3/335		4734
+H02M3/33515	14	{with digital control}	H02M3/335	H02M3/335		1126
+H02M3/33523	14	{with galvanic isolation between input and output of both the power stage and the feedback loop}	H02M3/335	H02M3/335		4910
+H02M3/3353	13	{having at least two simultaneously operating switches on the input side, e.g. "double forward" or "double (switched) flyback" converter}	H02M3/335	H02M3/335		2175
+H02M3/33538	13	{of the forward type (H02M3/3353, H02M3/33569 take precedence)}	H02M3/335	H02M3/335		385
+H02M3/33546	14	{with automatic control of the output voltage or current (H02M3/33561 takes precedence)}	H02M3/335	H02M3/335		533
+H02M3/33553	15	{with galvanic isolation between input and output of both the power stage and the feedback loop}	H02M3/335	H02M3/335		366
+H02M3/33561	13	{having more than one ouput with independent control}	H02M3/335	H02M3/335		1716
+H02M3/33569	13	{having several active switching elements (H02M3/3353 takes precedence)}	H02M3/335	H02M3/335		3298
+H02M3/33571	14	{Half-bridge at primary side of an isolation transformer}	H02M3/335	H02M3/335		2098
+H02M3/33573	14	{Full-bridge at primary side of an isolation transformer}	H02M3/335	H02M3/335		3487
+H02M3/33576	14	{having at least one active switching element at the secondary side of an isolation transformer}	H02M3/335	H02M3/335		2912
+H02M3/33584	15	{Bidirectional converters}	H02M3/335	H02M3/335		3150
+H02M3/33592	15	{having a synchronous rectifier circuit or a synchronous freewheeling circuit at the secondary side of an isolation transformer}	H02M3/335	H02M3/335		3824
+H02M3/337	13	in push-pull configuration {(H02M3/33576 takes precedence; with self-oscillating arrangements H02M3/3382, H02M3/3385)}	H02M3/337	H02M3/337		393
+H02M3/3372	14	{of the parallel type}	H02M3/337	H02M3/337		311
+H02M3/3374	15	{with preregulator, e.g. current injected push-pull}	H02M3/337	H02M3/337		124
+H02M3/3376	14	{with automatic control of output voltage or current}	H02M3/337	H02M3/337		1309
+H02M3/3378	15	{in a push-pull configuration of the parallel type (H02M3/3374 takes precedence)}	H02M3/337	H02M3/337		494
+H02M3/338	13	in a self-oscillating arrangement (H02M3/337 takes precedence)	H02M3/338	H02M3/338		574
+H02M3/3381	14	{using a single commutation path}	H02M3/338	H02M3/338		227
+H02M3/3382	14	{in a push-pull circuit arrangement}	H02M3/338	H02M3/338		186
+H02M3/3384	15	{of the parallel type}	H02M3/338	H02M3/338		195
+H02M3/3385	14	{with automatic control of output voltage or current (H02M3/33561 takes precedence)}	H02M3/338	H02M3/338		640
+H02M3/3387	15	{in a push-pull configuration}	H02M3/338	H02M3/338		100
+H02M3/3388	16	{of the parallel type}	H02M3/338	H02M3/338		196
+H02M3/34	9	by dynamic converters	H02M3/34	H02M3/34		30
+H02M3/36	10	using mechanical parts to select progressively or to vary continuously the input potential	H02M3/36	H02M3/36		4
+H02M3/38	10	using mechanical contact-making and -breaking parts to interrupt a single potential	H02M3/38	H02M3/38		16
+H02M3/40	11	wherein the parts are rotating and collectors co-operate with brushes or rollers	H02M3/40	H02M3/40		69
+H02M3/42	11	with electromagnetically-operated vibrating contacts, e.g. chopper	H02M3/42	H02M3/42		115
+H02M3/44	9	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters	H02M3/44	H02M3/44		32
+H02M5/00	7	Conversion of AC power input into AC power output, e.g. for change of voltage, for change of frequency, for change of number of phases	H02M5/00	H02M5/00		467
+H02M5/005	8	{using discharge tubes}	H02M5/00	H02M5/00		458
+H02M5/02	8	without intermediate conversion into DC	H02M5/02	H02M5/02		52
+H02M5/04	9	by static converters (controlling transformers, reactors or choke coils, e.g. by tap changing H02P13/00)	H02M5/04	H02M5/04		142
+H02M5/06	10	using impedances	H02M5/06	H02M5/06		113
+H02M5/08	11	using capacitors only	H02M5/08	H02M5/08		190
+H02M5/10	10	using transformers	H02M5/10	H02M5/10		657
+H02M5/12	11	for conversion of voltage or current amplitude only	H02M5/12	H02M5/12		1126
+H02M5/14	11	for conversion between circuits of different phase number	H02M5/14	H02M5/14		319
+H02M5/16	11	for conversion of frequency	H02M5/16	H02M5/16		160
+H02M5/18	11	for conversion of waveform	H02M5/18	H02M5/18		49
+H02M5/20	10	using discharge tubes without control electrode or semiconductor devices without control electrode	H02M5/20	H02M5/20		49
+H02M5/22	10	using discharge tubes with control electrode or semiconductor devices with control electrode	H02M5/22	H02M5/22		141
+H02M5/225	11	{comprising two stages of AC-AC conversion, e.g. having a high frequency intermediate link}	H02M5/22	H02M5/22		212
+H02M5/25	11	using devices of a thyratron or thyristor type requiring extinguishing means	H02M5/25	H02M5/25		17
+H02M5/253	12	using discharge tubes only	H02M5/253	H02M5/253		78
+H02M5/257	12	using semiconductor devices only	H02M5/257	H02M5/257		361
+H02M5/2573	13	{with control circuit}	H02M5/257	H02M5/257		574
+H02M5/2576	14	{with digital control}	H02M5/257	H02M5/257		182
+H02M5/27	12	for conversion of frequency	H02M5/27	H02M5/27		323
+H02M5/271	13	{from a three phase input voltage}	H02M5/27	H02M5/27		446
+H02M5/272	13	{for variable speed constant frequency systems}	H02M5/27	H02M5/27		56
+H02M5/273	13	{with digital control}	H02M5/27	H02M5/27		38
+H02M5/275	11	using devices of a triode or transistor type requiring continuous application of a control signal	H02M5/275	H02M5/275		32
+H02M5/29	12	using discharge tubes only	H02M5/29	H02M5/29		4
+H02M5/293	12	using semiconductor devices only	H02M5/293	H02M5/293		1149
+H02M5/2932	13	{with automatic control of output voltage, current or power}	H02M5/293	H02M5/293		344
+H02M5/2935	14	{using reverse phase control, i.e. turn-on of switches in series with load at zero crossing of input voltage, turn-off before next zero crossing}	H02M5/293	H02M5/293		43
+H02M5/2937	14	{using whole cycle control, i.e. switching an integer number of whole or half cycles of the AC input voltage}	H02M5/293	H02M5/293		80
+H02M5/297	12	for conversion of frequency	H02M5/297	H02M5/297		392
+H02M5/32	9	by dynamic converters	H02M5/32	H02M5/32		146
+H02M5/34	10	using mechanical contact-making and -breaking parts	H02M5/34	H02M5/34		14
+H02M5/36	11	wherein the parts are rotating and collectors co-operate with brushes or rollers	H02M5/36	H02M5/36		3
+H02M5/38	9	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters	H02M5/38	H02M5/38		18
+H02M5/40	8	with intermediate conversion into DC	H02M5/40	H02M5/40		262
+H02M5/42	9	by static converters	H02M5/42	H02M5/42		467
+H02M5/44	10	using discharge tubes or semiconductor devices to convert the intermediate DC into AC	H02M5/44	H02M5/44		377
+H02M5/443	11	using devices of a thyratron or thyristor type requiring extinguishing means	H02M5/443	H02M5/443		9
+H02M5/447	12	using discharge tubes only	H02M5/447	H02M5/447		68
+H02M5/45	12	using semiconductor devices only	H02M5/45	H02M5/45		365
+H02M5/4505	13	{having a rectifier with controlled elements}	H02M5/45	H02M5/45		404
+H02M5/451	13	with automatic control of output voltage or frequency	H02M5/451	H02M5/451		98
+H02M5/452	13	with automatic control of output waveform	H02M5/452	H02M5/452		27
+H02M5/453	11	using devices of a triode or transistor type requiring continuous application of a control signal	H02M5/453	H02M5/453		57
+H02M5/456	12	using discharge tubes only	H02M5/456	H02M5/456		3
+H02M5/458	12	using semiconductor devices only	H02M5/458	H02M5/458		2617
+H02M5/4585	13	{having a rectifier with controlled elements}	H02M5/458	H02M5/458		2299
+H02M5/46	9	by dynamic converters	H02M5/46	H02M5/46		18
+H02M5/48	9	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters	H02M5/48	H02M5/48		55
+H02M7/00	7	Conversion of AC power input into DC power output; Conversion of DC power input into AC power output	H02M7/00	H02M7/00		1307
+H02M7/003	8	{Constructional details, e.g. physical layout, assembly, wiring or busbar connections}	H02M7/00	H02M7/00		9113
+H02M7/006	8	{using discharge tubes}	H02M7/00	H02M7/00		377
+H02M7/02	8	Conversion of AC power input into DC power output without possibility of reversal	H02M7/02	H02M7/02		964
+H02M7/04	9	by static converters	H02M7/04	H02M7/04		2190
+H02M7/043	10	{using transformers or inductors only}	H02M7/04	H02M7/04		202
+H02M7/046	10	{using discharge tubes}	H02M7/04	H02M7/04		206
+H02M7/05	10	{Capacitor coupled rectifiers}	H02M7/04	H02M7/05		488
+H02M7/06	10	using discharge tubes without control electrode or semiconductor devices without control electrode	H02M7/06	H02M7/06		4032
+H02M7/062	11	{Avoiding or suppressing excessive transient voltages or currents}	H02M7/06	H02M7/06		528
+H02M7/064	11	{with several outputs}	H02M7/06	H02M7/06		156
+H02M7/066	11	{particular circuits having a special characteristic}	H02M7/06	H02M7/06		687
+H02M7/068	11	{mounted on a transformer}	H02M7/06	H02M7/06		887
+H02M7/08	11	arranged for operation in parallel	H02M7/08	H02M7/08		745
+H02M7/10	11	arranged for operation in series, e.g. for multiplication of voltage	H02M7/10	H02M7/10		825
+H02M7/103	12	{Containing passive elements (capacitively coupled) which are ordered in cascade on one source}	H02M7/10	H02M7/10		448
+H02M7/106	13	{With physical arrangement details}	H02M7/10	H02M7/10		269
+H02M7/12	10	using discharge tubes with control electrode or semiconductor devices with control electrode	H02M7/12	H02M7/12		1104
+H02M7/125	11	{Avoiding or suppressing excessive transient voltages or currents}	H02M7/12	H02M7/12		371
+H02M7/145	11	using devices of a thyratron or thyristor type requiring extinguishing means	H02M7/145	H02M7/145		77
+H02M7/15	12	using discharge tubes only	H02M7/15	H02M7/15		433
+H02M7/151	13	{with automatic control (H02M7/153 takes precedence)}	H02M7/15	H02M7/15		318
+H02M7/153	13	{arranged for operation in parallel}	H02M7/15	H02M7/15		95
+H02M7/155	12	using semiconductor devices only	H02M7/155	H02M7/155		655
+H02M7/1552	13	{in a biphase or polyphase arrangement (voltage multipliers H02M7/19)}	H02M7/155	H02M7/155		154
+H02M7/1555	13	{with control circuit}	H02M7/155	H02M7/155		280
+H02M7/1557	14	{with automatic control of the output voltage or current}	H02M7/155	H02M7/155		351
+H02M7/162	13	in a bridge configuration	H02M7/162	H02M7/162		570
+H02M7/1623	14	{with control circuit}	H02M7/162	H02M7/162		336
+H02M7/1626	15	{with automatic control of the output voltage or current}	H02M7/162	H02M7/162		500
+H02M7/17	13	arranged for operation in parallel	H02M7/17	H02M7/17		273
+H02M7/19	13	arranged for operation in series, e.g. for voltage multiplication	H02M7/19	H02M7/19		235
+H02M7/21	11	using devices of a triode or transistor type requiring continuous application of a control signal	H02M7/21	H02M7/21		152
+H02M7/213	12	using discharge tubes only	H02M7/213	H02M7/213		12
+H02M7/217	12	using semiconductor devices only	H02M7/217	H02M7/217		4372
+H02M7/2173	13	{in a biphase or polyphase circuit arrangement (H02M7/2176 takes precedence; voltage multipliers H02M7/25)}	H02M7/217	H02M7/217		698
+H02M7/2176	13	{comprising a passive stage to generate a rectified sinusoidal voltage and a controlled switching element in series between such stage and the output}	H02M7/217	H02M7/217		699
+H02M7/219	13	in a bridge configuration	H02M7/219	H02M7/219		4524
+H02M7/2195	14	{the switches being synchronously commutated at the same frequency of the AC input voltage}	H02M7/219	H02M7/219		485
+H02M7/23	13	arranged for operation in parallel {(H02M7/2176 takes precedence)}	H02M7/23	H02M7/23		579
+H02M7/25	13	arranged for operation in series, e.g. for multiplication of voltage	H02M7/25	H02M7/25		255
+H02M7/26	10	using open-spark devices, e.g. Marx rectifier	H02M7/26	H02M7/26		3
+H02M7/28	10	using electrolytic rectifiers	H02M7/28	H02M7/28		16
+H02M7/30	9	by dynamic converters	H02M7/30	H02M7/30		21
+H02M7/32	10	using mechanical contact-making and -breaking parts	H02M7/32	H02M7/32		21
+H02M7/34	11	wherein the parts are rotating and collectors co-operate with brushes or rollers	H02M7/34	H02M7/34		8
+H02M7/36	11	with electromagnetically-operated vibrating contacts, e.g. chopper	H02M7/36	H02M7/36		295
+H02M7/38	10	using one or more sparking electrodes rotating over counterelectrodes	H02M7/38	H02M7/38		2
+H02M7/40	9	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters	H02M7/40	H02M7/40		218
+H02M7/42	8	Conversion of DC power input into AC power output without possibility of reversal	H02M7/42	H02M7/42		1259
+H02M7/44	9	by static converters	H02M7/44	H02M7/44		1635
+H02M7/445	10	{using discharge tubes}	H02M7/44	H02M7/44		272
+H02M7/46	10	using discharge tubes without control electrode or semiconductor devices without control electrode	H02M7/46	H02M7/46		94
+H02M7/48	10	using discharge tubes with control electrode or semiconductor devices with control electrode	H02M7/48	H02M7/48		7544
+H02M7/4803	11	{with means for reducing DC component from AC output voltage}	H02M7/48	H02M7/48		145
+H02M7/4807	11	{having a high frequency intermediate AC stage}	H02M7/48	H02M7/48		693
+H02M7/4811	11	{having auxiliary actively switched resonant commutation circuits connected to intermediate DC voltage or between two push-pull branches}	H02M7/48	H02M7/48		128
+H02M7/4815	11	{Resonant converters (H02M7/4811 and H02M7/4826 take precedence)}	H02M7/48	H02M7/48		1125
+H02M7/4818	12	{with means for adaptation of resonance frequency, e.g. by modification of capacitance or inductance of resonance circuits}	H02M7/48	H02M7/48		269
+H02M7/4826	11	{operating from a resonant DC source, i.e. the DC input voltage varies periodically, e.g. resonant DC-link inverters}	H02M7/48	H02M7/48		265
+H02M7/483	11	Converters with outputs that each can have more than two voltages levels	H02M7/483	H02M7/483		4053
+H02M7/4833	12	{Capacitor voltage balancing}	H02M7/483	H02M7/483		570
+H02M7/4835	12	{comprising two or more cells, each including a switchable capacitor, the capacitors having a nominal charge voltage which corresponds to a given fraction of the input voltage, and the capacitors being selectively connected in series to determine the instantaneous output voltage}	H02M7/483	H02M7/483		2505
+H02M7/4837	12	{Flying capacitor converters}	H02M7/483	H02M7/483		774
+H02M7/487	12	Neutral point clamped inverters	H02M7/487	H02M7/487		3076
+H02M7/49	12	Combination of the output voltage waveforms of a plurality of converters	H02M7/49	H02M7/49		1641
+H02M7/493	11	the static converters being arranged for operation in parallel	H02M7/493	H02M7/493		2220
+H02M7/497	11	sinusoidal output voltages being obtained by combination of several voltages being out of phase	H02M7/497	H02M7/497		144
+H02M7/501	11	sinusoidal output voltages being obtained by the combination of several pulse-voltages having different amplitude and width	H02M7/501	H02M7/501		118
+H02M7/505	11	using devices of a thyratron or thyristor type requiring extinguishing means {(H02M7/4807, H02M7/483, H02M7/493 and H02M7/4826 take precedence)}	H02M7/505	H02M7/505		13
+H02M7/51	12	using discharge tubes only	H02M7/51	H02M7/51		334
+H02M7/515	12	using semiconductor devices only	H02M7/515	H02M7/515		779
+H02M7/5152	13	{with separate extinguishing means}	H02M7/515	H02M7/515		218
+H02M7/5155	14	{wherein each commutation element has its own extinguishing means}	H02M7/515	H02M7/515		252
+H02M7/5157	13	{wherein the extinguishing of every commutation element will be obtained by means of a commutation inductance, by starting another main commutation element in series with the first}	H02M7/515	H02M7/515		81
+H02M7/516	13	Self-oscillating arrangements	H02M7/516	H02M7/516		104
+H02M7/517	13	with special starting equipment	H02M7/517	H02M7/517		109
+H02M7/519	13	in a push-pull configuration (H02M7/517 takes precedence)	H02M7/519	H02M7/519		83
+H02M7/521	13	in a bridge configuration	H02M7/521	H02M7/521		384
+H02M7/523	13	with LC-resonance circuit in the main circuit	H02M7/523	H02M7/523		383
+H02M7/5233	14	{the commutation elements being in a push-pull arrangement}	H02M7/523	H02M7/523		34
+H02M7/5236	15	{in a series push-pull arrangement}	H02M7/523	H02M7/523		124
+H02M7/525	13	with automatic control of output waveform or frequency (H02M7/517&#160;-&#160;H02M7/523 take precedence)	H02M7/525	H02M7/525		433
+H02M7/527	14	by pulse width modulation	H02M7/527	H02M7/527		361
+H02M7/529	15	using digital control	H02M7/529	H02M7/529		164
+H02M7/53	11	using devices of a triode or transistor type requiring continuous application of a control signal {(H02M7/4807, H02M7/493 and H02M7/4826 take precedence)}	H02M7/53	H02M7/53		88
+H02M7/533	12	using discharge tubes only	H02M7/533	H02M7/533		52
+H02M7/537	12	using semiconductor devices only, e.g. single switched pulse inverters	H02M7/537	H02M7/537		3450
+H02M7/5375	13	with special starting equipment	H02M7/5375	H02M7/5375		75
+H02M7/538	13	in a push-pull configuration (H02M7/5375 takes precedence {; with oscillating arrangements H02M7/53832, H02M7/53846})	H02M7/538	H02M7/538		686
+H02M7/53803	14	{with automatic control of output voltage or current}	H02M7/538	H02M7/538		323
+H02M7/53806	15	{in a push-pull configuration of the parallel type}	H02M7/538	H02M7/538		257
+H02M7/5381	14	Parallel type	H02M7/5381	H02M7/5381		247
+H02M7/5383	13	in a self-oscillating arrangement (H02M7/538 takes precedence)	H02M7/5383	H02M7/5383		239
+H02M7/53832	14	{in a push-pull arrangement}	H02M7/5383	H02M7/5383		240
+H02M7/53835	15	{of the parallel type}	H02M7/5383	H02M7/5383		371
+H02M7/53838	14	using a single commutation path	H02M7/53838	H02M7/53838		10
+H02M7/53846	14	Control circuits<br><br><u>WARNING</u><br>Group H02M7/53846 and subgroups is not complete, see provisionally also H02M7/5383 and subgroups	H02M7/53846	H02M7/53846		267
+H02M7/538463	15	{for thyristor type converters}	H02M7/53846	H02M7/53846		3
+H02M7/538466	15	{for transistor type converters}	H02M7/53846	H02M7/53846		36
+H02M7/53854	15	using thyristor type converters	H02M7/53854	H02M7/53854		22
+H02M7/53862	15	using transistor type converters	H02M7/53862	H02M7/53862		230
+H02M7/5387	13	in a bridge configuration	H02M7/5387	H02M7/5387		6523
+H02M7/53871	14	{with automatic control of output voltage or current}	H02M7/5387	H02M7/5387		5008
+H02M7/53873	15	{with digital control}	H02M7/5387	H02M7/5387		1455
+H02M7/53875	15	{with analogue control of three-phase output}	H02M7/5387	H02M7/5387		1555
+H02M7/53876	16	{based on synthesising a desired voltage vector via the selection of appropriate fundamental voltage vectors, and corresponding dwelling times}	H02M7/5387	H02M7/5387		713
+H02M7/53878	15	{by time shifting switching signals of one diagonal pair of the bridge with respect to the other diagonal pair}	H02M7/5387	H02M7/5387		113
+H02M7/5388	14	with asymmetrical configuration of switches<br><br><u>WARNING</u><br>Group H02M7/5388 is not complete, see provisionally also H02M7/5387 and subgroups	H02M7/5388	H02M7/5388		238
+H02M7/539	13	with automatic control of output wave form or frequency (H02M7/5375&#160;-&#160;H02M7/5387 take precedence)	H02M7/539	H02M7/539		580
+H02M7/5395	14	by pulse-width modulation	H02M7/5395	H02M7/5395		3275
+H02M7/54	9	by dynamic converters	H02M7/54	H02M7/54		223
+H02M7/56	10	using mechanical parts to select progressively, or to vary continuously, the input potential	H02M7/56	H02M7/56		9
+H02M7/58	10	using mechanical contact-making and -breaking parts to interrupt a single potential	H02M7/58	H02M7/58		15
+H02M7/60	11	wherein the parts are rotating and collectors co-operate with brushes or rollers	H02M7/60	H02M7/60		16
+H02M7/62	11	with electromagnetically-operated vibrating contacts, e.g. chopper	H02M7/62	H02M7/62		419
+H02M7/64	9	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters	H02M7/64	H02M7/64		53
+H02M7/66	8	with possibility of reversal	H02M7/66	H02M7/66		249
+H02M7/68	9	by static converters	H02M7/68	H02M7/68		275
+H02M7/70	10	using discharge tubes without control electrode or semiconductor devices without control electrode	H02M7/70	H02M7/70		23
+H02M7/72	10	using discharge tubes with control electrode or semiconductor devices with control electrode	H02M7/72	H02M7/72		179
+H02M7/75	11	using devices of a thyratron or thyristor type requiring extinguishing means	H02M7/75	H02M7/75		5
+H02M7/753	12	using discharge tubes only	H02M7/753	H02M7/753		
+H02M7/757	12	using semiconductor devices only	H02M7/757	H02M7/757		303
+H02M7/7575	13	{for high voltage direct transmission link}	H02M7/757	H02M7/757		409
+H02M7/758	13	with automatic control of output waveform or frequency	H02M7/758	H02M7/758		29
+H02M7/77	12	arranged for operation in parallel	H02M7/77	H02M7/77		34
+H02M7/79	11	using devices of a triode or transistor type requiring continuous application of a control signal	H02M7/79	H02M7/79		31
+H02M7/793	12	using discharge tubes only	H02M7/793	H02M7/793		8
+H02M7/797	12	using semiconductor devices only	H02M7/797	H02M7/797		2225
+H02M7/81	12	arranged for operation in parallel	H02M7/81	H02M7/81		143
+H02M7/82	10	using open-spark devices, e.g. Marx rectifier	H02M7/82	H02M7/82		2
+H02M7/84	10	using electrolytic rectifiers	H02M7/84	H02M7/84		1
+H02M7/86	9	by dynamic converters	H02M7/86	H02M7/86		10
+H02M7/88	10	using mechanical parts to select progressively or to vary continuously the input potential	H02M7/88	H02M7/88		1
+H02M7/90	10	using mechanical contact-making and -breaking parts to interrupt a single potential	H02M7/90	H02M7/90		2
+H02M7/92	11	wherein the parts are rotating and collectors co-operate with brushes or rollers	H02M7/92	H02M7/92		1
+H02M7/94	11	wherein the parts are operated by rotating cams or cam-like devices	H02M7/94	H02M7/94		2
+H02M7/95	11	with electromagnetically-operated vibrating contacts, e.g. chopper	H02M7/95	H02M7/95		2
+H02M7/96	11	with moving liquid contacts	H02M7/96	H02M7/96		
+H02M7/98	9	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters	H02M7/98	H02M7/98		26
+H02M11/00	7	Power conversion systems not covered by the preceding groups	H02M11/00	H02M11/00		672

@@ -1,0 +1,638 @@
+F05D2200/00	7	Mathematical features	CPCONLY	F05D2200/00		14
+F05D2200/10	8	Basic functions	CPCONLY	F05D2200/10		6
+F05D2200/11	9	Sum	CPCONLY	F05D2200/11		98
+F05D2200/12	9	Subtraction	CPCONLY	F05D2200/12		25
+F05D2200/13	9	Product	CPCONLY	F05D2200/13		38
+F05D2200/14	9	Division	CPCONLY	F05D2200/14		39
+F05D2200/15	9	Inverse	CPCONLY	F05D2200/15		13
+F05D2200/20	8	Special functions	CPCONLY	F05D2200/20		15
+F05D2200/21	9	Root	CPCONLY	F05D2200/21		1
+F05D2200/211	10	Square root	CPCONLY	F05D2200/211		19
+F05D2200/212	10	Cubic root	CPCONLY	F05D2200/212		2
+F05D2200/22	9	Power	CPCONLY	F05D2200/22		10
+F05D2200/221	10	Square power	CPCONLY	F05D2200/221		20
+F05D2200/222	10	Cubic power	CPCONLY	F05D2200/222		6
+F05D2200/23	9	Logarithm	CPCONLY	F05D2200/23		25
+F05D2200/24	9	exponential	CPCONLY	F05D2200/24		21
+F05D2200/25	9	Hyperbolic trigonometric, e.g. sinh, cosh, tanh	CPCONLY	F05D2200/25		10
+F05D2200/26	9	trigonometric	CPCONLY	F05D2200/26		8
+F05D2200/261	10	Sine	CPCONLY	F05D2200/261		24
+F05D2200/262	10	Cosine	CPCONLY	F05D2200/262		17
+F05D2200/263	10	Tangent	CPCONLY	F05D2200/263		6
+F05D2200/264	10	Cotangent	CPCONLY	F05D2200/264		3
+F05D2200/30	8	miscellaneous	CPCONLY	F05D2200/30		7
+F05D2200/31	9	odd	CPCONLY	F05D2200/31		6
+F05D2200/32	9	even	CPCONLY	F05D2200/32		12
+F05D2200/33	9	bigger or smaller	CPCONLY	F05D2200/33		18
+F05D2200/34	9	biggest or smallest	CPCONLY	F05D2200/34		1
+F05D2200/35	9	first	CPCONLY	F05D2200/35		1
+F05D2200/36	9	last	CPCONLY	F05D2200/36		7
+F05D2210/00	7	Working fluids	CPCONLY	F05D2210/00		2
+F05D2210/10	8	Kind or type	CPCONLY	F05D2210/10		38
+F05D2210/11	9	liquid, i.e. incompressible	CPCONLY	F05D2210/11		1104
+F05D2210/12	9	gaseous, i.e. compressible	CPCONLY	F05D2210/12		2030
+F05D2210/13	9	mixed, e.g. two-phase fluid	CPCONLY	F05D2210/13		116
+F05D2210/132	10	Pumps with means for separating and evacuating the gaseous phase	CPCONLY	F05D2210/132		29
+F05D2210/14	9	Refrigerants with particular properties, e.g. HFC	CPCONLY	F05D2210/14		84
+F05D2210/20	8	Properties	CPCONLY	F05D2210/20		16
+F05D2210/30	8	Flow characteristics	CPCONLY	F05D2210/30		32
+F05D2210/31	9	with Mach-number kept constant along the flow	CPCONLY	F05D2210/31		9
+F05D2210/32	9	Pressure kept constant along the flow	CPCONLY	F05D2210/32		2
+F05D2210/33	9	Turbulent flow	CPCONLY	F05D2210/33		30
+F05D2210/34	9	Laminar flow	CPCONLY	F05D2210/34		15
+F05D2210/40	8	Flow geometry or direction	CPCONLY	F05D2210/40		56
+F05D2210/41	9	upwards due to the buoyancy of compressed air	CPCONLY	F05D2210/41		4
+F05D2210/42	9	Axial inlet and radial outlet	CPCONLY	F05D2210/42		57
+F05D2210/43	9	Radial inlet and axial outlet	CPCONLY	F05D2210/43		57
+F05D2210/44	9	bidirectional, i.e. in opposite, alternating directions	CPCONLY	F05D2210/44		42
+F05D2220/00	7	Application	CPCONLY	F05D2220/00		9
+F05D2220/10	8	in ram-jet engines or ram-jet driven vehicles	CPCONLY	F05D2220/10		118
+F05D2220/20	8	within closed fluid conduits, e.g. pipes	CPCONLY	F05D2220/20		35
+F05D2220/30	8	in turbines	CPCONLY	F05D2220/30		725
+F05D2220/31	9	in steam turbines	CPCONLY	F05D2220/31		1790
+F05D2220/32	9	in gas turbines	CPCONLY	F05D2220/32		6506
+F05D2220/321	10	for a special turbine stage	CPCONLY	F05D2220/321		82
+F05D2220/3212	11	the first stage of a turbine	CPCONLY	F05D2220/3212		176
+F05D2220/3213	11	an intermediate stage of the turbine	CPCONLY	F05D2220/3213		82
+F05D2220/3215	11	the last stage of the turbine	CPCONLY	F05D2220/3215		127
+F05D2220/3216	11	for a special compressor stage	CPCONLY	F05D2220/3216		176
+F05D2220/3217	12	for the first stage of a compressor or a low pressure compressor	CPCONLY	F05D2220/3217		118
+F05D2220/3218	12	for an intermediate stage of a compressor	CPCONLY	F05D2220/3218		52
+F05D2220/3219	12	for the last stage of a compressor or a high pressure compressor	CPCONLY	F05D2220/3219		124
+F05D2220/323	10	for aircraft propulsion, e.g. jet engines	CPCONLY	F05D2220/323		3367
+F05D2220/324	10	to drive unshrouded, low solidity propeller	CPCONLY	F05D2220/324		202
+F05D2220/325	10	to drive unshrouded, high solidity propeller	CPCONLY	F05D2220/325		204
+F05D2220/326	10	to drive shrouded, low solidity propeller	CPCONLY	F05D2220/326		84
+F05D2220/327	10	to drive shrouded, high solidity propeller	CPCONLY	F05D2220/327		246
+F05D2220/328	10	providing direct vertical lift	CPCONLY	F05D2220/328		60
+F05D2220/329	10	in helicopters	CPCONLY	F05D2220/329		416
+F05D2220/34	9	in ram-air turbines ("RATS")	CPCONLY	F05D2220/34		141
+F05D2220/36	9	specially adapted for the fan of turbofan engines	CPCONLY	F05D2220/36		2194
+F05D2220/40	8	in turbochargers	CPCONLY	F05D2220/40		6387
+F05D2220/50	8	for auxiliary power units (APU&apos;s)	CPCONLY	F05D2220/50		710
+F05D2220/60	8	making use of surplus or waste energy	CPCONLY	F05D2220/60		260
+F05D2220/62	9	with energy recovery turbines	CPCONLY	F05D2220/62		317
+F05D2220/64	9	for domestic central heating or production of electricity	CPCONLY	F05D2220/64		79
+F05D2220/70	8	in combination with	CPCONLY	F05D2220/70		52
+F05D2220/72	9	a steam turbine	CPCONLY	F05D2220/72		405
+F05D2220/722	10	as part of an integrated gasification combined cycle	CPCONLY	F05D2220/722		93
+F05D2220/74	9	a gas turbine	CPCONLY	F05D2220/74		131
+F05D2220/75	9	equipment using fuel having a low calorific value, e.g. low BTU fuel, waste end, syngas, biomass fuel or flare gas	CPCONLY	F05D2220/75		169
+F05D2220/76	9	an electrical generator	CPCONLY	F05D2220/76		1934
+F05D2220/762	10	of the direct current (D.C.) type	CPCONLY	F05D2220/762		32
+F05D2220/764	10	of the alternating current (A.C.) type	CPCONLY	F05D2220/764		87
+F05D2220/7642	11	of the synchronous type	CPCONLY	F05D2220/7642		45
+F05D2220/7644	11	of the asynchronous type, i.e. induction type	CPCONLY	F05D2220/7644		18
+F05D2220/7646	12	Double fed induction generators (DFIGs)	CPCONLY	F05D2220/7646		4
+F05D2220/766	10	via a direct connection, i.e. a gearless transmission	CPCONLY	F05D2220/766		71
+F05D2220/768	10	equipped with permanent magnets	CPCONLY	F05D2220/768		166
+F05D2220/77	10	of the linear type	CPCONLY	F05D2220/77		3
+F05D2220/80	8	in supersonic vehicles excluding hypersonic vehicles or ram, scram or rocket propulsion	CPCONLY	F05D2220/80		250
+F05D2220/90	8	in vehicles adapted for vertical or short take off and landing (v/stol vehicles)	CPCONLY	F05D2220/90		141
+F05D2230/00	7	Manufacture	CPCONLY	F05D2230/00		160
+F05D2230/10	8	by removing material	CPCONLY	F05D2230/10		928
+F05D2230/11	9	by electrochemical methods	CPCONLY	F05D2230/11		132
+F05D2230/12	9	by spark erosion methods	CPCONLY	F05D2230/12		201
+F05D2230/13	9	using lasers	CPCONLY	F05D2230/13		279
+F05D2230/14	9	Micromachining	CPCONLY	F05D2230/14		174
+F05D2230/18	9	Manufacturing tolerances	CPCONLY	F05D2230/18		34
+F05D2230/20	8	essentially without removing material	CPCONLY	F05D2230/20		357
+F05D2230/21	9	by casting	CPCONLY	F05D2230/21		986
+F05D2230/211	10	by precision casting, e.g. microfusing or investment casting	CPCONLY	F05D2230/211		370
+F05D2230/22	9	by sintering	CPCONLY	F05D2230/22		842
+F05D2230/23	9	by permanently joining parts together	CPCONLY	F05D2230/23		472
+F05D2230/232	10	by welding	CPCONLY	F05D2230/232		929
+F05D2230/233	11	Electron beam welding	CPCONLY	F05D2230/233		158
+F05D2230/234	11	Laser welding	CPCONLY	F05D2230/234		448
+F05D2230/235	11	TIG or MIG welding	CPCONLY	F05D2230/235		62
+F05D2230/236	11	Diffusion bonding	CPCONLY	F05D2230/236		147
+F05D2230/237	11	Brazing	CPCONLY	F05D2230/237		550
+F05D2230/238	11	Soldering	CPCONLY	F05D2230/238		98
+F05D2230/239	11	Inertia or friction welding	CPCONLY	F05D2230/239		127
+F05D2230/24	9	by extrusion	CPCONLY	F05D2230/24		58
+F05D2230/25	9	by forging	CPCONLY	F05D2230/25		205
+F05D2230/26	9	by rolling	CPCONLY	F05D2230/26		67
+F05D2230/30	8	with deposition of material	CPCONLY	F05D2230/30		721
+F05D2230/31	9	Layer deposition	CPCONLY	F05D2230/31		1534
+F05D2230/311	10	by torch or flame spraying	CPCONLY	F05D2230/311		116
+F05D2230/312	10	by plasma spraying	CPCONLY	F05D2230/312		278
+F05D2230/313	10	by physical vapour deposition	CPCONLY	F05D2230/313		195
+F05D2230/314	10	by chemical vapour deposition	CPCONLY	F05D2230/314		151
+F05D2230/40	8	Heat treatment	CPCONLY	F05D2230/40		371
+F05D2230/41	9	Hardening; Annealing	CPCONLY	F05D2230/41		90
+F05D2230/411	10	Precipitation hardening	CPCONLY	F05D2230/411		14
+F05D2230/42	9	by hot isostatic pressing	CPCONLY	F05D2230/42		86
+F05D2230/50	8	Building or constructing in particular ways	CPCONLY	F05D2230/50		318
+F05D2230/51	9	in a modular way, e.g. using several identical or complementary parts or features	CPCONLY	F05D2230/51		451
+F05D2230/52	9	using existing or "off the shelf" parts, e.g. using standardized turbocharger elements	CPCONLY	F05D2230/52		55
+F05D2230/53	9	by integrally manufacturing a component, e.g. by milling from a billet or one piece construction	CPCONLY	F05D2230/53		416
+F05D2230/54	9	by sheet metal manufacturing	CPCONLY	F05D2230/54		387
+F05D2230/60	8	Assembly methods	CPCONLY	F05D2230/60		2063
+F05D2230/61	9	using limited numbers of standard modules which can be adapted by machining	CPCONLY	F05D2230/61		149
+F05D2230/64	9	using positioning or alignment devices for aligning or centring, e.g. pins	CPCONLY	F05D2230/64		896
+F05D2230/642	10	using maintaining alignment while permitting differential dilatation	CPCONLY	F05D2230/642		986
+F05D2230/644	10	for adjusting the position or the alignment, e.g. wedges or eccenters	CPCONLY	F05D2230/644		307
+F05D2230/68	9	using auxiliary equipment for lifting or holding	CPCONLY	F05D2230/68		243
+F05D2230/70	8	Disassembly methods	CPCONLY	F05D2230/70		523
+F05D2230/72	8	Maintenance	CPCONLY	F05D2230/72		633
+F05D2230/80	8	Repairing, retrofitting or upgrading methods	CPCONLY	F05D2230/80		1640
+F05D2230/90	8	Coating; Surface treatment	CPCONLY	F05D2230/90		2183
+F05D2240/00	7	Components<br><br><u>NOTE</u><br><br> Components are the basic elements of construction 	CPCONLY	F05D2240/00		13
+F05D2240/10	8	Stators	CPCONLY	F05D2240/10		188
+F05D2240/11	9	Shroud seal segments	CPCONLY	F05D2240/11		1856
+F05D2240/12	9	Fluid guiding means, e.g. vanes	CPCONLY	F05D2240/12		2073
+F05D2240/121	10	related to the leading edge of a stator vane	CPCONLY	F05D2240/121		637
+F05D2240/122	10	related to the trailing edge of a stator vane	CPCONLY	F05D2240/122		667
+F05D2240/123	10	related to the pressure side of a stator vane	CPCONLY	F05D2240/123		156
+F05D2240/124	10	related to the suction side of a stator vane	CPCONLY	F05D2240/124		177
+F05D2240/125	10	related to the tip of a stator vane	CPCONLY	F05D2240/125		134
+F05D2240/126	10	Baffles or ribs	CPCONLY	F05D2240/126		408
+F05D2240/127	10	Vortex generators, turbulators, or the like, for mixing	CPCONLY	F05D2240/127		431
+F05D2240/128	10	Nozzles	CPCONLY	F05D2240/128		613
+F05D2240/1281	11	Plug nozzles	CPCONLY	F05D2240/1281		69
+F05D2240/129	10	Cascades, i.e. assemblies of similar profiles acting in parallel	CPCONLY	F05D2240/129		194
+F05D2240/14	9	Casings or housings protecting or supporting assemblies within	CPCONLY	F05D2240/14		1138
+F05D2240/15	9	Heat shield	CPCONLY	F05D2240/15		359
+F05D2240/20	8	Rotors	CPCONLY	F05D2240/20		318
+F05D2240/24	9	for turbines	CPCONLY	F05D2240/24		622
+F05D2240/241	10	of impulse type	CPCONLY	F05D2240/241		19
+F05D2240/242	10	of reaction type	CPCONLY	F05D2240/242		37
+F05D2240/243	10	of the Archimedes screw type	CPCONLY	F05D2240/243		20
+F05D2240/30	9	Characteristics of rotor blades, i.e. of any element transforming dynamic fluid energy to or from rotational energy and being attached to a rotor	CPCONLY	F05D2240/30		1169
+F05D2240/301	10	Cross-sectional characteristics	CPCONLY	F05D2240/301		609
+F05D2240/302	10	characteristics related to shock waves, transonic or supersonic flow	CPCONLY	F05D2240/302		72
+F05D2240/303	10	related to the leading edge of a rotor blade	CPCONLY	F05D2240/303		1311
+F05D2240/304	10	related to the trailing edge of a rotor blade	CPCONLY	F05D2240/304		1103
+F05D2240/305	10	related to the pressure side of a rotor blade	CPCONLY	F05D2240/305		298
+F05D2240/306	10	related to the suction side of a rotor blade	CPCONLY	F05D2240/306		305
+F05D2240/307	10	related to the tip of a rotor blade	CPCONLY	F05D2240/307		945
+F05D2240/31	10	with roughened surfaces	CPCONLY	F05D2240/31		74
+F05D2240/35	8	Combustors or associated equipment	CPCONLY	F05D2240/35		2183
+F05D2240/36	9	Fuel vaporizer	CPCONLY	F05D2240/36		117
+F05D2240/40	8	Use of a multiplicity of similar components	CPCONLY	F05D2240/40		476
+F05D2240/50	8	Bearings	CPCONLY	F05D2240/50		786
+F05D2240/51	9	Magnetic	CPCONLY	F05D2240/51		130
+F05D2240/511	10	with permanent magnets	CPCONLY	F05D2240/511		52
+F05D2240/515	10	Electromagnetic	CPCONLY	F05D2240/515		103
+F05D2240/52	9	Axial thrust bearings	CPCONLY	F05D2240/52		349
+F05D2240/53	9	Hydrodynamic or hydrostatic bearings	CPCONLY	F05D2240/53		264
+F05D2240/54	9	Radial bearings	CPCONLY	F05D2240/54		449
+F05D2240/55	8	Seals	CPCONLY	F05D2240/55		2382
+F05D2240/56	9	Brush seals	CPCONLY	F05D2240/56		502
+F05D2240/57	9	Leaf seals	CPCONLY	F05D2240/57		424
+F05D2240/58	9	Piston ring seals	CPCONLY	F05D2240/58		120
+F05D2240/581	10	Double or plural piston ring arrangements, i.e. two or more piston rings	CPCONLY	F05D2240/581		31
+F05D2240/59	9	Lamellar seals	CPCONLY	F05D2240/59		134
+F05D2240/60	8	Shafts	CPCONLY	F05D2240/60		704
+F05D2240/61	9	Hollow	CPCONLY	F05D2240/61		400
+F05D2240/62	9	Flexible	CPCONLY	F05D2240/62		46
+F05D2240/63	9	Glands for admission or removal of fluids from shafts	CPCONLY	F05D2240/63		65
+F05D2240/70	8	Slinger plates or washers	CPCONLY	F05D2240/70		98
+F05D2240/80	8	Platforms for stationary or moving blades	CPCONLY	F05D2240/80		966
+F05D2240/81	9	Cooled platforms	CPCONLY	F05D2240/81		1233
+F05D2240/90	8	Mounting on supporting structures or systems	CPCONLY	F05D2240/90		335
+F05D2240/91	9	on a stationary structure	CPCONLY	F05D2240/91		166
+F05D2250/00	7	Geometry<br><br><u>NOTE</u><br><br>Geometry indicates the shape or form of a component or the configuration or arrangement of components in a machine or in a plant 	CPCONLY	F05D2250/00		41
+F05D2250/10	8	Two-dimensional	CPCONLY	F05D2250/10		37
+F05D2250/11	9	triangular	CPCONLY	F05D2250/11		310
+F05D2250/12	9	rectangular	CPCONLY	F05D2250/12		207
+F05D2250/121	10	square	CPCONLY	F05D2250/121		88
+F05D2250/13	9	trapezoidal	CPCONLY	F05D2250/13		191
+F05D2250/131	10	polygonal	CPCONLY	F05D2250/131		121
+F05D2250/132	10	hexagonal	CPCONLY	F05D2250/132		101
+F05D2250/14	9	elliptical	CPCONLY	F05D2250/14		345
+F05D2250/141	10	circular	CPCONLY	F05D2250/141		282
+F05D2250/15	9	spiral	CPCONLY	F05D2250/15		223
+F05D2250/16	9	parabolic	CPCONLY	F05D2250/16		59
+F05D2250/17	9	hyperbolic	CPCONLY	F05D2250/17		19
+F05D2250/18	9	patterned	CPCONLY	F05D2250/18		121
+F05D2250/181	10	ridged	CPCONLY	F05D2250/181		135
+F05D2250/182	10	crenellated, notched	CPCONLY	F05D2250/182		427
+F05D2250/183	10	zigzag	CPCONLY	F05D2250/183		359
+F05D2250/184	10	sinusoidal	CPCONLY	F05D2250/184		410
+F05D2250/185	10	serpentine-like	CPCONLY	F05D2250/185		493
+F05D2250/19	9	machined; miscellaneous	CPCONLY	F05D2250/19		29
+F05D2250/191	10	perforated	CPCONLY	F05D2250/191		173
+F05D2250/192	10	bevelled	CPCONLY	F05D2250/192		75
+F05D2250/193	10	milled	CPCONLY	F05D2250/193		31
+F05D2250/20	8	Three-dimensional	CPCONLY	F05D2250/20		118
+F05D2250/21	9	pyramidal	CPCONLY	F05D2250/21		84
+F05D2250/22	9	parallelepipedal	CPCONLY	F05D2250/22		74
+F05D2250/221	10	cubic	CPCONLY	F05D2250/221		23
+F05D2250/23	9	prismatic	CPCONLY	F05D2250/23		177
+F05D2250/231	10	cylindrical	CPCONLY	F05D2250/231		307
+F05D2250/232	10	conical	CPCONLY	F05D2250/232		577
+F05D2250/24	9	ellipsoidal	CPCONLY	F05D2250/24		50
+F05D2250/241	10	spherical	CPCONLY	F05D2250/241		280
+F05D2250/25	9	helical	CPCONLY	F05D2250/25		461
+F05D2250/26	9	paraboloid	CPCONLY	F05D2250/26		25
+F05D2250/27	9	hyperboloid	CPCONLY	F05D2250/27		39
+F05D2250/28	9	patterned	CPCONLY	F05D2250/28		146
+F05D2250/281	10	threaded	CPCONLY	F05D2250/281		73
+F05D2250/282	10	cubic pattern	CPCONLY	F05D2250/282		26
+F05D2250/283	10	honeycomb	CPCONLY	F05D2250/283		578
+F05D2250/29	9	machined; miscellaneous	CPCONLY	F05D2250/29		52
+F05D2250/291	10	hollowed	CPCONLY	F05D2250/291		109
+F05D2250/292	10	tapered	CPCONLY	F05D2250/292		280
+F05D2250/293	10	lathed, e.g. rotation symmetrical	CPCONLY	F05D2250/293		49
+F05D2250/294	10	grooved	CPCONLY	F05D2250/294		391
+F05D2250/30	8	Arrangement of components	CPCONLY	F05D2250/30		86
+F05D2250/31	9	according to the direction of their main axis or their axis of rotation	CPCONLY	F05D2250/31		70
+F05D2250/311	10	the axes being in line	CPCONLY	F05D2250/311		189
+F05D2250/312	10	the axes being parallel to each other	CPCONLY	F05D2250/312		234
+F05D2250/313	10	the axes being perpendicular to each other	CPCONLY	F05D2250/313		158
+F05D2250/314	10	the axes being inclined in relation to each other	CPCONLY	F05D2250/314		569
+F05D2250/315	10	the main axis being substantially vertical	CPCONLY	F05D2250/315		24
+F05D2250/32	9	according to their shape	CPCONLY	F05D2250/32		32
+F05D2250/321	10	asymptotic	CPCONLY	F05D2250/321		1
+F05D2250/322	10	tangential	CPCONLY	F05D2250/322		93
+F05D2250/323	10	convergent	CPCONLY	F05D2250/323		281
+F05D2250/324	10	divergent	CPCONLY	F05D2250/324		365
+F05D2250/33	9	symmetrical	CPCONLY	F05D2250/33		61
+F05D2250/34	9	translated	CPCONLY	F05D2250/34		111
+F05D2250/35	9	rotated	CPCONLY	F05D2250/35		39
+F05D2250/36	9	in inner-outer relationship, e.g. shaft-bearing arrangements	CPCONLY	F05D2250/36		127
+F05D2250/37	9	circumferential	CPCONLY	F05D2250/37		70
+F05D2250/38	9	angled, e.g. sweep angle	CPCONLY	F05D2250/38		226
+F05D2250/40	8	Movement of components	CPCONLY	F05D2250/40		35
+F05D2250/41	9	with one degree of freedom	CPCONLY	F05D2250/41		162
+F05D2250/411	10	in rotation	CPCONLY	F05D2250/411		239
+F05D2250/42	9	with two degrees of freedom	CPCONLY	F05D2250/42		73
+F05D2250/43	9	with three degrees of freedom	CPCONLY	F05D2250/43		20
+F05D2250/44	9	by counter rotation	CPCONLY	F05D2250/44		63
+F05D2250/50	8	Inlet or outlet	CPCONLY	F05D2250/50		46
+F05D2250/51	9	Inlet	CPCONLY	F05D2250/51		1470
+F05D2250/511	10	augmenting, i.e. with intercepting fluid flow cross sectional area greater than the rest of the machine behind the inlet	CPCONLY	F05D2250/511		30
+F05D2250/512	10	concentrating only, i.e. with intercepting fluid flow cross sectional area not greater than the rest of the machine behind the inlet	CPCONLY	F05D2250/512		10
+F05D2250/52	9	Outlet	CPCONLY	F05D2250/52		1837
+F05D2250/53	9	of regenerative pumps	CPCONLY	F05D2250/53		7
+F05D2250/60	8	Structure; Surface texture	CPCONLY	F05D2250/60		114
+F05D2250/61	9	corrugated	CPCONLY	F05D2250/61		235
+F05D2250/611	10	undulated	CPCONLY	F05D2250/611		195
+F05D2250/62	9	smooth or fine	CPCONLY	F05D2250/62		60
+F05D2250/621	10	polished	CPCONLY	F05D2250/621		56
+F05D2250/63	9	coarse	CPCONLY	F05D2250/63		41
+F05D2250/70	8	Shape	CPCONLY	F05D2250/70		898
+F05D2250/71	9	curved	CPCONLY	F05D2250/71		667
+F05D2250/711	10	convex	CPCONLY	F05D2250/711		413
+F05D2250/712	10	concave	CPCONLY	F05D2250/712		445
+F05D2250/713	10	inflexed	CPCONLY	F05D2250/713		205
+F05D2250/72	9	symmetric	CPCONLY	F05D2250/72		49
+F05D2250/73	9	asymmetric	CPCONLY	F05D2250/73		170
+F05D2250/74	9	given by a set or table of xyz-coordinates	CPCONLY	F05D2250/74		443
+F05D2250/75	9	given by its similarity to a letter, e.g. T-shaped	CPCONLY	F05D2250/75		647
+F05D2250/80	8	Size or power range of the machines	CPCONLY	F05D2250/80		57
+F05D2250/82	9	Micromachines	CPCONLY	F05D2250/82		230
+F05D2250/84	9	Nanomachines	CPCONLY	F05D2250/84		33
+F05D2250/90	8	Variable geometry	CPCONLY	F05D2250/90		235
+F05D2260/00	7	Function	CPCONLY	F05D2260/00		9
+F05D2260/02	8	Transport and handling during maintenance and repair	CPCONLY	F05D2260/02		151
+F05D2260/10	8	Particular cycles	CPCONLY	F05D2260/10		34
+F05D2260/12	8	Testing on a test bench	CPCONLY	F05D2260/12		179
+F05D2260/14	8	Preswirling	CPCONLY	F05D2260/14		242
+F05D2260/15	8	Load balancing	CPCONLY	F05D2260/15		181
+F05D2260/16	8	Fluid modulation at a certain frequency	CPCONLY	F05D2260/16		44
+F05D2260/20	8	Heat transfer, e.g. cooling	CPCONLY	F05D2260/20		1832
+F05D2260/201	9	by impingement of a fluid	CPCONLY	F05D2260/201		1840
+F05D2260/202	9	by film cooling	CPCONLY	F05D2260/202		2117
+F05D2260/203	9	by transpiration cooling	CPCONLY	F05D2260/203		145
+F05D2260/204	9	by the use of microcircuits	CPCONLY	F05D2260/204		394
+F05D2260/205	9	Cooling fluid recirculation, i.e. after cooling one or more components is the cooling fluid recovered and used elsewhere for other purposes	CPCONLY	F05D2260/205		634
+F05D2260/207	9	using a phase changing mass, e.g. heat absorbing by melting or boiling	CPCONLY	F05D2260/207		136
+F05D2260/208	9	using heat pipes	CPCONLY	F05D2260/208		176
+F05D2260/209	9	using vortex tubes	CPCONLY	F05D2260/209		41
+F05D2260/211	9	by intercooling, e.g. during a compression cycle	CPCONLY	F05D2260/211		302
+F05D2260/212	9	by water injection	CPCONLY	F05D2260/212		202
+F05D2260/213	9	by the provision of a heat exchanger within the cooling circuit	CPCONLY	F05D2260/213		1644
+F05D2260/221	9	Improvement of heat transfer	CPCONLY	F05D2260/221		423
+F05D2260/2212	10	by creating turbulence	CPCONLY	F05D2260/2212		868
+F05D2260/2214	10	by increasing the heat transfer surface	CPCONLY	F05D2260/2214		400
+F05D2260/22141	11	using fins or ribs	CPCONLY	F05D2260/22141		1136
+F05D2260/231	9	Preventing heat transfer	CPCONLY	F05D2260/231		481
+F05D2260/232	9	characterized by the cooling medium	CPCONLY	F05D2260/232		563
+F05D2260/2322	10	steam	CPCONLY	F05D2260/2322		331
+F05D2260/234	9	of the generator by compressor inlet air	CPCONLY	F05D2260/234		23
+F05D2260/24	9	for draft enhancement in chimneys, using solar or other heat sources	CPCONLY	F05D2260/24		13
+F05D2260/30	8	Retaining components in desired mutual position	CPCONLY	F05D2260/30		1907
+F05D2260/31	9	Retaining bolts or nuts	CPCONLY	F05D2260/31		1164
+F05D2260/311	10	of the frangible or shear type	CPCONLY	F05D2260/311		134
+F05D2260/32	9	by means of magnetic or electromagnetic forces	CPCONLY	F05D2260/32		44
+F05D2260/33	9	with a bayonet coupling	CPCONLY	F05D2260/33		170
+F05D2260/34	9	Balancing of radial or axial forces on regenerative rotors	CPCONLY	F05D2260/34		61
+F05D2260/35	9	Reducing friction between regenerative impeller discs and casing walls	CPCONLY	F05D2260/35		20
+F05D2260/36	9	by a form fit connection, e.g. by interlocking	CPCONLY	F05D2260/36		1115
+F05D2260/37	9	by a press fit connection	CPCONLY	F05D2260/37		353
+F05D2260/38	9	by a spring, i.e. spring loaded or biased towards a certain position	CPCONLY	F05D2260/38		650
+F05D2260/39	9	by a V-shaped ring to join the flanges of two cylindrical sections, e.g. casing sections of a turbocharger	CPCONLY	F05D2260/39		85
+F05D2260/40	8	Transmission of power	CPCONLY	F05D2260/40		214
+F05D2260/402	9	through friction drives	CPCONLY	F05D2260/402		33
+F05D2260/4021	10	through belt drives	CPCONLY	F05D2260/4021		49
+F05D2260/4022	10	through endless chains	CPCONLY	F05D2260/4022		3
+F05D2260/4023	10	through a friction clutch	CPCONLY	F05D2260/4023		226
+F05D2260/403	9	through the shape of the drive components	CPCONLY	F05D2260/403		75
+F05D2260/4031	10	as in toothed gearing	CPCONLY	F05D2260/4031		785
+F05D2260/40311	11	of the epicyclical, planetary or differential type	CPCONLY	F05D2260/40311		1623
+F05D2260/404	9	through magnetic drive coupling	CPCONLY	F05D2260/404		62
+F05D2260/4041	10	the driven magnets encircling the driver magnets	CPCONLY	F05D2260/4041		11
+F05D2260/406	9	through hydraulic systems	CPCONLY	F05D2260/406		153
+F05D2260/407	9	through piezoelectric conversion	CPCONLY	F05D2260/407		59
+F05D2260/408	9	through magnetohydrodynamic conversion	CPCONLY	F05D2260/408		8
+F05D2260/42	8	Storage of energy	CPCONLY	F05D2260/42		212
+F05D2260/43	9	in the form of rotational kinetic energy, e.g. in flywheels	CPCONLY	F05D2260/43		35
+F05D2260/50	8	Kinematic linkage, i.e. transmission of position	CPCONLY	F05D2260/50		455
+F05D2260/52	9	involving springs	CPCONLY	F05D2260/52		190
+F05D2260/53	9	using gears	CPCONLY	F05D2260/53		152
+F05D2260/532	10	of the bevelled or angled type	CPCONLY	F05D2260/532		51
+F05D2260/54	9	using flat or V-belts and pulleys	CPCONLY	F05D2260/54		23
+F05D2260/55	9	using chains and sprockets; using toothed belts	CPCONLY	F05D2260/55		7
+F05D2260/56	9	using cams or eccentrics	CPCONLY	F05D2260/56		204
+F05D2260/57	9	using servos, independent actuators, etc.	CPCONLY	F05D2260/57		201
+F05D2260/60	8	Fluid transfer	CPCONLY	F05D2260/60		1076
+F05D2260/601	9	using an ejector or a jet pump	CPCONLY	F05D2260/601		467
+F05D2260/602	9	Drainage	CPCONLY	F05D2260/602		552
+F05D2260/6022	10	of leakage having past a seal	CPCONLY	F05D2260/6022		357
+F05D2260/604	9	Vortex non-clogging type pumps	CPCONLY	F05D2260/604		78
+F05D2260/605	9	Venting into the ambient atmosphere or the like	CPCONLY	F05D2260/605		152
+F05D2260/606	9	Bypassing the fluid	CPCONLY	F05D2260/606		661
+F05D2260/607	9	Preventing clogging or obstruction of flow paths by dirt, dust, or foreign particles	CPCONLY	F05D2260/607		994
+F05D2260/608	9	Aeration, ventilation, dehumidification or moisture removal of closed spaces	CPCONLY	F05D2260/608		232
+F05D2260/609	9	Deoiling or demisting	CPCONLY	F05D2260/609		215
+F05D2260/61	9	Removal of CO2	CPCONLY	F05D2260/61		176
+F05D2260/611	9	Sequestration of CO2	CPCONLY	F05D2260/611		53
+F05D2260/70	8	Adjusting of angle of incidence or attack of rotating blades	CPCONLY	F05D2260/70		127
+F05D2260/71	9	as a function of flow velocity	CPCONLY	F05D2260/71		12
+F05D2260/72	9	by turning around an axis parallel to the rotor centre line	CPCONLY	F05D2260/72		19
+F05D2260/74	9	by turning around an axis perpendicular the rotor centre line	CPCONLY	F05D2260/74		432
+F05D2260/75	9	the adjusting mechanism not using auxiliary power sources, e.g. by "servos"	CPCONLY	F05D2260/75		23
+F05D2260/76	9	the adjusting mechanism using auxiliary power sources	CPCONLY	F05D2260/76		304
+F05D2260/77	9	the adjusting mechanism driven or triggered by centrifugal forces	CPCONLY	F05D2260/77		35
+F05D2260/78	9	the adjusting mechanism driven or triggered by aerodynamic forces	CPCONLY	F05D2260/78		7
+F05D2260/79	9	Bearing, support or actuation arrangements therefor	CPCONLY	F05D2260/79		217
+F05D2260/80	8	Diagnostics	CPCONLY	F05D2260/80		2019
+F05D2260/81	8	Modelling or simulation	CPCONLY	F05D2260/81		557
+F05D2260/82	8	Forecasts	CPCONLY	F05D2260/82		115
+F05D2260/821	9	Parameter estimation or prediction	CPCONLY	F05D2260/821		259
+F05D2260/83	8	Testing, e.g. methods, components or tools therefor	CPCONLY	F05D2260/83		764
+F05D2260/84	8	Redundancy	CPCONLY	F05D2260/84		203
+F05D2260/85	8	Starting	CPCONLY	F05D2260/85		865
+F05D2260/90	8	Braking	CPCONLY	F05D2260/90		67
+F05D2260/901	9	using aerodynamic forces, i.e. lift or drag	CPCONLY	F05D2260/901		13
+F05D2260/902	9	using frictional mechanical forces	CPCONLY	F05D2260/902		81
+F05D2260/903	9	using electrical or magnetic forces	CPCONLY	F05D2260/903		60
+F05D2260/904	9	using hydrodynamic forces	CPCONLY	F05D2260/904		14
+F05D2260/94	8	Functionality given by mechanical stress related aspects such as low cycle fatigue [LCF] of high cycle fatigue [HCF]	CPCONLY	F05D2260/94		219
+F05D2260/941	9	particularly aimed at mechanical or thermal stress reduction	CPCONLY	F05D2260/941		774
+F05D2260/95	8	Preventing corrosion	CPCONLY	F05D2260/95		435
+F05D2260/96	8	Preventing, counteracting or reducing vibration or noise	CPCONLY	F05D2260/96		2776
+F05D2260/961	9	by mistuning rotor blades or stator vanes with irregular interblade spacing, airfoil shape	CPCONLY	F05D2260/961		305
+F05D2260/962	9	by means of "anti-noise"	CPCONLY	F05D2260/962		190
+F05D2260/963	9	by Helmholtz resonators	CPCONLY	F05D2260/963		347
+F05D2260/964	9	counteracting thermoacoustic noise	CPCONLY	F05D2260/964		104
+F05D2260/97	8	Reducing windage losses	CPCONLY	F05D2260/97		92
+F05D2260/972	9	in radial flow machines	CPCONLY	F05D2260/972		8
+F05D2260/98	8	Lubrication	CPCONLY	F05D2260/98		1236
+F05D2260/99	8	Ignition, e.g. ignition by warming up of fuel or oxidizer in a resonant acoustic cavity	CPCONLY	F05D2260/99		152
+F05D2270/00	7	Control	CPCONLY	F05D2270/00		53
+F05D2270/01	8	Purpose of the control system	CPCONLY	F05D2270/01		34
+F05D2270/02	9	to control rotational speed (n)	CPCONLY	F05D2270/02		414
+F05D2270/021	10	to prevent overspeed	CPCONLY	F05D2270/021		282
+F05D2270/022	10	to prevent underspeed	CPCONLY	F05D2270/022		25
+F05D2270/023	10	of different spools or shafts	CPCONLY	F05D2270/023		94
+F05D2270/024	10	to keep rotational speed constant	CPCONLY	F05D2270/024		67
+F05D2270/03	9	in variable speed operation	CPCONLY	F05D2270/03		59
+F05D2270/04	9	to control acceleration (u)	CPCONLY	F05D2270/04		130
+F05D2270/042	10	by keeping it below damagingly high values	CPCONLY	F05D2270/042		43
+F05D2270/044	10	by making it as high as possible	CPCONLY	F05D2270/044		27
+F05D2270/05	9	to affect the output of the engine	CPCONLY	F05D2270/05		173
+F05D2270/051	10	Thrust	CPCONLY	F05D2270/051		220
+F05D2270/052	10	Torque	CPCONLY	F05D2270/052		91
+F05D2270/053	10	Explicitly mentioned power	CPCONLY	F05D2270/053		235
+F05D2270/06	9	to match engine to driven device	CPCONLY	F05D2270/06		67
+F05D2270/061	10	in particular the electrical frequency of driven generator	CPCONLY	F05D2270/061		127
+F05D2270/07	9	to improve fuel economy	CPCONLY	F05D2270/07		123
+F05D2270/071	10	in particular at idling speed	CPCONLY	F05D2270/071		25
+F05D2270/08	9	to produce clean exhaust gases	CPCONLY	F05D2270/08		254
+F05D2270/081	10	with as little smoke as possible	CPCONLY	F05D2270/081		31
+F05D2270/082	10	with as little NOx as possible	CPCONLY	F05D2270/082		332
+F05D2270/083	10	by monitoring combustion conditions	CPCONLY	F05D2270/083		120
+F05D2270/0831	11	indirectly, at the exhaust	CPCONLY	F05D2270/0831		111
+F05D2270/09	9	to cope with emergencies	CPCONLY	F05D2270/09		337
+F05D2270/091	10	in particular sudden load loss	CPCONLY	F05D2270/091		112
+F05D2270/092	10	in particular blow-out and relight	CPCONLY	F05D2270/092		112
+F05D2270/093	10	of one engine in a multi-engine system	CPCONLY	F05D2270/093		51
+F05D2270/094	10	by using back-up controls	CPCONLY	F05D2270/094		73
+F05D2270/095	10	by temporary overriding set control limits	CPCONLY	F05D2270/095		32
+F05D2270/096	10	caused by water or hail ingestion	CPCONLY	F05D2270/096		24
+F05D2270/10	9	to cope with, or avoid, compressor flow instabilities	CPCONLY	F05D2270/10		83
+F05D2270/101	10	Compressor surge or stall	CPCONLY	F05D2270/101		527
+F05D2270/102	11	caused by working fluid flow velocity profile distortion	CPCONLY	F05D2270/102		47
+F05D2270/1022	12	due to high angle of attack of aircraft	CPCONLY	F05D2270/1022		10
+F05D2270/1024	12	due to compressor degradation	CPCONLY	F05D2270/1024		7
+F05D2270/11	9	to prolong engine life	CPCONLY	F05D2270/11		220
+F05D2270/112	10	by limiting temperatures	CPCONLY	F05D2270/112		234
+F05D2270/114	10	by limiting mechanical stresses	CPCONLY	F05D2270/114		178
+F05D2270/116	10	by preventing reverse rotation	CPCONLY	F05D2270/116		18
+F05D2270/12	9	to maintain desired vehicle trajectory parameters	CPCONLY	F05D2270/12		17
+F05D2270/121	10	Altitude	CPCONLY	F05D2270/121		13
+F05D2270/122	10	Speed or Mach number	CPCONLY	F05D2270/122		14
+F05D2270/13	9	to control two or more engines simultaneously	CPCONLY	F05D2270/13		118
+F05D2270/14	9	to control thermoacoustic behaviour in the combustion chambers	CPCONLY	F05D2270/14		99
+F05D2270/16	9	to control water or steam injection	CPCONLY	F05D2270/16		73
+F05D2270/17	9	to control boundary layer	CPCONLY	F05D2270/17		198
+F05D2270/172	10	by a plasma generator, e.g. control of ignition	CPCONLY	F05D2270/172		136
+F05D2270/173	10	by the Coanda effect	CPCONLY	F05D2270/173		52
+F05D2270/18	9	using fluidic amplifiers or actuators	CPCONLY	F05D2270/18		24
+F05D2270/20	9	to optimize the performance of a machine	CPCONLY	F05D2270/20		211
+F05D2270/30	8	Control parameters, e.g. input parameters	CPCONLY	F05D2270/30		137
+F05D2270/301	9	Pressure	CPCONLY	F05D2270/301		870
+F05D2270/3011	10	Inlet pressure	CPCONLY	F05D2270/3011		148
+F05D2270/3013	10	Outlet pressure	CPCONLY	F05D2270/3013		196
+F05D2270/3015	10	differential pressure	CPCONLY	F05D2270/3015		300
+F05D2270/303	9	Temperature	CPCONLY	F05D2270/303		1701
+F05D2270/3032	10	excessive temperatures, e.g. caused by overheating	CPCONLY	F05D2270/3032		194
+F05D2270/304	9	Spool rotational speed	CPCONLY	F05D2270/304		875
+F05D2270/305	9	Tolerances	CPCONLY	F05D2270/305		57
+F05D2270/306	9	Mass flow	CPCONLY	F05D2270/306		174
+F05D2270/3061	10	of the working fluid	CPCONLY	F05D2270/3061		250
+F05D2270/3062	10	of the auxiliary fluid for heating or cooling purposes	CPCONLY	F05D2270/3062		90
+F05D2270/309	9	Rate of change of parameters	CPCONLY	F05D2270/309		112
+F05D2270/31	9	Fuel schedule for stage combustors	CPCONLY	F05D2270/31		118
+F05D2270/311	9	Air humidity	CPCONLY	F05D2270/311		136
+F05D2270/312	9	Air pressure	CPCONLY	F05D2270/312		67
+F05D2270/313	9	Air temperature	CPCONLY	F05D2270/313		243
+F05D2270/331	9	Mechanical loads	CPCONLY	F05D2270/331		91
+F05D2270/332	9	Maximum loads or fatigue criteria	CPCONLY	F05D2270/332		53
+F05D2270/333	9	Noise or sound levels	CPCONLY	F05D2270/333		100
+F05D2270/334	9	Vibration measurements	CPCONLY	F05D2270/334		269
+F05D2270/335	9	Output power or torque	CPCONLY	F05D2270/335		392
+F05D2270/336	9	Blade lift measurements	CPCONLY	F05D2270/336		3
+F05D2270/40	8	Type of control system	CPCONLY	F05D2270/40		5
+F05D2270/42	9	passive or reactive, e.g. using large wind vanes	CPCONLY	F05D2270/42		100
+F05D2270/44	9	active, predictive, or anticipative	CPCONLY	F05D2270/44		402
+F05D2270/46	9	redundant, i.e. failsafe operation	CPCONLY	F05D2270/46		64
+F05D2270/50	8	Control logic embodiments	CPCONLY	F05D2270/50		11
+F05D2270/52	9	by electrical means, e.g. relays or switches	CPCONLY	F05D2270/52		166
+F05D2270/54	9	by electronic means, e.g. electronic tubes, transistors or IC&apos;s within an electronic circuit	CPCONLY	F05D2270/54		190
+F05D2270/56	9	by hydraulic means, e.g. hydraulic valves within a hydraulic circuit	CPCONLY	F05D2270/56		57
+F05D2270/58	9	by mechanical means, e.g. levers, gears or cams	CPCONLY	F05D2270/58		61
+F05D2270/60	8	Control system actuates means	CPCONLY	F05D2270/60		30
+F05D2270/62	9	Electrical actuators	CPCONLY	F05D2270/62		321
+F05D2270/64	9	Hydraulic actuators	CPCONLY	F05D2270/64		320
+F05D2270/65	9	Pneumatic actuators	CPCONLY	F05D2270/65		105
+F05D2270/66	9	Mechanical actuators (F05D2270/62 takes precedence)	CPCONLY	F05D2270/66		87
+F05D2270/70	8	Type of control algorithm	CPCONLY	F05D2270/70		77
+F05D2270/701	9	proportional	CPCONLY	F05D2270/701		21
+F05D2270/702	9	differential	CPCONLY	F05D2270/702		24
+F05D2270/703	9	integral	CPCONLY	F05D2270/703		11
+F05D2270/704	9	proportional-differential	CPCONLY	F05D2270/704		7
+F05D2270/705	9	proportional-integral	CPCONLY	F05D2270/705		33
+F05D2270/706	9	proportional-integral-differential	CPCONLY	F05D2270/706		125
+F05D2270/707	9	fuzzy logic	CPCONLY	F05D2270/707		41
+F05D2270/708	9	with comparison tables	CPCONLY	F05D2270/708		136
+F05D2270/709	9	with neural networks	CPCONLY	F05D2270/709		158
+F05D2270/71	9	synthesized, i.e. parameter computed by a mathematical model	CPCONLY	F05D2270/71		295
+F05D2270/80	8	Devices generating input signals, e.g. transducers, sensors, cameras or strain gauges	CPCONLY	F05D2270/80		429
+F05D2270/802	9	Calibration thereof	CPCONLY	F05D2270/802		39
+F05D2270/803	9	Sampling thereof	CPCONLY	F05D2270/803		25
+F05D2270/804	9	Optical devices	CPCONLY	F05D2270/804		233
+F05D2270/8041	10	Cameras	CPCONLY	F05D2270/8041		197
+F05D2270/805	9	Radars	CPCONLY	F05D2270/805		20
+F05D2270/806	9	Sonars	CPCONLY	F05D2270/806		19
+F05D2270/807	9	Accelerometers	CPCONLY	F05D2270/807		43
+F05D2270/808	9	Strain gauges; Load cells	CPCONLY	F05D2270/808		63
+F05D2270/809	9	Encoders	CPCONLY	F05D2270/809		15
+F05D2270/81	9	Microphones	CPCONLY	F05D2270/81		48
+F05D2270/821	9	Displacement measuring means, e.g. inductive	CPCONLY	F05D2270/821		170
+F05D2300/00	7	Materials; Properties thereof	CPCONLY	F05D2300/00		8
+F05D2300/10	8	Metals, alloys or intermetallic compounds	CPCONLY	F05D2300/10		428
+F05D2300/11	9	Iron	CPCONLY	F05D2300/11		93
+F05D2300/111	10	Cast iron	CPCONLY	F05D2300/111		50
+F05D2300/12	9	Light metals	CPCONLY	F05D2300/12		24
+F05D2300/121	10	Aluminium	CPCONLY	F05D2300/121		470
+F05D2300/122	10	Beryllium	CPCONLY	F05D2300/122		3
+F05D2300/123	10	Boron	CPCONLY	F05D2300/123		21
+F05D2300/124	10	Lithium	CPCONLY	F05D2300/124		2
+F05D2300/125	10	Magnesium	CPCONLY	F05D2300/125		43
+F05D2300/13	9	Refractory metals, i.e. Ti, V, Cr, Zr, Nb, Mo, Hf, Ta, W	CPCONLY	F05D2300/13		142
+F05D2300/131	10	Molybdenum	CPCONLY	F05D2300/131		110
+F05D2300/132	10	Chromium	CPCONLY	F05D2300/132		224
+F05D2300/133	10	Titanium	CPCONLY	F05D2300/133		406
+F05D2300/134	10	Zirconium	CPCONLY	F05D2300/134		61
+F05D2300/135	10	Hafnium	CPCONLY	F05D2300/135		21
+F05D2300/14	9	Noble metals, i.e. Ag, Au, platinum group metals	CPCONLY	F05D2300/14		15
+F05D2300/141	10	Silver	CPCONLY	F05D2300/141		16
+F05D2300/142	10	Gold	CPCONLY	F05D2300/142		11
+F05D2300/143	10	Platinum group metals, i.e. Os, Ir, Pt, Ru, Rh, Pd	CPCONLY	F05D2300/143		89
+F05D2300/1431	11	Palladium	CPCONLY	F05D2300/1431		7
+F05D2300/1432	11	Ruthenium	CPCONLY	F05D2300/1432		8
+F05D2300/1433	11	Osmium	CPCONLY	F05D2300/1433		1
+F05D2300/1434	11	Iridium	CPCONLY	F05D2300/1434		3
+F05D2300/1435	11	Rhodium	CPCONLY	F05D2300/1435		6
+F05D2300/15	9	Rare earth metals, i.e. Sc, Y, lanthanides	CPCONLY	F05D2300/15		179
+F05D2300/16	9	Other metals not provided for in groups F05D2300/11&#160;-&#160;F05D2300/15	CPCONLY	F05D2300/16		50
+F05D2300/1602	10	Arsenic	CPCONLY	F05D2300/1602		
+F05D2300/1604	10	Antimony	CPCONLY	F05D2300/1604		1
+F05D2300/1606	10	Bismuth	CPCONLY	F05D2300/1606		6
+F05D2300/1608	10	Barium	CPCONLY	F05D2300/1608		1
+F05D2300/161	10	Manganese	CPCONLY	F05D2300/161		14
+F05D2300/1612	10	Lead	CPCONLY	F05D2300/1612		8
+F05D2300/1614	10	Tin	CPCONLY	F05D2300/1614		9
+F05D2300/1616	10	Zinc	CPCONLY	F05D2300/1616		27
+F05D2300/1618	10	Mercury	CPCONLY	F05D2300/1618		1
+F05D2300/17	9	Alloys	CPCONLY	F05D2300/17		296
+F05D2300/171	10	Steel alloys	CPCONLY	F05D2300/171		505
+F05D2300/172	10	Copper alloys	CPCONLY	F05D2300/172		83
+F05D2300/1721	11	Bronze	CPCONLY	F05D2300/1721		24
+F05D2300/1722	11	Phosphor-bronze alloy	CPCONLY	F05D2300/1722		
+F05D2300/1723	11	Nickel-Copper alloy, e.g. Monel	CPCONLY	F05D2300/1723		40
+F05D2300/173	10	Aluminium alloys, e.g. AlCuMgPb	CPCONLY	F05D2300/173		317
+F05D2300/174	10	Titanium alloys, e.g. TiAl	CPCONLY	F05D2300/174		372
+F05D2300/175	10	Superalloys	CPCONLY	F05D2300/175		560
+F05D2300/176	10	Heat-stable alloys	CPCONLY	F05D2300/176		44
+F05D2300/177	10	Ni - Si alloys	CPCONLY	F05D2300/177		189
+F05D2300/18	9	Intermetallic compounds	CPCONLY	F05D2300/18		17
+F05D2300/182	10	Metal-aluminide intermetallic compounds	CPCONLY	F05D2300/182		42
+F05D2300/20	8	Oxide or non-oxide ceramics	CPCONLY	F05D2300/20		469
+F05D2300/21	9	Oxide ceramics	CPCONLY	F05D2300/21		508
+F05D2300/2102	10	Glass	CPCONLY	F05D2300/2102		111
+F05D2300/2104	10	MIBA	CPCONLY	F05D2300/2104		
+F05D2300/2106	10	Quartz	CPCONLY	F05D2300/2106		8
+F05D2300/2108	10	Phosphor	CPCONLY	F05D2300/2108		6
+F05D2300/211	10	Silica	CPCONLY	F05D2300/211		166
+F05D2300/2112	10	Aluminium oxides	CPCONLY	F05D2300/2112		257
+F05D2300/2114	10	Sapphire	CPCONLY	F05D2300/2114		2
+F05D2300/2116	10	Zinc oxide	CPCONLY	F05D2300/2116		5
+F05D2300/2118	10	Zirconium oxides	CPCONLY	F05D2300/2118		288
+F05D2300/212	10	Aluminium titanate	CPCONLY	F05D2300/212		13
+F05D2300/22	9	Non-oxide ceramics	CPCONLY	F05D2300/22		54
+F05D2300/222	10	Silicon	CPCONLY	F05D2300/222		146
+F05D2300/224	10	Carbon, e.g. graphite	CPCONLY	F05D2300/224		418
+F05D2300/226	10	Carbides	CPCONLY	F05D2300/226		83
+F05D2300/2261	11	of silicon	CPCONLY	F05D2300/2261		376
+F05D2300/2262	11	of titanium, e.g. TiC	CPCONLY	F05D2300/2262		34
+F05D2300/2263	11	of tungsten, e.g. WC	CPCONLY	F05D2300/2263		71
+F05D2300/228	10	Nitrides	CPCONLY	F05D2300/228		75
+F05D2300/2281	11	of aluminium	CPCONLY	F05D2300/2281		30
+F05D2300/2282	11	of boron	CPCONLY	F05D2300/2282		93
+F05D2300/2283	11	of silicon	CPCONLY	F05D2300/2283		129
+F05D2300/2284	11	of titanium	CPCONLY	F05D2300/2284		42
+F05D2300/2285	11	of zirconium	CPCONLY	F05D2300/2285		18
+F05D2300/229	10	Sulfides	CPCONLY	F05D2300/229		7
+F05D2300/2291	11	of molybdenum	CPCONLY	F05D2300/2291		24
+F05D2300/30	8	Inorganic materials other than provided for in groups F05D2300/10&#160;-&#160;F05D2300/2291	CPCONLY	F05D2300/30		51
+F05D2300/40	8	Organic materials	CPCONLY	F05D2300/40		33
+F05D2300/41	9	Leather	CPCONLY	F05D2300/41		2
+F05D2300/42	9	Cellulosic materials, e.g. wood	CPCONLY	F05D2300/42		20
+F05D2300/43	9	Synthetic polymers, e.g. plastics; Rubber	CPCONLY	F05D2300/43		1446
+F05D2300/431	10	Rubber	CPCONLY	F05D2300/431		204
+F05D2300/432	10	PTFE [PolyTetraFluorEthylene]	CPCONLY	F05D2300/432		125
+F05D2300/433	10	Polyamides, e.g. NYLON	CPCONLY	F05D2300/433		111
+F05D2300/434	10	Polyimides, e.g. AURUM	CPCONLY	F05D2300/434		69
+F05D2300/436	10	Polyetherketones, e.g. PEEK	CPCONLY	F05D2300/436		79
+F05D2300/437	10	Silicon polymers	CPCONLY	F05D2300/437		107
+F05D2300/44	9	Resins	CPCONLY	F05D2300/44		280
+F05D2300/48	9	other organic materials	CPCONLY	F05D2300/48		17
+F05D2300/50	8	Intrinsic material properties or characteristics	CPCONLY	F05D2300/50		100
+F05D2300/501	9	Elasticity	CPCONLY	F05D2300/501		480
+F05D2300/502	9	Thermal properties	CPCONLY	F05D2300/502		143
+F05D2300/5021	10	Expansivity	CPCONLY	F05D2300/5021		131
+F05D2300/50211	11	similar	CPCONLY	F05D2300/50211		42
+F05D2300/50212	11	dissimilar	CPCONLY	F05D2300/50212		350
+F05D2300/5023	10	Thermal capacity	CPCONLY	F05D2300/5023		57
+F05D2300/5024	10	Heat conductivity	CPCONLY	F05D2300/5024		202
+F05D2300/504	9	Reflective properties	CPCONLY	F05D2300/504		26
+F05D2300/505	9	Shape memory behaviour	CPCONLY	F05D2300/505		299
+F05D2300/506	9	Hardness	CPCONLY	F05D2300/506		204
+F05D2300/507	9	Magnetic properties	CPCONLY	F05D2300/507		151
+F05D2300/509	9	Self lubricating materials; Solid lubricants	CPCONLY	F05D2300/509		106
+F05D2300/51	9	Hydrophilic, i.e. being or having wettable properties	CPCONLY	F05D2300/51		26
+F05D2300/512	9	Hydrophobic, i.e. being or having non-wettable properties	CPCONLY	F05D2300/512		98
+F05D2300/514	9	Porosity	CPCONLY	F05D2300/514		273
+F05D2300/516	9	Surface roughness	CPCONLY	F05D2300/516		127
+F05D2300/518	9	Ductility	CPCONLY	F05D2300/518		55
+F05D2300/52	9	Translucence	CPCONLY	F05D2300/52		5
+F05D2300/522	9	Density	CPCONLY	F05D2300/522		93
+F05D2300/60	8	Properties or characteristics given to material by treatment or manufacturing	CPCONLY	F05D2300/60		37
+F05D2300/601	9	Fabrics	CPCONLY	F05D2300/601		133
+F05D2300/6012	10	Woven fabrics	CPCONLY	F05D2300/6012		232
+F05D2300/603	9	Composites; e.g. fibre-reinforced	CPCONLY	F05D2300/603		2020
+F05D2300/6031	10	Functionally graded composites	CPCONLY	F05D2300/6031		35
+F05D2300/6032	10	Metal matrix composites [MMC]	CPCONLY	F05D2300/6032		198
+F05D2300/6033	10	Ceramic matrix composites [CMC]	CPCONLY	F05D2300/6033		1880
+F05D2300/6034	10	Orientation of fibres, weaving, ply angle	CPCONLY	F05D2300/6034		417
+F05D2300/604	9	Amorphous	CPCONLY	F05D2300/604		23
+F05D2300/605	9	Crystalline	CPCONLY	F05D2300/605		64
+F05D2300/606	9	Directionally-solidified crystalline structures	CPCONLY	F05D2300/606		92
+F05D2300/607	9	Monocrystallinity	CPCONLY	F05D2300/607		196
+F05D2300/608	9	Microstructure	CPCONLY	F05D2300/608		81
+F05D2300/609	9	Grain size	CPCONLY	F05D2300/609		59
+F05D2300/61	9	Syntactic materials, i.e. hollow spheres embedded in a matrix	CPCONLY	F05D2300/61		34
+F05D2300/611	9	Coating	CPCONLY	F05D2300/611		1198
+F05D2300/6111	9	functionally graded coating	CPCONLY	F05D2300/6111		53
+F05D2300/612	9	Foam	CPCONLY	F05D2300/612		320
+F05D2300/613	9	Felt	CPCONLY	F05D2300/613		47
+F05D2300/614	9	Fibres or filaments	CPCONLY	F05D2300/614		434
+F05D2300/615	9	Filler	CPCONLY	F05D2300/615		89
+F05D2300/70	8	Treatment or modification of materials	CPCONLY	F05D2300/70		14
+F05D2300/701	9	Heat treatment	CPCONLY	F05D2300/701		88
+F05D2300/702	9	Reinforcement	CPCONLY	F05D2300/702		210

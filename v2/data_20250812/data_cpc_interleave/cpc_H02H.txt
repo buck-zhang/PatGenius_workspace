@@ -1,0 +1,238 @@
+H02H1/00	7	Details of emergency protective circuit arrangements	H02H1/00	H02H1/00		704
+H02H1/0007	8	{concerning the detecting means (in general G01R or other subclasses of G01; reed switches H01H71/2445)}	H02H1/00	H02H1/00		5228
+H02H1/0015	9	{Using arc detectors}	H02H1/00	H02H1/00		1452
+H02H1/0023	10	{sensing non electrical parameters, e.g. by optical, pneumatic, thermal or sonic sensors}	H02H1/00	H02H1/00		403
+H02H1/003	9	{Fault detection by injection of an auxiliary voltage (same for detection of earth fault currents H02H3/17; for monitoring earth connection H02H5/105)}	H02H1/00	H02H1/00		214
+H02H1/0038	8	{concerning the connection of the detecting means, e.g. for reducing their number}	H02H1/00	H02H1/00		248
+H02H1/0046	9	{Commutating the detecting means in dependance of the fault, e.g. for reducing their number}	H02H1/00	H02H1/00		276
+H02H1/0053	9	{Means for storing the measured quantities during a predetermined time}	H02H1/00	H02H1/00		123
+H02H1/0061	8	{concerning transmission of signals (transmission of measured quantities or switching orders; sectionalised protection involving signal transmission between at least two stations H02H7/261; comparison of the voltage or current values at two spaced portions of a single system H02H3/28; transferring the output of a sensing member to another variable G01D5/00; electrical measuring arrangements using modulation of electromagnetic waves, e.g. light beams G01R15/24, G01R15/26)}	H02H1/00	H02H1/00		1384
+H02H1/0069	9	{by means of light or heat rays}	H02H1/00	H02H1/00		276
+H02H1/0076	9	{by superposition on the watched current}	H02H1/00	H02H1/00		88
+H02H1/0084	9	{by means of pilot wires or a telephone network; watching of these wires}	H02H1/00	H02H1/00		208
+H02H1/0092	8	{concerning the data processing means, e.g. expert systems, neural networks}	H02H1/00	H02H1/00		1862
+H02H1/04	8	Arrangements for preventing response to transient abnormal conditions, e.g. to lightning {or to short duration over voltage or oscillations; Damping the influence of DC component by short circuits in AC networks}	H02H1/04	H02H1/04		952
+H02H1/043	9	{to inrush currents (H02H1/046 takes precedence; differential protection of transformers H02H7/045)}	H02H1/04	H02H1/04		356
+H02H1/046	9	{upon detecting saturation of current transformers (for differential protection H02H3/283)}	H02H1/04	H02H1/04		69
+H02H1/06	8	Arrangements for supplying operative power {(power supply arrangements in general G05F, H02M)}	H02H1/06	H02H1/06		893
+H02H1/063	9	{primary power being supplied by fault current}	H02H1/06	H02H1/06		182
+H02H1/066	10	{and comprising a shunt regulator}	H02H1/06	H02H1/06		62
+H02H3/00	7	Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal electric working condition with or without subsequent reconnection (specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H7/00; systems for change-over to standby supply H02J9/00){; integrated protection (for motors H02H7/0822)}	H02H3/00	H02H3/00		1068
+H02H3/003	8	{responsive to reversal of power transmission direction (reversal of direct current H02H3/18)}	H02H3/00	H02H3/00		263
+H02H3/006	8	{Calibration or setting of parameters}	H02H3/00	H02H3/00		2040
+H02H3/02	8	Details	H02H3/02	H02H3/02		704
+H02H3/021	9	{concerning the disconnection itself, e.g. at a particular instant, particularly at zero value of current, disconnection in a predetermined order (disconnection at zero value in general H03K17/18)}	H02H3/02	H02H3/02		778
+H02H3/023	10	{by short-circuiting}	H02H3/02	H02H3/02		572
+H02H3/025	9	{Disconnection after limiting, e.g. when limiting is not sufficient or for facilitating disconnection}	H02H3/02	H02H3/02		654
+H02H3/027	9	with automatic disconnection after a predetermined time (H02H3/033, H02H3/06 take precedence {; timing in overcurrent protection circuits H02H3/093; in undervoltage protection circuits H02H3/247; staggered disconnection H02H7/30})	H02H3/027	H02H3/027		468
+H02H3/033	9	with several disconnections in a preferential order, {e.g. following priority of the users, load repartition}(H02H3/06 takes precedence)	H02H3/033	H02H3/033		207
+H02H3/04	9	with warning or supervision in addition to disconnection, e.g. for indicating that protective apparatus has functioned {(watching of pilot wires H02H1/0084; protection of protective arrangements H02H7/008; indication of the state of electronic switches H03K17/18)}	H02H3/04	H02H3/04		2272
+H02H3/042	10	{combined with means for locating the fault (locating faults in cables G01R31/08)}	H02H3/04	H02H3/04		598
+H02H3/044	10	{Checking correct functioning of protective arrangements, e.g. by simulating a fault (for differential current circuit breakers H02H3/335)}	H02H3/04	H02H3/04		775
+H02H3/046	10	{Signalling the blowing of a fuse (detecting non functioning of a lamp H05B47/20)}	H02H3/04	H02H3/04		475
+H02H3/048	10	{Checking overvoltage diverters}	H02H3/04	H02H3/04		162
+H02H3/05	9	with means for increasing reliability, e.g. redundancy arrangements {(for logic circuits H03K19/003)}	H02H3/05	H02H3/05		1930
+H02H3/06	9	with automatic reconnection	H02H3/06	H02H3/06		1161
+H02H3/063	10	{Details concerning the co-operation of many similar arrangements, e.g. in a network (sectionalised protection H02H7/26)}	H02H3/06	H02H3/06		375
+H02H3/066	10	{Reconnection being a consequence of eliminating the fault which caused disconnection}	H02H3/06	H02H3/06		1421
+H02H3/07	10	and with permanent disconnection after a predetermined number of reconnection cycles	H02H3/07	H02H3/07		374
+H02H3/08	8	responsive to excess current (responsive to abnormal temperature caused by excess current H02H5/04)	H02H3/08	H02H3/08		5524
+H02H3/081	9	{and depending on the direction}	H02H3/08	H02H3/08		191
+H02H3/083	9	{for three-phase systems}	H02H3/08	H02H3/08		565
+H02H3/085	9	{making use of a thermal sensor, e.g. thermistor, heated by the excess current (also responsive to the temperature of the protected device H02H5/041, thermal images H02H6/00)}	H02H3/08	H02H3/08		420
+H02H3/087	9	for DC applications	H02H3/087	H02H3/087		3341
+H02H3/093	9	with timing means {(in general H02H3/027; thermal delay H02H3/085; timing means for undervoltage protection H02H3/247)}	H02H3/093	H02H3/093		1114
+H02H3/0935	10	{the timing being determined by numerical means}	H02H3/093	H02H3/093		401
+H02H3/10	9	additionally responsive to some other abnormal electrical conditions	H02H3/10	H02H3/10		796
+H02H3/105	10	{responsive to excess current and fault current to earth}	H02H3/10	H02H3/10		324
+H02H3/12	8	responsive to underload or no-load {(for motors H02H7/0827)}	H02H3/12	H02H3/12		290
+H02H3/13	9	for multiphase applications, e.g. phase interruption	H02H3/13	H02H3/13		192
+H02H3/14	8	responsive to occurrence of voltage on parts normally at earth potential {(monitoring earth connection H02H5/105)}	H02H3/14	H02H3/14		338
+H02H3/16	8	responsive to fault current to earth, frame or mass (with balanced or differential arrangement H02H3/26{; monitoring earth connection H02H5/105})	H02H3/16	H02H3/16		1361
+H02H3/162	9	{for AC systems}	H02H3/16	H02H3/16		470
+H02H3/165	10	{for three-phase systems}	H02H3/16	H02H3/16		469
+H02H3/167	9	{combined with other earth-fault protective arrangements}	H02H3/16	H02H3/16		102
+H02H3/17	9	by means of an auxiliary voltage injected into the installation to be protected {(using summation current transformers H02H3/33)}	H02H3/17	H02H3/17		317
+H02H3/18	8	responsive to reversal of direct current	H02H3/18	H02H3/18		348
+H02H3/20	8	responsive to excess voltage	H02H3/20	H02H3/20		2311
+H02H3/202	9	{for DC systems}	H02H3/20	H02H3/20		1011
+H02H3/205	9	{using a spark-gap as detector}	H02H3/20	H02H3/20		44
+H02H3/207	9	{also responsive to under-voltage (window comparators for indication G01R19/165)}	H02H3/20	H02H3/20		725
+H02H3/22	9	of short duration, e.g. lightning	H02H3/22	H02H3/22		341
+H02H3/24	8	responsive to undervoltage or no-voltage {(H02H3/207 takes precedence)}	H02H3/24	H02H3/24		1061
+H02H3/243	9	{for DC systems}	H02H3/24	H02H3/24		364
+H02H3/247	9	having timing means	H02H3/247	H02H3/247		243
+H02H3/253	9	for multiphase applications, e.g. phase interruption	H02H3/253	H02H3/253		381
+H02H3/26	8	responsive to difference between voltages or between currents; responsive to phase angle between voltages or between currents	H02H3/26	H02H3/26		474
+H02H3/265	9	{responsive to phase angle between voltages or between currents}	H02H3/26	H02H3/26		104
+H02H3/28	9	involving comparison of the voltage or current values at two spaced portions of a single system, e.g. at opposite ends of one line, at input and output of apparatus {(for transformers H02H7/045)}	H02H3/28	H02H3/28		555
+H02H3/283	10	{and taking into account saturation of current transformers}	H02H3/28	H02H3/28		75
+H02H3/286	10	{involving comparison of similar homopolar quantities}	H02H3/28	H02H3/28		79
+H02H3/30	10	using pilot wires or other signalling channel	H02H3/30	H02H3/30		106
+H02H3/302	11	{involving phase comparison}	H02H3/30	H02H3/30		156
+H02H3/305	11	{involving current comparison}	H02H3/30	H02H3/30		206
+H02H3/307	11	{involving comparison of quantities derived from a plurality of phases, e.g. homopolar quantities; using mixing transformers}	H02H3/30	H02H3/30		101
+H02H3/32	9	involving comparison of the voltage or current values at corresponding points in different conductors of a single system, e.g. of currents in go and return conductors	H02H3/32	H02H3/32		1011
+H02H3/325	10	{involving voltage comparison (H02H3/347 takes precedence)}	H02H3/32	H02H3/32		192
+H02H3/33	10	using summation current transformers (H02H3/347 takes precedence)	H02H3/33	H02H3/33		989
+H02H3/331	11	{responsive to earthing of the neutral conductor (H02H3/338 takes precedence)}	H02H3/33	H02H3/33		131
+H02H3/332	11	{with means responsive to DC component in the fault current}	H02H3/33	H02H3/33		254
+H02H3/334	11	{with means to produce an artificial imbalance for other protection or monitoring reasons or remote control (H02H3/338 takes precedence)}	H02H3/33	H02H3/33		231
+H02H3/335	12	{the main function being self testing of the device}	H02H3/33	H02H3/33		458
+H02H3/337	11	{avoiding disconnection due to reactive fault currents}	H02H3/33	H02H3/33		97
+H02H3/338	11	{also responsive to wiring error, e.g. loss of neutral, break}	H02H3/33	H02H3/33		223
+H02H3/34	10	of a three-phase system	H02H3/34	H02H3/34		444
+H02H3/343	11	{using phase sequence analysers}	H02H3/34	H02H3/34		120
+H02H3/347	11	using summation current transformers	H02H3/347	H02H3/347		311
+H02H3/353	11	involving comparison of phase voltages	H02H3/353	H02H3/353		177
+H02H3/36	9	involving comparison of the voltage or current values at corresponding points of different systems, e.g. of parallel feeder systems	H02H3/36	H02H3/36		90
+H02H3/365	10	{one of the systems simulating the other system}	H02H3/36	H02H3/36		6
+H02H3/38	8	responsive to both voltage and current; responsive to phase angle between voltage and current	H02H3/38	H02H3/38		341
+H02H3/382	9	{involving phase comparison between current and voltage or between values derived from current and voltage}	H02H3/38	H02H3/38		268
+H02H3/385	9	{using at least one homopolar quantity}	H02H3/38	H02H3/38		112
+H02H3/387	9	{using phase-sequence analysing arrangements}	H02H3/38	H02H3/38		39
+H02H3/40	8	responsive to ratio of voltage and current	H02H3/40	H02H3/40		602
+H02H3/402	9	{using homopolar quantities}	H02H3/40	H02H3/40		83
+H02H3/405	9	{using phase sequence analysing arrangements}	H02H3/40	H02H3/40		37
+H02H3/407	9	{using induction relays}	H02H3/40	H02H3/40		61
+H02H3/42	8	responsive to product of voltage and current	H02H3/42	H02H3/42		229
+H02H3/422	9	{using homopolar quantities}	H02H3/42	H02H3/42		101
+H02H3/425	9	{using phase sequence analysing arrangements}	H02H3/42	H02H3/42		20
+H02H3/427	9	{using induction relays}	H02H3/42	H02H3/42		34
+H02H3/44	8	responsive to the rate of change of electrical quantities	H02H3/44	H02H3/44		493
+H02H3/445	9	{of DC quantities}	H02H3/44	H02H3/44		172
+H02H3/46	8	responsive to frequency deviations	H02H3/46	H02H3/46		217
+H02H3/48	8	responsive to loss of synchronism	H02H3/48	H02H3/48		73
+H02H3/50	8	responsive to the appearance of abnormal wave forms, e.g. AC in DC installations	H02H3/50	H02H3/50		229
+H02H3/52	9	responsive to the appearance of harmonics	H02H3/52	H02H3/52		206
+H02H5/00	7	Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal non-electric working conditions with or without subsequent reconnection (using simulators of the apparatus being protected H02H6/00; specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H7/00)	H02H5/00	H02H5/00		562
+H02H5/005	8	{responsive to ionising radiation; Nuclear-radiation circumvention circuits (radiation detectors G01T; nuclear-explosion detection G21J5/00)}	H02H5/00	H02H5/00		129
+H02H5/04	8	responsive to abnormal temperature {(specially adapted for electric machines H02H7/0852)}	H02H5/04	H02H5/04		1941
+H02H5/041	9	{additionally responsive to excess current (H02H5/048 takes precedence)}	H02H5/04	H02H5/04		436
+H02H5/042	9	{using temperature dependent resistors}	H02H5/04	H02H5/04		706
+H02H5/043	10	{the temperature dependent resistor being disposed parallel to a heating wire, e.g. in a heating blanket}	H02H5/04	H02H5/04		153
+H02H5/044	9	{using a semiconductor device to sense the temperature}	H02H5/04	H02H5/04		255
+H02H5/045	9	{using a thermal radiation sensor}	H02H5/04	H02H5/04		72
+H02H5/046	9	{using a thermocouple}	H02H5/04	H02H5/04		39
+H02H5/047	9	{using a temperature responsive switch}	H02H5/04	H02H5/04		564
+H02H5/048	10	{additionally responsive to excess current due to heating of the switch}	H02H5/04	H02H5/04		90
+H02H5/06	9	in oil-filled electric apparatus	H02H5/06	H02H5/06		92
+H02H5/08	8	responsive to abnormal fluid pressure, liquid level or liquid displacement, e.g. Buchholz relays	H02H5/08	H02H5/08		263
+H02H5/083	9	{responsive to the entry or leakage of a liquid into an electrical appliance (moisture alarm G08B21/20)}	H02H5/08	H02H5/08		282
+H02H5/086	9	{of cooling or lubricating fluids}	H02H5/08	H02H5/08		66
+H02H5/10	8	responsive to mechanical injury, e.g. rupture of line, breakage of earth connection	H02H5/10	H02H5/10		546
+H02H5/105	9	{responsive to deterioration or interruption of earth connection (for preventing switching-on H02H11/001)}	H02H5/10	H02H5/10		256
+H02H5/12	8	responsive to undesired approach to, or touching of, live parts by living beings	H02H5/12	H02H5/12		469
+H02H6/00	7	Emergency protective circuit arrangements responsive to undesired changes from normal non-electric working conditions using simulators of the apparatus being protected, e.g. using thermal images	H02H6/00	H02H6/00		363
+H02H6/005	8	{using digital thermal images}	H02H6/00	H02H6/00		281
+H02H7/00	7	Emergency protective circuit arrangements specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems, and effecting automatic switching in the event of an undesired change from normal working conditions	H02H7/00	H02H7/00		836
+H02H7/001	8	{for superconducting apparatus, e.g. coils, lines, machines}	H02H7/00	H02H7/00		388
+H02H7/003	8	{for electrostatic apparatus}	H02H7/00	H02H7/00		104
+H02H7/005	8	{for remote controlled apparatus; for lines connecting such apparatus}	H02H7/00	H02H7/00		285
+H02H7/006	8	{for non-insulated low-voltage distribution systems, e.g. low-voltage halogen-lamp system}	H02H7/00	H02H7/00		40
+H02H7/008	8	{for protective arrangements according to this subclass (H02H9/042, H02H9/043 take precedence; protection of spark-gaps H02H7/24)}	H02H7/00	H02H7/00		295
+H02H7/04	8	for transformers	H02H7/04	H02H7/04		1341
+H02H7/042	9	{for current transformers}	H02H7/04	H02H7/04		175
+H02H7/045	9	Differential protection of transformers	H02H7/045	H02H7/045		581
+H02H7/0455	10	{taking into account saturation of current transformers}	H02H7/045	H02H7/045		104
+H02H7/05	9	for capacitive voltage transformers, e.g. against resonant conditions	H02H7/05	H02H7/05		155
+H02H7/055	9	for tapped transformers or tap-changing means thereof	H02H7/055	H02H7/055		151
+H02H7/06	8	for dynamo-electric generators; for synchronous capacitors	H02H7/06	H02H7/06		1112
+H02H7/062	9	{for parallel connected generators}	H02H7/06	H02H7/06		179
+H02H7/065	9	{against excitation faults}	H02H7/06	H02H7/06		236
+H02H7/067	9	{on occurrence of a load dump (control on sudden change of load H02P9/10)}	H02H7/06	H02H7/06		176
+H02H7/08	8	for dynamo-electric motors	H02H7/08	H02H7/08		1369
+H02H7/0805	9	{for synchronous motors}	H02H7/08	H02H7/08		314
+H02H7/0811	9	{for DC motors (H02H7/0833&#160;takes precedence)}	H02H7/08	H02H7/08		312
+H02H7/0816	9	{concerning the starting sequence, e.g. limiting the number of starts per time unit, monitoring speed during starting}	H02H7/08	H02H7/08		191
+H02H7/0822	9	{Integrated protection, motor control centres}	H02H7/08	H02H7/08		371
+H02H7/0827	9	{responsive to underload or no-load, e.g. pump-off control circuits for pump motors}	H02H7/08	H02H7/08		58
+H02H7/0833	9	{for electric motors with control arrangements}	H02H7/08	H02H7/08		1071
+H02H7/0838	10	{with H-bridge circuit}	H02H7/08	H02H7/08		325
+H02H7/0844	10	{Fail safe control, e.g. by comparing control signal and controlled current, isolating motor on commutation error}	H02H7/08	H02H7/08		425
+H02H7/085	9	against excessive load {(H02H6/00 takes precedence)}	H02H7/085	H02H7/085		1548
+H02H7/0851	10	{for motors actuating a movable member between two end positions, e.g. detecting an end position or obstruction by overload signal}	H02H7/085	H02H7/085		818
+H02H7/0852	10	{directly responsive to abnormal temperature by using a temperature sensor (in a control circuit H02H7/0833)}	H02H7/085	H02H7/085		774
+H02H7/0853	10	{specially adapted for motors rotating in both directions (H02H7/0851 takes precedence)}	H02H7/085	H02H7/085		96
+H02H7/0854	10	{responsive to rate of change of current, couple or speed, e.g. anti-kickback protection (H02H7/0851 takes precedence)}	H02H7/085	H02H7/085		361
+H02H7/0855	10	{avoiding response to transient overloads, e.g. during starting}	H02H7/085	H02H7/085		166
+H02H7/0856	10	{characterised by the protection measure taken}	H02H7/085	H02H7/085		140
+H02H7/0857	11	{by lowering the mechanical load of the motor}	H02H7/085	H02H7/085		43
+H02H7/0858	11	{by reversing, cycling or reducing the power supply to the motor}	H02H7/085	H02H7/085		179
+H02H7/0859	11	{avoiding restarting after fault condition has disappeared}	H02H7/085	H02H7/085		33
+H02H7/09	9	against over-voltage; against reduction of voltage; against phase interruption	H02H7/09	H02H7/09		915
+H02H7/093	9	against increase beyond, or decrease below, a predetermined level of rotational speed (centrifugal switches H01H35/10)	H02H7/093	H02H7/093		601
+H02H7/097	9	against wrong direction of rotation	H02H7/097	H02H7/097		101
+H02H7/10	8	for converters; for rectifiers {(forming part of the control circuit of the converter, see the relevant group in H02M)}	H02H7/10	H02H7/10		444
+H02H7/103	9	{for rotating converters}	H02H7/10	H02H7/10		25
+H02H7/106	9	{for dynamic converters}	H02H7/10	H02H7/10		94
+H02H7/12	9	for static converters or rectifiers {(for discharge lamp power supplies using static converters H05B41/2851, H05B41/2921, H05B41/2981)}	H02H7/12	H02H7/12		1063
+H02H7/1203	10	{Circuits independent of the type of conversion}	H02H7/12	H02H7/12		442
+H02H7/1206	11	{specially adapted to conversion cells composed of a plurality of parallel or serial connected elements}	H02H7/12	H02H7/12		194
+H02H7/1209	10	{for converters using only discharge tubes}	H02H7/12	H02H7/12		287
+H02H7/1213	10	{for DC-DC converters}	H02H7/12	H02H7/12		2093
+H02H7/1216	10	{for AC-AC converters}	H02H7/12	H02H7/12		462
+H02H7/122	10	for inverters, i.e. DC/AC converters	H02H7/122	H02H7/122		1224
+H02H7/1222	11	{responsive to abnormalities in the input circuit, e.g. transients in the DC input}	H02H7/122	H02H7/122		369
+H02H7/1225	11	{responsive to internal faults, e.g. shoot-through (avoiding shoot-through H02M1/38)}	H02H7/122	H02H7/122		524
+H02H7/1227	11	{responsive to abnormalities in the output circuit, e.g. short circuit}	H02H7/122	H02H7/122		587
+H02H7/125	10	for rectifiers	H02H7/125	H02H7/125		599
+H02H7/1252	11	{responsive to overvoltage in input or output, e.g. by load dump}	H02H7/125	H02H7/125		387
+H02H7/1255	11	{responsive to internal faults, e.g. by monitoring ripple in output voltage}	H02H7/125	H02H7/125		209
+H02H7/1257	11	{responsive to short circuit or wrong polarity in output circuit}	H02H7/125	H02H7/125		300
+H02H7/127	11	having auxiliary control electrode to which blocking control voltages or currents are applied in case of emergency	H02H7/127	H02H7/127		541
+H02H7/16	8	for capacitors (for synchronous capacitors H02H7/06)	H02H7/16	H02H7/16		681
+H02H7/18	8	for batteries; for accumulators	H02H7/18	H02H7/18		3519
+H02H7/20	8	for electronic equipment (for converters&#160;H02H7/10; for electric measuring instruments&#160;G01R1/36; for DC voltage or current semiconductor regulators&#160;G05F1/569; for amplifiers&#160;H03F1/52; for electronic switching circuits&#160;H03K17/08)	H02H7/20	H02H7/20		1912
+H02H7/205	9	{for controlled semi-conductors which are not included in a specific circuit arrangement}	H02H7/20	H02H7/20		534
+H02H7/22	8	for distribution gear, e.g. bus-bar systems; for switching devices {(detecting mechanical or electrical defects in gas-insulated switchgears H02B13/065)}	H02H7/22	H02H7/22		2460
+H02H7/222	9	{for switches}	H02H7/22	H02H7/22		882
+H02H7/224	10	{Anti-pump circuits}	H02H7/22	H02H7/22		97
+H02H7/226	9	{for wires or cables, e.g. heating wires}	H02H7/22	H02H7/22		473
+H02H7/228	9	{for covered wires or cables}	H02H7/22	H02H7/22		189
+H02H7/24	8	for spark-gap arresters	H02H7/24	H02H7/24		96
+H02H7/26	8	Sectionalised protection of cable or line systems, e.g. for disconnecting a section on which a short-circuit, earth fault, or arc discharge has occured (locating faults in cables G01R31/08)	H02H7/26	H02H7/26		4508
+H02H7/261	9	{involving signal transmission between at least two stations (transmission of signals in general H02H1/0061)}	H02H7/26	H02H7/26		906
+H02H7/262	10	{involving transmissions of switching or blocking orders}	H02H7/26	H02H7/26		2031
+H02H7/263	10	{involving transmissions of measured values (comparison of currents or voltages using pilot wires H02H3/30)}	H02H7/26	H02H7/26		1047
+H02H7/265	9	{making use of travelling wave theory}	H02H7/26	H02H7/26		251
+H02H7/266	9	{involving switching on a spare supply (in general H02J9/00)}	H02H7/26	H02H7/26		125
+H02H7/267	9	{for parallel lines and wires}	H02H7/26	H02H7/26		499
+H02H7/268	9	{for DC systems}	H02H7/26	H02H7/26		2293
+H02H7/28	9	for meshed systems	H02H7/28	H02H7/28		952
+H02H7/30	9	Staggered disconnection	H02H7/30	H02H7/30		493
+H02H9/00	7	Emergency protective circuit arrangements for limiting excess current or voltage without disconnection	H02H9/00	H02H9/00		545
+H02H9/001	8	{limiting speed of change of electric quantities, e.g. soft switching on or off (progressive control of electronic switches for eliminating interferences H03K17/16)}	H02H9/00	H02H9/00		1133
+H02H9/002	9	{limiting inrush current on switching on of inductive loads subjected to remanence, e.g. transformers}	H02H9/00	H02H9/00		408
+H02H9/004	9	{in connection with live-insertion of plug-in units (involving communication with a central processing unit G06F13/40)}	H02H9/00	H02H9/00		196
+H02H9/005	8	{avoiding undesired transient conditions}	H02H9/00	H02H9/00		1193
+H02H9/007	9	{avoiding or damping oscillations, e.g. fenoresonance or travelling waves}	H02H9/00	H02H9/00		324
+H02H9/008	8	{Intrinsically safe circuits}	H02H9/00	H02H9/00		456
+H02H9/02	8	responsive to excess current {(current limitation for voltage regulators G05F1/573; disconnection after limiting H02H3/025)}	H02H9/02	H02H9/02		4421
+H02H9/021	9	{Current limitation using saturable reactors (H02H9/023 takes precedence)}	H02H9/02	H02H9/02		492
+H02H9/023	9	{Current limitation using superconducting elements}	H02H9/02	H02H9/02		605
+H02H9/025	9	{Current limitation using field effect transistors}	H02H9/02	H02H9/02		1095
+H02H9/026	9	{Current limitation using PTC resistors, i.e. resistors with a large positive temperature coefficient}	H02H9/02	H02H9/02		522
+H02H9/028	9	{Current limitation by detuning a series resonant circuit (H02H9/021, H02H9/023 take precedence)}	H02H9/02	H02H9/02		58
+H02H9/04	8	responsive to excess voltage (lightning arrestors H01C7/12, H01C8/04, H01G9/18, H01T)	H02H9/04	H02H9/04		4603
+H02H9/041	9	{using a short-circuiting device}	H02H9/04	H02H9/04		1690
+H02H9/042	9	{comprising means to limit the absorbed power or indicate damaged over-voltage protection device}	H02H9/04	H02H9/04		1306
+H02H9/043	9	{Protection of over-voltage protection device by short-circuiting}	H02H9/04	H02H9/04		260
+H02H9/044	9	{Physical layout, materials not provided for elsewhere (varistors H01C7/12; spark-gaps H01T; Ovshinsky devices H10N70/00)}	H02H9/04	H02H9/04		923
+H02H9/045	9	{adapted to a particular application and not provided for elsewhere}	H02H9/04	H02H9/04		916
+H02H9/046	10	{responsive to excess voltage appearing at terminals of integrated circuits}	H02H9/04	H02H9/04		1874
+H02H9/047	10	{Free-wheeling circuits}	H02H9/04	H02H9/04		413
+H02H9/048	9	{Anti-latching or quenching devices, i.e. bringing the protection device back to its normal state after a protection action}	H02H9/04	H02H9/04		57
+H02H9/049	9	{Circuit arrangements for limiting the number of protection devices}	H02H9/04	H02H9/04		31
+H02H9/06	9	using spark-gap arresters	H02H9/06	H02H9/06		1373
+H02H9/08	8	Limitation or suppression of earth fault currents, e.g. Petersen coil	H02H9/08	H02H9/08		1356
+H02H11/00	7	Emergency protective circuit arrangements for preventing the switching-on in case an undesired electric working condition might result	H02H11/00	H02H11/00		684
+H02H11/001	8	{in case of incorrect or interrupted earth connection (disconnection by breaking of earth connection H02H5/105)}	H02H11/00	H02H11/00		275
+H02H11/002	8	{in case of inverted polarity or connection; with switching for obtaining correct connection}	H02H11/00	H02H11/00		1047
+H02H11/003	9	{using a field effect transistor as protecting element in one of the supply lines}	H02H11/00	H02H11/00		556
+H02H11/004	8	{in case of incorrect phase sequence; with switching for obtaining correct phase sequence (protection of motors against wrong direction of rotation H02H7/097)}	H02H11/00	H02H11/00		225
+H02H11/005	8	{in case of too low isolation resistance, too high load, short-circuit; earth fault}	H02H11/00	H02H11/00		284
+H02H11/006	8	{in case of too high or too low voltage}	H02H11/00	H02H11/00		366
+H02H11/007	9	{involving automatic switching for adapting the protected apparatus to the supply voltage}	H02H11/00	H02H11/00		148
+H02H11/008	8	{preventing unsafe switching operations in substations (Schaltfehlerschutz)}	H02H11/00	H02H11/00		116
+H02H99/00	7	Subject matter not provided for in other groups of this subclass	H02H99/00	H02H99/00		

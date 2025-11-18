@@ -1,0 +1,153 @@
+H03G1/00	7	Details of arrangements for controlling amplification	H03G1/00	H03G1/00		130
+H03G1/0005	8	{Circuits characterised by the type of controlling devices operated by a controlling current or voltage signal}	H03G1/00	H03G1/00		191
+H03G1/0011	9	{the device being at least one of the amplifying tube elements}	H03G1/00	H03G1/00		65
+H03G1/0017	9	{the device being at least one of the amplifying solid-state elements}	H03G1/00	H03G1/00		227
+H03G1/0023	10	{in emitter-coupled or cascode amplifiers (H03G1/0029 takes precedence)}	H03G1/00	H03G1/00		901
+H03G1/0029	10	{using field-effect transistors [FET]}	H03G1/00	H03G1/00		580
+H03G1/0035	9	{using continuously variable impedance elements}	H03G1/00	H03G1/00		222
+H03G1/0041	10	{using thermistors}	H03G1/00	H03G1/00		47
+H03G1/0047	10	{using photo-electric elements}	H03G1/00	H03G1/00		133
+H03G1/0052	10	{using diodes}	H03G1/00	H03G1/00		266
+H03G1/0058	11	{PIN-diodes}	H03G1/00	H03G1/00		105
+H03G1/0064	11	{Variable capacitance diodes}	H03G1/00	H03G1/00		54
+H03G1/007	10	{using field-effect transistors [FET]}	H03G1/00	H03G1/00		373
+H03G1/0076	10	{using galvanomagnetic elements}	H03G1/00	H03G1/00		43
+H03G1/0082	10	{using bipolar transistor-type devices}	H03G1/00	H03G1/00		230
+H03G1/0088	9	{using discontinuously variable devices, e.g. switch-operated}	H03G1/00	H03G1/00		1272
+H03G1/0094	10	{using switched capacitors}	H03G1/00	H03G1/00		92
+H03G1/02	8	Remote control of amplification, tone or bandwidth (combined with remote tuning or selection of resonant circuits H03J)	H03G1/02	H03G1/02		430
+H03G1/04	8	Modifications of control circuit to reduce distortion caused by control (modifications to reduce influence of variations of internal impedance of amplifying elements caused by control H03F1/08)	H03G1/04	H03G1/04		444
+H03G3/00	7	Gain control in amplifiers or frequency changers	H03G3/00	H03G3/00		629
+H03G3/001	8	{Digital control of analog signals}	H03G3/00	H03G3/00		994
+H03G3/002	8	{Control of digital or coded signals (H03G3/3089 take precedence)}	H03G3/00	H03G3/00		282
+H03G3/004	8	{Control by varying the supply voltage}	H03G3/00	H03G3/00		321
+H03G3/005	8	{Control by a pilot signal (H03G3/001 takes precedence)}	H03G3/00	H03G3/00		229
+H03G3/007	8	{Control dependent on the supply voltage}	H03G3/00	H03G3/00		129
+H03G3/008	8	{Control by switched capacitors}	H03G3/00	H03G3/00		43
+H03G3/02	8	Manually-operated control {(H03G3/001 and H03G3/002 take precedence)}	H03G3/02	H03G3/02		393
+H03G3/04	9	in untuned amplifiers	H03G3/04	H03G3/04		314
+H03G3/06	10	having discharge tubes	H03G3/06	H03G3/06		108
+H03G3/08	11	incorporating negative feedback	H03G3/08	H03G3/08		103
+H03G3/10	10	having semiconductor devices	H03G3/10	H03G3/10		270
+H03G3/12	11	incorporating negative feedback	H03G3/12	H03G3/12		69
+H03G3/14	9	in frequency-selective amplifiers	H03G3/14	H03G3/14		42
+H03G3/16	10	having discharge tubes	H03G3/16	H03G3/16		151
+H03G3/18	10	having semiconductor devices	H03G3/18	H03G3/18		26
+H03G3/20	8	Automatic control ({H03G3/005 takes precedence;} combined with volume compression or expansion H03G7/00)	H03G3/20	H03G3/20		1520
+H03G3/22	9	in amplifiers having discharge tubes	H03G3/22	H03G3/22		1082
+H03G3/225	10	{controlling or controlled by the (local) oscillators of a (super)heterodyne receiver}	H03G3/22	H03G3/22		28
+H03G3/24	10	Control dependent upon ambient noise level or sound level	H03G3/24	H03G3/24		137
+H03G3/26	10	Muting amplifier when no signal is present	H03G3/26	H03G3/26		452
+H03G3/28	11	in frequency-modulation receivers	H03G3/28	H03G3/28		133
+H03G3/30	9	in amplifiers having semiconductor devices	H03G3/30	H03G3/30		1477
+H03G3/3005	10	{in amplifiers suitable for low-frequencies, e.g. audio amplifiers (H03G3/32, H03G3/34 take precedence)}	H03G3/30	H03G3/30		1587
+H03G3/301	11	{the gain being continuously variable}	H03G3/30	H03G3/30		362
+H03G3/3015	12	{using diodes or transistors}	H03G3/30	H03G3/30		289
+H03G3/3021	12	{by varying the duty cycle}	H03G3/30	H03G3/30		32
+H03G3/3026	11	{the gain being discontinuously variable, e.g. controlled by switching}	H03G3/30	H03G3/30		390
+H03G3/3031	12	{using switched capacitors}	H03G3/30	H03G3/30		18
+H03G3/3036	10	{in high-frequency amplifiers or in frequency-changers (H03G3/3052, H03G3/32, H03G3/34 take precedence)}	H03G3/30	H03G3/30		1197
+H03G3/3042	11	{in modulators, frequency-changers, transmitters or power amplifiers}	H03G3/30	H03G3/30		2052
+H03G3/3047	12	{for intermittent signals, e.g. burst signals}	H03G3/30	H03G3/30		517
+H03G3/3052	10	{in bandpass amplifiers (H.F. or I.F.) or in frequency-changers used in a (super)heterodyne receiver (H03G3/32, H03G3/34 take precedence)}	H03G3/30	H03G3/30		1579
+H03G3/3057	11	{using at least one diode as controlling device}	H03G3/30	H03G3/30		71
+H03G3/3063	11	{using at least one transistor as controlling device, the transistor being used as a variable impedance device}	H03G3/30	H03G3/30		97
+H03G3/3068	11	{Circuits generating control signals for both R.F. and I.F. stages}	H03G3/30	H03G3/30		794
+H03G3/3073	11	{Circuits generating control signals when no carrier is present, or in SSB, CW or pulse receivers}	H03G3/30	H03G3/30		117
+H03G3/3078	11	{Circuits generating control signals for digitally modulated signals}	H03G3/30	H03G3/30		516
+H03G3/3084	10	{in receivers or transmitters for electromagnetic waves other than radiowaves, e.g. lightwaves (H03G3/32, H03G3/34 take precedence)}	H03G3/30	H03G3/30		618
+H03G3/3089	10	{Control of digital or coded signals}	H03G3/30	H03G3/30		682
+H03G3/3094	10	{in parametric amplifiers (H03G3/32, H03G3/34 take precedence)}	H03G3/30	H03G3/30		11
+H03G3/32	10	the control being dependent upon ambient noise level or sound level	H03G3/32	H03G3/32		1582
+H03G3/34	10	Muting amplifier when no signal is present	H03G3/34	H03G3/34		443
+H03G3/341	11	{Muting when no signals or only weak signals are present (H03G3/344, H03G3/345 take precedence)}	H03G3/34	H03G3/34		295
+H03G3/342	11	{Muting when some special characteristic of the signal is sensed which distinguishes it from noise, e.g. using speech detector (H03G3/344, H03G3/345 take precedence)}	H03G3/34	H03G3/34		183
+H03G3/344	11	{Muting responsive to the amount of noise (noise squelch) (H03G3/345 takes precedence)}	H03G3/34	H03G3/34		285
+H03G3/345	11	{Muting during a short period of time when noise pulses are detected, i.e. blanking (H03G3/348 takes precedence)}	H03G3/34	H03G3/34		541
+H03G3/347	12	{dependent on the rate of noise pulses}	H03G3/34	H03G3/34		3
+H03G3/348	11	{Muting in response to a mechanical action or to power supply variations, e.g. during tuning; Click removal circuits}	H03G3/34	H03G3/34		528
+H03G5/00	7	Tone control or bandwidth control in amplifiers	H03G5/00	H03G5/00		206
+H03G5/005	8	{of digital signals}	H03G5/00	H03G5/00		467
+H03G5/02	8	Manually-operated control	H03G5/02	H03G5/02		118
+H03G5/025	9	{Equalizers; Volume or gain control in limited frequency bands}	H03G5/02	H03G5/02		417
+H03G5/04	9	in untuned amplifiers	H03G5/04	H03G5/04		208
+H03G5/06	10	having discharge tubes	H03G5/06	H03G5/06		188
+H03G5/08	11	incorporating negative feedback	H03G5/08	H03G5/08		125
+H03G5/10	10	having semiconductor devices	H03G5/10	H03G5/10		124
+H03G5/12	11	incorporating negative feedback	H03G5/12	H03G5/12		54
+H03G5/14	9	in frequency-selective amplifiers	H03G5/14	H03G5/14		36
+H03G5/16	8	Automatic control	H03G5/16	H03G5/16		247
+H03G5/165	9	{Equalizers; Volume or gain control in limited frequency bands}	H03G5/16	H03G5/16		1107
+H03G5/18	9	in untuned amplifiers	H03G5/18	H03G5/18		138
+H03G5/20	10	having discharge tubes	H03G5/20	H03G5/20		109
+H03G5/22	10	having semiconductor devices	H03G5/22	H03G5/22		151
+H03G5/24	9	in frequency-selective amplifiers	H03G5/24	H03G5/24		145
+H03G5/26	10	having discharge tubes	H03G5/26	H03G5/26		255
+H03G5/28	10	having semiconductor devices	H03G5/28	H03G5/28		135
+H03G7/00	7	Volume compression or expansion in amplifiers {(frequency dependent H03G9/025)}	H03G7/00	H03G7/00		381
+H03G7/001	8	{without controlling loop (H03G7/007, H03G7/02, H03G7/06 take precedence)}	H03G7/00	H03G7/00		202
+H03G7/002	8	{in untuned or low-frequency amplifiers, e.g. audio amplifiers (H03G7/007, H03G7/001, H03G7/008, H03G7/02, H03G7/06 take precedence)}	H03G7/00	H03G7/00		722
+H03G7/004	9	{using continuously variable impedance devices}	H03G7/00	H03G7/00		224
+H03G7/005	9	{using discontinuously variable devices, e.g. switch-operated}	H03G7/00	H03G7/00		99
+H03G7/007	8	{of digital or coded signals}	H03G7/00	H03G7/00		677
+H03G7/008	8	{Control by a pilot signal (H03G7/007, H03G7/02, H03G7/06 take precedence)}	H03G7/00	H03G7/00		41
+H03G7/02	8	having discharge tubes	H03G7/02	H03G7/02		452
+H03G7/04	9	incorporating negative feedback	H03G7/04	H03G7/04		92
+H03G7/06	8	having semiconductor devices	H03G7/06	H03G7/06		421
+H03G7/08	9	incorporating negative feedback	H03G7/08	H03G7/08		139
+H03G9/00	7	Combinations of two or more types of control, e.g. gain control and tone control	H03G9/00	H03G9/00		82
+H03G9/005	8	{of digital or coded signals}	H03G9/00	H03G9/00		416
+H03G9/02	8	in untuned amplifiers	H03G9/02	H03G9/02		117
+H03G9/025	9	{frequency-dependent volume compression or expansion, e.g. multiple-band systems (H03G9/10, H03G9/18 take precedence)}	H03G9/02	H03G9/02		723
+H03G9/04	9	having discharge tubes	H03G9/04	H03G9/04		5
+H03G9/06	10	for gain control and tone control	H03G9/06	H03G9/06		102
+H03G9/08	11	incorporating negative feedback	H03G9/08	H03G9/08		66
+H03G9/10	10	for tone control and volume expansion or compression	H03G9/10	H03G9/10		67
+H03G9/12	9	having semiconductor devices	H03G9/12	H03G9/12		14
+H03G9/14	10	for gain control and tone control	H03G9/14	H03G9/14		77
+H03G9/16	11	incorporating negative feedback	H03G9/16	H03G9/16		19
+H03G9/18	10	for tone control and volume expansion or compression	H03G9/18	H03G9/18		188
+H03G9/20	8	in frequency-selective amplifiers	H03G9/20	H03G9/20		7
+H03G9/22	9	having discharge tubes	H03G9/22	H03G9/22		2
+H03G9/24	9	having semiconductor devices	H03G9/24	H03G9/24		29
+H03G9/26	8	in untuned amplifying stages as well as in frequency-selective amplifying stages	H03G9/26	H03G9/26		2
+H03G9/28	9	all amplifying stages having discharge tubes	H03G9/28	H03G9/28		3
+H03G9/30	9	all amplifying stages having semiconductor devices	H03G9/30	H03G9/30		5
+H03G11/00	7	Limiting amplitude; Limiting rate of change of amplitude	H03G11/00	H03G11/00		441
+H03G11/002	8	{without controlling loop (H03G11/004, H03G11/006, H03G11/008, H03G11/02, H03G11/04, H03G11/06, H03G11/08 take precedence)}	H03G11/00	H03G11/00		446
+H03G11/004	8	{using discharge tubes (H03G11/008 takes precedence)}	H03G11/00	H03G11/00		426
+H03G11/006	8	{in circuits having distributed constants (H03G11/008 takes precedence)}	H03G11/00	H03G11/00		86
+H03G11/008	8	{of digital or coded signals}	H03G11/00	H03G11/00		100
+H03G11/02	8	by means of diodes ({H03G11/008, }H03G11/04, H03G11/06, H03G11/08 take precedence)	H03G11/02	H03G11/02		621
+H03G11/025	9	{in circuits having distributed constants}	H03G11/02	H03G11/02		72
+H03G11/04	8	Limiting level dependent on strength of signal; Limiting level dependent on strength of carrier on which signal is modulated {(H03G11/008 takes precedence)}	H03G11/04	H03G11/04		311
+H03G11/06	8	Limiters of angle-modulated signals; such limiters combined with discriminators (discriminators having an inherent limiting action H03D3/00)	H03G11/06	H03G11/06		293
+H03G11/08	8	Limiting rate of change of amplitude {(H03G11/008 takes precedence)}	H03G11/08	H03G11/08		95
+H03G99/00	7	Subject matter not provided for in other groups of this subclass	H03G99/00	H03G99/00		5
+H03G2201/00	7	Indexing scheme relating to subclass H03G	CPCONLY	H03G2201/00		
+H03G2201/10	8	Gain control characterised by the type of controlled element	CPCONLY	H03G2201/10		4
+H03G2201/103	9	being an amplifying element	CPCONLY	H03G2201/103		418
+H03G2201/106	9	being attenuating element	CPCONLY	H03G2201/106		150
+H03G2201/20	8	Gain control characterized by the position of the detection	CPCONLY	H03G2201/20		
+H03G2201/202	9	being in baseband	CPCONLY	H03G2201/202		33
+H03G2201/204	9	being in intermediate frequency	CPCONLY	H03G2201/204		11
+H03G2201/206	9	being in radio frequency	CPCONLY	H03G2201/206		47
+H03G2201/208	9	being in power supply of the amplifier	CPCONLY	H03G2201/208		10
+H03G2201/30	8	Gain control characterized by the type of controlled signal	CPCONLY	H03G2201/30		2
+H03G2201/302	9	being baseband signal	CPCONLY	H03G2201/302		23
+H03G2201/305	9	being intermediate frequency signal	CPCONLY	H03G2201/305		36
+H03G2201/307	9	being radio frequency signal	CPCONLY	H03G2201/307		177
+H03G2201/40	8	Combined gain and bias control	CPCONLY	H03G2201/40		50
+H03G2201/50	8	Gain control characterized by the means of gain control	CPCONLY	H03G2201/50		5
+H03G2201/502	9	by switching impedance in feedback loop	CPCONLY	H03G2201/502		20
+H03G2201/504	9	by summing selected parallel amplifying paths, i.e. more amplifying/attenuating paths summed together	CPCONLY	H03G2201/504		15
+H03G2201/506	9	by selecting one parallel amplifying path	CPCONLY	H03G2201/506		12
+H03G2201/508	9	by using look-up tables	CPCONLY	H03G2201/508		16
+H03G2201/60	8	Gain control characterized by varying time constants in control loop	CPCONLY	H03G2201/60		2
+H03G2201/603	9	time constant being continuous	CPCONLY	H03G2201/603		
+H03G2201/606	9	time constant being discrete	CPCONLY	H03G2201/606		2
+H03G2201/70	8	Gain control characterized by the gain control parameter	CPCONLY	H03G2201/70		8
+H03G2201/702	9	being frequency, e.g. frequency deviations	CPCONLY	H03G2201/702		12
+H03G2201/704	9	being number of multiplexed channels	CPCONLY	H03G2201/704		4
+H03G2201/706	9	being quality indicator, e.g. BER,C/I	CPCONLY	H03G2201/706		16
+H03G2201/708	9	being temperature	CPCONLY	H03G2201/708		68

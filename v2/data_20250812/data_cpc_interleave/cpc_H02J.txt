@@ -1,0 +1,273 @@
+H02J1/00	7	Circuit arrangements for DC mains or DC distribution networks	H02J1/00	H02J1/00		2616
+H02J1/001	8	{Hot plugging or unplugging of load or power modules to or from power distribution networks}	H02J1/00	H02J1/00		392
+H02J1/002	8	{Intermediate AC, e.g. DC supply with intermediated AC distribution}	H02J1/00	H02J1/00		149
+H02J1/02	8	Arrangements for reducing harmonics or ripples	H02J1/02	H02J1/02		650
+H02J1/04	8	Constant-current supply systems	H02J1/04	H02J1/04		178
+H02J1/06	8	Two-wire systems	H02J1/06	H02J1/06		682
+H02J1/08	8	Three-wire systems; Systems having more than three wires	H02J1/08	H02J1/08		928
+H02J1/082	9	{Plural DC voltage, e.g. DC supply voltage with at least two different DC voltage levels}	H02J1/08	H02J1/08		1312
+H02J1/084	9	{for selectively connecting the load or loads to one or several among a plurality of power lines or power sources}	H02J1/08	H02J1/08		450
+H02J1/086	10	{for providing alternative feeding paths between load or loads and source or sources when the main path fails}	H02J1/08	H02J1/08		307
+H02J1/10	8	Parallel operation of DC sources	H02J1/10	H02J1/10		3801
+H02J1/102	9	{being switching converters (H02J1/108, H02J1/12 take precedence)}	H02J1/10	H02J1/10		2412
+H02J1/106	9	{for load balancing, symmetrisation, or sharing}	H02J1/10	H02J1/10		929
+H02J1/108	9	{using diodes blocking reverse current flow (H02J1/12 takes precedence)}	H02J1/10	H02J1/10		561
+H02J1/109	9	{Scheduling or re-scheduling the operation of the DC sources in a particular order, e.g. connecting or disconnecting the sources in sequential, alternating or in subsets, to meet a given demand}	H02J1/10	H02J1/10		514
+H02J1/12	9	Parallel operation of DC generators with converters, e.g. with mercury-arc rectifier	H02J1/12	H02J1/12		738
+H02J1/122	9	{Provisions for temporary connection of DC sources of essentially the same voltage, e.g. jumpstart cables}	H02J1/10	H02J1/12		349
+H02J1/14	8	Balancing the load in a network	H02J1/14	H02J1/14		2313
+H02J1/16	9	using dynamo-electric machines coupled to flywheels	H02J1/16	H02J1/16		161
+H02J3/00	7	Circuit arrangements for AC mains or AC distribution networks	H02J3/00	H02J3/00		16385
+H02J3/001	8	{Methods to deal with contingencies, e.g. abnormalities, faults or failures}	H02J3/00	H02J3/00		2928
+H02J3/0012	9	{Contingency detection}	H02J3/00	H02J3/00		1323
+H02J3/00125	9	{Transmission line or load transient problems, e.g. overvoltage, resonance or self-excitation of inductive loads (H02J3/01 takes precedence)}	H02J3/00	H02J3/00		536
+H02J3/002	8	{Flicker reduction, e.g. compensation of flicker introduced by non-linear load}	H02J3/00	H02J3/00		2030
+H02J3/003	8	{Load forecast, e.g. methods or systems for forecasting future load demand}	H02J3/00	H02J3/00		8477
+H02J3/004	8	{Generation forecast, e.g. methods or systems for forecasting future energy generation}	H02J3/00	H02J3/00		6557
+H02J3/007	8	{Arrangements for selectively connecting the load or loads to one or several among a plurality of power lines or power sources (for providing uninterruptable power supply H02J9/00)}	H02J3/00	H02J3/00		1317
+H02J3/0073	9	{for providing alternative feeding paths between load and source when the main path fails, e.g. transformers, busbars}	H02J3/00	H02J3/00		1611
+H02J3/0075	9	{for providing alternative feeding paths between load and source according to economic or energy efficiency considerations, e.g. economic dispatch}	H02J3/00	H02J3/00		4395
+H02J3/008	8	{involving trading of energy or energy transmission rights}	H02J3/00	H02J3/00		5974
+H02J3/01	8	Arrangements for reducing harmonics or ripples	H02J3/01	H02J3/01		6002
+H02J3/02	8	using a single network for simultaneous distribution of power at different frequencies; using a single network for simultaneous distribution of AC power and of DC power	H02J3/02	H02J3/02		897
+H02J3/04	8	for connecting networks of the same frequency but supplied from different sources	H02J3/04	H02J3/04		451
+H02J3/06	9	Controlling transfer of power between connected networks; Controlling sharing of load between connected networks	H02J3/06	H02J3/06		7784
+H02J3/08	9	Synchronising of networks	H02J3/08	H02J3/08		370
+H02J3/10	8	Constant-current supply systems	H02J3/10	H02J3/10		76
+H02J3/12	8	for adjusting voltage in AC networks by changing a characteristic of the network load	H02J3/12	H02J3/12		4002
+H02J3/14	9	by switching loads on to, or off from, network, e.g. progressively balanced loading	H02J3/14	H02J3/14		5552
+H02J3/144	10	{Demand-response operation of the power transmission or distribution network}	H02J3/14	H02J3/14		5265
+H02J3/16	9	by adjustment of reactive power	H02J3/16	H02J3/16		5217
+H02J3/18	8	Arrangements for adjusting, eliminating or compensating reactive power in networks (for adjustment of voltage H02J3/16)	H02J3/18	H02J3/18		4577
+H02J3/1807	9	{using series compensators}	H02J3/18	H02J3/18		495
+H02J3/1814	10	{wherein al least one reactive element is actively controlled by a bridge converter, e.g. unified power flow controllers [UPFC]}	H02J3/18	H02J3/18		412
+H02J3/1821	9	{using shunt compensators (H02J3/1807, H02J3/1878 take precedence)}	H02J3/18	H02J3/18		1344
+H02J3/1828	10	{with stepwise control, the possibility of switching in or out the entire compensating arrangement not being considered as stepwise control}	H02J3/18	H02J3/18		420
+H02J3/1835	10	{with stepless control}	H02J3/18	H02J3/18		325
+H02J3/1842	11	{wherein at least one reactive element is actively controlled by a bridge converter, e.g. active filters}	H02J3/18	H02J3/18		1306
+H02J3/185	12	{wherein such reactive element is purely inductive, e.g. superconductive magnetic energy storage systems [SMES]}	H02J3/18	H02J3/18		54
+H02J3/1857	12	{wherein such bridge converter is a multilevel converter}	H02J3/18	H02J3/18		311
+H02J3/1864	11	{wherein the stepless control of reactive power is obtained by at least one reactive element connected in series with a semiconductor switch}	H02J3/18	H02J3/18		700
+H02J3/1871	10	{Methods for planning installation of shunt reactive power compensators}	H02J3/18	H02J3/18		210
+H02J3/1878	9	{using tap changing or phase shifting transformers}	H02J3/18	H02J3/18		383
+H02J3/1885	9	{using rotating means, e.g. synchronous generators}	H02J3/18	H02J3/18		405
+H02J3/1892	9	{the arrangements being an integral part of the load, e.g. a motor, or of its control circuit}	H02J3/18	H02J3/18		320
+H02J3/20	9	in long overhead lines	H02J3/20	H02J3/20		70
+H02J3/22	9	in cables	H02J3/22	H02J3/22		44
+H02J3/24	8	Arrangements for preventing or reducing oscillations of power in networks (by control effected upon a single generator H02P9/00)	H02J3/24	H02J3/24		7090
+H02J3/241	9	{The oscillation concerning frequency}	H02J3/24	H02J3/24		6886
+H02J3/242	9	{using phasor measuring units [PMU] }	H02J3/24	H02J3/24		207
+H02J3/26	8	Arrangements for eliminating or reducing asymmetry in polyphase networks	H02J3/26	H02J3/26		3670
+H02J3/28	8	Arrangements for balancing of the load in a network by storage of energy	H02J3/28	H02J3/28		11451
+H02J3/30	9	using dynamo-electric machines coupled to flywheels	H02J3/30	H02J3/30		991
+H02J3/32	9	using batteries with converting means	H02J3/32	H02J3/32		18349
+H02J3/322	10	{the battery being on-board an electric or hybrid vehicle, e.g. vehicle to grid arrangements [V2G], power aggregation, use of the battery for network load balancing, coordinated or cooperative battery charging}	H02J3/32	H02J3/32		3145
+H02J3/34	8	Arrangements for transfer of electric power between networks of substantially different frequency	H02J3/34	H02J3/34		412
+H02J3/36	8	Arrangements for transfer of electric power between AC networks via a high-tension DC link	H02J3/36	H02J3/36		8530
+H02J2003/365	9	{Reducing harmonics or oscillations in HVDC}	H02J3/36	H02J3/36		876
+H02J3/38	8	Arrangements for parallely feeding a single network by two or more generators, converters or transformers	H02J3/38	H02J3/38		12186
+H02J3/381	9	{Dispersed generators}	H02J3/38	H02J3/38		29604
+H02J3/388	9	{Islanding, i.e. disconnection of local power supply from the network}	H02J3/38	H02J3/38		3734
+H02J3/40	9	Synchronising a generator for connection to a network or to another generator	H02J3/40	H02J3/40		1783
+H02J3/42	10	with automatic parallel connection when synchronisation is achieved	H02J3/42	H02J3/42		1365
+H02J3/44	10	with means for ensuring correct phase sequence	H02J3/44	H02J3/44		628
+H02J3/46	9	Controlling of the sharing of output between the generators, converters, or transformers	H02J3/46	H02J3/46		8405
+H02J3/466	10	{Scheduling the operation of the generators, e.g. connecting or disconnecting generators to meet a given demand}	H02J3/46	H02J3/46		9951
+H02J3/472	11	{For selectively connecting the AC sources in a particular order, e.g. sequential, alternating or subsets of sources}	H02J3/46	H02J3/472		368
+H02J3/48	10	Controlling the sharing of the in-phase component	H02J3/48	H02J3/48		6915
+H02J3/50	10	Controlling the sharing of the out-of-phase component	H02J3/50	H02J3/50		4739
+H02J4/00	7	Circuit arrangements for mains or distribution networks not specified as AC or DC	H02J4/00	H02J4/00		2275
+H02J5/00	7	Circuit arrangements for transfer of electric power between AC networks and DC networks (H02J3/36&#160;takes precedence)	H02J5/00	H02J5/00		2006
+H02J7/00	7	Circuit arrangements for charging or depolarising batteries or for supplying loads from batteries	H02J7/00	H02J7/00		18513
+H02J7/00032	8	{characterised by data exchange}	H02J7/00	H02J7/00		4027
+H02J7/00034	9	{Charger exchanging data with an electronic device, i.e. telephone, whose internal battery is under charge}	H02J7/00	H02J7/00		5105
+H02J7/00036	9	{Charger exchanging data with battery}	H02J7/00	H02J7/00		3490
+H02J7/00038	9	{using passive battery identification means, e.g. resistors or capacitors (identification by mechanical connections H02J7/0045)}	H02J7/00	H02J7/00		381
+H02J7/00041	10	{in response to measured battery parameters, e.g. voltage, current or temperature profile}	H02J7/00	H02J7/00		691
+H02J7/00043	10	{using switches, contacts or markings, e.g. optical, magnetic or barcode}	H02J7/00	H02J7/00		193
+H02J7/00045	9	{Authentication, i.e. circuits for checking compatibility between one component, e.g. a battery or a battery charger, and another component, e.g. a power source}	H02J7/00	H02J7/00		2121
+H02J7/00047	8	{with provisions for charging different types of batteries}	H02J7/00	H02J7/00		2545
+H02J7/0013	8	{acting upon several batteries simultaneously or sequentially (H02J7/1423 takes precedence)}	H02J7/00	H02J7/00		12023
+H02J7/0014	9	{Circuits for equalisation of charge between batteries}	H02J7/00	H02J7/00		4820
+H02J7/0016	10	{using shunting, discharge or bypass circuits}	H02J7/00	H02J7/00		3968
+H02J7/0018	10	{using separate charge circuits}	H02J7/00	H02J7/00		973
+H02J7/0019	10	{using switched or multiplexed charge circuits}	H02J7/00	H02J7/00		2817
+H02J7/0024	9	{Parallel/serial switching of connection of batteries to charge or load circuit}	H02J7/00	H02J7/00		2507
+H02J7/0025	9	{Sequential battery discharge in systems with a plurality of batteries}	H02J7/00	H02J7/00		1084
+H02J7/0029	8	{with safety or protection devices or circuits}	H02J7/00	H02J7/00		8705
+H02J7/00302	9	{Overcharge protection}	H02J7/00	H02J7/00		4993
+H02J7/00304	9	{Overcurrent protection}	H02J7/00	H02J7/00		4958
+H02J7/00306	9	{Overdischarge protection}	H02J7/00	H02J7/00		4007
+H02J7/00308	9	{Overvoltage protection}	H02J7/00	H02J7/00		2993
+H02J7/00309	9	{Overheat or overtemperature protection}	H02J7/00	H02J7/00		3710
+H02J7/0031	9	{using battery or load disconnect circuits (H02J9/002 takes precedence)}	H02J7/00	H02J7/00		8068
+H02J7/0032	10	{disconnection of loads if battery is not under charge, e.g. in vehicle if engine is not running}	H02J7/00	H02J7/00		575
+H02J7/0034	9	{using reverse polarity correcting or protecting circuits (mechanical means of polarity protection H02J7/0045)}	H02J7/00	H02J7/00		1459
+H02J7/0036	9	{using connection detecting circuits (H02J7/0034 takes precedence)}	H02J7/00	H02J7/00		2949
+H02J7/0042	8	{characterised by the mechanical construction}	H02J7/00	H02J7/00		15686
+H02J7/0044	9	{specially adapted for holding portable devices containing batteries (H02J7/0045 takes precedence)}	H02J7/00	H02J7/00		7751
+H02J7/0045	9	{concerning the insertion or the connection of the batteries}	H02J7/00	H02J7/00		8208
+H02J7/0047	8	{with monitoring or indicating devices or circuits}	H02J7/00	H02J7/00		14660
+H02J7/0048	9	{Detection of remaining charge capacity or state of charge [SOC]}	H02J7/00	H02J7/00		12675
+H02J7/0049	10	{Detection of fully charged condition}	H02J7/00	H02J7/00		1978
+H02J7/005	9	{Detection of state of health [SOH]}	H02J7/00	H02J7/00		2744
+H02J7/0063	8	{with circuits adapted for supplying loads from the battery}	H02J7/00	H02J7/00		10019
+H02J7/0068	8	{Battery or charger load switching, e.g. concurrent charging and load supply (H02J7/0013 takes precedence)}	H02J7/00	H02J7/00		10474
+H02J7/0069	8	{Charging or discharging for charge maintenance, battery initiation or rejuvenation}	H02J7/00	H02J7/00		1914
+H02J7/007	8	{Regulation of charging or discharging current or voltage}	H02J7/00	H02J7/00		6970
+H02J7/0071	9	{with a programmable schedule}	H02J7/00	H02J7/00		2967
+H02J7/00711	9	{with introduction of pulses during the charging process}	H02J7/00	H02J7/00		1367
+H02J7/00712	9	{the cycle being controlled or terminated in response to electric parameters}	H02J7/00	H02J7/00		8210
+H02J7/00714	10	{in response to battery charging or discharging current}	H02J7/00	H02J7/00		4135
+H02J7/00716	11	{in response to integrated charge or discharge current}	H02J7/00	H02J7/00		432
+H02J7/00718	11	{in response to charge current gradient}	H02J7/00	H02J7/00		271
+H02J7/007182	10	{in response to battery voltage}	H02J7/00	H02J7/00		7260
+H02J7/007184	11	{in response to battery voltage gradient}	H02J7/00	H02J7/00		690
+H02J7/007186	11	{obtained with the battery disconnected from the charge or discharge circuit}	H02J7/00	H02J7/00		338
+H02J7/007188	9	{the charge cycle being controlled or terminated in response to non-electric parameters}	H02J7/00	H02J7/00		873
+H02J7/00719	10	{in response to degree of gas development in the battery}	H02J7/00	H02J7/00		174
+H02J7/007192	10	{in response to temperature}	H02J7/00	H02J7/00		2180
+H02J7/007194	11	{of the battery}	H02J7/00	H02J7/00		3705
+H02J7/02	8	for charging batteries from AC mains by converters	H02J7/02	H02J7/02		9649
+H02J7/04	9	Regulation of charging current or voltage	H02J7/04	H02J7/04		4612
+H02J7/06	10	using discharge tubes or semiconductor devices	H02J7/06	H02J7/06		1787
+H02J7/08	11	using discharge tubes only	H02J7/08	H02J7/08		44
+H02J7/12	10	using magnetic devices having controllable degree of saturation, i.e. transductors	H02J7/12	H02J7/12		221
+H02J7/14	8	for charging batteries from dynamo-electric generators driven at varying speed, e.g. on vehicle	H02J7/14	H02J7/14		4448
+H02J7/1407	9	{on vehicles not being driven by a motor, e.g. bicycles}	H02J7/14	H02J7/14		345
+H02J7/1415	9	{with a generator driven by a prime mover other than the motor of a vehicle}	H02J7/14	H02J7/14		1579
+H02J7/1423	9	{with multiple batteries}	H02J7/14	H02J7/14		2304
+H02J7/143	9	{with multiple generators}	H02J7/14	H02J7/14		389
+H02J7/1438	9	{in combination with power supplies for loads other than batteries}	H02J7/14	H02J7/14		971
+H02J7/1446	9	{in response to parameters of a vehicle}	H02J7/14	H02J7/14		707
+H02J7/1469	9	{Regulation of the charging current or voltage otherwise than by variation of field}	H02J7/14	H02J7/14		107
+H02J7/1476	10	{by mechanical action on the generator}	H02J7/14	H02J7/14		138
+H02J7/1484	10	{by commutation of the output windings of the generator}	H02J7/14	H02J7/14		104
+H02J7/1492	10	{by means of controlling devices between the generator output and the battery}	H02J7/14	H02J7/14		918
+H02J7/16	9	Regulation of the charging current or voltage by variation of field	H02J7/16	H02J7/16		818
+H02J7/163	10	{with special means for initiating or limiting the excitation current}	H02J7/16	H02J7/16		132
+H02J7/18	10	due to variation of ohmic resistance in field circuit, using resistance switching in or out of circuit step by step	H02J7/18	H02J7/18		142
+H02J7/20	10	due to variation of continuously variable ohmic resistor	H02J7/20	H02J7/20		459
+H02J7/22	10	due to variation of make-to-break ratio of intermittently-operating contacts, e.g. using Tirrill regulator	H02J7/22	H02J7/22		602
+H02J7/225	11	{characterised by the mechanical construction}	H02J7/22	H02J7/22		242
+H02J7/24	10	using discharge tubes or semiconductor devices	H02J7/24	H02J7/24		272
+H02J7/243	11	{with on/off action}	H02J7/24	H02J7/24		260
+H02J7/2434	11	{with pulse modulation}	H02J7/24	H02J7/24		193
+H02J7/2437	11	{using thyristors or triacs as final control devices}	H02J7/24	H02J7/24		87
+H02J7/26	10	using magnetic devices with controllable degree of saturation	H02J7/26	H02J7/26		66
+H02J7/28	10	using magnetic devices with controllable degree of saturation in combination with controlled discharge tube or controlled semiconductor device	H02J7/28	H02J7/28		25
+H02J7/30	10	using armature-reaction-excited machines	H02J7/30	H02J7/30		14
+H02J7/32	8	for charging batteries from a charging set comprising a non-electric prime mover {rotating at constant speed}	H02J7/32	H02J7/32		5024
+H02J7/34	8	Parallel operation in networks using both storage and other DC sources, e.g. providing buffering (H02J7/14&#160;takes precedence)	H02J7/34	H02J7/34		6180
+H02J7/342	9	{The other DC source being a battery actively interacting with the first one, i.e. battery to battery charging (with circuits for polarity protection H02J7/0034)}	H02J7/34	H02J7/34		4845
+H02J7/345	9	{using capacitors as storage or buffering devices}	H02J7/34	H02J7/34		7679
+H02J7/35	9	with light sensitive cells	H02J7/35	H02J7/35		28008
+H02J7/36	8	Arrangements using end-cell switching	H02J7/36	H02J7/36		623
+H02J9/00	7	Circuit arrangements for emergency or stand-by power supply, e.g. for emergency lighting	H02J9/00	H02J9/00		1601
+H02J9/002	8	{in which a reserve is maintained in an energy source by disconnecting non-critical loads, e.g. maintaining a reserve of charge in a vehicle battery for starting an engine}	H02J9/00	H02J9/00		371
+H02J9/005	8	{using a power saving mode (for copiers G03G15/5004)}	H02J9/00	H02J9/00		2147
+H02J9/007	9	{Detection of the absence of a load}	H02J9/00	H02J9/00		178
+H02J9/02	8	in which an auxiliary distribution system and its associated lamps are brought into service	H02J9/02	H02J9/02		910
+H02J9/04	8	in which the distribution system is disconnected from the normal source and connected to a standby source	H02J9/04	H02J9/04		1562
+H02J9/06	9	with automatic change-over {, e.g. UPS systems}	H02J9/06	H02J9/06		7558
+H02J9/061	10	{for DC powered loads}	H02J9/06	H02J9/06		7165
+H02J9/062	10	{for AC powered loads}	H02J9/06	H02J9/06		4863
+H02J9/063	11	{Common neutral, e.g. AC input neutral line connected to AC output neutral line and DC middle point}	H02J9/06	H02J9/06		85
+H02J9/065	11	{for lighting purposes}	H02J9/06	H02J9/06		807
+H02J9/066	10	{characterised by the use of dynamo-electric machines (H02J9/08 takes precedence)}	H02J9/06	H02J9/06		732
+H02J9/067	10	{using multi-primary transformers, e.g. transformer having one primary for each AC energy source and a secondary for the loads}	H02J9/06	H02J9/06		80
+H02J9/068	10	{Electronic means for switching from one power supply to another power supply, e.g. to avoid parallel connection}	H02J9/06	H02J9/06		3203
+H02J9/08	10	requiring starting of a prime-mover	H02J9/08	H02J9/08		1685
+H02J11/00	7	Circuit arrangements for providing service supply to auxiliaries of stations in which electric power is generated, distributed or converted	H02J11/00	H02J11/00		861
+H02J13/00	7	Circuit arrangements for providing remote indication of network conditions, e.g. an instantaneous record of the open or closed condition of each circuitbreaker in the network; Circuit arrangements for providing remote control of switching means in a power distribution network, e.g. switching in and out of current consumers by using a pulse code signal carried by the network	H02J13/00	H02J13/00		5135
+H02J13/00001	8	{characterised by the display of information or by user interaction, e.g. supervisory control and data acquisition systems [SCADA] or graphical user interfaces [GUI]}	H02J13/00	H02J13/00		11200
+H02J13/00002	8	{characterised by monitoring}	H02J13/00	H02J13/00		16159
+H02J13/00004	8	{characterised by the power network being locally controlled}	H02J13/00	H02J13/00		2820
+H02J13/00006	8	{characterised by information or instructions transport means between the monitoring, controlling or managing units and monitored, controlled or operated power network element or electrical equipment}	H02J13/00	H02J13/00		4889
+H02J13/00007	9	{using the power network as support for the transmission}	H02J13/00	H02J13/00		1602
+H02J13/00009	10	{using pulsed signals}	H02J13/00	H02J13/00		2153
+H02J13/0001	10	{using modification of a parameter of the network power signal}	H02J13/00	H02J13/00		462
+H02J13/00012	9	{using an auxiliary transmission line}	H02J13/00	H02J13/00		278
+H02J13/00014	10	{carrying signals having the network frequency or DC signals}	H02J13/00	H02J13/00		32
+H02J13/00016	9	{using a wired telecommunication network or a data transmission bus}	H02J13/00	H02J13/00		3589
+H02J13/00017	10	{using optical fiber}	H02J13/00	H02J13/00		1633
+H02J13/00018	10	{using phone lines}	H02J13/00	H02J13/00		127
+H02J13/00019	9	{using optical means}	H02J13/00	H02J13/00		544
+H02J13/0002	9	{using ultrasonic means}	H02J13/00	H02J13/00		58
+H02J13/00022	9	{using wireless data transmission}	H02J13/00	H02J13/00		4752
+H02J13/00024	10	{by means of mobile telephony}	H02J13/00	H02J13/00		779
+H02J13/00026	10	{involving a local wireless network, e.g. Wi-Fi, ZigBee or Bluetooth}	H02J13/00	H02J13/00		2030
+H02J13/00028	9	{involving the use of Internet protocols}	H02J13/00	H02J13/00		2837
+H02J13/00032	8	{Systems characterised by the controlled or operated power network elements or equipment, the power network elements or equipment not otherwise provided for (circuits specially adapted for remote switching of lighting via the power line H05B47/185)}	H02J13/00	H02J13/00		4463
+H02J13/00034	9	{the elements or equipment being or involving an electric power substation}	H02J13/00	H02J13/00		4010
+H02J13/00036	9	{the elements or equipment being or involving switches, relays or circuit breakers (circuits for indication of single switches H01H9/167)}	H02J13/00	H02J13/00		2299
+H02J13/0004	10	{involved in a protection system}	H02J13/00	H02J13/00		2501
+H02J13/0005	9	{the elements or equipment being or involving power plugs or sockets}	H02J13/00	H02J13/00		410
+H02J15/00	7	Systems for storing electric energy (mechanical systems therefor F01-F04; in chemical form H01M)	H02J15/00	H02J15/00		2509
+H02J15/003	8	{in the form of hydraulic energy}	H02J15/00	H02J15/00		324
+H02J15/006	8	{in the form of pneumatic energy, e.g. compressed air energy storage [CAES] (accumulators for supplying fluid under pressure F15B1/04)}	H02J15/00	H02J15/00		742
+H02J15/007	8	{involving storage in the form of mechanical energy, e.g. fly-wheels}	H02J15/00	H02J15/00		688
+H02J15/008	8	{using hydrogen as energy vector}	H02J15/00	H02J15/00		1127
+H02J50/00	7	Circuit arrangements or systems for wireless supply or distribution of electric power<br><br><u>NOTE</u><br><br>In this main group, the specific types of wireless technology used for the power transmission are covered in groups H02J50/05-H02J50/30, while aspects relevant to the circuit arrangements or systems thereof are covered in groups H02J50/40-H02J50/90.	H02J50/00	H02J50/00		2452
+H02J50/001	8	{Energy harvesting or scavenging}	H02J50/00	H02J50/00		1791
+H02J50/005	8	{Mechanical details of housing or structure aiming to accommodate the power transfer means, e.g. mechanical integration of coils, antennas or transducers into emitting or receiving devices}	H02J50/00	H02J50/00		6415
+H02J50/05	8	using capacitive coupling	H02J50/05	H02J50/05		1067
+H02J50/10	8	using inductive coupling	H02J50/10	H02J50/10		19207
+H02J50/12	9	of the resonant type	H02J50/12	H02J50/12		14177
+H02J50/15	8	using ultrasonic waves	H02J50/15	H02J50/15		304
+H02J50/20	8	using microwaves or radio frequency waves	H02J50/20	H02J50/20		4739
+H02J50/23	9	characterised by the type of transmitting antennas, e.g. directional array antennas or Yagi antennas	H02J50/23	H02J50/23		685
+H02J50/27	9	characterised by the type of receiving antennas, e.g. rectennas	H02J50/27	H02J50/27		718
+H02J50/30	8	using light, e.g. lasers	H02J50/30	H02J50/30		1046
+H02J50/40	8	using two or more transmitting or receiving devices (H02J50/50 takes precedence)	H02J50/40	H02J50/40		4404
+H02J50/402	9	{the two or more transmitting or the two or more receiving devices being integrated in the same unit, e.g. power mats with several coils or antennas with several sub-antennas}	H02J50/40	H02J50/40		3061
+H02J50/50	8	using additional energy repeaters between transmitting devices and receiving devices	H02J50/50	H02J50/50		972
+H02J50/502	9	{the energy repeater being integrated together with the emitter or the receiver}	H02J50/50	H02J50/50		189
+H02J50/60	8	responsive to the presence of foreign objects, e.g. detection of living beings	H02J50/60	H02J50/60		2625
+H02J50/70	8	involving the reduction of electric, magnetic or electromagnetic leakage fields	H02J50/70	H02J50/70		3862
+H02J50/80	8	involving the exchange of data, concerning supply or distribution of electric power, between transmitting devices and receiving devices	H02J50/80	H02J50/80		10160
+H02J50/90	8	involving detection or optimisation of position, e.g. alignment	H02J50/90	H02J50/90		7884
+H02J2203/00	7	Indexing scheme relating to details of circuit arrangements for AC mains or AC distribution networks	CPCONLY	H02J2203/00		8
+H02J2203/10	8	Power transmission or distribution systems management focussing at grid-level, e.g. load flow analysis, node profile computation, meshed network optimisation, active network management or spinning reserve management	CPCONLY	H02J2203/10		15760
+H02J2203/20	8	Simulating, e g planning, reliability check, modelling or computer assisted design [CAD]	CPCONLY	H02J2203/20		41208
+H02J2207/00	7	Indexing scheme relating to details of circuit arrangements for charging or depolarising batteries or for supplying loads from batteries	CPCONLY	H02J2207/00		5
+H02J2207/10	8	Control circuit supply, e.g. means for supplying power to the control circuit	CPCONLY	H02J2207/10		846
+H02J2207/20	8	Charging or discharging characterised by the power electronics converter	CPCONLY	H02J2207/20		10284
+H02J2207/30	8	Charge provided using DC bus or data bus of a computer	CPCONLY	H02J2207/30		1142
+H02J2207/40	8	adapted for charging from various sources, e.g. AC, DC or multivoltage	CPCONLY	H02J2207/40		1950
+H02J2207/50	8	Charging of capacitors, supercapacitors, ultra-capacitors or double layer capacitors	CPCONLY	H02J2207/50		2315
+H02J2213/00	7	Indexing scheme relating to details of circuit arrangements for providing remote indication of network conditions of for circuit arrangements for providing remote control of switching means in a power distribution network	CPCONLY	H02J2213/00		18
+H02J2213/10	8	using simultaneously two or more different transmission means	CPCONLY	H02J2213/10		293
+H02J2300/00	7	Systems for supplying or distributing electric power characterised by decentralized, dispersed, or local generation	CPCONLY	H02J2300/00		142
+H02J2300/10	8	The dispersed energy generation being of fossil origin, e.g. diesel generators	CPCONLY	H02J2300/10		1517
+H02J2300/20	8	The dispersed energy generation being of renewable origin	CPCONLY	H02J2300/20		6062
+H02J2300/22	9	The renewable source being solar energy	CPCONLY	H02J2300/22		1773
+H02J2300/24	10	of photovoltaic origin	CPCONLY	H02J2300/24		19236
+H02J2300/26	11	involving maximum power point tracking control for photovoltaic sources	CPCONLY	H02J2300/26		2797
+H02J2300/28	9	The renewable source being wind energy	CPCONLY	H02J2300/28		15919
+H02J2300/30	8	The power source being a fuel cell	CPCONLY	H02J2300/30		2092
+H02J2300/40	8	wherein a plurality of decentralised, dispersed or local energy generation technologies are operated simultaneously	CPCONLY	H02J2300/40		4614
+H02J2310/00	7	The network for supplying or distributing electric power characterised by its spatial reach or by the load	CPCONLY	H02J2310/00		18
+H02J2310/10	8	The network having a local or delimited stationary reach	CPCONLY	H02J2310/10		618
+H02J2310/12	9	The local stationary network supplying a household or a building	CPCONLY	H02J2310/12		1647
+H02J2310/14	10	The load or loads being home appliances	CPCONLY	H02J2310/14		2037
+H02J2310/16	10	The load or loads being an Information and Communication Technology [ICT] facility	CPCONLY	H02J2310/16		352
+H02J2310/18	9	The network being internal to a power source or plant	CPCONLY	H02J2310/18		210
+H02J2310/20	9	The network being internal to a load	CPCONLY	H02J2310/20		69
+H02J2310/22	10	The load being a portable electronic device	CPCONLY	H02J2310/22		1529
+H02J2310/23	10	The load being a medical device, a medical implant, or a life supporting device	CPCONLY	H02J2310/23		1380
+H02J2310/40	8	The network being an on-board power network, i.e. within a vehicle	CPCONLY	H02J2310/40		1055
+H02J2310/42	9	for ships or vessels	CPCONLY	H02J2310/42		733
+H02J2310/44	9	for aircrafts	CPCONLY	H02J2310/44		1196
+H02J2310/46	9	for ICE-powered road vehicles	CPCONLY	H02J2310/46		2177
+H02J2310/48	9	for electric vehicles [EV] or hybrid vehicles [HEV]	CPCONLY	H02J2310/48		6743
+H02J2310/50	8	for selectively controlling the operation of the loads	CPCONLY	H02J2310/50		148
+H02J2310/52	9	The controlling of the operation of the load not being the total disconnection of the load, i.e. entering a degraded mode or in current limitation	CPCONLY	H02J2310/52		274
+H02J2310/54	9	according to a pre-established time schedule	CPCONLY	H02J2310/54		291
+H02J2310/56	9	characterised by the condition upon which the selective controlling is based	CPCONLY	H02J2310/56		127
+H02J2310/58	10	The condition being electrical	CPCONLY	H02J2310/58		560
+H02J2310/60	11	Limiting power consumption in the network or in one section of the network, e.g. load shedding or peak shaving	CPCONLY	H02J2310/60		3095
+H02J2310/62	10	The condition being non-electrical, e.g. temperature	CPCONLY	H02J2310/62		192
+H02J2310/64	11	The condition being economic, e.g. tariff based load management	CPCONLY	H02J2310/64		1594
+H02J2310/66	9	one of the loads acting as master and the other or others acting as slaves	CPCONLY	H02J2310/66		117
+H02J2310/70	8	Load identification	CPCONLY	H02J2310/70		268

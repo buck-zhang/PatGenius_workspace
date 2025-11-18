@@ -1,0 +1,562 @@
+H03H   1/00  \	0	0	5J024	H03H   1/00	98	電気的動作姿態が特定されていないか２種類以上の回路網に適用できるインピーダンス回路網の構造の細部（電気機械的トランスジューサーの構造の細部Ｈ０３Ｈ９／００）	Constructional details of impedance networks whose electrical mode of operation is not specified or applicable to more than one type of network (constructional details of electromechanical transducers H03H 9/00)
+H03H   1/02  \	1	1	5J024	H03H   1/02	12	ＲＣ回路，例．フィルタ［２００６．０１］	RC networks, e.g. filters
+H03H   2/00  \	0	0	5J024	H03H   2/00	13	グループＨ０３Ｈ３／００〜Ｈ０３Ｈ２１／００にあてはまらない素子または技術を使った回路網［３］	Networks using elements or techniques not provided for in groups H03H 3/00-H03H 21/00 [3]
+H03H   3/00  \	0	0	5J024	H03H   3/00	95	インピーダンス回路網，共振回路，共振器の製造に特有な装置または工程	Apparatus or processes specially adapted for the manufacture of impedance networks, resonating circuits, resonators
+H03H   3/007  \	1	1	5J108	H03H   3/007	4	電気機械的共振器または回路網の製造のためのもの［３］	for the manufacture of electromechanical resonators or networks [3]
+H03H   3/007  A	1	0	5J108	H03H   3/007	36	製造に特有な装置	Apparatuses specially adapted for manufacture
+H03H   3/007  B	1	0	5J108	H03H   3/007	189	保持具，駆動手段の製造工程	Manufacturing processes for retainers or driving means
+H03H   3/007  M	1	0	5J108	H03H   3/007	136	機械的共振器の製造工程	Manufacturing processes for mechanical resonators
+H03H   3/007  C	1	0	5J108	H03H   3/007	174	時間遅延回路網の製造工程	Manufacturing processes for time delay network
+H03H   3/007  D	1	0	5J108	H03H   3/007	42	濾波器の製造工程	Manufacturing processes for wave filters
+H03H   3/007  Z	1	0	5J108	H03H   3/007	235	その他のもの	Others
+H03H   3/013  \	2	2	5J108	H03H   3/013	147	所望の周波数または温度係数を得るためのもの（Ｈ０３Ｈ３／０４，Ｈ０３Ｈ３／１０が優先）［３］	for obtaining desired frequency or temperature coefficient (H03H 3/04, H03H 3/10 take precedence) [3]
+H03H   3/02  \	2	2	5J108	H03H   3/02	35	圧電または電わい共振器または回路網の製造のためのもの（Ｈ０３Ｈ３／０８が優先）［３］	for the manufacture of piezo-electric or electrostrictive resonators or networks (H03H 3/08 takes precedence) [3]
+H03H   3/02  A	2	0	5J108	H03H   3/02	594	製造に特有な装置	Apparatuses specially adapted for manufacture
+H03H   3/02  B	2	0	5J108	H03H   3/02	4165	共振器のための製造工程	Manufacturing processes for resonators
+H03H   3/02  C	2	1	5J108	H03H   3/02	1542	多数の共振器のためのもの	for multiple resonators
+H03H   3/02  D	2	2	5J108	H03H   3/02	712	音又型結晶振動子におけるもの	with tuning fork crystal oscillators
+H03H   3/02  E	2	0	5J108	H03H   3/02	233	濾波器のための製造工程	Manufacturing processes for wave filters
+H03H   3/02  Z	2	0	5J108	H03H   3/02	144	その他のもの	Others
+H03H   3/04  \	3	3	5J108	H03H   3/04	5	所望の周波数または温度係数を得るためのもの［３］	for obtaining desired frequency or temperature coefficient [3]
+H03H   3/04  A	3	0	5J108	H03H   3/04	266	製造に特有な装置	Apparatuses specially adapted for manufacture
+H03H   3/04  B	3	0	5J108	H03H   3/04	1190	周波数調整工程	Frequency adjusting processes
+H03H   3/04  C	3	0	5J108	H03H   3/04	83	温度特性の調整工程	Adjusting processes for thermal characteristics
+H03H   3/04  Z	3	0	5J108	H03H   3/04	68	その他のもの〔例．周波数と温度特性の両方を調整するもの〕	Others, e.g. for adjusting both of frequency and thermal characteristics
+H03H   3/06  \	2	2	5J108	H03H   3/06	10	磁わい共振器または回路網の製造のためのもの［３］	for the manufacture of magnetostrictive resonators or networks [3]
+H03H   3/08  \	2	2	5J097	H03H   3/08	6554	弾性表面波を用いる共振器または回路網の製造のためのもの［３］	for the manufacture of resonators or networks using surface acoustic waves [3]
+H03H   3/10  \	3	3	5J097	H03H   3/10	298	所望の周波数または温度係数を得るためのもの［３］	for obtaining desired frequency or temperature coefficient [3]
+H03H   5/00  \	0	0	5J024	H03H   5/00	78	回路網の部品として受動的電気素子のみを含む一端子対回路網［３］	One-port networks comprising only passive electrical elements as network components [3]
+H03H   5/02  \	1	1	5J024	H03H   5/02	725	電圧または電流に依存しない素子をもつもの	without voltage- or current-dependent elements
+H03H   5/10  \	2	2	5J024	H03H   5/10	25	定められた温度係数をもつ素子を少なくとも１個含むもの	comprising at least one element with prescribed temperature coefficient
+H03H   5/12  \	1	1	5J024	H03H   5/12	163	電圧または電流に依存する素子を少なくとも１個もつもの	with at least one voltage- or current-dependent element
+H03H   7/00  \	0	0	5J024	H03H   7/00	166	回路網の部品として受動的電気素子のみを含む多端子対回路網［２００６．０１］	Multiple-port networks comprising only passive electrical elements as network components
+H03H   7/01  \	1	1	5J024	H03H   7/01	74	周波数選択二端子対回路網［３］	Frequency selective two-port networks [3]
+H03H   7/01  A	1	0	5J024	H03H   7/01	1913	フイルタ−	Filters
+H03H   7/01  B	1	1	5J024	H03H   7/01	179	複同調回路を有するもの	with multiple synchronisation circuits
+H03H   7/01  C	1	1	5J024	H03H   7/01	203	フイルタ−の切換えに関するもの	related to switching filters
+H03H   7/01  D	1	0	5J024	H03H   7/01	311	等化器	Equalisers
+H03H   7/01  E	1	0	5J024	H03H   7/01	339	可変等化器	Variable equalisers
+H03H   7/01  F	1	0	5J024	H03H   7/01	119	自動等化器	Automatic equalisers
+H03H   7/01  G	1	0	5J024	H03H   7/01	173	遅延等化器	Delayed equalisers
+H03H   7/01  Z	1	0	5J024	H03H   7/01	2035	その他〔例．フイルタ−のケ−ス，装着方法〕構造的なもの	Others, e.g. filter case, mounting methods, structural
+H03H   7/03  \	2	2	5J024	H03H   7/03	20	損失の補償のための手段を含むもの［３］	comprising means for compensation of loss [3]
+H03H   7/06  \	2	2	5J024	H03H   7/06	677	抵抗器を含むもの（Ｈ０３Ｈ７／０７５，Ｈ０３Ｈ７／０９，Ｈ０３Ｈ７／１２，Ｈ０３Ｈ７／１３が優先）［３］	including resistors (H03H 7/075, H03H 7/09, H03H 7/12, H03H 7/13 take precedence) [3]
+H03H   7/065  \	3	3	5J024	H03H   7/065	31	並列Ｔ型濾波器［３］	Parallel T-filters [3]
+H03H   7/07  \	3	3	5J024	H03H   7/07	100	ブリッヂＴ型濾波器［３］	Bridged T-filters [3]
+H03H   7/075  \	2	2	5J024	H03H   7/075	71	梯子型回路網，例．電気的濾波器［３］	Ladder networks, e.g. electric wave filters [3]
+H03H   7/075  A	2	0	5J024	H03H   7/075	1718	はしご型回路網を構成するエレメントに特徴を有するもの	characterised by elements consisting of ladder network
+H03H   7/075  Z	2	0	5J024	H03H   7/075	1216	その他	Others
+H03H   7/09  \	2	2	5J024	H03H   7/09	54	相互インダクタンスを含む濾波器［３］	Filters comprising mutual inductance [3]
+H03H   7/09  A	2	0	5J024	H03H   7/09	1938	ラインフイルタ−	Line filters
+H03H   7/09  Z	2	0	5J024	H03H   7/09	1049	その他	Others
+H03H   7/12  \	2	2	5J024	H03H   7/12	427	調整可能な帯域幅および固定中心周波数をもつ帯域通過または帯域阻止濾波器（Ｈ０３Ｈ７／０９が優先）［２００６．０１］	Bandpass or bandstop filters with adjustable bandwidth and fixed centre frequency (H03H 7/09 takes precedence)
+H03H   7/13  \	2	2	5J024	H03H   7/13	5	電気一光学素子を用いるもの［３］	using electro-optical elements [3]
+H03H   7/18  \	1	1	5J025	H03H   7/18	12	移相回路網	Networks for phase shifting
+H03H   7/18  A	1	0	5J025	H03H   7/18	14	ブリジツドＴ型回路	Bridged T circuits
+H03H   7/18  B	1	0	5J025	H03H   7/18	21	ブリツジ回路	Bridge circuits
+H03H   7/18  D	1	0	5J025	H03H   7/18	60	Ｒ−Ｃ回路を必須構成要件とするもの	R-C circuit being as essential condition
+H03H   7/18  E	1	0	5J025	H03H   7/18	70	Ｌ−Ｃ回路を必須構成要件とするもの	L-C circuit being as essential condition
+H03H   7/18  G	1	0	5J025	H03H   7/18	54	分岐・結合手段を必須構成要件とするもの	Branching or coupling means being essential condition
+H03H   7/18  H	1	0	5J025	H03H   7/18	24	強電回路に用いられるもの	used for power circuits
+H03H   7/18  Z	1	0	5J025	H03H   7/18	89	その他のもの	Others
+H03H   7/19  \	2	2	5J025	H03H   7/19	78	予め定められた位相推移を与える二端子対移相器，例．「全域通過」濾波器［３］	Two-port phase shifters providing a predetermined phase shift, e.g. "all-pass" filters [3]
+H03H   7/20  \	2	2	5J025	H03H   7/20	16	調整可能な位相推移を与える二端子対移相器［３］	Two-port phase shifters providing an adjustable phase shift [3]
+H03H   7/20  A	2	0	5J025	H03H   7/20	8	ブリジツドＴ型回路	Bridged T circuits
+H03H   7/20  B	2	0	5J025	H03H   7/20	50	ブリツジ回路	Bridge circuits
+H03H   7/20  D	2	0	5J025	H03H   7/20	32	Ｒ−Ｃ回路を必須構成要件とするもの	R-C circuit being as essential condition
+H03H   7/20  E	2	0	5J025	H03H   7/20	78	Ｌ−Ｃ回路を必須構成要件とするもの	L-C circuit being as essential condition
+H03H   7/20  F	2	0	5J025	H03H   7/20	60	ダイオ−ドを必須構成要件とするもの	Diode being as essential condition
+H03H   7/20  G	2	0	5J025	H03H   7/20	77	分岐・結合手段を必須構成要件とするもの	Branching or coupling means being essential condition
+H03H   7/20  H	2	0	5J025	H03H   7/20	69	ハイブリツド回路を必須構成要件とするもの	Hybrid circuit being as essential condition
+H03H   7/20  Z	2	0	5J025	H03H   7/20	132	その他のもの	Others
+H03H   7/21  \	2	2	5J025	H03H   7/21	296	２以上の位相推移された信号を提供するもの，例．ｎ相出力［３］	providing two or more phase shifted output signals, e.g. n-phase output [3]
+H03H   7/24  \	1	1	5J026	H03H   7/24	1015	周波数に依存しない減衰器	Frequency-independent attenuators
+H03H   7/25  \	2	2	5J026	H03H   7/25	509	電気的または磁気的変数によって制御される素子を含むもの（Ｈ０３Ｈ７／２７が優先）［３］	comprising an element controlled by an electric or magnetic variable (H03H 7/27 takes precedence) [3]
+H03H   7/27  \	2	2	5J026	H03H   7/27	31	光電素子を含むもの［３］	comprising a photo-electric element [3]
+H03H   7/30  \	1	1	5J037	H03H   7/30	32	時間遅延回路網	Time-delay networks
+H03H   7/30  A	1	0	5J037	H03H   7/30	62	電気素子を特定しない時間遅延回路	Time delay circuits without specifying electric elements
+H03H   7/30  B	1	0	5J037	H03H   7/30	338	遅延時間を可変するもの	Variable delay time
+H03H   7/30  Z	1	0	5J037	H03H   7/30	80	その他のもの	Others
+H03H   7/32  \	2	2	5J037	H03H   7/32	343	集中インダクタンスと集中キャパシタンスをもつもの	with lumped inductance and capacitance
+H03H   7/34  \	2	2	5J037	H03H   7/34	8	集中リアクタンスと分布リアクタンスをもつもの	with lumped and distributed reactance
+H03H   7/34  A	2	0	5J037	H03H   7/34	284	電極により分布リアクタンスを得るもの	for obtaining distribution reactance by electrodes
+H03H   7/34  B	2	0	5J037	H03H   7/34	91	巻線により分布リアクタンスを得るもの〔例．ア−ス巻線があるもの〕	for obtaining distribution reactance by windings, e.g. with grounding winding
+H03H   7/34  Z	2	0	5J037	H03H   7/34	3	その他のもの	Others
+H03H   7/38  \	1	1	5J037	H03H   7/38	45	インピーダンス整合回路網	Impedance-matching networks
+H03H   7/38  A	1	0	5J037	H03H   7/38	283	トランスを用いるもの	using transformers
+H03H   7/38  B	1	0	5J037	H03H   7/38	251	スイツチによるもの	by switches
+H03H   7/38  C	1	0	5J037	H03H   7/38	228	回路素子の配置に特徴を有するもの	characterised by arrangements of circuit elements
+H03H   7/38  Z	1	0	5J037	H03H   7/38	900	その他のもの	Others
+H03H   7/40  \	2	2	5J037	H03H   7/40	394	電源インピーダンスに対する負荷インピーダンスの自動整合	Automatic matching of load impedance to source impedance
+H03H   7/42  \	1	1	5J037	H03H   7/42	552	平衡信号を不平衡信号に変換するための，またはその逆に変換するための回路網，例．バラン［２００６．０１］	Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns [2006.01]
+H03H   7/46  \	1	1	5J037	H03H   7/46	30	相異った周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網［２００６．０１］	Networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common load or source
+H03H   7/46  A	1	0	5J037	H03H   7/46	1156	フイルタを用いるもの	using filters
+H03H   7/46  C	1	0	5J037	H03H   7/46	177	回路素子の配置に特徴を有するもの	characterised by arrangements of circuit elements
+H03H   7/46  Z	1	0	5J037	H03H   7/46	157	その他のもの	Others
+H03H   7/48  \	1	1	5J037	H03H   7/48	32	同一の周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網（２以上の出力信号を提供する移相器Ｈ０３Ｈ７／２１）［３］	Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (phase shifters providing two or more output signals H03H 7/21) [3]
+H03H   7/48  A	1	0	5J037	H03H   7/48	407	トランスを用いるもの	using transformers
+H03H   7/48  B	1	0	5J037	H03H   7/48	85	スイツチによるもの	by switches
+H03H   7/48  C	1	0	5J037	H03H   7/48	262	回路素子の配置に特徴を有するもの	characterised by arrangements of circuit elements
+H03H   7/48  Z	1	0	5J037	H03H   7/48	342	その他のもの	Others
+H03H   7/52  \	1	1	5J037	H03H   7/52	84	１方向性伝送回路網，例．ユニライン	One-way transmission networks, i.e. unilines
+H03H   7/54  \	1	1	5J037	H03H   7/54	43	温度変化の影響を軽減するための回路網の変形［３］	Modifications of networks to reduce influence of variations of temperature [3]
+H03H   9/00  \	0	0	5J108	H03H   9/00	742	電気機械的または電気音響的素子を含む回路網；電気機械的共振器（機械的に入出力する圧電装置，電わい装置または磁わい装置，例．アクチュエータまたはセンサー，Ｈ１０Ｎ３０／００，Ｈ１０Ｎ３５／００；拡声器，マイクロフォン，蓄音機ピックアップ等の電気音響的変換器Ｈ０４Ｒ）［２００６．０１］	Networks comprising electromechanical or electro-acoustic elements; Electromechanical resonators ( piezoelectric, electrostrictive or magnetostrictive  devices with mechanical input or output, e.g. actuators or sensors, H10N 30/00, H10N 35/00; electro-acoustic transducers such as loudspeakers, microphones or gramophone pick-ups  H04R)
+H03H   9/02  \	1	1	5J108	H03H   9/02	2698	細部［３］	Details [3]
+H03H   9/02  A	1	0	5J108	H03H   9/02	3547	容器	Containers
+H03H   9/02  B	1	1	5J108	H03H   9/02	371	ステム・キヤツプ容器	Stem or cap containers
+H03H   9/02  C	1	1	5J108	H03H   9/02	211	筒状容器	Cylindrical containers
+H03H   9/02  D	1	1	5J108	H03H   9/02	435	音叉型水晶振動子の容器	Containers for tuning fork crystal oscillator
+H03H   9/02  E	1	0	5J108	H03H   9/02	248	ステム	Stems
+H03H   9/02  F	1	0	5J108	H03H   9/02	675	ユニツトの固着	Securing units
+H03H   9/02  G	1	0	5J108	H03H   9/02	383	モ−ルド	Moulds
+H03H   9/02  H	1	0	5J108	H03H   9/02	107	マ−カ−	Markers
+H03H   9/02  J	1	0	5J108	H03H   9/02	335	複数の圧電素子の組み合わせ	Combinations of multiple piezo-electric elements
+H03H   9/02  K	1	0	5J108	H03H   9/02	2314	他素子との組み合わせ	Combinations with other elements
+H03H   9/02  L	1	0	5J108	H03H   9/02	1500	チツプ型・表面実装型	Chip or surface mounting type
+H03H   9/02  M	1	0	5J108	H03H   9/02	587	周波数調整のための構成	Structures for adjusting frequencies
+H03H   9/02  N	1	0	5J108	H03H   9/02	536	温度補償のための構成	Structures for compensating temperatures
+H03H   9/02  Z	1	0	5J108	H03H   9/02	309	その他のもの	Others
+H03H   9/05  \	2	2	5J108	H03H   9/05	949	保持具または支持体［３］	Holders or supports
+H03H   9/08  \	3	3	5J108	H03H   9/08	30	温度調整手段をもつ保持具	Holders with means for regulating temperature
+H03H   9/09  \	3	3	5J108	H03H   9/09	232	弾性または制動のある支持体［３］	Elastic or damping supports [3]
+H03H   9/10  \	3	3	5J108	H03H   9/10	2754	封入容器中での実装	Mounting in enclosures
+H03H   9/12  \	4	4	5J108	H03H   9/12	3	光波と音波の相互作用のある回路網のためのもの	for networks with interaction of optical and acoustic waves
+H03H   9/125  \	2	2	5J108	H03H   9/125	56	駆動手段，例．電極，コイル［３］	Driving means, e.g. electrodes, coils [3]
+H03H   9/13  \	3	3	5J108	H03H   9/13	743	圧電または電わい材料からなる回路網のためのもの（弾性表面波を用いる回路網のためのものＨ０３Ｈ９／１４５）［２００６．０１］	for networks consisting of piezoelectric or electrostrictive materials  (for networks using surface acoustic waves H03H 9/145)
+H03H   9/135  \	3	3	5J108	H03H   9/135	6	磁わい材料からなる回路網のためのもの（Ｈ０３Ｈ９／１４５が優先）［３］	for networks consisting of magnetostrictive materials (H03H 9/145 takes precedence) [3]
+H03H   9/145  \	3	3	5J097	H03H   9/145	116	弾性表面波を用いる回路網のためのもの［３］	for networks using surface acoustic waves [3]
+H03H   9/145  A	3	0	5J097	H03H   9/145	370	３電極型変換器	3-electrode converters
+H03H   9/145  B	3	0	5J097	H03H   9/145	376	一方向性変換器	Unidirectional converters
+H03H   9/145  C	3	0	5J097	H03H   9/145	3020	電極の厚み方向に特徴を有するもの	characterised by thickness direction of electrodes
+H03H   9/145  D	3	0	5J097	H03H   9/145	2013	励振電極以外の部位に特徴を有するも〔例．反射格子〕	characterised by portions other than exciting electrodes, e.g. reflection grids
+H03H   9/145  Z	3	0	5J097	H03H   9/145	3151	その他のもの	Others
+H03H   9/15  \	1	1	5J108	H03H   9/15	51	圧電または電わい材料からなる共振器の構造上の特徴（Ｈ０３Ｈ９／２５が優先）［３］	Constructional features of resonators consisting of piezo-electric or electrostrictive material (H03H 9/25 takes precedence) [3]
+H03H   9/17  \	2	2	5J108	H03H   9/17	2105	単一の共振器を持つもの（結晶チューニングフォークＨ０３Ｈ９／２１）［３］	having a single resonator (crystal tuning forks H03H 9/21) [3]
+H03H   9/17  A	2	0	5J108	H03H   9/17	1171	セラミツク振動子	Ceramic oscillators
+H03H   9/17  B	2	1	5J108	H03H   9/17	445	共振部に特徴を有するもの	characterised by resonators
+H03H   9/17  C	2	1	5J108	H03H   9/17	473	電極に特徴を有するもの	characterised by electrodes
+H03H   9/17  D	2	1	5J108	H03H   9/17	356	中央支持型	Central support type
+H03H   9/17  E	2	1	5J108	H03H   9/17	337	特殊な構造の振動子	Oscillators with special structures
+H03H   9/17  F	2	0	5J108	H03H   9/17	2278	薄膜型振動子	Thin-film oscillators
+H03H   9/17  G	2	0	5J108	H03H   9/17	313	単結晶振動子	Single crystal oscillators
+H03H   9/17  H	2	0	5J108	H03H   9/17	287	用途に特徴を有するもの	characterised by applications
+H03H   9/17  Z	2	0	5J108	H03H   9/17	111	その他のもの	Others
+H03H   9/19  \	3	3	5J108	H03H   9/19	2574	水晶からなるもの［３］	consisting of quartz [3]
+H03H   9/19  A	3	0	5J108	H03H   9/19	1370	水晶振動子（Ｄ〜Ｌが優先）	Crystal oscillators (D to L take precedence.)
+H03H   9/19  B	3	1	5J108	H03H   9/19	457	共振部に特徴を有するもの	characterised by oscillators
+H03H   9/19  C	3	1	5J108	H03H   9/19	408	電極に特徴を有するもの	characterised by electrodes
+H03H   9/19  D	3	0	5J108	H03H   9/19	1124	厚みすベり水晶振動子	Thickness slipping crystal oscillators
+H03H   9/19  E	3	1	5J108	H03H   9/19	634	共振部に特徴を有するもの	characterised by resonators
+H03H   9/19  F	3	1	5J108	H03H   9/19	612	電極に特徴を有するもの	characterised by electrodes
+H03H   9/19  G	3	1	5J108	H03H   9/19	279	丸型	Round type
+H03H   9/19  H	3	1	5J108	H03H   9/19	216	インナ−リ−ド型	Inner reed type
+H03H   9/19  J	3	0	5J108	H03H   9/19	1087	音叉型水晶振動子	Tuning fork crystal oscillators
+H03H   9/19  K	3	1	5J108	H03H   9/19	435	共振部に特徴を有するもの	characterised by resonators
+H03H   9/19  L	3	1	5J108	H03H   9/19	387	電極に特徴を有するもの	characterised by electrodes
+H03H   9/19  Z	3	0	5J108	H03H   9/19	26	その他のもの	Others
+H03H   9/205  \	2	2	5J108	H03H   9/205	616	多数の共振器を持つもの（結晶チューニングフォークＨ０３Ｈ９／２１）［３］	having multiple resonators (crystal tuning forks H03H 9/21) [3]
+H03H   9/21  \	2	2	5J108	H03H   9/21	7	結晶チューニングフォーク［３］	Crystal tuning forks [3]
+H03H   9/21  A	2	0	5J108	H03H   9/21	536	保持具，支持体〔音叉型水晶共振器の保持・支持を含む〕	Retainers or supports (including retaining or supporting tuning fork crystal oscillators)
+H03H   9/21  B	2	0	5J108	H03H   9/21	232	音叉型セラミツク共振器	Tuning fork ceramic oscillators
+H03H   9/21  Z	2	0	5J108	H03H   9/21	38	その他のもの	Others
+H03H   9/215  \	3	3	5J108	H03H   9/215	1646	水晶からなるもの［３］	consisting of quartz [3]
+H03H   9/22  \	1	1	5J108	H03H   9/22	49	磁わい材料からなる共振器の構造上の特徴	Constructional features of resonators consisting of magnetostricitve material
+H03H   9/24  \	1	1	5J108	H03H   9/24	19	圧電，電わい，または磁わい以外の材料からなる共振器の構造上の特徴	Constructional features of resonators of material which is not piezo-electric, electrostrictive, or magnetostrictive
+H03H   9/24  A	1	0	5J108	H03H   9/24	162	変換器	Converters
+H03H   9/24  B	1	0	5J108	H03H   9/24	837	音叉型共振器	Tuning fork oscillators
+H03H   9/24  Z	1	0	5J108	H03H   9/24	1058	その他のもの	Others
+H03H   9/25  \	1	1	5J097	H03H   9/25	43	弾性表面波を使用する共振器の構造上の特徴［３］	Constructional features of resonators using surface acoustic waves
+H03H   9/25  A	1	0	5J097	H03H   9/25	4055	容器，保持具	Containers or retainers
+H03H   9/25  C	1	0	5J097	H03H   9/25	3112	基板の材料又は圧電体のカツトに特徴のあるもの	characterised by board materials or cutting of piezo-electric materials
+H03H   9/25  D	1	0	5J097	H03H   9/25	654	基板の端面又は裏面における反射による影響を除去するもの	for eliminating influences due to reflection at board ends or rear surface
+H03H   9/25  Z	1	0	5J097	H03H   9/25	2245	その他のもの	Others
+H03H   9/30  \	1	1	5J108	H03H   9/30	18	時間遅延回路網	Time-delay networks
+H03H   9/30  A	1	0	5J108	H03H   9/30	143	回路構成上の特徴〔回路構成に限る〕	Features related to circuit structures (limited to circuit structures only)
+H03H   9/30  C	1	0	5J108	H03H   9/30	159	磁歪遅延線	Electrostrictive delay lines
+H03H   9/30  Z	1	0	5J108	H03H   9/30	4	その他のもの	Others
+H03H   9/36  \	2	2	5J108	H03H   9/36	21	非調整遅延時間をもつもの（Ｈ０３Ｈ９／４０，Ｈ０３Ｈ９／４２が優先）［３］	with non-adjustable delay time (H03H 9/40, H03H 9/42 take precedence) [3]
+H03H   9/36  A	2	0	5J108	H03H   9/36	425	遅延要素の保持具，支持体，駆動手段	Retainers, supports or driving means for delay elements
+H03H   9/36  S	2	0	5J108	H03H   9/36	150	遅延要素の構造上の特徴〔例．透過形，スプリングを用いた遅延装置〕	Structural features of delay elements, e.g. delay devices of permeating type or with spring
+H03H   9/36  R	2	1	5J108	H03H   9/36	191	反射により遅延時間を得るもの〔例．ガラス遅延線素子の構造〕	for obtaining delay time by reflection, e.g. structures of glass delay line elements
+H03H   9/36  U	2	2	5J108	H03H   9/36	137	不要波の吸収に特徴を有するもの	characterised by absorbing of unwanted waves
+H03H   9/36  E	2	1	5J108	H03H   9/36	194	電極に特徴を有するもの〔電極取付部分を含む〕	characterised by electrodes (including electrode mount)
+H03H   9/36  Z	2	0	5J108	H03H   9/36	64	その他〔例．遅延線用ガラスの組成〕	Others, e.g. compositions for delay line glass
+H03H   9/38  \	2	2	5J108	H03H   9/38	46	可調整遅延時間をもつもの（Ｈ０３Ｈ９／４０，Ｈ０３Ｈ９／４２が優先）［３］	with adjustable delay time (H03H 9/40, H03H 9/42 take precedence) [3]
+H03H   9/40  \	2	2	5J108	H03H   9/40	18	周波数依存遅延線，例．分散的遅延線（Ｈ０３Ｈ９／４２が優先）［３］	Frequency-dependent delay lines, e.g. dispersive delay lines (H03H 9/42 takes precedence) [3]
+H03H   9/42  \	2	2	5J097	H03H   9/42	480	弾性表面波を用いるもの［３］	using surface acoustic waves [3]
+H03H   9/44  \	3	3	5J097	H03H   9/44	80	周波数依存遅延線，例．分散的遅延線［３］	Frequency-dependent delay lines, e.g. dispersive delay lines [3]
+H03H   9/46  \	1	1	5J108	H03H   9/46	29	濾波器（多端子対の電気機械的濾波器Ｈ０３Ｈ９／７０）［３］	Filters (multiple-port electromechanical filters H03H 9/70) [3]
+H03H   9/46  A	1	0	5J108	H03H   9/46	86	回路構成上の特徴	Features for circuit structures
+H03H   9/46  B	1	0	5J108	H03H   9/46	144	音叉型濾波器の構造上の特徴	Structural features for tuning fork wave filters
+H03H   9/46  C	1	0	5J108	H03H   9/46	179	丸棒並列型濾器の構造上の特徴	Structural features for parallel round bar wave filters
+H03H   9/46  Z	1	0	5J108	H03H   9/46	499	その他のもの〔円板，丸棒直列型，Ｈ型など〕	Others (disks, serial round bars, H type)
+H03H   9/48  \	2	2	5J108	H03H   9/48	1	それ用の結合手段［３］	Coupling means therefor [3]
+H03H   9/50  \	3	3	5J108	H03H   9/50	2	機械的結合手段［３］	Mechanical coupling means [3]
+H03H   9/52  \	3	3	5J108	H03H   9/52	1	電気的結合手段［３］	Electric coupling means [3]
+H03H   9/54  \	2	2	5J108	H03H   9/54	30	圧電または電わい材料からなる共振器を含むもの（弾性表面波を用いる共振器を含むものＨ０３Ｈ９／６４）［２００６．０１］	comprising resonators of piezoelectric or electrostrictive material (comprising resonators using surface acoustic waves H03H 9/64 )
+H03H   9/54  A	2	0	5J108	H03H   9/54	373	回路構成上の特徴〔９／５６Ｚ及び，９／５８Ｚに含まれる回路を除くすべての回路〕	Structural features for circuits (all circuits excluding those covered by 9/56 Z and 9/58 Z)
+H03H   9/54  Z	2	0	5J108	H03H   9/54	1010	その他のもの	Others
+H03H   9/56  \	3	3	5J108	H03H   9/56	7	単一の結晶を持つ濾波器［３］	Monolithic crystal filters [3]
+H03H   9/56  A	3	0	5J108	H03H   9/56	333	モノリシツククリスタルフイルタの保持具，支持体，駆動手段	Retainers, supports or driving means for monolithic crystal filter
+H03H   9/56  B	3	0	5J108	H03H   9/56	347	エネルギ−閉じ込め形モノリシツククリスタルフイルタの構造上の特徴	Structural features for energy-contained monolithic crystal filters
+H03H   9/56  D	3	1	5J108	H03H   9/56	395	一枚の結晶基板上に複数のフイルタ素子を持つもの	with multiple filter elements on one crystal board
+H03H   9/56  C	3	0	5J108	H03H   9/56	141	その他のモノリシツククリスタルフイルタの構造上の特徴	Other structural features for monolithic crystal filters
+H03H   9/56  Z	3	0	5J108	H03H   9/56	232	その他のもの〔例．モノリシツククリスタルフイルタを含む回路〕	Others, e.g. circuits containing monolithic crystal filters
+H03H   9/58  \	3	3	5J108	H03H   9/58	27	複数の結晶を持つ濾波器［３］	Multiple crystal filters [3]
+H03H   9/58  A	3	0	5J108	H03H   9/58	797	ラダ−型フイルタ	Ladder filters
+H03H   9/58  B	3	1	5J108	H03H   9/58	209	端子板に特徴を有するもの	characterised by terminal boards
+H03H   9/58  C	3	0	5J108	H03H   9/58	235	その他のマルチプルクリスタルフイルタ	Other multiple crystal filters
+H03H   9/58  Z	3	0	5J108	H03H   9/58	156	その他のもの〔例．マルチプルクリスタルフイルタを含む回路〕	Others, e.g. circuits containing multiple crystal filters
+H03H   9/60  \	4	4	5J108	H03H   9/60	9	それ用の電気的結合手段［３］	Electric coupling means therefor [3]
+H03H   9/62  \	2	2	5J108	H03H   9/62	28	磁わい材料からなる共振器を含むもの（Ｈ０３Ｈ９／６４が優先）［３］	comprising resonators of magnetostrictive material (H03H 9/64 takes precedence) [3]
+H03H   9/64  \	2	2	5J097	H03H   9/64	121	弾性表面波を用いるもの［３］	using surface acoustic waves [3]
+H03H   9/64  A	2	0	5J097	H03H   9/64	113	くし形フイルタ	Comb filters
+H03H   9/64  Z	2	0	5J097	H03H   9/64	4441	その他のもの	Others
+H03H   9/66  \	1	1	5J108	H03H   9/66	24	移相器［３］	Phase shifters [3]
+H03H   9/68  \	2	2	5J097	H03H   9/68	36	弾性表面波を用いるもの［３］	using surface acoustic waves [3]
+H03H   9/70  \	1	1	5J108	H03H   9/70	558	相異った周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための多端子回路網［３］	Multiple-port networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common or source [3]
+H03H   9/72  \	2	2	5J097	H03H   9/72	2161	弾性表面波を用いる回路網［３］	Networks using surface acoustic waves [3]
+H03H   9/74  \	1	1	5J108	H03H   9/74	21	同一の周波数または周波数帯域で動作する若干の電源または負荷を共通負荷または共通電源に接続するための多端子対回路網（位相推移のための回路網Ｈ０３Ｈ９／６６）［３］	Multiple-port networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (networks for phase shifting H03H 9/66) [3]
+H03H   9/76  \	2	2	5J097	H03H   9/76	44	弾性表面波を用いる回路網［３］	Networks using surface acoustic waves [3]
+H03H  11/00  \	0	0	5J098	H03H  11/00	19	能動素子を用いる回路網	Networks using active elements
+H03H  11/02  \	1	1	5J098	H03H  11/02	332	多端子対回路網［３］	Multiple-port networks [3]
+H03H  11/02  A	1	0	5J098	H03H  11/02	364	光結合回路	Optical coupling circuits
+H03H  11/02  Z	1	0	5J098	H03H  11/02	102	その他	Others
+H03H  11/04  \	2	2	5J098	H03H  11/04	1150	周波数選択性２端子対回路網［３］	Frequency selective two-port networks [3]
+H03H  11/04  A	2	0	5J098	H03H  11/04	287	能動フイルタ	Active filters
+H03H  11/04  B	2	1	5J098	H03H  11/04	29	細部	Details
+H03H  11/04  C	2	1	5J098	H03H  11/04	279	トランジスタを用いるもの	using transistors
+H03H  11/04  D	2	1	5J098	H03H  11/04	485	差動増幅器を用いるもの	using differential amplifiers
+H03H  11/04  E	2	1	5J098	H03H  11/04	185	コイル、共振器を含むもの	containing coils or resonators
+H03H  11/04  F	2	1	5J098	H03H  11/04	234	フイルタを含む回路網	Networks containing filters
+H03H  11/04  G	2	1	5J098	H03H  11/04	443	フイルタ特性を可変にするもの	for varying filter characteristics
+H03H  11/04  H	2	1	5J098	H03H  11/04	358	フイルタ特性の自動調整	Automatic adjustments of filter characteristics
+H03H  11/04  J	2	1	5J098	H03H  11/04	314	用途に適合したもの	Adapted for applications
+H03H  11/04  K	2	2	5J098	H03H  11/04	70	ＰＬＬ	PLL
+H03H  11/04  L	2	2	5J098	H03H  11/04	126	電源	Power supplies
+H03H  11/04  P	2	0	5J098	H03H  11/04	332	等化器	Equalisers
+H03H  11/04  Q	2	1	5J098	H03H  11/04	119	トランジスタを用いるもの	using transistors
+H03H  11/04  R	2	1	5J098	H03H  11/04	47	自動等化器	Automatic equalisers
+H03H  11/04  Z	2	0	5J098	H03H  11/04	115	その他	Others
+H03H  11/06  \	3	3	5J098	H03H  11/06	15	損失の補償用手段を含むもの［３］	comprising means for compensation of loss [3]
+H03H  11/08  \	3	3	5J098	H03H  11/08	76	ジャイレータを用いるもの［３］	using gyrators [3]
+H03H  11/10  \	3	3	5J098	H03H  11/10	52	負性インピーダンス変換器を用いるもの（Ｈ０３Ｈ１１／０８が優先）［３］	using negative impedance converters (H03H 11/08 takes precedence) [3]
+H03H  11/12  \	3	3	5J098	H03H  11/12	625	帰還を持つ増巾器を用いるもの（Ｈ０３Ｈ１１／０８，Ｈ０３Ｈ１１／１０が優先）［３］	using amplifiers with feedback (H03H 11/08, H03H 11/10 take precedence) [3]
+H03H  11/12  A	3	0	5J098	H03H  11/12	618	能動フイルタ	Active filters
+H03H  11/12  B	3	1	5J098	H03H  11/12	150	正相に帰還するもの	Feeding back to positive phase
+H03H  11/12  C	3	1	5J098	H03H  11/12	170	状態変数型	State variable type
+H03H  11/12  D	3	1	5J098	H03H  11/12	52	ツインＴ回路を持つもの	with twin T circuits
+H03H  11/12  Z	3	0	5J098	H03H  11/12	61	その他	Others
+H03H  11/14  \	3	3	5J098	H03H  11/14	17	電気光学装置を用いるもの［３］	using electro-optical devices [3]
+H03H  11/16  \	2	2	5J098	H03H  11/16	314	位相推移のための回路網［３］	Networks for phase shifting [3]
+H03H  11/16  A	2	0	5J098	H03H  11/16	47	デイジタル信号の位相推移	Phase shifting of digital signals
+H03H  11/16  B	2	0	5J098	H03H  11/16	132	トランジスタを用いるもの	using transistors
+H03H  11/16  C	2	0	5J098	H03H  11/16	36	ＣＲブリツジを持つもの	with CR bridges
+H03H  11/16  Z	2	0	5J098	H03H  11/16	121	その他	Others
+H03H  11/18  \	3	3	5J098	H03H  11/18	59	予め定められた位相推移を与える二端子対移相器，例．「全域通過」濾波器［３］	Two-port phase shifters providing a predetermined phase shift, e.g. "all-pass" filters [3]
+H03H  11/18  A	3	0	5J098	H03H  11/18	74	位相等化器	Phase equalisers
+H03H  11/18  Z	3	0	5J098	H03H  11/18	89	その他	Others
+H03H  11/20  \	3	3	5J098	H03H  11/20	177	可調整位相推移を与える二端子対移相器［３］	Two-port phase shifters providing an adjustable phase shift [3]
+H03H  11/20  A	3	0	5J098	H03H  11/20	204	トランジスタを用いるもの	using transistors
+H03H  11/20  Z	3	0	5J098	H03H  11/20	185	その他	Others
+H03H  11/22  \	3	3	5J098	H03H  11/22	112	２以上の位相推移された信号を提供するもの，例．ｎ相出力［３］	providing two or more phase shifted output signals, e.g. n-phase output [3]
+H03H  11/24  \	2	2	5J098	H03H  11/24	376	周波数に依存しない減衰器［３］	Frequency-independent attenuators [3]
+H03H  11/24  A	2	0	5J098	H03H  11/24	148	トランジスタを用いるもの	using transistors
+H03H  11/24  B	2	1	5J098	H03H  11/24	284	ＦＥＴを用いるもの	using FET
+H03H  11/24  D	2	0	5J098	H03H  11/24	38	デイジタル方式	Digital type
+H03H  11/24  Z	2	0	5J098	H03H  11/24	169	その他	Others
+H03H  11/26  \	2	2	5J098	H03H  11/26	1005	時間遅延回路網［２００６．０１］	Time-delay networks
+H03H  11/26  A	2	0	5J098	H03H  11/26	215	デイジタル信号の遅延	Delaying digital signals
+H03H  11/26  B	2	0	5J098	H03H  11/26	139	トランジスタを用いるもの	using transistors
+H03H  11/26  C	2	0	5J098	H03H  11/26	140	ＣＴＤを用いるもの	using CTD
+H03H  11/26  D	2	0	5J098	H03H  11/26	140	用途に適合したもの	Adapted for applications
+H03H  11/26  P	2	0	5J098	H03H  11/26	88	ＣＴＤ自体	CTD per se
+H03H  11/26  Q	2	1	5J098	H03H  11/26	36	構造	Structures
+H03H  11/26  R	2	1	5J098	H03H  11/26	183	駆動、周辺	Driving, outskirts
+H03H  11/26  Z	2	0	5J098	H03H  11/26	255	その他	Others
+H03H  11/28  \	2	2	5J098	H03H  11/28	233	インピーダンス整合回路網［３］	Impedance matching networks [3]
+H03H  11/30  \	3	3	5J098	H03H  11/30	47	電源インピーダンスを負荷インピーダンスに自動整合するもの［３］	Automatic matching of source impedance to load impedance [3]
+H03H  11/32  \	2	2	5J098	H03H  11/32	138	平衡信号を不平衡信号に変換するための，またはその逆に変換するための回路網，例．バラン［２００６．０１］	Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns [2006.01]
+H03H  11/34  \	2	2	5J098	H03H  11/34	75	相異った周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網［２００６．０１］	Networks for connecting several sources or loads working on different frequencies or frequency bands, to a common load or source
+H03H  11/36  \	2	2	5J098	H03H  11/36	155	同一の周波数または周波数帯域で動作する若干の電源または負荷を共通の負荷または電源に接続するための回路網（２以上の出力信号を提供する移相器Ｈ０３Ｈ１１／２２）［３］	Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (phase shifters providing two or more output signals H03H 11/22) [3]
+H03H  11/38  \	2	2	5J098	H03H  11/38	59	１方向性伝送回路網，例．ユニライン［３］	One-way transmission networks, i.e. unilines [3]
+H03H  11/40  \	2	2	5J098	H03H  11/40	160	インピーダンス変換器［３］	Impedance converters [3]
+H03H  11/42  \	3	3	5J098	H03H  11/42	48	ジャイレータ（周波数選択回路網に用いるものＨ０３Ｈ１１／０８）［３］	Gyrators (used in frequency selective networks H03H 11/08) [3]
+H03H  11/44  \	3	3	5J098	H03H  11/44	70	負性インピーダンス変換器（Ｈ０３Ｈ１１／４２が優先）［２００６．０１］	Negative impedance converters (H03H 11/42 takes precedence)
+H03H  11/46  \	1	1	5J098	H03H  11/46	311	１端子対回路網［３］	One-port networks [3]
+H03H  11/46  A	1	0	5J098	H03H  11/46	119	インピ−ダンス回路	Impedance circuits
+H03H  11/46  B	1	1	5J098	H03H  11/46	228	トランジスタを用いるもの	using transistors
+H03H  11/46  Z	1	0	5J098	H03H  11/46	62	その他	Others
+H03H  11/48  \	2	2	5J098	H03H  11/48	176	リアクタンスを擬似するもの［３］	simulating reactances [3]
+H03H  11/48  A	2	0	5J098	H03H  11/48	201	Ｌを擬似するもの	Simulating L
+H03H  11/48  B	2	0	5J098	H03H  11/48	123	Ｃを擬似するもの	Simulating C
+H03H  11/48  Z	2	0	5J098	H03H  11/48	40	その他	Others
+H03H  11/50  \	3	3	5J098	H03H  11/50	107	ジャイレータを用いるもの［３］	using gyrators [3]
+H03H  11/52  \	2	2	5J098	H03H  11/52	133	負性抵抗を擬似するもの［３］	simulating negative resistances [3]
+H03H  11/54  \	1	1	5J098	H03H  11/54	65	温度の変化による影響を軽減するための回路網の変形［３］	Modifications of networks to reduce influence of variations of temperature [3]
+H03H  15/00  \	0	0	5J023	H03H  15/00	2095	トランスバーサルフィルタ（電気機械的濾波器Ｈ０３Ｈ９／４６，Ｈ０３Ｈ９／７０）［３］	Transversal filters (electromechanical filters H03H 9/46, H03H 9/70) [3]
+H03H  15/02  \	1	1	5J023	H03H  15/02	453	アナログシフトレジスタを用いるもの［３］	using analogue shift registers [3]
+H03H  17/00  \	0	0	5J044	H03H  17/00	80	ディジタル技術を用いる回路網［３］	Networks using digital techniques [3]
+H03H  17/00 601 \	1	1	5J044	H03H  17/00	2	適用装置，適用信号に特徴を有するもの	characterised by devices or signals applied
+H03H  17/00 601 A	1	0	5J044	H03H  17/00	36	等化器	Equalisers
+H03H  17/00 601 B	1	1	5J044	H03H  17/00	147	通信用	for communicating
+H03H  17/00 601 C	1	2	5J044	H03H  17/00	617	ディジタルデータ用	for digital data
+H03H  17/00 601 D	1	1	5J044	H03H  17/00	56	記録装置〔磁気記録，光学記録〕用	for recording devices (magnetic or optical records)
+H03H  17/00 601 E	1	2	5J044	H03H  17/00	159	ディジタルデータ用	for digital data
+H03H  17/00 601 F	1	0	5J044	H03H  17/00	485	符号化，復号化用	for coding or decoding
+H03H  17/00 601 G	1	0	5J044	H03H  17/00	364	音声信号用	for voice signals
+H03H  17/00 601 H	1	1	5J044	H03H  17/00	134	音声合成，音声認識，電子楽器用	for voice synthesisers, voice recognition or electronic musical instruments
+H03H  17/00 601 J	1	1	5J044	H03H  17/00	107	トーンコントロール，グラフィックイコライザ	Tone control or graphic equalisers
+H03H  17/00 601 K	1	1	5J044	H03H  17/00	4	オーディオ用チャンネルディバイダ	Audio channel dividers
+H03H  17/00 601 L	1	1	5J044	H03H  17/00	161	音場制御装置	Sound field controllers
+H03H  17/00 601 M	1	1	5J044	H03H  17/00	315	能動消音装置	Active silencers
+H03H  17/00 601 N	1	1	5J044	H03H  17/00	217	電話回線用エコーキャンセラ	Echo cancellers for telephone lines
+H03H  17/00 601 P	1	0	5J044	H03H  17/00	291	映像信号用	for video signals
+H03H  17/00 601 Q	1	1	5J044	H03H  17/00	83	ゴーストキャンセラ	Ghost cancellers
+H03H  17/00 601 R	1	0	5J044	H03H  17/00	57	制御用	for controlling
+H03H  17/00 601 S	1	1	5J044	H03H  17/00	39	電力用（特に保護装置）	for electric power (protecting devices in particular)
+H03H  17/00 601 Z	1	0	5J044	H03H  17/00	191	その他	Others
+H03H  17/00 611 \	1	1	5J044	H03H  17/00	1	周波数，位相以外の特性を変化させるもの	for varying characteristics excluding frequency or phase
+H03H  17/00 611 A	1	0	5J044	H03H  17/00	281	振幅を変化させるもの	for varying amplitudes
+H03H  17/00 611 Z	1	0	5J044	H03H  17/00	111	その他	Others
+H03H  17/00 613 \	2	2	5J044	H03H  17/00	158	出力が入力時系列の線形結合でないもの（非線形フィルタ）例：メディアンフィルタ，εフィルタ	Outputing non-linear superpositions changed from input series of linear superpositions (non-linear filters), e.g. median filters, &epsilon; filters
+H03H  17/00 621 \	2	2	5J044	H03H  17/00	5	サンプリング周波数を変化させるもの〔マルチレート・ディジタルフィルタ〕	for varying sampling frequencies (multi-t\rate digital filters)
+H03H  17/00 621 A	2	0	5J044	H03H  17/00	49	複数のフィルタを組み合せたもの	Combinations of multiple filters
+H03H  17/00 621 B	2	1	5J044	H03H  17/00	50	インターポレーションを繰り返すもの	for repeating interpolations
+H03H  17/00 621 C	2	1	5J044	H03H  17/00	174	デシメーションを繰り返すもの	for repeating decimation
+H03H  17/00 621 D	2	1	5J044	H03H  17/00	157	インターポレーションとデシメーションを組み合わせたもの	Combinations of interpolation and decimation
+H03H  17/00 621 E	2	0	5J044	H03H  17/00	396	補間を行うもの	for interpolating
+H03H  17/00 621 F	2	1	5J044	H03H  17/00	93	補間公式に特徴を有するもの	characterised by interpolating formula
+H03H  17/00 621 G	2	0	5J044	H03H  17/00	66	零挿入を用いるもの	using zero insertion
+H03H  17/00 621 H	2	0	5J044	H03H  17/00	143	フィルタ駆動用クロックに特徴を有するもの	characterised by clocks for driving filters
+H03H  17/00 621 J	2	0	5J044	H03H  17/00	270	計算量削減を目的とするもの	Aiming at reducing calculated amounts
+H03H  17/00 621 K	2	0	5J044	H03H  17/00	122	不要帯域除去に特徴を有するもの	characterised by eliminating unwanted bands
+H03H  17/00 621 Z	2	0	5J044	H03H  17/00	411	その他	Others
+H03H  17/02  \	1	1	5J044	H03H  17/02	109	周波数選択回路網［３］	Frequency-selective networks [3]
+H03H  17/02 601 \	2	2	5J044	H03H  17/02	2	適用装置に特徴を有するもの	characterised by devices applied
+H03H  17/02 601 A	2	0	5J044	H03H  17/02	21	等化器	Equalisers
+H03H  17/02 601 B	2	1	5J044	H03H  17/02	102	通信用	for communicating
+H03H  17/02 601 C	2	2	5J044	H03H  17/02	150	ディジタルデータ用	for digital data
+H03H  17/02 601 D	2	1	5J044	H03H  17/02	30	記録装置〔磁気記録，光学記録〕用	for recording devices (magnetic or optical records)
+H03H  17/02 601 E	2	2	5J044	H03H  17/02	30	ディジタルデータ用	for digital data
+H03H  17/02 601 F	2	0	5J044	H03H  17/02	201	符号化，復号化用	for coding or decoding
+H03H  17/02 601 G	2	0	5J044	H03H  17/02	179	音声信号用	for voice signals
+H03H  17/02 601 H	2	1	5J044	H03H  17/02	118	音声合成，音声認識，電子楽器用	for voice synthesisers, voice recognition or electronic musical instruments
+H03H  17/02 601 J	2	1	5J044	H03H  17/02	141	トーンコントロール，グラフィックイコライザ	Tone control or graphic equalisers
+H03H  17/02 601 K	2	1	5J044	H03H  17/02	18	オーディオ用チャンネルディバイダ	Audio channel dividers
+H03H  17/02 601 L	2	1	5J044	H03H  17/02	118	音場制御装置	Sound field controllers
+H03H  17/02 601 M	2	1	5J044	H03H  17/02	113	能動消音装置	Active silencers
+H03H  17/02 601 N	2	1	5J044	H03H  17/02	75	電話回線用エコーキャンセラ	Echo cancellers for telephone lines
+H03H  17/02 601 P	2	0	5J044	H03H  17/02	175	映像信号用	for video signals
+H03H  17/02 601 Q	2	1	5J044	H03H  17/02	13	ゴーストキャンセラ	Ghost cancellers
+H03H  17/02 601 R	2	0	5J044	H03H  17/02	45	制御用	for controlling
+H03H  17/02 601 S	2	0	5J044	H03H  17/02	32	電力用（特に保護装置）	for power (protecting devices in particular)
+H03H  17/02 601 Z	2	0	5J044	H03H  17/02	186	その他	Others
+H03H  17/02 611 \	2	2	5J044	H03H  17/02	15	複数フィルタの組合せ〔特にＩＩＲ・ＦＩＲの組み合せ〕	Combinations of multiple filters (combinations of IIR or FIR in particular)
+H03H  17/02 613 \	3	3	5J044	H03H  17/02	4	並列に組み合わせたもの	Combined in parallel
+H03H  17/02 613 A	3	0	5J044	H03H  17/02	15	ディジタルフィルタ以外のフィルタとの組み合わせ	Combinations of filters excluding digital filters
+H03H  17/02 613 B	3	0	5J044	H03H  17/02	27	ＩＩＲフィルタ，ＦＩＲフィルタの組み合せ	Combinations of IIR or FIR filters
+H03H  17/02 613 C	3	0	5J044	H03H  17/02	251	信号を複数の帯域に分割するもの，複数の帯域を合成するもの	for splitting signals into multiple bands, for synthesising multiple bands
+H03H  17/02 613 D	3	1	5J044	H03H  17/02	35	クォドラチャ・ミラー・フィルタ（ＱＭＦ）	Quadrature mirror filters (QMF)
+H03H  17/02 613 E	3	0	5J044	H03H  17/02	66	複数のフィルタの組み合わせで周波数特性をつくるもの	Making frequency characteristics by combinations of multiple filters
+H03H  17/02 613 J	3	0	5J044	H03H  17/02	55	複数のフィルタの組み合わせで特性を改善するもの	Improving characteristics by combinations of multiple filters
+H03H  17/02 613 K	3	0	5J044	H03H  17/02	33	複数のフィルタの組み合わせをするための特別な構成	Special structures for combining multiple filters
+H03H  17/02 613 Z	3	0	5J044	H03H  17/02	63	その他	Others
+H03H  17/02 615 \	3	3	5J044	H03H  17/02	1	直列に組み合わせたもの	Series combinations
+H03H  17/02 615 A	3	0	5J044	H03H  17/02	57	ディジタルフィルタ以外のフィルタとの組み合わせ	Combinations of filters excluding digital filters
+H03H  17/02 615 B	3	0	5J044	H03H  17/02	87	ＩＩＲフィルタ，ＦＩＲフィルタの組み合せ	Combinations of IIR or FIR filters
+H03H  17/02 615 E	3	0	5J044	H03H  17/02	131	複数のフィルタの組み合わせで周波数特性をつくるもの	Making frequency characteristics by combinations of multiple filters
+H03H  17/02 615 J	3	0	5J044	H03H  17/02	99	複数のフィルタの組み合わせで特性を改善するもの	Improving characteristics by combinations of multiple filters
+H03H  17/02 615 K	3	0	5J044	H03H  17/02	71	複数のフィルタの組み合わせをするための特別な構成	Special structures for combining multiple filters
+H03H  17/02 615 Z	3	0	5J044	H03H  17/02	41	その他	Others
+H03H  17/02 621 \	2	2	5J044	H03H  17/02	3	多次元フィルタ〔例．画像処理用二次元フィルタ，空間フィルタ〕	Multi-dimensional filters, e.g. two-dimensional filters for processing picture images, space filters
+H03H  17/02 621 A	2	0	5J044	H03H  17/02	218	静止画像用	for static pictures
+H03H  17/02 621 B	2	0	5J044	H03H  17/02	129	動画像用	for motion pictures
+H03H  17/02 621 Z	2	0	5J044	H03H  17/02	19	その他	Others
+H03H  17/02 631 \	2	2	5J044	H03H  17/02	17	周波数特性，係数の設定，演算，制御〔係数切替，可変係数等〕	Setting,, computing or controlling frequency characteristics or factors (switching factors, variable factors)
+H03H  17/02 633 \	3	3	5J044	H03H  17/02	0	周波数特性，係数の設定に特徴を有するもの	characterised by setting frequency characteristics or factors
+H03H  17/02 633 A	3	0	5J044	H03H  17/02	179	係数が伝達関数で特定されたもの	Factors determined by transfer function
+H03H  17/02 633 B	3	0	5J044	H03H  17/02	50	係数が極と零点の位置で特定されたもの	Factors determined by pole and zero position
+H03H  17/02 633 C	3	0	5J044	H03H  17/02	80	特殊な周波数特性を有するもの	with special frequency characteristics
+H03H  17/02 633 J	3	0	5J044	H03H  17/02	62	タップ数を減少させたもの	with reduced number of taps
+H03H  17/02 633 Z	3	0	5J044	H03H  17/02	305	その他	Others
+H03H  17/02 635 \	3	3	5J044	H03H  17/02	0	可変周波数特性，可変係数に対応した構成	Structures corresponding to variable frequency characteristics or variable factors
+H03H  17/02 635 A	3	0	5J044	H03H  17/02	197	係数メモリの構成に特徴を有するもの	characterised by structures of factor memory
+H03H  17/02 635 B	3	0	5J044	H03H  17/02	210	係数の可変方法に特徴を有するもの	characterised by methods for varying factors
+H03H  17/02 635 C	3	0	5J044	H03H  17/02	88	可変係数に対応した積和演算回路	Circuits for calculating sum of products adapted for variable factors
+H03H  17/02 635 D	3	0	5J044	H03H  17/02	85	可変係数の入力方法に特徴を有するもの	characterised by methods for inputting variable factors
+H03H  17/02 635 Z	3	0	5J044	H03H  17/02	127	その他	Others
+H03H  17/02 641 \	2	2	5J044	H03H  17/02	0	特性の改善，制御〔係数制御を除く〕	Improving or controlling characteristics (excluding controlling factors)
+H03H  17/02 641 A	2	0	5J044	H03H  17/02	105	オーバーフローに対応するもの	Adapted for over-flowing
+H03H  17/02 641 E	2	0	5J044	H03H  17/02	117	丸め誤差に対応するもの	Adapted for rounding errors
+H03H  17/02 641 J	2	0	5J044	H03H  17/02	63	オフセットに対応するもの	Adapted for offset
+H03H  17/02 641 N	2	0	5J044	H03H  17/02	203	量子化雑音に対応するもの	Adapted for quantisation noises
+H03H  17/02 641 Z	2	0	5J044	H03H  17/02	222	その他	Others
+H03H  17/02 651 \	2	2	5J044	H03H  17/02	7	信号メモリ，積和演算回路の構成に特徴を有するもの	characterised by structures of signal memory or circuit for calculating sum of products
+H03H  17/02 653 \	3	3	5J044	H03H  17/02	206	信号メモリの構成に特徴を有するもの	characterised by structures of signal memory
+H03H  17/02 655 \	3	3	5J044	H03H  17/02	2	積和演算回路	Circuit for calculating sum of products
+H03H  17/02 655 A	3	0	5J044	H03H  17/02	139	メモリによる変換を用いた積和演算回路	Circuits for calculating sum of products using  conversions by memory
+H03H  17/02 655 B	3	0	5J044	H03H  17/02	122	時分割多重化を用いた積和演算回路	Circuits for calculating sum of products using time division multiplexing
+H03H  17/02 655 C	3	0	5J044	H03H  17/02	28	キャリーの処理に特徴を有する積和演算回路	Circuits for calculating sum of products characterised by processing carry
+H03H  17/02 655 D	3	0	5J044	H03H  17/02	139	係数の対称性等を利用し素子数の低減を目的としたもの	aiming at reducing number of elements by using symmetry of factors
+H03H  17/02 655 Z	3	0	5J044	H03H  17/02	395	その他	Others
+H03H  17/02 661 \	2	2	5J044	H03H  17/02	0	入力信号の表現形態に特徴を有するもの	characterised by forms for expressing input signals
+H03H  17/02 661 A	2	0	5J044	H03H  17/02	48	シリアルバイナリ符号を用いるもの	using serial binary codes
+H03H  17/02 661 B	2	0	5J044	H03H  17/02	96	デルタ変調符号、差分変調信号を用いるもの	using delta modulation codes, differential modulation signals
+H03H  17/02 661 C	2	0	5J044	H03H  17/02	94	パルス信号を扱うもの	handling pulse signals
+H03H  17/02 661 D	2	0	5J044	H03H  17/02	11	非線形バイナリ符号（μ−ｌａｗ，Ａ−ｌａｗ）を扱うもの	handling non-linear binary codes (m-law, A-law)
+H03H  17/02 661 E	2	0	5J044	H03H  17/02	80	複数チャネルの信号を扱うもの	handling signals for multiple channels
+H03H  17/02 661 F	2	0	5J044	H03H  17/02	51	時分割多重化された信号を扱うもの	handling time division multiplexed signals
+H03H  17/02 661 Z	2	0	5J044	H03H  17/02	48	その他	Others
+H03H  17/02 671 \	2	2	5J044	H03H  17/02	0	特別な構成を有するディジタルフィルタ	Digital filters with special structures
+H03H  17/02 671 A	2	0	5J044	H03H  17/02	31	ウェーブディジタルフィルタ	Wave digital filters
+H03H  17/02 671 B	2	0	5J044	H03H  17/02	65	格子型ディジタルフィルタ，梯子型フィルタ	Grid digital filters, ladder filters
+H03H  17/02 671 C	2	0	5J044	H03H  17/02	365	離散直交変換〔ＤＦＴ，ＦＦＴ等〕を用いるもの	using discrete orthogonal conversion (DFT, FFT)
+H03H  17/02 671 Z	2	0	5J044	H03H  17/02	155	その他	Others
+H03H  17/02 681 \	2	2	5J044	H03H  17/02	0	細部	Details
+H03H  17/02 681 A	2	0	5J044	H03H  17/02	54	試験，検査に関するもの	related to testing or inspecting
+H03H  17/02 681 B	2	0	5J044	H03H  17/02	140	サンプリングクロックに関するもの	related to sampling clocks
+H03H  17/02 681 C	2	0	5J044	H03H  17/02	10	回路実装上の問題に対応するもの	adapted for circuit mounting problems
+H03H  17/02 681 D	2	0	5J044	H03H  17/02	110	ノイズ対策，電源に関するもの	related to measures for noises or power supplies
+H03H  17/02 681 E	2	0	5J044	H03H  17/02	126	集積回路化上の問題に対応するもの	adapted for problems for integrating circuits
+H03H  17/02 681 F	2	0	5J044	H03H  17/02	22	特別の素子を用いるもの	using special elements
+H03H  17/02 681 G	2	0	5J044	H03H  17/02	138	ディジタル・シグナル・プロセッサ	Digital signal processors
+H03H  17/02 681 H	2	0	5J044	H03H  17/02	199	ディジタル・シグナル・プロセッサそのものの構成	Structures of digital signal processors per se
+H03H  17/02 681 Z	2	0	5J044	H03H  17/02	19	その他	Others
+H03H  17/04  \	2	2	5J044	H03H  17/04	58	巡回型濾波器［３］	Recursive filters [3]
+H03H  17/04 611 \	3	3	5J044	H03H  17/04	6	複数フィルタの組合せ	Combinations of multiple filters
+H03H  17/04 613 \	4	4	5J044	H03H  17/04	1	並列に組み合わせたもの	Parallel combinations
+H03H  17/04 613 A	4	0	5J044	H03H  17/04	2	ディジタルフィルタ以外のフィルタとの組み合わせ	Combinations with filters excluding digital filters
+H03H  17/04 613 C	4	0	5J044	H03H  17/04	12	信号を複数の帯域に分割するもの，複数の帯域を合成するもの	for dividing signals into multiple bands, for synthesising multiple bands
+H03H  17/04 613 E	4	0	5J044	H03H  17/04	11	複数のフィルタの組み合わせで周波数特性をつくるもの	Making frequency characteristics by combinations of multiple filters
+H03H  17/04 613 J	4	0	5J044	H03H  17/04	15	複数のフィルタの組み合わせで特性を改善するもの	Improving characteristics by combinations of multiple filters
+H03H  17/04 613 K	4	0	5J044	H03H  17/04	8	複数のフィルタの組み合わせをするための特別な構成	Special structures for combining multiple filters
+H03H  17/04 613 Z	4	0	5J044	H03H  17/04	9	その他	Others
+H03H  17/04 615 \	4	4	5J044	H03H  17/04	0	直列に組み合わせたもの	Serial combinations
+H03H  17/04 615 A	4	0	5J044	H03H  17/04	6	ディジタルフィルタ以外のフィルタとの組み合わせ	Combinations with filters excluding digital filters
+H03H  17/04 615 E	4	0	5J044	H03H  17/04	30	複数のフィルタの組み合わせで周波数特性をつくるもの	Making frequency characteristics by combinations of multiple filters
+H03H  17/04 615 J	4	0	5J044	H03H  17/04	16	複数のフィルタの組み合わせで特性を改善するもの	Improving characteristics by combinations of multiple filters
+H03H  17/04 615 K	4	0	5J044	H03H  17/04	9	複数のフィルタの組み合わせをするための特別な構成	Special structures for combining multiple filters
+H03H  17/04 615 Z	4	0	5J044	H03H  17/04	10	その他	Others
+H03H  17/04 621 \	3	3	5J044	H03H  17/04	0	多次元フィルタ〔例．画像処理用二次元フィルタ，空間フィルタ〕	Multi-dimensional filters, e.g. two-dimensional filters for processing picture images, space filters
+H03H  17/04 621 A	3	0	5J044	H03H  17/04	7	静止画像用	for static pictures
+H03H  17/04 621 B	3	0	5J044	H03H  17/04	10	動画像用	for motion pictures
+H03H  17/04 621 Z	3	0	5J044	H03H  17/04	3	その他	Others
+H03H  17/04 631 \	3	3	5J044	H03H  17/04	6	周波数特性，係数の設定，演算，制御〔係数切替，可変係数等〕	Setting,, computing or controlling frequency characteristics or factors (switching factors, variable factors)
+H03H  17/04 633 \	4	4	5J044	H03H  17/04	3	周波数特性，係数の設定に特徴を有するもの	characterised by setting of frequency characteristics or factors
+H03H  17/04 633 A	4	0	5J044	H03H  17/04	98	係数が伝達関数で特定されたもの	Factors determined by transfer function
+H03H  17/04 633 B	4	0	5J044	H03H  17/04	49	係数が極と零点の位置で特定されたもの	Factors determined by transfer function
+H03H  17/04 633 C	4	0	5J044	H03H  17/04	34	特殊な周波数特性を有するもの	with special frequency characteristics
+H03H  17/04 633 J	4	0	5J044	H03H  17/04	10	タップ数を減少させたもの	with reduced number of taps
+H03H  17/04 633 Z	4	0	5J044	H03H  17/04	79	その他	Others
+H03H  17/04 635 \	4	4	5J044	H03H  17/04	1	可変周波数特性，可変係数に対応した構成	Structures adapted for variable frequency characteristics or variable factors
+H03H  17/04 635 A	4	0	5J044	H03H  17/04	51	係数メモリの構成に特徴を有するもの	characterised by structures of factor memory
+H03H  17/04 635 B	4	0	5J044	H03H  17/04	86	係数の可変方法に特徴を有するもの	characterised by methods for varying factors
+H03H  17/04 635 C	4	0	5J044	H03H  17/04	51	可変係数に対応した積和演算回路	Circuits for calculating sum of products adapted for variable factors
+H03H  17/04 635 D	4	0	5J044	H03H  17/04	12	可変係数の入力方法に特徴を有するもの	characterised by methods for inputting variable factors
+H03H  17/04 635 Z	4	0	5J044	H03H  17/04	28	その他	Others
+H03H  17/04 641 \	3	3	5J044	H03H  17/04	0	特性の改善，制御〔係数制御を除く〕	Improving or controlling characteristics (excluding controlling factors)
+H03H  17/04 641 A	3	0	5J044	H03H  17/04	43	オーバーフローに対応するもの	adapted for overflow
+H03H  17/04 641 E	3	0	5J044	H03H  17/04	53	丸め誤差に対応するもの	Adapted for rounding errors
+H03H  17/04 641 J	3	0	5J044	H03H  17/04	12	オフセットに対応するもの	Adapted for offset
+H03H  17/04 641 N	3	0	5J044	H03H  17/04	23	量子化雑音に対応するもの	Adapted for quantisation noises
+H03H  17/04 641 S	3	0	5J044	H03H  17/04	53	リミットサイクルに対応するもの	adapted for limit cycles
+H03H  17/04 641 Z	3	0	5J044	H03H  17/04	43	その他	Others
+H03H  17/04 651 \	3	3	5J044	H03H  17/04	1	信号メモリ，積和演算回路の構成に特徴を有するもの	characterised by structures of signal memory or circuit for calculating sum of products
+H03H  17/04 653 \	4	4	5J044	H03H  17/04	51	信号メモリの構成に特徴を有するもの	characterised by structures of signal memory
+H03H  17/04 655 \	4	4	5J044	H03H  17/04	0	積和演算回路	Circuit for calculating sum of products
+H03H  17/04 655 A	4	0	5J044	H03H  17/04	20	メモリによる変換を用いた積和演算回路	Circuits for calculating sum of products using conversions by memory
+H03H  17/04 655 B	4	0	5J044	H03H  17/04	28	時分割多重化を用いた積和演算回路	Circuits for calculating sum of products using time division multiplexing
+H03H  17/04 655 C	4	0	5J044	H03H  17/04	6	キャリーの処理に特徴を有する積和演算回路	Circuits for calculating sum of products characterised by processing carry
+H03H  17/04 655 D	4	0	5J044	H03H  17/04	20	係数の対称性等を利用し素子数の低減を目的としたもの	aiming at reducing number of elements by using symmetry of factors
+H03H  17/04 655 Z	4	0	5J044	H03H  17/04	127	その他	Others
+H03H  17/04 661 \	3	3	5J044	H03H  17/04	0	入力信号の表現形態に特徴を有するもの	characterised by methods for expressing input signals
+H03H  17/04 661 A	3	0	5J044	H03H  17/04	9	シリアルバイナリ符号を用いるもの	using serial binary codes
+H03H  17/04 661 B	3	0	5J044	H03H  17/04	6	デルタ変調符号、差分変調信号を用いるもの	using delta modulation codes, differential modulation signals
+H03H  17/04 661 C	3	0	5J044	H03H  17/04	0	パルス信号を扱うもの	handling of pulse signals
+H03H  17/04 661 D	3	0	5J044	H03H  17/04	1	非線形バイナリ符号（μ−ｌａｗ，Ａ−ｌａｗ）を扱うもの	handling non-linear binary codes (m-law, A-law)
+H03H  17/04 661 E	3	0	5J044	H03H  17/04	6	複数チャネルの信号を扱うもの	handling signals for multiple channels
+H03H  17/04 661 F	3	0	5J044	H03H  17/04	4	時分割多重化された信号を扱うもの	handling time division multiplexed signals
+H03H  17/04 661 Z	3	0	5J044	H03H  17/04	8	その他	Others
+H03H  17/04 671 \	3	3	5J044	H03H  17/04	53	特別な構成を有するディジタルフィルタ	Digital filters with special structures
+H03H  17/04 681 \	3	3	5J044	H03H  17/04	0	細部	Details
+H03H  17/04 681 B	3	0	5J044	H03H  17/04	7	サンプリングロックに関するもの	related to sampling clocks
+H03H  17/04 681 C	3	0	5J044	H03H  17/04	1	回路実装上の問題に対応するもの	adapted for problems for integrating circuits
+H03H  17/04 681 D	3	0	5J044	H03H  17/04	6	ノイズ対策，電源に関するもの	related to measures for noises or power supplies
+H03H  17/04 681 E	3	0	5J044	H03H  17/04	20	集積回路化上の問題に対応するもの	adapted for problems for integrating circuits
+H03H  17/04 681 F	3	0	5J044	H03H  17/04	3	特別の素子を用いるもの	using special elements
+H03H  17/04 681 G	3	0	5J044	H03H  17/04	13	ディジタル・シグナル・プロセッサ	Digital signal processors
+H03H  17/04 681 Z	3	0	5J044	H03H  17/04	3	その他	Others
+H03H  17/06  \	2	2	5J044	H03H  17/06	69	非巡回型濾波器［３］	Non-recursive filters [3]
+H03H  17/06 611 \	3	3	5J044	H03H  17/06	4	複数フィルタの組合せ	Combination of multiple filters
+H03H  17/06 613 \	4	4	5J044	H03H  17/06	2	並列に組み合わせたもの	Parallel combinations
+H03H  17/06 613 A	4	0	5J044	H03H  17/06	2	ディジタルフィルタ以外のフィルタとの組み合わせ	Combinations of filters excluding digital filters
+H03H  17/06 613 C	4	0	5J044	H03H  17/06	64	信号を複数の帯域に分割するもの，複数の帯域を合成するもの	for dividing signals into multiple bands, for synthesising multiple bands
+H03H  17/06 613 D	4	0	5J044	H03H  17/06	8	クォドラチャ・ミラー・フィルタ（ＱＭＦ）	Quadrature mirror filters (QMF)
+H03H  17/06 613 E	4	0	5J044	H03H  17/06	46	複数のフィルタの組み合わせで周波数特性をつくるもの	Making frequency characteristics by combinations of multiple filters
+H03H  17/06 613 J	4	0	5J044	H03H  17/06	24	複数のフィルタの組み合わせで特性を改善するもの	Improving characteristics by combinations of multiple filters
+H03H  17/06 613 K	4	0	5J044	H03H  17/06	20	複数のフィルタの組み合わせをするための特別な構成	Special structures for combining multiple filters
+H03H  17/06 613 Z	4	0	5J044	H03H  17/06	34	その他	Others
+H03H  17/06 615 \	4	4	5J044	H03H  17/06	1	直列に組み合わせたもの	Serial combinations
+H03H  17/06 615 A	4	0	5J044	H03H  17/06	7	ディジタルフィルタ以外のフィルタとの組み合わせ	Combinations with filters excluding digital filters
+H03H  17/06 615 E	4	0	5J044	H03H  17/06	81	複数のフィルタの組み合わせで周波数特性をつくるもの	Making frequency characteristics by combinations of multiple filters
+H03H  17/06 615 J	4	0	5J044	H03H  17/06	23	複数のフィルタの組み合わせで特性を改善するもの	Improving characteristics by combinations of multiple filters
+H03H  17/06 615 K	4	0	5J044	H03H  17/06	32	複数のフィルタの組み合わせをするための特別な構成	Special structures for combining multiple filters
+H03H  17/06 615 Z	4	0	5J044	H03H  17/06	18	その他	Others
+H03H  17/06 621 \	3	3	5J044	H03H  17/06	1	多次元フィルタ〔例．画像処理用二次元フィルタ，空間フィルタ〕	Multi-dimensional filters, e.g. two-dimensional filters for processing picture images, space filters
+H03H  17/06 621 A	3	0	5J044	H03H  17/06	35	静止画像用	for static pictures
+H03H  17/06 621 B	3	0	5J044	H03H  17/06	7	動画像用	for motion pictures
+H03H  17/06 621 Z	3	0	5J044	H03H  17/06	3	その他	Others
+H03H  17/06 631 \	3	3	5J044	H03H  17/06	9	周波数特性，係数の設定，演算，制御〔係数切替，可変係数等〕	Setting,, computing or controlling frequency characteristics or factors (switching factors, variable factors)
+H03H  17/06 633 \	4	4	5J044	H03H  17/06	9	周波数特性，係数の設定に特徴を有するもの	characterised by setting of frequency characteristics or factors
+H03H  17/06 633 A	4	0	5J044	H03H  17/06	88	係数が伝達関数で特定されたもの	Factors determined by transfer function
+H03H  17/06 633 B	4	0	5J044	H03H  17/06	15	係数が極と零点の位置で特定されたもの	Factors determined by transfer function
+H03H  17/06 633 C	4	0	5J044	H03H  17/06	45	特殊な周波数特性を有するもの	with special frequency characteristics
+H03H  17/06 633 J	4	0	5J044	H03H  17/06	65	タップ数を減少させたもの	with reduced number of taps
+H03H  17/06 633 Z	4	0	5J044	H03H  17/06	275	その他	Others
+H03H  17/06 635 \	4	4	5J044	H03H  17/06	0	可変周波数特性，可変係数に対応した構成	Structures adapted for variable frequency characteristics or variable factors
+H03H  17/06 635 A	4	0	5J044	H03H  17/06	107	係数メモリの構成に特徴を有するもの	characterised by structures of factor memory
+H03H  17/06 635 B	4	0	5J044	H03H  17/06	177	係数の可変方法に特徴を有するもの	characterised by methods for varying factors
+H03H  17/06 635 C	4	0	5J044	H03H  17/06	75	可変係数に対応した積和演算回路	Circuits for calculating sum of products  adapted for variable factors
+H03H  17/06 635 D	4	0	5J044	H03H  17/06	38	可変係数の入力方法に特徴を有するもの	characterised by methods for inputting variable factors
+H03H  17/06 635 Z	4	0	5J044	H03H  17/06	47	その他	Others
+H03H  17/06 641 \	3	3	5J044	H03H  17/06	0	特性の改善，制御〔係数制御を除く〕	Improving or controlling characteristics (excluding controlling factors)
+H03H  17/06 641 A	3	0	5J044	H03H  17/06	18	オーバーフローに対応するもの	adapted for overflow
+H03H  17/06 641 E	3	0	5J044	H03H  17/06	46	丸め誤差に対応するもの	Adapted for rounding errors
+H03H  17/06 641 J	3	0	5J044	H03H  17/06	8	オフセットに対応するもの	Adapted for offset
+H03H  17/06 641 N	3	0	5J044	H03H  17/06	22	量子化雑音に対応するもの	Adapted for quantisation noises
+H03H  17/06 641 Z	3	0	5J044	H03H  17/06	49	その他	Others
+H03H  17/06 651 \	3	3	5J044	H03H  17/06	14	信号メモリ，積和演算回路の構成に特徴を有するもの	characterised by structures of signal memory or circuit for calculating sum of products
+H03H  17/06 653 \	4	4	5J044	H03H  17/06	114	信号メモリの構成に特徴を有するもの	characterised by structures of signal memory
+H03H  17/06 655 \	4	4	5J044	H03H  17/06	2	積和演算回路	circuit for calculating sum of products
+H03H  17/06 655 A	4	0	5J044	H03H  17/06	100	メモリによる変換を用した積和演算回路	Circuits for calculating sum of products using conversions by memory
+H03H  17/06 655 B	4	0	5J044	H03H  17/06	103	時分割多重化を用いた積和演算回路	Circuits for calculating sum of products using time division multiplexing
+H03H  17/06 655 C	4	0	5J044	H03H  17/06	7	キャリーの処理に特徴を有する積和演算回路	Circuits for calculating sum of products characterised by processing carry
+H03H  17/06 655 D	4	0	5J044	H03H  17/06	161	係数の対称性等を利用し素子数の低減を目的としたもの	aiming at reducing number of elements by using symmetry of factors
+H03H  17/06 655 Z	4	0	5J044	H03H  17/06	260	その他	Others
+H03H  17/06 661 \	3	3	5J044	H03H  17/06	0	入力信号の表現形態に特徴を有するもの	characterised by methods for expressing input signals
+H03H  17/06 661 A	3	0	5J044	H03H  17/06	24	シリアルバイナリ符号を用いるもの	using serial binary codes
+H03H  17/06 661 B	3	0	5J044	H03H  17/06	40	デルタ変調符号、差分変調信号を用いるもの	using delta modulation codes, differential modulation signals
+H03H  17/06 661 C	3	0	5J044	H03H  17/06	11	パルス信号を扱うもの	handling of pulse signals
+H03H  17/06 661 D	3	0	5J044	H03H  17/06	1	非線形バイナリ符号（μ−１ａｗ，Ａ−１ａｗ）を扱うもの	handling non-linear binary codes (m-law, A-law)
+H03H  17/06 661 E	3	0	5J044	H03H  17/06	28	複数チャネルの信号を扱うもの	handling signals for multiple channels
+H03H  17/06 661 F	3	0	5J044	H03H  17/06	26	時分割多重化された信号を扱うもの	handling time division multiplexed signals
+H03H  17/06 661 Z	3	0	5J044	H03H  17/06	11	その他	Others
+H03H  17/06 671 \	3	3	5J044	H03H  17/06	3	特別な構成を有するディジタルフィルタ	Digital filters with special structures
+H03H  17/06 671 A	3	0	5J044	H03H  17/06	78	転置型非巡回フィルタ	Transposed cyclic filters
+H03H  17/06 671 Z	3	0	5J044	H03H  17/06	55	その他	Others
+H03H  17/06 681 \	3	3	5J044	H03H  17/06	0	細部	Details
+H03H  17/06 681 B	3	0	5J044	H03H  17/06	57	サンプリングクロックに関するもの	related to sampling clocks
+H03H  17/06 681 C	3	0	5J044	H03H  17/06	4	回路実装上の問題に対応するもの	adapted for problems for integrating circuits
+H03H  17/06 681 D	3	0	5J044	H03H  17/06	29	ノイズ対策，電源に関するもの	related to measures for noises or power supplies
+H03H  17/06 681 E	3	0	5J044	H03H  17/06	55	集積回路化上の問題に対応するもの	adapted for problems for integrating circuits
+H03H  17/06 681 F	3	0	5J044	H03H  17/06	6	特別の素子を用いるもの	using special elements
+H03H  17/06 681 G	3	0	5J044	H03H  17/06	20	ディジタル・シグナル・プロセッサ	Digital signal processors
+H03H  17/06 681 Z	3	0	5J044	H03H  17/06	6	その他	Others
+H03H  17/08  \	1	1	5J044	H03H  17/08	225	位相推移を与える回路網［３］	Networks for phase-shifting [3]
+H03H  17/08  A	1	0	5J044	H03H  17/08	222	時間遅れを与える回路網	Networks for time delays
+H03H  17/08  B	1	0	5J044	H03H  17/08	69	残響装置	Echoing devices
+H03H  17/08  C	1	0	5J044	H03H  17/08	155	位相推移を与える回路網	Networks for phase shifting
+H03H  17/08  Z	1	0	5J044	H03H  17/08	17	その他	Others
+H03H  19/00  \	0	0	5J023	H03H  19/00	1083	時間変化要素を用いる回路網，例．Ｎ一路フィルター［３］	Networks using time-varying elements, e.g. N-path filters [3]
+H03H  21/00  \	0	0	5J023	H03H  21/00	3271	適応型回路網［３］	Adaptive networks [3]

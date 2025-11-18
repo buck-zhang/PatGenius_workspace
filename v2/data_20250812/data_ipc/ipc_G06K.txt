@@ -1,0 +1,89 @@
+G06K   1/00		記録担体にデジタル形態でマーキングするための方法または装置	Methods or arrangements for marking the record carrier in digital fashion	3601
+G06K   1/02	・	せん孔によるもの	by punching	1046
+G06K   1/04	・・	せん孔されている記録担体上の記録マークの読取りによって制御されるもの	controlled by sensing markings on the record carrier being punched	89
+G06K   1/05	・・	高速せん孔装置，例．電子計算機によって制御されるもの	High-speed punches, e.g. controlled by electric computer	93
+G06K   1/06	・・	手動で制御される装置	Manually-controlled devices	363
+G06K   1/08	・・・	カードせん孔装置	Card punches	242
+G06K   1/10	・・・	テープせん孔装置	Tape punches	308
+G06K   1/12	・	せん孔以外の方法によるもの	otherwise than by punching	6152
+G06K   1/14	・	データを同種のまたは異種の記録担体から移すことによるもの	by transferring data from a similar or dissimilar record carrier	146
+G06K   1/16	・・	データを一枚のせん孔されたカードから一枚以上のカードに符号形式を変えることなく再生することによるもの，すなわちデュプリケート	by reproducing data from one punched card on to one or more punched cards without the code representation, i.e. duplicating	49
+G06K   1/18	・・	データをある型の担体から他の担体に移すことによるもの，例．磁気テープからせん孔カードに移すことによるもの	by transferring data from one type of record carrier on to another type of record carrier, e.g. from magnetic tape to punched card	182
+G06K   1/20	・	データの記録担体へのマーク記録と印字とを同時に行なうもの，例．印字せん孔機	Simultaneous marking of record carrier and printing-out of data, e.g. printing-punch	246
+G06K   1/22	・・	別個の記録担体，例．異なった型の記録担体，上へマーク記録と印字とを同時に行なうもの	Simultaneous marking and printing on different record carriers, e.g. on different types of record carrier	71
+G06K   3/00		記録担体からのアルファニューメリックまたはその他の文字の形態のデータを印字する方法または装置，例．磁気テープからのデータを解読し，印字するもの	Methods or arrangements for printing of data in the shape of alphanumeric or other characters from a record carrier, e.g. interpreting, printing-out from a magnetic tape	336
+G06K   3/02	・	記録担体上の記録マークを同一担体上の印字データにほん訳するためのもの，すなわち解読	Translating markings on a record carrier into printed data on the same record carrier, i.e. interpreting	90
+G06K   5/00		記録担体上のマーキングの正しさを検証するための方法または装置；コラム検知デバイス	Methods or arrangements for verifying the correctness of markings on a record carrier; Column-detection devices	5067
+G06K   5/02	・	検査がマーク記録動作の一部を形成しているもの	the verifying forming a part of the marking action	333
+G06K   5/04	・	マーク整列の検査を行なうもの	Verifying the alignment of markings	429
+G06K   7/00		記録担体を読取る方法または装置（記録担体にデジタル的に記録する方法または装置Ｇ０６Ｋ１／００；パターン認識Ｇ０６Ｆ１８／００；イメージまたはビデオの認識または理解のための装置Ｇ０６Ｖ１０／００；文字認識，デジタルインクの認識，文書指向イメージベースのパターン認識Ｇ０６Ｖ３０／００）［２００６．０１］	Methods or arrangements for sensing record carriers (methods or arrangements for marking the record carrier in digital fashion G06K1/00;  pattern recognition G06F18/00;  arrangements for image or video recognition or understanding G06V10/00;  character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V30/00)	34207
+G06K   7/01	・	細部	Details	4205
+G06K   7/015	・・	記録担体に対する読取り装置の整列または中心位置合せ	Aligning or centring of the sensing device with respect to the record carrier	2041
+G06K   7/016	・・	読取り過程の同期	Synchronisation of sensing process	1769
+G06K   7/02	・	気体または液体を用いるもの，例．圧縮空気でせん孔を読取るもの；音波手段によるもの	by pneumatic or hydraulic means, e.g. sensing punched holes with compressed air; by sonic means	247
+G06K   7/04	・	機械的手段によるもの，例．電気的接点を作動するピンによるもの	by mechanical means, e.g. by pins operating electric contacts	674
+G06K   7/06	・	記録マークの有無により電流を流す手段によるもの，例．せん孔のための接触ブラシまたはピンによるもの，導電性マークのための接触ブラシによるもの	by means which conduct current when a mark is sensed or absent, e.g. contact brush for a conductive mark	1289
+G06K   7/08	・	静電場または磁場の変化を検出する手段によるもの，例．電極間の容量の変化を検出することによるもの	by means detecting the change of an electrostatic or magnetic field, e.g. by detecting change of capacitance between electrodes	7098
+G06K   7/10	・	電磁放射線によるもの，例．光学的読取り；粒子放射線によるもの	by electromagnetic radiation, e.g. optical sensing; by corpuscular radiation	65196
+G06K   7/12	・・	選択された波長を用いるもの，例．赤色マークを読取り，青色マークを無視するもの	using a selected wavelength, e.g. to sense red marks and ignore blue marks	2565
+G06K   7/14	・・	波長を特定しない光を用いるもの，例．白色光の反射を感知するもの	using light without selection of wavelength, e.g. sensing reflected white light	18847
+G06K  11/00		グラフを読取るため，または機械的変量，例．力または存否，のパターンを電気信号に変換するための方法または装置（文字またはパターン認識と結合しているものＧ０６Ｆ１８／００；イメージまたはビデオの認識または理解のための装置Ｇ０６Ｖ１０／００；文字認識，デジタルインクの認識，文書指向イメージベースのパターン認識Ｇ０６Ｖ３０／００）［２００６．０１］	Methods or arrangements for graph-reading or for converting the pattern of mechanical parameters, e.g. force or presence, into electrical signals(combined with pattern recognition G06F18/00; arrangements for image or video recognition or understanding G06V10/00; character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V30/00)	2093
+G06K  11/02	・	自動曲線追従器	Automatic curve followers	418
+G06K  11/04	・・	補助走査パターンを用いるもの［２］	using an auxiliary scanning pattern	130
+G06K  11/06	・	手動操作の筆記具またはトレース器具の位置を電気信号に変換するための装置［３］	Devices for converting the position of a manually-operated writing or tracing member into an electrical signal	4403
+G06K  13/00		ある位置から他の位置への記録担体の移送，例．スタックからせん孔機構への記録担体の移送（別の動作，例．読取り，と組み合わせた記録担体の移送Ｇ０６Ｋ１７／００）	Conveying record carriers from one station to another, e.g. from stack to punching mechanism(conveying record carriers combined with another operation, e.g. with reading G06K17/00)	1083
+G06K  13/02	・	縦横の長さがあまり違わない記録担体に関するもの，例．せん孔カード用	the record carrier having longitudinal dimension comparable with transverse dimension, e.g. punched card	581
+G06K  13/04	・・	細部，例．カード分類装置のフラップ	Details, e.g. flaps in card-sorting apparatus	876
+G06K  13/05	・・・	キャプスタン；ピンチローラ	Capstans; Pinch rollers	369
+G06K  13/06	・・	カードの案内；カード移送機構の正しい動作の検査［２］	Guiding cards; Checking correct operation of card-conveying mechanisms	2894
+G06K  13/063	・・・	カードの整列［２］	Aligning cards	1427
+G06K  13/067	・・・	カードの有無，正しい位置，移動状態の検査［２］	Checking presence, absence, correct position, or moving status of cards	1370
+G06K  13/07	・・	複数ステーション間でのカードの移送	Transporting of cards between stations	1594
+G06K  13/073	・・・	連続移動によるもの［２］	with continuous movement	222
+G06K  13/077	・・・	間欠移動によるもの；移動の制止または停止［２］	with intermittent movement; Braking or stopping movement	634
+G06K  13/08	・・	カードの供給または排出	Feeding or discharging cards	3448
+G06K  13/10	・・・	マガジンから移送装置へ	from magazine to conveying arrangement	540
+G06K  13/103	・・・・	機械的手段によるもの［２］	using mechanical means	1379
+G06K  13/107	・・・・	空気力学的手段によるもの［２］	using pneumatic means	355
+G06K  13/12	・・・	移送装置からマガジンへ	from conveying arrangement to magazine	1104
+G06K  13/14	・・・	カードマガジン，例．ポケット，ホッパー	Card magazines, e.g. pocket, hopper	1209
+G06K  13/16	・・	可撓性シート，例．小切手，の処理	Handling flexible sheets, e.g. cheques	200
+G06K  13/18	・	縦方向に延びた記録担体，例．せん孔テープ	the record carrier being longitudinally extended, e.g. punched tape	385
+G06K  13/20	・・	細部	Details	257
+G06K  13/22	・・・	キャプスタン；ピンチローラ	Capstans; Pinch rollers	127
+G06K  13/24	・・	記録担体の案内；記録担体の端部の検出	Guiding of record carriers; Recognising end of record carrier	432
+G06K  13/26	・・	記録担体の巻上げまたは巻戻し；記録担体の駆動［２］	Winding-up or unwinding of record carriers; Driving of record carriers	772
+G06K  13/28	・・・	連続的に行なうもの［２］	continuously	112
+G06K  13/30	・・・	間欠的に行なうもの［２］	intermittently	297
+G06K  15/00		出力データの永久可視表示を作成するための装置（別の動作，例．移送，と組み合わせた印刷またはプロッティングＧ０６Ｋ１７／００）［３］	Arrangements for producing a permanent visual presentation of the output data(printing or plotting combined with another operation, e.g. with conveying, G06K17/00)	20642
+G06K  15/02	・	プリンタを用いるもの	using printers	10808
+G06K  15/04	・・	ラック型プリンタによるもの	by rack-type printers	189
+G06K  15/06	・・	活字輪型プリンタによるもの	by type-wheel printers	1024
+G06K  15/07	・・・	連続回転活字輪型プリンタ，例．回転活字ドラム型プリンタ，によるもの［２］	by continuously-rotating-type-wheel printers, e.g. rotating-type-drum printers	578
+G06K  15/08	・・	印字行の方向に移動する活字型を有するフライトプリンタ，例．チェーン型プリンタ，によるもの	by flight printing with type font moving in the direction of the printed line, e.g. chain printers	992
+G06K  15/10	・・	マトリックス型プリンタによるもの	by matrix printers	6746
+G06K  15/12	・・	写真印刷によるもの	by photographic printing	5389
+G06K  15/14	・・	静電印刷によるもの，例．ゼログラフィーによるもの；磁気印刷によるもの	by electrographic printing, e.g. xerography; by magnetographic printing	1360
+G06K  15/16	・・	紙または用紙の給送手段	Means for paper feeding or form feeding	2984
+G06K  15/22	・	プロッタを用いるもの［３］	using plotters	1229
+G06K  17/00		メイングループＧ０６Ｋ１／００〜Ｇ０６Ｋ１５／００の２つ以上のメイングループに包含される装置を協働させるための方法または装置，例．移送動作と読取り動作を取り込んだ自動カードファイル	Methods or arrangements for effecting co-operative working between equipments covered by two or more of main groups G06K1/00 to G06K15/00 , e.g. automatic card files incorporating conveying and reading operations	96621
+G06K  19/00		機械と共に使用され，かつ，少なくとも，デジタルマーキングを担持するように設計された部分と共に使用される，ための記録担体	Record carriers for use with machines and with at least a part designed to carry digital markings	20738
+G06K  19/02	・	材料の選定に特徴のあるもの，例．機械中を移送する間での摩耗を避けるための材料の選定	characterised by the selection of materials, e.g. to avoid wear during transport through the machine	3336
+G06K  19/04	・	形状によって特徴づけられるもの	characterised by the shape	2765
+G06K  19/06	・	デジタルマーキングの種類によって特徴づけられるもの，例．形状，性質，コード	characterised by the kind of the digital marking, e.g. shape, nature, code	35217
+G06K  19/063	・・	欄外にせん孔されているかまたは刻みを入れられている担体，例．細長いスロットをもつもの［５］	the carrier being marginally punched or notched, e.g. having elongated slots	373
+G06K  19/067	・・	導電性マーク，印刷回路または半導体回路素子をもつ記録担体，例．クレジットカードまたは身分証明書（電話機からの承認された発呼のためにコード化されたカードを用いるものＨ０４Ｍ１／６７５）［５］	Record carriers with conductive marks, printed circuits or semiconductor circuit elements, e.g. credit or identity cards(using a coded card to authorise calls from a telephone set H04M1/675)	4024
+G06K  19/07	・・・	集積回路チップを備えるもの［５］	with integrated circuit chips	43478
+G06K  19/073	・・・・	回路用の特別な機構，例．メモリ内の識別コードを保護するためのもの（計算機のメモリの不正な使用に対する保護Ｇ０６Ｆ１２／１４）［５］	Special arrangements for circuits, e.g. for protecting identification code in memory(protection against unauthorised use of computer memory G06F12/14)	7031
+G06K  19/077	・・・・	構造上の細部，例．担体内への回路の取付け［５］	Constructional details, e.g. mounting of circuits in the carrier	45976
+G06K  19/08	・・	同一記録担体中に異なる種類のマーキングを用いるもの，例．一方のマーキングは光学的に読み取られ，他方のマーキングは磁気的手段によって読み取られるもの	using markings of different kinds in the same record carrier, e.g. one marking being sensed by optical and the other by magnetic means	2559
+G06K  19/10	・・・	少なくとも一種類のマーキングが認証のために用いられるもの，例．クレジットカードまたは身分証明書の認証のために用いられるもの（それらによって作動される機構内での符号化された身分証明書またはクレジットカードの検証Ｇ０７Ｆ７／１２）［５］	at least one kind of marking being used for authentication, e.g. of credit or identity cards(verification of coded identity or credit cards in mechanisms actuated by them G07F7/12)	6430
+G06K  19/12	・・・・	マーキングが磁気的手段によって読取られるもの［５］	the marking being sensed by magnetic means	431
+G06K  19/14	・・・・	マーキングが放射線によって読取られるもの［５］	the marking being sensed by radiation	1028
+G06K  19/16	・・・・・	マーキングがホログラムまたは回折格子であるもの［５］	the marking being a hologram or diffraction grating	652
+G06K  19/18	・・・・	構造上の細部［５］	Constructional details	421
+G06K  21/00		手で扱うかまたは機械で処理するように設計されたせん孔カードからの情報検索（Ｇ０６Ｋ１９／００が優先；パターンの再走査によるエラーの検出または訂正Ｇ０６Ｖ３０／００；カード移送機構の正しい動作の検査Ｇ０６Ｋ１３／０６）；そのようなカードを処理するための装置，例．マーキングまたは訂正	Information retrieval from punched cards designed for manual use or handling by machine (G06K19/00 takes precedence;  detection or correction of errors by rescanning patterns G06V30/00;  checking correct operation of card-conveying mechanisms G06K13/06);Apparatus for handling such cards, e.g. marking or correcting	863
+G06K  21/02	・	マークの一致を機械的に，例．針によって，検出するもの	in which coincidence of markings is sensed mechanically, e.g. by needle	616
+G06K  21/04	・	マークの一致を光学的に検出するもの，例．ピーカブー方式	in which coincidence of markings is sensed optically, e.g. peek-a-boo system	428
+G06K  21/06	・	情報検索カードにスロッティングまたはその他のマーク記録を行なうのに適した装置または道具	Apparatus or tools adapted for slotting or otherwise marking information-retrieval cards	178
+G06K  21/08	・	せん孔誤りまたはスロッティング誤りを訂正する装置または道具［２］	Apparatus or tools for correcting punching or slotting errors	56

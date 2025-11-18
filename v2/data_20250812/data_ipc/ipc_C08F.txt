@@ -1,0 +1,741 @@
+C08F   2/00		重合方法［２］	Processes of polymerisation	22612
+C08F   2/01	・	使用する重合装置の特性に特徴があるもの［７］	characterised by special features of the polymerisation apparatus used	5548
+C08F   2/02	・	塊状重合［２］	Polymerisation in bulk	3342
+C08F   2/04	・	溶液重合（Ｃ０８Ｆ２／３２が優先）［２］	Polymerisation in solution(C08F2/32 takes precedence)	2871
+C08F   2/06	・・	有機溶媒［２］	Organic solvent	4231
+C08F   2/08	・・・	重合体に対する分散剤を用いるもの［２］	with the aid of dispersing agents for the polymer	890
+C08F   2/10	・・	水性溶媒［２］	Aqueous solvent	2227
+C08F   2/12	・	非溶媒中における重合（Ｃ０８Ｆ２／３２が優先）［２］	Polymerisation in non-solvents(C08F2/32 takes precedence)	377
+C08F   2/14	・・	有機媒体［２］	Organic medium	953
+C08F   2/16	・・	水性媒体［２］	Aqueous medium	1782
+C08F   2/18	・・・	懸濁重合［２］	Suspension polymerisation	6348
+C08F   2/20	・・・・	高分子分散剤を用いるもの［２］	with the aid of macromolecular dispersing agents	2752
+C08F   2/22	・・・	乳化重合［２］	Emulsion polymerisation	7652
+C08F   2/24	・・・・	乳化剤を用いるもの［２］	with the aid of emulsifying agents	5188
+C08F   2/26	・・・・・	陰イオン性乳化剤［２］	anionic	5399
+C08F   2/28	・・・・・	陽イオン性乳化剤［２］	cationic	781
+C08F   2/30	・・・・・	非イオン性乳化剤［２］	non-ionic	3683
+C08F   2/32	・	油中水型乳濁液中における重合［２］	Polymerisation in water-in-oil emulsions	2145
+C08F   2/34	・	気相重合［２］	Polymerisation in gaseous state	3082
+C08F   2/36	・	固相重合［２］	Polymerisation in solid state	285
+C08F   2/38	・	調整剤，例．連鎖停止剤，を用いる重合［２］	Polymerisation using regulators, e.g. chain terminating agents	10662
+C08F   2/40	・・	重合抑制剤を用いるもの［２］	using retarding agents	884
+C08F   2/42	・・	ショートストッピング剤を用いるもの［２］	using short-stopping agents	729
+C08F   2/44	・	配合成分，例．可塑剤，染料，充填剤，の存在下における重合［２］	Polymerisation in the presence of compounding ingredients, e.g. plasticisers, dyestuffs, fillers	25628
+C08F   2/46	・	波動エネルギーまたは粒子線の照射によって開始される重合［２］	Polymerisation initiated by wave energy or particle radiation	7639
+C08F   2/48	・・	紫外線または可視光線によるもの［２］	by ultraviolet or visible light	11835
+C08F   2/50	・・・	増感剤を用いるもの［２］	with sensitising agents	11621
+C08F   2/52	・・	放電によるもの，例．無声放電処理［２］	by electric discharge, e.g. voltolisation	541
+C08F   2/54	・・	Ｘ線または電子によるもの［２］	by X-rays or electrons	1361
+C08F   2/56	・・	超音波振動によるもの［２］	by ultrasonic vibrations	172
+C08F   2/58	・	電流を直接作用させることによって開始される重合（電解法，例．電気泳動，Ｃ２５）［２］	Polymerisation initiated by direct application of electric current(electrolytic processes, e.g. electrophoresis, C25)	338
+C08F   2/60	・	ジエン合成による重合［２］	Polymerisation by the diene synthesis	166
+C08F   4/00		重合触媒［２］	Polymerisation catalysts	8942
+C08F   4/02	・	そのための担体［２］<br><b><ul>注</ul></b><br>グループ４／０４〜４／４２に分類するとき，担体がとくに重要である場合は，グループ４／０２にも分類してもよい。［２］	Carriers therefor	4538
+C08F   4/04	・	アゾ化合物［２］	Azo-compounds	2255
+C08F   4/06	・	水素化物と有機金属化合物以外の金属化合物；ハロゲン化ほう素またはハロゲン化アルミニウムの含酸素有機化合物との錯体［２］	Metallic compounds other than hydrides and other than metallo-organic compounds; Boron halide or aluminium halide complexes with organic compounds containing oxygen	1663
+C08F   4/08	・・	アルカリ金属の［２］	of alkali metals	235
+C08F   4/10	・・	アルカリ土類金属，亜鉛，カドミウム，水銀，銅または銀の［２］	of alkaline earth metals, zinc, cadmium, mercury, copper, or silver	400
+C08F   4/12	・・	ほう素，アルミニウム，ガリウム，インジウム，タリウムまたは希土類の［２］	of boron, aluminium, gallium, indium, thallium, or rare earths	831
+C08F   4/14	・・・	ハロゲン化ほう素またはハロゲン化アルミニウム；それらの含酸素有機化合物との錯体［２］	Boron halides or aluminium halides; Complexes thereof with organic compounds containing oxygen	714
+C08F   4/16	・・	けい素，ゲルマニウム，錫，鉛，チタン，ジルコニウムまたはハフニウムの［２］	of silicon, germanium, tin, lead, titanium, zirconium or hafnium	979
+C08F   4/18	・・・	酸化物［２］	Oxides	156
+C08F   4/20	・・	アンチモン，ビスマス，バナジウム，ニオビウムまたはタンタルの［２］	of antimony, bismuth, vanadium, niobium, or tantalum	196
+C08F   4/22	・・	クロム，モリブデンまたはタングステンの［２］	of chromium, molybdenum, or tungsten	405
+C08F   4/24	・・・	酸化物［２］	Oxides	470
+C08F   4/26	・・	マンガン，鉄族金属または白金族金属の［２］	of manganese, iron group metals, or platinum group metals	513
+C08F   4/28	・	酸素または遊離酸素を発生する化合物（レドックス系Ｃ０８Ｆ４／４０）［２］	Oxygen or compounds releasing free oxygen(redox systems C08F4/40)	1740
+C08F   4/30	・・	無機化合物［２］	Inorganic compounds	662
+C08F   4/32	・・	有機化合物［２］	Organic compounds	1501
+C08F   4/34	・・・	１個のパーオキシ基をもつ過酸化化合物［２］	Per-compounds with one peroxy-radical	1948
+C08F   4/36	・・・	２個以上のパーオキシ基をもつ過酸化化合物［２］	Per-compounds with more than one peroxy-radical	560
+C08F   4/38	・・・	過酸化化合物の混合物［２］	Mixtures of peroxy-compounds	488
+C08F   4/40	・	レドックス系［２］	Redox systems	3833
+C08F   4/42	・	金属；金属水素化物；有機金属化合物；それらの触媒前駆体としての使用［２］	Metals; Metal hydrides; Metallo-organic compounds; Use thereof as catalyst precursors	2170
+C08F   4/44	・・	軽金属，亜鉛，カドミウム，水銀，銅，銀，金，ほう素，ガリウム，インジウム，タリウム，希土類またはアクチニドから選択されたもの［２］	selected from light metals, zinc, cadmium, mercury, copper, silver, gold, boron, gallium, indium, thallium, rare earths, or actinides	1531
+C08F   4/46	・・・	アルカリ金属から選択されたもの［２］	selected from alkali metals	546
+C08F   4/48	・・・・	リチウム，ルビジウム，セシウムまたはフランシウムから選択されたもの［２］	selected from lithium, rubidium, caesium, or francium	1068
+C08F   4/50	・・・	アルカリ土類金属，亜鉛，カドミウム，水銀，銅または銀から選択されたもの［２］	selected from alkaline earth metals, zinc, cadmium, mercury, copper, or silver	625
+C08F   4/52	・・・	ほう素，アルミニウム，ガリウム，インジウム，タリウムまたは希土類から選択されたもの（Ｃ０８Ｆ４／１４が優先）［２］	selected from boron, aluminium, gallium, indium, thallium, or rare earths(C08F4/14 takes precedence)	2162
+C08F   4/54	・・・	他の化合物と共に用いるもの［２］	together with other compounds thereof	1411
+C08F   4/56	・・・・	金属としてアルカリ金属のみを含むもの，例．アルフィン触媒［２］	Alkali metals being the only metals present, e.g. Alfin catalysts	145
+C08F   4/58	・・・	けい素，ゲルマニウム，錫，鉛，アンチモン，ビスマスまたはそれらの化合物と共に用いるもの［２］	together with silicon, germanium, tin, lead, antimony, bismuth, or compounds thereof	497
+C08F   4/60	・・・	耐火金属，鉄族金属，白金属金属，マンガン，テクネチウム，レニウムまたはそれらの化合物と共に用いるもの［２，５］<br><b><ul>注</ul></b><br>グループＣ０８Ｆ４／６０２〜Ｃ０８Ｆ４／６２においては，下記の用語は以下に示す意味で用いる：<br>・“成分”は前処理するまたはされない遷移金属またはそれらの化合物からなる。	together with refractory metals, iron group metals, platinum group metals, manganese, technetium, rhenium, or compounds thereof	8854
+C08F   4/602	・・・・	１つの有機アルミニウム化合物を含有し，グループＣ０８Ｆ４／６０に包含される成分［５］	Component covered by group C08F4/60 with an organo-aluminium compound	661
+C08F   4/603	・・・・	１つの有機アルミニウム化合物以外のグループＣ０８Ｆ４／４４に包含される金属または化合物を含有し，グループＣ０８Ｆ４／６０に包含される成分［５］	Component covered by group C08F4/60 with a metal or compound covered by group C08F4/44 other than an organo-aluminium compound	112
+C08F   4/605	・・・・	グループＣ０８Ｆ４／６０２とＣ０８Ｆ４／６０３の双方に属し，グループＣ０８Ｆ４／４４に包含される金属または化合物を１つ含有し，グループＣ０８Ｆ４／６０に包含される成分［５］	Component covered by group C08F4/60 with a metal or compound covered by group C08F4/44, not provided for in a single group of groups C08F4/602 or C08F4/603	148
+C08F   4/606	・・・・	グループＣ０８Ｆ４／６０に包含される成分に加えて，金属形状でまたはそれらの化合物として，少なくとも２つの異なる金属からなる触媒［５］	Catalysts comprising at least two different metals, in metallic form or as compounds thereof, in addition to the component covered by group C08F4/60	284
+C08F   4/607	・・・・	金属を含有しない特定の化合物を含むもの［５］	Catalysts containing a specific non-metal or metal-free compound	37
+C08F   4/608	・・・・・	無機の［５］	inorganic	12
+C08F   4/609	・・・・・	有機の［５］	organic	133
+C08F   4/61	・・・・	グループＣ０８Ｆ４／４４に包含される金属または化合物との最終接触前に，グループＣ０８Ｆ４／６０に包含される金属または化合物を前処理するもの［５］	Pretreating the metal or compound covered by group C08F4/60 before the final contacting with the metal or compound covered by group C08F4/44	21
+C08F   4/611	・・・・・	金属を含有しない化合物で前処理するもの［５］	Pretreating with non-metals or metal-free compounds	18
+C08F   4/612	・・・・・	金属または金属含有化合物で前処理するもの［５］	Pretreating with metals or metal-containing compounds	17
+C08F   4/613	・・・・・・	グループＣ０８Ｆ４／６０に包含される金属またはそれらの化合物で［５］	with metals covered by group C08F4/60 or compounds thereof	11
+C08F   4/614	・・・・・・	マグネシウムまたはそれらの化合物で［５］	with magnesium or compounds thereof	62
+C08F   4/615	・・・・・・	アルミニウムまたはそれらの化合物で［５］	with aluminium or compounds thereof	24
+C08F   4/616	・・・・・・	けい素またはそれらの化合物で［５］	with silicon or compounds thereof	22
+C08F   4/617	・・・・・・	グループＣ０８Ｆ４／６１３〜Ｃ０８Ｆ４／６１６に分類されない，金属または金属含有化合物で［５］	with metals or metal-containing compounds, not provided for in groups C08F4/613 to C08F4/616 	5
+C08F   4/618	・・・・・・	グループＣ０８Ｆ４／６１３〜Ｃ０８Ｆ４／６１７の複数のグループに属する金属または金属含有化合物で［５］	with metals or metal-containing compounds, provided for in at least two of the groups C08F4/613 to C08F4/617 	32
+C08F   4/619	・・・・	遷移金属−炭素結合を含むグループＣ０８Ｆ４／６０に包含される成分［８］	Component covered by group C08F4/60 containing a transition metal-carbon bond	731
+C08F   4/6192	・・・・・	結合に関係なく，少なくとも１つのシクロペンタジエニル環を含むもの，例．インデニル環またはフルオレニル環［８］	containing at least one cyclopentadienyl ring, condensed or not, e.g. an indenyl or a fluorenyl ring	786
+C08F   4/62	・・・・	耐火金属またはその化合物［２］	Refractory metals or compounds thereof	1110
+C08F   4/622	・・・・・	１つの有機アルミニウム化合物を含有し，グループＣ０８Ｆ４／６２に包含される成分［５］	Component covered by group C08F4/62 with an organo-aluminium compound	281
+C08F   4/623	・・・・・	１つの有機アルミニウム化合物以外のグループＣ０８Ｆ４／４４に包含される金属または化合物を含有し，グループＣ０８Ｆ４／６２に包含される成分［５］	Component covered by group C08F4/62 with a metal or compound covered by group C08F4/44 other than an organo-aluminium compound	40
+C08F   4/625	・・・・・	グループＣ０８Ｆ４／６２２と，Ｃ０８Ｆ４／６２３の双方に属し，グループＣ０８Ｆ４／４４に包含される金属または化合物を１つ含有し，グループＣ０８Ｆ４／６２に包含される成分［５］	Component covered by group C08F4/62 with a metal or compound covered by group C08F4/44, not provided for in a single group of groups C08F4/622 or C08F4/623	54
+C08F   4/626	・・・・・	グループＣ０８Ｆ４／６２に包含される成分に加えて，金属形状でまたはそれらの化合物として，少なくとも２つの異なる金属からなる触媒［５］	Catalysts comprising at least two different metals, in metallic form or as compounds thereof, in addition to the component covered by group C08F4/62	64
+C08F   4/627	・・・・・	金属を含有しない特定の化合物を含むもの［５］	Catalysts containing a specific non-metal or metal-free compound	4
+C08F   4/628	・・・・・・	無機の［５］	inorganic	13
+C08F   4/629	・・・・・・	有機の［５］	organic	63
+C08F   4/63	・・・・・	グループＣ０８Ｆ４／４４に包含される金属または化合物との最終触媒前に，グループＣ０８Ｆ４／６２に包含される金属または化合物を前処理するもの［５］	Pretreating the metal or compound covered by group C08F4/62 before the final contacting with the metal or compound covered by group C08F4/44	18
+C08F   4/631	・・・・・・	金属を含有しない化合物で前処理するもの［５］	Pretreating with non-metals or metal-free compounds	21
+C08F   4/632	・・・・・・	金属または金属含有化合物で前処理するもの［５］	Pretreating with metals or metal-containing compounds	17
+C08F   4/633	・・・・・・・	グループＣ０８Ｆ４／６２に包含される金属またはそれらの化合物で［５］	with metals covered by group C08F4/62 or compounds thereof	5
+C08F   4/634	・・・・・・・	マグネシウムまたはそれらの化合物で［５］	with magnesium or compounds thereof	60
+C08F   4/635	・・・・・・・	アルミニウムまたはそれらの化合物で［５］	with aluminium or compounds thereof	22
+C08F   4/636	・・・・・・・	けい素またはそれらの化合物で［５］	with silicon or compounds thereof	20
+C08F   4/637	・・・・・・・	グループＣ０８Ｆ４／６３３〜Ｃ０８Ｆ４／６３６に属さない金属または金属含有化合物で［５］	with metals or metal-containing compounds, not provided for in groups C08F4/633 to C08F4/636 	7
+C08F   4/638	・・・・・・・	グループＣ０８Ｆ４／６３３〜Ｃ０８Ｆ４／６３７の複数グループに属する金属または金属含有化合物で［５］	with metals or metal-containing compounds, not provided for in a single group of groups C08F4/633 to C08F4/637 	37
+C08F   4/639	・・・・・	遷移金属−炭素結合を含むグループＣ０８Ｆ４／６２に包含される成分［８］	Component covered by group C08F4/62 containing a transition metal-carbon bond	496
+C08F   4/6392	・・・・・・	結合に関係なく，少なくとも１つのシクロペンタジエニル環を含むもの，例．インデニル環またはフルオレニル環［８］	containing at least one cyclopentadienyl ring, condensed or not, e.g. an indenyl or a fluorenyl ring	526
+C08F   4/64	・・・・・	チタン，ジルコニウム，ハフニウムまたはそれらの化合物［２］	Titanium, zirconium, hafnium, or compounds thereof	7168
+C08F   4/642	・・・・・・	１つの有機アルミニウム化合物を含有し，グループＣ０８Ｆ４／６４に包含される成分［５］	Component covered by group C08F4/64 with an organo-aluminium compound	4563
+C08F   4/643	・・・・・・	１つの有機アルミニウム化合物以外のグループＣ０８Ｆ４／４４に包含される金属または化合物を含有し，グループＣ０８Ｆ４／６４に包含される成分［５］	Component covered by group C08F4/64 with a metal or compound covered by group C08F4/44 other than an organo-aluminium compound	721
+C08F   4/645	・・・・・・	グループＣ０８Ｆ４／６４２とＣ０８Ｆ４／６４３の双方に属し，グループＣ０８Ｆ４／４４に包含される金属または化合物を１つ含有し，グループＣ０８Ｆ４／６４に包含される成分［５］	Component covered by group C08F4/64 with a metal or compound covered by group C08F4/44, not provided for in a single group of groups C08F4/642 to C08F4/643 	1205
+C08F   4/646	・・・・・・	グループＣ０８Ｆ４／６４に包含される成分に加えて，金属形状でまたはそれらの化合物として，少なくとも２つの異なる金属からなる触媒［５］	Catalysts comprising at least two different metals, in metallic form or as compounds thereof, in addition to the component covered by group C08F4/64	2430
+C08F   4/647	・・・・・・	金属を含有しない特定の化合物を含むもの［５］	Catalysts containing a specific non-metal or metal-free compound	79
+C08F   4/648	・・・・・・・	無機の［５］	inorganic	98
+C08F   4/649	・・・・・・・	有機の［５］	organic	2280
+C08F   4/65	・・・・・・	グループＣ０８Ｆ４／４４に包含される金属または化合物との最終接触前に，グループＣ０８Ｆ４／６４に包含される金属または化合物を前処理するもの［５］	Pretreating the metal or compound covered by group C08F4/64 before the final contacting with the metal or compound covered by group C08F4/44	210
+C08F   4/651	・・・・・・・	金属を含有しない化合物で前処理するもの［５］	Pretreating with non-metals or metal-free compounds	1015
+C08F   4/652	・・・・・・・	金属または金属含有化合物で前処理するもの［５］	Pretreating with metals or metal-containing compounds	155
+C08F   4/653	・・・・・・・・	グループＣ０８Ｆ４／６４に包含される金属またはそれらの化合物で［５］	with metals covered by group C08F4/64 or compounds thereof	206
+C08F   4/654	・・・・・・・・	マグネシウムまたはそれらの化合物で［５］	with magnesium or compounds thereof	3030
+C08F   4/655	・・・・・・・・	アルミニウムまたはそれらの化合物で［５］	with aluminium or compounds thereof	569
+C08F   4/656	・・・・・・・・	けい素またはそれらの化合物で［５］	with silicon or compounds thereof	569
+C08F   4/657	・・・・・・・・	グループＣ０８Ｆ４／６５３〜Ｃ０８Ｆ４／６５６に属さない金属または金属含有化合物で［５］	with metals or metal-containing compounds, not provided for in groups C08F4/653 to C08F4/656 	117
+C08F   4/658	・・・・・・・・	グループＣ０８Ｆ４／６５３〜Ｃ０８Ｆ４／６５７の複数のグループに属する金属または金属含有化合物で［５］	with metals or metal-containing compounds, not provided for in a single group of groups C08F4/653 to C08F4/657 	2711
+C08F   4/659	・・・・・・	遷移金属−炭素結合を含むグループＣ０８Ｆ４／６４に包含される成分［８］	Component covered by group C08F4/64 containing a transition metal-carbon bond	5077
+C08F   4/6592	・・・・・・・	結合に関係なく，少なくとも１つのシクロペンタジエニル環を含むもの，例．インデニル環またはフルオレニル環［８］	containing at least one cyclopentadienyl ring, condensed or not, e.g. an indenyl or a fluorenyl ring	7733
+C08F   4/68	・・・・・	バナジウム，ニオビウム，タンタルまたはそれらの化合物［２］	Vanadium, niobium, tantalum, or compounds thereof	1285
+C08F   4/685	・・・・・・	バナジウムまたはその化合物であって，チタニウムまたはその化合物と共に用いるもの［５］	Vanadium or compounds thereof in combination with titanium or compounds thereof	143
+C08F   4/69	・・・・・	クロム，モリブデン，タングステンまたはそれらの化合物［５］	Chromium, molybdenum, tungsten or compounds thereof	956
+C08F   4/695	・・・・	マンガン，テクネチウム，レニウムまたはそれらの化合物［５］	Manganese, technetium, rhenium or compounds thereof	38
+C08F   4/70	・・・・	鉄族金属，白金属金属またはそれらの化合物［２］	Iron group metals, platinum group metals, or compounds thereof	2517
+C08F   4/72	・・	グループＣ０８Ｆ４／４４に属さない金属から選択されたもの（Ｃ０８Ｆ４／５４〜Ｃ０８Ｆ４／７０が優先）［２］	selected from metals not provided for in group C08F4/44(C08F4/54 to C08F4/70  take precedence)	459
+C08F   4/74	・・・	耐熱性金属から選択されたもの［２］	selected from refractory metals	110
+C08F   4/76	・・・・	チタン，ジルコニウム，ハフニウム，バナジウム，ニオビウムまたはタンタルから選択されたもの［２］	selected from titanium, zirconium, hafnium, vanadium, niobium, or tantalum	1243
+C08F   4/78	・・・・	クロム，モリブデンまたはタングステンから選択されたもの［２］	selected from chromium, molybdenum, or tungsten	501
+C08F   4/80	・・・	鉄族金属または白金族金属から選択されたもの［２］	selected from iron group metals or platinum group metals	1555
+C08F   4/82	・・・・	π−アリル錯体［２］	pi-Allyl complexes	67
+C08F   6/00		重合後の処理（Ｃ０８Ｆ８／００が優先；共役ジエンゴムの処理Ｃ０８Ｃ）［２］	Post-polymerisation treatments(C08F8/00 takes precedence; of conjugated diene rubbers C08C)	5307
+C08F   6/02	・	重合塊の中和，例．触媒の失活（ショートストッピングＣ０８Ｆ２／４２）［２］	Neutralisation of the polymerisation mass, e.g. killing the catalyst(short-stopping C08F2/42)	1022
+C08F   6/04	・	分別［２］	Fractionation	256
+C08F   6/06	・	重合体溶液の処理［２］	Treatment of polymer solutions	2337
+C08F   6/08	・・	触媒残渣の除去［２］	Removal of catalyst residues	522
+C08F   6/10	・・	揮発性物質，例．単量体，溶媒，の除去［２］	Removal of volatile materials, e.g. monomers, solvents	1584
+C08F   6/12	・・	溶液からの重合体の分離［２］	Separation of polymers from solutions	918
+C08F   6/14	・	重合体乳濁液の処理［２］	Treatment of polymer emulsions	691
+C08F   6/16	・・	精製［２］	Purification	557
+C08F   6/18	・・	分散粒子の径の増大［２］	Increasing the size of the dispersed particles	205
+C08F   6/20	・・	濃縮［２］	Concentration	184
+C08F   6/22	・・	凝固［２］	Coagulation	798
+C08F   6/24	・	重合体懸濁液の処理［２］	Treatment of polymer suspensions	815
+C08F   6/26	・	塊状重合によって製造された重合体の処理［２］	Treatment of polymers prepared in bulk	237
+C08F   6/28	・・	精製［２］	Purification	443
+C08F   8/00		後処理による化学的変性（グラフト重合体，ブロック重合体，不飽和単量体または重合体を用いる架橋Ｃ０８Ｆ２５１／００〜Ｃ０８Ｆ２９９／００；共役ジエンゴムの変性Ｃ０８Ｃ）［２］<br><b><ul>注</ul></b><br>グループＣ０８Ｆ８／０２〜Ｃ０８Ｆ８／５０においては，ラストプレイス優先ルールが適用される，すなわち各階層レベルにおいて相反する指示がない限り，方法は最後の適切な個所に分類する。［２］	Chemical modification by after-treatment(graft polymers, block polymers, crosslinking with unsaturated monomers or with polymers C08F251/00 to C08F299/00 ; of conjugated diene rubbers C08C)	18947
+C08F   8/02	・	アルキル化［２］	Alkylation	561
+C08F   8/04	・	還元，例．水素添加［２］	Reduction, e.g. hydrogenation	3081
+C08F   8/06	・	酸化［２］	Oxidation	1435
+C08F   8/08	・	エポキシ化［２］	Epoxidation	788
+C08F   8/10	・	アシル化［２］	Acylation	395
+C08F   8/12	・	加水分解［２］	Hydrolysis	4592
+C08F   8/14	・	エステル化［２］	Esterification	3516
+C08F   8/16	・・	ラクトン化［２］	Lactonisation	230
+C08F   8/18	・	ハロゲン原子またはハロゲン含有基の導入［２］	Introducing halogen atoms or halogen-containing groups	706
+C08F   8/20	・・	ハロゲン化［２］	Halogenation	2415
+C08F   8/22	・・・	遊離ハロゲンとの反応［２］	by reaction with free halogens	1360
+C08F   8/24	・・	ハロアルキル化［２］	Haloalkylation	582
+C08F   8/26	・	分子からのハロゲン原子またはハロゲン含有基の除去［２］	Removing halogen atoms or halogen-containing groups from the molecule	462
+C08F   8/28	・	アルデヒドまたはケトンとの縮合［２］	Condensation with aldehydes or ketones	2011
+C08F   8/30	・	窒素原子または窒素含有基の導入［２］	Introducing nitrogen atoms or nitrogen-containing groups	6400
+C08F   8/32	・・	アミンとの反応［２］	by reaction with amines	5613
+C08F   8/34	・	いおう原子またはいおう含有基の導入［２］	Introducing sulfur atoms or sulfur-containing groups	3106
+C08F   8/36	・・	スルホン化；硫酸化［２］	Sulfonation; Sulfation	1492
+C08F   8/38	・・	スルホハロゲン化［２］	Sulfohalogenation	322
+C08F   8/40	・	りん原子またはりん含有基の導入［２］	Introducing phosphorus atoms or phosphorus-containing groups	1124
+C08F   8/42	・	金属原子または金属含有基の導入［２］	Introducing metal atoms or metal-containing groups	4792
+C08F   8/44	・	金属塩またはアンモニウム塩の製造［２］	Preparation of metal salts or ammonium salts	3759
+C08F   8/46	・	不飽和ジカルボン酸またはその無水物との反応，例．マレイン化［２］	Reaction with unsaturated dicarboxylic acids or anhydrides thereof, e.g. maleinisation	1825
+C08F   8/48	・	異性化；環化［２］	Isomerisation; Cyclisation	1179
+C08F   8/50	・	部分解重合［２］	Partial depolymerisation	1487
+C08F  10/00		１個の炭素−炭素二重結合を含有する不飽和脂肪族炭化水素の単独重合体または共重合体［２］	Homopolymers or copolymers of unsaturated aliphatic hydrocarbons having only one carbon-to-carbon double bond	24649
+C08F  10/02	・	エテン［２］	Ethene	7793
+C08F  10/04	・	３〜４個の炭素原子を含有する単量体［２］	Monomers containing three or four carbon atoms	203
+C08F  10/06	・・	プロペン［２］	Propene	4343
+C08F  10/08	・・	ブテン［２］	Butenes	508
+C08F  10/10	・・・	イソブテン［２］	Isobutene	789
+C08F  10/14	・	５個以上の炭素原子を含有する単量体［２］	Monomers containing five or more carbon atoms	1141
+C08F  12/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが芳香族炭素環によって停止されている化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an aromatic carbocyclic ring	3017
+C08F  12/02	・	１個の不飽和脂肪族基を含有する単量体［２］	Monomers containing only one unsaturated aliphatic radical	258
+C08F  12/04	・・	１個の環を含有するもの［２］	containing one ring	658
+C08F  12/06	・・・	炭化水素［２］	Hydrocarbons	317
+C08F  12/08	・・・・	スチレン［２］	Styrene	3004
+C08F  12/12	・・・・	環に結合した，分岐した不飽和脂肪族基またはアルキル基を含有するもの［２］	containing a branched unsaturated aliphatic radical or an alkyl radical attached to the ring	347
+C08F  12/14	・・・	異種原子または異種原子含有基で置換されたもの［２］	substituted by hetero atoms or groups containing hetero atoms	442
+C08F  12/16	・・・・	ハロゲン［２］	Halogens	160
+C08F  12/18	・・・・・	塩素［２］	Chlorine	93
+C08F  12/20	・・・・・	ふっ素［２］	Fluorine	282
+C08F  12/22	・・・・	酸素［２］	Oxygen	713
+C08F  12/24	・・・・・	フェノールまたはアルコール［２］	Phenols or alcohols	454
+C08F  12/26	・・・・	窒素［２］	Nitrogen	494
+C08F  12/28	・・・・・	アミン［２］	Amines	239
+C08F  12/30	・・・・	いおう［２］	Sulfur	624
+C08F  12/32	・・	２個以上の環を含有するもの［２］	containing two or more rings	487
+C08F  12/34	・	２個以上の不飽和脂肪族基をもつ単量体［２］	Monomers containing two or more unsaturated aliphatic radicals	423
+C08F  12/36	・・	ジビニルベンゼン［２］	Divinylbenzene	177
+C08F  14/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがハロゲンによって停止されている化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a halogen	3128
+C08F  14/02	・	塩素を含有する単量体［２］	Monomers containing chlorine	128
+C08F  14/04	・・	２個の炭素原子をもつもの［２］	Monomers containing two carbon atoms	61
+C08F  14/06	・・・	塩化ビニル［２］	Vinyl chloride	4463
+C08F  14/08	・・・	塩化ビニリデン［２］	Vinylidene chloride	203
+C08F  14/12	・・・	１，２―ジクロロエテン［２］	1, 2-Dichloroethene	8
+C08F  14/14	・・	３個以上の炭素原子をもつもの［２］	Monomers containing three or more carbon atoms	62
+C08F  14/16	・	臭素またはよう素を含有する単量体［２］	Monomers containing bromine or iodine	81
+C08F  14/18	・	ふっ素を含有する単量体［２］	Monomers containing fluorine	2026
+C08F  14/20	・・	ふっ化ビニル［２］	Vinyl fluoride	143
+C08F  14/22	・・	ふっ化ビニリデン［２］	Vinylidene fluoride	718
+C08F  14/24	・・	トリフルオロクロロエテン［２］	Trifluorochloroethene	244
+C08F  14/26	・・	テトラフルオロエテン［２］	Tetrafluoroethene	890
+C08F  14/28	・・	ヘキサフルオロプロペン［２］	Hexafluoropropene	157
+C08F  16/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがアルコール，エーテル，アルデヒド，ケトン，アセタールまたはケタール基によって停止されている化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an alcohol, ether, aldehydo, ketonic, acetal, or ketal radical	979
+C08F  16/02	・	アルコール基による［２］	by an alcohol radical	670
+C08F  16/04	・・	非環式化合物［２］	Acyclic compounds	62
+C08F  16/06	・・・	ポリビニルアルコール［２］	Polyvinyl alcohol	1694
+C08F  16/08	・・・	アリルアルコール［２］	Allyl alcohol	76
+C08F  16/10	・・	炭素環式化合物［２］	Carbocyclic compounds	21
+C08F  16/12	・	エーテル基による［２］	by an ether radical	812
+C08F  16/14	・・	１個の不飽和脂肪族基をもつもの［２］	Monomers containing only one unsaturated aliphatic radical	929
+C08F  16/16	・・・	エーテル酸素以外の異種原子を含有しないもの［２］	Monomers containing no hetero atoms other than the ether oxygen	354
+C08F  16/18	・・・・	非環式化合物［２］	Acyclic compounds	86
+C08F  16/20	・・・・・	不飽和脂肪族基中に３個以上の炭素原子をもつもの［２］	Monomers containing three or more carbon atoms in the unsaturated aliphatic radical	20
+C08F  16/22	・・・・	炭素環式化合物［２］	Carbocyclic compounds	49
+C08F  16/24	・・・	ハロゲンを含有するもの［２］	Monomers containing halogen	580
+C08F  16/26	・・・	エーテル酸素以外の酸素を含有するもの［２］	Monomers containing oxygen atoms in addition to the ether oxygen	292
+C08F  16/28	・・・	窒素を含有するもの［２］	Monomers containing nitrogen	267
+C08F  16/30	・・・	いおうを含有するもの［２］	Monomers containing sulfur	162
+C08F  16/32	・・	２個以上の不飽和脂肪族基をもつもの［２］	Monomers containing two or more unsaturated aliphatic radicals	502
+C08F  16/34	・	アルデヒド基による［２］	by an aldehydo radical	136
+C08F  16/36	・	ケトン基による［２］	by a ketonic radical	274
+C08F  16/38	・	アセタールまたはケタール基による［２］	by an acetal or ketal radical	660
+C08F  18/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが飽和カルボン酸，炭酸またはハロぎ酸のアシロキシ基によって停止されている化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an acyloxy radical of a saturated carboxylic acid, of carbonic acid, or of a haloformic acid	860
+C08F  18/02	・	モノカルボン酸のエステル［２］	Esters of monocarboxylic acids	410
+C08F  18/04	・・	ビニルエステル［２］	Vinyl esters	568
+C08F  18/06	・・・	ぎ酸ビニル［２］	Vinyl formate	11
+C08F  18/08	・・・	酢酸ビニル［２］	Vinyl acetate	959
+C08F  18/10	・・・	３個以上の炭素原子を含有するモノカルボン酸のエステル［２］	of monocarboxylic acids containing three or more carbon atoms	99
+C08F  18/12	・・	３個以上の炭素原子を含有する不飽和アルコールとのもの［２］	with unsaturated alcohols containing three or more carbon atoms	150
+C08F  18/14	・	ポリカルボン酸のエステル［２］	Esters of polycarboxylic acids	276
+C08F  18/16	・・	３個以上の炭素原子を含有する不飽和アルコールとのもの［２］	with alcohols containing three or more carbon atoms	115
+C08F  18/18	・・・	フタル酸ジアリル［２］	Diallyl phthalate	263
+C08F  18/20	・	ハロゲンを含有するエステル［２］	Esters containing halogen	266
+C08F  18/22	・	窒素を含有するエステル［２］	Esters containing nitrogen	132
+C08F  18/24	・	炭酸またはハロぎ酸のエステル［２］	Esters of carbonic or haloformic acids	245
+C08F  20/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，そのうちただ１つの脂肪族基がただ１つのカルボキシル基によって停止されている化合物，その塩，無水物，エステル，アミド，イミドまたはそのニトリルの単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and only one being terminated by only one carboxyl radical or a salt, anhydride, ester, amide, imide, or nitrile thereof	7161
+C08F  20/02	・	９個以下の炭素原子をもつモノカルボン酸；その誘導体［２］	Monocarboxylic acids having less than ten carbon atoms; Derivatives thereof	939
+C08F  20/04	・・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	671
+C08F  20/06	・・・	アクリル酸；メタクリル酸；それらの金属塩またはアンモニウム塩［２］	Acrylic acid; Methacrylic acid; Metal salts or ammonium salts thereof	2984
+C08F  20/08	・・	無水物［２］	Anhydrides	172
+C08F  20/10	・・	エステル［２］	Esters	6549
+C08F  20/12	・・・	一価のアルコールまたはフェノールのエステル［２］	of monohydric alcohols or phenols	1281
+C08F  20/14	・・・・	メチルエステル［２］	Methyl esters	1052
+C08F  20/16	・・・・	フェノールまたは２個以上の炭素原子を含有するアルコールのエステル［２］	of phenols or of alcohols containing two or more carbon atoms	241
+C08F  20/18	・・・・・	アクリル酸またはメタクリル酸との［２］	with acrylic or methacrylic acids	2509
+C08F  20/20	・・・	多価のアルコールまたはフェノールのエステル［２］	of polyhydric alcohols or phenols	1175
+C08F  20/22	・・・	ハロゲンを含有するエステル［２］	Esters containing halogen	1794
+C08F  20/24	・・・・	パーハロアルキル基を含有するもの［２］	containing perhaloalkyl radicals	340
+C08F  20/26	・・・	カルボキシ酸素以外に酸素を含有するエステル［２］	Esters containing oxygen in addition to the carboxy oxygen	3042
+C08F  20/28	・・・・	アルコール残基中に芳香族環を含有しないもの［２］	containing no aromatic rings in the alcohol moiety	2049
+C08F  20/30	・・・・	アルコール残基中に芳香族環を含有するもの［２］	containing aromatic rings in the alcohol moiety	1426
+C08F  20/32	・・・・	エポキシ基を含有するもの［２］	containing epoxy radicals	914
+C08F  20/34	・・・	窒素を含有するエステル［２］	Esters containing nitrogen	3175
+C08F  20/36	・・・・	カルボキシ酸素以外に酸素を含有するもの［２］	containing oxygen in addition to the carboxy oxygen	1782
+C08F  20/38	・・・	いおうを含有するエステル［２］	Esters containing sulfur	1656
+C08F  20/40	・・・	不飽和アルコールのエステル［２］	Esters of unsaturated alcohols	215
+C08F  20/42	・・	ニトリル［２］	Nitriles	559
+C08F  20/44	・・・	アクリロニトリル［２］	Acrylonitrile	1180
+C08F  20/50	・・・	４個以上の炭素原子を含有するもの［２］	containing four or more carbon atoms	122
+C08F  20/52	・・	アミドまたはイミド［２］	Amides or imides	2457
+C08F  20/54	・・・	アミド［２］	Amides	738
+C08F  20/56	・・・・	アクリルアミド；メタクリルアミド［２］	Acrylamide; Methacrylamide	1971
+C08F  20/58	・・・・	カルボンアミド酸素以外に酸素を含有するもの［２］	containing oxygen in addition to the carbonamido oxygen	1072
+C08F  20/60	・・・・	カルボンアミド窒素以外に窒素を含有するもの［２］	containing nitrogen in addition to the carbonamido nitrogen	963
+C08F  20/62	・	１０個以上の炭素原子をもったモノカルボン酸；その誘導体［２］	Monocarboxylic acids having ten or more carbon atoms; Derivatives thereof	796
+C08F  20/64	・・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	72
+C08F  20/66	・・	無水物［２］	Anhydrides	10
+C08F  20/68	・・	エステル［２］	Esters	136
+C08F  20/70	・・	ニトリル；アミド；イミド［２］	Nitriles; Amides; Imides	54
+C08F  22/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがカルボキシル基によって停止されており，そして分子中に少なくとも１個の他のカルボキシル基を含有する化合物，その塩，無水物，エステル，アミド，イミドまたはそのニトリルの単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a carboxyl radical and containing at least one other carboxyl radical in the molecule; Salts, anhydrides, esters, amides, imides, or nitriles thereof	667
+C08F  22/02	・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	304
+C08F  22/04	・	無水物，例．環状無水物［２］	Anhydrides, e.g. cyclic anhydrides	370
+C08F  22/06	・・	無水マレイン酸［２］	Maleic anhydride	222
+C08F  22/10	・	エステル［２］	Esters	758
+C08F  22/12	・・	フェノールまたは飽和アルコールのエステル［２］	of phenols or saturated alcohols	49
+C08F  22/14	・・・	遊離カルボキシル基を含有しないエステル［２］	Esters having no free carboxylic acid groups	216
+C08F  22/16	・・・	遊離カルボキシル基を含有するエステル［２］	Esters having free carboxylic acid groups	44
+C08F  22/18	・・・	ハロゲンを含有するエステル［２］	Esters containing halogen	78
+C08F  22/20	・・・	カルボキシ酸素以外に酸素を含有するエステル［２］	Esters containing oxygen in addition to the carboxy oxygen	343
+C08F  22/22	・・・	窒素を含有するエステル［２］	Esters containing nitrogen	196
+C08F  22/24	・・・	いおうを含有するエステル［２］	Esters containing sulfur	84
+C08F  22/26	・・	不飽和アルコールのエステル［２］	of unsaturated alcohols	70
+C08F  22/28	・・・	マレイン酸ジアリル［２］	Diallyl maleate	86
+C08F  22/30	・	ニトリル［２］	Nitriles	141
+C08F  22/32	・・	α−シアノアクリル酸；そのエステル［２］	Alpha-cyano-acrylic acid; Esters thereof	264
+C08F  22/34	・・	シアン化ビニリデン［２］	Vinylidene cyanide	66
+C08F  22/36	・	アミドまたはイミド［２］	Amides or imides	929
+C08F  22/38	・・	アミド［２］	Amides	208
+C08F  22/40	・・	イミド，例．環状イミド［２］	Imides, e.g. cyclic imides	709
+C08F  24/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが酸素含有複素環によって停止されている化合物の単独重合体または共重合体（多官能性酸の環状エステルＣ０８Ｆ１８／００；不飽和酸の環状無水物Ｃ０８Ｆ２０／００，Ｃ０８Ｆ２２／００）［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a heterocyclic ring containing oxygen(cyclic esters of polyfunctional acids C08F18/00; cyclic anhydrides of unsaturated acids C08F20/00, C08F22/00)	747
+C08F  26/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが窒素に対する単結合または二重結合によってまたは窒素含有複素環によって停止されている化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a single or double bond to nitrogen or by a heterocyclic ring containing nitrogen	1484
+C08F  26/02	・	窒素に対する単結合または二重結合によって停止されている単量体［２］	by a single or double bond to nitrogen	1102
+C08F  26/04	・・	ジアリルアミン［２］	Diallylamine	169
+C08F  26/06	・	窒素含有複素環によって停止されている単量体［２］	by a heterocyclic ring containing nitrogen	1529
+C08F  26/08	・・	Ｎ―ビニルピロリジン［２］	N-Vinyl-pyrrolidine	75
+C08F  26/10	・・	Ｎ―ビニルピロリドン［２］	N-Vinyl-pyrrolidone	667
+C08F  26/12	・・	Ｎ―ビニルカルバゾール［２］	N-Vinyl-carbazole	191
+C08F  28/00		ただ１つの炭素−炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがいおうに対する結合またはいおう含有複素環によって停止されている化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a bond to sulfur or by a heterocyclic ring containing sulfur	1000
+C08F  28/02	・	いおうに対する結合によって停止されている単量体［２］	by a bond to sulfur	420
+C08F  28/04	・・	チオエーテル［２］	Thioethers	82
+C08F  28/06	・	いおう含有複素環によって停止されている単量体［２］	by a heterocyclic ring containing sulfur	277
+C08F  30/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，りん，セレン，テルルまたは金属を含有する化合物の単独重合体または共重合体［２００６．０１］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and containing phosphorus, selenium, tellurium or a metal 	634
+C08F  30/02	・	りんを含有する単量体［２］	containing phosphorus	1391
+C08F  30/04	・	金属を含有する単量体［２］	containing a metal	416
+C08F  30/06	・・	ほう素［２］	containing boron	124
+C08F  30/08	・・	けい素［２］	containing silicon	2084
+C08F  30/10	・・	ゲルマニウム［２］	containing germanium	10
+C08F  32/00		炭素環系に１個以上の炭素−炭素二重結合を含有し，側鎖に不飽和脂肪族基をもたない環式化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain, and having one or more carbon-to-carbon double bonds in a carbocyclic ring system	1237
+C08F  32/02	・	縮合環をもたない単量体［２］	having no condensed rings	78
+C08F  32/04	・・	１個の炭素―炭素二重結合を含有するもの［２］	having one carbon-to-carbon double bond	250
+C08F  32/06	・・	２個以上の炭素―炭素二重結合を含有するもの［２］	having two or more carbon-to-carbon double bonds	131
+C08F  32/08	・	縮合環をもつ単量体［２］	having condensed rings	900
+C08F  34/00		複素環中に１個以上の炭素−炭素二重結合を含有し，側鎖に不飽和脂肪族基をもたない環式化合物の単独重合体または共重合体（多官能性酸の環状エステルＣ０８Ｆ１８／００；環状無水物またはイミドＣ０８Ｆ２２／００）［２］	Homopolymers or copolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain and having one or more carbon-to-carbon double bonds in a heterocyclic ring(cyclic esters of polyfunctional acids C08F18/00; cyclic anhydrides or imides C08F22/00)	271
+C08F  34/02	・	環中に酸素を含有する単量体［２］	in a ring containing oxygen	232
+C08F  34/04	・	環中にいおうを含有する単量体［２］	in a ring containing sulfur	51
+C08F  36/00		１個以上の不飽和脂肪族基をもち，その少なくとも１個が２個以上の炭素−炭素二重結合を含有する化合物の単独重合体または共重合体（Ｃ０８Ｆ３２／００が優先）［２］	Homopolymers or copolymers of compounds having one or more unsaturated aliphatic radicals, at least one having two or more carbon-to-carbon double bonds(C08F32/00 takes precedence)	1984
+C08F  36/02	・	不飽和脂肪族基が２個の炭素―炭素二重結合を含有する単量体［２］	the radical having only two carbon-to-carbon double bonds	269
+C08F  36/04	・・	共役系［２］	conjugated	5046
+C08F  36/06	・・・	ブタジエン［２］	Butadiene	1480
+C08F  36/08	・・・	イソプレン［２］	Isoprene	483
+C08F  36/14	・・・	炭素と水素以外の元素を含有するもの［２］	containing elements other than carbon and hydrogen	204
+C08F  36/16	・・・・	ハロゲン［２］	containing halogen	372
+C08F  36/18	・・・・・	塩素［２］	containing chlorine	433
+C08F  36/20	・・	非共役系［２］	unconjugated	471
+C08F  36/22	・	不飽和脂肪族基が３個以上の炭素―炭素二重結合を含有する単量体［２］	the radical having three or more carbon-to-carbon double bonds	109
+C08F  38/00		１個以上の炭素−炭素三重結合を含有する化合物の単独重合体または共重合体［２］	Homopolymers or copolymers of compounds having one or more carbon-to-carbon triple bonds	1119
+C08F  38/02	・	アセチレン［２］	Acetylene	298
+C08F  38/04	・	ビニルアセチレン［２］	Vinylacetylene	11
+C08F 110/00		ただ１つの炭素―炭素二重結合を含有する不飽和脂肪族炭化水素の単独重合体［２］	Homopolymers of unsaturated aliphatic hydrocarbons having only one carbon-to-carbon double bond	569
+C08F 110/02	・	エテン［２］	Ethene	5415
+C08F 110/04	・	３〜４個の炭素原子をもつ単量体［２］	Monomers containing three or four carbon atoms	45
+C08F 110/06	・・	プロペン［２］	Propene	4154
+C08F 110/08	・・	ブテン［２］	Butenes	278
+C08F 110/10	・・・	イソブテン［２］	Isobutene	486
+C08F 110/14	・	５個以上の炭素原子をもつ単量体［２］	Monomers containing five or more carbon atoms	506
+C08F 112/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが芳香族炭素環によって停止されている化合物の単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an aromatic carbocyclic ring	56
+C08F 112/02	・	１個の不飽和脂肪族基をもつ単量体［２］	Monomers containing only one unsaturated aliphatic radical	29
+C08F 112/04	・・	１個の環をもつもの［２］	containing one ring	20
+C08F 112/06	・・・	炭化水素［２］	Hydrocarbons	52
+C08F 112/08	・・・・	スチレン［２］	Styrene	1817
+C08F 112/12	・・・・	環に結合した，分岐した不飽和脂肪族基またはアルキル基を含有するもの［２］	containing a branched unsaturated aliphatic radical or an alkyl radical attached to the ring	80
+C08F 112/14	・・・	異種原子または異種原子含有基で置換されたもの［２］	substituted by hetero atoms or groups containing hetero atoms	442
+C08F 112/32	・・	２個以上の環をもつもの［２］	containing two or more rings	111
+C08F 112/34	・	２個以上の不飽和脂肪族基を含有する単量体［２］	Monomers containing two or more unsaturated aliphatic radicals	66
+C08F 112/36	・・	ジビニルベンゼン［２］	Divinylbenzene	99
+C08F 114/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがハロゲンによって停止されている化合物の単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a halogen	48
+C08F 114/02	・	塩素を含有する単量体［２］	Monomers containing chlorine	18
+C08F 114/04	・・	２個の炭素原子を含有する単量体［２］	Monomers containing two carbon atoms	7
+C08F 114/06	・・・	塩化ビニル［２］	Vinyl chloride	1082
+C08F 114/08	・・・	塩化ビニリデン［２］	Vinylidene chloride	26
+C08F 114/12	・・・	１，２―ジクロロエテン［２］	1,2-Dichloroethene	1
+C08F 114/14	・・	３個以上の炭素原子を含有する単量体［２］	Monomers containing three or more carbon atoms	26
+C08F 114/16	・	臭素またはよう素を含有する単量体［２］	Monomers containing bromine or iodine	17
+C08F 114/18	・	ふっ素を含有する単量体［２］	Monomers containing fluorine	217
+C08F 114/20	・・	ふっ化ビニル［２］	Vinyl fluoride	25
+C08F 114/22	・・	ふっ化ビニリデン［２］	Vinylidene fluoride	218
+C08F 114/24	・・	トリフルオロクロロエテン［２］	Trifluorochloroethene	49
+C08F 114/26	・・	テトラフルオロエテン［２］	Tetrafluoroethene	353
+C08F 114/28	・・	ヘキサフルオロプロペン［２］	Hexafluoropropene	15
+C08F 116/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがアルコール，エーテル，アルデヒド，ケトン，アセタールまたはケタール基によって停止されている化合物の単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an alcohol, ether, aldehydo, ketonic, acetal, or ketal radical	17
+C08F 116/02	・	アルコール基によるもの［２］	by an alcohol radical	12
+C08F 116/04	・・	非環式化合物［２］	Acyclic compounds	15
+C08F 116/06	・・・	ビニルアルコール［２］	Polyvinyl alcohol	539
+C08F 116/08	・・・	アリルアルコール［２］	Allyl alcohol	4
+C08F 116/10	・・	炭素環式化合物［２］	Carbocyclic compounds	3
+C08F 116/12	・	エーテル基によるもの［２］	by an ether radical	121
+C08F 116/14	・・	１個の不飽和脂肪族基をもつもの［２］	Monomers containing only one unsaturated aliphatic radical	97
+C08F 116/16	・・・	エーテル酸素以外の異種原子を含有しない単量体［２］	Monomers containing no hetero atoms other than the ether oxygen	25
+C08F 116/18	・・・・	非環式化合物［２］	Acyclic compounds	38
+C08F 116/20	・・・・・	不飽和脂肪族基中に３個以上の炭素原子を含有する単量体［２］	Monomers containing three or more carbon atoms in the unsaturated aliphatic radical	15
+C08F 116/34	・	アルデヒド基によるもの［２］	by an aldehydo radical	34
+C08F 116/36	・	ケトン基によるもの［２］	by a ketonic radical	37
+C08F 116/38	・	アセタールまたはケタール基によるもの［２］	by an acetal or ketal radical	70
+C08F 118/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが飽和カルボン酸，炭酸またはハロぎ酸のアシロキシ基によって停止されている化合物の単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an acyloxy radical of a saturated carboxylic acid, of carbonic acid, or of a haloformic acid	84
+C08F 118/02	・	モノカルボン酸のエステル［２］	Esters of monocarboxylic acids	346
+C08F 118/04	・・	ビニルエステル［２］	Vinyl esters	40
+C08F 118/06	・・・	ぎ酸ビニル［２］	Vinyl formate	1
+C08F 118/08	・・・	酢酸ビニル［２］	Vinyl acetate	456
+C08F 118/10	・・・	３個以上の炭素原子を含有するモノカルボン酸の［２］	of monocarboxylic acids containing three or more carbon atoms	28
+C08F 118/12	・・	３個以上の炭素原子を含有する不飽和アルコールとのエステル［２］	with unsaturated alcohols containing three or more carbon atoms	19
+C08F 118/14	・	ポリカルボン酸のエステル［２］	Esters of polycarboxylic acids	20
+C08F 118/16	・・	３個以上の炭素原子を含有するアルコールとのエステル［２］	with alcohols containing three or more carbon atoms	32
+C08F 118/18	・・・	フタル酸ジアリル［２］	Diallyl phthalate	35
+C08F 120/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，そのうちのただ１つの脂肪族基がただ１つのカルボキシル基によって停止されている化合物その塩，無水物，エステル，アミド，イミドまたはそのニトリルの単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and only one being terminated by only one carboxyl radical or a salt, anhydride, ester, amide, imide, or nitrile thereof	130
+C08F 120/02	・	９個以下の炭素原子をもつモノカルボン酸；その誘導体［２］	Monocarboxylic acids having less than ten carbon atoms; Derivatives thereof	63
+C08F 120/04	・・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	335
+C08F 120/06	・・・	アクリル酸；メタクリル酸；それらの金属塩またはアンモニウム塩［２］	Acrylic acid; Methacrylic acid; Metal salts or ammonium salts thereof	1132
+C08F 120/08	・・	無水物［２］	Anhydrides	26
+C08F 120/10	・・	エステル［２］	Esters	300
+C08F 120/12	・・・	一価のアルコールまたはフェノールの［２］	of monohydric alcohols or phenols	65
+C08F 120/14	・・・・	メチルエステル［２］	Methyl esters	1225
+C08F 120/16	・・・・	フェノールまたは２個以上の炭素原子を含有するアルコールのエステル［２］	of phenols or of alcohols containing two or more carbon atoms	33
+C08F 120/18	・・・・・	アクリル酸またはメタクリル酸との［２］	with acrylic or methacrylic acids	721
+C08F 120/20	・・・	多価アルコールまたはフェノールの［２］	of polyhydric alcohols or phenols	152
+C08F 120/22	・・・	ハロゲンを含有するエステル［２］	Esters containing halogen	122
+C08F 120/24	・・・・	パーハロアルキル基を含有するもの［２］	containing perhaloalkyl radicals	85
+C08F 120/26	・・・	カルボキシ酸素以外に酸素を含有するエステル［２］	Esters containing oxygen in addition to the carboxy oxygen	61
+C08F 120/28	・・・・	アルコール残基中に芳香族環をもたないもの［２］	containing no aromatic rings in the alcohol moiety	284
+C08F 120/30	・・・・	アルコール残基中に芳香族環をもつもの［２］	containing aromatic rings in the alcohol moiety	123
+C08F 120/32	・・・・	エポキシ基をもつもの［２］	containing epoxy radicals	163
+C08F 120/34	・・・	窒素を含有するエステル［２］	Esters containing nitrogen	351
+C08F 120/36	・・・・	カルボキシ酸素以外に酸素を含有するもの［２］	containing oxygen in addition to the carboxy oxygen	280
+C08F 120/38	・・・	いおうを含有するエステル［２］	Esters containing sulfur	122
+C08F 120/40	・・・	不飽和アルコールのエステル［２］	Esters of unsaturated alcohols	49
+C08F 120/42	・・	ニトリル［２］	Nitriles	25
+C08F 120/44	・・・	アクリロニトリル［２］	Acrylonitrile	296
+C08F 120/50	・・・	４個以上の炭素原子を含有するもの［２］	containing four or more carbon atoms	8
+C08F 120/52	・・	アミドまたはイミド［２］	Amides or imides	21
+C08F 120/54	・・・	アミド［２］	Amides	358
+C08F 120/56	・・・・	アクリルアミド；メタクリルアミド［２］	Acrylamide; Methacrylamide	811
+C08F 120/58	・・・・	カルボンアミド酸素以外に酸素を含有するもの［２］	containing oxygen in addition to the carbonamido oxygen	211
+C08F 120/60	・・・・	カルボンアミド窒素以外に窒素を含有するもの［２］	containing nitrogen in addition to the carbonamido nitrogen	124
+C08F 120/62	・	１０個以上の炭素原子をもつモノカルボン酸；その誘導体［２］	Monocarboxylic acids having ten or more carbon atoms; Derivatives thereof	12
+C08F 120/64	・・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	5
+C08F 120/66	・・	無水物［２］	Anhydrides	3
+C08F 120/68	・・	エステル［２］	Esters	44
+C08F 120/70	・・	ニトリル；アミド；イミド［２］	Nitriles; Amides; Imides	15
+C08F 122/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがカルボキシル基によって停止されており，そして分子中に少なくとも１個の他のカルボキシル基を含有する化合物，その塩，無水物，エステル，アミド，イミドまたはそのニトリルの単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a carboxyl radical and containing at least one other carboxyl radical in the molecule; Salts, anhydrides, esters, amides, imides, or nitriles thereof	20
+C08F 122/02	・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	77
+C08F 122/04	・	無水物，例．環状無水物［２］	Anhydrides, e.g. cyclic anhydrides	28
+C08F 122/06	・・	無水マレイン酸［２］	Maleic anhydride	75
+C08F 122/10	・	エステル［２］	Esters	173
+C08F 122/12	・・	フェノールまたは飽和アルコールの［２］	of phenols or saturated alcohols	9
+C08F 122/14	・・・	遊離カルボキシル基を含有しないエステル［２］	Esters having no free carboxylic acid groups	191
+C08F 122/16	・・・	遊離カルボキシル基を含有するエステル［２］	Esters having free carboxylic acid groups	6
+C08F 122/18	・・・	ハロゲンを含有するエステル［２］	Esters containing halogen	15
+C08F 122/20	・・・	カルボキシ酸素以外に酸素を含有するエステル［２］	Esters containing oxygen in addition to the carboxy oxygen	187
+C08F 122/22	・・・	窒素を含有するエステル［２］	Esters containing nitrogen	55
+C08F 122/24	・・・	いおうを含有するエステル［２］	Esters containing sulfur	25
+C08F 122/26	・・	不飽和アルコールの［２］	of unsaturated alcohols	25
+C08F 122/28	・・・	マレイン酸ジアリル［２］	Diallyl maleate	2
+C08F 122/30	・	ニトリル［２］	Nitriles	9
+C08F 122/32	・・	α−シアノアクリル酸；そのエステル［２］	Alpha-cyano-acrylic acid; Esters thereof	48
+C08F 122/34	・・	シアン化ビニリデン［２］	Vinylidene cyanide	
+C08F 122/36	・	アミドまたはイミド［２］	Amides or imides	12
+C08F 122/38	・・	アミド［２］	Amides	90
+C08F 122/40	・・	イミド，例．環状イミド［２］	Imides, e.g. cyclic imides	80
+C08F 124/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが酸素含有複素環によって停止されている化合物の単独重合体（多官能性の酸の環状エステルＣ０８Ｆ１１８／００；不飽和酸の環状無水物Ｃ０８Ｆ１２０／００，Ｃ０８Ｆ１２２／００）［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a heterocyclic ring containing oxygen(cyclic esters of polyfunctional acids C08F118/00; cyclic anhydrides of unsaturated acids C08F120/00, C08F122/00)	137
+C08F 126/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが窒素に対する単結合または二重結合によってまたは窒素含有複素環によって停止されている化合物の単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a single or double bond to nitrogen or by a heterocyclic ring containing nitrogen	47
+C08F 126/02	・	窒素に対する単結合または二重結合によって停止されている単量体［２］	by a single or double bond to nitrogen	290
+C08F 126/04	・・	ジアリルアミン［２］	Diallylamine	51
+C08F 126/06	・	窒素含有複素環によって停止されている単量体［２］	by a heterocyclic ring containing nitrogen	479
+C08F 126/08	・・	Ｎ―ビニルピロリジン［２］	N-Vinyl-pyrrolidine	15
+C08F 126/10	・・	Ｎ―ビニルピロリドン［２］	N-Vinyl-pyrrolidone	241
+C08F 126/12	・・	Ｎ―ビニルカルバゾール［２］	N-Vinyl-carbazole	26
+C08F 128/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがいおうに対する結合またはいおう含有複素環によって停止されている化合物の単独重合体［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon bond, and at least one being terminated by a bond to sulfur or by a heterocyclic ring containing sulfur	8
+C08F 128/02	・	いおうに対する結合によって停止されている単量体［２］	by a bond to sulfur	69
+C08F 128/04	・・	チオエーテル［２］	Thioethers	13
+C08F 128/06	・	いおう含有複素環によって停止されている単量体［２］	by a heterocyclic ring containing sulfur	53
+C08F 130/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，りん，セレン，テルルまたは金属を含有する化合物の単独重合体［２００６．０１］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and containing phosphorus, selenium, tellurium or a metal	4
+C08F 130/02	・	りんを含有する単量体［２］	containing phosphorus	215
+C08F 130/04	・	金属を含有する単量体［２］	containing a metal	56
+C08F 130/06	・・	ほう素［２］	containing boron	42
+C08F 130/08	・・	けい素［２］	containing silicon	278
+C08F 130/10	・・	ゲルマニウム［２］	containing germanium	2
+C08F 132/00		炭素環系に１個以上の炭素―炭素二重結合を含有し，側鎖に不飽和脂肪族基をもたない環式化合物の単独重合体［２］	Homopolymers of cyclic compounds containing no unsaturated aliphatic radicals in a side chain, and having one or more carbon-to-carbon double bonds in a carbocyclic ring system	42
+C08F 132/02	・	縮合環をもたない単量体［２］	having no condensed rings	15
+C08F 132/04	・・	１個の炭素―炭素二重結合を含有するもの［２］	having one carbon-to-carbon double bond	76
+C08F 132/06	・・	２個以上の炭素―炭素二重結合を含有するもの［２］	having two or more carbon-to-carbon double bonds	76
+C08F 132/08	・	縮合環をもつもの［２］	having condensed rings	369
+C08F 134/00		複素環中に１個以上の炭素―炭素二重結合を含有し，側鎖に不飽和脂肪族基をもたない環式化合物の単独重合体［２］	Homopolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain and having one or more carbon-to-carbon double bonds in a heterocyclic ring(cyclic esters of polyfunctional acids C08F118/00; cyclic anhydrides or imides C08F122/00)	26
+C08F 134/02	・	環中に酸素を含有する単量体［２］	in a ring containing oxygen	42
+C08F 134/04	・	環中に硫黄を含有する単量体［２］	in a ring containing sulfur	30
+C08F 136/00		１個以上の不飽和脂肪族基をもち，その少なくとも１個が２個以上の炭素―炭素二重結合を含有する化合物の単独重合体（Ｃ０８Ｆ１３２／００が優先）［２］	Homopolymers of compounds having one or more unsaturated aliphatic radicals, at least one having two or more carbon-to-carbon double bonds(C08F132/00 takes precedence)	194
+C08F 136/02	・	不飽和脂肪族基が２個の炭素―炭素二重結合を含有する単量体［２］	the radical having only two carbon-to-carbon double bonds	41
+C08F 136/04	・・	共役系［２］	conjugated	481
+C08F 136/06	・・・	ブタジエン［２］	Butadiene	1958
+C08F 136/08	・・・	イソプレン［２］	Isoprene	889
+C08F 136/14	・・・	炭素と水素以外の元素を含有するもの［２］	containing elements other than carbon and hydrogen	84
+C08F 136/16	・・・・	ハロゲン［２］	containing halogen	27
+C08F 136/18	・・・・・	塩素［２］	containing chlorine	138
+C08F 136/20	・・	非共役系［２］	unconjugated	119
+C08F 136/22	・	不飽和脂肪族基が３個以上の炭素―炭素二重結合を含有する単量体［２］	the radical having three or more carbon-to-carbon double bonds	66
+C08F 138/00		１個以上の炭素―炭素三重結合を含有する化合物の単独重合体［２］	Homopolymers of compounds having one or more carbon-to-carbon triple bonds	298
+C08F 138/02	・	アセチレン［２］	Acetylene	132
+C08F 138/04	・	ビニルアセチレン［２］	Vinylacetylene	8
+C08F 210/00		ただ１つの炭素―炭素二重結合を含有する不飽和脂肪族炭化水素の共重合体［２］	Copolymers of unsaturated aliphatic hydrocarbons having only one carbon-to-carbon double bond	4633
+C08F 210/02	・	エテン［２］	Ethene	6283
+C08F 210/04	・	３〜４個の炭素原子をもつ単量体［２］	Monomers containing three or four carbon atoms	171
+C08F 210/06	・・	プロペン［２］	Propene	3717
+C08F 210/08	・・	ブテン［２］	Butenes	1045
+C08F 210/10	・・・	イソブテン［２］	Isobutene	656
+C08F 210/12	・・・・	共役ジオレフィンとの，例．ブチルゴム［２］	with conjugated diolefins, e.g. butyl rubber	879
+C08F 210/14	・	５個以上の炭素原子を含有する単量体［２］	Monomers containing five or more carbon atoms	2268
+C08F 210/16	・	エテンとα―オレフィンとの共重合体，例．ＥＰゴム［２］	Copolymers of ethene with alpha-alkenes, e.g. EP rubbers	8617
+C08F 210/18	・・	非共役ジエンを含有するもの，例．ＥＰＴゴム［２］	with non-conjugated dienes, e.g. EPT rubbers	1340
+C08F 212/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが芳香族炭素環によって停止されている化合物の共重合体［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an aromatic carbocyclic ring	2367
+C08F 212/02	・	１個の不飽和脂肪族基をもつ単量体［２］	Monomers containing only one unsaturated aliphatic radical	440
+C08F 212/04	・・	１個の環を含有するもの［２］	containing one ring	784
+C08F 212/06	・・・	炭化水素［２］	Hydrocarbons	952
+C08F 212/08	・・・・	スチレン［２］	Styrene	16460
+C08F 212/10	・・・・・	ニトリルとの［２］	with nitriles	1247
+C08F 212/12	・・・・	環に結合した，分岐した不飽和脂肪族基またはアルキル基を含有するもの［２］	containing a branched unsaturated aliphatic radical or an alkyl radical attached to the ring	1461
+C08F 212/14	・・・	異種原子または異種原子含有基で置換されたもの［２］	substituted by hetero atoms or groups containing hetero atoms	5725
+C08F 212/32	・・	２個以上の環をもつもの［２］	containing two or more rings	775
+C08F 212/34	・	２個以上の不飽和脂肪族基をもつ単量体［２］	Monomers containing two or more unsaturated aliphatic radicals	602
+C08F 212/36	・・	ジビニルベンゼン［２］	Divinylbenzene	3433
+C08F 214/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがハロゲンによって停止されている化合物の共重合体［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a halogen	530
+C08F 214/02	・	塩素を含有する単量体［２］	Monomers containing chlorine	44
+C08F 214/04	・・	２個の炭素原子を含有する単量体［２］	Monomers containing two carbon atoms	75
+C08F 214/06	・・・	塩化ビニル［２］	Vinyl chloride	2087
+C08F 214/08	・・・	塩化ビニリデン［２］	Vinylidene chloride	857
+C08F 214/10	・・・・	ニトリルとの［２］	with nitriles	82
+C08F 214/12	・・・	１，２―ジクロロエテン［２］	1,2-Dichloroethene	19
+C08F 214/14	・・	３個以上の炭素原子を含有する単量体［２］	Monomers containing three or more carbon atoms	125
+C08F 214/16	・	臭素またはよう素を含有する単量体［２］	Monomers containing bromine or iodine	155
+C08F 214/18	・	ふっ素を含有する単量体［２］	Monomers containing fluorine	2445
+C08F 214/20	・・	ふっ化ビニル［２］	Vinyl fluoride	140
+C08F 214/22	・・	ふっ化ビニリデン［２］	Vinylidene fluoride	1413
+C08F 214/24	・・	トリフルオロクロロエテン［２］	Trifluorochloroethene	594
+C08F 214/26	・・	テトラフルオロエテン［２］	Tetrafluoroethene	2742
+C08F 214/28	・・	ヘキサフルオロプロペン［２］	Hexafluoropropene	722
+C08F 216/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがアルコール，エーテル，アルデヒド，ケトン，アセタールまたはケタール基によって停止されている化合物の共重合体［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an alcohol, ether, aldehydo, ketonic, acetal, or ketal radical	180
+C08F 216/02	・	アルコール基によるもの［２］	by an alcohol radical	116
+C08F 216/04	・・	非環式化合物［２］	Acyclic compounds	299
+C08F 216/06	・・・	ビニルアルコール［２］	Polyvinyl alcohol	1337
+C08F 216/08	・・・	アリルアルコール［２］	Allyl alcohol	236
+C08F 216/10	・・	炭素環式化合物［２］	Carbocyclic compounds	72
+C08F 216/12	・	エーテル基によるもの［２］	by an ether radical	1126
+C08F 216/14	・・	１個の不飽和脂肪族基を含有する単量体［２］	Monomers containing only one unsaturated aliphatic radical	3026
+C08F 216/16	・・・	エーテル酸素以外の異種原子を含有しない単量体［２］	Monomers containing no hetero atoms other than the ether oxygen	348
+C08F 216/18	・・・・	非環式化合物［２］	Acyclic compounds	425
+C08F 216/20	・・・・・	不飽和脂肪族基中に３個以上の炭素原子を含有する単量体［２］	Monomers containing three or more carbon atoms in the unsaturated aliphatic radical	175
+C08F 216/34	・	アルデヒド基によるもの［２］	by an aldehydo radical	124
+C08F 216/36	・	ケトン基によるもの［２］	by a ketonic radical	261
+C08F 216/38	・	アセタールまたはケタール基によるもの［２］	by an acetal or ketal radical	289
+C08F 218/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが飽和カルボン酸，炭酸またはハロぎ酸のアシロキシ基によって停止されている化合物の共重合体［２］	Copolymers having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by an acyloxy radical of a saturated carboxylic acid, of carbonic acid, or of a haloformic acid	999
+C08F 218/02	・	モノカルボン酸のエステル［２］	Esters of monocarboxylic acids	863
+C08F 218/04	・・	ビニルエステル［２］	Vinyl esters	1035
+C08F 218/06	・・・	ぎ酸ビニル［２］	Vinyl formate	37
+C08F 218/08	・・・	酢酸ビニル［２］	Vinyl acetate	4558
+C08F 218/10	・・・	３個以上の炭素原子をもつモノカルボン酸のエステル［２］	of monocarboxylic acids containing three or more carbon atoms	500
+C08F 218/12	・・	３個以上の炭素原子を含有する不飽和アルコールとのエステル［２］	with unsaturated alcohols containing three or more carbon atoms	224
+C08F 218/14	・	ポリカルボン酸のエステル［２］	Esters of polycarboxylic acids	124
+C08F 218/16	・・	３個以上の炭素原子を含有するアルコールとのエステル［２］	with alcohols containing three or more carbon atoms	213
+C08F 218/18	・・・	フタル酸ジアリル［２］	Diallyl phthalate	276
+C08F 220/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，そのうちのただ１つの脂肪族基がただ１つのカルボキシル基によって停止されている化合物．その塩，無水物，エステル，アミド，イミドまたはそのニトリルの共重合体［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and only one being terminated by only one carboxyl radical or a salt, anhydride, ester, amide, imide, or nitrile thereof	4154
+C08F 220/02	・	９個以下の炭素原子をもつモノカルボン酸；その誘導体［２］	Monocarboxylic acids having less than ten carbon atoms; Derivatives thereof	763
+C08F 220/04	・・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metals salts or ammonium salts thereof	4047
+C08F 220/06	・・・	アクリル酸；メタクリル酸；それらの金属塩またはアンモニウム塩［２］	Acrylic acid; Methacrylic acid; Metal salts or ammonium salts thereof	26490
+C08F 220/08	・・	無水物［２］	Anhydrides	263
+C08F 220/10	・・	エステル［２］	Esters	8057
+C08F 220/12	・・・	一価のアルコールまたはフェノールのエステル［２］	of monohydric alcohols or phenols	3374
+C08F 220/14	・・・・	メチルエステル［２］	Methyl esters	16860
+C08F 220/16	・・・・	フェノールまたは２個以上の炭素原子をもつアルコールのエステル［２］	of phenols or of alcohols containing two or more carbon atoms	610
+C08F 220/18	・・・・・	アクリル酸またはメタクリル酸との［２］	with acrylic or methacrylic acids	26979
+C08F 220/20	・・・	多価のアルコールまたはフェノールのエステル［２］	of polyhydric alcohols or phenols	7472
+C08F 220/22	・・・	ハロゲンを含有するエステル［２］	Esters containing halogen	3050
+C08F 220/24	・・・・	パーハロアルキル基を含有するもの［２］	containing perhaloalkyl radicals	2343
+C08F 220/26	・・・	カルボキシ酸素以外の酸素を含有するエステル［２］	Esters containing oxygen in addition to the carboxy oxygen	3138
+C08F 220/28	・・・・	アルコール残基中に芳香族環をもたないもの［２］	containing no aromatic rings in the alcohol moiety	10460
+C08F 220/30	・・・・	アルコール残基中に芳香族環をもつもの［２］	containing aromatic rings in the alcohol moiety	2870
+C08F 220/32	・・・・	エポキシ基をもつもの［２］	containing epoxy radicals	5184
+C08F 220/34	・・・	窒素を含有するエステル［２］	Esters containing nitrogen	6672
+C08F 220/36	・・・・	カルボキシ酸素以外に酸素を含有するもの［２］	containing oxygen in addition to the carboxy oxygen	3098
+C08F 220/38	・・・	いおうを含有するエステル［２］	Esters containing sulfur	2782
+C08F 220/40	・・・	不飽和アルコールのエステル［２］	Esters of unsaturated alcohols	932
+C08F 220/42	・・	ニトリル［２］	Nitriles	1251
+C08F 220/44	・・・	アクリロニトリル［２］	Acrylonitrile	4336
+C08F 220/46	・・・・	カルボン酸，スルホン酸またはそれらの塩との［２］	with carboxylic acids, sulfonic acids or salts thereof	966
+C08F 220/48	・・・・	窒素含有単量体との［２］	with nitrogen-containing monomers	728
+C08F 220/50	・・・	４個以上の炭素原子をもつもの［２］	containing four or more carbon atoms	106
+C08F 220/52	・・	アミドまたはイミド［２］	Amides or imides	261
+C08F 220/54	・・・	アミド［２］	Amides	4226
+C08F 220/56	・・・・	アクリルアミド；メタクリルアミド［２］	Acrylamide; Methacrylamide	13779
+C08F 220/58	・・・・	カルボンアミド酸素以外に酸素を含有するもの［２］	containing oxygen in addition to the carbonamido oxygen	8188
+C08F 220/60	・・・・	カルボンアミド窒素以外に窒素を含有するもの［２］	containing nitrogen in addition to the carbonamido nitrogen	2404
+C08F 220/62	・	１０個以上の炭素原子をもつモノカルボン酸；その誘導体［２］	Monocarboxylic acids having ten or more carbon atoms; Derivatives thereof	71
+C08F 220/64	・・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	253
+C08F 220/66	・・	無水物［２］	Anhydrides	21
+C08F 220/68	・・	エステル［２］	Esters	397
+C08F 220/70	・・	ニトリル；アミド；イミド［２］	Nitriles; Amides; Imides	111
+C08F 222/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがカルボキシル基によって停止されており，そして分子中に少なくとも１個の他のカルボキシル基を含有する化合物，その塩，無水物，エステル，アミド，イミドまたはそのニトリルの共重合体［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a carboxyl radical and containing at least one other carboxyl radical in the molecule; Salts, anhydrides, esters, amides, imides, or nitriles thereof	568
+C08F 222/02	・	酸；その金属塩またはアンモニウム塩［２］	Acids; Metal salts or ammonium salts thereof	3135
+C08F 222/04	・	無水物，例．環状無水物［２］	Anhydrides, e.g. cyclic anhydrides	560
+C08F 222/06	・・	無水マレイン酸［２］	Maleic anhydride	4273
+C08F 222/08	・・・	ビニル芳香族単量体との［２］	with vinyl aromatic monomers	776
+C08F 222/10	・	エステル［２］	Esters	2754
+C08F 222/12	・・	フェノールまたは飽和アルコールのエステル［２］	of phenols or saturated alcohols	147
+C08F 222/14	・・・	遊離カルボキシル基を含有しないエステル［２］	Esters having no free carboxylic acid groups	5221
+C08F 222/16	・・・	遊離カルボキシル基を含有するエステル［２］	Esters having free carboxylic acid groups	509
+C08F 222/18	・・・	ハロゲンを含有するエステル［２］	Esters containing halogen	196
+C08F 222/20	・・・	カルボキシ酸素以外に酸素を含有するエステル［２］	Esters containing oxygen in addition to the carboxy oxygen	2617
+C08F 222/22	・・・	窒素を含有するエステル［２］	Esters containing nitrogen	627
+C08F 222/24	・・・	いおうを含有するエステル［２］	Esters containing sulfur	201
+C08F 222/26	・・	不飽和アルコールのエステル［２］	of unsaturated alcohols	212
+C08F 222/28	・・・	マレイン酸ジアリル［２］	Diallyl maleate	61
+C08F 222/30	・	ニトリル［２］	Nitriles	91
+C08F 222/32	・・	α―シアノアクリル酸；そのエステル［２］	Alpha-cyano-acrylic acid; Esters thereof	204
+C08F 222/34	・・	シアン化ビニリデン［２］	Vinylidene cyanide	46
+C08F 222/36	・	アミドまたはイミド［２］	Amides or imides	83
+C08F 222/38	・・	アミド［２］	Amides	5116
+C08F 222/40	・・	イミド，例．環状イミド［２］	Imides, e.g. cyclic imides	2287
+C08F 224/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが酸素含有複素環によって停止されている化合物の共重合体（多官能性酸の環状エステルＣ０８Ｆ２１８／００；不飽和酸の環状無水物Ｃ０８Ｆ２２０／００，Ｃ０８Ｆ２２２／００）［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a heterocyclic ring containing oxygen(cyclic esters of polyfunctional acids C08F218/00; cyclic anhydrides of unsaturated acids C08F220/00, C08F222/00)	727
+C08F 226/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つが窒素に対する単結合もしくは二重結合または窒素含有複素環によって停止されている化合物の共重合体［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a single or double bond to nitrogen or by a heterocyclic ring containing nitrogen	336
+C08F 226/02	・	窒素に対する単結合または二重結合によって停止されている単量体［２］	by a single or double bond to nitrogen	3219
+C08F 226/04	・・	ジアリルアミン［２］	Diallylamine	480
+C08F 226/06	・	窒素含有複素環によって停止されている単量体［２］	by a heterocyclic ring containing nitrogen	3905
+C08F 226/08	・・	Ｎ−ビニルピロリジン［２］	N-Vinyl-pyrrolidine	101
+C08F 226/10	・・	Ｎ−ビニルピロリドン［２］	N-Vinyl-pyrrolidone	2503
+C08F 226/12	・・	Ｎ−ビニルカルバゾール［２］	N-Vinyl-carbazole	196
+C08F 228/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，その少なくとも１つがいおうに対する結合またはいおう含有複素環によって停止されている化合物の共重合体［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and at least one being terminated by a bond to sulfur or by a heterocyclic ring containing sulfur	119
+C08F 228/02	・	いおうに対する結合によって停止されている単量体［２］	by a bond to sulfur	2621
+C08F 228/04	・・	チオエーテル［２］	Thioethers	109
+C08F 228/06	・	いおう含有複素環によって停止されている単量体［２］	by a heterocyclic ring containing sulfur	226
+C08F 230/00		ただ１つの炭素―炭素二重結合を含有する１個以上の不飽和脂肪族基をもち，りん，セレン，テルルまたは金属を含有する化合物の共重合体［２００６．０１］	Copolymers of compounds having one or more unsaturated aliphatic radicals, each having only one carbon-to-carbon double bond, and containing phosphorus, selenium, tellurium or a metal	102
+C08F 230/02	・	りんを含有する単量体［２］	containing phosphorus	3034
+C08F 230/04	・	金属を含有する単量体［２］	containing a metal	488
+C08F 230/06	・・	ほう素［２］	containing boron	498
+C08F 230/08	・・	けい素［２］	containing silicon	6986
+C08F 230/10	・・	ゲルマニウム［２］	containing germanium	8
+C08F 232/00		炭素環中に１個以上の炭素―炭素二重結合を含有し，側鎖に不飽和脂肪族基をもたない環式化合物の共重合体［２］	Copolymers of cyclic compounds containing no unsaturated aliphatic radicals in a side chain, and having one or more carbon-to-carbon double bonds in a carbocyclic ring system	758
+C08F 232/02	・	縮合環をもたない単量体［２］	having no condensed rings	62
+C08F 232/04	・・	１個の炭素―炭素二重結合を含有するもの［２］	having one carbon-to-carbon double bond	463
+C08F 232/06	・・	２個以上の炭素―炭素二重結合を含有するもの［２］	having two or more carbon-to-carbon double bonds	298
+C08F 232/08	・	縮合環をもつ単量体［２］	having condensed rings	2037
+C08F 234/00		複素環中に１個以上の炭素―炭素二重結合を含有し，側鎖に不飽和脂肪族基をもたない環式化合物の共重合体（多官能性酸の環状エステルＣ０８Ｆ２１８／００；環状無水物またはイミドＣ０８Ｆ２２２／００）［２］	Copolymers of cyclic compounds having no unsaturated aliphatic radicals in a side chain and having one or more carbon-to-carbon double bonds in a heterocyclic ring(cyclic esters of polyfunctional acids C08F218/00; cyclic anhydrides or imides C08F222/00)	196
+C08F 234/02	・	環中に酸素を含有する単量体［２］	in a ring containing oxygen	364
+C08F 234/04	・	環中にいおうを含有する単量体［２］	in a ring containing sulfur	73
+C08F 236/00		１個以上の不飽和脂肪基をもち，その少なくとも１個が，２個以上の炭素―炭素二重結合を含有する化合物の共重合体（Ｃ０８Ｆ２３２／００が優先）［２］	Copolymers of compounds having one or more unsaturated aliphatic radicals, at least one having two or more carbon-to-carbon double bonds(C08F232/00 takes precedence)	871
+C08F 236/02	・	不飽和脂肪族基が２個の炭素―炭素二重結合を含有する単量体［２］	the radical having only two carbon-to-carbon double bonds	232
+C08F 236/04	・・	共役系［２］	conjugated	2971
+C08F 236/06	・・・	ブタジエン［２］	Butadiene	1949
+C08F 236/08	・・・	イソプレン［２］	Isoprene	858
+C08F 236/10	・・・	ビニル芳香族単量体との［２］	with vinyl aromatic monomers	3158
+C08F 236/12	・・・	ニトリルとの［２］	with nitriles	983
+C08F 236/14	・・・	炭素と水素以外の元素を含有するもの［２］	containing elements other than carbon and hydrogen	390
+C08F 236/16	・・・・	ハロゲン［２］	containing halogen	277
+C08F 236/18	・・・・・	塩素［２］	containing chlorine	310
+C08F 236/20	・・	非共役系［２］	unconjugated	698
+C08F 236/22	・	不飽和脂肪族基が３個以上の炭素―炭素二重結合を含有する単量体［２］	the radical having three or more carbon-to-carbon double bonds	260
+C08F 238/00		１個以上の炭素―炭素三重結合を含有する化合物の共重合体［２］	Copolymers of compounds having one or more carbon-to-carbon triple bonds	272
+C08F 238/02	・	アセチレン［２］	Acetylene	69
+C08F 238/04	・	ビニルアセチレン［２］	Vinylacetylene	12
+C08F 240/00		炭化水素と鉱油との共重合体，例．石油樹脂［２］	Copolymers of hydrocarbons and mineral oils, e.g. petroleum resins	1619
+C08F 242/00		乾性油と他の単量体との共重体［２］	Copolymers of drying-oils with other monomers	165
+C08F 244/00		クマロン―インデン共重合体［２］	Coumarone-indene copolymers	137
+C08F 246/00		少量成分の単量体のみによって規定される共重合体［２］	Copolymers in which the nature of only the monomers in minority is defined	1633
+C08F 251/00		多糖類またはその誘導体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polysaccharides or derivatives thereof	4354
+C08F 251/02	・	セルロースまたはその誘導体への重合によるもの［２］	on to cellulose or derivatives thereof	1928
+C08F 253/00		天然ゴムまたはその誘導体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to natural rubbers or derivatives thereof	391
+C08F 255/00		グループＣ０８Ｆ１０／００で定義された炭化水素の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of hydrocarbons as defined in group C08F10/00	3354
+C08F 255/02	・	２または３個の炭素原子をもつオレフィンの重合体への重合によるもの［２］	on to polymers of olefins having two or three carbon atoms	5732
+C08F 255/04	・・	エテン―プロペン共重合体への［２］	on to ethene-propene copolymers	703
+C08F 255/06	・・	エテン―プロペン―ジエン三元共重合体への［２］	on to ethene-propene-diene terpolymers	564
+C08F 255/08	・	４個以上の炭素原子をもつオレフィンの重合体への重合によるもの［２］	on to polymers of olefins having four or more carbon atoms	312
+C08F 255/10	・・	ブテンの重合体への［２］	on to butene polymers	314
+C08F 257/00		グループＣ０８Ｆ１２／００で定義された芳香族単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of aromatic monomers as defined in group C08F12/00	786
+C08F 257/02	・	スチレンまたはアルキル置換スチレンの重合体への重合によるもの［２］	on to polymers of styrene or alkyl-substituted styrenes	2408
+C08F 259/00		グループＣ０８Ｆ１４／００で定義されたハロゲンを含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of halogen containing monomers as defined in group C08F14/00	527
+C08F 259/02	・	塩素を含有する重合体への重合によるもの［２］	on to polymers containing chlorine	105
+C08F 259/04	・・	塩化ビニルの重合体への［２］	on to polymers of vinyl chloride	850
+C08F 259/06	・・	塩化ビニリデンの重合体への［２］	on to polymers of vinylidene chloride	93
+C08F 259/08	・	ふっ素を含有する重合体への重合によるもの［２］	on to polymers containing fluorine	1283
+C08F 261/00		グループＣ０８Ｆ１６／００で定義された酸素を含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of oxygen-containing monomers as defined in group C08F16/00	139
+C08F 261/02	・	不飽和アルコールの重合体への重合によるもの［２］	on to polymers of unsaturated alcohols	43
+C08F 261/04	・・	ビニルアルコールの重合体への［２］	on to polymers of vinyl alcohol	958
+C08F 261/06	・	不飽和エーテルの重合体への重合によるもの［２］	on to polymers of unsaturated ethers	161
+C08F 261/08	・	不飽和アルデヒドの重合体への重合によるもの［２］	on to polymers of unsaturated aldehydes	18
+C08F 261/10	・	不飽和ケトンの重合体への重合によるもの［２］	on to polymers of unsaturated ketones	16
+C08F 261/12	・	不飽和アセタールまたはケタールの重合体への重合によるもの［２］	on to polymers of unsaturated acetals or ketals	85
+C08F 263/00		グループＣ０８Ｆ１８／００で定義された飽和酸と不飽和アルコールとのエステルの重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of esters of unsaturated alcohols with saturated acids as defined in group C08F18/00	170
+C08F 263/02	・	モノカルボン酸とのビニルエステルの重合体への重合によるもの［２］	on to polymers of vinyl esters with monocarboxylic acids	125
+C08F 263/04	・・	酢酸ビニルの重合体への［２］	on to polymers of vinyl acetate	451
+C08F 263/06	・	ポリカルボン酸とのエステルの重合体への重合によるもの［２］	on to polymers of esters with polycarboxylic acids	57
+C08F 263/08	・・	フタル酸ジアリルプレポリマーの重合［２］	Polymerisation of diallyl phthalate prepolymers	96
+C08F 265/00		グループＣ０８Ｆ２０／００で定義された不飽和モノカルボン酸またはその誘導体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of unsaturated monocarboxylic acids or derivatives thereof as defined in group C08F20/00	1873
+C08F 265/02	・	酸，塩または無水物の重合体への重合によるもの［２］	on to polymers of acids, salts or anhydrides	722
+C08F 265/04	・	エステルの重合体への重合によるもの［２］	on to polymers of esters	2865
+C08F 265/06	・・	アクリル酸エステルまたはメタクリル酸エステルのそれらの重合体への重合［２］	Polymerisation of acrylate or methacrylate esters on to polymers thereof	5836
+C08F 265/08	・	ニトリルの重合体への重合によるもの［２］	on to polymers of nitriles	272
+C08F 265/10	・	アミドまたはイミドの重合体への重合によるもの［２］	on to polymers of amides or imides	646
+C08F 267/00		グループＣ０８Ｆ２２／００で定義された不飽和ポリカルボン酸またはその誘導体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of unsaturated polycarboxylic acids or derivatives thereof as defined in group C08F22/00	84
+C08F 267/02	・	酸または塩の重合体への重合によるもの［２］	on to polymers of acids or salts	98
+C08F 267/04	・	無水物の重合体への重合によるもの［２］	on to polymers of anhydrides	140
+C08F 267/06	・	エステルの重合体への重合によるもの［２］	on to polymers of esters	218
+C08F 267/08	・	ニトリルの重合体への重合によるもの［２］	on to polymers of nitriles	25
+C08F 267/10	・	アミドまたはイミドの重合体への重合によるもの［２］	on to polymers of amides or imides	124
+C08F 269/00		グループＣ０８Ｆ２４／００で定義された複素環酸素を含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of heterocyclic oxygen-containing monomers as defined in group C08F24/00	97
+C08F 271/00		グループＣ０８Ｆ２６／００で定義された窒素を含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of nitrogen-containing monomers as defined in group C08F26/00	266
+C08F 271/02	・	複素環窒素を含有する単量体の重合体への重合によるもの［２］	on to polymers of monomers containing heterocyclic nitrogen	513
+C08F 273/00		グループＣ０８Ｆ２８／００で定義されたいおうを含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of sulfur-containing monomers as defined in group C08F28/00	92
+C08F 275/00		グループＣ０８Ｆ３０／００で定義されたりん，セレン，テルルまたは金属を含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of monomers containing phosphorus, selenium, tellurium, or a metal as defined in group C08F30/00	217
+C08F 277/00		グループＣ０８Ｆ３２／００またはＣ０８Ｆ３４／００で定義された炭素環または複素環を含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of carbocyclic or heterocyclic monomers as defined respectively in group C08F32/00 or in group C08F34/00	222
+C08F 279/00		グループＣ０８Ｆ３６／００で定義された２個以上の炭素―炭素二重結合を含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of monomers having two or more carbon-to-carbon double bonds as defined in group C08F36/00	1852
+C08F 279/02	・	共役ジエンの重合体への重合によるもの［２］	on to polymers of conjugated dienes	4961
+C08F 279/04	・・	ビニル芳香族化合物とニトリルのみを含む単量体の［２］	Vinyl aromatic monomers and nitriles as the only monomers	1569
+C08F 279/06	・・	ビニル芳香族化合物とメタクリル酸エステルのみを含む単量体の［２］	Vinyl aromatic monomers and methacrylates as the only monomers	335
+C08F 281/00		グループＣ０８Ｆ３８／００で定義された炭素―炭素三重結合を含有する単量体の重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to polymers of monomers having carbon-to-carbon triple bonds as defined in group C08F38/00	89
+C08F 283/00		サブクラスＣ０８Ｇに分類される重合体への重合によって得られる高分子化合物［４］	Macromolecular compounds obtained by polymerising monomers on to polymers provided for in subclass C08G	6261
+C08F 283/01	・	不飽和ポリエステルへの重合によるもの［４］	on to unsaturated polyesters	5193
+C08F 283/02	・	ポリカーボネートまたは飽和ポリエステルへの重合によるもの［２］	on to polycarbonates or saturated polyesters	1593
+C08F 283/04	・	ポリカルボンアミド，ポリエステルアミドまたはポリイミドへの重合によるもの［２］	on to polycarbonamides, polyesteramides or polyimides	1133
+C08F 283/06	・	ポリエーテル，ポリオキシメチレンまたはポリアセタールへの重合によるもの［２］	on to polyethers, polyoxymethylenes or polyacetals	6930
+C08F 283/08	・・	ポリフェニレンオキシドへの［２］	on to polyphenylene oxides	389
+C08F 283/10	・	１分子中に１個より多くのエポキシ基を含有する重合体への重合によるもの［２］	on to polymers containing more than one epoxy radical per molecule	2198
+C08F 283/12	・	ポリシロキサンへの重合によるもの［２］	on to polysiloxanes	3258
+C08F 283/14	・	環中に１個以上の炭素―炭素二重結合を含有する炭素環式化合物の開環重合によって得られる重合体への重合によるもの，例．ポリアルケナマー［２］	on to polymers obtained by ring-opening polymerisation of carbocyclic compounds having one or more carbon-to-carbon double bonds in the carbocyclic ring, i.e. polyalkeneamers	113
+C08F 285/00		予め形成されたグラフト重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to preformed graft polymers	3134
+C08F 287/00		ブロック重合体への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to block polymers	1622
+C08F 289/00		グループＣ０８Ｆ２５１／００〜Ｃ０８Ｆ２８７／００に分類されない高分子化合物への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to macromolecular compounds not provided for in groups C08F251/00 to C08F287/00 	2687
+C08F 290/00		脂肪族不飽和の末端基または側基の導入により変性された重合体に，単量体を重合させて得られる高分子化合物［６］	Macromolecular compounds obtained by polymerising monomers on to polymers modified by introduction of aliphatic unsaturated end or side groups	10304
+C08F 290/02	・	不飽和末端基の導入により変性された重合体への［６］	on to polymers modified by introduction of unsaturated end groups	424
+C08F 290/04	・・	サブクラスＣ０８ＣまたはＣ０８Ｆに分類される重合体［６］	Polymers provided for in subclasses C08C or C08F	1907
+C08F 290/06	・・	サブクラスＣ０８Ｇに分類される重合体［６］	Polymers provided for in subclass C08G	14063
+C08F 290/08	・	不飽和側基の導入により変性された重合体への［６］	on to polymers modified by introduction of unsaturated side groups	186
+C08F 290/10	・・	サブクラスＣ０８Ｂに分類される重合体［６］	Polymers provided for in subclass C08B	228
+C08F 290/12	・・	サブクラスＣ０８ＣまたはＣ０８Ｆに分類される重合体［６］	Polymers provided for in subclasses C08C or C08F	1785
+C08F 290/14	・・	サブクラスＣ０８Ｇに分類される重合体［６］	Polymers provided for in subclass C08G	2561
+C08F 291/00		Ｃ０８Ｆ２５１／００〜Ｃ０８Ｆ２８９／００の２以上のメイングループにわたる高分子化合物への重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerising monomers on to macromolecular compounds according to more than one of the groups C08F251/00 to C08F289/00 	4979
+C08F 291/02	・	エラストマーへの重合によるもの［２］	on to elastomers	1138
+C08F 291/04	・	ハロゲンを含有する高分子への重合によるもの［２］	on to halogen-containing macromolecules	185
+C08F 291/06	・	酸素を含有する高分子への重合によるもの［２］	on to oxygen-containing macromolecules	651
+C08F 291/08	・・	水酸基を含有する高分子への［２］	on to macromolecules containing hydroxy radicals	398
+C08F 291/10	・・	エポキシ基を含有する高分子への［２］	on to macromolecules containing epoxy radicals	177
+C08F 291/12	・	窒素を含有する高分子への重合によるもの［２］	on to nitrogen-containing macromolecules	453
+C08F 291/14	・	いおうを含有する高分子への重合によるもの［２］	on to sulfur-containing macromolecules	104
+C08F 291/16	・	２個より多くの金属原子を含有する高分子への重合によるもの［２］	on to macromolecules containing more than two metal atoms	43
+C08F 291/18	・	照射または酸化された高分子への重合によるもの（エポキシ化高分子へのＣ０８Ｆ２９１／１０）［２］	on to irradiated or oxidised macromolecules(epoxidised C08F291/10)	380
+C08F 292/00		単量体の無機材料への重合によって得られる高分子化合物［３］	Macromolecular compounds obtained by polymerising monomers on to inorganic materials	4135
+C08F 293/00		出発高分子の一端または両端にのみ結合する新たな重合鎖の形成を生起し得る基をもつ高分子への重合によって得られる高分子化合物（不飽和末端基の導入により変性された重合体へのＣ０８Ｆ２９０／０２）［２］	Macromolecular compounds obtained by polymerisation on to a macromolecule having groups capable of inducing the formation of new polymer chains bound exclusively at one or both ends of the starting macromolecule(on to polymers modified by introduction of unsaturated end groups C08F290/02)	6046
+C08F 295/00		中間重合体を脱活性化することなく，異なるタイプの触媒を連続して使用する重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by polymerisation using successively different catalyst types without deactivating the intermediate polymer	478
+C08F 297/00		中間重合体を脱活性化することなくイオン触媒または配位触媒を用い，異なる単量体を連続して使用する重合によって得られる高分子化合物［２］	Macromolecular compounds obtained by successively polymerising different monomer systems using a catalyst of the ionic or coordination type without deactivating the intermediate polymer	2016
+C08F 297/02	・	アニオン触媒を用いるもの［２］	using a catalyst of the anionic type	1564
+C08F 297/04	・・	ビニル芳香族単量体と共役ジエンとの重合によるもの［２］	polymerising vinyl aromatic monomers and conjugated dienes	3138
+C08F 297/06	・	配位触媒を用いるもの［２］	using a catalyst of the coordination type	474
+C08F 297/08	・・	モノオレフィンの重合によるもの［２］	polymerising mono-olefins	2220
+C08F 299/00		非高分子量単量体の不存在下に，炭素−炭素不飽和結合のみが関与する重合体相互の反応によって得られる高分子化合物［２，６］	Macromolecular compounds obtained by interreacting polymers involving only carbon-to-carbon unsaturated bond reactions, in the absence of non-macromolecular monomers	8078
+C08F 299/02	・	不飽和重縮合物からのもの［２］	from unsaturated polycondensates	5548
+C08F 299/04	・・	ポリエステル［２］	from polyesters	3507
+C08F 299/06	・・	ポリウレタン［２］	from polyurethanes	2909
+C08F 299/08	・・	ポリシロキサン［２］	from polysiloxanes	1410
+C08F 301/00		グループＣ０８Ｆ１０／００〜Ｃ０８Ｆ２９９／００に分類されない高分子化合物［８］	Macromolecular compounds not provided for in groups C08F10/00 to C08F299/00 	96

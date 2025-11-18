@@ -1,0 +1,571 @@
+F25J1/00	7	Processes or apparatus for liquefying or solidifying gases or gaseous mixtures {(recovering volatile solvents by condensation B01D5/00; vapor recovery systems combined with filling nozzles B67D7/54; solidification of carbonic acid C01B32/55; for ammonia in general C01C1/00)}	F25J1/00	F25J1/00		358
+F25J1/0002	8	{characterised by the fluid to be liquefied}	F25J1/00	F25J1/00		26
+F25J1/0005	9	{Light or noble gases (F25J1/0012 takes precedence)}	F25J1/00	F25J1/00		82
+F25J1/0007	10	{Helium}	F25J1/00	F25J1/00		241
+F25J1/001	10	{Hydrogen}	F25J1/00	F25J1/00		685
+F25J1/0012	9	{Primary atmospheric gases, e.g. air}	F25J1/00	F25J1/00		493
+F25J1/0015	10	{Nitrogen}	F25J1/00	F25J1/00		476
+F25J1/0017	10	{Oxygen}	F25J1/00	F25J1/00		283
+F25J1/002	10	{Argon}	F25J1/00	F25J1/00		94
+F25J1/0022	9	{Hydrocarbons, e.g. natural gas}	F25J1/00	F25J1/00		2467
+F25J1/0025	10	{Boil-off gases "BOG" from storages}	F25J1/00	F25J1/00		802
+F25J1/0027	9	{Oxides of carbon, e.g. CO2}	F25J1/00	F25J1/00		544
+F25J1/003	8	{characterised by the kind of cold generation within the liquefaction unit for compensating heat leaks and liquid production}	F25J1/00	F25J1/00		8
+F25J1/0032	9	{using the feed stream itself or separated fractions from it, i.e. "internal refrigeration"}	F25J1/00	F25J1/00		37
+F25J1/0035	10	{by gas expansion with extraction of work}	F25J1/00	F25J1/00		495
+F25J1/0037	11	{of a return stream}	F25J1/00	F25J1/00		657
+F25J1/004	10	{by flash gas recovery (F25J1/0267 takes precedence)}	F25J1/00	F25J1/00		1528
+F25J1/0042	10	{by liquid expansion with extraction of work}	F25J1/00	F25J1/00		412
+F25J1/0045	10	{by vaporising a liquid return stream}	F25J1/00	F25J1/00		927
+F25J1/0047	9	{using an "external" refrigerant stream in a closed vapor compression cycle (F25J1/0221, F25J1/0225 take precedence)}	F25J1/00	F25J1/00		36
+F25J1/005	10	{by expansion of a gaseous refrigerant stream with extraction of work}	F25J1/00	F25J1/00		894
+F25J1/0052	10	{by vaporising a liquid refrigerant stream}	F25J1/00	F25J1/00		1431
+F25J1/0055	11	{originating from an incorporated cascade}	F25J1/00	F25J1/00		686
+F25J1/0057	11	{after expansion of the liquid refrigerant stream with extraction of work}	F25J1/00	F25J1/00		153
+F25J1/006	8	{characterised by the refrigerant fluid used (refrigerants in vapor compression cycles F25B9/002, refrigerant materials per seC09K5/00)}	F25J1/00	F25J1/00		15
+F25J1/0062	9	{Light or noble gases, mixtures thereof (F25J1/007 takes precedence)}	F25J1/00	F25J1/00		149
+F25J1/0065	10	{Helium}	F25J1/00	F25J1/00		293
+F25J1/0067	10	{Hydrogen}	F25J1/00	F25J1/00		239
+F25J1/007	9	{Primary atmospheric gases, mixtures thereof}	F25J1/00	F25J1/00		68
+F25J1/0072	10	{Nitrogen}	F25J1/00	F25J1/00		743
+F25J1/0075	10	{Oxygen}	F25J1/00	F25J1/00		28
+F25J1/0077	10	{Argon}	F25J1/00	F25J1/00		46
+F25J1/008	9	{Hydrocarbons}	F25J1/00	F25J1/00		39
+F25J1/0082	10	{Methane}	F25J1/00	F25J1/00		200
+F25J1/0085	10	{Ethane; Ethylene}	F25J1/00	F25J1/00		185
+F25J1/0087	10	{Propane; Propylene}	F25J1/00	F25J1/00		405
+F25J1/009	10	{Hydrocarbons with four or more carbon atoms}	F25J1/00	F25J1/00		28
+F25J1/0092	10	{Mixtures of hydrocarbons comprising possibly also minor amounts of nitrogen}	F25J1/00	F25J1/00		169
+F25J1/0095	9	{Oxides of carbon, e.g. CO2}	F25J1/00	F25J1/00		127
+F25J1/0097	9	{Others, e.g. F-, Cl-, HF-, HClF-, HCl-hydrocarbons etc. or mixtures thereof}	F25J1/00	F25J1/00		165
+F25J1/02	8	requiring the use of refrigeration, e.g. of helium or hydrogen {; Details and kind of the refrigeration system used; Integration with other units or processes; Controlling aspects of the process}	F25J1/02	F25J1/02		233
+F25J1/0201	9	{using only internal refrigeration means, i.e. without external refrigeration}	F25J1/02	F25J1/02		297
+F25J1/0202	10	{in a quasi-closed internal refrigeration loop (F25J1/0208, F25J1/0219, F25J1/0224 take precedence)}	F25J1/02	F25J1/02		640
+F25J1/0203	9	{using a single-component refrigerant [SCR] fluid in a closed vapor compression cycle (F25J1/0211 takes precedence)}	F25J1/02	F25J1/02		12
+F25J1/0204	10	{as a single flow SCR cycle}	F25J1/02	F25J1/02		674
+F25J1/0205	10	{as a dual level SCR refrigeration cascade}	F25J1/02	F25J1/02		219
+F25J1/0207	10	{as at least a three level SCR refrigeration cascade}	F25J1/02	F25J1/02		86
+F25J1/0208	10	{in combination with an internal quasi-closed refrigeration loop, e.g. with deep flash recycle loop (F25J1/021 takes precedence)}	F25J1/02	F25J1/02		396
+F25J1/0209	11	{as at least a three level refrigeration cascade}	F25J1/02	F25J1/02		17
+F25J1/021	12	{using a deep flash recycle loop}	F25J1/02	F25J1/02		151
+F25J1/0211	9	{using a multi-component refrigerant [MCR] fluid in a closed vapor compression cycle}	F25J1/02	F25J1/02		29
+F25J1/0212	10	{as a single flow MCR cycle}	F25J1/02	F25J1/02		591
+F25J1/0214	10	{as a dual level refrigeration cascade with at least one MCR cycle}	F25J1/02	F25J1/02		265
+F25J1/0215	11	{with one SCR cycle}	F25J1/02	F25J1/02		128
+F25J1/0216	12	{using a C3 pre-cooling cycle}	F25J1/02	F25J1/02		272
+F25J1/0217	10	{as at least a three level refrigeration cascade with at least one MCR cycle}	F25J1/02	F25J1/02		74
+F25J1/0218	11	{with one or more SCR cycles, e.g. with a C3 pre-cooling cycle}	F25J1/02	F25J1/02		81
+F25J1/0219	10	{in combination with an internal quasi-closed refrigeration loop, e.g. using a deep flash recycle loop}	F25J1/02	F25J1/02		152
+F25J1/0221	9	{using the cold stored in an external cryogenic component in an open refrigeration loop}	F25J1/02	F25J1/02		636
+F25J1/0222	10	{in combination with an intermediate heat exchange fluid between the cryogenic component and the fluid to be liquefied (F25J1/0224 takes precedence)}	F25J1/02	F25J1/02		110
+F25J1/0223	10	{in combination with the subsequent re-vaporisation of the originally liquefied gas at a second location to produce the external cryogenic component}	F25J1/02	F25J1/02		56
+F25J1/0224	10	{in combination with an internal quasi-closed refrigeration loop (F25J1/0208, F25J1/0219 take precedence)}	F25J1/02	F25J1/02		239
+F25J1/0225	9	{using other external refrigeration means not provided before, e.g. heat driven absorption chillers}	F25J1/02	F25J1/02		180
+F25J1/0227	10	{within a refrigeration cascade}	F25J1/02	F25J1/02		141
+F25J1/0228	9	{Coupling of the liquefaction unit to other units or processes, so-called integrated processes (combined plants, e.g. engine plant combined with an industrial process F01K23/064; gas turbine plants in combination with other processes F02C6/00)}	F25J1/02	F25J1/02		308
+F25J1/0229	10	{Integration with a unit for using hydrocarbons, e.g. consuming hydrocarbons as feed stock}	F25J1/02	F25J1/02		89
+F25J1/023	11	{for the combustion as fuels, i.e. integration with the fuel gas system}	F25J1/02	F25J1/02		411
+F25J1/0231	11	{for the working-up of the hydrocarbon feed, e.g. reinjection of heavier hydrocarbons into the liquefied gas}	F25J1/02	F25J1/02		97
+F25J1/0232	10	{integration within a pressure letdown station of a high pressure pipeline system}	F25J1/02	F25J1/02		192
+F25J1/0234	10	{Integration with a cryogenic air separation unit (cryogenic separation of air F25J3/04)}	F25J1/02	F25J1/02		222
+F25J1/0235	10	{Heat exchange integration}	F25J1/02	F25J1/02		126
+F25J1/0236	11	{providing refrigeration for different processes treating not the same feed stream}	F25J1/02	F25J1/02		281
+F25J1/0237	11	{integrating refrigeration provided for liquefaction and purification/treatment of the gas to be liquefied, e.g. heavy hydrocarbon removal from natural gas (details related to rectification F25J3/02; details related to partial condensation F25J3/06; working-up natural gas C10L3/10)}	F25J1/02	F25J1/02		129
+F25J1/0238	12	{Purification or treatment step is integrated within one refrigeration cycle only, i.e. the same or single refrigeration cycle provides feed gas cooling (if present) and overhead gas cooling}	F25J1/02	F25J1/02		164
+F25J1/0239	12	{Purification or treatment step being integrated between two refrigeration cycles of a refrigeration cascade, i.e. first cycle providing feed gas cooling and second cycle providing overhead gas cooling}	F25J1/02	F25J1/02		47
+F25J1/0241	13	{wherein the overhead cooling comprises providing reflux for a fractionation step}	F25J1/02	F25J1/02		53
+F25J1/0242	11	{Waste heat recovery, e.g. from heat of compression}	F25J1/02	F25J1/02		293
+F25J1/0243	9	{Start-up or control of the process; Details of the apparatus used; Details of the refrigerant compression system used}	F25J1/02	F25J1/02		14
+F25J1/0244	10	{Operation; Control and regulation; Instrumentation (F25J1/0279 takes precedence)}	F25J1/02	F25J1/02		286
+F25J1/0245	11	{Different modes, i.e. &apos;runs&apos;, of operation; Process control}	F25J1/02	F25J1/02		228
+F25J1/0247	12	{start-up of the process}	F25J1/02	F25J1/02		161
+F25J1/0248	12	{Stopping of the process, e.g. defrosting or deriming, maintenance; Back-up mode or systems}	F25J1/02	F25J1/02		147
+F25J1/0249	12	{Controlling refrigerant inventory, i.e. composition or quantity (charging or discharging refrigerants in cooling systems F25B45/00)}	F25J1/02	F25J1/02		175
+F25J1/025	13	{Details related to the refrigerant production or treatment, e.g. make-up supply from feed gas itself}	F25J1/02	F25J1/02		279
+F25J1/0251	12	{Intermittent or alternating process, so-called batch process, e.g. "peak-shaving"}	F25J1/02	F25J1/02		328
+F25J1/0252	11	{Control strategy, e.g. advanced process control or dynamic modeling}	F25J1/02	F25J1/02		68
+F25J1/0254	11	{controlling particular process parameter, e.g. pressure, temperature}	F25J1/02	F25J1/02		246
+F25J1/0255	12	{controlling the composition of the feed or liquefied gas, e.g. to achieve a particular heating value of natural gas}	F25J1/02	F25J1/02		85
+F25J1/0256	11	{Safety aspects of operation (F25J1/0298 takes precedence)}	F25J1/02	F25J1/02		49
+F25J1/0257	10	{Construction and layout of liquefaction equipments, e.g. valves, machines (F25J1/0279 takes precedence)}	F25J1/02	F25J1/02		288
+F25J1/0258	11	{vertical layout of the equipments within in the cold box}	F25J1/02	F25J1/02		114
+F25J1/0259	11	{Modularity and arrangement of parts of the liquefaction unit and in particular of the cold box, e.g. pre-fabrication, assembling and erection, dimensions, horizontal layout "plot"}	F25J1/02	F25J1/02		220
+F25J1/0261	11	{Details of cold box insulation, housing and internal structure (buildings forming parts of cooling plants E04H5/10)}	F25J1/02	F25J1/02		112
+F25J1/0262	11	{Details of the cold heat exchange system (constructional details F25J5/00, construction of cold-exchangers in general F28)}	F25J1/02	F25J1/02		378
+F25J1/0263	12	{using different types of heat exchangers}	F25J1/02	F25J1/02		66
+F25J1/0264	12	{Arrangement of heat exchanger cores in parallel with different functions, e.g. different cooling streams (F25J1/0272 takes precedence)}	F25J1/02	F25J1/02		220
+F25J1/0265	13	{comprising cores associated exclusively with the cooling of a refrigerant stream, e.g. for auto-refrigeration or economizer}	F25J1/02	F25J1/02		450
+F25J1/0267	14	{using flash gas as heat sink}	F25J1/02	F25J1/02		114
+F25J1/0268	14	{using a dedicated refrigeration means (F25J1/0296 takes precedence)}	F25J1/02	F25J1/02		230
+F25J1/0269	11	{Arrangement of liquefaction units or equipments fulfilling the same process step, e.g. multiple "trains" concept (F25J1/0294 takes precedence)}	F25J1/02	F25J1/02		56
+F25J1/027	12	{Inter-connecting multiple hot equipments upstream of the cold box}	F25J1/02	F25J1/02		34
+F25J1/0271	12	{Inter-connecting multiple cold equipments within or downstream of the cold box}	F25J1/02	F25J1/02		92
+F25J1/0272	13	{Multiple identical heat exchangers in parallel}	F25J1/02	F25J1/02		68
+F25J1/0274	11	{Retrofitting or revamping of an existing liquefaction unit}	F25J1/02	F25J1/02		73
+F25J1/0275	11	{adapted for special use of the liquefaction unit, e.g. portable or transportable devices}	F25J1/02	F25J1/02		140
+F25J1/0276	12	{Laboratory or other miniature devices}	F25J1/02	F25J1/02		313
+F25J1/0277	12	{Offshore use, e.g. during shipping}	F25J1/02	F25J1/02		473
+F25J1/0278	13	{Unit being stationary, e.g. on floating barge or fixed platform}	F25J1/02	F25J1/02		295
+F25J1/0279	10	{Compression of refrigerant or internal recycle fluid, e.g. kind of compressor, accumulator, suction drum etc.}	F25J1/02	F25J1/02		370
+F25J1/0281	11	{characterised by the type of prime driver, e.g. hot gas expander}	F25J1/02	F25J1/02		126
+F25J1/0282	12	{Steam turbine as the prime mechanical driver}	F25J1/02	F25J1/02		90
+F25J1/0283	12	{Gas turbine as the prime mechanical driver}	F25J1/02	F25J1/02		290
+F25J1/0284	12	{Electrical motor as the prime mechanical driver}	F25J1/02	F25J1/02		212
+F25J1/0285	11	{Combination of different types of drivers mechanically coupled to the same refrigerant compressor, possibly split on multiple compressor casings}	F25J1/02	F25J1/02		55
+F25J1/0287	12	{including an electrical motor}	F25J1/02	F25J1/02		56
+F25J1/0288	12	{using work extraction by mechanical coupling of compression and expansion of the refrigerant, so-called companders}	F25J1/02	F25J1/02		562
+F25J1/0289	11	{Use of different types of prime drivers of at least two refrigerant compressors in a cascade refrigeration system}	F25J1/02	F25J1/02		35
+F25J1/029	11	{Mechanically coupling of different refrigerant compressors in a cascade refrigeration system to a common driver}	F25J1/02	F25J1/02		77
+F25J1/0291	11	{Refrigerant compression by combined gas compression and liquid pumping}	F25J1/02	F25J1/02		194
+F25J1/0292	11	{Refrigerant compression by cold or cryogenic suction of the refrigerant gas}	F25J1/02	F25J1/02		594
+F25J1/0294	11	{Multiple compressor casings/strings in parallel, e.g. split arrangement}	F25J1/02	F25J1/02		258
+F25J1/0295	11	{Shifting of the compression load between different cooling stages within a refrigerant cycle or within a cascade refrigeration system}	F25J1/02	F25J1/02		45
+F25J1/0296	11	{Removal of the heat of compression, e.g. within an inter- or afterstage-cooler against an ambient heat sink}	F25J1/02	F25J1/02		172
+F25J1/0297	12	{using an externally chilled fluid, e.g. chilled water}	F25J1/02	F25J1/02		74
+F25J1/0298	11	{Safety aspects and control of the refrigerant compression system, e.g. anti-surge control}	F25J1/02	F25J1/02		166
+F25J3/00	7	Processes or apparatus for separating the constituents of gaseous {or liquefied gaseous} mixtures involving the use of liquefaction or solidification	F25J3/00	F25J3/00		272
+F25J3/02	8	by rectification, i.e. by continuous interchange of heat and material between a vapour stream and a liquid stream (F25J3/08 takes precedence {; purification of hydrocarbons in general C07C7/00})	F25J3/02	F25J3/02		202
+F25J3/0204	9	{characterised by the feed stream (for air F25J3/04)}	F25J3/02	F25J3/02		23
+F25J3/0209	10	{Natural gas or substitute natural gas}	F25J3/02	F25J3/02		1647
+F25J3/0214	11	{Liquefied natural gas}	F25J3/02	F25J3/02		255
+F25J3/0219	10	{Refinery gas, cracking gas, coke oven gas, gaseous mixtures containing aliphatic unsaturated CnHm or gaseous mixtures of undefined nature}	F25J3/02	F25J3/02		982
+F25J3/0223	10	{H2/CO mixtures, i.e. synthesis gas; Water gas or shifted synthesis gas (production of carbon monoxide containing gas in general C01B32/40, C10J, C10K; production of hydrogen containing gas C01B3/00)}	F25J3/02	F25J3/02		658
+F25J3/0228	9	{characterised by the separated product stream}	F25J3/02	F25J3/02		18
+F25J3/0233	10	{separation of CnHm with 1 carbon atom or more}	F25J3/02	F25J3/02		2386
+F25J3/0238	10	{separation of CnHm with 2 carbon atoms or more}	F25J3/02	F25J3/02		1304
+F25J3/0242	10	{separation of CnHm with 3 carbon atoms or more}	F25J3/02	F25J3/02		821
+F25J3/0247	10	{separation of CnHm with 4 carbon atoms or more}	F25J3/02	F25J3/02		303
+F25J3/0252	10	{separation of hydrogen (production of hydrogen containing gas in general C01B3/00, e.g. separation of hydrogen or hydrogen containing gases form gaseous mixtures at low temperatures C01B3/506)}	F25J3/02	F25J3/02		907
+F25J3/0257	10	{separation of nitrogen (from air F25J3/04, production of nitrogen in general C01B21/00)}	F25J3/02	F25J3/02		938
+F25J3/0261	10	{separation of carbon monoxide (production of carbon monoxide containing gas in general C01B32/40, C10J, C10K)}	F25J3/02	F25J3/02		401
+F25J3/0266	10	{separation of carbon dioxide (production of carbon dioxide in general C01B32/00)}	F25J3/02	F25J3/02		741
+F25J3/0271	10	{separation of H2/CO mixtures, i.e. of synthesis gas (production of carbon monoxide containing gas in general C01B32/40, C10J, C10K, production of hydrogen containing gas C01B3/00)}	F25J3/02	F25J3/02		100
+F25J3/0276	10	{separation of H2/N2 mixtures, i.e. of ammonia synthesis gas (in general C01B3/00)}	F25J3/02	F25J3/02		229
+F25J3/028	10	{separation of noble gases (from air F25J3/04642; in general C01B23/00)}	F25J3/02	F25J3/02		142
+F25J3/0285	11	{of argon}	F25J3/02	F25J3/02		185
+F25J3/029	11	{of helium}	F25J3/02	F25J3/02		316
+F25J3/0295	9	{Start-up or control of the process; Details of the apparatus used, e.g. sieve plates, packings}	F25J3/02	F25J3/02		387
+F25J3/04	9	for air	F25J3/04	F25J3/04		673
+F25J3/04006	10	{Providing pressurised feed air or process streams within or from the air fractionation unit}	F25J3/04	F25J3/04		3
+F25J3/04012	11	{by compression of warm gaseous streams; details of intake or interstage cooling (F25J3/04048 takes precedence; operation of compressors F25J3/04781; particular layout of compressors used in air fractionation units F25J3/04866)}	F25J3/04	F25J3/04		11
+F25J3/04018	12	{of main feed air}	F25J3/04	F25J3/04		574
+F25J3/04024	12	{of purified feed air, so-called boosted air}	F25J3/04	F25J3/04		207
+F25J3/0403	12	{of nitrogen}	F25J3/04	F25J3/04		148
+F25J3/04036	12	{of oxygen}	F25J3/04	F25J3/04		82
+F25J3/04042	12	{of argon or argon enriched stream}	F25J3/04	F25J3/04		11
+F25J3/04048	11	{by compression of cold gaseous streams, e.g. intermediate or oxygen enriched (waste) streams}	F25J3/04	F25J3/04		114
+F25J3/04054	12	{of air}	F25J3/04	F25J3/04		265
+F25J3/0406	12	{of nitrogen}	F25J3/04	F25J3/04		257
+F25J3/04066	12	{of oxygen}	F25J3/04	F25J3/04		67
+F25J3/04072	12	{of argon or argon enriched stream}	F25J3/04	F25J3/04		22
+F25J3/04078	11	{providing pressurized products by liquid compression and vaporisation with cold recovery, i.e. so-called internal compression (operation of pumps F25J3/04781; particular layout of pumps used in air fractionation units F25J3/04866)}	F25J3/04	F25J3/04		31
+F25J3/04084	12	{of nitrogen}	F25J3/04	F25J3/04		343
+F25J3/0409	12	{of oxygen}	F25J3/04	F25J3/04		1152
+F25J3/04096	12	{of argon or argon enriched stream}	F25J3/04	F25J3/04		67
+F25J3/04103	12	{using solely hydrostatic liquid head}	F25J3/04	F25J3/04		123
+F25J3/04109	11	{Arrangements of compressors and /or their drivers (using work extraction by mechanical coupling of compression and cold expansion F25J3/04381)}	F25J3/04	F25J3/04		106
+F25J3/04115	12	{characterised by the type of prime driver, e.g. hot gas expander}	F25J3/04	F25J3/04		86
+F25J3/04121	13	{Steam turbine as the prime mechanical driver}	F25J3/04	F25J3/04		120
+F25J3/04127	13	{Gas turbine as the prime mechanical driver}	F25J3/04	F25J3/04		94
+F25J3/04133	13	{Electrical motor as the prime mechanical driver}	F25J3/04	F25J3/04		88
+F25J3/04139	12	{Combination of different types of drivers mechanically coupled to the same compressor, possibly split on multiple compressor casings}	F25J3/04	F25J3/04		87
+F25J3/04145	12	{Mechanically coupling of different compressors of the air fractionation process to the same driver(s)}	F25J3/04	F25J3/04		95
+F25J3/04151	10	{Purification and (pre-)cooling of the feed air; recuperative heat-exchange with product streams}	F25J3/04	F25J3/04		19
+F25J3/04157	11	{Afterstage cooling and so-called "pre-cooling" of the feed air upstream the air purification unit and main heat exchange line (F25J3/04618 takes precedence)}	F25J3/04	F25J3/04		528
+F25J3/04163	11	{Hot end purification of the feed air (arrangements of cold regenerators F25J5/00)}	F25J3/04	F25J3/04		188
+F25J3/04169	12	{by adsorption of the impurities (adsorption in general B01D53/02)}	F25J3/04	F25J3/04		254
+F25J3/04175	13	{at a pressure of substantially more than the highest pressure column}	F25J3/04	F25J3/04		232
+F25J3/04181	13	{Regenerating the adsorbents}	F25J3/04	F25J3/04		300
+F25J3/04187	11	{Cooling of the purified feed air by recuperative heat-exchange; Heat-exchange with product streams (arrangements of cold exchangers F25J5/002)}	F25J3/04	F25J3/04		90
+F25J3/04193	12	{Division of the main heat exchange line in consecutive sections having different functions}	F25J3/04	F25J3/04		179
+F25J3/042	13	{having an intermediate feed connection}	F25J3/04	F25J3/04		161
+F25J3/04206	13	{including a so-called "auxiliary vaporiser" for vaporising and producing a gaseous product}	F25J3/04	F25J3/04		240
+F25J3/04212	14	{and simultaneously condensing vapor from a column serving as reflux within the or another column}	F25J3/04	F25J3/04		158
+F25J3/04218	12	{Parallel arrangement of the main heat exchange line in cores having different functions, e.g. in low pressure and high pressure cores (F25J3/04503 takes precedence)}	F25J3/04	F25J3/04		252
+F25J3/04224	13	{Cores associated with a liquefaction or refrigeration cycle}	F25J3/04	F25J3/04		394
+F25J3/0423	12	{Subcooling of liquid process streams}	F25J3/04	F25J3/04		277
+F25J3/04236	12	{Integration of different exchangers in a single core, so-called integrated cores (F25J3/04624 takes precedence)}	F25J3/04	F25J3/04		104
+F25J3/04242	11	{Cold end purification of the feed air}	F25J3/04	F25J3/04		130
+F25J3/04248	10	{Generation of cold for compensating heat leaks or liquid production, e.g. by Joule-Thompson expansion}	F25J3/04	F25J3/04		29
+F25J3/04254	11	{using the cold stored in external cryogenic fluids (closed loop F25J3/04278)}	F25J3/04	F25J3/04		294
+F25J3/0426	12	{The cryogenic component does not participate in the fractionation}	F25J3/04	F25J3/04		191
+F25J3/04266	13	{and being liquefied hydrocarbons}	F25J3/04	F25J3/04		131
+F25J3/04272	14	{and comprising means for reducing the risk of pollution of hydrocarbons into the air fractionation}	F25J3/04	F25J3/04		66
+F25J3/04278	11	{using external refrigeration units, e.g. closed mechanical or regenerative refrigeration units}	F25J3/04	F25J3/04		356
+F25J3/04284	11	{using internal refrigeration by open-loop gas work expansion, e.g. of intermediate or oxygen enriched (waste-)streams (F25J3/04333 takes precedence)}	F25J3/04	F25J3/04		486
+F25J3/0429	12	{of feed air, e.g. used as waste or product air or expanded into an auxiliary column}	F25J3/04	F25J3/04		260
+F25J3/04296	13	{Claude expansion, i.e. expanded into the main or high pressure column}	F25J3/04	F25J3/04		783
+F25J3/04303	13	{Lachmann expansion, i.e. expanded into oxygen producing or low pressure column}	F25J3/04	F25J3/04		930
+F25J3/04309	12	{of nitrogen}	F25J3/04	F25J3/04		434
+F25J3/04315	13	{Lowest pressure or impure nitrogen, so-called waste nitrogen expansion}	F25J3/04	F25J3/04		170
+F25J3/04321	12	{of oxygen}	F25J3/04	F25J3/04		117
+F25J3/04327	12	{of argon or argon enriched stream}	F25J3/04	F25J3/04		16
+F25J3/04333	11	{using quasi-closed loop internal vapor compression refrigeration cycles, e.g. of intermediate or oxygen enriched (waste-)streams}	F25J3/04	F25J3/04		54
+F25J3/04339	12	{of air}	F25J3/04	F25J3/04		33
+F25J3/04345	13	{and comprising a gas work expansion loop}	F25J3/04	F25J3/04		104
+F25J3/04351	12	{of nitrogen}	F25J3/04	F25J3/04		415
+F25J3/04357	13	{and comprising a gas work expansion loop}	F25J3/04	F25J3/04		262
+F25J3/04363	12	{of oxygen}	F25J3/04	F25J3/04		65
+F25J3/04369	12	{of argon or argon enriched stream}	F25J3/04	F25J3/04		26
+F25J3/04375	11	{Details relating to the work expansion, e.g. process parameter etc.}	F25J3/04	F25J3/04		60
+F25J3/04381	12	{using work extraction by mechanical coupling of compression and expansion so-called companders}	F25J3/04	F25J3/04		180
+F25J3/04387	12	{using liquid or hydraulic turbine expansion}	F25J3/04	F25J3/04		160
+F25J3/04393	12	{using multiple or multistage gas work expansion}	F25J3/04	F25J3/04		669
+F25J3/044	10	{using a single pressure main column system only (F25J3/0446, F25J3/04624, F25J3/04636 take precedence)}	F25J3/04	F25J3/04		744
+F25J3/04406	10	{using a dual pressure main column system (F25J3/0446, F25J3/04624, F25J3/04636 and F25J3/04715 take precedence)}	F25J3/04	F25J3/04		24
+F25J3/04412	11	{in a classical double column flowsheet, i.e. with thermal coupling by a main reboiler-condenser in the bottom of low pressure respectively top of high pressure column}	F25J3/04	F25J3/04		2280
+F25J3/04418	11	{with thermally overlapping high and low pressure columns}	F25J3/04	F25J3/04		136
+F25J3/04424	11	{without thermally coupled high and low pressure columns, i.e. a so-called split columns}	F25J3/04	F25J3/04		152
+F25J3/0443	11	{A main column system not otherwise provided, e.g. a modified double column flowsheet}	F25J3/04	F25J3/04		170
+F25J3/04436	10	{using at least a triple pressure main column system (F25J3/0446, F25J3/04624, F25J3/04636 and F25J3/04715 take precedence)}	F25J3/04	F25J3/04		5
+F25J3/04442	11	{in a double column flowsheet with a high pressure pre-rectifier}	F25J3/04	F25J3/04		41
+F25J3/04448	11	{in a double column flowsheet with an intermediate pressure column}	F25J3/04	F25J3/04		143
+F25J3/04454	11	{a main column system not otherwise provided, e.g. serially coupling of columns or more than three pressure levels}	F25J3/04	F25J3/04		147
+F25J3/0446	10	{using the heat generated by mixing two different phases}	F25J3/04	F25J3/04		37
+F25J3/04466	11	{for producing oxygen as a mixing column overhead gas by mixing gaseous air feed and liquid oxygen}	F25J3/04	F25J3/04		63
+F25J3/04472	10	{using the cold from cryogenic liquids produced within the air fractionation unit and stored in internal or intermediate storages}	F25J3/04	F25J3/04		8
+F25J3/04478	11	{for controlling purposes, e.g. start-up or back-up procedures (F25J3/04496 takes precedence)}	F25J3/04	F25J3/04		97
+F25J3/04484	12	{for purity control during steady state operation}	F25J3/04	F25J3/04		9
+F25J3/0449	12	{for rapid load change of the air fractionation unit}	F25J3/04	F25J3/04		15
+F25J3/04496	11	{for compensating variable air feed or variable product demand by alternating between periods of liquid storage and liquid assist}	F25J3/04	F25J3/04		127
+F25J3/04503	12	{by exchanging "cold" between at least two different cryogenic liquids, e.g. independently from the main heat exchange line of the air fractionation and/or by using external alternating storage systems}	F25J3/04	F25J3/04		27
+F25J3/04509	13	{within the cold part of the air fractionation, i.e. exchanging "cold" within the fractionation and/or main heat exchange line}	F25J3/04	F25J3/04		59
+F25J3/04515	14	{Simultaneously changing air feed and products output}	F25J3/04	F25J3/04		32
+F25J3/04521	10	{Coupling of the air fractionation unit to an air gas-consuming unit, so-called integrated processes (combined plants, e.g. engine plant combined with an industrial process F01K23/064; gas-turbine plants supplying working fluid to a chemical process F02C6/10)}	F25J3/04	F25J3/04		30
+F25J3/04527	11	{Integration with an oxygen consuming unit, e.g. glass facility, waste incineration or oxygen based processes in general}	F25J3/04	F25J3/04		101
+F25J3/04533	12	{for the direct combustion of fuels in a power plant, so-called "oxyfuel combustion"}	F25J3/04	F25J3/04		228
+F25J3/04539	12	{for the H2/CO synthesis by partial oxidation or oxygen consuming reforming processes of fuels}	F25J3/04	F25J3/04		128
+F25J3/04545	13	{for the gasification of solid or heavy liquid fuels, e.g. integrated gasification combined cycle [IGCC]}	F25J3/04	F25J3/04		192
+F25J3/04551	12	{for the metal production}	F25J3/04	F25J3/04		8
+F25J3/04557	13	{for pig iron or steel making, e.g. blast furnace, Corex}	F25J3/04	F25J3/04		104
+F25J3/04563	11	{Integration with a nitrogen consuming unit, e.g. for purging, inerting, cooling or heating}	F25J3/04	F25J3/04		262
+F25J3/04569	12	{for enhanced or tertiary oil recovery}	F25J3/04	F25J3/04		35
+F25J3/04575	12	{for a gas expansion plant, e.g. dilution of the combustion gas in a gas turbine}	F25J3/04	F25J3/04		164
+F25J3/04581	13	{Hot gas expansion of indirect heated nitrogen}	F25J3/04	F25J3/04		121
+F25J3/04587	12	{for the NH3 synthesis, e.g. for adjusting the H2/N2 ratio}	F25J3/04	F25J3/04		99
+F25J3/04593	11	{The air gas consuming unit is also fed by an air stream}	F25J3/04	F25J3/04		90
+F25J3/046	12	{Completely integrated air feed compression, i.e. common MAC}	F25J3/04	F25J3/04		142
+F25J3/04606	12	{Partially integrated air feed compression, i.e. independent MAC for the air fractionation unit plus additional air feed from the air gas consuming unit}	F25J3/04	F25J3/04		95
+F25J3/04612	11	{Heat exchange integration with process streams, e.g. from the air gas consuming unit}	F25J3/04	F25J3/04		239
+F25J3/04618	12	{for cooling an air stream fed to the air fractionation unit}	F25J3/04	F25J3/04		183
+F25J3/04624	10	{using integrated mass and heat exchange, so-called non-adiabatic rectification, e.g. dephlegmator, reflux exchanger}	F25J3/04	F25J3/04		172
+F25J3/0463	11	{Simultaneously between rectifying and stripping sections, i.e. double dephlegmator}	F25J3/04	F25J3/04		59
+F25J3/04636	10	{using a hybrid air separation unit, e.g. combined process by cryogenic separation and non-cryogenic separation techniques (F25J3/04733 and F25J3/04757 take precedence)}	F25J3/04	F25J3/04		147
+F25J3/04642	10	{Recovering noble gases from air (from gas mixtures other than air F25J3/028 or F25J3/0685)}	F25J3/04	F25J3/04		135
+F25J3/04648	11	{argon}	F25J3/04	F25J3/04		48
+F25J3/04654	12	{Producing crude argon in a crude argon column}	F25J3/04	F25J3/04		37
+F25J3/0466	13	{as a parallel working rectification column or auxiliary column system in a single pressure main column system}	F25J3/04	F25J3/04		74
+F25J3/04666	13	{as a parallel working rectification column of the low pressure column in a dual pressure main column system}	F25J3/04	F25J3/04		41
+F25J3/04672	14	{having a top condenser}	F25J3/04	F25J3/04		140
+F25J3/04678	15	{cooled by oxygen enriched liquid from high pressure column bottoms}	F25J3/04	F25J3/04		690
+F25J3/04684	15	{and a bottom re-boiler (F25J3/04696 takes precedence)}	F25J3/04	F25J3/04		20
+F25J3/0469	15	{and an intermediate re-boiler/condenser (F25J3/04696 takes precedence)}	F25J3/04	F25J3/04		28
+F25J3/04696	15	{a bottom re-boiler and an intermediate re-boiler/condenser}	F25J3/04	F25J3/04		1
+F25J3/04703	15	{being arranged in more than one vessel}	F25J3/04	F25J3/04		128
+F25J3/04709	13	{as an auxiliary column system in at least a dual pressure main column system}	F25J3/04	F25J3/04		103
+F25J3/04715	14	{The auxiliary column system simultaneously produces oxygen}	F25J3/04	F25J3/04		142
+F25J3/04721	12	{Producing pure argon, e.g. recovered from a crude argon column}	F25J3/04	F25J3/04		88
+F25J3/04727	13	{using an auxiliary pure argon column for nitrogen rejection (F25J3/04739 takes precedence)}	F25J3/04	F25J3/04		256
+F25J3/04733	13	{using a hybrid system, e.g. using adsorption, permeation or catalytic reaction}	F25J3/04	F25J3/04		58
+F25J3/04739	14	{in combination with an auxiliary pure argon column}	F25J3/04	F25J3/04		113
+F25J3/04745	11	{Krypton and/or Xenon}	F25J3/04	F25J3/04		240
+F25J3/04751	12	{Producing pure krypton and/or xenon recovered from a crude krypton/xenon mixture}	F25J3/04	F25J3/04		63
+F25J3/04757	13	{using a hybrid system, e.g. using adsorption, permeation or catalytic reaction}	F25J3/04	F25J3/04		71
+F25J3/04763	10	{Start-up or control of the process; Details of the apparatus used}	F25J3/04	F25J3/04		43
+F25J3/04769	11	{Operation, control and regulation of the process; Instrumentation within the process}	F25J3/04	F25J3/04		98
+F25J3/04775	12	{Air purification and pre-cooling}	F25J3/04	F25J3/04		174
+F25J3/04781	12	{Pressure changing devices, e.g. for compression, expansion, liquid pumping}	F25J3/04	F25J3/04		224
+F25J3/04787	12	{Heat exchange, e.g. main heat exchange line; Subcooler, external reboiler-condenser (F25J3/04793 and F25J3/0486 take precedence)}	F25J3/04	F25J3/04		154
+F25J3/04793	12	{Rectification, e.g. columns; Reboiler-condenser (F25J3/0486 takes precedence)}	F25J3/04	F25J3/04		222
+F25J3/048	13	{Argon recovery}	F25J3/04	F25J3/04		162
+F25J3/04806	14	{High purity argon purification}	F25J3/04	F25J3/04		39
+F25J3/04812	12	{Different modes, i.e. "runs" of operation (F25J3/04472 takes precedence)}	F25J3/04	F25J3/04		210
+F25J3/04818	13	{Start-up of the process}	F25J3/04	F25J3/04		157
+F25J3/04824	13	{Stopping of the process, e.g. defrosting or deriming; Back-up procedures}	F25J3/04	F25J3/04		234
+F25J3/0483	13	{Rapid load change of the air fractionation unit}	F25J3/04	F25J3/04		23
+F25J3/04836	13	{Variable air feed, i.e. "load" or product demand during specified periods, e.g. during periods with high respectively low power costs (F25J3/0483 takes precedence)}	F25J3/04	F25J3/04		179
+F25J3/04842	13	{Intermittent process, so-called batch process}	F25J3/04	F25J3/04		42
+F25J3/04848	12	{Control strategy, e.g. advanced process control or dynamic modeling}	F25J3/04	F25J3/04		130
+F25J3/04854	12	{Safety aspects of operation}	F25J3/04	F25J3/04		106
+F25J3/0486	13	{of vaporisers for oxygen enriched liquids, e.g. purging of liquids}	F25J3/04	F25J3/04		256
+F25J3/04866	11	{Construction and layout of air fractionation equipments, e.g. valves, machines (F25J5/00 takes precedence)}	F25J3/04	F25J3/04		159
+F25J3/04872	12	{Vertical layout of cold equipments within in the cold box, e.g. columns, heat exchangers etc.}	F25J3/04	F25J3/04		250
+F25J3/04878	13	{Side by side arrangement of multiple vessels in a main column system, wherein the vessels are normally mounted one upon the other or forming different sections of the same column (multiple vessels of a crude argon column F25J3/04703)}	F25J3/04	F25J3/04		245
+F25J3/04884	13	{Arrangement of reboiler-condensers}	F25J3/04	F25J3/04		230
+F25J3/0489	12	{Modularity and arrangement of parts of the air fractionation unit, in particular of the cold box, e.g. pre-fabrication, assembling and erection, dimensions, horizontal layout "plot" (F25J3/04872 takes precedence)}	F25J3/04	F25J3/04		282
+F25J3/04896	12	{Details of columns, e.g. internals, inlet/outlet devices}	F25J3/04	F25J3/04		152
+F25J3/04903	13	{Plates or trays}	F25J3/04	F25J3/04		37
+F25J3/04909	13	{Structured packings}	F25J3/04	F25J3/04		107
+F25J3/04915	13	{Combinations of different material exchange elements, e.g. within different columns}	F25J3/04	F25J3/04		19
+F25J3/04921	14	{within the same column}	F25J3/04	F25J3/04		42
+F25J3/04927	13	{Liquid or gas distribution devices}	F25J3/04	F25J3/04		84
+F25J3/04933	13	{Partitioning walls or sheets}	F25J3/04	F25J3/04		14
+F25J3/04939	14	{Vertical, e.g. dividing wall columns (details of dephlegmators F25J5/007)}	F25J3/04	F25J3/04		74
+F25J3/04945	12	{Details of internal structure; insulation and housing of the cold box}	F25J3/04	F25J3/04		237
+F25J3/04951	12	{Arrangements of multiple air fractionation units or multiple equipments fulfilling the same process step, e.g. multiple trains in a network (F25J3/04636 takes precedence)}	F25J3/04	F25J3/04		75
+F25J3/04957	13	{and inter-connecting equipments upstream of the fractionation unit (s), i.e. at the "front-end"}	F25J3/04	F25J3/04		183
+F25J3/04963	13	{and inter-connecting equipment within or downstream of the fractionation unit(s) (F25J3/04393 takes precedence)}	F25J3/04	F25J3/04		166
+F25J3/04969	12	{Retrofitting or revamping of an existing air fractionation unit}	F25J3/04	F25J3/04		122
+F25J3/04975	12	{adapted for special use of the air fractionation unit, e.g. transportable devices by truck or small scale use}	F25J3/04	F25J3/04		66
+F25J3/04981	13	{for portable medical or home use}	F25J3/04	F25J3/04		23
+F25J3/04987	13	{for offshore use}	F25J3/04	F25J3/04		50
+F25J3/04993	13	{for space applications, e.g. for rocket use}	F25J3/04	F25J3/04		19
+F25J3/06	8	by partial condensation (F25J3/08 takes precedence; by rectification F25J3/02{; purification of hydrocarbons in general C07C7/00})	F25J3/06	F25J3/06		204
+F25J3/0605	9	{characterised by the feed stream (for air F25J3/04)}	F25J3/06	F25J3/06		10
+F25J3/061	10	{Natural gas or substitute natural gas}	F25J3/06	F25J3/06		395
+F25J3/0615	11	{Liquefied natural gas}	F25J3/06	F25J3/06		68
+F25J3/062	10	{Refinery gas, cracking gas, coke oven gas, gaseous mixtures containing aliphatic unsaturated CnHm or gaseous mixtures of undefined nature}	F25J3/06	F25J3/06		224
+F25J3/0625	10	{H2/CO mixtures, i.e. synthesis gas; Water gas or shifted synthesis gas (production of carbon monoxide containing gas in general C01B32/40, C10J, C10K; production of hydrogen containing gas C01B3/00)}	F25J3/06	F25J3/06		125
+F25J3/063	9	{characterised by the separated product stream}	F25J3/06	F25J3/06		10
+F25J3/0635	10	{separation of CnHm with 1 carbon atom or more}	F25J3/06	F25J3/06		425
+F25J3/064	10	{separation of CnHm with 2 carbon atoms or more}	F25J3/06	F25J3/06		154
+F25J3/0645	10	{separation of CnHm with 3 carbon atoms or more}	F25J3/06	F25J3/06		97
+F25J3/065	10	{separation of CnHm with 4 carbon atoms or more}	F25J3/06	F25J3/06		78
+F25J3/0655	10	{separation of hydrogen (production of hydrogen containing gas in general C01B3/00, e.g. separation of hydrogen or hydrogen containing gases form gaseous mixtures at low temperatures C01B3/506)}	F25J3/06	F25J3/06		278
+F25J3/066	10	{separation of nitrogen (from air F25J3/04, production of nitrogen in general C01B21/00)}	F25J3/06	F25J3/06		192
+F25J3/0665	10	{separation of carbon monoxide (production of carbon monoxide containing gas in general C01B32/40, C10J, C10K)}	F25J3/06	F25J3/06		33
+F25J3/067	10	{separation of carbon dioxide (production of carbon dioxide in general C01B32/00)}	F25J3/06	F25J3/06		479
+F25J3/0675	10	{separation of H2/CO mixtures, i.e. of synthesis gas (production of carbon monoxide containing gas in general C01B32/40, C10J, C10K, production of hydrogen containing gas C01B3/00)}	F25J3/06	F25J3/06		15
+F25J3/068	10	{separation of H2/N2 mixtures, i.e. of ammonia synthesis gas (in general C01B3/00)}	F25J3/06	F25J3/06		12
+F25J3/0685	10	{separation of noble gases (from air F25J3/04642; in general C01B23/00)}	F25J3/06	F25J3/06		58
+F25J3/069	11	{of helium}	F25J3/06	F25J3/06		131
+F25J3/0695	9	{Start-up or control of the process; Details of the apparatus used}	F25J3/06	F25J3/06		101
+F25J3/08	8	Separating gaseous impurities from gases or gaseous mixtures {or from liquefied gases or liquefied gaseous mixtures}(cold traps B01D8/00)	F25J3/08	F25J3/08		1335
+F25J5/00	7	Arrangements of cold exchangers or cold accumulators in separation or liquefaction plants (heat exchangers F28C, F28D, F28F)	F25J5/00	F25J5/00		684
+F25J5/002	8	{for continuously recuperating cold, i.e. in a so-called recuperative heat exchanger}	F25J5/00	F25J5/00		509
+F25J5/005	9	{in a reboiler-condenser, e.g. within a column}	F25J5/00	F25J5/00		277
+F25J5/007	9	{combined with mass exchange, i.e. in a so-called dephlegmator}	F25J5/00	F25J5/00		114
+F25J2200/00	7	Processes or apparatus using separation by rectification	CPCONLY	F25J2200/00		4
+F25J2200/02	8	in a single pressure main column system	CPCONLY	F25J2200/02		1698
+F25J2200/04	8	in a dual pressure main column system	CPCONLY	F25J2200/04		776
+F25J2200/06	9	in a classical double column flow-sheet, i.e. with thermal coupling by a main reboiler-condenser in the bottom of low pressure respectively top of high pressure column	CPCONLY	F25J2200/06		264
+F25J2200/08	8	in a triple pressure main column system	CPCONLY	F25J2200/08		208
+F25J2200/10	8	in a quadruple, or more, column or pressure system	CPCONLY	F25J2200/10		72
+F25J2200/20	8	in an elevated pressure multiple column system wherein the lowest pressure column is at a pressure well above the minimum pressure needed to overcome pressure drop to reject the products to atmosphere	CPCONLY	F25J2200/20		361
+F25J2200/30	8	using a side column in a single pressure column system	CPCONLY	F25J2200/30		207
+F25J2200/32	8	using a side column fed by a stream from the high pressure column	CPCONLY	F25J2200/32		177
+F25J2200/34	8	using a side column fed by a stream from the low pressure column	CPCONLY	F25J2200/34		305
+F25J2200/38	8	using pre-separation or distributed distillation before a main column system, e.g. in a at least a double column system	CPCONLY	F25J2200/38		113
+F25J2200/40	8	Features relating to the provision of boil-up in the bottom of a column	CPCONLY	F25J2200/40		596
+F25J2200/50	8	using multiple (re-)boiler-condensers at different heights of the column	CPCONLY	F25J2200/50		744
+F25J2200/52	9	in the high pressure column of a double pressure main column system	CPCONLY	F25J2200/52		169
+F25J2200/54	9	in the low pressure column of a double pressure main column system	CPCONLY	F25J2200/54		391
+F25J2200/70	8	Refluxing the column with a condensed part of the feed stream, i.e. fractionator top is stripped or self-rectified	CPCONLY	F25J2200/70		1090
+F25J2200/72	8	Refluxing the column with at least a part of the totally condensed overhead gas	CPCONLY	F25J2200/72		750
+F25J2200/74	8	Refluxing the column with at least a part of the partially condensed overhead gas	CPCONLY	F25J2200/74		1344
+F25J2200/76	8	Refluxing the column with condensed overhead gas being cycled in a quasi-closed loop refrigeration cycle	CPCONLY	F25J2200/76		538
+F25J2200/78	8	Refluxing the column with a liquid stream originating from an upstream or downstream fractionator column	CPCONLY	F25J2200/78		393
+F25J2200/80	8	using integrated mass and heat exchange, i.e. non-adiabatic rectification in a reflux exchanger or dephlegmator	CPCONLY	F25J2200/80		298
+F25J2200/90	8	Details relating to column internals, e.g. structured packing, gas or liquid distribution	CPCONLY	F25J2200/90		306
+F25J2200/92	9	Details relating to the feed point	CPCONLY	F25J2200/92		57
+F25J2200/94	9	Details relating to the withdrawal point	CPCONLY	F25J2200/94		295
+F25J2200/96	9	Dividing wall column	CPCONLY	F25J2200/96		33
+F25J2205/00	7	Processes or apparatus using other separation and/or other processing means	CPCONLY	F25J2205/00		1
+F25J2205/02	8	using simple phase separation in a vessel or drum	CPCONLY	F25J2205/02		1028
+F25J2205/04	9	in the feed line, i.e. upstream of the fractionation step	CPCONLY	F25J2205/04		1754
+F25J2205/10	8	using combined expansion and separation, e.g. in a vortex tube, "Ranque tube" or a "cyclonic fluid separator", i.e. combination of an isentropic nozzle and a cyclonic separator; Centrifugal separation	CPCONLY	F25J2205/10		199
+F25J2205/20	8	using solidification of components	CPCONLY	F25J2205/20		541
+F25J2205/24	8	using regenerators, cold accumulators or reversible heat exchangers	CPCONLY	F25J2205/24		680
+F25J2205/30	8	using a washing, e.g. "scrubbing" or bubble column for purification purposes	CPCONLY	F25J2205/30		676
+F25J2205/32	9	as direct contact cooling tower to produce a cooled gas stream, e.g. direct contact after cooler [DCAC]	CPCONLY	F25J2205/32		247
+F25J2205/34	9	as evaporative cooling tower to produce chilled water, e.g. evaporative water chiller [EWC]	CPCONLY	F25J2205/34		243
+F25J2205/40	8	using hybrid system, i.e. combining cryogenic and non-cryogenic separation techniques	CPCONLY	F25J2205/40		772
+F25J2205/50	8	using absorption, i.e. with selective solvents or lean oil, heavier CnHm and including generally a regeneration step for the solvent or lean oil	CPCONLY	F25J2205/50		361
+F25J2205/60	8	using adsorption on solid adsorbents, e.g. by temperature-swing adsorption [TSA] at the hot or cold end	CPCONLY	F25J2205/60		971
+F25J2205/62	9	Purifying more than one feed stream in multiple adsorption vessels, e.g. for two feed streams at different pressures	CPCONLY	F25J2205/62		51
+F25J2205/64	9	by pressure-swing adsorption [PSA] at the hot end	CPCONLY	F25J2205/64		159
+F25J2205/66	9	Regenerating the adsorption vessel, e.g. kind of reactivation gas	CPCONLY	F25J2205/66		308
+F25J2205/68	10	Cooling the adsorption vessel	CPCONLY	F25J2205/68		39
+F25J2205/70	10	Heating the adsorption vessel	CPCONLY	F25J2205/70		166
+F25J2205/72	10	Pressurising or depressurising the adsorption vessel	CPCONLY	F25J2205/72		49
+F25J2205/80	8	using membrane, i.e. including a permeation step	CPCONLY	F25J2205/80		359
+F25J2205/82	8	using a reactor with combustion or catalytic reaction	CPCONLY	F25J2205/82		500
+F25J2205/84	8	using filter	CPCONLY	F25J2205/84		190
+F25J2205/86	8	using electrical phenomena, e.g. Corona discharge, electrolysis or magnetic field	CPCONLY	F25J2205/86		134
+F25J2205/90	8	Mixing of components	CPCONLY	F25J2205/90		154
+F25J2210/00	7	Processes characterised by the type or other details of the feed stream	CPCONLY	F25J2210/00		2
+F25J2210/02	8	Multiple feed streams, e.g. originating from different sources	CPCONLY	F25J2210/02		151
+F25J2210/04	8	Mixing or blending of fluids with the feed stream	CPCONLY	F25J2210/04		837
+F25J2210/06	8	Splitting of the feed stream, e.g. for treating or cooling in different ways	CPCONLY	F25J2210/06		934
+F25J2210/12	8	Refinery or petrochemical off-gas	CPCONLY	F25J2210/12		781
+F25J2210/14	8	Coke-ovens gas	CPCONLY	F25J2210/14		161
+F25J2210/18	8	H2/CO mixtures, i.e. synthesis gas; Water gas, shifted synthesis gas or purge gas from HYCO synthesis	CPCONLY	F25J2210/18		36
+F25J2210/20	8	H2/N2 mixture, i.e. synthesis gas for or purge gas from ammonia synthesis	CPCONLY	F25J2210/20		181
+F25J2210/40	8	Air or oxygen enriched air, i.e. generally less than 30mol% of O2	CPCONLY	F25J2210/40		503
+F25J2210/42	8	Nitrogen	CPCONLY	F25J2210/42		1340
+F25J2210/50	8	Oxygen	CPCONLY	F25J2210/50		263
+F25J2210/58	8	Argon	CPCONLY	F25J2210/58		95
+F25J2210/60	8	Natural gas or synthetic natural gas [SNG]	CPCONLY	F25J2210/60		312
+F25J2210/62	8	Liquefied natural gas [LNG]; Natural gas liquids [NGL]; Liquefied petroleum gas [LPG]	CPCONLY	F25J2210/62		747
+F25J2210/66	8	Landfill or fermentation off-gas, e.g. "Bio-gas"	CPCONLY	F25J2210/66		143
+F25J2210/70	8	Flue or combustion exhaust gas	CPCONLY	F25J2210/70		397
+F25J2210/80	8	Carbon dioxide	CPCONLY	F25J2210/80		120
+F25J2210/90	8	Boil-off gas from storage	CPCONLY	F25J2210/90		269
+F25J2215/00	7	Processes characterised by the type or other details of the product stream	CPCONLY	F25J2215/00		3
+F25J2215/02	8	Mixing or blending of fluids to yield a certain product	CPCONLY	F25J2215/02		346
+F25J2215/04	8	Recovery of liquid products	CPCONLY	F25J2215/04		1110
+F25J2215/10	8	Hydrogen	CPCONLY	F25J2215/10		173
+F25J2215/14	8	Carbon monoxide	CPCONLY	F25J2215/14		43
+F25J2215/18	8	HYCO synthesis gas, e.g. H2/CO mixture	CPCONLY	F25J2215/18		4
+F25J2215/20	8	Ammonia synthesis gas, e.g. H2/N2 mixture	CPCONLY	F25J2215/20		17
+F25J2215/30	8	Helium	CPCONLY	F25J2215/30		305
+F25J2215/32	8	Neon	CPCONLY	F25J2215/32		189
+F25J2215/34	8	Krypton	CPCONLY	F25J2215/34		134
+F25J2215/36	8	Xenon	CPCONLY	F25J2215/36		169
+F25J2215/40	8	Air or oxygen enriched air, i.e. generally less than 30mol% of O2	CPCONLY	F25J2215/40		216
+F25J2215/42	8	Nitrogen or special cases, e.g. multiple or low purity N2	CPCONLY	F25J2215/42		240
+F25J2215/44	9	Ultra high purity nitrogen, i.e. generally less than 1 ppb impurities	CPCONLY	F25J2215/44		243
+F25J2215/50	8	Oxygen or special cases, e.g. isotope-mixtures or low purity O2	CPCONLY	F25J2215/50		353
+F25J2215/52	9	Oxygen production with multiple purity O2	CPCONLY	F25J2215/52		115
+F25J2215/54	9	Oxygen production with multiple pressure O2	CPCONLY	F25J2215/54		71
+F25J2215/56	9	Ultra high purity oxygen, i.e. generally more than 99,9% O2	CPCONLY	F25J2215/56		191
+F25J2215/58	8	Argon	CPCONLY	F25J2215/58		169
+F25J2215/60	8	Methane	CPCONLY	F25J2215/60		206
+F25J2215/62	8	Ethane or ethylene	CPCONLY	F25J2215/62		645
+F25J2215/64	8	Propane or propylene	CPCONLY	F25J2215/64		283
+F25J2215/66	8	Butane or mixed butanes	CPCONLY	F25J2215/66		110
+F25J2215/80	8	Carbon dioxide	CPCONLY	F25J2215/80		235
+F25J2220/00	7	Processes or apparatus involving steps for the removal of impurities	CPCONLY	F25J2220/00		4
+F25J2220/02	8	Separating impurities in general from the feed stream	CPCONLY	F25J2220/02		274
+F25J2220/04	8	Separating impurities in general from the product stream	CPCONLY	F25J2220/04		33
+F25J2220/40	8	Separating high boiling, i.e. less volatile components from air, e.g. CO2, hydrocarbons	CPCONLY	F25J2220/40		114
+F25J2220/42	8	Separating low boiling, i.e. more volatile components from nitrogen, e.g. He, H2, Ne	CPCONLY	F25J2220/42		90
+F25J2220/44	8	Separating high boiling, i.e. less volatile components from nitrogen, e.g. CO, Ar, O2, hydrocarbons	CPCONLY	F25J2220/44		113
+F25J2220/50	8	Separating low boiling, i.e. more volatile components from oxygen, e.g. N2, Ar	CPCONLY	F25J2220/50		106
+F25J2220/52	8	Separating high boiling, i.e. less volatile components from oxygen, e.g. Kr, Xe, Hydrocarbons, Nitrous oxides, O3	CPCONLY	F25J2220/52		102
+F25J2220/60	8	Separating impurities from natural gas, e.g. mercury, cyclic hydrocarbons	CPCONLY	F25J2220/60		166
+F25J2220/62	9	Separating low boiling components, e.g. He, H2, N2, Air	CPCONLY	F25J2220/62		620
+F25J2220/64	9	Separating heavy hydrocarbons, e.g. NGL, LPG, C4+ hydrocarbons or heavy condensates in general	CPCONLY	F25J2220/64		707
+F25J2220/66	9	Separating acid gases, e.g. CO2, SO2, H2S or RSH	CPCONLY	F25J2220/66		543
+F25J2220/68	9	Separating water or hydrates	CPCONLY	F25J2220/68		239
+F25J2220/80	8	Separating impurities from carbon dioxide, e.g. H2O or water-soluble contaminants	CPCONLY	F25J2220/80		131
+F25J2220/82	9	Separating low boiling, i.e. more volatile components, e.g. He, H2, CO, Air gases, CH4	CPCONLY	F25J2220/82		629
+F25J2220/84	9	Separating high boiling, i.e. less volatile components, e.g. NOx, SOx, H2S	CPCONLY	F25J2220/84		138
+F25J2220/90	8	Separating isotopes of a component, e.g. H2, O2	CPCONLY	F25J2220/90		64
+F25J2230/00	7	Processes or apparatus involving steps for increasing the pressure of gaseous process streams	CPCONLY	F25J2230/00		3
+F25J2230/02	8	Compressor intake arrangement, e.g. filtering or cooling	CPCONLY	F25J2230/02		102
+F25J2230/04	8	Compressor cooling arrangement, e.g. inter- or after-stage cooling or condensate removal	CPCONLY	F25J2230/04		493
+F25J2230/06	8	Adiabatic compressor, i.e. without interstage cooling	CPCONLY	F25J2230/06		95
+F25J2230/08	8	Cold compressor, i.e. suction of the gas at cryogenic temperature and generally without afterstage-cooler	CPCONLY	F25J2230/08		605
+F25J2230/20	8	Integrated compressor and process expander; Gear box arrangement; Multiple compressors on a common shaft	CPCONLY	F25J2230/20		529
+F25J2230/22	8	Compressor driver arrangement, e.g. power supply by motor, gas or steam turbine	CPCONLY	F25J2230/22		170
+F25J2230/24	8	Multiple compressors or compressor stages in parallel	CPCONLY	F25J2230/24		260
+F25J2230/30	8	Compression of the feed stream	CPCONLY	F25J2230/30		1652
+F25J2230/32	8	Compression of the product stream	CPCONLY	F25J2230/32		228
+F25J2230/40	8	the fluid being air	CPCONLY	F25J2230/40		278
+F25J2230/42	8	the fluid being nitrogen	CPCONLY	F25J2230/42		248
+F25J2230/50	8	the fluid being oxygen	CPCONLY	F25J2230/50		86
+F25J2230/52	8	the fluid being oxygen enriched compared to air, e.g. "crude oxygen"	CPCONLY	F25J2230/52		67
+F25J2230/58	8	the fluid being argon or crude argon	CPCONLY	F25J2230/58		54
+F25J2230/60	8	the fluid being hydrocarbons or a mixture of hydrocarbons	CPCONLY	F25J2230/60		540
+F25J2230/80	8	the fluid being carbon dioxide	CPCONLY	F25J2230/80		132
+F25J2235/00	7	Processes or apparatus involving steps for increasing the pressure or for conveying of liquid process streams	CPCONLY	F25J2235/00		
+F25J2235/02	8	using a pump in general or hydrostatic pressure increase	CPCONLY	F25J2235/02		224
+F25J2235/04	8	using a pressure accumulator	CPCONLY	F25J2235/04		72
+F25J2235/06	8	Lifting of liquids by gas lift, e.g. "Mammutpumpe"	CPCONLY	F25J2235/06		42
+F25J2235/42	8	the fluid being nitrogen	CPCONLY	F25J2235/42		337
+F25J2235/50	8	the fluid being oxygen	CPCONLY	F25J2235/50		436
+F25J2235/52	8	the fluid being oxygen enriched compared to air ("crude oxygen")	CPCONLY	F25J2235/52		60
+F25J2235/58	8	the fluid being argon or crude argon	CPCONLY	F25J2235/58		190
+F25J2235/60	8	the fluid being (a mixture of) hydrocarbons	CPCONLY	F25J2235/60		732
+F25J2235/80	8	the fluid being carbon dioxide	CPCONLY	F25J2235/80		202
+F25J2240/00	7	Processes or apparatus involving steps for expanding of process streams	CPCONLY	F25J2240/00		2
+F25J2240/02	8	Expansion of a process fluid in a work-extracting turbine (i.e. isentropic expansion), e.g. of the feed stream	CPCONLY	F25J2240/02		843
+F25J2240/04	9	Multiple expansion turbines in parallel	CPCONLY	F25J2240/04		176
+F25J2240/10	9	the fluid being air	CPCONLY	F25J2240/10		246
+F25J2240/12	9	the fluid being nitrogen	CPCONLY	F25J2240/12		192
+F25J2240/20	9	the fluid being oxygen	CPCONLY	F25J2240/20		26
+F25J2240/22	9	the fluid being oxygen enriched compared to air, e.g. "crude oxygen"	CPCONLY	F25J2240/22		20
+F25J2240/28	9	the fluid being argon or crude argon	CPCONLY	F25J2240/28		8
+F25J2240/30	8	Dynamic liquid or hydraulic expansion with extraction of work, e.g. single phase or two-phase turbine	CPCONLY	F25J2240/30		164
+F25J2240/40	8	Expansion without extracting work, i.e. isenthalpic throttling, e.g. JT valve, regulating valve or venturi, or isentropic nozzle, e.g. Laval	CPCONLY	F25J2240/40		535
+F25J2240/42	9	the fluid being air	CPCONLY	F25J2240/42		138
+F25J2240/44	9	the fluid being nitrogen	CPCONLY	F25J2240/44		99
+F25J2240/46	9	the fluid being oxygen	CPCONLY	F25J2240/46		65
+F25J2240/48	9	the fluid being oxygen enriched compared to air, e.g. "crude oxygen"	CPCONLY	F25J2240/48		15
+F25J2240/60	8	Expansion by ejector or injector, e.g. "Gasstrahlpumpe", "venturi mixing", "jet pumps"	CPCONLY	F25J2240/60		219
+F25J2240/70	8	Steam turbine, e.g. used in a Rankine cycle	CPCONLY	F25J2240/70		231
+F25J2240/80	8	Hot exhaust gas turbine combustion engine	CPCONLY	F25J2240/80		158
+F25J2240/82	9	with waste heat recovery, e.g. in a combined cycle, i.e. for generating steam used in a Rankine cycle	CPCONLY	F25J2240/82		179
+F25J2240/90	8	Hot gas waste turbine of an indirect heated gas for power generation	CPCONLY	F25J2240/90		313
+F25J2245/00	7	Processes or apparatus involving steps for recycling of process streams	CPCONLY	F25J2245/00		3
+F25J2245/02	8	Recycle of a stream in general, e.g. a by-pass stream	CPCONLY	F25J2245/02		1779
+F25J2245/40	8	the recycled stream being air	CPCONLY	F25J2245/40		440
+F25J2245/42	8	the recycled stream being nitrogen	CPCONLY	F25J2245/42		804
+F25J2245/50	8	the recycled stream being oxygen	CPCONLY	F25J2245/50		474
+F25J2245/58	8	the recycled stream being argon or crude argon	CPCONLY	F25J2245/58		193
+F25J2245/90	8	the recycled stream being boil-off gas from storage	CPCONLY	F25J2245/90		685
+F25J2250/00	7	Details related to the use of reboiler-condensers	CPCONLY	F25J2250/00		5
+F25J2250/02	8	Bath type boiler-condenser using thermo-siphon effect, e.g. with natural or forced circulation or pool boiling, i.e. core-in-kettle heat exchanger	CPCONLY	F25J2250/02		609
+F25J2250/04	8	Down-flowing type boiler-condenser, i.e. with evaporation of a falling liquid film	CPCONLY	F25J2250/04		168
+F25J2250/10	8	Boiler-condenser with superposed stages	CPCONLY	F25J2250/10		165
+F25J2250/20	8	Boiler-condenser with multiple exchanger cores in parallel or with multiple re-boiling or condensing streams	CPCONLY	F25J2250/20		558
+F25J2250/30	8	External or auxiliary boiler-condenser in general, e.g. without a specified fluid or one fluid is not a primary air component or an intermediate fluid	CPCONLY	F25J2250/30		67
+F25J2250/40	9	One fluid being air	CPCONLY	F25J2250/40		348
+F25J2250/42	9	One fluid being nitrogen	CPCONLY	F25J2250/42		353
+F25J2250/50	9	One fluid being oxygen	CPCONLY	F25J2250/50		466
+F25J2250/52	9	One fluid being oxygen enriched compared to air, e.g. "crude oxygen"	CPCONLY	F25J2250/52		132
+F25J2250/58	9	One fluid being argon or crude argon	CPCONLY	F25J2250/58		90
+F25J2260/00	7	Coupling of processes or apparatus to other units; Integrated schemes	CPCONLY	F25J2260/00		3
+F25J2260/02	8	Integration in an installation for exchanging heat, e.g. for waste heat recovery	CPCONLY	F25J2260/02		164
+F25J2260/10	8	Integration in a gas transmission system at a pressure reduction, e.g. "let down" station	CPCONLY	F25J2260/10		21
+F25J2260/20	8	Integration in an installation for liquefying or solidifying a fluid stream	CPCONLY	F25J2260/20		222
+F25J2260/30	8	Integration in an installation using renewable energy	CPCONLY	F25J2260/30		163
+F25J2260/42	8	Integration in an installation using nitrogen, e.g. as utility gas, for inerting or purging purposes in IGCC, POX, GTL, PSA, float glass forming, incineration processes, for heat recovery or for enhanced oil recovery	CPCONLY	F25J2260/42		40
+F25J2260/44	9	using nitrogen for cooling purposes	CPCONLY	F25J2260/44		138
+F25J2260/50	8	Integration in an installation using oxygen, e.g. in the burner of a glass facility, waste incineration or oxygen based process [OBP] in general	CPCONLY	F25J2260/50		15
+F25J2260/58	8	Integration in an installation using argon	CPCONLY	F25J2260/58		9
+F25J2260/60	8	Integration in an installation using hydrocarbons, e.g. for fuel purposes	CPCONLY	F25J2260/60		134
+F25J2260/80	8	Integration in an installation using carbon dioxide, e.g. for EOR, sequestration, refrigeration etc.	CPCONLY	F25J2260/80		299
+F25J2270/00	7	Refrigeration techniques used	CPCONLY	F25J2270/00		2
+F25J2270/02	8	Internal refrigeration with liquid vaporising loop	CPCONLY	F25J2270/02		985
+F25J2270/04	8	Internal refrigeration with work-producing gas expansion loop	CPCONLY	F25J2270/04		681
+F25J2270/06	9	with multiple gas expansion loops	CPCONLY	F25J2270/06		447
+F25J2270/08	8	Internal refrigeration by flash gas recovery loop	CPCONLY	F25J2270/08		137
+F25J2270/12	8	External refrigeration with liquid vaporising loop	CPCONLY	F25J2270/12		1265
+F25J2270/14	8	External refrigeration with work-producing gas expansion loop	CPCONLY	F25J2270/14		367
+F25J2270/16	9	with mutliple gas expansion loops of the same refrigerant	CPCONLY	F25J2270/16		455
+F25J2270/18	8	External refrigeration with incorporated cascade loop	CPCONLY	F25J2270/18		199
+F25J2270/20	8	Quasi-closed internal or closed external hydrogen refrigeration cycle	CPCONLY	F25J2270/20		32
+F25J2270/24	8	Quasi-closed internal or closed external carbon monoxide refrigeration cycle	CPCONLY	F25J2270/24		98
+F25J2270/30	8	Quasi-closed internal or closed external helium refrigeration cycle	CPCONLY	F25J2270/30		55
+F25J2270/40	8	Quasi-closed internal or closed external air refrigeration cycle	CPCONLY	F25J2270/40		39
+F25J2270/42	8	Quasi-closed internal or closed external nitrogen refrigeration cycle	CPCONLY	F25J2270/42		606
+F25J2270/50	8	Quasi-closed internal or closed external oxygen refrigeration cycle	CPCONLY	F25J2270/50		31
+F25J2270/58	8	Quasi-closed internal or closed external argon refrigeration cycle	CPCONLY	F25J2270/58		49
+F25J2270/60	8	Closed external refrigeration cycle with single component refrigerant [SCR], e.g. C1-, C2- or C3-hydrocarbons	CPCONLY	F25J2270/60		659
+F25J2270/66	8	Closed external refrigeration cycle with multi component refrigerant [MCR], e.g. mixture of hydrocarbons	CPCONLY	F25J2270/66		495
+F25J2270/80	8	Quasi-closed internal or closed external carbon dioxide refrigeration cycle	CPCONLY	F25J2270/80		91
+F25J2270/88	8	Quasi-closed internal refrigeration or heat pump cycle, if not otherwise provided	CPCONLY	F25J2270/88		197
+F25J2270/90	8	External refrigeration, e.g. conventional closed-loop mechanical refrigeration unit using Freon or NH3, unspecified external refrigeration	CPCONLY	F25J2270/90		1055
+F25J2270/902	9	Details about the refrigeration cycle used, e.g. composition of refrigerant, arrangement of compressors or cascade, make up sources, use of reflux exchangers etc.	CPCONLY	F25J2270/902		165
+F25J2270/904	9	by liquid or gaseous cryogen in an open loop	CPCONLY	F25J2270/904		747
+F25J2270/906	9	by heat driven absorption chillers	CPCONLY	F25J2270/906		168
+F25J2270/908	9	by regenerative chillers, i.e. oscillating or dynamic systems, e.g. Stirling refrigerator, thermoelectric ("Peltier") or magnetic refrigeration	CPCONLY	F25J2270/908		267
+F25J2270/91	10	using pulse tube refrigeration	CPCONLY	F25J2270/91		78
+F25J2270/912	9	Liquefaction cycle of a low-boiling (feed) gas in a cryocooler, i.e. in a closed-loop refrigerator	CPCONLY	F25J2270/912		130
+F25J2280/00	7	Control of the process or apparatus	CPCONLY	F25J2280/00		2
+F25J2280/02	8	Control in general, load changes, different modes ("runs"), measurements	CPCONLY	F25J2280/02		531
+F25J2280/10	8	Control for or during start-up and cooling down of the installation	CPCONLY	F25J2280/10		148
+F25J2280/20	8	Control for stopping, deriming or defrosting after an emergency shut-down of the installation or for back up system	CPCONLY	F25J2280/20		89
+F25J2280/30	8	Control of a discontinuous or intermittent ("batch") process	CPCONLY	F25J2280/30		52
+F25J2280/40	8	Control of freezing of components	CPCONLY	F25J2280/40		95
+F25J2280/50	8	Advanced process control, e.g. adaptive or multivariable control	CPCONLY	F25J2280/50		51
+F25J2290/00	7	Other details not covered by groups F25J2200/00 - F25J2280/00	CPCONLY	F25J2290/00		1
+F25J2290/02	8	Comparison of processes or apparatuses	CPCONLY	F25J2290/02		8
+F25J2290/10	8	Mathematical formulae, modeling, plot or curves; Design methods	CPCONLY	F25J2290/10		254
+F25J2290/12	8	Particular process parameters like pressure, temperature, ratios	CPCONLY	F25J2290/12		322
+F25J2290/20	8	Particular dimensions; Small scale or microdevices	CPCONLY	F25J2290/20		38
+F25J2290/30	8	Details about heat insulation or cold insulation	CPCONLY	F25J2290/30		61
+F25J2290/32	8	Details on header or distribution passages of heat exchangers, e.g. of reboiler-condenser or plate heat exchangers	CPCONLY	F25J2290/32		337
+F25J2290/34	8	Details about subcooling of liquids	CPCONLY	F25J2290/34		530
+F25J2290/40	8	Vertical layout or arrangement of cold equipments within in the cold box, e.g. columns, condensers, heat exchangers etc.	CPCONLY	F25J2290/40		296
+F25J2290/42	8	Modularity, pre-fabrication of modules, assembling and erection, horizontal layout, i.e. plot plan, and vertical arrangement of parts of the cryogenic unit, e.g. of the cold box	CPCONLY	F25J2290/42		390
+F25J2290/44	8	Particular materials used, e.g. copper, steel or alloys thereof or surface treatments used, e.g. enhanced surface	CPCONLY	F25J2290/44		208
+F25J2290/50	8	Arrangement of multiple equipments fulfilling the same process step in parallel	CPCONLY	F25J2290/50		91
+F25J2290/60	8	Details about pipelines, i.e. network, for feed or product distribution	CPCONLY	F25J2290/60		226
+F25J2290/62	8	Details of storing a fluid in a tank	CPCONLY	F25J2290/62		1074
+F25J2290/70	8	Processing device is mobile or transportable, e.g. by hand, car, ship, rocket engine etc.	CPCONLY	F25J2290/70		60
+F25J2290/72	8	Processing device is used off-shore, e.g. on a platform or floating on a ship or barge	CPCONLY	F25J2290/72		108
+F25J2290/80	8	Retrofitting, revamping or debottlenecking of existing plant	CPCONLY	F25J2290/80		89
+F25J2290/90	8	Details about safety operation of the installation	CPCONLY	F25J2290/90		56

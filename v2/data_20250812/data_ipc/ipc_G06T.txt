@@ -1,0 +1,155 @@
+G06T   1/00		汎用イメージデータ処理［６］	General purpose image data processing	130920
+G06T   1/20	・	プロセッサアーキテクチャ；プロセッサ構成，例．パイプライン［６］	Processor architectures; Processor configuration, e.g. pipelining	17811
+G06T   1/40	・・	ニューラルネットワーク［６］	Neural networks	1974
+G06T   1/60	・	メモリ管理［６］	Memory management	12373
+G06T   3/00		イメージの平面における幾何学的イメージ変換［２０２４．０１］	Geometric image transformations in the plane of the image	32965
+G06T   3/02	・	アフィン変換（画像の位置合わせのためのもの　Ｇ０６Ｔ３／１４７；画像モザイキングのためのもの　Ｇ０６Ｔ３／４０３８）［２０２４．０１］	Affine transformations(for image registration G06T3/147; for image mosaicing G06T3/4038)	381
+G06T   3/04	・	コンテクストを保存しての変換，例．重要度マップの使用によるもの（天球画像から円筒状画像への変換　Ｇ０６Ｔ３／１２）［２０２４．０１］	Context-preserving transformations, e.g. by using an importance map(panospheric to cylindrical image transformations G06T3/12)	1116
+G06T   3/047	・・	魚眼または広角の変換［２０２４．０１］	Fisheye or wide-angle transformations	113
+G06T   3/053	・・	コンテクスト中の細部を表示（魚眼または広角の変換Ｇ０６Ｔ３／０４７）［２０２４．０１］	Detail-in-context presentations(fisheye or wide-angle transformations G06T3/047)	12
+G06T   3/06	・	高次元の構造から低次元の表面への位相幾何学的写像［２０２４．０１］	Topological mapping of higher dimensional structures onto lower dimensional surfaces	437
+G06T   3/067	・・	３次元木構造から２次元平面への再構成又は展開［２０２４．０１］	Reshaping or unfolding 3D tree structures onto 2D planes	89
+G06T   3/073	・・	回転面から平面画像への変換，例．円筒面から平面画像［２０２４．０１］	Transforming surfaces of revolution to planar images, e.g. cylindrical surfaces to planar images	12
+G06T   3/08	・	非平面の表面上に画像を投影，例．測地学のスクリーン［２０２４．０１］	Projecting images onto non-planar surfaces, e.g. geodetic screens	296
+G06T   3/10	・	入力画像の特性に応じて、変換方法を選択［２０２４．０１］	Selection of transformation methods according to the characteristics of the input images	40
+G06T   3/12	・	天球画像から円筒状画像への変換［２０２４．０１］	Panospheric to cylindrical image transformations	26
+G06T   3/14	・	画像の位置合わせのための変換，例．画像のアライメントのための調整またはマッピング［２０２４．０１］	Transformations for image registration, e.g. adjusting or mapping for alignment of images	214
+G06T   3/147	・・	アフィン変換を用いるもの［２０２４．０１］	using affine transformations	84
+G06T   3/153	・・	弾性スナッピングを用いるもの［２０２４．０１］	using elastic snapping	8
+G06T   3/16	・	時空間変換，例．ビデオキュビズム［２０２４．０１］	Spatio-temporal transformations, e.g. video cubism	21
+G06T   3/18	・	画像のワーピング，例．各画素を個別に再配置［２０２４．０１］	Image warping, e.g. rearranging pixels individually	231
+G06T   3/20	・	画像の全体またはその部分の線形変換，例．左右への移動［２００６．０１］	Linear translation of whole images or parts thereof, e.g. panning	1278
+G06T   3/40	・	画像の全体またはその部分のスケーリング、例．拡大または縮小［２０２４．０１］	Scaling of whole images or parts thereof, e.g. expanding or contracting	41195
+G06T   3/4007	・・	補間に基づくもの，例．バイリニア補間（画像のデモザイキングＧ０６Ｔ３／４０１５；エッジドリブンまたはエッジベースのスケーリングＧ０６Ｔ３／４０３）［２０２４．０１］	based on interpolation, e.g. bilinear interpolation(image demosaicing G06T3/4015; edge-driven or edge-based scaling G06T3/403)	907
+G06T   3/4015	・・	画像のデモザイキング，例．カラーフィルターアレイ［ＣＦＡ］またはベイヤーパターン［２０２４．０１］	Image demosaicing, e.g. colour filter arrays [CFA] or Bayer patterns	127
+G06T   3/4023	・・	画素または画素のラインの間引に基づくもの；画素または画素のラインの挿入に基づくもの［２０２４．０１］	based on decimating pixels or lines of pixels; based on inserting pixels or lines of pixels	172
+G06T   3/403	・・	エッジドリブンのスケーリング；エッジベースのスケーリング［２０２４．０１］	Edge-driven scaling; Edge-based scaling	44
+G06T   3/4038	・・	画像モザイキング，例．平面サブ画像から平面画像を構成［２０２４．０１］	Image mosaicing, e.g. composing plane images from plane sub-images	2137
+G06T   3/4046	・・	ニューラルネットワークを用いるもの［２０２４．０１］	using neural networks	1143
+G06T   3/4053	・・	超解像，すなわちセンサーの解像度より高い出力画像の解像度，に基づくもの［２０２４．０１］	based on super-resolution, i.e. the output image resolution being higher than the sensor resolution	1686
+G06T   3/4061	・・・	異なるスペクトル帯域から細部を挿入することによるもの［２０２４．０１］	by injecting details from different spectral ranges	16
+G06T   3/4069	・・・	サブピクセルの移動によるもの［２０２４．０１］	by subpixel displacements	16
+G06T   3/4076	・・・	低解像度の元画像を用いて高解像度の画像を反復して修正するもの［２０２４．０１］	using the original low-resolution images to iteratively correct the high-resolution images	224
+G06T   3/4084	・・	変換領域で行うもの，例．離散フーリエ変換［ＦＦＴ］領域におけるスケーリング［２０２４．０１］	in the transform domain, e.g. fast Fourier transform [FFT] domain scaling	73
+G06T   3/4092	・・	画像解像度の変換を伴うトランスコーディング，例．クライアント−サーバー構造を用いることによるもの［２０２４．０１］	Image resolution transcoding, e.g. by using client-server architectures	45
+G06T   3/60	・	画像の全体またはその部分の回転［２０２４．０１］	Rotation of whole images or parts thereof	5938
+G06T   3/602	・・	ブロック回転によるもの，例．再帰的な反転または回転によるもの［２０２４．０１］	by block rotation, e.g. by recursive reversal or rotation	11
+G06T   3/604	・・	座標回転ディジタル計算機［ＣＯＲＤＩＣ］の装置を用いるもの［２０２４．０１］	using coordinate rotation digital computer [CORDIC] devices	35
+G06T   3/606	・・	メモリのアドレス指定又はマッピングによるもの［２０２４．０１］	by memory addressing or mapping	6
+G06T   3/608	・・	スキュー変形によるもの，例．２−パス法または３−パス法による回転［２０２４．０１］	by skew deformation, e.g. two-pass or three-pass rotation	55
+G06T   5/00		イメージの強調または復元［２０２４．０１］	Image enhancement or restoration	89064
+G06T   5/10	・	非空間領域のフィルタリングを用いるもの［２００６．０１］	using non-spatial domain filtering	3292
+G06T   5/20	・	ローカルオペレータを用いるもの［２００６．０１］	using local operators	15355
+G06T   5/30	・・	収縮または膨張，例．細線化［２００６．０１］	Erosion or dilatation, e.g. thinning	6036
+G06T   5/40	・	ヒストグラム技術を用いるもの［２００６．０１］	using histogram techniques	8625
+G06T   5/50	・	二つ以上の画像を用いるもの，例．平均化，減算［２００６．０１］	using two or more images, e.g. averaging or subtraction	28901
+G06T   5/60	・	機械学習を用いるもの，例．ニューラルネットワーク［２０２４．０１］	using machine learning, e.g. neural networks	2835
+G06T   5/70	・	ノイズ除去；平滑化［２０２４．０１］	Denoising; Smoothing	6923
+G06T   5/73	・	ぼけの修正；鮮鋭化［２０２４．０１］	Deblurring; Sharpening	1877
+G06T   5/75	・・	アンシャープマスキング［２０２４．０１］	Unsharp masking	40
+G06T   5/77	・	レタッチ，インペインティング，キズ除去［２０２４．０１］	Retouching; Inpainting; Scratch removal	1529
+G06T   5/80	・	幾何学的修正［２０２４．０１］	Geometric correction	1902
+G06T   5/90	・	画像またはその部分のダイナミックレンジの変更［２０２４．０１］	Dynamic range modification of images or parts thereof	2020
+G06T   5/92	・・	画像全体の特性に基づくもの［２０２４．０１］	based on global image properties	691
+G06T   5/94	・・	画像の局所的な特性に基づくもの，例．ローカルのコントラスト強調のためのもの［２０２４．０１］	based on local image properties, e.g. for local contrast enhancement	705
+G06T   7/00		イメージ分析［２０１７．０１］	Image analysis	191071
+G06T   7/10	・	セグメンテーション；エッジ検出（動きに基づくセグメンテーションＧ０６Ｔ７／２１５）［２０１７．０１］<br><b><ul>注</ul></b><br>グループＧ０６Ｔ７／１１　Ｇ０６Ｔ７／１３に分類する際は，Ｇ０６Ｔ７／１３６〜Ｇ０６Ｔ７／１９４の関連するグループにも分類する。	Segmentation; Edge detection (motion-based segmentation G06T7/215);<br><br><b><u>Note(s)</u></b><br><br>When classifying in groups G06T7/11 to G06T7/13 , classification is also made in relevant groups of G06T7/136 to G06T7/194 .	11195
+G06T   7/11	・・	領域に基づくセグメンテーション［２０１７．０１］	Region-based segmentation	42753
+G06T   7/12	・・	エッジに基づくセグメンテーション［２０１７．０１］	Edge-based segmentation	7342
+G06T   7/13	・・	エッジ検出［２０１７．０１］	Edge detection	25566
+G06T   7/136	・・	しきい値を含むもの［２０１７．０１］	involving thresholding 	16566
+G06T   7/143	・・	確率的アプローチを含むもの，例．マルコフ確率場［ＭＲＦ］モデリング［２０１７．０１］	involving probabilistic approaches, e.g. Markov random field [MRF] modelling	825
+G06T   7/149	・・	変形可能なモデル，例．動的輪郭モデル，を含むもの［２０１７．０１］	involving deformable models, e.g. active contour models	881
+G06T   7/155	・・	形態演算子を含むもの［２０１７．０１］	involving morphological operators	2251
+G06T   7/162	・・	グラフに基づく方法を含むもの［２０１７．０１］	involving graph-based methods	385
+G06T   7/168	・・	領域変換法を含むもの［２０１７．０１］	involving transform domain methods	604
+G06T   7/174	・・	２以上のイメージの使用を含むもの［２０１７．０１］	involving the use of two or more images	1971
+G06T   7/181	・・	エッジグローイングを含むもの；エッジリンキングを含むもの［２０１７．０１］	involving edge growing; involving edge linking	1563
+G06T   7/187	・・	領域拡張を含むもの；領域統合を含むもの；コネクテッドコンポーネントラベリングを含むもの［２０１７．０１］	involving region growing; involving region merging; involving connected component labelling	5932
+G06T   7/194	・・	前景背景セグメンテーションを含むもの［２０１７．０１］	involving foreground-background segmentation	9522
+G06T   7/20	・	動きの分析（デジタルビデオ信号を符号化，復号，圧縮または伸張するための動き推定Ｈ０４Ｎ１９／４３，Ｈ０４Ｎ１９／５１）［２０１７．０１］	Analysis of motion  (motion estimation for coding, decoding, compressing or decompressing digital video signals H04N19/43, H04N19/51)	32286
+G06T   7/207	・・	解像度の階層全体にわたる動き推定をするためのもの（デジタルビデオ信号を符号化，復号，圧縮または伸張するためのマルチ解像度動き推定または階層的動き推定Ｈ０４Ｎ１９／５３）［２０１７．０１］	for motion estimation over a hierarchy of resolutions (multi-resolution motion estimation or hierarchical motion estimation for coding, decoding, compressing or decompressing digital video signals H04N19/53)	1039
+G06T   7/215	・・	動きに基づくセグメンテーション［２０１７．０１］	Motion-based segmentation	2358
+G06T   7/223	・・	ブロックマッチングを用いるもの［２０１７．０１］	using block-matching	702
+G06T   7/231	・・・	フルサーチを用いるもの［２０１７．０１］	using full search	72
+G06T   7/238	・・・	フルサーチでないもの，例．３段階検索，を用いるもの［２０１７．０１］	using non-full search, e.g. three-step search	119
+G06T   7/246	・・	特徴に基づく方法を用いるもの，例．セグメントあるいはコーナーをトラッキングするもの［２０１７．０１］	using feature-based methods, e.g. the tracking of corners or segments	19212
+G06T   7/254	・・	イメージの差分を含むもの［２０１７．０１］	involving subtraction of images	2302
+G06T   7/262	・・	領域変換法，例．フーリエ等の領域変換法，を用いるもの［２０１７．０１］	using transform domain methods, e.g. Fourier domain methods	468
+G06T   7/269	・・	勾配法を用いるもの［２０１７．０１］	using gradient-based methods	2284
+G06T   7/277	・・	確率的アプローチを含むもの，例．カルマンフィルタを用いるもの［２０１７．０１］	involving stochastic approaches, e.g. using Kalman filters	2754
+G06T   7/285	・・	一対のステレオイメージのシーケンスを用いるもの［２０１７．０１］	using a sequence of stereo image pairs	450
+G06T   7/292	・・	マルチカメラトラッキング［２０１７．０１］	Multi-camera tracking	2442
+G06T   7/30	・	イメージのアライメントのために変換パラメータを決定するもの，すなわち，イメージ位置合わせ［２０１７．０１］	Determination of transform parameters for the alignment of images, i.e. image registration	6454
+G06T   7/32	・・	相関に基づく方法を用いるもの［２０１７．０１］	using correlation-based methods	797
+G06T   7/33	・・	特徴に基づく方法を用いるもの［２０１７．０１］	using feature-based methods	12112
+G06T   7/35	・・	統計的手法を用いるもの［２０１７．０１］	using statistical methods	477
+G06T   7/37	・・	領域変換法を用いるもの［２０１７．０１］	using transform domain methods	386
+G06T   7/38	・・	イメージシーケンスの位置合わせ［２０１７．０１］	Registration of image sequences	1025
+G06T   7/40	・	テクスチャの分析（テクスチャからの深さまたは形状の復元Ｇ０６Ｔ７／５２９）［２０１７．０１］	Analysis of texture (depth or shape recovery from texture G06T7/529)	9585
+G06T   7/41	・・	テクスチャの統計的記述に基づくもの［２０１７．０１］	based on statistical description of texture	872
+G06T   7/42	・・・	領域変換法を用いるもの［２０１７．０１］	using transform domain methods	208
+G06T   7/44	・・・	イメージ操作演算子，例．フィルター，エッジ密度尺度または局所的ヒストグラム，を用いるもの［２０１７．０１］	using image operators, e.g. filters, edge density metrics or local histograms	796
+G06T   7/45	・・・	共起行列演算を用いるもの［２０１７．０１］	using co-occurrence matrix computation	495
+G06T   7/46	・・・	確率場を用いるもの［２０１７．０１］	using random fields	23
+G06T   7/48	・・・	フラクタルを用いるもの［２０１７．０１］	using fractals	51
+G06T   7/49	・・	構造上のテクスチャ記述に基づくもの，例．プリミティブまたは配置規則を使用するもの［２０１７．０１］	based on structural texture description, e.g. using primitives or placement rules  	373
+G06T   7/50	・	深さまたは形状の復元［２０１７．０１］	Depth or shape recovery	8462
+G06T   7/507	・・	シェーディングからのもの（Ｇ０６Ｔ７／５８６が優先）［２０１７．０１］	from shading (G06T7/586 takes precedence)	238
+G06T   7/514	・・	スペキュラリティからのもの［２０１７．０１］	from specularities	297
+G06T   7/521	・・	レーザ測距からのもの，例．干渉法を使用するもの；立体照明の投影からのもの［２０１７．０１］	from laser ranging, e.g. using interferometry; from the projection of structured light	3675
+G06T   7/529	・・	テクスチャからのもの［２０１７．０１］	from texture	369
+G06T   7/536	・・	透視図的効果からのもの，例．消失点の使用によるもの［２０１７．０１］	from perspective effects, e.g. by using vanishing points	421
+G06T   7/543	・・	線画からのもの［２０１７．０１］	from line drawings	158
+G06T   7/55	・・	複数のイメージからのもの［２０１７．０１］	from multiple images	5234
+G06T   7/557	・・・	光照射野からのもの，例．プレノプティックカメラからのもの［２０１７．０１］	from light fields, e.g. from plenoptic cameras	609
+G06T   7/564	・・・	輪郭からのもの［２０１７．０１］	from contours	389
+G06T   7/571	・・・	焦点からのもの［２０１７．０１］	from focus	432
+G06T   7/579	・・・	動きからのもの［２０１７．０１］	from motion	1103
+G06T   7/586	・・・	多数の光源からのもの，例．照度差ステレオ［２０１７．０１］	from multiple light sources, e.g. photometric stereo	367
+G06T   7/593	・・・	ステレオイメージからのもの［２０１７．０１］	from stereo images	4132
+G06T   7/60	・	幾何学的属性の分析［２０１７．０１］	Analysis of geometric attributes	29915
+G06T   7/62	・・	面積，周囲長，直径または体積の分析［２０１７．０１］	of area, perimeter, diameter or volume	18690
+G06T   7/64	・・	凸面または凹面の分析［２０１７．０１］	of convexity or concavity	1090
+G06T   7/66	・・	イメージモーメントまたは重心の分析［２０１７．０１］	of image moments or centre of gravity	4225
+G06T   7/68	・・	対称性の分析［２０１７．０１］	of symmetry	777
+G06T   7/70	・	対象物のまたはカメラの位置または向きの決定（カメラキャリブレーションＧ０６Ｔ７／８０）［２０１７．０１］	Determining position or orientation of objects or cameras(camera calibration G06T7/80)	29767
+G06T   7/73	・・	特徴に基づく方法を用いるもの［２０１７．０１］	using feature-based methods	32857
+G06T   7/77	・・	統計的手法を用いるもの［２０１７．０１］	using statistical methods	837
+G06T   7/80	・	内部または外部のカメラパラメータを決定するためにキャプチャされたイメージを分析するもの，すなわち，カメラキャリブレーション［２０１７．０１］	Analysis of captured images to determine intrinsic or extrinsic camera parameters, i.e. camera calibration	20094
+G06T   7/90	・	色の特徴の決定［２０１７．０１］	Determination of colour characteristics	21372
+G06T   9/00		イメージ符号化（静止画のための帯域または冗長度の減少Ｈ０４Ｎ１／４１；静止カラー画像信号の符号化または復号化Ｈ０４Ｎ１／６４；デジタルビデオ信号を符号化，復号化，圧縮または伸張するための方法または装置Ｈ０４Ｎ１９／００）［２００６．０１］	Image coding (bandwidth or redundancy reduction for static pictures H04N1/41;   coding or decoding of static colour picture signals H04N1/64;   methods or arrangements for coding, decoding, compressing or decompressing digital video signals H04N19/00)	24317
+G06T   9/20	・	輪郭の符号化，例．エッジの検出を用いるもの［２００６．０１］	Contour coding, e.g. using detection of edges	2097
+G06T   9/40	・	ツリー符号化，例．四分木，八分木［２００６．０１］	Tree coding, e.g. quadtree, octree	986
+G06T  11/00		２Ｄ［二次元］イメージ発生［６］	2D [Two Dimensional] image generation	31565
+G06T  11/20	・	基本的要素，例．直線または円，からのドローイング［６］	Drawing from basic elements, e.g. lines or circles	19656
+G06T  11/40	・	表面の属性，例．色またはテクスチャ，の付加による平坦な表面の塗りつぶし［６］	Filling a planar surface by adding surface attributes, e.g. colour or texture	5135
+G06T  11/60	・	図とテキストの編集；図またはテキストの結合［６］	Editing figures and text; Combining figures or text	26994
+G06T  11/80	・	手動入力装置，例．マウス，ライトペン，キーボード上の方向キー，を用いて手描きでドロー又はペイントされたイメージを作成または修正するもの［６］	Creating or modifying a manually drawn or painted image using a manual input device, e.g. mouse, light pen, direction keys on keyboard	9537
+G06T  13/00		アニメーション［６，２０１１．０１］	Animation	7155
+G06T  13/20	・	３Ｄ［三次元］アニメーション［２０１１．０１］	3D [Three Dimensional] animation	5696
+G06T  13/40	・・	キャラクタ，例．人間，動物または仮想生物，についてのもの［２０１１．０１］	of characters, e.g. humans, animals or virtual beings	10029
+G06T  13/60	・・	自然現象，例．雨，雪，水または植物，についてのもの［２０１１．０１］	of natural phenomena, e.g. rain, snow, water or plants	665
+G06T  13/80	・	２Ｄアニメーション，例．スプライトを用いるもの［２０１１．０１］	2D animation, e.g. using sprites	5719
+G06T  15/00		３Ｄ［三次元］イメージレンダリング［６，２０１１．０１］	3D [Three Dimensional] image rendering	27318
+G06T  15/02	・	ノンフォトリアリスティックレンダリング［２０１１．０１］	Non-photorealistic rendering	935
+G06T  15/04	・	テクスチャマッピング［２０１１．０１］	Texture mapping	8002
+G06T  15/06	・	レイトレーシング［２０１１．０１］	Ray-tracing	2477
+G06T  15/08	・	ボリュームレンダリング［２０１１．０１］	Volume rendering	4686
+G06T  15/10	・	幾何学的効果［６，２０１１．０１］	Geometric effects	2733
+G06T  15/20	・・	透視演算［６，２０１１．０１］	Perspective computation	7711
+G06T  15/30	・・	クリッピング［６，２０１１．０１］	Clipping	773
+G06T  15/40	・・	隠れた部分の除去［６，２０１１．０１］	Hidden part removal	2249
+G06T  15/50	・	照明効果［６，２０１１．０１］	Lighting effects	5875
+G06T  15/55	・・	ラジオシティ［２０１１．０１］	Radiosity	411
+G06T  15/60	・・	影の生成［６］	Shadow generation	1491
+G06T  15/80	・・	シェーディング［２０１１．０１］	Shading	2306
+G06T  15/83	・・・	フォンシェーディング［２０１１．０１］	Phong shading	106
+G06T  15/87	・・・	グーローシェーディング［２０１１．０１］	Gouraud shading	76
+G06T  17/00		コンピュータグラフィックスのための３Ｄモデリング［６］	3D modelling for computer graphics	49830
+G06T  17/05	・	地理的なモデル［２０１１．０１］	Geographic models	16721
+G06T  17/10	・	ボリューム記述，例．円柱体，立方体またはＣＳＧ［構造的立体幾何］を用いるもの［６］	Volume description, e.g. cylinders, cubes or using CSG [Constructive Solid Geometry]	6068
+G06T  17/20	・	ワイヤフレーム記述，例．ポリゴン化またはテセレーション［６］	Wire-frame description, e.g. polygonalisation or tessellation	17405
+G06T  17/30	・	サーフェス記述，例．多項式曲面記述［６］	Surface description, e.g. polynomial surface description	1918
+G06T  19/00		コンピュータグラフィックスのための３Ｄモデルまたはイメージの操作［２０１１．０１］	Manipulating 3D models or images for computer graphics	46817
+G06T  19/20	・	３Ｄイメージの編集，例．形または色の変更，オブジェクトの整列または部分の配置［２０１１．０１］	Editing of 3D images, e.g. changing shapes or colours, aligning objects or positioning parts	19091
