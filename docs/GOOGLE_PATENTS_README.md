@@ -19,9 +19,9 @@ Google Patents (https://patents.google.com/) に対する Web スクレイピン
 ## システム構成
 
 ```
-google_patents_scraper.py       # スクレイパー本体
-google_patents_api.py           # FastAPI エンドポイント
-google_patents_client_examples.py  # Pythonクライアント例
+src/core/google_patents_scraper.py       # スクレイパー本体
+src/api/google_patents_api.py            # FastAPI エンドポイント
+examples/google_patents_client_examples.py  # Pythonクライアント例
 ```
 
 ## 必要な依存関係

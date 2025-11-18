@@ -107,7 +107,6 @@ def test_component_analysis():
         logger.info(f"  構成要素: {comp.構成要素}")
         logger.info(f"  簡単説明: {comp.構成要素の簡単説明}")
         logger.info(f"  重要度: {comp.構成要素の重要度}")
-        logger.info(f"  従属関係: {comp.構成要素の従属関係}")
 
     # JSON保存
     save_components_to_json(components, "test_components.json")

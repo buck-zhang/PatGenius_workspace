@@ -72,3 +72,13 @@ opensearch-data/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Output
+output/
+
+# Patents PDF
+patents_pdf/
+
+# Config (contains sensitive service account files)
+config/*.json
+!config/.gitkeep

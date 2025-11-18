@@ -6,13 +6,20 @@ FastAPI endpoints for searching Google Patents using web scraping
 from typing import List, Optional, Dict, Any
 from enum import Enum
 from pathlib import Path
+import sys
+import os
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+
+# Add parent directory to path to import from src
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../..'))
 
 from fastapi import FastAPI, HTTPException, Query, BackgroundTasks
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 import uvicorn
 
-from google_patents_scraper import GooglePatentsScraper
+from src.core.google_patents_scraper_playwright import GooglePatentsScraperPlaywright
 
 
 # ============================================================================
@@ -39,6 +46,16 @@ class GooglePatentsSearchRequest(BaseModel):
     )
     max_results: int = Field(50, ge=1, le=1000, description="Maximum number of results to retrieve")
     language: str = Field("en", description="Language for results (en, ja, etc.)")
+    cpc_ranking_only: bool = Field(
+        False,
+        description="If True, only retrieve CPC ranking statistics without fetching individual patent details (much faster)"
+    )
+    max_ranking_items: int = Field(
+        50,
+        ge=1,
+        le=100,
+        description="Maximum number of CPC ranking items to return when cpc_ranking_only=True"
+    )
 
 
 class PatentResult(BaseModel):
@@ -79,25 +96,29 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Global scraper instance (reused across requests)
-scraper: Optional[GooglePatentsScraper] = None
+# ThreadPoolExecutor for running sync Playwright code in async FastAPI
+executor = ThreadPoolExecutor(max_workers=3)
+
+# Playwright-based scraper
+# Each request gets a fresh scraper instance
+# Playwright manages browser lifecycle internally
 
 
-def get_scraper() -> GooglePatentsScraper:
-    """Get or create scraper instance"""
-    global scraper
-    if scraper is None:
-        scraper = GooglePatentsScraper(headless=True)
-    return scraper
+def get_scraper() -> GooglePatentsScraperPlaywright:
+    """
+    Create scraper instance using Playwright
+
+    Returns a new Playwright-based scraper instance for each request.
+    Playwright manages browser lifecycle internally.
+    """
+    return GooglePatentsScraperPlaywright(headless=True)
 
 
 @app.on_event("shutdown")
 async def shutdown_event():
-    """Clean up scraper on shutdown"""
-    global scraper
-    if scraper is not None:
-        scraper.close()
-        scraper = None
+    """Clean up resources on shutdown"""
+    # Playwright manages its own lifecycle - no cleanup needed
+    pass
 
 
 # ============================================================================
@@ -139,14 +160,22 @@ async def simple_search(
         GET /search/simple?q=agriculture+AND+soil&max_results=50
     """
     try:
-        scraper_instance = get_scraper()
+        # Run sync Playwright code in thread pool
+        loop = asyncio.get_event_loop()
 
-        # Execute search
-        results = scraper_instance.search(
-            query=q,
-            max_results=max_results,
-            language=language
-        )
+        def sync_search():
+            scraper_instance = get_scraper()
+            try:
+                results = scraper_instance.search(
+                    query=q,
+                    max_results=max_results,
+                    language=language
+                )
+                return results
+            finally:
+                scraper_instance.close()
+
+        results = await loop.run_in_executor(executor, sync_search)
 
         # Convert to response model
         return GooglePatentsSearchResponse(
@@ -180,26 +209,37 @@ async def advanced_search(request: GooglePatentsSearchRequest):
     }
     """
     try:
-        scraper_instance = get_scraper()
+        # Run sync Playwright code in thread pool
+        loop = asyncio.get_event_loop()
 
-        # Build search query
-        query = scraper_instance.build_search_query(
-            keywords=request.keywords,
-            fi_codes=request.fi_codes,
-            ipc_codes=request.ipc_codes,
-            cpc_codes=request.cpc_codes,
-            advanced_query=request.advanced_query
-        )
+        def sync_advanced_search():
+            scraper_instance = get_scraper()
+            try:
+                # Build search query
+                query = scraper_instance.build_search_query(
+                    keywords=request.keywords,
+                    fi_codes=request.fi_codes,
+                    ipc_codes=request.ipc_codes,
+                    cpc_codes=request.cpc_codes,
+                    advanced_query=request.advanced_query
+                )
 
-        if not query:
-            raise HTTPException(status_code=400, detail="No search criteria provided")
+                if not query:
+                    raise ValueError("No search criteria provided")
 
-        # Execute search
-        results = scraper_instance.search(
-            query=query,
-            max_results=request.max_results,
-            language=request.language
-        )
+                # Execute search
+                results = scraper_instance.search(
+                    query=query,
+                    max_results=request.max_results,
+                    language=request.language,
+                    cpc_ranking_only=request.cpc_ranking_only,
+                    max_ranking_items=request.max_ranking_items
+                )
+                return results
+            finally:
+                scraper_instance.close()
+
+        results = await loop.run_in_executor(executor, sync_advanced_search)
 
         # Convert to response model
         return GooglePatentsSearchResponse(
@@ -211,8 +251,8 @@ async def advanced_search(request: GooglePatentsSearchRequest):
             patent_numbers=[p["patent_number"] for p in results["patents"]]
         )
 
-    except HTTPException:
-        raise
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
 
@@ -241,9 +281,18 @@ async def download_patent_pdf(
 
         output_path = downloads_dir / f"{patent_number}.pdf"
 
-        # Download PDF
-        scraper_instance = get_scraper()
-        success = scraper_instance.download_pdf(patent_number, str(output_path))
+        # Run sync Playwright code in thread pool
+        loop = asyncio.get_event_loop()
+
+        def sync_download():
+            scraper_instance = get_scraper()
+            try:
+                success = scraper_instance.download_pdf(patent_number, str(output_path))
+                return success
+            finally:
+                scraper_instance.close()
+
+        success = await loop.run_in_executor(executor, sync_download)
 
         if not success:
             raise HTTPException(status_code=404, detail=f"Failed to download PDF for {patent_number}")
@@ -270,7 +319,7 @@ async def download_patent_pdf(
         raise HTTPException(status_code=500, detail=f"Download failed: {str(e)}")
 
 
-@app.get("/patent_numbers", response_model=Dict[str, List[str]])
+@app.get("/patent_numbers", response_model=Dict[str, Any])
 async def get_patent_numbers(
     q: str = Query(..., description="Search query"),
     max_results: int = Query(100, ge=1, le=1000)
@@ -282,12 +331,21 @@ async def get_patent_numbers(
         GET /patent_numbers?q=agriculture&max_results=100
     """
     try:
-        scraper_instance = get_scraper()
+        # Run sync Playwright code in thread pool
+        loop = asyncio.get_event_loop()
 
-        results = scraper_instance.search(
-            query=q,
-            max_results=max_results
-        )
+        def sync_get_patent_numbers():
+            scraper_instance = get_scraper()
+            try:
+                results = scraper_instance.search(
+                    query=q,
+                    max_results=max_results
+                )
+                return results
+            finally:
+                scraper_instance.close()
+
+        results = await loop.run_in_executor(executor, sync_get_patent_numbers)
 
         return {
             "query": results["query"],
@@ -312,12 +370,21 @@ async def get_cpc_ranking(
         GET /cpc_ranking?q=agriculture&max_results=100&top_k=10
     """
     try:
-        scraper_instance = get_scraper()
+        # Run sync Playwright code in thread pool
+        loop = asyncio.get_event_loop()
 
-        results = scraper_instance.search(
-            query=q,
-            max_results=max_results
-        )
+        def sync_get_cpc_ranking():
+            scraper_instance = get_scraper()
+            try:
+                results = scraper_instance.search(
+                    query=q,
+                    max_results=max_results
+                )
+                return results
+            finally:
+                scraper_instance.close()
+
+        results = await loop.run_in_executor(executor, sync_get_cpc_ranking)
 
         return {
             "query": results["query"],

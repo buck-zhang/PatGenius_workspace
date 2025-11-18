@@ -21,7 +21,7 @@ fi
 # Step 1: Start Docker containers
 echo "Step 1: Starting Docker containers..."
 echo "ステップ1: Dockerコンテナを起動中..."
-docker-compose up -d
+docker-compose -f docker/docker-compose.yml up -d
 
 # Step 2: Wait for OpenSearch to be ready
 echo ""
@@ -56,7 +56,7 @@ echo "This may take 10-20 minutes depending on your system."
 echo "システムによって10-20分程度かかる場合があります。"
 echo ""
 
-docker-compose exec -T api python import_classification_data.py \
+docker-compose -f docker/docker-compose.yml exec -T api python import_classification_data.py \
     --host opensearch \
     --port 9200 \
     --data-dir /app/data_20250812
@@ -96,5 +96,5 @@ echo "  python api_client_examples.py"
 echo ""
 echo "To stop the system:"
 echo "システムを停止するには："
-echo "  docker-compose down"
+echo "  docker-compose -f docker/docker-compose.yml down"
 echo ""

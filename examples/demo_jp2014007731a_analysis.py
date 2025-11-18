@@ -251,7 +251,6 @@ def analyze_jp2014007731a():
         logger.info(f"\n{i}. [{comp.構成要素番号}] {comp.構成要素}")
         logger.info(f"   簡単説明: {comp.構成要素の簡単説明}")
         logger.info(f"   重要度: {comp.構成要素の重要度}")
-        logger.info(f"   従属関係: {comp.構成要素の従属関係}")
         logger.info(f"   サポート箇所: {comp.構成要素のサポート箇所[:100]}...")
 
     # JSONファイルに保存
@@ -270,7 +269,6 @@ def analyze_jp2014007731a():
             f.write(f"{i}. [{comp.構成要素番号}] {comp.構成要素}\n")
             f.write(f"   簡単説明: {comp.構成要素の簡単説明}\n")
             f.write(f"   重要度: {comp.構成要素の重要度}\n")
-            f.write(f"   従属関係: {comp.構成要素の従属関係}\n")
             f.write(f"   サポート箇所: {comp.構成要素のサポート箇所}\n")
             f.write("\n" + "-" * 80 + "\n\n")
 

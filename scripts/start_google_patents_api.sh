@@ -46,4 +46,4 @@ echo "==========================================================================
 echo ""
 
 # Start the API server
-python3 google_patents_api.py
+python3 -m uvicorn src.api.google_patents_api:app --host 0.0.0.0 --port 8001

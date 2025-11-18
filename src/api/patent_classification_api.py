@@ -78,6 +78,19 @@ class SearchResponse(BaseModel):
     took_ms: float
 
 
+class CPCToFIRequest(BaseModel):
+    """CPC to FI conversion request model"""
+    cpc_codes: List[str] = Field(..., description="CPC codes to convert to FI", min_items=1)
+    top_k: int = Field(10, ge=1, le=100, description="Number of FI codes to return per CPC")
+
+
+class CPCToFIResponse(BaseModel):
+    """CPC to FI conversion response model"""
+    fi_codes: List[str] = Field(description="List of FI codes corresponding to the input CPCs")
+    total: int = Field(description="Total number of FI codes found")
+    took_ms: float = Field(description="Time taken in milliseconds")
+
+
 # API Application
 app = FastAPI(
     title="Patent Classification Search API",
@@ -320,6 +333,84 @@ class PatentClassificationSearcher:
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Search error: {str(e)}")
 
+    def convert_cpc_to_fi(self, cpc_codes: List[str], top_k: int = 10) -> Dict[str, Any]:
+        """
+        Convert CPC codes to FI codes
+
+        CPC and FI use different formatting:
+        - CPC: "H10D30/00" (no spaces)
+        - FI: "H10D  30/01" (2 spaces after section)
+
+        This method normalizes CPC codes to FI format and searches by prefix.
+
+        Args:
+            cpc_codes: List of CPC codes to convert
+            top_k: Maximum number of FI codes to return
+
+        Returns:
+            Dictionary with fi_codes list and metadata
+        """
+        import time
+        import re
+        start_time = time.time()
+
+        fi_codes_set = set()
+
+        try:
+            # For each CPC code, search FI index with normalized format
+            for cpc_code in cpc_codes:
+                # Normalize CPC to FI format
+                # CPC: "H10D30/00" → FI prefix: "H10D  30"
+                # Extract section (e.g., "H10D") and class (e.g., "30")
+                match = re.match(r'^([A-Z]\d{2}[A-Z])(\d+)', cpc_code)
+                if not match:
+                    continue
+
+                section = match.group(1)  # e.g., "H10D"
+                class_num = match.group(2)  # e.g., "30"
+
+                # FI format: section + 2 spaces + class (padded to 2 chars)
+                fi_prefix = f"{section}  {class_num.rjust(2)}"
+
+                # Search FI index with prefix match on code field
+                response = self.client.search(
+                    index="patent_classification_fi",
+                    body={
+                        "query": {
+                            "prefix": {
+                                "code": fi_prefix
+                            }
+                        },
+                        "size": top_k,
+                        "_source": ["code"]
+                    }
+                )
+
+                # Collect FI codes from results
+                for hit in response['hits']['hits']:
+                    fi_code = hit['_source'].get('code')
+                    if fi_code:
+                        fi_codes_set.add(fi_code)
+
+                        # Stop if we've collected enough
+                        if len(fi_codes_set) >= top_k:
+                            break
+
+                if len(fi_codes_set) >= top_k:
+                    break
+
+            fi_codes_list = list(fi_codes_set)[:top_k]
+            took_ms = (time.time() - start_time) * 1000
+
+            return {
+                "fi_codes": fi_codes_list,
+                "total": len(fi_codes_list),
+                "took_ms": took_ms
+            }
+
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"CPC to FI conversion error: {str(e)}")
+
     def get_by_code(self, code: str, classification_type: ClassificationType) -> Optional[ClassificationResult]:
         """Get classification by exact code"""
         index_name = f"patent_classification_{classification_type.value}"
@@ -485,6 +576,28 @@ async def search_by_code(
         raise HTTPException(status_code=404, detail=f"Classification code {code} not found")
 
     return result
+
+
+@app.post("/convert/cpc_to_fi", response_model=CPCToFIResponse)
+async def convert_cpc_to_fi(request: CPCToFIRequest):
+    """
+    Convert CPC codes to FI codes
+
+    Searches the FI index for classifications that have concordance (related mappings)
+    with the given CPC codes.
+
+    Args:
+        request: CPCToFIRequest containing list of CPC codes and top_k parameter
+
+    Returns:
+        CPCToFIResponse containing the list of FI codes found
+    """
+    if not searcher:
+        raise HTTPException(status_code=503, detail="Service not initialized")
+
+    result = searcher.convert_cpc_to_fi(request.cpc_codes, request.top_k)
+
+    return CPCToFIResponse(**result)
 
 
 @app.post("/search/image", response_model=SearchResponse)

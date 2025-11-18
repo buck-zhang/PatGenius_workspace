@@ -1,0 +1,42 @@
+# AI Model Configuration
+# 今後、Vertex AIの情報や生成AIモデルの変更が頻繁に起きることを想定した設定ファイル
+# このファイルを編集することで、簡単にモデルやパラメータを変更できます
+
+# Vertex AI Settings
+vertex_ai:
+  project_id: ttdc-in-house-dev
+  region: asia-southeast1  # Claude models available in asia-southeast1, us-east5, europe-west1
+  service_account_path: ./ttdc-in-house-dev-3e07247326cb.json
+
+# AI Models Configuration
+ai_models:
+  # 特許構成要件分析用モデル (Step 1)
+  component_analyzer:
+    provider: anthropic  # Options: anthropic, google
+    model_name: claude-sonnet-4-5@20250929
+    temperature: 0  # Deterministic output for consistency
+    max_output_tokens: 200000  # Maximum for Claude (200K), Gemini supports 8192
+    max_input_tokens: 200000  # Maximum context window
+
+  # キーワード生成用モデル (Step 2)
+  keyword_generator:
+    provider: anthropic  # Options: anthropic, google
+    model_name: claude-sonnet-4-5@20250929
+    temperature: 0  # Deterministic output for consistency
+    max_output_tokens: 200000  # Maximum for Claude (200K), Gemini supports 8192
+    max_input_tokens: 200000  # Maximum context window
+
+# API Endpoints
+api_endpoints:
+  opensearch: http://localhost:8000  # OpenSearch API server (not the database port 9200)
+  google_patents: http://localhost:8001
+
+# Search Parameters
+search_parameters:
+  target_min_hits: 100  # Increased from 10 to 100 for better recall
+  target_max_hits: 300  # Changed from 50 to 300
+  max_iterations: 15  # Increased from 12 to 15 for more adjustment opportunities
+  max_ai_attempts: 10  # Maximum AI query generation attempts after manual iterations
+  recall_mode: true
+  initial_importance_threshold: 0.0
+  target_patent_number: JP2011171723A  # Target patent for verification (optional)

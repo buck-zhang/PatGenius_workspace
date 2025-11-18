@@ -77,10 +77,10 @@ Google Cloud Console で以下のAPIを有効化してください：
 pip3 list | grep google-cloud-aiplatform
 
 # サービスアカウントファイルの確認
-cat /Volumes/T7/patgenius/zhang_opera/ttdc-in-house-dev-3e07247326cb.json | python3 -m json.tool
+cat ./ttdc-in-house-dev-3e07247326cb.json | python3 -m json.tool
 
 # プロジェクトIDの確認
-grep project_id /Volumes/T7/patgenius/zhang_opera/ttdc-in-house-dev-3e07247326cb.json
+grep project_id ./ttdc-in-house-dev-3e07247326cb.json
 ```
 
 ### トラブルシューティング
