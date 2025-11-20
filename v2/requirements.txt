@@ -1,0 +1,17 @@
+# 特許構成要件分割システム - 必要パッケージ
+
+# Google Cloud / Vertex AI
+google-cloud-aiplatform>=1.38.0
+google-auth>=2.23.0
+
+# Anthropic Claude (Vertex AI)
+anthropic[vertex]>=0.18.0
+
+# PDF処理
+PyMuPDF>=1.23.0  # fitz
+
+# HTTP リクエスト（PatentField API）
+requests>=2.31.0
+
+# その他
+pathlib>=1.0.1
