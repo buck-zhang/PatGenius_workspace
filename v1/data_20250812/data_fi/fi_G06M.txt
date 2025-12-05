@@ -1,0 +1,136 @@
+G06M   1/00  \	0	0	2F086	G06M   1/00	22	一般的構成事項	Design features of general application
+G06M   1/00  A	0	0	2F086	G06M   1/00	239	細部〔軸関係，調整部材，取付等〕	Details (related to shafts, adjusting members, mounting, etc.)
+G06M   1/00  C	0	0	2F086	G06M   1/00	197	積算計	Multiplators
+G06M   1/00  D	0	0	2F086	G06M   1/00	14	試験検査装置	Testing and checking devices
+G06M   1/00  Z	0	0	2F086	G06M   1/00	382	その他のもの	Others
+G06M   1/02  \	1	1	2F086	G06M   1/02	340	ハウジング（測定器用一般Ｇ０１Ｄ）	Housing (for measuring instruments in general G01D)
+G06M   1/04  \	1	1	2F086	G06M   1/04	4	最下位の段の駆動のための構成（駆動の比が可変のものＧ０６Ｍ１／３８）	for driving the stage of lowest order (with variable ratio of drive G06M 1/38)
+G06M   1/04  A	1	0	2F086	G06M   1/04	150	間欠回転させるもの〔押ボタン等〕	producing intermittent  revolution (by push buttons, etc.)
+G06M   1/04  B	1	0	2F086	G06M   1/04	62	連続回転を間欠回転に変換して駆動するもの	driving by converting continuous revolution to intermittent revolution
+G06M   1/04  C	1	0	2F086	G06M   1/04	36	モ−タロ−タを数字車又は指針と一体にしたもの	a motor rotor being integrated with a digit wheel or an indicator
+G06M   1/04  D	1	0	2F086	G06M   1/04	65	正逆進を計数するもの	counting of reversibility
+G06M   1/04  E	1	0	2F086	G06M   1/04	99	逆進できないもの	incapable of reversing
+G06M   1/04  Z	1	0	2F086	G06M   1/04	23	その他のもの	Others
+G06M   1/06  \	2	2	2F086	G06M   1/06	12	段の連続回転を生じさせるもの，例．歯車列によるもの	producing continuous revolution of the stage, e.g. with gear train
+G06M   1/06  A	2	0	2F086	G06M   1/06	55	最下位桁数字車を連続回転させるもの〔ウオ−ムホイ−ル等を用いるもの等〕	producing continuous revolution of the digit wheel of lowest order  (using worm-wheels, etc.)
+G06M   1/06  Z	2	0	2F086	G06M   1/06	7	その他のもの	Others
+G06M   1/08  \	1	1	2F086	G06M   1/08	21	駆動作動のための構成	for actuating the drive
+G06M   1/10  \	2	2	2F086	G06M   1/10	21	電気的または磁気的手段によるもの	by electric or magnetic means
+G06M   1/10  A	2	0	2F086	G06M   1/10	106	電動機による駆動およびその発停機構	Driving by  a motor and start-stop mechanism thereof
+G06M   1/10  B	2	0	2F086	G06M   1/10	54	回路装置	Circuit devices
+G06M   1/10  Z	2	0	2F086	G06M   1/10	310	その他のもの	Others
+G06M   1/12  \	2	2	2F086	G06M   1/12	14	流体手段によるもの	by fluid means
+G06M   1/14  \	1	1	2F086	G06M   1/14	27	ある段から高位段へ桁送りするための構成（桁送りの比が可変のものＧ０６Ｍ１／３８）	for transferring a condition from one stage to a higher stage (with variable ratio of transfer G06M 1/38)
+G06M   1/16  \	2	2	2F086	G06M   1/16	1	自己作動のもの，例．ジェネバ機構によるもの	self-operating, e.g. by Geneva mechanism
+G06M   1/16  A	2	0	2F086	G06M   1/16	204	ジエネバネ機構によるもの	by Geneva mechanism
+G06M   1/16  B	2	0	2F086	G06M   1/16	19	爪による桁送り	Transfer by nails
+G06M   1/16  C	2	0	2F086	G06M   1/16	7	連続回転桁送り	Transfer by continuous revolution
+G06M   1/16  D	2	0	2F086	G06M   1/16	65	数字車内部に桁送り機構を有するもの	having a transfer mechanism inside the digit wheel
+G06M   1/16  Z	2	0	2F086	G06M   1/16	76	その他のもの	Others
+G06M   1/18  \	2	2	2F086	G06M   1/18	38	外部作動を要するもの，例．電磁力によるもの	requiring external operation, e.g. by electromagnetic force
+G06M   1/20  \	2	2	2F086	G06M   1/20	8	各単位でそれぞれとりうる値の個数が異なる単位群に特に適するもの，例．角度における度や分のためのもの	specially adapted for denominations with unequal numbers in each stage, e.g. degrees and minutes of angle
+G06M   1/22  \	1	1	2F086	G06M   1/22	225	計数機構上の計数結果を可視表示するための構成，例．拡大レンズをもつ窓によるもの	for visual indication of the result of count on counting mechanisms, e.g. by window with magnifying lens
+G06M   1/24  \	2	2	2F086	G06M   1/24	213	表示ドラム；目盛り盤；指針	Drums; Dials; Pointers
+G06M   1/26  \	2	2	2F086	G06M   1/26	81	整列手段	Aligning means
+G06M   1/27  \	1	1	2F086	G06M   1/27	85	計数結果を電気信号の形で出力するための構成，例．計数ドラム上のマークを感知することによるもの	for representing the result of count in the form of electric signals, e.g. by sensing markings on the counter drum
+G06M   1/272  \	2	2	2F086	G06M   1/272	93	光電的手段を用いるもの	using photoelectric means
+G06M   1/274  \	2	2	2F086	G06M   1/274	91	磁気的手段を用いるもの；ホール効果素子を用いるもの	using magnetic means; using Hall-effect devices
+G06M   1/276  \	2	2	2F086	G06M   1/276	157	機械的に作動される接点を用いるもの	using mechanically-actuated contacts
+G06M   1/28  \	1	1	2F086	G06M   1/28	15	特定値への設定または帰零のための構成	for zeroising or setting to a particular value
+G06M   1/28  A	1	0	2F086	G06M   1/28	94	特に電気的帰零機構	Specially electrically zeroising mechanism
+G06M   1/28  B	1	0	2F086	G06M   1/28	172	特定値への設定〔零値以外〕	Setting to a particular value (other than zero)
+G06M   1/28  Z	1	0	2F086	G06M   1/28	297	その他のもの	Others
+G06M   1/30  \	2	2	2F086	G06M   1/30	552	ハート形または類似のカムを用いるもの；レバーを用いるもの	using heart-shaped or similar cams; using levers
+G06M   1/32  \	3	3	2F086	G06M   1/32	14	作動手段，例．磁石，ばね，おもり	Actuating means, e.g. magnet, spring, weight
+G06M   1/34  \	2	2	2F086	G06M   1/34	191	再設定軸を用いるもの	using reset shafts
+G06M   1/36  \	3	3	2F086	G06M   1/36	1	作動手段，例．磁石，ばね，おもり	Actuating means, e.g. magnet, spring, weight
+G06M   1/38  \	1	1	2F086	G06M   1/38	5	駆動または桁送りの比を可変にするための構成，例．複数の計数輪列を択一的に用いるもの	for varying ratio of drive or transfer mechanism, e.g. by using alternative counting trains
+G06M   3/00  \	0	0	2F086	G06M   3/00	4	付加的手段をもつ計数器（間隔がランダムな電気パルスの発生Ｈ０３Ｋ３／８４）	Counters with additional facilities (generating electric pulses at random intervals H03K 3/84)
+G06M   3/00  A	0	0	2F086	G06M   3/00	115	編み器等の段数計	Row counters for knitting machines, etc.
+G06M   3/00  B	0	0	2F086	G06M   3/00	43	二次的パルスを発生する計数器	Counters generating secondary pulses
+G06M   3/00  C	0	0	2F086	G06M   3/00	17	度数の計数のための手段	Means for counting the number of times
+G06M   3/00  D	0	1	2F086	G06M   3/00	262	機械的量に関するもの	of mechanical quantities
+G06M   3/00  E	0	2	2F086	G06M   3/00	95	回転・往復運動に関するもの	Rotary or reciprocating movements
+G06M   3/00  F	0	2	2F086	G06M   3/00	67	計数回路	Counting circuits
+G06M   3/00  G	0	1	2F086	G06M   3/00	120	電気量に関するもの	of electric quantities
+G06M   3/00  H	0	1	2F086	G06M   3/00	169	人的行為に関するもの	of human activities
+G06M   3/00  J	0	2	2F086	G06M   3/00	124	ペンシル型度数計	Pencil-type counters
+G06M   3/00  K	0	2	2F086	G06M   3/00	116	運動具の度数計	Counters for sport articles
+G06M   3/00  L	0	3	2F086	G06M   3/00	803	携帯歩数計	for portable pedometers
+G06M   3/00  M	0	3	2F086	G06M   3/00	30	なわとび用	for jumping ropes
+G06M   3/00  N	0	3	2F086	G06M   3/00	36	ゴルフ用	for golf
+G06M   3/00  P	0	1	2F086	G06M   3/00	37	扉の開閉に関するもの	of opening or closing of doors
+G06M   3/00  Z	0	0	2F086	G06M   3/00	195	その他のもの	Others
+G06M   3/02  \	1	1	2F086	G06M   3/02	5	設定計数値における作動，例．機械の停止，を行なわせるための手段	for performing an operation at a predetermined value of the count, e.g. arresting a machine
+G06M   3/02  A	1	0	2F086	G06M   3/02	75	電気スイツチを用いるもの	using electrical switches
+G06M   3/02  B	1	0	2F086	G06M   3/02	351	プリセツトカウンタを用いるもの	using a preset counter
+G06M   3/02  Z	1	0	2F086	G06M   3/02	78	その他のもの	Others
+G06M   3/04  \	2	2	2F086	G06M   3/04	17	逆方向作動用の付加計数輪列をもつもの	with an additional counter train operating in the reverse direction
+G06M   3/06  \	1	1	2F086	G06M   3/06	115	計数結果を印字または別表示するための手段（表示システムＧ０９）	for printing or separately displaying result of count (display systems G09)
+G06M   3/08  \	1	1	2F086	G06M   3/08	21	数個の源からの入力を計数するための手段；異なる量の入力を計数するための手段	for counting the input from several sources; for counting inputs of different amounts
+G06M   3/10  \	1	1	2F086	G06M   3/10	2	各単位でそれぞれとりうる値の個数が異なる単位群の計数をするための手段，例．角度における度や分（桁送り機構Ｇ０６Ｍ１／２０）	for counting denominations with unequal numbers in each stage, e.g. degrees and minutes of angle (transfer mechanism therefor G06M 1/20)
+G06M   3/12  \	1	1	2F086	G06M   3/12	323	不適当な作動を防止するための手段，例．偽報防止用	for preventing incorrect actuation, e.g. for preventing falsification
+G06M   3/14  \	1	1	2F086	G06M   3/14	75	正および負の作動の差を記録するための手段	for registering difference of positive and negative actuations
+G06M   7/00  \	0	0	2F087	G06M   7/00	33	コンベヤによって運ばれる物品の計数	Counting of objects carried by a conveyor
+G06M   7/00 301 \	1	1	2F087	G06M   7/00	5	移動物体の計数（７／０２，７／０８が優先）	Counting of moving objects (7/02, 7/08 takes precedence)
+G06M   7/00 301 A	1	0	2F087	G06M   7/00	112	検出手段に特徴があるもの（Ｐが優先）	characterised by detection means (P takes precedence)
+G06M   7/00 301 B	1	1	2F087	G06M   7/00	376	光学的検出手段（Ｑが優先）	Optical detection means (Q takes precedence)
+G06M   7/00 301 C	1	1	2F087	G06M   7/00	68	磁気的検出手段（交通量の計数については，Ｐも付与）	Magnetic detection means (Movement of traffic to be counted is also classified in P.)
+G06M   7/00 301 F	1	0	2F087	G06M   7/00	109	検出回路（Ｒが優先）	Detection circuits (R takes precedence)
+G06M   7/00 301 N	1	0	2F087	G06M   7/00	167	交通量の計数（人間，動物等の通行量も含む）	Movement of traffic, including the number of human beings or animals
+G06M   7/00 301 P	1	1	2F087	G06M   7/00	121	検出手段に特徴のあるもの	characterised by detecting methods
+G06M   7/00 301 Q	1	2	2F087	G06M   7/00	231	光学的検出手段	by optical means
+G06M   7/00 301 R	1	1	2F087	G06M   7/00	126	検出回路	Detection circuits
+G06M   7/00 301 Z	1	0	2F087	G06M   7/00	226	その他のもの	Others
+G06M   7/00 311 \	2	2	2F087	G06M   7/00	8	球体又は落下する物体の計数	Counting of spherical or dropping objects
+G06M   7/00 311 A	2	0	2F087	G06M   7/00	116	検出手段に特徴があるもの	characterised by detection means
+G06M   7/00 311 B	2	1	2F087	G06M   7/00	151	爪車を利用するもの	using ratchets
+G06M   7/00 311 C	2	1	2F087	G06M   7/00	116	磁気的検出手段	Magnetic detection  means
+G06M   7/00 311 D	2	2	2F087	G06M   7/00	93	永久磁石を利用するもの	using permanent magnets
+G06M   7/00 311 Z	2	0	2F087	G06M   7/00	267	その他のもの	Others
+G06M   7/00 321 \	2	2	2F087	G06M   7/00	113	円板状物体の計数	Counting of disc type objects
+G06M   7/00 331 \	2	2	2F087	G06M   7/00	112	オ−バラツプしている紙葉類の計数	Counting of overlapped leaves
+G06M   7/00 341 \	1	1	2F087	G06M   7/00	5	所定数の計数	Counting of given numbers
+G06M   7/00 341 A	1	0	2F087	G06M   7/00	43	爪車を利用するもの	using ratchets
+G06M   7/00 341 B	1	0	2F087	G06M   7/00	53	光学的検出手段	Optical detection means
+G06M   7/00 341 C	1	0	2F087	G06M   7/00	24	磁気的検出手段	Magnetic detection means
+G06M   7/00 341 Z	1	0	2F087	G06M   7/00	140	その他のもの	Others
+G06M   7/00 351 \	2	2	2F087	G06M   7/00	168	所定数区分計数	Counting of the given number of sections
+G06M   7/00 361 \	2	2	2F087	G06M   7/00	78	紙葉類の所定数計数	Counting of the given number of leaves
+G06M   7/00 371 \	1	1	2F087	G06M   7/00	27	加減算計数	Addition and subtraction counting
+G06M   7/00 381 \	1	1	2F087	G06M   7/00	41	計数回路	Counting circuits
+G06M   7/02  \	1	1	2F087	G06M   7/02	78	検出素子へ達する前に物品が引き続く物品間で明確な空隙を生ずるように分離されるもの	wherein objects ahead of the sensing element are separated to produce a distinct gap between successive objects
+G06M   7/04  \	2	2	2F087	G06M   7/04	65	塊状の物品，例．箱，の計数	Counting of piece goods, e.g. of boxes
+G06M   7/06  \	2	2	2F087	G06M   7/06	34	平板状の物品，例．紙，の計数	Counting of flat articles, e.g. of sheets of paper
+G06M   7/06  A	2	0	2F087	G06M   7/06	192	構造	Structures
+G06M   7/06  B	2	1	2F087	G06M   7/06	125	回転摩擦による送り出し	Delivery by rotary friction
+G06M   7/06  D	2	1	2F087	G06M   7/06	129	光学的検出手段	Optical detection means
+G06M   7/06  F	2	0	2F087	G06M   7/06	112	制御回路	Control circuits
+G06M   7/06  G	2	1	2F087	G06M   7/06	83	比較・判別回路	Comparison and distinction circuits
+G06M   7/06  H	2	1	2F087	G06M   7/06	25	記憶回路	Storage circuits
+G06M   7/06  Z	2	0	2F087	G06M   7/06	22	その他のもの	Others
+G06M   7/08  \	1	1	2F087	G06M   7/08	20	物品が検出される位置で物品の移動方向が変更されるもの	wherein the direction of movement of the objects is changed at the station where they are sensed
+G06M   7/10  \	2	2	2F087	G06M   7/10	36	オーバーラップしている平板状物品，例．カード，の計数	Counting of flat overlapped articles, e.g. of cards
+G06M   9/00  \	0	0	2F087	G06M   9/00	16	積み重なった物品の計数	Counting of objects in a stack thereof
+G06M   9/00  A	0	0	2F087	G06M   9/00	187	比較的薄い紙の計数	Counting of relatively thin paper
+G06M   9/00  Z	0	0	2F087	G06M   9/00	269	その他のもの	Others
+G06M   9/02  \	1	1	2F087	G06M   9/02	11	流体吸引ノズルと共働する回転分離装置を用いるもの	by using a rotating separator incorporating pneumatic suction nozzles
+G06M   9/02  A	1	0	2F087	G06M   9/02	173	純葉束の計数	Counting of bunches of leaves
+G06M   9/02  B	1	1	2F087	G06M   9/02	24	吸引ヘツド，吸引軸	Suction heads, suction shafts
+G06M   9/02  C	1	1	2F087	G06M   9/02	35	カバ−装置，集塵装置	Covering devices, dust collectors
+G06M   9/02  D	1	1	2F087	G06M   9/02	40	押印装置	Stamping devices
+G06M   9/02  E	1	1	2F087	G06M   9/02	35	給排出装置	Feeding and discharging device
+G06M   9/02  J	1	1	2F087	G06M   9/02	105	制御回路	Control circuits
+G06M   9/02  K	1	2	2F087	G06M   9/02	101	比較，判別回路	Comparison and distinction circuits
+G06M   9/02  Z	1	0	2F087	G06M   9/02	48	その他のもの	Others
+G06M  11/00  \	0	0	2F087	G06M  11/00	22	ランダムに分布している物品の計数，例．一表面上に分布しているものの計数	Counting of objects distributed at random, e.g. on a surface
+G06M  11/00  D	0	0	2F087	G06M  11/00	452	光学的検出手段，撮像手段によるもの	by optical detection means, photographical means
+G06M  11/00  F	0	0	2F087	G06M  11/00	24	超音波検出手段によるもの	by ultrasonic detection means
+G06M  11/00  A	0	0	2F087	G06M  11/00	259	微粒子の計数	Counting of corpuscles
+G06M  11/00  S	0	0	2F087	G06M  11/00	111	糸に関するものの計数	of threads
+G06M  11/00  T	0	1	2F087	G06M  11/00	58	光学的検出手段	by optical means
+G06M  11/00  U	0	0	2F087	G06M  11/00	60	整列された物品の計数（７／００，９／００が優先）	Arranged articles (7/00, 9/00 take precedence)
+G06M  11/00  Z	0	0	2F087	G06M  11/00	77	その他のもの	Others
+G06M  11/02  \	1	1	2F087	G06M  11/02	13	一つの表面を次々と線状に走査する電子ビームを用いるもの，例．基板上の血球についてのもの	using an electron beam scanning a surface line by line, e.g. of blood cells on a substrate
+G06M  11/04  \	2	2	2F087	G06M  11/04	2	寸法が異なる物品を区別する手段をもつもの（粒子の寸法の調査一般Ｇ０１Ｎ１５／００）	with provision for distinguishing between different sizes of objects (investigating particle size in general G01N 15/00)
+G06M  15/00  \	0	0	2F087	G06M  15/00	12	他に分類されない物品の計数［２０１１．０１］	Counting of objects, not otherwise provided for [2011.01]

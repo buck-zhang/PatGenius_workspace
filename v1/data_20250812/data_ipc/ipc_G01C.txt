@@ -1,0 +1,186 @@
+G01C   1/00		角度の測定	Measuring angles	7242
+G01C   1/02	・	経緯儀	Theodolites	2932
+G01C   1/04	・・	カメラと組み合わされたもの	combined with cameras	300
+G01C   1/06	・・	スケール読取装置	Arrangements for reading scales	660
+G01C   1/08	・	六分儀	Sextants	305
+G01C   1/10	・・	人工水平を含むもの（Ｇ０１Ｃ１／１４が優先）	including an artificial horizon(G01C1/14 takes precedence)	172
+G01C   1/12	・・・	安定ミラーをもつもの	with a stabilised mirror	18
+G01C   1/14	・・	潜望鏡型六分儀	Periscopic sextants	4
+G01C   3/00		視準線上の距離測定；光学的距離計（測長用テープ，くさりまたはホイールＧ０１Ｂ３／００；アクティブ三角測量方式，即ち，電波以外の電磁波の送信および反射を使用する方式Ｇ０１Ｓ１７／４８）［１，８］	Measuring distances in line of sight; Optical rangefinders(tapes, chains, or wheels for measuring length G01B3/00; active triangulation systems, i.e. using the transmission and reflection of electromagnetic waves other than radio waves, G01S17/48)	8263
+G01C   3/02	・	細部	Details	2406
+G01C   3/04	・・	望遠鏡または双眼鏡と組み合わせるための距離計の適用	Adaptation of rangefinders for combination with telescopes or binoculars	488
+G01C   3/06	・・	最終指示値を得るための電気的手段の使用	Use of electric means to obtain final indication	12939
+G01C   3/08	・・・	電気的輻射検出器の使用	Use of electric radiation detectors	4815
+G01C   3/10	・	可変角度と観測地点内，例．機器内，における固定長の基線とからなる視差三角形を使用するもの［１，８］	using a parallactic triangle with variable angles and a base of fixed length in the observation station, e.g. in the instrument	815
+G01C   3/12	・・	単一地点で単眼鏡観測するもの，例．合致式（Ｇ０１Ｃ３／２０が優先）	with monocular observation at a single point, e.g. coincidence type(G01C3/20 takes precedence)	438
+G01C   3/14	・・	単一地点で双眼鏡観測するもの，例．ステレオ式（Ｇ０１Ｃ３／２０が優先）	with binocular observation at a single point, e.g. stereoscopic type(G01C3/20 takes precedence)	358
+G01C   3/16	・・・	測定用マーク	Measuring marks	139
+G01C   3/18	・・	基線の両端で一観測点を観測するもの（Ｇ０１Ｃ３／２０が優先）	with one observation point at each end of the base(G01C3/20 takes precedence)	159
+G01C   3/20	・・	目標物の高さの測定に適用するもの	with adaptation to the measurement of the height of an object	193
+G01C   3/22	・	可変角と，目標またはその付近あるいは目標自身により形成された固定長の基線とからなる視差三角形を使用するもの［１，８］	using a parallactic triangle with variable angles and a base of fixed length at, near, or formed by, the object	380
+G01C   3/24	・	固定角と，観測地点内，例．機器内，における可変長の基線とからなる視差三角形を使用するもの［１，８］	using a parallactic triangle with fixed angles and a base of variable length in the observation station, e.g. in the instrument	149
+G01C   3/26	・	固定角と，目標またはその付近，または目標自身により形成される可変長基線からなる視差三角形を使用するもの［１，８］	using a parallactic triangle with fixed angles and a base of variable length at, near, or formed by, the object	78
+G01C   3/28	・・	水平面への距離の縮小のための設備を有するもの	with provision for reduction of the distance into the horizontal plane	35
+G01C   3/30	・・・	目標の高さの測定に適用するもの，例．視距儀	with adaptation to the measurement of the height of an object, e.g. tacheometers	313
+G01C   3/32	・	目標物を焦点合せすることによるもの，例．すりガラススクリーン上に	by focusing the object, e.g. on a ground glass screen	292
+G01C   5/00		高さの測定；視準線に直交する距離の測定；離れた地点間の水準測量；測量用水準儀（Ｇ０１Ｃ３／２０，Ｇ０１Ｃ３／３０が優先）	Measuring height; Measuring distances transverse to line of sight; Levelling between separated points; Surveyors' levels(G01C3/20, G01C3/30 take precedence)	17994
+G01C   5/02	・	視準線の自動安定装置を含むもの	involving automatic stabilisation of the line of sight	572
+G01C   5/04	・	静水力学的水準測量，すなわち．離れた点にある液体容器を可撓的に結合したもの	Hydrostatic levelling, i.e. by flexibly interconnected liquid containers at separated points	2279
+G01C   5/06	・	気圧計の使用によるもの	by using barometric means	1630
+G01C   7/00		プロフィルの追跡（写真計量または映像計量によるものＧ０１Ｃ１１／００）	Tracing profiles(by photogrammetry or videogrammetry G01C11/00)	896
+G01C   7/02	・	地表面の	of land surfaces	1313
+G01C   7/04	・・	追跡されるプロフィルに沿って移動する乗物を含むもの	involving a vehicle which moves along the profile to be traced	1892
+G01C   7/06	・	空洞，例．トンネル，の	of cavities, e.g. tunnels	1674
+G01C   9/00		傾斜の測定，例．クリノメーターによるもの，水準器によるもの	Measuring inclination, e.g. by clinometers, by levels	18381
+G01C   9/02	・	細部	Details	9012
+G01C   9/04	・・	感知素子と拡大した読取りを得るための最終指示部との間の伝達手段	Transmission means between sensing element and final indicator for giving an enlarged reading	410
+G01C   9/06	・・	電気的もしくは光電的指示または読取手段	Electric or photoelectric indication or reading means	5787
+G01C   9/08	・・	機器の移動による加速力の補正手段	Means for compensating acceleration forces due to movement of instrument	478
+G01C   9/10	・	ころがる物体の使用によるもの	by using rolling bodies	1710
+G01C   9/12	・	単一振子の使用によるもの（下げ振糸Ｇ０１Ｃ１５／１０）	by using a single pendulum(plumb lines G01C15/10)	5346
+G01C   9/14	・・	二方向以上に可動なもの	movable in more than one direction	730
+G01C   9/16	・	複数の振子の使用によるもの	by using more than one pendulum	255
+G01C   9/18	・	液体の使用によるもの	by using liquids	2105
+G01C   9/20	・・	容器に対する液面の傾斜にもとづく指示	the indication being based on the inclination of the surface of a liquid relative to its container	1413
+G01C   9/22	・・・	相互に固定的に連結された容器をもつもの	with interconnected containers in fixed relation to each other	651
+G01C   9/24	・・	気泡を残すように密閉容器中に部分的に液体を満したもの	in closed containers partially filled with liquid so as to leave a gas bubble	5818
+G01C   9/26	・・・	細部	Details	1578
+G01C   9/28	・・・・	支持台	Mountings	2068
+G01C   9/30	・・・・	気泡の大きさを調整する手段	Means for adjusting dimensions of bubble	70
+G01C   9/32	・・・・	気泡の位置の観測を容易ならしめる手段，例．照明手段	Means for facilitating the observation of the position of the bubble, e.g. illuminating means	870
+G01C   9/34	・・・	気泡管式の，すなわち一方向のみのレベルを示すためのもの	of the tubular type, i.e. for indicating the level in one direction only	1661
+G01C   9/36	・・・	球面式の，すなわちすべての方向のレベルを示すためのもの	of the spherical type, i.e. for indicating the level in all directions	549
+G01C  11/00		写真計量または映像計量，例．ステレオ法を用いた測量；写真測量［１，８］	Photogrammetry or videogrammetry, e.g. stereogrammetry; Photographic surveying	9013
+G01C  11/02	・	写真計量または写真測量に特に適合する写真撮影装置，例．写真の重なりを制御するもの	Picture-taking arrangements specially adapted for photogrammetry or photographic surveying, e.g. controlling overlapping of pictures	6082
+G01C  11/04	・	写真の判読	Interpretation of pictures	3306
+G01C  11/06	・・	同一地域の２枚以上の写真の比較によるもの	by comparison of two or more pictures of the same area	1701
+G01C  11/08	・・・	撮影されたときと同じ相対位置に写真を支持しないもの	the pictures not being supported in the same relative position as when they were taken	459
+G01C  11/10	・・・・	写真の位置の制御に計算機を使用するもの	using computers to control the position of the pictures	117
+G01C  11/12	・・・	撮影されたときと同じ相対位置に写真を支持するもの	the pictures being supported in the same relative position as when they were taken	219
+G01C  11/14	・・・・	光学投影手段をもつもの（Ｇ０１Ｃ１１／２６が優先）	with optical projection(G01C11/26 takes precedence)	130
+G01C  11/16	・・・・・	共通平面上に	in a common plane	33
+G01C  11/18	・・・・・・	走査手段を含むもの	involving scanning means	73
+G01C  11/20	・・・・・	分離された平面上に	in separate planes	12
+G01C  11/22	・・・・	機械的投影手段をもつもの（Ｇ０１Ｃ１１／２６が優先）	with mechanical projection(G01C11/26 takes precedence)	23
+G01C  11/24	・・・・	光学的―機械的投影手段をもつもの（Ｇ０１Ｃ１１／２６が優先）	with optical-mechanical projection(G01C11/26 takes precedence)	68
+G01C  11/26	・・・・	写真の位置の制御に計算機を使用するもの	using computers to control the position of the pictures	168
+G01C  11/28	・・・	写真上のデータを記録するために特に付設する物，例．プロフィル用	Special adaptation for recording picture point data, e.g. for profiles	194
+G01C  11/30	・・	三角測量によるもの	by triangulation	374
+G01C  11/32	・・・	放射三角測量	Radial triangulation	25
+G01C  11/34	・・・	空中三角測量	Aerial triangulation	282
+G01C  11/36	・	映像計量，即ち，異なる情報源からの映像信号の電子処理であり，視差情報または距離情報を提供するためのもの［８］	Videogrammetry, i.e. electronic processing of video signals from different sources to give parallax or range information	1318
+G01C  13/00		特に開水面で用いられる測量，例．海，湖，川または運河（液位の測定Ｇ０１Ｆ）	Surveying specially adapted to open water, e.g. sea, lake, river or canal(liquid level metering G01F)	10076
+G01C  15/00		グループＧ０１Ｃ１／００〜Ｇ０１Ｃ１３／００までに分類されない測量機器または付属具	Surveying instruments or accessories not provided for in groups G01C1/00 to G01C13/00 	44678
+G01C  15/02	・	測点のマーク付のための手段	Means for marking measuring points	3538
+G01C  15/04	・・	永久的測標；境界標識	Permanent marks; Boundary markers	1102
+G01C  15/06	・・	測量用標尺；可動標識	Surveyors' staffs; Movable markers	4220
+G01C  15/08	・・・	測地標上の下げ振りまたは記印用の標尺または標識	Plumbing or registering staffs or markers over ground marks	2872
+G01C  15/10	・	下げ振り	Plumb lines	4268
+G01C  15/12	・	固定角，例．直角，を設定するための器具	Instruments for setting out fixed angles, e.g. right angles	3324
+G01C  15/14	・	人工水平儀	Artificial horizons	212
+G01C  17/00		コンパス；航行もしくは測量のために真北または磁北を探知する装置（ジャイロ効果を利用するものＧ０１Ｃ１９／００）	Compasses; Devices for ascertaining true or magnetic north for navigation or surveying purposes(using gyroscopic effect G01C19/00)	2681
+G01C  17/02	・	磁気コンパス	Magnetic compasses	714
+G01C  17/04	・・	指北用磁気要素，例．磁針	with north-seeking magnetic elements, e.g. needles	1215
+G01C  17/06	・・・	磁気要素の懸架	Suspending magnetic elements	112
+G01C  17/08	・・・・	浮体によるもの	by flotation	163
+G01C  17/10	・・・	観測方向と北指示とを比較するもの	Comparing observed direction with north indication	121
+G01C  17/12	・・・・	視準体によるもの，例．測量用コンパスのためのもの	by sighting means, e.g. for surveyors' compasses	265
+G01C  17/14	・・・・	参照マークによるもの，例．船舶用コンパスのためのもの	by reference marks, e.g. for ships' compasses	55
+G01C  17/16	・・・・	傾斜計によるもの，例．地層の俯角または層向決定用	by clinometers, e.g. for determining dip or strike of geological strata	68
+G01C  17/18	・・・	コンパスの支持または懸架，例．ジンバルによるもの，浮体によるもの	Supporting or suspending compasses, e.g. by gimbal, by flotation	274
+G01C  17/20	・・・	コンパスの指針面または磁針の観察	Observing the compass card or needle	206
+G01C  17/22	・・・・	投影によるもの	by projection	46
+G01C  17/24	・・・・	照明	Illumination	151
+G01C  17/26	・・・・	最終指示器への伝達に電気的ピックオフ，例．フォトセル，を使用するもの	using electric pick-offs for transmission to final indicator, e.g. photocell	444
+G01C  17/28	・・	電気磁気コンパス（指北用磁気要素および電気的ピックオフをもつものＧ０１Ｃ１７／２６）	Electromagnetic compasses(with north-seeking magnetic elements and having electric pick-offs G01C17/26)	1169
+G01C  17/30	・・・	地磁気誘導コンパス	Earth-inductor compasses	1095
+G01C  17/32	・・・	電子コンパス	Electron compasses	887
+G01C  17/34	・	太陽コンパスまたは星コンパス	Sun- or astro-compasses	233
+G01C  17/36	・	マスターコンパスの読取りを遠隔指示するためのリピーター	Repeaters for remote indication of readings of a master compass	205
+G01C  17/38	・	コンパスの試験，較正，または補償	Testing, calibrating, or compensating of compasses	2471
+G01C  19/00		ジャイロスコープ；振動状態の質量体を用いる回転感知装置；運動状態の質量体を持たない回転感知装置；ジャイロ効果を利用した角速度の測定［１，２０１３．０１］	Gyroscopes; Turn-sensitive devices using vibrating masses; Turn-sensitive devices without moving masses; Measuring angular rate using gyroscopic effects	5599
+G01C  19/02	・	回転体ジャイロスコープ	Rotary gyroscopes	1464
+G01C  19/04	・・	細部	Details	692
+G01C  19/06	・・・	回転体	Rotors	300
+G01C  19/08	・・・・	電気的に駆動されるもの（Ｇ０１Ｃ１９／１４が優先）	electrically driven(G01C19/14 takes precedence)	276
+G01C  19/10	・・・・・	電力の供給	Power supply	101
+G01C  19/12	・・・・	流体で駆動されるもの（Ｇ０１Ｃ１９／１４が優先）	fluid driven(G01C19/14 takes precedence)	83
+G01C  19/14	・・・・	流体回転体	Fluid rotors	156
+G01C  19/16	・・・	懸架手段；軸受	Suspensions; Bearings	435
+G01C  19/18	・・・・	回転体をその回転軸に対し可動に支持したもの（Ｇ０１Ｃ１９／２０，Ｇ０１Ｃ１９／２４が優先）	providing movement of rotor with respect to its rotational axes(G01C19/20, G01C19/24 take precedence)	198
+G01C  19/20	・・・・	液中	in fluid	340
+G01C  19/22	・・・・	ねじれ支持	torsional	189
+G01C  19/24	・・・・	磁場または電場の使用	using magnetic or electrostatic fields	354
+G01C  19/26	・・・	鎖錠，すなわち可動部分の固定，例．輸送のためのもの	Caging, i.e. immobilising moving parts, e.g. for transport	262
+G01C  19/28	・・・	ピックオフ，すなわち回転体の軸の変位の指示を取出すための装置	Pick-offs, i.e. devices for taking off an indication of the displacement of the rotor axis	472
+G01C  19/30	・・・	起立装置，すなわち所望の位置に回転体の軸を戻す装置（垂直指示計器用Ｇ０１Ｃ１９／４６）	Erection devices, i.e. devices for restoring rotor axis to a desired position(for instrument indicating the vertical G01C19/46)	337
+G01C  19/32	・・・	回転体ジャイロスコープに特に適合する指示または記録手段	Indicating or recording means specially adapted for rotary gyroscopes	251
+G01C  19/34	・・	水平面内での方向指示用，例．定針儀	for indicating a direction in the horizontal plane, e.g. directional gyroscopes	276
+G01C  19/36	・・・	磁気的手段によって指北作用をもたせるもの，例．ジャイロ磁気コンパス	with north-seeking action by magnetic means, e.g. gyromagnetic compasses	267
+G01C  19/38	・・・	磁気的手段以外により指北作用をもたせるもの，例．地球の自転を利用したジャイロコンパス	with north-seeking action by other than magnetic means, e.g. gyrocompasses using earth's rotation	1993
+G01C  19/40	・・	マスターコンパスからの信号により制御するもの，すなわちリピーターコンパス	for control by signals from a master compass, i.e. repeater compasses	173
+G01C  19/42	・・	旋回率指示用；旋回率積分用	for indicating rate of turn; for integrating rate of turn	719
+G01C  19/44	・・	垂直方向指示用	for indicating the vertical	1009
+G01C  19/46	・・・	所望の位置へ回転体の軸を戻すための起立装置	Erection devices for restoring rotor axis to a desired position	57
+G01C  19/48	・・・・	電気的手段により作動するもの（Ｇ０１Ｃ１９／５４が優先）	operating by electrical means(G01C19/54 takes precedence)	50
+G01C  19/50	・・・・	機械的手段により作動するもの（Ｇ０１Ｃ１９／５４が優先）	operating by mechanical means(G01C19/54 takes precedence)	66
+G01C  19/52	・・・・	流体手段により作動するもの（Ｇ０１Ｃ１９／５４が優先）	operating by fluid means(G01C19/54 takes precedence)	29
+G01C  19/54	・・・・	装置の運動による加速力の補正手段をもつもの	with correction for acceleration forces due to movement of instrument	78
+G01C  19/56	・	振動状態の質量体を用いる回転感知装置，例．コリオリ力に基づく振動型角速度センサ［１，２０１２．０１］	Turn-sensitive devices using vibrating masses, e.g. vibratory angular rate sensors based on Coriolis forces	7224
+G01C  19/5607	・・	振動状態の音叉を用いるもの（平面状の複数の振動質量体を両側で支持した両終端音叉を用いるものはＧ０１Ｃ１９／５７１９）［２０１２．０１］	using vibrating tuning forks(double-ended tuning forks using planar vibrating masses suspended at opposite ends G01C19/5719)	796
+G01C  19/5614	・・・	信号処理［２０１２．０１］	Signal processing	702
+G01C  19/5621	・・・	マイクロメカニカル構造を含む装置［２０１２．０１］	the devices involving a micromechanical structure	699
+G01C  19/5628	・・・	製造；トリミング；据え付け；ハウジング［２０１２．０１］	Manufacturing; Trimming; Mounting; Housings	1272
+G01C  19/5635	・・	振動状態のワイヤーまたは弦を用いるもの［２０１２．０１］	using vibrating wires or strings	44
+G01C  19/5642	・・	振動状態の棒状体または梁を用いるもの［２０１２．０１］	using vibrating bars or beams	456
+G01C  19/5649	・・・	信号処理［２０１２．０１］	Signal processing	472
+G01C  19/5656	・・・	マイクロメカニカル構造を含む装置［２０１２．０１］	the devices involving a micromechanical structure	531
+G01C  19/5663	・・・	製造；トリミング；据え付け；ハウジング［２０１２．０１］	Manufacturing; Trimming; Mounting; Housings	774
+G01C  19/567	・・	振動の節または波腹の位相シフトを用いるもの［２０１２．０１］	using the phase shift of a vibration node or antinode	101
+G01C  19/5677	・・・	本質的に２次元振動する振動体，例．環状に形成された振動体，に関するもの［２０１２．０１］	of essentially two-dimensional vibrators, e.g. ring-shaped vibrators	177
+G01C  19/5684	・・・・	マイクロメカニカル構造を含む装置［２０１２．０１］	the devices involving a micromechanical structure	314
+G01C  19/5691	・・・	本質的に３次元振動する振動体，例．ワイングラス型振動体，に関するもの［２０１２．０１］	of essentially three-dimensional vibrators, e.g. wine glass-type vibrators	473
+G01C  19/5698	・・	音響波を用いるもの，例．弾性表面波ジャイロ［２０１２．０１］	using acoustic waves, e.g. surface acoustic wave gyros	222
+G01C  19/5705	・・	駆動軸回りに往復回転する運動状態に駆動される質量体を用いるもの［２０１２．０１］	using masses driven in reciprocating rotary motion about an axis	166
+G01C  19/5712	・・・	マイクロメカニカル構造を含む装置［２０１２．０１］	the devices involving a micromechanical structure	633
+G01C  19/5719	・・	駆動軸沿いに移動する振動状態に駆動される平面状の振動質量体を用いるもの［２０１２．０１］	using planar vibrating masses driven in a translation vibration along an axis	526
+G01C  19/5726	・・・	信号処理［２０１２．０１］	Signal processing	516
+G01C  19/5733	・・・	構造上の細部または幾何学的特徴［２０１２．０１］	Structural details or topology	492
+G01C  19/574	・・・・	逆位相で運動する２つの検知質量体を有するもの［２０１２．０１］	the devices having two sensing masses in anti-phase motion	439
+G01C  19/5747	・・・・・	各々の検知質量体が駆動質量体，例．駆動フレーム，に連結されているもの［２０１２．０１］	each sensing mass being connected to a driving mass, e.g. driving frames	538
+G01C  19/5755	・・・・	単一の検知質量体を有するもの［２０１２．０１］	the devices having a single sensing mass	413
+G01C  19/5762	・・・・・	検知質量体が駆動質量体，例．駆動フレーム，に連結されているもの［２０１２．０１］	the sensing mass being connected to a driving mass, e.g. driving frames	296
+G01C  19/5769	・・・	製造；据え付け；ハウジング［２０１２．０１］	Manufacturing; Mounting; Housings	736
+G01C  19/5776	・・	Ｇ０１Ｃ１９／５６０７〜Ｇ０１Ｃ１９／５７１９のグループに包含されるいずれの装置にも特有でない信号処理［２０１２．０１］	Signal processing not specific to any of the devices covered by groups G01C19/5607 to G01C19/5719 	1245
+G01C  19/5783	・・	Ｇ０１Ｃ１９／５６０７〜Ｇ０１Ｃ１９／５７１９のグループに包含されるいずれの装置にも特有でない据え付けまたはハウジング［２０１２．０１］	Mountings or housings not specific to any of the devices covered by groups G01C19/5607 to G01C19/5719 	653
+G01C  19/58	・	運動状態の質量体をもたない回転感知装置［３］	Turn-sensitive devices without moving masses	559
+G01C  19/60	・・	電子または核磁気共鳴ジャイロメータ［３，４］	Electronic or nuclear magnetic resonance gyrometers	187
+G01C  19/62	・・・	オプチカルポンピングをもつもの［３］	with optical pumping	160
+G01C  19/64	・・	サニャック効果，すなわち．互いに反対方向へ回転する電磁ビーム間の回転誘導偏移，を用いたジャイロメータ［３］	Gyrometers using the Sagnac effect, i.e. rotation-induced shifts between counter-rotating electromagnetic beams	1285
+G01C  19/66	・・・	リングレーザジャイロメータ［５］	Ring laser gyrometers	1390
+G01C  19/68	・・・・	ロックイン防止［５］	Lock-in prevention	145
+G01C  19/70	・・・・・	機械的手段によるもの［５］	by mechanical means	166
+G01C  19/72	・・・	受動リング内で互いに反対方向へ回転する光ビームをもつもの，例．ファイバレーザジャイロメータ［５］	with counter-rotating light beams in a passive ring, e.g. fibre laser gyrometers	4450
+G01C  21/00		航行；グループＧ０１Ｃ１／００〜Ｇ０１Ｃ１９／００に分類されない航行装置（乗物による対地移動距離の測定Ｇ０１Ｃ２２／００；乗物の位置，進路，高度，または姿勢の制御Ｇ０５Ｄ１／００；車両にナビゲーション指示を伝えることを含む路上乗物の交通制御システムのためのものＧ０８Ｇ１／０９６８）	Navigation; Navigational instruments not provided for in groups G01C1/00 to G01C19/00 (measuring distance traversed on the ground by a vehicle G01C22/00; control of position, course, altitude or attitude of vehicles G05D1/00; traffic control systems for road vehicles involving transmission of navigation instructions to the vehicle G08G1/0968)	58007
+G01C  21/02	・	天文学的手段によるもの（Ｇ０１Ｃ２１／２４，Ｇ０１Ｃ２１／２６が優先）［１，７］	by astronomical means(G01C21/24, G01C21/26 take precedence)	2237
+G01C  21/04	・	地球上の手段によるもの（Ｇ０１Ｃ２１／２４，Ｇ０１Ｃ２１／２６が優先）［１，７］	by terrestrial means(G01C21/24, G01C21/26 take precedence)	1669
+G01C  21/06	・・	ドリフト角の測定を含むもの；ドリフトのための補正を含むもの	involving measuring of drift angle; involving correction for drift	285
+G01C  21/08	・・	地球磁場の使用を含むもの	involving use of the magnetic field of the earth	1564
+G01C  21/10	・	速度または加速度の測定を使用するもの（Ｇ０１Ｃ２１／２４，Ｇ０１Ｃ２１／２６が優先）［１，７］	by using measurement of speed or acceleration(G01C21/24, G01C21/26 take precedence)	1329
+G01C  21/12	・・	航行体上で実施するもの；推測航法	executed aboard the object being navigated; Dead reckoning	1540
+G01C  21/14	・・・	航行体が通過する経路を記録することによるもの（Ｇ０１Ｃ２１／１６が優先）	by recording the course traversed by the object(G01C21/16 takes precedence)	493
+G01C  21/16	・・・	加速度または速度の積分によるもの，すなわち慣性航行	by integrating acceleration or speed, i.e. inertial navigation	17312
+G01C  21/18	・・・・	安定化プラットホーム，例．ジャイロスコープによるもの	Stabilised platforms, e.g. by gyroscope	3444
+G01C  21/20	・	航行の計算を行う機器（Ｇ０１Ｃ２１／２４，Ｇ０１Ｃ２１／２６が優先）［１，７］	Instruments for performing navigational calculations(G01C21/24, G01C21/26 take precedence)	26370
+G01C  21/22	・・	海図板	Plotting boards	598
+G01C  21/24	・	宇宙航行に特に適合するもの	specially adapted for cosmonautical navigation	2543
+G01C  21/26	・	道路網における航行に特に適合したもの［７］	specially adapted for navigation in a road network	25057
+G01C  21/28	・・	航行計器からのデータを修正するもの［７］	with correlation of data from several navigational instruments	5564
+G01C  21/30	・・・	マップマッチングまたは等高線との一致［７］	Map- or contour-matching	5604
+G01C  21/32	・・・・	地図のデータの構造または書式［７］	Structuring or formatting of map data	6635
+G01C  21/34	・・	経路探索；経路案内［７］	Route searching; Route guidance	33602
+G01C  21/36	・・・	車載コンピュータの入出力装置［７］	Input/output arrangements for on-board computers	22934
+G01C  22/00		乗物，人間，動物またはその他の移動物体による対地移動距離の測定，例．走行距離計を用いるもの，歩数計を用いるもの	Measuring distance traversed on the ground by vehicles, persons, animals or other moving solid bodies, e.g. using odometers or using pedometers	10958
+G01C  22/02	・	電気的波形とその積算値への変換によるもの，例．回転速度計用発電機を使用するもの	by conversion into electric waveforms and subsequent integration, e.g. using tachometer generator	860
+G01C  23/00		２個以上の航行用数値を指示する組合せ計器，例．航空機用；２またはそれ以上の運動変量，例．距離，速度，加速度，を測定する組合せ測定装置	Combined instruments indicating more than one navigational value, e.g. for aircraft; Combined measuring devices for measuring two or more variables of movement, e.g. distance, speed or acceleration	6437
+G01C  25/00		このサブクラスの他のグループに関する計器または装置の製造，較正，清掃，修理（コンパスの試験，較正または補償Ｇ０１Ｃ１７／３８）	Manufacturing, calibrating, cleaning, or repairing instruments or devices referred to in the other groups of this subclass(testing, calibrating, or compensating compasses G01C17/38)	15641

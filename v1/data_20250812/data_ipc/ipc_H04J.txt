@@ -1,0 +1,47 @@
+H04J   1/00		周波数分割多重化方式（Ｈ０４Ｊ１４／０２が優先）［５］	Frequency-division multiplex systems(H04J14/02 takes precedence)	8118
+H04J   1/02	・	細部	Details	1020
+H04J   1/04	・・	周波数変換配置	Frequency-transposition arrangements	743
+H04J   1/05	・・・	デジタル技術を用いるもの［３］	using digital techniques	362
+H04J   1/06	・・	搬送波供給配置	Arrangements for supplying the carrier waves	644
+H04J   1/08	・・	チャンネル結合配置	Arrangements for combining channels	540
+H04J   1/10	・・	中間局配置，例．分岐用，傍受用	Intermediate station arrangements, e.g. for branching, for tapping-off	605
+H04J   1/12	・・	チャネル間漏話低減配置	Arrangements for reducing cross-talk between channels	570
+H04J   1/14	・・	呼出信号または監視信号に備えるための配置	Arrangements providing for calling or supervisory signals	566
+H04J   1/16	・・	監視配置	Monitoring arrangements	6673
+H04J   1/18	・	全搬送波が振幅変調されているもの（Ｈ０４Ｊ１／０２が優先）［３］	in which all the carriers are amplitude-modulated(H04J1/02 takes precedence)	150
+H04J   1/20	・	少くとも一搬送波が角度変調されているもの（Ｈ０４Ｊ１／０２が優先）［３］	in which at least one carrier is angle-modulated(H04J1/02 takes precedence)	188
+H04J   3/00		時分割多重化方式（Ｈ０４Ｊ１４／０８が優先）［４，５］	Time-division multiplex systems(H04J14/08 takes precedence)	18734
+H04J   3/02	・	細部	Details	1612
+H04J   3/04	・・	変調器または復調器と結合された分配器	Distributors combined with modulators or demodulators	3157
+H04J   3/06	・・	同期配置	Synchronising arrangements	24486
+H04J   3/07	・・・	異なるまたは変動する情報速度をもつ系のためにスタッフパルスを用いるもの［３］	using pulse stuffing for systems with different or fluctuating information rates	1322
+H04J   3/08	・・	中間局配置，例．分岐用，傍受用	Intermediate station arrangements, e.g. for branching, for tapping-off	2427
+H04J   3/10	・・	チャネル間漏話低減配置	Arrangements for reducing cross-talk between channels	536
+H04J   3/12	・・	呼出信号または監視信号に備えるための配置	Arrangements providing for calling or supervisory signals	1692
+H04J   3/14	・・	監視配置	Monitoring arrangements	6990
+H04J   3/16	・	一伝送サイクル内の個々のチャンネルに対する時間割り当てが可変であるもの，例．複数の信号の組合せが次々に変ってゆくのを調整するもの，伝送チャンネルの数を変化させるもの（Ｈ０４Ｊ３／１７，Ｈ０４Ｊ３／２４が優先）［４］	in which the time allocation to individual channels within a transmission cycle is variable, e.g. to accommodate varying complexity of signals, to vary number of channels transmitted(H04J3/17, H04J3/24 take precedence)	11650
+H04J   3/17	・	第１番目の使用者が休止したとき，その使用者に割り当てられていた伝送チャンネルを解放して第２番目の使用者に割り当てるもの，例．ＴＡＳＩ［２００６．０１］	in which the transmission channel allotted to a first user may be taken away and re-allotted to a second user if the first user becomes inactive, e.g. TASI	1216
+H04J   3/18	・	個々の信号の周波数圧縮およびその後に続く周波数伸張を用いるもの	using frequency compression and subsequent expansion of the individual signals	640
+H04J   3/20	・	レゾナントトランスファーを用いるもの［２］	using resonant transfer	210
+H04J   3/22	・	複数の送信源が異なる速度または符号をもつもの［４］	in which the sources have different rates or codes	3135
+H04J   3/24	・	割り当てがアドレスによって指示されるもの（Ｈ０４Ｊ３／１７が優先）［４］	in which the allocation is indicated by an address(H04J3/17 takes precedence)	3729
+H04J   3/26	・・	情報およびアドレスが同時に伝送されるもの［４］	in which the information and the address are simultaneously transmitted	809
+H04J   4/00		時分割多重化方式と周波数分割多重化方式との組み合せ（Ｈ０４Ｊ１３／００が優先）［２］	Combined time-division and frequency-division multiplex systems(H04J13/00 takes precedence)	1361
+H04J   7/00		個々のチャネルの信号の振幅または持続時間がそれらのチャネルに特有であるような多重化方式	Multiplex systems in which the amplitudes or durations of the signals in individual channels are characteristic of those channels	480
+H04J   7/02	・	振幅の極性が特有であるようなもの	in which the polarity of the amplitude is characteristic	83
+H04J   9/00		各チャネルが相異なる搬送波変調形式によって表わされる多重化方式	Multiplex systems in which each channel is represented by a different type of modulation of the carrier	745
+H04J  11/00		直交多重化方式（Ｈ０４Ｊ１３／００が優先）［２］	Orthogonal multiplex systems(H04J13/00 takes precedence)	28404
+H04J  13/00		符号分割多重化方式（周波数ホッピングのためのものＨ０４Ｂ１／７１３）［２，２０１１．０１］<br><b><ul>注</ul></b><br>このグループに分類する場合，周波数ホッピングに特化しないスペクトラム拡散技術の観点で，検索に重要と思われるものは，グループＨ０４Ｂ１／６９にも分類してよい。［２０１１．０１］	Code division multiplex systems(for frequency hopping H04B1/713);<br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, any aspect of spread spectrum techniques not specific to frequency hopping, and which is considered to represent information of interest for search, may also be classified in group H04B1/69.  	12469
+H04J  13/10	・	符号の生成［２０１１．０１］	Code generation	1447
+H04J  13/12	・・	直交符号の生成［２０１１．０１］	Generation of orthogonal codes	525
+H04J  13/14	・・	ＺＣＺ符号の生成［２０１１．０１］	Generation of codes with a zero correlation zone	184
+H04J  13/16	・	符号割当て［２０１１．０１］	Code allocation	1655
+H04J  13/18	・・	直交符号の割当て［２０１１．０１］	Allocation of orthogonal codes	911
+H04J  13/20	・・・	直交可変拡散率［ＯＶＳＦ］符号の割当て［２０１１．０１］	having an orthogonal variable spreading factor [OVSF]	233
+H04J  13/22	・・	零相関範囲［ＺＣＺ］符号の割当て［２０１１．０１］	Allocation of codes with a zero correlation zone	239
+H04J  14/00		光学的多重化方式［５］	Optical multiplex systems	11186
+H04J  14/02	・	波長分割多重化方式［５］	Wavelength-division multiplex systems	20407
+H04J  14/04	・	モード多重化方式［５］	Mode multiplex systems	1418
+H04J  14/06	・	偏波多重化方式［５］	Polarisation multiplex systems	2050
+H04J  14/08	・	時分割多重化方式［５］	Time-division multiplex systems	2464
+H04J  99/00		このサブクラスの他のグループには分類されない主題事項［２００９．０１］	Subject matter not provided for in other groups of this subclass	8477

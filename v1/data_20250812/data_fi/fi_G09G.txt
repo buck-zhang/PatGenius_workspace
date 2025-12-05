@@ -1,0 +1,706 @@
+G09G   1/00  \	0	0	5C081	G09G   1/00	234	陰極線管表示器にのみ関連した，制御装置または回路［３］	Control arrangements or circuits, of interest only in connection with cathode-ray tube indicators [3]
+G09G   1/00  A	0	0	5C081	G09G   1/00	339	機能、作用に特徴の有るもの	Characterized by functions or effects
+G09G   1/00  C	0	1	5C081	G09G   1/00	577	ブライトネス、コントラスト制御	Controlling brightness and contrast
+G09G   1/00  F	0	1	5C081	G09G   1/00	135	フイルタリング処理	Filtering process
+G09G   1/00  H	0	1	5C081	G09G   1/00	346	変形、編集、表示位置の制御	Controlling deformation, edit, and display position
+G09G   1/00  K	0	1	5C081	G09G   1/00	546	空間的に分布する歪みの補正	Correcting distortions distributed in space
+G09G   1/00  M	0	1	5C081	G09G   1/00	376	蛍光体の焼損防止	Preventing the damage of fluorescent material
+G09G   1/00  P	0	0	5C081	G09G   1/00	344	特定の部位に特徴の有るもの	Characterized by particular sections
+G09G   1/00  R	0	1	5C081	G09G   1/00	964	映像信号、輝度信号処理回路	Circuits for processing  video or luminance signals
+G09G   1/00  T	0	1	5C081	G09G   1/00	313	文字発生、図形発生回路	Character and picture generators
+G09G   1/00  V	0	1	5C081	G09G   1/00	235	焦点、ビ−ム径制御回路	Circuits for controlling focus and beam path
+G09G   1/00  W	0	1	5C081	G09G   1/00	427	電源、高圧発生回路	Power and high voltage generators
+G09G   1/00  X	0	0	5C081	G09G   1/00	305	ＣＲＴ表示装置の製造、修理、点検、保守	Manufacture, maintenance, inspection, and service of CRT displays
+G09G   1/00  Y	0	0	5C081	G09G   1/00	117	ＣＲＴ画面のハ−ドコピ−をとる為の回路、装置	Circuits or devices for hard copying CRT screens
+G09G   1/00  Z	0	0	5C081	G09G   1/00	52	その他	Others
+G09G   1/02  \	1	1	5C081	G09G   1/02	90	蓄積回路（Ｇ０９Ｇ１／０６〜Ｇ０９Ｇ１／２８が優先）［３］	Storage circuits (G09G 1/06-G09G 1/28 take precedence) [3]
+G09G   1/04  \	1	1	5C081	G09G   1/04	1733	偏向回路［３］	Deflection circuits [3]
+G09G   1/06  \	1	1	5C081	G09G   1/06	135	単一ビーム管を用いるもの（Ｇ０９Ｇ１／２６，Ｇ０９Ｇ１／２８が優先）［３］	using single beam tubes (G09G 1/26, G09G 1/28 take precedence) [3]
+G09G   1/07  \	2	2	5C081	G09G   1/07	52	ラスター走査とキャリグラフィック表示との結合を有するもの［５］	with combined raster scan and calligraphic display [5]
+G09G   1/08  \	2	2	5C081	G09G   1/08	8	ビームが文字を直接追跡するもの，表示される情報が２つの空間的な座標における時間の関数として，例．デカルト座標系に従って，偏向を制御するもの［３］	the beam directly tracing characters, the information to be displayed controlling the deflection as a function of time in two spatial co-ordinates, e.g. according to a cartesian co-ordinate system [3]
+G09G   1/08  A	2	0	5C081	G09G   1/08	80	１方向掃引	Directional sweeping
+G09G   1/08  Z	2	0	5C081	G09G   1/08	335	その他	Others
+G09G   1/10  \	3	3	5C081	G09G   1/10	149	偏向信号が本質的にディジタル手段によって，例．増加的に，作られているもの［３］	the deflection signals being produced by essentially digital means, e.g. incrementally [3]
+G09G   1/12  \	3	3	5C081	G09G   1/12	102	偏向信号が主としてアナログ手段によって形成されるもの［３］	the deflection signals being produced by essentially analogue means [3]
+G09G   1/14  \	2	2	5C081	G09G   1/14	105	ビームが表示される情報とは独立にパターンをトレースし，かつ後者が明暗でえがかれるパターンの部分を決定するもの［３］	the beam tracing a pattern independent of the information to be displayed, this latter determining the parts of the pattern rendered respectively visible and invisible [3]
+G09G   1/14  A	2	0	5C081	G09G   1/14	81	モデフアイドラスタスキヤン	Modified raster scan
+G09G   1/14  B	2	0	5C081	G09G   1/14	75	極座標走査，〔関連分野，Ｇ０１Ｓ，Ｇ０１Ｎ〕	Polar co-ordinates scanning (related fields, G01S, G01N)
+G09G   1/14  Z	2	0	5C081	G09G   1/14	33	その他〔Ｇ０９Ｇ１／１４Ａ，１／１４Ｂ，１／１６Ａ，１／１６Ｚ，１／１８に該当しないラスタスキヤン〕	Others (such as raster scans to which G09G1/14A, 1/14B, 1/16A, 1/16Z, and 1/18 are not applicable)
+G09G   1/16  \	3	3	5C081	G09G   1/16	111	直角座標のパターンがスクリーンの全体にわたって拡大されるもの，例．テレビジョン型ラスター［３］	the pattern of rectangular co-ordinates extending over the whole area of the screen, i.e. television type raster [3]
+G09G   1/16  A	3	0	5C081	G09G   1/16	1268	テレビジヨン型ラスタスキヤン〔・通常のラスタスキヤン・スキヤンの形式が特定されていないものは、この走査であることが多い，例．ノンインタレ−ス，インタレ−ス〕	Television type raster (normal raster scan; this scan is often used when scan method is not specified; e.g. non-interlace, interlace
+G09G   1/16  F	3	1	5C081	G09G   1/16	170	インタレ−ス	Interlace
+G09G   1/16  M	3	1	5C081	G09G   1/16	610	マルチスキヤン	Multi-scan
+G09G   1/16  V	3	0	5C081	G09G   1/16	133	スキヤンコンバ−タ	Scan converter
+G09G   1/16  Z	3	0	5C081	G09G   1/16	119	その他〔テレビジヨン形ラスタスキヤンの変形，関連分野，Ｇ０９Ｇ１／１４Ａ（モデイフアイドラスタスキヤン）Ｈ０４Ｎ３／（テレビの走査）〕	Others (variants of television type raster scan; related fields; G09G1/14A (modified raster scan), H04N3/(television scanning))
+G09G   1/18  \	3	3	5C081	G09G   1/18	18	小さな局部パターンが単一の文字のみを含み，かつ次の文字のための位置に，例．直角または極座標において，または星形において，進むもの［３］	a small local pattern covering only a single character, and stepping to a position for the following character, e.g. in rectangular or polar co-ordinates, or in the form of a framed star [3]
+G09G   1/20  \	1	1	5C081	G09G   1/20	12	多重ビーム管を用いるもの（Ｇ０９Ｇ１／２６，Ｇ０９Ｇ１／２８優先）［３］	using multi-beam tubes (G09G 1/26, G09G 1/28 take precedence) [3]
+G09G   1/20  A	1	0	5C081	G09G   1/20	168	マトリクス状の多ビ−ムを発生するもの〔マトリクス状に電子ビ−ムが発生する管を用いた表示装置の制御，回路，関連分野，Ｈ０４Ｎ５／６６（テレビ用）Ｎ０１Ｊ２９（管自体）Ｇ０９Ｇ３／２０（マトリクス形表示装置の制御，回路〕	Generating multi-beams in the state of matrix (controlling displays using a tube that generates electronic beams in the state of matrix, circuits, and related fields; H04N5/66 (for televisions), N01J29 (tubes per se), G09G3/20 (controlling matrix displays and their circuits))
+G09G   1/20  Z	1	0	5C081	G09G   1/20	85	その他	Others
+G09G   1/22  \	1	1	5C081	G09G   1/22	56	多数の文字から一つの完全な文字が選択できる管を用いるもの［３］	using tubes permitting selection of a complete character from a number of characters [3]
+G09G   1/24  \	1	1	5C081	G09G   1/24	5	一つの文字を形成する個々のエレメントの選択ができる管を用いるもの［３］	using tubes permitting selection of individual elements forming in combination a character [3]
+G09G   1/26  \	1	1	5C081	G09G   1/26	96	蓄積管を用いるもの［３］	using storage tubes [3]
+G09G   1/28  \	1	1	5C081	G09G   1/28	53	カラー管を用いるもの［３］	using colour tubes [3]
+G09G   1/28  A	1	0	5C081	G09G   1/28	712	シヤドウマスク型，ＣＣＲＴ及び構造に特徴のない，ＣＣＲＴを用いるもの〔・シヤドウマスク（アパ−チヤグリルを含む）型カラ−陰極線管を用いる表示装置の制御，回路・管の構造の特定できないカラ−陰極線管を用いる表示装置の制御，回路例．カラ−陰極線管駆動アンプ，コンバ−ゼンス，ピユリテイ，カラ−バランス関連分野，Ｈ０４Ｎ９／１６，９／６４（カラ−テレビ用）Ｈ０１Ｊ２９（管自体）Ｇ０９Ｇ５／０２（ＣＲＴを用いることに特徴のないもの）〕	Using shadow-mask type CCRT and CCRT not characterized by structure (controlling display devices shadow-mask type (including aperture grille) cathode ray tubes, controlling display devices using colour cathode ray tubes not characterized by circuits and tubes; example of circuits; colour cathode ray tube driving amplifiers, convergence, purity, colour balance related fields; H04N9/16, 9/64 (for colour televisions), H01J29 (for tubes themselves), G09G5/02 (characterized not by using cathode ray tubes))
+G09G   1/28  Z	1	0	5C081	G09G   1/28	231	その他のもの〔特殊なカラ−管を用いた表示装置の制御，回路例．インデツクス管，ペネレ−ト管，投写形表示装置のカラ−管。（アパ−チヤグリルを有するもの→１／２８Ａ）関連分野，Ｈ０４Ｎ９／１６（カラ−テレビ用），Ｈ０１Ｊ２９（管自体）〕	Others (Controlling display devices using special color tubes. Examples of circuits:  Index tubes, Wehnelt cathode, and color tubes for projection displays (R 1/28A for tubes with aperture grille); related fields, H04N9/16 (for colour televisions), H01J29 (tubes per se))
+G09G   3/00  \	0	0	5C080	G09G   3/00	1132	陰極線管以外の可視的表示器にのみ関連した，制御装置または回路［３］	Control arrangements or circuits, of interest only in connection with visual indicators other than cathode-ray tubes [3]
+G09G   3/00  C	0	0	5C080	G09G   3/00	409	行先表示、運賃表示、乗物用表示	Destination display, transportation fare display, and vehicle display
+G09G   3/00  D	0	0	5C080	G09G   3/00	67	料金表示	Fare display
+G09G   3/00  H	0	0	5C080	G09G   3/00	88	入出力回路、装置	Input/output circuits and devices
+G09G   3/00  J	0	0	5C080	G09G   3/00	149	駆動電源回路、装置	Driving power sources and devices
+G09G   3/00  K	0	0	5C080	G09G   3/00	151	輝度調整回路、装置〔多色表示、点滅を含む〕	Luminance control circuits and devices (including multicolour and blinking)
+G09G   3/00  M	0	0	5C080	G09G   3/00	130	セグメント形及びマトリクス形の複合表示	Composite display in the form of segment and matrix
+G09G   3/00  N	0	0	5C080	G09G   3/00	185	保守に特徴がある回路、装置	Circuits and devices characterized by maintenance
+G09G   3/00  R	0	0	5C080	G09G   3/00	170	レジスタ〔メモリ、シフトレジスタ、エンコ−ダ、デコ−ダ〕	Registers (memory, shift registers, encoders, and decoders)
+G09G   3/00  U	0	0	5C080	G09G   3/00	103	パタ−ン〔字形、スクロ−ル、拡大、縮小、回転、カ−ソル〕	Patterns (character shape, scroll, zoom-in, zoom-out, revolve, and cursor)
+G09G   3/00  T	0	0	5C080	G09G   3/00	143	遠隔制御，転送	Remote control and transfer
+G09G   3/00  V	0	0	5C080	G09G   3/00	99	セグメント型とマトリクス型とで表示面を構成しているもの	Making up screens of segment types and matrix types
+G09G   3/00  W	0	0	5C080	G09G   3/00	9	スキャン型、セグメント型、マトリクス型以外の表示方法	Display method other than scan, segment, and matrix types
+G09G   3/00  Y	0	0	5C080	G09G   3/00	13	分類不能な表示素子／デバイス／表示方法	Display component, devices, and display methods that are unable to be classified
+G09G   3/00  Z	0	0	5C080	G09G   3/00	779	その他のもの〔応用、特定用途表示装置の制御回路、装置を含む〕	Others (including control circuits and devices for display devices in application and specific usage)
+G09G   3/02  \	1	1	5C080	G09G   3/02	401	スクリーン上を光ビームでトレースまたは走査するもの［３］	by tracing or scanning a light beam on a screen [3]
+G09G   3/02  A	1	0	5C080	G09G   3/02	957	レーザー光を用いるもの	Using laser beams
+G09G   3/02  P	1	0	5C080	G09G   3/02	116	一次元表示手段（ＬＥＤアレイ等）を用いて二次元情報を形成するもの〔Ｇ０９Ｇ３／２０，６１０−６９１併用〕	Making up two-dimensional information using one-dimensional display method (such as LED arrays) (in conjunction with G09G3/20, 610-691)
+G09G   3/02  Q	1	1	5C080	G09G   3/02	248	偏向手段（ガルバノミラー等）を有するもの	Having deflection methods (such as galvanic mirrors)
+G09G   3/02  R	1	1	5C080	G09G   3/02	68	一次元表示手段を運動させるもの（残像を利用するもの）	Moving one-dimensional methods (using afterimages)
+G09G   3/02  Z	1	0	5C080	G09G   3/02	30	その他	Others
+G09G   3/04  \	1	1	5C080	G09G   3/04	443	多数の文字からの選択または個々の要素を組み合わせることによって単一の文字を表示するためのもの，例．セグメント型［３］	for presentation of a single character by selection from a plurality of characters, or by composing the character by combination of individual elements, e.g. segments [3]
+G09G   3/04  A	1	0	5C080	G09G   3/04	492	時計表示、カレンダ表示	Clock display and calendar display
+G09G   3/04  D	1	0	5C080	G09G   3/04	60	温度補償	Corrected temperature
+G09G   3/04  F	1	0	5C080	G09G   3/04	119	表示チエツク	Display check
+G09G   3/04  G	1	0	5C080	G09G   3/04	31	桁干渉防止	Preventing digits from being interfered
+G09G   3/04  H	1	0	5C080	G09G   3/04	31	入出力回路、装置	Input/output circuits and devices
+G09G   3/04  J	1	0	5C080	G09G   3/04	182	駆動電源回路、装置	Driving power sources and devices
+G09G   3/04  K	1	0	5C080	G09G   3/04	592	輝度調整回路、装置〔多色表示、点滅を含む〕	Luminance control circuits and devices (including multi-colour display and blinking)
+G09G   3/04  L	1	0	5C080	G09G   3/04	370	バ−グラフ表示	Bar graph display
+G09G   3/04  M	1	0	5C080	G09G   3/04	269	複合表示、複数表示	Composite display and multiple display
+G09G   3/04  N	1	0	5C080	G09G   3/04	154	保守に特徴がある回路、装置	Circuits and devices characterized by maintenance
+G09G   3/04  P	1	0	5C080	G09G   3/04	36	滑動表示、表示の高速化	Smooth display and faster display
+G09G   3/04  R	1	0	5C080	G09G   3/04	136	レジスタ〔メモリ、シフトレジスタ、エンコ−ダ、デコ−ダ〕	Registers (memory, shift registers, encoders, and decoders)
+G09G   3/04  S	1	0	5C080	G09G   3/04	338	数字表示〔桁、ゼロサプレス〕	Numeric display (digits, zero suppress)
+G09G   3/04  U	1	0	5C080	G09G   3/04	88	パタ−ン〔字形、スクロ−ル、拡大、縮小、回転、カ−ソル〕	Patterns (character shape, scroll, zoom-in, zoom-out, revolve, and cursor)
+G09G   3/04  W	1	0	5C080	G09G   3/04	21	多重、分割駆動	Multiplexed, divided driving
+G09G   3/04  Z	1	0	5C080	G09G   3/04	842	その他のもの	Others
+G09G   3/06  \	2	2	5C080	G09G   3/06	32	制御された光源を用いるもの［３］	using controlled light sources [3]
+G09G   3/08  \	3	3	5C080	G09G   3/08	193	白熱フイラメントを用いるもの［３］	using incandescent filaments [3]
+G09G   3/08  N	3	0	5C080	G09G   3/08	56	保守に特徴がある回路、装置	Circuits and devices characterized by maintenance
+G09G   3/08  Z	3	0	5C080	G09G   3/08	9	その他のもの	Others
+G09G   3/10  \	3	3	5C580	G09G   3/10	118	ガス管を用いるもの［３］	using gas tubes [3]
+G09G   3/10  A	3	0	5C580	G09G   3/10	165	放電灯	Discharge lamps
+G09G   3/10  B	3	0	5C580	G09G   3/10	70	交流駆動	AC drive
+G09G   3/10  E	3	0	5C580	G09G   3/10	302	デジタル表示	Digital display
+G09G   3/10  L	3	0	5C580	G09G   3/10	75	バ−グラフ表示	Bar graph display
+G09G   3/10  Z	3	0	5C580	G09G   3/10	6	その他のもの	Others
+G09G   3/12  \	3	3	5C380	G09G   3/12	253	エレクトロルミネッセント要素を用いるもの［３］	using electroluminescent elements [3]
+G09G   3/12 301 \	4	4	5C080	G09G   3/12	276	蛍光表示管を用いるもの	Using vacuum fluorescent tubes
+G09G   3/12 301 J	4	0	5C080	G09G   3/12	269	駆動電源回路、装置	Driving power sources and devices
+G09G   3/12 301 K	4	0	5C080	G09G   3/12	258	輝度調整回路、装置〔多色表示、点滅を含む〕	Luminance control circuits and devices (including multi-colour display and blinking)
+G09G   3/12 301 L	4	0	5C080	G09G   3/12	57	バ−グラフ表示	Bar graph display
+G09G   3/12 301 Z	4	0	5C080	G09G   3/12	56	その他のもの	Others
+G09G   3/14  \	4	4	5C380	G09G   3/14	212	半導体装置，例．ダイオード［３］	Semiconductor devices, e.g. diodes [3]
+G09G   3/14  J	4	0	5C380	G09G   3/14	227	駆動電源回路、装置	Driving power sources and devices
+G09G   3/14  K	4	0	5C380	G09G   3/14	390	輝度調整回路、装置〔多色表示、点滅を含む〕	Luminance control circuits and devices (including multi-colour display and blinking)
+G09G   3/14  L	4	0	5C380	G09G   3/14	179	バ−グラフ表示	Bar graph display
+G09G   3/14  N	4	0	5C380	G09G   3/14	64	保守に特徴がある回路、装置	Circuits and devices characterized by maintenance
+G09G   3/14  Z	4	0	5C380	G09G   3/14	639	その他のもの	Others
+G09G   3/16  \	2	2	5C080	G09G   3/16	171	独立の光源からの光を制御するもの［３］	by control of light from an independent source [3]
+G09G   3/16  B	2	0	5C080	G09G   3/16	38	透光性セラミツクス素子〔ＰＬＺＴ〕	Translucent ceramics elements (PLZT)
+G09G   3/16  C	2	0	5C080	G09G   3/16	141	電気泳動表示素子〔ＥＰＩＤ〕	Electrophoresis indication elements (EPID)+F169
+G09G   3/16  D	2	0	5C080	G09G   3/16	43	反転形表示	Reverse display
+G09G   3/16  Z	2	0	5C080	G09G   3/16	59	その他のもの	Others
+G09G   3/18  \	3	3	5C006	G09G   3/18	4223	液晶を用いるもの［３］	using liquid crystals [3]
+G09G   3/19  \	3	3	5C080	G09G   3/19	526	エレクトロクロミック装置を使用するもの［５］	using electrochromic devices [5]
+G09G   3/20  \	1	1	5C080	G09G   3/20	433	マトリックス状に配置された個々の要素の組み合わせによりその集合を構成することによって多数の文字の集合，例．１頁，を表示するためのもの［３］	for presentation of an assembly of a number of characters, e.g. a page, by composing the assembly by combination of individual elements arranged in a matrix [3]
+G09G   3/20  A	1	0	5C080	G09G   3/20	67	時計表示、カレンダ表示	Clock display and calendar display
+G09G   3/20  C	1	0	5C080	G09G   3/20	132	交通関係表示	Transportation related display
+G09G   3/20  G	1	0	5C080	G09G   3/20	50	グラフ表示	Graph display
+G09G   3/20  H	1	0	5C080	G09G   3/20	59	操作器との結合〔６８０、６９１優先〕	Connecting to operating devices (680, 691 take precedence)
+G09G   3/20  J	1	0	5C080	G09G   3/20	526	駆動電源回路、装置〔６１２、６２０優先〕	Driving power sources and devices (612, 620 take precedence)
+G09G   3/20  K	1	0	5C080	G09G   3/20	839	輝度調整回路、装置〔多色表示、点滅を含む、６４０優先〕	Luminance control circuits and devices (including multi-colour display and blinking; 640 takes precedence)
+G09G   3/20  M	1	0	5C080	G09G   3/20	161	複合表示、複数表示〔６３３＠Ｑ，Ｒ，６４２＠Ｂ，６８０＠Ｄ，Ｅ優先〕	Composite display and multiple display (633@Q, R, 642@B, 680@D, E take precedence)
+G09G   3/20  N	1	0	5C080	G09G   3/20	351	保守に特徴がある回路、装置〔６７０優先〕	Circuits and devices characterized by maintenance (670 takes precedence)
+G09G   3/20  R	1	0	5C080	G09G   3/20	747	レジスタ〔メモリ、シフトレジスタ、エンコーダ、デコーダ、６２０，６３０優先〕	Registers (memory, shift registers, encoders, and decoders; 620, 630 take precedence)
+G09G   3/20  U	1	0	5C080	G09G   3/20	462	パターン〔字形、スクロール、拡大、縮小、回転、カーソル、６６０優先〕	Patterns (character shape, scroll, zoom-in, zoom-out, revolve, and cursor; 660 takes precedence)
+G09G   3/20  V	1	0	5C080	G09G   3/20	461	ＣＲＴ用信号、映像信号の処理方式、回路〔６１２＠Ｐ，６２３＠Ｌ，Ｍ，６３２，６５０優先〕	Processing method and circuits for cathode ray tube signals and picture signals (612@P, 623@L, M, 632, 650 take precedence)
+G09G   3/20  W	1	0	5C080	G09G   3/20	139	多重、分割駆動〔６２１＠Ｅ，６２２＠Ｋ−Ｍ，６２３＠Ｖ−Ｘ，６３１＠Ｑ優先〕	Multiplexed divided driving (621@E, 622@K-M, 623@V-X, 631@Q take precedence)
+G09G   3/20  Y	1	0	5C080	G09G   3/20	138	大型表示パネル〔６３３＠Ｑ，Ｒ，６４２＠Ｂ，６８０＠Ｄ，Ｅ優先〕	Large display panel (633@Q, R, 642@B, 680@D, E take precedence)
+G09G   3/20  Z	1	0	5C080	G09G   3/20	789	その他のもの〔６１０−６９１優先〕	Others (610-691 take precedence)
+G09G   3/20 610 \	2	2	5C080	G09G   3/20	1	機能／目的又は制御回路の細部に特徴のあるもの	Characterized by  functions/purposes or details of control circuits
+G09G   3/20 611 \	3	3	5C080	G09G   3/20	2	機能／目的に特徴のあるもの	Characterized by functions/purposes
+G09G   3/20 611 A	3	0	5C080	G09G   3/20	9534	消費電力の低減、省電力制御〔６１２＠Ａ−Ｇ，６２１＠Ｇ併用〕	Control for decreasing power consumption and saving power (in conjunction with 612@A-G, 621@G)
+G09G   3/20 611 B	3	0	5C080	G09G   3/20	357	スタンバイ／待機モード	Standby/waiting mode
+G09G   3/20 611 C	3	0	5C080	G09G   3/20	1174	電磁波ノイズ／不要輻射／ＥＭＩの低減	Decreasing  electromagnetic noises/unwanted radiation/EMI
+G09G   3/20 611 D	3	0	5C080	G09G   3/20	1916	クロストークの低減	Decreasing cross talks
+G09G   3/20 611 E	3	0	5C080	G09G   3/20	2931	フリッカの低減	Decreasing flickering
+G09G   3/20 611 F	3	0	5C080	G09G   3/20	908	部品／素子の共通化／汎用化	Making parts/elements common/universal
+G09G   3/20 611 G	3	0	5C080	G09G   3/20	398	部品／素子の低速／低周波数駆動	Driving with low frequency and/or decreasing in speeds parts and/or components
+G09G   3/20 611 H	3	0	5C080	G09G   3/20	4219	素子の特性のばらつきに対する対応	Arrangements for variant characteristics of components
+G09G   3/20 611 J	3	0	5C080	G09G   3/20	2293	波形歪み、波形鈍りに対する対応	Arrangements for distorted or dulled waveforms
+G09G   3/20 611 Z	3	0	5C080	G09G   3/20	281	その他	Others
+G09G   3/20 612 \	3	3	5C080	G09G   3/20	3	周辺回路に特徴のあるもの	Characterized by peripheral circuits
+G09G   3/20 612 A	3	0	5C080	G09G   3/20	651	電源回路〔６１１＠Ａ，Ｂ，６７０＠Ｃ，Ｄ併用〕	Power circuits (in conjunction with 611@A, B, 670@C, D)
+G09G   3/20 612 B	3	1	5C080	G09G   3/20	555	電池、バッテリー	Cells and batteries
+G09G   3/20 612 C	3	1	5C080	G09G   3/20	174	太陽電池〔Ｇ０９Ｆ９／００，３４７＠Ａ参照〕	Solar cells (refer to G09F9/00, 347@A)
+G09G   3/20 612 D	3	1	5C080	G09G   3/20	1228	電圧変換回路〔降圧／昇圧回路、コンバータ、チャージポンプ〕	Voltage transfer circuits(voltage step-down/step-up circuits, converters, and charge pumps)
+G09G   3/20 612 E	3	1	5C080	G09G   3/20	1595	基準電圧／基準電流発生回路	Reference voltage/reference currency generating circuits
+G09G   3/20 612 F	3	2	5C080	G09G   3/20	1461	階調制御を行う為のもの〔６４１併用〕	For performing gradation control (in conjunction with 641)
+G09G   3/20 612 G	3	1	5C080	G09G   3/20	1391	電源の供給／停止〔ＴＶ方式に関するものＨ０４Ｎ５／６３＠Ｂ〕	Supplying and/or stopping power (H04N5/63@B for relating to TV method)
+G09G   3/20 612 J	3	0	5C080	G09G   3/20	1152	タイミング信号発生回路〔６２１＠Ａ，６２２＠Ｄ，６２３＠Ｄ，Ｍ，６２４＠Ｅ，Ｎ，６３３＠Ｇ，６５０＠Ｈ優先〕	Timing signal generating circuits (621@A, 622@D, 623@D, M, 624@E, N, 633@G, 650@H take precedence)
+G09G   3/20 612 K	3	1	5C080	G09G   3/20	1279	クロック発生回路	Clock generating circuits
+G09G   3/20 612 L	3	1	5C080	G09G   3/20	1184	同期信号／制御信号〔６２２＠Ｓ，６２３＠Ｐ，６３３＠Ｄ，Ｅ優先〕	Synchronising signals/control signals (622@S, 623@P, 633@D, E take precedence)
+G09G   3/20 612 P	3	0	5C080	G09G   3/20	515	インターフェイス〔６３３，６５０優先〕	Interface (633, 650 take precedence)
+G09G   3/20 612 R	3	0	5C080	G09G   3/20	1177	制御／制御回路	Control and/or control circuits
+G09G   3/20 612 S	3	1	5C080	G09G   3/20	104	割込処理	Interrupt process
+G09G   3/20 612 T	3	1	5C080	G09G   3/20	1116	ブランキング期間／帰線期間を用いて制御／処理を行うもの	Controlling and/or processing using blanking duration or fly-back time
+G09G   3/20 612 U	3	1	5C080	G09G   3/20	8151	表示データ／表示パターンに応じて処理を行うもの	Processing depending on displayed data or pattern
+G09G   3/20 612 Z	3	0	5C080	G09G   3/20	54	その他	Others
+G09G   3/20 620 \	2	2	5C080	G09G   3/20	0	駆動部に特徴のあるもの	Characterized by driving parts
+G09G   3/20 620 A	2	0	5C080	G09G   3/20	29	スタティック駆動を行うもの	Driving statically
+G09G   3/20 620 B	2	0	5C080	G09G   3/20	45	表示素子／表示画素のアドレス回路	Address circuits for display components or display pixels
+G09G   3/20 620 Z	2	0	5C080	G09G   3/20	28	その他	Others
+G09G   3/20 621 \	3	3	5C080	G09G   3/20	2	走査側及びデータ側の双方又はいずれかに関する駆動回路／方法に特徴のあるもの	Characterized by driving circuits or methods related to scanning side and/or data side
+G09G   3/20 621 A	3	0	5C080	G09G   3/20	3676	駆動タイミングに特徴のあるもの	Characterized by driving timing
+G09G   3/20 621 B	3	0	5C080	G09G   3/20	3728	極性反転	Inversion
+G09G   3/20 621 C	3	0	5C080	G09G   3/20	172	奇数フレーム／偶数フレーム駆動	Driving odd flames/even flames
+G09G   3/20 621 D	3	0	5C080	G09G   3/20	493	部分書き換え	Partial overwriting
+G09G   3/20 621 E	3	0	5C080	G09G   3/20	1363	分割駆動〔６２２＠Ｊ，Ｋ，Ｌ，６２３＠Ｔ，Ｕ，Ｖ優先〕	Divided driving (622@J, K, L, 623@T, U, V take precedence)
+G09G   3/20 621 F	3	0	5C080	G09G   3/20	3472	表示の高速化に特徴のあるもの	Characterized by making display faster
+G09G   3/20 621 G	3	0	5C080	G09G   3/20	817	駆動電力／電荷の回収	Driving power/recovery of electric charge
+G09G   3/20 621 H	3	0	5C080	G09G   3/20	379	駆動部の低耐圧化	Making driving parts resistant to low pressure
+G09G   3/20 621 J	3	0	5C080	G09G   3/20	472	歩留まり向上、冗長構造を有するもの	Having improved yields and redundant structures
+G09G   3/20 621 K	3	0	5C080	G09G   3/20	1734	駆動方法の切替え〔６２２＠Ｐ，６５０＠Ｂ優先〕	Switching driving method (622@P, 650@B take precedence)
+G09G   3/20 621 L	3	0	5C080	G09G   3/20	710	レベルシフト回路	Level shift circuits
+G09G   3/20 621 M	3	0	5C080	G09G   3/20	3764	駆動回路／駆動ＬＳＩの配置、電極との配線に応じる為のもの〔６８０＠Ｇ併用〕	Arrangements for placing driving circuits or driving LSI and wiring electrodes (in conjunction with 680@E)
+G09G   3/20 621 Z	3	0	5C080	G09G   3/20	122	その他	Others
+G09G   3/20 622 \	3	3	5C080	G09G   3/20	4	走査側駆動回路／方法に特徴のあるもの	Characterized by driving circuits or methods on the scanning side
+G09G   3/20 622 A	3	0	5C080	G09G   3/20	796	走査側駆動回路	Driving circuits on the scanning side
+G09G   3/20 622 B	3	1	5C080	G09G   3/20	1172	ドライバ／出力バッファ	Drivers/output buffers
+G09G   3/20 622 C	3	2	5C080	G09G   3/20	2265	走査波形	Scanning waveforms
+G09G   3/20 622 D	3	2	5C080	G09G   3/20	2830	走査信号の出力タイミング	Output timing for scanning signals
+G09G   3/20 622 E	3	1	5C080	G09G   3/20	2220	シフトレジスタ	Shift registers
+G09G   3/20 622 F	3	1	5C080	G09G   3/20	100	デコーダ	Decoders
+G09G   3/20 622 G	3	1	5C080	G09G   3/20	1235	その他の走査側駆動回路要素に特徴のあるもの	Characterized by other driving circuit element on the scanning side
+G09G   3/20 622 J	3	0	5C080	G09G   3/20	79	走査方法	Scanning methods
+G09G   3/20 622 K	3	1	5C080	G09G   3/20	685	分割走査	Partitioned scan
+G09G   3/20 622 L	3	2	5C080	G09G   3/20	260	上下分割走査〔６２３＠Ｕ併用〕	upper and lower partitioned scan
+G09G   3/20 622 M	3	2	5C080	G09G   3/20	435	奇数／偶数分割走査	odd/even partitioned scan
+G09G   3/20 622 N	3	1	5C080	G09G   3/20	393	インターレースに関するもの〔６５０＠Ｅ併用〕	related to interlace (in conjunction with 650@E)
+G09G   3/20 622 P	3	1	5C080	G09G   3/20	351	データ側の駆動方法に対応した走査方法〔６２３＠Ｔ−Ｙ併用〕	scanning methods reflecting driving methods on the data side
+G09G   3/20 622 Q	3	1	5C080	G09G   3/20	1160	その他の走査方法	other scanning methods
+G09G   3/20 622 R	3	1	5C080	G09G   3/20	690	走査方法の切替え〔６５０＠Ｅ併用〕	Switching scanning method (in conjunction with 650@E)
+G09G   3/20 622 S	3	0	5C080	G09G   3/20	164	垂直同期〔６１２＠Ｌ，６３３＠Ｄ，Ｅ併用〕	Vertical synchronisation (in conjunction with 612@L, 633@D, E)
+G09G   3/20 622 Z	3	0	5C080	G09G   3/20	68	その他	Others
+G09G   3/20 623 \	3	3	5C080	G09G   3/20	6	データ側駆動回路／方法に特徴のあるもの	Characterized by driving circuits/methods on data side
+G09G   3/20 623 A	3	0	5C080	G09G   3/20	926	データ側駆動回路	Driving circuits on the data side
+G09G   3/20 623 B	3	1	5C080	G09G   3/20	2370	ドライバ／出力バッファ	driver/output buffers
+G09G   3/20 623 C	3	2	5C080	G09G   3/20	2905	データ波形	data waveforms
+G09G   3/20 623 D	3	2	5C080	G09G   3/20	2460	データ信号の出力タイミング	output timing for data signals
+G09G   3/20 623 E	3	1	5C080	G09G   3/20	268	階調デコーダ〔６４１併用〕	gradation decoders (in conjunction with 641)
+G09G   3/20 623 F	3	2	5C080	G09G   3/20	1789	ＤＡ変換回路	DA converter circuits
+G09G   3/20 623 G	3	1	5C080	G09G   3/20	821	ラッチ	latches
+G09G   3/20 623 H	3	1	5C080	G09G   3/20	1499	シフトレジスタ	shift registers
+G09G   3/20 623 J	3	1	5C080	G09G   3/20	248	シリアル−パラレル変換〔６３３＠Ｈ参照〕	serial to parallel conversion (see 633@H)
+G09G   3/20 623 K	3	1	5C080	G09G   3/20	97	データビット数変換／パラレル−パラレル変換〔６３３＠Ｈ参照〕	number of data bits conversion/parallel to parallel conversion (see 633@H)
+G09G   3/20 623 L	3	1	5C080	G09G   3/20	573	サンプルホールド回路	sample and hold circuits
+G09G   3/20 623 M	3	2	5C080	G09G   3/20	484	サンプリングタイミング／サンプリング位相の調整	adjusting sampling timing/sampling phases
+G09G   3/20 623 N	3	1	5C080	G09G   3/20	258	ＡＤ変換回路	AD conversion circuits
+G09G   3/20 623 P	3	1	5C080	G09G   3/20	96	水平同期〔６１２＠Ｌ，６３３＠Ｄ，Ｅ併用〕	horizontal synchronisation (in conjunction with 612@L, 633@D, E)
+G09G   3/20 623 Q	3	1	5C080	G09G   3/20	219	カラー信号の順序変換〔６４２＠Ｋ併用〕	conversion of sequence of colour signals (in conjunction with 642@K)
+G09G   3/20 623 R	3	1	5C080	G09G   3/20	2434	その他のデータ側駆動回路要素に特徴のあるもの	Characterized by other driving circuit element on the data side
+G09G   3/20 623 T	3	0	5C080	G09G   3/20	52	データ側駆動方法	Driving method on the data side
+G09G   3/20 623 U	3	1	5C080	G09G   3/20	1004	走査側の駆動方法に対応するもの	corresponding to the driving methods on the scanning side
+G09G   3/20 623 V	3	1	5C080	G09G   3/20	807	データ側を分割して駆動するもの	driving by dividing the data side
+G09G   3/20 623 W	3	2	5C080	G09G   3/20	290	奇数／偶数分割	odd/even partition
+G09G   3/20 623 X	3	1	5C080	G09G   3/20	513	その他のデータ側分割駆動	other dividing driving on the data side
+G09G   3/20 623 Y	3	1	5C080	G09G   3/20	818	その他のデータ側駆動方法	other driving methods on the data side
+G09G   3/20 623 Z	3	0	5C080	G09G   3/20	74	その他	Others
+G09G   3/20 624 \	3	3	5C080	G09G   3/20	5	走査／データ駆動部以外の駆動部に特徴のあるもの	Characterized by driving sections other than scanning/data driving sections
+G09G   3/20 624 A	3	0	5C080	G09G   3/20	342	アクティブ駆動回路	Active driving circuits
+G09G   3/20 624 B	3	1	5C080	G09G   3/20	8537	各表示素子に直接対応した駆動回路（ＴＦＴ，ＭＩＭ等）	driving circuits directly addressing each display component (such as TF and  MIM)
+G09G   3/20 624 C	3	1	5C080	G09G   3/20	1180	対向電極／共通電極の駆動	driving counter electrodes/common electrodes
+G09G   3/20 624 D	3	2	5C080	G09G   3/20	1109	駆動波形	driving waveforms
+G09G   3/20 624 E	3	2	5C080	G09G   3/20	734	駆動タイミング〔６２１＠Ａ，６２２＠Ｄ，６２３＠Ｄ併用〕	driving timing (in conjunction with 621@A, 622@D, 623@D)
+G09G   3/20 624 G	3	0	5C080	G09G   3/20	26	グリッド電極の駆動	Driving grid electrodes
+G09G   3/20 624 L	3	0	5C080	G09G   3/20	451	維持／サスティーン電極の駆動	Driving maintenance electrodes/sustain electrodes
+G09G   3/20 624 M	3	1	5C080	G09G   3/20	1041	駆動波形	driving waveforms
+G09G   3/20 624 N	3	1	5C080	G09G   3/20	644	駆動タイミング〔６２１＠Ａ，６２２＠Ｄ，６２３＠Ｄ併用〕	driving timing (in conjunction with 621@A, 622@D, 623@D)
+G09G   3/20 624 P	3	1	5C080	G09G   3/20	397	駆動回路	driving circuits
+G09G   3/20 624 Z	3	0	5C080	G09G   3/20	189	その他	Others
+G09G   3/20 630 \	2	2	5C080	G09G   3/20	23	データ処理／データ伝送、信号処理／信号伝送に特徴のあるもの	Characterized by processing/transmission of data and signals
+G09G   3/20 631 \	3	3	5C080	G09G   3/20	3	メモリ／記憶手段に関するもの〔一般はＧ０９Ｇ５／００，５５０＠Ｍ−Ｘ，５５５＠Ｇ−Ｗ，Ｇ０６Ｆ３／１５３，３３０−３３６〕	related to memory/storage means (in general G09G5/00, 550@M-X, 555@G-W, G06F3/153, 330-336)
+G09G   3/20 631 A	3	0	5C080	G09G   3/20	334	フレームメモリに関するもの	Related to frame memory
+G09G   3/20 631 B	3	1	5C080	G09G   3/20	1629	フレームメモリの書き込み／読み出しに特徴のあるもの	Characterized by read/write on frame memory
+G09G   3/20 631 C	3	1	5C080	G09G   3/20	189	フレームメモリのアドレスに特徴のあるもの	Characterized by the address of frame memory
+G09G   3/20 631 D	3	1	5C080	G09G   3/20	415	複数のフレームメモリを有するもの	Having a plurality of frame memories
+G09G   3/20 631 H	3	0	5C080	G09G   3/20	527	データの記憶	Storage of data
+G09G   3/20 631 J	3	1	5C080	G09G   3/20	106	着脱可能な記憶媒体を用いるもの〔ＩＣカード、記憶ディスク等〕	Using removable storage media (such as IC cards or storage disks)
+G09G   3/20 631 K	3	1	5C080	G09G   3/20	411	不揮発メモリを用いるもの	Using nonvolatile memory
+G09G   3/20 631 M	3	0	5C080	G09G   3/20	224	その他のメモリ制御	Other memory control
+G09G   3/20 631 N	3	1	5C080	G09G   3/20	103	キャラクタジェネレータの制御〔６６０＠Ｓ参照、一般はＧ０９Ｇ５／２４，Ｇ０６Ｆ３／１５３，３１０〕	control for character generators (see 660@S; in general, G09G5/24, G06F3/153, 310)
+G09G   3/20 631 P	3	1	5C080	G09G   3/20	39	フォントメモリの制御〔６６０＠Ｓ参照〕	control for font memory (see 660@S)
+G09G   3/20 631 Q	3	1	5C080	G09G   3/20	86	分割駆動に対応したメモリ制御	memory control allowing for split driving
+G09G   3/20 631 R	3	1	5C080	G09G   3/20	598	メモリ容量の低減を目的としたもの	for the purpose of decreasing memory capacity
+G09G   3/20 631 T	3	0	5C080	G09G   3/20	61	データ形式／フォーマットに特徴のあるもの	Characterised by data forms/formats
+G09G   3/20 631 U	3	0	5C080	G09G   3/20	1252	データ内容に特徴のあるもの	Characterized by the contents of data
+G09G   3/20 631 V	3	1	5C080	G09G   3/20	2999	表示制御データを含むもの	including data for controlling display
+G09G   3/20 631 W	3	2	5C080	G09G   3/20	155	表示シークェンスを制御するもの〔６６０＠Ｍ参照〕	controlling display sequence (see 660@M)
+G09G   3/20 631 Z	3	0	5C080	G09G   3/20	32	その他	Others
+G09G   3/20 632 \	3	3	5C080	G09G   3/20	3	表示データ／信号の処理に特徴のあるもの〔一般はＧ０９Ｇ５／００，５５０＠Ｈ，Ｇ０６Ｆ１５／６６〕	characterised by display data/signal processing (in general, G09G5/00, 550@H, G06F15/66)
+G09G   3/20 632 A	3	0	5C080	G09G   3/20	165	表示データのエンコード、デコード	Encoding and decoding display data
+G09G   3/20 632 B	3	1	5C080	G09G   3/20	420	表示データの圧縮／伸長	compressing/restoring display data
+G09G   3/20 632 C	3	1	5C080	G09G   3/20	1067	表示データの間引き／補間〔６５０，６６０＠Ｃ併用〕	thinning out/interpolating display data (in conjunction with 650, 660@C)
+G09G   3/20 632 F	3	0	5C080	G09G   3/20	1071	画像処理	Image processing
+G09G   3/20 632 G	3	1	5C080	G09G   3/20	825	フィルタリング	filtering
+G09G   3/20 632 K	3	0	5C080	G09G   3/20	116	クランプ回路	Clamping circuits
+G09G   3/20 632 L	3	0	5C080	G09G   3/20	20	バイアス回路	Bias circuits
+G09G   3/20 632 Z	3	0	5C080	G09G   3/20	407	その他のデータ処理	Other data processing
+G09G   3/20 633 \	3	3	5C080	G09G   3/20	7	データ／信号伝送に特徴のあるもの〔一般はＧ０９Ｇ５／００，５５５＠Ｄ，Ｇ０６Ｆ３／１４７，３１０，Ｇ０６Ｆ１／１５３，３３０−３３６〕	characterised by transmission of data/signals (in general, G09G5/00, 555@D, G06F3/147, 310, G06F1/153, 330-336)
+G09G   3/20 633 A	3	0	5C080	G09G   3/20	27	アナログ伝送	Analog transmission
+G09G   3/20 633 B	3	0	5C080	G09G   3/20	348	シリアル伝送	Serial transmission
+G09G   3/20 633 C	3	0	5C080	G09G   3/20	103	パラレル伝送	Parallel transmission
+G09G   3/20 633 D	3	0	5C080	G09G   3/20	365	同期信号／制御信号の伝送〔６１２＠Ｌ，６２２＠Ｓ，６２３＠Ｐ併用〕	Transmission of synchronisation signals/control signals (in conjunction with 612@L, 622@S, 623@P)
+G09G   3/20 633 E	3	1	5C080	G09G   3/20	160	同期信号／制御信号の重畳／分離〔６１２＠Ｌ，６２２＠Ｓ，６２３＠Ｐ併用；ＴＶ方式に関するものＨ０４Ｎ５／０８，１０〕	multiplexing/demultiplexing synchronisation signals/control signals (in conjunction with 612@L, 622@S, 623@P; H04N5/08,10 for TV methods)
+G09G   3/20 633 G	3	0	5C080	G09G   3/20	256	伝送の為のタイミング制御〔６１２＠Ｊ，６５０＠Ｈ併用〕	Timing control for transmission for (in conjunction with 612@J, 650@H)
+G09G   3/20 633 H	3	0	5C080	G09G   3/20	299	伝送の為のデータの変換〔６２３＠Ｊ，Ｋ，Ｑ，６５０併用〕	Data conversion for transmission (in conjunction with 623@J, K, Q, 650)
+G09G   3/20 633 K	3	0	5C080	G09G   3/20	577	光伝送／無線伝送	Optical transmission/radio transmission
+G09G   3/20 633 L	3	0	5C080	G09G   3/20	642	データ入力手段（スイッチ、キーボード等）とのデータ伝送〔６９１併用〕	Data transmission to data input means (such as switches and keyboards) (in conjunction with 691)
+G09G   3/20 633 P	3	0	5C080	G09G   3/20	755	表示手段へのデータ伝送	Data transmission to display means
+G09G   3/20 633 Q	3	1	5C080	G09G   3/20	669	複数の表示手段へのデータ伝送〔６８０＠Ｄ，Ｅ併用〕	data transmission to a plurality of display means (in conjunction with 680@D, E)
+G09G   3/20 633 R	3	1	5C080	G09G   3/20	134	複数の異なる型の表示手段へのデータ伝送〔６８０＠Ｄ，Ｅ併用〕	data transmission to a plurality of display means with different types (in conjunction with 680@D, E)
+G09G   3/20 633 S	3	0	5C080	G09G   3/20	92	遠方から画像データを伝送するもの	Remotely transmitting image data
+G09G   3/20 633 U	3	0	5C080	G09G   3/20	224	データ伝送の高速化に特徴のあるもの	Characterized by faster data transmission
+G09G   3/20 633 Z	3	0	5C080	G09G   3/20	93	その他	Others
+G09G   3/20 640 \	2	2	5C080	G09G   3/20	24	輝度調整に特徴のあるもの	Characterized by luminance control
+G09G   3/20 641 \	3	3	5C080	G09G   3/20	11	階調制御に特徴のあるもの〔６１２＠Ｆ，６２３＠Ｅ，Ｆ，６５０＠Ｍ併用〕	Characterized by gradation control (in conjunction with 612@F, 623@E, F, 650@M)
+G09G   3/20 641 A	3	0	5C080	G09G   3/20	2149	パルス幅変調	Pulse duration modulation
+G09G   3/20 641 B	3	0	5C080	G09G   3/20	193	パルス数変調	Pulse number modulation
+G09G   3/20 641 C	3	0	5C080	G09G   3/20	3015	振幅変調	Amplitude modulation
+G09G   3/20 641 D	3	1	5C080	G09G   3/20	2889	電流量	Current capacity
+G09G   3/20 641 E	3	0	5C080	G09G   3/20	5567	フレーム変調、サブフレーム／サブフィールド方式	Frame modulation, subframe/subfield method
+G09G   3/20 641 F	3	1	5C080	G09G   3/20	83	画素位置によって位相を変化させるもの	shifting phases due to position of pixels
+G09G   3/20 641 G	3	0	5C080	G09G   3/20	754	面積変調	Area modulation
+G09G   3/20 641 H	3	1	5C080	G09G   3/20	453	誤差拡散	error diffusion
+G09G   3/20 641 J	3	0	5C080	G09G   3/20	118	その他の変調方法	Other modulation methods
+G09G   3/20 641 K	3	0	5C080	G09G   3/20	955	変調方法の組み合わせ	Combination of modulation methods
+G09G   3/20 641 P	3	0	5C080	G09G   3/20	5683	階調変換／変更／補正〔６５０＠Ｍ併用〕	Conversion/change/correction of gradation (in conjunction with 650@M)
+G09G   3/20 641 Q	3	1	5C080	G09G   3/20	2124	γ補正／逆γ補正を行うもの〔ＴＶ方式に関するものＨ０４Ｎ５／２０２，Ｈ０４Ｎ９／６９〕	applying g-correction/inverse g-correction (regarding TV methods, H04N5/202, H04N9/69)
+G09G   3/20 641 R	3	0	5C080	G09G   3/20	2164	動画表示時の疑似輪郭／偽輪郭を低減するもの〔６６０＠Ｖ，Ｗ参照〕	decreasing pseudo-contour/false contour when displaying moving pictures (see 660@V, W)
+G09G   3/20 641 S	3	0	5C080	G09G   3/20	94	その他の階調制御回路	Other control circuits for gradation
+G09G   3/20 641 T	3	0	5C080	G09G   3/20	254	その他の階調制御方法	Other control methods for gradation
+G09G   3/20 641 Z	3	0	5C080	G09G   3/20	37	その他	Others
+G09G   3/20 642 \	3	3	5C080	G09G   3/20	22	階調制御以外の輝度調整に特徴のあるもの〔一般Ｇ０９Ｇ５／１０〕	characterised by luminance control other than gradation control (in general, G09G5/10)
+G09G   3/20 642 A	3	0	5C080	G09G   3/20	6114	輝度むら抑制	Control for uneven luminance
+G09G   3/20 642 B	3	1	5C080	G09G   3/20	1003	表示ブロック／表示ユニット間の輝度のばらつきを調節するもの〔６３３＠Ｑ，６８０＠Ｅ参照〕	adjusting uneven luminance among display blocks/display units (see 633@Q, 680@E)
+G09G   3/20 642 C	3	0	5C080	G09G   3/20	1488	輝度の安定化	Stabilising luminance
+G09G   3/20 642 D	3	0	5C080	G09G   3/20	1457	輝度の向上	Improving luminance
+G09G   3/20 642 E	3	0	5C080	G09G   3/20	3125	コントラスト制御〔ＴＶ方式に関するものＨ０４Ｎ５／５７，５８〕	Contrast control (regarding TV methods, H04N5/57, 58)
+G09G   3/20 642 F	3	1	5C080	G09G   3/20	1919	外光量に応じた輝度調整	luminance control according to quantity of external lights
+G09G   3/20 642 J	3	0	5C080	G09G   3/20	3352	色調制御／カラー表示〔６４１、６５０＠Ｍ併用、一般Ｇ０９Ｇ５／０２−０６，ＴＶ方式に関するものＨ０４Ｎ９／６４〕	Colour tone control/colour display (in conjunction with 641, 650@M, in general, G09G5/02-06, H04N9/64 for regarding TV methods
+G09G   3/20 642 K	3	1	5C080	G09G   3/20	1101	ＲＧＢ配置に特徴のあるもの〔６２３＠Ｑ優先〕	characterised by RGB placement (623@Q takes precedence)
+G09G   3/20 642 L	3	1	5C080	G09G   3/20	2080	色バランス〔ＴＶ方式に関するものＨ０４Ｎ９／７３〕	Colour balance (H04N9/73 with regards to TV methods)
+G09G   3/20 642 P	3	0	5C080	G09G   3/20	3793	フィードバック制御を行うもの	Performing feedback control
+G09G   3/20 642 Z	3	0	5C080	G09G   3/20	283	その他	Others
+G09G   3/20 650 \	2	2	5C080	G09G   3/20	3	方式／規格変換に特徴のあるもの〔６１２＠Ｐ参照，６１１＠Ｆ，６２１＠Ｋ，６２２＠Ｒ，６３２，６３３＠Ｈ，Ｒ，６４１＠Ｐ，Ｑ併用、ＴＶ方式に関するものＧ０９Ｇ５／００，５２０〕	characterised by conversion of methods/standards (see 612@P; in conjunction with 611@F, 621@K, 622@R, 632, 633@H, R, 641@P,Q; G09G5/00, 520 with regards to TV methods)
+G09G   3/20 650 A	2	0	5C080	G09G   3/20	343	方式／規格の検出	Detecting methods/standards
+G09G   3/20 650 B	2	0	5C080	G09G   3/20	513	方式／規格の切替え	Switching methods/standards
+G09G   3/20 650 C	2	0	5C080	G09G   3/20	1029	解像度変換（ＶＧＡ、ＳＶＧＡ、ＸＧＡ、ＳＸＧＡ等）	Resolution conversion (such as VGA, SVG A, XGA, and SXGA)
+G09G   3/20 650 D	2	0	5C080	G09G   3/20	149	ＴＶ方式変換（ＰＡＬ、ＮＴＳＣ、ＨＤＴＶ、ＭＵＳＥ、ＳＥＣＡＭ、ワイド、ノーマル等）〔一般Ｈ０４Ｎ７／０１〕	TV method conversion (PAL, NTSC, HDTV, MUSE, SECAM, wide, and normal)(in general, H04N7/01)
+G09G   3/20 650 E	2	0	5C080	G09G   3/20	393	走査方式変換（インターレース方式からの変換等）	Scanning method conversion (such as conversion from interlace method)
+G09G   3/20 650 F	2	0	5C080	G09G   3/20	72	データ側の方式変換	Method conversion on the data side)
+G09G   3/20 650 G	2	0	5C080	G09G   3/20	246	アスペクト比変換	Aspect ration conversion
+G09G   3/20 650 H	2	0	5C080	G09G   3/20	121	タイミング変換	Timing conversion
+G09G   3/20 650 J	2	0	5C080	G09G   3/20	1138	周波数変換	Frequency conversion
+G09G   3/20 650 K	2	0	5C080	G09G   3/20	6	エミュレーション	Emulation
+G09G   3/20 650 L	2	0	5C080	G09G   3/20	39	ＣＲＴ信号からの変換／ＣＲＴインターフェイス	Conversion from CRT signals/CRT interface
+G09G   3/20 650 M	2	0	5C080	G09G   3/20	2040	色調／色相変換（カラー／白黒変換、色調ビット数変換）〔６４１Ｐ，Ｑ優先〕	Colour tone /hue conversion (colour/monotone conversion, number of colour tone bits conversion) (641P, Q take precedence)
+G09G   3/20 650 Z	2	0	5C080	G09G   3/20	46	その他の方式／規格変換回路	Other circuits for methods/standards conversion
+G09G   3/20 660 \	2	2	5C080	G09G   3/20	5	表示様態に特徴のあるもの〔６３１、６３２併用〕	characterised by display manners
+G09G   3/20 660 A	2	0	5C080	G09G   3/20	87	表示方法に特徴のあるもの	Characterized by  display method
+G09G   3/20 660 B	2	1	5C080	G09G   3/20	422	スクロール／流動表示〔一般Ｇ０９Ｇ５／３４〕	Scroll/flow display (in general, G09G5/34)
+G09G   3/20 660 C	2	1	5C080	G09G   3/20	1261	拡大／縮小〔６５０優先、６３２＠Ｃ併用、一般Ｇ０９Ｇ５／２６，Ｇ０９Ｇ５／３６，５２０＠Ｅ−Ｊ〕	Zoom-in/zoom-out (650 takes precedence; in conjunction with 632@C; in general, G09G5/26, G09G5/36, 520@E-J)
+G09G   3/20 660 D	2	1	5C080	G09G   3/20	251	移動	move
+G09G   3/20 660 E	2	1	5C080	G09G   3/20	743	表示位置の制御〔６５０併用〕	control for display position (in conjunction with 650)
+G09G   3/20 660 F	2	1	5C080	G09G   3/20	427	回転	revolving
+G09G   3/20 660 G	2	1	5C080	G09G   3/20	217	カーソル〔一般Ｇ０９Ｇ５／０８〕	cursors (in general, G09G5/08)
+G09G   3/20 660 H	2	1	5C080	G09G   3/20	191	反転、ブリンク	reverse, blinking
+G09G   3/20 660 J	2	1	5C080	G09G   3/20	168	特殊効果	special effects
+G09G   3/20 660 K	2	1	5C080	G09G   3/20	811	その他の表示方法	other display methods
+G09G   3/20 660 M	2	1	5C080	G09G   3/20	176	表示スケジュールの制御〔６３１＠Ｗ優先〕	control for scheduling display (631@W takes precedence)
+G09G   3/20 660 N	2	1	5C080	G09G   3/20	221	表示データの作成	creation of display data
+G09G   3/20 660 P	2	0	5C080	G09G   3/20	459	文字表示〔６３１＠Ｎ，Ｐ優先、一般Ｇ０９Ｇ５／２２−３２，Ｇ０６Ｆ３／１５３，３１０〕	Character display (631@N, P take precedence; in general, G09G5/22-32, G06F3/153, 310)
+G09G   3/20 660 Q	2	0	5C080	G09G   3/20	470	余白／有効表示領域以外の処理	Processing margins/areas other than effective display area
+G09G   3/20 660 R	2	0	5C080	G09G   3/20	472	秘匿表示	Confidential display
+G09G   3/20 660 U	2	0	5C080	G09G   3/20	1042	静止画表示を行うためのもの	For displaying still pictures
+G09G   3/20 660 V	2	0	5C080	G09G   3/20	2270	動画表示を行うためのもの〔６４１＠Ｒ優先、一般Ｇ０９Ｇ５／３６，５１０＠Ｍ〕	For displaying moving pictures (641@R takes precedence; in general, G09G5/36, 510@M)
+G09G   3/20 660 W	2	1	5C080	G09G   3/20	1035	動き検出を行うもの	detecting movements
+G09G   3/20 660 X	2	0	5C080	G09G   3/20	1701	立体表示を行うためのもの〔一般Ｇ０９Ｇ５／３６，５１０＠Ｖ、ＴＶ方式に関するものＨ０４Ｎ１３，１５〕	For performing 3 dimensional display (in general, G09G5/36, 510@V, H04N13, 15 with regards to TV methods)
+G09G   3/20 660 Z	2	0	5C080	G09G   3/20	98	その他	Others
+G09G   3/20 670 \	2	2	5C080	G09G   3/20	9	異常に対する対応／保護に特徴のあるもの	Characterized by dealing with or protecting against failures
+G09G   3/20 670 A	2	0	5C080	G09G   3/20	586	表示素子、表示画素の故障、断線、不良に対応するもの〔６２１＠Ｊ併用〕	dealing with failure, disconnection, and defects in display elements and pixels (in conjunction with 621@J)
+G09G   3/20 670 B	2	1	5C080	G09G   3/20	291	表示素子、表示画素の異常検出〔６２１＠Ｊ併用〕	detecting failures in display elements and pixels (in conjunction with 621@J)
+G09G   3/20 670 C	2	0	5C080	G09G   3/20	250	電源異常に対する対応〔６１２＠Ａ−Ｇ参照〕	Dealing with  power failures (see 612@A-G)
+G09G   3/20 670 D	2	1	5C080	G09G   3/20	860	電源の立ち上げ、立ち下げ時の対応	Dealing with  powering on and off
+G09G   3/20 670 E	2	0	5C080	G09G   3/20	1851	表示手段の誤動作に対する対応	Dealing with faulty operations of display measures
+G09G   3/20 670 F	2	0	5C080	G09G   3/20	288	データ伝送手段の誤動作／誤接続に対する対応	Dealing with faulty operations/wrong connections of data transmission measures
+G09G   3/20 670 G	2	0	5C080	G09G   3/20	147	データ異常に対する対応	Dealing with defective data
+G09G   3/20 670 H	2	0	5C080	G09G   3/20	418	保守／メンテナンス	Maintenance
+G09G   3/20 670 J	2	0	5C080	G09G   3/20	2683	経年変化に対する対応／経年変化を軽減する為のもの	Dealing with aging/alleviating aging
+G09G   3/20 670 K	2	0	5C080	G09G   3/20	2291	表示素子／表示画素の劣化を防止する為のもの（スクリーンセーバー等）	Preventing deterioration of display components/display pixels (such as a screen saver)
+G09G   3/20 670 L	2	0	5C080	G09G   3/20	1327	過熱／発熱に対する対応	Dealing with overheating/heating
+G09G   3/20 670 M	2	0	5C080	G09G   3/20	461	過電流に対する対応	Dealing with overcurrent
+G09G   3/20 670 N	2	0	5C080	G09G   3/20	348	その他の異常検出	Other failures detected
+G09G   3/20 670 P	2	0	5C080	G09G   3/20	280	異常状態の表示	Displaying the status of failure
+G09G   3/20 670 Q	2	0	5C080	G09G   3/20	1410	製造時の試験／検査	Manufacture test/inspection
+G09G   3/20 670 Z	2	0	5C080	G09G   3/20	204	その他	Others
+G09G   3/20 680 \	2	2	5C080	G09G   3/20	10	構造／用途に特徴のあるもの	Characterized by structures/applications
+G09G   3/20 680 A	2	0	5C080	G09G   3/20	885	ヘッドマウントディスプレイ／頭部装着型	Head mount display/top mount type
+G09G   3/20 680 B	2	0	5C080	G09G   3/20	434	ヘッドアップディスプレイ〔一般Ｇ０９Ｆ９／００，３５９，Ａ〕	Head up display (in general, G09F9/00, 359, A)
+G09G   3/20 680 C	2	0	5C080	G09G   3/20	3689	プロジェクション型	Projection type
+G09G   3/20 680 D	2	0	5C080	G09G   3/20	1219	複数の表示手段を有するもの〔６３３＠Ｑ，Ｒ優先〕	Having a plurality of display measures (633@Q, R take precedence)
+G09G   3/20 680 E	2	1	5C080	G09G   3/20	1196	複数のパネルで一つの表示面が構成されるもの〔６３３＠Ｑ，６４２＠Ｂ優先〕	one screen thereof consisting of a plurality of panels (633@Q, 642@B take precedence)
+G09G   3/20 680 F	2	0	5C080	G09G   3/20	668	構造に特徴のあるもの〔一般Ｇ０９Ｆ９／４０，３０１−３０３〕	Characterised by structures (in general, G09F9/40, 301-303)
+G09G   3/20 680 G	2	1	5C080	G09G   3/20	3988	回路配置に特徴のあるもの〔６２１＠Ｍ優先〕	characterised by circuit placement (621@M takes precedence)
+G09G   3/20 680 H	2	1	5C080	G09G   3/20	2894	パネル自体が特殊な構造を持つもの	having panels per se thereof with special structures
+G09G   3/20 680 J	2	1	5C080	G09G   3/20	37	分類不能な表示デバイスを用いたもの	using unclassifiable display devices
+G09G   3/20 680 P	2	0	5C080	G09G   3/20	219	ステレオ／カーステレオ用	For stereos/car stereos
+G09G   3/20 680 Q	2	0	5C080	G09G   3/20	369	地図を表示するためのもの（カーナビゲーション等）	for displaying maps (such as car navigators)
+G09G   3/20 680 R	2	0	5C080	G09G   3/20	20	ポケットベル（登録商標）／ページャ用	For beepers/pagers
+G09G   3/20 680 S	2	0	5C080	G09G   3/20	1007	携帯電話／ＰＨＳ用／セルラ用（Ｈ１０　新設）	For portable telephones/PHS type/cellular (H10 new)
+G09G   3/20 680 T	2	0	5C080	G09G   3/20	742	携帯情報端末／ＰＤＡ（Ｈ１０　新設）	Portable information terminals/PDA (H10 new)
+G09G   3/20 680 U	2	0	5C080	G09G   3/20	19	文字放送受信用〔ＴＶ方式に関するものＨ０４Ｎ７／０８＠Ａ，９／００＠Ｃ〕	For receiving teletexts (regarding TV methods; H04N7/08@A, 9/00@C)
+G09G   3/20 680 V	2	0	5C080	G09G   3/20	349	ビデオ／ディジタルカメラのモニタ用	For video monitors/digital camera monitors
+G09G   3/20 680 W	2	0	5C080	G09G   3/20	504	用途に特徴のあるもの〔一般Ｇ０９Ｇ５／００，５１０〕	Characterised by applications (in general, G09G5/00, 510)
+G09G   3/20 680 Z	2	0	5C080	G09G   3/20	22	その他	Others
+G09G   3/20 690 \	2	2	5C080	G09G   3/20	3	その他の特徴	Other features
+G09G   3/20 691 \	3	3	5C080	G09G   3/20	11	データ入力手段〔６３３＠Ｌ併用、一般Ｇ０６Ｆ３／０３３〕	Data input measures (in conjunction with 633@L; in general, G06F3/033)
+G09G   3/20 691 A	3	0	5C080	G09G   3/20	241	キーボード	Keyboards
+G09G   3/20 691 B	3	0	5C080	G09G   3/20	303	ペン／デジタイザ	Pens/digitisers
+G09G   3/20 691 C	3	0	5C080	G09G   3/20	227	スイッチ／ボタンスイッチ	Switches/button switches
+G09G   3/20 691 D	3	0	5C080	G09G   3/20	1597	タッチパネル／タッチスクリーン	Touch panels/touch screens
+G09G   3/20 691 E	3	0	5C080	G09G   3/20	264	イメージスキャナ／光学読み取り	Image scanners/optical readers
+G09G   3/20 691 F	3	0	5C080	G09G   3/20	116	マウス／ポインティングデバイス	Mouse devices/pointing devices
+G09G   3/20 691 G	3	0	5C080	G09G   3/20	731	カメラ	Cameras
+G09G   3/20 691 Z	3	0	5C080	G09G   3/20	168	その他	Others
+G09G   3/22  \	2	2	5C080	G09G   3/22	570	制御された光源を用いるもの［３］	using controlled light sources [3]
+G09G   3/22  A	2	0	5C080	G09G   3/22	31	熱陰極を用いるもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Using hot cathodes (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/22  D	2	0	5C080	G09G   3/22	124	冷陰極を用いるもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Using cold cathodes (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/22  E	2	1	5C080	G09G   3/22	596	フィールドエミッション（電界放出／ＦＥ）型〔ＦＥＤ、細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	field emission (FE) type (in conjunction with G09G3/20, 610-691 for FED and details)
+G09G   3/22  F	2	1	5C080	G09G   3/22	22	半導体（ＳＥ）型〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Semiconductor (SE) type  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/22  G	2	1	5C080	G09G   3/22	94	金属・絶縁層・金属（ＭＩＭ）型〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	metal-insulation-metal (MIM) type (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/22  H	2	1	5C080	G09G   3/22	447	表面伝導（ＳＣＥ）型〔ＳＥＤ（登録商標）、細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	surface conduction type(in conjunction with G09G3/20, 610-691 for SED(R) and details)
+G09G   3/22  Z	2	0	5C080	G09G   3/22	132	その他〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Others (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/24  \	3	3	5C080	G09G   3/24	27	白熱フイラメントを用いるもの［３］	using incandescent filaments [3]
+G09G   3/26  \	4	4	5C080	G09G   3/26	224	移動信号を表わすもの［３］	to give the appearance of moving signs [3]
+G09G   3/28  \	3	3	5C580	G09G   3/28	222	発光ガス放電パネル，例．プラズマパネル，を用いるもの［３，２０１３．０１］	using luminous gas-discharge panels, e.g. plasma panels [3,2013.01]
+G09G   3/28  A	3	0	5C580	G09G   3/28	111	放電灯、ネオン管〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Electric-discharge lamps and neon tubes (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/28  H	3	0	5C580	G09G   3/28	3035	入出力回路、装置〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用、書き込み、読出、維持、消去、種火〕	Input and output circuits, devices (in conjunction with G09G3/20, 610-691 for details; device structure with AC type PDP, H01J11/00)
+G09G   3/28  J	3	0	5C580	G09G   3/28	1352	駆動電源回路、装置〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Driving power circuits, devices (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/28  K	3	0	5C580	G09G   3/28	2199	輝度調整回路、装置〔多色表示、点滅を含む、細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Luminance control circuits, devices (including multi-colour display and flickering; in conjunction with G09G3/20, 610-691 for details)
+G09G   3/28  N	3	0	5C580	G09G   3/28	213	保守に特徴がある回路、装置〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Circuits and devices characterised by maintenance (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/28  R	3	0	5C580	G09G   3/28	108	レジスタ〔メモリ、シフトレジスタ、エンコーダ、デコーダ、細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Registers (memories, shift registers, encoders, decoders;  in conjunction with G09G3/20, 610-691 for details)
+G09G   3/28  U	3	0	5C580	G09G   3/28	64	パターン〔字形、スクロール、拡大、縮小、回転、カーソル、細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Patterns (character shapes, scroll, zoom-in, zoom-out, cursor; for details,  in conjunction with G09G3/20, 610-691)
+G09G   3/28  W	3	0	5C580	G09G   3/28	150	多重、分割駆動〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Multiplexed and demultiplexed driving  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/28  Z	3	0	5C580	G09G   3/28	613	その他のもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Others  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/2807  \	4	4	5C580	G09G   3/2807	22	放電が特別に適合された高周波信号によって生起されるもの［２０１３．０１］	with discharge activated by high-frequency signals specially adapted therefor [2013.01]
+G09G   3/2813  \	4	4	5C580	G09G   3/2813	28	交流［ＡＣ］−直流［ＤＣ］ハイブリッド型パネルを用いるもの［２０１３．０１］	using alternating current [AC] - direct current [DC] hybrid-type panels [2013.01]
+G09G   3/282  \	4	4	5C580	G09G   3/282	652	ＤＣ型パネルを用いるもの［７］	using&nbsp;DC panels [7]
+G09G   3/285  \	5	5	5C580	G09G   3/285	26	セルフ・スキャンを用いるもの［７］	using self-scanning [7]
+G09G   3/288  \	4	4	5C580	G09G   3/288	4193	ＡＣ型パネルを用いるもの［７，２０１３．０１］	using AC panels [7,2013.01]
+G09G   3/29  \	5	5	5C580	G09G   3/29	288	セルフシフトパネルを使用するもの［５］	using self-shift panels [5]
+G09G   3/291  \	5	5	5C580	G09G   3/291	3859	放電セルの状態を制御するためにガス放電を制御するもの，例．特定のパルスの形状を用いるもの［２０１３．０１］	controlling the gas discharge to control a cell condition, e.g. by means of specific pulse shapes [2013.01]
+G09G   3/292  \	6	6	5C580	G09G   3/292	1714	アドレス工程以外の工程におけるリセット放電，予備放電または消去放電のためのもの［２０１３．０１］	for reset discharge, priming discharge or erase discharge occurring in a phase other than addressing [2013.01]
+G09G   3/293  \	6	6	5C580	G09G   3/293	1519	アドレス放電のためのもの［２０１３．０１］	for address discharge [2013.01]
+G09G   3/294  \	6	6	5C580	G09G   3/294	2655	発光または維持放電のためのもの［２０１３．０１］	for lighting or sustain discharge [2013.01]
+G09G   3/296  \	5	5	5C580	G09G   3/296	3233	駆動電極に印加される波形を生成するための駆動回路［２０１３．０１］	Driving circuits for producing the waveforms applied to the driving electrodes [2013.01]
+G09G   3/297  \	5	5	5C580	G09G   3/297	81	対向放電型パネルを用いるもの［２０１３．０１］	using opposed discharge type panels [2013.01]
+G09G   3/298  \	5	5	5C580	G09G   3/298	3467	面放電型パネルを用いるもの［２０１３．０１］	using surface discharge panels [2013.01]
+G09G   3/299  \	6	6	5C580	G09G   3/299	101	ＡＬＩＳ（Ａｌｔｅｒｎａｔｅ　Ｌｉｇｈｔｉｎｇ　ｏｆ　Ｓｕｒｆａｃｅ）型パネルを用いるもの［２０１３．０１］	using alternate lighting of surface-type panels [2013.01]
+G09G   3/30  \	3	3	5C380	G09G   3/30	422	エレクトロルミネッセントパネルを用いるもの［３］	using electroluminescent panels [3]
+G09G   3/30  H	3	0	5C380	G09G   3/30	1014	入出力回路、装置〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Input and output circuits, devices (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/30  J	3	0	5C380	G09G   3/30	6247	駆動方式、回路〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Driving methods, devices (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/30  K	3	0	5C380	G09G   3/30	3278	輝度調整方式、回路（多色表示を含む）〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Luminance control methods, devices (including multi-colour display) (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/30  Z	3	0	5C380	G09G   3/30	725	その他のもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Others  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/30 301 \	4	4	5C080	G09G   3/30	364	蛍光表示管を用いるもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	using phosphor display tube  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/32  \	4	4	5C380	G09G   3/32	595	半導体，例．発光ダイオード［ＬＥＤ］［３，２０１６．０１］	semiconductive, e.g. diodes [3]
+G09G   3/32  A	4	0	5C380	G09G   3/32	2128	ＬＥＤを用いるもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	using LEDs (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/32  Z	4	0	5C380	G09G   3/32	131	その他のもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Others  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/3208  \	5	5	5C380	G09G   3/3208	833	有機的なもの，例．有機発光ダイオード［ＯＬＥＤ］［２０１６．０１］	organic, e.g. using organic light-emitting diodes [OLED] [2016.01]
+G09G   3/3216  \	6	6	5C380	G09G   3/3216	1390	パッシブマトリックスを用いるもの［２０１６．０１］	using a passive matrix [2016.01]
+G09G   3/3225  \	6	6	5C380	G09G   3/3225	2298	アクティブマトリックスを用いるもの［２０１６．０１］	using an active matrix [2016.01]
+G09G   3/3233  \	7	7	5C380	G09G   3/3233	5267	発光素子を流れる電流を制御する画素回路を備えるもの［２０１６．０１］	with pixel circuitry controlling the current through the light-emitting element [2016.01]
+G09G   3/3241  \	8	8	5C380	G09G   3/3241	702	発光素子を流れる電流がデータドライバによるデータ電流を用いて設定されるもの，例．２つのトランジスタを用いたカレントミラー回路を使用するもの［２０１６．０１］	the current through the light-emitting element being set using a data current provided by the data driver, e.g. by using a two-transistor current mirror [2016.01]
+G09G   3/325  \	9	9	5C380	G09G   3/325	591	セッティング期間中に駆動トランジスタにデータ電流を流すもの，例．駆動トランジスタをデータドライバに接続するためのスイッチを用いるもの［２０１６．０１］	the data current flowing through the driving transistor during a setting phase, e.g. by using a switch for connecting the driving transistor to the data driver [2016.01]
+G09G   3/3258  \	7	7	5C380	G09G   3/3258	376	発光素子に印加される電圧を制御する画素回路を備えるもの［２０１６．０１］	with pixel circuitry controlling the voltage across the light-emitting element [2016.01]
+G09G   3/3266  \	6	6	5C380	G09G   3/3266	6558	走査電極用ドライバの細部［２０１６．０１］	Details of drivers for scan electrodes [2016.01]
+G09G   3/3275  \	6	6	5C380	G09G   3/3275	6288	データ電極用ドライバの細部［２０１６．０１］	Details of drivers for data electrodes [2016.01]
+G09G   3/3283  \	7	7	5C380	G09G   3/3283	1712	発光素子を流れる電流，又は，発光素子に印加される電圧を設定するために可変データ電流を供給するデータドライバ［２０１６．０１］	in which the data driver supplies a variable data current for setting the current through, or the voltage across, the light-emitting elements [2016.01]
+G09G   3/3291  \	7	7	5C380	G09G   3/3291	4666	発光素子を流れる電流，又は，発光素子に印加される電圧を設定するために可変データ電圧を供給するデータドライバ［２０１６．０１］	in which the data driver supplies a variable data voltage for setting the current through, or the voltage across, the light-emitting elements [2016.01]
+G09G   3/34  \	2	2	5C080	G09G   3/34	75	独立の光源よりの光の制御によるもの［３］	by control of light from an independent source [3]
+G09G   3/34  B	2	0	5C080	G09G   3/34	40	透光性セラミックス素子〔ＰＬＺＴ、細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Translucent ceramic component (PLZT, in conjunction with G09G3/20, 610-691 for details)
+G09G   3/34  C	2	0	5C080	G09G   3/34	1884	電気泳動表示素子〔ＥＰＩＤ、細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	electrophoresis display component (EPID, in conjunction with G09G3/20, 610-691 for details)
+G09G   3/34  D	2	0	5C080	G09G   3/34	1065	ディジタルマイクロミラーデバイス（ＤＭＤ）〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Digital micro mirror device (DMD)  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/34  J	2	0	5C080	G09G   3/34	7227	光源の制御〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Controlling light sources  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/34  Z	2	0	5C080	G09G   3/34	459	その他のもの〔細部についてはＧ０９Ｇ３／２０，６１０−６９１併用〕	Others  (in conjunction with G09G3/20, 610-691 for details)
+G09G   3/36  \	3	3	5C006	G09G   3/36	41601	液晶を用いるもの［３］	using liquid crystals [3]
+G09G   3/38  \	3	3	5C080	G09G   3/38	257	エレクトロクロミック装置を使用するもの［５］	using electrochromic devices [5]
+G09G   5/00  \	0	0	5C182	G09G   5/00	234	陰極線管表示器および他の可視的表示器に共通の可視的表示器用の制御装置または回路［５］	Control arrangements or circuits for visual indicators common to cathode-ray tube indicators and other visual indicators [5, 2006.01]
+G09G   5/00  X	0	0	5C182	G09G   5/00	3078	表示制御装置の製造、修理、点検、保守、較正	Production, repair, inspection, maintenance, and calibration of control arrangement for indication
+G09G   5/00  Z	0	0	5C182	G09G   5/00	714	その他のもの	Others
+G09G   5/00 510 \	1	1	5C182	G09G   5/00	38	特別な用途に適合せしめる点に特徴の有る表示装置の制御・回路	control and circuits of indicators characterised by being adapted to special applications
+G09G   5/00 510 A	1	0	5C182	G09G   5/00	3159	特定の利用形態に適合した表示装置の制御・回路	Control and circuits of indicators suitable for a particular form of application
+G09G   5/00 510 B	1	1	5C182	G09G   5/00	6146	広報用、広告用、プレゼンテ−シヨン用	for broadcast, advertisement, and presentation
+G09G   5/00 510 C	1	1	5C182	G09G   5/00	1288	プラント・機器の監視・制御用	for controlling and monitoring plants and equipment
+G09G   5/00 510 D	1	1	5C182	G09G   5/00	1077	現象・物体の観察、観測用	for monitoring or observing phenomena and objects
+G09G   5/00 510 G	1	0	5C182	G09G   5/00	2939	特定の装置・方式への適用に適合した表示装置の制御・回路	Control and circuits for indicators suitable for application of particular devices and methods)
+G09G   5/00 510 H	1	1	5C182	G09G   5/00	8194	操作器との結合に特徴の有るもの	characterised by connecting to operating devices
+G09G   5/00 510 J	1	2	5C182	G09G   5/00	389	ライトペンとの結合に特徴の有るもの	Characterized by connecting to light pens
+G09G   5/00 510 M	1	1	5C182	G09G   5/00	1601	記録再生装置との結合に特徴の有るもの	Characterized by connecting to record playback devices
+G09G   5/00 510 P	1	1	5C182	G09G   5/00	1166	印刷装置との結合に特徴の有るもの	Characterized by connecting to printers
+G09G   5/00 510 Q	1	1	5C182	G09G   5/00	1495	音響出力装置との結合に特徴の有るもの	Characterized by connecting to sound output devices
+G09G   5/00 510 T	1	1	5C182	G09G   5/00	570	フアクシミリ、電話に関連したもの	related to facsimile machines and telephones
+G09G   5/00 510 V	1	1	5C182	G09G   5/00	6299	複数の表示装置を備えた表示システム	indication system with a plurality of displays
+G09G   5/00 510 W	1	0	5C182	G09G   5/00	138	複数用途両用・兼用、他の用途への流用	A plurality of applications for a combined use and a both use and diversion for other applications
+G09G   5/00 510 X	1	1	5C182	G09G   5/00	2561	複数種の情報源からの情報を表示するもの	displaying information from a plurality types of information sources
+G09G   5/00 510 Z	1	0	5C182	G09G   5/00	1256	その他の用途に特徴の有るもの	Characterized by other applications
+G09G   5/00 520 \	1	1	5C182	G09G   5/00	7	適用する方式・規格に特徴の有る表示装置の制御・回路一般	control and circuits of display arrangements, in general, characterised by applied methods and standards
+G09G   5/00 520 A	1	0	5C182	G09G   5/00	507	表示階調に特徴の有る表示装置の制御・回路一般	Control and circuits of display arrangements, in general, characterised by applied methods and standards
+G09G   5/00 520 H	1	1	5C182	G09G   5/00	515	特にハ−フト−ンである点に特徴の有るもの	Characterized by especially being of half tone.
+G09G   5/00 520 J	1	2	5C182	G09G   5/00	456	疑似中間調表示に特徴の有るもの	Characterized by pseudo half-tone display
+G09G   5/00 520 T	1	0	5C182	G09G   5/00	286	複数種の方式、規格等に関連する表示装置の制御・回路	Control and circuits of display arrangements related to a plurality of methods, standards, and like.
+G09G   5/00 520 V	1	1	5C182	G09G   5/00	2446	方式変換、規格変換	method conversion, standards conversion
+G09G   5/00 520 W	1	1	5C182	G09G   5/00	1070	多方式両用	both use with a plurality of methods
+G09G   5/00 520 Z	1	0	5C182	G09G   5/00	84	その他の方式・規格に特徴の有るもの	Characterized by other methods and standards
+G09G   5/00 530 \	1	1	5C182	G09G   5/00	9	機能に特徴の有る表示装置の制御・回路一般	Control and circuits, in general, of display arrangements characterised by functions
+G09G   5/00 530 A	1	0	5C182	G09G   5/00	753	表示内容の処理機能に特徴の有る表示装置の制御・回路一般	Control and circuits, in general, of display arrangements characterised by functions to process the contents being displayed
+G09G   5/00 530 D	1	1	5C182	G09G   5/00	1095	消去・削除機能に特徴の有るもの	Characterized by deleted and remove functions
+G09G   5/00 530 H	1	1	5C182	G09G   5/00	3204	変形・編集機能に特徴の有るもの	Characterized by transformation and edit functions
+G09G   5/00 530 M	1	2	5C182	G09G   5/00	4320	混合・合成機能に特徴の有るもの	Characterized by blend and composite functions
+G09G   5/00 530 T	1	1	5C182	G09G   5/00	5285	改頁・画面切替機能に特徴の有るもの	Characterized by page feed and screen switching functions
+G09G   5/00 530 Z	1	0	5C182	G09G   5/00	428	その他の機能に特徴の有るもの	Characterized by other functions
+G09G   5/00 550 \	1	1	5C182	G09G   5/00	7	特定の部位・部品に特徴の有る表示装置の制御・回路	control and circuits of display arrangements characterized by particular sections and parts
+G09G   5/00 550 A	1	0	5C182	G09G   5/00	1037	副制御系統に特徴の有るもの	Characterized by secondary control systems
+G09G   5/00 550 B	1	1	5C182	G09G   5/00	3729	限時制御に特徴の有るもの	Characterized by immediate control
+G09G   5/00 550 C	1	1	5C182	G09G   5/00	14024	センサ−類に基づく制御に特徴の有るもの	characterised by control based on sensors and the like
+G09G   5/00 550 D	1	1	5C182	G09G   5/00	1395	初期設定手段に特徴の有るもの	Characterized by initial setup means
+G09G   5/00 550 G	1	0	5C182	G09G   5/00	42	ＣＲＴとＣＲＴ以外の表示器に共通する表示器の構造に特徴の有るもの	Characterized by indicator structures common to CRTs and indicators other than CRTs
+G09G   5/00 550 H	1	0	5C182	G09G   5/00	3500	映像信号処理部に特徴の有るもの	Characterized by processing sections of image signals
+G09G   5/00 550 M	1	0	5C182	G09G   5/00	730	ＶＲＡＭ、リフレツシユメモリ部に特徴の有るもの	Characterized by VRAM and refresh memory sections
+G09G   5/00 550 P	1	1	5C182	G09G   5/00	1466	ＶＲＡＭ、リフレツシユメモリの書込側、ＣＰＵ側に特徴の有るもの	Characterized by CPU or side writing to VRAM and refresh memory
+G09G   5/00 550 R	1	1	5C182	G09G   5/00	1033	ＶＲＡＭ、リフレツシユメモリの読出側、ＣＲＴＣ側に特徴の有るもの	Characterized by CRTC or side reading from VRAM and refresh memory
+G09G   5/00 550 T	1	1	5C182	G09G   5/00	495	ＶＲＡＭ、リフレツシユメモリのアドレス制御に特徴の有るもの	Characterized by address control over VRAM and refresh memory
+G09G   5/00 550 X	1	0	5C182	G09G   5/00	2954	特殊な作用のためのメモリを備えることに特徴の有るもの	Characterized by having memory with special operation
+G09G   5/00 550 Z	1	0	5C182	G09G   5/00	50	その他の部位に特徴の有るもの	Characterized by other sections
+G09G   5/00 555 \	2	2	5C182	G09G   5/00	1	表示装置の複数の部位に共通な事項に特徴の有るもの	Characterized by items common to a plurality of sections of display arrangements
+G09G   5/00 555 A	2	0	5C182	G09G   5/00	1048	表示制御信号の符号化、複合化部に関する共通事項に特徴の有るもの	Characterized by items common to encoders and decoders of display control signals
+G09G   5/00 555 B	2	1	5C182	G09G   5/00	105	固定情報と可変情報に分けることによるもの	by grouping into permanent information and variable one
+G09G   5/00 555 D	2	0	5C182	G09G   5/00	6393	表示制御信号の伝送部に関する共通事項に特徴の有るもの	Characterized by items common to transmission sections of display control signals
+G09G   5/00 555 G	2	0	5C182	G09G   5/00	658	表示制御信号蓄積部に関する共通事項に特徴の有るもの	Characterized by items common to accumulation sections of display control signals
+G09G   5/00 555 H	2	1	5C182	G09G   5/00	55	メモリ素子自体に特徴の有るもの	Characterized by memory component per se
+G09G   5/00 555 J	2	2	5C182	G09G   5/00	138	ＤＲＡＭを利用する点に特徴の有るもの	Characterized by using DRAM
+G09G   5/00 555 K	2	2	5C182	G09G   5/00	140	マルチポ−トメモリを利用する点に特徴の有るもの	Characterized by using multi-port memory
+G09G   5/00 555 L	2	2	5C182	G09G   5/00	181	非半導体ＲＡＭ・非半導体ＲＯＭを利用する点に特徴の有るもの	Characterized by using non-semiconductor RAM and non-semiconductor ROM
+G09G   5/00 555 M	2	1	5C182	G09G   5/00	315	競合調停手段に特徴の有るもの	Characterized by arbitration means for contention
+G09G   5/00 555 R	2	2	5C182	G09G   5/00	228	時分割で割り当てるもの	using assignment by time division
+G09G   5/00 555 S	2	3	5C182	G09G   5/00	115	サイクルスチ−ル等を利用するもの	using cycle steal or like
+G09G   5/00 555 T	2	1	5C182	G09G   5/00	221	メモリ間の一括デ−タ転送手段に特徴を有するもの	Characterized by means of batch data transfer between memories
+G09G   5/00 555 W	2	1	5C182	G09G   5/00	577	ダブルバツフア、マルチバツフア構造に特徴を有するもの	Characterized by structures of double buffers and multi-buffers
+G09G   5/00 555 Z	2	0	5C182	G09G   5/00	21	その他の共通事項に特徴の有るもの	Characterized by other common items
+G09G   5/02  \	1	1	5C182	G09G   5/02	1054	色を表示する方法に特徴があるもの［５］	characterised by the way in which colour is displayed [5, 2006.01]
+G09G   5/02  A	1	0	5C182	G09G   5/02	110	カラ−デイスプレイのハ−ドコピ−	Hard copy of colour display
+G09G   5/02  B	1	0	5C182	G09G   5/02	3817	カラ−映像信号の処理	Process of colour image signals
+G09G   5/02  C	1	0	5C182	G09G   5/02	301	ハ−フト−ン	Half-tone
+G09G   5/02  D	1	1	5C182	G09G   5/02	125	疑似カラ−化	pseudo colourisation
+G09G   5/02  E	1	0	5C182	G09G   5/02	79	カラ−カ−ソル	Colour cursor
+G09G   5/02  F	1	0	5C182	G09G   5/02	62	カラ−のブリンク	Colour blinking
+G09G   5/02  G	1	0	5C182	G09G   5/02	299	カラ−キヤラクタデイスプレイ	Colour character displays
+G09G   5/02  H	1	0	5C182	G09G   5/02	451	カラ−グラフイツクデイスプレイ	Colour graphic displays
+G09G   5/02  J	1	1	5C182	G09G   5/02	404	ＲＧＢ別のビツトマツプメモリを有するもの	having bit map memory by RGB
+G09G   5/02  K	1	1	5C182	G09G   5/02	135	ブロツク単位着色を行うもの	colouring in blocks
+G09G   5/02  L	1	1	5C182	G09G   5/02	276	特殊なカラ−情報の蓄積を行うもの	accumulating special colour information
+G09G   5/02  M	1	0	5C182	G09G   5/02	129	カラ−のキヤラクタ／グラフイツク両用型	having both character and graphic types of colour
+G09G   5/02  Z	1	0	5C182	G09G   5/02	578	その他	Others
+G09G   5/04  \	2	2	5C182	G09G   5/04	710	色表示装置とのインターフェイスのための回路を使用するもの［５］	using circuits for interfacing with colour displays [5, 2006.01]
+G09G   5/06  \	2	2	5C182	G09G   5/06	1855	カラーパレット，例．ルックアップテーブル，を使用するもの［５］	using colour palettes, e.g. look-up tables [5, 2006.01]
+G09G   5/08  \	1	1	5C182	G09G   5/08	19	カーソル回路［５］	Cursor circuits [5, 2006.01]
+G09G   5/08  A	1	0	5C182	G09G   5/08	269	カ−ソルの形状、用途に特徴の有るもの	Characterized by shapes and applications of cursors
+G09G   5/08  C	1	1	5C182	G09G   5/08	324	キヤラクタカ−ソルの表示に特徴の有るもの	Characterized by displaying character cursors
+G09G   5/08  D	1	1	5C182	G09G   5/08	677	ポインテイングカ−ソルの表示に特徴の有るもの	Characterized by displaying pointing cursors
+G09G   5/08  E	1	1	5C182	G09G   5/08	343	範囲カ−ソルの表示に特徴の有るもの	Characterized by range cursors
+G09G   5/08  F	1	1	5C182	G09G   5/08	66	立体カ−ソルの表示に特徴の有るもの	Characterized by three dimensional cursors
+G09G   5/08  G	1	1	5C182	G09G   5/08	26	複数種両用、複数用途のカ−ソルの表示に特徴の有るもの	Characterized by displaying cursors with both of a plurality of types and a plurality of applications
+G09G   5/08  J	1	0	5C182	G09G   5/08	109	カ−ソルの制御・指示手段に特徴の有るもの	Characterized by controlling and directing cursors
+G09G   5/08  K	1	1	5C182	G09G   5/08	172	カ−ソル位置の表示手段に特徴の有るもの	Characterized by means for displaying the positions of cursors
+G09G   5/08  L	1	1	5C182	G09G   5/08	227	カ−ソル制御用操作器に特徴の有るもの	Characterized by operating devices for controlling a cursor
+G09G   5/08  M	1	1	5C182	G09G   5/08	487	カ−ソル位置の制御手段に特徴の有るもの	Characterized by control means for the positions of a cursor
+G09G   5/08  N	1	2	5C182	G09G   5/08	132	カ−ソルの連続移動実現手段に特徴の有るもの	Characterized by means to implement continuous movement of a cursor
+G09G   5/08  P	1	2	5C182	G09G   5/08	133	カ−ソルスキツプ実現手段に特徴の有るもの	Characterized by means to implement action of skipping a cursor
+G09G   5/08  S	1	2	5C182	G09G   5/08	114	スクロ−ルや改頁との関連に特徴の有るもの	Characterized by items related to page feed or scrolling
+G09G   5/08  T	1	0	5C182	G09G   5/08	244	カ−ソル発生回路の構成に特徴の有るもの	Characterized by the structure of cursor generating circuits
+G09G   5/08  Z	1	0	5C182	G09G   5/08	447	その他のカ−ソル関連の事項に特徴の有るもの	Characterized by other  items related to cursors
+G09G   5/10  \	1	1	5C182	G09G   5/10	32	輝度回路［５］	Intensity circuits [5, 2006.01]
+G09G   5/10  B	1	0	5C182	G09G   5/10	3225	輝度コントラストの多段階または連続的調整	Multi-step or continuous adjustment for intensity contrast
+G09G   5/10  D	1	0	5C182	G09G   5/10	342	ブリンク表示に特徴の有るもの	Characterized by blink display
+G09G   5/10  R	1	0	5C182	G09G   5/10	163	リバ−ス表示に特徴の有るもの	Characterized by reverse display
+G09G   5/10  Z	1	0	5C182	G09G   5/10	1441	その他の輝度制御に特徴の有るもの	Characterized by other intensity control
+G09G   5/12  \	1	1	5C182	G09G   5/12	1107	表示装置と他の装置，例．他の表示装置，ビデオ―ディスクプレーヤー，との間の同期［５］	Synchronisation between the display unit and other units, e.g. other display units, video-disc players [5, 2006.01]
+G09G   5/14  \	1	1	5C182	G09G   5/14	718	多数のビューポートの表示［５］	Display of multiple viewports [5, 2006.01]
+G09G   5/14  A	1	0	5C182	G09G   5/14	2939	画面の合成の態様に特徴の有るものの	Characterised by modes of screen composite
+G09G   5/14  C	1	1	5C182	G09G   5/14	1359	オ−バ−ラツプ型マルチウインドウ表示	overwrap type of multiwindow display
+G09G   5/14  E	1	2	5C182	G09G   5/14	683	ＰＩＰ型、はめこみ型	PIP type and embedded type
+G09G   5/14  Z	1	0	5C182	G09G   5/14	1160	その他のマルチウインドウに関する事項に特徴の有るもの	Characterized by other items related to multiwindow
+G09G   5/16  \	1	1	5C182	G09G   5/16	21	右から左へ表記する言語の表示［５］	Display of right-to-left language [5, 2006.01]
+G09G   5/18  \	1	1	5C182	G09G   5/18	2166	ラスター走査ディスプレイ用のタイミング回路（特にテレビジョンに適合されたものＨ０４Ｎ）［５］	Timing circuits for raster scan displays (specially adapted for television H04N) [5, 2006.01]
+G09G   5/20  \	1	1	5C182	G09G   5/20	902	関数発生回路，例．円発生器［５］	Function-generator circuits, e.g. circle generators [5, 2006.01]
+G09G   5/22  \	1	1	5C182	G09G   5/22	284	文字コードメモリを用いる，個々の文字またはしるしの表示に特徴があるもの（Ｇ０９Ｇ５／４２が優先）［５，７］	characterised by the display of individual characters or indicia using display control signals derived from coded signals representing the characters or indicia with a character-code memory (G09G 5/42 takes precedence) [5, 7, 2006.01]
+G09G   5/22 610 \	2	2	5C182	G09G   5/22	5	文字情報自体に特徴のあるもの	Characterized by character information per se
+G09G   5/22 610 J	2	0	5C182	G09G   5/22	54	特種文字の処理に特徴のあるもの	Characterized by processing special characters
+G09G   5/22 610 K	2	1	5C182	G09G   5/22	36	罫線コ−ド、罫線フオント	codes for ruled line, fonts for ruled line
+G09G   5/22 610 Z	2	0	5C182	G09G   5/22	55	その他	Others
+G09G   5/22 620 \	3	3	5C182	G09G   5/22	144	文字情報のデ−タ構造に特徴のあるもの	Characterized by the data structure of character information
+G09G   5/22 630 \	2	2	5C182	G09G   5/22	13	表示内容、表示形態の処理、変換機能に特徴のあるもの	Characterized by processing and converting functions of the contents and forms of display
+G09G   5/22 630 D	2	0	5C182	G09G   5/22	124	消去、不可視化	Deleting and making items invisible
+G09G   5/22 630 G	2	0	5C182	G09G   5/22	350	画面、領域の変形、変倍、回転、移動	Transfiguring, changing the scale factor of, revolving, and moving screens and areas
+G09G   5/22 630 M	2	0	5C182	G09G   5/22	176	合成	Composition
+G09G   5/22 630 Z	2	0	5C182	G09G   5/22	255	その他	Others
+G09G   5/22 640 \	2	2	5C182	G09G   5/22	57	文字表示制御回路の回路構造に特徴のあるもの	Characterized by the circuit structure of character display control circuit
+G09G   5/22 650 \	3	3	5C182	G09G   5/22	6	キヤラクタコ−ドの処理部に特徴のあるもの	Characterized by processing sections of character codes
+G09G   5/22 650 M	3	0	5C182	G09G   5/22	222	キヤラクタコ−ドメモリ及びその制御回路に特徴のあるもの	Characterized by character code memory and control circuits thereof
+G09G   5/22 650 P	3	1	5C182	G09G   5/22	1013	キヤラクタコ−ドメモリの更新	refreshing character code memory
+G09G   5/22 650 R	3	1	5C182	G09G   5/22	58	キヤラクタコ−ドメモリの読みだし	reading from character code memory
+G09G   5/22 650 T	3	1	5C182	G09G   5/22	61	キヤラクタコ−ドメモリのアドレス制御	Address control over character code memory
+G09G   5/22 650 Z	3	0	5C182	G09G   5/22	80	その他	Others
+G09G   5/22 660 \	2	2	5C182	G09G   5/22	6	文字情報表示手段の応用システム	applied system for means to display character information
+G09G   5/22 660 A	2	0	5C182	G09G   5/22	2025	特殊な言語（ハングル、多国語対応等）の文字情報用	Character information for special languages (such as Hangul or multi-lingual adaptation)
+G09G   5/22 660 Z	2	0	5C182	G09G   5/22	37	その他	Others
+G09G   5/22 670 \	3	3	5C182	G09G   5/22	2	応用分野	Applied fields
+G09G   5/22 670 B	3	0	5C182	G09G   5/22	67	汎用計算機端末	General purpose computer terminals
+G09G   5/22 670 C	3	0	5C182	G09G   5/22	129	テレビジヨン方式	Television methods
+G09G   5/22 670 K	3	0	5C182	G09G   5/22	44	フアクシミリ方式、電話方式	Facsimile methods, telephone methods
+G09G   5/22 670 L	3	0	5C182	G09G   5/22	214	文書作成装置	Word processing device
+G09G   5/22 670 P	3	0	5C182	G09G   5/22	346	プリンタ、印刷機械への組み込み、接続	Integration and connection with printers and printing machines
+G09G   5/22 670 Z	3	0	5C182	G09G   5/22	92	その他	Others
+G09G   5/22 680 \	3	3	5C182	G09G   5/22	9	文字表示機能の利用のされかたに特徴のあるもの	Characterized by the way in which character display functions are used
+G09G   5/22 680 L	3	0	5C182	G09G   5/22	112	レイアウト表示	Layout display
+G09G   5/22 680 Z	3	0	5C182	G09G   5/22	133	その他	Others
+G09G   5/22 690 \	3	3	5C182	G09G   5/22	31	文字表示装置と他機器との接続関係に特徴のあるもの	Characterized by connections between a character display device and other equipment
+G09G   5/24  \	2	2	5C182	G09G   5/24	2584	個別文字パターンの発生［５］	Generation of individual character patterns [5, 2006.01]
+G09G   5/24 610 \	3	3	5C182	G09G   5/24	2	文字パタ−ン自体に特徴のあるもの	Characterized by character patterns per se
+G09G   5/24 610 F	3	0	5C182	G09G   5/24	92	草書体、筆記体	Cursive style, handwriting style
+G09G   5/24 610 Z	3	0	5C182	G09G   5/24	92	その他	Others
+G09G   5/24 620 \	3	3	5C182	G09G   5/24	3	文字パタ−ンデ−タのデ−タ構造、圧縮記憶に特徴のあるもの	Characterized by the data structure and compressed storage on character pattern data
+G09G   5/24 620 F	3	0	5C182	G09G   5/24	431	骨格情報から文字を発生するもの（ベクトル、ストロ−ク）	Generating characters from frame information (vectors and strokes)
+G09G   5/24 620 L	3	0	5C182	G09G   5/24	917	輪郭情報から文字を発生するもの（アウトライン）	Generating characters from contour information  (outlines)
+G09G   5/24 620 Z	3	0	5C182	G09G   5/24	396	その他	Others
+G09G   5/24 630 \	3	3	5C182	G09G   5/24	24	文字パタ−ンの変形、変換、編集機能に特徴のあるもの	Characterized by transforming, converting, and editing functions of character patterns
+G09G   5/24 630 B	3	0	5C182	G09G   5/24	237	太字	Bold characters
+G09G   5/24 630 F	3	0	5C182	G09G   5/24	68	袋文字	outline type
+G09G   5/24 630 H	3	0	5C182	G09G   5/24	257	はね、抑え、角の処理、書体変換	Process of serif, suppress, angle and font conversion
+G09G   5/24 630 L	3	0	5C182	G09G   5/24	90	斜体化	Italicisation
+G09G   5/24 630 S	3	0	5C182	G09G   5/24	376	文字パタ−ンの重畳、合成	Overlaying and composition of character patterns
+G09G   5/24 630 Z	3	0	5C182	G09G   5/24	431	その他	Others
+G09G   5/24 640 \	4	4	5C182	G09G   5/24	328	文字パタ−ンの回転、反転機能に特徴のあるもの	Characterized by revolving and reversing functions of character patterns
+G09G   5/24 650 \	3	3	5C182	G09G   5/24	6	文字パタ−ン処理部に特徴のあるもの	Characterized by processing sections of character patterns
+G09G   5/24 650 M	3	0	5C182	G09G   5/24	239	ＣＧメモリ及びその制御回路に特徴のあるもの	Characterized by CG memory and control circuits thereof
+G09G   5/24 650 P	3	1	5C182	G09G   5/24	54	ＲＡＭを用いるＣＧの周辺回路	peripheral circuits for CG using RAM
+G09G   5/24 650 S	3	1	5C182	G09G   5/24	103	ＣＧメモリアドレスの周辺回路	peripheral circuits for CG memory address
+G09G   5/24 650 T	3	1	5C182	G09G   5/24	85	ＣＧメモリのデ−タ端子の周辺回路	peripheral for data terminals for CG memory
+G09G   5/24 650 Z	3	0	5C182	G09G   5/24	165	その他	Others
+G09G   5/24 670 \	4	4	5C182	G09G   5/24	682	非常駐文字パタ−ンの管理	managing non-resident character patterns
+G09G   5/24 680 \	4	4	5C182	G09G   5/24	5	外部蓄積手段自体の構成に特徴のあるもの、非半導体メモリに文字フオントを蓄積する点に特徴のあるもの	Characterized by the structure of external storage means per se and characterised by storing character fonts in non-semiconductor memory
+G09G   5/24 680 X	4	0	5C182	G09G   5/24	254	光学的記録媒体（ホログラムデイスク等）	Optical recording media (such as hologram disks)
+G09G   5/24 680 Y	4	0	5C182	G09G   5/24	0	文字信号発生管	Character signal generator tube
+G09G   5/24 680 Z	4	0	5C182	G09G   5/24	25	その他	Others
+G09G   5/24 690 \	4	4	5C182	G09G   5/24	546	文字フオントデ−タの入力、作成の為のもの	for entering and creating data for character fonts
+G09G   5/26  \	3	3	5C182	G09G   5/26	709	文字の寸法を変更するためのもの，例．２倍幅，２倍高［５］	for modifying the character dimension, e.g.double width, double height [5, 2006.01]
+G09G   5/26  B	3	0	5C182	G09G   5/26	174	縦横同倍率での変倍（６３０＠Ｂ、６５０＠Ｂ優先）	Multification with the same scale factor horizontally and vertically (630@B, 650@B take precedence)
+G09G   5/26  C	3	0	5C182	G09G   5/26	60	縦横異倍率での変倍（６３０＠Ｃ、６５０＠Ｃ優先）	Multification with the different scale factors horizontally and vertically (630@C, 650@C take precedence)
+G09G   5/26  D	3	1	5C182	G09G   5/26	44	文字高方向に変倍（６３０＠Ｄ、６５０＠Ｄ優先）	multification in direction of height of a character (630@D, 650@D take precedence)
+G09G   5/26  E	3	1	5C182	G09G   5/26	19	文字幅方向に変倍（６３０＠Ｅ、６５０＠Ｅ優先）	mulitification in direction of width of a character (630@E, 650@E take precedence)
+G09G   5/26  G	3	0	5C182	G09G   5/26	259	表示エリアに応じて変倍するもの	Mulitification according to display area
+G09G   5/26  R	3	0	5C182	G09G   5/26	169	解像度、画素密度変換	Conversion of resolution and pixel density
+G09G   5/26  Z	3	0	5C182	G09G   5/26	230	その他	Others
+G09G   5/26 630 \	4	4	5C182	G09G   5/26	35	拡大	zoom-in
+G09G   5/26 630 B	4	0	5C182	G09G   5/26	317	縦横同倍率での拡大	zoom-in with the same scale factor horizontally and vertically
+G09G   5/26 630 C	4	0	5C182	G09G   5/26	58	縦横異倍率での拡大	zoom-in with the different scale factors horizontally and vertically
+G09G   5/26 630 D	4	1	5C182	G09G   5/26	22	文字高方向に拡大	zoom-out in direction of height of a character
+G09G   5/26 630 E	4	1	5C182	G09G   5/26	66	文字幅方向に拡大	zoom-out in direction of width of a character
+G09G   5/26 630 Z	4	0	5C182	G09G   5/26	142	その他	Others
+G09G   5/26 650 \	4	4	5C182	G09G   5/26	27	縮小	zoom-out
+G09G   5/26 650 B	4	0	5C182	G09G   5/26	164	縦横同倍率での縮小	zoom-out with the same scale factor horizontally and vertically
+G09G   5/26 650 C	4	0	5C182	G09G   5/26	32	縦横異倍率での縮小	zoom-out with the different scale factors horizontally and vertically
+G09G   5/26 650 D	4	1	5C182	G09G   5/26	24	文字高方向に縮小	zoom-out in direction of height of a character
+G09G   5/26 650 E	4	1	5C182	G09G   5/26	55	文字幅方向に縮小	zoom-out in direction of width of a character
+G09G   5/26 650 Z	4	0	5C182	G09G   5/26	64	その他	Others
+G09G   5/28  \	3	3	5C182	G09G   5/28	502	文字の形の向上のためのもの，例．スムージング［５］	for enhancement of character form, e.g. smoothing [5, 2006.01]
+G09G   5/28  A	3	0	5C182	G09G   5/28	15	孤立点・ノイズの処理	Process of isolated points and noises
+G09G   5/28  Z	3	0	5C182	G09G   5/28	82	その他	Others
+G09G   5/28 610 \	4	4	5C182	G09G   5/28	7	スム−ジング	smoothing
+G09G   5/28 610 A	4	0	5C182	G09G   5/28	56	ドツトの追加によるもの	By adding dots
+G09G   5/28 610 B	4	1	5C182	G09G   5/28	193	周囲ドツトを参照するもの（フイルタリング）	referencing surrounding dots (filtering)
+G09G   5/28 610 C	4	1	5C182	G09G   5/28	37	文字パタ−ンの遅延・シフトした文字パタ−ンを重畳するもの	overlaying the shifted or delayed character pattern
+G09G   5/28 610 D	4	0	5C182	G09G   5/28	43	ドツトの削除によるもの	By deleting dots
+G09G   5/28 610 E	4	0	5C182	G09G   5/28	304	ドツトの輝度・階調を制御するもの	Controlling intensity and gradation of dots
+G09G   5/28 610 Z	4	0	5C182	G09G   5/28	111	その他	Others
+G09G   5/30  \	2	2	5C182	G09G   5/30	690	表示属性の制御［５］	Control of display attribute [5, 2006.01]
+G09G   5/30 610 \	3	3	5C182	G09G   5/30	1	表示属性情報の規格、管理単位に特徴のあるもの	Characterized by the unit of management or standards for display attribute information
+G09G   5/30 610 C	3	0	5C182	G09G   5/30	262	キヤラクタアトリビユ−ト	Character attributes
+G09G   5/30 610 F	3	0	5C182	G09G   5/30	84	フイ−ルドアトリビユ−ト	Field attributes
+G09G   5/30 610 L	3	0	5C182	G09G   5/30	43	行アトリビユ−ト	Row attributes
+G09G   5/30 610 Z	3	0	5C182	G09G   5/30	93	その他	Others
+G09G   5/30 650 \	3	3	5C182	G09G   5/30	150	属性情報の処理回路の構成に特徴のあるもの	Characterized by the structure of process circuit of attribute information
+G09G   5/32  \	2	2	5C182	G09G   5/32	679	表示位置を制御するための手段を有するもの［５］	with means for controlling the display position [5, 2006.01]
+G09G   5/32 610 \	3	3	5C182	G09G   5/32	7	文字の配置自体に特徴のあるもの	Characterized by the positions per se of characters
+G09G   5/32 610 C	3	0	5C182	G09G   5/32	68	表形式の文字表示に特徴のあるもの	Characterized by character representation in tabular formats
+G09G   5/32 610 Z	3	0	5C182	G09G   5/32	80	その他	Others
+G09G   5/32 630 \	3	3	5C182	G09G   5/32	208	個々の文字の変位量，文字と文字の間隔の制御	control over the quantity of displacement of individual characters and spacing between characters
+G09G   5/32 640 \	3	3	5C182	G09G   5/32	29	表示画面上の文字配置の制御	control over how characters are laid out on display screen
+G09G   5/32 640 L	3	0	5C182	G09G   5/32	165	文字の配列方向の制御	Control over direction in which characters are laid out
+G09G   5/32 640 S	3	0	5C182	G09G   5/32	65	文字、文字列の挿入、追加	Insertion and addition of a character or a string of characters
+G09G   5/32 640 Z	3	0	5C182	G09G   5/32	270	その他	Others
+G09G   5/32 650 \	3	3	5C182	G09G   5/32	32	文字位置制御の為の回路構造	structure of circuits to control the position of a character
+G09G   5/34  \	1	1	5C182	G09G   5/34	446	ローリングまたはスクローリングのためのもの［５］	for rolling or scrolling [5, 2006.01]
+G09G   5/34  A	1	0	5C182	G09G   5/34	860	スクロ−ルの態様に特徴の有るもの	Characterized by the mode of scrolling
+G09G   5/34  C	1	1	5C182	G09G   5/34	365	部分スクロ−ル	partial scrolling
+G09G   5/34  E	1	1	5C182	G09G   5/34	225	スム−ズスクロ−ル	smooth scrolling
+G09G   5/34  M	1	0	5C182	G09G   5/34	167	スクロ−ル機能実現手段の構成に特徴の有るもの	Characterized by
+G09G   5/34  R	1	1	5C182	G09G   5/34	330	画面メモリの読出位置の制御によつて実現するもの	implementing by controlling the position of reading screen memory
+G09G   5/34  W	1	1	5C182	G09G   5/34	105	画面メモリの書替によつて実現するもの	implementing by rewriting screen memory
+G09G   5/34  Z	1	0	5C182	G09G   5/34	829	その他のスクロ−ルに関する事項に特徴の有るもの	Characterized by other items related to scrolling
+G09G   5/36  \	1	1	5C182	G09G   5/36	4921	ビット・マップ・メモリを用いる，個々のグラフィックパターンの表示に特徴があるもの（Ｇ０９Ｇ５／４２が優先）［５，７］	characterised by the display of individual graphic patterns using a bit-mapped memory (G09G 5/42 takes precedence) [5, 7, 2006.01]
+G09G   5/36 100 \	2	2	5C182	G09G   5/36	1093	数量グラフ表示に特徴の有るもの	Characterized by the display of graphs showing quantities
+G09G   5/36 400 \	2	2	5C182	G09G   5/36	2020	動画表示に特徴の有るもの（スプライトはＧ０９Ｇ５／３８）	Characterized by the display of videos (sprite G09G 5/38)
+G09G   5/36 500 \	2	2	5C182	G09G   5/36	3579	立体表示に特徴の有るもの	Characterized by the stereoscopic display
+G09G   5/37  \	2	2	5C182	G09G   5/37	189	グラフィックパターン上の操作の細部（Ｇ０９Ｇ５／３８が優先）［７］	Details of the operation on graphic patterns (G09G 5/38 takes precedence) [7, 2006.01]
+G09G   5/37 100 \	3	3	5C182	G09G   5/37	2183	階調変更処理機能に特徴の有るもの	Characterized by the functions of processing gradation changes
+G09G   5/37 110 \	4	4	5C182	G09G   5/37	1072	消去、削除処理機能に特徴の有るもの	Characterized by the functions of processing erasure, deletion
+G09G   5/37 200 \	3	3	5C182	G09G   5/37	1701	フイルタリング処理機能に特徴の有るもの（５／３７３，４００優先）	Characterized by the functions of processing filing (5/373, 400 takes precedence)
+G09G   5/37 300 \	3	3	5C182	G09G   5/37	1738	変形、編集等の処理機能に特徴の有るもの	Characterized by the functions of processing deformation, edition and so on
+G09G   5/37 310 \	4	4	5C182	G09G   5/37	1971	回転、鏡像表示機能に特徴の有るもの	Characterized by the rotated, mirror image display function
+G09G   5/37 320 \	4	4	5C182	G09G   5/37	5118	領域抽出処理機能に特徴の有るもの	Characterized by the functions of processing region extraction
+G09G   5/37 400 \	3	3	5C182	G09G   5/37	218	映像信号処理（Ｐ／Ｓ変換以降）に特徴の有るもの	Characterized by the function of processing image signals (after P/S conversion)
+G09G   5/37 500 \	3	3	5C182	G09G   5/37	557	塗潰し手段に特徴の有るもの	Characterized by the means to paint out
+G09G   5/37 600 \	3	3	5C182	G09G   5/37	2041	人的操作に特徴の有るもの	Characterized by the manual operations by some persons
+G09G   5/373  \	3	3	5C182	G09G   5/373	4381	グラフィックパターンのサイズ変更をするためのもの［７］	for modifying the size of the graphic pattern [7, 2006.01]
+G09G   5/373 100 \	4	4	5C182	G09G   5/373	2794	拡大表示機能に特徴の有るもの	Characterized by the function of displaying enlarged images
+G09G   5/373 200 \	4	4	5C182	G09G   5/373	1870	縮小表示機能に特徴の有るもの	Characterized by the function of displaying reduced images
+G09G   5/373 400 \	4	4	5C182	G09G   5/373	422	変倍時のフイルタリング処理機能に特徴が有るもの	Characterized by the function of processing filtering when magnifying power is changed
+G09G   5/377  \	3	3	5C182	G09G   5/377	2557	２つ以上のグラフィックパターンを合成または重畳するためのもの（Ｇ０９Ｇ５／０２，Ｇ０９Ｇ５／３９７が優先）［７］	for mixing or overlaying two or more graphic patterns (G09G 5/02, G09G 5/397 take precedence) [7, 2006.01]
+G09G   5/377 100 \	4	4	5C182	G09G   5/377	3792	重畳合成表示機能に特徴の有るもの	Characterized by the function of displaying superimposed and synthesized images
+G09G   5/377 110 \	5	5	5C182	G09G   5/377	975	優先合成表示機能に特徴の有るもの	Characterized by the function of preferred composite display
+G09G   5/38  \	2	2	5C182	G09G   5/38	2149	表示位置を制御するための手段を有するもの［５］	with means for controlling the display position [5, 2006.01]
+G09G   5/38 100 \	3	3	5C182	G09G   5/38	3040	移動、複写処理に特徴の有るもの	Characterized by the processes to move, copy
+G09G   5/38 110 \	4	4	5C182	G09G   5/38	322	スプライト図形、移動標体図形表示に特徴の有るもの	Characterized by the display of spite graphics, road transportation signs&apos; graphics
+G09G   5/39  \	2	2	5C182	G09G   5/39	283	ビット・マップ・メモリの制御［７］	Control of the bit-mapped memory [7, 2006.01]
+G09G   5/39 100 \	3	3	5C182	G09G   5/39	266	ビツトマツプメモリのアドレス制御に特徴の有るもの	Characterized by the address control over bit map memories
+G09G   5/39 110 \	4	4	5C182	G09G   5/39	124	階調を表わす複数ビツトを同時にアクセスするもの	Accessing plural bits representing graduation simultaneously
+G09G   5/39 120 \	4	4	5C182	G09G   5/39	86	アクセスする方向、形状を切替えることができるもの	Those which can switch the directions, shapes in which access is made
+G09G   5/39 130 \	4	4	5C182	G09G   5/39	94	一度にアクセスする画素数を切替えることができるもの	Those which can switch the number of pixels to which access can be made for one time
+G09G   5/39 140 \	4	4	5C182	G09G   5/39	121	ワ−ド長以下の画素数単位でビツト位置の制御ができるもの	Those which can control bit positions in the unit of pixel numbers that do not exceed the word lengths
+G09G   5/391  \	3	3	5C182	G09G   5/391	171	解像度変更回路，例．可変画面フォーマット［７］	Resolution modifying circuits, e.g. variable screen formats [7, 2006.01]
+G09G   5/393  \	3	3	5C182	G09G   5/393	917	ビット・マップ・メモリの内容を更新するための制御［７］	Arrangements for updating the contents of the bit-mapped memory [7, 2006.01]
+G09G   5/395  \	3	3	5C182	G09G   5/395	697	ビット・マップ・メモリの内容を画面に送るのに特に適した制御（Ｇ０９Ｇ５／３９９が優先）［７］	Arrangements specially adapted for transferring the contents of the bit-mapped memory to the screen (G09G 5/399 takes precedence) [7, 2006.01]
+G09G   5/397  \	4	4	5C182	G09G   5/397	96	２つ以上のビット・マップ・メモリの内容を，同時に画面に送るのに特に適した制御，例．合成または重畳するためのもの（Ｇ０９Ｇ５／０２が優先）［７］	Arrangements specially adapted for transferring the contents of two or more bitmapped memories to the screen simultaneously, e.g. for mixing or overlay (G09G 5/02 takes precedence) [7, 2006.01]
+G09G   5/399  \	3	3	5C182	G09G   5/399	1549	２つ以上のビット・マップ・メモリを用いるもので，その操作を交互に切り替えるもの，例．ピンポン・バッファ［７］	using two or more bit-mapped memories, the operations of which are switched in time, e.g. ping-pong buffers [7, 2006.01]
+G09G   5/40  \	1	1	5C182	G09G   5/40	1184	文字コードにより決定されるパターンと他のパターンとの両方のパターンが同時に表示されるか，あるいは一方のパターンが選択的に表示される方法に特徴があるもの，例．文字コードメモリ及びビットマップメモリを有するもの［５］	characterised by the way in which both a pattern determined by character code and another pattern are displayed simultaneously, or either pattern is displayed selectively, e.g. with character code memory and a bit-mapped memory [5, 2006.01]
+G09G   5/42  \	1	1	5C182	G09G   5/42	263	表示メモリの内容と画面の表示位置との間に，一定した位置関係の相関性がない表示メモリを用いる，パターンの表示に特徴があるもの［７］	characterised by the display of patterns using a display memory without fixed position correspondence between the display memory contents and the display position on the screen [7, 2006.01]
+G09G   5/42 100 \	2	2	5C182	G09G   5/42	191	セミグラフイツク	Semigraphics
+G09G   5/42 200 \	2	2	5C182	G09G   5/42	576	図形コマンド処理部に特徴の有るもの	Characterized by the parts processing figure commands

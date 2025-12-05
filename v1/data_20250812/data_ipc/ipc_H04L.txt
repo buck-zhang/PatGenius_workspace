@@ -1,0 +1,751 @@
+H04L   1/00		受信情報中の誤りを検出または防止するための配置	Arrangements for detecting or preventing errors in the information received	74633
+H04L   1/02	・	ダイバーシチ受信によるもの	by diversity reception	3196
+H04L   1/04	・・	周波数ダイバーシチを用いるもの	using frequency diversity	632
+H04L   1/06	・・	空間ダイバーシチを用いるもの	using space diversity	7772
+H04L   1/08	・	送信の繰り返しによるもの，例．ベルダン方式	by repeating transmission, e.g. Verdan system	6433
+H04L   1/12	・	帰路チャネルを用いるもの	by using return channel	1517
+H04L   1/14	・・	信号が送信機へ返送されてチェックされるもの	in which the signals are sent back to the transmitter to be checked	809
+H04L   1/16	・・	その帰路チャネルが監視信号，例．繰り返しリクエスト信号，を搬送するもの　［２０２３．０１］	in which the return channel carries supervisory signals, e.g. repetition request signals	17012
+H04L   1/1607	・・・	監視信号の細部［２０２３．０１］	Details of the supervisory signal	2625
+H04L   1/18	・・・	自動繰り返し方式，例．フアン・デュレン方式［２０２３．０１］	Automatic repetition systems, e.g. Van Duuren systems	26372
+H04L   1/1803	・・・・	ストップアンドウェイトプロトコル［２０２３．０１］	Stop-and-wait protocols	15
+H04L   1/1806	・・・・	ゴーバックＮプロトコル［２０２３．０１］	Go-back-N protocols	120
+H04L   1/1809	・・・・	選択的再送プロトコル［２０２３．０１］	Selective-repeat protocols	180
+H04L   1/1812	・・・・	ハイブリッドプロトコル；ハイブリッド自動再送要求［ＨＡＲＱ］［２０２３．０１］	Hybrid protocols; Hybrid automatic repeat request [HARQ]	4222
+H04L   1/1822	・・・・	並列処理による自動再送要求［ＡＲＱ］の構成に関するもの［２０２３．０１］	involving configuration of automatic repeat request [ARQ] with parallel processes	591
+H04L   1/1825	・・・・	送信状態に応じた、ＡＲＱプロトコルの特定のパラメータの適合［２０２３．０１］	Adaptation of specific ARQ protocol parameters according to transmission conditions	255
+H04L   1/1829	・・・・	受信側に特に適した配置［２０２３．０１］	Arrangements specially adapted for the receiver end	2933
+H04L   1/1867	・・・・	送信側に特に適した配置［２０２３．０１］	Arrangements specially adapted for the transmitter end	2835
+H04L   1/20	・	信号品質検出器を用いるもの［３］	using signal-quality detector	5928
+H04L   1/22	・	信頼性を増すために冗長な装置を用いるもの［３］	using redundant apparatus to increase reliability	8312
+H04L   1/24	・	訂正動作を試験するもの［３］	Testing correct operation	3445
+H04L   5/00		伝送路の多重使用を可能にするための配置	Arrangements affording multiple use of the transmission path	70329
+H04L   5/02	・	チャネルが信号の形式に特徴のあるもの	Channels characterised by the type of signal	2730
+H04L   5/04	・・	各信号が相異なる振幅または極性によって表わされるもの，例．４重電信	the signals being represented by different amplitudes or polarities, e.g. quadriplex	448
+H04L   5/06	・・	各信号が相異なる周波数によって表わされるもの（時分割多重方式と結合したものＨ０４Ｌ５／２６）	the signals being represented by different frequencies(combined with time-division multiplexing H04L5/26)	1486
+H04L   5/08	・・・	相異なるチャンネルにおける信号の各組合せが一つの固定周波数によって表わされるもの	each combination of signals in different channels being represented by a fixed frequency	124
+H04L   5/10	・・・	発電機による搬送波の電気的発生をもつもの；機械的ろ波器または復調器をもつもの	with dynamo-electric generation of carriers; with mechanical filters or demodulators	292
+H04L   5/12	・・	各信号が１つの搬送波の相異なる位相変調によって表わされるもの	the signals being represented by different phase modulations of a single carrier	1253
+H04L   5/14	・	同一形式の信号を用いる２方向動作，すなわち２重電信	Two-way operation using the same type of signal, i.e. duplex	11660
+H04L   5/16	・・	半２重方式；単信―２重切換；ブレーク信号の伝送	Half-duplex systems; Simplex/duplex switching; Transmission of break signals	3908
+H04L   5/18	・・	トラフィック方向の自動的変更	Automatic changing of the traffic direction	196
+H04L   5/20	・	複数の線路の相異なる組み合わせを用いるもの，例．重信動作	using different combinations of lines, e.g. phantom working	295
+H04L   5/22	・	時分割多重化を用いるもの	using time-division multiplexing	3707
+H04L   5/24	・・	スタート・ストップ式同期変流機をもつもの	with start-stop synchronous converters	470
+H04L   5/26	・・	種々の周波数の使用と結合したもの	combined with the use of different frequencies	478
+H04L   7/00		受信機を送信機と同期させるための配置	Arrangements for synchronising receiver with transmitter	26975
+H04L   7/02	・	特殊な同期情報を含まない受信符号信号による速度または位相の制御	Speed or phase control by the received code signals, the signals containing no special synchronisation information	6153
+H04L   7/027	・・	受信信号スペクトルから同期信号すなわちクロック信号を抽出するもの，例．共振または帯域フィルタ回路を用いることによるもの［５］	extracting the synchronising or clock signal from the received signal spectrum, e.g. by using a resonant or bandpass circuit	2110
+H04L   7/033	・・	受信信号の遷移を利用して同期信号発生手段の位相を制御するもの，例．位相ロックループを用いるもの［５］	using the transitions of the received signal to control the phase of the synchronising-signal- generating means, e.g. using a phase-locked loop	8575
+H04L   7/04	・	同期信号による速度または位相の制御	Speed or phase control by synchronisation signals	7640
+H04L   7/06	・・	同期信号が振幅，極性または周波数において情報信号から区別されるもの	the synchronisation signals differing from the information signals in amplitude, polarity, or frequency	841
+H04L   7/08	・・	同期信号が周期的に繰り返すもの	the synchronisation signals recurring cyclically	5914
+H04L   7/10	・・	初期同期のための配置	Arrangements for initial synchronisation	1867
+H04L   9/00		秘密通信または安全な通信のための配置；ネットワークセキュリティプロトコル［２０２２．０１］<br><b><ul>注</ul></b><br>グループＨ０４Ｌ９／０６〜Ｈ０４Ｌ９／３２においては，ラストプレイス優先ルールが適用される，すなわち各階層レベルにおいて相反する指示がない限り，最後の適切な箇所に分類する。［５］	Arrangements for secret or secure communications; Network security protocols	44696
+H04L   9/06	・	シフトレジスタまたはメモリを用いるブロック暗号化装置，例．Ｄ．Ｅ．Ｓシステム［５］	the encryption apparatus using shift registers or memories for blockwise coding, e.g. D.E.S. systems	23287
+H04L   9/08	・	鍵の分配［５］	Key distribution	64669
+H04L   9/10	・	特別な箱体，物理的特徴または手動制御装置を有するもの［５］	with particular housing, physical features or manual controls	4726
+H04L   9/12	・	特殊な方法で同期化または初期化される送信および受信暗号化装置［５］	Transmitting and receiving encryption devices synchronised or initially set up in a particular manner	3508
+H04L   9/14	・	複数の鍵またはアルゴリズムを使用するもの［５］	using a plurality of keys or algorithms	12242
+H04L   9/16	・・	鍵またはアルゴリズムが動作中に変更されるもの［５］	the keys or algorithms being changed during operation	2261
+H04L   9/18	・	直列に連続してデータストリームの要素を修正することによる暗号化，例．ストリーム暗号システム［５］	Encryption by serially and continuously modifying data stream elements, e.g. stream cipher systems	2034
+H04L   9/20	・・	データ系列と要素対要素対応で結合されている擬似ランダム鍵系列を用いるもの［５］	Pseudorandom key sequence combined element-for-element with data sequence	718
+H04L   9/22	・・・	特殊な擬似ランダム系列発生器を有するもの［５］	with particular pseudorandom sequence generator	985
+H04L   9/24	・・・・	二以上の発生器によって生成される系列［５］	sequence produced by more than one generator	184
+H04L   9/26	・・・・	非線形な擬似ランダム系列を発生するもの［５］	producing a nonlinear pseudorandom sequence	327
+H04L   9/28	・	特殊な暗号化アルゴリズムを使用するもの［５］	using particular encryption algorithm	4656
+H04L   9/30	・・	公開鍵，すなわち暗号化アルゴリズムが計算上解読不可能であり，使用者の暗号鍵が機密を要しないもの［５］	Public key, i.e. encryption algorithm being computationally infeasible to invert and users' encryption keys not requiring secrecy	14951
+H04L   9/32	・	システムの利用者の身元または権限の照合のための手段を含むもの［５］	including means for verifying the identity or authority of a user of the system	110641
+H04L   9/34	・	電文の複数ビットまたはその複数ブロックが時間的に入れ換えられるもの［５］	Bits, or blocks of bits, of the telegraphic message being interchanged in time	452
+H04L   9/36	・	伝送用でない文字を検出するための手段を有するもの［５］	with means for detecting characters not meant for transmission	1306
+H04L   9/38	・	暗号が機械的装置，例．回転カム，スイッチ，キーテープさん孔機，でもたらせるもの［５］	Encryption being effected by mechanical apparatus, e.g. rotating cams, switches, keytape punchers	400
+H04L   9/40	・	ネットワークセキュリティプロトコル［２０２２．０１］	Network security protocols	94213
+H04L  12/00		データ交換ネットワーク（メモリ，入力／出力装置または中央処理装置間の相互接続，またはそれらの間の情報または他の信号の転送Ｇ０６Ｆ１３／００）［５］	Data switching networks(interconnection of, or transfer of information or other signals between, memories, input/output devices or central processing units G06F13/00)	8584
+H04L  12/02	・	細部［５］	Details	8686
+H04L  12/04	・・	交換台［５］	Switchboards	1104
+H04L  12/06	・・	アンサバック機構または回路［５］	Answer-back mechanisms or circuits	600
+H04L  12/08	・・	メッセージへの番号割当て；文字，単語，通報の計数［５］	Allotting numbers to messages; Counting characters, words or messages	384
+H04L  12/10	・・	電流供給配置［５］	Current supply arrangements	7069
+H04L  12/12	・・	加入者または加入者設備の遠隔接続または遠隔開放のための配置［５］	Arrangements for remote connection or disconnection of substations or of equipment thereof	7452
+H04L  12/14	・・	課金配置［２０２４．０１］	Charging arrangements	8253
+H04L  12/16	・・	加入者へ特殊サービスを提供するための配置［５］	Arrangements for providing special services to substations	10546
+H04L  12/18	・・・	放送または会議のためのもの［５］	for broadcast or conference	25688
+H04L  12/20	・・・	加入者固有の速度から他の加入者固有の速度へ伝送速度を変換するためのもの［５］	for converting transmission speed from the inherent speed of a substation to the inherent speed of other substations	565
+H04L  12/22	・・	データ伝送チャネルから許可なくデータを取り出すことを防止するための配置（秘密または安全な通信システムの利用者の身元または権限の照合のための手段Ｈ０４Ｌ９／３２）［２００６．０１］	Arrangements for preventing the taking of data from a data transmission channel without authorisation(means for verifying the identity or the authority of a user of a secure or secret communication system H04L9/32)	4670
+H04L  12/28	・	パスの構成に特徴のあるもの，例．ローカルエリアネットワーク（ＬＡＮ）または広域ネットワーク（ＷＡＮ）（無線通信ネットワークＨ０４Ｗ）［５，６］	characterised by path configuration, e.g. LAN [Local Area Networks] or WAN [Wide Area Networks](wireless communication networks H04W)	117951
+H04L  12/40	・・	バスネットワーク［５，６］	Bus networks	33831
+H04L  12/403	・・・	集中制御を有するもの，例．ポーリング［６］	with centralised control, e.g. polling	3854
+H04L  12/407	・・・	分散制御を有するもの［６］	with decentralised control	929
+H04L  12/413	・・・・	ランダムアクセスを有するもの，例．衝突検出キャリア・センス・マルチプル・アクセス［ＣＳＭＡ−ＣＤ］［２００６．０１］	with random access, e.g. carrier-sense multiple-access with collision detection [CSMA-CD]	3748
+H04L  12/417	・・・・	決定的アクセスを有するもの，例．トークンパッシング［６］	with deterministic access, e.g. token passing	887
+H04L  12/42	・・	ループネットワーク［５，６］	Loop networks	7324
+H04L  12/423	・・・	集中制御を有するもの，例．ポーリング［６］	with centralised control, e.g. polling	597
+H04L  12/427	・・・	分散制御を有するもの［６］	with decentralised control	210
+H04L  12/43	・・・・	同期伝送を有するもの，例．時分割多重化［ＴＤＭ］，スロットリング［２００６．０１］	with synchronous transmission, e.g. time division multiplex [TDM], slotted rings	1369
+H04L  12/433	・・・・	非同期伝送を有するもの，例．トークンリング，レジスタ挿入［６］	with asynchronous transmission, e.g. token ring, register insertion	1309
+H04L  12/437	・・・	リングの故障分離または再構成［６］	Ring fault isolation or reconfiguration	4067
+H04L  12/44	・・	スターまたはツリーネットワーク［５，６］	Star or tree networks	7849
+H04L  12/46	・・	ネットワーク間の相互接続［５，６］	Interconnection of networks	34404
+H04L  12/50	・	回線交換方式，すなわち，通信中パスが物理的に固定的に接続する方式［５，６］	Circuit switching systems, i.e. systems in which the path is physically permanent during the communication	2730
+H04L  12/52	・・	時分割技術を使用するもの（デジタル伝送方式におけるものＨ０４Ｌ５／２２）［５，６］	using time division techniques(in digital transmission systems H04L5/22)	707
+H04L  12/54	・	蓄積交換方式（パケット交換方式Ｈ０４Ｌ４５／００，Ｈ０４Ｌ４７／００）［２０２２．０１］	Store-and-forward switching systems(packet switching systems H04L45/00, H04L47/00)	12346
+H04L  12/64	・	複合交換方式［５，６］	Hybrid switching systems	5567
+H04L  12/66	・	異なる形式の交換方式を有するネットワーク間の接続のための配置，例．ゲートウェイ［５，６］	Arrangements for connecting between networks having differing types of switching systems, e.g. gateways	42336
+H04L  13/00		グループＨ０４Ｌ１５／００またはＨ０４Ｌ１７／００に包含される装置または回路の細部	Details of the apparatus or circuits covered by groups H04L15/00 or H04L17/00	6272
+H04L  13/02	・	受信機または送信機に特有でない細部	Details not particular to receiver or transmitter	327
+H04L  13/04	・・	駆動機構；クラッチ	Driving mechanisms; Clutches	216
+H04L  13/06	・・	テープまたは頁の案内または給送装置	Tape or page guiding or feeding devices	969
+H04L  13/08	・・	中間的蓄積手段	Intermediate storage means	4276
+H04L  13/10	・・	分配器	Distributors	462
+H04L  13/12	・・・	機械的でない分配器，例．リレー分配器	Non-mechanical distributors, e.g. relay distributors	217
+H04L  13/14	・・・・	電子的分配器	Electronic distributors	123
+H04L  13/16	・	送信機の細部，例．コードバー，コード板	of transmitters, e.g. code-bars, code-discs	933
+H04L  13/18	・	受信機の細部	of receivers	1080
+H04L  15/00		ドットダッシュ符号，例．モールス符号，を送信または受信するための装置または局部回路（そのための教習装置Ｇ０９Ｂ；電信用電けんＨ０１Ｈ２１／８６）	Apparatus or local circuits for transmitting or receiving dot-and-dash codes, e.g. Morse code(teaching apparatus therefor G09B; telegraph tapping keys H01H21/86)	282
+H04L  15/03	・	音響発生器と構造的に結合した電けん［２］	Keys structurally combined with sound generators	38
+H04L  15/04	・	送信端における装置または回路	Apparatus or circuits at the transmitting end	200
+H04L  15/06	・・	制限された数の電けん，例．符号要素の各形式毎に分離された電けん，をもつもの	with a restricted number of keys, e.g. separate key for each type of code element	40
+H04L  15/08	・・・	第１位置で短点を，第２位置で長点を送信する単一電けんをもつもの	with a single key which transmits dots in one position and dashes in a second position	132
+H04L  15/10	・・・	さん孔装置と結合したもの	combined with perforating apparatus	13
+H04L  15/12	・・	コードバーと協同する電けん盤をもつもの	with keyboard co-operating with code-bars	37
+H04L  15/14	・・・	さん孔装置と結合したもの	combined with perforating apparatus	22
+H04L  15/16	・・	コード板と協同する電けん盤をもつもの	with keyboard co-operating with code discs	222
+H04L  15/18	・・	自動送信機，例．さん孔テープにより制御されるもの	Automatic transmitters, e.g. controlled by perforated tape	119
+H04L  15/20	・・・	光学的感知手段をもつもの	with optical sensing means	37
+H04L  15/22	・・	１またはそれ以上の制限された数の符号，例．遭難符号，を送信するための装置または回路	Apparatus or circuits for sending one or a restricted number of signals, e.g. distress signals	187
+H04L  15/24	・	受信端における装置または回路	Apparatus or circuits at the receiving end	128
+H04L  15/26	・・	所定の符号信号，例．遭難信号，共同線呼出信号，の受信のみに動作するもの	operating only on reception of predetermined code signals, e.g. distress signals, party-line call signals	199
+H04L  15/28	・・	符号再生装置	Code reproducing apparatus	97
+H04L  15/30	・・・	書字記録器	Writing recorders	196
+H04L  15/32	・・・	さん孔記録器	Perforating recorders	40
+H04L  15/34	・・	受信された符号信号を，例．タイプ文字に，ほん訳後，記録するための装置	Apparatus for recording received coded signals after translation, e.g. as type-characters	109
+H04L  17/00		各文字が同数の等長符号要素によって表わされている符号，例．ボドー符号，の送信または受信のための装置または局部回路	Apparatus or local circuits for transmitting or receiving codes wherein each character is represented by the same number of equal-length code elements, e.g. Baudot code	566
+H04L  17/02	・	送信端における装置または回路	Apparatus or circuits at the transmitting end	702
+H04L  17/04	・・	コードバーと協同する電けん盤をもつもの	with keyboard co-operating with code-bars	150
+H04L  17/06	・・・	接点操作手段	Contact operating means	153
+H04L  17/08	・・・	さん孔装置と結合したもの	combined with perforating apparatus	145
+H04L  17/10	・・	コード板と協同する電けん盤をもつもの	with keyboard co-operating with code-discs	13
+H04L  17/12	・・	自動送信機，例．さん孔テープで制御されるもの	Automatic transmitters, e.g. controlled by perforated tape	221
+H04L  17/14	・・・	光学的感知手段をもつもの	with optical sensing means	61
+H04L  17/16	・	受信端における装置または回路	Apparatus or circuits at the receiving end	729
+H04L  17/18	・・	符号選択機構	Code selection mechanisms	168
+H04L  17/20	・・	さん孔記録器を用いるもの	using perforating recorders	155
+H04L  17/22	・・	機械的ほん訳およびタイプバー印刷を用いるもの	using mechanical translation and type-bar printing	173
+H04L  17/24	・・	機械的ほん訳およびタイプヘッド印刷を用いるもの	using mechanical translation and type-head printing, e.g. type-wheel, type-cylinder	272
+H04L  17/26	・・	総合動作ほん訳を用いるもの	using aggregate motion translation	143
+H04L  17/28	・・	気圧または水圧式ほん訳を用いるもの	using pneumatic or hydraulic translation	32
+H04L  17/30	・・	電気的または電子的ほん訳を用いるもの	using electric or electronic translation	323
+H04L  19/00		ステップバイステップ方式のための装置または局部回路	Apparatus or local circuits for step-by-step systems	190
+H04L  21/00		モザイク印刷電信方式のための装置または局部回路	Apparatus or local circuits for mosaic printer telegraph systems	380
+H04L  21/02	・	送信端局におけるもの	at the transmitting end	63
+H04L  21/04	・	受信端局におけるもの	at the receiving end	122
+H04L  23/00		グループＨ０４Ｌ１５／００〜Ｈ０４Ｌ２１／００に包括されるもの以外の電信方式のための装置または局部回路	Apparatus or local circuits for telegraphic systems other than those covered by groups H04L15/00 to H04L21/00 	863
+H04L  23/02	・	直交信号方式に適用されたもの［２］	adapted for orthogonal signalling	821
+H04L  25/00		ベースバンド方式	Baseband systems	1624
+H04L  25/02	・	細部	Details	29268
+H04L  25/03	・・	送信機または受信機における整形回路網，例．整形回路網を付加するもの［２］	Shaping networks in transmitter or receiver, e.g. adaptive shaping networks	22211
+H04L  25/04	・・・	受動整形回路網［２］	Passive shaping networks	1196
+H04L  25/05	・・	伝送レートを変えるための，伝送前または再送前の電気的または磁気的な信号蓄積［７］	Electric or magnetic storage of signals before transmitting or retransmitting for changing the transmission rate	603
+H04L  25/06	・・	直流レベル再生手段；バイアスひずみ補正	DC level restoring means; Bias distortion correction	3791
+H04L  25/08	・・	混信を低減するための変形；線路障害による影響を低減するための変形	Modifications for reducing interference; Modifications for reducing effects due to line faults	3675
+H04L  25/10	・・	線路平衡の変動の補正	Compensating for variations in line balance	242
+H04L  25/12	・・	線路インピーダンスの変動の補正	Compensating for variations in line impedance	269
+H04L  25/14	・・	チャネル分割配置	Channel dividing arrangements	962
+H04L  25/17	・・	補間装置［４］	Interpolating arrangements	71
+H04L  25/18	・・	電信信号を誘導的に発生させるための配置	Arrangements for inductively generating telegraphic signals	42
+H04L  25/20	・・	中継器回路；リレー回路	Repeater circuits; Relay circuits	837
+H04L  25/22	・・・	２線４線変換用中継器；単流複流変換用中継器	Repeaters for converting two wires to four wires; Repeaters for converting single current to double current	249
+H04L  25/24	・・・	電子管または半導体装置を使用したリレー回路	Relay circuits using discharge tubes or semiconductor devices	748
+H04L  25/26	・・・	光電的感知手段を用いる回路	Circuits with optical sensing means	260
+H04L  25/28	・・・	変調とその後の復調とを用いる中継器	Repeaters using modulation and subsequent demodulation	58
+H04L  25/30	・	非同期方式	Non-synchronous systems	239
+H04L  25/32	・・	使用される符号によって特徴づけられるもの	characterised by the code employed	82
+H04L  25/34	・・・	３以上の別々の振幅を用いるもの，例．ケーブル符号	using three or more different amplitudes, e.g. cable code	276
+H04L  25/38	・	同期またはスタート・ストップ方式，例．ボード符号	Synchronous or start-stop systems, e.g. for Baudot code	1194
+H04L  25/40	・・	送信回路；受信回路	Transmitting circuits; Receiving circuits	2420
+H04L  25/42	・・・	機械的分配器を用いるもの	using mechanical distributors	143
+H04L  25/44	・・・	リレー分配器を用いるもの	using relay distributors	11
+H04L  25/45	・・・	電子的分配器を用いるもの［２］	using electronic distributors	347
+H04L  25/46	・・・	音さまたは音片を用いるもの	using tuning forks or vibrating reeds	23
+H04L  25/48	・・・	使用される符号によって特徴づけられるもの（Ｈ０４Ｌ２５／４９が優先）［２］	characterised by the code employed(H04L25/49 takes precedence)	466
+H04L  25/49	・・・	送信機において符号変換を用いるもの；予わいを用いるもの；所望の周波数スペクトルを得るためにアイドルビットを挿入するもの；三つまたはそれ以上の振幅レベルを用いるもの［２］	using code conversion at the transmitter; using predistortion; using insertion of idle bits for obtaining a desired frequency spectrum; using three or more amplitude levels	11188
+H04L  25/493	・・・・	遷移符号化，すなわち伝送前に遷移の時間位置や方向が符号化されるもの［３］	by transition coding, i.e. the time-position or direction of a transition being encoded before transmission	354
+H04L  25/497	・・・・	相関符号化によるもの，例．パーシャルレスポンス符号化またはエコー変調符号化［３］	by correlative coding, e.g. partial response coding or echo modulation coding	927
+H04L  25/52	・・	中継器回路；リレー回路	Repeater circuits; Relay circuits	654
+H04L  25/54	・・・	機械的分配器を用いるもの	using mechanical distributors	4
+H04L  25/56	・・・	非電気的再生中継器	Non-electrical regenerative repeaters	3
+H04L  25/58	・・・	リレー分配器を用いるもの	using relay distributors	5
+H04L  25/60	・・・	電磁スイッチを用いた再生中継器	Regenerative repeaters with electromagnetic switches	53
+H04L  25/62	・・・	音さまたは音片を用いるもの	using tuning forks or vibrating reeds	6
+H04L  25/64	・・・	電子管または半導体装置を用いたスタートストップ再生中継器	Start-stop regenerative repeaters using discharge tubes or semiconductor devices	53
+H04L  25/66	・・・	電子管または半導体装置を用いた同期中継器	Synchronous repeaters using discharge tubes or semiconductor devices	24
+H04L  27/00		搬送波変調方式	Modulated-carrier systems	22080
+H04L  27/01	・	等化［５］	Equalisers	3407
+H04L  27/02	・	振幅変調された搬送方式，例．オンオフキーイングを用いるもの；単側波帯または残留側波帯変調（Ｈ０４Ｌ２７／３２が優先）［２，５］	Amplitude-modulated carrier systems, e.g. using on/off keying; Single sideband or vestigial sideband modulation(H04L27/32 takes precedence)	1849
+H04L  27/04	・・	変調器回路；送信機回路	Modulator circuits; Transmitter circuits	2861
+H04L  27/06	・・	復調器回路；受信機回路	Demodulator circuits; Receiver circuits	6358
+H04L  27/08	・・	振幅調整配置	Amplitude regulation arrangements	984
+H04L  27/10	・	周波数変調搬送波方式，例．周波数偏移用電鍵操作を用いるもの（Ｈ０４Ｌ２７／３２が優先）［５］	Frequency-modulated carrier systems, i.e. using frequency-shift keying(H04L27/32 takes precedence)	2896
+H04L  27/12	・・	変調器回路；送信機回路	Modulator circuits; Transmitter circuits	2959
+H04L  27/14	・・	復調器回路；受信機回路	Demodulator circuits; Receiver circuits	3942
+H04L  27/144	・・・	受信信号のスペクトル特性を用いて復調するもの，例．周波数選択要素または周波数検知要素を用いるもの［６］	with demodulation using spectral properties of the received signal, e.g. by using frequency selective- or frequency sensitive elements	245
+H04L  27/148	・・・・	ＰＬＬ型フィルタを含む，フィルタを用いるもの［６］	using filters, including PLL-type filters	539
+H04L  27/152	・・・・	制御発振器を用いるもの，例．ＰＬＬ装置［６］	using controlled oscillators, e.g. PLL arrangements	471
+H04L  27/156	・・・	受信信号の時間特性を用いて復調するもの，例．パルス幅検出［６］	with demodulation using temporal properties of the received signal, e.g. detecting pulse width	907
+H04L  27/16	・・	周波数調整配置	Frequency regulation arrangements	504
+H04L  27/18	・	位相変調搬送波方式，すなわち位相偏移用電鍵操作を用いるもの（Ｈ０４Ｌ２７／３２が優先）［５］	Phase-modulated carrier systems, i.e. using phase-shift keying(H04L27/32 takes precedence)	4237
+H04L  27/20	・・	変調器回路；送信機回路	Modulator circuits; Transmitter circuits	5942
+H04L  27/22	・・	復調器回路；受信機回路	Demodulator circuits; Receiver circuits	7651
+H04L  27/227	・・・	コヒーレント復調を用いるもの［６］	using coherent demodulation	3362
+H04L  27/233	・・・	非コヒーレント復調を用いるもの［６］	using non-coherent demodulation	1752
+H04L  27/24	・・	半波信号方式	Half-wave signalling systems	162
+H04L  27/26	・	多周波符号を用いる方式（Ｈ０４Ｌ２７／３２が優先）［５］	Systems using multi-frequency codes(H04L27/32 takes precedence)	43250
+H04L  27/28	・・	それぞれ１符号要素を表わす別々の周波数を同時に伝送するもの	with simultaneous transmission of different frequencies each representing one code element	3589
+H04L  27/30	・・	各符号要素が周波数の組み合わせによって表わされるもの	wherein each code element is represented by a combination of frequencies	590
+H04L  27/32	・	グループＨ０４Ｌ２７／０２，Ｈ０４Ｌ２７／１０，Ｈ０４Ｌ２７／１８，またはＨ０４Ｌ２７／２６に包含される２つ以上の方式の組合わせによって特徴づけられる搬送波方式［５］	Carrier systems characterised by combinations of two or more of the types covered by groups H04L27/02, H04L27/10, H04L27/18, or H04L27/26	1285
+H04L  27/34	・・	振幅位相変調搬送方式，例．直交振幅変調搬送波方式［５］	Amplitude- and phase-modulated carrier systems, e.g. quadrature-amplitude modulated carrier systems	5980
+H04L  27/36	・・・	変調器回路；送信機回路［５］	Modulator circuits; Transmitter circuits	5286
+H04L  27/38	・・・	復調器回路；受信機回路［５］	Demodulator circuits; Receiver circuits	5944
+H04L  41/00		データ交換ネットワークの保守，運用または管理のための配置，例．パケット交換ネットワーク［２０２２．０１］	Arrangements for maintenance, administration or management of data switching networks, e.g. of packet switching networks	2173
+H04L  41/02	・	標準化；統合［２０２２．０１］	Standardisation; Integration	287
+H04L  41/0213	・・	標準化されたネットワーク管理プロトコル，例．簡易ネットワーク管理プロトコル［ＳＮＭＰ］［２０２２．０１］	Standardised network management protocols, e.g. simple network management protocol [SNMP]	769
+H04L  41/022	・・	複数のベンダの統合または複数の標準の統合［２０２２．０１］	Multivendor or multi-standard integration	112
+H04L  41/0226	・・	複数のネットワーク管理プロトコルのマッピングまたは変換［２０２２．０１］	Mapping or translating multiple network management protocols	128
+H04L  41/0233	・・	ネットワーク管理データを表示するための，オブジェクト指向技術，例．コモンオブジェクトリクエストブローカアーキテクチャ［ＣＯＲＢＡ］［２０２２．０１］	Object-oriented techniques, for representation of network management data, e.g. common object request broker architecture [CORBA]	86
+H04L  41/0246	・・	インターネットを使用するネットワーク管理情報の交換または伝送；ネットワーク要素にネットワーク管理ウェブサーバを組み込むもの；ウェブサービスベースのプロトコル［２０２２．０１］	Exchanging or transporting network management information using the Internet; Embedding network management web servers in network elements; Web-services-based protocols	516
+H04L  41/0253	・・・	管理情報にアクセスするためのブラウザまたはウェブページを使用するもの［２０２２．０１］	using browsers or web-pages for accessing management information	269
+H04L  41/026	・・・	管理情報を伝送するために電子メッセージを使用するもの，例．電子メール，インスタントメッセージまたはチャット［２０２２．０１］	using e-messaging for transporting management information, e.g. email, instant messaging or chat	142
+H04L  41/0266	・・・	管理情報のフォーマットを設定するために，メタデータ，オブジェクトまたはコマンドを使用するもの，例．拡張可能なマークアップ言語［ＸＭＬ］を使用するもの［２０２２．０１］	using meta-data, objects or commands for formatting management information, e.g. using eXtensible markup language [XML]	221
+H04L  41/0273	・・・	ネットワーク管理のためにウェブサービスを使用するもの，例．簡易オブジェクトアクセスプロトコル［ＳＯＡＰ］［２０２２．０１］	using web services for network management, e.g. simple object access protocol [SOAP]	288
+H04L  41/04	・	ネットワーク管理アーキテクチャまたはネットワーク管理の配置［２０２２．０１］	Network management architectures or arrangements	753
+H04L  41/042	・・	ネットワークを共同で管理する分散管理センタを構成するもの［２０２２．０１］	comprising distributed management centres cooperatively managing the network	497
+H04L  41/044	・・	階層化された管理構造を構成するもの［２０２２．０１］	comprising hierarchical management structures	611
+H04L  41/045	・・	クライアントサーバ形式の管理アーキテクチャを構成するもの［２０２２．０１］	comprising client-server management architectures	91
+H04L  41/046	・・	ネットワーク管理エージェントまたはそのためのモバイルエージェントを構成するもの［２０２２．０１］	comprising network management agents or mobile agents therefor	618
+H04L  41/052	・・	標準化されたネットワーク管理アーキテクチャを使用するもの，例．電気通信管理網［ＴＭＮ］または統一ネットワーク管理アーキテクチャ［ＵＮＭＡ］［２０２２．０１］	using standardised network management architectures, e.g. telecommunication management network [TMN] or unified network management architecture [UNMA]	36
+H04L  41/06	・	障害，イベント，警告または通知の管理［２０２２．０１］	Management of faults, events, alarms or notifications	2334
+H04L  41/0604	・・	フィルタリングするもの，例．優先順位，要素タイプ，位置または時間を使用して情報を削減するもの［２０２２．０１］	using filtering, e.g. reduction of information by using priority, element types, position or time	1014
+H04L  41/0631	・・	根本原因解析を行うもの，判定基準に基づいて通知，警告またはイベントの間の相関解析を行うもの，例．階層，ツリーまたは時間の解析［２０２２．０１］	using root cause analysis; using analysis of correlation between notifications, alarms or events based on decision criteria, e.g. hierarchy, tree or time analysis	6161
+H04L  41/0654	・・	ネットワーク障害を回復するもの（ネットワーク管理システムによる回復作業なしでループネットワークでのリング障害の分離または再構成するものＨ０４Ｌ１２／４３７）［２０２２．０１］	using network fault recovery(ring fault isolation or reconfiguration in loop networks without recovery actions by a network management system H04L12/437)	1798
+H04L  41/0659	・・・	障害エンティティを分離または再構成するもの［２０２２．０１］	by isolating or reconfiguring faulty entities	854
+H04L  41/0663	・・・	フェイルオーバ計画で予め定義された作業を実施するもの，例．スタンバイネットワーク要素に切り替えるもの［２０２２．０１］	Performing the actions predefined by failover planning, e.g. switching to standby network elements	2382
+H04L  41/0668	・・・	回復用のネットワーク要素の動的選択によるもの，例．障害発生後の最も適切な要素への交換［２０２２．０１］	by dynamic selection of recovery network elements, e.g. replacement by the most appropriate element after failure	1138
+H04L  41/0677	・・	障害の局所化［２０２２．０１］	Localisation of faults	3066
+H04L  41/0681	・・	トリガ条件の構成［２０２２．０１］	Configuration of triggering conditions	618
+H04L  41/0686	・・	通知に情報を追加するもの，例．特定のメタデータの強化［２０２２．０１］	Additional information in the notification, e.g. enhancement of specific meta-data	346
+H04L  41/069	・・	通知のログを使用するもの；通知の後処理［２０２２．０１］	using logs of notifications; Post-processing of notifications	2555
+H04L  41/0695	・・	障害の配置が保守システム，運用システムまたは管理システムである場合［２０２２．０１］	the faulty arrangement being the maintenance, administration or management system	212
+H04L  41/08	・	ネットワークまたはネットワーク要素の構成管理（アドレスの割り当てＨ０４Ｌ６１／５０）［２０２２．０１］	Configuration management of networks or network elements(address allocation H04L61/50)	3219
+H04L  41/0803	・・	構成の設定［２０２２．０１］	Configuration setting	5829
+H04L  41/0806	・・・	初期構成またはプロビジョニングに関するもの，例．プラグアンドプレイ［２０２２．０１］	for initial configuration or provisioning, e.g. plug-and-play	2188
+H04L  41/0813	・・・	設定変更のトリガ条件に特徴があるもの［２０２２．０１］	characterised by the conditions triggering a change of settings	1447
+H04L  41/0816	・・・・	条件が適応に関するもの，例．ネットワークのイベントに応答するもの［２０２２．０１］	the condition being an adaptation, e.g. in response to network events	1614
+H04L  41/082	・・・・	条件がネットワーク機能の更新または向上に関するもの［２０２２．０１］	the condition being updates or upgrades of network functionality	3034
+H04L  41/0823	・・・	設定変更の目的に特徴があるもの，例．信頼性を強化するために構成を最適化するもの（無線ネットワークの運用状態を最適化するためのものＨ０４Ｗ２４／０２）［２０２２．０１］	characterised by the purposes of a change of settings, e.g. optimising configuration for enhancing reliability(for optimising operational conditions of wireless networks H04W24/02)	2695
+H04L  41/0826	・・・・	ネットワークの費用を削減するためのもの（Ｈ０４Ｌ４１／０８３３が優先）［２０２２．０１］	for reduction of network costs(H04L41/0833 takes precedence)	250
+H04L  41/083	・・・・	ネットワークの通信速度を上げるためのもの［２０２２．０１］	for increasing network speed	310
+H04L  41/0833	・・・・	ネットワークの消費電力を削減するためのもの［２０２２．０１］	for reduction of network energy consumption	201
+H04L  41/084	・・・	既存情報の使用による構成，例．テンプレートを使用するものまたは他の要素から構成を複写するもの［２０２２．０１］	Configuration by using pre-existing information, e.g. using templates or copying from other elements	1064
+H04L  41/085	・・	ネットワーク構成の取得；ネットワーク構成の履歴の追跡［２０２２．０１］	Retrieval of network configuration; Tracking network configuration history	328
+H04L  41/0853	・・・	構成情報を能動的に収集するものまたは構成情報をバックアップするもの［２０２２．０１］	by actively collecting configuration information or by backing up configuration information	1000
+H04L  41/0859	・・・	異なる構成世代の履歴を記録するものまたは過去の構成バージョンにロールバックするもの［２０２２．０１］	by keeping history of different configuration generations or by rolling back to previous configuration versions	227
+H04L  41/0866	・・	構成の確認［２０２２．０１］	Checking the configuration	609
+H04L  41/0869	・・・	単一ネットワーク要素内の構成を検証するもの［２０２２．０１］	Validating the configuration within one network element	279
+H04L  41/0873	・・・	ネットワーク要素間の構成の矛盾を確認するもの［２０２２．０１］	Checking configuration conflicts between network elements	200
+H04L  41/0893	・・	ネットワーク要素への論理グループの割り当て［２０２２．０１］	Assignment of logical groups to network elements	2437
+H04L  41/0894	・・	ポリシに基づいたネットワーク構成管理［２０２２．０１］	Policy-based network configuration management	3001
+H04L  41/0895	・・	仮想化ネットワークまたは仮想化要素の構成，例．仮想化ネットワーク機能またはオープンフロー要素［２０２２．０１］	Configuration of virtualised networks or elements, e.g. virtualised network function or OpenFlow elements	1749
+H04L  41/0896	・・	帯域幅または容量の管理，すなわち容量を自動的に増減するもの（動的リソース割り当てを使用したフロー制御または輻輳制御，例．通信中の再ネゴシエーションＨ０４Ｌ４７／７６）［２０２２．０１］	Bandwidth or capacity management, i.e. automatically increasing or decreasing capacities  (flow or congestion control using dynamic resource allocation, e.g. in-call renegotiation, H04L47/76)	2061
+H04L  41/0897	・・・	水平方向または垂直方向でのリソースのスケーリングまたはエンティティのマイグレーションによるもの，例．仮想リソースまたは仮想エンティティ［２０２２．０１］	by horizontal or vertical scaling of resources, or by migrating entities, e.g. virtual resources or entities	263
+H04L  41/12	・	ネットワークトポロジの発見または管理［２０２２．０１］	Discovery or management of network topologies	5961
+H04L  41/122	・・	仮想化トポロジに関するもの，例．ソフトウェア定義ネットワーク［ＳＤＮ］またはネットワーク機能仮想化［ＮＦＶ］［２０２２．０１］	of virtualised topologies e.g. software-defined networks [SDN] or network function virtualisation [NFV]	564
+H04L  41/14	・	ネットワークの解析またはネットワークの設計［２０２２．０１］	Network analysis or design	8624
+H04L  41/142	・・	統計的手法または数学的手法を使用するもの［２０２２．０１］	using statistical or mathematical methods	2654
+H04L  41/147	・・	ネットワークの動作を予測するためのもの［２０２２．０１］	for predicting network behaviour	3098
+H04L  41/149	・・	保守の予測のためのもの［２０２２．０１］	for prediction of maintenance	350
+H04L  41/16	・	機械学習または人工知能を使用するもの［２０２２．０１］	using machine learning or artificial intelligence	5616
+H04L  41/18	・	ネットワーク管理機能の委任，例．顧客ネットワーク管理［ＣＮＭ］［２０２２．０１］	Delegation of network management function, e.g. customer network management [CNM]	68
+H04L  41/22	・	特に適したグラフィカルユーザインターフェース［ＧＵＩ］を構成するもの［２０２２．０１］	comprising specially adapted graphical user interfaces [GUI]	2318
+H04L  41/28	・	ネットワーク管理システムまたはネットワーク管理機能へのアクセスを制限するもの，例．ネットワーク構成にアクセスするために認証機能を使用するもの［２０２２．０１］	Restricting access to network management systems or functions, e.g. using authorisation function to access network configuration	655
+H04L  41/34	・	ネットワーク管理通信のためのシグナリングチャネル［２０２２．０１］	Signalling channels for network management communication	140
+H04L  41/342	・・	仮想エンティティ間のもの，例．オーケストレータ，ＳＤＮまたはＮＦＶエンティティ［２０２２．０１］	between virtual entities, e.g. orchestrators, SDN or NFV entities	203
+H04L  41/344	・・	帯域外の転送［２０２２．０１］	Out-of-band transfers	20
+H04L  41/40	・	ネットワーク機能の仮想化またはリソースの仮想化を使用するもの，例．ＳＤＮまたはＮＦＶエンティティ［２０２２．０１］	using virtualisation of network functions or resources, e.g. SDN or NFV entities	1958
+H04L  41/50	・	ネットワークサービス管理，例．契約に従って適切なサービスの履行を保証するもの［２０２２．０１］	Network service management, e.g. ensuring proper service fulfilment according to agreements	1546
+H04L  41/5003	・・	ＳＬＡを管理するもの；ＳＬＡとＱｏＳの相互作用［２０２２．０１］	Managing SLA; Interaction between SLA and QoS	381
+H04L  41/5006	・・・	ＳＬＡの契約，保証またはペナルティを作成または交渉するもの［２０２２．０１］	Creating or negotiating SLA contracts, guarantees or penalties	117
+H04L  41/5009	・・・	サービス水準の性能パラメータまたはサービス水準契約の違反を決定するもの，例．合意した応答時間または平均故障間隔［ＭＴＢＦ］に関する違反［２０２２．０１］	Determining service level performance parameters or violations of service level contracts, e.g. violations of agreed response time or mean time between failures [MTBF]	943
+H04L  41/5019	・・・	ＳＬＡの履行を保証するもの［２０２２．０１］	Ensuring fulfilment of SLA	483
+H04L  41/5022	・・・・	優先順位の付与によるもの，例．サービスクラスを割り当てるもの［２０２２．０１］	by giving priorities, e.g. assigning classes of service	212
+H04L  41/5025	・・・・	サービス品質の変化を見越した対応によるもの，例．サービス品質の低下後またはサービス品質の向上後の再構成［２０２２．０１］	by proactively reacting to service quality change, e.g. by reconfiguration after service quality degradation or upgrade	349
+H04L  41/5041	・・	サービスの作成と展開の間の時間関係に特徴があるもの［２０２２．０１］	characterised by the time relationship between creation and deployment of a service	676
+H04L  41/5051	・・・	サービスオンデマンド，例．リアルタイムでのサービスの定義と展開［２０２２．０１］	Service on demand, e.g. definition and deployment of services in real time	539
+H04L  41/5054	・・・	サービスマネージャによってトリガされるサービスの自動展開，例．ネットワーク構成要素の自動構成によるサービスの実施［２０２２．０１］	Automatic deployment of services triggered by the service manager, e.g. service implementation by automatic configuration of network components	545
+H04L  41/5061	・・	サービスプロバイダと顧客の間の相互作用に特徴があるもの，例．顧客関係管理［２０２２．０１］	characterised by the interaction between service providers and their network customers, e.g. customer relationship management	204
+H04L  41/5067	・・・	顧客中心のＱｏＳ計測［２０２２．０１］	Customer-centric QoS measurements	344
+H04L  41/507	・・・	サービスの問題により影響を受ける顧客を除外するもの［２０２２．０１］	Filtering out customers affected by service problems	32
+H04L  41/5074	・・・	ユーザの苦情またはトラブルチケットを処理するもの［２０２２．０１］	Handling of user complaints or trouble tickets	221
+H04L  43/00		データ交換ネットワークを監視または試験するための配置［２０２２．０１］	Arrangements for monitoring or testing data switching networks	1886
+H04L  43/02	・	監視データを取得するもの［２０２２．０１］	Capturing of monitoring data	729
+H04L  43/022	・・	サンプリングによるもの［２０２２．０１］	by sampling	280
+H04L  43/024	・・・	適応サンプリングによるもの［２０２２．０１］	by adaptive sampling	98
+H04L  43/026	・・	フロー識別情報を使用するもの［２０２２．０１］	using flow identification	649
+H04L  43/028	・・	フィルタリングによるもの［２０２２．０１］	by filtering	860
+H04L  43/04	・	取得した監視データを処理するもの，例．ログファイルを生成するためのもの［２０２２．０１］	Processing captured monitoring data, e.g. for logfile generation	2505
+H04L  43/045	・・	監視データを図表により視覚化するためのもの［２０２２．０１］	for graphical visualisation of monitoring data	1634
+H04L  43/06	・	報告書の生成［２０２２．０１］	Generation of reports	876
+H04L  43/062	・・	ネットワークトラフィックに関するもの［２０２２．０１］	related to network traffic	798
+H04L  43/065	・・	ネットワーク装置に関するもの［２０２２．０１］	related to network devices	636
+H04L  43/067	・・	時間枠単位で報告書を生成するもの［２０２２．０１］	using time frame reporting	315
+H04L  43/08	・	特定の基準に基づいて監視または試験するもの，例．ＱｏＳ，消費電力または環境パラメータ［２０２２．０１］	Monitoring or testing based on specific metrics, e.g. QoS, energy consumption or environmental parameters	6603
+H04L  43/0805	・・	可用性の確認によるもの［２０２２．０１］	by checking availability	1304
+H04L  43/0811	・・・	接続性の確認によるもの［２０２２．０１］	by checking connectivity	2171
+H04L  43/0817	・・・	機能の確認によるもの［２０２２．０１］	by checking functioning	2405
+H04L  43/0823	・・	エラー，例．伝送エラー［２０２２．０１］	Errors, e.g. transmission errors	1776
+H04L  43/0829	・・・	パケットロス［２０２２．０１］	Packet loss	1690
+H04L  43/0852	・・	遅延［２０２２．０１］	Delays	2976
+H04L  43/0864	・・・	往復遅延［２０２２．０１］	Round trip delays	602
+H04L  43/087	・・・	ジッタ［２０２２．０１］	Jitter	505
+H04L  43/0876	・・	ネットワークの利用状況，例．負荷量または混雑水準［２０２２．０１］	Network utilisation, e.g. volume of load or congestion level	2877
+H04L  43/0882	・・・	リンク容量の利用状況［２０２２．０１］	Utilisation of link capacity	603
+H04L  43/0888	・・・	スループット［２０２２．０１］	Throughput	875
+H04L  43/0894	・・・	パケットレート［２０２２．０１］	Packet rate	1350
+H04L  43/091	・・	各ネットワーク構成要素の実際のサービス水準への貢献度の計測［２０２２．０１］	Measuring contribution of individual network components to actual service level	131
+H04L  43/10	・	動的に監視するもの，例．ハートビート，ピングまたはトレースルート［２０２２．０１］	Active monitoring, e.g. heartbeat, ping or trace-route	3312
+H04L  43/103	・・	適応ポーリングを用いるもの，すなわち動的にポーリング間隔を適応させるもの［２０２２．０１］	with adaptive polling, i.e. dynamically adapting the polling rate	189
+H04L  43/106	・・	パケットの時間に関する情報を使用するもの，例．タイムスタンプを付加するもの［２０２２．０１］	using time related information in packets, e.g. by adding timestamps	625
+H04L  43/12	・	ネットワーク監視プローブ［２０２２．０１］	Network monitoring probes	1585
+H04L  43/16	・	閾値を監視するもの［２０２２．０１］	Threshold monitoring	3067
+H04L  43/18	・	プロトコルアナライザ［２０２２．０１］	Protocol analysers	1046
+H04L  43/20	・	仮想化，抽象化またはソフトウェアで定義されたエンティティである監視システムまたは監視対象要素，例．ＳＤＮまたはＮＦＶ［２０２２．０１］	the monitoring system or the monitored elements being virtualised, abstracted or software-defined entities, e.g. SDN or NFV	537
+H04L  43/50	・	試験の配置［２０２２．０１］	Testing arrangements	6246
+H04L  43/55	・・	サービス水準の品質を試験するもの，例．サービスの使用をシミュレーションするもの［２０２２．０１］	Testing of service level quality, e.g. simulating service usage	389
+H04L  45/00		データ交換ネットワーク内のパケットのルーティングまたはパス探索（無線ネットワーク内のルーティングまたはパス探索Ｈ０４Ｗ４０／００）［２０２２．０１］	Routing or path finding of packets in data switching networks(routing or path finding in wireless networks H04W40/00)	7038
+H04L  45/02	・	トポロジの更新または発見［２０２２．０１］	Topology update or discovery	10393
+H04L  45/021	・・	ルーティングテーブル更新の整合性を保証するもの，例．エポック番号の使用によるもの［２０２２．０１］	Ensuring consistency of routing table updates, e.g. by using epoch numbers	221
+H04L  45/023	・・	ルーティングテーブルの更新を遅らせるもの［２０２２．０１］	Delayed use of routing table updates	34
+H04L  45/028	・・	更新間隔の動的な適応，例．イベント駆動型の更新［２０２２．０１］	Dynamic adaptation of the update intervals, e.g. event-triggered updates	102
+H04L  45/03	・・	リンクステートプロトコルの更新によるもの［２０２２．０１］	by updating link state protocols	89
+H04L  45/033	・・	距離ベクトルプロトコルの更新によるもの［２０２２．０１］	by updating distance vector protocols	35
+H04L  45/036	・・	複数の経路計算要素間のトポロジを更新するもの，例．複数のオープンフローコントローラ間のトポロジを更新するもの［２０２２．０１］	Updating the topology between route computation elements, e.g. between OpenFlow controllers	67
+H04L  45/037	・・・	サービスに関するノード間を強制的に横断する経路［２０２２．０１］	Routes obligatorily traversing service-related nodes	17
+H04L  45/0377	・・・・	サービスチェイニングのためのもの［２０２２．０１］	for service chaining	53
+H04L  45/12	・	最短パス評価［２０２２．０１］	Shortest path evaluation	2543
+H04L  45/121	・・	遅延を最小限に抑えることによるもの［２０２２．０１］	by minimising delays	1362
+H04L  45/122	・・	距離を最小限に抑えることによるもの，例．ホップ数が最小になる経路の選択によるもの［２０２２．０１］	by minimising distances, e.g. by selecting a route with minimum of number of hops	2481
+H04L  45/125	・・	スループットまたは帯域幅に基づくもの［２０２２．０１］	based on throughput or bandwidth	1334
+H04L  45/128	・・	互いに素なパスを探索するためのもの［２０２２．０１］	for finding disjoint paths	284
+H04L  45/16	・	マルチポイントルーティング［２０２２．０１］	Multipoint routing	4619
+H04L  45/17	・	ショートカットルーティング，例．ネクストホップ解決プロトコル［ＮＨＲＰ］を使用するもの［２０２２．０１］	Shortcut routing, e.g. using next hop resolution protocol [NHRP]	194
+H04L  45/18	・	ループフリー動作［２０２２．０１］	Loop-free operations	1009
+H04L  45/24	・	マルチパス［２０２２．０１］	Multipath	8867
+H04L  45/243	・・	Ｍ＋Ｎ並列アクティブパスを使用するもの［２０２２．０１］	using M+N parallel active paths	2121
+H04L  45/247	・・	Ｍ：Ｎアクティブまたはスタンバイパスを使用するもの［２０２２．０１］	using M:N active or standby paths	2338
+H04L  45/28	・	経路障害の回復によるもの［２０２２．０１］	using route fault recovery	5429
+H04L  45/30	・	複数のトラフィッククラスをルーティングするもの［２０２２．０１］	Routing of multiclass traffic	742
+H04L  45/302	・	要求されているＱｏＳに基づいた経路の決定［２０２２．０１］	Route determination based on requested QoS	1035
+H04L  45/42	・	集中ルーティング［２０２２．０１］	Centralised routing	3170
+H04L  45/44	・	分散ルーティング［２０２２．０１］	Distributed routing	336
+H04L  45/48	・	ルーティングツリーの計算［２０２２．０１］	Routing tree calculation	459
+H04L  45/484	・・	複数のルーティングツリーを使用するもの［２０２２．０１］	using multiple routing trees	17
+H04L  45/488	・・	ルートノードの決定を使用するもの［２０２２．０１］	using root node determination	32
+H04L  45/50	・	パケットのラベル番号を付け替えるもの，例．マルチプロトコルラベルスイッチング［ＭＰＬＳ］［２０２２．０１］	using label swapping, e.g. multi-protocol label switch [MPLS]	4885
+H04L  45/52	・	マルチプロトコルルータ［２０２２．０１］	Multiprotocol routers	628
+H04L  45/58	・	ルータの関連付け［２０２２．０１］	Association of routers	1016
+H04L  45/586	・・	仮想ルータに関するもの［２０２２．０１］	of virtual routers	2957
+H04L  45/60	・	ルータアーキテクチャ［２０２２．０１］	Router architectures	8958
+H04L  45/64	・	オーバレイで構築されたルーティング層を使用するもの［２０２２．０１］	using an overlay routing layer	742
+H04L  45/645	・	経路計算層と転送層の分離，例．パス計算要素［ＰＣＥ］によるルーティングまたはオープンフロー機能に基づくルーティング［２０２２．０１］	Splitting route computation layer and forwarding layer, e.g. routing according to path computational element [PCE] or based on OpenFlow functionality	143
+H04L  45/655	・・	経路計算エンティティと転送エンティティの間の相互作用，例．経路を決定またはフローテーブルを更新するためのもの［２０２２．０１］	Interaction between route computation entities and forwarding entities, e.g. for route determination or for flow table update	186
+H04L  45/74	・	ルーティングのためのアドレス処理に関するもの［２０２２．０１］	Address processing for routing	13341
+H04L  45/741	・・	複数のアドレッシング方式，例えばＩＰｖ４とＩＰｖ６の両方を有するネットワークにおけるルーティング［２０２２．０１］	Routing in networks with a plurality of addressing schemes, e.g. with both IPv4 and IPv6	1541
+H04L  45/745	・・	アドレステーブルルックアップに関するもの；アドレスフィルタリングに関するもの［２０２２．０１］	Address table lookup; Address filtering	2100
+H04L  45/7452	・・・	複数の並列または連続ルックアップ動作（ブルームフィルタを伴うルックアップ動作Ｈ０４Ｌ４５／７４５９）［２０２２．０１］	Multiple parallel or consecutive lookup operations(lookup operation involving Bloom filters H04L45/7459)	26
+H04L  45/7453	・・・	ハッシュを使用するもの［２０２２．０１］	using hashing	438
+H04L  45/7459	・・・・	ブルームフィルタを使用するもの［２０２２．０１］	using Bloom filters	16
+H04L  45/748	・・・	最長一致プレフィックスを使用するもの［２０２２．０１］	using longest matching prefix	450
+H04L  45/76	・	ソフトウェア定義トポロジにおけるルーティングに関するもの，例．仮想マシン間のルーティング［２０２２．０１］	Routing in software-defined topologies, e.g. routing between virtual machines	719
+H04L  45/80	・	ソースのエンドポイントに基づいて入口ポイントを選択するもの，例．ＩＳＰまたはＰＯＰを選択するもの［２０２２．０１］	Ingress point selection by the source endpoint, e.g. selection of ISP or POP	368
+H04L  45/85	・・	異なるネットワークの中からの選択［２０２２．０１］	Selection among different networks	493
+H04L  45/851	・・・	動的にネットワークを選択または再選択するもの，例．品質の劣化後に［２０２２．０１］	Dynamic network selection or re-selection, e.g. after degradation of quality	263
+H04L  47/00		データ交換ネットワークにおけるトラフィック制御（受信情報中の誤りを検出または防止するための配置Ｈ０４Ｌ１／００）［２０２２．０１］	Traffic control in data switching networks (arrangements for detecting or preventing errors in the information received H04L1/00)	671
+H04L  47/10	・	フロー制御；輻輳制御［２０２２．０１］	Flow control; Congestion control	2806
+H04L  47/11	・・	輻輳を検出するもの［２０２２．０１］	Identifying congestion	541
+H04L  47/12	・・	輻輳を回避するもの；輻輳から回復するもの［２０２２．０１］	Avoiding congestion; Recovering from congestion	1642
+H04L  47/122	・・・	輻輳中のエンティティを迂回するもの［２０２２．０１］	by diverting traffic away from congested entities	275
+H04L  47/125	・・・	通信負荷のバランスをとるもの，例．通信トラフィック工学［２０２２．０１］	by balancing the load, e.g. traffic engineering	2750
+H04L  47/127	・・・	輻輳の予測によるもの［２０２２．０１］	by using congestion prediction	257
+H04L  47/129	・・・	宛先のエンドポイントで，例．端末リソースまたはバッファスペースの予約［２０２２．０１］	at the destination endpoint, e.g. reservation of terminal resources or buffer space	32
+H04L  47/17	・・	中間ノードの間の相互作用，例．ホップバイホップ方式［２０２２．０１］	Interaction among intermediate nodes, e.g. hop by hop	80
+H04L  47/19	・・	ネットワーク層の上の層で（アプリケーションの要求処理をスケジューリングまたは整理するためのネットワーク型アプリケーションのためのネットワークの配置Ｈ０４Ｌ６７／６０）［２０２２．０１］	at layers above the network layer(network arrangements for networked applications for scheduling or organising the servicing of application requests H04L67/60)	176
+H04L  47/193	・・・	トランスポート層で，例．ＴＣＰに関するもの［２０２２．０１］	at the transport layer, e.g. TCP related	238
+H04L  47/20	・・	トラフィックポリシング［２０２２．０１］	Traffic policing	3223
+H04L  47/21	・・	リーキーバケットによるもの［２０２２．０１］	using leaky-bucket	798
+H04L  47/215	・・	トークンバケットによるもの［２０２２．０１］	using token-bucket	619
+H04L  47/22	・・	トラフィックシェーピング［２０２２．０１］	Traffic shaping	2333
+H04L  47/24	・・	特定の属性によって特徴付けられるトラフィック，例．優先順位またはＱｏＳ［２０２２．０１］	Traffic characterised by specific attributes, e.g. priority or QoS	1756
+H04L  47/2408	・・・	異なるサービスを支援するためのもの，例．差別化サービス［ＤｉｆｆＳｅｒｖ］タイプのサービス［２０２２．０１］	for supporting different services, e.g. a differentiated services [DiffServ] type of service	241
+H04L  47/2416	・・・	リアルタイムトラフィック［２０２２．０１］	Real-time traffic	1876
+H04L  47/2425	・・・	仕様どおりのサービスを提供するためのもの，例．ＳＬＡ［２０２２．０１］	for supporting services specification, e.g. SLA	1032
+H04L  47/2441	・・・	フロー分類に依存するもの，例．統合サービス［ＩｎｔＳｅｒｖ］を使用するもの［２０２２．０１］	relying on flow classification, e.g. using integrated services [IntServ]	1377
+H04L  47/2466	・・・	シグナリングトラフィックによるもの［２０２２．０１］	using signalling traffic	453
+H04L  47/2475	・・・	アプリケーションのタイプによって特徴付けられるトラフィックを支援するもの［２０２２．０１］	for supporting traffic characterised by the type of applications	1079
+H04L  47/2483	・・・	個々のフローの識別に関するもの［２０２２．０１］	involving identification of individual flows	1007
+H04L  47/2491	・・・	異なるネットワーク間のサービス品質［ＱｏＳ］に関する要求事項をマッピングするもの［２０２２．０１］	Mapping quality of service [QoS] requirements between different networks	426
+H04L  47/25	・・	ネットワーク状態の変化を検出すると，ソースによってレートが修正されるもの［２０２２．０１］	with rate being modified by the source upon detecting a change of network conditions	564
+H04L  47/26	・・	ソースへ明示的にフィードバックするもの，例．チョークパケット［２０２２．０１］	using explicit feedback to the source, e.g. choke packets	237
+H04L  47/263	・・・	フィードバックを受信した後のソースにおけるレート修正［２０２２．０１］	Rate modification at the source after receiving feedback	330
+H04L  47/265	・・・	ネットワークの中間ノードにより伝送されるもの［２０２２．０１］	sent by intermediate network nodes	323
+H04L  47/267	・・・	宛先のエンドポイントにより伝送されるもの（宛先によって送信元が制御されるメディアパケットのネットワークストリーミングＨ０４Ｌ６５／６１３）［２０２２．０１］	sent by the destination endpoint(network streaming of media packets with control of the source by the destination H04L65/613)	253
+H04L  47/27	・・	ウィンドウサイズの評価または更新，例．肯定応答された［ＡＣＫ］パケットから得られる情報を使用するもの［２０２２．０１］	Evaluation or update of window size, e.g. using information derived from acknowledged [ACK] packets	1447
+H04L  47/28	・・	タイミングの考慮に関するもの［２０２２．０１］	in relation to timing considerations	590
+H04L  47/283	・・・	処理の遅れに対応するもの，例．ジッタまたはラウンドトリップ時間［ＲＴＴ］により引き起こされるもの［２０２２．０１］	in response to processing delays, e.g. caused by jitter or round trip time [RTT]	693
+H04L  47/30	・・	エンドノードまたは中継ノードにおけるバッファ占有率に関する情報と組み合わせるもの［２０２２．０１］	in combination with information about buffer occupancy at either end or at transit nodes	1631
+H04L  47/31	・・	パケットのタグ付けによるもの，例．廃棄適格性［ＤＥ］ビットを使用するもの［２０２２．０１］	by tagging of packets, e.g. using discard eligibility [DE] bits	1086
+H04L  47/32	・・	データ単位の破棄または遅延によるもの，例．パケットまたはフレーム［２０２２．０１］	by discarding or delaying data units, e.g. packets or frames	3616
+H04L  47/33	・・	転送通知によるもの［２０２２．０１］	using forward notification	121
+H04L  47/34	・・	順序の完全性を保証するもの，例．シーケンス番号を使用するもの［２０２２．０１］	ensuring sequence integrity, e.g. using sequence numbers	611
+H04L  47/35	・・	通常のパケットにフロー制御情報を組み込むことによるもの，例．データのピギーバック転送［２０２２．０１］	by embedding flow control information in regular packets, e.g. piggybacking	80
+H04L  47/36	・・	パケットサイズの決定によるもの，例．最大転送単位［ＭＴＵ］［２０２２．０１］	by determining packet size, e.g. maximum transfer unit [MTU]	1363
+H04L  47/38	・・	符号化または圧縮率を適合させることによるもの［２０２２．０１］	by adapting coding or compression rate	168
+H04L  47/40	・・	スプリット接続によるもの［２０２２．０１］	using split connections	172
+H04L  47/41	・・	集約されたフローまたはリンクに作用するもの［２０２２．０１］	by acting on aggregated flows or links	1262
+H04L  47/43	・・	パケットの組み立てまたは分解，例．セグメンテーション及びリアセンブリ［ＳＡＲ］［２０２２．０１］	Assembling or disassembling of packets, e.g. segmentation and reassembly [SAR]	4557
+H04L  47/431	・・・	パディングまたはパディング除去を使用するもの［２０２２．０１］	using padding or de-padding	221
+H04L  47/50	・	キューのスケジューリング［２０２２．０１］	Queue scheduling	928
+H04L  47/52	・・	キューに帯域幅を割り当てることによるもの［２０２２．０１］	by attributing bandwidth to queues	1238
+H04L  47/525	・・・	残余帯域幅の再分配によるもの［２０２２．０１］	by redistribution of residual bandwidth	336
+H04L  47/56	・・	遅延を考慮したスケジューリングを実装するもの［２０２２．０１］	implementing delay-aware scheduling	1516
+H04L  47/60	・・	階層型スケジューリングを実装するもの［２０２２．０１］	implementing hierarchical scheduling	47
+H04L  47/62	・・	スケジューリングの基準に特徴があるもの［２０２２．０１］	characterised by scheduling criteria	928
+H04L  47/625	・・・	サービススロットまたはサービス順序に関するもの［２０２２．０１］	for service slots or service orders	425
+H04L  47/6275	・・・・	優先順位に基づくもの［２０２２．０１］	based on priority	3186
+H04L  47/628	・・・・	パケットサイズに基づくもの，例．パケット長が最短のものを最初に追い出すもの［２０２２．０１］	based on packet size, e.g. shortest packet first	53
+H04L  47/629	・・・	リソースの公平な分配を保証するもの，例．重み付き公平キューイング［ＷＦＱ］［２０２２．０１］	Ensuring fair share of resources, e.g. weighted fair queuing [WFQ]	222
+H04L  47/6295	・・・	個々のＱｏＳ，接続，フローまたは優先度ごとに１つずつ，複数のキューを使用するもの［２０２２．０１］	using multiple queues, one for each individual QoS, connection, flow or priority	239
+H04L  47/70	・	アドミッション制御；リソースの割り当て［２０２２．０１］	Admission control; Resource allocation	1829
+H04L  47/72	・・	接続設定中に予約するもの［２０２２．０１］	using reservation actions during connection setup	216
+H04L  47/722	・・・	宛先のエンドポイントで，例．端末リソースまたはバッファスペースの予約［２０２２．０１］	at the destination endpoint, e.g. reservation of terminal resources or buffer space	241
+H04L  47/724	・・・	中間ノードで，例．リソース予約プロトコル［ＲＳＶＰ］［２０２２．０１］	at intermediate nodes, e.g. resource reservation protocol [RSVP]	806
+H04L  47/726	・・・	同時に使用できるよう複数パスでリソースを予約するもの（通信負荷のバランスをとるものＨ０４Ｌ４７／１２５）［２０２２．０１］	Reserving resources in multiple paths to be used simultaneously(by balancing the load H04L47/125)	78
+H04L  47/74	・・	リソースが利用できない場合に対する手段に関するもの［２０２２．０１］	measures in reaction to resource unavailability	184
+H04L  47/76	・・	動的にリソースを割り当てるもの，例．ユーザの要求またはネットワークの状態変化に応じたネットワークの要求による通信中の再ネゴシエーション［２０２２．０１］	using dynamic resource allocation, e.g. in-call renegotiation requested by the user or requested by the network in response to changing network conditions	1706
+H04L  47/762	・・・	ネットワークが引き起こすもの［２０２２．０１］	triggered by the network	1007
+H04L  47/765	・・・	エンドポイントが引き起こすもの［２０２２．０１］	triggered by the end-points	425
+H04L  47/78	・・	リソース割り当てのアーキテクチャ［２０２２．０１］	Architectures of resource allocation	617
+H04L  47/783	・・・	リソースの分散割り当て，例．帯域幅ブローカ［２０２２．０１］	Distributed allocation of resources, e.g. bandwidth brokers	419
+H04L  47/785	・・・・	複数のネットワークドメイン間の，例．ドメイン間の合意［２０２２．０１］	among multiple network domains, e.g. multilateral agreements	28
+H04L  47/80	・・	ユーザプロファイルまたはトラフィックのタイプに関するアクション［２０２２．０１］	Actions related to the user profile or the type of traffic	4503
+H04L  47/83	・・	利用予測に基づくもの［２０２２．０１］	based on usage prediction	193
+H04L  49/00		パケット交換要素［２０２２．０１］	Packet switching elements	1317
+H04L  49/10	・	スイッチングファブリックの構造に特徴があるもの［２０２２．０１］	characterised by the switching fabric construction	1257
+H04L  49/101	・・	クロスバーまたはマトリクスを使用するもの［２０２２．０１］	using crossbar or matrix	100
+H04L  49/102	・・	共有メディアを使用するもの，例．バス型またはリング型［２０２２．０１］	using shared medium, e.g. bus or ring	96
+H04L  49/103	・・	共有される中央バッファを使用するもの；共有メモリを使用するもの［２０２２．０１］	using a shared central buffer; using a shared memory	100
+H04L  49/104	・・	非同期転送モード［ＡＴＭ］スイッチングファブリック［２０２２．０１］	Asynchronous transfer mode [ATM] switching fabrics	13
+H04L  49/109	・・	マイクロチップ上に集積されるもの，例．スイッチオンチップ［２０２２．０１］	Integrated on microchip, e.g. switch-on-chip	380
+H04L  49/111	・・	スイッチインターフェース，例．ポートの細部［２０２２．０１］	Switch interfaces, e.g. port details	4426
+H04L  49/112	・・	スイッチ制御，例．アービトレーション［２０２２．０１］	Switch control, e.g. arbitration	98
+H04L  49/113	・・	冗長なスイッチングのための配置，例．並列プレーンを使用するもの［２０２２．０１］	Arrangements for redundant switching, e.g. using parallel planes	67
+H04L  49/115	・・・	各プレーンからパケットの全体またはセルの全体を転送するもの［２０２２．０１］	Transferring a complete packet or cell through each plane	36
+H04L  49/116	・・・	各プレーンからパケットの一部を転送するもの，例．ビットスライス［２０２２．０１］	Transferring a part of the packet through each plane, e.g. by bit-slicing	21
+H04L  49/118	・・・	装置内部のアドレス処理，例．スイッチ内のルーティングのために内部ＩＤまたはタグを使用するもの［２０２２．０１］	Address processing within a device, e.g. using internal ID or tags for routing within a switch	32
+H04L  49/15	・	スイッチングモジュールの相互接続［２０２２．０１］	Interconnection of switching modules	562
+H04L  49/1515	・・	ノンブロッキングで多段のもの，例．Ｃｌｏｓ［２０２２．０１］	Non-blocking multistage, e.g. Clos	78
+H04L  49/1546	・・・	パイプライン処理によるもの［２０２２．０１］	using pipelined operation	27
+H04L  49/20	・	サービス支援［２０２２．０１］	Support for services	384
+H04L  49/201	・・	マルチキャスト動作；ブロードキャスト動作［２０２２．０１］	Multicast operation; Broadcast operation	298
+H04L  49/25	・	スイッチファブリックにおけるルーティングまたはパス探索［２０２２．０１］	Routing or path finding in a switch fabric	845
+H04L  49/253	・・	ポート間の接続確立または開放によるもの［２０２２．０１］	using establishment or release of connections between ports	259
+H04L  49/35	・	特定のアプリケーションに特に適したスイッチ［２０２２．０１］	Switches specially adapted for specific applications	217
+H04L  49/351	・・	ローカルエリアネットワーク［ＬＡＮ］のためのもの，例．イーサネットスイッチ［２０２２．０１］	for local area network [LAN], e.g. Ethernet switches	405
+H04L  49/354	・・	仮想ローカルエリアネットワーク［ＶＬＡＮ］を支援するためのもの［２０２２．０１］	for supporting virtual local area networks [VLAN]	393
+H04L  49/356	・・	ストレージエリアネットワークのためのもの［２０２２．０１］	for storage area networks	148
+H04L  49/40	・	構造上の細部，例．電源，機械的な構造またはバックプレーン［２０２２．０１］	Constructional details, e.g. power supply, mechanical construction or backplane	1706
+H04L  49/45	・	拡張機能を提供または支援するための配置［２０２２．０１］	Arrangements for providing or supporting expansion	68
+H04L  49/50	・	単一スイッチング要素内の過負荷検出または保護［２０２２．０１］	Overload detection or protection within a single switching element	98
+H04L  49/505	・・	修正手段［２０２２．０１］	Corrective measures	12
+H04L  49/506	・・・	バックプレッシャ［２０２２．０１］	Backpressure	26
+H04L  49/55	・	エラーの防止，検出または修正［２０２２．０１］	Prevention, detection or correction of errors	377
+H04L  49/552	・・	冗長接続を介して受け取ったパケットの完全性の保証によるもの［２０２２．０１］	by ensuring the integrity of packets received through redundant connections	153
+H04L  49/60	・	ソフトウェア定義スイッチ［２０２２．０１］	Software-defined switches	254
+H04L  49/65	・	高速パケットスイッチの再構成［２０２２．０１］	Re-configuration of fast packet switches	65
+H04L  49/90	・	バッファの配置［２０２２．０１］	Buffering arrangements	1342
+H04L  49/9005	・・	バッファスペースの動的な割り当てによるもの［２０２２．０１］	using dynamic buffer space allocation	223
+H04L  49/901	・・	ストレージディスクリプタを使用するもの，例．読取りまたは書込みポインタ［２０２２．０１］	using storage descriptor, e.g. read or write pointers	961
+H04L  49/9015	・・	リンクされたリストを支援するためのもの［２０２２．０１］	for supporting a linked list	457
+H04L  49/9023	・・	ジッタバッファを実装するためのもの［２０２２．０１］	for implementing a jitter-buffer	715
+H04L  49/9047	・・	多重バッファを含むもの，例．バッファプール［２０２２．０１］	including multiple buffers, e.g. buffer pools	145
+H04L  49/9057	・・	パケットの再組み立てまたはパケットへのシーケンス番号の再付与を支援するための配置［２０２２．０１］	Arrangements for supporting packet reassembly or resequencing	652
+H04L  51/00		ストアアンドフォワード転送またはリアルタイム転送プロトコルによる，パケット交換ネットワーク内のユーザ間のメッセージ転送，例．電子メール［２０２２．０１］	User-to-user messaging in packet-switching networks, transmitted according to store-and-forward or real-time protocols, e.g. e-mail	1506
+H04L  51/02	・	自動応答またはユーザからの委任を使用するもの，例．自動応答またはチャットボットが生成したメッセージ［２０２２．０１］	using automatic reactions or user delegation, e.g. automatic replies or chatbot-generated messages	1825
+H04L  51/04	・	リアルタイムまたはリアルタイムに近いメッセージ転送，例．インスタントメッセージ［ＩＭ］［２０２２．０１］	Real-time or near real-time messaging, e.g. instant messaging [IM]	3279
+H04L  51/043	・・	プレゼンス情報を利用または処理するもの［２０２２．０１］	using or handling presence information	690
+H04L  51/046	・・	他のネットワークアプリケーションまたはサービスとの相互運用が可能なもの［２０２２．０１］	Interoperability with other network applications or services	2481
+H04L  51/06	・	端末またはネットワークの要求事項にメッセージを適応させるもの［２０２２．０１］	Message adaptation to terminal or network requirements	244
+H04L  51/063	・・	コンテンツの適応，例．適応していないコンテンツの置換［２０２２．０１］	Content adaptation, e.g. replacement of unsuitable content	268
+H04L  51/066	・・	フォーマットの適応，例．フォーマットの変換または圧縮［２０２２．０１］	Format adaptation, e.g. format conversion or compression	316
+H04L  51/07	・	特定のコンテンツを含んでいることに特徴があるもの［２０２２．０１］	characterised by the inclusion of specific contents	195
+H04L  51/08	・・	付属情報，例．添付ファイル［２０２２．０１］	Annexed information, e.g. attachments	566
+H04L  51/10	・・	マルチメディア情報［２０２２．０１］	Multimedia information	1527
+H04L  51/18	・・	コマンドまたは実行形式のコード［２０２２．０１］	Commands or executable codes	1019
+H04L  51/21	・	メッセージの監視または処理［２０２２．０１］	Monitoring or handling of messages	587
+H04L  51/212	・・	フィルタリングまたは選択的なブロッキングを使用するもの［２０２２．０１］	using filtering or selective blocking	893
+H04L  51/214	・・	選択的な転送を使用するもの［２０２２．０１］	using selective forwarding	960
+H04L  51/216	・・	会話履歴を処理するもの，例．セッションまたはスレッド中のメッセージのグループ化［２０２２．０１］	Handling conversation history, e.g. grouping of messages in sessions or threads	905
+H04L  51/222	・・	地理的な位置情報を使用するもの，例．ある地点または地区の近くで送信または受信されたメッセージ［２０２２．０１］	using geographical location information, e.g. messages transmitted or received in proximity of a certain spot or area	459
+H04L  51/224	・・	受信メッセージに関して通知するもの，例．受信メッセージのプッシュ通知［２０２２．０１］	providing notification on incoming messages, e.g. pushed notifications of received messages	954
+H04L  51/226	・・	優先順位に従った転送［２０２２．０１］	Delivery according to priorities	263
+H04L  51/23	・・	信頼性の確認，例．送達承認または障害の報告［２０２２．０１］	Reliability checks, e.g. acknowledgments or fault reporting	244
+H04L  51/234	・・	メッセージを追跡するためのもの［２０２２．０１］	for tracking messages	303
+H04L  51/42	・	メールボックスに関するもの，例．メールボックスの同期化［２０２２．０１］	Mailbox-related aspects, e.g. synchronisation of mailboxes	1446
+H04L  51/48	・	メッセージのアドレッシング，例．アドレスのフォーマットまたは匿名のメッセージ，別名［２０２２．０１］	Message addressing, e.g. address format or anonymous messages, aliases	268
+H04L  51/52	・	ソーシャルネットワーキングサービスを支援するためのもの［２０２２．０１］	for supporting social networking services	2429
+H04L  51/56	・	ユニファイドメッセージング，例．電子メール，インスタントメッセージまたはコンバージドＩＰメッセージング［ＣＰＭ］間の連携［２０２２．０１］	Unified messaging, e.g. interactions between e-mail, instant messaging or converged IP messaging [CPM]	412
+H04L  51/58	・	無線通信へのメッセージの適合［２０２２．０１］	Message adaptation for wireless communication	304
+H04L  61/00		アドレッシングまたはネーミングのためのネットワーク配置，プロトコルまたはサービス［２０２２．０１］	Network arrangements, protocols or services for addressing or naming	766
+H04L  61/09	・	アドレスのマッピング［２０２２．０１］	Mapping addresses	67
+H04L  61/10	・・	異なるタイプ［２０２２．０１］	of different types	412
+H04L  61/103	・・・	ネットワーク層間，例．ネットワーク層アドレスから物理層アドレスへ解決するものまたはアドレス解決プロトコル［ＡＲＰ］［２０２２．０１］	across network layers, e.g. resolution of network layer into physical layer addresses or address resolution protocol [ARP]	1230
+H04L  61/106	・・・	ネットワーク間，例．電話番号をデータネットワークアドレスにマッピングするもの［２０２２．０１］	across networks, e.g. mapping telephone numbers to data network addresses	88
+H04L  61/25	・・	同じタイプ［２０２２．０１］	of the same type	192
+H04L  61/2503	・・・	インターネットプロトコル［ＩＰ］アドレスの変換［２０２２．０１］	Translation of Internet protocol [IP] addresses	759
+H04L  61/251	・・・・	異なるＩＰバージョン間［２０２２．０１］	between different IP versions	219
+H04L  61/2514	・・・・	ローカルＩＰアドレスとグローパルＩＰアドレスの間［２０２２．０１］	between local and global IP addresses	323
+H04L  61/2517	・・・・	ポート番号を使用するもの［２０２２．０１］	using port numbers	239
+H04L  61/2521	・・・・	単独のＮＡＴサーバ以外の変換アーキテクチャ［２０２２．０１］	Translation architectures other than single NAT servers	201
+H04L  61/2539	・・・・	アドレスを隠すもの；アドレスを匿名の状態に維持するもの［２０２２．０１］	Hiding addresses; Keeping addresses anonymous	50
+H04L  61/2546	・・・・	不必要な変換を回避するための配置［２０２２．０１］	Arrangements for avoiding unnecessary translation	17
+H04L  61/255	・・・・	マッピングテーブルの保守またはインデキシング［２０２２．０１］	Maintenance or indexing of mapping tables	248
+H04L  61/2553	・・・・・	更新に関する観点を拘束するもの，例．キープアライブメッセージを使用するもの［２０２２．０１］	Binding renewal aspects, e.g. using keep-alive messages	91
+H04L  61/2557	・・・・	ポリシまたはルールの変換［２０２２．０１］	Translation policies or rules	127
+H04L  61/256	・・・・	ＮＡＴ越え［２０２２．０１］	NAT traversal	429
+H04L  61/2567	・・・・・	到達可能性に関するもの，例．ＮＡＴサーバの背後の通信相手のアドレスを問い合わせるもの［２０２２．０１］	for reachability, e.g. inquiring the address of a correspondent behind a NAT server	42
+H04L  61/2575	・・・・・	アドレスマッピング検索を使用するもの，例．ＮＡＴ用セッショントラバーサルユーティリティ［ＳＴＵＮ］によるユーザデータグラムプロトコルのシンプルなＮＡＴ越え［２０２２．０１］	using address mapping retrieval, e.g. simple traversal of user datagram protocol through session traversal utilities for NAT [STUN]	82
+H04L  61/2578	・・・・・	ＮＡＴサーバが関与しないもの［２０２２．０１］	without involvement of the NAT server	8
+H04L  61/2582	・・・・・	ＮＡＴサーバの制御によるもの，例．ユニバーサルプラグアンドプレイ［ＵＰｎＰ］を使用するもの［２０２２．０１］	through control of the NAT server, e.g. using universal plug and play [UPnP]	9
+H04L  61/2585	・・・・・	アプリケーションレベルゲートウェイ［ＡＬＧ］によるもの［２０２２．０１］	through application level gateway [ALG]	16
+H04L  61/2589	・・・・・	中継サーバを介するもの，例．ネットワークアドレス変換に中継を使用したＮＡＴ越え［ＴＵＲＮ］［２０２２．０１］	over a relay server, e.g. traversal using relay for network address translation [TURN]	49
+H04L  61/2592	・・・・	トンネリングまたはカプセル化を使用するもの［２０２２．０１］	using tunnelling or encapsulation	346
+H04L  61/2596	・・・	ＩＰアドレス以外の同じタイプのアドレスの変換，例．ＭＡＣアドレスからＭＡＣアドレスへの変換［２０２２．０１］	Translation of addresses of the same type other than IP, e.g. translation from MAC to MAC addresses	116
+H04L  61/30	・	ネットワーク名の管理，例．別名またはニックネームの使用（名前からアドレスへのマッピングＨ０４Ｌ６１／４５）［２０２２．０１］	Managing network names, e.g. use of aliases or nicknames(name-to-address mapping H04L61/45)	281
+H04L  61/301	・・	名前の変換［２０２２．０１］	Name conversion	45
+H04L  61/3015	・・	名前の登録，生成または割り当て［２０２２．０１］	Name registration, generation or assignment	569
+H04L  61/45	・	ネットワークディレクトリ；名前からアドレスへのマッピング［２０２２．０１］	Network directories; Name-to-address mapping	390
+H04L  61/4505	・・	標準化されたディレクトリを使用するもの；標準化されたディレクトリアクセスプロトコルを使用するもの［２０２２．０１］	using standardised directories; using standardised directory access protocols	36
+H04L  61/4511	・・・	ドメインネームシステム［ＤＮＳ］を使用するもの［２０２２．０１］	using domain name system [DNS]	4398
+H04L  61/4517	・・・	開放型システム間相互接続［ＯＳＩ］ディレクトリを使用するもの，例．Ｘ．５００［２０２２．０１］	using open systems interconnection [OSI] directories, e.g. X.500	4
+H04L  61/4523	・・・	ライトウェイトディレクトリアクセスプロトコル［ＬＤＡＰ］を使用するもの［２０２２．０１］	using lightweight directory access protocol [LDAP]	30
+H04L  61/4535	・・	２つのノード間のセッションを確立するアドレス交換プラットフォームを使用するもの，例．ランデブーサーバ，セッション開始プロトコル［ＳＩＰ］のレジストラまたはＨ．３２３ゲートキーパ［２０２２．０１］	using an address exchange platform which sets up a session between two nodes, e.g. rendezvous servers, session initiation protocols [SIP] registrars or H.323 gatekeepers	69
+H04L  61/4541	・・	サービス発見のためのディレクトリ［２０２２．０１］	Directories for service discovery	137
+H04L  61/4552	・・	複数のディレクトリ間のルックアップメカニズム；ディレクトリ間の同期，例．メタディレクトリ［２０２２．０１］	Lookup mechanisms between a plurality of directories; Synchronisation of directories, e.g. metadirectories	174
+H04L  61/4557	・・	ハイブリッド型ネットワークのためのディレクトリ，例．電話番号を含むもの［２０２２．０１］	Directories for hybrid networks, e.g. including telephone numbers	40
+H04L  61/4588	・・	移動通信装置の加入者情報を含むもの，例．ホームサブスクライバサーバ［ＨＳＳ］［２０２２．０１］	containing mobile subscriber information, e.g. home subscriber server [HSS]	60
+H04L  61/4594	・・	アドレス帳，すなわち通信相手の連絡先を含むディレクトリ（ユーザ端末の電話帳Ｈ０４Ｍ１／２７４５３）［２０２２．０１］	Address books, i.e. directories containing contact information about correspondents(telephone directories in user terminals H04M1/27453)	106
+H04L  61/50	・	アドレスの割り当て［２０２２．０１］	Address allocation	728
+H04L  61/5007	・・	インターネットプロトコル［ＩＰ］アドレス［２０２２．０１］	Internet protocol [IP] addresses	2890
+H04L  61/5014	・・・	ダイナミックホストコンフィギュレーションプロトコル［ＤＨＣＰ］またはブートストラッププロトコル［ＢＯＯＴＰ］を使用するもの［２０２２．０１］	using dynamic host configuration protocol [DHCP] or bootstrap protocol [BOOTP]	1232
+H04L  61/503	・・・	認証，許可および課金［ＡＡＡ］プロトコルを使用するもの，例．リモート認証ダイヤルインユーザサービス［ＲＡＤＩＵＳ］またはダイアメータ［２０２２．０１］	using an authentication, authorisation and accounting [AAA] protocol, e.g. remote authentication dial-in user service [RADIUS] or Diameter	57
+H04L  61/5038	・・	ローカルで使用するためのもの，例．ＬＡＮ，ＵＳＢネットワークまたはコントローラエリアネットワーク［ＣＡＮ］［２０２２．０１］	for local use, e.g. in LAN or USB networks, or in a controller area network [CAN]	579
+H04L  61/5046	・・	アドレス割り当ての衝突を解決するもの；アドレスを試験するもの（アドレスを自己割り当てする際に試験するものＨ０４Ｌ６１／５０９２）［２０２２．０１］	Resolving address allocation conflicts; Testing of addresses(testing when self-assigning an address H04L61/5092)	668
+H04L  61/5053	・・	リース時間；リースの更新に関する観点［２０２２．０１］	Lease time; Renewal aspects	373
+H04L  61/5061	・・	アドレスプール［２０２２．０１］	Pools of addresses	397
+H04L  61/5069	・・	グループ通信，マルチキャスト通信またはブロードキャスト通信のためのもの［２０２２．０１］	for group communication, multicast communication or broadcast communication	299
+H04L  61/5076	・・	更新または通知メカニズム，例．ＤｙｎＤＮＳ［２０２２．０１］	Update or notification mechanisms, e.g. DynDNS	254
+H04L  61/5084	・・	装置の移動性を提供するもの（無線ネットワークにおけるモビリティサポートのためのネットワークアドレッシングまたはナンバリングＨ０４Ｗ８／２６；モバイルＩＰ　Ｈ０４Ｗ８０／０４）［２０２２．０１］	Providing for device mobility(network addressing or numbering for mobility support in wireless networks H04W8/26; mobile IP H04W80/04)	64
+H04L  61/5092	・・	アドレスを自己割り当てするもの，例．無作為にアドレスを選択し，そのアドレスが既に使用されていないか試験するもの［２０２２．０１］	by self-assignment, e.g. picking addresses at random and testing if they are already in use	219
+H04L  61/58	・	アドレスまたは名前のキャッシング［２０２２．０１］	Caching of addresses or names	156
+H04L  61/59	・	アドレッシングのためにプロキシを使用するもの［２０２２．０１］	using proxies for addressing	146
+H04L  65/00		データパケット通信におけるリアルタイムアプリケーションを支援するためのネットワーク配置，プロトコルまたはサービス（リアルタイムまたはリアルタイムに近いメッセージ転送，例．インスタントメッセージ［ＩＭ］Ｈ０４Ｌ５１／０４；選択的な動画配信Ｈ０４Ｎ２１／００）［２０２２．０１］	Network arrangements, protocols or services for supporting real-time applications in data packet communication(real-time or near real-time messaging, e.g. instant messaging [IM] H04L51/04; selective video distribution H04N21/00)	440
+H04L  65/10	・	アーキテクチャまたはエンティティ［２０２２．０１］	Architectures or entities	475
+H04L  65/1016	・・	ＩＰマルチメディアサブシステム［ＩＭＳ］［２０２２．０１］	IP multimedia subsystem [IMS]	1285
+H04L  65/102	・・	ゲートウェイ（異なる形式の交換方式を有するネットワーク間の接続のための配置，例．ゲートウェイＨ０４Ｌ１２／６６）［２０２２．０１］	Gateways(arrangements for connecting between networks having differing types of switching systems, e.g. gateways, H04L12/66)	219
+H04L  65/1023	・・・	メディアゲートウェイ［２０２２．０１］	Media gateways	130
+H04L  65/1033	・・・	シグナリングゲートウェイ［２０２２．０１］	Signalling gateways	122
+H04L  65/1043	・・・	ゲートウェイコントローラ，例．メディアゲートウェイ制御プロトコル［ＭＧＣＰ］コントローラ［２０２２．０１］	Gateway controllers, e.g. media gateway control protocol [MGCP] controllers	11
+H04L  65/1045	・・	プロキシ，例．セッション開始プロトコル［ＳＩＰ］のためのもの［２０２２．０１］	Proxies, e.g. for session initiation protocol [SIP]	318
+H04L  65/1046	・・	呼コントローラ；呼サーバ［２０２２．０１］	Call controllers; Call servers	194
+H04L  65/1053	・・	ＩＰ構内交換機［ＰＢＸ］の機能エンティティまたは配置（回線交換のＰＢＸ　Ｈ０４Ｍ３／００）［２０２２．０１］	IP private branch exchange [PBX] functionality entities or arrangements(circuit switched PBXs H04M3/00)	73
+H04L  65/1055	・・・	シングルサイト［２０２２．０１］	Single-site	
+H04L  65/1056	・・・	マルチサイト［２０２２．０１］	Multi-site	9
+H04L  65/1059	・・	リアルタイム通信に特に適したエンドユーザ端末機能［２０２２．０１］	End-user terminal functionalities specially adapted for real-time communication	224
+H04L  65/1063	・・	ネットワークサービスを提供するアプリケーションサーバ（電話加入者に特別なサービスを提供するシステムＨ０４Ｍ３／４２）［２０２２．０１］	Application servers providing network services(systems providing special services to telephonic subscribers H04M3/42)	269
+H04L  65/1066	・	セッション管理［２０２２．０１］	Session management	787
+H04L  65/1069	・・	セッションの確立または解除［２０２２．０１］	Session establishment or de-establishment	2195
+H04L  65/1073	・・	登録または登録抹消［２０２２．０１］	Registration or de-registration	902
+H04L  65/1076	・・	ＩＰリアルタイム通信のスクリーニング，例．ＩＰ電話のスパム［ＳＰＩＴ］［２０２２．０１］	Screening of IP real time communications, e.g. spam over Internet telephony [SPIT]	128
+H04L  65/1083	・・	セッション中の手続き［２０２２．０１］	In-session procedures	552
+H04L  65/1089	・・・	メディアの追加によるもの；メディアの削除によるもの［２０２２．０１］	by adding media; by removing media	292
+H04L  65/1093	・・・	参加者の追加によるもの；参加者の削除によるもの［２０２２．０１］	by adding participants; by removing participants	288
+H04L  65/1094	・・・	ユーザ装置間のセッションの転送または共有［２０２２．０１］	Inter-user-equipment sessions transfer or sharing	103
+H04L  65/1095	・・・	ネットワーク間のセッションの転送または共有［２０２２．０１］	Inter-network session transfer or sharing	74
+H04L  65/1096	・・	補助機能，例．着信転送または通話保留（電話加入者に特別なサービスまたは機能を提供するシステムＨ０４Ｍ３／４２）［２０２２．０１］	Supplementary features, e.g. call forwarding or call holding(systems providing special services or facilities to telephony subscribers H04M3/42)	263
+H04L  65/1101	・・	セッションプロトコル［２０２２．０１］	Session protocols	246
+H04L  65/1104	・・・	セッション開始プロトコル［ＳＩＰ］［２０２２．０１］	Session initiation protocol [SIP]	1221
+H04L  65/1106	・・・	呼シグナリングプロトコル；Ｈ．３２３等［２０２２．０１］	Call signalling protocols; H.323 and related	43
+H04L  65/1108	・・・	ウェブベースプロトコル，例．ｗｅｂＲＴＣ［２０２２．０１］	Web based protocols, e.g. webRTC	327
+H04L  65/40	・	サービスまたはアプリケーションの支援［２０２２．０１］	Support for services or applications	3825
+H04L  65/401	・・	メインのリアルタイムセッションと，１または複数の追加的な並列のリアルタイムセッションまたは時間依存セッションに関係するサービスにおけるもの，例．ホワイトボード共有またはサブ会議の生成［２０２２．０１］	wherein the services involve a main real-time session and one or more additional parallel real-time or time sensitive sessions, e.g. white board sharing or spawning of a subconference	612
+H04L  65/402	・・	メインのリアルタイムセッションと，１または複数の追加的な並列の非リアルタイムセッションに関係するサービスにおけるもの，例．並列のＦＴＰセッションによりファイルをダウンロードするもの，電子メールまたは組み合わせサービスの開始［２０２２．０１］	wherein the services involve a main real-time session and one or more additional parallel non-real time sessions, e.g. downloading a file in a parallel FTP session, initiating an email or combinational services	88
+H04L  65/403	・・	マルチパーティ通信のための配置，例．会議（会議のためのデータ交換システムＨ０４Ｌ１２／１８；複数の加入者を共通回線に接続するための配置，すなわち会議設備を提供するものＨ０４Ｍ３／５６；テレビ会議システムＨ０４Ｎ７／１５）［２０２２．０１］	Arrangements for multi-party communication, e.g. for conferences (data switching systems for conference H04L12/18;  arrangements for connecting several subscribers to a common circuit, i.e. affording conference facilities H04M3/56;  television conferencing systems H04N7/15)	2471
+H04L  65/4038	・・・	発言権を制御するもの［２０２２．０１］	with floor control	189
+H04L  65/4053	・・・	発言権を制御しないもの［２０２２．０１］	without floor control	50
+H04L  65/4061	・・	プッシュツーサービス，例．プッシュツートークまたはプッシュツービデオ［２０２２．０１］	Push-to services, e.g. push-to-talk or push-to-video	164
+H04L  65/60	・	メディアパケットのネットワークストリーミング［２０２２．０１］	Network streaming of media packets	2709
+H04L  65/61	・・	一方向のストリーミングサービスを支援するためのもの，例．インターネットラジオ［２０２２．０１］	for supporting one-way streaming services, e.g. Internet radio	757
+H04L  65/611	・・・	マルチキャストまたはブロードキャストのためのもの（放送または放送と協働する配信のための配置Ｈ０４Ｈ２０／００；放送の応用のための配置であってその応用が放送情報または放送時空に直接結合するものＨ０４Ｈ６０／００；放送または会議のためのシステムＨ０４Ｌ１２／１８；ブロードキャストサービスの選択的配信，例．マルチメディアブロードキャストマルチキャストサービス［ＭＢＭＳ］Ｈ０４Ｗ４／０６［２０２２．０１］	for multicast or broadcast (arrangements for broadcast or distribution combined with broadcast H04H20/00;  arrangements for broadcast applications with a direct linkage to broadcast information or to broadcast space-time H04H60/00;  systems for broadcast or conference H04L12/18; selective distribution of broadcast services, e.g. multimedia broadcast multicast service [MBMS], H04W4/06)	790
+H04L  65/612	・・・	ユニキャストのためのもの［２０２２．０１］	for unicast	870
+H04L  65/613	・・・	宛先による送信元の制御のためのもの（クライアントからサーバまたはネットワーク構成要素に対して発行される制御信号で，選択的なコンテンツ配信に特に適したものＨ０４Ｎ２１／６３７）［２０２２．０１］	for the control of the source by the destination(control signals issued by the client directed to the server or network components specially adapted for selective content distribution H04N21/637)	254
+H04L  65/65	・・	ネットワークストリーミングプロトコル，例．リアルタイムトランスポートプロトコル［ＲＴＰ］またはリアルタイム制御プロトコル［ＲＴＣＰ］［２０２２．０１］	Network streaming protocols, e.g. real-time transport protocol [RTP] or real-time control protocol [RTCP]	1838
+H04L  65/70	・・	メディアネットワークのパケット化［２０２２．０１］	Media network packetisation	700
+H04L  65/75	・・	メディアネットワークのパケット処理［２０２２．０１］	Media network packet handling	1535
+H04L  65/752	・・・	メディアをネットワークの能力に適応させるもの［２０２２．０１］	adapting media to network capabilities	256
+H04L  65/756	・・・	メディアを装置の能力に適応させるもの［２０２２．０１］	adapting media to device capabilities	116
+H04L  65/80	・	ＱｏＳに対応するもの［２０２２．０１］	Responding to QoS	2692
+H04L  67/00		ネットワークサービスまたはネットワークアプリケーションを支援するためのネットワークの配置またはプロトコル（ユーザ間のメッセージ転送，Ｈ０４Ｌ５１／００；データパケット通信ネットワークにおけるリアルタイムアプリケーションを支援するためのネットワーク配置，プロトコルまたはサービスＨ０４Ｌ６５／００）［２０２２．０１］	Network arrangements or protocols for supporting network services or applications (user-to-user messaging H04L51/00;  network arrangements, protocols or services for supporting real-time applications in data packet communications networks H04L65/00)	5382
+H04L  67/01	・	プロトコル［２０２２．０１］	Protocols	3601
+H04L  67/02	・・	ウェブ技術に基づくもの，例．ハイパーテキスト転送プロトコル［ＨＴＴＰ］［２０２２．０１］	based on web technology, e.g. hypertext transfer protocol [HTTP]	10868
+H04L  67/025	・・・	アプリケーションを遠隔制御または遠隔監視するためのもの［２０２２．０１］	for remote control or remote monitoring of applications	3173
+H04L  67/04	・・	能力が限られた端末またはネットワークに特に適したもの；端末の移動性確保に特に適したもの［２０２２．０１］	specially adapted for terminals or networks with limited capabilities; specially adapted for terminal portability	419
+H04L  67/06	・・	ファイル転送に特に適したもの，例．ファイル転送プロトコル［ＦＴＰ］［２０２２．０１］	specially adapted for file transfer, e.g. file transfer protocol [FTP]	9732
+H04L  67/08	・・	端末エミュレーションに特に適したもの，例．Ｔｅｌｎｅｔ［２０２２．０１］	specially adapted for terminal emulation, e.g. Telnet	827
+H04L  67/10	・・	ネットワークに分散されたノードへのアプリケーションの配付に関するもの（マルチプログラミング配置Ｇ０６Ｆ９／４６；ソフトウェアの配備Ｇ０６Ｆ８／６０）［２０２２．０１］	in which an application is distributed across nodes in the network(multiprogramming arrangements G06F9/46; software deployment G06F8/60)	17035
+H04L  67/1001	・・・	複数の複製サーバのうちの１つにアクセスするためのもの［２０２２．０１］	for accessing one among a plurality of replicated servers	2417
+H04L  67/1004	・・・・	負荷分散のためのサーバの選択［２０２２．０１］	Server selection for load balancing	1513
+H04L  67/1006	・・・・・	サーバの静的選択，例．特定のクライアントに対して同一サーバを選択［２０２２．０１］	with static server selection, e.g. the same server being selected for a specific client	27
+H04L  67/1008	・・・・・	サーバのパラメータに基づくもの，例．利用可能メモリ量または処理負荷量（コンピュータの動作の監視Ｇ０６Ｆ１１／３０）［２０２２．０１］	based on parameters of servers, e.g. available memory or workload(monitoring of computer activity G06F11/30)	2049
+H04L  67/101	・・・・・	ネットワークの状態に基づくもの［２０２２．０１］	based on network conditions	641
+H04L  67/1012	・・・・・	利用可能なサーバリソースに対する要件または状態を遵守することに基づくもの［２０２２．０１］	based on compliance of requirements or conditions with available server resources	423
+H04L  67/1014	・・・・・	リクエストの内容に基づくもの［２０２２．０１］	based on the content of a request	360
+H04L  67/1017	・・・・・	ラウンドロビン方式に基づくもの［２０２２．０１］	based on a round robin mechanism	51
+H04L  67/1019	・・・・・	ランダムまたは試行錯誤によるサーバの選択［２０２２．０１］	Random or heuristic server selection	37
+H04L  67/1021	・・・・・	クライアントまたはサーバの位置に基づくもの［２０２２．０１］	based on client or server locations	407
+H04L  67/1023	・・・・・	ＩＰアドレスまたはコストから生成されるハッシュ値に基づくもの［２０２２．０１］	based on a hash applied to IP addresses or costs	578
+H04L  67/1025	・・・・・	基準を動的に採用し，その基準に基づいてサーバを選択するもの［２０２２．０１］	Dynamic adaptation of the criteria on which the server selection is based	109
+H04L  67/1027	・・・・	負荷分散中にセッションを維持するもの［２０２２．０１］	Persistence of sessions during load balancing	64
+H04L  67/1029	・・・・	ロードバランサがサーバの状態に関連付けられたデータを使用するもの［２０２２．０１］	using data related to the state of servers by a load balancer	450
+H04L  67/1031	・・・・	ロードバランサがサーバに対する操作を制御するもの，例．リクエストを処理するサーバを追加または削除するもの［２０２２．０１］	Controlling of the operation of servers by a load balancer, e.g. adding or removing servers that serve requests	318
+H04L  67/1034	・・・・	ロードバランサがサーバの故障に対応するもの［２０２２．０１］	Reaction to server failures by a load balancer	376
+H04L  67/1036	・・・・	ユーザへのコンテンツの提供以外のサービスを提供するサーバへのリクエストに対して負荷分散を行うもの，例．ドメインネームサーバに対する負荷分散［２０２２．０１］	Load balancing of requests to servers for services different from user content provisioning, e.g. load balancing across domain name servers	160
+H04L  67/1038	・・・・	ロードバランサを介する単一パスを回避するための負荷分散の配置［２０２２．０１］	Load balancing arrangements to avoid a single path through a load balancer	37
+H04L  67/104	・・・	ピアツーピア［Ｐ２Ｐ］ネットワーク［２０２２．０１］	Peer-to-peer [P2P] networks	3734
+H04L  67/1042	・・・・	トポロジ管理メカニズムを使用するもの［２０２２．０１］	using topology management mechanisms	1131
+H04L  67/1061	・・・・	ノードにおけるピア検出メカニズムを使用するもの（複製サーバへの静的アクセスＨ０４Ｌ６７／１００６；サービス発見Ｈ０４Ｌ６７／５１）［２０２２．０１］	using node-based peer discovery mechanisms(static access to replicated servers H04L67/1006; service discovery H04L67/51)	525
+H04L  67/1074	・・・・	データブロック転送メカニズムを支援するもの（ファイル転送Ｈ０４Ｌ６７／０６）［２０２２．０１］	for supporting data block transmission mechanisms(file transfer H04L67/06)	1751
+H04L  67/1087	・・・・	クロスファンクショナルネットワークの観点を使用するもの［２０２２．０１］	using cross-functional networking aspects	340
+H04L  67/1095	・・・	データの複製またはミラーリング，例．ネットワークノード間でデータを同期化するためのスケジューリングまたは転送［２０２２．０１］	Replication or mirroring of data, e.g. scheduling or transport for data synchronisation between network nodes	7898
+H04L  67/1097	・・・	ネットワーク上のデータの分散ストレージに関するもの，例．ネットワークファイルシステム［ＮＦＳ］，ストレージエリアネットワーク［ＳＡＮ］またはネットワークアタッチトストレージ［ＮＡＳ］のための転送の配置［２０２２．０１］	for distributed storage of data in networks, e.g. transport arrangements for network file system [NFS], storage area networks [SAN] or network attached storage [NAS]	10475
+H04L  67/12	・・	専用ネットワーキング環境または特殊目的をもったネットワーキング環境に特に適したもの，例．医療情報ネットワーク，センサネットワーク，車内ネットワークまたは遠隔測定ネットワーク［２０２２．０１］	specially adapted for proprietary or special-purpose networking environments, e.g. medical networks, sensor networks, networks in vehicles or remote metering networks	35473
+H04L  67/125	・・・	ネットワークを介したエンドデバイスのアプリケーションの制御に関するもの［２０２２．０１］	involving control of end-device applications over a network	7589
+H04L  67/131	・・	ゲーム，シミュレーション，バーチャルリアリティのためのプロトコル［２０２２．０１］	Protocols for games, networked simulations or virtual reality	2057
+H04L  67/133	・・	リモートプロシージャコール［ＲＰＣ］のためのプロトコル［２０２２．０１］	Protocols for remote procedure calls [RPC]	1766
+H04L  67/1396	・・	ユーザの行動の監視に特に適したもの［２０２２．０１］	specially adapted for monitoring users&rsquo; activity	791
+H04L  67/14	・	セッション管理（データパケット通信ネットワーク上のリアルタイムアプリケーションＨ０４Ｌ６５／１０６６）［２０２２．０１］	Session management(for real-time applications in data packet communications networks H04L65/1066)	1844
+H04L  67/141	・・	アプリケーションのセッションの確立（データ交換ネットワーク上のアドミッション制御またはリソースの割り当てＨ０４Ｌ４７／７０）［２０２２．０１］	Setup of application sessions(admission control or resource allocation in data switching networks H04L47/70)	7324
+H04L  67/142	・・	ステートレスプロトコルのためのセッションの状態管理；セッション状態のシグナリング；状態遷移；状態の維持メカニズム［２０２２．０１］	Managing session states for stateless protocols; Signalling session states; State transitions; Keeping-state mechanisms	332
+H04L  67/143	・・	セッションの終了または非アクティブ化，例．イベント制御されたセッションの終了［２０２２．０１］	Termination or inactivation of sessions, e.g. event-controlled end of session	559
+H04L  67/145	・・・	セッション終了を回避するもの，例．キープアライブ，ハートビート，非アクティブ化または中断されたセッションの再開メッセージまたはウェイクアップ［２０２２．０１］	avoiding end of session, e.g. keep-alive, heartbeats, resumption message or wake-up for inactive or interrupted session	950
+H04L  67/146	・・	特定のセッションを明確に識別するための目印，例．セッションクッキーまたはＵＲＬエンコード［２０２２．０１］	Markers for unambiguous identification of a particular session, e.g. session cookie or URL-encoding	2177
+H04L  67/147	・・	標準により定義されたプロトコルを拡張するためのシグナリング方法またはメッセージ［２０２２．０１］	Signalling methods or messages providing extensions to protocols defined by standardisation	115
+H04L  67/148	・・	セッションのマイグレーションまたは転送［２０２２．０１］	Migration or transfer of sessions	598
+H04L  67/2866	・	アーキテクチャ；配置［２０２２．０１］	Architectures; Arrangements	365
+H04L  67/2869	・・	通信に特に適した端末［２０２２．０１］	Terminals specially adapted for communication	250
+H04L  67/2871	・・	単一の中間エンティティの実装の細部［２０２２．０１］	Implementation details of single intermediate entities	334
+H04L  67/2876	・・	ネットワークの両側に存在する中間処理エンティティのペア，例．分割プロキシ［２０２２．０１］	Pairs of inter-processing entities at each side of the network, e.g. split proxies	52
+H04L  67/288	・・	分散された中間デバイス，同じレベルの他の中間デバイスと相互作用する中間デバイス［２０２２．０１］	Distributed intermediate devices, i.e. intermediate devices for interaction with other intermediate devices on the same level	183
+H04L  67/2885	・・	階層構造に配置された中間デバイス，例．階層化キャッシュ［２０２２．０１］	Hierarchically arranged intermediate devices, e.g. for hierarchical caching	131
+H04L  67/289	・・	データコンシューマアプリケーションの近くに機能的に位置する中間処理機構，例．データコンシューマアプリケーションと同じマシン，同じ家，同じサブネットワーク上に存在するもの［２０２２．０１］	Intermediate processing functionally located close to the data consumer application, e.g. in same machine, in same home or in same sub-network	354
+H04L  67/2895	・・	データプロバイダアプリケーションの近くに機能的に位置する中間処理機構，例．リバースプロキシ［２０２２．０１］	Intermediate processing functionally located close to the data provider application, e.g. reverse proxies	161
+H04L  67/30	・・	プロファイル［２０２２．０１］	Profiles	2361
+H04L  67/303	・・・	端末プロファイル［２０２２．０１］	Terminal profiles	979
+H04L  67/306	・・・	ユーザプロファイル［２０２２．０１］	User profiles	2905
+H04L  67/50	・	ネットワークサービス［２０２２．０１］	Network services	2648
+H04L  67/51	・・	ネットワークサービスの発見または管理，例．サービスロケーションプロトコル［ＳＬＰ］またはウェブサービス［２０２２．０１］	Discovery or management thereof, e.g. service location protocol [SLP] or web services	5093
+H04L  67/52	・・	ユーザ端末が所在する位置に特に適したもの［２０２２．０１］	specially adapted for the location of the user terminal	4594
+H04L  67/53	・・	サードパーティのサービスプロバイダを使用するもの［２０２２．０１］	using third party service providers	834
+H04L  67/54	・・	プレゼンス管理，例．ユーザのログオン情報または接続状態を受信するための監視または登録［２０２２．０１］	Presence management, e.g. monitoring or registration for receipt of user log-on information, or the connection status of the users	1253
+H04L  67/55	・・	プッシュ型のネットワークサービス［２０２２．０１］	Push-based network services	6276
+H04L  67/56	・・	プロキシサービスのプロビジョニング（データ交換ネットワークにおける蓄積交換方式Ｈ０４Ｌ１２／５４）［２０２２．０１］	Provisioning of proxy services(store-and-forward switching systems in data switching networks H04L12/54)	3031
+H04L  67/561	・・・	アプリケーション機能データまたはアプリケーション制御データを追加するもの，例．メタデータを追加するもの［２０２２．０１］	Adding application-functional data or data for application control, e.g. adding metadata	537
+H04L  67/562	・・・	ネットワークサービスを仲介するプロキシサービス［２０２２．０１］	Brokering proxy services	1280
+H04L  67/563	・・・	データネットワークストリームの宛先をリダイレクションするもの［２０２２．０１］	Data redirection of data network streams	1042
+H04L  67/564	・・・	インターセプトしたアプリケーションデータに基づいて，アプリケーションの制御を強化するもの［２０２２．０１］	Enhancement of application control based on intercepted application data	206
+H04L  67/565	・・・	アプリケーションフォーマットまたはコンテンツの変換または適応（アプリケーション制御データまたはアプリケーション機能データを追加するものＨ０４Ｌ６７／５６１）［２０２２．０１］	Conversion or adaptation of application format or content (adding application control or application functional data H04L67/561)	2244
+H04L  67/5651	・・・・	交換されるアプリケーションデータの量またはサイズを削減するもの［２０２２．０１］	Reducing the amount or size of exchanged application data	538
+H04L  67/566	・・・	サービスリクエストをグループ化または集合化するもの，例．統一的に処理するために［２０２２．０１］	Grouping or aggregating service requests, e.g. for unified processing	1328
+H04L  67/567	・・・	複数のサービスプロバイダが提供するサービスを統合するもの［２０２２．０１］	Integrating service provisioning from a plurality of service providers	275
+H04L  67/568	・・・	中間段階で一時的にデータを保存するもの，例．キャッシュ［２０２２．０１］	Storing data temporarily at an intermediate stage, e.g. caching	3959
+H04L  67/5681	・・・・	ネットワークの特性に基づいてデータを先読みするまたは事前に転送するもの［２０２２．０１］	Pre-fetching or pre-delivering data based on network characteristics	337
+H04L  67/5682	・・・・	保存データを更新，削除，置換するためのポリシまたは規則［２０２２．０１］	Policies or rules for updating, deleting or replacing the stored data	809
+H04L  67/5683	・・・・	ユーザの端末から受け取ったデータを保存するもの，例．リバースキャッシュ［２０２２．０１］	Storage of data provided by user terminals, i.e. reverse caching	239
+H04L  67/59	・・・	ネットワークへのオフロードまたはエミュレーションによりエンドデバイスの運用を支援するもの，例．エンドデバイスが利用不可能である場合に［２０２２．０１］	Providing operational support to end devices by off-loading in the network or by emulation, e.g. when they are unavailable	174
+H04L  67/60	・・	アプリケーションの要求への対応をスケジューリングまたは整理するもの，例．必要なネットワークリソースを分析，最適化してアプリケーションデータの応答を要求するもの（アドミッション制御またはリソースの割り当てＨ０４Ｌ４７／７０）［２０２２．０１］	Scheduling or organising the servicing of application requests, e.g. requests for application data transmissions using the analysis and optimisation of the required network resources(admission control or resource allocation H04L47/70)	5454
+H04L  67/61	・・・	ＱｏＳまたは優先順位の要件を考慮するもの［２０２２．０１］	taking into account QoS or priority requirements	1355
+H04L  67/62	・・・	リクエストに対応するためのタイムスケジュールを作成するもの［２０２２．０１］	Establishing a time schedule for servicing the requests	659
+H04L  67/63	・・・	リクエストの内容またはコンテキストに応じてサービスリクエストをルーティングするもの［２０２２．０１］	Routing a service request depending on the request content or context	3070
+H04L  67/75	・・	ユーザのディスプレイ上にネットワークの状態または利用状況を表示するもの［２０２２．０１］	Indicating network or usage conditions on the user display	664
+H04L  69/00		アプリケーションのペイロードに依存しないネットワーク配置，プロトコルまたはサービスで，このサブクラスの他のグループで包含されないもの（ネットワークセキュリティプロトコルＨ０４Ｌ９／４０；無線通信ネットワークＨ０４Ｗ）［２０２２．０１］	Network arrangements, protocols or services independent of the application payload and not provided for in the other groups of this subclass(networks security protocols H04L9/40; wireless communication networks H04W)	1475
+H04L  69/04	・	データ圧縮のためのプロトコル，例．ロバストヘッダ圧縮［ＲＯＨＣ］［２０２２．０１］	Protocols for data compression, e.g. ROHC	2062
+H04L  69/06	・	プロトコルデータを構成するための記法，例．抽象構文記法１［ＡＳＮ．１］［２０２２．０１］	Notations for structuring of protocol data, e.g. abstract syntax notation one [ASN.1]	1676
+H04L  69/08	・	相互接続のためのプロトコル；プロトコル変換［２０２２．０１］	Protocols for interworking; Protocol conversion	4478
+H04L  69/085	・・	ＩＰベースのネットワークと他のネットワークとの相互接続に特に適したもの［２０２２．０１］	specially adapted for interworking of IP-based networks with other networks	57
+H04L  69/10	・	簡素化，軽量化または高速化のためのプロトコル，例．エクスプレス転送プロトコル［ＸＴＰ］またはバイトストリーム［２０２２．０１］	Streamlined, light-weight or high-speed protocols, e.g. express transfer protocol [XTP] or byte stream	53
+H04L  69/12	・	プロトコルエンジン［２０２２．０１］	Protocol engines	277
+H04L  69/14	・	マルチチャネルプロトコルまたはマルチリンクプロトコル［２０２２．０１］	Multichannel or multilink protocols	4061
+H04L  69/16	・	インターネットプロトコル［ＩＰ］，伝送制御プロトコル［ＴＣＰ］またはユーザデータグラムプロトコル［ＵＤＰ］の実装または適応［２０２２．０１］	Implementation or adaptation of Internet protocol [IP], of transmission control protocol [TCP] or of user datagram protocol [UDP]	4012
+H04L  69/163	・・	ＴＣＰデータ交換の帯域内での適応；帯域内での制御手順［２０２２．０１］	In-band adaptation of TCP data exchange; In-band control procedures	1128
+H04L  69/164	・・	ＵＤＰプロトコルの適応または特別な使用［２０２２．０１］	Adaptation or special uses of UDP protocol	1087
+H04L  69/165	・・	ＴＣＰプロトコルの使用とＵＤＰプロトコルの使用を組み合わせたもの；そのための基準の選択［２０２２．０１］	Combined use of TCP and UDP protocols; selection criteria therefor	164
+H04L  69/166	・・	ＩＰフラグメンテーション；ＴＣＰセグメンテーション［２０２２．０１］	IP fragmentation; TCP segmentation	124
+H04L  69/167	・・	２つのＩＰバージョン間の移行のための適応，例．ＩＰｖ４とＩＰｖ６の間（インターネットプロトコル［ＩＰ］アドレスの変換Ｈ０４Ｌ６１／２５０３）［２０２２．０１］	Adaptation for transition between two IP versions, e.g. between IPv4 and IPv6(translation of Internet protocol [IP] addresses H04L61/2503)	85
+H04L  69/168	・・	リンク層プロトコルに特に適したもの，例．非同期転送モード［ＡＴＭ］，同期光ネットワーク［ＳＯＮＥＴ］またはポイントツーポイントプロトコル［ＰＰＰ］［２０２２．０１］	specially adapted for link layer protocols, e.g. asynchronous transfer mode [ATM], synchronous optical network [SONET] or point-to-point protocol [PPP]	40
+H04L  69/18	・	マルチプロトコルハンドラ，例．複数のプロトコルに対応できる単独の装置［２０２２．０１］	Multiprotocol handlers, e.g. single devices capable of handling multiple protocols	2354
+H04L  69/22	・	ヘッダの構文解析または分析［２０２２．０１］	Parsing or analysis of headers	8974
+H04L  69/24	・	通信能力に関するネゴシエーション［２０２２．０１］	Negotiation of communication capabilities	782
+H04L  69/28	・	プロトコルで使用されるタイマまたはタイミングメカニズム［２０２２．０１］	Timers or timing mechanisms used in protocols	600
+H04L  69/30	・	階層化されたプロトコルスタックの定義，標準またはアーキテクチャに関する観点［２０２２．０１］	Definitions, standards or architectural aspects of layered protocol stacks	233
+H04L  69/32	・・	開放型システム間相互接続［ＯＳＩ］の７層タイププロトコルスタックのアーキテクチャ，例．データリンクレベルと物理レベルの間のインターフェース［２０２２．０１］	Architecture of open systems interconnection [OSI] 7-layer type protocol stacks, e.g. the interfaces between the data link level and the physical level	226
+H04L  69/321	・・・	層間通信プロトコルまたはサービスデータユニット［ＳＤＵ］の定義；層間のインターフェース［２０２２．０１］	Interlayer communication protocols or service data unit [SDU] definitions; Interfaces between layers	288
+H04L  69/322	・・・	ピアエンティティ間の層内通信プロトコルまたはプロトコルデータユニット［ＰＤＵ］の定義［２０２２．０１］	Intralayer communication protocols among peer entities or protocol data unit [PDU] definitions	187
+H04L  69/323	・・・・	物理層に属するもの［ＯＳＩの第１層］［２０２２．０１］	in the physical layer [OSI layer 1]	273
+H04L  69/324	・・・・	データリンク層に属するもの［ＯＳＩの第２層］，例．ＨＤＬＣ［２０２２．０１］	in the data link layer [OSI layer 2], e.g. HDLC	571
+H04L  69/325	・・・・	ネットワーク層に属するもの［ＯＳＩの第３層］，例．Ｘ．２５（Ｈ０４Ｌ６９／１６が優先）［２０２２．０１］	in the network layer [OSI layer 3], e.g. X.25(H04L69/16 takes precedence)	128
+H04L  69/326	・・・・	トランスポート層に属するもの［ＯＳＩの第４層］（Ｈ０４Ｌ６９／１６が優先）［２０２２．０１］	in the transport layer [OSI layer 4](H04L69/16 takes precedence)	204
+H04L  69/327	・・・・	セッション層に属するもの［ＯＳＩの第５層］［２０２２．０１］	in the session layer [OSI layer 5]	20
+H04L  69/328	・・・・	プレゼンテーション層に属するもの［ＯＳＩの第６層］［２０２２．０１］	in the presentation layer [OSI layer 6]	8
+H04L  69/329	・・・・	アプリケーション層に属するもの［ＯＳＩの第７層］［２０２２．０１］	in the application layer [OSI layer 7]	361
+H04L  69/40	・	プロトコルインスタンスまたはプロトコルエンティティの障害から回復させるためのもの，例．サービス冗長化プロトコル，プロトコルの状態の冗長化またはプロトコルサービスのリダイレクト（データ交換ネットワークでの障害，イベント，警告または通知の管理Ｈ０４Ｌ４１／０６）［２０２２．０１］	for recovering from a failure of a protocol instance or entity, e.g. service redundancy protocols, protocol state redundancy or protocol service redirection(management of faults, events, alarms or notifications in data switching networks H04L41/06)	14263
+H04L 101/00		Ｈ０４Ｌ６１／００のグループに関連付けられたインデキシング系列［２０２２．０１］	Indexing scheme associated with group H04L61/00	10
+H04L 101/30	・	ネットワーク名のタイプ［２０２２．０１］	Types of network names	65
+H04L 101/32	・・	非ラテン言語の文字を含むもの，例．中国語のドメインネーム［２０２２．０１］	containing non-Latin characters, e.g. Chinese domain names	3
+H04L 101/33	・・	プロトコルアドレスまたは電話番号を含むもの［２０２２．０１］	containing protocol addresses or telephone numbers	31
+H04L 101/345	・・	ワイルドカード文字を含むもの［２０２２．０１］	containing wildcard characters	4
+H04L 101/35	・・	特別なプレフィックスを含むもの［２０２２．０１］	containing special prefixes	82
+H04L 101/355	・・	特別なサフィックスを含むもの［２０２２．０１］	containing special suffixes	12
+H04L 101/365	・・	アプリケーション層に属するものの名前，例．バディ名，ユーザが選んだ非構造化名または家電機器名［２０２２．０１］	Application layer names, e.g. buddy names, unstructured names chosen by a user or home appliance name	34
+H04L 101/37	・・	電子メールアドレス［２０２２．０１］	E-mail addresses	36
+H04L 101/375	・・	アクセスポイント名［ＡＰＮ］［２０２２．０１］	Access point names [APN]	36
+H04L 101/38	・・	電話のための統一資源識別子［ＵＲＩ］［２０２２．０１］	Telephone uniform resource identifier [URI]	13
+H04L 101/385	・・	セッション開始プロトコルのための統一資源識別子［ＳＩＰ　ＵＲＩ］［２０２２．０１］	Uniform resource identifier for session initiation protocol [SIP URI]	16
+H04L 101/39	・・	セッション開始プロトコル［ＳＩＰ］のための，グローバルにルーティング可能なユーザエージェント統一資源識別子［ＧＲＵＵ］［２０２２．０１］	Globally routable user-agent uniform resource identifier [GRUU] for the session initiation protocol [SIP]	2
+H04L 101/395	・・	インターネットプロトコルマルチメディアプライベート識別番号［ＩＭＰＩ］；インターネットプロトコルマルチメディアパブリック識別番号［ＩＭＰＵ］［２０２２．０１］	Internet protocol multimedia private identity [IMPI]; Internet protocol multimedia public identity [IMPU]	6
+H04L 101/60	・	ネットワークアドレスのタイプ［２０２２．０１］	Types of network addresses	21
+H04L 101/604	・・	アドレス構造またはフォーマット［２０２２．０１］	Address structures or formats	133
+H04L 101/618	・・	ネットワークアドレスの細部［２０２２．０１］	Details of network addresses	47
+H04L 101/622	・・・	レイヤ２アドレス，例．メディアアクセス制御［ＭＡＣ］アドレス［２０２２．０１］	Layer-2 addresses, e.g. medium access control [MAC] addresses	1618
+H04L 101/627	・・・	コントローラエリアネットワーク［ＣＡＮ］識別子［２０２２．０１］	Controller area network [CAN] identifiers	34
+H04L 101/631	・・・	小型計算機システムインターフェース［ＳＣＳＩ］アドレス［２０２２．０１］	Small computer system interface [SCSI] addresses	1
+H04L 101/636	・・・	ＩＥＥＥ１３９４識別番号［２０２２．０１］	IEEE1394 identification numbers	3
+H04L 101/64	・・・	非同期転送モード［ＡＴＭ］アドレス［２０２２．０１］	Asynchronous transfer mode [ATM] addresses	
+H04L 101/645	・・・	ファイバチャネル識別子［２０２２．０１］	Fibre channel identifiers	10
+H04L 101/65	・・・	電話番号［２０２２．０１］	Telephone numbers	43
+H04L 101/654	・・・	移動通信装置の国際的な加入者識別［ＩＭＳＩ］番号［２０２２．０１］	International mobile subscriber identity [IMSI] numbers	92
+H04L 101/659	・・・	インターネットプロトコルバージョン６［ＩＰｖ６］アドレス［２０２２．０１］	Internet protocol version 6 [IPv6] addresses	678
+H04L 101/663	・・・	トランスポート層のアドレス，例．伝送制御プロトコル［ＴＣＰ］またはユーザデータグラムプロトコル［ＵＤＰ］のポートに関する観点［２０２２．０１］	Transport layer addresses, e.g. aspects of transmission control protocol [TCP] or user datagram protocol [UDP] ports	99
+H04L 101/668	・・	インターネットプロトコル［ＩＰ］アドレスのサブネット部［２０２２．０１］	Internet protocol [IP] address subnets	204
+H04L 101/672	・・	ショートアドレス［２０２２．０１］	Short addresses	25
+H04L 101/677	・・	複数のインターフェース，例．マルチホーム接続によるノード［２０２２．０１］	Multiple interfaces, e.g. multihomed nodes	25
+H04L 101/681	・・	無線パーソナルエリアネットワークまたは無線センサネットワークのためのアドレスを使用するもの，例．ジグビーアドレス［２０２２．０１］	using addresses for wireless personal area networks or wireless sensor networks, e.g. Zigbee addresses	22
+H04L 101/686	・・	デュアルスタックホストを使用するもの，例．インターネットプロトコルバージョン４［ＩＰｖ４］／インターネットプロトコルバージョン６［ＩＰｖ６］ネットワーク［２０２２．０１］	using dual-stack hosts, e.g. in Internet protocol version 4 [IPv4]/Internet protocol version 6 [IPv6] networks	172
+H04L 101/69	・・	地理情報を使用するもの，例．部屋番号［２０２２．０１］	using geographic information, e.g. room number	412
+H04L 101/695	・・	マスクまたはアドレス範囲を使用するもの［２０２２．０１］	using masks or ranges of addresses	188

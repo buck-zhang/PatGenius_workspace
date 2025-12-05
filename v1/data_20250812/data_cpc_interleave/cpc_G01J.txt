@@ -1,0 +1,543 @@
+G01J1/00	7	Photometry, e.g. photographic exposure meter (spectrophotometry G01J3/00; specially adapted for radiation pyrometry G01J5/00{; exposure meters built in cameras G03B17/06})	G01J1/00	G01J1/00		1488
+G01J1/02	8	Details	G01J1/02	G01J1/02		1982
+G01J1/0204	9	{Compact construction}	G01J1/02	G01J1/02		344
+G01J1/0209	10	{Monolithic}	G01J1/02	G01J1/02		262
+G01J1/0214	9	{Constructional arrangements for removing stray light}	G01J1/02	G01J1/02		305
+G01J1/0219	9	{Electrical interface; User interface}	G01J1/02	G01J1/02		524
+G01J1/0223	9	{Sample holders for photometry}	G01J1/02	G01J1/02		71
+G01J1/0228	9	{Control of working procedures; Failure detection; Spectral bandwidth calculation}	G01J1/02	G01J1/02		540
+G01J1/0233	9	{Handheld}	G01J1/02	G01J1/02		261
+G01J1/0238	9	{making use of sensor-related data, e.g. for identification of sensor or optical parts}	G01J1/02	G01J1/02		272
+G01J1/0242	9	{Control or determination of height or angle information of sensors or receivers; Goniophotometry}	G01J1/02	G01J1/02		331
+G01J1/0247	9	{using a charging unit}	G01J1/02	G01J1/02		77
+G01J1/0252	9	{Constructional arrangements for compensating for fluctuations caused by, e.g. temperature, or using cooling or temperature stabilization of parts of the device; Controlling the atmosphere inside a photometer; Purge systems, cleaning devices (protection against electromagnetic interferences G01J2001/0276)}	G01J1/02	G01J1/02		404
+G01J2001/0257	9	{portable}	G01J1/02	G01J1/02		99
+G01J2001/0261	10	{Pocket size;  Card size}	G01J1/02	G01J1/02		15
+G01J1/0266	9	{Field-of-view determination; Aiming or pointing of a photometer; Adjusting alignment; Encoding angular position; Size of the measurement area; Position tracking; Photodetection involving different fields of view for a single detector}	G01J1/02	G01J1/02		518
+G01J1/0271	9	{Housings; Attachments or accessories for photometers}	G01J1/02	G01J1/02		1158
+G01J2001/0276	9	{Protection}	G01J1/02	G01J1/02		235
+G01J2001/028	10	{against liquid}	G01J1/02	G01J1/02		20
+G01J2001/0285	10	{against laser damage}	G01J1/02	G01J1/02		64
+G01J1/029	9	{Multi-channel photometry}	G01J1/02	G01J1/02		80
+G01J1/0295	9	{Constructional arrangements for removing other types of optical noise or for performing calibration}	G01J1/02	G01J1/02		371
+G01J1/04	9	Optical or mechanical part {supplementary adjustable parts}	G01J1/04	G01J1/04		1904
+G01J1/0403	10	{Mechanical elements; Supports for optical elements; Scanning arrangements}	G01J1/04	G01J1/04		856
+G01J1/0407	10	{Optical elements not provided otherwise, e.g. manifolds, windows, holograms, gratings}	G01J1/04	G01J1/04		967
+G01J1/0411	11	{using focussing or collimating elements, i.e. lenses or mirrors; Aberration correction}	G01J1/04	G01J1/04		1172
+G01J1/0414	11	{using plane or convex mirrors, parallel phase plates, or plane beam-splitters}	G01J1/04	G01J1/04		495
+G01J1/0418	11	{using attenuators}	G01J1/04	G01J1/04		262
+G01J1/0422	11	{using light concentrators, collectors or condensers}	G01J1/04	G01J1/04		376
+G01J1/0425	11	{using optical fibers}	G01J1/04	G01J1/04		638
+G01J1/0429	11	{using polarisation elements}	G01J1/04	G01J1/04		241
+G01J1/0433	11	{using notch filters}	G01J1/04	G01J1/04		78
+G01J1/0437	11	{using masks, aperture plates, spatial light modulators, spatial filters, e.g. reflective filters}	G01J1/04	G01J1/04		602
+G01J1/044	11	{using shutters}	G01J1/04	G01J1/04		115
+G01J1/0444	11	{using means for replacing an element by another, e.g. for replacing a filter or grating}	G01J1/04	G01J1/04		41
+G01J1/0448	11	{Adjustable, e.g. focussing}	G01J1/04	G01J1/04		223
+G01J1/0451	11	{using means for illuminating a slit efficiently, e.g. entrance slit of a photometer or entrance face of fiber}	G01J1/04	G01J1/04		50
+G01J1/0455	11	{having a throughhole enabling the optical element to fulfil an additional optical function, e.g. a mirror or grating having a through-hole for a light collecting or light injecting optical fibre}	G01J1/04	G01J1/04		69
+G01J1/0459	11	{using an optical amplifier of light or coatings to improve optical coupling}	G01J1/04	G01J1/04		41
+G01J1/0462	11	{Slit arrangements}	G01J1/04	G01J1/04		68
+G01J1/0466	11	{with a sighting port}	G01J1/04	G01J1/04		45
+G01J1/047	11	{using extension/expansion of solids or fluids, change of resonant frequency or extinction effect}	G01J1/04	G01J1/04		10
+G01J1/0474	11	{Diffusers (cavities G01J2001/0481)}	G01J1/04	G01J1/04		308
+G01J1/0477	11	{Prisms, wedges}	G01J1/04	G01J1/04		128
+G01J2001/0481	10	{Preset integrating sphere or cavity}	G01J1/04	G01J1/04		233
+G01J2001/0485	10	{Cosinus correcting or purposely modifying the angular response of a light sensor}	G01J1/04	G01J1/04		55
+G01J1/0488	10	{with spectral filtering}	G01J1/04	G01J1/04		736
+G01J1/0492	11	{using at least two different filters}	G01J1/04	G01J1/04		170
+G01J2001/0496	11	{using fiber Bragg gratings}	G01J1/04	G01J1/04		26
+G01J1/06	10	Restricting the angle of incident light	G01J1/06	G01J1/06		401
+G01J2001/061	11	{Baffles}	G01J1/06	G01J1/06		47
+G01J2001/062	11	{by fibre-optic packed bundle}	G01J1/06	G01J1/06		7
+G01J2001/063	11	{with selectable field of view}	G01J1/06	G01J1/06		9
+G01J2001/065	12	{by changing elements}	G01J1/06	G01J1/06		3
+G01J2001/066	12	{with an aiming optical device}	G01J1/06	G01J1/06		4
+G01J2001/067	11	{for angle scan}	G01J1/06	G01J1/06		9
+G01J2001/068	12	{by diaphragm or the like}	G01J1/06	G01J1/06		7
+G01J1/08	9	Arrangements of light sources specially adapted for photometry {standard sources, also using luminescent or radioactive material}	G01J1/08	G01J1/08		921
+G01J2001/083	10	{Testing response of detector}	G01J1/08	G01J1/08		125
+G01J2001/086	10	{Calibrating drift correction}	G01J1/08	G01J1/08		64
+G01J1/10	8	by comparison with reference light or electric value {provisionally void}	G01J1/10	G01J1/10		212
+G01J1/12	9	using wholly visual means (G01J1/20 takes precedence)	G01J1/12	G01J1/12		98
+G01J1/122	10	{Visual exposure meters for determining the exposure time in photographical recording or reproducing}	G01J1/12	G01J1/12		6
+G01J1/124	11	{based on the comparison of the intensity of measured light with a comparison source or comparison illuminated surface}	G01J1/12	G01J1/12		130
+G01J1/126	12	{for enlarging apparatus}	G01J1/12	G01J1/12		5
+G01J1/128	12	{for copy- or printing apparatus}	G01J1/12	G01J1/12		2
+G01J1/14	10	using comparison with a surface of graded brightness, {(e.g. for view taking; for analytical applications G01N21/293)}	G01J1/14	G01J1/14		105
+G01J1/16	9	using electric radiation detectors (G01J1/20 takes precedence)	G01J1/16	G01J1/16		466
+G01J2001/1605	10	{Null method}	G01J1/16	G01J1/16		
+G01J2001/161	10	{Ratio method, i.e. Im/Ir}	G01J1/16	G01J1/16		49
+G01J2001/1615	11	{Computing a difference/sum ratio, i.e. (Im - Ir) / (Im + Ir)}	G01J1/16	G01J1/16		13
+G01J2001/1621	11	{Comparing a duty ratio of pulses}	G01J1/16	G01J1/16		5
+G01J1/1626	10	{Arrangements with two photodetectors, the signals of which are compared}	G01J1/16	G01J1/16		531
+G01J2001/1631	11	{Bridge circuit}	G01J1/16	G01J1/16		6
+G01J2001/1636	11	{one detector directly monitoring the source, e.g. also impulse time controlling}	G01J1/16	G01J1/16		53
+G01J2001/1642	12	{and acting on the detecting circuit}	G01J1/16	G01J1/16		12
+G01J2001/1647	11	{one signal maintained constant}	G01J1/16	G01J1/16		6
+G01J2001/1652	11	{one detector being transparent before the other one}	G01J1/16	G01J1/16		11
+G01J2001/1657	11	{one signal being spectrally modified, e.g. for UV}	G01J1/16	G01J1/16		12
+G01J2001/1663	11	{two detectors of different sensitivity}	G01J1/16	G01J1/16		13
+G01J2001/1668	10	{the measuring signal itself varying in time, e.g. periodic, for example blood pulsation}	G01J1/16	G01J1/16		14
+G01J2001/1673	10	{using a reference sample}	G01J1/16	G01J1/16		16
+G01J2001/1678	10	{Comparing time separated signals, i.e. chopped}	G01J1/16	G01J1/16		7
+G01J2001/1684	11	{and selecting also a DC level from the signal}	G01J1/16	G01J1/16		2
+G01J2001/1689	11	{one separated signal being processed differently}	G01J1/16	G01J1/16		1
+G01J2001/1694	11	{with a signal from on/off switched light source}	G01J1/16	G01J1/16		8
+G01J1/18	10	using comparison with a reference electric value	G01J1/18	G01J1/18		373
+G01J2001/182	11	{with SH sample and hold circuits}	G01J1/18	G01J1/18		32
+G01J2001/184	12	{on a succession of signals}	G01J1/18	G01J1/18		8
+G01J2001/186	11	{Comparison or correction from an electric source within the processing circuit}	G01J1/18	G01J1/18		15
+G01J2001/188	12	{on pulse train}	G01J1/18	G01J1/18		1
+G01J1/20	9	intensity of the measured or reference value being varied to equalise their effects at the detectors, e.g. by varying incidence angle	G01J1/20	G01J1/20		83
+G01J1/22	10	using a variable element in the light-path, e.g. filter, polarising means (G01J1/34 takes precedence)	G01J1/22	G01J1/22		150
+G01J1/24	11	using electric radiation detectors	G01J1/24	G01J1/24		167
+G01J2001/242	12	{Filter wheel, i.e. absorption filter series graduated}	G01J1/24	G01J1/24		13
+G01J2001/245	12	{with two or more separate attenuated steps}	G01J1/24	G01J1/24		4
+G01J2001/247	12	{of spectral wedge type}	G01J1/24	G01J1/24		3
+G01J1/26	12	adapted for automatic variation of the measured or reference value (regulation of light intensity G05D25/00)	G01J1/26	G01J1/26		111
+G01J1/28	10	using variation of intensity or distance of source (G01J1/34 takes precedence)	G01J1/28	G01J1/28		141
+G01J1/30	11	using electric radiation detectors	G01J1/30	G01J1/30		82
+G01J1/32	12	adapted for automatic variation of the measured or reference value (regulation of light intensity G05D25/00)	G01J1/32	G01J1/32		557
+G01J1/34	10	using separate light paths used alternately or sequentially, e.g. flicker	G01J1/34	G01J1/34		21
+G01J1/36	11	using electric radiation detectors	G01J1/36	G01J1/36		273
+G01J2001/363	12	{Chopper stabilisation}	G01J1/36	G01J1/36		11
+G01J2001/366	12	{Balancing two paths}	G01J1/36	G01J1/36		2
+G01J1/38	8	using wholly visual means (G01J1/10 takes precedence)	G01J1/38	G01J1/38		75
+G01J1/40	9	using limit or visibility or extinction effect	G01J1/40	G01J1/40		162
+G01J1/42	8	using electric radiation detectors (optical or mechanical part G01J1/04; by comparison with a reference light or electric value G01J1/10)	G01J1/42	G01J1/42		4836
+G01J1/4204	9	{with determination of ambient light (solar light G01J2001/4266)}	G01J1/42	G01J1/42		1655
+G01J1/4209	9	{Photoelectric exposure meters for determining the exposure time in recording or reproducing}	G01J1/42	G01J1/42		165
+G01J1/4214	10	{specially adapted for view-taking apparatus}	G01J1/42	G01J1/42		551
+G01J1/4219	10	{specially adapted for enlargers}	G01J1/42	G01J1/42		74
+G01J1/4223	10	{specially adapted for copy - or printing apparatus}	G01J1/42	G01J1/42		102
+G01J1/4228	9	{arrangements with two or more detectors, e.g. for sensitivity compensation}	G01J1/42	G01J1/42		1745
+G01J2001/4233	10	{with selection of detector}	G01J1/42	G01J1/42		35
+G01J2001/4238	9	{Pulsed light}	G01J1/42	G01J1/42		242
+G01J2001/4242	9	{Modulated light, e.g. for synchronizing source and detector circuit}	G01J1/42	G01J1/42		289
+G01J2001/4247	9	{for testing lamps or other light sources}	G01J1/42	G01J1/42		708
+G01J2001/4252	10	{for testing LED&apos;s}	G01J1/42	G01J1/42		379
+G01J1/4257	9	{applied to monitoring the characteristics of a beam, e.g. laser beam, headlamp beam (monitoring arrangements for lasers in general H01S3/0014)}	G01J1/42	G01J1/42		2005
+G01J2001/4261	10	{Scan through beam in order to obtain a cross-sectional profile of the beam}	G01J1/42	G01J1/42		70
+G01J2001/4266	9	{for measuring solar light}	G01J1/42	G01J1/42		822
+G01J2001/4271	10	{Pyrrheliometer}	G01J1/42	G01J1/42		22
+G01J2001/4276	10	{Solar energy integrator over time}	G01J1/42	G01J1/42		23
+G01J2001/428	10	{for sunlight scattered by atmosphere}	G01J1/42	G01J1/42		22
+G01J2001/4285	10	{Pyranometer, i.e. integrating over space}	G01J1/42	G01J1/42		143
+G01J1/429	9	{applied to measurement of ultraviolet light (using counting tubes G01T)}	G01J1/42	G01J1/42		1632
+G01J2001/4295	9	{using a physical effect not covered by other subgroups of G01J1/42}	G01J1/42	G01J1/42		39
+G01J1/44	9	Electric circuits {(for command of an exposure part G03B7/02)}	G01J1/44	G01J1/44		4025
+G01J2001/4406	10	{Plural ranges in circuit, e.g. switchable ranges;  Adjusting sensitivity selecting gain values}	G01J1/44	G01J1/44		151
+G01J2001/4413	10	{Type}	G01J1/44	G01J1/44		26
+G01J2001/442	11	{Single-photon detection or photon counting}	G01J1/44	G01J1/44		667
+G01J2001/4426	11	{with intensity to frequency or voltage to frequency conversion [IFC or VFC]}	G01J1/44	G01J1/44		45
+G01J2001/4433	11	{Peak sensing}	G01J1/44	G01J1/44		30
+G01J2001/444	10	{Compensating;  Calibrating, e.g. dark current, temperature drift, noise reduction or baseline correction;  Adjusting}	G01J1/44	G01J1/44		574
+G01J2001/4446	10	{Type of detector}	G01J1/44	G01J1/44		133
+G01J2001/4453	11	{PMT}	G01J1/44	G01J1/44		144
+G01J2001/446	11	{Photodiode}	G01J1/44	G01J1/44		955
+G01J2001/4466	12	{Avalanche}	G01J1/44	G01J1/44		480
+G01J2001/4473	11	{Phototransistor}	G01J1/44	G01J1/44		135
+G01J2001/448	11	{Array [CCD]}	G01J1/44	G01J1/44		338
+G01J2001/4486	11	{Streak tube}	G01J1/44	G01J1/44		6
+G01J2001/4493	11	{with image intensifyer tube [IIT]}	G01J1/44	G01J1/44		17
+G01J1/46	10	using a capacitor	G01J1/46	G01J1/46		765
+G01J1/48	8	using chemical effects	G01J1/48	G01J1/48		77
+G01J1/50	9	using change in colour of an indicator, e.g. actinometer	G01J1/50	G01J1/50		405
+G01J1/52	9	using photographic effects	G01J1/52	G01J1/52		16
+G01J1/54	9	by observing photo-reactions between gases	G01J1/54	G01J1/54		27
+G01J1/56	8	using radiation pressure or radiometer effect	G01J1/56	G01J1/56		82
+G01J1/58	8	using luminescence generated by light	G01J1/58	G01J1/58		580
+G01J1/60	8	by measuring the pupil of the eye	G01J1/60	G01J1/60		39
+G01J3/00	7	Spectrometry; Spectrophotometry; Monochromators; Measuring colours	G01J3/00	G01J3/00		321
+G01J2003/003	8	{Comparing spectra of two light sources}	G01J3/00	G01J3/00		26
+G01J2003/006	8	{Fundamentals or review articles}	G01J3/00	G01J3/00		14
+G01J3/02	8	Details	G01J3/02	G01J3/02		3720
+G01J3/0202	9	{Mechanical elements; Supports for optical elements}	G01J3/02	G01J3/02		1113
+G01J3/0205	9	{Optical elements not provided otherwise, e.g. optical manifolds, diffusers, windows}	G01J3/02	G01J3/02		1995
+G01J3/0208	10	{using focussing or collimating elements, e.g. lenses or mirrors; performing aberration correction}	G01J3/02	G01J3/02		3002
+G01J3/021	10	{using plane or convex mirrors, parallel phase plates, or particular reflectors}	G01J3/02	G01J3/02		1524
+G01J3/0213	10	{using attenuators}	G01J3/02	G01J3/02		218
+G01J3/0216	10	{using light concentrators or collectors or condensers}	G01J3/02	G01J3/02		405
+G01J3/0218	10	{using optical fibers}	G01J3/02	G01J3/02		1965
+G01J3/0221	11	{the fibers defining an entry slit}	G01J3/02	G01J3/02		133
+G01J3/0224	10	{using polarising or depolarising elements}	G01J3/02	G01J3/02		827
+G01J3/0227	10	{using notch filters}	G01J3/02	G01J3/02		237
+G01J3/0229	10	{using masks, aperture plates, spatial light modulators or spatial filters, e.g. reflective filters}	G01J3/02	G01J3/02		1187
+G01J3/0232	10	{using shutters}	G01J3/02	G01J3/02		324
+G01J3/0235	10	{using means for replacing an element by another, for replacing a filter or a grating}	G01J3/02	G01J3/02		267
+G01J3/0237	10	{Adjustable, e.g. focussing}	G01J3/02	G01J3/02		661
+G01J3/024	10	{using means for illuminating a slit efficiently (e.g. entrance slit of a spectrometer or entrance face of fiber)}	G01J3/02	G01J3/02		201
+G01J3/0243	10	{having a through-hole enabling the optical element to fulfil an additional optical function, e.g. a mirror or grating having a throughhole for a light collecting or light injecting optical fiber}	G01J3/02	G01J3/02		202
+G01J3/0245	10	{using an optical amplifier of light, e.g. doped fiber}	G01J3/02	G01J3/02		47
+G01J3/0248	10	{using a sighting port, e.g. camera or human eye}	G01J3/02	G01J3/02		214
+G01J3/0251	10	{Colorimeters making use of an integrating sphere}	G01J3/02	G01J3/02		248
+G01J3/0254	10	{Spectrometers, other than colorimeters, making use of an integrating sphere}	G01J3/02	G01J3/02		208
+G01J3/0256	9	{Compact construction}	G01J3/02	G01J3/02		1193
+G01J3/0259	10	{Monolithic}	G01J3/02	G01J3/02		560
+G01J3/0262	9	{Constructional arrangements for removing stray light}	G01J3/02	G01J3/02		588
+G01J3/0264	9	{Electrical interface; User interface}	G01J3/02	G01J3/02		1065
+G01J3/0267	9	{Sample holders for colorimetry}	G01J3/02	G01J3/02		149
+G01J3/027	9	{Control of working procedures of a spectrometer; Failure detection; Bandwidth calculation}	G01J3/02	G01J3/02		1098
+G01J3/0272	9	{Handheld}	G01J3/02	G01J3/02		952
+G01J3/0275	9	{making use of sensor-related data, e.g. for identification of sensor parts or optical elements}	G01J3/02	G01J3/02		164
+G01J3/0278	9	{Control or determination of height or angle information for sensors or receivers}	G01J3/02	G01J3/02		288
+G01J2003/0281	9	{slitless}	G01J3/02	G01J3/02		10
+G01J3/0283	9	{using a charging unit}	G01J3/02	G01J3/02		116
+G01J3/0286	9	{Constructional arrangements for compensating for fluctuations caused by temperature, humidity or pressure, or using cooling or temperature stabilization of parts of the device; Controlling the atmosphere inside a spectrometer, e.g. vacuum}	G01J3/02	G01J3/02		654
+G01J3/0289	9	{Field-of-view determination; Aiming or pointing of a spectrometer; Adjusting alignment; Encoding angular position; Size of measurement area; Position tracking}	G01J3/02	G01J3/02		662
+G01J3/0291	9	{Housings; Spectrometer accessories; Spatial arrangement of elements, e.g. folded path arrangements}	G01J3/02	G01J3/02		1752
+G01J3/0294	9	{Multi-channel spectroscopy}	G01J3/02	G01J3/02		478
+G01J3/0297	9	{Constructional arrangements for removing other types of optical noise or for performing calibration}	G01J3/02	G01J3/02		792
+G01J3/04	9	Slit arrangements {slit adjustment}	G01J3/04	G01J3/04		754
+G01J2003/042	10	{Slit wheel}	G01J3/04	G01J3/04		19
+G01J2003/045	10	{Sequential slits;  Multiple slits}	G01J3/04	G01J3/04		57
+G01J2003/047	10	{Configuration of two or more entry or exit slits for predetermined delta-lambda}	G01J3/04	G01J3/04		8
+G01J3/06	9	Scanning arrangements {arrangements for order-selection}	G01J3/06	G01J3/06		883
+G01J2003/061	10	{Mechanisms, e.g. sine bar}	G01J3/06	G01J3/06		31
+G01J2003/062	10	{motor-driven}	G01J3/06	G01J3/06		76
+G01J2003/063	11	{Step motor}	G01J3/06	G01J3/06		15
+G01J2003/064	10	{Use of other elements for scan, e.g. mirror, fixed grating}	G01J3/06	G01J3/06		130
+G01J2003/065	11	{Use of fibre scan for spectral scan}	G01J3/06	G01J3/06		25
+G01J2003/066	10	{Microprocessor control of functions, e.g. slit, scan, bandwidth during scan}	G01J3/06	G01J3/06		26
+G01J2003/067	10	{Use of plane parallel plate, e.g. small scan, wobble}	G01J3/06	G01J3/06		10
+G01J2003/068	10	{tuned to preselected wavelengths}	G01J3/06	G01J3/06		13
+G01J2003/069	10	{Complex motion, e.g. rotation of grating and correcting translation}	G01J3/06	G01J3/06		18
+G01J3/08	9	Beam switching arrangements	G01J3/08	G01J3/08		277
+G01J3/10	9	Arrangements of light sources specially adapted for spectrometry or colorimetry	G01J3/10	G01J3/10		3128
+G01J2003/102	10	{Plural sources}	G01J3/10	G01J3/10		298
+G01J2003/104	11	{Monochromatic plural sources}	G01J3/10	G01J3/10		251
+G01J2003/106	11	{the two sources being alternating or selectable, e.g. in two ranges or line:continuum}	G01J3/10	G01J3/10		153
+G01J3/108	10	{for measurement in the infrared range}	G01J3/10	G01J3/10		767
+G01J3/12	8	Generating the spectrum; Monochromators	G01J3/12	G01J3/12		1181
+G01J2003/1204	9	{Grating and filter}	G01J3/12	G01J3/12		114
+G01J2003/1208	9	{Prism and grating}	G01J3/12	G01J3/12		136
+G01J2003/1213	9	{Filters in general, e.g. dichroic, band}	G01J3/12	G01J3/12		810
+G01J2003/1217	10	{Indexed discrete filters or choppers}	G01J3/12	G01J3/12		123
+G01J2003/1221	10	{Mounting;  Adjustment}	G01J3/12	G01J3/12		101
+G01J2003/1226	9	{Interference filters}	G01J3/12	G01J3/12		245
+G01J2003/123	10	{Indexed discrete filters}	G01J3/12	G01J3/12		92
+G01J2003/1234	10	{Continuously variable IF [CVIF]; Wedge type}	G01J3/12	G01J3/12		112
+G01J2003/1239	10	{and separate detectors}	G01J3/12	G01J3/12		72
+G01J2003/1243	10	{Pivoting IF or other position variation}	G01J3/12	G01J3/12		107
+G01J2003/1247	10	{Tuning}	G01J3/12	G01J3/12		81
+G01J2003/1252	10	{Using "resonance cell", e.g. Na vapor}	G01J3/12	G01J3/12		27
+G01J3/1256	9	{using acousto-optic tunable filter; (acousto-optic elements or systems G02F1/11, G02F1/33)}	G01J3/12	G01J3/12		218
+G01J2003/126	9	{Focal isolation type}	G01J3/12	G01J3/12		9
+G01J2003/1265	9	{the wavelengths being separated in time, e.g. through optical fibre array}	G01J3/12	G01J3/12		20
+G01J2003/1269	9	{Electrooptic filter}	G01J3/12	G01J3/12		50
+G01J2003/1273	9	{Order selection}	G01J3/12	G01J3/12		24
+G01J2003/1278	9	{Mask with spectral selection}	G01J3/12	G01J3/12		41
+G01J2003/1282	9	{Spectrum tailoring}	G01J3/12	G01J3/12		137
+G01J2003/1286	9	{Polychromator in general}	G01J3/12	G01J3/12		77
+G01J2003/1291	9	{polarised, birefringent}	G01J3/12	G01J3/12		66
+G01J2003/1295	9	{Plural entry slits, e.g. for different incidences}	G01J3/12	G01J3/12		13
+G01J3/14	9	using refracting elements, e.g. prisms (G01J3/18, G01J3/26 take precedence {prisms per seG02B5/04})	G01J3/14	G01J3/14		645
+G01J2003/145	10	{Prism systems for straight view}	G01J3/14	G01J3/14		10
+G01J3/16	10	with autocollimation	G01J3/16	G01J3/16		84
+G01J3/18	9	using diffraction elements, e.g. grating (gratings per seG02B)	G01J3/18	G01J3/18		1864
+G01J3/1804	10	{Plane gratings}	G01J3/18	G01J3/18		331
+G01J3/1809	10	{Echelle gratings}	G01J3/18	G01J3/18		136
+G01J2003/1814	10	{Double monochromator}	G01J3/18	G01J3/18		17
+G01J2003/1819	11	{Double pass monochromator}	G01J3/18	G01J3/18		7
+G01J2003/1823	11	{substractive}	G01J3/18	G01J3/18		2
+G01J2003/1828	10	{with order sorter or prefilter}	G01J3/18	G01J3/18		73
+G01J3/1833	10	{Grazing incidence}	G01J3/18	G01J3/18		10
+G01J3/1838	10	{Holographic gratings}	G01J3/18	G01J3/18		195
+G01J2003/1842	10	{Types of grating}	G01J3/18	G01J3/18		41
+G01J2003/1847	11	{Variable spacing}	G01J3/18	G01J3/18		22
+G01J2003/1852	11	{Cylindric surface}	G01J3/18	G01J3/18		7
+G01J2003/1857	11	{Toroid surface}	G01J3/18	G01J3/18		8
+G01J2003/1861	11	{Transmission gratings}	G01J3/18	G01J3/18		46
+G01J2003/1866	10	{Monochromator for three or more wavelengths}	G01J3/18	G01J3/18		10
+G01J2003/1871	11	{Duochromator}	G01J3/18	G01J3/18		1
+G01J2003/1876	11	{Polychromator}	G01J3/18	G01J3/18		20
+G01J2003/188	10	{Constant deviation}	G01J3/18	G01J3/18		
+G01J2003/1885	10	{Holder for interchangeable gratings, e.g. at different ranges of wavelengths}	G01J3/18	G01J3/18		11
+G01J3/189	10	{using at least one grating in an off-plane configuration}	G01J3/18	G01J3/18		24
+G01J3/1895	10	{using fiber Bragg gratings or gratings integrated in a waveguide}	G01J3/18	G01J3/18		206
+G01J3/20	10	Rowland circle spectrometers	G01J3/20	G01J3/20		153
+G01J3/22	10	Littrow mirror spectrometers	G01J3/22	G01J3/22		46
+G01J3/24	10	using gratings profiled to favour a specific order	G01J3/24	G01J3/24		50
+G01J3/26	9	using multiple reflection, e.g. Fabry-Perot interferometer, variable interference filters	G01J3/26	G01J3/26		1861
+G01J2003/262	10	{Double pass;  Multiple pass}	G01J3/26	G01J3/26		21
+G01J2003/265	10	{Read out, e.g. polychromator}	G01J3/26	G01J3/26		15
+G01J2003/267	10	{of the SISAM type}	G01J3/26	G01J3/26		1
+G01J3/28	8	Investigating the spectrum (using colour filters G01J3/51)	G01J3/28	G01J3/28		3793
+G01J3/2803	9	{using photoelectric array detector}	G01J3/28	G01J3/28		2657
+G01J2003/2806	10	{Array and filter array}	G01J3/28	G01J3/28		418
+G01J2003/2809	11	{Array and correcting filter}	G01J3/28	G01J3/28		19
+G01J2003/2813	10	{2D-array}	G01J3/28	G01J3/28		193
+G01J2003/2816	10	{Semiconductor laminate layer}	G01J3/28	G01J3/28		31
+G01J2003/282	10	{Modified CCD or like}	G01J3/28	G01J3/28		154
+G01J3/2823	9	{Imaging spectrometer}	G01J3/28	G01J3/28		4279
+G01J2003/2826	10	{Multispectral imaging, e.g. filter imaging}	G01J3/28	G01J3/28		1307
+G01J2003/283	9	{computer-interfaced}	G01J3/28	G01J3/28		288
+G01J2003/2833	10	{and memorised spectra collection}	G01J3/28	G01J3/28		89
+G01J2003/2836	10	{Programming unit, i.e. source and date processing}	G01J3/28	G01J3/28		83
+G01J2003/284	10	{Spectral construction}	G01J3/28	G01J3/28		110
+G01J2003/2843	10	{Processing for eliminating interfering spectra}	G01J3/28	G01J3/28		63
+G01J3/2846	9	{using modulation grid; Grid spectrometers}	G01J3/28	G01J3/28		154
+G01J2003/285	10	{Hadamard transformation}	G01J3/28	G01J3/28		17
+G01J2003/2853	9	{Averaging successive scans or readings}	G01J3/28	G01J3/28		19
+G01J2003/2856	10	{and calculation of standard deviation}	G01J3/28	G01J3/28		3
+G01J2003/2859	9	{Peak detecting in spectrum}	G01J3/28	G01J3/28		76
+G01J2003/2863	10	{and calculating peak area}	G01J3/28	G01J3/28		12
+G01J2003/2866	9	{Markers;  Calibrating of scan}	G01J3/28	G01J3/28		756
+G01J2003/2869	10	{Background correcting}	G01J3/28	G01J3/28		56
+G01J2003/2873	10	{Storing reference spectrum}	G01J3/28	G01J3/28		80
+G01J2003/2876	10	{Correcting linearity of signal}	G01J3/28	G01J3/28		17
+G01J2003/2879	10	{Calibrating scan, e.g. Fabry Perot interferometer}	G01J3/28	G01J3/28		94
+G01J2003/2883	10	{Correcting overlapping}	G01J3/28	G01J3/28		9
+G01J2003/2886	9	{Investigating periodic spectrum}	G01J3/28	G01J3/28		15
+G01J3/2889	9	{Rapid scan spectrometers; Time resolved spectrometry}	G01J3/28	G01J3/28		286
+G01J2003/2893	10	{with rotating grating}	G01J3/28	G01J3/28		9
+G01J2003/2896	9	{Vidicon, image intensifier tube}	G01J3/28	G01J3/28		4
+G01J3/30	9	Measuring the intensity of spectral lines directly on the spectrum itself (G01J3/42, G01J3/44 take precedence)	G01J3/30	G01J3/30		151
+G01J3/32	10	Investigating bands of a spectrum in sequence by a single detector	G01J3/32	G01J3/32		629
+G01J2003/323	11	{Comparing line:background}	G01J3/32	G01J3/32		11
+G01J2003/326	11	{Scanning mask, plate, chopper, e.g. small spectrum interval}	G01J3/32	G01J3/32		17
+G01J3/36	10	Investigating two or more bands of a spectrum by separate detectors	G01J3/36	G01J3/36		1563
+G01J3/40	9	Measuring the intensity of spectral lines by determining density of a photograph of the spectrum; Spectrography (G01J3/42, G01J3/44 take precedence)	G01J3/40	G01J3/40		164
+G01J3/42	9	Absorption spectrometry; Double beam spectrometry; Flicker spectrometry; Reflection spectrometry (beam switching arrangements G01J3/08)	G01J3/42	G01J3/42		3224
+G01J2003/421	10	{Single beam}	G01J3/42	G01J3/42		46
+G01J2003/423	10	{Spectral arrangements using lasers, e.g. tunable}	G01J3/42	G01J3/42		203
+G01J2003/425	10	{Reflectance}	G01J3/42	G01J3/42		245
+G01J3/427	10	Dual wavelengths spectrometry	G01J3/427	G01J3/427		265
+G01J2003/4275	11	{Polarised dual wavelength spectrometry}	G01J3/427	G01J3/427		9
+G01J3/433	10	Modulation spectrometry; Derivative spectrometry	G01J3/433	G01J3/433		531
+G01J2003/4332	11	{frequency-modulated}	G01J3/433	G01J3/433		53
+G01J2003/4334	11	{by modulation of source, e.g. current modulation}	G01J3/433	G01J3/433		66
+G01J2003/4336	11	{by magnetic modulation, e.g. Zeeman effect}	G01J3/433	G01J3/433		1
+G01J3/4338	11	{Frequency modulated spectrometry}	G01J3/433	G01J3/433		286
+G01J3/44	9	Raman spectrometry; Scattering spectrometry {; Fluorescence spectrometry}	G01J3/44	G01J3/44		2267
+G01J3/4406	10	{Fluorescence spectrometry}	G01J3/44	G01J3/44		1110
+G01J3/4412	10	{Scattering spectrometry (particle sizing by light scattering G01N15/0205; optical velocimetry of particles G01P5/20, G01P5/26)}	G01J3/44	G01J3/44		649
+G01J2003/4418	11	{Power spectrum}	G01J3/44	G01J3/44		16
+G01J2003/4424	10	{Fluorescence correction for Raman spectrometry}	G01J3/44	G01J3/44		108
+G01J3/443	9	Emission spectrometry	G01J3/443	G01J3/443		905
+G01J2003/4435	10	{Measuring ratio of two lines, e.g. internal standard}	G01J3/443	G01J3/443		17
+G01J3/447	9	Polarisation spectrometry	G01J3/447	G01J3/447		617
+G01J3/45	9	Interferometric spectrometry	G01J3/45	G01J3/45		1132
+G01J2003/451	10	{Dispersive interferometric spectrometry}	G01J3/45	G01J3/45		61
+G01J2003/452	10	{with recording of image of spectral transformation, e.g. hologram}	G01J3/45	G01J3/45		28
+G01J3/453	10	by correlation of the amplitudes	G01J3/453	G01J3/453		707
+G01J3/4531	11	{Devices without moving parts}	G01J3/453	G01J3/453		219
+G01J3/4532	11	{Devices of compact or symmetric construction (G01J3/4531 takes precedence)}	G01J3/453	G01J3/453		197
+G01J2003/4534	11	{Interferometer on illuminating side}	G01J3/453	G01J3/453		27
+G01J3/4535	11	{Devices with moving mirror (G01J3/4532 takes precedence)}	G01J3/453	G01J3/453		355
+G01J3/4537	11	{Devices with refractive scan}	G01J3/453	G01J3/453		60
+G01J2003/4538	11	{Special processing}	G01J3/453	G01J3/453		40
+G01J3/457	9	Correlation spectrometry, e.g. of the intensity (G01J3/453 takes precedence)	G01J3/457	G01J3/457		221
+G01J3/46	8	Measurement of colour; Colour measuring devices, e.g. colorimeters (measuring colour temperature G01J5/60)	G01J3/46	G01J3/46		2369
+G01J3/461	9	{with colour spinners}	G01J3/46	G01J3/46		58
+G01J3/462	9	{Computing operations in or between colour spaces; Colour management systems}	G01J3/46	G01J3/46		836
+G01J3/463	9	{Colour matching}	G01J3/46	G01J3/46		987
+G01J3/465	9	{taking into account the colour perception of the eye; using tristimulus detection}	G01J3/46	G01J3/46		571
+G01J2003/466	9	{Coded colour;  Recognition of predetermined colour;  Determining proximity to predetermined colour}	G01J3/46	G01J3/46		406
+G01J2003/467	9	{Colour computing}	G01J3/46	G01J3/46		361
+G01J2003/468	9	{of objects containing fluorescent agent}	G01J3/46	G01J3/46		44
+G01J3/50	9	using electric radiation detectors	G01J3/50	G01J3/50		1649
+G01J3/501	10	{Colorimeters using spectrally-selective light sources, e.g. LEDs}	G01J3/50	G01J3/50		586
+G01J3/502	10	{using a dispersive element, e.g. grating, prism}	G01J3/50	G01J3/50		256
+G01J2003/503	10	{Densitometric colour measurements}	G01J3/50	G01J3/50		25
+G01J3/504	10	{Goniometric colour measurements, for example measurements of metallic or flake based paints}	G01J3/50	G01J3/50		251
+G01J3/505	10	{measuring the colour produced by lighting fixtures other than screens, monitors, displays or CRTs}	G01J3/50	G01J3/50		220
+G01J3/506	10	{measuring the colour produced by screens, monitors, displays or CRTs}	G01J3/50	G01J3/50		360
+G01J2003/507	10	{the detectors being physically selective}	G01J3/50	G01J3/50		16
+G01J3/508	10	{measuring the colour of teeth}	G01J3/50	G01J3/50		222
+G01J3/51	10	using colour filters	G01J3/51	G01J3/51		1256
+G01J3/513	11	{having fixed filter-detector pairs}	G01J3/51	G01J3/51		849
+G01J2003/516	12	{with several stacked filters or stacked filter-detector pairs}	G01J3/51	G01J3/51		38
+G01J3/52	9	using colour charts	G01J3/52	G01J3/52		841
+G01J3/522	10	{circular colour charts}	G01J3/52	G01J3/52		198
+G01J3/524	10	{Calibration of colorimeters}	G01J3/52	G01J3/52		719
+G01J3/526	10	{for choosing a combination of different colours, e.g. to produce a pleasing effect for an observer}	G01J3/52	G01J3/52		131
+G01J3/528	11	{using colour harmony theory}	G01J3/52	G01J3/52		162
+G01J4/00	7	Measuring polarisation of light	G01J4/00	G01J4/00		950
+G01J4/02	8	Polarimeters of separated-field type; Polarimeters of half-shadow type	G01J4/02	G01J4/02		142
+G01J4/04	8	Polarimeters using electric detection means (G01J4/02 takes precedence)	G01J4/04	G01J4/04		1117
+G01J5/00	7	Radiation pyrometry, e.g. infrared or optical thermometry<br><br><u>WARNING</u><br>Group G01J5/00 is impacted by reclassification into group G01J5/90. <br>Groups G01J5/00 and G01J5/90 should be considered in order to perform a complete search.	G01J5/00	G01J5/00		3889
+G01J5/0003	8	{for sensing the radiant heat transfer of samples, e.g. emittance meter}	G01J5/00	G01J5/00		1313
+G01J5/0007	9	{of wafers or semiconductor substrates, e.g. using Rapid Thermal Processing}	G01J5/00	G01J5/00		370
+G01J5/0011	9	{Ear thermometers (G01J5/021 and G01J5/049 take precedence)}	G01J5/00	G01J5/00		203
+G01J5/0014	8	{for sensing the radiation from gases, flames}	G01J5/00	G01J5/00		798
+G01J5/0018	9	{Flames, plasma or welding}	G01J5/00	G01J5/00		751
+G01J5/0022	8	{for sensing the radiation of moving bodies}	G01J5/00	G01J5/00		1107
+G01J5/0025	9	{Living bodies (ear thermometers G01J5/0011; detecting, measuring or recording for diagnostic purposes A61B5/00)}	G01J5/00	G01J5/00		3394
+G01J2005/0029	9	{Sheet}	G01J5/00	G01J5/00		45
+G01J2005/0033	9	{Wheel}	G01J5/00	G01J5/00		55
+G01J5/0037	8	{for sensing the heat emitted by liquids}	G01J5/00	G01J5/00		282
+G01J5/004	9	{by molten metals}	G01J5/00	G01J5/00		338
+G01J5/0044	8	{Furnaces, ovens, kilns (G01J5/0007, G01J5/004 take precedence)}	G01J5/00	G01J5/00		628
+G01J5/0066	8	{for hot spots detection}	G01J5/00	G01J5/00		314
+G01J5/007	8	{for earth observation}	G01J5/00	G01J5/00		268
+G01J2005/0074	8	{having separate detection of emissivity}	G01J5/00	G01J5/00		136
+G01J2005/0077	8	{Imaging}	G01J5/00	G01J5/00		5426
+G01J5/0088	8	{in turbines}	G01J5/00	G01J5/00		224
+G01J2005/0092	8	{Temperature by averaging, e.g. by scan}	G01J5/00	G01J5/00		122
+G01J5/0096	8	{for measuring wires, electrical contacts or electronic systems}	G01J5/00	G01J5/00		1276
+G01J5/02	8	Constructional details<br><br><u>WARNING</u><br>Group G01J5/02 is impacted by reclassification into group G01J5/05.<br>Groups G01J5/02 and G01J5/05 should be considered in order to perform a complete search.	G01J5/02	G01J5/02		1891
+G01J5/0205	9	{Mechanical elements; Supports for optical elements}	G01J5/02	G01J5/02		1524
+G01J5/021	9	{Probe covers for thermometers, e.g. tympanic thermometers; Containers for probe covers; Disposable probes}	G01J5/02	G01J5/02		241
+G01J5/0215	9	{Compact construction}	G01J5/02	G01J5/02		173
+G01J5/022	10	{Monolithic}	G01J5/02	G01J5/02		95
+G01J5/0225	9	{Shape of the cavity itself or of elements contained in or suspended over the cavity}	G01J5/02	G01J5/02		215
+G01J5/023	10	{Particular leg structure or construction or shape; Nanotubes}	G01J5/02	G01J5/02		398
+G01J5/0235	10	{Spacers, e.g. for avoidance of stiction}	G01J5/02	G01J5/02		58
+G01J5/024	10	{Special manufacturing steps or sacrificial layers or layer structures}	G01J5/02	G01J5/02		559
+G01J5/0245	10	{for performing thermal shunt}	G01J5/02	G01J5/02		38
+G01J5/025	9	{Interfacing a pyrometer to an external device or network; User interface}	G01J5/02	G01J5/02		1364
+G01J5/0255	9	{Sample holders for pyrometry; Cleaning of sample (using a gas purge G01J5/051)}	G01J5/02	G01J5/02		70
+G01J5/026	9	{Control of working procedures of a pyrometer, other than calibration; Bandwidth calculation; Gain control}<br><br><u>WARNING</u><br>Group G01J5/026 is impacted by reclassification into group G01J5/90.<br>Groups G01J5/026 and G01J5/90 should be considered in order to perform a complete search.	G01J5/02	G01J5/02		556
+G01J5/0265	9	{Handheld, portable (ear thermometers G01J5/049)}	G01J5/02	G01J5/02		629
+G01J5/027	9	{making use of sensor-related data, e.g. for identification of sensor parts or optical elements}	G01J5/02	G01J5/02		148
+G01J5/0275	9	{Control or determination of height or distance or angle information for sensors or receivers}	G01J5/02	G01J5/02		496
+G01J5/028	9	{using a charging unit or battery}	G01J5/02	G01J5/02		174
+G01J5/0295	9	{Nulling devices or absolute detection}	G01J5/02	G01J5/02		34
+G01J5/03	9	Arrangements for indicating or recording specially adapted for radiation pyrometers	G01J5/03	G01J5/03		508
+G01J5/04	9	Casings	G01J5/04	G01J5/04		1436
+G01J5/041	10	{Mountings in enclosures or in a particular environment}	G01J5/04	G01J5/04		790
+G01J5/042	11	{High-temperature environment (G01J5/0007, G01J5/0044, G01J5/0088 and G01J5/004 take precedence)}	G01J5/04	G01J5/04		182
+G01J5/044	11	{Environment with strong vibrations or shocks}	G01J5/04	G01J5/04		65
+G01J5/045	11	{Sealings; Vacuum enclosures; Encapsulated packages; Wafer bonding structures; Getter arrangements (getter arrangements per seH01L23/26 and H01L21/3221)}	G01J5/04	G01J5/04		546
+G01J5/046	10	{Materials; Selection of thermal materials}	G01J5/04	G01J5/04		768
+G01J5/047	10	{Mobile mounting; Scanning arrangements}	G01J5/04	G01J5/04		446
+G01J5/048	10	{Protective parts}	G01J5/04	G01J5/04		493
+G01J5/049	10	{Casings for tympanic thermometers}	G01J5/04	G01J5/04		300
+G01J5/05	9	Means for preventing contamination of the components of the optical system; Means for preventing obstruction of the radiation path<br><br><u>WARNING</u><br>Group G01J5/05 is incomplete pending reclassification of documents from group G01J5/02. <br>Groups G01J5/02 and G01J5/05 should be considered in order to perform a complete search.	G01J5/05	G01J5/05		330
+G01J5/051	10	{using a gas purge}	G01J5/05	G01J5/05		329
+G01J5/06	9	Arrangements for eliminating effects of disturbing radiation; Arrangements for compensating changes in sensitivity (for adjusting of solid angle of collected radiation G01J5/07; means for wavelength selection G01J5/0801)	G01J5/06	G01J5/06		1035
+G01J5/061	10	by controlling the temperature of the apparatus or parts thereof, e.g. using cooling means or thermostats	G01J5/061	G01J5/061		1156
+G01J2005/062	11	{Peltier}	G01J5/061	G01J5/06		32
+G01J2005/063	11	{Heating;  Thermostating}	G01J5/061	G01J5/06		98
+G01J5/064	10	{Ambient temperature sensor; Housing temperature sensor; Constructional details thereof}<br><br><u>WARNING</u><br>Group G01J5/064 is impacted by reclassification into group G01J5/70.<br>Groups G01J5/064 and G01J5/70 should be considered in order to perform a complete search.	G01J5/06	G01J5/06		473
+G01J2005/065	10	{by shielding}	G01J5/06	G01J5/06		167
+G01J2005/066	10	{Differential arrangement, i.e. sensitive/not sensitive}	G01J5/06	G01J5/06		90
+G01J5/068	10	by controlling parameters other than temperature	G01J5/068	G01J5/068		242
+G01J5/07	9	Arrangements for adjusting the solid angle of collected radiation, e.g. adjusting or orienting field of view, tracking position or encoding angular position (optical collimating elements G01J5/0806)	G01J5/07	G01J5/07		896
+G01J5/08	9	Optical arrangements<br><br><u>WARNING</u><br>Group G01J5/08 is impacted by reclassification into groups G01J5/0801 and G01J5/0803.<br>Groups G01J5/08, G01J5/0801, and G01J5/0803 should be considered in order to perform a complete search.	G01J5/08	G01J5/08		1363
+G01J5/0801	10	Means for wavelength selection or discrimination<br><br><u>WARNING</u><br>Group G01J5/0801 is incomplete pending reclassification of documents from groups G01J5/08 and G01J5/0803. <br>Groups G01J5/08, G01J5/0803, and G01J5/0801 should be considered in order to perform a complete search.	G01J5/0801	G01J5/0801		383
+G01J5/0802	11	Optical filters	G01J5/0802	G01J5/0802		533
+G01J5/08021	12	{Notch filters}	G01J5/0802	G01J5/0802		43
+G01J5/0803	10	Arrangements for time-dependent attenuation of radiation signals<br><br><u>WARNING</u><br>Group G01J5/0803 is incomplete pending reclassification of documents from groups G01J5/08 and G01J5/0816. <br>Group G01J5/0803 is also impacted by reclassification into groups G01J5/0801 and G01J5/0879. <br>All groups listed in this Warning should be considered in order to perform a complete search.	G01J5/0803	G01J5/0803		218
+G01J5/0804	11	Shutters<br><br><u>WARNING</u><br>Group G01J5/0804 is impacted by reclassification into group G01J5/0805. <br>Groups G01J5/0804 and G01J5/0805 should be considered in order to perform a complete search.	G01J5/0804	G01J5/0804		210
+G01J5/0805	11	Means for chopping radiation<br><br><u>WARNING</u><br>Group G01J5/0805 is incomplete pending reclassification of documents from group G01J5/0804. <br>Groups G01J5/0804 and G01J5/0805 should be considered in order to perform a complete search.	G01J5/0805	G01J5/0805		404
+G01J5/0806	10	Focusing or collimating elements, e.g. lenses or concave mirrors	G01J5/0806	G01J5/0806		1361
+G01J5/0808	10	Convex mirrors<br><br><u>WARNING</u><br>Group G01J5/0808 is impacted by reclassification into groups G01J5/0813 and G01J5/0814.<br>All groups listed in this Warning should be considered in order to perform a complete search.	G01J5/0808	G01J5/0808		264
+G01J5/0813	10	Planar mirrors; Parallel phase plates<br><br><u>WARNING</u><br>Group G01J5/0813 is incomplete pending reclassification of documents from group G01J5/0808. <br>Groups G01J5/0808 and G01J5/0813 should be considered in order to perform a complete search.	G01J5/0813	G01J5/0813		222
+G01J5/0814	10	{Particular reflectors, e.g. faceted or dichroic mirrors}<br><br><u>WARNING</u><br>Group G01J5/0814 is incomplete pending reclassification of documents from group G01J5/0808.<br>Groups G01J5/0808 and G01J5/0814 should be considered in order to perform a complete search.	G01J5/08	G01J5/08		165
+G01J5/0815	10	{Light concentrators, collectors or condensers}	G01J5/08	G01J5/08		220
+G01J5/0816	10	{using attenuators}<br><br><u>WARNING</u><br>Group G01J5/0816 is impacted by reclassification into group G01J5/0803. <br>Groups G01J5/0816 and G01J5/0803 should be considered in order to perform a complete search.	G01J5/08	G01J5/08		67
+G01J5/0818	10	Waveguides	G01J5/0818	G01J5/0818		486
+G01J5/0821	11	Optical fibres	G01J5/0821	G01J5/0821		592
+G01J5/0831	10	Masks; Aperture plates; Spatial light modulators	G01J5/0831	G01J5/0831		361
+G01J5/0837	10	{Microantennas, e.g. bow-tie}	G01J5/08	G01J5/08		151
+G01J5/084	10	{Adjustable or slidable}	G01J5/08	G01J5/08		316
+G01J5/0843	11	{Manually adjustable}	G01J5/08	G01J5/08		85
+G01J5/0846	10	{having multiple detectors for performing different types of detection, e.g. using radiometry and reflectometry channels}	G01J5/08	G01J5/08		537
+G01J5/085	10	{having a through-hole enabling the optical elements to fulfil an additional optical function, e.g. mirrors or gratings having a through-hole for a light collecting or light injecting optical fiber}	G01J5/08	G01J5/08		32
+G01J5/0853	10	{having infrared absorbers other than the usual absorber layers deposited on infrared detectors like bolometers, wherein the heat propagation between the absorber and the detecting element occurs within a solid}	G01J5/08	G01J5/08		725
+G01J5/0856	10	{Slit arrangements}	G01J5/08	G01J5/08		58
+G01J5/0859	10	{Sighting arrangements, e.g. cameras}	G01J5/08	G01J5/08		415
+G01J5/0865	10	{having means for replacing an element of the arrangement by another of the same type, e.g. an optical filter}	G01J5/08	G01J5/08		41
+G01J5/0868	10	{Means for illuminating a slit or a surface efficiently, e.g. entrance slit of a pyrometer or entrance face of a fiber}	G01J5/08	G01J5/08		35
+G01J5/0871	10	{Beam switching arrangements; Photodetection involving different fields of view for a single detector}	G01J5/08	G01J5/08		27
+G01J5/0875	10	Windows; Arrangements for fastening thereof	G01J5/0875	G01J5/0875		401
+G01J5/0878	10	{Diffusers}	G01J5/08	G01J5/08		40
+G01J5/0879	10	{Optical elements not provided otherwise, e.g. optical manifolds, holograms, cubic beamsplitters, non-dispersive prisms or particular coatings}<br><br><u>WARNING</u><br>Group G01J5/0879 is incomplete pending reclassification of documents from group G01J5/0803.<br>Groups G01J5/0803 and G01J5/0879 should be considered in order to perform a complete search.	G01J5/08	G01J5/08		142
+G01J5/0881	10	{Compact construction}	G01J5/08	G01J5/08		46
+G01J5/0884	11	{Monolithic}	G01J5/08	G01J5/08		40
+G01J5/0887	10	{Integrating cavities mimicking black bodies, wherein the heat propagation between the black body and the measuring element does not occur within a solid; Use of bodies placed inside the fluid stream for measurement of the temperature of gases; Use of the reemission from a surface, e.g. reflective surface; Emissivity enhancement by multiple reflections}	G01J5/08	G01J5/08		290
+G01J5/0893	10	{Arrangements to attach devices to a pyrometer, i.e. attaching an optical interface; Spatial relative arrangement of optical elements, e.g. folded beam path (G01J5/049 takes precedence)}	G01J5/08	G01J5/08		398
+G01J5/0896	10	{using a light source, e.g. for illuminating a surface}	G01J5/08	G01J5/08		602
+G01J5/10	8	using electric radiation detectors	G01J5/10	G01J5/10		2014
+G01J2005/103	9	{Absorbing heated plate or film and temperature detector}	G01J5/10	G01J5/10		60
+G01J2005/106	9	{Arrays}	G01J5/10	G01J5/10		305
+G01J5/12	9	using thermoelectric elements, e.g. thermocouples	G01J5/12	G01J5/12		1497
+G01J2005/123	10	{Thermoelectric array}	G01J5/12	G01J5/12		247
+G01J2005/126	10	{Thermoelectric black plate and thermocouple}	G01J5/12	G01J5/12		58
+G01J5/14	10	Electrical features thereof	G01J5/14	G01J5/14		178
+G01J5/16	11	Arrangements with respect to the cold junction; Compensating influence of ambient temperature or other variables	G01J5/16	G01J5/16		246
+G01J5/20	9	using resistors, thermistors or semiconductors sensitive to radiation, e.g. photoconductive devices	G01J5/20	G01J5/20		2200
+G01J2005/202	10	{Arrays}	G01J5/20	G01J5/20		351
+G01J2005/204	11	{prepared by semiconductor processing, e.g. VLSI}	G01J5/20	G01J5/20		117
+G01J2005/206	10	{on foils}	G01J5/20	G01J5/20		31
+G01J2005/208	10	{superconductive}	G01J5/20	G01J5/20		61
+G01J5/22	10	Electrical features thereof	G01J5/22	G01J5/22		379
+G01J5/24	11	Use of specially adapted circuits, e.g. bridge circuits	G01J5/24	G01J5/24		454
+G01J5/28	9	using photoemissive or photovoltaic cells	G01J5/28	G01J5/28		289
+G01J2005/283	10	{Array}	G01J5/28	G01J5/28		48
+G01J2005/286	11	{Arrangement of conductor therefor}	G01J5/28	G01J5/28		11
+G01J5/30	10	Electrical features thereof	G01J5/30	G01J5/30		79
+G01J5/34	9	using capacitors, e.g. pyroelectric capacitors<br><br><u>WARNING</u><br>Group G01J5/34 is impacted by reclassification into group G01J5/35. <br>Groups G01J5/34 and G01J5/35 should be considered in order to perform a complete search.	G01J5/34	G01J5/34		1139
+G01J2005/345	10	{Arrays}	G01J5/34	G01J5/34		84
+G01J5/35	10	Electrical features thereof<br><br><u>WARNING</u><br>Group G01J5/35 is incomplete pending reclassification of documents from group G01J5/34.<br>Groups G01J5/34  and G01J5/35 should be considered in order to perform a complete search.	G01J5/35	G01J5/35		116
+G01J5/36	9	using ionisation of gases	G01J5/36	G01J5/36		8
+G01J5/38	8	using extension or expansion of solids or fluids	G01J5/38	G01J5/38		77
+G01J5/40	9	using bimaterial elements	G01J5/40	G01J5/40		121
+G01J5/42	9	using Golay cells	G01J5/42	G01J5/42		72
+G01J2005/425	10	{Microarray}	G01J5/42	G01J5/42		3
+G01J5/44	9	using change of resonant frequency, e.g. of piezoelectric crystals	G01J5/44	G01J5/44		102
+G01J5/46	8	using radiation pressure or radiometer effect	G01J5/46	G01J5/46		36
+G01J5/48	8	Thermography; Techniques using wholly visual means	G01J5/48	G01J5/48		3706
+G01J5/485	9	{Temperature profile}	G01J5/48	G01J5/48		944
+G01J5/52	8	using comparison with reference sources, e.g. disappearing-filament pyrometer	G01J5/52	G01J5/52		548
+G01J2005/526	9	{Periodic insertion of emissive surface}	G01J5/52	G01J5/52		11
+G01J2005/528	9	{Periodic comparison}	G01J5/52	G01J5/52		11
+G01J5/53	9	Reference sources, e.g. standard lamps; Black bodies	G01J5/53	G01J5/53		1174
+G01J5/532	10	{using a reference heater of the emissive surface type, e.g. for selectively absorbing materials}	G01J5/53	G01J5/53		130
+G01J5/54	9	Optical arrangements	G01J5/54	G01J5/54		78
+G01J5/56	9	Electrical features thereof	G01J5/56	G01J5/56		62
+G01J5/58	8	using absorption; using extinction effect	G01J5/58	G01J5/58		258
+G01J2005/583	9	{Interferences, i.e. fringe variation with temperature}	G01J5/58	G01J5/58		48
+G01J5/59	8	using polarisation; Details thereof	G01J5/59	G01J5/59		110
+G01J5/60	8	using determination of colour temperature	G01J5/60	G01J5/60		1068
+G01J5/601	9	{using spectral scanning}	G01J5/60	G01J5/60		165
+G01J5/602	9	{using selective, monochromatic or bandpass filtering}	G01J5/60	G01J5/60		433
+G01J2005/604	10	{bandpass filtered}	G01J5/60	G01J5/60		46
+G01J5/605	9	{using visual determination}	G01J5/60	G01J5/60		86
+G01J2005/607	9	{on two separate detectors}	G01J5/60	G01J5/60		66
+G01J2005/608	9	{Colour temperature of light sources}	G01J5/60	G01J5/60		57
+G01J5/70	8	Passive compensation of pyrometer measurements, e.g. using ambient temperature sensing or sensing of temperature within housing<br><br><u>WARNING</u><br>Group G01J5/70 is incomplete pending reclassification of documents from group G01J5/064. <br>Groups G01J5/064 and G01J5/70 should be considered in order to perform a complete search.	G01J5/70	G01J5/70		270
+G01J5/80	8	Calibration (using comparison with reference sources G01J5/52)	G01J5/80	G01J5/80		1721
+G01J5/802	9	{by correcting for emissivity}	G01J5/80	G01J5/80		231
+G01J5/804	9	{using atmospheric correction}	G01J5/80	G01J5/80		86
+G01J5/806	9	{by correcting for reflection of the emitter radiation}	G01J5/80	G01J5/80		32
+G01J5/808	9	{using linearising circuits}	G01J5/80	G01J5/80		24
+G01J5/90	8	Testing, inspecting or checking operation of radiation pyrometers<br><br><u>WARNING</u><br>Group G01J5/90 is incomplete pending reclassification of documents from group G01J5/00.<br>Groups G01J5/00 and G01J5/90 should be considered in order to perform a complete search.	G01J5/90	G01J5/90		385
+G01J7/00	7	Measuring velocity of light	G01J7/00	G01J7/00		58
+G01J9/00	7	Measuring optical phase difference (devices or arrangements for controlling the phase of light beams G02F1/01); Determining degree of coherence; Measuring optical wavelength (spectrometry G01J3/00)	G01J9/00	G01J9/00		1505
+G01J2009/002	8	{Wavefront phase distribution}	G01J9/00	G01J9/00		315
+G01J2009/004	8	{Mode pattern}	G01J9/00	G01J9/00		19
+G01J2009/006	8	{using pulses for physical measurements}	G01J9/00	G01J9/00		37
+G01J2009/008	9	{using decay time in cavity}	G01J9/00	G01J9/00		1
+G01J9/02	8	by interferometric methods (using interferometers for measuring optically the linear dimensions of objects G01B9/02)	G01J9/02	G01J9/02		1173
+G01J2009/0203	9	{Phased array of beams}	G01J9/02	G01J9/02		20
+G01J2009/0207	9	{Double frequency, e.g. Zeeman}	G01J9/02	G01J9/02		13
+G01J2009/0211	9	{for measuring coherence}	G01J9/02	G01J9/02		55
+G01J9/0215	9	{by shearing interferometric methods}	G01J9/02	G01J9/02		270
+G01J2009/0219	10	{using two or more gratings}	G01J9/02	G01J9/02		36
+G01J2009/0223	9	{Common path interferometry;  Point diffraction interferometry}	G01J9/02	G01J9/02		39
+G01J2009/0226	9	{Fibres}	G01J9/02	G01J9/02		115
+G01J2009/023	10	{of the integrated optical type}	G01J9/02	G01J9/02		48
+G01J2009/0234	9	{Measurement of the fringe pattern}	G01J9/02	G01J9/02		72
+G01J2009/0238	10	{the pattern being processed optically, e.g. by Fourier transformation}	G01J9/02	G01J9/02		47
+G01J2009/0242	9	{Compensator}	G01J9/02	G01J9/02		16
+G01J9/0246	9	{Measuring optical wavelength}	G01J9/02	G01J9/02		426
+G01J2009/0249	9	{with modulation}	G01J9/02	G01J9/02		56
+G01J2009/0253	10	{of wavelength}	G01J9/02	G01J9/02		20
+G01J2009/0257	9	{multiple, e.g. Fabry Perot interferometer}	G01J9/02	G01J9/02		57
+G01J2009/0261	9	{polarised}	G01J9/02	G01J9/02		117
+G01J2009/0265	10	{with phase modulation}	G01J9/02	G01J9/02		33
+G01J2009/0269	9	{Microscope type}	G01J9/02	G01J9/02		15
+G01J2009/0273	9	{Ring interferometer}	G01J9/02	G01J9/02		10
+G01J2009/0276	9	{Stellar interferometer, e.g. Sagnac}	G01J9/02	G01J9/02		21
+G01J2009/028	9	{Types}	G01J9/02	G01J9/02		7
+G01J2009/0284	10	{Michelson}	G01J9/02	G01J9/02		49
+G01J2009/0288	10	{Machzehnder}	G01J9/02	G01J9/02		64
+G01J2009/0292	10	{Fizeau;  Wedge}	G01J9/02	G01J9/02		18
+G01J2009/0296	10	{achromatic}	G01J9/02	G01J9/02		5
+G01J9/04	8	by beating two waves of a same source but of different frequency and measuring the phase shift of the lower frequency obtained	G01J9/04	G01J9/04		362
+G01J11/00	7	Measuring the characteristics of individual optical pulses or of optical pulse trains	G01J11/00	G01J11/00		1346
+G01J2011/005	8	{Streak cameras}	G01J11/00	G01J11/00		35

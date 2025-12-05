@@ -5,18 +5,36 @@ Claude Sonnet 4.5 (Vertex AI) を使用した自動構成要件分割
 
 作成日: 2025年
 対象: 特許審査における先行文献調査実務
+
+最適化:
+- AsyncIO完全移行 (2025年ベストプラクティス)
+- Claude Prompt Caching (コスト90%削減、レイテンシ85%削減)
 """
 
 import json
 import time
+import asyncio
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Dict, List, Union, Optional
 import sys
+import logging
 
 # Google Cloud / Vertex AI
 from google.oauth2 import service_account
 from anthropic import AnthropicVertex
+
+# Retry logic
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+    AsyncRetrying
+)
+
+# ロギング設定
+logger = logging.getLogger(__name__)
 
 # PDF処理
 try:
@@ -77,6 +95,29 @@ class PatentStructureAnalyzer:
 
         with open(guide_path, 'r', encoding='utf-8') as f:
             return f.read()
+
+    async def _call_claude_with_retry(self, **kwargs):
+        """
+        リトライロジック付き非同期Claude API呼び出し
+
+        Args:
+            **kwargs: client.messages.createに渡すパラメータ
+
+        Returns:
+            Claude APIレスポンス
+        """
+        async for attempt in AsyncRetrying(
+            retry=retry_if_exception_type((Exception,)),
+            wait=wait_exponential(multiplier=1, min=1, max=60),
+            stop=stop_after_attempt(3),
+            reraise=True
+        ):
+            with attempt:
+                # AnthropicVertexは同期APIのため、asyncio.to_thread()でラップ
+                return await asyncio.to_thread(
+                    self.client.messages.create,
+                    **kwargs
+                )
 
     def load_patent_file(self, filepath: Union[str, Path]) -> str:
         """
@@ -146,18 +187,22 @@ class PatentStructureAnalyzer:
 
         return "\n".join([t for t in text_parts if t])
 
-    def build_prompt(self, patent_text: str) -> tuple[str, str]:
+    def build_prompt(self, patent_text: str) -> tuple[List[Dict], str]:
         """
-        Claude APIへのプロンプトを構築
+        Claude APIへのプロンプトを構築（Prompt Caching対応）
 
         Args:
             patent_text: 特許全文テキスト
 
         Returns:
-            (system_prompt, user_prompt) のタプル
+            (system_blocks, user_prompt) のタプル
+            system_blocksは cache_control 付きのブロックリスト
         """
-        # システムプロンプト：分割ガイドの内容
-        system_prompt = f"""あなたは特許審査における先行文献調査の専門家です。
+        # システムプロンプト：分割ガイドの内容（キャッシュ対象）
+        system_blocks = [
+            {
+                "type": "text",
+                "text": f"""あなたは特許審査における先行文献調査の専門家です。
 以下の「特許検索のための構成要件分割ガイド」に基づいて、特許の構成要件を分割・分析してください。
 
 {self.guide_content}
@@ -176,7 +221,37 @@ class PatentStructureAnalyzer:
 
 【注意点】
 - 細かすぎる分割は避ける（意味のある機能的・構造的まとまりを意識）
-- 発明の一体性を念頭に置く（要素の組み合わせで効果を奏する）"""
+- 発明の一体性を念頭に置く（要素の組み合わせで効果を奏する）
+
+【化学系の発明の場合】
+化学系では以下の要素で分割するのが基本です：
+
+化学物質の場合：
+
+基本骨格（コア構造）
+置換基の種類と位置
+立体配置
+物性値（融点、分子量など）
+製造方法に関する限定
+組成物の場合：
+
+主成分（有効成分）
+副成分・添加剤
+各成分の配合比率・範囲
+物性・用途
+製造方法の場合：
+
+原料物質
+反応条件（温度、圧力、時間）
+触媒・溶媒
+反応工程の順序
+
+過度に細分化せず、検索に実効性のある単位で分割
+化学構造が最も重要な要素の場合は構造検索を優先
+""",
+                "cache_control": {"type": "ephemeral"}
+            }
+        ]
 
         # ユーザープロンプト：特許全文と出力フォーマット指示
         user_prompt = f"""以下の特許データを分析し、構成要件を分割してください。
@@ -222,20 +297,20 @@ class PatentStructureAnalyzer:
 
 JSON配列のみを出力し、他の説明文は含めないでください。"""
 
-        return system_prompt, user_prompt
+        return system_blocks, user_prompt
 
-    def analyze(
+    async def analyze(
         self,
         patent_text: str,
-        max_tokens: int = 8000,
+        max_tokens: int = 16000,
         temperature: float = 0.0
     ) -> Dict:
         """
-        特許テキストを分析して構成要件を抽出
+        特許テキストを分析して構成要件を抽出（非同期版、Prompt Caching対応）
 
         Args:
             patent_text: 特許全文テキスト
-            max_tokens: 最大トークン数
+            max_tokens: 最大トークン数（16000、Vertex AIの10分タイムアウト対策）
             temperature: 温度パラメータ（0.0で決定的）
 
         Returns:
@@ -243,22 +318,26 @@ JSON配列のみを出力し、他の説明文は含めないでください。"
         """
         start_time = time.time()
 
-        # プロンプト構築
-        system_prompt, user_prompt = self.build_prompt(patent_text)
+        # プロンプト構築（Prompt Caching対応）
+        system_blocks, user_prompt = self.build_prompt(patent_text)
 
-        print("Claude API に送信中...")
+        print("Claude API に送信中（Prompt Caching有効）...")
 
         try:
-            # Claude API呼び出し
-            response = self.client.messages.create(
+            # Claude API呼び出し（リトライロジック付き、非同期、Prompt Caching対応）
+            response = await self._call_claude_with_retry(
                 model=self.model,
                 max_tokens=max_tokens,
                 temperature=temperature,
-                system=system_prompt,
+                system=system_blocks,  # cache_control付きブロックリスト
                 messages=[
                     {"role": "user", "content": user_prompt}
                 ]
             )
+
+            # stop_reasonチェック
+            if response.stop_reason == "max_tokens":
+                logger.warning(f"出力が最大トークン数（{max_tokens}）で切り捨てられました。特許が長すぎる可能性があります。")
 
             # レスポンスからテキストを抽出
             response_text = response.content[0].text
@@ -280,6 +359,30 @@ JSON配列のみを出力し、他の説明文は含めないでください。"
 
             json_text = response_text[json_start:json_end]
             構成要件リスト = json.loads(json_text)
+
+            # is_independentフラグを追加
+            # ルール: 「請求項X」で始まらない構成要素番号は独立請求項
+            # 例: 1a, 1b, 6a → 独立請求項、2a, 3a, 4a → 従属請求項（「請求項1に記載」で始まる）
+            for item in 構成要件リスト:
+                element_id = item.get('構成要素番号', '')
+                element_text = item.get('構成要素', '')
+
+                # 簡易判定: 構成要素が「請求項」で始まる場合は従属請求項
+                # より正確には、構成要素番号の最初の数字を見る
+                if element_text.startswith('請求項'):
+                    item['is_independent'] = False
+                elif element_id and len(element_id) >= 2:
+                    # 1a, 1b, 1c... は独立請求項（クレーム1）
+                    # 2a, 3a, 4a... は従属請求項の可能性があるが、構成要素テキストで判定
+                    if element_text.startswith('請求項'):
+                        item['is_independent'] = False
+                    else:
+                        # 最初の数字が1の場合は独立請求項と仮定
+                        # TODO: より正確な判定が必要な場合は、請求の範囲の構造を解析
+                        first_digit = element_id[0]
+                        item['is_independent'] = (first_digit == '1')
+                else:
+                    item['is_independent'] = True  # デフォルト
 
             # 処理時間
             processing_time = time.time() - start_time
@@ -311,19 +414,19 @@ JSON配列のみを出力し、他の説明文は含めないでください。"
                 "message": str(e)
             }
 
-    def analyze_file(
+    async def analyze_file(
         self,
         input_filepath: Union[str, Path],
         output_filepath: Optional[Union[str, Path]] = None,
-        max_tokens: int = 8000
+        max_tokens: int = 16000
     ) -> Dict:
         """
-        ファイルから特許データを読み込んで分析
+        ファイルから特許データを読み込んで分析（非同期版）
 
         Args:
             input_filepath: 入力ファイルパス
             output_filepath: 出力ファイルパス（Noneの場合は自動生成）
-            max_tokens: 最大トークン数
+            max_tokens: 最大トークン数（16000、Vertex AIの10分タイムアウト対策）
 
         Returns:
             分析結果の辞書
@@ -336,8 +439,8 @@ JSON配列のみを出力し、他の説明文は含めないでください。"
 
         print(f"テキスト抽出完了: {len(patent_text)} 文字")
 
-        # 分析実行
-        result = self.analyze(patent_text, max_tokens=max_tokens)
+        # 分析実行（非同期）
+        result = await self.analyze(patent_text, max_tokens=max_tokens)
 
         # ファイル情報を追加
         result["input_file"] = str(input_filepath)
@@ -391,12 +494,12 @@ JSON配列のみを出力し、他の説明文は含めないでください。"
             print(f"エラーメッセージ: {result['message']}")
 
 
-def main():
-    """メイン実行関数（コマンドライン用）"""
+async def main_async():
+    """非同期メイン実行関数（コマンドライン用）"""
     import argparse
 
     parser = argparse.ArgumentParser(
-        description='特許構成要件分割システム（Claude Sonnet 4.5 via Vertex AI）'
+        description='特許構成要件分割システム（Claude Sonnet 4.5 via Vertex AI + AsyncIO + Prompt Caching）'
     )
     parser.add_argument(
         'input_file',
@@ -424,8 +527,8 @@ def main():
     parser.add_argument(
         '-m', '--max-tokens',
         type=int,
-        default=8000,
-        help='最大トークン数'
+        default=16000,
+        help='最大トークン数（16000、Vertex AIの10分タイムアウト対策）'
     )
 
     args = parser.parse_args()
@@ -436,8 +539,8 @@ def main():
         project_id=args.project
     )
 
-    # 分析実行
-    result = analyzer.analyze_file(
+    # 分析実行（非同期）
+    result = await analyzer.analyze_file(
         input_filepath=args.input_file,
         output_filepath=args.output,
         max_tokens=args.max_tokens
@@ -448,6 +551,11 @@ def main():
 
     # 終了コード
     sys.exit(0 if result['status'] == 'success' else 1)
+
+
+def main():
+    """エントリーポイント（asyncioイベントループを起動）"""
+    asyncio.run(main_async())
 
 
 if __name__ == '__main__':

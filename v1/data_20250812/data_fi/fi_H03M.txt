@@ -1,0 +1,166 @@
+H03M   1/00  \	0	0	5J022	H03M   1/00	455	アナログ／デジタル変換；デジタル／アナログ変換（アナログ値から差分変調への変換または差分変調からアナログ値への変換Ｈ０３Ｍ３／００）［４］	Analogue/digital conversion; Digital/analogue conversion (conversion of analogue values to or from differential modulation H03M 3/00) [4]
+H03M   1/02  \	1	1	5J022	H03M   1/02	174	可逆性のあるアナログ／デジタル変換器［４］	Reversible analogue/digital converters [4]
+H03M   1/04  \	1	1	5J022	H03M   1/04	145	ストカステック技術を用いるもの［４］	using stochastic techniques [4]
+H03M   1/06  \	1	1	5J022	H03M   1/06	369	物理的パラメータによる不所望な影響の連続的な補償，または防止（周期的なものＨ０３Ｍ１／１０）［４］	Continuously compensating for, or preventing, undesired influence of physical parameters (periodically H03M 1/10) [4]
+H03M   1/08  \	2	2	5J022	H03M   1/08	30	雑音によるもの［４］	of noise [4]
+H03M   1/08  A	2	0	5J022	H03M   1/08	1086	アナログ／デジタル変換	Analogue-digital conversion
+H03M   1/08  B	2	0	5J022	H03M   1/08	744	デジタル／アナログ変換	Digital-analogue conversion
+H03M   1/08  Z	2	0	5J022	H03M   1/08	26	その他	Others
+H03M   1/10  \	1	1	5J022	H03M   1/10	41	較正または試験［４］	Calibration or testing [4]
+H03M   1/10  A	1	0	5J022	H03M   1/10	1992	アナログ／デジタル変換器の校正〔誤差・オフセツト除去〕	Calibration of the analogue-digital converter (error or offset removal)
+H03M   1/10  B	1	0	5J022	H03M   1/10	711	デジタル／アナログ変換器の校正〔誤差・オフセツト除去〕	Calibration of the digital-analogue converter (error or offset removal)
+H03M   1/10  C	1	0	5J022	H03M   1/10	856	アナログ／デジタル変換器の試験	Testing of the analogue-digital converter
+H03M   1/10  D	1	0	5J022	H03M   1/10	297	デジタル／アナログ変換器の試験	Testing of the digital-analogue converter
+H03M   1/10  Z	1	0	5J022	H03M   1/10	31	その他	Others
+H03M   1/12  \	1	1	5J022	H03M   1/12	55	アナログ／デジタル変換器（Ｈ０３Ｍ１／０２〜Ｈ０３Ｍ１／１０が優先）［４］	Analogue/digital converters (H03M 1/02-H03M 1/10 take precedence) [4]
+H03M   1/12  A	1	0	5J022	H03M   1/12	1328	入力部	Input unit
+H03M   1/12  B	1	0	5J022	H03M   1/12	373	出力部	Output unit
+H03M   1/12  C	1	0	5J022	H03M   1/12	2395	システム・その他	System, etc.
+H03M   1/12  Z	1	0	5J022	H03M   1/12	239	その他	Others
+H03M   1/14  \	2	2	5J022	H03M   1/14	24	各ステップが同じかまたは異なる変換手段を持ち，１ビットより多く出力するステップごとの変換［４］	Conversion in steps with each step involving the same or a different conversion means and delivering more than one bit [4]
+H03M   1/14  A	2	0	5J022	H03M   1/14	829	上位・下位の直列接続段	Upper/lower serial connection stage
+H03M   1/14  B	2	0	5J022	H03M   1/14	499	逐次・巡回・その他	Sequential, cyclic, etc.
+H03M   1/14  Z	2	0	5J022	H03M   1/14	11	その他	Others
+H03M   1/16  \	3	3	5J022	H03M   1/16	11	スケールファクタの修正を伴うもの，すなわち，ステップ間の振幅を変化させることによるもの［４］	with scale factor modification, i.e. by changing the amplification between the steps [4]
+H03M   1/16  A	3	0	5J022	H03M   1/16	33	上位・下位の直列接続段	Upper/lower serial connection stage
+H03M   1/16  B	3	0	5J022	H03M   1/16	11	逐次・巡回・その他	Sequential, cyclic, etc.
+H03M   1/16  Z	3	0	5J022	H03M   1/16	3	その他	Others
+H03M   1/18  \	2	2	5J022	H03M   1/18	1184	変換器が処理できる信号の範囲を修正するための自動制御，例．利得を変動するもの［４］	Automatic control for modifying the range of signals the converter can handle, e.g. gain ranging [4]
+H03M   1/20  \	2	2	5J022	H03M   1/20	310	ｎ＋ｍビットを得るためにｎビット方式を用いる分解能の増大，例．ディザリングによるもの［４］	Increasing resolution using an n bit system to obtain n + m bits, e.g. by dithering [4]
+H03M   1/22  \	2	2	5J022	H03M   1/22	158	パターン読出し形［４］	pattern-reading type [4]
+H03M   1/24  \	3	3	5J022	H03M   1/24	683	相対的に可動の読み取り装置および円板またはストリップを用いるもの［４，６］	using relatively movable reader and disc or strip [4,6]
+H03M   1/26  \	4	4	5J022	H03M   1/26	50	重みづけ符号化をするもの，すなわち，１つのデジットに与えられた重みはブロックまたは符号ワード内のデジットの位置に依存するもの，例．所定の基数があり，その重みはその基数のべきであるもの［４］	with weighted coding, i.e. the weight given to a digit depends on the position of the digit within the block or code word, e.g. there is a given radix and the weights are powers of this radix [4]
+H03M   1/28  \	4	4	5J022	H03M   1/28	34	非重みづけ符号化をするもの［４］	with non-weighted coding [4]
+H03M   1/30  \	5	5	5J022	H03M   1/30	11	増分するもの［４］	incremental [4]
+H03M   1/32  \	3	3	5J022	H03M   1/32	43	陰極線管を用いるもの［４］	using cathode-ray tubes [4]
+H03M   1/34  \	2	2	5J022	H03M   1/34	415	アナログ値が基準値と比較されるもの（Ｈ０３Ｍ１／４８が優先）［４］	Analogue value compared with reference values (H03M 1/48 takes precedence) [4]
+H03M   1/36  \	3	3	5J022	H03M   1/36	1323	同時にのみ行うもの，すなわち．並列形［４］	simultaneously only, i.e. parallel type [4]
+H03M   1/38  \	3	3	5J022	H03M   1/38	1334	逐次にのみ行うもの，例．逐次比較形（ステップ当り１ビットより多い変換Ｈ０３Ｍ１／１４）［４］	sequentially only, e.g. successive approximation type (converting more than one bit per step H03M 1/14) [4]
+H03M   1/40  \	4	4	5J022	H03M   1/40	104	再巡回形［４］	recirculation type [4]
+H03M   1/42  \	4	4	5J022	H03M   1/42	11	アナログ信号の値に変化させない直列接続段における逐次比較によるもの［４］	Sequential comparisons in series-connected stages with no change in value of analogue signal [4]
+H03M   1/44  \	4	4	5J022	H03M   1/44	436	アナログ信号の値に変化させる直列接続段における逐次比較によるもの［４］	Sequential comparisons in series-connected stages with change in value of analogue signal [4]
+H03M   1/46  \	4	4	5J022	H03M   1/46	358	変換器に基準値を供給するためのデジタル／アナログ変換器を持つもの［４］	with digital/analogue converter for supplying reference values to converter [4]
+H03M   1/48  \	2	2	5J022	H03M   1/48	97	追従比較形変換器［４］	Servo-type converters [4]
+H03M   1/50  \	2	2	5J022	H03M   1/50	425	時間間隔への中間変換を行うもの（Ｈ０３Ｍ１／６４が優先）［４］	with intermediate conversion to time interval (H03M 1/64 takes precedence) [4]
+H03M   1/52  \	3	3	5J022	H03M   1/52	698	入力信号を積分し，線形に既値へ戻すもの［４］	Input signal integrated with linear return to datum [4]
+H03M   1/54  \	3	3	5J022	H03M   1/54	124	入力信号を標本化し保持し，線形に既値へ戻すもの［４］	Input signal sampled and held with linear return to datum [4]
+H03M   1/56  \	3	3	5J022	H03M   1/56	749	入力信号を線形のランプ信号と比較するもの［４］	Input signal compared with linear ramp [4]
+H03M   1/58  \	3	3	5J022	H03M   1/58	135	非線形変換［４］	Non-linear conversion [4]
+H03M   1/60  \	2	2	5J022	H03M   1/60	345	パルス周波数への中間変換を行うもの［４］	with intermediate conversion to frequency of pulses [4]
+H03M   1/62  \	3	3	5J022	H03M   1/62	1	非線形変換［４］	Non-linear conversion [4]
+H03M   1/64  \	2	2	5J022	H03M   1/64	116	正弦波信号の位相への中間変換を行うもの［４］	with intermediate conversion to phase of sinusoidal signals [4]
+H03M   1/66  \	1	1	5J022	H03M   1/66	35	デジタル／アナログ変換器（Ｈ０３Ｍ１／０２〜Ｈ０３Ｍ１／１０が優先）［４］	Digital/analogue converters (H03M 1/02-H03M 1/10 take precedence) [4]
+H03M   1/66  A	1	0	5J022	H03M   1/66	316	入力部	Input unit
+H03M   1/66  B	1	0	5J022	H03M   1/66	410	出力部	Output unit
+H03M   1/66  C	1	0	5J022	H03M   1/66	868	システム・その他	System, etc.
+H03M   1/66  D	1	1	5J022	H03M   1/66	225	非線形変換〔１／８４，１／８８優先〕	Non-linear conversion (1/84 and 1/88 take precedence.)
+H03M   1/66  E	1	1	5J022	H03M   1/66	195	ＣＣＤを用いるもの	using CCD
+H03M   1/66  F	1	1	5J022	H03M   1/66	33	デジタル−シンクロ角度変換	Digital-synchronisation angle conversion
+H03M   1/66  Z	1	0	5J022	H03M   1/66	52	その他	Others
+H03M   1/68  \	2	2	5J022	H03M   1/68	606	異なる感度の変換を伴うもの，すなわち一方の変換が上位のデジタルビットに関連し，他方の変換が下位のデジタルビットに関連するもの［４］	with conversions of different sensitivity, i.e. one conversion relating to the more significant digital bits and another conversion to the less significant bits [4]
+H03M   1/70  \	2	2	5J022	H03M   1/70	195	変換器範囲を修正するための自動制御［４］	Automatic control for modifying converter range [4]
+H03M   1/72  \	2	2	5J022	H03M   1/72	27	直列接続段による逐次変換（Ｈ０３Ｍ１／６８が優先）［４］	Sequential conversion in series-connected stages (H03M 1/68 takes precedence) [4]
+H03M   1/74  \	2	2	5J022	H03M   1/74	1429	同時変換［４］	Simultaneous conversion [4]
+H03M   1/76  \	3	3	5J022	H03M   1/76	462	スイッチングツリーを用いるもの［４］	using switching tree [4]
+H03M   1/78  \	3	3	5J022	H03M   1/78	432	ラダー回路網を用いるもの［４］	using ladder network [4]
+H03M   1/80  \	3	3	5J022	H03M   1/80	177	重みづけられたインピーダンスを用いるもの（Ｈ０３Ｍ１／７６が優先）［４］	using weighted impedances (H03M 1/76 takes precedence) [4]
+H03M   1/82  \	2	2	5J022	H03M   1/82	823	時間間隔への中間変換を行うもの［４］	with intermediate conversion to time interval [4]
+H03M   1/84  \	3	3	5J022	H03M   1/84	39	非線形変換［４］	Non-linear conversion [4]
+H03M   1/86  \	2	2	5J022	H03M   1/86	42	パルス周波数への中間変換を行うもの［４］	with intermediate conversion to frequency of pulses [4]
+H03M   1/88  \	3	3	5J022	H03M   1/88	3	非線形変換［４］	Non-linear conversion [4]
+H03M   3/00  \	0	0	5J064	H03M   3/00	129	アナログ値から差分変調信号への変換または差分変調信号からアナログ値への変換［４］	Conversion of analogue values to or from differential modulation [4]
+H03M   3/02  \	1	1	5J064	H03M   3/02	2286	デルタ変調，すなわち．１ビット差分変調［４］	Delta modulation, i.e. one-bit differential modulation [4]
+H03M   3/04  \	1	1	5J064	H03M   3/04	630	数ビットの差分変調［４］	Differential modulation with several bits [4]
+H03M   5/00  \	0	0	5J064	H03M   5/00	124	個々のデジットの表現形式の変換［４］	Conversion of the form of the representation of individual digits
+H03M   5/02  \	1	1	5J064	H03M   5/02	33	パルスによる表現への変換またはパルスによる表現からの変換［４］	Conversion to or from representation by pulses [4]
+H03M   5/04  \	2	2	5J064	H03M   5/04	619	２値を持つパルスによるもの［４］	the pulses having two levels [4]
+H03M   5/06  \	3	3	5J064	H03M   5/06	303	そのビットセルの情報のみに依存している所定のビットセルに対する符号表現，例．遷移，によるもの［４］	Code representation, e.g. transition, for a given bit cell depending only on the information in that bit cell [4]
+H03M   5/08  \	4	4	5J064	H03M   5/08	345	パルス幅による符号表現［４］	Code representation by pulse width [4]
+H03M   5/10  \	4	4	5J064	H03M   5/10	43	パルス周波数による符号表現［４］	Code representation by pulse frequency [4]
+H03M   5/12  \	4	4	5J064	H03M   5/12	842	２位相レベル符号，例．位相分割符号，マンチェスタ符号；２位相スペース符号または２位相マーク符号，例．２重周波数符号［４］	Biphase level code, e.g. split phase code, Manchester code; Biphase space or mark code, e.g. double frequency code [4]
+H03M   5/14  \	3	3	5J064	H03M   5/14	319	隣接する１又はそれ以上のビットセルの情報に依存している所定のビットセルに対する符号表現，例．遷移，によるもの，例．遅延変調符号，２重重み符号［４］	Code representation, e.g. transition, for a given bit cell depending on the information in one or more adjacent bit cells, e.g. delay modulation code, double density code [4]
+H03M   5/16  \	2	2	5J064	H03M   5/16	485	３値を持つパルスによるもの［４］	the pulses having three levels [4]
+H03M   5/18  \	3	3	5J064	H03M   5/18	188	２つの値が３番目の値に対し対称であるもの，すなわち．平衡バイポーラ３進符号［４］	two levels being symmetrical with respect to the third level, i.e. balanced bipolar ternary code [4]
+H03M   5/20  \	2	2	5J064	H03M   5/20	327	３値より多い値を持つパルスによるもの［４］	the pulses having more than three levels [4]
+H03M   5/22  \	1	1	5J064	H03M   5/22	52	正弦波信号による表現への変換または正弦波信号による表現からの変換［４］	Conversion to or from representation by sinusoidal signals [4]
+H03M   7/00  \	0	0	5J064	H03M   7/00	1547	情報がデジットの所定の順序または数によって表現されている符号から，その同一の情報がデジットの異なる順序または数によって表現されている符号への変換［４］	Conversion of a code where information is represented by a given sequence or number of digits to a code where the same information is represented by a different sequence or number of digits
+H03M   7/02  \	1	1	5J064	H03M   7/02	273	重みづけ符号，すなわち．デジットへ与えられた重みはブロックまたは符号ワード内のそのデジット位置に依存するもの，への変換または重みづけ符号からの変換［４］	Conversion to or from weighted codes, i.e. the weight given to a digit depending on the position of the digit within the block or code word [4]
+H03M   7/04  \	2	2	5J064	H03M   7/04	291	その基数が２であるもの［４］	the radix thereof being two [4]
+H03M   7/06  \	2	2	5J064	H03M   7/06	89	その基数が２と異なる正の整数であるもの［４］	the radix thereof being a positive integer different from two [4]
+H03M   7/08  \	3	3	5J064	H03M   7/08	58	その基数が１０であるもの，すなわち．１０進符号［４］	the radix being ten, i.e. pure decimal code [4]
+H03M   7/10  \	2	2	5J064	H03M   7/10	0	その基数が負であるもの［４］	the radix thereof being negative [4]
+H03M   7/12  \	2	2	5J064	H03M   7/12	242	２つの基数をもつもの，例．２進化１０進符号［４］	having two radices, e.g. binary-coded-decimal code [4]
+H03M   7/14  \	1	1	5J064	H03M   7/14	97	非重みづけ符号への変換または非重みづけ符号からの変換［４］	Conversion to or from non-weighted codes [4]
+H03M   7/14  A	1	0	5J064	H03M   7/14	175	非重みづけ符号	Non-weighted code
+H03M   7/14  B	1	0	5J064	H03M   7/14	1272	Ｍ↓Ｂ→Ｎ↓Ｂ〔ビツト数〕変換	MB R NB (number of bits) conversion
+H03M   7/14  Z	1	0	5J064	H03M   7/14	69	その他のもの	Others
+H03M   7/16  \	2	2	5J064	H03M   7/16	158	ユニットデスタンス符号，例．グレイ符号，反射２進符号，への変換またはユニットデスタンス符号からの変換［４］	Conversion to or from unit-distance codes, e.g. Gray code, reflected binary code [4]
+H03M   7/18  \	2	2	5J064	H03M   7/18	18	剰余符号への変換または剰余符号からの変換［４］	Conversion to or from residue codes [4]
+H03M   7/20  \	2	2	5J064	H03M   7/20	64	ｎアウトオブｍ符号への変換またはｎアウトオブｍ符号からの変換［４］	Conversion to or from n-out-of-m codes [4]
+H03M   7/22  \	3	3	5J064	H03M   7/22	54	１アウトオブｍ符号への変換または１アウトオブｍ符号からの変換［４］	to or from one-out-of-m codes [4]
+H03M   7/24  \	2	2	5J064	H03M   7/24	66	浮動小数点符号への変換または浮動小数点符号からの変換［４］	Conversion to or from floating-point codes [4]
+H03M   7/26  \	1	1	5J064	H03M   7/26	1	ストカステック符号への変換またはストカステック符号からの変換［４］	Conversion to or from stochastic codes [4]
+H03M   7/28  \	1	1	5J064	H03M   7/28	41	プログラム可能な構成，すなわち，符号変換器に変換過程を修正するためにオペレーターによる変更が可能である装置を含むもの［４］	Programmable structures, i.e. where the code converter contains apparatus which is operator-changeable to modify the conversion process [4]
+H03M   7/30  \	1	1	5J064	H03M   7/30	1508	圧縮（冗長の減少のための音声分析−合成Ｇ１０Ｌ１９／００；画像通信用のＨ０４Ｎ）；伸張；不必要なデータの抑圧，例，冗長度の減少［４］	Compression (speech analysis-synthesis for redundancy reduction G10L 19/00; for image communication H04N); Expansion; Suppression of unnecessary data, e.g. redundancy reduction [4]
+H03M   7/30  A	1	0	5J064	H03M   7/30	4782	直交変換、アダマ−ル変換	Orthogonal transformation, Hadamard transformation
+H03M   7/30  B	1	0	5J064	H03M   7/30	1279	ベクトル量子化、ベクトル符号化	Vector quantisation, vector encoding
+H03M   7/30  Z	1	0	5J064	H03M   7/30	4589	その他のもの	Others
+H03M   7/32  \	2	2	5J064	H03M   7/32	535	デルタ変調信号，すなわち．１ビット差分変調信号，への変換またはデルタ変調信号からの変換［４］	Conversion to or from delta modulation, i.e. one-bit differential modulation [4]
+H03M   7/34  \	3	3	5J064	H03M   7/34	58	適応形［４］	adaptive [4]
+H03M   7/36  \	2	2	5J064	H03M   7/36	3142	数ビットの差分変調信号，すなわち．連続した標本の差を１ビットより多いビットで符号化したもの，への変換または数ビットの差分変調信号からの変換［４］	Conversion to or from differential modulation with several bits, i.e. the difference between successive samples being coded by more than one bit [4]
+H03M   7/38  \	3	3	5J064	H03M   7/38	682	適応形［４］	adaptive [4]
+H03M   7/40  \	2	2	5J064	H03M   7/40	3533	可変長符号，例．シャノン・ファノ符号，ハフマン符号，モールス符号，への変換または可変長符号からの変換［４］	Conversion to or from variable length codes, e.g. Shannon-Fano code, Huffman code, Morse code [4]
+H03M   7/42  \	3	3	5J064	H03M   7/42	757	符号化又は復号化過程で表引きを使うもの，例．リードオンリーメモリーを使うもの［４］	using table look-up for the coding or decoding process, e.g. using read-only memory [4]
+H03M   7/44  \	3	3	5J064	H03M   7/44	17	無関係な零の圧縮［４］	Suppression of irrelevant zeroes [4]
+H03M   7/46  \	2	2	5J064	H03M   7/46	936	ランレングス符号，すなわち．同じ種類の連続するデジットまたはデジットの群の数を符号ワードでまたその種類の指示を行っているデジットで表現することによるもの，への変換またはランレングス符号からの変換［４］	Conversion to or from run-length codes, i.e. by representing the number of consecutive digits, or groups of digits, of the same kind by a code word and a digit indicative of that kind [4]
+H03M   7/48  \	3	3	5J064	H03M   7/48	49	符号変換過程の間，他の符号と交替するもの，例．ランレングス符号化が同種のデジットの充分長い継続がある限り行なわれるもの［４］	alternating with other codes during the code conversion process, e.g. run-length coding being performed only as long as sufficiently long runs of digits of the same kind are present [4]
+H03M   7/50  \	2	2	5J064	H03M   7/50	360	非線形符号への変換または非線形符号からの変換，例．圧伸によるもの［４］	Conversion to or from non-linear codes, e.g. companding [4]
+H03M   9/00  \	0	0	5J064	H03M   9/00	45	並列直列変換またはその逆の変換（情報がステップ形式で移動するデジタル記憶装置Ｇ１１Ｃ１９／００）［４］	Parallel/series conversion or <u>vice versa</u> (digital stores in which the information is moved stepwise G11C 19/00) [4]
+H03M   9/00 100 \	0	0	5J064	H03M   9/00	419	直列←→並列変換	to series or to parallel conversion
+H03M   9/00 200 \	0	0	5J064	H03M   9/00	500	並列−→直列変換	parallel to series conversion
+H03M   9/00 300 \	0	0	5J064	H03M   9/00	516	直列−→並列変換	series to parallel conversion
+H03M  11/00  \	0	0	5B020	H03M  11/00	175	キーボードまたはその類似装置に関連する符号化，すなわち操作されたキーの位置の符号化（キーボードスイッチ装置，符号器とキーボードとの構造的な結合Ｈ０１Ｈ１３／７０，Ｈ０３Ｋ１７／９４）［４］	Coding in connection with keyboards or like devices, i.e. coding of the position of operated keys (keyboard switch arrangements, structural association of coders and keyboards H01H13/70, H03K17/94) [4]
+H03M  11/00 300 \	1	1	5B020	H03M  11/00	28	ファントムキーの検出と未然防止	Phantom keys detection and prevention
+H03M  11/00 600 \	1	1	5B020	H03M  11/00	8	キーボードの不正な復号化の防止策	Measures for preventing unauthorised decoding of keyboards
+H03M  11/02  \	1	1	5B020	H03M  11/02	110	細部［５］	Details [5]
+H03M  11/04  \	2	2	5B020	H03M  11/04	77	多機能キーの符号化［５］	Coding of multifunction keys [5]
+H03M  11/06  \	3	3	5B020	H03M  11/06	42	多機能キーそれ自体をいろいろな方法で操作することによるもの［５］	by operating the multifunction key itself in different ways [5]
+H03M  11/08  \	4	4	5B020	H03M  11/08	1135	多機能キーを選択組み合わせて操作することによるもの［５］	by operating selected combinations of multifunction keys [5]
+H03M  11/10  \	4	4	5B020	H03M  11/10	638	キー操作の継続時間または圧力の検出に基づく方法によるもの［５］	by methods based on duration or pressure detection of keystrokes [5]
+H03M  11/12  \	4	4	5B020	H03M  11/12	633	あるキーを選択した回数だけ連続して操作し，その後，別に設けられた一連の操作の終了を示すエンターキーを押すことによるもの［５］	by operating a key a selected number of consecutive times whereafter a separate enter key is used which marks the end of the series [5]
+H03M  11/14  \	3	3	5B020	H03M  11/14	1183	多機能キーによって遂行される機能を決定する付加キーを用いるもの，例．シフトキーを用いるもの［５］	by using additional keys, e.g. shift keys, which determine the function performed by the multifunction key [5]
+H03M  11/16  \	4	4	5B020	H03M  11/16	799	多機能キーの操作後にシフトキーが操作されるもの［５］	wherein the shift keys are operated after the operation of the multifunction keys [5]
+H03M  11/18  \	4	4	5B020	H03M  11/18	803	多機能キーの操作前にシフトキーが操作されるもの［５］	wherein the shift keys are operated before the operation of the multifunction keys [5]
+H03M  11/20  \	1	1	5B020	H03M  11/20	982	動的符号化，すなわちキー走査によるもの（Ｈ０３Ｍ１１／２６が優先）［５］	Dynamic coding, i.e. by key scanning (H03M11/26 takes precedence) [5]
+H03M  11/22  \	1	1	5B020	H03M  11/22	1278	静的符号化（Ｈ０３Ｍ１１／２６が優先）［５］	Static coding (H03M11/26 takes precedence) [5]
+H03M  11/24  \	2	2	5B020	H03M  11/24	243	アナログ手段を用いるもの［５］	using analogue means [5]
+H03M  11/26  \	1	1	5B020	H03M  11/26	376	オプトエレクトロニクス手段を用いるもの［５］	using opto-electronic means [5]
+H03M  13/00  \	0	0	5J065	H03M  13/00	3784	誤りの検出または誤りの訂正のための符号化，復号化または符号変換；符号理論の基本的仮定；符号化の限界式；誤り確率の評価方法；通信路モデル；符号のシミュレーションまたは試験（アナログ／デジタル変換，デジタル／アナログ変換または符号変換のための誤りの検出または誤りの訂正Ｈ０３Ｍ１／００〜Ｈ０３Ｍ１１／００；デジタル計算器に特に適合するものＧ０６Ｆ１１／０８；記録担体と変換器との間の相対運動に基づいた情報記憶のためのものＧ１１Ｂ，例．Ｇ１１Ｂ２０／１８；静的記憶のためのものＧ１１Ｃ）［４，７］	Coding, decoding or code conversion, for error detection or error correction; Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes (error detection or error correction for analogue/digital, digital/analogue or code conversion H03M 1/00-H03M 11/00; specially adapted for digital computers G06F 11/08, for information storage based on relative movement between record carrier and transducer G11B, e.g. G11B 20/18, for static stores G11C) [4,7]
+H03M  13/01  \	1	1	5J065	H03M  13/01	166	符号理論の基本的仮定；符号化の限界式；誤り確率の評価方法；通信路モデル；符号のシミュレーションまたは試験［７］	Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes [7]
+H03M  13/03  \	1	1	5J065	H03M  13/03	42	データ表現の冗長性に基づく誤り検出または前方向誤り訂正，すなわち，符号後が元の語より多くのデジットを含むもの［７］	Error detection or forward error correction by redundancy in data representation, i.e. code words containing more digits than the source words [7]
+H03M  13/05  \	2	2	5J065	H03M  13/05	99	ブロック符号を用いるもの，すなわち，事前に決めた数の検査ビットを事前に決めた数の情報ビットに付加するもの［７］	using block codes, i.e. a predetermined number of check bits joined to a predetermined number of information bits [7]
+H03M  13/07  \	3	3	5J065	H03M  13/07	6	算術符号［７］	Arithmetic codes [7]
+H03M  13/09  \	3	3	5J065	H03M  13/09	449	誤り検出のみ，例，巡回冗長検査［ＣＲＣ］符号，または単一パリティ・ビットを用いるもの［７］	Error detection only, e.g. using cyclic redundancy check (CRC) codes or single parity bit [7]
+H03M  13/11  \	3	3	5J065	H03M  13/11	110	複数のパリティ・ビットを用いるもの［７］	using multiple parity bits [7]
+H03M  13/13  \	3	3	5J065	H03M  13/13	303	線形符号［７］	Linear codes [7]
+H03M  13/15  \	4	4	5J065	H03M  13/15	793	巡回符号，すなわち，符号語を巡回シフトすると別の符号語となるもの，例，生成多項式で定義される符号，ボーズ・チョドーリ・オッケンジェム［Ｂｏｓｅ−Ｃｈａｕｄｈｕｒｉ−Ｈｏｃｑｕｅｎｇｈｅｍ］［ＢＣＨ］符号（Ｈ０３Ｍ１３／１７が優先）［７］	Cyclic codes, i.e. cyclic shifts of codewords produce other codewords, e.g. codes defined by a generator polynomial, Bose-Chaudhuri-Hocquenghem (BCH) codes (H03M 13/17 takes precedence) [7]
+H03M  13/17  \	4	4	5J065	H03M  13/17	9	バースト誤り訂正，例，誤りトラッピング，ファイア符号［７］	Burst error correction, e.g. error trapping, Fire codes [7]
+H03M  13/19  \	4	4	5J065	H03M  13/19	1632	巡回符号の特性を使わない，単一誤り訂正，例，ハミング符号，拡大または一般化されたハミング符号［７］	Single error correction without using particular properties of the cyclic codes, e.g. Hamming codes, extended or generalised Hamming codes [7]
+H03M  13/21  \	3	3	5J065	H03M  13/21	17	非線形符号，例，誤り検出または誤り訂正を伴う，ｍビット・データ語からｎ−ビットデータ語への［ｍＢｎＢ］変換［７］	Non-linear codes, e.g. m-bit data word to n-bit code word (mBnB) conversion with error detection or error correction [7]
+H03M  13/23  \	2	2	5J065	H03M  13/23	1817	たたみ込み符号を用いるもの，例．ユニット・メモリ符号［７］	using convolutional codes, e.g. unit memory codes [7]
+H03M  13/25  \	1	1	5J065	H03M  13/25	439	信号空間符号化による誤り検出または前方向誤り訂正，すなわち，信号点配置に冗長性を付加するもの，例．トレリス符号化変調［ＴＣＭ］［７］	Error detection or forward error correction by signal space coding, i.e. adding redundancy in the signal constellation, e.g. Trellis Coded Modulation (TCM) [7]
+H03M  13/27  \	1	1	5J065	H03M  13/27	2007	インターリーブ技術を用いるもの［７］	using interleaving techniques [7]
+H03M  13/29  \	1	1	5J065	H03M  13/29	1576	二つ以上の符号または符号構造を組み合わせるもの，例．積符号，一般化された積符号，連接符号，内符号および外符号［７］	combining two or more codes or code structures, e.g. product codes, generalised product codes, concatenated codes, inner and outer codes [7]
+H03M  13/31  \	1	1	5J065	H03M  13/31	8	誤り検出または訂正のための符号化，および，スペクトルを効率的に利用するための符号化の組み合わせ（誤り検出または訂正を行わないものＨ０３Ｍ５／１４）［７］	combining coding for error detection or correction and efficient use of the spectrum (without error detection or correction H03M 5/14) [7]
+H03M  13/33  \	1	1	5J065	H03M  13/33	41	誤り符号化または復号化に基づく同期［７］	Synchronisation based on error coding or decoding [7]
+H03M  13/35  \	1	1	5J065	H03M  13/35	234	不均一誤り保護又は適応形の誤り保護，例．元の情報の重要性に応じて，異なるレベルの保護を与えるもの，または，伝送チャンネルの性質の変化に応じて符号化を適応させるもの［７］	Unequal or adaptive error protection, e.g. by providing a different level of protection according to significance of source information or by adapting the coding according to the change of transmission channel characteristics [7]
+H03M  13/37  \	1	1	5J065	H03M  13/37	210	Ｈ０３Ｍ１３／０３〜Ｈ０３Ｍ１３／３５までのグループに分類されている特定の種類の符号化に限定されない，復号化の方法または技術［７］	Decoding methods or techniques, not specific to the particular type of coding provided for in groups H03M 13/03-H03M 13/35 [7]
+H03M  13/39  \	2	2	5J065	H03M  13/39	288	系列推定，すなわち，元の符号を再構築するために統計的方法を用いるもの［７］	Sequence estimation, i.e using statistical methods for the reconstruction of the original codes [7]
+H03M  13/41  \	3	3	5J065	H03M  13/41	910	ビタビ・アルゴリズムまたはビタビ・プロセッサを用いるもの［７］	using the Viterbi algorithm or Viterbi processors [7]
+H03M  13/43  \	2	2	5J065	H03M  13/43	28	多数決論理復号，または，しきい値復号［７］	Majority logic or threshold decoding [7]
+H03M  13/45  \	2	2	5J065	H03M  13/45	640	ソフト・デコーディング，すなわち，記号の信頼性情報を用いるもの（Ｈ０３Ｍ１３／４１が優先）［７］	Soft decoding, i.e. using symbol reliability information (H03M 13/41 takes precedence) [7]
+H03M  13/47  \	1	1	5J065	H03M  13/47	175	Ｈ０３Ｍ１３／０１〜Ｈ０３Ｍ１３／３７までのグループに分類されない，誤り検出，前方向誤り訂正，あるいは誤り保護［７］	Error detection, forward error correction or error protection, not provided for in groups H03M 13/01-H03M 13/37 [7]
+H03M  13/49  \	2	2	5J065	H03M  13/49	0	単方向の誤り検出または訂正［７］	Unidirectional error detection or correction [7]
+H03M  13/51  \	2	2	5J065	H03M  13/51	72	一定重みの符号；ｎアウトオブｍ符号；バーガー符号［７］	Constant weight codes; n-out-of-m codes; Berger codes [7]
+H03M  13/53  \	2	2	5J065	H03M  13/53	3	フィボナッチ数系列を用いる符号［７］	Codes using Fibonacci numbers series [7]
+H03M  99/00  \	0	0	5J065	H03M  99/00	0	このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass [8]

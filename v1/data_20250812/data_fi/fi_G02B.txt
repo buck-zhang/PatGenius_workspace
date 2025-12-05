@@ -1,0 +1,617 @@
+G02B   1/00  \	0	0	2K010	G02B   1/00	2831	使用物質によって特徴づけられた光学要素；光学要素のための光学的コーティング［２００６．０１］	Optical elements characterised by the material of which they are made; Optical coatings for optical elements [1, 2006.01]
+G02B   1/02  \	1	1	2K010	G02B   1/02	2058	結晶，例．岩塩，半導体，で作られたもの（Ｇ０２Ｂ１／０８が優先）	made of crystals, e.g. rock-salt, semiconductors (G02B 1/08 takes precedence)
+G02B   1/04  \	1	1	2K010	G02B   1/04	11055	有機物質，例．合成樹脂，で作られたもの（Ｇ０２Ｂ１／０８が優先）	made of organic materials, e.g. plastics (G02B 1/08 takes precedence)
+G02B   1/06  \	1	1	2K010	G02B   1/06	195	透明セルの中の流体で作られたもの	made of fluids in transparent cells
+G02B   1/08  \	1	1	2K010	G02B   1/08	481	偏光物質で作られたもの	made of polarising materials
+G02B   1/10  \	1	1	2K009	G02B   1/10	1284	光学要素への塗布または表面処理によって作られた光学的コーティング（Ｇ０２Ｂ１／０８が優先）［１，２０１５．０１］	Optical coatings produced by application to, or surface treatment of, optical elements (G02B 1/08 takes precedence) [1, 2015.01]
+G02B   1/11  \	2	2	2K009	G02B   1/11	1514	反射防止コーティング［６，２０１５．０１］	Anti-reflection coatings  [2015.01]
+G02B   1/111  \	3	3	2K009	G02B   1/111	5294	有機材料を含む層を使用するもの［２０１５．０１］	using layers comprising organic materials  [2015.01]
+G02B   1/113  \	3	3	2K009	G02B   1/113	1130	無機の層材料のみを使用するもの［２０１５．０１］	using inorganic layer materials only  [2015.01]
+G02B   1/115  \	4	4	2K009	G02B   1/115	3757	複数の層からなるもの［２０１５．０１］	Multilayers  [2015.01]
+G02B   1/116  \	5	5	2K009	G02B   1/116	382	導電性層を含むもの［２０１５．０１］	including electrically conducting layers [2015.01]
+G02B   1/118  \	3	3	2K009	G02B   1/118	1894	透過率向上のための光学的サブ波長表面構造を有するもの，例．モスアイ構造［２０１５．０１］	having sub-optical wavelength surface structures designed to provide an enhanced transmittance, e.g. moth-eye structures  [2015.01]
+G02B   1/12  \	2	2	2K009	G02B   1/12	181	表面処理によるもの，例．照射によるもの	by surface treatment, e.g. by irradiation
+G02B   1/14  \	2	2	2K009	G02B   1/14	8341	保護コーティング，例．ハードコーティング［２０１５．０１］	Protective coatings, e.g. hard coatings  [2015.01]
+G02B   1/16  \	2	2	2K009	G02B   1/16	1996	帯電防止効果を有するもの，例．導電性コーティング［２０１５．０１］	having an anti-static effect, e.g. electrically conducting coatings  [2015.01]
+G02B   1/18  \	2	2	2K009	G02B   1/18	2771	光学的表面のための防汚コーティング，例．疎水性または光触媒性フィルム（Ｇ０２Ｂ１／１６が優先）［２０１５．０１］	Coatings for keeping optical surfaces clean, e.g. hydrophobic or photo-catalytic films(G02B1/16 takes precedence)  [2015.01]
+G02B   3/00  \	0	0	2K010	G02B   3/00	1066	単レンズまたは複合レンズ［２００６．０１］	Simple or compound lenses [1, 2006.01]
+G02B   3/00  A	0	0	2K010	G02B   3/00	9349	レンズアレイ	Lens arrays
+G02B   3/00  B	0	0	2K010	G02B   3/00	1485	屈折率分布型	Of varying refraction indices
+G02B   3/00  Z	0	0	2K010	G02B   3/00	7768	その他	Others
+G02B   3/02  \	1	1	2K010	G02B   3/02	1184	非球面をもつもの（Ｇ０２Ｂ３／１０が優先）	with non-spherical faces (G02B 3/10 takes precedence)
+G02B   3/04  \	2	2	2K010	G02B   3/04	328	真の球面ではない回転対称的連続面をもつもの	with continuous faces that are rotationally symmetrical but deviate from a true sphere
+G02B   3/06  \	2	2	2K010	G02B   3/06	1979	シリンドリカル面またはトーリック面をもつもの	with cylindrical or toric faces
+G02B   3/08  \	2	2	2K010	G02B   3/08	3709	不連続面をもつもの，例．フレネルレンズ	with discontinuous faces, e.g. Fresnel lens
+G02B   3/10  \	1	1	2K010	G02B   3/10	504	二重焦点レンズ；多重焦点レンズ	Bifocal lenses; Multifocal lenses
+G02B   3/12  \	1	1	2K010	G02B   3/12	410	流体を満たしまたは空にできるレンズ	Fluid-filled or evacuated lenses
+G02B   3/14  \	2	2	2K010	G02B   3/14	1514	可変焦点距離のもの	of variable focal length
+G02B   5/00  \	0	0	2H042	G02B   5/00	1124	レンズ以外の光学要素（ライトガイドＧ０２Ｂ６／００；光学的論理素子Ｇ０２Ｆ３／００）［２００６．０１］	Optical elements other than lenses (light guides G02B 6/00; optical logic elements G02F 3/00) [1, 4, 2006.01]
+G02B   5/00  A	0	0	2H042	G02B   5/00	1638	光量調節（可変のものＧ０２Ｂ２６／００，Ｇ０２Ｆ）	Controlling amount of lights (variable G02B26/00, G 02 F)
+G02B   5/00  B	0	1	2H042	G02B   5/00	3269	迷光除去	Removing stray lights
+G02B   5/00  C	0	0	2H042	G02B   5/00	257	光束分割	Splitting light beams
+G02B   5/00  Z	0	0	2H042	G02B   5/00	2941	その他のもの	Others
+G02B   5/02  \	1	1	2H042	G02B   5/02	674	拡散性要素；アフォーカル要素	Diffusing elements; Afocal elements
+G02B   5/02  A	1	0	2H042	G02B   5/02	728	拡散性要素	Diffusing elements
+G02B   5/02  B	1	1	2H042	G02B   5/02	7558	振巾拡散要素	Amplitude diffusing elements
+G02B   5/02  C	1	2	2H042	G02B   5/02	6004	表面形状に特徴のあるもの	Characterised by surface profiles
+G02B   5/02  D	1	1	2H042	G02B   5/02	193	位相拡散要素	Phase diffusion elements
+G02B   5/02  E	1	0	2H042	G02B   5/02	12	アフォーカル要素	Aforcal elements
+G02B   5/02  Z	1	0	2H042	G02B   5/02	150	その他のもの	Others
+G02B   5/04  \	1	1	2H042	G02B   5/04	949	プリズム	Prisms
+G02B   5/04  A	1	0	2H042	G02B   5/04	2410	複合プリズム，例．フレネルプリズムまたは複数のプリズムを貼合せたもの	Combined prisms, e.g. pasting Fresnel prisms or plurality of prisms
+G02B   5/04  B	1	0	2H042	G02B   5/04	955	光束分割；合成用	for splitting light beams; for synthesising light beams
+G02B   5/04  C	1	0	2H042	G02B   5/04	456	分光用	For spectroscopic
+G02B   5/04  D	1	0	2H042	G02B   5/04	536	偏光用	For polarising
+G02B   5/04  E	1	0	2H042	G02B   5/04	385	製法	Manufacturing methods
+G02B   5/04  F	1	0	2H042	G02B   5/04	844	特定の機器のために特に適したもの	Particularly suitable for particular devices
+G02B   5/04  G	1	1	2H042	G02B   5/04	313	カメラ用	For cameras
+G02B   5/04  Z	1	0	2H042	G02B   5/04	374	その他のもの	Others
+G02B   5/06  \	2	2	2H042	G02B   5/06	96	流体を満たしまたは空にできるプリズム	Fluid-filled or evacuated prisms
+G02B   5/08  \	1	1	2H042	G02B   5/08	3890	反射鏡	Mirrors
+G02B   5/08  A	1	0	2H042	G02B   5/08	5511	鏡体断面構造及びその材料	Cross sectional structures of mirrors and materials thereof
+G02B   5/08  C	1	0	2H042	G02B   5/08	1954	製法	Manufacturing methods
+G02B   5/08  D	1	0	2H042	G02B   5/08	711	光束分割用	For splitting light beams
+G02B   5/08  E	1	0	2H042	G02B   5/08	170	防眩用	For blare shield
+G02B   5/08  F	1	0	2H042	G02B   5/08	387	防曇；防塵；冷却	For anti-fogging; For anti-dust; For cooling
+G02B   5/08  Z	1	0	2H042	G02B   5/08	1174	その他のもの	Others
+G02B   5/09  \	2	2	2H042	G02B   5/09	1084	多面体鏡または多角形鏡［６］	Multifaceted or polygonal mirrors [6]
+G02B   5/10  \	2	2	2H042	G02B   5/10	1248	曲面をもつもの	with curved faces
+G02B   5/10  A	2	0	2H042	G02B   5/10	1035	面形状	Surface profiles
+G02B   5/10  B	2	0	2H042	G02B   5/10	550	曲率を変えられるもの	Variable curvatures
+G02B   5/10  C	2	0	2H042	G02B   5/10	553	製法；材料	Manufacturing methods; Materials
+G02B   5/10  Z	2	0	2H042	G02B   5/10	314	その他のもの	Others
+G02B   5/12  \	1	1	2H042	G02B   5/12	1002	再帰反射体	Reflex reflectors
+G02B   5/122  \	2	2	2H042	G02B   5/122	268	キュービック・コーナー，三面または三反射体型［２］	cube corner, trihedral or triple reflector type [2]
+G02B   5/124  \	3	3	2H042	G02B   5/124	576	複数の反射素子が見掛上単一の平面または薄板の一部を構成するもの［２］	plural reflecting elements forming apparently part of a unitary plate or sheet [2]
+G02B   5/126  \	2	2	2H042	G02B   5/126	41	湾曲した屈折面を有するもの［２］	including curved refracting surface [2]
+G02B   5/128  \	3	3	2H042	G02B   5/128	569	母材中に透明な球を埋込んだもの［２］	transparent spheres being embedded in matrix [2]
+G02B   5/13  \	3	3	2H042	G02B   5/13	48	複数の湾曲した屈折素子が見掛上単一部材の一部を構成するもの［２］	plural curved refracting elements forming part of a unitary body [2]
+G02B   5/132  \	3	3	2H042	G02B   5/132	4	個々の反射体の装着手段を有するもの［２］	with individual reflector mounting means [2]
+G02B   5/134  \	4	4	2H042	G02B   5/134	1	ねじ止め装着部材をもつもの［２］	including a threaded mounting member [2]
+G02B   5/136  \	2	2	2H042	G02B   5/136	77	複数の反射素子が見掛上単一体の一部を構成するもの（Ｇ０２Ｂ５／１２４が優先）［２］	plural reflecting elements forming apparently part of a unitary body (G02B 5/124 takes precedence) [2]
+G02B   5/18  \	1	1	2H249	G02B   5/18	11018	回折格子	Diffracting gratings
+G02B   5/20  \	1	1	2H148	G02B   5/20	6598	フィルター（偏光要素Ｇ０２Ｂ５／３０）［２００６．０１］	Filters (polarising elements G02B 5/30) [1, 2006.01]
+G02B   5/20 101 \	2	2	2H148	G02B   5/20	25343	カラーストライプフィルター，カラーモザイクフィルター	Colour stripe filters or colour mosaic filters
+G02B   5/22  \	2	2	2H148	G02B   5/22	9308	吸収フィルター	Absorbing filters
+G02B   5/23  \	3	3	2H148	G02B   5/23	1021	フォトクロミックフィルター［２］	Photochromic filters [2]
+G02B   5/24  \	3	3	2H148	G02B   5/24	69	液体フィルター（Ｇ０２Ｂ５／２３が優先）［２］	Liquid filters (G02B 5/23 takes precedence) [2]
+G02B   5/26  \	2	2	2H148	G02B   5/26	3745	反射フィルター（Ｇ０２Ｂ５／２８が優先）	Reflecting filters (G02B 5/28 takes precedence)
+G02B   5/28  \	2	2	2H148	G02B   5/28	6415	干渉フィルター	Interference filters
+G02B   5/30  \	1	1	2H149	G02B   5/30	41487	偏光要素（能動素子が付いた光変調装置Ｇ０２Ｆ１／００）［２００６．０１］	Polarising elements (light-modulating devices with active elements G02F 1/00) [1, 2006.01]
+G02B   5/32  \	1	1	2H249	G02B   5/32	4390	光学素子として用いられるホログラム［２００６．０１］	Holograms used as optical elements [2, 2006.01]
+G02B   6/00  \	0	0	2H038	G02B   6/00	200	ライトガイド；ライトガイドおよびその他の光素子，例．カップリング，からなる装置の構造的細部［４，６］	Light guides [4]
+G02B   6/00  A	0	0	2H038	G02B   6/00	1115	ファイバの測定〔帯域，屈折率，減衰等〕に関連するもの	Related to measuring fibres (range, reflective index, attenuation)
+G02B   6/00  B	0	0	2H038	G02B   6/00	2635	計測，検知に適用したもの	Applications to measurement or detection
+G02B   6/00  C	0	0	2H038	G02B   6/00	968	光通信用	For optical communications
+G02B   6/00  D	0	0	2H038	G02B   6/00	512	表示用	For displaying
+G02B   6/00  E	0	0	2H038	G02B   6/00	871	制御，変調	Control or modulation
+G02B   6/00  Z	0	0	2H038	G02B   6/00	265	その他のもの	Others
+G02B   6/00 301 \	1	1	2H038	G02B   6/00	1716	導光のための構造	Structures for guiding the light
+G02B   6/00 321 \	2	2	2H038	G02B   6/00	156	光遅延素子	Optical delay elements
+G02B   6/00 326 \	2	2	2H038	G02B   6/00	1091	光ラジエータ	Optical radiators
+G02B   6/00 331 \	1	1	2H038	G02B   6/00	9315	照明	Illumination
+G02B   6/02  \	1	1	2H250	G02B   6/02	105	クラッドを有する光ファイバ［２００６．０１］	Optical fibres with cladding [4, 2006.01]
+G02B   6/02  A	1	0	2H250	G02B   6/02	598	光学的特性の変化を利用するもの，例．検知用のもの	Utilizing changes in optical properties e.g. for detecting
+G02B   6/02  B	1	0	2H250	G02B   6/02	825	パワー伝送用のもの	For transmitting power
+G02B   6/02  C	1	0	2H250	G02B   6/02	223	金属反射膜を有するもの	With metallic reflecting films
+G02B   6/02  Z	1	0	2H250	G02B   6/02	1451	その他のもの	Others
+G02B   6/02 356 \	2	2	2H250	G02B   6/02	42	製造方法	manufacturing method
+G02B   6/02 356 A	2	0	2H250	G02B   6/02	6789	ガラスファイバ	glass fiber
+G02B   6/02 356 Z	2	0	2H250	G02B   6/02	189	その他のもの	Others
+G02B   6/02 361 \	3	3	2H250	G02B   6/02	117	プラスチッククラッドファイバの製造方法	manufacturing method of plastic clad fiber
+G02B   6/02 366 \	3	3	2H250	G02B   6/02	1136	プラスチックファイバの製造方法	manufacturing method of plastic fiber
+G02B   6/02 371 \	3	3	2H250	G02B   6/02	203	結晶ファイバの製造方法	manufacturing method of crystal fiber
+G02B   6/02 376 \	2	2	2H250	G02B   6/02	65	材質	quality of material
+G02B   6/02 376 A	2	0	2H250	G02B   6/02	1088	ガラスファイバ	glass fiber
+G02B   6/02 376 B	2	1	2H250	G02B   6/02	441	材質に特徴を有し通信用以外に適用したもの	characterized by quality of material and applied to non-communication area
+G02B   6/02 376 Z	2	0	2H250	G02B   6/02	190	その他のもの	Others
+G02B   6/02 386 \	3	3	2H250	G02B   6/02	356	プラスチッククラッドファイバの材質	quality of plastic clad fiber materials
+G02B   6/02 391 \	3	3	2H250	G02B   6/02	1709	プラスチックファイバの材質	quality of plastic fiber materials
+G02B   6/02 396 \	3	3	2H250	G02B   6/02	210	結晶ファイバの材質	quality of plastic fiber materials
+G02B   6/02 401 \	2	2	2H250	G02B   6/02	526	断面構造（Ｇ０２Ｂ６／０２，４５１；Ｇ０２Ｂ６／０２，４６１；Ｇ０２Ｂ６／０３６が優先）	cross section structure (G02B6/02, 4512; G02B6/02, 461; G02B6/036 takes orecedence)
+G02B   6/02 406 \	3	3	2H250	G02B   6/02	58	一点支持コア	single point core
+G02B   6/02 411 \	2	2	2H250	G02B   6/02	1633	長さ方向の構造	structure of longdirection
+G02B   6/02 416 \	3	3	2H250	G02B   6/02	1625	回折格子を構成するもの	composing diffraction gating
+G02B   6/02 421 \	2	2	2H250	G02B   6/02	1920	端部構造	edge portion structure
+G02B   6/02 426 \	3	3	2H250	G02B   6/02	118	光吸収装置としての，例．無反射終端	as light absorbing device, e.g. reflection free termination
+G02B   6/02 431 \	2	2	2H038	G02B   6/02	262	フィルタ	filter
+G02B   6/02 436 \	2	2	2H038	G02B   6/02	277	減衰器	attenuator
+G02B   6/02 441 \	2	2	2H038	G02B   6/02	44	アイソレータ（Ｇ０２Ｂ６／２７，３０１が優先）	isolator (G02B6/27, 301 takes precedent)
+G02B   6/02 451 \	2	2	2H250	G02B   6/02	977	フォトニック結晶ファイバ	photonic crystal fiber
+G02B   6/02 461 \	2	2	2H250	G02B   6/02	1050	マルチコアファイバ	multi core fiber
+G02B   6/02 466 \	3	3	2H250	G02B   6/02	110	製造方法	manufacturing method
+G02B   6/02 471 \	4	4	2H250	G02B   6/02	86	集束加熱延伸	converge and heating-drawing
+G02B   6/02 476 \	4	4	2H250	G02B   6/02	27	溶融紡糸	melt spinning
+G02B   6/02 481 \	3	3	2H250	G02B   6/02	275	結合型マルチコアファイバ	Coupled multi-core fiber
+G02B   6/024  \	2	2	2H250	G02B   6/024	704	偏光維持特性を有するもの［８］	with polarisation-maintaining properties
+G02B   6/024 301 \	3	3	2H250	G02B   6/024	497	応力付加型のもの	additional stress type
+G02B   6/028  \	2	2	2H250	G02B   6/028	1213	コアまたはクラッドが屈折率分布型のもの［８］	with core or cladding having graded refractive index
+G02B   6/032  \	2	2	2H250	G02B   6/032	17	コアまたはクラッドの固体でないもの［８］	with non-solid core or cladding
+G02B   6/032  A	2	0	2H250	G02B   6/032	133	コアが液体のもの	core being liquid
+G02B   6/032  B	2	0	2H250	G02B   6/032	14	クラッドが液体のもの	clad being liquid
+G02B   6/032  Z	2	0	2H250	G02B   6/032	1042	その他のもの，例．コアまたはクラッドが空隙のもの	others, e.g. core or clad being cavity
+G02B   6/036  \	2	2	2H250	G02B   6/036	1718	コアまたはクラッドが多層構造のもの［８］	core or cladding comprising multiple layers
+G02B   6/036 301 \	3	3	2H250	G02B   6/036	279	中心軸以外で屈折率が最大となるもの，例．円筒型コアファイバ	refractive index is maximum at other than central axis, e.g. cylinder type core fiber
+G02B   6/036 501 \	3	3	2H250	G02B   6/036	144	屈折率以外の特性が異なる複数の層を有するもの，例．光減衰，応力・歪み，音響波に関する特性	characteristics other than refractive index have different multiple layers, e.g. characteristics related to light attenuation, stress or strain, acoustic wave
+G02B   6/04  \	1	1	2H250	G02B   6/04	2849	ファイバ束により形成されたもの（Ｇ０２Ｂ６／２４が優先）［４］	formed by bundles of fibres (G02B 6/24 takes precedence) [4]
+G02B   6/04  A	1	0	2H250	G02B   6/04	624	構造	Structures
+G02B   6/04  B	1	1	2H250	G02B   6/04	679	端部構造	End structures
+G02B   6/04  D	1	0	2H250	G02B   6/04	464	製造方法	Manufacturing methods
+G02B   6/04  E	1	0	2H250	G02B   6/04	195	用途	Applications
+G02B   6/04  F	1	1	2H250	G02B   6/04	252	表示，装飾用	For displaying or decorating
+G02B   6/04  G	1	1	2H250	G02B   6/04	151	記録，読取用	For recording or reading
+G02B   6/04  Z	1	0	2H250	G02B   6/04	107	その他のもの	Others
+G02B   6/06  \	2	2	2H250	G02B   6/06	121	ファイバの相対的位置が両端で同一であるもの，例．像を移送するためのもの［４］	the relative position of the fibres being the same at both ends, e.g. for transporting images [4]
+G02B   6/06  A	2	0	2H250	G02B   6/06	496	構造	Structures
+G02B   6/06  B	2	1	2H250	G02B   6/06	196	端部構造	End structures
+G02B   6/06  C	2	0	2H250	G02B   6/06	303	製造方法	Manufacturing methods
+G02B   6/06  D	2	1	2H250	G02B   6/06	48	酸溶出法	Acid eluding method
+G02B   6/06  E	2	1	2H250	G02B   6/06	11	巻取法	Winding method
+G02B   6/06  Z	2	0	2H250	G02B   6/06	87	その他のもの	Others
+G02B   6/08  \	3	3	2H250	G02B   6/08	528	板状ファイバ束をもつもの［４］	with fibre bundle in form of plate [4]
+G02B   6/10  \	1	1	2H250	G02B   6/10	146	光導波路型のもの（Ｇ０２Ｂ６／０２，Ｇ０２Ｂ６／２４が優先；電気的，磁気的，電磁気的または音響的手段による光の制御のための装置または配置Ｇ０２Ｆ１／００；変調光の変調方式の変換Ｇ０２Ｆ２／００；光学的論理素子Ｇ０２Ｆ３／００；光学的アナログ／デジタル変換器Ｇ０２Ｆ７／００）［２００６．０１］	of the optical waveguide type (G02B 6/02, G02B 6/24 take precedence; devices or arrangementsfor the control of light by electric, magnetic, electromagnetic or acoustic means G02F 1/00; transferringthe modulation of modulated light G02F 2/00; optical logic elements G02F 3/00; optical analogue/digital converters G02F 7/00) [4, 2006.01]
+G02B   6/12  \	2	2	2H147	G02B   6/12	431	集積回路型のもの（電気的集積回路Ｈ１０Ｂ，Ｈ１０Ｄ８４／００−８９／００，Ｈ１０Ｆ１９／００，Ｈ１０Ｆ３９／００，Ｈ１０Ｈ２９／００，Ｈ１０Ｋ１９／００，Ｈ１０Ｋ３９／００，Ｈ１０Ｋ５９／００，Ｈ１０Ｎ１９／００，Ｈ１０Ｎ３９／００，Ｈ１０Ｎ５９／００，Ｈ１０Ｎ６９／００，Ｈ１０Ｎ７９／００，Ｈ１０Ｎ８９／００）［２００６．０１］	of the integrated circuit kind  (electric integrated circuits H10B, H10D 84/00-H10D 89/00, H10F 19/00, H10F 39/00, H10H 29/00, H10K 19/00, H10K 39/00, H10K 59/00, H10N 19/00, H10N 39/00, H10N 59/00, H10N 69/00, H10N 79/00, H10N 89/00)
+G02B   6/12 301 \	3	3	2H147	G02B   6/12	4008	発光・受光素子が一体となった構造	luminescence and light reception elements integrated structure
+G02B   6/12 311 \	3	3	2H147	G02B   6/12	183	モード分離器・合成器（Ｇ０２Ｂ６／１２６が優先）	mode separator or mode synthesizer (G02B6/126 takes precidence)
+G02B   6/12 321 \	3	3	2H147	G02B   6/12	290	モードフィルタ（Ｇ０２Ｂ６／１２，３１１；Ｇ０２Ｂ６／１２６が優先）	mode filter (G02B6/12, 311; G02B6/126 takes precedence)
+G02B   6/12 331 \	3	3	2H147	G02B   6/12	1592	波長分波器・合波器	wavelengtgh demultiplexer/multiplexer
+G02B   6/12 336 \	4	4	2H147	G02B   6/12	1450	アレイ導波路型回折格子［ＡＷＧ］	array waveguide type diffraction grating [AWG]
+G02B   6/12 341 \	3	3	2H147	G02B   6/12	1979	波長フィルタ（Ｇ０２Ｂ６／１２，３３１が優先）	wavelength filter (G02B6/12, 331 takes precedence)
+G02B   6/12 351 \	3	3	2H147	G02B   6/12	776	光減衰	light attenuation
+G02B   6/12 361 \	3	3	2H147	G02B   6/12	2093	動的制御素子	dynamic control element
+G02B   6/12 363 \	4	4	2H147	G02B   6/12	1941	電気光学制御素子	electro-optical control element
+G02B   6/12 365 \	4	4	2H147	G02B   6/12	304	音響光学制御素子	acousto-optical control element
+G02B   6/12 367 \	4	4	2H147	G02B   6/12	163	磁気光学制御素子	magneto-optical control element
+G02B   6/12 371 \	3	3	2H147	G02B   6/12	3317	材質	quality of material
+G02B   6/12 396 \	3	3	2H147	G02B   6/12	439	その他のもの	Others
+G02B   6/122  \	3	3	2H147	G02B   6/122	3422	基本的光学要素，例．ライトガイドパス［６］	Basic optical elements, e.g. light-guiding paths
+G02B   6/122 301 \	4	4	2H147	G02B   6/122	974	フォトニック結晶構造を備えるもの	having photonic crystal structure
+G02B   6/122 311 \	4	4	2H147	G02B   6/122	2958	断面積・断面形状が変化する導波路，例．テーパ導波路	waveguide with changing cross section area or shape, e.g. tapered waveguide
+G02B   6/124  \	4	4	2H147	G02B   6/124	2685	ジオデシックレンズまたは集積化されたグレーティング［６］	Geodesic lenses or integrated gratings
+G02B   6/124 301 \	5	5	2H147	G02B   6/124	189	ジオデシックレンズ	Geodesic lens
+G02B   6/125  \	4	4	2H147	G02B   6/125	2356	屈曲，分岐または交差［６］	Bends, branchings or intersections
+G02B   6/125 301 \	5	5	2H147	G02B   6/125	2369	光学的な分岐・結合	optical devergence or combination
+G02B   6/125 311 \	5	5	2H147	G02B   6/125	1006	光学的な交差	optical cross
+G02B   6/126  \	3	3	2H147	G02B   6/126	2328	偏光効果を用いるもの［６］	using polarisation effects
+G02B   6/13  \	3	3	2H147	G02B   6/13	1847	製造方法に特徴のある集積光回路［６］	Integrated optical circuits characterised by the manufacturing method
+G02B   6/132  \	4	4	2H147	G02B   6/132	4179	薄膜堆積によるもの［６］	by deposition of thin films
+G02B   6/134  \	4	4	2H147	G02B   6/134	57	ドーパント原子による置換によるもの［６］	by substitution by dopant atoms
+G02B   6/134 301 \	5	5	2H147	G02B   6/134	140	拡散を用いるもの	using diffusion
+G02B   6/134 311 \	5	5	2H147	G02B   6/134	170	イオン交換を用いるもの	using ion exchange
+G02B   6/134 321 \	5	5	2H147	G02B   6/134	39	イオン注入を用いるもの	using ion injection
+G02B   6/136  \	4	4	2H147	G02B   6/136	3081	エッチングによるもの［６］	by etching
+G02B   6/138  \	4	4	2H147	G02B   6/138	956	重合を用いることによるもの［６］	by using polymerisation
+G02B   6/14  \	2	2	2H147	G02B   6/14	787	モード変換器［４］	Mode converters [4]
+G02B   6/24  \	1	1	2H036	G02B   6/24	5955	ライトガイドのための結合［２００６．０１］	Coupling light guides [4, 5, 2006.01]
+G02B   6/245  \	2	2	2H038	G02B   6/245	1156	結合の前処理としてライトガイドの保護被覆を除去するもの［５］	Removing protective coverings of light guides before coupling
+G02B   6/25  \	2	2	2H038	G02B   6/25	1048	結合のためにライトガイド端部を処理するもの，例．切断［５］	Preparing the ends of light guides for coupling, e.g. cutting
+G02B   6/25 301 \	3	3	2H038	G02B   6/25	354	研削加工によるもの	by grinding work
+G02B   6/255  \	2	2	2H036	G02B   6/255	4460	ライトガイドの永久結合，例．融着または接着［５］	Splicing of light guides, e.g. by fusion or bonding
+G02B   6/26  \	2	2	2H137	G02B   6/26	3360	光学的結合手段（Ｇ０２Ｂ６／３６，Ｇ０２Ｂ６／４２が優先）［４］	Optical coupling means (G02B 6/36, G02B 6/42 take precedence) [4]
+G02B   6/26 301 \	3	3	2H137	G02B   6/26	555	相対するファイバ端部の間で光束分割・合成以外の機能を実行する光学素子を持つもの（Ｇ０２Ｂ６／３２，Ｇ０２Ｂ６／３４が優先）	having optical element performing functions other than light flux splitting or synthesizing between fiber edges facing eachother (G02B6/32, G02B6/34 take precedence)
+G02B   6/26 311 \	4	4	2H137	G02B   6/26	332	フィルタである光学素子	optical element being filter
+G02B   6/26 321 \	4	4	2H137	G02B   6/26	404	減衰器である光学素子	optical element being attenuator
+G02B   6/27  \	3	3	2H137	G02B   6/27	180	偏光選択調節手段を有するもの［２００６．０１］	with polarisation selective and adjusting means[6, 2006.01]
+G02B   6/27 301 \	4	4	2H137	G02B   6/27	266	非相反素子を構成するもの，例．アイソレータ，サーキュレータ	composed of non-reciprocity element, e.g. isolator, circulator
+G02B   6/28  \	3	3	2K006	G02B   6/28	91	データバス手段，すなわち，相互に結合された複数の導波路であって，信号を混合・分岐することにより，本質的に双方向伝送系を与える導波路，を有するもの［４］	having data bus means, i.e. plural waveguides interconnected and providing an inherently bidirectional system by mixing and splitting signals [4]
+G02B   6/28  E	3	0	2K006	G02B   6/28	119	単一の波長光を分岐・合成するもの	Diving or synthesising light with single wavelength
+G02B   6/28  M	3	1	2K006	G02B   6/28	64	光束型のもの	Of pencil of rays type
+G02B   6/28  N	3	2	2K006	G02B   6/28	465	ミラー，ハーフミラーを用いるもの	By using the mirrors or half-mirrors
+G02B   6/28  P	3	2	2K006	G02B   6/28	402	分流合流型のもの	Of merging split stream type
+G02B   6/28  Q	3	3	2K006	G02B   6/28	335	多対多型のもの	Of a multi-to-multiport type
+G02B   6/28  R	3	1	2K006	G02B   6/28	45	光線型のもの	Of a ray of light type
+G02B   6/28  S	3	2	2K006	G02B   6/28	257	ミラー，ハーフミラーを用いるもの	By using mirrors or half-mirrors
+G02B   6/28  T	3	2	2K006	G02B   6/28	459	分流合流型のもの	Of a merged branch type
+G02B   6/28  U	3	3	2K006	G02B   6/28	584	多対多型のもの	Of a multi-to-multiport type
+G02B   6/28  V	3	0	2K006	G02B   6/28	331	漏れ波によるもの	Of a leaking wave type
+G02B   6/28  W	3	0	2K006	G02B   6/28	1066	波動光学的エバネッセント波によるもの	By wave-optical evanescent wave
+G02B   6/28  Z	3	0	2K006	G02B   6/28	666	その他のもの	Others
+G02B   6/287  \	4	4	2K006	G02B   6/287	789	熱により光素子を形成するライトガイドを構成するもの（Ｇ０２Ｂ６／２５５が優先）［６］	Structuring of light guides to shape optical elements with heat application (G02B  6/255 takes precedence);;
+G02B   6/293  \	4	4	2K006	G02B   6/293	735	波長選択手段を有するもの［２００６．０１］	with wavelength selective means[6, 2006.01]
+G02B   6/293 301 \	5	5	2K006	G02B   6/293	1304	フィルターを用いるもの	using filter
+G02B   6/293 311 \	5	5	2K006	G02B   6/293	791	回折格子を用いるもの	using diffraction grating
+G02B   6/30  \	3	3	2H137	G02B   6/30	3376	ファイバと薄膜装置との間で使用されるもの［４］	for use between fibre and thin-film device [4]
+G02B   6/32  \	3	3	2H137	G02B   6/32	4329	レンズ集光手段を有するもの［４］	having lens focusing means [4]
+G02B   6/34  \	3	3	2H137	G02B   6/34	860	プリズムまたは回折格子を利用するもの［４］	utilising prism or grating [4]
+G02B   6/35  \	3	3	2H141	G02B   6/35	3948	スイッチング手段を有するもの（媒体の光学的性質の変化によるものＧ０２Ｆ１／００）［２００６．０１］	having switching means (by changing the optical properties of the medium G02F 1/00) [6, 2006.01]
+G02B   6/36  \	2	2	2H036	G02B   6/36	9179	機械的結合手段（Ｇ０２Ｂ６／２５５，Ｇ０２Ｂ６／４２が優先）［４，５］	Mechanical coupling means (G02B 6/42 takes precedence) [4]
+G02B   6/36 301 \	3	3	2H036	G02B   6/36	273	平面導波路を突き合わせる手段を有するもの	having means to match planar waveguides
+G02B   6/38  \	3	3	2H036	G02B   6/38	6882	ファイバとファイバを突き合わせる手段を有するもの［４］	having fibre to fibre mating means [4]
+G02B   6/40  \	3	3	2H036	G02B   6/40	3369	ファイバ束を突き合わせる手段を有するもの［４］	having fibre bundle mating means [4]
+G02B   6/42  \	2	2	2H137	G02B   6/42	20724	ライトガイドと光電素子との結合［４］	Coupling light guides with opto-electronic elements [4]
+G02B   6/43  \	3	3	2H137	G02B   6/43	1237	複数の光電素子とその間を接続するライトガイドからなる配置［２００６．０１］	Arrangements comprising a plurality of optoelectronic elements and associated optical interconnections [6, 2006.01]
+G02B   6/44  \	1	1	2H250	G02B   6/44	324	ファイバに引張強度及び外部保護を与えるための機械的構造，例．光伝送ケーブル（導電体と光ファイバを複合したケーブルＨ０１Ｂ１１／２２）［４］	Mechanical structures for providing tensile strength and external protection for fibres, e.g. optical transmission cables (cables incorporating electric conductors and optical fibres H01B 11/22) [4]
+G02B   6/44 301 \	2	2	2H250	G02B   6/44	98	ファイバ心線のためのもの	For fibre cores
+G02B   6/44 301 A	2	0	2H250	G02B   6/44	1833	被覆材質	Shield materials
+G02B   6/44 301 B	2	0	2H250	G02B   6/44	2106	被覆方法	Shielding methods
+G02B   6/44 301 Z	2	0	2H250	G02B   6/44	84	その他のもの	Others
+G02B   6/44 306 \	3	3	2H250	G02B   6/44	92	迷光防止	Preventing stray lights
+G02B   6/44 311 \	3	3	2H250	G02B   6/44	333	識別	Identification
+G02B   6/44 316 \	3	3	2H250	G02B   6/44	483	被覆構造	Shielding structures
+G02B   6/44 321 \	4	4	2H250	G02B   6/44	513	プラスチックの１層被覆	One-layer shield of plastics
+G02B   6/44 326 \	4	4	2H250	G02B   6/44	284	プラスチック以外（ガラス金属等）の１層被覆	One-layer shield of non-plastic materials (glasses or metals)
+G02B   6/44 331 \	4	4	2H250	G02B   6/44	962	２層被覆	Two-layer shields
+G02B   6/44 336 \	4	4	2H250	G02B   6/44	505	３層以上の被覆	Shields with three or more layer
+G02B   6/44 341 \	4	4	2H250	G02B   6/44	509	パイプ被覆	Shielding pipes
+G02B   6/44 346 \	4	4	2H250	G02B   6/44	420	補強線を有する被覆	Shield with reinforcement line
+G02B   6/44 351 \	2	2	2H201	G02B   6/44	3833	光ファイバケーブル	Optical fibre cables
+G02B   6/44 356 \	3	3	2H201	G02B   6/44	102	通信用	For communication
+G02B   6/44 361 \	4	4	2H201	G02B   6/44	1217	構造	Structures
+G02B   6/44 366 \	5	5	2H201	G02B   6/44	2526	円形ケーブル	Round cables
+G02B   6/44 371 \	5	5	2H201	G02B   6/44	2035	平形ケーブル	Flat cables
+G02B   6/44 376 \	5	5	2H201	G02B   6/44	755	補強線	Reinforcement lines
+G02B   6/44 381 \	5	5	2H201	G02B   6/44	1992	保護被覆	Protective shields
+G02B   6/44 386 \	5	5	2H201	G02B   6/44	635	ケーブル端末	Cable ends
+G02B   6/44 391 \	4	4	2H201	G02B   6/44	1887	製法	Manufacturing methods
+G02B   6/44 396 \	3	3	2H201	G02B   6/44	138	通信以外のもの	For other than communications
+G02B   6/46  \	1	1	2H038	G02B   6/46	3541	光ファイバまたは光ケーブルの取り付けに適合した方法または装置（電気導体と光ファイバを含むケーブルの取り付けＨ０２Ｇ）［６］	Processes or apparatus adapted for installing optical fibres or optical cables (installation of cables containing electric conductors and optical fibres H02G)
+G02B   6/46 301 \	2	2	2H038	G02B   6/46	653	ファイバ貫通部の封止構造	sealing structure of fiber penetrating portion
+G02B   6/46 311 \	2	2	2H038	G02B   6/46	468	基板へのファイバの布設	installation of fiber on substrate
+G02B   6/46 314 \	3	3	2H038	G02B   6/46	147	所定のパターンで配線するもの，例．ファイバシート	wiring according to designated pattern, e.g. fiber sheet
+G02B   6/46 317 \	4	4	2H038	G02B   6/46	35	配線方法または装置	wiring method or device
+G02B   6/46 321 \	2	2	2H038	G02B   6/46	1523	ケーブルの布設（Ｇ０２Ｂ６／４８〜Ｇ０２Ｂ６／５４が優先）	installation of cable (G02B6/48-G02B6/54 take precedence)
+G02B   6/46 331 \	2	2	2H038	G02B   6/46	31	建物のための	for building
+G02B   6/46 333 \	3	3	2H038	G02B   6/46	112	建物への引き込み	leading into building
+G02B   6/46 335 \	3	3	2H038	G02B   6/46	165	建物内での布設	installation inside building
+G02B   6/46 337 \	4	4	2H038	G02B   6/46	85	固定のための器具，装置	tools and devices for fixing
+G02B   6/48  \	2	2	2H038	G02B   6/48	508	架空取り付け［６］	Overhead installation
+G02B   6/50  \	2	2	2H038	G02B   6/50	106	地中または水中取り付け；チューブ，導管またはダクトに通した取り付け［６］	Underground or underwater installation; Installation through tubing, conduits or ducts
+G02B   6/50 301 \	3	3	2H038	G02B   6/50	546	チューブ，導管またはダクトに通した取り付け	attachment through tube, conduit or duct
+G02B   6/50 311 \	4	4	2H038	G02B   6/50	208	地中または水中における	at under ground or under water
+G02B   6/52  \	3	3	2H038	G02B   6/52	392	流体を用いるもの，例．空気［６］	using fluid, e.g. air
+G02B   6/54  \	3	3	2H038	G02B   6/54	163	機械的手段を用いるもの，例．引くまたは押す装置［６］	using mechanical means, e.g. pulling or pushing devices
+G02B   7/00  \	0	0	2H043	G02B   7/00	142	光学要素用のマウント，調節手段，または光密結合	Mountings, adjusting means, or light-tight connections, for optical elements
+G02B   7/00  A	0	0	2H043	G02B   7/00	498	光学要素の調節手段	Means for adjusting optical elements
+G02B   7/00  B	0	1	2H043	G02B   7/00	2014	機械的なもの	Of mechanical types
+G02B   7/00  C	0	2	2H043	G02B   7/00	236	レールまたは溝等を用いるもの	By using rails or grooves
+G02B   7/00  D	0	1	2H043	G02B   7/00	876	光学的なもの	Of optical types
+G02B   7/00  E	0	2	2H043	G02B   7/00	440	光学素子の芯出しまたは測定	Aligning or measuring optical elements
+G02B   7/00  F	0	0	2H043	G02B   7/00	2872	光学要素の取付または接続	Mounting or connecting optical elements
+G02B   7/00  G	0	0	2H043	G02B   7/00	471	フイルター，スリット等の取付または調節手段	Means for mounting or adjusting filters or slots
+G02B   7/00  H	0	0	2H043	G02B   7/00	461	光学ヘッドに関するもの	Related to optical heads
+G02B   7/00  J	0	0	2H043	G02B   7/00	287	光学要素のための台等	Bases for optical elements
+G02B   7/00  K	0	0	2H043	G02B   7/00	151	複数光学要素の単なる整列	Simple alignment of plurality of optical elements
+G02B   7/00  Z	0	0	2H043	G02B   7/00	211	その他のもの	Others
+G02B   7/02  \	1	1	2H044	G02B   7/02	126	レンズ用	for lenses
+G02B   7/02  A	1	0	2H044	G02B   7/02	4024	レンズの保持	Holding lenses
+G02B   7/02  B	1	0	2H044	G02B   7/02	2344	取付構造を有するレンズ，例．プラスチックレンズ	Lenses having means for mounting, e.g. plastic lens
+G02B   7/02  C	1	0	2H044	G02B   7/02	3136	調節機能を有するもの	having adjusting functions
+G02B   7/02  J	1	1	2H044	G02B   7/02	139	視度調節機構	Mechanisms for adjusting the visibility
+G02B   7/02  D	1	0	2H044	G02B   7/02	2707	防湿，防塵，有害光の遮断または内面反射防止等	Dump proof, dust proof, shutting off harmful lights or preventing internal reflections
+G02B   7/02  E	1	0	2H044	G02B   7/02	3940	付加物または付加的な機能等	Accessories; Additional functions
+G02B   7/02  G	1	1	2H044	G02B   7/02	264	表示	Displaying
+G02B   7/02  H	1	1	2H044	G02B   7/02	1149	絞りに関するもの	F-stop
+G02B   7/02  F	1	0	2H044	G02B   7/02	1300	温湿度変化保償	Compensating changes due to temperature or humidity
+G02B   7/02  Z	1	0	2H044	G02B   7/02	6191	その他のもの	Others
+G02B   7/04  \	2	2	2H044	G02B   7/04	148	焦点調節または変倍機構をもつもの［２］	with mechanism for focusing or varying magnification [2]
+G02B   7/04  B	2	0	2H044	G02B   7/04	158	望遠鏡に関するもの	of binoculars
+G02B   7/04  C	2	0	2H044	G02B   7/04	540	顕微鏡に関するもの	of microscopes
+G02B   7/04  F	2	1	2H044	G02B   7/04	135	粗微動機構	Mechanisms for coarse or fine adjustments
+G02B   7/04  D	2	0	2H044	G02B   7/04	6933	調節のための要素，例．ヘリコイドまたはカム	Elements for adjustments, e.g. helicoids or cams
+G02B   7/04  E	2	0	2H044	G02B   7/04	7543	動力を内蔵した鏡筒	Tubes having built-in power units
+G02B   7/04  Z	2	0	2H044	G02B   7/04	1158	その他のもの	Others
+G02B   7/06  \	3	3	2H044	G02B   7/06	30	双眼要素対焦点調節	Focusing binocular pairs
+G02B   7/06  A	3	0	2H044	G02B   7/06	99	視度調節を兼ねるもの	combined with adjustment of visibility
+G02B   7/06  Z	3	0	2H044	G02B   7/06	350	その他のもの	Others
+G02B   7/08  \	3	3	2H044	G02B   7/08	116	遠隔操作機構と共動するようになっているもの	adapted to co-operate with a remote control mechanism
+G02B   7/08  A	3	0	2H044	G02B   7/08	1290	オ−トフォ−カスまたは合焦検知と共動するもの	adopted to cooperate with auto-focus or focus adjustment detection
+G02B   7/08  B	3	0	2H044	G02B   7/08	3440	動力によるもの，例．電動のもの	actuated by power units, e.g. by motor drive units
+G02B   7/08  C	3	0	2H044	G02B   7/08	5178	制御	Control
+G02B   7/08  Z	3	0	2H044	G02B   7/08	2355	その他のもの	Others
+G02B   7/09  \	3	3	2H044	G02B   7/09	842	自動焦点調節または変倍機構に適合されたもの［２０２１．０１］	adapted for automatic focusing or varying magnification [5, 2006.01, 2021.01]
+G02B   7/10  \	3	3	2H044	G02B   7/10	56	数個のレンズの相対的な光軸方向の移動によるもの，例．変倍対物レンズのもの	by relative axial movement of several lenses, e.g. of varifocal objective lens
+G02B   7/10  A	3	0	2H044	G02B   7/10	282	単一の操作環により操作可能なもの	operable with single operating ring
+G02B   7/10  B	3	0	2H044	G02B   7/10	133	双眼要素対の変倍操作	Operations for varying magnification of binocular element pairs
+G02B   7/10  C	3	0	2H044	G02B   7/10	1197	付加物または付加的な機能	Accessories; Additional functions
+G02B   7/10  D	3	1	2H044	G02B   7/10	163	表示	Displaying
+G02B   7/10  E	3	1	2H044	G02B   7/10	371	絞りに関するもの	F-stop
+G02B   7/10  Z	3	0	2H044	G02B   7/10	1943	その他のもの	Others
+G02B   7/105  \	4	4	2H044	G02B   7/105	30	近接距離焦点合せのために特に適合している可動レンズ手段をもつもの［４］	with movable lens means specially adapted for focusing at close distances [4]
+G02B   7/105  A	4	0	2H044	G02B   7/105	373	ズーム機能を有するもの	having zooming functions
+G02B   7/105  Z	4	0	2H044	G02B   7/105	204	その他のもの	Others
+G02B   7/12  \	2	2	2H044	G02B   7/12	298	双眼的要素対の眼幅調整装置	Adjusting pupillary distance of binocular pairs
+G02B   7/14  \	2	2	2H044	G02B   7/14	116	レンズ交換に適合するもの	adapted to interchange lenses
+G02B   7/14  A	2	0	2H044	G02B   7/14	231	着脱式	the lense being detachable
+G02B   7/14  Z	2	0	2H044	G02B   7/14	286	その他	Others
+G02B   7/16  \	3	3	2H044	G02B   7/16	473	回転ターレット	Rotatable turrets
+G02B   7/18  \	1	1	2H043	G02B   7/18	139	プリズム用；反射鏡用	for prisms; for mirrors
+G02B   7/18 100 \	2	2	2H043	G02B   7/18	599	プリズムに関するもの	related to prism
+G02B   7/182  \	2	2	2H043	G02B   7/182	1054	反射鏡用［２０２１．０１］	for mirrors [5, 2006.01, 2021.01]
+G02B   7/182 100 \	3	3	2H043	G02B   7/182	635	太陽光または熱利用のもの	using sunlight or solar heat
+G02B   7/182 110 \	3	3	2H043	G02B   7/182	342	バックミラー	back mirror
+G02B   7/182 120 \	4	4	2H043	G02B   7/182	110	遠隔操作	remote control
+G02B   7/183  \	3	3	2H043	G02B   7/183	26	極めて大きい鏡に特に適合するもの，例．天文学用（Ｇ０２Ｂ７／１８５，Ｇ０２Ｂ７／１９２，Ｇ０２Ｂ７／１９８が優先）［６］	specially adapted for very large mirrors, e.g. for astronomy (G02B  7/185, G02B  7/192, G02B  7/198 take precedence);;
+G02B   7/185  \	3	3	2H043	G02B   7/185	68	反射鏡表面の形を調節する手段をもつもの［２０２１．０１］	with means for adjusting the shape of the mirror surface [5, 2006.01, 2021.01]
+G02B   7/188  \	4	4	2H043	G02B   7/188	5	薄膜反射鏡［５］	Membrane mirrors
+G02B   7/192  \	3	3	2H043	G02B   7/192	49	反射鏡内部の応力を最小限にする手段をもつもの［５］	with means for minimising internal mirror stresses
+G02B   7/195  \	4	4	2H043	G02B   7/195	24	液体冷却反射鏡［５］	Fluid-cooled mirrors
+G02B   7/198  \	3	3	2H043	G02B   7/198	1494	反射鏡の支持に関連して反射鏡を調節する手段をもつもの［５］	with means for adjusting the mirror relative to its support
+G02B   7/198 100 \	4	4	2H043	G02B   7/198	316	三点支持，例．レーザ用のもの	three point suspension, e.g. for laser
+G02B   7/20  \	1	1	2H043	G02B   7/20	146	可動光学要素の光密結合	Light-tight connections for movable optical elements
+G02B   7/22  \	2	2	2H043	G02B   7/22	22	伸縮結合，例．蛇腹	Extensible connections, e.g. bellows
+G02B   7/24  \	2	2	2H043	G02B   7/24	31	枢軸結合	Pivoted connections
+G02B   7/28  \	1	1	2H151	G02B   7/28	85	焦点調節信号の自動発生用のシステム［２０２１．０１］	Systems for automatic generation of focusing signals [5, 2006.01, 2021.01]
+G02B   7/28  G	1	0	2H151	G02B   7/28	57	空気圧または静電容量	air pressure or capacitance
+G02B   7/28  H	1	0	2H151	G02B   7/28	1234	特殊用途	particular usage
+G02B   7/28  J	1	1	2H151	G02B   7/28	1197	顕微鏡	microscope
+G02B   7/28  K	1	1	2H151	G02B   7/28	1351	ＴＶカメラ	TV camera
+G02B   7/28  L	1	1	2H151	G02B   7/28	2169	光ディスク	optgical disk
+G02B   7/28  M	1	1	2H151	G02B   7/28	417	露光装置	lithography
+G02B   7/28  N	1	0	2H151	G02B   7/28	15455	システムの特徴	characteristics of system
+G02B   7/28  P	1	1	2H151	G02B   7/28	2152	機械的，例．駆動メカニズム	mechanical, e.g. drive mechanizm
+G02B   7/28  Z	1	0	2H151	G02B   7/28	4256	その他のもの	others
+G02B   7/30  \	2	2	2H151	G02B   7/30	1319	基線長視差三角形を用いるもの［５］	using parallactic triangle with a base line
+G02B   7/32  \	3	3	2H151	G02B   7/32	3053	アクティブ手段，例．発光器，を使用するもの［５］	using active means, e.g. light emitter
+G02B   7/34  \	2	2	2H151	G02B   7/34	6402	瞳面の異なる部分を使用するもの［５］	using different areas in a pupil plane
+G02B   7/36  \	2	2	2H151	G02B   7/36	6487	像鮮鋭度技術を使用するもの［５］	using image sharpness techniques
+G02B   7/38  \	3	3	2H151	G02B   7/38	493	光路長の異なる点で測定されるもの［５］	measured at different points on the optical axis
+G02B   7/40  \	2	2	2H151	G02B   7/40	364	反射波，例．超音波の，遅延時間を使用するもの［５］	using time delay of the reflected waves, e.g. of ultrasonic waves
+G02B   9/00  \	0	0	2H087	G02B   9/00	371	複合された構成要素の数とそれらの符号，すなわち＋または−による配列とによって特徴づけられた対物レンズ（Ｇ０２Ｂ１３／００，Ｇ０２Ｂ１５／００が優先）	Optical objectives characterised both by the number of the components and their arrangements according to their sign, i.e. + or &ndash; (G02B 13/00, G02B 15/00 take precedence)
+G02B   9/02  \	1	1	2H087	G02B   9/02	233	１個の＋構成要素のみから成るもの（単レンズＧ０２Ｂ３／００）	having one + component only (simple lenses G02B 3/00)
+G02B   9/04  \	1	1	2H087	G02B   9/04	154	２個の構成要素のみから成るもの	having two components only
+G02B   9/06  \	2	2	2H087	G02B   9/06	60	２個の＋構成要素	two + components
+G02B   9/08  \	3	3	2H087	G02B   9/08	22	絞りのまわりに配列	arranged about a stop
+G02B   9/10  \	2	2	2H087	G02B   9/10	49	１個の＋と１個の−構成要素	one + and one &ndash; component
+G02B   9/12  \	1	1	2H087	G02B   9/12	327	３個の構成要素のみから成るもの	having three components only
+G02B   9/14  \	2	2	2H087	G02B   9/14	4	＋−＋配列のもの	arranged + &ndash; +
+G02B   9/16  \	3	3	2H087	G02B   9/16	112	全ての構成要素が単レンズであるもの	all the components being simple
+G02B   9/18  \	3	3	2H087	G02B   9/18	10	１個の構成要素が複合レンズであるもの（Ｇ０２Ｂ９／３０が優先）	only one component having a compound lens (G02B 9/30 takes precedence)
+G02B   9/20  \	4	4	2H087	G02B   9/20	38	後部構成要素が複合レンズであるもの	the rear component having the compound
+G02B   9/22  \	4	4	2H087	G02B   9/22	2	中間構成要素が複合レンズであるもの	the middle component having the compound
+G02B   9/24  \	3	3	2H087	G02B   9/24	1	２個の構成要素が複合レンズであるもの（Ｇ０２Ｂ９／３０が優先）	two of the components having compound lenses (G02B 9/30 takes precedence)
+G02B   9/26  \	4	4	2H087	G02B   9/26	3	前部および後部構成要素が複合レンズであるもの	the front and rear components having compound lenses
+G02B   9/28  \	4	4	2H087	G02B   9/28	2	中間部および後部構成要素が複合レンズであるもの	the middle and rear components having compound lenses
+G02B   9/30  \	3	3	2H087	G02B   9/30	2	中間部構成要素が＋レンズを有する−複合メニスカスであるもの	the middle component being a &ndash; compound meniscus having a + lens
+G02B   9/32  \	4	4	2H087	G02B   9/32	1	その＋レンズがメニスカスであるもの	the + lens being a meniscus
+G02B   9/34  \	1	1	2H087	G02B   9/34	516	４個の構成要素のみをもつもの	having four components only
+G02B   9/36  \	2	2	2H087	G02B   9/36	8	＋−−＋配列のもの	arranged + +
+G02B   9/38  \	3	3	2H087	G02B   9/38	4	両−構成要素がメニスカスであるもの	both &ndash; components being meniscus
+G02B   9/40  \	4	4	2H087	G02B   9/40	5	１個の−構成要素が複合レンズであるもの	one &ndash; component being compound
+G02B   9/42  \	4	4	2H087	G02B   9/42	16	２個の−構成要素が複合レンズであるもの	two &ndash; components being compound
+G02B   9/44  \	3	3	2H087	G02B   9/44	6	両−構成要素が両凹レンズであるもの	both &ndash; components being biconcave
+G02B   9/46  \	4	4	2H087	G02B   9/46	1	１個の−構成要素が複合レンズであるもの	one &ndash; component being compound
+G02B   9/48  \	4	4	2H087	G02B   9/48	0	２個の−構成要素が複合レンズであるもの	two &ndash; components being compound
+G02B   9/50  \	3	3	2H087	G02B   9/50	3	両＋構成要素がメニスカスであるもの	both + components being meniscus
+G02B   9/52  \	3	3	2H087	G02B   9/52	0	後部＋構成要素が複合レンズであるもの	the rear + component being compound
+G02B   9/54  \	3	3	2H087	G02B   9/54	0	前部＋構成要素が複合レンズであるもの	the front + component being compound
+G02B   9/56  \	3	3	2H087	G02B   9/56	24	全ての構成要素が単レンズであるもの	all components being simple lenses
+G02B   9/58  \	2	2	2H087	G02B   9/58	10	−＋＋−配列のもの	arranged &ndash; + + &ndash;
+G02B   9/60  \	1	1	2H087	G02B   9/60	950	５個の構成要素のみをもつもの	having five components only
+G02B   9/62  \	1	1	2H087	G02B   9/62	255	６個の構成要素のみをもつもの	having six components only
+G02B   9/64  \	1	1	2H087	G02B   9/64	248	７個以上の構成要素をもつもの	having more than six components
+G02B  11/00  \	0	0	2H087	G02B  11/00	21	対物レンズを構成する単レンズと複合レンズの総数とその配列によって特徴づけられた対物レンズ（Ｇ０２Ｂ９／００が優先；１個の単レンズのみをもつものＧ０２Ｂ３／００）	Optical objectives characterised by the total number of simple and compound lenses forming the objective and their arrangement (G02B  9/00 takes precedence;having only one simple lens G02B  3/00)
+G02B  11/02  \	1	1	2H087	G02B  11/02	3	２個のレンズのみをもつもの	having two lenses only
+G02B  11/04  \	2	2	2H087	G02B  11/04	0	ＣＣ配列のもの	arranged C C
+G02B  11/06  \	1	1	2H087	G02B  11/06	1	３つのレンズのみをもつもの	having three lenses only
+G02B  11/08  \	2	2	2H087	G02B  11/08	1	ＬＬＬ配列のもの	arranged L L L
+G02B  11/10  \	2	2	2H087	G02B  11/10	0	ＬＣＬ配列のもの	arranged L C L
+G02B  11/12  \	2	2	2H087	G02B  11/12	0	ＬＬＣ配列のもの	arranged L L C
+G02B  11/14  \	2	2	2H087	G02B  11/14	0	ＣＬＣ配列のもの	arranged C L C
+G02B  11/16  \	2	2	2H087	G02B  11/16	0	ＣＣＬ配列のもの	arranged C C L
+G02B  11/18  \	2	2	2H087	G02B  11/18	5	ＣＣＣ配列のもの	arranged C C C
+G02B  11/20  \	1	1	2H087	G02B  11/20	1	４個のレンズのみをもつもの	having four lenses only
+G02B  11/22  \	2	2	2H087	G02B  11/22	0	ＬＬＬＬ配列のもの	arranged L L L L
+G02B  11/24  \	2	2	2H087	G02B  11/24	0	ＣＬＬＣ配列のもの	arranged C L L C
+G02B  11/26  \	2	2	2H087	G02B  11/26	1	ＬＣＣＬ配列のもの	arranged L C C L
+G02B  11/28  \	2	2	2H087	G02B  11/28	0	ＣＣＣＣ配列のもの	arranged C C C C
+G02B  11/30  \	1	1	2H087	G02B  11/30	3	５個のレンズのみをもつもの	having five lenses only
+G02B  11/32  \	1	1	2H087	G02B  11/32	2	６個のレンズのみをもつもの	having six lenses only
+G02B  11/34  \	1	1	2H087	G02B  11/34	0	７個以上のレンズをもつもの	having more than six lenses
+G02B  13/00  \	0	0	2H087	G02B  13/00	9059	以下に詳細に記載される目的のために特に設計された対物レンズ（変倍のものＧ０２Ｂ１５／００）	Optical objectives specially designed for the purposes specified below (with variable magnification G02B 15/00)
+G02B  13/02  \	1	1	2H087	G02B  13/02	1093	望遠写真対物レンズ，すなわち＋−型の系であって前面から像面までの距離が焦点距離よりも短いもの	Telephoto objectives, i.e. systems of the type + &ndash; in which the distance from the front vertex to the image plane is less than the equivalent focal length
+G02B  13/04  \	1	1	2H087	G02B  13/04	3339	逆望遠写真対物レンズ	Reversed telephoto objectives
+G02B  13/06  \	1	1	2H087	G02B  13/06	272	パノラマ用対物レンズ；いわゆる「全天レンズ」	Panoramic objectives; So-called "sky lenses"
+G02B  13/08  \	1	1	2H087	G02B  13/08	573	アナモフイック対物レンズ	Anamorphotic objectives
+G02B  13/10  \	2	2	2H087	G02B  13/10	39	プリズムを含むもの（Ｇ０２Ｂ１３／１２が優先）	involving prisms (G02B 13/12 takes precedence)
+G02B  13/12  \	2	2	2H087	G02B  13/12	53	変倍のもの	with variable magnification
+G02B  13/14  \	1	1	2H087	G02B  13/14	681	赤外線または紫外線で使うもの（Ｇ０２Ｂ１３／１６が優先）	for use with infra-red or ultra-violet radiation (G02B 13/16 takes precedence)
+G02B  13/16  \	1	1	2H087	G02B  13/16	1130	イメージコンバーター，イメージインテンシファイヤーと共に使うもの	for use in conjunction with image converters or intensifiers
+G02B  13/18  \	1	1	2H087	G02B  13/18	17050	１以上の非球面レンズをもつもの，例．幾何学的収差補正用	with lenses having one or more non-spherical faces, e.g. for reducing geometrical aberration
+G02B  13/20  \	1	1	2H087	G02B  13/20	109	ソフトフォーカス対物レンズ［２００６．０１］	Soft-focus objectives [1, 2006.01]
+G02B  13/22  \	1	1	2H087	G02B  13/22	610	テレセントリック対物レンズまたはレンズ系	Telecentric objectives or lens systems
+G02B  13/24  \	1	1	2H087	G02B  13/24	2005	短物体距離にて複製または複写に使用するもの	for reproducing or copying at short object distances
+G02B  13/26  \	2	2	2H087	G02B  13/26	173	等倍複製用［３］	for reproducing with unit magnification [3]
+G02B  15/00  \	0	0	2H087	G02B  15/00	416	変倍のための手段をもつ対物レンズ（アナモフイック対物レンズＧ０２Ｂ１３／０８）	Optical objectives with means for varying the magnification (anamorphotic objectives G02B 13/08)
+G02B  15/02  \	1	1	2H087	G02B  15/02	159	対物レンズの一部を交換するもの，付加するもの，または除くもの，例．変換できる対物レンズ	by changing, adding, or subtracting a part of the objective, e.g. convertible objective
+G02B  15/04  \	2	2	2H087	G02B  15/04	65	一部を交換するもの	by changing a part
+G02B  15/06  \	3	3	2H087	G02B  15/06	33	前部を交換するもの	by changing the front part
+G02B  15/08  \	3	3	2H087	G02B  15/08	39	後部を交換するもの	by changing the rear part
+G02B  15/10  \	2	2	2H087	G02B  15/10	622	一部を付加するもの，例．接写用アタッチメント	by adding a part, e.g. close-up attachment
+G02B  15/12  \	3	3	2H087	G02B  15/12	346	望遠アタッチメントを付加するもの（Ｇ０２Ｂ１５／１４が優先）	by adding telescopic attachments (G02B 15/14 takes precedence)
+G02B  15/14  \	1	1	2H087	G02B  15/14	334	対物レンズの等価焦点距離を連続的に変化させるために像面に対する１個以上のレンズまたはレンズ群の軸方向移動によるもの［４］	by axial movement of one or more lenses or groups of lenses relative to the image plane for continuously varying the equivalent focal length of the objective [4]
+G02B  15/15  \	2	2	2H087	G02B  15/15	157	単一の移動手段のみによる，または直線的な相対移動手段のみによる補償，例．光学的補償［４］	compensation by means of only one movement or by means of only linearly related movements, e.g. optical compensation [4]
+G02B  15/16  \	2	2	2H087	G02B  15/16	2926	一つのレンズまたはレンズ群と，他のレンズまたはレンズ群と間での相互依存的な非線形な相対移動を伴うもの（Ｇ０２Ｂ１５／２２が優先）［４］	with interdependent non-linearly related movements between one lens or lens group, and another lens or lens group (G02B 15/22 takes precedence) [4]
+G02B  15/163  \	3	3	2H087	G02B  15/163	611	第１の可動レンズまたはレンズ群および第２の可動レンズまたはレンズ群が双方ともに固定レンズまたはレンズ群の前方に配されているもの（Ｇ０２Ｂ１５／１７７が優先）［４］	having a first movable lens or lens group and a second movable lens or lens group, both in front of a fixed lens or lens group (G02B 15/177 takes precedence) [4]
+G02B  15/167  \	4	4	2H087	G02B  15/167	1580	付加的な固定前部レンズまたはレンズ群を有するもの［４］	having an additional fixed front lens or group of lenses [4]
+G02B  15/17  \	5	5	2H087	G02B  15/17	125	＋−−配列のもの［４］	arranged + &ndash;&ndash; [4]
+G02B  15/173  \	5	5	2H087	G02B  15/173	126	＋−＋配列のもの［４］	arranged + &ndash; + [4]
+G02B  15/177  \	3	3	2H087	G02B  15/177	38	負の前部レンズまたはレンズ群を有するもの［４］	having a negative front lens or group of lenses [4]
+G02B  15/20  \	3	3	2H087	G02B  15/20	6184	対物レンズの焦点距離を変化させるために，さらに別の可動レンズまたはレンズ群を有するもの［４］	having an additional movable lens or lens group for varying the objective focal length [4]
+G02B  15/22  \	2	2	2H087	G02B  15/22	399	近接距離へ焦点合せのために特に適合する可動レンズ手段をもつもの［４］	with movable lens means specially adapted for focusing at close distances [4]
+G02B  15/24  \	3	3	2H087	G02B  15/24	5	前部固定レンズまたはレンズ群および２個の可動レンズまたはレンズ群が，固定レンズまたはレンズ群の前方に配置されているもの［４］	having a front fixed lens or lens group and two movable lenses or lens groups in front of a fixed lens or lens group [4]
+G02B  15/26  \	4	4	2H087	G02B  15/26	4	＋−−配列のもの［４］	arranged + &ndash;&ndash; [4]
+G02B  15/28  \	4	4	2H087	G02B  15/28	2	＋−＋配列のもの［４］	arranged + &ndash; + [4]
+G02B  17/00  \	0	0	2H087	G02B  17/00	2032	反射面を有し，かつ屈折素子をもちまたはもたない系［２００６．０１］	Systems with reflecting surfaces, with or without refracting elements [1, 6, 2006.01]
+G02B  17/02  \	1	1	2H087	G02B  17/02	74	反射光学系，例．正立像系と倒立像系	Catoptric systems, e.g. image erecting and reversing system
+G02B  17/04  \	2	2	2H087	G02B  17/04	39	プリズムのみを使うもの	using prisms only
+G02B  17/06  \	2	2	2H087	G02B  17/06	434	反射鏡のみを使うもの	using mirrors only
+G02B  17/08  \	1	1	2H087	G02B  17/08	4021	反射屈折系	Catadioptric systems
+G02B  19/00  \	0	0	2H052	G02B  19/00	2340	コンデンサー（顕微鏡用Ｇ０２Ｂ２１／０８）	Condensers (for microscopes G02B 21/08)
+G02B  21/00  \	0	0	2H052	G02B  21/00	8636	顕微鏡［２００６．０１］	Microscopes [1, 7, 2006.01]
+G02B  21/02  \	1	1	2H087	G02B  21/02	1373	対物レンズ	Objectives
+G02B  21/04  \	2	2	2H087	G02B  21/04	73	反射鏡を含むもの	involving mirrors
+G02B  21/06  \	1	1	2H052	G02B  21/06	4778	試料照明のための手段	Means for illuminating specimen
+G02B  21/08  \	2	2	2H052	G02B  21/08	265	コンデンサー	Condensers
+G02B  21/10  \	3	3	2H052	G02B  21/10	292	暗視野照明を与えるもの（Ｇ０２Ｂ２１／１４が優先）	affording dark-field illumination (G02B 21/14 takes precedence)
+G02B  21/12  \	3	3	2H052	G02B  21/12	184	明視野照明を与えるもの（Ｇ０２Ｂ２１／１４が優先）	affording bright-field illumination (G02B 21/14 takes precedence)
+G02B  21/14  \	3	3	2H052	G02B  21/14	274	位相差用照明を与えるもの	affording illumination for phase-contrast observation
+G02B  21/16  \	1	1	2H052	G02B  21/16	458	紫外照明のため適合するもの	adapted for ultra-violet illumination
+G02B  21/18  \	1	1	2H052	G02B  21/18	859	２個以上の光路をもつ装置，例．２個の試料を比較するためのもの	Arrangements with more than one light-path, e.g. for comparing two specimens
+G02B  21/20  \	2	2	2H052	G02B  21/20	203	双眼装置	Binocular arrangements
+G02B  21/22  \	3	3	2H052	G02B  21/22	774	立体視装置	Stereoscopic arrangements
+G02B  21/24  \	1	1	2H052	G02B  21/24	1933	架台構造	Base structure
+G02B  21/26  \	2	2	2H052	G02B  21/26	1974	載物台；その調節装置	Stages; Adjusting means therefor
+G02B  21/28  \	2	2	2H052	G02B  21/28	88	冷却装置をもつもの	with cooling device
+G02B  21/30  \	2	2	2H052	G02B  21/30	203	加熱装置をもつもの	with heating device
+G02B  21/32  \	1	1	2H052	G02B  21/32	527	顕微鏡に構造的に結合されたマイクロ・マニプレータ	Micromanipulators structurally combined with microscopes
+G02B  21/33  \	1	1	2H052	G02B  21/33	110	液浸油［６］	Immersion oils
+G02B  21/34  \	1	1	2H052	G02B  21/34	1273	顕微鏡スライド，例．顕微鏡スライドに試料をのせるもの［２００６．０１］	Microscope slides, e.g. mounting specimens on microscope slides [1, 2006.01]
+G02B  21/36  \	1	1	2H052	G02B  21/36	4431	写真撮影用または投影用に構成されたもの（Ｇ０２Ｂ２１／１８が優先）	arranged for photographic purposes or projection purposes (G02B 21/18 takes precedence)
+G02B  23/00  \	0	0	2H039	G02B  23/00	1220	望遠鏡，例．双眼鏡；潜望鏡；孔体の中を観察する装置；ビューファインダー；光学的照準または観測装置［２００６．０１］	Telescopes, e.g. binoculars; Periscopes; Instruments for viewing the inside of hollow bodies; Viewfinders;Optical aiming or sighting devices [1, 4, 2006.01]
+G02B  23/02  \	1	1	2H039	G02B  23/02	804	プリズムまたは反射鏡を含むもの（Ｇ０２Ｂ２３／１４が優先）	involving prisms or mirrors (G02B 23/14 takes precedence)
+G02B  23/04  \	2	2	2H039	G02B  23/04	76	光束分割または合成のためのもの，例．２人以上の観察者のため接眼レンズを備えるもの（Ｇ０２Ｂ２３／１０が優先）	for the purpose of beam splitting or combining, e.g. fitted with eyepieces for more than one observer (G02B 23/10 takes precedence)
+G02B  23/06  \	2	2	2H039	G02B  23/06	228	焦点調節作用をもつもの，例．放物面鏡	having a focusing action, e.g. parabolic mirror
+G02B  23/08  \	2	2	2H039	G02B  23/08	174	潜望鏡	Periscopes
+G02B  23/10  \	2	2	2H039	G02B  23/10	151	視野内に反射によって付加された指標が視えるもの，例．コリメーターから［２００６．０１］	reflecting into the field of view additional indications, e.g. from collimator [1, 2006.01]
+G02B  23/12  \	1	1	2H039	G02B  23/12	150	像変換または増強の手段をもつもの［２００６．０１］	with means for image conversion or intensification [1, 2006.01]
+G02B  23/14  \	1	1	2H039	G02B  23/14	678	ビューファインダー（写真装置用のものＧ０３Ｂ１３／０２）	Viewfinders (for photographic apparatus G03B 13/02)
+G02B  23/16  \	1	1	2H039	G02B  23/16	722	ハウジング；蓋；マウント；支持物，例．釣合おもりをもつもの［２００６．０１］	Housings; Caps; Mountings; Supports, e.g. with counterweight [1, 2006.01]
+G02B  23/18  \	2	2	2H039	G02B  23/18	1271	双眼装置用	for binocular arrangements
+G02B  23/20  \	2	2	2H039	G02B  23/20	84	折りたたみハウジング（Ｇ０２Ｂ２３／１８が優先）	Collapsible housings (G02B 23/18 takes precedence)
+G02B  23/22  \	2	2	2H039	G02B  23/22	65	水中用装置，例．潜水艦潜望鏡用	Underwater equipments, e.g. for submarine periscope
+G02B  23/24  \	1	1	2H040	G02B  23/24	353	孔体の中を観察する装置，例．ファイバスコープ［４］	Instruments for viewing the inside of hollow bodies, e.g. fibrescopes [4]
+G02B  23/24  A	1	0	2H040	G02B  23/24	11695	構造一般〔本体，補助・付属具，可撓部〕	Structures in general (main bodies, auxiliary or accessory devices, flexible portions)
+G02B  23/24  B	1	0	2H040	G02B  23/24	8096	映像信号に変換されるもの	Converted into video signals
+G02B  23/24  C	1	0	2H040	G02B  23/24	1354	用途に特徴を有するもの	Characterised by applications
+G02B  23/24  Z	1	0	2H040	G02B  23/24	563	その他のもの	Others
+G02B  23/26  \	2	2	2H040	G02B  23/26	527	ライトガイドを使用するもの［４］	using light guides [4]
+G02B  23/26  A	2	0	2H040	G02B  23/26	1422	光学系に特徴を有するもの一般	Characterised by optical systems in general
+G02B  23/26  B	2	1	2H040	G02B  23/26	4066	照明光学系〔先端照明光学系，ライトガイド，光源装置，光源とライトガイドの結合〕	Illuminating optics (tip illuminating optics, light guides, light source devices, combinations of light source and light guide)
+G02B  23/26  C	2	1	2H040	G02B  23/26	2669	先端・対物光学系	Tip or object optical systems
+G02B  23/26  D	2	0	2H040	G02B  23/26	1498	撮影装置と結合したもの又は結合するための装置	Combined with
+G02B  23/26  Z	2	0	2H040	G02B  23/26	240	その他のもの	Others
+G02B  25/00  \	0	0	2H087	G02B  25/00	3502	接眼レンズ；拡大鏡［２００６．０１］	Eyepieces; Magnifying glasses [1, 2006.01]
+G02B  25/02  \	1	1	2H087	G02B  25/02	308	物体を視るための照明手段をもつもの	with means for illuminating object viewed
+G02B  25/04  \	1	1	2H087	G02B  25/04	168	広視野を与えるもの，例．のぞき孔を通して視るもの	affording a wide-angle view, e.g. through a spy-hole
+G02B  26/00  \	0	0	2H141	G02B  26/00	2417	可動または変形可能な光学要素を用いて光を制御するための光学装置または光学的配置（Ｇ０２Ｆ１／００に包含される素子の媒体の光学的性質の変化による光の制御）［２００６．０１］	Optical devices or arrangements for the control of light using movable or deformable optical elements(control of light by modification of the optical properties of the media of the elements involved therein G02F 1/00) [4, 2006.01]
+G02B  26/02  \	1	1	2H141	G02B  26/02	85	光の強度を制御するためのもの［４］	for controlling the intensity of light [4]
+G02B  26/02  A	1	0	2H141	G02B  26/02	284	可動光学要素を用いるもの	Using movable optical elements
+G02B  26/02  B	1	1	2H141	G02B  26/02	1305	遮光板を用いるもの	Using light shields
+G02B  26/02  C	1	1	2H141	G02B  26/02	53	レンズを用いるもの	Using lenses
+G02B  26/02  D	1	1	2H141	G02B  26/02	77	プリズムを用いるもの	Using prisms
+G02B  26/02  E	1	1	2H141	G02B  26/02	733	反射鏡を用いるもの	Using mirrors
+G02B  26/02  F	1	1	2H141	G02B  26/02	306	光ファイバを用いるもの	Using optical fibres
+G02B  26/02  G	1	1	2H141	G02B  26/02	181	偏光要素を用いるもの	Using polarisation elements
+G02B  26/02  H	1	1	2H141	G02B  26/02	202	流体を用いるもの	Using fluids
+G02B  26/02  J	1	0	2H141	G02B  26/02	230	変形可能な光学要素を用いるもの	Using optical elements that can be deformed
+G02B  26/02  Z	1	0	2H141	G02B  26/02	104	その他のもの	Others
+G02B  26/04  \	2	2	2H141	G02B  26/04	136	光の強度を周期的に変えることによるもの，例．チョッパの使用［４］	by periodically varying the intensity of light, e.g. using choppers [4]
+G02B  26/06  \	1	1	2H141	G02B  26/06	624	光の位相を制御するためのもの（Ｇ０２Ｂ２６／０８が優先）［４］	for controlling the phase of light (G02B 26/08 takes precedence) [4]
+G02B  26/08  \	1	1	2H141	G02B  26/08	120	光の方向を制御するためのもの（ライトガイドにおけるものＧ０２Ｂ６／３５）［４］	for controlling the direction of light (in light guides G02B 6/35) [4]
+G02B  26/08  A	1	0	2H141	G02B  26/08	370	可動光学要素を用いるもの	Using movable optical elements
+G02B  26/08  B	1	1	2H141	G02B  26/08	125	遮光板を用いるもの	Using light shields
+G02B  26/08  C	1	1	2H141	G02B  26/08	244	レンズを用いるもの	Using lenses
+G02B  26/08  D	1	1	2H141	G02B  26/08	589	プリズムを用いるもの	Using prisms
+G02B  26/08  E	1	1	2H141	G02B  26/08	6626	反射鏡を用いるもの	Using mirrors
+G02B  26/08  F	1	1	2H141	G02B  26/08	1397	光ファイバを用いるもの	Using optical fibres
+G02B  26/08  G	1	1	2H141	G02B  26/08	58	偏光要素を用いるもの	Using polarisation elements
+G02B  26/08  H	1	1	2H141	G02B  26/08	379	流体を用いるもの	Using fluids
+G02B  26/08  J	1	0	2H141	G02B  26/08	332	変形可能な光学要素を用いるもの	Using optical elements that can be deformed
+G02B  26/08  Z	1	0	2H141	G02B  26/08	115	その他のもの	Others
+G02B  26/10  \	2	2	2H045	G02B  26/10	270	走査系［２００６．０１］	Scanning systems [4, 2006.01]
+G02B  26/10  A	2	0	2H045	G02B  26/10	4639	同期部，位置制御部	Synchronisers or position controllers
+G02B  26/10  B	2	0	2H045	G02B  26/10	5602	多ビームを用いるもの	Using plurality of beams
+G02B  26/10  C	2	0	2H045	G02B  26/10	3161	二次元走査	Two-dimensional scanning
+G02B  26/10  D	2	0	2H045	G02B  26/10	2144	光学系	Optical systems
+G02B  26/10  E	2	1	2H045	G02B  26/10	933	等速走査用	For uniform velocity scanning
+G02B  26/10  F	2	1	2H045	G02B  26/10	4900	構造的細部	Structural details
+G02B  26/10  G	2	0	2H045	G02B  26/10	236	光源移動	Moving light sources
+G02B  26/10  Z	2	0	2H045	G02B  26/10	2144	その他のもの	Others
+G02B  26/10 101 \	3	3	2H045	G02B  26/10	1864	ミラーを用いるもの（Ｇ０２Ｂ２６／１２が優先）	Using mirrors
+G02B  26/10 104 \	4	4	2H045	G02B  26/10	998	ガルバノミラーを用いるもの	Using galvano mirrors
+G02B  26/10 104 A	4	0	2H045	G02B  26/10	151	トラッキング用	For tracking
+G02B  26/10 104 Z	4	0	2H045	G02B  26/10	5065	その他のもの	Others
+G02B  26/10 105 \	3	3	2H045	G02B  26/10	545	レンズを用いるもの	Using lenses
+G02B  26/10 105 A	3	0	2H045	G02B  26/10	82	トラッキング用	For tracking
+G02B  26/10 105 Z	3	0	2H045	G02B  26/10	124	その他のもの	Others
+G02B  26/10 106 \	3	3	2H045	G02B  26/10	729	ホログラムを用いるもの	Using hologram
+G02B  26/10 107 \	3	3	2H045	G02B  26/10	80	スリットを用いるもの	Using slits
+G02B  26/10 108 \	3	3	2H045	G02B  26/10	274	プリズムを用いるもの	using prisms
+G02B  26/10 109 \	3	3	2H045	G02B  26/10	479	光学繊維を用いるもの	Using optical fibres
+G02B  26/10 109 A	3	0	2H045	G02B  26/10	5	トラッキング用	For tracking
+G02B  26/10 109 Z	3	0	2H045	G02B  26/10	252	その他のもの	Others
+G02B  26/12  \	3	3	2H045	G02B  26/12	7092	多面体鏡を用いるもの［６］	using multifaceted mirrors
+G02B  26/12 101 \	4	4	2H045	G02B  26/12	1997	歪補正	distortion correction
+G02B  27/00  \	0	0	2H199	G02B  27/00	238	グループＧ０２Ｂ１／００〜Ｇ０２Ｂ２６／００，Ｇ０２Ｂ３０／００に分類されない光学系または光学装置［２００６．０１］	Optical systems or apparatus not provided for by any of the groups G02B1/00-G02B26/00, G02B30/00
+G02B  27/00  A	0	0	2H199	G02B  27/00	645	防塵またはくもり止め	Dust-proof or anti-fogging
+G02B  27/00  B	0	0	2H199	G02B  27/00	117	冷却	Cooling
+G02B  27/00  C	0	0	2H199	G02B  27/00	321	有害光除去	Eliminating harmful lights
+G02B  27/00  D	0	0	2H199	G02B  27/00	281	色彩または模様	colours or patterns
+G02B  27/00  F	0	0	2H199	G02B  27/00	260	光ビーム位置，方向または焦点制御	Controlling light beam positions, directions or focusing points
+G02B  27/00  G	0	0	2H199	G02B  27/00	47	複数画像形成光学系	Optical systems for forming plurality of images
+G02B  27/00  H	0	0	2H199	G02B  27/00	157	画像処理光学系	Optical systems for processing images
+G02B  27/00  J	0	0	2H199	G02B  27/00	609	光シャッタアレイまたは受光・発光素子アレイ用光学系	Optical systems for optical shutter arrays, light receptacle or light emitting element arrays
+G02B  27/00  K	0	0	2H199	G02B  27/00	644	光電検出	Photoelectric detection
+G02B  27/00  L	0	0	2H199	G02B  27/00	73	表示	Displaying
+G02B  27/00  M	0	0	2H199	G02B  27/00	97	対象物位置出しまたは照準	Positioning or targeting objects
+G02B  27/00  N	0	0	2H199	G02B  27/00	540	光電的画像読取，処理または再生	Reading, processing or replaying photoelectric images
+G02B  27/00  P	0	0	2H199	G02B  27/00	343	信号記録または再生	Recording or replaying signals
+G02B  27/00  Q	0	0	2H199	G02B  27/00	340	光線加工	Processing lights
+G02B  27/00  R	0	0	2H199	G02B  27/00	207	光通信	Optical communications
+G02B  27/00  S	0	0	2H199	G02B  27/00	108	レーザ特殊応用	Special laser applications
+G02B  27/00  T	0	0	2H199	G02B  27/00	43	宝石検査	Inspecting jewelry
+G02B  27/00  U	0	0	2H199	G02B  27/00	294	太陽光または熱利用	Utilising solar lights or heats
+G02B  27/00  V	0	0	2H199	G02B  27/00	1123	照明	Illumination
+G02B  27/00  Z	0	0	2H199	G02B  27/00	651	その他のもの	Others
+G02B  27/01  \	1	1	2H199	G02B  27/01	7906	ヘッドアップディスプレイ［２００６．０１］	Head-up displays
+G02B  27/02  \	1	1	2H199	G02B  27/02	449	観察または読取装置（立体視装置Ｇ０２Ｂ３０／００）［２００６．０１］	Viewing or reading apparatus (stereoscopic systems G02B 30/00) [1, 2006.01]
+G02B  27/02  B	1	0	2H199	G02B  27/02	707	フィルム観察，例．シャーカステン	Film observation e.g. Schaukasten
+G02B  27/02  C	1	0	2H199	G02B  27/02	64	フィルム陰陽反転観察	Observation by reversing negative or positive films
+G02B  27/02  Z	1	0	2H199	G02B  27/02	9790	その他のもの	Others
+G02B  27/04  \	2	2	2H199	G02B  27/04	18	折りたたみ部材をもつもの［２００６．０１］	having collapsible parts
+G02B  27/06  \	2	2	2H199	G02B  27/06	223	動画効果をもつもの［２００６．０１］	with moving-picture effect
+G02B  27/08  \	2	2	2H199	G02B  27/08	316	万華鏡［２００６．０１］	Kaleidoscopes
+G02B  27/09  \	1	1	2H199	G02B  27/09	2050	光束整形，例．断面積の変更，で他に分類されないもの［２００６．０１］	Beam shaping, e.g. changing the cross-sectioned area, not otherwise provided for
+G02B  27/10  \	1	1	2H199	G02B  27/10	1875	光束分割系または合成系（光導波路を用いた光信号の混合および分岐Ｇ０２Ｂ６／２８；偏光系Ｇ０２Ｂ２７／２８）［２００６．０１］	Beam splitting or combining systems (mixing and splitting light signals using optical waveguides G02B 6/28; polarising systems G02B 27/28) [4]
+G02B  27/12  \	2	2	2H199	G02B  27/12	30	屈折作用のみによるもの［２００６．０１］	operating by refraction only
+G02B  27/14  \	2	2	2H199	G02B  27/14	96	反射作用のみによるもの［２００６．０１］	operating by reflection only
+G02B  27/16  \	2	2	2H199	G02B  27/16	24	焦点調節のための補助として使うもの［２００６．０１］	used as aids for focusing
+G02B  27/18  \	1	1	2H199	G02B  27/18	356	光学投影用，例．反射鏡，集光器，対物レンズの結合［２００６．０１］	for optical projection, e.g. combination of mirror and condenser and objective
+G02B  27/18  A	1	0	2H199	G02B  27/18	1108	レンズアレイを用いるもの	Using lens arrays
+G02B  27/18  Z	1	0	2H199	G02B  27/18	3183	その他のもの	Others
+G02B  27/20  \	2	2	2H199	G02B  27/20	401	微小物体の結像用，例．ライト・ポインター［２００６．０１］	for imaging minute objects, e.g. light-pointer
+G02B  27/28  \	1	1	2H199	G02B  27/28	1151	偏光用（立体視鏡に使うものＧ０２Ｂ３０／２５）［２００６．０１］	for polarising (used in stereoscopes G02B30/25)
+G02B  27/28  A	1	0	2H199	G02B  27/28	2763	光アイソレータまたは光サーキュレータ	Optical isolators or optical circulators
+G02B  27/28  Z	1	0	2H199	G02B  27/28	3880	その他のもの	Others
+G02B  27/30  \	1	1	2H199	G02B  27/30	408	コリメーター［２００６．０１］	Collimators
+G02B  27/32  \	1	1	2H199	G02B  27/32	170	光学系の中に基準標識と測定目盛をもつもの［２００６．０１］	Fiducial marks or measuring scales within the optical system
+G02B  27/34  \	2	2	2H199	G02B  27/34	18	照明されたもの［２００６．０１］	illuminated
+G02B  27/36  \	2	2	2H199	G02B  27/36	21	調整できるもの［２００６．０１］	adjustable
+G02B  27/40  \	1	1	2H199	G02B  27/40	299	光学的焦点調節補助装置［２００６．０１］	Optical focusing aids [1, 2006.01]
+G02B  27/42  \	1	1	2H199	G02B  27/42	685	回折光学系（Ｇ０２Ｂ２７／６０が優先）［２００６．０１］	Diffraction optics (G02B 27/60 takes precedence) [3]
+G02B  27/44  \	2	2	2H199	G02B  27/44	82	格子系；ゾーンプレート系（Ｇ０２Ｂ２７／４６が優先）［２００６．０１］	Grating systems; Zone plate systems (G02B 27/46 takes precedence) [3, 2006.01]
+G02B  27/46  \	2	2	2H199	G02B  27/46	1379	空間フィルターを用いた系［２００６．０１］	Systems using spatial filters [3, 2006.01]
+G02B  27/48  \	1	1	2H199	G02B  27/48	746	レーザスペックル光学系［２００６．０１］	Laser speckle optics [3, 2006.01]
+G02B  27/50  \	1	1	2H199	G02B  27/50	162	位相物体可視化のための光学系（顕微鏡用Ｇ０２Ｂ２１／１４）［２００６．０１］	Optics for phase object visualisation (in microscopes G02B 21/14) [3]
+G02B  27/52  \	2	2	2H199	G02B  27/52	36	位相差光学系［２００６．０１］	Phase contrast optics [3]
+G02B  27/54  \	2	2	2H199	G02B  27/54	52	シュリーレン光学系［２００６．０１］	Schlieren-optical systems [3]
+G02B  27/56  \	1	1	2H199	G02B  27/56	16	エバネッセント波，すなわち不均質波を用いた光学系［２００６．０１］	Optics using evanescent waves, i.e. inhomogeneous waves [3]
+G02B  27/58  \	1	1	2H199	G02B  27/58	143	アポダイゼーションまたは超解像光学系；光学的合成開口系［２００６．０１］	Optics for apodization or superresolution; Optical synthetic aperture systems [3]
+G02B  27/60  \	1	1	2H199	G02B  27/60	143	モアレ縞を用いた系［２００６．０１］	Systems using moire fringes [3, 2006.01]
+G02B  27/62  \	1	1	2H199	G02B  27/62	433	光学系を組み立てる際に光学要素の調節に特に適した光学装置［２００６．０１］	Optical apparatus specially adapted for adjusting optical elements during the assembly of optical systems [3, 2006.01]
+G02B  27/64  \	1	1	2H199	G02B  27/64	744	像の横方向および角位置安定化のための光学要素を用いた結像系［２００６．０１］	Imaging systems using optical elements for stabilisation of the lateral and angular position of the image [3, 2006.01]
+G02B  30/00  \	0	0	2H199	G02B  30/00	1075	３次元［３Ｄ］効果，例．立体視画像，を生ずる光学系または装置（顕微鏡Ｇ０２Ｂ２１／２２）［２０２０．０１］	Optical systems or apparatus for producing three-dimensional [3D] effects e.g. stereoscopic images (in microscopes G02B21/22)
+G02B  30/10  \	1	1	2H199	G02B  30/10	634	インテグラルイメージング法を用いるもの［２０２０．０１］	using integral imaging methods
+G02B  30/20  \	1	1	2H199	G02B  30/20	7842	第一と第二の視差画像を観察者の左目と右目に提供することによるもの［２０２０．０１］	by providing first and second parallax images to an observer's left and right eyes
+G02B  30/22  \	2	2	2H199	G02B  30/22	186	立体視型のもの［２０２０．０１］	of the stereoscopic type
+G02B  30/23  \	3	3	2H199	G02B  30/23	144	波長分離，例．アナグリフ技術，を用いるもの［２０２０．０１］	using wavelength separation e.g. using anaglyph techniques
+G02B  30/24  \	3	3	2H199	G02B  30/24	919	時間的多重化，例．順次作動する左と右のシャッターを用いるもの，に関するもの［２０２０．０１］	involving temporal multiplexing e.g. using sequentially activated left and right shutters
+G02B  30/25  \	3	3	2H199	G02B  30/25	1634	偏光技術を用いるもの［２０２０．０１］	using polarisation techniques
+G02B  30/26  \	2	2	2H199	G02B  30/26	1521	裸眼立体視型のもの［２０２０．０１］	of the autostereoscopic type
+G02B  30/27  \	3	3	2H199	G02B  30/27	1142	レンチキュラーアレイを含むもの［２０２０．０１］	involving lenticular arrays
+G02B  30/28  \	4	4	2H199	G02B  30/28	355	アクティブレンチキュラーアレイを含むもの［２０２０．０１］	involving active lenticular arrays
+G02B  30/29  \	4	4	2H199	G02B  30/29	634	レンチキュラーアレイに幾何学的特徴，例．傾斜アレイ，不規則的なアレイまたは様々な形状もしくは大きさのアレイ，があるもの［２０２０．０１］	characterised by the geometry of the lenticular array e.g. slanted arrays irregular arrays or arrays of varying shape or size
+G02B  30/30  \	3	3	2H199	G02B  30/30	736	視差バリアを含むもの［２０２０．０１］	involving parallax barriers
+G02B  30/31  \	4	4	2H199	G02B  30/31	729	アクティブ視差バリアを含むもの（指向性の光源またはバックライトを含むものＧ０２Ｂ３０／３３）［２０２０．０１］	involving active parallax barriers (involving directional light or back-light sources G02B30/33)
+G02B  30/32  \	4	4	2H199	G02B  30/32	485	視差バリアに幾何学的特徴，例．互い違いのバリア，傾斜した視差アレイまたは様々な形状もしくは大きさの視差アレイ，があるもの［２０２０．０１］	characterised by the geometry of the parallax barriers e.g. staggered barriers slanted parallax arrays or parallax arrays of varying shape or size
+G02B  30/33  \	3	3	2H199	G02B  30/33	506	指向性の光源またはバックライトを含むもの［２０２０．０１］	involving directional light or back-light sources
+G02B  30/34  \	2	2	2H199	G02B  30/34	1506	対象物の視差画像の立体視的なペアを提供するステレオスコープ，例．３Ｄスライドビュアー［２０２０．０１］	Stereoscopes providing a stereoscopic pair of separated images corresponding to parallactically displaced views of the same object e.g. 3D slide viewers
+G02B  30/35  \	3	3	2H199	G02B  30/35	429	画像と観察者との間の光路に反射光学要素を用いるもの［２０２０．０１］	using reflective optical elements in the optical path between the images and the observer
+G02B  30/36  \	3	3	2H199	G02B  30/36	220	画像と観察者との間の光路に屈折光学要素，例．プリズム，を用いるもの［２０２０．０１］	using refractive optical elements e.g. prisms in the optical path between the images and the observer
+G02B  30/37  \	3	3	2H199	G02B  30/37	125	折りたたみ可能なステレオスコープ［２０２０．０１］	Collapsible stereoscopes
+G02B  30/40  \	1	1	2H199	G02B  30/40	58	単一の二次元［２Ｄ］画像の観察者に奥行き感を与えるもの［２０２０．０１］	giving the observer of a single two-dimensional [2D] image a perception of depth
+G02B  30/50  \	1	1	2H199	G02B  30/50	129	３Ｄ体積上に分布する画像要素，例．ボクセル，から作られる画像［２０２０．０１］	the image being built up from image elements distributed over a 3D volume e.g. voxels
+G02B  30/52  \	2	2	2H199	G02B  30/52	339	２Ｄ平面の積層体または連続体から構成される３Ｄ体積，例．奥行き標本化システム［２０２０．０１］	the 3D volume being constructed from a stack or sequence of 2D planes e.g. depth sampling systems
+G02B  30/54  \	2	2	2H199	G02B  30/54	286	２Ｄ表面を動かすことにより，例．２Ｄ表面を振動または回転することにより，生成される３Ｄ体積［２０２０．０１］	the 3D volume being generated by moving a 2D surface e.g. by vibrating or rotating the 2D surface
+G02B  30/56  \	2	2	2H199	G02B  30/56	1419	空中のまたは浮遊する画像を投影することによるもの［２０２０．０１］	by projecting aerial or floating images
+G02B  30/60  \	1	1	2H199	G02B  30/60	134	反射プリズムと反射鏡のみを含むもの［２０２０．０１］	involving reflecting prisms and mirrors only

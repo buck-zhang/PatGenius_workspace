@@ -1,0 +1,80 @@
+G01Q  10/00  \	0	0	2G580	G01Q  10/00	25	走査または位置決め装置，すなわち，プローブの動きあるいは位置を積極的に制御するための装置［２０１０．０１］	Scanning or positioning arrangements, i.e. arrangements for actively controlling the movement or position of the probe [2010.01]
+G01Q  10/02  \	1	1	2G580	G01Q  10/02	258	粗動走査または粗動位置決め［２０１０．０１］	Coarse scanning or positioning [2010.01]
+G01Q  10/02 101 \	2	2	2G580	G01Q  10/02	118	圧電素子を用いたもの	by piezo-electric
+G01Q  10/02 111 \	2	2	2G580	G01Q  10/02	160	それらのための回路またはアルゴリズム	circuits or algorithms therefor
+G01Q  10/04  \	1	1	2G580	G01Q  10/04	297	微動走査または微動位置決め［２０１０．０１］	Fine scanning or positioning [2010.01]
+G01Q  10/04 101 \	2	2	2G580	G01Q  10/04	463	圧電素子を用いたもの	by piezo-electric
+G01Q  10/06  \	2	2	2G580	G01Q  10/06	507	それらのための回路またはアルゴリズム［２０１０．０１］	Circuits or algorithms therefor [2010.01]
+G01Q  20/00  \	0	0	2G580	G01Q  20/00	80	プローブの動きまたは位置の監視［２０１０．０１］	Monitoring the movement or position of the probe [2010.01]
+G01Q  20/02  \	1	1	2G580	G01Q  20/02	434	光学的手段によるもの［２０１０．０１］	by optical means [2010.01]
+G01Q  20/04  \	1	1	2G580	G01Q  20/04	216	自己検知プローブ，すなわち，プローブ自身がその位置を示すような信号を発するもの，例．圧電ゲージ［２０１０．０１］	Self-detecting probes, i.e. wherein the probe itself generates a signal representative of its position, e.g. piezo-electric gauge [2010.01]
+G01Q  30/00  \	0	0	2G580	G01Q  30/00	57	走査プローブ技術または装置の補助または改良に資する補助的手段，例．表示装置またはデータ処理装置［２０１０．０１］	Auxiliary means serving to assist or improve the scanning probe techniques or apparatus, e.g. display or data processing devices [2010.01]
+G01Q  30/02  \	1	1	2G580	G01Q  30/02	469	非ＳＰＭ分析装置，例．ＳＥＭ［走査型電子顕微鏡］，分光計または光学顕微鏡［２０１０．０１］	Non-SPM analysing devices, e.g. SEM [Scanning Electron Microscope], spectrometer or optical microscope [2010.01]
+G01Q  30/04  \	1	1	2G580	G01Q  30/04	350	表示装置またはデータ処理装置［２０１０．０１］	Display or data processing devices [2010.01]
+G01Q  30/06  \	2	2	2G580	G01Q  30/06	169	エラー補償のためのもの［２０１０．０１］	for error compensation [2010.01]
+G01Q  30/08  \	1	1	2G580	G01Q  30/08	37	サンプルチェンバー内に所望の環境条件を確立し調節するための手段［２０１０．０１］	Means for establishing or regulating a desired environmental condition within a sample chamber [2010.01]
+G01Q  30/10  \	2	2	2G580	G01Q  30/10	115	温度環境［２０１０．０１］	Thermal environment [2010.01]
+G01Q  30/12  \	2	2	2G580	G01Q  30/12	53	流体環境［２０１０．０１］	Fluid environment [2010.01]
+G01Q  30/14  \	3	3	2G580	G01Q  30/14	186	液体環境［２０１０．０１］	Liquid environment [2010.01]
+G01Q  30/16  \	2	2	2G580	G01Q  30/16	148	真空環境［２０１０．０１］	Vacuum environment [2010.01]
+G01Q  30/18  \	1	1	2G580	G01Q  30/18	119	外部の環境条件または影響からサンプルチェンバーの内部を保護しあるいは隔離するための手段［２０１０．０１］	Means for protecting or isolating the interior of a sample chamber from external environmental conditions or influences, e.g. vibrations or electromagnetic fields [2010.01]
+G01Q  30/20  \	1	1	2G580	G01Q  30/20	249	試料の取扱装置または手段［２０１０．０１］	Sample handling devices or methods [2010.01]
+G01Q  40/00  \	0	0	2G580	G01Q  40/00	92	キャリブレーション，例．プローブのキャリブレーション［２０１０．０１］	Calibration, e.g. of probes [2010.01]
+G01Q  40/02  \	1	1	2G580	G01Q  40/02	108	キャリブレーションの基準またはその製造方法［２０１０．０１］	Calibration standards or methods of fabrication thereof [2010.01]
+G01Q  60/00  \	0	0	2G580	G01Q  60/00	68	特定の型のＳＰＭ［走査プローブ型顕微鏡］またはそのための装置；その基本的な構成部品［２０１０．０１］	Particular types of SPM [Scanning-Probe Microscopy] or apparatus therefor; Essential components thereof [2010.01]
+G01Q  60/00 101 \	1	1	2G580	G01Q  60/00	30	プローブの特性	probe characteristics
+G01Q  60/02  \	1	1	2G580	G01Q  60/02	41	マルチタイプＳＰＭ，すなわち２つまたはそれ以上のＳＰＭ技術を使用するもの［２０１０．０１］	Multiple-type SPM, i.e. involving two or more SPM techniques [2010.01]
+G01Q  60/04  \	2	2	2G580	G01Q  60/04	46	ＳＴＭ［走査型トンネル顕微鏡法］とＡＦＭ［原子間力顕微鏡法］の組合せ［２０１０．０１］	STM [Scanning Tunnelling Microscopy] combined with AFM [Atomic Force Microscopy] [2010.01]
+G01Q  60/06  \	2	2	2G580	G01Q  60/06	46	ＳＮＯＭ［近視野光学顕微鏡法］とＡＦＭ［原子間力顕微鏡法］の組合せ［２０１０．０１］	SNOM [Scanning Near-field Optical Microscopy] combined with AFM [Atomic Force Microscopy] [2010.01]
+G01Q  60/08  \	2	2	2G580	G01Q  60/08	10	ＭＦＭ［磁気力顕微鏡法］とＡＦＭ［原子間力顕微鏡法］の組合せ［２０１０．０１］	MFM [Magnetic Force Microscopy] combined with AFM [Atomic Force Microscopy] [2010.01]
+G01Q  60/10  \	1	1	2G580	G01Q  60/10	1203	ＳＴＭ［走査型トンネル顕微鏡法］またはそのための装置，例．ＳＴＭ用プローブ［２０１０．０１］	STM [Scanning Tunnelling Microscopy] or apparatus therefor, e.g. STM probes [2010.01]
+G01Q  60/12  \	2	2	2G580	G01Q  60/12	69	ＳＴＳ［走査型トンネルスペクトロスコピー］［２０１０．０１］	STS [Scanning Tunnelling Spectroscopy] [2010.01]
+G01Q  60/14  \	2	2	2G580	G01Q  60/14	14	ＳＴＰ［走査型トンネルポテンショメトリー］［２０１０．０１］	STP [Scanning Tunnelling Potentiometry] [2010.01]
+G01Q  60/16  \	2	2	2G580	G01Q  60/16	0	プローブまたはその製造または関連する器具類，例．プローブホルダー［２０１０．０１］	Probes, their manufacture or their related instrumentation, e.g. holders [2010.01]
+G01Q  60/16 101 \	3	3	2G580	G01Q  60/16	212	プローブの特性	probe characteristics
+G01Q  60/16 111 \	3	3	2G580	G01Q  60/16	159	プローブの製造	probe manufacture
+G01Q  60/18  \	1	1	2G580	G01Q  60/18	484	ＳＮＯＭ［近視野光学顕微鏡法］またはそのための装置，例．ＳＮＯＭ用のプローブ［２０１０．０１］	SNOM [Scanning Near-Field Optical Microscopy] or apparatus therefor, e.g. SNOM probes [2010.01]
+G01Q  60/20  \	2	2	2G580	G01Q  60/20	44	蛍光［２０１０．０１］	Fluorescence [2010.01]
+G01Q  60/22  \	2	2	2G580	G01Q  60/22	6	プローブまたはその製造または関連する器具類，例．プローブホルダー［２０１０．０１］	Probes, their manufacture or their related instrumentation, e.g. holders [2010.01]
+G01Q  60/22 101 \	3	3	2G580	G01Q  60/22	521	プローブの特性	probe characteristics
+G01Q  60/22 111 \	3	3	2G580	G01Q  60/22	289	プローブの製造	probe manufacture
+G01Q  60/24  \	1	1	2G580	G01Q  60/24	1203	ＡＦＭ［原子間力顕微鏡法］またはそのための装置，例．ＡＦＭ用のプローブ［２０１０．０１］	AFM [Atomic Force Microscopy] or apparatus therefor, e.g. AFM probes [2010.01]
+G01Q  60/26  \	2	2	2G580	G01Q  60/26	96	摩擦力顕微鏡法［２０１０．０１］	Friction force microscopy [2010.01]
+G01Q  60/28  \	2	2	2G580	G01Q  60/28	72	凝着力顕微鏡法［２０１０．０１］	Adhesion force microscopy [2010.01]
+G01Q  60/30  \	2	2	2G580	G01Q  60/30	152	走査型ポテンシャル顕微鏡法［２０１０．０１］	Scanning potential microscopy [2010.01]
+G01Q  60/32  \	2	2	2G580	G01Q  60/32	378	ＡＣモード［２０１０．０１］	AC mode [2010.01]
+G01Q  60/34  \	3	3	2G580	G01Q  60/34	95	タッピングモード［２０１０．０１］	Tapping mode [2010.01]
+G01Q  60/36  \	2	2	2G580	G01Q  60/36	49	ＤＣモード［２０１０．０１］	DC mode [2010.01]
+G01Q  60/38  \	2	2	2G580	G01Q  60/38	16	プローブまたはその製造または関連する器具類，例．プローブホルダー［２０１０．０１］	Probes, their manufacture or their related instrumentation, e.g. holders [2010.01]
+G01Q  60/38 101 \	3	3	2G580	G01Q  60/38	382	プローブの特性	probe characteristics
+G01Q  60/38 111 \	3	3	2G580	G01Q  60/38	273	プローブの製造	probe manufacture
+G01Q  60/40  \	3	3	2G580	G01Q  60/40	159	導電性プローブ［２０１０．０１］	Conductive probes [2010.01]
+G01Q  60/42  \	3	3	2G580	G01Q  60/42	64	機能化［２０１０．０１］	Functionalisation [2010.01]
+G01Q  60/44  \	1	1	2G580	G01Q  60/44	21	ＳＩＣＭ［走査型イオンコンダクタンス顕微鏡法］またはそのための装置，例．ＳＩＣＭ用のプローブ［２０１０．０１］	SICM [Scanning Ion-Conductance Microscopy] or apparatus therefor, e.g. SICM probes [2010.01]
+G01Q  60/44 101 \	2	2	2G580	G01Q  60/44	9	プローブまたはその製造または関連する器具類，例．プローブホルダー	probes, their manufacture or their related instrumentation, e.g. holders
+G01Q  60/46  \	1	1	2G580	G01Q  60/46	102	ＳＣＭ［走査型キャパシタンス顕微鏡法］またはそのための装置，例．ＳＣＭ用のプローブ［２０１０．０１］	SCM [Scanning Capacitance Microscopy] or apparatus therefor, e.g. SCM probes [2010.01]
+G01Q  60/48  \	2	2	2G580	G01Q  60/48	22	プローブまたはその製造または関連する器具類，例．プローブホルダー［２０１０．０１］	Probes, their manufacture or their related instrumentation, e.g. holders [2010.01]
+G01Q  60/50  \	1	1	2G580	G01Q  60/50	188	ＭＦＭ［磁気力顕微鏡法］またはそのための装置，例．ＭＦＭ用のプローブ［２０１０．０１］	MFM [Magnetic Force Microscopy] or apparatus therefor, e.g. MFM probes [2010.01]
+G01Q  60/52  \	2	2	2G580	G01Q  60/52	22	磁気共鳴［２０１０．０１］	Resonance [2010.01]
+G01Q  60/54  \	2	2	2G580	G01Q  60/54	3	プローブまたはその製造または関連する器具類，例．プローブホルダー［２０１０．０１］	Probes, their manufacture or their related instrumentation, e.g. holders [2010.01]
+G01Q  60/54 101 \	3	3	2G580	G01Q  60/54	74	プローブの特性	probe characteristics
+G01Q  60/54 111 \	3	3	2G580	G01Q  60/54	44	プローブの製造	probe manufacture
+G01Q  60/56  \	3	3	2G580	G01Q  60/56	31	磁気コーティングされたプローブ［２０１０．０１］	Probes with magnetic coating [2010.01]
+G01Q  60/58  \	1	1	2G580	G01Q  60/58	45	ＳＴｈＭ［走査型熱顕微鏡法］またはそのための装置，例．ＳＴｈＭ用のプローブ［２０１０．０１］	SThM [Scanning Thermal Microscopy] or apparatus therefor, e.g. SThM probes [2010.01]
+G01Q  60/60  \	1	1	2G580	G01Q  60/60	57	ＳＥＣＭ［走査型電気化学顕微鏡法］またはそのための装置，例．ＳＥＣＭ用のプローブ［２０１０．０１］	SECM [Scanning Electro-Chemical Microscopy] or apparatus therefor, e.g. SECM probes [2010.01]
+G01Q  60/60 101 \	2	2	2G580	G01Q  60/60	20	プローブまたはその製造または関連する器具類，例．プローブホルダー	Probes, their manufacture or their related instrumentation, e.g. holders
+G01Q  70/00  \	0	0	2G580	G01Q  70/00	8	ＳＰＭプローブの一般的観点またはその製造または関連する器具類で，グループＧ０１Ｑ６０／００に包含される単一のＳＰＭ技術に特に適合していないもの［２０１０．０１］	General aspects of SPM probes, their manufacture or their related instrumentation, insofar as they are not specially adapted to a single SPM technique covered by group G01Q 60/00 [2010.01]
+G01Q  70/02  \	1	1	2G580	G01Q  70/02	169	プローブホルダー［２０１０．０１］	Probe holders [2010.01]
+G01Q  70/04  \	2	2	2G580	G01Q  70/04	27	温度・震動に誘引されたエラーの補償のあるもの［２０１０．０１］	with compensation for temperature or vibration induced errors [2010.01]
+G01Q  70/06  \	1	1	2G580	G01Q  70/06	252	プローブチップアレイ［２０１０．０１］	Probe tip arrays [2010.01]
+G01Q  70/08  \	1	1	2G580	G01Q  70/08	57	プローブの特性［２０１０．０１］	Probe characteristics [2010.01]
+G01Q  70/10  \	2	2	2G580	G01Q  70/10	152	形状またはテーパ［２０１０．０１］	Shape or taper [2010.01]
+G01Q  70/12  \	3	3	2G580	G01Q  70/12	165	ナノチューブチップ［２０１０．０１］	Nano-tube tips [2010.01]
+G01Q  70/14  \	2	2	2G580	G01Q  70/14	110	特定の物質［２０１０．０１］	Particular materials [2010.01]
+G01Q  70/16  \	1	1	2G580	G01Q  70/16	275	プローブの製造［２０１０．０１］	Probe manufacture [2010.01]
+G01Q  70/18  \	2	2	2G580	G01Q  70/18	45	機能化［２０１０．０１］	Functionalisation [2010.01]
+G01Q  80/00  \	0	0	2G580	G01Q  80/00	12	ＳＰＭを除く走査プローブ技術の応用（マイクロ構造の製造または処理Ｂ８１Ｃ；ナノ構造物の製造または処理Ｂ８２Ｂ３／００；近接場相互作用を用いる情報の記録と再生Ｇ１１Ｂ９／１２，Ｇ１１Ｂ１１／２４，Ｇ１１Ｂ１３／０８）［２０１０．０１］	Applications, other than SPM, of scanning-probe techniques (manufacture or treatment of micro-structures B81C; manufacture or treatment of nano-structures B82B 3/00; recording or reproducing information using near-field interaction G11B 9/12, G11B 11/24&nbsp;or G11B 13/08) [2010.01]
+G01Q  80/00 101 \	1	1	2G580	G01Q  80/00	887	情報記録装置への適用	application to information storage apparatuses
+G01Q  80/00 111 \	1	1	2G580	G01Q  80/00	370	表面加工への適用	application to surface treatment
+G01Q  80/00 121 \	1	1	2G580	G01Q  80/00	216	生物試料への適用	application to biological sample
+G01Q  90/00  \	0	0	2G580	G01Q  90/00	82	他に分類されない走査プローブ技術または装置［２０１０．０１］	Scanning-probe techniques or apparatus not otherwise provided for [2010.01]

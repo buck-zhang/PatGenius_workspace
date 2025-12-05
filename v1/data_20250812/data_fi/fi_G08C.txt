@@ -1,0 +1,132 @@
+G08C  13/00  \	0	0	2F073	G08C  13/00	430	入力信号と出力信号との関係に影響を与えるための装置，例．微分，遅延	Arrangements for influencing the relationship between signals at input and output, e.g. differentiating, delaying
+G08C  13/02  \	1	1	2F073	G08C  13/02	28	２個以上の信号の関数である信号，例．和，積，を生じるもの	to yield a signal which is a function of two or more signals, e.g. sum, product
+G08C  15/00  \	0	0	2F073	G08C  15/00	258	共通伝送線路で複数の信号を伝送するために多重伝送の使用によって特徴づけられた装置	Arrangements characterised by the use of multiplexing for the transmission of a plurality of signals over a common path
+G08C  15/00  A	0	0	2F073	G08C  15/00	116	多重伝送を用いるもの〔共通〕	Using multiple transmissions (common)
+G08C  15/00  B	0	0	2F073	G08C  15/00	1335	集中自動検針に用いるもの	Used for centralized automatic meter checking
+G08C  15/00  C	0	1	2F073	G08C  15/00	373	選択呼出と関係するもの	Relating to selective calls
+G08C  15/00  D	0	0	2F073	G08C  15/00	1131	遠方監視に用いるもの	Using for remote supervising
+G08C  15/00  E	0	0	2F073	G08C  15/00	1274	遠方測定値デ−タの収集に用いるもの	Using for collecting data that being remotely measured
+G08C  15/00  F	0	0	2F073	G08C  15/00	134	ル−プ式・直列式	Loop type, linear type
+G08C  15/00  G	0	0	2F073	G08C  15/00	77	移動体・回転体との伝送	Transmission with movable members and rotating members
+G08C  15/00  H	0	0	2F073	G08C  15/00	108	異なる２種類の信号の多重伝送	Multiple transmissions by two dissimilar signals
+G08C  15/00  J	0	0	2F073	G08C  15/00	59	接点式信号源による信号の伝送	Signal transmissions by contact signal sources
+G08C  15/00  K	0	0	2F073	G08C  15/00	130	光伝送方式におけるもの	Optical transmission methods
+G08C  15/00  Z	0	0	2F073	G08C  15/00	149	その他	Others
+G08C  15/02  \	1	1	2F073	G08C  15/02	119	同時に，すなわち周波数分割を用いるもの	simultaneously, i.e. using frequency division
+G08C  15/04  \	2	2	2F073	G08C  15/04	33	信号が搬送波で変調されるもの	the signals being modulated on carrier frequencies
+G08C  15/06  \	1	1	2F073	G08C  15/06	290	連続的に，すなわち時分割を用いるもの	successively, i.e. using time division
+G08C  15/06  A	1	0	2F073	G08C  15/06	163	時分割を用いるもの〔全体系〕	Using time sharing (comprehensive systems)
+G08C  15/06  B	1	0	2F073	G08C  15/06	43	送信器	Transmitters
+G08C  15/06  C	1	1	2F073	G08C  15/06	456	入力走査に関するもの	Regarding input scanning
+G08C  15/06  D	1	0	2F073	G08C  15/06	23	受信器	Receivers
+G08C  15/06  E	1	1	2F073	G08C  15/06	114	出力分配に関するもの	Regarding output distributions
+G08C  15/06  F	1	0	2F073	G08C  15/06	181	サブステ−シヨン・中継器方式	Methods or systems using substations and repeaters
+G08C  15/06  G	1	0	2F073	G08C  15/06	134	発信制御	Controls for emitting signals
+G08C  15/06  H	1	0	2F073	G08C  15/06	419	同期・時間管理・起動	Synchronizing, time management, initiation
+G08C  15/06  J	1	0	2F073	G08C  15/06	120	デ−タフオ−マツト	Data format
+G08C  15/06  K	1	0	2F073	G08C  15/06	88	光伝送方式におけるもの	Relating to optical transmission methods
+G08C  15/06  Z	1	0	2F073	G08C  15/06	112	その他	Others
+G08C  15/08  \	2	2	2F073	G08C  15/08	23	信号が伝送連絡線路において電圧，電流の振幅であらわされるもの	the signals being represented by amplitude of current or voltage in transmission link
+G08C  15/10  \	2	2	2F073	G08C  15/10	19	信号が伝送連絡線路において電圧，電流の周波数または位相であらわされるもの	the signals being represented by frequencies or phase of current or voltage in transmission link
+G08C  15/12  \	2	2	2F073	G08C  15/12	81	信号が伝送連絡線路においてパルスの特性によってあらわされるもの	the signals being represented by pulse characteristics in transmission link
+G08C  17/00  \	0	0	2F073	G08C  17/00	55	信号伝送のために無線電気的連絡線の使用によって特徴づけられた装置［６］	Arrangements for transmitting signals characterised by the use of a radio link
+G08C  17/00  A	0	0	2F073	G08C  17/00	1058	移動体におけるもの	Relating to movable members
+G08C  17/00  B	0	0	2F073	G08C  17/00	1287	回転体におけるもの	Relating to rotating members
+G08C  17/00  Z	0	0	2F073	G08C  17/00	3058	その他のもの	Others
+G08C  17/02  \	1	1	2F073	G08C  17/02	3627	無線連絡線を使用するもの［６］	using a radio link
+G08C  17/04  \	1	1	2F073	G08C  17/04	2068	磁気的に結合した装置を使用するもの［６］	using magnetically coupled devices
+G08C  17/06  \	1	1	2F073	G08C  17/06	403	容量結合を使用するもの［６］	using capacity coupling
+G08C  19/00  \	0	0	2F073	G08C  19/00	293	電気的信号伝送方式（Ｇ０８Ｃ１７／００が優先）	Electric signal transmission systems (G08C 17/00 takes precedence)
+G08C  19/00  A	0	0	2F073	G08C  19/00	168	電気的信号伝送方式〔一般〕	Electrical signal transmission systems (general)
+G08C  19/00  B	0	0	2F073	G08C  19/00	72	回転体におけるもの	Relating to rotating members
+G08C  19/00  C	0	1	2F073	G08C  19/00	382	電磁結合・静電容量を利用するもの	Using electro-magnetic couplings and electrostatic capacities
+G08C  19/00  D	0	1	2F073	G08C  19/00	159	スリツプリングを利用するもの	Using slip rings
+G08C  19/00  E	0	1	2F073	G08C  19/00	35	磁石を利用するもの	Using magnets
+G08C  19/00  F	0	0	2F073	G08C  19/00	45	細部	Details
+G08C  19/00  G	0	1	2F073	G08C  19/00	449	端末機器の電源	Power sources for terminal equipment
+G08C  19/00  H	0	1	2F073	G08C  19/00	150	測定値の保持	Holding measured values
+G08C  19/00  J	0	1	2F073	G08C  19/00	394	電気的接続	Electrical connections
+G08C  19/00  K	0	1	2F073	G08C  19/00	145	電気的絶縁・トランス結合	Electrical insulation and transformer couplings
+G08C  19/00  L	0	1	2F073	G08C  19/00	167	電気的絶縁・光結合	Electrical insulation and optical couplings
+G08C  19/00  M	0	1	2F073	G08C  19/00	161	本質安全防爆	Substantial safety for preventing explosions
+G08C  19/00  N	0	0	2F073	G08C  19/00	568	電話回線を利用するもの	Using telephone lines
+G08C  19/00  P	0	0	2F073	G08C  19/00	149	電力線を利用するもの	Using electric power lines
+G08C  19/00  Q	0	0	2F073	G08C  19/00	185	水中における伝送	Transmission under water
+G08C  19/00  R	0	0	2F073	G08C  19/00	108	地下・穴における伝送	Transmissions under ground and under ground pipelines
+G08C  19/00  S	0	0	2F073	G08C  19/00	415	車両内における伝送	Transmissions in vehicles
+G08C  19/00  T	0	0	2F073	G08C  19/00	117	車両等との伝送	Transmissions with vehicles and the equivalent
+G08C  19/00  U	0	0	2F073	G08C  19/00	300	制御信号の伝送	Transmissions for control signals
+G08C  19/00  V	0	0	2F073	G08C  19/00	447	生体情報の伝送	Transmissions for biological information
+G08C  19/00  W	0	0	2F073	G08C  19/00	52	ランダム方式	Random methods
+G08C  19/00  X	0	0	2F073	G08C  19/00	62	サイクリツク方式	Cyclic methods
+G08C  19/00  Z	0	0	2F073	G08C  19/00	301	その他	Others
+G08C  19/00 301 \	1	1	2F073	G08C  19/00	16	デジタル的に記憶された測定値情報の伝送	Transmissions of digitally stored information for measured value
+G08C  19/00 301 A	1	0	2F073	G08C  19/00	990	デジタルで記憶された測定値情報の伝送	Transmissions of digitally stored information for measured value
+G08C  19/00 301 B	1	1	2F073	G08C  19/00	286	回収によるもの	By collections
+G08C  19/00 301 C	1	0	2F073	G08C  19/00	33	細部	Details
+G08C  19/00 301 D	1	1	2F073	G08C  19/00	49	デジタル数値の読出	Reading out digital numbers
+G08C  19/00 301 E	1	2	2F073	G08C  19/00	53	数字車からの読出	Reading out from numeric vehicles
+G08C  19/00 301 F	1	1	2F073	G08C  19/00	66	指示値の読出，追従式	Reading indicating values, following-up
+G08C  19/00 301 G	1	1	2F073	G08C  19/00	124	指示値の読出，走査式	Reading indicating values, scanning
+G08C  19/00 301 Z	1	0	2F073	G08C  19/00	95	その他	Others
+G08C  19/00 311 \	2	2	2F073	G08C  19/00	12	読み出しによるもの	By reading out
+G08C  19/02  \	1	1	2F073	G08C  19/02	76	伝送される信号が電流または電圧の大きさであるもの（Ｇ０８Ｃ１９／３６，Ｇ０８Ｃ１９／３８が優先）	in which the signal transmitted is magnitude of current or voltage (G08C 19/36, G08C 19/38 take precedence)
+G08C  19/02  A	1	0	2F073	G08C  19/02	675	二線式伝送	Transmission with two-lines
+G08C  19/02  Z	1	0	2F073	G08C  19/02	380	その他のもの	Others
+G08C  19/02 301 \	2	2	2F073	G08C  19/02	148	二線の伝送路を共用して信号の伝送と電源の供給を行うもの（１９／０４，１９／０６，１９／０８，１９／１０が優先）	Supplying both signal transmission and electric power by sharing two-line transmission lines  (19/04, 19/06, 19/08, 19/10 take precedence)
+G08C  19/04  \	2	2	2F073	G08C  19/04	26	可変抵抗を用いるもの	using variable resistance
+G08C  19/04  A	2	0	2F073	G08C  19/04	173	三線式伝送	Transmissions with three-lines
+G08C  19/04  Z	2	0	2F073	G08C  19/04	10	その他のもの	Others
+G08C  19/06  \	2	2	2F073	G08C  19/06	1	可変インダクタンスを用いるもの	using variable inductance
+G08C  19/08  \	3	3	2F073	G08C  19/08	5	２個のコイルに差動的に影響をあたえるもの	differentially influencing two coils
+G08C  19/10  \	2	2	2F073	G08C  19/10	10	可変容量を用いるもの	using variable capacitance
+G08C  19/12  \	1	1	2F073	G08C  19/12	224	伝送される信号が交流の周波数または位相であるもの	in which the signal transmitted is frequency or phase of ac
+G08C  19/14  \	2	2	2F073	G08C  19/14	8	複数の一定周波数を組み合わせて用いるもの	using combination of fixed frequencies
+G08C  19/16  \	1	1	2F073	G08C  19/16	465	伝送がパルスによって行われるもの	in which transmission is by pulses
+G08C  19/18  \	2	2	2F073	G08C  19/18	155	パルス列中のパルスの数の変化を用いるもの	using a variable number of pulses in a train
+G08C  19/18  A	2	0	2F073	G08C  19/18	120	受信パルスのカウント毎に回路を切替えるもの	Switching circuits triggered by every time a certain amount of counts of receiving pulses being reached
+G08C  19/18  Z	2	0	2F073	G08C  19/18	14	その他のもの	Others
+G08C  19/20  \	3	3	2F073	G08C  19/20	169	回転電気機械，例．ステップ電動機，に作用するもの	operating on dynamo-electric devices, e.g. step motor
+G08C  19/22  \	2	2	2F073	G08C  19/22	132	各パルスの持続時間の変化を用いるもの	by varying the duration of individual pulses
+G08C  19/24  \	2	2	2F073	G08C  19/24	14	パルスの時間的シフトを用いるもの	using time shift of pulses
+G08C  19/26  \	2	2	2F073	G08C  19/26	113	パルス繰返し周波数の変化を用いるもの	by varying pulse repetition frequency
+G08C  19/28  \	2	2	2F073	G08C  19/28	147	パルス符号を用いるもの	using pulse code
+G08C  19/30  \	1	1	2F073	G08C  19/30	778	伝送が複数の導体またはチャンネルから１つ以上の導体またはチャンネルを選択することによるもの（Ｇ０８Ｃ１９／３８が優先）	in which transmission is by selection of one or more conductors or channels from a plurality of conductors or channels (G08C 19/38 takes precedence)
+G08C  19/32  \	2	2	2F073	G08C  19/32	26	１個の導体またはチャンネルを選択するもの	of one conductor or channel
+G08C  19/34  \	2	2	2F073	G08C  19/34	13	複数の導体またはチャンネルの組合せを選択するもの	of a combination of conductors or channels
+G08C  19/36  \	1	1	2F073	G08C  19/36	367	入力信号を変換するために光学的手段を使用するもの	using optical means to convert the input signal
+G08C  19/38  \	1	1	2F073	G08C  19/38	36	回転電気機械を用いるもの（パルスによって動作するものＧ０８Ｃ１９／２０）	using dynamo-electric devices (operated by pulses G08C 19/20)
+G08C  19/38  A	1	0	2F073	G08C  19/38	55	レゾルバを用いるもの〔含む１９／４０〜１９／４８〕	Using resolver (including from 19/40 through 19/48)
+G08C  19/38  B	1	1	2F073	G08C  19/38	52	レゾルバを用いるものデジタル化〔含む１９／４０〜１９／４８〕	Using resolver being digitized (including from 19/40 through 19/48)
+G08C  19/38  C	1	0	2F073	G08C  19/38	206	セルシン・シンクロを用いるもの〔含む１９／４０〜１９／４８〕	Using selsyn, synchro (including from 19/40 through 19/48)
+G08C  19/38  D	1	1	2F073	G08C  19/38	81	セルシン・シンクロを用いるものデジタル化〔含む１９／４０〜１９／４８〕	Using selsyn, synchro being digitized (including from 19/40 through 19/48)
+G08C  19/38  E	1	0	2F073	G08C  19/38	82	変位平衡によるもの	By displacement balance
+G08C  19/38  F	1	0	2F073	G08C  19/38	91	誤りの防止・監視	Preventing and supervising failures
+G08C  19/38  Z	1	0	2F073	G08C  19/38	11	その他のもの	Others
+G08C  19/40  \	2	2	2F073	G08C  19/40	0	回転子または固定子の一方のみが信号が加えられる巻線をもつもの，例．ステップ電動機を用いるもの	of which only the rotor or the stator carries a winding to which a signal is applied, e.g. using step motor
+G08C  19/42  \	3	3	2F073	G08C  19/42	0	３個の固定子極をもつもの	having three stator poles
+G08C  19/44  \	3	3	2F073	G08C  19/44	0	４個以上の固定子極をもつもの	having more than three stator poles
+G08C  19/46  \	2	2	2F073	G08C  19/46	0	回転子と固定子の両方が巻線をもつもの（かご形回転子をもつものＧ０８Ｃ１９／４０）	of which both rotor and stator carry windings (having squirrel-cage rotor G08C 19/40)
+G08C  19/48  \	3	3	2F073	G08C  19/48	1	３相固定子と一定周波数の交流で付勢される回転子とをもつ形式，例．セルシン，マグスリップ，であるもの	being of the type with a three-phase stator and a rotor fed by constant-frequency ac, e.g. selsyn, magslip
+G08C  21/00  \	0	0	2F073	G08C  21/00	316	一定基準系に対する対象物の位置の伝送方式，例．テレライタ［５］	Systems for transmitting the position of an object with respect to a predetermined reference system, e.g. tele-autographic system [5]
+G08C  23/00  \	0	0	2F073	G08C  23/00	291	非電気的信号伝送方式，例．光学的方式	Non-electric signal transmission systems, e.g. optical systems
+G08C  23/02  \	1	1	2F073	G08C  23/02	105	音波を使用するもの［６］	using acoustic waves
+G08C  23/04  \	1	1	2F073	G08C  23/04	9	光波を使用するもの，例．赤外線［６］	using light waves, e.g. infra-red
+G08C  23/04  B	1	0	2F073	G08C  23/04	200	回転体におけるもの	at roraring body
+G08C  23/04  Z	1	0	2F073	G08C  23/04	511	その他のもの	Others
+G08C  23/06  \	2	2	2F073	G08C  23/06	1117	光ガイドを通過させるもの，例．光ファイバー［６］	through light guides, e.g. optical fibres
+G08C  25/00  \	0	0	2F073	G08C  25/00	466	誤りの防止または修正のための装置；監視装置	Arrangements for preventing or correcting errors; Monitoring arrangements
+G08C  25/00  A	0	0	2F073	G08C  25/00	509	誤りの防止・修正	Prevention and correction of failures
+G08C  25/00  B	0	1	2F073	G08C  25/00	386	雑音の影響の除去	Removal of noise effects
+G08C  25/00  C	0	1	2F073	G08C  25/00	332	補償〔温度・伝送歪・伝送線抵抗〕	Compensations (temperatures, transmission skews, transmission line resistances)
+G08C  25/00  D	0	1	2F073	G08C  25/00	68	保護・バ−ンアウト	Protection and burn-out
+G08C  25/00  E	0	1	2F073	G08C  25/00	193	二重化・現用予備	Redundancy, standby for existing devices
+G08C  25/00  F	0	0	2F073	G08C  25/00	560	監視	Supervising
+G08C  25/00  G	0	1	2F073	G08C  25/00	149	断線検出	Detecting disconnection
+G08C  25/00  H	0	1	2F073	G08C  25/00	210	試験・校正	Testing and calibration
+G08C  25/00  J	0	0	2F073	G08C  25/00	516	多重伝送におけるもの	Relating to multiple transmissions
+G08C  25/00  K	0	0	2F073	G08C  25/00	149	光伝送方式におけるもの	Relating to optical transmissions
+G08C  25/00  L	0	0	2F073	G08C  25/00	33	個別方式に関するもの	Regarding individual method
+G08C  25/00  Z	0	0	2F073	G08C  25/00	127	その他	Others
+G08C  25/02  \	1	1	2F073	G08C  25/02	124	受信局から送信局へ信号を返送することによるもの	by signalling back from receiving station to transmitting station
+G08C  25/04  \	1	1	2F073	G08C  25/04	17	送信された信号を記録することによるもの	by recording transmitted signals

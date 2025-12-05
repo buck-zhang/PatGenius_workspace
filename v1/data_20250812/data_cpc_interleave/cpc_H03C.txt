@@ -1,0 +1,108 @@
+H03C1/00	7	Amplitude modulation (H03C5/00, H03C7/00 take precedence)	H03C1/00	H03C1/00		318
+H03C1/02	8	Details	H03C1/02	H03C1/02		131
+H03C1/04	9	Means in or combined with modulating stage for reducing angle modulation	H03C1/04	H03C1/04		54
+H03C1/06	9	Modifications of modulator to reduce distortion, e.g. by feedback, and clearly applicable to more than one type of modulator	H03C1/06	H03C1/06		212
+H03C1/08	8	by means of variable impedance element (H03C1/28&#160;-&#160;H03C1/34, H03C1/46&#160;-&#160;H03C1/52, H03C1/62 take precedence)	H03C1/08	H03C1/08		46
+H03C1/10	9	the element being a current-dependent inductor	H03C1/10	H03C1/10		198
+H03C1/12	9	the element being a voltage-dependent capacitor	H03C1/12	H03C1/12		17
+H03C1/14	9	the element being a diode	H03C1/14	H03C1/14		50
+H03C1/16	8	by means of discharge device having at least three electrodes (H03C1/28&#160;-&#160;H03C1/34, H03C1/50, H03C1/52, H03C1/62 take precedence)	H03C1/16	H03C1/16		144
+H03C1/18	9	carrier applied to control grid	H03C1/18	H03C1/18		
+H03C1/20	10	modulating signal applied to anode	H03C1/20	H03C1/20		181
+H03C1/22	10	modulating signal applied to same grid	H03C1/22	H03C1/22		175
+H03C1/24	10	modulating signal applied to different grid	H03C1/24	H03C1/24		94
+H03C1/26	10	modulating signal applied to cathode	H03C1/26	H03C1/26		30
+H03C1/28	8	by means of transit-time tube	H03C1/28	H03C1/28		16
+H03C1/30	9	by means of a magnetron	H03C1/30	H03C1/30		52
+H03C1/32	8	by deflection of electron beam in discharge tube	H03C1/32	H03C1/32		20
+H03C1/34	8	by means of light-sensitive element	H03C1/34	H03C1/34		67
+H03C1/36	8	by means of semiconductor device having at least three electrodes (H03C1/34, H03C1/50, H03C1/52, H03C1/62 take precedence)	H03C1/36	H03C1/36		339
+H03C1/46	8	Modulators with mechanically-driven or acoustically-driven parts	H03C1/46	H03C1/46		49
+H03C1/48	8	by means of Hall-effect devices	H03C1/48	H03C1/48		35
+H03C1/50	8	by converting angle modulation to amplitude modulation (H03C1/28&#160;-&#160;H03C1/34, H03C1/46, H03C1/48 take precedence)	H03C1/50	H03C1/50		106
+H03C1/52	8	Modulators in which carrier or one sideband is wholly or partially suppressed (H03C1/28 - H03C1/34, H03C1/46, H03C1/48 take precedence)	H03C1/52	H03C1/52		278
+H03C1/54	9	Balanced modulators, e.g. bridge type, ring type or double balanced type	H03C1/54	H03C1/54		117
+H03C1/542	10	{comprising semiconductor devices with at least three electrodes}	H03C1/54	H03C1/54		45
+H03C1/545	11	{using bipolar transistors}	H03C1/54	H03C1/54		204
+H03C1/547	11	{using field-effect transistors}	H03C1/54	H03C1/54		32
+H03C1/56	10	comprising variable two-pole elements only	H03C1/56	H03C1/56		33
+H03C1/58	11	comprising diodes	H03C1/58	H03C1/58		314
+H03C1/60	9	with one sideband wholly or partially suppressed	H03C1/60	H03C1/60		342
+H03C1/62	8	Modulators in which amplitude of carrier component in output is dependent upon strength of modulating signal, e.g. no carrier output when no modulating signal is present (H03C1/28&#160;-&#160;H03C1/34, H03C1/46, H03C1/48 take precedence)	H03C1/62	H03C1/62		242
+H03C3/00	7	Angle modulation (H03C5/00, H03C7/00 take precedence)	H03C3/00	H03C3/00		503
+H03C3/005	8	{Circuits for asymmetric modulation}	H03C3/00	H03C3/00		33
+H03C3/02	8	Details	H03C3/02	H03C3/02		176
+H03C3/04	9	Means in or combined with modulating stage for reducing amplitude modulation	H03C3/04	H03C3/04		82
+H03C3/06	9	Means for changing frequency deviation	H03C3/06	H03C3/06		147
+H03C3/08	9	Modifications of modulator to linearise modulation, e.g. by feedback, and clearly applicable to more than one type of modulator	H03C3/08	H03C3/08		224
+H03C3/09	9	Modifications of modulator for regulating the mean frequency	H03C3/09	H03C3/09		423
+H03C3/0908	10	{using a phase locked loop}	H03C3/09	H03C3/09		92
+H03C3/0916	11	{with frequency divider or counter in the loop}	H03C3/09	H03C3/09		34
+H03C3/0925	12	{applying frequency modulation at the divider in the feedback loop}	H03C3/09	H03C3/09		332
+H03C3/0933	12	{using fractional frequency division in the feedback loop of the phase locked loop}	H03C3/09	H03C3/09		258
+H03C3/0941	11	{applying frequency modulation at more than one point in the loop}	H03C3/09	H03C3/09		309
+H03C3/095	11	{applying frequency modulation to the loop in front of the voltage controlled oscillator}	H03C3/09	H03C3/09		284
+H03C3/0958	11	{applying frequency modulation by varying the characteristics of the voltage controlled oscillator}	H03C3/09	H03C3/09		205
+H03C3/0966	11	{modulating the reference clock}	H03C3/09	H03C3/09		230
+H03C3/0975	11	{applying frequency modulation in the phase locked loop at components other than the divider, the voltage controlled oscillator or the reference clock}	H03C3/09	H03C3/09		133
+H03C3/0983	11	{containing in the loop a mixer other than for phase detection}	H03C3/09	H03C3/09		82
+H03C3/0991	11	{including calibration means or calibration methods}	H03C3/09	H03C3/09		122
+H03C3/10	8	by means of variable impedance (H03C3/30&#160;-&#160;H03C3/38 take precedence)	H03C3/10	H03C3/10		72
+H03C3/12	9	by means of a variable reactive element	H03C3/12	H03C3/12		43
+H03C3/14	10	simulated by circuit comprising active element with at least three electrodes, e.g. reactance-tube circuit	H03C3/14	H03C3/14		339
+H03C3/145	11	{by using semiconductor elements}	H03C3/14	H03C3/14		41
+H03C3/16	11	in which the active element simultaneously serves as the active element of an oscillator	H03C3/16	H03C3/16		68
+H03C3/18	10	the element being a current-dependent inductor	H03C3/18	H03C3/18		87
+H03C3/20	10	the element being a voltage-dependent capacitor	H03C3/20	H03C3/20		62
+H03C3/22	10	the element being a semiconductor diode, e.g. varicap diode	H03C3/22	H03C3/22		158
+H03C3/222	11	{using bipolar transistors (H03C3/227 takes precedence)}	H03C3/22	H03C3/22		157
+H03C3/225	11	{using field effect transistors (H03C3/227 takes precedence)}	H03C3/22	H03C3/22		29
+H03C3/227	11	{using a combination of bipolar transistors and field effect transistors}	H03C3/22	H03C3/22		18
+H03C3/24	9	by means of a variable resistive element, e.g. tube	H03C3/24	H03C3/24		88
+H03C3/245	10	{by using semiconductor elements}	H03C3/24	H03C3/24		56
+H03C3/26	10	comprising two elements controlled in push-pull by modulating signal	H03C3/26	H03C3/26		69
+H03C3/28	9	using variable impedance driven mechanically or acoustically	H03C3/28	H03C3/28		105
+H03C3/30	8	by means of transit-time tube	H03C3/30	H03C3/30		123
+H03C3/32	9	the tube being a magnetron	H03C3/32	H03C3/32		101
+H03C3/34	8	by deflection of electron beam in discharge tube	H03C3/34	H03C3/34		24
+H03C3/36	8	by means of light-sensitive element	H03C3/36	H03C3/36		40
+H03C3/38	8	by converting amplitude modulation to angle modulation	H03C3/38	H03C3/38		46
+H03C3/40	9	using two signal paths the outputs of which have a predetermined phase difference and at least one output being amplitude-modulated	H03C3/40	H03C3/40		353
+H03C3/403	10	{using two quadrature frequency conversion stages in cascade}	H03C3/40	H03C3/40		35
+H03C3/406	10	{using a feedback loop containing mixers or demodulators}	H03C3/40	H03C3/40		73
+H03C3/42	8	by means of electromechanical devices (H03C3/28 takes precedence)	H03C3/42	H03C3/42		28
+H03C5/00	7	Amplitude modulation and angle modulation produced simultaneously or at will by the same modulating signal (H03C7/00 takes precedence)	H03C5/00	H03C5/00		590
+H03C5/02	8	by means of transit-time tube	H03C5/02	H03C5/02		10
+H03C5/04	9	the tube being a magnetron	H03C5/04	H03C5/04		93
+H03C5/06	8	by deflection of electron beam in discharge tube	H03C5/06	H03C5/06		1
+H03C7/00	7	Modulating electromagnetic waves (devices or arrangements for the modulation of light G02F1/00)	H03C7/00	H03C7/00		59
+H03C7/02	8	in transmission lines, waveguides, cavity resonators or radiation fields of antennas	H03C7/02	H03C7/02		382
+H03C7/022	9	{using ferromagnetic devices, e.g. ferrites}	H03C7/02	H03C7/02		100
+H03C7/025	9	{using semiconductor devices}	H03C7/02	H03C7/02		57
+H03C7/027	10	{using diodes}	H03C7/02	H03C7/02		180
+H03C7/04	9	Polarisation of transmitted wave being modulated {(H03C7/022 takes precedence)}	H03C7/04	H03C7/04		5
+H03C99/00	7	Subject matter not provided for in other groups of this subclass	H03C99/00	H03C99/00		5
+H03C2200/00	7	Indexing scheme relating to details of modulators or modulation methods covered by H03C	CPCONLY	H03C2200/00		
+H03C2200/0004	8	Circuit elements of modulators	CPCONLY	H03C2200/0004		3
+H03C2200/0008	9	Variable capacitors, e.g. a varicap, a varactor or a variable capacitance of a diode or transistor	CPCONLY	H03C2200/0008		18
+H03C2200/0012	9	Emitter or source coupled transistor pairs or long tail pairs	CPCONLY	H03C2200/0012		18
+H03C2200/0016	9	Pre-emphasis or de-emphasis circuits	CPCONLY	H03C2200/0016		17
+H03C2200/002	9	Filters with particular characteristics	CPCONLY	H03C2200/002		9
+H03C2200/0025	9	Gilbert multipliers	CPCONLY	H03C2200/0025		8
+H03C2200/0029	9	Memory circuits, e.g. ROMs, RAMs, EPROMs, latches, shift registers	CPCONLY	H03C2200/0029		35
+H03C2200/0033	9	Transmission lines, e.g. striplines, microstrips or coplanar lines	CPCONLY	H03C2200/0033		11
+H03C2200/0037	8	Functional aspects of modulators	CPCONLY	H03C2200/0037		
+H03C2200/0041	9	Calibration of modulators	CPCONLY	H03C2200/0041		24
+H03C2200/0045	9	Pulse width, duty cycle or on/off ratio	CPCONLY	H03C2200/0045		11
+H03C2200/005	9	Modulation sensitivity	CPCONLY	H03C2200/005		57
+H03C2200/0054	10	Filtering of the input modulating signal for obtaining a constant sensitivity of frequency modulation	CPCONLY	H03C2200/0054		28
+H03C2200/0058	9	Quadrature arrangements	CPCONLY	H03C2200/0058		87
+H03C2200/0062	9	Lowering the supply voltage and saving power	CPCONLY	H03C2200/0062		4
+H03C2200/0066	9	Reduction of carrier leakage or the suppression of the carrier	CPCONLY	H03C2200/0066		18
+H03C2200/007	9	with one sideband wholly or partially suppressed	CPCONLY	H03C2200/007		15
+H03C2200/0075	9	FM modulation down to DC	CPCONLY	H03C2200/0075		8
+H03C2200/0079	9	Measures to linearise modulation or reduce distortion of modulation characteristics	CPCONLY	H03C2200/0079		90
+H03C2200/0083	10	Predistortion of input modulating signal to obtain a linear modulation characteristic	CPCONLY	H03C2200/0083		12
+H03C2200/0087	9	Measures to address temperature induced variations of modulation	CPCONLY	H03C2200/0087		2
+H03C2200/0091	10	by stabilising the temperature	CPCONLY	H03C2200/0091		12
+H03C2200/0095	10	by compensating temperature induced variations	CPCONLY	H03C2200/0095		2

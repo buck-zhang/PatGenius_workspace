@@ -1,0 +1,783 @@
+H03H1/00	7	Constructional details of impedance networks whose electrical mode of operation is not specified or applicable to more than one type of network (constructional details of electromechanical transducers H03H9/00)	H03H1/00	H03H1/00		992
+H03H1/0007	8	{of radio frequency interference filters}	H03H1/00	H03H1/00		1081
+H03H2001/0014	8	{Capacitor filters, i.e. capacitors whose parasitic inductance is of relevance to consider it as filter}	H03H1/00	H03H1/00		108
+H03H2001/0021	8	{Constructional details}	H03H1/00	H03H1/00		338
+H03H2001/0028	9	{RFI filters with housing divided in two bodies}	H03H1/00	H03H1/00		34
+H03H2001/0035	9	{Wound magnetic core}	H03H1/00	H03H1/00		71
+H03H2001/0042	9	{Wound, ring or feed-through type capacitor}	H03H1/00	H03H1/00		101
+H03H2001/005	9	{Wound, ring or feed-through type inductor}	H03H1/00	H03H1/00		174
+H03H2001/0057	9	{comprising magnetic material}	H03H1/00	H03H1/00		140
+H03H2001/0064	9	{comprising semiconductor material}	H03H1/00	H03H1/00		77
+H03H2001/0071	9	{comprising zig-zag inductor}	H03H1/00	H03H1/00		22
+H03H2001/0078	9	{comprising spiral inductor on a substrate}	H03H1/00	H03H1/00		202
+H03H2001/0085	9	{Multilayer, e.g. LTCC, HTCC, green sheets}	H03H1/00	H03H1/00		1298
+H03H2001/0092	8	{Inductor filters, i.e. inductors whose parasitic capacitance is of relevance to consider it as filter}	H03H1/00	H03H1/00		215
+H03H1/02	8	RC networks, e.g. filters	H03H1/02	H03H1/02		199
+H03H2/00	7	Networks using elements or techniques not provided for in groups H03H3/00&#160;-&#160;H03H21/00	H03H2/00	H03H2/00		65
+H03H2/001	8	{comprising magnetostatic wave network elements}	H03H2/00	H03H2/00		118
+H03H2/003	8	{comprising optical fibre network elements (optical elements per seG02B, G02F; transmission systems using light waves H04B10/00)}	H03H2/00	H03H2/00		6
+H03H2/005	8	{Coupling circuits between transmission lines or antennas and transmitters, receivers or amplifiers}	H03H2/00	H03H2/00		137
+H03H2/006	9	{Transmitter or amplifier output circuits}	H03H2/00	H03H2/00		324
+H03H2/008	9	{Receiver or amplifier input circuits}	H03H2/00	H03H2/00		442
+H03H3/00	7	Apparatus or processes specially adapted for the manufacture of impedance networks, resonating circuits, resonators	H03H3/00	H03H3/00		338
+H03H3/007	8	for the manufacture of electromechanical resonators or networks	H03H3/007	H03H3/007		252
+H03H2003/0071	9	{of bulk acoustic wave and surface acoustic wave elements in the same process}	H03H3/007	H03H3/007		47
+H03H3/0072	9	{of microelectro-mechanical resonators or networks (micromembranes or microbeams B81B2203/01; manufacture of microstructural devices in general B81C)}	H03H3/007	H03H3/007		310
+H03H3/0073	10	{Integration with other electronic structures}	H03H3/007	H03H3/007		84
+H03H3/0075	10	{Arrangements or methods specially adapted for testing microelecro-mechanical resonators or networks}	H03H3/007	H03H3/007		25
+H03H3/0076	10	{for obtaining desired frequency or temperature coefficients}	H03H3/007	H03H3/007		139
+H03H3/0077	11	{by tuning of resonance frequency}	H03H3/007	H03H3/007		132
+H03H3/0078	12	{involving adjustment of the transducing gap}	H03H3/007	H03H3/007		11
+H03H3/013	9	for obtaining desired frequency or temperature coefficient ({H03H3/0076}H03H3/04, H03H3/10 take precedence)	H03H3/013	H03H3/013		114
+H03H3/02	9	for the manufacture of piezoelectric or electrostrictive resonators or networks (H03H3/08 takes precedence)	H03H3/02	H03H3/02		4188
+H03H2003/021	10	{the resonators or networks being of the air-gap type}	H03H3/02	H03H3/02		575
+H03H2003/022	10	{the resonators or networks being of the cantilever type}	H03H3/02	H03H3/02		152
+H03H2003/023	10	{the resonators or networks being of the membrane type}	H03H3/02	H03H3/02		1162
+H03H2003/025	10	{the resonators or networks comprising an acoustic mirror}	H03H3/02	H03H3/02		281
+H03H2003/026	10	{the resonators or networks being of the tuning fork type}	H03H3/02	H03H3/02		218
+H03H2003/027	10	{the resonators or networks being of the microelectro-mechanical [MEMS] type}	H03H3/02	H03H3/02		173
+H03H2003/028	10	{for obtaining desired values of other parameters}	H03H3/02	H03H3/02		108
+H03H3/04	10	for obtaining desired frequency or temperature coefficient	H03H3/04	H03H3/04		1323
+H03H2003/0407	11	{Temperature coefficient}	H03H3/04	H03H3/04		150
+H03H2003/0414	11	{Resonance frequency}	H03H3/04	H03H3/04		179
+H03H2003/0421	12	{Modification of the thickness of an element}	H03H3/04	H03H3/04		22
+H03H2003/0428	13	{of an electrode}	H03H3/04	H03H3/04		166
+H03H2003/0435	13	{of a piezoelectric layer}	H03H3/04	H03H3/04		108
+H03H2003/0442	13	{of a non-piezoelectric layer}	H03H3/04	H03H3/04		111
+H03H2003/045	12	{Modification of the area of an element}	H03H3/04	H03H3/04		19
+H03H2003/0457	13	{of an electrode}	H03H3/04	H03H3/04		24
+H03H2003/0464	12	{operating on an additional circuit element, e.g. a passive circuit element connected to the resonator}	H03H3/04	H03H3/04		14
+H03H2003/0471	12	{of a plurality of resonators at different frequencies}	H03H3/04	H03H3/04		69
+H03H2003/0478	12	{in a process for mass production}	H03H3/04	H03H3/04		51
+H03H2003/0485	12	{during the manufacture of a cantilever}	H03H3/04	H03H3/04		22
+H03H2003/0492	12	{during the manufacture of a tuning-fork}	H03H3/04	H03H3/04		90
+H03H3/06	9	for the manufacture of magnetostrictive resonators or networks	H03H3/06	H03H3/06		26
+H03H3/08	9	for the manufacture of resonators or networks using surface acoustic waves	H03H3/08	H03H3/08		2043
+H03H3/10	10	for obtaining desired frequency or temperature coefficient	H03H3/10	H03H3/10		392
+H03H5/00	7	One-port networks comprising only passive electrical elements as network components	H03H5/00	H03H5/00		129
+H03H5/003	8	{comprising distributed impedance elements together with lumped impedance elements}	H03H5/00	H03H5/00		171
+H03H5/006	8	{comprising simultaneously tunable inductance and capacitance}	H03H5/00	H03H5/00		185
+H03H5/02	8	without voltage- or current-dependent elements	H03H5/02	H03H5/02		378
+H03H5/10	9	comprising at least one element with prescribed temperature coefficient	H03H5/10	H03H5/10		10
+H03H5/12	8	with at least one voltage- or current-dependent element	H03H5/12	H03H5/12		188
+H03H7/00	7	Multiple-port networks comprising only passive electrical elements as network components	H03H7/00	H03H7/00		263
+H03H7/002	8	{Gyrators}	H03H7/00	H03H7/00		64
+H03H7/004	8	{Capacitive coupling circuits not otherwise provided for}	H03H7/00	H03H7/00		107
+H03H2007/006	8	{MEMS}	H03H7/00	H03H7/00		29
+H03H2007/008	9	{the MEMS being trimmable}	H03H7/00	H03H7/00		26
+H03H7/01	8	Frequency selective two-port networks	H03H7/01	H03H7/01		968
+H03H7/0107	9	{Non-linear filters}	H03H7/01	H03H7/01		138
+H03H7/0115	9	{comprising only inductors and capacitors (H03H7/075, H03H7/09, H03H7/12, H03H7/13 take precedence)}	H03H7/01	H03H7/01		2767
+H03H7/0123	9	{comprising distributed impedance elements together with lumped impedance elements}	H03H7/01	H03H7/01		417
+H03H2007/013	9	{Notch or bandstop filters}	H03H7/01	H03H7/01		359
+H03H7/0138	9	{Electrical filters or coupling circuits}	H03H7/01	H03H7/01		318
+H03H7/0146	10	{Coupling circuits between two tubes, not otherwise provided for}	H03H7/01	H03H7/01		113
+H03H7/0153	9	{Electrical filters; Controlling thereof}	H03H7/01	H03H7/01		478
+H03H7/0161	10	{Bandpass filters (H03H7/12 takes precedence)}	H03H7/01	H03H7/01		1112
+H03H7/0169	11	{Intermediate frequency filters}	H03H7/01	H03H7/01		148
+H03H7/0176	12	{witout magnetic core}	H03H7/01	H03H7/01		66
+H03H7/0184	12	{with ferromagnetic core}	H03H7/01	H03H7/01		187
+H03H2007/0192	9	{Complex filters}	H03H7/01	H03H7/01		86
+H03H7/03	9	comprising means for compensation of loss	H03H7/03	H03H7/03		97
+H03H7/06	9	including resistors (H03H7/075, H03H7/09, H03H7/12, H03H7/13 take precedence)	H03H7/06	H03H7/06		899
+H03H7/065	10	Parallel T-filters	H03H7/065	H03H7/065		39
+H03H7/07	10	Bridged T-filters	H03H7/07	H03H7/07		100
+H03H7/075	9	Ladder networks, e.g. electric wave filters	H03H7/075	H03H7/075		432
+H03H7/09	9	Filters comprising mutual inductance	H03H7/09	H03H7/09		1084
+H03H7/12	9	Bandpass or bandstop filters with adjustable bandwidth and fixed centre frequency (H03H7/09 takes precedence)	H03H7/12	H03H7/12		818
+H03H7/13	9	using electro-optical elements	H03H7/13	H03H7/13		4
+H03H7/17	9	{Structural details of sub-circuits of frequency selective networks}	H03H7/01	H03H7/17		81
+H03H7/1708	10	{Comprising bridging elements, i.e. elements in a series path without own reference to ground and spanning branching nodes of another series path (H03H7/07 takes precedence)}	H03H7/01	H03H7/17		396
+H03H7/1716	10	{Comprising foot-point elements}	H03H7/01	H03H7/17		10
+H03H7/1725	11	{Element to ground being common to different shunt paths, i.e. Y-structure}	H03H7/01	H03H7/17		218
+H03H7/1733	11	{Element between different shunt or branch paths (H03H7/425 takes precedence)}	H03H7/01	H03H7/17		44
+H03H7/1741	10	{Comprising typical LC combinations, irrespective of presence and location of additional resistors (when resistors are present, also classify in H03H7/06&#160;-&#160;H03H7/07)}	H03H7/01	H03H7/17		135
+H03H7/175	11	{Series LC in series path (H03H7/1783 takes precedence)}	H03H7/01	H03H7/17		494
+H03H7/1758	11	{Series LC in shunt or branch path (H03H7/1791 takes precedence)}	H03H7/01	H03H7/17		794
+H03H7/1766	11	{Parallel LC in series path (H03H7/1783 takes precedence)}	H03H7/01	H03H7/17		741
+H03H7/1775	11	{Parallel LC in shunt or branch path (H03H7/1791 takes precedence)}	H03H7/01	H03H7/17		1017
+H03H7/1783	11	{Combined LC in series path}	H03H7/01	H03H7/17		314
+H03H7/1791	11	{Combined LC in shunt or branch path}	H03H7/01	H03H7/17		432
+H03H7/18	8	Networks for phase shifting	H03H7/18	H03H7/18		277
+H03H7/185	9	{comprising distributed impedance elements together with lumped impedance elements}	H03H7/18	H03H7/18		94
+H03H7/19	9	Two-port phase shifters providing a predetermined phase shift, e.g. "all-pass" filters	H03H7/19	H03H7/19		107
+H03H7/20	9	Two-port phase shifters providing an adjustable phase shift	H03H7/20	H03H7/20		394
+H03H7/21	9	providing two or more phase shifted output signals, e.g. n-phase output	H03H7/21	H03H7/21		227
+H03H7/24	8	Frequency- independent attenuators	H03H7/24	H03H7/24		673
+H03H7/25	9	comprising an element controlled by an electric or magnetic variable (H03H7/27 takes precedence)	H03H7/25	H03H7/25		231
+H03H7/251	10	{the element being a thermistor}	H03H7/25	H03H7/25		20
+H03H7/253	10	{the element being a diode}	H03H7/25	H03H7/25		62
+H03H7/255	11	{the element being a PIN diode}	H03H7/25	H03H7/25		133
+H03H7/256	11	{the element being a VARACTOR diode}	H03H7/25	H03H7/25		21
+H03H7/258	10	{using a galvano-magnetic device}	H03H7/25	H03H7/25		11
+H03H7/27	9	comprising a photo-electric element	H03H7/27	H03H7/27		19
+H03H7/30	8	Time-delay networks {(analogue shift registers G11C27/04)}	H03H7/30	H03H7/30		231
+H03H7/32	9	with lumped inductance and capacitance	H03H7/32	H03H7/32		175
+H03H7/325	10	{Adjustable networks}	H03H7/32	H03H7/32		79
+H03H7/34	9	with lumped and distributed reactance	H03H7/34	H03H7/34		114
+H03H7/345	10	{Adjustable networks}	H03H7/34	H03H7/34		60
+H03H7/38	8	Impedance-matching networks	H03H7/38	H03H7/38		3088
+H03H7/383	9	{comprising distributed impedance elements together with lumped impedance elements}	H03H7/38	H03H7/38		308
+H03H2007/386	9	{Multiple band impedance matching}	H03H7/38	H03H7/38		155
+H03H7/40	9	Automatic matching of load impedance to source impedance	H03H7/40	H03H7/40		1357
+H03H7/42	8	Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns	H03H7/42	H03H7/42		694
+H03H7/422	9	{comprising distributed impedance elements together with lumped impedance elements}	H03H7/42	H03H7/42		137
+H03H7/425	9	{Balance-balance networks}	H03H7/42	H03H7/42		124
+H03H7/427	10	{Common-mode filters (H02J3/01 and H02M1/126 takes precedence)}	H03H7/42	H03H7/42		562
+H03H7/46	8	Networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common load or source	H03H7/46	H03H7/46		623
+H03H7/461	9	{particularly adapted for use in common antenna systems}	H03H7/46	H03H7/46		176
+H03H7/463	9	{Duplexers}	H03H7/46	H03H7/46		462
+H03H7/465	10	{having variable circuit topology, e.g. including switches}	H03H7/46	H03H7/46		150
+H03H7/466	9	{particularly adapted as input circuit for receivers}	H03H7/46	H03H7/46		65
+H03H7/468	9	{particularly adapted as coupling circuit between transmitters and antennas}	H03H7/46	H03H7/46		74
+H03H7/48	8	Networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (phase shifters providing two or more output signals H03H7/21)	H03H7/48	H03H7/48		615
+H03H7/482	9	{particularly adapted for use in common antenna systems}	H03H7/48	H03H7/48		260
+H03H7/485	9	{particularly adapted as input circuit for receivers}	H03H7/48	H03H7/48		28
+H03H7/487	9	{particularly adapted as coupling circuit between transmitters and antennas}	H03H7/48	H03H7/48		194
+H03H7/52	8	One-way transmission networks, i.e. unilines	H03H7/52	H03H7/52		130
+H03H7/54	8	Modifications of networks to reduce influence of variations of temperature	H03H7/54	H03H7/54		61
+H03H9/00	7	Networks comprising electromechanical or electro-acoustic elements; Electromechanical resonators (electro-acoustic transducers such as loudspeakers, microphones or gramophone pick-ups H04R; piezoelectric, electrostrictive or magnetostrictive devices&#160;with mechanical input or output, e.g. actuators or sensors, H10N30/00, H10N35/00)	H03H9/00	H03H9/00		139
+H03H9/0004	8	{Impedance-matching networks (H03H9/145 takes precedence)}	H03H9/00	H03H9/00		70
+H03H9/0009	9	{using surface acoustic wave devices}	H03H9/00	H03H9/00		91
+H03H9/0014	9	{using bulk acoustic wave devices}	H03H9/00	H03H9/00		57
+H03H2009/0019	8	{Surface acoustic wave multichip}	H03H9/00	H03H9/00		38
+H03H9/0023	8	{Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns, or networks having balanced input and output}	H03H9/00	H03H9/00		28
+H03H9/0028	9	{using surface acoustic wave devices}	H03H9/00	H03H9/00		113
+H03H9/0033	10	{having one acoustic track only}	H03H9/00	H03H9/00		6
+H03H9/0038	11	{the balanced terminals being on the same side of the track}	H03H9/00	H03H9/00		139
+H03H9/0042	11	{the balanced terminals being on opposite sides of the track}	H03H9/00	H03H9/00		95
+H03H9/0047	10	{having two acoustic tracks (H03H9/008, H03H9/0085 take precedence)}	H03H9/00	H03H9/00		6
+H03H9/0052	11	{being electrically cascaded}	H03H9/00	H03H9/00		3
+H03H9/0057	12	{the balanced terminals being on the same side of the tracks}	H03H9/00	H03H9/00		101
+H03H9/0061	12	{the balanced terminals being on opposite sides of the tracks}	H03H9/00	H03H9/00		62
+H03H9/0066	11	{being electrically parallel}	H03H9/00	H03H9/00		3
+H03H9/0071	12	{the balanced terminals being on the same side of the tracks}	H03H9/00	H03H9/00		104
+H03H9/0076	12	{the balanced terminals being on opposite sides of the tracks}	H03H9/00	H03H9/00		11
+H03H9/008	10	{having three acoustic tracks (H03H9/0085 takes precedence)}	H03H9/00	H03H9/00		34
+H03H9/0085	10	{having four acoustic tracks}	H03H9/00	H03H9/00		91
+H03H9/009	11	{Lattice filters}	H03H9/00	H03H9/00		26
+H03H9/0095	9	{using bulk acoustic wave devices}	H03H9/00	H03H9/00		200
+H03H9/02	8	Details	H03H9/02	H03H9/02		794
+H03H9/02007	9	{of bulk acoustic wave devices}	H03H9/02	H03H9/02		321
+H03H9/02015	10	{Characteristics of piezoelectric layers, e.g. cutting angles}	H03H9/02	H03H9/02		1475
+H03H9/02023	11	{consisting of quartz}	H03H9/02	H03H9/02		299
+H03H9/02031	11	{consisting of ceramic}	H03H9/02	H03H9/02		393
+H03H9/02039	11	{consisting of a material from the crystal group 32, e.g. langasite, langatate, langanite}	H03H9/02	H03H9/02		93
+H03H9/02047	10	{Treatment of substrates}	H03H9/02	H03H9/02		370
+H03H9/02055	11	{of the surface including the back surface}	H03H9/02	H03H9/02		37
+H03H9/02062	10	{Details relating to the vibration mode}	H03H9/02	H03H9/02		228
+H03H9/0207	11	{the vibration mode being harmonic}	H03H9/02	H03H9/02		128
+H03H9/02078	11	{the vibration mode being overmoded}	H03H9/02	H03H9/02		35
+H03H9/02086	10	{Means for compensation or elimination of undesirable effects}	H03H9/02	H03H9/02		532
+H03H9/02094	11	{of adherence}	H03H9/02	H03H9/02		90
+H03H9/02102	11	{of temperature influence (cutting angles H03H9/02015)}	H03H9/02	H03H9/02		719
+H03H9/0211	11	{of reflections}	H03H9/02	H03H9/02		203
+H03H9/02118	11	{of lateral leakage between adjacent resonators}	H03H9/02	H03H9/02		627
+H03H9/02125	11	{of parasitic elements}	H03H9/02	H03H9/02		153
+H03H9/02133	11	{of stress}	H03H9/02	H03H9/02		274
+H03H9/02141	11	{of electric discharge due to pyroelectricity}	H03H9/02	H03H9/02		20
+H03H9/02149	11	{of ageing changes of characteristics, e.g. electro-acousto-migration}	H03H9/02	H03H9/02		132
+H03H9/02157	10	{Dimensional parameters, e.g. ratio between two dimension parameters, length, width or thickness}	H03H9/02	H03H9/02		822
+H03H2009/02165	9	{Tuning}	H03H9/02	H03H9/02		72
+H03H2009/02173	10	{of film bulk acoustic resonators [FBAR]}	H03H9/02	H03H9/02		134
+H03H2009/02181	11	{by application of heat from a heat source}	H03H9/02	H03H9/02		15
+H03H2009/02188	11	{Electrically tuning}	H03H9/02	H03H9/02		16
+H03H2009/02196	12	{operating on the FBAR element, e.g. by direct application of a tuning DC voltage}	H03H9/02	H03H9/02		50
+H03H2009/02204	12	{operating on an additional circuit element, e.g. applying a tuning DC voltage to a passive circuit element connected to the resonator}	H03H9/02	H03H9/02		46
+H03H2009/02212	11	{Magnetically tuning}	H03H9/02	H03H9/02		6
+H03H9/0222	9	{of interface-acoustic, boundary, pseudo-acoustic or Stonely wave devices}	H03H9/02	H03H9/02		188
+H03H9/02228	9	{Guided bulk acoustic wave devices or Lamb wave devices having interdigital transducers situated in parallel planes on either side of a piezoelectric layer}	H03H9/02	H03H9/02		867
+H03H9/02236	9	{of surface skimming bulk wave devices}	H03H9/02	H03H9/02		25
+H03H9/02244	9	{of microelectro-mechanical resonators}	H03H9/02	H03H9/02		224
+H03H2009/02251	10	{Design}	H03H9/02	H03H9/02		40
+H03H9/02259	10	{Driving or detection means}	H03H9/02	H03H9/02		236
+H03H2009/02267	11	{having dimensions of atomic scale, e.g. involving electron transfer across vibration gap}	H03H9/02	H03H9/02		5
+H03H9/02275	11	{Comb electrodes}	H03H9/02	H03H9/02		78
+H03H2009/02283	10	{Vibrating means}	H03H9/02	H03H9/02		45
+H03H2009/02291	11	{Beams}	H03H9/02	H03H9/02		44
+H03H2009/02299	12	{Comb-like, i.e. the beam comprising a plurality of fingers or protrusions along its length}	H03H9/02	H03H9/02		28
+H03H2009/02307	12	{Dog-bone-like structure, i.e. the elongated part of the "bone" is doubly clamped}	H03H9/02	H03H9/02		15
+H03H2009/02314	12	{forming part of a transistor structure}	H03H9/02	H03H9/02		30
+H03H2009/02322	12	{Material}	H03H9/02	H03H9/02		22
+H03H2009/0233	11	{comprising perforations}	H03H9/02	H03H9/02		35
+H03H9/02338	10	{Suspension means}	H03H9/02	H03H9/02		150
+H03H2009/02346	11	{Anchors for ring resonators}	H03H9/02	H03H9/02		13
+H03H2009/02354	12	{applied along the periphery, e.g. at nodal points of the ring}	H03H9/02	H03H9/02		26
+H03H9/02362	11	{Folded-flexure}	H03H9/02	H03H9/02		16
+H03H2009/0237	12	{applied at the center}	H03H9/02	H03H9/02		7
+H03H9/02377	12	{Symmetric folded-flexure}	H03H9/02	H03H9/02		15
+H03H2009/02385	11	{Anchors for square resonators, i.e. resonators comprising a square vibrating membrane}	H03H9/02	H03H9/02		24
+H03H9/02393	10	{Post-fabrication trimming of parameters, e.g. resonance frequency, Q factor}	H03H9/02	H03H9/02		66
+H03H9/02401	11	{by annealing}	H03H9/02	H03H9/02		16
+H03H9/02409	11	{by application of a DC-bias voltage (H03H9/02417 takes precedence)}	H03H9/02	H03H9/02		60
+H03H9/02417	11	{involving adjustment of the transducing gap}	H03H9/02	H03H9/02		10
+H03H9/02425	12	{by electrostatically pulling the beam}	H03H9/02	H03H9/02		4
+H03H9/02433	10	{Means for compensation or elimination of undesired effects}	H03H9/02	H03H9/02		135
+H03H2009/0244	11	{Anchor loss}	H03H9/02	H03H9/02		51
+H03H9/02448	11	{of temperature influence}	H03H9/02	H03H9/02		205
+H03H2009/02456	11	{Parasitic elements or effects, e.g. parasitic capacitive coupling between input and output}	H03H9/02	H03H9/02		18
+H03H2009/02464	11	{Pull-in}	H03H9/02	H03H9/02		6
+H03H2009/02472	11	{Stiction}	H03H9/02	H03H9/02		10
+H03H2009/0248	11	{Strain}	H03H9/02	H03H9/02		21
+H03H2009/02488	10	{Vibration modes}	H03H9/02	H03H9/02		35
+H03H2009/02496	11	{Horizontal, i.e. parallel to the substrate plane}	H03H9/02	H03H9/02		216
+H03H2009/02503	12	{Breath-like, e.g. Lam? mode, wine-glass mode}	H03H9/02	H03H9/02		90
+H03H2009/02511	11	{Vertical, i.e. perpendicular to the substrate plane}	H03H9/02	H03H9/02		114
+H03H2009/02519	11	{Torsional}	H03H9/02	H03H9/02		46
+H03H2009/02527	11	{Combined}	H03H9/02	H03H9/02		46
+H03H9/02535	9	{of surface acoustic wave devices}	H03H9/02	H03H9/02		189
+H03H9/02543	10	{Characteristics of substrate, e.g. cutting angles}	H03H9/02	H03H9/02		549
+H03H9/02551	11	{of quartz substrates}	H03H9/02	H03H9/02		200
+H03H9/02559	11	{of lithium niobate or lithium-tantalate substrates}	H03H9/02	H03H9/02		911
+H03H9/02566	11	{of semiconductor substrates}	H03H9/02	H03H9/02		87
+H03H9/02574	11	{of combined substrates, multilayered substrates, piezoelectrical layers on not-piezoelectrical substrate}	H03H9/02	H03H9/02		1273
+H03H9/02582	11	{of diamond substrates}	H03H9/02	H03H9/02		82
+H03H9/0259	11	{of langasite substrates}	H03H9/02	H03H9/02		46
+H03H9/02598	11	{of langatate substrates}	H03H9/02	H03H9/02		12
+H03H9/02606	11	{of langanite substrates}	H03H9/02	H03H9/02		15
+H03H9/02614	10	{Treatment of substrates, e.g. curved, spherical, cylindrical substrates ensuring closed round-about circuits for the acoustical waves}	H03H9/02	H03H9/02		260
+H03H9/02622	11	{of the surface, including back surface}	H03H9/02	H03H9/02		165
+H03H9/02629	11	{of the edges}	H03H9/02	H03H9/02		42
+H03H9/02637	10	{Details concerning reflective or coupling arrays}	H03H9/02	H03H9/02		329
+H03H9/02645	11	{Waffle-iron or dot arrays}	H03H9/02	H03H9/02		34
+H03H9/02653	11	{Grooves or arrays buried in the substrate}	H03H9/02	H03H9/02		76
+H03H9/02661	12	{being located inside the interdigital transducers}	H03H9/02	H03H9/02		132
+H03H9/02669	11	{Edge reflection structures, i.e. resonating structures without metallic reflectors, e.g. Bleustein-Gulyaev-Shimizu [BGS], shear horizontal [SH], shear transverse [ST], Love waves devices}	H03H9/02	H03H9/02		80
+H03H9/02677	12	{having specially shaped edges, e.g. stepped, U-shaped edges}	H03H9/02	H03H9/02		14
+H03H9/02685	11	{Grating lines having particular arrangements}	H03H9/02	H03H9/02		105
+H03H9/02692	12	{Arched grating lines}	H03H9/02	H03H9/02		8
+H03H9/027	13	{U-shaped grating lines}	H03H9/02	H03H9/02		13
+H03H9/02708	12	{Shifted grating lines}	H03H9/02	H03H9/02		25
+H03H9/02716	12	{Tilted, fan shaped or slanted grating lines}	H03H9/02	H03H9/02		40
+H03H9/02724	12	{Comb like grating lines}	H03H9/02	H03H9/02		33
+H03H9/02732	13	{Bilateral comb like grating lines}	H03H9/02	H03H9/02		115
+H03H9/0274	12	{Intra-transducers grating lines}	H03H9/02	H03H9/02		38
+H03H9/02748	13	{Dog-legged reflectors}	H03H9/02	H03H9/02		33
+H03H9/02755	13	{Meandering floating or grounded grating lines}	H03H9/02	H03H9/02		33
+H03H9/02763	12	{Left and right side electrically coupled reflectors}	H03H9/02	H03H9/02		20
+H03H9/02771	12	{Reflector banks}	H03H9/02	H03H9/02		80
+H03H9/02779	11	{Continuous surface reflective arrays}	H03H9/02	H03H9/02		78
+H03H9/02787	12	{having wave guide like arrangements}	H03H9/02	H03H9/02		27
+H03H9/02795	11	{Multi-strip couplers as track changers}	H03H9/02	H03H9/02		49
+H03H9/02803	11	{Weighted reflective structures}	H03H9/02	H03H9/02		20
+H03H9/02811	12	{Chirped reflective or coupling arrays}	H03H9/02	H03H9/02		15
+H03H9/02818	10	{Means for compensation or elimination of undesirable effects}	H03H9/02	H03H9/02		507
+H03H9/02826	11	{of adherence}	H03H9/02	H03H9/02		30
+H03H9/02834	11	{of temperature influence (cut angles H03H9/02543)}	H03H9/02	H03H9/02		889
+H03H9/02842	11	{of reflections (H03H9/6406 takes precedence)}	H03H9/02	H03H9/02		326
+H03H9/0285	12	{of triple transit echo}	H03H9/02	H03H9/02		89
+H03H9/02858	11	{of wave front distortion}	H03H9/02	H03H9/02		132
+H03H9/02866	11	{of bulk wave excitation and reflections}	H03H9/02	H03H9/02		336
+H03H9/02874	11	{of direct coupling between input and output transducers}	H03H9/02	H03H9/02		107
+H03H9/02881	11	{of diffraction of wave beam}	H03H9/02	H03H9/02		141
+H03H9/02889	11	{of influence of mass loading}	H03H9/02	H03H9/02		32
+H03H9/02897	11	{of strain or mechanical damage, e.g. strain due to bending influence}	H03H9/02	H03H9/02		155
+H03H9/02905	11	{Measures for separating propagation paths on substrate}	H03H9/02	H03H9/02		51
+H03H9/02913	11	{Measures for shielding against electromagnetic fields (shielding of electrical components in general H05K9/00)}	H03H9/02	H03H9/02		114
+H03H9/02921	11	{Measures for preventing electric discharge due to pyroelectricity}	H03H9/02	H03H9/02		121
+H03H9/02929	11	{of ageing changes of characteristics, e.g. electro-acousto-migration}	H03H9/02	H03H9/02		132
+H03H9/02937	11	{of chemical damage, e.g. corrosion}	H03H9/02	H03H9/02		56
+H03H9/02944	11	{of ohmic loss}	H03H9/02	H03H9/02		41
+H03H9/02952	11	{of parasitic capacitance}	H03H9/02	H03H9/02		54
+H03H9/0296	10	{Surface acoustic wave [SAW] devices having both acoustic and non-acoustic properties}	H03H9/02	H03H9/02		63
+H03H9/02968	11	{with optical devices (mounting in enclosures H03H9/12)}	H03H9/02	H03H9/02		37
+H03H9/02976	11	{with semiconductor devices}	H03H9/02	H03H9/02		120
+H03H9/02984	10	{Protection measures against damaging}	H03H9/02	H03H9/02		136
+H03H9/02992	10	{Details of bus bars, contact pads or other electrical connections for finger electrodes}	H03H9/02	H03H9/02		480
+H03H9/05	9	Holders or supports	H03H9/05	H03H9/05		236
+H03H9/0504	10	{for bulk acoustic wave devices}	H03H9/05	H03H9/05		411
+H03H9/0509	11	{consisting of adhesive elements}	H03H9/05	H03H9/05		246
+H03H9/0514	11	{consisting of mounting pads or bumps}	H03H9/05	H03H9/05		325
+H03H9/0519	12	{for cantilever (H03H9/1021 takes precedence)}	H03H9/05	H03H9/05		316
+H03H9/0523	12	{for flip-chip mounting}	H03H9/05	H03H9/05		184
+H03H9/0528	11	{consisting of clips}	H03H9/05	H03H9/05		234
+H03H9/0533	11	{consisting of wire}	H03H9/05	H03H9/05		146
+H03H9/0538	10	{Constructional combinations of supports or holders with electromechanical or other electronic elements}	H03H9/05	H03H9/05		148
+H03H9/0542	11	{consisting of a lateral arrangement (H03H9/0566 takes precedence)}	H03H9/05	H03H9/05		679
+H03H9/0547	11	{consisting of a vertical arrangement (H03H9/0566 takes precedence)}	H03H9/05	H03H9/05		753
+H03H9/0552	12	{the device and the other elements being mounted on opposite sides of a common substrate}	H03H9/05	H03H9/05		261
+H03H9/0557	12	{the other elements being buried in the substrate}	H03H9/05	H03H9/05		207
+H03H9/0561	12	{consisting of a multilayered structure}	H03H9/05	H03H9/05		181
+H03H9/0566	11	{for duplexers}	H03H9/05	H03H9/05		100
+H03H9/0571	12	{including bulk acoustic wave [BAW] devices}	H03H9/05	H03H9/05		140
+H03H9/0576	12	{including surface acoustic wave [SAW] devices}	H03H9/05	H03H9/05		347
+H03H9/058	10	{for surface acoustic wave devices}	H03H9/05	H03H9/05		202
+H03H9/0585	11	{consisting of an adhesive layer}	H03H9/05	H03H9/05		106
+H03H9/059	11	{consisting of mounting pads or bumps}	H03H9/05	H03H9/05		559
+H03H9/0595	10	{the holder support and resonator being formed in one body}	H03H9/05	H03H9/05		464
+H03H9/08	10	Holders with means for regulating temperature	H03H9/08	H03H9/08		364
+H03H9/09	10	Elastic or damping supports	H03H9/09	H03H9/09		590
+H03H9/10	10	Mounting in enclosures {(constructional combinations of enclosure with electromechanical and other electronic elements H03H9/0538)}	H03H9/10	H03H9/10		444
+H03H9/1007	11	{for bulk acoustic wave [BAW] devices}	H03H9/10	H03H9/10		363
+H03H9/1014	12	{the enclosure being defined by a frame built on a substrate and a cap, the frame having no mechanical contact with the BAW device}	H03H9/10	H03H9/10		751
+H03H9/1021	13	{the BAW device being of the cantilever type}	H03H9/10	H03H9/10		1129
+H03H9/1028	13	{the BAW device being held between spring terminals}	H03H9/10	H03H9/10		140
+H03H9/1035	12	{the enclosure being defined by two sealing substrates sandwiching the piezoelectric layer of the BAW device}	H03H9/10	H03H9/10		409
+H03H9/1042	12	{the enclosure being defined by a housing formed by a cavity in a resin}	H03H9/10	H03H9/10		111
+H03H9/105	12	{the enclosure being defined by a cover cap mounted on an element forming part of the BAW device}	H03H9/10	H03H9/10		223
+H03H9/1057	11	{for microelectro-mechanical devices}	H03H9/10	H03H9/10		188
+H03H9/1064	11	{for surface acoustic wave [SAW] devices}	H03H9/10	H03H9/10		287
+H03H9/1071	12	{the enclosure being defined by a frame built on a substrate and a cap, the frame having no mechanical contact with the SAW device}	H03H9/10	H03H9/10		561
+H03H9/1078	12	{the enclosure being defined by a foil covering the non-active sides of the SAW device}	H03H9/10	H03H9/10		97
+H03H9/1085	12	{the enclosure being defined by a non-uniform sealing mass covering the non-active sides of the SAW device}	H03H9/10	H03H9/10		255
+H03H9/1092	12	{the enclosure being defined by a cover cap mounted on an element forming part of the surface acoustic wave [SAW] device on the side of the IDT&apos;s}	H03H9/10	H03H9/10		439
+H03H9/12	11	for networks with interaction of optical and acoustic waves	H03H9/12	H03H9/12		18
+H03H9/125	9	Driving means, e.g. electrodes, coils	H03H9/125	H03H9/125		401
+H03H9/13	10	for networks consisting of piezoelectric or electrostrictive materials (for networks using surface acoustic waves H03H9/145)	H03H9/13	H03H9/13		776
+H03H9/131	11	{consisting of a multilayered structure}	H03H9/13	H03H9/13		699
+H03H9/132	11	{characterized by a particular shape}	H03H9/13	H03H9/13		875
+H03H9/133	11	{for electromechanical delay lines or filters}	H03H9/13	H03H9/13		132
+H03H9/135	10	for networks consisting of magnetostrictive materials (H03H9/145 takes precedence)	H03H9/135	H03H9/135		60
+H03H9/145	10	for networks using surface acoustic waves	H03H9/145	H03H9/145		1147
+H03H9/14502	11	{Surface acoustic wave [SAW] transducers for a particular purpose}	H03H9/145	H03H9/145		126
+H03H9/14505	12	{Unidirectional SAW transducers}	H03H9/145	H03H9/145		189
+H03H9/14508	12	{Polyphase SAW transducers}	H03H9/145	H03H9/145		67
+H03H9/14511	12	{SAW transducers for non-piezoelectric substrates}	H03H9/145	H03H9/145		3
+H03H9/14514	12	{Broad band transducers}	H03H9/145	H03H9/145		37
+H03H9/14517	11	{Means for weighting}	H03H9/145	H03H9/145		99
+H03H9/1452	12	{by finger overlap length, apodisation}	H03H9/145	H03H9/145		277
+H03H9/14523	12	{Capacitive tap weighted transducers}	H03H9/145	H03H9/145		9
+H03H9/14526	12	{Finger withdrawal}	H03H9/145	H03H9/145		67
+H03H9/14529	12	{Distributed tap}	H03H9/145	H03H9/145		2
+H03H9/14532	13	{Series weighting; Transverse weighting}	H03H9/145	H03H9/145		70
+H03H9/14535	13	{Position weighting}	H03H9/145	H03H9/145		17
+H03H9/14538	11	{Formation}	H03H9/145	H03H9/145		318
+H03H9/14541	12	{Multilayer finger or busbar electrode}	H03H9/145	H03H9/145		516
+H03H9/14544	11	{Transducers of particular shape or position (weighting H03H9/14517)}	H03H9/145	H03H9/145		353
+H03H9/14547	12	{Fan shaped; Tilted; Shifted; Slanted; Tapered; Arched; Stepped finger transducers}	H03H9/145	H03H9/145		251
+H03H9/1455	12	{constituted of N parallel or series transducers}	H03H9/145	H03H9/145		212
+H03H9/14552	12	{comprising split fingers}	H03H9/145	H03H9/145		180
+H03H9/14555	12	{Chirped transducers (H03H9/6406 takes precedence)}	H03H9/145	H03H9/145		47
+H03H9/14558	12	{Slanted, tapered or fan shaped transducers (H03H9/14561, H03H9/14564 take precedence)}	H03H9/145	H03H9/145		78
+H03H9/14561	12	{Arched, curved or ring shaped transducers}	H03H9/145	H03H9/145		57
+H03H9/14564	12	{Shifted fingers transducers}	H03H9/145	H03H9/145		60
+H03H9/14567	13	{Stepped-fan shaped transducers}	H03H9/145	H03H9/145		36
+H03H9/1457	12	{Transducers having different finger widths}	H03H9/145	H03H9/145		178
+H03H9/14573	12	{Arrow type transducers}	H03H9/145	H03H9/145		49
+H03H9/14576	12	{Transducers whereby only the last fingers have different characteristics with respect to the other fingers, e.g. different shape, thickness or material, split finger}	H03H9/145	H03H9/145		24
+H03H9/14579	13	{the last fingers having a different shape}	H03H9/145	H03H9/145		13
+H03H9/14582	13	{the last fingers having a different pitch}	H03H9/145	H03H9/145		115
+H03H9/14585	13	{the last fingers being split}	H03H9/145	H03H9/145		8
+H03H9/14588	12	{Horizontally-split transducers}	H03H9/145	H03H9/145		131
+H03H9/14591	12	{Vertically-split transducers}	H03H9/145	H03H9/145		57
+H03H9/14594	12	{Plan-rotated or plan-tilted transducers}	H03H9/145	H03H9/145		82
+H03H9/14597	11	{Matching SAW transducers to external electrical circuits}	H03H9/145	H03H9/145		132
+H03H9/15	8	Constructional features of resonators consisting of piezoelectric or electrostrictive material (H03H9/25 takes precedence)	H03H9/15	H03H9/15		492
+H03H2009/155	9	{using MEMS techniques}	H03H9/15	H03H9/15		202
+H03H9/17	9	having a single resonator (crystal tuning forks H03H9/21)	H03H9/17	H03H9/17		1300
+H03H9/171	10	{implemented with thin-film techniques, i.e. of the film bulk acoustic resonator [FBAR] type}	H03H9/17	H03H9/17		960
+H03H9/172	11	{Means for mounting on a substrate, i.e. means constituting the material interface confining the waves to a volume}	H03H9/17	H03H9/17		233
+H03H9/173	12	{Air-gaps}	H03H9/17	H03H9/17		1204
+H03H9/174	12	{Membranes}	H03H9/17	H03H9/17		789
+H03H9/175	12	{Acoustic mirrors}	H03H9/17	H03H9/17		829
+H03H9/176	10	{consisting of ceramic material (H03H9/177, H03H9/178 take precedence)}	H03H9/17	H03H9/17		424
+H03H9/177	10	{of the energy-trap type}	H03H9/17	H03H9/17		369
+H03H9/178	10	{of a laminated structure of multiple piezoelectric layers with inner electrodes}	H03H9/17	H03H9/17		256
+H03H9/19	10	consisting of quartz	H03H9/19	H03H9/19		1393
+H03H9/205	9	having multiple resonators (crystal tuning forks H03H9/21)	H03H9/205	H03H9/205		578
+H03H9/21	9	Crystal tuning forks	H03H9/21	H03H9/21		632
+H03H9/215	10	consisting of quartz	H03H9/215	H03H9/215		565
+H03H9/22	8	Constructional features of resonators consisting of magnetostrictive material	H03H9/22	H03H9/22		108
+H03H9/24	8	Constructional features of resonators of material which is not piezoelectric, electrostrictive, or magnetostrictive	H03H9/24	H03H9/24		351
+H03H9/2405	9	{of microelectro-mechanical resonators}	H03H9/24	H03H9/24		319
+H03H2009/241	10	{Bulk-mode MEMS resonators}	H03H9/24	H03H9/24		100
+H03H2009/2415	11	{with concave shape [CBAR]}	H03H9/24	H03H9/24		5
+H03H2009/2421	11	{with I shape [IBAR]}	H03H9/24	H03H9/24		6
+H03H9/2426	10	{in combination with other electronic elements}	H03H9/24	H03H9/24		68
+H03H9/2431	10	{Ring resonators}	H03H9/24	H03H9/24		70
+H03H9/2436	10	{Disk resonators}	H03H9/24	H03H9/24		86
+H03H2009/2442	10	{Square resonators}	H03H9/24	H03H9/24		66
+H03H9/2447	10	{Beam resonators (H03H9/2468 takes precedence)}	H03H9/24	H03H9/24		74
+H03H9/2452	11	{Free-free beam resonators}	H03H9/24	H03H9/24		78
+H03H9/2457	11	{Clamped-free beam resonators}	H03H9/24	H03H9/24		112
+H03H9/2463	11	{Clamped-clamped beam resonators}	H03H9/24	H03H9/24		188
+H03H9/2468	10	{Tuning fork resonators}	H03H9/24	H03H9/24		22
+H03H9/2473	11	{Double-Ended Tuning Fork [DETF] resonators}	H03H9/24	H03H9/24		43
+H03H9/2478	11	{Single-Ended Tuning Fork resonators}	H03H9/24	H03H9/24		6
+H03H9/2484	12	{with two fork tines, e.g. Y-beam cantilever}	H03H9/24	H03H9/24		15
+H03H9/2489	12	{with more than two fork tines}	H03H9/24	H03H9/24		71
+H03H9/2494	11	{H-shaped, i.e. two tuning forks with common base}	H03H9/24	H03H9/24		8
+H03H9/25	8	Constructional features of resonators using surface acoustic waves {(devices for manipulating acoustic surface waves in general G10K11/36)}	H03H9/25	H03H9/25		2593
+H03H9/30	8	Time-delay networks	H03H9/30	H03H9/30		205
+H03H9/36	9	with non-adjustable delay time (H03H9/40, H03H9/42 take precedence)	H03H9/36	H03H9/36		488
+H03H9/38	9	with adjustable delay time (H03H9/40, H03H9/42 take precedence)	H03H9/38	H03H9/38		112
+H03H9/40	9	Frequency dependent delay lines, e.g. dispersive delay lines (H03H9/42 takes precedence)	H03H9/40	H03H9/40		51
+H03H9/42	9	using surface acoustic waves {(devices for manipulating acoustic surface waves in general G10K11/36)}	H03H9/42	H03H9/42		156
+H03H9/423	10	{with adjustable delay time}	H03H9/42	H03H9/42		69
+H03H9/426	10	{Magneto-elastic surface waves}	H03H9/42	H03H9/42		6
+H03H9/44	10	Frequency dependent delay lines, e.g. dispersive delay lines	H03H9/44	H03H9/44		117
+H03H9/46	8	Filters (multiple-port electromechanical filters H03H9/70)	H03H9/46	H03H9/46		647
+H03H9/462	9	{Microelectro-mechanical filters}	H03H9/46	H03H9/46		145
+H03H9/465	10	{in combination with other electronic elements}	H03H9/46	H03H9/46		45
+H03H9/467	10	{Post-fabrication trimming of parameters, e.g. center frequency}	H03H9/46	H03H9/46		22
+H03H9/48	9	Coupling means therefor	H03H9/48	H03H9/48		174
+H03H9/485	10	{for microelectro-mechanical filters}	H03H9/48	H03H9/48		10
+H03H9/50	10	Mechanical coupling means	H03H9/50	H03H9/50		407
+H03H9/505	11	{for microelectro-mechanical filters}	H03H9/50	H03H9/50		57
+H03H9/52	10	Electric coupling means	H03H9/52	H03H9/52		96
+H03H9/525	11	{for microelectro-mechanical filters}	H03H9/52	H03H9/52		29
+H03H9/54	9	comprising resonators of piezoelectric or electrostrictive material (comprising resonators using surface acoustic waves H03H9/64)	H03H9/54	H03H9/54		1048
+H03H9/542	10	{including passive elements (H03H9/545 takes precedence)}	H03H9/54	H03H9/54		975
+H03H9/545	10	{including active elements}	H03H9/54	H03H9/54		267
+H03H9/547	10	{Notch filters, e.g. notch BAW or thin film resonator filters}	H03H9/54	H03H9/54		169
+H03H9/56	10	Monolithic crystal filters	H03H9/56	H03H9/56		475
+H03H9/562	11	{comprising a ceramic piezoelectric layer}	H03H9/56	H03H9/56		373
+H03H9/564	11	{implemented with thin-film techniques}	H03H9/56	H03H9/56		744
+H03H9/566	11	{Electric coupling means therefor (H03H9/0095 takes precedence)}	H03H9/56	H03H9/56		180
+H03H9/568	12	{consisting of a ladder configuration}	H03H9/56	H03H9/56		713
+H03H9/58	10	Multiple crystal filters	H03H9/58	H03H9/58		212
+H03H9/581	11	{comprising ceramic piezoelectric layers}	H03H9/58	H03H9/58		147
+H03H9/582	11	{implemented with thin-film techniques}	H03H9/58	H03H9/58		232
+H03H9/583	12	{comprising a plurality of piezoelectric layers acoustically coupled}	H03H9/58	H03H9/58		57
+H03H9/584	13	{Coupled Resonator Filters [CFR]}	H03H9/58	H03H9/58		117
+H03H9/585	13	{Stacked Crystal Filters [SCF]}	H03H9/58	H03H9/58		102
+H03H9/586	12	{Means for mounting to a substrate, i.e. means constituting the material interface confining the waves to a volume}	H03H9/58	H03H9/58		35
+H03H9/587	13	{Air-gaps}	H03H9/58	H03H9/58		188
+H03H9/588	13	{Membranes}	H03H9/58	H03H9/58		105
+H03H9/589	13	{Acoustic mirrors}	H03H9/58	H03H9/58		154
+H03H9/60	11	Electric coupling means therefor {(H03H9/0095 takes precedence)}	H03H9/60	H03H9/60		181
+H03H9/605	12	{consisting of a ladder configuration}	H03H9/60	H03H9/60		739
+H03H9/62	9	comprising resonators of magnetostrictive material (H03H9/64 takes precedence)	H03H9/62	H03H9/62		96
+H03H9/64	9	using surface acoustic waves	H03H9/64	H03H9/64		2137
+H03H9/6403	10	{Programmable filters}	H03H9/64	H03H9/64		220
+H03H9/6406	10	{Filters characterised by a particular frequency characteristic}	H03H9/64	H03H9/64		330
+H03H9/6409	11	{SAW notch filters}	H03H9/64	H03H9/64		102
+H03H9/6413	11	{SAW comb filters}	H03H9/64	H03H9/64		56
+H03H9/6416	11	{SAW matched filters, e.g. surface acoustic wave compressors, chirped or coded surface acoustic wave filters}	H03H9/64	H03H9/64		25
+H03H9/642	12	{SAW transducers details for remote interrogation systems, e.g. surface acoustic wave transducers details for ID-tags (remote interrogation systems per seG06K7/10009, G01S13/74)}	H03H9/64	H03H9/64		29
+H03H9/6423	10	{Means for obtaining a particular transfer characteristic}	H03H9/64	H03H9/64		88
+H03H9/6426	11	{Combinations of the characteristics of different transducers}	H03H9/64	H03H9/64		169
+H03H9/643	11	{the transfer characteristic being determined by reflective or coupling array characteristics}	H03H9/64	H03H9/64		141
+H03H9/6433	11	{Coupled resonator filters}	H03H9/64	H03H9/64		290
+H03H9/6436	12	{having one acoustic track only}	H03H9/64	H03H9/64		341
+H03H9/644	12	{having two acoustic tracks}	H03H9/64	H03H9/64		11
+H03H9/6443	13	{being acoustically coupled}	H03H9/64	H03H9/64		17
+H03H9/6446	14	{by floating multistrip couplers (H03H9/645, H03H9/6453 take precedence)}	H03H9/64	H03H9/64		24
+H03H9/645	14	{by grating reflectors overlapping both tracks}	H03H9/64	H03H9/64		9
+H03H9/6453	14	{by at least an interdigital transducer overlapping both tracks}	H03H9/64	H03H9/64		31
+H03H9/6456	13	{being electrically coupled}	H03H9/64	H03H9/64		55
+H03H9/6459	14	{via one connecting electrode}	H03H9/64	H03H9/64		37
+H03H9/6463	15	{the tracks being electrically cascaded}	H03H9/64	H03H9/64		88
+H03H9/6466	16	{each track containing more than two transducers}	H03H9/64	H03H9/64		25
+H03H9/6469	14	{via two connecting electrodes}	H03H9/64	H03H9/64		106
+H03H9/6473	15	{the electrodes being electrically interconnected}	H03H9/64	H03H9/64		50
+H03H9/6476	15	{the tracks being electrically parallel}	H03H9/64	H03H9/64		81
+H03H9/6479	12	{Capacitively coupled SAW resonator filters}	H03H9/64	H03H9/64		57
+H03H9/6483	12	{Ladder SAW filters}	H03H9/64	H03H9/64		1277
+H03H9/6486	12	{having crossing or intersecting acoustic tracks, e.g. intersection in a perpendicular or diagonal orientation}	H03H9/64	H03H9/64		18
+H03H9/6489	10	{Compensation of undesirable effects}	H03H9/64	H03H9/64		441
+H03H9/6493	11	{Side lobe suppression}	H03H9/64	H03H9/64		86
+H03H9/6496	11	{Reducing ripple in transfer characteristic}	H03H9/64	H03H9/64		141
+H03H9/66	8	Phase shifters	H03H9/66	H03H9/66		48
+H03H9/68	9	using surface acoustic waves	H03H9/68	H03H9/68		43
+H03H9/70	8	Multiple-port networks for connecting several sources or loads, working on different frequencies or frequency bands, to a common load or source	H03H9/70	H03H9/70		266
+H03H9/703	9	{Networks using bulk acoustic wave devices}	H03H9/70	H03H9/70		135
+H03H9/706	10	{Duplexers}	H03H9/70	H03H9/70		619
+H03H9/72	9	Networks using surface acoustic waves	H03H9/72	H03H9/72		639
+H03H9/725	10	{Duplexers}	H03H9/72	H03H9/72		1176
+H03H9/74	8	Multiple-port networks for connecting several sources or loads, working on the same frequency or frequency band, to a common load or source (networks for phase shifting H03H9/66)	H03H9/74	H03H9/74		20
+H03H9/76	9	Networks using surface acoustic waves	H03H9/76	H03H9/76		68
+H03H11/00	7	Networks using active elements	H03H11/00	H03H11/00		116
+H03H11/02	8	Multiple-port networks	H03H11/02	H03H11/02		195
+H03H11/025	9	{using current conveyors}	H03H11/02	H03H11/02		5
+H03H11/04	9	Frequency selective two-port networks	H03H11/04	H03H11/04		1205
+H03H11/0405	10	{Non-linear filters}	H03H11/04	H03H11/04		132
+H03H2011/0411	11	{Rank order or median filters}	H03H11/04	H03H11/04		5
+H03H11/0416	10	{using positive impedance converters (H03H11/08 takes precedence)}	H03H11/04	H03H11/04		21
+H03H11/0422	10	{using transconductance amplifiers, e.g. gmC filters}	H03H11/04	H03H11/04		154
+H03H11/0427	11	{Filters using a single transconductance amplifier; Filters derived from a single transconductor filter, e.g. by element substitution, cascading, parallel connection (H03H11/0433&#160;-&#160;H03H11/0472 take precedence)}	H03H11/04	H03H11/04		48
+H03H11/0433	11	{Two integrator loop filters (H03H11/0455 takes precedence)}	H03H11/04	H03H11/04		79
+H03H11/0438	12	{Tow-Thomas biquad}	H03H11/04	H03H11/04		2
+H03H11/0444	11	{Simulation of ladder networks}	H03H11/04	H03H11/04		44
+H03H11/045	12	{Leapfrog structures}	H03H11/04	H03H11/04		21
+H03H11/0455	11	{Multiple integrator loop feedback filters}	H03H11/04	H03H11/04		20
+H03H11/0461	11	{Current mode filters}	H03H11/04	H03H11/04		26
+H03H11/0466	11	{Filters combining transconductance amplifiers with other active elements, e.g. operational amplifiers, transistors, voltage conveyors}	H03H11/04	H03H11/04		67
+H03H11/0472	11	{Current or voltage controlled filters}	H03H11/04	H03H11/04		122
+H03H2011/0477	10	{using current feedback operational amplifiers}	H03H11/04	H03H11/04		15
+H03H2011/0483	10	{using operational transresistance amplifiers [OTRA]}	H03H11/04	H03H11/04		15
+H03H2011/0488	10	{Notch or bandstop filters}	H03H11/04	H03H11/04		90
+H03H2011/0494	10	{Complex filters}	H03H11/04	H03H11/04		130
+H03H11/06	10	comprising means for compensation of loss	H03H11/06	H03H11/06		57
+H03H11/08	10	using gyrators	H03H11/08	H03H11/08		83
+H03H11/10	10	using negative impedance converters (H03H11/08 takes precedence)	H03H11/10	H03H11/10		60
+H03H11/11	10	{using current conveyors}	H03H11/04	H03H11/11		9
+H03H11/12	10	using amplifiers with feedback ({H03H11/0422} , H03H11/08, H03H11/10 take precedence)	H03H11/12	H03H11/12		304
+H03H11/1204	11	{Distributed RC filters}	H03H11/12	H03H11/12		84
+H03H11/1208	11	{comprising an electromechanical resonator}	H03H11/12	H03H11/12		31
+H03H11/1213	11	{using transistor amplifiers (H03H11/1204 takes precedence; parallel-T filters H03H11/1295)}	H03H11/12	H03H11/12		355
+H03H11/1217	11	{using a plurality of operational amplifiers (H03H11/1204 takes precedence; parallel-T filters H03H11/1295)}	H03H11/12	H03H11/12		403
+H03H11/1221	12	{Theory; Synthesis (H03H11/1226&#160;-&#160;H03H11/1252 take precedence)}	H03H11/12	H03H11/12		11
+H03H11/1226	12	{Filters using operational amplifier poles}	H03H11/12	H03H11/12		7
+H03H11/123	12	{Modifications to reduce sensitivity}	H03H11/12	H03H11/12		14
+H03H11/1234	12	{Modifications to reduce detrimental influences of amplifier imperfections, e.g. limited gain-bandwith product, limited input impedance}	H03H11/12	H03H11/12		19
+H03H11/1239	12	{Modifications to reduce influence of variations of temperature}	H03H11/12	H03H11/12		14
+H03H11/1243	12	{Simulation of ladder networks}	H03H11/12	H03H11/12		7
+H03H11/1247	13	{Leapfrog structures}	H03H11/12	H03H11/12		6
+H03H11/1252	12	{Two integrator-loop-filters}	H03H11/12	H03H11/12		146
+H03H11/1256	13	{Tow-Thomas biquad}	H03H11/12	H03H11/12		23
+H03H11/126	11	{using a single operational amplifier (H03H11/1204 takes precedence; parallel-T filters H03H11/1295)}	H03H11/12	H03H11/12		422
+H03H11/1265	12	{Synthesis (H03H11/1269&#160;-&#160;H03H11/1282 take precedence)}	H03H11/12	H03H11/12		2
+H03H11/1269	12	{Filters using the operational amplifier pole}	H03H11/12	H03H11/12		7
+H03H11/1273	12	{Modifications to reduce sensitivity}	H03H11/12	H03H11/12		2
+H03H11/1278	12	{Modifications to reduce detrimental influences of amplifier imperfections, e.g. limited gain-bandwith product, limited input impedance}	H03H11/12	H03H11/12		18
+H03H11/1282	12	{Modifications to reduce influence of variations of temperature}	H03H11/12	H03H11/12		6
+H03H11/1286	12	{Sallen-Key biquad}	H03H11/12	H03H11/12		56
+H03H11/1291	11	{Current or voltage controlled filters}	H03H11/12	H03H11/12		578
+H03H11/1295	11	{Parallel-T filters}	H03H11/12	H03H11/12		73
+H03H11/14	10	using electro-optical devices	H03H11/14	H03H11/14		18
+H03H11/16	9	Networks for phase shifting	H03H11/16	H03H11/16		329
+H03H11/18	10	Two-port phase shifters providing a predetermined phase shift, e.g. "all-pass" filters	H03H11/18	H03H11/18		204
+H03H11/20	10	Two-port phase shifters providing an adjustable phase shift	H03H11/20	H03H11/20		489
+H03H11/22	10	providing two or more phase shifted output signals, e.g. n-phase output	H03H11/22	H03H11/22		227
+H03H11/24	9	Frequency-independent attenuators	H03H11/24	H03H11/24		437
+H03H11/245	10	{using field-effect transistor}	H03H11/24	H03H11/24		408
+H03H11/26	9	Time-delay networks	H03H11/26	H03H11/26		274
+H03H11/265	10	{with adjustable delay}	H03H11/26	H03H11/26		298
+H03H11/28	9	Impedance matching networks	H03H11/28	H03H11/28		654
+H03H11/30	10	Automatic matching of source impedance to load impedance	H03H11/30	H03H11/30		238
+H03H11/32	9	Networks for transforming balanced signals into unbalanced signals and vice versa, e.g. baluns	H03H11/32	H03H11/32		255
+H03H11/34	9	Networks for connecting several sources or loads working on different frequencies or frequency bands, to a common load or source	H03H11/34	H03H11/34		156
+H03H11/342	10	{particularly adapted for use in common antenna systems}	H03H11/34	H03H11/34		33
+H03H11/344	10	{Duplexers}	H03H11/34	H03H11/34		47
+H03H11/346	10	{particularly adapted as input circuit for receivers}	H03H11/34	H03H11/34		27
+H03H11/348	10	{particularly adapted as coupling circuit between transmitters and antenna}	H03H11/34	H03H11/34		11
+H03H11/36	9	Networks for connecting several sources or loads, working on the same frequency band, to a common load or source (phase shifters providing two or more output signals H03H11/22)	H03H11/36	H03H11/36		100
+H03H11/362	10	{particularly adapted for use in common antenna systems}	H03H11/36	H03H11/36		38
+H03H11/365	10	{particularly adapted as input circuit for receivers}	H03H11/36	H03H11/36		8
+H03H11/367	10	{particularly adapted as coupling circuit between transmitters and antenna}	H03H11/36	H03H11/36		10
+H03H11/38	9	One-way transmission networks, i.e. unilines	H03H11/38	H03H11/38		106
+H03H11/40	9	Impedance converters	H03H11/40	H03H11/40		107
+H03H11/405	10	{Positive impedance converters (H03H11/42 takes precedence; used in frequency selective networks H03H11/0416)}	H03H11/40	H03H11/40		53
+H03H11/42	10	Gyrators (used in frequency selective networks H03H11/08)	H03H11/42	H03H11/42		139
+H03H11/44	10	Negative impedance converters (H03H11/42 takes precedence)	H03H11/44	H03H11/44		74
+H03H11/46	8	One-port networks	H03H11/46	H03H11/46		288
+H03H11/48	9	simulating reactances	H03H11/48	H03H11/48		220
+H03H11/481	10	{Simulating capacitances}	H03H11/48	H03H11/48		87
+H03H11/483	10	{Simulating capacitance multipliers}	H03H11/48	H03H11/48		72
+H03H11/485	10	{Simulating inductances using operational amplifiers}	H03H11/48	H03H11/48		75
+H03H11/486	10	{Simulating inductances using transconductance amplifiers}	H03H11/48	H03H11/48		21
+H03H11/488	10	{Simulating inductances using current conveyors}	H03H11/48	H03H11/48		1
+H03H11/50	10	using gyrators	H03H11/50	H03H11/50		43
+H03H11/52	9	simulating negative resistances	H03H11/52	H03H11/52		99
+H03H11/525	10	{Simulating frequency dependent negative resistance [FDNR]}	H03H11/52	H03H11/52		23
+H03H11/53	9	{simulating resistances; simulating resistance multipliers}	H03H11/46	H03H11/53		72
+H03H11/54	8	Modifications of networks to reduce influence of variations of temperature	H03H11/54	H03H11/54		60
+H03H15/00	7	Transversal filters (electromechanical filters H03H9/46, H03H9/70)	H03H15/00	H03H15/00		329
+H03H2015/002	8	{Computation saving measures}	H03H15/00	H03H15/00		2
+H03H2015/005	8	{comprising capacitors implemented with MEMS technology}	H03H15/00	H03H15/00		4
+H03H2015/007	8	{Programmable filters}	H03H15/00	H03H15/00		28
+H03H15/02	8	using analogue shift registers	H03H15/02	H03H15/02		377
+H03H15/023	9	{with parallel-input configuration}	H03H15/00	H03H15/02		111
+H03H2015/026	8	{Matched filters in charge domain}	H03H15/02	H03H15/02		9
+H03H17/00	7	Networks using digital techniques	H03H17/00	H03H17/00		396
+H03H17/0009	8	{Time-delay networks}	H03H17/00	H03H17/00		146
+H03H17/0018	9	{Realizing a fractional delay}	H03H17/00	H03H17/00		21
+H03H17/0027	10	{by means of a non-recursive filter}	H03H17/00	H03H17/00		33
+H03H17/0036	10	{by means of a recursive filter}	H03H17/00	H03H17/00		1
+H03H17/0045	8	{Impedance matching networks}	H03H17/00	H03H17/00		30
+H03H17/0054	8	{Attenuators}	H03H17/00	H03H17/00		79
+H03H17/0063	8	{R, L, C, simulating networks}	H03H17/00	H03H17/00		9
+H03H2017/0072	8	{Theoretical filter design}	H03H17/00	H03H17/00		89
+H03H2017/0081	9	{of FIR filters}	H03H17/00	H03H17/00		485
+H03H2017/009	9	{of IIR filters}	H03H17/00	H03H17/00		173
+H03H17/02	8	Frequency selective networks {(digital computers for complex mathematical operations G06F17/10)}	H03H17/02	H03H17/02		1054
+H03H17/0201	9	{Wave digital filters}	H03H17/02	H03H17/02		121
+H03H17/0202	9	{Two or more dimensional filters; Filters for complex signals (multidimensional convolutions G06F17/153)}	H03H17/02	H03H17/02		280
+H03H2017/0204	10	{Comb filters}	H03H17/02	H03H17/02		10
+H03H2017/0205	10	{Kalman filters}	H03H17/02	H03H17/02		65
+H03H2017/0207	10	{Median filters}	H03H17/02	H03H17/02		28
+H03H2017/0208	10	{using neural networks}	H03H17/02	H03H17/02		7
+H03H2017/021	10	{Wave digital filters}	H03H17/02	H03H17/02		10
+H03H17/0211	9	{using specific transformation algorithms, e.g. WALSH functions, Fermat transforms, Mersenne transforms, polynomial transforms, Hilbert transforms (correlation computation G06F17/156)}	H03H17/02	H03H17/02		182
+H03H17/0213	10	{Frequency domain filters using Fourier transforms}	H03H17/02	H03H17/02		218
+H03H2017/0214	11	{with input-sampling frequency and output-delivery frequency which differ, e.g. interpolation, extrapolation; anti-aliasing}	H03H17/02	H03H17/02		18
+H03H17/0216	10	{Quefrency domain filters}	H03H17/02	H03H17/02		14
+H03H17/0217	10	{Number theoretic transforms}	H03H17/02	H03H17/02		1
+H03H17/0219	9	{Compensation of undesirable effects, e.g. quantisation noise, overflow (stability problems H03H17/0461)}	H03H17/02	H03H17/02		228
+H03H2017/022	10	{Rounding error}	H03H17/02	H03H17/02		11
+H03H2017/0222	10	{Phase error}	H03H17/02	H03H17/02		17
+H03H17/0223	9	{Computation saving measures; Accelerating measures (computations per seG06F)}	H03H17/02	H03H17/02		245
+H03H17/0225	10	{Measures concerning the multipliers}	H03H17/02	H03H17/02		147
+H03H17/0226	11	{comprising look-up tables}	H03H17/02	H03H17/02		71
+H03H17/0227	10	{Measures concerning the coefficients}	H03H17/02	H03H17/02		219
+H03H17/0229	11	{reducing the number of taps}	H03H17/02	H03H17/02		39
+H03H17/023	11	{reducing the wordlength, the possible values of coefficients}	H03H17/02	H03H17/02		31
+H03H2017/0232	12	{Canonical signed digit [CSD] or power of 2 coefficients}	H03H17/02	H03H17/02		14
+H03H17/0233	10	{Measures concerning the signal representation}	H03H17/02	H03H17/02		23
+H03H17/0235	11	{reducing the wordlength of signals}	H03H17/02	H03H17/02		6
+H03H17/0236	11	{using codes}	H03H17/02	H03H17/02		14
+H03H17/0238	10	{Measures concerning the arithmetic used (performing computations G06F7/60)}	H03H17/02	H03H17/02		70
+H03H17/0239	11	{Signed digit arithmetic}	H03H17/02	H03H17/02		11
+H03H17/0241	11	{Distributed arithmetic}	H03H17/02	H03H17/02		52
+H03H17/0242	11	{Residue number arithmetic}	H03H17/02	H03H17/02		5
+H03H2017/0244	10	{Measures to reduce settling time}	H03H17/02	H03H17/02		18
+H03H2017/0245	10	{Measures to reduce power consumption (H03H17/0223 takes precedence)}	H03H17/02	H03H17/02		65
+H03H2017/0247	10	{Parallel structures using a slower clock}	H03H17/02	H03H17/02		45
+H03H17/0248	9	{Filters characterised by a particular frequency response or filtering method}	H03H17/02	H03H17/02		288
+H03H17/025	10	{Notch filters}	H03H17/02	H03H17/02		86
+H03H17/0251	10	{Comb filters}	H03H17/02	H03H17/02		56
+H03H17/0252	10	{Elliptic filters}	H03H17/02	H03H17/02		12
+H03H17/0254	10	{Matched filters}	H03H17/02	H03H17/02		84
+H03H17/0255	10	{Filters based on statistics (adaptive filters H03H21/0029)}	H03H17/02	H03H17/02		48
+H03H17/0257	11	{KALMAN filters}	H03H17/02	H03H17/02		273
+H03H17/0258	11	{ARMA filters}	H03H17/02	H03H17/02		6
+H03H17/026	10	{Averaging filters}	H03H17/02	H03H17/02		91
+H03H17/0261	10	{Non linear filters}	H03H17/02	H03H17/02		105
+H03H17/0263	11	{Rank order filters}	H03H17/02	H03H17/02		86
+H03H17/0264	10	{Filter sets with mutual related characteristics}	H03H17/02	H03H17/02		39
+H03H17/0266	11	{Filter banks}	H03H17/02	H03H17/02		269
+H03H17/0267	12	{comprising non-recursive filters}	H03H17/02	H03H17/02		18
+H03H17/0269	12	{comprising recursive filters}	H03H17/02	H03H17/02		33
+H03H17/027	11	{Complementary filters; Phase complementary filters}	H03H17/02	H03H17/02		14
+H03H17/0272	11	{Quadrature mirror filters}	H03H17/02	H03H17/02		26
+H03H17/0273	11	{Polyphase filters}	H03H17/02	H03H17/02		62
+H03H17/0275	12	{comprising non-recursive filters}	H03H17/02	H03H17/02		122
+H03H17/0276	13	{having two phases}	H03H17/02	H03H17/02		28
+H03H17/0277	12	{comprising recursive filters}	H03H17/02	H03H17/02		21
+H03H17/0279	13	{having two phases}	H03H17/02	H03H17/02		8
+H03H17/028	10	{Polynomial filters}	H03H17/02	H03H17/02		98
+H03H17/0282	10	{Sinc or gaussian filters (H03H17/0671 takes precedence)}	H03H17/02	H03H17/02		56
+H03H17/0283	9	{Filters characterised by the filter structure (H03H17/0202, H03H17/0219&#160;-&#160;H03H17/0248 take precedence)}	H03H17/02	H03H17/02		81
+H03H17/0285	10	{Ladder or lattice filters}	H03H17/02	H03H17/02		26
+H03H17/0286	10	{Combinations of filter structures}	H03H17/02	H03H17/02		150
+H03H17/0288	11	{Recursive, non-recursive, ladder, lattice structures}	H03H17/02	H03H17/02		78
+H03H17/0289	11	{Digital and active filter structures}	H03H17/02	H03H17/02		32
+H03H17/0291	11	{Digital and sampled data filters}	H03H17/02	H03H17/02		93
+H03H17/0292	10	{Time multiplexed filters; Time sharing filters}	H03H17/02	H03H17/02		61
+H03H17/0294	9	{Variable filters; Programmable filters}	H03H17/02	H03H17/02		578
+H03H2017/0295	10	{Changing between two filter characteristics}	H03H17/02	H03H17/02		47
+H03H2017/0297	10	{Coefficients derived from input parameters}	H03H17/02	H03H17/02		44
+H03H2017/0298	9	{DSP implementation}	H03H17/02	H03H17/02		89
+H03H17/04	9	Recursive filters	H03H17/04	H03H17/04		497
+H03H17/0405	10	{comprising a ROM addressed by the input and output data signals}	H03H17/04	H03H17/04		31
+H03H17/0411	10	{using DELTA modulation}	H03H17/04	H03H17/04		16
+H03H17/0416	10	{with input-sampling frequency and output-delivery frequency which differ, e.g. extrapolation; Anti-aliasing}	H03H17/04	H03H17/04		67
+H03H17/0422	11	{the input and output signals being derived from two separate clocks, i.e. asynchronous sample rate conversion}	H03H17/04	H03H17/04		14
+H03H17/0427	11	{characterized by the ratio between the input-sampling and output-delivery frequencies}	H03H17/04	H03H17/04		3
+H03H17/0433	12	{the ratio being arbitrary or irrational}	H03H17/04	H03H17/04		6
+H03H17/0438	12	{the ratio being integer}	H03H17/04	H03H17/04		1
+H03H17/0444	13	{where the output-delivery frequency is higher than the input sampling frequency, i.e. interpolation}	H03H17/04	H03H17/04		61
+H03H17/045	13	{where the output-delivery frequency is lower than the input sampling frequency, i.e. decimation}	H03H17/04	H03H17/04		57
+H03H17/0455	12	{the ratio being rational}	H03H17/04	H03H17/04		16
+H03H17/0461	10	{Quantisation; Rounding; Truncation; Overflow oscillations or limit cycles eliminating measures}	H03H17/04	H03H17/04		95
+H03H2017/0466	11	{Reduction of limit cycle oscillation}	H03H17/04	H03H17/04		8
+H03H2017/0472	10	{based on allpass structures}	H03H17/04	H03H17/04		11
+H03H2017/0477	10	{Direct form I}	H03H17/04	H03H17/04		12
+H03H2017/0483	11	{Transposed}	H03H17/04	H03H17/04		2
+H03H2017/0488	10	{Direct form II}	H03H17/04	H03H17/04		4
+H03H2017/0494	11	{Transposed}	H03H17/04	H03H17/04		1
+H03H17/06	9	Non-recursive filters	H03H17/06	H03H17/06		898
+H03H17/0607	10	{comprising a ROM addressed by the input data signals}	H03H17/06	H03H17/06		81
+H03H17/0614	10	{using Delta-modulation}	H03H17/06	H03H17/06		51
+H03H17/0621	10	{with input-sampling frequency and output-delivery frequency which differ, e.g. extrapolation; Anti-aliasing}	H03H17/06	H03H17/06		253
+H03H17/0628	11	{the input and output signals being derived from two separate clocks, i.e. asynchronous sample rate conversion}	H03H17/06	H03H17/06		167
+H03H17/0635	11	{characterized by the ratio between the input-sampling and output-delivery frequencies}	H03H17/06	H03H17/06		7
+H03H17/0642	12	{the ratio being arbitrary or irrational}	H03H17/06	H03H17/06		72
+H03H17/065	12	{the ratio being integer}	H03H17/06	H03H17/06		7
+H03H17/0657	13	{where the output-delivery frequency is higher than the input sampling frequency, i.e. interpolation}	H03H17/06	H03H17/06		242
+H03H17/0664	13	{where the output-delivery frequency is lower than the input sampling frequency, i.e. decimation}	H03H17/06	H03H17/06		305
+H03H17/0671	12	{Cascaded integrator-comb [CIC] filters}	H03H17/06	H03H17/06		184
+H03H2017/0678	13	{with parallel structure, i.e. parallel CIC [PCIC]}	H03H17/06	H03H17/06		16
+H03H17/0685	12	{the ratio being rational}	H03H17/06	H03H17/06		185
+H03H2017/0692	10	{Transposed}	H03H17/06	H03H17/06		18
+H03H17/08	8	Networks for phase shifting	H03H17/08	H03H17/08		167
+H03H19/00	7	Networks using time-varying elements, e.g. N-path filters	H03H19/00	H03H19/00		185
+H03H19/002	8	{N-path filters}	H03H19/00	H03H19/00		247
+H03H19/004	8	{Switched capacitor networks}	H03H19/00	H03H19/00		757
+H03H19/006	9	{simulating one-port networks}	H03H19/00	H03H19/00		21
+H03H19/008	8	{with variable switch closing time}	H03H19/00	H03H19/00		97
+H03H21/00	7	Adaptive networks	H03H21/00	H03H21/00		239
+H03H21/0001	8	{Analogue adaptive filters}	H03H21/00	H03H21/00		118
+H03H21/0003	9	{comprising CCD devices}	H03H21/00	H03H21/00		
+H03H21/0005	9	{comprising SAW devices}	H03H21/00	H03H21/00		7
+H03H21/0007	9	{comprising switched capacitor [SC] devices}	H03H21/00	H03H21/00		12
+H03H2021/0009	9	{Details}	H03H21/00	H03H21/00		
+H03H2021/001	10	{Analog multipliers}	H03H21/00	H03H21/00		1
+H03H21/0012	8	{Digital adaptive filters}	H03H21/00	H03H21/00		955
+H03H21/0014	9	{Lattice filters}	H03H21/00	H03H21/00		17
+H03H21/0016	9	{Non linear filters}	H03H21/00	H03H21/00		40
+H03H21/0018	9	{Matched filters}	H03H21/00	H03H21/00		22
+H03H21/002	9	{Filters with a particular frequency response (H03H21/0014&#160;-&#160;H03H21/0018 take precedence)}	H03H21/00	H03H21/00		15
+H03H21/0021	10	{Notch filters}	H03H21/00	H03H21/00		53
+H03H21/0023	10	{Comb filters}	H03H21/00	H03H21/00		16
+H03H21/0025	9	{Particular filtering methods}	H03H21/00	H03H21/00		43
+H03H21/0027	10	{filtering in the frequency domain}	H03H21/00	H03H21/00		83
+H03H21/0029	10	{based on statistics}	H03H21/00	H03H21/00		27
+H03H21/003	11	{KALMAN filters}	H03H21/00	H03H21/00		103
+H03H21/0032	11	{ARMA filters}	H03H21/00	H03H21/00		5
+H03H2021/0034	10	{Blind source separation}	H03H21/00	H03H21/00		37
+H03H2021/0036	11	{of convolutive mixtures}	H03H21/00	H03H21/00		4
+H03H2021/0038	11	{of instantaneous mixtures}	H03H21/00	H03H21/00		
+H03H2021/004	11	{using state space representation}	H03H21/00	H03H21/00		2
+H03H2021/0041	10	{Subband decomposition}	H03H21/00	H03H21/00		26
+H03H21/0043	9	{Adaptive algorithms}	H03H21/00	H03H21/00		408
+H03H2021/0045	10	{Equation error}	H03H21/00	H03H21/00		16
+H03H2021/0047	11	{Combined output and equation error}	H03H21/00	H03H21/00		1
+H03H2021/0049	10	{Recursive least squares algorithm}	H03H21/00	H03H21/00		26
+H03H2021/005	11	{with forgetting factor}	H03H21/00	H03H21/00		10
+H03H2021/0052	11	{combined with stochastic gradient algorithm}	H03H21/00	H03H21/00		2
+H03H2021/0054	12	{Affine projection}	H03H21/00	H03H21/00		7
+H03H2021/0056	10	{Non-recursive least squares algorithm [LMS]}	H03H21/00	H03H21/00		61
+H03H2021/0058	11	{Block LMS, i.e. in frequency domain}	H03H21/00	H03H21/00		5
+H03H2021/0059	11	{Delayed LMS}	H03H21/00	H03H21/00		5
+H03H2021/0061	11	{Normalized LMS [NLMS]}	H03H21/00	H03H21/00		21
+H03H2021/0063	12	{Proportionate NLMS}	H03H21/00	H03H21/00		9
+H03H2021/0065	11	{Sign-sign LMS}	H03H21/00	H03H21/00		4
+H03H21/0067	9	{Means or methods for compensation of undesirable effects}	H03H21/00	H03H21/00		71
+H03H2021/0069	10	{Finite wordlength}	H03H21/00	H03H21/00		
+H03H2021/007	9	{Computation saving measures; Accelerating measures}	H03H21/00	H03H21/00		45
+H03H2021/0072	10	{Measures relating to the coefficients}	H03H21/00	H03H21/00		17
+H03H2021/0074	11	{Reduction of the update frequency}	H03H21/00	H03H21/00		26
+H03H2021/0076	10	{Measures relating to the convergence time (H03H2021/0072 takes precedence)}	H03H21/00	H03H21/00		18
+H03H2021/0078	11	{varying the step size}	H03H21/00	H03H21/00		59
+H03H2021/0079	10	{using look-up tables}	H03H21/00	H03H21/00		10
+H03H2021/0081	9	{Details}	H03H21/00	H03H21/00		3
+H03H2021/0083	10	{Shadow filter, i.e. one of two filters which are simultaneously adapted, wherein the results of adapting the shadow filter are used for adapting the other filter}	H03H21/00	H03H21/00		15
+H03H2021/0085	9	{Applications}	H03H21/00	H03H21/00		3
+H03H2021/0087	10	{Prediction}	H03H21/00	H03H21/00		17
+H03H2021/0089	10	{System identification, i.e. modeling}	H03H21/00	H03H21/00		39
+H03H2021/009	11	{with recursive filters}	H03H21/00	H03H21/00		3
+H03H2021/0092	10	{Equalization, i.e. inverse modeling}	H03H21/00	H03H21/00		29
+H03H2021/0094	10	{Interference Cancelling}	H03H21/00	H03H21/00		83
+H03H2021/0096	9	{with input-sampling frequency and output-delivery frequency which differ, e.g. extrapolation; anti-aliasing}	H03H21/00	H03H21/00		28
+H03H2021/0098	8	{Adaptive filters comprising analog and digital structures}	H03H21/00	H03H21/00		11
+H03H2210/00	7	Indexing scheme relating to details of tunable filters	CPCONLY	H03H2210/00		5
+H03H2210/01	8	Tuned parameter of filter characteristics	CPCONLY	H03H2210/01		9
+H03H2210/012	9	Centre frequency; Cut-off frequency	CPCONLY	H03H2210/012		175
+H03H2210/015	9	Quality factor or bandwidth	CPCONLY	H03H2210/015		88
+H03H2210/017	9	Amplitude, gain or attenuation	CPCONLY	H03H2210/017		24
+H03H2210/02	8	Variable filter component	CPCONLY	H03H2210/02		5
+H03H2210/021	9	Amplifier, e.g. transconductance amplifier	CPCONLY	H03H2210/021		60
+H03H2210/023	10	Tuning of transconductance via tail current source	CPCONLY	H03H2210/023		20
+H03H2210/025	9	Capacitor	CPCONLY	H03H2210/025		305
+H03H2210/026	9	Inductor	CPCONLY	H03H2210/026		53
+H03H2210/028	9	Resistor	CPCONLY	H03H2210/028		74
+H03H2210/03	8	Type of tuning	CPCONLY	H03H2210/03		3
+H03H2210/033	9	Continuous	CPCONLY	H03H2210/033		50
+H03H2210/036	9	Stepwise	CPCONLY	H03H2210/036		147
+H03H2210/04	8	Filter calibration method	CPCONLY	H03H2210/04		71
+H03H2210/043	9	by measuring time constant	CPCONLY	H03H2210/043		55
+H03H2210/046	9	Master -slave	CPCONLY	H03H2210/046		11
+H03H2218/00	7	Indexing scheme relating to details of digital filters	CPCONLY	H03H2218/00		
+H03H2218/02	8	Coefficients	CPCONLY	H03H2218/02		35
+H03H2218/025	9	updated selectively, e.g. by, in the presence of noise, temporally cancelling the update and outputting a predetermined value	CPCONLY	H03H2218/025		7
+H03H2218/04	8	In-phase and quadrature [I/Q] signals	CPCONLY	H03H2218/04		85
+H03H2218/06	8	Multiple-input, multiple-output [MIMO]; Multiple-input, single-output [MISO]	CPCONLY	H03H2218/06		83
+H03H2218/08	8	Resource sharing	CPCONLY	H03H2218/08		33
+H03H2218/085	9	Multipliers	CPCONLY	H03H2218/085		27
+H03H2218/10	8	Multiplier and or accumulator units	CPCONLY	H03H2218/10		44
+H03H2218/12	8	Signal conditioning	CPCONLY	H03H2218/12		22
+H03H2218/14	8	Non-uniform sampling	CPCONLY	H03H2218/14		11
+H03H2220/00	7	Indexing scheme relating to structures of digital filters	CPCONLY	H03H2220/00		1
+H03H2220/02	8	Modular, e.g. cells connected in cascade	CPCONLY	H03H2220/02		9
+H03H2220/04	8	Pipelined	CPCONLY	H03H2220/04		16
+H03H2220/06	8	Systolic	CPCONLY	H03H2220/06		13
+H03H2220/08	8	Variable filter length	CPCONLY	H03H2220/08		13
+H03H2222/00	7	Indexing scheme relating to digital filtering methods	CPCONLY	H03H2222/00		2
+H03H2222/02	8	using fuzzy logic	CPCONLY	H03H2222/02		15
+H03H2222/04	8	using neural networks	CPCONLY	H03H2222/04		19
+H03H2222/06	8	using wavelets	CPCONLY	H03H2222/06		9
+H03H2240/00	7	Indexing scheme relating to filter banks	CPCONLY	H03H2240/00		72
+H03H2250/00	7	Indexing scheme relating to dual- or multi-band filters	CPCONLY	H03H2250/00		178
+H03H2260/00	7	Theory relating to impedance networks	CPCONLY	H03H2260/00		25

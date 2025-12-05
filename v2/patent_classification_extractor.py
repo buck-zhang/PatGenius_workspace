@@ -64,6 +64,31 @@ class PatentClassificationExtractor:
         print(f"✓ PatentField API設定読み込み完了")
         print(f"✓ OpenSearch API: {opensearch_base_url}")
 
+    @staticmethod
+    def _normalize_classification_code(code: str) -> str:
+        """
+        分類コードの正規化（空白除去）
+
+        PatentField APIで検索可能な形式に正規化する。
+        FI分類コードなどに含まれる空白を除去する。
+
+        Args:
+            code: 分類コード（例: "H02K  33/18", "F16H  35/00  G"）
+
+        Returns:
+            正規化された分類コード（例: "H02K33/18", "F16H35/00G"）
+
+        Examples:
+            >>> _normalize_classification_code("H02K  33/18")
+            'H02K33/18'
+            >>> _normalize_classification_code("F16H  35/00  G")
+            'F16H35/00G'
+            >>> _normalize_classification_code("G11B   5/325  F")
+            'G11B5/325F'
+        """
+        # 全ての空白を除去
+        return code.replace(' ', '')
+
     def patentfield_preliminary_search(
         self,
         constituents: List[Dict],
@@ -397,6 +422,13 @@ class PatentClassificationExtractor:
 
             hierarchy = json.loads(json_text)
 
+            # 分類コードを正規化（空白除去）
+            for concept_level in ['ドンピシャ', '上位概念', '下位概念']:
+                if concept_level in hierarchy:
+                    for item in hierarchy[concept_level]:
+                        if 'code' in item:
+                            item['code'] = self._normalize_classification_code(item['code'])
+
             return hierarchy
 
         except Exception as e:
@@ -422,9 +454,10 @@ class PatentClassificationExtractor:
         Returns:
             {'query': 検索式, 'strategy': 戦略説明}
         """
+        # 重要度フィールドは複数のパターンがあるため、優先順でチェック
         high_importance = [
             c for c in constituents
-            if c.get('構成要素の重要度', c.get('重要度', 0)) >= min_importance
+            if c.get('構成要素の重要度', c.get('構成要件の重要度', c.get('重要度', 0))) >= min_importance
         ]
 
         system_prompt = """あなたは特許検索クエリの構築エキスパートです。
@@ -433,18 +466,20 @@ class PatentClassificationExtractor:
 構成要件から、PatentField API用のコマンド検索式を構築してください。
 
 **重要な構文制約:**
-- ネストした括弧は使用禁止（例: CL:(A AND (B OR C)) は不可）
-- 括开は1レベルのみ（例: CL:(A OR B) AND CL:C は可）
-- OR条件は同じフィールド内でのみ使用（例: CL:(A OR B) は可）
-- 複雑な条件は分解して記述（例: CL:A AND CL:B AND CL:C）
+- ネストした括弧は使用禁止（例: (A AND (B OR C)) は不可）
+- 括弧は1レベルのみ（例: (A OR B) AND C は可）
+- OR条件は同じ括弧内でのみ使用（例: (A OR B) は可）
+- 複雑な条件は分解して記述（例: A AND B AND C）
+- **キーワードにはフィールドプレフィックス（CL:, AB:等）を付けず、全文検索とする**
 
 **検索式の正しい例:**
-✓ 正: CL:論理回路 AND CL:トランジスタ AND CL:オフ電流
-✓ 正: (CL:論理回路 OR CL:フリップフロップ) AND CL:トランジスタ AND CL:オフ電流
+✓ 正: 論理回路 AND トランジスタ AND オフ電流
+✓ 正: (論理回路 OR フリップフロップ) AND トランジスタ AND オフ電流
 
 **検索式の誤った例:**
-✗ 誤: CL:(トランジスタ AND (オフ電流 OR リーク電流)) ← ネストした括弧
-✗ 誤: CL:(A OR B) AND CL:(C OR D) ← 複数のOR句
+✗ 誤: (トランジスタ AND (オフ電流 OR リーク電流)) ← ネストした括弧
+✗ 誤: (A OR B) AND (C OR D) ← 複数のOR句
+✗ 誤: CL:論理回路 AND CL:トランジスタ ← フィールドプレフィックス使用（全文検索にならない）
 
 **出力形式:**
 ```json
@@ -494,11 +529,11 @@ class PatentClassificationExtractor:
 
         except Exception as e:
             print(f"警告: クエリ構築失敗、デフォルト使用: {e}")
-            # フォールバック
+            # フォールバック（キーワードは全文検索、フィールドプレフィックスなし）
             keywords = [c['構成要素'][:10] for c in high_importance[:3]]
             return {
-                'query': ' AND '.join([f'CL:{kw}' for kw in keywords]),
-                'strategy': 'デフォルト戦略（上位3要素のAND検索）'
+                'query': ' AND '.join(keywords),
+                'strategy': 'デフォルト戦略（上位3要素のAND検索、全文検索）'
             }
 
     def extract(

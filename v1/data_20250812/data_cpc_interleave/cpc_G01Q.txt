@@ -1,0 +1,68 @@
+G01Q10/00	7	Scanning or positioning arrangements, i.e. arrangements for actively controlling the movement or position of the probe	G01Q10/00	G01Q10/00		146
+G01Q10/02	8	Coarse scanning or positioning	G01Q10/02	G01Q10/02		98
+G01Q10/04	8	Fine scanning or positioning	G01Q10/04	G01Q10/04		363
+G01Q10/045	9	{Self-actuating probes, i.e. wherein the actuating means for driving are part of the probe itself, e.g. piezoelectric means on a cantilever probe}	G01Q10/04	G01Q10/04		207
+G01Q10/06	9	Circuits or algorithms therefor	G01Q10/06	G01Q10/06		320
+G01Q10/065	10	{Feedback mechanisms, i.e. wherein the signal for driving the probe is modified by a signal coming from the probe itself}	G01Q10/06	G01Q10/06		305
+G01Q20/00	7	Monitoring the movement or position of the probe	G01Q20/00	G01Q20/00		90
+G01Q20/02	8	by optical means	G01Q20/02	G01Q20/02		538
+G01Q20/04	8	Self-detecting probes, i.e. wherein the probe itself generates a signal representative of its position, e.g. piezoelectric gauge	G01Q20/04	G01Q20/04		254
+G01Q30/00	7	Auxiliary means serving to assist or improve the scanning probe techniques or apparatus, e.g. display or data processing devices	G01Q30/00	G01Q30/00		67
+G01Q30/02	8	Non-SPM analysing devices, e.g. SEM [Scanning Electron Microscope], spectrometer or optical microscope	G01Q30/02	G01Q30/02		450
+G01Q30/025	9	{Optical microscopes coupled with SPM}	G01Q30/02	G01Q30/02		201
+G01Q30/04	8	Display or data processing devices	G01Q30/04	G01Q30/04		374
+G01Q30/06	9	for error compensation	G01Q30/06	G01Q30/06		157
+G01Q30/08	8	Means for establishing or regulating a desired environmental condition within a sample chamber	G01Q30/08	G01Q30/08		30
+G01Q30/10	9	Thermal environment	G01Q30/10	G01Q30/10		99
+G01Q30/12	9	Fluid environment	G01Q30/12	G01Q30/12		34
+G01Q30/14	10	Liquid environment	G01Q30/14	G01Q30/14		145
+G01Q30/16	9	Vacuum environment	G01Q30/16	G01Q30/16		56
+G01Q30/18	8	Means for protecting or isolating the interior of a sample chamber from external environmental conditions or influences, e.g. vibrations or electromagnetic fields	G01Q30/18	G01Q30/18		55
+G01Q30/20	8	Sample handling devices or methods	G01Q30/20	G01Q30/20		373
+G01Q40/00	7	Calibration, e.g. of probes	G01Q40/00	G01Q40/00		185
+G01Q40/02	8	Calibration standards and methods of fabrication thereof	G01Q40/02	G01Q40/02		129
+G01Q60/00	7	Particular types of SPM [Scanning Probe Microscopy] or microscopes; Essential components thereof	G01Q60/00	G01Q60/00		160
+G01Q60/02	8	Multiple-type SPM, i.e. involving more than one SPM techniques	G01Q60/02	G01Q60/02		70
+G01Q60/04	9	STM [Scanning Tunnelling Microscopy] combined with AFM [Atomic Force Microscopy]	G01Q60/04	G01Q60/04		63
+G01Q60/06	9	SNOM [Scanning Near-field Optical Microscopy] combined with AFM [Atomic Force Microscopy]	G01Q60/06	G01Q60/06		100
+G01Q60/08	9	MFM [Magnetic Force Microscopy] combined with AFM [Atomic Force Microscopy	G01Q60/08	G01Q60/08		44
+G01Q60/10	8	STM [Scanning Tunnelling Microscopy] or apparatus therefor, e.g. STM probes	G01Q60/10	G01Q60/10		122
+G01Q60/12	9	STS [Scanning Tunnelling Spectroscopy]	G01Q60/12	G01Q60/12		69
+G01Q60/14	9	STP [Scanning Tunnelling Potentiometry]	G01Q60/14	G01Q60/14		39
+G01Q60/16	9	Probes, their manufacture, or their related instrumentation, e.g. holders	G01Q60/16	G01Q60/16		315
+G01Q60/18	8	SNOM [Scanning Near-Field Optical Microscopy] or apparatus therefor, e.g. SNOM probes	G01Q60/18	G01Q60/18		98
+G01Q60/20	9	Fluorescence	G01Q60/20	G01Q60/20		48
+G01Q60/22	9	Probes, their manufacture, or their related instrumentation, e.g. holders	G01Q60/22	G01Q60/22		672
+G01Q60/24	8	AFM [Atomic Force Microscopy] or apparatus therefor, e.g. AFM probes	G01Q60/24	G01Q60/24		826
+G01Q60/26	9	Friction force microscopy	G01Q60/26	G01Q60/26		64
+G01Q60/28	9	Adhesion force microscopy	G01Q60/28	G01Q60/28		49
+G01Q60/30	9	Scanning potential microscopy	G01Q60/30	G01Q60/30		288
+G01Q60/32	9	AC mode	G01Q60/32	G01Q60/32		281
+G01Q60/34	10	Tapping mode	G01Q60/34	G01Q60/34		154
+G01Q60/36	9	DC mode	G01Q60/36	G01Q60/36		8
+G01Q60/363	10	{Contact-mode AFM}	G01Q60/36	G01Q60/36		59
+G01Q60/366	10	{Nanoindenters, i.e. wherein the indenting force is measured}	G01Q60/36	G01Q60/36		99
+G01Q60/38	9	Probes, their manufacture, or their related instrumentation, e.g. holders	G01Q60/38	G01Q60/38		815
+G01Q60/40	10	Conductive probes	G01Q60/40	G01Q60/40		165
+G01Q60/42	10	Functionalisation	G01Q60/42	G01Q60/42		225
+G01Q60/44	8	SICM [Scanning Ion-Conductance Microscopy] or apparatus therefor, e.g. SICM probes	G01Q60/44	G01Q60/44		57
+G01Q60/46	8	SCM [Scanning Capacitance Microscopy] or apparatus therefor, e.g. SCM probes	G01Q60/46	G01Q60/46		27
+G01Q60/48	9	Probes, their manufacture, or their related instrumentation, e.g. holders	G01Q60/48	G01Q60/48		37
+G01Q60/50	8	MFM [Magnetic Force Microscopy] or apparatus therefor, e.g. MFM probes	G01Q60/50	G01Q60/50		40
+G01Q60/52	9	Resonance	G01Q60/52	G01Q60/52		49
+G01Q60/54	9	Probes, their manufacture, or their related instrumentation, e.g. holders	G01Q60/54	G01Q60/54		98
+G01Q60/56	10	Probes with magnetic coating	G01Q60/56	G01Q60/56		53
+G01Q60/58	8	SThM [Scanning Thermal Microscopy] or apparatus therefor, e.g. SThM probes	G01Q60/58	G01Q60/58		94
+G01Q60/60	8	SECM [Scanning Electro-Chemical Microscopy] or apparatus therefor, e.g. SECM probes	G01Q60/60	G01Q60/60		86
+G01Q70/00	7	General aspects of SPM probes, their manufacture or their related instrumentation, insofar as they are not specially adapted to a single SPM technique covered by group G01Q60/00	G01Q70/00	G01Q70/00		61
+G01Q70/02	8	Probe holders	G01Q70/02	G01Q70/02		194
+G01Q70/04	9	with compensation for temperature or vibration induced errors	G01Q70/04	G01Q70/04		116
+G01Q70/06	8	Probe tip arrays	G01Q70/06	G01Q70/06		270
+G01Q70/08	8	Probe characteristics	G01Q70/08	G01Q70/08		99
+G01Q70/10	9	Shape or taper	G01Q70/10	G01Q70/10		246
+G01Q70/12	10	Nanotube tips	G01Q70/12	G01Q70/12		264
+G01Q70/14	9	Particular materials	G01Q70/14	G01Q70/14		245
+G01Q70/16	8	Probe manufacture	G01Q70/16	G01Q70/16		286
+G01Q70/18	9	Functionalisation	G01Q70/18	G01Q70/18		62
+G01Q80/00	7	Applications, other than SPM, of scanning-probe techniques (manufacture or treatment of nanostructures B82B3/00; recording or reproducing information using near-field interaction G11B9/12, G11B11/24, G11B13/08)	G01Q80/00	G01Q80/00		533
+G01Q90/00	7	Scanning-probe techniques or apparatus not otherwise provided for	G01Q90/00	G01Q90/00		28

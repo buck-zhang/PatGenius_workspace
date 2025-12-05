@@ -1,0 +1,418 @@
+C12Q1/00	7	Measuring or testing processes involving enzymes, nucleic acids or microorganisms (measuring or testing apparatus with condition measuring or sensing means, e.g. colony counters, C12M1/34); Compositions therefor; Processes of preparing such compositions<br><br><u>NOTE</u><br><br>In this group, C-Sets are used for classification. The detailed information about the C-Sets construction and the associated syntax rules are found in the Definitions of C12Q.	C12Q1/00	C12Q1/00		1290
+C12Q1/001	8	{Enzyme electrodes}	C12Q1/00	C12Q1/00		1134
+C12Q1/002	9	{Electrode membranes}	C12Q1/00	C12Q1/00		419
+C12Q1/003	10	{Functionalisation}	C12Q1/00	C12Q1/00		163
+C12Q1/004	9	{mediator-assisted}	C12Q1/00	C12Q1/00		505
+C12Q1/005	9	{involving specific analytes or enzymes (including groups of enzymes, e.g. oxydases; C12Q1/004 takes precedence)}	C12Q1/00	C12Q1/00		831
+C12Q1/006	10	{for glucose}	C12Q1/00	C12Q1/00		983
+C12Q1/007	8	{involving isoenzyme profiles (for detection of an individual isoenzyme C12Q1/25&#160;-&#160;C12Q1/66)}	C12Q1/00	C12Q1/00		38
+C12Q1/008	8	{for determining co-enzymes or co-factors, e.g. NAD, ATP}	C12Q1/00	C12Q1/00		251
+C12Q1/02	8	involving viable microorganisms	C12Q1/02	C12Q1/02		3037
+C12Q1/025	9	{for testing or evaluating the effect of chemical or biological compounds, e.g. drugs, cosmetics (antimicrobial activity C12Q1/18)}	C12Q1/02	C12Q1/02		1536
+C12Q1/04	9	Determining presence or kind of microorganism; Use of selective media for testing antibiotics or bacteriocides; Compositions containing a chemical indicator therefor {(C12Q1/6897 takes precedence)}	C12Q1/04	C12Q1/04		6910
+C12Q1/045	10	{Culture media therefor}	C12Q1/04	C12Q1/04		1242
+C12Q1/06	10	Quantitative determination	C12Q1/06	C12Q1/06		2230
+C12Q1/08	11	using multifield media	C12Q1/08	C12Q1/08		56
+C12Q1/10	10	Enterobacteria	C12Q1/10	C12Q1/10		975
+C12Q1/12	10	Nitrate to nitrite reducing bacteria	C12Q1/12	C12Q1/12		85
+C12Q1/14	10	Streptococcus; Staphylococcus	C12Q1/14	C12Q1/14		597
+C12Q1/16	10	using radioactive material	C12Q1/16	C12Q1/16		61
+C12Q1/18	9	Testing for antimicrobial activity of a material	C12Q1/18	C12Q1/18		3429
+C12Q1/20	10	using multifield media	C12Q1/20	C12Q1/20		80
+C12Q1/22	9	Testing for sterility conditions	C12Q1/22	C12Q1/22		693
+C12Q1/24	9	Methods of sampling, or inoculating or spreading a sample; Methods of physically isolating an intact microorganisms	C12Q1/24	C12Q1/24		1719
+C12Q1/25	8	involving enzymes not classifiable in groups C12Q1/26{- C12Q1/66}	C12Q1/25	C12Q1/25		717
+C12Q1/26	8	involving oxidoreductase	C12Q1/26	C12Q1/26		2773
+C12Q1/28	9	involving peroxidase	C12Q1/28	C12Q1/28		1443
+C12Q1/30	9	involving catalase	C12Q1/30	C12Q1/30		219
+C12Q1/32	9	involving dehydrogenase	C12Q1/32	C12Q1/32		1365
+C12Q1/34	8	involving hydrolase	C12Q1/34	C12Q1/34		2655
+C12Q1/37	9	involving peptidase or proteinase	C12Q1/37	C12Q1/37		3149
+C12Q1/40	9	involving amylase	C12Q1/40	C12Q1/40		457
+C12Q1/42	9	involving phosphatase	C12Q1/42	C12Q1/42		1033
+C12Q1/44	9	involving esterase	C12Q1/44	C12Q1/44		1373
+C12Q1/46	10	involving cholinesterase	C12Q1/46	C12Q1/46		243
+C12Q1/48	8	involving transferase	C12Q1/48	C12Q1/48		1982
+C12Q1/485	9	{involving kinase}	C12Q1/48	C12Q1/48		1816
+C12Q1/50	9	involving creatine phosphokinase	C12Q1/50	C12Q1/50		159
+C12Q1/52	9	involving transaminase	C12Q1/52	C12Q1/52		233
+C12Q1/527	8	involving lyase	C12Q1/527	C12Q1/527		477
+C12Q1/533	8	involving isomerase	C12Q1/533	C12Q1/533		211
+C12Q1/54	8	involving glucose or galactose	C12Q1/54	C12Q1/54		1159
+C12Q1/56	8	involving blood clotting factors, e.g. involving thrombin, thromboplastin, fibrinogen	C12Q1/56	C12Q1/56		790
+C12Q1/58	8	involving urea or urease	C12Q1/58	C12Q1/58		307
+C12Q1/60	8	involving cholesterol	C12Q1/60	C12Q1/60		465
+C12Q1/61	8	involving triglycerides	C12Q1/61	C12Q1/61		150
+C12Q1/62	8	involving uric acid	C12Q1/62	C12Q1/62		135
+C12Q1/64	8	Geomicrobiological testing, e.g. for petroleum	C12Q1/64	C12Q1/64		90
+C12Q1/66	8	involving luciferase	C12Q1/66	C12Q1/66		1223
+C12Q1/68	8	involving nucleic acids<br><br><u>NOTE</u><br><br>  In this group, classification is made according to the most relevant feature irrespective of the last place priority rule.<br><br>In groups C12Q1/68 - C12Q1/6874, and C12Q1/6897, C-Sets are used for classification. The detailed information about the C-Sets construction and the associated syntax rules are found in the Definitions of C12Q.	C12Q1/68	C12Q1/68		6699
+C12Q1/6804	9	Nucleic acid analysis using immunogens (immunoassay G01N33/53)	C12Q1/6804	C12Q1/6804		2114
+C12Q1/6806	9	Preparing nucleic acids for analysis, e.g. for polymerase chain reaction [PCR] assay (C12Q1/6804 takes precedence)	C12Q1/6806	C12Q1/6806		13088
+C12Q1/6809	9	Methods for determination or identification of nucleic acids involving differential detection	C12Q1/6809	C12Q1/6809		2372
+C12Q1/6811	9	Selection methods for production or design of target specific oligonucleotides or binding molecules	C12Q1/6811	C12Q1/6811		1281
+C12Q1/6813	9	Hybridisation assays	C12Q1/6813	C12Q1/6813		1886
+C12Q1/6816	10	characterised by the detection means (C12Q1/6804 takes precedence)	C12Q1/6816	C12Q1/6816		3711
+C12Q1/6818	11	involving interaction of two or more labels, e.g. resonant energy transfer	C12Q1/6818	C12Q1/6818		1570
+C12Q1/682	11	Signal amplification	C12Q1/682	C12Q1/682		1606
+C12Q1/6823	11	Release of bound markers	C12Q1/6823	C12Q1/6823		696
+C12Q1/6825	11	Nucleic acid detection involving sensors	C12Q1/6825	C12Q1/6825		2387
+C12Q1/6827	10	for detection of mutation or polymorphism	C12Q1/6827	C12Q1/6827		5100
+C12Q1/683	11	involving restriction enzymes, e.g. restriction fragment length polymorphism [RFLP]	C12Q1/683	C12Q1/683		990
+C12Q1/6832	10	Enhancement of hybridisation reaction	C12Q1/6832	C12Q1/6832		614
+C12Q1/6834	10	Enzymatic or biochemical coupling of nucleic acids to a solid phase	C12Q1/6834	C12Q1/6834		2187
+C12Q1/6837	11	using probe arrays or probe chips (C12Q1/6874 takes precedence)	C12Q1/6837	C12Q1/6837		5072
+C12Q1/6839	10	Triple helix formation or other higher order conformations in hybridisation assays	C12Q1/6839	C12Q1/6839		182
+C12Q1/6841	10	In situ hybridisation	C12Q1/6841	C12Q1/6841		2277
+C12Q1/6844	9	Nucleic acid amplification reactions	C12Q1/6844	C12Q1/6844		10175
+C12Q1/6846	10	{Common amplification features}	C12Q1/6844	C12Q1/68		402
+C12Q1/6848	10	characterised by the means for preventing contamination or increasing the specificity or sensitivity of an amplification reaction	C12Q1/6848	C12Q1/6848		1809
+C12Q1/6851	10	Quantitative amplification	C12Q1/6851	C12Q1/6851		9801
+C12Q1/6853	10	using modified primers or templates	C12Q1/6853	C12Q1/6853		1427
+C12Q1/6855	11	Ligating adaptors	C12Q1/6855	C12Q1/6855		887
+C12Q1/6858	10	Allele-specific amplification	C12Q1/6858	C12Q1/6858		9296
+C12Q1/686	10	Polymerase chain reaction [PCR]	C12Q1/686	C12Q1/686		16966
+C12Q1/6862	10	Ligase chain reaction [LCR]	C12Q1/6862	C12Q1/6862		276
+C12Q1/6865	10	Promoter-based amplification, e.g. nucleic acid sequence amplification [NASBA], self-sustained sequence replication [3SR] or transcription-based amplification system [TAS]	C12Q1/6865	C12Q1/6865		440
+C12Q1/6867	10	Replicase-based amplification, e.g. using Q-beta replicase	C12Q1/6867	C12Q1/6867		63
+C12Q1/6869	9	Methods for sequencing	C12Q1/6869	C12Q1/6869		12767
+C12Q1/6872	10	involving mass spectrometry	C12Q1/6872	C12Q1/6872		336
+C12Q1/6874	10	involving nucleic acid arrays, e.g. sequencing by hybridisation	C12Q1/6874	C12Q1/6874		2673
+C12Q1/6876	9	Nucleic acid products used in the analysis of nucleic acids, e.g. primers or probes	C12Q1/6876	C12Q1/6876		5466
+C12Q1/6879	10	for sex determination	C12Q1/6879	C12Q1/6879		792
+C12Q1/6881	10	for tissue or cell typing, e.g. human leukocyte antigen [HLA] probes	C12Q1/6881	C12Q1/6881		1986
+C12Q1/6883	10	for diseases caused by alterations of genetic material	C12Q1/6883	C12Q1/6883		24538
+C12Q1/6886	11	for cancer (immunoassay for cancer G01N33/574)	C12Q1/6886	C12Q1/6886		27766
+C12Q1/6888	10	for detection or identification of organisms	C12Q1/6888	C12Q1/6888		10729
+C12Q1/689	11	for bacteria	C12Q1/689	C12Q1/689		12153
+C12Q1/6893	11	for protozoa	C12Q1/6893	C12Q1/6893		834
+C12Q1/6895	11	for plants, fungi or algae	C12Q1/6895	C12Q1/6895		17131
+C12Q1/6897	9	involving reporter genes operably linked to promoters	C12Q1/6897	C12Q1/6897		2363
+C12Q1/70	8	involving virus or bacteriophage {(immunoassay for viruses G01N33/56983)}<br><br><u>NOTE</u><br><br>In this group, classification is made according to the most relevant feature irrespective of the last place priority rule.<br>In this group, C-Sets are used for classification. The detailed information about the C-Sets construction and the associated syntax rules are found in the Definitions of C12Q.	C12Q1/70	C12Q1/70		2641
+C12Q1/701	9	{Specific hybridization probes}	C12Q1/70	C12Q1/70		8565
+C12Q1/702	10	{for retroviruses}	C12Q1/70	C12Q1/70		406
+C12Q1/703	11	{Viruses associated with AIDS}	C12Q1/70	C12Q1/70		988
+C12Q1/705	10	{for herpetoviridae, e.g. herpes simplex, varicella zoster}	C12Q1/70	C12Q1/70		879
+C12Q1/706	10	{for hepatitis}	C12Q1/70	C12Q1/70		793
+C12Q1/707	11	{non-A, non-B Hepatitis, excluding hepatitis D}	C12Q1/70	C12Q1/70		524
+C12Q1/708	10	{for papilloma}	C12Q1/70	C12Q1/70		886
+C12Q3/00	7	Condition responsive control processes (apparatus therefor C12M1/36; controlling or regulating in general G05)	C12Q3/00	C12Q3/00		718
+C12Q2304/00	7	Chemical means of detecting microorganisms	CPCONLY	C12Q2304/00		48
+C12Q2304/10	8	DNA staining	CPCONLY	C12Q2304/10		54
+C12Q2304/12	9	Ethidium	CPCONLY	C12Q2304/12		10
+C12Q2304/13	9	Propidium	CPCONLY	C12Q2304/13		10
+C12Q2304/16	9	Acridine orange	CPCONLY	C12Q2304/16		8
+C12Q2304/18	9	Thionin-type dyes, e.g. Azure, Toluidine Blue	CPCONLY	C12Q2304/18		13
+C12Q2304/20	8	Redox indicators	CPCONLY	C12Q2304/20		33
+C12Q2304/22	9	Resazurin; Resorufin	CPCONLY	C12Q2304/22		27
+C12Q2304/24	9	Tetrazolium; Formazan	CPCONLY	C12Q2304/24		52
+C12Q2304/26	9	Quinone; Quinol	CPCONLY	C12Q2304/26		29
+C12Q2304/40	8	Detection of gases	CPCONLY	C12Q2304/40		41
+C12Q2304/44	9	Oxygen	CPCONLY	C12Q2304/44		20
+C12Q2304/46	9	Carbon dioxide	CPCONLY	C12Q2304/46		20
+C12Q2304/48	9	Ammonia or volatile amines	CPCONLY	C12Q2304/48		5
+C12Q2304/60	8	Chemiluminescent detection using ATP-luciferin-luciferase system	CPCONLY	C12Q2304/60		139
+C12Q2304/80	8	Electrochemical detection via electrodes in contact with culture medium	CPCONLY	C12Q2304/80		31
+C12Q2326/00	7	Chromogens for determinations of oxidoreductase enzymes	CPCONLY	C12Q2326/00		181
+C12Q2326/10	8	Benzidines	CPCONLY	C12Q2326/10		21
+C12Q2326/12	9	3,3&apos;,5,5&apos;-Tetramethylbenzidine, i.e. TMB	CPCONLY	C12Q2326/12		121
+C12Q2326/14	9	Ortho-Tolidine, i.e. 3,3&apos;-dimethyl-(1,1&apos;-biphenyl-4,4&apos;-diamine)	CPCONLY	C12Q2326/14		39
+C12Q2326/20	8	Ortho-Phenylenediamine	CPCONLY	C12Q2326/20		10
+C12Q2326/30	8	2,2&apos;-Azinobis (3-ethylbenzothiazoline-6-sulfonic acid), i.e. ABTS	CPCONLY	C12Q2326/30		32
+C12Q2326/32	8	3-Methyl-2-benzothiazolinone hydrazone hydrochloride hydrate, i.e. MBTH	CPCONLY	C12Q2326/32		30
+C12Q2326/40	8	Triphenylmethane dye chromogens, e.g. fluorescein derivatives	CPCONLY	C12Q2326/40		22
+C12Q2326/50	8	Phenols; Naphthols; Catechols	CPCONLY	C12Q2326/50		60
+C12Q2326/90	8	Developer	CPCONLY	C12Q2326/90		8
+C12Q2326/92	9	Nitro blue tetrazolium chloride, i.e. NBT	CPCONLY	C12Q2326/92		45
+C12Q2326/96	9	4-Amino-antipyrine	CPCONLY	C12Q2326/96		154
+C12Q2334/00	7	O-linked chromogens for determinations of hydrolase enzymes, e.g. glycosidases, phosphatases, esterases	CPCONLY	C12Q2334/00		225
+C12Q2334/10	8	p-Nitrophenol derivatives	CPCONLY	C12Q2334/10		133
+C12Q2334/20	8	Coumarin derivatives	CPCONLY	C12Q2334/20		27
+C12Q2334/22	9	4-Methylumbelliferyl, i.e. beta-methylumbelliferone, 4MU	CPCONLY	C12Q2334/22		63
+C12Q2334/30	8	Naphthol derivatives, e.g. alpha-naphthyl-esters, i.e. alpha-NE, beta-naphthyl-esters, i.e. beta-NE	CPCONLY	C12Q2334/30		48
+C12Q2334/40	8	Triphenylmethane dye chromogens, e.g. fluorescein derivatives	CPCONLY	C12Q2334/40		39
+C12Q2334/50	8	Indoles	CPCONLY	C12Q2334/50		54
+C12Q2334/52	9	5-Bromo-4-chloro-3-indolyl, i.e. BCI	CPCONLY	C12Q2334/52		75
+C12Q2334/70	8	the product, e.g. phenol, naphthol being diazotised in situ, e.g. with Fast Red	CPCONLY	C12Q2334/70		51
+C12Q2337/00	7	N-linked chromogens for determinations of peptidases and proteinases	CPCONLY	C12Q2337/00		38
+C12Q2337/10	8	Anilides	CPCONLY	C12Q2337/10		25
+C12Q2337/12	9	Para-Nitroanilides p-NA	CPCONLY	C12Q2337/12		136
+C12Q2337/20	8	Coumarin derivatives	CPCONLY	C12Q2337/20		7
+C12Q2337/22	9	7-Amino-4-methylcoumarin, i.e. AMC, MCA	CPCONLY	C12Q2337/22		49
+C12Q2337/24	9	7-Amino-4-trifluoromethylcoumarin, i.e. AFC	CPCONLY	C12Q2337/24		7
+C12Q2337/30	8	Naphthyl amides, e.g. beta-NA, 2-NA, 4-methoxy-beta-naphthylamine, i.e. 4MNA	CPCONLY	C12Q2337/30		36
+C12Q2337/40	8	Rhodamine derivatives	CPCONLY	C12Q2337/40		8
+C12Q2337/50	8	Indoles	CPCONLY	C12Q2337/50		2
+C12Q2337/52	9	5-Bromo-4-chloro-3-indolyl, i.e. BCI	CPCONLY	C12Q2337/52		
+C12Q2500/00	7	Analytical methods involving nucleic acids<br><br><u>NOTE</u><br><br>Indexing codes C12Q2500/00 - C12Q2565/634 are only used as subsequent symbols in C-Sets and are not allocated as single symbols. The detailed information about the C-Sets construction and the associated syntax rules is present in the Definitions of C12Q.	CPCONLY	C12Q2500/00		26
+C12Q2520/00	7	Reactions involving nucleic acids	CPCONLY	C12Q2520/00		8
+C12Q2521/00	7	Reaction characterised by the enzymatic activity	CPCONLY	C12Q2521/00		4
+C12Q2521/10	8	Nucleotidyl transfering	CPCONLY	C12Q2521/10		25
+C12Q2521/101	9	DNA polymerase	CPCONLY	C12Q2521/101		2023
+C12Q2521/107	9	RNA dependent DNA polymerase,(i.e. reverse transcriptase)	CPCONLY	C12Q2521/107		3820
+C12Q2521/113	9	Telomerase	CPCONLY	C12Q2521/113		95
+C12Q2521/119	9	RNA polymerase	CPCONLY	C12Q2521/119		414
+C12Q2521/125	9	Methyl transferase, i.e. methylase	CPCONLY	C12Q2521/125		126
+C12Q2521/131	9	Terminal transferase	CPCONLY	C12Q2521/131		231
+C12Q2521/30	8	Phosphoric diester hydrolysing, i.e. nuclease	CPCONLY	C12Q2521/30		71
+C12Q2521/301	9	Endonuclease	CPCONLY	C12Q2521/301		2702
+C12Q2521/307	9	Single strand endonuclease	CPCONLY	C12Q2521/307		287
+C12Q2521/313	9	Type II endonucleases, i.e. cutting outside recognition site	CPCONLY	C12Q2521/313		285
+C12Q2521/319	9	Exonuclease	CPCONLY	C12Q2521/319		925
+C12Q2521/325	9	Single stranded exonuclease	CPCONLY	C12Q2521/325		175
+C12Q2521/327	9	RNAse, e.g. RNAseH	CPCONLY	C12Q2521/327		2113
+C12Q2521/331	9	Methylation site specific nuclease	CPCONLY	C12Q2521/331		283
+C12Q2521/337	9	Ribozyme	CPCONLY	C12Q2521/337		147
+C12Q2521/343	9	Abzyme	CPCONLY	C12Q2521/343		2
+C12Q2521/345	9	DNAzyme	CPCONLY	C12Q2521/345		274
+C12Q2521/50	8	Other enzymatic activities	CPCONLY	C12Q2521/50		168
+C12Q2521/501	9	Ligase	CPCONLY	C12Q2521/501		1588
+C12Q2521/507	9	Recombinase	CPCONLY	C12Q2521/507		2196
+C12Q2521/513	9	Winding/unwinding enzyme, e.g. helicase	CPCONLY	C12Q2521/513		205
+C12Q2521/514	9	Mismatch repair protein	CPCONLY	C12Q2521/514		138
+C12Q2521/519	9	Topoisomerase	CPCONLY	C12Q2521/519		45
+C12Q2521/525	9	Phosphatase	CPCONLY	C12Q2521/525		350
+C12Q2521/531	9	Glycosylase	CPCONLY	C12Q2521/531		603
+C12Q2521/537	9	Protease	CPCONLY	C12Q2521/537		652
+C12Q2521/539	9	Deaminase	CPCONLY	C12Q2521/539		113
+C12Q2521/543	9	Immobilised enzyme(s)	CPCONLY	C12Q2521/543		150
+C12Q2522/00	7	Reaction characterised by the use of non-enzymatic proteins	CPCONLY	C12Q2522/00		5
+C12Q2522/10	8	Nucleic acid binding proteins	CPCONLY	C12Q2522/10		58
+C12Q2522/101	9	Single or double stranded nucleic acid binding proteins	CPCONLY	C12Q2522/101		1625
+C12Q2523/00	7	Reactions characterised by treatment of reaction samples	CPCONLY	C12Q2523/00		5
+C12Q2523/10	8	Characterised by chemical treatment	CPCONLY	C12Q2523/10		105
+C12Q2523/101	9	Crosslinking agents, e.g. psoralen	CPCONLY	C12Q2523/101		328
+C12Q2523/107	9	Chemical cleaving agents	CPCONLY	C12Q2523/107		188
+C12Q2523/109	9	chemical ligation between nucleic acids	CPCONLY	C12Q2523/109		74
+C12Q2523/113	9	Denaturating agents	CPCONLY	C12Q2523/113		188
+C12Q2523/115	9	oxidising agents	CPCONLY	C12Q2523/115		67
+C12Q2523/119	9	Renaturing agents	CPCONLY	C12Q2523/119		9
+C12Q2523/125	9	Bisulfite(s)	CPCONLY	C12Q2523/125		1150
+C12Q2523/30	8	Characterised by physical treatment	CPCONLY	C12Q2523/30		95
+C12Q2523/301	9	Sonication	CPCONLY	C12Q2523/301		260
+C12Q2523/303	9	Applying a physical force on a nucleic acid	CPCONLY	C12Q2523/303		185
+C12Q2523/305	9	Denaturation or renaturation by physical action	CPCONLY	C12Q2523/305		49
+C12Q2523/307	9	Denaturation or renaturation by electric current/voltage	CPCONLY	C12Q2523/307		90
+C12Q2523/308	9	Adsorption or desorption	CPCONLY	C12Q2523/308		1477
+C12Q2523/31	9	Electrostatic interactions, e.g. use of cationic polymers in hybridisation reactions	CPCONLY	C12Q2523/31		48
+C12Q2523/313	9	Irradiation, e.g. UV irradiation	CPCONLY	C12Q2523/313		293
+C12Q2523/319	9	Photocleavage, photolysis, photoactivation	CPCONLY	C12Q2523/319		222
+C12Q2523/32	9	Centrifugation	CPCONLY	C12Q2523/32		665
+C12Q2525/00	7	Reactions involving modified oligonucleotides, nucleic acids, or nucleotides	CPCONLY	C12Q2525/00		13
+C12Q2525/10	8	Modifications characterised by	CPCONLY	C12Q2525/10		112
+C12Q2525/101	9	incorporating non-naturally occurring nucleotides, e.g. inosine	CPCONLY	C12Q2525/101		586
+C12Q2525/107	9	incorporating a peptide nucleic acid	CPCONLY	C12Q2525/107		563
+C12Q2525/113	9	incorporating modified backbone	CPCONLY	C12Q2525/113		502
+C12Q2525/117	9	incorporating modified base	CPCONLY	C12Q2525/117		830
+C12Q2525/119	9	incorporating abasic sites	CPCONLY	C12Q2525/119		132
+C12Q2525/121	9	incorporating both deoxyribonucleotides and ribonucleotides	CPCONLY	C12Q2525/121		245
+C12Q2525/125	9	incorporating agents resulting in resistance to degradation	CPCONLY	C12Q2525/125		247
+C12Q2525/131	9	incorporating a restriction site	CPCONLY	C12Q2525/131		471
+C12Q2525/137	9	incorporating/modifying moieties to eliminate restriction sites	CPCONLY	C12Q2525/137		14
+C12Q2525/143	9	incorporating a promoter sequence	CPCONLY	C12Q2525/143		303
+C12Q2525/149	9	incorporating a coding sequence	CPCONLY	C12Q2525/149		64
+C12Q2525/15	9	incorporating a consensus or conserved sequence	CPCONLY	C12Q2525/15		115
+C12Q2525/151	9	repeat or repeated sequences, e.g. VNTR, microsatellite, concatemer	CPCONLY	C12Q2525/151		1512
+C12Q2525/155	9	incorporating/generating a new priming site	CPCONLY	C12Q2525/155		866
+C12Q2525/161	9	incorporating target specific and non-target specific sites	CPCONLY	C12Q2525/161		2535
+C12Q2525/173	9	incorporating a polynucleotide run, e.g. polyAs, polyTs	CPCONLY	C12Q2525/173		671
+C12Q2525/179	9	incorporating arbitrary or random nucleotide sequences	CPCONLY	C12Q2525/179		536
+C12Q2525/185	9	incorporating bases where the precise position of the bases in the nucleic acid string is important	CPCONLY	C12Q2525/185		297
+C12Q2525/186	9	incorporating a non-extendable or blocking moiety	CPCONLY	C12Q2525/186		853
+C12Q2525/191	9	incorporating an adaptor	CPCONLY	C12Q2525/191		3153
+C12Q2525/197	9	incorporating a spacer/coupling moiety	CPCONLY	C12Q2525/197		438
+C12Q2525/203	9	incorporating a composite nucleic acid containing a polypeptide sequence other than PNA	CPCONLY	C12Q2525/203		65
+C12Q2525/204	9	specific length of the oligonucleotides	CPCONLY	C12Q2525/204		459
+C12Q2525/205	9	Aptamer	CPCONLY	C12Q2525/205		1066
+C12Q2525/207	9	siRNA, miRNA	CPCONLY	C12Q2525/207		984
+C12Q2525/30	8	Oligonucleotides characterised by their secondary structure	CPCONLY	C12Q2525/30		102
+C12Q2525/301	9	Hairpin oligonucleotides	CPCONLY	C12Q2525/301		2033
+C12Q2525/307	9	Circular oligonucleotides	CPCONLY	C12Q2525/307		747
+C12Q2525/313	9	Branched oligonucleotides	CPCONLY	C12Q2525/313		208
+C12Q2527/00	7	Reactions demanding special reaction conditions	CPCONLY	C12Q2527/00		6
+C12Q2527/101	8	Temperature	CPCONLY	C12Q2527/101		1919
+C12Q2527/107	8	Temperature of melting, i.e. Tm	CPCONLY	C12Q2527/107		1660
+C12Q2527/109	8	Pressure	CPCONLY	C12Q2527/109		56
+C12Q2527/113	8	Time	CPCONLY	C12Q2527/113		250
+C12Q2527/119	8	pH	CPCONLY	C12Q2527/119		310
+C12Q2527/125	8	Specific component of sample, medium or buffer	CPCONLY	C12Q2527/125		4602
+C12Q2527/127	8	the enzyme inhibitor or activator used	CPCONLY	C12Q2527/127		540
+C12Q2527/137	8	Concentration of a component of medium	CPCONLY	C12Q2527/137		537
+C12Q2527/143	8	Concentration of primer or probe	CPCONLY	C12Q2527/143		282
+C12Q2527/146	8	Concentration of target or template	CPCONLY	C12Q2527/146		140
+C12Q2527/149	8	Concentration of an enzyme	CPCONLY	C12Q2527/149		67
+C12Q2527/15	8	Gradients	CPCONLY	C12Q2527/15		84
+C12Q2527/153	8	Viscosity	CPCONLY	C12Q2527/153		39
+C12Q2527/156	8	Permeability	CPCONLY	C12Q2527/156		62
+C12Q2531/00	7	Reactions of nucleic acids characterised by	CPCONLY	C12Q2531/00		3
+C12Q2531/10	8	the purpose being amplify/increase the copy number of target nucleic acid	CPCONLY	C12Q2531/10		61
+C12Q2531/101	9	Linear amplification, i.e. non exponential	CPCONLY	C12Q2531/101		224
+C12Q2531/107	9	Probe or oligonucleotide ligation	CPCONLY	C12Q2531/107		278
+C12Q2531/113	9	PCR	CPCONLY	C12Q2531/113		21394
+C12Q2531/119	9	Strand displacement amplification [SDA]	CPCONLY	C12Q2531/119		4553
+C12Q2531/125	9	Rolling circle	CPCONLY	C12Q2531/125		1145
+C12Q2531/131	9	Inverse PCR	CPCONLY	C12Q2531/131		47
+C12Q2531/137	9	Ligase Chain Reaction [LCR]	CPCONLY	C12Q2531/137		96
+C12Q2531/143	9	Promoter based amplification, e.g. NASBA, 3SR, TAS	CPCONLY	C12Q2531/143		143
+C12Q2531/149	9	Replicase based amplification, e.g. Q beta replicase	CPCONLY	C12Q2531/149		29
+C12Q2533/00	7	Reactions characterised by the enzymatic reaction principle used	CPCONLY	C12Q2533/00		3
+C12Q2533/10	8	the purpose being to increase the length of an oligonucleotide strand	CPCONLY	C12Q2533/10		26
+C12Q2533/101	9	Primer extension	CPCONLY	C12Q2533/101		984
+C12Q2533/107	9	Probe or oligonucleotide ligation	CPCONLY	C12Q2533/107		435
+C12Q2535/00	7	Reactions characterised by the assay type for determining the identity of a nucleotide base or a sequence of oligonucleotides	CPCONLY	C12Q2535/00		56
+C12Q2535/101	8	Sanger sequencing method, i.e. oligonucleotide sequencing using primer elongation and dideoxynucleotides as chain terminators	CPCONLY	C12Q2535/101		1043
+C12Q2535/107	8	Maxam and Gilbert method, i.e. sequential release and detection of nucleotides	CPCONLY	C12Q2535/107		46
+C12Q2535/113	8	Cycle sequencing	CPCONLY	C12Q2535/113		100
+C12Q2535/119	8	Double strand sequencing	CPCONLY	C12Q2535/119		104
+C12Q2535/122	8	Massive parallel sequencing	CPCONLY	C12Q2535/122		7558
+C12Q2535/125	8	Allele specific primer extension	CPCONLY	C12Q2535/125		629
+C12Q2535/131	8	Allele specific probes	CPCONLY	C12Q2535/131		328
+C12Q2535/137	8	Amplification Refractory Mutation System [ARMS]	CPCONLY	C12Q2535/137		338
+C12Q2535/138	8	Amplified fragment length polymorphism [AFLP]	CPCONLY	C12Q2535/138		95
+C12Q2535/139	8	Random amplification polymorphism detection [RAPD]	CPCONLY	C12Q2535/139		82
+C12Q2537/00	7	Reactions characterised by the reaction format or use of a specific feature	CPCONLY	C12Q2537/00		
+C12Q2537/10	8	the purpose or use of	CPCONLY	C12Q2537/10		3
+C12Q2537/101	9	Homogeneous assay format, e.g. one pot reaction	CPCONLY	C12Q2537/101		186
+C12Q2537/107	9	Homoduplex formation	CPCONLY	C12Q2537/107		32
+C12Q2537/113	9	Heteroduplex formation	CPCONLY	C12Q2537/113		150
+C12Q2537/119	9	Triple helix formation	CPCONLY	C12Q2537/119		75
+C12Q2537/125	9	Sandwich assay format	CPCONLY	C12Q2537/125		363
+C12Q2537/137	9	a displacement step	CPCONLY	C12Q2537/137		108
+C12Q2537/1373	10	Displacement by a nucleic acid	CPCONLY	C12Q2537/1373		300
+C12Q2537/1376	10	Displacement by an enzyme	CPCONLY	C12Q2537/1376		658
+C12Q2537/143	9	Multiplexing, i.e. use of multiple primers or probes in a single reaction, usually for simultaneously analyse of multiple analysis	CPCONLY	C12Q2537/143		8242
+C12Q2537/149	9	Sequential reactions	CPCONLY	C12Q2537/149		319
+C12Q2537/155	9	Cyclic reactions	CPCONLY	C12Q2537/155		106
+C12Q2537/157	9	A reaction step characterised by the number of molecules incorporated or released	CPCONLY	C12Q2537/157		197
+C12Q2537/159	9	Reduction of complexity, e.g. amplification of subsets, removing duplicated genomic regions	CPCONLY	C12Q2537/159		523
+C12Q2537/16	9	Assays for determining copy number or wherein the copy number is of special importance	CPCONLY	C12Q2537/16		828
+C12Q2537/161	9	A competitive reaction step	CPCONLY	C12Q2537/161		263
+C12Q2537/162	9	Helper probe	CPCONLY	C12Q2537/162		271
+C12Q2537/163	9	blocking probe	CPCONLY	C12Q2537/163		333
+C12Q2537/164	9	Methylation detection other then bisulfite or methylation sensitive restriction endonucleases	CPCONLY	C12Q2537/164		418
+C12Q2537/165	9	Mathematical modelling, e.g. logarithm, ratio	CPCONLY	C12Q2537/165		2166
+C12Q2539/00	7	Reactions characterised by analysis of gene expression or genome comparison	CPCONLY	C12Q2539/00		43
+C12Q2539/10	8	The purpose being sequence identification by analysis of gene expression or genome comparison characterised by	CPCONLY	C12Q2539/10		69
+C12Q2539/101	9	Subtraction analysis	CPCONLY	C12Q2539/101		95
+C12Q2539/103	9	Serial analysis of gene expression [SAGE]	CPCONLY	C12Q2539/103		71
+C12Q2539/105	9	Involving introns, exons, or splice junctions	CPCONLY	C12Q2539/105		118
+C12Q2539/107	9	Representational Difference Analysis [RDA]	CPCONLY	C12Q2539/107		44
+C12Q2539/113	9	Differential Display Analysis [DDA]	CPCONLY	C12Q2539/113		53
+C12Q2539/115	9	Comparative genomic hybridisation [CGH]	CPCONLY	C12Q2539/115		24
+C12Q2541/00	7	Reactions characterised by directed evolution	CPCONLY	C12Q2541/00		1
+C12Q2541/10	8	the purpose being the selection or design of target specific nucleic acid binding sequences	CPCONLY	C12Q2541/10		5
+C12Q2541/101	9	Selex	CPCONLY	C12Q2541/101		174
+C12Q2543/00	7	Reactions characterised by the reaction site, e.g. cell or chromosome	CPCONLY	C12Q2543/00		10
+C12Q2543/10	8	the purpose being "in situ" analysis	CPCONLY	C12Q2543/10		411
+C12Q2543/101	9	in situ amplification	CPCONLY	C12Q2543/101		200
+C12Q2545/00	7	Reactions characterised by their quantitative nature	CPCONLY	C12Q2545/00		6
+C12Q2545/10	8	the purpose being quantitative analysis	CPCONLY	C12Q2545/10		117
+C12Q2545/101	9	with an internal standard/control	CPCONLY	C12Q2545/101		3513
+C12Q2545/107	9	with a competitive internal standard/control	CPCONLY	C12Q2545/107		197
+C12Q2545/113	9	with an external standard/control, i.e. control reaction is separated from the test/target reaction	CPCONLY	C12Q2545/113		2849
+C12Q2545/114	9	involving a quantitation step	CPCONLY	C12Q2545/114		3300
+C12Q2547/00	7	Reactions characterised by the features used to prevent contamination	CPCONLY	C12Q2547/00		9
+C12Q2547/10	8	the purpose being preventing contamination	CPCONLY	C12Q2547/10		38
+C12Q2547/101	9	by confinement to a single tube/container	CPCONLY	C12Q2547/101		448
+C12Q2547/107	9	Use of permeable barriers, e.g. waxes	CPCONLY	C12Q2547/107		140
+C12Q2549/00	7	Reactions characterised by the features used to influence the efficiency or specificity	CPCONLY	C12Q2549/00		19
+C12Q2549/10	8	the purpose being that of reducing false positive or false negative signals	CPCONLY	C12Q2549/10		25
+C12Q2549/101	9	Hot start	CPCONLY	C12Q2549/101		114
+C12Q2549/107	9	Cold start	CPCONLY	C12Q2549/107		6
+C12Q2549/113	9	using nested probes	CPCONLY	C12Q2549/113		44
+C12Q2549/119	9	using nested primers	CPCONLY	C12Q2549/119		741
+C12Q2549/125	9	using sterilising/blocking agents, e.g. albumin	CPCONLY	C12Q2549/125		91
+C12Q2549/126	9	using oligonucleotides as clamps	CPCONLY	C12Q2549/126		57
+C12Q2560/00	7	Nucleic acid detection	CPCONLY	C12Q2560/00		25
+C12Q2561/00	7	Nucleic acid detection characterised by assay method	CPCONLY	C12Q2561/00		8
+C12Q2561/101	8	Taqman	CPCONLY	C12Q2561/101		2469
+C12Q2561/107	8	Enzyme complementation	CPCONLY	C12Q2561/107		19
+C12Q2561/108	8	Hybridisation protection assay [HPA]	CPCONLY	C12Q2561/108		25
+C12Q2561/109	8	Invader technology	CPCONLY	C12Q2561/109		133
+C12Q2561/113	8	Real time assay	CPCONLY	C12Q2561/113		4196
+C12Q2561/119	8	Fluorescence polarisation	CPCONLY	C12Q2561/119		63
+C12Q2561/12	8	Fluorescence lifetime measurement	CPCONLY	C12Q2561/12		28
+C12Q2561/125	8	Ligase Detection Reaction [LDR]	CPCONLY	C12Q2561/125		216
+C12Q2561/127	8	Protein truncation assay	CPCONLY	C12Q2561/127		2
+C12Q2563/00	7	Nucleic acid detection characterized by the use of physical, structural and functional properties	CPCONLY	C12Q2563/00		9
+C12Q2563/101	8	radioactivity, e.g. radioactive labels	CPCONLY	C12Q2563/101		90
+C12Q2563/103	8	luminescence	CPCONLY	C12Q2563/103		374
+C12Q2563/107	8	fluorescence	CPCONLY	C12Q2563/107		18891
+C12Q2563/113	8	the label being electroactive, e.g. redox labels	CPCONLY	C12Q2563/113		356
+C12Q2563/116	8	electrical properties of nucleic acids, e.g. impedance, conductivity or resistance	CPCONLY	C12Q2563/116		409
+C12Q2563/119	8	the label being proteinic	CPCONLY	C12Q2563/119		76
+C12Q2563/125	8	the label being enzymatic, i.e. proteins, and non proteins, such as nucleic acid with enzymatic activity	CPCONLY	C12Q2563/125		296
+C12Q2563/131	8	the label being a member of a cognate binding pair, i.e. extends to antibodies, haptens, avidin	CPCONLY	C12Q2563/131		1842
+C12Q2563/137	8	Metal/ion, e.g. metal label	CPCONLY	C12Q2563/137		1064
+C12Q2563/143	8	Magnetism, e.g. magnetic label	CPCONLY	C12Q2563/143		1979
+C12Q2563/149	8	Particles, e.g. beads	CPCONLY	C12Q2563/149		2612
+C12Q2563/155	8	Particles of a defined size, e.g. nanoparticles	CPCONLY	C12Q2563/155		1369
+C12Q2563/157	8	Nanotubes or nanorods	CPCONLY	C12Q2563/157		173
+C12Q2563/159	8	Microreactors, e.g. emulsion PCR or sequencing, droplet PCR, microcapsules, i.e. non-liquid containers with a range of different permeability&apos;s for different reaction components	CPCONLY	C12Q2563/159		2497
+C12Q2563/161	8	Vesicles, e.g. liposome	CPCONLY	C12Q2563/161		113
+C12Q2563/167	8	Mass label	CPCONLY	C12Q2563/167		122
+C12Q2563/173	8	staining/intercalating agent, e.g. ethidium bromide	CPCONLY	C12Q2563/173		767
+C12Q2563/179	8	the label being a nucleic acid	CPCONLY	C12Q2563/179		2163
+C12Q2563/185	8	Nucleic acid dedicated to use as a hidden marker/bar code, e.g. inclusion of nucleic acids to mark art objects or animals	CPCONLY	C12Q2563/185		976
+C12Q2565/00	7	Nucleic acid analysis characterised by mode or means of detection	CPCONLY	C12Q2565/00		11
+C12Q2565/10	8	Detection mode being characterised by the assay principle	CPCONLY	C12Q2565/10		5
+C12Q2565/101	9	Interaction between at least two labels	CPCONLY	C12Q2565/101		878
+C12Q2565/1015	10	labels being on the same oligonucleotide	CPCONLY	C12Q2565/1015		601
+C12Q2565/102	9	Multiple non-interacting labels	CPCONLY	C12Q2565/102		358
+C12Q2565/1025	10	labels being on the same oligonucleotide	CPCONLY	C12Q2565/1025		115
+C12Q2565/107	9	Alteration in the property of hybridised versus free label oligonucleotides	CPCONLY	C12Q2565/107		287
+C12Q2565/113	9	based on agglutination/precipitation	CPCONLY	C12Q2565/113		227
+C12Q2565/119	9	based on extraction of label to an organic phase, i.e. partitioning of label between different organic phases	CPCONLY	C12Q2565/119		17
+C12Q2565/125	9	Electrophoretic separation	CPCONLY	C12Q2565/125		5998
+C12Q2565/131	9	Single/double strand conformational analysis, i.e. SSCP/DSCP	CPCONLY	C12Q2565/131		91
+C12Q2565/133	9	conformational analysis	CPCONLY	C12Q2565/133		163
+C12Q2565/137	9	Chromatographic separation	CPCONLY	C12Q2565/137		293
+C12Q2565/20	8	Detection means characterised by being a gene reporter based analysis	CPCONLY	C12Q2565/20		20
+C12Q2565/201	9	Two hybrid system	CPCONLY	C12Q2565/201		63
+C12Q2565/207	9	Three hybrid system	CPCONLY	C12Q2565/207		12
+C12Q2565/30	8	Detection characterised by liberation or release of label	CPCONLY	C12Q2565/30		56
+C12Q2565/301	9	Pyrophosphate (PPi)	CPCONLY	C12Q2565/301		488
+C12Q2565/40	8	Detection characterised by signal amplification of label	CPCONLY	C12Q2565/40		22
+C12Q2565/401	9	Signal amplification by chemical polymerisation	CPCONLY	C12Q2565/401		30
+C12Q2565/50	8	Detection characterised by immobilisation to a surface	CPCONLY	C12Q2565/50		201
+C12Q2565/501	9	being an array of oligonucleotides	CPCONLY	C12Q2565/501		1318
+C12Q2565/507	9	characterised by the density of the capture oligonucleotide	CPCONLY	C12Q2565/507		144
+C12Q2565/513	9	characterised by the pattern of the arrayed oligonucleotides	CPCONLY	C12Q2565/513		269
+C12Q2565/514	9	characterised by the use of the arrayed oligonucleotides as identifier tags, e.g. universal addressable array, anti-tag or tag complement array	CPCONLY	C12Q2565/514		569
+C12Q2565/515	9	characterised by the interaction between or sequential use of two or more arrays	CPCONLY	C12Q2565/515		137
+C12Q2565/518	9	characterised by the immobilisation of the nucleic acid sample or target	CPCONLY	C12Q2565/518		749
+C12Q2565/519	9	characterised by the capture moiety being a single stranded oligonucleotide	CPCONLY	C12Q2565/519		989
+C12Q2565/525	9	characterised by the capture oligonucleotide being double stranded	CPCONLY	C12Q2565/525		116
+C12Q2565/531	9	characterised by the capture moiety being a protein for target oligonucleotides	CPCONLY	C12Q2565/531		119
+C12Q2565/537	9	characterised by the capture oligonucleotide acting as a primer	CPCONLY	C12Q2565/537		506
+C12Q2565/543	9	characterised by the use of two or more capture oligonucleotide primers in concert, e.g. bridge amplification	CPCONLY	C12Q2565/543		244
+C12Q2565/549	9	characterised by the capture oligonucleotide being a reporter labelled capture oligonucleotide	CPCONLY	C12Q2565/549		82
+C12Q2565/60	8	Detection means characterised by use of a special device	CPCONLY	C12Q2565/60		91
+C12Q2565/601	9	being a microscope, e.g. atomic force microscopy [AFM]	CPCONLY	C12Q2565/601		499
+C12Q2565/607	9	being a sensor, e.g. electrode	CPCONLY	C12Q2565/607		1937
+C12Q2565/619	9	being a video camera	CPCONLY	C12Q2565/619		122
+C12Q2565/625	9	being a nucleic acid test strip device, e.g. dipsticks, strips, tapes, CD plates	CPCONLY	C12Q2565/625		1514
+C12Q2565/626	9	being a flow cytometer	CPCONLY	C12Q2565/626		195
+C12Q2565/627	9	being a mass spectrometer	CPCONLY	C12Q2565/627		754
+C12Q2565/628	9	being a surface plasmon resonance spectrometer	CPCONLY	C12Q2565/628		166
+C12Q2565/629	9	being a microfluidic device	CPCONLY	C12Q2565/629		2300
+C12Q2565/631	9	being a biochannel or pore	CPCONLY	C12Q2565/631		1289
+C12Q2565/632	9	being a surface enhanced, e.g. resonance, Raman spectrometer	CPCONLY	C12Q2565/632		206
+C12Q2565/633	9	NMR	CPCONLY	C12Q2565/633		29
+C12Q2565/634	9	being an acoustic wave sensor	CPCONLY	C12Q2565/634		13
+C12Q2600/00	7	Oligonucleotides characterized by their use	CPCONLY	C12Q2600/00		11
+C12Q2600/106	8	Pharmacogenomics, i.e. genetic variability in individual responses to drugs and drug metabolism	CPCONLY	C12Q2600/106		10523
+C12Q2600/112	8	Disease subtyping, staging or classification	CPCONLY	C12Q2600/112		4944
+C12Q2600/118	8	Prognosis of disease development	CPCONLY	C12Q2600/118		9391
+C12Q2600/124	8	Animal traits, i.e. production traits, including athletic performance or the like	CPCONLY	C12Q2600/124		4807
+C12Q2600/13	8	Plant traits	CPCONLY	C12Q2600/13		9329
+C12Q2600/136	8	Screening for pharmacological compounds	CPCONLY	C12Q2600/136		6445
+C12Q2600/142	8	Toxicological screening, e.g. expression profiles which identify toxicity	CPCONLY	C12Q2600/142		529
+C12Q2600/148	8	Screening for cosmetic compounds	CPCONLY	C12Q2600/148		154
+C12Q2600/154	8	Methylation markers	CPCONLY	C12Q2600/154		4431
+C12Q2600/156	8	Polymorphic or mutational markers	CPCONLY	C12Q2600/156		34359
+C12Q2600/158	8	Expression markers	CPCONLY	C12Q2600/158		30020
+C12Q2600/16	8	Primer sets for multiplex assays	CPCONLY	C12Q2600/16		8149
+C12Q2600/166	8	Oligonucleotides used as internal standards, controls or normalisation probes	CPCONLY	C12Q2600/166		5000
+C12Q2600/172	8	Haplotypes	CPCONLY	C12Q2600/172		3179
+C12Q2600/178	8	miRNA, siRNA or ncRNA	CPCONLY	C12Q2600/178		7588

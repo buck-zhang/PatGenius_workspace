@@ -1,0 +1,933 @@
+H04B1/00	7	Details of transmission systems, not covered by a single one of groups H04B3/00 - H04B13/00; Details of transmission systems not characterised by the medium used for transmission<br><br><u>NOTE</u><br><br> In this group, group H04B1/0003 takes precedence over groups H04B1/005&#160;-&#160;H04B1/76	H04B1/00	H04B1/00		1178
+H04B1/0003	8	{Software-defined radio [SDR] systems, i.e. systems wherein components typically implemented in hardware, e.g. filters or modulators/demodulators, are implented using software, e.g. by involving an AD or DA conversion stage such that at least part of the signal processing is performed in the digital domain (digital baseband systems H04L25/00; digital modulation/demodulation H04L27/00; CDMA H04B1/707; TDMA H04B7/2643; image transmission H04N5/00)}	H04B1/00	H04B1/00		1037
+H04B1/0007	9	{wherein the AD/DA conversion occurs at radiofrequency or intermediate frequency stage}	H04B1/00	H04B1/00		642
+H04B1/001	10	{Channel filtering, i.e. selecting a frequency channel within the SDR system (multiplexing of multicarrier modulation signals being represented by different frequencies H04L5/06; multiplexing of multicarrier modulation signals H04L5/023)}	H04B1/00	H04B1/00		216
+H04B1/0014	10	{using DSP [Digital Signal Processor] quadrature modulation and demodulation}	H04B1/00	H04B1/00		141
+H04B1/0017	10	{Digital filtering (H04B1/001 takes precedence; digital filters per seH03H17/00)}	H04B1/00	H04B1/00		174
+H04B1/0021	10	{Decimation, i.e. data rate reduction techniques (H04B1/0025 takes precedence)}	H04B1/00	H04B1/00		75
+H04B1/0025	10	{using a sampling rate lower than twice the highest frequency component of the sampled signal (for demodulation of angle-modulated signals H03D3/006)}	H04B1/00	H04B1/00		80
+H04B1/0028	9	{wherein the AD/DA conversion occurs at baseband stage}	H04B1/00	H04B1/00		289
+H04B1/0032	10	{with analogue quadrature frequency conversion to and from the baseband (quadrature modulators and demodulators per seH03D3/007, H03C3/40)}	H04B1/00	H04B1/00		135
+H04B1/0035	10	{Channel filtering, i.e. selecting a frequency channel within a software radio system (multiplexing of multicarrier modulation signals being represented by different frequencies H04L5/06; multiplexing of multicarrier modulation signals H04L5/023)}	H04B1/00	H04B1/00		70
+H04B1/0039	10	{using DSP [Digital Signal Processor] quadrature modulation and demodulation}	H04B1/00	H04B1/00		113
+H04B1/0042	10	{Digital filtering (H04B1/0035 takes precedence; digital filters per seH03H17/00)}	H04B1/00	H04B1/00		96
+H04B1/0046	10	{Decimation, i.e. data rate reduction techniques}	H04B1/00	H04B1/00		30
+H04B1/005	8	{adapting radio receivers, transmitters andtransceivers for operation on two or more bands, i.e. frequency ranges}	H04B1/00	H04B1/00		1990
+H04B1/0053	9	{with common antenna for more than one band}	H04B1/00	H04B1/00		612
+H04B1/0057	10	{using diplexing or multiplexing filters for selecting the desired band}	H04B1/00	H04B1/00		1687
+H04B1/006	10	{using switches for selecting the desired band (H04B1/0057 takes precedence)}	H04B1/00	H04B1/00		1906
+H04B1/0064	9	{with separate antennas for the more than one band (H04B1/0053 takes precedence)}	H04B1/00	H04B1/00		1232
+H04B1/0067	9	{with one or more circuit blocks in common for different bands}	H04B1/00	H04B1/00		526
+H04B1/0071	10	{using a common intermediate frequency for more than one band (H04B1/0075 takes precedence)}	H04B1/00	H04B1/00		93
+H04B1/0075	10	{using different intermediate frequencied for the different bands}	H04B1/00	H04B1/00		95
+H04B1/0078	11	{with a common intermediate frequency amplifier for the different intermediate frequencies, e.g. when using switched intermediate frequency filters}	H04B1/00	H04B1/00		189
+H04B1/0082	10	{with a common local oscillator for more than one band}	H04B1/00	H04B1/00		215
+H04B1/0085	11	{where one band is the image frequency band of the other and the band selection is done by image rejection}	H04B1/00	H04B1/00		28
+H04B1/0089	11	{using a first intermediate frequency higher that the highest of any band received}	H04B1/00	H04B1/00		10
+H04B1/0092	12	{using a wideband front end}	H04B1/00	H04B1/00		87
+H04B1/0096	9	{where a full band is frequency converted into another full band}	H04B1/00	H04B1/00		162
+H04B1/02	8	Transmitters	H04B1/02	H04B1/02		631
+H04B1/03	9	Constructional details, e.g. casings, housings	H04B1/03	H04B1/03		682
+H04B1/034	10	Portable transmitters	H04B1/034	H04B1/034		702
+H04B1/0343	11	{to be carried on the body}	H04B1/034	H04B1/034		143
+H04B1/0346	11	{Hand-held transmitters}	H04B1/034	H04B1/034		114
+H04B1/036	10	Cooling arrangements	H04B1/036	H04B1/036		590
+H04B1/04	9	Circuits	H04B1/04	H04B1/04		5721
+H04B2001/0408	10	{with power amplifiers}	H04B1/04	H04B1/04		1920
+H04B2001/0416	11	{having gain or transmission power control}	H04B1/04	H04B1/04		1316
+H04B2001/0425	11	{with linearisation using predistortion}	H04B1/04	H04B1/04		954
+H04B2001/0433	11	{with linearisation using feedback}	H04B1/04	H04B1/04		388
+H04B2001/0441	11	{with linearisation using feed-forward}	H04B1/04	H04B1/04		123
+H04B2001/045	11	{with means for improving efficiency}	H04B1/04	H04B1/04		536
+H04B1/0458	10	{Arrangements for matching and coupling between power amplifier and antenna or between amplifying stages (matching circuits in general H03H)}	H04B1/04	H04B1/04		2367
+H04B1/0466	10	{Fault detection or indication (H04B1/0483 takes precedence)}	H04B1/04	H04B1/04		198
+H04B1/0475	10	{with means for limiting noise, interference or distortion (H04B1/0483 takes precedence)}	H04B1/04	H04B1/04		3667
+H04B1/0483	10	{Transmitters with multiple parallel paths}	H04B1/04	H04B1/04		1200
+H04B2001/0491	10	{with frequency synthesizers, frequency converters or modulators}	H04B1/04	H04B1/04		821
+H04B1/06	8	Receivers	H04B1/06	H04B1/06		1225
+H04B1/08	9	Constructional details, e.g. cabinet	H04B1/08	H04B1/08		1457
+H04B1/082	10	{to be used in vehicles (H04B1/086 takes precedence; holding or mounting accessories B60R11/02)}	H04B1/08	H04B1/08		914
+H04B2001/084	11	{with removable front panel}	H04B1/08	H04B1/08		44
+H04B1/086	10	{Portable receivers}	H04B1/08	H04B1/08		651
+H04B1/088	11	{with parts of the receiver detachable or collapsible}	H04B1/08	H04B1/08		239
+H04B1/10	9	Means associated with receiver for limiting or suppressing noise or interference	H04B1/10	H04B1/10		3714
+H04B1/1009	10	{Placing the antenna at a place where the noise level is low and using a noise-free transmission line between the antenna and the receivers (screened aerials H01Q7/04; feeders for aerials H01Q9/00)}	H04B1/10	H04B1/10		169
+H04B1/1018	10	{noise filters connected between the power supply and the receiver}	H04B1/10	H04B1/10		325
+H04B1/1027	10	{assessing signal quality or detecting noise/interference for the received signal}	H04B1/10	H04B1/10		2674
+H04B1/1036	11	{with automatic suppression of narrow band noise or interference, e.g. by using tuneable notch filters (H04B1/123 takes precedence; filter circuits H03H)}	H04B1/10	H04B1/10		1292
+H04B2001/1045	11	{Adjacent-channel interference}	H04B1/10	H04B1/10		179
+H04B2001/1054	11	{by changing bandwidth}	H04B1/10	H04B1/10		113
+H04B2001/1063	11	{using a notch filter}	H04B1/10	H04B1/10		228
+H04B2001/1072	11	{by tuning the receiver frequency}	H04B1/10	H04B1/10		232
+H04B1/1081	10	{Reduction of multipath noise (by equalising H04B7/005)}	H04B1/10	H04B1/10		385
+H04B1/109	10	{by improving strong signal performance of the receiver when strong unwanted signals are present at the receiver input}	H04B1/10	H04B1/10		944
+H04B1/12	10	Neutralising, balancing, or compensation arrangements	H04B1/12	H04B1/12		1542
+H04B1/123	11	{using adaptive balancing or compensation means (adaptive filter circuits and algorithms H03H)}	H04B1/12	H04B1/12		1220
+H04B1/126	12	{having multiple inputs, e.g. auxiliary antenna for receiving interfering signal (aerials in general H01Q)}	H04B1/12	H04B1/12		410
+H04B1/14	10	Automatic detuning arrangements	H04B1/14	H04B1/14		145
+H04B1/16	9	Circuits	H04B1/16	H04B1/16		5288
+H04B1/1607	10	{Supply circuits (converters H02M; filters therefor H02M1/14; voltage stabilisers G05F1/46)}	H04B1/16	H04B1/16		784
+H04B1/1615	11	{Switching on; Switching off, e.g. remotely (battery saving circuits associated with selective call operation H04W52/00; details of power consumption reduction in a PLL, H03L7/0802, H03L7/14, H03L2207/08, H03L2207/18; muting amplifiers by gain control seeH03G3/34)}	H04B1/16	H04B1/16		670
+H04B1/1623	11	{using tubes}	H04B1/16	H04B1/16		609
+H04B1/163	10	{Special arrangements for the reduction of the damping of resonant circuits of receivers (amplifiers H03F; negative impedance networks for line transmission systems H04B3/16)}	H04B1/16	H04B1/16		528
+H04B1/1638	10	{Special circuits to enhance selectivity of receivers not otherwise provided for (resonant circuits H03H)}	H04B1/16	H04B1/16		649
+H04B1/1646	10	{adapted for the reception of stereophonic signals}	H04B1/16	H04B1/16		545
+H04B1/1653	11	{Detection of the presence of stereo signals and pilot signal regeneration}	H04B1/16	H04B1/16		217
+H04B1/1661	11	{Reduction of noise by manipulation of the baseband composite stereophonic signal or the decoded left and right channels}	H04B1/16	H04B1/16		147
+H04B1/1669	12	{of the demodulated composite stereo signal}	H04B1/16	H04B1/16		48
+H04B1/1676	13	{of the sum or difference signal}	H04B1/16	H04B1/16		72
+H04B1/1684	13	{of the decoded left or right stereo channel}	H04B1/16	H04B1/16		23
+H04B1/1692	11	{using companding of the stereo difference signal, e.g. FMX (volume compression or expansion in amplifiers H03G7/00)}	H04B1/16	H04B1/16		22
+H04B1/18	10	Input circuits, e.g. for coupling to an antenna or a transmission line (coupling networks between antennas or lines and receivers independent of the nature of the receiver H03H)	H04B1/18	H04B1/18		3780
+H04B1/20	10	for coupling gramophone pick-up, recorder output, or microphone to receiver	H04B1/20	H04B1/20		711
+H04B1/202	11	{by remote control}	H04B1/20	H04B1/20		760
+H04B1/205	11	{with control bus for exchanging commands between units}	H04B1/20	H04B1/20		331
+H04B1/207	11	{with an audio or audio/video bus for signal distribution (H04B1/205 takes precedence)}	H04B1/20	H04B1/20		107
+H04B1/22	10	for receivers in which no local oscillation is generated	H04B1/22	H04B1/22		307
+H04B1/24	11	the receiver comprising at least one semiconductor device having three or more electrodes	H04B1/24	H04B1/24		103
+H04B1/26	10	for superheterodyne receivers (multiple frequency-changing H03D7/16)	H04B1/26	H04B1/26		1727
+H04B1/28	11	the receiver comprising at least one semiconductor device having three or more electrodes	H04B1/28	H04B1/28		1110
+H04B1/30	10	for homodyne or synchrodyne receivers (demodulator circuits H03D1/22)	H04B1/30	H04B1/30		1733
+H04B1/302	11	{for single sideband receivers (demodulator circuits H03D1/24)}	H04B1/30	H04B1/30		186
+H04B2001/305	11	{using DC offset compensation techniques}	H04B1/30	H04B1/30		85
+H04B2001/307	11	{using n-port mixer}	H04B1/30	H04B1/30		66
+H04B1/38	8	Transceivers, i.e. devices in which transmitter and receiver form a structural unit and in which at least one part is used for functions of transmitting and receiving	H04B1/38	H04B1/38		7118
+H04B1/3805	9	with built-in auxiliary receivers	H04B1/3805	H04B1/3805		843
+H04B2001/3811	10	{Split configuration of transmission devices}	H04B1/3805	H04B1/38		19
+H04B1/3816	9	Mechanical arrangements for accommodating identification devices, e.g. cards or chips; with connectors for programming identification devices	H04B1/3816	H04B1/3816		2014
+H04B1/3818	10	Arrangements for facilitating insertion or removal of identification devices	H04B1/3818	H04B1/3818		626
+H04B1/3822	9	specially adapted for use in vehicles (H04B1/3827 takes precedence)	H04B1/3822	H04B1/3822		2125
+H04B1/3827	9	Portable transceivers	H04B1/3827	H04B1/3827		2162
+H04B1/3833	10	{Hand-held transceivers}	H04B1/3827	H04B1/38		2822
+H04B1/3838	11	{Arrangements for reducing RF exposure to the user, e.g. by changing the shape of the transceiver while in use}	H04B1/3827	H04B1/38		1532
+H04B2001/3844	12	{with means to alert the user that a certain exposure has been reached}	H04B1/3827	H04B1/38		32
+H04B1/385	10	{Transceivers carried on the body, e.g. in helmets}	H04B1/3827	H04B1/38		3971
+H04B2001/3855	11	{carried in a belt or harness}<br><br><u>WARNING</u><br>Group H04B2001/3855 is impacted by reclassification into group A45F5/1516.<br>Groups H04B2001/3855 and A45F5/1516 should be considered in order to perform a complete search.	H04B1/3827	H04B1/38		428
+H04B2001/3861	11	{carried in a hand or on fingers}<br><br><u>WARNING</u><br>Group H04B2001/3861 is impacted by reclassification into group A45F5/1516. <br>Groups H04B2001/3861 and A45F5/1516 should be considered in order to perform a complete search.	H04B1/3827	H04B1/38		969
+H04B2001/3866	11	{carried on the head}	H04B1/3827	H04B1/38		831
+H04B2001/3872	11	{with extendable microphones or earphones}	H04B1/3827	H04B1/38		251
+H04B1/3877	10	Arrangements for enabling portable transceivers to be used in a fixed position, e.g. cradles or boosters	H04B1/3877	H04B1/3877		1673
+H04B1/3883	10	Arrangements for mounting batteries or battery chargers	H04B1/3883	H04B1/3883		1191
+H04B1/3888	10	Arrangements for carrying or protecting transceivers<br><br><u>WARNING</u><br>Group H04B1/3888 is impacted by reclassification into groups A45C11/002, A45C11/003, G06F1/1629 and H04M1/0203. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B1/3888	H04B1/3888		5566
+H04B2001/3894	9	{Waterproofing of transmission device}	H04B1/38	H04B1/38		695
+H04B1/40	9	Circuits	H04B1/40	H04B1/40		18750
+H04B1/401	10	for selecting or indicating operating mode	H04B1/401	H04B1/401		4008
+H04B1/403	10	using the same oscillator for generating both the transmitter frequency and the receiver local oscillator frequency	H04B1/403	H04B1/403		428
+H04B1/405	11	with multiple discrete channels	H04B1/405	H04B1/405		232
+H04B1/406	11	{with more than one transmission mode, e.g. analog and digital modes}	H04B1/403	H04B1/40		1632
+H04B1/408	11	the transmitter oscillator frequency being identical to the receiver local oscillator frequency	H04B1/408	H04B1/408		209
+H04B1/44	10	Transmit/receive switching	H04B1/44	H04B1/44		2660
+H04B1/46	11	by voice-frequency signals; by pilot signals	H04B1/46	H04B1/46		327
+H04B1/48	11	in circuits for connecting transmitter and receiver to a common transmission path, e.g. by energy of transmitter {(H04B1/46 takes precedence)}	H04B1/48	H04B1/48		1558
+H04B2001/485	12	{inhibiting unwanted transmission}	H04B1/48	H04B1/48		93
+H04B1/50	10	using different frequencies for the two directions of communication	H04B1/50	H04B1/50		1145
+H04B1/52	11	Hybrid arrangements, i.e. arrangements for transition from single-path two-direction transmission to single-direction transmission on each of two paths or vice versa	H04B1/52	H04B1/52		652
+H04B1/525	12	with means for reducing leakage of transmitter signal into the receiver	H04B1/525	H04B1/525		2664
+H04B1/54	10	using the same frequency for two directions of communication (H04B1/44 takes precedence)	H04B1/54	H04B1/54		393
+H04B1/56	11	with provision for simultaneous communication in two directions	H04B1/56	H04B1/56		495
+H04B1/58	11	Hybrid arrangements, i.e. arrangements for transition from single-path two-direction transmission to single-direction transmission on each of two paths or vice versa	H04B1/58	H04B1/58		576
+H04B1/581	12	{using a transformer}	H04B1/58	H04B1/58		116
+H04B1/582	13	{with automatic balancing}	H04B1/58	H04B1/58		72
+H04B1/583	12	{using a bridge network}	H04B1/58	H04B1/58		70
+H04B1/585	13	{with automatic balancing}	H04B1/58	H04B1/58		23
+H04B1/586	12	{using an electronic circuit}	H04B1/58	H04B1/58		244
+H04B1/587	12	{using opto-couplers (light transmission systems H04B10/00)}	H04B1/58	H04B1/58		43
+H04B1/588	12	{using sampling gates}	H04B1/58	H04B1/58		30
+H04B1/59	8	Responders; Transponders	H04B1/59	H04B1/59		595
+H04B1/60	8	Supervising unattended repeaters	H04B1/60	H04B1/60		145
+H04B1/62	8	for providing a predistortion of the signal in the transmitter and corresponding correction in the receiver, e.g. for improving the signal/noise ratio	H04B1/62	H04B1/62		548
+H04B1/64	9	Volume compression or expansion arrangements	H04B1/64	H04B1/64		449
+H04B1/66	8	for reducing bandwidth of signals; for improving efficiency of transmission (H04B1/68 takes precedence)	H04B1/66	H04B1/66		677
+H04B1/662	9	{using a time/frequency relationship, e.g. time compression or expansion}	H04B1/66	H04B1/66		253
+H04B1/665	9	{using psychoacoustic properties of the ear, e.g. masking effect}	H04B1/66	H04B1/66		318
+H04B1/667	9	{using a division in frequency subbands (for TV signals  H04N19/63)}	H04B1/66	H04B1/66		370
+H04B1/68	8	for wholly or partially suppressing the carrier or one side band	H04B1/68	H04B1/68		443
+H04B1/69	8	Spread spectrum techniques	H04B1/69	H04B1/69		1768
+H04B2001/6904	9	{using code hopping}	H04B1/69	H04B1/69		34
+H04B2001/6908	9	{using time hopping}	H04B1/69	H04B1/69		234
+H04B2001/6912	9	{using chirp}	H04B1/69	H04B1/69		428
+H04B2001/6916	9	{Related theory}	H04B1/69	H04B1/69		4
+H04B1/692	9	Hybrid techniques using combinations of two or more spread spectrum techniques	H04B1/692	H04B1/692		206
+H04B1/707	9	using direct sequence modulation	H04B1/707	H04B1/707		3811
+H04B2001/70706	10	{using a code tracking loop, e.g. a delay locked loop}	H04B1/707	H04B1/707		127
+H04B1/70712	10	{with demodulation by means of convolvers, e.g. of the SAW type (SAW convolvers in general G06G7/195)}	H04B1/707	H04B1/707		91
+H04B1/70718	10	{with asynchronous demodulation, i.e. not requiring code synchronisation}	H04B1/707	H04B1/707		47
+H04B2001/70724	10	{featuring pilot assisted reception}	H04B1/707	H04B1/707		74
+H04B1/7073	10	Synchronisation aspects	H04B1/7073	H04B1/7073		652
+H04B1/70735	11	{Code identification (H04B1/7083 takes precedence)}	H04B1/7073	H04B1/7073		427
+H04B1/7075	11	with code phase acquisition	H04B1/7075	H04B1/7075		1094
+H04B1/70751	12	{using partial detection (H04B1/70758 takes precedence)}	H04B1/7075	H04B1/7075		79
+H04B1/70752	13	{Partial correlation}	H04B1/7075	H04B1/7075		250
+H04B1/70753	13	{Partial phase search}	H04B1/7075	H04B1/7075		96
+H04B1/70754	12	{Setting of search window, i.e. range of code offsets to be searched (H04B1/70758 takes precedence)}	H04B1/7075	H04B1/7075		217
+H04B1/70755	12	{Setting of lock conditions, e.g. threshold}	H04B1/7075	H04B1/7075		244
+H04B1/70756	12	{Jumping within the code, i.e. masking or slewing (H04B1/70758 takes precedence)}	H04B1/7075	H04B1/7075		98
+H04B1/70757	12	{with increased resolution, i.e. higher than half a chip (H04B1/70758 takes precedence)}	H04B1/7075	H04B1/7075		96
+H04B1/70758	12	{Multimode search, i.e. using multiple search strategies}	H04B1/7075	H04B1/7075		75
+H04B1/7077	12	Multi-step acquisition, e.g. multi-dwell, coarse-fine or validation	H04B1/7077	H04B1/7077		378
+H04B1/70775	13	{Multi-dwell schemes, i.e. multiple accumulation times}	H04B1/7077	H04B1/7077		135
+H04B1/708	12	Parallel implementation	H04B1/708	H04B1/708		330
+H04B1/7083	11	Cell search, e.g. using a three-step approach	H04B1/7083	H04B1/7083		408
+H04B1/7085	11	using a code tracking loop, e.g. a delay-locked loop	H04B1/7085	H04B1/7085		663
+H04B2001/70855	12	{Dithering}	H04B1/7085	H04B1/7085		4
+H04B1/7087	11	Carrier synchronisation aspects	H04B1/7087	H04B1/7087		273
+H04B1/709	10	Correlator structure	H04B1/709	H04B1/709		893
+H04B1/7093	11	Matched filter type	H04B1/7093	H04B1/7093		648
+H04B2001/70935	12	{using a bank of matched fileters, e.g. Fast Hadamard Transform}	H04B1/7093	H04B1/7093		100
+H04B1/7095	11	Sliding correlator type	H04B1/7095	H04B1/7095		123
+H04B1/7097	10	Interference-related aspects	H04B1/7097	H04B1/7097		831
+H04B1/71	11	the interference being narrowband interference	H04B1/71	H04B1/71		196
+H04B1/7101	12	{with estimation filters}	H04B1/71	H04B1/71		97
+H04B1/7102	12	{with transform to frequency domain}	H04B1/71	H04B1/71		115
+H04B1/7103	11	the interference being multiple access interference	H04B1/7103	H04B1/7103		554
+H04B1/7105	12	Joint detection techniques, e.g. linear detectors	H04B1/7105	H04B1/7105		421
+H04B1/71052	13	{using decorrelation matrix}	H04B1/7105	H04B1/7105		134
+H04B1/71055	13	{using minimum mean squared error [MMSE] detector}	H04B1/7105	H04B1/7105		133
+H04B1/71057	13	{using maximum-likelihood sequence estimation [MLSE]}	H04B1/7105	H04B1/7105		65
+H04B1/7107	12	Subtractive interference cancellation	H04B1/7107	H04B1/7107		519
+H04B1/71072	13	{Successive interference cancellation}	H04B1/7107	H04B1/7107		213
+H04B1/71075	13	{Parallel interference cancellation}	H04B1/7107	H04B1/7107		226
+H04B2001/71077	13	{Partial interference cancellation}	H04B1/7107	H04B1/7107		45
+H04B1/711	11	the interference being multi-path interference	H04B1/711	H04B1/711		398
+H04B1/7113	12	Determination of path profile	H04B1/7113	H04B1/7113		416
+H04B1/7115	12	Constructive combining of multi-path signals, i.e. RAKE receivers	H04B1/7115	H04B1/7115		1144
+H04B1/7117	13	Selection, re-selection, allocation or re-allocation of paths to fingers, e.g. timing offset control of allocated fingers	H04B1/7117	H04B1/7117		895
+H04B1/712	13	Weighting of fingers for combining, e.g. amplitude control or phase rotation using an inner loop	H04B1/712	H04B1/712		548
+H04B1/713	9	using frequency hopping	H04B1/713	H04B1/713		2397
+H04B1/7136	10	Arrangements for generation of hop frequencies, e.g. using a bank of frequency sources, using continuous tuning or using a transform	H04B1/7136	H04B1/7136		564
+H04B2001/71362	11	{using a bank of frequency sources}	H04B1/7136	H04B1/7136		70
+H04B2001/71365	11	{using continuous tuning of a single frequency source}	H04B1/7136	H04B1/7136		84
+H04B2001/71367	11	{using a transform}	H04B1/7136	H04B1/7136		53
+H04B1/7143	10	Arrangements for generation of hop patterns	H04B1/7143	H04B1/7143		794
+H04B1/715	10	Interference-related aspects	H04B1/715	H04B1/715		1132
+H04B2001/7152	11	{with means for suppressing interference}	H04B1/715	H04B1/715		320
+H04B2001/7154	11	{with means for preventing interference}	H04B1/715	H04B1/715		514
+H04B1/7156	10	Arrangements for sequence synchronisation	H04B1/7156	H04B1/7156		674
+H04B2001/71563	11	{Acquisition}	H04B1/7156	H04B1/7156		274
+H04B2001/71566	11	{Tracking}	H04B1/7156	H04B1/7156		97
+H04B1/7163	9	using impulse radio	H04B1/7163	H04B1/7163		659
+H04B1/71632	10	{Signal aspects (H04B1/7172 and H04B1/7176 take precedence)}	H04B1/7163	H04B1/7163		327
+H04B1/71635	10	{Transmitter aspects (H04B1/7174 takes precedence)}	H04B1/7163	H04B1/7163		257
+H04B1/71637	10	{Receiver aspects (H04B1/7183 takes precedence)}	H04B1/7163	H04B1/7163		483
+H04B1/717	10	Pulse-related aspects	H04B1/717	H04B1/717		129
+H04B1/7172	11	{Pulse shape (in general H04L25/03834)}	H04B1/717	H04B1/717		159
+H04B1/7174	11	{Pulse generation (in general H04L25/03834)}	H04B1/717	H04B1/717		309
+H04B1/7176	10	Data mapping, e.g. modulation	H04B1/7176	H04B1/7176		322
+H04B1/7183	10	Synchronisation	H04B1/7183	H04B1/7183		464
+H04B1/719	10	Interference-related aspects	H04B1/719	H04B1/719		497
+H04B1/72	8	Circuits or components for simulating antennas, e.g. dummy antennas	H04B1/72	H04B1/72		17
+H04B1/74	8	for increasing reliability, e.g. using redundant or spare channels or apparatus {(replacing by standby devices for amplifiers H03F1/52, H03F1/542)}	H04B1/74	H04B1/74		1272
+H04B1/745	9	{using by-passing or self-healing methods}	H04B1/74	H04B1/74		138
+H04B1/76	8	Pilot transmitters or receivers for control of transmission or for equalising	H04B1/76	H04B1/76		183
+H04B3/00	7	Line transmission systems (combined with near-field transmission systems H04B5/00)	H04B3/00	H04B3/00		526
+H04B3/02	8	Details	H04B3/02	H04B3/02		504
+H04B3/03	9	Hybrid circuits (for transceivers H04B1/52, H04B1/58)	H04B3/03	H04B3/03		162
+H04B3/04	9	Control of transmission; Equalising	H04B3/04	H04B3/04		1088
+H04B3/06	10	by the transmitted signal	H04B3/06	H04B3/06		504
+H04B3/08	11	in negative-feedback path of line amplifier	H04B3/08	H04B3/08		121
+H04B3/10	10	by pilot signal	H04B3/10	H04B3/10		828
+H04B3/11	11	using pilot wire (H04B3/12 takes precedence)	H04B3/11	H04B3/11		45
+H04B3/12	11	in negative-feedback path of line amplifier	H04B3/12	H04B3/12		61
+H04B3/14	10	characterised by the equalising network used	H04B3/14	H04B3/14		235
+H04B3/141	11	{using multiequalisers, e.g. bump, cosine, Bode}	H04B3/14	H04B3/14		188
+H04B3/142	11	{using echo-equalisers, e.g. transversal}	H04B3/14	H04B3/14		105
+H04B3/143	11	{using amplitude-frequency equalisers}	H04B3/14	H04B3/14		115
+H04B3/144	12	{fixed equalizers}	H04B3/14	H04B3/14		112
+H04B3/145	12	{variable equalisers}	H04B3/14	H04B3/14		372
+H04B3/146	11	{using phase-frequency equalisers}	H04B3/14	H04B3/14		15
+H04B3/147	12	{fixed equalisers}	H04B3/14	H04B3/14		62
+H04B3/148	12	{variable equalisers}	H04B3/14	H04B3/14		69
+H04B3/16	10	characterised by the negative-impedance network used	H04B3/16	H04B3/16		142
+H04B3/18	11	wherein the network comprises semiconductor devices	H04B3/18	H04B3/18		137
+H04B3/20	9	Reducing echo effects or singing; Opening or closing transmitting path; Conditioning for transmission in one direction or the other	H04B3/20	H04B3/20		1139
+H04B3/21	10	using a set of bandfilters	H04B3/21	H04B3/21		126
+H04B3/23	10	using a replica of transmitted signal in the time domain, e.g. echo cancellers	H04B3/23	H04B3/23		1431
+H04B3/231	11	{Echo cancellers using readout of a memory to provide the echo replica}	H04B3/23	H04B3/23		100
+H04B3/232	11	{using phase shift, phase roll or frequency offset correction}	H04B3/23	H04B3/23		81
+H04B3/234	11	{using double talk detection}	H04B3/23	H04B3/23		195
+H04B3/235	11	{combined with adaptive equaliser}	H04B3/23	H04B3/23		120
+H04B3/237	11	{using two adaptive filters, e.g. for near end and for end echo cancelling}	H04B3/23	H04B3/23		142
+H04B3/238	11	{using initial training sequence}	H04B3/23	H04B3/23		252
+H04B3/26	9	Improving frequency characteristic by the use of loading coils	H04B3/26	H04B3/26		99
+H04B3/28	9	Reducing interference caused by currents induced in cable sheathing or armouring	H04B3/28	H04B3/28		369
+H04B3/30	9	Reducing interference caused by unbalanced currents in a normally balanced line	H04B3/30	H04B3/30		373
+H04B3/32	9	Reducing cross-talk, e.g. by compensating	H04B3/32	H04B3/32		1553
+H04B3/34	10	by systematic interconnection of lengths of cable during laying; by addition of balancing components to cable during laying	H04B3/34	H04B3/34		285
+H04B3/36	9	Repeater circuits (H04B3/58 takes precedence)	H04B3/36	H04B3/36		801
+H04B3/38	10	for signals in two different frequency ranges transmitted in opposite directions over the same transmission path	H04B3/38	H04B3/38		170
+H04B3/40	9	Artificial lines; Networks simulating a line of certain length	H04B3/40	H04B3/40		324
+H04B3/42	9	Circuits for by-passing of ringing signals	H04B3/42	H04B3/42		82
+H04B3/44	9	Arrangements for feeding power to a repeater along the transmission line	H04B3/44	H04B3/44		734
+H04B3/46	9	Monitoring; Testing	H04B3/46	H04B3/46		2774
+H04B3/462	10	Testing group delay or phase shift, e.g. timing jitter	H04B3/462	H04B3/462		212
+H04B3/466	11	Testing attenuation in combination with at least one of group delay and phase shift	H04B3/466	H04B3/466		56
+H04B3/48	10	Testing attenuation (H04B3/466 takes precedence)	H04B3/48	H04B3/48		286
+H04B3/487	10	Testing crosstalk effects	H04B3/487	H04B3/487		545
+H04B3/493	10	Testing echo effects or singing	H04B3/493	H04B3/493		104
+H04B3/50	8	Systems for transmission between fixed stations via two-conductor transmission lines (H04B3/54 takes precedence)	H04B3/50	H04B3/50		275
+H04B3/52	8	Systems for transmission between fixed stations via waveguides	H04B3/52	H04B3/52		466
+H04B3/54	8	Systems for transmission via power distribution lines	H04B3/54	H04B3/54		6023
+H04B3/542	9	{the information being in digital form}	H04B3/54	H04B3/54		2193
+H04B3/544	9	{Setting up communications; Call and signalling arrangements}	H04B3/54	H04B3/54		1252
+H04B3/546	9	{Combination of signalling, telemetering, protection (circuits for remote indication of supply or distribution network condition H02J13/00)}	H04B3/54	H04B3/54		646
+H04B3/548	9	{the power on the line being DC (arrangements for feeding power H04L12/10; extracting feeding power from signals H04L25/02)}	H04B3/54	H04B3/54		1021
+H04B3/56	9	Circuits for coupling, blocking, or by-passing of signals	H04B3/56	H04B3/56		1960
+H04B3/58	9	Repeater circuits	H04B3/58	H04B3/58		368
+H04B3/60	8	Systems for communication between relatively movable stations, e.g. for communication with lift (H04B3/54 takes precedence)	H04B3/60	H04B3/60		301
+H04B5/00	7	Near-field transmission systems, e.g. inductive or capacitive transmission systems<br><br><u>WARNING</u><br>Group H04B5/00 is impacted by reclassification into groups H04B5/40, H04B5/43 and H04B5/45.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B5/00	H04B5/00		1695
+H04B5/20	8	characterised by the transmission technique; characterised by the transmission medium<br><br><u>WARNING</u><br>Groups H04B5/20, H04B5/22, H04B5/24, H04B5/26, H04B5/263, H04B5/266 and H04B5/28 are incomplete pending reclassification of documents from group H04B5/72.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B5/20	H04B5/20		1330
+H04B5/22	9	Capacitive coupling	H04B5/22	H04B5/22		1125
+H04B5/24	9	Inductive coupling	H04B5/24	H04B5/24		2638
+H04B5/26	10	using coils	H04B5/26	H04B5/26		2789
+H04B5/263	11	{Multiple coils at either side}	H04B5/26	H04B5/26		883
+H04B5/266	11	{One coil at each side, e.g. with primary and secondary coils}	H04B5/26	H04B5/26		1762
+H04B5/28	9	using the near field of leaky cables, e.g. of leaky coaxial cables	H04B5/28	H04B5/28		459
+H04B5/40	8	characterised by components specially adapted for near-field transmission<br><br><u>WARNING</u><br>Groups H04B5/40 and H04B5/43 are incomplete pending reclassification of documents from group H04B5/00.<br>Groups H04B5/00, H04B5/40 and H04B5/43 should be considered in order to perform a complete search.	H04B5/40	H04B5/40		107
+H04B5/43	9	Antennas	H04B5/43	H04B5/43		547
+H04B5/45	9	Transponders<br><br><u>WARNING</u><br>Group H04B5/45 is incomplete pending reclassification of documents from groups H04B5/00 and H04B5/72.<br>Groups H04B5/00, H04B5/72 and H04B5/45 should be considered in order to perform a complete search.	H04B5/45	H04B5/45		1170
+H04B5/48	9	Transceivers	H04B5/48	H04B5/48		3194
+H04B5/70	8	specially adapted for specific purposes<br><br><u>WARNING</u><br>Group H04B5/70 is incomplete pending reclassification of documents from group H04B5/72.<br>Groups H04B5/72 and H04B5/70 should be considered in order to perform a complete search.	H04B5/70	H04B5/70		1532
+H04B5/72	9	for local intradevice communication<br><br><u>WARNING</u><br>Group H04B5/72 is impacted by reclassification into groups H04B5/20, H04B5/22, H04B5/24, H04B5/26, H04B5/263, H04B5/266, H04B5/28, H04B5/45 and H04B5/70.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B5/72	H04B5/72		1621
+H04B5/73	9	for taking measurements, e.g. using sensing coils	H04B5/73	H04B5/73		628
+H04B5/75	9	for isolation purposes	H04B5/75	H04B5/75		125
+H04B5/77	9	for interrogation	H04B5/77	H04B5/77		3670
+H04B5/79	9	for data transfer in combination with power transfer	H04B5/79	H04B5/79		6040
+H04B7/00	7	Radio transmission systems, i.e. using radiation field (H04B10/00, H04B15/00 take precedence)	H04B7/00	H04B7/00		1019
+H04B7/002	8	{Reducing depolarization effects}	H04B7/00	H04B7/00		184
+H04B7/005	8	Control of transmission; Equalising	H04B7/005	H04B7/005		1317
+H04B7/01	8	Reducing phase shift	H04B7/01	H04B7/01		589
+H04B7/015	8	Reducing echo effects	H04B7/015	H04B7/015		126
+H04B7/02	8	Diversity systems; Multi-antenna system, i.e. transmission or reception using multiple antennas (RAKE receivers H04B1/7115)	H04B7/02	H04B7/02		1101
+H04B7/022	9	Site diversity; Macro-diversity (using two or more spaced independent antennas H04B7/04)	H04B7/022	H04B7/022		1775
+H04B7/024	10	Co-operative use of antennas of several sites, e.g. in co-ordinated multipoint or co-operative multiple-input multiple-output [MIMO] systems	H04B7/024	H04B7/024		4859
+H04B7/026	10	Co-operative diversity, e.g. using fixed or mobile stations as relays	H04B7/026	H04B7/026		1086
+H04B7/028	9	{Spatial transmit diversity using a single antenna at the transmitter}	H04B7/02	H04B7/02		79
+H04B7/04	9	using two or more spaced independent antennas<br><br><u>WARNING</u><br>Group H04B7/04 is impacted by reclassification into groups H04B7/04013 and H04B7/04026. <br>Groups H04B7/04, H04B7/04013 and H04B7/04026 should be considered in order to perform a complete search.	H04B7/04	H04B7/04		1784
+H04B7/04013	10	{Intelligent reflective surfaces}<br><br><u>WARNING</u><br>Groups H04B7/04013 and H04B7/04026 are incomplete pending reclassification of documents from group H04B7/04. <br>Groups H04B7/04, H04B7/04013 and H04B7/04026 should be considered in order to perform a complete search.	H04B7/04	H04B7/04		1337
+H04B7/04026	11	{with codebook-based beamforming}	H04B7/04	H04B7/04		145
+H04B7/0404	10	the mobile station comprising multiple antennas, e.g. to provide uplink diversity	H04B7/0404	H04B7/0404		2941
+H04B7/0408	10	using two or more beams, i.e. beam diversity	H04B7/0408	H04B7/0408		3396
+H04B7/0413	10	MIMO systems	H04B7/0413	H04B7/0413		10906
+H04B7/0417	11	Feedback systems	H04B7/0417	H04B7/0417		3412
+H04B7/0421	12	{utilizing implicit feedback, e.g. steered pilot signals}	H04B7/0417	H04B7/04		320
+H04B7/0426	11	Power distribution	H04B7/0426	H04B7/0426		1033
+H04B7/043	12	{using best eigenmode, e.g. beam forming or beam steering}	H04B7/0426	H04B7/04		961
+H04B7/0434	12	{using multiple eigenmodes}	H04B7/0426	H04B7/04		192
+H04B7/0439	13	{utilizing channel inversion}	H04B7/0426	H04B7/04		39
+H04B7/0443	13	{utilizing "waterfilling" technique}	H04B7/0426	H04B7/04		124
+H04B7/0447	13	{utilizing uniform distribution}	H04B7/0426	H04B7/04		51
+H04B7/0452	11	Multi-user MIMO systems	H04B7/0452	H04B7/0452		4675
+H04B7/0456	11	Selection of precoding matrices or codebooks, e.g. using matrices antenna weighting	H04B7/0456	H04B7/0456		7491
+H04B7/046	12	{taking physical layer constraints into account}	H04B7/0456	H04B7/04		233
+H04B7/0465	13	{taking power constraints at power amplifier or emission constraints, e.g. constant modulus, into account}	H04B7/0456	H04B7/04		464
+H04B7/0469	13	{taking special antenna structures, e.g. cross polarized antennas into account}	H04B7/0456	H04B7/04		846
+H04B7/0473	13	{taking constraints in layer or codeword to antenna mapping into account}	H04B7/0456	H04B7/04		373
+H04B7/0478	12	{Special codebook structures directed to feedback optimisation}<br><br><u>WARNING</u><br>Group H04B7/0478 is impacted by reclassification into groups H04B7/0479, H04B7/048 and H04B7/0481. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B7/0456	H04B7/04		1228
+H04B7/0479	13	{for multi-dimensional arrays, e.g. horizontal or vertical pre-distortion matrix index [PMI]}<br><br><u>WARNING</u><br>Group H04B7/0479 is incomplete pending reclassification of documents from group H04B7/0478.<br>Groups H04B7/0478 and H04B7/0479 should be considered in order to perform a complete search.	H04B7/0456	H04B7/04		360
+H04B7/048	13	{using three or more PMIs}<br><br><u>WARNING</u><br>Group H04B7/048 is incomplete pending reclassification of documents from group H04B7/0478. <br>Groups H04B7/0478 and H04B7/048 should be considered in order to perform a complete search.	H04B7/0456	H04B7/04		105
+H04B7/0481	13	{using subset selection of codebooks}<br><br><u>WARNING</u><br>Group H04B7/0481 is incomplete pending reclassification of documents from group H04B7/0478. <br>Groups H04B7/0478 and H04B7/0481 should be considered in order to perform a complete search.	H04B7/0456	H04B7/04		346
+H04B7/0482	12	{Adaptive codebooks}	H04B7/0456	H04B7/04		426
+H04B7/0486	12	{taking channel rank into account}<br><br><u>WARNING</u><br>Group H04B7/0486 is impacted by reclassification into group H04B7/0487. <br>Groups H04B7/0486 and H04B7/0487 should be considered in order to perform a complete search.	H04B7/0456	H04B7/04		939
+H04B7/0487	13	{Codebooks having a nested structure}<br><br><u>WARNING</u><br>Group H04B7/0487 is incomplete pending reclassification of documents from group H04B7/0486. <br>Groups H04B7/0486 and H04B7/0487 should be considered in order to perform a complete search.	H04B7/0456	H04B7/04		32
+H04B7/0491	10	using two or more sectors, i.e. sector diversity	H04B7/0491	H04B7/0491		470
+H04B7/0495	11	using overlapping sectors in the same base station to implement MIMO for antennas	H04B7/0495	H04B7/0495		61
+H04B7/06	10	at the transmitting station	H04B7/06	H04B7/06		3342
+H04B7/0602	11	{using antenna switching (H04B7/0686 takes precedence; antenna beam directivity switching H01Q3/24)}	H04B7/06	H04B7/06		1182
+H04B7/0604	12	{with predefined switching scheme}	H04B7/06	H04B7/06		450
+H04B7/0606	13	{Random or pseudo-random switching scheme}	H04B7/06	H04B7/06		41
+H04B7/0608	12	{Antenna selection according to transmission parameters}	H04B7/06	H04B7/06		1369
+H04B7/061	13	{using feedback from receiving side}	H04B7/06	H04B7/06		655
+H04B7/0613	11	{using simultaneous transmission (H04B7/0686 takes precedence)}	H04B7/06	H04B7/06		554
+H04B7/0615	12	{of weighted versions of same signal}	H04B7/06	H04B7/06		571
+H04B7/0617	13	{for beam forming}	H04B7/06	H04B7/06		13111
+H04B7/0619	13	{using feedback from receiving side (feedback signaling for adaptive modulation/coding H04L1/0001)}	H04B7/06	H04B7/06		1265
+H04B7/0621	14	{Feedback content}	H04B7/06	H04B7/06		320
+H04B7/0623	15	{Auxiliary parameters, e.g. power control [PCB] or not acknowledged commands [NACK], used as feedback information}	H04B7/06	H04B7/06		481
+H04B7/0626	15	{Channel coefficients, e.g. channel state information [CSI]}	H04B7/06	H04B7/06		7938
+H04B7/0628	15	{Diversity capabilities}	H04B7/06	H04B7/06		759
+H04B7/063	15	{Parameters other than those covered in groups H04B7/0623 - H04B7/0634, e.g. channel matrix rank or transmit mode selection}	H04B7/06	H04B7/06		2731
+H04B7/0632	15	{Channel quality parameters, e.g. channel quality indicator [CQI]}	H04B7/06	H04B7/06		3456
+H04B7/0634	15	{Antenna weights or vector/matrix coefficients}	H04B7/06	H04B7/06		1587
+H04B7/0636	14	{Feedback format}	H04B7/06	H04B7/06		224
+H04B7/0639	15	{Using selective indices, e.g. of a codebook, e.g. pre-distortion matrix index [PMI] or for beam selection}	H04B7/06	H04B7/06		4049
+H04B7/0641	15	{Differential feedback}	H04B7/06	H04B7/06		212
+H04B7/0643	15	{Feedback on request}	H04B7/06	H04B7/06		145
+H04B7/0645	15	{Variable feedback}	H04B7/06	H04B7/06		259
+H04B7/0647	16	{Variable feedback rate}	H04B7/06	H04B7/06		153
+H04B7/065	16	{Variable contents, e.g. long-term or short-short}	H04B7/06	H04B7/06		392
+H04B7/0652	14	{Feedback error handling}	H04B7/06	H04B7/06		52
+H04B7/0654	15	{at the receiver, e.g. antenna verification at mobile station}	H04B7/06	H04B7/06		69
+H04B7/0656	15	{at the transmitter, e.g. error detection at base station}	H04B7/06	H04B7/06		67
+H04B7/0658	14	{Feedback reduction}	H04B7/06	H04B7/06		590
+H04B7/066	15	{Combined feedback for a number of channels, e.g. over several subcarriers like in orthogonal frequency division multiplexing [OFDM]}	H04B7/06	H04B7/06		345
+H04B7/0663	15	{using vector or matrix manipulations}	H04B7/06	H04B7/06		386
+H04B7/0665	13	{Feed forward of transmit weights to the receiver}	H04B7/06	H04B7/06		247
+H04B7/0667	12	{of delayed versions of same signal (using space-time coding H04L1/0618)}	H04B7/06	H04B7/06		232
+H04B7/0669	13	{using different channel coding between antennas (space-time coding H04L1/0618)}	H04B7/06	H04B7/06		748
+H04B7/0671	13	{using different delays between antennas}	H04B7/06	H04B7/06		642
+H04B7/0673	13	{using feedback from receiving side}	H04B7/06	H04B7/06		98
+H04B7/0676	13	{using random or pseudo-random delays}	H04B7/06	H04B7/06		18
+H04B7/0678	12	{using different spreading codes between antennas (code allocation H04J13/16)}	H04B7/06	H04B7/06		171
+H04B7/068	12	{using space frequency diversity (space-frequency coding H04L1/0606)}	H04B7/06	H04B7/06		398
+H04B7/0682	12	{using phase diversity (e.g. phase sweeping)}	H04B7/06	H04B7/06		461
+H04B7/0684	12	{using different training sequences per antenna}	H04B7/06	H04B7/06		327
+H04B7/0686	11	{Hybrid systems, i.e. switching and simultaneous transmission}	H04B7/06	H04B7/06		286
+H04B7/0689	12	{using different transmission schemes, at least one of them being a diversity transmission scheme}	H04B7/06	H04B7/06		1176
+H04B7/0691	12	{using subgroups of transmit antennas}	H04B7/06	H04B7/06		1909
+H04B7/0693	13	{switching off a diversity branch, e.g. to save power}	H04B7/06	H04B7/06		172
+H04B7/0695	12	{using beam selection}<br><br><u>WARNING</u><br>Group H04B7/0695 is impacted by reclassification into groups H04B7/06952, H04B7/06954, H04B7/06956, H04B7/06958, H04B7/0696, H04B7/06962, H04B7/06964, H04B7/06966 and H04B7/06968. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B7/06	H04B7/06		7978
+H04B7/06952	13	{Selecting one or more beams from a plurality of beams, e.g. beam training, management or sweeping}<br><br><u>WARNING</u><br>Groups H04B7/06952, H04B7/06954, H04B7/06956, H04B7/06958, H04B7/0696, H04B7/06962, H04B7/06964, H04B7/06966 and H04B7/06968 are incomplete pending reclassification of documents from group H04B7/0695. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B7/06	H04B7/06		3476
+H04B7/06954	14	{Sidelink beam training with support from third instance, e.g. the third instance being a base station}	H04B7/06	H04B7/06		278
+H04B7/06956	14	{using a selection of antenna panels}	H04B7/06	H04B7/06		562
+H04B7/06958	14	{Multistage beam selection, e.g. beam refinement}	H04B7/06	H04B7/06		310
+H04B7/0696	14	{Determining beam pairs}	H04B7/06	H04B7/06		513
+H04B7/06962	15	{Simultaneous selection of transmit [Tx] and receive [Rx] beams at both sides of a link}	H04B7/06	H04B7/06		49
+H04B7/06964	14	{Re-selection of one or more beams after beam failure}	H04B7/06	H04B7/06		1274
+H04B7/06966	14	{using beam correspondence; using channel reciprocity, e.g. downlink beam training based on uplink sounding reference signal [SRS]}	H04B7/06	H04B7/06		458
+H04B7/06968	14	{using quasi-colocation [QCL] between signals}	H04B7/06	H04B7/06		833
+H04B7/0697	11	{using spatial multiplexing}	H04B7/06	H04B7/06		1429
+H04B7/08	10	at the receiving station	H04B7/08	H04B7/08		1906
+H04B7/0802	11	{using antenna selection (H04B7/0868 takes precedence; antenna beam directivity switching H01Q3/24)}	H04B7/08	H04B7/08		920
+H04B7/0805	12	{with single receiver and antenna switching (H04B7/0822 takes precedence)}	H04B7/08	H04B7/08		470
+H04B7/0808	13	{comparing all antennas before reception}	H04B7/08	H04B7/08		291
+H04B7/0811	14	{during preamble or gap period}	H04B7/08	H04B7/08		175
+H04B7/0814	13	{based on current reception conditions, e.g. switching to different antenna when signal level is below threshold}	H04B7/08	H04B7/08		817
+H04B7/0817	12	{with multiple receivers and antenna path selection}	H04B7/08	H04B7/08		389
+H04B7/082	13	{selecting best antenna path}	H04B7/08	H04B7/08		530
+H04B7/0822	12	{according to predefined selection scheme}	H04B7/08	H04B7/08		214
+H04B7/0825	12	{with main and with auxiliary or diversity antennas}	H04B7/08	H04B7/08		271
+H04B7/0828	12	{with delay elements in antenna paths}	H04B7/08	H04B7/08		70
+H04B7/0831	12	{Compensation of the diversity switching process for non-uniform properties or faulty operations of the switches used in the diversity switching process}	H04B7/08	H04B7/08		98
+H04B7/0834	12	{based on external parameters, e.g. subscriber speed or location}	H04B7/08	H04B7/08		202
+H04B7/0837	11	{using pre-detection combining (H04B7/0868 takes precedence)}	H04B7/08	H04B7/08		534
+H04B7/084	12	{Equal gain combining, only phase adjustments (antenna beam scanning or forming by phase or amplitude control H01Q3/26, e.g. phased arrays)}	H04B7/08	H04B7/08		657
+H04B7/0842	12	{Weighted combining}	H04B7/08	H04B7/08		441
+H04B7/0845	13	{per branch equalization, e.g. by an FIR-filter or RAKE receiver per antenna branch (rake receivers as such H04B1/7115)}	H04B7/08	H04B7/08		333
+H04B7/0848	13	{Joint weighting}	H04B7/08	H04B7/08		574
+H04B7/0851	14	{using training sequences or error signal (minimizing error signal H04B7/0854)}	H04B7/08	H04B7/08		352
+H04B7/0854	14	{using error minimizing algorithms, e.g. minimum mean squared error [MMSE], "cross-correlation" or matrix inversion}	H04B7/08	H04B7/08		1110
+H04B7/0857	14	{using maximum ratio combining techniques, e.g. signal-to- interference ratio [SIR], received signal strenght indication [RSS]}	H04B7/08	H04B7/08		1003
+H04B7/086	13	{using weights depending on external parameters, e.g. direction of arrival [DOA], predetermined weights or beamforming}	H04B7/08	H04B7/08		3267
+H04B7/0862	13	{receiver computing weights based on information from the transmitter}	H04B7/08	H04B7/08		100
+H04B7/0865	13	{Independent weighting, i.e. weights based on own antenna reception parameters}	H04B7/08	H04B7/08		208
+H04B7/0868	11	{Hybrid systems, i.e. switching and combining}	H04B7/08	H04B7/08		199
+H04B7/0871	12	{using different reception schemes, at least one of them being a diversity reception scheme}	H04B7/08	H04B7/08		511
+H04B7/0874	12	{using subgroups of receive antennas}	H04B7/08	H04B7/08		832
+H04B7/0877	13	{switching off a diversity branch, e.g. to save power}	H04B7/08	H04B7/08		205
+H04B7/088	12	{using beam selection}	H04B7/08	H04B7/08		4686
+H04B7/0882	11	{using post-detection diversity}	H04B7/08	H04B7/08		49
+H04B7/0885	12	{with combination}	H04B7/08	H04B7/08		139
+H04B7/0888	12	{with selection}	H04B7/08	H04B7/08		115
+H04B7/0891	11	{Space-time diversity (rake receivers H04B1/7115; space-time decoding H04L1/0631)}	H04B7/08	H04B7/08		261
+H04B7/0894	12	{using different delays between antennas}	H04B7/08	H04B7/08		252
+H04B7/0897	12	{using beamforming per multi-path, e.g. to cope with different directions of arrival [DOA] at different multi-paths}	H04B7/08	H04B7/08		261
+H04B7/10	9	Polarisation diversity; Directional diversity	H04B7/10	H04B7/10		2395
+H04B7/12	9	Frequency diversity	H04B7/12	H04B7/12		987
+H04B7/14	8	Relay systems	H04B7/14	H04B7/14		1256
+H04B7/145	9	Passive relay systems	H04B7/145	H04B7/145		694
+H04B7/15	9	Active relay systems	H04B7/15	H04B7/15		884
+H04B7/155	10	Ground-based stations (H04B7/204 takes precedence)	H04B7/155	H04B7/155		3948
+H04B7/15507	11	{Relay station based processing for cell extension or control of coverage area, (network planning with network coordinated processing with regard to cell extension H04W16/26; network topologies using dedicated repeater stations H04W84/047; terminal devices adapted for relaying to or from an other terminal H04W88/04)}	H04B7/155	H04B7/155		1833
+H04B7/15514	12	{for shadowing compensation (for satellite mobile telephony service systems H04B7/18536)}	H04B7/155	H04B7/155		210
+H04B7/15521	11	{combining by calculations packets received from different stations before transmitting the combined packets as part of network coding (network coding aspects for detection or prevention of errors in the information received H04L1/0076; network traffic management with optimizing of information sizing, e.g. header compression, by using assembly and disassembly of packets H04W28/065)}	H04B7/155	H04B7/155		267
+H04B7/15528	11	{Control of operation parameters of a relay station to exploit the physical medium}	H04B7/155	H04B7/155		1764
+H04B7/15535	12	{Control of relay amplifier gain (amplifier gain control in general H03G3/00; gain control reducing self - or loop interference H04B7/15578)}	H04B7/155	H04B7/155		977
+H04B7/15542	12	{Selecting at relay station its transmit and receive resources (selection of wireless resources by user or terminal H04W72/02; arrangements affording multiple use of the transmission path by two-dimensional division of the resources H04L5/0003, or by allocating sub-channels H04L5/003)}	H04B7/155	H04B7/155		1533
+H04B7/1555	12	{Selecting relay station antenna mode, e.g. selecting omnidirectional -, directional beams, selecting polarizations}	H04B7/155	H04B7/155		375
+H04B7/15557	11	{Selecting relay station operation mode, e.g. between amplify and forward mode, decode and forward mode or FDD - and TDD mode}	H04B7/155	H04B7/155		575
+H04B7/15564	11	{Relay station antennae loop interference reduction}	H04B7/155	H04B7/155		228
+H04B7/15571	12	{by signal isolation, e.g. isolation by frequency or by antenna pattern, or by polarization}	H04B7/155	H04B7/155		173
+H04B7/15578	12	{by gain adjustment}	H04B7/155	H04B7/155		204
+H04B7/15585	12	{by interference cancellation}	H04B7/155	H04B7/155		579
+H04B7/15592	11	{Adapting at the relay station communication parameters for supporting cooperative relaying, i.e. transmission of the same data via direct - and relayed path (cooperative diversity H04B7/024)}	H04B7/155	H04B7/155		531
+H04B7/165	11	employing angle modulation	H04B7/165	H04B7/165		117
+H04B7/17	11	employing pulse modulation, e.g. pulse code modulation	H04B7/17	H04B7/17		96
+H04B7/185	10	Space-based or airborne stations; {Stations for satellite systems}(H04B7/204 takes precedence)	H04B7/185	H04B7/185		1590
+H04B7/18502	11	{Airborne stations}	H04B7/185	H04B7/185		605
+H04B7/18504	12	{Aircraft used as relay or high altitude atmospheric platform}	H04B7/185	H04B7/185		1829
+H04B7/18506	12	{Communications with or from aircraft, i.e. aeronautical mobile service}	H04B7/185	H04B7/185		3601
+H04B7/18508	13	{with satellite system used as relay, i.e. aeronautical mobile satellite service}	H04B7/185	H04B7/185		855
+H04B7/1851	11	{Systems using a satellite or space-based relay (H04B7/18508, H04B7/18521 take precedence; providing specific services H04B7/18523&#160;-&#160;H04B7/18576)}	H04B7/185	H04B7/185		3128
+H04B7/18513	12	{Transmission in a satellite or space-based system}	H04B7/185	H04B7/185		6129
+H04B7/18515	12	{Transmission equipment in satellites or space-based relays}	H04B7/185	H04B7/185		1575
+H04B7/18517	12	{Transmission equipment in earth stations}	H04B7/185	H04B7/185		1822
+H04B7/18519	12	{Operations control, administration or maintenance}	H04B7/185	H04B7/185		4798
+H04B7/18521	11	{Systems of inter linked satellites, i.e. inter satellite service (for optical links between satellites H04B10/118)}	H04B7/185	H04B7/185		1333
+H04B7/18523	11	{Satellite systems for providing broadcast service to terrestrial stations, i.e. broadcast satellite service (arrangements specially adapted for satellite broadcast receiving H04H40/90; picture transmission via satellite H04N1/00103; television transmission via satellite H04N7/20)}	H04B7/185	H04B7/185		587
+H04B7/18526	12	{Arrangements for data linking, networking or transporting, or for controlling an end to end session (data switching networks H04L12/00)}	H04B7/185	H04B7/185		194
+H04B7/18528	11	{Satellite systems for providing two-way communications service to a network of fixed stations, i.e. fixed satellite service or very small aperture terminal [VSAT] system}	H04B7/185	H04B7/185		377
+H04B7/1853	11	{Satellite systems for providing telephony service to a mobile station, i.e. mobile satellite service (for selecting H04W)}	H04B7/185	H04B7/185		477
+H04B7/18532	12	{Arrangements for managing transmission, i.e. for transporting data or a signalling message}	H04B7/185	H04B7/185		490
+H04B7/18534	13	{for enhancing link reliablility, e.g. satellites diversity}	H04B7/185	H04B7/185		241
+H04B7/18536	13	{Shadowing compensation therefor, e.g. by using an additional terrestrial relay}	H04B7/185	H04B7/185		63
+H04B7/18539	12	{Arrangements for managing radio, resources, i.e. for establishing or releasing a connection}	H04B7/185	H04B7/185		748
+H04B7/18541	13	{for handover of resources}	H04B7/185	H04B7/185		629
+H04B7/18543	13	{for adaptation of transmission parameters, e.g. power control (for detecting or preventing errors in the information received H04L1/00)}	H04B7/185	H04B7/185		482
+H04B7/18545	12	{Arrangements for managing station mobility, i.e. for station registration or localisation}	H04B7/185	H04B7/185		229
+H04B7/18547	13	{for geolocalisation of a station (position fixing by direction or distance determination G01S5/00)}	H04B7/185	H04B7/185		265
+H04B7/1855	14	{using a telephonic control signal, e.g. propagation delay variation, Doppler frequency variation, power variation, beam identification}	H04B7/185	H04B7/185		203
+H04B7/18552	15	{using a telephonic control signal and a second ranging satellite (determining absolute distances from a plurality of spaced points of known location G01S5/14)}	H04B7/185	H04B7/185		58
+H04B7/18554	14	{using the position provided by an existing geolocalisation system}	H04B7/185	H04B7/185		79
+H04B7/18556	13	{using a location database}	H04B7/185	H04B7/185		55
+H04B7/18558	12	{Arrangements for managing communications, i.e. for setting up, maintaining or releasing a call between stations}	H04B7/185	H04B7/185		349
+H04B7/1856	13	{for call routing}	H04B7/185	H04B7/185		112
+H04B7/18563	12	{Arrangements for interconnecting multiple systems (data switching networks H04L12/00)}	H04B7/185	H04B7/185		512
+H04B7/18565	12	{Arrangements for preventing unauthorised access or for providing user protection (arrangements for secret or secure communication H04L9/00)}	H04B7/185	H04B7/185		137
+H04B7/18567	12	{Arrangements for providing additional services to the basic mobile satellite telephony service}	H04B7/185	H04B7/185		238
+H04B7/18569	12	{Arrangements for system physical machines management, i.e. for construction operations control, administration, maintenance}	H04B7/185	H04B7/185		61
+H04B7/18571	13	{for satellites; for fixed or mobile stations}	H04B7/185	H04B7/185		151
+H04B7/18573	13	{for operations control, administration or maintenance}	H04B7/185	H04B7/185		128
+H04B7/18576	11	{Satellite systems for providing narrowband data service to fixed or mobile stations, e.g. using a minisatellite, a microsatellite (for selecting H04W)}	H04B7/185	H04B7/185		105
+H04B7/18578	11	{Satellite systems for providing broadband data service to individual earth stations (for selecting H04W; provisions for broadband connection, H04Q11/0478)}	H04B7/185	H04B7/185		416
+H04B7/1858	12	{Arrangements for data transmission on the physical system, i.e. for data bit transmission between network components}	H04B7/185	H04B7/185		205
+H04B7/18582	12	{Arrangements for data linking, i.e. for data framing, for error recovery, for multiple access}	H04B7/185	H04B7/185		529
+H04B7/18584	12	{Arrangements for data networking, i.e. for data packet routing, for congestion control (data switching networks H04L12/00)}	H04B7/185	H04B7/185		578
+H04B7/18586	12	{Arrangements for data transporting, e.g. for an end to end data transport or check}	H04B7/185	H04B7/185		229
+H04B7/18589	12	{Arrangements for controlling an end to end session, i.e. for initialising, synchronising or terminating an end to end link}	H04B7/185	H04B7/185		162
+H04B7/18591	12	{Arrangements for interconnecting multiple systems (data switching networks H04L12/00)}	H04B7/185	H04B7/185		85
+H04B7/18593	12	{Arrangements for preventing unauthorised access or for providing user protection (arrangements for secret or secure communication H04L9/00)}	H04B7/185	H04B7/185		154
+H04B7/18595	12	{Arrangements for adapting broadband applications to satellite systems}	H04B7/185	H04B7/185		107
+H04B7/18597	12	{Arrangements for system physical machines management, i.e. for construction, operations control, administration, maintenance}	H04B7/185	H04B7/185		166
+H04B7/19	11	Earth-synchronous stations	H04B7/19	H04B7/19		264
+H04B7/195	11	Non-synchronous stations	H04B7/195	H04B7/195		457
+H04B7/204	10	Multiple access	H04B7/204	H04B7/204		162
+H04B7/2041	11	{Spot beam multiple access}	H04B7/204	H04B7/204		829
+H04B7/2043	11	{Mixed mode, TDM and FDM systems}	H04B7/204	H04B7/204		74
+H04B7/2045	11	{SS-FDMA, FDMA satellite switching}	H04B7/204	H04B7/204		42
+H04B7/2046	11	{SS-TDMA, TDMA satellite switching}	H04B7/204	H04B7/204		70
+H04B7/2048	12	{Frame structure, synchronisation or frame acquisition in SS-TDMA systems}	H04B7/204	H04B7/204		38
+H04B7/208	11	Frequency-division multiple access {[FDMA]}	H04B7/208	H04B7/208		200
+H04B7/212	11	Time-division multiple access {[TDMA]}	H04B7/212	H04B7/212		484
+H04B7/2121	12	{Channels assignment to the different stations}	H04B7/212	H04B7/212		30
+H04B7/2123	13	{Variable assignment, e.g. demand assignment}	H04B7/212	H04B7/212		115
+H04B7/2125	12	{Synchronisation}	H04B7/212	H04B7/212		377
+H04B7/2126	13	{using a reference station}	H04B7/212	H04B7/212		94
+H04B7/2128	14	{Changing of the reference station}	H04B7/212	H04B7/212		18
+H04B7/216	11	Code division or spread-spectrum multiple access {[CDMA, SSMA]}	H04B7/216	H04B7/216		656
+H04B7/22	8	Scatter propagation systems {, e.g. ionospheric, tropospheric or meteor scatter}	H04B7/22	H04B7/22		611
+H04B7/24	8	for communication between two or more posts (wireless communication networks H04W)	H04B7/24	H04B7/24		1500
+H04B7/26	9	at least one of which is mobile	H04B7/26	H04B7/26		3115
+H04B7/2603	10	{Arrangements for wireless physical layer control (H04B7/2612 takes precedence)}	H04B7/26	H04B7/26		369
+H04B7/2606	11	{Arrangements for base station coverage control, e.g. by using relays in tunnels}	H04B7/26	H04B7/26		2472
+H04B7/2609	11	{Arrangements for range control, e.g. by using remote antennas}	H04B7/26	H04B7/26		195
+H04B7/2612	10	{Arrangements for wireless medium access control, e.g. by allocating physical layer transmission capacity (H04B7/2615&#160;-&#160;H04B7/2643 take precedence; provision for broadband connection H04Q11/0478)}	H04B7/26	H04B7/26		752
+H04B7/2615	10	{using hybrid frequency-time division multiple access [FDMA-TDMA]}	H04B7/26	H04B7/26		255
+H04B7/2618	10	{using hybrid code-time division multiple access [CDMA-TDMA]}	H04B7/26	H04B7/26		262
+H04B7/2621	10	{using frequency division multiple access [FDMA] (H04B7/2615 takes precedence)}	H04B7/26	H04B7/26		557
+H04B7/2625	10	{using common wave}	H04B7/26	H04B7/26		69
+H04B7/2628	10	{using code-division multiple access [CDMA] or spread spectrum multiple access [SSMA] (H04B7/2618 takes precedence)}	H04B7/26	H04B7/26		1185
+H04B7/2631	11	{for broadband transmission}	H04B7/26	H04B7/26		129
+H04B7/2634	11	{for channel frequency control}	H04B7/26	H04B7/26		81
+H04B7/2637	11	{for logical channel control}	H04B7/26	H04B7/26		146
+H04B7/264	11	{for data rate control}	H04B7/26	H04B7/26		229
+H04B7/2643	10	{using time-division multiple access [TDMA] (H04B7/2615, H04B7/2618 take precedence)}	H04B7/26	H04B7/26		913
+H04B7/2646	11	{for broadband transmission}	H04B7/26	H04B7/26		49
+H04B7/265	11	{for channel frequency control}	H04B7/26	H04B7/26		53
+H04B7/2653	11	{for logical channel control}	H04B7/26	H04B7/26		49
+H04B7/2656	11	{for structure of frame, burst}	H04B7/26	H04B7/26		1077
+H04B7/2659	11	{for data rate control}	H04B7/26	H04B7/26		113
+H04B7/2662	10	{Arrangements for Wireless System Synchronisation}	H04B7/26	H04B7/26		144
+H04B7/2665	11	{Arrangements for Wireless Frequency Division Multiple Access [FDMA] System Synchronisation}	H04B7/26	H04B7/26		16
+H04B7/2668	11	{Arrangements for Wireless Code-Division Multiple Access [CDMA] System Synchronisation, (for code acquisition H04B1/7075, for code tracking H04B1/7085)}	H04B7/26	H04B7/26		176
+H04B7/2671	11	{Arrangements for Wireless Time-Division Multiple Access [TDMA] System Synchronisation}	H04B7/26	H04B7/26		50
+H04B7/2675	12	{Frequency synchronisation}	H04B7/26	H04B7/26		57
+H04B7/2678	12	{Time synchronisation}	H04B7/26	H04B7/26		111
+H04B7/2681	13	{Synchronisation of a mobile station with one base station}	H04B7/26	H04B7/26		213
+H04B7/2684	13	{Synchronisation of a mobile station with more than one base station}	H04B7/26	H04B7/26		74
+H04B7/2687	13	{Inter base stations synchronisation}	H04B7/26	H04B7/26		229
+H04B7/269	14	{Master/slave synchronisation}	H04B7/26	H04B7/26		105
+H04B7/2693	14	{Centralised synchronisation, i.e. using external universal time reference, e.g. by using a global positioning system [GPS] or by distributing time reference over the wireline network}	H04B7/26	H04B7/26		143
+H04B7/2696	14	{Over the air autonomous synchronisation, e.g. by monitoring network activity (H04B7/2693 takes precedence)}	H04B7/26	H04B7/26		68
+H04B10/00	7	Transmission systems employing electromagnetic waves other than radio-waves, e.g. infrared, visible or ultraviolet light, or employing corpuscular radiation, e.g. quantum communication<br><br><u>NOTE</u><br><br> In this group, non-optical transmission systems are classified in group H04B10/90.	H04B10/00	H04B10/00		1272
+H04B10/03	8	Arrangements for fault recovery	H04B10/03	H04B10/03		542
+H04B10/032	9	using working and protection systems {(H04J14/0287 takes precedence)}	H04B10/032	H04B10/032		1423
+H04B10/035	9	using loopbacks	H04B10/035	H04B10/035		141
+H04B10/038	9	using bypasses	H04B10/038	H04B10/038		500
+H04B10/07	8	Arrangements for monitoring or testing transmission systems; Arrangements for fault measurement of transmission systems	H04B10/07	H04B10/07		1728
+H04B10/071	9	using a reflected signal, e.g. using optical time domain reflectometers [OTDR]	H04B10/071	H04B10/071		2122
+H04B10/073	9	using an out-of-service signal (H04B10/071 takes precedence)	H04B10/073	H04B10/073		311
+H04B10/0731	10	{Testing or characterisation of optical devices, e.g. amplifiers}	H04B10/073	H04B10/073		497
+H04B10/075	9	using an in-service signal (H04B10/071 takes precedence)	H04B10/075	H04B10/075		328
+H04B10/077	10	using a supervisory or additional signal	H04B10/077	H04B10/077		1072
+H04B10/0771	11	{Fault location on the transmission path}	H04B10/077	H04B10/077		601
+H04B10/0773	11	{Network aspects, e.g. central monitoring of transmission parameters}	H04B10/077	H04B10/077		397
+H04B10/0775	11	{Performance monitoring and measurement of transmission parameters}	H04B10/077	H04B10/077		967
+H04B10/0777	11	{Monitoring line amplifier or line repeater equipment}	H04B10/077	H04B10/077		260
+H04B10/0779	11	{Monitoring line transmitter or line receiver equipment}	H04B10/077	H04B10/077		220
+H04B10/079	10	using measurements of the data signal	H04B10/079	H04B10/079		909
+H04B10/0791	11	{Fault location on the transmission path}	H04B10/079	H04B10/079		1002
+H04B10/0793	11	{Network aspects, e.g. central monitoring of transmission parameters}	H04B10/079	H04B10/079		675
+H04B10/0795	11	{Performance monitoring; Measurement of transmission parameters}	H04B10/079	H04B10/079		2278
+H04B10/07951	12	{Monitoring or measuring chromatic dispersion or PMD}	H04B10/079	H04B10/079		287
+H04B10/07953	12	{Monitoring or measuring OSNR, BER or Q}	H04B10/079	H04B10/079		1168
+H04B10/07955	12	{Monitoring or measuring power}	H04B10/079	H04B10/079		2368
+H04B10/07957	12	{Monitoring or measuring wavelength}	H04B10/079	H04B10/079		445
+H04B10/0797	11	{Monitoring line amplifier or line repeater equipment}	H04B10/079	H04B10/079		188
+H04B10/0799	11	{Monitoring line transmitter or line receiver equipment}	H04B10/079	H04B10/079		500
+H04B10/11	8	Arrangements specific to free-space transmission, i.e. transmission through air or vacuum	H04B10/11	H04B10/11		2301
+H04B10/112	9	Line-of-sight transmission over an extended range	H04B10/112	H04B10/112		674
+H04B10/1121	10	{One-way transmission}	H04B10/112	H04B10/112		431
+H04B10/1123	10	{Bidirectional transmission}	H04B10/112	H04B10/112		461
+H04B10/1125	11	{using a single common optical path}	H04B10/112	H04B10/112		360
+H04B10/1127	11	{using two distinct parallel optical paths}	H04B10/112	H04B10/112		153
+H04B10/1129	10	{Arrangements for outdoor wireless networking of information}	H04B10/112	H04B10/112		261
+H04B10/114	9	Indoor or close-range type systems	H04B10/114	H04B10/114		1091
+H04B10/1141	10	{One-way transmission}	H04B10/114	H04B10/114		649
+H04B10/1143	10	{Bidirectional transmission}	H04B10/114	H04B10/114		1044
+H04B10/1149	10	{Arrangements for indoor wireless networking of information}	H04B10/114	H04B10/114		1074
+H04B10/116	10	Visible light communication	H04B10/116	H04B10/116		5181
+H04B10/118	9	specially adapted for satellite communication	H04B10/118	H04B10/118		1121
+H04B10/25	8	Arrangements specific to fibre transmission	H04B10/25	H04B10/25		4106
+H04B10/2507	9	for the reduction or elimination of distortion or dispersion	H04B10/2507	H04B10/2507		1163
+H04B10/25073	10	{using spectral equalisation, e.g. spectral filtering}	H04B10/2507	H04B10/2507		228
+H04B10/25077	10	{using soliton propagation}	H04B10/2507	H04B10/2507		154
+H04B10/2513	10	due to chromatic dispersion	H04B10/2513	H04B10/2513		542
+H04B10/25133	11	{including a lumped electrical or optical dispersion compensator (H04B10/2519, H04B10/2525 takes precedence)}	H04B10/2513	H04B10/2513		567
+H04B10/25137	11	{using pulse shaping at the transmitter, e.g. pre-chirping or dispersion supported transmission [DST]}	H04B10/2513	H04B10/2513		293
+H04B10/2519	11	using Bragg gratings	H04B10/2519	H04B10/2519		220
+H04B10/2525	11	using dispersion-compensating fibres	H04B10/2525	H04B10/2525		403
+H04B10/25253	12	{with dispersion management, i.e. using a combination of different kind of fibres in the transmission system}	H04B10/2525	H04B10/2525		221
+H04B10/2531	11	using spectral inversion	H04B10/2531	H04B10/2531		54
+H04B10/2537	10	due to scattering processes, e.g. Raman or Brillouin scattering	H04B10/2537	H04B10/2537		341
+H04B10/2543	10	due to fibre non-linearities, e.g. Kerr effect	H04B10/2543	H04B10/2543		311
+H04B10/255	11	Self-phase modulation [SPM]	H04B10/255	H04B10/255		55
+H04B10/2557	11	Cross-phase modulation [XPM]	H04B10/2557	H04B10/2557		81
+H04B10/2563	11	Four-wave mixing [FWM]	H04B10/2563	H04B10/2563		115
+H04B10/2569	10	due to polarisation mode dispersion [PMD]	H04B10/2569	H04B10/2569		521
+H04B10/2572	10	{due to forms of polarisation-dependent distortion other than PMD}	H04B10/2507	H04B10/25		313
+H04B10/2575	9	Radio-over-fibre, e.g. radio frequency signal modulated onto an optical carrier	H04B10/2575	H04B10/2575		1365
+H04B10/25751	10	{Optical arrangements for CATV or video distribution (adaptations of television systems for optical transmission H04N7/22)}	H04B10/2575	H04B10/2575		335
+H04B10/25752	10	{Optical arrangements for wireless networks}	H04B10/2575	H04B10/2575		669
+H04B10/25753	11	{Distribution optical network, e.g. between a base station and a plurality of remote units}	H04B10/2575	H04B10/2575		569
+H04B10/25754	12	{Star network topology}	H04B10/2575	H04B10/2575		387
+H04B10/25755	12	{Ring network topology}	H04B10/2575	H04B10/2575		99
+H04B10/25756	12	{Bus network topology}	H04B10/2575	H04B10/2575		59
+H04B10/25758	11	{between a central unit and a single remote unit by means of an optical fibre}	H04B10/2575	H04B10/2575		296
+H04B10/25759	12	{Details of the reception of RF signal or the optical conversion before the optical fibre}	H04B10/2575	H04B10/2575		368
+H04B10/2581	9	Multimode transmission	H04B10/2581	H04B10/2581		1351
+H04B10/2587	9	using a single light source for multiple stations	H04B10/2587	H04B10/2587		318
+H04B10/2589	9	{Bidirectional transmission}	H04B10/25	H04B10/25		1290
+H04B10/25891	10	{Transmission components (H04B10/40 takes precedence)}	H04B10/25	H04B10/25		1402
+H04B10/27	8	Arrangements for networking	H04B10/27	H04B10/27		2367
+H04B10/271	9	{Combination of different networks, e.g. star and ring configuration in the same network or two ring networks interconnected}	H04B10/27	H04B10/27		117
+H04B10/272	9	Star-type networks {or tree-type networks}	H04B10/272	H04B10/272		1203
+H04B10/2725	10	{Star-type networks without a headend}	H04B10/272	H04B10/272		71
+H04B10/275	9	Ring-type networks	H04B10/275	H04B10/275		481
+H04B10/2755	10	{Ring-type networks with a headend}	H04B10/275	H04B10/275		66
+H04B10/278	9	Bus-type networks	H04B10/278	H04B10/278		323
+H04B10/29	8	Repeaters	H04B10/29	H04B10/29		1113
+H04B10/291	9	in which processing or amplification is carried out without conversion of the main signal from optical form	H04B10/291	H04B10/291		890
+H04B10/2912	10	{characterised by the medium used for amplification or processing}	H04B10/291	H04B10/291		505
+H04B10/2914	11	{using lumped semiconductor optical amplifiers [SOA]}	H04B10/291	H04B10/291		246
+H04B10/2916	11	{using Raman or Brillouin amplifiers}	H04B10/291	H04B10/291		676
+H04B10/293	10	Signal power control	H04B10/293	H04B10/293		202
+H04B10/2931	11	{using AGC (H04B10/294 takes precedence)}	H04B10/293	H04B10/293		267
+H04B10/2933	11	{considering the whole optical path}	H04B10/293	H04B10/293		45
+H04B10/2935	12	{with a cascade of amplifiers}	H04B10/293	H04B10/293		209
+H04B10/2937	12	{Systems with a repeater placed only at the beginning or the end of the system, i.e. repeaterless systems, e.g. systems with only post and pre-amplification}	H04B10/293	H04B10/293		20
+H04B10/2939	12	{Network aspects}	H04B10/293	H04B10/293		97
+H04B10/294	11	in a multiwavelength system, e.g. gain equalisation	H04B10/294	H04B10/294		313
+H04B10/2941	12	{using an equalising unit, e.g. a filter (H04B10/296 takes precedence)}	H04B10/294	H04B10/294		336
+H04B10/2942	12	{using automatic gain control [AGC] (H04B10/296 takes precedence)}	H04B10/294	H04B10/294		258
+H04B10/296	12	Transient power control, e.g. due to channel add/drop or rapid fluctuations in the input power	H04B10/296	H04B10/296		372
+H04B10/297	10	Bidirectional amplification	H04B10/297	H04B10/297		63
+H04B10/2971	11	{A single amplifier for both directions}	H04B10/297	H04B10/297		89
+H04B10/2972	11	{Each direction being amplified separately}	H04B10/297	H04B10/297		123
+H04B10/298	10	{Two-way repeaters, i.e. repeaters amplifying separate upward and downward lines}	H04B10/291	H04B10/29		149
+H04B10/299	10	Signal waveform processing, e.g. reshaping or retiming	H04B10/299	H04B10/299		345
+H04B10/40	8	Transceivers	H04B10/40	H04B10/40		5549
+H04B10/43	9	using a single component as both light source and receiver, e.g. using a photoemitter as a photoreceiver	H04B10/43	H04B10/43		292
+H04B10/50	8	Transmitters	H04B10/50	H04B10/50		2143
+H04B10/501	9	{Structural aspects}	H04B10/50	H04B10/50		441
+H04B10/502	10	{LED transmitters}	H04B10/50	H04B10/50		1153
+H04B10/503	10	{Laser transmitters}	H04B10/50	H04B10/50		2948
+H04B10/504	11	{using direct modulation}	H04B10/50	H04B10/50		924
+H04B10/505	11	{using external modulation}	H04B10/50	H04B10/50		1251
+H04B10/5051	12	{using a series, i.e. cascade, combination of modulators}	H04B10/50	H04B10/50		375
+H04B10/5053	12	{using a parallel, i.e. shunt, combination of modulators}	H04B10/50	H04B10/50		521
+H04B10/5055	12	{using a pre-coder}	H04B10/50	H04B10/50		238
+H04B10/5057	12	{using a feedback signal generated by analysing the optical output}	H04B10/50	H04B10/50		254
+H04B10/50572	13	{to control the modulating signal amplitude including amplitude distortion}	H04B10/50	H04B10/50		148
+H04B10/50575	13	{to control the modulator DC bias}	H04B10/50	H04B10/50		361
+H04B10/50577	13	{to control the phase of the modulating signal}	H04B10/50	H04B10/50		176
+H04B10/5059	12	{using a feed-forward signal generated by analysing the optical or electrical input}	H04B10/50	H04B10/50		36
+H04B10/50593	13	{to control the modulating signal amplitude including amplitude distortion}	H04B10/50	H04B10/50		65
+H04B10/50595	13	{to control the modulator DC bias}	H04B10/50	H04B10/50		68
+H04B10/50597	13	{to control the phase of the modulating signal}	H04B10/50	H04B10/50		49
+H04B10/506	10	{Multiwavelength transmitters}	H04B10/50	H04B10/50		1402
+H04B10/508	9	Pulse generation, e.g. generation of solitons	H04B10/508	H04B10/508		708
+H04B10/516	9	Details of coding or modulation	H04B10/516	H04B10/516		2711
+H04B10/5161	10	{Combination of different modulation schemes}	H04B10/516	H04B10/516		683
+H04B10/5162	10	{Return-to-zero modulation schemes}	H04B10/516	H04B10/516		117
+H04B10/5165	10	{Carrier suppressed; Single sideband; Double sideband or vestigial}	H04B10/516	H04B10/516		473
+H04B10/5167	10	{Duo-binary; Alternative mark inversion; Phase shaped binary transmission}	H04B10/516	H04B10/516		121
+H04B10/524	10	Pulse modulation	H04B10/524	H04B10/524		788
+H04B10/532	10	Polarisation modulation	H04B10/532	H04B10/532		731
+H04B10/54	10	Intensity modulation	H04B10/54	H04B10/54		728
+H04B10/541	11	{Digital intensity or amplitude modulation}	H04B10/54	H04B10/54		1117
+H04B10/548	10	Phase or frequency modulation	H04B10/548	H04B10/548		1271
+H04B10/556	11	Digital modulation, e.g. differential phase shift keying [DPSK] or frequency shift keying [FSK]	H04B10/556	H04B10/556		268
+H04B10/5561	12	{Digital phase modulation}	H04B10/556	H04B10/556		941
+H04B10/5563	12	{Digital frequency modulation}	H04B10/556	H04B10/556		228
+H04B10/564	9	Power control	H04B10/564	H04B10/564		1515
+H04B10/572	9	Wavelength control	H04B10/572	H04B10/572		1317
+H04B10/58	9	Compensation for non-linear transmitter output	H04B10/58	H04B10/58		700
+H04B10/588	10	in external modulation systems	H04B10/588	H04B10/588		158
+H04B10/60	8	Receivers	H04B10/60	H04B10/60		2453
+H04B10/61	9	Coherent receivers	H04B10/61	H04B10/61		1042
+H04B10/612	10	{for optical signals modulated with a format different from binary or higher-order PSK [X-PSK], e.g. QAM, DPSK, FSK, MSK, ASK}	H04B10/61	H04B10/61		325
+H04B10/613	10	{including phase diversity, e.g., having in-phase and quadrature branches, as in QPSK coherent receivers}	H04B10/61	H04B10/61		283
+H04B10/614	10	{comprising one or more polarization beam splitters, e.g. polarization multiplexed [PolMux] X-PSK coherent receivers, polarization diversity heterodyne coherent receivers (H04J14/06 takes precedence)}	H04B10/61	H04B10/61		705
+H04B10/615	10	{Arrangements affecting the optical part of the receiver}	H04B10/61	H04B10/61		321
+H04B10/6151	11	{comprising a polarization controller at the receiver&apos;s input stage}	H04B10/61	H04B10/61		229
+H04B10/616	10	{Details of the electronic signal processing in coherent optical receivers}	H04B10/61	H04B10/61		791
+H04B10/6161	11	{Compensation of chromatic dispersion}	H04B10/61	H04B10/61		378
+H04B10/6162	11	{Compensation of polarization related effects, e.g., PMD, PDL}	H04B10/61	H04B10/61		377
+H04B10/6163	11	{Compensation of non-linear effects in the fiber optic link, e.g. self-phase modulation [SPM], cross-phase modulation [XPM], four wave mixing [FWM]}	H04B10/61	H04B10/61		236
+H04B10/6164	11	{Estimation or correction of the frequency offset between the received optical signal and the optical local oscillator}	H04B10/61	H04B10/61		299
+H04B10/6165	11	{Estimation of the phase of the received optical signal, phase error estimation or phase error correction}	H04B10/61	H04B10/61		603
+H04B10/6166	11	{Polarisation demultiplexing, tracking or alignment of orthogonal polarisation components}	H04B10/61	H04B10/61		163
+H04B10/63	10	Homodyne {, i.e. coherent receivers where the local oscillator is locked in frequency and phase to the carrier signal}	H04B10/63	H04B10/63		270
+H04B10/64	10	Heterodyne {, i.e. coherent receivers where, after the opto-electronic conversion, an electrical signal at an intermediate frequency [IF] is obtained}	H04B10/64	H04B10/64		374
+H04B10/65	10	{Intradyne, i.e. coherent receivers with a free running local oscillator having a frequency close but not phase-locked to the carrier signal}	H04B10/61	H04B10/65		208
+H04B10/66	9	Non-coherent receivers, e.g. using direct detection	H04B10/66	H04B10/66		733
+H04B10/67	10	Optical arrangements in the receiver	H04B10/67	H04B10/67		568
+H04B10/671	11	{for controlling the input optical signal}	H04B10/67	H04B10/67		219
+H04B10/672	12	{for controlling the power of the input optical signal}	H04B10/67	H04B10/67		117
+H04B10/673	13	{using an optical preamplifier}	H04B10/67	H04B10/67		97
+H04B10/674	13	{using a variable optical attenuator}	H04B10/67	H04B10/67		86
+H04B10/675	12	{for controlling the optical bandwidth of the input signal, e.g. spectral filtering}	H04B10/67	H04B10/67		236
+H04B10/676	11	{for all-optical demodulation of the input optical signal}	H04B10/67	H04B10/67		219
+H04B10/677	12	{for differentially modulated signal, e.g. DPSK signals}	H04B10/67	H04B10/67		260
+H04B10/69	10	Electrical arrangements in the receiver	H04B10/69	H04B10/69		1001
+H04B10/691	11	{Arrangements for optimizing the photodetector in the receiver}	H04B10/69	H04B10/69		402
+H04B10/6911	12	{Photodiode bias control, e.g. for compensating temperature variations}	H04B10/69	H04B10/69		442
+H04B10/693	11	{Arrangements for optimizing the preamplifier in the receiver}	H04B10/69	H04B10/69		252
+H04B10/6931	12	{Automatic gain control of the preamplifier}	H04B10/69	H04B10/69		363
+H04B10/6932	12	{Bandwidth control of bit rate adaptation}	H04B10/69	H04B10/69		89
+H04B10/6933	12	{Offset control of the differential preamplifier}	H04B10/69	H04B10/69		138
+H04B10/695	11	{Arrangements for optimizing the decision element in the receiver, e.g. by using automatic threshold control}	H04B10/69	H04B10/69		337
+H04B10/697	11	{Arrangements for reducing noise and distortion}	H04B10/69	H04B10/69		608
+H04B10/6971	12	{using equalisation}	H04B10/69	H04B10/69		363
+H04B10/6972	12	{using passive filtering}	H04B10/69	H04B10/69		103
+H04B10/6973	12	{using noise matching networks}	H04B10/69	H04B10/69		54
+H04B10/70	8	Photonic quantum communication	H04B10/70	H04B10/70		3165
+H04B10/80	8	Optical aspects relating to the use of optical transmission for specific applications, not provided for in groups H04B10/03 - H04B10/70, e.g. optical power feeding or optical transmission through water	H04B10/80	H04B10/80		741
+H04B10/801	9	{using optical interconnects, e.g. light coupled isolators, circuit board interconnections}	H04B10/80	H04B10/80		1179
+H04B10/802	10	{for isolation, e.g. using optocouplers}	H04B10/80	H04B10/80		444
+H04B10/803	10	{Free space interconnects, e.g. between circuit boards or chips}	H04B10/80	H04B10/80		294
+H04B10/806	9	{Arrangements for feeding power}	H04B10/80	H04B10/80		245
+H04B10/807	10	{Optical power feeding, i.e. transmitting power using an optical signal}	H04B10/80	H04B10/80		562
+H04B10/808	10	{Electrical power feeding of an optical transmission system}	H04B10/80	H04B10/80		363
+H04B10/85	9	Protection from unauthorised access, e.g. eavesdrop protection	H04B10/85	H04B10/85		916
+H04B10/90	8	Non-optical transmission systems, e.g. transmission systems employing non-photonic corpuscular radiation	H04B10/90	H04B10/90		561
+H04B11/00	7	Transmission systems employing sonic, ultrasonic or infrasonic waves	H04B11/00	H04B11/00		3247
+H04B13/00	7	Transmission systems characterised by the medium used for transmission, not provided for in groups H04B3/00&#160;-&#160;H04B11/00	H04B13/00	H04B13/00		417
+H04B13/005	8	{Transmission systems in which the medium consists of the human body}	H04B13/00	H04B13/00		1016
+H04B13/02	8	Transmission systems in which the medium consists of the earth or a large mass of water thereon, e.g. earth telegraphy	H04B13/02	H04B13/02		2815
+H04B14/00	7	Transmission systems not characterised by the medium used for transmission (details thereof H04B1/00)	H04B14/00	H04B14/00		61
+H04B14/002	8	{characterised by the use of a carrier modulation (using subcarrier modulation H04B14/08)}	H04B14/00	H04B14/00		88
+H04B14/004	9	{Amplitude modulation}	H04B14/00	H04B14/00		64
+H04B14/006	9	{Angle modulation}	H04B14/00	H04B14/00		264
+H04B14/008	9	{Polarisation modulation}	H04B14/00	H04B14/00		56
+H04B14/02	8	characterised by the use of pulse modulation (in radio transmission relays H04B7/17)	H04B14/02	H04B14/02		355
+H04B14/023	9	{using pulse amplitude modulation}	H04B14/02	H04B14/02		149
+H04B14/026	9	{using pulse time characteristics modulation, e.g. width, position, interval}	H04B14/02	H04B14/02		540
+H04B14/04	9	using pulse code modulation	H04B14/04	H04B14/04		428
+H04B14/042	10	{Special circuits, e.g. comparators}	H04B14/04	H04B14/04		80
+H04B14/044	10	{Sample and hold circuits (in general G11C27/02)}	H04B14/04	H04B14/04		113
+H04B14/046	10	{Systems or methods for reducing noise or bandwidth}	H04B14/04	H04B14/04		351
+H04B14/048	11	{Non linear compression or expansion}	H04B14/04	H04B14/04		202
+H04B14/06	9	using differential modulation, e.g. delta modulation	H04B14/06	H04B14/06		90
+H04B14/062	10	{using delta modulation or one-bit differential modulation [1DPCM]}	H04B14/06	H04B14/06		136
+H04B14/064	11	{with adaptive feedback}	H04B14/06	H04B14/06		76
+H04B14/066	10	{using differential modulation with several bits [NDPCM]}	H04B14/06	H04B14/06		49
+H04B14/068	11	{with adaptive feedback}	H04B14/06	H04B14/06		84
+H04B14/08	8	characterised by the use of a sub-carrier	H04B14/08	H04B14/08		132
+H04B15/00	7	Suppression or limitation of noise or interference (by means associated with receiver H04B1/10)	H04B15/00	H04B15/00		2161
+H04B15/005	8	{Reducing noise, e.g. humm, from the supply}	H04B15/00	H04B15/00		753
+H04B15/02	8	Reducing interference from electric apparatus by means located at or near the interfering apparatus	H04B15/02	H04B15/02		1581
+H04B15/025	9	{Reducing interference from ignition apparatus of fuel engines (cables with high resistance H01B)}	H04B15/02	H04B15/02		307
+H04B15/04	9	the interference being caused by substantially sinusoidal oscillations, e.g. in a receiver or in a tape-recorder	H04B15/04	H04B15/04		532
+H04B15/06	10	by local oscillators of receivers	H04B15/06	H04B15/06		360
+H04B17/00	7	Monitoring; Testing (of line transmission systems H04B3/46; arrangements for monitoring or testing transmission systems employing electromagnetic waves other than radio waves H04B10/07)	H04B17/00	H04B17/00		2163
+H04B17/0082	8	{using service channels; using auxiliary channels}	H04B17/00	H04B17/00		202
+H04B17/0085	9	{using test signal generators}	H04B17/00	H04B17/00		1729
+H04B17/0087	9	{using auxiliary channels or channel simulators}	H04B17/00	H04B17/00		771
+H04B17/10	8	of transmitters	H04B17/10	H04B17/10		503
+H04B17/101	9	{for measurement of specific parameters of the transmitter or components thereof}	H04B17/10	H04B17/10		779
+H04B17/102	10	{Power radiated at antenna}	H04B17/10	H04B17/10		1113
+H04B17/103	10	{Reflected power, e.g. return loss}	H04B17/10	H04B17/10		404
+H04B17/104	10	{of other parameters, e.g. DC offset, delay or propagation times}	H04B17/10	H04B17/10		512
+H04B17/11	9	for calibration	H04B17/11	H04B17/11		1369
+H04B17/12	10	of transmit antennas, e.g. of the amplitude or phase	H04B17/12	H04B17/12		1674
+H04B17/13	10	of power amplifiers, e.g. gain or non-linearity	H04B17/13	H04B17/13		570
+H04B17/14	10	of the whole transmission and reception path, e.g. self-test loop-back	H04B17/14	H04B17/14		798
+H04B17/15	9	Performance testing<br><br><u>WARNING</u><br>Group H04B17/15 is impacted by reclassification into group H04B17/191. <br>Groups H04B17/15 and H04B17/191 should be considered in order to perform a complete search.	H04B17/15	H04B17/15		1385
+H04B17/16	10	Test equipment located at the transmitter	H04B17/16	H04B17/16		365
+H04B17/17	10	Detection of non-compliance or faulty performance, e.g. response deviations (H04B17/18 takes precedence)	H04B17/17	H04B17/17		704
+H04B17/18	10	Monitoring during normal operation	H04B17/18	H04B17/18		515
+H04B17/19	10	Self-testing arrangements	H04B17/19	H04B17/19		456
+H04B17/191	10	{Over-the-air testing}<br><br><u>WARNING</u><br>Group H04B17/191 is incomplete pending reclassification of documents from group H04B17/15. <br>Groups H04B17/15 and H04B17/191 should be considered in order to perform a complete search.	H04B17/15	H04B17/19		29
+H04B17/20	8	of receivers<br><br><u>WARNING</u><br>Group H04B17/20 is impacted by reclassification into groups H04B17/201, H04B17/202, H04B17/203, H04B17/204, H04B17/22, H04B17/221, H04B17/25, H04B17/252, H04B17/253, H04B17/254 and H04B17/255. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B17/20	H04B17/20		1287
+H04B17/201	9	{for measurement of specific parameters of the receiver or components thereof}<br><br><u>WARNING</u><br>Groups H04B17/201, H04B17/202, H04B17/203 and H04B17/204 are incomplete pending reclassification of documents from group H04B17/20.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B17/20	H04B17/20		90
+H04B17/202	10	{Power received at the antenna}	H04B17/20	H04B17/20		48
+H04B17/203	10	{Receiver sensitivity}	H04B17/20	H04B17/20		43
+H04B17/204	10	{of interfering signals, e.g. passive intermodulation}	H04B17/20	H04B17/20		38
+H04B17/21	9	for calibration; for correcting measurements<br><br><u>WARNING</u><br>Group H04B17/21 is impacted by reclassification into groups H04B17/22 and H04B17/221. <br>Groups H04B17/21, H04B17/22 and H04B17/221 should be considered in order to perform a complete search.	H04B17/21	H04B17/21		2630
+H04B17/22	10	{for calibration of the receiver components}<br><br><u>WARNING</u><br>Groups H04B17/22 and H04B17/221 are incomplete pending reclassification of documents from groups H04B17/20 and H04B17/21. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B17/21	H04B17/22		53
+H04B17/221	11	{of receiver antennas, e.g. as to amplitude or phase}	H04B17/21	H04B17/221		140
+H04B17/23	9	Indication means, e.g. displays, alarms, audible means	H04B17/23	H04B17/23		1088
+H04B17/24	9	with feedback of measurements to the transmitter	H04B17/24	H04B17/24		1420
+H04B17/25	9	{taking multiple measurements}<br><br><u>WARNING</u><br>Groups H04B17/25, H04B17/252, H04B17/253, H04B17/254 and H04B17/255 are incomplete pending reclassification of documents from group H04B17/20. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B17/20	H04B17/25		43
+H04B17/252	10	{measuring signals from different transmission points or directions of arrival, e.g. in multi RAT or dual connectivity}	H04B17/20	H04B17/252		148
+H04B17/253	10	{measuring at different locations or reception points}	H04B17/20	H04B17/253		38
+H04B17/254	10	{measuring at different reception times}	H04B17/20	H04B17/254		115
+H04B17/255	10	{measuring at different states of transmission, e.g. active or idle; measuring at different measurement rates; measuring with different measurement schedules}	H04B17/20	H04B17/255		22
+H04B17/26	9	using historical data, averaging values or statistics	H04B17/26	H04B17/26		683
+H04B17/27	9	for locating or positioning the transmitter	H04B17/27	H04B17/27		1458
+H04B17/29	9	Performance testing<br><br><u>WARNING</u><br>Group H04B17/29 is impacted by reclassification into groups H04B17/294, H04B17/295, H04B17/296 and H04B17/297. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H04B17/29	H04B17/29		2070
+H04B17/294	10	{with test equipment located at the receiver}<br><br><u>WARNING</u><br>Group H04B17/294 is incomplete pending reclassification of documents from group H04B17/29. <br>Groups H04B17/29 and H04B17/294 should be considered in order to perform a complete search.	H04B17/29	H04B17/29		15
+H04B17/295	10	{Detection of non-compliance or faulty performance, e.g. response deviations (monitoring during normal operations H04B17/296)}<br><br><u>WARNING</u><br>Group H04B17/295 is incomplete pending reclassification of documents from group H04B17/29. <br>Groups H04B17/29 and H04B17/295 should be considered in order to perform a complete search.	H04B17/29	H04B17/29		47
+H04B17/296	10	{Monitoring performance during normal operation}<br><br><u>WARNING</u><br>Group H04B17/296 is incomplete pending reclassification of documents from group H04B17/29. <br>Groups H04B17/29 and H04B17/296 should be considered in order to perform a complete search.	H04B17/29	H04B17/29		23
+H04B17/297	10	{Self-testing arrangements}<br><br><u>WARNING</u><br>Group H04B17/297 is incomplete pending reclassification of documents from group H04B17/29. <br>Groups H04B17/29 and H04B17/297 should be considered in order to perform a complete search.	H04B17/29	H04B17/29		20
+H04B17/30	8	of propagation channels	H04B17/30	H04B17/30		974
+H04B17/309	9	Measuring or estimating channel quality parameters<br><br><u>WARNING</u><br>Group H04B17/309 is impacted by reclassification into groups H04B17/346 and H04B17/347. <br>Groups H04B17/309, H04B17/346 and H04B17/347 should be considered in order to perform a complete search.	H04B17/309	H04B17/309		6071
+H04B17/318	10	Received signal strength<br><br><u>WARNING</u><br>Group H04B17/318 is impacted by reclassification into group H04B17/328. <br>Groups H04B17/318 and H04B17/328 should be considered in order to perform a complete search.	H04B17/318	H04B17/318		11247
+H04B17/327	11	Received signal code power [RSCP]	H04B17/327	H04B17/327		1263
+H04B17/328	11	{Reference signal received power [RSRP]; Reference signal received quality [RSRQ]}<br><br><u>WARNING</u><br>Group H04B17/328 is incomplete pending reclassification of documents from group H04B17/318. <br>Groups H04B17/318 and H04B17/328 should be considered in order to perform a complete search.	H04B17/318	H04B17/328		1138
+H04B17/336	10	Signal-to-interference ratio [SIR] or carrier-to-interference ratio [CIR]	H04B17/336	H04B17/336		4342
+H04B17/345	10	Interference values ({signal-to-interference ratio [SIR] or carrier-to-interference ratio [CIR]}H04B17/336)	H04B17/345	H04B17/345		4132
+H04B17/346	10	{Noise values (signal-to-interference ratio [SIR] or carrier-to-interference ratio [CIR] H04B17/336)}<br><br><u>WARNING</u><br>Group H04B17/346 is incomplete pending reclassification of documents from group H04B17/309. <br>Groups H04B17/309 and H04B17/346 should be considered in order to perform a complete search.	H04B17/309	H04B17/346		198
+H04B17/347	10	{Path loss}<br><br><u>WARNING</u><br>Group H04B17/347 is incomplete pending reclassification of documents from group H04B17/309. <br>Groups H04B17/309 and H04B17/347 should be considered in order to perform a complete search.	H04B17/309	H04B17/347		229
+H04B17/354	10	Adjacent channel leakage power	H04B17/354	H04B17/354		261
+H04B17/364	10	Delay profiles	H04B17/364	H04B17/364		832
+H04B17/373	9	Predicting channel quality {or other radio frequency [RF]} parameters	H04B17/373	H04B17/373		1316
+H04B17/382	9	for resource allocation, admission control or handover	H04B17/382	H04B17/382		4049
+H04B17/391	9	Modelling the propagation channel	H04B17/391	H04B17/391		2759
+H04B17/3911	10	{Fading models or fading generators}	H04B17/391	H04B17/391		863
+H04B17/3912	10	{Simulation models, e.g. distribution of spectral power density or received signal strength indicator [RSSI] for a given geographic region}	H04B17/391	H04B17/391		1921
+H04B17/3913	10	{Predictive models, e.g. based on neural network models}	H04B17/391	H04B17/391		1096
+H04B17/40	8	of relay systems	H04B17/40	H04B17/40		1270
+H04B17/401	9	{with selective localization}	H04B17/40	H04B17/40		24
+H04B17/402	10	{using different frequencies}	H04B17/40	H04B17/40		23
+H04B17/403	11	{generated by local oscillators}	H04B17/40	H04B17/40		138
+H04B17/404	11	{selected by local filters}	H04B17/40	H04B17/40		123
+H04B17/405	11	{generated by local multipliers, dividers, modulators}	H04B17/40	H04B17/40		53
+H04B17/406	10	{using coded addresses}	H04B17/40	H04B17/40		91
+H04B17/407	9	{without selective localization}	H04B17/40	H04B17/40		31
+H04B17/408	10	{using successive loop-backs}	H04B17/40	H04B17/40		95
+H04B17/409	10	{by means of resistance, voltage or current measurement}	H04B17/40	H04B17/40		56
+H04B2201/00	7	Indexing scheme relating to details of transmission systems not covered by a single group of H04B3/00&#160;-&#160;H04B13/00	CPCONLY	H04B2201/00		7
+H04B2201/69	8	Orthogonal indexing scheme relating to spread spectrum techniques in general	CPCONLY	H04B2201/69		3
+H04B2201/692	9	Cognitive radio	CPCONLY	H04B2201/692		32
+H04B2201/694	9	WPAN	CPCONLY	H04B2201/694		17
+H04B2201/696	9	relating to Dowlink	CPCONLY	H04B2201/696		11
+H04B2201/698	9	relating to Uplink	CPCONLY	H04B2201/698		26
+H04B2201/707	9	relating to direct sequence modulation	CPCONLY	H04B2201/707		4
+H04B2201/70701	10	featuring pilot assisted reception	CPCONLY	H04B2201/70701		853
+H04B2201/70702	10	Intercell-related aspects	CPCONLY	H04B2201/70702		394
+H04B2201/70703	10	using multiple or variable rates	CPCONLY	H04B2201/70703		334
+H04B2201/70705	11	Rate detection	CPCONLY	H04B2201/70705		92
+H04B2201/70706	10	with means for reducing the peak-to-average power ratio	CPCONLY	H04B2201/70706		302
+H04B2201/70707	10	Efficiency-related aspects	CPCONLY	H04B2201/70707		414
+H04B2201/70709	11	with discontinuous detection	CPCONLY	H04B2201/70709		101
+H04B2201/7071	11	with dynamic control of receiver resources	CPCONLY	H04B2201/7071		207
+H04B2201/70711	12	with modular structure	CPCONLY	H04B2201/70711		63
+H04B2201/70713	11	Reducing computational requirements	CPCONLY	H04B2201/70713		7
+H04B2201/70714	11	Reducing hardware requirements	CPCONLY	H04B2201/70714		15
+H04B2201/70715	10	with application-specific features	CPCONLY	H04B2201/70715		456
+H04B2201/70716	10	Quadrature	CPCONLY	H04B2201/70716		21
+H04B2201/70718	10	Particular systems or standards	CPCONLY	H04B2201/70718		12
+H04B2201/70719	11	CDMA2000	CPCONLY	H04B2201/70719		36
+H04B2201/7072	11	HDR	CPCONLY	H04B2201/7072		2
+H04B2201/70722	11	HSDPA/HSUPA	CPCONLY	H04B2201/70722		59
+H04B2201/70723	12	Multi-carrier HSPA	CPCONLY	H04B2201/70723		3
+H04B2201/70724	11	UMTS	CPCONLY	H04B2201/70724		70
+H04B2201/70726	11	Asynchronous CDMA	CPCONLY	H04B2201/70726		28
+H04B2201/70727	10	using fast Fourier transform	CPCONLY	H04B2201/70727		20
+H04B2201/70728	10	Frequency aspects	CPCONLY	H04B2201/70728		15
+H04B2201/7073	10	Direct sequence modulation synchronisation	CPCONLY	H04B2201/7073		49
+H04B2201/70733	11	2D search	CPCONLY	H04B2201/70733		5
+H04B2201/70736	11	DSA	CPCONLY	H04B2201/70736		
+H04B2201/7097	10	Direct sequence modulation interference	CPCONLY	H04B2201/7097		17
+H04B2201/709709	11	Methods of preventing interference	CPCONLY	H04B2201/709709		383
+H04B2201/709718	11	Determine interference	CPCONLY	H04B2201/709718		22
+H04B2201/709727	11	GRAKE type RAKE receivers	CPCONLY	H04B2201/709727		161
+H04B2201/709736	11	Hybrid interference mitigation schemes	CPCONLY	H04B2201/709736		4
+H04B2201/709745	11	Iterative interference mitigation schemes	CPCONLY	H04B2201/709745		6
+H04B2201/709754	11	Blind joint detection	CPCONLY	H04B2201/709754		1
+H04B2201/709763	11	Joint detection using feedback	CPCONLY	H04B2201/709763		3
+H04B2201/709772	11	Joint detection using feedforward	CPCONLY	H04B2201/709772		3
+H04B2201/709781	11	Linear detectors for joint detection	CPCONLY	H04B2201/709781		2
+H04B2201/70979	11	Fat finger issues in RAKE receivers	CPCONLY	H04B2201/70979		3
+H04B2201/713	9	Frequency hopping	CPCONLY	H04B2201/713		24
+H04B2201/71307	10	Partial band interference	CPCONLY	H04B2201/71307		16
+H04B2201/71315	10	Wide band interference	CPCONLY	H04B2201/71315		10
+H04B2201/71323	10	Adaptive systems	CPCONLY	H04B2201/71323		49
+H04B2201/7133	10	Asymmetric systems	CPCONLY	H04B2201/7133		1
+H04B2201/71338	10	Asynchronous systems	CPCONLY	H04B2201/71338		7
+H04B2201/71346	10	Bluetooth	CPCONLY	H04B2201/71346		149
+H04B2201/71353	10	Fast frequency hopping	CPCONLY	H04B2201/71353		13
+H04B2201/71361	10	Slow frequency hopping	CPCONLY	H04B2201/71361		9
+H04B2201/71369	10	OFCHM	CPCONLY	H04B2201/71369		1
+H04B2201/71376	10	Threshold	CPCONLY	H04B2201/71376		14
+H04B2201/71384	10	Look-up tables	CPCONLY	H04B2201/71384		14
+H04B2201/7163	9	Orthogonal indexing scheme relating to impulse radio	CPCONLY	H04B2201/7163		2
+H04B2201/71632	10	Diversity	CPCONLY	H04B2201/71632		9
+H04B2201/71634	10	Applied to ranging	CPCONLY	H04B2201/71634		120
+H04B2201/71636	10	Transmitted reference	CPCONLY	H04B2201/71636		17
+H04B2201/71638	10	Spectrum issues	CPCONLY	H04B2201/71638		13
+H04B2203/00	7	Indexing scheme relating to line transmission systems	CPCONLY	H04B2203/00		4
+H04B2203/54	8	Aspects of powerline communications not already covered by H04B3/54 and its subgroups	CPCONLY	H04B2203/54		12
+H04B2203/5404	9	Methods of transmitting or receiving signals via power distribution lines	CPCONLY	H04B2203/5404		82
+H04B2203/5408	10	using protocols	CPCONLY	H04B2203/5408		658
+H04B2203/5412	10	by modofying wave form of the power source	CPCONLY	H04B2203/5412		163
+H04B2203/5416	10	by adding signals to the wave form of the power source	CPCONLY	H04B2203/5416		846
+H04B2203/542	10	using zero crossing information	CPCONLY	H04B2203/542		285
+H04B2203/5425	10	improving S/N by matching impedance, noise reduction, gain control	CPCONLY	H04B2203/5425		786
+H04B2203/5429	9	Applications for powerline communications	CPCONLY	H04B2203/5429		99
+H04B2203/5433	10	Remote metering	CPCONLY	H04B2203/5433		486
+H04B2203/5437	10	Wired telephone	CPCONLY	H04B2203/5437		275
+H04B2203/5441	10	Wireless systems or telephone	CPCONLY	H04B2203/5441		680
+H04B2203/5445	10	Local network	CPCONLY	H04B2203/5445		1064
+H04B2203/545	10	Audio/video application, e.g. interphone	CPCONLY	H04B2203/545		493
+H04B2203/5454	10	Adapter and plugs	CPCONLY	H04B2203/5454		288
+H04B2203/5458	10	Monitor sensor; Alarm systems	CPCONLY	H04B2203/5458		980
+H04B2203/5462	9	Systems for power line communications	CPCONLY	H04B2203/5462		49
+H04B2203/5466	10	using three phases conductors	CPCONLY	H04B2203/5466		614
+H04B2203/547	10	via DC power distribution	CPCONLY	H04B2203/547		599
+H04B2203/5475	10	adapted for drill or well combined with data transmission	CPCONLY	H04B2203/5475		99
+H04B2203/5479	10	using repeaters	CPCONLY	H04B2203/5479		193
+H04B2203/5483	10	using coupling circuits	CPCONLY	H04B2203/5483		1208
+H04B2203/5487	11	cables	CPCONLY	H04B2203/5487		200
+H04B2203/5491	10	using filtering and bypassing	CPCONLY	H04B2203/5491		852
+H04B2203/5495	10	having measurements and testing channel	CPCONLY	H04B2203/5495		523
+H04B2210/00	7	Indexing scheme relating to optical transmission systems	CPCONLY	H04B2210/00		4
+H04B2210/003	8	Devices including multiple stages, e.g., multi-stage optical amplifiers or dispersion compensators	CPCONLY	H04B2210/003		249
+H04B2210/006	8	Devices for generating or processing an RF signal by optical means	CPCONLY	H04B2210/006		500
+H04B2210/07	8	Monitoring an optical transmission system using a supervisory signal	CPCONLY	H04B2210/07		81
+H04B2210/071	9	using alarms	CPCONLY	H04B2210/071		129
+H04B2210/072	9	using an overhead signal	CPCONLY	H04B2210/072		69
+H04B2210/074	9	using a superposed, over-modulated signal	CPCONLY	H04B2210/074		184
+H04B2210/075	9	using a pilot tone	CPCONLY	H04B2210/075		161
+H04B2210/077	9	using a separate fibre	CPCONLY	H04B2210/077		44
+H04B2210/078	9	using a separate wavelength	CPCONLY	H04B2210/078		246
+H04B2210/08	8	Shut-down or eye-safety	CPCONLY	H04B2210/08		123
+H04B2210/25	8	Distortion or dispersion compensation	CPCONLY	H04B2210/25		26
+H04B2210/252	9	after the transmission line, i.e. post-compensation	CPCONLY	H04B2210/252		169
+H04B2210/254	9	before the transmission line, i.e. pre-compensation	CPCONLY	H04B2210/254		183
+H04B2210/256	9	at the repeater, i.e. repeater compensation	CPCONLY	H04B2210/256		74
+H04B2210/258	9	treating each wavelength or wavelength band separately	CPCONLY	H04B2210/258		238
+H04B2210/516	8	Optical conversion of optical modulation formats, e.g., from optical ASK to optical PSK	CPCONLY	H04B2210/516		15
+H04B2210/517	8	Optical NRZ to RZ conversion, or vice versa	CPCONLY	H04B2210/517		47
+H04B2215/00	7	Reducing interference at the transmission system level	CPCONLY	H04B2215/00		25
+H04B2215/061	8	Reduction of burst noise, e.g. in TDMA systems	CPCONLY	H04B2215/061		34
+H04B2215/062	9	by inhibiting burst transmission	CPCONLY	H04B2215/062		33
+H04B2215/063	9	by smoothing the transmission power envelope	CPCONLY	H04B2215/063		26
+H04B2215/064	8	Reduction of clock or synthesizer reference frequency harmonics	CPCONLY	H04B2215/064		219
+H04B2215/065	9	by changing the frequency of clock or reference frequency	CPCONLY	H04B2215/065		100
+H04B2215/066	9	by stopping a clock generator	CPCONLY	H04B2215/066		19
+H04B2215/067	9	by modulation dispersion	CPCONLY	H04B2215/067		190
+H04B2215/068	9	by avoiding a reception frequency range	CPCONLY	H04B2215/068		26
+H04B2215/069	8	Reduction of switch mode power supply ripple	CPCONLY	H04B2215/069		24

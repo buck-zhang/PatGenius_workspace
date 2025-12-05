@@ -1,0 +1,402 @@
+G01F1/00	7	Measuring the volume flow or mass flow of fluid or fluent solid material wherein the fluid passes through a meter in a continuous flow (measuring a proportion of the volume flow G01F5/00)<br><br><u>NOTE</u><br><br>Groups G01F1/704 - G01F1/76 take precedence over groups G01F1/05 - G01F1/68.	G01F1/00	G01F1/00		2726
+G01F1/002	8	wherein the flow is in an open channel	G01F1/002	G01F1/002		1000
+G01F1/005	9	{using floats}	G01F1/002	G01F1/00		150
+G01F1/007	8	{by measuring the level variations of storage tanks relative to the time}	G01F1/00	G01F1/00		389
+G01F1/05	8	by using mechanical effects	G01F1/05	G01F1/05		456
+G01F1/053	9	{using rotating vanes with tangential and axial admission}	G01F1/05	G01F1/05		61
+G01F1/056	9	{Orbital ball flowmeters}	G01F1/05	G01F1/05		152
+G01F1/06	9	using rotating vanes with tangential admission	G01F1/06	G01F1/06		930
+G01F1/065	10	{with radiation as transfer means to the indicating device, e.g. light transmission}	G01F1/06	G01F1/06		152
+G01F1/07	10	with mechanical coupling to the indicating device	G01F1/07	G01F1/07		237
+G01F1/075	10	with magnetic or electromagnetic coupling to the indicating device	G01F1/075	G01F1/075		629
+G01F1/0755	11	{with magnetic coupling only in a mechanical transmission path}	G01F1/075	G01F1/075		95
+G01F1/08	10	Adjusting, correcting or compensating means therefor	G01F1/08	G01F1/08		316
+G01F1/10	9	using rotating vanes with axial admission	G01F1/10	G01F1/10		871
+G01F1/103	10	{with radiation as transfer means to the indicating device, e.g. light transmission}	G01F1/10	G01F1/10		164
+G01F1/106	10	{with electrostatic coupling to the indicating device}	G01F1/10	G01F1/10		52
+G01F1/11	10	with mechanical coupling to the indicating device	G01F1/11	G01F1/11		136
+G01F1/115	10	with magnetic or electromagnetic coupling to the indicating device	G01F1/115	G01F1/115		708
+G01F1/1155	11	{with magnetic coupling only in a mechanical transmission path}	G01F1/115	G01F1/115		79
+G01F1/12	10	Adjusting, correcting, or compensating means therefor	G01F1/12	G01F1/12		273
+G01F1/125	11	{with electric, electro-mechanical or electronic means}	G01F1/12	G01F1/12		145
+G01F1/20	9	by detection of dynamic effects of the flow	G01F1/20	G01F1/20		489
+G01F1/203	10	{Jet stream flowmeters}	G01F1/20	G01F1/20		30
+G01F1/206	10	{Measuring pressure, force or momentum of a fluid flow which is forced to change its direction}	G01F1/20	G01F1/20		247
+G01F1/22	10	by variable-area meters {, e.g. rotameters}	G01F1/22	G01F1/22		857
+G01F1/24	11	with magnetic or electric coupling to the indicating device	G01F1/24	G01F1/24		583
+G01F1/26	11	of the valve type	G01F1/26	G01F1/26		439
+G01F1/28	10	by drag-force, e.g. vane type or impact flowmeter	G01F1/28	G01F1/28		1604
+G01F1/30	11	for fluent solid material	G01F1/30	G01F1/30		227
+G01F1/32	10	using swirl flowmeters	G01F1/32	G01F1/32		503
+G01F1/3209	11	{using Karman vortices}	G01F1/32	G01F1/32		397
+G01F1/3218	12	{bluff body design}	G01F1/32	G01F1/32		270
+G01F1/3227	11	{using fluidic oscillators (fluidic oscillators per seF15C1/00)}	G01F1/32	G01F1/32		219
+G01F1/3236	11	{using guide vanes as swirling means}	G01F1/32	G01F1/32		82
+G01F1/325	11	Means for detecting quantities used as proxy variables for swirl	G01F1/325	G01F1/325		186
+G01F1/3259	12	{for detecting fluid pressure oscillations}	G01F1/325	G01F1/325		221
+G01F1/3266	13	{by sensing mechanical vibrations}	G01F1/325	G01F1/32		307
+G01F1/3273	12	{for detecting fluid speed oscillations by thermal sensors}	G01F1/325	G01F1/32		81
+G01F1/3282	12	{for detecting variations in infrasonic, sonic or ultrasonic waves, due to modulation by passing through the swirling fluid}	G01F1/325	G01F1/32		141
+G01F1/3287	12	{circuits therefor}	G01F1/325	G01F1/32		232
+G01F1/34	9	by measuring pressure or differential pressure	G01F1/34	G01F1/34		1628
+G01F1/36	10	the pressure or differential pressure being created by the use of flow constriction	G01F1/36	G01F1/36		1037
+G01F1/363	11	{with electrical or electro-mechanical indication (G01F1/37 and G01F1/38 take precedence)}	G01F1/36	G01F1/36		703
+G01F1/366	11	{with mechanical or fluidic indication (G01F1/37 and G01F1/38 take precedence)}	G01F1/36	G01F1/36		56
+G01F1/37	11	the pressure or differential pressure being measured by means of communicating tubes or reservoirs with movable fluid levels, e.g. by U-tubes	G01F1/37	G01F1/37		174
+G01F1/372	12	{with electrical or electro-mechanical indication}	G01F1/37	G01F1/37		241
+G01F1/375	12	{with mechanical or fluidic indication}	G01F1/37	G01F1/37		229
+G01F1/377	12	{using a ring-balance as indicating element}	G01F1/37	G01F1/37		52
+G01F1/38	11	the pressure or differential pressure being measured by means of a movable element, e.g. diaphragm, piston, Bourdon tube or flexible capsule	G01F1/38	G01F1/38		263
+G01F1/383	12	{with electrical or electro-mechanical indication}	G01F1/38	G01F1/38		401
+G01F1/386	12	{with mechanical or fluidic indication}	G01F1/38	G01F1/38		244
+G01F1/40	11	Details of construction of the flow constriction devices	G01F1/40	G01F1/40		767
+G01F1/42	12	Orifices or nozzles	G01F1/42	G01F1/42		1013
+G01F1/44	12	Venturi tubes	G01F1/44	G01F1/44		820
+G01F1/46	12	Pitot tubes	G01F1/46	G01F1/46		684
+G01F1/48	10	the pressure or differential pressure being created by a capillary element	G01F1/48	G01F1/48		112
+G01F1/50	10	Correcting or compensating means	G01F1/50	G01F1/50		570
+G01F1/52	9	by measuring the height of the fluid level due to the lifting power of the fluid flow	G01F1/52	G01F1/52		519
+G01F1/54	9	by means of chains, flexible bands or wires introduced into and moved by, the flow	G01F1/54	G01F1/54		40
+G01F1/56	8	by using electric or magnetic effects (G01F1/66 takes precedence)	G01F1/56	G01F1/56		726
+G01F1/58	9	by electromagnetic flowmeters	G01F1/58	G01F1/58		1743
+G01F1/582	10	{without electrodes}	G01F1/58	G01F1/58		124
+G01F1/584	10	{constructions of electrodes, accessories therefor}	G01F1/58	G01F1/58		593
+G01F1/586	10	{constructions of coils, magnetic circuits, accessories therefor (G01F1/582 takes precedence; magnet; inductances; transformers; selection of materials for their magnetic properties per seH01F)}	G01F1/58	G01F1/58		489
+G01F1/588	10	{combined constructions of electrodes, coils or magnetic circuits, accessories therefor}	G01F1/58	G01F1/58		659
+G01F1/60	10	Circuits therefor	G01F1/60	G01F1/60		984
+G01F1/64	9	by measuring electrical currents passing through the fluid flow; measuring electrical potential generated by the fluid flow, e.g. by electrochemical, contact or friction effects (G01F1/58 takes precedence)	G01F1/64	G01F1/64		553
+G01F1/66	8	by measuring frequency, phase shift or propagation time of electromagnetic or other waves, e.g. using ultrasonic flowmeters	G01F1/66	G01F1/66		2111
+G01F1/661	9	using light	G01F1/661	G01F1/661		661
+G01F1/662	9	{Constructional details}	G01F1/66	G01F1/66		2822
+G01F1/663	9	by measuring Doppler frequency shift	G01F1/663	G01F1/663		665
+G01F1/665	9	{of the drag-type}	G01F1/66	G01F1/66		50
+G01F1/666	9	{by detecting noise and sounds generated by the flowing fluid}	G01F1/66	G01F1/66		378
+G01F1/667	9	Arrangements of transducers for ultrasonic flowmeters; Circuits for operating ultrasonic flowmeters	G01F1/667	G01F1/667		2707
+G01F1/668	10	{Compensating or correcting for variations in velocity of sound}	G01F1/667	G01F1/66		452
+G01F1/68	8	by using thermal effects	G01F1/68	G01F1/68		1290
+G01F1/684	9	Structural arrangements; Mounting of elements, e.g. in relation to fluid flow	G01F1/684	G01F1/684		1602
+G01F1/6842	10	{with means for influencing the fluid flow}	G01F1/684	G01F1/684		1237
+G01F1/6845	10	{Micromachined devices}	G01F1/684	G01F1/684		997
+G01F1/6847	10	{where sensing or heating elements are not disturbing the fluid flow, e.g. elements mounted outside the flow duct}	G01F1/684	G01F1/684		642
+G01F1/688	10	using a particular type of heating, cooling or sensing element {(G01F1/6847 takes precedence)}	G01F1/688	G01F1/688		243
+G01F1/6882	11	{making use of temperature dependence of acoustic properties, e.g. propagation speed of surface acoustic waves}	G01F1/688	G01F1/688		29
+G01F1/6884	11	{making use of temperature dependence of optical properties}	G01F1/688	G01F1/688		81
+G01F1/6886	11	{Pyroelectric elements}	G01F1/688	G01F1/688		11
+G01F1/6888	11	{Thermoelectric elements, e.g. thermocouples, thermopiles}	G01F1/688	G01F1/688		339
+G01F1/69	11	of resistive type	G01F1/69	G01F1/69		630
+G01F1/692	12	Thin-film arrangements	G01F1/692	G01F1/692		780
+G01F1/696	9	Circuits therefor, e.g. constant-current flow meters	G01F1/696	G01F1/696		770
+G01F1/6965	10	{comprising means to store calibration data for flow signal calculation or correction}	G01F1/696	G01F1/696		389
+G01F1/698	10	Feedback or rebalancing circuits, e.g. self heated constant temperature flowmeters	G01F1/698	G01F1/698		541
+G01F1/6983	11	{adapted for burning-off deposits}	G01F1/698	G01F1/698		123
+G01F1/6986	11	{with pulsed heating, e.g. dynamic methods}	G01F1/698	G01F1/698		192
+G01F1/699	11	by control of a separate heating or cooling element	G01F1/699	G01F1/699		183
+G01F1/704	8	using marked regions or existing inhomogeneities within the fluid stream, e.g. statistically occurring variations in a fluid parameter (G01F1/76, G01F25/00 take precedence)	G01F1/704	G01F1/704		422
+G01F1/7042	9	{using radioactive tracers}	G01F1/704	G01F1/704		125
+G01F1/7044	9	{using thermal tracers}	G01F1/704	G01F1/704		117
+G01F1/7046	9	{using electrical loaded particles as tracer, e.g. ions or electrons}	G01F1/704	G01F1/704		41
+G01F1/7048	10	{the concentration of electrical loaded particles giving an indication of the flow}	G01F1/704	G01F1/704		25
+G01F1/708	9	Measuring the time taken to traverse a fixed distance	G01F1/708	G01F1/708		268
+G01F1/7082	10	using acoustic detecting arrangements	G01F1/7082	G01F1/7082		205
+G01F1/7084	10	using thermal detecting arrangements	G01F1/7084	G01F1/7084		192
+G01F1/7086	10	using optical detecting arrangements	G01F1/7086	G01F1/7086		349
+G01F1/7088	10	using electrically charged particles as tracers	G01F1/7088	G01F1/7088		96
+G01F1/712	10	using auto-correlation or cross-correlation detection means	G01F1/712	G01F1/712		465
+G01F1/716	10	using electron paramagnetic resonance [EPR] or nuclear magnetic resonance [NMR]	G01F1/716	G01F1/716		143
+G01F1/72	8	Devices for measuring pulsing fluid flows	G01F1/72	G01F1/72		493
+G01F1/74	8	Devices for measuring flow of a fluid or flow of a fluent solid material in suspension in another fluid	G01F1/74	G01F1/74		2080
+G01F1/76	8	Devices for measuring mass flow of a fluid or a fluent solid material	G01F1/76	G01F1/76		630
+G01F1/78	9	Direct mass flowmeters	G01F1/78	G01F1/78		285
+G01F1/785	10	{using fluidic bridge circuits}	G01F1/78	G01F1/78		37
+G01F1/80	10	operating by measuring pressure, force, momentum, or frequency of a fluid flow to which a rotational movement has been imparted	G01F1/80	G01F1/80		309
+G01F1/82	11	using a driven wheel as impeller and one or more other wheels or moving elements which are angularly restrained by a resilient member, e.g. spring member as the measuring device	G01F1/82	G01F1/82		124
+G01F1/84	11	Coriolis or gyroscopic mass flowmeters	G01F1/84	G01F1/84		472
+G01F1/8404	12	{details of flowmeter manufacturing methods}	G01F1/84	G01F1/84		119
+G01F1/8409	12	{constructional details}	G01F1/84	G01F1/84		560
+G01F1/8413	13	{means for influencing the flowmeter&apos;s motional or vibrational behaviour, e.g., conduit support or fixing means, or conduit attachments}	G01F1/84	G01F1/84		781
+G01F1/8418	14	{motion or vibration balancing means}	G01F1/84	G01F1/84		263
+G01F1/8422	13	{exciters}	G01F1/84	G01F1/84		369
+G01F1/8427	13	{detectors}	G01F1/84	G01F1/84		352
+G01F1/8431	13	{electronic circuits}	G01F1/84	G01F1/84		403
+G01F1/8436	13	{signal processing}	G01F1/84	G01F1/84		701
+G01F1/844	13	{microfluidic or miniaturised flowmeters}	G01F1/84	G01F1/84		25
+G01F1/8445	14	{micromachined flowmeters}	G01F1/84	G01F1/84		52
+G01F1/845	12	{arrangements of measuring means, e.g., of measuring conduits}	G01F1/84	G01F1/84		72
+G01F1/8454	13	{rotating or rotatingly suspended measuring conduits}	G01F1/84	G01F1/84		88
+G01F1/8459	13	{vibrating means being located inside the measuring conduits}	G01F1/84	G01F1/84		34
+G01F1/8463	13	{the measuring conduits&apos; cross-section being deformed during measurement, e.g. by periodically deflecting a portion of the conduits&apos; surface}	G01F1/84	G01F1/84		30
+G01F1/8468	13	{vibrating measuring conduits}	G01F1/84	G01F1/84		131
+G01F1/8472	14	{having curved measuring conduits, i.e. whereby the measuring conduits&apos; curved center line lies within a plane (G01F1/8481 takes precedence)}	G01F1/84	G01F1/84		295
+G01F1/8477	15	{with multiple measuring conduits}	G01F1/84	G01F1/84		536
+G01F1/8481	14	{having loop-shaped measuring conduits, e.g. the measuring conduits form a loop with a crossing point}	G01F1/84	G01F1/84		71
+G01F1/8486	15	{with multiple measuring conduits}	G01F1/84	G01F1/84		150
+G01F1/849	14	{having straight measuring conduits}	G01F1/84	G01F1/84		393
+G01F1/8495	15	{with multiple measuring conduits}	G01F1/84	G01F1/84		148
+G01F1/86	9	Indirect mass flowmeters, e.g. measuring volume flow and density, temperature or pressure	G01F1/86	G01F1/86		946
+G01F1/88	10	with differential-pressure measurement to determine the volume flow	G01F1/88	G01F1/88		411
+G01F1/90	10	with positive-displacement meter or turbine meter to determine the volume flow	G01F1/90	G01F1/90		141
+G01F3/00	7	Measuring the volume flow of fluids or fluent solid material wherein the fluid passes through the meter in successive and more or less isolated quantities, the meter being driven by the flow (measuring a proportion of the volume flow G01F5/00)	G01F3/00	G01F3/00		239
+G01F3/02	8	with measuring chambers which expand or contract during measurement	G01F3/02	G01F3/02		28
+G01F3/04	9	having rigid movable walls	G01F3/04	G01F3/04		29
+G01F3/06	10	comprising members rotating in a fluid-tight or substantially fluid-tight manner in a housing	G01F3/06	G01F3/06		156
+G01F3/065	11	{sliding-vane meters}	G01F3/06	G01F3/06		135
+G01F3/08	11	Rotary-piston or ring-piston meters	G01F3/08	G01F3/08		410
+G01F3/10	11	Geared or lobed impeller meters	G01F3/10	G01F3/10		543
+G01F3/12	11	Meters with nutating members, e.g. discs	G01F3/12	G01F3/12		336
+G01F3/14	10	comprising reciprocating pistons, e.g. reciprocating in a rotating body	G01F3/14	G01F3/14		72
+G01F3/16	11	in stationary cylinders	G01F3/16	G01F3/16		501
+G01F3/18	12	involving two or more cylinders	G01F3/18	G01F3/18		489
+G01F3/20	9	having flexible movable walls, e.g. diaphragms, bellows	G01F3/20	G01F3/20		276
+G01F3/22	10	for gases	G01F3/22	G01F3/22		383
+G01F3/221	11	{Valves therefor (valves for flowmeters in general G01F15/005)}	G01F3/22	G01F3/22		263
+G01F3/222	11	{characterised by drive mechanism for valves or membrane index mechanism}	G01F3/22	G01F3/22		406
+G01F3/223	12	{with adjustment of stroke or timing; Calibration thereof; Testing}	G01F3/22	G01F3/22		98
+G01F3/224	12	{with means for pressure or temperature compensation}	G01F3/22	G01F3/22		70
+G01F3/225	11	{characterised by constructional features of membranes or by means for improving proper functioning of membranes (diaphragms for flowmeters in general G01F15/16)}	G01F3/22	G01F3/22		460
+G01F3/226	11	{characterised by features of meter body or housing}	G01F3/22	G01F3/22		433
+G01F3/227	11	{characterised by the means for transfer of membrane movement information to indicating means}	G01F3/22	G01F3/22		48
+G01F3/228	12	{using mechanical transmission means}	G01F3/22	G01F3/22		56
+G01F3/24	8	with measuring chambers moved during operation (wet gas-meters G01F3/30)	G01F3/24	G01F3/24		38
+G01F3/26	9	Tilting-trap meters	G01F3/26	G01F3/26		189
+G01F3/28	9	on carriers rotated by the weight of the liquid in the measuring chambers	G01F3/28	G01F3/28		218
+G01F3/30	8	Wet gas-meters	G01F3/30	G01F3/30		427
+G01F3/32	9	comprising partitioned drums rotating or nutating in a liquid	G01F3/32	G01F3/32		10
+G01F3/34	9	comprising bells reciprocating in a liquid	G01F3/34	G01F3/34		2
+G01F3/36	8	with stationary measuring chambers having constant volume during measurement (with measuring chambers which expand or contract during measurement G01F3/02)	G01F3/36	G01F3/36		276
+G01F3/38	9	having only one measuring chamber	G01F3/38	G01F3/38		500
+G01F5/00	7	Measuring a proportion of the volume flow	G01F5/00	G01F5/00		1392
+G01F5/005	8	{by measuring pressure or differential pressure, created by the use of flow constriction}	G01F5/00	G01F5/00		288
+G01F7/00	7	Volume-flow measuring devices with two or more measuring ranges; Compound meters	G01F7/00	G01F7/00		646
+G01F7/005	8	{by measuring pressure or differential pressure, created by the use of flow constriction}	G01F7/00	G01F7/00		162
+G01F9/00	7	Measuring volume flow relative to another variable, e.g. of liquid fuel for an engine	G01F9/00	G01F9/00		618
+G01F9/001	8	{with electric, electro-mechanic or electronic means (G01F9/008 and G01F9/02 take precedence)}	G01F9/00	G01F9/00		646
+G01F9/003	9	{by measuring the weight}	G01F9/00	G01F9/00		101
+G01F9/005	9	{by using calibrated reservoirs}	G01F9/00	G01F9/00		57
+G01F9/006	8	{with mechanic means (G01F9/008 and G01F9/02 take precedence)}	G01F9/00	G01F9/00		278
+G01F9/008	8	{where the other variable is the flight or running time}	G01F9/00	G01F9/00		226
+G01F9/02	8	wherein the other variable is the speed of a vehicle	G01F9/02	G01F9/02		97
+G01F9/023	9	{with electric, electro-mechanic or electronic means}	G01F9/02	G01F9/02		354
+G01F9/026	9	{with mechanic means}	G01F9/02	G01F9/02		82
+G01F11/00	7	Apparatus requiring external operation adapted at each repeated and identical operation to measure and separate a predetermined volume of fluid or fluent solid material from a supply or container, without regard to weight, and to deliver it	G01F11/00	G01F11/00		530
+G01F11/003	8	{for fluent solid material}	G01F11/00	G01F11/00		246
+G01F11/006	8	{Details or accessories (general details G01F15/00)}	G01F11/00	G01F11/00		194
+G01F11/02	8	with measuring chambers which expand or contract during measurement	G01F11/02	G01F11/02		173
+G01F11/021	9	{of the piston type (G01F11/04 takes precedence)}	G01F11/02	G01F11/02		1091
+G01F11/022	10	{of the gun type and actuated by fluid pressure or by a motor (air-operated grease guns F16N5/02; devices to fill holes or cracks B05C17/002)}	G01F11/02	G01F11/02		75
+G01F11/023	10	{with provision for varying the stroke of the piston}	G01F11/02	G01F11/02		298
+G01F11/024	10	{the pistons reciprocating in rotatable cylinders (dough-dividing machines with division boxes in a revolving body with radially-working pistons A21C5/04)}	G01F11/02	G01F11/02		134
+G01F11/025	10	{with manually operated pistons (G01F19/005 takes precedence)}	G01F11/02	G01F11/02		465
+G01F11/026	11	{of the gun type (hand operated grease guns F16N3/12)}	G01F11/02	G01F11/02		232
+G01F11/027	11	{of the syringe type}	G01F11/02	G01F11/02		217
+G01F11/028	11	{the dosing device being provided with a dip tube and fitted to a container, e.g. to a bottleneck}	G01F11/02	G01F11/02		403
+G01F11/029	10	{provided with electric controlling means (G01F11/022 and G01F11/024 take precedence)}	G01F11/02	G01F11/02		323
+G01F11/04	9	of the free-piston type	G01F11/04	G01F11/04		468
+G01F11/06	10	with provision for varying the stroke of the piston	G01F11/06	G01F11/06		156
+G01F11/08	9	of the diaphragm or bellows type	G01F11/08	G01F11/08		369
+G01F11/082	10	{of the squeeze container type (using squeeze bottles or the like for soap A47K5/122)}	G01F11/08	G01F11/08		136
+G01F11/084	10	{using a bulb to pressurise the fluid to be dispersed}	G01F11/08	G01F11/08		87
+G01F11/086	10	{using an auxiliary pressure to cooperate with the diaphragm or bellows}	G01F11/08	G01F11/08		152
+G01F11/088	10	{using a deformable conduit-like element}	G01F11/08	G01F11/08		136
+G01F11/10	8	with measuring chambers moved during operation	G01F11/10	G01F11/10		282
+G01F11/12	9	of the valve type, i.e. the separating being effected by fluid-tight or powder-tight movements (involving the tilting or inverting of the supply vessel G01F11/26)	G01F11/12	G01F11/12		140
+G01F11/125	10	{of the peristaltic pump type (peristaltic pumps per seF04B43/12)}	G01F11/12	G01F11/12		88
+G01F11/14	10	wherein the measuring chamber reciprocates	G01F11/14	G01F11/14		41
+G01F11/16	11	for liquid or semiliquid	G01F11/16	G01F11/16		156
+G01F11/18	11	for fluent solid material	G01F11/18	G01F11/18		487
+G01F11/20	10	wherein the measuring chamber rotates or oscillates	G01F11/20	G01F11/20		107
+G01F11/22	11	for liquid or semiliquid	G01F11/22	G01F11/22		358
+G01F11/24	11	for fluent solid material	G01F11/24	G01F11/24		1329
+G01F11/26	9	wherein the measuring chamber is filled and emptied by tilting or inverting the supply vessel, e.g. bottle-emptying apparatus	G01F11/26	G01F11/26		131
+G01F11/261	10	{for fluent solid material}	G01F11/26	G01F11/26		551
+G01F11/262	10	{for liquid or semi-liquid}	G01F11/26	G01F11/26		494
+G01F11/263	11	{with valves}	G01F11/26	G01F11/26		433
+G01F11/265	12	{of the ball type}	G01F11/26	G01F11/26		125
+G01F11/266	11	{using the syphonic effect}	G01F11/26	G01F11/26		88
+G01F11/267	10	{with counters for counting the numbers of measures delivered}	G01F11/26	G01F11/26		123
+G01F11/268	10	{with provision for varying the volume to be delivered}	G01F11/26	G01F11/26		108
+G01F11/28	8	with stationary measuring chambers having constant volume during measurement	G01F11/28	G01F11/28		863
+G01F11/282	9	{for fluent solid material not provided for in G01F11/34, G01F11/40, G01F11/46}	G01F11/28	G01F11/28		206
+G01F11/284	9	{combined with electric level detecting means (G01F11/282, G01F11/30&#160;-&#160;G01F11/46 take precedence)}	G01F11/28	G01F11/28		200
+G01F11/286	9	{where filling of the measuring chamber is effected by squeezing a supply container that is in fluid connection with the measuring chamber and excess fluid is sucked back from the measuring chamber during relaxation of the supply container}	G01F11/28	G01F11/28		298
+G01F11/288	9	{squeezing of the supply vessel causing filling of the measuring chamber and backflow from the measuring chamber to the supply vessel being prevented by a check valve (G01F11/46 take precedence)}	G01F11/28	G01F11/28		60
+G01F11/30	9	with supply and discharge valves of the lift or plug-lift type	G01F11/30	G01F11/30		47
+G01F11/32	10	for liquid or semiliquid	G01F11/32	G01F11/32		676
+G01F11/34	10	for fluent solid material	G01F11/34	G01F11/34		91
+G01F11/36	9	with supply or discharge valves of the rectilinearly-moved slide type	G01F11/36	G01F11/36		31
+G01F11/38	10	for liquid or semiliquid	G01F11/38	G01F11/38		106
+G01F11/40	10	for fluent solid material	G01F11/40	G01F11/40		240
+G01F11/42	9	with supply or discharge valves of the rotary or oscillatory type	G01F11/42	G01F11/42		37
+G01F11/44	10	for liquid or semiliquid	G01F11/44	G01F11/44		294
+G01F11/46	10	for fluent solid material	G01F11/46	G01F11/46		190
+G01F13/00	7	Apparatus for measuring by volume and delivering fluids or fluent solid materials, not provided for in the preceding groups	G01F13/00	G01F13/00		663
+G01F13/001	8	{for fluent solid material}	G01F13/00	G01F13/00		325
+G01F13/003	9	{comprising a conveyor belt}	G01F13/00	G01F13/00		136
+G01F13/005	9	{comprising a screw conveyor}	G01F13/00	G01F13/00		316
+G01F13/006	8	{measuring volume in function of time}	G01F13/00	G01F13/00		578
+G01F13/008	8	{taps comprising counting- and recording means (counting devices, counting of objects in general G06M)}	G01F13/00	G01F13/00		189
+G01F15/00	7	Details of, or accessories for, apparatus of groups G01F1/00 - G01F13/00 insofar as such details or appliances are not adapted to particular types of such apparatus	G01F15/00	G01F15/00		3165
+G01F15/001	8	{Means for regulating or setting the meter for a predetermined quantity}	G01F15/00	G01F15/00		542
+G01F15/002	9	{for gases}	G01F15/00	G01F15/00		271
+G01F15/003	9	{using electromagnetic, electric or electronic means (G01F15/002, G01F15/02 take precedence)}	G01F15/00	G01F15/00		443
+G01F15/005	8	{Valves (valves in general F16K)}	G01F15/00	G01F15/00		1714
+G01F15/006	8	{characterised by the use of a particular material, e.g. anti-corrosive material (G01F15/14 takes precedence)}	G01F15/00	G01F15/00		490
+G01F15/007	8	{comprising means to prevent fraud}	G01F15/00	G01F15/00		618
+G01F15/008	8	{comprising lubricating means}	G01F15/00	G01F15/00		86
+G01F15/02	8	Compensating or correcting for variations in pressure, density or temperature	G01F15/02	G01F15/02		866
+G01F15/022	9	{using electrical means}	G01F15/02	G01F15/02		328
+G01F15/024	10	{involving digital counting}	G01F15/02	G01F15/02		568
+G01F15/026	9	{using means to maintain zero differential pressure across the motor (G01F1/08 and G01F1/12 take precedence)}	G01F15/02	G01F15/02		56
+G01F15/028	9	{for low flow rates}	G01F15/02	G01F15/02		97
+G01F15/04	9	of gases to be measured	G01F15/04	G01F15/04		488
+G01F15/043	10	{using electrical means}	G01F15/04	G01F15/04		158
+G01F15/046	11	{involving digital counting}	G01F15/04	G01F15/04		209
+G01F15/06	8	Indicating or recording devices	G01F15/06	G01F15/06		1459
+G01F15/061	9	for remote indication	G01F15/061	G01F15/061		771
+G01F15/063	10	using electrical means	G01F15/063	G01F15/063		1933
+G01F15/065	9	{with transmission devices, e.g. mechanical}	G01F15/06	G01F15/06		419
+G01F15/066	10	{involving magnetic transmission devices}	G01F15/06	G01F15/06		476
+G01F15/068	9	{with electrical means (G01F15/063 takes precedence)}	G01F15/06	G01F15/06		528
+G01F15/07	8	Integration to give total flow, e.g. using mechanically-operated integrating mechanism	G01F15/07	G01F15/07		760
+G01F15/075	9	using electrically-operated integrating means	G01F15/075	G01F15/075		424
+G01F15/0755	10	{involving digital counting}	G01F15/075	G01F15/075		705
+G01F15/08	8	Air or gas separators in combination with liquid meters; Liquid separators in combination with gas-meters	G01F15/08	G01F15/08		642
+G01F15/10	8	Preventing damage by freezing or excess pressure or insufficient pressure	G01F15/10	G01F15/10		993
+G01F15/105	9	{Preventing damage by hydraulic shocks}	G01F15/10	G01F15/10		132
+G01F15/12	8	Cleaning arrangements; Filters	G01F15/12	G01F15/12		850
+G01F15/125	9	{Filters}	G01F15/12	G01F15/12		654
+G01F15/14	8	Casings, e.g. of special material	G01F15/14	G01F15/14		3464
+G01F15/16	8	Diaphragms; Bellows; Mountings therefor	G01F15/16	G01F15/16		133
+G01F15/18	8	Supports or connecting means for meters	G01F15/18	G01F15/18		2270
+G01F15/185	9	{Connecting means, e.g. bypass conduits}	G01F15/18	G01F15/18		2217
+G01F17/00	7	Methods or apparatus for determining the capacity of containers or cavities, or the volume of solid bodies (measuring linear dimensions to determine volume G01B)	G01F17/00	G01F17/00		1591
+G01F19/00	7	Calibrated capacity measures for fluids or fluent solid material, e.g. measuring cups	G01F19/00	G01F19/00		1846
+G01F19/002	8	{Measuring spoons or scoops}	G01F19/00	G01F19/00		526
+G01F19/005	8	{for semi-liquid, e.g. fat}	G01F19/00	G01F19/00		90
+G01F19/007	8	{for non fluent solid material, e.g. filamentary}	G01F19/00	G01F19/00		61
+G01F22/00	7	Methods or apparatus for measuring volume of fluids or fluent solid material, not otherwise provided for	G01F22/00	G01F22/00		1903
+G01F22/02	8	involving measurement of pressure	G01F22/02	G01F22/02		685
+G01F23/00	7	Indicating or measuring liquid level or level of fluent solid material, e.g. indicating in terms of volume or indicating by means of an alarm	G01F23/00	G01F23/00		4636
+G01F23/0007	8	{for discrete indicating and measuring (G01F23/02&#160;-&#160;G01F23/28 take precedence)}	G01F23/00	G01F23/00		1237
+G01F23/0015	9	{with a whistle or other sonorous signal}	G01F23/00	G01F23/00		404
+G01F23/0023	8	{with a probe suspended by a wire or thread (with floats G01F23/40)}	G01F23/00	G01F23/00		711
+G01F23/003	8	{with a probe suspended by rotatable arms (with floats G01F23/32)}	G01F23/00	G01F23/00		130
+G01F23/0038	8	{using buoyant probes (with floats G01F23/30&#160;-&#160;G01F23/76)}	G01F23/00	G01F23/00		438
+G01F23/0046	8	{with a stationary probe, where a liquid specimen is separated from the mean mass and measured (by gauge glasses G01F23/02)}	G01F23/00	G01F23/00		207
+G01F23/0053	8	{with over-flow pipes}	G01F23/00	G01F23/00		99
+G01F23/02	8	by gauge glasses or other apparatus involving a window or transparent tube for directly observing the level to be measured or the level of a liquid column in free communication with the main body of the liquid	G01F23/02	G01F23/02		2574
+G01F23/04	8	by dip members, e.g. dip-sticks	G01F23/04	G01F23/04		1896
+G01F23/045	9	{cleaning means therefor (e.g. dip-stick wipers)}	G01F23/04	G01F23/04		282
+G01F23/14	8	by measurement of pressure	G01F23/14	G01F23/14		1932
+G01F23/16	9	Indicating, recording, or alarm devices being actuated by mechanical or fluid means, e.g. using gas, mercury, or a diaphragm as transmitting element, or by a column of liquid	G01F23/16	G01F23/16		690
+G01F23/161	10	{for discrete levels (G01F23/162 - G01F23/165 take precedence)}	G01F23/16	G01F23/16		232
+G01F23/162	10	{by a liquid column}	G01F23/16	G01F23/16		534
+G01F23/164	10	{using a diaphragm, bellow as transmitting element}	G01F23/16	G01F23/16		392
+G01F23/165	10	{of bubbler type}	G01F23/16	G01F23/16		157
+G01F23/167	11	{with mechanic or fluid indicating or recording}	G01F23/16	G01F23/16		296
+G01F23/168	11	{with electric indicating or recording}	G01F23/16	G01F23/16		127
+G01F23/18	9	Indicating, recording or alarm devices actuated electrically	G01F23/18	G01F23/18		1068
+G01F23/185	10	{for discrete levels}	G01F23/18	G01F23/18		396
+G01F23/20	8	by measurement of weight, e.g. to determine the level of stored liquefied gas	G01F23/20	G01F23/20		837
+G01F23/205	9	{for discrete levels}	G01F23/20	G01F23/20		115
+G01F23/22	8	by measuring physical variables, other than linear dimensions, pressure or weight, dependent on the level to be measured, e.g. by difference of heat transfer of steam or water (involving the use of floats G01F23/30)	G01F23/22	G01F23/22		1643
+G01F23/223	9	{using a melting or dissolving material as a part of alarm-means}	G01F23/22	G01F23/22		31
+G01F23/226	9	{measuring the braking of a rotatable element}	G01F23/22	G01F23/22		152
+G01F23/24	9	by measuring variations of resistance of resistors due to contact with conductor fluid	G01F23/24	G01F23/24		1077
+G01F23/241	10	{for discrete levels}	G01F23/24	G01F23/24		869
+G01F23/242	11	{Mounting arrangements for electrodes}	G01F23/24	G01F23/24		625
+G01F23/243	11	{Schematic arrangements of probes combined with measuring circuits}	G01F23/24	G01F23/24		510
+G01F23/244	12	{comprising oscillating circuits}	G01F23/24	G01F23/24		93
+G01F23/245	10	{with a probe moved by an auxiliary power, e.g. meter, to follow automatically the level}	G01F23/24	G01F23/24		215
+G01F23/246	10	{thermal devices}	G01F23/24	G01F23/24		534
+G01F23/247	11	{for discrete levels}	G01F23/24	G01F23/24		555
+G01F23/248	12	{Constructional details; Mounting of probes}	G01F23/24	G01F23/24		282
+G01F23/26	9	by measuring variations of capacity or inductance of capacitors or inductors arising from the presence of liquid or fluent solid material in the electric or electromagnetic fields	G01F23/26	G01F23/26		1078
+G01F23/261	10	{for discrete levels}	G01F23/26	G01F23/26		205
+G01F23/263	10	by measuring variations in capacitance of capacitors	G01F23/263	G01F23/263		1728
+G01F23/265	11	{for discrete levels}	G01F23/263	G01F23/26		728
+G01F23/266	11	{measuring circuits therefor}	G01F23/263	G01F23/26		1263
+G01F23/268	11	{mounting arrangements of probes}	G01F23/263	G01F23/26		1303
+G01F23/28	9	by measuring the variations of parameters of electromagnetic or acoustic waves applied directly to the liquid or fluent solid material	G01F23/28	G01F23/28		546
+G01F23/282	10	{for discrete levels (G01F23/284, G01F23/296 take precedence)}	G01F23/28	G01F23/28		47
+G01F23/284	10	Electromagnetic waves	G01F23/284	G01F23/284		3138
+G01F23/2845	11	{for discrete levels (G01F23/288, G01F23/292 take precedence)}	G01F23/284	G01F23/284		154
+G01F23/288	11	X-rays; Gamma rays {or other forms of ionising radiation}	G01F23/288	G01F23/288		430
+G01F23/2885	12	{for discrete levels}	G01F23/288	G01F23/288		130
+G01F23/292	11	Light {, e.g. infrared or ultraviolet}	G01F23/292	G01F23/292		2633
+G01F23/2921	12	{for discrete levels}	G01F23/292	G01F23/292		683
+G01F23/2922	13	{with light-conducting sensing elements, e.g. prisms}	G01F23/292	G01F23/292		307
+G01F23/2924	14	{for several discrete levels, e.g. with more than one light-conducting sensing element (G01F23/2927 takes precedence)}	G01F23/292	G01F23/292		118
+G01F23/2925	14	{using electrical detecting means}	G01F23/292	G01F23/292		279
+G01F23/2927	15	{for several discrete levels, e.g. with more than one light-conducting sensing element}	G01F23/292	G01F23/292		193
+G01F23/2928	13	{using light reflected on the material surface}	G01F23/292	G01F23/292		353
+G01F23/296	10	Acoustic waves	G01F23/296	G01F23/296		1902
+G01F23/2961	11	{for discrete levels (G01F23/2962&#160;-&#160;G01F23/2968 take precedence)}	G01F23/296	G01F23/296		384
+G01F23/2962	11	Measuring transit time of reflected waves	G01F23/2962	G01F23/2962		1529
+G01F23/2963	12	{magnetostrictive}	G01F23/2962	G01F23/296		95
+G01F23/2965	11	Measuring attenuation of transmitted waves	G01F23/2965	G01F23/2965		297
+G01F23/2966	11	{making use of acoustical resonance or standing waves}	G01F23/296	G01F23/296		419
+G01F23/2967	12	{for discrete levels}	G01F23/296	G01F23/296		530
+G01F23/2968	11	{Transducers specially adapted for acoustic level indicators}	G01F23/296	G01F23/296		416
+G01F23/30	8	by floats	G01F23/30	G01F23/30		1327
+G01F23/303	9	{characterised by means to prevent fault-level readings due to turbulence of the fluid, e.g. special float housings}	G01F23/30	G01F23/30		157
+G01F23/306	9	{using radioactive radiation}	G01F23/30	G01F23/30		17
+G01F23/32	9	using rotatable arms or other pivotable transmission elements	G01F23/32	G01F23/32		647
+G01F23/34	10	using mechanically actuated indicating means {(G01F23/38 takes precedence)}	G01F23/34	G01F23/34		789
+G01F23/345	11	{using pneumatically or hydraulically actuated indicating means}	G01F23/34	G01F23/34		50
+G01F23/36	10	using electrically actuated indicating means {(G01F23/38 takes precedence)}	G01F23/36	G01F23/36		1232
+G01F23/363	11	{using electromechanically actuated indicating means}	G01F23/36	G01F23/36		261
+G01F23/366	11	{using optoelectrically actuated indicating means}	G01F23/36	G01F23/36		67
+G01F23/38	10	using magnetically actuated indicating means	G01F23/38	G01F23/38		581
+G01F23/40	9	using bands or wires as transmission elements	G01F23/40	G01F23/40		298
+G01F23/42	10	using mechanically actuated indicating means	G01F23/42	G01F23/42		595
+G01F23/425	11	{using pneumatically or hydraulically actuated indicating means}	G01F23/42	G01F23/42		9
+G01F23/44	10	using electrically actuated indicating means	G01F23/44	G01F23/44		423
+G01F23/443	11	{using electromechanically actuated indicating means}	G01F23/44	G01F23/44		47
+G01F23/446	11	{using opto-electrically actuated indicating means}	G01F23/44	G01F23/44		68
+G01F23/46	10	using magnetically actuated indicating means	G01F23/46	G01F23/46		109
+G01F23/48	9	using twisted spindles as transmission elements	G01F23/48	G01F23/48		24
+G01F23/50	10	using mechanically actuated indicating means	G01F23/50	G01F23/50		214
+G01F23/505	11	{using hydraulically or pneumatically actuated indicating means}	G01F23/50	G01F23/50		2
+G01F23/52	10	using electrically actuated indicating means	G01F23/52	G01F23/52		59
+G01F23/523	11	{using electromechanically actuated indicating means}	G01F23/52	G01F23/52		2
+G01F23/526	11	{using opto-electrically actuated indicating means}	G01F23/52	G01F23/52		4
+G01F23/54	10	using magnetically actuated indicating means	G01F23/54	G01F23/54		19
+G01F23/543	11	{using magnets only as coupling means in a mechanical transmission path}	G01F23/54	G01F23/54		8
+G01F23/546	11	{using magnets only for directly actuating of switches}	G01F23/54	G01F23/54		8
+G01F23/56	9	using elements rigidly fixed to, and rectilinearly moving with, the floats as transmission elements	G01F23/56	G01F23/56		630
+G01F23/58	10	using mechanically actuated indicating means	G01F23/58	G01F23/58		757
+G01F23/585	11	{using pneumatically or hydraulically actuated indicating means}	G01F23/58	G01F23/58		57
+G01F23/60	10	using electrically actuated indicating means	G01F23/60	G01F23/60		543
+G01F23/603	11	{using electromechanically actuated indicating means}	G01F23/60	G01F23/60		136
+G01F23/606	11	{using opto-electrically actuated indicating means}	G01F23/60	G01F23/60		90
+G01F23/62	10	using magnetically actuated indicating means	G01F23/62	G01F23/62		424
+G01F23/64	9	of the free float type {without mechanical transmission elements}	G01F23/64	G01F23/64		726
+G01F23/66	10	using mechanically actuated indicating means	G01F23/66	G01F23/66		329
+G01F23/665	11	{using pneumatically or hydraulically actuated indicating means}	G01F23/66	G01F23/66		40
+G01F23/68	10	using electrically actuated indicating means	G01F23/68	G01F23/68		644
+G01F23/683	11	{using electromechanically actuated indicating means}	G01F23/68	G01F23/68		85
+G01F23/686	11	{using opto-electrically actuated indicating means}	G01F23/68	G01F23/68		194
+G01F23/70	11	for sensing changes in level only at discrete points	G01F23/70	G01F23/70		427
+G01F23/703	12	{using electromechanically actuated indicating means}	G01F23/70	G01F23/70		79
+G01F23/706	12	{using opto-electrically actuated indicating means}	G01F23/70	G01F23/70		95
+G01F23/72	10	using magnetically actuated indicating means	G01F23/72	G01F23/72		909
+G01F23/74	11	for sensing changes in level only at discrete points	G01F23/74	G01F23/74		835
+G01F23/76	9	characterised by the construction of the float	G01F23/76	G01F23/76		961
+G01F23/80	8	Arrangements for signal processing	G01F23/80	G01F23/80		1364
+G01F23/802	9	{Particular electronic circuits for digital processing equipment}	G01F23/80	G01F23/80		703
+G01F23/804	10	{containing circuits handling parameters other than liquid level}	G01F23/80	G01F23/80		1092
+G01F23/806	9	{Particular electronic circuits for handling non-digital processing equipment}	G01F23/80	G01F23/80		75
+G01F23/808	10	{containing circuits handling parameters other than liquid level}	G01F23/80	G01F23/80		90
+G01F25/00	7	Testing or calibration of apparatus for measuring volume, volume flow or liquid level or for metering by volume	G01F25/00	G01F25/00		700
+G01F25/0084	8	{for measuring volume}	G01F25/00	G01F25/00		318
+G01F25/0092	8	{for metering by volume}	G01F25/00	G01F25/00		361
+G01F25/10	8	of flowmeters	G01F25/10	G01F25/10		3233
+G01F25/11	9	{using a seal ball or piston in a test loop}	G01F25/10	G01F25/11		275
+G01F25/12	9	{using tracer}	G01F25/10	G01F25/12		28
+G01F25/13	9	{using a reference counter}	G01F25/10	G01F25/13		324
+G01F25/14	9	{using a weighing apparatus}	G01F25/10	G01F25/14		186
+G01F25/15	9	{specially adapted for gas meters (G01F25/11 - G01F25/14, G01F25/17 take precedence)}	G01F25/10	G01F25/15		888
+G01F25/17	9	using calibrated reservoirs	G01F25/17	G01F25/17		321
+G01F25/20	8	of apparatus for measuring liquid level	G01F25/20	G01F25/20		1523
+G01F25/22	9	{Checking proper indicating of discrete level by floats}	G01F25/20	G01F25/22		95
+G01F25/24	9	{Testing proper functioning of electronic circuits}	G01F25/20	G01F25/24		201

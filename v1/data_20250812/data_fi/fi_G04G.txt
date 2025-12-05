@@ -1,0 +1,268 @@
+G04G   3/00  \	0	0	2F002	G04G   3/00	1290	タイミングパルスの発生（ステップモーターの駆動回路Ｇ０４Ｃ３／１４；時間標準として使用されるあらかじめ選定された時間間隔の発生Ｇ０４Ｆ５／００；パルス技術一般Ｈ０３Ｋ；発生器の制御，同期または安定化一般Ｈ０３Ｌ）［３］	Producing timing pulses (driving circuits for stepping motors G04C 3/14; producing preselected time intervals for use as timing standards G04F 5/00; pulse technique in general H03K; control, synchronisation, or stabilisation of generators in general H03L) [3]
+G04G   3/00  A	0	0	2F002	G04G   3/00	160	構造	Structure
+G04G   3/00  B	0	1	2F002	G04G   3/00	210	振動子，振動子支持	Oscillators  and supports thereof
+G04G   3/00  C	0	2	2F002	G04G   3/00	272	振動子ケ−ス，配置	Oscillator cases and layout thereof
+G04G   3/00  D	0	1	2F002	G04G   3/00	107	コンデンサ	Capacitors
+G04G   3/00  E	0	1	2F002	G04G   3/00	103	緩急	Tempo
+G04G   3/00  F	0	0	2F002	G04G   3/00	133	回路	Circuits
+G04G   3/00  G	0	1	2F002	G04G   3/00	132	電源回路	Power supply circuit
+G04G   3/00  H	0	1	2F002	G04G   3/00	182	商用周波利用	Using commercial frequency
+G04G   3/00  J	0	1	2F002	G04G   3/00	197	複数発振	Multiple oscillations
+G04G   3/00  K	0	1	2F002	G04G   3/00	172	発振回路	Oscillator circuit
+G04G   3/00  M	0	2	2F002	G04G   3/00	159	緩急	Tempo
+G04G   3/00  N	0	2	2F002	G04G   3/00	42	水晶振動子を用いない発振回路	Oscillator circuit without using crystal oscillator
+G04G   3/00  Z	0	0	2F002	G04G   3/00	44	その他のもの	Others
+G04G   3/02  \	1	1	2F002	G04G   3/02	441	高周波パルスから低周波タイミングパルスを導出する回路（パルス周波数分割器一般Ｈ０３Ｋ２３／００〜Ｈ０３Ｋ２９／００）［３］	Circuits for deriving low frequency timing pulses from pulses of higher frequency (pulse frequency dividers in general H03K 23/00-H03K 29/00) [3]
+G04G   3/02  A	1	0	2F002	G04G   3/02	125	分周比を可変するもの	wherein frequency dividing ratio is variable
+G04G   3/02  B	1	0	2F002	G04G   3/02	112	分周比を記憶するもの	wherein frequency dividing ratio is stored
+G04G   3/02  C	1	0	2F002	G04G   3/02	199	分周比を設定するもの	wherein frequency dividing ratio is set
+G04G   3/02  D	1	0	2F002	G04G   3/02	119	温度補償	Temperature compensation
+G04G   3/02  E	1	0	2F002	G04G   3/02	143	外部信号を利用するもの	Using external signals
+G04G   3/02  F	1	0	2F002	G04G   3/02	46	付加機能をもつもの	With additional functions
+G04G   3/02  Z	1	0	2F002	G04G   3/02	163	その他のもの	Others
+G04G   3/04  \	1	1	2F002	G04G   3/04	196	温度補正装置［７］	Temperature-compensating arrangements
+G04G   5/00  \	0	0	2F002	G04G   5/00	1308	表示時刻の設定，すなわち修正または変更（電波時計Ｇ０４Ｒ）［３，２０１３．０１］	Setting, i.e. correcting or changing, the time-indication (radio-controlled time-pieces G04R) [3,2013.01]
+G04G   5/00  A	0	0	2F002	G04G   5/00	33	循環レジスタを有する時計の時刻設定	Setting the time for time-pieces with circulating register
+G04G   5/00  B	0	0	2F002	G04G   5/00	33	エレクトロクロミツク表示を有する時計の時刻設定	Setting the time for time-pieces with E.C.D.
+G04G   5/00  C	0	0	2F002	G04G   5/00	29	針状表示を有する時計の時刻設定	Setting the time for time-pieces with hand state
+G04G   5/00  D	0	0	2F002	G04G   5/00	113	日付の時刻設定	Setting the time for date
+G04G   5/00  F	0	0	2F002	G04G   5/00	199	表示手段を用いて修正状態を指示するもの	Indicating the corrected state using the indicating means
+G04G   5/00  G	0	1	2F002	G04G   5/00	73	音によるもの	By sound
+G04G   5/00  H	0	1	2F002	G04G   5/00	75	修正桁が指示されるもの	wherein corrected digits are indicated
+G04G   5/00  J	0	0	2F002	G04G   5/00	3135	他の標準時計の時刻を転送するもの	wherein the time of other standard clock is transferred
+G04G   5/00  K	0	0	2F002	G04G   5/00	19	上位桁への桁上げ信号を禁止させる手段を有するもの	With means for disabling signals of carrying over to higher digits
+G04G   5/00  L	0	0	2F002	G04G   5/00	124	カウンタのリセツトによるもの	By counter resetting
+G04G   5/00  M	0	1	2F002	G04G   5/00	82	カウンタの内容に応じて上位桁へ桁上げ信号を送るもの	wherein signals to carry over to higher digits are sent according to the counter reading
+G04G   5/00  N	0	0	2F002	G04G   5/00	166	誤動作防止手段を有するもの	With means for preventing operation errors
+G04G   5/00  Q	0	0	2F002	G04G   5/00	183	ラジオ放送により作動状態に入るもの	brought into action by radio transmission
+G04G   5/00  R	0	0	2F002	G04G   5/00	121	進みと遅れが修正できるもの	wherein gain and loss can be corrected
+G04G   5/00  S	0	1	2F002	G04G   5/00	99	アツプダウンカウンタを用いるもの	Using up-down counters
+G04G   5/00  T	0	1	2F002	G04G   5/00	112	入力手段の操作方向によるもの	By input means operating direction
+G04G   5/00  Z	0	0	2F002	G04G   5/00	580	その他	Others
+G04G   5/02  \	1	1	2F002	G04G   5/02	358	単位時間当りのパルス数の一時的変更によるもの，例．早送り方法［３］	by temporarily changing the number of pulses per unit time, e.g. quick-feed method [3]
+G04G   5/02  A	1	0	2F002	G04G   5/02	163	早送り手段	Quick feed method
+G04G   5/02  B	1	1	2F002	G04G   5/02	72	異なる同期パルスを選択するもの	wherein different sync pulses are selected
+G04G   5/02  C	1	2	2F002	G04G   5/02	19	連続的に選択するもの	Continuous selection
+G04G   5/02  D	1	1	2F002	G04G   5/02	41	所定単位毎のもの	For each specified nit
+G04G   5/02  E	1	1	2F002	G04G   5/02	28	設定された値まで早送りするもの	Quick feed to the set value
+G04G   5/02  Z	1	0	2F002	G04G   5/02	56	その他	Others
+G04G   5/04  \	1	1	2F002	G04G   5/04	317	各表示値，例．日付，時刻，を独立して設定することによるもの［３］	by setting each of the displayed values, e.g. date, hour, independently [3]
+G04G   5/04  A	1	0	2F002	G04G   5/04	49	桁毎の修正スイツチによるもの	By a correction switch for each digit
+G04G   5/04  B	1	0	2F002	G04G   5/04	22	修正桁選択用スイツチと修正スイツチによるもの	By correction digit selector switch and correction switch
+G04G   5/04  D	1	1	2F002	G04G   5/04	30	修正桁選択用スイツチを１つの操作部材で行なうもの	wherein correction digit selector switch is controlled by one operating member
+G04G   5/04  E	1	2	2F002	G04G   5/04	101	カウンタを用いて桁選択を行うもの	wherein digits are selected by counters
+G04G   5/04  F	1	3	2F002	G04G   5/04	190	日付・時刻等を切換表示するもの	wherein date and time are switched and indicated
+G04G   5/04  H	1	3	2F002	G04G   5/04	26	修正と修正桁選択を１つの操作部材で行なうもの	wherein correction and correction digit selection are controlled by one operating member
+G04G   5/04  J	1	0	2F002	G04G   5/04	28	数値入力手段を用いるもの	Using numerical input means
+G04G   5/04  K	1	1	2F002	G04G   5/04	173	キ−ボ−ドによるもの	By keyboards
+G04G   5/04  L	1	2	2F002	G04G   5/04	21	修正桁指定キ−を有するもの	With correction digit designation keys
+G04G   5/04  Z	1	0	2F002	G04G   5/04	35	その他	Others
+G04G   7/00  \	0	0	2F002	G04G   7/00	506	同期化（電波時計Ｇ０４Ｒ）［３］	Synchronisation (radio-controlled time-pieces G04R) [3]
+G04G   7/00 301 \	1	1	2F002	G04G   7/00	406	無線によるもの	by radio
+G04G   9/00  \	0	0	2F002	G04G   9/00	4357	時刻または日付の視覚的表示手段［３］	Visual time or date indication means [3]
+G04G   9/00 301 \	1	1	2F002	G04G   9/00	3	構造	Structure
+G04G   9/00 301 A	1	0	2F002	G04G   9/00	114	複数表示素子部	Multiple indicating element units
+G04G   9/00 301 B	1	0	2F002	G04G   9/00	156	複数表示素子の平面的配置	Plane layout of multiple indicating elements
+G04G   9/00 301 C	1	0	2F002	G04G   9/00	194	複数表示素子の垂直的配置	Vertical layout of multiple indicating elements
+G04G   9/00 301 D	1	0	2F002	G04G   9/00	105	表示部の配線	Wiring fo indicators
+G04G   9/00 301 E	1	0	2F002	G04G   9/00	97	表示内容の平面的配置	plane layout of  indications
+G04G   9/00 301 F	1	1	2F002	G04G   9/00	79	表示桁〔デジツト〕の配置	Layout of indicated digits
+G04G   9/00 301 Z	1	0	2F002	G04G   9/00	792	その他	Others
+G04G   9/00 302 \	1	1	2F002	G04G   9/00	2	表示素子	Indicating elements
+G04G   9/00 302 A	1	0	2F002	G04G   9/00	205	エレクトロクロミツク	EC
+G04G   9/00 302 B	1	0	2F002	G04G   9/00	189	発光ダイオ−ド	Light emitting diode
+G04G   9/00 302 C	1	0	2F002	G04G   9/00	43	ＰＬＺＴ，ＰＬＨＴ，強誘電セラミツク	PLZT, PLHT and highly dielectric ceramics
+G04G   9/00 302 D	1	0	2F002	G04G   9/00	122	ＥＬ	EL
+G04G   9/00 302 E	1	0	2F002	G04G   9/00	70	蛍光表示管	Fluorescent indication tube
+G04G   9/00 302 F	1	0	2F002	G04G   9/00	50	表示用放電管，例．ネオン管	Discharge tube for indications, e.g. neon
+G04G   9/00 302 Z	1	0	2F002	G04G   9/00	128	その他	Others
+G04G   9/00 303 \	1	1	2F002	G04G   9/00	6	表示形態	Forms of indications
+G04G   9/00 303 A	1	0	2F002	G04G   9/00	103	デジタル表示	Digital indication
+G04G   9/00 303 B	1	0	2F002	G04G   9/00	178	ドツトマトリツクス表示	Dot-matrix indication
+G04G   9/00 303 C	1	0	2F002	G04G   9/00	608	デイジタル表示とアナログ表示の複合	Composite forms of digital and analog indications
+G04G   9/00 303 D	1	0	2F002	G04G   9/00	237	模様〔アニメ〕，図柄	Pattern (animated), design
+G04G   9/00 303 E	1	0	2F002	G04G   9/00	287	カラ−による表示	Indication by colors
+G04G   9/00 303 Z	1	0	2F002	G04G   9/00	221	その他	Others
+G04G   9/00 304 \	1	1	2F002	G04G   9/00	7	表示内容	Indications
+G04G   9/00 304 A	1	0	2F002	G04G   9/00	198	秒	Second
+G04G   9/00 304 B	1	0	2F002	G04G   9/00	210	午前，午後，２４時間制	Morning, afternoon and 24-hour system
+G04G   9/00 304 C	1	0	2F002	G04G   9/00	149	カレンダ	Calendar
+G04G   9/00 304 D	1	1	2F002	G04G   9/00	195	月，日	Month and date
+G04G   9/00 304 E	1	1	2F002	G04G   9/00	238	曜	Day of the week
+G04G   9/00 304 F	1	1	2F002	G04G   9/00	194	カレンダ表	Calendar table
+G04G   9/00 304 G	1	0	2F002	G04G   9/00	129	単位表示	Unit  indication
+G04G   9/00 304 Z	1	0	2F002	G04G   9/00	290	その他	Others
+G04G   9/00 305 \	1	1	2F002	G04G   9/00	1156	表示切換	Indication switching
+G04G   9/00 306 \	1	1	2F002	G04G   9/00	1	表示駆動	Indication drive
+G04G   9/00 306 A	1	0	2F002	G04G   9/00	276	時分割駆動	Time division drive
+G04G   9/00 306 B	1	0	2F002	G04G   9/00	169	輝度制御	Luminance control
+G04G   9/00 306 Z	1	0	2F002	G04G   9/00	508	その他	Others
+G04G   9/00 307 \	1	1	2F002	G04G   9/00	255	表示点灯	Lighting of indication lamp
+G04G   9/00 308 \	1	1	2F002	G04G   9/00	4	表示部照明	Indication illumination
+G04G   9/00 308 A	1	0	2F002	G04G   9/00	220	照明回路	Illumination circuit
+G04G   9/00 308 B	1	0	2F002	G04G   9/00	139	板状光源〔ＥＬ〕によるもの	By plate-formed light source (EL)
+G04G   9/00 308 C	1	0	2F002	G04G   9/00	69	夜光塗料，蓄光物質によるもの	By luminous paint sand luminous materials
+G04G   9/00 308 Z	1	0	2F002	G04G   9/00	430	その他	Others
+G04G   9/02  \	1	1	2F002	G04G   9/02	8	多数の文字から所望の文字を選択することによるものまたは位置により時刻を表す表示素子を選択することによるもの，例．マルチプレックス技術の使用によるもの［３］	by selecting desired characters out of a number of characters or by selecting indicating elements the position of which represent the time, e.g. by using multiplexing techniques [3]
+G04G   9/02  A	1	0	2F002	G04G   9/02	648	アナログ表示	Analog display
+G04G   9/02  Z	1	0	2F002	G04G   9/02	5	その他	Others
+G04G   9/04  \	2	2	2F002	G04G   9/04	37	光源，例．発光ダイオード，を制御することによるもの［３］	by controlling light sources, e.g. electroluminescent diodes [3]
+G04G   9/06  \	2	2	2F002	G04G   9/06	38	光弁，例．液晶，を使用するもの［３］	using light valves, e.g. liquid crystals [3]
+G04G   9/08  \	1	1	2F002	G04G   9/08	124	表示素子の組合せを使用して文字を構成することによるもの，例．マルチプレックス技術を使用することによるもの［３］	by building-up characters using a combination of indicating elements, e.g. by using multiplexing techniques [3]
+G04G   9/08  A	1	0	2F002	G04G   9/08	232	セグメント構成に特徴	Characterized by segment configuration
+G04G   9/08  Z	1	0	2F002	G04G   9/08	4	その他	Others
+G04G   9/10  \	2	2	2F002	G04G   9/10	3	光源，例．発光ダイオード，を制御することによるもの［３］	by controlling light sources, e.g. electroluminescent diodes [3]
+G04G   9/12  \	2	2	2F002	G04G   9/12	28	光弁，例．液晶，を使用するもの［３］	using light valves, e.g. liquid crystals [3]
+G04G  11/00  \	0	0	2F002	G04G  11/00	272	あらかじめ選定された時刻に光学的信号を発生するもの［３］	Producing optical signals at preselected times [3]
+G04G  13/00  \	0	0	2F002	G04G  13/00	785	音響的時刻信号を発生するもの［３］	Producing acoustic time signals [3]
+G04G  13/00  A	0	0	2F002	G04G  13/00	326	時打	Clock watch
+G04G  13/00  E	0	0	2F002	G04G  13/00	347	音声によるもの	By sound
+G04G  13/00  F	0	0	2F002	G04G  13/00	43	符号音によるもの	By symbolic sound
+G04G  13/00  S	0	0	2F002	G04G  13/00	76	予め選定された時間々隔を発生する手段を有するもの	With means for generating the preselected time intervals
+G04G  13/00  Z	0	0	2F002	G04G  13/00	135	その他	Others
+G04G  13/02  \	1	1	2F002	G04G  13/02	1095	あらかじめ選定された時刻に音響的時刻信号を発生するもの，例．アラームクロック［３］	at preselected times, e.g. alarm clocks [3]
+G04G  13/02  A	1	0	2F002	G04G  13/02	454	アラ−ムの設定	Alarm setting
+G04G  13/02  D	1	0	2F002	G04G  13/02	269	視覚的表示手段によるアラ−ムに関する表示	Alarm indication by visual indicating means
+G04G  13/02  Y	1	1	2F002	G04G  13/02	154	アラ−ムの用件を表示するもの	wherein alarm contents are indicated
+G04G  13/02  E	1	0	2F002	G04G  13/02	92	音響的表示手段によるアラ−ムに関する表示	Alarm indication by acoustic indicating means
+G04G  13/02  V	1	1	2F002	G04G  13/02	333	音声によるもの	By sound
+G04G  13/02  S	1	0	2F002	G04G  13/02	277	スヌ−ズ〔リピ−ト〕	Snooze (repeat)
+G04G  13/02  N	1	0	2F002	G04G  13/02	549	鳴り止め	Stop of sounding
+G04G  13/02  L	1	0	2F002	G04G  13/02	339	アラ−ム音に関するもの	Related to alarm sound
+G04G  13/02  M	1	1	2F002	G04G  13/02	219	メロデイ	Melody
+G04G  13/02  Z	1	0	2F002	G04G  13/02	807	その他	Others
+G04G  15/00  \	0	0	2F002	G04G  15/00	1741	あらかじめ選定された時刻に，またはあらかじめ選定された時間間隔の後に操作される手段からなる時計（Ｇ０４Ｇ１１／００，Ｇ０４Ｇ１３／００が優先；パルス遅延回路Ｈ０３Ｋ５／１３；電子的時間遅延スイッチＨ０３Ｋ１７／２８；プログラム完了後に自動的にその操作を終了する電子的時限プログラム・スイッチＨ０３Ｋ１７／２９６；テレビ信号を記録するための時間プログラミングＨ０４Ｎ５／７６１）［３］	Time-pieces comprising means to be operated at preselected times or after preselected time intervals (G04G 11/00, G04G 13/00 take precedence; pulse delay circuits H03K 5/13; electronic time-delay switches H03K 17/28; electronic time-programme switches which automatically terminate their operation after the programme is completed H03K 17/296; time programming for television signal recording H04N 5/761) [3]
+G04G  15/00  A	0	0	2F002	G04G  15/00	405	タイマの設定	Timer setting
+G04G  15/00  B	0	1	2F002	G04G  15/00	793	タイマ時刻の設定	Setting of time on timers
+G04G  15/00  C	0	2	2F002	G04G  15/00	366	１日を越えて設定するもの	wherein setting extends in excess of one day
+G04G  15/00  D	0	0	2F002	G04G  15/00	334	タイマの表示	Timer indication
+G04G  15/00  E	0	1	2F002	G04G  15/00	459	タイマ時刻〔月日，曜を含む〕を表示するもの	Indicating the time on timers (including month, day and day of the week)
+G04G  15/00  F	0	1	2F002	G04G  15/00	172	経過時間・残時間を表示するもの	Indicating the passage of time and remaining time
+G04G  15/00  H	0	0	2F002	G04G  15/00	138	選定された時刻・時間々隔の検知	Detection of selected time and time intervals
+G04G  15/00  S	0	0	2F002	G04G  15/00	295	スタ−トする時刻に無関係に選択された時間々隔を測定するもの	Measuring the time interval selected independently of startup time
+G04G  15/00  T	0	0	2F002	G04G  15/00	95	予め選定された時刻から選択された時間々隔を測定するもの	Measuring the time interval from the preselected time
+G04G  15/00  P	0	0	2F002	G04G  15/00	452	プログラムタイマ	Programme timer
+G04G  15/00  K	0	0	2F002	G04G  15/00	707	関連装置を操作し，又は関連装置の操作を開始する任意要素を作動させるもの	Operating the related equipment or activate an arbitrary element for starting the related equipment
+G04G  15/00  Z	0	0	2F002	G04G  15/00	458	その他	Others
+G04G  17/00  \	0	0	2F002	G04G  17/00	0	構造上の細部；ハウジング（電波時計の構造上の細部，例．アンテナＧ０４Ｒ６０／００）［７，２０１３．０１］	Structural details; Housings(constructional details of radio-controlled time-pieces, e.g. antennas G04R60/00) [7,2013.01]
+G04G  17/00  A	0	0	2F002	G04G  17/00	135	カバーガラスと表示素子等が密着したもの	wherein cover glass and indicating elements are placed in close contact
+G04G  17/00  B	0	0	2F002	G04G  17/00	176	見切に特徴	Characterized by parting surface
+G04G  17/00  C	0	0	2F002	G04G  17/00	37	複数に分離されるもの	Separated into multiple parts
+G04G  17/00  D	0	1	2F002	G04G  17/00	42	コードで結ぶもの	Connected by cords
+G04G  17/00  E	0	1	2F002	G04G  17/00	258	バンド内に配置したもの	Laid out in a band
+G04G  17/00  F	0	1	2F002	G04G  17/00	111	接合自在	Free bonding
+G04G  17/00  G	0	0	2F002	G04G  17/00	124	保護	Protection
+G04G  17/00  H	0	1	2F002	G04G  17/00	139	静電シールド，電磁シールド	Electrostatic and magnetic shields
+G04G  17/00  J	0	0	2F002	G04G  17/00	900	回路基板	Circuit board
+G04G  17/00  Z	0	0	2F002	G04G  17/00	1617	その他	Others
+G04G  17/02  \	1	1	2F002	G04G  17/02	2626	構成部品の組立［７］	Component assemblies [7]
+G04G  17/04  \	2	2	2F002	G04G  17/04	4154	電子部品の搭載［７］	Mounting of electronic components [7]
+G04G  17/06  \	2	2	2F002	G04G  17/06	1053	電気接続要素，例．電導性エラストマー［７］	Electric connectors, e.g. conductive elastomers [7]
+G04G  17/08  \	1	1	2F002	G04G  17/08	4365	ハウジング［７］	Housings [7]
+G04G  19/00  \	0	0	2F002	G04G  19/00	0	電子時計に使うために，特に適合させた電力供給回路［７］	Electric power supply circuits specially adapted for use in electronic time-pieces [7]
+G04G  19/00  A	0	0	2F002	G04G  19/00	286	太陽電池を有するもの	With solar battery
+G04G  19/00  B	0	1	2F002	G04G  19/00	512	構造に関するもの	Related to structure
+G04G  19/00  C	0	0	2F002	G04G  19/00	74	電源状態を表示するもの	Indicating power source state
+G04G  19/00  D	0	1	2F002	G04G  19/00	84	停電表示	Indication of power interruption
+G04G  19/00  E	0	1	2F002	G04G  19/00	86	充電状態の表示	Indication of charged state
+G04G  19/00  F	0	1	2F002	G04G  19/00	45	電池寿命表示	Indication of battery life
+G04G  19/00  G	0	2	2F002	G04G  19/00	21	音によるもの	By sound
+G04G  19/00  H	0	2	2F002	G04G  19/00	34	付加機能を停止することによるもの	By stopping the additional functions
+G04G  19/00  J	0	2	2F002	G04G  19/00	56	残存容量の表示	Indication of remaining capacity
+G04G  19/00  K	0	2	2F002	G04G  19/00	143	光学的表示のもの	By optical indication
+G04G  19/00  L	0	3	2F002	G04G  19/00	53	付加的表示体によるもの	By additional indicator
+G04G  19/00  M	0	0	2F002	G04G  19/00	256	電池の保持	Holding the battery
+G04G  19/00  V	0	0	2F002	G04G  19/00	29	複数の電池で時計を駆動するもの	Using multiple batteries to drive the time-piece
+G04G  19/00  W	0	1	2F002	G04G  19/00	50	電池毎に異なる時計構成手段を駆動するもの	Driving time-piece component means different for each battery
+G04G  19/00  X	0	0	2F002	G04G  19/00	164	充電に関するもの〔太陽電池のものは除く〕	Related to battery charging (except for solar batteries)
+G04G  19/00  Y	0	0	2F002	G04G  19/00	272	発電に関するもの	Related to power generation
+G04G  19/00  Z	0	0	2F002	G04G  19/00	133	その他	Others
+G04G  19/02  \	1	1	2F002	G04G  19/02	0	電流または電圧の，変換あるいは調整［７］	Conversion or regulation of current or voltage [7]
+G04G  19/02  P	1	0	2F002	G04G  19/02	66	降圧手段を有するもの	With step-down means
+G04G  19/02  Q	1	0	2F002	G04G  19/02	150	昇圧手段を有するもの	With boosting means
+G04G  19/02  T	1	0	2F002	G04G  19/02	36	交流電源回路	AC power circuit
+G04G  19/02  Z	1	0	2F002	G04G  19/02	156	その他	Others
+G04G  19/04  \	2	2	2F002	G04G  19/04	32	コンデンサによる電圧の分割または増幅［７］	Capacitive voltage division or multiplication [7]
+G04G  19/06  \	2	2	2F002	G04G  19/06	86	調整［７］	Regulation [7]
+G04G  19/08  \	1	1	2F002	G04G  19/08	75	電源への過負荷による電圧の低下を防止するための装置［７］	Arrangements for preventing voltage drop due to overloading the power supply [7]
+G04G  19/10  \	1	1	2F002	G04G  19/10	120	バックアップ電力を供給する装置［７］	Arrangements for supplying back-up power [7]
+G04G  19/12  \	1	1	2F002	G04G  19/12	56	蓄電状態で電力の消費を軽減する装置［７］	Arrangements for reducing power consumption during storage [7]
+G04G  21/00  \	0	0	2F002	G04G  21/00	4	時計に統合された入出力装置［２０１０．０１］	Input or output devices integrated in time-pieces [2010.01]
+G04G  21/00  A	0	0	2F002	G04G  21/00	58	バイオリズム表示	Biorhythm indication
+G04G  21/00  B	0	0	2F002	G04G  21/00	117	占い，星座，陰陽道，潮汐	Divination, constellation, cosmic dual forces and tides
+G04G  21/00  C	0	0	2F002	G04G  21/00	33	忘れ物防止，防犯	Prevention of things from being left behind, and crime prevention
+G04G  21/00  D	0	0	2F002	G04G  21/00	1145	通信機	communications equipment
+G04G  21/00  E	0	0	2F002	G04G  21/00	595	計算器	Calculators
+G04G  21/00  F	0	0	2F002	G04G  21/00	768	メモ機能	Memorandum function
+G04G  21/00  G	0	0	2F002	G04G  21/00	55	ペースメーカ機能（心臓ペースメーカそれ自体Ａ６１Ｎ１／３６）	Pace making function (heart pace maker per se A61N1/36)
+G04G  21/00  H	0	0	2F002	G04G  21/00	131	ゲーム	Game
+G04G  21/00  J	0	0	2F002	G04G  21/00	103	音楽	Music
+G04G  21/00  K	0	0	2F002	G04G  21/00	258	カークロック	Car clock
+G04G  21/00  L	0	0	2F002	G04G  21/00	124	親子時計	Master clock
+G04G  21/00  M	0	0	2F002	G04G  21/00	366	音の発生手段	Sound producing means
+G04G  21/00  Z	0	0	2F002	G04G  21/00	571	その他	Others
+G04G  21/00 301 \	1	1	2F002	G04G  21/00	1	世界時計，デュオタイム	Universal time-pieces, duotime
+G04G  21/00 301 A	1	0	2F002	G04G  21/00	151	地図表示をもつもの	With map indication
+G04G  21/00 301 B	1	0	2F002	G04G  21/00	153	夏時間に関するもの	related to summer time
+G04G  21/00 301 Z	1	0	2F002	G04G  21/00	576	その他	Others
+G04G  21/00 302 \	1	1	2F002	G04G  21/00	0	視覚，聴覚以外の手段による表示	Indication by other than visual, aural means
+G04G  21/00 302 A	1	0	2F002	G04G  21/00	180	触覚的表示手段	Tactile indicating means
+G04G  21/00 302 Z	1	0	2F002	G04G  21/00	8	その他	Others
+G04G  21/00 303 \	1	1	2F002	G04G  21/00	4294	入出力手段	Input/output means
+G04G  21/00 304 \	2	2	2F002	G04G  21/00	1	スイッチ	switch
+G04G  21/00 304 A	2	0	2F002	G04G  21/00	240	キーボード	Keyboard
+G04G  21/00 304 B	2	0	2F002	G04G  21/00	1025	プッシュ式	Bushing type
+G04G  21/00 304 C	2	0	2F002	G04G  21/00	70	スライド式	Slide type
+G04G  21/00 304 D	2	0	2F002	G04G  21/00	244	回転式	Rotary type
+G04G  21/00 304 E	2	1	2F002	G04G  21/00	140	ベゼル型	Bezel type
+G04G  21/00 304 F	2	0	2F002	G04G  21/00	107	押し引き型	Push/pull type
+G04G  21/00 304 G	2	0	2F002	G04G  21/00	228	押し引き回転型	Push/pull rotary type
+G04G  21/00 304 K	2	0	2F002	G04G  21/00	107	光スイッチ	Optical switches
+G04G  21/00 304 L	2	0	2F002	G04G  21/00	66	磁気スイッチ	Magnetic switches
+G04G  21/00 304 N	2	0	2F002	G04G  21/00	159	姿勢スイッチ	Attitude switches
+G04G  21/00 304 P	2	0	2F002	G04G  21/00	447	その他のスイッチ	Other switches
+G04G  21/00 304 Q	2	0	2F002	G04G  21/00	131	スイッチ入力回路（Ｇ０４Ｇ２１／００　３０４Ｓ〜Ｖが優先）	Switch input circuit (G04G21/00 304S to V take precedence)
+G04G  21/00 304 R	2	1	2F002	G04G  21/00	131	誤入力防止回路	Error input preventing circuit
+G04G  21/00 304 S	2	0	2F002	G04G  21/00	141	スイッチの操作方法	Switch operating method
+G04G  21/00 304 T	2	1	2F002	G04G  21/00	129	操作時間	Operation time
+G04G  21/00 304 U	2	1	2F002	G04G  21/00	17	操作方向〔構造のみは除く〕	Direction of operation (except for the structure alone)
+G04G  21/00 304 V	2	1	2F002	G04G  21/00	94	複数スイッチの同時操作	Simultaneous operation of multiple switches
+G04G  21/00 304 Z	2	0	2F002	G04G  21/00	132	その他	Others
+G04G  21/00 305 \	2	2	2F002	G04G  21/00	60	入出力端子	Input/output terminals
+G04G  21/02  \	1	1	2F002	G04G  21/02	9	外部の物理的数値，例．温度，の検出器［２０１０．０１］	Detectors of external physical values, e.g. temperature [2010.01]
+G04G  21/02  A	1	0	2F002	G04G  21/02	314	温度計測	Temperature measurement
+G04G  21/02  D	1	0	2F002	G04G  21/02	122	計数	Counting
+G04G  21/02  E	1	0	2F002	G04G  21/02	132	圧力	Pressure
+G04G  21/02  F	1	1	2F002	G04G  21/02	79	高度測定	Altitude measurefment
+G04G  21/02  G	1	1	2F002	G04G  21/02	201	深度測定	Depth measurement
+G04G  21/02  H	1	1	2F002	G04G  21/02	181	血圧，心拍数測定	Blood pressure and heart rate measurement
+G04G  21/02  J	1	0	2F002	G04G  21/02	131	方位	Bearing
+G04G  21/02  K	1	0	2F002	G04G  21/02	665	ストップウォッチ，クロノグラフ	Stop watches and chronographs
+G04G  21/02  Z	1	0	2F002	G04G  21/02	823	その他	Others
+G04G  21/04  \	1	1	2F002	G04G  21/04	983	無線を用いるもの（電波時計Ｇ０４Ｒ）［２０１０．０１，２０１３．０１］	using radio waves(radio-controlled time-pieces G04R) [2010.01,2013.01]
+G04G  21/06  \	1	1	2F002	G04G  21/06	120	声を使うもの［２０１０．０１］	using voice [2010.01]
+G04G  21/08  \	1	1	2F002	G04G  21/08	5	時計に特に適合させたタッチ・スイッチ［２０１０．０１］	Touch switches specially adapted for time-pieces [2010.01]
+G04G  21/08  J	1	0	2F002	G04G  21/08	79	静電型	Electrostatic type
+G04G  21/08  Z	1	0	2F002	G04G  21/08	246	その他	Others
+G04G  99/00  \	0	0	2F002	G04G  99/00	5	このサブクラスの他のグループに分類されない主題事項［２０１０．０１］	Subject matter not provided for in other groups of this subclass [2010.01]
+G04G  99/00  A	0	0	2F002	G04G  99/00	145	内部テスト手段に特徴	Characterized in internal test means
+G04G  99/00  B	0	0	2F002	G04G  99/00	158	装置内での転送手段	Transfer means inside the device
+G04G  99/00  C	0	0	2F002	G04G  99/00	130	月，日，曜日の計時	Time measurement in terms of month, day and day of the week
+G04G  99/00  Z	0	0	2F002	G04G  99/00	6944	その他	Others
+G04G  99/00 301 \	1	1	2F002	G04G  99/00	0	日用品	Daily necessities
+G04G  99/00 301 A	1	0	2F002	G04G  99/00	101	置物	Ornaments
+G04G  99/00 301 B	1	0	2F002	G04G  99/00	100	音響機器	Acoustic equipment
+G04G  99/00 301 C	1	0	2F002	G04G  99/00	134	光学機器，例．カメラ，メガネ，鏡	Optical equipment, e.g. cameras, spectacles, mirrors
+G04G  99/00 301 D	1	0	2F002	G04G  99/00	45	照明機器	Lighting fixtures
+G04G  99/00 301 E	1	0	2F002	G04G  99/00	130	身につける物	What are put on human bodies
+G04G  99/00 301 F	1	0	2F002	G04G  99/00	68	プリンタ装置	Printers
+G04G  99/00 301 G	1	0	2F002	G04G  99/00	54	筆記具	Writing implements
+G04G  99/00 301 H	1	0	2F002	G04G  99/00	32	カミソリ	Rasers
+G04G  99/00 301 J	1	0	2F002	G04G  99/00	53	ライター	Lighters
+G04G  99/00 301 Z	1	0	2F002	G04G  99/00	199	その他	Others
+G04G  99/00 302 \	1	1	2F002	G04G  99/00	0	計時回路，時刻計数	Clock circuit and time-of-day counting
+G04G  99/00 302 A	1	0	2F002	G04G  99/00	154	カウンタを使用したもの	Using the counter
+G04G  99/00 302 B	1	0	2F002	G04G  99/00	80	シフトレジスタを使用したもの	Using the shift register
+G04G  99/00 302 C	1	0	2F002	G04G  99/00	253	ＣＰＵ〔ＲＯＭ，ＲＡＭ〕を使用するもの	Using the CPU (ROM and RAM)
+G04G  99/00 302 Z	1	0	2F002	G04G  99/00	113	その他	Others
+G04G  99/00 303 \	1	1	2F002	G04G  99/00	288	回路一般，ＩＣ	Circuits in general and ICs

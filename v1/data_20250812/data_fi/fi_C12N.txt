@@ -1,0 +1,511 @@
+C12N   1/00  \	0	0	4B065	C12N   1/00	421	微生物，例．原生動物；その組成物（原生動物，バクテリアまたはウイルス起源の物質を含む医薬品製剤Ａ６１Ｋ３５／６６，藻類起源の物質を含む医薬品製剤Ａ６１Ｋ３６／０２，菌類起源の物質を含む医薬品製剤Ａ６１Ｋ３６／０６；医薬品細菌抗原または抗体組成物の調製，例．細胞ワクチン，Ａ６１Ｋ３９／００）	Micro-organisms, e.g. protozoa; Compositions thereof (medicinal preparations containing material from protozoa, bacteria or viruses A61K 35/66, from algae A61K 36/02, from fungi A61K 36/06; preparing medicinal bacterial antigen or antibody compositions, e.g. bacterial vaccines, A61K 39/00); Processes of propagating, maintaining or preserving micro-organisms or compositions thereof; Processes of preparing or isolating a composition containing a micro-organism; Culture media therefor [3]
+C12N   1/00  A	0	0	4B065	C12N   1/00	1006	培養	Culture
+C12N   1/00  B	0	1	4B065	C12N   1/00	870	培養条件，例．原料供給条件，ＰＨ，温度，の制御	Control of culture conditions (material supply conditions, pH, temperature)
+C12N   1/00  C	0	2	4B065	C12N   1/00	164	通気条件の制御	Control of ventilation conditions
+C12N   1/00  D	0	3	4B065	C12N   1/00	110	酸素	Oxygen
+C12N   1/00  E	0	1	4B065	C12N   1/00	74	消泡	Defoaming
+C12N   1/00  F	0	0	4B065	C12N   1/00	1116	培地	Culture medium
+C12N   1/00  G	0	1	4B065	C12N   1/00	653	微量成分の添加	Addition of microingredients
+C12N   1/00  H	0	1	4B065	C12N   1/00	18	デイステイラーズ・ソルブルス	Disk tailor's solubles
+C12N   1/00  J	0	0	4B065	C12N   1/00	81	培地の殺菌	Sterilization of culture medium
+C12N   1/00  K	0	0	4B065	C12N   1/00	256	培養物の処理	Treatment of culture
+C12N   1/00  L	0	0	4B065	C12N   1/00	171	微生物菌体	Micro-organism cell body
+C12N   1/00  M	0	1	4B065	C12N   1/00	100	シングルセルプロテイン［ＳＣＰ］	SCP
+C12N   1/00  N	0	0	4B065	C12N   1/00	352	微生物菌体の加工	Processing of micro-organism cell body
+C12N   1/00  P	0	0	4B065	C12N   1/00	681	微生物の利用	Use of microorganisms
+C12N   1/00  Q	0	1	4B065	C12N   1/00	161	ガスの無害化	Safening of gas
+C12N   1/00  R	0	1	4B065	C12N   1/00	629	有害物質の分解	Decomposition of hazardous substances
+C12N   1/00  S	0	1	4B065	C12N   1/00	924	有機廃物への利用（廃水Ｃ０２Ｆ，肥料Ｃ０５）	Use in organic waste (waste water R C 02 F, fertiliser R C 05)
+C12N   1/00  T	0	0	4B065	C12N   1/00	358	微生物のスクリーニング	Screening of micro-organisms
+C12N   1/00  U	0	0	4B065	C12N   1/00	432	遺伝子工学関係	Related to genetic engineering
+C12N   1/00  Z	0	0	4B065	C12N   1/00	375	その他	Others
+C12N   1/02  \	1	1	4B065	C12N   1/02	1070	培地からの微生物の分離［３］	Separating micro-organisms from their culture media [3]
+C12N   1/04  \	1	1	4B065	C12N   1/04	1094	生きた微生物の保存，維持（固定化微生物Ｃ１２Ｎ１１／００）［３］	Preserving or maintaining viable micro-organisms (immobilised micro-organisms C12N 11/00) [3]
+C12N   1/06  \	1	1	4B065	C12N   1/06	210	微生物の溶解［３］	Lysis of micro-organisms [3]
+C12N   1/08  \	1	1	4B065	C12N   1/08	32	核酸含量の減少［３］	Reducing the nucleic acid content [3]
+C12N   1/10  \	1	1	4B065	C12N   1/10	188	原生動物；そのための培地［３］	Protozoa; Culture media therefor [3]
+C12N   1/11  \	2	2	4B065	C12N   1/11	135	外来遺伝物質の導入によって修飾されたもの［５］	modified by introduction of foreign genetic material [5]
+C12N   1/12  \	1	1	4B065	C12N   1/12	300	単細胞藻類；そのための培地（新規な植物Ａ０１Ｈ１３／００）［３］	Unicellular algae; Culture media therefor (as new plants A01H 13/00) [3]
+C12N   1/12  A	1	0	4B065	C12N   1/12	1027	培養	Culture
+C12N   1/12  B	1	0	4B065	C12N   1/12	203	培地	Culture medium
+C12N   1/12  C	1	0	4B065	C12N   1/12	498	菌体	Cell body
+C12N   1/12  Z	1	0	4B065	C12N   1/12	334	その他	Others
+C12N   1/13  \	2	2	4B065	C12N   1/13	552	外来遺伝物質の導入によって修飾されたもの［５］	modified by introduction of foreign genetic material [5]
+C12N   1/14  \	1	1	4B065	C12N   1/14	994	菌類（きのこの栽培Ａ０１Ｇ１８／００；新規な植物Ａ０１Ｈ１５／００）；そのための培地［３］	Fungi (culture of mushrooms A01G18/00;as new plants A01H15/00); Culture media therefor [3]
+C12N   1/14  A	1	0	4B065	C12N   1/14	1607	菌類	Fungus
+C12N   1/14  B	1	1	4B065	C12N   1/14	548	培養	Culture
+C12N   1/14  C	1	1	4B065	C12N   1/14	343	培地	Culture medium
+C12N   1/14  E	1	0	4B065	C12N   1/14	233	担子菌	Basidiomycetes
+C12N   1/14  F	1	1	4B065	C12N   1/14	252	きのこ	Mushrooms
+C12N   1/14  G	1	2	4B065	C12N   1/14	307	培養	Culture
+C12N   1/14  H	1	2	4B065	C12N   1/14	353	培地	Culture medium
+C12N   1/14  Z	1	0	4B065	C12N   1/14	169	その他	Others
+C12N   1/14 101 \	2	2	4B065	C12N   1/14	672	一般的製麹方法（一般的製麹装置Ｃ１２Ｍ１／１６）	General koji making methods (general koji making devices C 12 M 1/16)
+C12N   1/15  \	2	2	4B065	C12N   1/15	26561	外来遺伝物質の導入によって修飾されたもの［５］	modified by introduction of foreign genetic material [5]
+C12N   1/16  \	2	2	4B065	C12N   1/16	800	酵母；そのための培地［３］	Yeasts; Culture media therefor [3]
+C12N   1/16  A	2	0	4B065	C12N   1/16	441	培養	Culture
+C12N   1/16  B	2	1	4B065	C12N   1/16	135	培養条件の制御	Control of culture conditions
+C12N   1/16  C	2	2	4B065	C12N   1/16	70	通気条件の制御	Control of ventilation conditions
+C12N   1/16  D	2	0	4B065	C12N   1/16	205	培地	Culture medium
+C12N   1/16  E	2	1	4B065	C12N   1/16	145	特定炭素源の利用	Use of specific carbon source
+C12N   1/16  F	2	1	4B065	C12N   1/16	105	微量成分の添加	Addition of microingredients
+C12N   1/16  G	2	0	4B065	C12N   1/16	953	酵母菌体	Saccharomycete body
+C12N   1/16  H	2	0	4B065	C12N   1/16	98	酵母菌体の保存	Storage of saccharomycete body
+C12N   1/16  J	2	0	4B065	C12N   1/16	360	酵母菌体の加工	Processing saccharomycete body
+C12N   1/16  Z	2	0	4B065	C12N   1/16	249	その他	Others
+C12N   1/18  \	3	3	4B065	C12N   1/18	402	パン酵母；ビール酵母［３］	Baker's yeast; Brewer's yeast [3]
+C12N   1/19  \	3	3	4B065	C12N   1/19	29531	外来遺伝物質の導入によって修飾されたもの［５］	modified by introduction of foreign genetic material [5]
+C12N   1/20  \	1	1	4B065	C12N   1/20	5032	細菌；そのための培地［３］	Bacteria; Culture media therefor [3]
+C12N   1/20  A	1	0	4B065	C12N   1/20	9626	細菌自体，細菌の培養，そのための培地	Bacteria per se, culture of bacteria, , media therefor
+C12N   1/20  B	1	0	4B065	C12N   1/20	261	細菌の保存	Storage of bacteria
+C12N   1/20  C	1	0	4B065	C12N   1/20	435	細菌の加工	Processing of bacteria
+C12N   1/20  D	1	0	4B065	C12N   1/20	1604	環境保全に関するもの（分解によるものはＣ１２Ｎ１／２０Ｆも付与）	Related to environmental conservation (add F is decomposition is used)
+C12N   1/20  E	1	0	4B065	C12N   1/20	2472	飼料，医薬，動物医薬，殺生物剤，有害生物忌避剤または誘引剤，または植物生長調節剤	Feed, pharmaceuticals, animal pharmaceuticals, biocides, rejectants or attractants for hazardous animals, or plant growth adjusters
+C12N   1/20  F	1	0	4B065	C12N   1/20	1617	細菌による分解	Decomposition by bacteria
+C12N   1/20  Z	1	0	4B065	C12N   1/20	511	その他	Others
+C12N   1/21  \	2	2	4B065	C12N   1/21	37090	外来遺伝物質の導入によって修飾されたもの［５］	modified by introduction of foreign genetic material [5]
+C12N   1/22  \	1	1	4B065	C12N   1/22	112	セルロースまたはその加水分解物の利用方法またはそれを含む培地［３］	Processes using, or culture media containing, cellulose or hydrolysates thereof [3]
+C12N   1/24  \	1	1	4B065	C12N   1/24	19	亜硫酸廃液の利用方法またはそれを含む培地［３］	Processes using, or culture media containing, waste sulfite liquor [3]
+C12N   1/26  \	1	1	4B065	C12N   1/26	209	炭化水素の利用方法またはそれを含む培地（微生物を利用した炭化水素油の精製Ｃ１０Ｇ３２／００）［３］	Processes using, or culture media containing, hydrocarbons (refining of hydrocarbon oils by using micro-organisms C10G 32/00) [3]
+C12N   1/28  \	2	2	4B065	C12N   1/28	53	脂肪族のもの［３］	aliphatic [3]
+C12N   1/30  \	3	3	4B065	C12N   1/30	8	炭素原子５個以下のもの［３］	having five or less carbon atoms [3]
+C12N   1/32  \	1	1	4B065	C12N   1/32	291	低級アルカノール，すなわちＣ↓１〜Ｃ↓６のものの利用またはそれを含む培地［３］	Processes using, or culture media containing, lower alkanols, i.e. C<sub>1</sub> to C<sub>6</sub> [3]
+C12N   1/34  \	1	1	4B065	C12N   1/34	21	泡培地を使用する方法［３］	Processes using foam culture [3]
+C12N   1/36  \	1	1	4B065	C12N   1/36	23	細胞の適応または退化［３］	Adaptation or attenuation of cells [3]
+C12N   1/38  \	1	1	4B065	C12N   1/38	838	必須の生育因子でない化学物質の添加による生育または活性の化学的刺激；化学物質の除去による生育の刺激（Ｃ１２Ｎ１／３４が優先）［３］	Chemical stimulation of growth or activity by addition of chemical compounds which are not essential growth factors; Stimulation of growth by removal of a chemical compound (C12N 1/34 takes precedence) [3]
+C12N   3/00  \	0	0	4B065	C12N   3/00	70	胞子の形成または分離方法［３］	Spore-forming or isolating processes [3]
+C12N   5/00  \	0	0	4B065	C12N   5/00	3451	ヒト，動物または植物の細胞，例．セルライン；組織；その培養または維持；そのための培地（組織培養技術による植物の増殖Ａ０１Ｈ４／００）［３，５］	Undifferentiated animal or plant cells, e.g. cell lines; Tissues; Cultivation or maintenance thereof; Culture media therefor (multiplication od plant by tissue culture technique A01H4/00) [3, 5]
+C12N   5/02  \	1	1	4B065	C12N   5/02	1220	懸濁液中における単一または複数の細胞の増殖；それらの維持；そのための培地［３］	Propagation of single cells or cells in suspension; Maintenance thereof; Culture media therefor [3]
+C12N   5/04  \	1	1	4B065	C12N   5/04	1724	植物細胞または組織［５］	Plant cells or tissues [5]
+C12N   5/07  \	1	1	4B065	C12N   5/07	1843	動物細胞または組織［２０１０．０１］	Animal cells or tissues [2010.01]
+C12N   5/071  \	2	2	4B065	C12N   5/071	8674	脊椎動物細胞または組織，例．ヒト細胞または組織［２０１０．０１］	Vertebrate cells or tissues, e.g. human cells or tissues [2010.01]
+C12N   5/073  \	3	3	4B065	C12N   5/073	819	胚細胞または組織；胎児細胞または組織［２０１０．０１］	Embryonic cells or tissues; Foetal cells or tissues [2010.01]
+C12N   5/0735  \	4	4	4B065	C12N   5/0735	2747	胚性幹細胞；胚性生殖細胞［２０１０．０１］	Embryonic stem cells; Embryonic germ cells [2010.01]
+C12N   5/074  \	3	3	4B065	C12N   5/074	3069	成体幹細胞［２０１０．０１］	Adult stem cells [2010.01]
+C12N   5/075  \	3	3	4B065	C12N   5/075	266	卵母細胞；卵原細胞［２０１０．０１］	Oocytes; Oogonia [2010.01]
+C12N   5/076  \	3	3	4B065	C12N   5/076	314	精細胞；精原細胞［２０１０．０１］	Sperm cells; Spermatogonia [2010.01]
+C12N   5/077  \	3	3	4B065	C12N   5/077	2678	間葉細胞，例．骨細胞，軟骨細胞，骨髄間質細胞，脂肪細胞または筋肉細胞［２０１０．０１］	Mesenchymal cells, e.g. bone cells, cartilage cells, marrow stromal cells, fat cells or muscle cells [2010.01]
+C12N   5/0775  \	4	4	4B065	C12N   5/0775	2598	間葉系幹細胞；脂肪組織由来幹細胞［２０１０．０１］	Mesenchymal stem cells; Adipose-tissue derived stem cells [2010.01]
+C12N   5/078  \	3	3	4B065	C12N   5/078	2225	血液または免疫系からの細胞［２０１０．０１］	Cells from blood or from the immune system [2010.01]
+C12N   5/0781  \	4	4	4B065	C12N   5/0781	740	Ｂ細胞；それらの前駆細胞［２０１０．０１］	B cells; Progenitors thereof [2010.01]
+C12N   5/0783  \	4	4	4B065	C12N   5/0783	4887	Ｔ細胞；ＮＫ細胞；Ｔ細胞又はＮＫ細胞の前駆細胞［２０１０．０１］	T cells; NK cells; Progenitors of T or NK cells [2010.01]
+C12N   5/0784  \	4	4	4B065	C12N   5/0784	1023	樹状細胞；それらの前駆細胞［２０１０．０１］	Dendritic cells; Progenitors thereof [2010.01]
+C12N   5/0786  \	4	4	4B065	C12N   5/0786	918	単球；マクロファージ［２０１０．０１］	Monocytes; Macrophages [2010.01]
+C12N   5/0787  \	4	4	4B065	C12N   5/0787	230	顆粒球，例．好塩基球，好酸球，好中球，肥満細胞［２０１０．０１］	Granulocytes, e.g. basophils, eosinophils, neutrophils or mast cells [2010.01]
+C12N   5/0789  \	4	4	4B065	C12N   5/0789	1957	幹細胞；多能性前駆細胞［２０１０．０１］	Stem cells; Multipotent progenitor cells [2010.01]
+C12N   5/079  \	3	3	4B065	C12N   5/079	647	神経系の細胞［２０１０．０１］	Neural cells [2010.01]
+C12N   5/0793  \	4	4	4B065	C12N   5/0793	836	神経細胞［２０１０．０１］	Neurons [2010.01]
+C12N   5/0797  \	4	4	4B065	C12N   5/0797	886	幹細胞；前駆細胞［２０１０．０１］	Stem cells; Progenitor cells [2010.01]
+C12N   5/09  \	1	1	4B065	C12N   5/09	2278	腫瘍細胞［２０１０．０１］	Tumour cells [2010.01]
+C12N   5/095  \	2	2	4B065	C12N   5/095	315	幹細胞；前駆細胞［２０１０．０１］	Stem cells; Progenitor cells [2010.01]
+C12N   5/10  \	1	1	4B065	C12N   5/10	48827	外来遺伝物質の導入によって修飾された細胞，例．ウイルス形質転換細胞［５］	Cells modified by introduction of foreign genetic material, e.g. virus-transformed cells [5]
+C12N   5/12  \	2	2	4B065	C12N   5/12	1596	融合細胞，例．ハイブリドーマ［５］	Fused cells, e.g. hybridomas [5]
+C12N   5/14  \	3	3	4B065	C12N   5/14	230	植物細胞［５］	Plant cells [5]
+C12N   5/16  \	3	3	4B065	C12N   5/16	1386	動物細胞［５］	Animal cells [5]
+C12N   5/18  \	4	4	4B065	C12N   5/18	215	ネズミ細胞，例．マウス細胞［５］	Murine cells, e.g. mouse cells [5]
+C12N   5/20  \	5	5	4B065	C12N   5/20	3492	融合パートナーの一方がＢリンパ球であるもの［５］	one of the fusion partners being a B lymphocyte [5]
+C12N   5/22  \	3	3	4B065	C12N   5/22	178	ヒト細胞［５］	Human cells [5]
+C12N   5/24  \	4	4	4B065	C12N   5/24	297	融合パートナーの一方がＢリンパ球であるもの［５］	one of the fusion partners being a B lymphocyte [5]
+C12N   5/26  \	3	3	4B065	C12N   5/26	127	異種間融合により生じる細胞［５］	Cells resulting from interspecies fusion [5]
+C12N   5/28  \	4	4	4B065	C12N   5/28	119	融合パートナーの一方がヒト細胞であるもの［５］	one of the fusion partners being a human cell [5]
+C12N   7/00  \	0	0	4B065	C12N   7/00	4124	ウイルス，例．バクテリオファージ；それを含む組成物；その調製または精製（ウイルスを含む医薬品製剤Ａ６１Ｋ３５／７６；医薬用ウイルス性抗原または抗体組成物の調製，例．ウイルスワクチン，Ａ６１Ｋ３９／００）［３］	Viruses, e.g. bacteriophages; Compositions thereof; Preparation or purification thereof (medicinal preparations containing viruses A61K 35/76; preparing medicinal viral antigen or antibody compositions, e.g. virus vaccines, A61K 39/00) [3]
+C12N   7/01  \	1	1	4B065	C12N   7/01	5989	外来遺伝物質の導入によって修飾されたウイルス，例．バクテリオファージ（ベクターＣ１２Ｎ１５／００）［５］	Viruses, e.g. bacteriophages, modified by introduction of foreign genetic material(vectors C12N15/00) [5]
+C12N   7/02  \	1	1	4B065	C12N   7/02	867	回収または精製［３］	Recovery or purification [3]
+C12N   7/04  \	1	1	4B065	C12N   7/04	1311	不活化または弱毒化；ウイルスサブユニットの生産［３］	Inactivation or attenuation; Producing viral sub-units [3]
+C12N   7/06  \	2	2	4B065	C12N   7/06	235	化学的処理によるもの［３］	by chemical treatment [3]
+C12N   7/08  \	2	2	4B065	C12N   7/08	81	ウイルスの継代接種によるもの［３］	by serial passage of virus [3]
+C12N   9/00  \	0	0	4B050	C12N   9/00	3307	酵素，例．リガーゼ（６．）；酵素前駆体；その組成物（歯の洗浄用酵素含有剤Ａ６１Ｋ８／６６，Ａ６１Ｑ１１／００；医薬用酵素または酵素前駆体製剤Ａ６１Ｋ３８／４３；酵素含有洗浄剤Ｃ１１Ｄ）；酵素の調製，活性化，阻害，分離または精製方法［２００６．０１］	Enzymes, e.g. ligases (6.); Proenzymes; Compositions thereof (preparations containing enzymes for cleaning teeth A61K  8/66, A61Q 11/00; medicinal preparations containing enzymes or proenzymes A61K 38/43; enzyme containing detergent compositions C11D); Processes for preparing, activating, inhibiting, separating, or purifying enzymes
+C12N   9/02  \	1	1	4B050	C12N   9/02	3250	酸化還元酵素（１．），例．ルシフェラーゼ［２００６．０１］	Oxidoreductases (1.), e.g. luciferase [3]
+C12N   9/04  \	2	2	4B050	C12N   9/04	778	電子供与体としてのＣＨＯＨ基に作用するもの，例．グルコースオキシダーゼ，乳酸脱水素酵素（１．１）［２００６．０１］	acting on CHOH groups as donors, e.g. glucose oxidase, lactate dehydrogenase (1.1) [3]
+C12N   9/04  D	2	0	4B050	C12N   9/04	498	グルコースを酸化するもの	Oxidizing glucose
+C12N   9/04  Z	2	0	4B050	C12N   9/04	1612	その他のもの	Others
+C12N   9/06  \	2	2	4B050	C12N   9/06	347	電子供与体としての窒素含有化合物に作用するもの（１．４，１．５，１．７）［２００６．０１］	acting on nitrogen containing compounds as donors (1.4, 1.5, 1.7) [3]
+C12N   9/06  A	2	0	4B050	C12N   9/06	93	ウリカーゼ	Uricase
+C12N   9/06  Z	2	0	4B050	C12N   9/06	750	その他のもの	Others
+C12N   9/08  \	2	2	4B050	C12N   9/08	486	電子受容体としての過酸化水素に作用するもの（１．１１）［２００６．０１］	acting on hydrogen peroxide as acceptor (1.11) [3]
+C12N   9/10  \	1	1	4B050	C12N   9/10	3774	転移酵素（２．）（リボヌクレアーゼＣ１２Ｎ９／２２）［２００６．０１］	Transferases (2.) (ribonucleases C12N 9/22) [3]
+C12N   9/12  \	2	2	4B050	C12N   9/12	2912	りん含有基を転移するもの，例．キナーゼ（２．７）［２００６．０１］	transferring phosphorus containing groups, e.g. kinases (2.7) [3]
+C12N   9/14  \	1	1	4B050	C12N   9/14	1120	加水分解酵素（３．）［２００６．０１］	Hydrolases (3.) [3]
+C12N   9/16  \	2	2	4B050	C12N   9/16	717	エステル結合に作用するもの（３．１）［２００６．０１］	acting on ester bonds (3.1) [3]
+C12N   9/16  B	2	0	4B050	C12N   9/16	748	フォスファターゼ	Phosphatase
+C12N   9/16  Z	2	0	4B050	C12N   9/16	2655	その他のもの，例．エキソデオキシリボヌクレアーゼ	Others, e.g. exodeoxyribonuclease
+C12N   9/18  \	3	3	4B050	C12N   9/18	488	カルボン酸エステル加水分解酵素［２００６．０１］	Carboxylic ester hydrolases [3]
+C12N   9/20  \	4	4	4B050	C12N   9/20	1077	トリグリセリドの分解，例．リパーゼによるもの［２００６．０１］	Triglyceride splitting, e.g. by means of lipase [3]
+C12N   9/22  \	3	3	4B050	C12N   9/22	859	リボヌクレアーゼ［２００６．０１］	Ribonucleases [3]
+C12N   9/24  \	2	2	4B050	C12N   9/24	1671	グリコシル化合物に作用するもの（３．２）［２００６．０１］	acting on glycosyl compounds (3.2) [3]
+C12N   9/26  \	3	3	4B050	C12N   9/26	464	α―１，４グルコシド結合に作用するもの，例．ヒアルロニダーゼ，インベルターゼ，アミラーゼ［２００６．０１］	acting on alpha-1, 4-glucosidic bonds, e.g. hyaluronidase, invertase, amylase [3]
+C12N   9/26  A	3	0	4B050	C12N   9/26	490	アミラーゼ類，例．β−アミラーゼ	Amylase (b-amylase)
+C12N   9/26  Z	3	0	4B050	C12N   9/26	386	その他のもの	Others
+C12N   9/28  \	4	4	4B050	C12N   9/28	462	微生物起源のα―アミラーゼ，例．細菌アミラーゼ［２００６．０１］	Alpha-amylase from microbial source, e.g. bacterial amylase [3]
+C12N   9/30  \	5	5	4B050	C12N   9/30	155	菌類起源のもの［２００６．０１］	Fungal source [3]
+C12N   9/32  \	4	4	4B050	C12N   9/32	18	植物起源のα―アミラーゼ［２００６．０１］	Alpha-amylase from plant source [3]
+C12N   9/34  \	4	4	4B050	C12N   9/34	212	グルコアミラーゼ［２００６．０１］	Glucoamylase [3]
+C12N   9/36  \	3	3	4B050	C12N   9/36	317	Ｎ―アセチルムラミン酸と２―アセチルアミノ―２―デオキシ―Ｄ―グルコース間のβ―１，４結合に作用するもの，例．リゾチーム［２００６．０１］	acting on beta-1, 4 bonds between N-acetylmuramic acid and 2-acetylamino 2-deoxy-D-glucose, e.g. lysozyme [3]
+C12N   9/38  \	3	3	4B050	C12N   9/38	352	β―ガラクトース―グリコシド結合に作用するもの，例．β―カラクトシダーゼ［２００６．０１］	acting on beta-galactose-glycoside bonds, e.g. beta-galactosidase [3]
+C12N   9/40  \	3	3	4B050	C12N   9/40	206	α―ガラクトース―グリコシド結合に作用するもの，例．α―ガラクトシダーゼ［２００６．０１］	acting on alpha-galactose-glycoside bonds, e.g. alpha-galactosidase [3]
+C12N   9/42  \	3	3	4B050	C12N   9/42	1602	β―１，４グルコシド結合に作用するもの，例．セルラーゼ［２００６．０１］	acting on beta-1, 4-glucosidic bonds, e.g. cellulase [3]
+C12N   9/44  \	3	3	4B050	C12N   9/44	291	α―１，６グルコシド結合に作用するもの，例．イソアミラーゼ，プルラナーゼ［２００６．０１］	acting on alpha-1, 6-glucosidic bonds, e.g. isoamylase, pullulanase [3]
+C12N   9/46  \	4	4	4B050	C12N   9/46	49	デキストラナーゼ［２００６．０１］	Dextranase [3]
+C12N   9/48  \	2	2	4B050	C12N   9/48	714	ペプチド結合に作用するもの，例．トロンボプラスチン，ロイシンアミノペプチダーゼ（３・４）［２００６．０１］	acting on peptide bonds, e.g. thromboplastin, leucine aminopeptidase (3.4) [3]
+C12N   9/50  \	3	3	4B050	C12N   9/50	1310	プロテイナーゼ［２００６．０１］	Proteinases [3]
+C12N   9/52  \	4	4	4B050	C12N   9/52	726	細菌から抽出されたもの［２００６．０１］	derived from bacteria [3]
+C12N   9/54  \	5	5	4B050	C12N   9/54	531	細菌がバチルス属であるもの［２００６．０１］	bacteria being Bacillus [3]
+C12N   9/56  \	6	6	4B050	C12N   9/56	313	バチルス　ズブチルスまたはバチルス　リケニフォルミス［２００６．０１］	Bacillus subtilis or Bacillus licheniformis [3]
+C12N   9/58  \	4	4	4B050	C12N   9/58	258	菌類から抽出されたもの［２００６．０１］	derived from fungi [3]
+C12N   9/60  \	5	5	4B050	C12N   9/60	78	酵母からのもの［２００６．０１］	from yeast [3]
+C12N   9/62  \	5	5	4B050	C12N   9/62	201	アスペルギルス属からのもの［２００６．０１］	from Aspergillus [3]
+C12N   9/64  \	4	4	4B050	C12N   9/64	643	動物の組織から抽出されたもの，例．レンニン［２００６．０１］	derived from animal tissue, e.g. rennin [3]
+C12N   9/64  A	4	0	4B050	C12N   9/64	97	カリクレイン	Kallikrein
+C12N   9/64  Z	4	0	4B050	C12N   9/64	1142	その他のもの	Others
+C12N   9/66  \	3	3	4B050	C12N   9/66	163	エラスターゼ［２００６．０１］	Elastase [3]
+C12N   9/68  \	3	3	4B050	C12N   9/68	128	プラスミン，すなわちフィブリノリシン［２００６．０１］	Plasmin, i.e. fibrinolysin [3]
+C12N   9/70  \	3	3	4B050	C12N   9/70	43	ストレプトキナーゼ［２００６．０１］	Streptokinase [3]
+C12N   9/72  \	3	3	4B050	C12N   9/72	374	ウロキナーゼ［２００６．０１］	Urokinase [3]
+C12N   9/74  \	3	3	4B050	C12N   9/74	131	トロンビン［２００６．０１］	Thrombin [3]
+C12N   9/76  \	3	3	4B050	C12N   9/76	163	トリプシン；キモトリプシン［２００６．０１］	Trypsin; Chymotrypsin [3]
+C12N   9/78  \	2	2	4B050	C12N   9/78	492	ペプチド結合以外のＣ―Ｎ結合に作用するもの（３．５）［２００６．０１］	acting on carbon to nitrogen bonds other than peptide bonds (3.5) [3]
+C12N   9/80  \	3	3	4B050	C12N   9/80	326	鎖状アミドのアミド結合に作用するもの［２００６．０１］	acting on amide bonds in linear amides [3]
+C12N   9/82  \	4	4	4B050	C12N   9/82	108	アスパラギナーゼ［２００６．０１］	Asparaginase [3]
+C12N   9/84  \	4	4	4B050	C12N   9/84	48	ペニシリンアミダーゼ［２００６．０１］	Penicillin amidase [3]
+C12N   9/86  \	3	3	4B050	C12N   9/86	150	環状アミドのアミド結合に作用するもの，例．ペニシリナーゼ［２００６．０１］	acting on amide bonds in cyclic amides, e.g. penicillinase [3]
+C12N   9/88  \	1	1	4B050	C12N   9/88	1749	付加酵素（４．）［２００６．０１］	Lyases (4.) [3]
+C12N   9/90  \	1	1	4B050	C12N   9/90	764	異性化酵素（５．）［２００６．０１］	Isomerases (5.) [3]
+C12N   9/92  \	2	2	4B050	C12N   9/92	166	グルコースイソメラーゼ［２００６．０１］	Glucose isomerase [3]
+C12N   9/94  \	1	1	4B050	C12N   9/94	23	パンクレアチン［２００６．０１］	Pancreatin [3]
+C12N   9/96  \	1	1	4B050	C12N   9/96	1149	付加体または組成物を形成することによる酵素の安定化；酵素抱合体の生成［２００６．０１］	Stabilising an enzyme by forming an adduct or a composition; Forming enzyme conjugates [3]
+C12N   9/98  \	1	1	4B050	C12N   9/98	258	粒状または自由流動性酵素組成物の調製（Ｃ１２Ｎ９／９６が優先）［２００６．０１］	Preparation of granular or free-flowing enzyme compositions (C12N 9/96 takes precedence) [3]
+C12N   9/99  \	1	1	4B050	C12N   9/99	5621	化学処理による酵素の不活性化［２００６．０１］	Enzyme inactivation by chemical treatment [3]
+C12N  11/00  \	0	0	4B033	C12N  11/00	980	担体結合または固定化酵素；担体結合または固定化微生物；その調製［２００６．０１］	Carrier-bound or immobilised enzymes; Carrier-bound or immobilised microbial cells; Preparation thereof
+C12N  11/02  \	1	1	4B033	C12N  11/02	968	有機担体上または内部に固定化した酵素または微生物細胞［２００６．０１］	Enzymes or microbial cells immobilised on or in an organic carrier
+C12N  11/04  \	2	2	4B033	C12N  11/04	769	担体内に包括されたもの，例．ゲルまたは中空繊維［２００６．０１］	entrapped within the carrier, e.g. gel or hollow fibres
+C12N  11/06  \	2	2	4B033	C12N  11/06	243	架橋試薬によって担体と結合したもの［２００６．０１］	attached to the carrier via a bridging agent
+C12N  11/08  \	2	2	4B033	C12N  11/08	738	担体が合成高分子であるもの［２０２０．０１］	the carrier being a synthetic polymer [2020.01]
+C12N  11/082  \	3	3	4B033	C12N  11/082	358	炭素―炭素不飽和結合のみが関与する反応によって得られたもの［２０２０．０１］	obtained by reactions only involving carbon-to-carbon unsaturated bonds [2020.01]
+C12N  11/084  \	4	4	4B033	C12N  11/084	269	ビニルアルコール単位を含有する重合体［２０２０．０１］	Polymers containing vinyl alcohol units [2020.01]
+C12N  11/087  \	4	4	4B033	C12N  11/087	353	アクリル重合体［２０２０．０１］	Acrylic polymers [2020.01]
+C12N  11/089  \	3	3	4B033	C12N  11/089	117	炭素―炭素不飽和結合のみが関与する反応以外の反応によって得られたもの［２０２０．０１］	obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds [2020.01]
+C12N  11/091  \	4	4	4B033	C12N  11/091	44	フェノール樹脂；アミノ樹脂［２０２０．０１］	Phenol resins; Amino resins [2020.01]
+C12N  11/093  \	4	4	4B033	C12N  11/093	106	ポリウレタン［２０２０．０１］	Polyurethanes [2020.01]
+C12N  11/096  \	4	4	4B033	C12N  11/096	110	ポリエステル；ポリアミド［２０２０．０１］	Polyesters; Polyamides [2020.01]
+C12N  11/098  \	3	3	4B033	C12N  11/098	306	酵素または微生物細胞の存在下で形成されたもの［２０２０．０１］	formed in the presence of the enzymes or microbial cells [2020.01]
+C12N  11/10  \	2	2	4B033	C12N  11/10	518	担体が炭水化物であるもの［２００６．０１］	the carrier being a carbohydrate
+C12N  11/12  \	3	3	4B033	C12N  11/12	292	セルロースまたはその誘導体［２００６．０１］	Cellulose or derivatives thereof
+C12N  11/14  \	1	1	4B033	C12N  11/14	1116	無機担体上または内部に固定化した酵素または微生物細胞［２００６．０１］	Enzymes or microbial cells immobilised on or in an inorganic carrier
+C12N  11/16  \	1	1	4B033	C12N  11/16	124	生物細胞上または内部に固定化した酵素または微生物細胞［２００６．０１］	Enzymes or microbial cells immobilised on or in a biological cell
+C12N  11/18  \	1	1	4B033	C12N  11/18	69	複合酵素系［２００６．０１］	Multi-enzyme systems
+C12N  13/00  \	0	0	4B033	C12N  13/00	809	微生物または酵素の電気または波動エネルギーによる処理，例．磁気，音波［３］	Treatment of micro-organisms or enzymes with electrical or wave energy, e.g. magnetism, sonic waves [3]
+C12N  15/00  \	0	0	4B024	C12N  15/00	8341	突然変異または遺伝子工学；遺伝子工学に関するＤＮＡまたはＲＮＡ，ベクター，例．プラスミド，またはその分離，製造または精製；そのための宿主の使用（突然変異体または遺伝的に処理された微生物，Ｃ１２Ｎ１／００，Ｃ１２Ｎ５／００，Ｃ１２Ｎ７／００；植物新種Ａ０１Ｈ；組織培養技術による植物の増殖Ａ０１Ｈ４／００；動物新種Ａ０１Ｋ６７／００；遺伝子疾病の治療のために生体の細胞内に挿入する遺伝子物質を含有する医薬品製剤の使用，遺伝子治療Ａ６１Ｋ４８／００；ペプチド一般Ｃ０７Ｋ）［３，５，６］	Mutation or genetic engineering; DNA or RNA concerning genetic engineering, vectors, e.g. plasmids, or their isolation, preparation or purification; Use of hosts therefor (mutants or genetically engineered microorganisms C12N1/00, C12N5/00, C12N7/00; new plants A01H; plant reproduction by tissue culture techniques A01H4/00; new animals A01K67/00; use of medicinal preparations containing genetic material which is inserted into cells of the living body to treat genetic diseases, gene therapy A61K48/00; peptides in general C07K) [3, 5, 6]
+C12N  15/00 100 \	1	1	4B024	C12N  15/00	1	ダミーＦＩＣ１２Ｎ１５／００，１００＠Ｐを設定するためのダミーＦＩ【新規付与停止】	Dummy fI for setting up dummy fIC12N15/00 100@P [stop new assigment]
+C12N  15/00 100 P	1	0	4B024	C12N  15/00	236	パテントファミリーにＣ１２Ｎ１５／００のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/00 is assigned [stop new assigment]
+C12N  15/00 100 Z	1	0	4B024	C12N  15/00	72	その他	Others
+C12N  15/01  \	1	1	4B024	C12N  15/01	8	外来遺伝物質を導入しない突然変異体の調製；そのためのスクリーニング方法［５］	Preparation of mutants without inserting foreign genetic material therein; Screening processes therefor [5]
+C12N  15/01  P	1	0	4B024	C12N  15/01	157	パテントファミリーにＣ１２Ｎ１５／０１のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/01 is assigned [stop new assigment]
+C12N  15/01  Z	1	0	4B024	C12N  15/01	820	その他	Others
+C12N  15/02  \	1	1	4B024	C12N  15/02	5	２つ以上の細胞の融合による融合細胞の調製，例．プロトプラスト融合［５］	Preparation of hybrid cells by fusion of two or more cells, e.g. protoplast fusion [5]
+C12N  15/02  P	1	0	4B024	C12N  15/02	20	パテントファミリーにＣ１２Ｎ１５／０２のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/02 is assigned [stop new assigment]
+C12N  15/02  Z	1	0	4B024	C12N  15/02	66	その他	Others
+C12N  15/03  \	2	2	4B024	C12N  15/03	1	細菌［５］	Bacteria [5]
+C12N  15/03  P	2	0	4B024	C12N  15/03	24	パテントファミリーにＣ１２Ｎ１５／０３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/03 is assigned [stop new assigment]
+C12N  15/03  Z	2	0	4B024	C12N  15/03	41	その他	Others
+C12N  15/04  \	2	2	4B024	C12N  15/04	2	菌類［５］	Fungi [5]
+C12N  15/04  P	2	0	4B024	C12N  15/04	32	パテントファミリーにＣ１２Ｎ１５／０４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/04 is assigned [stop new assigment]
+C12N  15/04  Z	2	0	4B024	C12N  15/04	43	その他	Others
+C12N  15/05  \	2	2	4B024	C12N  15/05	15	植物細胞［５］	Plant cells [5]
+C12N  15/06  \	2	2	4B024	C12N  15/06	118	動物細胞［５］	Animal cells [5]
+C12N  15/06 100 \	3	3	4B024	C12N  15/06	795	モノクローナル抗体に関するもの	related to monoclonal antibody
+C12N  15/07  \	2	2	4B024	C12N  15/07	23	ヒト細胞［５］	Human cells [5]
+C12N  15/07 100 \	3	3	4B024	C12N  15/07	35	モノクローナル抗体に関するもの	related to monoclonal antibody
+C12N  15/08  \	2	2	4B024	C12N  15/08	15	異種間の融合により生じる細胞［５］	Cells resulting from interspecies fusion [5]
+C12N  15/08 100 \	3	3	4B024	C12N  15/08	63	モノクローナル抗体に関するもの	related to monoclonal antibody
+C12N  15/09  \	1	1	4B024	C12N  15/09	400	組換えＤＮＡ技術［５］	Recombinant DNA-technology [5]
+C12N  15/09  P	1	0	4B024	C12N  15/09	1237	パテントファミリーにＣ１２Ｎ１５／０９のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/09 is assigned [stop new assigment]
+C12N  15/09  Z	1	0	4B024	C12N  15/09	9685	その他	Others
+C12N  15/09 100 \	2	2	4B024	C12N  15/09	1437	ゲノム編集技術，例．ＴＡＬＥＮ，ジンクフィンガーヌクレアーゼを用いるもの	Genome editing technology, e.g. using TALEN, zinc finger nuclease
+C12N  15/09 110 \	3	3	4B024	C12N  15/09	2776	ＣＲＩＳＰＲ／Ｃａｓを用いるもの	using CRIsPR/Cas
+C12N  15/09 200 \	2	2	4B024	C12N  15/09	4846	ＤＮＡチップ，マイクロアレイ	DNA chip, microarray
+C12N  15/10  \	2	2	4B024	C12N  15/10	45	ＤＮＡまたはＲＮＡの分離，製造または精製のための方法（ＤＮＡまたはＲＮＡの化学的製造Ｃ０７Ｈ２１／００；微生物からのまたは酵素を用いた非構造ポリヌクレオチドの製造Ｃ１２Ｐ１９／３４）［５］	Processes for the isolation, preparation or purification of DNA or RNA (chemical preparation of DNA or RNA C07H21/00; preparation of non-structural polynucleotides from microorganisms or with enzymes C12P19/34) [5]
+C12N  15/10  P	2	0	4B024	C12N  15/10	2079	パテントファミリーにＣ１２Ｎ１５／１０，Ｃ１２Ｎ１５／１０３４，Ｃ１２Ｎ１５／１０３７，Ｃ１２Ｎ１５／１０４１，Ｃ１２Ｎ１５／１０４４，Ｃ１２Ｎ１５／１０４８，Ｃ１２Ｎ１５／１０５１，Ｃ１２Ｎ１５／１０５５，Ｃ１２Ｎ１５／１０５８，Ｃ１２Ｎ１５／１０６２，Ｃ１２Ｎ１５／１０６５，Ｃ１２Ｎ１５／１０６８，Ｃ１２Ｎ１５／１０７２，Ｃ１２Ｎ１５／１０７５，Ｃ１２Ｎ１５／１０７９，Ｃ１２Ｎ１５／１０８２，Ｃ１２Ｎ１５／１０８６，Ｃ１２Ｎ１５／１０８９，Ｃ２Ｎ１５／１０９３，Ｃ１２Ｎ１５／１０９６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/10, C12N15/1034, C12N15/1037, C12N15/1041, C12N15/1044, C12N15/1048, C12N15/1051, C12N15/1055, C12N15/1058, C12N15/1062, C12N15/1065, C12N15/1068, C12N15/1072, C12N15/1075, C12N15/1079, C12N15/1082, C12N15/1086, C12N15/1089, C12N15/1093, C12N15/1096 are assigned [stop new assigment]
+C12N  15/10  Z	2	0	4B024	C12N  15/10	3064	その他	Others
+C12N  15/10 100 \	3	3	4B024	C12N  15/10	13	生物試料からの核酸の抽出または分離，例．純粋分離または単離方法；そのための条件，緩衝液	Extraction or separation of nucleic acids from biological samples, e.g. pure separation or isolation method; conditions, buffer solutions therefore
+C12N  15/10 100 P	3	0	4B024	C12N  15/10	316	パテントファミリーにＣ１２Ｎ１５／１００３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1003 is assigned [stop new assigment]
+C12N  15/10 100 Z	3	0	4B024	C12N  15/10	913	その他	Others
+C12N  15/10 110 \	4	4	4B024	C12N  15/10	5	固体保持担体によるもの，例．粒子，ポリマー	by solid support carrier, e.g. particles, polymer
+C12N  15/10 110 P	4	0	4B024	C12N  15/10	285	パテントファミリーにＣ１２Ｎ１５／１００６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1006 is assigned [stop new assigment]
+C12N  15/10 110 Z	4	0	4B024	C12N  15/10	594	その他	Others
+C12N  15/10 112 \	5	5	4B024	C12N  15/10	1	クロマトグラフィーによるもの，例．電気泳動，イオン交換，逆相	by chromatography, e.g. electrophoresis, ion-exchange, reversed-phase
+C12N  15/10 112 P	5	0	4B024	C12N  15/10	131	パテントファミリーにＣ１２Ｎ１５／１０１のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/101 is assigned [stop new assigment]
+C12N  15/10 112 Z	5	0	4B024	C12N  15/10	241	その他	Others
+C12N  15/10 114 \	5	5	4B024	C12N  15/10	0	磁性ビーズの使用によるもの	by using magnetic beads
+C12N  15/10 114 P	5	0	4B024	C12N  15/10	93	パテントファミリーにＣ１２Ｎ１５／１０１３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1013 is assigned [stop new assigment]
+C12N  15/10 114 Z	5	0	4B024	C12N  15/10	246	その他	Others
+C12N  15/10 120 \	4	4	4B024	C12N  15/10	0	ろ過によるもの，例．ろ過器，フリット，膜の使用	by filteration, e.g. using filters, frits, membranes
+C12N  15/10 120 P	4	0	4B024	C12N  15/10	122	パテントファミリーにＣ１２Ｎ１５／１０１７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1017 is assigned [stop new assigment]
+C12N  15/10 120 Z	4	0	4B024	C12N  15/10	197	その他	Others
+C12N  15/10 200 \	3	3	4B024	C12N  15/10	8	核酸の突然変異誘導	Mutagenizing nucleic acids
+C12N  15/10 200 P	3	0	4B024	C12N  15/10	264	パテントファミリーにＣ１２Ｎ１５／１０２のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/102 is assigned [stop new assigment]
+C12N  15/10 200 Z	3	0	4B024	C12N  15/10	1221	その他	Others
+C12N  15/10 210 \	4	4	4B024	C12N  15/10	1	遺伝物質，例．エラープローンポリメラーゼをコードするもの，の挿入による，またはミスマッチ修復遺伝子の阻害による，高突然変異誘発性宿主であるミューテーターを使用した突然変異生成（ゲノム編集技術，Ｃ１２Ｎ１５／０９，１００）	Mutagenesis using high mutagenic host mutator by inserting a genetic material, e.g. encoding an error prone polymerase, or by disrupting a gene for mismatch repair (Genome Editing Technology, C12N15/09, 100)
+C12N  15/10 210 P	4	0	4B024	C12N  15/10	36	パテントファミリーにＣ１２Ｎ１５／１０２４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1024 is assigned [stop new assigment]
+C12N  15/10 210 Z	4	0	4B024	C12N  15/10	177	その他	Others
+C12N  15/10 220 \	4	4	4B024	C12N  15/10	1	ＤＮＡシャフリングによるもの，例．ＲＳＲ，ＳＴＥＰ，ＲＰＲ	by DNA shuffling, e.g. RsR, sTEP, RPR
+C12N  15/10 220 P	4	0	4B024	C12N  15/10	116	パテントファミリーにＣ１２Ｎ１５／１０２７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1027 is assigned [stop new assigment]
+C12N  15/10 220 Z	4	0	4B024	C12N  15/10	134	その他	Others
+C12N  15/10 230 \	4	4	4B024	C12N  15/10	3	遺伝子アセンブリによる突然変異生成，例．オリゴヌクレオチドエクステンションＰＣＲによるアセンブリ	Mutagenesis by gene assembly, e.g. assembly by oligonucleotide extension PCR
+C12N  15/10 230 P	4	0	4B024	C12N  15/10	26	パテントファミリーにＣ１２Ｎ１５／１０３１のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1031 is assigned [stop new assigment]
+C12N  15/10 230 Z	4	0	4B024	C12N  15/10	146	その他	Others
+C12N  15/11  \	2	2	4B024	C12N  15/11	164	ＤＮＡまたはＲＮＡフラグメント；その修飾物（組換え技術に使用されないＤＮＡまたはＲＮＡＣ０７Ｈ２１／００）［５］	DNA or RNA fragments; Modified forms thereof (DNA or RNA not used in recombinant technology C07H21/00) [5]
+C12N  15/11  P	2	0	4B024	C12N  15/11	1038	パテントファミリーにＣ１２Ｎ１５／１１，Ｃ１２Ｎ１５／１１１のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/11, C12N15/111 are assigned [stop new assigment]
+C12N  15/11  Z	2	0	4B024	C12N  15/11	7520	その他	Others
+C12N  15/113  \	3	3	4B024	C12N  15/113	251	遺伝子の発現を調節する非コード核酸，例．アンチセンスオリゴヌクレオチド［２０１０．０１］	Non-coding nucleic acids modulating the expression of genes, e.g. antisense oligonucleotides [2010.01]
+C12N  15/113  P	3	0	4B024	C12N  15/113	1974	パテントファミリーにＣ１２Ｎ１５／１１３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/113 is assigned [stop new assigment]
+C12N  15/113  Z	3	0	4B024	C12N  15/113	7686	その他	Others
+C12N  15/113 100 \	4	4	4B024	C12N  15/113	10	ウイルスに対するもの	against viruses
+C12N  15/113 100 P	4	0	4B024	C12N  15/113	244	パテントファミリーにＣ１２Ｎ１５／１１３１のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1131 is assigned [stop new assigment]
+C12N  15/113 100 Z	4	0	4B024	C12N  15/113	470	その他	Others
+C12N  15/113 102 \	5	5	4B024	C12N  15/113	0	レトロウイルス，例．ＨＩＶ，に対するもの	against retroviridae, e.g. HIV
+C12N  15/113 102 P	5	0	4B024	C12N  15/113	114	パテントファミリーにＣ１２Ｎ１５／１１３２のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1132 is assigned [stop new assigment]
+C12N  15/113 102 Z	5	0	4B024	C12N  15/113	150	その他	Others
+C12N  15/113 104 \	5	5	4B024	C12N  15/113	3	ヘルペスウイルス，例．ＨＳＶ，に対するもの	against herpetoviridae, e.g. HsV
+C12N  15/113 104 P	5	0	4B024	C12N  15/113	28	パテントファミリーにＣ１２Ｎ１５／１１３３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1133 is assigned [stop new assigment]
+C12N  15/113 104 Z	5	0	4B024	C12N  15/113	42	その他	Others
+C12N  15/113 110 \	4	4	4B024	C12N  15/113	22	癌遺伝子または癌抑制遺伝子に対するもの	against oncogenes or tumor suppressor genes
+C12N  15/113 110 P	4	0	4B024	C12N  15/113	340	パテントファミリーにＣ１２Ｎ１５／１１３５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1135 is assigned [stop new assigment]
+C12N  15/113 110 Z	4	0	4B024	C12N  15/113	673	その他	Others
+C12N  15/113 120 \	4	4	4B024	C12N  15/113	1	成長因子，成長調節因子，サイトカイン，リンホカインまたはホルモンに対するもの	against growth factors, growth regulators, cytokines, lymphokines or hormones
+C12N  15/113 120 P	4	0	4B024	C12N  15/113	333	パテントファミリーにＣ１２Ｎ１５／１１３６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1136 is assigned [stop new assigment]
+C12N  15/113 120 Z	4	0	4B024	C12N  15/113	554	その他	Others
+C12N  15/113 130 \	4	4	4B024	C12N  15/113	19	酵素に対するもの（ウイルス酵素Ｃ１２Ｎ１５／１１３，１００；受容体Ｃ１２Ｎ１５／１１３，１４０）	against enzymes (virus enzymes C12N15/113, 100; receptors C12N15/113, 140)
+C12N  15/113 130 P	4	0	4B024	C12N  15/113	767	パテントファミリーにＣ１２Ｎ１５／１１３７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1137 is assigned [stop new assigment]
+C12N  15/113 130 Z	4	0	4B024	C12N  15/113	1394	その他	Others
+C12N  15/113 140 \	4	4	4B024	C12N  15/113	9	受容体または細胞表面蛋白質に対するもの	against receptors or cell surface proteins
+C12N  15/113 140 P	4	0	4B024	C12N  15/113	644	パテントファミリーにＣ１２Ｎ１５／１１３８のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/1138 is assigned [stop new assigment]
+C12N  15/113 140 Z	4	0	4B024	C12N  15/113	1133	その他	Others
+C12N  15/115  \	3	3	4B024	C12N  15/115	49	アプタマー，すなわち，ハイブリダイズ以外の手段で，特異的にかつ高親和性で標的分子に結合する核酸［２０１０．０１］	Aptamers, i.e. nucleic acids binding a target molecule specifically and with high affinity without hybridising therewith [2010.01]
+C12N  15/115  P	3	0	4B024	C12N  15/115	313	パテントファミリーにＣ１２Ｎ１５／１１５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/115 is assigned [stop new assigment]
+C12N  15/115  Z	3	0	4B024	C12N  15/115	2200	その他	Others
+C12N  15/117  \	3	3	4B024	C12N  15/117	12	免疫調節性を有する核酸，例．ＣｐＧモチーフを含む核酸［２０１０．０１］	Nucleic acids having immunomodulatory properties, e.g. containing CpG-motifs [2010.01]
+C12N  15/117  P	3	0	4B024	C12N  15/117	199	パテントファミリーにＣ１２Ｎ１５／１１７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/117 is assigned [stop new assigment]
+C12N  15/117  Z	3	0	4B024	C12N  15/117	733	その他	Others
+C12N  15/12  \	3	3	4B024	C12N  15/12	16866	動物蛋白質をコードする遺伝子［５］	Genes encoding animal proteins [5]
+C12N  15/13  \	4	4	4B024	C12N  15/13	20556	免疫グロブリン［５］	Immunoglobulins [5]
+C12N  15/14  \	4	4	4B024	C12N  15/14	237	ヒト血清アルブミン［５］	Human serum albumins [5]
+C12N  15/15  \	4	4	4B024	C12N  15/15	142	プロテアーゼ阻害剤，例．アンチトロンビン，アンチトリプシン，ヒルジン［５］	Protease inhibitors, e.g. antithrombin, antitrypsin, hirudin [5]
+C12N  15/16  \	4	4	4B024	C12N  15/16	574	ホルモン［５］	Hormones [5]
+C12N  15/17  \	5	5	4B024	C12N  15/17	198	インシュリン［５］	Insulins [5]
+C12N  15/18  \	5	5	4B024	C12N  15/18	131	成長ホルモン［５］	Growth hormones [5]
+C12N  15/19  \	4	4	4B024	C12N  15/19	836	インターフェロン；リンホカイン；サイトカイン［５］	Interferons; Lymphokines; Cytokines [5]
+C12N  15/20  \	5	5	4B024	C12N  15/20	131	インターフェロン［５］	Interferons [5]
+C12N  15/21  \	6	6	4B024	C12N  15/21	114	α―インターフェロン［５］	Alpha-interferons [5]
+C12N  15/22  \	6	6	4B024	C12N  15/22	88	β―インターフェロン［５］	Beta-interferons [5]
+C12N  15/23  \	6	6	4B024	C12N  15/23	79	γ―インターフェロン［５］	Gamma-interferons [5]
+C12N  15/24  \	5	5	4B024	C12N  15/24	978	インターロイキン［５］	Interleukins [5]
+C12N  15/25  \	6	6	4B024	C12N  15/25	77	インターロイキン―１［５］	Interleukin-1 [5]
+C12N  15/26  \	6	6	4B024	C12N  15/26	384	インターロイキン―２［５］	Interleukin-2 [5]
+C12N  15/27  \	5	5	4B024	C12N  15/27	159	コロニー刺激因子［５］	Colony stimulating factors [5]
+C12N  15/28  \	5	5	4B024	C12N  15/28	175	腫瘍壊死因子［５］	Tumor necrosis factors [5]
+C12N  15/29  \	3	3	4B024	C12N  15/29	1259	植物蛋白質，例．ソーマチン，をコードする遺伝子［５］	Genes encoding plant proteins, e.g. thaumatin [5]
+C12N  15/30  \	3	3	4B024	C12N  15/30	167	原生動物蛋白質，例．変形体，睡眠病病原虫，アイメリア由来の蛋白質，をコードする遺伝子［５］	Genes encoding protozoal proteins, e.g. from Plasmodium, Trypanosoma, Eimeria [5]
+C12N  15/31  \	3	3	4B024	C12N  15/31	5328	微生物蛋白質，例．エンテロトキシン，をコードする遺伝子［５］	Genes encoding microbial proteins, e.g. enterotoxins [5]
+C12N  15/32  \	4	4	4B024	C12N  15/32	62	バチルス菌結晶蛋白質［５］	Bacillus crystal proteins [5]
+C12N  15/33  \	4	4	4B024	C12N  15/33	599	ウイルス蛋白質をコードする遺伝子［５］	Genes encoding viral proteins [5]
+C12N  15/34  \	5	5	4B024	C12N  15/34	522	ＤＮＡウイルス由来の蛋白質［５］	Proteins from DNA viruses [5]
+C12N  15/35  \	6	6	4B024	C12N  15/35	505	パルボウイルス科，例．猫汎白血球減少症ウイルス，ヒトパルボウイルス［５］	Parvoviridae, e.g. feline panleukopenia virus, human parvovirus [5]
+C12N  15/36  \	6	6	4B024	C12N  15/36	71	ヘパドナウイルス科［５］	Hepadnaviridae [5]
+C12N  15/37  \	6	6	4B024	C12N  15/37	244	パポーバウイルス科，例．乳頭腫ウイルス，ポリオーマウイルス，ＳＶ４０［５］	Papovaviridae, e.g. papillomaviruses, polyomavirus, SV40 [5]
+C12N  15/38  \	6	6	4B024	C12N  15/38	404	ヘルペスウイルス科，例．単純ヘルペスウイルス，水痘―帯状ヘルペスウイルス，エプスタイン―バールウイルス，サイトメガロウイルス，仮性狂犬病ウイルス［５］	Herpetoviridae, e.g. herpes simplex virus, varicella-zoster virus, Epstein-Barr virus, cytomegalovirus, pseudorabies virus [5]
+C12N  15/39  \	6	6	4B024	C12N  15/39	139	ポックスウイルス科，例．ワクシニアウイルス，痘瘡ウイルス［５］	Poxviridae, e.g. vaccinia virus, variola virus [5]
+C12N  15/40  \	5	5	4B024	C12N  15/40	631	ＲＮＡウイルス由来の蛋白質，例．フラビウイルス［５］	Proteins from RNA viruses, e.g. flaviviruses [5]
+C12N  15/41  \	6	6	4B024	C12N  15/41	88	ピコルナウイルス科，例．ライノウイルス，コクサッキーウイルス，エコーウイルス，エンテロウイルス［５］	Picornaviridae, e.g. rhinovirus, coxsackie viruses, echoviruses, enteroviruses [5]
+C12N  15/42  \	7	7	4B024	C12N  15/42	41	口蹄疫ウイルス［５］	Foot-and-mouth disease virus [5]
+C12N  15/43  \	7	7	4B024	C12N  15/43	26	ポリオウイルス［５］	Poliovirus [5]
+C12N  15/44  \	6	6	4B024	C12N  15/44	539	オルソミクソウイルス科，例．インフルエンザウイルス［５］	Orthomyxoviridae, e.g. influenza virus [5]
+C12N  15/45  \	6	6	4B024	C12N  15/45	268	パラミクソウイルス科，例．はしかウイルス，おたふくかぜウイルス，ニューカッスル病ウイルス，犬ジステンパーウイルス，牛疫ウイルス，レスピラトリシンシシャルウイルス［５］	Paramyxoviridae, e.g. measles virus, mumps virus, Newcastle disease virus, canine distemper virus, rinderpest virus, respiratory syncytial viruses [5]
+C12N  15/46  \	6	6	4B024	C12N  15/46	63	レオウイルス科，例．ロタウイルス，ブルータングウイルス，コロラドダニ熱ウイルス［５］	Reoviridae, e.g. rotavirus, bluetongue virus, Colorado tick fever virus [5]
+C12N  15/47  \	6	6	4B024	C12N  15/47	124	ラブドウイルス科，例．狂犬病ウイルス，水泡性口内炎ウイルス［５］	Rhabdoviridae, e.g. rabies viruses, vesicular stomatitis virus [5]
+C12N  15/48  \	6	6	4B024	C12N  15/48	159	レトロウイルス，例．ウシ白血病ウイルス，猫白血病ウイルス［５］	Retroviridae, e.g. bovine leukaemia virus, feline leukaemia virus [5]
+C12N  15/49  \	7	7	4B024	C12N  15/49	382	レンチウイルス科，例．ＨＩＶ，ビスナーマエディウイルス，馬感染性貧血ウイルスなどの免疫不全ウイルス［５］	Lentiviridae, e.g. immunodeficiency viruses such as HIV, visna-maedi virus, equine infectious anaemia virus [5]
+C12N  15/50  \	6	6	4B024	C12N  15/50	456	コロナウイルス科，例．感染気管支炎ウイルス，伝染病胃腸炎ウイルス［５］	Coronaviridae, e.g. infectious bronchitis virus, transmissible gastroenteritis virus [5]
+C12N  15/51  \	5	5	4B024	C12N  15/51	314	肝炎ウイルス［５］	Hepatitis viruses [5]
+C12N  15/52  \	3	3	4B024	C12N  15/52	97	酵素または酵素前駆体をコードする遺伝子［５］	Genes encoding for enzymes or proenzymes [5]
+C12N  15/52  P	3	0	4B024	C12N  15/52	945	パテントファミリーにＣ１２Ｎ１５／５２のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/52 is assigned [stop new assigment]
+C12N  15/52  Z	3	0	4B024	C12N  15/52	1736	その他	Others
+C12N  15/53  \	4	4	4B024	C12N  15/53	3315	酸化還元酵素（１）［５］	Oxidoreductases (1) [5]
+C12N  15/54  \	4	4	4B024	C12N  15/54	3570	転移酵素（２）［５］	Transferases (2) [5]
+C12N  15/55  \	4	4	4B024	C12N  15/55	3063	加水分解酵素（３）［５］	Hydrolases (3) [5]
+C12N  15/56  \	5	5	4B024	C12N  15/56	1476	グリコシル化合物に作用するもの（３．２），例．アミラーゼ，ガラクトシダーゼ，リゾチーム［５］	acting on glycosyl compounds (3.2), e.g. amylase, galactosidase, lysozyme [5]
+C12N  15/57  \	5	5	4B024	C12N  15/57	1186	ペプチド結合に作用するもの（３．４）［５］	acting on peptide bonds (3.4) [5]
+C12N  15/58  \	6	6	4B024	C12N  15/58	42	プラスミノーゲン活性化因子，例．ウロキナーゼ，ＴＰＡ［５］	Plasminogen activators, e.g. urokinase, TPA [5]
+C12N  15/59  \	6	6	4B024	C12N  15/59	12	キモシン［５］	Chymosin [5]
+C12N  15/60  \	4	4	4B024	C12N  15/60	1049	付加酵素（４）［５］	Lyases (4) [5]
+C12N  15/61  \	4	4	4B024	C12N  15/61	531	異性化酵素（５）［５］	Isomerases (5) [5]
+C12N  15/62  \	3	3	4B024	C12N  15/62	335	融合蛋白質をコードするＤＮＡ配列［５］	DNA sequences coding for fusion proteins [5]
+C12N  15/62  P	3	0	4B024	C12N  15/62	1108	パテントファミリーにＣ１２Ｎ１５／６２，Ｃ１２Ｎ１５／６２５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/62, C12N15/625 are assigned [stop new assigment]
+C12N  15/62  Z	3	0	4B024	C12N  15/62	13783	その他	Others
+C12N  15/63  \	2	2	4B024	C12N  15/63	204	ベクターを用いた外来遺伝物質の導入；ベクター；そのための宿主の使用；発現の制御［５］	Introduction of foreign genetic material using vectors; Vectors; Use of hosts therefor; Regulation of expression [5]
+C12N  15/63  P	2	0	4B024	C12N  15/63	519	パテントファミリーにＣ１２Ｎ１５／６３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/63 is assigned [stop new assigment]
+C12N  15/63  Z	2	0	4B024	C12N  15/63	17878	その他	Others
+C12N  15/63 100 \	3	3	4B024	C12N  15/63	1	外部から誘導可能なリプレッサーまたはインデューサーを介した遺伝子発現調節によって特徴づけられるもの	Characterized by gene expression regulation via an externally inducible repressor or inducer
+C12N  15/63 100 P	3	0	4B024	C12N  15/63	127	パテントファミリーにＣ１２Ｎ１５／６３５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/635 is assigned [stop new assigment]
+C12N  15/63 100 Z	3	0	4B024	C12N  15/63	306	その他	Others
+C12N  15/64  \	3	3	4B024	C12N  15/64	3	ベクターを製造するため，ベクターを細胞内へ導入するためまたはベクター含有宿主を選択するための一般的方法［５］	General methods for preparing the vector, for introducing it into the cell or for selecting the vector-containing host [5]
+C12N  15/64  P	3	0	4B024	C12N  15/64	191	パテントファミリーにＣ１２Ｎ１５／６４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/64 is assigned [stop new assigment]
+C12N  15/64  Z	3	0	4B024	C12N  15/64	345	その他	Others
+C12N  15/65  \	3	3	4B024	C12N  15/65	5	マーカーの使用（マーカーとして使用される酵素Ｃ１２Ｎ１５／５２）［５］	using markers (enzymes used as markers C12N15/52) [5]
+C12N  15/65  P	3	0	4B024	C12N  15/65	115	パテントファミリーにＣ１２Ｎ１５／６５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/65 is assigned [stop new assigment]
+C12N  15/65  Z	3	0	4B024	C12N  15/65	302	その他	Others
+C12N  15/66  \	3	3	4B024	C12N  15/66	3	開裂および連結反応を用いることにより，ベクター内に遺伝子を挿入して組換えベクターを作成するための一般的方法；非機能的リンカーまたはアダプター，例．制限エンドヌクレアーゼの認識配列を有するリンカー，の使用［５］	General methods for inserting a gene into a vector to form a recombinant vector using cleavage and ligation; Use of non-functional linkers or adaptors, e.g. linkers containing the sequence for a restriction endonuclease [5]
+C12N  15/66  P	3	0	4B024	C12N  15/66	211	パテントファミリーにＣ１２Ｎ１５／６６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/66 is assigned [stop new assigment]
+C12N  15/66  Z	3	0	4B024	C12N  15/66	333	その他	Others
+C12N  15/67  \	3	3	4B024	C12N  15/67	4	発現を高めるための一般的方法［５］	General methods for enhancing the expression [5]
+C12N  15/67  P	3	0	4B024	C12N  15/67	582	パテントファミリーにＣ１２Ｎ１５／６７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/67 is assigned [stop new assigment]
+C12N  15/67  Z	3	0	4B024	C12N  15/67	892	その他	Others
+C12N  15/68  \	4	4	4B024	C12N  15/68	1	ベクターの安定［５］	Stabilisation of the vector [5]
+C12N  15/68  P	4	0	4B024	C12N  15/68	79	パテントファミリーにＣ１２Ｎ１５／６８のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/68 is assigned [stop new assigment]
+C12N  15/68  Z	4	0	4B024	C12N  15/68	112	その他	Others
+C12N  15/69  \	4	4	4B024	C12N  15/69	0	ベクターのコピー数の増大［５］	Increasing the copy number of the vector [5]
+C12N  15/69  P	4	0	4B024	C12N  15/69	90	パテントファミリーにＣ１２Ｎ１５／６９のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/69 is assigned [stop new assigment]
+C12N  15/69  Z	4	0	4B024	C12N  15/69	129	その他	Others
+C12N  15/70  \	3	3	4B024	C12N  15/70	16	大腸菌に特に適合するベクターまたは発現システム［５］	Vectors or expression systems specially adapted for E. coli [5]
+C12N  15/70  P	3	0	4B024	C12N  15/70	969	パテントファミリーにＣ１２Ｎ１５／７０のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/70 is assigned [stop new assigment]
+C12N  15/70  Z	3	0	4B024	C12N  15/70	1699	その他	Others
+C12N  15/71  \	4	4	4B024	C12N  15/71	0	ｔｒｐ―オペロンに由来する制御配列を使用した発現システム［５］	Expression systems using regulatory sequences derived from the trp-operon [5]
+C12N  15/71  P	4	0	4B024	C12N  15/71	93	パテントファミリーにＣ１２Ｎ１５／７１のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/71 is assigned [stop new assigment]
+C12N  15/71  Z	4	0	4B024	C12N  15/71	107	その他	Others
+C12N  15/72  \	4	4	4B024	C12N  15/72	0	ｌａｃ―オペロンに由来する制御配列を使用した発現システム［５］	Expression systems using regulatory sequences derived from the lac-operon [5]
+C12N  15/72  P	4	0	4B024	C12N  15/72	56	パテントファミリーにＣ１２Ｎ１５／７２のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/72 is assigned [stop new assigment]
+C12N  15/72  Z	4	0	4B024	C12N  15/72	89	その他	Others
+C12N  15/73  \	4	4	4B024	C12N  15/73	0	λファージの制御配列を使用した発現システム［５］	Expression systems using phage lambda regulatory sequences [5]
+C12N  15/73  P	4	0	4B024	C12N  15/73	91	パテントファミリーにＣ１２Ｎ１５／７３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/73 is assigned [stop new assigment]
+C12N  15/73  Z	4	0	4B024	C12N  15/73	119	その他	Others
+C12N  15/74  \	3	3	4B024	C12N  15/74	5	大腸菌以外の原核宿主，例．ラクトバチルス，ミクロモノスポラ，に特に適合するベクターまたは発現システム［５］	Vectors or expression systems specially adapted for prokaryotic hosts other than E. coli, e.g. Lactobacillus, Micromonospora [5]
+C12N  15/74  P	3	0	4B024	C12N  15/74	378	パテントファミリーにＣ１２Ｎ１５／７４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/74 is assigned [stop new assigment]
+C12N  15/74  Z	3	0	4B024	C12N  15/74	743	その他	Others
+C12N  15/74 100 \	4	4	4B024	C12N  15/74	0	アグロバクテリウム用；リゾビウム用；ブラディリゾビウム用	for agrobacterium; rhizobium; pradisolium
+C12N  15/74 100 P	4	0	4B024	C12N  15/74	11	パテントファミリーにＣ１２Ｎ１５／７４３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/743 is assigned [stop new assigment]
+C12N  15/74 100 Z	4	0	4B024	C12N  15/74	52	その他	Others
+C12N  15/74 110 \	4	4	4B024	C12N  15/74	2	乳酸菌用，例．ストレプトコッカス，ラクトコッカス，ラクトバチルス，ペディオコッカス，エンテロコッカス，リューコノストック，プロピオニバクテリウム，ビフィドバクテリウム，スポロラクトバチルス	for lactic acid bacteria, e.g. streptococcus, lactococcus, lactobacillus, pediococcus, enterococcus, leuconostoc, propionibacterium, bifidobacterium, sporolactobacillus
+C12N  15/74 110 P	4	0	4B024	C12N  15/74	103	パテントファミリーにＣ１２Ｎ１５／７４６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/746 is assigned [stop new assigment]
+C12N  15/74 110 Z	4	0	4B024	C12N  15/74	142	その他	Others
+C12N  15/75  \	4	4	4B024	C12N  15/75	0	バチルス用［５］	for Bacillus [5]
+C12N  15/75  P	4	0	4B024	C12N  15/75	281	パテントファミリーにＣ１２Ｎ１５／７５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/75 is assigned [stop new assigment]
+C12N  15/75  Z	4	0	4B024	C12N  15/75	386	その他	Others
+C12N  15/76  \	4	4	4B024	C12N  15/76	1	アクチノミセス用；ストレプトミセス用［５］	for Actinomyces; for Streptomyces [5]
+C12N  15/76  P	4	0	4B024	C12N  15/76	175	パテントファミリーにＣ１２Ｎ１５／７６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/76 is assigned [stop new assigment]
+C12N  15/76  Z	4	0	4B024	C12N  15/76	198	その他	Others
+C12N  15/77  \	4	4	4B024	C12N  15/77	1	コリネバクテリウム用；ブレビバクテリウム用［５］	for Corynebacterium; for Brevibacterium [5]
+C12N  15/77  P	4	0	4B024	C12N  15/77	134	パテントファミリーにＣ１２Ｎ１５／７７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/77 is assigned [stop new assigment]
+C12N  15/77  Z	4	0	4B024	C12N  15/77	223	その他	Others
+C12N  15/78  \	4	4	4B024	C12N  15/78	0	シュードモナス用［５］	for Pseudomonas [5]
+C12N  15/78  P	4	0	4B024	C12N  15/78	70	パテントファミリーにＣ１２Ｎ１５／７８のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/78 is assigned [stop new assigment]
+C12N  15/78  Z	4	0	4B024	C12N  15/78	106	その他	Others
+C12N  15/79  \	3	3	4B024	C12N  15/79	7	真核宿主に特に適合するベクターまたは発現システム［５］	Vectors or expression systems specially adapted for eukaryotic hosts [5]
+C12N  15/79  P	3	0	4B024	C12N  15/79	152	パテントファミリーにＣ１２Ｎ１５／７９のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/79 is assigned [stop new assigment]
+C12N  15/79  Z	3	0	4B024	C12N  15/79	352	その他	Others
+C12N  15/80  \	4	4	4B024	C12N  15/80	2	菌類用［５］	for fungi [5]
+C12N  15/80  P	4	0	4B024	C12N  15/80	330	パテントファミリーにＣ１２Ｎ１５／８０のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/80 is assigned [stop new assigment]
+C12N  15/80  Z	4	0	4B024	C12N  15/80	473	その他	Others
+C12N  15/81  \	5	5	4B024	C12N  15/81	3	酵母用［５］	for yeasts [5]
+C12N  15/81  P	5	0	4B024	C12N  15/81	697	パテントファミリーにＣ１２Ｎ１５／８１のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/81 is assigned [stop new assigment]
+C12N  15/81  Z	5	0	4B024	C12N  15/81	1052	その他	Others
+C12N  15/81 100 \	6	6	4B024	C12N  15/81	0	出芽酵母以外の酵母用	for yeasts other than saccharomyces
+C12N  15/81 100 P	6	0	4B024	C12N  15/81	283	パテントファミリーにＣ１２Ｎ１５／８１５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/815 is assigned [stop new assigment]
+C12N  15/81 100 Z	6	0	4B024	C12N  15/81	338	その他	Others
+C12N  15/82  \	4	4	4B024	C12N  15/82	15	植物細胞用［５］	for plant cells [5]
+C12N  15/82  P	4	0	4B024	C12N  15/82	2486	パテントファミリーにＣ１２Ｎ１５／８２，Ｃ１２Ｎ１５／８２０１，Ｃ１２Ｎ１５／８２０２，Ｃ１２Ｎ１５／８２０６，Ｃ１２Ｎ１５／８２０７，Ｃ１２Ｎ１５／８２０９，Ｃ１２Ｎ１５／８２１，Ｃ１２Ｎ１５／８２１２，Ｃ１２Ｎ１５／８２１３，Ｃ１２Ｎ１５／８２１６，Ｃ１２Ｎ１５／８２１８，Ｃ１２Ｎ１５／８２２，Ｃ１２Ｎ１５／８２２１，Ｃ１２Ｎ１５／８２３７，Ｃ１２Ｎ１５／８２３８，Ｃ１２Ｎ１５／８２３９，Ｃ１２Ｎ１５／８２４１，Ｃ１２Ｎ１５／８２４２，Ｃ１２Ｎ１５／８２４２，Ｃ１２Ｎ１５／８２４３，Ｃ１２Ｎ１５／８２４５，Ｃ１２Ｎ１５／８２４６，Ｃ１２Ｎ１５／８２４７，Ｃ１２Ｎ１５／８２４９，Ｃ１２Ｎ１５／８２５５，Ｃ１２Ｎ１５／８２５７，Ｃ１２Ｎ１５／８２５８，Ｃ１２Ｎ１５／８２５９，Ｃ１２Ｎ１５／８２６１，Ｃ１２Ｎ１５／８２６２，Ｃ１２Ｎ１５／８２６３，Ｃ１２Ｎ１５／８２６５，Ｃ１２Ｎ１５／８２６６，Ｃ１２Ｎ１５／８２６７，Ｃ１２Ｎ１５／８２６９，Ｃ１２Ｎ１５／８２７，Ｃ１２Ｎ１５／８２８７，Ｃ１２Ｎ１５／８２８９，Ｃ１２Ｎ１５／８２９，Ｃ１２Ｎ１５／８２９１，Ｃ１２Ｎ１５／８２９３，Ｃ１２Ｎ１５／８２９４，Ｃ１２Ｎ１５／８２９５，Ｃ１２Ｎ１５／８２９７，Ｃ１２Ｎ１５／８２９８のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/82, C12N15/8201, C12N15/8202, C12N15/8206, C12N15/8207, C12N15/8209, C12N15/821, C12N15/8212, C12N15/8213, C12N15/8216, C12N15/8218, C12N15/822, C12N15/8221, C12N15/8237, C12N15/8238, C12N15/8239, C12N15/8241, C12N15/8242, C12N15/8243, C12B15/8245, C12N15/8246, C12N15/8247, C12N15/8249, C12N15/8255, C12N15/8257, C12N15/8258, C12N15/8259, C12N15/8261, C12N15/8262, C12N15/8263, C12N15/8265, C12N15/8266, C12N15/8267, C12N15/8269, C12N15/827, C12N15/8287, C12N15/8289, C12N15/829, C12N15/8291, C12N15/8293, C12N15/8294, C12N15/8295, C12N15/8297, C12N15/8298 are assigned [stop new assigment]
+C12N  15/82  Z	4	0	4B024	C12N  15/82	2947	その他	Others
+C12N  15/82 100 \	5	5	4B024	C12N  15/82	1	色素体，ミトコンドリアの形質転換に特徴のあるもの	having characteristics in tranforming plastids, mitochondria
+C12N  15/82 100 P	5	0	4B024	C12N  15/82	75	パテントファミリーにＣ１２Ｎ１５／８２１４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8214 is assigned [stop new assigment]
+C12N  15/82 100 Z	5	0	4B024	C12N  15/82	91	その他	Others
+C12N  15/82 110 \	5	5	4B024	C12N  15/82	0	遺伝子スイッチに特徴のあるもの	having characteristics in gene switch
+C12N  15/82 110 P	5	0	4B024	C12N  15/82	53	パテントファミリーにＣ１２Ｎ１５／８２１７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8217 is assigned [stop new assigment]
+C12N  15/82 110 Z	5	0	4B024	C12N  15/82	63	その他	Others
+C12N  15/82 120 \	5	5	4B024	C12N  15/82	0	発生的に制御された発現システム，組織特異的，器官特異的，時間的または空間的制御に特徴のあるもの	having characteristics in Developmentally regulated expression systems, tissue, organ specific, temporal or spatial regulation
+C12N  15/82 120 P	5	0	4B024	C12N  15/82	116	パテントファミリーにＣ１２Ｎ１５／８２２２のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8222 is assigned [stop new assigment]
+C12N  15/82 120 Z	5	0	4B024	C12N  15/82	133	その他	Others
+C12N  15/82 122 \	6	6	4B024	C12N  15/82	0	植物組織特異的プロモーターに特徴のあるもの	having characteristics in vegetative tissue-specific promoter
+C12N  15/82 122 P	6	0	4B024	C12N  15/82	115	パテントファミリーにＣ１２Ｎ１５／８２２３，Ｃ１２Ｎ１５／８２２５，Ｃ１２Ｎ１５／８２２６，Ｃ１２Ｎ１５／８２２７，Ｃ１２Ｎ１５／８２２９のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8223, C12N15/8225, C12N15/8226, C12N15/8227, C12N15/8229 are assigned [stop new assigment]
+C12N  15/82 122 Z	6	0	4B024	C12N  15/82	174	その他	Others
+C12N  15/82 124 \	6	6	4B024	C12N  15/82	0	生殖組織特異的プロモーターに特徴のあるもの	having characteristics in reprodictive tissue-specific promoter
+C12N  15/82 124 P	6	0	4B024	C12N  15/82	72	パテントファミリーにＣ１２Ｎ１５／８２３，Ｃ１２Ｎ１５／８２３１，Ｃ１２Ｎ１５／８２３３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/823, C12N15/8231, C12N15/8233 are assigned [stop new assigment]
+C12N  15/82 124 Z	6	0	4B024	C12N  15/82	81	その他	Others
+C12N  15/82 126 \	7	7	4B024	C12N  15/82	1	種子，例．胚，胚乳，特異的なもの	seed-specific, e.g. embryo, endosperm
+C12N  15/82 126 P	7	0	4B024	C12N  15/82	77	パテントファミリーにＣ１２Ｎ１５／８２３４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8234 is assigned [stop new assigment]
+C12N  15/82 126 Z	7	0	4B024	C12N  15/82	95	その他	Others
+C12N  15/82 128 \	7	7	4B024	C12N  15/82	0	果実特異的なもの	fruit-specific
+C12N  15/82 128 P	7	0	4B024	C12N  15/82	18	パテントファミリーにＣ１２Ｎ１５／８２３５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8235 is assigned [stop new assigment]
+C12N  15/82 128 Z	7	0	4B024	C12N  15/82	19	その他	Others
+C12N  15/82 130 \	5	5	4B024	C12N  15/82	0	色素の生合成に関するもの；花の形態を修飾するもの	related to pigment biosynthesis; modification of flower morphology
+C12N  15/82 130 P	5	0	4B024	C12N  15/82	138	パテントファミリーにＣ１２Ｎ１５／８２５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/825 is assigned [stop new assigment]
+C12N  15/82 130 Z	5	0	4B024	C12N  15/82	146	その他	Others
+C12N  15/82 140 \	5	5	4B024	C12N  15/82	0	アミノ酸含量に関するもの，例．合成貯蔵蛋白質，アミノ酸生合成系の改変	related to amino acid content, e.g. synthetic storage proteins, altering amino acid biosynthesis
+C12N  15/82 140 P	5	0	4B024	C12N  15/82	99	パテントファミリーにＣ１２Ｎ１５／８２５１，Ｃ１２Ｎ１５／８２５３，Ｃ１２Ｎ１５／８２５４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8251, C12N15/8253, C12N15/8254 are assigned [stop new assigment]
+C12N  15/82 140 Z	5	0	4B024	C12N  15/82	101	その他	Others
+C12N  15/82 150 \	5	5	4B024	C12N  15/82	0	ストレス耐性のためのもの，例．重金属耐性	for stress registance, e.g. heavy metal resistance
+C12N  15/82 150 P	5	0	4B024	C12N  15/82	717	パテントファミリーにＣ１２Ｎ１５／８２７１，Ｃ１２Ｎ１５／８２７９，Ｃ１２Ｎ１５／８２８１，Ｃ１２Ｎ１５／８２８２，Ｃ１２Ｎ１５／８２８３，Ｃ１２Ｎ１５／８２８５，Ｃ１２Ｎ１５／８２８６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8271, C12N15/8279, C12N15/8281, C12N15/8282, C12N15/8283, C12N15/8285, C12N15/8286 are assigned [stop new assigment]
+C12N  15/82 150 Z	5	0	4B024	C12N  15/82	744	その他	Others
+C12N  15/82 152 \	6	6	4B024	C12N  15/82	1	干ばつ，寒冷，塩耐性のためのもの	for drought, cold, salt resistance
+C12N  15/82 152 P	6	0	4B024	C12N  15/82	148	パテントファミリーにＣ１２Ｎ１５／８２７３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8273 is assigned [stop new assigment]
+C12N  15/82 152 Z	6	0	4B024	C12N  15/82	156	その他	Others
+C12N  15/82 154 \	6	6	4B024	C12N  15/82	0	除草剤耐性のためのもの	for herbicide resistance
+C12N  15/82 154 P	6	0	4B024	C12N  15/82	301	パテントファミリーにＣ１２Ｎ１５／８２７４，Ｃ１２Ｎ１５／８２７５，Ｃ１２Ｎ１５／８２７７，Ｃ１２Ｎ１５／８２７８のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8274, C12N15/8275, C12N15/8277, C12N15/8278 are assigned [stop new assigment]
+C12N  15/82 154 Z	6	0	4B024	C12N  15/82	333	その他	Others
+C12N  15/83  \	5	5	4B024	C12N  15/83	0	ウイルスベクター，例．カリフラワーモザイクウイルス［５］	Viral vectors, e.g. cauliflower mosaic virus [5]
+C12N  15/83  P	5	0	4B024	C12N  15/83	74	パテントファミリーにＣ１２Ｎ１５／８２０３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8203 is assigned [stop new assigment]
+C12N  15/83  Z	5	0	4B024	C12N  15/83	185	その他	Others
+C12N  15/84  \	5	5	4B024	C12N  15/84	0	Ｔｉ―プラスミド［５］	Ti-plasmids [5]
+C12N  15/84  P	5	0	4B024	C12N  15/84	188	パテントファミリーにＣ１２Ｎ１５／８２０５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8205 is assigned [stop new assigment]
+C12N  15/84  Z	5	0	4B024	C12N  15/84	216	その他	Others
+C12N  15/85  \	4	4	4B024	C12N  15/85	28	動物細胞用［５］	for animal cells [5]
+C12N  15/85  P	4	0	4B024	C12N  15/85	2649	パテントファミリーにＣ１２Ｎ１５／８５，Ｃ１２Ｎ１５／８５０９，Ｃ１２Ｎ１５／８５１８，Ｃ１２Ｎ１５／８５２７，Ｃ１２Ｎ１５／８５３６，Ｃ１２Ｎ１５／８５４５，Ｃ１２Ｎ１５／８５５４，Ｃ１２Ｎ１５／８５６３，Ｃ１２Ｎ１５／８５７２，Ｃ１２Ｎ１５／８５８１，Ｃ１２Ｎ１５／８５９のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/85, C12N15/8509, C12N15/8518, C12N15/8527, C12N15/8536, C12N15/8545, C12N15/8554, C12N15/8563, C12N15/8572, C12N15/8581, C12N15/859 are assigned [stop new assigment]
+C12N  15/85  Z	4	0	4B024	C12N  15/85	4867	その他	Others
+C12N  15/86  \	5	5	4B024	C12N  15/86	33	ウイルスベクター［５］	Viral vectors [5]
+C12N  15/86  P	5	0	4B024	C12N  15/86	2435	パテントファミリーにＣ１２Ｎ１５／８６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/86 is assigned [stop new assigment]
+C12N  15/86  Z	5	0	4B024	C12N  15/86	4458	その他	Others
+C12N  15/861  \	6	6	4B024	C12N  15/861	22	アデノウイルスベクター［７］	Adenoviral vectors [7]
+C12N  15/861  P	6	0	4B024	C12N  15/861	18	パテントファミリーにＣ１２Ｎ１５／８６１，Ｃ１２Ｎ１５／８６１３，Ｃ１２Ｎ１５／８６１６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/861, C12N15/8613, C12N15/8616 are assigned [stop new assigment]
+C12N  15/861  Z	6	0	4B024	C12N  15/861	1482	その他	Others
+C12N  15/863  \	6	6	4B024	C12N  15/863	7	ポックスウイルスベクター，例．ワクシニアウイルス［７］	Poxviral vectors, e.g. vaccinia virus [7]
+C12N  15/863  P	6	0	4B024	C12N  15/863	4	パテントファミリーにＣ１２Ｎ１５／８６３，Ｃ１２Ｎ１５／８６３３，Ｃ１２Ｎ１５／８６３６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/863, C12N15/8633, C12N15/8636 are assigned [stop new assigment]
+C12N  15/863  Z	6	0	4B024	C12N  15/863	434	その他	Others
+C12N  15/864  \	6	6	4B024	C12N  15/864	11	パルボウイルスベクター［７］	Parvoviral vectors [7]
+C12N  15/864  P	6	0	4B024	C12N  15/864	2	パテントファミリーにＣ１２Ｎ１５／８６４のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/864 is assigned [stop new assigment]
+C12N  15/864  Z	6	0	4B024	C12N  15/864	96	その他	Others
+C12N  15/864 100 \	7	7	4B024	C12N  15/864	28	アデノ随伴ウイルスベクター	Adeno-associated viral vector
+C12N  15/864 100 P	7	0	4B024	C12N  15/864	10	パテントファミリーにＣ１２Ｎ１５／８６４５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/8645 is assigned [stop new assigment]
+C12N  15/864 100 Z	7	0	4B024	C12N  15/864	2746	その他	Others
+C12N  15/866  \	6	6	4B024	C12N  15/866	3	バキュロウイルスベクター［７］	Baculoviral vectors [7]
+C12N  15/866  P	6	0	4B024	C12N  15/866	1	パテントファミリーにＣ１２Ｎ１５／８６６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/866 is assigned [stop new assigment]
+C12N  15/866  Z	6	0	4B024	C12N  15/866	252	その他	Others
+C12N  15/867  \	6	6	4B024	C12N  15/867	26	レトロウイルスベクター［７］	Retroviral vectors [7]
+C12N  15/867  P	6	0	4B024	C12N  15/867	11	パテントファミリーにＣ１２Ｎ１５／８６７，Ｃ１２Ｎ１５／８６７３，Ｃ１２Ｎ１５／８６７６のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/867, C12N15/8673, C12N15/8676 are assigned [stop new assigment]
+C12N  15/867  Z	6	0	4B024	C12N  15/867	2121	その他	Others
+C12N  15/869  \	6	6	4B024	C12N  15/869	5	ヘルペスウイルスベクター［７］	Herpesviral vectors [7]
+C12N  15/869  P	6	0	4B024	C12N  15/869	4	パテントファミリーにＣ１２Ｎ１５／８６９，Ｃ１２Ｎ１５／８６９５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/869, C12N15/8695 are assigned [stop new assigment]
+C12N  15/869  Z	6	0	4B024	C12N  15/869	536	その他	Others
+C12N  15/87  \	2	2	4B024	C12N  15/87	9	他に分類されない方法を用いた外来遺伝物質の導入，例．同時形質転換［５］	Introduction of foreign genetic material using processes not otherwise provided for, e.g. co-transformation [5]
+C12N  15/87  P	2	0	4B024	C12N  15/87	665	パテントファミリーにＣ１２Ｎ１５／８７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/87 is assigned [stop new assigment]
+C12N  15/87  Z	2	0	4B024	C12N  15/87	1481	その他	Others
+C12N  15/873  \	3	3	4B024	C12N  15/873	5	新規胚を製造するための技術，例．核移植，全能性細胞のマニピュレーション，または，キメラ胚の製造［２０１０．０１］	Techniques for producing new embryos, e.g. nuclear transfer, manipulation of totipotent cells or production of chimeric embryos [2010.01]
+C12N  15/873  P	3	0	4B024	C12N  15/873	91	パテントファミリーにＣ１２Ｎ１５／８７３のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/873 is assigned [stop new assigment]
+C12N  15/873  Z	3	0	4B024	C12N  15/873	256	その他	Others
+C12N  15/877  \	4	4	4B024	C12N  15/877	1	新規哺乳動物クローン胚を製造するための技術［２０１０．０１］	Techniques for producing new mammalian cloned embryos [2010.01]
+C12N  15/877  P	4	0	4B024	C12N  15/877	83	パテントファミリーにＣ１２Ｎ１５／８７７，Ｃ１２Ｎ１５／８７７１，Ｃ１２Ｎ１５／８７７２，Ｃ１２Ｎ１５／８７７３，Ｃ１２Ｎ１５／８７７５，Ｃ１２Ｎ１５／８７７６，Ｃ１２Ｎ１５／８７７７，Ｃ１２Ｎ１５／８７７８のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/877, C12N15/8771, C12N15/8772, C12N15/8773, C12N15/8775, C12N15/8776, C12N15/8777, C12N15/8778 are assigned [stop new assigment]
+C12N  15/877  Z	4	0	4B024	C12N  15/877	213	その他	Others
+C12N  15/88  \	3	3	4B024	C12N  15/88	14	マイクロカプセル化を用いるもの，例．リポソーム小胞を用いるもの［５］	using microencapsulation, e.g. using liposome vesicle [5]
+C12N  15/88  P	3	0	4B024	C12N  15/88	276	パテントファミリーにＣ１２Ｎ１５／８８のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/88 is assigned [stop new assigment]
+C12N  15/88  Z	3	0	4B024	C12N  15/88	1250	その他	Others
+C12N  15/89  \	3	3	4B024	C12N  15/89	2	マイクロインジェクション法を用いるもの［５］	using microinjection [5]
+C12N  15/89  P	3	0	4B024	C12N  15/89	67	パテントファミリーにＣ１２Ｎ１５／８９，Ｃ１２Ｎ１５／８９５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/89, C12N15/895 are assigned [stop new assigment]
+C12N  15/89  Z	3	0	4B024	C12N  15/89	183	その他	Others
+C12N  15/90  \	3	3	4B024	C12N  15/90	6	外来ＤＮＡの染色体内への安定導入［５］	Stable introduction of foreign DNA into chromosome [5]
+C12N  15/90  P	3	0	4B024	C12N  15/90	229	パテントファミリーにＣ１２Ｎ１５／９０のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/90 is assigned [stop new assigment]
+C12N  15/90  Z	3	0	4B024	C12N  15/90	468	その他	Others
+C12N  15/90 100 \	4	4	4B024	C12N  15/90	6	相同性組換えを用いるもの（ゲノム編集技術，例．ＴＡＬＥＮ，ジンクフィンガーヌクレアーゼを用いるものＣ１２Ｎ１５／０９，１００；ＣＲＩＳＰＲ／Ｃａｓを用いるものＣ１２Ｎ１５／０９，１１０）	using homologous recombination (using genome editing technology, e.g. C12N15/09, 100 for use of TALEN, zinc finger nuclease; C12N15/09, 110 for use of CRIsPR/Cas)
+C12N  15/90 100 P	4	0	4B024	C12N  15/90	138	パテントファミリーにＣ１２Ｎ１５／９０２のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/902 is assigned [stop new assigment]
+C12N  15/90 100 Z	4	0	4B024	C12N  15/90	411	その他	Others
+C12N  15/90 102 \	5	5	4B024	C12N  15/90	0	酵母におけるもの	in yeast
+C12N  15/90 102 P	5	0	4B024	C12N  15/90	30	パテントファミリーにＣ１２Ｎ１５／９０５のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/905 is assigned [stop new assigment]
+C12N  15/90 102 Z	5	0	4B024	C12N  15/90	79	その他	Others
+C12N  15/90 104 \	5	5	4B024	C12N  15/90	1	哺乳類細胞におけるもの	in mammalian cells
+C12N  15/90 104 P	5	0	4B024	C12N  15/90	258	パテントファミリーにＣ１２Ｎ１５／９０７のＣＰＣが付与されているもの【新規付与停止】	for patent family with CPC C12N15/907 is assigned [stop new assigment]
+C12N  15/90 104 Z	5	0	4B024	C12N  15/90	404	その他	Others

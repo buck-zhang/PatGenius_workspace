@@ -1,0 +1,443 @@
+G06V10/00	7	Arrangements for image or video recognition or understanding (character recognition in images or video G06V30/10)	G06V10/00	G06V10/00		113
+G06V10/10	8	Image acquisition (document image scanning and transmission H04N1/00; control of digital cameras H04N23/60)	G06V10/10	G06V10/10		4376
+G06V10/12	9	Details of acquisition arrangements; Constructional details thereof	G06V10/12	G06V10/12		2284
+G06V10/14	10	Optical characteristics of the device performing the acquisition or on the illumination arrangements	G06V10/14	G06V10/14		730
+G06V10/141	11	Control of illumination	G06V10/141	G06V10/141		3206
+G06V10/143	11	Sensing or illuminating at different wavelengths	G06V10/143	G06V10/143		3701
+G06V10/145	11	Illumination specially adapted for pattern recognition, e.g. using gratings	G06V10/145	G06V10/145		1659
+G06V10/147	11	Details of sensors, e.g. sensor lenses (fingerprint or palmprint sensors G06V40/13; vascular sensors G06V40/145; eye sensors G06V40/19)	G06V10/147	G06V10/147		3486
+G06V10/16	9	{using multiple overlapping images; Image stitching}	G06V10/10	G06V10/16		2007
+G06V10/17	9	{using hand-held instruments}	G06V10/10	G06V10/17		1148
+G06V10/19	9	{by sensing codes defining pattern positions}	G06V10/10	G06V10/19		176
+G06V10/20	8	Image preprocessing	G06V10/20	G06V10/20		5437
+G06V10/22	9	by selection of a specific region containing or referencing a pattern; Locating or processing of specific regions to guide the detection or recognition	G06V10/22	G06V10/22		7939
+G06V10/225	10	{based on a marking or identifier characterising the area}	G06V10/22	G06V10/22		1816
+G06V10/23	10	{based on positionally close patterns or neighbourhood relationships}	G06V10/22	G06V10/23		207
+G06V10/235	10	{based on user input or interaction}	G06V10/22	G06V10/235		971
+G06V10/24	9	Aligning, centring, orientation detection or correction of the image	G06V10/24	G06V10/24		2858
+G06V10/242	10	{by image rotation, e.g. by 90 degrees}	G06V10/24	G06V10/24		1292
+G06V10/243	10	{by compensating for image skew or non-uniform image deformations}	G06V10/24	G06V10/24		952
+G06V10/245	10	{by locating a pattern; Special marks for positioning}	G06V10/24	G06V10/24		2572
+G06V10/247	10	{by affine transforms, e.g. correction due to perspective effects; Quadrilaterals, e.g. trapezoids}	G06V10/24	G06V10/24		805
+G06V10/248	10	{by interactive preprocessing or interactive shape modelling, e.g. feature points assigned by a user}	G06V10/24	G06V10/24		132
+G06V10/25	9	Determination of region of interest [ROI] or a volume of interest [VOI]	G06V10/25	G06V10/25		28873
+G06V10/255	9	{Detecting or recognising potential candidate objects based on visual cues, e.g. shapes}	G06V10/20	G06V10/25		3448
+G06V10/26	9	Segmentation of patterns in the image field; Cutting or merging of image elements to establish the pattern region, e.g. clustering-based techniques; Detection of occlusion	G06V10/26	G06V10/26		18933
+G06V10/267	10	{by performing operations on regions, e.g. growing, shrinking or watersheds}	G06V10/26	G06V10/26		10606
+G06V10/273	10	{removing elements interfering with the pattern to be recognised}	G06V10/26	G06V10/273		733
+G06V10/28	9	Quantising the image, e.g. histogram thresholding for discrimination between background and foreground patterns	G06V10/28	G06V10/28		5237
+G06V10/30	9	Noise filtering	G06V10/30	G06V10/30		8368
+G06V10/32	9	Normalisation of the pattern dimensions	G06V10/32	G06V10/32		1630
+G06V10/34	9	Smoothing or thinning of the pattern; Morphological operations; Skeletonisation	G06V10/34	G06V10/34		2345
+G06V10/36	9	Applying a local operator, i.e. means to operate on image points situated in the vicinity of a given point; Non-linear local filtering operations, e.g. median filtering	G06V10/36	G06V10/36		1192
+G06V10/40	8	Extraction of image or video features	G06V10/40	G06V10/40		19854
+G06V10/42	9	Global feature extraction by analysis of the whole pattern, e.g. using frequency domain transformations or autocorrelation	G06V10/42	G06V10/42		4267
+G06V10/421	10	{by analysing segments intersecting the pattern}	G06V10/42	G06V10/42		340
+G06V10/422	10	for representing the structure of the pattern or shape of an object therefor	G06V10/422	G06V10/422		827
+G06V10/424	11	Syntactic representation, e.g. by using alphabets or grammars	G06V10/424	G06V10/424		97
+G06V10/426	11	Graphical representations	G06V10/426	G06V10/426		459
+G06V10/431	10	{Frequency domain transformation; Autocorrelation}	G06V10/42	G06V10/431		623
+G06V10/435	10	{Computation of moments}	G06V10/42	G06V10/435		198
+G06V10/44	9	Local feature extraction by analysis of parts of the pattern, e.g. by detecting edges, contours, loops, corners, strokes or intersections; Connectivity analysis, e.g. of connected components	G06V10/44	G06V10/44		26308
+G06V10/443	10	{by matching or filtering}	G06V10/44	G06V10/44		2388
+G06V10/446	11	{using Haar-like filters, e.g. using integral image techniques}	G06V10/44	G06V10/44		386
+G06V10/449	11	{Biologically inspired filters, e.g. difference of Gaussians [DoG] or Gabor filters}	G06V10/44	G06V10/44		518
+G06V10/451	12	{with interaction between the filter responses, e.g. cortical complex cells}	G06V10/44	G06V10/451		135
+G06V10/454	13	{Integrating the filters into a hierarchical structure, e.g. convolutional neural networks [CNN]}	G06V10/44	G06V10/454		15763
+G06V10/457	10	{by analysing connectivity, e.g. edge linking, connected component analysis or slices}	G06V10/44	G06V10/457		1244
+G06V10/46	9	Descriptors for shape, contour or point-related descriptors, e.g. scale invariant feature transform [SIFT] or bags of words [BoW]; Salient regional features (colour feature extraction G06V10/56)	G06V10/46	G06V10/46		2569
+G06V10/462	10	{Salient features, e.g. scale invariant feature transforms [SIFT]}	G06V10/46	G06V10/46		8543
+G06V10/464	11	{using a plurality of salient features, e.g. bag-of-words [BoW] representations}	G06V10/46	G06V10/46		1076
+G06V10/467	10	{Encoded features or binary features, e.g. local binary patterns [LBP]}	G06V10/46	G06V10/46		1365
+G06V10/469	10	{Contour-based spatial representations, e.g. vector-coding}	G06V10/46	G06V10/46		1140
+G06V10/471	11	{using approximation functions}	G06V10/46	G06V10/471		58
+G06V10/473	11	{using gradient analysis}	G06V10/46	G06V10/473		214
+G06V10/476	11	{using statistical shape modelling, e.g. point distribution models}	G06V10/46	G06V10/476		72
+G06V10/478	10	{Contour-based spectral representations or scale-space representations, e.g. by Fourier analysis, wavelet analysis or curvature scale-space [CSS]}	G06V10/46	G06V10/478		197
+G06V10/48	9	by mapping characteristic values of the pattern into a parameter space, e.g. Hough transformation	G06V10/48	G06V10/48		1099
+G06V10/50	9	by performing operations within image blocks; by using histograms, e.g. histogram of oriented gradients [HoG]; by summing image-intensity values; Projection analysis	G06V10/50	G06V10/50		4556
+G06V10/507	10	{Summing image-intensity values; Histogram projection analysis}	G06V10/50	G06V10/50		1432
+G06V10/513	9	{Sparse representations}	G06V10/40	G06V10/513		678
+G06V10/52	9	Scale-space analysis, e.g. wavelet analysis (multi-scale boundary representations G06V10/42)	G06V10/52	G06V10/52		3909
+G06V10/54	9	relating to texture	G06V10/54	G06V10/54		3719
+G06V10/56	9	relating to colour	G06V10/56	G06V10/56		12661
+G06V10/58	9	relating to hyperspectral data	G06V10/58	G06V10/58		1270
+G06V10/60	9	relating to illumination properties, e.g. using a reflectance or lighting model	G06V10/60	G06V10/60		2613
+G06V10/62	9	relating to a temporal dimension, e.g. time-based feature extraction; Pattern tracking	G06V10/62	G06V10/62		4598
+G06V10/70	8	using pattern recognition or machine learning (optical pattern recognition or electronic computations therefor G06V10/88)	G06V10/70	G06V10/70		2002
+G06V10/72	9	Data preparation, e.g. statistical preprocessing of image or video features	G06V10/72	G06V10/72		729
+G06V10/74	9	Image or video pattern matching; Proximity measures in feature spaces	G06V10/74	G06V10/74		3687
+G06V10/75	10	Organisation of the matching processes, e.g. simultaneous or sequential comparisons of image or video features; Coarse-fine approaches, e.g. multi-scale approaches; using context analysis; Selection of dictionaries	G06V10/75	G06V10/75		6476
+G06V10/751	11	{Comparing pixel values or logical combinations thereof, or feature values having positional relevance, e.g. template matching}	G06V10/75	G06V10/75		7494
+G06V10/7515	12	{Shifting the patterns to accommodate for positional errors}	G06V10/75	G06V10/75		773
+G06V10/752	11	{Contour matching}	G06V10/75	G06V10/75		814
+G06V10/753	11	{Transform-based matching, e.g. Hough transform}	G06V10/75	G06V10/75		155
+G06V10/754	11	{involving a deformation of the sample pattern or of the reference pattern; Elastic matching}	G06V10/75	G06V10/75		416
+G06V10/755	11	{Deformable models or variational models, e.g. snakes or active contours}	G06V10/75	G06V10/75		180
+G06V10/7553	12	{based on shape, e.g. active shape models [ASM]}	G06V10/75	G06V10/75		164
+G06V10/7557	12	{based on appearance, e.g. active appearance models [AAM]}	G06V10/75	G06V10/75		149
+G06V10/757	11	{Matching configurations of points or features}	G06V10/75	G06V10/75		4075
+G06V10/758	11	{Involving statistics of pixels or of feature values, e.g. histogram matching}	G06V10/75	G06V10/75		1412
+G06V10/759	11	{Region-based matching}	G06V10/75	G06V10/75		592
+G06V10/76	11	{based on eigen-space representations, e.g. from pose or different illumination conditions; Shape manifolds}	G06V10/75	G06V10/76		157
+G06V10/761	10	{Proximity, similarity or dissimilarity measures}	G06V10/74	G06V10/761		16319
+G06V10/762	9	using clustering, e.g. of similar faces in social networks	G06V10/762	G06V10/762		7729
+G06V10/7625	10	{Hierarchical techniques, i.e. dividing or merging patterns to obtain a tree-like representation; Dendograms}	G06V10/762	G06V10/762		383
+G06V10/763	10	{Non-hierarchical techniques, e.g. based on statistics of modelling distributions}	G06V10/762	G06V10/763		3956
+G06V10/7635	10	{based on graphs, e.g. graph cuts or spectral clustering}	G06V10/762	G06V10/7635		287
+G06V10/764	9	using classification, e.g. of video objects	G06V10/764	G06V10/764		58768
+G06V10/765	10	{using rules for classification or partitioning the feature space}	G06V10/764	G06V10/765		6170
+G06V10/766	9	using regression, e.g. by projecting features on hyperplanes	G06V10/766	G06V10/766		4045
+G06V10/768	9	{using context analysis, e.g. recognition aided by known co-occurring patterns}	G06V10/70	G06V10/768		642
+G06V10/77	9	Processing image or video features in feature spaces; using data integration or data reduction, e.g. principal component analysis [PCA] or independent component analysis [ICA] or self-organising maps [SOM]; Blind source separation	G06V10/77	G06V10/77		1077
+G06V10/771	10	Feature selection, e.g. selecting representative features from a multi-dimensional feature space	G06V10/771	G06V10/771		1751
+G06V10/7715	10	{Feature extraction, e.g. by transforming the feature space, e.g. multi-dimensional scaling [MDS]; Mappings, e.g. subspace methods}	G06V10/77	G06V10/771		7112
+G06V10/772	10	Determining representative reference patterns, e.g. averaging or distorting patterns; Generating dictionaries	G06V10/772	G06V10/772		1041
+G06V10/774	10	Generating sets of training patterns; Bootstrap methods, e.g. bagging or boosting	G06V10/774	G06V10/774		39372
+G06V10/7747	11	{Organisation of the process, e.g. bagging or boosting}	G06V10/774	G06V10/774		864
+G06V10/7753	11	{Incorporation of unlabelled data, e.g. multiple instance learning [MIL]}	G06V10/774	G06V10/77		1154
+G06V10/776	10	Validation; Performance evaluation	G06V10/776	G06V10/776		5256
+G06V10/778	10	Active pattern-learning, e.g. online learning of image or video features	G06V10/778	G06V10/778		1377
+G06V10/7784	11	{based on feedback from supervisors}	G06V10/778	G06V10/778		372
+G06V10/7788	12	{the supervisor being a human, e.g. interactive learning with a human teacher}	G06V10/778	G06V10/778		577
+G06V10/7792	12	{the supervisor being an automated module, e.g. "intelligent oracle"}	G06V10/778	G06V10/77		107
+G06V10/7796	11	{based on specific statistical tests}	G06V10/778	G06V10/77		135
+G06V10/80	10	Fusion, i.e. combining data from various sources at the sensor level, preprocessing level, feature extraction level or classification level (multimodal speaker identification or verification G10L17/10)	G06V10/80	G06V10/80		5927
+G06V10/803	11	{of input or preprocessed data}	G06V10/80	G06V10/80		2037
+G06V10/806	11	{of extracted features}	G06V10/80	G06V10/80		27421
+G06V10/809	11	{of classification results, e.g. where the classifiers operate on the same input data}	G06V10/80	G06V10/80		1204
+G06V10/811	12	{the classifiers operating on different input data, e.g. multi-modal recognition}	G06V10/80	G06V10/811		1589
+G06V10/814	11	{using belief theory, e.g. Dempster-Shafer}	G06V10/80	G06V10/814		63
+G06V10/817	11	{by voting}	G06V10/80	G06V10/817		216
+G06V10/82	9	using neural networks	G06V10/82	G06V10/82		97905
+G06V10/84	9	using probabilistic graphical models from image or video features, e.g. Markov models or Bayesian networks	G06V10/84	G06V10/84		693
+G06V10/85	10	{Markov-related models; Markov random fields}	G06V10/84	G06V10/85		293
+G06V10/86	9	using syntactic or structural representations of the image or video pattern, e.g. symbolic string recognition; using graph matching	G06V10/86	G06V10/86		389
+G06V10/87	9	{using selection of the recognition techniques, e.g. of a classifier in a multiple classifier system}	G06V10/70	G06V10/87		489
+G06V10/88	8	Image or video recognition using optical means, e.g. reference filters, holographic masks, frequency domain filters or spatial domain filters	G06V10/88	G06V10/88		952
+G06V10/89	9	{using frequency domain filters, e.g. Fourier masks implemented on spatial light modulators}	G06V10/88	G06V10/89		88
+G06V10/893	10	{characterised by the kind of filter}	G06V10/88	G06V10/893		15
+G06V10/895	11	{the filter being related to phase processing, e.g. phase-only filters}	G06V10/88	G06V10/895		88
+G06V10/898	11	{combination of filters, e.g. phase-only filters}	G06V10/88	G06V10/898		16
+G06V10/92	9	{using spatial domain filters, e.g. joint transform correlators}	G06V10/88	G06V10/92		53
+G06V10/94	8	Hardware or software architectures specially adapted for image or video understanding	G06V10/94	G06V10/94		2043
+G06V10/945	9	{User interactive design; Environments; Toolboxes}	G06V10/94	G06V10/94		1092
+G06V10/95	9	{structured as a network, e.g. client-server architectures}	G06V10/94	G06V10/95		2785
+G06V10/955	9	{using specific electronic processors}	G06V10/94	G06V10/955		1179
+G06V10/96	8	Management of image or video recognition tasks	G06V10/96	G06V10/96		1370
+G06V10/98	8	Detection or correction of errors, e.g. by rescanning the pattern or by human intervention; Evaluation of the quality of the acquired patterns	G06V10/98	G06V10/98		1632
+G06V10/987	9	{with the intervention of an operator}	G06V10/98	G06V10/98		604
+G06V10/993	9	{Evaluation of the quality of the acquired pattern}	G06V10/98	G06V10/993		2137
+G06V20/00	7	Scenes; Scene-specific elements (control of digital cameras H04N23/60)<br><br><u>NOTE</u><br><br>In this group, the following term is used with the meaning indicated:<br>"scene" is a visual representation of the world or of some elements of it, as captured by a sensor or generated by a computer.	G06V20/00	G06V20/00		4418
+G06V20/05	8	Underwater scenes	G06V20/05	G06V20/05		1221
+G06V20/10	8	Terrestrial scenes (scenes under surveillance with static cameras G06V20/52; scenes perceived from the exterior of a vehicle G06V20/56; scenes perceived from the interior of a vehicle G06V20/59)	G06V20/10	G06V20/10		12020
+G06V20/13	9	Satellite images	G06V20/13	G06V20/13		10077
+G06V20/17	9	taken from planes or by drones	G06V20/17	G06V20/17		7485
+G06V20/176	9	{Urban or other man-made structures}	G06V20/10	G06V20/17		3577
+G06V20/182	9	{Network patterns, e.g. roads or rivers}	G06V20/10	G06V20/182		1470
+G06V20/188	9	{Vegetation}	G06V20/10	G06V20/188		6384
+G06V20/194	9	{using hyperspectral data, i.e. more or other wavelengths than RGB}	G06V20/10	G06V20/194		2459
+G06V20/20	8	in augmented reality scenes	G06V20/20	G06V20/20		9299
+G06V20/30	8	in albums, collections or shared content, e.g. social network photos or video	G06V20/30	G06V20/30		1284
+G06V20/35	8	{Categorising the entire scene, e.g. birthday party or wedding scene}	G06V20/00	G06V20/35		823
+G06V20/36	9	{Indoor scenes}	G06V20/00	G06V20/36		809
+G06V20/38	9	{Outdoor scenes}	G06V20/00	G06V20/38		440
+G06V20/39	10	{Urban scenes}	G06V20/00	G06V20/39		268
+G06V20/40	8	in video content (extracting overlay text G06V20/62; video retrieval G06F16/70; processing of video elementary streams in video servers H04N21/234; processing of video elementary streams in video clients H04N21/44)	G06V20/40	G06V20/40		10611
+G06V20/41	9	{Higher-level, semantic clustering, classification or understanding of video scenes, e.g. detection, labelling or Markovian modelling of sport events or news items (segmenting video sequences G06V20/49)}	G06V20/40	G06V20/41		14836
+G06V20/42	10	{of sport video content}	G06V20/40	G06V20/42		2315
+G06V20/43	10	{of news video content}	G06V20/40	G06V20/43		43
+G06V20/44	9	{Event detection}	G06V20/40	G06V20/44		3158
+G06V20/46	9	{Extracting features or characteristics from the video content, e.g. video fingerprints, representative shots or key frames}	G06V20/40	G06V20/46		15237
+G06V20/47	10	{Detecting features for summarising video content}	G06V20/40	G06V20/47		1072
+G06V20/48	9	{Matching video sequences}	G06V20/40	G06V20/48		1745
+G06V20/49	9	{Segmenting video sequences, i.e. computational techniques such as parsing or cutting the sequence, low-level clustering or determining units such as shots or scenes}	G06V20/40	G06V20/49		3129
+G06V20/50	8	Context or environment of the image	G06V20/50	G06V20/50		1860
+G06V20/52	9	Surveillance or monitoring of activities, e.g. for recognising suspicious objects (recognising microscopic objects G06V20/69)	G06V20/52	G06V20/52		29206
+G06V20/53	10	{Recognition of crowd images, e.g. recognition of crowd congestion}	G06V20/52	G06V20/53		4589
+G06V20/54	10	of traffic, e.g. cars on the road, trains or boats	G06V20/54	G06V20/54		5885
+G06V20/56	9	exterior to a vehicle by using sensors mounted on the vehicle	G06V20/56	G06V20/56		14280
+G06V20/58	10	Recognition of moving objects or obstacles, e.g. vehicles or pedestrians; Recognition of traffic objects, e.g. traffic signs, traffic lights or roads	G06V20/58	G06V20/58		14363
+G06V20/582	11	{of traffic signs}	G06V20/58	G06V20/58		2452
+G06V20/584	11	{of vehicle lights or traffic lights}	G06V20/58	G06V20/58		4120
+G06V20/586	11	{of parking space}	G06V20/58	G06V20/58		1706
+G06V20/588	10	{Recognition of the road, e.g. of lane markings; Recognition of the vehicle driving pattern in relation to the road}	G06V20/56	G06V20/58		9799
+G06V20/59	9	inside of a vehicle, e.g. relating to seat occupancy, driver state or inner lighting conditions	G06V20/59	G06V20/59		3204
+G06V20/593	10	{Recognising seat occupancy}	G06V20/59	G06V20/59		893
+G06V20/597	10	{Recognising the driver&apos;s state or behaviour, e.g. attention or drowsiness}	G06V20/59	G06V20/59		5574
+G06V20/60	8	Type of objects	G06V20/60	G06V20/60		1969
+G06V20/62	9	Text, e.g. of license plates, overlay texts or captions on TV images	G06V20/62	G06V20/62		4191
+G06V20/625	10	{License plates}	G06V20/62	G06V20/62		6062
+G06V20/63	10	{Scene text, e.g. street names}	G06V20/62	G06V20/63		3243
+G06V20/635	10	{Overlay text, e.g. embedded captions in a TV program}	G06V20/62	G06V20/635		711
+G06V20/64	9	Three-dimensional objects	G06V20/64	G06V20/64		8714
+G06V20/647	10	{by matching two-dimensional images to three-dimensional objects}	G06V20/64	G06V20/64		1585
+G06V20/653	10	{by matching three-dimensional models, e.g. conformal mapping of Riemann surfaces}	G06V20/64	G06V20/653		1167
+G06V20/66	9	Trinkets, e.g. shirt buttons or jewellery items (recognising microscopic objects G06V20/69)	G06V20/66	G06V20/66		520
+G06V20/68	9	Food, e.g. fruit or vegetables	G06V20/68	G06V20/68		2993
+G06V20/69	9	Microscopic objects, e.g. biological cells or cellular parts	G06V20/69	G06V20/69		2037
+G06V20/693	10	{Acquisition}	G06V20/69	G06V20/69		1228
+G06V20/695	10	{Preprocessing, e.g. image segmentation}	G06V20/69	G06V20/69		2651
+G06V20/698	10	{Matching; Classification}	G06V20/69	G06V20/69		3015
+G06V20/70	8	Labelling scene content, e.g. deriving syntactic or semantic representations	G06V20/70	G06V20/70		8588
+G06V20/80	8	Recognising image objects characterised by unique random patterns	G06V20/80	G06V20/80		1098
+G06V20/90	8	Identifying an image sensor based on its output data	G06V20/90	G06V20/90		108
+G06V20/95	8	{Pattern authentication; Markers therefor; Forgery detection}	G06V20/00	G06V20/95		941
+G06V30/00	7	Character recognition; Recognising digital ink; Document-oriented image-based pattern recognition (scanning, transmission or reproduction of documents or the like H04N1/00)<br><br><u>NOTE</u><br><br>This group covers recognition of characters or digital ink, where the characters or the digital ink can include representations in three dimensions, e.g. as written by performing gestures in the air.	G06V30/00	G06V30/00		43
+G06V30/10	8	Character recognition	G06V30/10	G06V30/10		11350
+G06V30/12	9	Detection or correction of errors, e.g. by rescanning the pattern	G06V30/12	G06V30/12		302
+G06V30/127	10	{with the intervention of an operator}	G06V30/12	G06V30/12		166
+G06V30/133	10	{Evaluation of quality of the acquired characters}	G06V30/12	G06V30/133		175
+G06V30/14	9	Image acquisition	G06V30/14	G06V30/14		401
+G06V30/141	10	{using multiple overlapping images; Image stitching}	G06V30/14	G06V30/14		109
+G06V30/142	10	using hand-held instruments; Constructional details of the instruments	G06V30/142	G06V30/142		1168
+G06V30/1423	11	{the instrument generating sequences of position coordinates corresponding to handwriting (preprocessing or recognising digital ink G06V30/32)}	G06V30/142	G06V30/142		1084
+G06V30/1426	11	{by sensing position defining codes on a support}	G06V30/142	G06V30/142		33
+G06V30/1429	10	{Identifying or ignoring parts by sensing at different wavelengths}	G06V30/14	G06V30/142		68
+G06V30/1431	10	{Illumination control}	G06V30/14	G06V30/14		88
+G06V30/1434	10	{Special illumination such as grating, reflections or deflections, e.g. for characters with relief}	G06V30/14	G06V30/14		29
+G06V30/1437	10	{Sensor details, e.g. position, configuration or special lenses (G06V30/1429 takes precedence)}	G06V30/14	G06V30/14		68
+G06V30/144	10	using a slot moved over the image; using discrete sensing elements at predetermined points; using automatic curve following means	G06V30/144	G06V30/144		239
+G06V30/1444	10	{Selective acquisition, locating or processing of specific regions, e.g. highlighted text, fiducial marks or predetermined fields}	G06V30/14	G06V30/144		1643
+G06V30/1448	11	{based on markings or identifiers characterising the document or the area}	G06V30/14	G06V30/144		465
+G06V30/1452	11	{based on positionally close symbols, e.g. amount sign or URL-specific characters}	G06V30/14	G06V30/14		75
+G06V30/1456	11	{based on user interactions}	G06V30/14	G06V30/14		262
+G06V30/146	10	Aligning or centring of the image pick-up or image-field	G06V30/146	G06V30/146		483
+G06V30/1463	11	{Orientation detection or correction, e.g. rotation of multiples of 90 degrees}	G06V30/146	G06V30/146		333
+G06V30/1465	11	{by locating a pattern (G06V30/1475 takes precedence; centring within a document with a marking G06V30/1448)}	G06V30/146	G06V30/146		79
+G06V30/1468	12	{Special marks for positioning}	G06V30/146	G06V30/146		28
+G06V30/147	11	{Determination of region of interest}	G06V30/146	G06V30/14		973
+G06V30/1473	11	{Recognising objects as potential recognition candidates based on visual cues, e.g. shapes}	G06V30/146	G06V30/14		57
+G06V30/1475	11	{Inclination or skew detection or correction of characters or of image to be recognised}	G06V30/146	G06V30/14		305
+G06V30/1478	12	{of characters or characters lines}	G06V30/146	G06V30/14		885
+G06V30/148	10	Segmentation of character regions	G06V30/148	G06V30/148		1257
+G06V30/15	11	{Cutting or merging image elements, e.g. region growing, watershed or clustering-based techniques}	G06V30/148	G06V30/15		780
+G06V30/153	11	{using recognition of characters or words}	G06V30/148	G06V30/153		5324
+G06V30/155	11	{Removing patterns interfering with the pattern to be recognised, such as ruled lines or underlines}	G06V30/148	G06V30/155		189
+G06V30/158	11	{using character size, text spacings or pitch estimation}	G06V30/148	G06V30/158		377
+G06V30/16	9	Image preprocessing	G06V30/16	G06V30/16		408
+G06V30/1607	10	{Correcting image deformation, e.g. trapezoidal deformation caused by perspective}	G06V30/16	G06V30/16		198
+G06V30/1613	10	{Interactive preprocessing or shape modelling, e.g. assignment of feature points by a user}	G06V30/16	G06V30/16		5
+G06V30/162	10	Quantising the image signal	G06V30/162	G06V30/162		870
+G06V30/164	10	Noise filtering	G06V30/164	G06V30/164		528
+G06V30/166	10	Normalisation of pattern dimensions	G06V30/166	G06V30/166		222
+G06V30/168	10	Smoothing or thinning of the pattern; Skeletonisation	G06V30/168	G06V30/168		214
+G06V30/18	9	Extraction of features or characteristics of the image	G06V30/18	G06V30/18		1336
+G06V30/1801	10	{Detecting partial patterns, e.g. edges or contours, or configurations, e.g. loops, corners, strokes or intersections (extracting features by contour coding G06V30/182)}	G06V30/18	G06V30/18		911
+G06V30/18019	11	{by matching or filtering}	G06V30/18	G06V30/18		129
+G06V30/18029	12	{filtering with Haar-like subimages, e.g. computation thereof with the integral image technique}	G06V30/18	G06V30/18		7
+G06V30/18038	12	{Biologically-inspired filters, e.g. difference of Gaussians [DoG], Gabor filters}	G06V30/18	G06V30/18		8
+G06V30/18048	13	{with interaction between the responses of different filters, e.g. cortical complex cells}	G06V30/18	G06V30/18		1
+G06V30/18057	14	{Integrating the filters into a hierarchical structure, e.g. convolutional neural networks [CNN]}	G06V30/18	G06V30/18		655
+G06V30/18067	11	{by mapping characteristic values of the pattern into a parameter space, e.g. Hough transformation}	G06V30/18	G06V30/18		57
+G06V30/18076	11	{by analysing connectivity, e.g. edge linking, connected component analysis or slices}	G06V30/18	G06V30/18		201
+G06V30/18086	10	{by performing operations within image blocks or by using histograms}	G06V30/18	G06V30/18		134
+G06V30/18095	11	{Summing image-intensity values; Projection and histogram analysis}	G06V30/18	G06V30/18		106
+G06V30/18105	10	{related to colour}	G06V30/18	G06V30/18		317
+G06V30/18114	10	{involving specific hyperspectral computations of features}	G06V30/18	G06V30/18		3
+G06V30/18124	10	{related to illumination properties, e.g. according to a reflectance or lighting model}	G06V30/18	G06V30/18		35
+G06V30/18133	10	{regional/local feature not essentially salient, e.g. local binary pattern}	G06V30/18	G06V30/18		40
+G06V30/18143	10	{Extracting features based on salient regional features, e.g. scale invariant feature transform [SIFT] keypoints}	G06V30/18	G06V30/18		148
+G06V30/18152	11	{Extracting features based on a plurality of salient regional features, e.g. "bag of words"}	G06V30/18	G06V30/18		29
+G06V30/18162	10	{related to a structural representation of the pattern}	G06V30/18	G06V30/18		35
+G06V30/18171	11	{Syntactic representation, e.g. using a grammatical approach}	G06V30/18	G06V30/18		15
+G06V30/18181	11	{Graphical representation, e.g. directed attributed graph}	G06V30/18	G06V30/18		55
+G06V30/1819	10	{sparse representations}	G06V30/18	G06V30/18		7
+G06V30/182	10	by coding the contour of the pattern	G06V30/182	G06V30/182		168
+G06V30/1823	11	{using vector-coding}	G06V30/182	G06V30/182		95
+G06V30/1826	11	{analysing the spectrum of the contour, e.g. Fourier expansion}	G06V30/182	G06V30/182		4
+G06V30/1829	11	{using an approximation function}	G06V30/182	G06V30/182		2
+G06V30/1831	11	{using gradient analysis}	G06V30/182	G06V30/18		14
+G06V30/1834	11	{using statistical shape modelling, e.g. point distribution model}	G06V30/182	G06V30/18		4
+G06V30/1837	11	{using wavelet analysis}	G06V30/182	G06V30/18		1
+G06V30/184	10	by analysing segments intersecting the pattern	G06V30/184	G06V30/184		96
+G06V30/186	10	by deriving mathematical or geometrical properties from the whole image	G06V30/186	G06V30/186		78
+G06V30/187	11	{Frequency domain transformation; Autocorrelation}	G06V30/186	G06V30/18		27
+G06V30/188	11	{Computation of moments}	G06V30/186	G06V30/18		10
+G06V30/189	11	{Scale-space domain transformation, e.g. with wavelet analysis}	G06V30/186	G06V30/18		42
+G06V30/19	9	Recognition using electronic means	G06V30/19	G06V30/19		761
+G06V30/19007	10	{Matching; Proximity measures}	G06V30/19	G06V30/19		789
+G06V30/19013	11	{Comparing pixel values or logical combinations thereof, or feature values having positional relevance, e.g. template matching (specially adapted for image segmentation G06T7/10; specially adapted for the analysis of motion G06T7/20; specially adapted for image alignment G06T7/30; specially adapted for the calculation of depth from stereo images G06T7/50; specially adapted for position determination G06T7/70)}	G06V30/19	G06V30/19		444
+G06V30/1902	12	{Shifting or otherwise transforming the patterns to accommodate for positional errors}	G06V30/19	G06V30/19		32
+G06V30/19027	13	{Matching of contours}	G06V30/19	G06V30/19		34
+G06V30/19033	14	{by mapping curve parameters onto an accumulator array, e.g. generalised Hough Transform}	G06V30/19	G06V30/19		6
+G06V30/1904	13	{involving a deformation of the sample or reference pattern; Elastic matching}	G06V30/19	G06V30/19		9
+G06V30/19047	14	{based on a local optimisation criterion, e.g. "snakes", i.e. active contour models of the pattern to be recognised}	G06V30/19	G06V30/19		1
+G06V30/19053	14	{based on shape statistics, e.g. active shape models of the pattern to be recognised}	G06V30/19	G06V30/19		3
+G06V30/1906	15	{based also on statistics of image patches, e.g. active appearance models of the pattern to be recognised}	G06V30/19	G06V30/19		10
+G06V30/19067	13	{Matching configurations of points or features, e.g. constellation matching}	G06V30/19	G06V30/19		66
+G06V30/19073	11	{Comparing statistics of pixel or of feature values, e.g. histogram matching}	G06V30/19	G06V30/19		43
+G06V30/1908	11	{Region based matching}	G06V30/19	G06V30/19		55
+G06V30/19087	11	{based on parametric eigenspace representations, e.g. eigenspace representations using pose or illumination parameters; Shape manifold}	G06V30/19	G06V30/19		4
+G06V30/19093	11	{Proximity measures, i.e. similarity or distance measures}	G06V30/19	G06V30/19		982
+G06V30/191	10	{Design or setup of recognition systems or techniques; Extraction of features in feature space; Clustering techniques; Blind source separation}	G06V30/19	G06V30/19		197
+G06V30/19107	11	{Clustering techniques}	G06V30/19	G06V30/19		370
+G06V30/19113	11	{Selection of pattern recognition techniques, e.g. of classifiers in a multi-classifier system}	G06V30/19	G06V30/19		76
+G06V30/1912	11	{Selecting the most significant subset of features (G06V30/19127 takes precedence)}	G06V30/19	G06V30/19		62
+G06V30/19127	11	{Extracting features by transforming the feature space, e.g. multidimensional scaling; Mappings, e.g. subspace methods}	G06V30/19	G06V30/19		202
+G06V30/19133	11	{Interactive pattern learning with a human teacher}	G06V30/19	G06V30/19		46
+G06V30/1914	11	{Determining representative reference patterns, e.g. averaging or distorting patterns; Generating dictionaries, e.g. user dictionaries}	G06V30/19	G06V30/19		165
+G06V30/19147	11	{Obtaining sets of training patterns; Bootstrap methods, e.g. bagging or boosting}	G06V30/19	G06V30/19		2124
+G06V30/19153	11	{using rules for classification or partitioning the feature space}	G06V30/19	G06V30/19		112
+G06V30/1916	11	{Validation; Performance evaluation}	G06V30/19	G06V30/19		374
+G06V30/19167	11	{Active pattern learning}	G06V30/19	G06V30/19		129
+G06V30/19173	11	{Classification techniques}	G06V30/19	G06V30/19		3514
+G06V30/1918	11	{Fusion techniques, i.e. combining data from various sources, e.g. sensor fusion}	G06V30/19	G06V30/19		1101
+G06V30/19187	11	{Graphical models, e.g. Bayesian networks or Markov models}	G06V30/19	G06V30/19		55
+G06V30/19193	10	{Statistical pre-processing, e.g. techniques for normalisation or restoring missing data}	G06V30/19	G06V30/19		22
+G06V30/192	10	using simultaneous comparisons or correlations of the image signals with a plurality of references	G06V30/192	G06V30/192		69
+G06V30/194	11	References adjustable by an adaptive method, e.g. learning	G06V30/194	G06V30/194		1061
+G06V30/195	11	{using a resistor matrix}	G06V30/192	G06V30/19		49
+G06V30/196	10	using sequential comparisons of the image signals with a plurality of references	G06V30/196	G06V30/196		89
+G06V30/198	11	the selection of the next reference depending on the result of the preceding comparison	G06V30/198	G06V30/198		3
+G06V30/1983	11	{Syntactic or structural pattern recognition, e.g. symbolic string recognition}	G06V30/196	G06V30/198		159
+G06V30/1985	12	{Syntactic analysis, e.g. using a grammatical approach (syntactic image representation G06V30/18171)}	G06V30/196	G06V30/198		65
+G06V30/1988	12	{Graph matching (graphical image representation G06V30/18181)}	G06V30/196	G06V30/198		131
+G06V30/199	9	Arrangements for recognition using optical reference masks, e.g. holographic masks	G06V30/199	G06V30/199		19
+G06V30/20	9	Combination of acquisition, preprocessing or recognition functions	G06V30/20	G06V30/20		106
+G06V30/22	9	characterised by the type of writing	G06V30/22	G06V30/22		229
+G06V30/222	10	of characters separated by spaces	G06V30/222	G06V30/222		15
+G06V30/224	10	of printed characters having additional code marks or containing code marks	G06V30/224	G06V30/224		1720
+G06V30/2247	11	{Characters composed of bars, e.g. CMC-7}	G06V30/224	G06V30/224		630
+G06V30/2253	11	{Recognition of characters printed with magnetic ink (G06V30/2247 takes precedence)}	G06V30/224	G06V30/22		400
+G06V30/226	10	of cursive writing	G06V30/226	G06V30/226		376
+G06V30/2264	11	{using word shape}	G06V30/226	G06V30/226		59
+G06V30/2268	11	{using stroke segmentation}	G06V30/226	G06V30/226		146
+G06V30/2272	12	{with lexical matching}	G06V30/226	G06V30/22		84
+G06V30/2276	12	{with probabilistic networks, e.g. hidden Markov models}	G06V30/226	G06V30/22		60
+G06V30/228	10	of three-dimensional handwriting, e.g. writing in the air	G06V30/228	G06V30/228		150
+G06V30/24	9	characterised by the processing or recognition method (segmentation of character regions G06V30/148)	G06V30/24	G06V30/24		195
+G06V30/242	10	Division of the character sequences into groups prior to recognition; Selection of dictionaries	G06V30/242	G06V30/242		387
+G06V30/244	11	using graphical properties, e.g. alphabet type or font	G06V30/244	G06V30/244		189
+G06V30/2445	12	{Alphabet recognition, e.g. Latin, Kanji or Katakana}	G06V30/244	G06V30/244		89
+G06V30/245	12	{Font recognition}	G06V30/244	G06V30/24		262
+G06V30/2455	12	{Discrimination between machine-print, hand-print and cursive writing}	G06V30/244	G06V30/24		175
+G06V30/246	11	using linguistic properties, e.g. specific for English or German language	G06V30/246	G06V30/246		79
+G06V30/248	10	{involving plural approaches, e.g. verification by template match; Resolving confusion among similar patterns, e.g. "O" versus "Q" (G06V30/242 takes precedence)}	G06V30/24	G06V30/24		326
+G06V30/2504	11	{Coarse or fine approaches, e.g. resolution of ambiguities or multiscale approaches}	G06V30/24	G06V30/2504		487
+G06V30/2528	11	{Combination of methods, e.g. classifiers, working on the same input data}	G06V30/24	G06V30/2528		64
+G06V30/2552	11	{Combination of methods, e.g. classifiers, working on different input data, e.g. sensor fusion}	G06V30/24	G06V30/2552		36
+G06V30/26	9	Techniques for post-processing, e.g. correcting the recognition result	G06V30/26	G06V30/26		263
+G06V30/262	10	using context analysis, e.g. lexical, syntactic or semantic context	G06V30/262	G06V30/262		425
+G06V30/268	11	{Lexical context}	G06V30/262	G06V30/26		321
+G06V30/274	11	{Syntactic or semantic context, e.g. balancing}	G06V30/262	G06V30/274		679
+G06V30/28	9	specially adapted to the type of the alphabet, e.g. Latin alphabet	G06V30/28	G06V30/28		29
+G06V30/287	10	{of Kanji, Hiragana or Katakana characters}	G06V30/28	G06V30/28		523
+G06V30/293	10	{of characters other than Kanji, Hiragana or Katakana}	G06V30/28	G06V30/293		163
+G06V30/30	9	based on the type of data	G06V30/30	G06V30/30		118
+G06V30/302	10	Images containing characters for discriminating human versus automated computer access	G06V30/302	G06V30/302		22
+G06V30/304	10	Music notations	G06V30/304	G06V30/304		128
+G06V30/32	9	Digital ink	G06V30/32	G06V30/32		966
+G06V30/333	10	{Preprocessing; Feature extraction}	G06V30/32	G06V30/333		422
+G06V30/347	11	{Sampling; Contour coding; Stroke extraction}	G06V30/32	G06V30/347		652
+G06V30/36	10	{Matching; Classification}	G06V30/32	G06V30/36		677
+G06V30/373	11	{using a special pattern or subpattern alphabet}	G06V30/32	G06V30/373		196
+G06V30/387	11	{using human interaction, e.g. selection of the best displayed recognition candidate}	G06V30/32	G06V30/387		209
+G06V30/40	8	Document-oriented image-based pattern recognition	G06V30/40	G06V30/40		3288
+G06V30/41	9	Analysis of document content (recognition of printed characters based on code marks G06V30/224)	G06V30/41	G06V30/41		1429
+G06V30/412	10	Layout analysis of documents structured with printed lines or input boxes, e.g. business forms or tables	G06V30/412	G06V30/412		2549
+G06V30/413	10	Classification of content, e.g. text, photographs or tables	G06V30/413	G06V30/413		3986
+G06V30/414	10	Extracting the geometrical structure, e.g. layout tree; Block segmentation, e.g. bounding boxes for graphics or text	G06V30/414	G06V30/414		2999
+G06V30/416	10	Extracting the logical structure, e.g. chapters, sections or page numbers; Identifying elements of the document, e.g. authors	G06V30/416	G06V30/416		1700
+G06V30/418	10	Document matching, e.g. of document images	G06V30/418	G06V30/418		1330
+G06V30/42	9	based on the type of document	G06V30/42	G06V30/42		1009
+G06V30/422	10	Technical drawings; Geographical maps	G06V30/422	G06V30/422		1724
+G06V30/424	10	Postal images, e.g. labels or addresses on parcels or postal envelopes	G06V30/424	G06V30/424		237
+G06V30/43	9	{Editing text-bitmaps, e.g. alignment, spacing; Semantic analysis of bitmaps of text without OCR}	G06V30/40	G06V30/43		153
+G06V40/00	7	Recognition of biometric, human-related or animal-related patterns in image or video data	G06V40/00	G06V40/00		160
+G06V40/10	8	Human or animal bodies, e.g. vehicle occupants or pedestrians; Body parts, e.g. hands	G06V40/10	G06V40/10		17836
+G06V40/103	9	{Static body considered as a whole, e.g. static pedestrian or occupant recognition}	G06V40/10	G06V40/10		7459
+G06V40/107	9	{Static hand or arm}	G06V40/10	G06V40/10		1940
+G06V40/11	10	{Hand-related biometrics; Hand pose recognition}	G06V40/10	G06V40/11		722
+G06V40/113	10	{Recognition of static hand signs}	G06V40/10	G06V40/113		1206
+G06V40/117	10	{Biometrics derived from hands}	G06V40/10	G06V40/117		350
+G06V40/12	9	Fingerprints or palmprints	G06V40/12	G06V40/12		3912
+G06V40/13	10	Sensors therefor	G06V40/13	G06V40/13		3992
+G06V40/1306	11	{non-optical, e.g. ultrasonic or capacitive sensing}	G06V40/13	G06V40/13		4303
+G06V40/1312	11	{direct reading, e.g. contactless acquisition}	G06V40/13	G06V40/13		602
+G06V40/1318	11	{using electro-optical elements or layers, e.g. electroluminescent sensing}	G06V40/13	G06V40/13		4948
+G06V40/1324	11	{by using geometrical optics, e.g. using prisms (G06V40/1312 takes precedence)}	G06V40/13	G06V40/13		1851
+G06V40/1329	11	{Protecting the fingerprint sensor against damage caused by the finger}	G06V40/13	G06V40/13		898
+G06V40/1335	10	{Combining adjacent partial images (e.g. slices) to create a composite input or reference pattern; Tracking a sweeping finger movement}	G06V40/12	G06V40/13		744
+G06V40/1341	10	{Sensing with light passing through the finger}	G06V40/12	G06V40/13		396
+G06V40/1347	10	{Preprocessing; Feature extraction}	G06V40/12	G06V40/13		2432
+G06V40/1353	11	{Extracting features related to minutiae or pores}	G06V40/12	G06V40/13		304
+G06V40/1359	11	{Extracting features related to ridge properties; Determining the fingerprint type, e.g. whorl or loop}	G06V40/12	G06V40/13		815
+G06V40/1365	10	{Matching; Classification}	G06V40/12	G06V40/13		5511
+G06V40/1371	11	{Matching features related to minutiae or pores}	G06V40/12	G06V40/13		259
+G06V40/1376	11	{Matching features related to ridge properties or fingerprint texture}	G06V40/12	G06V40/13		469
+G06V40/1382	10	{Detecting the live character of the finger, i.e. distinguishing from a fake or cadaver finger}	G06V40/12	G06V40/13		409
+G06V40/1388	11	{using image processing}	G06V40/12	G06V40/13		309
+G06V40/1394	11	{using acquisition arrangements}	G06V40/12	G06V40/13		424
+G06V40/14	9	Vascular patterns	G06V40/14	G06V40/14		2095
+G06V40/145	10	Sensors therefor	G06V40/145	G06V40/145		324
+G06V40/15	9	{Biometric patterns based on physiological signals, e.g. heartbeat, blood flow}	G06V40/10	G06V40/15		1185
+G06V40/155	9	{use of biometric patterns for forensic purposes}	G06V40/10	G06V40/155		65
+G06V40/16	9	Human faces, e.g. facial parts, sketches or expressions	G06V40/16	G06V40/16		10647
+G06V40/161	10	{Detection; Localisation; Normalisation}	G06V40/16	G06V40/16		14762
+G06V40/162	11	{using pixel segmentation or colour matching}	G06V40/16	G06V40/16		1111
+G06V40/164	11	{using holistic features}	G06V40/16	G06V40/16		379
+G06V40/165	11	{using facial parts and geometric relationships}	G06V40/16	G06V40/16		3123
+G06V40/166	11	{using acquisition arrangements}	G06V40/16	G06V40/16		6451
+G06V40/167	11	{using comparisons between temporally consecutive images}	G06V40/16	G06V40/16		746
+G06V40/168	10	{Feature extraction; Face representation}	G06V40/16	G06V40/16		15819
+G06V40/169	11	{Holistic features and representations, i.e. based on the facial image taken as a whole}	G06V40/16	G06V40/16		1076
+G06V40/171	11	{Local features and components; Facial parts (eye characteristics G06V40/18); Occluding parts, e.g. glasses; Geometrical relationships}	G06V40/16	G06V40/171		7556
+G06V40/172	10	{Classification, e.g. identification}	G06V40/16	G06V40/172		21485
+G06V40/173	11	{face re-identification, e.g. recognising unknown faces across different face tracks}	G06V40/16	G06V40/173		882
+G06V40/174	10	{Facial expression recognition}	G06V40/16	G06V40/174		7761
+G06V40/175	11	{Static expression}	G06V40/16	G06V40/175		591
+G06V40/176	11	{Dynamic expression}	G06V40/16	G06V40/176		1576
+G06V40/178	10	{estimating age from face image; using age information for improving recognition}	G06V40/16	G06V40/178		1418
+G06V40/179	10	{metadata assisted face recognition}	G06V40/16	G06V40/179		367
+G06V40/18	9	Eye characteristics, e.g. of the iris	G06V40/18	G06V40/18		5262
+G06V40/19	10	Sensors therefor	G06V40/19	G06V40/19		4325
+G06V40/193	10	{Preprocessing; Feature extraction}	G06V40/18	G06V40/19		4061
+G06V40/197	10	{Matching; Classification}	G06V40/18	G06V40/19		2483
+G06V40/20	8	Movements or behaviour, e.g. gesture recognition (recognition of facial expressions G06V40/16)	G06V40/20	G06V40/20		17955
+G06V40/23	9	{Recognition of whole body movements, e.g. for sport training}	G06V40/20	G06V40/23		5088
+G06V40/25	10	{Recognition of walking or running movements, e.g. gait recognition}	G06V40/20	G06V40/25		1648
+G06V40/28	9	{Recognition of hand or arm movements, e.g. recognition of deaf sign language (static hand signs G06V40/113)}	G06V40/20	G06V40/28		7245
+G06V40/30	8	Writer recognition; Reading and verifying signatures	G06V40/30	G06V40/30		636
+G06V40/33	9	{based only on signature image, e.g. static signature recognition}	G06V40/30	G06V40/33		322
+G06V40/37	9	{based only on signature signals such as velocity or pressure, e.g. dynamic signature recognition}	G06V40/30	G06V40/37		88
+G06V40/376	10	{Acquisition}	G06V40/30	G06V40/376		78
+G06V40/382	10	{Preprocessing; Feature extraction}	G06V40/30	G06V40/382		97
+G06V40/388	11	{Sampling; Contour coding; Stroke extraction}	G06V40/30	G06V40/388		57
+G06V40/394	10	{Matching; Classification}	G06V40/30	G06V40/394		124
+G06V40/40	8	Spoof detection, e.g. liveness detection	G06V40/40	G06V40/40		1643
+G06V40/45	9	{Detection of the body part being alive}	G06V40/40	G06V40/45		2838
+G06V40/50	8	Maintenance of biometric data or enrolment thereof	G06V40/50	G06V40/50		1511
+G06V40/53	9	{Measures to keep reference information secret, e.g. cancellable biometrics}	G06V40/50	G06V40/53		306
+G06V40/55	9	{Performing matching on a personal external card, e.g. to avoid submitting reference information}	G06V40/50	G06V40/55		66
+G06V40/58	9	{Solutions for unknown imposter distribution}	G06V40/50	G06V40/58		18
+G06V40/60	8	Static or dynamic means for assisting the user to position a body part for biometric acquisition	G06V40/60	G06V40/60		78
+G06V40/63	9	{by static guides}	G06V40/60	G06V40/63		225
+G06V40/67	9	{by interactive indications to the user}	G06V40/60	G06V40/67		774
+G06V40/70	8	Multimodal biometrics, e.g. combining information from different biometric modalities	G06V40/70	G06V40/70		2662
+G06V2201/00	7	Indexing scheme relating to image or video recognition or understanding	CPCONLY	G06V2201/00		19
+G06V2201/01	8	Solutions for problems related to non-uniform document background	CPCONLY	G06V2201/01		72
+G06V2201/02	8	Recognising information on displays, dials, clocks	CPCONLY	G06V2201/02		1520
+G06V2201/03	8	Recognition of patterns in medical or anatomical images	CPCONLY	G06V2201/03		6599
+G06V2201/031	9	of internal organs	CPCONLY	G06V2201/031		1213
+G06V2201/032	9	of protuberances, polyps nodules, etc.	CPCONLY	G06V2201/032		688
+G06V2201/033	9	of skeletal patterns	CPCONLY	G06V2201/033		568
+G06V2201/034	9	of medical instruments	CPCONLY	G06V2201/034		450
+G06V2201/04	8	Recognition of patterns in DNA microarrays	CPCONLY	G06V2201/04		111
+G06V2201/05	8	Recognition of patterns representing particular kinds of hidden objects, e.g. weapons, explosives, drugs	CPCONLY	G06V2201/05		383
+G06V2201/06	8	Recognition of objects for industrial automation	CPCONLY	G06V2201/06		3600
+G06V2201/07	8	Target detection	CPCONLY	G06V2201/07		21983
+G06V2201/08	8	Detecting or categorising vehicles	CPCONLY	G06V2201/08		6081
+G06V2201/09	8	Recognition of logos	CPCONLY	G06V2201/09		755
+G06V2201/10	8	Recognition assisted with metadata	CPCONLY	G06V2201/10		1531
+G06V2201/11	8	Technique with transformation invariance effect	CPCONLY	G06V2201/11		61
+G06V2201/12	8	Acquisition of 3D measurements of objects	CPCONLY	G06V2201/12		771
+G06V2201/121	9	using special illumination	CPCONLY	G06V2201/121		172
+G06V2201/122	9	Computational image acquisition in electron microscopy	CPCONLY	G06V2201/122		38
+G06V2201/13	8	Type of disclosure document	CPCONLY	G06V2201/13		19
+G06V2201/131	9	Book	CPCONLY	G06V2201/131		58
+G06V2201/132	9	Book chapter	CPCONLY	G06V2201/132		3
+G06V2201/133	9	Survey article	CPCONLY	G06V2201/133		5
+G06V2201/134	9	Technical report or standard	CPCONLY	G06V2201/134		6
+G06V2201/135	9	Master, PhD or other thesis	CPCONLY	G06V2201/135		2
+G06V2201/136	9	Tutorial	CPCONLY	G06V2201/136		3

@@ -1,0 +1,545 @@
+G01S   1/00  \	0	0	5J057	G01S   1/00	18	非指向性受信機により探知でき，かつビーコン送信機に関連して定められる方向，位置，または位置線を測定できる，１または複数の特性をもつ信号を送信するビーコンまたはビーコン方式；それと協働する受信機（２以上の方向，位置線測定を組み合わせることによる位置決定Ｇ０１Ｓ５／００）［２］	Beacons or beacon systems transmitting signals having a characteristic or characteristics capable of being detected by non-directional receivers and defining directions, positions, or position lines fixed relatively to the beacon transmitters; Receivers co-operating therewith (position-fixing by co-ordinating a plurality of determinations of direction or position lines G01S 5/00) [2]
+G01S   1/00  B	0	0	5J057	G01S   1/00	163	誘導無線	Inductive radio
+G01S   1/00  C	0	1	5J057	G01S   1/00	207	交差型二線式（Ｅが優先）	Crossed two-wire types (E takes precedence.)
+G01S   1/00  D	0	1	5J057	G01S   1/00	46	交差型多線式（Ｅが優先）	Crossed multi-wire types (E takes precedence.)
+G01S   1/00  E	0	1	5J057	G01S   1/00	21	交差型二進コ−ド化	Crossed binary coding
+G01S   1/00  F	0	1	5J057	G01S   1/00	24	非交差型（Ｇが優先）	Non-crossed types (G takes precedence.)
+G01S   1/00  G	0	1	5J057	G01S   1/00	2	非交差型二進コ−ド化	Crossed binary coding
+G01S   1/00  Z	0	0	5J057	G01S   1/00	42	その他のもの〔例．シミュレ−タ〕	Others e.g. simulators
+G01S   1/02  \	1	1	5J057	G01S   1/02	179	電波を使用するもの（１９／００が優先）［１，２０１０．０１］	using radio waves (G01S 19/00&nbsp;takes precedence) [1,2010.01]
+G01S   1/04  \	2	2	5J057	G01S   1/04	42	細部	Details
+G01S   1/06  \	3	3	5J057	G01S   1/06	1	多重指示を与えるための手段，例．粗指示および精密指示	Means for providing multiple indication, e.g. coarse and fine indications
+G01S   1/08  \	2	2	5J057	G01S   1/08	56	方向または位置線を決定するための方式	Systems for determining direction or position line
+G01S   1/10  \	3	3	5J057	G01S   1/10	68	別々の方向を向きながらも互いに重複した指向特性をもつ複数のアンテナまたはアンテナ方式から，順次に送信された複数の信号の振幅を比較するもの，例．等信号Ａ―Ｎ形	using amplitude comparison of signals transmitted sequentially from antennas or antenna systems having differently-oriented overlapping directivity-characteristics, e.g. equi-signal A-N type
+G01S   1/12  \	4	4	5J057	G01S   1/12	17	信号が，周期的に変化するその指向特性の方向をもつ一つのアンテナまたはアンテナ方式から順次に送信されるもの，例．順次に動作する反射器によるもの	the signals being transmitted sequentially from an antenna or antenna system having the orientation of its directivity characteristic periodically varied, e.g. by means of sequentially effective reflectors
+G01S   1/14  \	3	3	5J057	G01S   1/14	71	別々の方向を向きながらも互いに重複した指向特性をもつ複数のアンテナまたはアンテナ方式から，同時に送信された複数の信号の振幅を比較するもの	using amplitude comparison of signals transmitted simultaneously from antennas or antenna systems having differently-oriented overlapping directivity-characteristics
+G01S   1/16  \	4	4	5J057	G01S   1/16	79	方位角誘導方式，例．航空機接近路を決定するための方式，ローカライザ方式	Azimuthal guidance systems, e.g. system for defining aircraft approach path, localiser system
+G01S   1/18  \	4	4	5J057	G01S   1/18	46	仰角誘導方式，例．航空機グライドパスを決定するための方式	Elevational guidance systems, e.g. system for defining aircraft glide path
+G01S   1/20  \	3	3	5J057	G01S   1/20	15	互いに離れて配置された無指向性のアンテナまたはアンテナ方式から送信された，複数の同期した信号の伝播時間を比較するもの，すなわち路程差方式	using a comparison of transit time of synchronised signals transmitted from non-directional antennas or antenna systems spaced apart, i.e. path-difference systems
+G01S   1/22  \	4	4	5J057	G01S   1/22	5	上記の複数の同期した信号は，各搬送波の周波数が変調されており，かつ上記の伝播時間は受信された各搬送波の瞬時周波数の差の測定により比較されるもの	the synchronised signals being frequency modulations on carrier waves and the transit times being compared by measuring difference of instantaneous frequencies of received carrier waves
+G01S   1/24  \	4	4	5J057	G01S   1/24	4	上記の複数の同期した信号は，各搬送波がパルス変調または等価的にパルス変調され，かつ上記の伝播時間は変調の有意部分の到達時間差の測定により比較されるもの	the synchronised signals being pulses or equivalent modulations on carrier waves and the transit times being compared by measuring the difference in arrival time of a significant part of the modulations
+G01S   1/26  \	5	5	5J057	G01S   1/26	1	複数のパルスまたは複数の時間基準信号が受信機で局部的に発生され，かつ受信信号に対し所定の時間関係に持って来られる方式，例．パルス間隔が，第１および第２のアンテナまたはアンテナ方式から受信された信号の変調の有意部分の到達時間差と一致する方式	Systems in which pulses or time-base signals are generated locally at the receiver and brought into predetermined time-relationship with received signals, e.g. pulse duration coincides with time interval between arrival of significant part of modulation of signals received from first and second antennas or antenna systems
+G01S   1/28  \	6	6	5J057	G01S   1/28	0	上記の所定の時間関係が自動的に維持されるもの	wherein the predetermined time-relationship is maintained automatically
+G01S   1/30  \	4	4	5J057	G01S   1/30	6	上記の同期した信号または連続波の断続列系であって、その断続は、方向または位置線を決定するためのものでなく、かつ上記の伝播時間は位相差の測定により比較されるもの	the synchronised signals being continuous waves or intermittent trains of continuous waves, the intermittency not being for the purpose of determining direction or position line and the transit times being compared by measuring the phase difference
+G01S   1/32  \	5	5	5J057	G01S   1/32	8	増幅の有無を問わず，受信された複数の信号またはそこから導かれた信号が直接に位相比較される方式	Systems in which the signals received, with or without amplification, or signals derived therefrom, are compared in phase directly
+G01S   1/34  \	5	5	5J057	G01S   1/34	0	第１と第２の同期した信号が両アンテナまたはアンテナ方式から送信され，かつ第１の信号を互いにヘテロダインすることによって得られるビート周波数が，第２の信号を互いにヘテロダインすることによって得られるビート周波数と位相比較される方式	Systems in which first and second synchronised signals are transmitted from both antennas or antenna systems and a beat frequency, obtained by heterodyning the first signals with each other is compared in phase with a beat frequency obtained by heterodyning the second signals with each other
+G01S   1/36  \	5	5	5J057	G01S   1/36	0	同期した複数の信号をヘテロダインすることによって得られたビート周波数が，実質的に方向と無関係な位相をもつ基準信号と位相比較される方式	Systems in which a beat frequency, obtained by heterodyning the synchronised signals, is compared in phase with a reference signal having a phase substantially independent of direction
+G01S   1/38  \	3	3	5J057	G01S   1/38	85	［１］循環路を移動または移動するように見えるアンテナにより送信された信号の，ドップラー効果による，周波数変化の包絡線の位相と，［２］アンテナの循環移動または見かけの循環移動の周波数に同期されている基準信号の位相との比較を用いるもの	using comparison of [1] the phase of the envelope of the change of frequency, due to Doppler effect, of the signal transmitted by an antenna moving, or appearing to move, in a cyclic path with [2] the phase of a reference signal, the frequency of this reference signal being synchronised with that of the cyclic movement, or apparent cyclic movement, of the antenna
+G01S   1/40  \	4	4	5J057	G01S   1/40	14	アンテナの見かけの移動が，複数の固定アンテナの循環的，順次的付勢により作り出されるもの	the apparent movement of the antenna being produced by cyclic sequential energisation of fixed antennas
+G01S   1/42  \	3	3	5J057	G01S   1/42	6	移動受信機において，その受信機の，円すい走査軸からの任意の変位を指示する信号を送信する円すい走査ビームビーコン，例．“ビームライデング”ミサイル制御用［５］	Conical-scan beam beacons transmitting signals which indicate at a mobile receiver any displacement of the receiver from the conical-scan axis, e.g. for "beam-riding" missile control [5]
+G01S   1/44  \	3	3	5J057	G01S   1/44	32	回転面または揺動面内における方向を定める回転ビーコンまたは揺動ビーコン［５］	Rotating or oscillating beam beacons defining directions in the plane of rotation or oscillation [5]
+G01S   1/46  \	4	4	5J057	G01S   1/46	27	受信機においてビームの搬送波の実質的に連続する正弦波包路線信号を作り出し，かつその位相角がビーコンに対する基準方向との間の角度に依存するところの広ビーム方式，例．カージオイド方式［５］	Broad-beam systems producing at a receiver a substantially continuous sinusoidal envelope signal of the carrier wave of the beam, the phase angle of which is dependent upon the angle between the direction of the receiver from the beacon and a reference direction from the beacon, e.g. cardioid system [5]
+G01S   1/48  \	5	5	5J057	G01S   1/48	15	方向に依存する包絡線信号の位相角が方向角の倍数であるもの，例．「精密」方位角指示用［５］	wherein the phase angle of the direction-dependent envelope signal is a multiple of the direction angle, e.g. for "fine" bearing indication [5]
+G01S   1/50  \	5	5	5J057	G01S   1/50	135	方向に依存する包絡線信号の位相角が，方向に依存しない基準信号と比較されるもの［５］	wherein the phase angle of the direction-dependent envelope signal is compared with a non-direction- dependent reference signal [5]
+G01S   1/52  \	5	5	5J057	G01S   1/52	4	別々の速度または別々の方向で回転する複数のビームにより作り出された，方向に依存する複数の包絡線信号の各位相角が比較されるもの［５］	wherein the phase angles of a plurality of direction-dependent envelope signals produced by a plurality of beams rotating at different speeds or in different directions are compared [5]
+G01S   1/54  \	4	4	5J057	G01S   1/54	13	受信機において，ビーム搬送波のパルス形包絡線信号を作り出し，かつそのタイミングがビーコンに対する受信機の方向とビーコンに対する基準方向との間の角度に依存する狭ビーム方式；受信機において，ビーム搬送波のパルス形包絡線信号を作り出し，かつそのタイミングが，ビーコンに対する受信機の方向とビーコンに対する基準方向との間の角度に依存している，狭い範囲を定める重複広ビーム方式［５］	Narrow-beam systems producing at a receiver a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the receiver from the beacon and a reference direction from the beacon; Overlapping broad beam systems defining a narrow zone and producing at a receiver a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the receiver from the beacon and a reference direction from the beacon [5]
+G01S   1/54  A	4	0	5J057	G01S   1/54	90	ＭＬＳ（ビ−ム走査によるもの）	MLS (by scanning beams)
+G01S   1/54  Z	4	0	5J057	G01S   1/54	8	その他のもの	Others
+G01S   1/56  \	5	5	5J057	G01S   1/56	8	ビームの受信により導かれたパルス形包絡線信号のタイミング［５］	Timing the pulse-type envelope signals derived by reception of beam [5]
+G01S   1/58  \	5	5	5J057	G01S   1/58	3	送信されるビームの特性または補助信号の特性が，ビームの回転または揺動と時間的に同期して変化されるもの［５］	wherein a characteristic of the beam transmitted or of an auxiliary signal is varied in time synchronously with rotation or oscillation of the beam [5]
+G01S   1/60  \	6	6	5J057	G01S   1/60	9	ビーム信号または補助信号の周波数を変化させるもの［５］	Varying frequency of beam signal or of auxiliary signal [5]
+G01S   1/62  \	6	6	5J057	G01S   1/62	7	ビーム信号と補助信号との間の位相角関係を変化させるもの［５］	Varying phase-relationship between beam and auxiliary signal [5]
+G01S   1/64  \	6	6	5J057	G01S   1/64	1	パルスタイミングを変化させるもの，例．対をなして放射されるパルスの間の間隔を変化させるもの［５］	Varying pulse timing, e.g. varying interval between pulses radiated in pairs [5]
+G01S   1/66  \	6	6	5J057	G01S   1/66	16	方向を指示する情報信号，例．音声，モールス，を付加するもの［５］	Superimposing direction-indicating intelligence signals, e.g. speech, Morse [5]
+G01S   1/68  \	2	2	5J057	G01S   1/68	818	方向情報をもたない信号を送信するマーカビーコン，バウンダリビーコン，コールサインビーコンまたは同様なビーコン	Marker, boundary, call-sign, or like beacons transmitting signals not carrying directional information
+G01S   1/70  \	1	1	5J061	G01S   1/70	434	電波以外の電磁波を用いるもの	using electromagnetic waves other than radio waves
+G01S   1/72  \	1	1	5J083	G01S   1/72	53	超音波，音波または亜音波を用いるもの	using ultrasonic, sonic, or infrasonic waves
+G01S   1/74  \	2	2	5J083	G01S   1/74	8	細部［５］	Details [5]
+G01S   1/76  \	2	2	5J083	G01S   1/76	45	方向または位置決定のための方式［５］	Systems for determining direction or position line [5]
+G01S   1/78  \	3	3	5J083	G01S   1/78	8	別々の方向を向く特性をもつ変換器または変換器方式から送信された複数の信号の振幅を比較するもの［５］	using amplitude comparison of signals transmitted from transducers or transducer systems having differently-oriented characteristics [5]
+G01S   1/80  \	3	3	5J083	G01S   1/80	23	互いに離れて配置された無指向性の変換器または変換器方式から送信される，複数の同期した信号の伝播時間を比較するもの，すなわち路程差方式［５］	using a comparison of transit time of synchronised signals transmitted from non-directional transducers or transducer systems spaced apart, i.e. path-difference systems [5]
+G01S   1/82  \	3	3	5J083	G01S   1/82	1	回転面または揺動面内における方向を定める回転ビーコンまたは誘動ビーコン［５］	Rotating or oscillating beam beacons defining directions in the plane of rotation or oscillation [5]
+G01S   3/00  \	0	0	5J058	G01S   3/00	32	方向性を有しない亜音波，音波，超音波，電磁波，または粒子放射の到来する方向を決定するための方位測定機（２以上の方向，位置線測定を組み合わせることによる位置決定Ｇ０１Ｓ５／００）	Direction-finders for determining the direction from which infrasonic, sonic, ultrasonic, or electromagnetic waves, or particle emission, not having a directional significance, are being received (position-fixing by co-ordinating a plurality of determinations of direction or position lines G01S 5/00)
+G01S   3/02  \	1	1	5J058	G01S   3/02	209	電波を用いるもの	using radio waves
+G01S   3/04  \	2	2	5J058	G01S   3/04	17	細部	Details
+G01S   3/04  A	2	0	5J058	G01S   3/04	99	表示装置〔３／６２，３／６８が優先〕	Indicating devices (3/62 or 3/68 takes precedence.)
+G01S   3/04  B	2	0	5J058	G01S   3/04	60	方位測定用ゴニオメ−タ	Goniometers for measuring bearing
+G01S   3/04  C	2	0	5J058	G01S   3/04	206	方位測定用アンテナ	antennas for measuring bearing
+G01S   3/04  Z	2	0	5J058	G01S   3/04	122	その他のもの	Others
+G01S   3/06  \	3	3	5J058	G01S   3/06	29	実効的な指向性を増大させるための手段，例．別々の方向に向けられた指向特性をもつ信号によるものまたは回転または揺動しているビームアンテナから求められる信号の包絡線波形のせん鋭化によるもの（方向を決定するために別々の方向に向けられた指向特性をもつ複数の信号の振幅を比較するものＧ０１Ｓ３／１６，Ｇ０１Ｓ３／２８）	Means for increasing effective directivity, e.g. by combining signals having differently- oriented directivity characteristics&nbsp;or by sharpening the envelope waveform of the signal derived from a rotating or oscillating beam aerial (comparing amplitude of signals having differently-oriented directivity characteristics to determine direction G01S 3/16, G01S 3/28)
+G01S   3/08  \	3	3	5J058	G01S   3/08	66	偏波誤差を低減させるための手段，例．アドコック形または間隔を置いて並べられたループアンテナ方式の使用によるもの	Means for reducing polarisation errors, e.g. by use of Adcock or spaced loop antenna systems
+G01S   3/10  \	3	3	5J058	G01S   3/10	103	象限誤差，設置誤差または同様の誤差を低減または補償するための手段	Means for reducing or compensating for quadrantal, site, or like errors
+G01S   3/12  \	3	3	5J058	G01S   3/12	129	方向のセンスを決定するための手段，例．指向性アンテナまたはゴニオメータの捜索コイルからの信号と，無指向性アンテナからの信号との結合によるもの（指向性信号と無指向性信号との結合によって引き出された複数の信号の振幅を比較することによる方向の測定Ｇ０１Ｓ３／２４，Ｇ０１Ｓ３／３４）	Means for determining sense of direction, e.g. by combining signals from directional antenna or goniometer search coil with those from non-directional antenna (determining direction by amplitude comparison of signals derived by combining directional and non-directional signals G01S3/24, G01S3/34)
+G01S   3/14  \	2	2	5J058	G01S   3/14	249	方向の決定または所定の方向からの偏差の決定のための方式	Systems for determining direction or deviation from predetermined direction
+G01S   3/16  \	3	3	5J058	G01S   3/16	119	別々の方向に向けられた指向特性をもつ複数の受信アンテナもしくはアンテナ方式，または指向特性の方向が周期的に変えられる１個のアンテナから，順次引き出された複数の信号の振幅を比較するもの	using amplitude comparison of signals derived sequentially from receiving antennas or antenna systems having differently-oriented directivity characteristics or from an antenna system having periodically-varied orientation of directivity characteristic
+G01S   3/18  \	4	4	5J058	G01S   3/18	66	別々の指向性アンテナから直接に導かれたもの	derived directly from separate directional antennas
+G01S   3/20  \	4	4	5J058	G01S   3/20	72	指向特性の方向が周期的に変化される１個のアンテナ方式により受信された信号の標本化によって導かれたもの	derived by sampling signal received by an antenna system having periodically-varied orientation of directivity characteristic
+G01S   3/22  \	4	4	5J058	G01S   3/22	29	別々のアンテナからの信号の別々の結合から導かれるもの，例．和と差との比較	derived from different combinations of signals from separate antennas, e.g. comparing sum with difference
+G01S   3/24  \	5	5	5J058	G01S   3/24	42	上記の別々のアンテナが一つの指向性アンテナと一つの無指向性アンテナとを包含するもの，例．逆のカージオイド指向特性を作り出すループアンテナと開路アンテナとの結合	the separate antennas comprising one directional antenna and one non-directional antenna, e.g. combination of loop and open antennas producing a reversed cardioid directivity characteristic
+G01S   3/26  \	5	5	5J058	G01S   3/26	12	上記の別々のアンテナが別々の方向に向けられた指向特性をもつもの	the separate antennas having differently-oriented directivity characteristics
+G01S   3/28  \	3	3	5J058	G01S   3/28	153	別々の方向に向けられた指向特性をもつ複数の受信アンテナまたは受信アンテナ方式から，同時に導かれた複数の信号の振幅を比較するもの	using amplitude comparison of signals derived simultaneously from receiving antennas or antenna systems having differently-oriented directivity characteristics
+G01S   3/30  \	4	4	5J058	G01S   3/30	70	別々の指向性方式から直接導かれるもの	derived directly from separate directional systems
+G01S   3/32  \	4	4	5J058	G01S   3/32	143	別々のアンテナからの複数の信号の別々の結合から導かれるもの，例．和と差との比較	derived from different combinations of signals from separate antennas, e.g. comparing sum with difference
+G01S   3/34  \	5	5	5J058	G01S   3/34	32	上記の別々のアンテナが一つの指向性アンテナと一つの無指向性アンテナとを包含するもの，例．逆のカージオイド指向特性を作り出すループアンテナと開路アンテナとの組合せ	the separate antennas comprising one directional antenna and one non-directional antenna, e.g. combination of loop and open antennas producing a reversed cardioid directivity characteristic
+G01S   3/36  \	5	5	5J058	G01S   3/36	34	上記の別々のアンテナが別々の方向に向けられた指向特性をもつもの	the separate antennas having differently-oriented directivity characteristics
+G01S   3/38  \	3	3	5J058	G01S   3/38	242	１個のアンテナまたはアンテナ方式の指向特性の現実の方向または実効方向を調整して，該アンテナまたはアンテナ方式から導かれる信号を所望の状態にするもの，例．最大または最小信号を与えるもの（Ｇ０１Ｓ３／１６，Ｇ０１Ｓ３／２８が優先）	using adjustment of real or effective orientation of directivity characteristic of an antenna or an antenna system to give a desired condition of signal derived from that antenna or antenna system, e.g. to give a maximum or minimum signal (G01S3/16, G01S3/28 take precedence)
+G01S   3/40  \	4	4	5J058	G01S   3/40	160	最大または最小信号を与えるために単一指向特性の方向を調整するもの，例．回転式ループアンテナまたは等価ゴニオメータ方式	adjusting orientation of a single directivity characteristic to produce maximum or minimum signal, e.g. rotatable loop antenna or equivalent goniometer system
+G01S   3/42  \	4	4	5J058	G01S   3/42	150	上記の所望の状態が自動的に維持されるもの	the desired condition being maintained automatically
+G01S   3/42  A	4	0	5J058	G01S   3/42	107	プログラム追尾	Tracing programs
+G01S   3/42  B	4	0	5J058	G01S   3/42	53	高次モ−ドを利用	Using of higher modes
+G01S   3/42  C	4	0	5J058	G01S   3/42	119	和差モノパルス	Sum or difference monopulses
+G01S   3/42  D	4	0	5J058	G01S   3/42	285	移動体上に設置	Mounted on moving objets
+G01S   3/42  Z	4	0	5J058	G01S   3/42	180	その他のもの	Others
+G01S   3/44  \	4	4	5J058	G01S   3/44	181	所望状態が達成されて調整が自動的に停止されるまで，その調整が周期的または連続的に変化されるもの	the adjustment being varied periodically or continuously until it is halted automatically when the desired condition is attained
+G01S   3/46  \	3	3	5J058	G01S   3/46	663	間隔を置いて並べられたアンテナ列を使用するものであって，該アンテナからの信号の間の位相差または時間差を測定するもの，すなわち路程差方式	using antennas spaced apart and measuring phase or time difference between signals therefrom, i.e. path-difference systems
+G01S   3/48  \	4	4	5J058	G01S   3/48	387	各アンテナに到達する電波が連続的または断続的であって，それらのアンテナから導かれた信号の間の位相差が測定されるもの	the waves arriving at the antennas being continuous or intermittent and the phase difference of signals derived therefrom being measured
+G01S   3/50  \	4	4	5J058	G01S   3/50	29	各アンテナに到達する電波がパルス変調されており，それらの到達時間差が測定されるもの	the waves arriving at the antennas being pulse modulated and the time difference of their arrival being measured
+G01S   3/52  \	3	3	5J058	G01S   3/52	42	受信信号の周波数をドップラー偏移させるために，周期的通路内で移動する，または移動するように見える受信アンテナを用いるもの	using a receiving antenna moving, or appearing to move, in a cyclic path to produce a Doppler variation of frequency of the received signal
+G01S   3/54  \	4	4	5J058	G01S   3/54	82	アンテナの見かけの移動が，間隔を置いて並べられた多くの固定アンテナの各々に対する，受信機の周期的および順次的結合によって作り出されるもの	the apparent movement of the antenna being produced by coupling the receiver cyclically and sequentially to each of several fixed spaced antennas
+G01S   3/56  \	3	3	5J058	G01S   3/56	9	走査軸からの受信方向の偏差を指示し得る信号を用いる円すい走査ビーム方式	Conical-scan beam systems using signals indicative of the deviation of the direction of reception from the scan axis
+G01S   3/58  \	3	3	5J058	G01S   3/58	61	回転面または揺動面内の方向を決定するために，またはかかる面内の所定方向からの偏差を決定するために，受信々号の連続的な解析を用いる回転または揺動ビーム方式（Ｇ０１Ｓ３／１６が優先）	Rotating or oscillating beam systems using continuous analysis of received signal for determining direction in the plane of rotation or oscillation or for determining deviation from a predetermined direction in such a plane ()
+G01S   3/60  \	4	4	5J058	G01S   3/60	61	受信機にビームの搬送波の実質的な正弦波包絡線信号を発生し，かつその位相角は，受信機に対する送信機の方向と受信機に対する基準方向との間の角度に依存する広ビーム方式，例．カージオイド方式	Broad-beam systems producing in the receiver a substantially-sinusoidal envelope signal of the carrier wave of the beam, the phase angle of which is dependent upon the angle between the direction of the transmitter from the receiver and a reference direction from the receiver, e.g. cardioid system
+G01S   3/62  \	5	5	5J058	G01S   3/62	113	上記信号の位相角が陰極線管により指示されるもの	wherein the phase angle of the signal is indicated by a cathode-ray tube
+G01S   3/64  \	5	5	5J058	G01S   3/64	59	上記信号の位相角が，指向性変動に同期して変動する基準交流信号との位相比較によって決定されるもの	wherein the phase angle of the signal is determined by phase comparison with a reference alternating signal varying in synchronism with the directivity variation
+G01S   3/66  \	4	4	5J058	G01S   3/66	21	受信機にビームの搬送波のパルス形包絡線信号を発生し，かつそのタイミングは受信機に対する送信機の方向と，受信機に対する基準方向との間の角度に依存する狭ビーム方式；受信機において狭いゾーンを定めビームの搬送波のパルス形包絡線信号を発生し，かつそのタイミングが受信機に対する送信機の方向と受信機に対する基準方向との間の角度に依存する重複広ビーム方式	Narrow-beam systems producing in the receiver a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the transmitter from the receiver and a reference direction from the receiver; Overlapping broad-beam systems defining in the receiver a narrow zone and producing a pulse-type envelope signal of the carrier wave of the beam, the timing of which is dependent upon the angle between the direction of the transmitter from the receiver and a reference direction from the receiver
+G01S   3/68  \	5	5	5J058	G01S   3/68	5	パルス形包絡線信号のタイミングが陰極線管により指示されるもの	wherein the timing of the pulse-type envelope signal is indicated by cathode-ray tube
+G01S   3/70  \	5	5	5J058	G01S   3/70	1	パルス形包絡線信号のタイミングが，局部的に発生されたパルス形信号を該包絡線信号と一致または所定の時間関係に持って来ることにより決定されるもの	wherein the timing of the pulse-type envelope signal is determined by bringing a locally-generated pulse-type signal into coincidence or other predetermined time-relationship with the envelope signal
+G01S   3/72  \	2	2	5J058	G01S   3/72	20	方向探知用に特殊に適合されたダイバーシチ方式	Diversity systems specially adapted for direction-finding
+G01S   3/74  \	2	2	5J058	G01S   3/74	176	方位測定用に，特殊に適合された多重チャネル方式，すなわち相異なる複数の信号の方向の同時指示を与えることが可能な単一アンテナ方式をもつもの（相異なる複数の信号の方向が順次に決定されそして同時に表示される方式Ｇ０１Ｓ３／０４，Ｇ０１Ｓ３／１４）	Multi-channel systems specially adapted for direction-finding, i.e. having a single antenna system capable of giving simultaneous indications of the directions of different signals (systems in which the directions of different signals are determined sequentially and displayed simultaneously G01S3/04, G01S3/14)
+G01S   3/78  \	1	1	5J061	G01S   3/78	383	電波以外の電磁波を用いるもの	using electromagnetic waves other than radio waves
+G01S   3/781  \	2	2	5J061	G01S   3/781	165	細部［５］	Details [5]
+G01S   3/782  \	2	2	5J061	G01S   3/782	32	方向の決定または所定の方向からの偏差の決定のための方式［５］	Systems for determining direction or deviation from predetermined direction [5]
+G01S   3/782  A	2	0	5J061	G01S   3/782	508	目標画像検出方式	Methods for detecting target images
+G01S   3/782  B	2	1	5J061	G01S   3/782	231	赤外線目標画像検出方式	methods for detecting infrared target images
+G01S   3/782  Z	2	0	5J061	G01S   3/782	225	その他のもの	Others
+G01S   3/783  \	3	3	5J061	G01S   3/783	166	静止している複数の検出器または検出方式から導かれた複数の信号の振幅を比較するもの［５］	using amplitude comparison of signals derived from static detectors or detector systems [5]
+G01S   3/784  \	4	4	5J061	G01S   3/784	57	検出器のモザイクを用いるもの［５］	using a mosaic of detectors [5]
+G01S   3/785  \	3	3	5J061	G01S   3/785	52	単一の検出器または検出方式の指向特性の方向を調整して、当該検出器または検出方式から導かれる信号を所望の状態にするもの［５］	using adjustment of orientation of directivity characteristics of a detector or detector system to give a desired condition of signal derived from that detector or detector system [5]
+G01S   3/786  \	4	4	5J061	G01S   3/786	350	上記の所望の状態が自動的に維持されるもの［５］	the desired condition being maintained automatically [5]
+G01S   3/786  A	4	0	5J061	G01S   3/786	86	目標画像相関追尾方式	Methods for correlative tracing target images
+G01S   3/786  Z	4	0	5J061	G01S   3/786	364	その他のもの	Others
+G01S   3/787  \	3	3	5J061	G01S   3/787	68	方向に依存した変調特性を作り出す回転レチクルを用いるもの［５］	using rotating reticles producing a direction-dependent modulation characteristic [5]
+G01S   3/788  \	4	4	5J061	G01S   3/788	1	周波数変調特性を作り出すもの［５］	producing a frequency modulation characteristic [5]
+G01S   3/789  \	3	3	5J061	G01S   3/789	118	回転または揺動ビーム方式を用いるもの，例．鏡，プリズムを用いるもの［５］	using rotating or oscillating beam systems, e.g. using mirrors, prisms [5]
+G01S   3/80  \	1	1	5J083	G01S   3/80	725	超音波，音波，亜音波を用いるもの	using ultrasonic, sonic, or infrasonic waves
+G01S   3/801  \	2	2	5J083	G01S   3/801	418	細部［５］	Details [5]
+G01S   3/802  \	2	2	5J083	G01S   3/802	261	方向の決定または所定の方向からの偏差の決定のための方式［５］	Systems for determining direction or deviation from predetermined direction [5]
+G01S   3/803  \	3	3	5J083	G01S   3/803	145	別々の方向に向けられた指向特性をもつ複数の受信変換器または受信変換方式から導かれる複数の信号の振幅を比較するもの［５］	using amplitude comparison of signals derived from receiving transducers or transducer systems having differently-oriented directivity characteristics [5]
+G01S   3/805  \	3	3	5J083	G01S   3/805	66	単一の変換器または変換方式の指向特性の現実の方向または実効方向を調整して，変換器または変換方式から導かれる信号を所望の状態にするもの，例．最大または最小信号を与えるもの［５］	using adjustment of real or effective orientation of directivity characteristics of a transducer or transducer system to give a desired condition of signal derived from that transducer or transducer system, e.g. to give a maximum or minimum signal [5]
+G01S   3/807  \	4	4	5J083	G01S   3/807	46	上記の所望の状態が自動的に維持されるもの［５］	the desired condition being maintained automatically [5]
+G01S   3/808  \	3	3	5J083	G01S   3/808	625	間隔をおいて並べられた変換器列を使用するものであって該変換器からの信号間の位相差または時間差を測定するもの，すなわち路程差方式［５］	using transducers spaced apart and measuring phase or time difference between signals therefrom, i.e. path-difference systems [5]
+G01S   3/809  \	3	3	5J083	G01S   3/809	44	回転面または揺動面内における方向を決定するために，またはかかる面内の所定の方向からの偏差を決定するために，受信信号の連続的な解折を用いる回転または揺動ビーム方式［５］	Rotating or oscillating beam systems using continuous analysis of received signal for determining direction in the plane of rotation or oscillation or for determining deviation from a predetermined direction in such a plane [5]
+G01S   3/82  \	2	2	5J083	G01S   3/82	72	位相を調整するための，または時間遅れ誤差を補償するための手段をもつもの	with means for adjusting phase or compensating for time-lag errors
+G01S   3/84  \	2	2	5J083	G01S   3/84	23	陰極線管上に与えられる指示をもつもの	with indication presented on cathode-ray tubes
+G01S   3/86  \	2	2	5J083	G01S   3/86	102	不要波，例．妨害雑音，を消去する手段をもつもの	with means for eliminating undesired waves, e.g. disturbing noises
+G01S   5/00  \	0	0	5J062	G01S   5/00	74	２以上の方向，位置線測定を組み合わせることによる位置決定；２以上の距離測定を組み合わせることによる位置決定［２００６．０１］	Position-fixing by co-ordinating two or more direction or position-line determinations; Position-fixing by co-ordinating two or more distance determinations [2]
+G01S   5/02  \	1	1	5J062	G01S   5/02	90	電波を使用するもの（Ｇ０１Ｓ１９／００が優先）［２０１０．０１］	using radio waves
+G01S   5/02  A	1	0	5J062	G01S   5/02	613	異なる位置決定方式の組合せ	Combinations of different methods for determining positions
+G01S   5/02  Z	1	0	5J062	G01S   5/02	2470	その他のもの	Others
+G01S   5/04  \	2	2	5J062	G01S   5/04	458	電波源の位置が，複数個の互いに離間した方向探知機により測定されるもの［２００６．０１］	Position of source determined by a plurality of spaced direction-finders
+G01S   5/06  \	2	2	5J062	G01S   5/06	584	電波源の位置が，路程差測定によって決定される複数の位置線を組み合わせることにより，決定されるもの（Ｇ０１Ｓ５／１２が優先）［２００６．０１］	Position of source determined by co-ordinating a plurality of position lines defined by path-difference measurements (G01S 5/12 takes precedence) [3]
+G01S   5/08  \	2	2	5J062	G01S   5/08	150	単一の方向探知機の位置が，位置が既知である複数個の互いに離間した電波源の方向を測定することにより，決定されるもの［２００６．０１］	Position of single direction-finder fixed by determining direction of a plurality of spaced sources of known location
+G01S   5/10  \	2	2	5J062	G01S   5/10	147	受信機の位置が，路程差測定によって決定される複数の位置線を組み合わせることにより，決定されるもの（Ｇ０１Ｓ５／１２が優先）［２００６．０１］	Position of receiver fixed by co-ordinating a plurality of position lines defined by path-difference measurements (G01S 5/12 takes precedence) [3]
+G01S   5/10  A	2	0	5J062	G01S   5/10	175	ロラン	Loran
+G01S   5/10  B	2	1	5J062	G01S   5/10	14	ロランＡ	Loran A
+G01S   5/10  C	2	1	5J062	G01S   5/10	205	ロランＣ	Loran C
+G01S   5/10  D	2	0	5J062	G01S   5/10	129	デツカ	Decker
+G01S   5/10  E	2	0	5J062	G01S   5/10	189	オメガ	Omega
+G01S   5/10  Z	2	0	5J062	G01S   5/10	393	その他のもの	Others
+G01S   5/12  \	2	2	5J062	G01S   5/12	447	相異なる形，例．双曲線状，円形，楕円形または放射状，の位置線を組み合わせることによるもの［２００６．０１］	by co-ordinating position lines of different shape, e.g. hyperbolic, circular, elliptical&nbsp;or radial
+G01S   5/14  \	2	2	5J062	G01S   5/14	2758	位置が既知である複数個の互いに離間した点からの絶対距離の測定によるもの［２００６．０１］	Determining absolute distances from a plurality of spaced points of known location
+G01S   5/16  \	1	1	5J061	G01S   5/16	607	電波以外の電磁波を使用するもの［２００６．０１］	using electromagnetic waves other than radio waves
+G01S   5/18  \	1	1	5J083	G01S   5/18	544	超音波，音波，亜音波を使用するもの［２００６．０１］	using ultrasonic, sonic, or infrasonic waves
+G01S   5/20  \	2	2	5J083	G01S   5/20	168	音波源の位置が，複数個の互いに離間した方向探知機により，決定されるもの［２００６．０１］	Position of source determined by a plurality of spaced direction-finders [5]
+G01S   5/22  \	2	2	5J083	G01S   5/22	468	音波源の位置が，路程差測定によって決定される複数の位置線を組み合わせることにより，決定されるもの（Ｇ０１Ｓ５／２８が優先）［２００６．０１］	Position of source determined by co-ordinating a plurality of position lines defined by path-difference measurements (G01S 5/28 takes precedence) [5]
+G01S   5/24  \	2	2	5J083	G01S   5/24	38	単一の方向探知機の位置が，位置が既知である複数個の互いに離間した音波源の方向を測定することにより，決定されるもの［２００６．０１］	Position of single direction-finder fixed by determining direction of a plurality of spaced sources of known location [5]
+G01S   5/26  \	2	2	5J083	G01S   5/26	92	受信機の位置が，路程差測定によって決定される複数の位置線を組み合わせることにより，決定されるもの（Ｇ０１Ｓ５／２８が優先）［２００６．０１］	Position of receiver fixed by co-ordinating a plurality of position lines defined by path-difference measurements (G01S 5/28 takes precedence) [5]
+G01S   5/28  \	2	2	5J083	G01S   5/28	220	相異なる形，例．双曲線状，円形，楕円形または放射状，の位置線を組み合わせることによるもの［２００６．０１］	by co-ordinating position lines of different shape, e.g. hyperbolic, circular, elliptical or&nbsp;radial [5]
+G01S   5/30  \	2	2	5J083	G01S   5/30	320	位置が既知である複数個の互いに離間した点からの絶対距離の決定［２００６．０１］	Determining absolute distances from a plurality of spaced points of known location [5]
+G01S   7/00  \	0	0	5J070	G01S   7/00	3	グループＧ０１Ｓ１３／００，Ｇ０１Ｓ１５／００，Ｇ０１Ｓ１７／００による方式の細部	Details of systems according to groups G01S 13/00, G01S 15/00, G01S 17/00
+G01S   7/02  \	1	1	5J070	G01S   7/02	398	グループＧ０１Ｓ１３／００による方式のもの	of systems according to group G01S 13/00
+G01S   7/02 200 \	2	2	5J070	G01S   7/02	448	送受信アンテナがいずれも単一であるレーダ方式，例．ビームのパターン，方向を変えるもの	Radar methods with only one antenna both for receiving and transmitting, e.g. varying beam patterns or directions
+G01S   7/02 202 \	3	3	5J070	G01S   7/02	314	干渉波除去，高指向性	Removing interfering waves, high directivity
+G01S   7/02 210 \	2	2	5J070	G01S   7/02	477	送受信アンテナのいずれかが複数であるレーダ方式	Radar methods with multiple antennas either for receiving or transmitting
+G01S   7/02 212 \	3	3	5J070	G01S   7/02	379	アンテナを各々独立して使用するもの	Independent using of respective antennas
+G01S   7/02 214 \	3	3	5J070	G01S   7/02	273	主・副アンテナによるサイドローブ除去	Removing side lobes with main or auxiliary antenna
+G01S   7/02 216 \	3	3	5J070	G01S   7/02	2309	フェーズドアレイアンテナを使用するもの	Using of phased array antennas
+G01S   7/02 218 \	4	4	5J070	G01S   7/02	623	位相差検出による方探	Investigating orientation by detecting phase differences
+G01S   7/03  \	2	2	5J070	G01S   7/03	153	そのために特に適合されたＨＦサブ方式の細部，例．送信機，受信機に共通なもの［５］	Details of HF subsystems specially adapted therefor, e.g. common to transmitter and receiver [5]
+G01S   7/03 200 \	3	3	5J070	G01S   7/03	355	リフレクタ，偏波変換	Reflectors, polarized wave conversions
+G01S   7/03 202 \	4	4	5J070	G01S   7/03	6	シャッタ	Shutters
+G01S   7/03 210 \	3	3	5J070	G01S   7/03	114	導波管，例．レーダシステム用ハイブリッド指向性カプラー	Waveguides, e.g. hybrid directive coupler for radar systems
+G01S   7/03 212 \	4	4	5J070	G01S   7/03	210	電波レンズ	Radio wave lenses
+G01S   7/03 220 \	3	3	5J070	G01S   7/03	634	ＭＩＣ，マイクロ波回路	MIC, microwave circuits
+G01S   7/03 230 \	3	3	5J070	G01S   7/03	748	アンテナ構成	Antenna configurations
+G01S   7/03 232 \	4	4	5J070	G01S   7/03	43	防水	Waterproof
+G01S   7/03 234 \	4	4	5J070	G01S   7/03	102	冷却，耐熱	Cooling, heat-resisting
+G01S   7/03 236 \	4	4	5J070	G01S   7/03	7	換気	Ventilating
+G01S   7/03 238 \	4	4	5J070	G01S   7/03	22	防塵	Dustproof
+G01S   7/03 240 \	4	4	5J070	G01S   7/03	532	取付，据付	Mounting or installing
+G01S   7/03 242 \	4	4	5J070	G01S   7/03	83	電波と光波，音波等の組合せ	Combinations with radio wave and light wave, sounds
+G01S   7/03 244 \	4	4	5J070	G01S   7/03	174	地中レーダ用	For underground radar
+G01S   7/03 246 \	4	4	5J070	G01S   7/03	876	レドーム	Radome
+G01S   7/03 248 \	4	4	5J070	G01S   7/03	357	回転駆動，回転角検出	Detecting rotary drives, rotation angles
+G01S   7/04  \	2	2	5J070	G01S   7/04	538	表示装置	Display arrangements
+G01S   7/06  \	3	3	5J070	G01S   7/06	350	陰極線管表示	Cathode-ray tube displays
+G01S   7/06 200 \	4	4	5J070	G01S   7/06	84	目盛板，フード等の付属物	Accessories such as scales, hoods
+G01S   7/08  \	4	4	5J070	G01S   7/08	2	距離を指示するバーニヤをもつもの，例．二本の陰極線管を用いたもの	with vernier indication of distance, e.g. using two cathode-ray tubes
+G01S   7/10  \	4	4	5J070	G01S   7/10	118	距離および方向を二次元座標で表示する装置を備えたもの	Providing two-dimensional co-ordinated display of distance and direction
+G01S   7/12  \	5	5	5J070	G01S   7/12	595	プラン―ポジション表示器，すなわちＰ．Ｐ．Ｉ	Plan-position indicators, i.e. P. P. I.
+G01S   7/12 200 \	6	6	5J070	G01S   7/12	185	航跡を表示するもの	Displaying wakes
+G01S   7/14  \	6	6	5J070	G01S   7/14	102	扇形，離心，または角度拡大表示	Sector, off-centre, or expanded- angle display
+G01S   7/16  \	5	5	5J070	G01S   7/16	31	距離および方位を表示する直角座標をもち信号を輝度変調で表示するもの，例．Ｂ型	Signals displayed as intensity modulation with rectangular co-ordinates representing distance and bearing, e.g. type B
+G01S   7/18  \	5	5	5J070	G01S   7/18	41	距離―高度表示；距離―仰角表示，例．ＲＨＩ型，Ｅ型	Distance-height displays; Distance-elevation displays, e.g. type RHI, type E
+G01S   7/20  \	4	4	5J070	G01S   7/20	158	立体表示；三次元表示；擬似三次元表示	Stereoscopic displays; Three-dimensional displays; Pseudo-three-dimensional displays
+G01S   7/22  \	4	4	5J070	G01S   7/22	584	電子的手段によりカーソル線および記号を発生するもの	Producing cursor lines and indicia by electronic means
+G01S   7/24  \	4	4	5J070	G01S   7/24	104	送受信装置をもっている物体の移動に応じて特定の方向に向きを変えたりまたは位置を変えて表示をするもの，例．真運動レーダ	the display being orientated or displaced in accordance with movement of object carrying the transmitting and receiving apparatus, e.g. true-motion radar
+G01S   7/26  \	3	3	5J070	G01S   7/26	38	エレクトロ―ルミネセントパネルを使用した表示	Displays using electroluminescent panels
+G01S   7/28  \	2	2	5J070	G01S   7/28	43	パルス方式の細部	Details of pulse systems
+G01S   7/28 200 \	3	3	5J070	G01S   7/28	505	送受切替器，保護回路，例．漏れ信号の抑圧，除去	Devices for switching receiving or transmitting, protecting circuits, e.g. limiting or removing leaked signals
+G01S   7/28 210 \	3	3	5J070	G01S   7/28	336	送・受信周波数の制御，例．可変発信器，ＰＬＬ，ＶＣＯ，ＡＦＣ（周波数メモリはＧ０１Ｓ７／３２）	Controlling transmitting or receiving frequencies, e.g. variable transmitters, PLL, VCO, AFC9 (Frequency memories G01S7/32 )
+G01S   7/28 220 \	3	3	5J070	G01S   7/28	433	送受兼用のための構成，例．アレイアンテナ用モジュール，レーダ用基準パルスの発生	Structures for serving both transmitting and receiving, e.g. modules for array antennas, generating datum pulses for radar
+G01S   7/282  \	3	3	5J070	G01S   7/282	434	送信機［５］	Transmitters [5]
+G01S   7/282 200 \	4	4	5J070	G01S   7/282	462	送信パルスの発生，成型	Generating or forming transmitted pulses
+G01S   7/285  \	3	3	5J070	G01S   7/285	580	受信機［５］	Receivers [5]
+G01S   7/285 200 \	4	4	5J070	G01S   7/285	126	ＡＧＣ（短い期間のＡＧＣはＧ０１Ｓ７／３４）	AGC (short-term AGC G01S7/34)
+G01S   7/285 210 \	4	4	5J070	G01S   7/285	53	録画，再生（そのための伝送方式はＧ０１Ｓ１３／０２，プロッタはＧ０１Ｓ７／２９５，Ｇ０１Ｓ７／２９８）	Recording, replay (transmitting methods thereof G01S13/02, plotters G01S7/295, G01S7/298)
+G01S   7/288  \	4	4	5J070	G01S   7/288	73	コヒーレント受信機［５］	Coherent receivers [5]
+G01S   7/292  \	4	4	5J070	G01S   7/292	154	所望のエコー信号の抽出［５］	Extracting wanted echo-signals [5]
+G01S   7/292 200 \	5	5	5J070	G01S   7/292	734	信号検出	Detecting signals
+G01S   7/292 202 \	6	6	5J070	G01S   7/292	292	積分方式，積分器，畜積管	Integrating methods, integrators, accumulators
+G01S   7/292 204 \	6	6	5J070	G01S   7/292	446	ＰＲＦ相関，相関一般	PRF correlation, correlation in general
+G01S   7/292 210 \	5	5	5J070	G01S   7/292	88	ＰＲＦの検出，弁別，例．特定パルス列の検出	Detecting PRF, per valve, e.g. detecting particular pulse rows
+G01S   7/292 220 \	5	5	5J070	G01S   7/292	231	パルス特性，例．幅，中心値，位置，単一パルスの特性，の検出	detecting pulse characteristics, e.g. width, center value, position, characteristics of one pulse
+G01S   7/292 230 \	5	5	5J070	G01S   7/292	60	ｆａｓｔ　ｔｉｍｅ　ｃｏｎｓｔａｎｔ［ＦＴＣ］	fast time constant [FTC]
+G01S   7/295  \	4	4	5J070	G01S   7/295	599	座標を変換するためのあるいは情報を評価するための手段，例．計算機を使用するもの［５］	Means for transforming co-ordinates or for evaluating data, e.g. using computers [5]
+G01S   7/295 200 \	5	5	5J070	G01S   7/295	75	時間軸変換	Converting time axis
+G01S   7/295 210 \	5	5	5J070	G01S   7/295	110	プロッタ，航跡表示	Plotters, indicating wakes
+G01S   7/295 220 \	5	5	5J070	G01S   7/295	153	座標変換	Covering coordinates
+G01S   7/298  \	5	5	5J070	G01S   7/298	243	走査変換器［５］	Scan converters [5]
+G01S   7/298 200 \	6	6	5J070	G01S   7/298	58	プロッタ，航跡表示	Plotters, displaying wakes
+G01S   7/32  \	4	4	5J070	G01S   7/32	511	エコーパルス信号の整形；エコーパルス信号から非パルス信号の導出［５］	Shaping echo pulse signals; Deriving non-pulse signals from echo pulse signals [5]
+G01S   7/32 200 \	5	5	5J070	G01S   7/32	79	ビデオ信号の量子化	Quantizing (quantizers) of video signals
+G01S   7/32 210 \	5	5	5J070	G01S   7/32	271	スレッシュホールドの設定	Setting thresholds
+G01S   7/32 220 \	5	5	5J070	G01S   7/32	293	一定誤警報率［ＣＦＡＲ］処理に特徴のあるもの	characterised by constant- false- alarm rate [CFAR] treatment
+G01S   7/32 230 \	5	5	5J070	G01S   7/32	80	パルスの波形処理，例．パルス幅伸長，ボックスカー，周波数メモリ	Processing pulse waves, e.g. pulse width extensions, box cars, frequency memories
+G01S   7/32 240 \	5	5	5J070	G01S   7/32	131	統計的信号検知方式，例．スライディングウインドウ，コインシデンス，エクスポネンシャル，ムービングサム，サクセスラン，シーケンシャル	Method for statistically detecting signals, e.g. sliding window, coincidence, exponential, moving sum, success run, sequential
+G01S   7/32 250 \	5	5	5J070	G01S   7/32	515	検知された信号の統計的処理方式，例．ランレングス，平均化，スイープ相関，スキャン相関	Methods for statistically processing detected signals, e.g. run length, averaging, sweep correlation, scan correlation
+G01S   7/34  \	4	4	5J070	G01S   7/34	304	パルス繰返期間中に受信機の利得が自動的に制御されるもの，例．クラッタ消去利得制御［５］	Gain of receiver varied automatically during pulse-recurrence period, e.g. anti-clutter gain control [5]
+G01S   7/34 200 \	5	5	5J070	G01S   7/34	165	感度時間制御［ＳＴＣ］	sensing time control [STC]
+G01S   7/35  \	2	2	5J070	G01S   7/35	224	非パルス方式の細部［５］	Details of non-pulse systems [5]
+G01S   7/36  \	2	2	5J070	G01S   7/36	1124	対妨害手段	Means for anti-jamming
+G01S   7/38  \	2	2	5J070	G01S   7/38	698	妨害手段，例．偽エコーを生じさせるもの［２］	Jamming means, e.g. producing false echoes [2]
+G01S   7/40  \	2	2	5J070	G01S   7/40	710	監視または校正用の手段	Means for monitoring or calibrating
+G01S   7/40 104 \	3	3	5J070	G01S   7/40	617	レーダシステムの部品に関するもの	related to radar system parts
+G01S   7/40 108 \	4	4	5J070	G01S   7/40	270	送信機に関するもの	related to transmitter
+G01S   7/40 113 \	5	5	5J070	G01S   7/40	80	送信電力の調整を伴うもの	accompany adjustment of transmitting power
+G01S   7/40 117 \	4	4	5J070	G01S   7/40	47	ＨＦシステムに関するもの	related to HF system
+G01S   7/40 121 \	4	4	5J070	G01S   7/40	1291	受信機に関するもの	related to receiver
+G01S   7/40 126 \	4	4	5J070	G01S   7/40	531	アンテナの軸ずれに関するもの	related to antenna axis gap
+G01S   7/40 130 \	5	5	5J070	G01S   7/40	252	方位角，すなわち水平面における軸ずれ	azimuth, i.e. axis gap in horizontal plane
+G01S   7/40 134 \	5	5	5J070	G01S   7/40	96	仰角，すなわち垂直面における軸ずれ	elevation angle, i.e. axis gap in vertical plane
+G01S   7/40 139 \	4	4	5J070	G01S   7/40	85	センサまたはアンテナへの妨害物に関するもの，例．汚れや氷の付着	related to obstacles on sensor or antenna, e.g. attachment of stain or ice
+G01S   7/40 143 \	5	5	5J070	G01S   7/40	70	妨害物の付着を防止または除去する手段を含むもの	including means to prevent or remove attachment of obstacles
+G01S   7/40 147 \	6	6	5J070	G01S   7/40	20	誘電体レンズの加熱，例．電熱線による	heating dielectric lens, e.g. by electrically heated wire
+G01S   7/40 152 \	3	3	5J070	G01S   7/40	54	エコーの模擬によるもの	by imitation echo
+G01S   7/40 156 \	4	4	5J070	G01S   7/40	177	ＦＭＣＷレーダに特に適合させたもの	specially adapted to FMCW radar
+G01S   7/40 160 \	4	4	5J070	G01S   7/40	1046	内部で生成された参照信号を使用するもの，例．参照信号が，遅延線を経由するもの，ＲＦ若しくはＩＦ信号の注入を経るもの，または，結合された基準反射器若しくは応答機を経由するもの	use reference signal generated internally, e.g. reference signal through delayed line, injection of RF or IF signal, or through joined standard reflector or responder
+G01S   7/40 165 \	5	5	5J070	G01S   7/40	39	遅延線を含むもの	including delayed line
+G01S   7/40 169 \	5	5	5J070	G01S   7/40	275	ＲＦ信号の注入を含むもの	including injection of RF signal
+G01S   7/40 173 \	5	5	5J070	G01S   7/40	57	ＩＦ信号の注入を含むもの	including injection of IF signal
+G01S   7/40 178 \	5	5	5J070	G01S   7/40	52	結合された基準反射器または基準応答機を含むもの	including joined standard reflector or responder
+G01S   7/40 182 \	4	4	5J070	G01S   7/40	430	外部で生成された参照信号を使用するもの，例．参照信号が，離れて配置された反射器または応答機を経由するもの	uses reference signal generated externally, e.g. reference signal passing through reflector or responder arranged in distance
+G01S   7/40 186 \	5	5	5J070	G01S   7/40	72	校正環境下，例．電波暗室，で実施するもの	perform under proofreading environment, e.g. anechoic chamber
+G01S   7/40 191 \	5	5	5J070	G01S   7/40	63	通常のレーダ動作中に実施するもの	perform during normal operation of radar
+G01S   7/40 195 \	5	5	5J070	G01S   7/40	133	外部参照信号が変調されているもの，例．ドップラーエコー等を模擬するために二面反射器を回転させたり応答機を変調したりするもの	external reference signal being modulated, e.g. rotate two plane reflector or modulate responder to imitate Doppler echo
+G01S   7/41  \	2	2	5J070	G01S   7/41	353	対象物の特性評価のためのエコー信号の分析を用いるもの；対象物の特徴；対象物の断面積［６］	using analysis of echo signal for target characterisation; Target signature; Target cross-section [6]
+G01S   7/42  \	2	2	5J070	G01S   7/42	224	レーダに特有なダイバーシチ方式	Diversity systems specially adapted for radar
+G01S   7/48  \	1	1	5J084	G01S   7/48	1292	グループＧ０１Ｓ１７／００による方式のもの	of systems according to group G01S 17/00
+G01S   7/481  \	2	2	5J084	G01S   7/481	52	構造的特徴，例．光学素子の配列［６］	Constructional features, e.g. arrangements of optical elements [6]
+G01S   7/481  A	2	0	5J084	G01S   7/481	3756	光学系	Optical systems
+G01S   7/481  Z	2	0	5J084	G01S   7/481	1100	その他のもの	Others
+G01S   7/483  \	2	2	5J084	G01S   7/483	124	パルス方式の細部［６］	Details of pulse systems [6]
+G01S   7/484  \	3	3	5J084	G01S   7/484	704	送信機［６］	Transmitters [6]
+G01S   7/486  \	3	3	5J084	G01S   7/486	433	受信機［２０２０．０１］	Receivers [6]
+G01S   7/4861  \	4	4	5J084	G01S   7/4861	235	検出，サンプリング，積分，又は読み出しのための回路［２０２０．０１］	Circuits for detection sampling integration or read-out
+G01S   7/4863  \	5	5	5J084	G01S   7/4863	507	検出器アレイ，例．電荷転送ゲート［２０２０．０１］	Detector arrays e.g. charge-transfer gates
+G01S   7/4865  \	4	4	5J084	G01S   7/4865	286	遅延時間測定，例．飛行時間測定，到達時間測定，又は正確なピーク位置の決定（雑音中のピーク検出、信号調整はＧ０１Ｓ　７／４８７）［２０２０．０１］	Time delay measurement e.g. time-of-flight measurement time of arrival measurement or determining the exact position of a peak (peak detection in noise signal conditioning G01S7/487)
+G01S   7/487  \	4	4	5J084	G01S   7/487	355	所望のエコー信号の抽出［６］	Extracting wanted echo signals [6]
+G01S   7/489  \	4	4	5J084	G01S   7/489	168	パルス繰返期間中に受信機の利得が自動的に制御されるもの［６］	Gain of receiver varied automatically during pulse-recurrence period [6]
+G01S   7/491  \	2	2	5J084	G01S   7/491	44	非パルス方式の細部［２０２０．０１］	Details of non-pulse systems [6]
+G01S   7/4911  \	3	3	5J084	G01S   7/4911	90	送信機［２０２０．０１］	Transmitters
+G01S   7/4912  \	3	3	5J084	G01S   7/4912	26	受信機［２０２０．０１］	Receivers
+G01S   7/4913  \	4	4	5J084	G01S   7/4913	116	検出，サンプリング，積分，又は読み出しのための回路［２０２０．０１］	Circuits for detection sampling integration or read-out
+G01S   7/4914  \	5	5	5J084	G01S   7/4914	83	検出器アレイ，例．電荷転送ゲート［２０２０．０１］	Detector arrays e.g. charge-transfer gates
+G01S   7/4915  \	4	4	5J084	G01S   7/4915	996	遅延時間測定，例．画素構成要素の操作の細部（信号抽出及び調整はＧ０１Ｓ　７／４９３）；位相測定［２０２０．０１］	Time delay measurement e.g. operational details for pixel components (signal extraction and conditioning G01S7/493); Phase measurement
+G01S   7/493  \	3	3	5J084	G01S   7/493	62	所望のエコー信号の抽出［６］	Extracting wanted echo signals [6]
+G01S   7/495  \	2	2	5J084	G01S   7/495	204	対抗手段または対対抗手段［６］	Counter-measures or counter-counter-measures [6]
+G01S   7/497  \	2	2	5J084	G01S   7/497	4141	監視または校正用の手段［６］	Means for monitoring or calibrating [6]
+G01S   7/499  \	2	2	5J084	G01S   7/499	266	偏光効果を用いるもの［６］	using polarisation effects [6]
+G01S   7/51  \	2	2	5J084	G01S   7/51	1897	表示装置［６］	Display arrangements [6]
+G01S   7/52  \	1	1	5J083	G01S   7/52	115	グループＧ０１Ｓ１５／００による方式のもの	of systems according to group G01S 15/00
+G01S   7/52  D	1	0	5J083	G01S   7/52	592	ビーム形成	Forming beams
+G01S   7/52  E	1	1	5J083	G01S   7/52	473	ビーム走査	Scanning beams
+G01S   7/52  F	1	1	5J083	G01S   7/52	163	フォーカシング	Focusing
+G01S   7/52  U	1	0	5J083	G01S   7/52	410	試験装置，シミュレータ	Testing devices, simulators
+G01S   7/52  V	1	0	5J083	G01S   7/52	674	水中曳航体	Objects towed underwater
+G01S   7/52  Z	1	0	5J083	G01S   7/52	169	その他	Others
+G01S   7/521  \	2	2	5J083	G01S   7/521	17	構造的特徴［６］	Constructional features [6]
+G01S   7/521  A	2	0	5J083	G01S   7/521	2234	トランスジューサの構造	Structures of transducers
+G01S   7/521  B	2	1	5J083	G01S   7/521	1271	支持，取付	Support, installing
+G01S   7/521  Z	2	0	5J083	G01S   7/521	56	その他	Others
+G01S   7/523  \	2	2	5J083	G01S   7/523	13	パルス方式の細部［６］	Details of pulse systems [6]
+G01S   7/524  \	3	3	5J083	G01S   7/524	2	送信機［６］	Transmitters [6]
+G01S   7/524  Q	3	0	5J083	G01S   7/524	290	パルス発生，駆動方式	Pulse generation, driving method
+G01S   7/524  R	3	0	5J083	G01S   7/524	556	送信制御，例．周波数，パルス繰返し周期	Transmission control (Frequencies, pulse repetition frequencies)
+G01S   7/524  S	3	0	5J083	G01S   7/524	178	送受切替回路，保護回路	Circuits for switching receiving or transmitting, and protecting
+G01S   7/524  Z	3	0	5J083	G01S   7/524	119	その他	Others
+G01S   7/526  \	3	3	5J083	G01S   7/526	1	受信機［６］	Receivers [6]
+G01S   7/526  J	3	0	5J083	G01S   7/526	1286	受信信号の処理	Processing of the received signal
+G01S   7/526  K	3	1	5J083	G01S   7/526	409	利得の調整，例．ＡＧＣ，ＴＶＧ，ＳＴＣ（Ｇ０１Ｓ７／５２９が優先）	Adjustment of gain, e.g. AGC, TVG, STC  (G01S7/529 takes precedence)
+G01S   7/526  L	3	1	5J083	G01S   7/526	193	音速の補正	Correction of speed of sound
+G01S   7/526  M	3	1	5J083	G01S   7/526	1023	不必要な波，例．妨害雑音，を除去する手段をもつもの	Means for removing unnecessary waves e.g. jamming noise
+G01S   7/526  Z	3	0	5J083	G01S   7/526	40	その他	Others
+G01S   7/527  \	4	4	5J083	G01S   7/527	96	所望のエコー信号の抽出［６］	Extracting wanted echo signals [6]
+G01S   7/529  \	4	4	5J083	G01S   7/529	7	パルス繰返期間中に受信器の利得が自動的に制御されるもの［６］	Gain of receiver varied automatically during pulse-recurrence period [6]
+G01S   7/53  \	4	4	5J083	G01S   7/53	15	座標の変換またはデータの評価のための手段，例．計算機を用いるもの［６］	Means for transforming co-ordinates or for evaluating data, e.g. using computers [6]
+G01S   7/531  \	5	5	5J083	G01S   7/531	1	走査変換器［６］	Scan converters [6]
+G01S   7/533  \	5	5	5J083	G01S   7/533	1	データレート変換器［６］	Data rate converters [6]
+G01S   7/534  \	2	2	5J083	G01S   7/534	8	非パルス方式の細部［６］	Details of non-pulse systems [6]
+G01S   7/536  \	3	3	5J083	G01S   7/536	9	所望のエコー信号の抽出［６］	Extracting wanted echo signals [6]
+G01S   7/537  \	2	2	5J083	G01S   7/537	285	対抗手段または対対抗手段，例．妨害，対妨害［６］	Counter measures or counter-counter-measures, e.g. jamming, anti-jamming [6]
+G01S   7/539  \	2	2	5J083	G01S   7/539	45	対象物の特性評価のためのエコー信号の分析を用いるもの；対象物の特徴；対象物の断面積［６］	using analysis of echo signal for target characterisation; Target signature; Target cross-section [6]
+G01S   7/54  \	2	2	5J083	G01S   7/54	37	離れて設置された受信機をもつもの	with receivers spaced apart
+G01S   7/56  \	2	2	5J083	G01S   7/56	34	表示装置	Display arrangements
+G01S   7/56  A	2	0	5J083	G01S   7/56	110	音による表示	Indicating by sounds
+G01S   7/56  Z	2	0	5J083	G01S   7/56	263	その他のもの	Others
+G01S   7/58  \	3	3	5J083	G01S   7/58	100	可変距離範囲を備えたもの	for providing variable ranges
+G01S   7/60  \	3	3	5J083	G01S   7/60	11	永久記録を備えたもの	for providing a permanent recording
+G01S   7/60  A	3	0	5J083	G01S   7/60	175	記録器の構造	Structures of recorders
+G01S   7/60  Z	3	0	5J083	G01S   7/60	479	その他のもの	Others
+G01S   7/62  \	3	3	5J083	G01S   7/62	104	陰極線管表示	Cathode-ray tube displays
+G01S   7/62  A	3	0	5J083	G01S   7/62	486	水中探知機用のもの，例．探知情報表示装置	Of underwater detectors e.g. radar information display devices
+G01S   7/62  B	3	1	5J083	G01S   7/62	315	ＰＰＩ	PPI
+G01S   7/62  C	3	1	5J083	G01S   7/62	248	探知情報を経時的に配列して表示するもの	Indicating detected information after arranging in chronological orders
+G01S   7/62  D	3	0	5J083	G01S   7/62	156	断層像表示	Indicating cross sectional images
+G01S   7/62  Z	3	0	5J083	G01S   7/62	191	その他のもの	Others
+G01S   7/64  \	2	2	5J083	G01S   7/64	119	発光体指示（Ｇ０１Ｓ７／６２が優先）［５］	Luminous indications (G01S 7/62 takes precedence) [5]
+G01S  11/00  \	0	0	5J063	G01S  11/00	151	反射または再放射を使用しない距離または速度の測定方式（２以上の距離測定を組み合わせることによる位置決定Ｇ０１Ｓ５／００）［２］	Systems for determining distance or velocity not using reflection or reradiation (position-fixing by co-ordinating two or more distance determinations G01S 5/00) [2]
+G01S  11/02  \	1	1	5J063	G01S  11/02	552	電波を使用するもの（１９／００が優先）［５，２０１０．０１］	using radio waves (G01S 19/00&nbsp;takes precedence) [5,2010.01]
+G01S  11/04  \	2	2	5J063	G01S  11/04	23	角度測定を用いるもの［５］	using angle measurements [5]
+G01S  11/06  \	2	2	5J063	G01S  11/06	354	強度測定を用いるもの［５］	using intensity measurements [5]
+G01S  11/08  \	2	2	5J063	G01S  11/08	109	同期した時計を用いるもの［５］	using synchronised clocks [5]
+G01S  11/10  \	2	2	5J063	G01S  11/10	80	ドップラー効果を用いるもの［５］	using Doppler effect [5]
+G01S  11/12  \	1	1	5J063	G01S  11/12	307	電波以外の電磁波を使用するもの［５］	using electromagnetic waves other than radio waves [5]
+G01S  11/14  \	1	1	5J063	G01S  11/14	303	超音波，音波または亜音波を使用するもの［５］	using ultrasonic, sonic or infrasonic waves [5]
+G01S  11/16  \	1	1	5J063	G01S  11/16	215	電磁波と音波の伝播時間差を用いるもの［５］	using difference in transit time between electromagnetic and sonic waves [5]
+G01S  13/00  \	0	0	5J070	G01S  13/00	44	電波の反射または再放射を使用する方式，例．レーダ方式；波長または波の性質が無関係または不特定の波の反射または再放射を使用する類似の方式［３］	Systems using the reflection or reradiation of radio waves, e.g. radar systems; Analogous systems using reflection or reradiation of waves whose nature or wavelength is irrelevant or unspecified
+G01S  13/02  \	1	1	5J070	G01S  13/02	304	電波の反射を使用する方式，例．一次レーダ方式；類似の方式［３］	Systems using reflection of radio waves, e.g. primary radar systems; Analogous systems [3]
+G01S  13/04  \	2	2	5J070	G01S  13/04	685	対象物の存在を決定する方式（対象物の相対運動に基づくものＧ０１Ｓ１３／５６）［３］	Systems determining presence of a target (based on relative movement of target G01S 13/56) [3]
+G01S  13/06  \	2	2	5J070	G01S  13/06	386	対象物の位置データを決定する方式［３］	Systems determining position data of a target [3]
+G01S  13/08  \	3	3	5J070	G01S  13/08	232	距離のみを測定するための方式（間接的な測定Ｇ０１Ｓ１３／４６）［３］	Systems for measuring distance only (indirect measurement G01S 13/46) [3]
+G01S  13/10  \	4	4	5J070	G01S  13/10	590	断続的な，パルス変調波を送信するもの（位相測定による距離決定Ｇ０１Ｓ１３／３２）［２００６．０１］	using transmission of interrupted pulse modulated waves (determination of distance by phase measurement G01S13/32)
+G01S  13/12  \	5	5	5J070	G01S  13/12	78	パルスの送信とそれに先行したパルスのエコーの受信との間を所望の時間関係にするためにパルス繰返数を変えるもの［３］	wherein the pulse-recurrence frequency is varied to provide a desired time relationship between the transmission of a pulse and the receipt of the echo of a preceding pulse [3]
+G01S  13/14  \	5	5	5J070	G01S  13/14	18	パルス送信およびエコー受信のそれぞれに従って電圧パルスまたは電流パルスを始動および終止させるもの［３］	wherein a voltage or current pulse is initiated and terminated in accordance respectively with the pulse transmission and echo reception [3]
+G01S  13/16  \	6	6	5J070	G01S  13/16	36	計数器を使用するもの［３］	using counters [3]
+G01S  13/18  \	5	5	5J070	G01S  13/18	166	距離ゲートを使用するもの［３］	wherein range gates are used [3]
+G01S  13/20  \	5	5	5J070	G01S  13/20	68	基本掃引周期外エコーを使用するものまたは除去するもの［３］	whereby multiple time-around echos are used or eliminated [3]
+G01S  13/22  \	5	5	5J070	G01S  13/22	138	不規則なパルス繰返数を使用するもの［３］	using irregular pulse repetition frequency [3]
+G01S  13/24  \	5	5	5J070	G01S  13/24	157	搬送波の周波数アジリティを使用するもの［２００６．０１］	using frequency agility of carrier wave
+G01S  13/26  \	5	5	5J070	G01S  13/26	217	周波数または位相変調搬送波からなる送信パルスを使用するもの［３］	wherein the transmitted pulses use a frequency- or phase-modulated carrier wave [3]
+G01S  13/28  \	6	6	5J070	G01S  13/28	345	受信パルスを時間軸圧縮するもの［３］	with time compression of received pulses [3]
+G01S  13/28 200 \	7	7	5J070	G01S  13/28	537	周波数変調方式，例．パルス圧縮装置	Frequency modulating methods e.g. pulse compressing devices
+G01S  13/28 210 \	7	7	5J070	G01S  13/28	507	符号化方式，例．時間的圧縮符号化	Coding methods e.g. time compression coding
+G01S  13/30  \	5	5	5J070	G01S  13/30	94	レーダ周期毎に２以上のパルスを使用するもの［３］	using more than one pulse per radar period [3]
+G01S  13/32  \	4	4	5J070	G01S  13/32	356	振幅，周波数，もしくは位相が変調された，または無変調の，連続波を送信するもの［２００６．０１］	using transmission of continuous waves whether amplitude- frequency- or phase-modulated or unmodulated
+G01S  13/34  \	5	5	5J070	G01S  13/34	2813	周波数変調連続波を送信するとともに，受信信号，またはそれから導かれる信号を，同時に送信された信号に関連する局部発生信号とヘテロダインするもの［２００６．０１］	using transmission of continuous frequency-modulated waves while heterodyning the received signal or a signal derived therefrom with a locally-generated signal related to the contemporaneously transmitted signal
+G01S  13/36  \	5	5	5J070	G01S  13/36	239	受信信号と，同時に発生された送信信号との位相を比較するもの［３］	with phase comparison between the received signal and the contemporaneously transmitted signal [3]
+G01S  13/38  \	6	6	5J070	G01S  13/38	190	２以上の変調周波数を使用するもの［３］	wherein more than one modulation frequency is used [3]
+G01S  13/40  \	6	6	5J070	G01S  13/40	81	送信信号の周波数を調整して予定の位相関係にするもの［３］	wherein the frequency of transmitted signal is adjusted to give a predetermined phase relationship [3]
+G01S  13/42  \	3	3	5J070	G01S  13/42	601	距離とその他の座標との同時測定（間接的な測定Ｇ０１Ｓ１３／４６）［３］	Simultaneous measurement of distance and other coordinates (indirect measurement G01S 13/46) [3]
+G01S  13/44  \	4	4	5J070	G01S  13/44	714	モノパルスレーダ，すなわち同時ロービング［３］	Monopulse radar, i.e. simultaneous lobing [3]
+G01S  13/46  \	3	3	5J070	G01S  13/46	541	位置データの間接的な決定［３］	Indirect determination of position data [3]
+G01S  13/48  \	4	4	5J070	G01S  13/48	96	発射または受信に多重ビームを使用するもの［３］	using multiple beams at emission or reception [3]
+G01S  13/50  \	2	2	5J070	G01S  13/50	475	対象物の相対運動に基づく測定方式［３］	Systems of measurement based on relative movement of target [3]
+G01S  13/52  \	3	3	5J070	G01S  13/52	620	固定物体と移動物体の識別または異なる速度で移動する２以上の物体の識別［３］	Discriminating between fixed and moving objects or between objects moving at different speeds [3]
+G01S  13/522  \	4	4	5J070	G01S  13/522	82	断続パルス変調波を送信するもの［５］	using transmissions of interrupted pulse modulated waves [5]
+G01S  13/524  \	5	5	5J070	G01S  13/524	199	送信信号に関して物体の運動から生じる位相または周波数偏移に基づくもの，例．コヒーレントＭＴＩ［５］	based upon the phase or frequency shift resulting from movement of objects, with reference to the transmitted signals, e.g. coherent MTi [5]
+G01S  13/526  \	6	6	5J070	G01S  13/526	125	距離情報を失うことなく全スペクトルの濾波を行うもの，例．遅延線消去器またはくし型フィルタを用いるもの［２００６．０１］	performing filtering on the whole spectrum without loss of range information e.g. using delay line cancellers or comb filters
+G01S  13/528  \	7	7	5J070	G01S  13/528	74	不感速度を除去するもの［５］	with elimination of blind speeds [5]
+G01S  13/53  \	6	6	5J070	G01S  13/53	222	単一線スペクトルを濾波し，かつドップラー情報を抽出するために位相検波器あるいは周波数ミキサをもつ１つ以上の距離ゲートと関連するもの，例．パルスドップラーレーダ［５］	performing filtering on a single spectral line and associated with one or more range gates with a phase detector or a frequency mixer to extract the Doppler information, e.g. pulse Doppler radar [5]
+G01S  13/532  \	7	7	5J070	G01S  13/532	13	距離ゲート群または記憶マトリックスを用いるもの［５］	using a bank of range gates or a memory matrix [5]
+G01S  13/534  \	6	6	5J070	G01S  13/534	70	周囲のクラッタエコー信号に関して，物体の運動から生じる振幅または位相偏移に基づくもの，例．非コヒーレントＭＴＩ，クラッタ参照ＭＴＩ，外部コヒーレントＭＴＩ［５］	based upon amplitude or phase shift resulting from movement of objects, with reference to the surrounding clutter echo signal, e.g. non-coherent MT, clutter referenced MT, externally coherent MT [5]
+G01S  13/536  \	4	4	5J070	G01S  13/536	127	非変調連続波，振幅変調連続波，周波数変調連続波，または位相変調連続波を送信するもの［５］	using transmission of continuous unmodulated waves, amplitude-, frequency-, or phase-modulated waves [5]
+G01S  13/538  \	4	4	5J070	G01S  13/538	34	連続するアンテナ走査間で動かなかった物体を除去するもの，例．エリアＭＴＩ［５］	eliminating objects that have not moved between successive antenna scans, e.g. area MTi [5]
+G01S  13/56  \	4	4	5J070	G01S  13/56	716	存在探知のためのもの［３］	for presence detection [3]
+G01S  13/58  \	3	3	5J070	G01S  13/58	492	速度または軌道の決定方式；運動の方向の決定方式［３］	Velocity or trajectory determination systems; Sense-of-movement determination systems [3]
+G01S  13/58 200 \	4	4	5J070	G01S  13/58	588	距離と速度の同時測定に関するもの	Measuring distance and speed simultaneously
+G01S  13/58 210 \	4	4	5J070	G01S  13/58	433	ドップラー周波数の捕捉・追尾に関するもの	Capturing and tracing Doppler frequency
+G01S  13/60  \	4	4	5J070	G01S  13/60	38	送信機および受信機が移動物体上に装備されているもの，例．対地速度，偏流角，地上航跡を決定するためのもの（Ｇ０１Ｓ１３／６４が優先）［３］	wherein the transmitter and receiver are mounted on the moving object, e.g. for determining ground speed, drift angle, ground track (G01S 13/64 takes precedence) [3]
+G01S  13/60 200 \	5	5	5J070	G01S  13/60	373	車両搭載のもの	Mounted on vehicles
+G01S  13/60 202 \	6	6	5J070	G01S  13/60	257	他の移動体の速度検出	Detecting speeds of other moving objects
+G01S  13/60 210 \	5	5	5J070	G01S  13/60	58	航空機搭載のもの	Mounted on aircraft
+G01S  13/60 212 \	6	6	5J070	G01S  13/60	59	自機の速度検出	Detecting speed of its own
+G01S  13/60 214 \	6	6	5J070	G01S  13/60	21	他の移動体の速度検出	Detecting speed of other moving objects
+G01S  13/60 220 \	5	5	5J070	G01S  13/60	68	船舶搭載のもの	Mounted on boats
+G01S  13/62  \	4	4	5J070	G01S  13/62	182	運動の方向の決定［３］	Sense-of-movement determination [3]
+G01S  13/64  \	4	4	5J070	G01S  13/64	66	距離ゲートを使用する速度測定方式［３］	Velocity measuring systems using range gates [3]
+G01S  13/66  \	1	1	5J070	G01S  13/66	1763	レーダ追尾方式；類似の方式［３］	Radar-tracking systems; Analogous systems [3]
+G01S  13/68  \	2	2	5J070	G01S  13/68	276	角度のみを追尾するためのもの［３］	for angle tracking only [3]
+G01S  13/70  \	2	2	5J070	G01S  13/70	133	距離のみを追尾するためのもの［３］	for range tracking only [3]
+G01S  13/72  \	2	2	5J070	G01S  13/72	458	二次元追尾のためのもの，例．角度追尾と距離追尾の組合せ，トラック・ホワイル・スキャン・レーダ［３］	for two-dimensional tracking, e.g. combination of angle and range tracking, track-while-scan radar [3]
+G01S  13/74  \	1	1	5J070	G01S  13/74	2320	電波の再放射を使用する方式，例．二次レーダ方式；類似の方式［３，６］	Systems using reradiation of radio waves, e.g. secondary radar systems; Analogous systems [3,6]
+G01S  13/75  \	2	2	5J070	G01S  13/75	560	受信波から電力供給を受ける応答機を使用するもの，例．受動的応答機を使用するもの［６］	using transponders powered from received waves, e.g. using passive transponders [6]
+G01S  13/76  \	2	2	5J070	G01S  13/76	1422	パルス型信号を送信するもの［３］	wherein pulse-type signals are transmitted [3]
+G01S  13/78  \	3	3	5J070	G01S  13/78	533	異なる種類の対象物を識別するもの，例．ＩＦＦレーダ，すなわち，敵味方識別装置（Ｇ０１Ｓ１３／７５，Ｇ０１Ｓ１３／７９が優先）［３］	discriminating between different kinds of targets, e.g. IFF-radar, i.e. identification of friend or foe (G01S 13/75, G01S 13/79 takes precedence) [3]
+G01S  13/79  \	2	2	5J070	G01S  13/79	170	ランダム符号信号またはランダムパルス繰返数を使用する方式［６］	Systems using random coded signals or random pulse repetition frequencies [6]
+G01S  13/82  \	2	2	5J070	G01S  13/82	225	連続型信号を送信するもの［３］	wherein continuous-type signals are transmitted [3]
+G01S  13/82 200 \	3	3	5J070	G01S  13/82	253	応答周波数による対象物の識別	Discriminating targets by transponder frequencies
+G01S  13/84  \	3	3	5J070	G01S  13/84	170	位相測定により距離を決定するためのもの［３］	for distance determination by phase measurement [3]
+G01S  13/86  \	1	1	5J070	G01S  13/86	1597	レーダ方式と非レーダ方式，例．ソナー，方位測定機，との組合せ［３］	Combinations of radar systems with non-radar systems, e.g. sonar, direction finder [3]
+G01S  13/87  \	1	1	5J070	G01S  13/87	1324	レーダ方式，例．一次レーダと二次レーダ，の組合せ［３］	Combinations of radar systems, e.g. primary radar and secondary radar [3]
+G01S  13/88  \	1	1	5J070	G01S  13/88	678	特定の応用に特に適合したレーダ方式または類似の方式（対象物の電気磁気的探鉱または検出，例．近接磁場検知，Ｇ０１Ｖ３／００）［３，６］	Radar or analogous systems, specially adapted for specific applications (electromagnetic prospecting or detecting of objects, e.g. near-field detection, G01V 3/00) [3,6]
+G01S  13/88 200 \	2	2	5J070	G01S  13/88	1002	地中埋設物探査のためのもの	For searching objects buried in ground
+G01S  13/88 210 \	2	2	5J070	G01S  13/88	416	飛翔体誘導のためのもの	For guiding flying objects
+G01S  13/88 220 \	2	2	5J070	G01S  13/88	205	近接信管起爆のためのもの	For exploding a fuse nearby
+G01S  13/89  \	2	2	5J070	G01S  13/89	833	マッピングまたはイメージング用のもの［３］	for mapping or imaging [3]
+G01S  13/90  \	3	3	5J070	G01S  13/90	1018	合成開口技術を使用するもの［３，６］	using synthetic aperture techniques [3,6]
+G01S  13/90 105 \	4	4	5J070	G01S  13/90	12	合成開口レーダ［ＳＡＲ］信号の処理を光学的に行うもの	optical treatment of synthetic aperture radar [SAR] signal
+G01S  13/90 111 \	4	4	5J070	G01S  13/90	130	アジマス方向におけるＳＡＲ信号の処理を周波数領域で行うもの（Ｇ０１Ｓ１３／９０，１０５が優先）	treatment of SAR signal in azimuth direction being processed in frequency area (G01S13/90, 105 takes precedence)
+G01S  13/90 117 \	4	4	5J070	G01S  13/90	51	アジマス方向におけるＳＡＲ信号の処理を時間領域で行うもの（Ｇ０１Ｓ１３／９０，１０５が優先）	treatment of SAR signal in azimuth direction being processed in time area (G01S13/90, 105 takes precedence)
+G01S  13/90 123 \	4	4	5J070	G01S  13/90	16	モノパルスまたは干渉法との組合せ	combining mono-pulse and   interferometry
+G01S  13/90 125 \	5	5	5J070	G01S  13/90	12	モノパルス	mono-pulse
+G01S  13/90 127 \	5	5	5J070	G01S  13/90	183	干渉法，例．インターフェロメトリＳＡＲ	interferometry, e.g.  Interferometry SAR
+G01S  13/90 129 \	4	4	5J070	G01S  13/90	138	移動目標検出用に特に適合されたもの（ＭＩＴそのものＧ０１Ｓ１３／５２）	specially adapted to moving target detection (MIT per se G01S13/52)
+G01S  13/90 135 \	4	4	5J070	G01S  13/90	231	他に規定されない特殊ＳＡＲ処理技法	special SAR treatment not otherwise regulated
+G01S  13/90 138 \	5	5	5J070	G01S  13/90	25	スキャンＳＡＲ，サーチＳＡＲ	scan SAR, search SAR
+G01S  13/90 141 \	5	5	5J070	G01S  13/90	44	スクイントモード	squint mode
+G01S  13/90 147 \	5	5	5J070	G01S  13/90	18	ドップラービーム先鋭化モード	Doppler beam radical mode
+G01S  13/90 152 \	5	5	5J070	G01S  13/90	45	スポットライトモード	spotlight mode
+G01S  13/90 158 \	5	5	5J070	G01S  13/90	35	バイスタティックＳＡＲ	biostatic SAR
+G01S  13/90 164 \	5	5	5J070	G01S  13/90	155	逆合成開口レーダ［ＩＳＡＲ］	reverse synthetic aperture radar [ISAR]
+G01S  13/90 170 \	5	5	5J070	G01S  13/90	9	前方監視ＳＡＲ	front monitoring SAR
+G01S  13/90 176 \	5	5	5J070	G01S  13/90	70	ＳＡＲにおける偏波分析に特徴のあるもの，例．ポーラリメトリＳＡＲ	characterised by polarization analysis in SAR, e.g. polarimetry SAR
+G01S  13/90 182 \	5	5	5J070	G01S  13/90	31	回転ＳＡＲ［ＲＯＳＡＲ］，すなわち，アンテナが回転可能に取り付けられたもの	rotating SAR [RISAR], i.e. antenna rotatable attached
+G01S  13/90 188 \	5	5	5J070	G01S  13/90	6	円形ＳＡＲ［ＣＳＡＲ，Ｃ−ＳＡＲ］	circular SAR [CSAR, C-SAR]
+G01S  13/90 191 \	4	4	5J070	G01S  13/90	410	画像処理的側面	image processing side
+G01S  13/90 194 \	4	4	5J070	G01S  13/90	14	理論的側面	theoretical side
+G01S  13/91  \	2	2	5J070	G01S  13/91	471	交通制御用のもの（Ｇ０１Ｓ１３／９３が優先）［３］	for traffic control (G01S 13/93&nbsp;takes precedence) [3]
+G01S  13/91 200 \	3	3	5J070	G01S  13/91	417	航空機のためのもの，例．到着順位処理方法	For aircraft e.g. methods for processing arrival orders
+G01S  13/91 210 \	3	3	5J070	G01S  13/91	87	船舶のためのもの，例．船舶の航行案内装置	For boats e.g. navigating devices for boats
+G01S  13/92  \	3	3	5J070	G01S  13/92	90	速度測定のためのもの［３］	for velocity measurement [3]
+G01S  13/93  \	2	2	5J070	G01S  13/93	147	衝突防止目的のもの［２０２０．０１］	for anti-collision purposes [3]
+G01S  13/931  \	3	3	5J070	G01S  13/931	5597	陸上車両のもの［２０２０．０１］	of land vehicles
+G01S  13/933  \	3	3	5J070	G01S  13/933	150	航空機又は宇宙機のもの［２０２０．０１］	of aircraft or spacecraft
+G01S  13/934  \	4	4	5J070	G01S  13/934	20	空港地表でのもの，例．地上走行中のもの［２０２０．０１］	on airport surfaces e.g. while taxiing
+G01S  13/935  \	4	4	5J070	G01S  13/935	57	地形回避用のもの［２０２０．０１］	for terrain-avoidance
+G01S  13/937  \	3	3	5J070	G01S  13/937	372	船舶のもの［２０２０．０１］	of marine craft
+G01S  13/95  \	2	2	5J070	G01S  13/95	849	気象用のもの［３］	for meteorological use [3]
+G01S  15/00  \	0	0	5J083	G01S  15/00	132	音波の反射または再放射を使用する方式，例．ソナー方式［３］	Systems using the reflection or reradiation of acoustic waves, e.g. sonar systems [3]
+G01S  15/02  \	1	1	5J083	G01S  15/02	190	音波の反射を使用するもの（Ｇ０１Ｓ１５／６６が優先）［３］	using reflection of acoustic waves (G01S 15/66 takes precedence) [3]
+G01S  15/04  \	2	2	5J083	G01S  15/04	972	対象物の存在を決定する方式［３］	Systems determining presence of a target [3]
+G01S  15/06  \	2	2	5J083	G01S  15/06	446	対象物の位置データを決定する方式［３］	Systems determining position data of a target [3]
+G01S  15/08  \	3	3	5J083	G01S  15/08	913	距離のみを測定するための方式（間接的な測定Ｇ０１Ｓ１５／４６）［３］	Systems for measuring distance only (indirect measurement G01S 15/46) [3]
+G01S  15/10  \	4	4	5J083	G01S  15/10	863	断続的な，パルス変調波を送信するもの（位相測定による距離決定Ｇ０１Ｓ１５／３２）［２００６．０１］	using transmission of interrupted pulse-modulated waves (determination of distance by phase measurement G01S15/32)
+G01S  15/12  \	5	5	5J083	G01S  15/12	30	パルスの送信とそれに先行したパルスのエコーの受信との間を所望の時間関係にするために，パルス繰返数を変えるもの［３］	wherein the pulse-recurrence frequency is varied to provide a desired time relationship between the transmission of a pulse and the receipt of the echo of a preceding pulse [3]
+G01S  15/14  \	5	5	5J083	G01S  15/14	12	パルス送信およびエコー受信のそれぞれに従って，電圧パルスまたは電流パルスを始動および終止させるもの［３］	wherein a voltage or current pulse is initiated and terminated in accordance respectively with the pulse transmission and echo reception [3]
+G01S  15/18  \	5	5	5J083	G01S  15/18	64	距離ゲートを使用するもの［３］	wherein range gates are used [3]
+G01S  15/32  \	4	4	5J083	G01S  15/32	163	振幅，周波数，もしくは位相が変調された，または無変調の，連続波を送信するもの［２００６．０１］	using transmission of continuous waves whether amplitude- frequency- or phase-modulated or unmodulated
+G01S  15/34  \	5	5	5J083	G01S  15/34	63	周波数変調連続波を送信するとともに，受信信号，またはそれから導かれる信号を，同時に送信された信号に関連する局部発生信号とヘテロダインするもの［２００６．０１］	using transmission of continuous frequency-modulated waves while heterodyning the received signal or a signal derived therefrom with a locally-generated signal related to the contemporaneously transmitted signal
+G01S  15/36  \	5	5	5J083	G01S  15/36	31	受信信号と，同時に発生された送信信号との位相を比較するもの［３］	with phase comparison between the received signal and the contemporaneously transmitted signal [3]
+G01S  15/42  \	3	3	5J083	G01S  15/42	392	距離とその他の座標との同時測定（間接的な測定Ｇ０１Ｓ１５／４６）［３］	Simultaneous measurement of distance and other coordinates (indirect measurement G01S 15/46) [3]
+G01S  15/46  \	3	3	5J083	G01S  15/46	223	位置データの間接的な決定［３］	Indirect determination of position data [3]
+G01S  15/50  \	2	2	5J083	G01S  15/50	851	対象物の相対運動に基づく測定方式［３］	Systems of measurement based on relative movement of target [3]
+G01S  15/52  \	3	3	5J083	G01S  15/52	157	固定物体と移動物体の識別または異なる速度で移動する２以上の物体の識別［３］	Discriminating between fixed and moving objects or between objects moving at different speeds [3]
+G01S  15/58  \	3	3	5J083	G01S  15/58	186	速度または軌道の決定方式；運動の方向の決定方式［３］	Velocity or trajectory determination systems; Sense-of-movement determination systems [3]
+G01S  15/60  \	4	4	5J083	G01S  15/60	247	送信機および受信機が移動物体上に装備されているもの，例．対地速度，偏流角，地上航跡を決定するためのもの［３］	wherein the transmitter and receiver are mounted on the moving object, e.g. for determining ground speed, drift angle, ground track [3]
+G01S  15/62  \	4	4	5J083	G01S  15/62	31	運動の方向の決定［３］	Sense-of-movement determination [3]
+G01S  15/66  \	1	1	5J083	G01S  15/66	254	ソナー追尾方式［３］	Sonar tracking systems [3]
+G01S  15/74  \	1	1	5J083	G01S  15/74	385	音波の再放射を使用する方式，例．ＩＦＦ，すなわち敵味方識別装置［３］	Systems using reradiation of acoustic waves, e.g. IFF, i.e. identification of friend or foe [3]
+G01S  15/86  \	1	1	5J083	G01S  15/86	2104	ソナー方式とライダー方式との組合せ；ソナー方式と波の反射を用いないシステムとの組合せ［２０２０．０１］	Combinations of sonar systems with lidar systems; Combinations of sonar systems with systems not using wave reflection
+G01S  15/87  \	1	1	5J083	G01S  15/87	369	ソナー方式の組合せ［３］	Combinations of sonar systems [3]
+G01S  15/88  \	1	1	5J083	G01S  15/88	1083	特定の応用に特に適合したソナー方式（地震または音響による探鉱または検出Ｇ０１Ｖ１／００）［６］	Sonar systems, specially adapted for specific applications (seismic or acoustic prospecting or detecting G01V 1/00) [3,6]
+G01S  15/89  \	2	2	5J083	G01S  15/89	125	マッピングまたはイメージング用のもの［３］	for mapping or imaging [3]
+G01S  15/89  A	2	0	5J083	G01S  15/89	355	マッピング方式	Mapping methods
+G01S  15/89  B	2	0	5J083	G01S  15/89	996	イメージング方式	Imaging methods
+G01S  15/89  Z	2	0	5J083	G01S  15/89	63	その他	Others
+G01S  15/93  \	2	2	5J083	G01S  15/93	1891	衝突防止目的のもの［２０２０．０１］	for anti-collision purposes [3]
+G01S  15/931  \	3	3	5J083	G01S  15/931	1887	陸上車両のもの［２０２０．０１］	of land vehicles
+G01S  15/96  \	2	2	5J083	G01S  15/96	1403	魚群探知用のもの［３］	for locating fish [3]
+G01S  17/00  \	0	0	5J084	G01S  17/00	39	電波以外の電磁波の反射または再放射を使用する方式，例．ライダー方式［２０２０．０１］	Systems using the reflection or reradiation of electromagnetic waves other than radio waves, e.g. lidar systems [3]
+G01S  17/02  \	1	1	5J084	G01S  17/02	820	電波以外の電磁波の反射を使用する方式（Ｇ０１Ｓ１７／６６が優先）［２０２０．０１］	Systems using the reflection of electromagnetic waves other than radio waves (G01S 17/66 takes precedence) [3]
+G01S  17/04  \	2	2	5J084	G01S  17/04	3586	対象物の存在を決定する方式［２０２０．０１］	Systems determining the presence of a target
+G01S  17/06  \	2	2	5J084	G01S  17/06	390	対象物の位置データを決定する方式［３］	Systems determining position data of a target [3]
+G01S  17/08  \	3	3	5J084	G01S  17/08	1077	距離のみを測定するためのもの（間接的な測定Ｇ０１Ｓ１７／４６；アクティブ三角測量方式Ｇ０１Ｓ１７／４８）［３，８］	for measuring distance only (indirect measurement G01S 17/46; active triangulation systems G01S 17/48) [3,8]
+G01S  17/10  \	4	4	5J084	G01S  17/10	2357	断続的な，パルス変調波を送信するもの（位相測定による距離決定Ｇ０１Ｓ１７／３２）［２０２０．０１］	using transmission of interrupted pulse-modulated waves (determination of distance by phase measurements G01S17/32)
+G01S  17/14  \	5	5	5J084	G01S  17/14	95	パルス送信およびエコー受信のそれぞれに従って電圧パルスまたは電流パルスを始動および終止させるもの，例．計数器を使用するもの［２０２０．０１］	wherein a voltage or current pulse is initiated and terminated in accordance with the pulse transmission and echo reception respectively e.g. using counters
+G01S  17/18  \	5	5	5J084	G01S  17/18	160	距離ゲートを使用するもの［２０２０．０１］	wherein range gates are used
+G01S  17/26  \	5	5	5J084	G01S  17/26	110	周波数変調または位相変調搬送波からなる送信パルスを使用するもの，例．受信信号のパルス圧縮のためのもの［２０２０．０１］	wherein the transmitted pulses use a frequency-modulated or phase-modulated carrier wave e.g. for pulse compression of received signals
+G01S  17/32  \	4	4	5J084	G01S  17/32	473	振幅，周波数，もしくは位相が変調された，または無変調の，連続波を送信するもの［２０２０．０１］	using transmission of continuous waves whether amplitude- frequency- or phase-modulated or unmodulated
+G01S  17/34  \	5	5	5J084	G01S  17/34	335	周波数変調連続波を送信するとともに，受信信号，またはそれから導かれる信号を，同時に送信された信号に関連する局部発生信号とヘテロダインするもの［２０２０．０１］	using transmission of continuous frequency-modulated waves while heterodyning the received signal or a signal derived therefrom with a locally-generated signal related to the contemporaneously transmitted signal
+G01S  17/36  \	5	5	5J084	G01S  17/36	810	受信信号と，同時に発生された送信信号との位相を比較するもの［３］	with phase comparison between the received signal and the contemporaneously transmitted signal [3]
+G01S  17/42  \	3	3	5J084	G01S  17/42	813	距離とその他の座標との同時測定（間接的な測定Ｇ０１Ｓ１７／４６）［３］	Simultaneous measurement of distance and other coordinates (indirect measurement G01S 17/46) [3]
+G01S  17/46  \	3	3	5J084	G01S  17/46	208	位置データの間接的な決定［３］	Indirect determination of position data [3]
+G01S  17/48  \	4	4	5J084	G01S  17/48	341	アクティブ三角測量方式，すなわち電波以外の電磁波の送信および反射を使用する方式［８］	Active triangulation systems, i.e. using the transmission and reflection of electromagnetic waves other than radio waves [8]
+G01S  17/50  \	2	2	5J084	G01S  17/50	201	対象物の相対運動に基づく測定方式［３］	Systems of measurement based on relative movement of target [3]
+G01S  17/58  \	3	3	5J084	G01S  17/58	700	速度または軌道の決定方式；運動の方向の決定方式［３］	Velocity or trajectory determination systems; Sense-of-movement determination systems [3]
+G01S  17/66  \	1	1	5J084	G01S  17/66	514	電波以外の電磁波を使用する追尾方式［３］	Tracking systems using electromagnetic waves other than radio waves [3]
+G01S  17/74  \	1	1	5J084	G01S  17/74	195	電波以外の電磁波の再放射を使用する方式，例．ＩＦＦ，すなわち敵味方識別装置［３］	Systems using reradiation of electromagnetic waves other than radio waves, e.g. IFF, i.e. identification of friend or foe [3]
+G01S  17/86  \	1	1	5J084	G01S  17/86	823	ライダー方式と，ライダー，レーダ，ソナー以外の方式，例．方位測定機，との組合せ［２０２０．０１］	Combinations of lidar systems with systems other than lidar radar or sonar e.g. with direction finders
+G01S  17/87  \	1	1	5J084	G01S  17/87	702	電波以外の電磁波を使用する方式の組合せ［２０２０．０１］	Combinations of systems using electromagnetic waves other than radio waves [3]
+G01S  17/875  \	2	2	5J084	G01S  17/875	15	姿勢を決定するためのもの［２０２０．０１］	for determining attitude
+G01S  17/88  \	1	1	5J084	G01S  17/88	726	特定の応用に特に適合したライダー方式［３］	Lidar systems, specially adapted for specific applications [3]
+G01S  17/89  \	2	2	5J084	G01S  17/89	2915	マッピングまたはイメージング用のもの［２０２０．０１］	for mapping or imaging [6,8]
+G01S  17/894  \	3	3	5J084	G01S  17/894	950	２次元アレイの受信機画素での飛行時間の同時測定による３次元イメージング，例．飛行時間カメラ，又はフラッシュライダー［２０２０．０１］	3D imaging with simultaneous measurement of time-of-flight at a 2D array of receiver pixels e.g. time-of-flight cameras or flash lidar
+G01S  17/90  \	3	3	5J084	G01S  17/90	3	合成開口技術を使用するもの［２０２０．０１］	using synthetic aperture techniques
+G01S  17/93  \	2	2	5J084	G01S  17/93	3165	衝突防止目的のもの［２０２０．０１］	for anti-collision purposes [6,8]
+G01S  17/931  \	3	3	5J084	G01S  17/931	3854	陸上車両のもの［２０２０．０１］	of land vehicles
+G01S  17/933  \	3	3	5J084	G01S  17/933	116	航空機又は宇宙機のもの［２０２０．０１］	of aircraft or spacecraft
+G01S  17/95  \	2	2	5J084	G01S  17/95	441	気象用のもの［６，８］	for meteorological use [6,8]
+G01S  19/00  \	0	0	5J062	G01S  19/00	65	衛星電波ビーコン測位システム；当該システムから送信される信号を用いた，位置，速度または姿勢の決定［２０１０．０１］	Satellite radio beacon positioning systems; Determining position, velocity or attitude using signals transmitted by such systems [2010.01]
+G01S  19/01  \	1	1	5J062	G01S  19/01	45	タイムスタンプメッセージを送信する衛星電波ビーコン測位システム，例．ＧＰＳ　［Ｇｌｏｂａｌ　Ｐｏｓｉｔｉｏｎｉｎｇ　Ｓｙｓｔｅｍ］，　ＧＬＯＮＡＳＳ［Ｇｌｏｂａｌ　Ｏｒｂｉｔｉｎｇ　Ｎａｖｉｇａｔｉｏｎ　Ｓａｔｅｌｌｉｔｅ　Ｓｙｓｔｅｍ］　ｏｒ　ＧＡＬＩＬＥＯ［２０１０．０１］	Satellite radio beacon positioning systems transmitting time-stamped messages, e.g. GPS [Global Positioning System], GLONASS [Global Orbiting Navigation Satellite System] or GALILEO [2010.01]
+G01S  19/02  \	2	2	5J062	G01S  19/02	68	宇宙セグメントまたは地上コントロールセグメントの細部［２０１０．０１］	Details of the space or ground control segments [2010.01]
+G01S  19/03  \	2	2	5J062	G01S  19/03	137	協働要素；異なる協働要素間または協働要素と受信機との間の相互作用または通信［２０１０．０１］	Cooperating elements; Interaction or communication between different cooperating elements or between cooperating elements and receivers
+G01S  19/04  \	3	3	5J062	G01S  19/04	94	キャリア位相データを提供するもの［２０１０．０１］	providing carrier phase data [2010.01]
+G01S  19/05  \	3	3	5J062	G01S  19/05	459	補助情報を提供するもの［２０１０．０１］	providing aiding data [2010.01]
+G01S  19/06  \	4	4	5J062	G01S  19/06	158	補助情報として，もしくは，補助情報生成時に，受信機の初期推定位置を用いるもの［２０１０．０１］	employing an initial estimate of the location of the receiver as aiding data or in generating aiding data [2010.01]
+G01S  19/07  \	3	3	5J062	G01S  19/07	720	測定された位置データを補正する情報を提供するもの，例．ＤＧＰＳ　［Ｄｉｆｆｅｒｅｎｔｉａｌ　ＧＰＳ］，電離層補正［２０１０．０１］	providing data for correcting measured positioning data, e.g. DGPS [differential GPS] or ionosphere corrections [2010.01]
+G01S  19/08  \	3	3	5J062	G01S  19/08	130	インテグリティ情報，例．衛星の健全性，エフェメリスデータの品質，を提供するもの［２０１０．０１］	providing integrity information, e.g. health of satellites or quality of ephemeris data [2010.01]
+G01S  19/09  \	3	3	5J062	G01S  19/09	242	通常は受信機で行われる処理機能を提供するもの［２０１０．０１］	providing processing capability normally carried out by the receiver [2010.01]
+G01S  19/10  \	3	3	5J062	G01S  19/10	75	そのために特別に適合された補助的な測位信号を提供するもの［２０１０．０１］	providing dedicated supplementary positioning signals [2010.01]
+G01S  19/11  \	4	4	5J062	G01S  19/11	252	協働要素が擬似衛星，または衛星電波ビーコン測位システム信号のリピーターであるもの［２０１０．０１］	wherein the cooperating elements are pseudolites or satellite radio beacon positioning system signal repeaters [2010.01]
+G01S  19/12  \	4	4	5J062	G01S  19/12	266	協働要素が電話通信基地局であるもの［２０１０．０１］	wherein the cooperating elements are telecommunication base stations [2010.01]
+G01S  19/13  \	2	2	5J062	G01S  19/13	49	受信機［２０１０．０１］	Receivers [2010.01]
+G01S  19/14  \	3	3	5J062	G01S  19/14	3615	特定の応用に特に適合した受信機［２０１０．０１］	specially adapted for specific applications [2010.01]
+G01S  19/15  \	4	4	5J062	G01S  19/15	80	航空機着陸システム用［２０１０．０１］	Aircraft landing systems [2010.01]
+G01S  19/16  \	4	4	5J062	G01S  19/16	110	盗難誘拐対策用［２０１０．０１］	Anti-theft; Abduction [2010.01]
+G01S  19/17  \	4	4	5J062	G01S  19/17	317	緊急時用［２０１０．０１］	Emergency applications [2010.01]
+G01S  19/18  \	4	4	5J062	G01S  19/18	41	軍事用［２０１０．０１］	Military applications [2010.01]
+G01S  19/19  \	4	4	5J062	G01S  19/19	180	スポーツ用［２０１０．０１］	Sporting applications [2010.01]
+G01S  19/20  \	3	3	5J062	G01S  19/20	132	宇宙セグメントのインテグリティモニタリング，宇宙セグメントの障害検知もしくは障害分離［２０１０．０１］	Integrity monitoring, fault detection or fault isolation of space segment [2010.01]
+G01S  19/21  \	3	3	5J062	G01S  19/21	260	干渉を課題とするもの［２０１０．０１］	Interference related issues [2010.01]
+G01S  19/22  \	3	3	5J062	G01S  19/22	532	マルチパスを課題とするもの［２０１０．０１］	Multipath-related issues [2010.01]
+G01S  19/23  \	3	3	5J062	G01S  19/23	545	受信機要素の試験，監視，補正または較正［２０１０．０１］	Testing, monitoring, correcting or calibrating of a receiver element [2010.01]
+G01S  19/24  \	3	3	5J062	G01S  19/24	538	当該システムが送信する信号の捕捉または追尾［２０１０．０１］	Acquisition or tracking of signals transmitted by the system [2010.01]
+G01S  19/25  \	4	4	5J062	G01S  19/25	651	協働要素からの補助データの受信を含むもの，例．アシステッドＧＰＳ［２０１０．０１］	involving aiding data received from a cooperating element, e.g. assisted GPS [2010.01]
+G01S  19/26  \	4	4	5J062	G01S  19/26	127	捕捉または追尾を補助するセンサー測定を含むもの［２０１０．０１］	involving a sensor measurement for aiding acquisition or tracking [2010.01]
+G01S  19/27  \	4	4	5J062	G01S  19/27	176	受信機の中でエフェメリスまたはアルマナックデータを生成し，予測し，または補正するもの［２０１０．０１］	creating, predicting or correcting ephemeris or almanac data within the receiver [2010.01]
+G01S  19/28  \	4	4	5J062	G01S  19/28	542	衛星の選択［２０１０．０１］	Satellite selection [2010.01]
+G01S  19/29  \	4	4	5J062	G01S  19/29	273	キャリア関連［２０１０．０１］	carrier related [2010.01]
+G01S  19/30  \	4	4	5J062	G01S  19/30	473	コード関連［２０１０．０１］	code related [2010.01]
+G01S  19/31  \	3	3	5J062	G01S  19/31	45	測位のための他の信号の捕捉，追尾［２０１０．０１］	Acquisition or tracking of other signals for positioning [2010.01]
+G01S  19/32  \	3	3	5J062	G01S  19/32	150	同じ衛星システムでの多モード動作，例．ＧＰＳのＬ１とＬ２［２０１０．０１］	Multimode operation in a single same satellite system, e.g. GPS L1/L2 [2010.01]
+G01S  19/33  \	3	3	5J062	G01S  19/33	134	タイムスタンプメッセージを送信する異なるシステム間の多モード動作，例．ＧＰＳ／ＧＬＯＮＡＳＳ［２０１０．０１］	Multimode operation in different systems which transmit time stamped messages, e.g. GPS/GLONASS [2010.01]
+G01S  19/34  \	3	3	5J062	G01S  19/34	862	電力の節減［２０１０．０１］	Power consumption [2010.01]
+G01S  19/35  \	3	3	5J062	G01S  19/35	809	構成上の細部，または，信号処理系統のハードウェアもしくはソフトウェアの細部［２０１０．０１］	Constructional details or hardware or software details of the signal processing chain [2010.01]
+G01S  19/36  \	4	4	5J062	G01S  19/36	536	受信機フロントエンド関連［２０１０．０１］	relating to the receiver frond end [2010.01]
+G01S  19/37  \	4	4	5J062	G01S  19/37	637	信号処理系統のハードウェアもしくはソフトウェアの細部［２０１０．０１］	Hardware or software details of the signal processing chain [2010.01]
+G01S  19/38  \	1	1	5J062	G01S  19/38	78	衛星電波ビーコン測位システムの送信信号を用いた，航法解の決定［２０１０．０１］	Determining a navigation solution using signals transmitted by a satellite radio beacon positioning system [2010.01]
+G01S  19/39  \	2	2	5J062	G01S  19/39	39	衛星電波ビーコン測位システムがタイムスタンプメッセージを送信するもの，例．ＧＰＳ　［Ｇｌｏｂａｌ　Ｐｏｓｉｔｉｏｎｉｎｇ　Ｓｙｓｔｅｍ］，　ＧＬＯＮＡＳＳ　［Ｇｌｏｂａｌ　Ｏｒｂｉｔｉｎｇ　Ｎａｖｉｇａｔｉｏｎ　Ｓａｔｅｌｌｉｔｅ　Ｓｙｓｔｅｍ］　，　ＧＡＬＩＬＥＯ［２０１０．０１］	the satellite radio beacon positioning system transmitting time-stamped messages, e.g. GPS [Global Positioning System], GLONASS [Global Orbiting Navigation Satellite System] or GALILEO [2010.01]
+G01S  19/40  \	3	3	5J062	G01S  19/40	464	位置，速度または姿勢の補正［２０１０．０１］	Correcting position, velocity or attitude [2010.01]
+G01S  19/41  \	4	4	5J062	G01S  19/41	480	ディファレンシャル補正，例．ＤＧＰＳ［Ｄｉｆｆｅｒｅｎｔｉａｌ　ＧＰＳ］［２０１０．０１］	Differential correction, e.g. DGPS [differential GPS] [2010.01]
+G01S  19/42  \	3	3	5J062	G01S  19/42	669	位置の決定［２０１０．０１］	Determining position [2010.01]
+G01S  19/43  \	4	4	5J062	G01S  19/43	588	キャリア位相測定を用いるもの，例．キネマティック測位；長基線または短基線干渉を用いるもの［２０１０．０１］	using carrier phase measurements, e.g. kinematic positioning; using long or short baseline interferometry [2010.01]
+G01S  19/44  \	5	5	5J062	G01S  19/44	242	キャリア位相不確定の決定；フローティング・アンビギュイティ；ＬＡＭＢＤＡ［Ｌｅａｓｔ−ｓｑｕａｒｅｓ　ＡＭＢｉｇｕｉｔｙ　Ｄｅｃｏｒｒｅｌａｔｉｏｎ　Ａｄｊｕｓｔｍｅｎｔ］法［２０１０．０１］	Carrier phase ambiguity resolution; Floating ambiguity; LAMBDA [Least-squares AMBiguity Decorrelation Adjustment] method [2010.01]
+G01S  19/45  \	4	4	5J062	G01S  19/45	237	衛星電波ビーコン測位システムからの信号の測定を，補助的な測定と組み合わせるもの［２０１０．０１］	by combining measurements of signals from the satellite radio beacon positioning system with a supplementary measurement [2010.01]
+G01S  19/46  \	5	5	5J062	G01S  19/46	302	補助的な測定が電波信号を測定するタイプであるもの［２０１０．０１］	the supplementary measurement being of a radio-wave signal type [2010.01]
+G01S  19/47  \	5	5	5J062	G01S  19/47	352	補助的な測定が慣性測定であるもの，例．Ｔｉｇｈｔｌｙ　ｃｏｕｐｌｅｄ　ｉｎｅｒｔｉａｌ［２０１０．０１］	the supplementary measurement being an inertial measurement, e.g. tightly coupled inertial [2010.01]
+G01S  19/48  \	4	4	5J062	G01S  19/48	707	衛星電波ビーコン測位システムからの信号から引き出される位置解と，さらなるシステムからの位置解とを，切り替えまたは組み合わせるもの［２０１０．０１］	by combining or switching between position solutions derived from the satellite radio beacon positioning system and position solutions derived from a further system [2010.01]
+G01S  19/49  \	5	5	5J062	G01S  19/49	997	さらなるシステムが慣性測位システムであるもの，例．ｌｏｏｓｅｌｙ−ｃｏｕｐｌｅｄ［２０１０．０１］	whereby the further system is an inertial position system, e.g. loosely-coupled [2010.01]
+G01S  19/50  \	4	4	5J062	G01S  19/50	430	位置解が特定の曲線または表面上に制限されるもの，例．線路上を動く物体のための［２０１０．０１］	whereby the position solution is constrained to lie upon a particular curve or surface, e.g. for locomotives on railway tracks [2010.01]
+G01S  19/51  \	4	4	5J062	G01S  19/51	231	相対位置決定［２０１０．０１］	Relative positioning [2010.01]
+G01S  19/52  \	3	3	5J062	G01S  19/52	277	速度の決定［２０１０．０１］	Determining velocity [2010.01]
+G01S  19/53  \	3	3	5J062	G01S  19/53	230	姿勢の決定［２０１０．０１］	Determining attitude [2010.01]
+G01S  19/54  \	4	4	5J062	G01S  19/54	92	キャリア位相測定を用いるもの；長基線または短基線干渉［２０１０．０１］	using carrier phase measurements; using long or short baseline interferometry [2010.01]
+G01S  19/55  \	5	5	5J062	G01S  19/55	29	キャリア位相不確定の決定；フローティング・アンビギュイティ；ＬＡＭＢＤＡ［Ｌｅａｓｔ−ｓｑｕａｒｅｓ　ＡＭＢｉｇｕｉｔｙ　Ｄｅｃｏｒｒｅｌａｔｉｏｎ　Ａｄｊｕｓｔｍｅｎｔ］法［２０１０．０１］	Carrier phase ambiguity resolution; Floating ambiguity; LAMBDA [Least-squares AMBiguity Decorrelation Adjustment] method [2010.01]

@@ -1,0 +1,21 @@
+# 最適化版システムの依存関係
+# AsyncIO + Prompt Caching + 並列処理対応
+
+# Claude API (Vertex AI)
+anthropic[vertex]>=0.18.0
+
+# Google Cloud認証
+google-auth>=2.0.0
+google-cloud-aiplatform>=1.38.0
+
+# 非同期HTTP通信（HTTP/2対応）
+aiohttp>=3.9.0
+
+# リトライロジック（非同期対応）
+tenacity>=8.2.0
+
+# PDF処理（オプション）
+PyMuPDF>=1.23.0
+
+# その他
+requests>=2.31.0

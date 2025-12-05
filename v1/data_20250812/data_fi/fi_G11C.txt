@@ -1,0 +1,621 @@
+G11C   5/00  \	0	0	5L105	G11C   5/00	2988	Ｇ１１Ｃ１１／００に分類される記憶装置の細部	Details of stores covered by group G11C 11/00
+G11C   5/00 100 \	1	1	5L105	G11C   5/00	194	半導体記憶装置の情報の消失に対する保護回路（放射によるボンバードを使用して半導体を製造するものＨ０１Ｌ２１／２６；誤り検出，監視Ｇ０６Ｆ１１／００）	Protection circuits against loss of information of semiconductor storage devices (manufacturing semi-conductor by using bombardment with radiation H01L21/26; error detection, monitoring G06F11/00)
+G11C   5/02  \	1	1	5B073	G11C   5/02	42	記憶素子の配置，例．マトリックス配列におけるもの	Disposition of storage elements, e.g. in the form of a matrix array
+G11C   5/02 100 \	2	2	5L105	G11C   5/02	3707	半導体記憶装置におけるメモリセルおよび周辺回路の幾何学的レイアウト（集積回路における部品の幾何学的レイアウトＨ０１Ｌ２７／０２）	Geometric layout of memory cells and peripheral circuits in a semiconductor storage device (geometrical layout of the components in integrated circuits, H01L27/02)
+G11C   5/04  \	2	2	5B073	G11C   5/04	81	記憶素子のための支持体；そのような支持体への記録素子の取付けまたは固定	Supports for storage elements; Mounting or fixing of storage elements on such supports
+G11C   5/04 200 \	3	3	5L105	G11C   5/04	1390	メモリモジュール	Memory module
+G11C   5/04 210 \	4	4	5L105	G11C   5/04	751	ＲＯＭモジュール	ROM module
+G11C   5/04 220 \	4	4	5L105	G11C   5/04	1187	ＲＡＭモジュール	RAM module
+G11C   5/05  \	3	3	5B073	G11C   5/05	19	コアをマトリックス状に支持するもの［２］	Supporting of cores in matrix [2]
+G11C   5/06  \	1	1	5B073	G11C   5/06	32	記憶素子を電気的に相互結合する機構，例．ワイヤリング	Arrangements for interconnecting storage elements electrically, e.g. by wiring
+G11C   5/06 100 \	2	2	5L105	G11C   5/06	129	集積半導体メモリアクセス線，例．ワード線，ビット線における電圧および信号分配，伝搬遅延対策	Voltage and signal distribution in integrated semi-conductor memory access lines, e.g. word-lines, bit-lines, propagation delay countermeasures
+G11C   5/06 200 \	2	2	5L105	G11C   5/06	191	半導体メモリクリップ用外部アクセス線を削減するための手段，例．少なくともアドレスおよびデータ信号の多重化によるもの	Means for reducing external access-lines for a semiconductor memory clip, e.g. by multiplexing at least addresses and data signals
+G11C   5/08  \	2	2	5B073	G11C   5/08	10	磁気的素子を相互結合するためのもの，例．トロイダル磁心に対するもの	for interconnecting magnetic elements, e.g. toroidal cores
+G11C   5/10  \	2	2	5B073	G11C   5/10	0	コンデンサを相互結合するためのもの	for interconnecting capacitors
+G11C   5/12  \	1	1	5B073	G11C   5/12	38	記憶素子を相互結合するために用いる装置または方法，例．磁心に線を通すためのもの	Apparatus or processes for interconnecting storage elements, e.g. for threading magnetic cores
+G11C   5/14  \	1	1	5L105	G11C   5/14	5595	電力供給装置［２００６．０１］	Power supply arrangements [2006.01]
+G11C   5/14 100 \	2	2	5L105	G11C   5/14	1539	バッテリおよびバックアップ電源（バックアップ電源そのものＨ０２Ｊ９／０６）	Battery and back-up supplies (back-up supplies per se H02J9/06)
+G11C   5/14 200 \	2	2	5L105	G11C   5/14	14	無接点電源，例．無線，電磁誘導，赤外線（一般Ｈ０２Ｊ５／００）	Contactless power supplies, e.g. radio, electromagnetic induction, infrared ray radiation (in general H02J5/00)
+G11C   5/14 300 \	2	2	5L105	G11C   5/14	413	メモリカセット挿入／取出しの検出；電源およびアース線の導通チェック；電源変動／遮断／レベルの検出；代替電源間の切替え（Ｇ１１Ｃ５／１４，１００が優先）	Detection of memory cassette insertion/removal; Continuity checks of supply and ground lines; Detection of supply variations/interruptions/levels; Switching between alternative supplies (G11C5/14, 100 takes precedence)
+G11C   5/14 320 \	3	3	5L105	G11C   5/14	60	電力供給の予定された遮断または低下の検知	Detection of predetermined disconnection or reduction of power supply
+G11C   5/14 370 \	2	2	5L105	G11C   5/14	964	節電	Power saving
+G11C   5/14 400 \	2	2	5L105	G11C   5/14	1949	チャージポンプの応用；昇圧電圧回路；そのためのクランプ回路（Ｇ１１Ｃ５／１４，１００が優先）	Applications of charge pumps; Boosted voltage circuits; Clamp circuits therefor (G11C5/14, 100 takes precedence)
+G11C   5/14 420 \	3	3	5L105	G11C   5/14	959	基板バイアス発生器（Ｇ１１Ｃ５／１４，１００が優先）	Substrate bias generators (G11C5/14, 100 takes precedence)
+G11C   5/14 500 \	2	2	5L105	G11C   5/14	1211	電圧基準発生器，電圧および電流調整器；内部で低下させた電源レベル；電圧低下に対する補償（Ｇ１１Ｃ５／１４，１００が優先）	Voltage reference generators, voltage and current regulators; Internally lowered supply level; Compensation for voltage drops (G11C5/14, 100 takes precedence)
+G11C   5/14 550 \	2	2	5L105	G11C   5/14	66	昇圧または降圧回路，スタンバイ回路または復帰回路の細部	Details of power up or power down circuits, standby circuits or recovery circuits
+G11C   7/00  \	0	0	5B094	G11C   7/00	2291	デジタル記憶装置に情報を書き込みまたはデジタル記憶装置から情報を読み出す機構（Ｇ１１Ｃ５／００が優先；半導体装置を用いた記憶のための周辺記憶回路Ｇ１１Ｃ１１／４０６３，Ｇ１１Ｃ１１／４１３，Ｇ１１Ｃ１１／４１９３）［２，５］	Arrangements for writing information into, or reading information out from, a digital store (G11C 5/00 takes precedence; auxiliary circuits for stores using semiconductor devices G11C 11/4063, G11C 11/413, G11C 11/4193) [2,5]
+G11C   7/02  \	1	1	5B094	G11C   7/02	11	寄生信号を回避する手段をもつもの	with means for avoiding parasitic signals
+G11C   7/04  \	1	1	5B094	G11C   7/04	343	温度の影響に基づく障害を除去する手段をもつもの	with means for avoiding disturbances due to temperature effects
+G11C   7/06  \	1	1	5B094	G11C   7/06	1683	センス増幅器；関連回路［２００６．０１］	Sense amplifiers; Associated circuits [2006.01]
+G11C   7/06 110 \	2	2	5B094	G11C   7/06	446	非保持式差動増幅器，例．コンパレータ，ロングテール対	Differential amplifiers of non-latching type, e.g. comparators, long-tailed pairs
+G11C   7/06 120 \	2	2	5B094	G11C   7/06	632	保持式差動増幅器	Differential amplifiers of latching type
+G11C   7/06 130 \	2	2	5B094	G11C   7/06	336	シングルエンド増幅器	Single-ended amplifiers
+G11C   7/08  \	2	2	5B094	G11C   7/08	103	その制御［７］	Control thereof [7]
+G11C   7/10  \	1	1	5B094	G11C   7/10	3279	入力／出力（Ｉ／Ｏ）データ・インターフェイス装置，例．Ｉ／Ｏデータ制御回路，Ｉ／Ｏデータバッファ［２００６．０１］	Input/output [I/O] data interface arrangements, e.g. I/O data control circuits, I/O data buffers [2006.01]
+G11C   7/10 100 \	2	2	5B094	G11C   7/10	65	デイジーチェーンまたはリングバスメモリ機構のためのインターフェイス回路	Interface circuits for daisy chain or ring bus memory arrangements
+G11C   7/10 150 \	2	2	5B094	G11C   7/10	1727	データ管理，例．書込みまたは読出し前のデータを操作するもの；データバススイッチまたはそのための制御回路	Data management, e.g. manipulating data before writing or reading out, data bus switches or control circuits therefor
+G11C   7/10 152 \	3	3	5B094	G11C   7/10	77	入出力時のデータマスキング	Data masking during input/output
+G11C   7/10 154 \	3	3	5B094	G11C   7/10	32	入出力時のデータの並び換え，例．クロスバー，マルチプレクサの縦続接続，シフトまたはローテーション	Data reordering during input/output, e.g. crossbars, cascade arrangement of multiplexers, shifting or rotation
+G11C   7/10 200 \	2	2	5B094	G11C   7/10	0	単一ポートメモリ向け読取り−書込みモード，すなわち，ランダムポートまたはシリアルポートのいずれかを有するもの	Read-write modes for single port memories, i.e. having either a random port or a serial port
+G11C   7/10 210 \	3	3	5B094	G11C   7/10	684	シリアルビット線アクセスモード，例．ビット線アドレスシフトレジスタ，ビット線アドレスカウンタ，ビット線バーストカウンタを使用するもの	Serial bit line access mode, e.g. using bit line address shift registers, bit line address counters, bit line burst counters
+G11C   7/10 212 \	4	4	5B094	G11C   7/10	428	ページシリアルビット線アクセスモード，すなわち，関連ワード線アドレスを伴う使用可能ロウアドレスストロークパルス，およびそれぞれが関連ビット線アドレスを伴う使用可能カラムアドレスストロークパルス系列を使用するもの	Page serial bit line access mode, i.e. using an enabled row address stroke pulse with its associated word line address and a sequence of usable column address stroke pulses each with its associated bit line address
+G11C   7/10 214 \	4	4	5B094	G11C   7/10	39	延長データ出力（ＥＤＯ）モード，すなわち，長期間にわたり出力バッファを使用可能状態に維持するもの	Extended data output [EDO] mode, i.e. keeping output buffer usable during an extended period of time
+G11C   7/10 216 \	4	4	5B094	G11C   7/10	109	静的カラムデコードシリアルビット線アクセスモード，すなわち，関連ワード線アドレスを伴う使用可能ロウアドレスストロークパルスおよび使用可能ビット線アドレス系列を使用するもの	Static column decode serial bit line access mode, i.e. using a usable row address stroke pulse with its associated word line address and a sequence of usable bit line addresses
+G11C   7/10 220 \	3	3	5B094	G11C   7/10	1	直列にアドレス指定された読取り−書込みデータレジスタを使用するもの（Ｇ１１Ｃ７／１０，２３０が優先）	using serially addressed read-write data registers (G11C7/10, 230 takes precedence)
+G11C   7/10 226 \	4	4	5B094	G11C   7/10	122	所定数の段階から連続的にデータを出力するために１つの段階のみをアドレス指定するデータレジスタを使用するもの，例．ニブル読取り−書込みモード	using data registers of which only one stage is addressed for sequentially outputting data from a predetermined number of stages, e.g. nibble read-write mode
+G11C   7/10 230 \	3	3	5B094	G11C   7/10	340	データシフトレジスタを使用するもの	using data shift registers
+G11C   7/10 240 \	3	3	5B094	G11C   7/10	556	パイプライン技術を使用するもの，すなわち，機能部間のラッチを使用するもの，例．ロウ／カラムデコーダ，Ｉ／Ｏバッファ，センス増幅器	using pipelining techniques, i.e. using latches between functional parts, e.g. row/column decoders, I/O buffers, sense amplifiers
+G11C   7/10 250 \	3	3	5B094	G11C   7/10	47	インタリーブ技術を使用するもの，すなわち，メモリの１つの部分を準備する間に実施する別の部分の読取り−書込み	using interleaving techniques, i.e. read-write of one part of the memory while preparing another part
+G11C   7/10 260 \	3	3	5B094	G11C   7/10	5	読取り−書込みモード選択回路	Read-write mode selection circuits
+G11C   7/10 300 \	2	2	5B094	G11C   7/10	806	データバス制御回路，例．プリチャージ，プリセット，等化	Data bus control circuits, e.g. precharging, presetting, equalizing
+G11C   7/10 400 \	2	2	5B094	G11C   7/10	219	データ出力回路，例．読出し増幅器，データ出力バッファ，データ出力レジスタ，データ出力レベル変換回路	Data output circuits, e.g. read-out amplifiers, data output buffers, data output registers, data output level conversion circuits
+G11C   7/10 405 \	3	3	5B094	G11C   7/10	1726	データ出力バッファ，例．レベル変換回路，適応的ロード回路を含むもの	Data output buffers, e.g. comprising level conversion circuits, circuits for adapting load
+G11C   7/10 415 \	3	3	5B094	G11C   7/10	107	データ出力ラッチ	Data output latches
+G11C   7/10 420 \	3	3	5B094	G11C   7/10	23	制御信号の出力回路，例．ステータスまたはビジーフラグ，コマンド信号のフィードバック	Control signal output circuits, e.g. status or busy flags, feedback of command signals
+G11C   7/10 425 \	3	3	5B094	G11C   7/10	7	出力の同期化	Output synchronization
+G11C   7/10 450 \	3	3	5B094	G11C   7/10	187	ＩＯ線の読み出し機構	I/O lines read out arrangements
+G11C   7/10 455 \	2	2	5B094	G11C   7/10	3003	クロック信号パルス列に同期させたランダムアクセスポートを有するメモリ用のもの，例．同期メモリ，自己タイミング合わせメモリ	for memories with random access ports synchronized on clock signal pulse trains, e.g. synchronous memories, self timed memories
+G11C   7/10 460 \	3	3	5B094	G11C   7/10	918	ＤＤＲ	DDR
+G11C   7/10 480 \	2	2	5B094	G11C   7/10	2601	それぞれがランダムアクセスポートとシリアルポートとを有する多ポートメモリ用のもの，例．ビデオＲＡＭ	for multiport memories each having random access ports and serial ports, e.g. video RAM
+G11C   7/10 500 \	2	2	5B094	G11C   7/10	25	データ入力回路，例．書込み増幅器，データ入力バッファ，データ入力レジスタ，データ入力レベル変換回路	Data input circuits, e.g. write amplifiers, data input buffers, data input registers, data input level conversion circuits
+G11C   7/10 505 \	3	3	5B094	G11C   7/10	763	データ入力バッファ，例．レベル変換回路，適応的ロード回路を含むもの	Data input buffers, e.g. comprising level conversion circuits, circuits for adapting load
+G11C   7/10 510 \	3	3	5B094	G11C   7/10	58	データ入力ラッチ	Data input latches
+G11C   7/10 515 \	3	3	5B094	G11C   7/10	609	制御信号の入力回路	Control signal input circuits
+G11C   7/10 520 \	3	3	5B094	G11C   7/10	8	入力の同期化	Input synchronization
+G11C   7/10 525 \	3	3	5B094	G11C   7/10	246	書き込み回路，例．ＩＯ線のライトドライバ	Write circuits, e.g. I/O line write drivers
+G11C   7/12  \	1	1	5B094	G11C   7/12	2489	ビット線制御回路，例．ビット線用の，ドライバ，ブースター，プルアップ回路，プルダウン回路，プリチャージング回路，等化回路［７］	Bit line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, equalizing circuits, for bit lines [7]
+G11C   7/14  \	1	1	5B094	G11C   7/14	1286	ダミーセル管理；センス用リファレンス電圧発生回路［７］	Dummy cell management; Sense reference voltage generating circuits [7]
+G11C   7/16  \	1	1	5B094	G11C   7/16	204	アナログ／デジタル（Ａ／Ｄ）変換器，デジタルメモリ，およびデジタル／アナログ（Ｄ／Ａ）変換器から成る装置を使った，デジタル記憶装置へのアナログ信号の記憶［７］	Storage of analogue signals in digital storage using an arrangement comprising analogue/digital (A/D) converters, digital memories and digital/analogue (D/A) converters [7]
+G11C   7/18  \	1	1	5B094	G11C   7/18	1155	ビット線構成；ビット線配置［７］	Bit line organization; Bit line layout [7]
+G11C   7/20  \	1	1	5B094	G11C   7/20	1397	メモリセル初期化回路，例．パワーアップしたとき，またはパワーダウンしたときの，メモリ・クリア，潜在イメージ・メモリ［７］	Memory cell initialization circuits, e.g. when powering up or down, memory clear, latent image memory [7]
+G11C   7/22  \	1	1	5B094	G11C   7/22	382	読出し−書込み［Ｒ−Ｗ］のタイミング，またはクロック回路；読出し−書込み［Ｒ−Ｗ］制御信号発生器または管理［７］	Read-write [R-W] timing or clocking circuits; Read-write [R-W] control signal generators or management [7]
+G11C   7/22 100 \	2	2	5B094	G11C   7/22	2683	メモリ装置内のクロック生成回路，クロック同期回路，クロック分配回路	Clock generating, synchronizing or distributing circuits within memory devices
+G11C   7/22 200 \	2	2	5B094	G11C   7/22	14	クロック入力バッファ	Clock input buffers
+G11C   7/22 300 \	2	2	5B094	G11C   7/22	553	ダミーメモリ素子またはレプリカ回路に基づくメモリ操作のタイミング	Timing of memory operations based on dummy memory elements or replica circuits
+G11C   7/24  \	1	1	5B094	G11C   7/24	277	メモリ・セルの安全回路または保護回路，例．不注意な読出しまたは書込みを防ぐ装置，ステータス・セル；テスト・セル［７］	Memory cell safety or protection circuits, e.g. arrangements for preventing inadvertent reading or writing; Status cells; Test cells [7]
+G11C   8/00  \	0	0	5B094	G11C   8/00	588	デジタル記憶装置のアドレスを選択する機構（Ｇ１１Ｃ１１／００〜Ｇ１１Ｃ１７／００が優先；半導体装置を用いた記憶装置のための回路Ｇ１１Ｃ１１／４０６３，Ｇ１１Ｃ１１／４１３，Ｇ１１Ｃ１１／４１９３）［２，５］	Arrangements for selecting an address in a digital store (G11C11/00 to G11/C17/00 take precedence; circuits for stores using semiconductor devices G11C 11/4063, G11C 11/413, G11C 11/4193) [2,5]
+G11C   8/02  \	1	1	5B094	G11C   8/02	102	選択マトリックスを用いるもの［２］	using selecting matrix [2]
+G11C   8/04  \	1	1	5B094	G11C   8/04	343	順次アドレシング装置を用いるもの，例．シフトレジスタ，カウンタ［２００６．０１］	using a sequential addressing device, e.g. shift register, counter [2006.01]
+G11C   8/06  \	1	1	5B094	G11C   8/06	15	アドレス・インターフェイス装置，例．アドレス・バッファ［２００６．０１］	Address interface arrangements, e.g. address buffers [2006.01]
+G11C   8/06 100 \	2	2	5B094	G11C   8/06	288	アドレス・バッファ	Address buffers
+G11C   8/08  \	1	1	5B094	G11C   8/08	617	ワード線制御回路，例．ワード線用のドライバ，ブースター，プルアップ回路，プルダウン回路，プリチャージ回路［７］	Word line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, for word lines [7]
+G11C   8/10  \	1	1	5B094	G11C   8/10	948	デコーダ［７］	Decoders [7]
+G11C   8/12  \	1	1	5B094	G11C   8/12	40	グループ選択回路，例．メモリブロック選択，チップ選択，アレイ選択用の［７］	Group selection circuits, e.g. for memory block selection, chip selection, array selection [7]
+G11C   8/12 200 \	2	2	5B094	G11C   8/12	318	チップ選択回路	Chip selection circuits
+G11C   8/14  \	1	1	5B094	G11C   8/14	117	ワードライン構成；ワードライン配置［７］	Word line organization; Word line layout [7]
+G11C   8/16  \	1	1	5B094	G11C   8/16	999	マルチ・アクセス・メモリ・アレイ，例．少なくとも二つの独立したアドレス・ライン・グループによって，一つの記憶素子をアドレス選択するもの［７］	Multiple access memory array, e.g. addressing one storage element via at least two independent addressing line groups [7]
+G11C   8/18  \	1	1	5B094	G11C   8/18	9	アドレス・タイミング，またはクロック回路；アドレス制御信号の発生または管理，例．ロウアドレス・ストローブ信号またはカラムアドレス・ストローブ信号のためのもの［７］	Address timing or clocking circuits; Address control signal generation or management, e.g. for row address strobe [RAS] or column address strobe [CAS] signals [7]
+G11C   8/20  \	1	1	5B094	G11C   8/20	45	アドレス安全回路または保護回路，すなわち，不正アクセスまたは誤ったアクセスを防止する装置［７］	Address safety or protection circuits, i.e. arrangements for preventing unauthorized or accidental access [7]
+G11C  11/00  \	0	0	5B073	G11C  11/00	44	特定の電気的または磁気的記憶素子の使用によって特徴づけられたデジタル記憶装置；そのための記憶素子（Ｇ１１Ｃ１４／００〜Ｇ１１Ｃ２１／００が優先）［５］	Digital stores characterised by the use of particular electric or magnetic storage elements; Storage elements therefor (G11C 14/00-G11C 21/00 take precedence);;
+G11C  11/00 100 \	1	1	5B094	G11C  11/00	95	結合されてはいるが独立して動作するＲＡＭ−ＲＯＭ，ＲＡＭ−ＰＲＯＭ，ＲＡＭ−ＥＰＲＯＭセルから成るもの	comprising combined but independently operative RAM-ROM, RAM-PROM, RAM-EPROM cells
+G11C  11/02  \	1	1	5B073	G11C  11/02	1249	磁気的素子を用いるもの	using magnetic elements
+G11C  11/04  \	2	2	5B073	G11C  11/04	4	シリンダ状の記憶素子，例．ロッド，ワイヤを用いるもの（Ｇ１１Ｃ１１／１２，Ｇ１１Ｃ１１／１４が優先）［２］	using storage elements having cylindrical form, e.g. rod, wire (G11C 11/12, G11C 11/14 take precedence) [2]
+G11C  11/06  \	2	2	5B073	G11C  11/06	36	単一記憶素子を用いるもの，例．トロイダル磁心；多孔板を用い，それぞれの孔が一つの記憶素子を構成するもの	using single-aperture storage elements, e.g. ring core; using multi-aperture plates in which each individual aperture forms a storage element
+G11C  11/061  \	3	3	5B073	G11C  11/061	1	１素子で１ビットを記憶し，破壊読出しを行なうための単一の孔または磁気ループを有する素子を用いるもの［２］	using elements with single aperture or magnetic loop for storage of one element per bit, and for destructive read-out [2]
+G11C  11/063  \	4	4	5B073	G11C  11/063	0	２Ｌ／２Ｄ，３Ｄオーガニゼイションのようにビットが組織化されたもの，すなわち書込みと読出しにあたり少なくとも２つの一致した局部電流により１つの記憶素子を選択するために組織化されたもの［２］	bit-organized, such as, 2L/2D-, 3D-organization, i.e. for selection of an element by means of at least two coincident partial currents both for reading and for writing [2]
+G11C  11/065  \	4	4	5B073	G11C  11/065	1	２Ｄオーガニゼイションまたはリニヤ選択のようにワードが組織化されたもの，すなわち単独の十分な読出し電流により１ワード分の全記憶素子を選択するために組織化されたもの［２］	word-organized, such as 2D-organization, or linear selection, i.e. for selection of all the elements of a word by means of a single full current for reading [2]
+G11C  11/067  \	3	3	5B073	G11C  11/067	12	１素子で１ビットを記憶し，非破壊読出しを行なうための単一の孔または磁気ループを有する素子を用いるもの［２］	using elements with single aperture or magnetic loop for storage of one element per bit, and for non-destructive read-out [2]
+G11C  11/08  \	2	2	5B073	G11C  11/08	95	多孔記憶素子を用いるもの，例．トランスフラクサを用いるもの；複数個の独立した多孔記憶素子を組み込んだ板状体を用いるもの（Ｇ１１Ｃ１１／１０が優先）［２００６．０１］	using multi-aperture storage elements, e.g. using transfluxors; using plates incorporating several individual multi-aperture storage elements (G11C 11/10 takes precedence) [2006.01]
+G11C  11/10  \	2	2	5B073	G11C  11/10	0	多軸記憶素子を用いるもの	using multi-axial storage elements
+G11C  11/12  \	2	2	5B073	G11C  11/12	1	テンサーを用いるもの；トゥイスタを用いるもの，すなわち一方の磁化軸がねじられているもの	using tensors; using twistors, i.e. elements in which one axis of magnetisation is twisted
+G11C  11/14  \	2	2	5B002	G11C  11/14	6193	薄膜素子を用いるもの	using thin-film elements
+G11C  11/15  \	3	3	5B073	G11C  11/15	39	多層の磁性層を用いるもの（Ｇ１１Ｃ１１／１５５が優先）［２］	using multiple magnetic layers (G11C 11/155 takes precedence) [2]
+G11C  11/155  \	3	3	5B073	G11C  11/155	591	シリンダー状の形状を有するもの［２］	with cylindrical configuration [2]
+G11C  11/16  \	2	2	5B073	G11C  11/16	218	記憶作用が磁気的スピン効果に基づいている素子を用いるもの	using elements in which the storage effect is based on magnetic spin effect
+G11C  11/16 100 \	3	3	5B073	G11C  11/16	10	メモリセル構造に関するもの	related to memory cell structure
+G11C  11/16 100 A	3	0	5B073	G11C  11/16	480	薄膜構造に関するもの	related to thin film structure
+G11C  11/16 100 C	3	0	5B073	G11C  11/16	365	磁壁移動を伴うもの	with the movement of magnetic wall
+G11C  11/16 100 Z	3	0	5B073	G11C  11/16	1140	その他	Others
+G11C  11/16 200 \	3	3	5B073	G11C  11/16	240	周辺回路	Auxiliary circuits
+G11C  11/16 210 \	4	4	5B073	G11C  11/16	28	アドレス回路またはアドレスデコーダ	Address circuits or address decoders
+G11C  11/16 212 \	5	5	5B073	G11C  11/16	183	ビット線またはカラム回路	Bit lines or column circuits
+G11C  11/16 214 \	5	5	5B073	G11C  11/16	247	ワード線またはロウ回路	Word lines or row circuits
+G11C  11/16 220 \	4	4	5B073	G11C  11/16	133	セル選択	Cell selection
+G11C  11/16 230 \	4	4	5B073	G11C  11/16	1147	読み出し，センシングの回路または方法	Reading or sensing circuits or methods
+G11C  11/16 240 \	4	4	5B073	G11C  11/16	1434	書き込み，プログラミングの回路または方法	Writing or programming circuits or methods
+G11C  11/16 250 \	4	4	5B073	G11C  11/16	69	ベリファイ回路または方法	Verifying circuits or methods
+G11C  11/16 260 \	4	4	5B073	G11C  11/16	134	タイミング回路または方法	Timing circuits or methods
+G11C  11/16 280 \	4	4	5B073	G11C  11/16	32	保護回路または方法	Protection circuits or methods
+G11C  11/16 290 \	4	4	5B073	G11C  11/16	85	電力供給回路	Electric power supply circuits
+G11C  11/18  \	1	1	5B067	G11C  11/18	48	ホール効果素子を用いるもの	using Hall-effect devices
+G11C  11/19  \	1	1	5B067	G11C  11/19	4	共振回路における非線形誘導素子を用いるもの［２］	using non-linear reactive devices in resonant circuits [2]
+G11C  11/20  \	2	2	5B067	G11C  11/20	3	パラメトロンを用いるもの［２］	using parametrons [2]
+G11C  11/21  \	1	1	5B067	G11C  11/21	53	電気的素子を用いるもの［２］	using electric elements [2]
+G11C  11/22  \	2	2	5B067	G11C  11/22	102	強誘電体素子を用いるもの［２］	using ferroelectric elements [2]
+G11C  11/22 110 \	3	3	5B067	G11C  11/22	647	強誘電体キャパシタを使用するもの	using ferroelectric capacitors
+G11C  11/22 120 \	3	3	5B067	G11C  11/22	215	強誘電体ゲート絶縁膜を有するＭＯＳを使用するもの	using MOS with ferroelectric gate insulating film
+G11C  11/22 200 \	3	3	5B067	G11C  11/22	466	周辺回路	Auxiliary circuits
+G11C  11/22 210 \	4	4	5B067	G11C  11/22	10	アドレス回路またはアドレスデコーダ	Address circuits or address decoders
+G11C  11/22 212 \	5	5	5B067	G11C  11/22	273	ビット線またはカラム回路	Bit lines or column circuits
+G11C  11/22 214 \	6	6	5B067	G11C  11/22	135	プリチャージ，ディスチャージ，イコライズ回路	Precharge, discharge, equalizing circuits
+G11C  11/22 216 \	5	5	5B067	G11C  11/22	146	ワード線またはロウ回路	Word lines or row circuits
+G11C  11/22 218 \	5	5	5B067	G11C  11/22	307	プレート線回路	Plate line circuits
+G11C  11/22 220 \	4	4	5B067	G11C  11/22	39	セル選択	Cell selection
+G11C  11/22 230 \	4	4	5B067	G11C  11/22	227	読み出し，センシングの回路または方法	Reading or sensing circuits or methods
+G11C  11/22 232 \	5	5	5B067	G11C  11/22	215	センスアンプ	Sense amplifier
+G11C  11/22 234 \	5	5	5B067	G11C  11/22	274	参照電圧発生回路，例．ダミー・セル	Reference voltage generating circuits, e.g. dummy cells
+G11C  11/22 240 \	4	4	5B067	G11C  11/22	224	書き込み，プログラミングの回路または方法	Writing or programming circuits or methods
+G11C  11/22 250 \	4	4	5B067	G11C  11/22	9	ベリファイ回路または方法	Verifying circuits or methods
+G11C  11/22 260 \	4	4	5B067	G11C  11/22	84	タイミング回路または方法	Timing circuits or methods
+G11C  11/22 270 \	4	4	5B067	G11C  11/22	47	劣化，保持力，消耗の評価	Evaluation of degradation, retention or wearout
+G11C  11/22 280 \	4	4	5B067	G11C  11/22	20	保護回路または方法	Protection circuits or methods
+G11C  11/22 290 \	4	4	5B067	G11C  11/22	36	電力供給回路	Electric power supply circuits
+G11C  11/23  \	2	2	5B067	G11C  11/23	30	１つの共通層上の静電記憶を用いるもの，例．フォレスターハエフ管（Ｇ１１Ｃ１１／２２が優先）［２］	using electrostatic storage on a common layer, e.g. Forrester-Haeff tubes (G11C11/22 takes precedence) [2]
+G11C  11/24  \	2	2	5B067	G11C  11/24	59	キャパシタを用いるもの（Ｇ１１Ｃ１１／２２が優先；半導体装置とキャパシタの組合せを用いるものＧ１１Ｃ１１／３４，例．Ｇ１１Ｃ１１／４０）［２，５］	using capacitors (G11C11/22 takes precedence; using a combination of a semiconductor device and a capacitor G11C11/34, e.g. G11C11/40) [2, 5]
+G11C  11/26  \	2	2	5B067	G11C  11/26	3	放電管を用いるもの［２］	using discharge tubes [2]
+G11C  11/28  \	3	3	5B067	G11C  11/28	14	ガス入り管を用いるもの［２］	using gas-filled tubes [2]
+G11C  11/30  \	3	3	5B067	G11C  11/30	63	真空管を用いるもの（Ｇ１１Ｃ１１／２３が優先）［２］	using vacuum tubes (G11C11/23 takes precedence) [2]
+G11C  11/34  \	2	2	5B015	G11C  11/34	13524	半導体装置を用いるもの［２］	using semiconductor devices [2]
+G11C  11/35  \	3	3	5B015	G11C  11/35	0	空欠層に蓄積された電荷があるもの，例．電荷結合装置［７］	with charge storage in a depletion layer, e.g. charge coupled devices [7]
+G11C  11/36  \	3	3	5B015	G11C  11/36	38	ダイオードを用いるもの，例．閾値素子として用いるもの［２］	using diodes, e.g. as threshold elements [2]
+G11C  11/38  \	4	4	5B015	G11C  11/38	97	トンネルダイオードを用いるもの［２］	using tunnel diodes [2]
+G11C  11/39  \	3	3	5B015	G11C  11/39	66	サイリスタを用いるもの［５］	using thyristors [5]
+G11C  11/40  \	3	3	5B015	G11C  11/40	4	トランジスタを用いるもの［２］	using transistors [2]
+G11C  11/401  \	4	4	5M024	G11C  11/401	6704	リフレッシングまたは電荷再生，すなわちダイナミック・セル［５］	forming cells needing refreshing or charge regeneration, i.e. dynamic cells [5]
+G11C  11/402  \	5	5	5M024	G11C  11/402	170	各々のメモリセルに個別の電荷再生，すなわち内部リフレッシュをもつもの［５］	with charge regeneration individual to each memory cell, i.e. internal refresh [5]
+G11C  11/403  \	5	5	5M024	G11C  11/403	573	多数のメモリセルに共通な電荷再生，すなわち外部リフレッシュをもつもの［５］	with charge regeneration common to a multiplicity of memory cells, i.e. external refresh [5]
+G11C  11/404  \	6	6	5M024	G11C  11/404	437	１つのセル当り，１つの電荷転送ゲート，例．ＭＯＳトランジスタ，をもつもの［５］	with one charge-transfer gate, e.g. MOS transistor, per cell [5]
+G11C  11/404 100 \	7	7	5M024	G11C  11/404	185	それぞれが蓄積容量を有する，直列に接続された複数のアクセストランジスタ	using a plurality of serially connected access transistors, each having a storage capacitor
+G11C  11/405  \	6	6	5M024	G11C  11/405	1460	１つのセル当り，３つの電荷転送ゲート，例．ＭＯＳトランジスタ，をもつもの［５］	with three charge-transfer gates, e.g. MOS transistors, per cell [5]
+G11C  11/406  \	5	5	5M024	G11C  11/406	389	リフレッシングまたは電荷再生サイクルの管理または制御［５］	Management or control of the refreshing or charge-regeneration cycles [5]
+G11C  11/406 100 \	6	6	5M024	G11C  11/406	718	読み書きまたはリフレッシュ動作のためのメモリセルの仲裁，優先度，同時選択	Arbitration, priority and concurrent access to memory cells for read/write or refresh operation
+G11C  11/406 102 \	7	7	5M024	G11C  11/406	116	優先度に基づいてリフレッシュするもの	refreshing based on priority
+G11C  11/406 104 \	7	7	5M024	G11C  11/406	144	読み書き動作またはリフレッシュ動作を途中で中断するもの	interrupting read/write or refresh operation
+G11C  11/406 110 \	7	7	5M024	G11C  11/406	118	非アクセス時にリフレッシュするもの	refreshing at no access
+G11C  11/406 120 \	6	6	5M024	G11C  11/406	600	リフレッシュ周期が変化するもの	with changeable refresh cycles
+G11C  11/406 140 \	6	6	5M024	G11C  11/406	508	リフレッシュの起動またはリフレッシュタイミングの発生に関するもの	related to the activation of refresh or the generation of refresh timing
+G11C  11/406 200 \	6	6	5M024	G11C  11/406	0	内部キャッシュまたはデータバッファを有する記憶装置におけるリフレッシュ動作	Refresh operations in memory devices with an internal cache or data buffer
+G11C  11/406 300 \	6	6	5M024	G11C  11/406	530	内部または部分的な内部リフレッシュ動作の外部契機，タイミング，例．オートリフレッシュまたはＣＡＳビフォアＲＡＳ契機リフレッシュ	External triggering or timing of internal or partially internal refresh operation, e.g. auto-refresh or CAS-before-RAS triggered refresh
+G11C  11/406 350 \	6	6	5M024	G11C  11/406	1180	リフレッシュの内部契機またはタイミング，例．ヒドンリフレッシュ，セリフリフレッシュ，疑似ＳＲＡＭ	Internal triggering or timing of refresh, e.g. hidden refresh, self refresh, pseudo-SRAMs
+G11C  11/406 400 \	6	6	5M024	G11C  11/406	813	複数のバンクまたはインターリーブにまたがるリフレッシュ動作	Refresh operation over multiple banks or interleaving
+G11C  11/406 450 \	6	6	5M024	G11C  11/406	442	メモリアレイの部分リフレッシュ	Partial refresh of memory arrays
+G11C  11/406 460 \	6	6	5M024	G11C  11/406	367	リフレッシュを省略するものまたはリフレッシュアドレスの発生に関するもの	skipping refresh or related to the generation of refresh addresses
+G11C  11/406 500 \	6	6	5M024	G11C  11/406	260	リフレッシュ動作の発熱に関するもの	Temperature related aspects of refresh operations
+G11C  11/4063  \	5	5	5M024	G11C  11/4063	2912	周辺回路，例．アドレス用，デコード用，駆動用，書込み用，センス用，またはタイミング用［７］	Auxiliary circuits, e.g. for addressing, decoding, driving, writing, sensing or timing [7]
+G11C  11/4067  \	6	6	5M024	G11C  11/4067	0	バイポーラ型のメモリ・セル用の周辺回路［７］	Auxiliary circuits for memory cells of the bipolar type [7]
+G11C  11/407  \	6	6	5M024	G11C  11/407	960	電界効果型のメモリ・セル用の周辺回路［５］	Auxiliary circuits for memory cells of the field-effect type [5]
+G11C  11/4072  \	7	7	5M024	G11C  11/4072	637	初期化，パワーアップまたはパワーダウン，メモリクリア，またはプリセット用の回路［７］	Circuits for initialization, powering up or down, clearing memory or presetting [7]
+G11C  11/4074  \	7	7	5M024	G11C  11/4074	3537	電力供給回路または電圧発生回路，例．バイアス電圧発生器，基板電圧発生器，バックアップ電源，電源制御回路［７］	Power supply or voltage generation circuits, e.g. bias voltage generators, substrate voltage generators, back-up power, power control circuits [7]
+G11C  11/4074 100 \	8	8	5M024	G11C  11/4074	68	電源異常またはシステムダウン対策	Power abnormality or system down countermeasures
+G11C  11/4074 150 \	8	8	5M024	G11C  11/4074	212	バッテリおよびバックアップ電源	Battery and back-up supplies
+G11C  11/4074 200 \	8	8	5M024	G11C  11/4074	322	プレート電圧の制御	Plate voltage control
+G11C  11/4074 250 \	8	8	5M024	G11C  11/4074	773	基板電圧の制御	Substrate voltage control
+G11C  11/4076  \	7	7	5M024	G11C  11/4076	2656	タイミング回路（再生制御用Ｇ１１Ｃ１１／４０６）［７］	Timing circuits (for regeneration management G11C11/406) [7]
+G11C  11/4078  \	7	7	5M024	G11C  11/4078	0	安全または保護回路，例．不注意な，あるいは不正な読出しや書込みを防ぐためのもの；ステータス・セル；テスト・セル（チェックまたはテストにおけるメモリ内容の保護Ｇ１１Ｃ２９／５２）［７］	Safety or protection circuits, e.g. for preventing inadvertent or unauthorized reading or writing; Status cells; test cells (protection of memory contents during checking or testing G11C29/52) [7]
+G11C  11/408  \	7	7	5M024	G11C  11/408	3	アドレス回路［５］	Address circuits [5]
+G11C  11/408 100 \	8	8	5M024	G11C  11/408	339	アドレスバッファ；レベル変換回路	Address buffers; Level converting circuits
+G11C  11/408 120 \	8	8	5M024	G11C  11/408	2079	ワード線制御回路，例．ワード線用のドライバ，ブースター，プルアップ回路，プルダウン回路，プリチャージ回路	Word line control circuits, e.g. drivers, boosters, pull-up circuits, pull-down circuits, precharging circuits, for word lines
+G11C  11/408 125 \	9	9	5M024	G11C  11/408	172	ワード線クランプ回路	Word line clamp circuits
+G11C  11/408 140 \	8	8	5M024	G11C  11/408	1058	アドレスデコーダ，例．ビット線またはワード線デコーダ；多重線デコーダ	Address decoders, e.g. bit - or word line decoders; Multiple line decoders
+G11C  11/409  \	7	7	5M024	G11C  11/409	14	読出し−書込み［Ｒ−Ｗ］回路［５］	Read-write [R-W] circuits [5]
+G11C  11/4091  \	8	8	5M024	G11C  11/4091	69	センスまたはセンス／リフレッシュ増幅器，またはセンス関連回路，例．ビット線対のプリチャージ，イコライズ，または分離［７］	Sense or sense/refresh amplifiers, or associated sense circuitry, e.g. for coupled bit-line precharging, equalizing or isolating [7]
+G11C  11/4091 120 \	9	9	5M024	G11C  11/4091	729	センス増幅器の回路自体に特徴のあるもの	characterised by circuits per se of a sense amplifier
+G11C  11/4091 122 \	10	10	5M024	G11C  11/4091	626	トランスファゲートに特徴のあるもの，例．トランスファゲートの駆動電圧，タイミング，電荷転送効果を利用するもの	characterised by transfer gates, e.g. using driving voltage, timing, and charge transfer effect of a transfer gate
+G11C  11/4091 124 \	10	10	5M024	G11C  11/4091	214	メモリセルの情報をリストアするための回路，例，アクティブリストア回路	Circuits for restoring the information of a memory cell, e.g. active restore circuits
+G11C  11/4091 140 \	9	9	5M024	G11C  11/4091	1468	センス増幅器の制御に特徴のあるもの	characterised by control of sense amplifiers
+G11C  11/4091 150 \	9	9	5M024	G11C  11/4091	340	センス方式に特徴のあるもの	characterised by sense methods
+G11C  11/4091 160 \	9	9	5M024	G11C  11/4091	1564	ビット線のプリチャージに特徴のあるもの	characterised by bit line precharge
+G11C  11/4093  \	8	8	5M024	G11C  11/4093	971	入出力［Ｉ／Ｏ］データ・インターフェイス機構，例．データバッファ［２００６．０１］	Input/output [I/O] data interface arrangements, e.g. data buffers [2006.01]
+G11C  11/4093 100 \	9	9	5M024	G11C  11/4093	703	入力データバッファを有するもの	having input data buffers
+G11C  11/4093 150 \	9	9	5M024	G11C  11/4093	1641	出力データバッファを有するもの	having output data buffers
+G11C  11/4094  \	8	8	5M024	G11C  11/4094	14	ビット線管理または制御回路［７］	Bit-line management or control circuits [7]
+G11C  11/4096  \	8	8	5M024	G11C  11/4096	7	入出力［Ｉ／Ｏ］データ管理または制御回路，例．読出しまたは書込み回路，Ｉ／Ｏドライバ，ビット線スイッチ［７］	Input/output [I/O] data management or control circuits, e.g. reading or writing circuits, I/O drivers or bit-line switches [7]
+G11C  11/4096 100 \	9	9	5M024	G11C  11/4096	1565	入出力バス	Input/output bus
+G11C  11/4096 200 \	9	9	5M024	G11C  11/4096	481	データアンプ	Data amplifiers
+G11C  11/4096 300 \	9	9	5M024	G11C  11/4096	1558	アクセスモードまたはアクセス方式に関するもの	related to access modes or access methods
+G11C  11/4096 310 \	10	10	5M024	G11C  11/4096	356	ページモードに関するもの	related to page modes
+G11C  11/4096 320 \	10	10	5M024	G11C  11/4096	115	ニブルモードに関するもの	related to nibble modes
+G11C  11/4096 330 \	10	10	5M024	G11C  11/4096	109	静的カラムモードに関するもの	related to static column modes
+G11C  11/4096 400 \	9	9	5M024	G11C  11/4096	911	デュアルポートメモリに関するもの	related to dual port memories
+G11C  11/4096 450 \	9	9	5M024	G11C  11/4096	2388	全体が複数の部分またはブロックに分割されたセルアレイに関するもの（Ｇ１１Ｃ１１／４０６，４００が優先）	Related to the whole of a cell array that is divided into a plurality of sections or blocks (G11C11/406, 400 takes precedence)
+G11C  11/4096 500 \	9	9	5M024	G11C  11/4096	2328	シンクロナスメモリ	Synchronous memory
+G11C  11/4096 550 \	10	10	5M024	G11C  11/4096	865	ＤＤＲ	DDR
+G11C  11/4097  \	8	8	5M024	G11C  11/4097	1128	ビット線編成，例．ビット線レイアウト，折返しビット線［７］	Bit-line organization, e.g. bit-line layout, folded bit lines [7]
+G11C  11/4099  \	8	8	5M024	G11C  11/4099	809	ダミー・セル処理；リファレンス電圧発生器［７］	Dummy cell treatment; Reference voltage generators [7]
+G11C  11/41  \	4	4	5B015	G11C  11/41	923	正帰還によるセル，すなわちリフレッシングまたは電荷再生を必要としないセルを形成するもの，例．双安定マルチバイブレータまたはシュミットトリガ［５］	forming cells with positive feedback, i.e. cells not needing refreshing or charge regeneration, e.g. bistable multivibrator or Schmitt trigger [5]
+G11C  11/411  \	5	5	5B015	G11C  11/411	636	バイポーラトランジスタのみを用いるもの［５］	using bipolar transistors only [5]
+G11C  11/412  \	5	5	5B015	G11C  11/412	2237	電界効果トランジスタのみを用いるもの［５］	using field-effect transistors only [5]
+G11C  11/412 100 \	6	6	5B015	G11C  11/412	296	情報の喪失に対する保護のための回路手段を取り入れたセル（一般Ｇ１１Ｃ５／００，１００）	Cells incorporating circuit means for protection against loss of information (in general G11C5/00, 100)
+G11C  11/412 110 \	6	6	5B015	G11C  11/412	155	初期化を目的とした不平衡セルに関するもの	related to unbalanced cells for initialization purpose
+G11C  11/412 120 \	6	6	5B015	G11C  11/412	261	セルの片方だけからデータの読出または書込を図るもの	designed to read or write data from one of a pair of cells
+G11C  11/413  \	5	5	5B015	G11C  11/413	14	周辺回路，例．アドレシング，復号化，駆動，書込み，検知，同期および低電力化用［５］	Auxiliary circuits, e.g. for addressing, decoding, driving, writing, sensing, synchronizing or power reduction [5]
+G11C  11/414  \	6	6	5B015	G11C  11/414	84	バイポーラ型のメモリセル用［５］	for memory cells of the bipolar type [5]
+G11C  11/415  \	7	7	5B015	G11C  11/415	152	アドレス回路［５］	Address circuits [5]
+G11C  11/416  \	7	7	5B015	G11C  11/416	912	読出し−書込み回路［Ｒ−Ｗ］［５］	Read-write [R-W] circuits [5]
+G11C  11/417  \	6	6	5B015	G11C  11/417	8	電界効果型のメモリセル用［５］	for memory cells of the field-effect type [5]
+G11C  11/417 100 \	7	7	5B015	G11C  11/417	1207	電源供給回路	Power supply circuits
+G11C  11/417 110 \	8	8	5B015	G11C  11/417	291	バッテリバックアップに関するもの	related to battery backup
+G11C  11/417 120 \	8	8	5B015	G11C  11/417	256	基板バイアスに関するもの	related to substrate bias
+G11C  11/418  \	7	7	5B015	G11C  11/418	1	アドレス回路［５］	Address circuits [5]
+G11C  11/418 100 \	8	8	5B015	G11C  11/418	8	アドレス選択回路	Address selection circuits
+G11C  11/418 110 \	9	9	5B015	G11C  11/418	1039	選択または駆動に関するもの	related to selection or drive
+G11C  11/418 120 \	9	9	5B015	G11C  11/418	867	メモリ分割，アドレス分割に関するもの	related to memory division and address division
+G11C  11/418 130 \	9	9	5B015	G11C  11/418	883	アドレス・デコーダ回路	Address decoder circuits
+G11C  11/418 140 \	9	9	5B015	G11C  11/418	267	アドレス・バッファ回路	Address buffer circuits
+G11C  11/419  \	7	7	5B015	G11C  11/419	55	読出し−書込み回路［Ｒ−Ｗ］［５］	Read-write [R-W] circuits [5]
+G11C  11/419 100 \	8	8	5B015	G11C  11/419	1519	センス増幅回路	Sense amplification circuits
+G11C  11/419 110 \	8	8	5B015	G11C  11/419	566	アドレスの変化を検知して所定の動作，例．プリチャージ，を行うもの	performing intended operation, e.g. precharge, by detecting changes in addresses
+G11C  11/419 120 \	8	8	5B015	G11C  11/419	794	プリチャージに関するもの（Ｇ１１Ｃ１１／４１９，１１０が優先）	related to precharge (G11C 11/419, 110 takes precedence)
+G11C  11/419 130 \	8	8	5B015	G11C  11/419	1171	入出力［Ｉ／Ｏ］データ・インターフェイス機構	Input/output [I/O] data interface arrangements
+G11C  11/419 140 \	8	8	5B015	G11C  11/419	971	シンクロナスメモリ	Synchronous memory
+G11C  11/4193  \	3	3	5B015	G11C  11/4193	1	特種な半導体記憶装置に特有の周辺装置，例．アドレシング，駆動，検出，タイミング，電力供給，信号伝達のためのもの（Ｇ１１Ｃ１１／４０６３，Ｇ１１Ｃ１１／４１３が優先）［７］	Auxiliary circuits specific to particular types of semiconductor storage devices, e.g. for addressing, driving, sensing, timing, power supply, signal propagation (G11C11/4063, G11C11/413 take precedence) [7]
+G11C  11/4195  \	4	4	5B015	G11C  11/4195	0	アドレス回路［７］	Address circuits [7]
+G11C  11/4197  \	4	4	5B015	G11C  11/4197	1	読出し−書込み回路［Ｒ−Ｗ］［７］	Read-write [R-W] circuits [7]
+G11C  11/42  \	2	2	5B067	G11C  11/42	507	オプト−エレクトロニクス装置，すなわち電気的または光学的に結合された光放射および光−電気装置を用いるもの	using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled
+G11C  11/44  \	2	2	5B067	G11C  11/44	395	超電導素子，例．クライオトロン，を用いるもの［２］	using super-conductive elements, e.g. cryotron [2]
+G11C  11/46  \	1	1	5B067	G11C  11/46	18	熱可塑性素子を用いるもの	using thermoplastic elements
+G11C  11/48  \	1	1	5B067	G11C  11/48	1	相互または自己インダクタンスを異なる状態の間で変化させるための移動可能な結合素子，例．強磁性コア，を用いるもの	using displaceable coupling elements, e.g. ferromagnetic cores, to produce change between different states of mutual or self-inductance
+G11C  11/50  \	1	1	5B067	G11C  11/50	26	情報を記憶するために電気接点を作動するもの［２００６．０１］	using actuation of electric contacts to store the information [2006.01]
+G11C  11/52  \	2	2	5B067	G11C  11/52	9	電磁リレーを用いるもの	using electromagnetic relays
+G11C  11/54  \	1	1	5B067	G11C  11/54	479	生物細胞，例．ニューロン，をシミュレーションした素子を用いるもの	using elements simulating biological cells, e.g. neuron
+G11C  11/56  \	1	1	5B067	G11C  11/56	24	ステップによって表わされる２つまたはそれ以上の数の安定状態をもつ記憶素子を用いるもの，例．電圧によるもの，電流によるもの，位相によるもの，周波数によるもの［２００６．０１］	using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency [2006.01]
+G11C  11/56 100 \	2	2	5B073	G11C  11/56	190	磁気記憶素子を使用するもの	using magnetic storage elements
+G11C  11/56 150 \	2	2	5B067	G11C  11/56	31	伝導性ブリッジＲＡＭまたはプログラム可能な金属化合物セルを使用するもの	using conductive bridging RAM [CBRAM] or programmable metallization cells [PMC]
+G11C  11/56 200 \	2	2	5B225	G11C  11/56	2108	浮遊ゲートにおいて電荷蓄積を使用するもの	using charge storage in a floating gate
+G11C  11/56 210 \	3	3	5B225	G11C  11/56	1390	プログラミングまたは書込み回路；データ入力回路	Programming or writing circuits; Data input circuits
+G11C  11/56 215 \	4	4	5B225	G11C  11/56	210	消去回路	Erasing circuits
+G11C  11/56 220 \	3	3	5B225	G11C  11/56	903	検知または読出し回路；データ出力回路	Detecting or reading circuits; Data output circuits
+G11C  11/56 250 \	2	2	5M024	G11C  11/56	406	容量性電荷蓄積素子を使用するもの	using capacitive charge storage elements
+G11C  11/56 300 \	2	2	5B067	G11C  11/56	81	強誘電体記憶素子を使用するもの	using ferroelectric storage elements
+G11C  11/56 350 \	2	2	5B067	G11C  11/56	5	有機材料記憶素子を使用するもの	using organic material storage elements
+G11C  11/56 400 \	2	2	5B225	G11C  11/56	351	絶縁体において電荷トラッピングを使用するもの	using charge trapping in an insulator
+G11C  11/56 450 \	2	2	5B067	G11C  11/56	149	アモルファス／結晶の相変化記憶素子を使用するもの	using amorphous/crystalline phase transition storage elements
+G11C  11/56 500 \	2	2	5B067	G11C  11/56	114	金属酸化物記憶素子，例．ペロブスカイトを使用するもの	using storage elements comprising metal oxide memory material, e.g. perovskites
+G11C  11/56 600 \	2	2	5B225	G11C  11/56	131	マルチビット読出し専用メモリ	Multi-bit read-only memory
+G11C  13/00  \	0	0	5B067	G11C  13/00	34	Ｇ１１Ｃ１１／００，Ｇ１１Ｃ２３／００，またはＧ１１Ｃ２５／００に包含されない記憶素子の使用によって特徴づけられたデジタル記憶装置	Digital stores characterised by the use of storage elements not covered by groups G11C 11/00, G11C 23/00, or G11C 25/00
+G11C  13/00 200 \	1	1	5B067	G11C  13/00	275	抵抗ランダムアクセスメモリ素子を用いるもの	using resistance random access memory element
+G11C  13/00 210 \	2	2	5B067	G11C  13/00	970	アモルファス／結晶の相変化記憶素子を含むもの	including amorphous/memory element of chrystal
+G11C  13/00 215 \	2	2	5B067	G11C  13/00	1153	金属酸化物記憶素子を含むもの	including metallic oxide memory element
+G11C  13/00 220 \	2	2	5B067	G11C  13/00	28	金属窒化物記憶素子を含むもの	including metallic nitride memory element
+G11C  13/00 225 \	2	2	5B067	G11C  13/00	6	化学変化に依存する記憶素子を含むもの	including storaage element depending onchemical change
+G11C  13/00 230 \	3	3	5B067	G11C  13/00	337	伝導性ブリッジ記憶素子またはプログラム可能な金属化合物記憶素子を含むもの	including conductive bridge storage element or programmable metallic compound storage element
+G11C  13/00 235 \	3	3	5B067	G11C  13/00	4	有機材料記憶素子を含むもの	including organic materials atorage element
+G11C  13/00 235 A	3	0	5B067	G11C  13/00	68	ポリマーを含むもの	including polymer
+G11C  13/00 235 B	3	0	5B067	G11C  13/00	2	バイオ分子を含むもの	including
+G11C  13/00 235 Z	3	0	5B067	G11C  13/00	1	その他のもの	Others
+G11C  13/00 240 \	2	2	5B067	G11C  13/00	35	ナノチューブ記憶素子を含むもの	including nano tube storage element
+G11C  13/00 245 \	2	2	5B067	G11C  13/00	17	ナノギャップ記憶素子を含むもの	including nano gap storage element
+G11C  13/00 270 \	2	2	5B067	G11C  13/00	0	セルアレイの形態に特徴があるもの	characterized by shape of cell array
+G11C  13/00 270 A	2	0	5B067	G11C  13/00	351	３次元アレイ	3 dimensional array
+G11C  13/00 270 B	2	0	5B067	G11C  13/00	488	選択素子がダイオードであるアレイ	array with selective element being diode
+G11C  13/00 270 C	2	0	5B067	G11C  13/00	29	記憶素子の記憶機能と一体化した選択素子機能，例．ダイオード機能を持つアレイ	function of selective element integrated with strage function of storage element, e.g. array having function of diode
+G11C  13/00 270 D	2	0	5B067	G11C  13/00	29	２つ以上の選択素子を各記憶セルが持つアレイ	aray with each storage sell having two or more selective element
+G11C  13/00 270 E	2	0	5B067	G11C  13/00	87	選択トランジスタに並列に接続された記憶素子が直列に接続された列，すなわちＮＡＮＤ構造を持つアレイ	array having a row of storage elements forming storage elements connected to selective transistor in parallel are connected in series, i.e. NAND structure
+G11C  13/00 270 F	2	0	5B067	G11C  13/00	123	トランジスタでもダイオードでもない選択素子を各セルのために使用するアレイ	array using non-transistor and non-diode selective elements for each cell
+G11C  13/00 270 G	2	0	5B067	G11C  13/00	258	選択素子を使用することなく，ビット線とワード線に直接的に接続された記憶素子を持つアレイ	array having storage element directly connected to bit line and word line without using selective element
+G11C  13/00 270 H	2	0	5B067	G11C  13/00	79	一群の記憶セルが選択素子を共有するアレイ	array with a group of storage sells jointly owning selective element
+G11C  13/00 270 J	2	0	5B067	G11C  13/00	409	選択素子がトランジスタであるアレイ	array with selective element being transistor
+G11C  13/00 270 K	2	0	5B067	G11C  13/00	1	基板，セル，配線，選択素子が全て有機材料で形成されたアレイ	array with substrate, cell, wiring and selective element are all formed by organic materials
+G11C  13/00 270 Z	2	0	5B067	G11C  13/00	78	その他の特徴があるアレイ	array having other characteristics
+G11C  13/00 300 \	2	2	5B067	G11C  13/00	69	周辺回路	peripheral circuit
+G11C  13/00 310 \	3	3	5B067	G11C  13/00	10	アドレス回路またはアドレスデコーダ	address circuit or address decoder
+G11C  13/00 312 \	4	4	5B067	G11C  13/00	116	ビット線またはカラム回路	bit line or column circuit
+G11C  13/00 314 \	4	4	5B067	G11C  13/00	77	ワード線またはロウ回路	word line or row circuit
+G11C  13/00 320 \	3	3	5B067	G11C  13/00	54	セル選択	cell selection
+G11C  13/00 340 \	3	3	5B067	G11C  13/00	146	ディスターブの防止，ディスターブの評価；ディスターブされた記憶データのリフレッシュ	prevention of distgurb, evaluation of disturb; refreshing disturbed storage data
+G11C  13/00 360 \	3	3	5B067	G11C  13/00	176	劣化，保持力，消耗の評価	evaluation of deterioration, holding power, exhaustion
+G11C  13/00 380 \	3	3	5B067	G11C  13/00	53	電力供給回路	electric power supplying circuit
+G11C  13/00 400 \	3	3	5B067	G11C  13/00	6	読み出し，センシングの回路または方法	circuit or method of read out, sensing
+G11C  13/00 400 A	3	0	5B067	G11C  13/00	16	差分検知，例．相補ビット線による読み出し	difference detection, e.g. read out by complementary bit line
+G11C  13/00 400 B	3	0	5B067	G11C  13/00	464	セル電流による読み出し	read out by cell current
+G11C  13/00 400 C	3	0	5B067	G11C  13/00	28	破壊読み出し	destructive read out
+G11C  13/00 400 D	3	0	5B067	G11C  13/00	136	セル電極間の電位差による読み出し	read out by potential difference between cell electrodes
+G11C  13/00 400 E	3	0	5B067	G11C  13/00	198	ビット線プリチャージ後の読み出し	read out after bit line precharge
+G11C  13/00 400 F	3	0	5B067	G11C  13/00	73	読み出しパルスの形状，例．形，幅，高さによって特徴付けられた読み出し	shape of read out pulse, e.g. read out characterized by shape, width, height
+G11C  13/00 400 G	3	0	5B067	G11C  13/00	160	リファレンスセルとの比較によって実行される読み出し	read out executed by comparison with reference cell
+G11C  13/00 400 H	3	0	5B067	G11C  13/00	29	自己リファレンス方式によって実行される読み出し	read out executed by self reference system
+G11C  13/00 400 Z	3	0	5B067	G11C  13/00	11	その他の読み出し	other readout
+G11C  13/00 420 \	3	3	5B067	G11C  13/00	54	セキュリティ，保護回路または方法	circuit or method for security, protection
+G11C  13/00 440 \	3	3	5B067	G11C  13/00	82	タイミング回路または方法	circuit or method for timing
+G11C  13/00 460 \	3	3	5B067	G11C  13/00	1	ベリファイ回路または方法	circuit or method for verifying
+G11C  13/00 462 \	4	4	5B067	G11C  13/00	82	書き込み中に正しく書き込まれたことをベリファイするもの	to verify entry was made correctly during writing
+G11C  13/00 464 \	4	4	5B067	G11C  13/00	299	書き込み後に正しく書き込まれたことをベリファイするもの	to verify entry was made correctly after writing
+G11C  13/00 480 \	3	3	5B067	G11C  13/00	8	書き込み，プログラミングの回路または方法	circuit or method for writing, programming
+G11C  13/00 480 A	3	0	5B067	G11C  13/00	72	選択素子のゲートに書き込み電位を印加する書き込み	writing to apply electrical potential of writing to gate of selective element
+G11C  13/00 480 B	3	0	5B067	G11C  13/00	677	両方向にセル電圧を印加する書き込み	writing to apply cell voltage to two directions
+G11C  13/00 480 C	3	0	5B067	G11C  13/00	108	読み出し結果に基づいて実行される書き込み	execute writing based on result of read out
+G11C  13/00 480 D	3	0	5B067	G11C  13/00	151	セルを流れる電流量による書き込み	writing by amperage of flow through cell
+G11C  13/00 480 E	3	0	5B067	G11C  13/00	58	記憶材料の周囲に熱を発生させることによる書き込み	writing by generating heat around storage materials
+G11C  13/00 480 F	3	0	5B067	G11C  13/00	212	フォーミング処理のための書き込み	writing for foaming treatment
+G11C  13/00 480 G	3	0	5B067	G11C  13/00	110	１ページまたは１セクタ，例．１行分，１ワード線分の同時書き込み	1 page or 1 sector, e.g. simultaneous writing for 1 line, for 1 word line
+G11C  13/00 480 H	3	0	5B067	G11C  13/00	210	複数のセルの同時書き込み	simultaneous writing in multiple cells
+G11C  13/00 480 J	3	0	5B067	G11C  13/00	320	セル電極間に電位差を印加することによる書き込み	writing by applying potential difference between cell electrodes
+G11C  13/00 480 K	3	0	5B067	G11C  13/00	412	書き込みパルスの形状，例．形，幅，高さによって特徴付けられた書き込み	shape of writing pulse, e.g. writing characterized by shape, width, height
+G11C  13/00 480 L	3	0	5B067	G11C  13/00	7	熱効果による歪み，例，ピエゾエレクトリックを用いる書き込み	distoration by heat effect, e.g. writing using piezoelectric
+G11C  13/00 480 Z	3	0	5B067	G11C  13/00	7	その他	Others
+G11C  13/00 500 \	3	3	5B067	G11C  13/00	40	消去，例．リセットの回路または方法	deletion, e.g. circuit or method of resetting
+G11C  13/02  \	1	1	5B067	G11C  13/02	52	化学変化によって作動する素子を用いるもの［２００６．０１］	using elements whose operation depends upon chemical change [2006.01]
+G11C  13/02 100 \	2	2	5B067	G11C  13/02	16	フラーレンを使用するもの，例．カーボンナノチューブまたはシリコンナノチューブ	using fulleren, e.g. carbon nano tube or silicon nano tube
+G11C  13/04  \	1	1	5B067	G11C  13/04	806	光学的素子を用いるもの	using optical elements
+G11C  13/04 100 \	2	2	5B067	G11C  13/04	25	ホトクロミック記憶素子を用いるもの	using photochromic storage element
+G11C  13/04 200 \	2	2	5B067	G11C  13/04	0	干渉縞の形で記憶される情報を用いるもの（ホログラム，リップマン；ホログラフィＧ０３Ｈ，Ｇ０２Ｂ５／３２）	using information stored in shape of interference fringes (hologram, Lipman; holography G03H, G02B5/32)
+G11C  13/04 200 A	2	0	5B067	G11C  13/04	1	磁気光学記憶素子を用いるもの	using magneto-optics storage element
+G11C  13/04 200 B	2	0	5B067	G11C  13/04	338	電気光学記憶素子を用いるもの	using electro-optics storage element
+G11C  13/04 200 C	2	0	5B067	G11C  13/04	6	ホトクロミック記憶素子を用いるもの	using photochromic storage element
+G11C  13/04 200 Z	2	0	5B067	G11C  13/04	1	その他の記憶素子を用いるもの	using other storage element
+G11C  13/04 300 \	2	2	5B067	G11C  13/04	20	電気光学記憶素子を用いるもの	using electro-optics storage element
+G11C  13/04 400 \	2	2	5B067	G11C  13/04	12	その他の記憶素子を使用するもの	using other storage element
+G11C  13/06  \	2	2	5B067	G11C  13/06	465	磁気−光学素子を用いるもの［２００６．０１］	using magneto-optical elements [2006.01]
+G11C  14/00  \	0	0	5B094	G11C  14/00	2	電源遮断時にバックアップするための，揮発性メモリセルと不揮発性メモリセルの配置によって特徴づけられたデジタル記憶装置［５］	Digital stores characterised by arrangements of cells having volatile and non-volatile storage properties for back-up when the power is down [5]
+G11C  14/00 100 \	1	1	5B094	G11C  14/00	6	揮発性素子がＤＲＡＭセルであるもの	in which the volatile element is a DRAM cell
+G11C  14/00 110 \	2	2	5B094	G11C  14/00	78	不揮発性素子がＥＥＰＲＯＭ素子，例．浮遊ゲートまたはＭＮＯＳトランジスタであるもの	and the nonvolatile element is an EEPROM element, e.g. a floating gate or MNOS transistor
+G11C  14/00 120 \	2	2	5B094	G11C  14/00	14	不揮発性素子が強誘電体素子であるもの	and the nonvolatile element is a ferroelectric element
+G11C  14/00 130 \	2	2	5B094	G11C  14/00	6	不揮発性素子が磁気ＲＡＭ素子［ＭＲＡＭ］または強磁性体素子であるもの	and the nonvolatile element is a magnetic RAM [MRAM] element or ferromagnetic element
+G11C  14/00 140 \	2	2	5B094	G11C  14/00	5	不揮発性素子が抵抗変化ＲＡＭ素子であるもの	and the nonvolatile element is a resistive RAM element
+G11C  14/00 200 \	1	1	5B094	G11C  14/00	153	揮発性素子がＳＲＡＭセルであるもの	in which the volatile element is a SRAM cell
+G11C  14/00 210 \	2	2	5B094	G11C  14/00	370	不揮発性素子がＥＥＰＲＯＭ素子，例．浮遊ゲートまたはＭＮＯＳトランジスタであるもの	and the nonvolatile element is an EEPROM element, e.g. a floating gate or MNOS transistor
+G11C  14/00 220 \	2	2	5B094	G11C  14/00	108	不揮発性素子が強誘電体素子であるもの	and the nonvolatile element is a ferroelectric element
+G11C  14/00 230 \	2	2	5B094	G11C  14/00	141	不揮発性素子が磁気ＲＡＭ素子［ＭＲＡＭ］または強磁性体素子であるもの	and the nonvolatile element is a magnetic RAM [MRAM] element or ferromagnetic element
+G11C  14/00 240 \	2	2	5B094	G11C  14/00	52	不揮発性素子が抵抗変化ＲＡＭ素子であるもの	and the nonvolatile element is a resistive RAM element
+G11C  15/00  \	0	0	5B095	G11C  15/00	1	１つまたはそれ以上の特徴的部分からなる情報が書き込まれ，情報の読出しはそれらの１つまたは以上の特徴的部分について探索することによって行なわれるデジタル記憶装置，すなわち連想記憶または内容アドレス記憶装置［２００６．０１］	Digital stores in which information comprising one or more characteristic parts is written into the store and in which information is read-out by searching for one or more of these characteristic parts, i.e. associative or content-addressed stores [2006.01]
+G11C  15/00  A	0	0	5B095	G11C  15/00	77	光学的素子を用いるもの	Using optical elements
+G11C  15/00  Z	0	0	5B095	G11C  15/00	122	その他のもの（超電導素子を用いるもの等）	Others (such as using superconductive elements)
+G11C  15/02  \	1	1	5B095	G11C  15/02	87	磁気的素子を用いるもの［２］	using magnetic elements [2]
+G11C  15/04  \	1	1	5B095	G11C  15/04	5	半導体素子を用いるもの［２］	using semiconductor elements [2]
+G11C  15/04  C	1	0	5B095	G11C  15/04	145	高速化・高能率化	With higher speed and efficiency
+G11C  15/04  D	1	0	5B095	G11C  15/04	63	番地指定メモリを用いるもの	Using addressable memory
+G11C  15/04  E	1	0	5B095	G11C  15/04	62	金物の節約	Saving hardware
+G11C  15/04  F	1	0	5B095	G11C  15/04	175	誤動作対策	Countermeasures against malfunctions
+G11C  15/04  Z	1	0	5B095	G11C  15/04	232	その他	Others
+G11C  15/04 601 \	2	2	5B095	G11C  15/04	3	セル回路	cell circuits
+G11C  15/04 601 A	2	0	5B095	G11C  15/04	245	揮発素子	Volatile elements
+G11C  15/04 601 R	2	0	5B095	G11C  15/04	117	不揮発素子	Nonvolatile elements
+G11C  15/04 601 S	2	0	5B095	G11C  15/04	23	特殊素子	Special elements
+G11C  15/04 601 W	2	0	5B095	G11C  15/04	106	比較機能に特徴のあるもの（大小比較機能、マスク機能をセル内に設けたもの）	Characterised by comparison functions (having a size comparison function and mask function within the cell)
+G11C  15/04 601 Z	2	0	5B095	G11C  15/04	24	その他のもの	Others
+G11C  15/04 631 \	2	2	5B095	G11C  15/04	4	周辺回路	peripheral circuits
+G11C  15/04 631 A	2	0	5B095	G11C  15/04	47	一般	In general
+G11C  15/04 631 B	2	0	5B095	G11C  15/04	72	複数メモリの組み合わせ	Combinations of a plurality of memory
+G11C  15/04 631 C	2	1	5B095	G11C  15/04	72	ＣＡＭと一般のメモリを組み合わせたもの	Combinations of a CAM and general memory
+G11C  15/04 631 D	2	1	5B095	G11C  15/04	81	ＣＡＭとＣＡＭを組み合わせたもの	Combinations of one CAM with another CAM
+G11C  15/04 631 E	2	0	5B095	G11C  15/04	110	ＣＡＭメモリアレイ内で分割管理するもの	Performing memory management by division within CAM memory array
+G11C  15/04 631 F	2	0	5B095	G11C  15/04	294	比較回路に特徴のあるもの	Characterized by comparison circuits
+G11C  15/04 631 G	2	0	5B095	G11C  15/04	88	優先回路に特徴のあるもの	Characterized by preferred circuits
+G11C  15/04 631 M	2	0	5B095	G11C  15/04	64	マスク回路に特徴のあるもの	Characterized by mask circuits
+G11C  15/04 631 W	2	0	5B095	G11C  15/04	101	連想方法自体に特徴のあるもの	Characterized by associative methods per se
+G11C  15/04 631 Z	2	0	5B095	G11C  15/04	234	その他のもの	Others
+G11C  15/06  \	1	1	5B095	G11C  15/06	13	クライオジニック素子を用いるもの［２］	using cryogenic elements [2]
+G11C  16/00  \	0	0	5B225	G11C  16/00	0	消去可能でプログラム可能なリードオンリメモリ（Ｇ１１Ｃ１４／００が優先）［５］	Erasable programmable read-only memories(G11C14/00 takes precedence) [5]
+G11C  16/02  \	1	1	5B225	G11C  16/02	2914	電気的にプログラム可能なもの［５］	electrically programmable [5]
+G11C  16/04  \	2	2	5B225	G11C  16/04	1069	閾値が可変なトランジスタを用いるもの，例．ＦＡＭＯＳ［５］	using threshold-variable transistors, e.g. FAMOS [5]
+G11C  16/04 100 \	3	3	5B225	G11C  16/04	6	フローティングゲートトランジスタを包含するセルで構成されるもの（Ｇ１１Ｃ１６／０４，１７０，Ｇ１１Ｃ１６／０４，１８０が優先）	comprising cells containing floating gate transistors (G11C 16/04, 170, G11C 16/04, 180 take precedence)
+G11C  16/04 110 \	4	4	5B225	G11C  16/04	384	単一のフローティングゲートトランジスタを包含し，選択トランジスタを包含しないセルで構成されるもの，例．ＵＶ　ＥＰＲＯＭ	comprising cells containing a single floating gate transistor and no selection transistor, e.g. UV EPROM
+G11C  16/04 120 \	4	4	5B225	G11C  16/04	563	マージされたフローティングゲートと選択トランジスタを包含するセルで構成されるもの	comprising cells containing a merged floating gate and selection transistor
+G11C  16/04 130 \	4	4	5B225	G11C  16/04	691	１つのフローティングゲートトランジスタおよび１つ以上の別個の選択トランジスタを包含するセルで構成されるもの	comprising cells containing a single floating gate transistor and one separate selection transistors or more
+G11C  16/04 140 \	4	4	5B225	G11C  16/04	515	複数のフローティングゲートデバイスで構成されるセル，例．複数のフローティングゲートに接続された別個の読出し及び書込みＦＡＭＯＳトランジスタを包含するセルで構成されるもの	comprising cells containing multiple floating gate devices, e.g. separate read-and-write FAMOS transistors connected to multiple floating gates
+G11C  16/04 143 \	5	5	5B225	G11C  16/04	6	ＰチャネルとＮチャネルメモリトランジスタを備えるフローティングゲートメモリセル，通常は共通フローティングゲートを共有するもの	Floating gate memory cells with both P and N channel memory transistors, usually sharing a common floating gate
+G11C  16/04 146 \	5	5	5B225	G11C  16/04	10	独立したデータを記憶する複数の独立したフローティングゲートで構成されるもの（単一のフローティングゲートにおいて３つ以上の安定状態を記憶するためのものＧ１１Ｃ１１／５６）	comprising plural independent floating gates which store independent data (for storage of more than two stable states at a single floating gate G11C11/56)
+G11C  16/04 150 \	3	3	5B225	G11C  16/04	724	絶縁層に電荷を蓄積するセルで構成されるもの，例．ＭＮＯＳ，ＳＮＯＳ（Ｇ１１Ｃ１６／０４，１７０，Ｇ１１Ｃ１６／０４，１８０が優先）	comprising cells accumulating charges in an insulation layer, e.g. MNOS, SNOS (G11C 16/04, 170, G11C 16/04, 180 take precedence)
+G11C  16/04 160 \	4	4	5B225	G11C  16/04	269	独立したデータを保持する複数の独立した記憶サイトで構成されるもの　（単一の記憶サイトに２以上の安定した状態を蓄積するストレージＧ１１Ｃ１１／５６）	comprising plural independent storage sites which store independent data (for storage of two or more stable states at a single storage site G11C11/56)
+G11C  16/04 170 \	3	3	5B225	G11C  16/04	3135	直列接続された複数の記憶トランジスタを有するセルで構成されるもの	comprising cells having several storage transistors connected in series
+G11C  16/04 180 \	3	3	5B225	G11C  16/04	624	仮想接地アレイ	Virtual ground arrays
+G11C  16/06  \	2	2	5B225	G11C  16/06	2377	周辺回路，例．メモリへの書込み用［２００６．０１］	Auxiliary circuits, e.g. for writing into memory [2006.01]
+G11C  16/08  \	3	3	5B225	G11C  16/08	116	アドレス回路；デコーダ；ワード線制御回路［７］	Address circuits; Decoders; Word-line control circuits [7]
+G11C  16/08 100 \	4	4	5B225	G11C  16/08	22	カラムデコーダ	Column decoders
+G11C  16/08 110 \	4	4	5B225	G11C  16/08	522	ワード線の選択；デコーダ	Word line selection; Decoders
+G11C  16/08 120 \	5	5	5B225	G11C  16/08	875	ワード線駆動回路，特にワード線への読出し電圧の供給	Word line driving circuits; Specially for supplying reading voltage to word lines
+G11C  16/08 123 \	5	5	5B225	G11C  16/08	224	ワード線駆動回路，特にベリファイ読出し用	Word line driving circuits; Specially for verifying reading
+G11C  16/08 130 \	5	5	5B225	G11C  16/08	751	ワード線駆動回路，特にワード線への書込み電圧の供給	Word line driving circuits; Specially for supplying writing voltage to word lines
+G11C  16/08 140 \	5	5	5B225	G11C  16/08	361	ワード線駆動回路，特にワード線への消去電圧の供給	Word line driving circuits; Specially for supplying deletion voltage to word lines
+G11C  16/10  \	3	3	5B225	G11C  16/10	952	プログラミングまたはデータ入力回路［７］	Programming or data input circuits [7]
+G11C  16/10 100 \	4	4	5B225	G11C  16/10	754	外部プログラミング回路，例．ＥＰＲＯＭプログラマ；インサーキットプログラミングまたは再プログラミング；ＥＰＲＯＭエミュレータ	External programming circuits, e.g. EPROM programmers; In-circuit programming or reprogramming; EPROM emulators
+G11C  16/10 103 \	5	5	5B225	G11C  16/10	63	特に信頼できる置換を保証する’安全性’機能を有する不揮発性メモリの内容を更新する回路，例．新しいデータが確実に書き込まれるまで古いデータの喪失を防ぐもの	Circuits or methods for updating contents of nonvolatile memory, specially with &apos;security&apos; features to ensure reliable replacement, e.g. preventing loss of old data before new data is reliably written
+G11C  16/10 110 \	4	4	5B225	G11C  16/10	160	アレイ，セクタまたはブロック内の全セルを消去前に同一状態にプログラミングするもの	Programming all cells in an array, sector or block to the same state prior to deletion
+G11C  16/10 120 \	4	4	5B225	G11C  16/10	111	書込み前のデータと比較するもの	comparing data with the data prior to writing
+G11C  16/10 130 \	4	4	5B225	G11C  16/10	112	反転書込み／代表書込みを行うもの	performing reverse write/typical write
+G11C  16/10 140 \	4	4	5B225	G11C  16/10	1399	書込み時間／書込み電圧／書込み電流制御	controlling write time/write voltage/write currents
+G11C  16/10 143 \	4	4	5B225	G11C  16/10	327	ソース線の制御に特徴があるもの	characterised by source line control
+G11C  16/10 150 \	4	4	5B225	G11C  16/10	1059	特殊モードによるプログラム	program in a special mode
+G11C  16/10 160 \	4	4	5B225	G11C  16/10	408	バッファメモリを用いた書込み	writing with buffer memory
+G11C  16/10 170 \	4	4	5B225	G11C  16/10	276	データ入力回路	Data input circuits
+G11C  16/12  \	4	4	5B225	G11C  16/12	25	プログラミング電圧スイッチング回路［７］	Programming voltage switching circuits [7]
+G11C  16/14  \	4	4	5B225	G11C  16/14	626	電気的に消去するための回路，例．消去電圧スイッチング回路［７］	Circuits for erasing electrically, e.g. erase voltage switching circuits [7]
+G11C  16/14 100 \	5	5	5B225	G11C  16/14	715	消去時間／消去電圧制御	Delete time/delete voltage control
+G11C  16/14 110 \	5	5	5B225	G11C  16/14	270	ソース線の制御に特徴があるもの	characterised by source line control
+G11C  16/16  \	5	5	5B225	G11C  16/16	604	ブロック消去用のもの，例．アレイ，複数ワード，グループ［７］	for erasing blocks, e.g. arrays, words, groups [7]
+G11C  16/18  \	4	4	5B225	G11C  16/18	327	光学的に消去するための回路［７］	Circuits for erasing optically [7]
+G11C  16/20  \	4	4	5B225	G11C  16/20	111	初期化；データのプリセット，チップの識別［７］	Initializing; Data preset; Chip identification [7]
+G11C  16/22  \	3	3	5B225	G11C  16/22	1413	メモリ・セルへの不正な，または不慮のアクセスを防ぐための安全または保護回路［７］	Safety or protection circuits preventing unauthorized or accidental access to memory cells [7]
+G11C  16/22 100 \	4	4	5B225	G11C  16/22	34	電源電圧が所要範囲外のときに消去，プログラミング，または読取りを防止するもの	Preventing deletion, programming or reading when power supply voltages are outside the required ranges
+G11C  16/24  \	3	3	5B225	G11C  16/24	319	ビット線制御回路［７］	Bit-line control circuits [7]
+G11C  16/24 100 \	4	4	5B225	G11C  16/24	563	ビット線の選択に関するもの	related to the selection of bit lines
+G11C  16/24 110 \	4	4	5B225	G11C  16/24	924	プリチャージ／ディスチャージ回路	Precharge/discharge circuits
+G11C  16/24 120 \	4	4	5B225	G11C  16/24	408	書込み電圧発生回路	Write voltage generation circuits
+G11C  16/24 130 \	4	4	5B225	G11C  16/24	760	ラッチ回路	Latch circuits
+G11C  16/26  \	3	3	5B225	G11C  16/26	954	センス回路または読出し回路；データ出力回路［７］	Sensing or reading circuits; Data output circuits [7]
+G11C  16/26 100 \	4	4	5B225	G11C  16/26	1316	特殊モードによる読出し	reading in a special mode
+G11C  16/26 110 \	4	4	5B225	G11C  16/26	287	バッファメモリを介した読出し	reading through buffer memory
+G11C  16/26 120 \	4	4	5B225	G11C  16/26	262	電流比較型センス回路	Current comparison type sensing circuits
+G11C  16/26 130 \	4	4	5B225	G11C  16/26	254	ソース線の制御に特徴があるもの	characterised by source line control
+G11C  16/26 140 \	4	4	5B225	G11C  16/26	379	出力回路	Output circuits
+G11C  16/28  \	4	4	5B225	G11C  16/28	861	差動センシングまたはリファレンス・セルを用いるもの，例．ダミー・セル［７］	using differential sensing or reference cells, e.g. dummy cells [7]
+G11C  16/30  \	3	3	5B225	G11C  16/30	957	電力供給回路［７］	Power supply circuits [7]
+G11C  16/30 100 \	4	4	5B225	G11C  16/30	870	高電圧発生回路	High voltage generation circuits
+G11C  16/30 110 \	4	4	5B225	G11C  16/30	141	負電圧発生回路	Negative voltage generation circuits
+G11C  16/30 120 \	4	4	5B225	G11C  16/30	456	電圧調整回路	Voltage adjustment circuits
+G11C  16/32  \	3	3	5B225	G11C  16/32	462	タイミング回路［７］	Timing circuits [7]
+G11C  16/34  \	3	3	5B225	G11C  16/34	3	プログラミング状態の決定，例．閾値電圧，過書込みまたは不十分な書込み，リテンション［７］	Determination of programming status, e.g. threshold voltage, overprogramming or underprogramming, retention [7]
+G11C  16/34 100 \	4	4	5B225	G11C  16/34	4	メモリセル閾値電圧の収束または補正；過消去または過書込みセルのリペアまたはリカバリ	Convergence or correction of memory cell threshold voltages; Repair or recovery of overdeleted or excessively written cells
+G11C  16/34 103 \	5	5	5B225	G11C  16/34	286	消去ベリファイ中に検知された過消去された不揮発性メモリセルのリカバリ回路または方法，通常は“ソフト”プログラミングステップによるもの	Circuits or methods to recover overdeleted nonvolatile memory cells detected during deletion verification, usually by means of a "soft" programming step
+G11C  16/34 106 \	5	5	5B225	G11C  16/34	9	書込み検証中に検知された過書込みされた不揮発性メモリセルのリカバリ回路または方法，通常は“ソフト”消去ステップによるもの	Circuits or methods to recover excessively written nonvolatile memory cells detected during writing verification, usually by means of a "soft" deletion step
+G11C  16/34 110 \	4	4	5B225	G11C  16/34	24	ディスターブ防止または評価；ディスターブされたメモリデータのリフレッシュ	Disturbance prevention or evaluation; Refreshing of disturbed memory data
+G11C  16/34 113 \	5	5	5B225	G11C  16/34	25	ディスターブを緩和するステップなしに不揮発性メモリセルの読出しまたは書込みディスターブを評価する回路または方法	Circuits or methods to evaluate read or write disturbance in nonvolatile memory cells, without steps for mitigating disturbance
+G11C  16/34 116 \	5	5	5B225	G11C  16/34	837	隣接セルが読出しまたは書込みされた時のディスターブを防止または弱める回路または方法	Circuits or methods to prevent or mitigate disturbance of the state of a memory cell when neighbouring cells are read or written
+G11C  16/34 120 \	5	5	5B225	G11C  16/34	690	ディスターブされた不揮発性メモリセル，例．書き込まれた状態として読出せるが，閾値が書込み検証閾値より小さい，または消去された状態として読み出せるが，閾値が消去検証閾値より大きいメモリセル，を検出し，リフレッシュ書込みまたは消去によりディスターブを反転させる回路または方法	Circuits or methods to detect disturbed nonvolatile memory cells, e.g. which still are read as written state but with threshold less than the write verify threshold or read as deleted state but with threshold greater than the deletion verification threshold, and to reverse the disturbance via a refreshing writing or deleting step
+G11C  16/34 123 \	4	4	5B225	G11C  16/34	7	適正な書込みまたは消去を検証するための装置	Arrangements for verifying correct writing or deletion
+G11C  16/34 126 \	5	5	5B225	G11C  16/34	1	適正な消去を検証するためまたは過消去セルを検出するための装置	Arrangements for verifying correct deletion or for detecting overdeleted cells
+G11C  16/34 130 \	6	6	5B225	G11C  16/34	560	不揮発性メモリセルの適切な消去を検証するための回路または方法	Circuits or methods to verify correct deletion of nonvolatile memory cells
+G11C  16/34 133 \	6	6	5B225	G11C  16/34	155	過消去された不揮発性メモリセルを検出するための回路または方法，通常は消去検証最中に検出するもの	Circuits or methods to detect overdeleted nonvolatile memory cells, usually during deletion verification
+G11C  16/34 136 \	5	5	5B225	G11C  16/34	2	適正な書込みを検証するためのまたは過書込みセルを検出するための装置	Arrangements for verifying correct writing or for detecting excessively written cells
+G11C  16/34 140 \	6	6	5B225	G11C  16/34	1408	不揮発性メモリセルの適切な書込みを検証する回路または方法	Circuits or methods to verify correct writing of nonvolatile memory cells
+G11C  16/34 143 \	6	6	5B225	G11C  16/34	119	過書込みされた不揮発性メモリセルを検出する回路または方法，通常は書込み検証最中に検出するもの	Circuits or methods to detect excessively written nonvolatile memory cells, usually during writing verification
+G11C  16/34 146 \	5	5	5B225	G11C  16/34	2	過消去または過書込みの防止，例．消去または書込みの最中の検証によるもの	Prevention of overdeletion or excessive writing, e.g. by verifying whilst deleting or writing
+G11C  16/34 150 \	6	6	5B225	G11C  16/34	90	消去進行中に不揮発性メモリセルの適切な消去を検証する回路または方法，例．セル電流の流れの開始または停止を検出し，検出出力を消去の終了に用いることによるもの	Circuits or methods to verify correct deletion of nonvolatile memory cells whilst deletion is in progress, e.g. by detecting onset or cessation of current flow in cells and using the detection output to terminate deletion
+G11C  16/34 153 \	6	6	5B225	G11C  16/34	56	不揮発性メモリセルの過消去を防止する回路または方法，例．セル電流の流れの開始または停止を検出し，検出出力を消去の終了に用いることによるもの	Circuits or methods to prevent overdeletion of nonvolatile memory cells, e.g. by detecting onset or cessation of current flow in cells and using the detection output to terminate deletion
+G11C  16/34 156 \	6	6	5B225	G11C  16/34	113	書込み進行中に不揮発性メモリセルの適切な書込みを検証する回路または方法，例．セル電流の流れの開始または停止を検出し，検出出力を書込みの終了に用いることによるもの	Circuits or methods to verify correct writing of nonvolatile memory cells whilst writing is in progress, e.g. by detecting onset or cessation of current flow in cells and using the detection output to terminate writing
+G11C  16/34 160 \	6	6	5B225	G11C  16/34	12	不揮発性メモリセルの過書込みを防止する回路または方法，例．セル電流の流れの開始または停止を検出し，検出出力を書込みの終了に用いることによるもの	Circuits or methods to prevent excessive writing, e.g. by detecting onset or cessation of current flow in cells and using the detection output to terminate writing
+G11C  16/34 163 \	4	4	5B225	G11C  16/34	591	劣化，リテンション，または磨耗を評価するための装置，例．消去サイクルをカウントすることによるもの	Arrangements for evaluating degradation, retention or wearout, e.g. by counting deletion cycles
+G11C  16/34 166 \	5	5	5B225	G11C  16/34	653	不揮発性ＥＰＲＯＭまたはＥＥＰＲＯＭメモリデバイスの摩耗を検出または遅らせる回路または方法，例．消去または更新サイクル数をカウントし，複数のメモリ領域を順次または循環的に使用することによるもの	Circuits or methods to detect or delay wearout of nonvolatile EPROM or EEPROM memory devices, e.g. by counting numbers of deletion or update cycles, by using multiple memory areas serially or cyclically
+G11C  17/00  \	0	0	5B225	G11C  17/00	2050	一度だけプログラム可能な読出し専用メモリ；半永久的記憶装置，例．手動で差替え可能な情報カード［２００６．０１］	Read-only memories programmable only once; Semi-permanent stores, e.g. manually-replaceable information cards [2006.01]
+G11C  17/02  \	1	1	5B225	G11C  17/02	380	磁気的または誘導的素子を用いるもの（Ｇ１１Ｃ１７／１４が優先）［２，５］	using magnetic or inductive elements (G11C17/14 takes precedence) [2, 5]
+G11C  17/04  \	1	1	5B225	G11C  17/04	100	容量的素子を用いるもの（Ｇ１１Ｃ１７／０６，Ｇ１１Ｃ１７／１４が優先）［２，５］	using capacitive elements (G11C17/06, G11C17/14 take precedence) [2, 5]
+G11C  17/06  \	1	1	5B225	G11C  17/06	1200	ダイオード素子を用いるもの（Ｇ１１Ｃ１７／１４が優先）［２，５］	using diode elements (G11C17/14 takes precedence)  [2, 5]
+G11C  17/08  \	1	1	5B225	G11C  17/08	11	半導体装置を用いるもの，例．バイポーラ素子を用いるもの（Ｇ１１Ｃ１７／０６，Ｇ１１Ｃ１７／１４が優先）［５］	using semiconductor devices, e.g. bipolar elements (G11C17/06, G11C17/14 take precedence) [5]
+G11C  17/10  \	2	2	5B225	G11C  17/10	311	その記憶内容が，結合素子のあらかじめ決められた配置によって製造時に決められるもの，例．マスクプログラム可能なＲＯＭ［５］	in which contents are determined during manufacturing by a predetermined arrangement of coupling elements, e.g. mask-programmable ROM [5]
+G11C  17/10 100 \	3	3	5B225	G11C  17/10	115	バイポーラトランジスタを用いるもの	using bipolar transistors
+G11C  17/10 110 \	4	4	5B225	G11C  17/10	37	周辺回路	Auxiliary circuits
+G11C  17/12  \	3	3	5B225	G11C  17/12	539	電界効果型装置を用いるもの［５］	using field-effect devices [5]
+G11C  17/12 100 \	4	4	5B225	G11C  17/12	241	直列接続された複数の記憶トランジスタを有するセルで構成されるもの	comprising cells having several storage transistors connected in series
+G11C  17/12 110 \	4	4	5B225	G11C  17/12	78	仮想接地アレイ	Virtual ground arrays
+G11C  17/12 150 \	4	4	5B225	G11C  17/12	867	周辺回路	Auxiliary circuits
+G11C  17/12 160 \	5	5	5B225	G11C  17/12	199	直列接続された複数の記憶トランジスタを有するセルで構成されるアレイ用の周辺回路	Auxiliary circuits for arrays comprising cells having several storage transistors connected in series
+G11C  17/12 170 \	5	5	5B225	G11C  17/12	59	仮想接地アレイ用の周辺回路	Auxiliary circuits for virtual ground arrays
+G11C  17/14  \	1	1	5B225	G11C  17/14	14	その記憶内容が，結合素子の状態を永久に変えることによって連結リンクを選択的に設定，切断または変更することにより決められるもの，例．ＰＲＯＭ［５］	in which contents are determined by selectively establishment, break, or modification of connecting links due to permanent alteration in the state of coupling elements, e.g. PROM [5]
+G11C  17/14 100 \	2	2	5B225	G11C  17/14	3	レーザーで溶断可能なリンクを用いるもの	using laser-fusible links
+G11C  17/14 110 \	2	2	5B225	G11C  17/14	15	ライトワンスメモリ，例　付加ビットに書込みを行うことでメモリ内容の変更を許すもの	Write once memory, e.g. allowing changing of memory contents by writing additional bits
+G11C  17/16  \	2	2	5B225	G11C  17/16	142	電気的に溶断可能なリンクを用いるもの［５］	using electrically-fusible links [5]
+G11C  17/16 100 \	3	3	5B225	G11C  17/16	10	抵抗の変化を引き起こすように電気的にプログラムされるメモリセル，例．ヒューズ／アンチヒューズの導通から非導通／非道通から導通状態への変更というより，複数の抵抗段階にプログラムできるもの（抵抗ランダムアクセスメモリ素子を用いるデジタル記憶装置　Ｇ１１Ｃ１３／００，２００）	Memory cells which are electrically programmed to cause a change in resistance, e.g. to permit multiple resistance steps to be programmed rather than conduct to or from non-conduct change of fuses and antifuses (digital stores using resistance random access memory elements G11C13/00, 200)
+G11C  17/18  \	2	2	5B225	G11C  17/18	63	周辺回路，例．メモリへの書込み用［２００６．０１］	Auxiliary circuits, e.g. for writing into memory [2006.01]
+G11C  19/00  \	0	0	5B074	G11C  19/00	2877	情報がステップ形式で移動するデジタル記憶装置、例．シフト・レジスタ［２００６．０１］	Digital stores in which the information is moved stepwise, e.g. shift registers [2006.01]
+G11C  19/02  \	1	1	5B074	G11C  19/02	77	磁気素子を用いるもの（Ｇ１１Ｃ１９／１４が優先）［２］	using magnetic elements (G11C 19/14 takes precedence) [2]
+G11C  19/04  \	2	2	5B074	G11C  19/04	22	１つの孔または磁気ループを有するコアを用いるもの［２］	using cores with one aperture or magnetic loop [2]
+G11C  19/06  \	2	2	5B074	G11C  19/06	18	多数の孔または磁気ループを有する構造を用いるもの，例．トランスフラクサ［２］	using structures with a number of apertures or magnetic loops, e.g. transfluxors [2]
+G11C  19/08  \	2	2	5B002	G11C  19/08	257	平板薄膜構造を用いるもの［２］	using thin films in plane structure [2]
+G11C  19/10  \	2	2	5B074	G11C  19/10	0	ロッド上の薄膜を用いるもの；ツイスタによるもの［２］	using thin films on rods; with twistors [2]
+G11C  19/12  \	1	1	5B074	G11C  19/12	1	共振回路中の非線型誘導素子を用いるもの［２］	using non-linear reactive devices in resonant circuits [2]
+G11C  19/14  \	1	1	5B074	G11C  19/14	3	能動素子，例．放電管，半導体素子，と結合した磁気素子を用いるもの（Ｇ１１Ｃ１９／３４が優先）［２，７］	using magnetic elements in combination with active elements, e.g. discharge tubes, semiconductor elements [2]
+G11C  19/18  \	1	1	5B074	G11C  19/18	11	ステージの主素子としてキャパシタを用いるもの［２］	using capacitors as main elements of the stages [2]
+G11C  19/18 100 \	2	2	5B074	G11C  19/18	0	半導体素子と結合するもの，例．バイポーラトランジスタ，ダイオード	combined with semicoductor element,  e.g. bipolar transistor,  diode
+G11C  19/18 110 \	3	3	5B074	G11C  19/18	13	電界効果トランジスタと結合するもの，例．ＭＯＳ−ＦＥＴ	combined with field effect transistor, e.g. MOS-FET
+G11C  19/18 115 \	4	4	5B074	G11C  19/18	7	一つのキャパシタにつき一つのトランジスタだけ用いるもの，例．バケツリレーシフトレジスタ	using only one transistor for one capacitor, e.g.  Bucket relay shift register
+G11C  19/18 120 \	3	3	5B074	G11C  19/18	5	多数のシフトレジスタの編成，例．再生成，タイミング，入出力回路（ＦＩＦＯ　Ｇ０６Ｆ５／０６；　ＬＩＦＯ　Ｇ０６Ｆ７／７８）	formation of many shift register, e.g. regeneration, timing, input/output circuit (FIFO G06F5/06; LFO G06F7/78)
+G11C  19/20  \	1	1	5B074	G11C  19/20	9	放電管を用いるもの（Ｇ１１Ｃ１９／１４が優先）［２］	using discharge tubes (G11C 19/14 takes precedence) [2]
+G11C  19/28  \	1	1	5B074	G11C  19/28	597	半導体素子を用いるもの（Ｇ１１Ｃ１９／１４，Ｇ１１Ｃ１９／３６が優先）［２，７］	using semiconductor elements (G11C 19/14 takes precedence) [2]
+G11C  19/28 100 \	2	2	5B074	G11C  19/28	19	空乏層に電荷蓄積するもの，例．電荷結合素子（ＣＣＤ）	carge storage in space charge layer, e.g. charge coupled device (CCD)
+G11C  19/28 105 \	3	3	5B074	G11C  19/28	9	周辺回路，例．初段に書込み、最終段から読み出すためのもの	peripheral circuit, e.g. write in first layer and read out from last layer
+G11C  19/28 120 \	2	2	5B074	G11C  19/28	9	多数のシフトレジスタの編成（ＦＩＦＯ　Ｇ０６Ｆ５／０６；　ＬＩＦＯ　Ｇ０６Ｆ７／７８）	formation of many shift register, e.g. regeneration, timing, input/output circuit (FIFO G06F5/06; LFO G06F7/78)
+G11C  19/28 200 \	2	2	5B074	G11C  19/28	44	バイポーラＦＦ回路	bipolar FF circuit
+G11C  19/28 210 \	2	2	5B074	G11C  19/28	743	ＦＥＴＦＦ回路	FETFF circuit
+G11C  19/28 220 \	2	2	5B074	G11C  19/28	28	バイポーラ転送ゲート型	bipolar transfer gate type
+G11C  19/28 230 \	2	2	5B074	G11C  19/28	1953	ＦＥＴ転送ゲート型	FET transfer gate type
+G11C  19/28 240 \	2	2	5B074	G11C  19/28	14	トンネルダイオード	tunnel diode
+G11C  19/30  \	1	1	5B074	G11C  19/30	27	オプト―エレクトロニクス装置，すなわち電気的または光学的に結合された光放射および光―電気装置を用いるもの［２］	using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled [2]
+G11C  19/32  \	1	1	5B074	G11C  19/32	13	超電導素子を用いるもの［２］	using super-conductive elements [2]
+G11C  19/34  \	1	1	5B074	G11C  19/34	3	３以上の異なる安定状態を有する記憶素子を用いるもの，例．電圧によるもの，電流によるもの，位相によるもの，周波数によるもの［７］	using storage elements with more than two stable states represented by steps, e.g. of voltage, current, phase, frequency [7]
+G11C  19/36  \	2	2	5B074	G11C  19/36	2	半導体素子を用いるもの［７］	using semiconductor elements [7]
+G11C  19/38  \	1	1	5B074	G11C  19/38	14	二次元の，例．水平方向と垂直方向に情報が移動するシフト・レジスター［７］	two-dimensional, e.g. horizontal and vertical shift registers [7]
+G11C  21/00  \	0	0	5B074	G11C  21/00	177	情報が循環する形式のデジタル記憶装置（ステップ形式のものＧ１１Ｃ１９／００）	Digital stores in which the information circulates (stepwise G11C 19/00)
+G11C  21/02  \	1	1	5B074	G11C  21/02	1	電子機械的遅延線，例．水銀タンク，を用いるもの	using electromechanical delay lines, e.g. using a mercury tank
+G11C  21/02 100 \	2	2	5B074	G11C  21/02	20	圧電トランスデューサーを用いるもの，例．水銀タンク	using piezoelectricity transducer, e.g.  mercury tank
+G11C  21/02 110 \	2	2	5B074	G11C  21/02	18	磁歪トランスデューサーを用いるもの，例．ニッケル遅延線	using magneto-strictiion transducer, e.g.  nickel delay line
+G11C  23/00  \	0	0	5B074	G11C  23/00	24	機械的部分の移動によって記憶を行なわせることを特徴とするデジタル記憶装置，例．ボールを用いるもの；そのための記憶素子［２００６．０１］	Digital stores characterised by movement of mechanical parts to effect storage, e.g. using balls; Storage elements therefor [2006.01]
+G11C  25/00  \	0	0	5B067	G11C  25/00	12	流体の利用を特徴とするデジタル記憶装置；そのための記憶素子	Digital stores characterised by the use of flowing media; Storage elements therefor
+G11C  27/00  \	0	0	5B066	G11C  27/00	1044	電気的アナログ記憶装置，例．瞬時値を記憶するためのもの	Electric analogue stores, e.g. for storing instantaneous values
+G11C  27/00 200 \	1	1	5B066	G11C  27/00	93	不揮発性電荷蓄積を伴うもの，例．浮動ゲートまたはＭＮＯＳ上のもの	with non-volatile charge storage, e.g. on floating gate or MNOS
+G11C  27/02  \	1	1	5B066	G11C  27/02	93	抽出・保持装置（Ｇ１１Ｃ２７／０４が優先）［２００６．０１］	Sample-and-hold arrangements (G11C 27/04 takes precedence) [2006.01]
+G11C  27/02 100 \	2	2	5B066	G11C  27/02	3	磁気メモリ素子を使用するもの	using a magnetic memory element
+G11C  27/02 200 \	2	2	5B066	G11C  27/02	4	容量性メモリ素子を使用するもの（Ｇ１１Ｃ２７／０４が優先）	using a capacitive memory element (G11C27/04 takes precedence)
+G11C  27/02 210 \	3	3	5B066	G11C  27/02	139	ピークホールド回路を含むもの（交流またはパルスのピーク値の測定Ｇ０１Ｒ１９／０４）	including peak hold circuits (measurement of peak values of alternate currents or pulses; G01R19/04)
+G11C  27/02 220 \	3	3	5B066	G11C  27/02	80	特定のスイッチング手段，回路形式によるもの	using specific switching measures or form of circuits
+G11C  27/02 230 \	4	4	5B066	G11C  27/02	94	ダイオードスイッチを用いるもの	using diode switches
+G11C  27/02 240 \	4	4	5B066	G11C  27/02	191	トランジスタスイッチを用いるもの	using transistor switches
+G11C  27/02 245 \	5	5	5B066	G11C  27/02	138	差動トランジスタ対を用いるもの	using  a pair of differential transistors
+G11C  27/02 250 \	4	4	5B066	G11C  27/02	0	増幅器に関連するもの	related to amplifiers
+G11C  27/02 255 \	5	5	5B066	G11C  27/02	222	負帰還ループをもつ演算増幅器を用いるもの	using operation amplifiers with negative return loop
+G11C  27/02 260 \	4	4	5B066	G11C  27/02	26	電流モード回路，例．スイッチトカレントメモリ	Current mode circuits, e.g. switched current memories
+G11C  27/02 310 \	3	3	5B066	G11C  27/02	114	機能により特徴付けられるもの	characterised by functions
+G11C  27/02 320 \	4	4	5B066	G11C  27/02	96	入出力特性に関するもの	related to the characteristics of input and output
+G11C  27/02 330 \	4	4	5B066	G11C  27/02	199	スイッチング雑音／オフセットの除去のためのもの	for removing switching noises/offset
+G11C  27/02 340 \	4	4	5B066	G11C  27/02	95	リーク／ドリフト対策のためのもの	for countermeasures against leakage/drift
+G11C  27/02 350 \	4	4	5B066	G11C  27/02	108	高速化のための変形，例．複数のサンプルホールド回路を交互に動作させるもの（Ｇ１１Ｃ２７／０２，２２０が優先）	Transformation for acceleration, e.g. operating a plurality of sample hold circuits alternately (G11C27/02, 220 takes precedence)
+G11C  27/04  \	1	1	5B063	G11C  27/04	1283	シフトレジスタ［２００６．０１］	Shift registers [2006.01]
+G11C  29/00  \	0	0	5L206	G11C  29/00	308	正確な動作のための記憶装置のチェック；スタンバイまたはオフライン動作中の記憶装置のテスト［１，８］	Checking stores for correct operation; Testing stores during standby or offline operation [1, 8]
+G11C  29/00 401 \	1	1	5L206	G11C  29/00	119	シリアルメモリにおけるもの	in serial memories
+G11C  29/00 402 \	1	1	5L206	G11C  29/00	394	ウェハスケールレベルのもの，すなわち，ＷＳＩ（製造中の試験および構成のためのものＨ０１Ｌ２１／６６）	at wafer scale level, i.e. WsI (for test and configuration during manufacture H01L21/66 )
+G11C  29/00 404 \	1	1	5L206	G11C  29/00	2371	スペアまたは再構成を用いるメモリ内の故障のマスキング	Masking faults in memories by using spares or by reconfiguring
+G11C  29/00 406 \	2	2	5L206	G11C  29/00	416	周辺回路を置換することによるもの，例．故障したものの代わりに用いられるスペア電圧生成器，デコーダ，またはセンスアンプ	by replacing auxiliary circuits, e.g. spare voltage generators, decoders or sense amplifiers, to be used instead of defective ones
+G11C  29/00 408 \	2	2	5L206	G11C  29/00	260	最適な置換アルゴリズムと共に用いられるもの	with optimized replacement algorithms
+G11C  29/00 410 \	2	2	5L206	G11C  29/00	338	二重メモリを用いるもの，例．二重コピーを用いるもの	using duplex memories, i.e. using dual copies
+G11C  29/00 412 \	2	2	5L206	G11C  29/00	703	アドレス変換または変更を用いるもの	using address translation or modifications
+G11C  29/00 414 \	3	3	5L206	G11C  29/00	364	ソリッドステートディスク内のもの	in solid state disks
+G11C  29/00 416 \	2	2	5L206	G11C  29/00	1550	プログラマブルデバイスを用いるもの	using programmable devices
+G11C  29/00 418 \	3	3	5L206	G11C  29/00	553	冗長デコーダと組み合わせるもの	combined in a redundant decoder
+G11C  29/00 420 \	3	3	5L206	G11C  29/00	19	置換セルのリフレッシュを行うもの，例．ＤＲＡＭ内	with refresh of replacement cells, e.g. in DRAMs
+G11C  29/00 422 \	3	3	5L206	G11C  29/00	7	冗長プログラミングスキーム	with redundancy programming schemes
+G11C  29/00 424 \	4	4	5L206	G11C  29/00	3	階層的なヒューズを用いるもの（ヒューズを用いたメモリ一般Ｇ１１Ｃ１７／１６）	using a fuse hierarchy (for memories using fuses in general G11C17/16 )
+G11C  29/00 426 \	4	4	5L206	G11C  29/00	398	不揮発性セルまたはラッチを用いるもの（消去可能なプログラム可能なメモリセル一般Ｇ１１Ｃ１７／００）	using non-volatile cells or latches (erasable programmable memory cells in general G11C17/00 )
+G11C  29/00 428 \	3	3	5L206	G11C  29/00	640	改良されたレイアウト	with improved layout
+G11C  29/00 454 \	3	3	5L206	G11C  29/00	53	消費電力の削減	with reduced power consumption
+G11C  29/00 456 \	4	4	5L206	G11C  29/00	297	故障した要素の切り離し	with disconnection of faulty elements
+G11C  29/00 458 \	3	3	5L206	G11C  29/00	202	冗長置換のためのロールコール配置	with roll call arrangements for redundant substitutions
+G11C  29/00 460 \	3	3	5L206	G11C  29/00	687	故障したスペアの置換	with substitution of defective spares
+G11C  29/00 462 \	3	3	5L206	G11C  29/00	14	改良されたアクセス時間または安定性	with improved access time or stability
+G11C  29/00 464 \	4	4	5L206	G11C  29/00	250	信号経路に遅延を挿入することによるもの	by introducing a delay in a signal path
+G11C  29/00 466 \	4	4	5L206	G11C  29/00	85	デコーダのステージを分割することによるもの	by splitting the decoders in stages
+G11C  29/00 468 \	4	4	5L206	G11C  29/00	432	出力段において冗長線を選択するもの	by choosing redundant lines at an output stage
+G11C  29/00 470 \	4	4	5L206	G11C  29/00	193	隣接スイッチングによるもの	by adjacent switching
+G11C  29/00 472 \	2	2	5L206	G11C  29/00	68	シリアルアクセスメモリ内のもの，例．シフトレジスタ，ＣＣＤまたはバブルメモリ	in serial access memories, e.g. shift registers, CCDs, bubble memories
+G11C  29/00 474 \	2	2	5L206	G11C  29/00	9	部分良品メモリにおけるもの	with partially good memories
+G11C  29/00 476 \	3	3	5L206	G11C  29/00	338	一つの故障したメモリデバイスを，削減された容量，例．半分の容量，を有するメモリとして用いるもの	using a single defective memory device with reduced capacity, e.g. half capacity
+G11C  29/00 478 \	3	3	5L206	G11C  29/00	866	複数の故障したメモリを連続したアドレス範囲を与えるように組み合わせるもの，例．一つのデバイスが他のデバイスにおける故障したブロックを置換するワーキングブロックを提供するもの	combining plural defective memory devices to provide a contiguous address range, e.g. one device supplies working blocks to replace defective blocks in another device
+G11C  29/02  \	1	1	5L206	G11C  29/02	1013	故障した周辺回路の検出またはその位置の特定［８］	Detection or location of defective auxiliary circuits, e.g. defective refresh counters [8]
+G11C  29/02 100 \	2	2	5L206	G11C  29/02	306	電圧または電流生成器におけるもの	in voltage or current generators
+G11C  29/02 110 \	2	2	5L206	G11C  29/02	603	Ｉ／Ｏ回路におけるもの	in I/O circuitry
+G11C  29/02 120 \	2	2	5L206	G11C  29/02	12	クロック生成器またはタイミング回路におけるもの	in clock generator or timing circuitry
+G11C  29/02 130 \	2	2	5L206	G11C  29/02	314	デコーダにおけるもの	in decoders
+G11C  29/02 140 \	2	2	5L206	G11C  29/02	1445	信号線におけるもの	in signal lines
+G11C  29/02 150 \	2	2	5L206	G11C  29/02	14	センスアンプにおけるもの	in sense amplifiers
+G11C  29/02 160 \	2	2	5L206	G11C  29/02	0	ヒューズにおけるもの	in fuses
+G11C  29/02 170 \	2	2	5L206	G11C  29/02	20	適合またはパラメータのトリミングを伴うもの	with adaption or trimming of parameters
+G11C  29/04  \	1	1	5L206	G11C  29/04	2051	故障したメモリ素子の検出またはその位置の特定［８］	Detection or location of defective memory elements [8]
+G11C  29/06  \	2	2	5L206	G11C  29/06	707	加速試験［８］	Acceleration testing [8]
+G11C  29/08  \	2	2	5L206	G11C  29/08	913	機能試験，例．リフレッシュ中の試験，パワーオン・セルフテスト［ＰＯＳＴ］，または分散テスト［８］	Functional testing, e.g. testing during refresh, power-on self testing [POST] or distributed testing [8]
+G11C  29/10  \	3	3	5L206	G11C  29/10	1	テストアルゴリズム，例．メモリスキャン［ＭＳｃａｎ］アルゴリズム；テストパターン，例．チェックボードパターン［８］	Test algorithms, e.g. memory scan [MScan] algorithms; Test patterns, e.g. checkerboard patterns [8]
+G11C  29/10 100 \	4	4	5L206	G11C  29/10	184	テストパターン	Test patterns
+G11C  29/10 110 \	5	5	5L206	G11C  29/10	301	パターン生成に特徴のあるもの	having characteristic in pattern generation
+G11C  29/10 120 \	6	6	5L206	G11C  29/10	70	チェッカーボードパターン	Checkerboard patterns
+G11C  29/10 130 \	6	6	5L206	G11C  29/10	28	ランダムパターン	Random patterns
+G11C  29/10 140 \	6	6	5L206	G11C  29/10	42	アドレスからの生成	generate from address
+G11C  29/10 150 \	5	5	5L206	G11C  29/10	2	アドレスハミング距離	Address humming distance
+G11C  29/10 160 \	5	5	5L206	G11C  29/10	52	アドレス変換	Address conversion
+G11C  29/12  \	3	3	5L206	G11C  29/12	3525	試験のための組み込み装置，例．組み込み自己テスト［ＢＩＳＴ］［８］	Built-in arrangements for testing, e.g. built-in self testing [BIST] [8]
+G11C  29/14  \	4	4	5L206	G11C  29/14	5	制御データの実施，例．テストモードのデコーダー［８］	Implementation of control logic, e.g. test mode decoders [8]
+G11C  29/16  \	5	5	5L206	G11C  29/16	23	マイクロプログラム方式のユニットを使用するもの，例．ステートマシン［８］	using microprogrammed units, e.g. state machines [8]
+G11C  29/18  \	4	4	5L206	G11C  29/18	13	アドレス作成装置；メモリにアクセスするための装置，例．アドレス回路の細部［８］	Address generation devices; Devices for accessing memories, e.g. details of addressing circuits [8]
+G11C  29/18 100 \	5	5	5L206	G11C  29/18	136	アドレスデコーダ	Address decoder
+G11C  29/18 120 \	5	5	5L206	G11C  29/18	27	アドレス変換またはマッピング，例．論理物理アドレス変換	Address conversion or mapping, i.e. logical to physical address
+G11C  29/20  \	5	5	5L206	G11C  29/20	35	カウンタまたは線形フィードバックシフトレジスタ［ＬＦＳＲ］を使用するもの［８］	using counters or linear-feedback shift registers [LFSR] [8]
+G11C  29/22  \	5	5	5L206	G11C  29/22	60	シリアルメモリへアクセスするもの［８］	Accessing serial memories [8]
+G11C  29/24  \	5	5	5L206	G11C  29/24	154	補助的なセルへアクセスするもの，例．ダミーセルまたは冗長セル［８］	Accessing extra cells, e.g. dummy cells or redundant cells [8]
+G11C  29/26  \	5	5	5L206	G11C  29/26	423	マルチプルアレイへアクセスするもの（Ｇ１１Ｃ２９／２４が優先）［８］	Accessing multiple arrays (G11C29/24 takes precedence) [8]
+G11C  29/26 100 \	6	6	5L206	G11C  29/26	513	同時テスト	Concurrent test
+G11C  29/28  \	6	6	5L206	G11C  29/28	0	依存関係のあるマルチプルアレイ，例．マルチビットを持つアレイ［８］	Dependent multiple arrays, e.g. multi-bit arrays [8]
+G11C  29/30  \	5	5	5L206	G11C  29/30	46	シングルアレイへアクセスするもの［８］	Accessing single arrays [8]
+G11C  29/32  \	6	6	5L206	G11C  29/32	24	シリアルアクセス；スキャンテスト［８］	Serial access; Scan testing [8]
+G11C  29/32 100 \	7	7	5L206	G11C  29/32	379	スキャンチェーン	scan chain
+G11C  29/34  \	6	6	5L206	G11C  29/34	37	マルチビットに同時にアクセスするもの［８］	Accessing multiple bits simultaneously [8]
+G11C  29/36  \	4	4	5L206	G11C  29/36	367	データ作成装置，例．データ変換器［８］	Data generation devices, e.g. data inverters [8]
+G11C  29/38  \	4	4	5L206	G11C  29/38	3	応答検証装置［８］	Response verification devices [8]
+G11C  29/40  \	5	5	5L206	G11C  29/40	36	圧縮技術を使用するもの［８］	using compression techniques [8]
+G11C  29/42  \	5	5	5L206	G11C  29/42	209	誤り訂正符号［ＥＣＣ］またはパリティチェックを使用するもの［８］	using error correcting codes [ECC] or parity check [8]
+G11C  29/44  \	4	4	5L206	G11C  29/44	40	誤りの表示または識別，例．復旧のためのもの［８］	Indication or identification of errors, e.g. for repair [8]
+G11C  29/44 100 \	5	5	5L206	G11C  29/44	70	自己修復のためのもの	for self repair
+G11C  29/44 110 \	5	5	5L206	G11C  29/44	327	テスト結果，品質データ，チップＩＤまたは修復情報の内部ストレージ	Internal storage of test result, quality data, chip identification, repair information
+G11C  29/46  \	4	4	5L206	G11C  29/46	639	テストトリガーロジック［８］	Test trigger logic [8]
+G11C  29/48  \	3	3	5L206	G11C  29/48	634	記憶装置の外部の手段による試験に特に適した静的記憶装置，例．ダイレクトメモリアクセス［ＤＭＡ］を使用するもの，または周辺アクセス経路を使用するもの［２００６．０１］	Arrangements in static stores specially adapted for testing by means external to the store, e.g. using direct memory access [DMA] or using auxiliary access paths [2006.01]
+G11C  29/50  \	2	2	5L206	G11C  29/50	14	マージン試験，例．タイミング，電圧，または電流試験［８］	Marginal testing, e.g. race, voltage or current testing [8]
+G11C  29/50 100 \	3	3	5L206	G11C  29/50	462	閾値電圧のマージン試験	Marginal testing of threshold voltage
+G11C  29/50 110 \	3	3	5L206	G11C  29/50	1	インピーダンスのマージン試験	Marginal testing of impedance
+G11C  29/50 120 \	3	3	5L206	G11C  29/50	155	タイミングのマージン試験	Marginal testing of timing
+G11C  29/50 130 \	3	3	5L206	G11C  29/50	3	リテンションのマージン試験	Marginal testing of retention
+G11C  29/50 150 \	3	3	5L206	G11C  29/50	151	電圧のマージン試験	Marginal testing of voltage
+G11C  29/52  \	1	1	5L206	G11C  29/52	1317	メモリ内容の保護；メモリ内容の誤りの検出［８］	Protection of memory contents; Detection of errors in memory contents [8]
+G11C  29/54  \	1	1	5L206	G11C  29/54	2	試験回路を設計するための装置，例．テスト容易化設計［ＤＦＴ］ツール［８］	Arrangements for designing test circuits, e.g. design for test [DFT] tools [8]
+G11C  29/56  \	1	1	5L206	G11C  29/56	19	静的記憶のための外部試験装置，例．自動検査装置［ＡＴＥ］；そのインターフェース［８］	External testing equipment for static stores, e.g. automatic test equipment [ATE]; Interfaces therefor [8]
+G11C  29/56 100 \	2	2	5L206	G11C  29/56	15	パターン生成器	Pattern generation
+G11C  29/56 105 \	2	2	5L206	G11C  29/56	171	エラー分析，エラーの表現	Error analysis, representation of errors
+G11C  29/56 110 \	2	2	5L206	G11C  29/56	149	タイミングの側面，クロック生成または同期	Timing aspects, clock generation, synchronisation
+G11C  29/56 135 \	2	2	5L206	G11C  29/56	260	並列試験	Concurrent test
+G11C  29/56 140 \	2	2	5L206	G11C  29/56	156	高速化	speeding up
+G11C  29/56 155 \	2	2	5L206	G11C  29/56	116	試験結果の圧縮	Compressing test results
+G11C  99/00  \	0	0	5B066	G11C  99/00	0	このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass [8]

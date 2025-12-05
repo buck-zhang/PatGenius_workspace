@@ -1,0 +1,404 @@
+A61L   2/00  \	0	0	4C058	A61L   2/00	276	食料品またはコンタクトレンズ以外の材料またはものを消毒または殺菌するための方法または装置；その付属品（消毒剤の噴霧器Ａ６１Ｍ；包装に関連する包装体または包装される内容物の殺菌Ｂ６５Ｂ５５／００；水，廃水，下水または汚泥の処理Ｃ０２Ｆ；消毒紙Ｄ２１Ｈ２１／３６；水洗便所の消毒装置Ｅ０３Ｄ；消毒設備をもつ物品は，それらの物品に関連するサブクラス，例．Ｈ０４Ｒ１／１２，を参照）［３，５，７］	Disinfection or sterilising
+A61L   2/02  \	1	1	4C058	A61L   2/02	380	物理現象を利用するもの［３］	using physical phenomena [3]
+A61L   2/02 100 \	2	2	4C058	A61L   2/02	80	ろ過	filtering
+A61L   2/025  \	2	2	4C058	A61L   2/025	102	超音波［７］	Ultrasonics
+A61L   2/03  \	2	2	4C058	A61L   2/03	129	電流，例．電気分解［７］	Electric current, e.g. electrolysis
+A61L   2/03 100 \	3	3	4C058	A61L   2/03	50	電解	electrolysis
+A61L   2/04  \	2	2	4C058	A61L   2/04	1804	熱（Ａ６１Ｌ２／０８が優先）［３］	Heat (A61L 2/08 takes precedence) [3]
+A61L   2/06  \	3	3	4C058	A61L   2/06	692	熱ガス［３］	Hot gas [3]
+A61L   2/07  \	4	4	4C058	A61L   2/07	2763	水蒸気［７］	Steam
+A61L   2/08  \	2	2	4C058	A61L   2/08	1548	照射［３］	Radiation [3]
+A61L   2/08 100 \	3	3	4C058	A61L   2/08	388	γ線	gamma rays
+A61L   2/08 102 \	3	3	4C058	A61L   2/08	137	Ｘ線	X rays
+A61L   2/08 104 \	3	3	4C058	A61L   2/08	148	可視光線	visible rays
+A61L   2/08 106 \	3	3	4C058	A61L   2/08	172	赤外線	infrared light
+A61L   2/08 108 \	3	3	4C058	A61L   2/08	792	粒子線，例．電子線，αまたはβ線	particle beam, e.g. electron beam, alpha or beta ray
+A61L   2/08 110 \	3	3	4C058	A61L   2/08	357	光触媒または光増感剤を使用するもの	using photocatalytic agent or photosensitizer
+A61L   2/10  \	3	3	4C058	A61L   2/10	3833	紫外線照射［３］	Ultra-violet radiation [3]
+A61L   2/12  \	3	3	4C058	A61L   2/12	367	マイクロ波［３］	Microwaves [3]
+A61L   2/14  \	2	2	4C058	A61L   2/14	671	プラズマ，すちわち，イオン化したガス［３］	Plasma, i.e. ionised gases [3]
+A61L   2/16  \	1	1	4C058	A61L   2/16	543	化学物質を使用するもの［３］	using chemical substances [3]
+A61L   2/18  \	2	2	4C058	A61L   2/18	5116	液状物質［３］	Liquid substances [3]
+A61L   2/18 100 \	3	3	4C058	A61L   2/18	603	オゾン溶存液	dissolved ozone solution
+A61L   2/18 102 \	3	3	4C058	A61L   2/18	817	過酸化物溶液	peroxide solution
+A61L   2/20  \	2	2	4C058	A61L   2/20	1433	ガス状物質，例．蒸気［３］	Gaseous substances, e.g. vapours [3]
+A61L   2/20 100 \	3	3	4C058	A61L   2/20	1095	オゾン	ozone
+A61L   2/20 102 \	3	3	4C058	A61L   2/20	385	ホルムアルデヒド	formaldehyde
+A61L   2/20 104 \	3	3	4C058	A61L   2/20	715	エチレンオキシド	ethylene oxide
+A61L   2/20 106 \	3	3	4C058	A61L   2/20	956	過酸化水素	hydrogen peroxide
+A61L   2/22  \	2	2	4C058	A61L   2/22	717	相物質，例．煙，エアゾール［３］	Phase substances, e.g. smokes, aerosols [3]
+A61L   2/23  \	2	2	4C058	A61L   2/23	323	固体物質，例．顆粒，パウダー，塊，錠剤［７］	Solid substances, e.g. granules, powders, blocks, tablets
+A61L   2/232  \	3	3	4C058	A61L   2/232	201	積層された，または被覆された［７］	layered or coated
+A61L   2/235  \	3	3	4C058	A61L   2/235	35	多泡性，多孔性，または発泡性化された［７］	cellular, porous or foamed
+A61L   2/238  \	3	3	4C058	A61L   2/238	386	金属または合金の，例．オリゴダイナミック金属［７］	Metals or alloys, e.g. oligodynamic metals
+A61L   2/24  \	1	1	4C058	A61L   2/24	1817	プログラム化または自動化された操作を利用する装置［３］	Apparatus using programmed or automatic operation [3]
+A61L   2/26  \	1	1	4C058	A61L   2/26	1167	付属具［３］	Accessories [3]
+A61L   2/28  \	2	2	4C058	A61L   2/28	546	殺菌の効果または完全性をテストするための装置，例．色が変化するインジケーター（酵素または微生物を含む装置Ｃ１２Ｍ１／３４）［７］	Devices for testing the effectiveness or completeness of sterilisation, e.g. indicators which change colour (apparatus involving enzymes or micro-organisms C12M  1/34)
+A61L   9/00  \	0	0	4C180	A61L   9/00	72	空気の消毒，殺菌または脱臭（マスクによる空気の浄化Ａ６２Ｂ，Ａ６２Ｄ９／００；排ガスの化学的または生物学的浄化Ｂ０１Ｄ５３／３４；殺菌機構を組み込んだ空気調和システムＦ２４Ｆ３／１６，Ｆ２４Ｆ８／２０）［２００６．０１］	Disinfection, sterilisation or deodorisation of air (purifying air by respirators A62B, A62D 9/00; chemical or biological purification of waste gases B01D 53/34; air-conditioning systems incorporating sterilisation F24F 3/16, F24F 8/20)
+A61L   9/00  C	0	0	4C180	A61L   9/00	4323	分解，燃焼，薬品との反応によるもの	Using decomposition, combustion, chemical reaction
+A61L   9/00  Z	0	0	4C180	A61L   9/00	952	その他のもの	Others
+A61L   9/01  \	1	1	4C180	A61L   9/01	243	防臭組成物［２００６．０１］	Deodorant compositions
+A61L   9/01  B	1	0	4C180	A61L   9/01	4093	無機防臭剤成分（吸着物質はＡ６１Ｌ９／０１４）	Inorganic deodorizers (sorbent materials A61L 9/014)
+A61L   9/01  E	1	1	4C180	A61L   9/01	1525	反応型	Reaction type
+A61L   9/01  F	1	2	4C180	A61L   9/01	677	二酸化塩素	Chlorine dioxide
+A61L   9/01  H	1	0	4C180	A61L   9/01	1919	有機防臭剤成分	Organic deodorizer ingredients
+A61L   9/01  J	1	1	4C180	A61L   9/01	288	アルデヒド	Aldehydes
+A61L   9/01  K	1	1	4C180	A61L   9/01	1239	Ｎ含有化合物	Compounds containing N
+A61L   9/01  L	1	1	4C180	A61L   9/01	105	イオン交換体	Ion exchangers
+A61L   9/01  M	1	1	4C180	A61L   9/01	598	殺菌剤；防腐剤	Sterilising materials, preservatives
+A61L   9/01  P	1	0	4C180	A61L   9/01	649	微生物又は酵素を含むもの	Containing microorganisms or enzyme
+A61L   9/01  Q	1	0	4C180	A61L   9/01	1072	芳香剤成分を含むもの，例．芳香剤の特徴	Containing aromatic ingredients, e.g. characteristics of aromatics
+A61L   9/01  U	1	1	4C180	A61L   9/01	213	更に他の成分を含むもの，例．無機化合物を含むもの	Containing additional ingredients, e.g. containing inorganic compounds
+A61L   9/01  V	1	2	4C180	A61L   9/01	542	低分子有機化合物	Low polymer organic compounds
+A61L   9/01  W	1	2	4C180	A61L   9/01	168	天然高分子化合物	Natural high polymer compounds
+A61L   9/01  X	1	2	4C180	A61L   9/01	198	付加系高分子化合物	Additional high polymer compounds
+A61L   9/01  Y	1	2	4C180	A61L   9/01	134	縮合系高分子化合物	Condensation high polymer compounds
+A61L   9/01  Z	1	0	4C180	A61L   9/01	250	その他のもの	Others
+A61L   9/012  \	2	2	4C180	A61L   9/012	5592	特殊な形態であることに特徴があるもの，例．ゲル，エマルジョン［２００６．０１］	characterised by being in a special form, e.g. gels, emulsions
+A61L   9/013  \	2	2	4C180	A61L   9/013	5722	動物または植物の抽出物，あるいは植物成分を含有するもの［２００６．０１］	containing animal or plant extracts, or vegetable material
+A61L   9/014  \	2	2	4C180	A61L   9/014	7538	吸着物質，例．活性炭素，を含有するもの［２００６．０１］	containing sorbent material, e.g. activated carbon
+A61L   9/015  \	1	1	4C180	A61L   9/015	2020	ガス状または蒸気状物質，例．オゾン，を使用するもの（Ａ６１Ｌ９／２０が優先）［２００６．０１］	using gaseous or vaporous substances, e.g. ozone (A61L 9/20 takes precedence) [3]
+A61L   9/02  \	2	2	4C180	A61L   9/02	207	加熱または燃焼によって空気中に発散された物質を使用するもの［２００６．０１］	using substances evaporated in the air by heating or combustion [3]
+A61L   9/03  \	3	3	4C180	A61L   9/03	1307	そのための装置［２００６．０１］	Apparatus therefor [3]
+A61L   9/04  \	2	2	4C180	A61L   9/04	792	加熱することなく空気中に発散された物質を使用するもの［２００６．０１］	using substances evaporated in the air without heating [3]
+A61L   9/05  \	3	3	4C180	A61L   9/05	222	液体と接触することで解放されるもの，例．トイレ用のもの［２００６．０１］	specially adapted to be released by contact with a liquid, e.g. for toilets
+A61L   9/12  \	3	3	4C180	A61L   9/12	6577	そのための装置，例．保持具［２００６．０１］	Apparatus, e.g. holders, therefor [3]
+A61L   9/14  \	1	1	4C180	A61L   9/14	2350	噴霧または微粒子化された物質を使用するもの［２００６．０１］	using sprayed or atomised substances [3]
+A61L   9/16  \	1	1	4C180	A61L   9/16	77	物理現象を利用するもの［２００６．０１］	using physical phenomena [3]
+A61L   9/16  F	1	0	4C180	A61L   9/16	1100	濾過現象を利用するもの	Using filtering phenomenon
+A61L   9/16  Z	1	0	4C180	A61L   9/16	821	その他のもの	Others
+A61L   9/18  \	2	2	4C180	A61L   9/18	945	照射（Ａ６１Ｌ９／２２が優先）［２００６．０１］	Radiation (A61L 9/22 takes precedence) [3]
+A61L   9/20  \	3	3	4C180	A61L   9/20	2560	紫外線照射［２００６．０１］	Ultra-violet radiation [3]
+A61L   9/22  \	2	2	4C180	A61L   9/22	2196	イオン化［２００６．０１］	Ionisation [3]
+A61L  11/00  \	0	0	4C058	A61L  11/00	799	廃物に特に適合する消毒または殺菌方法	Disinfection or sterilising methods specially adapted for refuse
+A61L  12/00  \	0	0	4C058	A61L  12/00	12	コンタクトレンズを消毒または殺菌するための方法や装置；そのための付属品［７］	Methods or apparatus for disinfecting or sterilising contact lenses; Accessories therefor
+A61L  12/02  \	1	1	4C058	A61L  12/02	10	物理現象を利用するもの，例．電気，超音波または限外濾過［７］	using physical phenomena, e.g. electricity, ultrasonics or ultrafiltration
+A61L  12/02 100 \	2	2	4C058	A61L  12/02	8	電解	electrolysis
+A61L  12/02 102 \	2	2	4C058	A61L  12/02	6	超音波	ultrasonics
+A61L  12/04  \	2	2	4C058	A61L  12/04	127	熱（Ａ６１Ｌ１２／０６が優先）［７］	Heat (A61L 12/06 takes precedence);;
+A61L  12/06  \	2	2	4C058	A61L  12/06	20	照射，例．紫外線またはマイクロ波［７］	Radiation, e.g. ultra-violet or microwaves
+A61L  12/06 100 \	3	3	4C058	A61L  12/06	34	紫外線照射	ultravuolet irradiation
+A61L  12/06 102 \	3	3	4C058	A61L  12/06	3	マイクロ波	micro wave
+A61L  12/08  \	1	1	4C058	A61L  12/08	54	化学物質を利用するもの［７］	using chemical substances
+A61L  12/08 100 \	2	2	4C058	A61L  12/08	24	特定の酵素を併用するもの	use particular enzyme at the same time
+A61L  12/08 102 \	2	2	4C058	A61L  12/08	5	ガス状のもの	gaseous
+A61L  12/08 104 \	2	2	4C058	A61L  12/08	59	容器，付属品またはそのための装置	container, accessory or device thereof
+A61L  12/08 106 \	2	2	4C058	A61L  12/08	21	重金属	heavy metal
+A61L  12/10  \	2	2	4C058	A61L  12/10	51	ハロゲンまたはその化合物［７］	Halogens or compounds thereof
+A61L  12/10 100 \	3	3	4C058	A61L  12/10	13	二酸化塩素	chlorine dioxide
+A61L  12/10 102 \	3	3	4C058	A61L  12/10	26	ヨウ素，ヨウ化物またはヨードフォア	iodine, iodide or iodophor
+A61L  12/10 104 \	3	3	4C058	A61L  12/10	34	次亜ハロゲン酸塩；活性ハロゲン	hypohalous halogen chlorine; active halogen
+A61L  12/12  \	2	2	4C058	A61L  12/12	44	非高分子酸素含有化合物，例．過酸化水素またはオゾン（Ａ６１Ｌ１２／１０が優先）［７］	Non-macromolecular oxygen-containing compounds, e.g hydrogen peroxide or ozone (A61L 12/10 takes precedence);;
+A61L  12/12 100 \	3	3	4C058	A61L  12/12	14	オゾン	ozone
+A61L  12/12 102 \	3	3	4C058	A61L  12/12	119	過酸化水素；ペルオキシ化合物	hydrogen peroxide; peroxy compound
+A61L  12/12 104 \	4	4	4C058	A61L  12/12	9	カタラーゼまたはペルオキシダーゼで中和されたもの	neutralized by catalase or peroxidase
+A61L  12/12 106 \	4	4	4C058	A61L  12/12	6	触媒で中和されたもの	neutralized by catalyst
+A61L  12/14  \	2	2	4C058	A61L  12/14	124	Ａ６１Ｌ１２／１０またはＡ６１Ｌ１２／１２に分類されない有機化合物［７］	Organic compounds not covered by groups ; A61L 12/10;  or A61L 12/12
+A61L  12/14 100 \	3	3	4C058	A61L  12/14	89	ビグアニド，例．クロルヘキシジン	biguanide, e.g. chlorhexidine
+A61L  12/14 102 \	4	4	4C058	A61L  12/14	84	重合ビグアニド	polymer biguanide
+A61L  12/14 104 \	3	3	4C058	A61L  12/14	74	第四級アンモニウム化合物	quaternary ammpnium compound
+A61L  12/14 106 \	4	4	4C058	A61L  12/14	50	重合第四級アンモニウム化合物	polymer quaternary ammpnium compound
+A61L  12/14 108 \	3	3	4C058	A61L  12/14	5	アルデヒド	aldehyde
+A61L  12/14 110 \	3	3	4C058	A61L  12/14	41	アルコールまたはその誘導体（アルデヒドＡ６１Ｌ１２／１４，１０８）	alcohol or derivative thereof (aldehydeA61L12/14, 108)
+A61L  12/14 112 \	3	3	4C058	A61L  12/14	2	水銀含有化合物，例．チメロサール	mercury containing compound, e.g. thimerosal
+A61L  15/00  \	0	0	4C081	A61L  15/00	1223	包帯，被覆用品，または吸収性パッドの化学的事項または材料の使用（液体包帯Ａ６１Ｌ２６／００；放射性被覆用品Ａ６１Ｍ３６／１４）	Chemical aspects of, or use of materials for, bandages, dressings or absorbent pads (for liquid bandages A61L 26/00; radioactive dressings A61M 36/14)
+A61L  15/07  \	1	1	4C081	A61L  15/07	373	硬直包帯	Stiffening bandages
+A61L  15/08  \	2	2	4C081	A61L  15/08	173	無機物質を含有するもの，例．ギブス包帯［５］	containing inorganic materials, e.g. plaster of Paris [5]
+A61L  15/10  \	2	2	4C081	A61L  15/10	73	有機物質を含有するもの［５］	containing organic materials [5]
+A61L  15/12  \	2	2	4C081	A61L  15/12	318	高分子物質を含有するもの［５］	containing macromolecular materials [5]
+A61L  15/12 100 \	3	3	4C081	A61L  15/12	118	高分子化合物の混合物	mixtures of macromplecular compound
+A61L  15/14  \	2	2	4C081	A61L  15/14	265	それらの機能または物理的性質に特徴のある材料の使用［５］	Use of materials characterised by their function or physical properties [5]
+A61L  15/16  \	1	1	4C081	A61L  15/16	47	尿または血液のような生理学上の体液のための包帯，被覆用品または吸収性パッド，例．月経帯，タンポン［５］	Bandages, dressings or absorbent pads for physiological fluids such as urine or blood, e.g. sanitary towels, tampons [5]
+A61L  15/16 100 \	2	2	4C081	A61L  15/16	166	包帯または被覆用品	bandages or dressings
+A61L  15/16 110 \	3	3	4C081	A61L  15/16	45	絆創膏	adhesive plasters
+A61L  15/16 200 \	2	2	3B200	A61L  15/16	9	吸収性パッド	absorbent pads
+A61L  15/18  \	2	2	4C081	A61L  15/18	178	無機物質を含有するもの［５］	containing inorganic materials [5]
+A61L  15/18 100 \	3	3	4C081	A61L  15/18	846	包帯または被覆用品	bandages or dressings
+A61L  15/18 110 \	4	4	4C081	A61L  15/18	121	絆創膏	adhesive plasters
+A61L  15/18 200 \	3	3	3B200	A61L  15/18	311	吸収性パッド	absorbent pads
+A61L  15/20  \	2	2	4C081	A61L  15/20	100	有機物質を含有するもの［５］	containing organic materials [5]
+A61L  15/20 100 \	3	3	4C081	A61L  15/20	626	包帯または被覆用品	bandages or dressings
+A61L  15/20 110 \	4	4	4C081	A61L  15/20	104	絆創膏	adhesive plasters
+A61L  15/20 200 \	3	3	3B200	A61L  15/20	532	吸収性パッド	absorbent pads
+A61L  15/22  \	2	2	4C081	A61L  15/22	103	高分子物質を含有するもの［５］	containing macromolecular materials [5]
+A61L  15/22 100 \	3	3	4C081	A61L  15/22	450	包帯または被覆用品	bandages or dressings
+A61L  15/22 110 \	4	4	4C081	A61L  15/22	83	絆創膏	adhesive plasters
+A61L  15/22 200 \	3	3	3B200	A61L  15/22	386	吸収性パッド	absorbent pads
+A61L  15/22 300 \	3	3	4C081	A61L  15/22	99	高分子化合物の混合物	mixtures of macromplecular compound
+A61L  15/22 310 \	4	4	4C081	A61L  15/22	419	包帯または被覆用品	bandages or dressings
+A61L  15/22 311 \	5	5	4C081	A61L  15/22	78	絆創膏	adhesive plasters
+A61L  15/22 320 \	4	4	3B200	A61L  15/22	137	吸収性パッド	absorbent pads
+A61L  15/24  \	3	3	4C081	A61L  15/24	403	炭素−炭素不飽和結合のみが関与する反応によって得られる高分子化合物；それらの誘導体［５］	Macromolecular compounds obtained by reactions only involving carbon-to-carbon unsaturated bonds; Derivatives thereof [5]
+A61L  15/24 100 \	4	4	4C081	A61L  15/24	2011	包帯または被覆用品	bandages or dressings
+A61L  15/24 110 \	5	5	4C081	A61L  15/24	390	絆創膏	adhesive plasters
+A61L  15/24 200 \	4	4	3B200	A61L  15/24	757	吸収性パッド	operate
+A61L  15/26  \	3	3	4C081	A61L  15/26	326	炭素−炭素不飽和結合のみが関与する反応以外の反応によって得られる高分子化合物；それらの誘導体［５］	Macromolecular compounds obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds; Derivatives thereof [5]
+A61L  15/26 100 \	4	4	4C081	A61L  15/26	2031	包帯または被覆用品	bandages or dressings
+A61L  15/26 110 \	5	5	4C081	A61L  15/26	251	絆創膏	adhesive plasters
+A61L  15/26 200 \	4	4	3B200	A61L  15/26	266	吸収性パッド	absorbent pads
+A61L  15/28  \	3	3	4C081	A61L  15/28	294	多糖類またはそれらの誘導体［５］	Polysaccharides or their derivatives [5]
+A61L  15/28 100 \	4	4	4C081	A61L  15/28	1810	包帯または被覆用品	bandages or dressings
+A61L  15/28 110 \	5	5	4C081	A61L  15/28	177	絆創膏	adhesive plasters
+A61L  15/28 200 \	4	4	3B200	A61L  15/28	338	吸収性パッド	absorbent pads
+A61L  15/30  \	3	3	4C081	A61L  15/30	55	ゴムまたはそれらの誘導体［５］	Rubbers or their derivatives [5]
+A61L  15/30 100 \	4	4	4C081	A61L  15/30	280	包帯または被覆用品	bandages or dressings
+A61L  15/30 110 \	5	5	4C081	A61L  15/30	77	絆創膏	adhesive plasters
+A61L  15/30 200 \	4	4	3B200	A61L  15/30	43	吸収性パッド	absorbent pads
+A61L  15/32  \	3	3	4C081	A61L  15/32	117	蛋白質，ポリペプチド；それらの分解生成物または誘導体，例．アルブミン，コラーゲン，フィプリン，ゼラチン［５］	Proteins, polypeptides; Degradation products or derivatives thereof, e.g. albumin, collagen, fibrin, gelatin [5]
+A61L  15/32 100 \	4	4	4C081	A61L  15/32	900	包帯または被覆用品	bandages or dressings
+A61L  15/32 110 \	5	5	4C081	A61L  15/32	57	絆創膏	adhesive plasters
+A61L  15/32 200 \	4	4	3B200	A61L  15/32	20	吸収性パッド	absorbent pads
+A61L  15/32 300 \	4	4	4C081	A61L  15/32	89	コラーゲン	collagen
+A61L  15/32 310 \	5	5	4C081	A61L  15/32	424	包帯または被覆用品	bandages or dressings
+A61L  15/32 311 \	6	6	4C081	A61L  15/32	22	絆創膏	adhesive plasters
+A61L  15/32 320 \	5	5	3B200	A61L  15/32	1	吸収性パッド	absorbent pads
+A61L  15/34  \	3	3	4C081	A61L  15/34	21	脂肪，脂肪油，ろう，または天然樹脂［５］	Oils, fats, waxes, or natural resins [5]
+A61L  15/34 100 \	4	4	4C081	A61L  15/34	78	包帯または被覆用品	bandages or dressings
+A61L  15/34 110 \	5	5	4C081	A61L  15/34	15	絆創膏	adhesive plasters
+A61L  15/34 200 \	4	4	3B200	A61L  15/34	81	吸収性パッド	absorbent pads
+A61L  15/36  \	2	2	4C081	A61L  15/36	5	微生物を含有するもの［５］	containing micro-organisms [5]
+A61L  15/36 100 \	3	3	4C081	A61L  15/36	29	包帯または被覆用品	bandages or dressings
+A61L  15/36 110 \	4	4	4C081	A61L  15/36	6	絆創膏	adhesive plasters
+A61L  15/36 200 \	3	3	3B200	A61L  15/36	22	吸収性パッド	absorbent pads
+A61L  15/38  \	2	2	4C081	A61L  15/38	12	酵素を含有するもの［５］	containing enzymes [5]
+A61L  15/38 100 \	3	3	4C081	A61L  15/38	69	包帯または被覆用品	bandages or dressings
+A61L  15/38 110 \	4	4	4C081	A61L  15/38	6	絆創膏	adhesive plasters
+A61L  15/38 200 \	3	3	3B200	A61L  15/38	11	吸収性パッド	absorbent pads
+A61L  15/40  \	2	2	4C081	A61L  15/40	40	構造未定の成分またはそれらの反応生成物を含有するもの［５］	containing ingredients of undetermined constitution or reaction products thereof [5]
+A61L  15/40 100 \	3	3	4C081	A61L  15/40	269	包帯または被覆用品	bandages or dressings
+A61L  15/40 110 \	4	4	4C081	A61L  15/40	21	絆創膏	adhesive plasters
+A61L  15/40 200 \	3	3	3B200	A61L  15/40	56	吸収性パッド	absorbent pads
+A61L  15/42  \	2	2	4C081	A61L  15/42	349	それらの機能または物質的性質に特徴のある材料の使用［５］	Use of materials characterised by their function or physical properties [5]
+A61L  15/42 100 \	3	3	4C081	A61L  15/42	1387	包帯または被覆用品	bandages or dressings
+A61L  15/42 110 \	4	4	4C081	A61L  15/42	247	絆創膏	adhesive plasters
+A61L  15/42 200 \	3	3	3B200	A61L  15/42	39	吸収性パッド	absorbent pads
+A61L  15/42 300 \	3	3	4C081	A61L  15/42	176	多孔性物質，例．発泡体または海綿状物	Porous materials, e.g. foams or sponges
+A61L  15/42 310 \	4	4	4C081	A61L  15/42	946	包帯または被覆用品	bandages or dressings
+A61L  15/42 311 \	5	5	4C081	A61L  15/42	114	絆創膏	adhesive plasters
+A61L  15/42 320 \	4	4	3B200	A61L  15/42	54	吸収性パッド	absorbent pads
+A61L  15/44  \	3	3	4C081	A61L  15/44	340	薬剤［５］	Medicaments [5]
+A61L  15/44 100 \	4	4	4C081	A61L  15/44	1894	包帯または被覆用品	bandages or dressings
+A61L  15/44 110 \	5	5	4C081	A61L  15/44	285	絆創膏	adhesive plasters
+A61L  15/44 200 \	4	4	3B200	A61L  15/44	175	吸収性パッド	absorbent pads
+A61L  15/46  \	3	3	4C081	A61L  15/46	66	脱臭剤または悪臭中和剤，例．アンモニアまたはバクテリアの形成を抑制するためのもの［５］	Deodorants or malodour counteractants, e.g. to inhibit the formation of ammonia or bacteria [5]
+A61L  15/46 100 \	4	4	4C081	A61L  15/46	337	包帯または被覆用品	bandages or dressings
+A61L  15/46 110 \	5	5	4C081	A61L  15/46	15	絆創膏	adhesive plasters
+A61L  15/46 200 \	4	4	3B200	A61L  15/46	275	吸収性パッド	absorbent pads
+A61L  15/48  \	3	3	4C081	A61L  15/48	46	表面活性剤［５］	Surfactants [5]
+A61L  15/48 100 \	4	4	4C081	A61L  15/48	87	包帯または被覆用品	bandages or dressings
+A61L  15/48 110 \	5	5	4C081	A61L  15/48	15	絆創膏	adhesive plasters
+A61L  15/48 200 \	4	4	3B200	A61L  15/48	125	吸収性パッド	absorbent pads
+A61L  15/50  \	3	3	4C081	A61L  15/50	6	潤滑剤；粘着防止剤［５］	Lubricants; Anti-adhesive agents [5]
+A61L  15/50 100 \	4	4	4C081	A61L  15/50	39	包帯または被覆用品	bandages or dressings
+A61L  15/50 110 \	5	5	4C081	A61L  15/50	6	絆創膏	adhesive plasters
+A61L  15/50 200 \	4	4	3B200	A61L  15/50	79	吸収性パッド	absorbent pads
+A61L  15/52  \	3	3	4C081	A61L  15/52	18	防水剤［２００６．０１］	Water repellants [5, 2006.01]
+A61L  15/52 100 \	4	4	4C081	A61L  15/52	79	包帯または被覆用品	bandages or dressings
+A61L  15/52 110 \	5	5	4C081	A61L  15/52	10	絆創膏	adhesive plasters
+A61L  15/52 200 \	4	4	3B200	A61L  15/52	23	吸収性パッド	absorbent pads
+A61L  15/54  \	3	3	4C081	A61L  15/54	5	放射線不透過性物質［５］	Radio-opaque materials [5]
+A61L  15/54 100 \	4	4	4C081	A61L  15/54	33	包帯または被覆用品	bandages or dressings
+A61L  15/54 110 \	5	5	4C081	A61L  15/54	2	絆創膏	adhesive plasters
+A61L  15/54 200 \	4	4	3B200	A61L  15/54	1	吸収性パッド	absorbent pads
+A61L  15/56  \	3	3	4C081	A61L  15/56	6	湿り指示薬または着色剤［５］	Wetness-indicators or colorants [5]
+A61L  15/56 100 \	4	4	4C081	A61L  15/56	39	包帯または被覆用品	bandages or dressings
+A61L  15/56 110 \	5	5	4C081	A61L  15/56	6	絆創膏	adhesive plasters
+A61L  15/56 200 \	4	4	3B200	A61L  15/56	32	吸収性パッド	absorbent pads
+A61L  15/58  \	3	3	4C081	A61L  15/58	197	接着剤（生体内での治療または検査で使用される導電性接着剤Ａ６１Ｋ５０／００）［５］	Adhesives(electrically conductive adhesives for use in therapy or testing A61K50/00) [5]
+A61L  15/58 100 \	4	4	4C081	A61L  15/58	737	包帯または被覆用品	bandages or dressings
+A61L  15/58 110 \	5	5	4C081	A61L  15/58	319	絆創膏	adhesive plasters
+A61L  15/58 200 \	4	4	3B200	A61L  15/58	98	吸収性パッド	absorbent pads
+A61L  15/58 300 \	4	4	4C081	A61L  15/58	28	高分子化合物の混合物	mixtures of macromplecular compound
+A61L  15/58 310 \	5	5	4C081	A61L  15/58	101	包帯または被覆用品	bandages or dressings
+A61L  15/58 311 \	6	6	4C081	A61L  15/58	35	絆創膏	adhesive plasters
+A61L  15/58 320 \	5	5	3B200	A61L  15/58	78	吸収性パッド	absorbent pads
+A61L  15/60  \	3	3	4C081	A61L  15/60	177	液体で膨らむゲル形成性物質，例．超吸収剤［５］	Liquid-swellable gel-forming materials, e.g. super-absorbents [5]
+A61L  15/60 100 \	4	4	4C081	A61L  15/60	822	包帯または被覆用品	bandages or dressings
+A61L  15/60 110 \	5	5	4C081	A61L  15/60	51	絆創膏	adhesive plasters
+A61L  15/60 200 \	4	4	3B200	A61L  15/60	553	吸収性パッド	absorbent pads
+A61L  15/62  \	3	3	4C081	A61L  15/62	25	水溶性または水分解性物質［５］	Hydrosoluble or hydrodegradable materials [5]
+A61L  15/62 100 \	4	4	4C081	A61L  15/62	123	包帯または被覆用品	bandages or dressings
+A61L  15/62 110 \	5	5	4C081	A61L  15/62	7	絆創膏	adhesive plasters
+A61L  15/62 200 \	4	4	3B200	A61L  15/62	62	吸収性パッド	absorbent pads
+A61L  15/64  \	3	3	4C081	A61L  15/64	110	身体内に再吸収されるように特に適合させたもの［５］	specially adapted to be resorbable inside the body [5]
+A61L  15/64 100 \	4	4	4C081	A61L  15/64	560	包帯または被覆用品	bandages or dressings
+A61L  15/64 110 \	5	5	4C081	A61L  15/64	23	絆創膏	adhesive plasters
+A61L  15/64 200 \	4	4	3B200	A61L  15/64	2	吸収性パッド	absorbent pads
+A61L  17/00  \	0	0	4C081	A61L  17/00	1210	外科用縫合材料または血管を結紮する材料［３，４］	Materials for surgical sutures or for ligaturing blood vessels [3,4]
+A61L  17/00 100 \	1	1	4C081	A61L  17/00	453	生物活性薬剤を含有するもの，例．薬剤または殺菌剤	containing biologically active agents, e.g. medicament or germicide
+A61L  17/04  \	1	1	4C081	A61L  17/04	385	再吸収されない材料物質［７］	Non-resorbable materials [7]
+A61L  17/06  \	1	1	4C081	A61L  17/06	188	少なくとも部分的に再吸収する物質［７］	At least partly resorbable materials [7]
+A61L  17/08  \	2	2	4C081	A61L  17/08	261	動物起源のもの，例．ガット，コラーゲン［７］	of animal origin, e.g. catgut, collagen [7]
+A61L  17/10  \	2	2	4C081	A61L  17/10	449	高分子物質を含有するもの［７］	containing macromolecular materials [7]
+A61L  17/10 100 \	3	3	4C081	A61L  17/10	320	Ａ６１Ｌ１７／１２に含まれないポリエステル	Polyester not included in A61L17/12
+A61L  17/12  \	3	3	4C081	A61L  17/12	421	グリコール酸または乳酸の，単独重合体もしくは共重合体［７］	Homopolymers or copolymers of glycolic or lactic acid [7]
+A61L  17/14  \	1	1	4C081	A61L  17/14	166	特性改善のための後処理［７］	Post-treatment to improve physical properties [7]
+A61L  17/14 100 \	2	2	4C081	A61L  17/14	438	コーティング	Coating
+A61L  24/00  \	0	0	4C081	A61L  24/00	1442	外科用接着剤またはセメント；人工肛門用具のための接着剤（生体内での治療または検査で使用される導電性接着剤Ａ６１Ｋ５０／００）［７］	Surgical adhesives or cements; Adhesives for colostomy devices(electrically conductive adhesives for use in therapy or testing in vivo A61K50/00) [7]
+A61L  24/00 100 \	1	1	4C081	A61L  24/00	81	構造未定の成分またはそれらの反応生成物	Ingredients of undetermined constitution or reaction products thereof
+A61L  24/00 200 \	1	1	4C081	A61L  24/00	517	それらの機能または物理的性質に特徴のある材料の使用	Use of materials characterised by their function or physical properties
+A61L  24/00 210 \	2	2	4C081	A61L  24/00	429	薬剤；殺生物剤	Medicaments; biocides
+A61L  24/00 220 \	2	2	4C081	A61L  24/00	46	可塑剤	Plasticizers
+A61L  24/00 230 \	2	2	4C081	A61L  24/00	38	噴霧可能な組成物	Sprayable compositions
+A61L  24/00 240 \	2	2	4C081	A61L  24/00	221	ヒドロゲルまたはハイドロコロイドゲル	Hydrogel or hydrocolloid gel
+A61L  24/00 250 \	2	2	4C081	A61L  24/00	139	多孔性物質，例．発泡体または海綿状物	Porous materials, e.g. foams or sponges
+A61L  24/00 260 \	2	2	4C081	A61L  24/00	331	身体に再吸収される物質	Materials resorbable by the body
+A61L  24/00 300 \	1	1	4C081	A61L  24/00	298	複合物質，すなわち、同一または異なる材料からなるマトリックスに分散される物質を含有するもの	Composite materials, i.e. containing one material dispersed in a matrix of the same or different material
+A61L  24/00 310 \	2	2	4C081	A61L  24/00	259	高分子マトリックスを有するもの	having a macromolecular matrix
+A61L  24/00 311 \	3	3	4C081	A61L  24/00	49	高分子充填材料を含有するもの	containing macromolecular fillers
+A61L  24/02  \	1	1	4C081	A61L  24/02	604	無機物質を含有するもの［７］	containing inorganic materials [7]
+A61L  24/04  \	1	1	4C081	A61L  24/04	108	高分子物質を含有するもの［７］	containing macromolecular materials [7]
+A61L  24/04 100 \	2	2	4C081	A61L  24/04	165	高分子物質の混合物	Mixtures of macromolecular materials
+A61L  24/04 200 \	2	2	4C081	A61L  24/04	543	炭素−炭素不飽和結合のみが関与する反応以外の反応によって得られるもの	obtained by reactions other than those involving only carbon-to-carbon unsaturated bonds
+A61L  24/06  \	2	2	4C081	A61L  24/06	664	炭素−炭素不飽和結合のみが関与する反応から得られるもの［７］	obtained by reactions only involving carbon-to-carbon unsaturated bonds [7]
+A61L  24/08  \	2	2	4C081	A61L  24/08	371	多糖類［７］	Polysaccharides [7]
+A61L  24/10  \	2	2	4C081	A61L  24/10	506	ポリペプチド，蛋白質［７］	Polypeptides; proteins [7]
+A61L  24/12  \	2	2	4C081	A61L  24/12	38	イオノマーセメント，例．ガラスイオノマー，セメント［７］	Ionomer cements, e.g. glass-ionomer, cements [7]
+A61L  26/00  \	0	0	4C081	A61L  26/00	673	液体包帯の化学的事項または材料の使用［７］	Chemical aspects of, or use of materials for, liquid bandages [7]
+A61L  27/00  \	0	0	4C081	A61L  27/00	13428	補綴または補綴用品のコーティングのための材料（歯科補綴Ａ６１Ｃ１３／００；補綴の形状または構造Ａ６１Ｆ２／００；義歯のための製剤の使用Ａ６１Ｋ６／８０；人工腎臓Ａ６１Ｍ１／１４）［２００６．０１］	Materials for prostheses or for coating prostheses (dental prostheses A61C13/00;shape or structure of prostheses A61F2/00;use of preparations for artificial teeth A61K6/80;artificial kidneys A61M1/14)
+A61L  27/02  \	1	1	4C081	A61L  27/02	1482	無機材料［７］	Inorganic materials [7]
+A61L  27/04  \	2	2	4C081	A61L  27/04	1923	金属または合金［７］	Metals or alloys [7]
+A61L  27/06  \	3	3	4C081	A61L  27/06	1364	チタンまたはチタン合金［７］	Titanium or titanium alloys [7]
+A61L  27/08  \	2	2	4C081	A61L  27/08	306	炭素［７］	Carbon [7]
+A61L  27/10  \	2	2	4C081	A61L  27/10	1694	セラミックまたはガラス［７］	Ceramics or glasses [7]
+A61L  27/12  \	2	2	4C081	A61L  27/12	3004	リン含有材料，例．アパタイト［７］	Phosphorus-containing materials, e.g. apatite [7]
+A61L  27/14  \	1	1	4C081	A61L  27/14	1295	高分子材料［７］	Macromolecular materials [7]
+A61L  27/16  \	2	2	4C081	A61L  27/16	4135	炭素−炭素不飽和結合のみが関与する反応から得られるもの［７］	obtained by reactions only involving carbon-to-carbon unsaturated bonds [7]
+A61L  27/18  \	2	2	4C081	A61L  27/18	5223	炭素−炭素不飽和結合のみが関与する反応以外の反応から得られるもの［７］	obtained by reactions other than those involving only carbon-to-carbon unsaturated bonds [7]
+A61L  27/20  \	2	2	4C081	A61L  27/20	2871	多糖類［７］	Polysaccharides [7]
+A61L  27/22  \	2	2	4C081	A61L  27/22	2859	ポリペプチド，またはその誘導体［７］	Polypeptides or derivatives thereof [7]
+A61L  27/24  \	3	3	4C081	A61L  27/24	2572	コラーゲン［７］	Collagen [7]
+A61L  27/26  \	2	2	4C081	A61L  27/26	756	高分子物質の混合物［７］	Mixtures of macromolecular materials [7]
+A61L  27/28  \	1	1	4C081	A61L  27/28	687	補綴用品のコーティング用の材料［７］	Materials for coating prostheses [7]
+A61L  27/30  \	2	2	4C081	A61L  27/30	904	無機材料［７］	Inorganic materials [7]
+A61L  27/30 100 \	3	3	4C081	A61L  27/30	119	炭素	Carbon
+A61L  27/32  \	3	3	4C081	A61L  27/32	649	リン含有材料，例．アパタイト［７］	Phosphorus-containing materials, e.g. apatite [7]
+A61L  27/34  \	2	2	4C081	A61L  27/34	2412	高分子材料［７］	Macromolecular materials [7]
+A61L  27/36  \	1	1	4C081	A61L  27/36	79	構造未知の成分またはその反応生成物を含有するもの［７］	containing ingredients of undetermined constitution or reaction products thereof [7]
+A61L  27/36 100 \	2	2	4C081	A61L  27/36	1643	ヒトまたは動物由来の生体材料によって特徴付けられるもの，例．毛，筋膜，魚鱗，絹，シェラック，心膜，胸膜，腎組織，羊膜，柔組織，胎児組織，筋組織，脂肪組織またはエナメル質	characterised by materials of human or animal origin, e.g. hair, fascia, fish scales, silk, shellac, pericardium, pleura, renal tissue, amnion, parenchyma, fetal tissue, muscle tissue, fat tissue or enamelum
+A61L  27/36 110 \	3	3	4C081	A61L  27/36	461	骨，例．脱灰骨または骨粉末	Bone, e.g. decalcified bone or bone meal
+A61L  27/36 120 \	3	3	4C081	A61L  27/36	164	軟骨，滑液	Cartilage, synovial fluid
+A61L  27/36 130 \	3	3	4C081	A61L  27/36	399	細胞外マトリクス	Extracellular matrix
+A61L  27/36 200 \	2	2	4C081	A61L  27/36	112	ヒトまたは動物以外の生体由来材料によって特徴付けられるもの，例．植物抽出物または藻類	characterised by materials of living organism origin other than human being or animal origin, e.g. plant extracts or algae
+A61L  27/36 300 \	2	2	4C081	A61L  27/36	788	身体における適用部位によって特徴付けられるもの（人工血管Ａ６１Ｌ２７／５０，３００；人工皮膚Ａ６１Ｌ２７／６０）	characterised by applied parts of a living body (artificial blood vessel A61L27/50, 300; artificial skin A61L27/60)
+A61L  27/36 310 \	3	3	4C081	A61L  27/36	165	結合組織	Connective tissue
+A61L  27/36 311 \	4	4	4C081	A61L  27/36	697	骨	Bone
+A61L  27/36 312 \	4	4	4C081	A61L  27/36	277	軟骨，例．椎間板	Cartilage, e.g. intervertebral disk
+A61L  27/36 320 \	3	3	4C081	A61L  27/36	235	中空組織，例．膀胱，食道，尿道，子宮または腸	hollow organs, e.g. bladder, esophagus, urethra, uterus, or bowels
+A61L  27/36 400 \	2	2	4C081	A61L  27/36	464	移植の前に特別な処理を施されるもの，例．脱細胞化，脱灰，粉砕，細胞破砕，非コラーゲン性タンパク質除去，非石灰化，架橋，超臨界抽出または酵素処理	treated specially before transplantation, e.g. decellularization, deliming, crush, cell-disruption, removal of noncollagen protein, noncalcification, cross-linking, supercritical extraction or enzymatic treatment
+A61L  27/36 410 \	3	3	4C081	A61L  27/36	485	化学物質での処理によって特徴付けられるもの，例．酵素，界面活性剤，架橋剤または非石灰化剤	characterised by treatment with chemical materials, e.g. enzymes, surfactants, crosslinking agents or calcific agents
+A61L  27/36 420 \	3	3	4C081	A61L  27/36	367	物理的処理によって特徴付けられるもの，例．加圧，周期的加圧，超音波，マイクロ波処理または凍結乾燥	characterised by physical treatment, e.g. pressurization, periodical pressurization, ultrasonic wave, microwave processing or freeze drying
+A61L  27/36 430 \	3	3	4C081	A61L  27/36	106	最終産物の機能または物理的特性によって特徴付けられるもの（Ａ６１Ｌ２７／３６，４１０，Ａ６１Ｌ２７／３６，４２０が優先）	characterised by function or physical properties of an end product(A61L27/36, 410, A61L27/36, 420 take precedence)
+A61L  27/38  \	2	2	4C081	A61L  27/38	1648	動物細胞（人工皮膚に用いるものＡ６１Ｌ２７／６０）［７］	Animal cells(for use in artificial skin A61L27/60) [7]
+A61L  27/38 100 \	3	3	4C081	A61L  27/38	1436	身体における適用部位によって特徴付けられるもの（人工血管はＡ６１Ｌ２７／５０，３００；人工皮膚はＡ６１Ｌ２７／６０）	characterised by an application site of a body (artificial blood vessel A61L27/50, 300; artificial skin A61L27/60)
+A61L  27/38 110 \	4	4	4C081	A61L  27/38	199	結合組織	Connective tissues
+A61L  27/38 111 \	5	5	4C081	A61L  27/38	514	骨	Bones
+A61L  27/38 112 \	5	5	4C081	A61L  27/38	550	軟骨，例．椎間板	Cartilage, e.g. intervertebral disk
+A61L  27/38 120 \	4	4	4C081	A61L  27/38	305	中空組織，例．膀胱，食道，尿道または子宮	Hollow organs, e.g. bladder, esophagus, urethra or uterus
+A61L  27/38 200 \	3	3	4C081	A61L  27/38	354	二種類以上の細胞を含むもの	Including two or more types of cells
+A61L  27/38 300 \	3	3	4C081	A61L  27/38	1898	特定の条件によって培養されるもの，例．幹細胞に対する分化誘導または拍動流負荷	Cultivated under specific conditions, e.g. inducing differentiation or pulsatile flow load of stem cells
+A61L  27/40  \	1	1	4C081	A61L  27/40	4120	複合材料，例．層状のものまたはある物質を同一もしくは異なる物質からなるマトリックスに分散させたもの［７］	Composite materials, e.g. layered or containing one material dispersed in a matrix of the same or different material [7]
+A61L  27/42  \	2	2	4C081	A61L  27/42	812	無機物質のマトリックスを持つもの［７］	having an inorganic matrix [7]
+A61L  27/44  \	2	2	4C081	A61L  27/44	1933	高分子のマトリックスを持つもの［７］	having a macromolecular matrix [7]
+A61L  27/44 100 \	3	3	4C081	A61L  27/44	42	炭素充填材料を有するもの	having carbon fillers
+A61L  27/46  \	3	3	4C081	A61L  27/46	418	リンを含む無機物質の充填剤を含むもの［７］	including phosphorus-containing inorganic fillers [7]
+A61L  27/48  \	3	3	4C081	A61L  27/48	302	高分子の充填剤を含むもの［７］	with macromolecular fillers [7]
+A61L  27/50  \	1	1	4C081	A61L  27/50	4411	機能または物理的特性に特徴のある材料［７］	Materials characterised by their function or physical properties [7]
+A61L  27/50 100 \	2	2	4C081	A61L  27/50	150	可塑剤	Plasticizers
+A61L  27/50 200 \	2	2	4C081	A61L  27/50	107	安定化剤	Stabilizers
+A61L  27/50 300 \	2	2	4C081	A61L  27/50	1572	人工血管用のもの	for artificial blood vessels
+A61L  27/52  \	2	2	4C081	A61L  27/52	2000	ヒドロゲルまたはハイドロコロイド［７］	Hydrogels or hydrocolloids [7]
+A61L  27/54  \	2	2	4C081	A61L  27/54	4776	生物学的活性を有する材料，例．治療用物質［７］	Biologically active materials, e.g. therapeutic substances [7]
+A61L  27/56  \	2	2	4C081	A61L  27/56	3354	多孔性または多泡性材料［７］	Porous or cellular materials [7]
+A61L  27/58  \	2	2	4C081	A61L  27/58	3530	少なくとも部分的に身体に再吸収される材料［７］	Materials at least partially resorbable by the body [7]
+A61L  27/60  \	2	2	4C081	A61L  27/60	868	人工皮膚用材料［７］	Materials for use in artificial skin [7]
+A61L  28/00  \	0	0	4C081	A61L  28/00	132	人工肛門用具のための材料（人工肛門用具のための接着剤Ａ６１Ｌ２４／００）［７］	Materials for colostomy devices(adhesives for colostomy devices A61L24/00) [7]
+A61L  29/00  \	0	0	4C081	A61L  29/00	3356	カテーテルのための，またはカテーテルのコーティング用の材料（カテーテルの形状または構造Ａ６１Ｍ２５／００）［４］	Materials for catheters or for coating catheters (shape or structure of catheters A61M 25/00) [4]
+A61L  29/02  \	1	1	4C081	A61L  29/02	1017	無機材料［７］	Inorganic materials [7]
+A61L  29/04  \	1	1	4C081	A61L  29/04	619	高分子材料［７］	Macromolecular materials [7]
+A61L  29/04 100 \	2	2	4C081	A61L  29/04	1792	炭素−炭素不飽和結合のみが関与する反応から得られるもの	obtained by reactions only involving carbon-to-carbon unsaturated bonds
+A61L  29/04 110 \	3	3	4C081	A61L  29/04	330	ゴム	Rubber
+A61L  29/04 200 \	2	2	4C081	A61L  29/04	345	高分子化合物の混合物	Mixtures of macromolecular compounds
+A61L  29/06  \	2	2	4C081	A61L  29/06	2212	炭素−炭素不飽和結合のみが関与する反応以外から得られるもの［７］	obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds [7]
+A61L  29/08  \	1	1	4C081	A61L  29/08	564	コーティング用の材料［７］	Materials for coatings [7]
+A61L  29/08 100 \	2	2	4C081	A61L  29/08	1911	高分子材料	Macromolecular materials
+A61L  29/10  \	2	2	4C081	A61L  29/10	316	無機材料［７］	Inorganic materials [7]
+A61L  29/12  \	1	1	4C081	A61L  29/12	1709	複合材料，例．層状のもの，またはある物質を同一もしくは異なる物質のマトリックスに分散させたもの［７］	Composite materials, e.g. layered or containing one material dispersed in a matrix of the same or different material [7]
+A61L  29/12 100 \	2	2	4C081	A61L  29/12	672	高分子マトリックスを有するもの	having a macromolecular matrix
+A61L  29/14  \	1	1	4C081	A61L  29/14	1553	機能または物理的特性に特徴のある材料［７］	Materials characterised by their function or physical properties [7]
+A61L  29/14 100 \	2	2	4C081	A61L  29/14	148	可塑剤	Plasticizers
+A61L  29/14 200 \	2	2	4C081	A61L  29/14	64	安定化剤	Stabilizers
+A61L  29/14 300 \	2	2	4C081	A61L  29/14	286	ヒドロゲルまたはハイドロゲルコロイド	Hydrogels or hydrogelcolloids
+A61L  29/14 400 \	2	2	4C081	A61L  29/14	298	多孔性材料，例．発泡体または海綿状物	Porous materials, e.g. foams or sponges
+A61L  29/14 500 \	2	2	4C081	A61L  29/14	350	少なくとも部分的に身体に再吸収される材料	Materials at least partially resorbable by the body [7]
+A61L  29/16  \	2	2	4C081	A61L  29/16	1759	生物学的活性を有する材料，例．治療用物質［７］	Biologically active materials, e.g. therapeutic substances [7]
+A61L  29/18  \	2	2	4C081	A61L  29/18	253	少なくとも部分的にＸ線またはレーザーを通さない材料［７］	Materials at least partially X-ray or laser opaque [7]
+A61L  31/00  \	0	0	4C081	A61L  31/00	5455	他の手術用物品のための材料［４］	Materials for other surgical articles [4]
+A61L  31/02  \	1	1	4C081	A61L  31/02	2377	無機材料［７］	Inorganic materials [7]
+A61L  31/04  \	1	1	4C081	A61L  31/04	925	高分子材料［７］	Macromolecular materials [7]
+A61L  31/04 100 \	2	2	4C081	A61L  31/04	631	高分子化合物の混合物	Mixtures of macromolecular compounds
+A61L  31/04 110 \	2	2	4C081	A61L  31/04	2621	炭素−炭素不飽和結合のみが関与する反応から得られるもの	obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds
+A61L  31/04 120 \	2	2	4C081	A61L  31/04	1984	天然高分子材料	Natural macromolecular materials
+A61L  31/06  \	2	2	4C081	A61L  31/06	3614	炭素−炭素不飽和結合のみが関与する反応以外から得られるもの［７］	obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds [7]
+A61L  31/08  \	1	1	4C081	A61L  31/08	1139	コーティング用の材料［７］	Materials for coatings [7]
+A61L  31/10  \	2	2	4C081	A61L  31/10	2673	高分子材料［７］	Macromolecular materials [7]
+A61L  31/12  \	1	1	4C081	A61L  31/12	2589	複合材料，例．層状のもの，またはある物質を同一もしくは異なる物質のマトリックスに分散させたもの［７］	Composite materials, e.g. layered or containing one material dispersed in a matrix of the same or different material [7]
+A61L  31/12 100 \	2	2	4C081	A61L  31/12	1154	高分子マトリックスを有するもの	having a macromolecular matrix
+A61L  31/12 110 \	3	3	4C081	A61L  31/12	138	高分子充填材料を含有するもの	containing macromolecular fillers
+A61L  31/14  \	1	1	4C081	A61L  31/14	2462	機能または物理的特性に特徴のある材料［７］	Materials characterised by their function or physical properties [7]
+A61L  31/14 100 \	2	2	4C081	A61L  31/14	188	可塑剤	Plasticizers
+A61L  31/14 200 \	2	2	4C081	A61L  31/14	93	安定化剤	Stabilizers
+A61L  31/14 300 \	2	2	4C081	A61L  31/14	839	ヒドロゲルまたはハイドロゲルコロイド	Hydrogels or hydrogelcolloids
+A61L  31/14 400 \	2	2	4C081	A61L  31/14	916	多孔性物質，例．発泡体または海綿状物	Porous materials, e.g. foams or sponges
+A61L  31/14 500 \	2	2	4C081	A61L  31/14	1913	少なくとも部分的に身体に再吸収される材料	Materials at least partially resorbable by the body
+A61L  31/16  \	2	2	4C081	A61L  31/16	3378	生物学的活性を有する材料，例．治療用物質［７］	Biologically active materials, e.g. therapeutic substances [7]
+A61L  31/18  \	2	2	4C081	A61L  31/18	445	少なくとも部分的にＸ線またはレーザーを通さない物質［７］	Materials at least partially X-ray or laser opaque [7]
+A61L  33/00  \	0	0	4C081	A61L  33/00	1714	手術用物品，例．縫合，カテーテル，補綴の，または血液処理または血液調整用物品の，抗血栓処理；こうした処理用の材料［４，７］	Antithrombogenic treatment of surgical articles, e.g. sutures, catheters, prostheses, as well as articles for the manipulation or conditioning of blood; materials for such treatment [4, 7]
+A61L  33/00 100 \	1	1	4C081	A61L  33/00	99	基質の化学修飾	Chemical modification of the substrate
+A61L  33/00 110 \	2	2	4C081	A61L  33/00	128	ヘパリン以外の有機化合物との反応によるもの	by reacting with an organic compound other than heparin
+A61L  33/00 120 \	2	2	4C081	A61L  33/00	81	基質にモノマーをグラフトさせることによるもの	by grafting of a monomer onto the substrate
+A61L  33/00 200 \	2	2	4C081	A61L  33/00	84	物理的処理，例．プラズマ処理	Physical treatment, e.g. plasma treatment
+A61L  33/02  \	1	1	4C081	A61L  33/02	206	無機材料の利用［７］	Use of inorganic materials [7]
+A61L  33/04  \	1	1	4C081	A61L  33/04	306	有機材料の利用，例．アセチルサリチル酸［７］	Use of organic materials, e.g. acetylsalicylic acid [7]
+A61L  33/06  \	1	1	4C081	A61L  33/06	149	高分子材料の利用［７］	Use of macromolecular materials [7]
+A61L  33/06 100 \	2	2	4C081	A61L  33/06	123	高分子化合物の混合物	Mixtures of macromolecular compounds
+A61L  33/06 200 \	2	2	4C081	A61L  33/06	727	炭素−炭素不飽和結合のみが関与する反応から得られるもの	obtained by reactions only involving carbon-to-carbon unsaturated bonds
+A61L  33/06 210 \	3	3	4C081	A61L  33/06	34	ゴム	Rubber
+A61L  33/06 300 \	2	2	4C081	A61L  33/06	743	炭素−炭素不飽和結合のみが関与する反応以外から得られるもの	obtained otherwise than by reactions only involving carbon-to-carbon unsaturated bonds [7]
+A61L  33/08  \	2	2	4C081	A61L  33/08	261	多糖類［７］	Polysaccharides [7]
+A61L  33/10  \	3	3	4C081	A61L  33/10	558	ヘパリン，ペハリノイド，またはその誘導体［７］	Heparin, heparinoid or derivatives thereof [7]
+A61L  33/10 100 \	4	4	4C081	A61L  33/10	54	ポリマーの中間層を使用するもの	using an intermediate layer of polymer
+A61L  33/12  \	2	2	4C081	A61L  33/12	285	ポリペプチド，蛋白質，またはそれらの誘導体［７］	Polypeptides, proteins or derivatives thereof [7]
+A61L  33/14  \	1	1	4C081	A61L  33/14	139	繊維素溶解剤または血小板の凝集阻害剤の使用［７］	Use of fibrinolytic agents or platelet aggregation inhibitors [7]
+A61L  33/14 100 \	2	2	4C081	A61L  33/14	18	ポリマーの中間層を使用するもの	using an intermediate layer of polymer
+A61L  33/16  \	1	1	4C081	A61L  33/16	126	酵素，例．ウロキナーゼ，ストレプトキナーゼの使用［７］	Use of enzymes, e.g. urokinase, streptokinase [7]
+A61L  33/18  \	1	1	4C081	A61L  33/18	57	不特定の構成成分，またはそれらの反応生成物の利用［７］	Use of ingredients of undetermined constitution or reaction products thereof [7]
+A61L 101:00  \	0	0		A61L 101/00	47	殺菌，消毒，または脱臭に使われる物質の化学組成［７］	Indexing scheme associated with groups A61L  2/00-A61L 12/00, relating to the chemical composition of the materials used in disinfecting, sterilising or deodorising.
+A61L 101:02  \	1	1		A61L 101/02	1097	無機物質［７］	Inorganic materials [7]
+A61L 101:04  \	2	2		A61L 101/04	19	炭素，例．活性炭［７］	Elemental carbon, e.g. active charcoal [7]
+A61L 101:06  \	2	2		A61L 101/06	1370	ハロゲンを含有するもの［７］	containing halogen [7]
+A61L 101:08  \	3	3		A61L 101/08	273	ハロゲン元素［７］	Elemental halogen [7]
+A61L 101:10  \	2	2		A61L 101/10	1579	オゾン［７］	Ozone [7]
+A61L 101:12  \	2	2		A61L 101/12	28	シリコンを含有するもの［７］	containing silicon [7]
+A61L 101:14  \	2	2		A61L 101/14	78	硫黄を含有するもの［７］	containing sulfur [7]
+A61L 101:16  \	2	2		A61L 101/16	51	リンを含有するもの［７］	containing phosphorus [7]
+A61L 101:18  \	2	2		A61L 101/18	23	アンモニア［７］	Ammonia [7]
+A61L 101:20  \	2	2		A61L 101/20	166	酸［７］	Acids [7]
+A61L 101:22  \	2	2		A61L 101/22	1662	過酸化物［７］	Peroxides [7]
+A61L 101:24  \	2	2		A61L 101/24	33	アルミニウム含有するもの［７］	containing aluminium [7]
+A61L 101:26  \	2	2		A61L 101/26	332	銅を含有するもの［７］	containing copper [7]
+A61L 101:28  \	2	2		A61L 101/28	48	鉄を含有するもの［７］	containing iron [7]
+A61L 101:30  \	2	2		A61L 101/30	208	亜鉛を含有するもの［７］	containing zinc [7]
+A61L 101:32  \	1	1		A61L 101/32	1312	有機化合物［７］	Organic compounds [7]
+A61L 101:34  \	2	2		A61L 101/34	970	水酸化合物［７］	Hydroxy compounds [7]
+A61L 101:36  \	2	2		A61L 101/36	759	カルボン酸またはその誘導体［７］	Carboxylic acids or derivatives thereof [7]
+A61L 101:38  \	2	2		A61L 101/38	341	エーテル［７］	Ethers [7]
+A61L 101:40  \	2	2		A61L 101/40	160	硫黄を含有するもの［７］	containing sulfur [7]
+A61L 101:42  \	2	2		A61L 101/42	85	有機金属の化合物または合成物［７］	Organo-metallic compounds or complexes [7]
+A61L 101:44  \	2	2		A61L 101/44	991	複素環式の化合物［７］	Heterocyclic compounds [7]
+A61L 101:46  \	2	2		A61L 101/46	201	高分子化合物［７］	Macromolecular compounds [7]
+A61L 101:48  \	3	3		A61L 101/48	43	炭素−炭素不飽和結合のみが関与する反応から得られるもの［７］	obtained by reactions only involving carbon-to-carbon unsaturated bonds [7]
+A61L 101:50  \	3	3		A61L 101/50	62	多糖類化合物［７］	Polysaccharides or derivatives thereof [7]
+A61L 101:52  \	1	1		A61L 101/52	58	微生物，または微生物から作られた，または抽出された物質［７］	Micro-organisms or substances produced by or extracted from micro-organisms [7]
+A61L 101:54  \	1	1		A61L 101/54	75	酵素［７］	Enzymes [7]
+A61L 101:56  \	1	1		A61L 101/56	152	植物抽出物，または特定されない化学組成の植物製品，例．植物繊維［７］	Plant extracts or vegetable products of undetermined chemical constitution, e.g. plant fibre [7]

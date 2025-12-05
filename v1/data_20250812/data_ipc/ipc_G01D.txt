@@ -1,0 +1,158 @@
+G01D   1/00		変量の瞬時値以外の結果を示す測定装置（Ｇ０１Ｄ３／００が優先；料金計量装置Ｇ０１Ｄ４／００；特に特定の変量に適用されない変換器Ｇ０１Ｄ５／００）	Measuring arrangements giving results other than momentary value of variable, of general application(G01D3/00 takes precedence; in tariff metering apparatus G01D4/00; transducers not specially adapted for a specific variable G01D5/00)	1837
+G01D   1/02	・	平均値，例．二乗平均の開平値，を示すもの（電流または電圧の二乗平均の開平値の測定Ｇ０１Ｒ１９／０２）	giving mean values, e.g. root mean square values(measuring root mean square values of currents or voltages G01R19/02)	865
+G01D   1/04	・	積分値を示すもの（平均値を示すものＧ０１Ｄ１／０２）	giving integrated values(giving mean values G01D1/02)	591
+G01D   1/06	・・	間欠的加算によるもの	by intermittent summation	87
+G01D   1/08	・・・	一定時間内の	over fixed periods of time	132
+G01D   1/10	・	微分値を示すもの	giving differentiated values	208
+G01D   1/12	・	最大値または最小値を示すもの	giving a maximum or minimum of a value	614
+G01D   1/14	・	値の分布関数を示すもの，すなわちある値が特定の範囲に入った度数	giving a distribution function of a value, i.e. number of times the value comes within specified ranges of amplitude	555
+G01D   1/16	・	２以上の値の関数値，例．積，比率，を示すもの	giving a value which is a function of two or more values, e.g. product or ratio	967
+G01D   1/18	・	不特定のパラメータが予め決められた値を超過したことの信号を出す装置を有するもの（Ｇ０１Ｄ１／１４が優先）［３］	with arrangements for signalling that a predetermined value of an unspecified parameter has been exceeded(G01D1/14 takes precedence)	1720
+G01D   3/00		このグループのサブグループに関する特定目的のための手段を有する測定装置	Measuring arrangements with provision for the special purposes referred to in the subgroups of this group	1609
+G01D   3/02	・	変換機能を改変しまたは修正するもの	with provision for altering or correcting the transfer function	3001
+G01D   3/024	・・	範囲変更用；ある感知要素を別のものにより置き換える装置［６］	for range change; Arrangements for substituting one sensing member by another	687
+G01D   3/028	・	望ましくない影響，例．温度，圧力，を軽減するもの［６］	mitigating undesired influences, e.g. temperature, pressure	3270
+G01D   3/032	・・	入信号に作用するもの，例．平均化によるもの；望ましくない信号をゲートで制御するもの［６］	affecting incoming signal, e.g. by averaging; gating undesired signals	487
+G01D   3/036	・・	測定装置それ自体に対する影響［６］	on measuring arrangements themselves	1329
+G01D   3/06	・	零位法によって作動するもの	with provision for operation by a null method	385
+G01D   3/08	・	装置の安全保護のためのもの，例．異常操作，破損に対するもの	with provision for safeguarding the apparatus, e.g. against abnormal operation, against breakdown	2159
+G01D   3/10	・	付加的，補助的な指示器または記録器をスイッチングするもの	with provision for switching-in of additional or auxiliary indicators or recorders	906
+G01D   4/00		料金計量装置（タクシーメータにおけるものＧ０７Ｂ１３／００；コイン，カードその他類似のもので作動するメーター制御された液体，気体または電気を送出する装置Ｇ０７Ｆ１５／００）	Tariff metering apparatus(in taximeters G07B13/00; apparatus actuated by coins, cards or the like with meter-controlled dispensing of liquid, gas, or electricity G07F15/00)	3887
+G01D   4/02	・	細部	Details	552
+G01D   4/04	・・	帰零機構，例．指示部材用	Resetting-mechanisms, e.g. for indicating members	18
+G01D   4/06	・・	駆動部材，指示部材間のクラッチ機構，例．ヒステリシスクラッチ（Ｇ０１Ｄ４／０４が優先）	Arrangement of clutches between driving and indicating member, e.g. of hysteresis clutch(G01D4/04 takes precedence)	8
+G01D   4/08	・・	計数器から集計器への伝達	Transfer of indication from a counter into a summing counter	117
+G01D   4/10	・	最大値の指示または記録装置，すなわちある期間内の料金がその期間内の最大需要に基づいて計算されるもの	Maximum indicating or recording apparatus, i.e. where the tariff for a period is based on a maximum demand within that period	145
+G01D   4/12	・・	累進最大値を指示しまたは記録する装置	Apparatus for indicating or recording progressive maximum	19
+G01D   4/14	・・	固定需要の指示または記録装置，すなわち既定量が既定時間より長いかまたは短い時間で消費された際，それを指示するもの	Fixed-demand indicating or recording apparatus, i.e. where indication is made when a predetermined quantity has been consumed during a time interval greater or less than a predetermined time interval	83
+G01D   4/16	・	最大または最小負荷時間を指示しまたは記録する装置	Apparatus for indicating or recording maximum or minimum load hours	22
+G01D   4/18	・	既定レベルを超過した時に作動する対向トルクで超過消費を指示しまたは記録する装置，例．控除メータ	Apparatus for indicating or recording overconsumption with opposing torque which comes into effect when a predetermined level is exceeded, e.g. subtraction meters	45
+G01D   5/00		感知要素の出力を伝達するための機械的手段；感知素子の型式や特性が変換手段を束縛しない場合に，感知要素の出力を別の変量に変換する手段；特に特定の変量に適用されない変換器（Ｇ０１Ｄ３／００が優先；変量の瞬時値以外の結果を示す装置に特に適合したものＧ０１Ｄ１／００）［６］<br><b><ul>注</ul></b><br>グループ５／０２〜５／５４は，もっとも重要な手段によって区別されている。したがって最終指示を与える他の手段の単なる応用は分類付与に影響しない。	Mechanical means for transferring the output of a sensing member; Means for converting the output of a sensing member to another variable where the form or nature of the sensing member does not constrain the means for converting; Transducers not specially adapted for a specific variable(G01D3/00 takes precedence; specially adapted for apparatus giving results other than momentary value of variable G01D1/00)	2336
+G01D   5/02	・	機械的手段を使用するもの	using mechanical means	1300
+G01D   5/04	・・	レバーを使用するもの；カムを使用するもの；歯車装置を使用するもの	using levers; using cams; using gearing	1511
+G01D   5/06	・・	壁または被覆を通して作動するもの，例．ベローズによるもの，磁気結合によるもの	acting through a wall or enclosure, e.g. by bellows, by magnetic coupling	296
+G01D   5/08	・・	摩擦の影響の軽減，例．振動の付加によるもの	Reducing the effects of friction, e.g. by applying vibrations	45
+G01D   5/10	・・	指示または記録部の動作に有効な力を増幅するための外力の供給	Applying external forces to increase force available for operation of indicating or recording part	104
+G01D   5/12	・	電気的または磁気的手段を使用するもの（Ｇ０１Ｄ５／０６が優先）［３］	using electric or magnetic means(G01D5/06 takes precedence)	10791
+G01D   5/14	・・	電流または電圧の大きさに作用するもの	influencing the magnitude of a current or voltage	9871
+G01D   5/16	・・・	抵抗変化によるもの	by varying resistance	3841
+G01D   5/165	・・・・	接点と抵抗トラックとの相対運動によるもの［６］	by relative movement of a point of contact and a resistive track	1221
+G01D   5/18	・・・	放電管または半導体装置の実効インピーダンス変化によるもの	by varying effective impedance of discharge tubes or semiconductor devices	1407
+G01D   5/20	・・・	インダクタンス変化によるもの，例．可動鉄片によるもの	by varying inductance, e.g. by a movable armature	7818
+G01D   5/22	・・・・	差動コイルの電磁誘導によるもの	differentially influencing two coils	2001
+G01D   5/24	・・・	キャパシタンス変化によるもの	by varying capacitance	3851
+G01D   5/241	・・・・	コンデンサ電極の相対運動によるもの［６］	by relative movement of capacitor electrodes	1536
+G01D   5/242	・・・	電気力学的装置の，例．速度発電機の，発生する出力によるもの	by varying output of an electrodynamic device, e.g. of a tachodynamo	189
+G01D   5/243	・・	交流の位相または周波数に作用するもの	influencing the phase or frequency of AC	1243
+G01D   5/244	・・	パルスまたはパルス列の特性に作用するもの；パルスまたはパルス列を発生するもの［６］	influencing characteristics of pulses or pulse trains; generating pulses or pulse trains	8942
+G01D   5/245	・・・	パルス列におけるパルスの変化数を利用するもの	using a variable number of pulses in a train	17286
+G01D   5/246	・・・	個々のパルスの持続期間の変化によるもの	by varying the duration of individual pulses	204
+G01D   5/247	・・・	パルスの時間シフトを利用するもの	using time shifts of pulses	240
+G01D   5/248	・・・	パルスの繰返し周波数の変化によるもの	by varying pulse repetition frequency	172
+G01D   5/249	・・・	パルスコードを利用するもの	using pulse code	3254
+G01D   5/25	・・	複数個の導体またはチャンネルから１以上の導体またはチャンネルを選択するもの，例．接点の閉路によるもの	Selecting one or more conductors or channels from a plurality of conductors or channels, e.g. by closing contacts	739
+G01D   5/251	・・・	単一の導体またはチャンネル	one conductor or channel	249
+G01D   5/252	・・・	複数の導体またはチャンネルの組み合わせ	a combination of conductors or channels	258
+G01D   5/26	・	光学的手段を使用するもの，すなわち赤外線，可視光線または紫外線を用いるもの	using optical means, i.e. using infrared, visible or ultraviolet light	9989
+G01D   5/28	・・	光ビームの偏向があるもの，例．直示型光点指示用（Ｇ０１Ｄ５／４０が優先）	with deflection of beams of light, e.g. for direct optical indication(G01D5/40 takes precedence)	574
+G01D   5/30	・・・	光ビームをフォトセルで検知するもの	the beams of light being detected by photocells	2486
+G01D   5/32	・・	光ビームの減衰，または全部または一部の遮蔽のあるもの（Ｇ０１Ｄ５／４０が優先）	with attenuation or whole or partial obturation of beams of light(G01D5/40 takes precedence)	826
+G01D   5/34	・・・	光ビームをフォトセルで検知するもの	the beams of light being detected by photocells	4270
+G01D   5/347	・・・・	変位エンコーダスケールを用いるもの［６］	using displacement encoding scales	7616
+G01D   5/353	・・・・	光ファイバの伝送特性に影響を与えるもの［６］	influencing the transmission properties of an optical fibre	7822
+G01D   5/36	・・・・	光をパルスに変えるもの	Forming the light into pulses	6747
+G01D   5/38	・・・・・	回折格子によるもの	by diffraction gratings	2673
+G01D   5/39	・・	測定値の可視指示を走査し，遠隔地点で，例．陰極線管のスクリーンに，この指示を再生するもの	Scanning a visible indication of the measured value and reproducing this indication at a remote place, e.g. on the screen of a cathode-ray tube	374
+G01D   5/40	・・	特に赤外線の使用に適したもの	specially adapted for use with infrared light	222
+G01D   5/42	・	流体式手段を使用するもの	using fluid means	759
+G01D   5/44	・・	流体の噴射によるもの	using jets of fluid	108
+G01D   5/46	・・・	流れの偏向または抑制によるもの	by deflecting or throttling the flow	72
+G01D   5/48	・	波または粒子放射による手段を使用するもの（Ｇ０１Ｄ５／２６が優先）	using wave or particle radiation means(G01D5/26 takes precedence)	1627
+G01D   5/50	・・	放射線源をそなえたもの	derived from a radioactive source	51
+G01D   5/52	・・・	計数管で検知するもの	detected by a counter tube	12
+G01D   5/54	・	グループＧ０１Ｄ５／０２，Ｇ０１Ｄ５／１２，Ｇ０１Ｄ５／２６，Ｇ０１Ｄ５／４２およびＧ０１Ｄ５／４８のうち２以上に分類される手段を使用するもの<br><b><ul>注</ul></b><br>優先適用される他のグループを選択できない場合にのみ，このグループに分類する。<br>２以上の手段の組合せの分類については，サブグループ５／５６−５／６２のうち適用可能の最初のものがその他のグループに優先する。	using means specified in two or more of groups G01D5/02, G01D5/12, G01D5/26, G01D5/42, and G01D5/48; <br><br><b><u>Note(s)</u></b><br><br>Classification is made in this group only if no other group can be selected as being predominantly applicable.	137
+G01D   5/56	・・	電気的または磁気的手段を使用するもの	using electric or magnetic means	402
+G01D   5/58	・・	光学的手段を使用するもの，すなわち，赤外線，可視光線または紫外線を利用するもの	using optical means, i.e. using infrared, visible or ultraviolet light	171
+G01D   5/60	・・	流体式手段を使用するもの	using fluid means	27
+G01D   5/62	・・	５／５８に包含されない波または粒子放射による手段を使用するもの	using wave or particle radiation means not covered by group G01D5/58	37
+G01D   7/00		測定値の指示	Indicating measured values	14646
+G01D   7/02	・	２以上の変量値の同時指示	Indicating value of two or more variables simultaneously	1689
+G01D   7/04	・・	各変量にそれぞれ指示素子を用いるもの	using a separate indicating element for each variable	703
+G01D   7/06	・・・	共通スクリーンへの光学的指示	Luminous indications projected on a common screen	336
+G01D   7/08	・・	２以上の変量に共通の指示素子を用いるもの	using a common indicating element for two or more variables	742
+G01D   7/10	・・・	同形式の指示を与えるもの	giving indication in co-ordinate form	185
+G01D   7/12	・	計器の指示値の音響的指示，例．盲人用［２］	Audible indication of meter readings, e.g. for the blind	717
+G01D   9/00		測定値の記録	Recording measured values	6141
+G01D   9/02	・	単一の変量について１種または複数の記録をするもの	Producing one or more recordings of the values of a single variable	383
+G01D   9/04	・・	多重記録または切換記録によるもの	with provision for multiple or alternative recording	107
+G01D   9/06	・・・	多重記録，例．複製	Multiple recording, e.g. duplicating	95
+G01D   9/08	・・・・	図的記録と数値的記録とをともに与えるもの	giving both graphical and numerical recording	160
+G01D   9/10	・・	変量にしたがって動作する記録素子，例．ペン，および時間にしたがって動作する記録媒体，例．紙ロール	the recording element, e.g. stylus, being controlled in accordance with the variable, and the recording medium, e.g. paper roll, being controlled in accordance with time	202
+G01D   9/12	・・・	事象の連続記録	recording occurring continuously	206
+G01D   9/14	・・・・	記録される変量の大きさにしたがって記録媒体を変速する装置を備えたもの	with provision for altering speed of recording medium in accordance with the magnitude of the variable to be recorded	79
+G01D   9/16	・・・	事象の間欠記録，例．打杆によるもの	recording occurring at separated intervals, e.g. by chopper bar	343
+G01D   9/18	・・・・	変量値の変化のみにより動作する記録素子	recording element actuated only upon change in value of variable	68
+G01D   9/20	・・	時間にしたがって動作する記録素子，例．ペン，および変量にしたがって動作する記録媒体，例．紙ロール	the recording element, e.g. stylus, being controlled in accordance with time and the recording medium, e.g. paper roll, being controlled in accordance with the variable	63
+G01D   9/22	・・・	事象の連続記録	recording occurring continuously	32
+G01D   9/24	・・・	事象の間欠記録，例．打杆によるもの	recording occurring at separated intervals, e.g. by chopper bar	27
+G01D   9/26	・・	記録素子，例．ペン，または記録媒体，例．紙ロール，の何れかが，時間と変量の両者により動作するもの	either the recording element, e.g. stylus, or the recording medium, e.g. paper roll, being controlled in accordance with both time and the variable	112
+G01D   9/28	・	２以上の異なる変量値についてそれぞれを１種または多種の記録をするもの（Ｇ０１Ｄ９／３８，Ｇ０１Ｄ９／４０が優先）	Producing one or more recordings, each recording being of the values of two or more different variables(G01D9/38, G01D9/40 take precedence)	774
+G01D   9/30	・・	各変量に対して記録素子が別々にあるもの，例．多ペン型記録計	there being a separate recording element for each variable, e.g. multiple-pen recorder	492
+G01D   9/32	・・	２以上の変量に共通の記録素子のあるもの	there being a common recording element for two or more variables	593
+G01D   9/34	・・・	変量が一定の順序で記録されるもの	the variables being recorded in predetermined sequence	131
+G01D   9/36	・・・・	別々の記録欄に記録するもの	in separate columns	56
+G01D   9/38	・	ある変量に応じて記録素子，例．ペン，を動作させ，他の変量に応じて記録媒体，例．紙ロールを，動作させることにより１種または多種の記録をするもの	Producing one or more recordings, each recording being produced by controlling the recording element, e.g. stylus, in accordance with one variable and controlling the recording medium, e.g. paper roll, in accordance with another variable	275
+G01D   9/40	・	２以上の変量に応じて記録素子，例．ペン，または記録媒体，例．紙ロール，のいずれかを動作させることにより１種または多種の記録をするもの	Producing one or more recordings, each recording being produced by controlling either the recording element, e.g. stylus, or the recording medium, e.g. paper roll, in accordance with two or more variables	480
+G01D   9/42	・	写真的手段による測定器の，例．カウンターの，指示の記録	Recording indications of measuring instruments by photographic means, e.g. of counters	377
+G01D  11/00		特に特定の変量に適用されない測定装置の構成部品（Ｇ０１Ｄ１３／００，Ｇ０１Ｄ１５／００優先）	Component parts of measuring arrangements not specially adapted for a specific variable(G01D13/00, G01D15/00 take precedence)	20503
+G01D  11/02	・	可動部の軸受，または懸吊	Bearings or suspensions for moving parts	930
+G01D  11/04	・・	ナイフエッジ軸受	Knive-edge bearings	47
+G01D  11/06	・・	帯懸吊または糸条懸吊，例．張力の	Strip or thread suspensions, e.g. in tension	230
+G01D  11/08	・	可動部の平衡をとるための素子	Elements for balancing moving parts	156
+G01D  11/10	・	部品の運動を制動するための素子	Elements for damping the movement of parts	1127
+G01D  11/12	・・	流体制動を用いたもの	using fluid damping	290
+G01D  11/14	・・	電磁制動を用いたもの	using magnetic induction damping	132
+G01D  11/16	・	部品を制止する，または部品の運動を妨げる，ための素子，例．指針の帰零用（不使用時における可動部品の係止Ｇ０１Ｄ１１／２０）	Elements for restraining or preventing the movement of parts, e.g. for zeroising(caging of moving parts when not in use G01D11/20)	4856
+G01D  11/18	・・	スプリング（Ｇ０１Ｄ１１／０６が優先）	Springs(G01D11/06 takes precedence)	921
+G01D  11/20	・	不使用時に可動部を係止する装置	Caging devices for moving parts when not in use	281
+G01D  11/22	・・	自動的に作用するもの	automatically actuated	57
+G01D  11/24	・	計器箱	Housings	19741
+G01D  11/26	・・	窓；カバーガラス；その密閉	Windows; Cover glasses; Sealings therefor	3342
+G01D  11/28	・	構造的に結合した照明装置	Structurally-combined illuminating devices	7164
+G01D  11/30	・	計器に特に適合した支持装置；計器のセットに特に適合した支持装置	Supports specially adapted for an instrument; Supports specially adapted for a set of instruments	21148
+G01D  13/00		特に特定の変量に適用されない測定装置用指示器の構成部品	Component parts of indicators for measuring arrangements not specially adapted for a specific variable	1234
+G01D  13/02	・	目盛板；ダイヤル	Scales; Dials	2392
+G01D  13/04	・・	構造	Construction	1670
+G01D  13/06	・・・	可動帯（Ｇ０１Ｄ１３／１０が優先）	Moving bands(G01D13/10 takes precedence)	207
+G01D  13/08	・・・	回転筒（Ｇ０１Ｄ１３／１０が優先）	Rotating drums(G01D13/10 takes precedence)	198
+G01D  13/10	・・・	調整できる目盛のあるもの；補助目盛のあるもの，例．副尺	with adjustable scales; with auxiliary scales, e.g. vernier	275
+G01D  13/12	・・	目盛	Graduation	595
+G01D  13/14	・・・	３６０度以上の回転のためのもの	for rotations of more than 360&deg	35
+G01D  13/16	・・・	鋸歯状に目盛線をもつもの	with staggered markings	21
+G01D  13/18	・・・	長短の目盛線をもつもの	with raised or recessed markings	26
+G01D  13/20	・・・	発光性の目盛線をつけたもの	with luminescent markings	242
+G01D  13/22	・	指針，例．設定指針	Pointers, e.g. settable pointer	2658
+G01D  13/24	・・	最大または最小を指示するためのもの	for indicating a maximum or minimum	167
+G01D  13/26	・・	さらに別の作用を行なうために適合したもの，例．電気接点を作動するもの	adapted to perform a further operation, e.g. making electrical contact	617
+G01D  13/28	・・	発光性を帯びたもの	with luminescent markings	1110
+G01D  15/00		特に特定の変量に適用されない測定装置用記録装置の構成部品	Component parts of recorders for measuring arrangements not specially adapted for a specific variable	1520
+G01D  15/02	・	記録体表面を機械的に変形させるかまたは記録体表面に穴をあけるスタイラスまたは他の記録素子（プリンティング記録素子Ｇ０１Ｄ１５／２０）	Styli or other recording elements acting to mechanically deform or perforate the recording surface(printing recording elements G01D15/20)	213
+G01D  15/04	・・	記録体表面にパンチするもの	acting to punch holes in the recording surface	61
+G01D  15/06	・	電気的記録素子，例．電解質のもの	Electric recording elements, e.g. electrolytic	705
+G01D  15/08	・・	放電破壊用	for spark erosion	272
+G01D  15/10	・	感熱記録層に作用する熱記録素子	Heated recording elements acting on heat-sensitive layers	924
+G01D  15/12	・	磁気的記録素子	Magnetic recording elements	200
+G01D  15/14	・	光学的記録素子；Ｘ線または放射線を用いた記録素子	Optical recording elements; Recording elements using X- or nuclear radiation	888
+G01D  15/16	・	記録体表面に記録剤，例．インキ，を移す記録素子（プリンティング記録素子Ｇ０１Ｄ１５／２０）	Recording elements transferring recording material, e.g. ink, to the recording surface(printing recording elements G01D15/20)	1510
+G01D  15/18	・・	記録剤をノズルから噴射するもの	Nozzles emitting recording material	1017
+G01D  15/20	・	インキを用いてプリントするか記録体表面の変形または穴あけによってプリントするための記録素子，例．エンボス加工	Recording elements for printing with ink or for printing by deformation or perforation of the recording surface, e.g. embossing	484
+G01D  15/22	・	記録素子を記録体表面に接触させるための打杆	Chopper bars for bringing recording element into contact with recording surface	99
+G01D  15/24	・	５／００に包含されない記録素子または記録体表面のための駆動	Drives for recording elements or surfaces, not covered by group G01D5/00	1578
+G01D  15/26	・・	時計機構により動作するもの	operating by clockwork	109
+G01D  15/28	・	記録体表面の保持手段；記録体表面の案内手段；記録体表面の取替え手段	Holding means for recording surfaces; Guiding means for recording surfaces; Exchanging means for recording surfaces	1393
+G01D  15/30	・・	折りたたみ式帯状記録紙用	for foldable strip charts	262
+G01D  15/32	・・	円形記録紙用	for circular charts	174
+G01D  15/34	・	記録体表面	Recording surfaces	426
+G01D  18/00		グループＧ０１Ｄ１／００からＧ０１Ｄ１５／００に分類された装置の試験または較正	Testing or calibrating apparatus or arrangements provided for in groups G01D1/00 to G01D15/00 	12872
+G01D  21/00		他に分類されない測定または試験	Measuring or testing not otherwise provided for	21985
+G01D  21/02	・	単一の他のサブクラスに包含されない手段による２以上の変量の測定	Measuring two or more variables by means not covered by a single other subclass	109243

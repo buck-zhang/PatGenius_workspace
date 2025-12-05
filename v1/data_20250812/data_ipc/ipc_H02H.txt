@@ -1,0 +1,81 @@
+H02H   1/00		非常保護回路装置の細部	Details of emergency protective circuit arrangements	13574
+H02H   1/04	・	過度的な異常状態，例．雷，に応答することを防止するための装置	Arrangements for preventing response to transient abnormal conditions, e.g. to lightning	1877
+H02H   1/06	・	操作用電力を供給するための装置［３］	Arrangements for supplying operative power	1597
+H02H   3/00		電気的に正常な動作状態からの異常変化に直接応答し，自動開放のための非常保護回路装置，その後において，再閉路する場合あるいはしない場合も含む（電気機械装置の特殊型式のものあるいはケーブル，線路系統の区間保護に適用されているものＨ０２Ｈ７／００；予備電源への切換方式Ｈ０２Ｊ９／００）	Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal electric working condition, with or without subsequent reconnection(specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H7/00; systems for change-over to standby supply H02J9/00)	10465
+H02H   3/02	・	細部	Details	6872
+H02H   3/027	・・	設定時限後に自動開放するもの（Ｈ０２Ｈ３／０３３，Ｈ０２Ｈ３／０６が優先）［３］	with automatic disconnection after a predetermined time(H02H3/033, H02H3/06 take precedence)	976
+H02H   3/033	・・	優先順に順次開放するもの（Ｈ０２Ｈ３／０６が優先）［３］	with several disconnections in a preferential order(H02H3/06 takes precedence)	317
+H02H   3/04	・・	開放に伴って警報または監視を行なうもの，例．保護装置が作動したことを指示するもの	with warning or supervision in addition to disconnection, e.g. for indicating that protective apparatus has functioned	7595
+H02H   3/05	・・	信頼性を向上するための手段をもつもの，例．冗長装置［３］	with means for increasing reliability, e.g. redundancy arrangements	5098
+H02H   3/06	・・	自動再閉路をもつもの	with automatic reconnection	5901
+H02H   3/07	・・・	再閉路を設定回数繰り返した後，永続的に開放するもの［３］	and with permanent disconnection after a predetermined number of reconnection cycles	454
+H02H   3/08	・	過電流に対する応答（過電流に原因する異常温度に応答するものＨ０２Ｈ５／０４）	responsive to excess current(responsive to abnormal temperature caused by excess current H02H5/04)	19318
+H02H   3/087	・・	直流用のもの［３］	for DC applications	5522
+H02H   3/093	・・	時限要素をもつもの［３］	with timing means	2619
+H02H   3/10	・・	その他の異常な電気的状態にも応答するもの	additionally responsive to some other abnormal electrical conditions	2207
+H02H   3/12	・	軽負荷あるいは無負荷に応答するもの	responsive to underload or no-load	812
+H02H   3/13	・・	多相交流用のもの，例．欠相［３］	for multiphase applications, e.g. phase interruption	360
+H02H   3/14	・	普通大地電位の部分の電位発生に応答するもの	responsive to occurrence of voltage on parts normally at earth potential	1416
+H02H   3/16	・	大地，フレームまたは物体への故障電流に応答するもの（平衡装置あるいは差動装置をもつものＨ０２Ｈ３／２６）	responsive to fault current to earth, frame or mass(with balanced or differential arrangement H02H3/26)	6306
+H02H   3/17	・・	被保護装置に印加される補助電圧手段によるもの［３］	by means of an auxiliary voltage injected into the installation to be protected	660
+H02H   3/18	・	直流電流の反転に応答するもの	responsive to reversal of direct current	610
+H02H   3/20	・	過電圧に応答するもの	responsive to excess voltage	11163
+H02H   3/22	・・	短期間のもの，例．雷	of short duration, e.g. lightning	2154
+H02H   3/24	・	不足電圧あるいは無電圧に応答するもの	responsive to undervoltage or no-voltage	6556
+H02H   3/247	・・	時限要素をもつもの［３］	having timing means	549
+H02H   3/253	・・	多相交流用のもの，例．欠相［３］	for multiphase applications, e.g. phase interruption	1334
+H02H   3/26	・	電圧間または電流間の差に応答するもの；電圧間または電流間の位相角に応答するもの	responsive to difference between voltages or between currents; responsive to phase angle between voltages or between currents	3074
+H02H   3/28	・・	１系統の２つの離れた部分の電圧または電流値の比較を含むもの，例．１線路の両端におけるもの，装置の入出力におけるもの	involving comparison of the voltage or current values at two spaced portions of a single system, e.g. at opposite ends of one line, at input and output of apparatus	3071
+H02H   3/30	・・・	パイロット線または他の信号路を使用するもの	using pilot wires or other signalling channel	1044
+H02H   3/32	・・	１系統の異なった導体の対応部における電圧または電流値の比較を含むもの，例．往復導体内の電流の比較	involving comparison of the voltage or current values at corresponding points in different conductors of a single system, e.g. of currents in go and return conductors	4705
+H02H   3/33	・・・	零相変流器を用いるもの（Ｈ０２Ｈ３／３４７が優先）［３］	using summation current transformers(H02H3/347 takes precedence)	2770
+H02H   3/34	・・・	三相系統のもの	of a three-phase system	2260
+H02H   3/347	・・・・	零相変流器を用いるもの［３］	using summation current transformers	1057
+H02H   3/353	・・・・	相電圧の比較を含むもの［３］	involving comparison of phase voltages	505
+H02H   3/36	・・	異なった系統の対応部分における電圧または電流値の比較を含むもの，例．並行回線系統の場合	involving comparison of the voltage or current values at corresponding points of different systems, e.g. of parallel feeder systems	457
+H02H   3/38	・	電圧，電流の両方に応答するもの；電圧電流間の位相角に応答するもの	responsive to both voltage and current; responsive to phase angle between voltage and current	2391
+H02H   3/40	・	電圧，電流の比に応答するもの	responsive to ratio of voltage and current	2001
+H02H   3/42	・	電圧，電流の積に応答するもの	responsive to product of voltage and current	755
+H02H   3/44	・	電気量の変化率に応答するもの［３］	responsive to the rate of change of electrical quantities	972
+H02H   3/46	・	周波数偏差に応答するもの［３］	responsive to frequency deviations	501
+H02H   3/48	・	脱調に応答するもの［３］	responsive to loss of synchronism	311
+H02H   3/50	・	異常波形の発生に応答するもの，例．直流装置における交流の発生［３］	responsive to the appearance of abnormal wave forms, e.g. AC in DC installations	476
+H02H   3/52	・・	高調波の発生に応答するもの［３］	responsive to the appearance of harmonics	365
+H02H   5/00		電気的でない正常な動作状態からの異常変化に直接応答し，自動開放のための非常保護回路装置，その後において，再閉路する場合あるいはしない場合も含む（被保護装置の模擬装置を用いるものＨ０２Ｈ６／００；特殊型式の電気機械または装置に，またはケーブルあるいは線路系統の区間保護に特に適用されているものＨ０２Ｈ７／００）［３］	Emergency protective circuit arrangements for automatic disconnection directly responsive to an undesired change from normal non-electric working conditions with or without subsequent reconnection(using simulators of the apparatus being protected H02H6/00; specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems H02H7/00)	3026
+H02H   5/04	・	異常温度に応答するもの	responsive to abnormal temperature	10421
+H02H   5/06	・・	油入電気装置におけるもの	in oil-filled electric apparatus	182
+H02H   5/08	・	異常な流体圧力，液位，液体変位に応答するもの，例．ブッフホルツ継電器	responsive to abnormal fluid pressure, liquid level or liquid displacement, e.g. Buchholz relays	1595
+H02H   5/10	・	機械的損傷に対して応答するもの，例．線路の断線，接地の破損	responsive to mechanical injury, e.g. rupture of line, breakage of earth connection	1189
+H02H   5/12	・	生物による電気的導電部への接近，あるいは接触に対して応答するもの	responsive to undesired approach to, or touching of, live parts by living beings	1082
+H02H   6/00		被保護装置の模擬装置を用いて，正常な非電気的動作状態からの異常変化に応答する非常保護回路装置，例．サーマルイメージを用いるもの［３］	Emergency protective circuit arrangements responsive to undesired changes from normal non-electric working conditions using simulators of the apparatus being protected, e.g. using thermal images	910
+H02H   7/00		特定の電気機械または装置，またはケーブルあるいは線路系統の区間保護に特に適用され，正常な動作状態からの異常変化の場合に自動スイッチングを行なわせる非常保護回路装置［２００６．０１］	Emergency protective circuit arrangements specially adapted for specific types of electric machines or apparatus or for sectionalised protection of cable or line systems, and effecting automatic switching in the event of an undesired change from normal working conditions	7983
+H02H   7/04	・	変成器のためのもの	for transformers	4578
+H02H   7/045	・・	変成器の差動保護［３］	Differential protection of transformers	1677
+H02H   7/05	・・	コンデンサ型変圧器のためのもの，例．共振状態に対するもの［３］	for capacitive voltage transformers, e.g. against resonant conditions	299
+H02H   7/055	・・	タップ付変成器またはそのタップ切換装置のためのもの［３］	for tapped transformers or tap-changing means thereof	376
+H02H   7/06	・	発電機のためのもの；同期調相機のためのもの	for dynamo-electric generators; for synchronous capacitors	4676
+H02H   7/08	・	電動機のためのもの	for dynamo-electric motors	11261
+H02H   7/085	・・	過負荷に対するもの	against excessive load	8724
+H02H   7/09	・・	過電圧に対するもの；不足電圧に対するもの；位相障害に対するもの	against over-voltage; against reduction of voltage; against phase interruption	4231
+H02H   7/093	・・	回転速度があらかじめ定めたレベル以上に増大するものまたは以下に減少するもの（遠心力スイッチＨ０１Ｈ３５／１０）	against increase beyond, or decrease below, a predetermined level of rotational speed(centrifugal switches H01H35/10)	1184
+H02H   7/097	・・	逆回転に対するもの	against wrong direction of rotation	371
+H02H   7/10	・	変換機器のためのもの；整流機器のためのもの	for converters; for rectifiers	3859
+H02H   7/12	・・	静止型変換器あるいは静止型整流器のためのもの	for static converters or rectifiers	10287
+H02H   7/122	・・・	逆変換器のためのもの，すなわち直流／交流変換器［２］	for inverters, i.e. DC/AC converters	5754
+H02H   7/125	・・・	整流器のためのもの［２］	for rectifiers	2774
+H02H   7/127	・・・・	非常の場合にブロッキング制御電圧または電流を与えるための補助的な制御電極を有するもの［２］	having auxiliary control electrode to which blocking control voltages or currents are applied in case of emergency	572
+H02H   7/16	・	コンデンサのためのもの（同期調相機のためのものＨ０２Ｈ７／０６）	for capacitors(for synchronous capacitors H02H7/06)	1855
+H02H   7/18	・	バッテリーのためのもの；蓄電池のためのもの	for batteries; for accumulators	12203
+H02H   7/20	・	電子装置のためのもの（変換器のためのものＨ０２Ｈ７／１０；電気的測定機器のためのものＧ０１Ｒ１／３６；半導体直流電圧または直流電流調整器のためのものＧ０５Ｆ１／５６９；増幅器のためのものＨ０３Ｆ１／５２；電子的スイッチング回路のためのものＨ０３Ｋ１７／０８）	for electronic equipment(for converters H02H7/10; for electric measuring instruments G01R1/36; for DC voltage or current semiconductor regulators G05F1/569; for amplifiers H03F1/52; for electronic switching circuits H03K17/08)	8586
+H02H   7/22	・	配電装置のためのもの，例．母線系統；開閉装置のためのもの	for distribution gear, e.g. bus-bar systems; for switching devices	8629
+H02H   7/24	・	火花間隙避雷器のためのもの	for spark-gap arresters	329
+H02H   7/26	・	ケーブル，線路系統の区分保護，例．短絡，地絡あるいはアーク放電が生じた区分を開放するためのもの（ケーブルの故障個所の検出Ｇ０１Ｒ３１／０８）	Sectionalised protection of cable or line systems, e.g. for disconnecting a section on which a short-circuit, earth fault, or arc discharge has occurred(locating faults in cables G01R31/08)	17054
+H02H   7/28	・・	メッシュ系統のためのもの	for meshed systems	1480
+H02H   7/30	・・	時間差をつけた開放［３］	Staggered disconnection	514
+H02H   9/00		断路せずに過電流または過電圧を制限するための非常保護回路装置［２００６．０１］	Emergency protective circuit arrangements for limiting excess current or voltage without disconnection	8861
+H02H   9/02	・	過電流に応答するもの	responsive to excess current	16556
+H02H   9/04	・	過電圧に応答するもの（避雷器Ｈ０１Ｃ７／１２，Ｈ０１Ｃ８／０４，Ｈ０１Ｇ９／１８，Ｈ０１Ｔ）	responsive to excess voltage(lightning arrestors H01C7/12, H01C8/04, H01G9/18, H01T)	26517
+H02H   9/06	・・	火花間隙避雷器を用いるもの	using spark-gap arresters	4849
+H02H   9/08	・	地絡故障電流の制限または抑制，例．ペテルゼンコイル［３］	Limitation or suppression of earth fault currents, e.g. Petersen coil	3541
+H02H  11/00		電気的異常状態が生じるおそれのある場合に通電開始を防止するための非常保護回路装置	Emergency protective circuit arrangements for preventing the switching-on in case an undesired electric working condition might result	7570
+H02H  99/00		このサブクラスの他のグループには分類されない主題事項　［２００９．０１］	Subject matter not provided for in other groups of this subclass	27

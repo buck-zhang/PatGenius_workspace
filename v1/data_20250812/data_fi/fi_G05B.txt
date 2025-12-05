@@ -1,0 +1,434 @@
+G05B   1/00  \	0	0	5H004	G05B   1/00	57	比較要素，すなわち．目標値と既存値または予想値との比較を直接的にまたは間接的に実施するための要素［２００６．０１］	Comparing elements, i.e. elements for effecting comparison directly or indirectly between a desired value and existing or anticipated values [2006.01]
+G05B   1/01  \	1	1	5H004	G05B   1/01	9	電気式［２］	electric [2]
+G05B   1/01  A	1	0	5H004	G05B   1/01	520	目標値の設定に関するもの	Related to desired values
+G05B   1/01  Z	1	0	5H004	G05B   1/01	438	その他のもの	Others
+G05B   1/02  \	2	2	5H004	G05B   1/02	177	アナログ信号を比較するためのもの（２つの互いに独立した振動の位相または周波数を比較するための回路Ｈ０３Ｄ１３／００）［２００６．０１］	for comparing analogue signals (circuits for comparing the phase or frequency of two mutually-independent oscillations H03D 13/00) [2006.01]
+G05B   1/03  \	2	2	5H004	G05B   1/03	126	デジタル信号を比較するためのもの［２］	for comparing digital signals [2]
+G05B   1/04  \	2	2	5H004	G05B   1/04	1	測定器の指針の位置についての検出機構をもつもの	with sensing of the position of the pointer of a measuring instrument
+G05B   1/06  \	3	3	5H004	G05B   1/06	5	連続的検出	continuous sensing
+G05B   1/08  \	3	3	5H004	G05B   1/08	3	段階的検出	stepwise sensing
+G05B   1/11  \	1	1	5H004	G05B   1/11	1	流体式［２］	fluidic [2]
+G05B   5/00  \	0	0	5H004	G05B   5/00	12	ハンチング防止装置	Anti-hunting arrangements
+G05B   5/01  \	1	1	5H004	G05B   5/01	218	電気式	electric
+G05B   5/04  \	1	1	5H004	G05B   5/04	3	流体式［２］	fluidic [2]
+G05B   6/00  \	0	0	5H004	G05B   6/00	9	特定の特徴を得るための内部フィードバック装置，例．比例フィードバック，積分フィードバックまたは微分フィードバック［２００６．０１］	Internal feedback arrangements for obtaining particular characteristics, e.g. proportional, integral or differential [2006.01]
+G05B   6/00  L	0	0	5H004	G05B   6/00	18	流体要素を含むもの〔純流体式６／０５〕	Including fluid elements (pure fluid type conforms to 6/05)
+G05B   6/00  Z	0	0	5H004	G05B   6/00	46	その他のもの	Others
+G05B   6/02  \	1	1	5H004	G05B   6/02	11	電気式	electric
+G05B   6/05  \	1	1	5H004	G05B   6/05	7	流体式［２］	fluidic [2]
+G05B   7/00  \	0	0	5H004	G05B   7/00	31	自動制御の円滑な結合または切離しを得る装置	Arrangements for obtaining smooth engagement or disengagement of automatic control
+G05B   7/02  \	1	1	5H004	G05B   7/02	13	電気式［２］	electric [2]
+G05B   7/02  A	1	0	5H004	G05B   7/02	252	複数調節計の出力を選択して出力するもの	Selecting the outputs of multiple regulators and producing them
+G05B   7/02  B	1	0	5H004	G05B   7/02	552	バックアップ装置との切換え、冗長系の切換え	Switching over to backup equipment and switching of redundant system
+G05B   7/02  G	1	0	5H004	G05B   7/02	442	制御系の起動、停止、目標値変更を円滑に行うもの	Ensuring smooth start/stop of  the control system and change of desired values
+G05B   7/02  M	1	0	5H004	G05B   7/02	449	自動一手切換え	Auto/manual selection
+G05B   7/02  R	1	0	5H004	G05B   7/02	120	リモート‐ローカル切換え	Remote/local selection
+G05B   7/02  Z	1	0	5H004	G05B   7/02	746	その他のもの	Others
+G05B   7/04  \	1	1	5H004	G05B   7/04	91	流体式［２］	fluidic [2]
+G05B   9/00  \	0	0	5H209	G05B   9/00	17	安全装置（Ｇ０５Ｂ７／００が優先；プログラム制御システム中の安全装置Ｇ０５Ｂ１９／４０６）［２００６．０１］	Safety arrangements (G05B 7/00 takes precedence; safety arrangements in programme-control systems G05B 19/048, G05B 19/406) [2006.01]
+G05B   9/02  \	1	1	5H209	G05B   9/02	37	電気式	electric
+G05B   9/02  A	1	0	5H209	G05B   9/02	1940	異常検知手段を有し、その出力によつて制御系の安全を図るもの	With failure detecting means, the output of which is used to ensure safety of  the control system
+G05B   9/02  B	1	0	5H209	G05B   9/02	1177	制御動作を停止するもの	Stopping the control operation
+G05B   9/02  C	1	0	5H209	G05B   9/02	300	制御出力を強制的に安全側に移行させるもの	Forcibly changing the control output to the safe side
+G05B   9/02  D	1	1	5H209	G05B   9/02	262	制御出力を保持するもの	Maintaining control outputs
+G05B   9/02  E	1	0	5H209	G05B   9/02	405	制御系自体が異常時でも危険側に移行しない構成のもの；フエイルセ−フを図るもの	Configured to prevent transfer to the dangerous side, despite failure of the control system per se; ensuring fail-safe functions
+G05B   9/02  F	1	1	5H209	G05B   9/02	155	制御系の各種パラメ−タに制限を設けるもの	Imposing restrictions to various parameters of the  control system
+G05B   9/02  G	1	1	5H209	G05B   9/02	262	インタ−ロツク構成のもの	interlocking configuration
+G05B   9/02  H	1	1	5H209	G05B   9/02	74	装置間の絶縁を図り、雑音等の影響を除去するもの	With provision for insulation between devices, thereby eliminating adverse effect of noise or the like
+G05B   9/02  J	1	1	5H209	G05B   9/02	255	電源投入および断時のフエイルセ−フを図るもの	With provision for ensuring fail-safe functions when power is turned on or disconnected
+G05B   9/02  K	1	0	5H209	G05B   9/02	746	制御系の電源異常に関するもの	Related to power failure of the control system
+G05B   9/02  L	1	0	5H209	G05B   9/02	545	操作員の誤操作を防止するもの	wherein operator&apos;s operation errors are avoided
+G05B   9/02  Z	1	0	5H209	G05B   9/02	474	その他のもの	Others
+G05B   9/03  \	2	2	5H209	G05B   9/03	2381	多重チャンネルループ，すなわち．冗長制御系［２］	with multiple-channel loop, i.e. redundant control systems [2]
+G05B   9/05  \	1	1	5H209	G05B   9/05	47	流体式［２］	fluidic [2]
+G05B  11/00  \	0	0	5H004	G05B  11/00	126	自動制御装置（Ｇ０５Ｂ１３／００が優先）	Automatic controllers (G05B 13/00 takes precedence)
+G05B  11/00  L	0	0	5H004	G05B  11/00	59	流体要素を含むもの〔純流体式１１／４４以降〕	Including fluid elements (pure fluid type 11/44 and thereafter)
+G05B  11/00  Z	0	0	5H004	G05B  11/00	550	その他のもの	Others
+G05B  11/01  \	1	1	5H004	G05B  11/01	226	電気式	electric
+G05B  11/06  \	2	2	5H004	G05B  11/06	26	出力信号が目標値からの偏差の連続函数を現わすもの，すなわち連続式制御装置（Ｇ０５Ｂ１１／２６が優先）	in which the output signal represents a continuous function of the deviation from the desired value, i.e. continuous controllers (G05B 11/26 takes precedence)
+G05B  11/06  A	2	0	5H004	G05B  11/06	47	ディジタル回路を用いるもの	Using digital circuits
+G05B  11/06  Z	2	0	5H004	G05B  11/06	304	その他のもの	Others
+G05B  11/10  \	3	3	5H004	G05B  11/10	4	伝送信号が直流のもの	the signal transmitted being dc
+G05B  11/12  \	3	3	5H004	G05B  11/12	0	伝送信号が交流搬送波で変調されるもの	the signal transmitted being modulated on an ac carrier
+G05B  11/14  \	2	2	5H004	G05B  11/14	192	出力信号が目標値からの偏差の不連続函数であるもの，すなわち不連続式制御装置（Ｇ０５Ｂ１１／２６が優先）	in which the output signal represents a discontinuous function of the deviation from the desired value, i.e. discontinuous controllers (G05B 11/26 takes precedence)
+G05B  11/16  \	3	3	5H004	G05B  11/16	598	二位置制御装置，例．オン―オフ動作をもつもの	Two-step controllers, e.g. with on/off action
+G05B  11/18  \	3	3	5H004	G05B  11/18	17	多位置制御装置	Multi-step controllers
+G05B  11/18  D	3	0	5H004	G05B  11/18	452	台数の制御を行なうもの	Controlling the number of units
+G05B  11/18  Z	3	0	5H004	G05B  11/18	196	その他のもの	Others
+G05B  11/26  \	2	2	5H004	G05B  11/26	20	出力がパルス列であるもの	in which the output signal is a pulse-train
+G05B  11/26  A	2	0	5H004	G05B  11/26	73	ディジタル回路を用いるもの	Using digital circuits
+G05B  11/26  C	2	1	5H004	G05B  11/26	238	計算機を用いるもの	Using computers
+G05B  11/26  Z	2	0	5H004	G05B  11/26	524	その他のもの	Others
+G05B  11/28  \	3	3	5H004	G05B  11/28	149	パルス高さ変調を用いるもの；パルス幅変調を用いるもの	using pulse-height modulation; using pulse-width modulation
+G05B  11/30  \	3	3	5H004	G05B  11/30	73	パルス周波数変調を用いるもの	using pulse-frequency modulation
+G05B  11/32  \	2	2	5H004	G05B  11/32	11	２個以上の検出要素からの入力をもつもの；２個以上の修正単位に加えられる出力をもつもの	with inputs from more than one sensing element; with outputs to more than one correcting element
+G05B  11/32  A	2	0	5H004	G05B  11/32	446	多変数制御；不干渉制御	Multiple variable control; non-interference control
+G05B  11/32  C	2	0	5H004	G05B  11/32	183	カスケード制御	Cascade control
+G05B  11/32  F	2	0	5H004	G05B  11/32	1000	フィードバック制御とフィードフォワード制御を併用するもの	A combined use of feedback control and feed forward control
+G05B  11/32  Z	2	0	5H004	G05B  11/32	625	その他のもの	Others
+G05B  11/36  \	2	2	5H004	G05B  11/36	12	特別な特性，例．比例，微分，積分，を得るための装置をもつもの	with provision for obtaining particular characteristics, e.g. proportional, integral, differential
+G05B  11/36  A	2	0	5H004	G05B  11/36	174	サーボまたは機械量制御系用であるもの	For servo or mechanical quantity control system
+G05B  11/36  B	2	1	5H004	G05B  11/36	251	電動機の制御を行うための特徴的な構成を含むもの	Including the configuration characteristic of motor control
+G05B  11/36  C	2	1	5H004	G05B  11/36	213	情報記録媒体，例．ＶＣＲ；の駆動制御を行うもの	Information recording medium, e.g. providing VCR drive control
+G05B  11/36  D	2	1	5H004	G05B  11/36	294	位置の制御を行うもの	Providing position control
+G05B  11/36  E	2	1	5H004	G05B  11/36	146	速度または位相の制御を行うもの	Controlling speed or phase
+G05B  11/36  F	2	1	5H004	G05B  11/36	151	ロボットまたは工作機械	Robots or machine tools
+G05B  11/36  G	2	1	5H004	G05B  11/36	160	移動体，例．搬送車，エレベータ，自動車；の制御系	Mobiles, e.g. control systems for transport vehicles, elevators and cars
+G05B  11/36  H	2	1	5H004	G05B  11/36	55	流体サーボ系であるもの	Fluid servo system
+G05B  11/36  J	2	0	5H004	G05B  11/36	73	熱・化学反応または燃焼系の制御用であるもの	For control of thermal and chemical reaction or combustion systems
+G05B  11/36  K	2	1	5H004	G05B  11/36	202	温度・湿度制御系用	For temperature and humidity control system
+G05B  11/36  L	2	1	5H004	G05B  11/36	103	ボイラ，タービン，蒸気圧の制御系用	For boiler, turbine and steam pressure control systems
+G05B  11/36  M	2	1	5H004	G05B  11/36	118	内燃機関制御系用	For internal combustion system control
+G05B  11/36  N	2	0	5H004	G05B  11/36	199	流量・圧力・液位等のプロセス量制御系用	For process volume control system for flow rate, pressure,  liquid level, etc.
+G05B  11/36  P	2	0	5H004	G05B  11/36	76	電気量・磁気量，例．電力；の制御系用	For the control of electrical and magnetic quantities, e.g. electric power
+G05B  11/36  Q	2	0	5H004	G05B  11/36	66	上記以外の制御対象のための特有の構成を有するもの	With specific configuration for control targets other than the above
+G05B  11/36  R	2	0	5H004	G05B  11/36	92	調節計自体の構成，または調節計を含む制御系	Configuration of  regulators per se or control systems including them
+G05B  11/36  S	2	0	5H004	G05B  11/36	49	制御装置・制御系の細部	Details of controllers and control systems
+G05B  11/36  T	2	1	5H004	G05B  11/36	219	操作特性，保守性，安全性を改善するための構成	Configuration for improving operation characteristics and safety
+G05B  11/36  U	2	2	5H004	G05B  11/36	131	制御装置の初期設定または調整のためのもの	For initial setting or adjustment of controllers
+G05B  11/36  Z	2	0	5H004	G05B  11/36	100	その他のもの	Others
+G05B  11/36 501 \	3	3	5H004	G05B  11/36	7	所望の特性を得るための制御系の設計・調整：制御演算部の構成	Design and adjustment of control systems to obtain desired characteristics; configuration of control operation part
+G05B  11/36 501 A	3	0	5H004	G05B  11/36	110	定常特性，例．定常誤差特性；を改善するためのもの	For improving the steady-state characteristics, e.g. steady-state error characteristics
+G05B  11/36 501 B	3	0	5H004	G05B  11/36	352	非定常特性，例．設定値変更時，外乱発生時；を改善するためのもの	For improving the non-steady state characteristics, e.g. when the setting is changed or disturbances have occurred
+G05B  11/36 501 C	3	0	5H004	G05B  11/36	315	周波数特性，振動特性を改善するためのもの	For improving the frequency characteristics and oscillation characteristics
+G05B  11/36 501 D	3	0	5H004	G05B  11/36	95	元の信号に特別な処理を行い所望の特性を有する別の信号を得るもの	wherein original signals undergo special processing thereby getting different sugnals having desired characteristics
+G05B  11/36 501 E	3	1	5H004	G05B  11/36	302	回路要素またはフィルタ要素を用いるもの	Using circuit elements or filter elements
+G05B  11/36 501 F	3	1	5H004	G05B  11/36	201	関数発生器・メモリ・演算テーブル等を用いるもの	Using function generators, memories and operation tables
+G05B  11/36 501 G	3	1	5H004	G05B  11/36	54	数値的演算によるもの	By numerical computation
+G05B  11/36 501 H	3	0	5H004	G05B  11/36	277	複数の制御モードを組み合わせて制御特性を改善するもの	Improving the control characteristics by combination of multiple control modes
+G05B  11/36 501 K	3	0	5H004	G05B  11/36	165	電気・電子回路（アナログ）を用いた構成に特徴のあるもの	Characterized by the configuration using electric and electronic circuits (analog)
+G05B  11/36 501 L	3	0	5H004	G05B  11/36	206	制御ブロック図要素，例．補償要素；の選択・配置によるもの	By selection and layout of control block diagram elements, e.g. compensation elements
+G05B  11/36 501 M	3	0	5H004	G05B  11/36	353	計算機を用いた構成に特徴のあるもの	Characterized by the configuration using computers
+G05B  11/36 501 N	3	0	5H004	G05B  11/36	248	デジタル回路（計算機は除く）を用いた構成に特徴のあるもの	Characterized by the configuration using digital circuits (except for computers)
+G05B  11/36 501 P	3	0	5H004	G05B  11/36	88	不感帯（デッドバンド）変更手段を有するもの	With means to change the dead band
+G05B  11/36 501 Q	3	0	5H004	G05B  11/36	198	複数の制御ループを用いるもの	Using multiple control  loops
+G05B  11/36 501 Z	3	0	5H004	G05B  11/36	120	その他	Others
+G05B  11/36 503 \	3	3	5H004	G05B  11/36	1	信号検出部，または検出信号処理部	Signal detectors or detected signal processor
+G05B  11/36 503 A	3	0	5H004	G05B  11/36	255	検出信号を補正または変換するもの	Compensating for or converting detected signals
+G05B  11/36 503 B	3	0	5H004	G05B  11/36	98	複数の検出部分を有するもの	With multiple detecting parts
+G05B  11/36 503 C	3	1	5H004	G05B  11/36	189	検出信号の値に応じて各種制御パラメータ等を調整するもの	Adjusting various control parameters according to the detected signal value
+G05B  11/36 503 Z	3	0	5H004	G05B  11/36	71	その他	Others
+G05B  11/36 505 \	3	3	5H004	G05B  11/36	6	設定値信号の処理または種類に特徴のあるもの	Characterized by processing of setting signals or types thereof
+G05B  11/36 505 A	3	0	5H004	G05B  11/36	343	設定信号を補正または変換して出力するもの	Compensating for or converting set signals thereby outputting them
+G05B  11/36 505 B	3	0	5H004	G05B  11/36	114	プログラム制御，バッチ制御を行うもの	Providing programme control or batch control
+G05B  11/36 505 D	3	1	5H004	G05B  11/36	61	起動時または設定値急変時のための特有の構成を有するもの	With unique configuration for startup or change of settings
+G05B  11/36 505 Z	3	0	5H004	G05B  11/36	106	その他	Others
+G05B  11/36 507 \	3	3	5H004	G05B  11/36	0	操作端の駆動方法・手段	Methods and means for driving operation terminals
+G05B  11/36 507 A	3	0	5H004	G05B  11/36	33	操作端が不連続的に駆動されるもの	Characterized by discontinuous drive of operation terminals
+G05B  11/36 507 B	3	1	5H004	G05B  11/36	57	オンオフ駆動されるもの	Driven by on-off signals
+G05B  11/36 507 C	3	1	5H004	G05B  11/36	18	周期的に操作信号が更新されるもの	Operation signals updated on a periodic basis
+G05B  11/36 507 F	3	0	5H004	G05B  11/36	162	操作端駆動のために非線形変換または補償を行うもの	Non-linear conversion or compensation performed to drive operation terminals
+G05B  11/36 507 G	3	0	5H004	G05B  11/36	42	操作端駆動用のマイナーフィードバック制御ループを有するもの	With a minor feedback control to drive the operation terminal
+G05B  11/36 507 H	3	0	5H004	G05B  11/36	156	複数の操作端を用いるもの	Using multiple operation terminals
+G05B  11/36 507 Z	3	0	5H004	G05B  11/36	24	その他	Others
+G05B  11/38  \	3	3	5H004	G05B  11/38	26	比例特性を得るためのもの	for obtaining a proportional characteristic
+G05B  11/40  \	3	3	5H004	G05B  11/40	45	積分特性を得るためのもの	for obtaining an integral characteristic
+G05B  11/42  \	3	3	5H004	G05B  11/42	41	比例と時間依存特性の両方，例．Ｐ．Ｉ．，Ｐ．Ｉ．Ｄ，を得るためのもの	for obtaining a characteristic which is both proportional and time-dependent, e.g. P. I., P. I. D.
+G05B  11/42  A	3	0	5H004	G05B  11/42	278	リセットワインドアップの防止を図るもの	Preventing reset windup
+G05B  11/42  Z	3	0	5H004	G05B  11/42	590	その他のもの	Others
+G05B  11/44  \	1	1	5H004	G05B  11/44	75	純空気式	pneumatic only
+G05B  11/46  \	2	2	5H004	G05B  11/46	6	補助動力のないもの	without auxiliary power
+G05B  11/48  \	2	2	5H004	G05B  11/48	11	補助動力のあるもの	with auxiliary power
+G05B  11/50  \	3	3	5H004	G05B  11/50	104	出力信号が目標値からの偏差の連続函数であるもの，すなわち連続式制御装置	in which the output signal represents a continuous function of the deviation from the desired value, i.e. continuous controllers
+G05B  11/52  \	3	3	5H004	G05B  11/52	25	出力信号が目標値からの偏差の不連続凾数であるもの，すなわち不連続式制御装置	in which the output signal represents a discontinuous function of the deviation from the desired value, i.e. discontinuous controllers
+G05B  11/54  \	4	4	5H004	G05B  11/54	6	二位置制御装置	Two-step controllers, e.g. with on/off action
+G05B  11/56  \	4	4	5H004	G05B  11/56	2	多位置制御装置	Multi-step controllers
+G05B  11/58  \	2	2	5H004	G05B  11/58	4	２個以上の検出要素からの入力をもつもの	with inputs from more than one sensing element; with outputs to more than one correcting element
+G05B  11/60  \	1	1	5H004	G05B  11/60	101	純液圧式	hydraulic only
+G05B  13/00  \	0	0	5H004	G05B  13/00	732	適応制御システム，すなわち幾つかの事前に割り当てられた基準通りの最適な性能を得るために，自らを自動的に調整するシステム（Ｇ０５Ｂ１９／００が優先）［２００６．０１］	Adaptive control systems, i.e. systems automatically adjusting themselves to have a performance which is optimum according to some preassigned criterion (G05B 19/00 takes precedence) [2006.01]
+G05B  13/00  A	0	0	5H004	G05B  13/00	254	位相平面上の切り換え曲線を用いるもの	Using switching curves on the phase plane
+G05B  13/00  L	0	0	5H004	G05B  13/00	24	流体要素を含むもの	Including fluid elements
+G05B  13/00  Z	0	0	5H004	G05B  13/00	1010	その他のもの	Others
+G05B  13/02  \	1	1	5H004	G05B  13/02	110	電気式	electric
+G05B  13/02  A	1	0	5H004	G05B  13/02	887	適応制御系すなわちパラメ−タを動的に変更するもの	Dynamic change of adaptive control system, i.e. parameters
+G05B  13/02  B	1	1	5H004	G05B  13/02	1044	目標値または検出値の変動に応じてパラメ−タを変更するもの	Parameters changed according to desired values or detected values
+G05B  13/02  C	1	1	5H004	G05B  13/02	682	外乱に応じてパラメ−タを変更するもの	Parameters changed according to disturbances
+G05B  13/02  D	1	1	5H004	G05B  13/02	814	オンライン同定を行なうもの	Subjected to online identification
+G05B  13/02  E	1	2	5H004	G05B  13/02	300	評価手段に特徴のあるもの	Characterized by evaluation means
+G05B  13/02  J	1	0	5H004	G05B  13/02	979	最適化制御	Optimization control
+G05B  13/02  K	1	1	5H004	G05B  13/02	420	線形計画法，非線形計画法または動的計画法を用いるもの	Using the linear planning method, non-linera planning method or dynamic planning method
+G05B  13/02  L	1	0	5H004	G05B  13/02	1597	学習制御	Learning control
+G05B  13/02  M	1	0	5H004	G05B  13/02	492	ＡＩ，推論を利用したもの	using AI and inference method
+G05B  13/02  N	1	0	5H004	G05B  13/02	2050	フアジイ制御	Fuzzy control
+G05B  13/02  P	1	0	5H004	G05B  13/02	73	工作機械を対象とするもの	Machine tools as targets
+G05B  13/02  Q	1	0	5H004	G05B  13/02	166	圧延機械を対象とするもの	Rolling machines as targets
+G05B  13/02  R	1	0	5H004	G05B  13/02	26	音響機械を対象とするもの	Acoustic equipment as targets
+G05B  13/02  S	1	0	5H004	G05B  13/02	363	特殊なフイルタを用いるもの	Using special films
+G05B  13/02  T	1	0	5H004	G05B  13/02	240	ロバスト性を考慮したもの	with robustness taken into account
+G05B  13/02  Z	1	0	5H004	G05B  13/02	677	その他	Others
+G05B  13/04  \	2	2	5H004	G05B  13/04	2522	モデルまたはシミュレータの使用を伴うもの［３］	involving the use of models or simulators [3]
+G05B  15/00  \	0	0	5H215	G05B  15/00	58	コンピューターにより制御されるシステム（Ｇ０５Ｂ１３／００，Ｇ０５Ｂ１９／００が優先；特別な特性を有する自動制御装置Ｇ０５Ｂ１１／００）［２００６．０１］	Systems controlled by a computer (G05B 13/00, G05B 19/00 take precedence; automatic controllers with particular characteristics G05B 11/00) [2006.01]
+G05B  15/02  \	1	1	5H215	G05B  15/02	133	電気式	electric
+G05B  15/02  A	1	0	5H215	G05B  15/02	1669	入，出力に関するもの	Related to inputs and outputs
+G05B  15/02  D	1	0	5H215	G05B  15/02	47	電力発生装置固有のもの	Unique to power generators
+G05B  15/02  H	1	0	5H215	G05B  15/02	436	ハードウェア構成に関するもの	Related to hardware configuration
+G05B  15/02  M	1	0	5H215	G05B  15/02	840	複数計算機に関するもの	Related to multiple computers
+G05B  15/02  P	1	0	5H215	G05B  15/02	310	プログラム作成に関するもの	Related to creation of programme
+G05B  15/02  W	1	0	5H215	G05B  15/02	177	割り込みに関するもの	Related to interruption
+G05B  15/02  Z	1	0	5H215	G05B  15/02	2816	その他のもの	Others
+G05B  17/00  \	0	0	5H004	G05B  17/00	298	システムであるが，自身のモデルまたはシミュレーターの使用を伴うシステム（Ｇ０５Ｂ１３／００，Ｇ０５Ｂ１５／００，Ｇ０５Ｂ１９／００が優先）［２００６．０１］	Systems involving the use of models or simulators of said systems (G05B 13/00, G05B 15/00, G05B 19/00 take precedence) [2006.01]
+G05B  17/02  \	1	1	5H004	G05B  17/02	787	電気式	electric
+G05B  19/00  \	0	0	5H219	G05B  19/00	209	プログラム制御システム［２００６．０１］	Programme-control systems [2006.01]
+G05B  19/02  \	1	1	5H219	G05B  19/02	59	電気式	electric
+G05B  19/02  A	1	0	5H219	G05B  19/02	481	連続パタ−ン制御信号を発生するもの	Generating continuous pattern control signals
+G05B  19/02  B	1	1	5H219	G05B  19/02	169	デイジタル回路を用いるもの	Using digital circuits
+G05B  19/02  C	1	1	5H219	G05B  19/02	348	ストアドプログラム方式のもの	Based on stored programme system
+G05B  19/02  D	1	0	5H219	G05B  19/02	490	不連続パタ−ン制御信号を発生するもの	Generating discontinuous pattern control signals
+G05B  19/02  F	1	1	5H219	G05B  19/02	421	シ−ケンシヤルタイマ制御系　例．洗濯機	Sequential timer control system, e.g. washing machines
+G05B  19/02  G	1	1	5H219	G05B  19/02	458	定時刻タイマ制御系　例．録画予約	Fixed time point timer control system, e.g.  reservation of recording
+G05B  19/02  H	1	0	5H219	G05B  19/02	1119	シ−ケンス制御系	Sequence control system
+G05B  19/02  P	1	1	5H219	G05B  19/02	335	デジタル回路を用いるもの	Using digital controls
+G05B  19/02  T	1	1	5H219	G05B  19/02	397	計算機を用いるもの	Using computers
+G05B  19/02  W	1	0	5H219	G05B  19/02	366	装置の構造に特徴のあるもの	Characterized by equipment structures
+G05B  19/02  Z	1	0	5H219	G05B  19/02	384	その他のもの	Others
+G05B  19/04  \	2	2	5H220	G05B  19/04	94	数値制御以外のプログラム制御，すなわちシーケンスコントローラーまたはロジックコントローラにおける数値制御（Ｇ０５Ｂ１９／４１８が優先）［２００６．０１］	Programme control other than numerical control, i.e. in sequence controllers or logic controllers (G05B 19/418 takes precedence) [2006.01]
+G05B  19/042  \	3	3	5H220	G05B  19/042	1076	デジタルプロセッサを用いるもの（Ｇ０５Ｂ１９／０５が優先）［６］	using digital processors (G05B 19/05 takes precedence) [6]
+G05B  19/045  \	3	3	5H220	G05B  19/045	26	論理状態機械を用いるもので，制御される機械のための論理を含むメモリまたはプログラマブル論理装置のみからなり，その出力の状態が入力の状態またはそれ自体の出力状態の一部に依存するもの，例．二分決定制御装置，有限状態制御装置［６］	using logic state machines, consisting only of a memory or a programmable logic device containing the logic for the controlled machine and in which the state of its outputs is dependent on the state of its inputs or part of its own output states, e.g. binary decision controllers, finite state controllers [6]
+G05B  19/048  \	3	3	5H220	G05B  19/048	2507	監視；安全［６］	Monitoring; Safety [6]
+G05B  19/05  \	3	3	5H220	G05B  19/05	49	プログラマブル論理制御装置，例．ラダーダイアグラムまたは機能チャートに従って信号の論理的な相互接続を模擬するもの［５］	Programmable logic controllers, e.g. simulating logic interconnections of signals according to ladder diagrams or function charts [5]
+G05B  19/05  A	3	0	5H220	G05B  19/05	2586	プログラムの作成及び入力	Programme creation and input
+G05B  19/05  B	3	1	5H220	G05B  19/05	1156	プログラムを図形化して表示するもの例ラダ−図	Display of the programme in graphic representation, e.g. ladder diagram
+G05B  19/05  D	3	0	5H220	G05B  19/05	2199	制御系の監視部に特徴のあるもの	Characterized by the minitor part of the control system
+G05B  19/05  F	3	0	5H220	G05B  19/05	1690	演算部分に特徴のあるもの	Characterized by the operation part
+G05B  19/05  G	3	1	5H220	G05B  19/05	239	論理演算モ−ドと数値演算モ−ドとを有するもの	with logic and arithmetic operation modes
+G05B  19/05  J	3	1	5H220	G05B  19/05	499	タイマ・カウンタ機能	Timer counter function
+G05B  19/05  L	3	0	5H220	G05B  19/05	2944	入出力部分に特徴のあるもの	Characterized by input/output parts
+G05B  19/05  N	3	0	5H220	G05B  19/05	1360	構造又は他の機能例，安全装置	Structures and other functions, e.g. safety devices
+G05B  19/05  S	3	0	5H220	G05B  19/05	1362	複数のコントロ−ラからなる制御系	Control systems comprising multiple controllers
+G05B  19/05  W	3	0	5H220	G05B  19/05	610	ステツプ型〔工程歩進型〕のもの	Step type (process step-advancing type)
+G05B  19/05  Z	3	0	5H220	G05B  19/05	570	その他のもの	Others
+G05B  19/06  \	3	3	5H219	G05B  19/06	3	カム，円板，棒，ドラムまたは同様のものを用いるもの［２００６．０１］	using cams, discs, rods, drums or the like [2006.01]
+G05B  19/06  A	3	0	5H219	G05B  19/06	150	連続信号を発生するためのもの	For generating continuous signals
+G05B  19/06  H	3	0	5H219	G05B  19/06	339	不連続信号を発生するためのもの；シ−ケンスコントロ−ラ	For generating discontinuous signals; sequence controller
+G05B  19/06  Z	3	0	5H219	G05B  19/06	1	その他のもの	Others
+G05B  19/07  \	3	3	5H219	G05B  19/07	0	プログラムが電気要素の固定接続で決定されるもの，例．ポテンショメータ，計数器，トランジスタ［６］	where the programme is defined in the fixed connection of electrical elements, e.g. potentiometers, counters, transistors [6]
+G05B  19/08  \	3	3	5H219	G05B  19/08	3	プラグボード，クロスバー分配器，マトリックススイッチ，または同様物を用いるもの	using plugboards, cross-bar distributors, matrix switches, or the like
+G05B  19/08  A	3	0	5H219	G05B  19/08	29	連続信号を発生するためのもの	For generating continuous signals
+G05B  19/08  H	3	0	5H219	G05B  19/08	467	不連続信号を発生するためのもの；シ−ケンスコントロ−ラ	For generating discontinuous signals; sequence controller
+G05B  19/08  Z	3	0	5H219	G05B  19/08	285	その他のもの	Others
+G05B  19/10  \	3	3	5H219	G05B  19/10	4	選択スイッチを用いるもの	using selector switches
+G05B  19/10  A	3	0	5H219	G05B  19/10	17	連続信号を発生するためのもの	For generating continuous signals
+G05B  19/10  H	3	0	5H219	G05B  19/10	142	不連続信号を発生するためのもの；シ−ケンスコントロ−ラ	For generating discontinuous signals; sequence controller
+G05B  19/10  Z	3	0	5H219	G05B  19/10	3	その他のもの	Others
+G05B  19/12  \	3	3	5H219	G05B  19/12	16	記録担体を用いるもの	using record carriers
+G05B  19/12  A	3	0	5H219	G05B  19/12	36	連続信号を発生するためのもの	For generating continuous signals
+G05B  19/12  H	3	0	5H219	G05B  19/12	176	不連続信号を発生するためのもの；シ−ケンスコントロ−ラ	For generating discontinuous signals; sequence controller
+G05B  19/12  Z	3	0	5H219	G05B  19/12	11	その他のもの	Others
+G05B  19/14  \	4	4	5H219	G05B  19/14	2	パンチカードまたはテープを用いるもの	using punched cards or tapes
+G05B  19/14  A	4	0	5H219	G05B  19/14	1	連続信号を発生するためのもの	For generating continuous signals
+G05B  19/14  H	4	0	5H219	G05B  19/14	52	不連続信号を発生するためのもの；シ−ケンスコントロ−ラ	For generating discontinuous signals; sequence controller
+G05B  19/14  Z	4	0	5H219	G05B  19/14	9	その他のもの	Others
+G05B  19/16  \	4	4	5H219	G05B  19/16	7	磁気的記録担体を用いるもの	using magnetic record carriers
+G05B  19/16  A	4	0	5H219	G05B  19/16	11	連続信号を発生するためのもの	For generating continuous signals
+G05B  19/16  H	4	0	5H219	G05B  19/16	54	不連続信号を発生するためのもの；シ−ケンスコントロ−ラ	For generating discontinuous signals; sequence controller
+G05B  19/16  Z	4	0	5H219	G05B  19/16	26	その他のもの	Others
+G05B  19/18  \	2	2	3C269	G05B  19/18	40	数値制御［ＮＣ］，すなわち，自動的に機械，特に工作機械を作動させるもの，例．数値形式のプログラムデータにより位置決め，運動または共働動作を実行するような製造環境（Ｇ０５Ｂ１９／４１８が優先）［２００６．０１］	Numerical control [NC], i.e. automatically operating machines, in particular machine tools, e.g. in a manufacturing environment, so as to execute positioning, movement or co-ordinated operations by means of programme data in numerical form (G05B 19/418 takes precedence) [2006.01]
+G05B  19/18  A	2	0	3C269	G05B  19/18	705	原点復帰に特徴があるもの	Characterized by return to home position
+G05B  19/18  B	2	0	3C269	G05B  19/18	139	移動する作業対象に対して動作する制御対象に特に適合したもの	Especially suited to control targets operating with respect to moving work targets
+G05B  19/18  C	2	0	3C269	G05B  19/18	1620	機械的に一体の複数軸を有する制御対象，複数の制御対象に特に適合したもの	Control targets with multiple axes which are mechanically integrated into one unit; said targets especially suited to multiple control targets
+G05B  19/18  D	2	1	3C269	G05B  19/18	854	特定の点に位置決めするのに複数の姿勢が可能である制御対象，例．多関節を有するものに特に適合したもの	Control targets allowing for multiple postures for positioning a specified point, e.g. said targets especially suited to articulated ones
+G05B  19/18  S	2	0	3C269	G05B  19/18	334	位置指令，速度指令以外のプログラム指令の出力，作成に特徴があるもの	Characterized by output and creation of the programme commands other than position and speed commands
+G05B  19/18  T	2	1	3C269	G05B  19/18	542	補助指令，例．Ｍ．Ｓ．Ｔ指令，シ−ケンス制御指令，主軸速度指令の出力，作成	Output and creation of auxiliary functions, e.g. output and creation of M. S. T. commands, sequence control commands and spindle speed commands
+G05B  19/18  U	2	2	3C269	G05B  19/18	99	専用プロセツサによる出力，作成〔例．プログラマブルコントロ−ラを利用するもの〕	Output and creation by special-purpose processor, e.g. using  programmable controllers
+G05B  19/18  W	2	0	3C269	G05B  19/18	1038	試験，監視	Test and motoring
+G05B  19/18  X	2	0	3C269	G05B  19/18	1469	異常検知，安全装置	Failure detection and safety devices
+G05B  19/18  Y	2	0	3C269	G05B  19/18	148	特別な制御対象に対するもの	For special control targets
+G05B  19/18  Z	2	0	3C269	G05B  19/18	338	その他のもの	Others
+G05B  19/19  \	3	3	3C269	G05B  19/19	24	位置決めまたは輪郭制御系に特徴があるもの，例．１つのプログラムされた点から他の点に位置を制御する，またはプログラムされた連続経路に沿って運動を制御するもの［３，６］	characterised by positioning or contouring control systems, e.g. to control position from one programmed point to another or to control movement along a programmed continuous path
+G05B  19/19  F	3	0	3C269	G05B  19/19	144	特別な位置検出手段を有するもの	with special position detecting means
+G05B  19/19  H	3	1	3C269	G05B  19/19	384	撮像手段，画像処理手段を特徴とするもの	Characterized by pickup means and image processing means
+G05B  19/19  K	3	0	3C269	G05B  19/19	262	監視，異常検知	Monitoring and failure detection
+G05B  19/19  L	3	1	3C269	G05B  19/19	168	フイ−ドバツク制御系における位置偏差信号の監視によるもの	By monitoring the position deviation signals in feedback control systems
+G05B  19/19  M	3	1	3C269	G05B  19/19	385	被制御対象の占める位置の監視によるもの〔Ｌが優先〕	By monitoring the position occupied by control targets
+G05B  19/19  N	3	1	3C269	G05B  19/19	34	時間の監視によるもの〔Ｌ，Ｍが優先〕	By time monitoring (L and M take precedence)
+G05B  19/19  P	3	0	3C269	G05B  19/19	269	位置決め手段の具体的構成に特徴があるもの	Characterized by concrete configuration of positioning means
+G05B  19/19  Q	3	1	3C269	G05B  19/19	114	プロセツサを利用したもの	Using processors
+G05B  19/19  R	3	2	3C269	G05B  19/19	63	プログラム指令出力用プロセツサを利用したもの	programme command output processors
+G05B  19/19  S	3	1	3C269	G05B  19/19	47	機械的構造に特徴があるもの	Characterized by mechanical structures
+G05B  19/19  V	3	0	3C269	G05B  19/19	111	安全装置	Safety devices
+G05B  19/19  W	3	1	3C269	G05B  19/19	126	各種変量に制限を加えたもの	Restriction imposed on variables
+G05B  19/19  X	3	1	3C269	G05B  19/19	161	動作の停止〔Ｗが優先〕	Operation stop (W takes precedence)
+G05B  19/19  Z	3	0	3C269	G05B  19/19	162	その他	Others
+G05B  19/21  \	4	4	3C269	G05B  19/21	56	増分デイジタル測定器を用いるもの［３］	using an incremental digital measuring device [3]
+G05B  19/23  \	5	5	3C269	G05B  19/23	0	点―点制御のためのもの［３］	for point-to-point control [3]
+G05B  19/25  \	5	5	3C269	G05B  19/25	0	連続経路制御のためのもの［３］	for continuous-path control [3]
+G05B  19/27  \	4	4	3C269	G05B  19/27	16	絶対デイジタル測定器を用いるもの［３］	using an absolute digital measuring device [3]
+G05B  19/29  \	5	5	3C269	G05B  19/29	0	点―点制御のためのもの［３］	for point-to-point control [3]
+G05B  19/31  \	5	5	3C269	G05B  19/31	1	連続経路制御のためのもの［３］	for continuous-path control [3]
+G05B  19/33  \	4	4	3C269	G05B  19/33	124	アナログ測定器を用いるもの［３］	using an analogue measuring device [3]
+G05B  19/35  \	5	5	3C269	G05B  19/35	0	点―点制御のためのもの［３］	for point-to-point control [3]
+G05B  19/37  \	5	5	3C269	G05B  19/37	1	連続経路制御のためのもの［３］	for continuous-path control [3]
+G05B  19/39  \	4	4	3C269	G05B  19/39	16	上記グループＧ０５Ｂ１９／２１，Ｇ０５Ｂ１９／２７およびＧ０５Ｂ１９／３３の少くとも２つのグループに含まれる手段の組合せを用いるもの［３］	using a combination of the means covered by at least two of the preceding groups G05B 19/21, G05B 19/27 and G05B 19/33 [3]
+G05B  19/40  \	4	4	3C269	G05B  19/40	74	開ループ系，例．ステップモータを用いるもの［３］	Open loop systems, e.g. using stepping motor [3]
+G05B  19/401  \	3	3	3C269	G05B  19/401	66	測定用制御装置に特徴のあるもの，例．較正および初期値設定，機械加工のための被加工物の測定（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by control arrangements for measuring, e.g. calibration and initialisation, measuring workpiece for machining purposes (G05B 19/19 takes precedence) [6]
+G05B  19/402  \	3	3	3C269	G05B  19/402	5	位置決め用制御装置に特徴のあるもの，例．被加工物の孔に対する工具の心出し，位置を正確にするための付加的検知手段（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by control arrangements for positioning, e.g. centring a tool relative to a hole in the workpiece, additional detection means to correct position (G05B 19/19 takes precedence) [6]
+G05B  19/404  \	3	3	3C269	G05B  19/404	9	補正用制御装置に特徴のあるもの，例．バックラッシュ，オーバーシュート，ツールオフセット，ツール摩耗，温度，機械構造誤差，負荷，慣性に対するもの（Ｇ０５Ｂ１９／１９，Ｇ０５Ｂ１９／４１が優先）［６］	characterised by control arrangements for compensation, e.g. for backlash, overshoot, tool offset, tool wear, temperature, machine construction errors, load, inertia (G05B 19/19, G05B 19/41 take precedence) [6]
+G05B  19/404  E	3	0	3C269	G05B  19/404	840	プログラム指令を補正して出力するもの（Ｈ１１．５新設）	outputting program command after correction
+G05B  19/404  F	3	1	3C269	G05B  19/404	524	作業具の寸法を補正するもの（Ｈ１１．５新設）	correcting size of tools
+G05B  19/404  G	3	1	3C269	G05B  19/404	721	機械系の誤差，例．ピッチ誤差，バックラッシュを補正するもの（Ｈ１１．５新設）	error of mechanical system. Ex. Pitch error, correcting backlash
+G05B  19/404  H	3	2	3C269	G05B  19/404	512	制御対象，作業対象の取付け誤差等を補正するもの（Ｈ１１．５新設）	correcting mounting errors of controlled subjects
+G05B  19/404  J	3	1	3C269	G05B  19/404	318	サーボ系の誤差を補正するもの（Ｈ１１．５新設）	correcting errors of servo system
+G05B  19/404  K	3	1	3C269	G05B  19/404	916	検出した他変量に応じてプログラム指令を補正するもの（Ｈ１１．５新設）	correcting program command corresponding to other detected variables
+G05B  19/404  L	3	1	3C269	G05B  19/404	162	手動指令に応じてプログラム指令を補正するもの（Ｈ１１．５新設）	correcting program commands corresponding to manual commands
+G05B  19/404  Z	3	0	3C269	G05B  19/404	35	その他（Ｈ１１．５新設）	others
+G05B  19/406  \	3	3	3C269	G05B  19/406	2	監視または安全に特徴のあるもの（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by monitoring or safety (G05B 19/19 takes precedence) [6]
+G05B  19/406  S	3	0	3C269	G05B  19/406	141	入力内容のチェック，入力の確認〔入力データ自体の誤りを検出するもののみを分類する。〕（Ｈ１１．５新設）	check of input contents. Confirmation of input. (classify those detecting errors of input data per se)
+G05B  19/406  T	3	0	3C269	G05B  19/406	78	プログラム作成装置，出力装置の異常検出，試験（Ｈ１１．５新設）	detecting or testing abnormality of program creation devices, output devices
+G05B  19/406  Z	3	0	3C269	G05B  19/406	29	その他（Ｈ１１．５新設）	others
+G05B  19/4061  \	4	4	3C269	G05B  19/4061	10	衝突または禁止区域の回避［２００６．０１］	Avoiding collision or forbidden zones [2006.01]
+G05B  19/4061  M	4	0	3C269	G05B  19/4061	248	制御対象の実位置、加工対象の形状の表示（Ｈ１１．５新設）	real position of controlled subjects, displaying shape of processed subjects
+G05B  19/4061  Z	4	0	3C269	G05B  19/4061	79	その他（Ｈ１１．５新設）	others
+G05B  19/4062  \	4	4	3C269	G05B  19/4062	109	サーボループの監視，例．サーボモータの過負荷，フィードバックまたは目標値の喪失［６］	Monitoring servoloop, e.g. overload of servomotor, loss of feedback or reference [6]
+G05B  19/4063  \	4	4	3C269	G05B  19/4063	14	制御装置全般の監視（Ｇ０５Ｂ１９／４０６２が優先）［６］	Monitoring general control system (G05B 19/4062 takes precedence) [6]
+G05B  19/4063  L	4	0	3C269	G05B  19/4063	872	各種変量，情報，例．実行中のステップ，稼働時間の検出，表示（Ｈ１１．５新設）	variables, information. Ex. Running steps, detecton of operation time, display
+G05B  19/4063  Z	4	0	3C269	G05B  19/4063	516	その他（Ｈ１１．５新設）	others
+G05B  19/4065  \	4	4	3C269	G05B  19/4065	114	ツールの破損，寿命または状態を監視するもの［６］	Monitoring tool breakage, life or condition [6]
+G05B  19/4067  \	4	4	3C269	G05B  19/4067	289	動力故障またはその他の中断後データまたは位置を元通りにするもの［６］	Restoring data or position after power failure or other interruption [6]
+G05B  19/4068  \	4	4	3C269	G05B  19/4068	392	描画またはその他の手段によりスクリーン上でパートプログラムを確認するもの［６］	Verifying part programme on screen, by drawing or other means [6]
+G05B  19/4069  \	4	4	3C269	G05B  19/4069	1305	スクリーン上で機械加工工程をシミュレートするもの（Ｇ０５Ｂ１９／４０６８が優先）［６］	Simulating machining process on screen (G05B 19/4068 takes precedence) [6]
+G05B  19/408  \	3	3	3C269	G05B  19/408	22	データの取り扱いまたはデータのフォーマットに特徴のあるもの，例．データの読み取り，バッファリングまたは変換［６］	characterised by data handling or data format, e.g. reading, buffering or conversion of data [6]
+G05B  19/408  A	3	0	3C269	G05B  19/408	192	入力装置〔計算機のＩ／Ｏの選択は１９／４１４〕（Ｈ１１．５新設）	input device (I/O selection of computer, 19/414)
+G05B  19/408  D	3	1	3C269	G05B  19/408	144	図面の読取り，画像処理手段の利用（Ｈ１１．５新設）	readout of plots, use of image processing method
+G05B  19/408  E	3	1	3C269	G05B  19/408	119	模型のならいを用いた入力装置（Ｈ１１．５新設）	input device using models
+G05B  19/408  Z	3	0	3C269	G05B  19/408	41	その他（Ｈ１１．５新設）	others
+G05B  19/409  \	3	3	3C269	G05B  19/409	4	マニュアルデータインプット［ＭＤＩ］，制御盤の使用に特徴のあるもの，例．盤による機能制御；制御盤の細部，パラメータの設定に特徴のあるもの（Ｇ０５Ｂ１９／４０８，Ｇ０５Ｂ１９／４０９３が優先）［２００６．０１］	characterised by using manual data input [MDI] or by using control panel, e.g. controlling functions with the panel; characterised by control panel details or by setting parameters (G05B 19/408, G05B 19/4093 take precedence) [2006.01]
+G05B  19/409  B	3	0	3C269	G05B  19/409	285	手動入力装置，例．キーボード，タブレット（Ｈ１１．５新設）	manual input device ex. Keyboard, tablet
+G05B  19/409  C	3	1	3C269	G05B  19/409	1213	表示手段を利用したもの，例．入力メニューの表示，キーの定義の表示，ライトペンの利用（Ｈ１１．５新設）	using displaying method. Ex. Display of input menu, display of key definition, use of light pens
+G05B  19/409  Z	3	0	3C269	G05B  19/409	40	その他（Ｈ１１．５新設）	others
+G05B  19/4093  \	3	3	3C269	G05B  19/4093	246	パートプログラミングに特徴のあるもの，例．パートプログラムと名付けられている，ＮＣ機械のための制御情報を得るために図面から取得された幾何学情報の入力で，この図面と機械加工情報と材料情報を組み合わせる入力［２００６．０１］	characterised by part programming, e.g. entry of geometrical information as taken from a technical drawing, combining this with machining and material information to obtain control information, named part programme, for the NC machine [2006.01]
+G05B  19/4093  A	3	0	3C269	G05B  19/4093	611	プログラムの作成〔Ｊが優先，経路以外のプログラムの作成は１９／１８Ｓ〕（Ｈ１１．５新設）	creation of program (J take precedence, creation of program of other than path, 19/18S)
+G05B  19/4093  D	3	1	3C269	G05B  19/4093	649	移動順序，加工精度等の条件を含む経路プログラムの作成（Ｈ１１．５新設）	creation of path program containing conditions of moving sequence, process tolerance
+G05B  19/4093  E	3	2	3C269	G05B  19/4093	451	干渉を考慮した経路プログラムの作成（Ｈ１１．５新設）	creation of path program considering interference
+G05B  19/4093  F	3	2	3C269	G05B  19/4093	638	作業具の種類，大きさを考慮した経路プログラムの作成（Ｈ１１．５新設）	creation of path program considering types or size of tolls
+G05B  19/4093  H	3	0	3C269	G05B  19/4093	1122	経路プログラムの編集，修正〔フォーマット変換，単位系の変換を含む〕（Ｈ１１．５新設）	editing and correction of path program (including transformation of format or unit system)
+G05B  19/4093  J	3	0	3C269	G05B  19/4093	793	特殊な経路プログラムの作成，出力（Ｈ１１．５新設）	creation or output of special patj program
+G05B  19/4093  L	3	1	3C269	G05B  19/4093	267	繰り返し動作，ミラーイメージ，同一パターン（Ｈ１１．５新設）	repeating operation, mirror image, same pattern
+G05B  19/4093  M	3	2	3C269	G05B  19/4093	360	周期信号を重畳したもの，例．ウイービング（Ｈ１１．５新設）	superpositioning periodical signals. Ex. Weaving
+G05B  19/4093  N	3	2	3C269	G05B  19/4093	125	切込量を考慮したもの（Ｈ１１．５新設）	cosidering cutting depth
+G05B  19/4093  P	3	0	3C269	G05B  19/4093	382	座標変換に特徴があるもの（Ｈ１１．５新設）	characterized by coordination transformation
+G05B  19/4093  Z	3	0	3C269	G05B  19/4093	103	その他（Ｈ１１．５新設）	others
+G05B  19/4097  \	3	3	3C269	G05B  19/4097	12	ＮＣ機械を制御するために設計データを使用することに特徴のあるもの，例．ＣＡＤ／ＣＡＭ（Ｇ０５Ｂ１９／４０９３が優先）［２００６．０１］	characterised by using design data to control NC machines, e.g. CAD/CAM (G05B 19/4093 takes precedence) [2006.01]
+G05B  19/4097  B	3	0	3C269	G05B  19/4097	699	加工すべき対象の最終形状，素材形状または作業対象の形状の定義に特徴があるもの（Ｈ１１．５新設）	characterized by final shape of products, material shape, or shape of processed subject
+G05B  19/4097  C	3	1	3C269	G05B  19/4097	1314	特別な入力手段を用いるもの，例．倣いによる入力，ＣＡＤデータの利用〔入力手段自体は１９／４０８〕（Ｈ１１．５新設）	using special input method
+G05B  19/4097  Z	3	0	3C269	G05B  19/4097	41	その他（Ｈ１１．５新設）	others
+G05B  19/4099  \	4	4	3C269	G05B  19/4099	10	面または曲線機械加工で三次元物体を作成するもの，例．デスクトップ製造［６］	Surface or curve machining, making 3D objects, e.g. desktop manufacturing [6]
+G05B  19/41  \	3	3	3C269	G05B  19/41	15	補間に特徴のあるもの，例．従うべき経路とその経路に沿った移動速度を定義するためのプログラムされた終点間における中間点の計算（Ｇ０５Ｂ１９／２５，Ｇ０５Ｂ１９／３１，Ｇ０５Ｂ１９／３７，Ｇ０５Ｂ１９／３９，Ｇ０５Ｂ１９／４０が優先）［３，６］	characterised by interpolation, e.g. the computation of intermediate points between programmed end points to define the path to be followed and the rate of travel along that path (G05B 19/25, G05B 19/31, G05B 19/37, G05B 19/39, G05B 19/40 take precedence) [3,6]
+G05B  19/4103  \	4	4	3C269	G05B  19/4103	35	デジタル補間［６］	Digital interpolation [6]
+G05B  19/4103  A	4	0	3C269	G05B  19/4103	220	直線，円弧，放物線以外の曲線の生成（Ｈ１１．５新設）	creation of lines, curves, curved lines other than parabolla
+G05B  19/4103  D	4	0	3C269	G05B  19/4103	137	３次元空間で補間する点に特徴があるもの（Ｈ１１．５新設）	characterized by interpolation in three dimensional space
+G05B  19/4103  E	4	1	3C269	G05B  19/4103	91	所定軸の姿勢の補間を行うもの（Ｈ１１．５新設）	interpolating attitude of certain axis
+G05B  19/4103  H	4	0	3C269	G05B  19/4103	34	直交軸以外の軸を有する対象に特に適合したもの（Ｈ１１．５新設）	adopting subjects with axis other than orthogonal axis
+G05B  19/4103  J	4	1	3C269	G05B  19/4103	218	回転軸を含むもの（Ｈ１１．５新設）	containing rotational axis
+G05B  19/4103  P	4	0	3C269	G05B  19/4103	72	補間手段のハードウエア構成に特徴があるもの（Ｈ１１．５新設）	characterized by hardware composition of interpolating method
+G05B  19/4103  Q	4	1	3C269	G05B  19/4103	34	複数の補間手段を有するもの（Ｈ１１．５新設）	with plural interpolating method
+G05B  19/4103  R	4	1	3C269	G05B  19/4103	46	プロセッサを用いたもの（Ｈ１１．５新設）	using processors
+G05B  19/4103  S	4	1	3C269	G05B  19/4103	224	分配パルス発生手段，例．ＤＤＡの構成に特徴があるもの（Ｈ１１．５新設）	generation method for distribution pulse. Ex. Characterized by compositions of DDA
+G05B  19/4103  Z	4	0	3C269	G05B  19/4103	426	その他（Ｈ１１．５新設）	others
+G05B  19/4105  \	4	4	3C269	G05B  19/4105	37	アナログ補間［６］	Analog interpolation [6]
+G05B  19/414  \	3	3	3C269	G05B  19/414	3	制御系の構成，例．共有コントローラまたはマルチプロセッサシステム，サーボのためのインターフェイス，プログラマブルインターフェイスコントローラ［６］	Structure of the control system, e.g. common controller or multiprocessor systems, interface to servo, programmable interface controller [6]
+G05B  19/414  N	3	0	3C269	G05B  19/414	696	ハードウェアの構成，例．プロセッサ，記憶装置等の選択，配置，回路構成に特徴があるもの（Ｈ１１．５新設）	composition of hardware. Ex.characterized by selection, arrangement, circuit composition of processor, memory device
+G05B  19/414  P	3	1	3C269	G05B  19/414	195	複数プロセッサを用いる点に特徴があるもの（Ｈ１１．５新設）	characterized by using plural processor
+G05B  19/414  Q	3	1	3C269	G05B  19/414	457	入出力機器，インタフェースの選択に特徴があるもの（Ｈ１１．５新設）	characterized by input/output device, selection of interface
+G05B  19/414  R	3	1	3C269	G05B  19/414	775	各要素間の伝送手段に特徴があるもの（Ｈ１１．５新設）	characterized by transmission method between each elements
+G05B  19/414  Z	3	0	3C269	G05B  19/414	55	その他（Ｈ１１．５新設）	others
+G05B  19/4155  \	3	3	3C269	G05B  19/4155	13	プログラム実行，すなわち，パートプログラムまたは機械機能の実行，に特徴のあるもの，例．プログラムの選択［６］	characterised by programme execution, i.e. part programme or machine function execution, e.g. selection of a programme [6]
+G05B  19/4155  M	3	0	3C269	G05B  19/4155	681	プログラムシーケンスの進め方，例．次指令の読出し方，スタートステップの選択に特徴があるもの（Ｈ１１．５新設）	progress of program sequence. Ex. Characterized by readout method of next command, selection of start step
+G05B  19/4155  N	3	0	3C269	G05B  19/4155	534	複数プログラムの選択，プログラムの実行スケジュールに特徴があるもの〔プログラムのローディングも含む〕（Ｈ１１．５新設）	characterized by selection of plural programs, running schedule of programs (including loading program)
+G05B  19/4155  R	3	0	3C269	G05B  19/4155	176	周囲の情況の変化に適応して経路を補正するもの〔Ｖが優先，速度指令の変更は１９／４１６〕（Ｈ１１．５新設）	correcting path corresponding to change of circumstances (V take precedence, change of speed command, 19/416)
+G05B  19/4155  S	3	1	3C269	G05B  19/4155	124	撮像手段，画像処理手段の利用によるもの（Ｈ１１．５新設）	by imaging method, using image processing method
+G05B  19/4155  T	3	1	3C269	G05B  19/4155	273	干渉回避〔プログラムの作成は１９／４０９３〕（Ｈ１１．５新設）	interference avoidance (creation of program, 19/4093)
+G05B  19/4155  U	3	0	3C269	G05B  19/4155	86	異常時の経路変更（Ｈ１１．５新設）	change of path for abnormality
+G05B  19/4155  V	3	0	3C269	G05B  19/4155	745	推論，学習を行うもの（Ｈ１１．５新設）	inferencing or learning
+G05B  19/4155  X	3	0	3C269	G05B  19/4155	546	プログラムステップの進め方に特徴があるもの（Ｈ１１．５新設）	characterized by progress of program steps
+G05B  19/4155  Z	3	0	3C269	G05B  19/4155	53	その他（Ｈ１１．５新設）	others
+G05B  19/416  \	3	3	3C269	G05B  19/416	66	速度，加速または減速の制御に特徴のあるもの（Ｇ０５Ｂ１９／１９が優先）［６］	characterised by control of velocity, acceleration or deceleration (G05B 19/19 takes precedence) [6]
+G05B  19/416  E	3	0	3C269	G05B  19/416	349	速度指令の変更に特徴があるもの〔手動オーバーライド補正は１９／４０４Ｌ〕（Ｈ１１．５新設）	characterized by change of speed command (manual override correction, 19/404L)
+G05B  19/416  F	3	1	3C269	G05B  19/416	308	検出した他変量によって変更するもの（Ｈ１１．５新設）	changing corresponding to detected other variables
+G05B  19/416  K	3	0	3C269	G05B  19/416	764	加減速パターンの生成（Ｈ１１．５新設）	creation of acceralation/deceralation pattern
+G05B  19/416  L	3	1	3C269	G05B  19/416	199	コーナー部の移動を考慮したもの（Ｈ１１．５新設）	considering movement of corner
+G05B  19/416  Q	3	0	3C269	G05B  19/416	280	速度指令を制限するもの（Ｈ１１．５新設）	limiting speed command
+G05B  19/416  V	3	0	3C269	G05B  19/416	202	指令〔線〕速度からの各駆動軸の指令速度を生成するもの（Ｈ１１．５新設）	creating command speed of each driving axis from command (line) speed
+G05B  19/416  W	3	1	3C269	G05B  19/416	115	加減速度を考慮したもの（Ｈ１１．５新設）	considering acceralation/deceralation
+G05B  19/416  Z	3	0	3C269	G05B  19/416	281	その他（Ｈ１１．５新設）	others
+G05B  19/418  \	2	2	3C100	G05B  19/418	94	総合的工場管理，すなわち，複数の機械の集中管理，例．直接または分散数値制御［ＤＮＣ］，フレキシブルマニュファクチャリングシステム［ＦＭＳ］，インテグレーテッドマニュファクチャリングシステム［ＩＭＳ］またはコンピュータインテグレーテッドマニュファクチャリング［ＣＩＭ］［２００６．０１］	Total factory control, i.e. centrally controlling a plurality of machines, e.g. direct or distributed numerical control [DNC], flexible manufacturing systems [FMS], integrated manufacturing systems [IMS] or computer integrated manufacturing [CIM] [2006.01]
+G05B  19/418  A	2	0	3C100	G05B  19/418	102	複数の数値制御機械が相互に関連した動作をするもの（Ｈ１１．５新設）	operating mutually related plural numerical control machine
+G05B  19/418  B	2	1	3C100	G05B  19/418	373	搬送手段を含むもの（Ｈ１１．５新設）	containing convey method
+G05B  19/418  P	2	0	3C100	G05B  19/418	113	ハードウエア構成に特徴があるもの（Ｈ１１．５新設）	characterized by hardware composition
+G05B  19/418  Q	2	1	3C100	G05B  19/418	466	信号伝送に特徴があるもの（Ｈ１１．５新設）	characterized by signal transmision
+G05B  19/418  Y	2	0	3C100	G05B  19/418	27	特別な対象に対するもの（Ｈ１１．５新設）	for special subjects
+G05B  19/418  Z	2	0	3C100	G05B  19/418	18300	その他（Ｈ１１．５新設）	others
+G05B  19/42  \	2	2	3C269	G05B  19/42	154	記録および再生システム，すなわち運転サイクルからプログラムが記録されるもの，例．運転サイクルが手動で制御され，その後，この記録が同一機械上に再生されるもの	Recording and playback systems, i.e. in which the programme is recorded from a cycle of operations, e.g. the cycle of operations being manually controlled, after which this record is played back on the same machine
+G05B  19/42  B	2	0	3C269	G05B  19/42	80	移動する作業対象に対して動作する制御対象に特に適合したもの	Especially suitable for operating objects to be controlled, with respect to moving objects
+G05B  19/42  C	2	1	3C269	G05B  19/42	34	作業対象の位置，速度等が合わせてプログラムされているもの	wherein the position, speed, etc. of the object are programmed in combination
+G05B  19/42  D	2	0	3C269	G05B  19/42	649	教示方法，教示手段に特徴があるもの	Characterized by teaching method and means
+G05B  19/42  H	2	1	3C269	G05B  19/42	584	教示手段の具体的構成に特徴があるもの〔教示時に使用する手段の主として機械的構造，配置に特徴があるもの〕	characterised by specific configuration of teaching means (characterised mainly by mechanical structure and layout of the means used for teaching)
+G05B  19/42  J	2	1	3C269	G05B  19/42	618	オフライン教示，専用ハードウエアの利用〔単純な数値入力によるものは１９／４０９３〕	Using the offline teaching and dedicated hardware (those by simple numerical entries conform to 19/403.)
+G05B  19/42  K	2	1	3C269	G05B  19/42	125	特定軸の姿勢の教示に特徴があるもの	Characterized by teaching of the attitude of a specififed axis
+G05B  19/42  L	2	1	3C269	G05B  19/42	227	教示時の安全，監視	Safety and monitoring at the time of teaching
+G05B  19/42  P	2	0	3C269	G05B  19/42	478	教示プログラムの編集，修正	Editing and correction of teaching programmes
+G05B  19/42  R	2	0	3C269	G05B  19/42	201	特別な位置，動作の教示，再生	Teaching and reproduction of special positions and operations
+G05B  19/42  S	2	0	3C269	G05B  19/42	94	位置指令，速度指令以外のプログラム指令の出力，作成に特徴があるもの	Characterized by output and creation of programme commands other than position and speed commands
+G05B  19/42  T	2	1	3C269	G05B  19/42	50	補助指令，例．Ｍ．Ｓ．Ｔ指令，シ−ケンス制御指令の出力，作成	Auxiliary conmmands, e.g. Output and creation of M.S.T command and sequence control command
+G05B  19/42  U	2	0	3C269	G05B  19/42	126	ハ−ドウエア構成に特徴があるもの	Characterized by hardware configuration
+G05B  19/42  V	2	0	3C269	G05B  19/42	153	再生時の動作に特徴があるもの	Characterized by operations in reproduction
+G05B  19/42  W	2	1	3C269	G05B  19/42	325	再生時にプログラムを補正するもの〔補正一般は１９／４０４〕	wherein programmes are corrected in reproduction
+G05B  19/42  Y	2	0	3C269	G05B  19/42	117	特別な制御対象に対する教示、再生	Teaching and reproduction of special objects to be controlled
+G05B  19/42  Z	2	0	3C269	G05B  19/42	121	その他	Others
+G05B  19/421  \	3	3	3C269	G05B  19/421	1	機械的手段により連続する位置を教示するもの，例．ツールヘッドまたはエンドエフェクタを位置決めする機械的に結合した手動ハンドルによるもの（Ｇ０５Ｂ１９／４２３が優先）［６］	Teaching successive positions by mechanical means, e.g. by mechanically-coupled handwheels to position tool head or end effector (G05B 19/423 takes precedence) [6]
+G05B  19/423  \	3	3	3C269	G05B  19/423	12	ウォーク−スルーにより連続する位置を教示するもの，すなわち，ツールヘッドまたはエンドエフェクタを経路に従うようサーボ補助の有無にかかわらず直接つかまえて案内するもの［６］	Teaching successive positions by walk-through, i.e. the tool head or end effector being grasped and guided directly, with or without servo-assistance, to follow a path [6]
+G05B  19/425  \	3	3	3C269	G05B  19/425	11	数値制御により連続する位置を教示するもの，すなわち，ツールヘッドまたはエンドエフェクタの位置決めサーボを制御するため指令がはいるもの［６］	Teaching successive positions by numerical control, i.e. commands being entered to control the positioning servo of the tool head or end effector [6]
+G05B  19/427  \	3	3	3C269	G05B  19/427	8	ツールヘッドの位置決めサーボを制御するための操作レバーまたはハンドルの位置を追跡すること，マスタースレーブ制御により連続する位置を教示するもの（Ｇ０５Ｂ１９／４２３が優先）［６］	Teaching successive positions by tracking the position of a joystick or handle to control the positioning servo of the tool head, master-slave control (G05B 19/423 takes precedence) [6]
+G05B  19/43  \	1	1	3C269	G05B  19/43	1	流体式［３］	fluidic [3]
+G05B  19/44  \	2	2	3C269	G05B  19/44	121	空気式［３］	pneumatic [3]
+G05B  19/46  \	2	2	3C269	G05B  19/46	1	液圧式［３］	hydraulic [3]
+G05B  21/00  \	0	0	5H004	G05B  21/00	11	制御される変量の標本抽出を伴うシステム（Ｇ０５Ｂ１３／００〜Ｇ０５Ｂ１９／００が優先）［２００６．０１］	Systems involving sampling of the variable controlled (G05B 13/00-G05B 19/00 take precedence) [2006.01]
+G05B  21/02  \	1	1	5H004	G05B  21/02	17	電気式	electric
+G05B  21/02  A	1	0	5H004	G05B  21/02	248	多点サンプリング制御系	Multi-point sampling control system
+G05B  21/02  Z	1	0	5H004	G05B  21/02	675	その他のもの	Others
+G05B  23/00  \	0	0	3C223	G05B  23/00	72	制御系またはその一部の試験または監視（プログラム制御系の監視Ｇ０５Ｂ１９／０４８，Ｇ０５Ｂ１９／４０６）	Testing or monitoring of control systems or parts thereof (monitoring of programme-control systems G05B 19/048, G05B 19/406)
+G05B  23/02  \	1	1	3C223	G05B  23/02	120	電気式試験または監視	Electric testing or monitoring
+G05B  23/02  C	1	0	3C223	G05B  23/02	449	診断切替	Diagnostic switching
+G05B  23/02  E	1	0	3C223	G05B  23/02	622	模擬動作の形成；試験信号の印加	Formation of simulation operation; application of test signals
+G05B  23/02  F	1	1	3C223	G05B  23/02	168	動作進行の調整	Adjustment of operation progress
+G05B  23/02  G	1	1	3C223	G05B  23/02	1100	制御対象状態の模擬	Simulation of the status of objects to be controlled
+G05B  23/02  H	1	2	3C223	G05B  23/02	311	操作信号，操作状態からの模擬	Simulation from operation signals and states
+G05B  23/02  P	1	0	3C223	G05B  23/02	523	制御対象，制御装置又は制御系の特性の同定	Identification of characteristics of the objects to be controlled, controllers and control systems
+G05B  23/02  R	1	0	3C223	G05B  23/02	1144	状態予測	Prediction of states
+G05B  23/02  T	1	0	3C223	G05B  23/02	2876	診断状態，診断内容，手順の表示	Display of  the state, details and procedures of diagnosis
+G05B  23/02  V	1	0	3C223	G05B  23/02	4178	監視，試験，安全装置の診断	Diagnosis of monitoring, testing and safety systems
+G05B  23/02  X	1	0	3C223	G05B  23/02	1512	操作すべき内容，手順の表示	Display of the details and procedures of operations to be performed
+G05B  23/02  Z	1	0	3C223	G05B  23/02	1178	その他のもの	Others
+G05B  23/02 301 \	2	2	3C223	G05B  23/02	45	状態の表示又は記録	Display and record of states
+G05B  23/02 301 J	2	0	3C223	G05B  23/02	740	制御指令，設定条件表示	Display of control commands and setting conditions
+G05B  23/02 301 K	2	1	3C223	G05B  23/02	248	プログラムの表示	Display of programmes
+G05B  23/02 301 L	2	2	3C223	G05B  23/02	398	動作状態も表示	Also displaying operational statuses
+G05B  23/02 301 M	2	0	3C223	G05B  23/02	206	内部処理表示	Display of internal processing
+G05B  23/02 301 N	2	0	3C223	G05B  23/02	492	動作進行表示	Display of operation progress
+G05B  23/02 301 P	2	0	3C223	G05B  23/02	728	入出力表示	Input/output display
+G05B  23/02 301 Q	2	1	3C223	G05B  23/02	518	グラフ表示	Graphic display
+G05B  23/02 301 R	2	1	3C223	G05B  23/02	590	表示装置の共用	Shared use of display units
+G05B  23/02 301 S	2	2	3C223	G05B  23/02	144	表示装置の接続，切離し	Connection and disconnection of display units
+G05B  23/02 301 T	2	0	3C223	G05B  23/02	1182	系又はその要素の図式表示；撮影画像表示	Diagrammatic representation of a system or elements thereof; display of  pickup images
+G05B  23/02 301 U	2	0	3C223	G05B  23/02	839	状態保存	Saving of statuses
+G05B  23/02 301 V	2	1	3C223	G05B  23/02	2029	履歴保存	Saving of history
+G05B  23/02 301 W	2	2	3C223	G05B  23/02	518	図式表示	Diagrammatic representation
+G05B  23/02 301 X	2	0	3C223	G05B  23/02	1220	異常関連表示	Display of errors and related events
+G05B  23/02 301 Y	2	1	3C223	G05B  23/02	974	異常内容，原因の表示	Display of error details and causes therefor
+G05B  23/02 301 Z	2	0	3C223	G05B  23/02	584	その他のもの	Others
+G05B  23/02 302 \	2	2	3C223	G05B  23/02	59	異常状態の検出	Detection of error statuses
+G05B  23/02 302 J	2	0	3C223	G05B  23/02	253	制御指令，設定条件検定	Detection of control commands and setting conditions
+G05B  23/02 302 K	2	1	3C223	G05B  23/02	239	プログラムの検定	Official inspection of programmes
+G05B  23/02 302 M	2	0	3C223	G05B  23/02	301	内部処理検定	Offiial inspection of internal processing
+G05B  23/02 302 N	2	0	3C223	G05B  23/02	434	動作進行検定	Official inspection of operation progress
+G05B  23/02 302 P	2	1	3C223	G05B  23/02	482	制御指令，出力と応答との比較	Comparison of control commands, outputs and responses
+G05B  23/02 302 R	2	0	3C223	G05B  23/02	1142	入出力検定	Official inspection of input/output
+G05B  23/02 302 S	2	1	3C223	G05B  23/02	796	出力検定	Official inspection of output
+G05B  23/02 302 T	2	1	3C223	G05B  23/02	627	複数入力検定	Official inspection of multiple inputs
+G05B  23/02 302 V	2	0	3C223	G05B  23/02	761	制御系又はその一部の模擬装置の出力信号と実信号との比較	Comparison between output signals and actual  signals of   control systems or simulators of a part thereof
+G05B  23/02 302 W	2	0	3C223	G05B  23/02	301	冗長，類似信号間の比較	Comparison between redundant and similar signals
+G05B  23/02 302 Y	2	0	3C223	G05B  23/02	1436	異常内容，原因の同定	Identificfation of error details and causes therefor
+G05B  23/02 302 Z	2	0	3C223	G05B  23/02	783	その他のもの	Others
+G05B  24/00  \	0	0	5H219	G05B  24/00	354	他に分類されない開ループ自動制御系［２］	Open-loop automatic control systems not otherwise provided for [2]
+G05B  24/02  \	1	1	5H219	G05B  24/02	588	電気式［２］	electric [2]
+G05B  24/04  \	1	1	5H219	G05B  24/04	4	流体式［２］	fluidic [2]
+G05B  99/00  \	0	0	5H215	G05B  99/00	0	このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass [8]

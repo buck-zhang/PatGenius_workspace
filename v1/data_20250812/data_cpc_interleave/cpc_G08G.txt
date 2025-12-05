@@ -1,0 +1,147 @@
+G08G1/00	7	Traffic control systems for road vehicles (arrangement of road signs or traffic signals E01F9/00{; automatic vehicle control B62D})	G08G1/00	G08G1/00		2399
+G08G1/005	8	including pedestrian guidance indicator	G08G1/005	G08G1/005		3295
+G08G1/01	8	Detecting movement of traffic to be counted or controlled (G08G1/07&#160;-&#160;G08G1/14 take precedence)	G08G1/01	G08G1/01		2974
+G08G1/0104	9	{Measuring and analyzing of parameters relative to traffic conditions}	G08G1/01	G08G1/01		6720
+G08G1/0108	10	{based on the source of data}	G08G1/01	G08G1/01		1289
+G08G1/0112	11	{from the vehicle, e.g. floating car data [FCD]}	G08G1/01	G08G1/01		6584
+G08G1/0116	11	{from roadside infrastructure, e.g. beacons}	G08G1/01	G08G1/01		4604
+G08G1/012	11	{from other sources than vehicle or roadside beacons, e.g. mobile networks}	G08G1/01	G08G1/01		1667
+G08G1/0125	10	{Traffic data processing}	G08G1/01	G08G1/01		9818
+G08G1/0129	11	{for creating historical data or processing based on historical data}	G08G1/01	G08G1/01		6674
+G08G1/0133	11	{for classifying traffic situation}	G08G1/01	G08G1/01		5641
+G08G1/0137	10	{for specific applications}	G08G1/01	G08G1/01		5384
+G08G1/0141	11	{for traffic information dissemination}	G08G1/01	G08G1/01		3787
+G08G1/0145	11	{for active traffic flow control}	G08G1/01	G08G1/01		4001
+G08G1/015	9	with provision for distinguishing between two or more types of vehicles, e.g. between motor-cars and cycles	G08G1/015	G08G1/015		1348
+G08G1/017	9	identifying vehicles (G08G1/015, G08G1/054 take precedence)	G08G1/017	G08G1/017		5343
+G08G1/0175	10	{by photographing vehicles, e.g. when violating traffic rules}	G08G1/017	G08G1/017		8838
+G08G1/02	9	using treadles built into the road (pads or other sensitive devices responsive to passage of vehicles E01F11/00)	G08G1/02	G08G1/02		1172
+G08G1/04	9	using optical or ultrasonic detectors	G08G1/04	G08G1/04		7662
+G08G1/042	9	using inductive or magnetic detectors	G08G1/042	G08G1/042		2788
+G08G1/048	9	with provision for compensation of environmental or other condition, e.g. snow, vehicle stopped at detector	G08G1/048	G08G1/048		1344
+G08G1/052	9	with provision for determining speed or overspeed {(speed measuring in general G01P)}	G08G1/052	G08G1/052		5915
+G08G1/054	10	photographing overspeeding vehicles	G08G1/054	G08G1/054		1462
+G08G1/056	9	with provision for distinguishing direction of travel	G08G1/056	G08G1/056		1360
+G08G1/065	8	by counting the vehicles in a section of the road or in a parking area, i.e. comparing incoming count with outgoing count	G08G1/065	G08G1/065		3664
+G08G1/07	8	Controlling traffic signals	G08G1/07	G08G1/07		3990
+G08G1/075	9	{Ramp control}	G08G1/07	G08G1/07		1235
+G08G1/08	9	according to detected number or speed of vehicles	G08G1/08	G08G1/08		4527
+G08G1/081	9	Plural intersections under common control	G08G1/081	G08G1/081		1567
+G08G1/082	10	Controlling the time between beginning of the same phase of a cycle at adjacent intersections	G08G1/082	G08G1/082		373
+G08G1/083	10	Controlling the allocation of time between phases of a cycle	G08G1/083	G08G1/083		505
+G08G1/085	9	using a free-running cyclic timer	G08G1/085	G08G1/085		456
+G08G1/087	9	Override of traffic control, e.g. by signal transmitted by an emergency vehicle	G08G1/087	G08G1/087		1334
+G08G1/09	8	Arrangements for giving variable traffic instructions ({railroad crossing signals B61L; reflectors E01F, G08B}; indicating arrangements for variable information by selection or combination of individual elements G09F9/00)	G08G1/09	G08G1/09		4874
+G08G1/091	9	{Traffic information broadcasting (broadcasting communication H04H)}	G08G1/09	G08G1/09		1275
+G08G1/092	10	{Coding or decoding of the information}	G08G1/09	G08G1/09		318
+G08G1/093	10	{Data selection, e.g. prioritizing information, managing message queues, selecting the information to be output}	G08G1/09	G08G1/09		504
+G08G1/094	10	{Hardware aspects; Signal processing or signal properties, e.g. frequency bands}	G08G1/09	G08G1/09		516
+G08G1/095	9	Traffic lights	G08G1/095	G08G1/095		7774
+G08G1/0955	10	transportable	G08G1/0955	G08G1/0955		967
+G08G1/096	9	provided with indicators in which a mark progresses showing the time elapsed, e.g. of green phase	G08G1/096	G08G1/096		1413
+G08G1/0962	9	having an indicator mounted inside the vehicle, e.g. giving voice messages	G08G1/0962	G08G1/0962		3075
+G08G1/09623	10	{Systems involving the acquisition of information from passive traffic signs by means mounted on the vehicle (G08G1/0967 takes precedence)}	G08G1/0962	G08G1/0962		1937
+G08G1/09626	10	{where the origin of the information is within the own vehicle, e.g. a local storage device, digital map}	G08G1/0962	G08G1/0962		1147
+G08G1/0965	10	responding to signals from another vehicle, e.g. emergency vehicle	G08G1/0965	G08G1/0965		1983
+G08G1/0967	10	Systems involving transmission of highway information, e.g. weather, speed limits (transmission of navigation instructions to the vehicle G08G1/0968)	G08G1/0967	G08G1/0967		2442
+G08G1/096708	11	{where the received information might be used to generate an automatic action on the vehicle control}	G08G1/0967	G08G1/0967		796
+G08G1/096716	12	{where the received information does not generate an automatic action on the vehicle control}	G08G1/0967	G08G1/0967		4093
+G08G1/096725	12	{where the received information generates an automatic action on the vehicle control}	G08G1/0967	G08G1/0967		4335
+G08G1/096733	11	{where a selection of the information might take place}	G08G1/0967	G08G1/0967		105
+G08G1/096741	12	{where the source of the transmitted information selects which information to transmit to each vehicle}	G08G1/0967	G08G1/0967		2652
+G08G1/09675	12	{where a selection from the received information takes place in the vehicle}	G08G1/0967	G08G1/0967		1599
+G08G1/096758	12	{where no selection takes place on the transmitted or the received information}	G08G1/0967	G08G1/0967		1347
+G08G1/096766	11	{where the system is characterised by the origin of the information transmission}	G08G1/0967	G08G1/0967		286
+G08G1/096775	12	{where the origin of the information is a central station}	G08G1/0967	G08G1/0967		4410
+G08G1/096783	12	{where the origin of the information is a roadside individual element}	G08G1/0967	G08G1/0967		3397
+G08G1/096791	12	{where the origin of the information is another vehicle}	G08G1/0967	G08G1/0967		2733
+G08G1/0968	10	Systems involving transmission of navigation instructions to the vehicle	G08G1/0968	G08G1/0968		3118
+G08G1/096805	11	{where the transmitted instructions are used to compute a route}	G08G1/0968	G08G1/0968		1125
+G08G1/096811	12	{where the route is computed offboard}	G08G1/0968	G08G1/0968		1350
+G08G1/096816	13	{where the complete route is transmitted to the vehicle at once}	G08G1/0968	G08G1/0968		617
+G08G1/096822	13	{where the segments of the route are transmitted to the vehicle at different locations and times}	G08G1/0968	G08G1/0968		349
+G08G1/096827	12	{where the route is computed onboard}	G08G1/0968	G08G1/0968		1661
+G08G1/096833	11	{where different aspects are considered when computing the route}	G08G1/0968	G08G1/0968		1571
+G08G1/096838	12	{where the user preferences are taken into account or the user selects one route out of a plurality}	G08G1/0968	G08G1/0968		934
+G08G1/096844	12	{where the complete route is dynamically recomputed based on new data}	G08G1/0968	G08G1/0968		1706
+G08G1/09685	12	{where the complete route is computed only once and not updated}	G08G1/0968	G08G1/0968		266
+G08G1/096855	11	{where the output is provided in a suitable form to the driver (details on I/O arrangements for onboard navigation computers G01C21/36)}	G08G1/0968	G08G1/0968		535
+G08G1/096861	12	{where the immediate route instructions are output to the driver, e.g. arrow signs for next turn}	G08G1/0968	G08G1/0968		574
+G08G1/096866	12	{where the complete route is shown to the driver}	G08G1/0968	G08G1/0968		312
+G08G1/096872	12	{where instructions are given per voice}	G08G1/0968	G08G1/0968		699
+G08G1/096877	11	{where the input to the navigation device is provided by a suitable I/O arrangement (details of I/O arrangements for onboard navigation computers G01C21/36; I/O arrangements for general purpose computers G06F3/00)}	G08G1/0968	G08G1/0968		133
+G08G1/096883	12	{where input information is obtained using a mobile device, e.g. a mobile phone, a PDA}	G08G1/0968	G08G1/0968		617
+G08G1/096888	12	{where input information is obtained using learning systems, e.g. history databases}	G08G1/0968	G08G1/0968		269
+G08G1/096894	12	{where input is assisted by the navigation device, i.e. the user does not type the complete name of the destination, e.g. using zip codes, telephone numbers, progressively selecting from initial letters}	G08G1/0968	G08G1/0968		226
+G08G1/0969	11	having a display in the form of a map	G08G1/0969	G08G1/0969		3967
+G08G1/097	8	Supervising of traffic control systems, e.g. by giving an alarm if two crossing streets have green light simultaneously	G08G1/097	G08G1/097		1133
+G08G1/123	8	indicating the position of vehicles, e.g. scheduled vehicles; {Managing passenger vehicles circulating according to a fixed timetable, e.g. buses, trains, trams}(transmission of navigation instructions to vehicles G08G1/0968)	G08G1/123	G08G1/123		4437
+G08G1/127	9	to a central station {; Indicators in a central station}	G08G1/127	G08G1/127		1691
+G08G1/13	10	the indicator being in the form of a map	G08G1/13	G08G1/13		556
+G08G1/133	9	within the vehicle {; Indicators inside the vehicles or at stops}	G08G1/133	G08G1/133		1227
+G08G1/137	10	the indicator being in the form of a map	G08G1/137	G08G1/137		307
+G08G1/14	8	indicating individual free spaces in parking areas	G08G1/14	G08G1/14		3466
+G08G1/141	9	{with means giving the indication of available parking spaces}	G08G1/14	G08G1/14		1358
+G08G1/142	10	{external to the vehicles}	G08G1/14	G08G1/14		1684
+G08G1/143	10	{inside the vehicles}	G08G1/14	G08G1/14		2010
+G08G1/144	10	{on portable or mobile units, e.g. personal digital assistant [PDA]}	G08G1/14	G08G1/14		2711
+G08G1/145	9	{where the indication depends on the parking areas}	G08G1/14	G08G1/14		811
+G08G1/146	10	{where the parking area is a limited parking space, e.g. parking garage, restricted space}	G08G1/14	G08G1/14		2803
+G08G1/147	10	{where the parking area is within an open public zone, e.g. city centre}	G08G1/14	G08G1/14		1066
+G08G1/148	10	{Management of a network of parking areas}	G08G1/14	G08G1/14		3461
+G08G1/149	9	{coupled to means for restricting the access to the parking space, e.g. authorization, access barriers, indicative lights}	G08G1/14	G08G1/14		2356
+G08G1/16	8	Anti-collision systems (road vehicle drive control systems for predicting or avoiding probable or impending collision otherwise than by control of a particular sub-unit B60W30/08)	G08G1/16	G08G1/16		6114
+G08G1/161	9	{Decentralised systems, e.g. inter-vehicle communication}	G08G1/16	G08G1/16		2232
+G08G1/162	10	{event-triggered}	G08G1/16	G08G1/16		1822
+G08G1/163	10	{involving continuous checking}	G08G1/16	G08G1/16		2241
+G08G1/164	9	{Centralised systems, e.g. external to vehicles}	G08G1/16	G08G1/16		2930
+G08G1/165	9	{for passive traffic, e.g. including static obstacles, trees}	G08G1/16	G08G1/16		3054
+G08G1/166	9	{for active traffic, e.g. moving vehicles, pedestrians, bikes}	G08G1/16	G08G1/16		12370
+G08G1/167	9	{Driving aids for lane monitoring, lane changing, e.g. blind spot detection}	G08G1/16	G08G1/16		5665
+G08G1/168	9	{Driving aids for parking, e.g. acoustic or visual feedback on parking space}	G08G1/16	G08G1/16		2408
+G08G1/20	8	{Monitoring the location of vehicles belonging to a group, e.g. fleet of vehicles, countable or determined number of vehicles}	G08G1/00	G08G1/20		2837
+G08G1/202	9	{Dispatching vehicles on the basis of a location, e.g. taxi dispatching}	G08G1/00	G08G1/20		2845
+G08G1/205	9	{Indicating the location of the monitored vehicles as destination, e.g. accidents, stolen, rental}	G08G1/00	G08G1/20		2770
+G08G1/207	9	{with respect to certain areas, e.g. forbidden or allowed areas with possible alerting when inside or outside boundaries}	G08G1/00	G08G1/20		1161
+G08G1/22	8	{Platooning, i.e. convoy of communicating vehicles}	G08G1/00	G08G1/22		2058
+G08G3/00	7	Traffic control systems for marine craft (marking of navigational route B63B22/16, B63B51/00)	G08G3/00	G08G3/00		1736
+G08G3/02	8	Anti-collision systems	G08G3/02	G08G3/02		1688
+G08G5/00	7	Traffic control systems for aircraft<br><br><u>NOTE</u><br><br>This groups covers arrangements, located in the aircraft or on the ground, for controlling aircraft within a traffic environment.<br>This group does not cover arrangements for control of position, course, altitude or attitude of aircraft not specific to a traffic environment, e.g. automatic pilots, which are covered by group G05D1/00.<br>In this group the following term is used with the meaning indicated: <br>"traffic" includes traffic on the ground and in the air.<br>Attention is drawn to the following places which might be interesting for search:<br>mechanical aspects of equipment for fitting in or to aircraft B64D<br>combined instruments indicating more than one navigational value G01C23/00<br><br><u>WARNING</u><br>Group G08G5/00 is impacted by reclassification into groups G08G5/50 and G08G5/90.<br>Groups G08G5/00, G08G5/50 and G08G5/90 should be considered in order to perform a complete search.	G08G5/00	G08G5/00		1119
+G08G5/20	8	Arrangements for acquiring, generating, sharing or displaying traffic information (arrangements for monitoring traffic G08G5/72)<br><br><u>WARNING</u><br>Group G08G5/20 is impacted by reclassification into groups G08G5/23, G08G5/24 and G08G5/27. <br>All groups listed in this Warning should be considered in order to perform a complete search.	G08G5/20	G08G5/20		505
+G08G5/21	9	located onboard the aircraft	G08G5/21	G08G5/21		3903
+G08G5/22	9	located on the ground	G08G5/22	G08G5/22		2607
+G08G5/23	9	Details of user output interfaces, e.g. information presented<br><br><u>WARNING</u><br>Group G08G5/23 is incomplete pending reclassification of documents from group G08G5/20. <br>Groups G08G5/20 and G08G5/23 should be considered in order to perform a complete search.	G08G5/23	G08G5/23		32
+G08G5/24	9	Details of user input interfaces, e.g. use of speech recognition or specific text formats<br><br><u>WARNING</u><br>Group G08G5/24 is incomplete pending reclassification of documents from group G08G5/20. <br>Groups G08G5/20 and G08G5/24 should be considered in order to perform a complete search.	G08G5/24	G08G5/24		11
+G08G5/25	9	Transmission of traffic-related information between aircraft	G08G5/25	G08G5/25		1021
+G08G5/26	9	Transmission of traffic-related information between aircraft and ground stations<br><br><u>WARNING</u><br>Group G08G5/26 is impacted by reclassification into group G08G5/265. <br>Groups G08G5/26 and G08G5/265 should be considered in order to perform a complete search.	G08G5/26	G08G5/26		4067
+G08G5/265	10	for managing air traffic control [ATC] clearance<br><br><u>WARNING</u><br>Group G08G5/265 is incomplete pending reclassification of documents from group G08G5/26. <br>Groups G08G5/26 and G08G5/265 should be considered in order to perform a complete search.	G08G5/265	G08G5/265		10
+G08G5/27	9	for managing network coverage, e.g. ensuring transmission connections for UAVs<br><br><u>WARNING</u><br>Group G08G5/27 is incomplete pending reclassification of documents from group G08G5/20. <br>Groups G08G5/20 and G08G5/27 should be considered in order to perform a complete search.	G08G5/27	G08G5/27		5
+G08G5/30	8	Flight plan management<br><br><u>WARNING</u><br>Group G08G5/30 is impacted by reclassification into groups G08G5/36 and G08G5/38. <br>Groups G08G5/30, G08G5/36 and G08G5/38 should be considered in order to perform a complete search.	G08G5/30	G08G5/30		1314
+G08G5/32	9	for flight plan preparation	G08G5/32	G08G5/32		1507
+G08G5/34	9	for flight plan modification	G08G5/34	G08G5/34		1894
+G08G5/36	9	for identification of authorised pilots<br><br><u>WARNING</u><br>Group G08G5/36 is incomplete pending reclassification of documents from group G08G5/30. <br>Groups G08G5/30 and G08G5/36 should be considered in order to perform a complete search.	G08G5/36	G08G5/36		1
+G08G5/38	9	for identification of landing sites, e.g. of diversion airports<br><br><u>WARNING</u><br>Group G08G5/38 is incomplete pending reclassification of documents from group G08G5/30. <br>Groups G08G5/30 and G08G5/38 should be considered in order to perform a complete search.	G08G5/38	G08G5/38		8
+G08G5/50	8	Navigation or guidance aids<br><br><u>NOTE</u><br><br>When classifying in this group, each aspect relating to flight phases should be classified in subgroups G08G5/51 - G08G5/54, whereas each aspect relating to the type of aircraft should be classified in subgroups G08G5/55 - G08G5/57.<br><br><u>WARNING</u><br>Group G08G5/50 is incomplete pending reclassification of documents from groups G08G5/00 and G08G5/56. <br>Groups G08G5/00, G08G5/56 and G08G5/50 should be considered in order to perform a complete search.	G08G5/50	G08G5/50		515
+G08G5/51	9	for control when on the ground, e.g. taxiing or rolling<br><br><u>WARNING</u><br>Group G08G5/51 is incomplete pending reclassification of documents from group G08G5/56. <br>Group G08G5/51 is also impacted by reclassification into groups G08G5/55, G08G5/56 and G08G5/57.<br>All groups listed in this Warning should be considered in order to perform a complete search.	G08G5/51	G08G5/51		1265
+G08G5/52	9	for take-off<br><br><u>WARNING</u><br>Group G08G5/52 is incomplete pending reclassification of documents from group G08G5/56. <br>Groups G08G5/56 and G08G5/52 should be considered in order to perform a complete search.	G08G5/52	G08G5/52		377
+G08G5/53	9	for cruising<br><br><u>WARNING</u><br>Group G08G5/53 is incomplete pending reclassification of documents from group G08G5/56. <br>Groups G08G5/56 and G08G5/53 should be considered in order to perform a complete search.	G08G5/53	G08G5/53		1771
+G08G5/54	9	for approach or landing<br><br><u>WARNING</u><br>Group G08G5/54 is incomplete pending reclassification of documents from group G08G5/56. <br>Group G08G5/54 is also impacted by reclassification into groups G08G5/55, G08G5/56 and G08G5/57. <br>All groups listed in this Warning should be considered in order to perform a complete search.	G08G5/54	G08G5/54		1986
+G08G5/55	9	for a single aircraft<br><br><u>WARNING</u><br>Group G08G5/55 is incomplete pending reclassification of documents from groups G08G5/51 and G08G5/54. <br>Groups G08G5/51, G08G5/54 and G08G5/55 should be considered in order to perform a complete search.	G08G5/55	G08G5/55		5626
+G08G5/56	9	for two or more aircraft<br><br><u>WARNING</u><br>Group G08G5/56 is incomplete pending reclassification of documents from groups G08G5/51 and G08G5/54. <br>Group G08G5/56 is also impacted by reclassification into groups G08G5/50, G08G5/51, G08G5/52, G08G5/53, G08G5/54, G08G5/57, G08G5/58 and G08G5/59. <br>All groups listed in this Warning should be considered in order to perform a complete search.	G08G5/56	G08G5/56		1768
+G08G5/57	9	for unmanned aircraft<br><br><u>WARNING</u><br>Group G08G5/57 is incomplete pending reclassification of documents from groups G08G5/51, G08G5/54 and G08G5/56. <br>All groups listed in this Warning should be considered in order to perform a complete search.	G08G5/57	G08G5/57		3322
+G08G5/58	9	for emergency situations, e.g. hijacking or bird strikes<br><br><u>WARNING</u><br>Group G08G5/58 is incomplete pending reclassification of documents from group G08G5/56. <br>Groups G08G5/56 and G08G5/58 should be considered in order to perform a complete search.	G08G5/58	G08G5/58		603
+G08G5/59	9	in accordance with predefined flight zones, e.g. to avoid prohibited zones<br><br><u>WARNING</u><br>Group G08G5/59 is incomplete pending reclassification of documents from group G08G5/56. <br>Groups G08G5/56 and G08G5/59 should be considered in order to perform a complete search.	G08G5/59	G08G5/59		1139
+G08G5/70	8	Arrangements for monitoring traffic-related situations or conditions<br><br><u>WARNING</u><br>Group G08G5/70 is impacted by reclassification into groups G08G5/72 and G08G5/78. <br>Groups G08G5/70, G08G5/72 and G08G5/78 should be considered in order to perform a complete search.	G08G5/70	G08G5/70		543
+G08G5/72	9	for monitoring traffic<br><br><u>WARNING</u><br>Group G08G5/72 is incomplete pending reclassification of documents from group G08G5/70. <br>Groups G08G5/70 and G08G5/72 should be considered in order to perform a complete search.	G08G5/72	G08G5/72		3
+G08G5/723	10	{from the aircraft}	G08G5/72	G08G5/72		1127
+G08G5/727	10	{from a ground station}	G08G5/72	G08G5/72		1630
+G08G5/74	9	for monitoring terrain	G08G5/74	G08G5/74		1004
+G08G5/76	9	for monitoring atmospheric conditions<br><br><u>WARNING</u><br>Group G08G5/76 is impacted by reclassification into group G08G5/78. <br>Groups G08G5/76 and G08G5/78 should be considered in order to perform a complete search.	G08G5/76	G08G5/76		1368
+G08G5/78	9	for monitoring wake turbulence<br><br><u>WARNING</u><br>Group G08G5/78 is incomplete pending reclassification of documents from groups G08G5/70 and G08G5/76. <br>Groups G08G5/70, G08G5/76 and G08G5/78 should be considered in order to perform a complete search.	G08G5/78	G08G5/78		1
+G08G5/80	8	Anti-collision systems	G08G5/80	G08G5/80		2382
+G08G5/90	8	specially adapted for urban air mobility [UAM]<br><br><u>WARNING</u><br>Group G08G5/90 is incomplete pending reclassification of documents from group G08G5/00. <br>Groups G08G5/00 and G08G5/90 should be considered in order to perform a complete search.	G08G5/90	G08G5/90		22
+G08G7/00	7	Traffic control systems for simultaneous control of two or more different kinds of craft	G08G7/00	G08G7/00		90
+G08G7/02	8	Anti-collision systems	G08G7/02	G08G7/02		57
+G08G9/00	7	Traffic control systems for craft where the kind of craft is irrelevant or unspecified	G08G9/00	G08G9/00		152
+G08G9/02	8	Anti-collision systems	G08G9/02	G08G9/02		152
+G08G99/00	7	Subject matter not provided for in other groups of this subclass	G08G99/00	G08G99/00		16

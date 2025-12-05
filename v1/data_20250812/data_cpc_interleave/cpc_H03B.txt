@@ -1,0 +1,239 @@
+H03B1/00	7	Details	H03B1/00	H03B1/00		173
+H03B1/02	8	Structural details of power oscillators, e.g. for heating {(construction of transmitters H04B; features of generators for heating by electromagnetic fields H05B6/00)}	H03B1/02	H03B1/02		126
+H03B1/04	8	Reducing undesired oscillations, e.g. harmonics	H03B1/04	H03B1/04		270
+H03B5/00	7	Generation of oscillations using amplifier with regenerative feedback from output to input (H03B9/00, H03B15/00 take precedence)	H03B5/00	H03B5/00		188
+H03B5/02	8	Details	H03B5/02	H03B5/02		230
+H03B5/04	9	Modifications of generator to compensate for variations in physical values, e.g. power supply, load, temperature	H03B5/04	H03B5/04		1677
+H03B5/06	9	Modifications of generator to ensure starting of oscillations	H03B5/06	H03B5/06		384
+H03B5/08	8	with frequency-determining element comprising lumped inductance and capacitance	H03B5/08	H03B5/08		251
+H03B5/10	9	active element in amplifier being vacuum tube (H03B5/14 takes precedence)	H03B5/10	H03B5/10		930
+H03B5/12	9	active element in amplifier being semiconductor device (H03B5/14 takes precedence)	H03B5/12	H03B5/12		344
+H03B5/1203	10	{the amplifier being a single transistor}	H03B5/12	H03B5/12		1006
+H03B5/1206	10	{using multiple transistors for amplification}	H03B5/12	H03B5/12		252
+H03B5/1209	11	{the amplifier having two current paths operating in a differential manner and a current source or degeneration circuit in common to both paths, e.g. a long-tailed pair. (H03B5/1215 takes precedence)}	H03B5/12	H03B5/12		173
+H03B5/1212	11	{the amplifier comprising a pair of transistors, wherein an output terminal of each being connected to an input terminal of the other, e.g. a cross coupled pair}	H03B5/12	H03B5/12		745
+H03B5/1215	12	{the current source or degeneration circuit being in common to both transistors of the pair, e.g. a cross-coupled long-tailed pair}	H03B5/12	H03B5/12		887
+H03B5/1218	11	{the generator being of the balanced type}	H03B5/12	H03B5/12		255
+H03B5/1221	11	{the amplifier comprising multiple amplification stages connected in cascade}	H03B5/12	H03B5/12		173
+H03B5/1225	11	{the generator comprising multiple amplifiers connected in parallel}	H03B5/12	H03B5/12		63
+H03B5/1228	10	{the amplifier comprising one or more field effect transistors}	H03B5/12	H03B5/12		1665
+H03B5/1231	10	{the amplifier comprising one or more bipolar transistors}	H03B5/12	H03B5/12		1411
+H03B5/1234	10	{and comprising means for varying the output amplitude of the generator (H03B5/1278 takes precedence)}	H03B5/12	H03B5/12		60
+H03B5/1237	10	{comprising means for varying the frequency of the generator}	H03B5/12	H03B5/12		78
+H03B5/124	11	{the means comprising a voltage dependent capacitance}	H03B5/12	H03B5/12		509
+H03B5/1243	12	{the means comprising voltage variable capacitance diodes}	H03B5/12	H03B5/12		1295
+H03B5/1246	12	{the means comprising transistors used to provide a variable capacitance}	H03B5/12	H03B5/12		36
+H03B5/125	13	{the transistors being bipolar transistors}	H03B5/12	H03B5/12		31
+H03B5/1253	13	{the transistors being field-effect transistors}	H03B5/12	H03B5/12		244
+H03B5/1256	11	{the means comprising a variable inductance}	H03B5/12	H03B5/12		167
+H03B5/1259	12	{the means comprising a variable active inductor, e.g. gyrator circuits}	H03B5/12	H03B5/12		18
+H03B5/1262	11	{the means comprising switched elements}	H03B5/12	H03B5/12		95
+H03B5/1265	12	{switched capacitors}	H03B5/12	H03B5/12		542
+H03B5/1268	12	{switched inductors}	H03B5/12	H03B5/12		87
+H03B5/1271	11	{the frequency being controlled by a control current, i.e. current controlled oscillators}	H03B5/12	H03B5/12		137
+H03B5/1275	11	{having further means for varying a parameter in dependence on the frequency}	H03B5/12	H03B5/12		10
+H03B5/1278	12	{the parameter being an amplitude of a signal, e.g. maintaining a constant output amplitude over the frequency range}	H03B5/12	H03B5/12		84
+H03B5/1281	12	{the parameter being the amount of feedback}	H03B5/12	H03B5/12		17
+H03B5/1284	12	{the parameter being another frequency, e.g. a harmonic of the oscillating frequency}	H03B5/12	H03B5/12		14
+H03B5/1287	12	{the parameter being a quality factor, e.g. Q factor of the frequency determining element}	H03B5/12	H03B5/12		18
+H03B5/129	12	{the parameter being a bias voltage or a power supply}	H03B5/12	H03B5/12		48
+H03B5/1293	11	{having means for achieving a desired tuning characteristic, e.g. linearising the frequency characteristic across the tuning voltage range}	H03B5/12	H03B5/12		241
+H03B5/1296	10	{the feedback circuit comprising a transformer}	H03B5/12	H03B5/12		559
+H03B5/14	9	frequency-determining element connected via bridge circuit to closed ring around which signal is transmitted	H03B5/14	H03B5/14		23
+H03B5/16	10	active element in amplifier being vacuum tube	H03B5/16	H03B5/16		20
+H03B5/18	8	with frequency-determining element comprising distributed inductance and capacitance	H03B5/18	H03B5/18		241
+H03B5/1805	9	{the frequency-determining element being a coaxial resonator}	H03B5/18	H03B5/18		119
+H03B5/1811	10	{the active element in the amplifier being a vacuum tube (see provisionally also H03B5/1835)}	H03B5/18	H03B5/18		1
+H03B5/1817	9	{the frequency-determining element being a cavity resonator}	H03B5/18	H03B5/18		51
+H03B5/1823	10	{the active element in the amplifier being a semiconductor device}	H03B5/18	H03B5/18		39
+H03B5/1829	11	{the semiconductor device being a field-effect device}	H03B5/18	H03B5/18		19
+H03B5/1835	10	{the active element in the amplifier being a vacuum tube}	H03B5/18	H03B5/18		576
+H03B5/1841	9	{the frequency-determining element being a strip line resonator (H03B5/1805, H03B5/1817, H03B5/1864 and H03B5/1882 take precedence)}	H03B5/18	H03B5/18		157
+H03B5/1847	10	{the active element in the amplifier being a semiconductor device}	H03B5/18	H03B5/18		407
+H03B5/1852	11	{the semiconductor device being a field-effect device}	H03B5/18	H03B5/18		340
+H03B5/1858	10	{the active element in the amplifier being a vacuum tube (see provisionally also H03B5/1835)}	H03B5/18	H03B5/18		1
+H03B5/1864	9	{the frequency-determining element being a dielectric resonator}	H03B5/18	H03B5/18		88
+H03B5/187	10	{the active element in the amplifier being a semiconductor device}	H03B5/18	H03B5/18		67
+H03B5/1876	11	{the semiconductor device being a field-effect device}	H03B5/18	H03B5/18		175
+H03B5/1882	9	{the frequency-determining element being a magnetic-field sensitive resonator, e.g. a Yttrium Iron Garnet or a magnetostatic surface wave resonator}	H03B5/18	H03B5/18		31
+H03B5/1888	10	{the active element in the amplifier being a semiconductor device}	H03B5/18	H03B5/18		19
+H03B5/1894	11	{the semiconductor device being a field-effect device}	H03B5/18	H03B5/18		13
+H03B5/20	8	with frequency-determining element comprising resistance and either capacitance or inductance, e.g. phase-shift oscillator	H03B5/20	H03B5/20		317
+H03B5/22	9	active element in amplifier being vacuum tube (H03B5/26 takes precedence)	H03B5/22	H03B5/22		142
+H03B5/24	9	active element in amplifier being semiconductor device (H03B5/26 takes precedence)	H03B5/24	H03B5/24		747
+H03B5/26	9	frequency-determining element being part of bridge circuit in closed ring around which signal is transmitted; frequency-determining element being connected via a bridge circuit to such a closed ring, e.g. Wien-Bridge oscillator, parallel-T oscillator	H03B5/26	H03B5/26		169
+H03B5/28	10	active element in amplifier being vacuum tube	H03B5/28	H03B5/28		45
+H03B5/30	8	with frequency-determining element being electromechanical resonator	H03B5/30	H03B5/30		661
+H03B5/32	9	being a piezoelectric resonator (selection of piezoelectric material H10N30/00)	H03B5/32	H03B5/32		1381
+H03B5/323	10	{the resonator having more than two terminals (H03B5/326 takes precedence)}	H03B5/32	H03B5/32		88
+H03B5/326	10	{the resonator being an acoustic wave device, e.g. SAW or BAW device}	H03B5/32	H03B5/32		316
+H03B5/34	10	active element in amplifier being vacuum tube (H03B5/38 takes precedence)	H03B5/34	H03B5/34		746
+H03B5/36	10	active element in amplifier being semiconductor device ({H03B5/323, H03B5/326} , H03B5/38 take precedence)	H03B5/36	H03B5/36		848
+H03B5/362	11	{the amplifier being a single transistor (H03B5/364&#160;-&#160;H03B5/368 take precedence)}	H03B5/36	H03B5/36		456
+H03B5/364	11	{the amplifier comprising field effect transistors (H03B5/366 takes precedence)}	H03B5/36	H03B5/36		629
+H03B5/366	11	{and comprising means for varying the frequency by a variable voltage or current}	H03B5/36	H03B5/36		373
+H03B5/368	12	{the means being voltage variable capacitance diodes}	H03B5/36	H03B5/36		324
+H03B5/38	10	frequency-determining element being connected via bridge circuit to closed ring around which signal is transmitted	H03B5/38	H03B5/38		24
+H03B5/40	9	being a magnetostrictive resonator (H03B5/42 takes precedence; selection of magneto-strictive material {H01F1/00}; H10N30/00)	H03B5/40	H03B5/40		72
+H03B5/42	9	frequency-determining element connected via bridge circuit to closed ring around which signal is transmitted	H03B5/42	H03B5/42		5
+H03B7/00	7	Generation of oscillations using active element having a negative resistance between two of its electrodes (H03B9/00 takes precedence)	H03B7/00	H03B7/00		47
+H03B7/02	8	with frequency-determining element comprising lumped inductance and capacitance	H03B7/02	H03B7/02		10
+H03B7/04	9	active element being vacuum tube	H03B7/04	H03B7/04		98
+H03B7/06	9	active element being semiconductor device	H03B7/06	H03B7/06		145
+H03B7/08	10	being a tunnel diode	H03B7/08	H03B7/08		197
+H03B7/10	9	active element being gas-discharge or arc-discharge tube	H03B7/10	H03B7/10		82
+H03B7/12	8	with frequency-determining element comprising distributed inductance and capacitance	H03B7/12	H03B7/12		13
+H03B7/14	9	active element being semiconductor device	H03B7/14	H03B7/14		140
+H03B7/143	10	{and which comprises an element depending on a voltage or a magnetic field, e.g. varactor- YIG}	H03B7/14	H03B7/14		22
+H03B7/146	10	{with several semiconductor devices}	H03B7/14	H03B7/14		31
+H03B9/00	7	Generation of oscillations using transit-time effects {(construction of tube and circuit arrangements not adapted to a particular application H01J; construction of the semiconductor devices H01L)}	H03B9/00	H03B9/00		23
+H03B9/01	8	using discharge tubes	H03B9/01	H03B9/01		170
+H03B9/02	9	using a retarding-field tube (using klystrons H03B9/04)	H03B9/02	H03B9/02		44
+H03B9/04	9	using a klystron	H03B9/04	H03B9/04		15
+H03B9/06	10	using a reflex klystron	H03B9/06	H03B9/06		6
+H03B9/08	9	using a travelling-wave tube	H03B9/08	H03B9/08		33
+H03B9/10	9	using a magnetron	H03B9/10	H03B9/10		313
+H03B9/12	8	using solid state devices, e.g. Gunn-effect devices	H03B9/12	H03B9/12		220
+H03B2009/123	9	{using Gunn diodes}	H03B9/12	H03B9/12		12
+H03B2009/126	9	{using impact ionization avalanche transit time [IMPATT] diodes}	H03B9/12	H03B9/12		123
+H03B9/14	9	and elements comprising distributed inductance and capacitance	H03B9/14	H03B9/14		77
+H03B9/141	10	{and comprising a voltage sensitive element, e.g. varactor}	H03B9/14	H03B9/14		113
+H03B9/142	10	{and comprising a magnetic field sensitive element, e.g. YIG}	H03B9/14	H03B9/14		36
+H03B9/143	10	{using more than one solid state device}	H03B9/14	H03B9/14		105
+H03B9/145	10	{the frequency being determined by a cavity resonator, e.g. a hollow waveguide cavity or a coaxial cavity (H03B9/141&#160;-&#160;H03B9/143, H03B9/147, H03B9/148 take precedence)}	H03B9/14	H03B9/14		203
+H03B9/146	11	{formed by a disc, e.g. a waveguide cap resonator}	H03B9/14	H03B9/14		38
+H03B9/147	10	{the frequency being determined by a stripline resonator (H03B9/141&#160;-&#160;H03B9/143, H03B9/148 take precedence)}	H03B9/14	H03B9/14		70
+H03B9/148	10	{the frequency being determined by a dielectric resonator (H03B9/141&#160;-&#160;H03B9/143 take precedence)}	H03B9/14	H03B9/14		53
+H03B11/00	7	Generation of oscillations using a shock-excited tuned circuit (with feedback H03B5/00)	H03B11/00	H03B11/00		48
+H03B11/02	8	excited by spark (spark gaps therefor H01T9/00)	H03B11/02	H03B11/02		503
+H03B11/04	8	excited by interrupter	H03B11/04	H03B11/04		5
+H03B11/06	9	by mechanical interrupter	H03B11/06	H03B11/06		112
+H03B11/08	9	interrupter being discharge tube	H03B11/08	H03B11/08		180
+H03B11/10	9	interrupter being semiconductor device	H03B11/10	H03B11/10		55
+H03B13/00	7	Generation of oscillations using deflection of electron beam in a cathode-ray tube	H03B13/00	H03B13/00		144
+H03B15/00	7	Generation of oscillations using galvano-magnetic devices, e.g. Hall-effect devices, or using superconductivity effects	H03B15/00	H03B15/00		133
+H03B15/003	8	{using superconductivity effects (devices using superconductivity H10N60/00)}	H03B15/00	H03B15/00		49
+H03B15/006	8	{using spin transfer effects or giant magnetoresistance}	H03B15/00	H03B15/00		188
+H03B17/00	7	Generation of oscillations using radiation source and detector, e.g. with interposed variable obturator	H03B17/00	H03B17/00		289
+H03B19/00	7	Generation of oscillations by non-regenerative frequency multiplication or division of a signal from a separate source (transference of modulation from one carrier to another H03D7/00)	H03B19/00	H03B19/00		656
+H03B19/03	8	using non-linear inductance	H03B19/03	H03B19/03		478
+H03B19/05	8	using non-linear capacitance, e.g. varactor diodes	H03B19/05	H03B19/05		78
+H03B19/06	8	by means of discharge device or semiconductor device with more than two electrodes	H03B19/06	H03B19/06		28
+H03B19/08	9	by means of a discharge device	H03B19/08	H03B19/08		25
+H03B19/10	10	using multiplication only	H03B19/10	H03B19/10		380
+H03B19/12	10	using division only	H03B19/12	H03B19/12		197
+H03B19/14	9	by means of a semiconductor device	H03B19/14	H03B19/14		744
+H03B19/16	8	using uncontrolled rectifying devices, e.g. rectifying diodes or Schottky diodes	H03B19/16	H03B19/16		245
+H03B19/18	9	and elements comprising distributed inductance and capacitance	H03B19/18	H03B19/18		206
+H03B19/20	9	being diodes exhibiting charge storage or enhancement effects	H03B19/20	H03B19/20		15
+H03B21/00	7	Generation of oscillations by combining unmodulated signals of different frequencies (H03B19/00 takes precedence; frequency changing circuits in general H03D)	H03B21/00	H03B21/00		248
+H03B21/01	8	by beating unmodulated signals of different frequencies	H03B21/01	H03B21/01		201
+H03B21/02	9	by plural beating, i.e. for frequency synthesis {; Beating in combination with multiplication or division of frequency (digital frequency synthesis using a ROM G06F1/02; digital frequency synthesis in general H03K; indirect frequency synthesis using a PLL H03L7/16)}	H03B21/02	H03B21/02		478
+H03B21/025	10	{by repeated mixing in combination with division of frequency only}	H03B21/02	H03B21/02		100
+H03B21/04	9	using several similar stages	H03B21/04	H03B21/04		115
+H03B23/00	7	Generation of oscillations periodically swept over a predetermined frequency range (angle-modulating circuits in general H03C3/00)	H03B23/00	H03B23/00		466
+H03B25/00	7	Simultaneous generation by a free-running oscillator of oscillations having different frequencies	H03B25/00	H03B25/00		91
+H03B27/00	7	Generation of oscillations providing a plurality of outputs of the same frequency but differing in phase, other than merely two anti-phase outputs	H03B27/00	H03B27/00		637
+H03B28/00	7	Generation of oscillations by methods not covered by groups H03B5/00&#160;-&#160;H03B27/00, including modification of the waveform to produce sinusoidal oscillations (analogue function generators for performing computing operations G06G7/26; use of transformers for conversion of waveform in AC-AC converters H02M5/18)	H03B28/00	H03B28/00		468
+H03B29/00	7	Generation of noise currents and voltages {(gasfilled discharge tubes with solid cathode specially adapted as noise generators H01J17/005)}	H03B29/00	H03B29/00		490
+H03B2200/00	7	Indexing scheme relating to details of oscillators covered by H03B	CPCONLY	H03B2200/00		1
+H03B2200/0002	8	Types of oscillators	CPCONLY	H03B2200/0002		2
+H03B2200/0004	9	Butler oscillator	CPCONLY	H03B2200/0004		13
+H03B2200/0006	9	Clapp oscillator	CPCONLY	H03B2200/0006		39
+H03B2200/0008	9	Colpitts oscillator	CPCONLY	H03B2200/0008		208
+H03B2200/001	9	Hartley oscillator	CPCONLY	H03B2200/001		44
+H03B2200/0012	9	Pierce oscillator	CPCONLY	H03B2200/0012		140
+H03B2200/0014	8	Structural aspects of oscillators	CPCONLY	H03B2200/0014		10
+H03B2200/0016	9	including a ring, disk or loop shaped resonator	CPCONLY	H03B2200/0016		36
+H03B2200/0018	9	relating to the cutting angle of a crystal, e.g. AT cut quartz	CPCONLY	H03B2200/0018		64
+H03B2200/002	9	making use of ceramic material	CPCONLY	H03B2200/002		35
+H03B2200/0022	9	characterised by the substrate, e.g. material	CPCONLY	H03B2200/0022		48
+H03B2200/0024	9	including parallel striplines	CPCONLY	H03B2200/0024		44
+H03B2200/0026	9	relating to the pins of integrated circuits	CPCONLY	H03B2200/0026		45
+H03B2200/0028	9	based on a monolithic microwave integrated circuit [MMIC]	CPCONLY	H03B2200/0028		56
+H03B2200/003	8	Circuit elements of oscillators	CPCONLY	H03B2200/003		7
+H03B2200/0032	9	including a device with a Schottky junction	CPCONLY	H03B2200/0032		24
+H03B2200/0034	9	including a buffer amplifier	CPCONLY	H03B2200/0034		194
+H03B2200/0036	9	including an emitter or source coupled transistor pair or a long tail pair	CPCONLY	H03B2200/0036		37
+H03B2200/0038	9	including a current mirror	CPCONLY	H03B2200/0038		135
+H03B2200/004	9	including a variable capacitance, e.g. a varicap, a varactor or a variable capacitance of a diode or transistor	CPCONLY	H03B2200/004		409
+H03B2200/0042	10	the capacitance diode being in the feedback path	CPCONLY	H03B2200/0042		22
+H03B2200/0044	9	including optical elements, e.g. optical injection locking	CPCONLY	H03B2200/0044		22
+H03B2200/0046	9	including measures to switch the gain of an amplifier	CPCONLY	H03B2200/0046		60
+H03B2200/0048	9	including measures to switch the frequency band, e.g. by harmonic selection	CPCONLY	H03B2200/0048		161
+H03B2200/005	9	including measures to switch a capacitor	CPCONLY	H03B2200/005		110
+H03B2200/0052	9	including measures to switch the feedback circuit	CPCONLY	H03B2200/0052		24
+H03B2200/0054	9	including measures to switch a filter, e.g. for frequency tuning or for harmonic selection	CPCONLY	H03B2200/0054		15
+H03B2200/0056	9	including a diode used for switching	CPCONLY	H03B2200/0056		74
+H03B2200/0058	9	with particular transconductance characteristics, e.g. an operational transconductance amplifier	CPCONLY	H03B2200/0058		51
+H03B2200/006	8	Functional aspects of oscillators	CPCONLY	H03B2200/006		9
+H03B2200/0062	9	Bias and operating point	CPCONLY	H03B2200/0062		251
+H03B2200/0064	9	Pulse width, duty cycle or on/off ratio	CPCONLY	H03B2200/0064		35
+H03B2200/0066	9	Amplitude or AM detection	CPCONLY	H03B2200/0066		106
+H03B2200/0068	9	Frequency or FM detection	CPCONLY	H03B2200/0068		16
+H03B2200/007	9	Generation of oscillations based on harmonic frequencies, e.g. overtone oscillators	CPCONLY	H03B2200/007		170
+H03B2200/0072	9	Frequency hopping and enabling of rapid frequency changes	CPCONLY	H03B2200/0072		35
+H03B2200/0074	9	Locking of an oscillator by injecting an input signal directly into the oscillator	CPCONLY	H03B2200/0074		147
+H03B2200/0076	9	Power combination of several oscillators oscillating at the same frequency	CPCONLY	H03B2200/0076		47
+H03B2200/0078	9	generating or using signals in quadrature	CPCONLY	H03B2200/0078		142
+H03B2200/008	9	making use of a reference frequency	CPCONLY	H03B2200/008		31
+H03B2200/0082	9	Lowering the supply voltage and saving power	CPCONLY	H03B2200/0082		188
+H03B2200/0084	9	dedicated to Terahertz frequencies	CPCONLY	H03B2200/0084		51
+H03B2200/0086	9	relating to the Q factor or damping of the resonant circuit	CPCONLY	H03B2200/0086		50
+H03B2200/0088	9	Reduction of noise	CPCONLY	H03B2200/0088		184
+H03B2200/009	10	Reduction of phase noise	CPCONLY	H03B2200/009		238
+H03B2200/0092	9	Measures to linearise or reduce distortion of oscillator characteristics	CPCONLY	H03B2200/0092		227
+H03B2200/0094	9	Measures to ensure starting of oscillations	CPCONLY	H03B2200/0094		184
+H03B2200/0096	9	Measures to ensure stopping of oscillations	CPCONLY	H03B2200/0096		10
+H03B2200/0098	9	having a balanced output signal	CPCONLY	H03B2200/0098		129
+H03B2201/00	7	Aspects of oscillators relating to varying the frequency of the oscillations	CPCONLY	H03B2201/00		2
+H03B2201/01	8	Varying the frequency of the oscillations by manual means	CPCONLY	H03B2201/01		32
+H03B2201/011	9	the means being an element with a variable capacitance	CPCONLY	H03B2201/011		56
+H03B2201/012	9	the means being an element with a variable inductance	CPCONLY	H03B2201/012		14
+H03B2201/014	9	the means being associated with an element comprising distributed inductances and capacitances	CPCONLY	H03B2201/014		46
+H03B2201/015	10	the element being a cavity	CPCONLY	H03B2201/015		60
+H03B2201/017	10	the element being a dielectric resonator	CPCONLY	H03B2201/017		50
+H03B2201/018	9	the means being a manual switch	CPCONLY	H03B2201/018		13
+H03B2201/02	8	Varying the frequency of the oscillations by electronic means	CPCONLY	H03B2201/02		109
+H03B2201/0208	9	the means being an element with a variable capacitance, e.g. capacitance diode	CPCONLY	H03B2201/0208		737
+H03B2201/0216	9	the means being an element with a variable inductance	CPCONLY	H03B2201/0216		43
+H03B2201/0225	9	the means being associated with an element comprising distributed inductances and capacitances	CPCONLY	H03B2201/0225		23
+H03B2201/0233	10	the element being a cavity	CPCONLY	H03B2201/0233		4
+H03B2201/0241	10	the element being a magnetically variable element, e.g. an Yttrium Iron Garnet	CPCONLY	H03B2201/0241		53
+H03B2201/025	9	the means being an electronic switch for switching in or out oscillator elements	CPCONLY	H03B2201/025		117
+H03B2201/0258	10	the means comprising a diode	CPCONLY	H03B2201/0258		40
+H03B2201/0266	10	the means comprising a transistor	CPCONLY	H03B2201/0266		143
+H03B2201/0275	9	the means delivering several selected voltages or currents	CPCONLY	H03B2201/0275		15
+H03B2201/0283	10	the means functioning digitally	CPCONLY	H03B2201/0283		31
+H03B2201/0291	11	and being controlled by a processing device, e.g. a microprocessor	CPCONLY	H03B2201/0291		31
+H03B2201/03	8	Varying beside the frequency also another parameter of the oscillator in dependence on the frequency	CPCONLY	H03B2201/03		11
+H03B2201/031	9	the parameter being the amplitude of a signal, e.g. maintaining a constant output amplitude over the frequency range	CPCONLY	H03B2201/031		59
+H03B2201/033	9	the parameter being the amount of feedback	CPCONLY	H03B2201/033		11
+H03B2201/035	9	the parameter being another frequency, e.g. a harmonic of the oscillating frequency	CPCONLY	H03B2201/035		11
+H03B2201/036	9	the parameter being the quality factor of a resonator	CPCONLY	H03B2201/036		26
+H03B2201/038	9	the parameter being a bias voltage or a power supply	CPCONLY	H03B2201/038		28
+H03B2202/00	7	Aspects of oscillators relating to reduction of undesired oscillations	CPCONLY	H03B2202/00		1
+H03B2202/01	8	Reduction of undesired oscillations originated from distortion in one of the circuit elements of the oscillator	CPCONLY	H03B2202/01		4
+H03B2202/012	9	the circuit element being the active device	CPCONLY	H03B2202/012		23
+H03B2202/015	9	the circuit element being a limiter	CPCONLY	H03B2202/015		6
+H03B2202/017	9	the circuit element being a frequency determining element	CPCONLY	H03B2202/017		16
+H03B2202/02	8	Reduction of undesired oscillations originated from natural noise of the circuit elements of the oscillator	CPCONLY	H03B2202/02		18
+H03B2202/022	9	the noise being essentially white noise, i.e. frequency independent noise	CPCONLY	H03B2202/022		1
+H03B2202/025	9	the noise being coloured noise, i.e. frequency dependent noise	CPCONLY	H03B2202/025		3
+H03B2202/027	10	the noise being essentially proportional to the inverse of the frequency, i.e. the so-called 1/f noise	CPCONLY	H03B2202/027		32
+H03B2202/03	8	Reduction of undesired oscillations originated from internal parasitic couplings, i.e. parasitic couplings within the oscillator itself	CPCONLY	H03B2202/03		22
+H03B2202/04	8	Reduction of undesired oscillations originated from outside noise or interferences, e.g. from parasitic couplings with circuit elements outside the oscillator	CPCONLY	H03B2202/04		18
+H03B2202/042	9	the circuit element belonging to the power supply	CPCONLY	H03B2202/042		16
+H03B2202/044	9	the circuit element belonging to transmitter circuitry	CPCONLY	H03B2202/044		5
+H03B2202/046	9	the circuit element belonging to receiver circuitry	CPCONLY	H03B2202/046		4
+H03B2202/048	9	the circuit element being a frequency divider	CPCONLY	H03B2202/048		1
+H03B2202/05	8	Reduction of undesired oscillations through filtering or through special resonator characteristics	CPCONLY	H03B2202/05		61
+H03B2202/06	8	Reduction of undesired oscillations through modification of a bias voltage, e.g. selecting the operation point of an active device	CPCONLY	H03B2202/06		16
+H03B2202/07	8	Reduction of undesired oscillations through a cancelling of the undesired oscillation	CPCONLY	H03B2202/07		17
+H03B2202/073	9	by modifying the internal feedback of the oscillator	CPCONLY	H03B2202/073		11
+H03B2202/076	9	by using a feedback loop external to the oscillator, e.g. the so-called noise degeneration	CPCONLY	H03B2202/076		23
+H03B2202/08	8	Reduction of undesired oscillations originated from the oscillator in circuit elements external to the oscillator by means associated with the oscillator	CPCONLY	H03B2202/08		20
+H03B2202/082	9	by avoiding coupling between these circuit elements	CPCONLY	H03B2202/082		4
+H03B2202/084	10	through shielding	CPCONLY	H03B2202/084		16
+H03B2202/086	10	through a frequency dependent coupling, e.g. which attenuates a certain frequency range	CPCONLY	H03B2202/086		17
+H03B2202/088	9	by compensating through additional couplings with these circuit elements	CPCONLY	H03B2202/088		9
