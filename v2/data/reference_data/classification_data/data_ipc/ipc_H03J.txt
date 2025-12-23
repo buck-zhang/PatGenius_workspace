@@ -1,0 +1,67 @@
+H03J   1/00		共振回路一般の調整，駆動，指示または機械的制御装置の細部［２００６．０１］	Details of adjusting, driving, indicating, or mechanical control arrangements for resonant circuits in general	4759
+H03J   1/02	・	指示装置	Indicating arrangements	2729
+H03J   1/04	・・	光学的指示手段をもつもの	with optical indicating means	2978
+H03J   1/06	・	駆動または調整装置；他の駆動または調整装置と結合したもの，例．利得制御についてのもの<br><b><ul>注</ul></b><br>グループ１／１４，１／１６はグループ１／０８から１／１２に優先する。	Driving or adjusting arrangements; combined with other driving or adjusting arrangements, e.g. of gain control	2138
+H03J   1/08	・・	歯車駆動；ウォーム駆動	Toothed-gear drive; Worm drive	934
+H03J   1/10	・・	ロープ駆動；鎖駆動	Rope drive; Chain drive	1393
+H03J   1/12	・・	摩擦駆動	Friction drive	144
+H03J   1/14	・・	微同調および粗同調のための特殊装置	Special arrangements for fine and coarse tuning	1594
+H03J   1/16	・・	２以上の作用を独立して行なう単一制御手段	Single control means independently performing two or more functions	306
+H03J   1/18	・	補助動力による制御	Control by auxiliary power	482
+H03J   1/20	・・	制御電流がスイッチされている間，補助動力がスイッチされているもの	the auxiliary power being switched on as long as controlling current is switched on	96
+H03J   1/22	・・	制御パルスによって動作する節動装置をもつもの	with stepping arrangements actuated by control pulses	140
+H03J   3/00		連続同調（Ｈ０３Ｊ７／００，Ｈ０３Ｊ９／００が優先；バンドスプレッド以外の連続同調および非連続同調の組み合せＨ０３Ｊ５／００）［３］	Continuous tuning(H03J7/00, H03J9/00 take precedence; combination of continuous and discontinuous tuning other than for bandspreading H03J5/00)	1254
+H03J   3/02	・	細部	Details	205
+H03J   3/04	・・	温度等の物理量の変化に対する補償装置［２００６．０１］	Arrangements for compensating for variations of physical values, e.g. temperature	279
+H03J   3/06	・・	１または複数の同調範囲にわたり帯域幅または利得一定を得る装置［２００６．０１］	Arrangements for obtaining constant bandwidth or gain throughout tuning range or ranges	350
+H03J   3/08	・・・	同調操作と同時に別の媒介変数を変化させるもの，例．帯域フィルタの結合	by varying a second parameter simultaneously with the tuning, e.g. coupling bandpass filter	258
+H03J   3/10	・・	微同調用回路装置，例．バンドスプレッド	Circuit arrangements for fine tuning, e.g. bandspreading	400
+H03J   3/12	・・	正しい同調を指示するための電気的に操作される装置	Electrically-operated arrangements for indicating correct tuning	1034
+H03J   3/14	・・・	可視指示，例．マジックアイ	Visual indication, e.g. magic eye	1425
+H03J   3/16	・・	リアクタンス素子を移動させない同調，例．透磁率の変化によるもの	Tuning without displacement of reactive element, e.g. by varying permeability	697
+H03J   3/18	・・・	可変リアクタンスを擬似する電子管または半導体装置によるもの	by discharge tube or semiconductor device simulating variable reactance	1299
+H03J   3/20	・	インダクタンスのみまたはキャパシタンスのみの変化による単一共振回路の連続同調	of single resonant circuit by varying inductance only or capacitance only	839
+H03J   3/22	・	インダクタンスおよびキャパシタンスの同時変化による単一共振回路の連続同調	of single resonant circuit by varying inductance and capacitance simultaneously	125
+H03J   3/24	・	ほぼ同一周波数に同調されている複数個の共振回路の同時連続同調，例．単一つまみ同調用	of more than one resonant circuit simultaneously, the circuits being tuned to substantially the same frequency, e.g. for single-knob tuning	274
+H03J   3/26	・・	各回路が帯域ろ波器を形成するように結合されているもの	the circuits being coupled so as to form a bandpass filter	85
+H03J   3/28	・	同調範囲にわたり同調周波数の差が一定である複数個の共振回路の同時連続同調	of more than one resonant circuit simultaneously, the tuning frequencies of the circuits having a substantially constant difference throughout the tuning range	501
+H03J   3/30	・・	可変誘導素子に関するトラッキングを確実にするための装置	Arrangements for ensuring tracking with variable inductors	56
+H03J   3/32	・・	可変コンデンサに関するトラッキングを確実にするための装置	Arrangements for ensuring tracking with variable capacitors	262
+H03J   5/00		非連続同調；所定周波数の選択；１またはそれ以上の帯域における連続同調の有無に関係のない周波数帯域の選択，例．押ボタン同調，ターレットチューナ（Ｈ０３Ｊ７／００，Ｈ０３Ｊ９／００が優先；バンドスプレッド用Ｈ０３Ｊ３／１０）［３］	Discontinuous tuning; Selecting predetermined frequencies; Selecting frequency bands with or without continuous tuning in one or more of the bands, e.g. push-button tuning, turret tuner(H03J7/00, H03J9/00 take precedence; for bandspreading H03J3/10)	5003
+H03J   5/02	・	多数の所定整定をもちそれらの整定のうちの所望の１つに調整可能な１個の可変同調素子をもつもの	with variable tuning element having a number of predetermined settings and adjustable to a desired one of these settings	5218
+H03J   5/04	・・	手動操作によるもの	operated by hand	761
+H03J   5/06	・・・	スナップアクションを有する単一の索引付与手段によって定められる整定	Settings determined by single indexing means with snap action	271
+H03J   5/08	・・・	別々に作動する多数の位置決定手段によって定められる整定	Settings determined by a number of separately-actuated positioning means	2478
+H03J   5/10	・・・	所望の位置に調整できる共通支持体上に実装された多数の位置決定手段によって定められる整定であって，相異なる位置決定手段が各位置において動作状態にあるもの	Settings determined by a number of positioning means mounted on a common support, which is adjustable to desired positions, a different positioning means being in operation in each position	454
+H03J   5/12	・・・	同調素子を所望の整定に直接調整する別々に作動した多数の駆動手段によって定められる整定	Settings determined by a number of separately-actuated driving means which adjust the tuning element directly to desired settings	1067
+H03J   5/14	・・	補助動力によって働かされるもの	operated by auxiliary power	719
+H03J   5/16	・・・	手動により別々に作動する多数の位置決定手段によって定められる整定	Settings determined by a number of separate positioning means actuated by hand	99
+H03J   5/18	・・・	電磁石により別々に作動する多数の位置決定手段によって定められる整定	Settings determined by a number of separate positioning means actuated by electromagnets	66
+H03J   5/20	・・・	同じまたは他の補助動力によって異なる各位置に調整できる第２の手段により作動する多数の位置決定手段によって定められる整定	Settings determined by a number of positioning means actuated by a second means adjustable to different positions by the same or by a second auxiliary power	52
+H03J   5/22	・・・	同調素子を所望の整定に直接調整する多数の別々に作動する駆動手段によって定められる整定	Settings determined by a number of separately actuated driving means which adjust the tuning element directly to desired settings	53
+H03J   5/24	・	あらかじめ同調されている多数の同調回路または選択的に回路に投入される多数の同調素子をもつもの，例．波長帯選択用またはテレビジョンチャネル選択用［２００６．０１］	with a number of separate pretuned tuning circuits or separate tuning elements selectively brought into circuit, e.g. for waveband selection or for television channel selection	3560
+H03J   5/26	・・	手動操作によるもの	operated by hand	505
+H03J   5/28	・・・	回転軸に直角な一平面上に配列された接点群をもつ回転部分に支持された同調回路または同調素子	Tuning circuits or elements supported on a revolving member with contacts arranged in a plane perpendicular to the axis	354
+H03J   5/30	・・・	回転軸に平行な各線上に配列された接点群をもつ回転部分に支持された同調回路または同調素子	Tuning circuits or elements supported on a revolving member with contacts arranged in lines parallel to the axis	383
+H03J   5/32	・・・	押ぼたんによって選択される固定同調回路または同調素子	Stationary tuning circuits or elements selected by push-button	1030
+H03J   7/00		自動周波数制御；全帯域にわたる自動周波数掃引［３］	Automatic frequency control; Automatic scanning over a band of frequencies	534
+H03J   7/02	・	自動周波数制御（Ｈ０３Ｊ７／１８が優先）［２００６．０１］	Automatic frequency control(H03J7/18 takes precedence)	2727
+H03J   7/04	・・	周波数制御が非機械的調整素子の電気特性の変化によって達成されるもの，または周波数制御素子の性質が重要でないもの［３］	where the frequency control is accomplished by varying the electrical characteristics of a non-mechanically adjustable element or where the nature of the frequency controlling element is not significant	1172
+H03J   7/06	・・・	計数器または周波数分割器を用いるもの［３］	using counters or frequency dividers	726
+H03J   7/08	・・・	バラクタ，すなわち電圧可変リアクティブダイオードを用いるもの（Ｈ０３Ｊ７／０６が優先）［３］	using varactors, i.e. voltage variable reactive diodes(H03J7/06 takes precedence)	452
+H03J   7/10	・・・・	自動周波数制御感度の修正または自動周波数制御操作の直線化［３］	Modification of automatic frequency control sensitivity or linearising automatic frequency control operation	131
+H03J   7/12	・・・・	自動周波数制御電圧と安定化されたバラクタ供給電圧との結合［３］	Combination of automatic frequency control voltage with stabilised varactor supply voltage	53
+H03J   7/14	・・・	誘導鉄心内の磁束を制御するもの（Ｈ０３Ｊ７／０６が優先）［３］	Controlling the magnetic state of inductor cores(H03J7/06 takes precedence)	55
+H03J   7/16	・・	周波数制御が機械的手段によって達成されるもの，例．モータによるもの［３］	where the frequency control is accomplished by mechanical means, e.g. by a motor	254
+H03J   7/18	・	全帯域にわたる自動周波数掃引［３］	Automatic scanning over a band of frequencies	3504
+H03J   7/20	・・	掃引が非機械的調整素子の電気特性の変化によって達成されるもの［３］	where the scanning is accomplished by varying the electrical characteristics of a non-mechanically adjustable element	561
+H03J   7/22	・・・	自動周波数制御回路が掃引動作停止後に動作状態となるもの（Ｈ０３Ｊ７／２４が優先）［３］	in which an automatic frequency control circuit is brought into action after the scanning action has been stopped(H03J7/24 takes precedence)	95
+H03J   7/24	・・・	バラクタ，すなわち電圧可変リアクティブダイオードを用いるもの（Ｈ０３Ｊ７／２８が優先）［３］	using varactors, i.e. voltage variable reactive diodes(H03J7/28 takes precedence)	212
+H03J   7/26	・・・・	自動周波数制御回路が掃引動作停止後に動作状態となるもの［３］	in which an automatic frequency control circuit is brought into action after the scanning action has been stopped	125
+H03J   7/28	・・・	計数器または周波数分割器を用いるもの［３］	using counters or frequency dividers	1485
+H03J   7/30	・・	掃引が機械的手段によって達成されるもの，例．モーターによるもの［３］	where the scanning is accomplished by mechanical means, e.g. by a motor	638
+H03J   7/32	・・	受信周波数の一斉表示，例．パノラマ受信機［３］	with simultaneous display of received frequencies, e.g. panoramic receivers	437
+H03J   9/00		同調回路の遠隔制御；同調の遠隔制御と他の機能，例．輝度，増巾，とを結合したもの（機械的遠隔制御装置Ｈ０３Ｊ１／００）［３］	Remote-control of tuned circuits; Combined remote-control of tuning and other functions, e.g. brightness, amplification(mechanical remote-control arrangements H03J1/00)	1395
+H03J   9/02	・	無線によるもの；近接電磁界によるもの［３］	using radio transmission; using near-field transmission	265
+H03J   9/04	・	超音波，音波，または亜音波によるもの［３］	using ultrasonic, sonic or infrasonic waves	182
+H03J   9/06	・	無線周波以外の電磁波，例．光，によるもの［３］	using electromagnetic waves other than radio waves, e.g. light	422

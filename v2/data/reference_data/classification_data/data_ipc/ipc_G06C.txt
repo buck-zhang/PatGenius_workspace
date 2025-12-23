@@ -1,0 +1,65 @@
+G06C   1/00		計算機構が少なくとも結果表示部を形成し手により直接操作される計算器，例．ソロバン，ポケット加算器	Computing aids in which the computing members form at least part of the displayed result and are manipulated directly by hand, e.g. abacuses or pocket adding devices	2703
+G06C   3/00		表索引のための構成，例．月経早見表	Arrangements for table look-up, e.g. menstruation table	3409
+G06C   5/00		動作機能を持たない部分	Non-functional elements	77
+G06C   5/02	・	ハウジング；枠組	Housings; Frameworks	150
+G06C   7/00		入力機構［２００６．０１］	Input mechanisms	197
+G06C   7/02	・	キーボード	Keyboards	373
+G06C   7/04	・・	係止機構，例．キー相互間の係止［２００６．０１］	Interlocking devices, e.g. between keys	91
+G06C   7/06	・・	各々の桁に対して零から１０までなどのキーの１セットをそれぞれ持っているもの（フルキー式）	with one set of keys for each denomination	255
+G06C   7/08	・・	全桁に対して零から１０までなどのキーを１セットしか持っていないもの，例．テンキーボード（１組の数字キー式またはテンキー式）	with one set of keys for all denominations, e.g. ten-key board	267
+G06C   7/09	・	記録担体からの計算機構へのデータの転送［２００６．０１］	Transfer of data from record carrier to computing mechanisms	21
+G06C   7/10	・	転送機構，例．テンキー式キーボードからピンキャリジへの置数の転送	Transfer mechanisms, e.g. transfer of a figure from a ten-key keyboard into the pin carriage	479
+G06C   7/12	・	帰零装置，例．キーボードの帰零装置	Resetting devices, e.g. for the keyboard	29
+G06C   9/00		転送機構，例．入力機構から計算機構へ数字を転送する機構（Ｇ０６Ｃ７／１０，Ｇ０６Ｃ１１／００，Ｇ０６Ｃ１５／００が優先）	Transfer mechanisms, e.g. for transmitting figures from the input mechanism into the computing mechanism(G06C7/10, G06C11/00, G06C15/00 take precedence)	96
+G06C   9/02	・	返送機構，例．レジスターに蓄積されている数値を選択機構へ返送する機械	Back-transfer arrangements, e.g. to transfer a value accumulated in a register back into the selection mechanism	2
+G06C  11/00		出力機構［２００６．０１］	Output mechanisms	431
+G06C  11/02	・	可視表示をもつもの，例．数字輪	with visual indication, e.g. counter drum	562
+G06C  11/04	・	印字機構を持つもの，例．一時に１文字または一時に１行を印字するもの	with printing mechanisms, e.g. for character-at-a-time or line-at-a-time printing	542
+G06C  11/06	・・	タイプハンマーのあるもの	having type hammers	34
+G06C  11/08	・	せん孔機構を持つもの	with punching mechanism	170
+G06C  11/10	・	カードまたは巻き紙あるいはテープを送る装置，例．給送装置；行スペース機構［２００６．０１］	Arrangements for feeding single sheets or continuous web or tape, e.g. ejection device; Line-spacing devices	126
+G06C  11/12	・・	テープ送りのためのもの	for feeding tape	74
+G06C  13/00		記憶機構（最下位のみに入力が加わる機械式計数器Ｇ０６Ｍ１／０４）［２００６．０１］	Storage mechanisms (mechanical counters with input only to the lowest order G06M1/04)	73
+G06C  13/02	・	演算数の記憶機構，例．ピンキヤリジ（入力機構Ｇ０６Ｃ７／００）	Operand stores, e.g. pin carriage(input mechanisms G06C7/00)	6
+G06C  13/04	・	印字用バッファ記憶機構	Print buffer stores	3
+G06C  15/00		計算機構；計算機構の作動装置［２００６．０１］	Computing mechanisms; Actuating devices therefor	529
+G06C  15/02	・	二進法で演算するもの<br><b><ul>注</ul></b><br>グループ１５／０２は，グループ１５／０４から１５／４２に優先する。	operating on the binary scale	29
+G06C  15/04	・	加算または減算装置（Ｇ０６Ｃ１５／０８が優先）	Adding or subtracting devices(G06C15/08 takes precedence)	160
+G06C  15/06	・・	バランス合計装置を持つもの；中間合計が行なわれるもの	having balance totalising; Obtaining sub-total	110
+G06C  15/08	・	乗算または除算装置；べきまたはべき根の計算装置	Multiplying or dividing devices; Devices for computing the exponent or root	108
+G06C  15/10	・・	計算機構を直接操作する１桁に対するキーセットを２種類以上持つもの	having more than one denominational set of keys operating directly on computing mechanism	9
+G06C  15/12	・・	ピンキャリジのあるもの	having pin carriage	23
+G06C  15/14	・・	出入針歯車のあるもの，例．オドーナ式	having pin wheel, e.g. Odhner type	21
+G06C  15/16	・・	段付歯車計算機構のあるもの，例．トーマス式	having stepped-toothed actuating drums, e.g. Thomas type	15
+G06C  15/18	・・	部分積を得るための乗算九九表を持つもの	having multiplication table for forming partial products	12
+G06C  15/20	・・	ショートカット乗算または除算に適しているもの［２］	adapted for short-cut multiplication or division	22
+G06C  15/22	・	２つ以上の計算装置の組合せのための装置；２つ以上の計算機構に分割するための装置，例．分配するためのもの	Arrangements for two or more computing devices; Arrangements for subdivision into two or more computing mechanisms, e.g. splitting	11
+G06C  15/24	・	除算または乗算で動作サイクルを数える装置［２００６．０１］	Devices for counting the cycles of operation in division or multiplication	23
+G06C  15/26	・	桁間の桁送り装置，例．１０進桁送り装置	Devices for transfer between orders, e.g. tens-transfer device	90
+G06C  15/28	・・	一段階で桁送りが行なわれるもの	where transfer is effected in one step	7
+G06C  15/30	・・	二段階で桁送りが行なわれるもの	where transfer is effected in two steps	8
+G06C  15/32	・・・	全桁を一斉に桁送りする装置を持つもの	with provision for simultaneous transfer between all orders	2
+G06C  15/34	・・	桁送りが遊星歯車により行なわれる場合，すなわちクロール式	where transfer is effected by planet gear, i.e. crawl type	6
+G06C  15/36	・・・	整列装置を持つもの	with aligning means	2
+G06C  15/38	・・	出入針歯車式計算機構におけるもの	for pin-wheel computing mechanisms	113
+G06C  15/40	・・	段付歯車計算機構におけるもの	for stepped-toothed-drum computing mechanism	17
+G06C  15/42	・	零または他の基数にリセットする装置	Devices for resetting to zero or other datum	31
+G06C  15/44	・	数値比較装置，例．零の検査	Devices for comparing numerical values, e.g. zero check	6
+G06C  15/46	・	丸め装置	Arrangements for rounding-off	1
+G06C  15/48	・	複数個の計算レジスターのうちの１個を選択する装置（項目計数装置Ｇ０６Ｃ２５／０２）［２００６．０１］	Arrangements for selection of one out of several counting registers  (item-counting devices G06C25/02)	11
+G06C  17/00		ある記数方式から他の方式へ変換する，すなわち基数変換機構	Mechanisms for converting from one notational system to another, i.e. radix conversion	34
+G06C  19/00		小数点位置設定機構；十進法でない方式に対する同様な機構	Decimal-point mechanisms; Analogous mechanisms for non-decimal notations	16
+G06C  19/02	・	小数点表示装置	Devices for indicating the point	51
+G06C  19/04	・	小数点印字装置	Devices for printing the point	88
+G06C  21/00		計算機により計算の行なわれる順序を決定するプログラミング機構，例．１つまたは数個のキーが押された場合（加算の繰返しにより単に乗算をする機構Ｇ０６Ｃ１５／０８）	Programming-mechanisms for determining the steps to be performed by the computing machine, e.g. when a key or certain keys are depressed(mechanisms merely for producing multiplication by repeated addition G06C15/08)	97
+G06C  21/02	・	キャリッジの位置によりプログラミング機構の動作が決定されるもの	in which the operation of the mechanism is determined by the position of the carriage	93
+G06C  21/04	・	次に続く動作機能を制御するための条件付き装置，例．ファンクションキーによって作動されかつレジスタの状態に依存する制御装置（複数個の計算レジスターのうちの１個を選択する装置Ｇ０６Ｃ１５／４８）	Conditional arrangements for controlling subsequent operating functions, e.g. control arrangement triggered by a function key and depending on the condition of the register(arrangements for selection of one out of several counting registers G06C15/48)	233
+G06C  23/00		機能要素の駆動機構<br><b><ul>注</ul></b><br>グループ２３／０８は，グループ２３／０２から２３／０６に優先する。	Driving mechanisms for functional elements	63
+G06C  23/02	・	主軸駆動機構	of main shaft	157
+G06C  23/04	・	ピンキャリジ駆動装置，例．ピンキャリジを歩進させる機構	of pin carriage, e.g. for step-by-step movement	95
+G06C  23/06	・	作表装置の駆動機構，例．キャリジのスキップ機構	of tabulation devices, e.g. of carriage skip	176
+G06C  23/08	・	液体または気体による駆動	Hydraulic or pneumatic actuation	
+G06C  25/00		補助機能装置，例．係止機構（キーボードの係止機構Ｇ０６Ｃ７／０４）［２］	Auxiliary functional arrangements, e.g. interlocks(interlocks in keyboards G06C7/04)	165
+G06C  25/02	・	項目計数装置（除算または乗算で動作サイクルを数える装置Ｇ０６Ｃ１５／２４）	Item-counting devices(devices for counting the cycles of operation in division or multiplication G06C15/24)	34
+G06C  27/00		各機能部分の機構的な連結的関係に特徴をもつ計算機械，例．送り状作成機	Computing machines characterised by the structural interrelation of their functional units, e.g. invoicing machines	487
+G06C  29/00		計算機と他の機械，例．タイプライター，釣銭機，との結合	Combinations of computing machines with other machines, e.g. with typewriter, with money-changing apparatus	216

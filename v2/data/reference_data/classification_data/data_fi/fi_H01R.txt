@@ -1,0 +1,974 @@
+H01R   3/00  \	0	0	5E085	H01R   3/00	77	他に属しない導電接続［２００６．０１］	Electrically-conductive connections not otherwise provided for
+H01R   3/08  \	1	1	5E085	H01R   3/08	136	液体へ接続を形成するためのもの［２００６．０１］	for making connection to a liquid (electrodes for batteries or accumulators H01M)
+H01R   4/00  \	0	0	5E085	H01R   4/00	6	２個以上の導電部材間の，直接の接触，すなわち互いの接触による導電接続；そのような接触を行い，または保持する手段；導体のための間隔をあけた二つ以上の接続箇所があり，絶縁体を突き刺す接触子を用いる導電接続［２００６．０１］	Electrically-conductive connections between two or more conductive members in direct contact, i.e. touching one another; Means for effecting or maintaining such contact; Electrically-conductive connections having two or more spaced connecting locations for conductors and using contact members penetrating insulation (details of contacts of coupling devices H01R 13/00; coupling devices H01R 12/70, H01R 24/00-H01R 33/00; flexible or turnable line connectors H01R 35/00&nbsp;non-rotary current collectors H01R 41/00) [3]
+H01R   4/00  A	0	0	5E085	H01R   4/00	841	分岐接続	Branching and connecting
+H01R   4/00  Z	0	0	5E085	H01R   4/00	870	その他のもの	Others
+H01R   4/01  \	1	1	5E085	H01R   4/01	132	形状記憶材料，例．形状記憶金属，を用いる接続［２００６．０１］	Connections using shape memory materials, e.g. shape memory metal [7]
+H01R   4/02  \	1	1	5E085	H01R   4/02	49	はんだ付け，または溶接による接続（Ｈ０１Ｒ４／６２，Ｈ０１Ｒ１２／５９，Ｈ０１Ｒ１２／６５が優先）［２００６．０１］	Soldered or welded connections () [3,7]
+H01R   4/02  C	1	0	5E085	H01R   4/02	1583	溶接	Welding
+H01R   4/02  Z	1	0	5E085	H01R   4/02	2956	その他のもの，例．はんだ付けによるもの	Others, e.g. by soldering
+H01R   4/04  \	1	1	5E085	H01R   4/04	606	導電性の接着剤を使用するもの［２００６．０１］	using electrically conductive adhesives [3]
+H01R   4/06  \	1	1	5E085	H01R   4/06	158	リベット接続（爆発によるものＨ０１Ｒ４／０８）［２００６．０１］	Riveted connections (by explosion H01R 4/08) [3]
+H01R   4/08  \	1	1	5E085	H01R   4/08	31	爆発によって達成されるもの［２００６．０１］	effected by an explosion [3]
+H01R   4/10  \	1	1	5E085	H01R   4/10	523	より，巻き付け，屈曲，圧縮またはその他の永久的変形のみにより達成されるもの［２００６．０１］	effected solely by twisting, wrapping, bending, crimping, or other permanent deformation [3]
+H01R   4/12  \	2	2	5E085	H01R   4/12	129	よりによるもの［２００６．０１］	by twisting [3]
+H01R   4/14  \	2	2	5E085	H01R   4/14	556	巻きつけによるもの［２００６．０１］	by wrapping [3]
+H01R   4/16  \	2	2	5E085	H01R   4/16	356	屈曲によるもの［２００６．０１］	by bending [3]
+H01R   4/18  \	2	2	5E085	H01R   4/18	60	圧縮によるもの（Ｈ０１Ｒ４／０１，Ｈ０１Ｒ４／２４が優先）［２００６．０１］	by crimping (H01R 4/01, H01R 4/24 take precedence) [3,7]
+H01R   4/18  A	2	0	5E085	H01R   4/18	4026	電線端子またはコネクタピンの電線接続部	Cable connections for cable terminals
+H01R   4/18  C	2	0	5E085	H01R   4/18	114	高電圧抵抗電線の端子	Terminals for high-voltage resistance cables
+H01R   4/18  Z	2	0	5E085	H01R   4/18	693	その他のもの	Others
+H01R   4/20  \	3	3	5E085	H01R   4/20	1237	圧縮スリーブを使用するもの［２００６．０１］	using a crimping sleeve [3]
+H01R   4/22  \	1	1	5E085	H01R   4/22	764	端末キャップ，すなわち同一端から挿入される電線間の接続を覆いまたは保持するための絶縁または導電材料製のキャップ［２００６．０１］	End caps, i.e. caps of insulating or conductive material for covering or maintaining connections between wires entering the cap from the same end [3]
+H01R   4/24  \	1	1	5E012	H01R   4/24	4795	絶縁体やケーブルより線を貫通または切断する接触部材を用いる接続［２０１８．０１］	Connections using contact members penetrating or cutting insulation or cable strands [2018.01]
+H01R   4/2404  \	2	2	5E012	H01R   4/2404	297	接触部材が絶縁体を貫通する歯，プロング，ピンまたは針を有するもの［２０１８．０１］	the contact members having teeth, prongs, pins or needles penetrating the insulation [2018.01]
+H01R   4/2406  \	3	3	5E012	H01R   4/2406	828	針またはピンを有するもの［２０１８．０１］	having needles or pins [2018.01]
+H01R   4/2407  \	3	3	5E012	H01R   4/2407	284	鋸歯状の突出部を有するもの［２０１８．０１］	having saw-tooth projections [2018.01]
+H01R   4/2408  \	3	3	5E012	H01R   4/2408	236	ねじの締め付けにより作動されるもの［２０１８．０１］	actuated by clamping screws [2018.01]
+H01R   4/2412  \	3	3	5E012	H01R   4/2412	128	絶縁されたカムまたは楔により作動されるもの［２０１８．０１］	actuated by insulated cams or wedges [2018.01]
+H01R   4/2416  \	2	2	5E012	H01R   4/2416	71	接触部材が絶縁体切断刃を有するもの，例．音叉型［２０１８．０１］	the contact members having insulation-cutting edges, e.g. of tuning fork type [2018.01]
+H01R   4/242  \	3	3	5E012	H01R   4/242	49	接触部材が単一のスロットを有する板であるもの［２０１８．０１］	the contact members being plates having a single slot [2018.01]
+H01R   4/2425  \	4	4	5E012	H01R   4/2425	337	平板，例．多層平板［２０１８．０１］	Flat plates, e.g. multi-layered flat plates [2018.01]
+H01R   4/2429  \	5	5	5E012	H01R   4/2429	1251	絶縁基盤に取付けたもの［２０１８．０１］	mounted in an insulating base [2018.01]
+H01R   4/2433  \	6	6	5E012	H01R   4/2433	1163	ケーブルをスロットに押し込むための移動可能な基盤の一部［２０１８．０１］	one part of the base being movable to push the cable into the slot [2018.01]
+H01R   4/2437  \	4	4	5E012	H01R   4/2437	16	曲板［２０１８．０１］	Curved plates [2018.01]
+H01R   4/2441  \	5	5	5E012	H01R   4/2441	28	管形状［２０１８．０１］	tube-shaped [2018.01]
+H01R   4/2445  \	3	3	5E012	H01R   4/2445	53	接触部材が絶縁体または電線に作用する付加的手段を有するもの，例．絶縁体を貫通する付加的手段，歪を緩和する手段，または電線切断ナイフ［２０１８．０１］	the contact members having additional means acting on the insulation or the wire, e.g. additional insulation-penetrating means, strain relief means or wire cutting knives [2018.01]
+H01R   4/245  \	4	4	5E012	H01R   4/245	79	付加的手段がスロットの形成された２以上の平形部分を有するもの［２０１８．０１］	the additional means having two or more slotted flat portions [2018.01]
+H01R   4/2452  \	5	5	5E012	H01R   4/2452	318	直列的な配列，例．対向するスロット［２０１８．０１］	in serial configuration, e.g. opposing folded slots [2018.01]
+H01R   4/2454  \	5	5	5E012	H01R   4/2454	641	スロットが形成された分岐でＵ字を構成するもの［２０１８．０１］	forming a U shape with slotted branches [2018.01]
+H01R   4/2455  \	6	6	5E012	H01R   4/2455	223	スロットが形成された湾曲部［２０１８．０１］	forming a slotted bight [2018.01]
+H01R   4/2456  \	5	5	5E012	H01R   4/2456	599	並列的な配列［２０１８．０１］	in parallel configuration [2018.01]
+H01R   4/2458  \	4	4	5E012	H01R   4/2458	45	接触部材がスロットの形成された円筒形状であるもの，例．スロットが形成されたチューブ端［２０１８．０１］	the contact members being in a slotted tubular configuration, e.g. a slotted tube-end [2018.01]
+H01R   4/2462  \	4	4	5E012	H01R   4/2462	30	接触部材がスロットの形成された曲がり形状であるもの，例．スロットが形成された湾曲部［２０１８．０１］	the contact members being in a slotted bent configuration, e.g. a slotted bight [2018.01]
+H01R   4/2466  \	4	4	5E012	H01R   4/2466	397	接触部材が溝形状部分を有し，その対向する側壁に絶縁体切断手段を有するもの［２０１８．０１］	the contact members having a channel-shaped part, the opposing sidewalls of which comprise insulation-cutting means [2018.01]
+H01R   4/247  \	2	2	5E012	H01R   4/247	10	接触部材がばねにより作動され絶縁体を貫通するもの［２０１８．０１］	the contact members penetrating the insulation being actuated by springs [2018.01]
+H01R   4/2475  \	2	2	5E012	H01R   4/2475	30	接触部材がねじ，ナットまたはボルトにより作動され絶縁体を貫通するもの［２０１８．０１］	the contact members penetrating the insulation being actuated by screws, nuts or bolts [2018.01]
+H01R   4/2479  \	3	3	5E012	H01R   4/2479	39	ねじの頭部下で貫通するもの［２０１８．０１］	penetrating the area under the screw head [2018.01]
+H01R   4/2483  \	3	3	5E012	H01R   4/2483	76	ねじ先端部の下で貫通するもの［２０１８．０１］	penetrating the area under the screw tip [2018.01]
+H01R   4/2487  \	3	3	5E012	H01R   4/2487	23	ねじ山で貫通するもの［２０１８．０１］	penetrating by means of the screw thread [2018.01]
+H01R   4/2491  \	2	2	5E012	H01R   4/2491	25	接触部材が導電カムまたは楔により作動され絶縁体を貫通するもの［２０１８．０１］	the contact members penetrating the insulation being actuated by conductive cams or wedges [2018.01]
+H01R   4/2495  \	2	2	5E012	H01R   4/2495	310	接触部材の永久変形と組み合わされた絶縁体の貫通，例．かしめ［２０１８．０１］	Insulation penetration combined with permanent deformation of the contact member, e.g. crimping [2018.01]
+H01R   4/26  \	1	1	5E012	H01R   4/26	532	接触を良くするために，少なくとも一方の接触部分が他方の接触部分に食い込む，またはかみ合うような，突出部を有する接続（形状記憶材料を用いるものＨ０１Ｒ４／０１）［２００６．０１］	Connections in which at least one of the connecting parts has projections which bite into or engage the other connecting part in order to improve the contact (using shape memory materials H01R 4/01) [3]
+H01R   4/28  \	1	1	5E012	H01R   4/28	277	締め付け接続；ばね接続（印刷回路との接触または印刷回路への挿入に特に適した端子を使うものＨ０１Ｒ１２／００）［２００６．０１］	Clamped connections; Spring connections (made by means of terminals specially adapted for contact with, or insertion into, printed circuits H01R 12/00) [3,7]
+H01R   4/30  \	2	2	5E012	H01R   4/30	1226	ねじまたはナットの締付部材を使用するもの（Ｈ０１Ｒ４／５０が優先；ねじまたはナットにより作用する締付部材を利用するものＨ０１Ｒ４／３８）［２００６．０１］	using a screw or nut clamping member (H01R 4/50 takes precedence; using a clamping member acted on by screw or nut H01R 4/38) [3]
+H01R   4/32  \	3	3	5E012	H01R   4/32	338	導電部材がねじのみぞまたは孔に配置されるもの［２００６．０１］	Conductive members located in slot or hole in screw [3]
+H01R   4/34  \	3	3	5E012	H01R   4/34	1401	導電部材がねじの頭部の下に配置されるもの［２００６．０１］	Conductive members located under head of screw [3]
+H01R   4/36  \	3	3	5E012	H01R   4/36	755	導電部材がねじの先端の下に配置されるもの［２００６．０１］	Conductive members located under tip of screw [3]
+H01R   4/38  \	2	2	5E012	H01R   4/38	46	ねじまたはナットにより作用する締付部材を使用するもの（Ｈ０１Ｒ４／５０が優先）［２００６．０１］	using a clamping member acted on by screw or nut (H01R 4/50 takes precedence) [3]
+H01R   4/38  A	2	0	5E012	H01R   4/38	425	ねじの先端の下に締付部材を介して導電部材が配置される端子装置	Terminal arrangements of which conductive members is located under screw tip by tightening member
+H01R   4/38  B	2	0	5E012	H01R   4/38	1566	ねじの頭部の下または側部に締付部材を介して導電部材が配置される端子装置	Terminal arrangements of which conductive members is located under screw head by tightening member
+H01R   4/38  C	2	0	5E012	H01R   4/38	553	バスバーまたは板状導体のねじ接続	connecting bus-bars or sheet conductors with screws
+H01R   4/38  Z	2	0	5E012	H01R   4/38	42	その他	Others
+H01R   4/40  \	3	3	5E012	H01R   4/40	55	枢軸で回転可能な締付部材［２００６．０１］	Pivotable clamping member [3]
+H01R   4/42  \	3	3	5E012	H01R   4/42	141	ねじの一面だけで締め付けるもの［２００６．０１］	Clamping area to one side of screw only [3]
+H01R   4/44  \	3	3	5E012	H01R   4/44	228	ねじの両面で締め付けるもの［２００６．０１］	Clamping areas on both sides of screw [3]
+H01R   4/46  \	3	3	5E012	H01R   4/46	142	並んで配置された２つのねじの間で締め付けるもの［２００６．０１］	Clamping area between two screws placed side by side [3]
+H01R   4/48  \	2	2	5E013	H01R   4/48	58	ばね，クリップまたは他の弾性部材を使用するもの（Ｈ０１Ｒ４／５２が優先）［２００６．０１］	using a spring, clip or other resilient member (H01R 4/52 takes precedence) [3]
+H01R   4/48  A	2	0	5E013	H01R   4/48	2653	自己鎖錠形のもの，例．速結端子	of self-locking types, e.g. quick connecting terminals
+H01R   4/48  B	2	0	5E013	H01R   4/48	945	差し込み形のもの，例．弾性ソケット	Insert type, e.g. elastic socket
+H01R   4/48  C	2	0	5E013	H01R   4/48	2355	単に板ばねまたはコイルばねを使用するもの	simply using leaf or coil springs
+H01R   4/48  Z	2	0	5E013	H01R   4/48	234	その他	Others
+H01R   4/50  \	2	2	5E013	H01R   4/50	5	カム，楔，コーンまたはボールを使用するもの［２００６．０１］	using a cam, wedge, cone or ball [3]
+H01R   4/50  A	2	0	5E013	H01R   4/50	231	カムを使用するもの	using cams
+H01R   4/50  B	2	0	5E013	H01R   4/50	472	楔，コーンまたはボールを使用するもの	using f wedges, cones or balls
+H01R   4/50  C	2	1	5E013	H01R   4/50	107	楔を使用して絶縁を剥離するもの	peeling insulation by using wedges
+H01R   4/50  Z	2	0	5E013	H01R   4/50	68	その他	Others
+H01R   4/52  \	3	3	5E013	H01R   4/52	202	ばねに取り付けたもの［２００６．０１］	which is spring loaded [3]
+H01R   4/56  \	1	1	5E013	H01R   4/56	98	一方の導体を他方の導体へねじ込むもの［２００６．０１］	one conductor screwing into another [3]
+H01R   4/58  \	1	1	5E014	H01R   4/58	18	接触する部材の形状または材質に特徴のあるもの（Ｈ０１Ｒ４／０１が優先）［２００６．０１］	characterised by the form or material of the contacting members (H01R 4/01 takes precedence) [3,7]
+H01R   4/58  A	1	0	5E014	H01R   4/58	262	接触する部材の材質により特徴づけられるもの	characterised by materials of members in contact
+H01R   4/58  B	1	0	5E014	H01R   4/58	333	接触する部材の形状により特徴づけられるもの	characterised by shapes of members in contact
+H01R   4/58  C	1	1	5E014	H01R   4/58	937	バスバーの接続	connecting bus-bars
+H01R   4/58  D	1	1	5E014	H01R   4/58	192	箔，板体の接続	Connecting foil, board
+H01R   4/58  E	1	1	5E014	H01R   4/58	71	配線ダクトの接続	connecting wiring ducts
+H01R   4/58  F	1	1	5E014	H01R   4/58	49	分割導体の接続	Connecting split conductors
+H01R   4/58  G	1	1	5E014	H01R   4/58	143	トロリー線の接続	connecting trolley cables
+H01R   4/58  Z	1	0	5E014	H01R   4/58	67	その他	Others
+H01R   4/60  \	2	2	5E014	H01R   4/60	348	管状の導体との接続または管状の導体間の接続（Ｈ０１Ｒ４／５６が優先）［２００６．０１］	Connections between or with tubular conductors (H01R 4/56 takes precedence) [3]
+H01R   4/62  \	2	2	5E014	H01R   4/62	41	異なる材質の導体間の接続；アルミニウム導体もしくは鋼心アルミニウム導体との接続またはアルミニウム導体もしくは鋼芯アルミニウム導体間の接続（Ｈ０１Ｒ４／６８が優先）［２００６．０１］	Connections between conductors of different materials; Connections between or with aluminium or steel-core aluminium conductors (H01R4/68 takes precedence) [3]
+H01R   4/62  A	2	0	5E014	H01R   4/62	1186	異なる材質の導体間の接続	Connecting between conductors of different materials
+H01R   4/62  B	2	0	5E014	H01R   4/62	224	ＡＣＳＲの接続	Connecting ACSR
+H01R   4/62  Z	2	0	5E014	H01R   4/62	24	その他	Others
+H01R   4/64  \	2	2	5E014	H01R   4/64	41	本質的に非電気的機能をもつ導電部分，例．フレーム，ケーシングまたはレール，との接続または本質的に非電気的機能をもつ導電部分間の接続［２００６．０１］	Connections between or with conductive parts having primarily a non-electric function, e.g. frame, casing, rail [3]
+H01R   4/64  A	2	0	5E014	H01R   4/64	3063	導電部材への接地	Grounding to conductive members
+H01R   4/64  B	2	1	5E014	H01R   4/64	229	家電の接地	Grounding to home electric appliances
+H01R   4/64  C	2	1	5E014	H01R   4/64	562	自動車の接地	Ground to automobiles
+H01R   4/64  D	2	1	5E014	H01R   4/64	26	鉄道の接地	Grounding of railways
+H01R   4/64  E	2	1	5E014	H01R   4/64	34	人体の接地	Grounding of human bodies
+H01R   4/64  F	2	0	5E014	H01R   4/64	310	管状体に対する接地接続	Grounding connections to tubular bodies
+H01R   4/64  G	2	0	5E014	H01R   4/64	321	レールの導電接続，例．レールボンド	Conductive connections for rails, e.g. rail bonding
+H01R   4/64  Z	2	0	5E014	H01R   4/64	188	その他	Others
+H01R   4/66  \	2	2	5E014	H01R   4/66	27	大地との接続，例．接地板，接地ピン［２００６．０１］	Connections with the terrestrial mass, e.g. earth plate, earth pin [3]
+H01R   4/66  A	2	0	5E014	H01R   4/66	586	接地棒（Ｅ０４Ｈ１２／００　Ｃを参照）	Grounding rods (cf. E04H12/00 C)
+H01R   4/66  B	2	1	5E014	H01R   4/66	73	連接式接地棒	Continuous-contact type grounding rods
+H01R   4/66  C	2	0	5E014	H01R   4/66	469	ブロック状の接地体，接地線または接地板	Grounding blocks, grounding cables or plates
+H01R   4/66  D	2	0	5E014	H01R   4/66	24	電触防止	Preventing electrolytic corrosion
+H01R   4/66  E	2	0	5E014	H01R   4/66	83	接地検査器；確認装置	Grounding testers or checking arrangements
+H01R   4/66  F	2	0	5E014	H01R   4/66	56	ガス絶縁開閉装置の接地	Grounding gas insulation switches
+H01R   4/66  G	2	0	5E014	H01R   4/66	15	接地樋	Grounding gutters
+H01R   4/66  Z	2	0	5E014	H01R   4/66	246	その他	Others
+H01R   4/68  \	2	2	5E014	H01R   4/68	897	超電導体へのまたは間の接続［２００６．０１］	Connections to or between superconductive conductors [3]
+H01R   4/70  \	1	1	5E014	H01R   4/70	11	接続の絶縁（端末キャップＨ０１Ｒ４／２２）［２００６．０１］	Insulation of connections (end caps H01R 4/22) [3]
+H01R   4/70  B	1	0	5E014	H01R   4/70	1423	接続部にカバーを使用するもの	using covers at connections
+H01R   4/70  D	1	0	5E014	H01R   4/70	466	分岐接続部の絶縁	insulating branch connections
+H01R   4/70  E	1	0	5E014	H01R   4/70	79	耐火電線の接続部の絶縁	insulation connections at fireproof cables
+H01R   4/70  F	1	0	5E014	H01R   4/70	524	接続部にスリーブまたはチューブを使用するもの	using sleeves or tubes at connections
+H01R   4/70  G	1	1	5E014	H01R   4/70	183	スリーブ内に充填部材層をもつもの	with filled member layer in sleeve
+H01R   4/70  H	1	1	5E014	H01R   4/70	57	スリーブ端に圧縮部材をもつもの	with compression member at sleeve end
+H01R   4/70  J	1	0	5E014	H01R   4/70	189	接続部にシートを使用するもの	using sheets at insulations
+H01R   4/70  K	1	0	5E014	H01R   4/70	623	絶縁部がコンパウンドモールド層のもの	insulations made of compound moulding
+H01R   4/70  L	1	0	5E014	H01R   4/70	157	絶縁部がテープ巻回層のもの	insulation made of wound tapes
+H01R   4/70  M	1	1	5E014	H01R   4/70	9	テープがシリコーン系ゴムのもの	silicon rubber tapes
+H01R   4/70  N	1	1	5E014	H01R   4/70	78	テープがポリオレフィン系ゴムのもの	polyolefin rubber tapes
+H01R   4/70  Z	1	0	5E014	H01R   4/70	757	その他	Others
+H01R   4/72  \	2	2	5E014	H01R   4/72	749	熱収縮絶縁スリーブを用いるもの［２００６．０１］	using a heat shrinking insulating sleeve [4]
+H01R   9/00  \	0	0	5E086	H01R   9/00	4	相互絶縁されている多数の電気接続部材（例，端子片，端子ブロック）の構造的な集合体；基台上またはケース内に取り付けられた端子または締め付け端子柱；そのための基台［２００６．０１］	Structural associations of a plurality of mutually-insulated electrical connecting elements, e.g. terminal strips, terminal blocks; Terminals or binding posts mounted upon a base or in a case; Bases therefor (details of direct connections or connections using contact members penetrating insulation H01R 4/00; specially adapted for printed circuits, flat or ribbon cables, or like generally planar structures H01R 12/00; coupling devices H01R 12/70, H01R 24/00-H01R 33/00; flexible or turnable line connectors H01R 35/00) [3]
+H01R   9/00  A	0	0	5E086	H01R   9/00	773	端子台の取付	Mounting terminal plates
+H01R   9/00  B	0	0	5E086	H01R   9/00	899	端子台カバー	Terminal plate covers
+H01R   9/00  C	0	0	5E086	H01R   9/00	281	表示板〔カバー兼用を含む〕	Indicating panel (including panel covers)
+H01R   9/00  D	0	0	5E086	H01R   9/00	172	整線装置付端子台	Terminal plates with cable aligning arrangement
+H01R   9/00  E	0	0	5E086	H01R   9/00	91	回転機構を有する端子台	Terminal plates with rotary mechanisms
+H01R   9/00  Z	0	0	5E086	H01R   9/00	1544	その他のもの	Others
+H01R   9/03  \	1	1	5E077	H01R   9/03	17	多導体ケーブルの多数の導体と接続する接続器［２００６．０１］	Connectors arranged to contact a plurality of the conductors of a multiconductor cable [3]
+H01R   9/03  A	1	0	5E077	H01R   9/03	361	多数のバスバーの接続	Connecting multiple bus bars
+H01R   9/03  Z	1	0	5E077	H01R   9/03	658	その他	Others
+H01R   9/05  \	2	2	5E077	H01R   9/05	31	同軸ケーブルに対するもの［２００６．０１］	for coaxial cables [3]
+H01R   9/05  A	2	0	5E077	H01R   9/05	432	テレビ用	for TV sets
+H01R   9/05  B	2	0	5E077	H01R   9/05	623	印刷回路基板への接続	Connecting to printed circuit boards
+H01R   9/05  Z	2	0	5E077	H01R   9/05	1284	その他	Others
+H01R   9/053  \	3	3	5E077	H01R   9/053	217	絶縁体を突き刺す接触子を用いるもの［２００６．０１］	using contact members penetrating insulation [7]
+H01R   9/11  \	1	1	5E077	H01R   9/11	95	ケーブルにより支持されかつ他の導電部材への接続を容易にするための多導体ケーブルの端子片［２００６．０１］	End pieces for multiconductor cables supported by the cable and for facilitating connections to other conductive members [3]
+H01R   9/15  \	1	1	5E086	H01R   9/15	56	電線巻付のための接続器［２００６．０１］	Connectors for wire wrapping [3]
+H01R   9/16  \	1	1	5E086	H01R   9/16	1324	基台またはケースへの接続部品の固着；基台またはケースとの接続部品の絶縁［２００６．０１］	Fastening of connecting parts to base or case; Insulating connecting parts from base or case (lead-through insulators H01B 17/26) [3]
+H01R   9/16 101 \	2	2	5E086	H01R   9/16	1564	密封による固着〔気密端子の製造４３／２０Ｚ半導体用Ｈ０１Ｌ２３／００〕	Fastening by sealing (manufacture of airtight terminals 43/20 Z, for semiconductors H 01 L 23/00)
+H01R   9/16 102 \	2	2	5E086	H01R   9/16	749	圧入による固着	Fastening by fitting
+H01R   9/16 103 \	2	2	5E086	H01R   9/16	226	かしめまたはひねりによる固着	Fastening by crimping or twisting
+H01R   9/18  \	2	2	5E086	H01R   9/18	449	ねじまたはナットによる固着［２００６．０１］	Fastening by means of screw or nut [3]
+H01R   9/20  \	2	2	5E086	H01R   9/20	132	リベットまたははとめによる固着［２００６．０１］	Fastening by means of rivet or eyelet [3]
+H01R   9/22  \	1	1	5E086	H01R   9/22	3307	基台（例，片，ブロック，パネル）［２００６．０１］	Bases, e.g. strip, block, panel [3]
+H01R   9/24  \	2	2	5E086	H01R   9/24	682	端子ブロック［２００６．０１］	Terminal blocks [3]
+H01R   9/26  \	3	3	5E086	H01R   9/26	415	並行してレールまたは片に取り付けるためのクリップ型端子ブロック［２００６．０１］	Clip-on terminal blocks for side-by-side rail or strip-mounting [3]
+H01R   9/28  \	2	2	5E086	H01R   9/28	484	端子板［２００６．０１］	Terminal boards [3]
+H01R  11/00  \	0	0	5E018	H01R  11/00	294	互いに接続される導電部材用の，間隔をあけた２つ以上の接続箇所を有する個々の接続部材，例．電線またはケーブルによって支持され，かつ，他の電線，端子，導電部材への電気接続を容易にするための手段を備えた，電線またはケーブルのための端子片，締付け端子柱ブロック［２００６．０１］	Individual connecting elements providing two or more spaced connecting locations for conductive members which are, or may be, thereby interconnected, e.g. end pieces for wires or cables supported by the wire or cable and having means for facilitating electrical connection to some other wire, terminal, or conductive member, blocks of binding posts (connections between members in direct contact H01R 4/00; structural associations of a plurality of mutually-insulated electrical connecting elements H01R 9/00; coupling devices H01R 12/70, H01R 24/00-H01R 29/00, H01R 33/00; flexible or turnable line connectors H01R 35/00) [3]
+H01R  11/01  \	1	1	5E018	H01R  11/01	15	接続位置間の導電相互接続の形状または配列に特徴があるもの［２００６．０１］	characterised by the form or arrangement of the conductive interconnection between their connecting locations [3]
+H01R  11/01  B	1	0	5E018	H01R  11/01	1160	短絡部材・橋絡部材（例，ジャンパー線）〔ｃｆ，Ｈ０５Ｋ１／１１Ａ，チップ部品〕	Shorting or bridging members, e.g. jumper cables (cf. H 05 K 1/11 A, chip parts)
+H01R  11/01  P	1	1	5E018	H01R  11/01	196	帯状板からなるもの	made of strip panels
+H01R  11/01  Q	1	2	5E018	H01R  11/01	413	帯の両端に接続片をもつもの	with connecting pieces at both ends of a strip
+H01R  11/01  R	1	2	5E018	H01R  11/01	217	帯の側面に並列に複数の接続片をもつもの	with multiple connecting pieces arranged along side surface of strip
+H01R  11/01  S	1	2	5E018	H01R  11/01	161	帯の中間部分が絶縁被覆されたもの	with intermediary portion of a strip insulated and coated
+H01R  11/01  T	1	1	5E018	H01R  11/01	219	線または棒からなるもの	made of lines or rods
+H01R  11/01  U	1	2	5E018	H01R  11/01	179	線の両端に接続片をもつもの	with connecting pieces at both ends of a strip
+H01R  11/01  V	1	2	5E018	H01R  11/01	135	線の中間部分が絶縁被覆されたもの	lines with insulation coated intermediary portions
+H01R  11/01  W	1	3	5E018	H01R  11/01	270	並列した複数の線をもつもの	with multiple lines arranged in parallel
+H01R  11/01  C	1	0	5E018	H01R  11/01	342	ピンボードまたはパッチボード等マトリックス	Matrixes such as pin or patch boards
+H01R  11/01  Z	1	0	5E018	H01R  11/01	218	その他	Others
+H01R  11/01 501 \	2	2	5E018	H01R  11/01	7	導電エラストマー部材（Ｈ１２．４新設）	Conductive elastomer member (New, Apr. 2000)
+H01R  11/01 501 A	2	0	5E018	H01R  11/01	854	絶縁体または導電体の材質に特徴のあるもの（Ｈ１２．４新設）	Characterized by material of insulator or electric conductor (New, Apr. 2000)
+H01R  11/01 501 B	2	0	5E018	H01R  11/01	578	導体層と絶縁層との交互積層体（Ｈ１２．４新設）	Alternate layered product of conductor layer and insulating layer (New, Apr. 2000)
+H01R  11/01 501 C	2	0	5E018	H01R  11/01	2381	導電粒子を絶縁体中に配合したもの（Ｈ１２．４新設）	Compounding conductive particle in insulating body (New, Apr. 2000)
+H01R  11/01 501 D	2	1	5E018	H01R  11/01	268	導電粒子に絶縁被覆を施したもの（Ｈ１２．４新設）	Provided with insulating coating to conductive particle (New, Apr. 2000)
+H01R  11/01 501 E	2	1	5E018	H01R  11/01	975	絶縁粒子に導電被覆を施したもの（Ｈ１２．４新設）	Provided with conductive coating to conductive particle (New, Apr. 2000)
+H01R  11/01 501 F	2	1	5E018	H01R  11/01	233	導電粒子が絶縁体中を移動せず常に一列に配列されたもの（Ｈ１２．４新設）	Conductive particle being arranged in one row to always move in insulators (New, Apr. 2000)
+H01R  11/01 501 G	2	0	5E018	H01R  11/01	1030	棒状導体を絶縁体に貫通配置させたもの（Ｈ１２．４新設）	Arranging rod type conductors through insulators (New, Apr. 2000)
+H01R  11/01 501 H	2	1	5E018	H01R  11/01	166	絶縁体中の孔にメッキ・蒸着により導電体を形成したもの（Ｈ１２．４新設）	Forming conductor by coating and deposition of hole in the insulator (New, Apr. 2000)
+H01R  11/01 501 J	2	0	5E018	H01R  11/01	108	ばね状導体を絶縁体に貫通配置させたもの（Ｈ１２．４新設）	Arranging spring type conductor through insulators (New, Apr. 2000)
+H01R  11/01 501 K	2	0	5E018	H01R  11/01	99	織物状のもの（Ｈ１２．４新設）	In fabric form (New, Apr. 2000)
+H01R  11/01 501 Z	2	0	5E018	H01R  11/01	484	その他（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01R  11/03  \	1	1	5E018	H01R  11/03	7	個々の部材の接続位置の種類，または接続位置と導電部材の間の接続の種類に特徴があるもの（Ｈ０１Ｒ１１／１１が優先）［２００６．０１］	characterised by the type of the connecting locations on the individual element or by the type of the connections between the connecting locations and the conductive members (H01R 11/11 takes precedence) [3]
+H01R  11/05  \	2	2	5E018	H01R  11/05	4	接続位置が異なる型の直接接続を有するもの［２００６．０１］	the connecting locations having different types of direct connections [3]
+H01R  11/07  \	2	2	5E018	H01R  11/07	0	接続位置が同一の型で異なる大きさであるもの［２００６．０１］	the connecting locations being of the same type but different sizes [3]
+H01R  11/09  \	2	2	5E018	H01R  11/09	2	接続位置が同一であるもの［２００６．０１］	the connecting locations being identical [3]
+H01R  11/11  \	1	1	5E018	H01R  11/11	620	電線またはケーブルで支持され，かつ，他の電線，端子，導電部材への電気接続を容易にするための手段を備えた，電線またはケーブルのための端子片または接続片（Ｈ０１Ｒ１１／０１が優先）［２００６．０１］	End pieces or tapping pieces for wires or cables, supported by the wire or cable and having means for facilitating electrical connection to some other wire, terminal, or conductive member (H01R 11/01 takes precedence) [3]
+H01R  11/11  D	1	0	5E018	H01R  11/11	423	先端が平板形状のもの	with flat end pieces
+H01R  11/11  E	1	1	5E018	H01R  11/11	118	平板部に係止突起が形成されたもの	connecting protrusion formed on flat panel
+H01R  11/11  F	1	1	5E018	H01R  11/11	68	複数個所のリード線接続部をもつもの	with multiple lead wire connections
+H01R  11/11  G	1	0	5E018	H01R  11/11	357	先端が雌形弾性ソケット形状のもの	with female resilient socket end pieces
+H01R  11/11  H	1	0	5E018	H01R  11/11	322	先端が棒，筒体等雄形のもの	with male end pieces such as bar or cylinder
+H01R  11/11  J	1	0	5E018	H01R  11/11	115	電線導体自身を端子形状に成形したもの	Cable conductors per se formed in terminal shape
+H01R  11/11  Z	1	0	5E018	H01R  11/11	163	その他	Others
+H01R  11/12  \	2	2	5E018	H01R  11/12	16	先端が環形，フック形またはフォーク形になっている端子片［２００６．０１］	End pieces terminating in an eye, hook, or fork [3]
+H01R  11/12  D	2	0	5E018	H01R  11/12	719	先端が環形のもの	Eye end pieces
+H01R  11/12  E	2	1	5E018	H01R  11/12	312	環形部に係止突起が形成されたもの	with connecting protrusion formed on eye
+H01R  11/12  F	2	1	5E018	H01R  11/12	306	環形部が変形されたもの	Deformed eye
+H01R  11/12  G	2	0	5E018	H01R  11/12	128	先端がフォーク形のもの	Fork end pieces
+H01R  11/12  H	2	1	5E018	H01R  11/12	63	フォーク形部に係止突起が形成されたもの	with connecting protrusion formed on fork
+H01R  11/12  J	2	1	5E018	H01R  11/12	81	フォーク形部が変形されたもの	Deformed fork
+H01R  11/12  K	2	0	5E018	H01R  11/12	62	先端がフック形のもの	Hook end pieces
+H01R  11/12  Z	2	0	5E018	H01R  11/12	167	その他	Others
+H01R  11/14  \	3	3	5E018	H01R  11/14	232	架空または他の懸垂線に引掛けられるフック，例．活線クランプ［２００６．０１］	the hook being adapted for hanging on overhead or other suspended lines, e.g. hot line clamp [3]
+H01R  11/15  \	4	4	5E018	H01R  11/15	52	ねじクランプの形のフック［２００６．０１］	Hook in the form of a screw clamp [3]
+H01R  11/16  \	2	2	5E018	H01R  11/16	42	先端がはんだ付チップまたはソケットになっている端子片［２００６．０１］	End pieces terminating in a soldering tip or socket [3]
+H01R  11/18  \	2	2	5E018	H01R  11/18	71	先端が探針になっている端子片［２００６．０１］	End pieces terminating in a probe [3]
+H01R  11/20  \	2	2	5E018	H01R  11/20	96	先端が絶縁体またはケーブル撚線をつきさす針状または類似の接触子となっている端子片［２００６．０１］	End pieces terminating in a needle point or analogous contact for penetrating insulation or cable strands [3]
+H01R  11/22  \	2	2	5E018	H01R  11/22	9	先端がスプリングクリップになっている端子片［２００６．０１］	End pieces terminating in a spring clip [3]
+H01R  11/22  A	2	0	5E018	H01R  11/22	266	スプリングクリップ	Spring clips
+H01R  11/22  B	2	0	5E018	H01R  11/22	261	アノードキャップ	Anode caps
+H01R  11/22  D	2	1	5E018	H01R  11/22	118	アノードスプリングの形状，構造	Shapes or structures of anode springs
+H01R  11/22  E	2	1	5E018	H01R  11/22	111	アノードスプリングと電線との接続構造	Connecting structures between anode spring and cable
+H01R  11/22  F	2	1	5E018	H01R  11/22	150	アノードキャップの形状，構造	Shapes or structures of anode caps
+H01R  11/22  G	2	1	5E018	H01R  11/22	33	Ｘ線の防漏，吸収装置をもつもの	with arrangements for preventing or absorbing X-ray leakage
+H01R  11/22  Z	2	0	5E018	H01R  11/22	16	その他	Others
+H01R  11/24  \	3	3	5E018	H01R  11/24	421	把持顎をもつもの，例．わにぐちクリップ［２００６．０１］	with gripping jaws, e.g. crocodile clip [3]
+H01R  11/26  \	2	2	5E018	H01R  11/26	94	先端がねじクランプ，ねじまたはナットになっている端子片［２００６．０１］	End pieces terminating in a screw clamp, screw or nut [3]
+H01R  11/28  \	2	2	5E018	H01R  11/28	63	口輪またはスリーブからなる端子片［２００６．０１］	End pieces consisting of a ferrule or sleeve [3]
+H01R  11/30  \	2	2	5E018	H01R  11/30	80	磁石により接触が保たれる端子片［２００６．０１］	End pieces held in contact by a magnet [3]
+H01R  11/32  \	2	2	5E018	H01R  11/32	185	２個またはそれ以上の端末をもつ端子片［２００６．０１］	End pieces with two or more terminations [3]
+H01R  12/00  \	0	0	5E223	H01R  12/00	17502	印刷回路，例．印刷回路基板［ＰＣＢ］，フラットケーブルもしくはリボンケーブル，または通常は平面構造になっている類似のもの，例．端子片，端子ブロック，に特に適した，複数の相互絶縁された電気接続部材の構造的な集合体；印刷回路，フラットケーブルもしくはリボンケーブル，または通常は平面構造になっている類似のものに特に適した嵌合装置；印刷回路，フラットケーブルもしくはリボンケーブル，または通常は平面構造になっている類似のものとの接触，またはそれらへの挿入に特に適した端子（印刷回路への，または印刷回路間の印刷接続Ｈ０５Ｋ１／１１）［２００６．０１］	Structural associations of a plurality of mutuallyinsulated electrical connecting elements, specially adapted for printed circuits, e.g. printed circuit boards [PCB], flat or ribbon cables, or like generally planar structures, e.g. terminal strips, terminal blocks; Coupling devices specially adapted for printed circuits, flat or ribbon cables, or like generally planar structures; Terminals specially adapted for contact with, or insertion into, printed circuits, flat or ribbon cables, or like generally planar structures (printed connections to, or between, printed circuits H05K 1/11) [7, 2006.01]
+H01R  12/50  \	1	1	5E223	H01R  12/50	1138	固定接続［２０１１．０１］	Fixed connections [2011.01]
+H01R  12/51  \	2	2	5E223	H01R  12/51	1232	剛性の印刷回路または類似の構造物のためのもの［２０１１．０１］	for rigid printed circuits or like structures [2011.01]
+H01R  12/52  \	3	3	5E223	H01R  12/52	1727	他の剛性の印刷回路または類似の構造物への接続［２０１１．０１］	connecting to other rigid printed circuits or like structures [2011.01]
+H01R  12/53  \	3	3	5E223	H01R  12/53	1563	フラットケーブルまたはリボンケーブルを除くケーブルへの接続［２０１１．０１］	connecting to cables except for flat or ribbon cables [2011.01]
+H01R  12/55  \	3	3	5E223	H01R  12/55	1829	端子に特徴があるもの［２０１１．０１］	characterised by the terminals [2011.01]
+H01R  12/57  \	4	4	5E223	H01R  12/57	1309	表面実装端子［２０１１．０１］	surface mounting terminals [2011.01]
+H01R  12/58  \	4	4	5E223	H01R  12/58	4075	穴へ挿入するための端子［２０１１．０１］	terminals for insertion into holes [2011.01]
+H01R  12/59  \	2	2	5E223	H01R  12/59	533	可撓性の印刷回路，フラットケーブルもしくはリボンケーブルまたは類似の構造物のためのもの［２０１１．０１］	for flexible printed circuits, flat or ribbon cables or like structures [2011.01]
+H01R  12/61  \	3	3	5E223	H01R  12/61	707	可撓性の印刷回路，フラットケーブルもしくはリボンケーブルまたは類似の構造物への接続［２０１１．０１］	connecting to flexible printed circuits, flat or ribbon cables or like structures [2011.01]
+H01R  12/62  \	3	3	5E223	H01R  12/62	1935	剛性の印刷回路または類似の構造物への接続［２０１１．０１］	connecting to rigid printed circuits or like structures [2011.01]
+H01R  12/63  \	3	3	5E223	H01R  12/63	305	他の形状のケーブルへの接続［２０１１．０１］	connecting to another shape cable [2011.01]
+H01R  12/65  \	3	3	5E223	H01R  12/65	730	端子に特徴があるもの［２０１１．０１］	characterised by the terminal [2011.01]
+H01R  12/67  \	4	4	5E223	H01R  12/67	335	絶縁体を貫通する端子［２０１１．０１］	insulation penetrating terminals [2011.01]
+H01R  12/68  \	5	5	5E223	H01R  12/68	184	変形可能な部分を含むもの［２０１１．０１］	comprising deformable portions [2011.01]
+H01R  12/69  \	4	4	5E223	H01R  12/69	169	変形可能な端子，例．圧着端子［２０１１．０１］	deformable terminals e.g. crimping terminals [2011.01]
+H01R  12/70  \	1	1	5E223	H01R  12/70	867	嵌合装置［２０１１．０１］	Coupling devices [2011.01]
+H01R  12/71  \	2	2	5E223	H01R  12/71	11727	剛性の印刷回路または類似の構造物のためのもの［２０１１．０１］	for rigid printing circuits or like structures [2011.01]
+H01R  12/72  \	3	3	5E223	H01R  12/72	5362	剛性の印刷回路または類似の構造物の端部との結合［２０１１．０１］	coupling with the edge of the rigid printed circuits or like structures [2011.01]
+H01R  12/73  \	4	4	5E223	H01R  12/73	3220	他の剛性の印刷回路または類似の構造物への接続［２０１１．０１］	connecting to other rigid printed circuits or like structures [2011.01]
+H01R  12/75  \	3	3	5E223	H01R  12/75	1809	フラットケーブルまたはリボンケーブルを除くケーブルへの接続［２０１１．０１］	connecting to cables except for flat or ribbon cables [2011.01]
+H01R  12/77  \	2	2	5E223	H01R  12/77	2127	可撓性の印刷回路，フラットケーブルもしくはリボンケーブルまたは類似の構造物のためのもの［２０１１．０１］	for flexible printed circuits, flat or ribbon cables or like structures [2011.01]
+H01R  12/78  \	3	3	5E223	H01R  12/78	420	他の可撓性のある印刷回路，フラットケーブルもしくはリボンケーブルまたは類似の構造物への接続［２０１１．０１］	connecting to other flexible printed circuits, flat or ribbon cables or like structures [2011.01]
+H01R  12/79  \	3	3	5E223	H01R  12/79	3436	剛性の印刷回路または類似の構造物への接続　［２０１１．０１］	connecting to rigid printed circuits or like structures [2011.01]
+H01R  12/81  \	3	3	5E223	H01R  12/81	387	フラットケーブルまたはリボンケーブルを除く他のケーブルへの接続［２０１１．０１］	connecting to another cable except for flat or ribbon cable [2011.01]
+H01R  12/82  \	2	2	5E223	H01R  12/82	49	低挿入力またはゼロ挿入力により接続したもの［２０１１．０１］	connected with low or zero insertion force [2011.01]
+H01R  12/83  \	3	3	5E223	H01R  12/83	845	挿入後に印刷回路または類似の構造物の回動により接続したもの［２０１１．０１］	connected with pivoting of printed circuits or like after insertion [2011.01]
+H01R  12/85  \	3	3	5E223	H01R  12/85	1114	印刷回路または類似の構造物の挿入後に作動される端子が接触圧力を生ずる手段　［２０１１．０１］	contact pressure producing means, contacts activated after insertion of printed circuits or like structures [2011.01]
+H01R  12/87  \	4	4	5E223	H01R  12/87	349	剛性の印刷回路または類似の構造物の挿入によって自動的に作動されるもの［２０１１．０１］	acting automatically by insertion of rigid printed or like structures [2011.01]
+H01R  12/88  \	4	4	5E223	H01R  12/88	1074	コネクタのケース部分を手動で回転または回動させて作動させるもの［２０１１．０１］	acting manually by rotating or pivoting connector housing parts [2011.01]
+H01R  12/89  \	4	4	5E223	H01R  12/89	1342	コネクタのケース部分を手動で直線的に動かして作動させるもの，例．スライダ［２０１１．０１］	acting manually by moving connector housing parts linearly e.g. slider [2011.01]
+H01R  12/91  \	2	2	5E223	H01R  12/91	749	嵌合部分の間で相対的な運動を許容するもの，例．フローティングまたは自己整合［２０１１．０１］	allowing relative movement between coupling parts e.g. floating or self aligning [2011.01]
+H01R  13/00  \	0	0	5E019	H01R  13/00	365	グループＨ０１Ｒ１２／７０またはＨ０１Ｒ２４／００〜Ｈ０１Ｒ３３／００に分類される種類の嵌合装置の細部［１，７］	Details of coupling devices of the kinds covered by groups H01R 12/70&nbsp;or H01R 24/00-H01R 33/00 [1,7]
+H01R  13/02  \	1	1	5E019	H01R  13/02	586	接触部材	Contact members
+H01R  13/03  \	2	2	5E019	H01R  13/03	42	材質により特徴づけられるもの（例，メッキ材料または被覆材料）［４］	characterised by the material, e.g. plating or coating materials [4]
+H01R  13/03  A	2	0	5E019	H01R  13/03	709	母体材料に特徴あるもの	characterised by base materials
+H01R  13/03  B	2	1	5E019	H01R  13/03	108	形状記憶合金	Shape memory metals
+H01R  13/03  C	2	1	5E019	H01R  13/03	37	バイメタル	Bimetals
+H01R  13/03  D	2	0	5E019	H01R  13/03	1607	メッキもの	Plated
+H01R  13/03  E	2	0	5E019	H01R  13/03	87	容器に入れた金属粉，金属細線，液体等を，メス接触体とするもの	Female contact body being as metallic powders, fine metallic lines or liquids incontainers
+H01R  13/03  Z	2	0	5E019	H01R  13/03	306	その他のもの	Others
+H01R  13/04  \	2	2	5E019	H01R  13/04	6	ソケットと共働するピンまたは刃	Pins or blades for co-operation with sockets
+H01R  13/04  A	2	0	5E019	H01R  13/04	547	丸棒ピン・角棒ピン	Round or rectangular bar pins
+H01R  13/04  B	2	0	5E019	H01R  13/04	527	板状ピン	Sheet pins
+H01R  13/04  C	2	1	5E019	H01R  13/04	89	見かけの板厚を調整するもの	Adjusting apparent plate thickness
+H01R  13/04  D	2	1	5E019	H01R  13/04	184	差込プラグの刃	Blades of inserting plugs
+H01R  13/04  E	2	0	5E019	H01R  13/04	493	接触面の形状〔Ａ〜Ｄに優先〕	Shapes of contact surfaces (Takes precedence to A to E.)
+H01R  13/04  Z	2	0	5E019	H01R  13/04	255	その他のもの	Others
+H01R  13/05  \	3	3	5E019	H01R  13/05	10	弾性ピンまたは刃（別体の弾性部分を備えているものＨ０１Ｒ１３／１５）［３］	Resilient pins or blades (carrying separate resilient parts H01R 13/15) [3]
+H01R  13/05  A	3	0	5E019	H01R  13/05	160	折り返し弾性片を有するもの「図」	with folded resilient pieces [figure]
+H01R  13/05  B	3	0	5E019	H01R  13/05	51	バナナプラグ	Banana plugs
+H01R  13/05  Z	3	0	5E019	H01R  13/05	198	その他のもの	Others
+H01R  13/08  \	3	3	5E019	H01R  13/08	53	弾性的に取り付けられた剛性ピンまたは刃	Resiliently-mounted rigid pins or blades
+H01R  13/10  \	2	2	5E003	H01R  13/10	33	ピンまたは刃と共働するソケット	Sockets for co-operation with pins or blades
+H01R  13/10  A	2	0	5E003	H01R  13/10	236	円筒もの	cylindrical
+H01R  13/10  B	2	0	5E003	H01R  13/10	200	角形もの	rectangular
+H01R  13/10  Z	2	0	5E003	H01R  13/10	208	その他のもの	Others
+H01R  13/11  \	3	3	5E003	H01R  13/11	133	弾性ソケット（別体の弾性部分を備えているものＨ０１Ｒ１３／１５）［３］	Resilient sockets (carrying separate resilient parts H01R 13/15) [3]
+H01R  13/11  A	3	0	5E003	H01R  13/11	955	角形もの	rectangular
+H01R  13/11  B	3	0	5E003	H01R  13/11	153	スプリングコイル状のもの	spring coil-like
+H01R  13/11  C	3	0	5E003	H01R  13/11	348	１つの接触片のみでできているもの「図」	made of one contact piece [figure]
+H01R  13/11  D	3	0	5E003	H01R  13/11	324	フォーク状のもの「図」	Fork-like [figure]
+H01R  13/11  E	3	0	5E003	H01R  13/11	50	断面が開放三角形のもの「図」	Cross section with open triangle [figure]
+H01R  13/11  F	3	0	5E003	H01R  13/11	34	垂直平板間にオスを挿入するもの	Inserting male connectors between vertical plates
+H01R  13/11  G	3	0	5E003	H01R  13/11	66	球状のオスを受けるもの「図」	receiving spherical male connectors [figure]
+H01R  13/11  H	3	0	5E003	H01R  13/11	159	オスを直角方向から挿入するもの	Inserting male connectors perpendicularly
+H01R  13/11  J	3	0	5E003	H01R  13/11	46	接続電線と平行にずれてオスを挿入するもの「図」	Inserting male connectors by being shifted in parallel to connecting cables [figure]
+H01R  13/11  K	3	0	5E003	H01R  13/11	583	接触部表面の形状・材質	Shapes or materials of contact surfaces
+H01R  13/11  Z	3	0	5E003	H01R  13/11	190	その他のもの	Others
+H01R  13/11 301 \	4	4	5E003	H01R  13/11	5	円筒もの	cylindrical
+H01R  13/11 301 A	4	0	5E003	H01R  13/11	167	スリットが１つのもの	one slit
+H01R  13/11 301 B	4	1	5E003	H01R  13/11	41	スリットの両側を係合するもの	connecting both ends of slit
+H01R  13/11 301 C	4	0	5E003	H01R  13/11	120	スリットが２つのもの	two slits
+H01R  13/11 301 D	4	0	5E003	H01R  13/11	289	スリットが３つ以上のもの	three or more slits
+H01R  13/11 301 Z	4	0	5E003	H01R  13/11	116	その他のもの	Others
+H01R  13/11 302 \	4	4	5E003	H01R  13/11	3	平行刃受片もの	parallel blade receptacle pieces
+H01R  13/11 302 A	4	0	5E003	H01R  13/11	661	片が同一方向から延びてきているもの「図」	pieces extended from same direction [figure]
+H01R  13/11 302 B	4	1	5E003	H01R  13/11	176	コンセント用	for taps
+H01R  13/11 302 C	4	2	5E003	H01R  13/11	46	複数個の刃受部を有するテーブルタップ用	for table taps with multiple blade receptacle pieces
+H01R  13/11 302 D	4	0	5E003	H01R  13/11	51	片が逆方向から延びてきているもの「図」	pieces extended from opposite direction [figure]
+H01R  13/11 302 E	4	0	5E003	H01R  13/11	134	両片が１枚の片を折曲げてできているもの「図」	both strips made of one folded piece [figure]
+H01R  13/11 302 F	4	0	5E003	H01R  13/11	155	両片に垂直な側板があるもの「図」	with vertical side plates on both pieces [figure]
+H01R  13/11 302 G	4	0	5E003	H01R  13/11	73	刃受片の奥でオスと接触するもの「図」	contacting with male at end blade receptacle pieces
+H01R  13/11 302 H	4	0	5E003	H01R  13/11	19	特殊平行刃受片	Special parallel blade receptacle pieces
+H01R  13/11 302 J	4	1	5E003	H01R  13/11	2	刃受片が磁化されているもの	Magnetised blade receptacle pieces
+H01R  13/11 302 K	4	1	5E003	H01R  13/11	9	刃受片がバイメタル構造のもの	Bimetal blade receptacle pieces
+H01R  13/11 302 L	4	1	5E003	H01R  13/11	6	反転力を利用してオスをはさむもの	Gripping males by snapping force
+H01R  13/11 302 M	4	1	5E003	H01R  13/11	108	入口に枠状のものをもつもの	with frame at entrance
+H01R  13/11 302 N	4	1	5E003	H01R  13/11	143	挿入方向に於て２対以上の箇所で接するもの	one or both are multiple or with slit
+H01R  13/11 302 P	4	1	5E003	H01R  13/11	118	一方又は双方が複数のものまたはスリット入りのもの	contacting at two or more places along inserting direction
+H01R  13/11 302 Z	4	0	5E003	H01R  13/11	46	その他のもの	Others
+H01R  13/11 303 \	4	4	5E003	H01R  13/11	0	わん曲側壁を有するもの	with bent walls
+H01R  13/11 303 A	4	0	5E003	H01R  13/11	68	一方の側壁がわん曲しているもの「図」	with one walls bent
+H01R  13/11 303 B	4	0	5E003	H01R  13/11	275	双方の側壁がわん曲しているもの「図」	with both walls bent
+H01R  13/11 303 C	4	1	5E003	H01R  13/11	41	側壁に切欠があるもの	with a notch on side wall
+H01R  13/11 303 D	4	0	5E003	H01R  13/11	40	わん曲側壁の端部より押圧平板部が延びるもの「図」	Pressing plate extending from bent side wall end [figure]
+H01R  13/11 303 Z	4	0	5E003	H01R  13/11	14	その他のもの	Others
+H01R  13/115  \	4	4	5E003	H01R  13/115	42	内側に曲げられた脚部を有するＵ字形状のソケット［３］	U-shaped sockets having inwardly-bent legs [3]
+H01R  13/115  A	4	0	5E003	H01R  13/115	272	内側に曲つた脚が対向しているもの「図」	bent legs internally facing each other [figure]
+H01R  13/115  B	4	0	5E003	H01R  13/115	116	双方の側壁がわん曲しているものに於けるもの「図」	with both side walls bent [figure]
+H01R  13/115  C	4	0	5E003	H01R  13/115	451	一つの脚のみでできているもの「図」	made from only one leg
+H01R  13/115  Z	4	0	5E003	H01R  13/115	96	その他のもの	Others
+H01R  13/14  \	3	3	5E003	H01R  13/14	25	弾性的に取り付けられた剛性ソケット	Resiliently-mounted rigid sockets
+H01R  13/15  \	2	2	5E019	H01R  13/15	13	接触圧力を生じまたは増大させるために別体のばね部材を有するピン，刃またはソケット［３］	Pins, blades or sockets having separate spring member for producing or increasing contact pressure [3]
+H01R  13/15  A	2	0	5E019	H01R  13/15	201	板ばねでメス接触片の背中を押すもの	pushing rear of female contact piece with leaf spring
+H01R  13/15  B	2	0	5E019	H01R  13/15	136	ばねでメス接触片の背中を押すもの	pushing rear of female contact piece with spring
+H01R  13/15  C	2	0	5E019	H01R  13/15	20	ばねで対向するメス接触片を吸引するもの「図」	attracting facing female contact piece with spring [figure]
+H01R  13/15  D	2	0	5E019	H01R  13/15	24	洗濯ばさみ型「図」	of clothes peg type [figure]
+H01R  13/15  Z	2	0	5E019	H01R  13/15	199	その他のもの	Others
+H01R  13/17  \	3	3	5E019	H01R  13/17	219	ばね部材がピンの上にあるもの［３］	the spring member being on the pin [3]
+H01R  13/18  \	3	3	5E019	H01R  13/18	4	ソケットを取り囲むばね部材をもつもの	with the spring member surrounding the socket
+H01R  13/18  A	3	0	5E019	H01R  13/18	69	首しめ型〔ソケットの入口近くをばねで締めるもの〕	Strangling type (areas nearby socket entrance fastened by spring)
+H01R  13/18  B	3	0	5E019	H01R  13/18	81	胴じめ型〔ソケットの中央部をばねで締めるもの〕	Belting types (areas nearby socket centre fastened by spring)
+H01R  13/18  Z	3	0	5E019	H01R  13/18	34	その他のもの	Others
+H01R  13/187  \	3	3	5E019	H01R  13/187	19	ばね部材がソケットの中にあるもの［３］	the spring member being in the socket [3]
+H01R  13/187  A	3	0	5E019	H01R  13/187	220	別体の板ばねが、オス刃受型対向メス接触片の一方として用いられているもの	separate leaf spring used as one of female contact pieces facing male blade receptacle piece
+H01R  13/187  B	3	0	5E019	H01R  13/187	293	オス・メス嵌合時に、両接触子間にばね材が介在するもの	spring material involved between both contacts when male and female connectors are engaged
+H01R  13/187  Z	3	0	5E019	H01R  13/187	131	その他のもの	Others
+H01R  13/193  \	2	2	5E019	H01R  13/193	340	接続部品の接続の終了時に接触圧力を増大するための手段［３］	Means for increasing contact pressure at the end of engagement of coupling part [3]
+H01R  13/20  \	2	2	5E019	H01R  13/20	7	共働部品を一体に保持するように形成され，または別体の部材が設けられたピン，刃またはソケット	Pins, blades, or sockets shaped, or provided with separate member, to retain co-operating parts together
+H01R  13/20  A	2	0	5E019	H01R  13/20	113	差込プラグとコンセントに於けるもの	with inserting plug and tap
+H01R  13/20  B	2	1	5E019	H01R  13/20	35	コンセント側にロック外しボタンを有するもの	with unlocking button on tap
+H01R  13/20  C	2	0	5E019	H01R  13/20	54	ロックを外すのに，ハウジングの一部を撓めるもの	deflecting a portion of housing for unlocking
+H01R  13/20  D	2	0	5E019	H01R  13/20	28	金属球を用いるもの〔Ａ〜Ｃに優先〕	using metal balls (Takes precedence to A to C.)
+H01R  13/20  E	2	0	5E019	H01R  13/20	11	バイメタルを用いるもの〔Ａ〜Ｄに優先〕	using bimetals (Takes precedence to A to D.)
+H01R  13/20  Z	2	0	5E019	H01R  13/20	244	その他のもの	Others
+H01R  13/207  \	3	3	5E019	H01R  13/207	54	ねじ込み接続によるもの［３］	by screw-in connection [3]
+H01R  13/213  \	3	3	5E019	H01R  13/213	82	バヨネット接続によるもの［３］	by bayonet connection [3]
+H01R  13/22  \	2	2	5E019	H01R  13/22	13	接合接触により共働するための接触子	Contacts for co-operating by abutting
+H01R  13/22  A	2	0	5E019	H01R  13/22	146	ピンとピンを突き合すもの	butting pin to pin
+H01R  13/22  B	2	0	5E019	H01R  13/22	79	接触子間に導電体を介在するもの「図」	involving conductors between contacts
+H01R  13/22  C	2	0	5E019	H01R  13/22	89	磁石を利用したもの〔Ａ，Ｂに優先〕	using magnets (Takes precedence to A or B.)
+H01R  13/22  Z	2	0	5E019	H01R  13/22	282	その他のもの	Others
+H01R  13/24  \	3	3	5E019	H01R  13/24	2297	弾性的なもの；弾性的に取り付けられたもの	resilient; resiliently mounted
+H01R  13/26  \	2	2	5E019	H01R  13/26	84	１側面においてのみ摺動的に共働するピンまたは刃形接触子	Pin or blade contacts for sliding co-operation on one side only
+H01R  13/28  \	2	2	5E019	H01R  13/28	336	同一形状の接触子と摺動的に共働する接触子（例，雌雄同体の接続装置のためのもの）	Contacts for sliding co-operation with identically-shaped contact, e.g. for hermaphroditic coupling devices
+H01R  13/33  \	2	2	5E019	H01R  13/33	833	弾性線で作られた接触部材［３］	Contact members made of resilient wire [3]
+H01R  13/35  \	2	2	5E019	H01R  13/35	80	異なる型の接触部材と非同時に共働するためのもの（例，丸ピンとも平ピンとも共働するソケット）［３］	for non-simultaneous co-operation with different types of contact member, e.g. socket co-operating with either round or flat pin [3]
+H01R  13/40  \	1	1	5E087	H01R  13/40	9	接触部材の基台，ケース内でのまたは基台，ケースへの固着；接触部材の絶縁	Securing contact members in or to a base or case; Insulating of contact members
+H01R  13/40  A	1	0	5E087	H01R  13/40	546	オス接触子に対するもの	for male contacts
+H01R  13/40  B	1	0	5E087	H01R  13/40	657	メス接触子に対するもの	for female contacts
+H01R  13/40  Z	1	0	5E087	H01R  13/40	560	その他のもの	Others
+H01R  13/405  \	2	2	5E087	H01R  13/405	910	取り出しできない固着（例，モールド，リベット）［３］	Securing in non-demountable manner, e.g. moulding, riveting [3]
+H01R  13/41  \	3	3	5E087	H01R  13/41	460	はとめ，パネルまたは基台内での摩擦把持によるもの［３］	by frictional grip in grommet, panel or base [3]
+H01R  13/415  \	3	3	5E087	H01R  13/415	44	接触部材の永久的変形によるもの［３］	by permanent deformation of contact member [3]
+H01R  13/42  \	2	2	5E087	H01R  13/42	25	取り外し可能な固着	Securing in a demountable manner
+H01R  13/42  A	2	0	5E087	H01R  13/42	180	ハウジング側に係止片を有するもの	with connection piece provided on housing
+H01R  13/42  B	2	1	5E087	H01R  13/42	1533	係止用弾性腕「図」	Resilient arm for connection [figure]
+H01R  13/42  C	2	1	5E087	H01R  13/42	102	係止用弾性腕がハウジングとは別体となっているもの「図」	Resilient arm for connection provided separately from housing [figure]
+H01R  13/42  D	2	1	5E087	H01R  13/42	272	係止突起「図」	Connection protrusion [figure]
+H01R  13/42  E	2	1	5E087	H01R  13/42	1473	押え部材またはヒンジ付き押え部材	Pushing members with or without hinge
+H01R  13/42  F	2	1	5E087	H01R  13/42	1804	多数コンタクトの同時係止	Simultaneous connection of multiple contacts
+H01R  13/42  G	2	0	5E087	H01R  13/42	283	コンタクト側に係止片を有するもの	with connection piece provided on contact
+H01R  13/42  H	2	1	5E087	H01R  13/42	705	係止舌片「図」	connection tongue [figure]
+H01R  13/42  J	2	1	5E087	H01R  13/42	59	平面に爪を立てるもの「図」	raising claw on plane [figure]
+H01R  13/42  K	2	1	5E087	H01R  13/42	86	コンタクトとは別体の弾性ロック部材（例，カラー）	resilient locking member separate from contact, e.g. collars
+H01R  13/42  L	2	1	5E087	H01R  13/42	17	ガイド部をヒレ状係止片が通過するもの「図」	finny connection piece passing through guides [figure]
+H01R  13/42  Z	2	0	5E087	H01R  13/42	360	その他のもの	Others
+H01R  13/422  \	3	3	5E087	H01R  13/422	79	弾性的な単一の基台またはケース内でのもの；弾性的な鎖錠部材を伴って形成された単一の基台またはケース［３］	in resilient one-piece base or case; One-piece base or case formed with resilient locking means [3]
+H01R  13/424  \	3	3	5E087	H01R  13/424	5	少くとも１個の弾性絶縁部分を有する多数の絶縁部分からなる基台またはケース内でのもの［３］	in base or case composed of a plurality of insulating parts having at least one resilient insulating part [3]
+H01R  13/426  \	3	3	5E087	H01R  13/426	17	基台またはケースに支持される別体の弾性保持部片によるもの（例，カラー）［３］	by separate resilient retaining piece supported by base or case, e.g. collar [3]
+H01R  13/428  \	3	3	5E087	H01R  13/428	14	接触部材上の弾性鎖錠部材によるもの；弾性接触部材上の鎖錠部材によるもの［３］	by resilient locking means on the contact members; by locking means on resilient contact members [3]
+H01R  13/432  \	4	4	5E087	H01R  13/432	52	基台またはケースの肩部にはまる型打ちされた弾性舌片によるもの［３］	by stamped-out resilient tongue snapping behind shoulder in base or case [3]
+H01R  13/434  \	4	4	5E087	H01R  13/434	12	接触部材上への別体の弾性鎖錠部材によるもの（例，保持カラーまたは接触部材の回りの環）［３］	by separate resilient locking means on contact member, e.g. retainer collar or ring around contact member [3]
+H01R  13/436  \	3	3	5E087	H01R  13/436	87	１個の鎖錠部片により多数の接触部材を固着するもの［３］	Securing a plurality of contact members by one locking piece [3]
+H01R  13/44  \	1	1	5E087	H01R  13/44	4	通電中の接触子へ近づくのを防ぐ装置	Means for preventing access to live contacts
+H01R  13/44  A	1	0	5E087	H01R  13/44	120	差込プラグのカバー	Insertion plug covers
+H01R  13/44  B	1	1	5E087	H01R  13/44	21	各刃に蛇腹状カバー「図」	Bellows covers for each blade [figure]
+H01R  13/44  C	1	1	5E087	H01R  13/44	70	全体に蛇腹状カバー「図」	Bellows cover for whole plug
+H01R  13/44  D	1	1	5E087	H01R  13/44	20	ばね付き板「図」	Plate with spring [figure]
+H01R  13/44  E	1	1	5E087	H01R  13/44	39	各刃にばね付きさや「図」	Sheath with spring for each blade [figure]
+H01R  13/44  F	1	1	5E087	H01R  13/44	75	全体にばね付きさや「図」	Sheath with spring for whole plug [figure]
+H01R  13/44  G	1	0	5E087	H01R  13/44	88	メスコンタクトにカバー	Cover on female contact
+H01R  13/44  H	1	1	5E087	H01R  13/44	32	ばね付き前後進カバー「図」	Covers with spring moving back and forth [figure]
+H01R  13/44  J	1	1	5E087	H01R  13/44	115	押して直角方向にズラすもの「図」	Twisting perpendicularly after pushing [figure]
+H01R  13/44  K	1	1	5E087	H01R  13/44	70	押して開くもの「図」	Pushing to open [figure]
+H01R  13/44  L	1	1	5E087	H01R  13/44	703	回動させるもの「図」	Turning [figure]
+H01R  13/44  M	1	0	5E087	H01R  13/44	156	コンセントに蓋をするもの	Putting lid on tap
+H01R  13/44  N	1	0	5E087	H01R  13/44	46	刃外縁に絶縁材を施すもの	Insulating material provided at outer rims of blade
+H01R  13/44  P	1	0	5E087	H01R  13/44	150	オスコンタクトの根元に絶縁層「図」	Insulation layer at foot of male [figure]
+H01R  13/44  Q	1	0	5E087	H01R  13/44	20	磁石を利用するもの	using magnets
+H01R  13/44  R	1	0	5E087	H01R  13/44	49	オスコンタクトに押されて初めてスイッチオンするもの	Switched in for the first time by being pushed by male
+H01R  13/44  S	1	0	5E087	H01R  13/44	26	つば付きプラグ「図」	Brimmed plugs [figure]
+H01R  13/44  T	1	0	5E087	H01R  13/44	141	囲壁，凹所「図」	Surrounding walls, concave [figure]
+H01R  13/44  Z	1	0	5E087	H01R  13/44	318	その他のもの	Others
+H01R  13/443  \	2	2	5E087	H01R  13/443	45	ダミープラグ［７］	Dummy plugs [7]
+H01R  13/447  \	2	2	5E087	H01R  13/447	275	シャッターまたはカバー［３］	Shutter or cover plate [3]
+H01R  13/453  \	3	3	5E087	H01R  13/453	138	相手方部品の係合により開くシャッターまたはカバー［３］	Shutter or cover plate opened by engagement of counterpart [3]
+H01R  13/46  \	1	1	5E087	H01R  13/46	104	基台；ケース	Bases; Cases
+H01R  13/46  A	1	0	5E087	H01R  13/46	501	オス・メス両方に関係するもの	related to both male and female connectors
+H01R  13/46  B	1	0	5E087	H01R  13/46	616	多極コネクタに関するもの	related to multi-pole connectors
+H01R  13/46  C	1	1	5E087	H01R  13/46	106	円筒多極もの	of cylindrical and multiple poles
+H01R  13/46  D	1	0	5E087	H01R  13/46	520	光通信用コネクタを含むもの	including connectors for optical telecommunications
+H01R  13/46  E	1	0	5E087	H01R  13/46	273	コネクタ付属コードの収納処理具	Accommodating devices for cable with connectors
+H01R  13/46  F	1	1	5E087	H01R  13/46	71	結束具によるもの	by tying arrangements
+H01R  13/46  G	1	1	5E087	H01R  13/46	273	コードリールによるもの	by cord reels
+H01R  13/46  Z	1	0	5E087	H01R  13/46	781	その他のもの	Others
+H01R  13/46 301 \	2	2	5E087	H01R  13/46	4	オスコネクタ	Male connectors
+H01R  13/46 301 A	2	0	5E087	H01R  13/46	69	ケースが折り合せ形式になつているもの	with folded cases
+H01R  13/46 301 B	2	0	5E087	H01R  13/46	466	ハウジングの材質〔メスコネクタハウジングの材質も含む〕	housing materials (including housing materials for female connectors)
+H01R  13/46 301 C	2	1	5E087	H01R  13/46	55	透明のもの	transparent
+H01R  13/46 301 D	2	0	5E087	H01R  13/46	170	表示手段を有するもの〔Ｈ０１Ｒ１３／６４＠Ａ参照〕	with indicating means (cf. H 01 R 13/64)
+H01R  13/46 301 E	2	0	5E087	H01R  13/46	51	プラグに付属具を有するもの	with accessories provided on plug
+H01R  13/46 301 F	2	0	5E087	H01R  13/46	84	刃の保護キャップを有するもの	with blade protection cap
+H01R  13/46 301 G	2	0	5E087	H01R  13/46	151	抜け落ち防止手段を有するもの	with means for preventing disconnecting
+H01R  13/46 301 H	2	0	5E087	H01R  13/46	170	刃とコードが直角になつているもの「図」	blade and cable arranged perpendicularly [figure]
+H01R  13/46 301 J	2	0	5E087	H01R  13/46	29	断線防止手段を有するもの	with means for preventing open cables
+H01R  13/46 301 K	2	0	5E087	H01R  13/46	109	コードとの接続部に特徴あるもの「図」	characterised by connection with cable [figure]
+H01R  13/46 301 L	2	0	5E087	H01R  13/46	42	ピンプラグ用ハウジング〔Ｈ０１Ｒ２４／３８参照〕	Housings for pin plugs (cf. H 01 R 17/04 D)
+H01R  13/46 301 M	2	0	5E087	H01R  13/46	289	極間短絡防止手段を有するもの〔沿面距離を延ばすものも含む〕	with means for preventing inter polar shorting (including those for extending surface distance)
+H01R  13/46 301 N	2	0	5E087	H01R  13/46	18	アンテナ受口用のもの	for aerial receptacles
+H01R  13/46 301 P	2	0	5E087	H01R  13/46	157	電気器具に一体に付いているオス端子	male terminals integrated as a portion of electric appliances
+H01R  13/46 301 Z	2	0	5E087	H01R  13/46	264	その他のもの	Others
+H01R  13/46 302 \	3	3	5E087	H01R  13/46	2	可動部分を有するもの	with movable portions
+H01R  13/46 302 A	3	0	5E087	H01R  13/46	212	オス刃が回動できるもの「図」	Rotatable male blades [figure]
+H01R  13/46 302 B	3	0	5E087	H01R  13/46	313	オス刃の取付基体が回動するもの	Rotatable mounting base of male blades
+H01R  13/46 302 C	3	0	5E087	H01R  13/46	18	オス刃が側方に開くもの「図」	Male blades opening toward sideways
+H01R  13/46 302 D	3	0	5E087	H01R  13/46	58	オス刃が付け換えられるもの	Replaceable male blades
+H01R  13/46 302 E	3	0	5E087	H01R  13/46	31	オス刃の間隔が変更できるもの	Adjustable male blade pitch
+H01R  13/46 302 F	3	0	5E087	H01R  13/46	159	オス刃が出入するもの「図」	Male blades coming in and out [figure]
+H01R  13/46 302 G	3	1	5E087	H01R  13/46	33	つまみ自身の弾性でロックするもの	Locked by resilience of knob per se
+H01R  13/46 302 H	3	1	5E087	H01R  13/46	26	ばねで出入するもの	Coming in and out by spring
+H01R  13/46 302 J	3	1	5E087	H01R  13/46	13	ガイド板を有するもの	with guide plate
+H01R  13/46 302 K	3	1	5E087	H01R  13/46	11	つまみを回動するもの	Turning knob
+H01R  13/46 302 L	3	1	5E087	H01R  13/46	8	歯車を用いるもの	using gears
+H01R  13/46 302 M	3	1	5E087	H01R  13/46	8	らせんガイド溝を有するもの	with spiral guide grooves
+H01R  13/46 302 N	3	1	5E087	H01R  13/46	25	スイッチと連動しているもの	Interlocked with switches
+H01R  13/46 302 P	3	1	5E087	H01R  13/46	19	２種の刃が出るもの	Two types of blades coming out
+H01R  13/46 302 Z	3	0	5E087	H01R  13/46	58	その他のもの	Others
+H01R  13/46 303 \	2	2	5E087	H01R  13/46	3	メスコネクタ	Female connectors
+H01R  13/46 303 A	2	0	5E087	H01R  13/46	17	細幅と広幅の刃が共に挿入可のもの	able to accommodate narrow or wide blades
+H01R  13/46 303 B	2	0	5E087	H01R  13/46	90	差込メスソケット「図」	Inserting female sockets [figure]
+H01R  13/46 303 C	2	0	5E087	H01R  13/46	94	組合せもの（例，ガス柱との）	Combinations, e.g. with gas posts
+H01R  13/46 303 D	2	0	5E087	H01R  13/46	394	フロア配線器具中のコネクタハウジング	Connector housings built-in floor wiring apparatuses
+H01R  13/46 303 E	2	0	5E087	H01R  13/46	144	天井吊下用コンセント	Taps for hanging from ceiling
+H01R  13/46 303 F	2	0	5E087	H01R  13/46	193	ジャック用ハウジング	Housings for jacks
+H01R  13/46 303 Z	2	0	5E087	H01R  13/46	252	その他のもの	Others
+H01R  13/46 304 \	3	3	5E087	H01R  13/46	5	取付部分に特徴があるもの	characterised by mounts
+H01R  13/46 304 A	3	0	5E087	H01R  13/46	27	畳またはカーペットへ取付けるもの	mounted on tatami or carpets
+H01R  13/46 304 B	3	0	5E087	H01R  13/46	155	差込係止具で	by inserting connectors
+H01R  13/46 304 C	3	0	5E087	H01R  13/46	80	ウイング〔翼〕で	by wings
+H01R  13/46 304 D	3	0	5E087	H01R  13/46	28	接着剤で	by glue
+H01R  13/46 304 E	3	0	5E087	H01R  13/46	63	磁石で	by magnets
+H01R  13/46 304 F	3	0	5E087	H01R  13/46	75	フックまたは吊具で	by hooks or suspenders
+H01R  13/46 304 G	3	0	5E087	H01R  13/46	66	２つのハウジングブロックを組立てるもの	Assembling two housing blocks
+H01R  13/46 304 H	3	0	5E087	H01R  13/46	27	吸盤で	by suction cups
+H01R  13/46 304 J	3	0	5E087	H01R  13/46	36	挟み具で	by grippers
+H01R  13/46 304 K	3	0	5E087	H01R  13/46	7	釘またはステープルで	by nails or staples
+H01R  13/46 304 L	3	0	5E087	H01R  13/46	172	ねじで	by screws
+H01R  13/46 304 M	3	0	5E087	H01R  13/46	28	ばねで	by springs
+H01R  13/46 304 N	3	0	5E087	H01R  13/46	18	柱へ取付けるもの	mounted on posts
+H01R  13/46 304 P	3	0	5E087	H01R  13/46	270	取付板または枠を用いて	using mounting plate or frame
+H01R  13/46 304 Z	3	0	5E087	H01R  13/46	269	その他のもの	Others
+H01R  13/50  \	2	2	5E087	H01R  13/50	236	一体に形成されたもの（Ｈ０１Ｒ１３／５１４が優先）［３］	formed as an integral body (H01R 13/514 takes precedence) [3]
+H01R  13/502  \	2	2	5E087	H01R  13/502	47	異なる部片からなるもの（Ｈ０１Ｒ１３／５１４が優先）［３］	composed of different pieces (H01R 13/514 takes precedence) [3]
+H01R  13/502  A	2	0	5E087	H01R  13/502	228	差込プラグ「図」	Inserting plugs [figure]
+H01R  13/502  B	2	0	5E087	H01R  13/502	153	メス型コンセント	Female taps
+H01R  13/502  C	2	1	5E087	H01R  13/502	99	ハウジング外周に柔かい被覆層を設けたもの	with soft coating layer provided around housing
+H01R  13/502  Z	2	0	5E087	H01R  13/502	711	その他のもの	Others
+H01R  13/504  \	3	3	5E087	H01R  13/504	180	異なる部片が互いに，モールド，充填，溶接，例．超音波溶接，または成形加工されるもの［３］	different pieces being moulded, cemented, welded, e.g. ultrasonic, or swaged together [3]
+H01R  13/506  \	3	3	5E087	H01R  13/506	340	部材のスナップ作用により組立てられるもの［３］	assembled by snap action of the parts [3]
+H01R  13/508  \	3	3	5E087	H01R  13/508	35	クリップまたはばねにより組立てられるもの［３］	assembled by clip or spring [3]
+H01R  13/512  \	3	3	5E087	H01R  13/512	75	単一ねじまたは複数ねじにより組立てられるもの［３］	assembled by screw or screws [3]
+H01R  13/514  \	2	2	5E087	H01R  13/514	1631	モジュールブロックまたはその集合体として形成されたもの，すなわち接触部材を備えているかそれらによって接触部材を保持する部品を構成するもの［３］	formed as a modular block or assembly, i.e. composed of co-operating parts provided with contact members or holding contact members between them [3]
+H01R  13/516  \	2	2	5E087	H01R  13/516	917	絶縁体を保持しまたは取り囲むための部材（例，ケーシング）［３］	Means for holding or embracing insulating body, e.g. casing [3]
+H01R  13/518  \	3	3	5E087	H01R  13/518	396	いくつかの接続部品を保持しまたは取り囲むためのもの（例，フレーム）［３］	for holding or embracing several coupling parts, e.g. frames [3]
+H01R  13/52  \	2	2	5E087	H01R  13/52	22	防塵，防まつ，防滴，防水または防火のケース	Dustproof, splashproof, drip-proof, waterproof, or flameproof cases
+H01R  13/52  A	2	0	5E087	H01R  13/52	423	オス・メス双方の嵌合部に特徴あるもの	characterised by engaging portions both for male and female
+H01R  13/52  B	2	0	5E087	H01R  13/52	1283	カバーを被せるもの	by covering
+H01R  13/52  C	2	1	5E087	H01R  13/52	24	吸盤型	of suction cup type
+H01R  13/52  D	2	0	5E087	H01R  13/52	631	浸入水の処理構造に特徴あるもの	characterised by structures for treating migrated water
+H01R  13/52  E	2	0	5E087	H01R  13/52	157	プリント板用コネクタ〔エッジコネクタ〕のためのもの	for printed bard connectors (edge connectors)
+H01R  13/52  F	2	0	5E087	H01R  13/52	215	屋外コンセント	Outdoor taps
+H01R  13/52  Z	2	0	5E087	H01R  13/52	590	その他のもの	Others
+H01R  13/52 301 \	3	3	5E087	H01R  13/52	23	シールまたはパッキンを用いるもの	using seals or gaskets
+H01R  13/52 301 A	3	0	5E087	H01R  13/52	657	０リングを用いるもの「図」	using O-rings [figure]
+H01R  13/52 301 B	3	0	5E087	H01R  13/52	930	差込方向力によりパッキンを押圧するもの	pushing gasket by force applied along inserting direction
+H01R  13/52 301 C	3	0	5E087	H01R  13/52	176	回動力によりパッキンを押圧するもの	pushing gasket by rotating force
+H01R  13/52 301 D	3	0	5E087	H01R  13/52	28	折り返しゴムカバーを有するもの	with folded rubber covers
+H01R  13/52 301 E	3	0	5E087	H01R  13/52	2451	リード部をシールするもの	sealing leads
+H01R  13/52 301 F	3	0	5E087	H01R  13/52	885	注入または充填によりリード部をシールするもの	sealing leads by injecting or filling
+H01R  13/52 301 G	3	0	5E087	H01R  13/52	152	ヒレ状薄肉部によるもの	by finny thin portions
+H01R  13/52 301 H	3	0	5E087	H01R  13/52	1651	ケースに対するもの	for cases
+H01R  13/52 301 J	3	0	5E087	H01R  13/52	43	バンド締付によるもの	by tightening bands
+H01R  13/52 301 K	3	0	5E087	H01R  13/52	57	壁コンセントに対するもの	for wall taps
+H01R  13/52 301 Z	3	0	5E087	H01R  13/52	305	その他のもの	Others
+H01R  13/52 302 \	3	3	5E087	H01R  13/52	9	カバーまたは蓋を用いるもの	using covers or lids
+H01R  13/52 302 A	3	0	5E087	H01R  13/52	418	押し開きカバー	push-opening covers
+H01R  13/52 302 B	3	0	5E087	H01R  13/52	123	回動カバー「図」	Rotating covers [figure]
+H01R  13/52 302 C	3	0	5E087	H01R  13/52	594	開閉蓋「図」〔ヒンジ等により蓋を枢着するもの〕	Opening and closing covers [figure] (lids pivoted by hinges) [figure]
+H01R  13/52 302 D	3	0	5E087	H01R  13/52	211	水平ずらし蓋〔コネクタ挿入時に自動的に開くものは，Ａ〕	Horizontally shifted lids (A for those that are automatically opened when connector is inserted)
+H01R  13/52 302 E	3	0	5E087	H01R  13/52	577	キャップ	Caps
+H01R  13/52 302 F	3	0	5E087	H01R  13/52	32	オス用ばね板カバー	Spring plate covers for male
+H01R  13/52 302 G	3	0	5E087	H01R  13/52	223	埋栓	Buried plugs
+H01R  13/52 302 Z	3	0	5E087	H01R  13/52	273	その他のもの	Others
+H01R  13/523  \	3	3	5E087	H01R  13/523	184	水中で使用するためのもの［３］	for use under water [3]
+H01R  13/527  \	3	3	5E087	H01R  13/527	14	耐炎性ケース（Ｈ０１Ｒ１３／７０が優先）［３］	Flameproof cases (H01R 13/70 takes precedence) [3]
+H01R  13/53  \	2	2	5E087	H01R  13/53	219	過酷な用途に対する基台またはケース；コロナまたはアークを防止する手段をもつ基台またはケース［３］	Bases or cases for heavy duty; Bases or cases with means for preventing corona or arcing [3]
+H01R  13/533  \	2	2	5E087	H01R  13/533	34	極端な条件（例，高温，輻射，振動，腐食性の環境，圧力）のもとで使用されるように作られた基台またはケース（Ｈ０１Ｒ１３／５２が優先）［３］	Bases or cases made for use in extreme conditions, e.g. high temperature, radiation, vibration, corrosive environment, pressure (H01R 13/52 takes precedence) [3]
+H01R  13/533  A	2	0	5E087	H01R  13/533	460	熱または温度に対するもの	for heat or temperature
+H01R  13/533  B	2	0	5E087	H01R  13/533	274	高電圧に対するもの	for high-voltages
+H01R  13/533  C	2	0	5E087	H01R  13/533	47	防音	Sound-proofing
+H01R  13/533  D	2	0	5E087	H01R  13/533	534	防振	Vibration proofing
+H01R  13/533  E	2	0	5E087	H01R  13/533	82	防爆	Explosion proofing
+H01R  13/533  Z	2	0	5E087	H01R  13/533	235	その他のもの	Others
+H01R  13/56  \	1	1	5E021	H01R  13/56	1603	接続部品からの出口における可撓リード線の摩耗または破壊を防ぐ装置	Means for preventing chafing or fracture of flexible leads at outlet from coupling part
+H01R  13/58  \	1	1	5E021	H01R  13/58	2289	電線接続部のひずみを緩和する装置，例．コードグリップ	Means for relieving strain on wire connection, e.g. cord grip
+H01R  13/585  \	2	2	5E021	H01R  13/585	36	張力とともに増大するグリップ［３］	Grip increasing with strain force [3]
+H01R  13/59  \	2	2	5E021	H01R  13/59	80	ケーブルまたは電線と平行な方向に作用するねじを切った口輪またはボルト［３］	Threaded ferrule or bolt operating in a direction parallel to the cable or wire [3]
+H01R  13/595  \	2	2	5E021	H01R  13/595	151	ケーブルまたは電線を横切る方向に作用するボルト［３］	Bolts operating in a direction transverse to the cable or wire [3]
+H01R  13/60  \	1	1	5E021	H01R  13/60	411	係合されない時接続部品を支持する装置	Means for supporting coupling part when not engaged
+H01R  13/62  \	1	1	5E021	H01R  13/62	597	接続部品の係合または解放を容易にしまたは係合を保持するための部材［３］	Means for facilitating engagement or disengagement of coupling parts or for holding them in engagement [3]
+H01R  13/621  \	2	2	5E021	H01R  13/621	317	ボルト，とめねじまたはねじクランプ［３，５］	Bolt, set screw or screw clamp [3,5]
+H01R  13/622  \	2	2	5E021	H01R  13/622	111	ねじ輪またはねじ付ケーシング（Ｈ０１Ｒ１３／６２３が優先）［５］	Screw-ring or screw-casing (H01R 13/623 takes precedence) [5]
+H01R  13/623  \	2	2	5E021	H01R  13/623	52	らせん状の溝をもつケーシングまたは輪［３，５］	Casing or ring with helicoidal groove [3,5]
+H01R  13/625  \	2	2	5E021	H01R  13/625	172	バイオネット係合をもつケーシングまたは輪［３，５］	Casing or ring with bayonet engagement [3,5]
+H01R  13/627  \	2	2	5E021	H01R  13/627	167	スナップ作用による固着［３］	Snap-action fastening [3]
+H01R  13/629  \	2	2	5E021	H01R  13/629	3967	接続部品の係合または解放を容易にする付加的部材，例．整列させまたは案内する部材，レバー，ガス圧力［３］	Additional means for facilitating engagement or disengagement of coupling parts, e.g. aligning or guiding means, levers, gas pressure [3]
+H01R  13/631  \	3	3	5E021	H01R  13/631	2611	係合のためのみのもの［３］	for engagement only [3]
+H01R  13/633  \	3	3	5E021	H01R  13/633	1696	解放のためのみのもの［３］	for disengagement only [3]
+H01R  13/635  \	4	4	5E021	H01R  13/635	232	機械的圧力，例．スプリング力によるもの［３］	by mechanical pressure, e.g. spring force [3]
+H01R  13/637  \	4	4	5E021	H01R  13/637	22	流体圧力，例．爆発によるもの［３］	by fluid pressure, e.g. explosion [3]
+H01R  13/639  \	2	2	5E021	H01R  13/639	106	係合した後，接続部品を一体に保持しまたは鎖錠する付加的部材［３］	Additional means for holding or locking coupling parts together after engagement [3]
+H01R  13/639  A	2	0	5E021	H01R  13/639	516	磁石によるもの	by magnets
+H01R  13/639  Z	2	0	5E021	H01R  13/639	10233	その他のもの	Others
+H01R  13/64  \	1	1	5E021	H01R  13/64	6837	不正確な接続を防ぎ，禁止し，または回避する手段	Means for preventing, inhibiting or avoiding incorrect coupling
+H01R  13/641  \	2	2	5E021	H01R  13/641	1273	不正確な接続を表示することによるもの；正確な，または完全な接続を表示することによるもの［７］	by indicating incorrect coupling; by indicating correct or full engagement [7]
+H01R  13/642  \	2	2	5E021	H01R  13/642	442	接触部材の位置または形状によるもの［３］	by position or shape of contact members [3]
+H01R  13/645  \	2	2	5E021	H01R  13/645	237	ケースまたは基台上への交換可能な要素によるもの［３］	by exchangeable elements on case or base [3]
+H01R  13/646  \	1	1	5E021	H01R  13/646	580	高周波に特に適合するもの，例．インピーダンスの一致，位相の一致を行う構造（非同軸の保護接地またはシールドの配列Ｈ０１Ｒ１３／６４８；高周波に特に適合する同軸コネクタＨ０１Ｒ２４／４０［２０１１．０１］）	specially adapted for high-frequency e.g. structures providing an impedance match or phase match (non-coaxed protective earth or shield arrangements H01R13/648;coaxed connectors specially adapted for high frequency H01R24/40)
+H01R  13/6461  \	2	2	5E021	H01R  13/6461	483	クロストークを予防する手段　［２０１１．０１］	Means for preventing cross-talk [2011.01]
+H01R  13/6463  \	3	3	5E021	H01R  13/6463	153	ツイストペア電線を用いるもの［２０１１．０１］	using twisted pairs of wires [2011.01]
+H01R  13/6464  \	3	3	5E021	H01R  13/6464	75	コンデンサを付加することによるもの［２０１１．０１］	by adding capacitive elements [2011.01]
+H01R  13/6466  \	4	4	5E021	H01R  13/6466	65	基板，例．印刷回路基板［ＰＣＢ］，の上のもの［２０１１．０１］	on substrates, e.g. printed circuit boards [PCB] [2011.01]
+H01R  13/6467  \	3	3	5E021	H01R  13/6467	33	信号導体のクロスオーバーによるもの［２０１１．０１］	by cross-over of signal conductors [2011.01]
+H01R  13/6469  \	4	4	5E021	H01R  13/6469	15	基板上　［２０１１．０１］	on substrates [2011.01]
+H01R  13/6471  \	3	3	5E021	H01R  13/6471	478	グランド導体と信号導体の特別な配置によるもの，例．ＧＳＧＳ［グランド−信号−グランド−信号］［２０１１．０１］	by special arrangement of ground and signal conductors, e.g. GSGS [Ground-Signal-Ground-Signal] [2011.01]
+H01R  13/6473  \	2	2	5E021	H01R  13/6473	285	インピーダンス整合　［２０１１．０１］	Impedance matching [2011.01]
+H01R  13/6474  \	3	3	5E021	H01R  13/6474	852	導電特性の変量によるもの，例．大きさの変量によるもの［２０１１．０１］	by variation of conductive properties, e.g. by variation of dimensions [2011.01]
+H01R  13/6476  \	4	4	5E021	H01R  13/6476	42	開口部，例．穴，を作ることによるもの［２０１１．０１］	by making an aperture, e.g. a hole [2011.01]
+H01R  13/6477  \	3	3	5E021	H01R  13/6477	239	電気特性の変量によるもの［２０１１．０１］	by variation of dielectric properties [2011.01]
+H01R  13/648  \	1	1	5E021	H01R  13/648	4332	接続装置上での保護接地またはシールドの配列（同軸用のシールドＨ０１Ｒ２４／３８）［３］	Protective earth or shield arrangements on coupling devices (coaxially arranged shields&nbsp;H01R 24/38) [3]
+H01R  13/652  \	2	2	5E021	H01R  13/652	1027	接地ピン，刃またはソケットをもつもの［３］	with earth pin, blade or socket [3]
+H01R  13/655  \	2	2	5E021	H01R  13/655	216	接地締め金をもつもの［３］	with earth brace [3]
+H01R  13/658  \	2	2	5E021	H01R  13/658	1048	高周波シールドの配列，例．ＥＭＩ［電磁障害］またはＥＭＰ［電磁パルス］に対するもの［３，２０１１．０１］	High frequency shielding arrangements, e.g. against EMI [Electro-Magnetic Interference] or EMP [Electro-Magnetic Pulse]&nbsp; [3,2011.01]
+H01R  13/6581  \	3	3	5E021	H01R  13/6581	1100	シールドの構造［２０１１．０１］	Shield structure [2011.01]
+H01R  13/6582  \	4	4	5E021	H01R  13/6582	205	嵌合相手コネクタと接続するための弾性手段を持つもの［２０１１．０１］	with resilient means for engaging mating connector [2011.01]
+H01R  13/6583  \	5	5	5E021	H01R  13/6583	42	互いに嵌合するシールド部材間に別個の導電弾性体を持つもの［２０１１．０１］	with separate conductive resilient members between mating shield members [2011.01]
+H01R  13/6584  \	6	6	5E021	H01R  13/6584	17	導電性エラストマーの部材で形成されるもの，例．平面ガスケットまたはＯリング［２０１１．０１］	formed by conductive elastomeric members,&nbsp;e.g. flat gaskets or O-rings [2011.01]
+H01R  13/6585  \	4	4	5E021	H01R  13/6585	435	相互に間隔をおいた接触子を個々に囲み，あるいはそれらの間に置かれているシールド部材［２０１１．０１］	Shielding material individually surrounding or interposed between mutually spaced contacts [2011.01]
+H01R  13/6586  \	5	5	5E021	H01R  13/6586	69	複数のコネクタモジュール間のもの［２０１１．０１］	for separating multiple connector modules [2011.01]
+H01R  13/6587  \	6	6	5E021	H01R  13/6587	85	印刷回路基板上に取り付けるためのもの［２０１１．０１］	for mounting on PCBs [2011.01]
+H01R  13/6588  \	5	5	5E021	H01R  13/6588	25	個々の接触子が挿通する開口部を持つもの［２０１１．０１］	with through openings for individual contacts [2011.01]
+H01R  13/6589  \	5	5	5E021	H01R  13/6589	25	導電性のハウジングによって分離されたワイヤを持つもの［２０１１．０１］	with wires separated&nbsp;by conductive housing parts&nbsp; [2011.01]
+H01R  13/659  \	4	4	5E021	H01R  13/659	22	別々のコネクタのための複数のポートを持つもの［２０１１．０１］	with plural ports for distinct connectors [2011.01]
+H01R  13/6591  \	3	3	5E021	H01R  13/6591	114	シールドが導電性部材に接続する特定の機構または配置［２０１１．０１］	Specific features or arrangements of connection of shield to conductive members [2011.01]
+H01R  13/6592  \	4	4	5E021	H01R  13/6592	284	導電性部材がシールドされたケーブルであるもの［２０１１．０１］	the conductive member being a&nbsp;shielded cable [2011.01]
+H01R  13/6593  \	5	5	5E021	H01R  13/6593	137	シールドが別部材から構成されるもの　［２０１１．０１］	the shield being composed of different pieces [2011.01]
+H01R  13/6594  \	4	4	5E021	H01R  13/6594	184	シールドは印刷回路基板上に取り付けられ，導電部材に接続されるもの［２０１１．０１］	the shield being mounted on&nbsp;a PCB and connected to conductive members [2011.01]
+H01R  13/6595  \	5	5	5E021	H01R  13/6595	22	別部材によってシールドを印刷回路基板に取り付けるもの［２０１１．０１］	with separate members fixing the shield to the PCB [2011.01]
+H01R  13/6596  \	4	4	5E021	H01R  13/6596	50	導電部材が金属接地パネルであるもの［２０１１．０１］	the conductive member being a&nbsp;metal grounding panel [2011.01]
+H01R  13/6597  \	4	4	5E021	H01R  13/6597	19	導電部材がコネクタの接触子であるもの［２０１１．０１］	the conductive member being a contact of the connector [2011.01]
+H01R  13/6598  \	3	3	5E021	H01R  13/6598	18	シールドの材料［２０１１．０１］	Shield material [2011.01]
+H01R  13/6599  \	4	4	5E021	H01R  13/6599	112	誘電性の材料で導電体とされたもの，例．金属で被覆されたプラスチック材料［２０１１．０１］	Dielectric material made conductive, e.g. plastic material coated with metal [2011.01]
+H01R  13/66  \	1	1	5E021	H01R  13/66	3299	組込電気素子との機構的関連（同心円または同軸用の接触子を持つ接続装置Ｈ０１Ｒ２４／３８）［２００６．０１］	Structural association with built-in electrical component (coupling devices having concentrically or coaxially-arranged contacts H01R24/38)
+H01R  13/68  \	2	2	5E021	H01R  13/68	569	組込ヒューズとの関連［１，２０１１．０１］	with built-in fuse [1,2011.01]
+H01R  13/684  \	3	3	5E021	H01R  13/684	72	取り外し可能なヒューズ［２０１１．０１］	the fuse being removable [2011.01]
+H01R  13/688  \	4	4	5E021	H01R  13/688	307	ヒューズへのアクセスを可能にしたハウジングを持つもの［２０１１．０１］	with housing part adapted for accessing the fuse [2011.01]
+H01R  13/692  \	5	5	5E021	H01R  13/692	70	回転可能なハウジング［２０１１．０１］	Turnable housing part [2011.01]
+H01R  13/696  \	3	3	5E021	H01R  13/696	77	ヒューズが端子，例．ピンまたはソケット，と一体化したもの［２０１１．０１］	the fuse being integral&nbsp;with the terminal, e.g. pin or socket [2011.01]
+H01R  13/70  \	2	2	5E021	H01R  13/70	1706	組込開閉器との関連	with built-in switch
+H01R  13/703  \	3	3	5E021	H01R  13/703	1228	接続部品の係合または解放により作動するもの（Ｈ０１Ｒ１３／７１が優先）［３］	operated by engagement or disengagement of coupling parts (H01R 13/71 takes precedence) [3]
+H01R  13/707  \	3	3	5E021	H01R  13/707	65	接触部材または相手方部品とかみあわされるもの［３］	interlocked with contact members or counterpart [3]
+H01R  13/71  \	3	3	5E021	H01R  13/71	545	開閉器として作動する接続部品の接触部材［３］	Contact members of coupling parts operating as switch [3]
+H01R  13/713  \	3	3	5E021	H01R  13/713	727	開閉器が安全スイッチであるもの［３］	the switch being a safety switch [3]
+H01R  13/717  \	2	2	5E021	H01R  13/717	844	組込光源を持つもの［３］	with built-in light source [3]
+H01R  13/719  \	2	2	5E021	H01R  13/719	1356	特に高周波に適合するもの，例．フィルターを持つもの［４，２０１１．０１］	specially adapted for high frequency, e.g. with filters [4,2011.01]
+H01R  13/7193  \	3	3	5E021	H01R  13/7193	425	フェライトフィルターを持つもの［２０１１．０１］	with ferrite filters [2011.01]
+H01R  13/7195  \	3	3	5E021	H01R  13/7195	37	接触子のための開口部を備えた平面フィルターを持つもの［２０１１．０１］	with planar filters with openings for contacts [2011.01]
+H01R  13/7197  \	3	3	5E021	H01R  13/7197	553	接触子と一体化した，あるいは接触子に取り付けられたフィルター，例．管状フィルター，を持つもの［２０１１．０１］	with filters integral with or fitted onto contacts, e.g. tubular filters [2011.01]
+H01R  13/72  \	1	1	5E021	H01R  13/72	43	ホルダ内で可撓リードを適応させるための装置	Means for accommodating flexible lead within the holder
+H01R  13/73  \	1	1	5E022	H01R  13/73	22	装置または構体，例．壁，に接続部品を取り付けるための部材［４］	Means for mounting coupling parts to apparatus or structures, e.g. to a wall [4]
+H01R  13/73  A	1	0	5E022	H01R  13/73	553	取付支持フレームを用いるもの	using mounting or supporting frames
+H01R  13/73  B	1	0	5E022	H01R  13/73	40	コネクタ自身をネジ込むもの	by screwing connectors per se
+H01R  13/73  C	1	0	5E022	H01R  13/73	393	取付板を用いるもの	using mounting plates
+H01R  13/73  D	1	0	5E022	H01R  13/73	279	ジヤツクの取付〔Ａ〜Ｃに優先〕	Mounting jacks (Takes precedence to A to C.)
+H01R  13/73  E	1	0	5E022	H01R  13/73	240	同軸コネクタの取付〔Ａ〜Ｃに優先〕	Mounting coaxial connectors (Takes precedence to A to C.)
+H01R  13/73  F	1	0	5E022	H01R  13/73	87	取付けたコネクタの回り止めに特徴あるもの〔Ａ〜Ｅに優先〕	characterised by rotation stoppers for mounted connectors (Takes precedence to A to E.)
+H01R  13/73  Z	1	0	5E022	H01R  13/73	846	その他のもの	Others
+H01R  13/74  \	2	2	5E022	H01R  13/74	45	パネルの開口部に接続部品を取り付けるためのもの［３］	for mounting coupling parts in openings of a panel [3]
+H01R  13/74  A	2	0	5E022	H01R  13/74	240	ナツトを用いるもの	using nuts
+H01R  13/74  B	2	0	5E022	H01R  13/74	169	フランジと逆止め係合片によるもの「図」	by flanges or reverse connecting pieces
+H01R  13/74  C	2	0	5E022	H01R  13/74	163	開口縁部係合用溝を有する弾性片によるもの	by resilient pieces with grooves for connecting rim of opening
+H01R  13/74  D	2	0	5E022	H01R  13/74	369	コネクタの突起，舌片で開口縁部はさむもの	gripping rim of opening by connector protrusion or tongue
+H01R  13/74  E	2	0	5E022	H01R  13/74	62	バイオネツト式のもの	of bayonet type
+H01R  13/74  F	2	0	5E022	H01R  13/74	70	一端はひつかけ，他端は固着するもの	with one end hooked and the other fastened
+H01R  13/74  G	2	0	5E022	H01R  13/74	86	パネルの植立突起による取付	for mounting with stud protrusions of panel
+H01R  13/74  H	2	0	5E022	H01R  13/74	33	パネルの切起し片で挟持するもの	gripping with raised piece on panel
+H01R  13/74  J	2	0	5E022	H01R  13/74	444	取付具を用いるもの	using mounts
+H01R  13/74  K	2	1	5E022	H01R  13/74	243	板状取付具を用いるもの	using sheet mounts
+H01R  13/74  L	2	2	5E022	H01R  13/74	84	首かせ状部材を用いるもの	using yoke-like members
+H01R  13/74  Z	2	0	5E022	H01R  13/74	403	その他のもの	Others
+H01R  24/00  \	0	0	5E223	H01R  24/00	3110	２個の接続部品を持つ嵌合装置，またはそれらと共働する部品のいずれかの全体の構造に特徴があるもの（接触部材Ｈ０１Ｒ１３／０２；接触部材の基台，ケース内でのまたは基台，ケースへの固着または接触部材の絶縁Ｈ０１Ｒ１３／４０；基台またはケースＨ０１Ｒ１３／４６；係合されない時接続部品を支持する装置Ｈ０１Ｒ１３／６０；接続部品の係合または解放を容易にしまたは係合を保持するための部材Ｈ０１Ｒ１３／６２；不正確な接続を防ぎ，禁止しまたは回避する手段Ｈ０１Ｒ１３／６４）［２０１１．０１］	Two-part coupling devices or either of their cooperating parts characterised by their overall structure (contact members H01R13/02;securing contact members in or to a base or case or insulating of contact members H01R13/40;bases or cases H01R13/46;means for supporting coupling part when not engaged H01R13/60;means for facilitating engagement or disengagement of coupling parts or for holding them in engagement H01R13/62;means for preventing inhibiting or avoiding incorrect coupling H01R13/64)
+H01R  24/20  \	1	1	5E223	H01R  24/20	571	ソケット，クリップ，または同様の接触子を備え，かつワイヤーまたはケーブルのみに取り付けられる接続部品［２０１１．０１］	Coupling parts carrying sockets, clips or analogous contacts and secured only to wire or cable [2011.01]
+H01R  24/22  \	2	2	5E223	H01R  24/22	201	接地接触子またはシールド接触子を備えたもの［２０１１．０１］	with additional earth or shield contacts [2011.01]
+H01R  24/28  \	1	1	5E223	H01R  24/28	1236	ピン，刃，または同様の接触子を備え，かつワイヤーまたはケーブルのみに取り付けられる接続部品［２０１１．０１］	Coupling parts carrying pins, blades or analogous contacts and secured only to wire or cable [2011.01]
+H01R  24/30  \	2	2	5E223	H01R  24/30	430	接地接触子またはシールド接触子を備えたもの［２０１１．０１］	with additional earth or shield contacts [2011.01]
+H01R  24/38  \	1	1	5E223	H01R  24/38	7395	同心状または同軸状に配置された接触子をもつもの［２０１１．０１］	having concentrically or coaxially arranged contacts [2011.01]
+H01R  24/40  \	2	2	5E223	H01R  24/40	573	特に高周波に適合するもの［２０１１．０１］	specially adapted for high frequency [2011.01]
+H01R  24/42  \	3	3	5E223	H01R  24/42	155	インピーダンス整合の手段または電気部品を構成するもの，例．フィルターまたはスイッチ［２０１１．０１］	comprising impedance matching means or electrical components, e.g. filters or switches [2011.01]
+H01R  24/44  \	4	4	5E223	H01R  24/44	183	インピーダンス整合の手段を構成するもの［２０１１．０１］	comprising impedance matching means [2011.01]
+H01R  24/46  \	4	4	5E223	H01R  24/46	65	スイッチを構成するもの［２０１１．０１］	comprising switches [2011.01]
+H01R  24/48  \	4	4	5E223	H01R  24/48	27	保護装置を構成するもの，例．過電圧からの保護［２０１１．０１］	comprising protection devices, e.g. overvoltage protection [2011.01]
+H01R  24/50  \	3	3	5E223	H01R  24/50	385	ＰＣＢ［印刷回路基板］に取り付けるもの［２０１１．０１］	mounted on a PCB [Printed Circuit Board] [2011.01]
+H01R  24/52  \	3	3	5E223	H01R  24/52	236	パネルまたは構造物に取り付けるもの［２０１１．０１］	mounted in or to a panel or structure [2011.01]
+H01R  24/54  \	3	3	5E223	H01R  24/54	75	中間部品，例．アダプター，スプリッターまたはエルボー［２０１１．０１］	Intermediate parts, e.g. adapters, splitters or elbows [2011.01]
+H01R  24/56  \	3	3	5E223	H01R  24/56	41	特定の形状のケーブルに特に適合するもの，例．波形ケーブル，ツイストペアケーブル，２重シールド（スクリーン）ケーブル，中空ケーブル［２０１１．０１］	specially adapted&nbsp;for specific&nbsp;shapes of cables, e.g. corrugated cables, twisted pair cables, cables with two screens or hollow cables [2011.01]
+H01R  24/58  \	1	1	5E223	H01R  24/58	372	連結する軸に沿って配置される接触子［２０１１．０１］	Contacts spaced along longitudinal axis of engagement [2011.01]
+H01R  24/60  \	1	1	5E223	H01R  24/60	5355	連結する軸と交差する平坦な側壁に沿って配置される接触子［２０１１．０１］	Contacts spaced along planar side wall transverse to longitudinal axis of engagement [2011.01]
+H01R  24/62  \	2	2	5E223	H01R  24/62	352	片面のみのスライド連結，例．モジュラージャックの嵌合装置［２０１１．０１］	Sliding engagements with one side only, e.g. modular jack coupling devices [2011.01]
+H01R  24/64  \	3	3	5E223	H01R  24/64	223	高周波のためのもの，例．ＲＪ４５［２０１１．０１］	for high frequency, e.g. RJ 45 [2011.01]
+H01R  24/66  \	1	1	5E223	H01R  24/66	72	ピン，刃，または同様の接触子を備え，かつ装置または構造物，例．壁，に取り付けられる接続部品　［２０１１．０１］	with&nbsp;pins, blades or analogous contacts and secured to apparatus or structure, e.g. to a wall [2011.01]
+H01R  24/68  \	2	2	5E223	H01R  24/68	23	直接差し込める装置に取り付けるもの［２０１１．０１］	mounted on directly pluggable apparatus [2011.01]
+H01R  24/70  \	2	2	5E223	H01R  24/70	19	接地接触子またはシールド接触子を備えたもの［２０１１．０１］	with additional earth or shield contacts [2011.01]
+H01R  24/76  \	1	1	5E223	H01R  24/76	265	ソケット，クリップ，または同様の接触子を備え，かつ装置または構造体，例．壁，に取り付けられる接続部品　［２０１１．０１］	with&nbsp;sockets, clips or analogous contacts and secured to apparatus or structure, e.g. to a wall [2011.01]
+H01R  24/78  \	2	2	5E223	H01R  24/78	100	接地接触子またはシールド接触子を備えたもの［２０１１．０１］	with additional earth or shield contacts [2011.01]
+H01R  24/84  \	1	1	5E223	H01R  24/84	73	雌雄同体の嵌合装置［２０１１．０１］	Hermaphroditic coupling devices [2011.01]
+H01R  24/86  \	1	1	5E223	H01R  24/86	477	共通の軸に沿って配置した平行接触子［２０１１．０１］	Parallel contacts arranged about a common axis [2011.01]
+H01R  25/00  \	0	0	5E045	H01R  25/00	6	２個またはそれ以上の同一相手方部品と同時共働するに適した接続部品，例．２またはそれ以上の回路へエネルギを分配するためのもの（相手方部品との共働によってのみ支持されるものＨ０１Ｒ３１／００；相手方部品が取り付けられている装置を支持するに適したホルダをもつものＨ０１Ｒ３３／８８）［２００６．０１］	Coupling parts adapted for simultaneous co-operation with two or more identical counterparts, e.g. for distributing energy to two or more circuits (supported only by co-operation with a counterpart H01R 31/00; with a holder adapted for supporting apparatus to which its counterpart is attached H01R 33/88)
+H01R  25/00  A	0	0	5E045	H01R  25/00	515	電力用	for electric power
+H01R  25/00  B	0	0	5E045	H01R  25/00	437	接続部品に電線がついているもの	Coupling parts attached to cables
+H01R  25/00  C	0	1	5E045	H01R  25/00	297	容器や取り付けに特徴	Containers, mounting
+H01R  25/00  D	0	1	5E045	H01R  25/00	106	接触子の形に特徴	Contact shapes
+H01R  25/00  G	0	0	5E045	H01R  25/00	330	壁に取付けられる接続部品	Coupling parts that can be mounted on walls
+H01R  25/00  H	0	1	5E045	H01R  25/00	252	容器や取り付けに特徴	Containers, mounting
+H01R  25/00  J	0	1	5E045	H01R  25/00	123	保護カバー	Protection covers
+H01R  25/00  K	0	1	5E045	H01R  25/00	126	接続部品が出没自在のもの	Rising and setting coupling parts with smooth movements
+H01R  25/00  L	0	1	5E045	H01R  25/00	47	接触子の形に特徴	Contact shapes
+H01R  25/00  M	0	0	5E045	H01R  25/00	191	通信用	for telecommunications
+H01R  25/00  N	0	0	5E045	H01R  25/00	46	音響機器用プラグ	Plugs for audio equipment
+H01R  25/00  Z	0	0	5E045	H01R  25/00	71	その他のもの	Others
+H01R  25/14  \	1	1	5E045	H01R  25/14	38	相手側部品が長手方向のどの点でも接続できるように組み立てられたレールまたはバスバー（案内体に沿って移動可能であり，かつ，案内体に沿って走る導体と電気的接触をする，照明装置の支持要素Ｆ２１Ｖ２１／３５）［２００６．０１］	Rails or bus-bars constructed so that the counterparts can be connected thereto at any point along their length (supporting elements for lighting devices, displaceable along guiding elements and making electrical contact with conductors running along the guiding elements F21V 21/35; installations of bus-bars H02G 5/00) [3]
+H01R  25/14  C	1	0	5E045	H01R  25/14	289	接続装置またはエンドフィード	Connection
+H01R  25/14  Z	1	0	5E045	H01R  25/14	661	その他のもの	Others
+H01R  25/16  \	1	1	5E045	H01R  25/16	153	相手方部品のための多数の不連続な接続位置を備えたレールまたはバスバー［２００６．０１］	Rails or bus-bars provided with a plurality of discrete connecting locations for counterparts (installations of bus-bars H02G 5/00) [3]
+H01R  27/00  \	0	0	5E046	H01R  27/00	10	２個またはそれ以上の異なる相手方部品と共働するに適した接続部品（相手方部品との共働によってのみ支持されるものＨ０１Ｒ３１／００；相手方部品が取り付けられる装置を支持するに適したホルダをもつものＨ０１Ｒ３３／９０）	Coupling parts adapted for co-operation with two or more dissimilar counterparts (supported only by co-operation with a counterpart H01R 31/00; with a holder adapted for supporting apparatus to which its counterpart is attached H01R 33/90)
+H01R  27/00  A	0	0	5E046	H01R  27/00	262	電力用	for electric power
+H01R  27/00  M	0	0	5E046	H01R  27/00	182	通信用	for telecommunications
+H01R  27/00  N	0	0	5E046	H01R  27/00	49	音響機器用プラグ	Plugs for audio equipment
+H01R  27/00  Z	0	0	5E046	H01R  27/00	96	その他	Others
+H01R  27/02  \	1	1	5E046	H01R  27/02	209	２個以上の相手方部品と同時に共働するためのもの	for simultaneous co-operation with two or more counterparts
+H01R  29/00  \	0	0	5E046	H01R  29/00	13	異なる回路を形成するように異なる方法で相手方部品と選択的に共働する接続部品，例．電圧選択，直並列選択	Coupling parts for selective co-operation with a counterpart in different ways to establish different circuits, e.g. for voltage selection, for series/parallel selection
+H01R  29/00  A	0	0	5E046	H01R  29/00	400	選択的に共働する接続部品一般	Coupling parts in general that selectively cooperate
+H01R  29/00  B	0	0	5E046	H01R  29/00	120	プラグジャック	related to plugs and jacks
+H01R  29/00  C	0	0	5E046	H01R  29/00	75	部材の移動を伴うもの	with moving for switching circuit composition
+H01R  29/00  Z	0	0	5E046	H01R  29/00	30	その他のもの	Others
+H01R  31/00  \	0	0	5E046	H01R  31/00	15	相手方部品と共働によってのみ支持される接続部品［２００６．０１］	Coupling parts supported only by co-operation with counterpart
+H01R  31/00  A	0	0	5E046	H01R  31/00	191	電力用	for electric power
+H01R  31/00  M	0	0	5E046	H01R  31/00	165	通信用	for telecommunications
+H01R  31/00  N	0	0	5E046	H01R  31/00	18	ディップスイッチ	Dip switches
+H01R  31/00  Z	0	0	5E046	H01R  31/00	26	その他	Others
+H01R  31/02  \	1	1	5E046	H01R  31/02	17	並列の２個またはそれ以上の回路にエネルギを分配するための中間部品，例．スプリッタ（相手方部品が取り付けられている装置を支持するに適したホルダをもつものＨ０１Ｒ３３／９２）［２００６．０１］	Intermediate parts for distributing energy to two or more circuits in parallel, e.g. splitter (for linking two coupling parts H01R 31/06; with a holder adapted for supporting apparatus to which its counterpart is attached H01R 33/92)
+H01R  31/02  A	1	0	5E046	H01R  31/02	335	電力形接続部品	Power type coupling parts
+H01R  31/02  B	1	1	5E046	H01R  31/02	285	マルチタップ	Multi-taps
+H01R  31/02  C	1	0	5E046	H01R  31/02	269	通信形接続部品	Telecommunication type coupling parts
+H01R  31/02  D	1	0	5E046	H01R  31/02	158	電気素子の入つたもの	with built-in electric elements
+H01R  31/02  Z	1	0	5E046	H01R  31/02	72	その他のもの	Others
+H01R  31/06  \	1	1	5E046	H01R  31/06	32	２つの接続部品を連接するための中間部品，例．アダプタ（相手方部品が取り付けられている装置を支持するのに適合するホルダをもつものＨ０１Ｒ３３／９４）［２００６．０１］	Intermediate parts for linking two coupling parts, e.g. adapter (with a holder adapted for supporting apparatus to which its counterpart is attached H01R 33/94) [4]
+H01R  31/06  A	1	0	5E046	H01R  31/06	681	電力用	for electric power
+H01R  31/06  B	1	0	5E046	H01R  31/06	754	コンセント・アダプタ	Taps or adapters
+H01R  31/06  M	1	0	5E046	H01R  31/06	682	通信用	for telecommunications
+H01R  31/06  N	1	0	5E046	H01R  31/06	146	音響機器用プラグ	Plugs for audio equipment
+H01R  31/06  P	1	0	5E046	H01R  31/06	501	車輛用の接続	Connecting for vehicles
+H01R  31/06  Q	1	0	5E046	H01R  31/06	128	同軸ケーブルの接続	Connecting coaxial cables
+H01R  31/06  R	1	0	5E046	H01R  31/06	417	プリント回路基板の接続	Connecting printed circuit boards
+H01R  31/06  Z	1	0	5E046	H01R  31/06	393	その他のもの	Others
+H01R  31/08  \	1	1	5E046	H01R  31/08	30	相手方部品内の接触子を橋絡する短絡回路部材［２００６．０１］	Short-circuiting members for bridging contacts in a counterpart (insulating members inserted between normally-closed contacts H01H 27/04)
+H01R  31/08  A	1	0	5E046	H01R  31/08	140	電力用	for electric power
+H01R  31/08  M	1	0	5E046	H01R  31/08	182	通信用	for telecommunications
+H01R  31/08  N	1	0	5E046	H01R  31/08	159	短絡ピンプラグ	Shorting pin plugs
+H01R  31/08  P	1	0	5E046	H01R  31/08	265	コ字形短絡板	Channel shaped shorting plate
+H01R  31/08  Q	1	0	5E046	H01R  31/08	761	車輛用	for vehicles
+H01R  31/08  R	1	0	5E046	H01R  31/08	33	短絡用リード線	Shorting lead wires
+H01R  31/08  Z	1	0	5E046	H01R  31/08	206	その他	Others
+H01R  33/00  \	0	0	5E024	H01R  33/00	86	装置を保持する役目と，その装置と構造的に組合わされている相手方部品を通じて電気的接続をする役目を果たしている，ホルダ部分を持つ，特にその装置を支持するために適合した嵌合装置，例．ランプ・ホルダ；その個々の部品［２００６．０１］	Coupling devices specially adapted for supporting apparatus and having one part acting as a holder providing support and electrical connection via a counterpart which is structurally associated with the apparatus, e.g. lamp holders; Separate parts thereof (structural association of counterpart with specific apparatus, <u>see</u> the relevant subclass for the apparatus)
+H01R  33/02  \	1	1	5E024	H01R  33/02	701	単極装置，例．筒状白熱灯またはネオンランプの一端を支持するためのホルダ［２００６．０１］	Single-pole devices, e.g. holder for supporting one end of a tubular incandescent or neon lamp
+H01R  33/05  \	1	1	5E024	H01R  33/05	547	２極装置［２００６．０１］	Two-pole devices [4]
+H01R  33/06  \	2	2	5E024	H01R  33/06	1013	互いに平行な軸をもつ２個の導電ピン，刃または同様な接触子をもつもの［２００６．０１］	with two current-carrying pins, blades, or analogous contacts, having their axes parallel to each other [4]
+H01R  33/08  \	3	3	5E024	H01R  33/08	1892	筒状螢光灯を支持するためのもの［２００６．０１］	for supporting tubular fluorescent lamp [4]
+H01R  33/09  \	3	3	5E024	H01R  33/09	926	ベースレスランプ管のためのもの［２００６．０１］	for baseless lamp bulb [4]
+H01R  33/18  \	2	2	5E024	H01R  33/18	277	接合接触子のみをもつもの［２００６．０１］	having only abutting contacts
+H01R  33/20  \	2	2	5E024	H01R  33/20	127	同心状または同軸状に配置された接触子をもつもの［２００６．０１］	having concentrically or coaxially arranged contacts
+H01R  33/22  \	2	2	5E024	H01R  33/22	94	ねじ込み型基台（例，ランプ用）のためのもの［２００６．０１］	for screw type base, e.g. for lamp [4]
+H01R  33/22  A	2	0	5E024	H01R  33/22	1281	ねじ込み型ランプソケット〔ｅｘ，グローランプ，ｃｆ，Ｆ２１Ｖ１９／００〕	Screwed lamp sockets, e.g. glow lamps cf. F 21 V 19/00
+H01R  33/22  B	2	1	5E024	H01R  33/22	48	ランプが実質的に係合されるまで極が電気的に接続されないもの	Poles not electrically connected until lamp as actually connected
+H01R  33/22  C	2	1	5E024	H01R  33/22	83	ソケット端子とリード線との接続構造	Connecting structures between socket terminal and lead wire
+H01R  33/22  Z	2	0	5E024	H01R  33/22	9	その他	Others
+H01R  33/46  \	2	2	5E024	H01R  33/46	26	バヨネット型基台のためのもの［２００６．０１］	for bayonet type base [4]
+H01R  33/46  A	2	0	5E024	H01R  33/46	751	バヨネット型ランプソケツト〔押してまわす〕	Bayonet lamp sockets (push and turn)
+H01R  33/46  B	2	1	5E024	H01R  33/46	156	ランプが実質的に係合されるまで極が電気的に接続されないもの	Poles not electrically connected until lamp as actually connected
+H01R  33/46  Z	2	0	5E024	H01R  33/46	66	その他	Others
+H01R  33/72  \	1	1	5E024	H01R  33/72	95	３極装置［２００６．０１］	Three-pole devices
+H01R  33/74  \	1	1	5E024	H01R  33/74	38	４個以上の極をもつ装置［２００６．０１］	Devices having four or more poles
+H01R  33/74  A	1	0	5E024	H01R  33/74	519	４極以上のソケット〔ｃｆ，Ｈ０１Ｒ３３／９４５〕	Sockets with four or more poles (cf. H 01 R 23/945)
+H01R  33/74  B	1	1	5E024	H01R  33/74	521	相手方接触子との接触に適合する接触子をもつもの	with contacts adapted for contacting with mating contacts
+H01R  33/74  C	1	1	5E024	H01R  33/74	19	ソケットに取り付けられる相手方部品	Mating parts mounted on sockets
+H01R  33/74  Z	1	0	5E024	H01R  33/74	37	その他	Others
+H01R  33/76  \	2	2	5E024	H01R  33/76	47	ソケット，クリップまたは同様な接触子をもち，この接触子が相手方部品上の並行配置のピン，刃または同様な接触子との軸方向の摺動係合に適合するホルダ，例．電子管ソケット［２００６．０１］	Holders with sockets, clips or analogous contacts, adapted for axially-sliding engagement with parallely-arranged pins, blades, or analogous contacts on counterpart, e.g. electronic tube socket
+H01R  33/76  A	2	0	5E024	H01R  33/76	182	異方性導電膜を用いるもの（Ｈ１２．４新設）	Using anisotropy conductive film (New, Apr. 2000)
+H01R  33/76  Z	2	0	5E024	H01R  33/76	1253	その他（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01R  33/76 501 \	3	3	5E024	H01R  33/76	0	デュアルインライン型ＩＣソケット（Ｈ１２．４新設）	Dual in-line type IC socket (New, Apr. 2000)
+H01R  33/76 501 A	3	0	5E024	H01R  33/76	436	装置側電極が凹型のもの（Ｈ１２．４新設）	Electrode in apparatus being recessed.(New, Apr. 2000)
+H01R  33/76 501 B	3	0	5E024	H01R  33/76	192	装置側電極が測定ピンを持つもの（Ｈ１２．４新設）	Electrode in apparatus having measuring pins (New, Apr. 2000)
+H01R  33/76 501 C	3	0	5E024	H01R  33/76	80	複数のＩＣに対応するもの（Ｈ１２．４新設）	Corresponding to plural Ics (New, Apr. 2000)
+H01R  33/76 501 D	3	0	5E024	H01R  33/76	120	ゆるみ止めを有するもの（Ｈ１２．４新設）	Having locking (New, Apr. 2000)
+H01R  33/76 501 Z	3	0	5E024	H01R  33/76	1254	その他（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01R  33/76 502 \	3	3	5E024	H01R  33/76	1	フラットパッケージ型ＩＣソケット（Ｈ１２．４新設）	Flat package type IC socket (New, Apr. 2000)
+H01R  33/76 502 A	3	0	5E024	H01R  33/76	163	ＩＣの端子を装置側電極が挟むもの（Ｈ１２．４新設）	Electrode in apparatus nipping terminal of IC (New, Apr. 2000)
+H01R  33/76 502 B	3	0	5E024	H01R  33/76	279	ＩＣの端子に装置側電極が上から接触するもの（Ｈ１２．４新設）	Electrode in apparatus coming into contact with terminal of IC from above (New, Apr. 2000)
+H01R  33/76 502 C	3	0	5E024	H01R  33/76	1008	ＩＣの端子に装置側電極が下から接触するもの（Ｈ１２．４新設）	Electrode in apparatus coming into contact with terminal of IC from beneath (New, Apr. 2000)
+H01R  33/76 502 D	3	0	5E024	H01R  33/76	432	ゆるみ止めを有するもの（Ｈ１２．４新設）	Having locking (New, Apr. 2000)
+H01R  33/76 502 Z	3	0	5E024	H01R  33/76	216	その他（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01R  33/76 503 \	3	3	5E024	H01R  33/76	5	リードレスチップキャリヤ型ＩＣソケット（Ｈ１２．４新設）	Leadless chip carrier type IC socket (New, Apr. 2000)
+H01R  33/76 503 A	3	0	5E024	H01R  33/76	397	装置側電極の弾性により接触するもの（Ｈ１２．４新設）	Coming into contact by elasticity of electrode in apparatus (New, Apr. 2000)
+H01R  33/76 503 B	3	1	5E024	H01R  33/76	275	装置側電極が１枚板からなるもの（Ｈ１２．４新設）	Electrode in apparatus being made of one board. (New, Apr. 2000)
+H01R  33/76 503 C	3	0	5E024	H01R  33/76	221	ゆるみ止めを有するもの（Ｈ１２．４新設）	Having locking (New, Apr. 2000)
+H01R  33/76 503 Z	3	0	5E024	H01R  33/76	379	その他（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01R  33/76 504 \	3	3	5E024	H01R  33/76	3	ピングリッド・アレイ型ＩＣソケット（Ｈ１２．４新設）	Pin grid array type IC socket (New, Apr. 2000)
+H01R  33/76 504 A	3	0	5E024	H01R  33/76	102	装置側電極の接触部が横に凹のもの（Ｈ１２．４新設）	Contact part of electrode in apparatus being laterally recessed (New, Apr. 2000)
+H01R  33/76 504 B	3	0	5E024	H01R  33/76	167	装置側電極の接触部が上に凹のもの（Ｈ１２．４新設）	Upper contact part of electrode in apparatus being recessed. (New, Apr. 2000)
+H01R  33/76 504 C	3	0	5E024	H01R  33/76	111	装置側電極の接触部が板状のもの（Ｈ１２．４新設）	Contact part of electrode in apparatus being sheet type. (New, Apr. 2000)
+H01R  33/76 504 D	3	0	5E024	H01R  33/76	81	ゆるみ止めを有するもの（Ｈ１２．４新設）	Having locking (New, Apr. 2000)
+H01R  33/76 504 Z	3	0	5E024	H01R  33/76	301	その他（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01R  33/76 505 \	3	3	5E024	H01R  33/76	11	ボールグリッド・アレイ型ＩＣソケット（Ｈ１２．４新設）	Ball grid array type IC socket (New, Apr. 2000)
+H01R  33/76 505 A	3	0	5E024	H01R  33/76	388	装置側電極の接触部が凹型のもの（Ｈ１２．４新設）	Contact part of electrode in apparatus being recessed. (New, Apr. 2000)
+H01R  33/76 505 B	3	0	5E024	H01R  33/76	279	装置側電極の接触部が板状のもの（Ｈ１２．４新設）	Contact part of electrode in apparatus being sheet type. (New, Apr. 2000)
+H01R  33/76 505 C	3	0	5E024	H01R  33/76	241	ゆるみ止めを有するもの（Ｈ１２．４新設）	Having locking (New, Apr. 2000)
+H01R  33/76 505 Z	3	0	5E024	H01R  33/76	816	その他（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01R  33/88  \	1	1	5E024	H01R  33/88	11	２個以上の同一の相手方部品と同時に共働するために用いられるもの［２００６．０１］	adapted for simultaneous co-operation with two or more identical counterparts
+H01R  33/88  A	1	0	5E024	H01R  33/88	95	差込み型ランプ用	for inserted lamps
+H01R  33/88  B	1	1	5E024	H01R  33/88	40	蛍光灯用	for fluorescent lamps
+H01R  33/88  C	1	1	5E024	H01R  33/88	36	ベースレスランプ用	for baseless lamps
+H01R  33/88  D	1	0	5E024	H01R  33/88	104	ねじ込型ランプ用	for screwed lamps
+H01R  33/88  E	1	0	5E024	H01R  33/88	60	バヨネット型ランプ用	for bayonet lamps
+H01R  33/88  Z	1	0	5E024	H01R  33/88	356	その他	Others
+H01R  33/90  \	1	1	5E024	H01R  33/90	1	２個以上の異なる相手方部品と共働するために用いられるもの［２００６．０１］	adapted for co-operation with two or more dissimilar counterparts
+H01R  33/90  A	1	0	5E024	H01R  33/90	54	ねじ込型ランプ相互の組合せ用	for combining screw lamps mutually
+H01R  33/90  B	1	0	5E024	H01R  33/90	290	ねじ込型ランプとプラグとの組合せ用	for combing screw lamps and plugs
+H01R  33/90  C	1	0	5E024	H01R  33/90	44	蛍光灯ランプと他のランプとの組合せ用	for combining fluorescent and other lamps
+H01R  33/90  D	1	0	5E024	H01R  33/90	51	異種ランプ兼用のもの	able to be used for different lamps
+H01R  33/90  Z	1	0	5E024	H01R  33/90	393	その他	Others
+H01R  33/92  \	1	1	5E024	H01R  33/92	209	２個以上の相手方部品を介して並列にエネルギを分配するための中間部品として作られ，そして少なくとも１つの相手方部品が保持される装置に取り付けられるホルダ［２００６．０１］	Holders formed as intermediate parts for distributing energy in parallel through two or more counterparts at least one of which is attached to apparatus to be held
+H01R  33/94  \	1	1	5E024	H01R  33/94	445	相手方部品を接続部品に連接するための中間部品として形成されたホルダ［２００６．０１］	Holders formed as intermediate parts for linking a counter-part to a coupling part
+H01R  33/945  \	1	1	5E024	H01R  33/945	17	電気部品を組み込んでいるホルダ［２００６．０１］	Holders with built-in electrical component [4]
+H01R  33/945  A	1	0	5E024	H01R  33/945	118	筒状蛍光灯ソケット	Cylindrical fluorescent lamp holders
+H01R  33/945  C	1	0	5E024	H01R  33/945	11	バヨネット型基板をもつ２極装置	Two-pole devices with bayonet bases
+H01R  33/945  D	1	1	5E024	H01R  33/945	12	接続の係合または解放により鎖錠が解かれるがしかし作動しない開閉器をもつもの	with switches that are unlocked by connection or release of connection but not activated by such motion
+H01R  33/945  K	1	0	5E024	H01R  33/945	4	電気部品組込ねじ込型ランプソケット	Lamp sockets built-in electric appliances
+H01R  33/945  L	1	1	5E024	H01R  33/945	63	コンデンサ組込	Assembling capacitors
+H01R  33/945  M	1	2	5E024	H01R  33/945	37	コンデンサをソケット本体に内蔵したもの	with capacitors built-in socket body
+H01R  33/945  N	1	1	5E024	H01R  33/945	105	抵抗体組込	Assembling resistors
+H01R  33/945  P	1	1	5E024	H01R  33/945	17	ダイオード組込	Assembling diodes
+H01R  33/945  Q	1	1	5E024	H01R  33/945	26	変圧器組込	Assembling transformers
+H01R  33/945  R	1	1	5E024	H01R  33/945	287	その他の電気部品組込ねじ込型ランプソケット	Other screwed lamp sockets accommodated in electrical appliances
+H01R  33/945  S	1	0	5E024	H01R  33/945	10	電気部品組込３極以上のソケット	Sockets with three or more poles accommodated in electric appliances
+H01R  33/945  T	1	1	5E024	H01R  33/945	124	スパーク電極を有する端子組込	assembling terminals with spark electrode
+H01R  33/945  U	1	2	5E024	H01R  33/945	45	端子が放電空隙素子の形をしたもの	terminals with shape of spark gap element
+H01R  33/945  V	1	1	5E024	H01R  33/945	125	コンデンサ組込	Assembling capacitors
+H01R  33/945  W	1	1	5E024	H01R  33/945	90	抵抗体組込	Assembling resistors
+H01R  33/945  X	1	1	5E024	H01R  33/945	230	その他の電気部品組込３極以上のソケット	Other sockets with three or more poles accommodated in electric appliances
+H01R  33/945  Z	1	0	5E024	H01R  33/945	72	その他	Others
+H01R  33/95  \	2	2	5E024	H01R  33/95	3	ヒューズをもつもの；熱応動開閉器をもつもの［２００６．０１］	with fuse; with thermal switch [4]
+H01R  33/95  A	2	0	5E024	H01R  33/95	48	ねじ込み型基板をもつ２極装置	Two-pole devices with screw base
+H01R  33/95  B	2	0	5E024	H01R  33/95	3	バヨネット型基板をもつ２極装置	Two-pole devices with bayonet base
+H01R  33/95  Z	2	0	5E024	H01R  33/95	26	その他	Others
+H01R  33/955  \	2	2	5E024	H01R  33/955	1	接続の係合または解放に関係なく手動で動作する開閉器をもつもの［２００６．０１］	with switch operated manually and independent of engagement or disengagement of coupling [4]
+H01R  33/955  B	2	0	5E024	H01R  33/955	5	バヨネット型基板をもつ２極装置	Two-pole devices with bayonet base
+H01R  33/955  K	2	0	5E024	H01R  33/955	0	手動スイッチ組込ねじ込型ランプソケット	Screwed lamp sockets with hand operated switch
+H01R  33/955  L	2	1	5E024	H01R  33/955	416	角度の回動によるスイッチ組込	Assembling of angle rotary switch
+H01R  33/955  M	2	1	5E024	H01R  33/955	118	引張りコードをもつスイッチ組込	Assembling switches with pulling cord
+H01R  33/955  N	2	1	5E024	H01R  33/955	113	スライドスイッチ組込	Assembling sliding switches
+H01R  33/955  P	2	1	5E024	H01R  33/955	105	その他の手動スイッチ組込ねじ込型ランプソケット	Screwed lamp sockets with other hand operated switches
+H01R  33/955  Z	2	0	5E024	H01R  33/955	31	その他	Others
+H01R  33/96  \	2	2	5E024	H01R  33/96	2	接続の係合または解放により動作する開閉器をもつもの［２００６．０１］	with switch operated by engagement or disengagement of coupling [4]
+H01R  33/96  A	2	0	5E024	H01R  33/96	25	ねじ込み型基板をもつ２極装置	Two-pole devices with screwed base
+H01R  33/96  B	2	0	5E024	H01R  33/96	7	バヨネット型基板をもつ２極装置	Two-pole devices with bayonet base
+H01R  33/96  Z	2	0	5E024	H01R  33/96	31	その他	Others
+H01R  33/965  \	1	1	5E024	H01R  33/965	9	防塵，防まつ，防滴，防水，または防炎型ホルダ［２００６．０１］	Dustproof, splashproof, drip-proof, waterproof, or flameproof holders [4]
+H01R  33/965  A	1	0	5E024	H01R  33/965	175	筒状蛍光灯ソケット	Cylindrical fluorescent lamp sockets
+H01R  33/965  C	1	0	5E024	H01R  33/965	79	バヨネット型基板をもつ２極装置	Two-pole devices with bayonet base
+H01R  33/965  K	1	0	5E024	H01R  33/965	3	防水，防塵型等ねじ込型ランプソケット	Waterproof or dustproof screwed lamp sockets
+H01R  33/965  L	1	1	5E024	H01R  33/965	259	防水型	Waterproof
+H01R  33/965  M	1	2	5E024	H01R  33/965	112	ソケット縁と電球との間が密閉構造	Sealing structure for gap between socket rim and lamp
+H01R  33/965  N	1	2	5E024	H01R  33/965	43	ソケットホルダ縁と電球との間が密閉構造	Sealing structure for gap between socket holder rim and lamp
+H01R  33/965  P	1	1	5E024	H01R  33/965	21	防塵型	Dustproof
+H01R  33/965  Q	1	1	5E024	H01R  33/965	77	防熱型	Heatproof
+H01R  33/965  R	1	1	5E024	H01R  33/965	36	その他の防水，防塵型等ねじ込型ランプソケット	Other waterproof or dustproof screwed lamp sockets
+H01R  33/965  Z	1	0	5E024	H01R  33/965	116	その他	Others
+H01R  33/97  \	1	1	5E024	H01R  33/97	78	接続のゆるみまたは保持された装置の偶発的離脱を防ぐための別の装置をもつホルダ［２００６．０１］	Holders with separate means to prevent loosening of the coupling or unauthorised removal of apparatus held [4]
+H01R  33/97  A	1	0	5E024	H01R  33/97	267	互いに並行な軸をもつ２個の導電ピン，刃または同様な接触子をもつ２極装置	Two conductive pins with axes parallel to each other, two-pole devices with blades or similar contacts
+H01R  33/97  B	1	0	5E024	H01R  33/97	95	ねじ込み型基板をもつ２極装置	Two-pole devices with screwed boards
+H01R  33/97  C	1	0	5E024	H01R  33/97	40	バヨネット型基板をもつ２極装置	Two-pole devices with bayonet board
+H01R  33/97  K	1	0	5E024	H01R  33/97	5	接続のゆるみ防止装置付３極以上のソケット	Sockets with three or more poles and devices for preventing loosened connection
+H01R  33/97  R	1	1	5E024	H01R  33/97	182	リレーまたはタイマー用	for relays or timers
+H01R  33/97  S	1	1	5E024	H01R  33/97	168	真空管またはブラウン管用	for CRTs or Brown tubes
+H01R  33/97  T	1	1	5E024	H01R  33/97	127	その他の接続のゆるみ防止装置付３極以上のソケット	Other sockets with three or more poles and devices for preventing loosened connection
+H01R  33/97  Z	1	0	5E024	H01R  33/97	39	その他	Others
+H01R  33/975  \	1	1	5E024	H01R  33/975	5	振動または衝撃に対して装置を保護するための弾性装置をもつホルダ［２００６．０１］	Holders with resilient means for protecting apparatus against vibrations or shocks [4]
+H01R  33/975  A	1	0	5E024	H01R  33/975	70	互いに並行な軸をもつ２個の導電ピン，刃または同様な接触子をもつ２極装置	Two conductive pins with axes parallel to each other, two-pole devices with blades or similar contacts
+H01R  33/975  B	1	0	5E024	H01R  33/975	47	ねじ込み型基板をもつ２極装置	Two-pole devices with screwed boards
+H01R  33/975  C	1	0	5E024	H01R  33/975	30	バヨネット型基板をもつ２極装置	Two-pole devices with bayonet board
+H01R  33/975  D	1	0	5E024	H01R  33/975	73	３極以上の極をもつ装置	Devices with three or more poles
+H01R  33/975  Z	1	0	5E024	H01R  33/975	23	その他	Others
+H01R  35/00  \	0	0	5E047	H01R  35/00	4	可撓性または屈曲可能な電線接続器（回転形集電装置，配電器Ｈ０１Ｒ３９／００）	Flexible or turnable line connectors (rotary current collectors, distributors H01R 39/00)
+H01R  35/00  A	0	0	5E047	H01R  35/00	99	電力用可撓接続	Flexible connections for electric power
+H01R  35/00  E	0	0	5E047	H01R  35/00	92	母線接続	Bus connection
+H01R  35/00  F	0	0	5E047	H01R  35/00	85	チューリップ形接続	Tulip connections
+H01R  35/00  G	0	0	5E047	H01R  35/00	22	軸回転形接続	Rotary axis connection
+H01R  35/00  M	0	0	5E047	H01R  35/00	56	通信用可撓接続	Flexible connections for telecommunications
+H01R  35/00  Z	0	0	5E047	H01R  35/00	23	その他のもの	Others
+H01R  35/02  \	1	1	5E047	H01R  35/02	4	可撓性電線接続器［４］	Flexible line connectors [4]
+H01R  35/02  A	1	0	5E047	H01R  35/02	88	電力用	for electric power
+H01R  35/02  B	1	0	5E047	H01R  35/02	201	編線薄板導体自体	Braided thin plate conductors per se
+H01R  35/02  C	1	0	5E047	H01R  35/02	92	母線接続	Bus connections
+H01R  35/02  D	1	0	5E047	H01R  35/02	26	母線端末	Bus terminals
+H01R  35/02  M	1	0	5E047	H01R  35/02	64	通信用	for telecommunications
+H01R  35/02  Z	1	0	5E047	H01R  35/02	32	その他	Others
+H01R  35/04  \	1	1	5E047	H01R  35/04	19	回転角度が制限された回転可能な電線接続器［４］	Turnable line connectors with limited rotation angle [4]
+H01R  35/04  A	1	0	5E047	H01R  35/04	102	電力用	for electric power
+H01R  35/04  B	1	0	5E047	H01R  35/04	96	立体回動〔ユニバーサル〕	Three-dimensional rotations (universal)
+H01R  35/04  C	1	0	5E047	H01R  35/04	165	平面回動	Plane rotations
+H01R  35/04  D	1	0	5E047	H01R  35/04	154	差込プラグ用	for inserting plugs
+H01R  35/04  E	1	0	5E047	H01R  35/04	132	機器用	for equipments
+H01R  35/04  F	1	0	5E047	H01R  35/04	483	ステアリング用	for steering
+H01R  35/04  N	1	1	5E047	H01R  35/04	143	導電部材の構造（Ｈ１２．４新設）	Construction of conductive member (New, Apr. 2000)
+H01R  35/04  P	1	2	5E047	H01R  35/04	155	ケーブル（Ｈ１２．４新設）	Cable (New, Apr. 2000)
+H01R  35/04  Q	1	2	5E047	H01R  35/04	107	導電リング（Ｈ１２．４新設）	Conductive ring (New, Apr. 2000)
+H01R  35/04  R	1	2	5E047	H01R  35/04	259	巻き取り機構（Ｈ１２．４新設）	Winding mechanism (New, Apr. 2000)
+H01R  35/04  S	1	1	5E047	H01R  35/04	246	回転部（Ｈ１２．４新設）	Rotating part (New, Apr. 2000)
+H01R  35/04  T	1	2	5E047	H01R  35/04	141	ロック（Ｈ１２．４新設）	Lock (New, Apr. 2000)
+H01R  35/04  U	1	2	5E047	H01R  35/04	69	位置表示または検出（Ｈ１２．４新設）	Representation and detection of position (New, Apr. 2000)
+H01R  35/04  G	1	0	5E047	H01R  35/04	90	電線同志の接続用	for connecting lines
+H01R  35/04  H	1	0	5E047	H01R  35/04	221	ヒンジ機構の接続	connecting hinge mechanisms
+H01R  35/04  J	1	0	5E047	H01R  35/04	368	電線自体が回動するもの	Rotary lines per se
+H01R  35/04  M	1	0	5E047	H01R  35/04	96	通信用	for telecommunications
+H01R  35/04  Z	1	0	5E047	H01R  35/04	34	その他	Others
+H01R  39/00  \	0	0	5E057	H01R  39/00	34	回転形集電装置，配電器または断続器［２００６．０１］	Rotary current collectors, distributors, or interrupters (cam-operated switches H01H 19/00; structural associations of current collectors with, or disposition of current collectors in, dynamo-electric motors or generators H02K 13/00)
+H01R  39/00  B	0	0	5E057	H01R  39/00	229	電動機発電機	Motor generators
+H01R  39/00  C	0	0	5E057	H01R  39/00	220	コードリール	Cord reels
+H01R  39/00  D	0	0	5E057	H01R  39/00	276	回転形集電装置一般	Rotary collectors in general
+H01R  39/00  E	0	1	5E057	H01R  39/00	56	同径の導電リングを並列配置	Conductive rings with identical diameter arranged in parallel
+H01R  39/00  F	0	2	5E057	H01R  39/00	187	外周で摺接するもの	Contacting while sliding on perimeter
+H01R  39/00  G	0	1	5E057	H01R  39/00	51	異径の導電リングを同軸状に配置	Coaxially arranged conductive rings with different diameters
+H01R  39/00  H	0	2	5E057	H01R  39/00	105	同一平面上に配置	Arranged on the same plane
+H01R  39/00  J	0	1	5E057	H01R  39/00	50	同形または相補形の部材を対向配置	Members with same or mutually supplementing shape arranged for facing each other
+H01R  39/00  K	0	1	5E057	H01R  39/00	51	回動軸端で摺接するもの	Contacting while sliding at rotating end
+H01R  39/00  L	0	1	5E057	H01R  39/00	16	移動線材と回転体との給電	Power feed between moving line material and rotating object
+H01R  39/00  M	0	1	5E057	H01R  39/00	30	導電液体によるもの	by conductive liquids
+H01R  39/00  N	0	1	5E057	H01R  39/00	22	光によるもの	by lights
+H01R  39/00  Z	0	0	5E057	H01R  39/00	52	その他のもの	Others
+H01R  39/02  \	1	1	5E057	H01R  39/02	28	細部［２００６．０１］	Details
+H01R  39/04  \	2	2	5E057	H01R  39/04	1510	整流子（その内，セグメントが回転電気機械の巻線延長部で作られたものＨ０２Ｋ）［２００６．０１］	Commutators (wherein the segments are formed by extensions of dynamo-electric machine winding H02K)
+H01R  39/06  \	3	3	5E057	H01R  39/06	298	外部円筒形接触面をもつもの以外のもの，例．平担な整流子［２００６．０１］	other than with external cylindrical contact surface, e.g. flat commutators
+H01R  39/08  \	2	2	5E057	H01R  39/08	466	集電環［２００６．０１］	Slip-rings
+H01R  39/10  \	3	3	5E057	H01R  39/10	90	外部円筒形接触面をもつもの以外のもの，例．平担な集電環［２００６．０１］	other than with external cylindrical contact surface, e.g. flat slip-rings
+H01R  39/12  \	3	3	5E057	H01R  39/12	21	接触面としてボールまたは軸表面を用いるもの［２００６．０１］	using bearing or shaft surface as contact surface
+H01R  39/14  \	2	2	5E057	H01R  39/14	179	整流子または集電環の軸への固着［２００６．０１］	Fastenings of commutators or slip-rings to shafts
+H01R  39/16  \	3	3	5E057	H01R  39/16	15	組み立て中または後に供給された成型または，鋳込材料によるもの［２００６．０１］	by means of moulded or cast material applied during or after assembly
+H01R  39/18  \	2	2	5E057	H01R  39/18	414	整流子または集電環と共働する接触子，例．接触刷子［２００６．０１］	Contacts for co-operation with commutator or slip-ring, e.g. contact brush
+H01R  39/20  \	3	3	5E057	H01R  39/20	759	その材料に特徴のあるもの［２００６．０１］	characterised by the material thereof
+H01R  39/22  \	4	4	5E057	H01R  39/22	69	潤滑材または光沢材成分をもつもの［２００６．０１］	incorporating lubricating or polishing ingredient
+H01R  39/24  \	3	3	5E057	H01R  39/24	565	積層接触子；針金接触子，例．金属刷子，炭素繊維［２００６．０１］	Laminated contacts; Wire contacts, e.g. metallic brush, carbon fibres
+H01R  39/26  \	3	3	5E057	H01R  39/26	933	固体摺動接触子，例．炭素刷子［２００６．０１］	Solid sliding contacts, e.g. carbon brush
+H01R  39/27  \	4	4	5E057	H01R  39/27	69	カーボン刷子上にスプリング圧を伝達する端末キャップ［２００６．０１］	End caps on carbon brushes to transmit spring pressure
+H01R  39/28  \	3	3	5E057	H01R  39/28	80	ローラ接触子；ボール接触子［２００６．０１］	Roller contacts; Ball contacts
+H01R  39/30  \	3	3	5E057	H01R  39/30	109	液体接触子［２００６．０１］	Liquid contacts
+H01R  39/32  \	2	2	5E057	H01R  39/32	533	導体の整流子セグメントへの接続［２００６．０１］	Connections of conductor to commutator segment
+H01R  39/34  \	2	2	5E057	H01R  39/34	134	導体の集電環への接続［２００６．０１］	Connections of conductor to slip-ring
+H01R  39/36  \	2	2	5E057	H01R  39/36	327	ケーブルまたは電線の刷子への接続［２００６．０１］	Connections of cable or wire to brush
+H01R  39/38  \	2	2	5E057	H01R  39/38	1280	刷子保持器［２００６．０１］	Brush holders
+H01R  39/39  \	3	3	5E057	H01R  39/39	256	その内で，刷子のホルダ内に固定されるもの［２００６．０１］	wherein the brush is fixedly mounted in the holder
+H01R  39/40  \	3	3	5E057	H01R  39/40	670	集電接続中に保持器内で刷子を移動できるもの［２００６．０１］	enabling brush movement within holder during current collection
+H01R  39/41  \	3	3	5E057	H01R  39/41	6	カートリッヂタイプ［２００６．０１］	cartridge type
+H01R  39/415  \	4	4	5E057	H01R  39/415	9	自己巻戻しスプリングをもつもの［２００６．０１］	with self-recoiling spring [4]
+H01R  39/42  \	2	2	5E057	H01R  39/42	510	刷子を持上げる装置［２００６．０１］	Devices for lifting brushes
+H01R  39/44  \	2	2	5E057	H01R  39/44	22	刷子を移動させる装置［２００６．０１］	Devices for shifting brushes
+H01R  39/46  \	2	2	5E057	H01R  39/46	122	電流伝送を改良しまたはスパークまたはアークを減少または防ぐ補助装置［２００６．０１］	Auxiliary means for improving current transfer, or for reducing or preventing sparking or arcing
+H01R  39/48  \	3	3	5E057	H01R  39/48	20	空気吹き付けによるもの；非導電液体または気体で集電装置を囲むことによるもの［２００６．０１］	by air blast; by surrounding collector with non-conducting liquid or gas
+H01R  39/50  \	3	3	5E057	H01R  39/50	21	刷子間に置かれたバリヤ［２００６．０１］	Barriers placed between brushes
+H01R  39/52  \	3	3	5E057	H01R  39/52	12	磁石の使用によるもの［２００６．０１］	by use of magnets
+H01R  39/54  \	3	3	5E057	H01R  39/54	373	刷子またはセグメント間のインピーダンスの使用によるもの［２００６．０１］	by use of impedance between brushes or segments
+H01R  39/56  \	2	2	5E057	H01R  39/56	63	集電子作動中集電環または整流子を滑らかにしまたはみがくための装置［２００６．０１］	Devices for lubricating or polishing slip-rings or commutators during operation of the collector
+H01R  39/58  \	2	2	5E057	H01R  39/58	363	集電装置と機構的に関連してその状態を表示する装置，例．刷子の摩耗を表示するもの［２００６．０１］	Means structurally associated with the current collector for indicating condition thereof, e.g. for indicating brush wear
+H01R  39/59  \	2	2	5E057	H01R  39/59	16	刷子に関連して機械的に電流を遮断するための装置（Ｈ０１Ｒ３９／５８が優先）［２００６．０１］	Means structurally associated with the brushes for interrupting current (H01R 39/58 takes precedence) [4]
+H01R  39/60  \	1	1	5E057	H01R  39/60	21	断続電流集電装置，例．整流装置，配電器，断続器（自己断続器Ｈ０１Ｈ，例．Ｈ０１Ｈ５１／３４）［２００６．０１］	Devices for interrupted current collection, e.g. commutating device, distributor, interrupter (self-interrupters H01H, e.g. H01H 51/34)
+H01R  39/62  \	2	2	5E057	H01R  39/62	15	同一セグメント組に対して共働する２個以上の刷子をもつもの［２００６．０１］	with more than one brush co-operating with the same set of segments
+H01R  39/64  \	1	1	5E057	H01R  39/64	24	連続電流集電装置［２００６．０１］	Devices for uninterrupted current collection
+H01R  41/00  \	0	0	5E026	H01R  41/00	34	電気回路の移動部分と固定部分間の接触を保持するための非回転形集電装置（先端がフックまたは類似の形になっているものＨ０１Ｒ１１／１２；電気的に推進される車の給電線に対する集電装置Ｂ６０Ｌ５／００）	Non-rotary current collectors for maintaining contact between moving and stationary parts of an electric circuit (end pieces terminating in a hook or the like H01R 11/12; current collectors for power supply lines of electrically-propelled vehicles B60L 5/00)
+H01R  41/00  A	0	0	5E026	H01R  41/00	141	非回転形集電装置	Non-rotary collectors
+H01R  41/00  B	0	1	5E026	H01R  41/00	255	固定形接続器一般	Fixed collectors in general
+H01R  41/00  C	0	2	5E026	H01R  41/00	40	回転防止	Preventing rotation
+H01R  41/00  D	0	2	5E026	H01R  41/00	65	操作レバー	Operating levers
+H01R  41/00  E	0	2	5E026	H01R  41/00	15	挟持接続	Gripping connections
+H01R  41/00  F	0	2	5E026	H01R  41/00	6	遠方制御	Remote control
+H01R  41/00  G	0	2	5E026	H01R  41/00	220	バスダクトプラグイン	Bus duct plug-in
+H01R  41/00  H	0	1	5E026	H01R  41/00	525	移動形接続器一般	Mobile connectors in general
+H01R  41/00  Z	0	0	5E026	H01R  41/00	33	その他のもの	Others
+H01R  41/02  \	1	1	5E026	H01R  41/02	7	断続電流集電装置，例．配電器（電動選択スイッチＨ０１Ｈ６７／００）	Devices for interrupted current collection, e.g. distributor (electrically-operated selector switches H01H 67/00)
+H01R  43/00  \	0	0	5E051	H01R  43/00	13	電線接続器または集電装置の製造，組立，保守または修理のためまたは導体接続のために特に採用される装置または方法（トロリー線のものＢ６０Ｍ１／２８）［２００６．０１］	Apparatus or processes specially adapted for manufacturing, assembling, maintaining, or repairing of line connectors or current collectors or for joining electric conductors (of trolley lines B60M 1/28; joining cables H02G 1/14)
+H01R  43/00  A	0	0	5E051	H01R  43/00	1309	ゴムまたはプラスチック絶縁ケーブル接続部の絶縁	Insulating rubber or plastic cable connections
+H01R  43/00  B	0	0	5E051	H01R  43/00	2316	コネクタの製造方法	Methods for manufacture of connector
+H01R  43/00  H	0	1	5E051	H01R  43/00	1481	エラストマーコネクタの製造方法	Methods for manufacture of elastomer connectors
+H01R  43/00  C	0	0	5E051	H01R  43/00	178	接地抵抗低減	Reducing grounding resistances
+H01R  43/00  D	0	0	5E051	H01R  43/00	323	接地方法	Grounding methods
+H01R  43/00  E	0	0	5E051	H01R  43/00	122	レールボンド取付け	Mounting rail bonds
+H01R  43/00  F	0	0	5E051	H01R  43/00	46	接地棒の製造方法	Methods for manufacture of grounding rods
+H01R  43/00  G	0	0	5E051	H01R  43/00	248	電線切断工具	Cable cutting tools
+H01R  43/00  J	0	0	5E051	H01R  43/00	275	フラットケーブルまたはリボンケーブルの接続	Connecting flat or ribbon cables
+H01R  43/00  Z	0	0	5E051	H01R  43/00	4182	その他	Others
+H01R  43/01  \	1	1	5E051	H01R  43/01	5	絶縁部を切断する刃を有する接触部材に未剥離導体を接続するためのもの［２００６．０１］	for connecting unstripped conductors to contact members having insulation cutting edges [4]
+H01R  43/01  A	1	0	5E051	H01R  43/01	254	心線接続	Connecting cores
+H01R  43/01  Z	1	0	5E051	H01R  43/01	1125	その他〔圧接接続のためのもの（ワイヤハーネスの製造→Ｈ０１Ｂ１３／００）〕	Others (for crimp connections (manufacture of wire harnesses R H 01 B 13/00))
+H01R  43/02  \	1	1	5E051	H01R  43/02	44	はんだまたは溶接接続のためのもの［２００６．０１］	for soldered or welded connections (soldering or welding in general B23K)
+H01R  43/02  A	1	0	5E051	H01R  43/02	1628	はんだ付け	Soldering
+H01R  43/02  B	1	0	5E051	H01R  43/02	1633	溶接接続	Weld connections
+H01R  43/02  Z	1	0	5E051	H01R  43/02	189	その他	Others
+H01R  43/027  \	1	1	5E063	H01R  43/027	52	クリップによって導体を接続するためのもの［２００６．０１］	for connecting conductors by clips [4]
+H01R  43/033  \	1	1	5E063	H01R  43/033	392	電線の接続部を巻きまたはほどくためのもの［２００６．０１］	for wrapping or unwrapping wire connections [4]
+H01R  43/04  \	1	1	5E063	H01R  43/04	24	変形による接続を形成するためのもの，例．圧縮工具［２００６．０１］	for forming connections by deformation, e.g. crimping tool
+H01R  43/04  A	1	0	5E063	H01R  43/04	50	爆発接続	Explosion connections
+H01R  43/04  Z	1	0	5E063	H01R  43/04	389	その他〔はとめ→Ｂ２１Ｄ３９〕	Others (eyelets R B 21 D 39)
+H01R  43/042  \	2	2	5E063	H01R  43/042	657	圧縮するための手工具［２００６．０１］	Hand tools for crimping [4]
+H01R  43/045  \	3	3	5E063	H01R  43/045	95	接触部材供給機構をもつもの［２００６．０１］	with contact member feeding mechanism [4]
+H01R  43/048  \	2	2	5E063	H01R  43/048	110	圧縮装置または圧縮方法（Ｈ０１Ｒ４３／０４２が優先）［２００６．０１］	Crimping apparatus or processes (H01R 43/042 takes precedence) [4]
+H01R  43/048  A	2	0	5E063	H01R  43/048	425	圧縮用金型	Crimping die sets
+H01R  43/048  Z	2	0	5E063	H01R  43/048	2299	その他〔電線同志または電線と端子の圧着装置等；圧接接続装置，Ｈ０１Ｒ４３／０１Ｚ〕	Others (apparatuses for crimping between cables, or cable and terminal; crimping connectors 43/01 Z)
+H01R  43/05  \	3	3	5E063	H01R  43/05	265	電線の絶縁剥離を行うもの［２００６．０１］	with wire-insulation stripping [4]
+H01R  43/052  \	3	3	5E063	H01R  43/052	439	電線供給機構を有するもの［２００６．０１］	with wire-feeding mechanism [4]
+H01R  43/055  \	3	3	5E063	H01R  43/055	530	接触部材供給機構を有するもの［２００６．０１］	with contact member feeding mechanism [4]
+H01R  43/058  \	2	2	5E063	H01R  43/058	9	圧縮マンドレル［２００６．０１］	Crimping mandrels [4]
+H01R  43/06  \	1	1	5E063	H01R  43/06	424	整流子の製造［２００６．０１］	Manufacture of commutators
+H01R  43/08  \	2	2	5E063	H01R  43/08	205	その内でセグメントが組み立てられた後まで分離されないもの［２００６．０１］	in which segments are not separated until after assembly
+H01R  43/10  \	1	1	5E063	H01R  43/10	78	集電環の製造［２００６．０１］	Manufacture of slip-rings
+H01R  43/12  \	1	1	5E063	H01R  43/12	441	刷子の製造［２００６．０１］	Manufacture of brushes
+H01R  43/14  \	1	1	5E063	H01R  43/14	159	集電装置の保守（例，刷子の整形，集電子の掃除）［２００６．０１］	Maintenance of current collectors, e.g. reshaping of brushes, cleaning of commutators
+H01R  43/16  \	1	1	5E063	H01R  43/16	2163	接触部材を製造するためのもの（例，型押しによるものまたは曲げによるもの）［２００６．０１］	for manufacturing contact members, e.g. by punching and by bending [4]
+H01R  43/18  \	1	1	5E063	H01R  43/18	277	接触部材のための基台またはケースを製造するためのもの［２００６．０１］	for manufacturing bases or cases for contact members [4]
+H01R  43/20  \	1	1	5E063	H01R  43/20	88	接触部材と絶縁性の基台，ケースまたはスリーブとを組み立てまたは解体するためのもの［２００６．０１］	for assembling or disassembling contact members with insulating base, case or sleeve [4]
+H01R  43/20  A	1	0	5E063	H01R  43/20	524	自動端子取付け〔プリント基板，コネクタハウジング等への端子の自動機による取付け〕	Automatic terminal mounting (mounting of terminals on printed circuit boards or connector housings by automatic machines)
+H01R  43/20  Z	1	0	5E063	H01R  43/20	1886	その他〔気密端子の製造，電線は端子のハウジングへの挿入等；気密端子，Ｈ０１Ｒ９／１６・１０１〕	Others (manufacture of airtight terminals, inserting cables or terminals into housing; airtight terminals H 01 R 9/16, 101)
+H01R  43/22  \	2	2	5E063	H01R  43/22	296	手工具［２００６．０１］	Hand tools [4]
+H01R  43/24  \	2	2	5E063	H01R  43/24	1016	接触部材への注型によりつくりあげるもの［２００６．０１］	Assembling by moulding on contact members [4]
+H01R  43/26  \	1	1	5E063	H01R  43/26	781	嵌合装置の２個の部品を係合させる，または解放させるためのもの（嵌合装置との構造的な組み合わせＨ０１Ｒ１３／６２９）［２００６．０１］	for engaging or disengaging the two parts of a coupling device (structural association with coupling device H01R 13/629) [4]
+H01R  43/28  \	1	1	5E063	H01R  43/28	402	Ｈ０１Ｒ４３／０２〜Ｈ０１Ｒ４３／２６のグループに分類されない接触部材を接続する前に電線を処理するためのもの［２００６．０１］	for wire processing before connecting to contact members (H01R 43/02-H01R 43/26 take precedence) [4]
+H01R 101:00  \	0	0		H01R 101/00	33	１極［７］	Indexing scheme associated with group H01R 24/00, relating to the number of poles in a two-part coupling device.
+H01R 103:00  \	0	0		H01R 103/00	484	２極［７］	Two poles [7]
+H01R 105:00  \	0	0		H01R 105/00	10	３極［７］	Three poles [7]
+H01R 107:00  \	0	0		H01R 107/00	866	４極以上［７］	Four or more poles [7]

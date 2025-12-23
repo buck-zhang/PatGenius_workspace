@@ -1,0 +1,657 @@
+B21B   1/00  \	0	0	4E002	B21B   1/00	277	中実または輪かく状断面をもつ半製品を製造するための金属圧延方法または圧延機（Ｂ２１Ｂ１７／００〜Ｂ２１Ｂ２３／００が優先；圧延される材料の組成に関するものＢ２１Ｂ３／００；２箇所以上の部分で同時に圧延する金属帯閉鎖体の伸延Ｂ２１Ｂ５／００；ユニットとしての金属圧延スタンドＢ２１Ｂ１３／００；動くロールによって形成される壁をもつ鋳型への連続鋳造Ｂ２２Ｄ１１／０６）；圧延機列による連続作業；圧延機設備のレイアウト，例．スタンドの集合化；バスの連続またはカリバー形状の連続的変化	Metal rolling methods or mills for making semi-finished products of solid or profiled cross-section (B21B 17/00-B21B 23/00 take precedence; with respect to composition of material to be rolled B21B 3/00; extending closed shapes of metal bands by simultaneous rolling at two or more zones B21B 5/00; metal-rolling stands as units B21B 13/00; continuous casting into moulds having walls formed by moving rolls B22D 11/06); Sequence of operations in milling trains; Layout of rolling-mill plant, e.g. grouping of stands; Succession of passes or of sectional pass alternations
+B21B   1/00  A	0	0	4E002	B21B   1/00	95	圧延一般	Metal rolling in general
+B21B   1/00  B	0	0	4E002	B21B   1/00	370	連鋳・直送圧延，すなわちＣＣＤＲ［ｃｏｎｔｉｎｕｏｕｓ　ｃａｓｔｉｎｇ　ｄｉｒｅｃｔ　ｒｏｌｌｉｎｇ］	CCDR (continuous casting direct rolling)
+B21B   1/00  C	0	0	4E002	B21B   1/00	196	ホットチャージ圧延，すなわちＨＣＲ［ｈｏｔ　ｃｈａｒｇｅ　ｒｏｌｌｉｎｇ］	HCR (hot charge rolling)
+B21B   1/00  D	0	0	4E002	B21B   1/00	59	条材のＣＣＤＲ，ＨＣＲ	CCDR, HCR of thread materials
+B21B   1/00  Z	0	0	4E002	B21B   1/00	10	その他	Others
+B21B   1/02  \	1	1	4E002	B21B   1/02	586	断面形状が重要でない重い素材，例．インゴット，スラブ，ビレット，の圧延のためのもの	for rolling heavy work, e.g. ingots, slabs, billets, in which the cross-sectional form is unimportant
+B21B   1/02  A	1	0	4E002	B21B   1/02	261	分塊圧延によるインゴットからのスラブの製造	Blooming mill (manufacturing slab from ingot)
+B21B   1/02  B	1	0	4E002	B21B   1/02	212	分塊圧延によるインゴットからのブルームまたはビレットの製造	Blooming mill (manufacturing bloom, billet from ingot)
+B21B   1/02  C	1	0	4E002	B21B   1/02	42	スラブまたは鋼片の押込み式高圧下圧延	Rolling of slab, billet by intruding under high pressure
+B21B   1/02  D	1	0	4E002	B21B   1/02	620	スラブまたは鋼片の処理または圧延に関するもの	Related to treatment or rolling of slab, billet
+B21B   1/02  E	1	0	4E002	B21B   1/02	736	スラブの幅圧下圧延または幅拡大	Rolling of slab width under pressure (involving width increase)
+B21B   1/02  Z	1	0	4E002	B21B   1/02	25	その他	Others
+B21B   1/04  \	2	2	4E002	B21B   1/04	19	連続工程中におけるもの	in a continuous process
+B21B   1/06  \	2	2	4E002	B21B   1/06	6	不連続工程中におけるもの	in a non-continuous process
+B21B   1/08  \	1	1	4E002	B21B   1/08	600	特定の断面をもつ素材，例．アングル山形鋼，のためのもの	for rolling work of special cross-section, e.g. rails, I-beams, U-irons, angle steel (rolling metal of indefinite length in repetitive shapes specially designed for the manufacture of particular objects B21H 8/00)
+B21B   1/08  A	1	0	4E002	B21B   1/08	193	スラブからのドックボーン形粗形鋼片圧延	Rolling of dogbane shaped blooms (from slab)
+B21B   1/08  B	1	0	4E002	B21B   1/08	96	鋼塊ビームブランクからのドックボーン形粗形鋼片圧延	Rolling of dogbane shaped blooms (from steel ingot beam blank)
+B21B   1/08  N	1	0	4E002	B21B   1/08	11	π−断面	Rolling &pi;-steel
+B21B   1/08  R	1	0	4E002	B21B   1/08	113	四辺形−断面	Rolling of materials with rectangle cross-section
+B21B   1/08  S	1	0	4E002	B21B   1/08	141	突起付きまたは溝付き−断面	Rolling of materials with juts, grooves
+B21B   1/08  T	1	0	4E002	B21B   1/08	24	Ｙ，Ｘまたは＊−断面	Rolling Y-, X-, *-type materials
+B21B   1/08  Z	1	0	4E002	B21B   1/08	372	その他	Others
+B21B   1/082  \	2	2	4E002	B21B   1/082	255	壁を作るために，互いに組合わさることに特に適した平行な縁を持つ矢板の断面［８］	Piling sections having lateral edges specially adapted for interlocking with each other in order to build a wall
+B21B   1/085  \	2	2	4E002	B21B   1/085	138	レール断面［８］	Rail sections
+B21B   1/088  \	2	2	4E002	B21B   1/088	31	Ｈ−またはＩ−断面［８］	H- or I-sections
+B21B   1/088  A	2	0	4E002	B21B   1/088	155	ウェブの偏り防止またはフィレット部の強度改善を目的とするもの	for the purpose of preventing web deviation or of improving strength of fillet part
+B21B   1/088  B	2	0	4E002	B21B   1/088	127	曲がり防止または残留応力軽減を目的とするもの	for the purpose of preventing bend or of decreasing residual stress
+B21B   1/088  C	2	0	4E002	B21B   1/088	43	非対称−断面	asymmetry - cross section
+B21B   1/088  Z	2	0	4E002	B21B   1/088	700	その他	Others
+B21B   1/09  \	2	2	4E002	B21B   1/09	177	Ｌ−断面［８］	L-sections
+B21B   1/092  \	2	2	4E002	B21B   1/092	83	Ｔ−断面［８］	T-sections
+B21B   1/095  \	2	2	4E002	B21B   1/095	194	Ｕ−またはみぞ−断面［８］	U- or channel sections
+B21B   1/098  \	2	2	4E002	B21B   1/098	3	Ｚ−断面［８］	Z-sections
+B21B   1/10  \	2	2	4E002	B21B   1/10	82	単台の２段圧延機または単台のユニバーサル圧延機によるもの	in a single two-high or universal rolling mill
+B21B   1/12  \	2	2	4E002	B21B   1/12	33	連続工程中におけるもの	in a continuous process
+B21B   1/14  \	2	2	4E002	B21B   1/14	6	不連続工程中におけるもの	in a non-continuous process
+B21B   1/16  \	1	1	4E002	B21B   1/16	338	線材または類似の小断面を有する材料の圧延のためのもの	for rolling wire or material of like small cross-section
+B21B   1/16  A	1	0	4E002	B21B   1/16	29	棒材の押込み高圧下圧延	Rolling of bars by intruding under high pressure
+B21B   1/16  B	1	0	4E002	B21B   1/16	1057	棒または線材の圧延	Rolling of bars, wire
+B21B   1/16  K	1	0	4E002	B21B   1/16	145	リブ付鉄筋棒または線材の圧延	Rolling of reinforced bars (or wire) with ribs
+B21B   1/16  L	1	0	4E002	B21B   1/16	215	非鉄の棒または線材の圧延	Rolling of bars, wire (non-ferrous)
+B21B   1/16  M	1	0	4E002	B21B   1/16	81	細線の圧延	Rolling of fine wire
+B21B   1/16  Z	1	0	4E002	B21B   1/16	34	その他	Others
+B21B   1/18  \	2	2	4E002	B21B   1/18	378	連続工程中におけるもの	in a continuous process
+B21B   1/20  \	2	2	4E002	B21B   1/20	5	不連続工程中におけるもの	in a non-continuous process
+B21B   1/22  \	1	1	4E002	B21B   1/22	1050	長さの不定な帯または板の圧延のためのもの（Ｂ２１Ｂ１／４２が優先する）	for rolling bands or sheets of indefinite length (B21B 1/42 takes precedence)
+B21B   1/22  A	1	0	4E002	B21B   1/22	494	板の圧延方法一般	(Sheets) Rolling methods in general
+B21B   1/22  B	1	0	4E002	B21B   1/22	432	クラッド板の圧延	(Sheets) Rolling clad sheets
+B21B   1/22  C	1	0	4E002	B21B   1/22	331	模様板の圧延	(Sheets) Rolling patterned sheets
+B21B   1/22  D	1	0	4E002	B21B   1/22	200	板のクロス圧延，例．ワークロールまたはバックアップロールの傾斜	(Sheets) Cross rolling (involving the incline of backup rolls)
+B21B   1/22  F	1	0	4E002	B21B   1/22	337	板のＤＲ圧延または異速圧延	(Sheets) DR rolling, rolling with different speeds
+B21B   1/22  G	1	0	4E002	B21B   1/22	114	板の異径ロールによる圧延	(Sheets) Rolling by rolls with different diameters
+B21B   1/22  H	1	0	4E002	B21B   1/22	793	板の調質圧延	(Sheets) refining rolling
+B21B   1/22  M	1	0	4E002	B21B   1/22	552	板の熱間圧延	(Sheets) hot-rolling
+B21B   1/22  J	1	0	4E002	B21B   1/22	167	コールドストリップミルライン，例．装置配列に関するもの	Cold strip mill lines
+B21B   1/22  K	1	0	4E002	B21B   1/22	861	板の冷間圧延	(Sheets) cold-rolling
+B21B   1/22  L	1	0	4E002	B21B   1/22	1210	板の冷間圧延において潤滑に関するものまたはロール表面に特徴のあるもの	(Sheets) cold-rolling (related to lubrication, characterized by roll surfaces)
+B21B   1/22  Z	1	0	4E002	B21B   1/22	43	その他	Others
+B21B   1/24  \	2	2	4E002	B21B   1/24	152	連続工程中におけるもの	in a continuous process
+B21B   1/26  \	3	3	4E002	B21B   1/26	439	熱間圧延によるもの	by hot-rolling
+B21B   1/26  A	3	0	4E002	B21B   1/26	269	ホットストリップの粗圧延工程の幅圧延，幅の拡大	Hot strip, width rolling in rough rolling process (including width-enlarging)
+B21B   1/26  B	3	0	4E002	B21B   1/26	315	ホットストリップの粗圧延	Hot strip, rough rolling
+B21B   1/26  C	3	0	4E002	B21B   1/26	636	ホットストリップの接合	Hot strip (joint)
+B21B   1/26  D	3	0	4E002	B21B   1/26	794	ホットストリップ	Hot strip
+B21B   1/26  E	3	0	4E002	B21B   1/26	987	ホットストリップの仕上圧延	Hot strip, finish rolling
+B21B   1/26  Z	3	0	4E002	B21B   1/26	88	その他	Others
+B21B   1/28  \	3	3	4E002	B21B   1/28	503	冷間圧延によるもの	by cold-rolling
+B21B   1/30  \	2	2	4E002	B21B   1/30	9	不連続工程中におけるもの	in a non-continuous process
+B21B   1/32  \	3	3	4E002	B21B   1/32	233	可逆圧延機におけるもの，例．素材を蓄積するための中間貯蔵リールをもつもの	in reversing mills, e.g. with intermediate storage reels for accumulating work
+B21B   1/34  \	4	4	4E002	B21B   1/34	81	熱間圧延によるもの	by hot-rolling
+B21B   1/36  \	4	4	4E002	B21B   1/36	127	冷間圧延によるもの	by cold-rolling
+B21B   1/38  \	1	1	4E002	B21B   1/38	417	限定された長さの板の圧延のためのもの，例．折り曲げ板，かさね板（Ｂ２１Ｂ１／４０が優先；圧延前の金属板の折重ねまたは圧延後の積層の分離Ｂ２１Ｂ４７／００）［２］	for rolling sheets of limited length, e.g. folded sheets, superimposed sheets (B21B 1/40 takes precedence; folding sheets before, or separating layers after, rolling B21B 47/00) [2]
+B21B   1/38  A	1	0	4E002	B21B   1/38	722	厚板一般	Slabs in general
+B21B   1/38  B	1	0	4E002	B21B   1/38	168	厚板の幅出し，例．スラブを転回するもの	Slabs, tentering (spinning slabs)
+B21B   1/38  C	1	0	4E002	B21B   1/38	90	厚板の圧延においてＶロールを使用するもの	Slabs, using V-rolls
+B21B   1/38  K	1	0	4E002	B21B   1/38	244	厚板のテーパ圧延，例．段付板または差厚板	Slabs, taper rolls (including slabs tiered, or with different thickness, excluding slabs with crowns)
+B21B   1/38  L	1	0	4E002	B21B   1/38	271	限定された長さのクラッド板の圧延	Rolling clad sheets (with limited length)
+B21B   1/38  Z	1	0	4E002	B21B   1/38	76	その他	Others
+B21B   1/40  \	1	1	4E002	B21B   1/40	609	特別な問題のある箔の圧延のためのもの，例．薄さのせいによるもの	for rolling foils which present special problems, e.g. because of thinness
+B21B   1/42  \	1	1	4E002	B21B   1/42	80	段階圧延または遊星圧延のためのもの（ビルガー圧延による管の製造Ｂ２１Ｂ２１／００）	for step-by-step or planetary rolling (making tubes by pilgrim-step rolling B21B 21/00)
+B21B   1/46  \	1	1	4E002	B21B   1/46	253	連続鋳造後ただちに金属を圧延するためのもの（金属圧延スタンドＢ２１Ｂ１３／２２；連続鋳造Ｂ２２Ｄ１１／００，例．ロールをもつ鋳型へのものＢ２２Ｄ１１／０６）［３］	for rolling metal immediately subsequent to continuous casting (metal-rolling stands B21B 13/22; continuous casting B22D 11/00, e.g. into moulds with rolls B22D 11/06) [3]
+B21B   1/46  A	1	0	4E002	B21B   1/46	157	連鋳圧延一般	Continuous casting rolling in general
+B21B   1/46  B	1	0	4E002	B21B   1/46	555	スラブまたは板の連鋳圧延	Continuous casting rolling of slabs, sheets
+B21B   1/46  C	1	0	4E002	B21B   1/46	142	条材の連鋳圧延	Continuous casting rolling of thread materials
+B21B   1/46  K	1	0	4E002	B21B   1/46	129	ベルト式連鋳圧延（Ｂ２１Ｂ１／４６Ｂが優先）	Belt type continuous casting rolling (continuous casting rolling of slabs, sheets take precedence)
+B21B   1/46  L	1	0	4E002	B21B   1/46	102	溶湯圧延	Liquid rolling
+B21B   1/46  M	1	0	4E002	B21B   1/46	21	段階圧延または遊星圧延による連鋳圧延	Continuous casting rolling by step-by-step or planetary rolling
+B21B   1/46  Z	1	0	4E002	B21B   1/46	9	その他	Others
+B21B   3/00  \	0	0	4E002	B21B   3/00	97	合金の組成によって特別な圧延法または圧延順序が必要とされまたは許容される組成をもった特殊合金材料の圧延（合金の特別な冶金的性質を変えること，その結果生ずる組織の強化または機械的性質の改善Ｃ２１Ｄ，Ｃ２２Ｆ）	Rolling materials of special alloys so far as the composition of the alloy requires or permits special rolling methods or sequences (altering special metallurgical properties of alloys, other than structure consolidation or mechanical properties resulting therefrom C21D, C22F)
+B21B   3/00  A	0	0	4E002	B21B   3/00	2416	〔スラブ・板〕鉄合金〔普通鋼のみ〕	(Slabs, sheets) ferroalloy (only ordinary steel)
+B21B   3/00  D	0	0	4E002	B21B   3/00	376	〔条〕鉄合金	(Threads) ferrous alloy
+B21B   3/00  J	0	0	4E002	B21B   3/00	1105	アルミニウム合金	Aluminium alloy
+B21B   3/00  K	0	0	4E002	B21B   3/00	462	チタン合金・ジルコニウム合金	Titan alloy, zirconium alloy
+B21B   3/00  L	0	0	4E002	B21B   3/00	859	非鉄合金〔Ａｌ，Ｔｉ，Ｚｙ合金を除く〕	Non-ferrous alloy (excluding Al, Ti, Zy)
+B21B   3/00  Z	0	0	4E002	B21B   3/00	52	その他	Others
+B21B   3/02  \	1	1	4E002	B21B   3/02	2040	特殊鉄合金の圧延	Rolling special iron alloys
+B21B   5/00  \	0	0	4E002	B21B   5/00	227	圧延による金属帯閉鎖体の伸延（円筒形の製造，例．輪状リム，Ｂ２１Ｈ１／０６）	Extending closed shapes of metal bands by rolling (manufacture of circular shapes, e.g. wheel rims, B21H 1/06)
+B21B   9/00  \	0	0	4E002	B21B   9/00	17	特別な条件下，例．素材の酸化を防止するための真空または不活性雰囲気中などの条件下，で圧延作業を遂行するための手段；圧延機から煙霧を除去するための特別な手段	Measures for carrying out rolling operations under special conditions, e.g. in vacuum or inert atmosphere to prevent oxidation of work; Special measures for removing fumes from rolling mills
+B21B   9/00  A	0	0	4E002	B21B   9/00	64	公害防止	Prevention of pollution
+B21B   9/00  Z	0	0	4E002	B21B   9/00	147	その他	Others
+B21B  11/00  \	0	0	4E002	B21B  11/00	30	ロールまたは素材に振動を与えて圧延工程を援助するもの	Subsidising the rolling processes by subjecting rollers or work to vibrations
+B21B  13/00  \	0	0	4E021	B21B  13/00	10	金属圧延スタンド，すなわちスタンドフレーム，ロールおよび付属品からなる組立体（Ｂ２１Ｂ１７／００〜Ｂ２１Ｂ２３／００が優先）［２００６．０１］	Metal-rolling stands, i.e. an assembly composed of a stand frame, rolls, and accessories (B21B 17/00-B21B 23/00 take precedence) [2006.01]
+B21B  13/00  A	0	0	4E021	B21B  13/00	158	〔板〕ＤＲ圧延機・マルチパス圧延機	(Sheets) DR rolling mills, multi-path rolling mills
+B21B  13/00  B	0	0	4E021	B21B  13/00	69	〔条〕片持式圧延機	(Threads) cantilevered rolling mills
+B21B  13/00  C	0	0	4E021	B21B  13/00	85	〔条〕傾斜型遊星圧延機	(Threads) inclined-type planetary rolling mills
+B21B  13/00  D	0	0	4E021	B21B  13/00	67	〔条〕圧延スタンド〔特殊〕	(Threads) rolling stands (specific)
+B21B  13/00  E	0	0	4E021	B21B  13/00	66	水平・垂直両用圧延機〔コンビネ−シヨンミル他の兼用・多目的圧延機を含む〕	Rolling mills used both horizontally and vertically (involving usage of combination mills and others, multi-purpose rolling mills)
+B21B  13/00  Z	0	0	4E021	B21B  13/00	18	その他	Others
+B21B  13/02  \	1	1	4E021	B21B  13/02	7	水平に配置されたロール軸をもつもの	with axes of rolls arranged horizontally
+B21B  13/02  A	1	0	4E021	B21B  13/02	281	〔板〕水平圧延機	(Sheets) horizontal rolling mills
+B21B  13/02  B	1	0	4E021	B21B  13/02	178	〔条〕水平圧延機	(Threads) horizontal rolling mills
+B21B  13/02  Z	1	0	4E021	B21B  13/02	5	その他	Others
+B21B  13/04  \	2	2	4E021	B21B  13/04	31	三段配置	Three-high arrangement
+B21B  13/06  \	1	1	4E021	B21B  13/06	7	垂直に配置されたロール軸をもつもの	with axes of rolls arranged vertically
+B21B  13/06  A	1	0	4E021	B21B  13/06	1372	〔板〕垂直圧延機	(Sheets) vertical rolling mills
+B21B  13/06  B	1	0	4E021	B21B  13/06	57	〔条〕垂直圧延機	(Treads) vertical rolling mills
+B21B  13/06  Z	1	0	4E021	B21B  13/06	8	その他	Others
+B21B  13/08  \	1	1	4E021	B21B  13/08	71	異った方向のロール軸をもつもの，例．いわゆる“ユニバーサル”圧延のためのもの	with differently-directed roll axes, e.g. for the so-called "universal" rolling process
+B21B  13/10  \	2	2	4E021	B21B  13/10	10	一つの面に全ての軸が配置されているもの	all axes being arranged in one plane
+B21B  13/10  A	2	0	4E021	B21B  13/10	425	〔条〕ユニバ−サル圧延機	(Threads) universal rolling mills
+B21B  13/10  B	2	0	4E021	B21B  13/10	177	〔条〕多ロ−ル配置圧延機	(Threads) Rolling mills with multi-roll arrangement
+B21B  13/10  Z	2	0	4E021	B21B  13/10	12	その他	Others
+B21B  13/12  \	2	2	4E021	B21B  13/12	4	異った面に軸が配置しているもの	axes being arranged in different planes
+B21B  13/12  A	2	0	4E021	B21B  13/12	93	〔板〕ユニバ−サル圧延機	(Sheets) universal rolling mills
+B21B  13/12  B	2	0	4E021	B21B  13/12	203	〔条〕ユニバ−サルタンデム圧延機	(Threads) universal tandem rolling mills
+B21B  13/12  Z	2	0	4E021	B21B  13/12	8	その他	Others
+B21B  13/14  \	1	1	4E021	B21B  13/14	21	負荷時にロールの撓みを防ぐため，逆圧力をロールに負荷する装置をもつもの（そのようにして逆圧力を負荷する装置Ｂ２１Ｂ２９／００）	having counter-pressure devices acting on rolls to inhibit deflection of same under load (counter-pressure devices as such B21B 29/00)
+B21B  13/14  A	1	0	4E021	B21B  13/14	600	〔板〕多段圧延機	(Sheets) multi-step rolling mills
+B21B  13/14  B	1	0	4E021	B21B  13/14	91	片側クラスタ−〔小径ＷＲ〕・上下異径ＷＲ圧延機	Cluster on one side (minor diameter WR), WR rolling mills with different upper and lower diameters
+B21B  13/14  C	1	0	4E021	B21B  13/14	232	ＷＲ撓み補正付圧延機	WR rolling mills with deflection compensation
+B21B  13/14  D	1	1	4E021	B21B  13/14	380	ロ−ル圧延方向撓み補正付圧延機	Rolling mills with compensation of deflection in rolling directions
+B21B  13/14  E	1	0	4E021	B21B  13/14	100	〔板〕プレストレス圧延機	(Sheets) Pre-stressed rolling mills
+B21B  13/14  F	1	0	4E021	B21B  13/14	383	ＨＣミル（中間又は補強ロ−ル軸方向移動型圧延機）	HC mills (rolling mills moving toward intermediate or reinforced rolling axis)
+B21B  13/14  G	1	0	4E021	B21B  13/14	441	ＨＣＷミル（作業ロ−ル軸方向移動型圧延機）	HCW mills (rolling mills moving toward axis of operating rolls)
+B21B  13/14  H	1	0	4E021	B21B  13/14	99	スリ−ブ遊嵌ロ−ル形式圧延機	Rolling mills of sleeve-allowance fitting roll type
+B21B  13/14  J	1	0	4E021	B21B  13/14	102	固定式ロ−ル面長制御圧延機	Rolling mills of stationary type for longitudinal control
+B21B  13/14  K	1	0	4E021	B21B  13/14	399	〔板〕クロスロ−ル圧延機	(Sheets)Cross-roll rolling mills
+B21B  13/14  L	1	0	4E021	B21B  13/14	148	〔板〕オフセツト圧延機	(Sheets) offset rolling mills
+B21B  13/14  M	1	0	4E021	B21B  13/14	139	ＶＣロ−ル圧延機（可変クラウンロ−ル圧延機）	VC roll rolling mills (variable crown roll rolling mills)
+B21B  13/14  Z	1	0	4E021	B21B  13/14	11	その他	Others
+B21B  13/16  \	1	1	4E021	B21B  13/16	47	選択的運転が可能なロールをもつもの	with alternatively operative rolls
+B21B  13/18  \	1	1	4E021	B21B  13/18	2	段階圧延または遊星圧延のためのもの（方法Ｂ２１Ｂ１／４２；ピルガー圧延による管の製造Ｂ２１Ｂ２１／００）	for step-by-step or planetary rolling (methods B21B 1/42; making tubes by pilgrim-step rolling B21B 21/00)
+B21B  13/18  A	1	0	4E021	B21B  13/18	38	〔条〕ピルガ−圧延機	(Threads) pilgrim step rolling mills
+B21B  13/18  B	1	0	4E021	B21B  13/18	63	〔板〕Ｓｔｅｐ−ｂｙ−Ｓｔｅｐ圧延機	(Sheets) step-by-step rolling mills
+B21B  13/18  Z	1	0	4E021	B21B  13/18	4	その他	Others
+B21B  13/20  \	2	2	4E021	B21B  13/20	2	遊星圧延のためのもの	for planetary rolling
+B21B  13/20  A	2	0	4E021	B21B  13/20	36	〔板〕遊星圧延機〔単軸〕	(Sheets) planetary rolling mills (mono-axis)
+B21B  13/20  B	2	0	4E021	B21B  13/20	98	〔板〕遊星圧延機〔両軸〕	(Sheets) planetary rolling mills (bi-axis)
+B21B  13/20  C	2	0	4E021	B21B  13/20	32	〔条〕遊星圧延機	(Threads) planetary rolling mills
+B21B  13/20  Z	2	0	4E021	B21B  13/20	4	その他	Others
+B21B  13/22  \	1	1	4E021	B21B  13/22	181	連続鋳造後ただちに金属を圧延するためのもの（方法Ｂ２１Ｂ１／４６；連続鋳造Ｂ２２Ｄ１１／００，例．ロールをもつ鋳型へのものＢ２２Ｄ１１／０６）	for rolling metal immediately subsequent to continuous casting (methods therefor B21B 1/46; continuous casting B22D 11/00, e.g. into moulds with rolls B22D 11/06)
+B21B  15/00  \	0	0	4E022	B21B  15/00	37	特に金属圧延機に連結または組み込まれた，あるいは特に金属圧延機に関連する用途に適用されている付加的金属加工作業を行うための装置	Arrangements for performing additional metal-working operations specially combined with or arranged in, or specially adapted for use in connection with, metal-rolling mills
+B21B  15/00  A	0	0	4E022	B21B  15/00	1150	接合	Junction
+B21B  15/00  B	0	0	4E022	B21B  15/00	705	圧延材の切断〔クロツプ処理を除く〕	Cutting-off rolled materials (excluding cropping)
+B21B  15/00  C	0	0	4E022	B21B  15/00	300	〔板〕〔スラブ〕クロツプ処理	(Sheets) (slabs) cropping
+B21B  15/00  D	0	0	4E022	B21B  15/00	119	〔条〕クロツプ処理	(Threads) cropping
+B21B  15/00  E	0	0	4E022	B21B  15/00	623	スラブの端部成形加工〔幅プレス成形〕	Shaping edge of slabs (shaping press width)
+B21B  15/00  F	0	0	4E022	B21B  15/00	49	ミルスケ−ル処理	Treatment of mill oxide
+B21B  15/00  G	0	0	4E022	B21B  15/00	68	鼻曲り防止	Prevention of nose-bending
+B21B  15/00  Z	0	0	4E022	B21B  15/00	320	その他	Others
+B21B  15/02  \	1	1	4E022	B21B  15/02	3	素材が永久的内部ねじれを受けるもの，例．コンクリートの補強棒材を製造するためのもの	in which work is subjected to permanent internal twisting, e.g. for producing reinforcement bars for concrete
+B21B  17/00  \	0	0	4E015	B21B  17/00	114	ロール軸が素材の軸に対して本質的に垂直に配置されているロールによる管の圧延，例．“アクシャル”管圧延	Tube-rolling by rollers of which the axes are arranged essentially perpendicular to the axis of the work, e.g. "axial" tube-rolling
+B21B  17/02  \	1	1	4E015	B21B  17/02	12	マンドレルをもつもの（Ｂ２１Ｂ１７／０８が優先）［２］	with mandrel (B21B 17/08 takes precedence) [2]
+B21B  17/02  A	1	0	4E015	B21B  17/02	333	マンドレルミル〔２ロ−ル〕	Mandrel mills (two rolls)
+B21B  17/02  B	1	0	4E015	B21B  17/02	93	マンドレルミル〔多ロ−ル〕	Mandrel mills (multi-rolls)
+B21B  17/02  Z	1	0	4E015	B21B  17/02	96	その他のもの	Others
+B21B  17/04  \	2	2	4E015	B21B  17/04	88	連続工程におけるもの	in a continuous process
+B21B  17/06  \	2	2	4E015	B21B  17/06	4	不連続工程におけるもの	in a discontinuous process
+B21B  17/08  \	1	1	4E015	B21B  17/08	6	一個またはそれ以上の突起部を有するマンドレルをもつもの［２］	with mandrel having one or more protrusions [2]
+B21B  17/08  A	1	0	4E015	B21B  17/08	16	マンドレル〔突起付〕圧延	Mandrel rolling (with protrusions)
+B21B  17/08  B	1	0	4E015	B21B  17/08	114	プラグミル圧延	Plug mill rolling
+B21B  17/08  Z	1	0	4E015	B21B  17/08	4	その他のもの	Others
+B21B  17/10  \	2	2	4E015	B21B  17/10	4	連続工程におけるもの	in a continuous process
+B21B  17/12  \	2	2	4E015	B21B  17/12	1	不連続工程におけるもの	in a discontinuous process
+B21B  17/14  \	1	1	4E015	B21B  17/14	10	マンドレルのないもの	without mandrel
+B21B  17/14  A	1	0	4E015	B21B  17/14	191	ストレツチレデユ−サ〔２ロ−ル〕	Stretch reducers (two rolls)
+B21B  17/14  B	1	0	4E015	B21B  17/14	224	ストレツチレデユ−サ〔３ロ−ル〕	Stretch reducers (three rolls)
+B21B  17/14  Z	1	0	4E015	B21B  17/14	175	その他のもの	Others
+B21B  19/00  \	0	0	4E015	B21B  19/00	12	ロールが素材の外側にあり素材軸に対して垂直に配置されていないロールによる管の圧延（ロールによる矯正Ｂ２１Ｄ）	Tube-rolling by rollers arranged outside the work and having their axes not perpendicular to the axis of the work (straightening by rollers B21D)
+B21B  19/02  \	1	1	4E015	B21B  19/02	234	素材軸に対して本質的に対角線上に配置されているロールによる圧延，例．“傾斜”管圧延法	the axes of the rollers being arranged essentially diagonally to the axis of the work, e.g. "cross" tube-rolling
+B21B  19/04  \	2	2	4E015	B21B  19/04	762	中実，すなわち中空でない，基材の圧延；穿孔	Rolling basic material of solid, i.e. non-hollow, structure; Piercing
+B21B  19/06  \	2	2	4E015	B21B  19/06	8	中空基材の圧延（Ｂ２１Ｂ１９／０４が優先；マンドレルからの分離作業Ｂ２１Ｃ４５／００）	Rolling hollow basic material (B21B 19/04 takes precedence; separating work from mandrel B21C 45/00)
+B21B  19/06  A	2	0	4E015	B21B  19/06	115	アツセルミル	Asser mills
+B21B  19/06  B	2	0	4E015	B21B  19/06	25	デイツシヤ−ミル	Disher mills
+B21B  19/06  Z	2	0	4E015	B21B  19/06	97	その他のもの	Others
+B21B  19/08  \	3	3	4E015	B21B  19/08	121	拡管	Enlarging tube diameter
+B21B  19/10  \	3	3	4E015	B21B  19/10	9	仕上げ加工，例．平滑化，サイジング	Finishing, e.g. smoothing, sizing
+B21B  19/10  A	3	0	4E015	B21B  19/10	75	リ−ラ	Reelers
+B21B  19/10  B	3	0	4E015	B21B  19/10	59	サイザ	Sizers
+B21B  19/10  Z	3	0	4E015	B21B  19/10	26	その他のもの	Others
+B21B  19/12  \	1	1	4E015	B21B  19/12	7	素材軸に対して本質的に平行に配置されたロールによる圧延	the axes of the rollers being arranged essentially parallel to the axis of the work
+B21B  19/14  \	2	2	4E015	B21B  19/14	72	管内部に配置された付加ロールによる管の圧延	Rolling tubes by means of additional rollers arranged inside the tubes
+B21B  19/16  \	2	2	4E015	B21B  19/16	16	管内部に配置される付加ロールのない管の圧延	Rolling tubes without additional rollers arranged inside the tubes
+B21B  21/00  \	0	0	4E015	B21B  21/00	318	管のピルガー圧延	Pilgrim-step tube-rolling
+B21B  21/02  \	1	1	4E015	B21B  21/02	35	そのためのロール	Rollers therefor
+B21B  21/04  \	1	1	4E015	B21B  21/04	85	ピルガー圧延における送り機構（Ｂ２１Ｂ２１／０６が優先）	Pilgrim-step feeding mechanisms (B21B 21/06 takes precedence)
+B21B  21/06  \	1	1	4E015	B21B  21/06	22	圧延作業の合間に素材を回転させる装置	Devices for revolving work between the steps
+B21B  23/00  \	0	0	4E015	B21B  23/00	9	グループＢ２１Ｂ１７／００，Ｂ２１Ｂ１９／００，Ｂ２１Ｂ２１／００の１つだけに分類される方法に限定されない管の圧延，例．複合された工程（Ｂ２１Ｂ２５／００が優先）	Tube-rolling not restricted to methods provided for in only one of groups B21B 17/00-B21B 21/00, e.g. combined processes (B21B 25/00&nbsp;takes precedence)
+B21B  23/00  A	0	0	4E015	B21B  23/00	49	管端の圧延加工	Rolling of tube edges
+B21B  23/00  B	0	0	4E015	B21B  23/00	282	複合圧延工程	Combined rolling process
+B21B  23/00  C	0	0	4E015	B21B  23/00	21	段階圧延による管の製造	Manufacturing tubes by step-by-step rolling
+B21B  23/00  D	0	0	4E015	B21B  23/00	42	シエル・管押し込〔入側設備含〕	Intruding shells, tubes (involving equipment at the entrance)
+B21B  23/00  E	0	0	4E015	B21B  23/00	12	管材の廻転	Rotation of tube materials
+B21B  23/00  F	0	0	4E015	B21B  23/00	206	ガイド	Guides
+B21B  23/00  G	0	0	4E015	B21B  23/00	76	管圧延補助具	Auxiliary tools for tube rolling
+B21B  23/00  H	0	0	4E015	B21B  23/00	23	センタリング	Centering
+B21B  23/00  Z	0	0	4E015	B21B  23/00	186	その他のもの	Others
+B21B  25/00  \	0	0	4E015	B21B  25/00	7	金属管圧延機のためのマンドレル，例．グループＢ２１Ｂ１７／００に包含される方法に用いられる型のマンドレル；そのための付属品または補助手段	Mandrels for metal tube rolling mills, e.g. mandrels of the types used in the methods covered by group B21B 17/00; Accessories or auxiliary means therefor
+B21B  25/00  A	0	0	4E015	B21B  25/00	462	プラグ・マンドレルの材質・形状等	Materials, shapes of plugs, mandrels and the like
+B21B  25/00  Z	0	0	4E015	B21B  25/00	49	その他のもの	Others
+B21B  25/02  \	1	1	4E015	B21B  25/02	165	マンドレルの案内，支持装置または突合せ装置，例．キャリッジ；マンドレルの調整装置	Guides, supports, or abutments for mandrels, e.g. carriages; Adjusting devices for mandrels
+B21B  25/04  \	1	1	4E015	B21B  25/04	4	作業中におけるマンドレルの冷却または潤滑［２］	Cooling or lubricating mandrels during operation [2]
+B21B  25/04  A	1	0	4E015	B21B  25/04	85	マンドレルの冷却	Cooling mandrels
+B21B  25/04  B	1	0	4E015	B21B  25/04	313	マンドレルの潤滑	Lubricating mandrels
+B21B  25/04  Z	1	0	4E015	B21B  25/04	10	その他のもの	Others
+B21B  25/06  \	1	1	4E015	B21B  25/06	1	マンドレルの交換	Interchanging mandrels
+B21B  25/06  A	1	0	4E015	B21B  25/06	76	マンドレルミルのマンドレル交換	Interchanging of mandrels in mandrel mills
+B21B  25/06  B	1	0	4E015	B21B  25/06	86	プラグ交換	Interchanging plugs
+B21B  25/06  C	1	0	4E015	B21B  25/06	25	プラグバ−交換	Interchanging plug bars
+B21B  25/06  D	1	0	4E015	B21B  25/06	72	プラグとマンドレルの結合機構	Combined mechanisms of plugs and mandrels
+B21B  25/06  Z	1	0	4E015	B21B  25/06	12	その他のもの	Others
+B21B  27/00  \	0	0	4E016	B21B  27/00	20	ロール（特殊な工程に要求される加工表面の形状Ｂ２１Ｂ１／００）；使用中におけるロールの潤滑，冷却または加熱	Rolls (shape of working surfaces required by special processes B21B 1/00); Lubricating, cooling or heating rolls while in use
+B21B  27/00  A	0	0	4E016	B21B  27/00	571	ロ−ルの製造	Manufacturing rolls
+B21B  27/00  B	0	1	4E016	B21B  27/00	1214	熱処理・表面処理	Heat treatment, surface treatment
+B21B  27/00  C	0	0	4E016	B21B  27/00	1396	ロ−ルの材料	Materials of rolls
+B21B  27/00  Z	0	0	4E016	B21B  27/00	25	その他のもの	Others
+B21B  27/02  \	1	1	4E016	B21B  27/02	25	ロールの形状または構造（特定対象物のために特に設計された繰返し形状の不定長の金属の圧延のためのものＢ２１Ｈ８／０２）	Shape or construction of rolls (for rolling metal of indefinite length in repetitive shapes specially designed for the manufacture of particular objects B21H 8/02)
+B21B  27/02  A	1	0	4E016	B21B  27/02	1127	板材用ロ−ル	Rolls for sheet materials
+B21B  27/02  D	1	0	4E016	B21B  27/02	567	条材用ロ−ル	Rolls for thread materials
+B21B  27/02  F	1	0	4E016	B21B  27/02	455	Ｈ型鋼用ロ−ル	Rolls for H-beams
+B21B  27/02  G	1	0	4E016	B21B  27/02	103	竪ロ−ル	Vertical rolls
+B21B  27/02  H	1	0	4E016	B21B  27/02	253	管圧延用ロ−ル	Rolls for tube rolling
+B21B  27/02  J	1	0	4E016	B21B  27/02	154	軸部・ネツク部に特徴のあるもの	Characterized by axis parts, neck parts
+B21B  27/02  Z	1	0	4E016	B21B  27/02	60	その他のもの	Others
+B21B  27/03  \	2	2	4E016	B21B  27/03	34	スリーブロール［５］	Sleeved rolls [5]
+B21B  27/03 510 \	3	3	4E016	B21B  27/03	405	板材用ロ−ル	Rolls for sheet materials
+B21B  27/03 520 \	3	3	4E016	B21B  27/03	379	条材用ロ−ル	Rolls for thread materials
+B21B  27/05  \	3	3	4E016	B21B  27/05	319	撓み自在のスリーブを有するもの［５］	with deflectable sleeves [5]
+B21B  27/06  \	1	1	4E016	B21B  27/06	139	ロールの潤滑，冷却，加熱	Lubricating, cooling, or heating rolls
+B21B  27/08  \	2	2	4E016	B21B  27/08	210	内部からによるもの	internally
+B21B  27/10  \	2	2	4E016	B21B  27/10	43	外部からによるもの	externally
+B21B  27/10  A	2	0	4E016	B21B  27/10	449	スプレ−装置	Spray equipment
+B21B  27/10  B	2	0	4E016	B21B  27/10	700	潤滑	Lubrication
+B21B  27/10  C	2	0	4E016	B21B  27/10	325	制御	Control
+B21B  27/10  D	2	0	4E016	B21B  27/10	326	ワイパ−・水切り・水受け	Wipers, water-swishers, water-receivers
+B21B  27/10  Z	2	0	4E016	B21B  27/10	98	その他のもの	Others
+B21B  28/00  \	0	0	4E016	B21B  28/00	105	効果的状態へのロールまたは圧延装置の保守（使用中におけるロールの潤滑，冷却または加熱Ｂ２１Ｂ２７／０６）［２］	Maintaining rolls or rolling equipment in effective condition (lubricating, cooling or heating rolls while in use B21B 27/06) [2]
+B21B  28/02  \	1	1	4E016	B21B  28/02	9	効果的状態へのロールの保守，例．修理［２］	Maintaining rolls in effective condition, e.g. reconditioning [2]
+B21B  28/02  A	1	0	4E016	B21B  28/02	44	修理	Repairing
+B21B  28/02  B	1	1	4E016	B21B  28/02	212	オフライン研磨〔ロ−ルの研削一般はＢ２４Ｂ５／３７〕	Off-line grinding (for grinding of rolls in general, B24B5/37)
+B21B  28/02  C	1	2	4E016	B21B  28/02	40	条材用ロ−ルのためのもの	for rolls for thread materials
+B21B  28/02  D	1	0	4E016	B21B  28/02	27	予熱	Pre-heating
+B21B  28/02  E	1	0	4E016	B21B  28/02	17	使用後の冷却	Cooling after use
+B21B  28/02  F	1	0	4E016	B21B  28/02	60	洗浄・清掃	Washing, cleaning
+B21B  28/02  Z	1	0	4E016	B21B  28/02	67	その他のもの	Others
+B21B  28/04  \	2	2	4E016	B21B  28/04	9	使用中におけるもの，例．みがき［２］	while in use, e.g. polishing [2]
+B21B  28/04  A	2	0	4E016	B21B  28/04	575	オンライン研磨	On-line grinding
+B21B  28/04  B	2	0	4E016	B21B  28/04	270	オンライン洗浄・清掃	On-line washing, cleaning
+B21B  28/04  Z	2	0	4E016	B21B  28/04	98	その他のもの	Others
+B21B  29/00  \	0	0	4E016	B21B  29/00	23	負荷時にロールの撓みを防ぐためロールに逆圧力を作用させる装置，例．ロールの背圧付与	Counter-pressure devices acting on rolls to inhibit deflection of same under load, e.g. backing rolls
+B21B  29/00  A	0	0	4E016	B21B  29/00	459	ロ−ルベンデイング装置	Roll-bending devices
+B21B  29/00  B	0	0	4E016	B21B  29/00	106	ダブルチヨツクベンデイング装置	Double-chock bending devices
+B21B  29/00  C	0	0	4E016	B21B  29/00	508	ロ−ルバツキング	Roll packing
+B21B  29/00  Z	0	0	4E016	B21B  29/00	92	その他のもの	Others
+B21B  31/00  \	0	0	4E016	B21B  31/00	142	圧延スタンドの構造；ロール，ロール取付け具またはスタンドフレームの取付け，調整または交換	Rolling stand structures; Mounting, adjusting, or interchanging rolls, roll mountings, or stand frames
+B21B  31/02  \	1	1	4E016	B21B  31/02	9	圧延スタンドのフレーム；ロール取付け具	Rolling stand frames; Roll mountings
+B21B  31/02  A	1	0	4E016	B21B  31/02	423	ロールチョック	Roll chocks
+B21B  31/02  B	1	0	4E016	B21B  31/02	264	ロールチョックの固定	Fixing roll chocks
+B21B  31/02  C	1	0	4E016	B21B  31/02	227	ハウジング	Housing
+B21B  31/02  Z	1	0	4E016	B21B  31/02	54	その他	Others
+B21B  31/04  \	2	2	4E016	B21B  31/04	35	タイロッドをもつもの，例．プレストレスタイロッド	with tie rods, e.g. prestressed tie rods
+B21B  31/06  \	2	2	4E016	B21B  31/06	71	基礎架台，例．ソールプレート，へのスタンドまたはフレームの固定（一般Ｆ１６Ｍ）	Fastening stands or frames to foundation, e.g. to the sole plate (in general F16M)
+B21B  31/07  \	1	1	4E016	B21B  31/07	11	ロール軸受の適用（軸受一般Ｆ１６Ｃ）［２］	Adaptation of roll bearings (bearings in general F16C) [2]
+B21B  31/07  A	1	0	4E016	B21B  31/07	256	ロール軸受自体に特徴を有するもの	characterised by roll bearings per se
+B21B  31/07  C	1	1	4E016	B21B  31/07	34	スラスト軸受部に特徴を有するもの	characterised by thrust-bearing parts
+B21B  31/07  D	1	1	4E016	B21B  31/07	97	ラジアル軸受部に特徴を有するもの，例．ローラベアリングを使用するもの	characterised by radial-bearing parts, e.g. using roller bearings
+B21B  31/07  E	1	1	4E016	B21B  31/07	133	ラジアル軸受部に特徴を有するもの，例．油膜軸受を使用するもの	characterised by radial-bearing parts, e.g. using oil film bearings
+B21B  31/07  B	1	1	4E016	B21B  31/07	103	ロール軸受のシール機構に特徴を有するもの	characterised by sealing mechanisms of roll bearings
+B21B  31/07  F	1	2	4E016	B21B  31/07	167	ロール軸受のシール機構のうち，ロールネック部に特徴を有するもの	characterised by roll-neck parts of sealing mechanisms of roll bearings
+B21B  31/07  Z	1	0	4E016	B21B  31/07	63	その他	Others
+B21B  31/08  \	1	1	4E016	B21B  31/08	19	ロール，ロール取付け具またはスタンドフレームの交換［２］	Interchanging rolls, roll mountings, or stand frames [2]
+B21B  31/08  A	1	0	4E016	B21B  31/08	210	ロールの交換または取付	Interchanging or mounting of rolls
+B21B  31/08  B	1	1	4E016	B21B  31/08	75	ロールハンガー	Roll hangers
+B21B  31/08  C	1	1	4E016	B21B  31/08	43	配管または電気系統の連結	Connection of pipe lines or power lines
+B21B  31/08  D	1	1	4E016	B21B  31/08	72	スペーサブロック	Spacer blocks
+B21B  31/08  E	1	1	4E016	B21B  31/08	50	特殊ミルのロール交換	Interchanging rolls of special mills
+B21B  31/08  F	1	1	4E016	B21B  31/08	111	管圧延機のロール交換	Interchanging rolls of pipe rolling mills
+B21B  31/08  G	1	1	4E016	B21B  31/08	57	多段圧延機のロール交換	Interchanging rolls of multi-steps rolling mills
+B21B  31/08  H	1	1	4E016	B21B  31/08	84	ユニバーサル圧延機のロール交換	Interchanging rolls of universal rolling mills
+B21B  31/08  J	1	0	4E016	B21B  31/08	143	スタンド交換	Interchanging stands
+B21B  31/08  Z	1	0	4E016	B21B  31/08	74	その他	Others
+B21B  31/10  \	2	2	4E016	B21B  31/10	14	水平状態の置換によるもの	by horizontally displacing
+B21B  31/10  A	2	0	4E016	B21B  31/10	396	水平置換によるロール交換	Interchanging rolls by horizontal displacement
+B21B  31/10  B	2	0	4E016	B21B  31/10	203	サイドシフト方式によるロール交換	Interchanging rolls by side-shift type
+B21B  31/10  C	2	0	4E016	B21B  31/10	26	ターンテーブル方式によるロール交換	Interchanging rolls by turn-table type
+B21B  31/10  D	2	0	4E016	B21B  31/10	45	Ｃフック方式によるロール交換	Interchanging rolls by C-hook type
+B21B  31/10  E	2	0	4E016	B21B  31/10	30	ハイクラウンミル［ＨＣミル］のロール交換	Interchanging rolls of high crown mills (HC mills)
+B21B  31/10  F	2	0	4E016	B21B  31/10	88	通板中のロール交換	Interchanging rolls during plate leaping
+B21B  31/10  G	2	0	4E016	B21B  31/10	105	ロールの交換のためのロールチョック構造	Roll-chock structure for interchanging rolls
+B21B  31/10  H	2	0	4E016	B21B  31/10	165	ロールチョック交換	Interchanging roll chocks
+B21B  31/10  Z	2	0	4E016	B21B  31/10	18	その他	Others
+B21B  31/12  \	2	2	4E016	B21B  31/12	3	垂直状態の置換によるもの	by vertically displacing
+B21B  31/12  A	2	0	4E016	B21B  31/12	62	垂直置換によるロール交換	Interchanging rolls by vertical displacement
+B21B  31/12  B	2	0	4E016	B21B  31/12	39	開頭式圧延スタンドのロール交換	Interchanging rolls of rolling stands with opening heads
+B21B  31/12  Z	2	0	4E016	B21B  31/12	3	その他	Others
+B21B  31/14  \	2	2	4E016	B21B  31/14	26	枢軸状態の置換によるもの	by pivotally displacing
+B21B  31/16  \	1	1	4E016	B21B  31/16	296	ロールの調整（制御装置Ｂ２１Ｂ３７／００）	Adjusting rolls (control devices B21B 37/00)
+B21B  31/18  \	2	2	4E016	B21B  31/18	23	軸方向にロールを移動させることによるもの	by moving rolls axially
+B21B  31/18  A	2	0	4E016	B21B  31/18	521	ハイクラウンミル［ＨＣミル］のためのもの	for high crown mills (HC mills)
+B21B  31/18  B	2	0	4E016	B21B  31/18	226	カリバー調節のためのもの	for adjusting caliper
+B21B  31/18  Z	2	0	4E016	B21B  31/18	88	その他	Others
+B21B  31/20  \	2	2	4E016	B21B  31/20	17	ロール軸に対して垂直にロールを移動させることによるもの	by moving rolls perpendicularly to roll axis
+B21B  31/20  A	2	0	4E016	B21B  31/20	97	ロールバランス調整	Adjusting balancing rolls
+B21B  31/20  B	2	0	4E016	B21B  31/20	172	パスライン調整	Adjusting pass lines
+B21B  31/20  C	2	0	4E016	B21B  31/20	52	スペーサによるもの	by spacers
+B21B  31/20  D	2	0	4E016	B21B  31/20	208	ロール間隔調整	Adjusting roll clearances
+B21B  31/20  E	2	1	4E016	B21B  31/20	31	ロール間隔の微調整	Fine adjustment of roll clearances
+B21B  31/20  Z	2	0	4E016	B21B  31/20	49	その他	Others
+B21B  31/22  \	3	3	4E016	B21B  31/22	28	機械的なもの	mechanically
+B21B  31/24  \	4	4	4E016	B21B  31/24	3	ねじによるもの	by screws
+B21B  31/24  A	4	0	4E016	B21B  31/24	146	スクリュー式圧下装置	Screw-type devices under pressure
+B21B  31/24  B	4	1	4E016	B21B  31/24	46	そのための補助具	Auxiliary tools therefor
+B21B  31/24  Z	4	0	4E016	B21B  31/24	14	その他	Others
+B21B  31/26  \	4	4	4E016	B21B  31/26	118	偏心して設置されたロール軸受の調節	Adjusting eccentrically-mounted roll bearings
+B21B  31/28  \	4	4	4E016	B21B  31/28	12	トッグルレバー機構によるもの	by toggle-lever mechanisms
+B21B  31/30  \	4	4	4E016	B21B  31/30	86	くさびまたはそれに相当するものによるもの	by wedges or their equivalent
+B21B  31/32  \	3	3	4E016	B21B  31/32	3	液圧によるもの	by liquid pressure
+B21B  31/32  A	3	0	4E016	B21B  31/32	283	液圧圧下装置	Roll gap control system by liquid pressure
+B21B  31/32  B	3	1	4E016	B21B  31/32	81	そのための補助具	Auxiliary tools therefor
+B21B  31/32  Z	3	0	4E016	B21B  31/32	22	その他	Others
+B21B  33/00  \	0	0	4E016	B21B  33/00	402	他に分類されない安全装置（安全装置一般Ｆ１６Ｐ）；安全臼；かみ込んだロールを自由にする装置［２］	Safety devices not otherwise provided for (safety devices in general F16P); Breaker blocks; Devices for freeing jammed rolls [2]
+B21B  33/02  \	1	1	4E016	B21B  33/02	105	ロール破損を防止するもの［２］	Preventing fracture of rolls [2]
+B21B  35/00  \	0	0	4E016	B21B  35/00	12	金属圧延機の駆動	Drives for metal-rolling mills
+B21B  35/00  A	0	0	4E016	B21B  35/00	64	管圧延機の駆動	Driving tube-rolling mills
+B21B  35/00  Z	0	0	4E016	B21B  35/00	322	その他	Others
+B21B  35/02  \	1	1	4E016	B21B  35/02	16	連続的に作業する圧延機のためのもの（Ｂ２１Ｂ３５／１０，Ｂ２１Ｂ３５／１２が優先）	for continuously-operating mills (B21B 35/10, B21B 35/12 take precedence)
+B21B  35/04  \	2	2	4E016	B21B  35/04	21	スタンド毎に１または複数のモータを有する各スタンド	each stand having its own motor or motors
+B21B  35/06  \	1	1	4E016	B21B  35/06	5	不連続に作業する圧延機または単独のスタンドのためのもの（Ｂ２１Ｂ３５／１０，Ｂ２１Ｂ３５／１２が優先）	for non-continuously-operating mills or for single stands (B21B 35/10, B21B 35/12 take precedence)
+B21B  35/08  \	2	2	4E016	B21B  35/08	5	可逆圧延機のためのもの	for reversing rolling mills
+B21B  35/10  \	1	1	4E016	B21B  35/10	20	低出力駆動用のロール駆動装置；他のロール軸から駆動力を受けるロール駆動装置［２］	Driving arrangements for rolls which have only a low-power drive; Driving arrangements for rolls which receive power from the shaft of another roll [2]
+B21B  35/12  \	1	1	4E016	B21B  35/12	187	特に金属圧延機に適用される歯車をそなえた伝動装置；そのためのハウジングまたは取付け具	Toothed-wheel gearings specially adapted for metal-rolling mills; Housings or mountings therefor
+B21B  35/14  \	1	1	4E016	B21B  35/14	15	金属圧延機に特に適用されるまたは特に装備される継ぎ手，駆動スピンドル，スピンドルキャリヤー（カップリングまたはシャフト一般Ｆ１６）	Couplings, driving spindles, or spindle carriers specially adapted for or specially arranged in metal-rolling mills (couplings or shafts in general F16)
+B21B  35/14  A	1	0	4E016	B21B  35/14	455	カツプリング	Couplings
+B21B  35/14  B	1	0	4E016	B21B  35/14	305	スピンドル支持装置	Devices for carrying spindles
+B21B  35/14  Z	1	0	4E016	B21B  35/14	59	その他	Others
+B21B  37/00  \	0	0	4E124	B21B  37/00	6437	金属圧延機またはそれで製造した製品に特に適用される制御装置または方法（金属圧延機に特に適用される測定方法または装置Ｂ２１Ｂ３８／００）	Control devices or methods specially adapted for metal-rolling mills or the work produced thereby (methods or devices for measuring specially adapted for metal-rolling mills B21B 38/00)
+B21B  37/00 210 \	1	1	4E124	B21B  37/00	548	段取制御	Preparatory control
+B21B  37/00 220 \	1	1	4E124	B21B  37/00	44	最適圧延制御；パススケジュール	Optimum roll control; pass schedules
+B21B  37/00 221 \	2	2	4E124	B21B  37/00	12	板材のためのもの	for plate material
+B21B  37/00 221 A	2	0	4E124	B21B  37/00	163	リールを有しない可逆圧延機のためのもの	for reversing mill without reel
+B21B  37/00 221 Z	2	0	4E124	B21B  37/00	236	その他	Others
+B21B  37/00 222 \	2	2	4E124	B21B  37/00	57	条材のためもの	for bar
+B21B  37/00 230 \	1	1	4E124	B21B  37/00	189	先進率制御	Forward-slip control
+B21B  37/00 240 \	1	1	4E124	B21B  37/00	33	トラッキング制御	tracking control
+B21B  37/00 241 \	2	2	4E124	B21B  37/00	272	板材のためのもの	for plate material
+B21B  37/00 242 \	2	2	4E124	B21B  37/00	70	条材または管材のためのもの	for bar or tube material
+B21B  37/00 250 \	1	1	4E124	B21B  37/00	133	製品の圧延間ピッチを制御するもの	Control of the pitch between rolling of product
+B21B  37/00 260 \	1	1	4E124	B21B  37/00	20	セットアップ	Setup
+B21B  37/00 261 \	2	2	4E124	B21B  37/00	6	板材のためのもの	for plate material
+B21B  37/00 261 A	2	0	4E124	B21B  37/00	100	圧延機の零点設定	Setting zero point on rolling mills
+B21B  37/00 261 B	2	0	4E124	B21B  37/00	60	ミルセットアップＢａｒ　ｔｏ　Ｂａｒによる制御	Control mill setup bar-to-bar
+B21B  37/00 261 C	2	0	4E124	B21B  37/00	253	ミルセットアップ適応修正	Adjustment according to mill setup
+B21B  37/00 261 Z	2	0	4E124	B21B  37/00	66	その他	Others
+B21B  37/00 262 \	2	2	4E124	B21B  37/00	47	管材のためのもの	for tube material
+B21B  37/00 263 \	2	2	4E124	B21B  37/00	73	条材のためもの	for bar material
+B21B  37/00 270 \	1	1	4E124	B21B  37/00	123	板材以外のための形状制御	Controlling shape other than plate material
+B21B  37/00 271 \	2	2	4E124	B21B  37/00	7	管材のためのもの	for tube material
+B21B  37/00 272 \	2	2	4E124	B21B  37/00	146	条材のためもの	for bar material
+B21B  37/00 300 \	1	1	4E124	B21B  37/00	705	Ｂ２１Ｂ３７／００，２１０〜Ｂ２１Ｂ３７／００，２７２に分類されない制御	Control not provided for by B21B37/00,210-B21B37/00,272
+B21B  37/16  \	1	1	4E124	B21B  37/16	14	厚さ，幅，直径またはその他横断寸法の制御（Ｂ２１Ｂ３７／５８が優先）［６］	Control of thickness, width, diameter or other transverse dimensions(B21B37/58 takes precedence) [6]
+B21B  37/16 110 \	2	2	4E124	B21B  37/16	21	径の制御	Control of diameter
+B21B  37/16 111 \	3	3	4E124	B21B  37/16	23	条材のためのもの	for bar material
+B21B  37/16 112 \	3	3	4E124	B21B  37/16	61	管材のためのもの	for tube material
+B21B  37/16 120 \	2	2	4E124	B21B  37/16	123	その他の寸法の制御	Control of other measurement
+B21B  37/16 121 \	3	3	4E124	B21B  37/16	53	条材のためのもの	for bar material
+B21B  37/16 122 \	3	3	4E124	B21B  37/16	0	管材のためのもの	for tube material
+B21B  37/16 122 A	3	0	4E124	B21B  37/16	239	肉厚制御	Control of thickness
+B21B  37/16 122 B	3	0	4E124	B21B  37/16	88	偏肉防止制御	Control for preventing uneven thickness
+B21B  37/16 122 Z	3	0	4E124	B21B  37/16	23	その他	Others
+B21B  37/18  \	2	2	4E124	B21B  37/18	16	自動板厚制御［ＡＧＣ］［６］	Automatic gauge control [AGC] [6]
+B21B  37/18  A	2	0	4E124	B21B  37/18	190	ゲージメータ自動板厚制御［ゲージメータＡＧＣ］及びモニター自動板厚制御［モニターＡＧＣ］を併用したもの	using gage meter automatic gauge control [gage meter AGC] and monitor automatic gauge control [monitor AGC] together
+B21B  37/18  B	2	0	4E124	B21B  37/18	83	ゲージメータフィードフォワード自動板厚制御［ゲージメータＦ．Ｆ．ＡＧＣ］及びモニターフィードフォワード自動板厚制御［モニターＦ．Ｆ．ＡＧＣ］を併用したもの	using gage meter feed forward automatic gauge control [gage meter F.F. AGC]  and monitor feed forward automatic gauge control [monitor F.F. AGC] together
+B21B  37/18  E	2	0	4E124	B21B  37/18	33	異速圧延機におけるもの	in rolling mill at different speed
+B21B  37/18  F	2	0	4E124	B21B  37/18	43	特殊圧延機，例．クロスロール圧延機または１スタンドマルチパス圧延機，におけるもの	in special rolling mill, e.g. cross roll rolling mill or one stand multi-pass rolling mill
+B21B  37/18  Z	2	0	4E124	B21B  37/18	67	その他	Others
+B21B  37/18 110 \	3	3	4E124	B21B  37/18	2	材料の厚さに応答するもの	responsive to material thickness
+B21B  37/18 110 A	3	0	4E124	B21B  37/18	263	モニター自動板厚制御［モニターＡＧＣ］	Monitor automatic gauge control [monitor AGC]
+B21B  37/18 110 B	3	0	4E124	B21B  37/18	154	フィードフォワード自動板厚制御［Ｆ．Ｆ．ＡＧＣ］	Feed forward automatic gauge control [F.F. AGC]
+B21B  37/18 110 Z	3	0	4E124	B21B  37/18	24	その他	Others
+B21B  37/18 120 \	3	3	4E124	B21B  37/18	1	圧延圧力，ロール開度またはロールのたわみに応答するもの	responsive to rolling pressure, roll gap or roll swing
+B21B  37/18 120 A	3	0	4E124	B21B  37/18	327	ゲージメータ自動板厚制御［ゲージメータＡＧＣ］	Gage meter automatic gauge control [gage meter AGC]
+B21B  37/18 120 B	3	0	4E124	B21B  37/18	71	ゲージメータ自動板厚制御［ゲージメータＡＧＣ］及びゲージメータフィードフォワード自動板厚制御［ゲージメータＦ．Ｆ．ＡＧＣ］を併用したもの	using gage meter automatic gauge control [gage meter AGC] and gage meter feed forward automatic gauge control [gage meter, F.F. AGC] together
+B21B  37/18 120 Z	3	0	4E124	B21B  37/18	32	その他	Others
+B21B  37/18 130 \	3	3	4E124	B21B  37/18	0	加減速時のもの	at acceleration or deceleration of speed
+B21B  37/18 130 A	3	0	4E124	B21B  37/18	110	加減速自動板厚制御［加減速ＡＧＣ］	Automatic gauge control at acceleration or deceleration of speed [acceleration or deceleration of speed AGC]
+B21B  37/18 130 B	3	0	4E124	B21B  37/18	38	油膜厚補償自動板厚制御［油膜厚補償ＡＧＣ］	Oil film thickness compensation automatic gauge control [oil film thickness compensation AGC]
+B21B  37/18 130 Z	3	0	4E124	B21B  37/18	16	その他	Others
+B21B  37/20  \	3	3	4E124	B21B  37/20	8	タンデムミルにおけるもの［６］	in tandem mills [6]
+B21B  37/20  A	3	0	4E124	B21B  37/20	156	ゲージメータ自動板厚制御［ゲージメータＡＧＣ］及びモニター自動板厚制御［モニターＡＧＣ］を併用したもの	using gage meter automatic gauge control [gage meter AGC] and  monitor automatic gauge control [monitor AGC]  together
+B21B  37/20  B	3	0	4E124	B21B  37/20	145	ゲージメータフィードフォワード自動板厚制御［ゲージメータＦ．Ｆ．ＡＧＣ］及びモニターフィードフォワード自動板厚制御［モニターＦ．Ｆ．ＡＧＣ］を併用したもの	using gage meter feed forward automatic gauge control [gage meter, F.F. AGC] and monitor feed forward automatic gauge control [monitor F.F. AGC] together
+B21B  37/20  Z	3	0	4E124	B21B  37/20	10	その他	Others
+B21B  37/20 110 \	4	4	4E124	B21B  37/20	2	材料の厚さに応答するもの	responsive to material thickness
+B21B  37/20 110 A	4	0	4E124	B21B  37/20	157	モニター自動板厚制御［モニターＡＧＣ］	Monitor automatic gauge control [monitor AGC]
+B21B  37/20 110 B	4	0	4E124	B21B  37/20	115	フィードフォワード自動板厚制御［Ｆ．Ｆ．ＡＧＣ］	Feed forward automatic gauge control [F.F. AGC]
+B21B  37/20 110 Z	4	0	4E124	B21B  37/20	3	その他	Others
+B21B  37/20 120 \	4	4	4E124	B21B  37/20	1	圧延圧力，ロール開度またはロールのたわみに応答するもの	responsive to rolling pressure, roll gap or rolling swing
+B21B  37/20 120 A	4	0	4E124	B21B  37/20	85	ゲージメータ自動板厚制御［ゲージメータＡＧＣ］	Gage meter automatic gauge control [gage meter AGC]
+B21B  37/20 120 Z	4	0	4E124	B21B  37/20	2	その他	Others
+B21B  37/22  \	2	2	4E124	B21B  37/22	0	横方向伸び制御；幅制御，例．エッジ圧延によるもの［６］	Lateral spread control; Width control, e.g. by edge rolling [6]
+B21B  37/22  A	2	0	4E124	B21B  37/22	337	竪ロールを使用するもの	using vertical roll
+B21B  37/22  Z	2	0	4E124	B21B  37/22	277	その他	Others
+B21B  37/24  \	2	2	4E124	B21B  37/24	141	予定のプログラムに応じて厚さを自動的に変えるもの［６］	Automatic variation of thickness according to a predetermined program me [6]
+B21B  37/26  \	3	3	4E124	B21B  37/26	303	種々の一定厚さの連続長さをもつ１つの帯材を得るためのもの［６］	for obtaining one strip having successive lengths of different constant thickness [6]
+B21B  37/28  \	1	1	4E124	B21B  37/28	20	帯材，薄板材または板材の圧延中の平坦度または形状の制御［６］	Control of flatness or profile during rolling of strip, sheets or plates [6]
+B21B  37/28  A	1	0	4E124	B21B  37/28	119	張力調整によるもの	by adjusting tension
+B21B  37/28  B	1	0	4E124	B21B  37/28	44	異速圧延手段によるもの	by rolling measures of different speed
+B21B  37/28  C	1	0	4E124	B21B  37/28	138	ロール軸傾斜制御によるもの，例．クロスロールミルを用いることによるもの	by control of inclined rolling axis, e.g. by using cross roll mill
+B21B  37/28  Z	1	0	4E124	B21B  37/28	145	その他	Others
+B21B  37/28 110 \	2	2	4E124	B21B  37/28	2	帯材，薄板材または板材のクラウンに関するもの	related to crown of strip, sheets or plates
+B21B  37/28 110 A	2	0	4E124	B21B  37/28	149	圧下によるもの	by depression
+B21B  37/28 110 Z	2	0	4E124	B21B  37/28	122	その他	Others
+B21B  37/28 120 \	2	2	4E124	B21B  37/28	242	帯材，薄板材または板材のエッジに関するもの	related to edge of strip, sheets or plates
+B21B  37/28 130 \	2	2	4E124	B21B  37/28	125	帯材，薄板材または板材の平面形状に関するもの	related to planar shape of strip, sheets or plates
+B21B  37/28 140 \	2	2	4E124	B21B  37/28	194	帯材，薄板材または板材の反りに関するもの	related to curve of strip, sheets or plates
+B21B  37/30  \	2	2	4E124	B21B  37/30	1	ロールキャンバー制御を用いるもの［６］	using roll camber control [6]
+B21B  37/30  A	2	0	4E124	B21B  37/30	171	圧下によるメカニカルクラウン制御	Mechanical crown control under pressure
+B21B  37/30  Z	2	0	4E124	B21B  37/30	6	その他	Others
+B21B  37/32  \	3	3	4E124	B21B  37/32	2	ロールの冷却，加熱または潤滑によるもの［６］	by cooling, heating or lubricating the rolls [6]
+B21B  37/32  A	3	0	4E124	B21B  37/32	209	ロールの冷却または加熱によるもの	by cooling or heating of roll
+B21B  37/32  B	3	0	4E124	B21B  37/32	66	複雑な加熱手段または冷却手段を使用するもの	using complicated heating or cooling means
+B21B  37/32  C	3	1	4E124	B21B  37/32	66	ロール軸方向の熱分布を操作するもの	manipulating heat distribution in the direction of roll axis
+B21B  37/32  D	3	0	4E124	B21B  37/32	53	ロールの潤滑によるもの	by lubrication of roll
+B21B  37/32  Z	3	0	4E124	B21B  37/32	0	その他	Others
+B21B  37/34  \	3	3	4E124	B21B  37/34	93	ロールの液圧膨張によるもの［６］	by hydraulic expansion of the rolls [6]
+B21B  37/36  \	3	3	4E124	B21B  37/36	11	液圧支持手段により非回転ロールシャフト上におけるロールスリーブの半径方向変位によるもの［６］	by displacement of roll sleeve on non-rotating roll shaft in direction of radius caused by hydraulic pressure support means [6]
+B21B  37/38  \	2	2	4E124	B21B  37/38	12	ロールベンディングを用いるもの（Ｂ２１Ｂ３７／４２が優先）［６］	using roll bending(B21B37/42 takes precedence) [6]
+B21B  37/38  A	2	0	4E124	B21B  37/38	120	板長手方向における形状制御及び板クラウン制御を行うもの	controlling shape in plate longitudinal direction and plate crown
+B21B  37/38  B	2	0	4E124	B21B  37/38	85	多段クラスタ圧延機を対象とするもの	intended for multi-step cluster rolling mills
+B21B  37/38  C	2	0	4E124	B21B  37/38	49	長手方向板厚制御も行うもの	also performing control of sheet thickness along the direction of the length
+B21B  37/38  D	2	0	4E124	B21B  37/38	35	ロール有効接触長固定制御によるもの	by fixed-controlling the effective contact length
+B21B  37/38  Z	2	0	4E124	B21B  37/38	466	その他	Others
+B21B  37/38 110 \	3	3	4E124	B21B  37/38	258	帯材，薄板材または板材のクラウンのみに関するもの	related to crown only of strip, sheets or plates
+B21B  37/40  \	2	2	4E124	B21B  37/40	4	ロールの軸方向移動を用いるもの（Ｂ２１Ｂ３７／４２が優先）［６］	using axial shifting of the rolls(B21B37/42 takes precedence) [6]
+B21B  37/40  A	2	0	4E124	B21B  37/40	186	作業ロール軸方向移動制御によるもの，例．ワークロールシフトミルを用いることによるもの	by controlling movement in direction of working roll axis, e.g. by using work roll shift mill
+B21B  37/40  Z	2	0	4E124	B21B  37/40	237	その他	Others
+B21B  37/40 110 \	3	3	4E124	B21B  37/40	113	帯材，薄板材または板材のクラウンのみに関するもの	related to crown only of strip, sheets or plates
+B21B  37/42  \	2	2	4E124	B21B  37/42	134	ロールベンディングとロールの軸方向移動の組合せを用いるもの［６］	using a combination of roll bending and axial shifting of the rolls [6]
+B21B  37/44  \	2	2	4E124	B21B  37/44	104	製品の加熱，潤滑または水噴霧冷却を用いるもの［６］	using heating, lubricating or water-spray cooling of the product [6]
+B21B  37/46  \	1	1	4E124	B21B  37/46	29	ロールの速度または駆動モーター制御（Ｂ２１Ｂ３７／５２，Ｂ２１Ｂ３７／６０が優先）［６］	Roll speed or drive motor control(B21B37/52, B21B37/60 take precedence) [6]
+B21B  37/46 110 \	2	2	4E124	B21B  37/46	4	板材のためのもの	for plate material
+B21B  37/46 110 A	2	0	4E124	B21B  37/46	130	リールを有する圧延機の自動減速に関するもの	related to automatic acceleration and deceleration of rolling mill having reel
+B21B  37/46 110 Z	2	0	4E124	B21B  37/46	359	その他	Others
+B21B  37/46 111 \	2	2	4E124	B21B  37/46	312	タンデムミルに関するもの	related to tandem mills
+B21B  37/46 112 \	2	2	4E124	B21B  37/46	2	可逆圧延機に関するもの	related to reversible rolling mill
+B21B  37/46 112 A	2	0	4E124	B21B  37/46	14	中間貯蔵リールを有するもの	provided with intermediate storage reels
+B21B  37/46 112 Z	2	0	4E124	B21B  37/46	55	その他	Others
+B21B  37/46 120 \	2	2	4E124	B21B  37/46	125	条材又は管材のためのもの	for bar or tube material
+B21B  37/48  \	1	1	4E124	B21B  37/48	4	張力制御；圧縮力制御［６］	Tension control; compressive force control [6]
+B21B  37/48  A	1	0	4E124	B21B  37/48	168	条材のためのもの	for bar material
+B21B  37/48  B	1	0	4E124	B21B  37/48	50	管材のためのもの	for tube material
+B21B  37/48  C	1	0	4E124	B21B  37/48	126	ループ制御	Control of loops
+B21B  37/48  D	1	0	4E124	B21B  37/48	511	タンデムミルに関するもの	related to tandem mills
+B21B  37/48  Z	1	0	4E124	B21B  37/48	347	その他	Others
+B21B  37/50  \	2	2	4E124	B21B  37/50	398	ルーパー制御によるもの［６］	by looper control [6]
+B21B  37/52  \	2	2	4E124	B21B  37/52	304	駆動モーター制御によるもの［６］	by drive motor control [6]
+B21B  37/54  \	3	3	4E124	B21B  37/54	34	巻取巻戻機の駆動制御を含むもの，例．可逆圧延機［６］	including drive control of winding and rewinding machine, e.g. reversible rolling mill [6]
+B21B  37/56  \	1	1	4E124	B21B  37/56	162	伸び率制御［６］	Elongation control [6]
+B21B  37/58  \	1	1	4E124	B21B  37/58	13	ロール圧下力制御；ロール間隙制御［６］	Roll-force control; Roll-gap control [6]
+B21B  37/58  A	1	0	4E124	B21B  37/58	27	ロール圧下位置制御	controlling roll depression position
+B21B  37/58  B	1	1	4E124	B21B  37/58	291	左右圧下位置制御，例．片圧下レベリング	Control of lateral pressing position, e.g. leveling under one-sided pressure
+B21B  37/58  C	1	0	4E124	B21B  37/58	93	ロール圧下力制御	controlling roll depression position
+B21B  37/58  D	1	0	4E124	B21B  37/58	51	特定検出信号に応答するもの	respond to specific detection signal
+B21B  37/58  Z	1	0	4E124	B21B  37/58	152	その他	Others
+B21B  37/60  \	2	2	4E124	B21B  37/60	51	圧下スクリューを駆動するモーター制御によるもの［６］	by control of a motor which drives an adjusting screw [6]
+B21B  37/62  \	2	2	4E124	B21B  37/62	0	液圧調整装置の制御によるもの［６］	by control of a hydraulic adjusting device [6]
+B21B  37/62  A	2	0	4E124	B21B  37/62	237	油圧圧下ラム位置を制御するもの	Control of ram pressing position with oil pressure
+B21B  37/62  B	2	0	4E124	B21B  37/62	4	油圧圧下ラム圧を制御するもの	Control of ram pressure with oil pressure
+B21B  37/62  C	2	1	4E124	B21B  37/62	41	定圧式液圧圧下力制御	Constant-pressure type control of pressing force with oil pressure
+B21B  37/62  Z	2	0	4E124	B21B  37/62	92	その他	Others
+B21B  37/64  \	2	2	4E124	B21B  37/64	22	ミル剛性またはロール剛性補償システム，例．プレストレス圧延スタンドの制御［６］	Mill spring or roll spring compensation systems, e.g. control of prestressed mill stands [6]
+B21B  37/66  \	2	2	4E124	B21B  37/66	301	ロール偏心補償システム［６］	Roll eccentricity compensation systems [6]
+B21B  37/68  \	1	1	4E124	B21B  37/68	10	帯材，薄板材または板材のためのキャンバーまたはステアリング制御，例．曲がりくねりを防ぐもの［６］	Camper or steering control for strip, sheets or plates, e.g. prevent curving [6]
+B21B  37/68  A	1	0	4E124	B21B  37/68	48	オフセンタ量に関するもの	related to the amount of off-center
+B21B  37/68  B	1	0	4E124	B21B  37/68	53	エッジャガイドによるもの	by edger guide
+B21B  37/68  C	1	0	4E124	B21B  37/68	14	ロール軸方向移動制御によるもの	by control of moving in the direction of roll axis
+B21B  37/68  D	1	0	4E124	B21B  37/68	20	温度または変形抵抗を制御するもの	Control of temperature or deform resistance
+B21B  37/68  Z	1	0	4E124	B21B  37/68	729	その他	Others
+B21B  37/70  \	1	1	4E124	B21B  37/70	2	長さ制御（Ｂ２１Ｂ３７／５６が優先）［６］	Length control(B21B37/56 takes precedence) [6]
+B21B  37/70  A	1	0	4E124	B21B  37/70	35	管材のためのもの	for tube material
+B21B  37/70  Z	1	0	4E124	B21B  37/70	45	その他	Others
+B21B  37/72  \	1	1	4E124	B21B  37/72	239	後端制御；前端制御［６］	Rear end control; Front end control [6]
+B21B  37/74  \	1	1	4E124	B21B  37/74	4	温度制御，例．ロールまたは製品の冷却または加熱によるもの（Ｂ２１Ｂ３７／３２，Ｂ２１Ｂ３７／４４が優先）［６］	Temperature control, e.g. by cooling or heating the rolls or the product(B21B37/32, B21B37/44 take precedence) [6]
+B21B  37/74  A	1	0	4E124	B21B  37/74	671	帯材，薄板材または板材のためのもの	for strip, sheets or plates
+B21B  37/74  B	1	0	4E124	B21B  37/74	69	条材のためのもの	for bar
+B21B  37/74  C	1	0	4E124	B21B  37/74	15	管材のためのもの	for tube
+B21B  37/74  Z	1	0	4E124	B21B  37/74	10	その他	Others
+B21B  37/76  \	2	2	4E124	B21B  37/76	2	ランアウトテーブルの冷却制御［６］	Cooling control on the run-out table [6]
+B21B  37/76  A	2	0	4E124	B21B  37/76	502	帯材，薄板材または板材のためのもの	for strip, sheets or plates
+B21B  37/76  B	2	0	4E124	B21B  37/76	30	条材のためのもの	for bar
+B21B  37/76  C	2	0	4E124	B21B  37/76	12	管材のためのもの	for tube
+B21B  37/76  Z	2	0	4E124	B21B  37/76	1	その他	Others
+B21B  37/78  \	1	1	4E124	B21B  37/78	553	管圧延の制御［６］	Control of tube rolling [6]
+B21B  38/00  \	0	0	4E097	B21B  38/00	5	金属圧延機に特に適用される測定方法または装置，例．位置探知，製品検査［６］	Methods or devices for measuring specially adapted for metal-rolling mills, e.g. position detection, inspection of the product [6]
+B21B  38/00  A	0	0	4E097	B21B  38/00	17	ロールの軸力を測定するもの	measuring axis force of roll
+B21B  38/00  B	0	0	4E097	B21B  38/00	9	スケール厚を測定するもの	measuring scale thickness
+B21B  38/00  C	0	0	4E097	B21B  38/00	268	温度を測定するもの	measuring temperature
+B21B  38/00  D	0	0	4E097	B21B  38/00	159	振動，チャタリングまたはチャタリングマークを監視または検出するもの	Monitor or detect vibration, chattering or chattering mark
+B21B  38/00  E	0	0	4E097	B21B  38/00	76	速度を測定するもの	measuring speed
+B21B  38/00  F	0	0	4E097	B21B  38/00	540	疵または品質の検査または検出	testing or detecting scratch or quality
+B21B  38/00  G	0	0	4E097	B21B  38/00	247	異常検知	abnormality detection
+B21B  38/00  Z	0	0	4E097	B21B  38/00	488	その他	Others
+B21B  38/02  \	1	1	4E097	B21B  38/02	775	帯材の平坦度または形状を測定するためのもの［６］	for measuring flatness or profile of strips [6]
+B21B  38/04  \	1	1	4E097	B21B  38/04	11	製品の厚さ，幅，直径またはその他の横断寸法を測定するためのもの［６］	for measuring thickness, width, diameter or other transverse dimensions of the product [6]
+B21B  38/04  A	1	0	4E097	B21B  38/04	179	長さまたは幅の測定	measuring length or width
+B21B  38/04  B	1	0	4E097	B21B  38/04	169	厚みの測定	measuring thickness
+B21B  38/04  Z	1	0	4E097	B21B  38/04	38	その他	Others
+B21B  38/06  \	1	1	4E097	B21B  38/06	198	張力または圧縮力を測定するためのもの［６］	for measuring tension or compression [6]
+B21B  38/08  \	1	1	4E097	B21B  38/08	81	ロール圧力を測定するためのもの［６］	for measuring roll-force [6]
+B21B  38/10  \	1	1	4E097	B21B  38/10	7	ロール間隙を測定するためのもの，例．パス表示器［６］	for measuring roll-gap, e.g. pass indicators [6]
+B21B  38/10  A	1	0	4E097	B21B  38/10	85	ロールギャップの校正またはプリセットのためのもの	for proofreading or presetting roll gap
+B21B  38/10  Z	1	0	4E097	B21B  38/10	107	その他	Others
+B21B  38/12  \	1	1	4E097	B21B  38/12	75	ロールキャンバーを測定するためのもの［６］	for measuring roll camber [6]
+B21B  39/00  \	0	0	4E018	B21B  39/00	26	金属圧延機に連結され，または組込まれ，またはそれに関連する用途に特に適用されて，素材を移送し，支持し，または位置決めし，または素材の移送を制御する装置（ループまたはわん曲状での可撓性素材の案内，運搬，蓄積Ｂ２１Ｂ４１／００；特に冷却床に関係するものＢ２１Ｂ４３／００；運搬または移送一般Ｂ６５Ｇ）	Arrangements for moving, supporting, or positioning work, or controlling its movement, combined with or arranged in, or specially adapted for use in connection with, metal-rolling mills (guiding, conveying, or accumulating easily-flexible work in loops or curves B21B 41/00; specially associated with cooling-beds B21B 43/00; conveying or transporting in general B65G)
+B21B  39/00  A	0	0	4E018	B21B  39/00	304	板の移送	Transporting sheets
+B21B  39/00  B	0	0	4E018	B21B  39/00	263	条の移送	Transporting threads
+B21B  39/00  C	0	0	4E018	B21B  39/00	152	管の移送	Transporting tubes
+B21B  39/00  D	0	0	4E018	B21B  39/00	133	移送〔仕分・整理・抽出〕	Transporting (sorting, arranging, extracting)
+B21B  39/00  E	0	0	4E018	B21B  39/00	140	プツシヤ−・横送り	Pushers, cross-feeding
+B21B  39/00  F	0	0	4E018	B21B  39/00	810	移送ロ−ラ	Rollers for transport
+B21B  39/00  G	0	0	4E018	B21B  39/00	132	搬送台車	Lorries for conveying
+B21B  39/00  H	0	0	4E018	B21B  39/00	173	搬送中の圧延材の保熱	Heat maintaining of rolled materials during conveying
+B21B  39/00  J	0	0	4E018	B21B  39/00	402	移送制御	Control of transporting
+B21B  39/00  Z	0	0	4E018	B21B  39/00	31	その他	Others
+B21B  39/02  \	1	1	4E018	B21B  39/02	73	素材の供給または支持；制動装置または張力装置	Feeding or supporting work; Braking or tensioning arrangements
+B21B  39/04  \	2	2	4E018	B21B  39/04	110	送り込みを目的とする素材の昇降，例．パスの直前直後に配置されるティルティングテーブル（そのような反転または類似の操作手段Ｂ２１Ｂ３９／２０）	Lifting or lowering work for conveying purposes, e.g. tilting tables arranged immediately in front of or behind the pass (turn-over or like manipulating means as such B21B 39/20)
+B21B  39/06  \	2	2	4E018	B21B  39/06	96	パスへの素材の押し付けまたは押し込み	Pushing or forcing work into pass
+B21B  39/08  \	2	2	4E018	B21B  39/08	30	制動または張力装置	Braking or tensioning arrangements
+B21B  39/08  A	2	0	4E018	B21B  39/08	548	緊張装置	Tensioning arrangements
+B21B  39/08  B	2	0	4E018	B21B  39/08	234	ル−パ−	Loopers
+B21B  39/08  C	2	0	4E018	B21B  39/08	60	減速・停止	Decelerating, stopping
+B21B  39/08  Z	2	0	4E018	B21B  39/08	31	その他	Others
+B21B  39/10  \	2	2	4E018	B21B  39/10	51	圧延スタンド中のフィードロールの配置またはその据えつけ	Arrangement or installation of feeding rollers in rolling stands
+B21B  39/12  \	2	2	4E018	B21B  39/12	12	圧延スタンドに関連するローラーテーブルの配置またはその据え付け	Arrangement or installation of roller tables in relation to a roll stand
+B21B  39/12  A	2	0	4E018	B21B  39/12	393	ロ−ラ−テ−ブル	Roller tables
+B21B  39/12  B	2	1	4E018	B21B  39/12	184	その制御	Control thereof
+B21B  39/12  C	2	0	4E018	B21B  39/12	232	ホツトランテ−ブル	Hot-run tables
+B21B  39/12  Z	2	0	4E018	B21B  39/12	20	その他	Others
+B21B  39/14  \	1	1	4E018	B21B  39/14	37	素材の案内，位置決め，または整列（Ｂ２１Ｂ４３／１２が優先；素材が永久内部ねじれを受けるものの案内Ｂ２１Ｂ１５／０２）	Guiding, positioning or aligning work (B21B 43/12 takes precedence; guides in which work is subjected to permanent internal twisting B21B 15/02)
+B21B  39/14  A	1	0	4E018	B21B  39/14	45	整列	Aligning
+B21B  39/14  B	1	0	4E018	B21B  39/14	552	案内装置	Guiding arrangements
+B21B  39/14  C	1	1	4E018	B21B  39/14	244	案内装置〔板押え方式〕	Guiding arrangements (Sheet-pressing type)
+B21B  39/14  D	1	1	4E018	B21B  39/14	561	サイドガイド	Side guides
+B21B  39/14  E	1	1	4E018	B21B  39/14	713	ガイドロ−ラ	Guide rollers
+B21B  39/14  F	1	1	4E018	B21B  39/14	67	中間ガイド	Intermediate guides
+B21B  39/14  G	1	0	4E018	B21B  39/14	73	パイリング	Piling
+B21B  39/14  H	1	0	4E018	B21B  39/14	218	パスライン調整	Adjustment of pass lines
+B21B  39/14  J	1	0	4E018	B21B  39/14	344	移送中の蛇行修正	Compensating meandering during transportation
+B21B  39/14  Z	1	0	4E018	B21B  39/14	44	その他	Others
+B21B  39/16  \	2	2	4E018	B21B  39/16	406	パスへの進入直前または通過直後ただちに行うもの	immediately before entering or after leaving the pass
+B21B  39/18  \	2	2	4E018	B21B  39/18	82	金属圧延機または圧延機列中での素材の方向変換	Switches for directing work in metal-rolling mills or trains
+B21B  39/20  \	1	1	4E018	B21B  39/20	8	素材の回転，反転または類似の操作（加工物が永久内部ねじれを受けるものの案内Ｂ２１Ｂ１５／０２）	Revolving, turning-over, or like manipulation of work (guides in which work is subjected to permanent internal twisting B21B 15/02)
+B21B  39/20  A	1	0	4E018	B21B  39/20	323	転回	Spinning
+B21B  39/20  B	1	0	4E018	B21B  39/20	65	旋回	Circling
+B21B  39/20  Z	1	0	4E018	B21B  39/20	6	その他	Others
+B21B  39/22  \	2	2	4E018	B21B  39/22	8	傾斜によるもの，例．レバーまたはくさびにより一端をもち上げることによるもの（Ｂ２１Ｂ３９／２６，Ｂ２１Ｂ３９／２８が優先）	by tipping, e.g. by lifting one side by levers or wedges (B21B 39/26, B21B 39/28 take precedence)
+B21B  39/24  \	2	2	4E018	B21B  39/24	8	トングまたはグリッパーによるもの	by tongs or grippers
+B21B  39/26  \	2	2	4E018	B21B  39/26	4	素材を回転させるために，素材の両側に係合し，互いに相対的に動く部材，例．溝のある，によるもの	by members, e.g. grooved, engaging opposite sides of the work and moved relatively to each other to revolve the work
+B21B  39/28  \	2	2	4E018	B21B  39/28	76	素材の通過中に素材を回転するように形成された案内部材によるもの	by means of guide members shaped to revolve the work during its passage
+B21B  39/30  \	2	2	4E018	B21B  39/30	9	回転するリングマニプレータまたはリングセグメントマニプレータに加工物を置くことによるもの	by lodging it in a rotating ring manipulator or ring segment manipulator
+B21B  39/32  \	2	2	4E018	B21B  39/32	139	板を反転させるために特に適用される装置	Devices specially adapted for turning sheets
+B21B  39/34  \	1	1	4E018	B21B  39/34	35	グループＢ２１Ｂ３９／０２，Ｂ２１Ｂ３９／１４，Ｂ２１Ｂ３９／２０の１グループ以上に包含される作用を遂行するために特に設計された装置または構造的結合	Arrangements or constructional combinations specifically designed to perform functions covered by more than one of groups B21B 39/02, B21B 39/14, B21B 39/20
+B21B  41/00  \	0	0	4E018	B21B  41/00	13	ループ状またはわん曲状での可撓性素材，例．線材，金属帯板，の案内，運搬または蓄積；ループ昇降機	Guiding, conveying, or accumulating easily-flexible work, e.g. wire, sheet metal bands, in loops or curves; Loop lifters
+B21B  41/00  A	0	0	4E018	B21B  41/00	181	可撓性素材の案内	Guides for easily-flexible work
+B21B  41/00  B	0	0	4E018	B21B  41/00	308	ル−パ−〔蓄積・無張力〕	Loopers (accumulated, non-tension)
+B21B  41/00  Z	0	0	4E018	B21B  41/00	19	その他	Others
+B21B  41/02  \	1	1	4E018	B21B  41/02	5	パスを繰り返すための素材の戻し	Returning work to repeat the pass or passes
+B21B  41/04  \	2	2	4E018	B21B  41/04	2	圧延スタンドまたはロールの上または下でのもの	above or underneath the rolling stand or rolls
+B21B  41/06  \	1	1	4E018	B21B  41/06	104	素材の運動方向をほぼ１８０°変えるためのもの	in which the direction of movement of the work is turned through approximately 180&deg;
+B21B  41/08  \	1	1	4E018	B21B  41/08	84	素材の運動の主たる方向を全部は変えないもの	without overall change in the general direction of movement of the work
+B21B  41/10  \	2	2	4E018	B21B  41/10	22	ループディフレクター	Loop deflectors
+B21B  41/12  \	1	1	4E018	B21B  41/12	32	操作を指示または制御するための設備に関してのみ重要な装置	Arrangements of interest only with respect to provision for indicating or controlling operations
+B21B  43/00  \	0	0	4E025	B21B  43/00	4	固定式または可動式の冷却床；特に冷却床と関連した手段，例．素材を制動するための手段または冷却床へもしくは冷却床から素材を運搬するための手段（運搬手段一般Ｂ６５Ｇ）	Cooling beds, whether stationary or moving; Means specially associated with cooling beds, e.g. for braking work or for transferring it to or from the bed (conveying means in general B65G)
+B21B  43/00  A	0	0	4E025	B21B  43/00	217	線材用冷却床	Cooling-beds for threaded work
+B21B  43/00  B	0	0	4E025	B21B  43/00	299	ウオ−キングビ−ム型冷却床	Cooling-beds of walking-beam type
+B21B  43/00  C	0	0	4E025	B21B  43/00	222	冷却床へまたは冷却床からの運搬	Transferring to or from cooling-beds
+B21B  43/00  D	0	0	4E025	B21B  43/00	120	冷却床を含む設備システム	Device systems containing cooling-beds
+B21B  43/00  Z	0	0	4E025	B21B  43/00	141	その他	Others
+B21B  43/02  \	1	1	4E025	B21B  43/02	15	レーキまたはバーから成る冷却床（Ｂ２１Ｂ４３／１０が優先）［２］	Cooling beds comprising rakes or bars (B21B 43/10 takes precedence) [2]
+B21B  43/04  \	1	1	4E025	B21B  43/04	18	ロールまたはウォームから成る冷却床	Cooling beds comprising rolls or worms
+B21B  43/06  \	1	1	4E025	B21B  43/06	1	キャリッジから成る冷却床（Ｂ２１Ｂ４３／０８が優先）	Cooling beds comprising carriages (B21B 43/08 takes precedence)
+B21B  43/08  \	1	1	4E025	B21B  43/08	12	回転ドラムまたは循環チェーンから成る冷却床	Cooling beds comprising revolving drums or recycling chains
+B21B  43/10  \	1	1	4E025	B21B  43/10	17	冷却床を通じて素材を移動させる他の要素を有した冷却床	Cooling beds with other work-shifting elements projecting through the bed
+B21B  43/12  \	1	1	4E025	B21B  43/12	14	素材片の整列装置，すなわち冷却床上または同調コンベヤ上で素材の全軸端を整列させるもの［２］	Devices for positioning workpieces &quot;flushed&quot;, i.e. with all their axial ends arranged in line on cooling beds or on co-operating conveyors [2]
+B21B  45/00  \	0	0	4E019	B21B  45/00	15	金属圧延機に特に連結され，組込まれ，または関連した用途に特に適用される素材の表面処理装置（Ｂ２１Ｂ１５／００が優先；脱スケール装置の技術的特徴Ｂ２１Ｃ４３／００）	Devices for surface treatment of work, specially combined with or arranged in, or specially adapted for use in connection with, metal-rolling mills (B21B 15/00 takes precedence; technical features of scaling-off devices B21C 43/00)
+B21B  45/00  A	0	0	4E019	B21B  45/00	396	圧延材の表面処理	Surface treatment of rolled work
+B21B  45/00  B	0	1	4E019	B21B  45/00	303	スケ−ルの改質	reforming scales
+B21B  45/00  H	0	0	4E019	B21B  45/00	69	板材の圧延ライン上での保熱・加熱・顕熱回収	Heat-maintaining, heating, recovering sensible heat of sheet work on a rolling line
+B21B  45/00  J	0	1	4E019	B21B  45/00	98	保熱	heat-maintaining
+B21B  45/00  K	0	2	4E019	B21B  45/00	161	カバ−を使用するもの	using covers
+B21B  45/00  L	0	1	4E019	B21B  45/00	420	加熱	heating
+B21B  45/00  M	0	2	4E019	B21B  45/00	129	ガスを使用するもの	using gases
+B21B  45/00  N	0	2	4E019	B21B  45/00	487	誘導加熱を使用するもの	using induction heating
+B21B  45/00  P	0	1	4E019	B21B  45/00	58	顕熱回収	recovering sensible heat
+B21B  45/00  D	0	0	4E019	B21B  45/00	121	棒・型綱の圧延ライン上での保熱・加熱	Heat-maintaining, heating steel bars, mould steel on a rolling line
+B21B  45/00  Z	0	0	4E019	B21B  45/00	128	その他	Others
+B21B  45/02  \	1	1	4E019	B21B  45/02	59	潤滑，冷却，清浄のためのもの	for lubricating, cooling, or cleaning
+B21B  45/02 310 \	2	2	4E019	B21B  45/02	1060	潤滑のためのもの	for lubricating
+B21B  45/02 320 \	2	2	4E019	B21B  45/02	18	冷却のためのもの	for cooling
+B21B  45/02 320 R	2	0	4E019	B21B  45/02	406	板の冷却のためのもの	for cooling sheets
+B21B  45/02 320 S	2	1	4E019	B21B  45/02	439	冷却温度を制御するもの	controlling cooling temperature
+B21B  45/02 320 T	2	2	4E019	B21B  45/02	472	冷却水量を制御するもの	controlling the amount of cooling water
+B21B  45/02 320 U	2	1	4E019	B21B  45/02	593	装置全体として特徴のあるもの	Characterized by devices as a whole
+B21B  45/02 320 V	2	2	4E019	B21B  45/02	184	下面を冷却するもの	cooling undersurface
+B21B  45/02 320 W	2	2	4E019	B21B  45/02	73	干渉防止のためのもの	for preventing interference
+B21B  45/02 320 B	2	1	4E019	B21B  45/02	372	ノズルの構造に特徴のあるもの〔ヘツダの構造に特徴のないもの〕	Characterized by the structure of nozzles (not characterized by the structure of headers)
+B21B  45/02 320 C	2	1	4E019	B21B  45/02	172	ヘツダの内部構造に特徴のあるもの	Characterized by the inner structure of headers
+B21B  45/02 320 D	2	1	4E019	B21B  45/02	69	ヘツダを移動させるもの	moving headers
+B21B  45/02 320 E	2	1	4E019	B21B  45/02	124	冷却水のＯＮ　ＯＦＦ構造に特徴のあるもの	Characterized by on-off structure of cooling water
+B21B  45/02 320 F	2	1	4E019	B21B  45/02	251	板幅方向の温度を均一にするための構造をもつもの	with structures for uniforming the temperature in the direction of sheet width
+B21B  45/02 320 G	2	2	4E019	B21B  45/02	152	ノズルに板幅方向に遮蔽体を設けたもの	Mounting blocking bodies over the nozzles in the direction of sheet width
+B21B  45/02 320 H	2	1	4E019	B21B  45/02	159	配管系統に特徴のあるもの	Characterized by pipe arrangement
+B21B  45/02 320 J	2	1	4E019	B21B  45/02	80	水を使用しないもの	without using water
+B21B  45/02 320 M	2	0	4E019	B21B  45/02	403	線材・棒材の冷却のためのもの	for cooling thread-work, rod-work
+B21B  45/02 320 P	2	0	4E019	B21B  45/02	325	型鋼の冷却のためのもの	for cooling mould steel
+B21B  45/02 320 Z	2	0	4E019	B21B  45/02	265	その他	Others
+B21B  45/02 330 \	2	2	4E019	B21B  45/02	771	清浄のためのもの	for cleaning
+B21B  45/04  \	1	1	4E019	B21B  45/04	22	デスケーリングのためのもの	for de-scaling
+B21B  45/04  A	1	0	4E019	B21B  45/04	176	線材・棒材のデスケ−リングのためのもの	for de-scaling wire-work, rod-work
+B21B  45/04  Z	1	0	4E019	B21B  45/04	171	その他	Others
+B21B  45/06  \	2	2	4E019	B21B  45/06	15	帯材のもの（Ｂ２１Ｂ４５／０８が優先）	of strip material (B21B 45/08 takes precedence)
+B21B  45/06  E	2	0	4E019	B21B  45/06	138	機械的デスケ−リングのためのもの	for mechanical de-scaling
+B21B  45/06  F	2	1	4E019	B21B  45/06	210	ブラシを使用するもの	using brushes
+B21B  45/06  G	2	2	4E019	B21B  45/06	118	ブラシロ−ルによるもの	by brush roll
+B21B  45/06  J	2	1	4E019	B21B  45/06	116	スキンパス圧延を使用するもの	using skin-pass rolling
+B21B  45/06  K	2	2	4E019	B21B  45/06	26	異速圧延を使用するもの	using rolling with different speeds
+B21B  45/06  L	2	1	4E019	B21B  45/06	178	曲げ又は曲げ引張りを使用するもの	using bending or bending-tensioning
+B21B  45/06  P	2	1	4E019	B21B  45/06	181	工程に特徴があるもの	Characterized by processes
+B21B  45/06  Q	2	2	4E019	B21B  45/06	68	複数工程によるもの	by plural processes
+B21B  45/06  R	2	3	4E019	B21B  45/06	269	酸洗等化学的デスケ−リングと組み合わせたもの	combined with chemical de-scaling such as pickling
+B21B  45/06  S	2	3	4E019	B21B  45/06	216	高圧水，研掃材の投射があるもの	subjected to high pressured water, grinding agents
+B21B  45/06  T	2	1	4E019	B21B  45/06	51	制御を行つているもの	performing control
+B21B  45/06  B	2	0	4E019	B21B  45/06	244	化学的デスケ−リングのためのもの〔Ａが優先する〕	for chemical de-scaling (A takes precedence)
+B21B  45/06  Z	2	0	4E019	B21B  45/06	94	その他のもの	Others
+B21B  45/08  \	2	2	4E019	B21B  45/08	423	水圧によるもの	hydraulically
+B21B  45/08  A	2	0	4E019	B21B  45/08	540	高圧水による脱スケ−ル	Scaling-off with high water pressure
+B21B  45/08  B	2	1	4E019	B21B  45/08	331	ノズル，ヘツダに特徴を有するもの	Characterized by nozzles, headers
+B21B  45/08  C	2	1	4E019	B21B  45/08	62	配管系に特徴を有するもの	Characterized by pipe arrangement
+B21B  45/08  D	2	1	4E019	B21B  45/08	97	研掃材に特徴を有するもの	Characterized by grinding materials
+B21B  45/08  E	2	1	4E019	B21B  45/08	81	複数工程によるもの	by plural processes
+B21B  45/08  F	2	1	4E019	B21B  45/08	262	制御を行つているもの（圧力，水量等）	performing control (pressure, amount of water and such)
+B21B  45/08  K	2	1	4E019	B21B  45/08	159	条材（板材以外のもの）の脱スケ−ル	Scaling-off thread-work (other than sheet-work)
+B21B  45/08  Z	2	0	4E019	B21B  45/08	22	その他のもの	Others
+B21B  47/00  \	0	0	4E002	B21B  47/00	132	多層金属板の圧延に関する補助具，装置または方法（均熱炉Ｃ２１Ｄ９／７０）［２］	Auxiliary arrangements, devices or methods in connection with rolling of multi-layer sheets of metal (soaking pits C21D 9/70) [2]
+B21B  47/02  \	1	1	4E002	B21B  47/02	5	圧延前の板の折り重ね	for folding sheets before rolling
+B21B  47/04  \	1	1	4E002	B21B  47/04	27	圧延後の層の分離	for separating layers after rolling
+B21B  99/00  \	0	0	4E002	B21B  99/00	5	このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass [8]

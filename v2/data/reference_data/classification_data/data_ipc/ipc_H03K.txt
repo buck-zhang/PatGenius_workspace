@@ -1,0 +1,377 @@
+H03K   3/00		電気的パルスの発生回路；単安定回路，双安定回路，多安定回路（Ｈ０３Ｋ４／００が優先；コンピュータ内のデジタル型関数発生器のためのものＧ０６Ｆ１／０２）［５］	Circuits for generating electric pulses; Monostable, bistable or multistable circuits(H03K4/00 takes precedence; for digital function generators in computers G06F1/02)	4974
+H03K   3/01	・	細部［３］	Details	880
+H03K   3/011	・・	物理的値，例．電圧，温度，の変化を補償するための発生器の変形［６］	Modifications of generator to compensate for variations in physical values, e.g. voltage, temperature	1457
+H03K   3/012	・・	応答時間を改善または電力消費を減少するための発生器の変形［６］	Modifications of generator to improve response time or to decrease power consumption	2409
+H03K   3/013	・・	雑音または混信による動作を予防するための発生器の変形［３］	Modifications of generator to prevent operation by noise or interference	1287
+H03K   3/014	・・	振動の開始を確実にする発生器の変形［６］	Modifications of generator to ensure starting of oscillations	150
+H03K   3/015	・・	エネルギを一定に維持するための発生器の変形［６］	Modifications of generator to maintain energy constant	96
+H03K   3/017	・・	パルスの幅またはデューティ比の調整（パルス幅変調Ｈ０３Ｋ７／０８）［３］	Adjustment of width or dutycycle of pulses(pulse width modulation H03K7/08)	2460
+H03K   3/02	・	パルスの発生に用いられる回路形式または手段によって特徴づけられた発生器（Ｈ０３Ｋ３／６４〜Ｈ０３Ｋ３／８４が優先）	Generators characterised by the type of circuit or by the means used for producing pulses(H03K3/64 to H03K3/84  take precedence)	6025
+H03K   3/021	・・	能動素子として二種類以上の素子または手段の使用によるもの，例．ＢＩＭＯＳ，ＩＧＢＴのような複合装置［６］	by the use, as active elements, of more than one type of element or means, e.g. BIMOS, composite devices such as IGBT	226
+H03K   3/023	・・	内部または外部正帰還をもつ，差動増幅器または比較器を用いるもの［３］	by the use of differential amplifiers or comparators, with internal or external positive feedback	1015
+H03K   3/0231	・・・	非安定回路［６］	Astable circuits	1687
+H03K   3/0232	・・・	単安定回路［６］	Monostable circuits	219
+H03K   3/0233	・・・	双安定回路［６］	Bistable circuits	1069
+H03K   3/0234	・・・	多安定回路［６］	Multistable circuits	8
+H03K   3/027	・・	内部または外部正帰還をもつ，論理回路を用いるもの［３］	by the use of logic circuits, with internal or external positive feedback	619
+H03K   3/03	・・・	非安定回路［３］	Astable circuits	3750
+H03K   3/033	・・・	単安定回路［３］	Monostable circuits	487
+H03K   3/037	・・・	双安定回路［３］	Bistable circuits	4723
+H03K   3/038	・・・	多安定回路［６］	Multistable circuits	67
+H03K   3/04	・・	能動素子として正帰還をもつ真空管だけを用いるもの（Ｈ０３Ｋ３／０２３，Ｈ０３Ｋ３／０２７が優先）［３］	by the use, as active elements, of vacuum tubes only, with positive feedback(H03K3/023, H03K3/027 take precedence)	192
+H03K   3/05	・・・	変成以外の手段を帰還に用いるもの	using means other than a transformer for feedback	17
+H03K   3/06	・・・・	一方の電子管の入力が他方の電子管の出力から得られるように結合された少なくとも２個の電子管を用いるもの，例．マルチバイブレータ	using at least two tubes so coupled that the input of one is derived from the output of another, e.g. multivibrator	82
+H03K   3/08	・・・・・	非安定	astable	233
+H03K   3/09	・・・・・・	出力の安定化［２］	Stabilisation of output	7
+H03K   3/10	・・・・・	単安定	monostable	158
+H03K   3/12	・・・・・	双安定	bistable	223
+H03K   3/13	・・・・・・	ヒステリシスをもつ双安定，例．シュミットトリガ［６］	Bistables with hysteresis, e.g. Schmitt trigger	77
+H03K   3/14	・・・・・	多安定	multistable	29
+H03K   3/16	・・・	変成器を帰還に用いるもの，例．可飽和鉄心をもつブロッキング発振器	using a transformer for feedback, e.g. blocking oscillator with saturable core	254
+H03K   3/22	・・・・	振幅比較のために特に適したもの，すなわちマルチア	specially adapted for amplitude comparison, i.e. Multiar	29
+H03K   3/26	・・	能動素子として内部または外部正帰還をもつバイポーラトランジスタを用いるもの（Ｈ０３Ｋ３／０２３，Ｈ０３Ｋ３／０２７が優先）［２］	by the use, as active elements, of bipolar transistors with internal or external positive feedback(H03K3/023, H03K3/027 take precedence)	769
+H03K   3/28	・・・	変成器以外の手段を帰還に用いるもの	using means other than a transformer for feedback	406
+H03K   3/281	・・・・	一方のトランジスタの入力が他方のトランジスタの出力から得られる少なくとも２個のトランジスタを用いるもの，例．マルチバイブレータ	using at least two transistors so coupled that the input of one is derived from the output of another, e.g. multivibrator	581
+H03K   3/282	・・・・・	非安定	astable	1700
+H03K   3/283	・・・・・・	出力の安定化［２］	Stabilisation of output	78
+H03K   3/284	・・・・・	単安定	monostable	1181
+H03K   3/286	・・・・・	双安定［３］	bistable	2002
+H03K   3/287	・・・・・・	帰還回路中に付加トランジスタを用いるもの（Ｈ０３Ｋ３／２８９が優先）［３］	using additional transistors in the feedback circuit(H03K3/289 takes precedence)	59
+H03K   3/288	・・・・・・	入力回路中に付加トランジスタを用いるもの（Ｈ０３Ｋ３／２８９が優先）［３］	using additional transistors in the input circuit(H03K3/289 takes precedence)	304
+H03K   3/2885	・・・・・・・	差動構成をもつ入力回路［５］	the input circuit having a differential configuration	263
+H03K   3/289	・・・・・・	マスタースレーブ形のもの［３］	of the primary-secondary type	600
+H03K   3/2893	・・・・・・	ヒステリシスをもつ双安定，例．シュミットトリガ［６］	Bistables with hysteresis, e.g. Schmitt trigger	715
+H03K   3/2897	・・・・・・・	差動構成の入力回路をもつもの［６］	with an input circuit of differential configuration	214
+H03K   3/29	・・・・・	多安定	multistable	286
+H03K   3/30	・・・	能動素子としてホール蓄積またはエンハンスメント効果を示す半導体装置を用いるもの	using a transformer for feedback, e.g. blocking oscillator	1152
+H03K   3/313	・・	能動素子として２個の電極，１個または２個の電位障壁をもち，負性抵抗特性を示す半導体装置を用いるもの［２００６．０１］	by the use, as active elements, of semiconductor devices with two electrodes, one or two potential barriers, and exhibiting a negative resistance characteristic	273
+H03K   3/315	・・・	装置がトンネルダイオードであるもの	the devices being tunnel diodes	601
+H03K   3/33	・・	能動素子としてホール蓄積またはエンハンスメント効果を示す半導体装置のを用いるもの	by the use, as active elements, of semiconductor devices exhibiting hole storage or enhancement effect	275
+H03K   3/335	・・	能動素子として３以上の電極をもちかつアバランシェ効果を示す半導体装置を用いるもの	by the use, as active elements, of semiconductor devices with more than two electrodes and exhibiting avalanche effect	447
+H03K   3/35	・・	能動素子として３以上のＰＮ接合，または４以上の電極，または同一伝導領域に接続された２以上の電極をもつバイポーラ半導体装置を用いるもの［３］	by the use, as active elements, of bipolar semiconductor devices with more than two PN junctions, or more than three electrodes, or more than one electrode connected to the same conductivity region(H03K3/023, H03K3/027 take precedence)	436
+H03K   3/351	・・・	装置がユニジャンクショントランジスタであるもの（Ｈ０３Ｋ３／３５２が優先）［３］	the devices being unijunction transistors(H03K3/352 takes precedence)	357
+H03K   3/352	・・・	装置がサイリスタであるもの［３］	the devices being thyristors	615
+H03K   3/3525	・・・・	アノードゲイトサイリスタまたはプログラムできるユニジャンクショントランジスタ［６］	Anode gate thyristors or programmable unijunction transistors	198
+H03K   3/353	・・	能動素子として内部または外部正帰還をもつ電界効果トランジスタを用いるもの（Ｈ０３Ｋ３／０２３，Ｈ０３Ｋ３／０２７が優先）［２，３］	by the use, as active elements, of field-effect transistors with internal or external positive feedback(H03K3/023, H03K3/027 take precedence)	1065
+H03K   3/354	・・・	非安定回路［３］	Astable circuits	1803
+H03K   3/355	・・・	単安定回路［３］	Monostable circuits	113
+H03K   3/356	・・・	双安定回路［３］	Bistable circuits	4971
+H03K   3/3562	・・・・	マスタースレーブ型式の［６］	of the primary-secondary type	937
+H03K   3/3565	・・・・	ヒステリシスをもつ双安定，例．シュミットトリガ［６］	Bistables with hysteresis, e.g. Schmitt trigger	711
+H03K   3/3568	・・・	多安定回路［６］	Multistable circuits	35
+H03K   3/357	・・	能動素子としてバルク負性抵抗装置，例．ガン効果装置，を用いるもの［２］	by the use, as active elements, of bulk negative resistance devices, e.g. Gunn-effect devices	72
+H03K   3/36	・・	能動素子として他に分類されない半導体を用いるもの［２］	by the use, as active elements, of semiconductors, not otherwise provided for	192
+H03K   3/37	・・	能動素子としてガス入り管を用いるもの，例．非安定トリガ回路（Ｈ０３Ｋ３／５５が優先）	by the use, as active elements, of gas-filled tubes, e.g. astable trigger circuits(H03K3/55 takes precedence)	186
+H03K   3/38	・・	能動素子として超電導装置を用いるもの［３］	by the use, as active elements, of superconductive devices	447
+H03K   3/40	・・	能動素子として電気化学的電池を用いるもの	by the use, as active elements, of electrochemical cells	45
+H03K   3/42	・・	能動素子として光−電子装置，すなわち電気的にまたは光学的に結合された発光および光電変換を用いるもの	by the use, as active elements, of opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled	776
+H03K   3/43	・・	能動素子として電子ビーム偏向管を用いるもの	by the use, as active elements, of beam deflection tubes	62
+H03K   3/45	・・	能動素子として非線形磁気装置または非線形誘電体装置を用いるもの	by the use, as active elements, of non-linear magnetic or dielectric devices	1348
+H03K   3/47	・・・	装置がパラメトロンであるもの	the devices being parametrons	132
+H03K   3/49	・・・	装置が鉄共振装置であるもの	the devices being ferro-resonant	51
+H03K   3/51	・・・	装置が多孔磁心，例．トランスフラクサ，であるもの	the devices being multi-aperture magnetic cores, e.g. transfluxors	95
+H03K   3/53	・・	外部信号により制御されるスイッチング素子によって負荷を通して放電させられ，かつ正帰還が組みこまれていないエネルギ蓄積素子の使用によるもの	by the use of an energy-accumulating element discharged through the load by a switching device controlled by an external signal and not incorporating positive feedback(H03K3/335 takes precedence)	2907
+H03K   3/537	・・・	開閉装置がスパークギャップであるもの［３］	the switching device being a spark gap	547
+H03K   3/543	・・・	開閉装置が真空管であるもの［３］	the switching device being a vacuum tube	114
+H03K   3/55	・・・	開閉装置が制御電極をもつガス入り管であるもの	the switching device being a gas-filled tube having a control electrode	626
+H03K   3/57	・・・	開閉装置が半導体装置であるもの	the switching device being a semiconductor device	2060
+H03K   3/59	・・	電流磁気効果装置の使用によるもの，例．ホール効果装置［２］	by the use of galvano-magnetic devices, e.g. Hall-effect devices	72
+H03K   3/64	・	パルス列，すなわち有限の続発パルスを発生する発生器	Generators producing trains of pulses, i.e. finite sequences of pulses	1517
+H03K   3/66	・・	発生器出力の断続によるもの	by interrupting the output of a generator	117
+H03K   3/70	・・・	１パルス列中のすべての隣接パルスの間隔が等しいもの	time intervals between all adjacent pulses of one train being equal	130
+H03K   3/72	・・	パルス列繰返数を変化させるための手段をもつもの	with means for varying repetition rate of trains	615
+H03K   3/78	・	所定のパルスパターン，例．所定のパルス数，をもつ単一パルス列の発生	Generating a single train of pulses having a predetermined pattern, e.g. a predetermined number	2011
+H03K   3/80	・	正弦波振動の列の発生（正弦波振動のキーイングまたは断続によるＨ０３Ｃ，デジタル情報の伝送のためＨ０４Ｌ）	Generating trains of sinusoidal oscillations(by keying or interruption of sinusoidal oscillations H03C;  for transmission of digital information H04L)	545
+H03K   3/84	・	所定の統計上のパラメータ分布をもつパルスの発生，例．ランダムパルス発生器［２］	Generating pulses having a predetermined statistical distribution of a parameter, e.g. random pulse generators	2311
+H03K   3/86	・	遅延線によるパルスであって，かつ先行のサブグループに含まれないパルスの発生［２］	Generating pulses by means of delay lines and not covered by the preceding subgroups	177
+H03K   4/00		有限の傾斜またはステップ部分を実質的にもつパルスの発生	Generating pulses having essentially a finite slope or stepped portions	642
+H03K   4/02	・	ステップ部分をもつもの，例．階段波形	having stepped portions, e.g. staircase waveform	1366
+H03K   4/04	・	放物線波形をもつもの	having parabolic shape	143
+H03K   4/06	・	３角波形をもつもの	having triangular shape	1375
+H03K   4/08	・・	のこぎり波形をもつもの	having sawtooth shape	864
+H03K   4/10	・・・	電子管のみを能動素子としてもつもの	using as active elements vacuum tubes only	61
+H03K   4/12	・・・・	のこぎり波状電圧がコンデンサを通して発生するもの	in which a sawtooth voltage is produced across a capacitor	395
+H03K   4/14	・・・・・	１方の電子管の入力が他方の電子管の出力から得られるように結合された２個の電子管を用いるもの，例．マルチバイブレータ	using two tubes so coupled that the input of each one is derived from the output of the other, e.g. multivibrator	58
+H03K   4/16	・・・・・	変成器を介する正帰還をもつ単一電子管を用いるもの，例．ブロッキング発振器	using a single tube with positive feedback through transformer, e.g. blocking oscillator	115
+H03K   4/18	・・・・・	２つの電極間に負性抵抗特性を示す単一の電子管，例．トランジトロン，ダイナトロン，を用いるもの	using a single tube exhibiting negative resistance between two of its electrodes, e.g. transitron, dynatron	22
+H03K   4/20	・・・・・	コンデンサによる正帰還をもつ電子管を用いるもの	using a tube with negative feedback by capacitor, e.g. Miller integrator	110
+H03K   4/22	・・・・・・	トランジトロンと結合されたもの，例．ハンタストロン，サナトロン	combined with transitron, e.g. phantastron, sanatron	47
+H03K   4/24	・・・・・	ブートストラップ発生器	Boot-strap generators	70
+H03K   4/26	・・・・	のこぎり波状電流がインダクタンスを通して発生するもの	in which a sawtooth current is produced through an inductor	120
+H03K   4/28	・・・・・	スイッチング装置として動作する１本の電子管を用いるもの［３］	using a tube operating as a switching device	228
+H03K   4/32	・・・・・・	駆動パルスを発生させるための手段と結合されたもの	combined with means for generating the driving pulses	83
+H03K   4/34	・・・・・・・	変成器を介する正帰還をもつ単一の電子管をもつもの	using a single tube with positive feedback through a transformer	124
+H03K   4/36	・・・・・・・	２つの電極の間に負性抵抗を示す単一の電子管，例．トランジトロン，ダイナトロン，を用いるもの	using a single tube exhibiting negative resistance between two of its electrodes, e.g. transitron, dynatron	2
+H03K   4/38	・・・・・・・・	ミラー積分器と結合されたもの	combined with Miller integrator	8
+H03K   4/39	・・・・・	増幅器として動作する１本の電子管を用いるもの［３］	using a tube operating as an amplifier	47
+H03K   4/41	・・・・・・	コンデンサを介する負帰還をもつもの，例．ミラー積分器［３］	with negative feedback through a capacitor, e.g. Miller integrator	20
+H03K   4/43	・・・・・・	駆動パルスを発生する手段と結合されたもの［３］	combined with means for generating the driving pulses	197
+H03K   4/48	・・・	半導体装置を能動素子として使用するもの（Ｈ０３Ｋ４／７８７〜Ｈ０３Ｋ４／８４が優先）	using as active elements semiconductor devices(H03K4/787 to H03K4/84  take precedence)	224
+H03K   4/50	・・・・	のこぎり波状電圧がコンデンサを通して発生するもの	in which a sawtooth voltage is produced across a capacitor	1040
+H03K   4/501	・・・・・	帰線期間の出発点がコンデンサを横切る電圧の振幅によって決まるもの，例．比較器によるもの［６］	the starting point of the flyback period being determined by the amplitude of the voltage across the capacitor, e.g. by a comparator	517
+H03K   4/502	・・・・・・	コンデンサが一定の電流源から充電されるもの［６］	the capacitor being charged from a constant-current source	322
+H03K   4/52	・・・・・	各トランジスタの入力が，たがいに他のトランジスタの出力から得られるように結合された２個のトランジスタを用いるもの，例．マルチバイブレータ	using two semiconductor devices so coupled that the input of each one is derived from the output of the other, e.g. multivibrator	61
+H03K   4/54	・・・・・	変成器を介する正帰還をもつ単一の半導体装置を用いるもの，例．ブロッキング発振器	using a single semiconductor device with positive feedback through a transformer, e.g. blocking oscillator	61
+H03K   4/56	・・・・・	コンデンサを介する負帰還をもつ半導体装置を用いるもの，例．ミラー積分器	using a semiconductor device with negative feedback through a capacitor, e.g. Miller integrator	323
+H03K   4/58	・・・・・	ブートストラップ発振器	Boot-strap generators	104
+H03K   4/60	・・・・	のこぎり波形電流がインダクタンスを通して発生するもの	in which a sawtooth current is produced through an inductor	133
+H03K   4/62	・・・・・	スイッチング装置として動作する１個の半導体装置を用いるもの［３］	using a semiconductor device operating as a switching device	366
+H03K   4/64	・・・・・・	駆動パルスを発生する手段と結合されたもの	combined with means for generating the driving pulses	177
+H03K   4/66	・・・・・・・	正帰還をもつ単一の素子を用いるもの，例．ブロッキング発振器	using a single device with positive feedback, e.g. blocking oscillator	27
+H03K   4/68	・・・・・・	発生器においてスイッチング装置がサイクル中の帰線部分の間導通するような発生器	Generators in which the switching device is conducting during the fly-back part of the cycle	31
+H03K   4/69	・・・・・	増幅器として動作する１個の半導体装置を用いるもの［３］	using a semiconductor device operating as an amplifier	189
+H03K   4/71	・・・・・・	コンデンサを介する負帰還をもつもの，例．ミラー積分器［３］	with negative feedback through a capacitor, e.g. Miller integrator	49
+H03K   4/72	・・・・・・	駆動パルスを発生する手段と結合されたもの	combined with means for generating the driving pulses	192
+H03K   4/787	・・・	能動素子として二つの電極をもち負性抵抗特性を示す半導体装置を用いるもの［２］	using as active elements semiconductor devices with two electrodes and exhibiting a negative resistance characteristic	16
+H03K   4/793	・・・・	トンネルダイオードを用いるもの［２］	using tunnel diodes	26
+H03K   4/80	・・・	多層ダイオードを能動素子として用いるもの	using as active elements multi-layer diodes	33
+H03K   4/83	・・・	３以上のＰＮ接合，または４以上の電極，または同一伝導領域に接続された２以上の電極をもつ半導体装置を能動素子としているもの［２］	using as active elements semiconductor devices with more than two PN junctions or with more than three electrodes or more than one electrode connected to the same conductivity region	232
+H03K   4/84	・・・・	発生器の半導体装置がサイクル中の帰線部分の間導通するような発生器	Generators in which the semiconductor device is conducting during the fly-back part of the cycle	108
+H03K   4/86	・・・	ガス入り管を能動素子として用いるもの	using as active elements gas-filled tubes	181
+H03K   4/88	・・・	電気化学的電池を能動素子として用いるもの	using as active elements electrochemical cells	29
+H03K   4/90	・・・	傾斜波の線形化（パルスの傾斜の変形Ｈ０３Ｋ６／０４；テレビジョン受像機に対する走査の歪み訂正Ｈ０４Ｎ３／２３）；パルスの同期［２］	Linearisation of ramp(modifying slopes of pulses H03K6/04; scanning distortion correction for television receivers H04N3/23);Synchronisation of pulses	499
+H03K   4/92	・	正弦波形の一部からなる波形をもつもの（スイッチング動作を行なわない能動素子を用いた振動の発生Ｈ０３Ｂ）［２］	having a waveform comprising a portion of a sinusoid(generating sinusoidal oscillations H03B)	166
+H03K   4/94	・	台形状の波形をもつもの［２］	having trapezoidal shape	443
+H03K   5/00		このサブクラスの他のメイングループの１によっては包括されないパルスの操作（再生作用をもつ回路Ｈ０３Ｋ３／００，Ｈ０３Ｋ４／００；非線形磁気または誘電体装置の使用によるものＨ０３Ｋ３／４５）<br><b><ul>注</ul></b><br>このグループにおいては，入力信号はパルスの形のものである。［３］	Manipulation of pulses not covered by one of the other main groups of this subclass(circuits with regenerative action H03K3/00, H03K4/00; by the use of non-linear magnetic or dielectric devices H03K3/45);<br><br><b><u>Note(s)</u></b><br><br>In this group, the input signals are of the pulse type.	11429
+H03K   5/003	・	ＤＣレベルを変えるもの（テレビジョン信号のｄｃ成分の再挿入Ｈ０４Ｎ５／１６）［６］	Changing the DC level(reinsertion of DC component of a television signal H04N5/16)	846
+H03K   5/007	・・	基線の安定（しきい値によるものＨ０３Ｋ５／０８）［６］	Base line stabilisation(thresholding H03K5/08)	714
+H03K   5/01	・	パルスの整形（雑音または干渉に対する識別Ｈ０３Ｋ５／１２５）	Shaping pulses(discrimination against noise or interference H03K5/125)	4731
+H03K   5/02	・・	増幅によるもの（Ｈ０３Ｋ５／０４が優先）	by amplifying(H03K5/04 takes precedence)	3155
+H03K   5/04	・・	持続時間の増大によるもの；持続時間の減少によるもの	by increasing duration; by decreasing duration	3707
+H03K   5/05	・・・	クロック信号または時間参照信号の使用によるもの［３］	by the use of clock signals or other time reference signals	892
+H03K   5/06	・・・	遅廷線または他のアナログ素子の使用によるもの［３］	by the use of delay lines or other analogue delay elements	766
+H03K   5/07	・・・	共振回路の使用によるもの［３］	by the use of resonant circuits	131
+H03K   5/08	・・	振幅制限によるもの，しきい値によるもの，スライスによるもの，すなわち振幅制限としきい値の結合によるもの（Ｈ０３Ｋ５／０７が優先；１つのパルスと他のパルスとの比較Ｈ０３Ｋ５／２２；スイッチ動作のために所定のしきい値を設けるものＨ０３Ｋ１７／３０）［３］	by limiting, by thresholding, by slicing, i.e. combined limiting and thresholding(H03K5/07 takes precedence; comparing one pulse with another H03K5/22; providing a determined threshold for switching H03K17/30)	7017
+H03K   5/12	・・	立上りまたは立下りの峻度の増大によるもの	by steepening leading or trailing edges	1101
+H03K   5/125	・	パルスの識別（個々のパルスの特性を測定するものＧ０１Ｒ２９／０２；テレビ装置における同期信号の分離Ｈ０４Ｎ５／０８）［６］	Discriminating pulses(measuring characteristics of individual pulses G01R29/02; separation of synchronising signals in television systems H04N5/08)	679
+H03K   5/1252	・・	雑音または干渉の抑制または制限（特に伝送方式に適合するものＨ０４Ｂ１５／００，Ｈ０４Ｌ２５／０８）［６］	Suppression or limitation of noise or interference(specially adapted for transmission systems H04B15/00, H04L25/08)	2663
+H03K   5/1254	・・・	特にスイッチの閉鎖により発生するパルスに適合するもの，すなわち，チャタリング防止（電子時計用はずみ低下回路Ｇ０４Ｇ５／００）［６］	specially adapted for pulses generated by closure of switches, i.e. anti-bouncing devices(debouncing circuits for electronic time-pieces G04G5/00)	814
+H03K   5/13	・	単一の出力をもち，かつ入力信号を変換して所望の時間間隔を有するパルスを与える配置［１，２０１４．０１］	Arrangements having a single output and transforming input signals into pulses delivered at desired time intervals	7334
+H03K   5/131	・・	デジタル制御されるもの［２０１４．０１］	Digitally controlled	660
+H03K   5/133	・・	能動遅延装置の連鎖を用いるもの［２０１４．０１］	using a chain of active-delay devices	892
+H03K   5/134	・・・	電界効果トランジスタを用いるもの［２０１４．０１］	with field-effect transistors	430
+H03K   5/135	・・	時間参照信号，例．クロック信号の使用によるもの［３］	by the use of time reference signals, e.g. clock signals	3653
+H03K   5/14	・・	遅延線の使用によるもの（Ｈ０３Ｋ５／１３３が優先）［３，２０１４．０１］	by the use of delay lines(H03K5/133 takes precedence)	1451
+H03K   5/145	・・	共振回路の使用によるもの［３］	by the use of resonant circuits	73
+H03K   5/15	・	パルスを異った時間にいくつかの出力に発生させる装置，すなわちパルス分配器（分配，スイッチングまたはゲート装置Ｈ０３Ｋ１７／００）［２］	Arrangements in which pulses are delivered at different times at several outputs, i.e. pulse distributors(distributing, switching, or gating arrangements H03K17/00)	3264
+H03K   5/151	・・	二つの相補的な出力をもつもの［６］	with two complementary outputs	724
+H03K   5/153	・	入力信号が予定された特性にきたとき瞬時にまたはある時間間隔をもって１つのパルスを与える配置（零交叉でのスイッチングＨ０３Ｋ１７／１３）	Arrangements in which a pulse is delivered at the instant when a predetermined characteristic of an input signal is present or at a fixed time interval after this instant(switching at zero crossing H03K17/13)	3451
+H03K   5/1532	・・	ピーク検知器（個々のパルスの特性を測定するものＧ０１Ｒ２９／０２）［６］	Peak detectors(measuring characteristics of individual pulses G01R29/02)	1258
+H03K   5/1534	・・	遷移またはエッジ検知器［６］	Transition or edge detectors	734
+H03K   5/1536	・・	零交又検知器（回路測定におけるものＧ０１Ｒ１９／１７５）［６］	Zero-crossing detectors(in measuring circuits G01R19/175)	485
+H03K   5/156	・	連続パルス列を所望のパターンをもつパルス列に変換する配置	Arrangements in which a continuous pulse train is transformed into a train having a desired pattern	2975
+H03K   5/159	・	前のサブグループによっては包括されない遅延線の応用	Applications of delay lines not covered by the preceding subgroups	1293
+H03K   5/19	・	パルス列のパターンの監視（振幅の指示Ｇ０１Ｒ１９／００；周波数の指示Ｇ０１Ｒ２３／００；個々のパルスの特性の測定Ｇ０１Ｒ２９／０２）［３］	Monitoring patterns of pulse trains(indicating amplitude G01R19/00; indicating frequency G01R23/00; measuring characteristics of individual pulses G01R29/02)	2652
+H03K   5/22	・	入力信号特性，例．傾斜，積分，にもとづいてパルスまたはパルス列をお互いに比較するための２つ以上の入力と１つの出力をもつ回路（２つの周期的パルス列の位相差の指示Ｇ０１Ｒ２５／００）［３］	Circuits having more than one input and one output for comparing pulses or pulse trains with each other according to input signal characteristics, e.g. slope, integral(indicating phase difference of two cyclic pulse trains G01R25/00)	2138
+H03K   5/24	・・	入力信号特性が振幅であるもの［３］	the characteristic being amplitude	4377
+H03K   5/26	・・	入力信号特性が持続時間，間隔，位置，周波数または順序であるもの［３］	the characteristic being duration, interval, position, frequency, or sequence	3211
+H03K   6/00		このサブクラス中の他のメイングループの１によっては包括されない，有限の傾斜をもつパルスの操作（再生作用をもつ回路Ｈ０３Ｋ４／００）<br><b><ul>注</ul></b><br>このグループにおいては，入力信号はパルスの形のものである。［３］	Manipulating pulses having a finite slope and not covered by one of the other main groups of this subclass(circuits with regenerative action H03K4/00);<br><br><b><u>Note(s)</u></b><br><br>In this group, the input signals are of the pulse type.	576
+H03K   6/02	・	パルスの増幅	Amplifying pulses	304
+H03K   6/04	・	パルスの傾斜の変形，例．Ｓ字ひずみの補正（テレビジョンにおけるＳ字ひずみの補正Ｈ０４Ｎ３／２３）	Modifying slopes of pulses, e.g. S-correction(S-correction in television H04N3/23)	441
+H03K   7/00		連続的に変化する変調信号によるパルスの変調	Modulating pulses with a continuously-variable modulating signal	796
+H03K   7/02	・	振幅変調，すなわちＰＡＭ	Amplitude modulation, i.e. PAM	1160
+H03K   7/04	・	位置変調，すなわちＰＰＭ	Position modulation, i.e. PPM	526
+H03K   7/06	・	周波数あるいはレート変調，すなわちＰＦＭまたはＰＲＭ	Frequency or rate modulation, i.e. PFM or PRM	1606
+H03K   7/08	・	持続時間または幅変調	Duration or width modulation	6273
+H03K   7/10	・	複合変調，例．レート変調および振幅変調	Combined modulation, e.g. rate modulation and amplitude modulation	231
+H03K   9/00		連続的に変化する信号で変調されているパルスの復調	Demodulating pulses which have been modulated with a continuously-variable signal	1369
+H03K   9/02	・	振幅変調されているパルスの復調	of amplitude-modulated pulses	328
+H03K   9/04	・	位置変調されているパルスの復調	of position-modulated pulses	397
+H03K   9/06	・	周波数またはレート変調されているパルスの復調	of frequency- or rate-modulated pulses	929
+H03K   9/08	・	持続時間または幅変調されているパルスの復調	of duration- or width-modulated pulses	668
+H03K   9/10	・	複合変調されているパルスの復調	of pulses having combined modulation	74
+H03K  11/00		変調形式の変換，例．位置変調パルスから持続時間変調パルスへの変換	Transforming types of modulation, e.g. position-modulated pulses into duration-modulated pulses	272
+H03K  12/00		正弦波形をゆがめることまたは結合することによるパルスの発生（パルスの整形Ｈ０３Ｋ５／０１；スイッチングではない方法で動作する素子を使用する正弦波の結合Ｈ０３Ｂ２１／００）［３］	Producing pulses by distorting or combining sinusoidal waveforms(shaping pulses H03K5/01; combining sinewaves using elements operating in a non-switching manner H03B21/00)	707
+H03K  17/00		電子的スイッチングまたはゲート，すなわち，メークおよびブレーク接点によらないもの（ゲート増幅器Ｈ０３Ｆ３／７２；静的装置を用いる交換システムのためのスイッチング配置Ｈ０４Ｑ３／５２）	Electronic switching or gating, i.e. not by contact-making and -breaking(gated amplifiers H03F3/72; switching arrangements for exchange systems using static devices H04Q3/52)	11601
+H03K  17/04	・	スイッチ動作の高速化のための変形［３］	Modifications for accelerating switching	3771
+H03K  17/041	・・	出力回路から制御回路への帰還のないもの［６］	without feedback from the output circuit to the control circuit	898
+H03K  17/0412	・・・	制御回路において採られた手段によるもの［６］	by measures taken in the control circuit	993
+H03K  17/0414	・・・・	非飽和のための手段［６］	Anti-saturation measures	39
+H03K  17/0416	・・・	出力回路において採られた手段によるもの［６］	by measures taken in the output circuit	253
+H03K  17/042	・・	出力回路から制御回路への帰還によるもの［６］	by feedback from the output circuit to the control circuit	588
+H03K  17/0422	・・・	非飽和のための手段［６］	Anti-saturation measures	125
+H03K  17/0424	・・・	変圧器の使用によるもの［６］	by the use of a transformer	120
+H03K  17/06	・	完全導通状態を確保するための変形［３］	Modifications for ensuring a fully conducting state	3070
+H03K  17/08	・	過電流または過電圧に対するスイッチ回路の保護のための変形［３］	Modifications for protecting switching circuit against overcurrent or overvoltage	6733
+H03K  17/081	・・	出力回路から制御回路への帰還のないもの［６］	without feedback from the output circuit to the control circuit	1333
+H03K  17/0812	・・・	制御回路において採られた手段によるもの［６］	by measures taken in the control circuit	1279
+H03K  17/0814	・・・	出力回路において採られた手段によるもの［６］	by measures taken in the output circuit	1274
+H03K  17/082	・・	出力回路から制御回路への帰還によるもの［６］	by feedback from the output to the control circuit	4129
+H03K  17/10	・	最大許容被開閉電圧を増大させるための変形［３］	Modifications for increasing the maximum permissible switched voltage	1983
+H03K  17/12	・	最大許容被開閉電流を増大させるための変形［３］	Modifications for increasing the maximum permissible switched current	1209
+H03K  17/13	・	零交叉でスイッチ動作するための変形（零交叉でのインパルスの発生Ｈ０３Ｋ５／１５３６）［３］	Modifications for switching at zero crossing(generating an impulse at zero crossing H03K5/1536)	1376
+H03K  17/14	・	物理量，例．温度，の変化を補償するための変形［３］	Modifications for compensating variations of physical values, e.g. of temperature	2048
+H03K  17/16	・	混信電圧または混信電流を消去するための変形［３］	Modifications for eliminating interference voltages or currents	11114
+H03K  17/18	・	スイッチの状態を表示するための変形［３］	Modifications for indicating state of switch	1488
+H03K  17/20	・	磁心スイッチ素子を所定の状態にリセットするための変形［３］	Modifications for resetting core switching units to a predetermined state	79
+H03K  17/22	・	供給電圧の投入時に所定の初期状態を確保するための変形（双安定発生器Ｈ０３Ｋ３／１２）［３］	Modifications for ensuring a predetermined initial state when the supply voltage has been applied(bi-stable generators H03K3/12)	5405
+H03K  17/24	・・	供給電圧が下がった時の動作状態の保持［３］	Storing the actual state when the supply voltage fails	414
+H03K  17/26	・	制御パルス受信後に一時的な阻止動作を行わせるための変形［３］	Modifications for temporary blocking after receipt of control pulses	192
+H03K  17/28	・	スイッチ動作の前に時間遅延を導入するための変形（２以上のスイッチング動作が実行される時間間隔を選択するための変形Ｈ０３Ｋ１７／２９６）［３］	Modifications for introducing a time delay before switching(modifications to provide a choice of time-intervals for executing more than one switching action H03K17/296)	7107
+H03K  17/284	・・	電界効果トランジスタスイッチにおけるもの［３］	in field-effect transistor switches	870
+H03K  17/288	・・	電子管スイッチにおけるもの［３］	in tube switches	499
+H03K  17/292	・・	サイリスタ，ユニジャンクショントランジスタまたはプログラマブルユニジャンクショントランジスタスイッチにおけるもの［３］	in thyristor, unijunction transistor or programmable unijunction transistor switches	1307
+H03K  17/296	・	２以上のスイッチング動作を実行するために時間間隔の選択ができ，かつ，プログラムが完了された後，自動的に動作を終わらせるための変形（あらかじめ選ばれた時間にまたはあらかじめ選ばれた時間間隔の後に動作される手段からなる電子時計Ｇ０４Ｇ１５／００）［３］	Modifications to provide a choice of time-intervals for executing more than one switching action and automatically terminating their operation after the programme is completed(electronic clocks comprising means to be operated at preselected times or after preselected time-intervals G04G15/00)	1080
+H03K  17/30	・	スイッチ動作の前に所定のしきい値を設けるための変形（しきい値によるパルスの整形Ｈ０３Ｋ５／０８）［３］	Modifications for providing a predetermined threshold before switching(shaping pulses by thresholding H03K5/08)	2054
+H03K  17/51	・	特定の構成要素の使用によって特徴づけられたもの（Ｈ０３Ｋ１７／０４〜Ｈ０３Ｋ１７／３０，Ｈ０３Ｋ１７／９４が優先）［３］	characterised by the use of specified components(H03K17/04 to H03K17/30 , H03K17/94 take precedence)	691
+H03K  17/52	・・	能動素子としてガス入り管を用いるもの［３］	by the use, as active elements, of gas-filled tubes	348
+H03K  17/54	・・	能動素子として真空管を用いるもの（ダイオードを用いるものＨ０３Ｋ１７／７４）［３］	by the use, as active elements, of vacuum tubes(using diodes H03K17/74)	505
+H03K  17/56	・・	能動素子として半導体装置を用いるもの（ダイオードを用いるものＨ０３Ｋ１７／７４）［３］	by the use, as active elements, of semiconductor devices(using diodes H03K17/74)	3664
+H03K  17/567	・・・	二以上の形式の半導体装置の使用に特徴づけられた回路，例．ＢＩＭＯＳまたはＩＧＢＴのような複合装置［６］	Circuits characterised by the use of more than one type of semiconductor device, e.g. BIMOS, composite devices such as IGBT	4687
+H03K  17/58	・・・	装置がトンネルダイオードであるもの［３］	the devices being tunnel diodes	249
+H03K  17/60	・・・	装置がバイポーラトランジスタであるもの（４個以上の電極をもつバイポーラトランジスタＨ０３Ｋ１７／７２）［３］	the devices being bipolar transistors(bipolar transistors having four or more electrodes H03K17/72)	6292
+H03K  17/605	・・・・	制御回路と出力回路の間が電気的に絶縁されたもの（Ｈ０３Ｋ１７／７８が優先）［５］	with galvanic isolation between the control circuit and the output circuit(H03K17/78 takes precedence)	49
+H03K  17/61	・・・・・	トランス結合を用いるもの［５］	using transformer coupling	314
+H03K  17/615	・・・・	ダーリントン接続［５］	in a Darlington configuration	282
+H03K  17/62	・・・・	いくつかの入力または出力端子をもつスイッチング装置，例．マルチプレクサまたは分配器（論理回路Ｈ０３Ｋ１９／００；符号変換器Ｈ０３Ｍ５／００，Ｈ０３Ｍ７／００）［３］	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors(logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	2303
+H03K  17/64	・・・・	誘導性負荷をもつもの［３］	having inductive loads	1248
+H03K  17/66	・・・・	電流をどちらの方向にも任意に通過させるためのスイッチング装置；電流を任意に逆転させるためのスイッチング装置［３］	Switching arrangements for passing the current in either direction at will; Switching arrangements for reversing the current at will	1319
+H03K  17/68	・・・・	交流電流または交流電圧をスイッチするために特に適合したもの［３］	specially adapted for switching AC currents or voltages	472
+H03K  17/687	・・・	装置が電界効果トランジスタであるもの［３］	the devices being field-effect transistors	17766
+H03K  17/689	・・・・	制御回路と出力回路の間が電気的に絶縁されたもの（Ｈ０３Ｋ１７／７８が優先）［５］	with galvanic isolation between the control circuit and the output circuit(H03K17/78 takes precedence)	266
+H03K  17/691	・・・・・	トランス結合を用いるもの［５］	using transformer coupling	664
+H03K  17/693	・・・・	いくつかの入力または出力端子をもつスイッチング装置，例．マルチプレクサまたは分配器（論理回路Ｈ０３Ｋ１９／００；符号変換器Ｈ０３Ｍ５／００，Ｈ０３Ｍ７／００）［３］	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors(logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	3213
+H03K  17/695	・・・・	誘導性負荷をもつもの（誘導フライバック電圧からスイッチング回路を保護するものＨ０３Ｋ１７／０８）［６］	having inductive loads(protecting switching circuit against inductive flyback voltage H03K17/08)	971
+H03K  17/70	・・・	装置が電極を２個だけもち，かつ負性抵抗を示すもの（装置がトンネルダイオードであるものＨ０３Ｋ１７／５８）［３］	the devices having only two electrodes and exhibiting negative resistance(the devices being tunnel diodes H03K17/58)	134
+H03K  17/72	・・・	バイポーラ半導体装置で３以上のＰＮ接合を持つもの，例．サイリスタ，プログラムできるユニジャンクショントランジスタ，または４以上の電極をもつもの，例．シリコン制御スイッチ，または同一伝導領域に接続された２以上の電極をもつもの，例．ユニジャンクショントランジスタ［３］	Bipolar semiconductor devices with more than two PN junctions, e.g. thyristors, programmable unijunction transistors, or with more than three electrodes, e.g. silicon controlled switches, or with more than one electrode connected to the same conductivity region, e.g. unijunction transistors	3465
+H03K  17/722	・・・・	制御回路と出力回路の間が電気的に絶縁されたもの（Ｈ０３Ｋ１７／７８が優先）［５］	with galvanic isolation between the control circuit and the output circuit(H03K17/78 takes precedence)	117
+H03K  17/723	・・・・・	トランス結合を用いるもの［５］	using transformer coupling	369
+H03K  17/725	・・・・	交流電圧または交流電流のためのもの（Ｈ０３Ｋ１７／７２２，Ｈ０３Ｋ１７／７３５が優先）［３，５］	for AC voltages or currents(H03K17/722, H03K17/735 take precedence)	1977
+H03K  17/73	・・・・	直流電圧または直流電流のためのもの（Ｈ０３Ｋ１７／７２２，Ｈ０３Ｋ１７／７３５が優先）［３，５］	for DC voltages or currents(H03K17/722, H03K17/735 take precedence)	1822
+H03K  17/732	・・・・・	ターンオフを可能にするための手段［５］	Measures for enabling turn-off	1033
+H03K  17/735	・・・・	いくつかの入力または出力端子をもつスイッチング装置，例．マルチプレクサまたは分配器（Ｈ０３Ｋ１７／７２２が優先；論理回路Ｈ０３Ｋ１９／００；符号変換器Ｈ０３Ｍ５／００，Ｈ０３Ｍ７／００）［３，５］	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors(H03K17/722 takes precedence; logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	275
+H03K  17/74	・・	能動素子としてダイオードを使用するもの（二型式以上の半導体装置の使用によるものＨ０３Ｋ１７／５６７；トンネルダイオードの使用によるものＨ０３Ｋ１７／５８；負性抵抗ダイオードの使用によるものＨ０３Ｋ１７／７０）［３］	by the use, as active elements, of diodes(by the use of more than one type of semiconductor device H03K17/567; by the use of tunnel diodes H03K17/58; by the use of negative resistance diodes H03K17/70)	1867
+H03K  17/76	・・・	いくつかの入力または出力端子をもつスイッチング配置，例．マルチプレクサまたは分配器（論理回路Ｈ０３Ｋ１９／００；符号変換器Ｈ０３Ｍ５／００，Ｈ０３Ｍ７／００）［３］	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors(logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	907
+H03K  17/78	・・	能動素子として光−電子装置，すなわち電気的または光学的に結合された発光および光電変換装置の使用によるもの［３］	by the use, as active elements, of opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled	8356
+H03K  17/785	・・・	電界効果トランジスタスイッチを制御するもの［５］	controlling field-effect transistor switches	608
+H03K  17/79	・・・	３以上のＰＮ接合，または４以上の電極，または同一伝導領域に接続された２以上の電極をもつ半導体スイッチを制御するもの［５］	controlling semiconductor switches with more than two PN-junctions, or more than three electrodes, or more than one electrode connected to the same conductivity region	511
+H03K  17/795	・・・	バイポーラトランジスタを制御するもの［５］	controlling bipolar transistors	682
+H03K  17/80	・・	能動素子として非線形磁気装置または非線形誘電体装置を使用するもの［３］	by the use, as active elements, of non-linear magnetic or dielectric devices	528
+H03K  17/81	・・・	いくつかの入力または出力端子をもつスイッチング装置，例．マルチプレクサ，分配器（論理回路Ｈ０３Ｋ１９／００；符号変換器Ｈ０３Ｍ５／００，Ｈ０３Ｍ７／００）［３］	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors(logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	237
+H03K  17/82	・・・	装置がトランスフラクサであるもの［３］	the devices being transfluxors	367
+H03K  17/84	・・・	装置が薄膜装置であるもの［３］	the devices being thin-film devices	146
+H03K  17/86	・・・	装置がツイスタであるもの［３］	the devices being twistors	7
+H03K  17/88	・・	能動素子としてビーム偏向管を使用するもの［３］	by the use, as active elements, of beam-deflection tubes	66
+H03K  17/90	・・	能動素子として電流磁気効果装置を使用するもの，例．ホール効果装置（Ｈ０３Ｋ１７／９５，Ｈ０３Ｋ１７／９７が優先）［２，３］	by the use, as active elements, of galvano-magnetic devices, e.g. Hall-effect devices(H03K17/95, H03K17/97 take precedence)	1035
+H03K  17/92	・・	能動素子として超電導装置を使用するもの［２，３］	by the use, as active elements, of superconductive devices	529
+H03K  17/94	・	制御信号が発生される方法により特徴づけられるもの［３，４］	characterised by the way in which the control signals are generated	7449
+H03K  17/945	・・	近接スイッチ（Ｈ０３Ｋ１７／９６が優先）［３］	Proximity switches(H03K17/96 takes precedence)	3585
+H03K  17/95	・・・	磁気検出器を用いるもの［３］	using a magnetic detector	3230
+H03K  17/955	・・・	容量検出器を用いるもの［３］	using a capacitive detector	2879
+H03K  17/96	・・	タッチスイッチ（可動部のない電子時計に特に適したものＧ０４Ｇ２１／０８）［３］	Touch switches(specially adapted for electronic time-pieces with no moving parts G04G21/08)	11758
+H03K  17/965	・・	スイッチの一部を形成する素子の移動により制御されるスイッチ［３］	Switches controlled by moving an element forming part of the switch	827
+H03K  17/967	・・・	複数個の制御部材，例．キーボード，を有するもの（Ｈ０３Ｋ１７／９６９，Ｈ０３Ｋ１７／９７２，Ｈ０３Ｋ１７／９８が優先）［４］	having a plurality of control members, e.g. keyboard(H03K17/969, H03K17/972, H03K17/98 take precedence)	343
+H03K  17/968	・・・	電子光学的装置を用いるもの［４］	using opto-electronic devices	1219
+H03K  17/969	・・・・	複数個の制御部材，例．キーボード，を有するもの［４］	having a plurality of control members, e.g. keyboard	438
+H03K  17/97	・・・	磁気可動素子を用いるもの［３］	using a magnetic movable element	1319
+H03K  17/972	・・・・	複数個の制御部材，例．キーボード，を有するもの［４］	having a plurality of control members, e.g. keyboard	282
+H03K  17/975	・・・	容量可動素子を用いるもの［３］	using a capacitive movable element	1275
+H03K  17/98	・・・・	複数個の制御部材，例．キーボード，を有するもの［４］	having a plurality of control members, e.g. keyboard	368
+H03K  19/00		論理回路，すなわち，１出力に作用する少なくとも２入力を持つもの（ファジー論理を用いるコンピュータ・システム用の回路Ｇ０６Ｎ７／０２）；反転回路	Logic circuits, i.e. having at least two inputs acting on one output(circuits for computer systems using fuzzy logic G06N7/02);Inverting circuits	12648
+H03K  19/003	・	信頼性を増すための変形［３］	Modifications for increasing the reliability	10126
+H03K  19/007	・	フェイルセーフ回路［３］	Fail-safe circuits	713
+H03K  19/01	・	スイッチ動作の高速化のための変形［３］	Modifications for accelerating switching	417
+H03K  19/013	・・	バイポーラトランジスタ回路におけるもの［３］	in bipolar transistor circuits	952
+H03K  19/017	・・	電界効果トランジスタ回路におけるもの［３］	in field-effect transistor circuits	2093
+H03K  19/0175	・	結合装置；インターフェイス装置（デジタル計算機用インターフェイス装置Ｇ０６Ｆ３／００，Ｇ０６Ｆ１３／００）［５］	Coupling arrangements; Interface arrangements(interface arrangements for digital computers G06F3/00, G06F13/00)	17646
+H03K  19/018	・・	バイポーラトランジスタのみを用いるもの［５］	using bipolar transistors only	1680
+H03K  19/0185	・・	電界効果トランジスタのみを用いるもの［５］	using field-effect transistors only	8875
+H03K  19/02	・	特定の構成要素を用いるもの（Ｈ０３Ｋ１９／００３〜Ｈ０３Ｋ１９／０１７５が優先）［３，５］	using specified components(H03K19/003 to H03K19/0175  take precedence)	458
+H03K  19/04	・・	ガス入り管を用いるもの	using gas-filled tubes	33
+H03K  19/06	・・	電子管を用いるもの（ダイオード整流器を用いるものＨ０３Ｋ１９／１２）	using vacuum tubes(using diode rectifiers H03K19/12)	53
+H03K  19/08	・・	半導体装置を用いるもの（Ｈ０３Ｋ１９／１７３が優先；半導体装置の中味がダイオード整流器のみのものＨ０３Ｋ１９／１２）［３］	using semiconductor devices(H03K19/173 takes precedence; wherein the semiconductor devices are only diode rectifiers H03K19/12)	2385
+H03K  19/082	・・・	バイポーラトランジスタを用いるもの［３］	using bipolar transistors	894
+H03K  19/084	・・・・	ＤＴＬ［３］	Diode$2013transistor logic	399
+H03K  19/086	・・・・	ＥＣＬ［３］	Emitter coupled logic	1951
+H03K  19/088	・・・・	ＴＴＬ［３］	Transistor$2013transistor logic	814
+H03K  19/09	・・・・	ＲＴＬ［３］	Resistor$2013transistor logic	120
+H03K  19/091	・・・・	ＩＩＬまたはＭＴＬ［３］	Integrated injection logic or merged transistor logic	755
+H03K  19/094	・・・	電界効果トランジスタを用いるもの［３］	using field-effect transistors	4375
+H03K  19/0944	・・・・	ＭＯＳＦＥＴを用いるもの（Ｈ０３Ｋ１９／０９６が優先）［５］	using MOSFET(H03K19/096 takes precedence)	2331
+H03K  19/0948	・・・・・	ＣＭＯＳを用いるもの［５］	using CMOS	3635
+H03K  19/0952	・・・・	ショットキー型ＦＥＴを用いるもの（Ｈ０３Ｋ１９／０９６が優先）［５］	using Schottky type FET(H03K19/096 takes precedence)	910
+H03K  19/0956	・・・・	ＳＤＦＬ（Ｈ０３Ｋ１９／０９６が優先）［５］	Schottky diode FET logic(H03K19/096 takes precedence)	46
+H03K  19/096	・・・・	同期回路，すなわちクロック信号を用いるもの［３］	Synchronous circuits, i.e. using clock signals	2613
+H03K  19/098	・・・	サイリスタを用いるもの［３］	using thyristors	42
+H03K  19/10	・・・	トンネルダイオードを用いるもの［３］	using tunnel diodes	258
+H03K  19/12	・・	ダイオード整流器を用いるもの	using diode rectifiers	204
+H03K  19/14	・・	光−電子装置，すなわち，電気的または光学的に結合された発光および光電変換装置を用いるもの（光学的論理素子Ｇ０２Ｆ３／００）	using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled(optical logic elements G02F3/00)	1285
+H03K  19/16	・・	可飽和磁心を用いるもの	using saturable magnetic devices	558
+H03K  19/162	・・・	パラメトロンを用いるもの	using parametrons	98
+H03K  19/164	・・・	鉄共振装置を用いるもの	using ferro-resonant devices	19
+H03K  19/166	・・・	トランスフラクサを用いるもの	using transfluxors	66
+H03K  19/168	・・・	薄膜装置を用いるもの	using thin-film devices	228
+H03K  19/17	・・	ツイスタを用いるもの	using twistors	56
+H03K  19/173	・・	構成要素として基本的論理回路を用いるもの［３］	using elementary logic circuits as components	5351
+H03K  19/177	・・・	マトリクス形状で配列されたもの［２０２０．０１］	arranged in matrix form	5107
+H03K  19/17704	・・・・	行または列の相互接続により実現された論理機能であるもの［２０２０．０１］	the logic functions being realised by the interconnection of rows and columns	121
+H03K  19/17724	・・・・	論理ブロックの構造の細部［２０２０．０１］	Structural details of logic blocks	80
+H03K  19/17728	・・・・・	再構成可能な論理ブロック，例．ルックアップテーブル［２０２０．０１］	Reconfigurable logic blocks, e.g. lookup tables	230
+H03K  19/17732	・・・・・	マクロブロック［２０２０．０１］	Macroblocks	23
+H03K  19/17736	・・・・	経路リソースの構造の細部［２０２０．０１］	Structural details of routing resources	322
+H03K  19/17748	・・・・	構成リソースの構造の細部［２０２０．０１］	Structural details of configuration resources	69
+H03K  19/17752	・・・・・	ホット再構成のためのもの［２０２０．０１］	for hot reconfiguration	13
+H03K  19/17756	・・・・・	部分的な構成または部分的な再構成のためのもの［２０２０．０１］	for partial configuration or partial reconfiguration	53
+H03K  19/17758	・・・・・	構成または再構成の高速化のためのもの［２０２０．０１］	for speeding up configuration or reconfiguration	21
+H03K  19/1776	・・・・・	メモリのためのもの［２０２０．０１］	for memories	250
+H03K  19/17764	・・・・・	信頼性のためのもの［２０２０．０１］	for reliability	60
+H03K  19/17768	・・・・・	セキュリティのためのもの［２０２０．０１］	for security	59
+H03K  19/17772	・・・・・	電源のオンまたはオフのためのもの［２０２０．０１］	for powering on or off	50
+H03K  19/1778	・・・・	適応物理パラメータのための構造の細部［２０２０．０１］	Structural details for adapting physical parameters	15
+H03K  19/17784	・・・・・	供給電圧のためのもの［２０２０．０１］	for supply voltage	83
+H03K  19/17788	・・・・・	入力／出力［Ｉ／Ｏ］電圧のためのもの［２０２０．０１］	for input/output [I/O] voltages	25
+H03K  19/17792	・・・・・	動作速度のためのもの［２０２０．０１］	for operating speed	11
+H03K  19/17796	・・・・・	ブロックの物理的配置のためのもの［２０２０．０１］	for physical disposition of blocks	33
+H03K  19/18	・・	電流磁気効果装置を用いるもの，例．ホール効果装置［２］	using galvano-magnetic devices, e.g. Hall-effect devices	228
+H03K  19/185	・・	可変誘電体定数をもつ誘電体素子を用いるもの，例．強誘電体コンデンサ［２］	using dielectric elements with variable dielectric constant, e.g. ferro-electric capacitors	117
+H03K  19/19	・・・	鉄共振装置を用いるもの［２］	using ferro-resonant devices	21
+H03K  19/195	・・	超電導装置を用いるもの［２，３］	using superconductive devices	1079
+H03K  19/20	・	論理機能によって特徴づけられたもの，例．アンド，オア，ノア，ノット回路（Ｈ０３Ｋ１９／００３〜Ｈ０３Ｋ１９／０１が優先）	characterised by logic function, e.g. AND, OR, NOR, NOT circuits(H03K19/003 to H03K19/01  take precedence)	5192
+H03K  19/21	・・	排他的オア回路，すなわち入力信号がただ一つのみ存在するとき出力を与えるもの；一致回路，すなわちすべての入力信号が等しいときのみ出力を与えるもの［３］	EXCLUSIVE-OR circuits, i.e. giving output if input signal exists at only one input; COINCIDENCE circuits, i.e. giving output only if all input signals are identical	1669
+H03K  19/23	・・	多数決または少数決回路，すなわち全入力のうちの過半数を占めまたは過半数を割る状態をもつ出力を与えるもの［３］	Majority or minority circuits, i.e. giving output having the state of the majority or the minority of the inputs	748
+H03K  21/00		パルスカウンタまたは分周器の細部	Details of pulse counters or frequency dividers	3494
+H03K  21/02	・	入力回路［４］	Input circuits	1709
+H03K  21/08	・	出力回路［４］	Output circuits	1288
+H03K  21/10	・・	論理回路から成るもの	comprising logic circuits	352
+H03K  21/12	・・	並列読出しによるもの［４］	with parallel read-out	123
+H03K  21/14	・・	格納された数値の直列読み出しによるもの［４］	with series read-out of number stored	21
+H03K  21/16	・	連続する１０進桁間の桁上げパルス回路	Circuits for carrying-over pulses between successive decades	79
+H03K  21/17	・・	電界効果トランジスタによるもの［４］	with field-effect transistors	16
+H03K  21/18	・	結果を可視表示するための回路［４］	Circuits for visual indication of the result	381
+H03K  21/20	・・	グロー放電ランプを用いるもの	using glow-discharge lamps	10
+H03K  21/38	・	カウンタの起動，停止，またはリセット（底が２のべきでないカウンタＨ０３Ｋ２３／４８，Ｈ０３Ｋ２３／６６）［４］	Starting, stopping, or resetting the counter(counters with a base other than a power of two H03K23/48, H03K23/66)	770
+H03K  21/40	・	監視；エラー検出；カウンタの誤動作の防止または修正［４］	Monitoring; Error detection; Preventing or correcting improper counter operation	1617
+H03K  23/00		計数連鎖を包含するパルス計数器；計数連鎖を包含する周波数分割器（Ｈ０３Ｋ２９／００が優先）	Pulse counters comprising counting chains; Frequency dividers comprising counting chains(H03K29/00 takes precedence)	4040
+H03K  23/40	・	ゲート信号またはクロック信号がすべての段に印加されるもの，すなわち．同期形計数器［４］	Gating or clocking signals applied to all stages, i.e. synchronous counters	708
+H03K  23/42	・・	位相ずれのゲートまたはクロック信号が計数段に印加されるもの［４］	Out-of-phase gating or clocking signals applied to counter stages	157
+H03K  23/44	・・・	電界効果トランジスタを用いるもの［４］	using field-effect transistors	185
+H03K  23/46	・・・	電荷転送デバイス，すなわち，ＢＢＤ，ＣＣＤを用いるもの［４］	using charge transfer devices, i.e. bucket brigade or charge coupled devices	28
+H03K  23/48	・・	底または基数が２のべきでないもの（Ｈ０３Ｋ２３／４２が優先）［４］	with a base or radix other than a power of two(H03K23/42 takes precedence)	124
+H03K  23/50	・・	双安定再生トリガ回路を用いるもの（Ｈ０３Ｋ２３／４２〜Ｈ０３Ｋ２３／４８が優先）［４］	using bi-stable regenerative trigger circuits(H03K23/42 to H03K23/48  take precedence)	394
+H03K  23/52	・・・	電界効果トランジスタを用いるもの［４］	using field-effect transistors	292
+H03K  23/54	・・・	リング計数器，すなわち，フイードバックシフトレジスタ計数器（Ｈ０３Ｋ２３／５２が優先）［４］	Ring counters, i.e. feedback shift register counters(H03K23/52 takes precedence)	858
+H03K  23/56	・・・	可逆計数器（Ｈ０３Ｋ２３／５２が優先）［４］	Reversible counters(H03K23/52 takes precedence)	147
+H03K  23/58	・	ゲートまたはクロック信号がすべての段には印加されないもの，すなわち，非同期形計数器（Ｈ０３Ｋ２３／７４〜Ｈ０３Ｋ２３／８４が優先）［４］	Gating or clocking signals not applied to all stages, i.e. asynchronous counters(H03K23/74 to H03K23/84  take precedence)	637
+H03K  23/60	・・	電界効果トランジスタをもつもの［４］	with field-effect transistors	51
+H03K  23/62	・・	可逆的なもの［４］	reversible	81
+H03K  23/64	・	底または基数が２のべきないもの（Ｈ０３Ｋ２３／４０〜Ｈ０３Ｋ２３／６２が優先）［４］	with a base or radix other than a power of two(H03K23/40 to H03K23/62  take precedence)	939
+H03K  23/66	・・	可変の計数底のもの，例．プリセットしまたは，パルスを加えまたは削除することによるもの［４］	with a variable counting base, e.g. by presetting or by adding or suppressing pulses	2484
+H03K  23/68	・・	底が非整数であるもの［４］	with a base which is a non-integer	343
+H03K  23/70	・・	底が奇数であるもの（Ｈ０３Ｋ２３／６６が優先）［４］	with a base which is an odd number(H03K23/66 takes precedence)	95
+H03K  23/72	・・	１０進計数器（Ｈ０３Ｋ２３／６６が優先）［４］	Decade counters(H03K23/66 takes precedence)	93
+H03K  23/74	・	継電器を用いるもの［４］	using relays	604
+H03K  23/76	・	磁気コアまたは強誘電容量を用いるもの［４］	using magnetic cores or ferro-electric capacitors	431
+H03K  23/78	・	オプトエレクトロニクス装置を用いるもの［４］	using opto-electronic devices	180
+H03K  23/80	・	２電極のみをもつ半導体装置，例．トンネルダイオード，多層ダイオード，を用いるもの［４］	using semiconductor devices having only two electrodes, e.g. tunnel diode, multi-layer diode	107
+H03K  23/82	・	ガス入り管を用いるもの［４］	using gas-filled tubes	629
+H03K  23/84	・	サイリスタまたはユニジャンクショントランジスタを用いるもの［４］	using thyristors or unijunction transistors	120
+H03K  23/86	・	可逆的なもの（Ｈ０３Ｋ２３／４０〜Ｈ０３Ｋ２３／８４が優先）［４］	reversible(H03K23/40 to H03K23/84  take precedence)	142
+H03K  25/00		ステップバイステップ積算および静電蓄積によるパルス計数器；類似の周波数分割器	Pulse counters with step-by-step integration and static storage; Analogous frequency dividers	687
+H03K  25/02	・	電荷蓄積手段，例．分極ヒステリシスのないコンデンサ，を有するもの	comprising charge storage, e.g. capacitor without polarisation hysteresis	115
+H03K  25/04	・・	到来パルスによってトリガされる補助的なパルス発生器を用いるもの［４］	using auxiliary pulse generator triggered by the incoming pulses	60
+H03K  25/12	・	ヒステリシス蓄積を包含するもの	comprising hysteresis storage	17
+H03K  27/00		パルスが閉ループ中に連続して循還されるパルス計数器；類似の周波数分割器（フィードバックシフトレジスタ計数器Ｈ０３Ｋ２３／５４）［４］	Pulse counters in which pulses are continuously circulated in a closed loop; Analogous frequency dividers(feedback shift register counters H03K23/54)	236
+H03K  29/00		多安定素子を包含するパルス計数器，例．３進法用，１０進法用；類似の周波数分割器	Pulse counters comprising multi-stable elements, e.g. for ternary scale, for decimal scale; Analogous frequency dividers	624
+H03K  29/04	・	多陰極ガス放電管を用いるもの［４］	using multi-cathode gas discharge tubes	6
+H03K  29/06	・	ビーム型管，例．マグネトロン，陰極線管，を用いるもの［４］	using beam-type tubes, e.g. magnetrons, cathode-ray tubes	3
+H03K  99/00		このサブクラスの他のグループに分類されない主題事項［２０１３．０１］	Subject matter not provided for in other groups of this subclass	10

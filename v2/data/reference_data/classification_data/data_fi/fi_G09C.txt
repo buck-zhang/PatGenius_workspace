@@ -1,0 +1,54 @@
+G09C   1/00  \	0	0	5J104	G09C   1/00	1404	あらかじめ決められた方式によって，符号または符号群を入れかえ，またはそれらと他を置き換えることによって，与えられた符号の順序，例．理解できる原文，を理解できない符号の順序に交換する装置または方法（暗号化タイプライターＧ０９Ｃ３／００）	Apparatus or methods whereby a given sequence of signs, e.g. an intelligible text, is transformed into an unintelligible sequence of signs by transposing the signs or groups of signs or by replacing them by others according to a predetermined system (cryptographic typewriters G09C 3/00)
+G09C   1/00 310 \	1	1	5J104	G09C   1/00	83	プログラムの暗号化	Encrypting programs
+G09C   1/00 610 \	1	1	5J104	G09C   1/00	10	共通鍵暗号方式	Common key encryptosystems
+G09C   1/00 610 A	1	0	5J104	G09C   1/00	922	ブロック暗号	Block encryption
+G09C   1/00 610 B	1	1	5J104	G09C   1/00	256	ＤＥＳ	DES (Data Encryption Standard)
+G09C   1/00 610 C	1	1	5J104	G09C   1/00	63	ＦＥＡＬ	FEAL (Fast data Encipherment Algorithm)
+G09C   1/00 610 D	1	0	5J104	G09C   1/00	167	ストリーム暗号	Stream encryption
+G09C   1/00 610 Z	1	0	5J104	G09C   1/00	339	その他	Others
+G09C   1/00 620 \	1	1	5J104	G09C   1/00	5	公開鍵暗号方式	Public key encryptosystem
+G09C   1/00 620 A	1	0	5J104	G09C   1/00	499	べき剰余型暗号（Ｒａｂｉｎ，ＥＬＧａｍａｌ、逆数暗号等）	Exponentiation ciphers (Rabin, ELGamel, reciprocal ciphers and the equivalent)
+G09C   1/00 620 B	1	1	5J104	G09C   1/00	155	ＲＳＡ	RSA
+G09C   1/00 620 Z	1	0	5J104	G09C   1/00	746	その他（ナップザック暗号等）	Others (knapsack encryption and the equivalent)
+G09C   1/00 630 \	1	1	5J104	G09C   1/00	0	鍵の管理	Key management
+G09C   1/00 630 A	1	0	5J104	G09C   1/00	113	鍵の秘匿・暗号化	Secrecy and encrypting of keys
+G09C   1/00 630 B	1	0	5J104	G09C   1/00	125	鍵の配送・通信路を介した生成	key generation via distribution and telecommunication paths
+G09C   1/00 630 C	1	1	5J104	G09C   1/00	82	分散型（センタを要しないもの）	Distributed types (no need for centre)
+G09C   1/00 630 D	1	1	5J104	G09C   1/00	93	管理分散型（ＩＤ等センタに登録された初期情報に基づいて鍵を生成・配送するもの）	Distributed administration type (keys being generated and delivered based on the initial information registered at the centre such as ID or the equivalent)
+G09C   1/00 630 E	1	0	5J104	G09C   1/00	153	共通鍵に関するもの（副分類）	Regarding common keys (sub-classifications)
+G09C   1/00 630 F	1	0	5J104	G09C   1/00	62	公開鍵に関するもの（副分類）	Regarding public keys (sub-classifications)
+G09C   1/00 630 Z	1	0	5J104	G09C   1/00	127	その他	Others
+G09C   1/00 640 \	1	1	5J104	G09C   1/00	2	認証・署名	Authentication and signatures
+G09C   1/00 640 A	1	0	5J104	G09C   1/00	256	対称系によるもの（被認証側と認証側が同一の情報を持つもの）	By symmetrical systems (both authenticating party and authenticated party having the same information)
+G09C   1/00 640 B	1	0	5J104	G09C   1/00	790	非対称系によるもの（被認証側が認証側に秘密の情報を持つもの）	By asymmetrical systems (only authenticating party having confidential information of authenticated party)
+G09C   1/00 640 C	1	1	5J104	G09C   1/00	98	ゼロ知識証明によるもの	By zero knowledge verifications
+G09C   1/00 640 D	1	0	5J104	G09C   1/00	2221	メッセージ認証（副分類）	Message authentication (sub-classification)
+G09C   1/00 640 E	1	0	5J104	G09C   1/00	2786	エンティティ認証（副分類）	Entity authentication (sub-verification)
+G09C   1/00 640 Z	1	0	5J104	G09C   1/00	490	その他　	Others
+G09C   1/00 650 \	1	1	5J104	G09C   1/00	9	演算器の構成	Constructions of calculating instruments
+G09C   1/00 650 A	1	0	5J104	G09C   1/00	669	乗算剰余、べき剰余	Multiplication residues, power residues
+G09C   1/00 650 B	1	0	5J104	G09C   1/00	751	乱数発生	Generating random numbers
+G09C   1/00 650 Z	1	0	5J104	G09C   1/00	1700	その他（ハッシュ関数、素数判定等）	Others (hash functions, discriminating prime numbers and the like)
+G09C   1/00 660 \	1	1	5J104	G09C   1/00	2	特定用途（原則として副分類）	Particular usage (sub-classification as a general rule)
+G09C   1/00 660 A	1	0	5J104	G09C   1/00	559	ＩＣカード	IC cards
+G09C   1/00 660 B	1	0	5J104	G09C   1/00	304	バンキング	Banking
+G09C   1/00 660 C	1	1	5J104	G09C   1/00	212	電子現金	Electronics money
+G09C   1/00 660 D	1	0	5J104	G09C   1/00	2559	ファイル・プログラム	File programs
+G09C   1/00 660 E	1	0	5J104	G09C   1/00	928	オンライン・ネットワーク	Online networks
+G09C   1/00 660 F	1	0	5J104	G09C   1/00	89	共通鍵暗号を用いるもの	Using common key encryption
+G09C   1/00 660 G	1	0	5J104	G09C   1/00	215	公開鍵暗号を用いるもの	Using public key encryption
+G09C   1/00 660 Z	1	0	5J104	G09C   1/00	138	その他	Others
+G09C   1/02  \	1	1	5J104	G09C   1/02	83	図表形式の暗号化する符号を用いることによるもの	by using a ciphering code in chart form
+G09C   1/04  \	1	1	5J104	G09C   1/04	63	適当な方法で対応する原文または暗号化された原文を示すために，符号またはキーによりきめられた位置へ互いに相対的に移動する符号の伝搬媒体または表示器をもつもの	with sign carriers or indicators moved relative to one another to positions determined by a permutation code or key, so as to indicate the appropriate corresponding clear or ciphered text
+G09C   1/06  \	1	1	5J104	G09C   1/06	25	明瞭な原文を構成している符号に該当する要素が暗号化された原文を構成している符号に該当する要素に機能的に結合されており，装置の操作の間自動的にかつ連続的に，符号化部材またはキーによって変換される結合によるもの	wherein elements corresponding to the signs making up the clear text are operatively connected with elements corresponding to the signs making up the ciphered text, the connections, during operation of the apparatus, being automatically and continuously permuted by a coding or key member
+G09C   1/08  \	2	2	5J104	G09C   1/08	1	機械的な結合によるもの	the connections being mechanical
+G09C   1/10  \	2	2	5J104	G09C   1/10	48	電気的な結合によるもの	the connections being electrical
+G09C   1/12  \	3	3	5J104	G09C   1/12	0	接点を有する変換円盤よりなるもの	comprising contact-bearing permutation discs
+G09C   1/14  \	2	2	5J104	G09C   1/14	0	可動のまたは置換できる符号化部材，例．マスターテープ，穿孔カード，を伴なうもの	involving removable or interchangeable coding numbers, e.g. master tapes, punched cards
+G09C   3/00  \	0	0	5J104	G09C   3/00	51	暗号化原文を暗号化しまたは解読するためのタイプライター	Typewriters for ciphering or deciphering cryptographic text
+G09C   3/02  \	1	1	5J104	G09C   3/02	1	主のキーまたはキーボードに作用する補助のキーまたはキーボードをもつもの	with auxiliary keys or keyboards acting on the original keys or keyboards
+G09C   3/04  \	1	1	5J104	G09C   3/04	1	キーとタイプバーの間の結合が符号化部材またはキーによって動作中に自動的にかつ連続的に換えられるもの	wherein the operative connections between the keys and the type-bars are automatically and continuously permuted, during operation, by a coding or key member
+G09C   3/06  \	2	2	5J104	G09C   3/06	0	機械的な結合によるもの	the connections being mechanical
+G09C   3/08  \	2	2	5J104	G09C   3/08	4	電気的な結合によるもの	the connections being electrical
+G09C   3/10  \	2	2	5J104	G09C   3/10	1	可動のまたは置換できる符号化部材を伴なうもの，例．マスターテープ，穿孔カード	involving removable or interchangeable coding members, e.g. master tapes, punched cards
+G09C   5/00  \	0	0	5J104	G09C   5/00	1795	上記のグループに含まれない暗号化するまたは暗号解読する装置または方法，例．図案，記録されまたは印刷された情報のような図表による資料の隠匿または変形を伴なうもの	Ciphering or deciphering apparatus or methods not provided for in other groups of this subclass, e.g. involving the concealment or deformation of graphic data such as designs, written or printed messages

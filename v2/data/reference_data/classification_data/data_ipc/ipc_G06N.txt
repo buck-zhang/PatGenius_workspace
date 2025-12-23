@@ -1,0 +1,67 @@
+G06N   3/00		生物学的モデルに基づく計算装置　［２０２３．０１］	Computing arrangements based on biological models	20927
+G06N   3/004	・	人工生命、すなわち生命体をシミュレートする計算装置［２０２３．０１］	Artificial life, i.e. computing arrangements simulating life	119
+G06N   3/006	・・	シミュレートされた仮想的な個人または集合生命体に基づくもの，すなわち社会シミュレーションまたは粒子群最適化［ＰＳＯ］［２０２３．０１］	based on simulated virtual individual or collective life forms, e.g. social simulations or particle swarm optimisation [PSO]	13461
+G06N   3/008	・・	知的生命体を再現するためにシミュレートされた知性によって制御された物理的な実体に基づくもの，例．ペットまたは人間の外見または行動を再現したロボットに基づくもの［２０２３．０１］	based on physical entities controlled by simulated intelligence so as to replicate intelligent life forms, e.g. based on robots replicating pets or humans in their appearance or behaviour	441
+G06N   3/02	・	ニューラルネットワーク［２００６．０１］	Neural networks	18014
+G06N   3/04	・・	アーキテクチャ，例．網構造［２０２３．０１］	Architecture, e.g. interconnection topology	176465
+G06N   3/042	・・・	知識ベースニューラルネットワーク；ニューラルネットワークの論理的表現［２０２３．０１］	Knowledge-based neural networks; Logical representations of neural networks	8619
+G06N   3/043	・・・	ファジー論理，ファジーメンバーシップまたはファジー推論に基づくもの，例．適応型ニューロファジー推論システム［ＡＮＦＩＳ］［２０２３．０１］	based on fuzzy logic, fuzzy membership or fuzzy inference, e.g. adaptive neuro-fuzzy inference systems [ANFIS]	551
+G06N   3/044	・・・	リカレントネットワーク，例．ホップフィールド・ネットワーク［２０２３．０１］	Recurrent networks, e.g. Hopfield networks	6807
+G06N   3/0442	・・・・	メモリまたはゲートに特徴を有するもの，例．長・短期記憶［ＬＳＴＭ］またはゲート付き回帰型ユニット［ＧＲＵ］［２０２３．０１］	characterised by memory or gating, e.g. long short-term memory [LSTM] or gated recurrent units [GRU]	25145
+G06N   3/045	・・・	ネットワークの組み合わせ［２０２３．０１］	Combinations of networks	34771
+G06N   3/0455	・・・・	オートエンコーダネットワーク；エンコーダ・デコーダネットワーク［２０２３．０１］	Auto-encoder networks; Encoder-decoder networks	26011
+G06N   3/0464	・・・	畳み込みネットワーク［ＣＮＮ，ＣｏｎｖＮｅｔ］［２０２３．０１］	Convolutional networks [CNN, ConvNet]	103262
+G06N   3/047	・・・	確率的または確率論的ネットワーク［２０２３．０１］	Probabilistic or stochastic networks	8379
+G06N   3/0475	・・・	生成ネットワーク［２０２３．０１］	Generative networks	9458
+G06N   3/048	・・・	活性化関数［２０２３．０１］	Activation functions	24385
+G06N   3/049	・・・	時間的なニューラルネットワーク，例．遅延要素，ニューロン振動またはパルス入力［２０２３．０１］	Temporal neural networks, e.g. delay elements, oscillating neurons or pulsed inputs	3268
+G06N   3/0495	・・・	量子化されたネットワーク；スパース化されたネットワーク；圧縮されたネットワーク［２０２３．０１］	Quantised networks; Sparse networks; Compressed networks	1959
+G06N   3/0499	・・・	フィードフォワードネットワーク［２０２３．０１］	Feedforward networks	8386
+G06N   3/06	・・	物理的な実現，すなわちニューラルネットワーク，ニューロンまたはニューロン構成要素のハードウェア実装［７］	Physical realisation, i.e. hardware implementation of neural networks, neurons or parts of neurons	3694
+G06N   3/063	・・・	電子的手段を用いるもの［２０２３．０１］	using electronic means	14493
+G06N   3/065	・・・・	アナログ手段［２０２３．０１］	Analogue means	710
+G06N   3/067	・・・	光学的手段を用いるもの［７］	using optical means	1144
+G06N   3/08	・・	学習方法［２０２３．０１］	Learning methods	232239
+G06N   3/082	・・・	アーキテクチャを変更するもの，例．ノードまたは結合を追加，削除または無効化するもの［２０２３．０１］	modifying the architecture, e.g. adding, deleting or silencing nodes or connections	6549
+G06N   3/084	・・・	バックプロパゲーション，例．勾配降下法を用いるもの［２０２３．０１］	Backpropagation, e.g. using gradient descent	33939
+G06N   3/086	・・・	進化的アルゴリズムを用いるもの，例．遺伝的アルゴリズムまたは遺伝的プログラミング［２０２３．０１］	using evolutionary algorithms, e.g. genetic algorithms or genetic programming	1639
+G06N   3/088	・・・	教師なし学習，例．競合学習［２０２３．０１］	Non-supervised learning, e.g. competitive learning	5284
+G06N   3/0895	・・・	弱教師あり学習，例．半教師あり学習または自己教師あり学習［２０２３．０１］	Weakly supervised learning, e.g. semi-supervised or self-supervised learning	5261
+G06N   3/09	・・・	教師あり学習［２０２３．０１］	Supervised learning	9606
+G06N   3/091	・・・	能動学習［２０２３．０１］	Active learning	357
+G06N   3/092	・・・	強化学習［２０２３．０１］	Reinforcement learning	7123
+G06N   3/094	・・・	敵対的学習［２０２３．０１］	Adversarial learning	8169
+G06N   3/096	・・・	転移学習［２０２３．０１］	Transfer learning	6428
+G06N   3/098	・・・	分散学習，例．連合学習［２０２３．０１］	Distributed learning, e.g. federated learning	3489
+G06N   3/0985	・・・	ハイパーパラメータ最適化；メタ学習；学習方法の学習［２０２３．０１］	Hyperparameter optimisation; Meta-learning; Learning-to-learn	4617
+G06N   3/10	・・	インターフェイス、プログラミング言語またはソフトウェアの開発キット，例．ニューラルネットワークをシミュレートするためのもの［２００６．０１］	Interfaces, programming languages or software development kits, e.g. for simulating neural networks	1840
+G06N   3/12	・	遺伝的モデルを用いるもの［２０２３．０１］	using genetic models	10336
+G06N   3/123	・・	ＤＮＡコンピューティング［２０２３．０１］	DNA computing	130
+G06N   3/126	・・	進化的アルゴリズム、例．遺伝的アルゴリズムまたは遺伝的プログラミング［２０２３．０１］	Evolutionary algorithms, e.g. genetic algorithms or genetic programming	7650
+G06N   5/00		知識ベースモデルを利用する計算装置［２０２３．０１］	Computing arrangements using knowledge-based models	6689
+G06N   5/01	・	動的探索法；ヒューリスティック；ダイナミックツリー；分枝限定法［２０２３．０１］	Dynamic search techniques; Heuristics; Dynamic trees; Branch-and-bound	6526
+G06N   5/02	・	知識表現；シンボル表現［２０２３．０１］	Knowledge representation; Symbolic representation	19275
+G06N   5/022	・・	知識工学；知識獲得［２０２３．０１］	Knowledge engineering; Knowledge acquisition	6104
+G06N   5/025	・・・	データからの規則の抽出［２０２３．０１］	Extracting rules from data	2634
+G06N   5/04	・	推論モデル［２０２３．０１］	Inference or reasoning models	29980
+G06N   5/043	・・	分散型エキスパートシステム；ブラックボードシステム［２０２３．０１］	Distributed expert systems; Blackboards	313
+G06N   5/045	・・	推論の説明；説明可能な人工知能［ＸＡＩ］；解釈可能な人工知能［２０２３．０１］	Explanation of inference; Explainable artificial intelligence [XAI]; Interpretable artificial intelligence	756
+G06N   5/046	・・	前向き推論；プロダクションシステム［２０２３．０１］	Forward inferencing; Production systems	492
+G06N   5/047	・・・	パターンマッチングネットワーク；Ｒｅｔｅネットワーク［２０２３．０１］	Pattern matching networks; Rete networks	74
+G06N   5/048	・・	ファジー推論　［２０２３．０１］	Fuzzy inferencing	565
+G06N   7/00		特定の数学的モデルに基づく計算装置［２０２３．０１］	Computing arrangements based on specific mathematical models	11733
+G06N   7/01	・	確率的グラフィカルモデル，例．確率ネットワーク［２０２３．０１］	Probabilistic graphical models, e.g. probabilistic networks	5837
+G06N   7/02	・	ファジー論理を用いるもの（生物学的モデルに基づく計算装置Ｇ０６Ｎ３／００；知識ベースモデルを利用した計算装置Ｇ０６Ｎ５／００）［２００６．０１］	using fuzzy logic(computing arrangements based on biological models G06N3/00;  computing arrangements using knowledge-based models G06N5/00)	4075
+G06N   7/04	・・	物理的な実現［７］	Physical realisation	505
+G06N   7/06	・・	汎用コンピュータでのシミュレーション［７］	Simulation on general purpose computers	531
+G06N   7/08	・	カオスモデルまたは非線形システムモデルを用いるもの［７］	using chaos models or non-linear system models	1713
+G06N  10/00		量子コンピューティング，すなわち量子力学的現象に基づく情報処理［２０２２．０１］	Quantum computing, i.e. information processing based on quantum-mechanical phenomena	3995
+G06N  10/20	・	量子コンピューティングモデル，例．量子回路または汎用量子コンピュータ［２０２２．０１］	Models of quantum computing, e.g. quantum circuits or universal quantum computers	3082
+G06N  10/40	・	量子ビットを操作，例．量子ビットの結合または制御，するための量子プロセッサまたは構成要素の物理的な実現またはアーキテクチャ［２０２２．０１］	Physical realisations or architectures of quantum processors or components for manipulating qubits, e.g. qubit coupling or qubit control	2805
+G06N  10/60	・	量子アルゴリズム，例．量子最適化，量子フーリエまたはアダマール変換に基づくもの［２０２２．０１］	Quantum algorithms, e.g. based on quantum optimisation, or quantum Fourier or Hadamard transforms	1776
+G06N  10/70	・	量子誤り訂正，検出または防止，例．表面符号またはマジック状態蒸留［２０２２．０１］	Quantum error correction, detection or prevention, e.g. surface codes or magic state distillation	808
+G06N  10/80	・	量子プログラミング，例．量子コンピュータ上で実行可能なプログラムを作成または処理するためのインターフェース，言語またはソフトウェア開発キット；量子コンピュータをシミュレートするまたは量子コンピュータにアクセスするためのプラットフォーム，例．クラウドベースの量子コンピューティング［２０２２．０１］	Quantum programming, e.g. interfaces, languages or software-development kits for creating or handling programs capable of running on quantum computers; Platforms for simulating or accessing quantum computers, e.g. cloud-based quantum computing	583
+G06N  20/00		機械学習［２０１９．０１］	Machine learning	104023
+G06N  20/10	・	カーネル法を用いるもの，例．サポートベクターマシン［ＳＶＭ］［２０１９．０１］	using kernel methods, e.g. support vector machines [SVM]	7242
+G06N  20/20	・	アンサンブル学習［２０１９．０１］	Ensemble learning	12560
+G06N  99/00		このサブクラスの他のグループに分類されない主題事項［２０１９．０１］	Subject matter not provided for in other groups of this subclass	13318

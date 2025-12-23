@@ -1,0 +1,289 @@
+G01M   1/00  \	0	0	2G021	G01M   1/00	13	機械または構造物の静的または動的つり合い試験	Testing static or dynamic balance of machines or structures
+G01M   1/02  \	1	1	2G021	G01M   1/02	446	つり合い機械または装置の細部	Details of balancing machines or devices
+G01M   1/04  \	2	2	2G021	G01M   1/04	125	被試験体支承用のベアリング支持装置の適用	Adaptation of bearing support assemblies for receiving the body to be tested
+G01M   1/06  \	2	2	2G021	G01M   1/06	96	被試験体駆動装置の適用	Adaptation of drive assemblies for receiving the body to be tested
+G01M   1/08  \	2	2	2G021	G01M   1/08	130	不つり合いの大きさおよび位相を直接指示する計器［２００６．０１］	Instruments for indicating directly the magnitude and phase of the imbalance [2006.01]
+G01M   1/10  \	1	1	2G021	G01M   1/10	85	慣性モーメントの測定	Determining the moment of inertia
+G01M   1/12  \	1	1	2G021	G01M   1/12	429	静的つり合い；重心の位置測定（不つり合いの測定によるものＧ０１Ｍ１／１４）［２００６．０１］	Static balancing; Determining position of centre of gravity (by determining imbalance G01M 1/14) [2006.01]
+G01M   1/14  \	1	1	2G021	G01M   1/14	120	不つり合いの測定（Ｇ０１Ｍ１／３０，Ｇ０１Ｍ１／３８が優先）［２００６．０１］	Determining imbalance (G01M 1/30, G01M 1/38 take precedence) [2006.01]
+G01M   1/16  \	2	2	2G021	G01M   1/16	949	被試験体を回転または振動させることによるもの	by oscillating or rotating the body to be tested
+G01M   1/18  \	3	3	2G021	G01M   1/18	5	被試験体の回転を定格より大きい速度から降下させるもの	and running the body down from a speed greater than normal
+G01M   1/20  \	3	3	2G021	G01M   1/20	43	不つり合いに基づく力を補償するための外力を印加するもの　［２００６．０１］	and applying external forces compensating forces due to imbalance [2006.01]
+G01M   1/22  \	3	3	2G021	G01M   1/22	281	不つり合いに基づく振動を電気的変量に変換するもの　［２００６．０１］	and converting vibrations due to imbalance into electric variables [2006.01]
+G01M   1/24  \	3	3	2G021	G01M   1/24	65	弾性軸においてつり合いを取るもの，例．クランク軸用	Performing balancing on elastic shafts, e.g. for crankshafts
+G01M   1/26  \	3	3	2G021	G01M   1/26	70	マーク付けのために特に適合する装置をもつもの，例．ドリルによるもの	with special adaptations for marking, e.g. by drilling
+G01M   1/28  \	3	3	2G021	G01M   1/28	91	物体の不つり合いを原位置において測定するために特に適合する装置を有するもの，例．乗物用車輪の　［２００６．０１］	with special adaptations for determining imbalance of the body in situ, e.g. of vehicle wheels [2006.01]
+G01M   1/30  \	1	1	2G021	G01M   1/30	187	不つり合いの補償（Ｇ０１Ｍ１／３８が優先）［２００６．０１］	Compensating imbalance (G01M 1/38 takes precedence) [2006.01]
+G01M   1/32  \	2	2	2G021	G01M   1/32	257	被試験体への物質の添加によるもの，例．修正重量によるもの	by adding material to the body to be tested, e.g. by correcting-weights
+G01M   1/34  \	2	2	2G021	G01M   1/34	214	被試験体，例．タイヤの踏み面，から物質を削除することによるもの	by removing material from the body to be tested, e.g. from the tread of tyres
+G01M   1/36  \	2	2	2G021	G01M   1/36	107	被試験体に組み込まれたおもりの位置の調整によるもの	by adjusting position of masses built-in the body to be tested
+G01M   1/38  \	1	1	2G021	G01M   1/38	523	不つり合いの測定と修正の両方を行なうように結合された機械または装置［２００６．０１］	Combined machines or devices for both determining and correcting imbalance [2006.01]
+G01M   3/00  \	0	0	2G067	G01M   3/00	4	構造物の気密性の調査	Investigating fluid tightness of structures
+G01M   3/00  A	0	0	2G067	G01M   3/00	86	汚染の除去（例、食品真空パツクの漏洩検査時）、清掃、前処理（例、漏洩検査用ガスから水分除去）、耐腐食処理（例、鉄管漏洩検査時に鉄管腐食防止）	Removing contamination (e.g. when Inspecting leakage of vacuum packed foods), cleansing, pre-treatments (e.g. removing moisture from leakage inspection gas), anti-corrosion treatment (e.g. preventing corrosion of steel pipes during leakage inspection
+G01M   3/00  B	0	0	2G067	G01M   3/00	42	誤報防止	Preventing false reports
+G01M   3/00  C	0	0	2G067	G01M   3/00	183	ガス・水道等の異常使用をモニタ−して漏洩判断	Determining leakage by monitoring abnormally high use of gas or water
+G01M   3/00  D	0	0	2G067	G01M   3/00	333	ガス漏れ検知・種火消え検知、ガスセンサ自体	Detecting gas leakage or blown off pilot flame, or gas sensors per se
+G01M   3/00  E	0	0	2G067	G01M   3/00	15	注射針を差し込んで漏洩検査	Inspecting leakage by inserting an injection needle
+G01M   3/00  F	0	0	2G067	G01M   3/00	129	フイルタ−・マスク・通気性能のテスト、貫通穴達成のテスト	Testing filters, masks, ventilating performance or piercing of through holes
+G01M   3/00  G	0	0	2G067	G01M   3/00	60	過酷条件での漏洩テスト、温度・湿度・振動付与や耐久性テスト	Testing for leakage under extreme conditions, exposure to extreme temperatures, humidity or vibrations, or durability tests
+G01M   3/00  H	0	0	2G067	G01M   3/00	109	漏洩試験デ−タを蓄積し診断、学習して診断	Diagnosing by accumulating leakage test data, diagnosing after learning
+G01M   3/00  J	0	0	2G067	G01M   3/00	67	漏洩検査装置自体の健全性調査	Investigating soundness of leakage inspection devices per se
+G01M   3/00  K	0	0	2G067	G01M   3/00	86	大漏れ検査と微小漏れ検査の両者を扱うもの	Handling both major and minor leakage inspections
+G01M   3/00  Z	0	0	2G067	G01M   3/00	118	その他のもの	Others
+G01M   3/02  \	1	1	2G067	G01M   3/02	4	流体または真空によるもの	by using fluid or vacuum
+G01M   3/02  A	1	0	2G067	G01M   3/02	152	標準リ−ク体、リ−ク較正装置	Standard leaks, leakage calibrating devices
+G01M   3/02  B	1	0	2G067	G01M   3/02	129	地表面や建物壁や床をプロ−ブで走査または加圧・減圧試験	Scanning ground surfaces, building walls or floors with probes, or testing by increasing or reducing pressures
+G01M   3/02  C	1	0	2G067	G01M   3/02	243	溶接部や接着部の漏洩試験やモニタ−、カバ−で雰囲気や漏洩監視の領域を区画	Leakage testing or monitoring of welded or adhered parts, separating the regions of gaseous environmental or leakage monitoring
+G01M   3/02  D	1	0	2G067	G01M   3/02	57	自動車・コンクリ−ト・アスフアルトの防水性能テスト	Testing waterproof performance levels of automobiles, concrete or asphalt
+G01M   3/02  E	1	0	2G067	G01M   3/02	80	ピグを用いて漏洩検査	Inspecting leakage using of pigs
+G01M   3/02  F	1	0	2G067	G01M   3/02	56	漏洩位置を走査または巡回モニタ−	Scanning or patrol monitoring leaking positions
+G01M   3/02  G	1	0	2G067	G01M   3/02	62	パイプ等の壁貫通部やペネトレ−シヨン部の漏洩検査やモニタ−	Inspecting leakage or monitoring pipes penetrating through walls or other penetrated portions
+G01M   3/02  H	1	0	2G067	G01M   3/02	145	漏洩流体の落下やライニング上への流体付着検知、マトリツクス状多点の検知	Detecting falling of leaking fluids or adhering of fluids to lining, detecting multiple matrix points
+G01M   3/02  J	1	0	2G067	G01M   3/02	280	温度モニタ−や熱収支で漏洩検知	Detecting leakage by monitoring temperatures or thermal balances
+G01M   3/02  K	1	0	2G067	G01M   3/02	64	湿度モニタ−で漏洩検知	Detecting leakage with humidity monitors
+G01M   3/02  L	1	0	2G067	G01M   3/02	79	異種類のセンサ−を併用して漏洩検知	Detecting leakage with combinations of different sensors
+G01M   3/02  M	1	0	2G067	G01M   3/02	219	赤外線カメラ映像を利用して漏洩検知	detecting leakage using of infrared camera images
+G01M   3/02  Z	1	0	2G067	G01M   3/02	288	その他のもの	Others
+G01M   3/04  \	2	2	2G067	G01M   3/04	11	漏洩点での流体の存在を検知することによるもの	by detecting the presence of fluid at the leakage point
+G01M   3/04  A	2	0	2G067	G01M   3/04	225	液体ナトリウムやナトリウムゾルの検知	Detecting liquid potassium or potassium sols
+G01M   3/04  B	2	0	2G067	G01M   3/04	77	液体ナトリウム中への異物漏洩検知	Detecting foreign materials leaked into liquid potassium
+G01M   3/04  C	2	0	2G067	G01M   3/04	164	タンクや管路内への異物混入検知	Detecting foreign materials migrated into tanks or pipes
+G01M   3/04  D	2	0	2G067	G01M   3/04	236	二重管・二重タンクにおける漏洩検知	Detecting leakage of double tubes or double tanks
+G01M   3/04  E	2	0	2G067	G01M   3/04	172	ドレンやオ−バフロ−した漏洩流体の存在検知・収集・位置推定	Detecting, collecting or assuming positions of leaked liquid that is drained or overflown
+G01M   3/04  F	2	0	2G067	G01M   3/04	443	タンクや埋設管から周囲環境や下方にリ−クした流体の検知や位置推定	Detecting fluids leaked from tanks or buries pipes to surrounding environment or assuming positions thereof
+G01M   3/04  G	2	0	2G067	G01M   3/04	389	管継手やフランジの漏洩テスト	Testing for leakage of pipe fittings or flanges
+G01M   3/04  H	2	0	2G067	G01M   3/04	305	バルブや弁やシ−ルリングの漏洩テスト	Testing for leakage of valves or seal rings
+G01M   3/04  K	2	0	2G067	G01M   3/04	84	タイヤ・ゴム手袋・スキンの漏洩検査	Inspecting leakage of tires, rubber globes or condoms
+G01M   3/04  L	2	0	2G067	G01M   3/04	127	缶蓋・リム・膜体・びん蓋・ピストンカツプの漏洩検査	Inspecting leakage of can lids, rims, bottle or jar lids, or piston cups
+G01M   3/04  M	2	0	2G067	G01M   3/04	183	サンプリングノズルを用いて漏洩検知	Inspecting leakage using sampling nozzles
+G01M   3/04  N	2	0	2G067	G01M   3/04	176	メカニカルシ−ル部・摺動部の漏洩試験	Testing for leakage of mechanical seals or sliding units
+G01M   3/04  P	2	0	2G067	G01M   3/04	96	箱体内への浸水検知	Detecting migration of water into boxes
+G01M   3/04  Q	2	0	2G067	G01M   3/04	83	気密ケ−ブル検査・走水検査	Inspecting airtight cables or hydrotaxic inspections
+G01M   3/04  R	2	0	2G067	G01M   3/04	18	構造物ゲ−トやハツチの漏洩検査	inspecting leakage of structural gates or hatches
+G01M   3/04  S	2	0	2G067	G01M   3/04	111	半導体・ＩＣ・電子部品の漏洩検査	Inspecting leakage of semiconductors, IC or electronic components
+G01M   3/04  T	2	0	2G067	G01M   3/04	54	冷凍サイクル機器の漏洩検査	Inspecting leakage of refrigerating cycle components
+G01M   3/04  U	2	0	2G067	G01M   3/04	175	熱交換器の漏洩検査	Inspecting leakage of heat exchangers
+G01M   3/04  V	2	0	2G067	G01M   3/04	27	ヒ−トパイプの漏洩検査	Inspecting leakage of heat pipes
+G01M   3/04  Z	2	0	2G067	G01M   3/04	382	その他のもの	Others
+G01M   3/06  \	3	3	2G067	G01M   3/06	2	水槽中での泡の観察によるもの	by observing bubbles in a liquid pool
+G01M   3/06  A	3	0	2G067	G01M   3/06	238	水槽中での泡の観察一般	Observing bubble in water in general
+G01M   3/06  B	3	0	2G067	G01M   3/06	63	液中のノズルからの気泡検知	Detecting bubbles from nozzles immersed in liquids
+G01M   3/06  C	3	0	2G067	G01M   3/06	52	漏洩気泡を漏斗状のもので導くもの・集泡技術	Guiding leaking bubbles with funnels or techniques for collecting bubbles
+G01M   3/06  D	3	0	2G067	G01M   3/06	44	ワ−クを浸すための液体移動や液位調節	Transferring liquids or adjusting liquid levels for immersing workpiece
+G01M   3/06  E	3	0	2G067	G01M   3/06	33	漏洩気泡の誤検知防止・付着泡の除去・液体浄化	Preventing faulty detection of leaked bubbles, removing of adhered bubbles, or purifying liquids
+G01M   3/06  F	3	0	2G067	G01M   3/06	7	気泡発生時の液圧調整	Regulating liquid pressures when bubbles are generated
+G01M   3/06  G	3	0	2G067	G01M   3/06	59	泡の撮影や走査観察	Filming or observing by scanning bubbles
+G01M   3/06  H	3	0	2G067	G01M   3/06	20	気泡音の検知	Detecting bubbling noises
+G01M   3/06  J	3	0	2G067	G01M   3/06	19	被検査タンクや配管内に混入した気泡の検知	Detecting bubbles migrated into tanks or pipes to be tested
+G01M   3/06  Z	3	0	2G067	G01M   3/06	36	その他のもの	Others
+G01M   3/08  \	4	4	2G067	G01M   3/08	88	パイプ，ケーブルまたはチューブ用；パイプジョイントまたはシール用；弁用	for pipes, cables, or tubes; for pipe joints or seals; for valves
+G01M   3/10  \	4	4	2G067	G01M   3/10	53	コンテナ，例．ラジエーター，用	for containers, e.g. radiators
+G01M   3/12  \	3	3	2G067	G01M   3/12	253	弾性体カバーまたは被層，例．石けん水，の観察によるもの	by observing elastic covers or coatings, e.g. soapy water
+G01M   3/14  \	4	4	2G067	G01M   3/14	20	パイプ，ケーブル，またはチューブ用；パイプジョイントまたはシール用；弁用	for pipes, cables, or tubes; for pipe joints or seals; for valves
+G01M   3/16  \	3	3	2G067	G01M   3/16	14	電気的検出手段を用いるもの（Ｇ０１Ｍ３／０６，Ｇ０１Ｍ３／１２，Ｇ０１Ｍ３／２０，Ｇ０１Ｍ３／２４，Ｇ０１Ｍ３／２６が優先）	using electric detection means (G01M 3/06, G01M 3/12, G01M 3/20, G01M 3/24, G01M 3/26 take precedence)
+G01M   3/16  A	3	0	2G067	G01M   3/16	155	漏洩流体が触れると変形（溶解・膨潤・縮小等）する物質を用い、この変形により検知用電線に電流の導通または遮断が生じることで漏洩検知	Leakage detection using a material that gets deformed (dissolves, expands, or contracts, etc.,) when it comes into contact with the leaking fluid, and detecting the flow or shut-off of electric current in the wires for detection due to such deformation
+G01M   3/16  B	3	0	2G067	G01M   3/16	30	漏洩流体が検知用電線を破断したことで漏洩検知	Detecting leakage by detection wire fractured by leaked fluid
+G01M   3/16  C	3	0	2G067	G01M   3/16	160	漏油センサ	Oil leakage sensors
+G01M   3/16  D	3	0	2G067	G01M   3/16	36	漏洩液が比重で液液分離するのを検知	Liquid-liquid separation of leaked fluids by specific gravity
+G01M   3/16  E	3	0	2G067	G01M   3/16	319	漏洩検知用電線の形状や構造	profiles or structures of wires for detecting leakage
+G01M   3/16  F	3	0	2G067	G01M   3/16	191	タンクや管の周囲に漏洩流体を電気的に検知するライニング層を設けたもの	Provision of a lining layer around tanks or pipes for electrically detecting leaked liquid
+G01M   3/16  H	3	0	2G067	G01M   3/16	170	多数のセンサが配置してあり漏洩位置を伝送する回路やシステム	Circuits or systems for transferring leakage position with multiple sensors
+G01M   3/16  J	3	0	2G067	G01M   3/16	47	ケ−ブルで電気信号反射をみて漏洩検知	Detecting leakage by monitoring reflected electrical signal with a cable
+G01M   3/16  K	3	0	2G067	G01M   3/16	135	媒質に直流や交流を印加し、コンデンサ特性・誘電率をみて漏洩検知	Detecting leakage by monitoring condenser characteristics or dielectric constants after applying DC or AC to a medium
+G01M   3/16  L	3	0	2G067	G01M   3/16	84	媒質に電流・電圧信号を印加し通過させて伝達速度やレベルや位相をモニタ−	Monitoring transmission speeds, levels or phases by applying and passing current or voltage signals to a medium
+G01M   3/16  M	3	0	2G067	G01M   3/16	32	電波・磁気を照射し媒質の応答をみて漏洩検知	Detecting leakage by monitoring reactions of a medium after irradiating radio waves or magnetism
+G01M   3/16  N	3	0	2G067	G01M   3/16	140	検知電線に沿う抵抗値分布から漏洩位置判断	Determining leaking position based on resistance distribution along detection wire
+G01M   3/16  P	3	0	2G067	G01M   3/16	35	媒体の熱伝導率の変化を電気的に検知して漏洩判断	Deterring leakage by electrically detecting changes in thermal conductivity levels of a medium
+G01M   3/16  Z	3	0	2G067	G01M   3/16	535	その他のもの	Others
+G01M   3/18  \	4	4	2G067	G01M   3/18	425	パイプ，ケーブルまたはチューブ用；パイプジョイントまたはシール用；弁用	for pipes, cables, or tubes; for pipe joints or seals; for valves
+G01M   3/20  \	3	3	2G067	G01M   3/20	9	特別のトレーサ物質，例．染料，螢光物質，放射性物質，を用いるもの	using special tracer materials, e.g. dye, fluorescent material, radioactive material
+G01M   3/20  A	3	0	2G067	G01M   3/20	94	前回検査時のトレ−サ流体の一掃またはパ−ジ、バツクグラウンドの考慮や測定	Clearing away or purging tracer fluid for previous test, considering or measuring background
+G01M   3/20  B	3	0	2G067	G01M   3/20	610	ヘリウムトレ−サを用いるものまたは質量分析計を用いて漏洩検査するもの	Inspecting leakage by using helium tracer or mass analysers
+G01M   3/20  C	3	1	2G067	G01M   3/20	56	ガス吸着手段、コ−ルドトラツプ、ガス選択透過膜、ソ−プシヨンポンプ、またはゲツタイオンポンプを用いることに特徴があるもの	Characterised by using of gas adsorbing means, cold traps, selective gas permeating films, sorption pumps, or gettering ion pumps
+G01M   3/20  D	3	1	2G067	G01M   3/20	60	タ−ボポンプまたはタ−ボ分子ポンプを用いるのに特徴があるもの	Characterised by the use of turbo pumps or turbomolecular pumps
+G01M   3/20  E	3	0	2G067	G01M   3/20	220	ヘリウム等のトレ−サ気体検知のための真空回路の全体的構成、およびそこに用いる種々の弁の切り換え	Overall structures of vacuum circuits for detecting tracer gas such as helium or switching of various valves used therein
+G01M   3/20  G	3	0	2G067	G01M   3/20	51	ハロゲン系ガスをトレ−サに用いるもの	Using of halogen gases as tracers
+G01M   3/20  H	3	0	2G067	G01M   3/20	27	アンモニアガスやアンモニア液をトレ−サに用いるもの	Using of ammonia gas or liquid as tracer
+G01M   3/20  J	3	0	2G067	G01M   3/20	36	アルコ−ルや揮発性液体やＬＮＧガスをトレ−サに用いるもの	Using of alcohol or volatile liquids as tracers
+G01M   3/20  K	3	0	2G067	G01M   3/20	41	フロンガスをトレ−サに用いるもの	Using of freon gases as tracers
+G01M   3/20  L	3	0	2G067	G01M   3/20	220	酸素、オゾン、窒素、アルゴンガス等種々の気体をトレ−サに用いるもの	Using of various gases such as oxygen, ozone, or argon gas etc. as tracers
+G01M   3/20  M	3	0	2G067	G01M   3/20	47	その他の液体（揮発性液体とアンモニア液以外）をトレ−サに用いるもの	Using of other liquids (excluding volatile liquids and ammonia liquid) as tracers
+G01M   3/20  N	3	0	2G067	G01M   3/20	331	トレ−サが漏れることにより色の変化・明暗変化・くもり等が生じるもの、漏洩流体に触れて呈色反応する指示薬を用いるもの	Changes in colour or darkness, or blurring by leaked tracer, using of reagents that exhibit colour reactions upon contact with leaked liquid
+G01M   3/20  P	3	0	2G067	G01M   3/20	113	煙や有色ガスや臭いによるもの、着色液侵入の検知	By smokes, coloured gases or odors, or detecting of migration of coloured liquids
+G01M   3/20  Q	3	0	2G067	G01M   3/20	75	放射性物質をトレ−サに用いるもの	using of radioactive substances as tracers
+G01M   3/20  R	3	0	2G067	G01M   3/20	105	蛍光物質をトレ−サに用いるもの	Using of fluorescent substances as tracers
+G01M   3/20  S	3	0	2G067	G01M   3/20	35	漏洩流体と反応して発熱や吸熱する物質を用いるもの	Using of substances generating or absorbing heat by reacting with leaked fluid
+G01M   3/20  T	3	0	2G067	G01M   3/20	32	トレ−サガス吹き付け用具、ヘリウムガン	Apparatuses for blowing tracer gases, helium gun
+G01M   3/20  W	3	0	2G067	G01M   3/20	80	被検体容器または被検体物質中にトレ−サ流体を封入、しみ込ませ、または閉じ込める技術	Techniques for sealing, sinking or confining tracer liquids in containers or substances to be tested
+G01M   3/20  X	3	0	2G067	G01M   3/20	55	トレ−サ流体の節約や回収に特徴があるもの	Characterised by saving or collection of tracer fluids
+G01M   3/20  Z	3	0	2G067	G01M   3/20	242	その他のもの	Others
+G01M   3/22  \	4	4	2G067	G01M   3/22	195	パイプ，ケーブルまたはチューブ用；パイプジョイントまたはシール用；弁用	for pipes, cables, or tubes; for pipe joints or seals; for valves
+G01M   3/24  \	3	3	2G067	G01M   3/24	10	亜音波，音波または超音波振動を利用するもの	using infrasonic, sonic, or ultrasonic vibrations
+G01M   3/24  A	3	0	2G067	G01M   3/24	525	漏洩音またはＡＥ音を検知するもの、漏洩に伴う振動を検知するもの	Detecting leaking or AE noises, or vibrations while leaking
+G01M   3/24  B	3	1	2G067	G01M   3/24	132	バツクグラウンドの処理、バツクグラウンドの測定	Processing or measuring background
+G01M   3/24  C	3	1	2G067	G01M   3/24	130	周波数スペクトル線図を用いて漏洩判断するもの	Determining leakage by using of frequency spectrum diagrams
+G01M   3/24  D	3	1	2G067	G01M   3/24	293	漏洩位置の推定・漏洩発生時刻の推定	Assuming leaking positions or occurrence time
+G01M   3/24  E	3	1	2G067	G01M   3/24	83	音聴棒を用いるもの	Using of water leak detector (locating) rod hearing rods
+G01M   3/24  F	3	0	2G067	G01M   3/24	130	配管等に振動や音波を印加して伝播をみて漏洩検査、疑似漏洩音の発生や校正	Generating or calibrating simulated leaking noises by monitoring transmission of vibrations or sound waves applied to piping
+G01M   3/24  G	3	0	2G067	G01M   3/24	120	密封容器に振動や叩打を印加して漏洩や内圧を検査	Inspecting leakage or internal pressures by applying vibration to or tapping sealed containers
+G01M   3/24  Z	3	0	2G067	G01M   3/24	83	その他のもの	Others
+G01M   3/26  \	2	2	2G067	G01M   3/26	20	流体の損失または利得の比を測定することによるもの，例．圧力応動装置によるもの，流量検出器によるもの［２］	by measuring rate of loss or gain of fluid, e.g. by pressure-responsive devices, by flow detectors [2]
+G01M   3/26  A	2	0	2G067	G01M   3/26	570	差圧式漏洩テスト・差圧センサ	Differential pressure type leakage tests or differential pressure sensors
+G01M   3/26  C	2	0	2G067	G01M   3/26	235	自動移送漏洩検査やマスキングマニピユレ−タ、エンジンブロツクの検査	Automatic transportation leakage inspections, masking manipulator or engine block inspections
+G01M   3/26  D	2	0	2G067	G01M   3/26	333	気密用栓で連通孔や空気孔付きのもの	Airtight plugs with connection or air hole
+G01M   3/26  E	2	0	2G067	G01M   3/26	300	気密用盲栓自体	Airtight blind plugs per se
+G01M   3/26  H	2	0	2G067	G01M   3/26	151	密閉袋や容器等を押圧して漏洩検査するもの	Inspecting leakage by pressing sealed bags or containers
+G01M   3/26  J	2	0	2G067	G01M   3/26	25	大漏洩の検知、破断や亀裂の検知で漏洩を判断、ラプチヤ−デイスクを用いるもの	Detecting major leakage, determining leakage by detecting fracture of cracks, or using of rupture disks
+G01M   3/26  K	2	0	2G067	G01M   3/26	157	温度補償	Compensating temperatures
+G01M   3/26  L	2	0	2G067	G01M   3/26	274	流体の流れがあれば漏洩と判断、圧力を一定に保つための流体補給の有無で漏洩判断	Determining leakage when liquid flow is identified, determining leakage based on applicability of fluid replenishment to maintain the pressure at a constant level
+G01M   3/26  M	2	0	2G067	G01M   3/26	877	所定時放置して圧力推移を検知するもの	Detecting pressure transitions by leaving for specified duration
+G01M   3/26  N	2	0	2G067	G01M   3/26	286	加圧または減圧して、所定時間内で所定圧力に達したか否かを検査するもの	Inspecting by increasing or decreasing pressure and monitoring if a specified pressure level is achieved within specified duration of time
+G01M   3/26  P	2	0	2G067	G01M   3/26	246	正圧や負圧等の供給や制御・加圧や減圧の方法・特殊な圧力発生手段	Methods for feeding, controlling, increasing, or decreasing positive or negative pressures, or special means for generating pressures
+G01M   3/26  Q	2	0	2G067	G01M   3/26	38	圧力パルスや脈動圧パルスを印加して反応調査ブレ−キやパワ−ステアリングの調査	Investigating response studying brakes or power steering units by applying pressure pulses or repetitive pressure pulses
+G01M   3/26  R	2	0	2G067	G01M   3/26	40	漏洩部位からの流体噴出圧力の検知	Detecting splashing pressure of the fluid from leaking points
+G01M   3/26  S	2	0	2G067	G01M   3/26	168	タンク等の漏洩検査のための、タンク等の液位のモニタ−	Monitoring liquid levels in tanks for inspecting leakage of tanks
+G01M   3/26  T	2	0	2G067	G01M   3/26	111	モニタ−用の圧力区画を密封するための特殊な封止手段、空気封、液封	Special sealing methods for sealing pressure blocks for monitoring, air seal, liquid seal
+G01M   3/26  Z	2	0	2G067	G01M   3/26	582	その他のもの	Others
+G01M   3/28  \	3	3	2G067	G01M   3/28	8	パイプ，ケーブルまたはチューブ用；パイプジョイントまたはシール用；弁用［２］	for pipes, cables, or tubes; for pipe joints or seals; for valves [2]
+G01M   3/28  A	3	0	2G067	G01M   3/28	487	パイプラインで流量をモニタ−しその変動や収支で漏洩検知するシステム	Systems that detect leakage based on fluctuations or balance in the flow rate by monitoring the flow rate in pipelines
+G01M   3/28  B	3	0	2G067	G01M   3/28	281	パイプラインで常時圧力をモニタ−して漏洩検知するシステム	Systems for pipelines that detect leakage by continuously monitoring pressures
+G01M   3/28  C	3	0	2G067	G01M   3/28	187	適宜の弁を閉じてパイプラインの漏洩テスト	Testing leakage of pipelines by closing appropriate valves
+G01M   3/28  D	3	0	2G067	G01M   3/28	298	配管中に閉塞治具を使用して区間の漏洩検査、タンク出口に閉塞治具を用いるもの	Inspecting leakage at a specific segment with a blocking jig mounting in piping system, using of blocking jigs at tank outlet
+G01M   3/28  E	3	0	2G067	G01M   3/28	30	パイプラインで漏洩流体の移動速度から漏洩位置検知	Detecting leakage positions of pipelines by identifying transfer speed of leaking fluid
+G01M   3/28  P	3	0	2G067	G01M   3/28	197	管内で拡径するシ−ルリングをあてがうもの	Applying seal rings that expands within the pipe
+G01M   3/28  Q	3	0	2G067	G01M   3/28	10	パイプを外周から圧漬する試験	Testing that pinches off pipes externally
+G01M   3/28  R	3	0	2G067	G01M   3/28	141	パイプの水圧や空気圧試験	Testing water or air pressure levels of pipes
+G01M   3/28  S	3	0	2G067	G01M   3/28	103	ホ−スの漏洩試験、波付き管の漏洩試験	Testing leakage of hoses or corrugated pipes
+G01M   3/28  T	3	0	2G067	G01M   3/28	32	曲管（エルボ）の漏洩試験	Testing leakage of bent pipes (elbows)
+G01M   3/28  W	3	0	2G067	G01M   3/28	10	長尺物を密閉室内を貫通移動させて漏洩検査するもの	Inspecting leakage by penetrating and moving a long object within sealed chambres
+G01M   3/28  Z	3	0	2G067	G01M   3/28	467	その他のもの	Others
+G01M   3/30  \	4	4	2G067	G01M   3/30	12	他の流体によるある流体の推進変位を用いるもの［２］	using progressive displacement of one fluid by another [2]
+G01M   3/32  \	3	3	2G067	G01M   3/32	257	コンテナ用，例．ラジエータ［２］	for containers, e.g. radiators [2]
+G01M   3/32  A	3	0	2G067	G01M   3/32	292	気密製品を真空室にいれて漏洩検査	Inspecting leakage by placing airtight products in vacuum chambre
+G01M   3/32  B	3	0	2G067	G01M   3/32	106	気密製品を加圧室にいれて漏洩検査	Inspecting leakage by placing air tight products in pressurised chambre
+G01M   3/32  R	3	0	2G067	G01M   3/32	147	容器開口に蓋を取付け、蓋の孔から流体を加圧または真空引き	Charging or discharging a liquid to and from holes provided on the lid mounted on opening of containers
+G01M   3/32  S	3	0	2G067	G01M   3/32	10	気密不良製品が漏洩により真空が破れて治具等から落下するもの	Falling of defective airtight product due to lost vacuum
+G01M   3/32  T	3	0	2G067	G01M   3/32	74	容器密栓部の良否検査	Inspecting acceptability of seal plugs for containers
+G01M   3/32  U	3	0	2G067	G01M   3/32	62	中子を利用して漏洩検査するもの・加圧流体の節約やエネルギ−の節約	Inspecting leakage or saving pressurizing media or energy by using cores
+G01M   3/32  Z	3	0	2G067	G01M   3/32	124	その他のもの	Others
+G01M   3/34  \	4	4	2G067	G01M   3/34	28	コンテナ内の真空を維持する能力を試験することによるもの，例．缶試験機［２］	by testing the possibility of maintaining the vacuum in containers, e.g. in can-testing machines [2]
+G01M   3/36  \	2	2	2G067	G01M   3/36	275	被試験構造物の寸法の変化を検出することによるもの	by detecting change in dimensions of the structure being tested
+G01M   3/38  \	1	1	2G067	G01M   3/38	4	光の利用によるもの（Ｇ０１Ｍ３／０２が優先）	by using light (G01M 3/02 takes precedence)
+G01M   3/38  A	1	0	2G067	G01M   3/38	47	漏洩検知用光フアイバ−自体の形状構造	Profiles or structures of optical fibres for detecting leakage per se
+G01M   3/38  B	1	0	2G067	G01M   3/38	96	光フアイバ−に漏洩流体の影響により曲げ等の変形が生じたのを検知	Detecting deformation such as bending of optical fibres due to influences by leaking fluid
+G01M   3/38  C	1	0	2G067	G01M   3/38	57	光フアイバ−の表面に漏洩流体が付着したのを検知	Detecting adhesion of leaking fluid on optical fibre surface
+G01M   3/38  D	1	0	2G067	G01M   3/38	43	光フアイバ−の光伝送性能が腐食・熱・クラツド部の溶解等により劣化されたのを検知	Detecting degraded transmission performance levels of optical fibres due to corrosion, heat or melted clad
+G01M   3/38  E	1	0	2G067	G01M   3/38	49	光フアイバ−の端面に漏洩流体があるかどうか検知、プリズムを用いて漏洩検知	Inspecting leakage by detecting leaked fluids at optical fibre ends using prisms
+G01M   3/38  F	1	0	2G067	G01M   3/38	10	多数の漏洩センサ−を有する光フアイバ−システム、漏洩信号の伝送や中継手段	Optical fibre systems with multiple leakage sensors, means for transmitting or relaying leakage signals
+G01M   3/38  G	1	0	2G067	G01M   3/38	41	光フアイバ−に生じた後方散乱光の検知およびその場合の漏洩位置検知	Detecting back scattered lights of optical fibres and detecting leakage position thereof
+G01M   3/38  H	1	0	2G067	G01M   3/38	234	テレビカメラ利用、漏洩流体の付着や染み込みや反射や落下の映像化	Using of TV cameras, visulaising adhesion, soaking, reflection of falling of leaked fluids
+G01M   3/38  J	1	0	2G067	G01M   3/38	102	光ビ−ムを漏洩流体に照射するもの	Irradiating leaked fluids with light beams
+G01M   3/38  K	1	0	2G067	G01M   3/38	82	レ−ザ−光を漏洩流体に照射するもの、シユリ−レン法やホログラフイ−の利用	Irradiating leaked fluids with laser beams, using of schilieren method or holography
+G01M   3/38  L	1	0	2G067	G01M   3/38	138	漏洩流体が吸光性、発光性等の性質がある場合にそれら性質を利用して漏洩検知	Detecting leakage by taking advantage of absorbing or emitting characteristics of leaked fluids
+G01M   3/38  Z	1	0	2G067	G01M   3/38	285	その他のもの	Others
+G01M   3/40  \	1	1	2G067	G01M   3/40	3	電気的手段の使用によるもの，例．放電の観察によるもの	by using electric means, e.g. by observing electric discharges
+G01M   3/40  A	1	0	2G067	G01M   3/40	143	プラスチツク容器やチユ−ブ、ガラス容器等においてピンホ−ル検知	Detecting pinholes of plastic containers, tubes or glass containers
+G01M   3/40  B	1	0	2G067	G01M   3/40	5	避雷器等ギヤツプ装置の漏洩検知	Detecting leakage of gap devices such a s lightening rods
+G01M   3/40  C	1	0	2G067	G01M   3/40	6	密封接点リレ−の漏洩検知	Detecting leakage of sealed contact relays
+G01M   3/40  D	1	0	2G067	G01M   3/40	22	真空遮断器・真空管・真空バルブ等の漏洩検知、真空内での放電の有無で漏洩検知	Detecting leakage of vacuum relays, vacuum tubes or vacuum valves, by identifying electric discharge in vacuum
+G01M   3/40  E	1	0	2G067	G01M   3/40	16	タンク中の水に電流を流し電位分布から漏洩個所を特定	Pinpointing leaking position based on potential distribution by drawing current through water contained in tanks
+G01M   3/40  F	1	0	2G067	G01M   3/40	15	通電パルス等の応答反応の面的分布をみて漏洩検知	Detecting leakage by observing surface distribution of response reactions against electric current pulses
+G01M   3/40  G	1	0	2G067	G01M   3/40	32	金属管や導電面に通電試験して抵抗をみて漏洩検知	Detecting leakage by observing resistance while applying voltage to metallic tubes or conductive surfaces
+G01M   3/40  Z	1	0	2G067	G01M   3/40	107	その他のもの	Others
+G01M   5/00  \	0	0	2G068	G01M   5/00	330	構造物の弾性の調査，例．橋または航空機の翼のたわみの調査（Ｇ０１Ｍ９／００が優先）	Investigating the elasticity of structures, e.g. deflection of bridges or aircraft wings ()
+G01M   7/00  \	0	0	2G068	G01M   7/00	106	構造物の振動試験；構造物の衝撃試験（Ｇ０１Ｍ９／００が優先）	Vibration-testing of structures; Shock-testing of structures (G01M 9/00 takes precedence)
+G01M   7/02  \	1	1	2G068	G01M   7/02	921	振動試験［５］	Vibration-testing [5]
+G01M   7/02  C	1	0	2G068	G01M   7/02	793	加振装置に特徴があるもの	characterised by a vibration exciter
+G01M   7/02  B	1	1	2G068	G01M   7/02	705	加振制御に特徴があるもの	characterised by vibration excitement control
+G01M   7/02  D	1	1	2G068	G01M   7/02	647	流体圧を用いるもの	using hydrostatic pressure
+G01M   7/02  E	1	1	2G068	G01M   7/02	176	カムまたは偏心軸を用いるもの	using cams or eccentric shafts
+G01M   7/02  F	1	1	2G068	G01M   7/02	166	不平衡重錘を用いるもの	using unbalanced weights
+G01M   7/02  G	1	1	2G068	G01M   7/02	484	電気式または磁気式のもの	of electrical or magnetic types
+G01M   7/02  H	1	0	2G068	G01M   7/02	320	振動波形の解析に特徴があるもの，例．地震や常時微動を加振源として振動解析を行うもの	characterised by analysis of vibration waveforms, e.g. vibration analysis under excitation source of earthquakes and microtremors
+G01M   7/02  J	1	0	2G068	G01M   7/02	171	コンピュータシミュレーションによるもの	by computer simulation
+G01M   7/02  Z	1	0	2G068	G01M   7/02	401	その他のもの	Others
+G01M   7/04  \	2	2	2G068	G01M   7/04	460	１方向試験台［５］	Monodirectional test stands [5]
+G01M   7/06  \	2	2	2G068	G01M   7/06	410	多方向試験台［５］	Multidirectional test stands [5]
+G01M   7/08  \	1	1	2G068	G01M   7/08	815	衝撃試験［５］	Shock-testing [5]
+G01M   7/08  A	1	0	2G068	G01M   7/08	345	車両に関するもの	related to vehicles
+G01M   7/08  B	1	1	2G068	G01M   7/08	111	人体模型を用いるもの	using a dummy for human body
+G01M   7/08  C	1	0	2G068	G01M   7/08	198	固定構造物に関するもの	related to solid structures
+G01M   7/08  Z	1	0	2G068	G01M   7/08	490	その他のもの	Others
+G01M   9/00  \	0	0	2G023	G01M   9/00	997	空気力学的試験；風洞に配置された装着	Aerodynamic testing; Arrangements in or on wind tunnels
+G01M   9/02  \	1	1	2G023	G01M   9/02	434	風洞［５］	Wind tunnels [5]
+G01M   9/04  \	2	2	2G023	G01M   9/04	618	細部［５］	Details [5]
+G01M   9/06  \	1	1	2G023	G01M   9/06	593	空気力学的試験に特に適合する測定装置［５］	Measuring arrangements specially adapted for aerodynamic testing [5]
+G01M   9/08  \	1	1	2G023	G01M   9/08	229	空気力学的模型［５］	Aerodynamic models [5]
+G01M  10/00  \	0	0	2G023	G01M  10/00	1133	水力学的試験；船舶試験用水槽または水洞に配置された装置	Hydrodynamic testing; Arrangements in or on ship-testing tanks or water tunnels
+G01M  11/00  \	0	0	2G086	G01M  11/00	204	光学装置の試験；他に分類されない光学的方法による構造物の試験［２００６．０１］	Testing of optical apparatus; Testing structures by optical methods not otherwise provided for  [2006.01]
+G01M  11/00  F	0	0	2G086	G01M  11/00	43	光フアイバ−に関するもの	Related to optical fibres
+G01M  11/00  G	0	1	2G086	G01M  11/00	751	幾何学的情報及び材料的情報	Geometric or material information
+G01M  11/00  Q	0	1	2G086	G01M  11/00	698	伝送特性一般情報及び汎用性手段	Information on transmission characteristics in general or means for obtaining versatility
+G01M  11/00  R	0	1	2G086	G01M  11/00	1682	破断，故障，欠陥情報〔除偏心，歪〕	Fracture, failure or defect information (excluding eccentricity or strain)
+G01M  11/00  S	0	1	2G086	G01M  11/00	158	機械的試験，検査	Mechanical test or inspections
+G01M  11/00  U	0	1	2G086	G01M  11/00	814	その他の測定，検査，モニタリング等	Other measurements, inspections or monitoring
+G01M  11/00  L	0	0	2G086	G01M  11/00	1956	レンズに関するもの	Related to lenses
+G01M  11/00  M	0	0	2G086	G01M  11/00	461	ミラ−に関するもの	Related to mirrors
+G01M  11/00  T	0	0	2G086	G01M  11/00	6231	レンズ，ミラ−以外の光学手段に関するもの	Related to optical means excluding lenses or mirrors
+G01M  11/00  Z	0	0	2G086	G01M  11/00	381	その他のもの	Others
+G01M  11/02  \	1	1	2G086	G01M  11/02	138	光学的特性の試験［２００６．０１］	Testing optical properties  [2006.01]
+G01M  11/02  A	1	0	2G086	G01M  11/02	464	０ＴＦ，ＭＴＦ等伝達関数の測定	Measuring transmission functions such as OTF, MTF
+G01M  11/02  B	1	0	2G086	G01M  11/02	2511	レンズ又はミラ−を含む系の光学的パラメ−タの測定〔除伝達関数の測定〕	Measuring optical parameters of systems containing lenses or mirrors (excluding measuring transmission functions)
+G01M  11/02  F	1	0	2G086	G01M  11/02	101	光フアイバ−に関するもの	Related to optical fibres
+G01M  11/02  H	1	1	2G086	G01M  11/02	247	屈折率情報〔除群屈折率〕	Refraction index information (excluding group refraction indexes)
+G01M  11/02  J	1	1	2G086	G01M  11/02	1125	伝送損失，減衰，散乱漏光等情報	Information such as transmission losses, attenuation, scattered leakage lights
+G01M  11/02  K	1	1	2G086	G01M  11/02	588	帯域関連情報	Band related information
+G01M  11/02  N	1	1	2G086	G01M  11/02	158	モ−ド情報	Mode information
+G01M  11/02  P	1	1	2G086	G01M  11/02	71	Ｖ値等光学的非単純概念情報	Non-simple optical concept information such as V values
+G01M  11/02  Z	1	0	2G086	G01M  11/02	89	その他のもの	Others
+G01M  11/04  \	2	2	2G086	G01M  11/04	35	そのための光学台［２００６．０１］	Optical benches therefor  [2006.01]
+G01M  11/06  \	2	2	2G086	G01M  11/06	547	車両の前照灯装置の心合せ試験［２００６．０１］	Testing the alignment of vehicle headlight devices  [2006.01]
+G01M  11/08  \	1	1	2G086	G01M  11/08	9	機械的特性の試験［２００６．０１］	Testing mechanical properties  [2006.01]
+G01M  13/00  \	0	0	2G024	G01M  13/00	1425	機械部品の試験［２０１９．０１］	Testing of machine parts
+G01M  13/003  \	1	1	2G024	G01M  13/003	503	機械バルブ（バルブの流体気密性試験Ｇ０１Ｍ３／００）［２０１９．０１］	Machine valves(testing valves for fluid tightness G01M3/00)
+G01M  13/005  \	1	1	2G024	G01M  13/005	114	シールリング［２０１９．０１］	Sealing rings
+G01M  13/02  \	1	1	2G024	G01M  13/02	401	歯車装置；伝達機構［２０１９．０１］	Testing of gearing or of transmission mechanisms
+G01M  13/021  \	2	2	2G024	G01M  13/021	1272	歯車装置［２０１９．０１］	Gearings
+G01M  13/022  \	2	2	2G024	G01M  13/022	250	動伝カップリングまたはクラッチ［２０１９．０１］	Power-transmitting couplings or clutches
+G01M  13/023  \	2	2	2G024	G01M  13/023	264	動伝無端要素，例．ベルトまたはチェーン［２０１９．０１］	Power-transmitting endless elements, e.g. belts or chains
+G01M  13/025  \	2	2	2G024	G01M  13/025	616	回転駆動手段及び負荷手段を有するテストベンチ；負荷または駆動シミュレーション［２０１９．０１］	Test-benches with rotational drive means and loading means; Load or drive simulation
+G01M  13/026  \	3	3	2G024	G01M  13/026	75	機械的閉ループ型のテストベンチ，すなわち試験対象物と組み合わせて閉ループを構成する歯車システムを有するもの［２０１９．０１］	Test-benches of the mechanical closed-loop type, i.e. having a gear system constituting a closed-loop in combination with the object under test
+G01M  13/027  \	2	2	2G024	G01M  13/027	130	加力手段を有するテストベンチ，例．駆動軸への複数の方向の負荷［２０１９．０１］	Test-benches with force-applying means, e.g. loading of drive shafts along several directions
+G01M  13/028  \	2	2	2G024	G01M  13/028	386	音響または振動の解析［２０１９．０１］	Acoustic or vibration analysis
+G01M  13/04  \	1	1	2G024	G01M  13/04	1512	軸受［２０１９．０１］	Testing of bearings
+G01M  13/045  \	2	2	2G024	G01M  13/045	864	音響または振動の解析［２０１９．０１］	Acoustic or vibration analysis
+G01M  15/00  \	0	0	2G087	G01M  15/00	220	エンジンの試験［２００６．０１］	Testing of engines  [2006.01]
+G01M  15/02  \	1	1	2G087	G01M  15/02	2525	試験装置の細部または付属品［２００６．０１］	Details or accessories of testing apparatus  [2006.01]
+G01M  15/04  \	1	1	2G087	G01M  15/04	1860	内燃機関の試験［２００６．０１］	Testing internal-combustion engines  [2006.01]
+G01M  15/05  \	2	2	2G087	G01M  15/05	1313	２またはそれ以上の異なるエンジンパラメータを組み合わせて監視するもの［２００６．０１］	by combined monitoring of two or more different engine parameters
+G01M  15/06  \	2	2	2G087	G01M  15/06	1555	ピストンまたはクランクの位置を監視することによるもの［２００６．０１］	by monitoring positions of pistons or cranks [8]
+G01M  15/08  \	2	2	2G087	G01M  15/08	509	シリンダーの圧力を監視することによるもの［２００６．０１］	by monitoring pressure in cylinders [8]
+G01M  15/09  \	2	2	2G087	G01M  15/09	681	流体通路の圧力，例．潤滑または冷却部の圧力，を監視することによるもの［２００６．０１］	by monitoring pressure in fluid ducts, e.g. in lubrication or cooling parts [8]
+G01M  15/10  \	2	2	2G087	G01M  15/10	815	排ガスを監視することによるもの［２００６．０１］	by monitoring exhaust gases [8]
+G01M  15/11  \	2	2	2G087	G01M  15/11	504	不発火を検知することによるもの［２００６．０１］	by detecting misfire [8]
+G01M  15/12  \	2	2	2G087	G01M  15/12	861	振動を監視することによるもの［２００６．０１］	by monitoring vibrations [8]
+G01M  15/14  \	1	1	2G087	G01M  15/14	307	ガスタービンエンジンまたはジェット推進エンジンの試験［２００６．０１］	Testing gas-turbine engines or jet-propulsion engines  [2006.01]
+G01M  17/00  \	0	0	2G069	G01M  17/00	343	車両の試験（流体気密性試験Ｇ０１Ｍ３／００；ボデーまたはシャーシーの弾性特性の試験，例．ねじり試験，Ｇ０１Ｍ５／００；車両の前照灯装置の心合わせ試験Ｇ０１Ｍ１１／０６；エンジンの試験Ｇ０１Ｍ１５／００）［２００６．０１］	Testing of vehicles (testing fluid tightness G01M?3/00; testing elastic properties of bodies or chassis, e.g. torsion-testing, G01M?5/00; testing alignment of vehicle headlight devices G01M?11/06; testing of engines G01M?15/00)  [2006.01]
+G01M  17/007  \	1	1	2G069	G01M  17/007	6	車輪付車両または無限軌道車両（Ｇ０１Ｍ１７／０８が優先）［２００６．０１］	Wheeled or endless-tracked vehicles (G01M?17/08 takes precedence)  [2006.01]
+G01M  17/007  A	1	0	2G069	G01M  17/007	1631	シャシーダイナモメータとその制御装置	Chassis dynamometers and control devices thereof
+G01M  17/007  B	1	0	2G069	G01M  17/007	317	車輛の自動運転に関するもの	related to automatic driving of vehicles
+G01M  17/007  C	1	0	2G069	G01M  17/007	425	試験台上で車輛を位置決めするもの	positioning vehicles on test stands
+G01M  17/007  D	1	0	2G069	G01M  17/007	435	自動運転用の操作機器	Control apparatus for automatic driving
+G01M  17/007  E	1	0	2G069	G01M  17/007	622	制動装置に関するもの	related to control devices
+G01M  17/007  H	1	0	2G069	G01M  17/007	853	車輛点検整備，診断	Inspecting, maintaining or diagnosing vehicles
+G01M  17/007  J	1	1	2G069	G01M  17/007	1108	車輛自動診断，自己診断	Automatic or self diagnosing of vehicles
+G01M  17/007  K	1	1	2G069	G01M  17/007	708	電装品の試験	Testing electric equipment
+G01M  17/007  P	1	0	2G069	G01M  17/007	177	環境試験	Environmental tests
+G01M  17/007  R	1	0	2G069	G01M  17/007	316	ホイールアライメント	Wheel alignment
+G01M  17/007  T	1	0	2G069	G01M  17/007	40	点検結果の記録	Recording inspection results
+G01M  17/007  Z	1	0	2G069	G01M  17/007	2632	その他のもの	Others
+G01M  17/013  \	2	2	2G069	G01M  17/013	88	車輪［２００６．０１］	Wheels  [2006.01]
+G01M  17/02  \	2	2	2G069	G01M  17/02	3325	タイヤ［２００６．０１］	Tyres  [2006.01]
+G01M  17/03  \	2	2	2G069	G01M  17/03	63	無限軌道［２００６．０１］	Endless-tracks  [2006.01]
+G01M  17/04  \	2	2	2G069	G01M  17/04	227	サスペンションまたはダンピング［２００６．０１］	Suspension or damping  [2006.01]
+G01M  17/06  \	2	2	2G069	G01M  17/06	418	操縦性；ローリング［２００６．０１］	Steering behaviour; Rolling behaviour  [2006.01]
+G01M  17/08  \	1	1	2G069	G01M  17/08	644	鉄道車両［２００６．０１］	Railway vehicles  [2006.01]
+G01M  17/10  \	2	2	2G069	G01M  17/10	178	サスペンション，車軸または車輪［２００６．０１］	Suspensions, axles or wheels  [2006.01]
+G01M  99/00  \	0	0	2G024	G01M  99/00	207	このサブクラスの他のグループに分類されない主題事項［２０１１．０１］	Subject matter not provided for in other groups of this subclass [2011.01]
+G01M  99/00  A	0	0	2G024	G01M  99/00	1700	回転機械の監視	of monitoring rotary machines
+G01M  99/00  Z	0	0	2G024	G01M  99/00	6976	その他のもの	others

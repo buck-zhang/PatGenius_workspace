@@ -1,0 +1,1358 @@
+H05K1/00	7	Printed circuits	H05K1/00	H05K1/00		550
+H05K1/02	8	Details	H05K1/02	H05K1/02		5739
+H05K1/0201	9	{Thermal arrangements, e.g. for cooling, heating or preventing overheating}	H05K1/02	H05K1/02		2475
+H05K1/0203	10	{Cooling of mounted components (H05K1/0272 takes precedence)}	H05K1/02	H05K1/02		4073
+H05K1/0204	11	{using means for thermal conduction connection in the thickness direction of the substrate (H05K1/0207 takes precedence)}	H05K1/02	H05K1/02		1807
+H05K1/0206	12	{by printed thermal vias}	H05K1/02	H05K1/02		1914
+H05K1/0207	11	{using internal conductor planes parallel to the surface for thermal conduction, e.g. power planes}	H05K1/02	H05K1/02		829
+H05K1/0209	11	{External configuration of printed circuit board adapted for heat dissipation, e.g. lay-out of conductors, coatings}	H05K1/02	H05K1/02		2076
+H05K1/021	11	{Components thermally connected to metal substrates or heat-sinks by insert mounting}	H05K1/02	H05K1/02		1118
+H05K1/0212	10	{Printed circuits or mounted components having integral heating means}	H05K1/02	H05K1/02		519
+H05K1/0213	9	{Electrical arrangements not otherwise provided for}	H05K1/02	H05K1/02		1344
+H05K1/0215	10	{Grounding of printed circuits by connection to external grounding means}	H05K1/02	H05K1/02		1212
+H05K1/0216	10	{Reduction of cross-talk, noise or electromagnetic interference (grounding H05K1/0215)}	H05K1/02	H05K1/02		2554
+H05K1/0218	11	{by printed shielding conductors, ground planes or power plane (H05K1/0236 takes precedence)}	H05K1/02	H05K1/02		2875
+H05K1/0219	12	{Printed shielding conductors for shielding around or between signal conductors, e.g. coplanar or coaxial printed shielding conductors}	H05K1/02	H05K1/02		1271
+H05K1/0221	13	{Coaxially shielded signal lines comprising a continuous shielding layer partially or wholly surrounding the signal lines}	H05K1/02	H05K1/02		276
+H05K1/0222	13	{for shielding around a single via or around a group of vias, e.g. coaxial vias or vias surrounded by a grounded via fence}	H05K1/02	H05K1/02		454
+H05K1/0224	12	{Patterned shielding planes, ground planes or power planes (H05K1/0253 takes precedence)}	H05K1/02	H05K1/02		765
+H05K1/0225	13	{Single or multiple openings in a shielding, ground or power plane (H05K1/0227 takes precedence)}	H05K1/02	H05K1/02		382
+H05K1/0227	13	{Split or nearly split shielding or ground planes}	H05K1/02	H05K1/02		189
+H05K1/0228	11	{Compensation of cross-talk by a mutually correlated lay-out of printed circuit traces, e.g. for compensation of cross-talk in mounted connectors (balanced signal pairs H05K1/0245)}	H05K1/02	H05K1/02		729
+H05K1/023	11	{using auxiliary mounted passive components or auxiliary substances (printed passive components H05K1/16)}	H05K1/02	H05K1/02		446
+H05K1/0231	12	{Capacitors or dielectric substances}	H05K1/02	H05K1/02		1535
+H05K1/0233	12	{Filters, inductors or a magnetic substance}	H05K1/02	H05K1/02		797
+H05K1/0234	12	{Resistors or by disposing resistive or lossy substances in or near power planes (H05K1/0246 takes precedence)}	H05K1/02	H05K1/02		185
+H05K1/0236	11	{Electromagnetic band-gap structures}	H05K1/02	H05K1/02		285
+H05K1/0237	10	{High frequency adaptations (H05K1/0216 takes precedence)}	H05K1/02	H05K1/02		2262
+H05K1/0239	11	{Signal transmission by AC coupling}	H05K1/02	H05K1/02		282
+H05K1/024	11	{Dielectric details, e.g. changing the dielectric material around a transmission line}	H05K1/02	H05K1/02		1097
+H05K1/0242	11	{Structural details of individual signal conductors, e.g. related to the skin effect}	H05K1/02	H05K1/02		373
+H05K1/0243	11	{Printed circuits associated with mounted high frequency components}	H05K1/02	H05K1/02		1795
+H05K1/0245	11	{Lay-out of balanced signal pairs, e.g. differential lines or twisted lines}	H05K1/02	H05K1/02		1141
+H05K1/0246	11	{Termination of transmission lines}	H05K1/02	H05K1/02		201
+H05K1/0248	11	{Skew reduction or using delay lines}	H05K1/02	H05K1/02		248
+H05K1/025	11	{Impedance arrangements, e.g. impedance matching, reduction of parasitic impedance (H05K1/024 and H05K1/0243 take precedence; for semiconductor devices H01L23/66)}	H05K1/02	H05K1/02		1094
+H05K1/0251	12	{related to vias or transitions between vias and transmission lines}	H05K1/02	H05K1/02		743
+H05K1/0253	12	{Impedance adaptations of transmission lines by special lay-out of power planes, e.g. providing openings (H05K1/0251 takes precedence)}	H05K1/02	H05K1/02		501
+H05K1/0254	10	{High voltage adaptations; Electrical insulation details; Overvoltage or electrostatic discharge protection (electrostatic discharge protection for electric apparatus in general H05K9/0067, H05K9/0079); Arrangements for regulating voltages or for using plural voltages}	H05K1/02	H05K1/02		588
+H05K1/0256	11	{Electrical insulation details, e.g. around high voltage areas}	H05K1/02	H05K1/02		531
+H05K1/0257	11	{Overvoltage protection}	H05K1/02	H05K1/02		201
+H05K1/0259	12	{Electrostatic discharge [ESD] protection}	H05K1/02	H05K1/02		797
+H05K1/026	12	{Spark gaps}	H05K1/02	H05K1/02		163
+H05K1/0262	11	{Arrangements for regulating voltages or for using plural voltages}	H05K1/02	H05K1/02		385
+H05K1/0263	10	{High current adaptations, e.g. printed high current conductors or using auxiliary non-printed means; Fine and coarse circuit patterns on one circuit board (H05K1/0293 takes precedence)}	H05K1/02	H05K1/02		1332
+H05K1/0265	11	{characterized by the lay-out of or details of the printed conductors, e.g. reinforced conductors, redundant conductors, conductors having different cross-sections}	H05K1/02	H05K1/02		672
+H05K1/0266	9	{Marks, test patterns or identification means}	H05K1/02	H05K1/02		2681
+H05K1/0268	10	{for electrical inspection or testing}	H05K1/02	H05K1/02		1754
+H05K1/0269	10	{for visual or optical inspection}	H05K1/02	H05K1/02		1890
+H05K1/0271	9	{Arrangements for reducing stress or warp in rigid printed circuit boards, e.g. caused by loads, vibrations or differences in thermal expansion}	H05K1/02	H05K1/02		3615
+H05K1/0272	9	{Adaptations for fluid transport, e.g. channels, holes}	H05K1/02	H05K1/02		845
+H05K1/0274	9	{Optical details, e.g. printed circuits comprising integral optical means (H05K1/0269 takes precedence; coupling light guides with opto-electronic components G02B6/42)}	H05K1/02	H05K1/02		2071
+H05K1/0275	9	{Security details, e.g. tampering prevention or detection}	H05K1/02	H05K1/02		455
+H05K1/0277	9	{Bendability or stretchability details (H05K1/038, H05K3/4691 take precedence)}	H05K1/02	H05K1/02		424
+H05K1/0278	10	{Rigid circuit boards or rigid supports of circuit boards locally made bendable, e.g. by removal or replacement of material}	H05K1/02	H05K1/02		538
+H05K1/028	10	{Bending or folding regions of flexible printed circuits (H05K1/0283 takes precedence)}	H05K1/02	H05K1/02		3388
+H05K1/0281	11	{Reinforcement details thereof}	H05K1/02	H05K1/02		1195
+H05K1/0283	10	{Stretchable printed circuits}	H05K1/02	H05K1/02		992
+H05K1/0284	9	{Details of three-dimensional rigid printed circuit boards (H05K1/119 takes precedence; shaping of the substrate H05K3/0014)}	H05K1/02	H05K1/02		1662
+H05K1/0286	9	{Programmable, customizable or modifiable circuits (by programmable non-printed jumper connections H05K3/222)}	H05K1/02	H05K1/02		933
+H05K1/0287	10	{having an universal lay-out, e.g. pad or land grid patterns or mesh patterns}	H05K1/02	H05K1/02		493
+H05K1/0289	11	{having a matrix lay-out, i.e. having selectively interconnectable sets of X-conductors and Y-conductors in different planes}	H05K1/02	H05K1/02		580
+H05K1/029	10	{having a programmable lay-out, i.e. adapted for choosing between a few possibilities}	H05K1/02	H05K1/02		396
+H05K1/0292	10	{having a modifiable lay-out, i.e. adapted for engineering changes or repair (H05K1/0293 takes precedence)}	H05K1/02	H05K1/02		235
+H05K1/0293	10	{Individual printed conductors which are adapted for modification, e.g. fusable or breakable conductors, printed switches}	H05K1/02	H05K1/02		590
+H05K1/0295	10	{adapted for choosing between different types or different locations of mounted components}	H05K1/02	H05K1/02		398
+H05K1/0296	9	{Conductive pattern lay-out details not covered by sub groups H05K1/02&#160;-&#160;H05K1/0295(H05K1/11 takes precedence; lay-out adapted to mounted component configuration H05K1/18)}	H05K1/02	H05K1/02		1326
+H05K1/0298	10	{Multilayer circuits}	H05K1/02	H05K1/02		4713
+H05K1/03	9	Use of materials for the substrate	H05K1/03	H05K1/03		2781
+H05K1/0306	10	{Inorganic insulating substrates, e.g. ceramic, glass}	H05K1/03	H05K1/03		7447
+H05K1/0313	10	{Organic insulating material}	H05K1/03	H05K1/03		1150
+H05K1/032	11	{consisting of one material}<br><br><u>NOTE</u><br><br>In this group, in the absence of an indication to the contrary, a material is classified in the last appropriate place.	H05K1/03	H05K1/03		391
+H05K1/0326	12	{containing O}	H05K1/03	H05K1/03		1667
+H05K1/0333	12	{containing S}	H05K1/03	H05K1/03		186
+H05K1/034	12	{containing halogen}	H05K1/03	H05K1/03		439
+H05K1/0346	12	{containing N}	H05K1/03	H05K1/03		1934
+H05K1/0353	11	{consisting of two or more materials, e.g. two or more polymers, polymer + filler, + reinforcement}	H05K1/03	H05K1/03		1447
+H05K1/036	12	{Multilayers with layers of different types}	H05K1/03	H05K1/03		1717
+H05K1/0366	12	{reinforced, e.g. by fibres, fabrics (H05K1/036 takes precedence)}	H05K1/03	H05K1/03		3170
+H05K1/0373	12	{containing additives, e.g. fillers (H05K1/036 takes precedence)}	H05K1/03	H05K1/03		3250
+H05K1/038	10	{Textiles (used as reinforcing materials for organic insulating substrates H05K1/0366)}	H05K1/03	H05K1/03		627
+H05K1/0386	10	{Paper sheets (used as reinforcing materials for organic insulating substrates H05K1/0366)}	H05K1/03	H05K1/03		160
+H05K1/0393	10	{Flexible materials (H05K1/038 takes precedence; specific organic compositions are classified in H05K1/0313 and subgroups)}	H05K1/03	H05K1/03		5040
+H05K1/05	10	Insulated {conductive substrates, e.g. insulated} metal substrate	H05K1/05	H05K1/05		2024
+H05K1/053	11	{the metal substrate being covered by an inorganic insulating layer}	H05K1/05	H05K1/05		806
+H05K1/056	11	{the metal substrate being covered by an organic insulating layer}	H05K1/05	H05K1/05		1820
+H05K1/09	9	Use of materials for the {conductive, e.g. } metallic pattern	H05K1/09	H05K1/09		4247
+H05K1/092	10	{Dispersed materials, e.g. conductive pastes or inks}	H05K1/09	H05K1/09		3536
+H05K1/095	11	{for polymer thick films, i.e. having a permanent organic polymeric binder}	H05K1/09	H05K1/09		2395
+H05K1/097	11	{Inks comprising nanoparticles and specially adapted for being sintered at low temperature (H05K1/095 takes precedence)}	H05K1/09	H05K1/09		1054
+H05K1/11	9	Printed elements for providing electric connections to or between printed circuits	H05K1/11	H05K1/11		4390
+H05K1/111	10	{Pads for surface mounting, e.g. lay-out}	H05K1/11	H05K1/11		5203
+H05K1/112	11	{directly combined with via connections}	H05K1/11	H05K1/11		1279
+H05K1/113	12	{Via provided in pad; Pad over filled via}	H05K1/11	H05K1/11		1650
+H05K1/114	12	{Pad being close to via, but not surrounding the via}	H05K1/11	H05K1/11		442
+H05K1/115	10	{Via connections; Lands around holes or via connections (H05K1/112 takes precedence)}	H05K1/11	H05K1/11		5535
+H05K1/116	11	{Lands, clearance holes or other lay-out details concerning the surrounding of a via}	H05K1/11	H05K1/11		2108
+H05K1/117	10	{Pads along the edge of rigid circuit boards, e.g. for pluggable connectors}	H05K1/11	H05K1/11		2852
+H05K1/118	10	{specially for flexible printed circuits, e.g. using folded portions}	H05K1/11	H05K1/11		3299
+H05K1/119	10	{Details of rigid insulating substrates therefor, e.g. three-dimensional details (H05K1/117 takes precedence)}	H05K1/11	H05K1/11		555
+H05K1/14	9	Structural association of two or more printed circuits (providing electric connection to or between printed circuits H05K1/11, H01R12/00)	H05K1/14	H05K1/14		3337
+H05K1/141	10	{One or more single auxiliary printed circuits mounted on a main printed circuit, e.g. modules, adapters (H05K1/142 and H05K1/147 take precedence)}	H05K1/14	H05K1/14		4952
+H05K1/142	10	{Arrangements of planar printed circuit boards in the same plane, e.g. auxiliary printed circuit insert mounted in a main printed circuit}	H05K1/14	H05K1/14		1421
+H05K1/144	10	{Stacked arrangements of planar printed circuit boards}	H05K1/14	H05K1/14		4340
+H05K1/145	10	{Arrangements wherein electric components are disposed between and simultaneously connected to two planar printed circuit boards, e.g. Cordwood modules}	H05K1/14	H05K1/14		1081
+H05K1/147	10	{at least one of the printed circuits being bent or folded, e.g. by using a flexible printed circuit (H05K1/148 takes precedence)}	H05K1/14	H05K1/14		3752
+H05K1/148	10	{Arrangements of two or more hingeably connected rigid printed circuit boards, i.e. connected by flexible means}	H05K1/14	H05K1/14		1093
+H05K1/16	8	incorporating printed electric components, e.g. printed resistor, capacitor, inductor	H05K1/16	H05K1/16		2383
+H05K1/162	9	{incorporating printed capacitors}	H05K1/16	H05K1/16		2576
+H05K1/165	9	{incorporating printed inductors}	H05K1/16	H05K1/16		2728
+H05K1/167	9	{incorporating printed resistors}	H05K1/16	H05K1/16		1901
+H05K1/18	8	Printed circuits structurally associated with non-printed electric components ({H05K1/0201, H05K1/023, H05K1/0243, and}H05K1/16 take precedence)	H05K1/18	H05K1/18		6923
+H05K1/181	9	{associated with surface mounted components}	H05K1/18	H05K1/18		11044
+H05K1/182	9	{associated with components mounted in the printed circuit board, e.g. insert mounted components [IMC]}	H05K1/18	H05K1/18		2962
+H05K1/183	10	{Components mounted in and supported by recessed areas of the printed circuit board}	H05K1/18	H05K1/18		1918
+H05K1/184	10	{Components including terminals inserted in holes through the printed circuit board and connected to printed contacts on the walls of the holes or at the edges thereof or protruding over or into the holes}	H05K1/18	H05K1/18		1337
+H05K1/185	10	{Components encapsulated in the insulating substrate of the printed circuit or incorporated in internal layers of a multilayer circuit (semiconductor chips encapsulated by interconnect and support structures H01L23/5389, H01L24/00)}	H05K1/18	H05K1/18		3184
+H05K1/186	11	{manufactured by mounting on or connecting to patterned circuits before or during embedding}	H05K1/18	H05K1/18		870
+H05K1/187	12	{the patterned circuits being prefabricated circuits, which are not yet attached to a permanent insulating substrate, e.g. on a temporary carrier}	H05K1/18	H05K1/18		168
+H05K1/188	11	{manufactured by mounting on or attaching to a structure having a conductive layer, e.g. a metal foil, such that the terminals of the component are connected to or adjacent to the conductive layer before embedding, and by using the conductive layer, which is patterned after embedding, at least partially for connecting the component}	H05K1/18	H05K1/18		293
+H05K1/189	9	{characterised by the use of a flexible or folded printed circuit (H05K3/326 takes precedence)}	H05K1/18	H05K1/18		6180
+H05K3/00	7	Apparatus or processes for manufacturing printed circuits	H05K3/00	H05K3/00		4630
+H05K3/0002	8	{for manufacturing artworks for printed circuits}	H05K3/00	H05K3/00		722
+H05K3/0005	8	{for designing circuits by computer}	H05K3/00	H05K3/00		1307
+H05K3/0008	8	{for aligning or positioning of tools relative to the circuit board (H05K3/4638, H05K3/4679 take precedence; for manufacturing assemblages of components H05K13/0015)}	H05K3/00	H05K3/00		2291
+H05K3/0011	8	{Working of insulating substrates or insulating layers}	H05K3/00	H05K3/00		1067
+H05K3/0014	9	{Shaping of the substrate, e.g. by moulding}	H05K3/00	H05K3/00		1435
+H05K3/0017	9	{Etching of the substrate by chemical or physical means}	H05K3/00	H05K3/00		708
+H05K3/002	10	{by liquid chemical etching}	H05K3/00	H05K3/00		611
+H05K3/0023	10	{by exposure and development of a photosensitive insulating layer}	H05K3/00	H05K3/00		972
+H05K3/0026	10	{by laser ablation}	H05K3/00	H05K3/00		1144
+H05K3/0029	11	{of inorganic insulating material}	H05K3/00	H05K3/00		276
+H05K3/0032	11	{of organic insulating material}	H05K3/00	H05K3/00		697
+H05K3/0035	12	{of blind holes, i.e. having a metal layer at the bottom}	H05K3/00	H05K3/00		754
+H05K3/0038	12	{combined with laser drilling through a metal layer}	H05K3/00	H05K3/00		351
+H05K3/0041	10	{by plasma etching}	H05K3/00	H05K3/00		331
+H05K3/0044	9	{Mechanical working of the substrate, e.g. drilling or punching (H05K3/0008 takes precedence)}	H05K3/00	H05K3/00		2818
+H05K3/0047	10	{Drilling of holes}	H05K3/00	H05K3/00		3776
+H05K3/005	10	{Punching of holes}	H05K3/00	H05K3/00		684
+H05K3/0052	10	{Depaneling, i.e. dividing a panel into circuit boards; Working of the edges of circuit boards}	H05K3/00	H05K3/00		2680
+H05K3/0055	9	{After-treatment, e.g. cleaning or desmearing of holes}	H05K3/00	H05K3/00		1101
+H05K3/0058	8	{Laminating printed circuit boards onto other substrates, e.g. metallic substrates (H05K1/0281 takes precedence)}	H05K3/00	H05K3/00		1889
+H05K3/0061	9	{onto a metallic substrate, e.g. a heat sink (heat sinks for electric apparatus H05K7/20)}	H05K3/00	H05K3/00		2332
+H05K3/0064	9	{onto a polymeric substrate}	H05K3/00	H05K3/00		376
+H05K3/0067	9	{onto an inorganic, non-metallic substrate}	H05K3/00	H05K3/00		141
+H05K3/007	8	{Manufacture or processing of a substrate for a printed circuit board supported by a temporary or sacrificial carrier (H05K1/187, H05K3/20 and H05K3/4682 take precedence)}	H05K3/00	H05K3/00		838
+H05K3/0073	8	{Masks not provided for in groups H05K3/02&#160;-&#160;H05K3/46, e.g. for photomechanical production of patterned surfaces}	H05K3/00	H05K3/00		210
+H05K3/0076	9	{characterised by the composition of the mask}	H05K3/00	H05K3/00		426
+H05K3/0079	9	{characterised by the method of application or removal of the mask (H05K3/0091 takes precedence)}	H05K3/00	H05K3/00		565
+H05K3/0082	9	{characterised by the exposure method of radiation-sensitive masks}	H05K3/00	H05K3/00		959
+H05K3/0085	8	{Apparatus for treatments of printed circuits with liquids not provided for in groups H05K3/02&#160;-&#160;H05K3/46; conveyors and holding means therefor (apparatus specially adapted for manufacturing assemblages of electric components, e.g. printed circuit boards, H05K13/00)}	H05K3/00	H05K3/00		671
+H05K3/0088	9	{for treatment of holes}	H05K3/00	H05K3/00		217
+H05K3/0091	8	{Apparatus for coating printed circuits using liquid non-metallic coating compositions}	H05K3/00	H05K3/00		584
+H05K3/0094	8	{Filling or covering plated through-holes or blind plated vias, e.g. for masking or for mechanical reinforcement}	H05K3/00	H05K3/00		1872
+H05K3/0097	8	{Processing two or more printed circuits simultaneously, e.g. made from a common substrate, or temporarily stacked circuit boards (H05K3/0052 takes precedence)}	H05K3/00	H05K3/00		1981
+H05K3/02	8	in which the conductive material is applied to the surface of the insulating support and is thereafter removed from such areas of the surface which are not intended for current conducting or shielding	H05K3/02	H05K3/02		835
+H05K3/022	9	{Processes for manufacturing precursors of printed circuits, i.e. copper-clad substrates}	H05K3/02	H05K3/02		3015
+H05K3/025	10	{by transfer of thin metal foil formed on a temporary carrier, e.g. peel-apart copper}	H05K3/02	H05K3/02		637
+H05K3/027	9	{the conductive material being removed by irradiation, e.g. by photons, alpha or beta particles}	H05K3/02	H05K3/02		840
+H05K3/04	9	the conductive material being removed mechanically, e.g. by punching	H05K3/04	H05K3/04		392
+H05K3/041	10	{by using a die for cutting the conductive material}	H05K3/04	H05K3/04		273
+H05K3/043	10	{by using a moving tool for milling or cutting the conductive material}	H05K3/04	H05K3/04		186
+H05K3/045	10	{by making a conductive layer having a relief pattern, followed by abrading of the raised portions}	H05K3/04	H05K3/04		265
+H05K3/046	10	{by selective transfer or selective detachment of a conductive layer}	H05K3/04	H05K3/04		330
+H05K3/048	11	{using a lift-off resist pattern or a release layer pattern}	H05K3/04	H05K3/04		363
+H05K3/06	9	the conductive material being removed chemically or electrolytically, e.g. by photo-etch process {(semi-additive methods H05K3/108)}	H05K3/06	H05K3/06		3845
+H05K3/061	10	{Etching masks}	H05K3/06	H05K3/06		1062
+H05K3/062	11	{consisting of metals or alloys or metallic inorganic compounds (H05K3/065 takes precedence)}	H05K3/06	H05K3/06		626
+H05K3/064	11	{Photoresists}	H05K3/06	H05K3/06		1524
+H05K3/065	11	{applied by electrographic, electrophotographic or magnetographic methods}	H05K3/06	H05K3/06		119
+H05K3/067	10	{Etchants}	H05K3/06	H05K3/06		788
+H05K3/068	10	{Apparatus for etching printed circuits}	H05K3/06	H05K3/06		760
+H05K3/07	10	being removed electrolytically	H05K3/07	H05K3/07		185
+H05K3/08	9	the conductive material being removed by electric discharge, e.g. by spark erosion	H05K3/08	H05K3/08		84
+H05K3/10	8	in which conductive material is applied to the insulating support in such a manner as to form the desired conductive pattern	H05K3/10	H05K3/10		1355
+H05K3/101	9	{by casting or moulding of conductive material}	H05K3/10	H05K3/10		324
+H05K3/102	9	{by bonding of conductive powder, i.e. metallic powder (H05K3/12 takes precedence)}	H05K3/10	H05K3/10		525
+H05K3/103	9	{by bonding or embedding conductive wires or strips}	H05K3/10	H05K3/10		564
+H05K3/105	9	{by conversion of non-conductive material on or in the support into conductive material, e.g. by using an energy beam}	H05K3/10	H05K3/10		868
+H05K3/106	10	{by photographic methods}	H05K3/10	H05K3/10		155
+H05K3/107	9	{by filling grooves in the support with conductive material (H05K3/045, H05K3/101, H05K3/1258 and H05K3/465 take precedence)}	H05K3/10	H05K3/10		1545
+H05K3/108	9	{by semi-additive methods; masks therefor (characterised by metallic etch mask H05K3/062; electroplating methods or apparatus H05K3/241)}	H05K3/10	H05K3/10		1813
+H05K3/12	9	using {thick film techniques, e.g.} printing techniques to apply the conductive material {or similar techniques for applying conductive paste or ink patterns}	H05K3/12	H05K3/12		1670
+H05K3/1208	10	{Pretreatment of the circuit board, e.g. modifying wetting properties; Patterning by using affinity patterns (providing shape patterns H05K3/1258; adhesion treatments H05K3/38)}	H05K3/12	H05K3/12		297
+H05K3/1216	10	{by screen printing or stencil printing}	H05K3/12	H05K3/12		2466
+H05K3/1225	11	{Screens or stencils; Holders therefor}	H05K3/12	H05K3/12		849
+H05K3/1233	11	{Methods or means for supplying the conductive material and for forcing it through the screen or stencil}	H05K3/12	H05K3/12		766
+H05K3/1241	10	{by ink-jet printing or drawing by dispensing}	H05K3/12	H05K3/12		673
+H05K3/125	11	{by ink-jet printing}	H05K3/12	H05K3/12		1412
+H05K3/1258	10	{by using a substrate provided with a shape pattern, e.g. grooves, banks, resist pattern}	H05K3/12	H05K3/12		548
+H05K3/1266	10	{by electrographic or magnetographic printing}	H05K3/12	H05K3/12		128
+H05K3/1275	10	{by other printing techniques, e.g. letterpress printing, intaglio printing, lithographic printing, offset printing}	H05K3/12	H05K3/12		667
+H05K3/1283	10	{After-treatment of the printed patterns, e.g. sintering or curing methods}	H05K3/12	H05K3/12		819
+H05K3/1291	11	{Firing or sintering at relative high temperatures for patterns on inorganic boards, e.g. co-firing of circuits on green ceramic sheets}	H05K3/12	H05K3/12		246
+H05K3/14	9	using spraying techniques to apply the conductive material {, e.g. vapour evaporation}	H05K3/14	H05K3/14		412
+H05K3/143	10	{Masks therefor (H05K3/048 takes precedence)}	H05K3/14	H05K3/14		289
+H05K3/146	10	{By vapour deposition}	H05K3/14	H05K3/14		356
+H05K3/16	10	by cathodic sputtering	H05K3/16	H05K3/16		335
+H05K3/18	9	using precipitation techniques to apply the conductive material	H05K3/18	H05K3/18		1275
+H05K3/181	10	{by electroless plating (adhesives therefor H05K3/387)}	H05K3/18	H05K3/18		1715
+H05K3/182	11	{characterised by the patterning method}	H05K3/18	H05K3/18		555
+H05K3/184	12	{using masks}	H05K3/18	H05K3/18		757
+H05K3/185	12	{by making a catalytic pattern by photo-imaging}	H05K3/18	H05K3/18		642
+H05K3/187	11	{means therefor, e.g. baths, apparatus}	H05K3/18	H05K3/18		308
+H05K3/188	10	{by direct electroplating}	H05K3/18	H05K3/18		1413
+H05K3/20	9	by affixing prefabricated conductor pattern {(H05K1/187, H05K3/046, H05K3/4658, H05K3/4682 takes precedence)}	H05K3/20	H05K3/20		1193
+H05K3/202	10	{using self-supporting metal foil pattern}	H05K3/20	H05K3/20		1416
+H05K3/205	10	{using a pattern electroplated or electroformed on a metallic carrier}	H05K3/20	H05K3/20		748
+H05K3/207	10	{using a prefabricated paste pattern, ink pattern or powder pattern}	H05K3/20	H05K3/20		437
+H05K3/22	8	Secondary treatment of printed circuits {(H05K3/1283 takes precedence; embedding circuits in grooves by pressure H05K3/107)}	H05K3/22	H05K3/22		1410
+H05K3/222	9	{Completing of printed circuits by adding non-printed jumper connections (printed jumper connections H05K3/4685)}	H05K3/22	H05K3/22		856
+H05K3/225	9	{Correcting or repairing of printed circuits (H05K1/0292, H05K3/222, H05K3/288, H05K3/4685 take precedence)}	H05K3/22	H05K3/22		1462
+H05K3/227	9	{Drying of printed circuits}	H05K3/22	H05K3/22		814
+H05K3/24	9	Reinforcing the conductive pattern {(by solder coating H05K3/3457)}	H05K3/24	H05K3/24		1041
+H05K3/241	10	{characterised by the electroplating method; means therefor, e.g. baths or apparatus}	H05K3/24	H05K3/24		1138
+H05K3/242	11	{characterised by using temporary conductors on the printed circuit for electrically connecting areas which are to be electroplated}	H05K3/24	H05K3/24		406
+H05K3/243	10	{characterised by selective plating, e.g. for finish plating of pads (selective plating for making the circuit pattern H05K3/108, H05K3/182)}	H05K3/24	H05K3/24		1085
+H05K3/244	10	{Finish plating of conductors, especially of copper conductors, e.g. for pads or lands (selective plating methods H05K3/243; finish plating of conductors made by printing techniques H05K3/246; solder as finish H05K3/3457, e.g. by plating H05K3/3473)}	H05K3/24	H05K3/24		1620
+H05K3/245	10	{Reinforcing conductive patterns made by printing techniques or by other techniques for applying conductive pastes, inks or powders; Reinforcing other conductive patterns by such techniques}	H05K3/24	H05K3/24		408
+H05K3/246	11	{Reinforcing conductive paste, ink or powder patterns by other methods, e.g. by plating}	H05K3/24	H05K3/24		486
+H05K3/247	11	{Finish coating of conductors by using conductive pastes, inks or powders}	H05K3/24	H05K3/24		132
+H05K3/248	12	{fired compositions for inorganic substrates}	H05K3/24	H05K3/24		91
+H05K3/249	12	{comprising carbon particles as main constituent}	H05K3/24	H05K3/24		54
+H05K3/26	9	Cleaning or polishing of the conductive pattern	H05K3/26	H05K3/26		2526
+H05K3/28	9	Applying non-metallic protective coatings {(H05K3/0091 takes precedence; methods for intermediate insulating layers for build-up multilayer circuits H05K3/4673)}	H05K3/28	H05K3/28		5291
+H05K3/281	10	{by means of a preformed insulating foil (H05K3/284 takes precedence)}	H05K3/28	H05K3/28		2080
+H05K3/282	10	{for inhibiting the corrosion of the circuit, e.g. for preserving the solderability}	H05K3/28	H05K3/28		1534
+H05K3/284	10	{for encapsulating mounted components (H05K1/185 takes precedence)}	H05K3/28	H05K3/28		4230
+H05K3/285	10	{Permanent coating compositions}	H05K3/28	H05K3/28		992
+H05K3/287	11	{Photosensitive compositions}	H05K3/28	H05K3/28		1082
+H05K3/288	10	{Removal of non-metallic coatings, e.g. for repairing}	H05K3/28	H05K3/28		404
+H05K3/30	8	Assembling printed circuits with electric components, e.g. with resistor	H05K3/30	H05K3/30		2064
+H05K3/301	9	{by means of a mounting structure (H05K3/325 takes precedence)}	H05K3/30	H05K3/30		2967
+H05K3/303	9	{Surface mounted components, e.g. affixing before soldering, aligning means, spacing means (H05K3/32 takes precedence)}	H05K3/30	H05K3/30		3525
+H05K3/305	10	{Affixing by adhesive}	H05K3/30	H05K3/30		1898
+H05K3/306	9	{Lead-in-hole components, e.g. affixing or retention before soldering, spacing means (H05K3/32 takes precedence)}	H05K3/30	H05K3/30		1795
+H05K3/308	10	{Adaptations of leads (connectors to printed circuits H01R12/00)}	H05K3/30	H05K3/30		1772
+H05K3/32	9	electrically connecting electric components or wires to printed circuits	H05K3/32	H05K3/32		1956
+H05K3/321	10	{by conductive adhesives}	H05K3/32	H05K3/32		3565
+H05K3/323	11	{by applying an anisotropic conductive adhesive layer over an array of pads}	H05K3/32	H05K3/32		2198
+H05K3/325	10	{by abutting or pinching, i.e. without alloying process; mechanical auxiliary parts therefor (adaptations of leads inserted in holes for press-fit connections H05K3/308)}	H05K3/32	H05K3/32		2881
+H05K3/326	11	{the printed circuit having integral resilient or deformable parts, e.g. tabs or parts of flexible circuits (H05K3/365 takes precedence)}	H05K3/32	H05K3/32		1189
+H05K3/328	10	{by welding}	H05K3/32	H05K3/32		1434
+H05K3/34	10	by soldering	H05K3/34	H05K3/34		4243
+H05K3/3405	11	{Edge mounted components, e.g. terminals}	H05K3/34	H05K3/34		1474
+H05K3/341	11	{Surface mounted components}	H05K3/34	H05K3/34		3096
+H05K3/3415	12	{on both sides of the substrate or combined with lead-in-hole components}	H05K3/34	H05K3/34		750
+H05K3/3421	12	{Leaded components}	H05K3/34	H05K3/34		4724
+H05K3/3426	13	{characterised by the leads}	H05K3/34	H05K3/34		1541
+H05K3/3431	12	{Leadless components}	H05K3/34	H05K3/34		2304
+H05K3/3436	13	{having an array of bottom contacts, e.g. pad grid array or ball grid array components}	H05K3/34	H05K3/34		4164
+H05K3/3442	13	{having edge contacts, e.g. leadless chip capacitors, chip carriers}	H05K3/34	H05K3/34		2089
+H05K3/3447	11	{Lead-in-hole components (H05K3/3415 takes precedence)}	H05K3/34	H05K3/34		4247
+H05K3/3452	11	{Solder masks}	H05K3/34	H05K3/34		3182
+H05K3/3457	11	{Solder materials or compositions; Methods of application thereof}	H05K3/34	H05K3/34		2154
+H05K3/3463	12	{Solder compositions in relation to features of the printed circuit board or the mounting process}	H05K3/34	H05K3/34		1112
+H05K3/3468	12	{Applying molten solder}	H05K3/34	H05K3/34		1468
+H05K3/3473	12	{Plating of solder}	H05K3/34	H05K3/34		619
+H05K3/3478	12	{Applying solder preforms; Transferring prefabricated solder patterns}	H05K3/34	H05K3/34		1680
+H05K3/3485	12	{Applying solder paste, slurry or powder (thick film methods for applying conductive paste or ink patterns H05K3/12)}	H05K3/34	H05K3/34		2406
+H05K3/3489	11	{Composition of fluxes; Methods of application thereof; Other methods of activating the contact surfaces}	H05K3/34	H05K3/34		1260
+H05K3/3494	11	{Heating methods for reflowing of solder (using integral heating means H05K1/0212)}	H05K3/34	H05K3/34		2758
+H05K3/36	8	Assembling printed circuits with other printed circuits {(H05K7/142 takes precedence)}	H05K3/36	H05K3/36		988
+H05K3/361	9	{Assembling flexible printed circuits with other printed circuits}	H05K3/36	H05K3/36		4081
+H05K3/363	10	{by soldering}	H05K3/36	H05K3/36		1599
+H05K3/365	10	{by abutting, i.e. without alloying process}	H05K3/36	H05K3/36		752
+H05K3/366	9	{substantially perpendicularly to each other (H05K3/361 takes precedence)}	H05K3/36	H05K3/36		1314
+H05K3/368	9	{parallel to each other (H05K3/361 takes precedence)}	H05K3/36	H05K3/36		2561
+H05K3/38	8	Improvement of the adhesion between the insulating substrate and the metal	H05K3/38	H05K3/38		1432
+H05K3/381	9	{by special treatment of the substrate}	H05K3/38	H05K3/38		1612
+H05K3/382	9	{by special treatment of the metal}	H05K3/38	H05K3/38		638
+H05K3/383	10	{by microetching}	H05K3/38	H05K3/38		389
+H05K3/384	10	{by plating}	H05K3/38	H05K3/38		702
+H05K3/385	10	{by conversion of the surface of the metal, e.g. by oxidation, whether or not followed by reaction or removal of the converted layer}	H05K3/38	H05K3/38		393
+H05K3/386	9	{by the use of an organic polymeric bonding layer, e.g. adhesive}	H05K3/38	H05K3/38		2673
+H05K3/387	10	{for electroless plating (H05K3/4661 takes precedence)}	H05K3/38	H05K3/38		426
+H05K3/388	9	{by the use of a metallic or inorganic thin film adhesion layer}	H05K3/38	H05K3/38		1032
+H05K3/389	9	{by the use of a coupling agent, e.g. silane}	H05K3/38	H05K3/38		577
+H05K3/40	8	Forming printed elements for providing electric connections to or between printed circuits	H05K3/40	H05K3/40		948
+H05K3/4007	9	{Surface contacts, e.g. bumps (H05K3/4092 takes precedence; deposition of finish layers on pads H05K3/24; forming solder bumps H05K3/3457)}	H05K3/40	H05K3/40		3092
+H05K3/4015	10	{using auxiliary conductive elements, e.g. pieces of metal foil, metallic spheres}	H05K3/40	H05K3/40		803
+H05K3/403	9	{Edge contacts; Windows or holes in the substrate having plural connections on the walls thereof (H05K3/4092 takes precedence)}	H05K3/40	H05K3/40		1930
+H05K3/4038	9	{Through-connections; Vertical interconnect access [VIA] connections (H05K3/403, H05K3/42 take precedence)}	H05K3/40	H05K3/40		1963
+H05K3/4046	10	{using auxiliary conductive elements, e.g. metallic spheres, eyelets, pieces of wire}	H05K3/40	H05K3/40		956
+H05K3/4053	10	{by thick-film techniques}	H05K3/40	H05K3/40		295
+H05K3/4061	11	{for via connections in inorganic insulating substrates}	H05K3/40	H05K3/40		547
+H05K3/4069	11	{for via connections in organic insulating substrates}	H05K3/40	H05K3/40		1325
+H05K3/4076	10	{by thin-film techniques}	H05K3/40	H05K3/40		265
+H05K3/4084	10	{by deforming at least one of the conductive layers}	H05K3/40	H05K3/40		466
+H05K3/4092	9	{Integral conductive tabs, i.e. conductive parts partly detached from the substrate}	H05K3/40	H05K3/40		1024
+H05K3/42	9	Plated through-holes {or plated via connections}	H05K3/42	H05K3/42		2498
+H05K3/421	10	{Blind plated via connections (H05K3/422, H05K3/423 and H05K3/425 take precedence)}	H05K3/42	H05K3/42		975
+H05K3/422	10	{characterised by electroless plating method; pretreatment therefor}	H05K3/42	H05K3/42		497
+H05K3/423	10	{characterised by electroplating method}	H05K3/42	H05K3/42		1302
+H05K3/424	11	{by direct electroplating}	H05K3/42	H05K3/42		537
+H05K3/425	10	{characterised by the sequence of steps for plating the through-holes or via connections in relation to the conductive pattern}	H05K3/42	H05K3/42		167
+H05K3/426	11	{initial plating of through-holes in substrates without metal}	H05K3/42	H05K3/42		561
+H05K3/427	11	{initial plating of through-holes in metal-clad substrates}	H05K3/42	H05K3/42		996
+H05K3/428	11	{initial plating of through-holes in substrates having a metal pattern}	H05K3/42	H05K3/42		291
+H05K3/429	10	{Plated through-holes specially for multilayer circuits, e.g. having connections to inner circuit layers}	H05K3/42	H05K3/42		3283
+H05K3/44	8	Manufacturing insulated metal core circuits {or other insulated electrically conductive core circuits (H05K3/0058, H05K3/4608, and H05K3/4641 take precedence)}	H05K3/44	H05K3/44		579
+H05K3/445	9	{having insulated holes or insulated via connections through the metal core}	H05K3/44	H05K3/44		487
+H05K3/46	8	Manufacturing multilayer circuits	H05K3/46	H05K3/46		3572
+H05K3/4602	9	{characterized by a special circuit board as base or central core whereon additional circuit layers are built or additional circuit boards are laminated}	H05K3/46	H05K3/46		1908
+H05K3/4605	10	{made from inorganic insulating material}	H05K3/46	H05K3/46		301
+H05K3/4608	10	{comprising an electrically conductive base or core}	H05K3/46	H05K3/46		332
+H05K3/4611	9	{by laminating two or more circuit boards (H05K3/4652 takes precedence)}	H05K3/46	H05K3/46		3565
+H05K3/4614	10	{the electrical connections between the circuit boards being made during lamination}	H05K3/46	H05K3/46		1074
+H05K3/4617	11	{characterized by laminating only or mainly similar single-sided circuit boards}	H05K3/46	H05K3/46		403
+H05K3/462	11	{characterized by laminating only or mainly similar double-sided circuit boards}	H05K3/46	H05K3/46		444
+H05K3/4623	10	{the circuit boards having internal via connections between two or more circuit layers before lamination, e.g. double-sided circuit boards (H05K3/462 takes precedence)}	H05K3/46	H05K3/46		1022
+H05K3/4626	10	{characterised by the insulating layers or materials (H05K3/4688 takes precedence)}	H05K3/46	H05K3/46		810
+H05K3/4629	11	{laminating inorganic sheets comprising printed circuits, e.g. green ceramic sheets}	H05K3/46	H05K3/46		1644
+H05K3/4632	11	{laminating thermoplastic or uncured resin sheets comprising printed circuits without added adhesive materials between the sheets}	H05K3/46	H05K3/46		320
+H05K3/4635	11	{laminating flexible circuit boards using additional insulating adhesive materials between the boards}	H05K3/46	H05K3/46		403
+H05K3/4638	10	{Aligning and fixing the circuit boards before lamination; Detecting or measuring the misalignment after lamination; Aligning external circuit patterns or via connections relative to internal circuits}	H05K3/46	H05K3/46		895
+H05K3/4641	10	{having integrally laminated metal sheets or special power cores}	H05K3/46	H05K3/46		514
+H05K3/4644	9	{by building the multilayer layer by layer, i.e. build-up multilayer circuits (making via holes in the insulating layers H05K3/0011; special circuit boards as base or core whereon the multilayer is built H05K3/4602)}	H05K3/46	H05K3/46		3001
+H05K3/4647	10	{by applying an insulating layer around previously made via studs}	H05K3/46	H05K3/46		551
+H05K3/465	10	{by applying an insulating layer having channels for the next circuit layer}	H05K3/46	H05K3/46		355
+H05K3/4652	10	{Adding a circuit layer by laminating a metal foil or a preformed metal foil pattern (H05K3/4647 takes precedence)}	H05K3/46	H05K3/46		1578
+H05K3/4655	11	{by using a laminate characterized by the insulating layer (general-purpose insulating materials H05K1/03, H05K3/4673)}	H05K3/46	H05K3/46		461
+H05K3/4658	11	{characterized by laminating a prefabricated metal foil pattern, e.g. by transfer}	H05K3/46	H05K3/46		144
+H05K3/4661	10	{Adding a circuit layer by direct wet plating, e.g. electroless plating; insulating materials adapted therefor (other insulating materials H05K3/387)}	H05K3/46	H05K3/46		598
+H05K3/4664	10	{Adding a circuit layer by thick film methods, e.g. printing techniques or by other techniques for making conductive patterns by using pastes, inks or powders (H05K3/4647 takes precedence)}	H05K3/46	H05K3/46		705
+H05K3/4667	11	{characterized by using an inorganic intermediate insulating layer}	H05K3/46	H05K3/46		156
+H05K3/467	10	{Adding a circuit layer by thin film methods (H05K3/4647 takes precedence)}	H05K3/46	H05K3/46		313
+H05K3/4673	10	{Application methods or materials of intermediate insulating layers not specially adapted to any one of the previous methods of adding a circuit layer (similar methods for protective coatings H05K3/28)}	H05K3/46	H05K3/46		344
+H05K3/4676	11	{Single layer compositions}	H05K3/46	H05K3/46		812
+H05K3/4679	10	{Aligning added circuit layers or via connections relative to previous circuit layers}	H05K3/46	H05K3/46		203
+H05K3/4682	10	{Manufacture of core-less build-up multilayer circuits on a temporary carrier or on a metal foil}	H05K3/46	H05K3/46		878
+H05K3/4685	9	{Manufacturing of cross-over conductors}	H05K3/46	H05K3/46		472
+H05K3/4688	9	{Composite multilayer circuits, i.e. comprising insulating layers having different properties (having a special base or central core H05K3/4602)}	H05K3/46	H05K3/46		712
+H05K3/4691	10	{Rigid-flexible multilayer circuits comprising rigid and flexible layers, e.g. having in the bending regions only flexible layers}	H05K3/46	H05K3/46		1705
+H05K3/4694	10	{Partitioned multilayer circuits having adjacent regions with different properties, e.g. by adding or inserting locally circuit layers having a higher circuit density (H05K3/4691 takes precedence)}	H05K3/46	H05K3/46		271
+H05K3/4697	9	{having cavities, e.g. for mounting components (H05K3/4691 takes precedence)}	H05K3/46	H05K3/46		1800
+H05K5/00	7	Casings, cabinets or drawers for electric apparatus	H05K5/00	H05K5/00		2046
+H05K5/0017	8	{with operator interface units}<br><br><u>WARNING</u><br>Group H05K5/0017 is impacted by reclassification into group H05K5/0018. <br>Groups H05K5/0017 and H05K5/0018 should be considered in order to perform a complete search.	H05K5/00	H05K5/00		3947
+H05K5/0018	9	{having an electronic display}<br><br><u>WARNING</u><br>Group H05K5/0018 is incomplete pending reclassification of documents from group H05K5/0017. <br>Groups H05K5/0017 and H05K5/0018 should be considered in order to perform a complete search.	H05K5/00	H05K5/00		1170
+H05K5/0026	8	{provided with connectors and printed circuit boards [PCB], e.g. automotive electronic control units}	H05K5/00	H05K5/00		914
+H05K5/003	9	{having an integrally preformed housing}	H05K5/00	H05K5/00		114
+H05K5/0034	9	{having an overmolded housing covering the PCB}	H05K5/00	H05K5/00		201
+H05K5/0039	9	{having a tubular housing wherein the PCB is inserted longitudinally}	H05K5/00	H05K5/00		217
+H05K5/0043	9	{comprising a frame housing mating with two lids wherein the PCB is flat mounted on the frame housing}	H05K5/00	H05K5/00		150
+H05K5/0047	9	{having a two-part housing enclosing a PCB}	H05K5/00	H05K5/00		379
+H05K5/0052	10	{characterized by joining features of the housing parts}	H05K5/00	H05K5/00		493
+H05K5/0056	10	{characterized by features for protecting electronic components against vibration and moisture, e.g. potting, holders for relatively large capacitors}	H05K5/00	H05K5/00		396
+H05K5/006	10	{characterized by features for holding the PCB within the housing}	H05K5/00	H05K5/00		556
+H05K5/0065	9	{wherein modules are associated together, e.g. electromechanical assemblies, modular structures}	H05K5/00	H05K5/00		321
+H05K5/0069	9	{having connector relating features for connecting the connector pins with the PCB or for mounting the connector body with the housing}	H05K5/00	H05K5/00		1312
+H05K5/0073	9	{having specific features for mounting the housing on an external structure}	H05K5/00	H05K5/00		371
+H05K5/0078	9	{specially adapted for acceleration sensors, e.g. crash sensors, airbag sensors}	H05K5/00	H05K5/00		111
+H05K5/0082	9	{specially adapted for transmission control units, e.g. gearbox controllers}	H05K5/00	H05K5/00		422
+H05K5/0086	8	{portable, e.g. battery operated apparatus (casings for switching devices H01H9/02)}	H05K5/00	H05K5/00		1490
+H05K5/0091	8	{Housing specially adapted for small components (for resistors H01C; for capacitors H01G; for integrated circuits H01L23/00)}	H05K5/00	H05K5/00		554
+H05K5/0095	9	{hermetically-sealed}	H05K5/00	H05K5/00		445
+H05K5/02	8	Details<br><br><u>WARNING</u><br>Group H05K5/02 is impacted by reclassification into groups H05K5/0209, H05K5/021, H05K5/0211, H05K5/0212, H05K5/0214, H05K5/0215 and H05K5/0216. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05K5/02	H05K5/02		3200
+H05K5/0204	9	{Mounting supporting structures on the outside of casings}	H05K5/02	H05K5/02		3492
+H05K5/0208	9	{Interlock mechanisms; Means for avoiding unauthorised use or function, e.g. tamperproof}	H05K5/02	H05K5/02		888
+H05K5/0209	9	{Thermal insulation, e.g. for fire protection or for fire containment or for high temperature environments}<br><br><u>WARNING</u><br>Groups H05K5/0209 - H05K5/0211 are incomplete pending reclassification of documents from groups H05K5/02 and H05K5/0213. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05K5/02	H05K5/02		285
+H05K5/021	10	{specially adapted for data recorders, e.g. for flight recorders}	H05K5/02	H05K5/02		87
+H05K5/0211	10	{Thermal buffers, e.g. latent heat absorbers}	H05K5/02	H05K5/02		53
+H05K5/0212	9	{Condensation eliminators}<br><br><u>WARNING</u><br>Group H05K5/0212 is incomplete pending reclassification of documents from groups H05K5/02 and H05K5/0213. <br>Groups H05K5/02, H05K5/0213 and H05K5/0212 should be considered in order to perform a complete search.	H05K5/02	H05K5/02		286
+H05K5/0213	9	{Venting apertures; Constructional details thereof}<br><br><u>WARNING</u><br>Group H05K5/0213 is impacted by reclassification into groups H05K5/0209, H05K5/021, H05K5/0211, H05K5/0212, H05K5/0214, H05K5/0215 and H05K5/0216. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05K5/02	H05K5/02		5884
+H05K5/0214	10	{with means preventing penetration of rain water or dust (semi-permeable membranes H05K5/0215, H05K5/0216)}<br><br><u>WARNING</u><br>Group H05K5/0214 is incomplete pending reclassification of documents from groups H05K5/02 and H05K5/0213. <br>Groups H05K5/02, H05K5/0213 and H05K5/0214 should be considered in order to perform a complete search.	H05K5/02	H05K5/02		889
+H05K5/0215	10	{with semi-permeable membranes attached to casings}<br><br><u>WARNING</u><br>Group H05K5/0215 is incomplete pending reclassification of documents from groups H05K5/02 and H05K5/0213. <br>Groups H05K5/02, H05K5/0213 and H05K5/0215 should be considered in order to perform a complete search.	H05K5/02	H05K5/02		221
+H05K5/0216	10	{Venting plugs comprising semi-permeable membranes}<br><br><u>WARNING</u><br>Group H05K5/0216 is incomplete pending reclassification of documents from groups H05K5/02 and H05K5/0213. <br>Groups H05K5/02, H05K5/0213 and H05K5/0216 should be considered in order to perform a complete search.	H05K5/02	H05K5/02		205
+H05K5/0217	9	{Mechanical details of casings (covers, lids, hoods or members for covering apertures H05K5/03)}	H05K5/02	H05K5/02		20223
+H05K5/0221	10	{Locks; Latches}	H05K5/02	H05K5/02		2158
+H05K5/0226	10	{Hinges}	H05K5/02	H05K5/02		2667
+H05K5/023	10	{Handles; Grips}	H05K5/02	H05K5/02		1196
+H05K5/0234	10	{Feet; Stands; Pedestals, e.g. wheels for moving casing on floor}	H05K5/02	H05K5/02		3559
+H05K5/0243	10	{for decorative purposes}	H05K5/02	H05K5/02		1324
+H05K5/0247	9	{Electrical details of casings, e.g. terminals, passages for cables or wiring}	H05K5/02	H05K5/02		6781
+H05K5/0252	9	{Labels, e.g. for identification, markings or configuration store}	H05K5/02	H05K5/02		269
+H05K5/0256	9	{of interchangeable modules or receptacles therefor, e.g. cartridge mechanisms}	H05K5/02	H05K5/02		369
+H05K5/026	10	{having standardized interfaces (flash memory cards G06K19/077)}	H05K5/02	H05K5/02		311
+H05K5/0265	11	{of PCMCIA type}	H05K5/02	H05K5/02		140
+H05K5/0269	12	{Card housings therefor, e.g. covers, frames, PCB}	H05K5/02	H05K5/02		272
+H05K5/0273	12	{having extensions for peripherals, e.g. LAN, antennas (details of antennas H01Q1/2275)}	H05K5/02	H05K5/02		170
+H05K5/0278	11	{of USB type (details relating to connectors H01R27/00)}	H05K5/02	H05K5/02		652
+H05K5/0282	10	{Adapters for connecting cards having a first standard in receptacles having a second standard}	H05K5/02	H05K5/02		132
+H05K5/0286	10	{Receptacles therefor, e.g. card slots, module sockets, card groundings}	H05K5/02	H05K5/02		471
+H05K5/0291	11	{for multiple cards}	H05K5/02	H05K5/02		126
+H05K5/0295	11	{having ejection mechanisms}	H05K5/02	H05K5/02		214
+H05K5/03	9	Covers	H05K5/03	H05K5/03		8934
+H05K5/04	8	Metal casings	H05K5/04	H05K5/04		1964
+H05K5/06	8	Hermetically-sealed casings {(specially adapted for small components H05K5/0095)}	H05K5/06	H05K5/06		2859
+H05K5/061	9	{sealed by a gasket held between a removable cover and a body, e.g. O-ring, packing}	H05K5/06	H05K5/06		2225
+H05K5/062	9	{sealed by a material injected between a non-removable cover and a body, e.g. hardening in situ}	H05K5/06	H05K5/06		396
+H05K5/063	9	{sealed by a labyrinth structure provided at the joining parts}	H05K5/06	H05K5/06		209
+H05K5/064	9	{sealed by potting, e.g. waterproof resin poured in a rigid casing}	H05K5/06	H05K5/06		663
+H05K5/065	9	{sealed by encapsulation, e.g. waterproof resin forming an integral casing, injection moulding}	H05K5/06	H05K5/06		553
+H05K5/066	9	{sealed by fusion of the joining parts without bringing material; sealed by brazing}	H05K5/06	H05K5/06		173
+H05K5/067	9	{containing a dielectric fluid}	H05K5/06	H05K5/06		73
+H05K5/068	9	{having a pressure compensation device, e.g. membrane (venting means H05K5/0213)}	H05K5/06	H05K5/06		412
+H05K5/069	9	{Other details of the casing, e.g. wall structure, passage for a connector, a cable, a shaft}	H05K5/06	H05K5/06		2690
+H05K5/10	8	comprising several parts forming a closed casing	H05K5/10	H05K5/10		1622
+H05K5/13	9	assembled by screws	H05K5/13	H05K5/13		976
+H05K5/15	9	assembled by resilient members	H05K5/15	H05K5/15		1202
+H05K5/30	8	Side-by-side or stacked arrangements	H05K5/30	H05K5/30		1158
+H05K7/00	7	Constructional details common to different types of electric apparatus (casings, cabinets, drawers H05K5/00)	H05K7/00	H05K7/00		774
+H05K7/005	8	{arrangements of circuit components without supporting structure}	H05K7/00	H05K7/00		183
+H05K7/02	8	Arrangements of circuit components or wiring on supporting structure	H05K7/02	H05K7/02		3133
+H05K7/023	9	{Stackable modules}	H05K7/02	H05K7/02		548
+H05K7/026	9	{Multiple connections subassemblies}	H05K7/02	H05K7/02		648
+H05K7/04	9	on conductive chassis	H05K7/04	H05K7/04		308
+H05K7/06	9	on insulating boards {, e.g. wiring harnesses (for printed circuits H05K1/18, H05K3/30)}	H05K7/06	H05K7/06		912
+H05K7/08	10	on perforated boards	H05K7/08	H05K7/08		268
+H05K7/10	9	Plug-in assemblages of components {, e.g. IC sockets}	H05K7/10	H05K7/10		563
+H05K7/1007	10	{with means for increasing contact pressure at the end of engagement of coupling parts}	H05K7/10	H05K7/10		570
+H05K7/1015	10	{having exterior leads}	H05K7/10	H05K7/10		114
+H05K7/1023	11	{co-operating by abutting, e.g. flat pack}	H05K7/10	H05K7/10		372
+H05K7/103	11	{co-operating by sliding, e.g. DIP carriers}	H05K7/10	H05K7/10		136
+H05K7/1038	12	{with spring contact pieces (H05K7/1046 takes precedence)}	H05K7/10	H05K7/10		129
+H05K7/1046	12	{J-shaped leads}	H05K7/10	H05K7/10		73
+H05K7/1053	10	{having interior leads}	H05K7/10	H05K7/10		409
+H05K7/1061	11	{co-operating by abutting}	H05K7/10	H05K7/10		645
+H05K7/1069	12	{with spring contact pieces}	H05K7/10	H05K7/10		613
+H05K7/1076	11	{co-operating by sliding}	H05K7/10	H05K7/10		96
+H05K7/1084	12	{pin grid array package carriers}	H05K7/10	H05K7/10		316
+H05K7/1092	10	{with built-in components, e.g. intelligent sockets}	H05K7/10	H05K7/10		255
+H05K7/12	9	Resilient or clamping means for holding component to structure	H05K7/12	H05K7/12		2441
+H05K7/14	8	Mounting supporting structure in casing or on frame or rack	H05K7/14	H05K7/14		5263
+H05K7/1401	9	{comprising clamping or extracting means (H05K7/10 takes precedence)}	H05K7/14	H05K7/14		1765
+H05K7/1402	10	{for securing or extracting printed circuit boards}	H05K7/14	H05K7/14		779
+H05K7/1404	11	{by edge clamping, e.g. wedges}	H05K7/14	H05K7/14		446
+H05K7/1405	11	{by clips or resilient members, e.g. hooks}	H05K7/14	H05K7/14		882
+H05K7/1407	11	{by turn-bolt or screw member}	H05K7/14	H05K7/14		531
+H05K7/1408	11	{by a unique member which latches several boards, e.g. locking bars}	H05K7/14	H05K7/14		259
+H05K7/1409	11	{by lever-type mechanisms}	H05K7/14	H05K7/14		806
+H05K7/1411	10	{for securing or extracting box-type drawers}	H05K7/14	H05K7/14		531
+H05K7/1412	11	{hold down mechanisms, e.g. avionic racks}	H05K7/14	H05K7/14		255
+H05K7/1414	10	{with power interlock}	H05K7/14	H05K7/14		151
+H05K7/1415	10	{manual gripping tools}	H05K7/14	H05K7/14		177
+H05K7/1417	9	{having securing means for mounting boards, plates or wiring boards (H05K7/1461 takes precedence)}	H05K7/14	H05K7/14		1804
+H05K7/1418	10	{Card guides, e.g. grooves (H05K7/1425 takes precedence)}	H05K7/14	H05K7/14		1001
+H05K7/142	10	{Spacers not being card guides}	H05K7/14	H05K7/14		1301
+H05K7/1421	9	{Drawers for printed circuit boards}	H05K7/14	H05K7/14		493
+H05K7/1422	9	{Printed circuit boards receptacles, e.g. stacked structures, electronic circuit modules or box like frames}	H05K7/14	H05K7/14		417
+H05K7/1424	10	{Card cages}	H05K7/14	H05K7/14		459
+H05K7/1425	11	{of standardised dimensions, e.g. 19"-subrack}	H05K7/14	H05K7/14		667
+H05K7/1427	10	{Housings}	H05K7/14	H05K7/14		1325
+H05K7/1428	11	{for small modular apparatus with terminal block}	H05K7/14	H05K7/14		148
+H05K7/1429	11	{for circuits carrying a CPU and adapted to receive expansion cards}	H05K7/14	H05K7/14		300
+H05K7/1431	12	{Retention mechanisms for CPU modules}	H05K7/14	H05K7/14		247
+H05K7/1432	11	{specially adapted for power drive units or power converters}<br><br><u>WARNING</u><br>Group H05K7/1432 is impacted by reclassification into groups H05K7/14322, H05K7/14324, H05K7/14325, H05K7/14327, H05K7/14329, H05K7/14337 and H05K7/14339. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05K7/14	H05K7/14		1095
+H05K7/14322	12	{wherein the control and power circuits of a power converter are arranged within the same casing}<br><br><u>WARNING</u><br>Group H05K7/14322 is incomplete pending reclassification of documents from group H05K7/1432. <br>Groups H05K7/1432 and H05K7/14322 should be considered in order to perform a complete search.	H05K7/14	H05K7/14		732
+H05K7/14324	12	{comprising modular units, e.g. DIN rail mounted units}<br><br><u>WARNING</u><br>Group H05K7/14324 is incomplete pending reclassification of documents from group H05K7/1432. <br>Groups H05K7/1432 and H05K7/14324 should be considered in order to perform a complete search.	H05K7/14	H05K7/14		196
+H05K7/14325	12	{for cabinets or racks}<br><br><u>WARNING</u><br>Group H05K7/14325 is incomplete pending reclassification of documents from group H05K7/1432. <br>Groups H05K7/1432 and H05K7/14325 should be considered in order to perform a complete search.	H05K7/14	H05K7/14		327
+H05K7/14327	12	{having supplementary functional units, e.g. data transfer modules or displays or user interfaces}<br><br><u>WARNING</u><br>Group H05K7/14327 is incomplete pending reclassification of documents from group H05K7/1432. <br>Groups H05K7/1432 and H05K7/14327 should be considered in order to perform a complete search.	H05K7/14	H05K7/14		83
+H05K7/14329	12	{specially adapted for the configuration of power bus bars}<br><br><u>WARNING</u><br>Group H05K7/14329 is incomplete pending reclassification of documents from group H05K7/1432. <br>Groups H05K7/1432 and H05K7/14329 should be considered in order to perform a complete search.	H05K7/14	H05K7/14		842
+H05K7/14337	12	{specially adapted for underwater operation}<br><br><u>WARNING</u><br>Group H05K7/14337 is incomplete pending reclassification of documents from group H05K7/1432. <br>Groups H05K7/1432 and H05K7/14337 should be considered in order to perform a complete search.	H05K7/14	H05K7/14		74
+H05K7/14339	12	{specially adapted for high voltage operation}<br><br><u>WARNING</u><br>Group H05K7/14339 is incomplete pending reclassification of documents from group H05K7/1432. <br>Groups H05K7/1432 and H05K7/14339 should be considered in order to perform a complete search.	H05K7/14	H05K7/14		169
+H05K7/1434	11	{for electronics exposed to high gravitational force; Cylindrical housings}	H05K7/14	H05K7/14		122
+H05K7/1435	10	{Expandable constructions}	H05K7/14	H05K7/14		169
+H05K7/1438	9	{Back panels or connecting means therefor; Terminals; Coding means to avoid wrong insertion}	H05K7/14	H05K7/14		393
+H05K7/1439	10	{Back panel mother boards}	H05K7/14	H05K7/14		189
+H05K7/1441	11	{with a segmented structure}	H05K7/14	H05K7/14		99
+H05K7/1442	11	{with a radial structure}	H05K7/14	H05K7/14		37
+H05K7/1444	11	{Complex or three-dimensional-arrangements; Stepped or dual mother boards}	H05K7/14	H05K7/14		97
+H05K7/1445	11	{with double-sided connections}	H05K7/14	H05K7/14		195
+H05K7/1447	10	{External wirings; Wiring ducts; Laying cables}	H05K7/14	H05K7/14		309
+H05K7/1448	11	{with connections to the front board}	H05K7/14	H05K7/14		91
+H05K7/1449	11	{with connections to the back board}	H05K7/14	H05K7/14		168
+H05K7/1451	11	{with connections between circuit boards or units}	H05K7/14	H05K7/14		149
+H05K7/1452	10	{Mounting of connectors; Switching; Reinforcing of back panels}	H05K7/14	H05K7/14		373
+H05K7/1454	11	{Alignment mechanisms; Drawout cases}	H05K7/14	H05K7/14		255
+H05K7/1455	11	{Coding for prevention of wrong insertion}	H05K7/14	H05K7/14		139
+H05K7/1457	10	{Power distribution arrangements}	H05K7/14	H05K7/14		441
+H05K7/1458	10	{Active back panels; Back panels with filtering means}	H05K7/14	H05K7/14		45
+H05K7/1459	10	{Circuit configuration, e.g. routing signals}	H05K7/14	H05K7/14		221
+H05K7/1461	9	{Slidable card holders; Card stiffeners; Control or display means therefor}	H05K7/14	H05K7/14		828
+H05K7/1462	9	{for programmable logic controllers [PLC] for automation or industrial process control}	H05K7/14	H05K7/14		233
+H05K7/1464	10	{Functional units accommodated in the same PLC module housing}	H05K7/14	H05K7/14		40
+H05K7/1465	10	{Modular PLC assemblies with separable functional units}	H05K7/14	H05K7/14		160
+H05K7/1467	10	{PLC mounted in a cabinet or chassis}	H05K7/14	H05K7/14		115
+H05K7/1468	10	{Mechanical features of input/output (I/O) modules}	H05K7/14	H05K7/14		215
+H05K7/1469	11	{Terminal blocks for connecting sensors}	H05K7/14	H05K7/14		114
+H05K7/1471	11	{Modules for controlling actuators}	H05K7/14	H05K7/14		73
+H05K7/1472	11	{Bus coupling modules, e.g. bus distribution modules}	H05K7/14	H05K7/14		105
+H05K7/1474	10	{Mounting of modules, e.g. on a base or rail or wall}	H05K7/14	H05K7/14		247
+H05K7/1475	10	{Bus assemblies for establishing communication between PLC modules}	H05K7/14	H05K7/14		30
+H05K7/1477	11	{including backplanes}	H05K7/14	H05K7/14		86
+H05K7/1478	11	{including a segmented bus}	H05K7/14	H05K7/14		149
+H05K7/1479	11	{including decentralized modules, e.g. connected to other modules using fieldbus}	H05K7/14	H05K7/14		47
+H05K7/1481	10	{User interface, e.g. status displays; Programming interface, e.g. connector for computer programming; Monitoring}	H05K7/14	H05K7/14		132
+H05K7/1482	10	{PLC power supply; PLC accessories, e.g. for safety}	H05K7/14	H05K7/14		44
+H05K7/1484	10	{Electrical diagrams relating to constructional features, e.g. signal routing within PLC; Provisions for disaster recovery, e.g. redundant systems}	H05K7/14	H05K7/14		113
+H05K7/1485	9	{Servers; Data center rooms, e.g. 19-inch computer racks}	H05K7/14	H05K7/14		259
+H05K7/1487	10	{Blade assemblies, e.g. blade cases or inner arrangements within a blade}	H05K7/14	H05K7/14		1242
+H05K7/1488	10	{Cabinets therefor, e.g. chassis or racks or mechanical interfaces between blades and support structures}	H05K7/14	H05K7/14		1300
+H05K7/1489	11	{characterized by the mounting of blades therein, e.g. brackets, rails, trays (H05K7/1491 takes precedence)}	H05K7/14	H05K7/14		2126
+H05K7/1491	11	{having cable management arrangements (management of optical cables G02B6/444; in telecommunication cabinets H04Q1/06)}	H05K7/14	H05K7/14		849
+H05K7/1492	11	{having electrical distribution arrangements, e.g. power supply or data communications}	H05K7/14	H05K7/14		1230
+H05K7/1494	11	{having hardware for monitoring blades, e.g. keyboards, displays (methods or software therefore H05K7/1498)}	H05K7/14	H05K7/14		199
+H05K7/1495	11	{providing data protection in case of earthquakes, floods, storms, nuclear explosions, intrusions, fire}	H05K7/14	H05K7/14		227
+H05K7/1497	10	{Rooms for data centers; Shipping containers therefor}	H05K7/14	H05K7/14		626
+H05K7/1498	10	{Resource management, Optimisation arrangements, e.g. configuration, identification, tracking, physical location (thermal management H05K7/20836)}	H05K7/14	H05K7/14		469
+H05K7/16	9	on hinges or pivots	H05K7/16	H05K7/16		656
+H05K7/18	8	Construction of rack or frame	H05K7/18	H05K7/18		2579
+H05K7/183	9	{support rails therefor}	H05K7/18	H05K7/18		1138
+H05K7/186	9	{for supporting telecommunication equipment (selecting apparatus H04Q1/02)}	H05K7/18	H05K7/18		652
+H05K7/20	8	Modifications to facilitate cooling, ventilating, or heating	H05K7/20	H05K7/20		8726
+H05K7/20009	9	{using a gaseous coolant in electronic enclosures (in cabinets of standardized dimensions H05K7/20536; in server cabinets H05K7/20709; in vehicle electronic casings H05K7/20845; in power control electronics H05K7/2089; in displays H05K7/20954)}	H05K7/20	H05K7/20		1121
+H05K7/20127	10	{Natural convection}	H05K7/20	H05K7/20		1914
+H05K7/20136	10	{Forced ventilation, e.g. by fans (H05K7/202 takes precedence)}	H05K7/20	H05K7/20		10824
+H05K7/20145	11	{Means for directing air flow, e.g. ducts, deflectors, plenum or guides}	H05K7/20	H05K7/20		7694
+H05K7/20154	11	{Heat dissipaters coupled to components}	H05K7/20	H05K7/20		1242
+H05K7/20163	12	{the components being isolated from air flow, e.g. hollow heat sinks, wind tunnels or funnels}	H05K7/20	H05K7/20		432
+H05K7/20172	11	{Fan mounting or fan specifications}	H05K7/20	H05K7/20		6139
+H05K7/20181	11	{Filters; Louvers}	H05K7/20	H05K7/20		3536
+H05K7/2019	11	{Fan safe systems, e.g. mechanical devices for non stop cooling}	H05K7/20	H05K7/20		197
+H05K7/202	10	{Air circulating in closed loop within enclosure wherein heat is removed through heat-exchangers}	H05K7/20	H05K7/20		470
+H05K7/20209	10	{Thermal management, e.g. fan control}	H05K7/20	H05K7/20		4432
+H05K7/20218	9	{using a liquid coolant without phase change in electronic enclosures (in cabinets of standardized dimensions H05K7/20536; in server cabinets H05K7/20709; in vehicle electronic casings H05K7/20845; in power control electronics H05K7/2089; in displays H05K7/20954)}	H05K7/20	H05K7/20		2816
+H05K7/20236	10	{by immersion}	H05K7/20	H05K7/20		1026
+H05K7/20245	10	{by natural convection; Thermosiphons}	H05K7/20	H05K7/20		137
+H05K7/20254	10	{Cold plates transferring heat from heat source to coolant}	H05K7/20	H05K7/20		2077
+H05K7/20263	10	{Heat dissipaters releasing heat from coolant}	H05K7/20	H05K7/20		1373
+H05K7/20272	10	{Accessories for moving fluid, for expanding fluid, for connecting fluid conduits, for distributing fluid, for removing gas or for preventing leakage, e.g. pumps, tanks or manifolds}	H05K7/20	H05K7/20		6565
+H05K7/20281	10	{Thermal management, e.g. liquid flow control}	H05K7/20	H05K7/20		1825
+H05K7/2029	9	{using a liquid coolant with phase change in electronic enclosures (in cabinets of standardized dimensions H05K7/20536; in server cabinets H05K7/20709; in vehicle electronic casings H05K7/20845; in power control electronics H05K7/2089; in displays H05K7/20954)}	H05K7/20	H05K7/20		1303
+H05K7/203	10	{by immersion}	H05K7/20	H05K7/20		686
+H05K7/20309	10	{Evaporators}	H05K7/20	H05K7/20		1482
+H05K7/20318	10	{Condensers}	H05K7/20	H05K7/20		1707
+H05K7/20327	10	{Accessories for moving fluid, for connecting fluid conduits, for distributing fluid or for preventing leakage, e.g. pumps, tanks or manifolds}	H05K7/20	H05K7/20		2315
+H05K7/20336	10	{Heat pipes, e.g. wicks or capillary pumps}	H05K7/20	H05K7/20		3150
+H05K7/20345	10	{Sprayers; Atomizers}	H05K7/20	H05K7/20		329
+H05K7/20354	10	{Refrigerating circuit comprising a compressor}	H05K7/20	H05K7/20		422
+H05K7/20363	10	{Refrigerating circuit comprising a sorber}	H05K7/20	H05K7/20		45
+H05K7/20372	10	{Cryogenic cooling; Nitrogen liquid cooling}	H05K7/20	H05K7/20		188
+H05K7/20381	10	{Thermal management, e.g. evaporation control}	H05K7/20	H05K7/20		917
+H05K7/2039	9	{characterised by the heat transfer by conduction from the heat generating element to a dissipating body (arrangements for increasing/decreasing heat-transfer, e.g. fins details, F28F13/00)}	H05K7/20	H05K7/20		8892
+H05K7/20409	10	{Outer radiating structures on heat dissipating housings, e.g. fins integrated with the housing}	H05K7/20	H05K7/20		3167
+H05K7/20418	11	{the radiating structures being additional and fastened onto the housing}	H05K7/20	H05K7/20		1215
+H05K7/20427	11	{having radiation enhancing surface treatment, e.g. black coating}	H05K7/20	H05K7/20		88
+H05K7/20436	10	{Inner thermal coupling elements in heat dissipating housings, e.g. protrusions or depressions integrally formed in the housing}	H05K7/20	H05K7/20		991
+H05K7/20445	11	{the coupling element being an additional piece, e.g. thermal standoff}	H05K7/20	H05K7/20		895
+H05K7/20454	12	{with a conformable or flexible structure compensating for irregularities, e.g. cushion bags, thermal paste}	H05K7/20	H05K7/20		480
+H05K7/20463	12	{Filling compound, e.g. potted resin}	H05K7/20	H05K7/20		257
+H05K7/20472	12	{Sheet interfaces}	H05K7/20	H05K7/20		810
+H05K7/20481	13	{characterised by the material composition exhibiting specific thermal properties}	H05K7/20	H05K7/20		859
+H05K7/2049	11	{Pressing means used to urge contact, e.g. springs}	H05K7/20	H05K7/20		599
+H05K7/205	10	{Heat-dissipating body thermally connected to heat generating element via thermal paths through printed circuit board [PCB] (details of PCBs relating to heat transfer H05K1/0201)}	H05K7/20	H05K7/20		918
+H05K7/20509	10	{Multiple-component heat spreaders; Multi-component heat-conducting support plates; Multi-component non-closed heat-conducting structures}	H05K7/20	H05K7/20		2579
+H05K7/20518	10	{Unevenly distributed heat load, e.g. different sectors at different temperatures, localised cooling, hot spots}	H05K7/20	H05K7/20		272
+H05K7/20536	9	{for racks or cabinets of standardised dimensions, e.g. electronic racks for aircraft or telecommunication equipment}	H05K7/20	H05K7/20		127
+H05K7/20545	10	{Natural convection of gaseous coolant; Heat transfer by conduction from electronic boards}	H05K7/20	H05K7/20		425
+H05K7/20554	10	{Forced ventilation of a gaseous coolant (in closed loop H05K7/206 or H05K7/20609 or H05K7/20618)}	H05K7/20	H05K7/20		240
+H05K7/20563	11	{within sub-racks for removing heat from electronic boards}	H05K7/20	H05K7/20		351
+H05K7/20572	11	{within cabinets for removing heat from sub-racks, e.g. plenum}	H05K7/20	H05K7/20		595
+H05K7/20581	12	{Cabinets including a drawer for fans}	H05K7/20	H05K7/20		206
+H05K7/2059	11	{within rooms for removing heat from cabinets, e.g. by air conditioning device}	H05K7/20	H05K7/20		160
+H05K7/206	10	{Air circulating in closed loop within cabinets wherein heat is removed through air-to-air heat-exchanger}	H05K7/20	H05K7/20		426
+H05K7/20609	10	{Air circulating in closed loop within cabinets wherein heat is removed through air-to-liquid heat-exchanger}	H05K7/20	H05K7/20		205
+H05K7/20618	10	{Air circulating in different modes under control of air guidance flaps}	H05K7/20	H05K7/20		76
+H05K7/20627	10	{Liquid coolant without phase change}	H05K7/20	H05K7/20		99
+H05K7/20636	11	{within sub-racks for removing heat from electronic boards}	H05K7/20	H05K7/20		189
+H05K7/20645	11	{within cabinets for removing heat from sub-racks}	H05K7/20	H05K7/20		144
+H05K7/20654	11	{within rooms for removing heat from cabinets}	H05K7/20	H05K7/20		33
+H05K7/20663	10	{Liquid coolant with phase change, e.g. heat pipes}	H05K7/20	H05K7/20		79
+H05K7/20672	11	{within sub-racks for removing heat from electronic boards}	H05K7/20	H05K7/20		110
+H05K7/20681	11	{within cabinets for removing heat from sub-racks}	H05K7/20	H05K7/20		140
+H05K7/2069	11	{within rooms for removing heat from cabinets}	H05K7/20	H05K7/20		40
+H05K7/207	10	{Thermal management, e.g. cabinet temperature control}	H05K7/20	H05K7/20		319
+H05K7/20709	9	{for server racks or cabinets; for data centers, e.g. 19-inch computer racks}	H05K7/20	H05K7/20		1043
+H05K7/20718	10	{Forced ventilation of a gaseous coolant (in closed loop H05K7/20754)}	H05K7/20	H05K7/20		1298
+H05K7/20727	11	{within server blades for removing heat from heat source}	H05K7/20	H05K7/20		1268
+H05K7/20736	11	{within cabinets for removing heat from server blades}	H05K7/20	H05K7/20		1677
+H05K7/20745	11	{within rooms for removing heat from cabinets, e.g. by air conditioning device}	H05K7/20	H05K7/20		2284
+H05K7/20754	10	{Air circulating in closed loop within cabinets}	H05K7/20	H05K7/20		273
+H05K7/20763	10	{Liquid cooling without phase change}	H05K7/20	H05K7/20		1165
+H05K7/20772	11	{within server blades for removing heat from heat source}	H05K7/20	H05K7/20		1054
+H05K7/20781	11	{within cabinets for removing heat from server blades}	H05K7/20	H05K7/20		1344
+H05K7/2079	11	{within rooms for removing heat from cabinets}	H05K7/20	H05K7/20		645
+H05K7/208	10	{Liquid cooling with phase change}	H05K7/20	H05K7/20		727
+H05K7/20809	11	{within server blades for removing heat from heat source}	H05K7/20	H05K7/20		645
+H05K7/20818	11	{within cabinets for removing heat from server blades}	H05K7/20	H05K7/20		653
+H05K7/20827	11	{within rooms for removing heat from cabinets, e.g. air conditioning devices}	H05K7/20	H05K7/20		963
+H05K7/20836	10	{Thermal management, e.g. server temperature control}	H05K7/20	H05K7/20		3756
+H05K7/20845	9	{for automotive electronic casings (H05K7/2089 takes precedence)}	H05K7/20	H05K7/20		354
+H05K7/20854	10	{Heat transfer by conduction from internal heat source to heat radiating structure (H05K7/20863 takes precedence)}	H05K7/20	H05K7/20		1006
+H05K7/20863	10	{Forced ventilation, e.g. on heat dissipaters coupled to components}	H05K7/20	H05K7/20		572
+H05K7/20872	10	{Liquid coolant without phase change}	H05K7/20	H05K7/20		806
+H05K7/20881	10	{Liquid coolant with phase change}	H05K7/20	H05K7/20		205
+H05K7/2089	9	{for power electronics, e.g. for inverters for controlling motor}	H05K7/20	H05K7/20		1400
+H05K7/209	10	{Heat transfer by conduction from internal heat source to heat radiating structure (H05K7/20909 takes precedence)}	H05K7/20	H05K7/20		2863
+H05K7/20909	10	{Forced ventilation, e.g. on heat dissipaters coupled to components}	H05K7/20	H05K7/20		3456
+H05K7/20918	11	{the components being isolated from air flow, e.g. hollow heat sinks, wind tunnels or funnels}	H05K7/20	H05K7/20		734
+H05K7/20927	10	{Liquid coolant without phase change}	H05K7/20	H05K7/20		3968
+H05K7/20936	10	{Liquid coolant with phase change}	H05K7/20	H05K7/20		991
+H05K7/20945	10	{Thermal management, e.g. inverter temperature control}	H05K7/20	H05K7/20		1026
+H05K7/20954	9	{for display panels}	H05K7/20	H05K7/20		1118
+H05K7/20963	10	{Heat transfer by conduction from internal heat source to heat radiating structure (H05K7/20972 takes precedence)}	H05K7/20	H05K7/20		1582
+H05K7/20972	10	{Forced ventilation, e.g. on heat dissipaters coupled to components}	H05K7/20	H05K7/20		1414
+H05K7/20981	10	{Liquid coolant without phase change}	H05K7/20	H05K7/20		269
+H05K7/2099	10	{Liquid coolant with phase change}	H05K7/20	H05K7/20		216
+H05K9/00	7	Screening of apparatus or components against electric or magnetic fields (devices for absorbing radiation from an antenna H01Q17/00)	H05K9/00	H05K9/00		3444
+H05K9/0001	8	{Rooms or chambers (anechoic chambers G01R29/0821)}	H05K9/00	H05K9/00		510
+H05K9/0003	9	{Shielded walls, floors, ceilings, e.g. wallpaper, wall panel, electro-conductive plaster, concrete, cement, mortar}	H05K9/00	H05K9/00		414
+H05K9/0005	9	{Shielded windows}	H05K9/00	H05K9/00		140
+H05K9/0007	8	{Casings (standardised racks H05K9/0062)}	H05K9/00	H05K9/00		2018
+H05K9/0009	9	{with provisions to reduce EMI leakage through the joining parts}	H05K9/00	H05K9/00		362
+H05K9/0015	9	{Gaskets or seals}	H05K9/00	H05K9/00		1182
+H05K9/0016	10	{having a spring contact}	H05K9/00	H05K9/00		764
+H05K9/0018	9	{with provisions to reduce aperture leakages in walls, e.g. terminals, connectors, cables}	H05K9/00	H05K9/00		677
+H05K9/002	9	{with localised screening}	H05K9/00	H05K9/00		762
+H05K9/0022	10	{of components mounted on printed circuit boards [PCB] (shields integrated within component packages H01L23/552; shields integrated within PCB H05K1/0218)}	H05K9/00	H05K9/00		597
+H05K9/0024	11	{Shield cases mounted on a PCB, e.g. cans or caps or conformal shields}<br><br><u>WARNING</u><br>Group H05K9/0024 is impacted by reclassification into groups H05K9/0029 and H05K9/0031. <br>Groups H05K9/0024, H05K9/0029 and H05K9/0031 should be considered in order to perform a complete search.	H05K9/00	H05K9/00		895
+H05K9/0026	12	{integrally formed from metal sheet}	H05K9/00	H05K9/00		390
+H05K9/0028	13	{with retainers or specific soldering features}	H05K9/00	H05K9/00		253
+H05K9/0029	12	{made from non-conductive materials intermixed with electro-conductive particles (H05K9/0031 takes precedence)}<br><br><u>WARNING</u><br>Group H05K9/0029 is incomplete pending reclassification of documents from groups H05K9/0024 and H05K9/003. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05K9/00	H05K9/00		22
+H05K9/003	12	{made from non-conductive materials comprising an electro-conductive coating (H05K9/0031 takes precedence)}<br><br><u>WARNING</u><br>Group H05K9/003 is impacted by reclassification into groups H05K9/0029 and H05K9/0031. <br>Groups H05K9/003, H05K9/0029 and H05K9/0031 should be considered in order to perform a complete search.	H05K9/00	H05K9/00		160
+H05K9/0031	12	{combining different shielding materials}<br><br><u>WARNING</u><br>Group H05K9/0031 is incomplete pending reclassification of documents from groups H05K9/0024 and H05K9/003.<br>All groups listed in this Warning should be considered in order to perform a complete search.	H05K9/00	H05K9/00		70
+H05K9/0032	12	{having multiple parts, e.g. frames mating with lids}	H05K9/00	H05K9/00		670
+H05K9/0033	13	{disposed on both PCB faces}	H05K9/00	H05K9/00		98
+H05K9/0035	13	{with retainers mounted beforehand on the PCB, e.g. clips}	H05K9/00	H05K9/00		156
+H05K9/0037	11	{Housings with compartments containing a PCB, e.g. partitioning walls}	H05K9/00	H05K9/00		362
+H05K9/0039	10	{Galvanic coupling of ground layer on printed circuit board [PCB] to conductive casing (printed shielding conductors, ground planes or power planes for reduction of cross-talk or noise in printed circuits H05K1/0218)}	H05K9/00	H05K9/00		855
+H05K9/0041	9	{Ventilation panels having provisions for screening}	H05K9/00	H05K9/00		260
+H05K9/0043	9	{being flexible containers, e.g. pouch, pocket, bag}	H05K9/00	H05K9/00		202
+H05K9/0045	9	{being rigid plastic containers having a coating of shielding material}	H05K9/00	H05K9/00		263
+H05K9/0047	9	{being rigid plastic containers having conductive particles, fibres or mesh embedded therein}	H05K9/00	H05K9/00		131
+H05K9/0049	9	{being metallic containers}	H05K9/00	H05K9/00		522
+H05K9/005	9	{being nesting containers}	H05K9/00	H05K9/00		62
+H05K9/0052	9	{Shielding other than Faraday cages}	H05K9/00	H05K9/00		109
+H05K9/0054	9	{specially adapted for display applications}	H05K9/00	H05K9/00		587
+H05K9/0056	9	{specially adapted for microwave applications}	H05K9/00	H05K9/00		130
+H05K9/0058	9	{specially adapted for optoelectronic applications}	H05K9/00	H05K9/00		350
+H05K9/006	9	{specially adapted for signal processing applications, e.g. CATV, tuner, antennas amplifier}	H05K9/00	H05K9/00		539
+H05K9/0062	8	{Structures of standardised dimensions, e.g. 19" rack, chassis for servers or telecommunications}	H05K9/00	H05K9/00		338
+H05K9/0064	8	{Earth or grounding circuit}	H05K9/00	H05K9/00		899
+H05K9/0066	8	{Constructional details of transient suppressor}	H05K9/00	H05K9/00		405
+H05K9/0067	8	{Devices for protecting against damage from electrostatic discharge}	H05K9/00	H05K9/00		1121
+H05K9/0069	8	{Methods for measuring the shielding efficiency; Apparatus therefor; Isolation container for testing}	H05K9/00	H05K9/00		146
+H05K9/0071	8	{Active shielding}	H05K9/00	H05K9/00		312
+H05K9/0073	8	{Shielding materials (H05K9/0003 takes precedence)}	H05K9/00	H05K9/00		426
+H05K9/0075	9	{Magnetic shielding materials}	H05K9/00	H05K9/00		797
+H05K9/0077	10	{comprising superconductors}	H05K9/00	H05K9/00		67
+H05K9/0079	9	{Electrostatic discharge protection, e.g. ESD treated surface for rapid dissipation of charges}	H05K9/00	H05K9/00		277
+H05K9/0081	9	{Electromagnetic shielding materials, e.g. EMI, RFI shielding (H05K9/0003 takes precedence)}	H05K9/00	H05K9/00		4706
+H05K9/0083	10	{comprising electro-conductive non-fibrous particles embedded in an electrically insulating supporting structure, e.g. powder, flakes, whiskers (H05K9/0086 takes precedence)}	H05K9/00	H05K9/00		1189
+H05K9/0084	10	{comprising a single continuous metallic layer on an electrically insulating supporting structure, e.g. metal foil, film, plating coating, electro-deposition, vapour-deposition}	H05K9/00	H05K9/00		1385
+H05K9/0086	10	{comprising a single discontinuous metallic layer on an electrically insulating supporting structure, e.g. metal grid, perforated metal foil, film, aggregated flakes, sintering}	H05K9/00	H05K9/00		480
+H05K9/0088	10	{comprising a plurality of shielding layers; combining different shielding material structure}	H05K9/00	H05K9/00		1750
+H05K9/009	10	{comprising electro-conductive fibres, e.g. metal fibres, carbon fibres, metallised textile fibres, electro-conductive mesh, woven, non-woven mat, fleece, cross-linked}	H05K9/00	H05K9/00		1465
+H05K9/0092	10	{comprising electro-conductive pigments, e.g. paint, ink, tampon printing}	H05K9/00	H05K9/00		154
+H05K9/0094	9	{being light-transmitting, e.g. transparent, translucent}	H05K9/00	H05K9/00		197
+H05K9/0096	10	{for television displays, e.g. plasma display panel}	H05K9/00	H05K9/00		643
+H05K9/0098	9	{for shielding electrical cables}	H05K9/00	H05K9/00		734
+H05K10/00	7	Arrangements for improving the operating reliability of electronic equipment, e.g. by providing a similar standby unit	H05K10/00	H05K10/00		118
+H05K11/00	7	Combinations of a radio or television receiver with apparatus having a different main function {(combined with clocks G04B47/00; controlled by a clock G04C21/28)}	H05K11/00	H05K11/00		330
+H05K11/02	8	with vehicles	H05K11/02	H05K11/02		231
+H05K13/00	7	Apparatus or processes specially adapted for manufacturing or adjusting assemblages of electric components	H05K13/00	H05K13/00		1608
+H05K13/0007	8	{using handtools (for mounting on a circuit board H05K13/0447)}	H05K13/00	H05K13/00		205
+H05K13/0015	8	{Orientation; Alignment; Positioning}	H05K13/00	H05K13/00		1043
+H05K13/003	8	{Placing of components on belts holding the terminals}	H05K13/00	H05K13/00		289
+H05K13/0038	9	{placing the components in a predetermined order}	H05K13/00	H05K13/00		52
+H05K13/0053	8	{Arrangements for assisting the manual mounting of components, e.g. special tables or light spots indicating the place for mounting}	H05K13/00	H05K13/00		285
+H05K13/0061	8	{Tools for holding the circuit boards during processing; handling transport of printed circuit boards}	H05K13/00	H05K13/00		1921
+H05K13/0069	9	{Holders for printed circuit boards}	H05K13/00	H05K13/00		1112
+H05K13/0076	9	{Straightening or aligning terminal leads of pins mounted on boards, during transport of the boards}	H05K13/00	H05K13/00		56
+H05K13/0084	8	{Containers and magazines for components, e.g. tube-like magazines}	H05K13/00	H05K13/00		1111
+H05K13/0092	8	{Treatment of the terminal leads as a separate operation (during transport H05K13/0076, H05K13/023; during mounting H05K13/04)}	H05K13/00	H05K13/00		285
+H05K13/02	8	Feeding of components	H05K13/02	H05K13/02		2331
+H05K13/021	9	{Loading or unloading of containers (H05K13/028 takes precedence)}	H05K13/02	H05K13/02		1269
+H05K13/0215	9	{Interconnecting of containers, e.g. splicing of tapes}	H05K13/02	H05K13/02		143
+H05K13/022	9	{with orientation of the elements}	H05K13/02	H05K13/02		299
+H05K13/023	9	{with bending or straightening of the terminal leads}	H05K13/02	H05K13/02		325
+H05K13/024	10	{Straightening or aligning terminal leads}	H05K13/02	H05K13/02		44
+H05K13/025	11	{of components having oppositely extending terminal leads}	H05K13/02	H05K13/02		36
+H05K13/026	11	{of components having terminal leads in side by side relationship, e.g. using combing elements}	H05K13/02	H05K13/02		81
+H05K13/027	9	{Fluid transport of components}	H05K13/02	H05K13/02		59
+H05K13/028	9	{Simultaneously loading a plurality of loose objects, e.g. by means of vibrations, pressure differences, magnetic fields}	H05K13/02	H05K13/02		374
+H05K13/029	9	{Feeding axial lead components, e.g. using vibrating bowls, magnetic fields (H05K13/022 takes precedence)}	H05K13/02	H05K13/02		87
+H05K13/04	8	Mounting of components {, e.g. of leadless components}	H05K13/04	H05K13/04		2791
+H05K13/0404	9	{Pick-and-place heads or apparatus, e.g. with jaws}	H05K13/04	H05K13/04		819
+H05K13/0406	10	{Drive mechanisms for pick-and-place heads, e.g. details relating to power transmission, motors or vibration damping}	H05K13/04	H05K13/04		458
+H05K13/0408	10	{Incorporating a pick-up tool}	H05K13/04	H05K13/04		1089
+H05K13/0409	11	{Sucking devices}	H05K13/04	H05K13/04		1670
+H05K13/041	11	{having multiple pick-up tools}	H05K13/04	H05K13/04		582
+H05K13/0411	10	{having multiple mounting heads}	H05K13/04	H05K13/04		167
+H05K13/0413	10	{with orientation of the component while holding it; Drive mechanisms for gripping tools, e.g. lifting, lowering or turning of gripping tools}	H05K13/04	H05K13/04		1140
+H05K13/0417	9	{Feeding with belts or tapes}	H05K13/04	H05K13/04		1364
+H05K13/0419	10	{tape feeders}	H05K13/04	H05K13/04		956
+H05K13/0421	10	{with treatment of the terminal leads}	H05K13/04	H05K13/04		107
+H05K13/0426	10	{for components being oppositely extending terminal leads (H05K13/0421 takes precedence)}	H05K13/04	H05K13/04		55
+H05K13/043	9	{Feeding one by one by other means than belts}	H05K13/04	H05K13/04		369
+H05K13/0434	10	{with containers}	H05K13/04	H05K13/04		301
+H05K13/0439	10	{incorporating means for treating the terminal leads only before insertion}	H05K13/04	H05K13/04		90
+H05K13/0443	10	{incorporating means for treating the terminal leads before and after insertion or only after insertion}	H05K13/04	H05K13/04		51
+H05K13/0447	9	{Hand tools therefor}	H05K13/04	H05K13/04		184
+H05K13/0452	9	{Mounting machines or lines comprising a plurality of tools for guiding different components to the same mounting place (H05K13/0406, H05K13/041 take precedence)}	H05K13/04	H05K13/04		249
+H05K13/0456	9	{simultaneously punching the circuit board}	H05K13/04	H05K13/04		72
+H05K13/046	9	{Surface mounting (surface mounted components H05K3/341)}	H05K13/04	H05K13/04		1260
+H05K13/0465	10	{by soldering (H05K13/0469 takes precedence)}	H05K13/04	H05K13/04		1267
+H05K13/0469	10	{by applying a glue or viscous material}	H05K13/04	H05K13/04		606
+H05K13/0473	9	{Cutting and clinching the terminal ends of the leads after they are fitted on a circuit board}	H05K13/04	H05K13/04		329
+H05K13/0478	9	{Simultaneously mounting of different components}	H05K13/04	H05K13/04		164
+H05K13/0482	10	{using templates; using magazines, the configuration of which corresponds to the sites on the boards where the components have to be attached}	H05K13/04	H05K13/04		116
+H05K13/0486	9	{Replacement and removal of components}	H05K13/04	H05K13/04		560
+H05K13/0491	10	{Hand tools therefor}	H05K13/04	H05K13/04		211
+H05K13/0495	9	{having a plurality of work-stations}	H05K13/04	H05K13/04		175
+H05K13/06	8	Wiring by machine	H05K13/06	H05K13/06		454
+H05K13/065	9	{Accessories therefor, e.g. light spots}	H05K13/06	H05K13/06		57
+H05K13/08	8	Monitoring manufacture of assemblages	H05K13/08	H05K13/08		1534
+H05K13/081	9	{Integration of optical monitoring devices in assembly lines; Processes using optical monitoring devices specially adapted for controlling devices or machines in assembly lines}	H05K13/08	H05K13/08		524
+H05K13/0812	10	{the monitoring devices being integrated in the mounting machine, e.g. for monitoring components, leads, component placement}	H05K13/08	H05K13/08		1274
+H05K13/0813	10	{Controlling of single components prior to mounting, e.g. orientation, component geometry (H05K13/0812 takes precedence)}	H05K13/08	H05K13/08		452
+H05K13/0815	10	{Controlling of component placement on the substrate during or after manufacturing}	H05K13/08	H05K13/08		500
+H05K13/0817	10	{Monitoring of soldering processes (inspection of solder joints or of printed solder paste G01N21/95684)}	H05K13/08	H05K13/08		227
+H05K13/0818	10	{Setup of monitoring devices prior to starting mounting operations; Teaching of monitoring devices for specific products; Compensation of drifts during operation, e.g. due to temperature shifts}	H05K13/08	H05K13/08		85
+H05K13/082	9	{Integration of non-optical monitoring devices, i.e. using non-optical inspection means, e.g. electrical means, mechanical means or X-rays}	H05K13/08	H05K13/08		464
+H05K13/083	9	{Quality monitoring using results from monitoring devices, e.g. feedback loops (H05K13/084 takes precedence)}	H05K13/08	H05K13/08		341
+H05K13/084	9	{Product tracking, e.g. of substrates during the manufacturing process; Component traceability}	H05K13/08	H05K13/08		154
+H05K13/085	9	{Production planning, e.g. of allocation of products to machines, of mounting sequences at machine or facility level}	H05K13/08	H05K13/08		383
+H05K13/0853	10	{Determination of transport trajectories inside mounting machines}	H05K13/08	H05K13/08		84
+H05K13/0857	10	{Product-specific machine setup; Changeover of machines or assembly lines to new product type}	H05K13/08	H05K13/08		82
+H05K13/086	9	{Supply management, e.g. supply of components or of substrates}	H05K13/08	H05K13/08		470
+H05K13/087	9	{Equipment tracking or labelling, e.g. tracking of nozzles, feeders or mounting heads}	H05K13/08	H05K13/08		136
+H05K13/0882	9	{Control systems for mounting machines or assembly lines, e.g. centralized control, remote links, programming of apparatus and processes as such (H05K13/083 takes precedence)}	H05K13/08	H05K13/08		375
+H05K13/0885	9	{Power supply}	H05K13/08	H05K13/08		47
+H05K13/0888	9	{Ergonomics; Operator safety; Training; Failsafe systems}	H05K13/08	H05K13/08		51
+H05K13/089	9	{Calibration, teaching or correction of mechanical systems, e.g. of the mounting head}	H05K13/08	H05K13/08		247
+H05K13/0895	9	{Maintenance systems or processes, e.g. indicating need for maintenance}	H05K13/08	H05K13/08		120
+H05K2201/00	7	Indexing scheme relating to printed circuits covered by H05K1/00	CPCONLY	H05K2201/00		6
+H05K2201/01	8	Dielectrics	CPCONLY	H05K2201/01		13
+H05K2201/0104	9	Properties and characteristics in general	CPCONLY	H05K2201/0104		39
+H05K2201/0108	10	Transparent	CPCONLY	H05K2201/0108		1121
+H05K2201/0112	10	Absorbing light, e.g. dielectric layer with carbon filler for laser processing	CPCONLY	H05K2201/0112		256
+H05K2201/0116	10	Porous, e.g. foam	CPCONLY	H05K2201/0116		581
+H05K2201/012	10	Flame-retardant; Preventing of inflammation	CPCONLY	H05K2201/012		507
+H05K2201/0125	10	Shrinkable, e.g. heat-shrinkable polymer	CPCONLY	H05K2201/0125		58
+H05K2201/0129	10	Thermoplastic polymer, e.g. auto-adhesive layer; Shaping of thermoplastic polymer	CPCONLY	H05K2201/0129		1309
+H05K2201/0133	10	Elastomeric or compliant polymer	CPCONLY	H05K2201/0133		1185
+H05K2201/0137	9	Materials	CPCONLY	H05K2201/0137		105
+H05K2201/0141	10	Liquid crystal polymer [LCP]	CPCONLY	H05K2201/0141		680
+H05K2201/0145	10	Polyester, e.g. polyethylene terephthalate [PET], polyethylene naphthalate [PEN]	CPCONLY	H05K2201/0145		755
+H05K2201/015	10	Fluoropolymer, e.g. polytetrafluoroethylene [PTFE]	CPCONLY	H05K2201/015		744
+H05K2201/0154	10	Polyimide	CPCONLY	H05K2201/0154		2506
+H05K2201/0158	10	Polyalkene or polyolefin, e.g. polyethylene [PE], polypropylene [PP]	CPCONLY	H05K2201/0158		348
+H05K2201/0162	10	Silicon containing polymer, e.g. silicone	CPCONLY	H05K2201/0162		404
+H05K2201/0166	10	Polymeric layer used for special processing, e.g. resist for etching insulating material or photoresist used as a mask during plasma etching	CPCONLY	H05K2201/0166		261
+H05K2201/017	10	Glass ceramic coating, e.g. formed on inorganic substrate	CPCONLY	H05K2201/017		167
+H05K2201/0175	10	Inorganic, non-metallic layer, e.g. resist or dielectric for printed capacitor	CPCONLY	H05K2201/0175		435
+H05K2201/0179	10	Thin film deposited insulating layer, e.g. inorganic layer for printed capacitor	CPCONLY	H05K2201/0179		349
+H05K2201/0183	9	Dielectric layers	CPCONLY	H05K2201/0183		70
+H05K2201/0187	10	with regions of different dielectrics in the same layer, e.g. in a printed capacitor for locally changing the dielectric properties	CPCONLY	H05K2201/0187		849
+H05K2201/0191	10	wherein the thickness of the dielectric plays an important role	CPCONLY	H05K2201/0191		571
+H05K2201/0195	10	Dielectric or adhesive layers comprising a plurality of layers, e.g. in a multilayer structure	CPCONLY	H05K2201/0195		1331
+H05K2201/02	8	Fillers; Particles; Fibers; Reinforcement materials	CPCONLY	H05K2201/02		14
+H05K2201/0203	9	Fillers and particles	CPCONLY	H05K2201/0203		20
+H05K2201/0206	10	Materials	CPCONLY	H05K2201/0206		20
+H05K2201/0209	11	Inorganic, non-metallic particles	CPCONLY	H05K2201/0209		2510
+H05K2201/0212	11	Resin particles	CPCONLY	H05K2201/0212		442
+H05K2201/0215	11	Metallic fillers	CPCONLY	H05K2201/0215		400
+H05K2201/0218	11	Composite particles, i.e. first metal coated with second metal	CPCONLY	H05K2201/0218		191
+H05K2201/0221	11	Insulating particles having an electrically conductive coating	CPCONLY	H05K2201/0221		200
+H05K2201/0224	11	Conductive particles having an insulating coating	CPCONLY	H05K2201/0224		183
+H05K2201/0227	11	Insulating particles having an insulating coating	CPCONLY	H05K2201/0227		29
+H05K2201/023	11	Hard particles, i.e. particles in conductive adhesive at least partly penetrating an electrode	CPCONLY	H05K2201/023		64
+H05K2201/0233	11	Deformable particles	CPCONLY	H05K2201/0233		77
+H05K2201/0236	11	Plating catalyst as filler in insulating material	CPCONLY	H05K2201/0236		208
+H05K2201/0239	11	Coupling agent for particles	CPCONLY	H05K2201/0239		219
+H05K2201/0242	10	Shape of an individual particle	CPCONLY	H05K2201/0242		17
+H05K2201/0245	11	Flakes, flat particles or lamellar particles	CPCONLY	H05K2201/0245		254
+H05K2201/0248	11	Needles or elongated particles; Elongated cluster of chemically bonded particles	CPCONLY	H05K2201/0248		91
+H05K2201/0251	11	Non-conductive microfibers	CPCONLY	H05K2201/0251		118
+H05K2201/0254	11	Microballoons or hollow filler particles	CPCONLY	H05K2201/0254		93
+H05K2201/0257	11	Nanoparticles	CPCONLY	H05K2201/0257		370
+H05K2201/026	11	Nanotubes or nanowires	CPCONLY	H05K2201/026		451
+H05K2201/0263	10	Details about a collection of particles	CPCONLY	H05K2201/0263		14
+H05K2201/0266	11	Size distribution	CPCONLY	H05K2201/0266		198
+H05K2201/0269	11	Non-uniform distribution or concentration of particles	CPCONLY	H05K2201/0269		96
+H05K2201/0272	11	Mixed conductive particles, i.e. using different conductive particles, e.g. differing in shape	CPCONLY	H05K2201/0272		244
+H05K2201/0275	9	Fibers and reinforcement materials	CPCONLY	H05K2201/0275		54
+H05K2201/0278	10	Polymeric fibers	CPCONLY	H05K2201/0278		281
+H05K2201/0281	10	Conductive fibers	CPCONLY	H05K2201/0281		342
+H05K2201/0284	10	Paper, e.g. as reinforcement	CPCONLY	H05K2201/0284		183
+H05K2201/0287	10	Unidirectional or parallel fibers	CPCONLY	H05K2201/0287		48
+H05K2201/029	10	Woven fibrous reinforcement or textile	CPCONLY	H05K2201/029		647
+H05K2201/0293	10	Non-woven fibrous reinforcement	CPCONLY	H05K2201/0293		282
+H05K2201/0296	10	Fibers with a special cross-section, e.g. elliptical	CPCONLY	H05K2201/0296		11
+H05K2201/03	8	Conductive materials	CPCONLY	H05K2201/03		18
+H05K2201/0302	9	Properties and characteristics in general	CPCONLY	H05K2201/0302		37
+H05K2201/0305	10	Solder used for other purposes than connections between PCB or components, e.g. for filling vias or for programmable patterns	CPCONLY	H05K2201/0305		605
+H05K2201/0308	10	Shape memory alloy [SMA]	CPCONLY	H05K2201/0308		51
+H05K2201/0311	10	Metallic part with specific elastic properties, e.g. bent piece of metal as electrical contact	CPCONLY	H05K2201/0311		370
+H05K2201/0314	10	Elastomeric connector or conductor, e.g. rubber with metallic filler	CPCONLY	H05K2201/0314		345
+H05K2201/0317	10	Thin film conductor layer; Thin film passive component	CPCONLY	H05K2201/0317		554
+H05K2201/032	9	Materials	CPCONLY	H05K2201/032		120
+H05K2201/0323	10	Carbon	CPCONLY	H05K2201/0323		949
+H05K2201/0326	10	Inorganic, non-metallic conductor, e.g. indium-tin oxide [ITO]	CPCONLY	H05K2201/0326		353
+H05K2201/0329	10	Intrinsically conductive polymer [ICP]; Semiconductive polymer	CPCONLY	H05K2201/0329		356
+H05K2201/0332	9	Structure of the conductor	CPCONLY	H05K2201/0332		16
+H05K2201/0335	10	Layered conductors or foils	CPCONLY	H05K2201/0335		32
+H05K2201/0338	11	Layered conductor, e.g. layered metal substrate, layered finish layer or layered thin film adhesion layer	CPCONLY	H05K2201/0338		825
+H05K2201/0341	11	Intermediate metal, e.g. before reinforcing of conductors by plating	CPCONLY	H05K2201/0341		111
+H05K2201/0344	11	Electroless sublayer, e.g. Ni, Co, Cd or Ag; Transferred electroless sublayer	CPCONLY	H05K2201/0344		205
+H05K2201/0347	11	Overplating, e.g. for reinforcing conductors or bumps; Plating over filled vias	CPCONLY	H05K2201/0347		837
+H05K2201/035	11	Paste overlayer, i.e. conductive paste or solder paste over conductive layer	CPCONLY	H05K2201/035		309
+H05K2201/0352	11	Differences between the conductors of different layers of a multilayer	CPCONLY	H05K2201/0352		385
+H05K2201/0355	11	Metal foils	CPCONLY	H05K2201/0355		2692
+H05K2201/0358	11	Resin coated copper [RCC]	CPCONLY	H05K2201/0358		284
+H05K2201/0361	11	Etched tri-metal structure, i.e. metal layers or metal patterns on both sides of a different central metal layer which is later at least partly etched	CPCONLY	H05K2201/0361		98
+H05K2201/0364	10	Conductor shape	CPCONLY	H05K2201/0364		45
+H05K2201/0367	11	Metallic bump or raised conductor not used as solder bump	CPCONLY	H05K2201/0367		1194
+H05K2201/037	11	Hollow conductors, i.e. conductors partially or completely surrounding a void, e.g. hollow waveguides	CPCONLY	H05K2201/037		101
+H05K2201/0373	11	Conductors having a fine structure, e.g. providing a plurality of contact points with a structured tool	CPCONLY	H05K2201/0373		454
+H05K2201/0376	11	Flush conductors, i.e. flush with the surface of the printed circuit	CPCONLY	H05K2201/0376		528
+H05K2201/0379	11	Stacked conductors	CPCONLY	H05K2201/0379		261
+H05K2201/0382	11	Continuously deformed conductors	CPCONLY	H05K2201/0382		444
+H05K2201/0385	11	Displaced conductors	CPCONLY	H05K2201/0385		13
+H05K2201/0388	10	Other aspects of conductors	CPCONLY	H05K2201/0388		13
+H05K2201/0391	11	Using different types of conductors	CPCONLY	H05K2201/0391		278
+H05K2201/0394	11	Conductor crossing over a hole in the substrate or a gap between two separate substrate parts	CPCONLY	H05K2201/0394		1013
+H05K2201/0397	11	Tab	CPCONLY	H05K2201/0397		642
+H05K2201/04	8	Assemblies of printed circuits	CPCONLY	H05K2201/04		76
+H05K2201/041	9	Stacked PCBs, i.e. having neither an empty space nor mounted components in between	CPCONLY	H05K2201/041		528
+H05K2201/042	9	Stacked spaced PCBs; Planar parts of folded flexible circuits having mounted components in between or spaced from each other	CPCONLY	H05K2201/042		1387
+H05K2201/043	9	Stacked PCBs with their backs attached to each other without electrical connection	CPCONLY	H05K2201/043		84
+H05K2201/044	9	Details of backplane or midplane for mounting orthogonal PCBs	CPCONLY	H05K2201/044		470
+H05K2201/045	9	Hierarchy auxiliary PCB, i.e. more than two levels of hierarchy for daughter PCBs are important	CPCONLY	H05K2201/045		158
+H05K2201/046	9	Planar parts of folded PCBs making an angle relative to each other	CPCONLY	H05K2201/046		144
+H05K2201/047	9	Box-like arrangements of PCBs	CPCONLY	H05K2201/047		164
+H05K2201/048	9	Second PCB mounted on first PCB by inserting in window or holes of the first PCB	CPCONLY	H05K2201/048		381
+H05K2201/049	9	PCB for one component, e.g. for mounting onto mother PCB	CPCONLY	H05K2201/049		717
+H05K2201/05	8	Flexible printed circuits [FPCs]	CPCONLY	H05K2201/05		1257
+H05K2201/051	9	Rolled	CPCONLY	H05K2201/051		197
+H05K2201/052	9	Branched	CPCONLY	H05K2201/052		254
+H05K2201/053	9	Tails	CPCONLY	H05K2201/053		255
+H05K2201/055	9	Folded back on itself	CPCONLY	H05K2201/055		674
+H05K2201/056	9	Folded around rigid support or component	CPCONLY	H05K2201/056		750
+H05K2201/057	9	Shape retainable	CPCONLY	H05K2201/057		96
+H05K2201/058	9	Direct connection between two or more FPCs or between flexible parts of rigid PCBs	CPCONLY	H05K2201/058		261
+H05K2201/06	8	Thermal details	CPCONLY	H05K2201/06		246
+H05K2201/062	9	Means for thermal insulation, e.g. for protection of parts	CPCONLY	H05K2201/062		305
+H05K2201/064	9	Fluid cooling, e.g. by integral pipes	CPCONLY	H05K2201/064		503
+H05K2201/066	9	Heatsink mounted on the surface of the printed circuit board [PCB]	CPCONLY	H05K2201/066		1655
+H05K2201/068	9	wherein the coefficient of thermal expansion is important	CPCONLY	H05K2201/068		1216
+H05K2201/07	8	Electric details	CPCONLY	H05K2201/07		29
+H05K2201/0707	9	Shielding	CPCONLY	H05K2201/0707		133
+H05K2201/0715	10	provided by an outer layer of PCB	CPCONLY	H05K2201/0715		1325
+H05K2201/0723	10	provided by an inner layer of PCB	CPCONLY	H05K2201/0723		327
+H05K2201/073	9	High voltage adaptations	CPCONLY	H05K2201/073		7
+H05K2201/0738	10	Use of voltage responsive materials, e.g. voltage switchable dielectric or varistor materials	CPCONLY	H05K2201/0738		88
+H05K2201/0746	10	Protection against transients, e.g. layout adapted for plugging of connector	CPCONLY	H05K2201/0746		59
+H05K2201/0753	9	Insulation	CPCONLY	H05K2201/0753		30
+H05K2201/0761	10	Insulation resistance, e.g. of the surface of the PCB between the conductors	CPCONLY	H05K2201/0761		153
+H05K2201/0769	10	Anti metal-migration, e.g. avoiding tin whisker growth	CPCONLY	H05K2201/0769		192
+H05K2201/0776	9	Resistance and impedance	CPCONLY	H05K2201/0776		114
+H05K2201/0784	10	Uniform resistance, i.e. equalizing the resistance of a number of conductors	CPCONLY	H05K2201/0784		72
+H05K2201/0792	10	Means against parasitic impedance; Means against eddy currents	CPCONLY	H05K2201/0792		197
+H05K2201/08	8	Magnetic details	CPCONLY	H05K2201/08		51
+H05K2201/083	9	Magnetic materials	CPCONLY	H05K2201/083		307
+H05K2201/086	10	for inductive purposes, e.g. printed inductor with ferrite core	CPCONLY	H05K2201/086		862
+H05K2201/09	8	Shape and layout	CPCONLY	H05K2201/09		13
+H05K2201/09009	9	Substrate related	CPCONLY	H05K2201/09009		70
+H05K2201/09018	10	Rigid curved substrate	CPCONLY	H05K2201/09018		330
+H05K2201/09027	10	Non-rectangular flat PCB, e.g. circular	CPCONLY	H05K2201/09027		560
+H05K2201/09036	10	Recesses or grooves in insulating substrate	CPCONLY	H05K2201/09036		1892
+H05K2201/09045	10	Locally raised area or protrusion of insulating substrate	CPCONLY	H05K2201/09045		543
+H05K2201/09054	10	Raised area or protrusion of metal substrate	CPCONLY	H05K2201/09054		336
+H05K2201/09063	10	Holes or slots in insulating substrate not used for electrical connections	CPCONLY	H05K2201/09063		2687
+H05K2201/09072	10	Hole or recess under component or special relationship between hole and component	CPCONLY	H05K2201/09072		771
+H05K2201/09081	10	Tongue or tail integrated in planar structure, e.g. obtained by cutting from the planar structure	CPCONLY	H05K2201/09081		441
+H05K2201/0909	10	Preformed cutting or breaking line	CPCONLY	H05K2201/0909		660
+H05K2201/091	10	Locally and permanently deformed areas including dielectric material	CPCONLY	H05K2201/091		406
+H05K2201/09109	10	Locally detached layers, e.g. in multilayer	CPCONLY	H05K2201/09109		162
+H05K2201/09118	10	Moulded substrate	CPCONLY	H05K2201/09118		1222
+H05K2201/09127	10	PCB or component having an integral separable or breakable part	CPCONLY	H05K2201/09127		361
+H05K2201/09136	10	Means for correcting warpage	CPCONLY	H05K2201/09136		356
+H05K2201/09145	9	Edge details	CPCONLY	H05K2201/09145		556
+H05K2201/09154	10	Bevelled, chamferred or tapered edge	CPCONLY	H05K2201/09154		306
+H05K2201/09163	10	Slotted edge	CPCONLY	H05K2201/09163		242
+H05K2201/09172	10	Notches between edge pads	CPCONLY	H05K2201/09172		304
+H05K2201/09181	10	Notches in edge pads	CPCONLY	H05K2201/09181		627
+H05K2201/0919	10	Exposing inner circuit layers or metal planes at the side edge of the printed circuit board [PCB] or at the walls of large holes	CPCONLY	H05K2201/0919		429
+H05K2201/092	10	Exposing inner circuit layers or metal planes at the walls of high aspect ratio holes	CPCONLY	H05K2201/092		54
+H05K2201/09209	9	Shape and layout details of conductors	CPCONLY	H05K2201/09209		79
+H05K2201/09218	10	Conductive traces	CPCONLY	H05K2201/09218		117
+H05K2201/09227	11	Layout details of a plurality of traces, e.g. escape layout for Ball Grid Array [BGA] mounting	CPCONLY	H05K2201/09227		818
+H05K2201/09236	11	Parallel layout	CPCONLY	H05K2201/09236		1245
+H05K2201/09245	11	Crossing layout	CPCONLY	H05K2201/09245		235
+H05K2201/09254	11	Branched layout	CPCONLY	H05K2201/09254		305
+H05K2201/09263	11	Meander	CPCONLY	H05K2201/09263		837
+H05K2201/09272	11	Layout details of angles or corners	CPCONLY	H05K2201/09272		170
+H05K2201/09281	11	Layout details of a single conductor	CPCONLY	H05K2201/09281		157
+H05K2201/0929	10	Conductive planes	CPCONLY	H05K2201/0929		56
+H05K2201/093	11	Layout of power planes, ground planes or power supply conductors, e.g. having special clearance holes therein	CPCONLY	H05K2201/093		754
+H05K2201/09309	11	Core having two or more power planes; Capacitive laminate of two power planes	CPCONLY	H05K2201/09309		830
+H05K2201/09318	11	Core having one signal plane and one power plane	CPCONLY	H05K2201/09318		133
+H05K2201/09327	11	Special sequence of power, ground and signal layers in multilayer PCB	CPCONLY	H05K2201/09327		171
+H05K2201/09336	11	Signal conductors in same plane as power plane	CPCONLY	H05K2201/09336		279
+H05K2201/09345	11	Power and ground in the same plane; Power planes for two voltages in one plane	CPCONLY	H05K2201/09345		91
+H05K2201/09354	11	Ground conductor along edge of main surface	CPCONLY	H05K2201/09354		203
+H05K2201/09363	11	wherein only contours around conductors are removed for insulation	CPCONLY	H05K2201/09363		119
+H05K2201/09372	10	Pads and lands	CPCONLY	H05K2201/09372		216
+H05K2201/09381	11	Shape of non-curved single flat metallic pad, land or exposed part thereof; Shape of electrode of leadless component	CPCONLY	H05K2201/09381		691
+H05K2201/0939	11	Curved pads, e.g. semi-circular or elliptical pads or lands	CPCONLY	H05K2201/0939		172
+H05K2201/094	11	Array of pads or lands differing from one another, e.g. in size, pitch or thickness; Using different connections on the pads	CPCONLY	H05K2201/094		724
+H05K2201/09409	11	Multiple rows of pads, lands, terminals or dummy patterns; Multiple rows of mounted components	CPCONLY	H05K2201/09409		549
+H05K2201/09418	11	Special orientation of pads, lands or terminals of component, e.g. radial or polygonal orientation	CPCONLY	H05K2201/09418		348
+H05K2201/09427	11	Special relation between the location or dimension of a pad or land and the location or dimension of a terminal	CPCONLY	H05K2201/09427		307
+H05K2201/09436	11	Pads or lands on permanent coating which covers the other conductors	CPCONLY	H05K2201/09436		211
+H05K2201/09445	11	Pads for connections not located at the edge of the PCB, e.g. for flexible circuits	CPCONLY	H05K2201/09445		225
+H05K2201/09454	11	Inner lands, i.e. lands around via or plated through-hole in internal layer of multilayer PCB	CPCONLY	H05K2201/09454		169
+H05K2201/09463	11	Partial lands, i.e. lands or conductive rings not completely surrounding the hole	CPCONLY	H05K2201/09463		62
+H05K2201/09472	11	Recessed pad for surface mounting; Recessed electrode of component	CPCONLY	H05K2201/09472		664
+H05K2201/09481	11	Via in pad; Pad over filled via	CPCONLY	H05K2201/09481		619
+H05K2201/0949	11	Pad close to a hole, not surrounding the hole	CPCONLY	H05K2201/0949		214
+H05K2201/095	10	Conductive through-holes or vias	CPCONLY	H05K2201/095		208
+H05K2201/09509	11	Blind vias, i.e. vias having one side closed	CPCONLY	H05K2201/09509		1288
+H05K2201/09518	12	Deep blind vias, i.e. blind vias connecting the surface circuit to circuit layers deeper than the first buried circuit layer	CPCONLY	H05K2201/09518		211
+H05K2201/09527	12	Inverse blind vias, i.e. bottoms outwards in multilayer PCB; Blind vias in centre of PCB having opposed bottoms	CPCONLY	H05K2201/09527		110
+H05K2201/09536	11	Buried plated through-holes, i.e. plated through-holes formed in a core before lamination	CPCONLY	H05K2201/09536		745
+H05K2201/09545	11	Plated through-holes or blind vias without lands	CPCONLY	H05K2201/09545		207
+H05K2201/09554	11	Via connected to metal substrate	CPCONLY	H05K2201/09554		231
+H05K2201/09563	11	Metal filled via	CPCONLY	H05K2201/09563		1281
+H05K2201/09572	11	Solder filled plated through-hole in the final product	CPCONLY	H05K2201/09572		241
+H05K2201/09581	11	Applying an insulating coating on the walls of holes	CPCONLY	H05K2201/09581		235
+H05K2201/0959	11	Plated through-holes or plated blind vias filled with insulating material	CPCONLY	H05K2201/0959		957
+H05K2201/096	11	Vertically aligned vias, holes or stacked vias	CPCONLY	H05K2201/096		1441
+H05K2201/09609	11	Via grid, i.e. two-dimensional array of vias or holes in a single plane	CPCONLY	H05K2201/09609		552
+H05K2201/09618	11	Via fence, i.e. one-dimensional array of vias	CPCONLY	H05K2201/09618		654
+H05K2201/09627	11	Special connections between adjacent vias, not for grounding vias	CPCONLY	H05K2201/09627		375
+H05K2201/09636	11	Details of adjacent, not connected vias	CPCONLY	H05K2201/09636		180
+H05K2201/09645	11	Patterning on via walls; Plural lands around one hole	CPCONLY	H05K2201/09645		386
+H05K2201/09654	10	covering at least two types of conductors provided for in H05K2201/09218 - H05K2201/095	CPCONLY	H05K2201/09654		14
+H05K2201/09663	11	Divided layout, i.e. conductors divided in two or more parts	CPCONLY	H05K2201/09663		654
+H05K2201/09672	11	Superposed layout, i.e. in different planes	CPCONLY	H05K2201/09672		817
+H05K2201/09681	11	Mesh conductors, e.g. as a ground plane	CPCONLY	H05K2201/09681		576
+H05K2201/0969	11	Apertured conductors	CPCONLY	H05K2201/0969		849
+H05K2201/097	11	Alternating conductors, e.g. alternating different shaped pads, twisted pairs; Alternating components	CPCONLY	H05K2201/097		318
+H05K2201/09709	11	Staggered pads, lands or terminals; Parallel conductors in different planes	CPCONLY	H05K2201/09709		484
+H05K2201/09718	11	Clearance holes	CPCONLY	H05K2201/09718		297
+H05K2201/09727	11	Varying width along a single conductor; Conductors or pads having different widths	CPCONLY	H05K2201/09727		846
+H05K2201/09736	11	Varying thickness of a single conductor; Conductors in the same plane having different thicknesses	CPCONLY	H05K2201/09736		546
+H05K2201/09745	11	Recess in conductor, e.g. in pad or in metallic substrate	CPCONLY	H05K2201/09745		609
+H05K2201/09754	11	Connector integrally incorporated in the printed circuit board [PCB] or in housing	CPCONLY	H05K2201/09754		197
+H05K2201/09763	11	Printed component having superposed conductors, but integrated in one circuit layer	CPCONLY	H05K2201/09763		211
+H05K2201/09772	11	Conductors directly under a component but not electrically connected to the component	CPCONLY	H05K2201/09772		169
+H05K2201/09781	11	Dummy conductors, i.e. not used for normal transport of current; Dummy electrodes of components	CPCONLY	H05K2201/09781		2043
+H05K2201/0979	11	Redundant conductors or connections, i.e. more than one current path between two points	CPCONLY	H05K2201/0979		586
+H05K2201/098	11	Special shape of the cross-section of conductors, e.g. very thick plated conductors	CPCONLY	H05K2201/098		361
+H05K2201/09809	11	Coaxial layout	CPCONLY	H05K2201/09809		608
+H05K2201/09818	9	Shape or layout details not covered by a single group of H05K2201/09009 - H05K2201/09809	CPCONLY	H05K2201/09818		40
+H05K2201/09827	10	Tapered, e.g. tapered hole, via or groove	CPCONLY	H05K2201/09827		868
+H05K2201/09836	10	Oblique hole, via or bump	CPCONLY	H05K2201/09836		112
+H05K2201/09845	10	Stepped hole, via, edge, bump or conductor	CPCONLY	H05K2201/09845		985
+H05K2201/09854	10	Hole or via having special cross-section, e.g. elliptical	CPCONLY	H05K2201/09854		495
+H05K2201/09863	10	Concave hole or via	CPCONLY	H05K2201/09863		72
+H05K2201/09872	10	Insulating conformal coating	CPCONLY	H05K2201/09872		276
+H05K2201/09881	10	Coating only between conductors, i.e. flush with the conductors	CPCONLY	H05K2201/09881		356
+H05K2201/0989	10	Coating free areas, e.g. areas other than pads or lands free of solder resist	CPCONLY	H05K2201/0989		522
+H05K2201/099	10	Coating over pads, e.g. solder resist partly over pads	CPCONLY	H05K2201/099		534
+H05K2201/09909	10	Special local insulating pattern, e.g. as dam around component	CPCONLY	H05K2201/09909		698
+H05K2201/09918	10	Optically detected marks used for aligning tool relative to the PCB, e.g. for mounting of components	CPCONLY	H05K2201/09918		671
+H05K2201/09927	10	Machine readable code, e.g. bar code	CPCONLY	H05K2201/09927		158
+H05K2201/09936	10	Marks, inscriptions, etc. for information	CPCONLY	H05K2201/09936		432
+H05K2201/09945	10	Universal aspects, e.g. universal inner layers or via grid, or anisotropic interposer	CPCONLY	H05K2201/09945		181
+H05K2201/09954	10	More mounting possibilities, e.g. on same place of PCB, or by using different sets of edge pads	CPCONLY	H05K2201/09954		405
+H05K2201/09963	10	Programming circuit by using small elements, e.g. small PCBs	CPCONLY	H05K2201/09963		63
+H05K2201/09972	10	Partitioned, e.g. portions of a PCB dedicated to different functions; Boundary lines therefore; Portions of a PCB being processed separately or differently	CPCONLY	H05K2201/09972		604
+H05K2201/09981	10	Metallised walls	CPCONLY	H05K2201/09981		414
+H05K2201/09985	10	Hollow waveguide combined with printed circuit	CPCONLY	H05K2201/09985		25
+H05K2201/0999	10	Circuit printed on or in housing, e.g. housing as PCB; Circuit printed on the case of a component; PCB affixed to housing	CPCONLY	H05K2201/0999		579
+H05K2201/10	8	Details of components or other objects attached to or integrated in a printed circuit board	CPCONLY	H05K2201/10		67
+H05K2201/10007	9	Types of components	CPCONLY	H05K2201/10007		76
+H05K2201/10015	10	Non-printed capacitor	CPCONLY	H05K2201/10015		2095
+H05K2201/10022	10	Non-printed resistor	CPCONLY	H05K2201/10022		878
+H05K2201/1003	10	Non-printed inductor	CPCONLY	H05K2201/1003		1320
+H05K2201/10037	10	Printed or non-printed battery	CPCONLY	H05K2201/10037		734
+H05K2201/10045	10	Mounted network component having plural terminals	CPCONLY	H05K2201/10045		97
+H05K2201/10053	10	Switch	CPCONLY	H05K2201/10053		985
+H05K2201/1006	10	Non-printed filter	CPCONLY	H05K2201/1006		375
+H05K2201/10068	10	Non-printed resonator	CPCONLY	H05K2201/10068		102
+H05K2201/10075	10	Non-printed oscillator	CPCONLY	H05K2201/10075		120
+H05K2201/10083	10	Electromechanical or electro-acoustic component, e.g. microphone	CPCONLY	H05K2201/10083		558
+H05K2201/1009	10	Electromotor	CPCONLY	H05K2201/1009		146
+H05K2201/10098	10	Components for radio transmission, e.g. radio frequency identification [RFID] tag, printed or non-printed antennas	CPCONLY	H05K2201/10098		1637
+H05K2201/10106	10	Light emitting diode [LED]	CPCONLY	H05K2201/10106		5163
+H05K2201/10113	10	Lamp	CPCONLY	H05K2201/10113		235
+H05K2201/10121	10	Optical component, e.g. opto-electronic component	CPCONLY	H05K2201/10121		1640
+H05K2201/10128	10	Display	CPCONLY	H05K2201/10128		2102
+H05K2201/10136	11	Liquid Crystal display [LCD]	CPCONLY	H05K2201/10136		677
+H05K2201/10143	10	Solar cell	CPCONLY	H05K2201/10143		75
+H05K2201/10151	10	Sensor	CPCONLY	H05K2201/10151		2850
+H05K2201/10159	10	Memory	CPCONLY	H05K2201/10159		1179
+H05K2201/10166	10	Transistor	CPCONLY	H05K2201/10166		1682
+H05K2201/10174	10	Diode	CPCONLY	H05K2201/10174		317
+H05K2201/10181	10	Fuse	CPCONLY	H05K2201/10181		422
+H05K2201/10189	10	Non-printed connector	CPCONLY	H05K2201/10189		3528
+H05K2201/10196	10	Variable component, e.g. variable resistor	CPCONLY	H05K2201/10196		227
+H05K2201/10204	10	Dummy component, dummy PCB or template, e.g. for monitoring, controlling of processes, comparing, scanning	CPCONLY	H05K2201/10204		250
+H05K2201/10212	10	Programmable component	CPCONLY	H05K2201/10212		221
+H05K2201/10219	10	Thermoelectric component	CPCONLY	H05K2201/10219		145
+H05K2201/10227	9	Other objects, e.g. metallic pieces	CPCONLY	H05K2201/10227		114
+H05K2201/10234	10	Metallic balls	CPCONLY	H05K2201/10234		335
+H05K2201/10242	10	Metallic cylinders	CPCONLY	H05K2201/10242		251
+H05K2201/1025	10	Metallic discs	CPCONLY	H05K2201/1025		49
+H05K2201/10257	10	Hollow pieces of metal, e.g. used in connection between component and PCB	CPCONLY	H05K2201/10257		72
+H05K2201/10265	10	Metallic coils or springs, e.g. as part of a connection element	CPCONLY	H05K2201/10265		417
+H05K2201/10272	10	Busbars, i.e. thick metal bars mounted on the printed circuit board [PCB] as high-current conductors	CPCONLY	H05K2201/10272		759
+H05K2201/1028	10	Thin metal strips as connectors or conductors	CPCONLY	H05K2201/1028		466
+H05K2201/10287	10	Metal wires as connectors or conductors	CPCONLY	H05K2201/10287		1351
+H05K2201/10295	10	Metallic connector elements partly mounted in a hole of the PCB	CPCONLY	H05K2201/10295		528
+H05K2201/10303	11	Pin-in-hole mounted pins	CPCONLY	H05K2201/10303		1064
+H05K2201/1031	10	Surface mounted metallic connector elements	CPCONLY	H05K2201/1031		488
+H05K2201/10318	11	Surface mounted metallic pins	CPCONLY	H05K2201/10318		441
+H05K2201/10325	10	Sockets, i.e. female type connectors comprising metallic connector elements integrated in, or bonded to a common dielectric support	CPCONLY	H05K2201/10325		713
+H05K2201/10333	10	Individual female type metallic connector elements	CPCONLY	H05K2201/10333		232
+H05K2201/1034	10	Edge terminals, i.e. separate pieces of metal attached to the edge of the printed circuit board [PCB]	CPCONLY	H05K2201/1034		516
+H05K2201/10348	10	Fuzz&apos;s as connector elements, i.e. small pieces of metallic fiber to make connection	CPCONLY	H05K2201/10348		13
+H05K2201/10356	10	Cables	CPCONLY	H05K2201/10356		760
+H05K2201/10363	10	Jumpers, i.e. non-printed cross-over connections	CPCONLY	H05K2201/10363		319
+H05K2201/10371	10	Shields or metal cases	CPCONLY	H05K2201/10371		1033
+H05K2201/10378	10	Interposers	CPCONLY	H05K2201/10378		1728
+H05K2201/10386	10	Clip leads; Terminals gripping the edge of a substrate	CPCONLY	H05K2201/10386		348
+H05K2201/10393	10	Clamping a component by an element or a set of elements	CPCONLY	H05K2201/10393		453
+H05K2201/10401	10	Eyelets, i.e. rings inserted into a hole through a circuit board	CPCONLY	H05K2201/10401		260
+H05K2201/10409	10	Screws	CPCONLY	H05K2201/10409		1243
+H05K2201/10416	10	Metallic blocks or heatsinks completely inserted in a PCB	CPCONLY	H05K2201/10416		862
+H05K2201/10424	10	Frame holders	CPCONLY	H05K2201/10424		718
+H05K2201/10431	9	Details of mounted components	CPCONLY	H05K2201/10431		44
+H05K2201/10439	10	Position of a single component	CPCONLY	H05K2201/10439		20
+H05K2201/10446	11	Mounted on an edge	CPCONLY	H05K2201/10446		703
+H05K2201/10454	11	Vertically mounted	CPCONLY	H05K2201/10454		231
+H05K2201/10462	11	Flat component oriented parallel to the PCB surface	CPCONLY	H05K2201/10462		123
+H05K2201/10469	11	Asymmetrically mounted component	CPCONLY	H05K2201/10469		37
+H05K2201/10477	11	Inverted	CPCONLY	H05K2201/10477		330
+H05K2201/10484	11	Obliquely mounted	CPCONLY	H05K2201/10484		137
+H05K2201/10492	11	Electrically connected to another device	CPCONLY	H05K2201/10492		67
+H05K2201/105	11	Mechanically attached to another device	CPCONLY	H05K2201/105		69
+H05K2201/10507	10	Involving several components	CPCONLY	H05K2201/10507		37
+H05K2201/10515	11	Stacked components	CPCONLY	H05K2201/10515		962
+H05K2201/10522	11	Adjacent components	CPCONLY	H05K2201/10522		865
+H05K2201/1053	11	Mounted components directly electrically connected to each other, i.e. not via the PCB	CPCONLY	H05K2201/1053		542
+H05K2201/10537	11	Attached components	CPCONLY	H05K2201/10537		127
+H05K2201/10545	11	Related components mounted on both sides of the PCB	CPCONLY	H05K2201/10545		721
+H05K2201/10553	10	Component over metal, i.e. metal plate in between bottom of component and surface of PCB	CPCONLY	H05K2201/10553		133
+H05K2201/1056	10	Metal over component, i.e. metal plate over component mounted on or embedded in PCB	CPCONLY	H05K2201/1056		203
+H05K2201/10568	10	Integral adaptations of a component or an auxiliary PCB for mounting, e.g. integral spacer element	CPCONLY	H05K2201/10568		533
+H05K2201/10575	10	Insulating foil under component	CPCONLY	H05K2201/10575		66
+H05K2201/10583	10	Cylindrically shaped component; Fixing means therefore	CPCONLY	H05K2201/10583		176
+H05K2201/1059	10	Connections made by press-fit insertion	CPCONLY	H05K2201/1059		1029
+H05K2201/10598	10	Means for fastening a component, a casing or a heat sink whereby a pressure is exerted on the component towards the PCB	CPCONLY	H05K2201/10598		739
+H05K2201/10606	10	Permanent holder for component or auxiliary printed circuits mounted on a printed circuit board [PCB]	CPCONLY	H05K2201/10606		399
+H05K2201/10613	9	Details of electrical connections of non-printed components, e.g. special leads	CPCONLY	H05K2201/10613		21
+H05K2201/10621	10	Components characterised by their electrical contacts	CPCONLY	H05K2201/10621		45
+H05K2201/10628	11	Leaded surface mounted device	CPCONLY	H05K2201/10628		186
+H05K2201/10636	11	Leadless chip, e.g. chip capacitor or resistor	CPCONLY	H05K2201/10636		1892
+H05K2201/10643	11	Disc shaped leadless component	CPCONLY	H05K2201/10643		117
+H05K2201/10651	11	Component having two leads, e.g. resistor, capacitor	CPCONLY	H05K2201/10651		619
+H05K2201/10659	11	Different types of terminals for the same component, e.g. solder balls combined with leads	CPCONLY	H05K2201/10659		181
+H05K2201/10666	11	Plated through-hole for surface mounting on PCB	CPCONLY	H05K2201/10666		238
+H05K2201/10674	11	Flip chip	CPCONLY	H05K2201/10674		2189
+H05K2201/10681	11	Tape Carrier Package [TCP]; Flexible sheet connector	CPCONLY	H05K2201/10681		703
+H05K2201/10689	11	Leaded Integrated Circuit [IC] package, e.g. dual-in-line [DIL]	CPCONLY	H05K2201/10689		1885
+H05K2201/10696	11	Single-in-line [SIL] package	CPCONLY	H05K2201/10696		57
+H05K2201/10704	11	Pin grid array [PGA]	CPCONLY	H05K2201/10704		300
+H05K2201/10712	11	Via grid array, e.g. via grid array capacitor	CPCONLY	H05K2201/10712		48
+H05K2201/10719	11	Land grid array [LGA]	CPCONLY	H05K2201/10719		372
+H05K2201/10727	11	Leadless chip carrier [LCC], e.g. chip-modules for cards	CPCONLY	H05K2201/10727		595
+H05K2201/10734	11	Ball grid array [BGA]; Bump grid array	CPCONLY	H05K2201/10734		2450
+H05K2201/10742	10	Details of leads	CPCONLY	H05K2201/10742		16
+H05K2201/1075	11	Shape details	CPCONLY	H05K2201/1075		11
+H05K2201/10757	12	Bent leads	CPCONLY	H05K2201/10757		425
+H05K2201/10765	13	Leads folded back, i.e. bent with an angle of 180 deg	CPCONLY	H05K2201/10765		85
+H05K2201/10772	13	Leads of a surface mounted component bent for providing a gap between the lead and the pad during soldering	CPCONLY	H05K2201/10772		71
+H05K2201/1078	12	Leads having locally deformed portion, e.g. for retention	CPCONLY	H05K2201/1078		85
+H05K2201/10787	12	Leads having protrusions, e.g. for retention or insert stop	CPCONLY	H05K2201/10787		96
+H05K2201/10795	12	Details of lead tips, e.g. pointed	CPCONLY	H05K2201/10795		50
+H05K2201/10803	12	Tapered leads, i.e. leads having changing width or diameter	CPCONLY	H05K2201/10803		41
+H05K2201/1081	12	Special cross-section of a lead; Different cross-sections of different leads; Matching cross-section, e.g. matched to a land	CPCONLY	H05K2201/1081		92
+H05K2201/10818	12	Flat leads	CPCONLY	H05K2201/10818		134
+H05K2201/10825	13	Distorted or twisted flat leads, i.e. deformed by torque	CPCONLY	H05K2201/10825		28
+H05K2201/10833	13	having a curved or folded cross-section	CPCONLY	H05K2201/10833		31
+H05K2201/1084	12	Notched leads	CPCONLY	H05K2201/1084		155
+H05K2201/10848	12	Thinned leads	CPCONLY	H05K2201/10848		56
+H05K2201/10856	12	Divided leads, e.g. by slot in length direction of lead, or by branching of the lead	CPCONLY	H05K2201/10856		140
+H05K2201/10863	12	Adaptations of leads or holes for facilitating insertion	CPCONLY	H05K2201/10863		80
+H05K2201/10871	12	Leads having an integral insert stop	CPCONLY	H05K2201/10871		204
+H05K2201/10878	12	Means for retention of a lead in a hole	CPCONLY	H05K2201/10878		267
+H05K2201/10886	11	Other details	CPCONLY	H05K2201/10886		10
+H05K2201/10893	12	Grouped leads, i.e. element comprising multiple leads distributed around but not through a common insulator	CPCONLY	H05K2201/10893		35
+H05K2201/10901	12	Lead partly inserted in hole or via	CPCONLY	H05K2201/10901		56
+H05K2201/10909	12	Materials of terminal, e.g. of leads or electrodes of components	CPCONLY	H05K2201/10909		215
+H05K2201/10916	12	Terminals having auxiliary metallic piece, e.g. for soldering	CPCONLY	H05K2201/10916		158
+H05K2201/10924	12	Leads formed from a punched metal foil	CPCONLY	H05K2201/10924		252
+H05K2201/10931	12	Exposed leads, i.e. encapsulation of component partly removed for exposing a part of lead, e.g. for soldering purposes	CPCONLY	H05K2201/10931		47
+H05K2201/10939	12	Lead of component used as a connector	CPCONLY	H05K2201/10939		54
+H05K2201/10946	12	Leads attached onto leadless component after manufacturing the component	CPCONLY	H05K2201/10946		293
+H05K2201/10954	10	Other details of electrical connections	CPCONLY	H05K2201/10954		24
+H05K2201/10962	11	Component not directly connected to the PCB	CPCONLY	H05K2201/10962		463
+H05K2201/10969	11	Metallic case or integral heatsink of component electrically connected to a pad on PCB	CPCONLY	H05K2201/10969		577
+H05K2201/10977	11	Encapsulated connections	CPCONLY	H05K2201/10977		1239
+H05K2201/10984	11	Component carrying a connection agent, e.g. solder, adhesive	CPCONLY	H05K2201/10984		545
+H05K2201/10992	11	Using different connection materials, e.g. different solders, for the same connection	CPCONLY	H05K2201/10992		317
+H05K2201/20	8	Details of printed circuits not provided for in H05K2201/01 - H05K2201/10	CPCONLY	H05K2201/20		27
+H05K2201/2009	9	Reinforced areas, e.g. for a specific part of a flexible printed circuit	CPCONLY	H05K2201/2009		1381
+H05K2201/2018	9	Presence of a frame in a printed circuit or printed circuit assembly	CPCONLY	H05K2201/2018		664
+H05K2201/2027	9	Guiding means, e.g. for guiding flexible circuits	CPCONLY	H05K2201/2027		160
+H05K2201/2036	9	Permanent spacer or stand-off in a printed circuit or printed circuit assembly	CPCONLY	H05K2201/2036		1205
+H05K2201/2045	9	Protection against vibrations	CPCONLY	H05K2201/2045		401
+H05K2201/2054	9	Light-reflecting surface, e.g. conductors, substrates, coatings, dielectrics	CPCONLY	H05K2201/2054		502
+H05K2201/2063	9	mixed adhesion layer containing metallic/inorganic and polymeric materials	CPCONLY	H05K2201/2063		38
+H05K2201/2072	9	Anchoring, i.e. one structure gripping into another	CPCONLY	H05K2201/2072		371
+H05K2201/2081	9	Compound repelling a metal, e.g. solder	CPCONLY	H05K2201/2081		242
+H05K2201/209	9	Auto-mechanical connection between a component and a PCB or between two PCBs	CPCONLY	H05K2201/209		175
+H05K2203/00	7	Indexing scheme relating to apparatus or processes for manufacturing printed circuits covered by H05K3/00	CPCONLY	H05K2203/00		1
+H05K2203/01	8	Tools for processing; Objects used during processing	CPCONLY	H05K2203/01		23
+H05K2203/0104	9	for patterning or coating	CPCONLY	H05K2203/0104		61
+H05K2203/0108	10	Male die used for patterning, punching or transferring	CPCONLY	H05K2203/0108		583
+H05K2203/0113	10	Female die used for patterning or transferring, e.g. temporary substrate having recessed pattern	CPCONLY	H05K2203/0113		527
+H05K2203/0117	10	Pattern shaped electrode used for patterning, e.g. plating or etching	CPCONLY	H05K2203/0117		87
+H05K2203/0121	10	Patterning, e.g. plating or etching by moving electrode	CPCONLY	H05K2203/0121		53
+H05K2203/0126	10	Dispenser, e.g. for solder paste, for supplying conductive paste for screen printing or for filling holes	CPCONLY	H05K2203/0126		764
+H05K2203/013	10	Inkjet printing, e.g. for printing insulating material or resist	CPCONLY	H05K2203/013		964
+H05K2203/0134	10	Drum, e.g. rotary drum or dispenser with a plurality of openings	CPCONLY	H05K2203/0134		46
+H05K2203/0139	10	Blade or squeegee, e.g. for screen printing or filling of holes	CPCONLY	H05K2203/0139		454
+H05K2203/0143	10	Using a roller; Specific shape thereof; Providing locally adhesive portions thereon	CPCONLY	H05K2203/0143		495
+H05K2203/0147	9	Carriers and holders	CPCONLY	H05K2203/0147		105
+H05K2203/0152	10	Temporary metallic carrier, e.g. for transferring material	CPCONLY	H05K2203/0152		543
+H05K2203/0156	10	Temporary polymeric carrier or foil, e.g. for processing or transferring	CPCONLY	H05K2203/0156		550
+H05K2203/016	10	Temporary inorganic, non-metallic carrier, e.g. for processing or transferring	CPCONLY	H05K2203/016		270
+H05K2203/0165	10	Holder for holding a Printed Circuit Board [PCB] during processing, e.g. during screen printing	CPCONLY	H05K2203/0165		755
+H05K2203/0169	10	Using a temporary frame during processing	CPCONLY	H05K2203/0169		160
+H05K2203/0173	10	Template for holding a PCB having mounted components thereon	CPCONLY	H05K2203/0173		134
+H05K2203/0178	9	Projectile, e.g. for perforating substrate	CPCONLY	H05K2203/0178		7
+H05K2203/0182	9	Using a temporary spacer element or stand-off during processing	CPCONLY	H05K2203/0182		61
+H05K2203/0186	9	Mask formed or laid on PCB, the mask having recesses or openings specially designed for mounting components or body parts thereof	CPCONLY	H05K2203/0186		52
+H05K2203/0191	9	Using tape or non-metallic foil in a process, e.g. during filling of a hole with conductive paste	CPCONLY	H05K2203/0191		594
+H05K2203/0195	9	Tool for a process not provided for in H05K3/00, e.g. tool for handling objects using suction, for deforming objects, for applying local pressure	CPCONLY	H05K2203/0195		1289
+H05K2203/02	8	Details related to mechanical or acoustic processing, e.g. drilling, punching, cutting, using ultrasound	CPCONLY	H05K2203/02		139
+H05K2203/0207	9	Partly drilling through substrate until a controlled depth, e.g. with end-point detection	CPCONLY	H05K2203/0207		320
+H05K2203/0214	9	Back-up or entry material, e.g. for mechanical drilling	CPCONLY	H05K2203/0214		516
+H05K2203/0221	9	Perforating	CPCONLY	H05K2203/0221		210
+H05K2203/0228	9	Cutting, sawing, milling or shearing	CPCONLY	H05K2203/0228		1009
+H05K2203/0235	9	Laminating followed by cutting or slicing perpendicular to plane of the laminate; Embedding wires in an object and cutting or slicing the object perpendicular to direction of the wires	CPCONLY	H05K2203/0235		81
+H05K2203/0242	9	Cutting around hole, e.g. for disconnecting land or Plated Through-Hole [PTH] or for partly removing a PTH	CPCONLY	H05K2203/0242		131
+H05K2203/025	9	Abrading, e.g. grinding or sand blasting	CPCONLY	H05K2203/025		919
+H05K2203/0257	9	Brushing, e.g. cleaning the conductive pattern by brushing or wiping	CPCONLY	H05K2203/0257		122
+H05K2203/0264	9	Peeling insulating layer, e.g. foil, or separating mask	CPCONLY	H05K2203/0264		311
+H05K2203/0271	9	Mechanical force other than pressure, e.g. shearing or pulling	CPCONLY	H05K2203/0271		188
+H05K2203/0278	9	Flat pressure, e.g. for connecting terminals with anisotropic conductive adhesive	CPCONLY	H05K2203/0278		1123
+H05K2203/0285	9	Using ultrasound, e.g. for cleaning, soldering or wet treatment	CPCONLY	H05K2203/0285		512
+H05K2203/0292	9	Using vibration, e.g. during soldering or screen printing	CPCONLY	H05K2203/0292		124
+H05K2203/03	8	Metal processing	CPCONLY	H05K2203/03		38
+H05K2203/0307	9	Providing micro- or nanometer scale roughness on a metal surface, e.g. by plating of nodules or dendrites	CPCONLY	H05K2203/0307		527
+H05K2203/0315	9	Oxidising metal	CPCONLY	H05K2203/0315		800
+H05K2203/0323	9	Working metal substrate or core, e.g. by etching, deforming	CPCONLY	H05K2203/0323		225
+H05K2203/033	9	Punching metal foil, e.g. solder foil	CPCONLY	H05K2203/033		89
+H05K2203/0338	9	Transferring metal or conductive material other than a circuit pattern, e.g. bump, solder, printed component	CPCONLY	H05K2203/0338		558
+H05K2203/0346	9	Deburring, rounding, bevelling or smoothing conductor edges	CPCONLY	H05K2203/0346		137
+H05K2203/0353	9	Making conductive layer thin, e.g. by etching	CPCONLY	H05K2203/0353		198
+H05K2203/0361	9	Stripping a part of an upper metal layer to expose a lower metal layer, e.g. by etching or using a laser	CPCONLY	H05K2203/0361		370
+H05K2203/0369	9	Etching selective parts of a metal substrate through part of its thickness, e.g. using etch resist	CPCONLY	H05K2203/0369		371
+H05K2203/0376	9	Etching temporary metallic carrier substrate	CPCONLY	H05K2203/0376		176
+H05K2203/0384	9	Etch stop layer, i.e. a buried barrier layer for preventing etching of layers under the etch stop layer	CPCONLY	H05K2203/0384		207
+H05K2203/0392	9	Pretreatment of metal, e.g. before finish plating, etching	CPCONLY	H05K2203/0392		185
+H05K2203/04	8	Soldering or other types of metallurgic bonding	CPCONLY	H05K2203/04		273
+H05K2203/0405	9	Solder foil, tape or wire	CPCONLY	H05K2203/0405		134
+H05K2203/041	9	Solder preforms in the shape of solder balls	CPCONLY	H05K2203/041		905
+H05K2203/0415	9	Small preforms other than balls, e.g. discs, cylinders or pillars	CPCONLY	H05K2203/0415		308
+H05K2203/042	9	Remote solder depot on the PCB, the solder flowing to the connections from this depot	CPCONLY	H05K2203/042		43
+H05K2203/0425	9	Solder powder or solder coated metal powder	CPCONLY	H05K2203/0425		260
+H05K2203/043	9	Reflowing of solder coated conductors, not during connection of components, e.g. reflowing solder paste	CPCONLY	H05K2203/043		867
+H05K2203/0435	9	Metal coated solder, e.g. for passivation of solder balls	CPCONLY	H05K2203/0435		50
+H05K2203/044	9	Solder dip coating, i.e. coating printed conductors, e.g. pads by dipping in molten solder or by wave soldering	CPCONLY	H05K2203/044		316
+H05K2203/0445	9	Removing excess solder on pads; removing solder bridges, e.g. for repairing or reworking	CPCONLY	H05K2203/0445		54
+H05K2203/045	9	Solder-filled plated through-hole [PTH] during processing wherein the solder is removed from the PTH after processing	CPCONLY	H05K2203/045		61
+H05K2203/0455	9	PTH for surface mount device [SMD], e.g. wherein solder flows through the PTH during mounting	CPCONLY	H05K2203/0455		253
+H05K2203/046	9	Means for drawing solder, e.g. for removing excess solder from pads	CPCONLY	H05K2203/046		108
+H05K2203/0465	9	Shape of solder, e.g. differing from spherical shape, different shapes due to different solder pads	CPCONLY	H05K2203/0465		210
+H05K2203/047	9	Soldering with different solders, e.g. two different solders on two sides of the PCB	CPCONLY	H05K2203/047		87
+H05K2203/0475	9	Molten solder just before placing the component	CPCONLY	H05K2203/0475		43
+H05K2203/048	9	Self-alignment during soldering; Terminals, pads or shape of solder adapted therefor	CPCONLY	H05K2203/048		223
+H05K2203/0485	9	Tacky flux, e.g. for adhering components during mounting	CPCONLY	H05K2203/0485		113
+H05K2203/049	9	Wire bonding	CPCONLY	H05K2203/049		876
+H05K2203/0495	9	Cold welding	CPCONLY	H05K2203/0495		31
+H05K2203/05	8	Patterning and lithography; Masks; Details of resist	CPCONLY	H05K2203/05		28
+H05K2203/0502	9	Patterning and lithography	CPCONLY	H05K2203/0502		190
+H05K2203/0505	10	Double exposure of the same photosensitive layer	CPCONLY	H05K2203/0505		98
+H05K2203/0508	10	Flood exposure	CPCONLY	H05K2203/0508		27
+H05K2203/0511	10	Diffusion patterning	CPCONLY	H05K2203/0511		14
+H05K2203/0514	10	Photodevelopable thick film, e.g. conductive or insulating paste	CPCONLY	H05K2203/0514		184
+H05K2203/0517	10	Electrographic patterning	CPCONLY	H05K2203/0517		142
+H05K2203/052	10	Magnetographic patterning	CPCONLY	H05K2203/052		197
+H05K2203/0522	10	Using an adhesive pattern	CPCONLY	H05K2203/0522		218
+H05K2203/0525	10	Patterning by phototackifying or by photopatterning adhesive	CPCONLY	H05K2203/0525		89
+H05K2203/0528	10	Patterning during transfer, i.e. without preformed pattern, e.g. by using a die, a programmed tool or a laser	CPCONLY	H05K2203/0528		215
+H05K2203/0531	10	Decalcomania, i.e. transfer of a pattern detached from its carrier before affixing the pattern to the substrate	CPCONLY	H05K2203/0531		69
+H05K2203/0534	10	Offset printing, i.e. transfer of a pattern from a carrier onto the substrate by using an intermediate member	CPCONLY	H05K2203/0534		120
+H05K2203/0537	10	Transfer of pre-fabricated insulating pattern	CPCONLY	H05K2203/0537		169
+H05K2203/054	10	Continuous temporary metal layer over resist, e.g. for selective electroplating	CPCONLY	H05K2203/054		186
+H05K2203/0542	10	Continuous temporary metal layer over metal pattern	CPCONLY	H05K2203/0542		122
+H05K2203/0545	10	Pattern for applying drops or paste; Applying a pattern made of drops or paste	CPCONLY	H05K2203/0545		206
+H05K2203/0548	9	Masks	CPCONLY	H05K2203/0548		63
+H05K2203/0551	10	Exposure mask directly printed on the PCB	CPCONLY	H05K2203/0551		104
+H05K2203/0554	10	Metal used as mask for etching vias, e.g. by laser ablation	CPCONLY	H05K2203/0554		378
+H05K2203/0557	10	Non-printed masks	CPCONLY	H05K2203/0557		447
+H05K2203/056	10	Using an artwork, i.e. a photomask for exposing photosensitive layers	CPCONLY	H05K2203/056		449
+H05K2203/0562	9	Details of resist	CPCONLY	H05K2203/0562		36
+H05K2203/0565	10	Resist used only for applying catalyst, not for plating itself	CPCONLY	H05K2203/0565		72
+H05K2203/0568	10	Resist used for applying paste, ink or powder	CPCONLY	H05K2203/0568		214
+H05K2203/0571	10	Dual purpose resist, e.g. etch resist used as solder resist, solder resist used as plating resist	CPCONLY	H05K2203/0571		167
+H05K2203/0574	10	Stacked resist layers used for different processes	CPCONLY	H05K2203/0574		167
+H05K2203/0577	10	Double layer of resist having the same pattern	CPCONLY	H05K2203/0577		226
+H05K2203/058	10	Additional resists used for the same purpose but in different areas, i.e. not stacked	CPCONLY	H05K2203/058		48
+H05K2203/0582	10	Coating by resist, i.e. resist used as mask for application of insulating coating or of second resist	CPCONLY	H05K2203/0582		134
+H05K2203/0585	10	Second resist used as mask for selective stripping of first resist	CPCONLY	H05K2203/0585		81
+H05K2203/0588	10	Second resist used as pattern over first resist	CPCONLY	H05K2203/0588		140
+H05K2203/0591	10	Organic non-polymeric coating, e.g. for inhibiting corrosion thereby preserving solderability	CPCONLY	H05K2203/0591		62
+H05K2203/0594	10	Insulating resist or coating with special shaped edges	CPCONLY	H05K2203/0594		115
+H05K2203/0597	10	Resist applied over the edges or sides of conductors, e.g. for protection during etching or plating	CPCONLY	H05K2203/0597		128
+H05K2203/06	8	Lamination	CPCONLY	H05K2203/06		284
+H05K2203/061	9	of previously made multilayered subassemblies	CPCONLY	H05K2203/061		526
+H05K2203/063	9	of preperforated insulating layer	CPCONLY	H05K2203/063		787
+H05K2203/065	9	Binding insulating layers without adhesive, e.g. by local heating or welding, before lamination of the whole PCB	CPCONLY	H05K2203/065		162
+H05K2203/066	9	Transfer laminating of insulating material, e.g. resist as a whole layer, not as a pattern	CPCONLY	H05K2203/066		267
+H05K2203/068	9	Features of the lamination press or of the lamination process, e.g. using special separator sheets	CPCONLY	H05K2203/068		941
+H05K2203/07	8	Treatments involving liquids, e.g. plating, rinsing	CPCONLY	H05K2203/07		15
+H05K2203/0703	9	Plating	CPCONLY	H05K2203/0703		75
+H05K2203/0706	10	Inactivating or removing catalyst, e.g. on surface of resist	CPCONLY	H05K2203/0706		16
+H05K2203/0709	10	Catalytic ink or adhesive for electroless plating	CPCONLY	H05K2203/0709		176
+H05K2203/0713	10	Plating poison, e.g. for selective plating or for preventing plating on resist	CPCONLY	H05K2203/0713		44
+H05K2203/0716	10	Metallic plating catalysts, e.g. for direct electroplating of through holes; Sensitising or activating metallic plating catalysts	CPCONLY	H05K2203/0716		125
+H05K2203/072	10	Electroless plating, e.g. finish plating or initial plating	CPCONLY	H05K2203/072		631
+H05K2203/0723	10	Electroplating, e.g. finish plating	CPCONLY	H05K2203/0723		1396
+H05K2203/0726	10	Electroforming, i.e. electroplating on a metallic carrier thereby forming a self-supporting structure	CPCONLY	H05K2203/0726		280
+H05K2203/073	10	Displacement plating, substitution plating or immersion plating, e.g. for finish plating	CPCONLY	H05K2203/073		99
+H05K2203/0733	10	Method for plating stud vias, i.e. massive vias formed by plating the bottom of a hole without plating on the walls	CPCONLY	H05K2203/0733		490
+H05K2203/0736	9	Methods for applying liquids, e.g. spraying	CPCONLY	H05K2203/0736		149
+H05K2203/074	10	Features related to the fluid pressure	CPCONLY	H05K2203/074		85
+H05K2203/0743	10	Mechanical agitation of fluid, e.g. during cleaning of the conductive pattern	CPCONLY	H05K2203/0743		56
+H05K2203/0746	10	Local treatment using a fluid jet, e.g. for removing or cleaning material; Providing mechanical pressure using a fluid jet	CPCONLY	H05K2203/0746		187
+H05K2203/075	10	Global treatment of printed circuits by fluid spraying, e.g. cleaning a conductive pattern using nozzles	CPCONLY	H05K2203/075		200
+H05K2203/0753	10	Reversing fluid direction, e.g. in holes	CPCONLY	H05K2203/0753		13
+H05K2203/0756	9	Uses of liquids, e.g. rinsing, coating, dissolving	CPCONLY	H05K2203/0756		54
+H05K2203/0759	10	Forming a polymer layer by liquid coating, e.g. a non-metallic protective coating or an organic bonding layer	CPCONLY	H05K2203/0759		434
+H05K2203/0763	10	Treating individual holes or single row of holes, e.g. by nozzle	CPCONLY	H05K2203/0763		80
+H05K2203/0766	10	Rinsing, e.g. after cleaning or polishing a conductive pattern	CPCONLY	H05K2203/0766		185
+H05K2203/0769	10	Dissolving insulating materials, e.g. coatings, not used for developing resist after exposure	CPCONLY	H05K2203/0769		303
+H05K2203/0773	10	Dissolving the filler without dissolving the matrix material; Dissolving the matrix material without dissolving the filler	CPCONLY	H05K2203/0773		138
+H05K2203/0776	10	Uses of liquids not otherwise provided for in H05K2203/0759 - H05K2203/0773	CPCONLY	H05K2203/0776		218
+H05K2203/0779	9	characterised by the specific liquids involved	CPCONLY	H05K2203/0779		58
+H05K2203/0783	10	Using solvent, e.g. for cleaning; Regulating solvent content of pastes or coatings for adjusting the viscosity	CPCONLY	H05K2203/0783		491
+H05K2203/0786	10	Using an aqueous solution, e.g. for cleaning or during drilling of holes	CPCONLY	H05K2203/0786		234
+H05K2203/0789	11	Aqueous acid solution, e.g. for cleaning or etching	CPCONLY	H05K2203/0789		330
+H05K2203/0793	11	Aqueous alkaline solution, e.g. for cleaning or etching	CPCONLY	H05K2203/0793		372
+H05K2203/0796	11	Oxidant in aqueous solution, e.g. permanganate	CPCONLY	H05K2203/0796		287
+H05K2203/08	8	Treatments involving gases	CPCONLY	H05K2203/08		19
+H05K2203/081	9	Blowing of gas, e.g. for cooling or for providing heat during solder reflowing	CPCONLY	H05K2203/081		440
+H05K2203/082	9	Suction, e.g. for holding solder balls or components	CPCONLY	H05K2203/082		515
+H05K2203/083	9	Evaporation or sublimation of a compound, e.g. gas bubble generating agent	CPCONLY	H05K2203/083		75
+H05K2203/085	9	Using vacuum or low pressure	CPCONLY	H05K2203/085		359
+H05K2203/086	9	Using an inert gas	CPCONLY	H05K2203/086		170
+H05K2203/087	9	Using a reactive gas	CPCONLY	H05K2203/087		193
+H05K2203/088	9	Using a vapour or mist, e.g. cleaning using water vapor	CPCONLY	H05K2203/088		81
+H05K2203/09	8	Treatments involving charged particles	CPCONLY	H05K2203/09		21
+H05K2203/092	9	Particle beam, e.g. using an electron beam or an ion beam	CPCONLY	H05K2203/092		171
+H05K2203/095	9	Plasma, e.g. for treating a substrate to improve adhesion with a conductor or for cleaning holes	CPCONLY	H05K2203/095		719
+H05K2203/097	10	Corona discharge	CPCONLY	H05K2203/097		44
+H05K2203/10	8	Using electric, magnetic and electromagnetic fields; Using laser light	CPCONLY	H05K2203/10		35
+H05K2203/101	9	Using electrical induction, e.g. for heating during soldering	CPCONLY	H05K2203/101		132
+H05K2203/102	9	Using microwaves, e.g. for curing ink patterns or adhesive	CPCONLY	H05K2203/102		72
+H05K2203/104	9	Using magnetic force, e.g. to align particles or for a temporary connection during processing	CPCONLY	H05K2203/104		228
+H05K2203/105	9	Using an electrical field; Special methods of applying an electric potential	CPCONLY	H05K2203/105		244
+H05K2203/107	9	Using laser light	CPCONLY	H05K2203/107		2574
+H05K2203/108	10	Using a plurality of lasers or laser light with a plurality of wavelengths	CPCONLY	H05K2203/108		140
+H05K2203/11	8	Treatments characterised by their effect, e.g. heating, cooling, roughening	CPCONLY	H05K2203/11		140
+H05K2203/1105	9	Heating or thermal processing not related to soldering, firing, curing or laminating, e.g. for shaping the substrate or during finish plating	CPCONLY	H05K2203/1105		1366
+H05K2203/111	9	Preheating, e.g. before soldering	CPCONLY	H05K2203/111		175
+H05K2203/1115	9	Resistance heating, e.g. by current through the PCB conductors or through a metallic mask	CPCONLY	H05K2203/1115		257
+H05K2203/1121	9	Cooling, e.g. specific areas of a PCB being cooled during reflow soldering	CPCONLY	H05K2203/1121		274
+H05K2203/1126	9	Firing, i.e. heating a powder or paste above the melting temperature of at least one of its constituents	CPCONLY	H05K2203/1126		201
+H05K2203/1131	9	Sintering, i.e. fusing of metal particles to achieve or improve electrical conductivity	CPCONLY	H05K2203/1131		578
+H05K2203/1136	9	Conversion of insulating material into conductive material, e.g. by pyrolysis	CPCONLY	H05K2203/1136		103
+H05K2203/1142	9	Conversion of conductive material into insulating material or into dissolvable compound	CPCONLY	H05K2203/1142		139
+H05K2203/1147	9	Sealing or impregnating, e.g. of pores	CPCONLY	H05K2203/1147		355
+H05K2203/1152	9	Replicating the surface structure of a sacrificial layer, e.g. for roughening	CPCONLY	H05K2203/1152		209
+H05K2203/1157	9	Using means for chemical reduction	CPCONLY	H05K2203/1157		332
+H05K2203/1163	9	Chemical reaction, e.g. heating solder by exothermic reaction	CPCONLY	H05K2203/1163		151
+H05K2203/1168	9	Graft-polymerization	CPCONLY	H05K2203/1168		47
+H05K2203/1173	9	Differences in wettability, e.g. hydrophilic or hydrophobic areas	CPCONLY	H05K2203/1173		277
+H05K2203/1178	9	Means for venting or for letting gases escape	CPCONLY	H05K2203/1178		291
+H05K2203/1184	9	Underetching, e.g. etching of substrate under conductors or etching of conductor under dielectrics; Means for allowing or controlling underetching	CPCONLY	H05K2203/1184		172
+H05K2203/1189	9	Pressing leads, bumps or a die through an insulating layer	CPCONLY	H05K2203/1189		545
+H05K2203/1194	9	Thermal treatment leading to a different chemical state of a material, e.g. annealing for stress-relief, aging	CPCONLY	H05K2203/1194		91
+H05K2203/12	8	Using specific substances	CPCONLY	H05K2203/12		33
+H05K2203/121	9	Metallo-organic compounds	CPCONLY	H05K2203/121		336
+H05K2203/122	9	Organic non-polymeric compounds, e.g. oil, wax or thiol	CPCONLY	H05K2203/122		446
+H05K2203/124	10	Heterocyclic organic compounds, e.g. azole, furan	CPCONLY	H05K2203/124		263
+H05K2203/125	9	Inorganic compounds, e.g. silver salt	CPCONLY	H05K2203/125		216
+H05K2203/127	9	Lubricants, e.g. during drilling of holes	CPCONLY	H05K2203/127		90
+H05K2203/128	9	Molten metals, e.g. casting thereof, or melting by heating and excluding molten solder	CPCONLY	H05K2203/128		249
+H05K2203/13	8	Moulding and encapsulation; Deposition techniques; Protective layers	CPCONLY	H05K2203/13		14
+H05K2203/1305	9	Moulding and encapsulation	CPCONLY	H05K2203/1305		121
+H05K2203/1311	10	Foil encapsulation, e.g. of mounted components	CPCONLY	H05K2203/1311		211
+H05K2203/1316	10	Moulded encapsulation of mounted components	CPCONLY	H05K2203/1316		1030
+H05K2203/1322	10	Encapsulation comprising more than one layer	CPCONLY	H05K2203/1322		253
+H05K2203/1327	10	Moulding over PCB locally or completely	CPCONLY	H05K2203/1327		627
+H05K2203/1333	9	Deposition techniques, e.g. coating	CPCONLY	H05K2203/1333		42
+H05K2203/1338	10	Chemical vapour deposition	CPCONLY	H05K2203/1338		93
+H05K2203/1344	10	Spraying small metal particles or droplets of molten metal	CPCONLY	H05K2203/1344		172
+H05K2203/135	10	Electrophoretic deposition of insulating material	CPCONLY	H05K2203/135		201
+H05K2203/1355	10	Powder coating of insulating material	CPCONLY	H05K2203/1355		87
+H05K2203/1361	10	Coating by immersion in coating bath	CPCONLY	H05K2203/1361		56
+H05K2203/1366	10	Spraying coating	CPCONLY	H05K2203/1366		190
+H05K2203/1372	10	Coating by using a liquid wave	CPCONLY	H05K2203/1372		9
+H05K2203/1377	9	Protective layers	CPCONLY	H05K2203/1377		216
+H05K2203/1383	10	Temporary protective insulating layer	CPCONLY	H05K2203/1383		245
+H05K2203/1388	10	Temporary protective conductive layer	CPCONLY	H05K2203/1388		43
+H05K2203/1394	10	Covering open PTHs, e.g. by dry film resist or by metal disc	CPCONLY	H05K2203/1394		222
+H05K2203/14	8	Related to the order of processing steps	CPCONLY	H05K2203/14		80
+H05K2203/1407	9	Applying catalyst before applying plating resist	CPCONLY	H05K2203/1407		71
+H05K2203/1415	9	Applying catalyst after applying plating resist	CPCONLY	H05K2203/1415		64
+H05K2203/1423	9	Applying catalyst before etching, e.g. plating catalyst in holes before etching circuit	CPCONLY	H05K2203/1423		22
+H05K2203/143	9	Treating holes before another process, e.g. coating holes before coating the substrate	CPCONLY	H05K2203/143		67
+H05K2203/1438	9	Treating holes after another process, e.g. coating holes after coating the substrate	CPCONLY	H05K2203/1438		69
+H05K2203/1446	9	Treatment after insertion of lead into hole, e.g. bending, cutting, caulking or curing of adhesive but excluding soldering	CPCONLY	H05K2203/1446		112
+H05K2203/1453	9	Applying the circuit pattern before another process, e.g. before filling of vias with conductive paste, before making printed resistors	CPCONLY	H05K2203/1453		262
+H05K2203/1461	9	Applying or finishing the circuit pattern after another process, e.g. after filling of vias with conductive paste, after making printed resistors	CPCONLY	H05K2203/1461		308
+H05K2203/1469	10	Circuit made after mounting or encapsulation of the components	CPCONLY	H05K2203/1469		460
+H05K2203/1476	9	Same or similar kind of process performed in phases, e.g. coarse patterning followed by fine patterning	CPCONLY	H05K2203/1476		1439
+H05K2203/1484	9	Simultaneous treatments, e.g. soldering lead-in-hole components simultaneously with surface mounted components	CPCONLY	H05K2203/1484		54
+H05K2203/1492	9	Periodical treatments, e.g. pulse plating of through-holes	CPCONLY	H05K2203/1492		85
+H05K2203/15	8	Position of the PCB during processing	CPCONLY	H05K2203/15		245
+H05K2203/1509	9	Horizontally held PCB	CPCONLY	H05K2203/1509		544
+H05K2203/1518	9	Vertically held PCB	CPCONLY	H05K2203/1518		207
+H05K2203/1527	9	Obliquely held PCB	CPCONLY	H05K2203/1527		33
+H05K2203/1536	9	Temporarily stacked PCBs	CPCONLY	H05K2203/1536		337
+H05K2203/1545	9	Continuous processing, i.e. involving rolls moving a band-like or solid carrier along a continuous production path	CPCONLY	H05K2203/1545		1171
+H05K2203/1554	9	Rotating or turning the PCB in a continuous manner	CPCONLY	H05K2203/1554		72
+H05K2203/1563	9	Reversing the PCB	CPCONLY	H05K2203/1563		213
+H05K2203/1572	9	Processing both sides of a PCB by the same process; Providing a similar arrangement of components on both sides; Making interlayer connections from two sides	CPCONLY	H05K2203/1572		1296
+H05K2203/1581	9	Treating the backside of the PCB, e.g. for heating during soldering or providing a liquid coating on the backside	CPCONLY	H05K2203/1581		272
+H05K2203/159	9	Using gravitational force; Processing against the gravity direction; Using centrifugal force	CPCONLY	H05K2203/159		96
+H05K2203/16	8	Inspection; Monitoring; Aligning	CPCONLY	H05K2203/16		261
+H05K2203/161	9	Using chemical substances, e.g. colored or fluorescent, for facilitating optical or visual inspection	CPCONLY	H05K2203/161		279
+H05K2203/162	9	Testing a finished product, e.g. heat cycle testing of solder joints	CPCONLY	H05K2203/162		764
+H05K2203/163	9	Monitoring a manufacturing process	CPCONLY	H05K2203/163		1180
+H05K2203/165	9	Stabilizing, e.g. temperature stabilization	CPCONLY	H05K2203/165		91
+H05K2203/166	9	Alignment or registration; Control of registration	CPCONLY	H05K2203/166		923
+H05K2203/167	9	Using mechanical means for positioning, alignment or registration, e.g. using rod-in-hole alignment	CPCONLY	H05K2203/167		1219
+H05K2203/168	9	Wrong mounting prevention	CPCONLY	H05K2203/168		213
+H05K2203/17	8	Post-manufacturing processes	CPCONLY	H05K2203/17		55
+H05K2203/171	9	Tuning, e.g. by trimming of printed components or high frequency circuits	CPCONLY	H05K2203/171		232
+H05K2203/173	9	Adding connections between adjacent pads or conductors, e.g. for modifying or repairing	CPCONLY	H05K2203/173		394
+H05K2203/175	9	Configurations of connections suitable for easy deletion, e.g. modifiable circuits or temporary conductors for electroplating; Processes for deleting connections	CPCONLY	H05K2203/175		784
+H05K2203/176	9	Removing, replacing or disconnecting component; Easily removable component	CPCONLY	H05K2203/176		477
+H05K2203/178	9	Demolishing, e.g. recycling, reverse engineering, destroying for security purposes; Using biodegradable materials	CPCONLY	H05K2203/178		184
+H05K2203/30	8	Details of processes not otherwise provided for in H05K2203/01 - H05K2203/17	CPCONLY	H05K2203/30		15
+H05K2203/302	9	Bending a rigid substrate; Breaking rigid substrates by bending	CPCONLY	H05K2203/302		418
+H05K2203/304	9	Protecting a component during manufacturing	CPCONLY	H05K2203/304		323
+H05K2203/306	9	Lifting the component during or after mounting; Increasing the gap between component and PCB	CPCONLY	H05K2203/306		63
+H05K2203/308	9	Sacrificial means, e.g. for temporarily filling a space for making a via or a cavity or for making rigid-flexible PCBs	CPCONLY	H05K2203/308		396

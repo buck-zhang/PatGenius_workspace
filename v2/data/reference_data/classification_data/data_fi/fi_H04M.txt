@@ -1,0 +1,534 @@
+H04M   1/00  \	0	0	5K127	H04M   1/00	126	サブステーション装置，例．加入者が使用するもの（交換機によって提供される加入者向けのサービスや設備Ｈ０４Ｍ３／００；前納式電話機用料金箱Ｈ０４Ｍ１７／００；電流供給装置Ｈ０４Ｍ１９／０８）［１，７］	Substation equipment, e.g. for use by subscribers (subscriber services or facilities provided at exchanges H04M 3/00; prepayment telephone coin boxes H04M 17/00; current supply arrangements H04M 19/08) [1,7]
+H04M   1/00  G	0	0	5K127	H04M   1/00	69	電話機	Telephone
+H04M   1/00  W	0	1	5K127	H04M   1/00	2805	動作状態の表示装置，例．回線の使用状態の表示，受話器外し警報	Running state indication device, e.g. indication of the state of line usage, off-hook alarm
+H04M   1/00  K	0	2	5K127	H04M   1/00	1973	着信表示装置，例．呼出信号の検出に特徴を有するもの	Devices for displaying incoming calls, e.g., characterized by detection of call signals
+H04M   1/00  B	0	3	5K127	H04M   1/00	2132	可聴音によるもの	using audible sound
+H04M   1/00  C	0	4	5K127	H04M   1/00	465	トーンリンガ	Tone ringer
+H04M   1/00  D	0	4	5K127	H04M   1/00	172	電鈴	Electric bell
+H04M   1/00  L	0	3	5K127	H04M   1/00	1320	可視表示によるもの	using visible indication
+H04M   1/00  A	0	1	5K127	H04M   1/00	1191	回路	Circuit
+H04M   1/00  H	0	2	5K127	H04M   1/00	2095	音声用（音声増幅器を有するものはＨ０４Ｍ１／６０）	For voice (having a voice amplifier H04M1/60)
+H04M   1/00  J	0	2	5K127	H04M   1/00	1131	信号用，例．フック検出，極性（反転）検出	For signal, e.g. hook detection, detection of electrical signal polarity (or polarity inversion)
+H04M   1/00  M	0	1	5K127	H04M   1/00	587	特殊な電話機，例．四線に接続されるもの	Special telephone apparatuses, e.g. connected to four-wire telephone cables
+H04M   1/00  E	0	2	5K127	H04M   1/00	750	転送電話	Call forwarding
+H04M   1/00  R	0	2	5K127	H04M   1/00	3441	多機能電話（拡声電話は１／６０〜６２，留守番電話は１／６４〜６５）	Multi-function telephones (loudspeaker telephones 1/60-62, automatic answering telephones 1/64-65)
+H04M   1/00  S	0	3	5K127	H04M   1/00	2300	発着信時の機能	Functions for origination/termination
+H04M   1/00  U	0	3	5K127	H04M   1/00	8031	他の電気機器との結合	Coupling with other electrical components
+H04M   1/00  V	0	4	5K127	H04M   1/00	3910	その電気機器が電話機の動作と連動するもの	Said electrical component linked with telephone operation
+H04M   1/00  Q	0	0	5K127	H04M   1/00	1219	電話機と他のサブステーションとの結合	Coupling between telephone and another substation
+H04M   1/00  Z	0	0	5K127	H04M   1/00	879	その他	Others
+H04M   1/02  \	1	1	5K023	H04M   1/02	240	電話機の構造的態様	Constructional features of telephone sets
+H04M   1/02  A	1	0	5K023	H04M   1/02	3351	表示・ボタン	Indication or button
+H04M   1/02  B	1	0	5K023	H04M   1/02	445	特殊な電話機〔構造・用途が特殊なものを含む〕	Special telephone (including a special structure or application)
+H04M   1/02  C	1	1	5K023	H04M   1/02	19475	コードレス電話機	Cordless telephones
+H04M   1/02  D	1	1	5K023	H04M   1/02	163	公衆電話機	Public telephone
+H04M   1/02  E	1	1	5K023	H04M   1/02	250	多機能電話機	Multi-function telephone
+H04M   1/02  F	1	2	5K023	H04M   1/02	96	ボタン電話機	Pushbutton telephone
+H04M   1/02  G	1	1	5K023	H04M   1/02	965	インターホン	Intercoms
+H04M   1/02  H	1	1	5K023	H04M   1/02	313	ハンドセット形	Handset type
+H04M   1/02  J	1	1	5K023	H04M   1/02	308	装飾電話	Decorative telephone
+H04M   1/02  Z	1	0	5K023	H04M   1/02	828	その他のもの	Others
+H04M   1/03  \	2	2	5K023	H04M   1/03	204	送話器または受話器の構造的形態，例．送受器［２］	Constructional features of telephone transmitters or receivers, e.g. telephone hand-sets [2]
+H04M   1/03  A	2	0	5K023	H04M   1/03	986	ハンドセット	Handsets
+H04M   1/03  B	2	0	5K023	H04M   1/03	420	送話器	Microphone
+H04M   1/03  C	2	0	5K023	H04M   1/03	858	受話器	Receiver
+H04M   1/03  Z	2	0	5K023	H04M   1/03	321	その他のもの	Others
+H04M   1/04  \	2	2	5K023	H04M   1/04	93	送話器または受話器の支持体	Supports for telephone transmitters or receivers
+H04M   1/04  A	2	0	5K023	H04M   1/04	997	台・スタンド	Base or stand
+H04M   1/04  B	2	0	5K023	H04M   1/04	109	ハンドセットの昇降装置	Lifting and lowering devices for handsets
+H04M   1/04  Z	2	0	5K023	H04M   1/04	945	その他のもの，例．電話機本体のハンドセット係止構造	Others, e.g. handset engagement structures of telephone main units
+H04M   1/05  \	3	3	5K023	H04M   1/05	29	頭，のどまたは胸での使用に特に適合したもの	specially adapted for use on head, throat or breast
+H04M   1/05  A	3	0	5K023	H04M   1/05	437	頭につけるもの	put on head
+H04M   1/05  B	3	0	5K023	H04M   1/05	203	胸・肩につけるもの	put on breast or shoulder
+H04M   1/05  C	3	0	5K023	H04M   1/05	395	耳につけるもの	put on ear
+H04M   1/05  Z	3	0	5K023	H04M   1/05	212	その他のもの	Others
+H04M   1/06  \	3	3	5K023	H04M   1/06	155	フック；クレイドル	Hooks; Cradles
+H04M   1/06  A	3	0	5K023	H04M   1/06	166	フックスイッチと他のスイッチとの連合	Association of hook switches with other switches
+H04M   1/06  Z	3	0	5K023	H04M   1/06	199	その他のもの	Others
+H04M   1/08  \	4	4	5K023	H04M   1/08	56	受話器または送受器の重量により動作されるスイッチと連合されたもの	associated with switches operated by the weight of the receiver or hand-set
+H04M   1/08  A	4	0	5K023	H04M   1/08	274	フックボタンが１のもの	having one hook button
+H04M   1/08  B	4	0	5K023	H04M   1/08	123	フックボタンが２のもの	having two hook buttons
+H04M   1/08  Z	4	0	5K023	H04M   1/08	85	その他のもの	Others
+H04M   1/10  \	4	4	5K023	H04M   1/10	97	受話器または送受器の接近に基づく磁気効果により動作されるスイッチと連合されたもの	associated with switches operated by magnetic effect due to proximity of receiver or hand-set
+H04M   1/11  \	2	2	5K023	H04M   1/11	107	電話機用支持体，例．腕木受けと合体したもの	Supports for sets, e.g. incorporating armrests
+H04M   1/11  A	2	0	5K023	H04M   1/11	237	壁掛用	Hang-on-the-wall type
+H04M   1/11  B	2	1	5K023	H04M   1/11	215	壁掛卓上兼用	co-used as the hang-on-the-wall type and desktop type
+H04M   1/11  C	2	0	5K023	H04M   1/11	641	自動車用	for automobiles
+H04M   1/11  Z	2	0	5K023	H04M   1/11	2676	その他のもの	Others
+H04M   1/12  \	3	3	5K023	H04M   1/12	46	可調節支持体，例．伸張できるもの	Adjustable supports, e.g. extensible
+H04M   1/12  A	3	0	5K023	H04M   1/12	78	伸長できるもの	expandable
+H04M   1/12  B	3	1	5K023	H04M   1/12	60	水平方向	Horizontal direction
+H04M   1/12  C	3	1	5K023	H04M   1/12	43	垂直方向	Vertical direction
+H04M   1/12  D	3	0	5K023	H04M   1/12	346	回転できるもの	rotatable
+H04M   1/12  E	3	0	5K023	H04M   1/12	133	伸長及び回転ができるもの	expandable and rotatable
+H04M   1/12  Z	3	0	5K023	H04M   1/12	185	その他のもの	Others
+H04M   1/13  \	4	4	5K023	H04M   1/13	12	パンタグラフ式	pantographic
+H04M   1/14  \	3	3	5K023	H04M   1/14	62	外部振動を除去するための弾性的手段を備えたもの	with resilient means to eliminate extraneous vibrations
+H04M   1/15  \	2	2	5K023	H04M   1/15	509	電話機コードの保護または案内［５］	Protecting or guiding telephone cords [5]
+H04M   1/17  \	2	2	5K023	H04M   1/17	71	電話機の清浄または衛生具（送話器口または受話器口のためのものＨ０４Ｒ１／１２）［２］	Hygienic or sanitary devices on telephone equipment (for mouthpieces or earpieces H04R 1/12) [2]
+H04M   1/17  A	2	0	5K023	H04M   1/17	449	電話機用カバー	Covers for telephones
+H04M   1/17  B	2	0	5K023	H04M   1/17	101	ハンドセットカバー	Covers for handsets
+H04M   1/17  Z	2	0	5K023	H04M   1/17	248	その他のもの	Others
+H04M   1/18  \	2	2	5K023	H04M   1/18	395	船舶，鉱山，または悪環境にさられる場所での使用に特に適合した電話機（Ｈ０４Ｍ１／１９が優先）	Telephone sets&nbsp;specially adapted for use in ships, mines, or other places exposed to adverse environment (H04M 1/19&nbsp;takes precedence)
+H04M   1/19  \	2	2	5K023	H04M   1/19	55	立聞き防止，局部雑音減衰または不要送話防止のための送話器，受話器または全送受器の配置；そのために特に適合した送話口または受話器（立聞き防止用回路配置Ｈ０４Ｍ１／６８；電話室Ｅ０４Ｈ１／１４）	Arrangements of transmitters, receivers, or complete sets to prevent eavesdropping, to attenuate local noise or to prevent undesired transmission; Mouthpieces or receivers specially adapted therefor (circuit arrangements for preventing eavesdropping H04M 1/68; telephone cabinets E04H 1/14)
+H04M   1/19  A	2	0	5K023	H04M   1/19	221	送話音量制御	Sent sound volume control
+H04M   1/19  B	2	1	5K023	H04M   1/19	96	送話遮断構造	Sent sound shut-off structure
+H04M   1/19  Z	2	0	5K023	H04M   1/19	206	その他のもの	Others
+H04M   1/20  \	2	2	5K023	H04M   1/20	73	音声帰還防止のための配置（Ｈ０４Ｍ１／６２が優先）	Arrangements for preventing acoustic feedback (H04M 1/62 takes precedence)
+H04M   1/21  \	2	2	5K023	H04M   1/21	40	補助装置，例．時計またはメモ用紙，との結合	Combinations with auxiliary equipment, e.g. with clocks or&nbsp;memoranda pads
+H04M   1/21  A	2	0	5K023	H04M   1/21	466	電話番号早見器（電話番号表見出し器自体は，Ｂ４２Ｆ１７／３４）	Quick reference for directory numbers (directory number table display unit per se B42F17/34)
+H04M   1/21  B	2	0	5K023	H04M   1/21	223	メモ装置	Memo device
+H04M   1/21  C	2	0	5K023	H04M   1/21	410	音響カプラ	Acoustic coupler
+H04M   1/21  E	2	0	5K023	H04M   1/21	316	音声通話補助装置	Voice talk supplementary device
+H04M   1/21  D	2	1	5K023	H04M   1/21	416	電話拡声装置	Telephone loudspeaker
+H04M   1/21  F	2	0	5K023	H04M   1/21	83	保留音発生装置	Hold tone generating device
+H04M   1/21  G	2	0	5K023	H04M   1/21	263	時計・計算器	Watch or calculator
+H04M   1/21  H	2	0	5K023	H04M   1/21	16	通話保留具	Call holding device
+H04M   1/21  J	2	0	5K023	H04M   1/21	107	ピックアップ	Pick-up
+H04M   1/21  K	2	0	5K023	H04M   1/21	46	プレート	Plates
+H04M   1/21  L	2	0	5K023	H04M   1/21	154	ハンドセットに結合	coupled with handset
+H04M   1/21  M	2	0	5K023	H04M   1/21	2188	電話本体に結合	coupled with the telephone main unit
+H04M   1/21  N	2	1	5K023	H04M   1/21	105	ダイヤルに結合	coupled with the dial
+H04M   1/21  P	2	0	5K023	H04M   1/21	205	電話機支持体に結合	coupled with the telephone support
+H04M   1/21  Z	2	0	5K023	H04M   1/21	1380	その他のもの	Others
+H04M   1/215  \	3	3	5K023	H04M   1/215	18	結合手段が電話機に対して非侵入なもの，例．音響カプラ［７］	by non-intrusive coupling means, e.g. acoustic couplers [7]
+H04M   1/22  \	2	2	5K023	H04M   1/22	909	照明装置；ダイヤル上の文字を見易くするための配置	Illumination; Arrangements for improving the visibility of characters on dials
+H04M   1/23  \	2	2	5K023	H04M   1/23	126	ダイヤルのまたはそれと同等な装置の組立てまたは取り付け；その使用を容易にするための手段（見易くすることによるものＨ０４Ｍ１／２２）	Construction or mounting of dials or of equivalent devices; Means for facilitating the use thereof (by improving visibility H04M 1/22)
+H04M   1/23  A	2	0	5K023	H04M   1/23	224	押ボタン式ダイヤル（ダイヤル信号発生部に特徴を有するもの１／２６〜１／５４）	Pushbutton type dial (characterized by the dial symbol generator1/26-1/54)
+H04M   1/23  B	2	1	5K023	H04M   1/23	62	接点部	Contact
+H04M   1/23  C	2	2	5K023	H04M   1/23	16	リードスイッチ	Reed switches
+H04M   1/23  D	2	1	5K023	H04M   1/23	483	押ボタンの構造配列	Pushbutton structure or arrangement
+H04M   1/23  E	2	1	5K023	H04M   1/23	138	接点の駆動，復旧機構	Contact drive or recovery mechanism
+H04M   1/23  F	2	1	5K023	H04M   1/23	438	ケーシング，カバー，表示パネル	Casings, covers, display panels
+H04M   1/23  G	2	1	5K023	H04M   1/23	108	プリント基板に構成したもの	configured on a printed circuit board
+H04M   1/23  H	2	1	5K023	H04M   1/23	54	無接点スイツチを用いるもの	using a contactless switch
+H04M   1/23  J	2	0	5K023	H04M   1/23	59	回転式ダイヤル（ダイヤル信号発生部に特徴を有するもの１／２６〜１／５４）	Rotary dial (characterised by dial signal generator 1/26-1/54)
+H04M   1/23  K	2	1	5K023	H04M   1/23	93	ナンバープレート，表示プレート	Number plates, indication plates
+H04M   1/23  L	2	1	5K023	H04M   1/23	61	フィンガープレート	Finger plates
+H04M   1/23  M	2	1	5K023	H04M   1/23	15	フィンガーストップ	Finger stops
+H04M   1/23  N	2	0	5K023	H04M   1/23	159	ダイヤルの取付け，配置	Dial installation or layout
+H04M   1/23  P	2	0	5K023	H04M   1/23	674	使用を容易にするための手段	Means for easy use
+H04M   1/23  Q	2	1	5K023	H04M   1/23	78	両面ダイヤル	Double-sided dial
+H04M   1/23  R	2	1	5K023	H04M   1/23	62	盲人用	for eye-handicapped people
+H04M   1/23  S	2	1	5K023	H04M   1/23	36	番号ガイド手段をもつもの	having a means of number guidance
+H04M   1/23  T	2	0	5K023	H04M   1/23	187	ダイヤル操作用付加装置または補助具	Additional device or supplementary device for dial operation
+H04M   1/23  U	2	0	5K023	H04M   1/23	113	自動ダイヤル（構造以外は，Ｈ０４Ｍ１／２７）	Automatic dial (other than the structure H04M1/27)
+H04M   1/23  Z	2	0	5K023	H04M   1/23	178	その他のもの	Others
+H04M   1/24  \	1	1	5K127	H04M   1/24	217	試験装置	Arrangements for testing
+H04M   1/24  A	1	0	5K127	H04M   1/24	118	サブステーション装置の試験	Testing of substation device
+H04M   1/24  B	1	1	5K127	H04M   1/24	326	電話機の試験	Testing of the telephone
+H04M   1/24  C	1	2	5K127	H04M   1/24	55	ＤＰ式電話機の試験	Testing of the DP type telephone
+H04M   1/24  D	1	2	5K127	H04M   1/24	18	ＭＦ式電話機の試験	Testing of the MF type telephone
+H04M   1/24  E	1	2	5K127	H04M   1/24	16	自動ダイヤル式電話機の試験	Testing of the automatic dial type telephone
+H04M   1/24  F	1	2	5K127	H04M   1/24	111	音響特性の試験	Testing of the acoustic characteristics
+H04M   1/24  G	1	0	5K127	H04M   1/24	267	回線の試験	Line testing
+H04M   1/24  H	1	1	5K127	H04M   1/24	60	極性判別試験；心線対照試験	Polarity identification test; conductor verification test
+H04M   1/24  J	1	0	5K127	H04M   1/24	78	試験用送受器	Handset for testing
+H04M   1/24  Z	1	0	5K127	H04M   1/24	180	その他のもの	Others
+H04M   1/247  \	1	1	5K127	H04M   1/247	569	利用しやすくするためのユーザー・ガイダンスまたは特性選択手段を有する電話機（コードレス電話または携帯電話に特に適したユーザーインターフェースＨ０４Ｍ１／７２４）［２０２１．０１］	Telephone sets including user guidance or feature selection means facilitating their use (user interfaces specially adapted for cordless or mobile telephones H04M 1/724) [2021.01]
+H04M   1/253  \	1	1	5K127	H04M   1/253	1114	デジタル音声通信を用いる電話機［７］	Telephone sets using digital voice transmission [7]
+H04M   1/26  \	1	1	5K127	H04M   1/26	1319	加入者を呼び出すための装置（Ｈ０４Ｍ１／６６が優先）［１，７］	Devices for calling a subscriber (H04M 1/66&nbsp;takes precedence) [1,7]
+H04M   1/27  \	2	2	5K127	H04M   1/27	3848	複数の信号が同時に蓄積され得る装置［２］	Devices whereby a plurality of signals may be stored simultaneously [2]
+H04M   1/272  \	3	3	5K127	H04M   1/272	924	一時に一つの加入者番号のみを蓄積するための備えをもつもの，例．けん盤またはダイヤルによるもの［２］	with provision for storing only one subscriber number at a time, e.g. by keyboard or dial [2]
+H04M   1/274  \	3	3	5K127	H04M   1/274	4737	一時に２つ以上の加入者番号を蓄積するための備えをもつもの［２］	with provision for storing more than one subscriber number at a time [2]
+H04M   1/2745  \	4	4	5K127	H04M   1/2745	3469	静的な電子メモリを用いるもの，例．チップ［２０２０．０１］	using static electronic memories e.g. chips
+H04M   1/27453  \	5	5	5K127	H04M   1/27453	319	付加的な加入者データ，例．メタデータ，の保存が可能な電話帳［２０２０．０１］	Directories allowing storage of additional subscriber data e.g. metadata
+H04M   1/27457  \	6	6	5K127	H04M   1/27457	412	その管理，例．データの手動による編集［２０２０．０１］	Management thereof e.g. manual editing of data
+H04M   1/2746  \	6	6	5K127	H04M   1/2746	243	ソート，例．履歴または使用頻度に応じたもの［２０２０．０１］	Sorting e.g. according to history or frequency of use
+H04M   1/27467  \	5	5	5K127	H04M   1/27467	226	データを取り出す方法［２０２０．０１］	Methods of retrieving data
+H04M   1/2747  \	6	6	5K127	H04M   1/2747	32	ディスプレイ上をスクロールするもの［２０２０．０１］	Scrolling on a display
+H04M   1/27475  \	6	6	5K127	H04M   1/27475	373	対話的グラフィック手段またはピクト表示を用いるもの［２０２０．０１］	using interactive graphical means or pictorial representations
+H04M   1/2748  \	6	6	5K127	H04M   1/2748	93	文字列の照合によるもの［２０２０．０１］	by matching character strings
+H04M   1/27485  \	5	5	5K127	H04M   1/27485	248	ダイヤルシーケンスへのプレフィックスの付加またはポーズの挿入［２０２０．０１］	Appending a prefix to or inserting a pause into a dialling sequence
+H04M   1/2749  \	5	5	5K127	H04M   1/2749	675	自動ダイヤルまたはリダイヤル装置，例．オフフック時，または，ビジー中のリダイヤル［２０２０．０１］	Automatic dialling or redialling systems e.g. on off-hook or redial on busy
+H04M   1/27495  \	5	5	5K127	H04M   1/27495	30	ディスクリート電子部品による実装，すなわちプログラム可能でもマイクロプロセッサ制御でもない（Ｈ０４Ｍ１／２７４５７〜Ｈ０４Ｍ１／２７４９が優先）［２０２０．０１］	implemented by means of discrete electronic components i.e. neither programmable nor microprocessor-controlled (H04M1/27457-H04M1/2749 take precedence)
+H04M   1/275  \	5	5	5K127	H04M   1/275	690	携帯型電子電話帳を備えるもの［７］	implemented by means of portable electronic directories [7]
+H04M   1/2753  \	5	5	5K127	H04M   1/2753	53	データ内容の提供［２０２０．０１］	providing data content
+H04M   1/2755  \	6	6	5K127	H04M   1/2755	611	光学式スキャンによるもの［２００６．０１］	by optical scanning
+H04M   1/2757  \	6	6	5K127	H04M   1/2757	450	データ伝送によるもの，例．ダウンロード［２０２０．０１］	by data transmission e.g. downloading
+H04M   1/276  \	4	4	5K127	H04M   1/276	142	磁気記録を用いるもの，例．テープにおけるもの［２］	using magnetic recording, e.g. on tape [2]
+H04M   1/278  \	4	4	5K127	H04M   1/278	13	パンチカードまたはテープを用いるもの［２］	using punched cards or tapes [2]
+H04M   1/30  \	2	2	5K127	H04M   1/30	177	一時に１数字だけを設定して送出することができる装置	Devices which can set up and transmit only one digit at a time
+H04M   1/31  \	3	3	5K127	H04M   1/31	67	パルス列を発生するため電流を断続することによるもの；パルス列を発生するため接点を周期的に開路および閉路することによるもの［２］	by interrupting current to generate trains of pulses; by periodically opening and closing contacts to generate trains of pulses [2]
+H04M   1/31  A	3	0	5K127	H04M   1/31	53	回転式ダイヤル	Rotary dial
+H04M   1/31  B	3	1	5K127	H04M   1/31	5	メーク率可変のもの	variable make rate
+H04M   1/31  C	3	1	5K127	H04M   1/31	3	指転不足，過指転補償	Insufficient finger-dialling, over-dialling compensation
+H04M   1/31  D	3	1	5K127	H04M   1/31	13	特定番号を発信可能にしたもの	Origination to a particular number enabled
+H04M   1/31  E	3	1	5K127	H04M   1/31	13	インターホン用；内線呼出用	for the intercoms; for ringing an extension
+H04M   1/31  F	3	0	5K127	H04M   1/31	10	直線操作式ダイヤル	Linear operation type dial
+H04M   1/31  G	3	0	5K127	H04M   1/31	43	押ボタン式ダイヤル	Pushbutton type dial
+H04M   1/31  H	3	0	5K127	H04M   1/31	202	ダイヤルパルス発生回路	Dial pulse generating circuit
+H04M   1/31  Z	3	0	5K127	H04M   1/31	30	その他のもの	Others
+H04M   1/315  \	4	4	5K127	H04M   1/315	1	クラッチ；スプリング組立体；速度調整器，例．遠心ブレーキ（Ｈ０４Ｍ１／３２〜Ｈ０４Ｍ１／４０が優先）［３］	Clutches, spring assemblies, speed regulators, e.g. centrifugal brakes (H04M 1/32-H04M 1/40 take precedence) [3]
+H04M   1/315  A	4	0	5K127	H04M   1/315	65	接点スプリング組立体，接点駆動機構	Contact spring assembly, contact drive mechanism
+H04M   1/315  C	4	0	5K127	H04M   1/315	78	速度調整器，例．遠心ブレーキ，ダンパー	Speed adjusters, e.g. centrifugal brakes, dampers
+H04M   1/315  D	4	0	5K127	H04M   1/315	19	復旧機構，例．コイルスプリング	Recovery mechanisms, e.g. coil springs
+H04M   1/315  E	4	0	5K127	H04M   1/315	11	回転伝達機構，例．軸，歯車	Rotation transmission mechanisms, e.g. shafts, gears
+H04M   1/315  Z	4	0	5K127	H04M   1/315	0	その他のもの	Others
+H04M   1/32  \	4	4	5K127	H04M   1/32	20	利用者による混信を防止するための送出中の設定装置の閉塞	Locking setting devices during transmission to prevent interference by user
+H04M   1/34  \	4	4	5K127	H04M   1/34	20	連続して送出される数字と数字の間の休止期間を正しく保つためのから動きまたはその他の配置	Lost-motion or other arrangements for ensuring a pause between successive digit transmissions
+H04M   1/38  \	4	4	5K127	H04M   1/38	5	停止片の設定により可変的に制限される運動によってパルスが送出されるもの	Pulses transmitted by a movement variably limited by the setting of a stop
+H04M   1/40  \	4	4	5K127	H04M   1/40	7	設定動作が１サイクル中の可変部分の間，送出機構を開路または閉路するもの	wherein the setting-operation short-circuits or open-circuits the transmitting mechanism during a variable part of a cycle
+H04M   1/50  \	3	3	5K127	H04M   1/50	571	所定の周波数または周波数の組み合せをもつ電流の発生または選択によるもの［２］	by generating or selecting currents of predetermined frequencies or combinations of frequencies [2]
+H04M   1/515  \	2	2	5K127	H04M   1/515	29	同様な波形のパルス列以外の信号または１つ以上の異った周波数をもつ電流以外の信号の発生または選択によるもの，例．直流転極信号の発生，符号化されたパルスまたはインピーダンスダイヤリング［２］	by generating or selecting signals other than trains of pulses of similar shape, or signals other than currents of one or more different frequencies, e.g. generation of dc signals of alternating polarity, coded pulses or impedance dialling [2]
+H04M   1/52  \	2	2	5K127	H04M   1/52	4	ダイヤルまたは類似のものがラインセレクタへ機械的に結合されている配置	Arrangements wherein a dial or the like is mechanically coupled to a line selector
+H04M   1/53  \	2	2	5K127	H04M   1/53	118	付加信号の発生，例．付加パルス［２］	Generation of additional signals, e.g. additional pulses [2]
+H04M   1/54  \	3	3	5K127	H04M   1/54	90	ダイヤルまたは類似のものが識別信号を発生する装置，例．共同線方式におけるもの［２］	Arrangements wherein a dial or the like generates identifying signals, e.g. in party-line systems [2]
+H04M   1/56  \	1	1	5K127	H04M   1/56	2294	発呼加入者装置において被呼加入者番号を表示または記録するための配置	Arrangements for indicating or recording the called number at the calling subscriber's set
+H04M   1/57  \	1	1	5K127	H04M   1/57	3305	被呼加入者装置において発呼加入者番号を表示または記録するための配置（手動交換機における扱者装置におけるものＨ０４Ｍ５／２０）［２］	Arrangements for indicating or recording the number of the calling subscriber at the called subscriber's set (at the operator set in a manual exchange H04M 5/20) [2]
+H04M   1/58  \	1	1	5K127	H04M   1/58	43	防側音回路	Anti-side-tone circuits
+H04M   1/58  A	1	0	5K127	H04M   1/58	33	平衡回路網を用いるもの	using a balanced circuit network
+H04M   1/58  B	1	1	5K127	H04M   1/58	94	ブリッジ形	Bridge type
+H04M   1/58  C	1	1	5K127	H04M   1/58	170	ハイブリッド形	Hybrid type
+H04M   1/58  Z	1	0	5K127	H04M   1/58	199	その他のもの	Others
+H04M   1/60  \	1	1	5K127	H04M   1/60	117	音声増幅器を含むもの	including speech amplifiers
+H04M   1/60  A	1	0	5K127	H04M   1/60	1816	拡声電話機	Loudspeaker telephone
+H04M   1/60  B	1	1	5K127	H04M   1/60	105	音声呼出機能を有するもの	having a voice ringing mechanism
+H04M   1/60  C	1	1	5K127	H04M   1/60	1212	ハウリング防止機能を有するもの	having a howling preventive function
+H04M   1/60  D	1	2	5K127	H04M   1/60	679	送受信利得を制御するもの	Controlling transmission and reception gains
+H04M   1/60  E	1	0	5K127	H04M   1/60	112	音声増幅器用電源が局線から供給されるもの	Power supply for voice amplifier supplied from the office line
+H04M   1/60  Z	1	0	5K127	H04M   1/60	633	その他のもの	Others
+H04M   1/62  \	2	2	5K127	H04M   1/62	360	構造的配置	Constructional arrangements
+H04M   1/64  \	1	1	5K127	H04M   1/64	60	呼びに対する自動応答装置；不在加入者に対するメッセージの自動記録装置；会話記録装置（中央集中書取り方式Ｈ０４Ｍ１１／１０）［１，７］	Automatic arrangements for answering calls; Automatic arrangements for recording messages for absent subscribers; Arrangements for recording conversations (centralised dictation systems H04M 11/10) [1,7]
+H04M   1/64  D	1	0	5K127	H04M   1/64	555	自動音声応答	Automatic voice response
+H04M   1/64  A	1	1	5K127	H04M   1/64	201	テープレコーダを用いるもの	using a tape recorder
+H04M   1/64  E	1	2	5K127	H04M   1/64	44	駆動機構	Drive mechanism
+H04M   1/64  B	1	1	5K127	H04M   1/64	139	構造に特徴があるもの	characterized by the structure
+H04M   1/64  F	1	0	5K127	H04M   1/64	1224	自動音声応答と他の機能との結合	Coupling automatic voice response with another function
+H04M   1/64  C	1	1	5K127	H04M   1/64	85	通話データの表示	Call data indication
+H04M   1/64  Z	1	0	5K127	H04M   1/64	428	その他	Others
+H04M   1/64 101 \	2	2	5K127	H04M   1/64	362	呼びに応答して始動させる手段	Means of starting corresponding to ringing
+H04M   1/64 102 \	2	2	5K127	H04M   1/64	10	終止手段	Termination means
+H04M   1/64 102 B	2	0	5K127	H04M   1/64	22	障害を検知して終止するもの	Termination by detecting a failure
+H04M   1/64 102 Z	2	0	5K127	H04M   1/64	33	その他	Others
+H04M   1/64 103 \	2	2	5K127	H04M   1/64	32	他の電話機から操作するための手段	Means for operation from another telephone
+H04M   1/64 103 A	2	0	5K127	H04M   1/64	129	自動音声応答内容の変更・選択	Change or selection of automatic voice response details
+H04M   1/64 103 Z	2	0	5K127	H04M   1/64	120	その他	Others
+H04M   1/65  \	2	2	5K127	H04M   1/65	24	記録装置［２，７］	Recording arrangements [2,7]
+H04M   1/65  A	2	0	5K127	H04M   1/65	1065	音声メッセージの記録	Voice message recording
+H04M   1/65  B	2	1	5K127	H04M   1/65	220	２つのテープレコーダを用いるもの	using two tape recorders
+H04M   1/65  C	2	2	5K127	H04M   1/65	107	駆動機構	Drive mechanism
+H04M   1/65  D	2	0	5K127	H04M   1/65	120	始動手段	Starting means
+H04M   1/65  E	2	0	5K127	H04M   1/65	184	終止手段	Termination means
+H04M   1/65  F	2	1	5K127	H04M   1/65	133	音声スイッチを用いるもの	Using a voice switch
+H04M   1/65  G	2	1	5K127	H04M   1/65	75	障害を検知して終止するもの	Termination by detecting a failure
+H04M   1/65  H	2	0	5K127	H04M   1/65	1690	音声メッセージの記録と他の機能との結合	Coupling voice message recording with other functions
+H04M   1/65  J	2	1	5K127	H04M   1/65	660	音声メッセージ以外の記録	Recording of other than voice messages
+H04M   1/65  K	2	1	5K127	H04M   1/65	178	通話データの表示	Call data indication
+H04M   1/65  L	2	1	5K127	H04M   1/65	302	他の電話機から操作するための手段	Means for operation from another telephone
+H04M   1/65  Q	2	2	5K127	H04M   1/65	391	遠隔制御信号用回路	Remote control signal circuit
+H04M   1/65  Z	2	0	5K127	H04M   1/65	197	その他	Others
+H04M   1/652  \	3	3	5K127	H04M   1/652	5	電話回線を介したリモート・コントロールによって，記録されたメッセージを再生する手段（Ｈ０４Ｍ１／６５８が優先）［７］	Means for playing back the recorded messages by remote control over a telephone line (H04M 1/658 takes precedence) [7]
+H04M   1/652  A	3	0	5K127	H04M   1/652	82	遠隔聴取手段（Ｈ１１．５新設）	Remote listening means
+H04M   1/652  B	3	1	5K127	H04M   1/652	382	音声メッセージ用（Ｈ１１．５新設）	for voice messages
+H04M   1/652  C	3	1	5K127	H04M   1/652	77	通話データ用（Ｈ１１．５新設）	for call data
+H04M   1/652  Z	3	0	5K127	H04M   1/652	13	その他（Ｈ１１．５新設）	Others
+H04M   1/654  \	3	3	5K127	H04M   1/654	55	電話回線モニター回路，例．着信検出器［７］	Telephone line monitoring circuits therefor, e.g. ring detectors [7]
+H04M   1/656  \	3	3	5K127	H04M   1/656	446	会話を録音するためのもの［７］	for recording conversations [7]
+H04M   1/658  \	3	3	5K127	H04M   1/658	690	記録したメッセージを他の内線または装置に転送する手段［７］	Means for redirecting recorded messages to other extensions or equipment [7]
+H04M   1/66  \	1	1	5K127	H04M   1/66	1217	不当または不正な呼びを防止する手段を備えたもの（秘密または安全なデジタル通信における，利用者の身元または権限の照合Ｈ０４Ｌ９／３２）［１，７］	with means for preventing unauthorised or fraudulent calling (verifying user identity or authority in secret or secure digital communications H04L 9/32) [1,7]
+H04M   1/663  \	2	2	5K127	H04M   1/663	964	権限のない相手からの電話を防止する［７］	Preventing unauthorised calls to a telephone set [7]
+H04M   1/665  \	3	3	5K127	H04M   1/665	163	暗号の正当性をチェックすることによる［７］	by checking the validity of a code [7]
+H04M   1/667  \	2	2	5K127	H04M   1/667	615	権限のない人が電話をかけることを防止する（Ｈ０４Ｍ１／６７７が優先）［７］	Preventing unauthorised calls from a telephone set (H04M 1/677 takes precedence) [7]
+H04M   1/67  \	3	3	5K127	H04M   1/67	1077	電子的手段によるもの［７］	by electronic means [7]
+H04M   1/673  \	4	4	5K127	H04M   1/673	489	使用者が暗号をキー入力する必要があるもの［７］	the user being required to key in a code [7]
+H04M   1/675  \	4	4	5K127	H04M   1/675	289	使用者が暗号カード，例．集積回路チップを組み込んだスマート・カード，を挿入する必要があるもの［７］	the user being required to insert a coded card, e.g. a smart card carrying an integrated circuit chip [7]
+H04M   1/677  \	2	2	5K127	H04M   1/677	212	あらかじめ決めてある電話番号または選んだ種類の電話番号，例．長距離電話番号，をダイアルまたは送信することを防止するもの［７］	Preventing the dialling or sending of predetermined telephone numbers or selected types of telephone numbers, e.g. long distance numbers [7]
+H04M   1/68  \	1	1	5K127	H04M   1/68	282	盗聴防止のための回路配置	Circuit arrangements for preventing eavesdropping
+H04M   1/70  \	2	2	5K127	H04M   1/70	336	共同線方式における閉塞または秘話配置	Lock-out or secrecy arrangements in party-line systems
+H04M   1/71  \	1	1	5K127	H04M   1/71	19467	サブステーション増設配置［２０２１．０１］	Substation extension arrangements [2021.01]
+H04M   1/715  \	2	2	5K127	H04M   1/715	282	回線ごとに２台以上の増設をしたもの（コードレス電話Ｈ０４Ｍ１／７２５）［２０２１．０１］	using two or more extensions per line (cordless telephones H04M 1/725) [2021.01]
+H04M   1/72  \	1	1	5K127	H04M   1/72	19657	携帯電話；コードレス電話，すなわちルートを選ぶことなく，ベースステーションにワイヤレス接続するための装置［２０２１．０１］	Mobile telephones; Cordless telephones, i.e. devices for establishing wireless links to base stations without route selection [2021.01]
+H04M   1/724  \	2	2	5K127	H04M   1/724	961	コードレス電話または携帯電話に特に適したユーザーインターフェース［２０２１．０１］	User interfaces specially adapted for cordless or mobile telephones [2021.01]
+H04M   1/72403  \	3	3	5K127	H04M   1/72403	617	機能向上のためのアプリケーションをローカルで利用するための手段を有するもの［２０２１．０１］	with means for local support of applications that increase the functionality [2021.01]
+H04M   1/72406  \	4	4	5K127	H04M   1/72406	62	ソフトウェアのアップグレードまたはダウンロードによるもの［２０２１．０１］	by software upgrading or downloading [2021.01]
+H04M   1/72409  \	4	4	5K127	H04M   1/72409	609	外部アクセサリとの接続によるもの（ハンズフリーＨ０４Ｍ１／６０）［２０２１．０１］	by interfacing with external accessories (hands-free H04M 1/60) [2021.01]
+H04M   1/72412  \	5	5	5K127	H04M   1/72412	498	双方向の近距離無線通信インターフェースを利用するもの［２０２１．０１］	using two-way short-range wireless interfaces [2021.01]
+H04M   1/72415  \	5	5	5K127	H04M   1/72415	216	機器の遠隔制御のためのもの［２０２１．０１］	for remote control of appliances [2021.01]
+H04M   1/72418  \	4	4	5K127	H04M   1/72418	160	緊急サービスのためのもの［２０２１．０１］	for supporting emergency services [2021.01]
+H04M   1/72421  \	5	5	5K127	H04M   1/72421	125	緊急サービス機能を自動作動させるもの，例．警報の検知に応じて［２０２１．０１］	with automatic activation of emergency service functions, e.g. upon sensing an alarm [2021.01]
+H04M   1/72424  \	5	5	5K127	H04M   1/72424	94	緊急サービス機能を手動作動させるもの［２０２１．０１］	with manual activation of emergency-service functions [2021.01]
+H04M   1/72427  \	4	4	5K127	H04M   1/72427	233	ゲームまたはアニメーションのためのもの［２０２１．０１］	for supporting games or graphical animations [2021.01]
+H04M   1/7243  \	4	4	5K127	H04M   1/7243	19	メッセージの内部管理のための対話的手段を有するもの［２０２１．０１］	with interactive means for internal management of messages [2021.01]
+H04M   1/72433  \	5	5	5K127	H04M   1/72433	8	音声メッセージのためのもの，例．ディクタフォン（着信に応答するためのものＨ０４Ｍ１／６４）［２０２１．０１］	for voice messaging, e.g. dictaphones (for answering incoming calls H04M 1/64) [2021.01]
+H04M   1/72436  \	5	5	5K127	H04M   1/72436	91	文字メッセージ，例．ショートメッセージサービス［ＳＭＳ］または電子メール，のためのもの［２０２１．０１］	for text messaging, e.g. SMS or e-mail [2021.01]
+H04M   1/72439  \	5	5	5K127	H04M   1/72439	27	画像または動画メッセージのためのもの［２０２１．０１］	for image or video messaging [2021.01]
+H04M   1/72442  \	4	4	5K127	H04M   1/72442	183	音楽ファイル再生のためのもの［２０２１．０１］	for playing music files [2021.01]
+H04M   1/72445  \	4	4	5K127	H04M   1/72445	390	インターネットブラウザアプリケーションのためのもの［２０２１．０１］	for supporting Internet browser applications [2021.01]
+H04M   1/72448  \	3	3	5K127	H04M   1/72448	230	特定の条件に応じて装置の機能を適応させるための手段を有するもの［２０２１．０１］	with means for adapting the functionality of the device according to specific conditions [2021.01]
+H04M   1/72451  \	4	4	5K127	H04M   1/72451	111	スケジュールに応じるもの，例．カレンダーアプリケーションの利用［２０２１．０１］	according to schedules, e.g. using calendar applications [2021.01]
+H04M   1/72454  \	4	4	5K127	H04M   1/72454	426	状況または環境に関連する条件に応じるもの［２０２１．０１］	according to context-related or environment-related conditions [2021.01]
+H04M   1/72457  \	4	4	5K127	H04M   1/72457	129	地理的位置に応じるもの［２０２１．０１］	according to geographic location [2021.01]
+H04M   1/7246  \	4	4	5K127	H04M   1/7246	29	交換可能なハウジング部品の接続によるもの［２０２１．０１］	by connection of exchangeable housing parts [2021.01]
+H04M   1/72463  \	4	4	5K127	H04M   1/72463	131	装置の機能制限を行うもの［２０２１．０１］	to restrict the functionality of the device [2021.01]
+H04M   1/72466  \	3	3	5K127	H04M   1/72466	625	装置のモードまたはステータスにより定義される機能を有する選択手段，例．キー，を有するもの［２０２１．０１］	with selection means, e.g. keys, having functions defined by the mode or the status of the device [2021.01]
+H04M   1/72469  \	3	3	5K127	H04M   1/72469	1912	２つ以上の数の表示アイテム，例．メニューまたはアイコン，から機能を選択することにより装置を操作するためのもの［２０２１．０１］	for operating the device by selecting functions from two or more displayed items, e.g. menus or icons [2021.01]
+H04M   1/72472  \	4	4	5K127	H04M   1/72472	110	特定の基準，例．利用頻度，に従ってアイテムがソートされるもの［２０２１．０１］	wherein the items are sorted according to specific criteria, e.g. frequency of use [2021.01]
+H04M   1/72475  \	3	3	5K127	H04M   1/72475	2	障害者に特に適したもの［２０２１．０１］	specially adapted for disabled users [2021.01]
+H04M   1/72478  \	4	4	5K127	H04M   1/72478	7	聴覚障害者のためのもの［２０２１．０１］	for hearing-impaired users [2021.01]
+H04M   1/72481  \	4	4	5K127	H04M   1/72481	9	視覚障害者のためのもの［２０２１．０１］	for visually impaired users [2021.01]
+H04M   1/72484  \	3	3	5K127	H04M   1/72484	209	着信イベントにより機能がトリガされるもの［２０２１．０１］	wherein functions are triggered by incoming communication events [2021.01]
+H04M   1/725  \	2	2	5K127	H04M   1/725	1452	コードレス電話（コードレス電話に特に適したユーザーインターフェースＨ０４Ｍ１／７２４）［２０２１．０１］	Cordless telephones (user interfaces specially adapted therefor H04M 1/724) [2021.01]
+H04M   1/72502  \	3	3	5K127	H04M   1/72502	101	一回線に接続されたベースステーションとともに利用されるもの［２０２１．０１］	with one base station connected to a single line [2021.01]
+H04M   1/72505  \	4	4	5K127	H04M   1/72505	56	無線リンクのセットアップ手順［２０２１．０１］	Radio link set-up procedures [2021.01]
+H04M   1/72508  \	5	5	5K127	H04M   1/72508	5	制御チャネルを利用するもの［２０２１．０１］	using a control channel [2021.01]
+H04M   1/72511  \	5	5	5K127	H04M   1/72511	9	利用可能なチャネルを探索するもの［２０２１．０１］	Searching for available channels [2021.01]
+H04M   1/72513  \	5	5	5K127	H04M   1/72513	10	保留，インターホンまたは転送モード［２０２１．０１］	On-hold, intercom or transfer communication modes [2021.01]
+H04M   1/72516  \	4	4	5K127	H04M   1/72516	8	圏外警告のための手段を有するもの［２０２１．０１］	with means for out-of-range alerting [2021.01]
+H04M   1/727  \	3	3	5K127	H04M   1/727	51	身分証明コード（ＩＤコード）転送のための装置［７］	Identification code transfer arrangements [7]
+H04M   1/73  \	3	3	5K127	H04M   1/73	887	バッテリー節約のための装置［７］	Battery saving arrangements [7]
+H04M   1/733  \	3	3	5K127	H04M   1/733	36	複数の回線に接続した複数のベースステーションがあるもの［７］	with a plurality of base stations connected to a plurality of lines [7]
+H04M   1/737  \	3	3	5K127	H04M   1/737	24	電波以外の電磁波，例．赤外線，の送信に特徴があるもの［７］	characterised by transmission of electromagnetic waves other than radio waves, e.g. infra-red waves [7]
+H04M   1/738  \	1	1	5K127	H04M   1/738	1578	サブステーションと外部電話回線とをつなぐためのインターフェース回路（Ｈ０４Ｍ１／７８が優先）［７］	Interface circuits for coupling substations to external telephone lines (H04M 1/78 takes precedence) [7]
+H04M   1/74  \	2	2	5K127	H04M   1/74	132	混信を低減させるための手段を備えたもの；線路障害による影響を低減させるための手段を備えたもの	with means for reducing interference; with means for reducing effects due to line faults
+H04M   1/76  \	2	2	5K127	H04M   1/76	41	線路インピーダンスの差の補償	Compensating for differences in line impedance
+H04M   1/76  A	2	0	5K127	H04M   1/76	138	音声信号の線路損失を補償するもの	compensating voice signal channel loss
+H04M   1/76  B	2	0	5K127	H04M   1/76	90	防側音回路のためのもの	for the sidetone preventive circuit
+H04M   1/76  Z	2	0	5K127	H04M   1/76	91	その他のもの	Others
+H04M   1/78  \	1	1	5K127	H04M   1/78	21	低周波音声信号が線上を一方向に進み，同時に他方向に進む音声信号は高周波搬送波信号で変調されている回路配置［２］	Circuit arrangements in which low-frequency speech signals proceed in one direction on the line, while speech signals proceeding in the other direction on the line are modulated on a high-frequency carrier signal [2]
+H04M   1/80  \	1	1	5K127	H04M   1/80	549	保留回路［７］	Telephone line holding circuits [7]
+H04M   1/82  \	1	1	5K127	H04M   1/82	478	通話の進展または状況識別のための回線モニター回路［７］	Line monitoring circuits for call progress or status discrimination [7]
+H04M   3/00  \	0	0	5K201	H04M   3/00	385	自動または半自動交換機［２０２４．０１］	Automatic or semi-automatic exchanges [2024.01]
+H04M   3/00  A	0	0	5K201	H04M   3/00	1358	交換一般	Switching in general
+H04M   3/00  B	0	0	5K201	H04M   3/00	8814	統合交換，網間接続	Integrated switching, inter-network connection
+H04M   3/00  C	0	0	5K201	H04M   3/00	1048	加入者端末と交換機間の信号方式	Signalling system between the subscriber terminal and switch
+H04M   3/00  D	0	0	5K201	H04M   3/00	2912	網管理	Network management
+H04M   3/00  E	0	0	5K201	H04M   3/00	2807	保守，運転，操作に関するもの	related to maintenance, drive, and operation
+H04M   3/00  Z	0	0	5K201	H04M   3/00	754	その他のもの	Others
+H04M   3/02  \	1	1	5K037	H04M   3/02	292	サブステーションの呼出し，例．電鈴による（選択呼出Ｈ０４Ｑ）	Calling substations, e.g. by ringing (selective calling H04Q)
+H04M   3/02  A	1	0	5K037	H04M   3/02	478	呼出信号の発生，送出に特徴を持つもの	characterized by generation or transmission of ringing
+H04M   3/02  B	1	0	5K037	H04M   3/02	294	リングトリツプの方式に特徴を持つもの	characterized by the ring trip system
+H04M   3/02  Z	1	0	5K037	H04M   3/02	56	その他のもの	Others
+H04M   3/04  \	2	2	5K037	H04M   3/04	2	呼出信号が最終セレクタから供給されるもの	the calling signal being supplied from the final selector
+H04M   3/06  \	2	2	5K037	H04M   3/06	21	呼出信号が加入者線回路から供給されるもの	the calling signal being supplied from the subscriber's line circuit
+H04M   3/06  A	2	0	5K037	H04M   3/06	115	呼出信号の発生，送出に特徴を持つもの	characterized by generation or transmission of ringing
+H04M   3/06  B	2	0	5K037	H04M   3/06	71	リングトリツプの方式に特徴を持つもの	characterized by the ring trip system
+H04M   3/06  Z	2	0	5K037	H04M   3/06	11	その他のもの	Others
+H04M   3/08  \	1	1	5K019	H04M   3/08	533	回路または装置における障害の表示	Indicating faults in circuits or apparatus
+H04M   3/10  \	2	2	5K019	H04M   3/10	249	障害または故障信号の供給によるもの	Providing fault- or trouble-signals
+H04M   3/12  \	2	2	5K019	H04M   3/12	119	故障回路を“話中”にマークすること；故障回路から装置を切断すべくそれ自体に機能を与えること	Marking faulty circuits "busy"; Enabling equipment to disengage itself from faulty circuits
+H04M   3/14  \	2	2	5K019	H04M   3/14	185	永続的な“フック外し”状態の存在を報知するもの	Signalling existence of persistent "off-hook" condition
+H04M   3/16  \	1	1	5K201	H04M   3/16	49	共同線方式における閉塞または秘話装置を備えたもの	with lock-out or secrecy provision in party-line systems
+H04M   3/18  \	1	1	5K201	H04M   3/18	222	混信を低減させる手段を備えたもの；線路故障に基づく影響を低減させる手段を備えたもの	with means for reducing interference; with means for reducing effects due to line faults
+H04M   3/20  \	1	1	5K201	H04M   3/20	49	既成の接続を中断する手段を備えたもの；通話に割込む手段を備えたもの	with means for interrupting existing connections; with means for breaking-in on conversations
+H04M   3/20  A	1	0	5K201	H04M   3/20	44	空間分割スイツチを用いるもの	using a space division switch
+H04M   3/20  B	1	0	5K201	H04M   3/20	46	時分割スイツチを用いるもの	using a time division switch
+H04M   3/20  C	1	0	5K201	H04M   3/20	100	割込制御	Interrupt control
+H04M   3/20  D	1	1	5K201	H04M   3/20	16	重複割込防止	Multi-interrupt prevention
+H04M   3/20  E	1	1	5K201	H04M   3/20	37	クラスによる割込制御	Interrupt control depending on the class
+H04M   3/20  F	1	0	5K201	H04M   3/20	30	割込トランク	Interrupt trunk
+H04M   3/20  G	1	0	5K201	H04M   3/20	38	割込表示信号の送出	Transmission of the interrupt indication signal
+H04M   3/20  Z	1	0	5K201	H04M   3/20	120	その他のもの	Others
+H04M   3/22  \	1	1	5K019	H04M   3/22	111	監視，聴話または試験のための配置	Arrangements for supervision, monitoring or testing
+H04M   3/22  A	1	0	5K019	H04M   3/22	458	遠隔監視制御情報の転送	Transfer of the remote observation control information
+H04M   3/22  B	1	0	5K019	H04M   3/22	886	予備装置への切替のためのもの	for change-over to the standby equipment
+H04M   3/22  C	1	0	5K019	H04M   3/22	449	トラヒツクの規制のためのもの	for traffic regulation
+H04M   3/22  Z	1	0	5K019	H04M   3/22	3208	その他のもの	Others
+H04M   3/24  \	2	2	5K019	H04M   3/24	358	通常動作をチェックする装置を備えたもの	with provision for checking the normal operation
+H04M   3/26  \	2	2	5K019	H04M   3/26	29	試験信号を印加するための手段をもつもの	with means for applying test signals
+H04M   3/26  A	2	0	5K019	H04M   3/26	670	通話路系の試験	Testing of the channel system
+H04M   3/26  B	2	0	5K019	H04M   3/26	100	信号系の試験	Testing of the signal system
+H04M   3/26  C	2	0	5K019	H04M   3/26	326	遠隔試験	Remote test
+H04M   3/26  D	2	0	5K019	H04M   3/26	162	被試験部と試験装置との接続	Connection between unit under test and testing device
+H04M   3/26  E	2	0	5K019	H04M   3/26	381	試験呼の発生〔例．擬似呼装置〕	Test call generation, e.g. dummy call device
+H04M   3/26  F	2	0	5K019	H04M   3/26	91	布線検査	Wiring inspection
+H04M   3/26  G	2	0	5K019	H04M   3/26	512	デジタル交換機における試験	Testing on a digital switch
+H04M   3/26  Z	2	0	5K019	H04M   3/26	983	その他のもの	Others
+H04M   3/28  \	3	3	5K019	H04M   3/28	29	自動的な定期試験	Automatic routine testing
+H04M   3/30  \	4	4	5K019	H04M   3/30	816	加入者線に対するもの	for subscribers' lines
+H04M   3/32  \	4	4	5K019	H04M   3/32	168	交換機間の線路に対するもの	for lines between exchanges
+H04M   3/34  \	3	3	5K019	H04M   3/34	9	漏話に対する試験	Testing for cross-talk
+H04M   3/36  \	2	2	5K019	H04M   3/36	24	統計的登算，例．トラヒックがトランク容量をこえた場合の記録	Statistical metering, e.g. recording occasions when traffic exceeds capacity of trunks
+H04M   3/36  A	2	0	5K019	H04M   3/36	355	トラヒツク量の測定	Traffic volume measurement
+H04M   3/36  B	2	0	5K019	H04M   3/36	555	トラヒツク量の監視制御	Traffic volume observation and control
+H04M   3/36  C	2	0	5K019	H04M   3/36	141	トラヒツク量の監査〔例．トラヒツクの記録〕	Traffic volume audit, e.g. traffic recording
+H04M   3/36  Z	2	0	5K019	H04M   3/36	73	その他のもの	Others
+H04M   3/38  \	1	1	5K201	H04M   3/38	406	グレージングサービス装置，すなわち，一定の加入者群は一定の接続の完成を防止されるもの（出線装置Ｈ０４Ｑ３／６４）	Graded-service arrangements, i.e. some subscribers prevented from establishing certain connections (queuing arrangements H04Q 3/64)
+H04M   3/40  \	1	1	5K201	H04M   3/40	39	音声増幅器の適用	Applications of speech amplifiers
+H04M   3/42  \	1	1	5K201	H04M   3/42	402	加入者に対する特殊なサービスを備えた方式（無線通信ネットワークに特に適合したものＨ０４Ｗ４／００）	Systems providing special services or facilities to subscribers (specially adapted for wireless communication networks H04W 4/00)
+H04M   3/42  A	1	0	5K201	H04M   3/42	796	特殊サ−ビス機能を上位局に集中化させたもの	Special service functions concentrated into the upper station
+H04M   3/42  B	1	0	5K201	H04M   3/42	1377	加入者への特殊サ−ビス用信号の送出	Transmission of the special service signal to the subscriber
+H04M   3/42  Q	1	1	5K201	H04M   3/42	1515	可聴音，音声による通知	Notification using audible sound or voice
+H04M   3/42  R	1	1	5K201	H04M   3/42	1602	可視信号による通知	Notification using a visible signal
+H04M   3/42  S	1	1	5K201	H04M   3/42	273	着信種別の通知	Termination type notification
+H04M   3/42  T	1	1	5K201	H04M   3/42	1620	発呼者情報の通知	Caller information notification
+H04M   3/42  C	1	0	5K201	H04M   3/42	1140	加入者端末からの特殊サ−ビス用信号の受信	Reception of the special service signal from the subscriber terminal
+H04M   3/42  D	1	0	5K201	H04M   3/42	1197	加入者サ−ビスクラスの登録，変更，解除	Registration, change, or cancellation of the subscriber service class
+H04M   3/42  U	1	1	5K201	H04M   3/42	3005	加入者の在，不在；所在地；空，塞りの登録，表示	Subscriber presence/absence; location; vacant/blocked registration or indication
+H04M   3/42  E	1	0	5K201	H04M   3/42	3563	加入者サ−ビスクラス，登録番号の照合により接続制御を行うもの	Connection control performed by verifying the subscriber service class and registration number
+H04M   3/42  F	1	0	5K201	H04M   3/42	808	コールウェイティング、アッドオン	Call waiting, add-on
+H04M   3/42  G	1	0	5K201	H04M   3/42	92	ペア形通信，ホツトライン，特殊共電	Pair type communication, hot line, special CB system
+H04M   3/42  W	1	0	5K201	H04M   3/42	186	回線予約	Line reservation
+H04M   3/42  J	1	0	5K201	H04M   3/42	2908	伝言、通報を蓄積した後、着信者に送出するもの	storing messages and reports then transmitting them to the terminating party (voice mailbox)
+H04M   3/42  K	1	0	5K201	H04M   3/42	157	ステツプコ−ル〔リセツトコ−ル〕，シリ−ズコ−ル	Step call (reset call), series call
+H04M   3/42  L	1	0	5K201	H04M   3/42	234	被呼者不応答時の再接続	Reconnection when the called party does not respond
+H04M   3/42  M	1	0	5K201	H04M   3/42	152	コ−ルピツクアツプ	Call pickup
+H04M   3/42  N	1	0	5K201	H04M   3/42	262	代行応答，インタ−セプシヨン	Substitute response, interception
+H04M   3/42  P	1	0	5K201	H04M   3/42	930	音声認識	Voice recognition
+H04M   3/42  Z	1	0	5K201	H04M   3/42	6701	その他のもの	Others, e.g. time notification
+H04M   3/42 101 \	2	2	5K201	H04M   3/42	642	指令接続サ−ビスのための配置	Layout for the command connection service
+H04M   3/42 102 \	2	2	5K201	H04M   3/42	882	ペ−ジング接続サ−ビスのための配置	Layout for the paging connection service
+H04M   3/42 103 \	2	2	5K201	H04M   3/42	118	呼を逆探知するための配置	Layout for call countermeasure
+H04M   3/424  \	2	2	5K201	H04M   3/424	34	自動リダイヤル装置（加入者の電話機におけるものＨ０４Ｍ１／２７）［７］	Arrangements for automatic redialling (at the subscriber's set H04M 1/27) [7]
+H04M   3/428  \	2	2	5K201	H04M   3/428	101	着呼を保留にするための配置［７］	Arrangements for placing incoming calls on hold [7]
+H04M   3/432  \	2	2	5K201	H04M   3/432	362	特定の時間に加入者に発呼するための配置，例．モーニングコールサービス［７］	Arrangements for calling a subscriber at a specific time, e.g. morning call service [7]
+H04M   3/436  \	2	2	5K201	H04M   3/436	236	着呼を選別するための配置［７］	Arrangements for screening incoming calls [7]
+H04M   3/44  \	2	2	5K201	H04M   3/44	795	頻繁に呼ぶ相手にアクセスするための付加的な接続配置，例．短縮ダイヤル（加入者の電話機におけるものＨ０４Ｍ１／２７；自動リダイヤルＨ０４Ｍ３／４２４）［１，７］	Additional connecting arrangements for providing access to frequently-wanted subscribers, e.g. abbreviated dialling (at the subscriber's set H04M 1/27; automatic redialling H04M 3/424) [1,7]
+H04M   3/46  \	2	2	5K201	H04M   3/46	273	１つの応答があるまで一定の順序で一群の加入者を呼ぶための配置	Arrangements for calling a number of substations in a predetermined sequence until an answer is obtained
+H04M   3/48  \	2	2	5K201	H04M   3/48	164	所望の加入者が話中でなくなったときに，発呼加入者を呼び戻すための配置	Arrangements for recalling a calling subscriber when the wanted subscriber ceases to be busy
+H04M   3/48  A	2	0	5K201	H04M   3/48	32	ダブルキヤンプオン防止	Double camp-on prevention
+H04M   3/48  B	2	0	5K201	H04M   3/48	51	出トランク或は両方向トランク全話中待合せ	Waiting when the outgoing trunk or bi-directional trunk is busy
+H04M   3/48  Z	2	0	5K201	H04M   3/48	420	その他のもの	Others
+H04M   3/487  \	2	2	5K201	H04M   3/487	1199	情報サービス，例．録音された音声サービスまたは時報，を提供するための配置［７］	Arrangements for providing information services, e.g. recorded voice services or time announcements [7]
+H04M   3/493  \	3	3	5K201	H04M   3/493	1325	相互的な情報サービス，例．番号案内［７］	Interactive information services, e.g. directory enquiries [7]
+H04M   3/50  \	2	2	5K201	H04M   3/50	346	呼びに応答するための中央集中装置；不在または話中の加入者のための中央集中配置（Ｈ０４Ｍ３／４８７が優先；中央集中書取りシステムＨ０４Ｍ１１／１０）［１，７］	Centralised arrangements for answering calls; Centralised arrangements for recording messages for absent or busy subscribers (H04M 3/487 takes precedence; centralised dictation systems H04M 11/10) [1,7]
+H04M   3/50  A	2	0	5K201	H04M   3/50	1375	音声自動応答装置	Voice automatic response device
+H04M   3/50  B	2	0	5K201	H04M   3/50	747	不在者に対するメツセ−ジの記録	Recording the message for an absent person
+H04M   3/50  Z	2	0	5K201	H04M   3/50	425	その他のもの	Others
+H04M   3/51  \	3	3	5K201	H04M   3/51	1219	オペレーターの仲介が必要な中央集中電話応答配置［７］	Centralised call answering arrangements requiring operator intervention [7]
+H04M   3/52  \	4	4	5K201	H04M   3/52	21	空き番号にかかった電話をオペレーターに回す装置	Arrangements for routing dead number calls to operators
+H04M   3/523  \	4	4	5K201	H04M   3/523	491	呼の分配またはキューイング［７］	with call distribution or queuing [7]
+H04M   3/527  \	3	3	5K201	H04M   3/527	239	オペレーターの仲介を必要としない中央集中電話応答配置［７］	Centralised call answering arrangements not requiring operator intervention [7]
+H04M   3/53  \	3	3	5K201	H04M   3/53	490	メッセージを記録するための中央集中配置［７］	Centralised arrangements for recording incoming messages [7]
+H04M   3/533  \	4	4	5K201	H04M   3/533	371	ボイスメールシステム［７］	Voice mail systems [7]
+H04M   3/537  \	4	4	5K201	H04M   3/537	181	記録したメッセージがあることを知らせるための配置［７］	Arrangements for indicating the presence of a recorded message [7]
+H04M   3/54  \	2	2	5K201	H04M   3/54	2009	ある加入者に対する呼びを他のあらかじめ決められた加入者に転送するための配置	Arrangements for diverting calls for one subscriber to another predetermined subscriber
+H04M   3/56  \	2	2	5K201	H04M   3/56	596	幾人かの加入者を１つの共通回路に接続するための配置，会議ができるようにするための配置（テレビ会議システムＨ０４Ｎ７／１５）	Arrangements for connecting several subscribers to a common circuit, i.e. affording conference facilities (video conference systems H04N 7/15)
+H04M   3/56  A	2	0	5K201	H04M   3/56	840	接続配置	Connection layout
+H04M   3/56  D	2	1	5K201	H04M   3/56	180	時分割形	Time division type
+H04M   3/56  B	2	0	5K201	H04M   3/56	464	音声合成，混合	Voice synthesizing or mixing
+H04M   3/56  E	2	1	5K201	H04M   3/56	82	時分割形	Time division type
+H04M   3/56  F	2	2	5K201	H04M   3/56	204	Ｎ−１加算方式	N-1 addition system
+H04M   3/56  G	2	2	5K201	H04M   3/56	45	最大値制御方式	Maximum value control system
+H04M   3/56  C	2	0	5K201	H04M   3/56	2526	テレビ電話会議〔電話主体のテレビ電話会議；テレビ画像主体のもの，Ｈ０４Ｎ〕	TV telephone conference (TV telephone conference mainly with telephone; mainly with TV images H 04 N)
+H04M   3/56  Z	2	0	5K201	H04M   3/56	1599	その他のもの	Others
+H04M   3/58  \	2	2	5K201	H04M   3/58	163	受けた呼びを１つの加入者から他の加入者へ転送するための配置；発呼者または被呼者のいずれかと，第３者との間の中間通話を可能にするための配置（サブステーションの保留回路Ｈ０４Ｍ１／８０）［１，７］	Arrangements for transferring received calls from one subscriber to another; Arrangements affording interim conversations between either the calling or the called party and a third party (substation line holding circuits H04M 1/80) [1,7]
+H04M   3/58  A	2	0	5K201	H04M   3/58	463	コ−ルバツクトランスフア−	Call-back transfer
+H04M   3/58  B	2	0	5K201	H04M   3/58	231	コ−ルバツク	Call-back
+H04M   3/58  Z	2	0	5K201	H04M   3/58	196	その他のもの	Others
+H04M   3/60  \	1	1	5K063	H04M   3/60	234	半自動方式，すなわち出線の数字選択が扱い者の制御下にある方式	Semi-automatic systems, i.e. systems in which the numerical selection of the outgoing line is under the control of an operator
+H04M   3/60  A	1	0	5K063	H04M   3/60	180	有紐式交換台に関するもの	related to the cord switchboard
+H04M   3/60  C	1	0	5K063	H04M   3/60	429	台との接続方式に関するもの	related to the system of connection with the switchboard
+H04M   3/60  D	1	1	5K063	H04M   3/60	243	台への呼の分配	Call distribution to the switchboard
+H04M   3/60  N	1	1	5K063	H04M   3/60	34	デイジタル回線の接続	Digital line connection
+H04M   3/60  P	1	1	5K063	H04M   3/60	49	音声蓄積・応答手段を用いた接続	Connection using the voice storage and response means
+H04M   3/60  E	1	0	5K063	H04M   3/60	145	台の制御方式〔制御装置と台との信号送受等〕	Switchboard connection system (signal transmission between the controller and switchboard)
+H04M   3/60  F	1	1	5K063	H04M   3/60	89	台への表示	Indication to the switchboard
+H04M   3/60  R	1	2	5K063	H04M   3/60	256	可視表示	Visible indication
+H04M   3/60  Q	1	2	5K063	H04M   3/60	41	可聴表示	Audible indication
+H04M   3/60  G	1	1	5K063	H04M   3/60	137	台からの電鍵情報送出	Transmission of the key information from the switchboard
+H04M   3/60  H	1	0	5K063	H04M   3/60	52	特殊交換台	Special switchboards
+H04M   3/60  J	1	1	5K063	H04M   3/60	56	国際通話用〔言語援助等〕	for international calls (language support, etc.)
+H04M   3/60  K	1	1	5K063	H04M   3/60	15	扱者訓練用〔擬似交換台等〕	for operator training (dummy switchboard, etc.)
+H04M   3/60  L	1	1	5K063	H04M   3/60	124	消防，警察等，緊急電話受付用	for reception of emergency calls to fire stations, police departments, etc.
+H04M   3/60  M	1	0	5K063	H04M   3/60	58	台の電気的機械的構造の細部	Details of the switchboard's electrical or mechanical structure
+H04M   3/60  Z	1	0	5K063	H04M   3/60	150	その他のもの	Others
+H04M   3/62  \	2	2	5K063	H04M   3/62	6	けん盤装置	Keyboard equipment
+H04M   3/64  \	2	2	5K063	H04M   3/64	72	発呼線の番号またはクラスを扱者に報知するための配置（交換機間動作における扱者間Ｈ０４Ｍ５／１８）	Arrangements for signalling the number or class of the calling line to the operator (between operators in inter-exchange working H04M 5/18)
+H04M   5/00  \	0	0	5K045	H04M   5/00	179	手動交換機（サブステーション一般Ｈ０４Ｍ１／００）	Manual exchanges (substation equipment in general H04M 1/00)
+H04M   5/02  \	1	1	5K045	H04M   5/02	131	構造的な細部（ジャック，ジャック−プラグ，Ｈ０１Ｒ２４／５８）	Constructional details (jacks, jack-plugs H01R 24/58)
+H04M   5/04  \	1	1	5K045	H04M   5/04	42	発呼を表示するための，または発呼または終話のための接続を監視するための配置	Arrangements for indicating calls or supervising connections for calling or clearing
+H04M   5/06  \	2	2	5K045	H04M   5/06	18	呼びの自動的分配をもたらすもの	affording automatic call distribution
+H04M   5/08  \	1	1	5K045	H04M   5/08	84	接続紐以外の接続手段を用いるもの	using connecting means other than cords
+H04M   5/10  \	1	1	5K045	H04M   5/10	94	各加入者に対し別個のプラグを使用するもの	using separate plug for each subscriber
+H04M   5/12  \	1	1	5K045	H04M   5/12	21	サブステーションの呼出し，例．電鈴による	Calling substations, e.g. by ringing
+H04M   5/14  \	1	1	5K045	H04M   5/14	7	音声増幅器の適用	Applications of speech amplifiers
+H04M   5/16  \	1	1	5K045	H04M   5/16	22	混信を低減する手段を備えたもの；線路故障による影響を低減する手段を備えたもの	with means for reducing interference; with means for reducing effects due to line faults
+H04M   5/18  \	1	1	5K045	H04M   5/18	10	被呼線もしくは発呼線のクラスまたは番号を１つの交換機から他の交換機に報知する装置	Arrangements for signalling the class or number of called or calling line from one exchange to another
+H04M   5/20  \	2	2	5K045	H04M   5/20	7	入線の番号を表示するための配置	Arrangements for indicating the numbers of the incoming lines
+H04M   7/00  \	0	0	5K201	H04M   7/00	117	中央交換点間の相互接続のための配置	Arrangements for interconnection between switching centres
+H04M   7/00  A	0	0	5K201	H04M   7/00	535	デイジタル回線を用いるもの	using the digital line
+H04M   7/00  Z	0	0	5K201	H04M   7/00	469	その他のもの	Others
+H04M   7/02  \	1	1	5K201	H04M   7/02	10	地気電位の差を補償するために変形されたもの	for compensating differences of ground potential
+H04M   7/04  \	1	1	5K201	H04M   7/04	19	線路インピーダンスの差を補償するために変形されたもの	for compensating differences of line impedance
+H04M   7/06  \	1	1	5K201	H04M   7/06	35	制御または監視用の補助接続を用いるもの	using auxiliary connections for control or supervision
+H04M   7/06  A	1	0	5K201	H04M   7/06	488	共通線信号方式	Common line signalling system
+H04M   7/06  Z	1	0	5K201	H04M   7/06	41	その他のもの	Others
+H04M   7/08  \	1	1	5K201	H04M   7/08	10	重信回線動作に適合されたもの	for phantom working
+H04M   7/10  \	1	1	5K201	H04M   7/10	22	２方向動作に適合されたもの，すなわち同一接続を経て各々の方向に呼びが供給されるもの	for two-way working, i.e. calls may be set-up in either direction over the same connection
+H04M   7/12  \	1	1	5K201	H04M   7/12	57	別々の形式のスイッチ装置を有する交換機間の動作のために適合されたもの，例．パワドリブン式とステップバイステップ式または１０進型と非１０進型	for working between exchanges having different types of switching equipment, e.g. power-driven and step by step or decimal and non-decimal
+H04M   7/14  \	1	1	5K201	H04M   7/14	104	主および従交換点を含む方式におけるもの（主交換機から充電される従交換機の電流供給源Ｈ０４Ｍ１９／０６）	in systems involving main and subordinate switching centres (current supply source at subordinate switching centre charged from main exchange H04M 19/06)
+H04M   7/16  \	1	1	5K201	H04M   7/16	75	搬送周波数を用いる方式におけるもの	in systems employing carrier frequencies
+H04M   9/00  \	0	0	5K038	H04M   9/00	115	中央集中交換を含まない相互接続のための配置	Arrangements for interconnection not involving centralised switching
+H04M   9/00  A	0	0	5K038	H04M   9/00	585	親１局対１局の配置「図」	Layout of one parent station to one child station
+H04M   9/00  B	0	1	5K038	H04M   9/00	631	呼出しに特徴があるもの	characterized by ringing
+H04M   9/00  C	0	1	5K038	H04M   9/00	428	搬送波によるもの〔無線も含む〕	using the carrier (including radio)
+H04M   9/00  D	0	1	5K038	H04M   9/00	3372	付加機能〔例えば，警報，留守番等〕又は，他装置〔ラジオ，電話等〕との結合	Coupling with an additional function, e.g. alarm, automatic answering, etc. and another device (radio, telephone, etc.)
+H04M   9/00  F	0	0	5K038	H04M   9/00	678	親一局対子多局の配置「図」	Layout of one parent station to many child stations
+H04M   9/00  G	0	1	5K038	H04M   9/00	186	選局	Channel selection
+H04M   9/00  H	0	1	5K038	H04M   9/00	2599	他装置との結合〔電話回線，ＣＡＴＶ，玄関機等〕	Coupling with another device (telephone line, CATV, inter-phone, etc.)
+H04M   9/00  J	0	0	5K038	H04M   9/00	247	親多局対子多局の配置「図」	Layout of many parent stations to many child stations
+H04M   9/00  K	0	0	5K038	H04M   9/00	381	会議のための配置	Layout for conference
+H04M   9/00  Z	0	0	5K038	H04M   9/00	509	その他のもの	Others
+H04M   9/02  \	1	1	5K038	H04M   9/02	535	全共同加入者用の１本の共通線路を含むもの	involving a common line for all parties
+H04M   9/04  \	1	1	5K038	H04M   9/04	4	２共同加入者の組ごとの別々の線路を含むもの	involving a separate line for each pair of parties
+H04M   9/06  \	1	1	5K038	H04M   9/06	50	相互接続線の結合を含むもの	involving combinations of interconnecting lines
+H04M   9/08  \	1	1	5K038	H04M   9/08	614	信号を調節するため，例．トラヒックの１方向または双方向の反響を抑制するため，の手段を備えた２方向拡声電話方式	Two-way loud-speaking telephone systems with means for conditioning the signal, e.g.&nbsp; for suppressing echoes for one or both directions of traffic
+H04M   9/10  \	2	2	5K038	H04M   9/10	280	音声周波数により伝送の方向を切換える手段を備えたもの	with switching of direction of transmission by voice frequency
+H04M  11/00  \	0	0	5K201	H04M  11/00	1474	他の電気システムとの結合のために特に適合した電話通信方式	Telephonic communication systems specially adapted for combination with other electrical systems
+H04M  11/00 301 \	1	1	5K201	H04M  11/00	14897	遠隔制御，遠隔監視に適合されたもの	suitable for remote control or remote observation
+H04M  11/00 302 \	1	1	5K201	H04M  11/00	26663	デ−タ伝送に適合されたもの（音声とデ−タの同時伝送Ｈ０４Ｍ１１／０６）	suitable for data transmission (simultaneous transmission of voice and data H 04 M 11/06)
+H04M  11/00 303 \	2	2	5K201	H04M  11/00	18498	電話回線との接続制御，例．網制御装置	Telephone line connection control, e.g. network controller
+H04M  11/02  \	1	1	5K201	H04M  11/02	288	ベルまたは表示器方式と結合されたもの	with bell or annunciator systems
+H04M  11/04  \	1	1	5K201	H04M  11/04	6461	警報方式，例．火災，警察または盗難警報方式，と結合されたもの	with alarm systems, e.g. fire, police or burglar alarm systems
+H04M  11/06  \	1	1	5K201	H04M  11/06	4949	音声とデータの同時伝送，例．同一線路上の電信送信	Simultaneous speech and data transmission, e.g. telegraphic&nbsp;transmission over the same conductors
+H04M  11/08  \	1	1	5K201	H04M  11/08	3207	娯楽または連絡事項の選択的受信のために特に適合したもの	specially adapted for optional reception of entertainment or informative matter
+H04M  11/10  \	1	1	5K201	H04M  11/10	999	記録および再生方式と結合されたもの	with dictation recording and playback systems
+H04M  13/00  \	0	0	5K044	H04M  13/00	323	共同線方式（サブステーション装置Ｈ０４Ｍ１／００；交換機設備Ｈ０４Ｍ３／００，Ｈ０４Ｍ５／００；登算配置Ｈ０４Ｍ１５／３６）	Party-line systems (substation equipment H04M 1/00; exchange equipment H04M 3/00, H04M 5/00; metering arrangements H04M 15/36)
+H04M  15/00  \	0	0	5K025	H04M  15/00	32	登算，時間制御または時間表示のための配置［２０２４．０１］	Arrangements for metering, time-control or time-indication [2024.01]
+H04M  15/00  A	0	0	5K025	H04M  15/00	123	度数計に関するもの	related to the call meter
+H04M  15/00  B	0	0	5K025	H04M  15/00	336	課金情報の転送	Charging information transfer
+H04M  15/00  C	0	0	5K025	H04M  15/00	120	課金パルスの発生，分配	Charging pulse generation or distribution
+H04M  15/00  D	0	0	5K025	H04M  15/00	87	課金トランク，リンク	Charging trunk or link
+H04M  15/00  E	0	0	5K025	H04M  15/00	522	課金計算システム	Charging calculation system
+H04M  15/00  F	0	0	5K025	H04M  15/00	252	公衆電話に対するもの	for the public telephone
+H04M  15/00  G	0	0	5K025	H04M  15/00	1259	移動加入者に対するもの〔第１優先〕	for the mobile subscriber (top priority)
+H04M  15/00  Z	0	0	5K025	H04M  15/00	2015	その他のもの〔プリペイドカ−ド，クレジツトカ−ド等のカ−ドを使用したもの〕	Others (using a card such as the prepaid card, credit card, etc.)
+H04M  15/00 101 \	1	1	5K025	H04M  15/00	163	音声による通話時分または料金の通知（例，磁気録音テ−プ等による自動料金通知）	Notification of the call time or charge with voice, e.g. automatic charge notification with the magnetic recording tape, etc.
+H04M  15/02  \	1	1	5K025	H04M  15/02	135	所定時間後の切断	Severing connection after a predetermined time
+H04M  15/04  \	1	1	5K025	H04M  15/04	246	印刷，さん孔またはその他永久的な形での呼びの記録	Recording calls in printed, perforated, or other permanent form
+H04M  15/06  \	2	2	5K025	H04M  15/06	118	発呼者または被呼者のクラスまたは番号の記録	Recording class or number of calling party or&nbsp;called party
+H04M  15/08  \	1	1	5K025	H04M  15/08	289	被呼者への呼びの登算	Metering calls to called party
+H04M  15/10  \	1	1	5K025	H04M  15/10	36	発呼者からの呼びの登算	Metering calls from calling party
+H04M  15/12  \	2	2	5K025	H04M  15/12	173	識別登算	Discriminative metering
+H04M  15/14  \	3	3	5K025	H04M  15/14	37	発呼者のクラスによるもの	according to class of calling party
+H04M  15/16  \	3	3	5K025	H04M  15/16	536	行なわれた接続によるもの	according to connection obtained
+H04M  15/18  \	3	3	5K025	H04M  15/18	120	呼びの時間によるもの	according to duration of call
+H04M  15/20  \	4	4	5K025	H04M  15/20	90	扱い者の必要な時間の記録または表示配置	Operator's time recording or indicating arrangements
+H04M  15/22  \	3	3	5K025	H04M  15/22	30	時刻によるもの	according to time of day
+H04M  15/24  \	3	3	5K025	H04M  15/24	32	ある回線，例．消防署や救急病院，に対する無料呼びの登算の防止によるもの	preventing metering of tax-free calls to certain lines, e.g. to fire or ambulance stations
+H04M  15/26  \	2	2	5K025	H04M  15/26	23	オペレータによって制御される交換機における計量器によるもの	with a meter at the exchange controlled by an operator
+H04M  15/28  \	1	1	5K025	H04M  15/28	38	サブステーションに計量器を備えたもの	with meter at substation
+H04M  15/28  A	1	0	5K025	H04M  15/28	75	通話時間を表示するもの〔Ｂを優先〕	Call time indication (B takes precedence.)
+H04M  15/28  B	1	0	5K025	H04M  15/28	169	通話料金を表示するもの	Call charge indication
+H04M  15/28  C	1	1	5K025	H04M  15/28	233	局から課金信号を送出するもの	Transmission of the charge signal from the station
+H04M  15/28  Z	1	0	5K025	H04M  15/28	45	その他のもの	Others
+H04M  15/30  \	2	2	5K025	H04M  15/30	12	交換機からの制御を受けていない計量器	the meter not being controlled from an exchange
+H04M  15/30  A	2	0	5K025	H04M  15/30	366	通話時間を表示するもの〔Ｂを優先〕	Call time indication (B takes precedence.)
+H04M  15/30  B	2	0	5K025	H04M  15/30	372	通話料金を表示するもの	Call charge indication
+H04M  15/30  Z	2	0	5K025	H04M  15/30	76	その他のもの	Others
+H04M  15/32  \	1	1	5K025	H04M  15/32	22	１本または複数本の交換機線路を市内線路群に接続するところの従局または集線装置のための登算配置	Metering arrangements for satellites or concentrators which connect one or more exchange lines with a group of local lines
+H04M  15/34  \	1	1	5K025	H04M  15/34	463	構内交換機用登算配置	Metering arrangements for private branch exchanges
+H04M  15/36  \	1	1	5K025	H04M  15/36	85	共同線用登算配置	Metering arrangements for party-lines
+H04M  15/38  \	1	1	5K025	H04M  15/38	45	機械的ステップバイステップ式計数器型以外の装置による登算	Metering by apparatus other than&nbsp;mechanical step-by-step counter type
+H04M  17/00  \	0	0	5K040	H04M  17/00	91	料金前納式電話システム（電話から正当な電話をかけるのに暗号カードを使用するものＨ０４Ｍ１／６７５）［２０２４．０１］	Prepayment telephone systems (using a coded card to authorise calls from a telephone set H04M 1/675) [2024.01]
+H04M  17/00  A	0	0	5K040	H04M  17/00	146	移動通信のためのもの	for mobile communication
+H04M  17/00  B	0	0	5K040	H04M  17/00	56	特殊番号通話に対する配置	Layout for special number call
+H04M  17/00  C	0	0	5K040	H04M  17/00	158	不正使用の防止；発信規制	Illegal use prevention; origination regulation
+H04M  17/00  D	0	0	5K040	H04M  17/00	136	試験；監視〔盗難監視を含む〕	Testing; observation (including robbery observation)
+H04M  17/00  Z	0	0	5K040	H04M  17/00	892	その他のもの	Others
+H04M  17/02  \	1	1	5K040	H04M  17/02	42	コイン解放または合札解放方式	Coin-freed or check-freed systems
+H04M  17/02  A	1	0	5K040	H04M  17/02	396	カ−ド解放方式	Card release system
+H04M  17/02  Z	1	0	5K040	H04M  17/02	599	その他のもの	Others
+H04M  19/00  \	0	0	5K037	H04M  19/00	1333	電話方式のための電流供給配置（選択装置のためのものＨ０４Ｑ１／２８）	Current supply arrangements for telephone systems (for selecting equipment H04Q 1/28)
+H04M  19/00 101 \	1	1	5K037	H04M  19/00	846	サブステーションへの電流を供給する交換機における電流供給電源	power supply for supply of current in switch for supplying current to substation
+H04M  19/00 103 \	2	2	5K037	H04M  19/00	39	線路変成器におけるＤＣフラックス補正用装置	DC flux correction device in line transformer
+H04M  19/00 105 \	2	2	5K037	H04M  19/00	74	線路変成器を使用しない給電装置	feeding device not using line transformer
+H04M  19/00 106 \	2	2	5K037	H04M  19/00	105	電流供給電源の範囲拡張回路	range expansion circuit for power supply for supply of current
+H04M  19/00 108 \	2	2	5K037	H04M  19/00	75	ＤＣ／ＤＣコンバータを使用するもの（ＤＣ／ＤＣコンバータそれ自体Ｈ０２Ｍ３／２８）	use DC/DC converter (DC/DC converter per se H02M3/28)
+H04M  19/02  \	1	1	5K037	H04M  19/02	812	信号電流または監視信号音，例．発信音または話中音，の供給	providing ringing current or supervisory tones, e.g. dialling tone or busy tone
+H04M  19/04  \	2	2	5K037	H04M  19/04	141	サブステーションにおいて発生される信号電流	the ringing-current being generated at the substations
+H04M  19/06  \	1	1	5K037	H04M  19/06	62	従交換点の電流供給源が主交換局から充電されているもの	in which current supply sources at subordinate switching centres are&nbsp;charged from the main exchange
+H04M  19/08  \	1	1	5K037	H04M  19/08	1002	サブステーションに電流供給源を有するもの（呼出し信号電流の発生Ｈ０４Ｍ１９／０４）［１，７］	with current supply sources at the substations (generating ringing current H04M 19/04) [1,7]
+H04M  19/08 100 \	2	2	5K037	H04M  19/08	265	回線の電流を使用しないもの	not use current of circuit
+H04M  99/00  \	0	0	5K127	H04M  99/00	0	このサブクラスの他のグループに分類されない主題事項［８］	Subject matter not provided for in other groups of this subclass [8]

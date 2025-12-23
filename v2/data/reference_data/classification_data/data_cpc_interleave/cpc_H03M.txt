@@ -1,0 +1,737 @@
+H03M1/00	7	Analogue/digital conversion; Digital/analogue conversion (conversion of analogue values to or from differential modulation H03M3/00)	H03M1/00	H03M1/00		5087
+H03M1/001	8	{Analogue/digital/analogue conversion}	H03M1/00	H03M1/00		375
+H03M1/002	8	{Provisions or arrangements for saving power, e.g. by allowing a sleep mode, using lower supply voltage for downstream stages, using multiple clock domains or by selectively turning on stages when needed}	H03M1/00	H03M1/00		1129
+H03M1/004	8	{Reconfigurable analogue/digital or digital/analogue converters (H03M1/02 takes precedence)}	H03M1/00	H03M1/00		117
+H03M1/005	9	{among different converters types}	H03M1/00	H03M1/00		56
+H03M1/007	9	{among different resolutions}	H03M1/00	H03M1/00		142
+H03M1/008	9	{among different conversion characteristics, e.g. between mu-255 and a-laws}	H03M1/00	H03M1/00		31
+H03M1/02	8	Reversible analogue/digital converters	H03M1/02	H03M1/02		176
+H03M1/04	8	using stochastic techniques	H03M1/04	H03M1/04		59
+H03M1/06	8	Continuously compensating for, or preventing, undesired influence of physical parameters (periodically, {e.g. by using stored correction values,}H03M1/10)	H03M1/06	H03M1/06		703
+H03M1/0602	9	{of deviations from the desired transfer characteristic (H03M1/0617 takes precedence)}	H03M1/06	H03M1/06		177
+H03M1/0604	10	{at one point, i.e. by adjusting a single reference value, e.g. bias or gain error (gain setting for range control H03M1/18)}	H03M1/06	H03M1/06		378
+H03M1/0607	11	{Offset or drift compensation (removal of offset already present on the analogue input signal H03M1/1295)}	H03M1/06	H03M1/06		557
+H03M1/0609	10	{at two points of the transfer characteristic, i.e. by adjusting two reference values, e.g. offset and gain error}	H03M1/06	H03M1/06		81
+H03M1/0612	10	{over the full range of the converter, e.g. for correcting differential non-linearity}	H03M1/06	H03M1/06		191
+H03M1/0614	9	{of harmonic distortion (H03M1/0617 takes precedence)}	H03M1/06	H03M1/06		204
+H03M1/0617	9	{characterised by the use of methods or means not specific to a particular type of detrimental influence}	H03M1/06	H03M1/06		409
+H03M1/0619	10	{by dividing out the errors, i.e. using a ratiometric arrangement}	H03M1/06	H03M1/06		82
+H03M1/0621	11	{with auxiliary conversion of a value corresponding to the physical parameter(s) to be compensated for}	H03M1/06	H03M1/06		66
+H03M1/0624	10	{by synchronisation}	H03M1/06	H03M1/06		355
+H03M1/0626	10	{by filtering}	H03M1/06	H03M1/06		519
+H03M1/0629	11	{Anti-aliasing}	H03M1/06	H03M1/06		94
+H03M1/0631	11	{Smoothing}	H03M1/06	H03M1/06		67
+H03M1/0634	10	{by averaging out the errors, e.g. using sliding scale}	H03M1/06	H03M1/06		47
+H03M1/0636	11	{in the amplitude domain}	H03M1/06	H03M1/06		36
+H03M1/0639	12	{using dither, e.g. using triangular or sawtooth waveforms (for increasing resolution H03M1/201)}	H03M1/06	H03M1/06		86
+H03M1/0641	13	{the dither being a random signal}	H03M1/06	H03M1/06		158
+H03M1/0643	11	{in the spatial domain}	H03M1/06	H03M1/06		32
+H03M1/0646	12	{by analogue redistribution among corresponding nodes of adjacent cells, e.g. using an impedance network connected among all comparator outputs in a flash converter}	H03M1/06	H03M1/06		48
+H03M1/0648	12	{by arranging the quantisation value generators in a non-sequential pattern layout, e.g. symmetrical}	H03M1/06	H03M1/06		51
+H03M1/0651	12	{by selecting the quantisation value generators in a non-sequential order, e.g. symmetrical}	H03M1/06	H03M1/06		26
+H03M1/0653	13	{the order being based on measuring the error}	H03M1/06	H03M1/06		12
+H03M1/0656	11	{in the time domain, e.g. using intended jitter as a dither signal}	H03M1/06	H03M1/06		64
+H03M1/0658	12	{by calculating a running average of a number of subsequent samples}	H03M1/06	H03M1/06		64
+H03M1/066	12	{by continuously permuting the elements used, i.e. dynamic element matching}	H03M1/06	H03M1/06		132
+H03M1/0663	13	{using clocked averaging}	H03M1/06	H03M1/06		75
+H03M1/0665	13	{using data dependent selection of the elements, e.g. data weighted averaging}	H03M1/06	H03M1/06		146
+H03M1/0668	14	{the selection being based on the output of noise shaping circuits for each element}	H03M1/06	H03M1/06		60
+H03M1/067	13	{using different permutation circuits for different parts of the digital signal}	H03M1/06	H03M1/06		30
+H03M1/0673	13	{using random selection of the elements (with data-controlled random generator H03M1/0665)}	H03M1/06	H03M1/06		138
+H03M1/0675	10	{using redundancy}	H03M1/06	H03M1/06		74
+H03M1/0678	11	{using additional components or elements, e.g. dummy components}	H03M1/06	H03M1/06		242
+H03M1/068	12	{the original and additional components or elements being complementary to each other, e.g. CMOS}	H03M1/06	H03M1/06		62
+H03M1/0682	13	{using a differential network structure, i.e. symmetrical with respect to ground}	H03M1/06	H03M1/06		351
+H03M1/0685	13	{using real and complementary patterns}	H03M1/06	H03M1/06		11
+H03M1/0687	11	{using fault-tolerant coding, e.g. parity check, error correcting codes (H03M1/069 takes precedence)}	H03M1/06	H03M1/06		47
+H03M1/069	11	{by range overlap between successive stages or steps}	H03M1/06	H03M1/06		133
+H03M1/0692	12	{using a diminished radix representation, e.g. radix 1.95}	H03M1/06	H03M1/06		47
+H03M1/0695	12	{using less than the maximum number of output states per stage or step, e.g. 1.5 per stage or less than 1.5 bit per stage type}	H03M1/06	H03M1/06		237
+H03M1/0697	11	{in time, e.g. using additional comparison cycles}	H03M1/06	H03M1/06		92
+H03M1/08	9	of noise {(H03M1/0617 takes precedence)}	H03M1/08	H03M1/08		1178
+H03M1/0809	10	{of bubble errors, i.e. irregularities in thermometer codes}	H03M1/08	H03M1/08		64
+H03M1/0818	10	{of clock feed-through}	H03M1/08	H03M1/08		38
+H03M1/0827	10	{of electromagnetic or electrostatic field noise, e.g. preventing crosstalk by shielding or optical isolation}	H03M1/08	H03M1/08		110
+H03M1/0836	10	{of phase error, e.g. jitter}	H03M1/08	H03M1/08		321
+H03M1/0845	10	{of power supply variations, e.g. ripple}	H03M1/08	H03M1/08		206
+H03M1/0854	10	{of quantisation noise}	H03M1/08	H03M1/08		226
+H03M1/0863	10	{of switching transients, e.g. glitches}	H03M1/08	H03M1/08		385
+H03M1/0872	11	{by disabling changes in the output during the transitions, e.g. by holding or latching}	H03M1/08	H03M1/08		101
+H03M1/0881	11	{by forcing a gradual change from one output level to the next, e.g. soft-start}	H03M1/08	H03M1/08		51
+H03M1/089	10	{of temperature variations}	H03M1/08	H03M1/08		167
+H03M1/10	8	Calibration or testing	H03M1/10	H03M1/10		490
+H03M1/1004	9	{without interrupting normal operation, e.g. by providing an additional component for temporarily replacing components to be tested or calibrated (H03M1/1009, H03M1/1071 take precedence)}	H03M1/10	H03M1/10		162
+H03M1/1009	9	{Calibration}	H03M1/10	H03M1/10		1790
+H03M1/1014	10	{at one point of the transfer characteristic, i.e. by adjusting a single reference value, e.g. bias or gain error (gain setting for range control H03M1/18)}	H03M1/10	H03M1/10		402
+H03M1/1019	11	{by storing a corrected or correction value in a digital look-up table}	H03M1/10	H03M1/10		256
+H03M1/1023	11	{Offset correction (H03M1/1019 takes precedence; removal of offset already present on the analogue input signal H03M1/1295)}	H03M1/10	H03M1/10		419
+H03M1/1028	10	{at two points of the transfer characteristic, i.e. by adjusting two reference values, e.g. offset and gain error (gain setting for range control H03M1/18)}	H03M1/10	H03M1/10		277
+H03M1/1033	10	{over the full range of the converter, e.g. for correcting differential non-linearity}	H03M1/10	H03M1/10		310
+H03M1/1038	11	{by storing corrected or correction values in one or more digital look-up tables (H03M1/1057 takes precedence)}	H03M1/10	H03M1/10		283
+H03M1/1042	12	{the look-up table containing corrected values for replacing the original digital values (H03M1/1052 takes precedence)}	H03M1/10	H03M1/10		153
+H03M1/1047	12	{using an auxiliary digital/analogue converter for adding the correction values to the analogue signal (H03M1/1052 takes precedence)}	H03M1/10	H03M1/10		129
+H03M1/1052	12	{using two or more look-up tables each corresponding to a different type of error, e.g. for offset, gain error and non-linearity error respectively}	H03M1/10	H03M1/10		51
+H03M1/1057	11	{by trimming, i.e. by individually adjusting at least part of the quantisation value generators or stages to their nominal values}	H03M1/10	H03M1/10		184
+H03M1/1061	12	{using digitally programmable trimming circuits}	H03M1/10	H03M1/10		240
+H03M1/1066	9	{Mechanical or optical alignment}	H03M1/10	H03M1/10		293
+H03M1/1071	9	{Measuring or testing}	H03M1/10	H03M1/10		624
+H03M1/1076	10	{Detection or location of converter hardware failure, e.g. power supply failure, open or short circuit}	H03M1/10	H03M1/10		177
+H03M1/108	10	{Converters having special provisions for facilitating access for testing purposes}	H03M1/10	H03M1/10		83
+H03M1/1085	10	{using domain transforms, e.g. Fast Fourier Transform}	H03M1/10	H03M1/10		57
+H03M1/109	10	{for DC performance, i.e. static testing (H03M1/1085 takes precedence)}	H03M1/10	H03M1/10		195
+H03M1/1095	10	{for AC performance, i.e. dynamic testing (H03M1/1085 takes precedence)}	H03M1/10	H03M1/10		82
+H03M1/12	8	Analogue/digital converters ({H03M1/001 &#8211; }H03M1/10 take precedence)	H03M1/12	H03M1/12		5217
+H03M1/1205	9	{Multiplexed conversion systems}	H03M1/12	H03M1/12		577
+H03M1/121	10	{Interleaved, i.e. using multiple converters or converter parts for one channel}	H03M1/12	H03M1/12		382
+H03M1/1215	11	{using time-division multiplexing}	H03M1/12	H03M1/12		846
+H03M1/122	10	{Shared using a single converter or a part thereof for multiple channels, e.g. a residue amplifier for multiple stages}	H03M1/12	H03M1/12		176
+H03M1/1225	11	{using time-division multiplexing}	H03M1/12	H03M1/12		373
+H03M1/123	10	{Simultaneous, i.e. using one converter per channel but with common control or reference circuits for multiple converters}	H03M1/12	H03M1/12		742
+H03M1/1235	9	{Non-linear conversion not otherwise provided for in subgroups of H03M1/12}	H03M1/12	H03M1/12		131
+H03M1/124	9	{Sampling or signal conditioning arrangements specially adapted for A/D converters}	H03M1/12	H03M1/12		982
+H03M1/1245	10	{Details of sampling arrangements or methods}	H03M1/12	H03M1/12		2723
+H03M1/125	11	{Asynchronous, i.e. free-running operation within each conversion cycle}	H03M1/12	H03M1/12		225
+H03M1/1255	11	{Synchronisation of the sampling frequency or phase to the input frequency or phase}	H03M1/12	H03M1/12		253
+H03M1/126	11	{Multi-rate systems, i.e. adaptive to different fixed sampling rates}	H03M1/12	H03M1/12		110
+H03M1/1265	11	{Non-uniform sampling}	H03M1/12	H03M1/12		91
+H03M1/127	12	{at intervals varying with the rate of change of the input signal}	H03M1/12	H03M1/12		86
+H03M1/1275	13	{at extreme values only}	H03M1/12	H03M1/12		8
+H03M1/128	12	{at random intervals, e.g. digital alias free signal processing [DASP]}	H03M1/12	H03M1/12		35
+H03M1/1285	11	{Synchronous circular sampling, i.e. using undersampling of periodic input signals}	H03M1/12	H03M1/12		61
+H03M1/129	10	{Means for adapting the input signal to the range the converter can handle, e.g. limiting, pre-scaling (H03M1/18 takes precedence); Out-of-range indication}	H03M1/12	H03M1/12		314
+H03M1/1295	11	{Clamping, i.e. adjusting the DC level of the input signal to a predetermined value}	H03M1/12	H03M1/12		286
+H03M1/14	9	Conversion in steps with each step involving the same or a different conversion means and delivering more than one bit	H03M1/14	H03M1/14		789
+H03M1/141	10	{in which at least one step is of the folding type; Folding stages therefore}	H03M1/14	H03M1/14		94
+H03M1/142	10	{the reference generators for the steps being arranged in a common two-dimensional array}	H03M1/14	H03M1/14		24
+H03M1/143	10	{in pattern-reading type converters, e.g. having both absolute and incremental tracks on one disc or strip (H03M1/16 takes precedence)}	H03M1/14	H03M1/14		59
+H03M1/144	10	{the steps being performed sequentially in a single stage, i.e. recirculation type (H03M1/141, H03M1/143, H03M1/16 take precedence)}	H03M1/14	H03M1/14		162
+H03M1/145	10	{the steps being performed sequentially in series-connected stages (H03M1/141, H03M1/143, H03M1/16 take precedence)}	H03M1/14	H03M1/14		306
+H03M1/146	11	{all stages being simultaneous converters}	H03M1/14	H03M1/14		97
+H03M1/147	12	{at least two of which share a common reference generator}	H03M1/14	H03M1/14		36
+H03M1/148	13	{the reference generator being arranged in a two-dimensional array}	H03M1/14	H03M1/14		22
+H03M1/16	10	with scale factor modification, i.e. by changing the amplification between the steps {(H03M1/141 takes precedence)}	H03M1/16	H03M1/16		144
+H03M1/161	11	{in pattern-reading type converters, e.g. with gearings}	H03M1/16	H03M1/16		50
+H03M1/162	11	{the steps being performed sequentially in a single stage, i.e. recirculation type (H03M1/161 takes precedence)}	H03M1/16	H03M1/16		150
+H03M1/164	11	{the steps being performed sequentially in series-connected stages (H03M1/161 takes precedence)}	H03M1/16	H03M1/16		372
+H03M1/165	12	{in which two or more residues with respect to different reference levels in a stage are used as input signals for the next stage, i.e. multi-residue type}	H03M1/16	H03M1/16		43
+H03M1/167	12	{all stages comprising simultaneous converters (H03M1/165 takes precedence)}	H03M1/16	H03M1/16		240
+H03M1/168	13	{and delivering the same number of bits}	H03M1/16	H03M1/16		172
+H03M1/18	9	Automatic control for modifying the range of signals the converter can handle, e.g. gain ranging	H03M1/18	H03M1/18		451
+H03M1/181	10	{in feedback mode, i.e. by determining the range to be selected from one or more previous digital output values}	H03M1/18	H03M1/18		122
+H03M1/182	11	{the feedback signal controlling the reference levels of the analogue/digital converter}	H03M1/18	H03M1/18		118
+H03M1/183	11	{the feedback signal controlling the gain of an amplifier or attenuator preceding the analogue/digital converter}	H03M1/18	H03M1/18		208
+H03M1/185	12	{the determination of the range being based on more than one digital output value, e.g. on a running average, a power estimation or the rate of change}	H03M1/18	H03M1/18		154
+H03M1/186	10	{in feedforward mode, i.e. by determining the range to be selected directly from the input signal}	H03M1/18	H03M1/18		140
+H03M1/187	11	{using an auxiliary analogue/digital converter}	H03M1/18	H03M1/18		77
+H03M1/188	10	{Multi-path, i.e. having a separate analogue/digital converter for each possible range}	H03M1/18	H03M1/18		167
+H03M1/20	9	Increasing resolution using an n bit system to obtain n + m bits	H03M1/20	H03M1/20		179
+H03M1/201	10	{by dithering}	H03M1/20	H03M1/20		109
+H03M1/202	10	{by interpolation}	H03M1/20	H03M1/20		46
+H03M1/203	11	{using an analogue interpolation circuit}	H03M1/20	H03M1/20		48
+H03M1/204	12	{in which one or more virtual intermediate reference signals are generated between adjacent original reference signals, e.g. by connecting pre-amplifier outputs to multiple comparators}	H03M1/20	H03M1/20		71
+H03M1/205	13	{using resistor strings for redistribution of the original reference signals or signals derived therefrom}	H03M1/20	H03M1/20		46
+H03M1/206	11	{using a logic interpolation circuit}	H03M1/20	H03M1/20		66
+H03M1/207	11	{using a digital interpolation circuit}	H03M1/20	H03M1/20		49
+H03M1/208	10	{by prediction}	H03M1/20	H03M1/20		42
+H03M1/22	9	pattern-reading type	H03M1/22	H03M1/22		835
+H03M1/24	10	using relatively movable reader and disc or strip	H03M1/24	H03M1/24		85
+H03M1/245	11	{Constructional details of parts relevant to the encoding mechanism, e.g. pattern carriers, pattern sensors}	H03M1/24	H03M1/24		97
+H03M1/26	11	with weighted coding, i.e. the weight given to a digit depends on the position of the digit within the block or code word, e.g. there is a given radix and the weights are powers of this radix	H03M1/26	H03M1/26		295
+H03M1/28	11	with non-weighted coding	H03M1/28	H03M1/28		70
+H03M1/282	12	{of the pattern-shifting type, e.g. pseudo-random chain code}	H03M1/28	H03M1/28		110
+H03M1/285	12	{of the unit Hamming distance type, e.g. Gray code}	H03M1/28	H03M1/28		132
+H03M1/287	12	{using gradually changing slit width or pitch within one track; using plural tracks having slightly different pitches, e.g. of the Vernier or nonius type}	H03M1/28	H03M1/28		72
+H03M1/30	12	incremental	H03M1/30	H03M1/30		250
+H03M1/301	13	{Constructional details of parts relevant to the encoding mechanism, e.g. pattern carriers, pattern sensors}	H03M1/30	H03M1/30		122
+H03M1/303	13	{Circuits or methods for processing the quadrature signals}	H03M1/30	H03M1/30		133
+H03M1/305	14	{for detecting the direction of movement}	H03M1/30	H03M1/30		98
+H03M1/306	14	{for waveshaping}	H03M1/30	H03M1/30		14
+H03M1/308	13	{with additional pattern means for determining the absolute position, e.g. reference marks}	H03M1/30	H03M1/30		183
+H03M1/32	10	using cathode-ray tubes {or analoguous two-dimensional deflection systems}	H03M1/32	H03M1/32		62
+H03M1/34	9	Analogue value compared with reference values (H03M1/48 takes precedence)	H03M1/34	H03M1/34		731
+H03M1/345	10	{for direct conversion to a residue number representation}	H03M1/34	H03M1/34		16
+H03M1/36	10	simultaneously only, i.e. parallel type	H03M1/36	H03M1/36		233
+H03M1/361	11	{having a separate comparator and reference value for each quantisation level, i.e. full flash converter type}	H03M1/36	H03M1/36		618
+H03M1/362	12	{the reference values being generated by a resistive voltage divider}	H03M1/36	H03M1/36		120
+H03M1/363	13	{the voltage divider taps being held in a floating state, e.g. by feeding the divider by current sources}	H03M1/36	H03M1/36		52
+H03M1/365	13	{the voltage divider being a single resistor string}	H03M1/36	H03M1/36		555
+H03M1/366	12	{using current mode circuits, i.e. circuits in which the information is represented by current values rather than by voltage values}	H03M1/36	H03M1/36		52
+H03M1/367	11	{Non-linear conversion}	H03M1/36	H03M1/36		64
+H03M1/368	11	{having a single comparator per bit, e.g. of the folding type}	H03M1/36	H03M1/36		84
+H03M1/38	10	sequentially only, e.g. successive approximation type (converting more than one bit per step H03M1/14)	H03M1/38	H03M1/38		1062
+H03M1/40	11	recirculation type	H03M1/40	H03M1/40		152
+H03M1/403	12	{using switched capacitors}	H03M1/40	H03M1/40		168
+H03M1/406	12	{using current mode circuits, i.e. circuits in which the information is represented by current values rather than by voltage values}	H03M1/40	H03M1/40		27
+H03M1/42	11	Sequential comparisons in series-connected stages with no change in value of analogue signal	H03M1/42	H03M1/42		193
+H03M1/44	11	Sequential comparisons in series-connected stages with change in value of analogue signal	H03M1/44	H03M1/44		347
+H03M1/442	12	{using switched capacitors}	H03M1/44	H03M1/44		188
+H03M1/445	12	{the stages being of the folding type}	H03M1/44	H03M1/44		65
+H03M1/447	12	{using current mode circuits, i.e. circuits in which the information is represented by current values rather than by voltage values}	H03M1/44	H03M1/44		38
+H03M1/46	11	with digital/analogue converter for supplying reference values to converter	H03M1/46	H03M1/46		956
+H03M1/462	12	{Details of the control circuitry, e.g. of the successive approximation register}	H03M1/46	H03M1/46		725
+H03M1/464	12	{Non-linear conversion}	H03M1/46	H03M1/46		42
+H03M1/466	12	{using switched capacitors}	H03M1/46	H03M1/46		767
+H03M1/468	13	{in which the input S/H circuit is merged with the feedback DAC array}	H03M1/46	H03M1/46		1107
+H03M1/48	9	Servo-type converters	H03M1/48	H03M1/48		328
+H03M1/485	10	{for position encoding, e.g. using resolvers or synchros}	H03M1/48	H03M1/48		199
+H03M1/50	9	with intermediate conversion to time interval (H03M1/64 takes precedence)	H03M1/50	H03M1/50		793
+H03M1/502	10	{using tapped delay lines}	H03M1/50	H03M1/50		172
+H03M1/504	10	{using pulse width modulation}	H03M1/50	H03M1/50		167
+H03M1/506	11	{the pulse width modulator being of the charge-balancing type}	H03M1/50	H03M1/50		22
+H03M1/508	11	{the pulse width modulator being of the self-oscillating type}	H03M1/50	H03M1/50		26
+H03M1/52	10	Input signal integrated with linear return to datum	H03M1/52	H03M1/52		444
+H03M1/54	10	Input signal sampled and held with linear return to datum	H03M1/54	H03M1/54		155
+H03M1/56	10	Input signal compared with linear ramp	H03M1/56	H03M1/56		928
+H03M1/58	10	Non-linear conversion	H03M1/58	H03M1/58		79
+H03M1/60	9	with intermediate conversion to frequency of pulses	H03M1/60	H03M1/60		657
+H03M1/62	10	Non-linear conversion	H03M1/62	H03M1/62		20
+H03M1/64	9	with intermediate conversion to phase of sinusoidal {or similar periodical} signals	H03M1/64	H03M1/64		93
+H03M1/645	10	{for position encoding, e.g. using resolvers or synchros (H03M1/485 takes precedence)}	H03M1/64	H03M1/64		179
+H03M1/66	8	Digital/analogue converters ({H03M1/001 &#8211; }H03M1/10 take precedence)	H03M1/66	H03M1/66		3291
+H03M1/661	9	{Improving the reconstruction of the analogue output signal beyond the resolution of the digital input signal, e.g. by interpolation, by curve-fitting, by smoothing}	H03M1/66	H03M1/66		213
+H03M1/662	9	{Multiplexed conversion systems}	H03M1/66	H03M1/66		540
+H03M1/664	9	{Non-linear conversion not otherwise provided for in subgroups of H03M1/66}	H03M1/66	H03M1/66		137
+H03M1/665	9	{with intermediate conversion to phase of sinusoidal or similar periodical signals}	H03M1/66	H03M1/66		103
+H03M1/667	9	{Recirculation type}	H03M1/66	H03M1/66		76
+H03M1/668	9	{Servo-type converters}	H03M1/66	H03M1/66		34
+H03M1/68	9	with conversions of different sensitivity, i.e. one conversion relating to the more significant digital bits and another conversion to the less significant bits	H03M1/68	H03M1/68		632
+H03M1/682	10	{both converters being of the unary decoded type}	H03M1/68	H03M1/68		267
+H03M1/685	11	{the quantisation value generators of both converters being arranged in a common two-dimensional array}	H03M1/68	H03M1/68		125
+H03M1/687	10	{Segmented, i.e. the more significant bit converter being of the unary decoded type and the less significant bit converter being of the binary weighted type}	H03M1/68	H03M1/68		305
+H03M1/70	9	Automatic control for modifying converter range	H03M1/70	H03M1/70		194
+H03M1/72	9	Sequential conversion in series-connected stages (H03M1/68 takes precedence)	H03M1/72	H03M1/72		122
+H03M1/74	9	Simultaneous conversion	H03M1/74	H03M1/74		594
+H03M1/742	10	{using current sources as quantisation value generators}	H03M1/74	H03M1/74		564
+H03M1/745	11	{with weighted currents}	H03M1/74	H03M1/74		416
+H03M1/747	11	{with equal currents which are switched by unary decoded digital signals}	H03M1/74	H03M1/74		443
+H03M1/76	10	using switching tree	H03M1/76	H03M1/76		248
+H03M1/765	11	{using a single level of switches which are controlled by unary decoded digital signals}	H03M1/76	H03M1/76		508
+H03M1/78	10	using ladder network	H03M1/78	H03M1/78		83
+H03M1/785	11	{using resistors, i.e. R-2R ladders}	H03M1/78	H03M1/78		491
+H03M1/80	10	using weighted impedances (H03M1/76 takes precedence)	H03M1/80	H03M1/80		100
+H03M1/802	11	{using capacitors, e.g. neuron-mos transistors, charge coupled devices}	H03M1/80	H03M1/80		143
+H03M1/804	12	{with charge redistribution}	H03M1/80	H03M1/80		593
+H03M1/806	13	{with equally weighted capacitors which are switched by unary decoded digital signals}	H03M1/80	H03M1/80		91
+H03M1/808	11	{using resistors}	H03M1/80	H03M1/80		244
+H03M1/82	9	with intermediate conversion to time interval	H03M1/82	H03M1/82		324
+H03M1/822	10	{using pulse width modulation}	H03M1/82	H03M1/82		262
+H03M1/825	11	{by comparing the input signal with a digital ramp signal}	H03M1/82	H03M1/82		29
+H03M1/827	11	{in which the total pulse width is distributed over multiple shorter pulse widths}	H03M1/82	H03M1/82		32
+H03M1/84	10	Non-linear conversion	H03M1/84	H03M1/84		23
+H03M1/86	9	with intermediate conversion to frequency of pulses	H03M1/86	H03M1/86		85
+H03M1/88	10	Non-linear conversion	H03M1/88	H03M1/88		9
+H03M3/00	7	Conversion of analogue values to or from differential modulation	H03M3/00	H03M3/00		153
+H03M3/02	8	Delta modulation, i.e. one-bit differential modulation {(H03M3/30 takes precedence)}	H03M3/02	H03M3/02		345
+H03M3/022	9	{with adaptable step size, e.g. adaptive delta modulation [ADM]}	H03M3/02	H03M3/02		158
+H03M3/024	10	{using syllabic companding, e.g. continuously variable slope delta modulation [CVSD]}	H03M3/02	H03M3/02		64
+H03M3/04	8	Differential modulation with several bits {, e.g. differential pulse code modulation [DPCM] (H03M3/30 takes precedence)}	H03M3/04	H03M3/04		143
+H03M3/042	9	{with adaptable step size, e.g. adaptive differential pulse code modulation [ADPCM]}	H03M3/04	H03M3/04		153
+H03M3/30	8	{Delta-sigma modulation}<br><br><u>NOTE</u><br><br>In group branch H03M3/30, in the absence of an indication to the contrary, classification is made in the first appropriate place.	H03M3/00	H03M3/30		278
+H03M3/32	9	{with special provisions or arrangements for power saving, e.g. by allowing a sleep mode, using lower supply voltage for downstream stages, using multiple clock domains, by selectively turning on stages when needed}	H03M3/00	H03M3/32		160
+H03M3/322	9	{Continuously compensating for, or preventing, undesired influence of physical parameters (periodically, e.g. by using stored correction values, H03M3/378)}	H03M3/00	H03M3/322		140
+H03M3/324	10	{characterised by means or methods for compensating or preventing more than one type of error at a time, e.g. by synchronisation or using a ratiometric arrangement}	H03M3/00	H03M3/324		79
+H03M3/326	11	{by averaging out the errors}	H03M3/00	H03M3/326		22
+H03M3/328	12	{using dither}	H03M3/00	H03M3/328		46
+H03M3/3283	13	{the dither being in the time domain}	H03M3/00	H03M3/328		18
+H03M3/3287	13	{the dither being at least partially dependent on the input signal}	H03M3/00	H03M3/328		30
+H03M3/33	13	{the dither being a random signal}	H03M3/00	H03M3/33		38
+H03M3/332	14	{in particular a pseudo-random signal}	H03M3/00	H03M3/332		61
+H03M3/338	12	{by permutation in the time domain, e.g. dynamic element matching (in multiple bit sub-converters H03M1/066)}	H03M3/00	H03M3/338		57
+H03M3/34	13	{by chopping}	H03M3/00	H03M3/34		137
+H03M3/342	13	{by double sampling, e.g. correlated double sampling}	H03M3/00	H03M3/342		46
+H03M3/344	11	{by filtering other than the noise-shaping inherent to delta-sigma modulators, e.g. anti-aliasing}	H03M3/00	H03M3/344		209
+H03M3/346	11	{by suppressing active signals at predetermined times, e.g. muting, using non-overlapping clock phases}	H03M3/00	H03M3/346		46
+H03M3/348	12	{using return-to-zero signals}	H03M3/00	H03M3/348		29
+H03M3/35	11	{using redundancy}	H03M3/00	H03M3/35		46
+H03M3/352	10	{of deviations from the desired transfer characteristic}	H03M3/00	H03M3/352		45
+H03M3/354	11	{at one point, i.e. by adjusting a single reference value, e.g. bias or gain error}	H03M3/00	H03M3/354		47
+H03M3/356	12	{Offset or drift compensation (removal of offset already present on the analogue input signal H03M3/494)}	H03M3/00	H03M3/356		101
+H03M3/358	10	{of non-linear distortion, e.g. instability (avoiding instability by structural design H03M3/44)}	H03M3/00	H03M3/358		102
+H03M3/36	11	{by temporarily adapting the operation upon detection of instability conditions}	H03M3/00	H03M3/36		11
+H03M3/362	12	{in feedback mode, e.g. by reducing the order of the modulator}	H03M3/00	H03M3/362		34
+H03M3/364	13	{by resetting one or more loop filter stages}	H03M3/00	H03M3/364		30
+H03M3/366	12	{in feed-forward mode, e.g. using look-ahead circuits}	H03M3/00	H03M3/366		25
+H03M3/368	10	{of noise other than the quantisation noise already being shaped inherently by delta-sigma modulators}	H03M3/00	H03M3/368		192
+H03M3/37	11	{Compensation or reduction of delay or phase error}	H03M3/00	H03M3/37		143
+H03M3/372	12	{Jitter reduction}	H03M3/00	H03M3/372		72
+H03M3/374	12	{Relaxation of settling time constraints, e.g. slew rate enhancement}	H03M3/00	H03M3/374		31
+H03M3/376	11	{Prevention or reduction of switching transients, e.g. glitches}	H03M3/00	H03M3/376		61
+H03M3/378	9	{Testing}	H03M3/00	H03M3/378		69
+H03M3/38	9	{Calibration}	H03M3/00	H03M3/38		95
+H03M3/382	10	{at one point of the transfer characteristic, i.e. by adjusting a single reference value, e.g. bias or gain error}	H03M3/00	H03M3/382		42
+H03M3/384	11	{Offset correction (removal of offset already present on the analogue input signal H03M3/494)}	H03M3/00	H03M3/384		41
+H03M3/386	10	{over the full range of the converter, e.g. for correcting differential non-linearity}	H03M3/00	H03M3/386		40
+H03M3/388	11	{by storing corrected or correction values in one or more digital look-up tables}	H03M3/00	H03M3/388		90
+H03M3/39	9	{Structural details of delta-sigma modulators, e.g. incremental delta-sigma modulators (of digital delta-sigma modulators H03M7/3004)}	H03M3/00	H03M3/39		290
+H03M3/392	10	{Arrangements for selecting among plural operation modes, e.g. for multi-standard operation}	H03M3/00	H03M3/392		67
+H03M3/394	11	{among different orders of the loop filter}	H03M3/00	H03M3/394		35
+H03M3/396	11	{among different frequency bands}	H03M3/00	H03M3/396		61
+H03M3/398	11	{among different converter types}	H03M3/00	H03M3/398		35
+H03M3/40	10	{Arrangements for handling quadrature signals, e.g. complex modulators}	H03M3/00	H03M3/40		88
+H03M3/402	10	{Arrangements specific to bandpass modulators}	H03M3/00	H03M3/402		84
+H03M3/404	11	{characterised by the type of bandpass filters used}	H03M3/00	H03M3/404		46
+H03M3/406	12	{by the use of a pair of integrators forming a closed loop}	H03M3/00	H03M3/406		51
+H03M3/408	12	{by the use of an LC circuit}	H03M3/00	H03M3/408		39
+H03M3/41	11	{combined with modulation to or demodulation from the carrier}	H03M3/00	H03M3/41		53
+H03M3/412	10	{characterised by the number of quantisers and their type and resolution}	H03M3/00	H03M3/412		80
+H03M3/414	11	{having multiple quantisers arranged in cascaded loops, each of the second and further loops processing the quantisation error of the loop preceding it, i.e. multiple stage noise shaping [MASH] type}	H03M3/00	H03M3/414		142
+H03M3/416	12	{all these quantisers being multiple bit quantisers}	H03M3/00	H03M3/416		39
+H03M3/418	12	{all these quantisers being single bit quantisers}	H03M3/00	H03M3/418		69
+H03M3/42	11	{having multiple quantisers arranged in parallel loops}	H03M3/00	H03M3/42		53
+H03M3/422	11	{having one quantiser only}	H03M3/00	H03M3/422		176
+H03M3/424	12	{the quantiser being a multiple bit one}	H03M3/00	H03M3/424		453
+H03M3/426	13	{the quantiser being a successive approximation type analogue/digital converter}	H03M3/00	H03M3/426		78
+H03M3/428	13	{with lower resolution, e.g. single bit, feedback}	H03M3/00	H03M3/428		45
+H03M3/43	12	{the quantiser being a single bit one}	H03M3/00	H03M3/43		653
+H03M3/432	13	{the quantiser being a pulse width modulation type analogue/digital converter, i.e. differential pulse width modulation}	H03M3/00	H03M3/432		50
+H03M3/434	13	{with multi-level feedback}	H03M3/00	H03M3/434		31
+H03M3/436	10	{characterised by the order of the loop filter, e.g. error feedback type}<br><br><u>NOTE</u><br><br>In this group branch the order of the loop filters is considered to be the number of integrators for a baseband modulator and the number of resonators for a bandpass modulator respectively	H03M3/00	H03M3/436		123
+H03M3/438	11	{the modulator having a higher order loop filter in the feedforward path}	H03M3/00	H03M3/438		181
+H03M3/44	12	{with provisions for rendering the modulator inherently stable}<br><br><u>NOTE</u><br><br>In this subgroup, classification is made both here and in H03M3/478 if both subgroups are relevant.	H03M3/00	H03M3/44		24
+H03M3/442	13	{by restricting the swing within the loop, e.g. gain scaling}	H03M3/00	H03M3/442		14
+H03M3/444	14	{using non-linear elements, e.g. limiters}	H03M3/00	H03M3/444		18
+H03M3/446	13	{by a particular choice of poles or zeroes in the z-plane, e.g. by positioning zeroes outside the unit circle, i.e. causing the modulator to operate in a chaotic regime}	H03M3/00	H03M3/446		13
+H03M3/448	14	{by removing part of the zeroes, e.g. using local feedback loops}	H03M3/00	H03M3/448		58
+H03M3/45	12	{with distributed feedforward inputs, i.e. with forward paths from the modulator input to more than one filter stage}	H03M3/00	H03M3/45		79
+H03M3/452	12	{with weighted feedforward summation, i.e. with feedforward paths from more than one filter stage to the quantiser input}	H03M3/00	H03M3/452		214
+H03M3/454	12	{with distributed feedback, i.e. with feedback paths from the quantiser output to more than one filter stage}	H03M3/00	H03M3/454		436
+H03M3/456	11	{the modulator having a first order loop filter in the feedforward path}	H03M3/00	H03M3/456		292
+H03M3/458	9	{Analogue/digital converters using delta-sigma modulation as an intermediate step}	H03M3/00	H03M3/458		829
+H03M3/46	10	{using a combination of at least one delta-sigma modulator in series with at least one analogue/digital converter of a different type}	H03M3/00	H03M3/46		99
+H03M3/462	10	{Details relating to the decimation process (decimation filters in general H03H17/0416, H03H17/0621)}	H03M3/00	H03M3/462		177
+H03M3/464	10	{Details of the digital/analogue conversion in the feedback path}	H03M3/00	H03M3/464		483
+H03M3/466	10	{Multiplexed conversion systems}	H03M3/00	H03M3/466		80
+H03M3/468	11	{Interleaved, i.e. using multiple converters or converter parts for one channel, e.g. using Hadamard codes, pi-delta-sigma converters}	H03M3/00	H03M3/468		61
+H03M3/47	12	{using time-division multiplexing}	H03M3/00	H03M3/47		85
+H03M3/472	11	{Shared, i.e. using a single converter for multiple channels}	H03M3/00	H03M3/472		25
+H03M3/474	12	{using time-division multiplexing}	H03M3/00	H03M3/474		68
+H03M3/476	10	{Non-linear conversion systems}	H03M3/00	H03M3/476		29
+H03M3/478	10	{Means for controlling the correspondence between the range of the input signal and the range of signals the converter can handle; Means for out-of-range indication}<br><br><u>NOTE</u><br><br>In this subgroup, classification is made both here and in H03M3/44 if both subgroups are relevant.	H03M3/00	H03M3/478		25
+H03M3/48	11	{characterised by the type of range control, e.g. limiting}	H03M3/00	H03M3/48		28
+H03M3/482	12	{by adapting the quantisation step size}	H03M3/00	H03M3/482		11
+H03M3/484	13	{by adapting the gain of the feedback signal, e.g. by adapting the reference values of the digital/analogue converter in the feedback path}	H03M3/00	H03M3/484		46
+H03M3/486	12	{by adapting the input gain}	H03M3/00	H03M3/486		55
+H03M3/488	11	{using automatic control}	H03M3/00	H03M3/488		34
+H03M3/49	12	{in feedback mode, i.e. by determining the range to be selected from one or more previous digital output values}	H03M3/00	H03M3/49		85
+H03M3/492	12	{in feed forward mode, i.e. by determining the range to be selected directly from the input signal}	H03M3/00	H03M3/492		24
+H03M3/494	10	{Sampling or signal conditioning arrangements specially adapted for delta-sigma type analogue/digital conversion systems}	H03M3/00	H03M3/494		149
+H03M3/496	11	{Details of sampling arrangements or methods}	H03M3/00	H03M3/496		217
+H03M3/498	12	{Variable sample rate}	H03M3/00	H03M3/498		43
+H03M3/50	9	{Digital/analogue converters using delta-sigma modulation as an intermediate step (digital delta-sigma modulators per seH03M7/3004)}	H03M3/00	H03M3/50		362
+H03M3/502	10	{Details of the final digital/analogue conversion following the digital delta-sigma modulation}	H03M3/00	H03M3/502		246
+H03M3/504	11	{the final digital/analogue converter being constituted by a finite impulse response [FIR] filter, i.e. FIRDAC}	H03M3/00	H03M3/504		99
+H03M3/506	11	{the final digital/analogue converter being constituted by a pulse width modulator}	H03M3/00	H03M3/506		109
+H03M3/508	10	{Details relating to the interpolation process}	H03M3/00	H03M3/508		35
+H03M3/51	10	{Automatic control for modifying converter range}	H03M3/00	H03M3/51		33
+H03M5/00	7	Conversion of the form of the representation of individual digits<br><br><u>NOTE</u><br><br>In groups H03M5/02 - H03M5/22, the last place priority rule is applied, i.e. at each hierarchical level, in the absence of an indication to the contrary, classification is made in the last appropriate place. <br>This Note corresponds to IPC Note (1) relating to H03M5/02 - H03M5/22.	H03M5/00	H03M5/00		365
+H03M5/02	8	Conversion to or from representation by pulses	H03M5/02	H03M5/02		133
+H03M5/04	9	the pulses having two levels	H03M5/04	H03M5/04		95
+H03M5/06	10	Code representation, e.g. transition, for a given bit cell depending only on the information in that bit cell	H03M5/06	H03M5/06		67
+H03M5/08	11	Code representation by pulse width	H03M5/08	H03M5/08		140
+H03M5/10	11	Code representation by pulse frequency	H03M5/10	H03M5/10		17
+H03M5/12	11	Biphase level code, e.g. split phase code, Manchester code; Biphase space or mark code, e.g. double frequency code	H03M5/12	H03M5/12		362
+H03M5/14	10	Code representation, e.g. transition, for a given bit cell depending on the information in one or more adjacent bit cells, e.g. delay modulation code, double density code	H03M5/14	H03M5/14		166
+H03M5/145	11	{Conversion to or from block codes or representations thereof}	H03M5/14	H03M5/14		797
+H03M5/16	9	the pulses having three levels	H03M5/16	H03M5/16		101
+H03M5/18	10	two levels being symmetrical with respect to the third level, i.e. balanced bipolar ternary code	H03M5/18	H03M5/18		90
+H03M5/20	9	the pulses having more than three levels	H03M5/20	H03M5/20		126
+H03M5/22	8	Conversion to or from representation by sinusoidal signals	H03M5/22	H03M5/22		29
+H03M7/00	7	Conversion of a code where information is represented by a given sequence or number of digits to a code where the same {, similar or subset of} information is represented by a different sequence or number of digits<br><br><u>NOTE</u><br><br> In groups H03M7/02 - H03M7/30, the last place priority rule is applied, i.e. at each hierarchical level, in the absence of an indication to the contrary, classification is made in the last appropriate place. <br>This Note corresponds to IPC Note (1) relating to H03M7/02 - H03M7/30.	H03M7/00	H03M7/00		919
+H03M7/001	8	{characterised by the elements used}	H03M7/00	H03M7/00		48
+H03M7/002	9	{using thin film devices}	H03M7/00	H03M7/00		14
+H03M7/003	9	{using superconductive devices}	H03M7/00	H03M7/00		15
+H03M7/004	9	{using magnetic elements, e.g. transfluxors}	H03M7/00	H03M7/00		8
+H03M7/005	9	{using semiconductor devices}	H03M7/00	H03M7/00		101
+H03M7/006	9	{using diodes}	H03M7/00	H03M7/00		9
+H03M7/007	9	{using resistive or capacitive elements}	H03M7/00	H03M7/00		3
+H03M7/008	9	{using opto-electronic devices}	H03M7/00	H03M7/00		20
+H03M7/02	8	Conversion to or from weighted codes, i.e. the weight given to a digit depending on the position of the digit within the block or code word	H03M7/02	H03M7/02		125
+H03M7/04	9	the radix thereof being two	H03M7/04	H03M7/04		175
+H03M7/06	9	the radix thereof being a positive integer different from two	H03M7/06	H03M7/06		64
+H03M7/08	10	the radix being ten, i.e. pure decimal code	H03M7/08	H03M7/08		148
+H03M7/10	9	the radix thereof being negative	H03M7/10	H03M7/10		7
+H03M7/12	9	having two radices, e.g. binary-coded-decimal code	H03M7/12	H03M7/12		287
+H03M7/14	8	Conversion to or from non-weighted codes	H03M7/14	H03M7/14		184
+H03M7/16	9	Conversion to or from unit-distance codes, e.g. Gray code, reflected binary code	H03M7/16	H03M7/16		231
+H03M7/165	10	{Conversion to or from thermometric code}	H03M7/16	H03M7/16		181
+H03M7/18	9	Conversion to or from residue codes	H03M7/18	H03M7/18		46
+H03M7/20	9	Conversion to or from n-out-of-m codes	H03M7/20	H03M7/20		62
+H03M7/22	10	to or from one-out-of-m codes	H03M7/22	H03M7/22		81
+H03M7/24	9	Conversion to or from floating-point codes	H03M7/24	H03M7/24		385
+H03M7/26	8	Conversion to or from stochastic codes	H03M7/26	H03M7/26		19
+H03M7/28	8	Programmable structures, i.e. where the code converter contains apparatus which is operator-changeable to modify the conversion process	H03M7/28	H03M7/28		67
+H03M7/30	8	Compression (speech analysis-synthesis for redundancy reduction G10L19/00; for image communication H04N); Expansion; Suppression of unnecessary data, e.g. redundancy reduction	H03M7/30	H03M7/30		4610
+H03M7/3002	9	{Conversion to or from differential modulation}<br><br><u>NOTE</u><br><br>In group branch H03M7/3002, additional information has been systematically classified for all documents.	H03M7/32	H03M7/30		118
+H03M7/3004	10	{Digital delta-sigma modulation}	H03M7/32	H03M7/30		77
+H03M7/3006	11	{Compensating for, or preventing of, undesired influence of physical parameters}	H03M7/32	H03M7/30		54
+H03M7/3008	12	{by averaging out the errors, e.g. using dither}	H03M7/32	H03M7/30		41
+H03M7/3011	12	{of non-linear distortion, e.g. by temporarily adapting the operation upon detection of instability conditions (avoiding instability by structural design H03M7/3035)}	H03M7/32	H03M7/30		47
+H03M7/3013	11	{Non-linear modulators}	H03M7/32	H03M7/30		20
+H03M7/3015	11	{Structural details of digital delta-sigma modulators}	H03M7/32	H03M7/30		47
+H03M7/3017	12	{Arrangements specific to bandpass modulators}	H03M7/32	H03M7/30		28
+H03M7/302	12	{characterised by the number of quantisers and their type and resolution}	H03M7/32	H03M7/30		33
+H03M7/3022	13	{having multiple quantisers arranged in cascaded loops, each of the second and further loops processing the quantisation error of the loop preceding it, i.e. multiple stage noise shaping [MASH] type}	H03M7/36	H03M7/30		100
+H03M7/3024	13	{having one quantiser only}	H03M7/32	H03M7/30		17
+H03M7/3026	14	{the quantiser being a multiple bit one}	H03M7/36	H03M7/30		136
+H03M7/3028	14	{the quantiser being a single bit one}	H03M7/32	H03M7/30		135
+H03M7/3031	12	{characterised by the order of the loop filter, e.g. having a first order loop filter in the feedforward path}<br><br><u>NOTE</u><br><br>In this group the order of the loop filters is considered to be the number of integrators for a baseband modulator and the number of resonators for a bandpass modulator respectively.	H03M7/32	H03M7/30		32
+H03M7/3033	13	{the modulator having a higher order loop filter in the feedforward path, e.g. with distributed feedforward inputs}	H03M7/32	H03M7/30		41
+H03M7/3035	14	{with provisions for rendering the modulator inherently stable, e.g. by restricting the swing within the loop, by removing part of the zeroes using local feedback loops, by positioning zeroes outside the unit circle causing the modulator to operate in a chaotic regime}	H03M7/32	H03M7/30		27
+H03M7/3037	14	{with weighted feedforward summation, i.e. with feedforward paths from more than one filter stage to the quantiser input}	H03M7/32	H03M7/30		40
+H03M7/304	14	{with distributed feedback, i.e. with feedback paths from the quantiser output to more than one filter stage}	H03M7/32	H03M7/30		116
+H03M7/3042	13	{the modulator being of the error feedback type, i.e. having loop filter stages in the feedback path only}	H03M7/32	H03M7/30		98
+H03M7/3044	10	{Conversion to or from differential modulation with several bits only, i.e. the difference between successive samples being coded by more than one bit, e.g. differential pulse code modulation [DPCM] (H03M7/3004 takes precedence; voice coding G10L19/00; image coding  H04N19/00)}	H03M7/36	H03M7/30		116
+H03M7/3046	11	{adaptive, e.g. adaptive differential pulse code modulation [ADPCM]}	H03M7/38	H03M7/30		88
+H03M7/3048	10	{Conversion to or from one-bit differential modulation only, e.g. delta modulation [DM] (H03M7/3004 takes precedence)}	H03M7/32	H03M7/30		33
+H03M7/3051	11	{adaptive, e.g. adaptive delta modulation [ADM]}	H03M7/34	H03M7/30		17
+H03M7/3053	9	{Block-companding PCM systems}	H03M7/30	H03M7/30		121
+H03M7/3055	9	{Conversion to or from Modulo-PCM}	H03M7/30	H03M7/30		13
+H03M7/3057	9	{Distributed Source coding, e.g. Wyner-Ziv, Slepian Wolf}	H03M7/30	H03M7/30		35
+H03M7/3059	9	{Digital compression and data reduction techniques where the original information is represented by a subset or similar information, e.g. lossy compression}	H03M7/30	H03M7/30		781
+H03M7/3062	10	{Compressive sampling or sensing}	H03M7/30	H03M7/30		469
+H03M7/3064	10	{Segmenting}	H03M7/30	H03M7/30		147
+H03M7/3066	9	{by means of a mask or a bit-map}	H03M7/30	H03M7/30		223
+H03M7/3068	9	{Precoding preceding compression, e.g. Burrows-Wheeler transformation}	H03M7/30	H03M7/30		148
+H03M7/3071	10	{Prediction}	H03M7/30	H03M7/30		97
+H03M7/3073	11	{Time}	H03M7/30	H03M7/30		44
+H03M7/3075	11	{Space}	H03M7/30	H03M7/30		29
+H03M7/3077	10	{Sorting}	H03M7/30	H03M7/30		143
+H03M7/3079	10	{Context modeling}	H03M7/30	H03M7/30		169
+H03M7/3082	9	{Vector coding (for television signals, seeH04N19/94)}	H03M7/30	H03M7/30		491
+H03M7/3084	9	{using adaptive string matching, e.g. the Lempel-Ziv method}	H03M7/30	H03M7/30		630
+H03M7/3086	10	{employing a sliding window, e.g. LZ77}	H03M7/30	H03M7/30		490
+H03M7/3088	10	{employing the use of a dictionary, e.g. LZ78}	H03M7/30	H03M7/30		657
+H03M7/3091	10	{Data deduplication}	H03M7/30	H03M7/30		193
+H03M7/3093	11	{using fixed length segments}	H03M7/30	H03M7/30		32
+H03M7/3095	11	{using variable length segments}	H03M7/30	H03M7/30		38
+H03M7/3097	10	{Grammar codes}	H03M7/30	H03M7/30		31
+H03M7/40	9	Conversion to or from variable length codes, e.g. Shannon-Fano code, Huffman code, Morse code	H03M7/40	H03M7/40		1796
+H03M7/4006	10	{Conversion to or from arithmetic code}	H03M7/40	H03M7/40		545
+H03M7/4012	11	{Binary arithmetic codes}	H03M7/40	H03M7/40		97
+H03M7/4018	12	{Context adapative binary arithmetic codes [CABAC]}	H03M7/40	H03M7/40		131
+H03M7/4025	10	{constant length to or from Morse code conversion}	H03M7/40	H03M7/40		107
+H03M7/4031	10	{Fixed length to variable length coding}	H03M7/40	H03M7/40		118
+H03M7/4037	11	{Prefix coding}	H03M7/40	H03M7/40		125
+H03M7/4043	12	{Adaptive prefix coding}	H03M7/40	H03M7/40		58
+H03M7/405	13	{Tree adaptation}	H03M7/40	H03M7/40		73
+H03M7/4056	13	{Coding table selection}	H03M7/40	H03M7/40		48
+H03M7/4062	13	{Coding table adaptation}	H03M7/40	H03M7/40		65
+H03M7/4068	13	{Parameterized codes}	H03M7/40	H03M7/40		7
+H03M7/4075	14	{Golomb codes}	H03M7/40	H03M7/40		65
+H03M7/4081	12	{Static prefix coding}	H03M7/40	H03M7/40		15
+H03M7/4087	12	{Encoding of a tuple of symbols}	H03M7/40	H03M7/40		18
+H03M7/4093	10	{Variable length to variable length coding}	H03M7/40	H03M7/40		64
+H03M7/42	10	using table look-up for the coding or decoding process, e.g. using read-only memory {(H03M7/4006 takes precedence)}	H03M7/42	H03M7/42		655
+H03M7/425	11	{for the decoding process only}	H03M7/42	H03M7/42		292
+H03M7/46	9	Conversion to or from run-length codes, i.e. by representing the number of consecutive digits, or groups of digits, of the same kind by a code word and a digit indicative of that kind	H03M7/46	H03M7/46		694
+H03M7/48	10	alternating with other codes during the code conversion process, e.g. run-length coding being performed only as long as sufficientlylong runs of digits of the same kind are present	H03M7/48	H03M7/48		157
+H03M7/50	9	Conversion to or from non-linear codes, e.g. companding	H03M7/50	H03M7/50		146
+H03M7/55	9	{Compression Theory, e.g. compression of random number, repeated compression}	H03M7/30	H03M7/55		154
+H03M7/60	9	{General implementation details not specific to a particular type of compression}	H03M7/30	H03M7/60		104
+H03M7/6005	10	{Decoder aspects}	H03M7/30	H03M7/60		400
+H03M7/6011	10	{Encoder aspects}	H03M7/30	H03M7/60		425
+H03M7/6017	10	{Methods or arrangements to increase the throughput}	H03M7/30	H03M7/60		213
+H03M7/6023	11	{Parallelization}	H03M7/30	H03M7/60		212
+H03M7/6029	11	{Pipelining}	H03M7/30	H03M7/60		114
+H03M7/6035	10	{Handling of unkown probabilities}	H03M7/30	H03M7/60		53
+H03M7/6041	10	{Compression optimized for errors}	H03M7/30	H03M7/60		163
+H03M7/6047	10	{Power optimization with respect to the encoder, decoder, storage or transmission}	H03M7/30	H03M7/60		148
+H03M7/6052	10	{Synchronisation of encoder and decoder}	H03M7/30	H03M7/60		83
+H03M7/6058	10	{Saving memory space in the encoder or decoder}	H03M7/30	H03M7/60		109
+H03M7/6064	10	{Selection of Compressor}	H03M7/30	H03M7/60		143
+H03M7/607	11	{Selection between different types of compressors}	H03M7/30	H03M7/60		148
+H03M7/6076	11	{Selection between compressors of the same type}	H03M7/30	H03M7/60		54
+H03M7/6082	11	{Selection strategies}	H03M7/30	H03M7/60		81
+H03M7/6088	12	{according to the data type}	H03M7/30	H03M7/60		78
+H03M7/6094	12	{according to reasons other than compression rate or data type}	H03M7/30	H03M7/60		69
+H03M7/70	9	{Type of the data to be coded, other than image and sound}	H03M7/30	H03M7/70		503
+H03M7/702	10	{Software}	H03M7/30	H03M7/70		67
+H03M7/705	10	{Unicode}	H03M7/30	H03M7/70		112
+H03M7/707	10	{Structured documents, e.g. XML}	H03M7/30	H03M7/70		186
+H03M9/00	7	Parallel/series conversion or vice versa(digital stores in which the information is moved stepwise per seG11C19/00)	H03M9/00	H03M9/00		1500
+H03M11/00	7	Coding in connection with keyboards or like devices, i.e. coding of the position of operated keys (keyboard switch arrangements, structural association of coders and keyboards H01H13/70, H03K17/94)<br><br><u>NOTE</u><br><br>In this main group additional information has been classified systematically for documents published from 01-01-2013 onwards.	H03M11/00	H03M11/00		110
+H03M11/003	8	{Phantom keys detection and prevention}	H03M11/00	H03M11/00		96
+H03M11/006	8	{Measures for preventing unauthorised decoding of keyboards}	H03M11/00	H03M11/00		12
+H03M11/02	8	Details	H03M11/02	H03M11/02		258
+H03M11/04	9	Coding of multifunction keys	H03M11/04	H03M11/04		69
+H03M11/06	10	by operating the multifunction key itself in different ways	H03M11/06	H03M11/06		46
+H03M11/08	11	by operating selected combinations of multifunction keys	H03M11/08	H03M11/08		131
+H03M11/10	11	by methods based on duration or pressure detection of keystrokes	H03M11/10	H03M11/10		86
+H03M11/12	11	by operating a key a selected number of consecutive times whereafter a separate enter key is used which marks the end of the series	H03M11/12	H03M11/12		20
+H03M11/14	10	by using additional keys, e.g. shift keys, which determine the function performed by the multifunction key	H03M11/14	H03M11/14		63
+H03M11/16	11	wherein the shift keys are operated after the operation of the multifunction keys	H03M11/16	H03M11/16		14
+H03M11/18	11	wherein the shift keys are operated before the operation of the multifunction keys	H03M11/18	H03M11/18		76
+H03M11/20	8	Dynamic coding, i.e. by key scanning (H03M11/26 takes precedence)	H03M11/20	H03M11/20		681
+H03M11/22	8	Static coding (H03M11/26 takes precedence)	H03M11/22	H03M11/22		162
+H03M11/24	9	using analogue means {, e.g. by coding the states of multiple switches into a single multi-level analogue signal or by indicating the type of a device using the voltage level at a specific tap of a resistive divider}	H03M11/24	H03M11/24		179
+H03M11/26	8	using opto-electronic means	H03M11/26	H03M11/26		51
+H03M13/00	7	Coding, decoding or code conversion, for error detection or error correction; Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes (error detection or error correction for analogue/digital, digital/analogue or code conversion H03M1/00 &#8211; H03M11/00; specially adapted for digital computers G06F11/08; for information storage based on relative movement between record carrier and transducer G11B, e.g. G11B20/18; for static stores G11C)	H03M13/00	H03M13/00		1070
+H03M13/01	8	Coding theory basic assumptions; Coding bounds; Error probability evaluation methods; Channel models; Simulation or testing of codes	H03M13/01	H03M13/01		121
+H03M13/015	9	{Simulation or testing of codes, e.g. bit error rate [BER] measurements}	H03M13/01	H03M13/01		126
+H03M13/03	8	Error detection or forward error correction by redundancy in data representation, i.e. code words containing more digits than the source words	H03M13/03	H03M13/03		362
+H03M13/033	9	{Theoretical methods to calculate these checking codes}	H03M13/03	H03M13/03		302
+H03M13/036	10	{Heuristic code construction methods, i.e. code construction or code search based on using trial-and-error}	H03M13/03	H03M13/03		332
+H03M13/05	9	using block codes, i.e. a predetermined number of check bits joined to a predetermined number of information bits {(H03M13/2906 takes precedence)}	H03M13/05	H03M13/05		631
+H03M13/07	10	Arithmetic codes	H03M13/07	H03M13/07		47
+H03M13/09	10	Error detection only, e.g. using cyclic redundancy check [CRC] codes or single parity bit	H03M13/09	H03M13/09		2405
+H03M13/091	11	{Parallel or block-wise CRC computation}	H03M13/09	H03M13/09		428
+H03M13/093	11	{CRC update after modification of the information word}	H03M13/09	H03M13/09		95
+H03M13/095	11	{Error detection codes other than CRC and single parity bit codes}	H03M13/09	H03M13/09		84
+H03M13/096	12	{Checksums}	H03M13/09	H03M13/09		169
+H03M13/098	11	{using single parity bit}	H03M13/09	H03M13/09		280
+H03M13/11	10	using multiple parity bits	H03M13/11	H03M13/11		766
+H03M13/1102	11	{Codes on graphs and decoding on graphs, e.g. low-density parity check [LDPC] codes}	H03M13/11	H03M13/11		1665
+H03M13/1105	12	{Decoding}	H03M13/11	H03M13/11		791
+H03M13/1108	13	{Hard decision decoding, e.g. bit flipping, modified or weighted bit flipping}	H03M13/11	H03M13/11		631
+H03M13/1111	13	{Soft-decision decoding, e.g. by means of message passing or belief propagation algorithms}	H03M13/11	H03M13/11		1195
+H03M13/1114	14	{Merged schedule message passing algorithm with storage of sums of check-to-bit node messages or sums of bit-to-check node messages, e.g. in order to increase the memory efficiency}	H03M13/11	H03M13/11		67
+H03M13/1117	14	{using approximations for check node processing, e.g. an outgoing message is depending on the signs and the minimum over the magnitudes of all incoming messages according to the min-sum rule}	H03M13/11	H03M13/11		300
+H03M13/112	15	{with correction functions for the min-sum rule, e.g. using an offset or a scaling factor}	H03M13/11	H03M13/11		194
+H03M13/1122	15	{storing only the first and second minimum values per check node}	H03M13/11	H03M13/11		120
+H03M13/1125	14	{using different domains for check node and bit node processing, wherein the different domains include probabilities, likelihood ratios, likelihood differences, log-likelihood ratios or log-likelihood difference pairs}	H03M13/11	H03M13/11		302
+H03M13/1128	13	{Judging correct decoding and iterative stopping criteria other than syndrome check and upper limit for decoding iterations}	H03M13/11	H03M13/11		417
+H03M13/1131	13	{Scheduling of bit node or check node processing}	H03M13/11	H03M13/11		229
+H03M13/1134	14	{Full parallel processing, i.e. all bit nodes or check nodes are processed in parallel}	H03M13/11	H03M13/11		113
+H03M13/1137	14	{Partly parallel processing, i.e. sub-blocks or sub-groups of nodes being processed in parallel}	H03M13/11	H03M13/11		384
+H03M13/114	14	{Shuffled, staggered, layered or turbo decoding schedules}	H03M13/11	H03M13/11		346
+H03M13/1142	13	{using trapping sets}	H03M13/11	H03M13/11		95
+H03M13/1145	13	{Pipelined decoding at code word level, e.g. multiple code words being decoded simultaneously}	H03M13/11	H03M13/11		63
+H03M13/1148	12	{Structural properties of the code parity-check or generator matrix}	H03M13/11	H03M13/11		652
+H03M13/1151	13	{Algebraically constructed LDPC codes, e.g. LDPC codes derived from Euclidean geometries [EG-LDPC codes] (H03M13/116, H03M13/1174 take precedence)}	H03M13/11	H03M13/11		84
+H03M13/1154	13	{Low-density parity-check convolutional codes [LDPC-CC]}	H03M13/11	H03M13/11		126
+H03M13/1157	13	{Low-density generator matrices [LDGM]}	H03M13/11	H03M13/11		65
+H03M13/116	13	{Quasi-cyclic LDPC [QC-LDPC] codes, i.e. the parity-check matrix being composed of permutation or circulant sub-matrices}	H03M13/11	H03M13/11		1249
+H03M13/1162	14	{Array based LDPC codes, e.g. array codes}	H03M13/11	H03M13/11		80
+H03M13/1165	14	{QC-LDPC codes as defined for the digital video broadcasting [DVB] specifications, e.g. DVB-Satellite [DVB-S2]}	H03M13/11	H03M13/11		527
+H03M13/1168	14	{wherein the sub-matrices have column and row weights greater than one, e.g. multi-diagonal sub-matrices}	H03M13/11	H03M13/11		105
+H03M13/1171	13	{Parity-check or generator matrices with non-binary elements, e.g. for non-binary LDPC codes}	H03M13/11	H03M13/11		230
+H03M13/1174	13	{Parity-check or generator matrices built from sub-matrices representing known block codes such as, e.g. Hamming codes, e.g. generalized LDPC codes}	H03M13/11	H03M13/11		157
+H03M13/1177	13	{Regular LDPC codes with parity-check matrices wherein all rows and columns have the same row weight and column weight, respectively}	H03M13/11	H03M13/11		147
+H03M13/118	13	{Parity check matrix structured for simplifying encoding, e.g. by having a triangular or an approximate triangular structure (H03M13/1165 takes precedence)}	H03M13/11	H03M13/11		297
+H03M13/1182	14	{wherein the structure of the parity-check matrix is obtained by reordering of a random parity-check matrix}	H03M13/11	H03M13/11		32
+H03M13/1185	14	{wherein the parity-check matrix comprises a part with a double-diagonal}	H03M13/11	H03M13/11		325
+H03M13/1188	15	{wherein in the part with the double-diagonal at least one column has an odd column weight equal or greater than three}	H03M13/11	H03M13/11		139
+H03M13/1191	12	{Codes on graphs other than LDPC codes}	H03M13/11	H03M13/11		134
+H03M13/1194	13	{Repeat-accumulate [RA] codes}	H03M13/11	H03M13/11		55
+H03M13/1197	14	{Irregular repeat-accumulate [IRA] codes}	H03M13/11	H03M13/11		57
+H03M13/13	10	Linear codes	H03M13/13	H03M13/13		2058
+H03M13/132	11	{Algebraic geometric codes, e.g. Goppa codes}	H03M13/13	H03M13/13		47
+H03M13/134	11	{Non-binary linear block codes not provided for otherwise}	H03M13/13	H03M13/13		85
+H03M13/136	11	{Reed-Muller [RM] codes}	H03M13/13	H03M13/13		174
+H03M13/138	11	{Codes linear in a ring, e.g. Z4-linear codes or Nordstrom-Robinson codes}	H03M13/13	H03M13/13		6
+H03M13/15	11	Cyclic codes, i.e. cyclic shifts of codewords produce other codewords, e.g. codes defined by a generator polynomial, Bose-Chaudhuri-Hocquenghem [BCH] codes (H03M13/17 takes precedence)	H03M13/15	H03M13/15		992
+H03M13/1505	12	{Golay Codes}	H03M13/15	H03M13/15		93
+H03M13/151	12	{using error location or error correction polynomials}	H03M13/15	H03M13/15		449
+H03M13/1515	13	{Reed-Solomon codes}	H03M13/15	H03M13/15		2212
+H03M13/152	13	{Bose-Chaudhuri-Hocquenghem [BCH] codes}	H03M13/15	H03M13/15		1430
+H03M13/1525	13	{Determination and particular use of error location polynomials}	H03M13/15	H03M13/15		140
+H03M13/153	14	{using the Berlekamp-Massey algorithm}	H03M13/15	H03M13/15		123
+H03M13/1535	14	{using the Euclid algorithm}	H03M13/15	H03M13/15		81
+H03M13/154	13	{Error and erasure correction, e.g. by using the error and erasure locator or Forney polynomial}	H03M13/15	H03M13/15		376
+H03M13/1545	13	{Determination of error locations, e.g. Chien search or other methods or arrangements for the determination of the roots of the error locator polynomial}	H03M13/15	H03M13/15		282
+H03M13/155	13	{Shortening or extension of codes}	H03M13/15	H03M13/15		89
+H03M13/1555	13	{Pipelined decoder implementations}	H03M13/15	H03M13/15		81
+H03M13/156	13	{Encoding or decoding using time-frequency transformations, e.g. fast Fourier transformation}	H03M13/15	H03M13/15		22
+H03M13/1565	13	{Decoding beyond the bounded minimum distance [BMD]}	H03M13/15	H03M13/15		15
+H03M13/157	13	{Polynomial evaluation, i.e. determination of a polynomial sum at a given value}	H03M13/15	H03M13/15		66
+H03M13/1575	13	{Direct decoding, e.g. by a direct determination of the error locator polynomial from syndromes and subsequent analysis or by matrix operations involving syndromes, e.g. for codes with a small minimum Hamming distance}	H03M13/15	H03M13/15		383
+H03M13/158	13	{Finite field arithmetic processing}	H03M13/15	H03M13/15		202
+H03M13/1585	13	{Determination of error values}	H03M13/15	H03M13/15		46
+H03M13/159	12	{Remainder calculation, e.g. for encoding and syndrome calculation}	H03M13/15	H03M13/15		152
+H03M13/1595	13	{Parallel or block-wise remainder calculation}	H03M13/15	H03M13/15		52
+H03M13/17	11	Burst error correction, e.g. error trapping, Fire codes	H03M13/17	H03M13/17		198
+H03M13/175	12	{Error trapping or Fire codes}	H03M13/17	H03M13/17		31
+H03M13/19	11	Single error correction without using particular properties of the cyclic codes, e.g. Hamming codes, extended or generalised Hamming codes	H03M13/19	H03M13/19		827
+H03M13/21	10	Non-linear codes, e.g. m-bit data word to n-bit code word [mBnB] conversion with error detection or error correction	H03M13/21	H03M13/21		46
+H03M13/23	9	using convolutional codes, e.g. unit memory codes	H03M13/23	H03M13/23		910
+H03M13/235	10	{Encoding of convolutional codes, e.g. methods or arrangements for parallel or block-wise encoding}	H03M13/23	H03M13/23		174
+H03M13/25	8	Error detection or forward error correction by signal space coding, i.e. adding redundancy in the signal constellation, e.g. Trellis Coded Modulation [TCM] {(modulation codes H03M13/31)}	H03M13/25	H03M13/25		375
+H03M13/251	9	{with block coding}	H03M13/25	H03M13/25		216
+H03M13/253	9	{with concatenated codes}	H03M13/25	H03M13/25		198
+H03M13/255	9	{with Low Density Parity Check [LDPC] codes}	H03M13/25	H03M13/25		777
+H03M13/256	9	{with trellis coding, e.g. with convolutional codes and TCM}	H03M13/25	H03M13/25		490
+H03M13/258	9	{with turbo codes, e.g. Turbo Trellis Coded Modulation [TTCM]}	H03M13/25	H03M13/25		187
+H03M13/27	8	using interleaving techniques	H03M13/27	H03M13/27		1291
+H03M13/2703	9	{the interleaver involving at least two directions}	H03M13/27	H03M13/27		244
+H03M13/2707	10	{Simple row-column interleaver, i.e. pure block interleaving}	H03M13/27	H03M13/27		477
+H03M13/271	10	{Row-column interleaver with permutations, e.g. block interleaving with inter-row, inter-column, intra-row or intra-column permutations}	H03M13/27	H03M13/27		417
+H03M13/2714	11	{Turbo interleaver for 3rd generation partnership project [3GPP] universal mobile telecommunications systems [UMTS], e.g. as defined in technical specification TS 25.212}	H03M13/27	H03M13/27		61
+H03M13/2717	10	{the interleaver involves 3 or more directions}	H03M13/27	H03M13/27		16
+H03M13/2721	10	{the interleaver involves a diagonal direction, e.g. by using an interleaving matrix with read-out in a diagonal direction}	H03M13/27	H03M13/27		96
+H03M13/2725	10	{Turbo interleaver for 3rd generation partnership project 2 [3GPP2] mobile telecommunication systems, e.g. as defined in the 3GPP2 technical specifications C.S0002}	H03M13/27	H03M13/27		17
+H03M13/2728	10	{Helical type interleaver}	H03M13/27	H03M13/27		9
+H03M13/2732	9	{Convolutional interleaver; Interleavers using shift-registers or delay lines like, e.g. Ramsey type interleaver}	H03M13/27	H03M13/27		327
+H03M13/2735	9	{Interleaver using powers of a primitive element, e.g. Galois field [GF] interleaver}	H03M13/27	H03M13/27		30
+H03M13/2739	9	{Permutation polynomial interleaver, e.g. quadratic permutation polynomial [QPP] interleaver and quadratic congruence interleaver}	H03M13/27	H03M13/27		68
+H03M13/2742	9	{Irregular interleaver wherein the permutation pattern is not obtained by a computation rule, e.g. interleaver based on random generators}	H03M13/27	H03M13/27		92
+H03M13/2746	10	{S-random interleaver}	H03M13/27	H03M13/27		30
+H03M13/275	9	{Interleaver wherein the permutation pattern is obtained using a congruential operation of the type y=ax+b modulo c}	H03M13/27	H03M13/27		75
+H03M13/2753	10	{Almost regular permutation [ARP] interleaver}	H03M13/27	H03M13/27		16
+H03M13/2757	9	{Interleaver with an interleaving rule not provided for in the subgroups H03M13/2703 - H03M13/2753}	H03M13/27	H03M13/27		79
+H03M13/276	9	{Interleaving address generation}	H03M13/27	H03M13/27		211
+H03M13/2764	10	{Circuits therefore}	H03M13/27	H03M13/27		165
+H03M13/2767	9	{Interleaver wherein the permutation pattern or a portion thereof is stored}	H03M13/27	H03M13/27		55
+H03M13/2771	9	{Internal interleaver for turbo codes (H03M13/2714 and H03M13/2725 take precedence)}	H03M13/27	H03M13/27		282
+H03M13/2775	10	{Contention or collision free turbo code internal interleaver}	H03M13/27	H03M13/27		70
+H03M13/2778	9	{Interleaver using block-wise interleaving, e.g. the interleaving matrix is sub-divided into sub-matrices and the permutation is performed in blocks of sub-matrices}	H03M13/27	H03M13/27		349
+H03M13/2782	9	{Interleaver implementations, which reduce the amount of required interleaving memory}	H03M13/27	H03M13/27		114
+H03M13/2785	10	{Interleaver using in-place interleaving, i.e. writing to and reading from the memory is performed at the same memory location}	H03M13/27	H03M13/27		66
+H03M13/2789	9	{Interleaver providing variable interleaving, e.g. variable block sizes}	H03M13/27	H03M13/27		183
+H03M13/2792	9	{Interleaver wherein interleaving is performed jointly with another technique such as puncturing, multiplexing or routing}	H03M13/27	H03M13/27		359
+H03M13/2796	10	{Two or more interleaving operations are performed jointly, e.g. the first and second interleaving operations defined for 3GPP UMTS are performed jointly in a single interleaving operation}	H03M13/27	H03M13/27		23
+H03M13/29	8	combining two or more codes or code structures, e.g. product codes, generalised product codes, concatenated codes, inner and outer codes	H03M13/29	H03M13/29		826
+H03M13/2903	9	{Methods and arrangements specifically for encoding, e.g. parallel encoding of a plurality of constituent codes}	H03M13/29	H03M13/29		314
+H03M13/2906	9	{using block codes (H03M13/2957 takes precedence)}	H03M13/29	H03M13/29		1542
+H03M13/2909	10	{Product codes}	H03M13/29	H03M13/29		607
+H03M13/2912	11	{omitting parity on parity}	H03M13/29	H03M13/29		30
+H03M13/2915	11	{with an error detection code in one dimension}	H03M13/29	H03M13/29		84
+H03M13/2918	10	{with error correction codes in three or more dimensions, e.g. 3-dimensional product code where the bits are arranged in a cube}	H03M13/29	H03M13/29		118
+H03M13/2921	10	{wherein error correction coding involves a diagonal direction}	H03M13/29	H03M13/29		101
+H03M13/2924	11	{Cross interleaved Reed-Solomon codes [CIRC]}	H03M13/29	H03M13/29		41
+H03M13/2927	10	{Decoding strategies}	H03M13/29	H03M13/29		334
+H03M13/293	11	{with erasure setting}	H03M13/29	H03M13/29		211
+H03M13/2933	9	{using a block and a convolutional code (H03M13/2957 takes precedence)}	H03M13/29	H03M13/29		112
+H03M13/2936	10	{comprising an outer Reed-Solomon code and an inner convolutional code}	H03M13/29	H03M13/29		236
+H03M13/2939	9	{using convolutional codes (H03M13/2957 takes precedence)}	H03M13/29	H03M13/29		83
+H03M13/2942	9	{wherein a block of parity bits is computed only from combined information bits or only from parity bits, e.g. a second block of parity bits is computed from a first block of parity bits obtained by systematic encoding of a block of information bits, or a block of parity bits is obtained by an XOR combination of sub-blocks of information bits}	H03M13/29	H03M13/29		121
+H03M13/2945	9	{using at least three error correction codes (H03M13/2957 takes precedence)}	H03M13/29	H03M13/29		87
+H03M13/2948	9	{Iterative decoding (H03M13/2957 takes precedence)}	H03M13/29	H03M13/29		313
+H03M13/2951	10	{using iteration stopping criteria}	H03M13/29	H03M13/29		44
+H03M13/2954	9	{using Picket codes or other codes providing error burst detection capabilities, e.g. burst indicator codes and long distance codes [LDC]}	H03M13/29	H03M13/29		32
+H03M13/2957	9	{Turbo codes and decoding}<br><br><u>NOTE</u><br><br>This group covers also aspects when a component code is replaced by a non-coded constraint, e.g. like in joint turbo decoding and detection.	H03M13/29	H03M13/29		1550
+H03M13/296	10	{Particular turbo code structure}<br><br><u>NOTE</u><br><br>This group covers hybrid parallel and serial concatenated turbo code structures and other unusual code structures that do not fit into H03M13/2963 - H03M13/2972.	H03M13/29	H03M13/29		120
+H03M13/2963	11	{Turbo-block codes, i.e. turbo codes based on block codes, e.g. turbo decoding of product codes}	H03M13/29	H03M13/29		190
+H03M13/2966	11	{Turbo codes concatenated with another code, e.g. an outer block code}	H03M13/29	H03M13/29		121
+H03M13/2969	11	{Non-binary turbo codes}	H03M13/29	H03M13/29		18
+H03M13/2972	11	{Serial concatenation using convolutional component codes}	H03M13/29	H03M13/29		119
+H03M13/2975	10	{Judging correct decoding, e.g. iteration stopping criteria}	H03M13/29	H03M13/29		257
+H03M13/2978	10	{Particular arrangement of the component decoders}	H03M13/29	H03M13/29		48
+H03M13/2981	11	{using as many component decoders as component codes}	H03M13/29	H03M13/29		18
+H03M13/2984	11	{using less component decoders than component codes, e.g. multiplexed decoders and scheduling thereof}	H03M13/29	H03M13/29		19
+H03M13/2987	11	{using more component decoders than component codes, e.g. pipelined turbo iterations}	H03M13/29	H03M13/29		44
+H03M13/299	10	{Turbo codes with short blocks}	H03M13/29	H03M13/29		11
+H03M13/2993	10	{Implementing the return to a predetermined state, i.e. trellis termination}	H03M13/29	H03M13/29		96
+H03M13/2996	10	{Tail biting}	H03M13/29	H03M13/29		42
+H03M13/31	8	combining coding for error detection or correction and efficient use of the spectrum (without error detection or correction H03M5/14{, H03M5/145})	H03M13/31	H03M13/31		311
+H03M13/33	8	Synchronisation based on error coding or decoding<br><br><u>WARNING</u><br> Groups H03M13/333 - H03M13/336 are not complete pending reclassification; see also this group 	H03M13/33	H03M13/33		170
+H03M13/333	9	{Synchronisation on a multi-bit block basis, e.g. frame synchronisation}	H03M13/33	H03M13/33		69
+H03M13/336	9	{Phase recovery}	H03M13/33	H03M13/33		18
+H03M13/35	8	Unequal or adaptive error protection, e.g. by providing a different level of protection according to significance of source information or by adapting the coding according to the change of transmission channel characteristics	H03M13/35	H03M13/35		534
+H03M13/353	9	{Adaptation to the channel}	H03M13/35	H03M13/35		462
+H03M13/356	9	{Unequal error protection [UEP]}	H03M13/35	H03M13/35		545
+H03M13/37	8	Decoding methods or techniques, not specific to the particular type of coding provided for in groups H03M13/03&#160;-&#160;H03M13/35	H03M13/37	H03M13/37		299
+H03M13/3707	9	{Adaptive decoding and hybrid decoding, e.g. decoding methods or techniques providing more than one decoding algorithm for one code}	H03M13/37	H03M13/37		473
+H03M13/3715	10	{Adaptation to the number of estimated errors or to the channel state}	H03M13/37	H03M13/37		307
+H03M13/3723	9	{using means or methods for the initialisation of the decoder}	H03M13/37	H03M13/37		323
+H03M13/373	9	{with erasure correction and erasure determination, e.g. for packet loss recovery or setting of erasures for the decoding of Reed-Solomon codes}	H03M13/37	H03M13/37		606
+H03M13/3738	9	{with judging correct decoding}	H03M13/37	H03M13/37		314
+H03M13/3746	9	{with iterative decoding}	H03M13/37	H03M13/37		439
+H03M13/3753	10	{using iteration stopping criteria}	H03M13/37	H03M13/37		135
+H03M13/3761	9	{using code combining, i.e. using combining of codeword portions which may have been transmitted separately, e.g. Digital Fountain codes, Raptor codes or Luby Transform [LT] codes}	H03M13/37	H03M13/37		677
+H03M13/3769	9	{using symbol combining, e.g. Chase combining of symbols received twice or more}	H03M13/37	H03M13/37		83
+H03M13/3776	9	{using a re-encoding step during the decoding process}	H03M13/37	H03M13/37		128
+H03M13/3784	9	{for soft-output decoding of block codes}	H03M13/37	H03M13/37		56
+H03M13/3792	9	{for decoding of real number codes}	H03M13/37	H03M13/37		4
+H03M13/39	9	Sequence estimation, i.e. using statistical methods for the reconstruction of the original codes	H03M13/39	H03M13/39		225
+H03M13/3905	10	{Maximum a posteriori probability [MAP] decoding or approximations thereof based on trellis or lattice decoding, e.g. forward-backward algorithm, log-MAP decoding, max-log-MAP decoding}	H03M13/39	H03M13/39		386
+H03M13/3911	11	{Correction factor, e.g. approximations of the exp(1+x) function}	H03M13/39	H03M13/39		56
+H03M13/3916	11	{for block codes using a trellis or lattice}	H03M13/39	H03M13/39		29
+H03M13/3922	11	{Add-Compare-Select [ACS] operation in forward or backward recursions}	H03M13/39	H03M13/39		63
+H03M13/3927	11	{Log-Likelihood Ratio [LLR] computation by combination of forward and backward metrics into LLRs}	H03M13/39	H03M13/39		208
+H03M13/3933	11	{Decoding in probability domain}	H03M13/39	H03M13/39		32
+H03M13/3938	11	{Tail-biting (H03M13/2996 takes precedence)}	H03M13/39	H03M13/39		27
+H03M13/3944	10	{for block codes, especially trellis or lattice decoding thereof}	H03M13/39	H03M13/39		48
+H03M13/395	10	{using a collapsed trellis, e.g. M-step algorithm, radix-n architectures with n&gt;2}	H03M13/39	H03M13/39		74
+H03M13/3955	10	{using a trellis with a reduced state space complexity, e.g. M-algorithm or T-algorithm}	H03M13/39	H03M13/39		33
+H03M13/3961	10	{Arrangements of methods for branch or transition metric calculation}	H03M13/39	H03M13/39		296
+H03M13/3966	10	{based on architectures providing a highly parallelized implementation, e.g. based on systolic arrays}	H03M13/39	H03M13/39		14
+H03M13/3972	10	{using sliding window techniques or parallel windows}	H03M13/39	H03M13/39		232
+H03M13/3977	10	{using sequential decoding, e.g. the Fano or stack algorithms}	H03M13/39	H03M13/39		35
+H03M13/3983	10	{for non-binary convolutional codes}	H03M13/39	H03M13/39		10
+H03M13/3988	10	{for rate k/n convolutional codes, with k&gt;1, obtained by convolutional encoders with k inputs and n outputs}	H03M13/39	H03M13/39		51
+H03M13/3994	10	{using state pinning or decision forcing, i.e. the decoded sequence is forced through a particular trellis state or a particular set of trellis states or a particular decoded symbol}	H03M13/39	H03M13/39		79
+H03M13/41	10	using the Viterbi algorithm or Viterbi processors	H03M13/41	H03M13/41		1130
+H03M13/4107	11	{implementing add, compare, select [ACS] operations}	H03M13/41	H03M13/41		471
+H03M13/4115	11	{list output Viterbi decoding}	H03M13/41	H03M13/41		67
+H03M13/4123	11	{implementing the return to a predetermined state}	H03M13/41	H03M13/41		50
+H03M13/413	11	{tail biting Viterbi decoding}	H03M13/41	H03M13/41		123
+H03M13/4138	11	{soft-output Viterbi algorithm based decoding, i.e. Viterbi decoding with weighted decisions}	H03M13/41	H03M13/41		130
+H03M13/4146	12	{soft-output Viterbi decoding according to Battail and Hagenauer in which the soft-output is determined using path metric differences along the maximum-likelihood path, i.e. "SOVA" decoding}	H03M13/41	H03M13/41		137
+H03M13/4153	13	{two-step SOVA decoding, i.e. the soft-output is determined by a second traceback operation after the determination of the hard decision like in the Berrou decoder}	H03M13/41	H03M13/41		13
+H03M13/4161	11	{implementing path management}	H03M13/41	H03M13/41		90
+H03M13/4169	12	{using traceback (H03M13/4192 takes precedence)}	H03M13/41	H03M13/41		297
+H03M13/4176	13	{using a plurality of RAMs, e.g. for carrying out a plurality of traceback implementations simultaneously}	H03M13/41	H03M13/41		19
+H03M13/4184	12	{using register-exchange (H03M13/4192 takes precedence)}	H03M13/41	H03M13/41		31
+H03M13/4192	12	{using combined traceback and register-exchange}	H03M13/41	H03M13/41		23
+H03M13/43	9	Majority logic or threshold decoding	H03M13/43	H03M13/43		161
+H03M13/45	9	Soft decoding, i.e. using symbol reliability information (H03M13/41 takes precedence)	H03M13/45	H03M13/45		538
+H03M13/451	10	{using a set of candidate code words, e.g. ordered statistics decoding [OSD]}	H03M13/45	H03M13/45		203
+H03M13/453	11	{wherein the candidate code words are obtained by an algebraic decoder, e.g. Chase decoding}	H03M13/45	H03M13/45		84
+H03M13/455	12	{using a set of erasure patterns or successive erasure decoding, e.g. generalized minimum distance [GMD] decoding}	H03M13/45	H03M13/45		47
+H03M13/456	11	{wherein all the code words of the code or its dual code are tested, e.g. brute force decoding}	H03M13/45	H03M13/45		19
+H03M13/458	10	{by updating bit probabilities or hard decisions in an iterative fashion for convergence to a final decoding result}	H03M13/45	H03M13/45		168
+H03M13/47	8	Error detection, forward error correction or error protection, not provided for in groups H03M13/01&#160;-&#160;H03M13/37	H03M13/47	H03M13/47		183
+H03M13/49	9	Unidirectional error detection or correction	H03M13/49	H03M13/49		20
+H03M13/51	9	Constant weight codes; n-out-of-m codes; Berger codes	H03M13/51	H03M13/51		183
+H03M13/53	9	Codes using Fibonacci numbers series	H03M13/53	H03M13/53		5
+H03M13/61	8	{Aspects and characteristics of methods and arrangements for error correction or error detection, not provided for otherwise}	H03M13/00	H03M13/61		28
+H03M13/611	9	{Specific encoding aspects, e.g. encoding by means of decoding}	H03M13/00	H03M13/61		500
+H03M13/612	9	{Aspects specific to channel or signal-to-noise ratio estimation (H03M13/63 takes precedence)}	H03M13/00	H03M13/61		161
+H03M13/613	9	{Use of the dual code}	H03M13/00	H03M13/61		25
+H03M13/615	9	{Use of computational or mathematical techniques}	H03M13/00	H03M13/61		52
+H03M13/616	10	{Matrix operations, especially for generator matrices or check matrices, e.g. column or row permutations}	H03M13/00	H03M13/61		908
+H03M13/617	10	{Polynomial operations, e.g. operations related to generator polynomials or parity-check polynomials}	H03M13/00	H03M13/61		80
+H03M13/618	9	{Shortening and extension of codes}	H03M13/00	H03M13/61		452
+H03M13/63	8	{Joint error correction and other techniques (H03M13/31 and H03M13/33 take precedence)}	H03M13/00	H03M13/63		153
+H03M13/6306	9	{Error control coding in combination with Automatic Repeat reQuest [ARQ] and diversity transmission, e.g. coding schemes for the multiple transmission of the same information or the transmission of incremental redundancy (H03M13/3761, H03M13/3769 and H03M13/635 take precedence)}	H03M13/00	H03M13/63		551
+H03M13/6312	9	{Error control coding in combination with data compression}	H03M13/00	H03M13/63		214
+H03M13/6318	10	{using variable length codes}	H03M13/00	H03M13/63		33
+H03M13/6325	9	{Error control coding in combination with demodulation}	H03M13/00	H03M13/63		414
+H03M13/6331	9	{Error control coding in combination with equalisation}	H03M13/00	H03M13/63		362
+H03M13/6337	9	{Error control coding in combination with channel estimation}	H03M13/00	H03M13/63		124
+H03M13/6343	9	{Error control coding in combination with techniques for partial response channels, e.g. recording}	H03M13/00	H03M13/63		347
+H03M13/635	9	{Error control coding in combination with rate matching}	H03M13/00	H03M13/63		226
+H03M13/6356	10	{by repetition or insertion of dummy data, i.e. rate reduction}	H03M13/00	H03M13/63		374
+H03M13/6362	10	{by puncturing}	H03M13/00	H03M13/63		930
+H03M13/6368	11	{using rate compatible puncturing or complementary puncturing}	H03M13/00	H03M13/63		71
+H03M13/6375	12	{Rate compatible punctured convolutional [RCPC] codes}	H03M13/00	H03M13/63		30
+H03M13/6381	12	{Rate compatible punctured turbo [RCPT] codes}	H03M13/00	H03M13/63		42
+H03M13/6387	12	{Complementary punctured convolutional [CPC] codes}	H03M13/00	H03M13/63		8
+H03M13/6393	12	{Rate compatible low-density parity check [LDPC] codes}	H03M13/00	H03M13/63		231
+H03M13/65	8	{Purpose and implementation aspects}	H03M13/00	H03M13/65		10
+H03M13/6502	9	{Reduction of hardware complexity or efficient processing}	H03M13/00	H03M13/65		1354
+H03M13/6505	10	{Memory efficient implementations}	H03M13/00	H03M13/65		416
+H03M13/6508	9	{Flexibility, adaptability, parametrability and configurability of the implementation}	H03M13/00	H03M13/65		331
+H03M13/6511	10	{Support of multiple decoding rules, e.g. combined MAP and Viterbi decoding}	H03M13/00	H03M13/65		84
+H03M13/6513	10	{Support of multiple code types, e.g. unified decoder for LDPC and turbo codes}	H03M13/00	H03M13/65		118
+H03M13/6516	10	{Support of multiple code parameters, e.g. generalized Reed-Solomon decoder for a variety of generator polynomials or Galois fields}	H03M13/00	H03M13/65		521
+H03M13/6519	10	{Support of multiple transmission or communication standards}	H03M13/00	H03M13/65		75
+H03M13/6522	9	{Intended application, e.g. transmission or communication standard}	H03M13/00	H03M13/65		172
+H03M13/6525	10	{3GPP LTE including E-UTRA}	H03M13/00	H03M13/65		253
+H03M13/6527	10	{IEEE 802.11 [WLAN]}	H03M13/00	H03M13/65		138
+H03M13/653	10	{3GPP HSDPA, e.g. HS-SCCH or DS-DSCH related}	H03M13/00	H03M13/65		46
+H03M13/6533	10	{ITU 992.X [ADSL]}	H03M13/00	H03M13/65		10
+H03M13/6536	10	{GSM GPRS}	H03M13/00	H03M13/65		10
+H03M13/6538	10	{ATSC VBS systems}	H03M13/00	H03M13/65		83
+H03M13/6541	10	{DVB-H and DVB-M}	H03M13/00	H03M13/65		26
+H03M13/6544	10	{IEEE 802.16 (WIMAX and broadband wireless access)}	H03M13/00	H03M13/65		138
+H03M13/6547	10	{TCP, UDP, IP and associated protocols, e.g. RTP}	H03M13/00	H03M13/65		33
+H03M13/655	10	{UWB OFDM}	H03M13/00	H03M13/65		17
+H03M13/6552	10	{DVB-T2}	H03M13/00	H03M13/65		179
+H03M13/6555	10	{DVB-C2}	H03M13/00	H03M13/65		45
+H03M13/6558	10	{3GPP2}	H03M13/00	H03M13/65		20
+H03M13/6561	9	{Parallelized implementations}	H03M13/00	H03M13/65		650
+H03M13/6563	9	{Implementations using multi-port memories}	H03M13/00	H03M13/65		39
+H03M13/6566	9	{Implementations concerning memory access contentions}	H03M13/00	H03M13/65		183
+H03M13/6569	9	{Implementation on processors, e.g. DSPs, or software implementations}	H03M13/00	H03M13/65		176
+H03M13/6572	9	{Implementations using a tree structure, e.g. implementations in which the complexity is reduced by a tree structure from O(n) to O (log(n))}	H03M13/00	H03M13/65		53
+H03M13/6575	9	{Implementations based on combinatorial logic, e.g. Boolean circuits}	H03M13/00	H03M13/65		133
+H03M13/6577	9	{Representation or format of variables, register sizes or word-lengths and quantization}	H03M13/00	H03M13/65		219
+H03M13/658	10	{Scaling by multiplication or division}	H03M13/00	H03M13/65		287
+H03M13/6583	10	{Normalization other than scaling, e.g. by subtraction}	H03M13/00	H03M13/65		142
+H03M13/6586	11	{Modulo/modular normalization, e.g. 2&apos;s complement modulo implementations}	H03M13/00	H03M13/65		23
+H03M13/6588	10	{Compression or short representation of variables}	H03M13/00	H03M13/65		63
+H03M13/6591	10	{Truncation, saturation and clamping}	H03M13/00	H03M13/65		61
+H03M13/6594	10	{Non-linear quantization}	H03M13/00	H03M13/65		26
+H03M13/6597	9	{Implementations using analogue techniques for coding or decoding, e.g. analogue Viterbi decoder}	H03M13/00	H03M13/65		106
+H03M99/00	7	Subject matter not provided for in other groups of this subclass	H03M99/00	H03M99/00		13

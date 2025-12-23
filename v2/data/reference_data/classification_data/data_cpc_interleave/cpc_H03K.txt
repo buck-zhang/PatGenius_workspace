@@ -1,0 +1,873 @@
+H03K3/00	7	Circuits for generating electric pulses; Monostable, bistable or multistable circuits (H03K4/00 takes precedence; for digital function generators in computers G06F1/02)	H03K3/00	H03K3/00		565
+H03K3/01	8	Details	H03K3/01	H03K3/01		278
+H03K3/011	9	Modifications of generator to compensate for variations in physical values, e.g. voltage, temperature {(to maintain energy constant H03K3/015)}	H03K3/011	H03K3/011		1332
+H03K3/012	9	Modifications of generator to improve response time or to decrease power consumption	H03K3/012	H03K3/012		2318
+H03K3/013	9	Modifications of generator to prevent operation by noise or interference	H03K3/013	H03K3/013		890
+H03K3/014	9	Modifications of generator to ensure starting of oscillations	H03K3/014	H03K3/014		143
+H03K3/015	9	Modifications of generator to maintain energy constant	H03K3/015	H03K3/015		70
+H03K3/017	9	Adjustment of width or dutycycle of pulses (pulse width modulation H03K7/08{; to maintain energy constant H03K3/015})	H03K3/017	H03K3/017		1114
+H03K3/02	8	Generators characterised by the type of circuit or by the means used for producing pulses (H03K3/64&#160;-&#160;H03K3/84 take precedence)	H03K3/02	H03K3/02		896
+H03K3/021	9	by the use, as active elements, of more than one type of element or means, e.g. BIMOS, composite devices such as IGBT	H03K3/021	H03K3/021		145
+H03K3/023	9	by the use of differential amplifiers or comparators, with internal or external positive feedback	H03K3/023	H03K3/023		284
+H03K3/0231	10	Astable circuits {(H03K3/0315 takes precedence)}	H03K3/0231	H03K3/0231		1178
+H03K3/02315	11	{Stabilisation of output, e.g. using crystal}	H03K3/0231	H03K3/0231		61
+H03K3/0232	10	Monostable circuits	H03K3/0232	H03K3/0232		53
+H03K3/0233	10	Bistable circuits	H03K3/0233	H03K3/0233		140
+H03K3/02332	11	{of the primary-secondary type}	H03K3/0233	H03K3/0233		20
+H03K3/02335	11	{provided with means for increasing reliability; for protection; for ensuring a predetermined initial state when the supply voltage has been applied; for storing the actual state when the supply voltage fails (digital storage cells each combining volatile and non-volatile storage properties G11C14/00)}	H03K3/0233	H03K3/0233		47
+H03K3/02337	11	{Bistables with hysteresis, e.g. Schmitt trigger (non-regenerative amplitude discriminators G01R19/165)}	H03K3/0233	H03K3/0233		363
+H03K3/0234	10	Multistable circuits	H03K3/0234	H03K3/0234		7
+H03K3/027	9	by the use of logic circuits, with internal or external positive feedback	H03K3/027	H03K3/027		232
+H03K3/03	10	Astable circuits	H03K3/03	H03K3/03		601
+H03K3/0307	11	{Stabilisation of output, e.g. using crystal}	H03K3/03	H03K3/03		270
+H03K3/0315	11	{Ring oscillators}	H03K3/03	H03K3/03		1800
+H03K3/0322	12	{with differential cells}	H03K3/03	H03K3/03		502
+H03K3/033	10	Monostable circuits	H03K3/033	H03K3/033		207
+H03K3/037	10	Bistable circuits	H03K3/037	H03K3/037		2019
+H03K3/0372	11	{of the primary-secondary type}	H03K3/037	H03K3/037		517
+H03K3/0375	11	{provided with means for increasing reliability; for protection; for ensuring a predetermined initial state when the supply voltage has been applied; for storing the actual state when the supply voltage fails (digital storage cells each combining volatile and non-volatile storage properties G11C14/00)}	H03K3/037	H03K3/037		837
+H03K3/0377	11	{Bistables with hysteresis, e.g. Schmitt trigger (non-regenerative amplitude discriminators G01R19/165)}	H03K3/037	H03K3/037		193
+H03K3/038	10	Multistable circuits	H03K3/038	H03K3/038		60
+H03K3/04	9	by the use, as active elements, of vacuum tubes only, with positive feedback (H03K3/023, H03K3/027 take precedence)	H03K3/04	H03K3/04		160
+H03K3/05	10	using means other than a transformer for feedback	H03K3/05	H03K3/05		8
+H03K3/06	11	using at least two tubes so coupled that the input of one is derived from the output of another, e.g. multivibrator	H03K3/06	H03K3/06		66
+H03K3/08	12	astable	H03K3/08	H03K3/08		203
+H03K3/09	13	Stabilisation of output	H03K3/09	H03K3/09		2
+H03K3/10	12	monostable	H03K3/10	H03K3/10		126
+H03K3/12	12	bistable	H03K3/12	H03K3/12		122
+H03K3/13	13	Bistables with hysteresis, e.g. Schmitt trigger	H03K3/13	H03K3/13		60
+H03K3/14	12	multistable	H03K3/14	H03K3/14		14
+H03K3/16	10	using a transformer for feedback, e.g. blocking oscillator with saturable core	H03K3/16	H03K3/16		179
+H03K3/22	11	specially adapted for amplitude comparison, i.e. Multiar	H03K3/22	H03K3/22		4
+H03K3/26	9	by the use, as active elements, of bipolar transistors with internal or external positive feedback (H03K3/023, H03K3/027 take precedence)	H03K3/26	H03K3/26		459
+H03K3/28	10	using means other than a transformer for feedback	H03K3/28	H03K3/28		102
+H03K3/281	11	using at least two transistors so coupled that the input of one is derived from the output of another, e.g. multivibrator	H03K3/281	H03K3/281		237
+H03K3/282	12	astable	H03K3/282	H03K3/282		78
+H03K3/2821	13	{Emitters connected to one another by using a capacitor}	H03K3/282	H03K3/282		138
+H03K3/2823	13	{using two active transistor of the same conductivity type (H03K3/2821 takes precedence)}	H03K3/282	H03K3/282		373
+H03K3/2825	14	{in an asymmetrical circuit configuration}	H03K3/282	H03K3/282		60
+H03K3/2826	13	{using two active transistors of the complementary type (H03K3/2821 take precedence)}	H03K3/282	H03K3/282		17
+H03K3/2828	14	{in an asymmetrical circuit configuration}	H03K3/282	H03K3/282		86
+H03K3/283	13	Stabilisation of output {, e.g. using crystal}	H03K3/283	H03K3/283		46
+H03K3/284	12	monostable	H03K3/284	H03K3/284		533
+H03K3/286	12	bistable	H03K3/286	H03K3/286		561
+H03K3/2865	13	{ensuring a predetermined initial state when the supply voltage has been applied; storing the actual state when the supply voltage fails (digital storage cells each combining volatile and non-volatile storage properties G11C14/00)}	H03K3/286	H03K3/286		59
+H03K3/287	13	using additional transistors in the feedback circuit (H03K3/289 takes precedence)	H03K3/287	H03K3/287		55
+H03K3/288	13	using additional transistors in the input circuit (H03K3/289 takes precedence)	H03K3/288	H03K3/288		299
+H03K3/2885	14	the input circuit having a differential configuration	H03K3/2885	H03K3/2885		274
+H03K3/289	13	of the primary-secondary type	H03K3/289	H03K3/289		165
+H03K3/2893	13	Bistables with hysteresis, e.g. Schmitt trigger	H03K3/2893	H03K3/2893		467
+H03K3/2897	14	with an input circuit of differential configuration	H03K3/2897	H03K3/2897		95
+H03K3/29	12	multistable	H03K3/29	H03K3/29		111
+H03K3/30	10	using a transformer for feedback, e.g. blocking oscillator	H03K3/30	H03K3/30		755
+H03K3/313	9	by the use, as active elements, of semiconductor devices with two electrodes, one or two potential barriers, and exhibiting a negative resistance characteristic	H03K3/313	H03K3/313		200
+H03K3/315	10	the devices being tunnel diodes	H03K3/315	H03K3/315		524
+H03K3/33	9	by the use, as active elements, of semiconductor devices exhibiting hole storage or enhancement effect	H03K3/33	H03K3/33		183
+H03K3/335	9	by the use, as active elements, of semiconductor devices with more than two electrodes and exhibiting avalanche effect	H03K3/335	H03K3/335		124
+H03K3/35	9	by the use, as active elements, of bipolar semiconductor devices with more than two PN junctions, or more than three electrodes, or more than one electrode connected to the same conductivity region (H03K3/023, H03K3/027 take precedence)	H03K3/35	H03K3/35		161
+H03K3/351	10	the devices being unijunction transistors (H03K3/352 takes precedence)	H03K3/351	H03K3/351		251
+H03K3/352	10	the devices being thyristors	H03K3/352	H03K3/352		309
+H03K3/3525	11	Anode gate thyristors or programmable unijunction transistors	H03K3/3525	H03K3/3525		48
+H03K3/353	9	by the use, as active elements, of field-effect transistors with internal or external positive feedback (H03K3/023, H03K3/027 take precedence)	H03K3/353	H03K3/353		244
+H03K3/354	10	Astable circuits	H03K3/354	H03K3/354		586
+H03K3/3545	11	{Stabilisation of output, e.g. using crystal}	H03K3/354	H03K3/354		142
+H03K3/355	10	Monostable circuits	H03K3/355	H03K3/355		68
+H03K3/356	10	Bistable circuits	H03K3/356	H03K3/356		500
+H03K3/356008	11	{ensuring a predetermined initial state when the supply voltage has been applied; storing the actual state when the supply voltage fails (digital storage cells each combining volatile and non-volatile storage properties G11C14/00)}	H03K3/356	H03K3/356		370
+H03K3/356017	11	{using additional transistors in the input circuit (H03K3/356104, H03K3/3562 take precedence)}	H03K3/356	H03K3/356		362
+H03K3/356026	12	{with synchronous operation (H03K3/356034, H03K3/356052 take precedence)}	H03K3/356	H03K3/356		101
+H03K3/356034	12	{the input circuit having a differential configuration}	H03K3/356	H03K3/356		112
+H03K3/356043	13	{with synchronous operation}	H03K3/356	H03K3/356		108
+H03K3/356052	12	{using pass gates}	H03K3/356	H03K3/356		60
+H03K3/35606	13	{with synchronous operation}	H03K3/356	H03K3/356		198
+H03K3/356069	11	{using additional transistors in the feedback circuit (H03K3/356104, H03K3/3562 take precedence)}	H03K3/356	H03K3/356		76
+H03K3/356078	12	{with synchronous operation}	H03K3/356	H03K3/356		65
+H03K3/356086	11	{with additional means for controlling the main nodes (H03K3/356104, H03K3/3562 take precedence)}	H03K3/356	H03K3/356		48
+H03K3/356095	12	{with synchronous operation}	H03K3/356	H03K3/356		88
+H03K3/356104	11	{using complementary field-effect transistors (H03K3/35625 takes precedence)}	H03K3/356	H03K3/356		668
+H03K3/356113	12	{using additional transistors in the input circuit}	H03K3/356	H03K3/356		965
+H03K3/356121	13	{with synchronous operation (H03K3/35613, H03K3/356147 take precedence)}	H03K3/356	H03K3/356		305
+H03K3/35613	13	{the input circuit having a differential configuration}	H03K3/356	H03K3/356		375
+H03K3/356139	14	{with synchronous operation}	H03K3/356	H03K3/356		328
+H03K3/356147	13	{using pass gates}	H03K3/356	H03K3/356		105
+H03K3/356156	14	{with synchronous operation}	H03K3/356	H03K3/356		337
+H03K3/356165	12	{using additional transistors in the feedback circuit}	H03K3/356	H03K3/356		234
+H03K3/356173	13	{with synchronous operation}	H03K3/356	H03K3/356		91
+H03K3/356182	12	{with additional means for controlling the main nodes}	H03K3/356	H03K3/356		262
+H03K3/356191	13	{with synchronous operation}	H03K3/356	H03K3/356		123
+H03K3/3562	11	of the primary-secondary type	H03K3/3562	H03K3/3562		253
+H03K3/35625	12	{using complementary field-effect transistors}	H03K3/3562	H03K3/3562		537
+H03K3/3565	11	Bistables with hysteresis, e.g. Schmitt trigger	H03K3/3565	H03K3/3565		732
+H03K3/3568	10	Multistable circuits	H03K3/3568	H03K3/3568		21
+H03K3/357	9	by the use, as active elements, of bulk negative resistance devices, e.g. Gunn-effect devices	H03K3/357	H03K3/357		18
+H03K3/36	9	by the use, as active elements, of semiconductors, not otherwise provided for	H03K3/36	H03K3/36		67
+H03K3/37	9	by the use, as active elements, of gas-filled tubes, e.g. astable trigger circuits (H03K3/55 takes precedence)	H03K3/37	H03K3/37		150
+H03K3/38	9	by the use, as active elements, of superconductive devices	H03K3/38	H03K3/38		362
+H03K3/40	9	by the use, as active elements, of electrochemical cells	H03K3/40	H03K3/40		18
+H03K3/42	9	by the use, as active elements, of opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled	H03K3/42	H03K3/42		327
+H03K3/43	9	by the use, as active elements, of beam deflection tubes	H03K3/43	H03K3/43		54
+H03K3/45	9	by the use, as active elements, of non-linear magnetic or dielectric devices	H03K3/45	H03K3/45		980
+H03K3/455	10	{using thin films}	H03K3/45	H03K3/45		13
+H03K3/47	10	the devices being parametrons	H03K3/47	H03K3/47		123
+H03K3/49	10	the devices being ferro-resonant	H03K3/49	H03K3/49		34
+H03K3/51	10	the devices being multi-aperture magnetic cores, e.g. transfluxors	H03K3/51	H03K3/51		87
+H03K3/53	9	by the use of an energy-accumulating element discharged through the load by a switching device controlled by an external signal and not incorporating positive feedback (H03K3/335 takes precedence)	H03K3/53	H03K3/53		895
+H03K3/537	10	the switching device being a spark gap	H03K3/537	H03K3/537		449
+H03K3/543	10	the switching device being a vacuum tube	H03K3/543	H03K3/543		89
+H03K3/55	10	the switching device being a gas-filled tube having a control electrode	H03K3/55	H03K3/55		536
+H03K3/57	10	the switching device being a semiconductor device	H03K3/57	H03K3/57		1637
+H03K3/59	9	by the use of galvano-magnetic devices, e.g. Hall effect devices	H03K3/59	H03K3/59		26
+H03K3/64	8	Generators producing trains of pulses, i.e. finite sequences of pulses	H03K3/64	H03K3/64		315
+H03K3/66	9	by interrupting the output of a generator	H03K3/66	H03K3/66		36
+H03K3/70	10	time intervals between all adjacent pulses of one train being equal	H03K3/70	H03K3/70		63
+H03K3/72	9	with means for varying repetition rate of trains	H03K3/72	H03K3/72		128
+H03K3/78	8	Generating a single train of pulses having a predetermined pattern, e.g. a predetermined number	H03K3/78	H03K3/78		735
+H03K3/80	8	Generating trains of sinusoidal oscillations (by keying or interruption of sinusoidal oscillations H03C; for transmission of digital information H04L)	H03K3/80	H03K3/80		288
+H03K3/84	8	Generating pulses having a predetermined statistical distribution of a parameter, e.g. random pulse generators	H03K3/84	H03K3/84		903
+H03K3/86	8	Generating pulses by means of delay lines and not covered by the preceding subgroups	H03K3/86	H03K3/86		78
+H03K4/00	7	Generating pulses having essentially a finite slope or stepped portions	H03K4/00	H03K4/00		186
+H03K4/02	8	having stepped portions, e.g. staircase waveform	H03K4/02	H03K4/02		172
+H03K4/023	9	{by repetitive charge or discharge of a capacitor, analogue generators}	H03K4/02	H03K4/02		154
+H03K4/026	9	{using digital techniques}	H03K4/02	H03K4/02		243
+H03K4/04	8	having parabolic shape	H03K4/04	H03K4/04		95
+H03K4/06	8	having triangular shape	H03K4/06	H03K4/06		435
+H03K4/063	9	{high voltage - or current generators}	H03K4/06	H03K4/06		12
+H03K4/066	9	{using a Miller-integrator (H03K4/08 takes precedence)}	H03K4/06	H03K4/06		123
+H03K4/08	9	having sawtooth shape	H03K4/08	H03K4/08		286
+H03K4/085	10	{Protection of sawtooth generators}	H03K4/08	H03K4/08		138
+H03K4/10	10	using as active elements vacuum tubes only	H03K4/10	H03K4/10		51
+H03K4/12	11	in which a sawtooth voltage is produced across a capacitor	H03K4/12	H03K4/12		334
+H03K4/14	12	using two tubes so coupled that the input of each one is derived from the output of the other, e.g. multivibrator	H03K4/14	H03K4/14		56
+H03K4/16	12	using a single tube with positive feedback through transformer, e.g. blocking oscillator	H03K4/16	H03K4/16		110
+H03K4/18	12	using a single tube exhibiting negative resistance between two of its electrodes, e.g. transitron, dynatron	H03K4/18	H03K4/18		21
+H03K4/20	12	using a tube with negative feedback by capacitor, e.g. Miller integrator	H03K4/20	H03K4/20		98
+H03K4/22	13	combined with transitron, e.g. phantastron, sanatron	H03K4/22	H03K4/22		37
+H03K4/24	12	Boot-strap generators	H03K4/24	H03K4/24		65
+H03K4/26	11	in which a sawtooth current is produced through an inductor	H03K4/26	H03K4/26		110
+H03K4/28	12	using a tube operating as a switching device	H03K4/28	H03K4/28		220
+H03K4/32	13	combined with means for generating the driving pulses	H03K4/32	H03K4/32		80
+H03K4/34	14	using a single tube with positive feedback through a transformer	H03K4/34	H03K4/34		123
+H03K4/36	14	using a single tube exhibiting negative resistance between two of its electrodes, e.g. transitron, dynatron	H03K4/36	H03K4/36		
+H03K4/38	15	combined with Miller integrator	H03K4/38	H03K4/38		9
+H03K4/39	12	using a tube operating as an amplifier	H03K4/39	H03K4/39		46
+H03K4/41	13	with negative feedback through a capacitor, e.g. Miller-integrator	H03K4/41	H03K4/41		15
+H03K4/43	13	combined with means for generating the driving pulses	H03K4/43	H03K4/43		198
+H03K4/48	10	using as active elements semiconductor devices (H03K4/787&#160;-&#160;H03K4/84 take precedence)	H03K4/48	H03K4/48		83
+H03K4/50	11	in which a sawtooth voltage is produced across a capacitor	H03K4/50	H03K4/50		368
+H03K4/501	12	the starting point of the flyback period being determined by the amplitude of the voltage across the capacitor, e.g. by a comparator	H03K4/501	H03K4/501		182
+H03K4/502	13	the capacitor being charged from a constant-current source	H03K4/502	H03K4/502		326
+H03K4/52	12	using two semiconductor devices so coupled that the input of each one is derived from the output of the other, e.g. multivibrator	H03K4/52	H03K4/52		34
+H03K4/54	12	using a single semiconductor device with positive feedback through a transformer, e.g. blocking oscillator	H03K4/54	H03K4/54		37
+H03K4/56	12	using a semiconductor device with negative feedback through a capacitor, e.g. Miller integrator	H03K4/56	H03K4/56		159
+H03K4/58	12	Boot-strap generators	H03K4/58	H03K4/58		52
+H03K4/60	11	in which a sawtooth current is produced through an inductor	H03K4/60	H03K4/60		29
+H03K4/62	12	using a semiconductor device operating as a switching device	H03K4/62	H03K4/62		307
+H03K4/625	13	{using pulse-modulation techniques for the generation of the sawtooth wave, e.g. class D, switched mode}	H03K4/62	H03K4/62		42
+H03K4/64	13	combined with means for generating the driving pulses {(H03K4/625 takes precedence)}	H03K4/64	H03K4/64		164
+H03K4/66	14	using a single device with positive feedback, e.g. blocking oscillator	H03K4/66	H03K4/66		25
+H03K4/68	13	Generators in which the switching device is conducting during the fly-back part of the cycle	H03K4/68	H03K4/68		26
+H03K4/69	12	using a semiconductor device operating as an amplifier	H03K4/69	H03K4/69		38
+H03K4/693	13	{operating in push-pull, e.g. class B (H03K4/696 takes precedence)}	H03K4/69	H03K4/69		49
+H03K4/696	13	{using means for reducing power dissipation or for shortening the flyback time, e.g. applying a higher voltage during flyback time}	H03K4/69	H03K4/69		112
+H03K4/71	13	with negative feedback through a capacitor, e.g. Miller-integrator	H03K4/71	H03K4/71		40
+H03K4/72	13	combined with means for generating the driving pulses	H03K4/72	H03K4/72		128
+H03K4/725	14	{Push-pull amplifier circuits}	H03K4/72	H03K4/72		75
+H03K4/787	10	using as active elements semiconductor devices with two electrodes and exhibiting a negative resistance characteristic	H03K4/787	H03K4/787		9
+H03K4/793	11	using tunnel diodes	H03K4/793	H03K4/793		22
+H03K4/80	10	using as active elements multi-layer diodes	H03K4/80	H03K4/80		25
+H03K4/83	10	using as active elements semiconductor devices with more than two PN junctions or with more than three electrodes or more than one electrode connected to the same conductivity region	H03K4/83	H03K4/83		106
+H03K4/835	11	{using pulse-modulation techniques for the generation of the sawtooth wave, e.g. class D, switched mode}	H03K4/83	H03K4/83		40
+H03K4/84	11	Generators in which the semiconductor device is conducting during the fly-back part of the cycle {(H03K4/835 takes precedence)}	H03K4/84	H03K4/84		105
+H03K4/86	10	using as active elements gas-filled tubes {or spark-gaps}	H03K4/86	H03K4/86		174
+H03K4/88	10	using as active elements electrochemical cells {or galvano-magnetic or photo-electric elements}	H03K4/88	H03K4/88		25
+H03K4/90	10	Linearisation of ramp (modifying slopes of pulses H03K6/04; scanning distortion correction for television receivers H04N3/23); Synchronisation of pulses	H03K4/90	H03K4/90		210
+H03K4/92	8	having a waveform comprising a portion of a sinusoid (generating sinusoidal oscillations H03B)	H03K4/92	H03K4/92		76
+H03K4/94	8	having trapezoidal shape	H03K4/94	H03K4/94		199
+H03K5/00	7	Manipulating of pulses not covered by one of the other main groups of this subclass (circuits with regenerative action H03K3/00, H03K4/00; by the use of non-linear magnetic or dielectric devices H03K3/45)<br><br><u>NOTE</u><br><br>In this group, the input signals are of the pulse type.	H03K5/00	H03K5/00		999
+H03K5/00006	8	{Changing the frequency (modulating pulses H03K7/00; frequency dividers H03K21/00&#160;-&#160;H03K29/00; additive or subtractive mixing of two pulse rates into one G06F7/605; pulse rate dividers G06F7/68)}	H03K5/00	H03K5/00		910
+H03K2005/00013	8	{Delay, i.e. output pulse is delayed after input pulse and pulse length of output pulse is dependent on pulse length of input pulse}	H03K5/00	H03K5/00		297
+H03K2005/00019	9	{Variable delay}	H03K5/00	H03K5/00		422
+H03K2005/00026	10	{controlled by an analog electrical signal, e.g. obtained after conversion by a D/A converter}	H03K5/00	H03K5/00		167
+H03K2005/00032	11	{DC control of switching transistors}	H03K5/00	H03K5/00		122
+H03K2005/00039	12	{having four transistors serially}	H03K5/00	H03K5/00		119
+H03K2005/00045	11	{DC voltage control of a capacitor or of the coupling of a capacitor as a load}	H03K5/00	H03K5/00		91
+H03K2005/00052	11	{by mixing the outputs of fixed delayed signals with each other or with the input signal}	H03K5/00	H03K5/00		260
+H03K2005/00058	10	{controlled by a digital setting}	H03K5/00	H03K5/00		477
+H03K2005/00065	11	{by current control, e.g. by parallel current control transistors}	H03K5/00	H03K5/00		153
+H03K2005/00071	11	{by adding capacitance as a load}	H03K5/00	H03K5/00		244
+H03K2005/00078	9	{Fixed delay}	H03K5/00	H03K5/00		241
+H03K2005/00084	10	{by trimming or adjusting the delay}	H03K5/00	H03K5/00		40
+H03K2005/00091	11	{using fuse links}	H03K5/00	H03K5/00		24
+H03K2005/00097	10	{Avoiding variations of delay using feedback, e.g. controlled by a PLL}	H03K5/00	H03K5/00		102
+H03K2005/00104	11	{using a reference signal, e.g. a reference clock}	H03K5/00	H03K5/00		88
+H03K2005/0011	11	{using a separate time interval to calibrate the delay}	H03K5/00	H03K5/00		27
+H03K2005/00117	10	{Avoiding variations of delay due to line termination}	H03K5/00	H03K5/00		6
+H03K2005/00123	10	{Avoiding variations of delay due to integration tolerances}	H03K5/00	H03K5/00		55
+H03K2005/0013	10	{Avoiding variations of delay due to power supply}	H03K5/00	H03K5/00		121
+H03K2005/00136	10	{Avoiding asymmetry of delay for leading or trailing edge;  Avoiding variations of delay due to threshold}	H03K5/00	H03K5/00		51
+H03K2005/00143	10	{Avoiding variations of delay due to temperature}	H03K5/00	H03K5/00		109
+H03K2005/0015	9	{Layout of the delay element}	H03K5/00	H03K5/00		39
+H03K2005/00156	10	{using opamps, comparators, voltage multipliers or other analog building blocks}	H03K5/00	H03K5/00		173
+H03K2005/00163	10	{using bipolar transistors}	H03K5/00	H03K5/00		22
+H03K2005/00169	11	{using current mirrors}	H03K5/00	H03K5/00		5
+H03K2005/00176	11	{using differential stages}	H03K5/00	H03K5/00		56
+H03K2005/00182	11	{using constant current sources}	H03K5/00	H03K5/00		33
+H03K2005/00189	10	{in BiCMOS technology}	H03K5/00	H03K5/00		7
+H03K2005/00195	10	{using FET&apos;s}	H03K5/00	H03K5/00		294
+H03K2005/00202	11	{using current mirrors}	H03K5/00	H03K5/00		73
+H03K2005/00208	11	{using differential stages}	H03K5/00	H03K5/00		162
+H03K2005/00215	11	{where the conduction path of multiple FET&apos;s is in parallel or in series, all having the same gate control}	H03K5/00	H03K5/00		31
+H03K2005/00221	11	{where the conduction path of the different output FET&apos;s is connected in parallel with different gate control, e.g. having different sizes or thresholds, or coupled through different resistors}	H03K5/00	H03K5/00		25
+H03K2005/00228	10	{having complementary input and output signals}	H03K5/00	H03K5/00		48
+H03K2005/00234	10	{using circuits having two logic levels}	H03K5/00	H03K5/00		157
+H03K2005/00241	11	{using shift registers}	H03K5/00	H03K5/00		70
+H03K2005/00247	11	{using counters}	H03K5/00	H03K5/00		110
+H03K2005/00254	11	{using microprocessors}	H03K5/00	H03K5/00		22
+H03K2005/0026	11	{using memories or FIFO&apos;s}	H03K5/00	H03K5/00		34
+H03K2005/00267	11	{using D/A or A/D converters}	H03K5/00	H03K5/00		24
+H03K2005/00273	11	{using digital comparators}	H03K5/00	H03K5/00		15
+H03K2005/0028	10	{using varicaps, e.g. gate capacity of a FET with specially defined threshold, as delaying capacitors}	H03K5/00	H03K5/00		20
+H03K2005/00286	8	{Phase shifter, i.e. the delay between the output and input pulse is dependent on the frequency, and such that a phase difference is obtained independent of the frequency}	H03K5/00	H03K5/00		354
+H03K2005/00293	8	{Output pulse is a delayed pulse issued after a rising or a falling edge, the length of the output pulse not being in relation with the length of the input triggering pulse}	H03K5/00	H03K5/00		74
+H03K5/003	8	Changing the DC level (reinsertion of DC component of a television signal H04N5/16)	H03K5/003	H03K5/003		444
+H03K5/007	9	Base line stabilisation (thresholding H03K5/08)	H03K5/007	H03K5/007		107
+H03K5/01	8	Shaping pulses (discrimination against noise or interference H03K5/125)	H03K5/01	H03K5/01		1314
+H03K5/02	9	by amplifying (H03K5/04 takes precedence)	H03K5/02	H03K5/02		984
+H03K5/023	10	{using field effect transistors}	H03K5/02	H03K5/02		449
+H03K5/026	10	{with a bidirectional operation}	H03K5/02	H03K5/02		39
+H03K5/04	9	by increasing duration; by decreasing duration	H03K5/04	H03K5/04		1067
+H03K5/05	10	by the use of clock signals or other time reference signals	H03K5/05	H03K5/05		512
+H03K5/06	10	by the use of delay lines or other analogue delay elements	H03K5/06	H03K5/06		504
+H03K5/065	11	{using dispersive delay lines}	H03K5/06	H03K5/06		96
+H03K5/07	10	by the use of resonant circuits	H03K5/07	H03K5/07		118
+H03K5/08	9	by limiting; by thresholding; by slicing, i.e. combined limiting and thresholding (H03K5/07 takes precedence; comparing one pulse with another H03K5/22; providing a determined threshold for switching H03K17/30)	H03K5/08	H03K5/08		1298
+H03K5/082	10	{with an adaptive threshold}	H03K5/08	H03K5/08		518
+H03K5/084	11	{modified by switching, e.g. by a periodic signal or by a signal in synchronism with the transitions of the output signal}	H03K5/08	H03K5/08		139
+H03K5/086	11	{generated by feedback}	H03K5/08	H03K5/08		237
+H03K5/088	12	{modified by switching, e.g. by a periodic signal or by a signal in synchronism with the transitions of the output signal}	H03K5/08	H03K5/08		111
+H03K5/12	9	by steepening leading or trailing edges	H03K5/12	H03K5/12		437
+H03K5/125	8	Discriminating pulses (measuring characteristics of individual pulses G01R29/02; separation of synchronising signals in television systems H04N5/08)	H03K5/125	H03K5/125		286
+H03K5/1252	9	Suppression or limitation of noise or interference (specially adapted for transmission systems H04B15/00, H04L25/08)	H03K5/1252	H03K5/1252		1447
+H03K5/1254	10	specially adapted for pulses generated by closure of switches, i.e. anti-bouncing devices (debouncing circuits for electronic time-pieces G04G5/00)	H03K5/1254	H03K5/1254		164
+H03K5/13	8	Arrangements having a single output and transforming input signals into pulses delivered at desired time intervals	H03K5/13	H03K5/13		1645
+H03K5/131	9	Digitally controlled	H03K5/131	H03K5/131		907
+H03K5/133	9	using a chain of active delay devices	H03K5/133	H03K5/133		2198
+H03K5/134	10	with field-effect transistors	H03K5/134	H03K5/134		305
+H03K5/135	9	by the use of time reference signals, e.g. clock signals	H03K5/135	H03K5/135		2854
+H03K5/14	9	by the use of delay lines (H03K5/133 takes precedence)	H03K5/14	H03K5/14		690
+H03K5/145	9	by the use of resonant circuits	H03K5/145	H03K5/145		63
+H03K5/15	8	Arrangements in which pulses are delivered at different times at several outputs, i.e. pulse distributors (distributing, switching or gating arrangements H03K17/00)	H03K5/15	H03K5/15		388
+H03K5/15006	9	{with two programmable outputs}	H03K5/15	H03K5/15		74
+H03K5/15013	9	{with more than two outputs}	H03K5/15	H03K5/15		378
+H03K5/1502	10	{programmable}	H03K5/15	H03K5/15		120
+H03K5/15026	10	{with asynchronously driven series connected output stages}	H03K5/15	H03K5/15		42
+H03K5/15033	11	{using a chain of bistable devices}	H03K5/15	H03K5/15		81
+H03K5/1504	11	{using a chain of active delay devices (H03K5/15053 takes precedence)}	H03K5/15	H03K5/15		147
+H03K5/15046	11	{using a tapped delay line}	H03K5/15	H03K5/15		91
+H03K5/15053	11	{using a chain of monostable devices}	H03K5/15	H03K5/15		14
+H03K5/1506	10	{with parallel driven output stages; with synchronously driven series connected output stages}	H03K5/15	H03K5/15		162
+H03K5/15066	11	{using bistable devices (H03K5/15093 takes precedence)}	H03K5/15	H03K5/15		121
+H03K5/15073	11	{using a plurality of comparators}	H03K5/15	H03K5/15		40
+H03K5/1508	11	{using a plurality of delay lines}	H03K5/15	H03K5/15		87
+H03K5/15086	11	{using a plurality of monostables devices}	H03K5/15	H03K5/15		10
+H03K5/15093	11	{using devices arranged in a shift register}	H03K5/15	H03K5/15		243
+H03K5/151	9	with two complementary outputs	H03K5/151	H03K5/151		337
+H03K5/1515	10	{non-overlapping}	H03K5/151	H03K5/151		295
+H03K5/153	8	Arrangements in which a pulse is delivered at the instant when a predetermined characteristic of an input signal is present or at a fixed time interval after this instant (switching at zero crossing H03K17/13)	H03K5/153	H03K5/153		590
+H03K5/1532	9	Peak detectors (measuring characteristics of individual pulses G01R29/02)	H03K5/1532	H03K5/1532		415
+H03K5/1534	9	Transition or edge detectors	H03K5/1534	H03K5/1534		848
+H03K5/1536	9	Zero-crossing detectors (in measuring circuits G01R19/175)	H03K5/1536	H03K5/1536		308
+H03K5/156	8	Arrangements in which a continuous pulse train is transformed into a train having a desired pattern	H03K5/156	H03K5/156		752
+H03K5/1565	9	{the output pulses having a constant duty cycle}	H03K5/156	H03K5/156		1702
+H03K5/159	8	Applications of delay lines not covered by the preceding subgroups	H03K5/159	H03K5/159		282
+H03K5/19	8	Monitoring patterns of pulse trains (indicating amplitude G01R19/00; indicating frequency G01R23/00; measuring characteristics of individual pulses G01R29/02)	H03K5/19	H03K5/19		682
+H03K5/22	8	Circuits having more than one input and one output for comparing pulses or pulse trains with each other according to input signal characteristics, e.g. slope, integral (indicating phase difference of two cyclic pulse trains G01R25/00)	H03K5/22	H03K5/22		497
+H03K5/24	9	the characteristic being amplitude	H03K5/24	H03K5/24		1698
+H03K5/2409	10	{using bipolar transistors (H03K5/2436 takes precedence)}	H03K5/24	H03K5/24		48
+H03K5/2418	11	{with at least one differential stage}	H03K5/24	H03K5/24		187
+H03K5/2427	11	{using clock signals}	H03K5/24	H03K5/24		29
+H03K5/2436	10	{using a combination of bipolar and field-effect transistors}	H03K5/24	H03K5/24		16
+H03K5/2445	11	{with at least one differential stage}	H03K5/24	H03K5/24		39
+H03K5/2454	11	{using clock signals}	H03K5/24	H03K5/24		12
+H03K5/2463	10	{using diodes}	H03K5/24	H03K5/24		32
+H03K5/2472	10	{using field effect transistors (H03K5/2436 takes precedence)}	H03K5/24	H03K5/24		405
+H03K5/2481	11	{with at least one differential stage}	H03K5/24	H03K5/24		1237
+H03K5/249	11	{using clock signals}	H03K5/24	H03K5/24		566
+H03K5/26	9	the characteristic being duration, interval, position, frequency, or sequence	H03K5/26	H03K5/26		1052
+H03K6/00	7	Manipulating pulses having a finite slope and not covered by one of the other main groups of this subclass (circuits with regenerative action H03K4/00)	H03K6/00	H03K6/00		154
+H03K6/02	8	Amplifying pulses	H03K6/02	H03K6/02		204
+H03K6/04	8	Modifying slopes of pulses, e.g. S-correction (S-correction in television H04N3/23)	H03K6/04	H03K6/04		194
+H03K7/00	7	Modulating pulses with a continuously-variable modulating signal	H03K7/00	H03K7/00		322
+H03K7/02	8	Amplitude modulation, i.e. PAM	H03K7/02	H03K7/02		298
+H03K7/04	8	Position modulation, i.e. PPM	H03K7/04	H03K7/04		229
+H03K7/06	8	Frequency or rate modulation, i.e. PFM or PRM	H03K7/06	H03K7/06		733
+H03K7/08	8	Duration or width modulation {; Duty cycle modulation}	H03K7/08	H03K7/08		3998
+H03K7/10	8	Combined modulation, e.g. rate modulation and amplitude modulation	H03K7/10	H03K7/10		106
+H03K9/00	7	Demodulating pulses which have been modulated with a continuously-variable signal	H03K9/00	H03K9/00		165
+H03K9/02	8	of amplitude-modulated pulses	H03K9/02	H03K9/02		108
+H03K9/04	8	of position-modulated pulses	H03K9/04	H03K9/04		159
+H03K9/06	8	of frequency- or rate-modulated pulses	H03K9/06	H03K9/06		250
+H03K9/08	8	of duration- or width-mudulated pulses {or of duty-cycle modulated pulses}	H03K9/08	H03K9/08		257
+H03K9/10	8	of pulses having combined modulation	H03K9/10	H03K9/10		16
+H03K11/00	7	Transforming types of modulations, e.g. position-modulated pulses into duration-modulated pulses	H03K11/00	H03K11/00		66
+H03K12/00	7	Producing pulses by distorting or combining sinusoidal waveforms (shaping pulses H03K5/01; combining sinewaves using elements operating in a non-switching manner H03B21/00)	H03K12/00	H03K12/00		142
+H03K17/00	7	Electronic switching or gating, i.e. not by contact-making and &#8211;breaking (gated amplifiers H03F3/72; switching arrangements for exchange systems using static devices H04Q3/52)	H03K17/00	H03K17/00		961
+H03K17/002	8	{Switching arrangements with several input- or output terminals (code converters H03M5/00, H03M7/00)}	H03K17/00	H03K17/00		454
+H03K17/005	9	{with several inputs only}	H03K17/00	H03K17/00		345
+H03K17/007	9	{with several outputs only}	H03K17/00	H03K17/00		121
+H03K17/04	8	Modifications for accelerating switching	H03K17/04	H03K17/04		595
+H03K17/0403	9	{in thyristor switches}	H03K17/04	H03K17/04		149
+H03K17/0406	9	{in composite switches}	H03K17/04	H03K17/04		238
+H03K17/041	9	without feedback from the output circuit to the control circuit {(H03K17/0403, H03K17/0406 take precedence)}	H03K17/041	H03K17/041		95
+H03K17/04106	10	{in field-effect transistor switches (H03K17/0412, H03K17/0416 take precedence)}	H03K17/041	H03K17/041		577
+H03K17/04113	10	{in bipolar transistor switches (H03K17/0412, H03K17/0416 take precedence)}	H03K17/041	H03K17/041		194
+H03K17/0412	10	by measures taken in the control circuit	H03K17/0412	H03K17/0412		131
+H03K17/04123	11	{in field-effect transistor switches}	H03K17/0412	H03K17/0412		803
+H03K17/04126	11	{in bipolar transistor switches}	H03K17/0412	H03K17/0412		297
+H03K17/0414	11	Anti-saturation measures	H03K17/0414	H03K17/0414		40
+H03K17/0416	10	by measures taken in the output circuit	H03K17/0416	H03K17/0416		27
+H03K17/04163	11	{in field-effect transistor switches}	H03K17/0416	H03K17/0416		145
+H03K17/04166	11	{in bipolar transistor switches}	H03K17/0416	H03K17/0416		95
+H03K17/042	9	by feedback from the output circuit to the control circuit {(H03K17/0403, H03K17/0406 take precedence)}	H03K17/042	H03K17/042		87
+H03K17/04206	10	{in field-effect transistor switches}	H03K17/042	H03K17/042		466
+H03K17/04213	10	{in bipolar transistor switches}	H03K17/042	H03K17/042		133
+H03K17/0422	10	Anti-saturation measures	H03K17/0422	H03K17/0422		116
+H03K17/0424	10	by the use of a transformer	H03K17/0424	H03K17/0424		93
+H03K17/06	8	Modifications for ensuring a fully conducting state	H03K17/06	H03K17/06		533
+H03K17/063	9	{in field-effect transistor switches}	H03K17/06	H03K17/06		1768
+H03K2017/066	9	{Maximizing the OFF-resistance instead of minimizing the ON-resistance}	H03K17/06	H03K17/06		401
+H03K17/08	8	Modifications for protecting switching circuit against overcurrent or overvoltage	H03K17/08	H03K17/08		1095
+H03K2017/0803	9	{against radiation hardening}	H03K17/08	H03K17/08		31
+H03K2017/0806	9	{against excessive temperature}	H03K17/08	H03K17/08		997
+H03K17/081	9	without feedback from the output circuit to the control circuit	H03K17/081	H03K17/081		189
+H03K17/08104	10	{in field-effect transistor switches (H03K17/0812, H03K17/0814 take precedence)}	H03K17/081	H03K17/081		638
+H03K17/08108	10	{in thyristor switches (H03K17/0812, H03K17/0814 take precedence)}	H03K17/081	H03K17/081		57
+H03K17/08112	10	{in bipolar transistor switches (H03K17/0812, H03K17/0814 take precedence)}	H03K17/081	H03K17/081		108
+H03K17/08116	10	{in composite switches (H03K17/0812, H03K17/0814 take precedence)}	H03K17/081	H03K17/081		197
+H03K17/0812	10	by measures taken in the control circuit	H03K17/0812	H03K17/0812		157
+H03K17/08122	11	{in field-effect transistor switches}	H03K17/0812	H03K17/0812		959
+H03K17/08124	11	{in thyristor switches}	H03K17/0812	H03K17/0812		45
+H03K17/08126	11	{in bipolar transitor switches}	H03K17/0812	H03K17/0812		159
+H03K17/08128	11	{in composite switches}	H03K17/0812	H03K17/0812		276
+H03K17/0814	10	by measures taken in the output circuit	H03K17/0814	H03K17/0814		125
+H03K17/08142	11	{in field-effect transistor switches}	H03K17/0814	H03K17/0814		660
+H03K17/08144	11	{in thyristor switches}	H03K17/0814	H03K17/0814		187
+H03K17/08146	11	{in bipolar transistor switches}	H03K17/0814	H03K17/0814		332
+H03K17/08148	11	{in composite switches}	H03K17/0814	H03K17/0814		180
+H03K17/082	9	by feedback from the output to the control circuit	H03K17/082	H03K17/082		423
+H03K17/0822	10	{in field-effect transistor switches}	H03K17/082	H03K17/082		2711
+H03K17/0824	10	{in thyristor switches}	H03K17/082	H03K17/082		197
+H03K17/0826	10	{in bipolar transistor switches}	H03K17/082	H03K17/082		733
+H03K17/0828	10	{in composite switches}	H03K17/082	H03K17/082		957
+H03K17/10	8	Modifications for increasing the maximum permissible switched voltage	H03K17/10	H03K17/10		268
+H03K17/102	9	{in field-effect transistor switches}	H03K17/10	H03K17/10		1165
+H03K17/105	9	{in thyristor switches}	H03K17/10	H03K17/10		114
+H03K17/107	9	{in composite switches}	H03K17/10	H03K17/10		182
+H03K17/12	8	Modifications for increasing the maximum permissible switched current	H03K17/12	H03K17/12		287
+H03K17/122	9	{in field-effect transistor switches}	H03K17/12	H03K17/12		612
+H03K17/125	9	{in thyristor switches}	H03K17/12	H03K17/12		66
+H03K17/127	9	{in composite switches}	H03K17/12	H03K17/12		270
+H03K17/13	8	Modifications for switching at zero crossing (generating an impulse at zero crossing H03K5/1536)	H03K17/13	H03K17/13		184
+H03K17/133	9	{in field-effect transistor switches}	H03K17/13	H03K17/13		168
+H03K17/136	9	{in thyristor switches}	H03K17/13	H03K17/13		393
+H03K17/14	8	Modifications for compensating variations of physical values, e.g. of temperature	H03K17/14	H03K17/14		707
+H03K17/145	9	{in field-effect transistor switches}	H03K17/14	H03K17/14		884
+H03K17/16	8	Modifications for eliminating interference voltages or currents	H03K17/16	H03K17/16		1395
+H03K17/161	9	{in field-effect transistor switches}	H03K17/16	H03K17/16		582
+H03K17/162	10	{without feedback from the output circuit to the control circuit}	H03K17/16	H03K17/16		1364
+H03K17/163	11	{Soft switching}	H03K17/16	H03K17/16		810
+H03K17/164	12	{using parallel switching arrangements}	H03K17/16	H03K17/16		453
+H03K17/165	10	{by feedback from the output circuit to the control circuit}	H03K17/16	H03K17/16		635
+H03K17/166	11	{Soft switching}	H03K17/16	H03K17/16		671
+H03K17/167	12	{using parallel switching arrangements}	H03K17/16	H03K17/16		201
+H03K17/168	9	{in composite switches}	H03K17/16	H03K17/16		727
+H03K17/18	8	Modifications for indicating state of switch	H03K17/18	H03K17/18		1265
+H03K17/20	8	Modifications for resetting core switching units to a predetermined state	H03K17/20	H03K17/20		62
+H03K17/22	8	Modifications for ensuring a predetermined initial state when the supply voltage has been applied (bi-stable generators H03K3/12)	H03K17/22	H03K17/22		1362
+H03K17/223	9	{in field-effect transistor switches}	H03K17/22	H03K17/22		1530
+H03K2017/226	9	{in bipolar transistor switches}	H03K17/22	H03K17/22		186
+H03K17/24	9	Storing the actual state when the supply voltage fails	H03K17/24	H03K17/24		167
+H03K17/26	8	Modifications for temporary blocking after receipt of control pulses	H03K17/26	H03K17/26		78
+H03K17/28	8	Modifications for introducing a time delay before switching (modifications to provide a choice of time-intervals for executing more than one switching action H03K17/296)	H03K17/28	H03K17/28		1550
+H03K17/284	9	in field effect transistor switches	H03K17/284	H03K17/284		666
+H03K17/288	9	in tube switches	H03K17/288	H03K17/288		489
+H03K17/292	9	in thyristor, unijunction transistor or programmable unijunction transistor switches	H03K17/292	H03K17/292		505
+H03K17/296	8	Time-programme switches providing a choice of time-intervals for executing more than one switching action and automatically terminating their operation after the programme is completed (electronic clocks comprising means to be operated at preselected times or after preselected time-intervals G04G15/00)	H03K17/296	H03K17/296		188
+H03K17/30	8	Modifications for providing a predetermined threshold before switching (shaping pulses by thresholding H03K5/08)	H03K17/30	H03K17/30		521
+H03K17/302	9	{in field-effect transistor switches}	H03K17/30	H03K17/30		593
+H03K17/305	9	{in thyristor switches}	H03K17/30	H03K17/30		85
+H03K2017/307	9	{circuits simulating a diode, e.g. threshold zero}	H03K17/30	H03K17/30		166
+H03K17/51	8	characterised by the components used (H03K17/04&#160;-&#160;H03K17/30, H03K17/94 take precedence)	H03K17/51	H03K17/51		305
+H03K2017/515	9	{Mechanical switches;  Electronic switches controlling mechanical switches, e.g. relais}	H03K17/51	H03K17/51		314
+H03K17/52	9	by the use, as active elements, of gas-filled tubes	H03K17/52	H03K17/52		289
+H03K17/54	9	by the use, as active elements of vacuum tubes (using diodes H03K17/74)	H03K17/54	H03K17/54		456
+H03K17/545	10	{using microengineered devices, e.g. field emission devices}	H03K17/54	H03K17/54		19
+H03K17/56	9	by the use, as active elements, of semiconductor devices (using diodes H03K17/74)	H03K17/56	H03K17/56		726
+H03K17/567	10	Circuits characterised by the use of more than one type of semiconductor device, e.g. BIMOS, composite devices such as IGBT	H03K17/567	H03K17/567		2323
+H03K17/58	10	the devices being tunnel diodes	H03K17/58	H03K17/58		214
+H03K17/60	10	the devices being bipolar transistors (bipolar transistors having four or more electrodes H03K17/72)	H03K17/60	H03K17/60		1420
+H03K17/601	11	{using transformer coupling (H03K17/61 takes precedence)}	H03K17/60	H03K17/60		416
+H03K17/602	11	{in integrated circuits}	H03K17/60	H03K17/60		94
+H03K17/603	11	{with coupled emitters}	H03K17/60	H03K17/60		240
+H03K17/605	11	with galvanic isolation between the control circuit and the output circuit (H03K17/78 takes precedence)	H03K17/605	H03K17/605		37
+H03K17/61	12	using transformer coupling	H03K17/61	H03K17/61		85
+H03K17/615	11	in a Darlington configuration	H03K17/615	H03K17/615		170
+H03K17/62	11	Switching arrangements with several input- output-terminals, e.g. multiplexers, distributors (logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	H03K17/62	H03K17/62		279
+H03K17/6207	12	{without selecting means (H03K17/6242&#160;-&#160;H03K17/6285 take precedence)}	H03K17/62	H03K17/62		13
+H03K17/6214	13	{using current steering means}	H03K17/62	H03K17/62		4
+H03K17/6221	12	{combined with selecting means (H03K17/6242&#160;-&#160;H03K17/6285 take precedence)}	H03K17/62	H03K17/62		164
+H03K17/6228	13	{using current steering means}	H03K17/62	H03K17/62		13
+H03K17/6235	12	{with storage of control signal}	H03K17/62	H03K17/62		11
+H03K17/6242	12	{with several inputs only and without selecting means}	H03K17/62	H03K17/62		38
+H03K17/625	13	{using current steering means}	H03K17/62	H03K17/62		12
+H03K17/6257	12	{with several inputs only combined with selecting means}	H03K17/62	H03K17/62		206
+H03K17/6264	13	{using current steering means}	H03K17/62	H03K17/62		108
+H03K17/6271	12	{with several outputs only and without selecting means}	H03K17/62	H03K17/62		32
+H03K17/6278	13	{using current steering means}	H03K17/62	H03K17/62		4
+H03K17/6285	12	{with several outputs only combined with selecting means}	H03K17/62	H03K17/62		125
+H03K17/6292	13	{using current steering means}	H03K17/62	H03K17/62		30
+H03K17/64	11	having inductive loads	H03K17/64	H03K17/64		742
+H03K17/66	11	Switching arrangements for passing the current in either direction at will; Switching arrangements for reversing the current at will	H03K17/66	H03K17/66		77
+H03K17/661	12	{connected to both load terminals}	H03K17/66	H03K17/66		79
+H03K17/662	13	{each output circuit comprising more than one controlled bipolar transistor}	H03K17/66	H03K17/66		100
+H03K17/663	14	{using complementary bipolar transistors}	H03K17/66	H03K17/66		73
+H03K17/664	14	{in a symmetrical configuration}	H03K17/66	H03K17/66		10
+H03K17/665	12	{connected to one load terminal only}	H03K17/66	H03K17/66		36
+H03K17/666	13	{the output circuit comprising more than one controlled bipolar transistor}	H03K17/66	H03K17/66		98
+H03K17/667	14	{using complementary bipolar transistors}	H03K17/66	H03K17/66		162
+H03K17/668	14	{in a symmetrical configuration}	H03K17/66	H03K17/66		25
+H03K17/68	11	specially adapted for switching AC currents or voltages	H03K17/68	H03K17/68		263
+H03K17/687	10	the devices being field-effect transistors	H03K17/687	H03K17/687		4321
+H03K17/6871	11	{the output circuit comprising more than one controlled field-effect transistor}	H03K17/687	H03K17/687		2444
+H03K17/6872	12	{using complementary field-effect transistors}	H03K17/687	H03K17/687		1051
+H03K17/6874	12	{in a symmetrical configuration}	H03K17/687	H03K17/687		709
+H03K2017/6875	11	{using self-conductive, depletion FETs}	H03K17/687	H03K17/687		305
+H03K17/6877	11	{the control circuit comprising active elements different from those used in the output circuit}	H03K17/687	H03K17/687		428
+H03K2017/6878	11	{using multi-gate field-effect transistors}	H03K17/687	H03K17/687		90
+H03K17/689	11	with galvanic isolation between the control circuit and the output circuit (H03K17/78 takes precedence)	H03K17/689	H03K17/689		225
+H03K17/6895	12	{using acoustic means}	H03K17/689	H03K17/689		10
+H03K17/691	12	using transformer coupling	H03K17/691	H03K17/691		702
+H03K17/693	11	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	H03K17/693	H03K17/693		1996
+H03K17/70	10	the devices having only two electrodes and exhibiting negative resistance (the devices being tunnel diodes H03K17/58)	H03K17/70	H03K17/70		115
+H03K17/72	10	having more than two PN junctions; having more than three electrodes; having more than one electrode connected to the same conductivity region	H03K17/72	H03K17/72		779
+H03K17/722	11	with galvanic isolation between the control circuit and the output circuit (H03K17/78 takes precedence)	H03K17/722	H03K17/722		42
+H03K17/7225	12	{using acoustic means}	H03K17/722	H03K17/722		5
+H03K17/723	12	using transformer coupling	H03K17/723	H03K17/723		337
+H03K17/725	11	for AC voltages or currents (H03K17/722, H03K17/735 take precedence)	H03K17/725	H03K17/725		752
+H03K17/73	11	for DC voltages or currents (H03K17/722, H03K17/735 take precedence)	H03K17/73	H03K17/73		577
+H03K17/731	12	{with inductive load}	H03K17/73	H03K17/73		31
+H03K17/732	12	Measures for enabling turn-off	H03K17/732	H03K17/732		185
+H03K17/735	11	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (H03K17/722 takes precedence; logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	H03K17/735	H03K17/735		135
+H03K17/74	9	by the use, as active elements, of diodes (by the use of more than one type of semiconductor device H03K17/567; by the use of tunnel diodes H03K17/58; by the use of negative resistance diodes H03K17/70)	H03K17/74	H03K17/74		1194
+H03K17/76	10	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	H03K17/76	H03K17/76		317
+H03K17/78	9	using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled	H03K17/78	H03K17/78		1157
+H03K17/785	10	controlling field-effect transistor switches	H03K17/785	H03K17/785		538
+H03K17/79	10	controlling {bipolar} semiconductor switches with more than two PN-junctions, or more than three electrodes, or more than one electrode connected to the same conductivity region	H03K17/79	H03K17/79		410
+H03K17/795	10	controlling bipolar transistors	H03K17/795	H03K17/795		178
+H03K17/7955	11	{using phototransistors}	H03K17/795	H03K17/795		435
+H03K17/80	9	using non-linear magnetic devices; using non-linear dielectric devices {(H03K17/95, H03K17/97 take precedence)}	H03K17/80	H03K17/80		293
+H03K17/81	10	Switching arrangements with several input- or output-terminals, e.g. multiplexers, distributors (logic circuits H03K19/00; code converters H03M5/00, H03M7/00)	H03K17/81	H03K17/81		219
+H03K17/82	10	the devices being transfluxors	H03K17/82	H03K17/82		357
+H03K17/84	10	the devices being thin-film devices	H03K17/84	H03K17/84		128
+H03K17/86	10	the devices being twistors	H03K17/86	H03K17/86		5
+H03K17/88	9	By the use, as active elements, of beam-deflection tubes	H03K17/88	H03K17/88		57
+H03K17/90	9	by the use, as active elements, of galvano-magnetic devices, e.g. Hall-effect devices (H03K17/95, H03K17/97 take precedence)	H03K17/90	H03K17/90		359
+H03K17/92	9	by the use, as active elements, of superconductive devices	H03K17/92	H03K17/92		342
+H03K17/94	8	characterised by the way in which the control signals are generated	H03K17/94	H03K17/94		849
+H03K17/941	9	{using an optical detector (H03K17/968 takes precedence)}	H03K17/94	H03K17/94		1166
+H03K17/943	10	{using a plurality of optical emitters or detectors, e.g. keyboard}	H03K17/94	H03K17/94		216
+H03K17/945	9	Proximity switches (H03K17/96 takes precedence)	H03K17/945	H03K17/945		900
+H03K2017/9455	10	{constructional details}	H03K17/945	H03K17/945		190
+H03K17/95	10	using a magnetic detector	H03K17/95	H03K17/95		178
+H03K17/9502	11	{Measures for increasing reliability}	H03K17/95	H03K17/95		281
+H03K17/9505	11	{Constructional details}	H03K17/95	H03K17/95		551
+H03K2017/9507	12	{with illumination}	H03K17/95	H03K17/95		18
+H03K17/951	11	{Measures for supplying operating voltage to the detector circuit}	H03K17/95	H03K17/95		95
+H03K17/9512	11	{using digital techniques}	H03K17/95	H03K17/95		71
+H03K17/9515	11	{using non-linear magnetic devices}	H03K17/95	H03K17/95		41
+H03K17/9517	11	{using galvanomagnetic devices}	H03K17/95	H03K17/95		316
+H03K17/952	11	{using inductive coils}	H03K17/95	H03K17/95		194
+H03K17/9522	12	{with a galvanically isolated probe}	H03K17/95	H03K17/95		34
+H03K17/9525	12	{controlled by an oscillatory signal (H03K17/9537 takes precedence)}	H03K17/95	H03K17/95		149
+H03K2017/9527	12	{Details of coils in the emitter or receiver;  Magnetic detector comprising emitting and receiving coils}	H03K17/95	H03K17/95		79
+H03K17/953	12	{forming part of an oscillator (H03K17/9537 takes precedence)}	H03K17/95	H03K17/95		18
+H03K17/9532	13	{with variable frequency}	H03K17/95	H03K17/95		15
+H03K17/9535	13	{with variable amplitude}	H03K17/95	H03K17/95		58
+H03K17/9537	12	{in a resonant circuit}	H03K17/95	H03K17/95		88
+H03K17/954	13	{controlled by an oscillatory signal}	H03K17/95	H03K17/95		108
+H03K17/9542	13	{forming part of an oscillator}	H03K17/95	H03K17/95		41
+H03K17/9545	14	{with variable frequency}	H03K17/95	H03K17/95		78
+H03K17/9547	14	{with variable amplitude}	H03K17/95	H03K17/95		369
+H03K17/955	10	using a capacitive detector	H03K17/955	H03K17/955		2069
+H03K17/96	9	Touch switches (specially adapted for electronic time-pieces with no moving parts G04G21/08)	H03K17/96	H03K17/96		1415
+H03K2017/9602	10	{characterised by the type or shape of the sensing electrodes}	H03K17/96	H03K17/96		655
+H03K2017/9604	11	{characterised by the number of electrodes}	H03K17/96	H03K17/96		63
+H03K2017/9606	12	{using one electrode only per touch switch}	H03K17/96	H03K17/96		116
+H03K2017/9609	13	{where the electrode is the object to be switched}	H03K17/96	H03K17/96		15
+H03K2017/9611	13	{where the electrode is a plant}	H03K17/96	H03K17/96		6
+H03K2017/9613	12	{using two electrodes per touch switch}	H03K17/96	H03K17/96		217
+H03K2017/9615	12	{using three electrodes per touch switch}	H03K17/96	H03K17/96		68
+H03K17/9618	10	{using a plurality of detectors, e.g. keyboard}	H03K17/96	H03K17/96		239
+H03K17/962	10	{Capacitive touch switches}	H03K17/96	H03K17/96		3599
+H03K17/9622	11	{using a plurality of detectors, e.g. keyboard}	H03K17/96	H03K17/96		1489
+H03K17/9625	10	{using a force resistance transducer}	H03K17/96	H03K17/96		239
+H03K17/9627	10	{Optical touch switches}	H03K17/96	H03K17/96		131
+H03K17/9629	11	{using a plurality of detectors, e.g. keyboard}	H03K17/96	H03K17/96		133
+H03K17/9631	11	{using a light source as part of the switch}	H03K17/96	H03K17/96		242
+H03K2017/9634	12	{using organic light emitting devices, e.g. light emitting polymer [OEP] or OLED}	H03K17/96	H03K17/96		16
+H03K17/9636	12	{using a pulsed light source}	H03K17/96	H03K17/96		32
+H03K17/9638	11	{using a light guide}	H03K17/96	H03K17/96		99
+H03K17/964	10	{Piezoelectric touch switches}	H03K17/96	H03K17/96		512
+H03K17/9643	11	{using a plurality of detectors, e.g. keyboard}	H03K17/96	H03K17/96		177
+H03K17/9645	10	{Resistive touch switches}	H03K17/96	H03K17/96		274
+H03K17/9647	11	{using a plurality of detectors, e.g. keyboard}	H03K17/96	H03K17/96		57
+H03K17/965	9	Switches controlled by moving an element forming part of the switch	H03K17/965	H03K17/965		466
+H03K17/967	10	having a plurality of control members, e.g. keyboard (H03K17/969, H03K17/972, H03K17/98 take precedence)	H03K17/967	H03K17/967		163
+H03K17/968	10	using opto-electronic devices	H03K17/968	H03K17/968		559
+H03K17/969	11	having a plurality of control members, e.g. keyboard	H03K17/969	H03K17/969		271
+H03K17/97	10	using a magnetic movable element	H03K17/97	H03K17/97		1141
+H03K2017/9706	11	{Inductive element}	H03K17/97	H03K17/97		271
+H03K2017/9713	11	{Multiposition, e.g. involving comparison with different thresholds}	H03K17/97	H03K17/97		103
+H03K17/972	11	having a plurality of control members, e.g. keyboard	H03K17/972	H03K17/972		247
+H03K17/975	10	using a capacitive movable element	H03K17/975	H03K17/975		700
+H03K2017/9755	11	{Ohmic switch;}	H03K17/975	H03K17/975		16
+H03K17/98	11	having a plurality of control members, e.g. keyboard	H03K17/98	H03K17/98		325
+H03K19/00	7	Logic circuits, i.e. having at least two inputs acting on one output (circuits for computer systems using fuzzy logic G06N7/02); Inverting circuits	H03K19/00	H03K19/00		1287
+H03K19/0002	8	{Multistate logic (H03K19/02 takes precedence)}	H03K19/00	H03K19/00		236
+H03K19/0005	8	{Modifications of input or output impedance}	H03K19/00	H03K19/00		941
+H03K19/0008	8	{Arrangements for reducing power consumption}	H03K19/00	H03K19/00		510
+H03K19/001	9	{in bipolar transistor circuits}	H03K19/00	H03K19/00		176
+H03K19/0013	9	{in field effect transistor circuits}	H03K19/00	H03K19/00		1780
+H03K19/0016	9	{by using a control or a clock signal, e.g. in order to apply power supply}	H03K19/00	H03K19/00		1688
+H03K19/0019	9	{by energy recovery or adiabatic operation}	H03K19/00	H03K19/00		133
+H03K19/0021	8	{Modifications of threshold (for electronic switching or gating H03K17/30)}	H03K19/00	H03K19/00		43
+H03K19/0024	9	{in bipolar transistor circuits}	H03K19/00	H03K19/00		3
+H03K19/0027	9	{in field effect transistor circuits}	H03K19/00	H03K19/00		246
+H03K19/003	8	Modifications for increasing the reliability {for protection}	H03K19/003	H03K19/003		862
+H03K19/00307	9	{in bipolar transistor circuits}	H03K19/003	H03K19/003		192
+H03K19/00315	9	{in field-effect transistor circuits}	H03K19/003	H03K19/003		1794
+H03K19/00323	9	{Delay compensation}	H03K19/003	H03K19/003		500
+H03K19/0033	9	{Radiation hardening}	H03K19/003	H03K19/003		141
+H03K19/00338	10	{In field effect transistor circuits}	H03K19/003	H03K19/003		226
+H03K19/00346	9	{Modifications for eliminating interference or parasitic voltages or currents}	H03K19/003	H03K19/003		634
+H03K19/00353	10	{in bipolar transistor circuits}	H03K19/003	H03K19/003		149
+H03K19/00361	10	{in field effect transistor circuits}	H03K19/003	H03K19/003		1737
+H03K19/00369	9	{Modifications for compensating variations of temperature, supply voltage or other physical parameters}	H03K19/003	H03K19/003		373
+H03K19/00376	10	{in bipolar transistor circuits}	H03K19/003	H03K19/003		155
+H03K19/00384	10	{in field effect transistor circuits}	H03K19/003	H03K19/003		1164
+H03K19/00392	9	{by circuit redundancy (H03K19/0075 takes precedence)}	H03K19/003	H03K19/003		222
+H03K19/007	8	Fail-safe circuits	H03K19/007	H03K19/007		347
+H03K19/0075	9	{by using two redundant chains}	H03K19/007	H03K19/007		85
+H03K19/01	8	Modifications for accelerating switching	H03K19/01	H03K19/01		128
+H03K19/013	9	in bipolar transistor circuits	H03K19/013	H03K19/013		398
+H03K19/0133	10	{by bootstrapping, i.e. by positive feed-back}	H03K19/013	H03K19/013		24
+H03K19/0136	10	{by means of a pull-up or down element}	H03K19/013	H03K19/013		359
+H03K19/017	9	in field-effect transistor circuits	H03K19/017	H03K19/017		337
+H03K19/01707	10	{in asynchronous circuits}	H03K19/017	H03K19/017		355
+H03K19/01714	11	{by bootstrapping, i.e. by positive feed-back}	H03K19/017	H03K19/017		253
+H03K19/01721	11	{by means of a pull-up or down element}	H03K19/017	H03K19/017		825
+H03K19/01728	10	{in synchronous circuits, i.e. by using clock signals}	H03K19/017	H03K19/017		156
+H03K19/01735	11	{by bootstrapping, i.e. by positive feed-back}	H03K19/017	H03K19/017		108
+H03K19/01742	11	{by means of a pull-up or down element}	H03K19/017	H03K19/017		286
+H03K19/0175	8	Coupling arrangements; Interface arrangements (interface arrangements for digital computers G06F3/00, G06F13/00)	H03K19/0175	H03K19/0175		1422
+H03K19/017509	9	{Interface arrangements}	H03K19/0175	H03K19/0175		1753
+H03K19/017518	10	{using a combination of bipolar and field effect transistors [BIFET]}	H03K19/0175	H03K19/0175		219
+H03K19/017527	11	{with at least one differential stage}	H03K19/0175	H03K19/0175		142
+H03K19/017536	10	{using opto-electronic devices}	H03K19/0175	H03K19/0175		165
+H03K19/017545	9	{Coupling arrangements; Impedance matching circuits}	H03K19/0175	H03K19/0175		763
+H03K19/017554	10	{using a combination of bipolar and field effect transistors [BIFET]}	H03K19/0175	H03K19/0175		21
+H03K19/017563	11	{with at least one differential stage}	H03K19/0175	H03K19/0175		12
+H03K19/017572	10	{using opto-electronic devices}	H03K19/0175	H03K19/0175		151
+H03K19/017581	9	{programmable}	H03K19/0175	H03K19/0175		339
+H03K19/01759	9	{with a bidirectional operation}	H03K19/0175	H03K19/0175		134
+H03K19/018	9	using bipolar transistors only	H03K19/018	H03K19/018		33
+H03K19/01806	10	{Interface arrangements}	H03K19/018	H03K19/018		394
+H03K19/01812	11	{with at least one differential stage}	H03K19/018	H03K19/018		210
+H03K19/01818	11	{for integrated injection logic (I2L)}	H03K19/018	H03K19/018		75
+H03K19/01825	10	{Coupling arrangements, impedance matching circuits}	H03K19/018	H03K19/018		75
+H03K19/01831	11	{with at least one differential stage}	H03K19/018	H03K19/018		49
+H03K19/01837	10	{programmable}	H03K19/018	H03K19/018		28
+H03K19/01843	10	{with a bidirectional operation}	H03K19/018	H03K19/018		16
+H03K19/0185	9	using field effect transistors only	H03K19/0185	H03K19/0185		858
+H03K19/018507	10	{Interface arrangements}	H03K19/0185	H03K19/0185		1366
+H03K19/018514	11	{with at least one differential stage (H03K19/018528 and H03K19/018542 take precedence)}	H03K19/0185	H03K19/0185		242
+H03K19/018521	11	{of complementary type, e.g. CMOS}	H03K19/0185	H03K19/0185		2498
+H03K19/018528	12	{with at least one differential stage}	H03K19/0185	H03K19/0185		714
+H03K19/018535	11	{of Schottky barrier type [MESFET]}	H03K19/0185	H03K19/0185		60
+H03K19/018542	12	{with at least one differential stage}	H03K19/0185	H03K19/0185		21
+H03K19/01855	11	{synchronous, i.e. using clock signals}	H03K19/0185	H03K19/0185		291
+H03K19/018557	10	{Coupling arrangements; Impedance matching circuits}	H03K19/0185	H03K19/0185		340
+H03K19/018564	11	{with at least one differential stage (H03K19/018578 takes precedence)}	H03K19/0185	H03K19/0185		46
+H03K19/018571	11	{of complementary type, e.g. CMOS}	H03K19/0185	H03K19/0185		209
+H03K19/018578	12	{with at least one differential stage}	H03K19/0185	H03K19/0185		60
+H03K19/018585	10	{programmable}	H03K19/0185	H03K19/0185		616
+H03K19/018592	10	{with a bidirectional operation}	H03K19/0185	H03K19/0185		182
+H03K19/02	8	using specified components ({H03K19/0005&#160;-&#160;H03K19/0021}, H03K19/003&#160;-&#160;H03K19/0175 take precedence)	H03K19/02	H03K19/02		173
+H03K19/04	9	using gas-filled tubes	H03K19/04	H03K19/04		13
+H03K19/06	9	using vacuum tubes (using diode rectifiers H03K19/12)	H03K19/06	H03K19/06		39
+H03K19/08	9	using semiconductor devices (H03K19/173 takes precedence; wherein the semiconductor devices are only diode rectifiers H03K19/12)	H03K19/08	H03K19/08		263
+H03K19/0806	10	{using charge transfer devices (DTC, CCD)}	H03K19/08	H03K19/08		10
+H03K19/0813	10	{Threshold logic}	H03K19/08	H03K19/08		130
+H03K19/082	10	using bipolar transistors	H03K19/082	H03K19/082		341
+H03K19/0823	11	{Multistate logic}	H03K19/082	H03K19/082		66
+H03K19/0826	12	{one of the states being the high impedance or floating state}	H03K19/082	H03K19/082		129
+H03K19/084	11	Diode-transistor logic	H03K19/084	H03K19/084		300
+H03K19/0843	12	{Complementary transistor logic [CTL]}	H03K19/084	H03K19/084		3
+H03K19/0846	12	{Schottky transistor logic [STL]}	H03K19/084	H03K19/084		13
+H03K19/086	11	Emitter coupled logic	H03K19/086	H03K19/086		635
+H03K19/0863	12	{Emitter function logic [EFL]; Base coupled logic [BCL]}	H03K19/086	H03K19/086		22
+H03K19/0866	12	{Stacked emitter coupled logic (H03K19/1738 takes precedence)}	H03K19/086	H03K19/086		80
+H03K19/088	11	Transistor-transistor logic	H03K19/088	H03K19/088		267
+H03K19/09	11	Resistor-transistor logic	H03K19/09	H03K19/09		95
+H03K19/091	11	Integrated injection logic or merged transistor logic	H03K19/091	H03K19/091		189
+H03K19/0912	12	{Static induction logic [STIL] (when the logic function is fullfilled by a fet H03K19/09414)}	H03K19/091	H03K19/091		4
+H03K19/0915	12	{Integrated schottky logic [ISL]}	H03K19/091	H03K19/091		14
+H03K19/0917	12	{Multistate logic}	H03K19/091	H03K19/091		5
+H03K19/094	10	using field-effect transistors	H03K19/094	H03K19/094		556
+H03K19/09403	11	{using junction field-effect transistors (H03K19/096 takes precedence)}	H03K19/094	H03K19/094		30
+H03K19/09407	12	{of the same canal type}	H03K19/094	H03K19/094		31
+H03K19/0941	12	{of complementary type}	H03K19/094	H03K19/094		29
+H03K19/09414	12	{with gate injection or static induction [STIL] (H03K19/0912 takes precedence)}	H03K19/094	H03K19/094		12
+H03K19/09418	12	{in combination with bipolar transistors [BIFET]}	H03K19/094	H03K19/094		23
+H03K19/09421	11	{Diode field-effect transistor logic (H03K19/0956, H03K19/096 take precedence)}	H03K19/094	H03K19/094		31
+H03K19/09425	11	{Multistate logic (H03K19/096 takes precedence)}	H03K19/094	H03K19/094		200
+H03K19/09429	12	{one of the states being the high impedance or floating state}	H03K19/094	H03K19/094		426
+H03K19/09432	11	{with coupled sources or source coupled logic (H03K19/096 takes precedence)}	H03K19/094	H03K19/094		134
+H03K19/09436	12	{Source coupled field-effect logic [SCFL]}	H03K19/094	H03K19/094		67
+H03K19/0944	11	using MOSFET {or insulated gate field-effect transistors, i.e. IGFET}(H03K19/096 takes precedence)	H03K19/0944	H03K19/0944		275
+H03K19/09441	12	{of the same canal type}	H03K19/0944	H03K19/0944		183
+H03K19/09443	13	{using a combination of enhancement and depletion transistors}	H03K19/0944	H03K19/0944		102
+H03K19/09445	14	{with active depletion transistors}	H03K19/0944	H03K19/0944		62
+H03K19/09446	13	{using only depletion transistors}	H03K19/0944	H03K19/0944		13
+H03K19/09448	12	{in combination with bipolar transistors [BIMOS]}	H03K19/0944	H03K19/0944		443
+H03K19/0948	12	using CMOS {or complementary insulated gate field-effect transistors}	H03K19/0948	H03K19/0948		880
+H03K19/09482	13	{using a combination of enhancement and depletion transistors}	H03K19/0948	H03K19/0948		23
+H03K19/09485	14	{with active depletion transistors}	H03K19/0948	H03K19/0948		29
+H03K19/09487	13	{using only depletion transistors}	H03K19/0948	H03K19/0948		8
+H03K19/0952	11	using Schottky type FET {MESFET}({H03K19/09421, H03K19/09432}, H03K19/096 take precedence)	H03K19/0952	H03K19/0952		186
+H03K19/0956	11	Schottky diode FET logic (H03K19/096 takes precedence)	H03K19/0956	H03K19/0956		25
+H03K19/096	11	Synchronous circuits, i.e. using clock signals {(H03K19/01728, H03K19/01855 take precedence)}	H03K19/096	H03K19/096		530
+H03K19/0963	12	{using transistors of complementary type (H03K19/0966 takes precedence)}	H03K19/096	H03K19/096		711
+H03K19/0966	12	{Self-timed logic}	H03K19/096	H03K19/096		70
+H03K19/098	10	using thyristors	H03K19/098	H03K19/098		25
+H03K19/10	10	using tunnel diodes	H03K19/10	H03K19/10		199
+H03K19/12	9	using diode rectifiers	H03K19/12	H03K19/12		155
+H03K19/14	9	using opto-electronic devices, i.e. light-emitting and photoelectric devices electrically- or optically-coupled (optical logic elements G02F3/00)	H03K19/14	H03K19/14		322
+H03K19/16	9	using saturable magnetic devices	H03K19/16	H03K19/16		500
+H03K19/162	10	using parametrons	H03K19/162	H03K19/162		51
+H03K19/164	10	using ferro-resonant devices	H03K19/164	H03K19/164		13
+H03K19/166	10	using transfluxors	H03K19/166	H03K19/166		53
+H03K19/168	10	using thin-film devices	H03K19/168	H03K19/168		121
+H03K19/17	9	using twistors	H03K19/17	H03K19/17		9
+H03K19/173	9	using elementary logic circuits as components	H03K19/173	H03K19/173		548
+H03K19/1731	10	{Optimisation thereof}	H03K19/173	H03K19/173		113
+H03K19/1732	11	{by limitation or reduction of the pin/gate ratio (for data-processing equipment G06F1/22)}	H03K19/173	H03K19/173		229
+H03K19/1733	10	{Controllable logic circuits (H03K19/177 takes precedence)}	H03K19/173	H03K19/173		400
+H03K19/1735	11	{by wiring, e.g. uncommitted logic arrays}	H03K19/173	H03K19/173		172
+H03K19/1736	12	{in which the wiring can be modified}	H03K19/173	H03K19/173		309
+H03K19/1737	11	{using multiplexers (H03K19/1738 takes precedence)}	H03K19/173	H03K19/173		1120
+H03K19/1738	11	{using cascode switch logic [CSL] or cascode emitter coupled logic [CECL]}	H03K19/173	H03K19/173		118
+H03K19/177	10	arranged in matrix form	H03K19/177	H03K19/177		572
+H03K19/17704	11	the logic functions being realised by the interconnection of rows and columns	H03K19/17704	H03K19/17704		613
+H03K19/17708	12	{using an AND matrix followed by an OR matrix, i.e. programmable logic arrays}	H03K19/17704	H03K19/177		300
+H03K19/17712	13	{one of the matrices at least being reprogrammable}	H03K19/17704	H03K19/177		147
+H03K19/17716	13	{with synchronous operation, i.e. using clock signals, e.g. of I/O or coupling register (H03K19/17712 takes precedence)}	H03K19/17704	H03K19/177		95
+H03K19/1772	14	{with synchronous operation of at least one of the logical matrixes}	H03K19/17704	H03K19/177		132
+H03K19/17724	11	Structural details of logic blocks	H03K19/17724	H03K19/17724		108
+H03K19/17728	12	Reconfigurable logic blocks, e.g. lookup tables	H03K19/17728	H03K19/17728		964
+H03K19/17732	12	Macroblocks	H03K19/17732	H03K19/17732		229
+H03K19/17736	11	Structural details of routing resources	H03K19/17736	H03K19/17736		1038
+H03K19/1774	12	{for global signals, e.g. clock, reset}	H03K19/17736	H03K19/177		313
+H03K19/17744	12	{for input/output signals}	H03K19/17736	H03K19/177		613
+H03K19/17748	11	Structural details of configuration resources	H03K19/17748	H03K19/17748		351
+H03K19/17752	12	for hot reconfiguration	H03K19/17752	H03K19/17752		145
+H03K19/17756	12	for partial configuration or partial reconfiguration	H03K19/17756	H03K19/17756		250
+H03K19/17758	12	for speeding up configuration or reconfiguration	H03K19/17758	H03K19/17758		167
+H03K19/1776	12	for memories	H03K19/1776	H03K19/1776		966
+H03K19/17764	12	for reliability	H03K19/17764	H03K19/17764		436
+H03K19/17768	12	for security	H03K19/17768	H03K19/17768		211
+H03K19/17772	12	for powering on or off	H03K19/17772	H03K19/17772		182
+H03K19/1778	11	Structural details for adapting physical parameters	H03K19/1778	H03K19/1778		391
+H03K19/17784	12	for supply voltage	H03K19/17784	H03K19/17784		266
+H03K19/17788	12	for input/output [I/O] voltages	H03K19/17788	H03K19/17788		68
+H03K19/17792	12	for operating speed	H03K19/17792	H03K19/17792		175
+H03K19/17796	12	for physical disposition of blocks	H03K19/17796	H03K19/17796		310
+H03K19/18	9	using galvano-magnetic devices, e.g. Hall-effect devices	H03K19/18	H03K19/18		223
+H03K19/185	9	using dielectric elements with variable dielectric constant, e.g. ferro-electric capacitors	H03K19/185	H03K19/185		48
+H03K19/19	10	using ferro-resonant devices	H03K19/19	H03K19/19		6
+H03K19/195	9	using superconductive devices	H03K19/195	H03K19/195		349
+H03K19/1952	10	{with electro-magnetic coupling of the control current}	H03K19/195	H03K19/195		201
+H03K19/1954	10	{with injection of the control current}	H03K19/195	H03K19/195		65
+H03K19/1956	11	{using an inductorless circuit}	H03K19/195	H03K19/195		65
+H03K19/1958	10	{Hybrid configuration, i.e. using electromagnetic coupling and injection of the control current}	H03K19/195	H03K19/195		20
+H03K19/20	8	characterised by logic function, e.g. AND, OR, NOR, NOT circuits (H03K19/003&#160;-&#160;H03K19/01 take precedence)	H03K19/20	H03K19/20		4339
+H03K19/21	9	EXCLUSIVE-OR circuits, i.e. giving output if input signal exists at only one input; COINCIDENCE circuits, i.e. giving output only if all input signals are identical	H03K19/21	H03K19/21		932
+H03K19/212	10	{using bipolar transistors}	H03K19/21	H03K19/21		183
+H03K19/215	10	{using field-effect transistors}	H03K19/21	H03K19/21		397
+H03K19/217	11	{using Schottky type FET [MESFET]}	H03K19/21	H03K19/21		11
+H03K19/23	9	Majority or minority circuits, i.e. giving output having the state of the majority or the minority of the inputs	H03K19/23	H03K19/23		302
+H03K21/00	7	Details of pulse counters or frequency dividers	H03K21/00	H03K21/00		1162
+H03K21/02	8	Input circuits	H03K21/02	H03K21/02		759
+H03K21/023	9	{comprising pulse shaping or differentiating circuits}	H03K21/02	H03K21/02		158
+H03K21/026	9	{comprising logic circuits}	H03K21/02	H03K21/02		262
+H03K21/08	8	Output circuits	H03K21/08	H03K21/08		764
+H03K21/10	9	comprising logic circuits	H03K21/10	H03K21/10		280
+H03K21/12	9	with parallel read-out	H03K21/12	H03K21/12		100
+H03K21/14	9	with series read-out of number stored	H03K21/14	H03K21/14		12
+H03K21/16	8	Circuits for carrying over pulses between successive decades	H03K21/16	H03K21/16		30
+H03K21/17	9	with field effect transistors	H03K21/17	H03K21/17		12
+H03K21/18	8	Circuits for visual indication of the result	H03K21/18	H03K21/18		110
+H03K21/20	9	using glow discharge lamps	H03K21/20	H03K21/20		2
+H03K21/38	8	Starting, stopping or resetting the counter (counters with a base other than a power of two H03K23/48, H03K23/66)	H03K21/38	H03K21/38		570
+H03K21/40	8	Monitoring; Error detection; Preventing or correcting improper counter operation	H03K21/40	H03K21/40		336
+H03K21/403	9	{Arrangements for storing the counting state in case of power supply interruption}	H03K21/40	H03K21/40		164
+H03K21/406	9	{Synchronisation of counters}	H03K21/40	H03K21/40		51
+H03K23/00	7	Pulse counters comprising counting chains; Frequency dividers comprising counting chains (H03K29/00 takes precedence)	H03K23/00	H03K23/00		253
+H03K23/001	8	{using elements not covered by groups H03K23/002 and H03K23/74&#160;-&#160;H03K23/84}	H03K23/00	H03K23/00		39
+H03K23/002	8	{using semiconductor devices (H03K23/78, H03K23/80, H03K23/84 take precedence)}	H03K23/00	H03K23/00		497
+H03K23/004	8	{Counters counting in a non-natural counting order, e.g. random counters}	H03K23/00	H03K23/00		39
+H03K23/005	9	{using minimum change code, e.g. Gray Code}	H03K23/00	H03K23/00		109
+H03K23/007	9	{using excess three code}	H03K23/00	H03K23/00		1
+H03K23/008	9	{using biquinary code}	H03K23/00	H03K23/00		8
+H03K23/40	8	Gating or clocking signals applied to all stages, i.e. synchronous counters {(H03K23/74&#160;-&#160;H03K23/84 take precedence)}	H03K23/40	H03K23/40		196
+H03K23/42	9	Out-of-phase gating or clocking signals applied to counter stages	H03K23/42	H03K23/42		59
+H03K23/425	10	{using bistables}	H03K23/42	H03K23/42		60
+H03K23/44	10	using field-effect transistors {(H03K23/46 and H03K23/425 take precedence)}	H03K23/44	H03K23/44		134
+H03K23/46	10	using charge transfer devices, i.e. bucket brigade or charge coupled devices	H03K23/46	H03K23/46		13
+H03K23/48	9	with a base or radix other than a power of two (H03K23/42 takes precedence)	H03K23/48	H03K23/48		17
+H03K23/483	10	{with a base which is an odd number}	H03K23/48	H03K23/48		29
+H03K23/486	10	{with a base which is a non-integer}	H03K23/48	H03K23/48		15
+H03K23/50	9	using bi-stable regenerative trigger circuits (H03K23/42&#160;-&#160;H03K23/48 take precedence)	H03K23/50	H03K23/50		124
+H03K23/502	10	{with a base or a radix other than a power of two (H03K23/54 takes precedence)}	H03K23/50	H03K23/50		64
+H03K23/505	11	{with a base which is an odd number}	H03K23/50	H03K23/50		37
+H03K23/507	11	{with a base which is a non-integer}	H03K23/50	H03K23/50		28
+H03K23/52	10	using field-effect transistors	H03K23/52	H03K23/52		45
+H03K23/54	10	Ring counters, i.e. feedback shift register counters (H03K23/52 takes precedence)	H03K23/54	H03K23/54		345
+H03K23/542	11	{with crossed-couplings, i.e. Johnson counters}	H03K23/54	H03K23/54		68
+H03K23/544	11	{with a base which is an odd number}	H03K23/54	H03K23/54		47
+H03K23/546	11	{with a base which is a non-integer}	H03K23/54	H03K23/54		14
+H03K23/548	11	{Reversible counters}	H03K23/54	H03K23/54		20
+H03K23/56	10	Reversible counters (H03K23/52{and H03K23/548} take precedence)	H03K23/56	H03K23/56		71
+H03K23/58	8	Gating or clocking signals not applied to all stages, i.e. asynchronous counters (H03K23/74&#160;-&#160;H03K23/84 take precedence)	H03K23/58	H03K23/58		154
+H03K23/582	9	{with a base or a radix different of a power of two}	H03K23/58	H03K23/58		24
+H03K23/584	10	{with a base which is an odd number}	H03K23/58	H03K23/58		7
+H03K23/586	10	{with a base which is a non-integer}	H03K23/58	H03K23/58		4
+H03K23/588	9	{Combination of a synchronous and an asynchronous counter}	H03K23/58	H03K23/58		39
+H03K23/60	9	with field-effect transistors	H03K23/60	H03K23/60		15
+H03K23/62	9	reversible	H03K23/62	H03K23/62		45
+H03K23/64	8	with a base or radix other than a power of two (H03K23/40&#160;-&#160;H03K23/62 take precedence)	H03K23/64	H03K23/64		46
+H03K23/66	9	with a variable counting base, e.g. by presetting or by adding or suppressing pulses	H03K23/66	H03K23/66		481
+H03K23/662	10	{by adding or suppressing pulses}	H03K23/66	H03K23/66		228
+H03K23/665	10	{by presetting}	H03K23/66	H03K23/66		311
+H03K23/667	10	{by switching the base during a counting cycle}	H03K23/66	H03K23/66		482
+H03K23/68	9	with a base which is a non-integer	H03K23/68	H03K23/68		288
+H03K23/70	9	with a base which is an odd number (H03K23/66 takes precedence)	H03K23/70	H03K23/70		35
+H03K23/72	9	Decade counters (H03K23/66 takes precedence)	H03K23/72	H03K23/72		24
+H03K23/74	8	using relays	H03K23/74	H03K23/74		248
+H03K23/76	8	using magnetic cores or ferro-electric capacitors	H03K23/76	H03K23/76		322
+H03K23/763	9	{using superconductive devices}	H03K23/76	H03K23/76		10
+H03K23/766	9	{using thin-film devices}	H03K23/76	H03K23/76		4
+H03K23/78	8	using opto-electronic devices	H03K23/78	H03K23/78		64
+H03K23/80	8	using semiconductor devices having only two electrodes, e.g. tunnel diode, multi-layer diode	H03K23/80	H03K23/80		53
+H03K23/82	8	using gas-filled tubes	H03K23/82	H03K23/82		606
+H03K23/825	9	{using vacuum tubes}	H03K23/82	H03K23/82		
+H03K23/84	8	using thyristors or unijunction transistors	H03K23/84	H03K23/84		57
+H03K23/86	8	reversible (H03K23/40&#160;-&#160;H03K23/84 take precedence)	H03K23/86	H03K23/86		23
+H03K25/00	7	Pulse counters with step-by-step integration and static storage; Analogous frequency dividers	H03K25/00	H03K25/00		367
+H03K25/02	8	comprising charge storage, e.g. capacitor without polarisation hysteresis	H03K25/02	H03K25/02		40
+H03K25/04	9	using auxiliary pulse generator triggered by the incoming pulses	H03K25/04	H03K25/04		21
+H03K25/12	8	comprising hysteresis storage	H03K25/12	H03K25/12		3
+H03K27/00	7	Pulse counters in which pulses are continuously circulated in a closed loop; Analogous frequency dividers (feedback shift register counters H03K23/54)	H03K27/00	H03K27/00		35
+H03K29/00	7	Pulse counters comprising multi-stable elements, e.g. for ternary scale, for decimal scale; Analogous frequency dividers	H03K29/00	H03K29/00		436
+H03K29/04	8	using multi-cathode gas discharge tubes	H03K29/04	H03K29/04		
+H03K29/06	8	using beam-type tubes, e.g. magnetrons, cathode-ray tubes	H03K29/06	H03K29/06		1
+H03K99/00	7	Subject matter not provided for in other groups of this subclass	H03K99/00	H03K99/00		9
+H03K2217/00	7	Indexing scheme related to electronic switching or gating, i.e. not by contact-making or -breaking covered by H03K17/00	CPCONLY	H03K2217/00		5
+H03K2217/0009	8	AC switches, i.e. delivering AC power to a load	CPCONLY	H03K2217/0009		271
+H03K2217/0018	8	Special modifications or use of the back gate voltage of a FET	CPCONLY	H03K2217/0018		722
+H03K2217/0027	8	Measuring means of, e.g. currents through or voltages across the switch	CPCONLY	H03K2217/0027		920
+H03K2217/0036	8	Means reducing energy consumption	CPCONLY	H03K2217/0036		1606
+H03K2217/0045	8	Full bridges, determining the direction of the current through the load	CPCONLY	H03K2217/0045		95
+H03K2217/0054	8	Gating switches, e.g. pass gates	CPCONLY	H03K2217/0054		595
+H03K2217/0063	8	High side switches, i.e. the higher potential [DC] or life wire [AC] being directly connected to the switch and not via the load	CPCONLY	H03K2217/0063		729
+H03K2217/0072	8	Low side switches, i.e. the lower potential [DC] or neutral wire [AC] being directly connected to the switch and not via the load	CPCONLY	H03K2217/0072		446
+H03K2217/0081	8	Power supply means, e.g. to the switch driver	CPCONLY	H03K2217/0081		1547
+H03K2217/009	8	Resonant driver circuits	CPCONLY	H03K2217/009		91
+H03K2217/94	8	characterised by the way in which the control signal is generated	CPCONLY	H03K2217/94		9
+H03K2217/94005	9	activated by voice or sound	CPCONLY	H03K2217/94005		67
+H03K2217/9401	9	Calibration techniques	CPCONLY	H03K2217/9401		48
+H03K2217/94015	10	Mechanical, e.g. by displacement of a body, a shielding element, or a magnet, in or out of the sensing area	CPCONLY	H03K2217/94015		29
+H03K2217/94021	10	with human activation, e.g. processes requiring or being triggered by human intervention, user-input of digital word or analog voltage	CPCONLY	H03K2217/94021		62
+H03K2217/94026	10	Automatic threshold calibration; e.g. threshold automatically adapts to ambient conditions or follows variation of input	CPCONLY	H03K2217/94026		212
+H03K2217/94031	10	Calibration involving digital processing	CPCONLY	H03K2217/94031		117
+H03K2217/94036	9	Multiple detection, i.e. where different switching signals are generated after operation of the user is detected at different time instants at different locations during the actuation movement by two or more sensors of the same or different kinds	CPCONLY	H03K2217/94036		138
+H03K2217/94042	9	Means for reducing energy consumption	CPCONLY	H03K2217/94042		68
+H03K2217/94047	9	Cascode connected switches	CPCONLY	H03K2217/94047		13
+H03K2217/94052	9	with evaluation of actuation pattern or sequence, e.g. tapping	CPCONLY	H03K2217/94052		114
+H03K2217/94057	9	Rotary switches	CPCONLY	H03K2217/94057		54
+H03K2217/94063	10	with optical detection	CPCONLY	H03K2217/94063		75
+H03K2217/94068	10	with magnetic detection	CPCONLY	H03K2217/94068		203
+H03K2217/94073	10	with capacitive detection	CPCONLY	H03K2217/94073		104
+H03K2217/94078	10	with acoustic detection	CPCONLY	H03K2217/94078		2
+H03K2217/94084	9	Transmission of parameters among sensors or between sensor and remote station	CPCONLY	H03K2217/94084		9
+H03K2217/94089	10	Wireless transmission	CPCONLY	H03K2217/94089		136
+H03K2217/94094	10	Wired transmission, e.g. via bus connection or similar	CPCONLY	H03K2217/94094		104
+H03K2217/941	9	using an optical detector	CPCONLY	H03K2217/941		29
+H03K2217/94102	10	characterised by the type of activation	CPCONLY	H03K2217/94102		13
+H03K2217/94104	11	using a light barrier	CPCONLY	H03K2217/94104		70
+H03K2217/94106	11	Passive activation of light sensor, e.g. by ambient light	CPCONLY	H03K2217/94106		64
+H03K2217/94108	11	making use of reflection	CPCONLY	H03K2217/94108		241
+H03K2217/94111	10	having more than one emitter	CPCONLY	H03K2217/94111		41
+H03K2217/94112	10	having more than one receiver	CPCONLY	H03K2217/94112		39
+H03K2217/94114	10	Optical multi axis	CPCONLY	H03K2217/94114		58
+H03K2217/94116	10	increasing reliability, fail-safe	CPCONLY	H03K2217/94116		97
+H03K2217/945	9	Proximity switches	CPCONLY	H03K2217/945		14
+H03K2217/95	10	using a magnetic detector	CPCONLY	H03K2217/95		13
+H03K2217/952	11	Detection of ferromagnetic and non-magnetic conductive targets	CPCONLY	H03K2217/952		24
+H03K2217/954	11	Ferromagnetic case	CPCONLY	H03K2217/954		8
+H03K2217/956	11	Negative resistance, e.g. LC inductive proximity switches	CPCONLY	H03K2217/956		12
+H03K2217/958	11	involving transponders	CPCONLY	H03K2217/958		76
+H03K2217/96	9	Touch switches	CPCONLY	H03K2217/96		6
+H03K2217/96003	10	using acoustic waves, e.g. ultrasound	CPCONLY	H03K2217/96003		36
+H03K2217/96007	11	by reflection	CPCONLY	H03K2217/96007		17
+H03K2217/96011	11	with propagation, SAW or BAW	CPCONLY	H03K2217/96011		63
+H03K2217/96015	10	Constructional details for touch switches	CPCONLY	H03K2217/96015		329
+H03K2217/96019	11	using conductive paint	CPCONLY	H03K2217/96019		35
+H03K2217/96023	11	Details of electro-mechanic connections between different elements, e.g.: sensing plate and integrated circuit containing electronics	CPCONLY	H03K2217/96023		143
+H03K2217/96027	11	Piezoelectric snap spring	CPCONLY	H03K2217/96027		18
+H03K2217/96031	10	Combination of touch switch and LC display	CPCONLY	H03K2217/96031		149
+H03K2217/96035	10	by temperature detection, i.e. body heat	CPCONLY	H03K2217/96035		16
+H03K2217/96038	10	Inductive touch switches	CPCONLY	H03K2217/96038		86
+H03K2217/96042	10	with illumination	CPCONLY	H03K2217/96042		184
+H03K2217/96046	11	Key-pad combined with display, back-lit	CPCONLY	H03K2217/96046		88
+H03K2217/9605	10	Detection of leakage or discharge current across the touching body to ground	CPCONLY	H03K2217/9605		12
+H03K2217/96054	10	Double function: touch detection combined with detection of a movable element	CPCONLY	H03K2217/96054		161
+H03K2217/96058	10	Fail-safe touch switches, where switching takes place only after repeated touch	CPCONLY	H03K2217/96058		65
+H03K2217/96062	10	with tactile or haptic feedback	CPCONLY	H03K2217/96062		498
+H03K2217/96066	10	Thumbwheel, potentiometer, scrollbar or slider simulation by touch switch	CPCONLY	H03K2217/96066		229
+H03K2217/9607	10	Capacitive touch switches	CPCONLY	H03K2217/9607		35
+H03K2217/960705	11	Safety of capacitive touch and proximity switches, e.g. increasing reliability, fail-safe	CPCONLY	H03K2217/960705		529
+H03K2217/96071	11	characterised by the detection principle	CPCONLY	H03K2217/96071		87
+H03K2217/960715	12	Rc-timing; e.g. measurement of variation of charge time or discharge time of the sensor	CPCONLY	H03K2217/960715		118
+H03K2217/96072	12	Phase comparison, i.e. where a phase comparator receives at one input the signal directly from the oscillator, at a second input the same signal but delayed, with a delay depending on a sensing capacitance	CPCONLY	H03K2217/96072		56
+H03K2217/960725	12	Charge-transfer	CPCONLY	H03K2217/960725		251
+H03K2217/96073	12	Amplitude comparison	CPCONLY	H03K2217/96073		109
+H03K2217/960735	11	characterised by circuit details	CPCONLY	H03K2217/960735		104
+H03K2217/96074	12	Switched capacitor	CPCONLY	H03K2217/96074		53
+H03K2217/960745	12	Capacitive differential; e.g. comparison with reference capacitance	CPCONLY	H03K2217/960745		144
+H03K2217/96075	12	involving bridge circuit	CPCONLY	H03K2217/96075		54
+H03K2217/960755	11	Constructional details of capacitive touch and proximity switches	CPCONLY	H03K2217/960755		1052
+H03K2217/96076	12	with spring electrode	CPCONLY	H03K2217/96076		250
+H03K2217/960765	12	Details of shielding arrangements	CPCONLY	H03K2217/960765		327
+H03K2217/96077	12	comprising an electrode which is floating	CPCONLY	H03K2217/96077		156
+H03K2217/960775	12	Emitter-receiver or "fringe" type detection, i.e. one or more field emitting electrodes and corresponding one or more receiving electrodes	CPCONLY	H03K2217/960775		276
+H03K2217/96078	12	Sensor being a wire or a strip, e.g. used in automobile door handles or bumpers	CPCONLY	H03K2217/96078		240
+H03K2217/960785	11	with illumination	CPCONLY	H03K2217/960785		400
+H03K2217/96079	12	using a single or more light guides	CPCONLY	H03K2217/96079		219
+H03K2217/960795	12	using organic light emitting devices, e.g. light emitting polymer [OEP] or OLED	CPCONLY	H03K2217/960795		46
+H03K2217/965	9	Switches controlled by moving an element forming part of the switch	CPCONLY	H03K2217/965		11
+H03K2217/9651	10	the moving element acting on a force, e.g. pressure sensitive element	CPCONLY	H03K2217/9651		245
+H03K2217/9653	10	with illumination	CPCONLY	H03K2217/9653		90
+H03K2217/9655	11	using a single or more light guides	CPCONLY	H03K2217/9655		48
+H03K2217/9656	11	using organic light emitting devices, e.g. light emitting polymer [OEP] or OLED	CPCONLY	H03K2217/9656		4
+H03K2217/9658	10	Safety, e.g. fail-safe switching requiring a sequence of movements	CPCONLY	H03K2217/9658		38

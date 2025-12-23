@@ -1,0 +1,100 @@
+G05F1/00	7	Automatic systems in which deviations of an electric quantity from one or more predetermined values are detected at the output of the system and fed back to a device within the system to restore the detected quantity to its predetermined value or values, i.e. retroactive systems	G05F1/00	G05F1/00		487
+G05F1/02	8	Regulating electric characteristics of arcs	G05F1/02	G05F1/02		28
+G05F1/04	9	by means of saturable magnetic devices	G05F1/04	G05F1/04		1
+G05F1/06	9	by means of discharge tubes	G05F1/06	G05F1/06		4
+G05F1/08	9	by means of semiconductor devices	G05F1/08	G05F1/08		43
+G05F1/10	8	Regulating voltage or current&#160; (G05F1/02&#160;takes precedence)	G05F1/10	G05F1/10		1178
+G05F1/12	9	wherein the variable actually regulated by the final control device is AC (G05F1/625&#160;takes precedence)	G05F1/12	G05F1/12		421
+G05F1/13	10	using ferroresonant transformers as final control devices	G05F1/13	G05F1/13		61
+G05F1/14	10	using tap transformers or tap changing inductors as final control devices	G05F1/14	G05F1/14		526
+G05F1/147	11	with motor driven tap switch	G05F1/147	G05F1/147		171
+G05F1/153	12	controlled by discharge tubes or semiconductor devices	G05F1/153	G05F1/153		84
+G05F1/16	11	combined with discharge tubes or semiconductor devices	G05F1/16	G05F1/16		19
+G05F1/20	12	semiconductor devices only	G05F1/20	G05F1/20		268
+G05F1/22	11	combined with separate magnetic control devices having a controllable degree of saturation	G05F1/22	G05F1/22		22
+G05F1/24	10	using bucking or boosting transformers as final control devices	G05F1/24	G05F1/24		223
+G05F1/247	11	with motor in control circuit	G05F1/247	G05F1/247		160
+G05F1/253	11	the transformers including plural windings in series between source and load (G05F1/247 takes precedence)	G05F1/253	G05F1/253		32
+G05F1/26	11	combined with discharge tubes or semiconductor devices	G05F1/26	G05F1/26		65
+G05F1/30	12	semiconductor devices only	G05F1/30	G05F1/30		187
+G05F1/32	10	using magnetic devices having a controllable degree of saturation as final control devices	G05F1/32	G05F1/32		559
+G05F1/325	11	with specific core structure, e.g. gap, aperture, slot, permanent magnet	G05F1/325	G05F1/325		93
+G05F1/33	11	with plural windings through which current to be controlled is conducted	G05F1/33	G05F1/33		243
+G05F1/335	12	on different cores	G05F1/335	G05F1/335		26
+G05F1/34	11	combined with discharge tubes or semiconductor devices	G05F1/34	G05F1/34		263
+G05F1/38	12	semiconductor devices only	G05F1/38	G05F1/38		295
+G05F1/40	10	using discharge tubes or semiconductor devices as final control devices	G05F1/40	G05F1/40		111
+G05F1/42	11	discharge tubes only	G05F1/42	G05F1/42		271
+G05F1/44	11	semiconductor devices only	G05F1/44	G05F1/44		374
+G05F1/445	12	being transistors in series with the load	G05F1/445	G05F1/445		353
+G05F1/45	12	being controlled rectifiers in series with the load	G05F1/45	G05F1/45		126
+G05F1/452	13	{with pulse-burst modulation control}	G05F1/45	G05F1/45		118
+G05F1/455	13	with phase control	G05F1/455	G05F1/455		605
+G05F1/46	9	wherein the variable actually regulated by the final control device is DC (G05F1/625&#160;takes precedence)	G05F1/46	G05F1/46		1280
+G05F1/461	10	{using an operational amplifier as final control device}	G05F1/46	G05F1/46		521
+G05F1/462	10	{as a function of the requirements of the load, e.g. delay, temperature, specific voltage/current characteristic}	G05F1/46	G05F1/46		304
+G05F1/463	11	{Sources providing an output which depends on temperature}	G05F1/46	G05F1/46		160
+G05F1/465	11	{Internal voltage generators for integrated circuits, e.g. step down generators}	G05F1/46	G05F1/46		978
+G05F1/466	11	{Sources with reduced influence on propagation delay}	G05F1/46	G05F1/46		36
+G05F1/467	11	{Sources with noise compensation}	G05F1/46	G05F1/46		84
+G05F1/468	10	{characterised by reference voltage circuitry, e.g. soft start, remote shutdown}	G05F1/46	G05F1/46		937
+G05F1/52	10	using discharge tubes in series with the load as final control devices	G05F1/52	G05F1/52		799
+G05F1/54	11	additionally controlled by the unregulated supply	G05F1/54	G05F1/54		1
+G05F1/56	10	using semiconductor devices in series with the load as final control devices (G05F1/461 takes precedence)	G05F1/56	G05F1/56		4144
+G05F1/561	11	{Voltage to current converters (amplifiers H03F)}	G05F1/56	G05F1/56		2492
+G05F1/562	11	{with a threshold detection shunting the control path of the final control device}	G05F1/56	G05F1/56		126
+G05F1/563	11	including two stages of regulation at least one of which is output level responsive, e.g. coarse and fine regulation	G05F1/563	G05F1/563		440
+G05F1/565	11	sensing a condition of the system or its load in addition to means responsive to deviations in the output of the system, e.g. current, voltage, power factor (G05F1/563 takes precedence)	G05F1/565	G05F1/565		1310
+G05F1/567	12	for temperature compensation	G05F1/567	G05F1/567		1594
+G05F1/569	12	for protection	G05F1/569	G05F1/569		443
+G05F1/571	13	with overvoltage detector	G05F1/571	G05F1/571		355
+G05F1/573	13	with overcurrent detector	G05F1/573	G05F1/573		871
+G05F1/5735	14	{with foldback current limiting}	G05F1/573	G05F1/573		156
+G05F1/575	11	characterised by the feedback circuit	G05F1/575	G05F1/575		2687
+G05F1/577	11	for plural loads	G05F1/577	G05F1/577		317
+G05F1/585	12	providing voltages of opposite polarities	G05F1/585	G05F1/585		100
+G05F1/59	11	including plural semiconductor devices as final control devices for a single load	G05F1/59	G05F1/59		608
+G05F1/595	12	semiconductor devices connected in series	G05F1/595	G05F1/595		192
+G05F1/607	10	using discharge tubes in parallel with the load as final control devices	G05F1/607	G05F1/607		87
+G05F1/61	11	including two stages of regulation, at least one of which is output level responsive	G05F1/61	G05F1/61		11
+G05F1/613	10	using semiconductor devices in parallel with the load as final control devices (G05F1/461 takes precedence)	G05F1/613	G05F1/613		360
+G05F1/614	11	including two stages of regulation, at least one of which is output level responsive	G05F1/614	G05F1/614		28
+G05F1/618	10	using semiconductor devices in series and in parallel with the load as final control devices (G05F1/461 takes precedence)	G05F1/618	G05F1/618		250
+G05F1/62	10	using bucking or boosting DC sources	G05F1/62	G05F1/62		390
+G05F1/625	9	wherein it is irrelevant whether the variable actually regulated is AC or DC	G05F1/625	G05F1/625		561
+G05F1/63	10	using variable impedances in series with the load as final control devices	G05F1/63	G05F1/63		62
+G05F1/635	11	being Hall effect devices, magnetoresistors or thermistors	G05F1/635	G05F1/635		18
+G05F1/644	11	being pressure-sensitive resistors	G05F1/644	G05F1/644		21
+G05F1/648	11	being plural resistors among which a selection is made	G05F1/648	G05F1/648		138
+G05F1/652	10	using variable impedances in parallel with the load as final control devices	G05F1/652	G05F1/652		32
+G05F1/656	10	using variable impedances in series and in parallel with the load as final control devices	G05F1/656	G05F1/656		15
+G05F1/66	8	Regulating electric power	G05F1/66	G05F1/66		1736
+G05F1/67	9	to the maximum power available from a generator, e.g. from solar cell	G05F1/67	G05F1/67		2633
+G05F1/70	8	Regulating power factor; Regulating reactive current or power	G05F1/70	G05F1/70		1031
+G05F3/00	7	Non-retroactive systems for regulating electric variables by using an uncontrolled element, or an uncontrolled combination of elements, such element or such combination having self-regulating properties {(current generators specially designed for use in phase-locked loops H03L7/0891)}	G05F3/00	G05F3/00		50
+G05F3/02	8	Regulating voltage or current	G05F3/02	G05F3/02		486
+G05F3/04	9	wherein the variable is AC	G05F3/04	G05F3/04		303
+G05F3/06	10	using combinations of saturated and unsaturated inductive devices, e.g. combined with resonant circuit	G05F3/06	G05F3/06		659
+G05F3/08	9	wherein the variable is DC	G05F3/08	G05F3/08		362
+G05F3/10	10	using uncontrolled devices with non-linear characteristics	G05F3/10	G05F3/10		92
+G05F3/12	11	being glow discharge tubes	G05F3/12	G05F3/12		90
+G05F3/16	11	being semiconductor devices	G05F3/16	G05F3/16		477
+G05F3/18	12	using Zener diodes	G05F3/18	G05F3/18		467
+G05F3/185	13	{and field-effect transistors}	G05F3/18	G05F3/18		56
+G05F3/20	12	using diode- transistor combinations (G05F3/18 takes precedence)	G05F3/20	G05F3/20		224
+G05F3/205	13	{Substrate bias-voltage generators (for static stores G11C5/146)}	G05F3/20	G05F3/20		846
+G05F3/22	13	wherein the transistors are of the bipolar type only (G05F3/26, G05F3/30 take precedence)	G05F3/22	G05F3/22		384
+G05F3/222	14	{with compensation for device parameters, e.g. Early effect, gain, manufacturing process, or external variations, e.g. temperature, loading, supply voltage}	G05F3/22	G05F3/22		152
+G05F3/225	15	{producing a current or voltage as a predetermined function of the temperature}	G05F3/22	G05F3/22		204
+G05F3/227	15	{producing a current or voltage as a predetermined function of the supply voltage}	G05F3/22	G05F3/22		147
+G05F3/24	13	wherein the transistors are of the field-effect type only (G05F3/205, G05F3/26, G05F3/30 take precedence)	G05F3/24	G05F3/24		754
+G05F3/242	14	{with compensation for device parameters, e.g. channel width modulation, threshold voltage, processing, or external variations, e.g. temperature, loading, supply voltage}	G05F3/24	G05F3/24		615
+G05F3/245	15	{producing a voltage or current as a predetermined function of the temperature}	G05F3/24	G05F3/24		401
+G05F3/247	15	{producing a voltage or current as a predetermined function of the supply voltage}	G05F3/24	G05F3/24		423
+G05F3/26	13	Current mirrors	G05F3/26	G05F3/26		924
+G05F3/262	14	{using field-effect transistors only}	G05F3/26	G05F3/26		2043
+G05F3/265	14	{using bipolar transistors only}	G05F3/26	G05F3/26		679
+G05F3/267	14	{using both bipolar and field-effect technology}	G05F3/26	G05F3/26		425
+G05F3/30	13	Regulators using the difference between the base-emitter voltages of two bipolar transistors operating at different current densities (G05F3/26 takes precedence)	G05F3/30	G05F3/30		1654
+G05F5/00	7	Systems for regulating electric variables by detecting deviations in the electric input to the system and thereby controlling a device within the system to obtain a regulated output	G05F5/00	G05F5/00		434
+G05F7/00	7	Regulating magnetic variables	G05F7/00	G05F7/00		240

@@ -1,0 +1,1342 @@
+A61B   1/00  \	0	0	4C161	A61B   1/00	414	視覚または写真的検査による人体の窩部または管部の内側の診断を行なうための機器，例．内視鏡（超音波，音波または亜音波を利用する人体の窩部または管部の診断Ａ６１Ｂ８／１２；細胞の標本を取るためのまたは生検のための内視鏡用器具Ａ６１Ｂ１０／０４）；そのための照明装置（眼の検査用Ａ６１Ｂ３／００）［２００６．０１］	Instruments for performing medical examinations of the interior of cavities or tubes of the body by visual or photographical inspection, e.g. endoscopes (examination of body cavities or body tracts using ultrasonic, sonic or infrasonic waves A61B 8/12; endoscopic instruments for taking cell samples or for biopsy A61B 10/04); Illuminating arrangements therefor (for the eyes A61B 3/00)
+A61B   1/00  C	0	0	4C161	A61B   1/00	1943	カプセル内視鏡	Capsule endoscopes
+A61B   1/00  R	0	0	4C161	A61B   1/00	1293	硬性内視鏡	Rigid endoscopes
+A61B   1/00  S	0	1	4C161	A61B   1/00	92	湾曲機能付き硬性内視鏡	Rigid endoscopes with curvature function
+A61B   1/00  T	0	1	4C161	A61B   1/00	919	硬性内視鏡の案内装置，例．トラカール（套管針Ａ６１Ｂ１７／３４）	Guide device for a rigid endoscope, e.g. a trocar (over-needle catheter A61B17/34)
+A61B   1/00  V	0	0	4C161	A61B   1/00	178	仮想内視鏡	Virtual endoscopes
+A61B   1/00  Z	0	0	4C161	A61B   1/00	119	その他のもの	Others
+A61B   1/00 500 \	1	1	4C161	A61B   1/00	245	観察技術に特徴を有するもの	characterised by observation technology
+A61B   1/00 510 \	2	2	4C161	A61B   1/00	289	特殊な波長帯域の光を用いた観察（Ａ６１Ｂ１／００　５２５〜Ａ６１Ｂ１／００　５２６が優先）	Observation with light of special wavelength bands (A61B1/00 525 to A61B1/00 526 take precedence)
+A61B   1/00 511 \	3	3	4C161	A61B   1/00	1689	蛍光観察	Fluorescent observation
+A61B   1/00 512 \	3	3	4C161	A61B   1/00	343	赤外線観察，例．近赤外光観察	Infrared observation, e.g. near-infrared observation
+A61B   1/00 513 \	3	3	4C161	A61B   1/00	897	狭帯域光観察，例．可視光領域の狭帯域光の照射により得られた撮像信号に基づき狭帯域光画像を生成するもの	Narrow band light observation, e.g. for generating narrow band light images based on image signals obtained by irradiation of narrow band light in visible light regions
+A61B   1/00 520 \	2	2	4C161	A61B   1/00	165	分光推定処理による分光観察，例．広帯域光の照射により得られた撮像信号に分光推定処理を施すことにより任意波長成分の狭帯域光画像を生成するもの	Spectral observation by spectral estimation processing, e.g. processing image signals obtained by irradiation of broadband light with spectral estimation to generate narrow band light images of optional wavelength component
+A61B   1/00 521 \	2	2	4C161	A61B   1/00	154	偏光観察	Polarized light observation
+A61B   1/00 522 \	2	2	4C161	A61B   1/00	854	立体視観察，例．左右に配置した撮像素子により視差画像を取得するもの	Stereoscopic observation, e.g. obtaining parallax image with image sensors arranged at left and right sides
+A61B   1/00 523 \	2	2	4C161	A61B   1/00	361	機械的な走査により取得された光学像の観察，例．撮像素子を回転させるもの（Ａ６１Ｂ１／００　５２５〜Ａ６１Ｂ１／００　５２６が優先）	Observation of optical images obtained by mechanical scanning, e.g. rotating image sensors (A61B1/00 525 to A61B1/00 526 take precedence)
+A61B   1/00 524 \	3	3	4C161	A61B   1/00	450	光ファイバーを機械的に走査するもの，すなわち，走査型内視鏡，例．光ファイバーを渦巻状に走査するもの	Scanning through optical fibers operated mechanically, i.e. a scanning endoscope, e.g. scanning through optical fibers arranged spirally
+A61B   1/00 525 \	2	2	4C161	A61B   1/00	278	共焦点型内視鏡による観察	Observation by using a confocal endoscope
+A61B   1/00 526 \	2	2	4C161	A61B   1/00	1263	光干渉断層像観察，例．ＯＣＴ，ＯＦＤＩ	Observation of optical coherence tomographic images, e.g. OCT, OFDI
+A61B   1/00 530 \	2	2	4C161	A61B   1/00	1407	超音波像を取得するもの，例．光学像と超音波像の同時観察用内視鏡（超音波像のみを取得するものＡ６１Ｂ８／１２）	obtaining ultrasonic images, e.g. endoscopes for observing simultaneously optical images and ultrasonic images (for obtaining only ultrasonic images A61B8/12)
+A61B   1/00 550 \	1	1	4C161	A61B   1/00	5585	被検体または機器の計測；検知に特徴を有するもの，例．被検体内のｐＨ計測，内視鏡操作部の温度計測	Characterised by measurement or detection of objects or devices, e.g. pH measurement within an object, thermometry of an operation unit of an endoscope
+A61B   1/00 551 \	2	2	4C161	A61B   1/00	1021	被検体の対象部位の大きさまたは形状の計測；検知，例．長さ，高さ，凹凸，面積，平面的形状または立体的形状の計測	Measurement or detection of size and form of objects; e.g. measurement of length, height, unevenness, area, planar form or cubic form
+A61B   1/00 552 \	2	2	4C161	A61B   1/00	1825	被検体内における機器の位置または挿入状態の計測；検知，例．カプセル内視鏡の位置の計測，内視鏡の挿入形状または挿入量の計測	Measurement or detection of the location or the insertion state of a device within an object, e.g. measurement of the location of a capsule endoscope, measurement of the insertion form or insertion amount of an endoscope
+A61B   1/00 553 \	3	3	4C161	A61B   1/00	530	被検体と機器との間の距離の計測；検知	Measurement or detection of the distance between an object and a device
+A61B   1/00 554 \	3	3	4C161	A61B   1/00	157	被検体に対する機器の接触圧力の計測；検知	Measurement or detection of contact pressure of devices to an object
+A61B   1/00 600 \	1	1	4C161	A61B   1/00	73	特殊機能，補助機能または付属機能	Special function, auxiliary function or appendage function
+A61B   1/00 610 \	2	2	4C161	A61B   1/00	2845	機器の自力導入，推進動作または後退動作に特徴を有するもの（内視鏡を支持するアームの駆動によるものＡ６１Ｂ１／００　６５５）	Characterised by self-guiding, forward movement or backward movement of devices (driven by an arm supporting an endoscope A61B1/00 655)
+A61B   1/00 611 \	3	3	4C161	A61B   1/00	267	外部磁場による誘導	external-magnetic induction
+A61B   1/00 612 \	3	3	4C161	A61B   1/00	240	長手方向軸を中心に回転するもの，例．外周に設けられたらせん状突起が回転するもの	rotating on a longitudinal axis, e.g. a spiral projection, which is arranged on an outer circumference, is rotating
+A61B   1/00 613 \	3	3	4C161	A61B   1/00	75	無限軌道；車輪	endless track; wheels
+A61B   1/00 620 \	2	2	4C161	A61B   1/00	1352	治療または外科的処置を同時に行うことに特徴を有するもの，例．治療具または処置用マニプレータが内視鏡本体に一体的に設けられているもの，内視鏡観察像に特徴を有する手術ロボット（Ａ６１Ｂ１７／００〜Ａ６１Ｂ９０／００，Ａ６１Ｃ１／００〜Ａ６１Ｎ７／００が優先）	characterised by simultaneous performance of therapy or surgical treatment, e.g. a treatment tool or a treatment manipulator mounted integrally on an endoscope body, surgical robot characterised by observation images of an endoscope (A61B17/00 to A61B90/00, A61C1/00 to A61N7/00 take precedence)
+A61B   1/00 621 \	3	3	4C161	A61B   1/00	548	レーザー照射	Laser irradiation
+A61B   1/00 622 \	3	3	4C161	A61B   1/00	451	電気治療	Electric therapy
+A61B   1/00 623 \	3	3	4C161	A61B   1/00	112	加熱治療（Ａ６１Ｂ１／００　６２１〜Ａ６１Ｂ１／００　６２２が優先）	Heating therapy (A61B1/00 621 to A61B1/00 622 take precedence)
+A61B   1/00 630 \	2	2	4C161	A61B   1/00	862	機器の保守管理に特徴を有するもの	characterised by maintenance management of devices
+A61B   1/00 631 \	3	3	4C161	A61B   1/00	216	機器の使用履歴，メンテナンス履歴，在庫，予約または手配の管理	Management of use history, maintenance history, stock, reservation or arrangement of a device
+A61B   1/00 632 \	3	3	4C161	A61B   1/00	366	使い捨てによる管理；使い捨ての対象となるもの	Disposable-based management; Target objects to be disposable
+A61B   1/00 640 \	2	2	4C161	A61B   1/00	1127	識別情報の利用，例．機器ＩＤ，医師ＩＤまたは患者ＩＤに基づく機器の保守管理，内視鏡の機種情報に基づく撮像制御	Use of identifiable information, e.g. maintenance of a device based on a device ID, a doctor ID or a patient ID, image pick-up control based on device information of an endoscope
+A61B   1/00 650 \	2	2	4C161	A61B   1/00	5178	補助具；付属具，例．練習具，送水用容器（Ａ６１Ｂ１／０１〜Ａ６１Ｂ１／１２が優先）	Auxiliary instruments; Accessories, e.g. practicing instruments, receptacles for water feeding (A61B01/01 to A61B1/12 take precedence)
+A61B   1/00 651 \	3	3	4C161	A61B   1/00	518	先端フード	Distal hood
+A61B   1/00 652 \	3	3	4C161	A61B   1/00	555	汚染防止のためのカバー，例．滅菌ドレープ，カバー式内視鏡（Ａ６１Ｂ１／００　６５３が優先）	Covers for preventing contamination, e.g. sterile drapes, a cover-type endoscope (A61B1/00 653 takes precedence)
+A61B   1/00 653 \	3	3	4C161	A61B   1/00	375	保管具；収納具，例．保管庫，収納ケース，保護筒，滅菌パック	Instruments for reposition; Storage instruments, e.g. repository, storage cases, protection tubes, sterile packs
+A61B   1/00 654 \	3	3	4C161	A61B   1/00	499	内視鏡の支持具；筐体装置の設置台，例．内視鏡を支持するスタンド，内視鏡のハンガー，光源装置等の載置カート（Ａ６１Ｂ１／００　６５３が優先）	Endoscope support; A chassis mount, e.g. a stand supporting an endoscope, an endoscope hanger, a cart for light source or the like (A61B1/00 653 takes precedence)
+A61B   1/00 655 \	4	4	4C161	A61B   1/00	365	動力源を有するもの，例．内視鏡を支持するアームがモーターにより駆動するもの	with power source, e.g. an endoscope supporting arm driven by a motor
+A61B   1/00 680 \	1	1	4C161	A61B   1/00	1360	信号伝送または電力伝送に特徴を有するもの；その伝送手段に特徴を有するもの，例．画像信号，駆動制御信号，または電力を伝送するための伝送ケーブルの構造	characterised by signal transmission or electric power transmission; characterised by transmission means thereof, e.g. structure of transmission cables for transmitting image signals, drive control signals or electric power
+A61B   1/00 681 \	2	2	4C161	A61B   1/00	279	光信号伝送	Light signal transmission
+A61B   1/00 682 \	2	2	4C161	A61B   1/00	906	ワイヤレス信号伝送	Wireless signal transmission
+A61B   1/00 683 \	2	2	4C161	A61B   1/00	222	ワイヤレス給電	Wireless electric supply
+A61B   1/00 684 \	2	2	4C161	A61B   1/00	155	伝送路の絶縁による電気的安全性の確保，例．患者側回路の電気的分離	securing electrical safety by insulated transmission circuits, e.g. separating circuits at a patient side from electricity
+A61B   1/00 685 \	2	2	4C161	A61B   1/00	213	ネットワークを用いた信号伝送に特徴を有するもの，例．遠隔地サーバとのデータ送受信，遠隔医療	characterised by signal transmission through a network, e.g. data transmission and reception with a remote server, telemedicine
+A61B   1/00 700 \	1	1	4C161	A61B   1/00	8	内視鏡の細部	Details of an endoscope
+A61B   1/00 710 \	2	2	4C161	A61B   1/00	2197	本体	Main body
+A61B   1/00 711 \	3	3	4C161	A61B   1/00	1972	操作部；把持部，例．スイッチの配置	Operation unit; Gripper, e.g. arrangement of a switch
+A61B   1/00 712 \	3	3	4C161	A61B   1/00	419	コネクタ部（画像処理装置と内視鏡コネクタ部との接続部Ａ６１Ｂ１／０４　５２０；光源装置と内視鏡コネクタ部との接続部Ａ６１Ｂ１／０６　５２０）	Connector (connection between image processing device and a connector of an endoscope A61B1/04 520; connection between a light source device and a connector unit of an endoscope A61B1/06 520)
+A61B   1/00 713 \	3	3	4C161	A61B   1/00	552	挿入部；ユニバーサルコード部（可撓性内視鏡の可撓管Ａ６１Ｂ１／００５　５１０〜Ａ６１Ｂ１／００５　５１３；可撓性内視鏡の湾曲部Ａ６１Ｂ１／００５　５２０〜Ａ６１Ｂ１／００５　５２４；可撓性内視鏡の関節構造による湾曲管またはその操作機構Ａ６１Ｂ１／００８　５１０〜Ａ６１Ｂ１／００８　５１２）	Insertion unit; Universal code unit (flexible tubes for a flexible endoscope A61B1/005 510 to A61B1/005 513; a bending portion of a flexible endoscope A61B1/005 520 to A61B1/005 524; an articularly structured bending tube  of a flexible endoscope or its operational mechanism A61B1/008 510 to A61B1/008 512)
+A61B   1/00 714 \	4	4	4C161	A61B   1/00	896	接続部の構造，例．把持部と可撓管，可撓管と湾曲管，または湾曲管と先端部の接続部	Connection structure, e.g. connection between a gripper and a flexible tube, between a flexible tube and a bending tube or between a bending tube and a distal end unit
+A61B   1/00 715 \	4	4	4C161	A61B   1/00	4134	先端部構造（先端部分にあるイメージセンサーＡ６１Ｂ１／０５；対物光学系または撮像光学系Ａ６１Ｂ１／００　７３１；先端照明光学系Ａ６１Ｂ１／０７　７３３；処置具挿通管の先端構造Ａ６１Ｂ１／０１８　５１３；ノズルＡ６１Ｂ１／１２　５３１）	Structure of a distal end unit (an image sensor being in the distal end portion A61B1/05; objective optical system or imaging optical system A61B1/00 731; tip lighting optical system A61B1/07 733; tip structure of the treatment instrument insertion tube A61B1/018 513; nozzles A61B1/12 531)
+A61B   1/00 716 \	3	3	4C161	A61B   1/00	1057	水密防水構造；気密構造	Water-tight waterproof structure; Airtight structure
+A61B   1/00 717 \	3	3	4C161	A61B   1/00	494	耐久性向上のための構成，例．材質変更による消毒又は滅菌耐性の向上	Composition for improving the durability, e.g. improvement of disinfection or sterilization resistance due to changes in materials
+A61B   1/00 718 \	3	3	4C161	A61B   1/00	412	本体に内部電源を備えることに特徴を有するもの；本体に小型電源を装着するもの	characterised by a main body having electric power supply internally; small power supply fitted on the main body
+A61B   1/00 730 \	2	2	4C161	A61B   1/00	1243	観察光学系（光学系一般Ｇ０２Ｂ）	Observation optical system (optical system in general G02B)
+A61B   1/00 731 \	3	3	4C161	A61B   1/00	5551	対物光学系；撮像光学系	Objective optical system; Imaging optical system
+A61B   1/00 732 \	3	3	4C161	A61B   1/00	1658	観察用光ファイバーまたはその外装，例．光ファイバーの材質	Optical fibers for observation or exteriors thereof, e.g. materials of optical fibers
+A61B   1/00 733 \	3	3	4C161	A61B   1/00	545	接眼光学系（内視鏡接眼部への撮像装置またはフィルム撮影機の取り付けＡ６１Ｂ１／０４　５４０）	Ocular optical system (attaching an imager or a film camera to an ocular unit of an endoscope A61B1/04 540)
+A61B   1/00 734 \	4	4	4C161	A61B   1/00	84	供覧の為のもの	for demonstration
+A61B   1/00 735 \	3	3	4C161	A61B   1/00	1586	光学部材が移動するもの，例．フォーカス，ズーム，または視度調整のための移動	Movable optical members, e.g. movement for focusing, zooming or visibility-adjusting
+A61B   1/002  \	1	1	4C161	A61B   1/002	116	ロッドレンズ装置を有するもの（Ａ６１Ｂ１／０５５が優先）［６］	having rod-lens arrangements (A61B1/055 takes precedence) [6]
+A61B   1/005  \	1	1	4C161	A61B   1/005	200	可撓性内視鏡［６］	Flexible endoscopes [6]
+A61B   1/005 510 \	2	2	4C161	A61B   1/005	90	可撓管	Flexible tubes
+A61B   1/005 511 \	3	3	4C161	A61B   1/005	1009	可撓管の構造または材質，例．層構造；フレックス，ブレードまたは外皮の材質	Structure or materials of flexible tubes, e.g. layer structure; Materials of flexes, blades or jackets
+A61B   1/005 512 \	3	3	4C161	A61B   1/005	482	可撓度を制御可能なもの，例．ワイヤ牽引による可撓度の制御	Controllable flexibility, e.g. control of flexibility by wire traction
+A61B   1/005 513 \	3	3	4C161	A61B   1/005	244	可撓度が長手方向で異なるもの，例．長手方向に異なる密度のブレードを配設	flexibility different in the longitudinal direction, e.g. arrangement of blades with density different in the longitudinal direction
+A61B   1/005 520 \	2	2	4C161	A61B   1/005	162	湾曲部	Bending portion
+A61B   1/005 521 \	3	3	4C161	A61B   1/005	598	湾曲部の外皮，例，外皮チューブの材質，外皮チューブの固定構造	Jacket of a bending portion, e.g. materials of bending tubes, fixed structure of bending tubes
+A61B   1/005 522 \	3	3	4C161	A61B   1/005	194	湾曲部を複数有するもの	having multiple bending portions
+A61B   1/005 523 \	3	3	4C161	A61B   1/005	1158	動力駆動によるもの	power-driven
+A61B   1/005 524 \	3	3	4C161	A61B   1/005	789	湾曲管；その操作機構，例．チューブと形状記憶合金による湾曲管（関節構造による湾曲管；その操作機構Ａ６１Ｂ１／００８　５１０〜Ａ６１Ｂ１／００８　５１２）	Bending tubes; Operational mechanism thereof, e.g. bending tubes made from tubes and shape-memory alloy (articulary structured bending tubes; operational mechanism thereof A61B1/008 510 to A61B1/008 512)
+A61B   1/008  \	2	2	4C161	A61B   1/008	10	関節［６］	Articulations [6]
+A61B   1/008 510 \	3	3	4C161	A61B   1/008	1878	関節構造による湾曲管；その操作機構	Articularly structured bending tubes; Operational mechanism thereof
+A61B   1/008 511 \	4	4	4C161	A61B   1/008	561	関節構造による湾曲管の構造または材質，例．湾曲駒，リベットまたはブレードの構造	Structure or materials of articularly structured bending tubes, e.g. structure of bent pieces, rivets or blades
+A61B   1/008 512 \	4	4	4C161	A61B   1/008	2211	関節構造による湾曲管を操作するための機構，例．チェーン；湾曲操作ワイヤまたはその案内管	Mechanism for operating articularly structured bending tubes, e.g. chains; Bending operation wires or guide conduits thereof
+A61B   1/01  \	2	2	4C161	A61B   1/01	1993	そのための案内装置［６］	Guide arrangements therefor [6]
+A61B   1/01 511 \	3	3	4C161	A61B   1/01	1162	案内管；ガイドチューブ	Guide conduits; Guide tubes
+A61B   1/01 512 \	3	3	4C161	A61B   1/01	243	ガイドワイヤ	Guide wires
+A61B   1/01 513 \	3	3	4C161	A61B   1/01	1055	バルーンを用いたもの，例．ダブルバルーン式内視鏡	with balloons, e.g. double balloon-type endoscopes
+A61B   1/01 514 \	3	3	4C161	A61B   1/01	186	マウスピース	Mouthpieces
+A61B   1/012  \	1	1	4C161	A61B   1/012	234	内部通路またはそのための付属具に特徴を有するもの［６］	characterised by internal passages or accessories therefor [6]
+A61B   1/012 511 \	2	2	4C161	A61B   1/012	835	内蔵管自体，例．送気管，送液管，送気送液管，吸引にのみ用いる管（処置具挿通管または吸引管を兼ねる処置具挿通管Ａ６１Ｂ１／０１８　５１１；処置具起上操作ワイヤ案内管Ａ６１Ｂ１／０１８　５１４；湾曲操作ワイヤ案内管Ａ６１Ｂ１／００８　５１２）	Viscera tube per se, e.g. air feed tubes, liquid feed tubes, air/liquid feed tubes, tubes only for suction (treatment instrument insertion tube or treatment instrument insertion tube combining with suction tube A61B1/018 511; guide conduit for treatment instrument raising wires A61B1/018 514; guide conduit for bending operation wire A61B1/008 512)
+A61B   1/015  \	2	2	4C161	A61B   1/015	334	流体の供給または排出の制御［６］	Control of fluid supply or evacuation [6]
+A61B   1/015 511 \	3	3	4C161	A61B   1/015	1470	送気または送液の制御，例．送気送水バルブによる送気送水の切換制御	Control of air or liquid feed, e.g. change-over control for air or water feed by air or water feed valves
+A61B   1/015 512 \	3	3	4C161	A61B   1/015	644	吸引の制御，例．吸引バルブによる制御	Suction control, e.g. control by suction valves
+A61B   1/015 513 \	3	3	4C161	A61B   1/015	238	流量または圧力の制御	Flow volume or pressure control
+A61B   1/015 514 \	4	4	4C161	A61B   1/015	285	体腔内の圧力制御，例．気腹装置による圧力制御	Pressure control in a body cavity, e.g. pressure control by a pneumoperitoneum device
+A61B   1/018  \	2	2	4C161	A61B   1/018	342	処置具を挿通するためのもの［６］	for receiving instruments [6]
+A61B   1/018 511 \	3	3	4C161	A61B   1/018	1227	処置具挿通管自体；吸引管を兼ねる処置具挿通管自体	Treatment instrument insertion tube per se; Treatment instrument insertion tube per se combining with suction tube
+A61B   1/018 512 \	3	3	4C161	A61B   1/018	828	処置具導入部，例．鉗子口，鉗子栓	Treatment instrument guide unit, e.g. clamp port, clamp plug
+A61B   1/018 513 \	3	3	4C161	A61B   1/018	608	処置具挿通管の先端構造（Ａ６１Ｂ１／０１８　５１４が優先）	Tip structure of the treatment instrument insertion tube (A61B1/018 514 takes precedence)
+A61B   1/018 514 \	3	3	4C161	A61B   1/018	911	処置具起上操作機構，例．処置具起上台，処置具起上操作ワイヤまたはその案内管	Treatment instrument raising mechanism, e.g. treatment instrument uplifting base, treatment instrument uplifting wire or guide conduit thereof
+A61B   1/018 515 \	3	3	4C161	A61B   1/018	4079	処置具自体，処置具挿通管挿入体自体（生体組織検査装置それ自体Ａ６１Ｂ１０／００；手術用切断機器それ自体Ａ６１Ｂ１７／３２）	Treatment instrument per se, treatment instrument insertion tube inserter per se (biopsy device per se A61B 10/00; cutting component for operation per se A61B 17/32)
+A61B   1/04  \	1	1	4C161	A61B   1/04	5999	撮影機またはテレビジョン装置と結合されているもの［２］	combined with photographic or television appliances [2]
+A61B   1/04 510 \	2	2	4C161	A61B   1/04	590	画像処理装置，制御装置，記録装置または表示装置；それらの接続部，例．筐体内の回路基板の配置（Ａ６１Ｂ１／０４５が優先）	Image processing device, control device, record device or display device; Connection thereof, e.g. arrangement of a circuit base within a chassis (A61B/045 takes precedence)
+A61B   1/04 511 \	3	3	4C161	A61B   1/04	309	表示装置の配置場所に特徴を有するもの，例．内視鏡操作部にモニタを配置したもの	characterised by arrangement location of a display, e.g. a monitor arranged on an operation unit
+A61B   1/04 520 \	3	3	4C161	A61B   1/04	524	画像処理装置と内視鏡コネクタ部との接続部	Connection between an image processing device and an endoscope connector
+A61B   1/04 530 \	2	2	4C161	A61B   1/04	1920	イメージセンサまたはその周辺構造に特徴を有するもの，例．ＣＣＤチップの配線構造，回路基板とケーブルの接続構造，イメージセンサ周辺のシールド構造	characterised by an image sensor or peripheral structure thereof, e.g. wiring structure of CCD chips, connection structure between a circuit board and cables, shield structure around an image sensor
+A61B   1/04 531 \	3	3	4C161	A61B   1/04	372	イメージセンサのオンチップフィルタ，例．モザイクフィルタ	On-chip filter of an image sensor, e.g. a mosaic filter
+A61B   1/04 540 \	2	2	4C161	A61B   1/04	719	内視鏡接眼部への撮像装置またはフィルム撮影機の取り付け	attaching an imager or a film camera to an ocular unit of an endoscope
+A61B   1/04 550 \	2	2	4C161	A61B   1/04	906	フィルム撮影機；フィルム関連装置	Film cameras; Film related devices
+A61B   1/045  \	2	2	4C161	A61B   1/045	168	その制御［６］	Control thereof [6]
+A61B   1/045 610 \	3	3	4C161	A61B   1/045	5392	信号処理，画像処理，表示処理，記録処理，読み出し処理または出力処理に特徴を有するもの（Ａ６１Ｂ１／０４５　６３０〜Ａ６１Ｂ１／０４５　６３２が優先）	characterised by signal processing, image processing, display processing, record processing, readout processing or output processing (A61B1/045 630 to A61B1/05 632 take precedence)
+A61B   1/045 611 \	4	4	4C161	A61B   1/045	566	ノイズ対策処理，例．ノイズ除去フィルタ処理，Ｓ／Ｎ比向上のための画素加算処理	Noise countermeasure processing, e.g. noise removal filtering processing, pixel addition processing for S/N ratio improvement
+A61B   1/045 612 \	5	5	4C161	A61B   1/045	59	イメージセンサの画素欠陥対策処理，例．ＣＣＤの黒傷または白傷対策処理	Defective pixel countermeasure processing for an image sensor, e.g. countermeasures against black or white flaws of CCD
+A61B   1/045 613 \	4	4	4C161	A61B   1/045	316	通信規格または画像フォーマットへの適合化処理，または圧縮処理，例．無線ＬＡＮ規格への適合化信号処理，プログレッシブ方式への適合化信号処理，ＭＰＥＧ圧縮処理，ＪＰＥＧ圧縮処理	Adaptation processing for communication standards or an image format, or compression processing, e.g. signal processing adapted to wireless LAN standards,  signal processing adapted to a progressive system, MPEG compression processing, JPEG compression processing
+A61B   1/045 614 \	4	4	4C161	A61B   1/045	749	機械学習，データマイニングまたは統計分析を行うもの，例．人工知能を用いた病変部抽出；クラスタ分析による病変部抽出	conducting machine learning, data mining or statistical analysis, e.g. extracting lesion parts by using AI; extracting lesion parts by cluster analysis
+A61B   1/045 615 \	4	4	4C161	A61B   1/045	669	特徴情報を算出するもの	calculating feature information
+A61B   1/045 616 \	5	5	4C161	A61B   1/045	360	色特徴量または形状特徴量の算出	calculating color or shape feature quantity
+A61B   1/045 617 \	5	5	4C161	A61B   1/045	321	酸素飽和度またはヘモグロビンインデックスの算出	calculating an oxygen saturation or hemoglobin index
+A61B   1/045 618 \	4	4	4C161	A61B   1/045	1751	関心領域または特定領域を抽出するもの，例．病変部抽出，残渣抽出	extracting an interested region or a specific region, e.g. extracting lesion parts, extracting residues
+A61B   1/045 619 \	4	4	4C161	A61B   1/045	323	複数の画像の中から特定画像を抽出するもの，例．出血部を撮像したフレームの抽出	extracting a specific image among multiple images, e.g. extracting frames imaging bleeding area
+A61B   1/045 620 \	4	4	4C161	A61B   1/045	319	他の診断装置の画像データを共に処理するもの	processing together with image data of other diagnosis devices
+A61B   1/045 621 \	4	4	4C161	A61B   1/045	178	診断レポートまたは電子カルテの作成，表示，記録，読み出し，または出力処理	Creation, display, record, readout or output processing of diagnosis reports or electronic clinical records
+A61B   1/045 622 \	4	4	4C161	A61B   1/045	2772	表示形態に特徴を有するもの	characterised by a display mode
+A61B   1/045 623 \	5	5	4C161	A61B   1/045	532	ナビゲーション画像またはタイムバーの表示，例．臓器模式図への実内視鏡先端位置の表示	Navigation images or time bar display, e.g. display of the location of the actual tip position of the endoscope on organ schema
+A61B   1/045 630 \	3	3	4C161	A61B   1/045	409	イメージセンサの駆動制御に特徴を有するもの	characterised by drive control of an image sensor
+A61B   1/045 631 \	4	4	4C161	A61B   1/045	363	撮像タイミング制御，例．フレームレートの制御（Ａ６１Ｂ１／０４５　６３２が優先）	Image timing control, e.g. frame rate control (A61B1/045 632 takes precedence)
+A61B   1/045 632 \	4	4	4C161	A61B   1/045	848	露光量または露光時間の制御を目的としたもの，例．電子シャッタによる露光時間の制御	for the purpose of controlling exposure doses or time, e.g. controlling exposure time by an electronic shutter
+A61B   1/045 640 \	3	3	4C161	A61B   1/045	612	制御信号の入力に特徴を有するもの	characterised by input of control signals
+A61B   1/045 641 \	4	4	4C161	A61B   1/045	179	タッチスクリーン入力，例．ＧＵＩを用いた入力受付	Touch-screen input, e.g. input reception with GUI
+A61B   1/045 642 \	4	4	4C161	A61B   1/045	170	非接触入力，例．音声入力，視線入力	Non-contact input, e.g. voice input, sight line input
+A61B   1/045 650 \	3	3	4C161	A61B   1/045	123	機械的な制御，例．機械式シャッタによる制御	Mechanical control, e.g. control by mechanical shutters
+A61B   1/05  \	2	2	4C161	A61B   1/05	5715	先端部分にあるイメージセンサー，例．カメラ，に特徴を有するもの［６］	characterised by the image sensor, e.g. a camera, being in the distal end portion [6]
+A61B   1/055  \	2	2	4C161	A61B   1/055	60	ロッドレンズ装置を有するもの［６］	having rod-lens arrangements [6]
+A61B   1/06  \	1	1	4C161	A61B   1/06	239	照明装置を有するもの	with illuminating arrangements
+A61B   1/06 510 \	2	2	4C161	A61B   1/06	2079	内視鏡本体とは別体の光源装置；その接続部，例．筐体内の回路基板の配置（Ａ６１Ｂ１／０６　６１０〜Ａ６１Ｂ１／０６　６１４，Ａ６１Ｂ１／０７が優先）	Light source device separate from an endoscope main body; Connection thereof, e.g. arrangement of a circuit board in a chassis (A61B1/06 610 to A61B/06 614, A61B1/07 take precedence)
+A61B   1/06 511 \	3	3	4C161	A61B   1/06	232	小型光源装置を内視鏡本体に装着するもの	Small light source device fitted on an endoscope main body
+A61B   1/06 520 \	3	3	4C161	A61B   1/06	920	光源装置と内視鏡コネクタ部との接続部，例．光源装置のレセプタクル；内視鏡本体のプラグ	Connection between a light source device and a connector of an endoscope, e.g. a receptacle of a light source device; A plug of an endoscope main body
+A61B   1/06 530 \	2	2	4C161	A61B   1/06	348	内視鏡本体に光源を配置したもの，例．内視鏡操作部内にＬＥＤを配置	Light source arranged on an endoscope main body, e.g. LED arranged in an endoscope operation unit
+A61B   1/06 531 \	3	3	4C161	A61B   1/06	850	内視鏡挿入部の先端部に光源を配置	Light source arranged on the distal end unit of an endoscope insertion unit
+A61B   1/06 610 \	2	2	4C161	A61B   1/06	1113	照明装置の制御（照明光学系によるものＡ６１Ｂ１／０７　７３０〜Ａ６１Ｂ１／０７　７３６）	Control of lighting devices (by lighting optical system A61B1/07 730 to A61B1/07 736)
+A61B   1/06 611 \	3	3	4C161	A61B   1/06	883	照明タイミングの制御（Ａ６１Ｂ１／０６　６１２〜Ａ６１Ｂ１／０６　６１３が優先）	Control of lighting timing (A61B1/06 612 to A61B1/06 613 take precedence)
+A61B   1/06 612 \	3	3	4C161	A61B   1/06	1314	光量の制御を目的としたもの	for the purpose of controlling light quantity
+A61B   1/06 613 \	4	4	4C161	A61B   1/06	203	パルスによる制御，例．ＰＷＭ，ＰＡＭ，ＰＤＭ	Control by pulse, e.g. PWM, PAM, PDM
+A61B   1/06 614 \	3	3	4C161	A61B   1/06	223	故障情報または寿命情報に基づく制御	Control based on failure information or durability information
+A61B   1/07  \	2	2	4C161	A61B   1/07	87	光伝導手段，例．光ファイバーを用いるもの［６］	using light-conductive means, e.g. optical fibers [6]
+A61B   1/07 730 \	3	3	4C161	A61B   1/07	2356	光源から照明光出射端までの照明光学系（光学系一般Ｇ０２Ｂ）	Lighting optical system from light source to the lighting emitting end (optical system in general G02B)
+A61B   1/07 731 \	4	4	4C161	A61B   1/07	1071	光源から照明用光ファイバーの入射端までの照明光学系	Lighting optical system from light source to the lighting incidence end of optical fibers for lighting
+A61B   1/07 732 \	4	4	4C161	A61B   1/07	1116	照明用光ファイバーまたはその外装，例．光ファイバーの材質，光ファイバーの端面構造	Optical fibers for lighting or exteriors thereof, e.g. materials of optical fibers, end-face structure of optical fibers
+A61B   1/07 733 \	4	4	4C161	A61B   1/07	1226	先端照明光学系，例．先端照明レンズ，先端照明窓	Tip lighting optical system, e.g. tip lighting lens, tip lighting window
+A61B   1/07 734 \	4	4	4C161	A61B   1/07	128	波長選択部材または波長変換部材に特徴を有するもの	characterised by wavelength selection materials or wavelength conversion materials
+A61B   1/07 735 \	5	5	4C161	A61B   1/07	677	波長選択フィルタ；波長選択ミラー，例．ＲＧＢ回転フィルタ，ダイクロイックミラー	Wavelength selection filters; Wavelength selection mirrors, e.g. RGB rotation filters, dichroic mirrors
+A61B   1/07 736 \	5	5	4C161	A61B   1/07	388	蛍光体に特徴を有するもの	characterised by fluorophores
+A61B   1/12  \	1	1	4C161	A61B   1/12	1705	冷却または濯ぎ洗いの装置を有するもの［２００６．０１］	with cooling or rinsing arrangements
+A61B   1/12 510 \	2	2	4C161	A61B   1/12	1711	使用前後に内視鏡を洗浄するためのもの，または類似のもの，例．内視鏡洗浄消毒装置，内視鏡滅菌装置	for cleaning an endoscope before and after its use, or the like, e.g. an endoscope washing and disinfecting device, an endoscope sterilizer
+A61B   1/12 520 \	2	2	4C161	A61B   1/12	80	使用中に被検体を洗浄するためのもの，または類似のもの	for cleaning an object during use, or the like
+A61B   1/12 521 \	3	3	4C161	A61B   1/12	173	臓器や組織に液体を流すためのもの，例，灌流用シースを用いるもの	for feeding liquid in organs and tissues, e.g. using perfusion sheath
+A61B   1/12 522 \	4	4	4C161	A61B   1/12	156	ジェット送液，例．前方送水手段または副送水手段を用いて組織にジェット送液を行うもの	Liquid jet-feeding, e.g. jet-feeding into tissues by using the anterior water supply means or ancillary water supply means
+A61B   1/12 523 \	4	4	4C161	A61B   1/12	258	薬液の送液	Feeding liquid medicines
+A61B   1/12 530 \	2	2	4C161	A61B   1/12	856	光学部材の洗浄または曇り防止，例．ワイパーによる汚れ除去（Ａ６１Ｂ１／２５３が優先）	Cleaning or preventing fogging of optical materials, e.g. eliminating fouling by wipers (A61B1/253 takes precedence)
+A61B   1/12 531 \	3	3	4C161	A61B   1/12	654	ノズルからの流体の噴出	fluid jetting from nozzles
+A61B   1/12 532 \	3	3	4C161	A61B   1/12	124	曇り防止のための温度調節	Temperature adjustment for preventing fogging
+A61B   1/12 540 \	2	2	4C161	A61B   1/12	199	冷却または温度調節手段を有するもの（曇り防止のためのものＡ６１Ｂ１／１２　５３２）	having cooling or temperature adjustment means (for preventing fogging A61B1/12 532)
+A61B   1/12 541 \	3	3	4C161	A61B   1/12	184	イメージセンサーの冷却または温度調節	Cooling or temperature adjustment of an image sensor
+A61B   1/12 542 \	3	3	4C161	A61B   1/12	296	光源の冷却または温度調節	Cooling or temperature adjustment of light source
+A61B   1/227  \	1	1	4C161	A61B   1/227	275	耳用，すなわち，耳鏡［６］	for ears, i.e. otoscopes [6]
+A61B   1/233  \	1	1	4C161	A61B   1/233	156	鼻用，すなわち，鼻鏡［６］	for the nose, i.e. nasoscopes [6]
+A61B   1/24  \	1	1	4C161	A61B   1/24	1374	口のためのもの，すなわち口腔鏡，例．舌を押下げる器具を有するもの；口を開かすための機器または口を開いたまま保持するもの［２００６．０１］	for the mouth, i.e. stomatoscopes, e.g. with tongue depressors; Instruments for opening or keeping open the mouth
+A61B   1/247  \	2	2	4C161	A61B   1/247	324	正面の視界の範囲外を見る手段，例．歯科医の鏡，を有するもの［６］	with means for viewing areas outside the direct line of sight, e.g. dentists' mirrors [6]
+A61B   1/253  \	3	3	4C161	A61B   1/253	54	曇り防止手段を有するもの［６］	with means for preventing fogging [6]
+A61B   1/267  \	1	1	4C161	A61B   1/267	689	呼吸系統用，例．喉頭鏡，気管支鏡［６］	for the respiratory tract, e.g. laryngoscopes, bronchoscopes [6]
+A61B   1/267 510 \	2	2	4C161	A61B   1/267	68	声帯の動きを監視するためのもの	for monitoring the movements of vocal cords
+A61B   1/273  \	1	1	4C161	A61B   1/273	257	上部消化管用，例．食道鏡，胃鏡［６］	for the upper alimentary canal, e.g. oesophagoscopes, gastroscopes [6]
+A61B   1/303  \	1	1	4C161	A61B   1/303	612	腟用，すなわち，腟鏡［６］	for the vagina, i.e. vaginoscopes [6]
+A61B   1/307  \	1	1	4C161	A61B   1/307	282	泌尿器官用，例．尿道鏡，膀胱鏡［６］	for the urinary organs, e.g. urethroscopes, cystoscopes [6]
+A61B   1/31  \	1	1	4C161	A61B   1/31	371	直腸用，例．肛門鏡，Ｓ状結腸鏡［６］	for the rectum, e.g. proctoscopes, sigmoidoscopes [6]
+A61B   1/313  \	1	1	4C161	A61B   1/313	475	切開口から導入するもの，例．腹腔鏡［６］	for introducing through surgical openings, e.g. laparoscopes [6]
+A61B   1/313 510 \	2	2	4C161	A61B   1/313	581	血管内検査のためのもの	for examination of the interior of blood vessels
+A61B   1/317  \	2	2	4C161	A61B   1/317	99	骨または関節用，例．骨鏡，関節鏡［６］	for bones or joints, e.g. osteoscopes, arthroscopes [6]
+A61B   1/32  \	1	1	4C161	A61B   1/32	207	視界の開放または拡大用具，例．人体の管部に適用するもの［２００６．０１］	Devices for opening or enlarging the visual field, e.g. of a tube of the body
+A61B   3/00  \	0	0	4C316	A61B   3/00	962	眼の検査装置；眼の診察機器（超音波，音波または亜音波を用いる眼の診察機器８／１０；光学系それ自体Ｇ０２Ｂ）［２００６．０１］	Apparatus for testing the eyes; Instruments for examining the eyes (eye inspection using ultrasonic, sonic or infrasonic waves A61B 8/10; optical systems <u>per se</u> G02B)
+A61B   3/02  \	1	1	4C316	A61B   3/02	195	患者の陳述に従って調節することのできる検査装置，例．視野測定のためのもの［２００６．０１］	Testing apparatus able to be adjusted according to statements of the patient, e.g. for determining perimeters
+A61B   3/024  \	2	2	4C316	A61B   3/024	634	視野を定めるためのもの，例．視野計型［２００６．０１］	for determining the visual field, e.g. perimeter types
+A61B   3/028  \	2	2	4C316	A61B   3/028	1294	視力検査のためのもの；目の屈折力測定のためのもの，例．フォロプター［２００６．０１］	for testing visual acuity; for determination of refraction, e.g. phoropters
+A61B   3/028 300 \	3	3	4C316	A61B   3/028	121	回転レンズ	Rotatable lens; rotatable lens disks
+A61B   3/032  \	3	3	4C316	A61B   3/032	665	検査記号または文字表示装置，例．検査図表投影器（Ａ６１Ｂ３／０３６が優先）［２００６．０１］	Devices for presenting test symbols or characters, e.g. test chart projectors(A61B3/036 takes precedence)
+A61B   3/036  \	3	3	4C316	A61B   3/036	153	乱視検査のためのもの［２００６．０１］	for testing astigmatism
+A61B   3/04  \	3	3	4C316	A61B   3/04	140	検査用わく；それと共に使用するレンズセット［２００６．０１］	Trial frames; Sets of lenses for use therewith (lenses <u>per se</u> G02C 7/02)
+A61B   3/06  \	2	2	4C316	A61B   3/06	356	光感度検査，例．順応；色覚検査［２００６．０１］	for testing light sensitivity, e.g. adaptation; for testing colour vision
+A61B   3/08  \	2	2	4C316	A61B   3/08	302	双眼視または立体映像検査，例．斜視［２００６．０１］	for testing binocular or stereoscopic vision, e.g. strabismus
+A61B   3/09  \	2	2	4C316	A61B   3/09	169	視力調節検査［２００６．０１］	for testing accommodation
+A61B   3/10  \	1	1	4C316	A61B   3/10	3199	客観型，すなわち患者の知覚または反応と無関係に眼を検査する装置［２００６．０１］	Objective types, i.e. instruments for examining the eyes independent of the patients perceptions or reactions
+A61B   3/10 100 \	2	2	4C316	A61B   3/10	2859	光干渉断層像検査，例．ＯＣＴ	Optical Coherence Tomography [OCT]
+A61B   3/10 300 \	2	2	4C316	A61B   3/10	1100	レーザ走査型検眼鏡検査，例．ＳＬＯ	Scanning Laser Ophthalmoscopy [SLO]
+A61B   3/10 800 \	2	2	4C316	A61B   3/10	251	電磁気学的検査	Electromagnetic inspection
+A61B   3/10 900 \	2	2	4C316	A61B   3/10	164	超音波を使用した検査	Measurement using ultrasonic wave
+A61B   3/103  \	2	2	4C316	A61B   3/103	1879	屈折力測定のためのもの，例．レフラクトメータ，検影器［２００６．０１］	for determining refraction, e.g. refractometers, skiascopes
+A61B   3/107  \	2	2	4C316	A61B   3/107	998	角膜の形状の決定または曲率の計測のためのもの［２００６．０１］	for determining the shape or measuring the curvature of the cornea
+A61B   3/11  \	2	2	4C316	A61B   3/11	595	瞳孔間距離または瞳孔径を計測するためのもの［２００６．０１］	for measuring interpupillary distance or diameter of pupils
+A61B   3/113  \	2	2	4C316	A61B   3/113	2636	眼の動きを測定または記録するためのもの［２００６．０１］	for measuring interpupillary distance or diameter of pupils
+A61B   3/117  \	2	2	4C316	A61B   3/117	223	前房，前房隅角の検査のためのもの，例．ゴニオスコープ［２００６．０１］	for examining the anterior chamber or the anterior chamber angle, e.g. gonioscopes
+A61B   3/12  \	2	2	4C316	A61B   3/12	1009	眼底観察のためのもの，例．検眼鏡（Ａ６１Ｂ３／１３が優先）［２００６．０１］	for looking at the eye fundus, e.g. ophthalmoscopes (A61B 3/13 takes precedence)
+A61B   3/12 300 \	3	3	4C316	A61B   3/12	335	眼底血流	Blood flow at the ocular fundus
+A61B   3/125  \	3	3	4C316	A61B   3/125	140	コンタクトレンズのあるもの［２００６．０１］	with contact lenses
+A61B   3/13  \	2	2	4C316	A61B   3/13	602	眼の顕微鏡［２００６．０１］	Ophthalmic microscopes
+A61B   3/13 300 \	3	3	4C316	A61B   3/13	321	角膜内皮検査	Cornea endothelium inspection
+A61B   3/135  \	3	3	4C316	A61B   3/135	677	スリットランプ顕微鏡［２００６．０１］	Slit-lamp microscopes
+A61B   3/14  \	2	2	4C316	A61B   3/14	3596	眼の写真撮影用に特に適合した装置［２００６．０１］	with means for attaching cameras thereto
+A61B   3/15  \	3	3	4C316	A61B   3/15	716	アライメント，間隔調整，または不要反射除去のための手段があるもの［２００６．０１］	with means for aligning, spacing or blocking spurious reflection
+A61B   3/16  \	2	2	4C316	A61B   3/16	907	眼圧を測定するためのもの，例．眼圧計［２００６．０１］	for measuring intraocular pressure, e.g. tonometers
+A61B   3/16 300 \	3	3	4C316	A61B   3/16	519	非接触眼圧計	Non-contact tonometers
+A61B   3/18  \	1	1	4C316	A61B   3/18	867	複数の眼科検査装置または試験装置の配置［２００６．０１］	Arrangement of plural eye-testing or -examining apparatus
+A61B   5/00  \	0	0	4C117	A61B   5/00	272	診断のための検出，測定または記録（放射線診断Ａ６１Ｂ６／００；超音波，音波または亜音波による診断のための測定Ａ６１Ｂ８／００）；個人識別	Measuring for diagnostic purposes (radiation diagnosis A61B 6/00; diagnosis by ultrasonic, sonic or infrasonic waves A61B 8/00); Identification of persons [2006.01]
+A61B   5/00  A	0	0	4C117	A61B   5/00	1160	診断用測定記録装置	Measurement and recording device for diagnosis
+A61B   5/00  B	0	1	4C117	A61B   5/00	724	検出部	Detection unit
+A61B   5/00  C	0	1	4C117	A61B   5/00	536	信号処理部	Signal processor
+A61B   5/00  D	0	1	4C117	A61B   5/00	4332	表示，記録	Indication, reporting
+A61B   5/00  E	0	1	4C117	A61B   5/00	64	電撃防止手段を有するもの	having an electric shock preventive means
+A61B   5/00  F	0	1	4C117	A61B   5/00	369	補助器具	Supplementary instruments
+A61B   5/00  G	0	0	4C117	A61B   5/00	4680	診断用デ−タの処理（診断用測定記録装置の信号処理部はＡ６１Ｂ５／００Ｃ，医用イメージの処理はＧ０６Ｔ１／００　２９０，患者記録管理はＧ０６Ｑ５０／２４）	Processing diagnostic data (signal processor for diagnostic measuring or recording A61B5/00C, processing medical images G06T1/00 290, patient record management G06Q50/24)
+A61B   5/00  L	0	0	4C117	A61B   5/00	305	診断用データの測定	Acquiring diagnostic data
+A61B   5/00  M	0	1	4C117	A61B   5/00	1964	皮フ状態の測定	Skin state measurement
+A61B   5/00  N	0	1	4C117	A61B   5/00	1290	体液の測定	Fluid measurement
+A61B   5/00  P	0	1	4C117	A61B   5/00	49	陣痛計（圧力によるものはＡ６１Ｂ５／００　１０１Ｑ）	Tocometer (by measuring pressure A61B5/00 101Q)
+A61B   5/00  Q	0	1	4C117	A61B   5/00	84	検診のためのもの	for examination
+A61B   5/00  Z	0	0	4C117	A61B   5/00	388	その他のもの	Others
+A61B   5/00 101 \	1	1	4C117	A61B   5/00	52	人体またはその部分の色，圧力または振動の測定	Measuring colour, pressure or vibration of human body or parts thereof
+A61B   5/00 101 A	1	0	4C117	A61B   5/00	962	色の測定	Colour measurement
+A61B   5/00 101 L	1	0	4C117	A61B   5/00	228	圧力の測定（心臓または血管内の圧力を測定するものはＡ６１Ｂ５／０２１）	Measuring pressure (measuring pressure in heart or blood vessel A61B 5/021)
+A61B   5/00 101 M	1	1	4C117	A61B   5/00	443	体内圧の測定（Ａ６１Ｂ５／００　１０１Ｎ，Ａ６１Ｂ５／００　１０１Ｐ，Ａ６１Ｂ５／００　１０１Ｑが優先）	Measuring internal pressure (A61B 5/00 101N, A61B 5/00 101P, A61B 5/00 101Q take precedence)
+A61B   5/00 101 N	1	1	4C117	A61B   5/00	236	皮フ圧の測定	Skin pressure measurement
+A61B   5/00 101 P	1	1	4C117	A61B   5/00	164	脳圧，脊髄圧の測定	Measurement of the brain pressure or spinal cord pressure
+A61B   5/00 101 Q	1	1	4C117	A61B   5/00	86	陣痛計，例．子宮内圧の測定	Parturiometer, e.g. measuring intrauterine pressure
+A61B   5/00 101 R	1	0	4C117	A61B   5/00	799	振動の測定	Vibration measurement
+A61B   5/00 101 Z	1	0	4C117	A61B   5/00	56	その他のもの	Others
+A61B   5/00 102 \	1	1	4C117	A61B   5/00	109	医用監視装置	Medical monitoring device
+A61B   5/00 102 A	1	0	4C117	A61B   5/00	2347	単数監視	Single monitoring device
+A61B   5/00 102 B	1	0	4C117	A61B   5/00	748	複数監視	Multiple monitoring devices
+A61B   5/00 102 C	1	0	4C117	A61B   5/00	3828	遠方監視	Remote monitoring
+A61B   5/00 102 D	1	0	4C117	A61B   5/00	124	人工臓器の監視	Monitoring of the artificial organ
+A61B   5/00 102 E	1	0	4C117	A61B   5/00	542	表示，記録	Indication, reporting
+A61B   5/00 102 Z	1	0	4C117	A61B   5/00	154	その他のもの	Others
+A61B   5/01  \	1	1	4C117	A61B   5/01	261	人体部分の温度測定（接触式体温計Ｇ０１Ｋ１３／２０）［２００６．０１］	Measuring temperature of body parts (clinical contact thermometers G01K 13/20)
+A61B   5/01 100 \	2	2	4C117	A61B   5/01	1137	生体表面の測定（Ａ６１Ｂ５／０１　３５０が優先）	Measuring surface temperature of body parts (A61B 5/01 350 takes precedence)
+A61B   5/01 150 \	3	3	4C117	A61B   5/01	148	温度測定回路（臨床用体温計Ｇ０１Ｋ５／２２，婦人用基礎体温計Ａ６１Ｂ１０／００　３０５Ｂ）	Circuits for measuring temperature (clinical thermometer G01K5/22, basal thermometer for women A61B10/00 305B)
+A61B   5/01 200 \	3	3	4C117	A61B   5/01	41	液晶を用いるもの	using liquid crystals
+A61B   5/01 250 \	2	2	4C117	A61B   5/01	688	生体内の測定（Ａ６１Ｂ５／０１　３５０が優先）	Measuring in vivo (A61B5/01 350 takes precedence)
+A61B   5/01 300 \	3	3	4C117	A61B   5/01	53	心筋の測定	Measuring temperature of myocardium
+A61B   5/01 350 \	2	2	4C117	A61B   5/01	1099	赤外線の測定によるもの	by measuring infrared ray
+A61B   5/02  \	1	1	4C017	A61B   5/02	246	心臓血管系を評価するための検出，測定または記録，例．脈拍，心拍，血圧または血流［２００６．０１］	Detecting, measuring or recording for evaluating the cardiovascular system, e.g. pulse, heart rate, blood pressure or blood flow
+A61B   5/02  A	1	0	4C017	A61B   5/02	677	血管硬度計	Blood vessel hardness tester
+A61B   5/02  B	1	0	4C017	A61B   5/02	353	測定機器相互の組合せ装置	Device that combines measuring components mutually
+A61B   5/02  C	1	1	4C017	A61B   5/02	371	脈拍計との組合せ（Ａ６１Ｂ５／０２Ｄ，Ａ６１Ｂ５／０２Ｆが優先）	Combination with a pulsimeter (A61B5/02D, A61B5/02F take precedence.)
+A61B   5/02  D	1	1	4C017	A61B   5/02	456	血圧計との組合せ（Ａ６１Ｂ５／０２Ｆが優先）	Combination with a hemadynamometer (A61B5/02F takes precedence.)
+A61B   5/02  E	1	2	4C017	A61B   5/02	299	脈拍計との組合せ	Combination with a pulsimeter
+A61B   5/02  F	1	1	4C017	A61B   5/02	152	体温計との組合せ	Combination with a thermometer
+A61B   5/02  G	1	2	4C017	A61B   5/02	283	脈拍計との組合せ（Ａ６１Ｂ５／０２Ｈが優先）	Combination with a pulsimeter (A61B5/02H takes precedence.)
+A61B   5/02  H	1	2	4C017	A61B   5/02	148	呼吸数計との組合せ	Combination with a breath counter
+A61B   5/02  Z	1	0	4C017	A61B   5/02	233	その他のもの	Others
+A61B   5/02 310 \	2	2	4C017	A61B   5/02	59	脈波計	Sphygmograph
+A61B   5/02 310 A	2	0	4C017	A61B   5/02	1010	光電式脈波計	Photoelectric sphygmograph
+A61B   5/02 310 B	2	1	4C017	A61B   5/02	884	検出部	Detection unit
+A61B   5/02 310 C	2	2	4C017	A61B   5/02	217	接触圧を適正にするためのもの	for setting the proper contact pressure
+A61B   5/02 310 D	2	2	4C017	A61B   5/02	186	保持装置	Retaining device
+A61B   5/02 310 E	2	1	4C017	A61B   5/02	26	電源スイッチに関するもの	related to the power switch
+A61B   5/02 310 F	2	1	4C017	A61B   5/02	428	携帯用脈波計	Portable sphygmograph
+A61B   5/02 310 G	2	1	4C017	A61B   5/02	284	耳用脈波計	Sphygmograph for ears
+A61B   5/02 310 H	2	1	4C017	A61B   5/02	393	検出回路	Detection circuit
+A61B   5/02 310 J	2	0	4C017	A61B   5/02	376	圧電式脈波計	Piezoelectric sphygmograph
+A61B   5/02 310 K	2	1	4C017	A61B   5/02	311	検出部	Detection unit
+A61B   5/02 310 L	2	2	4C017	A61B   5/02	71	高分子圧電フィルム	High-molecular piezoelectric film
+A61B   5/02 310 M	2	2	4C017	A61B   5/02	233	圧力検出子	Pressure detecting element
+A61B   5/02 310 N	2	1	4C017	A61B   5/02	213	測定部位に特徴を有するもの	characterized by the measured part
+A61B   5/02 310 P	2	2	4C017	A61B   5/02	446	手首用脈波計	Sphygmograph for wrist
+A61B   5/02 310 V	2	0	4C017	A61B   5/02	525	脈波伝播速度を測定するもの	for measuring pulse wave velocity
+A61B   5/02 310 Z	2	0	4C017	A61B   5/02	1124	その他のもの	Others
+A61B   5/02 350 \	2	2	4C017	A61B   5/02	401	心音計	Phono cardiograph
+A61B   5/0205  \	2	2	4C017	A61B   5/0205	109	心臓血管の状態と人体状態の種々の型の両方を同時に評価するもの，例．心臓と呼吸状態［５］	Simultaneously evaluating both cardiovascular conditions and different types of body conditions, e.g. heart and respiratory condition [5]
+A61B   5/021  \	2	2	4C017	A61B   5/021	219	心臓または血管内の圧力を測定するもの［２００６．０１］	Measuring pressure in heart or blood vessels
+A61B   5/0215  \	3	3	4C017	A61B   5/0215	31	人体に挿入された手段によるもの［５］	by means inserted into the body [5]
+A61B   5/0215  A	3	0	4C017	A61B   5/0215	243	血圧計システム	sphygmomanometer system
+A61B   5/0215  B	3	1	4C017	A61B   5/0215	275	血圧計用カテーテル（カテーテルＡ６１Ｍ２５／００）	Catheter for sphygmomanometer (catheter A61M25/00)
+A61B   5/0215  C	3	2	4C017	A61B   5/0215	321	圧→電変換センサを有するもの	pressure &rarr; having electric conversion sensor
+A61B   5/0215  D	3	2	4C017	A61B   5/0215	122	圧→光変換センサを有するもの	pressure &rarr; having light conversion sensor
+A61B   5/0215  E	3	1	4C017	A61B   5/0215	131	カテーテルと測定装置の間を接続するもの	connector between catheter and measuring device
+A61B   5/0215  F	3	1	4C017	A61B   5/0215	82	測定装置（表示，記録Ａ６１Ｂ５／０２２　５００）	measuring device (display, recording A61B5/022 500)
+A61B   5/0215  Z	3	0	4C017	A61B   5/0215	116	その他のもの	Others
+A61B   5/022  \	3	3	4C017	A61B   5/022	84	血管をふさぐための圧力を適用するもの，例．皮膚に対するもの；眼底血圧計［５］	by applying pressure to close blood vessels, e.g. against the skin; Ophthaldynamometers [5]
+A61B   5/022  A	3	0	4C017	A61B   5/022	326	血圧計システム	sphygmomanometer system
+A61B   5/022  B	3	1	4C017	A61B   5/022	467	測定部位に特徴を有するもの	having characteristic in measuring unit
+A61B   5/022  C	3	2	4C017	A61B   5/022	305	指用血圧計	finger sphygmomanometer
+A61B   5/022  E	3	1	4C017	A61B   5/022	171	血圧計本体（カフと一体のものＡ６１Ｂ５／０２２　３００Ｆ）	sphygmomanometer main unit (having cuff integrated A61B5/022 300f)
+A61B   5/022  F	3	2	4C017	A61B   5/022	96	電源，電源スイッチに関するもの	related to power supply, power switch
+A61B   5/022  G	3	2	4C017	A61B   5/022	62	収納装置	storage unit
+A61B   5/022  H	3	2	4C017	A61B   5/022	64	表示，記録装置（Ａ６１Ｂ５／０２２　５００が優先）	Display, recording unit (A61B5/022 500 takes precedence)
+A61B   5/022  J	3	1	4C017	A61B   5/022	101	血圧計本体とカフ装置等との間を接続するもの	Connection means between sphygmomanometer main unit and cuff unit
+A61B   5/022  K	3	2	4C017	A61B   5/022	94	流体を接続するもの	Means to connect fluids
+A61B   5/022  Z	3	0	4C017	A61B   5/022	195	その他のもの	Others
+A61B   5/022 100 \	4	4	4C017	A61B   5/022	82	血圧の検出	Detection of blood pressure
+A61B   5/022 100 A	4	0	4C017	A61B   5/022	186	カフ圧検出，例．流体圧→トランスジューサ	Detection of cuff pressure, e.g. fluid pressure &rarr; transducer
+A61B   5/022 100 B	4	0	4C017	A61B   5/022	152	動脈検出，例．動脈→トランスジューサ	Detection of artery, e.g. artery &rarr; transducer
+A61B   5/022 100 C	4	1	4C017	A61B   5/022	21	カフ帯に用いる点に特徴を有するもの	characterized by a point used in cuff band
+A61B   5/022 100 D	4	0	4C017	A61B   5/022	39	検出回路	Detection circuitry
+A61B   5/022 100 Z	4	0	4C017	A61B   5/022	92	その他のもの	Others
+A61B   5/022 200 \	4	4	4C017	A61B   5/022	7	コロトコフ音の検出	Detection of Korotkoff sounds
+A61B   5/022 200 A	4	0	4C017	A61B   5/022	79	検出部（聴診器はＡ６１Ｂ７／００，マイクロホンはＨ０４Ｒ）	Detection unit (stethoscope A61B7/00, microphone H04R)
+A61B   5/022 200 B	4	1	4C017	A61B   5/022	33	カフ帯に用いる点に特徴を有するもの	characterized by a point used in cuff band
+A61B   5/022 200 C	4	0	4C017	A61B   5/022	50	検出回路，コロトコフ音の表示	Detection circuitry, Korotkoff sound display
+A61B   5/022 200 D	4	0	4C017	A61B   5/022	23	コロトコフ音の識別	Identification of Korotkoff sound
+A61B   5/022 200 E	4	1	4C017	A61B   5/022	56	フィルタを用いるもの	using filters
+A61B   5/022 200 F	4	1	4C017	A61B   5/022	23	参照信号を用いるもの	using referential signals
+A61B   5/022 200 G	4	2	4C017	A61B   5/022	61	脈波を参照信号とするもの	using pulse as the referential signals
+A61B   5/022 200 H	4	1	4C017	A61B   5/022	22	２個のマイクロホンを用いるもの	using two microphones
+A61B   5/022 200 J	4	1	4C017	A61B   5/022	54	その他の回路を用いるもの	using miscellaneous other circuitries
+A61B   5/022 200 Z	4	0	4C017	A61B   5/022	7	その他のもの	Others
+A61B   5/022 300 \	4	4	4C017	A61B   5/022	8	カフ装置	Cuffing apparatus
+A61B   5/022 300 A	4	0	4C017	A61B   5/022	592	阻血用カフ帯（Ａ６１Ｂ５／０２２　３００Ｂが優先）	Cuff band for ischemia (A61B5/022 300B takes precedence)
+A61B   5/022 300 B	4	0	4C017	A61B   5/022	97	集音用カフ帯	Cuff band for sound collecting
+A61B   5/022 300 C	4	0	4C017	A61B   5/022	196	カフ帯の製造	Manufacturing of cuff bands
+A61B   5/022 300 D	4	0	4C017	A61B   5/022	69	コロトコフ音検出部の取付け	setting Korotkoff sound detection unit
+A61B   5/022 300 E	4	0	4C017	A61B   5/022	15	コロトコフ音検出部の位置の表示	Display the position of Korotkoff sound detection unit
+A61B   5/022 300 F	4	0	4C017	A61B   5/022	431	血圧計本体を取付けたカフ装置	Cuffing apparatus with sphygmomanometer main unit attached
+A61B   5/022 300 G	4	0	4C017	A61B   5/022	158	カフ帯の巻付け装置	Winding device for cuff band
+A61B   5/022 300 H	4	1	4C017	A61B   5/022	94	面ファスナを用いたもの	using hook and loop fastener
+A61B   5/022 300 J	4	2	4C017	A61B   5/022	83	折返しリングを有するもの	having folding back ring
+A61B   5/022 300 K	4	1	4C017	A61B   5/022	183	自動式	automatic type
+A61B   5/022 300 L	4	0	4C017	A61B   5/022	48	肘受け装置	Elbow support unit
+A61B   5/022 300 Z	4	0	4C017	A61B   5/022	210	その他のもの	Others
+A61B   5/022 400 \	4	4	4C017	A61B   5/022	25	血圧の測定	Measuring blood pressure
+A61B   5/022 400 A	4	0	4C017	A61B   5/022	185	最高，最低，平均血圧値の決定手段	Means for determining max., min., average blood pressure value
+A61B   5/022 400 B	4	1	4C017	A61B   5/022	116	コロトコフ音を用いるもの	using Korotkoff sound
+A61B   5/022 400 C	4	2	4C017	A61B   5/022	38	最高血圧値の決定	Determine maximum blood pressure
+A61B   5/022 400 D	4	2	4C017	A61B   5/022	48	最低血圧値の決定	Determine minimum blood pressure
+A61B   5/022 400 E	4	1	4C017	A61B   5/022	998	脈波を用いるもの	using pulse wave
+A61B   5/022 400 F	4	2	4C017	A61B   5/022	465	容積脈波によるもの	by volumetric pulse wave
+A61B   5/022 400 H	4	2	4C017	A61B   5/022	210	位相差によるもの	by phase differential
+A61B   5/022 400 L	4	0	4C017	A61B   5/022	370	血圧値の監視	Monitoring blood pressure value
+A61B   5/022 400 M	4	0	4C017	A61B   5/022	364	血圧値の補正	Compensating blood pressure value
+A61B   5/022 400 N	4	0	4C017	A61B   5/022	108	装置の検査，異常時の対策	Inspection of devices, action plan for abnormalities
+A61B   5/022 400 Z	4	0	4C017	A61B   5/022	246	その他のもの	Others
+A61B   5/022 500 \	4	4	4C017	A61B   5/022	6	表示，記録	display, record
+A61B   5/022 500 A	4	0	4C017	A61B   5/022	267	血圧値の表示，記録	Display, record of blood pressure value
+A61B   5/022 500 B	4	1	4C017	A61B   5/022	187	最高，最低血圧値の表示，記録	Display and recording maximum and minimum blood pressure value
+A61B   5/022 500 C	4	2	4C017	A61B   5/022	45	同時にコロトコフ音または脈波信号を表示するもの	having simultaneous display of Korotkoff sound or pulse wave signal
+A61B   5/022 500 D	4	2	4C017	A61B   5/022	48	切換表示	switching display
+A61B   5/022 500 G	4	0	4C017	A61B   5/022	54	アネロイド型（アネロイド気圧計Ｇ０１Ｌ７／１２）	Aneroid Type (Aneroid Barometer G01L7/12)
+A61B   5/022 500 H	4	1	4C017	A61B   5/022	42	表示，記録	display, record
+A61B   5/022 500 L	4	0	4C017	A61B   5/022	162	測定状態の表示（Ａ６１Ｂ５／０２２　５００Ｍが優先）	Display measurement conditions (A61B5/022 500M takes precedence)
+A61B   5/022 500 M	4	0	4C017	A61B   5/022	193	測定異常の表示	Display measurement abnormality
+A61B   5/022 500 N	4	0	4C017	A61B   5/022	35	装置異常の表示	Display device abnormality
+A61B   5/022 500 Z	4	0	4C017	A61B   5/022	215	その他のもの	Others
+A61B   5/0225  \	4	4	4C017	A61B   5/0225	10	圧力が電気信号によって制御されるもの，例．コロトコフ音から導き出された電気信号［５］	the pressure being controlled by electric signals, e.g. derived from Korotkoff sounds [5]
+A61B   5/0225  A	4	0	4C017	A61B   5/0225	144	加減圧装置	Pressure Regulating Device
+A61B   5/0225  B	4	1	4C017	A61B   5/0225	157	加圧装置	pressurizing device
+A61B   5/0225  C	4	1	4C017	A61B   5/0225	183	減圧装置（特に適合した弁Ａ６１Ｂ５／０２３５，弁一般Ｆ１６Ｋ）	pressure reducing device (specially adapted valve A61B5/0235, valve in general f16K)
+A61B   5/0225  E	4	2	4C017	A61B   5/0225	165	定速排気弁（特に適合した弁Ａ６１Ｂ５／０２３５）	constant velocity exhaust valve (specially adapted valve A61B5/0235)
+A61B   5/0225  F	4	0	4C017	A61B   5/0225	288	加減圧制御	Pressure regulation control
+A61B   5/0225  G	4	1	4C017	A61B   5/0225	294	加圧制御	control pressurization
+A61B   5/0225  H	4	1	4C017	A61B   5/0225	131	減圧制御	control pressure reduction
+A61B   5/0225  Z	4	0	4C017	A61B   5/0225	37	その他のもの	Others
+A61B   5/023  \	4	4	4C017	A61B   5/023	0	液体柱からなる圧力変換器［５］	the pressure transducers comprising a liquid column [5]
+A61B   5/023  E	4	0	4C017	A61B   5/023	81	水銀柱型（水銀柱計Ｇ０１Ｌ１３／０４）	Mercury column type (Mercury gauge G01L13/04)
+A61B   5/023  F	4	1	4C017	A61B   5/023	36	表示，記録	display, record
+A61B   5/023  Z	4	0	4C017	A61B   5/023	0	その他のもの	Others
+A61B   5/0235  \	4	4	4C017	A61B   5/0235	459	そのために特に適合した弁［５］	Valves specially adapted therefor [5]
+A61B   5/024  \	2	2	4C017	A61B   5/024	80	脈拍または心拍を測定するもの［２００６．０１］	Measuring pulse rate or heart rate
+A61B   5/0245  \	3	3	4C017	A61B   5/0245	82	電気信号を発生する検知手段を用いるもの［５］	using sensing means generating electric signals [5]
+A61B   5/0245  A	3	0	4C017	A61B   5/0245	614	脈拍計装置（Ａ６１Ｂ５／０２　３１０Ａ，Ａ６１Ｂ５／０２　３１０Ｊが優先）	Pulsimeter (A61B5/02 310A, A61B5/02 310J take precedence)
+A61B   5/0245  B	3	1	4C017	A61B   5/0245	628	手首用脈拍計（Ａ６１Ｂ５／０２４５Ｐが優先）	Wrist Pulsimeter (A61B 5/0245 P takes precedence)
+A61B   5/0245  C	3	1	4C017	A61B   5/0245	551	自動車に取付けられたもの	mounted in automobile
+A61B   5/0245  D	3	1	4C017	A61B   5/0245	28	自転車に取付けられたもの（Ａ６１Ｂ５／０２４５Ｐが優先）	mounted on bicycle (A61B5/0245P takes precedence)
+A61B   5/0245  E	3	1	4C017	A61B   5/0245	42	電源スイッチに関するもの	related to power switch
+A61B   5/0245  F	3	1	4C017	A61B   5/0245	159	信頼性に関するもの	related to reliability
+A61B   5/0245  P	3	0	4C017	A61B   5/0245	538	トレーニング用脈拍計	Pulsimeter for training
+A61B   5/0245  Q	3	0	4C017	A61B   5/0245	128	胎児用脈拍計	Pulsimeter for fetus
+A61B   5/0245  Z	3	0	4C017	A61B   5/0245	512	その他のもの	Others
+A61B   5/0245 100 \	4	4	4C017	A61B   5/0245	21	入出力回路（脈波検出トランスジューサー，入力回路はＡ６１Ｂ５／０２　３１０）	I/O circuit (pulse wave detection transducer, input circuit is A61B5/02 310)
+A61B   5/0245 100 A	4	0	4C017	A61B   5/0245	215	入力回路	Input Circuit
+A61B   5/0245 100 B	4	1	4C017	A61B   5/0245	567	光電式（Ａ６１Ｂ５／０２　３１０Ｈが優先）	photoelectric type (A61B5/02 310H takes precedence)
+A61B   5/0245 100 C	4	1	4C017	A61B   5/0245	206	圧電式（Ａ６１Ｂ５／０２　３１０Ｊが優先）	piezoelectric type (A61B5/02 310J takes precedence)
+A61B   5/0245 100 D	4	1	4C017	A61B   5/0245	521	心電位式	cardiac potential type
+A61B   5/0245 100 E	4	1	4C017	A61B   5/0245	101	心音式	heart sound type
+A61B   5/0245 100 T	4	0	4C017	A61B   5/0245	312	脈搏数異常の警報	Alarming pulse count abnormality
+A61B   5/0245 100 Z	4	0	4C017	A61B   5/0245	226	その他のもの	Others
+A61B   5/0245 200 \	4	4	4C017	A61B   5/0245	586	脈拍数の計数	pulse rate count
+A61B   5/025  \	4	4	4C017	A61B   5/025	2	閉塞器の内部にあるもの，例．コロトコフ音に感応するもの［５］	within occluders, e.g. responsive to Korotkoff sounds [5]
+A61B   5/0255  \	3	3	4C017	A61B   5/0255	131	そのために特に適合した記録機器［５］	Recording instruments specially adapted therefor [5]
+A61B   5/0255  Q	3	0	4C017	A61B   5/0255	50	音声表示	Voice Display
+A61B   5/0255  R	3	0	4C017	A61B   5/0255	57	グラフ表示	Graph Display
+A61B   5/0255  S	3	0	4C017	A61B   5/0255	22	記憶装置	Memory Device
+A61B   5/0255  Z	3	0	4C017	A61B   5/0255	21	その他のもの	Others
+A61B   5/026  \	2	2	4C017	A61B   5/026	228	血流を測定するもの［５］	Measuring blood flow [5]
+A61B   5/026 110 \	3	3	4C017	A61B   5/026	147	圧力計を用いるもの	using pressure gauge
+A61B   5/026 120 \	3	3	4C017	A61B   5/026	1141	光センサを用いるもの（Ａ６１Ｂ５／０２７５Ｊが優先）	using optic sensor (A61B5/0275J takes precedence)
+A61B   5/026 130 \	3	3	4C017	A61B   5/026	51	ＮＭＲ法によるもの（イメージングはＡ６１Ｂ５／０５５）	by NMR method (imaging is A61B5/055)
+A61B   5/026 140 \	3	3	4C017	A61B   5/026	432	その他のもの	Others
+A61B   5/0265  \	3	3	4C017	A61B   5/0265	80	電磁手段を用いるもの，例．電磁流量計［５］	using electromagnetic means, e.g. electromagnetic flow meter [5]
+A61B   5/027  \	4	4	4C017	A61B   5/027	383	カテーテルを用いるもの［５］	using catheters [5]
+A61B   5/0275  \	3	3	4C017	A61B   5/0275	3	追跡子を用いるもの，例．染料希釈［５］	using tracers, e.g. dye dilution [5]
+A61B   5/0275  F	3	0	4C017	A61B   5/0275	16	イオンセンサを用いるもの	Using ion sensor
+A61B   5/0275  J	3	0	4C017	A61B   5/0275	144	指示薬を用いるもの，例．色素，ＲＩまたは気泡を含む	Using indicators, e.g. including pigments, RI or bubbles
+A61B   5/0275  Z	3	0	4C017	A61B   5/0275	8	その他のもの	Others
+A61B   5/028  \	4	4	4C017	A61B   5/028	198	熱希釈によるもの［５］	by thermo-dilution [5]
+A61B   5/0285  \	3	3	4C017	A61B   5/0285	9	血液波動の位相速度を測定するもの［５］	Measuring phase velocity of blood waves [5]
+A61B   5/0285  H	3	0	4C017	A61B   5/0285	547	ドップラー法によるもの（超音波を用いるものＡ６１Ｂ８／０６）	By Doppler method (using ultrasonic wave A61B8/06)
+A61B   5/0285  Z	3	0	4C017	A61B   5/0285	15	その他のもの	Others
+A61B   5/029  \	3	3	4C017	A61B   5/029	441	心臓からの血液拍出量，例．毎分の容積，を測定するもの	Measuring blood output from the heart, e.g. minute volume
+A61B   5/0295  \	3	3	4C017	A61B   5/0295	229	プレチスモグラフィを用いるもの，すなわち通過する血液の循環によって変更されるような人体部分の容積の変化を測定するもの，例．インピーダンスプレチスモグラフィ	using plethysmography, i.e. measuring the variations in the volume of a body part as modified by the circulation of blood therethrough, e.g. impedance plethysmography [5, 2006.01]
+A61B   5/03  \	1	1	4C017	A61B   5/03	57	血圧を除く人体内の流体圧力の測定，例．脳圧（流体圧力の測定Ｇ０１Ｌ）［４］	Measuring fluid pressure within the body other than blood pressure, e.g. cerebral pressure [4]
+A61B   5/05  \	1	1	4C127	A61B   5/05	1665	電流または磁場による診断のための検出，測定または記録；マイクロ波または電波を用いる測定（身体全体またはその部分の動きを測定するものＡ６１Ｂ５／１１；身体またはその部分の生体電気信号または生体磁気信号の検出，測定または記録Ａ６１Ｂ５／２４）［２０２１．０１］	Detecting, measuring or recording for diagnosis by means of electric currents or magnetic fields; Measuring using microwaves or radio waves (measuring movement of the entire body or parts thereof A61B 5/11; detecting, measuring or recording bioelectric or biomagnetic signals of the body or parts thereof A61B 5/24)
+A61B   5/0507  \	2	2	4C127	A61B   5/0507	101	マイクロ波またはテラヘルツ波を用いるもの［２０２１．０１］	using microwaves or terahertz waves [2021.01]
+A61B   5/0507 100 \	3	3	4C127	A61B   5/0507	96	イメージング，例．トモグラフィまたはマンモグラフィ	Imaging, e.g., tomography or mammography
+A61B   5/0515  \	2	2	4C127	A61B   5/0515	102	磁気粒子イメージング［２０２１．０１］	Magnetic particle imaging [2021.01]
+A61B   5/0522  \	2	2	4C127	A61B   5/0522	43	磁気誘導トモグラフィ［２０２１．０１］	Magnetic induction tomography [2021.01]
+A61B   5/053  \	2	2	4C127	A61B   5/053	341	身体の一部分の電気インピーダンスまたはコンダクタンスを測定するもの［２０２１．０１］	Measuring electrical impedance or conductance of a portion of the body [2021.01]
+A61B   5/0531  \	3	3	4C127	A61B   5/0531	502	皮膚インピーダンスを測定するもの［２０２１．０１］	Measuring skin impedance [2021.01]
+A61B   5/0532  \	4	4	4C127	A61B   5/0532	126	鍼灸に特に適合したもの［２０２１．０１］	specially adapted for acupuncture or moxibustion [2021.01]
+A61B   5/0533  \	4	4	4C127	A61B   5/0533	314	ガルヴァニック皮膚反応を測定するもの［２０２１．０１］	Measuring galvanic skin response [2021.01]
+A61B   5/0534  \	3	3	4C127	A61B   5/0534	20	歯のバイタリティテストのためのもの［２０２１．０１］	for testing vitality of teeth [2021.01]
+A61B   5/0535  \	3	3	4C127	A61B   5/0535	140	インピーダンスプレチスモグラフィ（血流量を測定するためのものＡ６１Ｂ５／０２９５）［２０２１．０１］	Impedance plethysmography (for measuring blood flow A61B 5/0295) [2021.01]
+A61B   5/0536  \	3	3	4C127	A61B   5/0536	140	インピーダンスイメージング，例．トモグラフィによるもの［２０２１．０１］	Impedance imaging, e.g. by tomography [2021.01]
+A61B   5/0537  \	3	3	4C127	A61B   5/0537	1649	インピーダンスにより体組成を測定するもの，例．組織の水和または脂肪含有量［２０２１．０１］	Measuring body composition by impedance, e.g. tissue hydration or fat content [2021.01]
+A61B   5/0537 100 \	4	4	4C127	A61B   5/0537	896	脂肪，筋肉または骨	Fat, muscle, or bones
+A61B   5/0537 110 \	5	5	4C127	A61B   5/0537	488	電極に特徴のあるもの	characterised by electrodes
+A61B   5/0537 200 \	4	4	4C127	A61B   5/0537	297	水分	Water content
+A61B   5/0537 210 \	5	5	4C127	A61B   5/0537	90	浮腫を評価するもの	Evaluating oedema
+A61B   5/0537 220 \	5	5	4C127	A61B   5/0537	48	脱水状態の検出，例．熱中症	Detecting dehydrated condition, e.g., heatstroke
+A61B   5/0538  \	3	3	4C127	A61B   5/0538	180	侵襲的，例．カテーテルを用いるもの［２０２１．０１］	invasively, e.g. using a catheter [2021.01]
+A61B   5/055  \	2	2	4C096	A61B   5/055	457	電子［ＥＭＲ］または核［ＮＭＲ］の磁気共鳴を含むもの，例．磁気共鳴イメージング	involving electronic [EMR] or nuclear [NMR] magnetic resonance, e.g. magnetic resonance imaging
+A61B   5/055 310 \	3	3	4C096	A61B   5/055	81	核磁気共鳴を用いるもの	using NMR
+A61B   5/055 311 \	4	4	4C096	A61B   5/055	2432	原理，走査形式一般，例．パルスシーケンス	Principle, scanning method in general, e.g. pulse sequence
+A61B   5/055 312 \	5	5	4C096	A61B   5/055	866	スピンエコー法	spin echo method
+A61B   5/055 320 \	4	4	4C096	A61B   5/055	451	データ取得部；ガントリー部全体とその周辺，例．ガントリー内部の照明，遮音または配線実装	Data acquisition unit; gantry main unit and its peripheral, e.g. internal light for gantry, sound isolation or wire mounting
+A61B   5/055 330 \	5	5	4C096	A61B   5/055	168	磁場系；複数磁場の組合せ，実装等	Magnetic field system; Combination of multiple magnetic fields, implementation etc.
+A61B   5/055 331 \	6	6	4C096	A61B   5/055	1363	静磁場発生系；永久磁石，電磁石―電源	static magnetic field generating system; Permanent magnet, electromagnet-power supply
+A61B   5/055 332 \	7	7	4C096	A61B   5/055	898	補正系；調整部材，シムコイル―電源，制御系	Compensation system; Adjustment elements, shim coil-power supply, control system
+A61B   5/055 340 \	6	6	4C096	A61B   5/055	980	傾斜磁場発生系；コイル―電源；永久磁石	Gradient magnetic field generating system; Coil-power supply; Permanent magnet
+A61B   5/055 341 \	7	7	4C096	A61B   5/055	355	磁場印加方法（データ取得のための走査方法はＡ６１Ｂ５／０５５　３１１）	Magnetic field application method (scanning for data acquisition is A61B5/055 311)
+A61B   5/055 342 \	8	8	4C096	A61B   5/055	289	磁場印加制御回路装置	Magnetic field application control circuit device
+A61B   5/055 350 \	6	6	4C096	A61B   5/055	1634	高周波磁場系，例．コイル―同調回路―マッチング回路―ケーブル発振器	High frequency magnetic field system, e.g. coil-alignment circuit-matching circuit-cable oscillator
+A61B   5/055 351 \	7	7	4C096	A61B   5/055	663	印加制御回路または装置，例．印加制御―波形制御―切換制御―同時制御	Application control circuit or device, e.g. application control-waveform control-switch control- simultaneous control
+A61B   5/055 355 \	6	6	4C096	A61B   5/055	1753	共鳴信号受信回路，例．コイル―同調回路―ケーブル―増幅部	Resonance signal receiving circuit, e.g. coil-alignment circuit-cable-amplifier unit
+A61B   5/055 360 \	6	6	4C096	A61B   5/055	662	冷却，例．温度制御	Cooling, e.g. temperature control
+A61B   5/055 362 \	6	6	4C096	A61B   5/055	644	磁気遮蔽，例．電磁波の遮蔽，渦電流の補償またはアクティブ制御	Magnetic shielding, e.g. shielding electromagnetic wave, overcurrent compensation or active control
+A61B   5/055 364 \	5	5	4C096	A61B   5/055	262	信号検出回路，例．増幅器―フィルター検波回路	signal detection circuit, e.g. amplifier-filter-detection circuit
+A61B   5/055 366 \	5	5	4C096	A61B   5/055	902	寝台，例．天板，天板上の付属具等；まくら等	Bed, e.g. top board, accessories on top board; pillows etc.
+A61B   5/055 370 \	4	4	4C096	A61B   5/055	1906	制御技術，例．磁気検出，電源制御，全体の制御	Control technology, e.g. magnetism detection, power supply control, total control
+A61B   5/055 372 \	4	4	4C096	A61B   5/055	209	サンプリング；Ａ／Ｄ変換時の制御，回路装置	sampling; Control during A/D conversion, circuit devices
+A61B   5/055 374 \	4	4	4C096	A61B   5/055	820	データ補正	Data correction
+A61B   5/055 376 \	4	4	4C096	A61B   5/055	1261	データ処理；再構成演算，例．再構成演算と補正を分離せずに行うもの	Data process; Reconstructive calculation, e.g. reconstructive calculation and compensation to be performed without separation
+A61B   5/055 377 \	5	5	4C096	A61B   5/055	203	フーリエ変換法；再構成におけるもの（一般用途はＧ０６Ｆ）	fourier transformation method; In reconstructive calculation (general use is G06f)
+A61B   5/055 380 \	4	4	4C096	A61B   5/055	5355	画像処理；表示技術；すでに画像データになったものに対する処理，画像強調または表示装置	Graphic process; Display technology; Processing existing graphic data, graphic enhancement or display device
+A61B   5/055 382 \	4	4	4C096	A61B   5/055	2484	特殊技術；用途，すなわち利用技術，に関するもの，例．動くものを止める，動くものを消すまたは対象が特定なもの，例．流体	specialized technology; Relating to application, that is useful technology, e.g. moving elements or specific target to be stopped, removed, e.g. fluid
+A61B   5/055 383 \	5	5	4C096	A61B   5/055	1324	造影剤；造影剤撮影	Contrast agent; Contrast agent image shooting
+A61B   5/055 390 \	4	4	4C096	A61B   5/055	3845	その他；伝送，保存，データベース，ファントム，周辺具，他の装置との組合せまたは併用	Others; Transmission, save, database, phantom, peripheral gadgets, combination with or combined use with other devices
+A61B   5/055 400 \	3	3	4C096	A61B   5/055	148	電子共鳴を用いるもの	using electron resonance
+A61B   5/06  \	1	1	4C038	A61B   5/06	628	放射線を用いずに異物を検出または探知するための用具［２００６．０１］	Devices, other than using radiation, for detecting or locating foreign bodies
+A61B   5/07  \	1	1	4C038	A61B   5/07	1456	内部ラジオゾンデ	Endoradiosondes
+A61B   5/07 100 \	2	2	4C038	A61B   5/07	566	超音波撮像を含む撮像以外の検査手段を有する内部ラジオゾンデ，例．カプセル型ＰＨセンサ	Endoradiosondes with inspection methods other than imaging including ultrasound imaging, e.g. capsule type pH sensor
+A61B   5/08  \	1	1	4C038	A61B   5/08	3819	呼吸器官評価用の測定用装置［２００６．０１］	Measuring devices for evaluating the respiratory organs
+A61B   5/083  \	2	2	4C038	A61B   5/083	579	呼吸検査を用いることにより代謝率を測定するもの，例．酸素消費率を測定するもの［５］	Measuring rate of metabolism by using breath test, e.g. measuring rate of oxygen consumption [5]
+A61B   5/085  \	2	2	4C038	A61B   5/085	143	呼吸器抵抗または肺弾性を測定するもの［５］	Measuring impedance of respiratory organs or lung elasticity [5]
+A61B   5/087  \	2	2	4C038	A61B   5/087	692	呼吸流量を測定するもの［５］	Measuring breath flow [5]
+A61B   5/09  \	3	3	4C038	A61B   5/09	35	流れにより回転する部材を用いるもの［５］	using an element rotated by the flow [5]
+A61B   5/091  \	2	2	4C038	A61B   5/091	291	吸入または吐出したガスの量を測定するもの，例．肺活量を決定するためのもの［５］	Measuring volume of inspired or expired gases, e.g. to determine lung capacity [5]
+A61B   5/093  \	3	3	4C038	A61B   5/093	73	拡開可能な室，例．ベローまたは膨脹可能なバッグ，に吐出したガス，またはそれから吸入したガスの測定［５］	the gases being exhaled into, or inhaled from, an expansible chamber, e.g. bellows or expansible bag [5]
+A61B   5/095  \	4	4	4C038	A61B   5/095	29	堅い容器内にガスを出し入れするもの，例．液体表面により形成される境界をもつもの［５］	within a rigid container, e.g. the boundary being formed by a liquid surface [5]
+A61B   5/097  \	2	2	4C038	A61B   5/097	440	息の収集を容易にするためまたは息を測定装置に導くための用具［５］	Devices for facilitating collection of breath or for directing breath into or through measuring devices [5]
+A61B   5/103  \	1	1	4C038	A61B   5/103	47	診断目的のため，身体またはその部分の形，型，大きさまたは動きを検査するための測定用装置（歯科用に特に適合した測定器Ａ６１Ｃ１９／０４）［２００６．０１］	Measuring devices for testing the shape, pattern, size or movement of the body or parts thereof, for diagnostic purposes (measuring instruments specially adapted for dentistry A61C 19/04)
+A61B   5/107  \	2	2	4C038	A61B   5/107	799	身体の寸法を測定するもの，例．身体全体またはその部分の大きさ［５］	Measuring physical dimensions, e.g. size of the entire body or parts thereof [5]
+A61B   5/107 100 \	3	3	4C038	A61B   5/107	444	体の外形の測定（衣服のための採寸Ａ４１Ｈ１／００）	Measuring external form of body (measuring for clothing A41H1/00)
+A61B   5/107 110 \	4	4	4C038	A61B   5/107	176	頭または顔の形状，寸法の測定	Measuring shape or dimension of head or face
+A61B   5/107 120 \	4	4	4C038	A61B   5/107	66	手または指の形状，寸法の測定	Measuring shape or dimension of hands or fingers
+A61B   5/107 130 \	4	4	4C038	A61B   5/107	170	足または足指の形状，寸法の測定（靴のための足の測定Ａ４３Ｄ１／０２）	Measuring shape or dimension of feet or toes (measuring for shoes fitting A43D1/02)
+A61B   5/107 200 \	3	3	4C038	A61B   5/107	176	脊柱の曲がりの測定	Measuring bending of the spinal column
+A61B   5/107 300 \	3	3	4C038	A61B   5/107	1233	姿勢，位置，体位または傾斜の測定	Measuring stance, position, posture or inclination
+A61B   5/107 400 \	3	3	4C038	A61B   5/107	566	身長の測定（Ａ６１Ｂ５／１０７　４１０が優先）	Measuring height (A61B5/107 410 takes precedence)
+A61B   5/107 401 \	4	4	4C038	A61B   5/107	217	体重計と結合したもの（体重計それ自体Ｇ０１Ｇ）	combined with weight scale (weight scale itself is G01G)
+A61B   5/107 410 \	3	3	4C038	A61B   5/107	82	座高の測定	Measuring sitting height
+A61B   5/107 420 \	3	3	4C038	A61B   5/107	49	胸囲の測定	Measuring chest circumference
+A61B   5/107 500 \	3	3	4C038	A61B   5/107	49	子宮，膣に関する測定	Measurement related to uterus or vagina
+A61B   5/107 600 \	3	3	4C038	A61B   5/107	29	乳房に関する測定	Measurement related to mamma
+A61B   5/107 700 \	3	3	4C038	A61B   5/107	169	毛に関する測定	Measurement related to hairs
+A61B   5/107 800 \	3	3	4C038	A61B   5/107	1096	皮膚に関する測定（指紋識別Ａ６１Ｂ５／１１７２）	Measurement related to skins (fingerprint identification A61B5/1172)
+A61B   5/11  \	2	2	4C038	A61B   5/11	1453	身体全体またはその部分の動きを測定するもの，例．頭または手の震えまたは４肢の運動性［２００６．０１］	Measuring movement of the entire body or parts thereof, e.g. head or hand tremor or mobility of a limb
+A61B   5/11 100 \	3	3	4C038	A61B   5/11	1330	体動の測定，例．ベッドに取り付けた圧力センサによる体表面の振動の測定	Measuring body motion, e.g. measuring vibration of body surface by pressure sensor attached to bed
+A61B   5/11 110 \	4	4	4C038	A61B   5/11	898	電磁波の照射または反射を利用するもの（Ａ６１Ｂ５／１１　１２０が優先）	using irradiation or reflection of electromagnetic waves (A61B5/11 120 takes precedence)
+A61B   5/11 120 \	4	4	4C038	A61B   5/11	767	撮像によるもの	by imaging
+A61B   5/11 200 \	3	3	4C038	A61B   5/11	1983	全身の動きの測定，例．身体に取り付けた加速度センサによる運動の測定	Measuring whole body movement, e.g. measuring motion using accelerometer placed on body
+A61B   5/11 210 \	3	3	4C038	A61B   5/11	690	平衡機能の検査；重心，足裏の圧力分布の測定	Equilibrium function test; Measuring centroid, pressure distribution in the sole of foot
+A61B   5/11 220 \	3	3	4C038	A61B   5/11	68	屈伸量の測定，例．体前屈測定	Measuring bending or stretching range, e.g. anteflexion measurement
+A61B   5/11 230 \	3	3	4C038	A61B   5/11	2155	腕，手，指，脚，足または足指の動きの測定，例．足関節回転角度の測定；リハビリ検査（筋力のみの測定Ａ６１Ｂ５／２２）	Measuring motions of arms, hands, fingers, legs, feet or toes, e.g. measuring rotation angles of foot joints; Rehabilitation examination (measuring only for muscular strength A61B5/22)
+A61B   5/11 300 \	3	3	4C038	A61B   5/11	342	顎の動きの測定；咬合の測定（歯科用のものＡ６１Ｃ１９）	Measuring jaw movement; Occlusion measurement (for dentistry A61C19)
+A61B   5/11 310 \	3	3	4C038	A61B   5/11	279	のど，喉頭の動きの測定（喉頭鏡Ａ６１Ｂ１／２６７）	Measuring movement of throat or larynx (laryngoscope A61B1/267)
+A61B   5/11 320 \	3	3	4C038	A61B   5/11	199	舌，口の動きの測定，例．パラトグラフ（運動の量の測定Ａ６１Ｂ５／２２，眼球の動きの測定Ａ６１Ｂ３／１０）	Measuring movement of tongue or mouth, e.g. palatograph (measuring motion amount A61B5/22, measuring motion of eyeballs A61B3/10)
+A61B   5/113  \	3	3	4C038	A61B   5/113	1663	呼吸中に起るもの［５］	occurring during breathing [5]
+A61B   5/117  \	1	1	4C038	A61B   5/117	173	個人の識別（パターンを認識するための方法または装置，例．指紋，Ｇ０６Ｋ９／００，Ｇ０６Ｖ４０／００；音声または話し方の解析による個人の識別Ｇ１０Ｌ１７／００）	Identification of persons (methods or arrangements for recognising patterns, e.g. fingerprints, G06F 18/00, G06V 40/00; identification of persons by analysing their voice or speech G10L 17/00) [5, 2006.01, 2016.01]
+A61B   5/117 100 \	2	2	4C038	A61B   5/117	122	身体またはその部分の動作に基づくもの	based on motions of their body or parts thereof
+A61B   5/117 200 \	2	2	4C038	A61B   5/117	233	生理学的信号に基づくもの，例．心電図に基づくもの	based on physiological signals, e.g. based on electrocardiogram
+A61B   5/1171  \	2	2	4C038	A61B   5/1171	579	身体またはその部分の形状または外観に基づくもの［２０１６．０１］	based on the shapes or appearances of their bodies or parts thereof [2016.01]
+A61B   5/1171 100 \	3	3	4C038	A61B   5/1171	1340	静脈パターン	using vein pattern
+A61B   5/1171 200 \	3	3	4C038	A61B   5/1171	1268	顔認識	Recognition of face
+A61B   5/1171 300 \	3	3	4C038	A61B   5/1171	965	虹彩（アイリス），眼	using iris or eyes
+A61B   5/1172  \	3	3	4C038	A61B   5/1172	2854	指紋を利用するもの［２０１６．０１］	using fingerprinting [2016.01]
+A61B   5/1174  \	3	3	4C038	A61B   5/1174	59	足跡を利用するもの［２０１６．０１］	using footprinting [2016.01]
+A61B   5/1178  \	3	3	4C038	A61B   5/1178	23	歯のデータを利用するもの［２０１６．０１］	using dental data [2016.01]
+A61B   5/12  \	1	1	4C038	A61B   5/12	507	聴力計	Audiometering
+A61B   5/145  \	1	1	4C038	A61B   5/145	895	生体内の血液特性の測定，例．ガス濃度またはｐＨ値（血液中の異物の放射線を用いない検出または検知Ａ６１Ｂ５／０６）［２００６．０１］	Measuring characteristics of blood in vivo, e.g. gas concentration or pH-value  (non-radiation detecting or locating of foreign bodies in blood A61B 5/06)
+A61B   5/1455  \	2	2	4C038	A61B   5/1455	5624	光センサーを使用するもの，例．分光光度酸素濃度計［８］	using optical sensors, e.g. spectral photometrical oximeters [8]
+A61B   5/1459  \	3	3	4C038	A61B   5/1459	804	侵襲型，例．カテーテルにより人体に挿入するもの［８］	invasive, e.g. introduced into the body by a catheter [8]
+A61B   5/1464  \	3	3	4C038	A61B   5/1464	48	胎児組織に特に適したもの［８］	specially adapted for foetal tissue [8]
+A61B   5/1468  \	2	2	4C038	A61B   5/1468	148	化学的または電気化学的方法を使用したもの，例．ポーラログラフによる手段［８］	using chemical or electrochemical methods, e.g. by polarographic means [8]
+A61B   5/1473  \	3	3	4C038	A61B   5/1473	1208	侵襲型，例．カテーテルにより人体に挿入するもの［８］	invasive, e.g. introduced into the body by a catheter [8]
+A61B   5/1477  \	3	3	4C038	A61B   5/1477	327	非侵襲型［８］	non-invasive [8]
+A61B   5/1482  \	3	3	4C038	A61B   5/1482	22	胎児の組織に特に適したもの［８］	specially adapted for foetal tissue [8]
+A61B   5/1486  \	3	3	4C038	A61B   5/1486	687	酵素電極を使用するもの，例．固定化されたオキシダーゼを伴うもの［２００６．０１］	using enzyme electrodes, e.g. with immobilised oxidase
+A61B   5/1491  \	2	2	4C038	A61B   5/1491	138	加熱機構を有するもの［８］	Heated applicators [8]
+A61B   5/1495  \	2	2	4C038	A61B   5/1495	386	生体プローブの較正または試験［８］	Calibrating or testing in vivo probes [8]
+A61B   5/15  \	1	1	4C038	A61B   5/15	676	血液試料を採取するための装置［２００６．０１］	Devices for taking samples of blood
+A61B   5/15 100 \	2	2	4C038	A61B   5/15	409	材質，材料に特徴のあるもの，例．抗凝血材，凝固促進材	characterised by materials, e.g. anticoagulant, coagulation accelerator
+A61B   5/15 200 \	2	2	4C038	A61B   5/15	379	血液分離に適したもの	specially adapted for blood separation
+A61B   5/151  \	2	2	4C038	A61B   5/151	1468	毛細管血のサンプル採取に特に適しているもの，例．ランセットによるもの［８］	specially adapted for taking samples of capillary blood, e.g. by lancets [8]
+A61B   5/151 100 \	3	3	4C038	A61B   5/151	244	穿刺針一体型穿刺器具	Puncture instruments integrated with puncture needles
+A61B   5/151 200 \	3	3	4C038	A61B   5/151	352	穿刺針を装着して用いる穿刺器具	Puncture instruments requiring puncture needle to be set
+A61B   5/151 210 \	4	4	4C038	A61B   5/151	97	複数の穿刺針が同時に装着されるもの	Multiple puncture needles to be set simultaneously
+A61B   5/151 300 \	3	3	4C038	A61B   5/151	91	放射の使用による穿孔，例．レーザ	Perforation using radiation, e.g. laser
+A61B   5/151 400 \	3	3	4C038	A61B   5/151	314	毛管型	Capillary type
+A61B   5/153  \	2	2	4C038	A61B   5/153	73	静脈血または動脈血のサンプル採取に特に適しているもの，例．注射器によるもの［８］	specially adapted for taking samples of venous or arterial blood, e.g. by syringes [8]
+A61B   5/153 100 \	3	3	4C038	A61B   5/153	349	注射器，プランジャー型	syringes or plunger type
+A61B   5/153 200 \	3	3	4C038	A61B   5/153	293	ポンプ吸引型	Pump suction type
+A61B   5/153 300 \	3	3	4C038	A61B   5/153	522	採血針部（Ａ６１Ｂ５／１５４　２００が優先）	Blood sampling needles (A61B5/154 200 takes precedence)
+A61B   5/154  \	3	3	4C038	A61B   5/154	649	真空採血手段を使用するもの［８］	using pre-evacuated means [8]
+A61B   5/154 100 \	4	4	4C038	A61B   5/154	679	採血管	Blood sampling tubes
+A61B   5/154 200 \	4	4	4C038	A61B   5/154	487	採血針部，例．採血針を装着したホルダ	Blood sampling needle part, e.g. holders with sampling needles
+A61B   5/154 300 \	4	4	4C038	A61B   5/154	83	採血管準備装置	Arrangements for preparing blood sampling tubes
+A61B   5/155  \	2	2	4C038	A61B   5/155	189	連続または複数のサンプル採取に特に適しているもの，例．事前に決められた間隔をあけて［７］	specially adapted for continuous or multiple sampling, e.g. at predetermined intervals [7]
+A61B   5/157  \	2	2	4C038	A61B   5/157	1449	血液特性を測定するための手段と結合されたことに特徴があるもの［８］	characterised by integrated means for measuring characteristics of blood [8]
+A61B   5/16  \	1	1	4C038	A61B   5/16	292	心理検査のための用具（教習または教育用具の使用Ｇ０９Ｂ１／００〜Ｇ０９Ｂ７／００）；反応時間の検査	Devices for psychotechnics (using teaching or educational appliances G09B1/00-G09B7/00); Testing reaction times
+A61B   5/16 100 \	2	2	4C038	A61B   5/16	802	心理検査	Psychological test
+A61B   5/16 110 \	3	3	4C038	A61B   5/16	1266	緊張，リラックスまたはストレス	Tense, relax or stress
+A61B   5/16 120 \	3	3	4C038	A61B   5/16	800	感情	Emotion
+A61B   5/16 130 \	3	3	4C038	A61B   5/16	2069	睡眠，覚醒	sleep or awakening
+A61B   5/16 200 \	2	2	4C038	A61B   5/16	771	疲労の検査	fatigue test
+A61B   5/16 400 \	2	2	4C038	A61B   5/16	222	反応時間の検査	Reaction time test
+A61B   5/18  \	2	2	4C038	A61B   5/18	2021	車両運転者のためのもの	for vehicle drivers
+A61B   5/20  \	1	1	4C038	A61B   5/20	576	泌尿器機能の検査［４］	Measuring urological functions [4]
+A61B   5/22  \	1	1	4C038	A61B   5/22	138	筋肉の仕事量の測定；筋肉の強さまたは筋肉による打撃力の測定［４］	Ergometry; Measuring muscular strength or the force of a muscular blow [4]
+A61B   5/22 100 \	2	2	4C038	A61B   5/22	1470	運動量，仕事量の測定；エルグ計，例．歩数による消費カロリー計算	Measuring amount of exercises or measuring of works; Ergometer, e.g. calorie consumption calculation by step count
+A61B   5/22 110 \	3	3	4C038	A61B   5/22	100	運動回数，持久力の測定	Measuring the number of exercises or measuring endurance
+A61B   5/22 200 \	2	2	4C038	A61B   5/22	426	筋力の測定	Measuring muscular strength
+A61B   5/22 210 \	3	3	4C038	A61B   5/22	125	指力，指圧力，例．Ｏリングテスト	finger strength or finger pressure strength, e.g. O-Ring Test
+A61B   5/22 220 \	3	3	4C038	A61B   5/22	168	握力	Grip strength
+A61B   5/22 230 \	3	3	4C038	A61B   5/22	75	背筋力	Back muscle strength
+A61B   5/22 240 \	3	3	4C038	A61B   5/22	59	衝撃による打撃力，投てき力，例．ゴルフボールを打撃するもの	Impact striking force or throwing force, e.g. to strike golf balls
+A61B   5/22 250 \	3	3	4C038	A61B   5/22	46	振り力，スイング力，例．バットやゴルフクラブ内に加速度センサを有するもの	swing force, e.g. having accelerometer in bat or golf club
+A61B   5/22 260 \	3	3	4C038	A61B   5/22	8	漕力	Rowing power
+A61B   5/22 270 \	3	3	4C038	A61B   5/22	16	跳躍力	Jumping power
+A61B   5/22 280 \	3	3	4C038	A61B   5/22	14	捻り力，ひねり力	Twisting force
+A61B   5/24  \	1	1	4C127	A61B   5/24	81	身体またはその部分の生体電気信号または生体磁気信号の検出，測定または記録［２０２１．０１］	Detecting, measuring or recording bioelectric or biomagnetic signals of the body or parts thereof [2021.01]
+A61B   5/242  \	2	2	4C127	A61B   5/242	435	生体磁場の検出，例．生体電流により生成された磁場［２０２１．０１］	Detecting biomagnetic fields, e.g. magnetic fields produced by bioelectric currents [2021.01]
+A61B   5/243  \	3	3	4C127	A61B   5/243	389	心磁計［ＭＣＧ］の信号に特に適合したもの［２０２１．０１］	specially adapted for magnetocardiographic [MCG] signals [2021.01]
+A61B   5/245  \	3	3	4C127	A61B   5/245	695	脳磁計［ＭＥＧ］の信号に特に適合したもの［２０２１．０１］	specially adapted for magnetoencephalographic [MEG] signals [2021.01]
+A61B   5/246  \	4	4	4C127	A61B   5/246	110	誘発反応を用いるもの［２０２１．０１］	using evoked responses [2021.01]
+A61B   5/248  \	3	3	4C127	A61B   5/248	51	神経磁界計測［ＭＮＧ］の信号に特に適合したもの，例．脊磁計［ＭＳＧ］の信号［２０２１．０１］	specially adapted for magnetoneurographic [MNG] signals, e.g. magnetospinographic [MSG] signals [2021.01]
+A61B   5/25  \	2	2	4C127	A61B   5/25	393	そのための生体電気用電極［２０２１．０１］	Bioelectric electrodes therefor [2021.01]
+A61B   5/251  \	3	3	4C127	A61B   5/251	32	電極と身体との接触を維持するための手段［２０２１．０１］	Means for maintaining electrode contact with the body [2021.01]
+A61B   5/252  \	4	4	4C127	A61B   5/252	115	吸着によるもの［２０２１．０１］	by suction [2021.01]
+A61B   5/254  \	4	4	4C127	A61B   5/254	108	クリップによるもの［２０２１．０１］	by clips [2021.01]
+A61B   5/256  \	4	4	4C127	A61B   5/256	748	ウェアラブル電極，例．ストラップまたはバンドを備えたもの［２０２１．０１］	Wearable electrodes, e.g. having straps or bands [2021.01]
+A61B   5/256 100 \	5	5	4C127	A61B   5/256	66	頭部に装着するもの	head-mounted
+A61B   5/256 110 \	6	6	4C127	A61B   5/256	555	ヘッドセット，例．ヘッドギア，ヘルメット，ヘッドバンドまたはヘッドホン型	Headsets, e.g., headgear, helmet, headband or headphone-type
+A61B   5/256 120 \	6	6	4C127	A61B   5/256	163	アイウエア，例．眼鏡型，ＨＭＤまたはコンタクトレンズ型	Eyewear, e.g., eyeglass-type, head-mounted displays (HMD) or contact lenses type
+A61B   5/256 130 \	6	6	4C127	A61B   5/256	255	耳介または外耳道内に装着するもの，例．イヤホン型（ヘッドホン型Ａ６１Ｂ５／２５６，１１０；眼鏡型Ａ６１Ｂ５／２５６，１２０）	worn on the auricle or inserted into the external auditory canal, e.g., earphone-type (headphone-type A61B5/256,110; eyeglass-type A61B5/256,120)
+A61B   5/256 200 \	5	5	4C127	A61B   5/256	111	胴体，首または四肢に装着するもの，例．ペンダント型	worn around the trunk, the neck or the four limbs, e.g., pendant-type
+A61B   5/256 210 \	6	6	4C127	A61B   5/256	757	胴体着衣型，例．上着，下着，肌着，帯，襷またはベルト	worn on the top half of the body, e.g., upper garments, underwear, clothing worn next to the skin, sashes, sashes worn across the chest or belts
+A61B   5/256 220 \	6	6	4C127	A61B   5/256	415	腕部または手部装着型，例．腕時計型，リストバンド，アームバンド，手袋型または指輪型	worn around the arm or the hand, e.g., wrist watch-type, wristbands, armbands, glove-type or finger ring type
+A61B   5/256 230 \	6	6	4C127	A61B   5/256	100	脚部または足部装着型，例．ズボン型，スパッツ型，靴下型または靴型	worn around the leg or over the foot, e.g., trousers-type, leggings-type, socks-type or shoes-type
+A61B   5/257  \	4	4	4C127	A61B   5/257	523	粘着手段を用いるもの，例．粘着パッドまたは粘着テープ［２０２１．０１］	using adhesive means, e.g. adhesive pads or tapes [2021.01]
+A61B   5/259  \	5	5	4C127	A61B   5/259	500	導電性粘着手段を用いるもの，例．ゲル［２０２１．０１］	using conductive adhesive means, e.g. gels [2021.01]
+A61B   5/26  \	3	3	4C127	A61B   5/26	42	被験者の動作によって身体と電極との接触を維持するもの，例．電極に身体を載置することによるものまたは電極を把持することによるもの［２０２１．０１］	maintaining contact between the body and the electrodes by the action of the subjects, e.g. by placing the body on the electrodes or by grasping the electrodes [2021.01]
+A61B   5/26 100 \	4	4	4C127	A61B   5/26	441	電極に身体を載置することによるもの，例．シートの座面に配設された電極	by placing the body on the electrodes, e.g., electrodes arranged on the seat surface
+A61B   5/26 200 \	4	4	4C127	A61B   5/26	700	電極を把持することによるもの	by grasping the electrodes
+A61B   5/262  \	3	3	4C127	A61B   5/262	296	針電極［２０２１．０１］	Needle electrodes [2021.01]
+A61B   5/263  \	3	3	4C127	A61B   5/263	837	電極の材料に特徴のあるもの［２０２１．０１］	characterised by the electrode materials [2021.01]
+A61B   5/265  \	4	4	4C127	A61B   5/265	394	銀または塩化銀を含むもの［２０２１．０１］	containing silver or silver chloride [2021.01]
+A61B   5/266  \	4	4	4C127	A61B   5/266	603	電解質，導電性ゲルまたは導電性ペーストを含むもの［２０２１．０１］	containing electrolytes, conductive gels or pastes [2021.01]
+A61B   5/268  \	4	4	4C127	A61B   5/268	317	導電性高分子を含むもの，例．ＰＥＤＯＴ：ＰＳＳポリマー［２０２１．０１］	containing conductive polymers, e.g. PEDOT:PSS polymers [2021.01]
+A61B   5/27  \	4	4	4C127	A61B   5/27	271	導電性布または導電性織物［２０２１．０１］	Conductive fabrics or textiles [2021.01]
+A61B   5/271  \	3	3	4C127	A61B   5/271	338	コード，ケーブルまたはリード線を有する電極装置，例．単一のリード線または患者コードアセンブリ［２０２１．０１］	Arrangements of electrodes with cords, cables or leads, e.g. single leads or patient cord assemblies [2021.01]
+A61B   5/273  \	4	4	4C127	A61B   5/273	500	コード，ケーブルまたはリード線の電極への接続［２０２１．０１］	Connection of cords, cables or leads to electrodes [2021.01]
+A61B   5/274  \	5	5	4C127	A61B   5/274	111	スナップファスナーまたはボタンファスナーを用いるもの［２０２１．０１］	using snap or button fasteners [2021.01]
+A61B   5/276  \	3	3	4C127	A61B   5/276	33	電極不良に対する保護［２０２１．０１］	Protection against electrode failure [2021.01]
+A61B   5/276 100 \	4	4	4C127	A61B   5/276	153	性能試験，例．電極の接触抵抗の測定	Performance tests, e.g., measurement of contact resistance of electrodes
+A61B   5/276 200 \	4	4	4C127	A61B   5/276	276	性能維持，例．防水	Maintaining performance, e.g., waterproof
+A61B   5/276 300 \	4	4	4C127	A61B   5/276	202	信号伝送の工夫，例．インピーダンス変換	Characteristics of signal transmission, e.g., impedance conversion
+A61B   5/277  \	3	3	4C127	A61B   5/277	135	容量性電極［２０２１．０１］	Capacitive electrodes [2021.01]
+A61B   5/279  \	3	3	4C127	A61B   5/279	1086	特定の用途に特に適合したもの［２０２１．０１］	specially adapted for particular uses [2021.01]
+A61B   5/28  \	4	4	4C127	A61B   5/28	1711	心電図検査［ＥＣＧ］のためのもの［２０２１．０１］	for electrocardiography [ECG] [2021.01]
+A61B   5/282  \	5	5	4C127	A61B   5/282	563	複数電極のためのホルダー（身体内に導入するためのものＡ６１Ｂ５／２８７）［２０２１．０１］	Holders for multiple electrodes (for introduction into the body A61B 5/287) [2021.01]
+A61B   5/283  \	5	5	4C127	A61B   5/283	62	侵襲的［２０２１．０１］	Invasive [2021.01]
+A61B   5/285  \	6	6	4C127	A61B   5/285	30	気管内，食道または胃のプローブ［２０２１．０１］	Endotracheal, oesophageal or gastric probes [2021.01]
+A61B   5/287  \	6	6	4C127	A61B   5/287	441	複数電極のためのホルダー，例．心臓電気生理学的検査［ＥＰＳ］のための電極カテーテル［２０２１．０１］	Holders for multiple electrodes, e.g. electrode catheters for electrophysiological study [EPS] [2021.01]
+A61B   5/287 100 \	7	7	4C127	A61B   5/287	117	先端部を偏向操作可能なもの	Deflectable extremity
+A61B   5/287 200 \	7	7	4C127	A61B   5/287	248	拡径可能な複数本のスパインまたはスプラインを有するもの，例．バスケット型	having multiple spines or splines with expandable diameters, e.g., basket-type
+A61B   5/287 300 \	7	7	4C127	A61B   5/287	100	バルーンを備えるもの	with balloons
+A61B   5/288  \	6	6	4C127	A61B   5/288	65	胎児心電図検査のためのもの，例．頭皮電極［２０２１．０１］	for foetal cardiography, e.g. scalp electrodes [2021.01]
+A61B   5/29  \	6	6	4C127	A61B   5/29	128	永久的または長期的な移植のためのもの［２０２１．０１］	for permanent or long-term implantation [2021.01]
+A61B   5/291  \	4	4	4C127	A61B   5/291	542	脳波検査［ＥＥＧ］のためのもの［２０２１．０１］	for electroencephalography [EEG] [2021.01]
+A61B   5/293  \	5	5	4C127	A61B   5/293	121	侵襲的［２０２１．０１］	Invasive [2021.01]
+A61B   5/294  \	4	4	4C127	A61B   5/294	48	神経伝導検査［ＮＣＳ］のためのもの［２０２１．０１］	for nerve conduction study [NCS] [2021.01]
+A61B   5/296  \	4	4	4C127	A61B   5/296	251	筋電図検査［ＥＭＧ］のためのもの［２０２１．０１］	for electromyography [EMG] [2021.01]
+A61B   5/297  \	4	4	4C127	A61B   5/297	108	眼電図検査［ＥＯＧ］のためのもの；網膜電図検査［ＥＲＧ］のためのもの［２０２１．０１］	for electrooculography [EOG]; for electroretinography [ERG] [2021.01]
+A61B   5/30  \	2	2	4C127	A61B   5/30	51	そのための入力回路［２０２１．０１］	Input circuits therefor [2021.01]
+A61B   5/301  \	3	3	4C127	A61B   5/301	50	電気的分離を提供するもの，例．絶縁トランスまたはオプトカプラの使用によるもの［２０２１．０１］	providing electrical separation, e.g. by using isolating transformers or optocouplers [2021.01]
+A61B   5/302  \	3	3	4C127	A61B   5/302	47	容量性電極またはイオン化電極のためのもの，例．金属酸化膜半導体電界効果トランジスタ［ＭＯＳＦＥＴ］［２０２１．０１］	for capacitive or ionised electrodes, e.g. metal-oxide-semiconductor field-effect transistors [MOSFET] [2021.01]
+A61B   5/304  \	3	3	4C127	A61B   5/304	190	切換回路［２０２１．０１］	Switching circuits [2021.01]
+A61B   5/305  \	3	3	4C127	A61B   5/305	101	同相信号除去［２０２１．０１］	Common mode rejection [2021.01]
+A61B   5/307  \	3	3	4C127	A61B   5/307	14	特定の用途に特に適合したもの［２０２１．０１］	specially adapted for particular uses [2021.01]
+A61B   5/308  \	4	4	4C127	A61B   5/308	933	心電図検査［ＥＣＧ］のためのもの［２０２１．０１］	for electrocardiography [ECG] [2021.01]
+A61B   5/31  \	4	4	4C127	A61B   5/31	489	脳波検査［ＥＥＧ］のためのもの［２０２１．０１］	for electroencephalography [EEG] [2021.01]
+A61B   5/311  \	4	4	4C127	A61B   5/311	30	神経伝導検査［ＮＣＳ］のためのもの［２０２１．０１］	for nerve conduction study [NCS] [2021.01]
+A61B   5/313  \	4	4	4C127	A61B   5/313	623	筋電図検査［ＥＭＧ］のためのもの［２０２１．０１］	for electromyography [EMG] [2021.01]
+A61B   5/315  \	4	4	4C127	A61B   5/315	79	眼電図検査［ＥＯＧ］のためのもの；網膜電図検査［ＥＲＧ］のためのもの［２０２１．０１］	for electrooculography [EOG]; for electroretinography [ERG] [2021.01]
+A61B   5/316  \	2	2	4C127	A61B   5/316	24	モダリティ，すなわち特定の診断方法［２０２１．０１］	Modalities, i.e. specific diagnostic methods [2021.01]
+A61B   5/318  \	3	3	4C127	A61B   5/318	754	心臓に関連する電気的モダリティ，例．心電図検査［ＥＣＧ］［２０２１．０１］	Heart-related electrical modalities, e.g. electrocardiography [ECG] [2021.01]
+A61B   5/319  \	4	4	4C127	A61B   5/319	50	心電信号のシミュレーションのための回路［２０２１．０１］	Circuits for simulating ECG signals [2021.01]
+A61B   5/321  \	4	4	4C127	A61B   5/321	108	そのための付属品または補助具，例．コードハンガ［２０２１．０１］	Accessories or supplementary instruments therefor, e.g. cord hangers [2021.01]
+A61B   5/322  \	5	5	4C127	A61B   5/322	30	ＥＣＧ波形を測定するための物的テンプレートまたは装置，例．心電図定規または心電図キャリパー［２０２１．０１］	Physical templates or devices for measuring ECG waveforms, e.g. electrocardiograph rulers or calipers
+A61B   5/324  \	5	5	4C127	A61B   5/324	4	電解質を供給するための手段，例．シリンジ［２０２１．０１］	Means for providing electrolytes, e.g. syringes [2021.01]
+A61B   5/325  \	4	4	4C127	A61B   5/325	4	電極取り付け部位の前処理，例．表皮剥離によるもの［２０２１．０１］	Preparing electrode sites, e.g. by abrasion [2021.01]
+A61B   5/327  \	4	4	4C127	A61B   5/327	38	測定された信号に基づく擬似ＥＣＧ信号の生成，例．欠落した誘導を補償するためのもの［２０２１．０１］	Generation of artificial ECG signals based on measured signals, e.g. to compensate for missing leads [2021.01]
+A61B   5/329  \	4	4	4C127	A61B   5/329	112	負荷診断，例．心臓負荷試験［２０２１．０１］	Load diagnosis, e.g. cardiac stress tests [2021.01]
+A61B   5/33  \	4	4	4C127	A61B   5/33	658	他の装置との連携に特に適合したもの［２０２１．０１］	specially adapted for cooperation with other devices [2021.01]
+A61B   5/33 100 \	5	5	4C127	A61B   5/33	509	他の治療装置との連携	Association with other therapeutic devices
+A61B   5/33 110 \	6	6	4C127	A61B   5/33	379	ペースメーカ	Pacemakers
+A61B   5/33 120 \	6	6	4C127	A61B   5/33	413	除細動器	Defibrillators
+A61B   5/33 200 \	5	5	4C127	A61B   5/33	726	他の診断装置との連携	Association with other diagnosis devices
+A61B   5/33 210 \	6	6	4C127	A61B   5/33	250	画像診断装置	Diagnostic imaging devices
+A61B   5/33 300 \	5	5	4C127	A61B   5/33	338	外部システムとの連携，例．外部サーバとの連携	Association with external systems, e.g., association with external servers
+A61B   5/332  \	4	4	4C127	A61B   5/332	1609	そのために特に適合した携帯型機器［２０２１．０１］	Portable devices specially adapted therefor [2021.01]
+A61B   5/333  \	4	4	4C127	A61B   5/333	295	そのために特に適合した記録装置［２０２１．０１］	Recording apparatus specially adapted therefor [2021.01]
+A61B   5/335  \	5	5	4C127	A61B   5/335	86	集積回路記憶装置を用いるもの［２０２１．０１］	using integrated circuit memory devices [2021.01]
+A61B   5/336  \	5	5	4C127	A61B   5/336	65	磁気記録装置［２０２１．０１］	Magnetic recording apparatus [2021.01]
+A61B   5/338  \	5	5	4C127	A61B   5/338	215	紙への印字記録［２０２１．０１］	Recording by printing on paper [2021.01]
+A61B   5/339  \	4	4	4C127	A61B   5/339	660	そのために特に適合した表示装置［２０２１．０１］	Displays specially adapted therefor [2021.01]
+A61B   5/341  \	5	5	4C127	A61B   5/341	144	ベクトル心電図［ＶＣＧ］［２０２１．０１］	Vectorcardiography [VCG] [2021.01]
+A61B   5/343  \	5	5	4C127	A61B   5/343	310	電位分布表示［２０２１．０１］	Potential distribution indication [2021.01]
+A61B   5/344  \	4	4	4C127	A61B   5/344	107	胎児心電図検査［２０２１．０１］	Foetal cardiography [2021.01]
+A61B   5/346  \	4	4	4C127	A61B   5/346	1390	心電図の解析［２０２１．０１］	Analysis of electrocardiograms [2021.01]
+A61B   5/347  \	5	5	4C127	A61B   5/347	209	信号の周波数分布を検出するもの［２０２１．０１］	Detecting the frequency distribution of signals [2021.01]
+A61B   5/349  \	5	5	4C127	A61B   5/349	162	心電図の特定パラメータを検出するもの［２０２１．０１］	Detecting specific parameters of the electrocardiograph cycle [2021.01]
+A61B   5/35  \	6	6	4C127	A61B   5/35	248	テンプレートマッチングによるもの［２０２１．０１］	by template matching [2021.01]
+A61B   5/352  \	6	6	4C127	A61B   5/352	2272	Ｒ波ピークの検出，例．診断装置を同期させるためのもの；Ｒ−Ｒ間隔の推定［２０２１．０１］	Detecting R peaks, e.g. for synchronising diagnostic apparatus; Estimating R-R interval [2021.01]
+A61B   5/352 100 \	7	7	4C127	A61B   5/352	536	Ｒ−Ｒ間隔の変動を評価するもの，例．ＨＲＶ，ＬＦ，ＨＦまたはＲＲ５０	evaluating R-R interval variations, e.g., HRV, LF, HF or RR50
+A61B   5/353  \	6	6	4C127	A61B   5/353	127	Ｐ波の検出［２０２１．０１］	Detecting P-waves [2021.01]
+A61B   5/355  \	6	6	4C127	A61B   5/355	153	Ｔ波の検出［２０２１．０１］	Detecting T-waves [2021.01]
+A61B   5/357  \	6	6	4C127	A61B   5/357	21	Ｕ波の検出［２０２１．０１］	Detecting U-waves [2021.01]
+A61B   5/358  \	6	6	4C127	A61B   5/358	127	ＳＴセグメントの検出［２０２１．０１］	Detecting ST segments [2021.01]
+A61B   5/36  \	6	6	4C127	A61B   5/36	132	ＰＱ間隔，ＰＲ間隔またはＱＴ間隔の検出［２０２１．０１］	Detecting PQ interval, PR interval or QT interval [2021.01]
+A61B   5/361  \	6	6	4C127	A61B   5/361	352	細動の検出［２０２１．０１］	Detecting fibrillation [2021.01]
+A61B   5/363  \	6	6	4C127	A61B   5/363	216	頻脈または徐脈の検出［２０２１．０１］	Detecting tachycardia or bradycardia [2021.01]
+A61B   5/364  \	6	6	4C127	A61B   5/364	161	異常なＥＣＧ間隔の検出，例．期外収縮または異所性拍動［２０２１．０１］	Detecting abnormal ECG interval, e.g. extrasystoles or ectopic heartbeats [2021.01]
+A61B   5/366  \	6	6	4C127	A61B   5/366	85	異常なＱＲＳ群の検出，例．拡幅［２０２１．０１］	Detecting abnormal QRS complex, e.g. widening [2021.01]
+A61B   5/367  \	4	4	4C127	A61B   5/367	787	心臓電気生理学的検査［ＥＰＳ］，例．電気的活性化マッピングまたは電気解剖学的マッピング［２０２１．０１］	Electrophysiological study [EPS], e.g. electrical activation mapping or electro-anatomical mapping [2021.01]
+A61B   5/367 100 \	5	5	4C127	A61B   5/367	217	電極カテーテルの位置検出に特徴のあるもの	characterised by detection of the positions of electrode catheters
+A61B   5/369  \	3	3	4C127	A61B   5/369	652	脳波検査［ＥＥＧ］［２０２１．０１］	Electroencephalography [EEG]
+A61B   5/37  \	4	4	4C127	A61B   5/37	114	頭蓋内脳波検査［ＩＣ−ＥＥＧ］，例．皮質脳波検査［ＥＣｏＧ］［２０２１．０１］	Intracranial electroencephalography [IC-EEG], e.g. electrocorticography [ECoG] [2021.01]
+A61B   5/372  \	4	4	4C127	A61B   5/372	962	脳波の解析［２０２１．０１］	Analysis of electroencephalograms [2021.01]
+A61B   5/374  \	5	5	4C127	A61B   5/374	547	信号の周波数分布を検出するもの，例．デルタ波，シータ波，アルファ波，ベータ波またはガンマ波の検出［２０２１．０１］	Detecting the frequency distribution of signals, e.g. detecting delta, theta, alpha, beta or gamma waves [2021.01]
+A61B   5/375  \	4	4	4C127	A61B   5/375	255	バイオフィードバックを用いるもの［２０２１．０１］	using biofeedback [2021.01]
+A61B   5/377  \	4	4	4C127	A61B   5/377	246	誘発反応を用いるもの［２０２１．０１］	using evoked responses [2021.01]
+A61B   5/378  \	5	5	4C127	A61B   5/378	541	視覚刺激［２０２１．０１］	Visual stimuli [2021.01]
+A61B   5/38  \	5	5	4C127	A61B   5/38	493	音響刺激または聴覚刺激［２０２１．０１］	Acoustic or auditory stimuli [2021.01]
+A61B   5/381  \	5	5	4C127	A61B   5/381	83	嗅覚刺激または味覚刺激［２０２１．０１］	Olfactory or gustatory stimuli [2021.01]
+A61B   5/383  \	5	5	4C127	A61B   5/383	457	体性感覚刺激，例．電気刺激［２０２１．０１］	Somatosensory stimuli, e.g. electric stimulation [2021.01]
+A61B   5/384  \	4	4	4C127	A61B   5/384	304	そのために特に適合した記録装置または表示装置［２０２１．０１］	Recording apparatus or displays specially adapted therefor [2021.01]
+A61B   5/386  \	4	4	4C127	A61B   5/386	43	そのための付属品または補助具［２０２１．０１］	Accessories or supplementary instruments therefor [2021.01]
+A61B   5/388  \	3	3	4C127	A61B   5/388	107	神経伝導検査，例．末梢神経の活動電位の検出［２０２１．０１］	Nerve conduction study, e.g. detecting action potential of peripheral nerves [2021.01]
+A61B   5/389  \	3	3	4C127	A61B   5/389	617	筋電図検査［ＥＭＧ］［２０２１．０１］	Electromyography [EMG] [2021.01]
+A61B   5/391  \	4	4	4C127	A61B   5/391	56	泌尿生殖器のもの［２０２１．０１］	of genito-urinary organs [2021.01]
+A61B   5/392  \	4	4	4C127	A61B   5/392	39	胃腸収縮の検出［２０２１．０１］	Detecting gastrointestinal contractions [2021.01]
+A61B   5/394  \	4	4	4C127	A61B   5/394	6	エレクトログロットグラフィまたはエレクトロパラトグラフィに特に適合したもの［２０２１．０１］	specially adapted for electroglottography or electropalatography [2021.01]
+A61B   5/395  \	4	4	4C127	A61B   5/395	356	刺激の詳細，例．ＥＭＧ応答を誘発するための神経刺激［２０２１．０１］	Details of stimulation, e.g. nerve stimulation to elicit EMG response [2021.01]
+A61B   5/397  \	4	4	4C127	A61B   5/397	528	筋電図の解析［２０２１．０１］	Analysis of electromyograms [2021.01]
+A61B   5/398  \	3	3	4C127	A61B   5/398	267	眼電図検査［ＥＯＧ］，例．眼振を検出するもの；網膜電図検査［ＥＲＧ］［２０２１．０１］	Electrooculography [EOG], e.g. detecting nystagmus; Electroretinography [ERG] [2021.01]
+A61B   6/00  \	0	0	4C093	A61B   6/00	446	放射線診断のための装置または器具；放射治療機器と組み合わされた放射線診断のための装置または器具（核医学の分野に適用される放射線強度を判定する機器，例．生体内計数Ｇ０１Ｔ１／１６１）［２０２４．０１］	Apparatus or devices for radiation diagnosis; Apparatus or devices for radiation diagnosis combined with radiation therapy equipment  (instruments measuring radiation intensity for application in the field of nuclear medicine, e.g. in vivo counting, G01T 1/161)
+A61B   6/00 500 \	1	1	4C093	A61B   6/00	117	放射線透視診断用機器	Component for radioscopic diagnosis
+A61B   6/00 501 \	2	2	4C093	A61B   6/00	53	蛍光板表示型透視診断用機器	Component for fluorescent plate indication type radioscopic diagnosis
+A61B   6/00 502 \	2	2	4C093	A61B   6/00	37	イメージ・インテンシファイア表示型透視診断用機器	Component for image intensifier indication type radioscopic diagnosis
+A61B   6/00 503 \	2	2	4C093	A61B   6/00	7	陰極線管表示型透視診断機器	Component for cathode ray tube indication type radioscopic diagnosis
+A61B   6/00 503 A	2	0	4C093	A61B   6/00	28	撮像管出力信号を用いるもの一般	using the image pickup tube output signal in general
+A61B   6/00 503 B	2	1	4C093	A61B   6/00	47	撮像管出力信号を用いるもの　Ｘ線フィルムを撮像するもの	using the image pickup tube output signal, image pickup with the X ray tube
+A61B   6/00 503 C	2	1	4C093	A61B   6/00	734	撮像管出力信号を用いるもの　Ｉ・Ｉ管出力によるもの	using the image pickup tube output signal, using the I-I tube output
+A61B   6/00 503 E	2	1	4C093	A61B   6/00	163	検出器出力信号を用いるもの	using the detector output signal
+A61B   6/00 503 F	2	1	4C093	A61B   6/00	209	固体映像変換器出力信号を用いるもの	using the solid image converter output signal
+A61B   6/00 503 J	2	1	4C093	A61B   6/00	374	輝尽性蛍光体フィルムを用いるもの一般	using the illuminance-consuming fluorescent film in general
+A61B   6/00 503 K	2	2	4C093	A61B   6/00	522	輝尽性蛍光体フィルムからのＸ線画像信号読出装置	Device for reading the X ray image signal from the illuminance-consuming fluorescent film
+A61B   6/00 503 L	2	2	4C093	A61B   6/00	99	輝尽性蛍光体フィルムの読出信号を用いる表示技術	Indication technology using the signal read from the illuminance-consuming fluorescent film
+A61B   6/00 503 Z	2	0	4C093	A61B   6/00	24	その他のもの	Others
+A61B   6/00 510 \	1	1	4C093	A61B   6/00	1069	回診用放射線診断用機器	Radiodiagnosis component for the round of visits
+A61B   6/00 511 \	2	2	4C093	A61B   6/00	60	緩衝のための構成	Configuration for shock absorbing
+A61B   6/00 520 \	1	1	4C093	A61B   6/00	61	放射線診断用機器の駆動制御（Ｘ線曝射制御Ｈ０５Ｇ）	Radiodiagnosis component drive control (X ray irradiation control H 05 G)
+A61B   6/00 520 A	1	0	4C093	A61B   6/00	103	Ｘ線ＴＶの同期信号との同期撮影	Synchronous photography with the X ray TV synchronisation signal
+A61B   6/00 520 M	1	0	4C093	A61B   6/00	1598	放射線照射の為の準備装置	Preparation device for radiation irradiation
+A61B   6/00 520 R	1	0	4C093	A61B   6/00	461	曝射条件の記録	Recording of the irradiation condition
+A61B   6/00 520 Z	1	0	4C093	A61B   6/00	3005	その他のもの	Others
+A61B   6/00 521 \	2	2	4C093	A61B   6/00	390	遠隔制御	Remote control
+A61B   6/00 530 \	1	1	4C093	A61B   6/00	14	特殊放射線診断用機器	Component for special radiodiagnosis
+A61B   6/00 530 A	1	0	4C093	A61B   6/00	451	動態撮影装置	Dynamic mode photography device
+A61B   6/00 530 B	1	0	4C093	A61B   6/00	93	Ｘ線映画装置〔Ｘ線映画のための回路Ｈ０５Ｇ１／６０〕	X ray movie device (circuit for the X ray movie H 05 G 1/60)
+A61B   6/00 530 Z	1	0	4C093	A61B   6/00	2631	その他のもの	Others
+A61B   6/00 533 \	2	2	4C093	A61B   6/00	892	放射線エネルギ別診断装置	Device for diagnosis by radiation energy
+A61B   6/00 535 \	2	2	4C093	A61B   6/00	272	生体信号との同期診断用機器（被写体の運動の予定された瞬間にＸ線写真を得るための回路装置；Ｈ０５Ｇ１／６２）	Component for diagnosis of synchronisation with the living body signal (circuit or device used to acquire the X ray photograph at the scheduled moment of the object's motion H 05 G 1/62)
+A61B   6/00 550 \	1	1	4C093	A61B   6/00	19	放射線診断のための画像処理	Image processing for radiodiagnosis
+A61B   6/00 550 A	1	0	4C093	A61B   6/00	1414	画像処理一般	Image processing in general
+A61B   6/00 550 B	1	1	4C093	A61B   6/00	106	生体容積の測定のためのもの	for measurement of the living body capacity
+A61B   6/00 550 C	1	1	4C093	A61B   6/00	224	生体運動変化量の測定のための手段	Means for measurement the living body motion change volume
+A61B   6/00 550 D	1	1	4C093	A61B   6/00	1676	輪郭抽出	Contour extraction
+A61B   6/00 550 M	1	0	4C093	A61B   6/00	1099	画像の強調処理一般	Image emphasising process in general
+A61B   6/00 550 N	1	1	4C093	A61B   6/00	340	周波数強調処理	Frequency emphasising process
+A61B   6/00 550 P	1	1	4C093	A61B   6/00	555	複数画像の重ね合わせによる強調処理	Emphasising process by overlapping multiple images
+A61B   6/00 550 S	1	1	4C093	A61B   6/00	1396	サブトラクション	Subtraction
+A61B   6/00 550 Z	1	0	4C093	A61B   6/00	1131	その他のもの	Others
+A61B   6/00 560 \	1	1	4C093	A61B   6/00	2306	データベース	database
+A61B   6/00 570 \	1	1	4C093	A61B   6/00	1295	放射線治療と結合している装置（放射線治療Ａ６１Ｎ５）	Device coupled with radiation treatment (radiation treatment A 61 N 5)
+A61B   6/00 590 \	1	1	4C093	A61B   6/00	8	付属装置	Auxiliary device
+A61B   6/00 590 B	1	0	4C093	A61B   6/00	73	放射線診断のための体格測定具	Measurement of the body dimensions for radiodiagnosis
+A61B   6/00 590 C	1	0	4C093	A61B   6/00	302	放射線診断のための位置の測定具	Position measuring instrument for radiodiagnosis
+A61B   6/00 590 E	1	0	4C093	A61B   6/00	65	放射線診断室〔レントゲン室〕	Radiodiagnosis room (roentgen room)
+A61B   6/00 590 M	1	0	4C093	A61B   6/00	60	レントゲン車	Roentgen car
+A61B   6/00 590 Z	1	0	4C093	A61B   6/00	287	その他のもの	Others
+A61B   6/02  \	1	1	4C093	A61B   6/02	70	異なる平面内を連続的に診断するための装置；立体放射線写真診断［２００６．０１］	Arrangements for diagnosis sequentially in different planes; Stereoscopic radiation diagnosis [2006.01]
+A61B   6/02 500 \	2	2	4C093	A61B   6/02	14	異なる平面内を連続的に診断するための装置	Instrument for continuous diagnosis in different planes
+A61B   6/02 500 A	2	0	4C093	A61B   6/02	66	装置一般，付属具	Device in general, accessory
+A61B   6/02 500 B	2	1	4C093	A61B   6/02	56	断層位置の決定，深度計	Decision of the stratigraphic position, depth meter
+A61B   6/02 500 F	2	1	4C093	A61B   6/02	137	制御技術	Control technology
+A61B   6/02 500 Z	2	0	4C093	A61B   6/02	65	その他のもの	Others
+A61B   6/02 501 \	3	3	4C093	A61B   6/02	13	体軸縦断層診断装置	Body axis longitudinal layer diagnosis device
+A61B   6/02 501 A	3	0	4C093	A61B   6/02	180	装置一般	Device in general
+A61B   6/02 501 D	3	1	4C093	A61B   6/02	236	直線軌道摺動型	Linear path slide type
+A61B   6/02 501 H	3	1	4C093	A61B   6/02	292	円弧軌道型	Arc path type
+A61B   6/02 501 R	3	2	4C093	A61B   6/02	37	平行四辺形リンク駆動機構を有するもの	having a parallelogram link drive mechanism
+A61B   6/02 501 Z	3	0	4C093	A61B   6/02	37	その他のもの	Others
+A61B   6/02 503 \	3	3	4C093	A61B   6/02	10	回転横断断層診断装置	Rotating and traversing stratigraphic diagnosis device
+A61B   6/02 503 A	3	0	4C093	A61B   6/02	96	装置一般	Device in general
+A61B   6/02 503 M	3	1	4C093	A61B   6/02	112	回転駆動機構	Rotation drive mechanism
+A61B   6/02 503 Z	3	0	4C093	A61B   6/02	9	その他のもの	Others
+A61B   6/02 550 \	2	2	4C093	A61B   6/02	25	立体放射線写真診断	Cubic radiogram diagnosis
+A61B   6/02 551 \	3	3	4C093	A61B   6/02	28	立体放射線写真診断装置	Cubic radiogram diagnosis device
+A61B   6/02 551 C	3	0	4C093	A61B   6/02	248	装置の全体構成に特徴を有するもの	characterized by the total configuration of the device
+A61B   6/02 551 M	3	0	4C093	A61B   6/02	55	深度・もしくは立体角を決定するための装置	Device used to determine the depth or cubic angle
+A61B   6/02 551 Z	3	0	4C093	A61B   6/02	89	その他のもの	Others
+A61B   6/03  \	2	2	4C093	A61B   6/03	238	コンピュータ断層撮影［ＣＴ］［２００６．０１］	Computed tomography [CT]
+A61B   6/03  A	2	0	4C093	A61B   6/03	72	放射線ＣＴ装置一般	Radiation CT device in general
+A61B   6/03  B	2	1	4C093	A61B   6/03	6	アナログ処理法	Analogue process method
+A61B   6/03  C	2	2	4C093	A61B   6/03	25	光学的処理	Optical processing
+A61B   6/03  D	2	2	4C093	A61B   6/03	5	蓄積管処理〔蓄積管それ自体Ｈ０１Ｊ３１／１８〕	Storage tube processing (storage tube per se H 01 J 31/18)
+A61B   6/03  Z	2	0	4C093	A61B   6/03	54	その他のもの	Others
+A61B   6/03 501 \	3	3	4C093	A61B   6/03	144	Ｘ線を除く放射線源を用いたＣＴスキャナー（エミッションＣＴ，Ｇ０１Ｔ１／１６１）	CT scanner using a radiation source other than X ray (emission CT G 01 T 1/15)
+A61B   6/03 510 \	3	3	4C093	A61B   6/03	19	原理・走査型式に特徴を有するもの	characterized by the theory or scan type
+A61B   6/03 510 A	3	0	4C093	A61B   6/03	66	散乱線断層法	Scattered radiation laminography
+A61B   6/03 510 Z	3	0	4C093	A61B   6/03	50	その他のもの	Others
+A61B   6/03 511 \	4	4	4C093	A61B   6/03	4	全角度投影法	Full angle projection method
+A61B   6/03 511 K	4	0	4C093	A61B   6/03	26	電子ビーム走査Ｘ線管型　静止／静止装置〔Ｓ／Ｓ〔Ｖ〕〕	Rest of the electron bean scan type X ray tube or resting device (S/S (V))
+A61B   6/03 511 Z	4	0	4C093	A61B   6/03	8	その他のもの	Others
+A61B   6/03 513 \	4	4	4C093	A61B   6/03	29	小角度投影法	Small angle projection method
+A61B   6/03 515 \	4	4	4C093	A61B   6/03	19	単一角度投影法	Single angle projection method
+A61B   6/03 520 \	3	3	4C093	A61B   6/03	3	データ取得のための装置構成の細部	Detail on device configuration for data acquisition
+A61B   6/03 520 A	3	0	4C093	A61B   6/03	36	細部一般	Details in general
+A61B   6/03 520 Z	3	0	4C093	A61B   6/03	72	その他のもの	Others
+A61B   6/03 521 \	4	4	4C093	A61B   6/03	21	ガントリー構成	Gantry configuration
+A61B   6/03 521 A	4	0	4C093	A61B   6/03	434	給電機構	Power feed mechanism
+A61B   6/03 521 B	4	0	4C093	A61B   6/03	194	冷却機構	Cooling mechanism
+A61B   6/03 521 C	4	0	4C093	A61B   6/03	19	直線走査機構	Linear scan mechanism
+A61B   6/03 521 D	4	0	4C093	A61B   6/03	302	回転走査機構	Rotary scan mechanism
+A61B   6/03 521 F	4	0	4C093	A61B   6/03	39	安全技術	Safety technology
+A61B   6/03 521 G	4	1	4C093	A61B   6/03	66	衝突防止	Collision prevention
+A61B   6/03 521 H	4	1	4C093	A61B   6/03	29	放射線防護〔シャッタＡ６１Ｂ６／４０，５３０Ｆ，放射線防護，遮へいそれ自体Ｇ２１Ｆ〕	Radiation protection (shutter A 61 B 6/03 320 F, radiation protection shield per se G 21 F)
+A61B   6/03 521 J	4	0	4C093	A61B   6/03	174	光軸合わせ	Beam axis alignment
+A61B   6/03 521 K	4	0	4C093	A61B   6/03	210	傾動機構	Tilting mechanism
+A61B   6/03 521 L	4	0	4C093	A61B   6/03	132	撮影領域切換機構	Photography area change-over mechanism
+A61B   6/03 521 N	4	0	4C093	A61B   6/03	504	高速度撮影技術	High-speed photography technology
+A61B   6/03 521 P	4	1	4C093	A61B   6/03	116	複数撮像機構	Multi-image pickup mechanism
+A61B   6/03 521 Q	4	1	4C093	A61B   6/03	470	複数断層像同時撮影機構	Multiple stratigraphic image simultaneous photography mechanism
+A61B   6/03 521 Z	4	0	4C093	A61B   6/03	451	その他のもの	Others
+A61B   6/03 523 \	4	4	4C093	A61B   6/03	6	ＣＴスキャナー用被検体載置台	Object mounting stand for the CT scanner
+A61B   6/03 523 A	4	0	4C093	A61B   6/03	474	台の位置決め技術	Stand alignment technology
+A61B   6/03 523 B	4	0	4C093	A61B   6/03	56	台構造	Stand structure
+A61B   6/03 523 C	4	1	4C093	A61B   6/03	103	材質・構造	Material or structure
+A61B   6/03 523 D	4	1	4C093	A61B   6/03	99	台の駆動機構	Stand drive mechanism
+A61B   6/03 523 E	4	2	4C093	A61B   6/03	165	摺動機構	Slide mechanism
+A61B   6/03 523 F	4	2	4C093	A61B   6/03	116	上下動機構	Vertical motion mechanism
+A61B   6/03 523 G	4	2	4C093	A61B   6/03	47	水平回動機構	Horizontal rotation mechanism
+A61B   6/03 523 H	4	2	4C093	A61B   6/03	8	ローリング機構	Rolling mechanism
+A61B   6/03 523 J	4	2	4C093	A61B   6/03	28	身体傾動機構	Body tilting mechanism
+A61B   6/03 523 K	4	2	4C093	A61B   6/03	21	頭部傾動機構	Head tilting mechanism
+A61B   6/03 523 P	4	1	4C093	A61B   6/03	63	被検体の固定	Object fastening
+A61B   6/03 523 Q	4	2	4C093	A61B   6/03	70	身体の固定	Body fastening
+A61B   6/03 523 R	4	2	4C093	A61B   6/03	148	頭部の固定	Head fastening
+A61B   6/03 523 Z	4	0	4C093	A61B   6/03	138	その他のもの	Others
+A61B   6/03 530 \	3	3	4C093	A61B   6/03	58	制御技術に特徴を有するもの（曝射量制御Ｈ０５Ｇ）	characterized by the control technology (exposure volume control H 05 G)
+A61B   6/03 530 A	3	0	4C093	A61B   6/03	713	制御技術一般	Control technology in general
+A61B   6/03 530 B	3	1	4C093	A61B   6/03	395	曝射量制御	Irradiation volume control
+A61B   6/03 530 C	3	1	4C093	A61B   6/03	212	曝射タイミングの決定	Decision of the irradiation timing
+A61B   6/03 530 Z	3	0	4C093	A61B   6/03	417	その他のもの	Others
+A61B   6/03 531 \	4	4	4C093	A61B   6/03	544	ガントリー駆動制御	Gantry drive control
+A61B   6/03 533 \	4	4	4C093	A61B   6/03	10	モニター	Monitor
+A61B   6/03 533 A	4	0	4C093	A61B   6/03	170	患者監視	Patient monitoring
+A61B   6/03 533 B	4	0	4C093	A61B   6/03	177	機器の異常検出	Component fault detection
+A61B   6/03 533 Z	4	0	4C093	A61B   6/03	87	その他のもの	Others
+A61B   6/03 540 \	3	3	4C093	A61B   6/03	10	データ−サンプリング	Data sampling
+A61B   6/03 540 A	3	0	4C093	A61B   6/03	158	データ−サンプリング一般	Data sampling in general
+A61B   6/03 540 B	3	0	4C093	A61B   6/03	14	スライス幅サンプリング	Slice width sampling
+A61B   6/03 540 Z	3	0	4C093	A61B   6/03	21	その他のもの	Others
+A61B   6/03 541 \	4	4	4C093	A61B   6/03	25	ペンシルビーム型，トランスレイション−ローテイション型用	Pencil beam type for the translation - rotation type
+A61B   6/03 543 \	4	4	4C093	A61B   6/03	25	ナローファンビーム型，トランスレイション−ローテイション型用	Narrow fan beam type for the translation - rotation type
+A61B   6/03 545 \	4	4	4C093	A61B   6/03	129	ローテイション／ローテイション型用	for the rotation/rotation type
+A61B   6/03 547 \	4	4	4C093	A61B   6/03	86	ローテイション／ステイショナリー型用	for the rotation/stationary type
+A61B   6/03 549 \	4	4	4C093	A61B   6/03	67	ステイショナリー／ステイショナリー型用	for the stationary/stationary type
+A61B   6/03 550 \	3	3	4C093	A61B   6/03	26	データ処理に特徴を有するもの（データ処理一般Ｇ０６Ｆ１５）	characterized by data processing (data processing in general G 06 F 15)
+A61B   6/03 550 A	3	0	4C093	A61B   6/03	143	前処理一般	Pre-processing in general
+A61B   6/03 550 D	3	1	4C093	A61B   6/03	93	Ａ／Ｄ変換	A/D conversion
+A61B   6/03 550 E	3	1	4C093	A61B   6/03	24	対数変換	Logarithmic conversion
+A61B   6/03 550 F	3	1	4C093	A61B   6/03	454	投影データに関する補正一般	Correction related to projection data in general
+A61B   6/03 550 G	3	2	4C093	A61B   6/03	230	放射Ｘ線の時間的・空間的変化の補正	Correction of radiated X ray on the time/space basis
+A61B   6/03 550 H	3	2	4C093	A61B   6/03	365	放射線検出器特性の時間的・空間的変化の補正	Correction of radiation detector characteristics on the time/space basis
+A61B   6/03 550 J	3	2	4C093	A61B   6/03	116	線質硬化補正	Ray quality hardening correction
+A61B   6/03 550 K	3	2	4C093	A61B   6/03	170	散乱Ｘ線補正	Scattered X ray correction
+A61B   6/03 550 L	3	2	4C093	A61B   6/03	114	体動補正	Body motion correction
+A61B   6/03 550 M	3	1	4C093	A61B   6/03	81	再構成演算	Re-configuration operation
+A61B   6/03 550 N	3	2	4C093	A61B   6/03	51	基本手法	Basic technique
+A61B   6/03 550 P	3	2	4C093	A61B   6/03	251	具体的再構成演算の細部	Details on specific re-configuration operation
+A61B   6/03 550 Q	3	3	4C093	A61B   6/03	72	平行投影データの抽出処理	Parallel projection data extraction process
+A61B   6/03 550 R	3	3	4C093	A61B   6/03	471	投影データの補間処理	Projection data interpolation process
+A61B   6/03 550 S	3	3	4C093	A61B   6/03	260	投影データのフィルタ処理	Projection data filtering process
+A61B   6/03 550 T	3	3	4C093	A61B   6/03	148	逆投影演算	Reverse projection operation
+A61B   6/03 550 U	3	3	4C093	A61B   6/03	420	その他の再構成演算	Other re-configuration operations
+A61B   6/03 550 V	3	4	4C093	A61B   6/03	155	部分領域再構成	Partial area re-configuration
+A61B   6/03 550 W	3	4	4C093	A61B   6/03	23	ファンビーム再構成	Fan beam re-configuration
+A61B   6/03 550 X	3	4	4C093	A61B   6/03	278	一次再生像の修正による再構成	Re-configuration by modification of the primary regenerated image
+A61B   6/03 550 Y	3	0	4C093	A61B   6/03	192	後処理	Post-processing
+A61B   6/03 550 Z	3	0	4C093	A61B   6/03	121	その他のもの	Others
+A61B   6/03 560 \	3	3	4C093	A61B   6/03	5	断層像処理・記録に特徴を有するもの	characterized by indication or recording of the stratigraphic image (indication control in general G 09 G, closed circuit television H 04 N 7/18)
+A61B   6/03 560 B	3	0	4C093	A61B   6/03	693	画像処理一般	Image processing in general
+A61B   6/03 560 C	3	1	4C093	A61B   6/03	156	ウインド幅調整	Window width adjustment
+A61B   6/03 560 D	3	1	4C093	A61B   6/03	1539	関心領域	Area in concern
+A61B   6/03 560 E	3	0	4C093	A61B   6/03	406	特殊画像一般	Special images in general
+A61B   6/03 560 F	3	1	4C093	A61B   6/03	54	拡大像	Enlarged image
+A61B   6/03 560 G	3	1	4C093	A61B   6/03	2863	立体像	Cubic image
+A61B   6/03 560 H	3	1	4C093	A61B   6/03	147	傾斜像	Tilted image
+A61B   6/03 560 J	3	1	4C093	A61B   6/03	1861	輪郭決定	Contour decision
+A61B   6/03 560 T	3	0	4C093	A61B   6/03	1240	データベース	database
+A61B   6/03 560 Z	3	0	4C093	A61B   6/03	24	その他のもの	Others
+A61B   6/03 570 \	3	3	4C093	A61B   6/03	12	特殊技術	Special technology
+A61B   6/03 570 A	3	0	4C093	A61B   6/03	75	特殊技術一般	Special technology in general
+A61B   6/03 570 B	3	1	4C093	A61B   6/03	620	生体信号との同期撮影〔同期撮影のための曝射制御それ自体Ｈ０５Ｇ１／６２〕	Photography synchronised with the living body signal (irradiation control per se for synchronised photography H 05 G 1/62)
+A61B   6/03 570 E	3	1	4C093	A61B   6/03	144	サブトラクション一般	Subtraction in general
+A61B   6/03 570 F	3	2	4C093	A61B   6/03	114	造影剤サブトラクション	Shadowing agent subtraction
+A61B   6/03 570 G	3	2	4C093	A61B   6/03	102	放射線エネルギ別サブトラクション	Subtraction by radiation energy
+A61B   6/03 570 Z	3	0	4C093	A61B   6/03	427	その他のもの	Others
+A61B   6/03 571 \	4	4	4C093	A61B   6/03	562	透視像の作成	Stratigraphic image creation
+A61B   6/03 573 \	4	4	4C093	A61B   6/03	830	エネルギー別撮影	Photography by energy
+A61B   6/03 577 \	4	4	4C093	A61B   6/03	2002	治療との組み合せ	Combination with treatment
+A61B   6/04  \	1	1	4C093	A61B   6/04	27	患者の位置決め；傾斜可能の寝台または類似装置［２００６．０１］	Positioning of patients; Tiltable beds or the like
+A61B   6/04 500 \	2	2	4C093	A61B   6/04	46	患者の固定	Patient fastening
+A61B   6/04 501 \	3	3	4C093	A61B   6/04	156	頭部の固定	Head fastening
+A61B   6/04 503 \	3	3	4C093	A61B   6/04	126	身体の固定	Body fastening
+A61B   6/04 505 \	3	3	4C093	A61B   6/04	94	腕・脚の固定	Arm/leg fastening
+A61B   6/04 507 \	3	3	4C093	A61B   6/04	26	乳幼児の固定	Infant fastening
+A61B   6/04 509 \	3	3	4C093	A61B   6/04	2	撮影部位の圧迫機構	Photographed part pressing mechanism
+A61B   6/04 509 A	3	0	4C093	A61B   6/04	145	腹部用	for abdomen
+A61B   6/04 509 B	3	0	4C093	A61B   6/04	341	乳房用	for mamma
+A61B   6/04 509 C	3	0	4C093	A61B   6/04	67	警報機構・制御機構	Warning mechanism or control mechanism
+A61B   6/04 509 Z	3	0	4C093	A61B   6/04	15	その他のもの	Others
+A61B   6/04 530 \	2	2	4C093	A61B   6/04	31	傾斜可能の寝台または類似装置	Tilting bed or similar device
+A61B   6/04 531 \	3	3	4C093	A61B   6/04	16	寝台型放射線診断台	Bed type radiodiagnosis stand
+A61B   6/04 531 A	3	0	4C093	A61B   6/04	76	天板材質	Top plate material
+A61B   6/04 531 B	3	0	4C093	A61B   6/04	214	天板構造	Top plate structure
+A61B   6/04 531 C	3	0	4C093	A61B   6/04	54	ヘッドレスト	Head rest
+A61B   6/04 531 D	3	0	4C093	A61B   6/04	38	ショルダー・ストッパー	Shoulder stopper
+A61B   6/04 531 E	3	0	4C093	A61B   6/04	67	アームレスト・アームホルダ	Arm rest or arm holder
+A61B   6/04 531 F	3	0	4C093	A61B   6/04	54	フットレスト	Foot rest
+A61B   6/04 531 Z	3	0	4C093	A61B   6/04	141	その他のもの	Others
+A61B   6/04 532 \	4	4	4C093	A61B   6/04	24	寝台型放射線診断台の駆動機構	Bed type radiodiagnosis stand drive mechanism
+A61B   6/04 532 A	4	0	4C093	A61B   6/04	205	摺動機構	Slide mechanism
+A61B   6/04 532 B	4	0	4C093	A61B   6/04	167	上下動機構	Vertical motion mechanism
+A61B   6/04 532 C	4	0	4C093	A61B   6/04	67	ロ−リング機構	Rolling mechanism
+A61B   6/04 532 D	4	0	4C093	A61B   6/04	39	水平回動機構	Horizontal rotation mechanism
+A61B   6/04 532 E	4	0	4C093	A61B   6/04	226	起倒機構	Stand-up/fall mechanism
+A61B   6/04 532 M	4	0	4C093	A61B   6/04	52	寝台駆動量の表示	Bed drive volume indication
+A61B   6/04 532 P	4	0	4C093	A61B   6/04	504	寝台の駆動制御，警報・安全装置	Bed drive control, warning/safety device
+A61B   6/04 532 T	4	0	4C093	A61B   6/04	11	放射線曝射量を寝台駆動量で制御するもの	Radiation irradiation volume controlled according to the bed drive volume
+A61B   6/04 532 U	4	0	4C093	A61B   6/04	124	スポットショット装置の駆動機構	Spot shot device drive control
+A61B   6/04 532 Z	4	0	4C093	A61B   6/04	50	その他のもの	Others
+A61B   6/04 533 \	3	3	4C093	A61B   6/04	69	座位型放射線診断台	Sitting type radiodiagnosis stand
+A61B   6/04 535 \	3	3	4C093	A61B   6/04	75	立位型放射線診断台	Standing type radiodiagnosis stand
+A61B   6/06  \	1	1	4C093	A61B   6/06	12	隔板［２００６．０１］	Diaphragms [2006.01]
+A61B   6/06 500 \	2	2	4C093	A61B   6/06	634	放射線遮光装置（Ｄｉａｐｈｒａｇｍ；Ｂｌｅｎｄｅ）（放射線用絞り一般Ｇ２１Ｋ）	Radiation beam shut-off device (Diaphragm; Blende) (radiation iris in general G 21 K)
+A61B   6/06 510 \	2	2	4C093	A61B   6/06	47	遮光円筒（Ｔｕｂｕｓ；Ｃｏｎｅ）	Beam shut-off cylinder (Tubus; Cone)
+A61B   6/06 530 \	2	2	4C093	A61B   6/06	247	格子状遮光装置	Grid type beam shut-off device
+A61B   6/06 531 \	3	3	4C093	A61B   6/06	260	格子構造に特徴を有するもの	characterized by the grid structure
+A61B   6/06 533 \	3	3	4C093	A61B   6/06	216	格子状遮光板の駆動構造	Grid type beam shut-off plate drive structure
+A61B   6/06 535 \	3	3	4C093	A61B   6/06	34	格子状遮光板の外観形状に特徴を有するもの	characterized by the external shape of the grid type beam shut-off plate
+A61B   6/06 550 \	2	2	4C093	A61B   6/06	11	回転式遮光装置	Rotary beam shut-off device
+A61B   6/06 551 \	3	3	4C093	A61B   6/06	10	回転式遮光板構造に特徴を有するもの	characterized by the rotary beam shut-off plate structure
+A61B   6/06 553 \	3	3	4C093	A61B   6/06	34	回転式遮光板の駆動構造に特徴を有するもの	characterized by the rotary beam shut-off plate drive structure
+A61B   6/06 570 \	2	2	4C093	A61B   6/06	107	格子状・回転式遮光装置の材料・製造法に特徴を有するもの	characterized by the material or manufacturing method of the grid type or rotary beam shut-off device
+A61B   6/06 590 \	2	2	4C093	A61B   6/06	62	ブッキー寝台	Bucky bed
+A61B   6/08  \	1	1	4C093	A61B   6/08	18	特定の点に放射線を照射するための補助手段，例．光線の使用［２００６．０１］	Auxiliary means for directing the radiation beam to a particular spot, e.g. using light beams [2006.01]
+A61B   6/08 500 \	2	2	4C093	A61B   6/08	93	光線の利用	Beam utilisation
+A61B   6/08 501 \	3	3	4C093	A61B   6/08	59	光源に特徴のあるもの	characterized by the light source
+A61B   6/08 503 \	3	3	4C093	A61B   6/08	90	光源の取付手段に特徴のあるもの	characterized by the light source installation means
+A61B   6/08 505 \	3	3	4C093	A61B   6/08	72	指標に特徴があるもの	characterized by the indicator
+A61B   6/08 507 \	3	3	4C093	A61B   6/08	81	距離測定手段を有するもの	having a distance measurement means
+A61B   6/08 509 \	3	3	4C093	A61B   6/08	18	照射野測定手段を有するもの	having an irradiated field measurement means
+A61B   6/08 509 A	3	0	4C093	A61B   6/08	115	照射野測定手段を有するもの一般	having an irradiated field measurement means in general
+A61B   6/08 509 B	3	0	4C093	A61B   6/08	103	照射野の自動位置決め手段に特徴を有するもの	characterized by the irradiated field automatic alignment means
+A61B   6/08 509 Z	3	0	4C093	A61B   6/08	41	その他のもの	Others
+A61B   6/08 510 \	2	2	4C093	A61B   6/08	153	光線以外の測定装置	Measuring device for other than beam
+A61B   6/08 530 \	2	2	4C093	A61B   6/08	95	断層診断のためのもの	for stratigraphic diagnosis
+A61B   6/08 531 \	3	3	4C093	A61B   6/08	32	測定装置と診断装置との自動位置決め手段に特徴を有するもの	characterized by the automatic alignment means between the measuring device and diagnosis device
+A61B   6/10  \	1	1	4C093	A61B   6/10	27	放射線診断に特に適した安全手段［２００６．０１］	Safety means specially adapted therefor [2006.01]
+A61B   6/10 500 \	2	2	4C093	A61B   6/10	107	放射線に対する安全装置	Safety device against radiation
+A61B   6/10 501 \	3	3	4C093	A61B   6/10	80	患者に適用するもの	applied to the patient
+A61B   6/10 502 \	3	3	4C093	A61B   6/10	107	術者・介護者に適用するもの	applied to the operator or assistant
+A61B   6/10 503 \	3	3	4C093	A61B   6/10	293	放射線診断装置に取付けられたもの	attached to the radiodiagnosis device
+A61B   6/10 550 \	2	2	4C093	A61B   6/10	203	衝突防止	Collision prevention
+A61B   6/10 551 \	3	3	4C093	A61B   6/10	101	接触検知	Contact detection
+A61B   6/10 553 \	3	3	4C093	A61B   6/10	152	停止機構	Stop mechanism
+A61B   6/10 555 \	3	3	4C093	A61B   6/10	68	警報機構	Alarm mechanism
+A61B   6/12  \	1	1	4C093	A61B   6/12	1149	異物を検出または探知するための装置［２００６．０１］	Arrangements for detecting or locating foreign bodies [2006.01]
+A61B   6/40  \	1	1	4C093	A61B   6/40	0	放射線診断に特に適した放射線を発生するための装置［２０２４．０１］	Arrangements for generating radiation specially adapted for radiation diagnosis [2024.01]
+A61B   6/40 500 \	2	2	4C093	A61B   6/40	15	放射線透視診断用機器	Component for radioscopic diagnosis
+A61B   6/40 500 A	2	0	4C093	A61B   6/40	206	放射線源に特徴を有するもの	characterized by the radiation source
+A61B   6/40 500 B	2	1	4C093	A61B   6/40	159	電子ビーム固定型Ｘ線管に特徴を有するもの	characterized by the electron beam fixed type X ray tube
+A61B   6/40 500 C	2	1	4C093	A61B   6/40	63	電子ビーム走査型Ｘ線管を用いるもの	using the electron beam scan type X ray tube
+A61B   6/40 500 D	2	1	4C093	A61B   6/40	1530	Ｘ線管の支持機構	X ray tube supporting mechanism
+A61B   6/40 500 G	2	0	4C093	A61B   6/40	297	放射線シャッタに特徴を有するもの	characterized by the radiation shutter
+A61B   6/40 500 J	2	0	4C093	A61B   6/40	676	放射線フィルタに特徴を有するもの	characterized by the radiation filter
+A61B   6/40 500 Z	2	0	4C093	A61B   6/40	1	その他のもの	Others
+A61B   6/40 520 \	3	3	4C093	A61B   6/40	0	異なる平面内を連続的に診断するための装置；立体放射線写真診断	Devices for diagnosis sequentially in different planes; Stereoscopic radiation diagnosis
+A61B   6/40 521 \	4	4	4C093	A61B   6/40	1	異なる平面内を連続的に診断するための装置	Instrument for continuous diagnosis in different planes
+A61B   6/40 523 \	4	4	4C093	A61B   6/40	0	立体放射線写真診断	Cubic radiogram diagnosis device
+A61B   6/40 523 A	4	0	4C093	A61B   6/40	72	Ｘ線管並びにＸ線管の取り付に特徴を有するもの	characterized by the X ray tube or installation of the X ray tube
+A61B   6/40 523 Z	4	0	4C093	A61B   6/40	0	その他のもの	Others
+A61B   6/40 530 \	4	4	4C093	A61B   6/40	0	コンピュータ断層撮影	computed tomography
+A61B   6/40 530 B	4	0	4C093	A61B   6/40	275	放射線源に特徴を有するもの	characterised by the radiation sources
+A61B   6/40 530 C	4	1	4C093	A61B   6/40	273	電子ビーム固定型Ｘ線管〔Ｘ線管とそれ自体Ｈ０１Ｊ３５〕	Electron beam fixed type X ray tube (X ray tube per se H 01 J 35)
+A61B   6/40 530 D	4	1	4C093	A61B   6/40	138	電子ビーム走査型Ｘ線管〔Ｘ線管とそれ自体Ｈ０１Ｊ３５〕	Electron beam scan type X ray tube (X ray tube per se H 01 J 35)
+A61B   6/40 530 E	4	1	4C093	A61B   6/40	11	Ｘ線外放射線源〔核医学Ｇ０１Ｔ１／１６１，ラジオアイソトープＧ２１Ｇ４／００〕	Radiation source other than X ray (nuclear medicine G 01 T 1/161, radioisotope G 21 G 4/00)
+A61B   6/40 530 F	4	0	4C093	A61B   6/40	23	シャッタ〔放射線の防護遮へいそれ自体Ｇ２１Ｆ〕	Shutter (radiation shield per se G 21 F)
+A61B   6/40 530 G	4	0	4C093	A61B   6/40	72	絞り〔絞りそれ自体Ｇ２１Ｋ１／０２〕	Iris (iris per se G 21 K 1/02)
+A61B   6/40 530 H	4	0	4C093	A61B   6/40	203	コリメ−タ〔コリメ−タそれ自体Ｇ２１Ｋ１／０２，１／０４〕	Collimator (collimator per se G 21 K 1/02, 1/04)
+A61B   6/40 530 J	4	1	4C093	A61B   6/40	153	幅固定式コリメ−タ	Width fixed type collimator
+A61B   6/40 530 K	4	1	4C093	A61B   6/40	273	幅可変式コリメ−タ	Width variable type collimator
+A61B   6/40 530 L	4	1	4C093	A61B   6/40	28	電子ビーム走査型Ｘ線管用コリメータ	Collimator for the electron beam scan type X ray tube
+A61B   6/40 530 M	4	0	4C093	A61B   6/40	231	フィルタ〔フィルタそれ自体Ｇ２１Ｋ３／００〕	Filter (filter per se G 21 K 3/00)
+A61B   6/40 530 Z	4	0	4C093	A61B   6/40	0	その他のもの	Others
+A61B   6/42  \	1	1	4C093	A61B   6/42	0	放射線診断に特に適した放射線を検知するための装置［２０２４．０１］	Arrangements for detecting radiation specially adapted for radiation diagnosis [2024.01]
+A61B   6/42 500 \	2	2	4C093	A61B   6/42	0	放射線透視診断用機器	Component for radioscopic diagnosis
+A61B   6/42 500 M	2	0	4C093	A61B   6/42	169	放射線検出手段に特徴を有するもの	characterized by the radiation detection means
+A61B   6/42 500 N	2	1	4C093	A61B   6/42	53	蛍光体	Fluorescent body
+A61B   6/42 500 P	2	1	4C093	A61B   6/42	79	イメージ・インテンシファイア	Image intensifier
+A61B   6/42 500 Q	2	1	4C093	A61B   6/42	929	シンチレーター型検出器	Scintillator type detector
+A61B   6/42 500 R	2	1	4C093	A61B   6/42	73	電離箱型検出器	Ion chamber type detector
+A61B   6/42 500 S	2	1	4C093	A61B   6/42	3528	半導体型検出器	Semiconductor type detector
+A61B   6/42 500 T	2	1	4C093	A61B   6/42	330	輝尽性蛍光体フィルム，同カセッテ	Illuminance-consuming fluorescent film, its cassette
+A61B   6/42 500 U	2	1	4C093	A61B   6/42	41	イオノグラフィー用検出器	Ionography detector
+A61B   6/42 500 V	2	1	4C093	A61B   6/42	27	ゼログラフィー用検出器	Xerography detector
+A61B   6/42 500 W	2	1	4C093	A61B   6/42	1766	Ｘ線フィルム・カセッテ，増感紙	X ray film/cassette, intensifying screen
+A61B   6/42 500 X	2	1	4C093	A61B   6/42	1704	放射線検出手段の支持機構	Supporting mechanism for the radiation detection means
+A61B   6/42 500 Y	2	1	4C093	A61B   6/42	239	放射線検出手段と放射線撮影装置との組合せに特徴を有するもの〔スポット・ショット装置〕	characterized by the combination of the radiation detection means and radiation photography device (spot shot device)
+A61B   6/42 500 Z	2	0	4C093	A61B   6/42	3	その他のもの	Others
+A61B   6/42 520 \	3	3	4C093	A61B   6/42	0	異なる平面内を連続的に診断するための装置；立体放射線写真診断	Devices for diagnosis sequentially in different planes; Stereoscopic radiation diagnosis
+A61B   6/42 521 \	4	4	4C093	A61B   6/42	0	異なる平面内を連続的に診断するための装置	Instrument for continuous diagnosis in different planes
+A61B   6/42 521 A	4	0	4C093	A61B   6/42	42	断層診断用検出器，フィルム〔多層同時撮影含〕	Stratigraphic diagnosis detector or film (including simultaneous multi-layer photography)
+A61B   6/42 521 Z	4	0	4C093	A61B   6/42	0	その他のもの	Others
+A61B   6/42 523 \	4	4	4C093	A61B   6/42	0	立体放射線写真診断	Cubic radiogram diagnosis
+A61B   6/42 523 A	4	0	4C093	A61B   6/42	33	検出素子，並びに検出素子の取り付に特徴を有するもの	characterized by the detection device or installation of the detection device
+A61B   6/42 523 Z	4	0	4C093	A61B   6/42	0	その他のもの	Others
+A61B   6/42 530 \	4	4	4C093	A61B   6/42	0	コンピュータ断層撮影	computed tomography
+A61B   6/42 530 P	4	0	4C093	A61B   6/42	264	検出手段に特徴を有するもの	characterized by the detection means
+A61B   6/42 530 Q	4	1	4C093	A61B   6/42	121	検出器原理	Theory of detector
+A61B   6/42 530 R	4	2	4C093	A61B   6/42	419	半導体型検出器〔半導体型検出器それ自体，Ｈ０１Ｌ３１〕	Semiconductor type detector (semiconductor type detector per se H 01 L 31)
+A61B   6/42 530 S	4	2	4C093	A61B   6/42	428	シンチレータ・ホトマル型検出器〔シンチグラフ，Ｇ０１Ｔ１／１６４〕	Scintillator/photomultiplier type detector (scintigraph G 01 T 1/164)
+A61B   6/42 530 T	4	2	4C093	A61B   6/42	21	スクリーン・イメージインテンシファイア〔イメージ・インテンシファイアそれ自体Ｈ０１Ｊ３１／５０〕	Screen image intensifier (image intensifier per se H 01 J 31/50)
+A61B   6/42 530 U	4	2	4C093	A61B   6/42	19	フィルム〔フィルムＧ０３Ｃ，フィルム用支持器Ｇ０３Ｂ４２／０４〕	Film (film G 03 C, film supporter G 03 B 42/04)
+A61B   6/42 530 V	4	2	4C093	A61B   6/42	163	電離箱型検出器〔電離箱型検出器それ自体Ｈ０１Ｊ４７〕	Ion chamber type detector (ion chamber type detector per se H 01 J 47)
+A61B   6/42 530 W	4	1	4C093	A61B   6/42	348	検出器構造一般	Detector structure in general
+A61B   6/42 530 X	4	2	4C093	A61B   6/42	91	配列密度に特徴を有するもの	characterized by the arrangement density
+A61B   6/42 530 Y	4	2	4C093	A61B   6/42	450	多列配備に特徴を有するもの	characterized by the multi-row arrangement
+A61B   6/42 530 Z	4	0	4C093	A61B   6/42	2	その他のもの	Others
+A61B   6/46  \	1	1	4C093	A61B   6/46	3	操作者または患者とのインターフェースのための装置［２０２４．０１］	Arrangements for interfacing with the operator or the patient [2024.01]
+A61B   6/46 500 \	2	2	4C093	A61B   6/46	4	放射線透視診断用機器	Component for radioscopic diagnosis
+A61B   6/46 502 \	3	3	4C093	A61B   6/46	1691	駆動制御に関するもの	related to the drive control
+A61B   6/46 506 \	3	3	4C093	A61B   6/46	38	放射線診断のための画像表示に特徴を有するもの（ＴＶ技術Ｈ０４Ｎ）	characterized by image display for radiodiagnosis (TV technology H 04 N)
+A61B   6/46 506 A	3	0	4C093	A61B   6/46	186	カラー表示	Colour display
+A61B   6/46 506 B	3	0	4C093	A61B   6/46	1276	複数画像の重ね合せ表示	Display of multiple images overlapped
+A61B   6/46 506 Z	3	0	4C093	A61B   6/46	9211	その他のもの	Others
+A61B   6/46 509 \	3	3	4C093	A61B   6/46	132	放射線写真の観察装置〔シャウカステンそれ自体Ｇ０２Ｂ２７／０２〕	Radiogram observation device (schaukasten per se G 02 B 27/02)
+A61B   6/46 520 \	3	3	4C093	A61B   6/46	0	異なる平面内を連続的に診断するための装置；立体放射線写真診断	Devices to make a successive diagnosis in different planes; Stereo radiographic diagnosis
+A61B   6/46 521 \	4	4	4C093	A61B   6/46	0	異なる平面内を連続的に診断するための装置	Devices to make a successive diagnosis in different planes
+A61B   6/46 521 A	4	0	4C093	A61B   6/46	165	断層診断の為の表示技術	Display technology for stratigraphic diagnosis
+A61B   6/46 521 Z	4	0	4C093	A61B   6/46	1	その他のもの	Others
+A61B   6/46 523 \	4	4	4C093	A61B   6/46	18	立体放射線写真診断	Cubic radiogram diagnosis
+A61B   6/46 523 A	4	0	4C093	A61B   6/46	100	光学的観察装置	Optical observation device
+A61B   6/46 523 B	4	0	4C093	A61B   6/46	214	立体テレビジョンシステム	Cubic television system
+A61B   6/46 523 C	4	0	4C093	A61B   6/46	129	断層像から立体像を合成するもの	Synthesising a cubic image from stratigraphic images
+A61B   6/46 523 Z	4	0	4C093	A61B   6/46	199	その他のもの	Others
+A61B   6/46 530 \	4	4	4C093	A61B   6/46	2	コンピュータ断層撮影	computed tomography
+A61B   6/46 536 \	5	5	4C093	A61B   6/46	1	断層像表示に特徴を有するもの（表示の制御一般Ｇ０９Ｇ，閉回路テレビジョンＨ０４Ｎ７／１８）	characterized by indication or recording of the stratigraphic image (indication control in general G 09 G, closed circuit television H 04 N 7/18)
+A61B   6/46 536 A	5	0	4C093	A61B   6/46	144	表示技術一般	Indication technology in general
+A61B   6/46 536 M	5	1	4C093	A61B   6/46	299	表示技術細部	Details on indication technology
+A61B   6/46 536 N	5	2	4C093	A61B   6/46	123	表示回路	Indication circuit
+A61B   6/46 536 P	5	2	4C093	A61B   6/46	586	画像の複数表示	Multi-image display
+A61B   6/46 536 Q	5	2	4C093	A61B   6/46	1362	複数画像の合成表示	Multi-image synthesising and display
+A61B   6/46 536 Z	5	0	4C093	A61B   6/46	513	その他のもの	Others
+A61B   6/50  \	1	1	4C093	A61B   6/50	1	特定の身体部位に特に適したもの；特定の臨床応用に特に適したもの［２０２４．０１］	specially adapted for specific body parts; specially adapted for specific clinical applications [2024.01]
+A61B   6/50 500 \	2	2	4C093	A61B   6/50	0	特定の身体部位に特に適したもの	Specially adapted for specific parts of the body
+A61B   6/50 500 A	2	0	4C093	A61B   6/50	968	消化管（胃，食道，腸）	the dijestive tract (the stomach, the esophagus, the intestines)
+A61B   6/50 500 B	2	0	4C093	A61B   6/50	4795	循環器（心臓，血管）	the circulation system (the heart, blood vessels)
+A61B   6/50 500 C	2	0	4C093	A61B   6/50	1948	呼吸器	the respiratory system
+A61B   6/50 500 D	2	0	4C093	A61B   6/50	1076	頭部	the head
+A61B   6/50 500 E	2	0	4C093	A61B   6/50	2244	乳房	the breasts
+A61B   6/50 500 Z	2	0	4C093	A61B   6/50	1308	その他のもの	Others
+A61B   6/50 510 \	2	2	4C093	A61B   6/50	3	特定の臨床応用に特に適したもの	Specially adapted for specific clinical application
+A61B   6/50 511 \	3	3	4C093	A61B   6/50	29	造影剤を用いる放射線診断用機器〔投与装置それ自体Ａ６１Ｍ〕	Radiodiagnosis component using a shadowing agent (dosage device per se A 61 M)
+A61B   6/50 511 A	3	0	4C093	A61B   6/50	370	造影剤を用いる放射線診断用機器一般	Radiodiagnosis component using a shadowing agent in general
+A61B   6/50 511 C	3	1	4C093	A61B   6/50	3	吸入投与のためのもの	for dosage by inhaling
+A61B   6/50 511 D	3	1	4C093	A61B   6/50	59	経口投与のためのもの	for dosage by ingestion
+A61B   6/50 511 E	3	1	4C093	A61B   6/50	808	血管内投与のためのもの	for intra-vascular dosage
+A61B   6/50 511 F	3	1	4C093	A61B   6/50	80	体腔内注入のためのもの	for injection into the body cavity
+A61B   6/50 511 G	3	1	4C093	A61B   6/50	1035	コンピュータ断層撮影に特に適したもの	Specially adapted for computed tomography
+A61B   6/50 511 Z	3	0	4C093	A61B   6/50	56	その他のもの	Others
+A61B   6/50 513 \	3	3	4C093	A61B   6/50	419	骨塩量	amount of bone mineral
+A61B   6/50 515 \	3	3	4C093	A61B   6/50	400	分割撮影装置，例．長尺撮影装置	Image segmentation devices, e.g., long-length imaging devices
+A61B   6/50 517 \	3	3	4C093	A61B   6/50	808	位相コントラスト撮影装置	phase contrast imaging devices
+A61B   6/51  \	2	2	4C093	A61B   6/51	124	歯科用のもの［２０２４．０１］	for dentistry [2024.01]
+A61B   6/51 500 \	3	3	4C093	A61B   6/51	747	歯科用放射線診断装置（歯科用に特に適合した測定器Ａ６１Ｃ１９／０４）	Dental radiodiagnosis device (measuring instrument suitable for dentists A 61 C 19/04)
+A61B   6/51 501 \	4	4	4C093	A61B   6/51	172	歯科用放射線診断装置の取り付けに特徴があるもの	characterized by installation of the dental radiodiagnosis device
+A61B   6/51 510 \	3	3	4C093	A61B   6/51	457	全顎（パノラマ）・頭部規格放射線診断装置	Full-jaw (panorama) or head standard radiodiagnosis device
+A61B   6/51 511 \	4	4	4C093	A61B   6/51	401	全顎放射線診断装置	Full-jaw radiodiagnosis device
+A61B   6/51 513 \	4	4	4C093	A61B   6/51	75	頭部規格診断装置	Head standard radiodiagnosis device
+A61B   6/58  \	1	1	4C093	A61B   6/58	0	試験，調整または較正［２０２４．０１］	Testing, adjusting or calibrating thereof [2024.01]
+A61B   6/58 500 \	2	2	4C093	A61B   6/58	6	試験，調整または較正のためのもの	for testing, adjusting and calibration
+A61B   6/58 500 A	2	0	4C093	A61B   6/58	410	較正装置・基準物質	Calibration device or reference substance
+A61B   6/58 500 B	2	1	4C093	A61B   6/58	367	コンピュータ断層撮影に特に適したもの	Specially adapted for computed tomography
+A61B   6/58 500 Z	2	0	4C093	A61B   6/58	4	その他のもの	Others
+A61B   7/00  \	0	0	4C028	A61B   7/00	4	聴診機器	Instruments for auscultation
+A61B   7/00  A	0	0	4C028	A61B   7/00	4	聴診機器一般	Stethoscope in general
+A61B   7/00  B	0	0	4C028	A61B   7/00	37	他の装置との組合せ	Combination with another device
+A61B   7/00  C	0	0	4C028	A61B   7/00	10	消毒装置〔消毒一般Ａ６１Ｌ２〜１１〕	Disinfection device (disinfection in general A 61 L 2 to 11)
+A61B   7/00  D	0	0	4C028	A61B   7/00	46	補助具	Supplementary instrument
+A61B   7/00  Z	0	0	4C028	A61B   7/00	18	その他のもの	Others
+A61B   7/02  \	1	1	4C028	A61B   7/02	4	聴診器	Stethoscopes
+A61B   7/02  A	1	0	4C028	A61B   7/02	8	聴診器一般	Stethoscope in general
+A61B   7/02  B	1	1	4C028	A61B   7/02	11	加温装置；保温装置	Warming device; heat keeping device
+A61B   7/02  C	1	1	4C028	A61B   7/02	10	聴診器の把持構成に特徴を有するもの	characterized by the configuration of the stethoscope handle
+A61B   7/02  E	1	1	4C028	A61B   7/02	6	聴胴	Stethoscope body
+A61B   7/02  F	1	2	4C028	A61B   7/02	52	聴胴構造の細部	Details on the stethoscope body structure
+A61B   7/02  G	1	3	4C028	A61B   7/02	16	聴胴内周面の形状に特徴を有するもの	characterized by the shape of the stethoscope body inner surface
+A61B   7/02  H	1	2	4C028	A61B   7/02	88	ダイヤフラムを有する聴胴	Stethoscope body having a diaphragm
+A61B   7/02  J	1	2	4C028	A61B   7/02	11	複数の集音部を有する聴胴〔Ｇ・Ｈが優先〕	Stethoscope body having multiple sound collectors (G and H take precedence.)
+A61B   7/02  K	1	3	4C028	A61B   7/02	20	複数集音部を有する聴胴における聴診集音部の切換構造	Stethoscope sound collector change-over structure at the stethoscope body having multiple sound collectors
+A61B   7/02  L	1	2	4C028	A61B   7/02	16	音響導管の取り付け部	Acoustic conduit attached part
+A61B   7/02  N	1	1	4C028	A61B   7/02	3	音響導管	Acoustic conduit
+A61B   7/02  P	1	2	4C028	A61B   7/02	24	音響導管の管構造	Conduit structure of the acoustic conduit
+A61B   7/02  Q	1	2	4C028	A61B   7/02	14	Ｙ字管	Y type tube
+A61B   7/02  R	1	1	4C028	A61B   7/02	2	耳管	Ear tube
+A61B   7/02  S	1	2	4C028	A61B   7/02	27	検者への装着部材	Member for mounting on the operator
+A61B   7/02  T	1	2	4C028	A61B   7/02	4	耳管の一部を回動できるようにしたもの	Part of the ear tube that can be rotated
+A61B   7/02  U	1	2	4C028	A61B   7/02	34	耳栓	Ear plug
+A61B   7/02  V	1	0	4C028	A61B   7/02	2	特殊構造聴診器	Stethoscope with a special structure
+A61B   7/02  W	1	1	4C028	A61B   7/02	7	複数人で聴診するように構成したことに特徴を有するもの	characterized by the configuration for auscultation by multiple people
+A61B   7/02  X	1	1	4C028	A61B   7/02	17	複式聴診器；比較聴診器；立体聴診器	Double stethoscope, comparison stethoscope, cubic stethoscope
+A61B   7/02  Y	1	1	4C028	A61B   7/02	9	剛性聴診器	Rigid stethoscope
+A61B   7/02  Z	1	0	4C028	A61B   7/02	10	その他のもの	Others
+A61B   7/04  \	2	2	4C028	A61B   7/04	12	電気聴診器［２００６．０１］	Electric stethoscopes
+A61B   7/04  A	2	0	4C028	A61B   7/04	135	電気聴診器一般	Electrical stethoscope in general
+A61B   7/04  B	2	0	4C028	A61B   7/04	83	受音部に特徴を有するもの	characterized by the sound receiver
+A61B   7/04  C	2	1	4C028	A61B   7/04	50	聴胴内に電気回路部分を組込んだもの	Electrical circuit integrated into the stethoscope body
+A61B   7/04  D	2	1	4C028	A61B   7/04	42	直接受音するもの	Direct sound reception
+A61B   7/04  E	2	2	4C028	A61B   7/04	64	接触子を有する受音器	Sound receiver having a contactor
+A61B   7/04  F	2	2	4C028	A61B   7/04	28	連結子を有する受音器	Sound receiver having a linker
+A61B   7/04  G	2	2	4C028	A61B   7/04	70	面接触構成受音器	Sound receiver with surface contact configuration
+A61B   7/04  H	2	1	4C028	A61B   7/04	21	間接受音するもの	Indirect sound reception
+A61B   7/04  J	2	2	4C028	A61B   7/04	89	ダイヤフラムを有する集音部内に受音部を組み込んだもの	Sound receiver integrated into the sound collector having a diaphragm
+A61B   7/04  K	2	2	4C028	A61B   7/04	13	ダイヤフラムを有する集音部と受音部が別体構造のもの	Sound collection having a diaphragm that is separate the sound receiver
+A61B   7/04  L	2	0	4C028	A61B   7/04	132	電気回路に特徴を有するもの	characterized by the electrical circuit
+A61B   7/04  M	2	1	4C028	A61B   7/04	36	増幅の制御	Amplification control
+A61B   7/04  N	2	1	4C028	A61B   7/04	102	ろ波回路に特徴を有するもの	characterized by the filtering circuit
+A61B   7/04  P	2	1	4C028	A61B   7/04	14	複数出力信号の切換回路	Multiple output signal change-over circuit
+A61B   7/04  Q	2	1	4C028	A61B   7/04	20	心拍数の測定〔Ａ６１Ｂ５／０２　１０２優先〕	Heart rate measurement (A 61 B 5/02 102 takes precedence.)
+A61B   7/04  R	2	1	4C028	A61B   7/04	62	受音部の接触検知	Sound receiver contact detection
+A61B   7/04  S	2	1	4C028	A61B   7/04	61	信号の伝送に特徴を有するもの	characterized by signal transmission
+A61B   7/04  T	2	1	4C028	A61B   7/04	55	聴音のための構成	Configuration for sound listening
+A61B   7/04  U	2	1	4C028	A61B   7/04	111	表示；記録のための構成	Configuration for indication or recording
+A61B   7/04  V	2	0	4C028	A61B   7/04	65	特殊電気聴診器	Special electrical stethoscope
+A61B   7/04  W	2	1	4C028	A61B   7/04	28	複式電気聴診器；比較電気聴診器；立体電気聴診器	Double electrical stethoscope, comparison electrical stethoscope, cubic electrical stethoscope
+A61B   7/04  X	2	1	4C028	A61B   7/04	32	体腔内挿入型電気聴診器	Body cavity inserted type electrical stethoscope
+A61B   7/04  Y	2	1	4C028	A61B   7/04	101	他の装置との組み合せ	Combination with another device
+A61B   7/04  Z	2	0	4C028	A61B   7/04	34	その他のもの	Others
+A61B   8/00  \	0	0	4C601	A61B   8/00	19256	超音波，音波または亜音波を用いることによる診断［４］	Diagnosis using ultrasonic, sonic or infrasonic waves [4]
+A61B   8/02  \	1	1	4C601	A61B   8/02	180	脈拍または心拍数の測定［４］	Measuring pulse or heart rate [4]
+A61B   8/04  \	1	1	4C601	A61B   8/04	142	血圧の測定［４］	Measuring blood pressure [4]
+A61B   8/06  \	1	1	4C601	A61B   8/06	3756	血流の測定［４］	Measuring blood flow [4]
+A61B   8/08  \	1	1	4C601	A61B   8/08	3837	臨床応用（Ａ６１Ｂ８／０２，　Ａ６１Ｂ８／０４，Ａ６１Ｂ８／０６が優先）［２００６．０１］	Clinical applications  (A61B 8/02, A61B 8/04, A61B 8/06 take precedence)
+A61B   8/10  \	1	1	4C601	A61B   8/10	232	眼の検査［４］	Eye inspection [4]
+A61B   8/12  \	1	1	4C601	A61B   8/12	5599	体腔または人体の管状部の内部で用いるもの［２００６．０１］	in body cavities or body tracts, e.g. by using catheters
+A61B   8/13  \	1	1	4C601	A61B   8/13	1360	断層撮影（Ａ６１Ｂ８／１０，Ａ６１Ｂ８／１２が優先）［２００６．０１］	Tomography (A61B 8/10, A61B 8/12 take precedence)
+A61B   8/14  \	2	2	4C601	A61B   8/14	13223	エコー断層撮影［４］	Echo-tomography [4]
+A61B   8/15  \	2	2	4C601	A61B   8/15	196	透過法による断層撮影［５］	Transmission-tomography
+A61B   9/00  \	0	0	4C029	A61B   9/00	66	打診による診察機器；打診槌	Instruments for examination by percussion; Pleximeters
+A61B  10/00  \	0	0	4C029	A61B  10/00	228	診断を目的として身体の試料を採取するための機器（血液試料を採取するためのものＡ６１Ｂ５／１５）；診断のための他の方法または機器，例．ワクチン接種の診断をするためのもの，性別の決定または排卵期の決定；咽喉をたたく器具［２００６．０１］	Instruments for taking body samples for diagnostic purposes (for taking samples of blood A61B 5/15); Other methods or instruments for diagnosis, e.g. for vaccination diagnosis, sex determination or ovulation-period determination; Throat striking implements
+A61B  10/00  A	0	0	4C029	A61B  10/00	53	他の診断法または診断機器一般（Ａ６１Ｂ１０／００Ｆ，Ａ６１Ｂ１０／００Ｔ，Ａ６１Ｂ１０／００Ｕ優先）	Another diagnosis method or diagnosis component in general (F, T, and U take precedence.)
+A61B  10/00  B	0	1	4C029	A61B  10/00	261	電磁気を用いた他の診断法または診断機器一般	Another diagnosis method or diagnosis component in general using electromagnetism
+A61B  10/00  C	0	1	4C029	A61B  10/00	50	電気化学を用いた他の診断法または診断機器一般	Another diagnosis method or diagnosis component in general using electrochemistry
+A61B  10/00  D	0	1	4C029	A61B  10/00	98	化学，生化学を用いた他の診断法または診断機器一般	Another diagnosis method or diagnosis component in general using chemistry or biochemistry
+A61B  10/00  E	0	1	4C029	A61B  10/00	3184	光学を用いた他の診断法または診断機器一般	Another diagnosis method or diagnosis component in general using optics
+A61B  10/00  F	0	1	4C029	A61B  10/00	89	負荷診断一般（心電計測Ａ６１Ｂ５／０４，３１０）	Load diagnosis in general (electrocardiographic measurement R A 61 B 5/04 310)
+A61B  10/00  G	0	1	4C029	A61B  10/00	225	診断のためのデータ処理	Data processing for diagnosis
+A61B  10/00  H	0	0	4C029	A61B  10/00	1398	特定病名診断一般（Ａ６１Ｂ１０／００Ｔ，Ａ６１Ｂ１０／００Ｕ優先）	Particular disease name diagnosis in general (T and U take precedence.)
+A61B  10/00  J	0	1	4C029	A61B  10/00	88	耳鼻咽腔科系診断（オージオメータＡ６１Ｂ５／１２）	Diagnosis for otolaryngology (audiometer A 61 B 5/12)
+A61B  10/00  K	0	1	4C029	A61B  10/00	430	循環器系診断	Circulatory diagnosis
+A61B  10/00  L	0	1	4C029	A61B  10/00	189	呼吸器系診断	Respiratory diagnosis
+A61B  10/00  M	0	1	4C029	A61B  10/00	111	消化器系診断	Digestive diagnosis
+A61B  10/00  N	0	1	4C029	A61B  10/00	278	産婦人科系診断（産婦人科用の形状または寸法測定Ａ６１Ｂ５／１０，３００）	Diagnosis for obstetrics and gynecology (shape or dimension measurement for obstetrics and gynecology A 61 B 5/10 300)
+A61B  10/00  P	0	2	4C029	A61B  10/00	52	妊娠検査	Pregnancy inspection
+A61B  10/00  Q	0	1	4C029	A61B  10/00	264	皮ふ科系診断	Diagnosis for dermatology
+A61B  10/00  R	0	1	4C029	A61B  10/00	151	外科系診断	Diagnosis for surgery
+A61B  10/00  S	0	1	4C029	A61B  10/00	35	小児科系診断	Diagnosis for paediatrics
+A61B  10/00  T	0	1	4C029	A61B  10/00	572	ガン診断	Cancer diagnosis
+A61B  10/00  U	0	1	4C029	A61B  10/00	182	糖尿病；腎臓病診断	Diabetes or renopathy diagnosis
+A61B  10/00  V	0	0	4C029	A61B  10/00	345	他の検査一般（臨床検査Ｇ０１Ｎ３３；Ａ６１Ｂ１０／００Ｔ，Ａ６１Ｂ１０／００Ｕ優先）	Other inspections in general (clinical inspection G 01 N 33) (T and U take precedence.)
+A61B  10/00  W	0	1	4C029	A61B  10/00	78	めまいの検査	Vertigo inspection
+A61B  10/00  X	0	1	4C029	A61B  10/00	369	感覚検査	Sense inspection
+A61B  10/00  Y	0	0	4C029	A61B  10/00	194	検査または診断のための補助具（Ａ６１Ｂ１０／００Ｔ，Ａ６１Ｂ１０／００Ｕ優先）	Supplementary instrument for inspection or analysis (T and U take precedence.)
+A61B  10/00  Z	0	0	4C029	A61B  10/00	41	その他のもの	Others
+A61B  10/00 301 \	1	1	4C029	A61B  10/00	11	診断ワクチン接種用機器（ワクチン予防法，ワクチン治療Ａ６１Ｂ１７／２０）	Diagnostic vaccination component (prevention with vaccination, treatment with vaccination A 61 B 17/20)
+A61B  10/00 303 \	1	1	4C029	A61B  10/00	12	性の決定	Gender decision
+A61B  10/00 305 \	1	1	4C029	A61B  10/00	1	排卵期の決定（月経周期表Ｇ０６Ｃ３／００）	Decision of the ovulatory time (menstrual cycle table G 06 C 3/00)
+A61B  10/00 305 A	1	0	4C029	A61B  10/00	70	排卵期の決定一般	Decision of the ovulatory time in general
+A61B  10/00 305 B	1	0	4C029	A61B  10/00	210	基礎体温に基づくもの	based on the basic body temperature
+A61B  10/00 305 P	1	0	4C029	A61B  10/00	54	生化学検査に基づくもの	based on the biochemical inspection
+A61B  10/00 305 Z	1	0	4C029	A61B  10/00	31	その他のもの	Others
+A61B  10/00 307 \	1	1	4C029	A61B  10/00	0	咽喉をたたく器具	Throat knocking instrument
+A61B  10/00 310 \	1	1	4C029	A61B  10/00	48	排便機能の検査（検便用具，便の分析Ｇ０１Ｎ）	Inspection of the defecation function (stool test instrument, stool analysis G 01 N)
+A61B  10/00 500 \	1	1	4C029	A61B  10/00	142	体内からの液体サンプルの採取，例．胃液の採取	extrcting liquid sample from interior of body, e.g. extracting gastric juices
+A61B  10/02  \	1	1	4C029	A61B  10/02	34	細胞の標本を取るためのまたは生検のための機器［２００６．０１］	Instruments for taking cell samples or for biopsy
+A61B  10/02 110 \	2	2	4C029	A61B  10/02	751	尖ったまたは鋭い生検器具	biopsy instrument with pointe or sharp edge
+A61B  10/02 110 A	2	0	4C029	A61B  10/02	68	前立腺用	for prostate
+A61B  10/02 110 B	2	0	4C029	A61B  10/02	114	骨，脊髄または軟骨サンプル採取用	for taking samples from bone, spinal cord or cartilage
+A61B  10/02 110 H	2	0	4C029	A61B  10/02	348	サンプルを切断するための手段	means to cut off samples
+A61B  10/02 110 J	2	1	4C029	A61B  10/02	410	サンプル用ノッチを持つもの，例．インナースタイレットの側面上のもの	with notch for taking samples, e.g. on side of inner stylet
+A61B  10/02 110 K	2	0	4C029	A61B  10/02	517	真空吸引するもの，例．格納されたプランジャまたは接続されたシリンジによって引き起こされるもの	for vacuum suction, e.g. caused by housed plunger or connected syringe
+A61B  10/02 110 Z	2	0	4C029	A61B  10/02	143	その他	Others
+A61B  10/02 130 \	2	2	4C029	A61B  10/02	287	擦過細胞採取	cell collection by decortication
+A61B  10/02 140 \	3	3	4C029	A61B  10/02	192	子宮用	for uterus
+A61B  10/02 150 \	2	2	4C029	A61B  10/02	221	吸引式（生検針によるものＡ６１Ｂ１０／０２，１１０Ｋ）	suction type (by biopsy needle A61B10/02, 110K)
+A61B  10/02 160 \	2	2	4C029	A61B  10/02	107	カプセル式	capsule type
+A61B  10/02 300 \	2	2	4C029	A61B  10/02	7	付属	accessories
+A61B  10/02 300 A	2	0	4C029	A61B  10/02	112	器具の位置検出のための部材，例．生検針にマーカを備えるもの	members for detecting position of tools, e.g. attach marker to biopsy needle
+A61B  10/02 300 D	2	0	4C029	A61B  10/02	119	センサを備えるもの，例．生検針に測定器を付加したもの	attach sensor, e.g. attach measuring instrument to biopsy needle
+A61B  10/02 300 Z	2	0	4C029	A61B  10/02	304	その他	Others
+A61B  10/02 500 \	2	2	4C029	A61B  10/02	207	他に分類されない細胞採取	cell collection not otherwise provided for
+A61B  10/04  \	2	2	4C029	A61B  10/04	587	内視鏡用器具，例．カテーテル形の器具［２００６．０１］	Endoscopic instruments, e.g. catheter-type instruments
+A61B  10/06  \	2	2	4C029	A61B  10/06	536	生検鉗子［８］	Biopsy forceps
+A61B  13/00  \	0	0	4C160	A61B  13/00	120	舌を押下げるための機器（照明および内視用機器と結合するものＡ６１Ｂ１／２４；排唾器と結合するものＡ６１Ｃ１７／１０）［５］	Instruments for depressing the tongue (combined with illuminating and viewing instruments A61B 1/24; combined with saliva removers A61C 17/10) [5]
+A61B  16/00  \	0	0	4C160	A61B  16/00	100	生体解剖または剖検に適用される用具［２００６．０１］	Devices specially adapted for vivisection or autopsy
+A61B  17/00  \	0	0	4C160	A61B  17/00	2152	手術用機器，器具，または方法（Ａ６１Ｂ１８／００が優先；歯科用工具Ａ６１Ｃ３／００；眼科手術用Ａ６１Ｆ９／００７；耳科手術用Ａ６１Ｆ１１／２０）［２００６．０１］	Surgical instruments, devices or methods  (A61B 18/00 takes precedence; dental tools A61C 3/00;  eye surgery A61F 9/007;  ear surgery A61F 11/20)
+A61B  17/00 400 \	1	1	4C160	A61B  17/00	441	手術用接着剤塗布器	applicator for surgical adhesives
+A61B  17/00 500 \	1	1	4C160	A61B  17/00	1006	中空器官または管状器官の壁部中の開口を塞栓するためのもの，例．血管穿刺部の密封または心臓中隔欠損の閉鎖のためのもの	for plugging an opening in the wall of a hollow or tubular organ, e.g. for sealing a vessel puncture or closing a cardiac septal defect
+A61B  17/00 600 \	1	1	4C160	A61B  17/00	173	女性の腹圧性尿失禁を治療するためのもの（尿道用支持スリングＡ６１Ｆ２／００）	for treatment of female stress urinary incontinence (supporting sling for urethra A61F2/00)
+A61B  17/00 700 \	1	1	4C160	A61B  17/00	1288	超音波を使用する手術用機器（機械的振動を用いて結石を除去または破壊するための侵襲器具Ａ６１Ｂ１７／２２，５１０，体外衝撃波による砕石用装置Ａ６１Ｂ１７／２２５，機械的振動，例．超音波を使用するものＡ６１Ｂ１７／３２，５１０）	Surgical instruments using ultrasonic wave (for invasive removal or destruction of calculus using mechanical vibrations A61B17/22, 510, for extracorporeal shock wave lithotripsy A61B17/225, mechanical vibration, e.g. using ultrasonic wave A61B17/32, 510)
+A61B  17/02  \	1	1	4C160	A61B  17/02	1714	傷の開口把持用，例．開創器；牽引器［２００６．０１］	for holding wounds open, e.g. retractors; Tractors
+A61B  17/03  \	1	1	4C160	A61B  17/03	212	傷の閉鎖用，または傷を閉鎖把持するもの；それらと使用するための付属具［２００６．０１］	for closing wounds or holding wounds closed; Accessories for use therewith
+A61B  17/04  \	2	2	4C160	A61B  17/04	2267	傷の縫合用；針または縫合材料のためのホルダまたは包装［２００６．０１］	for suturing wounds; Holders or packages for needles or suture materials [3]
+A61B  17/06  \	3	3	4C160	A61B  17/06	298	縫合針；針または縫合材料のためのホルダまたは包装［２００６．０１］	Needles; Holders or packages for needles or suture materials
+A61B  17/06 510 \	4	4	4C160	A61B  17/06	834	縫合針	Raphe needle
+A61B  17/06 520 \	4	4	4C160	A61B  17/06	323	縫合針または縫合材料の包装	Packing of the raphe needle or raphe material
+A61B  17/062  \	3	3	4C160	A61B  17/062	396	針を操作する器具［２００６．０１］	Needle manipulators [6]
+A61B  17/062 100 \	4	4	4C160	A61B  17/062	387	持針器	Needle holder
+A61B  17/064  \	2	2	4C160	A61B  17/064	492	手術用ステープル［２００６．０１］	Surgical staples [5]
+A61B  17/068  \	2	2	4C160	A61B  17/068	807	手術用ステープラー（吻合術を行うためのものＡ６１Ｂ１７／１１５）［２００６．０１］	Surgical staplers(for performing anastomosis A61B17/115) [5]
+A61B  17/072  \	3	3	4C160	A61B  17/072	2481	単一動作で一列のステープルを適用するためのもの，例．同時に適用されるステープル［２００６．０１］	for applying a row of staples in a single action, e.g. the staples being applied simultaneously
+A61B  17/076  \	2	2	4C160	A61B  17/076	16	手術用ステープルを除去するためのもの［２００６．０１］	for removing surgical staples [5]
+A61B  17/08  \	2	2	4C160	A61B  17/08	579	傷口クランプ［２００６．０１］	Wound clamps
+A61B  17/10  \	2	2	4C160	A61B  17/10	597	傷口クランプを適用または取り去るためのもの；傷口クランプマガジン［２００６．０１］	for applying or removing wound clamps; Wound clamp magazines
+A61B  17/11  \	2	2	4C160	A61B  17/11	1170	吻合を行うためのもの；吻合用ボタン［２００６．０１］	for performing anastomosis; Buttons for anastomosis
+A61B  17/115  \	3	3	4C160	A61B  17/115	1010	吻合するためのステープラー，例．単一の操作で［２００６．０１］	Staplers for performing anastomosis, e.g. in a single operation
+A61B  17/12  \	1	1	4C160	A61B  17/12	2872	人体の管状部分，例．血管またはへその緒，を結紮または圧迫するためのもの［２００６．０１］	for ligaturing or otherwise compressing tubular parts of the body, e.g. blood vessels or umbilical cord
+A61B  17/12 100 \	2	2	4C160	A61B  17/12	38	臍帯結紮器具	Funis knotting instrument
+A61B  17/122  \	2	2	4C160	A61B  17/122	1039	クランプまたはクリップ，例．へその緒のためのもの［２００６．０１］	Clamps or clips, e.g. for the umbilical cord
+A61B  17/122 100 \	3	3	4C160	A61B  17/122	203	カ−トリッジ式のもの（Ａ６１Ｂ１７／１２５に優先）	of cartridge type (precedes over A61B17/125)
+A61B  17/125  \	3	3	4C160	A61B  17/125	48	切断器具と結合するもの［２００６．０１］	combined with cutting implements [6]
+A61B  17/128  \	2	2	4C160	A61B  17/128	864	クランプまたはクリップを適用または除去するためのもの［２００６．０１］	for applying or removing clamps or clips [6]
+A61B  17/128 100 \	3	3	4C160	A61B  17/128	198	カ−トリッジ式のもの	of cartridge type
+A61B  17/132  \	2	2	4C160	A61B  17/132	372	止血帯［２００６．０１］	Blood stopping band [6]
+A61B  17/135  \	3	3	4C160	A61B  17/135	337	膨張可能なもの［２００６．０１］	inflatable [6]
+A61B  17/138  \	2	2	4C160	A61B  17/138	15	切断器具と結合するもの（Ａ６１Ｂ１７／１２５が優先）［２００６．０１］	combined with cutting implements(A61B17/125 takes precedence) [6]
+A61B  17/14  \	1	1	4C160	A61B  17/14	369	手術用ののこぎり（歯のための歯科用のこぎりＡ６１Ｃ３／１２）［２００６．０１］	Surgical saws  (dental saws for teeth A61C 3/12)
+A61B  17/15  \	2	2	4C160	A61B  17/15	516	そのための案内具［２００６．０１］	Guides therefor [6]
+A61B  17/16  \	1	1	4C160	A61B  17/16	1941	骨砕術を行うための器具；骨用ドリルまたはノミ；円鋸［２００６．０１］	Instruments for performing osteoclasis; Drills or chisels for bones; Trepans
+A61B  17/17  \	2	2	4C160	A61B  17/17	1009	ドリル用案内具［２００６．０１］	Guides for drills [6]
+A61B  17/20  \	1	1	4C160	A61B  17/20	187	ワクチン接種のためのものまたはワクチン接種に先だって皮膚を清浄するためのもの［２００６．０１］	for vaccinating or cleaning the skin previous to the vaccination
+A61B  17/22  \	1	1	4C160	A61B  17/22	1912	人体の内部器官の潰瘍またはその類似物を絞り取るための器具；人体器官，例．骨，の腔部を削り取るための器具；機械的振動を用いて結石を除去または破壊するための侵襲器具；血管の詰まりを除去するための装置で他に分類されないもの［２００６．０１］	Implements for squeezing-off ulcers or the like on inner organs of the body; Implements for scraping-out cavities of body organs, e.g. bones; Calculus removers; Calculus smashing apparatus
+A61B  17/22 510 \	2	2	4C160	A61B  17/22	584	機械的振動を用いて結石を除去または破壊するための侵襲器具	implements for invasive removal or destruction of calculus using mechanical vibration
+A61B  17/22 528 \	2	2	4C160	A61B  17/22	738	ループまたはバスケット型除去装置（結石つかみ装置Ａ６１Ｂ１７／２２１）	removing devices in the form of loops or baskets (calculus gripping devices A61B17/221)
+A61B  17/221  \	2	2	4C160	A61B  17/221	490	ループまたはバスケット型結石つかみ装置［２００６．０１］	Calculus gripping devices in the form of loops or baskets [8]
+A61B  17/225  \	1	1	4C160	A61B  17/225	666	体外衝撃波による砕石用装置［ＥＳＷＬ］，例．超音波使用によるもの［２００６．０１］	for extracorporeal shock wave lithotripsy [ESWL], e.g. by using ultrasonic waves [6]
+A61B  17/24  \	1	1	4C160	A61B  17/24	858	口腔，咽頭，気管支，鼻に使用するためのもの（人体の窩部または管部の診察を行うためのものＡ６１Ｂ１／００）；舌擦過器［２００６．０１］	for use in the oral cavity, larynx, bronchial passages or nose (for medical inspection of cavities or tubes in the body A61B 1/00); Tongue scrapers
+A61B  17/26  \	2	2	4C160	A61B  17/26	24	止血装置を備えまたは備えない扁桃腺切除器［２００６．０１］	Tonsillotomes, with or without means for stopping bleeding
+A61B  17/28  \	1	1	4C160	A61B  17/28	2811	手術用鉗子（生検鉗子Ａ６１Ｂ１０／０６；産科用鉗子Ａ６１Ｂ１７／４４）［２００６．０１］	Surgical forceps (obstetrical forceps A61B 17/44)
+A61B  17/285  \	2	2	4C160	A61B  17/285	164	切断器具を伴うもの［２００６．０１］	combined with cutting implements [8]
+A61B  17/29  \	2	2	4C160	A61B  17/29	2069	低侵襲手術で使用するための鉗子［２００６．０１］	Forceps for use in minimally invasive surgery [8]
+A61B  17/295  \	3	3	4C160	A61B  17/295	382	切断器具を伴うもの［２００６．０１］	combined with cutting implements [8]
+A61B  17/30  \	1	1	4C160	A61B  17/30	389	手術用ピンセット，すなわち手術用鑷子［２００６．０１］	Surgical pincettes, i.e. surgical tweezers
+A61B  17/32  \	1	1	4C160	A61B  17/32	1610	手術用切断機器（結紮兼切断用器具Ａ６１Ｂ１７／１２５，Ａ６１Ｂ１７／１３８）［２００６．０１］	Surgical cutting instruments, e.g. scalpels; Endoscopic cutting instruments (other endoscopes A61B 1/00; endoscopes for biopsy A61B 10/00; implements for ligaturing and cutting A61B 17/125, A61B 17/138) [3]
+A61B  17/32 510 \	2	2	4C160	A61B  17/32	2346	機械的振動，例．超音波を使用するもの（Ａ６１Ｂ１７／３２　５２８−Ａ６１Ｂ１７／３２６に優先）	using mechanical vibration, e.g. ultrasonic wave (precedes over A61B17/32 528 to A61B17 326)
+A61B  17/32 528 \	2	2	4C160	A61B  17/32	226	手術用スネア機器（ループまたはバスケット型除去装置Ａ６１Ｂ１７／２２，５２８）	surgical snares instruments (loop or basket type removal device A61B17/22, 528)
+A61B  17/3201  \	2	2	4C160	A61B  17/3201	748	ハサミ型（生検のためのものＡ６１Ｂ１０／０２）［２００６．０１］	Scissors(for biopsy A61B10/02) [8]
+A61B  17/3203  \	2	2	4C160	A61B  17/3203	596	流体ジェット切断機器［２００６．０１］	Fluid jet cutting instruments [8]
+A61B  17/3205  \	2	2	4C160	A61B  17/3205	846	切除機器［２００６．０１］	Excision instruments [8]
+A61B  17/3207  \	3	3	4C160	A61B  17/3207	861	アテローム切除装置［２００６．０１］	Atherectomy excision devices
+A61B  17/3209  \	2	2	4C160	A61B  17/3209	299	切開機器［２００６．０１］	Incision instruments [8]
+A61B  17/3211  \	3	3	4C160	A61B  17/3211	450	外科手術用メスまたはナイフ；その付属品［２００６．０１］	Surgical scalpels or knives; Accessories therefor [8]
+A61B  17/3213  \	4	4	4C160	A61B  17/3213	161	分離できる刃をもつもの［２００６．０１］	with detachable blades [8]
+A61B  17/3215  \	4	4	4C160	A61B  17/3215	20	パッケージまたはディスペンサー，例．外科用メスの刃のためのもの［２００６．０１］	Packages or dispensers, e.g. for scalpel blades [8]
+A61B  17/3217  \	4	4	4C160	A61B  17/3217	84	使用済み外科用メスの刃を除去または収集するための装置［２００６．０１］	Devices for removing or collecting used scalpel blades [8]
+A61B  17/322  \	2	2	4C160	A61B  17/322	91	植皮装置［２００６．０１］	Skin grafting apparatus [2]
+A61B  17/326  \	2	2	4C160	A61B  17/326	54	包皮切除装置［２００６．０１］	Circumcision apparatus
+A61B  17/34  \	1	1	4C160	A61B  17/34	3272	套管針；刺針［２００６．０１］	Trocars; Puncturing needles [2]
+A61B  17/34 510 \	2	2	4C160	A61B  17/34	406	波動走査設備を有するもの	having a wave motion scan equipment
+A61B  17/42  \	1	1	4C160	A61B  17/42	546	産婦人科用機器または方法［２００６．０１］	Gynaecological or obstetrical instruments or methods
+A61B  17/42 510 \	2	2	4C160	A61B  17/42	95	卵管不妊手術用機器，卵管検査用機器	Component for the uterine tube sterilisation, component for uterine tube inspection
+A61B  17/42 520 \	2	2	4C160	A61B  17/42	186	分娩用機器及びその補助具	Accouchement component and its supplementary instrument
+A61B  17/42 525 \	3	3	4C160	A61B  17/42	47	産褥用具，分娩時用着衣	Lying-in instrument, accouchement clothing
+A61B  17/425  \	2	2	4C160	A61B  17/425	41	生殖または受精のためのもの［２００６．０１］	for reproduction or fertilisation [5]
+A61B  17/43  \	3	3	4C160	A61B  17/43	70	人工授精のためのもの［２００６．０１］	for artificial insemination [5]
+A61B  17/435  \	3	3	4C160	A61B  17/435	57	受精卵移植のためのもの［２００６．０１］	for embryo transplantation [5]
+A61B  17/44  \	2	2	4C160	A61B  17/44	56	産科用鉗子［２００６．０１］	Obstetrical forceps
+A61B  17/46  \	2	2	4C160	A61B  17/46	34	切胎のためのもの［２００６．０１］	Embryotomes
+A61B  17/48  \	2	2	4C160	A61B  17/48	2	助産婦用バッグ［２００６．０１］	Bags for midwives
+A61B  17/50  \	1	1	4C160	A61B  17/50	268	人体から異物を取出すための器具（手術用ピンセット，すなわち手術用鑷子Ａ６１Ｂ１７／３０）［２００６．０１］	Instruments for removing foreign bodies from the human body  (surgical pincettes, i.e. surgical tweezers, A61B 17/30)
+A61B  17/52  \	2	2	4C160	A61B  17/52	18	マグネット［２００６．０１］	Magnets
+A61B  17/54  \	1	1	4C160	A61B  17/54	121	足の小外科的治療用機器［２００６．０１］	Chiropodists' instruments
+A61B  17/56  \	1	1	4C160	A61B  17/56	4469	骨または関節の手術器具および方法；そのために特に適合する用具［２００６．０１］	Surgical instruments or methods for treatment of bones or joints; Devices specially adapted therefor [4]
+A61B  17/58  \	2	2	4C160	A61B  17/58	1657	骨接合術用，例．骨の板，ねじまたははめ込み用器具（Ａ６１Ｂ１７／１４，Ａ６１Ｂ１７／１６が優先）［２００６．０１］	for osteosynthesis, e.g. bone plates, screws or setting implements  (A61B 17/14, A61B 17/16 take precedence)
+A61B  17/60  \	3	3	4C160	A61B  17/60	430	外部の骨接合術のためのもの，例．伸延器または収縮器［２００６．０１］	for external osteosynthesis, e.g. distractors or contractors [4]
+A61B  17/62  \	4	4	4C160	A61B  17/62	83	環状枠，すなわち，位置決めされる骨の周りに延在する器具（Ａ６１Ｂ１７／６６が優先）［２００６．０１］	ring frames, i.e. devices extending around the bones to be positioned (A61B17/66 takes precedence) [6]
+A61B  17/64  \	4	4	4C160	A61B  17/64	228	位置決めされる骨に沿って延在する器具（Ａ６１Ｂ１７／６６が優先）［２００６．０１］	Devices extending alongside the bones to be positioned (A61B17/66 takes precedence) [6]
+A61B  17/66  \	4	4	4C160	A61B  17/66	166	圧迫または伸延機構［２００６．０１］	Compression or distraction mechanisms [6]
+A61B  17/68  \	3	3	4C160	A61B  17/68	335	内部固着器具［２００６．０１］	Internal fixation devices [6]
+A61B  17/70  \	4	4	4C160	A61B  17/70	2473	背骨の位置決め装置または安定化装置，例．インプラント中の流動体の充填物を含むスタビライザー［２００６．０１］	Spinal positioners or stabilisers, e.g. stabilisers comprising fluid filler in an implant
+A61B  17/72  \	4	4	4C160	A61B  17/72	815	髄内器具，例．ピンまたは釘［２００６．０１］	Intramedullary devices, e.g. pins or nails
+A61B  17/74  \	4	4	4C160	A61B  17/74	209	大腿骨頭用器具［２００６．０１］	Devices for the head of the femur [6]
+A61B  17/76  \	5	5	4C160	A61B  17/76	224	ねじによる固着［２００６．０１］	fixed by screws [6]
+A61B  17/78  \	5	5	4C160	A61B  17/78	131	釘，ピンまたは類似物による固着［２００６．０１］	fixed by nails, pins or the like [6]
+A61B  17/80  \	4	4	4C160	A61B  17/80	1287	皮質プレート［２００６．０１］	Cortical plates [6]
+A61B  17/82  \	4	4	4C160	A61B  17/82	478	骨締結のためのもの［２００６．０１］	for bone cerclage [6]
+A61B  17/84  \	4	4	4C160	A61B  17/84	343	そのためのファスナー［２００６．０１］	Fasteners therefor [6]
+A61B  17/86  \	5	5	4C160	A61B  17/86	1787	ピンまたはねじ［２００６．０１］	Pins or screws [6]
+A61B  17/88  \	3	3	4C160	A61B  17/88	1196	内部固着器具の植え込みまたは抜取り方法または手段［２００６．０１］	Methods or means for implanting or extracting internal fixation devices [6]
+A61B  17/90  \	4	4	4C160	A61B  17/90	415	そのための案内具［２００６．０１］	Guides therefor [6]
+A61B  17/92  \	4	4	4C160	A61B  17/92	292	打込具または抜取具，例．骨髄内器具を除去するためのもの［２００６．０１］	Impactors or extractors, e.g. for removing intramedullary devices [6]
+A61B  17/94  \	1	1	4C160	A61B  17/94	875	内視鏡手術機器（細胞の標本を取るためのまたは生検のための内視鏡用器具Ａ６１Ｂ１０／０４）［８］	Endoscopic surgical instruments (endoscopic instruments for taking cell samples or for biopsy A61B10/04) [8]
+A61B  18/00  \	0	0	4C160	A61B  18/00	337	非機械的な形態のエネルギーを，身体へ，または身体から伝達する手術用機器，器具または方法（眼科手術用Ａ６１Ｆ９／００７；耳科手術用Ａ６１Ｆ１１／２０）	Surgical instruments, devices or methods for transferring non-mechanical forms of energy to or from the body (eye surgery A61F 9/007; ear surgery A61F 11/20) [7, 2006.01]
+A61B  18/02  \	1	1	4C160	A61B  18/02	775	冷却することによる，例．極低温技術［２００６．０１］	by cooling, e.g. cryogenic techniques
+A61B  18/04  \	1	1	4C160	A61B  18/04	446	加熱することによる（電磁放射の適用によるものＡ６１Ｂ１８／１８）［２００６．０１］	by heating (by applying electromagnetic radiation A61B 18/18)
+A61B  18/06  \	2	2	4C160	A61B  18/06	42	化学反応によって引き起こされるもの［７］	caused by chemical reaction [7]
+A61B  18/08  \	2	2	4C160	A61B  18/08	708	電気的に熱するプローブを使うもの［７］	by means of electrically-heated probes [7]
+A61B  18/10  \	3	3	4C160	A61B  18/10	105	そのための電源［７］	Power sources therefor [7]
+A61B  18/12  \	2	2	4C160	A61B  18/12	5547	加熱する組織に電流を通すもの，例．高周波電流［７］	by passing a current through the tissue to be heated, e.g. high-frequency current [7]
+A61B  18/14  \	3	3	4C160	A61B  18/14	7212	そのためのプローブまたは電極［７］	Probes or electrodes therefor [7]
+A61B  18/16  \	4	4	4C160	A61B  18/16	717	アース用の中性または受動の電極［７］	Indifferent or passive electrodes for grounding [7]
+A61B  18/18  \	1	1	4C160	A61B  18/18	163	電磁放射の適用によるもの，例．マイクロ波［２００６．０１］	by applying electromagnetic radiation, e.g. microwaves
+A61B  18/18 100 \	2	2	4C160	A61B  18/18	1009	マイクロ波を使用するもの	using micro wave
+A61B  18/18 200 \	2	2	4C160	A61B  18/18	152	レーザー以外の光を用いるもの	using light other than laser
+A61B  18/20  \	2	2	4C026	A61B  18/20	1994	レーザーを用いるもの［７］	using laser [7]
+A61B  18/22  \	3	3	4C026	A61B  18/22	1837	可撓性のある導管，例．光ファイバー，により方向付けられた光線；そのためのハンドピース［７］	the beam being directed along or through a flexible conduit, e.g. an optical fibre; Hand-pieces therefor [7]
+A61B  18/24  \	4	4	4C026	A61B  18/24	648	カテーテルを有するもの（Ａ６１Ｂ１８／２６，Ａ６１Ｂ１８／２８が優先）［７］	with a catheter(A61B18/26, A61B18/28 take precedence) [7]
+A61B  18/26  \	4	4	4C026	A61B  18/26	151	衝撃波を起こすためのもの，例．レーザー砕石術［７］	for producing a shock wave, e.g. laser lithotripsy [7]
+A61B  18/28  \	4	4	4C026	A61B  18/28	114	熱プローブまたは熱吸収体を熱するためのもの［７］	for heating a thermal probe or absorber [7]
+A61B  34/00  \	0	0	4C030	A61B  34/00	689	コンピュータ支援手術；手術での使用に特に適合したマニプレータまたはロボット［２０１６．０１］	Computer-aided surgery; Manipulators or robots specially adapted for use in surgery [2016.01]
+A61B  34/10  \	1	1	4C030	A61B  34/10	1239	手術のコンピュータ支援計画，シミュレーションまたはモデリング［２０１６．０１］	Computer-aided planning, simulation or modelling of surgical operations [2016.01]
+A61B  34/20  \	1	1	4C030	A61B  34/20	2331	手術ナビゲーションシステム；手術機器を追跡または案内するための装置，例．フレームレス定位法のためのもの［２０１６．０１］	Surgical navigation systems; devices for tracking or guiding surgical instruments, e.g. for frameless stereotaxis [2016.01]
+A61B  34/30  \	1	1	4C130	A61B  34/30	1899	手術ロボット［２０１６．０１］	Surgical robots [2016.01]
+A61B  34/32  \	2	2	4C130	A61B  34/32	163	自律的に作動するもの［２０１６．０１］	operating autonomously [2016.01]
+A61B  34/35  \	2	2	4C130	A61B  34/35	1762	遠隔手術のためのもの［２０１６．０１］	for telesurgery [2016.01]
+A61B  34/37  \	2	2	4C130	A61B  34/37	472	マスタースレーブロボット（Ａ６１Ｂ３４／３５が優先）［２０１６．０１］	Master-slave robots(A61B34/35 takes precedence) [2016.01]
+A61B  42/00  \	0	0	4C030	A61B  42/00	5	手術用手袋；手術に特に適合した指サック；それらの取扱いまたは処置のための装置［２０１６．０１］	Surgical gloves; Finger-stalls specially adapted for surgery; Devices for handling or treatment thereof [2016.01]
+A61B  42/10  \	1	1	4C030	A61B  42/10	281	手術用手袋［２０１６．０１］	Surgical gloves [2016.01]
+A61B  42/20  \	1	1	4C030	A61B  42/20	29	手術に特に適合した指サック［２０１６．０１］	Finger-stalls specially adapted for surgery [2016.01]
+A61B  42/30  \	1	1	4C030	A61B  42/30	13	穴，漏れまたは裂けを検出するための装置［２０１６．０１］	Devices for detecting perforations, leaks or tears [2016.01]
+A61B  42/40  \	1	1	4C030	A61B  42/40	18	包装またはディスペンサー［２０１６．０１］	Packages or dispensers [2016.01]
+A61B  42/50  \	1	1	4C030	A61B  42/50	58	着脱のための装置［２０１６．０１］	Devices for putting-on or removing [2016.01]
+A61B  42/60  \	1	1	4C030	A61B  42/60	14	清掃，洗浄，乾燥または粉付けのための装置［２０１６．０１］	Devices for cleaning, washing, drying or powdering [2016.01]
+A61B  46/00  \	0	0	4C030	A61B  46/00	62	手術用掛け布［２０１６．０１］	Surgical drapes [2016.01]
+A61B  46/10  \	1	1	4C030	A61B  46/10	284	機器に特に適合したもの［２０１６．０１］	specially adapted for instruments [2016.01]
+A61B  46/13  \	2	2	4C030	A61B  46/13	11	患者の体内に入る掛け布［２０１６．０１］	the drapes entering the patient's body [2016.01]
+A61B  46/17  \	3	3	4C030	A61B  46/17	16	遠位端で閉じられているもの［２０１６．０１］	closed at the distal end [2016.01]
+A61B  46/20  \	1	1	4C030	A61B  46/20	387	患者に特に適合したもの［２０１６．０１］	specially adapted for patients [2016.01]
+A61B  46/23  \	2	2	4C030	A61B  46/23	52	手術用具を維持または保持する手段を持つもの［２０１６．０１］	with means to retain or hold surgical implements [2016.01]
+A61B  46/27  \	2	2	4C030	A61B  46/27	14	管状のもの，例．腕または脚のためのもの（Ａ６１Ｂ４６／１３が優先）［２０１６．０１］	tubular, e.g. for arms or legs(A61B46/13 takes precedence) [2016.01]
+A61B  50/00  \	0	0	4C030	A61B  50/00	53	手術用または診断用の器具または機器に特に適合した容器，カバー，家具または保持具，例．無菌カバー（機器に特に適合した掛け布Ａ６１Ｂ４６／１０）［２０１６．０１］	Containers, covers, furniture or holders specially adapted for surgical or diagnostic appliances or instruments, e.g. sterile covers(drapes specially adapted for instruments A61B46/10) [2016.01]
+A61B  50/10  \	1	1	4C030	A61B  50/10	89	手術用または診断用の器具または機器に特に適合した家具［２０１６．０１］	Furniture specially adapted for surgical or diagnostic appliances or instruments [2016.01]
+A61B  50/13  \	2	2	4C030	A61B  50/13	106	台車［２０１６．０１］	Trolleys [2016.01]
+A61B  50/15  \	2	2	4C030	A61B  50/15	27	メイヨースタンド；テーブル［２０１６．０１］	Mayo stands; Tables [2016.01]
+A61B  50/18  \	2	2	4C030	A61B  50/18	55	戸棚；そのための引き出し［２０１６．０１］	Cupboards; Drawers therefor [2016.01]
+A61B  50/20  \	1	1	4C030	A61B  50/20	141	手術用または診断用の器具または機器に特に適合した保持器（手術用具を保持する手段を持つ掛け布Ａ６１Ｂ４６／２３；カテーテルのためのものＡ６１Ｍ２５／０２）［２０１６．０１］	Holders specially adapted for surgical or diagnostic appliances or instruments(drapes with means to hold surgical instruments A61B46/23; for catheters A61M25/02) [2016.01]
+A61B  50/22  \	2	2	4C030	A61B  50/22	51	ラック［２０１６．０１］	Racks [2016.01]
+A61B  50/24  \	2	2	4C030	A61B  50/24	41	スタンド（メイヨースタンドＡ６１Ｂ５０／１５）［２０１６．０１］	Stands(Mayo stands A61B50/15) [2016.01]
+A61B  50/26  \	3	3	4C030	A61B  50/26	22	床に基部を有するもの［２０１６．０１］	floor-based [2016.01]
+A61B  50/28  \	3	3	4C030	A61B  50/28	6	天井からつり下げられたもの［２０１６．０１］	suspended from the ceiling [2016.01]
+A61B  50/30  \	1	1	4C030	A61B  50/30	544	手術用または診断用の器具または機器を包装，保護，分配，収集または処分するために特に適合した容器（傷口クランプのためのものＡ６１Ｂ１７／１０；結紮クリップのためのものＡ６１Ｂ１７／１２２；手術用の手袋または指サックのための包装またはディスペンサーＡ６１Ｂ４２／４０）［２０１６．０１］	Containers specially adapted for packaging, protecting, dispensing, collecting or disposing of surgical or diagnostic appliances or instruments(for wound clamps A61B17/10; for ligaturing clips A61B17/122; packages or dispensers for surgical gloves or fing
+A61B  50/31  \	2	2	4C030	A61B  50/31	52	キャリングケースまたはかばん，例．医師用かばん［２０１６．０１］	Carrying cases or bags, e.g. doctors' bags [2016.01]
+A61B  50/33  \	2	2	4C030	A61B  50/33	153	トレイ［２０１６．０１］	Trays [2016.01]
+A61B  50/34  \	2	2	4C030	A61B  50/34	3	バスケット［２０１６．０１］	Baskets [2016.01]
+A61B  50/36  \	2	2	4C030	A61B  50/36	106	使用済みの物品を収集または処分するためのもの［２０１６．０１］	for collecting or disposing of used articles [2016.01]
+A61B  50/37  \	3	3	4C030	A61B  50/37	47	吸収性物品，例．包帯，衣服，綿棒またはタオル，のためのもの［２０１６．０１］	for absorbent articles, e.g. bandages, garments, swabs or towels [2016.01]
+A61B  50/39  \	3	3	4C030	A61B  50/39	6	抗菌剤，抗ウイルス剤または消毒剤を含む容器［２０１６．０１］	the containers containing antimicrobial, antiviral or disinfectant agents [2016.01]
+A61B  90/00  \	0	0	4C030	A61B  90/00	2595	Ａ６１Ｂ１／００−Ａ６１Ｂ５０／００のグループのいずれにも包含されない手術用または診断用に特に適合した機器，用具または付属品，例．脱臼処置または傷口保護のためのもの［２０１６．０１］	Instruments, implements or accessories specially adapted for surgery or diagnosis and not covered by any of the groups A61B 1/00-A61B 50/00, e.g. for luxation treatment or for protecting wound edges
+A61B  90/10  \	1	1	4C030	A61B  90/10	83	定位手術，例．フレームに基づく定位法，のためのもの［２０１６．０１］	for stereotaxic surgery, e.g. frame-based stereotaxis [2016.01]
+A61B  90/11  \	2	2	4C030	A61B  90/11	152	針または機器のためのガイド，例．円弧状スライドまたはボールジョイント，を持つもの［２０１６．０１］	with guides for needles or instruments, e.g. arcuate slides or ball joints [2016.01]
+A61B  90/13  \	3	3	4C030	A61B  90/13	28	光，例．レーザーポインター，によって案内されるもの［２０１６．０１］	guided by light, e.g. laser pointers [2016.01]
+A61B  90/14  \	2	2	4C030	A61B  90/14	154	体の部分の固定器，例．頭蓋骨クランプ；固定器の構造上の細部，例．ピン［２０１６．０１］	Fixators for body parts, e.g. skull clamps; Constructional details of fixators, e.g. pins [2016.01]
+A61B  90/16  \	3	3	4C030	A61B  90/16	10	バイトブロック［２０１６．０１］	Bite blocks [2016.01]
+A61B  90/17  \	3	3	4C030	A61B  90/17	25	軟組織のためのもの，例．乳房保持装置［２０１６．０１］	for soft tissue, e.g. breast-holding devices [2016.01]
+A61B  90/18  \	3	3	4C030	A61B  90/18	18	保持シート，例．固定マスク［２０１６．０１］	Retaining sheets, e.g. immobilising masks [2016.01]
+A61B  90/20  \	1	1	4C030	A61B  90/20	1107	非光学的側面に特徴を有する手術用顕微鏡［２０１６．０１］	Surgical microscopes characterised by non-optical aspects [2016.01]
+A61B  90/25  \	2	2	4C030	A61B  90/25	454	そのための支持具［２０１６．０１］	Supports therefor [2016.01]
+A61B  90/30  \	1	1	4C030	A61B  90/30	786	手術野を照らすための装置であって，他の手術用装置または手術手順と相互関係を有する装置［２０１６．０１］	Devices for illuminating a surgical field, the devices having an interrelation with other surgical devices or with a surgical procedure [2016.01]
+A61B  90/35  \	2	2	4C030	A61B  90/35	173	そのための支持具［２０１６．０１］	Supports therefor [2016.01]
+A61B  90/40  \	1	1	4C030	A61B  90/40	69	無菌の手術環境を提供するために特に適合した患者に対し固定または近接した装置［２０１６．０１］	Apparatus fixed or close to patients specially adapted for providing an aseptic surgical environment [2016.01]
+A61B  90/50  \	1	1	4C030	A61B  90/50	600	手術用機器のための支持具，例．関節があるアーム［２０１６．０１］	Supports for surgical instruments, e.g. articulated arms [2016.01]
+A61B  90/53  \	2	2	4C030	A61B  90/53	43	外科医の体に連結されるもの，例．ベルトによって［２０１６．０１］	connected to the surgeon's body, e.g. by a belt [2016.01]
+A61B  90/57  \	2	2	4C030	A61B  90/57	37	付属品クランプ［２０１６．０１］	Accessory clamps [2016.01]
+A61B  90/60  \	1	1	4C030	A61B  90/60	64	外科医のための支持具，例．椅子または手支持具（歯科用椅子または手術用椅子と組み合わせた歯科医用または外科医用の腰掛けＡ６１Ｇ１５／０８）［２０１６．０１］	Supports for surgeons, e.g. chairs or hand supports  (seats for dentists or surgeons associated with dental chairs or operating chairs A61G 15/08)
+A61B  90/70  \	1	1	4C030	A61B  90/70	526	手術用機器に特に適合した清掃装置［２０１６．０１］	Cleaning devices specially adapted for surgical instruments [2016.01]
+A61B  90/80  \	1	1	4C030	A61B  90/80	43	外科医または患者の皮膚を清掃または洗浄するための用具［２０１６．０１］	Implements for cleaning or washing the skin of surgeons or patients [2016.01]
+A61B  90/90  \	1	1	4C030	A61B  90/90	201	患者または機器のための識別手段，例．タグ［２０１６．０１］	Identification means for patients or instruments, e.g. tags [2016.01]
+A61B  90/92  \	2	2	4C030	A61B  90/92	24	色で符号化されたもの［２０１６．０１］	coded with colour [2016.01]
+A61B  90/94  \	2	2	4C030	A61B  90/94	24	記号，例．テキスト，で符号化されたもの［２０１６．０１］	coded with symbols, e.g. text [2016.01]
+A61B  90/96  \	3	3	4C030	A61B  90/96	83	バーコードを用いるもの［２０１６．０１］	using barcodes [2016.01]
+A61B  90/98  \	2	2	4C030	A61B  90/98	244	電磁的手段，例．トランスポンダ，を用いるもの［２０１６．０１］	using electromagnetic means, e.g. transponders [2016.01]

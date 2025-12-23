@@ -1,0 +1,103 @@
+G04G3/00	7	Producing timing pulses (driving circuits for stepping motors G04C3/14; producing preselected time intervals for use as timing standards G04F5/00; pulse technique in general H03K; control, synchronisation, or stabilisation of generators in general H03L)	G04G3/00	G04G3/00		237
+G04G3/02	8	Circuits for deriving low frequency timing pulses from pulses of higher frequency (pulse frequency dividers in general H03K23/00&#160;-&#160;H03K29/00)	G04G3/02	G04G3/02		260
+G04G3/022	9	{the desired number of pulses per unit of time being obtained by adding to or substracting from a pulse train one or more pulses (in general G06F7/68)}	G04G3/02	G04G3/02		236
+G04G3/025	9	{by storing time-date which are periodically investigated and modified accordingly, e.g. by using cyclic shift-registers}	G04G3/02	G04G3/02		60
+G04G3/027	9	{by combining pulse-trains of different frequencies, e.g. obtained from two independent oscillators or from a common oscillator by means of different frequency dividing ratios (sychronisation of electric time pieces G04G7/00, G04C11/00)}	G04G3/02	G04G3/02		62
+G04G3/04	8	Temperature-compensating arrangements	G04G3/04	G04G3/04		76
+G04G5/00	7	Setting, i.e. correcting or changing, the time-indication (radio-controlled time-pieces G04R)	G04G5/00	G04G5/00		628
+G04G5/002	8	{brought into action by radio}	G04G5/00	G04G5/00		113
+G04G5/005	8	{Debouncing circuits}	G04G5/00	G04G5/00		29
+G04G5/007	8	{by using a separate register into which the entire correct setting is introduced, which is thereafter transferred to the time counters}	G04G5/00	G04G5/00		18
+G04G5/02	8	by temporarily changing the number of pulses per unit time, e.g. quick-feed method	G04G5/02	G04G5/02		212
+G04G5/022	9	{quick-feed method}	G04G5/02	G04G5/02		36
+G04G5/025	10	{the time-counters first being reset to zero}	G04G5/02	G04G5/02		5
+G04G5/027	9	{by adding or suppressing individual pulses, e.g. for step-motor}	G04G5/02	G04G5/02		15
+G04G5/04	8	by setting each of the displayed values, e.g. date, hour, independently	G04G5/04	G04G5/04		232
+G04G5/041	9	{Correction of the minutes counter in function of the seconds&apos; counter position at zero adjustment of the latter}	G04G5/04	G04G5/04		31
+G04G5/043	9	{using commutating devices for selecting the value, e.g. hours, minutes, seconds, to be corrected}	G04G5/04	G04G5/04		46
+G04G5/045	10	{using a sequential electronic commutator}	G04G5/04	G04G5/04		87
+G04G5/046	11	{by using a separate register into which the correct setting of one of the counters is introduced which is thereafter transferred to the selected time-counter to be reset}	G04G5/04	G04G5/04		4
+G04G5/048	10	{by using a separate register into which the correct setting of the selected time-counter is introduced which is thereafter transferred to the time-counter to be reset}	G04G5/04	G04G5/04		9
+G04G7/00	7	Synchronisation (radio-controlled time-pieces G04R)	G04G7/00	G04G7/00		657
+G04G7/005	8	{provided with arrangements to prevent synchronisation by interfering signals (G04G7/023 takes precedence)}	G04G7/00	G04G7/00		20
+G04G7/02	8	{by radio}	G04G7/00	G04G7/02		236
+G04G7/023	9	{provided with arrangements to prevent synchronisation by interfering signals}	G04G7/00	G04G7/02		10
+G04G7/026	9	{the time-piece preparing itself on set times on the reception of the synchronising signal}	G04G7/00	G04G7/02		36
+G04G9/00	7	Visual time or date indication means	G04G9/00	G04G9/00		748
+G04G9/0005	8	{Transmission of control signals}	G04G9/00	G04G9/00		160
+G04G9/0011	9	{using coded signals (synchronisation combined with automatic setting at regular intervals, e.g. by coded signals G04G7/00)}	G04G9/00	G04G9/00		91
+G04G9/0017	8	{in which the light emitting display elements may be activated at will or are controlled in accordance with the ambient light}	G04G9/00	G04G9/00		155
+G04G9/0023	8	{by light valves in general (G04G9/06, G04G9/12 takes precedence; electro-, magneto- or acousto-optic devices in general G02F1/00)}	G04G9/00	G04G9/00		49
+G04G9/0029	9	{Details}	G04G9/00	G04G9/00		42
+G04G9/0035	10	{constructional}	G04G9/00	G04G9/00		241
+G04G9/0041	11	{Illumination devices}	G04G9/00	G04G9/00		201
+G04G9/0047	10	{electrical, e.g. selection or application of the operating voltage}	G04G9/00	G04G9/00		183
+G04G9/0052	11	{using means to adjust the display in accordance with the ambient light, e.g. switching or controlling a supplementary light source}	G04G9/00	G04G9/00		44
+G04G9/0058	8	{using a cathode ray tube as display device (displaying supplementary informative, e.g. time on TV screen H04N5/445)}	G04G9/00	G04G9/00		32
+G04G9/0064	8	{in which functions not related to time can be displayed (digital output to display devices of digital computers G06F3/14)}	G04G9/00	G04G9/00		1046
+G04G9/007	9	{combined with a calculator or computing means}	G04G9/00	G04G9/00		411
+G04G9/0076	8	{in which the time in another time-zone or in another city can be displayed at will}	G04G9/00	G04G9/00		610
+G04G9/0082	8	{by building-up characters using a combination of indicating elements and by selecting desired characters out of a number of characters or by selecting indicating elements the positions of which represents the time, i.e. combinations of G04G9/02 and G04G9/08}	G04G9/00	G04G9/00		521
+G04G9/0088	9	{by controlling light sources, e.g. electroluminescent diodes}	G04G9/00	G04G9/00		83
+G04G9/0094	9	{using light valves, e.g. liquid crystals}	G04G9/00	G04G9/00		142
+G04G9/02	8	by selecting desired characters out of a number of characters or by selecting indicating elements the position of which represent the time, e.g. by using multiplexing techniques {(G04G9/0082 takes precedence)}	G04G9/02	G04G9/02		285
+G04G9/022	9	{using multiplexing techniques}	G04G9/02	G04G9/02		19
+G04G9/025	9	{provided with date indication}	G04G9/02	G04G9/02		64
+G04G9/027	9	{provided with means for displaying at will a time indication or a date or a part thereof}	G04G9/02	G04G9/02		40
+G04G9/04	9	by controlling light sources, e.g. electroluminescent diodes {(G04G9/0058 takes precedence)}	G04G9/04	G04G9/04		344
+G04G9/042	10	{using multiplexing techniques}	G04G9/04	G04G9/04		37
+G04G9/045	10	{provided with date indication}	G04G9/04	G04G9/04		34
+G04G9/047	10	{provided with means for displaying at will a time indication or a date or a part thereof}	G04G9/04	G04G9/04		19
+G04G9/06	9	using light valves, e.g. liquid crystals	G04G9/06	G04G9/06		189
+G04G9/062	10	{using multiplexing techniques}	G04G9/06	G04G9/06		46
+G04G9/065	10	{using a drop of liquid suspended by capillary forces and moved by an electric field}	G04G9/06	G04G9/06		1
+G04G9/067	10	{using mechano-optical means}	G04G9/06	G04G9/06		8
+G04G9/08	8	by building-up characters using a combination of indicating elements, e.g. by using multiplexing techniques {(G04G9/0082 takes precedence)}	G04G9/08	G04G9/08		207
+G04G9/082	9	{using multiplexing techniques}	G04G9/08	G04G9/08		34
+G04G9/085	9	{provided with date indication}	G04G9/08	G04G9/08		82
+G04G9/087	9	{provided with means for displaying at will a time indication or a date or a part thereof}	G04G9/08	G04G9/08		210
+G04G9/10	9	by controlling light sources, e.g. electroluminescent diodes {(G04G9/0058 takes precedence)}	G04G9/10	G04G9/10		220
+G04G9/102	10	{using multiplexing techniques}	G04G9/10	G04G9/10		46
+G04G9/105	10	{provided with date indication}	G04G9/10	G04G9/10		32
+G04G9/107	10	{provided with means for displaying at will a time indication or a date or a part thereof}	G04G9/10	G04G9/10		67
+G04G9/12	9	using light valves, e.g. liquid crystals	G04G9/12	G04G9/12		198
+G04G9/122	10	{using multiplexing techniques}	G04G9/12	G04G9/12		33
+G04G9/124	10	{provided with date indication}	G04G9/12	G04G9/12		58
+G04G9/126	10	{provided with means for displaying at will a time indication or a date or a part thereof}	G04G9/12	G04G9/12		75
+G04G9/128	10	{using mechano-optical means}	G04G9/12	G04G9/12		10
+G04G11/00	7	Producing optical signals at preselected times	G04G11/00	G04G11/00		673
+G04G13/00	7	Producing acoustic time signals	G04G13/00	G04G13/00		614
+G04G13/02	8	at preselected times, e.g. alarm clocks	G04G13/02	G04G13/02		1013
+G04G13/021	9	{Details}	G04G13/02	G04G13/02		739
+G04G13/023	10	{Adjusting the duration or amplitude of signals}	G04G13/02	G04G13/02		195
+G04G13/025	9	{acting only at one preselected time}	G04G13/02	G04G13/02		212
+G04G13/026	9	{acting at a number of different times}	G04G13/02	G04G13/02		322
+G04G13/028	9	{combined with a radio}	G04G13/02	G04G13/02		132
+G04G15/00	7	Time-pieces comprising means to be operated at preselected times or after preselected time intervals (G04G11/00, G04G13/00 take precedence; {electronic timers G04F1/005}; pulse delay circuits H03K5/13; electronic time-delay switches H03K17/28; electronic time-programme switches which automatically terminate their operation after the programme is completed H03K17/296)	G04G15/00	G04G15/00		507
+G04G15/003	8	{acting only at one preselected time or during one adjustable time interval}	G04G15/00	G04G15/00		238
+G04G15/006	8	{for operating at a number of different times (cigar or cigarette receptacles or boxes with means for limiting the frequency of smoking A24F15/005)}	G04G15/00	G04G15/00		830
+G04G17/00	7	Structural details; Housings (constructional details of radio-controlled time-pieces, e.g. antennas G04R60/00)	G04G17/00	G04G17/00		659
+G04G17/005	8	{Time-pieces combined with games}	G04G17/00	G04G17/00		54
+G04G17/02	8	Component assemblies	G04G17/02	G04G17/02		834
+G04G17/04	9	Mounting of electronic components	G04G17/04	G04G17/04		1120
+G04G17/045	10	{Mounting of the display}	G04G17/04	G04G17/04		622
+G04G17/06	9	Electric connectors, e.g. conductive elastomers	G04G17/06	G04G17/06		556
+G04G17/08	8	Housings	G04G17/08	G04G17/08		1371
+G04G17/083	9	{Watches distributed over several housings}	G04G17/08	G04G17/08		213
+G04G17/086	9	{Desktop clocks}	G04G17/08	G04G17/08		67
+G04G19/00	7	Electric power supply circuits specially adapted for use in electronic time-pieces	G04G19/00	G04G19/00		818
+G04G19/02	8	Conversion or regulation of current or voltage	G04G19/02	G04G19/02		132
+G04G19/04	9	Capacitive voltage division or multiplication	G04G19/04	G04G19/04		51
+G04G19/06	9	Regulation	G04G19/06	G04G19/06		65
+G04G19/08	8	Arrangements for preventing voltage drop due to overloading the power supply	G04G19/08	G04G19/08		122
+G04G19/10	8	Arrangements for supplying back-up power	G04G19/10	G04G19/10		255
+G04G19/12	8	Arrangements for reducing power consumption during storage	G04G19/12	G04G19/12		172
+G04G21/00	7	Input or output devices integrated in time-pieces	G04G21/00	G04G21/00		1324
+G04G21/02	8	Detectors of external physical values, e.g. temperature	G04G21/02	G04G21/02		1384
+G04G21/025	9	{for measuring physiological data}	G04G21/02	G04G21/02		1160
+G04G21/04	8	using radio waves (radio-controlled time-pieces G04R)	G04G21/04	G04G21/04		1969
+G04G21/06	8	using voice	G04G21/06	G04G21/06		561
+G04G21/08	8	Touch switches specially adapted for time-pieces	G04G21/08	G04G21/08		1014
+G04G99/00	7	Subject matter not provided for in other groups of this subclass	G04G99/00	G04G99/00		456
+G04G99/003	8	{Pulse shaping; Amplification}	G04G99/00	G04G99/00		15
+G04G99/006	8	{Electronic time-pieces using a microcomputer, e.g. for multi-function clocks}	G04G99/00	G04G99/00		408

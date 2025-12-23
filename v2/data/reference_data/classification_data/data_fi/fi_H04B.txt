@@ -1,0 +1,566 @@
+H04B   1/00  \	0	0	5K054	H04B   1/00	142	グループＨ０４Ｂ３／００〜Ｈ０４Ｂ１３／００の単一のグループに包含されない伝送方式の細部；伝送媒体によって特徴づけられない伝送方式の細部［２００６．０１］	Details of transmission systems, not covered by a single one of groups H04B 3/00-H04B 13/00; Details of transmission systems not characterised by the medium used for transmission  [2006.01]
+H04B   1/00 103 \	1	1	5K054	H04B   1/00	55	ソフトウェア無線［ＳＤＲ］システム	software wireless [SDR] system
+H04B   1/00 107 \	2	2	5K054	H04B   1/00	13	無線周波数または中間周波数の段階でＡＤ変換またはＤＡ変換するもの	AD conversion or DA conversion at wireless frequency stage or intermediate frequency stage
+H04B   1/00 110 \	3	3	5K054	H04B   1/00	3	チャネルフィルタリング，すなわち，ソフトウェア無線システム内の周波数チャネルを選択するもの	channel filtering, i.e. select frequency channel within software wireless system
+H04B   1/00 114 \	3	3	5K054	H04B   1/00	2	ＤＳＰで直交変復調するもの	execute orthogonal modulation-demodulation in DSP
+H04B   1/00 117 \	3	3	5K054	H04B   1/00	2	デジタルフィルタリング（Ｈ０４Ｂ１／００　１１０が優先；デジタルフィルタ自体はＨ０３Ｈ１７／００）	digital filtering (H04B1/00 110 takes precedence; digital filtering per se H03H17/00)
+H04B   1/00 121 \	3	3	5K054	H04B   1/00	4	デシメーション，すなわち，データレートの低減技術（Ｈ０４Ｂ１／００　１２５が優先）	decimation, i.e. technique to decrease date rate (H04B1/00 125 takes precedence)
+H04B   1/00 125 \	3	3	5K054	H04B   1/00	2	サンプリングされた信号の最高周波数成分の２倍よりも低いサンプリングレートを用いるもの	using sampling rate lower than twice the highest frequency ingredient among sample signal
+H04B   1/00 128 \	2	2	5K054	H04B   1/00	18	ベースバンドの段階でＡＤ変換またはＤＡ変換するもの	AD conversion or DA conversion at base band stage
+H04B   1/00 132 \	3	3	5K054	H04B   1/00	3	ベースバンドへのアナログ直交周波数変換，または，ベースバンドからのアナログ直交周波数変換を伴うもの（直交変復調器自体はＨ０３Ｃ３／４０）	accommodating analogue orthogonal frequency modulation to or from base band (orthogonal frequency modulation-demodulation per se H03C3/40)
+H04B   1/00 135 \	3	3	5K054	H04B   1/00	1	チャネルフィルタリング，すなわち，ソフトウェア無線システム内の周波数チャネルを選択するもの	channel filtering, i.e. select frequency channel within software wireless system
+H04B   1/00 139 \	3	3	5K054	H04B   1/00	2	ＤＳＰで直交変復調するもの	execute orthogonal modulation-demodulation in DSP
+H04B   1/00 142 \	3	3	5K054	H04B   1/00	0	デジタルフィルタリング（Ｈ０４Ｂ１／００　１１０が優先；デジタルフィルタ自体はＨ０３Ｈ１７／００）	digital filtering (H04B1/00 110 takes precedence; digital filtering per se H03H17/00)
+H04B   1/00 146 \	3	3	5K054	H04B   1/00	1	デシメーション，すなわち，データレートの低減技術（Ｈ０４Ｂ１／００　１２５が優先）	decimation, i.e. technique to decrease date rate (H04B1/00 125 takes precedence)
+H04B   1/00 250 \	1	1	5K054	H04B   1/00	338	複数のバンドで動作する適応無線受信機，送信機，送受信機	adaptive wireless receiver, transmitter, transceiver acting in multiple bands
+H04B   1/00 253 \	2	2	5K054	H04B   1/00	478	複数のバンドに共通のアンテナを備えたもの	multiple bands sharing common antenna
+H04B   1/00 257 \	3	3	5K054	H04B   1/00	888	所望のバンドを選択するためのダイプレクスまたはマルチプレクスフィルタを使用するもの	using diplex or multiplex filter to select desired band
+H04B   1/00 260 \	3	3	5K054	H04B   1/00	800	所望のバンドを選択するためのスイッチを使用するもの（Ｈ０４Ｂ１／００　２５７が優先）	using switch to select desired band (HO4B1/00 257 takes precedence)
+H04B   1/00 264 \	2	2	5K054	H04B   1/00	575	複数のバンドに別々のアンテナを備えたもの（Ｈ０４Ｂ１／００　２５３が優先）	multiple bands each having individual antenna (HO4B1/00 253 takes precedence)
+H04B   1/00 267 \	2	2	5K054	H04B   1/00	183	複数のバンドに共通の回路ブロックを備えたもの	multiple bands sharing common circuit block
+H04B   1/00 271 \	3	3	5K054	H04B   1/00	48	複数のバンドを共通の中間周波数に変換するもの	converting multiple bands into common intermediate frequency
+H04B   1/00 275 \	3	3	5K054	H04B   1/00	8	複数のバンドを異なる中間周波数に変換するもの	converting multiple bands into different intermediate frequencies
+H04B   1/00 278 \	4	4	5K054	H04B   1/00	3	共通の中間周波数増幅器を備えたもの	having common intermediate frequency amplifier
+H04B   1/00 282 \	3	3	5K054	H04B   1/00	128	複数のバンドに共通の局部発振器を備えたもの	multiple bands sharing common local oscillator
+H04B   1/00 296 \	2	2	5K054	H04B   1/00	7	フルバンドが，別のフルバンドに周波数変換されるもの	full band frequency converted into different full band
+H04B   1/02  \	1	1	5K060	H04B   1/02	340	送信機［２００６．０１］	Transmitters [2006.01]
+H04B   1/03  \	2	2	5K060	H04B   1/03	355	構造上の細部，例．ケーシング，ハウジング［２００６．０１］	Constructional details, e.g. casings, housings [2006.01]
+H04B   1/03  A	2	0	5K060	H04B   1/03	178	一般	General
+H04B   1/03  L	2	0	5K060	H04B   1/03	33	遭難及び救護用	for distress and rescue
+H04B   1/03  Z	2	0	5K060	H04B   1/03	172	その他のもの	Others
+H04B   1/034  \	3	3	5K060	H04B   1/034	70	携帯用送信機［２００６．０１］	Portable transmitters  [2006.01]
+H04B   1/034  A	3	0	5K060	H04B   1/034	264	一般	General
+H04B   1/034  B	3	0	5K060	H04B   1/034	284	ワイヤレスマイク用	for wireless microphones
+H04B   1/034  C	3	0	5K060	H04B   1/034	630	リモコン用	for remote control
+H04B   1/034  L	3	0	5K060	H04B   1/034	197	遭難及び救護用	for distress and rescue
+H04B   1/034  Z	3	0	5K060	H04B   1/034	164	その他のもの	Others
+H04B   1/036  \	3	3	5K060	H04B   1/036	209	冷却装置［２００６．０１］	Cooling arrangements [2006.01]
+H04B   1/04  \	2	2	5K060	H04B   1/04	109	回路［２００６．０１］	Circuits [2006.01]
+H04B   1/04  A	2	0	5K060	H04B   1/04	1274	送信回路	for transmission circuits
+H04B   1/04  B	2	0	5K060	H04B   1/04	928	送信出力整合回路	Transmission output matching circuit
+H04B   1/04  C	2	0	5K060	H04B   1/04	413	送信起動スイツチの制御，例．プレスト−クスイツチの制御	Transmission start switch control, e.g. press-to-talk switch control
+H04B   1/04  D	2	0	5K060	H04B   1/04	502	現用・予備の切換え，並列運転	In-service/standby change-over, parallel operation
+H04B   1/04  E	2	0	5K060	H04B   1/04	3645	送信レベルの制御	Transmission level control
+H04B   1/04  F	2	0	5K060	H04B   1/04	586	周波数変換に関するもの	related to frequency conversion
+H04B   1/04  G	2	0	5K060	H04B   1/04	106	ＳＳＢ方式	SSB system
+H04B   1/04  H	2	0	5K060	H04B   1/04	372	ＦＭ，ＰＭ方式	FM or PM system
+H04B   1/04  J	2	0	5K060	H04B   1/04	805	ＳＳＢ，ＦＭ，ＰＭ以外の変調方式に特徴を有するもの	characterized by the modulation system other than SSB, FM, and PM
+H04B   1/04  K	2	0	5K060	H04B   1/04	402	ワイヤレスマイク回路	Wireless microphone circuit
+H04B   1/04  L	2	0	5K060	H04B   1/04	329	遭難および救護用	for distress and rescue
+H04B   1/04  M	2	0	5K060	H04B   1/04	345	遠隔制御用	for remote control
+H04B   1/04  N	2	0	5K060	H04B   1/04	776	保護，誤送信の防止	Protection or prevention of faulty transmission
+H04B   1/04  P	2	0	5K060	H04B   1/04	876	電源回路	Power supply circuit
+H04B   1/04  Q	2	0	5K060	H04B   1/04	130	表示	Indication
+H04B   1/04  R	2	0	5K060	H04B   1/04	2076	歪・高調波の除去	Distortion or harmonic removal
+H04B   1/04  T	2	0	5K060	H04B   1/04	373	ＰＬＬシンセサイザ−方式に関するもの	related to the PLL synthesiser system
+H04B   1/04  Z	2	0	5K060	H04B   1/04	815	その他のもの	Others
+H04B   1/06  \	1	1	5K061	H04B   1/06	666	受信機	Receivers
+H04B   1/06  A	1	0	5K061	H04B   1/06	1294	プログラム受信	Programme reception
+H04B   1/06  E	1	0	5K061	H04B   1/06	399	保守・管理	Maintenance and management
+H04B   1/06  Z	1	0	5K061	H04B   1/06	1026	その他のもの	Others
+H04B   1/08  \	2	2	5K016	H04B   1/08	1018	構造上の細部，例．キャビネット［２００６．０１］	Constructional details, e.g. cabinet [2006.01]
+H04B   1/08  A	2	0	5K016	H04B   1/08	1096	ケース，例．キャビネットまたは電池ケース	Cases, e.g. cabinet, battery case
+H04B   1/08  E	2	0	5K016	H04B   1/08	745	取付，例．ネジによるもの	Installation, e.g. using screws
+H04B   1/08  K	2	0	5K016	H04B   1/08	825	多機能受信機，例．時計付きのものまたはメガネと結合したもの	Multi-function receiver, e.g. with a watch, coupling with eyeglasses
+H04B   1/08  N	2	0	5K016	H04B   1/08	717	特殊形状受信機，例．カ−ラジオ，三角柱型の受信機，球型の受信機，折たたみ型の受信機またはカセツト型の受信機	Special shape receiver, e.g. car radio, triangular pole type, ball type, foldable type, cassette type
+H04B   1/08  R	2	0	5K016	H04B   1/08	590	附属品，例．スタンド，取手またはベルト	Accessories, e.g. stand, handle, belt
+H04B   1/08  U	2	0	5K016	H04B   1/08	432	表示	Indication
+H04B   1/08  Z	2	0	5K016	H04B   1/08	4197	その他のもの，例．ＢＳコンバ−タ，チユ−ナまたはアンテナ操作部	Others, e.g. BS converter, tuner, antenna operation unit
+H04B   1/10  \	2	2	5K052	H04B   1/10	284	雑音または混信を制限または抑圧するための受信機に関係した手段［２００６．０１］	Means associated with receiver for limiting or suppressing noise or interference [2006.01]
+H04B   1/10  A	2	0	5K052	H04B   1/10	1040	受信信号に含まれる雑音または混信に対するもの	against noise or interference contained in the received signal
+H04B   1/10  B	2	1	5K052	H04B   1/10	1761	雑音または混信の状態により受信機の利得を制御するもの，例．スケルチ，ミュ−テイング，ノイズブランカ	Control of the receiver gain according to the noise or interference state, e.g. squelch, muting, noise blanker
+H04B   1/10  D	2	2	5K052	H04B   1/10	222	ト−ンスケルチ	Tone squelch
+H04B   1/10  E	2	2	5K052	H04B   1/10	512	他の回路，例．ＡＧＣ，ＡＦＣ，表示回路，と結合したもの	combined with another circuit, e.g. AGC, AFC, indication circuit
+H04B   1/10  F	2	2	5K052	H04B   1/10	405	利得が変わる回路部分，例．増幅回路，ゲ−ト，に特徴があるもの	characterized by the circuit part in which the gain changes, e.g. amplifier circuit, gate
+H04B   1/10  G	2	1	5K052	H04B   1/10	1167	雑音または混信の状態により受信機の周波数特性を制御するもの	Control of the receiver's frequency characteristics according to the noise or interference state
+H04B   1/10  U	2	2	5K052	H04B   1/10	140	ノッチ周波数を制御するもの	Control of the notch frequency
+H04B   1/10  H	2	1	5K052	H04B   1/10	1109	ノイズフィルタを用いるもの	using a noise filter
+H04B   1/10  J	2	1	5K052	H04B   1/10	155	ノイズリミッタを用いるもの	using a noise limiter
+H04B   1/10  K	2	1	5K052	H04B   1/10	461	補間によるもの	using interpolation
+H04B   1/10  L	2	1	5K052	H04B   1/10	2008	受信信号を演算処理するもの	Received signal processed by operation
+H04B   1/10  M	2	2	5K052	H04B   1/10	685	マルチパスを制限または抑圧するもの，例．サイドローブキャンセラ	Limiting or suppressing the multi-path, e.g. side-lobe canceller
+H04B   1/10  V	2	3	5K052	H04B   1/10	423	ＦＭ受信機に特有のもの	peculiar to FM receivers
+H04B   1/10  W	2	3	5K052	H04B   1/10	203	アンテナの指向性を利用するもの	utilising antenna's directivity
+H04B   1/10  N	2	0	5K052	H04B   1/10	928	受信機内部で受信信号に混入する雑音または混信に対するもの	against noise or interference contained in the received signal in the receiver
+H04B   1/10  P	2	1	5K052	H04B   1/10	651	スイッチングノイズに対するもの	against switching noise
+H04B   1/10  X	2	1	5K052	H04B   1/10	292	ＰＬＬを用いた受信機	Receiver using PLL
+H04B   1/10  Z	2	0	5K052	H04B   1/10	1185	その他のもの	Others
+H04B   1/12  \	3	3	5K052	H04B   1/12	29	中和，平衡または補償配置［２００６．０１］	Neutralising, balancing, or compensation arrangements [2006.01]
+H04B   1/14  \	3	3	5K052	H04B   1/14	8	自動離調配置［２００６．０１］	Automatic detuning arrangements [2006.01]
+H04B   1/16  \	2	2	5K061	H04B   1/16	567	回路［２００６．０１］	Circuits [2006.01]
+H04B   1/16  A	2	0	5K061	H04B   1/16	1667	多バンド受信機，例．ＡＭ／ＦＭ受信機	Multi-band receiver, e.g. AM/FM
+H04B   1/16  C	2	0	5K061	H04B   1/16	3813	表示，例．周波数表示，受信レベル表示またはマルチパス表示兼用表示	Indication, e.g. frequency indication, receiving level indication, indication also using multi-path indication
+H04B   1/16  G	2	0	5K061	H04B   1/16	4567	多機能受信機，例．ＦＭ多重受信機または時計付受信機（テレコ付き受信機はＨ０４Ｂ１／２０）	Multi-function receiver, e.g. FM multi-receiver or with a watch (with a tape recorder H04B1/20)
+H04B   1/16  J	2	0	5K061	H04B   1/16	599	帯域制御（雑音対策はＨ０４Ｂ１／１０）	Band control (measures against noise H04B1/10)
+H04B   1/16  M	2	0	5K061	H04B   1/16	3092	自動起動停止，すなわち識別信号，例．ＲＤＳ受信機緊急放送，交通情報，を受けて動作するもの	Automatic start/stop, i.e. operation by receiving the identification signal; e.g. RDS receiver emergency broadcasting, traffic information
+H04B   1/16  U	2	0	5K061	H04B   1/16	2834	電源	Power supply
+H04B   1/16  R	2	0	5K061	H04B   1/16	3353	附属回路，例．ＡＦＣ，ＡＧＣ（感度切換はＨ０４Ｂ１／１８）	Accessory circuits, e.g. AFC, AGC (sensitivity change-over H04B1/18)
+H04B   1/16  Z	2	0	5K061	H04B   1/16	5543	その他のもの	Others
+H04B   1/18  \	3	3	5K062	H04B   1/18	81	入力回路，例．アンテナまたは伝送線へ結合するための入力回路（受信機の性質に関係のないアンテナまたは線路と受信機との間の結合回路網Ｈ０３Ｈ）　［２００６．０１］	Input circuits, e.g. for coupling to an antenna or a transmission line (coupling networks between antennas or lines and receivers independent of the nature of the receiver H03H) [2006.01]
+H04B   1/18  A	3	0	5K062	H04B   1/18	2509	アンテナ回路	Antenna circuit
+H04B   1/18  B	3	0	5K062	H04B   1/18	649	給電・ブースター	Feeder or booster
+H04B   1/18  C	3	0	5K062	H04B   1/18	1826	入力同調及び高周波増幅回路	Input tuning and high-frequency amplifier circuits
+H04B   1/18  D	3	0	5K062	H04B   1/18	768	多バンド方式	Multi-band system
+H04B   1/18  E	3	1	5K062	H04B   1/18	331	Ｕ−Ｖチューナ用のもの	for the U-V tuner
+H04B   1/18  F	3	0	5K062	H04B   1/18	116	選択度の向上，均一化のためのもの	for selectivity improvement or evenness
+H04B   1/18  G	3	0	5K062	H04B   1/18	196	保護回路，警告回路	Protection circuit, warning circuit
+H04B   1/18  H	3	0	5K062	H04B   1/18	145	電子同調に特徴のあるもの	characterized by electronic tuning
+H04B   1/18  J	3	0	5K062	H04B   1/18	310	高周波スイッチ回路	High-frequency switch circuit
+H04B   1/18  K	3	0	5K062	H04B   1/18	396	ミリ波，マイクロ波用のもの	for milliwave or microwave
+H04B   1/18  Z	3	0	5K062	H04B   1/18	286	その他のもの	Others
+H04B   1/20  \	3	3	5K062	H04B   1/20	1091	蓄音機ピックアップ，レコーダ出力またはマイクロホンを受信機に結合するためのもの［２００６．０１］	for coupling gramophone pick-up, recorder output, or microphone to receiver [2006.01]
+H04B   1/22  \	3	3	5K062	H04B   1/22	179	局部振動の発生されていない受信機のためのもの［２００６．０１］	for receivers in which no local oscillation is generated [2006.01]
+H04B   1/24  \	4	4	5K062	H04B   1/24	2	受信機が３個以上の電極を有する半導体装置を少なくとも１個包含するもの［２００６．０１］	the receiver comprising at least one semiconductor device having three or more electrodes [2006.01]
+H04B   1/26  \	3	3	5K020	H04B   1/26	77	スーパーヘテロダイン受信機用（多重周波数変換Ｈ０３Ｄ７／１６）［２００６．０１］	for superheterodyne receivers (multiple frequency-changing H03D 7/16) [2006.01]
+H04B   1/26  A	3	0	5K020	H04B   1/26	502	方式に特徴のあるもの	characterised by the system
+H04B   1/26  B	3	0	5K020	H04B   1/26	1368	周波数変換	Frequency conversion
+H04B   1/26  C	3	0	5K020	H04B   1/26	1015	局部発振器	Local oscillator
+H04B   1/26  D	3	0	5K020	H04B   1/26	310	マイクロ波，ミリ波用	for microwave or milliwave
+H04B   1/26  E	3	0	5K020	H04B   1/26	838	多バンド、ＦＭ−ＡＭ、多波受信	Multi-band, FM-AM, multi-wave reception
+H04B   1/26  F	3	1	5K020	H04B   1/26	712	Ｕ−Ｖチューナー用のもの	for the U-V tuner
+H04B   1/26  G	3	0	5K020	H04B   1/26	236	ＦＭ受信	FM reception
+H04B   1/26  H	3	0	5K020	H04B   1/26	1212	中間周波回路	Intermediate frequency circuit
+H04B   1/26  J	3	0	5K020	H04B   1/26	931	妨害，混信の除去（Ｈ０４Ｂ１／２６　Ａが優先）	Removal of disturbance or interference (H04B1/26A takes precedence)
+H04B   1/26  K	3	0	5K020	H04B   1/26	691	多重スーパー，前段コンバーター	Multi-super, former-stage converter
+H04B   1/26  L	3	0	5K020	H04B   1/26	92	ＳＳＢ；ＶＳＢ，電信２〜３値信号，パルス変調波の受信	SSB; VSB, telegraphic binary or ternary signals, pulse modulated wave reception
+H04B   1/26  M	3	0	5K020	H04B   1/26	56	シングルスーパー広帯域受信	Single-super wideband reception
+H04B   1/26  N	3	0	5K020	H04B   1/26	103	ＣＡＴＶ用	for CATV
+H04B   1/26  P	3	0	5K020	H04B   1/26	213	電子同調に特有な回路	Circuit peculiar to electronic tuning
+H04B   1/26  Q	3	0	5K020	H04B   1/26	93	測定検知用，例．レーダ	for measurement detection, e.g. radar
+H04B   1/26  R	3	0	5K020	H04B   1/26	658	シンセサイザ−方式	Synthesizer system
+H04B   1/26  S	3	1	5K020	H04B   1/26	586	選局関係	related to channel selection
+H04B   1/26  T	3	1	5K020	H04B   1/26	169	表示関係	related to indication
+H04B   1/26  U	3	1	5K020	H04B   1/26	573	ＶＣＯ帰還ループ	VCO feedback loop
+H04B   1/26  V	3	1	5K020	H04B   1/26	335	可変分周器，固定分周器	Variable divider, fixed divider
+H04B   1/26  W	3	1	5K020	H04B   1/26	120	バンド切換えを行なうもの	using band change-over
+H04B   1/26  Z	3	0	5K020	H04B   1/26	379	その他のもの	Others
+H04B   1/28  \	4	4	5K020	H04B   1/28	4	受信機が３個以上の電極を有する半導体装置を少なくとも１個包含するもの［２００６．０１］	the receiver comprising at least one semiconductor device having three or more electrodes [2006.01]
+H04B   1/30  \	3	3	5K054	H04B   1/30	929	ホモダインまたはシンクロダイン受信機用（復調回路Ｈ０３Ｄ１／２２）［２００６．０１］	for homodyne or synchrodyne receivers (demodulator circuits H03D 1/22) [2006.01]
+H04B   1/38  \	1	1	5K011	H04B   1/38	7821	送受信機，すなわち送信機と受信機とが１つの構造ユニットを形成し，かつ少なくとも一部分は送信および受信機能のために用いられる装置［１，２０１５．０１］	Transceivers, i.e. devices in which transmitter and receiver form a structural unit and in which at least one part is used for functions of transmitting and receiving [1, 2015.01]
+H04B   1/3805  \	2	2	5K011	H04B   1/3805	294	備え付けの補助受信機を有するもの［２０１５．０１］	with built-in auxiliary receivers  [2015.01]
+H04B   1/3816  \	2	2	5K011	H04B   1/3816	27	識別装置を収容するための機械的装置，例．カードまたはチップ；識別装置をプログラミングするためのコネクタ［２０１５．０１］	Mechanical arrangements for accommodating identification devices, e.g. cards or chips; with connectors for programming identification devices  [2015.01]
+H04B   1/3818  \	3	3	5K011	H04B   1/3818	1	識別装置の挿入または除去を容易にするための装置［２０１５．０１］	Arrangements for facilitating insertion or removal of identification devices  [2015.01]
+H04B   1/3822  \	2	2	5K011	H04B   1/3822	8223	車両内で使用するために特に適合するもの（Ｈ０４Ｂ１／３８２７が優先）［２０１５．０１］	specially adapted for use in vehicles(H04B1/3827 takes precedence)  [2015.01]
+H04B   1/3827  \	2	2	5K011	H04B   1/3827	1798	携帯用送受信機［２０１５．０１］	Portable transceivers  [2015.01]
+H04B   1/3827 110 \	3	3	5K011	H04B   1/3827	364	手持ちの送受信機	hand carried transceiver
+H04B   1/3827 120 \	4	4	5K011	H04B   1/3827	218	ユーザへのＲＦ露出低減用の装置，例．使用時に送受信機の形状を変更するもの（アンテナパターン形成のための手段　Ｈ０１Ｑ１／２４５）	device to decrease user RF exposure, e.g. change shape of transceiver when in use (means to form antenna pattern H01Q1/245)
+H04B   1/3827 130 \	3	3	5K011	H04B   1/3827	398	体につけて運ぶ送受信機，例．ヘルメットに装着	Transceiver carried by human body when transferred, e.g. mounted on helmet
+H04B   1/3877  \	3	3	5K011	H04B   1/3877	289	携帯用送受信機を固定位置で使用できるようにする装置，例．クレードルまたはブースタ［２０１５．０１］	Arrangements for enabling portable transceivers to be used in a fixed position, e.g. cradles or boosters  [2015.01]
+H04B   1/3883  \	3	3	5K011	H04B   1/3883	340	バッテリまたはバッテリ充電器を取付する装置［２０１５．０１］	Arrangements for mounting batteries or battery chargers  [2015.01]
+H04B   1/3888  \	3	3	5K011	H04B   1/3888	161	送受信機を持ち運ぶまたは保護する装置［２０１５．０１］	Arrangements for carrying or protecting transceivers  [2015.01]
+H04B   1/40  \	2	2	5K011	H04B   1/40	10659	回路［１，２０１５．０１］	Circuits [1, 2015.01]
+H04B   1/401  \	3	3	5K011	H04B   1/401	1566	オペレーティングモードを選択または表示するためのもの［２０１５．０１］	for selecting or indicating operating mode  [2015.01]
+H04B   1/403  \	3	3	5K011	H04B   1/403	516	送信機周波数と受信機局部発振周波数の両方を生成する同一の発振器を用いるもの［２０１５．０１］	using the same oscillator for generating both the transmitter frequency and the receiver local oscillator frequency  [2015.01]
+H04B   1/403 101 \	4	4	5K011	H04B   1/403	52	１つ以上の伝送モードを有するもの，例．アナログおよびデジタルモード	having one or more transmission mode, e.g. analogue and digital mode
+H04B   1/405  \	4	4	5K011	H04B   1/405	37	複数の別々のチャネルを用いるもの［２０１５．０１］	with multiple discrete channels  [2015.01]
+H04B   1/408  \	4	4	5K011	H04B   1/408	451	送信機発振周波数が受信機発振周波数と同一であるもの［２０１５．０１］	the transmitter oscillator frequency being identical to the receiver local oscillator frequency  [2015.01]
+H04B   1/44  \	3	3	5K011	H04B   1/44	2261	送信−受信切り換え［２００６．０１］	Transmit/receive switching  [2006.01]
+H04B   1/46  \	4	4	5K011	H04B   1/46	275	音声周波数信号によるもの；パイロット信号によるもの［２００６．０１］	by voice-frequency signals; by pilot signals [2006.01]
+H04B   1/48  \	4	4	5K011	H04B   1/48	1791	送信機と受信機を共通伝送通路へ接続するための回路におけるもの，例．送信機のエネルギによるもの［２００６．０１］	in circuit for connecting transmitter and receiver to a common transmission path, e.g. by energy of transmitter [2006.01]
+H04B   1/50  \	3	3	5K011	H04B   1/50	1433	２方向の通信に異なる周波数を用いるもの［２００６．０１］	using different frequencies for the two directions of communication [2006.01]
+H04B   1/52  \	4	4	5K011	H04B   1/52	1038	ハイブリッド装置，すなわち単一通路２方向伝送から２通路中各通路単一方向伝送への変換のための装置，またはその逆［１，２０１５．０１］	Hybrid arrangements, i.e. for transition from single-path two-way transmission to single transmission on each of two paths, or <u>vice versa</u> [1, 2015.01]
+H04B   1/525  \	5	5	5K011	H04B   1/525	448	送信機の信号が受信機に漏洩することを低減する手段を有するもの［２０１５．０１］	with means for reducing leakage of transmitter signal into the receiver  [2015.01]
+H04B   1/54  \	3	3	5K011	H04B   1/54	525	２方向の通信に同一周波数を用いるもの（Ｈ０４Ｂ１／４４が優先）［２００６．０１］	using the same frequency for both directions of communication (H04B 1/44 takes precedence) [2006.01]
+H04B   1/56  \	4	4	5K011	H04B   1/56	318	２方向同時通信のための備えのあるもの［２００６．０１］	with provision for simultaneous communication in both directions [2006.01]
+H04B   1/58  \	4	4	5K011	H04B   1/58	184	ハイブリッド装置，すなわち単一通路２方向伝送から２通路中各通路単一方向伝送への変換のための装置，またはその逆［２００６．０１］	Hybrid arrangements, i.e. arrangements for transition from single-path two-direction transmission to single-direction transmission on each of two paths or vice versa [2006.01]
+H04B   1/59  \	1	1	5K054	H04B   1/59	5249	レスポンダ；トランスポンダ［２００６．０１］	Responders; Transponders [2006.01]
+H04B   1/60  \	1	1	5K042	H04B   1/60	49	無人中継器の監視［２００６．０１］	Supervising unattended repeaters [2006.01]
+H04B   1/62  \	1	1	5K066	H04B   1/62	558	送信機における信号の予わいおよび受信機におけるその予わいの補正を行うためのもの，例．信号対雑音比を改善するためのもの［２００６．０１］	for providing a predistortion of the signal in the transmitter and corresponding correction in the receiver, e.g. for improving the signal/noise ratio [2006.01]
+H04B   1/64  \	2	2	5K066	H04B   1/64	473	音量圧縮または伸張配置［２００６．０１］	Volume compression or expansion arrangements [2006.01]
+H04B   1/66  \	1	1	5K066	H04B   1/66	1157	信号の帯域幅を減少させるためのもの；伝送の効率を改善するためのもの（Ｈ０４Ｂ１／６８が優先）［２００６．０１］	for reducing bandwidth of signals; for improving efficiency of transmission (H04B1/68 takes precedence) [2006.01]
+H04B   1/68  \	1	1	5K066	H04B   1/68	192	搬送波または一つの側帯波の全部または一部を抑圧するためのもの［２００６．０１］	for wholly or partially suppressing the carrier or one side band  [2006.01]
+H04B   1/69  \	1	1	5K022	H04B   1/69	636	スペクトラム拡散技術［６，２０１１．０１］	Spread spectrum techniques
+H04B   1/692  \	2	2	5K022	H04B   1/692	111	２以上のスペクトラム拡散技術の組合せを用いたハイブリッド技術［２０１１．０１］	Hybrid techniques using combinations of two or more spread spectrum techniques
+H04B   1/707  \	2	2	5K022	H04B   1/707	2112	直接拡散方式を用いるもの［６，２０１１．０１］	using direct sequence modulation
+H04B   1/7073  \	3	3	5K022	H04B   1/7073	1080	同期に関するもの［２０１１．０１］	Synchronisation aspects
+H04B   1/7075  \	4	4	5K022	H04B   1/7075	759	符号位相捕捉［２０１１．０１］	with code phase acquisition
+H04B   1/7077  \	5	5	5K022	H04B   1/7077	91	多段処理，例．マルチドウェル，粗同期・精同期，同期の検証［２０１１．０１］	Multi-step acquisition, e.g. multi-dwell, coarse-fine or validation
+H04B   1/708  \	5	5	5K022	H04B   1/708	92	並列処理［２０１１．０１］	Parallel implementation
+H04B   1/7083  \	4	4	5K022	H04B   1/7083	370	セルサーチ，例．三段階セルサーチを用いたもの［２０１１．０１］	Cell search, e.g. using a three-step approach
+H04B   1/7085  \	4	4	5K022	H04B   1/7085	483	符号追従ループ，例．ＤＬＬを用いたもの［２０１１．０１］	using a code tracking loop, e.g. a delay-locked loop
+H04B   1/7087  \	4	4	5K022	H04B   1/7087	420	搬送波の同期化［２０１１．０１］	Carrier synchronisation aspects
+H04B   1/709  \	3	3	5K022	H04B   1/709	504	相関器の構造［２０１１．０１］	Correlator structure
+H04B   1/7093  \	4	4	5K022	H04B   1/7093	472	マッチドフィルタ［２０１１．０１］	Matched filter type
+H04B   1/7095  \	4	4	5K022	H04B   1/7095	84	スライディングコリレータ［２０１１．０１］	Sliding correlator type
+H04B   1/7097  \	3	3	5K022	H04B   1/7097	525	干渉に関するもの［２０１１．０１］	Interference-related aspects
+H04B   1/71  \	4	4	5K022	H04B   1/71	126	狭帯域干渉に関するもの［２０１１．０１］	the interference being narrowband interference
+H04B   1/7103  \	4	4	5K022	H04B   1/7103	344	マルチアクセス干渉に関するもの［２０１１．０１］	the interference being multiple access interference
+H04B   1/7105  \	5	5	5K022	H04B   1/7105	101	結合検出技術，例．直線検波器［２０１１．０１］	Joint detection techniques, e.g. linear detectors
+H04B   1/7107  \	5	5	5K022	H04B   1/7107	399	減算による干渉除去［２０１１．０１］	Subtractive interference cancellation
+H04B   1/711  \	4	4	5K022	H04B   1/711	228	マルチパス干渉に関するもの［２０１１．０１］	the interference being multi-path interference
+H04B   1/7113  \	5	5	5K022	H04B   1/7113	276	パスのプロファイルの測定［２０１１．０１］	Determination of path profile
+H04B   1/7115  \	5	5	5K022	H04B   1/7115	553	マルチパスの合成，すなわち．ＲＡＫＥ受信機［２０１８．０１］	Constructive combining of multi-path signals, i.e. RAKE receivers [2006.01]
+H04B   1/7117  \	6	6	5K022	H04B   1/7117	456	フィンガのパスの選択，再選択，割当てまたは再割当て，例．割り当てられたフィンガのタイミングオフセットの調整［２０１１．０１］	Selection, re-selection, allocation or re-allocation of paths to fingers, e.g. timing offset control of allocated fingers
+H04B   1/712  \	6	6	5K022	H04B   1/712	348	フィンガの重み付け合成，例．インナーループを用いた電力値及び位相値の制御［２０１１．０１］	Weighting of fingers for combining, e.g. amplitude control or phase rotation using an inner loop
+H04B   1/713  \	2	2	5K022	H04B   1/713	909	周波数ホッピング方式を用いるもの［６，２０１１．０１］	using frequency hopping
+H04B   1/7136  \	3	3	5K022	H04B   1/7136	178	ホッピング周波数の調整，例．周波数源のバンクを利用するもの，または連続同調を利用するもの，あるいは変圧を利用するもの［２０１１．０１］	Arrangements for generation of hop frequencies, e.g. using a bank of frequency sources, using continuous tuning or using a transform
+H04B   1/7143  \	3	3	5K022	H04B   1/7143	529	ホッピングパターンの調整［２０１１．０１］	Arrangements for generation of hop patterns
+H04B   1/715  \	3	3	5K022	H04B   1/715	266	干渉に関するもの［２０１１．０１］	Interference-related aspects
+H04B   1/7156  \	3	3	5K022	H04B   1/7156	252	系列同期の調整［２０１１．０１］	Arrangements for sequence synchronisation
+H04B   1/7163  \	2	2	5K022	H04B   1/7163	148	インパルス無線を用いるもの［２０１１．０１］	using impulse radio
+H04B   1/717  \	3	3	5K022	H04B   1/717	189	パルスに関するもの［２０１１．０１］	Pulse-related aspects
+H04B   1/7176  \	3	3	5K022	H04B   1/7176	94	データマッピング，例．変調［２０１１．０１］	Data mapping, e.g. modulation
+H04B   1/7183  \	3	3	5K022	H04B   1/7183	143	同期に関するもの［２０１１．０１］	Synchronisation
+H04B   1/719  \	3	3	5K022	H04B   1/719	78	干渉に関するもの［２０１１．０１］	Interference-related aspects
+H04B   1/72  \	1	1	5K054	H04B   1/72	25	アンテナを擬似するための回路または構成要素，例．擬似アンテナ［２００６．０１］	Circuits or components for simulating antennas, e.g. dummy antennas [2006.01]
+H04B   1/74  \	1	1	5K021	H04B   1/74	3849	信頼性を増すためのもの，例．冗長なまたは予備の回線または装置を用いるもの［２００６．０１］	for increasing reliability, e.g. using redundant or spare channels or apparatus [2006.01]
+H04B   1/76  \	1	1	5K046	H04B   1/76	309	伝送の制御または等化のためのパイロット信号送信機または受信機［２００６．０１］	Pilot transmitters or receivers for control of transmission or for equalising  [2006.01]
+H04B   3/00  \	0	0	5K046	H04B   3/00	1324	有線伝送方式（近接電磁界伝送方式と結合したものＨ０４Ｂ５／００）	Line transmission systems (combined with near-field transmission systems H04B 5/00)
+H04B   3/02  \	1	1	5K046	H04B   3/02	1059	細部	Details
+H04B   3/03  \	2	2	5K046	H04B   3/03	409	ハイブリッド回路（送受信機のためのものＨ０４Ｂ１／５２，Ｈ０４Ｂ１／５８）［３］	Hybrid circuits (for transceivers H04B 1/52, H04B 1/58) [3]
+H04B   3/03  A	2	0	5K046	H04B   3/03	56	変成器型	Transformer type
+H04B   3/03  B	2	0	5K046	H04B   3/03	48	抵抗器型	Resistor type
+H04B   3/03  Z	2	0	5K046	H04B   3/03	122	その他のもの	Others
+H04B   3/04  \	2	2	5K046	H04B   3/04	111	伝送の制御；等化	Control of transmission; Equalising
+H04B   3/04  A	2	0	5K046	H04B   3/04	2002	等化	Equalisation
+H04B   3/04  C	2	1	5K046	H04B   3/04	459	予等化	Pre-equalisation
+H04B   3/04  D	2	1	5K046	H04B   3/04	103	パルス整形によるもの	using pulse reshaping
+H04B   3/04  B	2	0	5K046	H04B   3/04	438	ＡＧＣ	AGC
+H04B   3/04  Z	2	0	5K046	H04B   3/04	255	その他のもの	Others
+H04B   3/06  \	3	3	5K046	H04B   3/06	168	伝送された信号によるもの	by the transmitted signal
+H04B   3/06  A	3	0	5K046	H04B   3/06	967	等化	Equalisation
+H04B   3/06  C	3	1	5K046	H04B   3/06	932	トランスバーサル形自動等化	Transversal type automatic equalisation
+H04B   3/06  D	3	1	5K046	H04B   3/06	162	非線形歪の自動等化	Automatic equalisation of non-linear distortion
+H04B   3/06  E	3	1	5K046	H04B   3/06	400	交流方式に用いるもの	using for the AC system
+H04B   3/06  B	3	0	5K046	H04B   3/06	322	ＡＧＣ	AGC
+H04B   3/06  Z	3	0	5K046	H04B   3/06	103	その他のもの	Others
+H04B   3/08  \	4	4	5K046	H04B   3/08	43	線路増幅器の負帰環路におけるもの	in negative-feedback path of line amplifier
+H04B   3/10  \	3	3	5K046	H04B   3/10	29	パイロット信号によるもの	by pilot signal
+H04B   3/10  A	3	0	5K046	H04B   3/10	263	等化	Equalisation
+H04B   3/10  C	3	1	5K046	H04B   3/10	545	トレーニング信号によるもの	using the training signal
+H04B   3/10  B	3	0	5K046	H04B   3/10	284	ＡＧＣ	AGC
+H04B   3/10  Z	3	0	5K046	H04B   3/10	49	その他のもの	Others
+H04B   3/11  \	4	4	5K046	H04B   3/11	0	監視線を用いるもの（Ｈ０４Ｂ３／１２が優先）［３］	using pilot wire (H04B 3/12 take precedence) [3]
+H04B   3/11  A	4	0	5K046	H04B   3/11	13	等化	Equalisation
+H04B   3/11  B	4	0	5K046	H04B   3/11	19	ＡＧＣ	AGC
+H04B   3/11  Z	4	0	5K046	H04B   3/11	5	その他のもの	Others
+H04B   3/12  \	4	4	5K046	H04B   3/12	27	線路増幅器の負帰還路におけるもの	in negative-feedback path of line amplifier
+H04B   3/14  \	3	3	5K046	H04B   3/14	484	用いられる等化回路網に特徴のあるもの	characterised by the equalising network used
+H04B   3/16  \	3	3	5K046	H04B   3/16	8	用いられる負性インピーダンス回路網に特徴のあるもの	characterised by the negative-impedance network used
+H04B   3/18  \	4	4	5K046	H04B   3/18	16	その回路網が半導体装置を包含するもの	wherein the network comprises semiconductor devices
+H04B   3/20  \	2	2	5K046	H04B   3/20	1192	反響効果またはシンギングの低減；伝送路の開放または閉成；一方向または他方向の伝送のための調節	Reducing echo effects or singing; Opening or closing transmitting path; Conditioning for transmission in one direction or the other
+H04B   3/21  \	3	3	5K046	H04B   3/21	19	１組の帯域フイルタを用いるもの［３］	using a set of bandfilters [3]
+H04B   3/23  \	3	3	5K046	H04B   3/23	2684	時間領域における伝送された信号の複製を用いるもの，例．反響消去器［３］	using a replica of transmitted signal in the time domain, e.g. echo cancellers [3]
+H04B   3/26  \	2	2	5K046	H04B   3/26	86	装荷線輪の使用による周波数特性の改善	Improving frequency characteristic by the use of loading coils
+H04B   3/28  \	2	2	5K046	H04B   3/28	144	ケーブルシースまたはがい装内の誘導電流に起因する干渉の低減	Reducing interference caused by currents induced in cable sheathing or armouring
+H04B   3/30  \	2	2	5K046	H04B   3/30	100	本来ならば平衡している線路における不平衡電流に起因する干渉の低減［２００６．０１］	Reducing interference caused by unbalanced currents in a normally balanced line [2006.01]
+H04B   3/32  \	2	2	5K046	H04B   3/32	611	漏話の低減，例．補償によるもの	Reducing cross-talk, e.g. by compensating
+H04B   3/34  \	3	3	5K046	H04B   3/34	18	布設ケーブルの組織的な相互接続によるもの；布設ケーブルに平衡をとる要素を付加するもの	by systematic interconnection of lengths of cable during laying; by addition of balancing components to cable during laying
+H04B   3/36  \	2	2	5K046	H04B   3/36	1217	中継器回路（Ｈ０４Ｂ３／５８が優先）	Repeater circuits ()
+H04B   3/38  \	3	3	5K046	H04B   3/38	196	同一伝送路を反対方向に伝送される相異なる２つの周波数範囲における信号のためのもの	for signals in two different frequency ranges transmitted in opposite directions over the same transmission path
+H04B   3/40  \	2	2	5K046	H04B   3/40	97	擬似線路；一定の長さの線路を擬似する回路網	Artificial lines; Networks simulating a line of certain length
+H04B   3/42  \	2	2	5K046	H04B   3/42	2	呼出信号の側路のための回路	Circuits for by-passing of ringing signals
+H04B   3/44  \	2	2	5K046	H04B   3/44	697	伝送線による中継器への電力供給配置	Arrangements for feeding power to a repeater along the transmission line
+H04B   3/46  \	2	2	5K042	H04B   3/46	3401	監視；試験［１，２０１５．０１］	Monitoring; Testing [1, 2015.01]
+H04B   3/462  \	3	3	5K042	H04B   3/462	127	群遅延または位相偏移の試験，例．タイミングジッタ［２０１５．０１］	Testing group delay or phase shift, e.g. timing jitter  [2015.01]
+H04B   3/466  \	4	4	5K042	H04B   3/466	13	群遅延または位相偏移の少なくともいずれか一つと組み合わせた減衰の試験［２０１５．０１］	Testing attenuation in combination with at least one of group delay and phase shift  [2015.01]
+H04B   3/48  \	3	3	5K042	H04B   3/48	222	減衰の試験（Ｈ０４Ｂ３／４６６が優先）［１，２０１５．０１］	Testing attenuation (H04B3/466 takes precedence) [1, 2015.01]
+H04B   3/487  \	3	3	5K042	H04B   3/487	61	漏話効果の試験［２０１５．０１］	Testing crosstalk effects  [2015.01]
+H04B   3/493  \	3	3	5K042	H04B   3/493	85	反響効果またはシンギングの試験［２０１５．０１］	Testing echo effects or singing  [2015.01]
+H04B   3/50  \	1	1	5K046	H04B   3/50	728	２本の伝送線を用いる固定局間の伝送方式（Ｈ０４Ｂ３／５４が優先）	Systems for transmission between fixed stations <u>via</u> two-conductor transmission lines (H04B 3/54 takes precedence)
+H04B   3/52  \	1	1	5K046	H04B   3/52	57	ウェーブガイドを用いる固定局間の伝送方式	Systems for transmission between fixed stations <u>via</u> waveguides
+H04B   3/54  \	1	1	5K046	H04B   3/54	4862	配電線を用いる伝送方式（警報システムにおけるものＧ０８Ｂ２５／０６）	Systems for transmission <u>via</u> power distribution lines (in alarm signalling systems G08B 25/06)
+H04B   3/56  \	2	2	5K046	H04B   3/56	699	信号の結合，遮断または側路のための回路	Circuits for coupling, blocking, or by-passing of signals
+H04B   3/58  \	2	2	5K046	H04B   3/58	161	中継器回路	Repeater circuits
+H04B   3/60  \	1	1	5K046	H04B   3/60	146	相対的に移動可能な局間の通信方式，例．エレベータとの通信方式（Ｈ０４Ｂ３／５４が優先）	Systems for communication between relatively movable stations, e.g. for communication with lift (H04B 3/54 takes precedence)
+H04B   5/00  \	0	0	5K012	H04B   5/00	513	近接電磁界伝送システム，例．誘導または静電容量伝送システム［２０２４．０１］	Near-field transmission systems, e.g. inductive or capacitive transmission systems [2024.01]
+H04B   5/20  \	1	1	5K012	H04B   5/20	4824	伝送技術に特徴のあるもの；伝送媒体に特徴のあるもの［２０２４．０１］	characterised by the transmission technique; characterised by the transmission medium [2024.01]
+H04B   5/22  \	2	2	5K012	H04B   5/22	514	容量結合［２０２４．０１］	Capacitive coupling [2024.01]
+H04B   5/24  \	2	2	5K012	H04B   5/24	2764	誘導結合［２０２４．０１］	Inductive coupling [2024.01]
+H04B   5/26  \	3	3	5K012	H04B   5/26	2765	コイルを用いるもの［２０２４．０１］	using coils [2024.01]
+H04B   5/28  \	2	2	5K012	H04B   5/28	855	漏洩ケーブルの近接場を用いるもの，例．漏洩同軸ケーブル［２０２４．０１］	using the near field of leaky cables, e.g. of leaky coaxial cables [2024.01]
+H04B   5/40  \	1	1	5K012	H04B   5/40	435	近接電磁界伝送に特に適合した構成要素に特徴のあるもの［２０２４．０１］	characterised by components specially adapted for near-field transmission [2024.01]
+H04B   5/43  \	2	2	5K012	H04B   5/43	6192	アンテナ［２０２４．０１］	Antennas [2024.01]
+H04B   5/45  \	2	2	5K012	H04B   5/45	3301	トランスポンダ［２０２４．０１］	Transponders [2024.01]
+H04B   5/48  \	2	2	5K012	H04B   5/48	7461	送受信機［２０２４．０１］	Transceivers [2024.01]
+H04B   5/70  \	1	1	5K012	H04B   5/70	4151	特定の目的に特に適合したもの［２０２４．０１］	specially adapted for specific purposes [2024.01]
+H04B   5/72  \	2	2	5K012	H04B   5/72	601	デバイス内の局所通信のためのもの［２０２４．０１］	for local intradevice communication [2024.01]
+H04B   5/73  \	2	2	5K012	H04B   5/73	4150	測定するためのもの，例．センシングコイルを用いるもの［２０２４．０１］	for taking measurements, e.g. using sensing coils [2024.01]
+H04B   5/75  \	2	2	5K012	H04B   5/75	4150	アイソレーションを目的とするもの［２０２４．０１］	for isolation purposes [2024.01]
+H04B   5/77  \	2	2	5K012	H04B   5/77	2688	質問のためのもの［２０２４．０１］	for interrogation [2024.01]
+H04B   5/79  \	2	2	5K012	H04B   5/79	1973	電力伝送と組み合わされたデータ伝送のためのもの［２０２４．０１］	for data transfer in combination with power transfer [2024.01]
+H04B   7/00  \	0	0	5K046	H04B   7/00	1227	無線伝送方式，すなわち放射電磁界を用いるもの（Ｈ０４Ｂ１０／００，Ｈ０４Ｂ１５／００が優先）［２００６．０１］	Radio transmission systems, i.e. using radiation field (H04B 10/00, H04B 15/00 take precedence) [2006.01]
+H04B   7/005  \	1	1	5K046	H04B   7/005	2788	伝送の制御；等化［２００６．０１］	Control of transmission; Equalising [2006.01]
+H04B   7/01  \	1	1	5K046	H04B   7/01	88	位相偏移の低減［２００６．０１］	Reducing phase shift [2006.01]
+H04B   7/015  \	1	1	5K046	H04B   7/015	332	反響効果の低減［２００６．０１］	Reducing echo effects [2006.01]
+H04B   7/02  \	1	1	5K159	H04B   7/02	149	ダイバーシチシステム；マルチアンテナシステム，すなわち，複数のアンテナを用いた送信または受信（ＲＡＫＥ受信機Ｈ０４Ｂ１／７１１５）［２０１８．０１］	Diversity systems; Multi-antenna systems, i.e. transmission or reception using multiple antennas (RAKE receivers H04B1/7115) [2018.01]
+H04B   7/022  \	2	2	5K159	H04B   7/022	1338	サイトダイバーシチ；マクロダイバーシチ（離れて配置された２以上の独立アンテナを用いるものＨ０４Ｂ７／０４）［２０１７．０１］	Site diversity; Macro-diversity (using two or more spaced independent antennas H04B7/04) [2017.01]
+H04B   7/024  \	3	3	5K159	H04B   7/024	811	いくつかの地点にある複数のアンテナの協調使用，例．多地点協調システムにおけるもの又は協調多入力多出力［ＭＩＭＯ］システムにおけるもの［２０１７．０１］	Co-operative use of antennas at several sites, e.g. in co-ordinated multipoint or co-operative multiple-input multiple-output [MIMO] systems [2017.01]
+H04B   7/026  \	3	3	5K159	H04B   7/026	330	協調ダイバーシチ，例．固定局または移動局を中継局として使用するもの［２０１７．０１］	Co-operative diversity, e.g. using fixed or mobile stations as relays [2017.01]
+H04B   7/04  \	2	2	5K159	H04B   7/04	5272	離れて配置された２以上の独立アンテナを用いるもの［２０１７．０１］	using a plurality of spaced independent aerials [2017.01]
+H04B   7/0404  \	3	3	5K159	H04B   7/0404	125	複数のアンテナを含む移動局，例．アップリンクダイバーシチを提供するためのもの［２０１７．０１］	the mobile station comprising multiple antennas, e.g. to provide uplink diversity [2017.01]
+H04B   7/0408  \	3	3	5K159	H04B   7/0408	246	２以上のビームを用いるもの，すなわち，ビームダイバーシチ［２０１７．０１］	using two or more beams, i.e. beam diversity [2017.01]
+H04B   7/0413  \	3	3	5K159	H04B   7/0413	1919	ＭＩＭＯシステム［２０１７．０１］	MIMO systems [2017.01]
+H04B   7/0413 100 \	4	4	5K159	H04B   7/0413	723	アップリンクＭＩＭＯ	Uplink MIMO
+H04B   7/0413 200 \	4	4	5K159	H04B   7/0413	1302	信号検出方式	Signal detection systems
+H04B   7/0413 210 \	5	5	5K159	H04B   7/0413	736	線形復号するもの，例．ＺＦまたはＭＭＳＥ	Linear decoding, e.g. Zero Forcing (ZF) or Minimum Mean Squared Error (MMSE)
+H04B   7/0413 220 \	5	5	5K159	H04B   7/0413	182	逐次復号するもの，例．Ｖ−ＢＬＡＳＴ	Sequential decoding, e.g.  Vertical Bell Layered Space-Time (V-BLAST)
+H04B   7/0413 230 \	5	5	5K159	H04B   7/0413	284	最尤復号するもの，例．ＭＬＤ	Maximum likelihood decoding, e.g. Maximum Likelihood Decoder (MLD)
+H04B   7/0413 232 \	6	6	5K159	H04B   7/0413	65	一定の領域内の信号点を選択して計算量を減らした最尤復号，例．Ｓｐｈｅｒｅ　Ｄｅｃｏｄｉｎｇ	Maximum likelihood decoding selecting a signal constellation in a certain region to reduce calculation amounts, e.g. Sphere Decoding
+H04B   7/0413 234 \	6	6	5K159	H04B   7/0413	105	段階的に信号点を選択して計算量を減らした最尤復号，例．ＱＲＭ−ＭＬＤ	Maximum likelihood decoding selecting a signal constellation by steps to reduce calculation amounts, e.g. QRM-MLD
+H04B   7/0413 300 \	4	4	5K159	H04B   7/0413	378	アンテナの構造又は配置に特徴のあるもの	characterised by antenna structure or arrangement
+H04B   7/0413 310 \	5	5	5K159	H04B   7/0413	315	水平ビーム及び垂直ビームを用いるもの，例．３Ｄ−ＭＩＭＯ	using horizontal and vertical beams, e.g. 3D-MIMO
+H04B   7/0413 320 \	5	5	5K159	H04B   7/0413	241	偏波に特徴のあるもの	characterised by polarized waves
+H04B   7/0413 400 \	4	4	5K159	H04B   7/0413	302	見通し内通信を考慮した制御	control in consideration of Line-of-Sight (LoS) communication
+H04B   7/0417  \	4	4	5K159	H04B   7/0417	926	フィードバックシステム［２０１７．０１］	Feedback systems [2017.01]
+H04B   7/0417 100 \	5	5	5K159	H04B   7/0417	365	フィードバック量を変更するもの	changing feedback amounts
+H04B   7/0417 110 \	6	6	5K159	H04B   7/0417	109	差分フィードバック	Differential feedback
+H04B   7/0417 120 \	6	6	5K159	H04B   7/0417	187	フィードバックの割合が変動し得るもの，例．短周期と長周期でそれぞれ異なる情報をフィードバックする	variable feedback rate, e.g. feedbacks of short term and long term
+H04B   7/0417 130 \	6	6	5K159	H04B   7/0417	267	複数の情報を統合してフィードバックするもの，例．複数サブキャリアの代表値をフィードバックするもの，例．ＰＭＩとＣＱＩのジョイントコーディング	feedback by integration of multiple pieces of information, e.g. feedback of representative values of multiple subcarriers, e.g. joint coding of PMI and CQI
+H04B   7/0426  \	4	4	5K159	H04B   7/0426	298	電力の分配［２０１７．０１］	Power distribution [2017.01]
+H04B   7/0426 100 \	5	5	5K159	H04B   7/0426	175	アンテナ毎に電力を割り当てるもの	Power allocation to each antenna
+H04B   7/0426 200 \	5	5	5K159	H04B   7/0426	107	ビーム毎に電力を割り当てるもの	Power allocation to each beam
+H04B   7/0452  \	4	4	5K159	H04B   7/0452	914	マルチユーザＭＩＭＯシステム［２０１７．０１］	Multi-user MIMO systems [2017.01]
+H04B   7/0452 100 \	5	5	5K159	H04B   7/0452	935	リソース割り当て，スケジューリングを行うもの	allocating resources, scheduling
+H04B   7/0452 110 \	6	6	5K159	H04B   7/0452	307	ユーザグループを決定するもの	determining user groups
+H04B   7/0456  \	4	4	5K159	H04B   7/0456	57	プリコーディングマトリクス又はコードブックの選択，例．アンテナ重付けのためのマトリクスを使用するもの［２０１７．０１］	Selection of precoding matrices or codebooks, e.g. using  weighting matrices for antennas [2017.01]
+H04B   7/0456 100 \	5	5	5K159	H04B   7/0456	1792	プリコーディング方式	Precoding systems
+H04B   7/0456 110 \	6	6	5K159	H04B   7/0456	454	線形プリコーディング	Linear precoding
+H04B   7/0456 120 \	7	7	5K159	H04B   7/0456	510	固有モード	Eigen modes
+H04B   7/0456 130 \	6	6	5K159	H04B   7/0456	113	非線形プリコーディング	Non-linear precoding
+H04B   7/0456 300 \	5	5	5K159	H04B   7/0456	514	コードブックに特徴があるもの，例．複数のコードブックから選択するもの	characterised by codebooks, e.g. selection from multiple codebooks
+H04B   7/0456 400 \	5	5	5K159	H04B   7/0456	166	事前に定義されたプリコーディングマトリクス又はコードブックを調整するもの	arranging predefined precoding matrices or codebooks
+H04B   7/0491  \	3	3	5K159	H04B   7/0491	244	２以上のセクターを用いるもの，すなわち，セクターダイバーシチ［２０１７．０１］	using two or more sectors, i.e. sector diversity [2017.01]
+H04B   7/0495  \	4	4	5K159	H04B   7/0495	33	ＭＩＭＯアンテナを実装するために同一基地局内の重複セクターを用いるもの［２０１７．０１］	using overlapping sectors in the same base station to implement MIMO antennas [2017.01]
+H04B   7/06  \	3	3	5K159	H04B   7/06	2477	送信局におけるもの［２００６．０１］	at transmitting station [2006.01]
+H04B   7/06 020 \	4	4	5K159	H04B   7/06	370	アンテナ切換を使用するもの	
+H04B   7/06 040 \	5	5	5K159	H04B   7/06	471	事前に定義された切換方式を有するもの，送信側のみで決定するもの	
+H04B   7/06 042 \	6	6	5K159	H04B   7/06	438	受信時のアンテナの選択に基づいて送信時のアンテナを選択するもの	
+H04B   7/06 100 \	5	5	5K159	H04B   7/06	424	受信側からのフィードバックを使用するもの	using feedback from the receiver side
+H04B   7/06 102 \	5	5	5K159	H04B   7/06	74	受信側からの参照信号を使用するもの	using referential signals from the receiver side
+H04B   7/06 130 \	4	4	5K159	H04B   7/06	197	同時伝送を使用するもの	using simultaneous transmission
+H04B   7/06 150 \	5	5	5K159	H04B   7/06	1634	同一の信号に対して複数の重み付けされたバージョンを伝送するもの	transmitting multiple weighed versions to the same signal
+H04B   7/06 152 \	6	6	5K159	H04B   7/06	402	干渉低減に特徴のあるビームを形成するもの，ヌルステアリング	beamforming characterised by interference reduction, null steering
+H04B   7/06 670 \	5	5	5K159	H04B   7/06	589	同一の信号に対して遅延が異なる複数のバージョンを伝送するもの，例．時間ダイバーシチ，例．巡回遅延ダイバ−シチ	transmitting multiple versions different in delay to the same signal, e.g. time diversity, e.g. cyclic delay diversity
+H04B   7/06 780 \	5	5	5K159	H04B   7/06	210	アンテナ間で異なる拡散符号を使用するもの	using spreading codes which are different among antennas
+H04B   7/06 820 \	5	5	5K159	H04B   7/06	231	位相ダイバーシチを使用するもの	using phase diversity
+H04B   7/06 860 \	4	4	5K159	H04B   7/06	168	送信局装置，送信方法又は送信パラメータの制御	Control of transmitter, method of transmission or transmission parameters
+H04B   7/06 890 \	5	5	5K159	H04B   7/06	1164	異なる送信方式を切り換えるもの，例．空間多重とダイバーシチを切り換える	switching different transmission modes, e.g. switching spacial multiplex mode and diversity mode
+H04B   7/06 910 \	5	5	5K159	H04B   7/06	356	アンテナ又はビームをグループ分けして制御するもの	grouping and controlling antennas or beams
+H04B   7/06 950 \	5	5	5K159	H04B   7/06	1182	ビーム切換又はビーム選択を使用するもの	using beam switching or beam selection
+H04B   7/06 952 \	6	6	5K159	H04B   7/06	777	事前に定義された切換方式を有するもの，送信側のみで決定するもの	having predefined switchingmodes, determined on a transmitter side
+H04B   7/06 954 \	7	7	5K159	H04B   7/06	580	受信時のビームの選択に基づいて送信時のビームを選択するもの	selecting beams at the transmitter side, based on the selection of beams at the receiver side
+H04B   7/06 956 \	6	6	5K159	H04B   7/06	2147	受信側からのフィードバックを使用するもの	using feedback from the receiver side
+H04B   7/06 958 \	6	6	5K159	H04B   7/06	421	受信側からの参照信号を使用するもの	using reference signals from the receiver side
+H04B   7/06 960 \	6	6	5K159	H04B   7/06	491	ビーム選択の効率化，例．ビーム幅を段階的に変えて選択するもの	Optimization of the beam selection, e.g. selection by stepwise changes in beam width
+H04B   7/06 980 \	5	5	5K159	H04B   7/06	30	送信局装置，送信方法又は送信パラメータの調整	Control of transmitter, method of transmission or transmission parameters
+H04B   7/06 982 \	6	6	5K159	H04B   7/06	623	キャリブレーション	Calibration
+H04B   7/06 984 \	6	6	5K159	H04B   7/06	1643	参照信号に特徴があるもの	characterised by reference signals
+H04B   7/06 986 \	7	7	5K159	H04B   7/06	395	アンテナごとに異なるトレーニングシーケンスを使用するもの	using antenna-specific training sequences
+H04B   7/08  \	3	3	5K159	H04B   7/08	1937	受信局におけるもの［２００６．０１］	at receiving station [2006.01]
+H04B   7/08 020 \	4	4	5K159	H04B   7/08	3291	アンテナ切換又はアンテナ選択を使用するもの	
+H04B   7/08 022 \	5	5	5K159	H04B   7/08	3587	受信側で判断するもの	
+H04B   7/08 024 \	5	5	5K159	H04B   7/08	71	送信側の指示に従うもの	
+H04B   7/08 050 \	5	5	5K159	H04B   7/08	6	切換ダイバーシチ	
+H04B   7/08 052 \	6	6	5K159	H04B   7/08	3	処理方法	
+H04B   7/08 052 A	6	0	5K159	H04B   7/08	916	ベースバンド段で切り換えるもの	
+H04B   7/08 052 B	6	0	5K159	H04B   7/08	201	ＩＦ段で切り換えるもの	
+H04B   7/08 052 C	6	0	5K159	H04B   7/08	2280	ＲＦ段で切り換えるもの	
+H04B   7/08 052 Z	6	0	5K159	H04B   7/08	643	その他のもの	
+H04B   7/08 370 \	4	4	5K159	H04B   7/08	3700	合成を使用するもの，例．合成ダイバーシチ	using combining e.g. combining diversity
+H04B   7/08 372 \	5	5	5K159	H04B   7/08	2	処理方法	Processing methods
+H04B   7/08 372 A	5	0	5K159	H04B   7/08	1443	べースバンド段で合成するもの	combining in the baseband
+H04B   7/08 372 B	5	0	5K159	H04B   7/08	515	ＩＦ段で合成するもの	combining in the IF band
+H04B   7/08 372 C	5	0	5K159	H04B   7/08	842	ＲＦ段で合成するもの	combining in the RF band
+H04B   7/08 372 Z	5	0	5K159	H04B   7/08	1004	その他のもの	Others
+H04B   7/08 420 \	5	5	5K159	H04B   7/08	1260	重み付け合成	weighting and combining
+H04B   7/08 422 \	6	6	5K159	H04B   7/08	1608	アダプティブアレーアルゴリズムによるもの	by adaptive array algorithm
+H04B   7/08 450 \	6	6	5K159	H04B   7/08	317	ブランチごとの等化	Equalization of each branch
+H04B   7/08 480 \	6	6	5K159	H04B   7/08	1237	共同重み付け，例．最大比合成	Joint weighting, e.g. maximum ratio combination
+H04B   7/08 600 \	6	6	5K159	H04B   7/08	288	外部パラメータに依存する重み付け，例．到着方向［ＤＯＡ］，事前に定義された重みまたはビ−ムフォーミング，を使用するもの	weighting depending on external parameters, e.g. using Direction of Arrival "DoA", predetermined weight or beam forming
+H04B   7/08 620 \	6	6	5K159	H04B   7/08	88	送信機からの情報に基づいて重み付けを計算する受信機	Receiver calculating weighting based on information from the transmitter
+H04B   7/08 680 \	4	4	5K159	H04B   7/08	202	受信局装置，受信方法又は受信パラメータの制御	Control of receiver, method of receiving or receiving parameters
+H04B   7/08 710 \	5	5	5K159	H04B   7/08	1047	異なる受信方式を切り換えるもの，例．切換ダイバーシチと合成ダイバーシチを切り換える	switching different methods of receiving e.g. switching  diversity and combining diversity
+H04B   7/08 740 \	5	5	5K159	H04B   7/08	188	アンテナ又はビームをグループ分けして制御するもの	grouping and controlling antennas or beams
+H04B   7/08 800 \	5	5	5K159	H04B   7/08	509	ビーム切換又はビーム選択を使用するもの	using beam switching or beam selection
+H04B   7/08 802 \	6	6	5K159	H04B   7/08	1621	受信側で判断するもの	determined at the receiver side
+H04B   7/08 804 \	6	6	5K159	H04B   7/08	159	送信側の指示に従うもの	following orders of the transmitter side
+H04B   7/08 810 \	6	6	5K159	H04B   7/08	388	ビーム選択の効率化，例．ビーム幅を段階的に変えて選択するもの	Optimization of the beam selection, e.g. selection by stepwise changes in beam width
+H04B   7/08 980 \	4	4	5K159	H04B   7/08	32	受信局装置，受信方法又は受信パラメータの調整	Adjusting receiver, method of receiving or receiving parameters
+H04B   7/08 982 \	5	5	5K159	H04B   7/08	552	キャリブレーション	Calibration
+H04B   7/10  \	2	2	5K159	H04B   7/10	91	偏波ダイバーシチ；指向性ダイバーシチ［２０１７．０１］	Polarisation diversity, direction diversity [2006.01]
+H04B   7/10  A	2	0	5K159	H04B   7/10	4332	方向ダイバーシチ	Direction diversity
+H04B   7/10  B	2	0	5K159	H04B   7/10	809	偏波ダイバーシチ	Polarisation diversity
+H04B   7/10  Z	2	0	5K159	H04B   7/10	35	その他のもの	Others
+H04B   7/12  \	2	2	5K159	H04B   7/12	1007	周波数ダイバーシチ［２００６．０１］	Frequency-diversity systems [2006.01]
+H04B   7/14  \	1	1	5K072	H04B   7/14	232	中継方式［２００６．０１］	Relay systems [2006.01]
+H04B   7/145  \	2	2	5K072	H04B   7/145	196	受動中継方式［２００６．０１］	Passive relay systems [2006.01]
+H04B   7/15  \	2	2	5K072	H04B   7/15	7036	能動中継方式［２００６．０１］	Active relay systems [2006.01]
+H04B   7/155  \	3	3	5K072	H04B   7/155	1804	地上局（Ｈ０４Ｂ７／２０４が優先）［２００６．０１］	Ground-based stations [2006.01]
+H04B   7/165  \	4	4	5K072	H04B   7/165	9	角度変調を使用するもの［２００６．０１］	employing angle modulation [2006.01]
+H04B   7/17  \	4	4	5K072	H04B   7/17	18	パルス変調を使用するもの，例．パルス符号変調［２００６．０１］	employing pulse modulation, e.g. pulse code modulation [2006.01]
+H04B   7/185  \	3	3	5K072	H04B   7/185	1427	宇宙局または航空機搭載局（Ｈ０４Ｂ７／２０４が優先）［２００６．０１］	Space-based or airborne stations [2006.01]
+H04B   7/19  \	4	4	5K072	H04B   7/19	100	地球同期局［２００６．０１］	Earth-synchronous stations [2006.01]
+H04B   7/195  \	4	4	5K072	H04B   7/195	217	非同期局［２００６．０１］	Non-synchronous stations [2006.01]
+H04B   7/204  \	3	3	5K072	H04B   7/204	338	多元接続［２００６．０１］	Multiple access [2006.01]
+H04B   7/208  \	4	4	5K072	H04B   7/208	365	周波数分割多元接続［２００６．０１］	Frequency-division multiple access [2006.01]
+H04B   7/212  \	4	4	5K072	H04B   7/212	1180	時分割多元接続［２００６．０１］	Time-division multiple access [2006.01]
+H04B   7/216  \	4	4	5K072	H04B   7/216	277	符号分割またはスペクトラム拡散多元接続［２００６．０１］	Code-division or spread-spectrum multiple access [2006.01]
+H04B   7/22  \	1	1	5K072	H04B   7/22	21	散乱波伝播方式［２００６．０１］	Scatter propagation systems [2006.01]
+H04B   7/24  \	1	1	5K067	H04B   7/24	745	二つ以上の地点間の通信のためのもの（無線通信ネットワークＨ０４Ｗ）［２００６．０１］	for communication between two or more posts (wireless communication networks H04W)  [2006.01]
+H04B   7/26  \	2	2	5K067	H04B   7/26	1314	少くとも一つの地点が移動できるもの［２００６．０１］	at least one of which is mobile  [2006.01]
+H04B  10/00  \	0	0	5K102	H04B  10/00	23758	無線波以外の電磁波，例．赤外線，可視光または紫外線，を使用する，または微粒子放射線，例．量子通信，を使用する伝送方式［５，２０１３．０１］	Transmission systems employing electromagnetic waves other than radio-waves, e.g. infrared, visible or ultraviolet light, or employing corpuscular radiation, e.g. quantum communication [5, 2013.01]
+H04B  10/03  \	1	1	5K102	H04B  10/03	2266	障害回復のための配置［２０１３．０１］	Arrangements for fault recovery [2013.01]
+H04B  10/032  \	2	2	5K102	H04B  10/032	2098	現用予備方式を用いるもの［２０１３．０１］	using working and protection systems [2013.01]
+H04B  10/035  \	2	2	5K102	H04B  10/035	784	ループバックを用いるもの［２０１３．０１］	using loopbacks [2013.01]
+H04B  10/038  \	2	2	5K102	H04B  10/038	450	バイパスを用いるもの［２０１３．０１］	using bypasses [2013.01]
+H04B  10/07  \	1	1	5K102	H04B  10/07	12859	伝送方式の監視または試験のための配置；伝送方式の障害測定のための配置［２０１３．０１］	Arrangements for monitoring or testing transmission systems; arrangements for fault measurement of transmission systems [2013.01]
+H04B  10/071  \	2	2	5K102	H04B  10/071	1166	反射信号を用いるもの，例．光学的時間領域反射測定器［ＯＴＤＲ］を用いるもの［２０１３．０１］	using a reflected signal, e.g. using optical time domain reflectometers [OTDR] [2013.01]
+H04B  10/073  \	2	2	5K102	H04B  10/073	351	アウトオブサービスの信号を用いるもの（Ｈ０４Ｂ１０／０７１が優先）［２０１３．０１］	using an out-of-service signal(H04B10/071 takes precedence) [2013.01]
+H04B  10/075  \	2	2	5K102	H04B  10/075	557	インサービスの信号を用いるもの（Ｈ０４Ｂ１０／０７１が優先）［２０１３．０１］	using an in-service signal(H04B10/071 takes precedence) [2013.01]
+H04B  10/077  \	3	3	5K102	H04B  10/077	3744	監視信号または付加信号を用いるもの［２０１３．０１］	using a supervisory or additional signal [2013.01]
+H04B  10/077 110 \	4	4	5K102	H04B  10/077	871	伝送経路の障害位置	Fault locations of transmission paths
+H04B  10/077 150 \	4	4	5K102	H04B  10/077	373	性能の監視および伝送パラメータの測定	monitoring the performance and measuring transportation parameters
+H04B  10/077 170 \	4	4	5K102	H04B  10/077	588	ライン増幅機またはライン中継機の監視	monitoring line amplifiers and line repeaters
+H04B  10/077 190 \	4	4	5K102	H04B  10/077	543	ライン送信機またはライン受信機の監視	monitoring line transmitters and line repeaters
+H04B  10/079  \	3	3	5K102	H04B  10/079	3840	データ信号の測定を用いるもの［２０１３．０１］	using measurements of the data signal [2013.01]
+H04B  10/079 110 \	4	4	5K102	H04B  10/079	509	伝送経路の障害位置	Fault locations of transmission paths
+H04B  10/079 150 \	4	4	5K102	H04B  10/079	594	性能の監視および伝送パラメータの測定	Monitoring the performance and measuring transmission parameters
+H04B  10/079 170 \	4	4	5K102	H04B  10/079	483	ライン増幅機またはライン中継機の監視	monitoring line amplifiers and line repeaters
+H04B  10/079 190 \	4	4	5K102	H04B  10/079	935	ライン送信機またはライン受信機の監視	monitoring line transmitters and line repeaters
+H04B  10/11  \	1	1	5K102	H04B  10/11	5978	自由空間伝送，すなわち大気または真空を介する伝送，に特有の配置［２０１３．０１］	Arrangements specific to free-space transmission, i.e. transmission through air or vacuum [2013.01]
+H04B  10/112  \	2	2	5K102	H04B  10/112	3109	拡張範囲にわたる見通し内伝送［２０１３．０１］	Line-of-sight transmission over an extended range [2013.01]
+H04B  10/114  \	2	2	5K102	H04B  10/114	2943	室内または近距離型の方式［２０１３．０１］	Indoor or close-range type systems [2013.01]
+H04B  10/116  \	3	3	5K102	H04B  10/116	2094	可視光通信［２０１３．０１］	Visible light communication [2013.01]
+H04B  10/118  \	2	2	5K102	H04B  10/118	281	衛星通信に特に適合するもの［２０１３．０１］	specially adapted for satellite communication [2013.01]
+H04B  10/25  \	1	1	5K102	H04B  10/25	3079	ファイバー伝送に特有の配置［２０１３．０１］	Arrangements specific to fibre transmission [2013.01]
+H04B  10/2507  \	2	2	5K102	H04B  10/2507	6051	ひずみまたは分散の減少または除去のためのもの［２０１３．０１］	for the reduction or elimination of distortion or dispersion [2013.01]
+H04B  10/2513  \	3	3	5K102	H04B  10/2513	1042	色分散のためのもの［２０１３．０１］	due to chromatic dispersion [2013.01]
+H04B  10/2513 170 \	4	4	5K102	H04B  10/2513	51	送信機でパルス整形を使用するもの，例．プリチャーピングまたは分散サポート伝送［ＤＳＴ］	using transmitter provided with pulse reshaping, e.g. prechirping or dispersion-supported transmission (DST)
+H04B  10/2519  \	4	4	5K102	H04B  10/2519	406	ブラッググレーティングを用いるもの［２０１３．０１］	using Bragg gratings [2013.01]
+H04B  10/2525  \	4	4	5K102	H04B  10/2525	977	分散補償ファイバーを用いるもの［２０１３．０１］	using dispersion-compensating fibres [2013.01]
+H04B  10/2525 130 \	5	5	5K102	H04B  10/2525	233	分散マネージメント，すなわち伝送システムで異なる種類のファイバーの組み合わせを使用するもの	Dispersion-management, i.e. using a combination of different kinds of fibers on transmission systems
+H04B  10/2531  \	4	4	5K102	H04B  10/2531	86	スペクトル反転を用いるもの［２０１３．０１］	using spectral inversion [2013.01]
+H04B  10/2537  \	3	3	5K102	H04B  10/2537	388	散乱作用，例．ラマンまたはブリルアン散乱，のためのもの［２０１３．０１］	due to scattering processes, e.g. Raman or Brillouin scattering [2013.01]
+H04B  10/2543  \	3	3	5K102	H04B  10/2543	420	ファイバーの非線形性，例．カー効果，のためのもの［２０１３．０１］	due to fibre non-linearity, e.g. Kerr effect [2013.01]
+H04B  10/255  \	4	4	5K102	H04B  10/255	175	自己位相変調［ＳＰＭ］［２０１３．０１］	Self-phase modulation [SPM] [2013.01]
+H04B  10/2557  \	4	4	5K102	H04B  10/2557	199	相互位相変調［ＸＰＭ］［２０１３．０１］	Cross-phase modulation [XPM] [2013.01]
+H04B  10/2563  \	4	4	5K102	H04B  10/2563	284	四光波混合［ＦＷＭ］［２０１３．０１］	Four-wave mixing [FWM] [2013.01]
+H04B  10/2569  \	3	3	5K102	H04B  10/2569	407	偏波モード分散［ＰＭＤ］のためのもの［２０１３．０１］	due to polarization mode dispersion [PMD] [2013.01]
+H04B  10/2575  \	2	2	5K102	H04B  10/2575	456	ラジオ・オーバー・ファイバー，例．光搬送波上に変調された無線周波数信号［２０１３．０１］	Radio-over-fibre, e.g. radio frequency signal modulated onto an optical carrier [2013.01]
+H04B  10/2575 110 \	3	3	5K102	H04B  10/2575	41	ケーブルテレビまたは映像分配のための光学的構成	Optical arrangements for cable television or image distribution
+H04B  10/2575 120 \	3	3	5K102	H04B  10/2575	378	無線ネットワークのための光学的構成	Optical arrangements for wireless network
+H04B  10/2581  \	2	2	5K102	H04B  10/2581	713	マルチモード伝送［２０１３．０１］	Multimode transmission [2013.01]
+H04B  10/2587  \	2	2	5K102	H04B  10/2587	84	複数局のために単一の光源を用いるもの［２０１３．０１］	using a single light source for multiple stations [2013.01]
+H04B  10/27  \	1	1	5K102	H04B  10/27	7452	ネットワークの配置［２０１３．０１］	Arrangements for networking [2013.01]
+H04B  10/272  \	2	2	5K102	H04B  10/272	3514	スター型ネットワーク［２０１３．０１］	Star-type networks [2013.01]
+H04B  10/275  \	2	2	5K102	H04B  10/275	1870	リング型ネットワーク［２０１３．０１］	Ring-type networks [2013.01]
+H04B  10/278  \	2	2	5K102	H04B  10/278	948	バス型ネットワーク［２０１３．０１］	Bus-type networks [2013.01]
+H04B  10/29  \	1	1	5K102	H04B  10/29	4664	中継局［２０１３．０１］	Relay stations [2013.01]
+H04B  10/291  \	2	2	5K102	H04B  10/291	2190	処理または増幅が主信号の光形態からの変換なしに行われるもの［２０１３．０１］	in which processing or amplification is carried out without conversion of the main signal from optical form [2013.01]
+H04B  10/293  \	3	3	5K102	H04B  10/293	980	信号電力制御［２０１３．０１］	Signal power control [2013.01]
+H04B  10/294  \	4	4	5K102	H04B  10/294	1085	多波長方式におけるもの，例．利得等化［２０１３．０１］	in a multiwavelength system, e.g. gain equalization [2013.01]
+H04B  10/296  \	5	5	5K102	H04B  10/296	530	過渡的な電力制御，例．チャネルのアド／ドロップまたは入力電力の急変動のためのもの［２０１３．０１］	Transient power control, e.g. due to channel add/drop or rapid fluctuations in the input power[2013.01]
+H04B  10/297  \	3	3	5K102	H04B  10/297	506	双方向増幅［２０１３．０１］	Bidirectional amplification [2013.01]
+H04B  10/299  \	3	3	5K102	H04B  10/299	409	信号波形処理，例．波形整形またはリタイミング［２０１３．０１］	Signal waveform processing, e.g. reshaping or retiming [2013.01]
+H04B  10/40  \	1	1	5K102	H04B  10/40	363	送受信機［２０１３．０１］	Transceivers [2013.01]
+H04B  10/43  \	2	2	5K102	H04B  10/43	154	光源および受光器として単一の要素を用いるもの，例．受光器として光放出器を用いるもの［２０１３．０１］	using a single component as both light source and receiver, e.g. using a photoemitter as a photoreceiver [2013.01]
+H04B  10/50  \	1	1	5K102	H04B  10/50	836	送信機［２０１３．０１］	Transmitters [2013.01]
+H04B  10/508  \	2	2	5K102	H04B  10/508	383	パルス生成，例．ソリトンの生成［２０１３．０１］	Pulse generation, e.g. generation of solitons [2013.01]
+H04B  10/516  \	2	2	5K102	H04B  10/516	1087	符号化または変調の細部［２０１３．０１］	Details of coding or modulation [2013.01]
+H04B  10/524  \	3	3	5K102	H04B  10/524	3871	パルス変調［２０１３．０１］	Pulse modulation [2013.01]
+H04B  10/532  \	3	3	5K102	H04B  10/532	383	偏波変調［２０１３．０１］	Polarization modulation [2013.01]
+H04B  10/54  \	3	3	5K102	H04B  10/54	3670	強度変調［２０１３．０１］	Intensity modulation [2013.01]
+H04B  10/548  \	3	3	5K102	H04B  10/548	1770	位相または周波数変調［２０１３．０１］	Phase or frequency modulation [2013.01]
+H04B  10/556  \	4	4	5K102	H04B  10/556	1368	デジタル変調，例．差動位相偏移変調［ＤＰＳＫ］または周波数偏移変調［２０１３．０１］	Digital modulation, e.g. differential phase shift keying [DPSK] or frequency shift keying [FSK] [2013.01]
+H04B  10/564  \	2	2	5K102	H04B  10/564	2132	電力制御［２０１３．０１］	Power control [2013.01]
+H04B  10/572  \	2	2	5K102	H04B  10/572	983	波長制御［２０１３．０１］	Wavelength control [2013.01]
+H04B  10/58  \	2	2	5K102	H04B  10/58	1647	非線形送信機出力のための補償［２０１３．０１］	Compensation for non-linear transmitter output [2013.01]
+H04B  10/588  \	3	3	5K102	H04B  10/588	564	外部変調方式におけるもの［２０１３．０１］	in external modulation systems [2013.01]
+H04B  10/60  \	1	1	5K102	H04B  10/60	226	受信機［２０１３．０１］	Receivers [2013.01]
+H04B  10/61  \	2	2	5K102	H04B  10/61	917	コヒーレント受信機［２０１３．０１］	Coherent receivers [2013.01]
+H04B  10/63  \	3	3	5K102	H04B  10/63	84	ホモダイン［２０１３．０１］	Homodyne [2013.01]
+H04B  10/64  \	3	3	5K102	H04B  10/64	147	ヘテロダイン［２０１３．０１］	Heterodyne [2013.01]
+H04B  10/66  \	2	2	5K102	H04B  10/66	343	非コヒーレント受信機，例．直接検波を用いるもの［２０１３．０１］	Non-coherent receivers, e.g. using direct detection [2013.01]
+H04B  10/67  \	3	3	5K102	H04B  10/67	1320	受信機の光学的構成［２０１３．０１］	Optical arrangements in the receiver [2013.01]
+H04B  10/69  \	3	3	5K102	H04B  10/69	2136	受信機の電気的構成［２０１３．０１］	Electrical arrangements in the receiver [2013.01]
+H04B  10/69 110 \	4	4	5K102	H04B  10/69	470	受信機の光検出器最適化のための構成	Arrangements for optimizing a light detector of the receiver
+H04B  10/69 130 \	4	4	5K102	H04B  10/69	532	受信機のプリアンプ最適化のための構成	Arrangements for optimizing a light detector of the receiver
+H04B  10/69 150 \	4	4	5K102	H04B  10/69	233	受信機の識別要素最適化のための構成，例．自動しきい値制御を用いるもの	Arrangements for optimizing identification elements of the receiver, e.g. using automatic control for threshold
+H04B  10/69 170 \	4	4	5K102	H04B  10/69	556	雑音およびひずみの低減のための構成	Arrangements for reducing noise and distortion
+H04B  10/70  \	1	1	5K102	H04B  10/70	347	光量子通信［２０１３．０１］	Photonic quantum communication [2013.01]
+H04B  10/80  \	1	1	5K102	H04B  10/80	2989	特定の応用のための光伝送の利用に関係する光学的観点であって，グループＨ０４Ｂ１０／０３〜Ｈ０４Ｂ１０／７０に分類されないもの，例．光給電または水中を介する光伝送［２０１３．０１］	Optical aspects relating to the use of optical transmission for specific applications, not provided for in groups H04B10/03 to H04B10/70 , e.g. optical power feeding or optical transmission through water [2013.01]
+H04B  10/80 160 \	2	2	5K102	H04B  10/80	1864	給電のための構成	Arrangements for power supply
+H04B  10/85  \	2	2	5K102	H04B  10/85	197	許可されていないアクセスからの保護，例．盗聴防止［２０１３．０１］	Protection from unauthorized access, e.g. eavesdrop protection [2013.01]
+H04B  10/90  \	1	1	5K102	H04B  10/90	21	非光学的伝送方式，例．非光学的微粒子放射線を使用する伝送方式［２０１３．０１］	Non-optical transmission systems, e.g. transmission systems employing non-photonic corpuscular radiation [2013.01]
+H04B  11/00  \	0	0	5K054	H04B  11/00	84	超音波，音波，または亜音波を使用する伝送方式	Transmission systems employing ultrasonic, sonic or infrasonic waves
+H04B  11/00  A	0	0	5K054	H04B  11/00	161	送信装置	Transmitting device
+H04B  11/00  B	0	0	5K054	H04B  11/00	163	受信装置	Receiving device
+H04B  11/00  C	0	0	5K054	H04B  11/00	272	送受信装置	Transmitting/receiving device
+H04B  11/00  D	0	0	5K054	H04B  11/00	295	伝送媒体が液体であるもの〔例．水中通信〕	liquid as the transmission medium, e.g. underwater communication
+H04B  11/00  E	0	0	5K054	H04B  11/00	50	移動体間伝送	Transmission between mobile stations
+H04B  11/00  Z	0	0	5K054	H04B  11/00	165	その他のもの	Others
+H04B  13/00  \	0	0	5K054	H04B  13/00	904	伝送媒体によって特徴づけられる伝送方式であって，グループＨ０４Ｂ３／００〜Ｈ０４Ｂ１１／００に分類されないもの	Transmission systems characterised by the medium used for transmission, not provided for in groups H04B 3/00-H04B 11/00
+H04B  13/00 500 \	1	1	5K054	H04B  13/00	434	人体を媒体とした伝送方式	Transmission systems in which the medium consists of the human body
+H04B  13/02  \	1	1	5K054	H04B  13/02	112	媒体が大地または大地上の大量の水からなりたっているところの伝送方式，例．大地電信	Transmission systems in which the medium consists of the earth or a large mass of water thereon, e.g. earth telegraphy
+H04B  14/00  \	0	0	5K041	H04B  14/00	134	伝送媒体によって特徴づけられない伝送方式（その細部Ｈ０４Ｂ１／００）［４］	Transmission systems not characterised by the medium used for transmission (details thereof H04B 1/00) [4]
+H04B  14/00  A	0	0	5K041	H04B  14/00	83	角度変調通信方式	Angle modulation communication system
+H04B  14/00  B	0	0	5K041	H04B  14/00	50	リンコンペツクス通信方式〔ＣＮＬ通信方式とも呼ばれる。〕	LINCOMPEX communication system (also called the CNL communication system)
+H04B  14/00  C	0	0	5K041	H04B  14/00	109	双方向通信方式	Bi-directional communication system
+H04B  14/00  D	0	0	5K041	H04B  14/00	144	並列伝送方式	Parallel transmission system
+H04B  14/00  E	0	0	5K041	H04B  14/00	296	直交変換符号化伝送方式	Orthogonal conversion encoding transmission system
+H04B  14/00  Z	0	0	5K041	H04B  14/00	224	その他のもの	Others
+H04B  14/02  \	1	1	5K041	H04B  14/02	259	パルス変調の使用によって特徴づけられるもの（無線伝送の中継におけるものＨ０４Ｂ７／１７）［４］	characterised by the use of pulse modulation (in radio transmission relays H04B 7/17) [4]
+H04B  14/04  \	2	2	5K041	H04B  14/04	106	パルス符号変調を用いるもの［４］	using pulse code modulation [4]
+H04B  14/04  A	2	0	5K041	H04B  14/04	119	量子化雑音の低減	Quantized noise reduction
+H04B  14/04  B	2	0	5K041	H04B  14/04	324	サンプリング周波数の変換	Sampling frequency conversion
+H04B  14/04  C	2	0	5K041	H04B  14/04	583	圧縮，伸長	Compression, expansion
+H04B  14/04  D	2	0	5K041	H04B  14/04	651	符号誤りに対処するもの	Measures against coding errors
+H04B  14/04  E	2	1	5K041	H04B  14/04	242	補間	Interpolation
+H04B  14/04  F	2	1	5K041	H04B  14/04	154	インタ−リ−ブ	Interleave
+H04B  14/04  Z	2	0	5K041	H04B  14/04	2180	その他のもの	Others
+H04B  14/06  \	2	2	5K041	H04B  14/06	9	差分変調，例．デルタ変調，を用いるもの［４］	using differential modulation, e.g. delta modulation [4]
+H04B  14/06  A	2	0	5K041	H04B  14/06	138	△Ｍ	DM
+H04B  14/06  C	2	1	5K041	H04B  14/06	70	適応形	Adaptive type
+H04B  14/06  B	2	0	5K041	H04B  14/06	206	ＤＰＣＭ	DPCM
+H04B  14/06  D	2	1	5K041	H04B  14/06	234	適応形	Adaptive type
+H04B  14/06  E	2	2	5K041	H04B  14/06	98	適応予測器を用いるもの	using an adaptive forecasting device
+H04B  14/06  F	2	2	5K041	H04B  14/06	77	適応量子化器を用いるもの	using an adaptive quantizing device
+H04B  14/06  G	2	0	5K041	H04B  14/06	86	映像信号を伝送するもの	transmitting the video signal
+H04B  14/06  H	2	0	5K041	H04B  14/06	247	符号誤りに対処するもの	Measures against coding errors
+H04B  14/06  Z	2	0	5K041	H04B  14/06	68	その他のもの	Others
+H04B  14/08  \	1	1	5K041	H04B  14/08	11	副搬送波の使用によって特徴づけられるもの［４］	characterised by the use of a sub-carrier [4]
+H04B  15/00  \	0	0	5K052	H04B  15/00	1318	雑音または混信の抑圧または制限（受信機と結合した手段によるものＨ０４Ｂ１／１０）	Suppression or limitation of noise or interference (by means associated with receiver H04B 1/10)
+H04B  15/02  \	1	1	5K052	H04B  15/02	610	混信を起す装置またはその近傍に置かれた手段によって電気的装置からの混信を低減するもの	Reducing interference from electric apparatus by means located at or near the interfering apparatus
+H04B  15/04  \	2	2	5K052	H04B  15/04	171	混信が実質的な正弦波振動に起因するもの，例．受信機におけるものまたはテープレコーダにおけるもの	the interference being caused by substantially sinusoidal oscillations, e.g. in a receiver or&nbsp;in a tape-recorder
+H04B  15/06  \	3	3	5K052	H04B  15/06	166	受信機の局部発振器によるもの	by local oscillators of receivers
+H04B  17/00  \	0	0	5K042	H04B  17/00	6019	監視；試験（有線伝送方式の監視または試験Ｈ０４Ｂ３／４６；無線波以外の電磁波を使用した伝送方式を監視または試験するための装置Ｈ０４Ｂ１０／０７）［２，２０１５．０１］	Monitoring; Testing (of line transmission systems H04B3/46; arrangements for monitoring or testing transmission systems employing electromagnetic waves other than radio waves H04B10/07) [2, 2015.01]
+H04B  17/00  N	0	0	5K042	H04B  17/00	245	構造上の細部	Constructional details
+H04B  17/00  Z	0	0	5K042	H04B  17/00	1532	その他のもの	Others
+H04B  17/10  \	1	1	5K042	H04B  17/10	188	送信機におけるもの［２０１５．０１］	of transmitters  [2015.01]
+H04B  17/10 100 \	2	2	5K042	H04B  17/10	485	表示手段，例．ディスプレイ，警報または可聴手段	Indication means, e.g. displays, alarms or audible means
+H04B  17/10 200 \	2	2	5K042	H04B  17/10	64	過去の値，平均値または統計値を使用するもの	using historical value, average value or statistical value
+H04B  17/11  \	2	2	5K042	H04B  17/11	75	キャリブレーションのためのもの［２０１５．０１］	for calibration  [2015.01]
+H04B  17/12  \	3	3	5K042	H04B  17/12	38	送信アンテナにおけるもの，例．振幅または位相［２０１５．０１］	of transmit antennas, e.g. of amplitude or phase  [2015.01]
+H04B  17/13  \	3	3	5K042	H04B  17/13	19	電力増幅器におけるもの，例．ゲインまたは非線形［２０１５．０１］	of power amplifiers, e.g. of gain or non-linearity  [2015.01]
+H04B  17/14  \	3	3	5K042	H04B  17/14	37	送信および受信パス全体におけるもの，例．自己試験ループバック［２０１５．０１］	of the whole transmission and reception path, e.g. self-test loop-back  [2015.01]
+H04B  17/15  \	2	2	5K042	H04B  17/15	468	性能試験［２０１５．０１］	Performance testing  [2015.01]
+H04B  17/16  \	3	3	5K042	H04B  17/16	463	送信機に設置された試験装置［２０１５．０１］	Test equipment located at the transmitter  [2015.01]
+H04B  17/17  \	3	3	5K042	H04B  17/17	899	非追従または不完全な性能の検出，例．応答偏差（Ｈ０４Ｂ１７／１８が優先）［２０１５．０１］	Detection of non-compliance or faulty performance, e.g. response deviations(H04B17/18 takes precedence)  [2015.01]
+H04B  17/18  \	3	3	5K042	H04B  17/18	997	通常稼働中の監視［２０１５．０１］	Monitoring during normal operation  [2015.01]
+H04B  17/19  \	3	3	5K042	H04B  17/19	370	自己試験装置［２０１５．０１］	Self-testing arrangements  [2015.01]
+H04B  17/20  \	1	1	5K042	H04B  17/20	139	受信機におけるもの［２０１５．０１］	of receivers  [2015.01]
+H04B  17/21  \	2	2	5K042	H04B  17/21	112	キャリブレーションのためのもの；測定値の補正のためのもの［２０１５．０１］	for calibration; for correcting measurements  [2015.01]
+H04B  17/23  \	2	2	5K042	H04B  17/23	1162	表示手段，例．ディスプレイ，警報または可聴手段［２０１５．０１］	Indication means, e.g. displays, alarms or audible means  [2015.01]
+H04B  17/24  \	2	2	5K042	H04B  17/24	2847	送信機への測定値のフィードバックを伴うもの［２０１５．０１］	with feedback of measurements to the transmitter  [2015.01]
+H04B  17/26  \	2	2	5K042	H04B  17/26	109	過去の値，平均値または統計値を使用するもの［２０１５．０１］	using historical data, averaging values or statistics  [2015.01]
+H04B  17/27  \	2	2	5K042	H04B  17/27	530	送信機の位置検出または位置決定のためのもの［２０１５．０１］	for locating or positioning the transmitter  [2015.01]
+H04B  17/29  \	2	2	5K042	H04B  17/29	518	性能試験［２０１５．０１］	Performance testing  [2015.01]
+H04B  17/29 100 \	3	3	5K042	H04B  17/29	507	受信機に設置された試験装置	testing device mounted in receiver
+H04B  17/29 200 \	3	3	5K042	H04B  17/29	948	非追従または不完全な性能の検出，例．応答偏差（Ｈ０４Ｂ１７／２９，３００が優先）	Detection of non-compliance or faulty performance, e.g. response deviations(H04B17/29,300 takes precedence)
+H04B  17/29 300 \	3	3	5K042	H04B  17/29	792	通常稼働中の監視	Monitoring during normal operation
+H04B  17/29 400 \	3	3	5K042	H04B  17/29	423	自己試験装置	Self-testing arrangements
+H04B  17/30  \	1	1	5K042	H04B  17/30	436	伝搬チャネルにおけるもの［２０１５．０１］	of propagation channels  [2015.01]
+H04B  17/309  \	2	2	5K042	H04B  17/309	2676	チャネル品質パラメータの測定または推定［２０１５．０１］	Measuring or estimating channel quality parameters  [2015.01]
+H04B  17/309 100 \	3	3	5K042	H04B  17/309	407	誤り率	Error rate
+H04B  17/309 200 \	3	3	5K042	H04B  17/309	312	チャネル特性	Channel characteristic
+H04B  17/318  \	3	3	5K042	H04B  17/318	1819	受信信号強度［２０１５．０１］	Received signal strength  [2015.01]
+H04B  17/327  \	4	4	5K042	H04B  17/327	96	受信信号符号電力［ＲＳＣＰ］［２０１５．０１］	Received signal code power [RSCP]  [2015.01]
+H04B  17/336  \	3	3	5K042	H04B  17/336	669	信号対干渉比［ＳＩＲ］または搬送波対干渉比［ＣＩＲ］［２０１５．０１］	Signal-to-interference ratio [SIR] or carrier-to-interference ratio [CIR]  [2015.01]
+H04B  17/345  \	3	3	5K042	H04B  17/345	1168	干渉値（Ｈ０４Ｂ１７／３３６が優先）［２０１５．０１］	Interference values(H04B17/336 takes precedence)  [2015.01]
+H04B  17/354  \	3	3	5K042	H04B  17/354	29	隣接チャネル漏洩電力［２０１５．０１］	Adjacent channel leakage power  [2015.01]
+H04B  17/364  \	3	3	5K042	H04B  17/364	165	遅延プロファイル［２０１５．０１］	Delay profiles  [2015.01]
+H04B  17/373  \	2	2	5K042	H04B  17/373	241	チャネル品質パラメータの予測［２０１５．０１］	Predicting channel quality parameters  [2015.01]
+H04B  17/382  \	2	2	5K042	H04B  17/382	1874	リソース割り当て，アドミッションコントロールまたはハンドオーバのためのもの［２０１５．０１］	for resource allocation, admission control or handover  [2015.01]
+H04B  17/391  \	2	2	5K042	H04B  17/391	1474	伝搬チャネルのモデリング［２０１５．０１］	Modelling the propagation channel  [2015.01]
+H04B  17/40  \	1	1	5K042	H04B  17/40	1380	中継方式におけるもの［２０１５．０１］	of relay systems  [2015.01]

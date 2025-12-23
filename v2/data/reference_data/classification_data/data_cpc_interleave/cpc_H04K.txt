@@ -1,0 +1,55 @@
+H04K1/00	7	Secret communication	H04K1/00	H04K1/00		1247
+H04K1/003	8	{by varying carrier frequency at or within predetermined or random intervals (H04K1/04 takes precedence)}	H04K1/00	H04K1/00		234
+H04K1/006	8	{by varying or inverting the phase, at periodic or random intervals}	H04K1/00	H04K1/00		102
+H04K1/02	8	by adding a second signal to make the desired signal unintelligible	H04K1/02	H04K1/02		719
+H04K1/025	9	{using an analogue chaotic signal}	H04K1/02	H04K1/02		25
+H04K1/04	8	by frequency scrambling, i.e. by transposing or inverting parts of the frequency band or by inverting the whole band	H04K1/04	H04K1/04		445
+H04K1/06	8	by transmitting the information or elements thereof at unnatural speeds or in jumbled order or backwards	H04K1/06	H04K1/06		345
+H04K1/08	8	by varying the polarisation of transmitted waves	H04K1/08	H04K1/08		40
+H04K1/10	8	by using two signals transmitted simultaneously or successively	H04K1/10	H04K1/10		145
+H04K3/00	7	Jamming of communication; Counter-measures	H04K3/00	H04K3/00		341
+H04K3/20	8	{Countermeasures against jamming (in radar G01S7/36; interference suppression in receivers H04B1/10)}	H04K3/00	H04K3/20		98
+H04K3/22	9	{including jamming detection and monitoring}	H04K3/00	H04K3/22		417
+H04K3/222	10	{wherein jamming detection includes detecting the absence or impossibility of intelligible communication on at least one channel}	H04K3/00	H04K3/22		72
+H04K3/224	10	{with countermeasures at transmission and/or reception of the jammed signal, e.g. stopping operation of transmitter or receiver, nulling or enhancing transmitted power in direction of or at frequency of jammer}	H04K3/00	H04K3/22		209
+H04K3/226	11	{Selection of non-jammed channel for communication (spectrum sharing arrangements H04W16/14; selection of wireless resources by user or terminal H04W72/02)}	H04K3/00	H04K3/22		277
+H04K3/228	11	{Elimination in the received signal of jamming or of data corrupted by jamming (interference suppression in receivers H04B1/10)}	H04K3/00	H04K3/22		306
+H04K3/25	9	{based on characteristics of target signal or of transmission (as countermeasure against surveillance H04K3/827), e.g. using direct sequence spread spectrum or fast frequency hopping (spread spectrum techniques H04B1/69)}	H04K3/00	H04K3/25		264
+H04K3/255	10	{based on redundancy of transmitted data, transmission path or transmitting source}	H04K3/00	H04K3/25		57
+H04K3/28	9	{with jamming and anti-jamming mechanisms both included in a same device or system, e.g. wherein anti-jamming includes prevention of undesired self-jamming resulting from jamming}	H04K3/00	H04K3/28		230
+H04K3/40	8	{Jamming having variable characteristics}	H04K3/00	H04K3/40		128
+H04K3/41	9	{characterized by the control of the jamming activation or deactivation time (control of jamming activation and deactivation time only for the purpose of alternating between jamming mode and target monitoring mode H04K3/45)}	H04K3/00	H04K3/41		298
+H04K3/415	10	{based on motion status or velocity, e.g. for disabling use of mobile phones in a vehicle}	H04K3/00	H04K3/41		78
+H04K3/42	9	{characterized by the control of the jamming frequency or wavelength}	H04K3/00	H04K3/42		828
+H04K3/43	9	{characterized by the control of the jamming power, signal-to-noise ratio or geographic coverage area}	H04K3/00	H04K3/43		606
+H04K3/44	9	{characterized by the control of the jamming waveform or modulation type}	H04K3/00	H04K3/44		233
+H04K3/45	9	{characterized by including monitoring of the target or target signal, e.g. in reactive jammers or follower jammers for example by means of an alternation of jamming phases and monitoring phases, called "look-through mode"}	H04K3/00	H04K3/45		718
+H04K3/46	9	{characterized in that the jamming signal is produced by retransmitting a received signal, after delay or processing}	H04K3/00	H04K3/46		132
+H04K3/60	8	{Jamming involving special techniques}	H04K3/00	H04K3/60		115
+H04K3/62	9	{by exposing communication, processing or storing systems to electromagnetic wave radiation, e.g. causing disturbance, disruption or damage of electronic circuits, or causing external injection of faults in the information}	H04K3/00	H04K3/62		315
+H04K3/65	9	{using deceptive jamming or spoofing, e.g. transmission of false signals for premature triggering of RCIED, for forced connection or disconnection to/from a network or for generation of dummy target signal}	H04K3/00	H04K3/65		432
+H04K3/68	9	{using passive jamming, e.g. by shielding or reflection (shielding of apparatus or components against electric or magnetic field H05K9/00)}	H04K3/00	H04K3/68		389
+H04K3/80	8	{Jamming or countermeasure characterized by its function}	H04K3/00	H04K3/80		180
+H04K3/82	9	{related to preventing surveillance, interception or detection}	H04K3/00	H04K3/82		114
+H04K3/822	10	{by detecting the presence of a surveillance, interception or detection}	H04K3/00	H04K3/82		289
+H04K3/825	10	{by jamming}	H04K3/00	H04K3/82		944
+H04K3/827	10	{using characteristics of target signal or of transmission (as countermeasure against jamming H04K3/25), e.g. using direct sequence spread spectrum or fast frequency hopping (spread spectrum techniques H04B1/69)}	H04K3/00	H04K3/82		210
+H04K3/84	9	{related to preventing electromagnetic interference in petrol station, hospital, plane or cinema}	H04K3/00	H04K3/84		200
+H04K3/86	9	{related to preventing deceptive jamming or unauthorized interrogation or access, e.g. WLAN access or RFID reading (record carriers with integrated circuit chips including means for preventing undesired reading or writing from or to record carriers by hindering electromagnetic reading or writing G06K19/07318; arrangements for sensing record carriers including arrangements for protecting the interrogation against piracy attacks G06K7/10257)}	H04K3/00	H04K3/86		151
+H04K3/88	9	{related to allowing or preventing alarm transmission}	H04K3/00	H04K3/88		72
+H04K3/90	9	{related to allowing or preventing navigation or positioning, e.g. GPS}	H04K3/00	H04K3/90		352
+H04K3/92	9	{related to allowing or preventing remote control}	H04K3/00	H04K3/92		264
+H04K3/94	9	{related to allowing or preventing testing or assessing}	H04K3/00	H04K3/94		113
+H04K2203/00	7	Jamming of communication; Countermeasures	CPCONLY	H04K2203/00		5
+H04K2203/10	8	Jamming or countermeasure used for a particular application	CPCONLY	H04K2203/10		27
+H04K2203/12	9	for acoustic communication	CPCONLY	H04K2203/12		280
+H04K2203/14	9	for the transfer of light or images, e.g. for video-surveillance, for television or from a computer screen	CPCONLY	H04K2203/14		233
+H04K2203/16	9	for telephony	CPCONLY	H04K2203/16		434
+H04K2203/18	9	for wireless local area networks or WLAN	CPCONLY	H04K2203/18		280
+H04K2203/20	9	for contactless carriers, e.g. RFID carriers	CPCONLY	H04K2203/20		93
+H04K2203/22	9	for communication related to vehicles	CPCONLY	H04K2203/22		447
+H04K2203/24	9	for communication related to weapons	CPCONLY	H04K2203/24		152
+H04K2203/30	8	Jamming or countermeasure characterized by the infrastructure components	CPCONLY	H04K2203/30		18
+H04K2203/32	9	including a particular configuration of antennas	CPCONLY	H04K2203/32		316
+H04K2203/34	9	involving multiple cooperating jammers	CPCONLY	H04K2203/34		247
+H04K2203/36	9	including means for exchanging jamming data between transmitter and receiver, e.g. in forward or backward direction	CPCONLY	H04K2203/36		93

@@ -1,0 +1,454 @@
+G09G1/00	7	Control arrangements or circuits, of interest only in connection with cathode-ray tube indicators; {General aspects or details, e.g. selection emphasis on particular characters, dashed line or dotted line generation; Preprocessing of data}(cathode-ray oscilloscopes G01R13/20; {radar display arrangements G01S7/04; display of digital non-picture data in television systems H04N7/0255})	G09G1/00	G09G1/00		432
+G09G1/002	8	{Intensity circuits (G09G1/06&#160;-&#160;G09G1/28 take precedence)}	G09G1/00	G09G1/00		244
+G09G1/005	8	{Power supply circuits}	G09G1/00	G09G1/00		547
+G09G1/007	8	{Circuits for displaying split screens}	G09G1/00	G09G1/00		51
+G09G1/02	8	Storage circuits (G09G1/06&#160;-&#160;G09G1/28 take precedence)	G09G1/02	G09G1/02		101
+G09G1/04	8	Deflection circuits {; Constructional details not otherwise provided for (electron-optical arrangements H01J29/46, H01J37/04, H01J37/302)}	G09G1/04	G09G1/04		783
+G09G1/06	8	using single beam tubes (G09G1/26, G09G1/28 take precedence), {e.g. three-dimensional or perspective representation, rotation or translation of display pattern, hidden lines, shadows (G09G1/28 takes precedence; stereoscopic TV-systems, details thereof H04N13/00; oscilloscopes for three-dimensional representation G01R13/206; vectorscopes G01R13/208)}	G09G1/06	G09G1/06		158
+G09G1/07	9	with combined raster scan and calligraphic display	G09G1/07	G09G1/07		37
+G09G1/08	9	the beam directly tracing characters, the information to be displayed controlling the deflection {and the intensity} as a function of time in two spatial co-ordinates, e.g. according to a cartesian co-ordinate system	G09G1/08	G09G1/08		103
+G09G1/10	10	the deflection signals being produced by essentially digital means, e.g. incrementally	G09G1/10	G09G1/10		280
+G09G1/12	10	the deflection signals being produced by essentially analogue means	G09G1/12	G09G1/12		133
+G09G1/14	9	the beam tracing a pattern independent of the information to be displayed, this latter determining the parts of the pattern rendered respectively visible and invisible	G09G1/14	G09G1/14		166
+G09G1/143	10	{Circuits for displaying horizontal and vertical lines}	G09G1/14	G09G1/14		26
+G09G1/146	10	{Flicker reduction circuits}	G09G1/14	G09G1/14		59
+G09G1/16	10	the pattern of rectangular co-ordinates extending over the whole area of the screen, i.e. television type raster	G09G1/16	G09G1/16		257
+G09G1/162	11	{for displaying digital inputs as analog magnitudes, e.g. curves, bar graphs, coordinate axes, singly or in combination with alpha-numeric characters (cathode-ray oscilloscopes for displaying analog inputs, singly or in combination with alpha-numeric characters G01R13/20; television receiver circuitry for displaying supplementary, e.g. alpha-numeric, information H04N5/445)}	G09G1/16	G09G1/16		162
+G09G1/165	11	{Details of a display terminal using a CRT, the details relating to the control arrangement of the display terminal and to the interfaces thereto (details suitable for both CRT and flat panel G09G5/003; specific for a flat panel G09G3/2092)}	G09G1/16	G09G1/16		163
+G09G1/167	12	{Details of the interface to the display terminal specific for a CRT (details suitable for both CRT and flat panel G09G5/006, specific for a flat panel G09G3/2096)}	G09G1/16	G09G1/16		165
+G09G1/18	10	a small local pattern covering only a single character, and stepping to a position for the following character, e.g. in rectangular or polar co-ordinates, or in the form of a framed star	G09G1/18	G09G1/18		131
+G09G1/20	8	using multi-beam tubes (G09G1/26, G09G1/28 take precedence)	G09G1/20	G09G1/20		136
+G09G1/22	8	using tubes permitting selection of a complete character from a number of characters {(tubes therefor H01J31/16)}	G09G1/22	G09G1/22		58
+G09G1/24	8	using tubes permitting selection of individual elements forming in combination a character {(see provisionally also G09G1/22)}	G09G1/24	G09G1/24		1
+G09G1/26	8	using storage tubes {(tubes therefor H01J31/58)}	G09G1/26	G09G1/26		55
+G09G1/28	8	using colour tubes {(tubes therefor H01J31/20)}	G09G1/28	G09G1/28		172
+G09G1/285	9	{Interfacing with colour displays, e.g. TV receiver}	G09G1/28	G09G1/28		179
+G09G3/00	7	Control arrangements or circuits, of interest only in connection with visual indicators other than cathode-ray tubes	G09G3/00	G09G3/00		813
+G09G3/001	8	{using specific devices not provided for in groups G09G3/02&#160;-&#160;G09G3/36, e.g. using an intermediate record carrier such as a film slide; Projection systems; Display of non-alphanumerical information, solely or in combination with alphanumerical information, e.g. digital display on projected diapositive as background (slide projectors per seG03B23/00 = 42 HP)}	G09G3/00	G09G3/00		2268
+G09G3/002	9	{to project the image of a two-dimensional display, such as an array of light emitting or modulating elements or a CRT}	G09G3/00	G09G3/00		1669
+G09G3/003	9	{to produce spatial visual effects}	G09G3/00	G09G3/00		3456
+G09G3/004	8	{to give the appearance of moving signs}	G09G3/00	G09G3/00		714
+G09G3/005	8	{forming an image using a quickly moving array of imaging elements, causing the human eye to perceive an image which has a larger resolution than the array, e.g. an image on a cylinder formed by a rotating line of LEDs parallel to the axis of rotation}	G09G3/00	G09G3/00		435
+G09G3/006	8	{Electronic inspection or testing of displays and display drivers, e.g. of LED or LCD displays (testing individual LED&apos;s G01R31/2635; testing lamps G01R31/44; testing of optical features of LCD displays G02F1/1309)}	G09G3/00	G09G3/00		9221
+G09G3/007	8	{Use of pixel shift techniques, e.g. by mechanical shift of the physical pixels or by optical shift of the perceived pixels}	G09G3/00	G09G3/00		570
+G09G3/008	8	{forming an image on an image carrier by relative movement of a writing unit to the image carrier, e.g. on a photoconductive rotating belt, or on an electronic blackboard}	G09G3/00	G09G3/00		55
+G09G3/02	8	by tracing or scanning a light beam on a screen	G09G3/02	G09G3/02		693
+G09G3/025	9	{with scanning or deflecting the beams in two directions or dimensions}	G09G3/02	G09G3/02		305
+G09G3/03	8	{specially adapted for displays having non-planar surfaces, e.g. curved displays}	G09G3/00	G09G3/03		320
+G09G3/035	9	{for flexible display surfaces}	G09G3/00	G09G3/035		1469
+G09G3/04	8	for presentation of a single character by selection from a plurality of characters, or by composing the character by combination of individual elements, e.g. segments {using a combination of such display devices for composing words, rows or the like, in a frame with fixed character positions}	G09G3/04	G09G3/04		522
+G09G3/045	9	{Selecting complete characters}	G09G3/04	G09G3/04		159
+G09G3/06	9	using controlled light sources	G09G3/06	G09G3/06		181
+G09G3/08	10	using incandescent filaments	G09G3/08	G09G3/08		36
+G09G3/10	10	using gas tubes	G09G3/10	G09G3/10		150
+G09G3/12	10	using electroluminescent elements	G09G3/12	G09G3/12		139
+G09G3/14	11	Semiconductor devices, e.g. diodes	G09G3/14	G09G3/14		750
+G09G3/16	9	by control of light from an independent source	G09G3/16	G09G3/16		195
+G09G3/18	10	using liquid crystals	G09G3/18	G09G3/18		632
+G09G3/19	10	using electrochromic devices	G09G3/19	G09G3/19		118
+G09G3/20	8	for presentation of an assembly of a number of characters, e.g. a page, by composing the assembly by combination of individual elements arranged in a matrix {no fixed position being assigned to or needed to be assigned to the individual characters or partial characters}	G09G3/20	G09G3/20		20249
+G09G3/2003	9	{Display of colours (specific for liquid crystal displays G09G3/3607)}	G09G3/20	G09G3/20		4780
+G09G3/2007	9	{Display of intermediate tones}	G09G3/20	G09G3/20		1506
+G09G3/2011	10	{by amplitude modulation}	G09G3/20	G09G3/20		1799
+G09G3/2014	10	{by modulation of the duration of a single pulse during which the logic level remains constant}	G09G3/20	G09G3/20		1631
+G09G3/2018	10	{by time modulation using two or more time intervals}	G09G3/20	G09G3/20		902
+G09G3/2022	11	{using sub-frames}	G09G3/20	G09G3/20		2722
+G09G3/2025	12	{the sub-frames having all the same time duration}	G09G3/20	G09G3/20		573
+G09G3/2029	12	{the sub-frames having non-binary weights}	G09G3/20	G09G3/20		424
+G09G3/2033	12	{with splitting one or more sub-frames corresponding to the most significant bits into two or more sub-frames}	G09G3/20	G09G3/20		238
+G09G3/2037	12	{with specific control of sub-frames corresponding to the least significant bits}	G09G3/20	G09G3/20		258
+G09G3/204	12	{the sub-frames being organized in consecutive sub-frame groups}	G09G3/20	G09G3/20		194
+G09G3/2044	10	{using dithering}	G09G3/20	G09G3/20		391
+G09G3/2048	11	{with addition of random noise to an image signal or to a gradation threshold}	G09G3/20	G09G3/20		85
+G09G3/2051	11	{with use of a spatial dither pattern}	G09G3/20	G09G3/20		485
+G09G3/2055	12	{the pattern being varied in time}	G09G3/20	G09G3/20		232
+G09G3/2059	10	{using error diffusion}	G09G3/20	G09G3/20		420
+G09G3/2062	11	{using error diffusion in time}	G09G3/20	G09G3/20		47
+G09G3/2066	12	{with error diffusion in both space and time}	G09G3/20	G09G3/20		39
+G09G3/207	10	{by domain size control (G09G3/3637 takes precedence)}	G09G3/20	G09G3/20		135
+G09G3/2074	10	{using sub-pixels}	G09G3/20	G09G3/20		2633
+G09G3/2077	10	{by a combination of two or more gradation control methods}	G09G3/20	G09G3/20		431
+G09G3/2081	11	{with combination of amplitude modulation and time modulation (space and time error diffusion G09G3/2066)}	G09G3/20	G09G3/20		602
+G09G3/2085	9	{Special arrangements for addressing the individual elements of the matrix, other than by driving respective rows and columns in combination}	G09G3/20	G09G3/20		447
+G09G3/2088	10	{with use of a plurality of processors, each processor controlling a number of individual elements of the matrix}	G09G3/20	G09G3/20		267
+G09G3/2092	9	{Details of a display terminals using a flat panel, the details relating to the control arrangement of the display terminal and to the interfaces thereto (suitable for both CRT and flat panel G09G5/003; specific for a CRT G09G1/165)}	G09G3/20	G09G3/20		3215
+G09G3/2096	10	{Details of the interface to the display terminal specific for a flat panel (suitable for both CRT and flat panel G09G5/006; specific for a CRT G09G1/167)}	G09G3/20	G09G3/20		2303
+G09G3/22	9	using controlled light sources	G09G3/22	G09G3/22		1530
+G09G3/24	10	using incandescent filaments	G09G3/24	G09G3/24		53
+G09G3/26	11	to give the appearance of moving signs	G09G3/26	G09G3/26		10
+G09G3/28	10	using luminous gas-discharge panels, e.g. plasma panels	G09G3/28	G09G3/28		830
+G09G3/2803	11	{Display of gradations (G09G3/288 takes precedence)}	G09G3/28	G09G3/28		386
+G09G3/2807	11	with discharge activated by high-frequency signals specially adapted therefor	G09G3/2807	G09G3/2807		29
+G09G3/2813	11	using alternating current [AC] - direct current [DC] hybrid-type panels	G09G3/2813	G09G3/2813		19
+G09G3/282	11	using DC panels	G09G3/282	G09G3/282		121
+G09G3/285	12	using self-scanning	G09G3/285	G09G3/285		45
+G09G3/288	11	using AC panels	G09G3/288	G09G3/288		826
+G09G3/29	12	using self-shift panels {with sequential transfer of the discharges from an input position to a further display position}	G09G3/29	G09G3/29		75
+G09G3/291	12	controlling the gas discharge to control a cell condition, e.g. by means of specific pulse shapes	G09G3/291	G09G3/291		598
+G09G3/292	13	for reset discharge, priming discharge or erase discharge occurring in a phase other than addressing	G09G3/292	G09G3/292		231
+G09G3/2922	14	{Details of erasing}	G09G3/292	G09G3/292		276
+G09G3/2925	14	{Details of priming}	G09G3/292	G09G3/292		76
+G09G3/2927	14	{Details of initialising}	G09G3/292	G09G3/292		1561
+G09G3/293	13	for address discharge	G09G3/293	G09G3/293		1494
+G09G3/2932	14	{Addressed by writing selected cells that are in an OFF state}	G09G3/293	G09G3/293		368
+G09G3/2935	14	{Addressed by erasing selected cells that are in an ON state}	G09G3/293	G09G3/293		207
+G09G3/2937	14	{being addressed only once per frame}	G09G3/293	G09G3/293		82
+G09G3/294	13	for lighting or sustain discharge	G09G3/294	G09G3/294		1962
+G09G3/2942	14	{with special waveforms to increase luminous efficiency}	G09G3/294	G09G3/294		332
+G09G3/2944	14	{by varying the frequency of sustain pulses or the number of sustain pulses proportionally in each subfield of the whole frame}	G09G3/294	G09G3/294		272
+G09G3/2946	14	{by introducing variations of the frequency of sustain pulses within a frame or non-proportional variations of the number of sustain pulses in each subfield}	G09G3/294	G09G3/294		340
+G09G3/2948	14	{by increasing the total sustaining time with respect to other times in the frame}	G09G3/294	G09G3/294		165
+G09G3/296	12	Driving circuits for producing the waveforms applied to the driving electrodes	G09G3/296	G09G3/296		3646
+G09G3/2965	13	{using inductors for energy recovery}	G09G3/296	G09G3/296		1231
+G09G3/297	12	using opposed discharge type panels	G09G3/297	G09G3/297		258
+G09G3/298	12	using surface discharge panels	G09G3/298	G09G3/298		253
+G09G3/2983	13	{using non-standard pixel electrode arrangements}	G09G3/298	G09G3/298		144
+G09G3/2986	14	{with more than 3 electrodes involved in the operation}	G09G3/298	G09G3/298		196
+G09G3/299	13	using alternate lighting of surface-type panels	G09G3/299	G09G3/299		110
+G09G3/30	10	using electroluminescent panels	G09G3/30	G09G3/30		4082
+G09G3/32	11	semiconductive, e.g. using light-emitting diodes [LED]	G09G3/32	G09G3/32		14738
+G09G3/3208	12	organic, e.g. using organic light-emitting diodes [OLED]	G09G3/3208	G09G3/3208		10933
+G09G3/3216	13	using a passive matrix	G09G3/3216	G09G3/3216		1005
+G09G3/3225	13	using an active matrix	G09G3/3225	G09G3/3225		7894
+G09G3/3233	14	with pixel circuitry controlling the current through the light-emitting element	G09G3/3233	G09G3/3233		14393
+G09G3/3241	15	the current through the light-emitting element being set using a data current provided by the data driver, e.g. by using a two-transistor current mirror	G09G3/3241	G09G3/3241		829
+G09G3/325	16	the data current flowing through the driving transistor during a setting phase, e.g. by using a switch for connecting the driving transistor to the data driver	G09G3/325	G09G3/325		774
+G09G3/3258	14	with pixel circuitry controlling the voltage across the light-emitting element	G09G3/3258	G09G3/3258		3733
+G09G3/3266	13	Details of drivers for scan electrodes	G09G3/3266	G09G3/3266		7610
+G09G3/3275	13	Details of drivers for data electrodes	G09G3/3275	G09G3/3275		3863
+G09G3/3283	14	in which the data driver supplies a variable data current for setting the current through, or the voltage across, the light-emitting elements	G09G3/3283	G09G3/3283		1089
+G09G3/3291	14	in which the data driver supplies a variable data voltage for setting the current through, or the voltage across, the light-emitting elements	G09G3/3291	G09G3/3291		3591
+G09G3/34	9	by control of light from an independent source	G09G3/34	G09G3/34		1488
+G09G3/3406	10	{Control of illumination source (illumination devices structurally associated with liquid crystal cells G02F1/1336)}	G09G3/34	G09G3/34		8691
+G09G3/3413	11	{Details of control of colour illumination sources}	G09G3/34	G09G3/34		3037
+G09G3/342	11	{using several illumination sources separately controlled corresponding to different display panel areas, e.g. along one dimension such as lines}	G09G3/34	G09G3/34		2103
+G09G3/3426	12	{the different display panel areas being distributed in two dimensions, e.g. matrix}	G09G3/34	G09G3/34		2413
+G09G3/3433	10	{using light modulating elements actuated by an electric field and being other than liquid crystal devices and electrochromic devices (using liquid crystal devices G09G3/36; using electrochromic devices G09G3/38)}	G09G3/34	G09G3/34		458
+G09G3/344	11	{based on particles moving in a fluid or in a gas, e.g. electrophoretic devices (electrophoretic devices per seG02F1/167)}	G09G3/34	G09G3/34		2789
+G09G3/3446	12	{with more than two electrodes controlling the modulating element}	G09G3/34	G09G3/34		231
+G09G3/3453	11	{based on rotating particles or microelements}	G09G3/34	G09G3/34		104
+G09G3/346	11	{based on modulation of the reflection angle, e.g. micromirrors (micromirrors devices per seG02B26/0833)}	G09G3/34	G09G3/34		721
+G09G3/3466	11	{based on interferometric effect}	G09G3/34	G09G3/34		366
+G09G3/3473	11	{based on light coupled out of a light guide, e.g. due to scattering, by contracting the light guide with external means}	G09G3/34	G09G3/34		111
+G09G3/348	11	{based on the deformation of a fluid drop, e.g. electrowetting}	G09G3/34	G09G3/34		402
+G09G3/3486	10	{using light modulating elements actuated by a magnetic field}	G09G3/34	G09G3/34		63
+G09G3/3493	10	{using light modulating elements actuated by a piezoelectric effect}	G09G3/34	G09G3/34		40
+G09G3/36	10	using liquid crystals	G09G3/36	G09G3/36		14082
+G09G3/3603	11	{with thermally addressed liquid crystals}	G09G3/36	G09G3/36		91
+G09G3/3607	11	{for displaying colours or for displaying grey scales with a specific pixel layout, e.g. using sub-pixels (display of colours in flat matrix panels other than liquid crystal displays G09G3/2003; grey scales specific for television H04N3/127)}	G09G3/36	G09G3/36		4424
+G09G3/3611	11	{Control of matrices with row and column drivers}	G09G3/36	G09G3/36		5698
+G09G3/3614	12	{Control of polarity reversal in general}	G09G3/36	G09G3/36		5348
+G09G3/3618	12	{with automatic refresh of the display panel using sense/write circuits}	G09G3/36	G09G3/36		197
+G09G3/3622	12	{using a passive matrix (G09G3/3674&#160;-&#160;G09G3/3696 take precedence)}	G09G3/36	G09G3/36		473
+G09G3/3625	13	{using active addressing}	G09G3/36	G09G3/36		202
+G09G3/3629	13	{using liquid crystals having memory effects, e.g. ferroelectric liquid crystals}	G09G3/36	G09G3/36		737
+G09G3/3633	14	{with transmission/voltage characteristic comprising multiple loops, e.g. antiferroelectric liquid crystals}	G09G3/36	G09G3/36		59
+G09G3/3637	14	{with intermediate tones displayed by domain size control (domain size control in flat matrix panels other than liquid crystal displays having memory effects G09G3/207)}	G09G3/36	G09G3/36		95
+G09G3/364	14	{with use of subpixels}	G09G3/36	G09G3/36		125
+G09G3/3644	13	{with the matrix divided into sections}	G09G3/36	G09G3/36		163
+G09G3/3648	12	{using an active matrix (G09G3/367&#160;-&#160;G09G3/3696 take precedence)}	G09G3/36	G09G3/36		11967
+G09G3/3651	13	{using multistable liquid crystals, e.g. ferroelectric liquid crystals}	G09G3/36	G09G3/36		396
+G09G3/3655	13	{Details of drivers for counter electrodes, e.g. common electrodes for pixel capacitors or supplementary storage capacitors}	G09G3/36	G09G3/36		2387
+G09G3/3659	13	{the addressing of the pixel involving the control of two or more scan electrodes or two or more data electrodes, e.g. pixel voltage dependant on signal of two data electrodes}	G09G3/36	G09G3/36		1386
+G09G3/3662	13	{using plasma-addressed liquid crystal displays}	G09G3/36	G09G3/36		113
+G09G3/3666	13	{with the matrix divided into sections}	G09G3/36	G09G3/36		678
+G09G3/367	12	{with a nonlinear element in series with the liquid crystal cell, e.g. a diode, or M.I.M. element}	G09G3/36	G09G3/36		193
+G09G3/3674	12	{Details of drivers for scan electrodes}	G09G3/36	G09G3/36		2201
+G09G3/3677	13	{suitable for active matrices only}	G09G3/36	G09G3/36		6690
+G09G3/3681	13	{suitable for passive matrices only}	G09G3/36	G09G3/36		279
+G09G3/3685	12	{Details of drivers for data electrodes}	G09G3/36	G09G3/36		2462
+G09G3/3688	13	{suitable for active matrices only}	G09G3/36	G09G3/36		6212
+G09G3/3692	13	{suitable for passive matrices only}	G09G3/36	G09G3/36		270
+G09G3/3696	12	{Generation of voltages supplied to electrode drivers}	G09G3/36	G09G3/36		5705
+G09G3/38	10	using electrochromic devices	G09G3/38	G09G3/38		483
+G09G5/00	7	Control arrangements or circuits for visual indicators common to cathode-ray tube indicators and other visual indicators (image data processing or generation, in general G06T)	G09G5/00	G09G5/00		5195
+G09G5/001	8	{Arbitration of resources in a display system, e.g. control of access to frame buffer by video controller and/or main processor}	G09G5/00	G09G5/00		970
+G09G5/003	8	{Details of a display terminal, the details relating to the control arrangement of the display terminal and to the interfaces thereto (specific for a CRT G09G1/165; for a flat panel G09G3/2092)}	G09G5/00	G09G5/00		2847
+G09G5/005	9	{Adapting incoming signals to the display format of the display terminal}	G09G5/00	G09G5/00		1541
+G09G5/006	9	{Details of the interface to the display terminal (specific for a display terminal using a CRT G09G1/167; using a flat panel G09G3/2096; circuits for interfacing with colour displays G09G5/04)}	G09G5/00	G09G5/00		4967
+G09G5/008	10	{Clock recovery}	G09G5/00	G09G5/00		966
+G09G5/02	8	characterised by the way in which colour is displayed {(details of colour display specific for CRTs G09G1/28; specific for flat matrix panels other than liquid crystal displays G09G3/2003; specific for liquid crystal displays G09G3/3607)}	G09G5/02	G09G5/02		4221
+G09G5/022	9	{using memory planes}	G09G5/02	G09G5/02		215
+G09G5/024	9	{using colour registers, e.g. to control background, foreground, surface filling (G09G5/06 takes precedence)}	G09G5/02	G09G5/02		242
+G09G5/026	9	{Control of mixing and/or overlay of colours in general (G09G5/022 and G09G5/024 take precedence)}	G09G5/02	G09G5/02		1104
+G09G5/028	9	{Circuits for converting colour display signals into monochrome display signals}	G09G5/02	G09G5/02		214
+G09G5/04	9	using circuits for interfacing with colour displays	G09G5/04	G09G5/04		420
+G09G5/06	9	using colour palettes, e.g. look-up tables	G09G5/06	G09G5/06		1580
+G09G5/08	8	Cursor circuits	G09G5/08	G09G5/08		684
+G09G5/10	8	Intensity circuits	G09G5/10	G09G5/10		5828
+G09G5/12	8	Synchronisation between the display unit and other units, e.g. other display units, video-disc players	G09G5/12	G09G5/12		1866
+G09G5/14	8	Display of multiple viewports	G09G5/14	G09G5/14		5318
+G09G5/16	8	Display of right-to-left language	G09G5/16	G09G5/16		19
+G09G5/18	8	Timing circuits for raster scan displays (specially adapted for television H04N{; synchronisation between the display unit and other display units, videodisc player G09G5/12})	G09G5/18	G09G5/18		1221
+G09G5/20	8	Function-generator circuits, e.g. circle generators {line or curve smoothing circuits}	G09G5/20	G09G5/20		260
+G09G5/22	8	characterised by the display of characters or indicia using display control signals derived from coded signals representing the characters or indicia, e.g. with a character-code memory	G09G5/22	G09G5/22		299
+G09G5/222	9	{Control of the character-code memory}	G09G5/22	G09G5/22		384
+G09G5/225	10	{comprising a loadable character generator (character generators per seG09G5/24)}	G09G5/22	G09G5/22		85
+G09G5/227	10	{Resolution modifying circuits, e.g. variable screen formats, resolution change between memory contents and display screen}	G09G5/22	G09G5/22		204
+G09G5/24	9	Generation of individual character patterns	G09G5/24	G09G5/24		544
+G09G5/243	10	{Circuits for displaying proportional spaced characters or for kerning}	G09G5/24	G09G5/24		50
+G09G5/246	10	{of ideographic or arabic-like characters}	G09G5/24	G09G5/24		150
+G09G5/26	10	for modifying the character dimensions, e.g. double width, double height	G09G5/26	G09G5/26		287
+G09G5/28	10	for enhancement of character form, e.g. smoothing	G09G5/28	G09G5/28		368
+G09G5/30	9	Control of display attribute	G09G5/30	G09G5/30		390
+G09G5/32	9	with means for controlling the display position {(see provisionally G09G5/42)}	G09G5/32	G09G5/32		220
+G09G5/34	8	for rolling or scrolling	G09G5/34	G09G5/34		502
+G09G5/343	9	{for systems having a character code-mapped display memory}	G09G5/34	G09G5/34		114
+G09G5/346	9	{for systems having a bit-mapped display memory}	G09G5/34	G09G5/34		342
+G09G5/36	8	characterised by the display of a graphic pattern, e.g. using an all-points-addressable [APA] memory	G09G5/36	G09G5/36		1532
+G09G5/363	9	{Graphics controllers}	G09G5/36	G09G5/36		2799
+G09G5/366	10	{with conversion of CRT control signals to flat panel control signals, e.g. adapting the palette memory}	G09G5/36	G09G5/36		61
+G09G5/37	9	Details of the operation on graphic patterns (G09G5/38 takes precedence)	G09G5/37	G09G5/37		512
+G09G5/373	10	for modifying the size of the graphic pattern	G09G5/373	G09G5/373		601
+G09G5/377	10	for mixing or overlaying two or more graphic patterns (G09G5/02, G09G5/397 take precedence)	G09G5/377	G09G5/377		1498
+G09G5/38	9	with means for controlling the display position	G09G5/38	G09G5/38		1283
+G09G5/39	9	Control of the bit-mapped memory	G09G5/39	G09G5/39		1168
+G09G5/391	10	Resolution modifying circuits, e.g. variable screen formats	G09G5/391	G09G5/391		1075
+G09G5/393	10	Arrangements for updating the contents of the bit-mapped memory	G09G5/393	G09G5/393		2338
+G09G5/395	10	Arrangements specially adapted for transferring the contents of the bit-mapped memory to the screen (G09G5/399 takes precedence)	G09G5/395	G09G5/395		1388
+G09G5/397	11	Arrangements specially adapted for transferring the contents of two or more bit-mapped memories to the screen simultaneously, e.g. for mixing or overlay (G09G5/02 takes precedence)<br><br><u>WARNING</u><br>Not complete. See also G09G5/395, G09G5/399	G09G5/397	G09G5/397		670
+G09G5/399	10	using two or more bit-mapped memories, the operations of which are switched in time, e.g. ping-pong buffers	G09G5/399	G09G5/399		586
+G09G5/40	8	characterised by the way in which both a pattern determined by character code and another pattern are displayed simultaneously, or either pattern is displayed selectively, e.g. with character code memory and APA, i.e. all-points-addressable, memory	G09G5/40	G09G5/40		142
+G09G5/42	8	characterised by the display of patterns using a display memory without fixed position correspondence between the display memory contents and the display position on the screen	G09G5/42	G09G5/42		425
+G09G2230/00	7	Details of flat display driving waveforms	CPCONLY	G09G2230/00		1514
+G09G2290/00	7	Indexing scheme relating to details of a display terminal	CPCONLY	G09G2290/00		18
+G09G2300/00	7	Aspects of the constitution of display devices	CPCONLY	G09G2300/00		18
+G09G2300/02	8	Composition of display devices	CPCONLY	G09G2300/02		260
+G09G2300/023	9	Display panel composed of stacked panels	CPCONLY	G09G2300/023		1593
+G09G2300/026	9	Video wall, i.e. juxtaposition of a plurality of screens to create a display screen of bigger dimensions	CPCONLY	G09G2300/026		2328
+G09G2300/04	8	Structural and physical details of display devices	CPCONLY	G09G2300/04		457
+G09G2300/0404	9	Matrix technologies	CPCONLY	G09G2300/0404		230
+G09G2300/0408	10	Integration of the drivers onto the display substrate	CPCONLY	G09G2300/0408		2883
+G09G2300/0413	10	Details of dummy pixels or dummy lines in flat panels	CPCONLY	G09G2300/0413		861
+G09G2300/0417	10	Special arrangements specific to the use of low carrier mobility technology	CPCONLY	G09G2300/0417		610
+G09G2300/0421	9	Structural details of the set of electrodes	CPCONLY	G09G2300/0421		224
+G09G2300/0426	10	Layout of electrodes and connections	CPCONLY	G09G2300/0426		10682
+G09G2300/043	10	Compensation electrodes or other additional electrodes in matrix displays related to distortions or compensation signals, e.g. for modifying TFT threshold voltage in column driver	CPCONLY	G09G2300/043		1837
+G09G2300/0434	10	Flat panel display in which a field is applied parallel to the display plane	CPCONLY	G09G2300/0434		262
+G09G2300/0439	9	Pixel structures	CPCONLY	G09G2300/0439		1468
+G09G2300/0443	10	with several sub-pixels for the same colour in a pixel, not specifically used to display gradations (G09G3/364 takes precedence)	CPCONLY	G09G2300/0443		1074
+G09G2300/0447	11	for multi-domain technique to improve the viewing angle in a liquid crystal display, such as multi-vertical alignment [MVA]	CPCONLY	G09G2300/0447		524
+G09G2300/0452	10	Details of colour pixel setup, e.g. pixel composed of a red, a blue and two green components	CPCONLY	G09G2300/0452		4626
+G09G2300/0456	10	with a reflective area and a transmissive area combined in one pixel, such as in transflectance pixels	CPCONLY	G09G2300/0456		404
+G09G2300/046	10	with an emissive area and a light-modulating area combined in one pixel	CPCONLY	G09G2300/046		145
+G09G2300/0465	10	Improved aperture ratio, e.g. by size reduction of the pixel circuit, e.g. for improving the pixel density or the maximum displayable luminance or brightness	CPCONLY	G09G2300/0465		1279
+G09G2300/0469	9	Details of the physics of pixel operation	CPCONLY	G09G2300/0469		163
+G09G2300/0473	10	Use of light emitting or modulating elements having two or more stable states when no power is applied	CPCONLY	G09G2300/0473		161
+G09G2300/0478	10	related to liquid crystal pixels	CPCONLY	G09G2300/0478		128
+G09G2300/0482	11	Use of memory effects in nematic liquid crystals	CPCONLY	G09G2300/0482		27
+G09G2300/0486	12	Cholesteric liquid crystals, including chiral-nematic liquid crystals, with transitions between focal conic, planar, and homeotropic states	CPCONLY	G09G2300/0486		349
+G09G2300/0491	11	Use of a bi-refringent liquid crystal, optically controlled bi-refringence [OCB] with bend and splay states, or electrically controlled bi-refringence [ECB] for controlling the color	CPCONLY	G09G2300/0491		216
+G09G2300/0495	11	Use of transitions between isotropic and anisotropic phases in liquid crystals, by voltage controlled deformation of the liquid crystal molecules, as opposed to merely changing the orientation of the molecules as in, e.g. twisted-nematic [TN], vertical-aligned [VA], cholesteric, in-plane, or bi-refringent liquid crystals	CPCONLY	G09G2300/0495		64
+G09G2300/06	8	Passive matrix structure, i.e. with direct application of both column and row voltages to the light emitting or modulating elements, other than LCD or OLED	CPCONLY	G09G2300/06		477
+G09G2300/08	8	Active matrix structure, i.e. with use of active elements, inclusive of non-linear two terminal elements, in the pixels together with light emitting or modulating elements	CPCONLY	G09G2300/08		1239
+G09G2300/0804	9	Sub-multiplexed active matrix panel, i.e. wherein one active driving circuit is used at pixel level for multiple image producing elements	CPCONLY	G09G2300/0804		484
+G09G2300/0809	9	Several active elements per pixel in active matrix panels	CPCONLY	G09G2300/0809		2312
+G09G2300/0814	10	used for selection purposes, e.g. logical AND for partial update	CPCONLY	G09G2300/0814		1429
+G09G2300/0819	10	used for counteracting undesired variations, e.g. feedback or autozeroing	CPCONLY	G09G2300/0819		6660
+G09G2300/0823	10	used to establish symmetry in driving, e.g. with polarity inversion	CPCONLY	G09G2300/0823		428
+G09G2300/0828	10	forming a digital to analog [D/A] conversion circuit	CPCONLY	G09G2300/0828		967
+G09G2300/0833	10	forming a linear amplifier or follower	CPCONLY	G09G2300/0833		147
+G09G2300/0838	11	with level shifting	CPCONLY	G09G2300/0838		105
+G09G2300/0842	10	forming a memory circuit, e.g. a dynamic memory with one capacitor	CPCONLY	G09G2300/0842		8642
+G09G2300/0847	11	being a dynamic memory without any storage capacitor, i.e. with use of parasitic capacitances as storage elements	CPCONLY	G09G2300/0847		182
+G09G2300/0852	11	being a dynamic memory with more than one capacitor	CPCONLY	G09G2300/0852		2908
+G09G2300/0857	11	Static memory circuit, e.g. flip-flop	CPCONLY	G09G2300/0857		732
+G09G2300/0861	11	with additional control of the display period without amending the charge stored in a pixel memory, e.g. by means of additional select electrodes	CPCONLY	G09G2300/0861		5427
+G09G2300/0866	12	by means of changes in the pixel supply voltage	CPCONLY	G09G2300/0866		983
+G09G2300/0871	10	with level shifting	CPCONLY	G09G2300/0871		261
+G09G2300/0876	9	Supplementary capacities in pixels having special driving circuits and electrodes instead of being connected to common electrode or ground; Use of additional capacitively coupled compensation electrodes	CPCONLY	G09G2300/0876		1149
+G09G2300/088	9	using a non-linear two-terminal element	CPCONLY	G09G2300/088		143
+G09G2300/0885	10	Pixel comprising a non-linear two-terminal element alone in series with each display pixel element	CPCONLY	G09G2300/0885		121
+G09G2300/089	10	Pixel comprising a non-linear two-terminal element in series with each display pixel element, the series comprising also other elements	CPCONLY	G09G2300/089		35
+G09G2300/0895	10	having more than one selection line for a two-terminal active matrix LCD, e.g. Lechner and D2R circuits	CPCONLY	G09G2300/0895		96
+G09G2310/00	7	Command of the display device	CPCONLY	G09G2310/00		16
+G09G2310/02	8	Addressing, scanning or driving the display screen or processing steps related thereto	CPCONLY	G09G2310/02		506
+G09G2310/0202	9	Addressing of scan or signal lines	CPCONLY	G09G2310/0202		1351
+G09G2310/0205	10	Simultaneous scanning of several lines in flat panels	CPCONLY	G09G2310/0205		1187
+G09G2310/0208	11	using active addressing	CPCONLY	G09G2310/0208		112
+G09G2310/021	11	Double addressing, i.e. scanning two or more lines, e.g. lines 2 and 3; 4 and 5, at a time in a first field, followed by scanning two or more lines in another combination, e.g. lines 1 and 2; 3 and 4, in a second field	CPCONLY	G09G2310/021		253
+G09G2310/0213	10	controlling the sequence of the scanning lines with respect to the patterns to be displayed, e.g. to save power	CPCONLY	G09G2310/0213		731
+G09G2310/0216	10	Interleaved control phases for different scan lines in the same sub-field, e.g. initialization, addressing and sustaining in plasma displays that are not simultaneous for all scan lines	CPCONLY	G09G2310/0216		661
+G09G2310/0218	10	with collection of electrodes in groups for n-dimensional addressing	CPCONLY	G09G2310/0218		1112
+G09G2310/0221	10	with use of split matrices (G09G3/3644 and G09G3/3666 take precedence)	CPCONLY	G09G2310/0221		772
+G09G2310/0224	9	Details of interlacing	CPCONLY	G09G2310/0224		799
+G09G2310/0227	10	related to multiple interlacing, i.e. involving more fields than just one odd field and one even field	CPCONLY	G09G2310/0227		146
+G09G2310/0229	9	De-interlacing	CPCONLY	G09G2310/0229		193
+G09G2310/0232	9	Special driving of display border areas	CPCONLY	G09G2310/0232		983
+G09G2310/0235	9	Field-sequential colour display	CPCONLY	G09G2310/0235		1831
+G09G2310/0237	9	Switching ON and OFF the backlight within one frame	CPCONLY	G09G2310/0237		506
+G09G2310/024	9	Scrolling of light from the illumination source over the display in combination with the scanning of the display screen	CPCONLY	G09G2310/024		620
+G09G2310/0243	9	Details of the generation of driving signals	CPCONLY	G09G2310/0243		1694
+G09G2310/0245	10	Clearing or presetting the whole screen independently of waveforms, e.g. on power-on (G09G2310/063 takes precedence)	CPCONLY	G09G2310/0245		556
+G09G2310/0248	10	Precharge or discharge of column electrodes before or after applying exact column voltages	CPCONLY	G09G2310/0248		1223
+G09G2310/0251	10	Precharge or discharge of pixel before applying new pixel voltage	CPCONLY	G09G2310/0251		3541
+G09G2310/0254	10	Control of polarity reversal in general, other than for liquid crystal displays	CPCONLY	G09G2310/0254		610
+G09G2310/0256	11	with the purpose of reversing the voltage across a light emitting or modulating element within a pixel	CPCONLY	G09G2310/0256		528
+G09G2310/0259	10	with use of an analog or digital ramp generator in the column driver or in the pixel circuit	CPCONLY	G09G2310/0259		428
+G09G2310/0262	9	The addressing of the pixel, in a display other than an active matrix LCD, involving the control of two or more scan electrodes or two or more data electrodes, e.g. pixel voltage dependent on signals of two data electrodes	CPCONLY	G09G2310/0262		2575
+G09G2310/0264	9	Details of driving circuits	CPCONLY	G09G2310/0264		3040
+G09G2310/0267	10	Details of drivers for scan electrodes, other than drivers for liquid crystal, plasma or OLED displays	CPCONLY	G09G2310/0267		3340
+G09G2310/027	10	Details of drivers for data electrodes, the drivers handling digital grey scale data, e.g. use of D/A converters	CPCONLY	G09G2310/027		4370
+G09G2310/0272	10	Details of drivers for data electrodes, the drivers communicating data to the pixels by means of a current	CPCONLY	G09G2310/0272		456
+G09G2310/0275	10	Details of drivers for data electrodes, other than drivers for liquid crystal, plasma or OLED displays, not related to handling digital grey scale data or to communication of data to the pixels by means of a current	CPCONLY	G09G2310/0275		1858
+G09G2310/0278	10	Details of driving circuits arranged to drive both scan and data electrodes	CPCONLY	G09G2310/0278		910
+G09G2310/0281	10	Arrangement of scan or data electrode driver circuits at the periphery of a panel not inherent to a split matrix structure	CPCONLY	G09G2310/0281		711
+G09G2310/0283	10	Arrangement of drivers for different directions of scanning	CPCONLY	G09G2310/0283		722
+G09G2310/0286	10	Details of a shift registers arranged for use in a driving circuit	CPCONLY	G09G2310/0286		6584
+G09G2310/0289	10	Details of voltage level shifters arranged for use in a driving circuit	CPCONLY	G09G2310/0289		1969
+G09G2310/0291	10	Details of output amplifiers or buffers arranged for use in a driving circuit	CPCONLY	G09G2310/0291		2445
+G09G2310/0294	10	Details of sampling or holding circuits arranged for use in a driver for data electrodes	CPCONLY	G09G2310/0294		533
+G09G2310/0297	10	Special arrangements with multiplexing or demultiplexing of display data in the drivers for data electrodes, in a pre-processing circuitry delivering display data to said drivers or in the matrix panel, e.g. multiplexing plural data signals to one D/A converter or demultiplexing the D/A converter output to multiple columns	CPCONLY	G09G2310/0297		3057
+G09G2310/04	8	Partial updating of the display screen	CPCONLY	G09G2310/04		1338
+G09G2310/06	8	Details of flat display driving waveforms	CPCONLY	G09G2310/06		2500
+G09G2310/061	9	for resetting or blanking	CPCONLY	G09G2310/061		2906
+G09G2310/062	10	Waveforms for resetting a plurality of scan lines at a time	CPCONLY	G09G2310/062		258
+G09G2310/063	10	Waveforms for resetting the whole screen at once	CPCONLY	G09G2310/063		430
+G09G2310/065	9	Waveforms comprising zero voltage phase or pause	CPCONLY	G09G2310/065		272
+G09G2310/066	9	Waveforms comprising a gently increasing or decreasing portion, e.g. ramp	CPCONLY	G09G2310/066		1926
+G09G2310/067	9	Special waveforms for scanning, where no circuit details of the gate driver are given	CPCONLY	G09G2310/067		423
+G09G2310/068	9	Application of pulses of alternating polarity prior to the drive pulse in electrophoretic displays	CPCONLY	G09G2310/068		233
+G09G2310/08	8	Details of timing specific for flat panels, other than clock recovery	CPCONLY	G09G2310/08		10722
+G09G2320/00	7	Control of display operating conditions	CPCONLY	G09G2320/00		39
+G09G2320/02	8	Improving the quality of display appearance	CPCONLY	G09G2320/02		2969
+G09G2320/0204	9	Compensation of DC component across the pixels in flat panels	CPCONLY	G09G2320/0204		810
+G09G2320/0209	9	Crosstalk reduction, i.e. to reduce direct or indirect influences of signals directed to a certain pixel of the displayed image on other pixels of said image, inclusive of influences affecting pixels in different frames or fields or sub-images which constitute a same image, e.g. left and right images of a stereoscopic display	CPCONLY	G09G2320/0209		2828
+G09G2320/0214	10	with crosstalk due to leakage current of pixel switch in active matrix panels	CPCONLY	G09G2320/0214		851
+G09G2320/0219	9	Reducing feedthrough effects in active matrix panels, i.e. voltage changes on the scan electrode influencing the pixel voltage due to capacitive coupling	CPCONLY	G09G2320/0219		1056
+G09G2320/0223	9	Compensation for problems related to R-C delay and attenuation in electrodes of matrix panels, e.g. in gate electrodes or on-substrate video signal electrodes	CPCONLY	G09G2320/0223		2593
+G09G2320/0228	9	Increasing the driving margin in plasma displays	CPCONLY	G09G2320/0228		689
+G09G2320/0233	9	Improving the luminance or brightness uniformity across the screen	CPCONLY	G09G2320/0233		12811
+G09G2320/0238	9	Improving the black level	CPCONLY	G09G2320/0238		1455
+G09G2320/0242	9	Compensation of deficiencies in the appearance of colours	CPCONLY	G09G2320/0242		4322
+G09G2320/0247	9	Flicker reduction other than flicker reduction circuits used for single beam cathode-ray tubes	CPCONLY	G09G2320/0247		4786
+G09G2320/0252	9	Improving the response speed	CPCONLY	G09G2320/0252		2908
+G09G2320/0257	9	Reduction of after-image effects	CPCONLY	G09G2320/0257		3111
+G09G2320/0261	9	in the context of movement of objects on the screen or movement of the observer relative to the screen	CPCONLY	G09G2320/0261		2715
+G09G2320/0266	9	Reduction of sub-frame artefacts	CPCONLY	G09G2320/0266		740
+G09G2320/0271	9	Adjustment of the gradation levels within the range of the gradation scale, e.g. by redistribution or clipping	CPCONLY	G09G2320/0271		2993
+G09G2320/0276	10	for the purpose of adaptation to the characteristics of a display device, i.e. gamma correction	CPCONLY	G09G2320/0276		3867
+G09G2320/028	9	by changing the viewing angle properties, e.g. widening the viewing angle, adapting the viewing angle to the view direction	CPCONLY	G09G2320/028		1496
+G09G2320/0285	9	using tables for spatial correction of display data	CPCONLY	G09G2320/0285		2464
+G09G2320/029	9	by monitoring one or more pixels in the display panel, e.g. by monitoring a fixed reference pixel	CPCONLY	G09G2320/029		1546
+G09G2320/0295	10	by monitoring each display pixel	CPCONLY	G09G2320/0295		1878
+G09G2320/04	8	Maintaining the quality of display appearance	CPCONLY	G09G2320/04		506
+G09G2320/041	9	Temperature compensation	CPCONLY	G09G2320/041		3405
+G09G2320/043	9	Preventing or counteracting the effects of ageing	CPCONLY	G09G2320/043		4606
+G09G2320/045	10	Compensation of drifts in the characteristics of light emitting or modulating elements	CPCONLY	G09G2320/045		2946
+G09G2320/046	10	Dealing with screen burn-in prevention or compensation of the effects thereof	CPCONLY	G09G2320/046		1070
+G09G2320/048	10	using evaluation of the usage time	CPCONLY	G09G2320/048		609
+G09G2320/06	8	Adjustment of display parameters	CPCONLY	G09G2320/06		528
+G09G2320/0606	9	Manual adjustment	CPCONLY	G09G2320/0606		1301
+G09G2320/0613	9	The adjustment depending on the type of the information to be displayed	CPCONLY	G09G2320/0613		774
+G09G2320/062	10	Adjustment of illumination source parameters	CPCONLY	G09G2320/062		830
+G09G2320/0626	9	for control of overall brightness	CPCONLY	G09G2320/0626		9621
+G09G2320/0633	10	by amplitude modulation of the brightness of the illumination source	CPCONLY	G09G2320/0633		881
+G09G2320/064	10	by time modulation of the brightness of the illumination source	CPCONLY	G09G2320/064		2296
+G09G2320/0646	10	Modulation of illumination source brightness and image signal correlated to each other	CPCONLY	G09G2320/0646		2318
+G09G2320/0653	10	Controlling or limiting the speed of brightness adjustment of the illumination source	CPCONLY	G09G2320/0653		453
+G09G2320/066	9	for control of contrast	CPCONLY	G09G2320/066		2104
+G09G2320/0666	9	for control of colour parameters, e.g. colour temperature	CPCONLY	G09G2320/0666		4798
+G09G2320/0673	9	for control of gamma adjustment, e.g. selecting another gamma curve	CPCONLY	G09G2320/0673		3606
+G09G2320/068	9	for control of viewing angle adjustment	CPCONLY	G09G2320/068		835
+G09G2320/0686	9	with two or more screen areas displaying information with different brightness or colours	CPCONLY	G09G2320/0686		1945
+G09G2320/0693	9	Calibration of display systems	CPCONLY	G09G2320/0693		3035
+G09G2320/08	8	Arrangements within a display terminal for setting, manually or automatically, display parameters of the display terminal	CPCONLY	G09G2320/08		1367
+G09G2320/10	8	Special adaptations of display systems for operation with variable images	CPCONLY	G09G2320/10		567
+G09G2320/103	9	Detection of image changes, e.g. determination of an index representative of the image change	CPCONLY	G09G2320/103		1426
+G09G2320/106	9	Determination of movement vectors or equivalent parameters within the image	CPCONLY	G09G2320/106		559
+G09G2330/00	7	Aspects of power supply; Aspects of display protection and defect management	CPCONLY	G09G2330/00		499
+G09G2330/02	8	Details of power systems and of start or stop of display operation	CPCONLY	G09G2330/02		2697
+G09G2330/021	9	Power management, e.g. power saving	CPCONLY	G09G2330/021		12866
+G09G2330/022	10	in absence of operation, e.g. no data being entered during a predetermined time	CPCONLY	G09G2330/022		1362
+G09G2330/023	10	using energy recovery or conservation	CPCONLY	G09G2330/023		1236
+G09G2330/024	11	with inductors, other than in the electrode driving circuitry of plasma displays	CPCONLY	G09G2330/024		230
+G09G2330/025	9	Reduction of instantaneous peaks of current	CPCONLY	G09G2330/025		1005
+G09G2330/026	9	Arrangements or methods related to booting a display	CPCONLY	G09G2330/026		999
+G09G2330/027	9	Arrangements or methods related to powering off a display	CPCONLY	G09G2330/027		881
+G09G2330/028	9	Generation of voltages supplied to electrode drivers in a matrix display other than LCD	CPCONLY	G09G2330/028		2974
+G09G2330/04	8	Display protection	CPCONLY	G09G2330/04		1969
+G09G2330/045	9	Protection against panel overheating	CPCONLY	G09G2330/045		1012
+G09G2330/06	8	Handling electromagnetic interferences [EMI], covering emitted as well as received electromagnetic radiation	CPCONLY	G09G2330/06		1934
+G09G2330/08	8	Fault-tolerant or redundant circuits, or circuits in which repair of defects is prepared	CPCONLY	G09G2330/08		1576
+G09G2330/10	8	Dealing with defective pixels	CPCONLY	G09G2330/10		849
+G09G2330/12	8	Test circuits or failure detection circuits included in a display system, as permanent part thereof	CPCONLY	G09G2330/12		2919
+G09G2340/00	7	Aspects of display data processing	CPCONLY	G09G2340/00		387
+G09G2340/02	8	Handling of images in compressed format, e.g. JPEG, MPEG	CPCONLY	G09G2340/02		1535
+G09G2340/04	8	Changes in size, position or resolution of an image	CPCONLY	G09G2340/04		1336
+G09G2340/0407	9	Resolution change, inclusive of the use of different resolutions for different screen areas	CPCONLY	G09G2340/0407		3210
+G09G2340/0414	10	Vertical resolution change	CPCONLY	G09G2340/0414		531
+G09G2340/0421	10	Horizontal resolution change	CPCONLY	G09G2340/0421		520
+G09G2340/0428	10	Gradation resolution change	CPCONLY	G09G2340/0428		628
+G09G2340/0435	10	Change or adaptation of the frame rate of the video stream	CPCONLY	G09G2340/0435		3041
+G09G2340/0442	9	Handling or displaying different aspect ratios, or changing the aspect ratio	CPCONLY	G09G2340/0442		721
+G09G2340/045	9	Zooming at least part of an image, i.e. enlarging it or shrinking it	CPCONLY	G09G2340/045		1186
+G09G2340/0457	9	Improvement of perceived resolution by subpixel rendering	CPCONLY	G09G2340/0457		706
+G09G2340/0464	9	Positioning	CPCONLY	G09G2340/0464		1812
+G09G2340/0471	10	Vertical positioning	CPCONLY	G09G2340/0471		212
+G09G2340/0478	10	Horizontal positioning	CPCONLY	G09G2340/0478		214
+G09G2340/0485	10	Centering horizontally or vertically	CPCONLY	G09G2340/0485		126
+G09G2340/0492	9	Change of orientation of the displayed image, e.g. upside-down, mirrored	CPCONLY	G09G2340/0492		1340
+G09G2340/06	8	Colour space transformation	CPCONLY	G09G2340/06		2029
+G09G2340/08	8	Monochrome to colour transformation	CPCONLY	G09G2340/08		51
+G09G2340/10	8	Mixing of images, i.e. displayed pixel being the result of an operation, e.g. adding, on the corresponding input pixels	CPCONLY	G09G2340/10		1369
+G09G2340/12	8	Overlay of images, i.e. displayed pixel being the result of switching between the corresponding input pixels	CPCONLY	G09G2340/12		2359
+G09G2340/125	9	wherein one of the images is motion video	CPCONLY	G09G2340/125		1069
+G09G2340/14	8	Solving problems related to the presentation of information to be displayed	CPCONLY	G09G2340/14		1964
+G09G2340/145	9	related to small screens	CPCONLY	G09G2340/145		780
+G09G2340/16	8	Determination of a pixel data signal depending on the signal applied in the previous frame	CPCONLY	G09G2340/16		1763
+G09G2350/00	7	Solving problems of bandwidth in display systems	CPCONLY	G09G2350/00		1026
+G09G2352/00	7	Parallel handling of streams of display data	CPCONLY	G09G2352/00		479
+G09G2354/00	7	Aspects of interface with display user	CPCONLY	G09G2354/00		8274
+G09G2356/00	7	Detection of the display position w.r.t. other display screens	CPCONLY	G09G2356/00		774
+G09G2358/00	7	Arrangements for display data security	CPCONLY	G09G2358/00		1137
+G09G2360/00	7	Aspects of the architecture of display systems	CPCONLY	G09G2360/00		52
+G09G2360/02	8	Graphics controller able to handle multiple formats, e.g. input or output formats	CPCONLY	G09G2360/02		753
+G09G2360/04	8	Display device controller operating with a plurality of display units	CPCONLY	G09G2360/04		1126
+G09G2360/06	8	Use of more than one graphics processor to process data before displaying to one or more screens	CPCONLY	G09G2360/06		561
+G09G2360/08	8	Power processing, i.e. workload management for processors involved in display operations, such as CPUs or GPUs	CPCONLY	G09G2360/08		680
+G09G2360/10	8	Display system comprising arrangements, such as a coprocessor, specific for motion video images	CPCONLY	G09G2360/10		162
+G09G2360/12	8	Frame memory handling	CPCONLY	G09G2360/12		847
+G09G2360/121	9	using a cache memory	CPCONLY	G09G2360/121		608
+G09G2360/122	9	Tiling	CPCONLY	G09G2360/122		393
+G09G2360/123	9	using interleaving	CPCONLY	G09G2360/123		167
+G09G2360/125	9	using unified memory architecture [UMA]	CPCONLY	G09G2360/125		226
+G09G2360/126	9	The frame memory having additional data ports, not inclusive of standard details of the output serial port of a VRAM	CPCONLY	G09G2360/126		160
+G09G2360/127	9	Updating a frame memory using a transfer of data from a source area to a destination area	CPCONLY	G09G2360/127		226
+G09G2360/128	9	Frame memory using a Synchronous Dynamic RAM [SDRAM]	CPCONLY	G09G2360/128		200
+G09G2360/14	8	Detecting light within display terminals, e.g. using a single or a plurality of photosensors	CPCONLY	G09G2360/14		733
+G09G2360/141	9	the light conveying information used for selecting or modulating the light emitting or modulating element	CPCONLY	G09G2360/141		351
+G09G2360/142	10	the light being detected by light detection means within each pixel	CPCONLY	G09G2360/142		231
+G09G2360/144	9	the light being ambient light	CPCONLY	G09G2360/144		4314
+G09G2360/145	9	the light originating from the display screen	CPCONLY	G09G2360/145		2367
+G09G2360/147	10	the originated light output being determined for each pixel	CPCONLY	G09G2360/147		370
+G09G2360/148	11	the light being detected by light detection means within each pixel	CPCONLY	G09G2360/148		405
+G09G2360/16	8	Calculation or use of calculated indices related to luminance levels in display data	CPCONLY	G09G2360/16		5802
+G09G2360/18	8	Use of a frame buffer in a display terminal, inclusive of the display panel	CPCONLY	G09G2360/18		1839
+G09G2370/00	7	Aspects of data communication	CPCONLY	G09G2370/00		440
+G09G2370/02	8	Networking aspects	CPCONLY	G09G2370/02		532
+G09G2370/022	9	Centralised management of display operation, e.g. in a server instead of locally	CPCONLY	G09G2370/022		1452
+G09G2370/025	9	LAN communication management	CPCONLY	G09G2370/025		338
+G09G2370/027	9	Arrangements and methods specific for the display of internet documents	CPCONLY	G09G2370/027		569
+G09G2370/04	8	Exchange of auxiliary data, i.e. other than image data, between monitor and graphics controller	CPCONLY	G09G2370/04		1728
+G09G2370/042	9	for monitor identification	CPCONLY	G09G2370/042		947
+G09G2370/045	9	using multiple communication channels, e.g. parallel and serial	CPCONLY	G09G2370/045		363
+G09G2370/047	10	using display data channel standard [DDC] communication	CPCONLY	G09G2370/047		694
+G09G2370/06	8	Consumer Electronics Control, i.e. control of another device by a display or vice versa	CPCONLY	G09G2370/06		430
+G09G2370/08	8	Details of image data interface between the display device controller and the data line driver circuit	CPCONLY	G09G2370/08		1401
+G09G2370/10	8	Use of a protocol of communication by packets in interfaces along the display data pipeline	CPCONLY	G09G2370/10		1134
+G09G2370/12	8	Use of DVI or HDMI protocol in interfaces along the display data pipeline	CPCONLY	G09G2370/12		1505
+G09G2370/14	8	Use of low voltage differential signaling [LVDS] for display data communication	CPCONLY	G09G2370/14		630
+G09G2370/16	8	Use of wireless transmission of display information	CPCONLY	G09G2370/16		2443
+G09G2370/18	8	Use of optical transmission of display information	CPCONLY	G09G2370/18		182
+G09G2370/20	8	Details of the management of multiple sources of image data	CPCONLY	G09G2370/20		879
+G09G2370/22	8	Detection of presence or absence of input display information or of connection or disconnection of a corresponding information source	CPCONLY	G09G2370/22		540
+G09G2370/24	8	Keyboard-Video-Mouse [KVM] switch	CPCONLY	G09G2370/24		292
+G09G2380/00	7	Specific applications	CPCONLY	G09G2380/00		124
+G09G2380/02	8	Flexible displays	CPCONLY	G09G2380/02		1563
+G09G2380/04	8	Electronic labels	CPCONLY	G09G2380/04		674
+G09G2380/06	8	Remotely controlled electronic signs other than labels	CPCONLY	G09G2380/06		586
+G09G2380/08	8	Biomedical applications	CPCONLY	G09G2380/08		789
+G09G2380/10	8	Automotive applications	CPCONLY	G09G2380/10		2537
+G09G2380/12	8	Avionics applications	CPCONLY	G09G2380/12		517
+G09G2380/14	8	Electronic books and readers	CPCONLY	G09G2380/14		605
+G09G2380/16	8	Digital picture frames	CPCONLY	G09G2380/16		263

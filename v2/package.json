@@ -1,0 +1,29 @@
+{
+  "name": "patgenius-monorepo",
+  "version": "2.0.0",
+  "private": true,
+  "description": "特許検索・分析システム - AI駆動型先行技術調査プラットフォーム",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:backend": "cd apps/backend && python -m uvicorn app.main:app --reload --port 8000",
+    "dev:classification": "cd apps/classification-search && python -m app.main",
+    "dev:web": "cd apps/web && pnpm dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "generate-api": "openapi-ts -i http://localhost:8000/api/openapi.json -o apps/web/src/types/api.ts"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.0",
+    "@hey-api/openapi-ts": "^0.54.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}

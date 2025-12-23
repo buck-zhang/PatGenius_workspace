@@ -1,0 +1,685 @@
+H10D   1/00  \	0	0	5F038	H10D   1/00	0	抵抗器，キャパシタまたはインダクタ［２０２５．０１］	Resistors, capacitors or inductors[2025.01]
+H10D   1/20  \	1	1	5F038	H10D   1/20	1740	インダクタ［２０２５．０１］	Inductors[2025.01]
+H10D   1/40  \	1	1	5F038	H10D   1/40	0	抵抗器［２０２５．０１］	Resistors[2025.01]
+H10D   1/43  \	2	2	5F038	H10D   1/43	0	ＰＮ接合を有する抵抗器［２０２５．０１］	Resistors having PN junctions[2025.01]
+H10D   1/47  \	2	2	5F038	H10D   1/47	0	電位障壁を有さない抵抗器［２０２５．０１］	Resistors having no potential barriers[2025.01]
+H10D   1/47 101 \	3	3	5F038	H10D   1/47	3533	薄膜抵抗	thin film resistance
+H10D   1/47 102 \	3	3	5F038	H10D   1/47	2367	拡散抵抗	diffusive resistance
+H10D   1/60  \	1	1	5F038	H10D   1/60	0	キャパシタ［２０２５．０１］	Capacitors[2025.01]
+H10D   1/62  \	2	2	5F038	H10D   1/62	2	電位障壁を有するキャパシタ［２０２５．０１］	Capacitors having potential barriers[2025.01]
+H10D   1/62  A	2	0	5F038	H10D   1/62	135	集積回路に用いるもの	used for integrated circuits
+H10D   1/62  C	2	0	5F038	H10D   1/62	55	複合形キャパシタ（Ａが優先）	composite capacitors (A takes precedence)
+H10D   1/62  Z	2	0	5F038	H10D   1/62	84	その他のもの	Others
+H10D   1/64  \	3	3	5F038	H10D   1/64	19	可変容量ダイオード，例．バラクタ［２０２５．０１］	Variable-capacitance diodes, e.g. varactors[2025.01]
+H10D   1/64  A	3	0	5F038	H10D   1/64	762	集積回路に用いるもの	used for integrated circuits
+H10D   1/64  H	3	0	5F038	H10D   1/64	265	超階段接合を利用したもの	using super step junctions
+H10D   1/64  S	3	0	5F038	H10D   1/64	97	ショットキーバリアを利用したもの	using Schottky barriers
+H10D   1/64  C	3	0	5F038	H10D   1/64	83	容量制御に他の電気的手段を付加したもの	adding other electric means to capacity control
+H10D   1/64  Z	3	0	5F038	H10D   1/64	486	その他のもの	Others
+H10D   1/66  \	3	3	5F038	H10D   1/66	25	導体−絶縁体−半導体構造のキャパシタ，例．ＭＯＳキャパシタ［２０２５．０１］	Conductor-insulator-semiconductor capacitors, e.g. MOS capacitors[2025.01]
+H10D   1/66  A	3	0	5F038	H10D   1/66	4780	集積回路に用いるもの	used for integrated circuits
+H10D   1/66  C	3	0	5F038	H10D   1/66	101	容量制御に他の電気的手段を付加したもの	adding other electric means to capacity control
+H10D   1/66  Z	3	0	5F038	H10D   1/66	336	その他のもの	Others
+H10D   1/68  \	2	2	5F038	H10D   1/68	11187	電位障壁を有さないキャパシタ［２０２５．０１］	Capacitors having no potential barriers[2025.01]
+H10D   8/00  \	0	0	5F087	H10D   8/00	0	ダイオード（可変容量ダイオードＨ１０Ｄ１／６４；ゲートダイオードＨ１０Ｄ１２／００）［２０２５．０１］	Diodes (variable-capacitance diodes H10D 1/64; gated diodes H10D 12/00)[2025.01]
+H10D   8/01  \	1	1	5F087	H10D   8/01	0	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D   8/01  A	1	0	5F087	H10D   8/01	1220	整流ダイオード，例．ＰＮダイオード，ＰＩＮダイオード，の製法方法に特徴のあるもの	characterized by the manufacturing methods of rectifier diodes, e.g., pn diodes, pin diodes
+H10D   8/01  B	1	1	5F087	H10D   8/01	1046	高耐圧化のためのもの	for increasing breakdown voltage
+H10D   8/01  S	1	0	5F087	H10D   8/01	1312	ショットキーバリアダイオードの製造方法に特徴のあるもの	characterized by the manufacturing methods of Schottky barrier diodes
+H10D   8/01  Z	1	0	5F087	H10D   8/01	0	その他のもの	Others
+H10D   8/20  \	1	1	5F087	H10D   8/20	52	ブレークダウンダイオード，例．アバランシェダイオード［２０２５．０１］	Breakdown diodes, e.g. avalanche diodes[2025.01]
+H10D   8/20  P	1	0	5F087	H10D   8/20	128	パンチスルー型定電圧ダイオード	punch-through type reference voltage diodes
+H10D   8/20  Z	1	0	5F087	H10D   8/20	402	その他のもの	Others
+H10D   8/25  \	2	2	5F087	H10D   8/25	1356	ツェナーダイオード［２０２５．０１］	Zener diodes[2025.01]
+H10D   8/25  S	2	0	5F087	H10D   8/25	276	双方向性のもの	bidirectional
+H10D   8/25  C	2	0	5F087	H10D   8/25	99	温度補償をしたもの	compensating temperature
+H10D   8/25  Z	2	0	5F087	H10D   8/25	0	その他のもの	Others
+H10D   8/30  \	1	1	5F087	H10D   8/30	16	点接触ダイオード［２０２５．０１］	Point-contact diodes[2025.01]
+H10D   8/40  \	1	1	5F087	H10D   8/40	736	トランジットタイムダイオード，例．ＩＭＰＡＴＴダイオードまたはＴＲＡＰＡＴＴダイオード［２０２５．０１］	Transit-time diodes, e.g. IMPATT or TRAPATT diodes[2025.01]
+H10D   8/50  \	1	1	5F087	H10D   8/50	81	ＰＩＮダイオード［２０２５．０１］	PIN diodes[2025.01]
+H10D   8/50  C	1	0	5F087	H10D   8/50	2366	構造に特徴のあるもの	characterized by the structures
+H10D   8/50  D	1	1	5F087	H10D   8/50	2357	高耐圧化のためのもの	for Increasing breakdown voltage
+H10D   8/50  E	1	0	5F087	H10D   8/50	533	半導体本体が非単結晶シリコンからなるもの	semiconductor bodies composed of non-single crystal silicon
+H10D   8/50  F	1	0	5F087	H10D   8/50	2226	半導体本体がシリコン以外のもの	semiconductor bodies made of the materials other than silicon
+H10D   8/50  G	1	1	5F087	H10D   8/50	155	半導体本体が有機物からなるもの	semiconductor bodies made of organic materials
+H10D   8/50  H	1	0	5F087	H10D   8/50	400	ヘテロ接合を用いたもの	in which using heterojunctions were used
+H10D   8/50  J	1	0	5F087	H10D   8/50	758	ライフタイムキラーに関するもの	in relation to life time killers
+H10D   8/50  K	1	0	5F087	H10D   8/50	1417	複数ダイオードの組合せに関するもの	in relation to the combination of multiple diodes
+H10D   8/50  L	1	0	5F087	H10D   8/50	799	集積化に関するもの	in relation to integration
+H10D   8/50  Z	1	0	5F087	H10D   8/50	770	その他のもの	Others
+H10D   8/60  \	1	1	5F087	H10D   8/60	1	ショットキーバリアダイオード［２０２５．０１］	Schottky-barrier diodes[2025.01]
+H10D   8/60  F	1	0	5F087	H10D   8/60	2893	素子構造	structures of elements
+H10D   8/60  M	1	0	5F087	H10D   8/60	935	ショットキー用電極の材料が限定されているもの	in which the materials used for the electrodes for Schottky are limited
+H10D   8/60  E	1	0	5F087	H10D   8/60	1316	周辺効果の緩和	reducing surrounding effects
+H10D   8/60  D	1	0	5F087	H10D   8/60	3131	半導体本体がシリコン以外のもの	semiconductor bodies made of the materials other than silicon
+H10D   8/60  Z	1	0	5F087	H10D   8/60	65	その他のもの	Others
+H10D   8/70  \	1	1	5F087	H10D   8/70	28	トンネル効果ダイオード［２０２５．０１］	Tunnel-effect diodes[2025.01]
+H10D   8/70  F	1	0	5F087	H10D   8/70	166	絶縁層を用いているもの	using insulation layers
+H10D   8/70  S	1	0	5F087	H10D   8/70	237	超格子構造を用いているもの	using superlattice structures
+H10D   8/70  Z	1	0	5F087	H10D   8/70	273	その他のもの	Others
+H10D   8/75  \	2	2	5F087	H10D   8/75	58	トンネル効果ＰＮダイオード，例．エサキダイオード［２０２５．０１］	Tunnel-effect PN diodes, e.g. Esaki diodes[2025.01]
+H10D   8/80  \	1	1	5F087	H10D   8/80	46	ＰＮＰＮダイオード，例．ショックレーダイオードまたはブレークオーバーダイオード［２０２５．０１］	PNPN diodes, e.g. Shockley diodes or break-over diodes[2025.01]
+H10D  10/00  \	0	0	5F203	H10D  10/00	20145	バイポーラトランジスタ［ＢＪＴ］［２０２５．０１］	Bipolar junction transistors [BJT][2025.01]
+H10D  10/01  \	1	1	5F203	H10D  10/01	9055	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  10/40  \	1	1	5F203	H10D  10/40	0	縦型バイポーラトランジスタ［２０２５．０１］	Vertical BJTs[2025.01]
+H10D  10/40  S	1	0	5F203	H10D  10/40	2405	セルフアライン型バイポーラトランジスタ，例．ＳＳＴ，ＳＥＢＴ	self-aligned bipolar transistors, e.g., SST,SEBT
+H10D  10/40  P	1	0	5F203	H10D  10/40	4831	プレーナ型バイポーラトランジスタ	planar type bipolar transistors
+H10D  10/40  Z	1	0	5F203	H10D  10/40	0	その他のもの	Others
+H10D  10/60  \	1	1	5F203	H10D  10/60	2463	横型バイポーラトランジスタ［２０２５．０１］	Lateral BJTs[2025.01]
+H10D  10/80  \	1	1	5F203	H10D  10/80	3413	ヘテロ接合バイポーラトランジスタ［２０２５．０１］	Heterojunction BJTs[2025.01]
+H10D  12/00  \	0	0	5F111	H10D  12/00	18	電界効果により制御されるバイポーラ装置，例．絶縁ゲートバイポーラトランジスタ［ＩＧＢＴ］［２０２５．０１］	Bipolar devices controlled by the field effect, e.g. insulated-gate bipolar transistors [IGBT][2025.01]
+H10D  12/00 101 \	1	1	5F111	H10D  12/00	11	半導体領域に特徴のあるもの	characterized by semiconductor regions
+H10D  12/00 101 A	1	0	5F111	H10D  12/00	418	トランジスタセルに特徴のあるもの	characterized by transistor cells
+H10D  12/00 101 B	1	1	5F111	H10D  12/00	361	エミッタ領域	emitter regions
+H10D  12/00 101 C	1	1	5F111	H10D  12/00	685	ベース領域；ボディ領域	base regions;body regions
+H10D  12/00 101 D	1	2	5F111	H10D  12/00	635	高濃度部；低抵抗部	high concentration parts;low resistance parts
+H10D  12/00 101 E	1	2	5F111	H10D  12/00	227	チャネル部	channel parts
+H10D  12/00 101 F	1	1	5F111	H10D  12/00	641	セルを構成する不純物領域等の平面形状または配置パターンに特徴のあるもの	characterized by the planar shapes or the arrangement patterns of impurities ranges comprised of the cells
+H10D  12/00 101 G	1	0	5F111	H10D  12/00	853	コレクタ領域に特徴のあるもの	characterized by collector regions
+H10D  12/00 101 R	1	1	5F111	H10D  12/00	897	ドリフト領域とコレクタ電極とを部分的に短絡するもの	partially short circuiting drift regions and collector electrodes
+H10D  12/00 101 H	1	0	5F111	H10D  12/00	1754	ドリフト領域に特徴のあるもの	characterized by drift regions
+H10D  12/00 101 J	1	1	5F111	H10D  12/00	1	超接合を有するもの	having super-junctions
+H10D  12/00 101 K	1	1	5F111	H10D  12/00	0	ＪＦＥＴ領域を有するもの	having JFET regions
+H10D  12/00 101 L	1	1	5F111	H10D  12/00	0	ドリフト領域表面に同一導電型で濃度が異なる領域を有するもの	having the regions of different concentrations but the same conductivity type on the surface of a drift region
+H10D  12/00 101 M	1	1	5F111	H10D  12/00	0	ドリフト領域表面に他導電型の領域を有するもの	having the regions of different conductivity types on the surface of a drift region
+H10D  12/00 101 P	1	0	5F111	H10D  12/00	1399	バッファ層に特徴のあるもの	characterized by buffer layers
+H10D  12/00 101 S	1	0	5F111	H10D  12/00	313	キャリアの引き抜きのための領域を追加したもの	adding regions for carrier extraction
+H10D  12/00 101 T	1	0	5F111	H10D  12/00	1804	基板の構成材料等に特徴のあるもの，例．化合物半導体を用いたもの，面方位に特徴のあるもの	characterized by the constituent materials of substrates, e.g., using compound semiconductors, characterized by plane orientation
+H10D  12/00 101 Z	1	0	5F111	H10D  12/00	541	その他のもの	Others
+H10D  12/00 102 \	1	1	5F111	H10D  12/00	468	電極に特徴のあるもの	characterized by electrodes
+H10D  12/00 102 G	1	0	5F111	H10D  12/00	773	ＭＯＳゲート，例．電極，絶縁膜，シールド構造，に特徴のあるもの	characterized by MOS gates, e.g., the electrode, the insulation films or the shield structures
+H10D  12/00 102 A	1	1	5F111	H10D  12/00	209	ゲート電極の形状に特徴のあるもの	characterized by the shapes of gate electrodes
+H10D  12/00 102 B	1	1	5F111	H10D  12/00	268	ゲート絶縁膜の形状に特徴のあるもの	characterized by the shapes of gate insulation films
+H10D  12/00 102 C	1	1	5F111	H10D  12/00	79	ゲートに付帯する導電体，例．ダミーゲート，を有するもの	having conductors attached to the gates, e.g., dummy gates
+H10D  12/00 102 S	1	0	5F111	H10D  12/00	236	エミッタ電極に特徴のあるもの	characterized by gate electrodes
+H10D  12/00 102 D	1	1	5F111	H10D  12/00	609	複数層からなるもの	comprised of multiple layers
+H10D  12/00 102 E	1	1	5F111	H10D  12/00	509	形状に特徴のあるもの	characterized by the shapes
+H10D  12/00 102 F	1	2	5F111	H10D  12/00	415	コンタクト部が平面でないもの	having contact parts which are not planar
+H10D  12/00 102 Z	1	0	5F111	H10D  12/00	0	その他のもの	Others
+H10D  12/00 103 \	1	1	5F111	H10D  12/00	1702	チップの周辺部あるいはチップ全体に特徴のあるもの	characterized by the whole chip or peripheral parts around a chip
+H10D  12/00 103 A	1	0	5F111	H10D  12/00	190	終端領域の耐圧構造に特徴のあるもの	characterized by termination regions' structures which increase the breakdown voltage of semiconductors
+H10D  12/00 103 B	1	1	5F111	H10D  12/00	567	セル領域を囲む不純物領域及び電極を有するもの，例．ガードリング及びフィールドプレートを有するもの	having impurity ranges or electrodes surrounding cell regions, e.g., having guard rings or field plates
+H10D  12/00 103 C	1	1	5F111	H10D  12/00	743	セル領域を囲む不純物領域を有するもの（Ｂが優先）	having impurity ranges surrounding cell regions (B takes precedence)
+H10D  12/00 103 D	1	1	5F111	H10D  12/00	169	セル領域を囲む電極を有するもの（Ｂが優先）	Having electrodes surrounding cell regions (B takes precedence)
+H10D  12/00 103 Q	1	0	5F111	H10D  12/00	1303	配線，パッドまたは実装関係に特徴のあるもの	characterized by wring, pads and implementation relations
+H10D  12/00 103 R	1	0	5F111	H10D  12/00	344	分離領域に特徴のあるもの	characterized by isolation regions
+H10D  12/00 103 S	1	0	5F111	H10D  12/00	1823	複数のトランジスタセルの平面形状または配置パターンに特徴のあるもの	characterized by the planar shapes or the arrangement patterns of multiple transistor cells
+H10D  12/00 103 Z	1	0	5F111	H10D  12/00	0	その他のもの	Others
+H10D  12/00 201 \	1	1	5F111	H10D  12/00	1	ゲートがプレーナ型でないもの	having gates which are not planar types
+H10D  12/00 201 A	1	0	5F111	H10D  12/00	3259	ゲートを溝の内部に形成したもの，例．Ｖ溝型ＭＯＳ［ＶＭＯＳ］，トレンチゲート型ＭＯＳ［ＵＭＯＳ］	having gates formed within grooves, e.g., V-groove type MOS[VMOS],trench gate type MOS[UMOS]
+H10D  12/00 201 B	1	1	5F111	H10D  12/00	145	チャネル領域，エミッタ，コレクタ領域を溝の内部に形成したもの	having channel regions, emitters and collector regions formed within grooves
+H10D  12/00 201 C	1	0	5F111	H10D  12/00	717	ゲートを埋め込み形成したもの	with gates formed by burying them
+H10D  12/00 201 D	1	0	5F111	H10D  12/00	36	ＳＯＩまたはＳＩＭＯＸ技術を利用したもの	using SOI or IMOX technologies
+H10D  12/00 201 Z	1	0	5F111	H10D  12/00	21	その他のもの	Others
+H10D  12/00 202 \	1	1	5F111	H10D  12/00	0	動作に特徴のあるもの	characterized by operation
+H10D  12/00 202 A	1	0	5F111	H10D  12/00	19	ベース領域にバイアスを印加するもの	giving biases to base regions
+H10D  12/00 202 B	1	0	5F111	H10D  12/00	22	少数キャリア注入領域をもつもの	having minority carrier injection regions
+H10D  12/00 202 C	1	0	5F111	H10D  12/00	55	ＭＯＳ型ＳＩＴ	MOS type SIT
+H10D  12/00 202 Z	1	0	5F111	H10D  12/00	152	その他のもの	Others
+H10D  12/00 301 \	1	1	5F111	H10D  12/00	518	横型ＩＧＢＴ	lateral IGBT
+H10D  12/01  \	1	1	5F111	H10D  12/01	2	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  12/01  A	1	0	5F111	H10D  12/01	1232	不純物領域の形成工程に特徴のあるもの	characterized by the formation processes of impurity ranges
+H10D  12/01  B	1	1	5F111	H10D  12/01	90	セルフアライン拡散	self-aligned diffusion
+H10D  12/01  C	1	2	5F111	H10D  12/01	22	ベースウエル中央部の位置の制御	controlling the position of the midpoint parts of base wells
+H10D  12/01  D	1	2	5F111	H10D  12/01	53	ゲート電極端部の位置の制御，例．側壁酸化	control of the position of the ends of gate electrode parts, e.g., oxidization on the sidewalls
+H10D  12/01  E	1	0	5F111	H10D  12/01	469	不純物層の成長工程に特徴のあるもの	characterized by the processes of impurity layer growth
+H10D  12/01  F	1	0	5F111	H10D  12/01	942	絶縁層または導電層の形成工程に特徴のあるもの	characterized by the formation processes of insulation layers or electricity conducting layers
+H10D  12/01  G	1	0	5F111	H10D  12/01	627	エッチングに特徴のあるもの	characterized by etching
+H10D  12/01  H	1	0	5F111	H10D  12/01	755	ライフタイム制御に特徴のあるもの	characterized by lifetime control
+H10D  12/01  J	1	0	5F111	H10D  12/01	160	パッシベーションに特徴のあるもの	characterized by passivation
+H10D  12/01  K	1	0	5F111	H10D  12/01	152	ウエハの貼り合わせに特徴のあるもの	characterized by lamination of wafers
+H10D  12/01  L	1	0	5F111	H10D  12/01	235	検査，測定またはシミュレーションに特徴のあるもの	characterized by tests, measurements or simulation
+H10D  12/01  Z	1	0	5F111	H10D  12/01	239	その他のもの	Others
+H10D  18/00  \	0	0	5F005	H10D  18/00	336	サイリスタ［２０２５．０１］	Thyristors[2025.01]
+H10D  18/00  A	0	0	5F005	H10D  18/00	406	エミッタ短絡構造	emitter short-circuit structures
+H10D  18/00  B	0	0	5F005	H10D  18/00	800	表面構造，例．パッシベーション，ガードリング，溝	surface structures, e.g., passivation, guard rings, grooves
+H10D  18/00  V	0	1	5F005	H10D  18/00	840	傾斜面，例．ベベル，を有するもの	having tilted surfaces, e.g., bevels
+H10D  18/00  W	0	1	5F005	H10D  18/00	1209	平面パターン，例．多島状エミッタ，くしの歯状電極	planar patterns, e.g., multi-island emitters, comb tooth shaped electrodes
+H10D  18/00  D	0	0	5F005	H10D  18/00	770	Ｔｏｎ特性またはゲート構造	contract ratio-to-transmittance[Ton]characteristics or gate structures
+H10D  18/00  X	0	1	5F005	H10D  18/00	498	トレンチゲート；切込ゲート	trench gates;cut gates
+H10D  18/00  Y	0	1	5F005	H10D  18/00	67	両面ゲート	double-sided gates
+H10D  18/00  E	0	0	5F005	H10D  18/00	889	感光または発光サイリスタ	light-sensitive or light emitting thyristors
+H10D  18/00  F	0	0	5F005	H10D  18/00	1039	ＰＮＰＮ一般	PNPN in general
+H10D  18/00  G	0	0	5F005	H10D  18/00	799	プレーナ技術または集積化	planar technologies or integration
+H10D  18/00  H	0	0	5F005	H10D  18/00	327	逆導通サイリスタ	reverse conducting thyristors
+H10D  18/00  C	0	0	5F005	H10D  18/00	19	逆阻止サイリスタ	reverse blocking thyristors
+H10D  18/00  J	0	0	5F005	H10D  18/00	830	サイリスタ電極構造	thyristor electrode structures
+H10D  18/00  L	0	0	5F005	H10D  18/00	312	支持体	supports
+H10D  18/00  M	0	0	5F005	H10D  18/00	647	静電誘導サイリスタ	static induction thyristors
+H10D  18/00  P	0	0	5F005	H10D  18/00	247	外部素子	external elements
+H10D  18/00  R	0	0	5F005	H10D  18/00	76	感熱サイリスタ	heat-sensitive thyristors
+H10D  18/00  S	0	0	5F005	H10D  18/00	30	感圧サイリスタ	presser-sensitive thyristors
+H10D  18/00  T	0	0	5F005	H10D  18/00	9	感磁サイリスタ	magnetic sensitive thyristors
+H10D  18/00  U	0	0	5F005	H10D  18/00	1001	サイリスタ一般	thyristors in general
+H10D  18/00  Z	0	0	5F005	H10D  18/00	267	その他のもの	Others
+H10D  18/01  \	1	1	5F005	H10D  18/01	0	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  18/01  A	1	0	5F005	H10D  18/01	383	サイリスタの製造のための単一段階工程に特徴のあるもの	characterized by single-step processes for manufacturing thyristors
+H10D  18/01  B	1	0	5F005	H10D  18/01	136	サイリスタの製造のための多段階工程に特徴のあるもの	characterized by multi-step processes for manufacturing thyristors
+H10D  18/01  C	1	1	5F005	H10D  18/01	26	双方向サイリスタのためのもの	for bidirectional thyristors
+H10D  18/01  Z	1	0	5F005	H10D  18/01	0	その他のもの	Others
+H10D  18/40  \	1	1	5F005	H10D  18/40	1	電界効果によりターンオンするもの［２０２５．０１］	with turn-on by field effect[2025.01]
+H10D  18/40  A	1	0	5F005	H10D  18/40	331	ＭＯＳＦＥＴを用いたもの，例．ＭＯＳ　Ｃｏｎｔｒｏｌｌｅｄ　Ｔｈｙｒｉｓｔｏｒ［ＭＣＴ］	using MOSFET, e.g., MOS Controlled Thyristor[MCT]
+H10D  18/40  B	1	0	5F005	H10D  18/40	90	導電度変調，例．ＩＧＢＴモード，を用いたもの，例．Ｅｍｉｔｔｅｒ　Ｓｗｉｔｃｈｅｄ　Ｔｈｙｒｉｓｔｏｒ［ＥＳＴ］	using conductivity modulation, e.g., IGBT mode, e.g., Emitter Switched Thyristor[EST]
+H10D  18/40  C	1	0	5F005	H10D  18/40	77	導電型の異なる複数ＦＥＴを用いたもの，例．Ｂａｓｅ　Ｒｅｓｉｓｔａｎｃｅ　Ｔｈｙｒｉｓｔｏｒ［ＢＲＴ］	using multiple different  FETs of conductivity types, e.g., Base Resistance Thyristor[BRT]
+H10D  18/40  Z	1	0	5F005	H10D  18/40	2	その他のもの	Others
+H10D  18/60  \	1	1	5F005	H10D  18/60	1364	ゲートターンオフサイリスタ［２０２５．０１］	Gate-turn-off devices[2025.01]
+H10D  18/65  \	2	2	5F005	H10D  18/65	1	電界効果によりターンオフするもの［２０２５．０１］	with turn-off by field effect[2025.01]
+H10D  18/65  A	2	0	5F005	H10D  18/65	204	ＭＯＳＦＥＴを用いたもの，例．ＭＯＳ　Ｃｏｎｔｒｏｌｌｅｄ　Ｔｈｙｒｉｓｔｏｒ［ＭＣＴ］	using MOSFET, e.g., MOS Controlled Thyristor[MCT]
+H10D  18/65  B	2	0	5F005	H10D  18/65	76	導電度変調，例．ＩＧＢＴモード，を用いたもの，例．Ｅｍｉｔｔｅｒ　Ｓｗｉｔｃｈｅｄ　Ｔｈｙｒｉｓｔｏｒ［ＥＳＴ］	using conductivity modulation, e.g., IGBT mode, e.g., Emitter Switched Thyristor[EST]
+H10D  18/65  C	2	0	5F005	H10D  18/65	93	導電型の異なる複数ＦＥＴを用いたもの，例．Ｂａｓｅ　Ｒｅｓｉｓｔａｎｃｅ　Ｔｈｙｒｉｓｔｏｒ［ＢＲＴ］	using multiple different FETs of conductivity types, e.g., Base Resistance Thyristor[BRT]
+H10D  18/65  Z	2	0	5F005	H10D  18/65	1	その他のもの	Others
+H10D  18/80  \	1	1	5F005	H10D  18/80	572	双方向サイリスタ，例．トライアック［２０２５．０１］	Bidirectional devices, e.g. triacs[2025.01]
+H10D  30/00  \	0	0	5F140	H10D  30/00	0	電界効果トランジスタ［ＦＥＴ］（絶縁ゲートバイポーラトランジスタＨ１０Ｄ１２／００）［２０２５．０１］	Field-effect transistors [FET] (insulated-gate bipolar transistors H10D 12/00)[2025.01]
+H10D  30/01  \	1	1	5F123	H10D  30/01	0	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  30/01 101 \	2	2	5F140	H10D  30/01	0	Ｈ１０Ｄ３０／６０〜Ｈ１０Ｄ３０／６５に包含されるトランジスタの製造または処理，例．絶縁ゲート電界効果トランジスタ［ＩＧＦＥＴ］の製造	manufacturing or treatment of transistors provided for in  H10D30/60~H10D30/65, e.g., manufacturing of insulated gate field effect transistor[IGFET]
+H10D  30/01 101 F	2	0	5F140	H10D  30/01	725	単一のプロセスのみに特徴のあるもの	characterized only by the single processes
+H10D  30/01 101 P	2	0	5F140	H10D  30/01	4769	ＭＯＳプロセス，例．ソース，ドレイン領域形成，セルファラインおよび電極形成，のうちのいずれか一つのみに特徴のあるもの	MOS processes, e.g., characterized only by either formation of source regions, drain regions or formation of self-align and electrodes
+H10D  30/01 101 T	2	0	5F140	H10D  30/01	411	試験または測定に特徴のあるもの	characterized by tests or measurements
+H10D  30/01 101 Z	2	0	5F140	H10D  30/01	1974	その他のもの	Others
+H10D  30/01 201 \	2	2	5F110	H10D  30/01	0	Ｈ１０Ｄ３０／６７またはＨ１０Ｄ３０／４７，１０１に包含されるトランジスタの製造または処理，例．薄膜トランジスタ［ＴＦＴ］の製造	manufacturing or treatment of transistors provided for in H10D30/67 or H10D30/47,10, e.g., manufacturing of thin film transistors [TFT]
+H10D  30/01 202 \	3	3	5F110	H10D  30/01	0	ソース，ドレインの製造または処理に特徴のあるもの	characterized by the manufacturing or the treatment of sources, drains
+H10D  30/01 202 J	3	0	5F110	H10D  30/01	397	ソース，ドレインの形成方法に特徴のあるもの	characterized by methods of formation of sources, drains
+H10D  30/01 202 K	3	1	5F110	H10D  30/01	2534	ソース，ドレイン電極の形成方法に特徴のあるもの	characterized by methods of formation of source electrodes, drain electrodes
+H10D  30/01 202 L	3	1	5F110	H10D  30/01	1772	ソース，ドレイン領域の形成方法に特徴のあるもの	characterized by methods of formation of source regions, drain regions
+H10D  30/01 202 M	3	2	5F110	H10D  30/01	513	セルフアライン	self-align
+H10D  30/01 202 N	3	3	5F110	H10D  30/01	435	裏面からの露光によるもの	by exposure from the rear sides
+H10D  30/01 202 Z	3	0	5F110	H10D  30/01	0	その他のもの	Others
+H10D  30/01 203 \	3	3	5F110	H10D  30/01	0	ゲートの製造または処理に特徴のあるもの	characterized by manufacturing or treatment of gates
+H10D  30/01 203 V	3	0	5F110	H10D  30/01	2049	ゲート絶縁膜の形成方法に特徴のあるもの	characterized by methods of forming gate insulation films
+H10D  30/01 203 W	3	1	5F110	H10D  30/01	390	陽極酸化法を用いるもの	using methods for the production of anodic oxidation coatings
+H10D  30/01 203 Z	3	0	5F110	H10D  30/01	0	その他のもの	Others
+H10D  30/01 204 \	3	3	5F110	H10D  30/01	3467	チャネル半導体層の堆積方法に特徴のあるもの	characterized by the methods for the deposition of channel semiconductor layers
+H10D  30/01 205 \	3	3	5F110	H10D  30/01	650	試験，測定またはシミュレーションに特徴のあるもの	characterized by tests, measurements or simulation
+H10D  30/01 206 \	3	3	5F110	H10D  30/01	10	その他のプロセスに特徴のあるもの	characterized by other processes
+H10D  30/01 206 A	3	0	5F110	H10D  30/01	854	平坦化	flattening
+H10D  30/01 206 B	3	0	5F110	H10D  30/01	493	連続形成	continuous formation
+H10D  30/01 206 C	3	0	5F110	H10D  30/01	2812	パターニング	patterning
+H10D  30/01 206 D	3	0	5F110	H10D  30/01	1719	貼り合わせ	lamination
+H10D  30/01 206 E	3	0	5F110	H10D  30/01	582	ダングリングボンドの終端化を行うもの，例．水素化	passivating dangling bond defects, e.g., hydrogenation
+H10D  30/01 206 F	3	0	5F110	H10D  30/01	1212	アニール	annealing
+H10D  30/01 206 G	3	1	5F110	H10D  30/01	5173	再結晶化；単結晶化	recrystallisation;single crystallisation
+H10D  30/01 206 Z	3	0	5F110	H10D  30/01	739	その他のもの	Others
+H10D  30/01 301 \	2	2	5F111	H10D  30/01	5	Ｈ１０Ｄ３０／６６に包含されるトランジスタの製造または処理，例．縦型ＤＭＯＳ［ＶＤＭＯＳ］電界効果トランジスタの製造	manufacturing and treatment of transistors provided for in H10D30/66, e.g., manufacturing of vertical DMOS[VDMOS]field effect transistors
+H10D  30/01 301 A	2	0	5F111	H10D  30/01	2509	不純物領域の形成工程に特徴のあるもの	characterized by the processes for forming impurity ranges
+H10D  30/01 301 B	2	1	5F111	H10D  30/01	337	セルフアライン拡散	self-aligned diffusion
+H10D  30/01 301 C	2	2	5F111	H10D  30/01	93	ベースウエル中央部の位置の制御	controlling the positions of the midpoints of base wells
+H10D  30/01 301 D	2	2	5F111	H10D  30/01	204	ゲート電極端部の位置の制御，例．側壁酸化	control of the position of the ends of gate electrode parts, e.g., oxidization of the sidewalls
+H10D  30/01 301 E	2	0	5F111	H10D  30/01	1881	不純物層の成長工程に特徴のあるもの	characterized by the processes of impurity layer growth
+H10D  30/01 301 F	2	0	5F111	H10D  30/01	2721	絶縁層または導電層の形成工程に特徴のあるもの	characterized by the steps for forming insulation layers and electricity conducting layers
+H10D  30/01 301 G	2	0	5F111	H10D  30/01	1851	エッチングに特徴のあるもの	characterized by etching
+H10D  30/01 301 H	2	0	5F111	H10D  30/01	287	ライフタイム制御に特徴のあるもの	characterized by lifetime control
+H10D  30/01 301 J	2	0	5F111	H10D  30/01	279	パッシベーションに特徴のあるもの	characterized by passivation
+H10D  30/01 301 K	2	0	5F111	H10D  30/01	225	ウエハの貼り合わせに特徴のあるもの	characterized by lamination of wafers
+H10D  30/01 301 L	2	0	5F111	H10D  30/01	284	検査，測定またはシミュレーションに特徴のあるもの	characterized by inspections, measurements or simulation
+H10D  30/01 301 Z	2	0	5F111	H10D  30/01	371	その他のもの	Others
+H10D  30/01 401 \	2	2	5F102	H10D  30/01	10919	Ｈ１０Ｄ３０／８０〜Ｈ１０Ｄ３０／８７またはＨ１０Ｄ３０／４７，２０１に包含されるトランジスタの製造または処理，例．整流接合ゲート電極を有する電界効果トランジスタまたは高電子移動度トランジスタ［ＨＥＭＴ］の製造	manufacturing and treatment of transistors provided for in H10D30/80~H10D30/87 or H10D30/47,201, e.g., manufacturing of field effect transistors [FET]or high electron mobility transistors [HEMT]having gate electrodes with rectifying junctions
+H10D  30/01 501 \	2	2	5F101	H10D  30/01	12243	Ｈ１０Ｄ３０／６８〜Ｈ１０Ｄ３０／６９に包含されるトランジスタの製造または処理，例．フローティングゲートまたは電荷トラッピングゲート絶縁体を有する絶縁ゲート電界効果トランジスタの製造	manufacturing and treatment of transistors provided for in H10D30/68~H10D30/69, e.g., manufacturing of insulated gate field effect transistors having floating gates or charge trapping gate insulators
+H10D  30/40  \	1	1	5F123	H10D  30/40	275	０次元，１次元または２次元キャリアガスチャネルを有する電界効果トランジスタ［２０２５．０１］	FETs having zero-dimensional [0D], one-dimensional [1D] or two-dimensional [2D] charge carrier gas channels[2025.01]
+H10D  30/43  \	2	2	5F123	H10D  30/43	382	１次元キャリアガスチャネルをもつもの，例．量子細線電界効果トランジスタまたは１次元量子閉じ込めチャネルを有するトランジスタ［２０２５．０１］	having 1D charge carrier gas channels, e.g. quantum wire FETs or transistors having 1D quantum-confined channels[2025.01]
+H10D  30/47  \	2	2	5F123	H10D  30/47	131	２次元キャリアガスチャネルをもつもの，例．ナノリボン電界効果トランジスタまたは高電子移動度トランジスタ［ＨＥＭＴ］［２０２５．０１］	having 2D charge carrier gas channels, e.g. nanoribbon FETs or high electron mobility transistors [HEMT][2025.01]
+H10D  30/47 101 \	3	3	5F110	H10D  30/47	1623	ナノカーボン，例．ナノリボン，を用いたトランジスタ	transistors using nano-carbon, e.g., nano-ribbons
+H10D  30/47 201 \	3	3	5F102	H10D  30/47	8495	高電子移動度トランジスタ［ＨＥＭＴ］	high electron mobility transistors [HEMT]
+H10D  30/60  \	1	1	5F140	H10D  30/60	11808	絶縁ゲート電界効果トランジスタ［ＩＧＦＥＴ］（Ｈ１０Ｄ３０／４０が優先）［２０２５．０１］	Insulated-gate field-effect transistors [IGFET] (H10D 30/40 takes precedence)[2025.01]
+H10D  30/60  B	1	0	5F140	H10D  30/60	3187	化合物半導体を用いるもの	using compound semiconductors
+H10D  30/60  C	1	0	5F140	H10D  30/60	1181	ＭＯＳＩＣに用いられるもの	used for MOSIC
+H10D  30/60  E	1	0	5F140	H10D  30/60	88	回路構成のみに特徴のあるもの	characterized only by the structures of circuits
+H10D  30/60  G	1	0	5F140	H10D  30/60	7813	ゲート電極構造のみに特徴のあるもの	characterized only by the structures of gate electrodes
+H10D  30/60  H	1	0	5F140	H10D  30/60	1853	チャネル構造のみに特徴のあるもの	characterized only by channel structures
+H10D  30/60  J	1	0	5F140	H10D  30/60	989	とくに動作に特徴のあるもの	characterized specially by operation
+H10D  30/60  K	1	0	5F140	H10D  30/60	1821	保護装置	protective devices
+H10D  30/60  L	1	0	5F140	H10D  30/60	2515	ＬＤＤ	LDD
+H10D  30/60  M	1	0	5F140	H10D  30/60	303	メモリーに用いられるもの，例．１Ｔｒ．ＤＲＡＭセル	used for memories, e.g., 1Tr.DRAM cells
+H10D  30/60  N	1	0	5F140	H10D  30/60	717	パッシベーション構造のみに特徴のあるもの	characterized only by the structure of passivation
+H10D  30/60  Q	1	0	5F140	H10D  30/60	220	結晶方位の選択のみに特徴のあるもの	characterized only by the selection of crystal orientation
+H10D  30/60  R	1	0	5F140	H10D  30/60	1593	分離領域のみに特徴のあるもの	characterized only by isolation regions
+H10D  30/60  S	1	0	5F140	H10D  30/60	3433	ソース，ドレイン領域のみに特徴のあるもの	characterized only by source regions, drain regions
+H10D  30/60  U	1	0	5F140	H10D  30/60	289	ＩＳＦＥＴ	ISFET
+H10D  30/60  V	1	0	5F140	H10D  30/60	1184	溝ほりゲートを持つもの	having trenching gates
+H10D  30/60  W	1	0	5F140	H10D  30/60	833	高耐圧化，大電流化，例．並列化	Increasing the breakdown voltage, increases in the current, e.g., parallelizing
+H10D  30/60  X	1	0	5F140	H10D  30/60	3916	その他のＭＯＳ構造	other MOSstructures
+H10D  30/60  Z	1	0	5F140	H10D  30/60	1064	その他，例．構造およびプロセスの双方に特徴のあるもの	others, e.g., characterized by both the structures and the processes
+H10D  30/62  \	2	2	5F140	H10D  30/62	1354	フィン電界効果トランジスタ［ＦｉｎＦＥＴ］［２０２５．０１］	Fin field-effect transistors [FinFET][2025.01]
+H10D  30/63  \	2	2	5F140	H10D  30/63	1148	縦型絶縁ゲート電界効果トランジスタ（Ｈ１０Ｄ３０／６６が優先）［２０２５．０１］	Vertical IGFETs (H10D 30/66 takes precedence)[2025.01]
+H10D  30/64  \	2	2	5F140	H10D  30/64	0	二重拡散金属酸化物［ＤＭＯＳ］電界効果トランジスタ［２０２５．０１］	Double-diffused metal-oxide semiconductor [DMOS] FETs[2025.01]
+H10D  30/65  \	3	3	5F140	H10D  30/65	1402	横型ＤＭＯＳ［ＬＤＭＯＳ］電界効果トランジスタ［２０２５．０１］	Lateral DMOS [LDMOS] FETs[2025.01]
+H10D  30/66  \	3	3	5F111	H10D  30/66	34	縦型ＤＭＯＳ［ＶＤＭＯＳ］電界効果トランジスタ［２０２５．０１］	Vertical DMOS [VDMOS] FETs[2025.01]
+H10D  30/66 101 \	4	4	5F111	H10D  30/66	6	半導体領域に特徴のあるもの	characterized by semiconductor regions
+H10D  30/66 101 A	4	0	5F111	H10D  30/66	146	トランジスタセルに特徴のあるもの	characterized by transistor cells
+H10D  30/66 101 B	4	1	5F111	H10D  30/66	897	ソース領域	source regions
+H10D  30/66 101 C	4	1	5F111	H10D  30/66	1323	ベース領域；ボディ領域	base regions; body regions
+H10D  30/66 101 D	4	2	5F111	H10D  30/66	1497	高濃度部；低抵抗部	high concentration parts; low density parts
+H10D  30/66 101 E	4	2	5F111	H10D  30/66	967	チャネル部	channel parts
+H10D  30/66 101 F	4	1	5F111	H10D  30/66	1921	セルを構成する不純物領域等の平面形状または配置パターンに特徴のあるもの	characterized by the planar shapes or the arrangement patterns of impurity ranges comprising the cells
+H10D  30/66 101 G	4	0	5F111	H10D  30/66	737	ドレイン領域に特徴のあるもの	characterized by drain regions
+H10D  30/66 101 H	4	0	5F111	H10D  30/66	3991	ドリフト領域に特徴のあるもの	characterized by drift regions
+H10D  30/66 101 J	4	1	5F111	H10D  30/66	2	超接合を有するもの	having super-junctions
+H10D  30/66 101 K	4	1	5F111	H10D  30/66	1	ＪＦＥＴ領域を有するもの	having JFET regions
+H10D  30/66 101 L	4	1	5F111	H10D  30/66	3	ドリフト領域表面に同一導電型で濃度が異なる領域を有するもの	having the regions of different concentrations but of the same conductivity type on the surface of a drift region
+H10D  30/66 101 M	4	1	5F111	H10D  30/66	4	ドリフト領域表面に他導電型の領域を有するもの	having the regions of different conductivity types on the surface of a drift region
+H10D  30/66 101 T	4	0	5F111	H10D  30/66	6010	基板の構成材料等に特徴のあるもの，例．化合物半導体を用いたもの，面方位に特徴のあるもの	characterized by the constituent materials of substrates, e.g., using compound semiconductors, characterized by plane orientation
+H10D  30/66 101 Z	4	0	5F111	H10D  30/66	72	その他のもの	Others
+H10D  30/66 102 \	4	4	5F111	H10D  30/66	826	電極に特徴のあるもの	characterized by electrodes
+H10D  30/66 102 G	4	0	5F111	H10D  30/66	1793	ＭＯＳゲート，例．電極，絶縁膜，シールド構造，に特徴のあるもの	characterized by MOS gates, e.g., the electrodes, insulation films, the shield structures
+H10D  30/66 102 A	4	1	5F111	H10D  30/66	518	ゲート電極の形状に特徴のあるもの	characterized by the shapes of gate electrodes
+H10D  30/66 102 B	4	1	5F111	H10D  30/66	976	ゲート絶縁膜の形状に特徴のあるもの	characterized by the shapes of gate insulating films
+H10D  30/66 102 C	4	1	5F111	H10D  30/66	368	ゲートに付帯する導電体，例．ダミーゲート，を有するもの	having electricity conducting bodies attached to the gates, e.g., dummy gates
+H10D  30/66 102 S	4	0	5F111	H10D  30/66	418	ソース電極に特徴のあるもの	characterized by source electrodes
+H10D  30/66 102 D	4	1	5F111	H10D  30/66	1551	複数層からなるもの	comprised of multiple layers
+H10D  30/66 102 E	4	1	5F111	H10D  30/66	880	形状に特徴のあるもの	characterized by the shapes
+H10D  30/66 102 F	4	2	5F111	H10D  30/66	1125	コンタクト部が平面でないもの	having contact parts which are not planar
+H10D  30/66 102 Z	4	0	5F111	H10D  30/66	0	その他のもの	Others
+H10D  30/66 103 \	4	4	5F111	H10D  30/66	1621	チップの周辺部あるいはチップ全体に特徴のあるもの	characterized by areas surrounding a chip or a chip as a whole
+H10D  30/66 103 A	4	0	5F111	H10D  30/66	415	終端領域の耐圧構造に特徴のあるもの	characterized by termination regions' structures which increase the breakdown voltage of semiconductors
+H10D  30/66 103 B	4	1	5F111	H10D  30/66	494	セル領域を囲む不純物領域及び電極を有するもの，例．ガードリング及びフィールドプレートを有するもの	having impurity ranges or electrodes surrounding cell regions, e.g., having guard rings and field plates
+H10D  30/66 103 C	4	1	5F111	H10D  30/66	1293	セル領域を囲む不純物領域を有するもの（Ｂが優先）	having impurity ranges surrounding cell regions (B takes precedence)
+H10D  30/66 103 D	4	1	5F111	H10D  30/66	382	セル領域を囲む電極を有するもの（Ｂが優先）	having electrodes surrounding cell regions (B takes precedence)
+H10D  30/66 103 Q	4	0	5F111	H10D  30/66	1871	配線，パッドまたは実装関係に特徴のあるもの	Characterized by wring, pads and implementation relations
+H10D  30/66 103 R	4	0	5F111	H10D  30/66	422	分離領域に特徴のあるもの	characterized by isolation regions
+H10D  30/66 103 S	4	0	5F111	H10D  30/66	2137	複数のトランジスタセルの平面形状または配置パターンに特徴のあるもの	Characterized by the planar shapes or the arrangement patterns of multiple transistor cells
+H10D  30/66 103 Z	4	0	5F111	H10D  30/66	0	その他のもの	Others
+H10D  30/66 201 \	4	4	5F111	H10D  30/66	6	ゲートがプレーナ型でないもの	having gates which are not planar types
+H10D  30/66 201 A	4	0	5F111	H10D  30/66	5396	ゲートを溝の内部に形成したもの，例．Ｖ溝型ＭＯＳ［ＶＭＯＳ］，トレンチゲート型ＭＯＳ［ＵＭＯＳ］	in which gates are formed within grooves, e.g., V-groove type MOS[VMOS],trench gate type MOS[UMOS]
+H10D  30/66 201 B	4	1	5F111	H10D  30/66	555	チャネル領域，ソース，ドレイン領域を溝の内部に形成したもの	in which channel regions, source regions, drain regions are formed within grooves
+H10D  30/66 201 C	4	0	5F111	H10D  30/66	1447	ゲートを埋め込み形成したもの	with gates formed by burying them
+H10D  30/66 201 D	4	0	5F111	H10D  30/66	154	ＳＯＩまたはＳＩＭＯＸ技術を利用したもの	using SOI or IMOX technologies
+H10D  30/66 201 Z	4	0	5F111	H10D  30/66	98	その他のもの	Others
+H10D  30/66 202 \	4	4	5F111	H10D  30/66	2	動作に特徴のあるもの	characterized by operation
+H10D  30/66 202 A	4	0	5F111	H10D  30/66	31	ベース領域にバイアスを印加するもの	giving biases to base regions
+H10D  30/66 202 B	4	0	5F111	H10D  30/66	38	少数キャリア注入領域をもつもの	having minority carrier injection regions
+H10D  30/66 202 C	4	0	5F111	H10D  30/66	178	ＭＯＳ型ＳＩＴ	MOS type SIT
+H10D  30/66 202 Z	4	0	5F111	H10D  30/66	248	その他のもの	Others
+H10D  30/67  \	2	2	5F110	H10D  30/67	28	薄膜トランジスタ［ＴＦＴ］［２０２５．０１］	Thin-film transistors [TFT][2025.01]
+H10D  30/67 101 \	3	3	5F110	H10D  30/67	8	ソース，ドレインに特徴のあるもの	characterized by sources, drains
+H10D  30/67 101 A	3	0	5F110	H10D  30/67	1791	ＬＤＤ，例．構造，製法，に特徴のあるもの	characterized by LDD,e.g., the structures and the manufacturing methods
+H10D  30/67 101 S	3	0	5F110	H10D  30/67	1665	ソース，ドレイン領域，電極の構造に特徴のあるもの	characterized by the structures of source regions, drain regions and electrodes
+H10D  30/67 101 T	3	1	5F110	H10D  30/67	2491	形状に特徴のあるもの	characterized by the shapes
+H10D  30/67 101 U	3	1	5F110	H10D  30/67	2192	複数層	multiple layers
+H10D  30/67 101 V	3	1	5F110	H10D  30/67	4113	材料，不純物濃度等に特徴のあるもの	characterized by materials, the concentrations of impurities
+H10D  30/67 101 Z	3	0	5F110	H10D  30/67	32	その他のもの	Others
+H10D  30/67 102 \	3	3	5F110	H10D  30/67	6	ゲートに特徴のあるもの	characterized by the gates
+H10D  30/67 102 A	3	0	5F110	H10D  30/67	697	オフセットゲート，例．構造，製法，に特徴のあるもの	characterized by offset gates, e.g., the structures, the manufacturing methods
+H10D  30/67 102 J	3	0	5F110	H10D  30/67	1877	ゲート電極に特徴のあるもの	characterized by gate electrodes
+H10D  30/67 102 K	3	1	5F110	H10D  30/67	2030	形状に特徴のあるもの	characterized by the shapes
+H10D  30/67 102 L	3	1	5F110	H10D  30/67	1338	複数層	multiple layers
+H10D  30/67 102 M	3	1	5F110	H10D  30/67	1812	材料，不純物濃度等に特徴のあるもの	characterized by the materials, the concentrations of impurities
+H10D  30/67 102 N	3	1	5F110	H10D  30/67	2568	ゲート電極を複数有するもの	having multiple gate electrodes
+H10D  30/67 102 S	3	0	5F110	H10D  30/67	1119	ゲート絶縁膜に特徴のあるもの	characterized by gate insulating films
+H10D  30/67 102 T	3	1	5F110	H10D  30/67	2893	材料に特徴のあるもの	characterized by the materials
+H10D  30/67 102 U	3	1	5F110	H10D  30/67	2057	複数層	multiple layers
+H10D  30/67 102 Z	3	0	5F110	H10D  30/67	34	その他のもの	Others
+H10D  30/67 103 \	3	3	5F110	H10D  30/67	20	チャネル半導体層に特徴のあるもの	characterized by channel semiconductor layers
+H10D  30/67 103 B	3	0	5F110	H10D  30/67	17671	材料に特徴のあるもの	characterized by the materials
+H10D  30/67 103 C	3	0	5F110	H10D  30/67	3080	形状に特徴のあるもの	characterized by the shapes
+H10D  30/67 103 D	3	1	5F110	H10D  30/67	536	薄膜化	thinning of film thickness
+H10D  30/67 103 E	3	0	5F110	H10D  30/67	2428	複数層	multiple layers
+H10D  30/67 103 F	3	0	5F110	H10D  30/67	1410	不純物，不純物濃度等に特徴のあるもの	characterized by impurities and the concentrations of impurities
+H10D  30/67 103 G	3	1	5F110	H10D  30/67	689	キャリアにならない不純物を含むもの	including impurities which do not act as carriers
+H10D  30/67 103 Z	3	0	5F110	H10D  30/67	1672	その他のもの	Others
+H10D  30/67 104 \	3	3	5F110	H10D  30/67	21	パッシベーションに特徴のあるもの	characterized by passivation
+H10D  30/67 104 A	3	0	5F110	H10D  30/67	4653	絶縁膜，例．構造，製法，材料，に特徴のあるもの	characterized by insulation films, e.g., the structures, the manufacturing methods, the materials
+H10D  30/67 104 B	3	0	5F110	H10D  30/67	1426	遮光膜，例．構造，製法，材料，に特徴のあるもの	characterized by light shielding films, e.g., the structures, the manufacturing methods, the materials
+H10D  30/67 104 Z	3	0	5F110	H10D  30/67	15	その他のもの	Others
+H10D  30/67 201 \	3	3	5F110	H10D  30/67	821	結晶方位の選択に特徴のあるもの	characterized by the selection of crystal orientation
+H10D  30/67 202 \	3	3	5F110	H10D  30/67	1436	分離領域に特徴のあるもの	characterized by isolation regions
+H10D  30/67 203 \	3	3	5F110	H10D  30/67	1136	特に動作に特徴のあるもの	characterized by operation
+H10D  30/67 204 \	3	3	5F110	H10D  30/67	27	保護装置；保護回路	protective devices:protection circuits
+H10D  30/67 204 A	3	0	5F110	H10D  30/67	799	静電破壊防止，例．イオン注入時，ラビリング時の静電破壊防止	electrostatic breakdown prevention, e.g., electric breakdown prevention when ion implantation, labyrinth processes are performed
+H10D  30/67 204 Z	3	0	5F110	H10D  30/67	207	その他のもの	Others
+H10D  30/67 205 \	3	3	5F110	H10D  30/67	139	ＩＳＦＥＴ	ISFET
+H10D  30/67 206 \	3	3	5F110	H10D  30/67	7	その他の構造	Other structures
+H10D  30/67 206 A	3	0	5F110	H10D  30/67	909	縦型構造	vertical structures
+H10D  30/67 206 B	3	0	5F110	H10D  30/67	675	キンク防止	kink suppression
+H10D  30/67 206 C	3	0	5F110	H10D  30/67	4213	表面層を含む基板に特徴のあるもの	characterized by the substrates including surface layers
+H10D  30/67 206 D	3	1	5F110	H10D  30/67	524	基板がＳＯＳからなるもの	substrates composed of SOS
+H10D  30/67 206 Z	3	0	5F110	H10D  30/67	523	その他のもの	Others
+H10D  30/68  \	2	2	5F101	H10D  30/68	14728	フローティングゲートを有する絶縁ゲート電界効果トランジスタ［２０２５．０１］	Floating-gate IGFETs[2025.01]
+H10D  30/69  \	2	2	5F101	H10D  30/69	10212	電荷トラッピングゲート絶縁体を有する絶縁ゲート電界効果トランジスタ，例．ＭＮＯＳトランジスタ［２０２５．０１］	IGFETs having charge trapping gate insulators, e.g. MNOS transistors[2025.01]
+H10D  30/80  \	1	1	5F102	H10D  30/80	3026	整流接合ゲート電極を有する電界効果トランジスタ（Ｈ１０Ｄ３０／４０が優先）［２０２５．０１］	FETs having rectifying junction gate electrodes (H10D 30/40 takes precedence)[2025.01]
+H10D  30/80  A	1	0	5F102	H10D  30/80	708	素子の種類	kinds of elements
+H10D  30/80  S	1	1	5F102	H10D  30/80	119	横型ＳＩＴ	lateral SIT
+H10D  30/80  V	1	1	5F102	H10D  30/80	2387	縦型ＦＥＴ	vertical FET
+H10D  30/80  W	1	0	5F102	H10D  30/80	502	Ｄｕａｌ　Ｇａｔｅ構造を有するもの	having Dual Gate structures
+H10D  30/80  P	1	0	5F102	H10D  30/80	393	保護機能を有するもの	having protective functions
+H10D  30/80  Z	1	0	5F102	H10D  30/80	228	その他のもの	Others
+H10D  30/83  \	2	2	5F102	H10D  30/83	2596	ＰＮ接合ゲート電極を有する電界効果トランジスタ［２０２５．０１］	FETs having PN junction gate electrodes[2025.01]
+H10D  30/87  \	2	2	5F102	H10D  30/87	0	ショットキーゲート電極を有する電界効果トランジスタ，例．金属−半導体電界効果トランジスタ［ＭＥＳＦＥＴ］［２０２５．０１］	FETs having Schottky gate electrodes, e.g. metal-semiconductor FETs [MESFET][2025.01]
+H10D  30/87  B	2	0	5F102	H10D  30/87	3595	ＭＥＳ型ＦＥＴ	MES type FET
+H10D  30/87  F	2	1	5F102	H10D  30/87	4455	電極に特徴を有するもの	characterized by electrodes
+H10D  30/87  S	2	2	5F102	H10D  30/87	0	オーミック電極，例．ソース電極，ドレイン電極	ohmic electrodes, e.g., source electrodes, drain electrodes
+H10D  30/87  K	2	2	5F102	H10D  30/87	123	斜め蒸着の利用	using oblique deposition
+H10D  30/87  L	2	2	5F102	H10D  30/87	837	電極平面構造	planar construction of electrodes
+H10D  30/87  M	2	2	5F102	H10D  30/87	474	ゲート電極材料	materials for gate electrodes
+H10D  30/87  U	2	2	5F102	H10D  30/87	563	裏面電極取出し	removal of backside electrodes
+H10D  30/87  Q	2	1	5F102	H10D  30/87	548	表面高抵抗層を有するもの	having high resistance layers on the surfaces
+H10D  30/87  R	2	1	5F102	H10D  30/87	330	整合回路，帰還回路等を一体化したもの	integrating matching circuits with feedback circuits
+H10D  30/87  G	2	1	5F102	H10D  30/87	394	実装	implementation
+H10D  30/87  E	2	1	5F102	H10D  30/87	2050	集積化	integration
+H10D  30/87  Z	2	0	5F102	H10D  30/87	0	その他のもの	Others
+H10D  44/00  \	0	0	4M118	H10D  44/00	25	電荷転送装置［２０２５．０１］	Charge transfer devices[2025.01]
+H10D  44/00  D	0	0	4M118	H10D  44/00	105	構造	structures
+H10D  44/00  A	0	1	4M118	H10D  44/00	1626	転送部	transfer sections
+H10D  44/00  B	0	2	4M118	H10D  44/00	261	駆動回路	drive circuits
+H10D  44/00  C	0	1	4M118	H10D  44/00	1101	入力部；出力部；再成部	input parts;output parts;reproduction parts
+H10D  44/00  E	0	0	4M118	H10D  44/00	70	応用素子	applied elements
+H10D  44/00  F	0	1	4M118	H10D  44/00	82	シフトレジスタ；遅延線	shift registers;delay lines
+H10D  44/00  G	0	1	4M118	H10D  44/00	184	記憶装置	memory devices
+H10D  44/00  H	0	1	4M118	H10D  44/00	108	フィルタ	filters
+H10D  44/00  J	0	1	4M118	H10D  44/00	133	撮像素子	image sensors
+H10D  44/00  K	0	0	4M118	H10D  44/00	13	超音波駆動によるもの	by ultrasonic wave drives
+H10D  44/00  L	0	0	4M118	H10D  44/00	103	バケット・ブリゲート素子	bucket brigade elements
+H10D  44/00  Z	0	0	4M118	H10D  44/00	19	その他のもの	Others
+H10D  44/01  \	1	1	4M118	H10D  44/01	863	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  44/40  \	1	1	4M118	H10D  44/40	0	電荷結合装置［ＣＣＤ］［２０２５．０１］	Charge-coupled devices [CCD][2025.01]
+H10D  44/45  \	2	2	4M118	H10D  44/45	0	絶縁ゲート電極により生じる電界効果をもつもの［２０２５．０１］	having field effect produced by insulated gate electrodes[2025.01]
+H10D  48/00  \	0	0	5F123	H10D  48/00	104	グループＨ１０Ｄ１／００〜Ｈ１０Ｄ４４／００に包含されない個々の装置［２０２５．０１］	Individual devices not covered by groups H10D 1/00-H10D 44/00[2025.01]
+H10D  48/00 101 \	1	1	5F123	H10D  48/00	618	デバイスシミュレーション	device simulation
+H10D  48/01  \	1	1	5F123	H10D  48/01	0	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  48/04  \	2	2	5F123	H10D  48/04	83	結合していない形態のセレンまたはテルルからなる本体を有する装置のもの［２０２５．０１］	of devices having bodies comprising selenium or tellurium in uncombined form[2025.01]
+H10D  48/042  \	3	3	5F123	H10D  48/042	18	基体板の処理［２０２５．０１］	Preparation of foundation plates[2025.01]
+H10D  48/043  \	3	3	5F123	H10D  48/043	3	セレンまたはテルルの前処理，基体板への適用，または続いての結合処理［２０２５．０１］	Preliminary treatment of the selenium or tellurium, its application to foundation plates or the subsequent treatment of the combination[2025.01]
+H10D  48/044  \	4	4	5F123	H10D  48/044	0	セレンまたはテルルの導電状態への変換［２０２５．０１］	Conversion of the selenium or tellurium to the conductive state[2025.01]
+H10D  48/045  \	4	4	5F123	H10D  48/045	2	導電性にした後のセレンまたはテルル層の表面処理［２０２５．０１］	Treatment of the surface of the selenium or tellurium layer after having been made conductive[2025.01]
+H10D  48/046  \	4	4	5F123	H10D  48/046	2	絶縁分離層の形成［２０２５．０１］	Provision of discrete insulating layers[2025.01]
+H10D  48/047  \	3	3	5F123	H10D  48/047	4	基体板へ適用した後のセレンまたはテルルの露出面への電極の形成［２０２５．０１］	Application of an electrode to the exposed surface of the selenium or tellurium after the selenium or tellurium has been applied to foundation plates[2025.01]
+H10D  48/048  \	3	3	5F123	H10D  48/048	3	完全装置の処理，例．障壁形成のためのエレクトロフォーミングによるもの［２０２５．０１］	Treatment of the complete device, e.g. by electroforming to form a barrier[2025.01]
+H10D  48/049  \	4	4	5F123	H10D  48/049	3	エージング［２０２５．０１］	Ageing[2025.01]
+H10D  48/07  \	2	2	5F123	H10D  48/07	2	酸化第一銅［Ｃｕ２Ｏ］またはヨウ化第一銅［Ｃｕｌ］からなる本体を有する装置のもの［２０２５．０１］	of devices having bodies comprising cuprous oxide [Cu2O] or cuprous iodide [CuI][2025.01]
+H10D  48/30  \	1	1	5F123	H10D  48/30	1212	電流または電圧により制御される装置［２０２５．０１］	Devices controlled by electric currents or voltages[2025.01]
+H10D  48/30  S	1	0	5F123	H10D  48/30	395	単一電子トンネリング，例．クーロンブロッケード効果，を利用するもの	using single electron tunneling, e.g., coulomb blockade effects
+H10D  48/30  U	1	1	5F123	H10D  48/30	101	集積化，回路構成に特徴のあるもの	characterized by integration, circuit structures
+H10D  48/30  T	1	0	5F123	H10D  48/30	383	トンネル効果を利用するもの（Ｓが優先）	using tunneling effects (S takes precedence)
+H10D  48/30  E	1	0	5F123	H10D  48/30	106	電子放出素子，電界放出素子，例．冷陰極を用いた放出素子	electron emission devices, electric field emission elements, e.g., emission elements using cold cathode fluorescent
+H10D  48/30  C	1	0	5F123	H10D  48/30	85	制御手段に特徴のあるもの	characterized by control methods
+H10D  48/30  L	1	1	5F123	H10D  48/30	53	光を用いるもの	using light
+H10D  48/30  M	1	1	5F123	H10D  48/30	66	磁界を用いるもの	using magnetic fields
+H10D  48/30  Z	1	0	5F123	H10D  48/30	352	その他のもの	Others
+H10D  48/32  \	2	2	5F203	H10D  48/32	1026	整流，増幅またはスイッチされる電流を流さない電極に与えられる電流または電位のみにより制御される装置［２０２５．０１］	Devices controlled by only the electric current supplied, or only the electric potential applied, to an electrode which does not carry the current to be rectified, amplified or switched[2025.01]
+H10D  48/34  \	3	3	5F203	H10D  48/34	185	バイポーラ装置［２０２５．０１］	Bipolar devices[2025.01]
+H10D  48/36  \	3	3	5F140	H10D  48/36	527	ユニポーラ装置［２０２５．０１］	Unipolar devices[2025.01]
+H10D  48/38  \	2	2	5F087	H10D  48/38	59	整流，増幅，発振またはスイッチされる電流を流す１つ以上の電極に与えられる電流または電位の変化のみにより制御される装置［２０２５．０１］	Devices controlled only by variation of the electric current supplied, or only the electric potential applied, to one or more of the electrodes carrying the current to be rectified, amplified, oscillated or switched[2025.01]
+H10D  48/38  A	2	0	5F087	H10D  48/38	49	非単結晶を用いているもの	using non-single crystal
+H10D  48/38  F	2	0	5F087	H10D  48/38	72	絶縁層を用いているもの	using insulation layers
+H10D  48/38  S	2	0	5F087	H10D  48/38	47	超格子構造を用いているもの	using superlattice structures
+H10D  48/38  Z	2	0	5F087	H10D  48/38	320	その他のもの	Others
+H10D  48/40  \	1	1	5F092	H10D  48/40	29	磁界により制御される装置［２０２５．０１］	Devices controlled by magnetic fields[2025.01]
+H10D  48/40  D	1	0	5F092	H10D  48/40	95	ＳＭＤ	SMD
+H10D  48/40  T	1	0	5F092	H10D  48/40	61	ＳＭＴ	SMT
+H10D  48/40  Z	1	0	5F092	H10D  48/40	2887	その他のもの	Others
+H10D  48/50  \	1	1	4M112	H10D  48/50	89	機械的力，例．圧力，により制御される装置［２０２５．０１］	Devices controlled by mechanical forces, e.g. pressure[2025.01]
+H10D  48/50  A	1	0	4M112	H10D  48/50	3260	機械的力―電気変換	conversion of mechanical force into electricity
+H10D  48/50  B	1	0	4M112	H10D  48/50	3133	シリコンダイアフラム	silicon diaphragms
+H10D  48/50  C	1	0	4M112	H10D  48/50	196	感圧ＦＥＴ	pressure sensitive FET
+H10D  48/50  D	1	0	4M112	H10D  48/50	94	感圧ダイオード	pressure sensitive diodes
+H10D  48/50  E	1	0	4M112	H10D  48/50	74	くびれ型感圧サイリスタ	constricted, pressure sensitive thyristors
+H10D  48/50  F	1	0	4M112	H10D  48/50	132	感圧トランジスタ	pressure sensitive transistors
+H10D  48/50  G	1	0	4M112	H10D  48/50	124	加圧機構	pressurizing mechanisms
+H10D  48/50  H	1	0	4M112	H10D  48/50	86	ＳｎＯ２；深い準位を有するもの	SnO2;having deep levels
+H10D  48/50  J	1	0	4M112	H10D  48/50	78	超音波変換	conversion of ultrasonic waves
+H10D  48/50  Z	1	0	4M112	H10D  48/50	4620	その他のもの	Others
+H10D  62/00  \	0	0	5F121	H10D  62/00	31	電位障壁を有する装置の半導体本体，またはその領域［２０２５．０１］	Semiconductor bodies, or regions thereof, of devices having potential barriers[2025.01]
+H10D  62/10  \	1	1	5F121	H10D  62/10	1532	半導体本体の領域の形状，相対的な大きさまたは配置；半導体本体の形状［２０２５．０１］	Shapes, relative sizes or dispositions of the regions of the semiconductor bodies; Shapes of the semiconductor bodies[2025.01]
+H10D  62/10 101 \	2	2	5F139	H10D  62/10	1	耐圧構造	pressure proof structures
+H10D  62/10 101 M	2	0	5F139	H10D  62/10	920	溝または傾斜面，例．メサ，ベベル，を形成するもの	forming grooves or tilted surfaces,e.g., mesa, bevels
+H10D  62/10 101 F	2	0	5F139	H10D  62/10	2001	フィールドプレートを用いるもの	using field plates
+H10D  62/10 101 S	2	0	5F139	H10D  62/10	132	半絶縁性膜，高抵抗膜を用いるもの	using semi-insulating films, high resistance films
+H10D  62/10 101 D	2	0	5F139	H10D  62/10	1513	半導体領域に特徴のあるもの，例．不純物濃度，形状，寸法，配置，に特徴のあるもの（Ｒが優先）	characterized by semiconductor regions, e.g., characterized by concentrations, shapes, sizes, arrangements of impurities (R takes precedence)
+H10D  62/10 101 G	2	1	5F139	H10D  62/10	2392	ガードリング，電界制限リングを用いるもの	using guard rings, electric field limiting rings
+H10D  62/10 101 R	2	0	5F139	H10D  62/10	240	断面，平面等の曲率を制御するもの	limiting curvature, such as the curvature of a section or a plane
+H10D  62/10 101 V	2	0	5F139	H10D  62/10	3029	縦型素子用のもの	for vertical devices
+H10D  62/10 101 Z	2	0	5F139	H10D  62/10	88	その他のもの	Others
+H10D  62/10 201 \	2	2	5F121	H10D  62/10	2	特殊構造	special structures
+H10D  62/10 201 N	2	0	5F121	H10D  62/10	1528	ナノ構造体，例．原子レベル，分子レベルの操作によるもの	by manipulation of nanostructures, e.g., atom-level, molecular-level
+H10D  62/10 201 B	2	0	5F121	H10D  62/10	93	立体型素子，例．球状半導体	three-dimensional elements, e.g., spherical semiconductors
+H10D  62/10 201 Z	2	0	5F121	H10D  62/10	203	その他のもの	Others
+H10D  62/13  \	2	2	5F121	H10D  62/13	408	整流，増幅またはスイッチされる電流を流す電極と接続されている半導体領域，例．ソースまたはドレイン領域［２０２５．０１］	Semiconductor regions connected to electrodes carrying current to be rectified, amplified or switched, e.g. source or drain regions[2025.01]
+H10D  62/17  \	2	2	5F121	H10D  62/17	34	整流，増幅またはスイッチされる電流を流さない電極と接続されている半導体領域，例．チャネル領域［２０２５．０１］	Semiconductor regions connected to electrodes not carrying current to be rectified, amplified or switched, e.g. channel regions[2025.01]
+H10D  62/40  \	1	1	5F121	H10D  62/40	232	結晶構造［２０２５．０１］	Crystalline structures[2025.01]
+H10D  62/50  \	1	1	5F121	H10D  62/50	16	物理的不完全性［２０２５．０１］	Physical imperfections[2025.01]
+H10D  62/53  \	2	2	5F121	H10D  62/53	19	不完全性が半導体本体の内部にあるもの［２０２５．０１］	the imperfections being within the semiconductor body[2025.01]
+H10D  62/57  \	2	2	5F121	H10D  62/57	3	不完全性が半導体本体の表面にあるもの，例．粗面を有する半導体本体［２０２５．０１］	the imperfections being on the surface of the semiconductor body, e.g. the body having a roughened surface[2025.01]
+H10D  62/60  \	1	1	5F121	H10D  62/60	73	不純物の分布または濃度［２０２５．０１］	Impurity distributions or concentrations[2025.01]
+H10D  62/80  \	1	1	5F121	H10D  62/80	547	材料に特徴のあるもの［２０２５．０１］	characterised by the materials[2025.01]
+H10D  62/81  \	2	2	5F121	H10D  62/81	172	量子閉じ込め効果を示す構造のもの，例．単一量子井戸；周期的または準周期的な電位変化をもつ構造のもの［２０２５．０１］	of structures exhibiting quantum-confinement effects, e.g. single quantum wells; of structures having periodic or quasi-periodic potential variation[2025.01]
+H10D  62/81  W	2	0	5F121	H10D  62/81	423	量子井戸	quantum wells
+H10D  62/81  L	2	0	5F121	H10D  62/81	597	量子細線	quantum wires
+H10D  62/81  D	2	0	5F121	H10D  62/81	825	量子ドット；量子島	quantum dots;quantum islands
+H10D  62/81  Z	2	0	5F121	H10D  62/81	0	その他のもの	Others
+H10D  62/815  \	3	3	5F121	H10D  62/815	163	周期的または準周期的な電位変化をもつ構造のもの，例．超格子または多重量子井戸［ＭＱＷ］［２０２５．０１］	of structures having periodic or quasi-periodic potential variation, e.g. superlattices or multiple quantum wells [MQW][2025.01]
+H10D  62/82  \	2	2	5F121	H10D  62/82	71	ヘテロ接合［２０２５．０１］	Heterojunctions[2025.01]
+H10D  62/822  \	3	3	5F121	H10D  62/822	334	ＩＶ族材料同士のヘテロ接合のみを備えるもの，例．Ｓｉ／Ｇｅヘテロ接合［２０２５．０１］	comprising only Group IV materials heterojunctions, e.g. Si/Ge heterojunctions[2025.01]
+H10D  62/824  \	3	3	5F121	H10D  62/824	2076	ＩＩＩーＶ族材料同士のヘテロ接合のみを備えるもの，例．ＧａＮ／ＡｌＧａＮヘテロ接合［２０２５．０１］	comprising only Group III-V materials heterojunctions, e.g. GaN/AlGaN heterojunctions[2025.01]
+H10D  62/826  \	3	3	5F121	H10D  62/826	13	ＩＩーＶＩ族材料同士のヘテロ接合のみを備えるもの，例．ＣｄＴｅ／ＨｇＴｅヘテロ接合［２０２５．０１］	comprising only Group II-VI materials heterojunctions, e.g. CdTe/HgTe heterojunctions[2025.01]
+H10D  62/83  \	2	2	5F121	H10D  62/83	259	ＩＶ族材料であるもの，例．ＢドープＳｉまたはアンドープＧｅ［２０２５．０１］	being Group IV materials, e.g. B-doped Si or undoped Ge[2025.01]
+H10D  62/832  \	3	3	5F121	H10D  62/832	331	２つ以上の元素からなるＩＶ族材料であるもの，例．ＳｉＧｅ［２０２５．０１］	being Group IV materials comprising two or more elements, e.g. SiGe[2025.01]
+H10D  62/834  \	3	3	5F121	H10D  62/834	80	さらにドーパントにも特徴のあるもの［２０２５．０１］	further characterised by the dopants[2025.01]
+H10D  62/84  \	2	2	5F121	H10D  62/84	3	セレンまたはテルルのみであるもの［２０２５．０１］	being selenium or tellurium only[2025.01]
+H10D  62/85  \	2	2	5F121	H10D  62/85	390	ＩＩＩーＶ族材料であるもの，例．ＧａＡｓ［２０２５．０１］	being Group III-V materials, e.g. GaAs[2025.01]
+H10D  62/852  \	3	3	5F121	H10D  62/852	563	３つ以上の元素からなるＩＩＩーＶ族材料であるもの，例．ＡｌＧａＮまたはＩｎＡｓＳｂＰ［２０２５．０１］	being Group III-V materials comprising three or more elements, e.g. AlGaN or InAsSbP[2025.01]
+H10D  62/854  \	3	3	5F121	H10D  62/854	71	さらにドーパントにも特徴のあるもの［２０２５．０１］	further characterised by the dopants[2025.01]
+H10D  62/86  \	2	2	5F121	H10D  62/86	48	ＩＩーＶＩ族材料であるもの，例．ＺｎＯ［２０２５．０１］	being Group II-VI materials, e.g. ZnO[2025.01]
+H10D  62/862  \	3	3	5F121	H10D  62/862	41	３つ以上の元素からなるＩＩーＶＩ族材料であるもの，例．ＣｄＺｎＴｅ［２０２５．０１］	being Group II-VI materials comprising three or more elements, e.g. CdZnTe[2025.01]
+H10D  62/864  \	3	3	5F121	H10D  62/864	11	さらにドーパントにも特徴のあるもの［２０２５．０１］	further characterised by the dopants[2025.01]
+H10D  64/00  \	0	0	4M104	H10D  64/00	893	電位障壁を有する装置の電極［２０２５．０１］	Electrodes of devices having potential barriers[2025.01]
+H10D  64/01  \	1	1	4M104	H10D  64/01	0	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  64/01  A	1	0	4M104	H10D  64/01	2148	前処理に関するもの	in relation to pretreatment
+H10D  64/01  B	1	0	4M104	H10D  64/01	1339	後処理に関するもの	in relation to post treatment
+H10D  64/01  C	1	0	4M104	H10D  64/01	141	試験または検査に関するもの	in relation to tests or inspections
+H10D  64/01  D	1	0	4M104	H10D  64/01	356	露光処理に特徴を有するもの	characterized by exposure processes
+H10D  64/01  E	1	0	4M104	H10D  64/01	3217	エッチング，リフトオフまたは研磨によるもの	by etching, lift off or polishing
+H10D  64/01  K	1	0	4M104	H10D  64/01	321	部分的変質法によるもの	by partial transformation methods
+H10D  64/01  L	1	0	4M104	H10D  64/01	3541	電極取出用の孔開に関するもの	in relation to making holes for removal of electrodes
+H10D  64/01  M	1	0	4M104	H10D  64/01	4158	導電層の形成に関するもの	in relation to the formation of electricity conducting layers
+H10D  64/01  S	1	0	4M104	H10D  64/01	1186	絶縁層の形成に関するもの	in relation to the formation of insulation layers
+H10D  64/01  Z	1	0	4M104	H10D  64/01	1224	その他のもの	Others
+H10D  64/20  \	1	1	4M104	H10D  64/20	503	形状，相対的な大きさまたは配置に特徴のある電極［２０２５．０１］	Electrodes characterised by their shapes, relative sizes or dispositions[2025.01]
+H10D  64/20  F	1	0	4M104	H10D  64/20	1721	フィールドプレート	field plates
+H10D  64/20  Z	1	0	4M104	H10D  64/20	1	その他のもの	Others
+H10D  64/23  \	2	2	4M104	H10D  64/23	91	整流，増幅，発振またはスイッチされる電流を流す電極，例．ソース，ドレイン，アノードまたはカソード［２０２５．０１］	Electrodes carrying the current to be rectified, amplified, oscillated or switched, e.g. sources, drains, anodes or cathodes[2025.01]
+H10D  64/23  D	2	0	4M104	H10D  64/23	3606	ダイオード用のもの	for diodes
+H10D  64/23  B	2	0	4M104	H10D  64/23	2554	バイポーラトランジスタ用のもの	for bipolar transistors
+H10D  64/23  M	2	0	4M104	H10D  64/23	9160	ＭＩＳまたはＭＯＳトランジスタ用のもの	for MISor MOS transistors
+H10D  64/23  J	2	0	4M104	H10D  64/23	3559	接合型またはＭＥＳ型用のもの	for junction types or MES types
+H10D  64/23  Z	2	0	4M104	H10D  64/23	6841	その他のもの	Others
+H10D  64/27  \	2	2	4M104	H10D  64/27	76	整流，増幅，発振またはスイッチされる電流を流さない電極，例．ゲート［２０２５．０１］	Electrodes not carrying the current to be rectified, amplified, oscillated or switched, e.g. gates[2025.01]
+H10D  64/27  G	2	0	4M104	H10D  64/27	8962	ＭＩＳまたはＭＯＳゲート用のもの	for MIS or MOS gates
+H10D  64/27  Z	2	0	4M104	H10D  64/27	2194	その他のもの	Others
+H10D  64/60  \	1	1	4M104	H10D  64/60	127	材料に特徴のある電極［２０２５．０１］	Electrodes characterised by their materials[2025.01]
+H10D  64/62  \	2	2	4M104	H10D  64/62	36	半導体とオーミック接続された電極［２０２５．０１］	Electrodes ohmically coupled to a semiconductor[2025.01]
+H10D  64/62  A	2	0	4M104	H10D  64/62	2155	シリコンを用いているもの	using silicon
+H10D  64/62  D	2	1	4M104	H10D  64/62	810	シリコン電極上にシリサイドが形成されているもの	with silicide formed on silicon electrodes
+H10D  64/62  R	2	0	4M104	H10D  64/62	7666	金属または金属化合物を用いているもの	using metals or metal compounds
+H10D  64/62  S	2	0	4M104	H10D  64/62	4079	シリサイドを用いているもの	using silicide
+H10D  64/62  B	2	0	4M104	H10D  64/62	6604	半導体本体がシリコン以外のもの	semiconductor bodies made of the materials other than silicon
+H10D  64/62  Z	2	0	4M104	H10D  64/62	1151	その他のもの	Others
+H10D  64/64  \	2	2	4M104	H10D  64/64	4863	半導体に対するショットキー障壁を備える電極［２０２５．０１］	Electrodes comprising a Schottky barrier to a semiconductor[2025.01]
+H10D  64/64  A	2	0	4M104	H10D  64/64	68	シリコンを用いているもの	using silicon
+H10D  64/64  D	2	1	4M104	H10D  64/64	8	シリコン電極上にシリサイドが形成されているもの	with silicide formed on silicon electrodes
+H10D  64/64  R	2	0	4M104	H10D  64/64	700	金属または金属化合物を用いているもの	using metals or metal compounds
+H10D  64/64  S	2	0	4M104	H10D  64/64	351	シリサイドを用いているもの	using silicide
+H10D  64/64  B	2	0	4M104	H10D  64/64	3970	半導体本体がシリコン以外のもの	semiconductor bodies made of the materials other than silicon
+H10D  64/64  Z	2	0	4M104	H10D  64/64	81	その他のもの	Others
+H10D  64/66  \	2	2	4M104	H10D  64/66	10	絶縁体を介して半導体と容量結合された導体を有する電極，例．ＭＩＳ電極［２０２５．０１］	Electrodes having a conductor capacitively coupled to a semiconductor by an insulator, e.g. MIS electrodes[2025.01]
+H10D  64/66  A	2	0	4M104	H10D  64/66	1459	シリコンを用いているもの	using silicon
+H10D  64/66  D	2	1	4M104	H10D  64/66	1127	シリコン電極上にシリサイドが形成されているもの	with silicide formed on silicon electrodes
+H10D  64/66  R	2	0	4M104	H10D  64/66	2950	金属または金属化合物を用いているもの	using metals or metal compounds
+H10D  64/66  S	2	0	4M104	H10D  64/66	2185	シリサイドを用いているもの	using silicide
+H10D  64/66  B	2	0	4M104	H10D  64/66	2179	半導体本体がシリコン以外のもの	semiconductor bodies made of the materials other than silicon
+H10D  64/66  Z	2	0	4M104	H10D  64/66	213	その他のもの	Others
+H10D  64/68  \	3	3	4M104	H10D  64/68	4647	絶縁体，例．ゲート絶縁体，に特徴のあるもの［２０２５．０１］	characterised by the insulator, e.g. by the gate insulator[2025.01]
+H10D  80/00  \	0	0	5F037	H10D  80/00	1	このサブクラスに包含される，少なくとも１つの装置を備える，複数の装置の組立体［２０２５．０１］	Assemblies of multiple devices comprising at least one device covered by this subclass[2025.01]
+H10D  80/20  \	1	1	5F037	H10D  80/20	3	その少なくとも１つの装置がグループＨ１０Ｄ１／００〜Ｈ１０Ｄ４８／００に包含されるもの，例．キャパシタ，パワー電界効果トランジスタまたはショットキーダイオードを含む組立体［２０２５．０１］	the at least one device being covered by groups H10D 1/00-H10D 48/00, e.g. assemblies comprising capacitors, power FETs or Schottky diodes[2025.01]
+H10D  80/30  \	1	1	5F037	H10D  80/30	0	その少なくとも１つの装置がグループＨ１０Ｄ８４／００〜Ｈ１０Ｄ８６／００に包含されるもの，例．集積回路のプロセッサのチップを含む組立体［２０２５．０１］	the at least one device being covered by groups H10D 84/00-H10D 86/00, e.g. assemblies comprising integrated circuit processor chips[2025.01]
+H10D  84/00  \	0	0	5F081	H10D  84/00	851	半導体層のみを備える半導体基板内または上，例．Ｓｉウェーハ上またはＳｉウェーハ上のＧａＡｓ上，に形成される集積装置［２０２５．０１］	Integrated devices formed in or on semiconductor substrates that comprise only semiconducting layers, e.g. on Si wafers or on GaAs-on-Si wafers[2025.01]
+H10D  84/01  \	1	1	5F081	H10D  84/01	0	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  84/02  \	2	2	5F081	H10D  84/02	0	材料に基づく技術を用いることに特徴のあるもの［２０２５．０１］	characterised by using material-based technologies[2025.01]
+H10D  84/03  \	3	3	5F081	H10D  84/03	0	ＩＶ族技術を用いるもの，例．Ｓｉ技術またはＳｉＣ技術［２０２５．０１］	using Group IV technology, e.g. silicon technology or silicon-carbide [SiC] technology[2025.01]
+H10D  84/05  \	3	3	5F081	H10D  84/05	0	ＩＩＩーＶ族技術を用いるもの［２０２５．０１］	using Group III-V technology[2025.01]
+H10D  84/07  \	3	3	5F081	H10D  84/07	0	ＩＩーＶＩ族技術を用いるもの［２０２５．０１］	using Group II-VI technology[2025.01]
+H10D  84/08  \	3	3	5F081	H10D  84/08	0	複数の技術の組み合わせを用いるもの，例．Ｓｉ技術とＳｉＣ技術の両方を用いるもの，またはＳｉ技術とＩＩＩーＶ族技術を用いるもの［２０２５．０１］	using combinations of technologies, e.g. using both Si and SiC technologies or using both Si and Group III-V technologies[2025.01]
+H10D  84/40  \	1	1	5F048	H10D  84/40	372	グループＨ１０Ｄ１２／００またはＨ１０Ｄ３０／００に包含される少なくとも１つの構成部品と，グループＨ１０Ｄ１０／００またはＨ１０Ｄ１８／００に包含される少なくとも１つの構成部品との集積に特徴のあるもの，例．バイポーラトランジスタと絶縁ゲート電界効果トランジスタの集積［２０２５．０１］	characterised by the integration of at least one component covered by groups H10D 12/00 or H10D 30/00 with at least one component covered by groups H10D 10/00 or H10D 18/00, e.g. integration of IGFETs with BJTs[2025.01]
+H10D  84/40  A	1	0	5F048	H10D  84/40	947	全体，例．複数素子の配置または製法，に特徴のあるもの	characterized by the whole, e.g., the arrangements or manufacturing methods of plural elements
+H10D  84/40  B	1	0	5F048	H10D  84/40	828	バイポーラトランジスタの構成に特徴のあるもの（Ｃ〜Ｊが優先）	characterized by the structures of bipolar transistors (C~J take precedence)
+H10D  84/40  C	1	0	5F048	H10D  84/40	321	素子分離	isolation of elements
+H10D  84/40  D	1	0	5F048	H10D  84/40	116	ラッチアップ防止	latch-up prevention
+H10D  84/40  E	1	0	5F048	H10D  84/40	401	基板；ウェル；埋込み層	substrates;wells;buried layers
+H10D  84/40  F	1	0	5F048	H10D  84/40	183	コンタクト；電極；配線	contacts;electrodes;wiring
+H10D  84/40  G	1	0	5F048	H10D  84/40	357	回路構成に特徴のあるもの	characterized by circuit structures
+H10D  84/40  H	1	1	5F048	H10D  84/40	230	バイＭＯＳ複合機能素子	BiMOS composite function element
+H10D  84/40  J	1	1	5F048	H10D  84/40	333	特定用途用，例．論理回路，メモリ	for specific purposes, e.g., logic circuits, memories
+H10D  84/40  Z	1	0	5F048	H10D  84/40	114	その他のもの	Others
+H10D  84/60  \	1	1	5F082	H10D  84/60	0	グループＨ１０Ｄ１０／００またはＨ１０Ｄ１８／００に包含される少なくとも１つの構成部品の集積に特徴のあるもの，例．バイポーラトランジスタの集積（Ｈ１０Ｄ８４／４０が優先）［２０２５．０１］	characterised by the integration of at least one component covered by groups H10D 10/00 or H10D 18/00, e.g. integration of BJTs (H10D 84/40 takes precedence)[2025.01]
+H10D  84/60 101 \	2	2	5F082	H10D  84/60	194	サイリスタを集積するもの	integrating thyristors
+H10D  84/60 201 \	2	2	5F082	H10D  84/60	38	バイポーラトランジスタと他の素子を集積するもの	integrating bipolar transistors with other elements
+H10D  84/60 201 U	2	0	5F082	H10D  84/60	1007	バイポーラトランジスタとユニポーラトランジスタからなるもの	comprised of bipolar transistors and unipolar transistors
+H10D  84/60 201 S	2	0	5F082	H10D  84/60	251	バイポーラトランジスタとＳＩＴからなる論理回路	logic circuits composed of bipolar transistors and SIT
+H10D  84/60 201 D	2	0	5F082	H10D  84/60	1781	バイポーラトランジスタとインダクタ，キャパシタ，抵抗またはダイオードからなるもの	composed of bipolar transistors and inductors, capacitors, resistance or diodes
+H10D  84/60 201 P	2	0	5F082	H10D  84/60	826	保護回路	protection circuits
+H10D  84/60 201 Z	2	0	5F082	H10D  84/60	992	その他のもの	Others
+H10D  84/60 202 \	2	2	5F082	H10D  84/60	62	バイポーラトランジスタのみを集積するもの	integrating only bipolar transistors
+H10D  84/60 202 B	2	0	5F082	H10D  84/60	331	バイポーラトランジスタからなるもの（Ｌ〜Ｄが優先）	composed of bipolar transistors (L~D take precedence)
+H10D  84/60 202 L	2	0	5F082	H10D  84/60	474	バイポーラトランジスタからなる論理回路	logic circuits composed of bipolar transistors
+H10D  84/60 202 T	2	0	5F082	H10D  84/60	237	特性が異なるバイポーラトランジスタからなるもの	composed of bipolar transistors with different traits
+H10D  84/60 202 D	2	0	5F082	H10D  84/60	349	ダーリントン接続	Darlington junctions
+H10D  84/60 202 Z	2	0	5F082	H10D  84/60	96	その他のもの	Others
+H10D  84/63  \	2	2	5F082	H10D  84/63	241	縦型バイポーラトランジスタと横型バイポーラトランジスタとの組み合わせ［２０２５．０１］	Combinations of vertical and lateral BJTs[2025.01]
+H10D  84/65  \	2	2	5F082	H10D  84/65	421	集積注入論理［ＩＩＬ］［２０２５．０１］	Integrated injection logic[2025.01]
+H10D  84/65  J	2	0	5F082	H10D  84/65	344	インジェクタ	injectors
+H10D  84/65  N	2	0	5F082	H10D  84/65	349	インバータ	inverters
+H10D  84/65  W	2	0	5F082	H10D  84/65	415	ＩＩＬを含む回路	circuits including IIL
+H10D  84/65  Z	2	0	5F082	H10D  84/65	0	その他のもの	Others
+H10D  84/67  \	2	2	5F082	H10D  84/67	628	相補型バイポーラトランジスタ［２０２５．０１］	Complementary BJTs[2025.01]
+H10D  84/80  \	1	1	5F048	H10D  84/80	1	グループＨ１０Ｄ１２／００またはＨ１０Ｄ３０／００に包含される少なくとも１つの構成部品の集積に特徴のあるもの，例．絶縁ゲート電界効果トランジスタの集積（Ｈ１０Ｄ８４／４０が優先）［２０２５．０１］	characterised by the integration of at least one component covered by groups H10D 12/00 or H10D 30/00, e.g. integration of IGFETs (H10D 84/40 takes precedence)[2025.01]
+H10D  84/80 101 \	2	2	5F048	H10D  84/80	67	絶縁ゲート電界効果トランジスタと他の素子を集積するもの	integrating insulation gate field effect transistors with other elements
+H10D  84/80 101 A	2	0	5F048	H10D  84/80	5308	絶縁ゲート電界効果トランジスタと，受動素子またはダイオードを集積するもの	integrating insulation gate field effect transistors with passive elements or diodes
+H10D  84/80 101 Z	2	0	5F048	H10D  84/80	885	その他のもの	Others
+H10D  84/80 102 \	3	3	5F048	H10D  84/80	41	保護回路	protection circuits
+H10D  84/80 102 A	3	0	5F048	H10D  84/80	689	抵抗を用いて保護したもの，コンタクト部に特徴のあるもの	protected by use of resistance, characterized by contact parts
+H10D  84/80 102 B	3	0	5F048	H10D  84/80	1478	ダイオードを用いて保護したもの	protected by use of diodes
+H10D  84/80 102 C	3	0	5F048	H10D  84/80	1904	バイポーラを含むＭＯＳ構造を用いて保護したもの	protected by use of MOS structures including bipolar
+H10D  84/80 102 Z	3	0	5F048	H10D  84/80	257	その他のもの	Others
+H10D  84/80 201 \	3	3	5F111	H10D  84/80	0	縦型ＩＧＢＴまたはＶＤＭＯＳを含むもの	Including vertical IGBT or VDMOS
+H10D  84/80 202 \	4	4	5F111	H10D  84/80	0	他のトランジスタまたは他種のパワー素子と組み合わせたもの	combined with other transistors or power devices of other kinds
+H10D  84/80 202 A	4	0	5F111	H10D  84/80	578	縦型トランジスタとの組み合わせ，例．Ｈブリッジ	combination with vertical transistors, e.g., H-bridges
+H10D  84/80 202 B	4	0	5F111	H10D  84/80	201	横型トランジスタとの組み合わせ	combination with vertical transistors
+H10D  84/80 202 C	4	1	5F111	H10D  84/80	193	ＭＯＳ集積回路との組み合わせ，例．パワーＩＣ	combination with MOS integrated circuits, e.g., power IC
+H10D  84/80 202 D	4	2	5F111	H10D  84/80	85	構造に特徴のあるもの	characterized by the structures
+H10D  84/80 202 E	4	3	5F111	H10D  84/80	159	パワー部と制御部の分離領域	isolation regions of the power sections and the control sections
+H10D  84/80 202 F	4	3	5F111	H10D  84/80	44	パワー部と制御部の配置パターン	arrangement patterns of the power sections and the control sections
+H10D  84/80 202 G	4	2	5F111	H10D  84/80	69	製造方法に特徴のあるもの	characterized by the manufacturing methods
+H10D  84/80 202 Z	4	0	5F111	H10D  84/80	71	その他のもの	Others
+H10D  84/80 203 \	4	4	5F111	H10D  84/80	2	保護素子または回路を組み込んだもの	incorporating protection elements or protection circuits
+H10D  84/80 203 A	4	0	5F111	H10D  84/80	939	ダイオードを組み込んだもの	incorporating diodes
+H10D  84/80 203 B	4	1	5F111	H10D  84/80	251	ゲート保護ダイオード	gate protection diodes
+H10D  84/80 203 C	4	2	5F111	H10D  84/80	337	ＳＯＩ構造のもの	SIO structures
+H10D  84/80 203 D	4	1	5F111	H10D  84/80	1945	還流ダイオード	reflux diodes
+H10D  84/80 203 E	4	0	5F111	H10D  84/80	114	トランジスタを組み込んだもの	incorporating transistors
+H10D  84/80 203 F	4	1	5F111	H10D  84/80	770	動作状態検出のためのトランジスタセル	transistor cells for detecting operation status
+H10D  84/80 203 G	4	0	5F111	H10D  84/80	670	回路構成に特徴のあるもの	characterized by circuit structures
+H10D  84/80 203 Z	4	0	5F111	H10D  84/80	226	その他のもの	Others
+H10D  84/82  \	2	2	5F048	H10D  84/82	3	電界効果構成部品のみを集積するもの［２０２５．０１］	of only field-effect components[2025.01]
+H10D  84/83  \	3	3	5F048	H10D  84/83	305	絶縁ゲート電界効果トランジスタのみを集積するもの［２０２５．０１］	of only insulated-gate FETs [IGFET][2025.01]
+H10D  84/83  A	3	0	5F048	H10D  84/83	1975	ＭＯＳ構造全体，例．複数素子の配置または製法，に特徴のあるもの	characterized by the entire MOS structures, e.g.,  characterized by the arrangement or the manufacturing methods of plural elements
+H10D  84/83  B	3	0	5F048	H10D  84/83	2638	チャネル構造またはソース，ドレイン構造	channel structures or source structures, drain structures
+H10D  84/83  C	3	0	5F048	H10D  84/83	3040	ゲート電極；ゲート絶縁膜	gate electrodes;gate insulating films
+H10D  84/83  D	3	0	5F048	H10D  84/83	1639	コンタクト；電極；配線	contacts;electrodes;wiring
+H10D  84/83  E	3	0	5F048	H10D  84/83	3649	積層型ＭＯＳ；縦型ＭＯＳ	stacked MOS;vertical MOS
+H10D  84/83  F	3	0	5F048	H10D  84/83	1062	ＭＯＳＩＣに対する保護回路	protection circuits for MOSIC
+H10D  84/83  H	3	0	5F048	H10D  84/83	1321	メモリ；論理回路	memories;logic circuits
+H10D  84/83  J	3	0	5F048	H10D  84/83	981	回路構成に特徴のあるもの	characterized by circuit structures
+H10D  84/83  Z	3	0	5F048	H10D  84/83	329	その他のもの	Others
+H10D  84/83 101 \	4	4	5F048	H10D  84/83	32	寄生効果防止，例．素子分離	prevention of parasitic effects, e.g., isolation of elements
+H10D  84/83 101 A	4	0	5F048	H10D  84/83	1719	絶縁分離	isolation of insulation
+H10D  84/83 101 B	4	0	5F048	H10D  84/83	677	チャネルストッパー；ガードリング	channel stoppers;guard rings
+H10D  84/83 101 C	4	0	5F048	H10D  84/83	402	基板；埋込み層	substrates;embedded layers
+H10D  84/83 101 D	4	0	5F048	H10D  84/83	406	ウェル	wells
+H10D  84/83 101 E	4	0	5F048	H10D  84/83	5391	ＳＯＳ；ＳＯＩ	SOS;SOI
+H10D  84/83 101 F	4	0	5F048	H10D  84/83	152	ダイオードまたは抵抗を用いたもの	using diodes or resistance
+H10D  84/83 101 G	4	0	5F048	H10D  84/83	266	バイアスを与えたもの	giving biases
+H10D  84/83 101 Z	4	0	5F048	H10D  84/83	487	その他のもの	Others
+H10D  84/84  \	4	4	5F048	H10D  84/84	91	エンハンスメントモードの絶縁ゲート電界効果トランジスタおよびデプレッションモードの絶縁ゲート電界効果トランジスタの組み合わせ［２０２５．０１］	Combinations of enhancement-mode IGFETs and depletion-mode IGFETs[2025.01]
+H10D  84/84  A	4	0	5F048	H10D  84/84	347	全体，例．複数素子の配置または製法，に特徴のあるもの	characterized by the whole, e.g., characterized by the arrangements or manufacturing methods of plural elements
+H10D  84/84  Z	4	0	5F048	H10D  84/84	330	その他のもの	Others
+H10D  84/85  \	4	4	5F048	H10D  84/85	60	相補型絶縁ゲート電界効果トランジスタ，例．ＣＭＯＳ［２０２５．０１］	Complementary IGFETs, e.g. CMOS[2025.01]
+H10D  84/85  A	4	0	5F048	H10D  84/85	1503	ＣＭＯＳ全体，例．複数素子の配置または製法，に特徴のあるもの	characterized by the entire CMOS structures, e.g.,  the arrangement or the manufacturing methods of plural elements
+H10D  84/85  B	4	0	5F048	H10D  84/85	1972	ウェル；基板；埋込み層	wells;substrates;embedded layers
+H10D  84/85  C	4	0	5F048	H10D  84/85	1642	チャネル構造	channel structures
+H10D  84/85  D	4	0	5F048	H10D  84/85	3151	ゲート電極；ゲート絶縁膜	gate electrodes;gate insulating films
+H10D  84/85  E	4	0	5F048	H10D  84/85	1875	ソース，ドレイン形成	formation of sources, drains
+H10D  84/85  F	4	0	5F048	H10D  84/85	1766	コンタクト；電極；配線	contacts;electrodes;wiring
+H10D  84/85  G	4	0	5F048	H10D  84/85	1075	積層型ＭＯＳ；縦型ＭＯＳ	stacked MOS;vertical MOS
+H10D  84/85  H	4	0	5F048	H10D  84/85	1042	ＣＭＯＳに対する保護回路	protection circuits for CMOS
+H10D  84/85  K	4	0	5F048	H10D  84/85	728	メモリ；論理回路	memories;logic circuits
+H10D  84/85  L	4	0	5F048	H10D  84/85	1279	回路構成に特徴のあるもの	characterized by the structures of circuits
+H10D  84/85  N	4	0	5F048	H10D  84/85	390	製造工程の簡略化	simplification of manufacturing steps
+H10D  84/85  Z	4	0	5F048	H10D  84/85	259	その他のもの	Others
+H10D  84/86  \	2	2	5F082	H10D  84/86	1728	ショットキー障壁ゲート電界効果トランジスタを集積するもの［２０２５．０１］	of Schottky-barrier gate FETs[2025.01]
+H10D  84/87  \	2	2	5F082	H10D  84/87	808	ＰＮ接合ゲート電界効果トランジスタを集積するもの［２０２５．０１］	of PN-junction gate FETs[2025.01]
+H10D  84/90  \	1	1	5F048	H10D  84/90	0	マスタースライス集積回路［２０２５．０１］	Masterslice integrated circuits[2025.01]
+H10D  84/90 101 \	2	2	5F082	H10D  84/90	115	バイポーラトランジスタを含む集積回路；電界効果トランジスタを含む集積回路（１０２が優先）	integrated circuits including bipolar transistors;integrated circuits including field effect transistors (102 takes precedence)
+H10D  84/90 102 \	2	2	5F048	H10D  84/90	485	絶縁ゲート電界効果トランジスタを含む集積回路	integrated circuits including insulated gate field effect transistors
+H10D  86/00  \	0	0	5F110	H10D  86/00	0	絶縁性または導電性基板内または上に形成される集積装置，例．ＳＯＩ基板内，またはステンレスもしくはガラス基板上に形成されるもの［２０２５．０１］	Integrated devices formed in or on insulating or conducting substrates, e.g. formed in silicon-on-insulator [SOI] substrates or on stainless steel or glass substrates[2025.01]
+H10D  86/01  \	1	1	5F110	H10D  86/01	0	製造または処理［２０２５．０１］	Manufacture or treatment[2025.01]
+H10D  86/01 101 \	2	2	5F110	H10D  86/01	1943	アクティブマトリクスのパターニングに特徴のあるもの	characterized by the patterning of active matrix
+H10D  86/03  \	2	2	5F110	H10D  86/03	524	基板がサファイアからなるもの，例．ＳＯＳ［２０２５．０１］	wherein the substrate comprises sapphire, e.g. silicon-on-sapphire [SOS][2025.01]
+H10D  86/40  \	1	1	5F110	H10D  86/40	0	複数の薄膜トランジスタに特徴のあるもの［２０２５．０１］	characterised by multiple TFTs[2025.01]
+H10D  86/40 101 \	2	2	5F110	H10D  86/40	26	ＭＯＳＩＣに用いられるもの	used for MOSIC
+H10D  86/40 101 A	2	0	5F110	H10D  86/40	2100	ＣＭＯＳ	CMOS
+H10D  86/40 101 B	2	0	5F110	H10D  86/40	2606	メモリ	memories
+H10D  86/40 101 Z	2	0	5F110	H10D  86/40	3221	その他のもの	Others
+H10D  86/40 102 \	2	2	5F110	H10D  86/40	948	回路構成に特徴のあるもの，例．アクティブマトリクス回路自体	characterized by circuit structures, e.g., active matrix circuits per se
+H10D  86/60  \	2	2	5F110	H10D  86/60	49	複数の薄膜トランジスタがアクティブマトリクス中に存在するもの［２０２５．０１］	wherein the TFTs are in active matrices[2025.01]
+H10D  86/60  A	2	0	5F110	H10D  86/60	1084	素子または配線の欠陥の防止または修正	pretension or correction of defects of elements or wiring
+H10D  86/60  B	2	0	5F110	H10D  86/60	2330	周辺回路と一体に形成されたもの	formed with peripheral circuits in integrated manners
+H10D  86/60  C	2	0	5F110	H10D  86/60	3530	配線に特徴のあるもの	characterized by wiring
+H10D  86/60  Z	2	0	5F110	H10D  86/60	2600	その他のもの	Others
+H10D  86/80  \	1	1	5F081	H10D  86/80	209	複数の受動構成部品，例．抵抗器，キャパシタまたはインダクタ，に特徴のあるもの［２０２５．０１］	characterised by multiple passive components, e.g. resistors, capacitors or inductors[2025.01]
+H10D  86/85  \	2	2	5F081	H10D  86/85	1728	受動構成部品のみに特徴のあるもの［２０２５．０１］	characterised by only passive components[2025.01]
+H10D  86/85 101 \	3	3	5F081	H10D  86/85	920	厚膜回路	thick film circuits
+H10D  86/85 102 \	3	3	5F081	H10D  86/85	727	薄膜回路	thin film circuits
+H10D  86/85 103 \	3	3	5F081	H10D  86/85	758	厚膜トリミング；薄膜トリミング	thick film trimming;thin film trimming
+H10D  87/00  \	0	0	5F048	H10D  87/00	2247	同一基板上のバルク構成部品とＳＯＩまたはＳＯＳ構成部品を備える集積装置［２０２５．０１］	Integrated devices comprising both bulk components and either SOI or SOS components on the same substrate[2025.01]
+H10D  88/00  \	0	0	5F080	H10D  88/00	21	３次元集積装置［２０２５．０１］	Three-dimensional [3D] integrated devices[2025.01]
+H10D  88/00  A	0	0	5F080	H10D  88/00	611	素子配置に特徴のある積層型	stacked layer types characterized by the arrangements of elements
+H10D  88/00  C	0	1	5F080	H10D  88/00	590	接続構造	junction structures
+H10D  88/00  H	0	1	5F080	H10D  88/00	83	放熱構造；シールド構造	heat-releasing structures;shield structures
+H10D  88/00  R	0	1	5F080	H10D  88/00	284	再結晶化技術	recrystallisation technologies
+H10D  88/00  N	0	1	5F080	H10D  88/00	38	半導体ｉ層介在型	types in which semiconductor i-layers are interposed
+H10D  88/00  D	0	1	5F080	H10D  88/00	126	単結晶絶縁体層介在型	types in which single crystal insulator layers are interposed
+H10D  88/00  E	0	1	5F080	H10D  88/00	35	単結晶直接成長技術	technologies for direct growth of single crystal
+H10D  88/00  S	0	1	5F080	H10D  88/00	96	ＳＩＭＯＸ	SIMOX
+H10D  88/00  L	0	1	5F080	H10D  88/00	24	まわり込み酸化	oxidization from below
+H10D  88/00  F	0	1	5F080	H10D  88/00	55	ＦＩＰＯＳ	FIPOS
+H10D  88/00  P	0	1	5F080	H10D  88/00	63	ポリアモルファス積層型	polyamorphous stacked layer type
+H10D  88/00  Y	0	1	5F080	H10D  88/00	58	その他の構造	Other structures
+H10D  88/00  B	0	0	5F080	H10D  88/00	882	接着型	adhesive bonding type
+H10D  88/00  W	0	0	5F080	H10D  88/00	114	両面型	double-sided type
+H10D  88/00  Z	0	0	5F080	H10D  88/00	34	その他のもの	Others
+H10D  89/00  \	0	0	5F038	H10D  89/00	0	グループＨ１０Ｄ８４／００〜Ｈ１０Ｄ８８／００に包含されない集積装置の観点［２０２５．０１］	Aspects of integrated devices not covered by groups H10D 84/00-H10D 88/00[2025.01]
+H10D  89/00 101 \	1	1	5F038	H10D  89/00	950	半導体集積装置の構造または配置に特徴のあるもの（レイアウト方法は８９／１０が優先）	characterized by the structures or arrangements of integrated semiconductor devices ( for layout methods, 89/10 takes precedence)
+H10D  89/00 101 A	1	0	5F038	H10D  89/00	6731	機能回路，例．アナログ回路，テスト回路，の配置（Ｂ〜Ｕが優先）	arrangements of functional circuits, e.g., analogue circuits, test circuits (B~U take precedence)
+H10D  89/00 101 B	1	0	5F038	H10D  89/00	1940	基準電圧発生回路，例．ＤＣ電源回路，の配置	arrangements of reference voltage generators, e.g., DC power supply circuits
+H10D  89/00 101 D	1	0	5F038	H10D  89/00	5615	配線，例．クロック配線，電源配線，の配置	arrangements of wiring, e.g., clock wiring, power supply wiring
+H10D  89/00 101 E	1	0	5F038	H10D  89/00	2746	外部信号用端子の配置または当該端子の機能を特徴づける機能回路の配置	arrangements of external signal terminals or arrangements of the functional circuits characterizing the functions of the terminals
+H10D  89/00 101 F	1	0	5F038	H10D  89/00	2933	回路機能，動作スピード，動作条件に特徴のある機能回路，例．ＡＤコンバータ，高速低速回路ブロック，センサ周辺回路，の配置	arrangements of functional circuits characterized by their circuit functions, operating speed, operating conditions, e.g., arrangements of AD combaters, high-speed/ low-speed circuit blocks, sensor-peripheral circuits
+H10D  89/00 101 G	1	0	5F038	H10D  89/00	2033	基板バイアス発生回路または昇圧回路，例．電源用チャージポンプ回路，の配置	arrangements of substrate bias generation circuits or booster circuits, e.g., arrangements of power-supply charge pump circuits
+H10D  89/00 101 M	1	0	5F038	H10D  89/00	1165	切り替え動作を行う機能回路の配置（Ｔが優先）	arrangements of functional circuits performing switching operations (T takes precedence)
+H10D  89/00 101 T	1	0	5F038	H10D  89/00	6969	テスト機能回路，検査回路の配置	arrangements of test functional circuits, inspection circuits
+H10D  89/00 101 U	1	0	5F038	H10D  89/00	1161	複数の機能回路の組み合わせ，例．システムＬＳＩ，の配置	combination of plural functional circuits, e.g., arrangements of system LSIs
+H10D  89/00 101 V	1	0	5F038	H10D  89/00	2091	可変インピーダンス素子またはトリミング素子の構造	structures of variable impedance elements or trimming elements
+H10D  89/00 101 Z	1	0	5F038	H10D  89/00	523	その他のもの	Others
+H10D  89/10  \	1	1	5F064	H10D  89/10	875	集積装置のレイアウト［２０２５．０１］	Integrated device layouts[2025.01]
+H10D  89/10  D	1	0	5F064	H10D  89/10	1694	素子設計	designs of elements
+H10D  89/10  A	1	1	5F064	H10D  89/10	1415	プログラマブルロジックアレイ［ＰＬＡ］	programmable logic arrays[PLA]
+H10D  89/10  B	1	1	5F064	H10D  89/10	2268	ビルディングブロック；スタンダードセル	Building Blocks;standard cells
+H10D  89/10  M	1	1	5F064	H10D  89/10	3537	マスタースライス；ゲートアレイ	master slice;gate arrays
+H10D  89/10  W	1	0	5F064	H10D  89/10	3503	配線設計	designs of wiring
+H10D  89/10  C	1	1	5F064	H10D  89/10	5347	電子計算機，例．ＣＡＤ，を利用するもの	using electric computer, e.g., CAD
+H10D  89/10  L	1	1	5F064	H10D  89/10	1639	電源供給線	power supply lines
+H10D  89/10  P	1	1	5F064	H10D  89/10	1822	パッド；入出力セル	pads;input cells
+H10D  89/10  S	1	1	5F064	H10D  89/10	706	機能選択	selection of functions
+H10D  89/10  F	1	2	5F064	H10D  89/10	2427	フューズ（Ｒ，Ｔが優先）	fuses (R,T take precedence)
+H10D  89/10  R	1	2	5F064	H10D  89/10	1597	冗長回路	redundancy circuits
+H10D  89/10  T	1	2	5F064	H10D  89/10	2287	検査	inspections
+H10D  89/10  Z	1	0	5F064	H10D  89/10	92	その他のもの	Others
+H10D  89/60  \	1	1	5F038	H10D  89/60	9507	電気または熱からの保護装置，例．静電放電［ＥＳＤ］からの保護回路，を備える集積装置［２０２５．０１］	Integrated devices comprising arrangements for electrical or thermal protection, e.g. protection circuits against electrostatic discharge [ESD][2025.01]
+H10D  99/00  \	0	0	5F121	H10D  99/00	0	このサブクラスの他のグループに分類されない主題事項［２０２５．０１］	Subject matter not provided for in other groups of this subclass[2025.01]

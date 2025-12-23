@@ -1,0 +1,552 @@
+H02M   1/00  \	0	0	5H740	H02M   1/00	25	変換装置の細部［１，２００７．０１］	Details of apparatus for conversion [1,2007.01]
+H02M   1/00  A	0	0	5H740	H02M   1/00	392	表示・監視	Indicating or monitoring
+H02M   1/00  B	0	0	5H740	H02M   1/00	278	試験・測定	Testing or measuring
+H02M   1/00  C	0	0	5H740	H02M   1/00	1349	故障検出	Detecting failures
+H02M   1/00  E	0	1	5H740	H02M   1/00	735	電圧に関する検出・保護	Protection or detection related to voltages
+H02M   1/00  F	0	2	5H740	H02M   1/00	992	サ−ジ保護	Surge protection
+H02M   1/00  G	0	2	5H740	H02M   1/00	95	逆電圧保護	Reverse voltage protection
+H02M   1/00  H	0	1	5H740	H02M   1/00	1466	電流に関する検出・保護	Protection or detection related to voltages
+H02M   1/00  J	0	1	5H740	H02M   1/00	272	直列接続素子に関する保護	Protection related to elements connected in series
+H02M   1/00  K	0	2	5H740	H02M   1/00	83	電圧分担	Voltage sharing
+H02M   1/00  L	0	1	5H740	H02M   1/00	129	並列接続素子に関する保護	Protection related to elements connected in parallel
+H02M   1/00  M	0	2	5H740	H02M   1/00	188	電流バランス	Current balance
+H02M   1/00  N	0	1	5H740	H02M   1/00	44	逆並列接続素子に関する保護	Protection related to back-to-back connection elements
+H02M   1/00  P	0	1	5H740	H02M   1/00	101	直並列接続素子に関する保護	Protection related to series-parallel connected elements
+H02M   1/00  Q	0	1	5H740	H02M   1/00	39	光点弧方式の変換器の保護	Protection of light ignition type converters
+H02M   1/00  R	0	1	5H740	H02M   1/00	964	温度・熱に関する保護	Protection related to temperatures or heats
+H02M   1/00  S	0	1	5H740	H02M   1/00	85	転流失敗に関する検出・保護	Detection or protection related to commutation failures
+H02M   1/00  Z	0	0	5H740	H02M   1/00	384	その他	Others
+H02M   1/02  \	1	1	5H740	H02M   1/02	281	静止型変換器に用いられる放電管の格子制御またはイグナイタ制御電力の発生に用いられる回路	Circuits specially adapted for the generation of grid-control or igniter-control voltages for discharge tubes incorporated in static converters
+H02M   1/04  \	2	2	5H740	H02M   1/04	244	制御格子をもつ管用のもの	for tubes with grid control
+H02M   1/06  \	1	1	5H740	H02M   1/06	16	ガス放電管または等価の半導体装置，例．サイラトロン，サイリスタ，を非導通にするために特に適合した回路［２］	Circuits specially adapted for rendering non-conductive gas discharge tubes or equivalent semiconductor devices, e.g. thyratrons, thyristors [2]
+H02M   1/06  A	1	0	5H740	H02M   1/06	434	タ−ンオフ回路	Turnoff circuits
+H02M   1/06  B	1	1	5H740	H02M   1/06	609	ＧＴＯのゲ−ト回路	GTO gate circuits
+H02M   1/06  C	1	1	5H740	H02M   1/06	66	ＧＴＯの直並列接続	Series-parallel GTO connections
+H02M   1/06  D	1	1	5H740	H02M   1/06	391	ＧＴＯの保護	GTO protection
+H02M   1/06  Z	1	0	5H740	H02M   1/06	21	その他	Others
+H02M   1/08  \	1	1	5H740	H02M   1/08	86	静止型変換器に用いられる半導体装置の制御電圧の発生に用いられる回路	Circuits specially adapted for the generation of control voltages for semiconductor devices incorporated in static converters
+H02M   1/08  A	1	0	5H740	H02M   1/08	4197	ゲ−ト回路	Gate circuits
+H02M   1/08  B	1	0	5H740	H02M   1/08	256	同期信号発生回路	Synchronous signal generating circuits
+H02M   1/08  C	1	0	5H740	H02M   1/08	748	ゲ−ト電源	Gate voltages
+H02M   1/08  Z	1	0	5H740	H02M   1/08	456	その他	Others
+H02M   1/08 301 \	2	2	5H740	H02M   1/08	22	ゲ−ト信号の伝達	Transferring gate signals
+H02M   1/08 301 A	2	0	5H740	H02M   1/08	248	パルストランス	Pulse transformers
+H02M   1/08 301 B	2	0	5H740	H02M   1/08	406	光	Lights
+H02M   1/08 301 Z	2	0	5H740	H02M   1/08	102	その他	Others
+H02M   1/08 311 \	2	2	5H740	H02M   1/08	2	点弧パルスの波形	Waveforms of point arc pulse
+H02M   1/08 311 A	2	0	5H740	H02M   1/08	47	広幅パルス	Wide pulses
+H02M   1/08 311 B	2	0	5H740	H02M   1/08	37	パルス列	Pulse arrays
+H02M   1/08 311 C	2	0	5H740	H02M   1/08	73	ハイゲ−トパルス	High gate pulses
+H02M   1/08 311 D	2	0	5H740	H02M   1/08	117	パルス幅制御	Pulse width modulation
+H02M   1/08 311 E	2	0	5H740	H02M   1/08	36	パルス整形	Pulse reforming
+H02M   1/08 311 Z	2	0	5H740	H02M   1/08	79	その他	Others
+H02M   1/08 321 \	2	2	5H740	H02M   1/08	13	位相制御	Phase control
+H02M   1/08 321 A	2	0	5H740	H02M   1/08	99	サイリスタ	Thyristors
+H02M   1/08 321 B	2	1	5H740	H02M   1/08	127	磁気移相	Magnetic phase transfer
+H02M   1/08 321 C	2	1	5H740	H02M   1/08	16	ツ−ロン回路	Toulon circuits
+H02M   1/08 321 D	2	1	5H740	H02M   1/08	13	シユミツト回路	Schmitt circuits
+H02M   1/08 321 E	2	1	5H740	H02M   1/08	101	ＵＪＴ	UJT
+H02M   1/08 321 F	2	1	5H740	H02M   1/08	114	ＰＵＴ	PUT
+H02M   1/08 321 G	2	1	5H740	H02M   1/08	83	２端子素子	Two-pin elements
+H02M   1/08 321 H	2	1	5H740	H02M   1/08	114	多相移相	Multi-phase phase shifting
+H02M   1/08 321 J	2	1	5H740	H02M   1/08	289	デイジタル移相	Digital phase shifting
+H02M   1/08 321 T	2	0	5H740	H02M   1/08	644	トライアツク	TRIACs
+H02M   1/08 321 Z	2	0	5H740	H02M   1/08	760	その他	Others
+H02M   1/08 331 \	2	2	5H740	H02M   1/08	0	零点々弧回路	Zero point ignition circuits
+H02M   1/08 331 A	2	0	5H740	H02M   1/08	182	トライアツク	TRIACs
+H02M   1/08 331 B	2	0	5H740	H02M   1/08	78	光	Lights
+H02M   1/08 331 Z	2	0	5H740	H02M   1/08	254	その他	Others
+H02M   1/08 341 \	2	2	5H740	H02M   1/08	5	主回路素子の接続	Connecting main circuit elements
+H02M   1/08 341 A	2	0	5H740	H02M   1/08	355	直列	Series
+H02M   1/08 341 B	2	0	5H740	H02M   1/08	318	並列	Parallel
+H02M   1/08 341 C	2	0	5H740	H02M   1/08	135	直並列	Series-parallel
+H02M   1/08 341 D	2	0	5H740	H02M   1/08	180	逆並列	Back-to-back connection
+H02M   1/08 341 Z	2	0	5H740	H02M   1/08	18	その他	Others
+H02M   1/08 351 \	2	2	5H740	H02M   1/08	1	特殊な主回路素子	Special main circuit elements
+H02M   1/08 351 A	2	0	5H740	H02M   1/08	80	電界効果サイリスタ	Field effect thyristors
+H02M   1/08 351 B	2	0	5H740	H02M   1/08	27	感熱サイリスタ	Heat sensing thyristors
+H02M   1/08 351 C	2	0	5H740	H02M   1/08	43	２端子サイリスタ	Two-pin thyristors
+H02M   1/08 351 Z	2	0	5H740	H02M   1/08	49	その他	Others
+H02M   1/084  \	2	2	5H740	H02M   1/084	104	多相システムのいくつかの相に共通な制御回路に使用するもの［４］	using a control circuit common to several phases of a multi-phase system [4]
+H02M   1/088  \	2	2	5H740	H02M   1/088	124	直列または並列接続された半導体装置の同時制御のためのもの［４］	for the simultaneous control of series or parallel connected semiconductor devices [4]
+H02M   1/092  \	3	3	5H740	H02M   1/092	202	光学的に伝送される制御信号［４］	the control signals being transmitted optically [4]
+H02M   1/096  \	3	3	5H740	H02M   1/096	5	主スイッチング素子に並列接続される制御回路への給電（Ｈ０２Ｍ１／０９２が優先）［４］	the power supply of the control circuit being connected in parallel to the main switching element (H02M 1/092 takes precedence) [4]
+H02M   1/10  \	1	1	5H740	H02M   1/10	466	異なった種類の供給電力，例．交流または直流，から負荷を運転させるための変換装置に用いられる装置	Arrangements incorporating converting means for enabling loads to be operated at will from different kinds of power supplies, e.g. from ac or dc
+H02M   1/12  \	1	1	5H740	H02M   1/12	1471	交流入力または出力から高調波を減少させるための装置	Arrangements for reducing harmonics from ac input or output
+H02M   1/14  \	1	1	5H740	H02M   1/14	1168	直流入力または出力からリップルを減少させるための装置	Arrangements for reducing ripples from dc input or output
+H02M   1/15  \	2	2	5H740	H02M   1/15	256	能動素子を使用するもの［４］	using active elements [4]
+H02M   1/16  \	1	1	5H740	H02M   1/16	323	回路の開閉時に立ち上がり電流を供給するための装置，例．可飽和リアクトルをもつもの	Means for providing current step on switching, e.g. with saturable reactor
+H02M   1/20  \	1	1	5H740	H02M   1/20	1	非静止型変換器の接点機構	Contact mechanisms of dynamic converters
+H02M   1/22  \	2	2	5H740	H02M   1/22	0	集電装置およびブラシを用いたもの	incorporating collectors and brushes
+H02M   1/24  \	2	2	5H740	H02M   1/24	3	回動または転動接点を用いたもの	incorporating rolling or tumbling contacts
+H02M   1/26  \	2	2	5H740	H02M   1/26	0	カム操作接点を用いたもの	incorporating cam-operated contacts
+H02M   1/28  \	2	2	5H740	H02M   1/28	1	電磁的に操作される振動接点を用いたもの	incorporating electromagnetically-operated vibrating contacts
+H02M   1/30  \	2	2	5H740	H02M   1/30	0	液体接点を用いたもの	incorporating liquid contacts
+H02M   1/32  \	1	1	5H740	H02M   1/32	639	自動切断によるもの以外の、変換器を保護するための手段［２００７．０１］	Means for protecting converters other than by automatic disconnection
+H02M   1/34  \	2	2	5H740	H02M   1/34	1252	スナバ回路［２００７．０１］	Snubber circuits [2007.01]
+H02M   1/36  \	1	1	5H740	H02M   1/36	122	変換器を起動または停止するための手段［２００７．０１］	Means for starting or stopping converters [2007.01]
+H02M   1/38  \	1	1	5H740	H02M   1/38	254	スイッチング手段が同時導通することを防止するための手段［２００７．０１］	Means for preventing simultaneous conduction of switches [2007.01]
+H02M   1/40  \	1	1	5H740	H02M   1/40	124	磁気的飽和（偏磁）することを防止する手段［２００７．０１］	Means for preventing magnetic saturation [2007.01]
+H02M   1/42  \	1	1	5H740	H02M   1/42	316	変換器の力率を補正または調節するための回路または装置［２００７．０１］	Circuits or arrangements for compensating for or&nbsp;adjusting power factor in converters or inverters [2007.01]
+H02M   1/44  \	1	1	5H740	H02M   1/44	427	変換器の電磁妨害を補償するための回路または装置［２００７．０１］	Circuits or arrangements for compensating for electromagnetic interference in converters or inverters [2007.01]
+H02M   3/00  \	0	0	5H730	H02M   3/00	52	直流入力一直流出力変換	Conversion of dc power input into dc power output
+H02M   3/00  A	0	0	5H730	H02M   3/00	98	全体構成	Overall structures
+H02M   3/00  B	0	0	5H730	H02M   3/00	541	起動・停止	Starting or shutting off
+H02M   3/00  C	0	0	5H730	H02M   3/00	895	保護	Protection
+H02M   3/00  E	0	1	5H730	H02M   3/00	193	雑音防止	Preventing noises
+H02M   3/00  G	0	0	5H730	H02M   3/00	119	コンデンサ充電	Charging condensers
+H02M   3/00  H	0	0	5H730	H02M   3/00	1226	制御	Control
+H02M   3/00  J	0	1	5H730	H02M   3/00	51	定電流	Constant current
+H02M   3/00  K	0	1	5H730	H02M   3/00	217	入力検知	Detecting inputs
+H02M   3/00  N	0	1	5H730	H02M   3/00	24	カウンタ	Counters
+H02M   3/00  P	0	1	5H730	H02M   3/00	297	ＰＷＭ	PWM
+H02M   3/00  Q	0	0	5H730	H02M   3/00	34	共振型	Resonance type
+H02M   3/00  R	0	0	5H730	H02M   3/00	33	スナバ	Snubbers
+H02M   3/00  S	0	0	5H730	H02M   3/00	69	スイツチング	Switching
+H02M   3/00  T	0	1	5H730	H02M   3/00	24	ＦＥＴ	FET
+H02M   3/00  U	0	0	5H730	H02M   3/00	290	縦続型	Vertical type
+H02M   3/00  W	0	0	5H730	H02M   3/00	744	並列運転〔均等負荷分担回路〕	Parallel operation (circuits for uniformly distributing loads)
+H02M   3/00  X	0	0	5H730	H02M   3/00	71	補助電源	Auxiliary electric power supplies
+H02M   3/00  Y	0	0	5H730	H02M   3/00	885	筐体	Enclosures
+H02M   3/00  Z	0	0	5H730	H02M   3/00	563	その他	Others
+H02M   3/02  \	1	1	5H730	H02M   3/02	4	中間に交流変換をもたないもの	without intermediate conversion into ac
+H02M   3/04  \	2	2	5H730	H02M   3/04	3	静止型変換器によるもの	by static converters
+H02M   3/06  \	3	3	5H730	H02M   3/06	16	抵抗または蓄電器を用いるもの，例．分圧器を用いるもの	using resistors or capacitors, e.g. potential divider
+H02M   3/07  \	4	4	5H730	H02M   3/07	3335	制御電極を有する半導体装置によって交互に充放電されるコンデンサを使用するもの［４］	using capacitors charged and discharged alternately by semiconductor devices with control electrode [4]
+H02M   3/08  \	3	3	5H730	H02M   3/08	9	制御電極をもたない放電管または制御電極をもたない半導体装置を用いるもの	using discharge tubes without control electrode or semiconductor devices without control electrode
+H02M   3/10  \	3	3	5H730	H02M   3/10	23	制御電極を有する放電管または制御電極を有する半導体装置を使用するもの（Ｈ０２Ｍ３／０７が優先）［４］	using discharge tubes with control electrode or semiconductor devices with control electrode (H02M 3/07 takes precedence) [4]
+H02M   3/125  \	4	4	5H730	H02M   3/125	1	消弧手段を必要とするサイラトロンまたはサイリスタ型式の装置を用いるもの［２］	using devices of a thyratron or thyristor type requiring extinguishing means [2]
+H02M   3/13  \	5	5	5H730	H02M   3/13	0	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   3/135  \	5	5	5H730	H02M   3/135	39	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   3/135  A	5	0	5H730	H02M   3/135	4	全体構成	Overall structures
+H02M   3/135  B	5	0	5H730	H02M   3/135	58	起動・停止	Starting or shutting off
+H02M   3/135  C	5	0	5H730	H02M   3/135	234	保護	Protection
+H02M   3/135  D	5	0	5H730	H02M   3/135	13	電池切替	Switching batteries
+H02M   3/135  F	5	0	5H730	H02M   3/135	24	縦続接続	Vertical connections
+H02M   3/135  G	5	0	5H730	H02M   3/135	156	ゲ−ト	Gates
+H02M   3/135  H	5	1	5H730	H02M   3/135	52	ＯＦＦパルス	OFF pulses
+H02M   3/135  J	5	1	5H730	H02M   3/135	44	電流制限	Current limiting
+H02M   3/135  K	5	1	5H730	H02M   3/135	75	ドライブ回路	Drive circuits
+H02M   3/135  L	5	0	5H730	H02M   3/135	280	主回路	Main circuits
+H02M   3/135  M	5	1	5H730	H02M   3/135	13	主回路Ｍ	Main circuits M
+H02M   3/135  N	5	1	5H730	H02M   3/135	60	補充電回路	Supplemental charging circuits
+H02M   3/135  R	5	1	5H730	H02M   3/135	24	主回路Ｒ	Main circuits R
+H02M   3/135  S	5	1	5H730	H02M   3/135	24	主回路Ｃ	Main circuits C
+H02M   3/135  Q	5	1	5H730	H02M   3/135	19	バイパスコンタクタ	Bypass contactors
+H02M   3/135  U	5	1	5H730	H02M   3/135	27	双方向	Two-way
+H02M   3/135  W	5	0	5H730	H02M   3/135	76	直並列	Series-parallel
+H02M   3/135  Y	5	0	5H730	H02M   3/135	32	ＧＴＯ	GTO
+H02M   3/135  Z	5	0	5H730	H02M   3/135	239	その他	Others
+H02M   3/137  \	6	6	5H730	H02M   3/137	23	出力電圧または電流の自動制御を有するもの，例．スイッチングレギュレータ［４］	with automatic control of output voltage or current, e.g. switching regulators [4]
+H02M   3/139  \	7	7	5H730	H02M   3/139	2	デジタル制御を有するもの［４］	with digital control [4]
+H02M   3/142  \	7	7	5H730	H02M   3/142	0	単一負荷のための最終制御装置としての複数の半導体装置を含むもの［４］	including plural semiconductor devices as final control devices for a single load [4]
+H02M   3/145  \	4	4	5H730	H02M   3/145	0	制御信号の連続的印加を必要とする三極管またはトランジスタ型式の装置を用いるもの［２］	using devices of a triode or transistor type requiring continuous application of a control signal [2]
+H02M   3/145  A	4	0	5H730	H02M   3/145	50	全体構成	Overall structures
+H02M   3/145  B	4	0	5H730	H02M   3/145	45	起動	Starting
+H02M   3/145  C	4	0	5H730	H02M   3/145	104	保護	Protection
+H02M   3/145  H	4	0	5H730	H02M   3/145	82	駆動部	Drives
+H02M   3/145  P	4	0	5H730	H02M   3/145	45	信号処理	Signal processing
+H02M   3/145  S	4	0	5H730	H02M   3/145	78	スイツチ部	Switches
+H02M   3/145  Z	4	0	5H730	H02M   3/145	46	その他	Others
+H02M   3/15  \	5	5	5H730	H02M   3/15	0	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   3/155  \	5	5	5H730	H02M   3/155	71	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   3/155  A	5	0	5H730	H02M   3/155	107	全体構成	Overall structures
+H02M   3/155  B	5	0	5H730	H02M   3/155	1268	起動・停止	Starting or shutting off
+H02M   3/155  C	5	0	5H730	H02M   3/155	2981	保護〔保護回路一般→Ｈ０２Ｈ〕	Protection (protection circuits in general R H 02 H)
+H02M   3/155  E	5	1	5H730	H02M   3/155	601	雑音防止	Preventing noises
+H02M   3/155  F	5	0	5H730	H02M   3/155	2675	昇圧・反転	Stepping up or inverting
+H02M   3/155  G	5	0	5H730	H02M   3/155	270	コンデンサ充電	Charging condensers
+H02M   3/155  H	5	0	5H730	H02M   3/155	6334	制御	Control
+H02M   3/155  J	5	1	5H730	H02M   3/155	348	定電流	Constant current
+H02M   3/155  K	5	1	5H730	H02M   3/155	883	入力検知	Detecting inputs
+H02M   3/155  L	5	1	5H730	H02M   3/155	110	自励型	Self-excited type
+H02M   3/155  M	5	1	5H730	H02M   3/155	48	補助ＯＳＣ	Supplemental OSC
+H02M   3/155  N	5	2	5H730	H02M   3/155	101	カウンタ	Counters
+H02M   3/155  P	5	2	5H730	H02M   3/155	1919	ＰＷＭ	PWM
+H02M   3/155  Q	5	0	5H730	H02M   3/155	614	共振型	Resonance type
+H02M   3/155  R	5	0	5H730	H02M   3/155	298	スナバ	Snubbers
+H02M   3/155  S	5	0	5H730	H02M   3/155	993	スイツチング〔スイツチング回路自体→Ｈ０３Ｋ１７／００〕	Switching (switching circuits per se R H 03 K 17/00)
+H02M   3/155  T	5	1	5H730	H02M   3/155	254	ＦＥＴ	FET
+H02M   3/155  U	5	0	5H730	H02M   3/155	1453	縦続型	Vertical type
+H02M   3/155  V	5	0	5H730	H02M   3/155	520	分岐出力	Branched outputs
+H02M   3/155  W	5	0	5H730	H02M   3/155	2207	並列運転	Parallel operation
+H02M   3/155  X	5	0	5H730	H02M   3/155	278	補助電源	Supplemental electric power supplies
+H02M   3/155  Y	5	0	5H730	H02M   3/155	919	筐体	Enclosures
+H02M   3/155  Z	5	0	5H730	H02M   3/155	508	その他	Others
+H02M   3/156  \	6	6	5H730	H02M   3/156	41	出力電圧または電流の自動制御を有するもの，例．切換調整器［４］	with automatic control of output voltage or current, e.g. switching regulators [4]
+H02M   3/157  \	7	7	5H730	H02M   3/157	48	デジタル制御を有するもの［４］	with digital control [4]
+H02M   3/158  \	7	7	5H730	H02M   3/158	30	単一負荷のための最終制御装置としての複数の半導体装置を含むもの［４］	including plural semiconductor devices as final control devices for a single load [4]
+H02M   3/16  \	2	2	5H730	H02M   3/16	3	非静止型変換器によるもの	by dynamic converters
+H02M   3/18  \	3	3	5H730	H02M   3/18	12	交互に充電および放電する，例．並列接続で充電され，直列接続で放電する，蓄電器または蓄電池を用いたもの	using capacitors or batteries which are alternately charged and discharged, e.g. charged in parallel and discharged in series
+H02M   3/20  \	2	2	5H730	H02M   3/20	2	静止型と非静止型変換器との結合によるもの；電動力型と他の非静止型または静止型変換器との結合によるもの	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters
+H02M   3/22  \	1	1	5H730	H02M   3/22	5	中間に交流変換をもつもの	with intermediate conversion into ac
+H02M   3/24  \	2	2	5H730	H02M   3/24	11	静止型変換器によるもの	by static converters
+H02M   3/24  H	2	0	5H730	H02M   3/24	583	圧電トランスを利用した回路	Circuits using piezo transformers
+H02M   3/24  Y	2	1	5H730	H02M   3/24	336	圧電トランス自体の構造に特徴のあるもの	characterised by structures of piezo electric transformers per se
+H02M   3/24  Z	2	0	5H730	H02M   3/24	11	その他	Others
+H02M   3/26  \	3	3	5H730	H02M   3/26	2	一旦交流を発生するために制御電極をもたない放電管または制御電極をもたない半導体装置を用いるもの	using discharge tubes without control electrode or semiconductor devices without control electrode to produce the intermediate ac
+H02M   3/28  \	3	3	5H730	H02M   3/28	133	一旦交流を発生するために制御電極をもつ放電管または制御電極をもつ半導体装置を用いるもの	using discharge tubes with control electrode or semiconductor devices with control electrode to produce the intermediate ac
+H02M   3/28  A	3	0	5H730	H02M   3/28	97	全体構成	Overall structures
+H02M   3/28  B	3	0	5H730	H02M   3/28	2188	起動・停止〔例，突入防止回路〕	Starting or shutting off, e.g. circuits for preventing rush-in
+H02M   3/28  C	3	0	5H730	H02M   3/28	4240	保護〔保護回路一般→Ｈ０２Ｈ〕	Protection (protection circuits in general R H 02 H)
+H02M   3/28  D	3	1	5H730	H02M   3/28	250	偏磁防止	Preventing magnetic deviations
+H02M   3/28  E	3	1	5H730	H02M   3/28	833	雑音防止	Preventing noises
+H02M   3/28  F	3	0	5H730	H02M   3/28	2043	整流回路	Rectification circuits
+H02M   3/28  G	3	0	5H730	H02M   3/28	347	コンデンサ充電	Charging condensers
+H02M   3/28  H	3	0	5H730	H02M   3/28	6133	制御	Control
+H02M   3/28  J	3	1	5H730	H02M   3/28	299	定電流	Constant current
+H02M   3/28  K	3	1	5H730	H02M   3/28	851	入力検知	Detecting inputs
+H02M   3/28  L	3	1	5H730	H02M   3/28	379	巻線検知	Detecting windings
+H02M   3/28  M	3	1	5H730	H02M   3/28	396	巻線制御	Control windings
+H02M   3/28  N	3	1	5H730	H02M   3/28	116	カウンタ	Counters
+H02M   3/28  P	3	1	5H730	H02M   3/28	1188	ＰＷＭ	PWM
+H02M   3/28  Q	3	0	5H730	H02M   3/28	3160	共振型	Resonance type
+H02M   3/28  R	3	0	5H730	H02M   3/28	824	スナバ〔例．スパイクリミツタ〕	Snubbers, e.g. spike limiters
+H02M   3/28  S	3	0	5H730	H02M   3/28	858	スイツチング	Switching
+H02M   3/28  T	3	1	5H730	H02M   3/28	303	ＦＥＴ	FET
+H02M   3/28  U	3	0	5H730	H02M   3/28	1137	縦続型	Vertical type
+H02M   3/28  V	3	0	5H730	H02M   3/28	2325	多出力型〔例．直流正負出力〕	Multi-output type, e.g. positive and negative DC outputs
+H02M   3/28  W	3	0	5H730	H02M   3/28	1858	並列運転	Parallel operation
+H02M   3/28  X	3	0	5H730	H02M   3/28	713	補助電源	Supplemental electric power supplies
+H02M   3/28  Y	3	0	5H730	H02M   3/28	1639	筐体〔絶縁方法を含む〕	Enclosures (including insulation methods)
+H02M   3/28  Z	3	0	5H730	H02M   3/28	617	その他のもの	Others
+H02M   3/305  \	4	4	5H730	H02M   3/305	2	消弧手段を必要とするサイラトロンまたはサイリスタ型式の装置を用いるもの［２］	using devices of a thyratron or thyristor type requiring extinguishing means [2]
+H02M   3/31  \	5	5	5H730	H02M   3/31	25	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   3/315  \	5	5	5H730	H02M   3/315	140	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   3/325  \	4	4	5H730	H02M   3/325	1	制御信号の連続的印加を必要とする三極管またはトランジスタ型式の装置を用いるもの［２］	using devices of a triode or a transistor type requiring continuous application of a control signal [2]
+H02M   3/325  A	4	0	5H730	H02M   3/325	146	自励型	Self-excited type
+H02M   3/325  B	4	0	5H730	H02M   3/325	184	他励型	Separately excited type
+H02M   3/325  D	4	0	5H730	H02M   3/325	146	プツシユプル	Push-pull
+H02M   3/325  Z	4	0	5H730	H02M   3/325	2	その他	Others
+H02M   3/33  \	5	5	5H730	H02M   3/33	2	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   3/335  \	5	5	5H730	H02M   3/335	76	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   3/335  B	5	0	5H730	H02M   3/335	862	１石他励形	One-stone separately excited type
+H02M   3/335  E	5	0	5H730	H02M   3/335	807	ブリツジ形	Bridge type
+H02M   3/335  F	5	0	5H730	H02M   3/335	316	多石型〔プツシユプルを除く〕	Multi-stone type (excluding push-pull)
+H02M   3/335  Z	5	0	5H730	H02M   3/335	15	その他のもの	Others
+H02M   3/337  \	6	6	5H730	H02M   3/337	11	プッシュプル構成におけるもの［４］	in push-pull configuration [4]
+H02M   3/337  C	6	0	5H730	H02M   3/337	150	自励型	Self-excited type
+H02M   3/337  D	6	0	5H730	H02M   3/337	331	他励型	Separately excited type
+H02M   3/337  Z	6	0	5H730	H02M   3/337	4	その他のもの	Others
+H02M   3/338  \	6	6	5H730	H02M   3/338	36	自励発振装置におけるもの（Ｈ０２Ｍ３／３３７が優先）［４］	in a self-oscillating arrangement (H02M 3/337 takes precedence) [4]
+H02M   3/338  A	6	0	5H730	H02M   3/338	1535	１石型〔例，ブロツキング発振回路〕	One-stone type, e.g. blocking oscillation circuits
+H02M   3/338  Z	6	0	5H730	H02M   3/338	36	その他	Others
+H02M   3/34  \	2	2	5H730	H02M   3/34	8	機械的開閉接点部品を用いるもの	by dynamic converters
+H02M   3/36  \	3	3	5H730	H02M   3/36	0	入力電圧を累進的に選択しまたは連続的に変化させるために機械的部品を用いるもの	using mechanical parts to select progressively or to vary continuously the input potential
+H02M   3/38  \	3	3	5H730	H02M   3/38	1	単一電源を断続するために機械的開閉接点部品を用いるもの	using mechanical contact-making and -breaking parts to interrupt a single potential
+H02M   3/40  \	4	4	5H730	H02M   3/40	2	接点部品は回転し，集電部はブラシまたはローラと共働するもの	wherein the parts are rotating and collectors co-operate with brushes or rollers
+H02M   3/42  \	4	4	5H730	H02M   3/42	1	電磁的に操作される振動接点を，例．チョッパをもつもの	with electromagnetically-operated vibrating contacts, e.g. chopper
+H02M   3/44  \	2	2	5H730	H02M   3/44	2	静止型変換器と非静止型変換器との組合わせによるもの；回転電機と他の非静止または静止型変換器との組合わせによるもの	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters
+H02M   5/00  \	0	0	5H750	H02M   5/00	67	交流相互間の変成，例．電圧，周波数または相数の変換用	Conversion of ac power input into ac power output, e.g. for change of voltage, for change of frequency, for change of number of phases
+H02M   5/02  \	1	1	5H750	H02M   5/02	32	中間に直流変換をもたないもの	without intermediate conversion into dc
+H02M   5/04  \	2	2	5H750	H02M   5/04	8	静止型変換器によるもの（変成器，リアクトルまたはチョークコイルの制御，例．タップ切換によるものＨ０２Ｐ１３／００）［４］	by static converters (controlling transformers, reactors or choke coils, e.g. by tap changing, H02P 13/00) [4]
+H02M   5/04  A	2	0	5H750	H02M   5/04	12	位相変換	Phase conversion
+H02M   5/04  B	2	0	5H750	H02M   5/04	26	相数変換	Converting number of phases
+H02M   5/04  C	2	0	5H750	H02M   5/04	35	周波数変換	Frequency conversion
+H02M   5/04  Z	2	0	5H750	H02M   5/04	50	その他のもの	Others
+H02M   5/06  \	3	3	5H750	H02M   5/06	1	インピーダンスを用いるもの	using impedances
+H02M   5/06  A	3	0	5H750	H02M   5/06	117	位相変換	Phase conversion
+H02M   5/06  B	3	0	5H750	H02M   5/06	44	相数変換	Converting number of phases
+H02M   5/06  C	3	0	5H750	H02M   5/06	79	周波数変換	Frequency conversion
+H02M   5/06  Z	3	0	5H750	H02M   5/06	21	その他のもの	Others
+H02M   5/08  \	4	4	5H750	H02M   5/08	12	コンデンサだけを用いるもの	using capacitors only
+H02M   5/10  \	3	3	5H750	H02M   5/10	10	変圧器を用いるもの	using transformers
+H02M   5/10  A	3	0	5H750	H02M   5/10	92	位相変換	Phase conversion
+H02M   5/10  Z	3	0	5H750	H02M   5/10	122	その他のもの	Others
+H02M   5/12  \	4	4	5H750	H02M   5/12	17	電圧または電流だけの変換用	for conversion of voltage or current amplitude only
+H02M   5/12  A	4	0	5H750	H02M   5/12	104	タツプ切換を行なうもの	Switching taps
+H02M   5/12  B	4	1	5H750	H02M   5/12	180	直列トランスを用いるもの	using serial transformers
+H02M   5/12  C	4	2	5H750	H02M   5/12	78	無接点式のもの	non-contact type
+H02M   5/12  D	4	1	5H750	H02M   5/12	40	無接点式のもの〔Ｂが優先〕	Non-contact type (B takes precedence.)
+H02M   5/12  E	4	0	5H750	H02M   5/12	51	昇圧の為のもの	for stepping up
+H02M   5/12  Z	4	0	5H750	H02M   5/12	81	その他のもの	Others
+H02M   5/14  \	4	4	5H750	H02M   5/14	13	異なる相数回路間の変換用	for conversion between circuits of different phase number
+H02M   5/14  A	4	0	5H750	H02M   5/14	37	単相から三相への変換	Conversion from single phase to three phase
+H02M   5/14  B	4	0	5H750	H02M   5/14	94	三相から単相への変換	Conversion from three phase to single phase
+H02M   5/14  Z	4	0	5H750	H02M   5/14	56	その他のもの	Others
+H02M   5/16  \	4	4	5H750	H02M   5/16	117	周波数変換用	for conversion of frequency
+H02M   5/18  \	4	4	5H750	H02M   5/18	28	波形変換用	for conversion of waveform
+H02M   5/20  \	3	3	5H750	H02M   5/20	0	制御電極をもたない放電管または制御電極をもたない半導体装置を用いるもの	using discharge tubes without control electrode or semiconductor devices without control electrode
+H02M   5/20  A	3	0	5H750	H02M   5/20	18	昇圧の為のもの	For stepping up
+H02M   5/20  B	3	0	5H750	H02M   5/20	9	周波数変換	Frequency conversion
+H02M   5/20  Z	3	0	5H750	H02M   5/20	11	その他のもの	Others
+H02M   5/22  \	3	3	5H750	H02M   5/22	10	制御電極をもつ放電管または制御電極をもつ半導体装置を用いるもの	using discharge tubes with control electrode or semiconductor devices with control electrode
+H02M   5/25  \	4	4	5H750	H02M   5/25	38	消弧手段を必要とするサイラトロンまたはサイリスタ型式の装置を用いるもの［２］	using devices of a thyratron or thyristor type requiring extinguishing means
+H02M   5/253  \	5	5	5H750	H02M   5/253	27	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   5/257  \	5	5	5H750	H02M   5/257	14	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   5/257  A	5	0	5H750	H02M   5/257	21	位相変換	Phase conversion
+H02M   5/257  B	5	0	5H750	H02M   5/257	32	相数変換	Converting number of phases
+H02M   5/257  Z	5	0	5H750	H02M   5/257	131	その他のもの〔電流，電圧の変換〕	Others (current or voltage conversion)
+H02M   5/27  \	5	5	5H750	H02M   5/27	56	周波数変換のためのもの［２］	for conversion of frequency [2]
+H02M   5/27  A	5	0	5H750	H02M   5/27	73	高周波への変換	Converting to high frequencies
+H02M   5/27  C	5	1	5H750	H02M   5/27	104	振動回路を用いるもの	using vibrating circuits
+H02M   5/27  D	5	0	5H750	H02M   5/27	28	高，低周波の両方に変換可能なもの	able to be converted to either low or high frequency
+H02M   5/27  E	5	0	5H750	H02M   5/27	247	低周波への変換	Conversion to low frequency
+H02M   5/27  F	5	1	5H750	H02M   5/27	49	正，負半波の合成によるもの	by synthesising positive and negative half-waves
+H02M   5/27  G	5	1	5H750	H02M   5/27	197	力率制御	Control power factors
+H02M   5/27  H	5	1	5H750	H02M   5/27	82	波形制御	Control waveforms
+H02M   5/27  J	5	2	5H750	H02M   5/27	88	高調波抑制	Inhibiting harmonics
+H02M   5/27  K	5	1	5H750	H02M   5/27	82	転流回路に特徴のあるもの	characterised by commutation circuits
+H02M   5/27  L	5	2	5H750	H02M   5/27	79	バンクの切換制御	Bank switching control
+H02M   5/27  M	5	2	5H750	H02M   5/27	29	強制転流回路を用いるもの	using forced commutation circuits
+H02M   5/27  P	5	1	5H750	H02M   5/27	157	保護	Protection
+H02M   5/27  Z	5	0	5H750	H02M   5/27	51	その他のもの	Others
+H02M   5/275  \	4	4	5H750	H02M   5/275	26	制御信号の連続的印加を必要とする三極管またはトランジスタ型式の装置を用いるもの［２］	using devices of a triode or transistor type requiring continuous application of a control signal
+H02M   5/29  \	5	5	5H750	H02M   5/29	14	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   5/293  \	5	5	5H750	H02M   5/293	17	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   5/293  A	5	0	5H750	H02M   5/293	26	位相変換	Phase conversion
+H02M   5/293  B	5	0	5H750	H02M   5/293	88	相数変換	Converting number of phases
+H02M   5/293  Z	5	0	5H750	H02M   5/293	374	その他のもの	Others
+H02M   5/297  \	5	5	5H750	H02M   5/297	363	周波数変換のためのもの［２］	for conversion of frequency [2]
+H02M   5/32  \	2	2	5H750	H02M   5/32	56	非静止型変換器によるもの	by dynamic converters
+H02M   5/34  \	3	3	5H750	H02M   5/34	15	機械的開閉接点部品を用いるもの	using mechanical contact-making and -breaking parts
+H02M   5/36  \	4	4	5H750	H02M   5/36	22	接点部品は回転し，集電部はブラシまたはローラと共働するもの	wherein the parts are rotating and collectors co-operate with brushes or rollers
+H02M   5/38  \	2	2	5H750	H02M   5/38	1	静止型変換器と非静止型変換器との組合わせによるもの；回転電機と他の非静止または静止型変換器との組み合わせによるもの	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters
+H02M   5/38  A	2	0	5H750	H02M   5/38	3	位相変換	Phase conversion
+H02M   5/38  B	2	0	5H750	H02M   5/38	12	相数変換	Converting number of phases
+H02M   5/38  C	2	0	5H750	H02M   5/38	72	２重磁界，異なる周波数間の連けい変換	Cooperative conversion between dual magnetic fields or dissimilar frequencies
+H02M   5/38  Z	2	0	5H750	H02M   5/38	3	その他のもの	Others
+H02M   5/40  \	1	1	5H750	H02M   5/40	17	中間に直流変換をもつもの	with intermediate conversion into dc
+H02M   5/42  \	2	2	5H750	H02M   5/42	25	静止型変換器によるもの	by static converters
+H02M   5/44  \	3	3	5H750	H02M   5/44	32	中間の直流を交流に変換するために放電管または半導体装置を用いるもの	using discharge tubes or semiconductor devices to convert the intermediate dc into ac
+H02M   5/443  \	4	4	5H750	H02M   5/443	18	消弧手段を必要とするサイラトロンまたはサイリスタ型式の装置を用いるもの［２］	using devices of a thyratron or thyristor type requiring extinguishing means [2]
+H02M   5/447  \	5	5	5H750	H02M   5/447	24	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   5/45  \	5	5	5H750	H02M   5/45	13	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   5/45  A	5	0	5H750	H02M   5/45	48	多重，多相の変換器を用いるもの	using multiplex or multi-phase converters
+H02M   5/45  C	5	0	5H750	H02M   5/45	46	起動	Starting
+H02M   5/45  D	5	0	5H750	H02M   5/45	22	転流回路に特徴のあるもの	characterised by commutation circuits
+H02M   5/45  E	5	1	5H750	H02M   5/45	24	強制転流回路を用いるもの	using forced commutation circuits
+H02M   5/45  F	5	0	5H750	H02M   5/45	43	波形制御	Control waveforms
+H02M   5/45  H	5	0	5H750	H02M   5/45	125	保護	Protection
+H02M   5/45  Z	5	0	5H750	H02M   5/45	157	その他のもの	Others
+H02M   5/451  \	6	6	5H750	H02M   5/451	12	出力電圧または周波数の自動制御を有するもの［４］	with automatic control of output voltage or frequency [4]
+H02M   5/452  \	6	6	5H750	H02M   5/452	2	出力波形の自動制御を有するもの［４］	with automatic control of output waveform [4]
+H02M   5/453  \	4	4	5H750	H02M   5/453	70	制御信号の連続的印加を必要とする三極管またはトランジスタ型式の装置を用いるもの［２］	using devices of a triode or transistor type requiring continuous application of a control signal [2]
+H02M   5/456  \	5	5	5H750	H02M   5/456	0	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   5/458  \	5	5	5H750	H02M   5/458	172	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   5/46  \	2	2	5H750	H02M   5/46	1	非静止型変換器によるもの	by dynamic converters
+H02M   5/48  \	2	2	5H750	H02M   5/48	46	静止型変換器と非静止型変換器との組み合わせによるもの；回転電機と他の非静止または静止型変換器との組み合わせによるもの	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters
+H02M   7/00  \	0	0	5H006	H02M   7/00	778	交流入力一直流出力変換；直流入力―交流出力変換	Conversion of ac power input into dc power output; Conversion of dc power input into ac power output
+H02M   7/00  A	0	0	5H006	H02M   7/00	31	メツキ用整流電源	Rectified electric power supplies for plating
+H02M   7/00  Z	0	0	5H006	H02M   7/00	85	その他のもの	Others
+H02M   7/02  \	1	1	5H006	H02M   7/02	39	交流入力―直流出力変換であって非可逆的なもの	Conversion of ac power input into dc power output without possibility of reversal
+H02M   7/04  \	2	2	5H006	H02M   7/04	302	静止型変換器によるもの	by static converters
+H02M   7/04  A	2	0	5H006	H02M   7/04	499	容器	Containers
+H02M   7/04  B	2	0	5H006	H02M   7/04	728	風冷	Air-cooled
+H02M   7/04  C	2	0	5H006	H02M   7/04	701	液冷	Liquid-cooled
+H02M   7/04  D	2	0	5H006	H02M   7/04	1147	組立枠体	Assembly frames
+H02M   7/04  E	2	0	5H006	H02M   7/04	529	変圧器等との組合せ	Combinations with transformers
+H02M   7/04  F	2	0	5H006	H02M   7/04	98	回転整流器	Rotary rectifiers
+H02M   7/04  G	2	0	5H006	H02M   7/04	1	水銀整流器と変圧器との結合	Combinations of mercury rectifier and transformer
+H02M   7/04  H	2	0	5H006	H02M   7/04	85	水銀整流器による回路	Circuits by mercury rectifier
+H02M   7/04  Z	2	0	5H006	H02M   7/04	676	その他のもの〔装置雑〕	Others (miscellaneous devices)
+H02M   7/06  \	3	3	5H006	H02M   7/06	636	制御電極をもたない放電管または制御電極をもたない半導体装置を用いるもの	using discharge tubes without control electrode or semiconductor devices without control electrode
+H02M   7/06  A	3	0	5H006	H02M   7/06	1990	平滑	Smooth
+H02M   7/06  B	3	0	5H006	H02M   7/06	114	可飽和リアクタ	Saturable reactors
+H02M   7/06  C	3	0	5H006	H02M   7/06	58	発光ダイオ−ド	Light emitting diodes
+H02M   7/06  D	3	0	5H006	H02M   7/06	16	Ｌ制御ダイオ−ド	L-control diodes
+H02M   7/06  E	3	0	5H006	H02M   7/06	379	ダイオ−ド回路	Diode circuits
+H02M   7/06  F	3	0	5H006	H02M   7/06	278	タツプ付回路	Circuits with tap
+H02M   7/06  G	3	0	5H006	H02M   7/06	1156	ブリツジ	Bridges
+H02M   7/06  H	3	0	5H006	H02M   7/06	1336	保護	Protection
+H02M   7/06  J	3	0	5H006	H02M   7/06	990	フライバツク整流装置〔整流器を含まないフライバツクトランス→Ｈ０１Ｆ〕	Flyback rectifiers (flyback transformers not including rectifier R H 01 F)
+H02M   7/06  K	3	0	5H006	H02M   7/06	238	フライバツク整流回路	Flyback rectification circuits
+H02M   7/06  L	3	0	5H006	H02M   7/06	85	降圧整流	Step-down rectification
+H02M   7/06  M	3	0	5H006	H02M   7/06	252	３相交流（Ｈ１１　新設）	Three-phase AC (Newly established in H11.)
+H02M   7/06  N	3	0	5H006	H02M   7/06	512	突入電流防止（Ｈ１１　新設）	Preventing rush-in currents (Newly established in H11.)
+H02M   7/06  P	3	0	5H006	H02M   7/06	594	力率改善（Ｈ１１　新設）	Improving power factors (Newly established in H11.)
+H02M   7/06  S	3	0	5H006	H02M   7/06	578	切換，例．全波−倍圧（Ｈ１１　新設）	Switching, e.g.  Full wave - double voltage (Newly established in H11.)
+H02M   7/06  T	3	0	5H006	H02M   7/06	174	多相化（Ｈ１１　新設）	Multiple phasing (Newly established in H11.)
+H02M   7/06  U	3	1	5H006	H02M   7/06	66	特殊なトランスを用いるもの（Ｈ１１　新設）	using special transformers (Newly established in H11.)
+H02M   7/06  V	3	0	5H006	H02M   7/06	686	多出力（Ｈ１１　新設）	Multiple outputs (Newly established in H11.)
+H02M   7/06  Z	3	0	5H006	H02M   7/06	770	その他のもの〔回路雑〕	Others (miscellaneous circuits)
+H02M   7/08  \	4	4	5H006	H02M   7/08	522	並列動作のために配設されたもの	arranged for operation in parallel
+H02M   7/10  \	4	4	5H006	H02M   7/10	191	直列動作，例．電圧の増倍，のために配設されたもの	arranged for operation in series, e.g. for multiplication of voltage
+H02M   7/10  A	4	0	5H006	H02M   7/10	278	多段	Multiple steps
+H02M   7/10  B	4	0	5H006	H02M   7/10	605	多倍圧装置	Voltage  multiplier
+H02M   7/10  Z	4	0	5H006	H02M   7/10	1089	その他のもの〔多倍圧回路〕〔テレビの高圧供給回路→Ｈ０４Ｎ〕	Others (voltage multiplication circuits) (high voltage supply circuits for TV  R H 04 N)
+H02M   7/12  \	3	3	5H006	H02M   7/12	92	制御電極をもつ放電管または制御電極をもつ半導体装置を用いるもの	using discharge tubes with control electrode or semiconductor devices with control electrode
+H02M   7/12  A	3	0	5H006	H02M   7/12	924	制御（Ｈ１１　新設）	Control (Newly established in H11.)
+H02M   7/12  B	3	1	5H006	H02M   7/12	582	ＰＷＭ（Ｈ１１　新設）	PWM (Newly established in H11.)
+H02M   7/12  C	3	1	5H006	H02M   7/12	254	ディジタル制御（Ｈ１１　新設）	Digital control (Newly established in H11.)
+H02M   7/12  D	3	1	5H006	H02M   7/12	84	ベクトル制御（Ｈ１１　新設）	Vector control (Newly established in H11.)
+H02M   7/12  F	3	0	5H006	H02M   7/12	337	交流を直接スイッチングするもの〔除，ブリッジ〕（Ｈ１１　新設）	Starting or shutting off (excluding bridges) (Newly established in H11.)
+H02M   7/12  G	3	0	5H006	H02M   7/12	1145	起動・停止（Ｈ１１　新設）	Starting or shutting off (Newly established in H11.)
+H02M   7/12  H	3	0	5H006	H02M   7/12	2263	保護（Ｈ１１　新設）	Protection (Newly established in H11.)
+H02M   7/12  J	3	0	5H006	H02M   7/12	216	スナバ（Ｈ１１　新設）	Snubbers (Newly established in H11.)
+H02M   7/12  K	3	0	5H006	H02M   7/12	178	スイッチング部に特徴のあるもの（Ｈ１１　新設）	characterised by switching (Newly established in H11.)
+H02M   7/12  L	3	1	5H006	H02M   7/12	52	スイッチング素子の兼用（Ｈ１１　新設）	Sharing switching elements (Newly established in H11.)
+H02M   7/12  M	3	0	5H006	H02M   7/12	799	３相交流（Ｈ１１　新設）	Three-phase AC (Newly established in H11.)
+H02M   7/12  N	3	0	5H006	H02M   7/12	741	突入電流防止（Ｈ１１　新設）	Preventing rush-in currents (Newly established in H11.)
+H02M   7/12  P	3	0	5H006	H02M   7/12	1212	力率改善（Ｈ１１　新設）	Improving power factors (Newly established in H11.)
+H02M   7/12  Q	3	1	5H006	H02M   7/12	2213	チョッパによるもの（Ｈ１１　新設）	by choppers (Newly established in H11.)
+H02M   7/12  R	3	1	5H006	H02M   7/12	562	絶縁型コンバータによるもの（Ｈ１１　新設）	by insulated converters (Newly established in H11.)
+H02M   7/12  S	3	0	5H006	H02M   7/12	513	切換，例．全波−倍圧（Ｈ１１　新設）	Switching, e.g. full wave - double voltage (Newly established in H11.)
+H02M   7/12  T	3	0	5H006	H02M   7/12	319	多相化（Ｈ１１　新設）	Multiple phasing (Newly established in H11.)
+H02M   7/12  U	3	1	5H006	H02M   7/12	57	特殊なトランスを用いるもの（Ｈ１１　新設）	using special transformers (Newly established in H11.)
+H02M   7/12  V	3	0	5H006	H02M   7/12	505	多出力（Ｈ１１　新設）	Multiple outputs (Newly established in H11.)
+H02M   7/12  W	3	0	5H006	H02M   7/12	1110	並列（Ｈ１１　新設）	Parallel (Newly established in H11.)
+H02M   7/12  X	3	0	5H006	H02M   7/12	694	直列（Ｈ１１　新設）	Series (Newly established in H11.)
+H02M   7/12  Y	3	0	5H006	H02M   7/12	250	補助電源（制御回路等の電源）（Ｈ１１　新設）	Auxiliary power supplies (control power supplies) (Newly established in H11.)
+H02M   7/12  Z	3	0	5H006	H02M   7/12	188	その他のもの（Ｈ１１　新設）	Others (Newly established in H11.)
+H02M   7/12 601 \	4	4	5H006	H02M   7/12	25	ブリッジ（Ｈ１１　新設）	Bridges (Newly established in H11.)
+H02M   7/12 601 A	4	0	5H006	H02M   7/12	301	フルブリッジ（Ｈ１１　新設）	Full bridges (Newly established in H11.)
+H02M   7/12 601 B	4	0	5H006	H02M   7/12	764	混合ブリッジ（Ｈ１１　新設）	Mixed bridges (Newly established in H11.)
+H02M   7/12 601 C	4	0	5H006	H02M   7/12	21	電流型（Ｈ１１　新設）	Current type (Newly established in H11.)
+H02M   7/12 601 D	4	0	5H006	H02M   7/12	258	３レベル，中性点クランプ（Ｈ１１　新設）	Three-level, neutral point clamp (Newly established in H11.)
+H02M   7/12 601 Z	4	0	5H006	H02M   7/12	29	その他のもの（Ｈ１１　新設）	Others (Newly established in H11.)
+H02M   7/145  \	4	4	5H006	H02M   7/145	84	消弧手段を必要とするサイラトロンまたはサイリスタ型式の装置を用いるもの［２，４］	using devices of a thyratron or thyristor type requiring extinguishing means [2,4]
+H02M   7/15  \	5	5	5H006	H02M   7/15	0	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   7/155  \	5	5	5H006	H02M   7/155	413	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   7/155  A	5	0	5H006	H02M   7/155	331	消弧手段をもつもの	with means for extinguishing arcs
+H02M   7/155  B	5	0	5H006	H02M   7/155	119	オンパルス	On pulses
+H02M   7/155  C	5	0	5H006	H02M   7/155	650	ゲ−ト	Gates
+H02M   7/155  D	5	0	5H006	H02M   7/155	86	バイパス手段をもつもの	with bypassing means
+H02M   7/155  E	5	0	5H006	H02M   7/155	69	インバ−タ〔ＩＶ〕	Inverters (IV)
+H02M   7/155  F	5	0	5H006	H02M   7/155	180	起動，停止	Starting or shutting off
+H02M   7/155  G	5	0	5H006	H02M   7/155	731	保護	Protection
+H02M   7/155  Z	5	0	5H006	H02M   7/155	481	その他のもの〔主回路〕	Others (main circuits)
+H02M   7/162  \	6	6	5H006	H02M   7/162	253	ブリッジ構成におけるもの［４］	in a bridge configuration [4]
+H02M   7/17  \	6	6	5H006	H02M   7/17	447	並列動作のために配設されたもの［２，４］	arranged for operation in parallel [2,4]
+H02M   7/19  \	6	6	5H006	H02M   7/19	269	直列動作のために配設されたもの，例．電圧増倍のためのもの［２，４］	arranged for operation in series, e.g. for voltage multiplication [2,4]
+H02M   7/21  \	4	4	5H006	H02M   7/21	98	制御信号の連続的印加を必要とする三極管またはトランジスタ型式の装置を用いるもの［２，４］	using devices of a triode or transistor type requiring continuous application of a control signal [2,4]
+H02M   7/21  A	4	0	5H006	H02M   7/21	904	同期整流回路	Synchronous rectification circuits
+H02M   7/21  Z	4	0	5H006	H02M   7/21	1033	その他のもの〔信号の整流回路→Ｈ０３Ｄ〕	Others (signal rectification circuits R H 03 D)
+H02M   7/213  \	5	5	5H006	H02M   7/213	2	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   7/217  \	5	5	5H006	H02M   7/217	820	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   7/219  \	6	6	5H006	H02M   7/219	534	ブリッジ構成におけるもの［４］	in a bridge configuration [4]
+H02M   7/23  \	6	6	5H006	H02M   7/23	85	並列動作のために配設されたもの［２，４］	arranged for operation in parallel [2,4]
+H02M   7/25  \	6	6	5H006	H02M   7/25	58	直列動作のために配設されたもの，例．電圧の増倍のためのもの［２，４］	arranged for operation in series, e.g. for multiplication of voltage [2,4]
+H02M   7/26  \	3	3	5H006	H02M   7/26	5	火花間隙装置，例．マルクス型整流装置を用いるもの	using open-spark devices, e.g. Marx rectifier
+H02M   7/28  \	3	3	5H006	H02M   7/28	5	電解型整流器を用いるもの	using electrolytic rectifiers
+H02M   7/30  \	2	2	5H006	H02M   7/30	3	非静止型変換器によるもの	by dynamic converters
+H02M   7/32  \	3	3	5H006	H02M   7/32	103	機械的開閉接点部品を用いるもの	using mechanical contact-making and -breaking parts
+H02M   7/34  \	4	4	5H006	H02M   7/34	58	接点部品は回転し，集電子はブラシまたはローラと共動するもの	wherein the parts are rotating and collectors co-operate with brushes or rollers
+H02M   7/36  \	4	4	5H006	H02M   7/36	158	電磁的に操作される振動接点，例．チョッパをもつもの	with electromagnetically-operated vibrating contacts, e.g. chopper
+H02M   7/38  \	3	3	5H006	H02M   7/38	0	片方の電極の上を回転する１または複数の火花電極を用いるもの	using one or more sparking electrodes rotating over counterelectrodes
+H02M   7/40  \	2	2	5H006	H02M   7/40	7	静止型変換器と非静止型変換器との組合わせによるもの；回転電機と他の非静止または静止型変換器との組合わせによるもの	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters
+H02M   7/42  \	1	1	5H770	H02M   7/42	84	直流入力―交流出力変換であって非可逆的なもの	Conversion of dc power input into ac power output without possibility of reversal
+H02M   7/44  \	2	2	5H770	H02M   7/44	166	静止型変換器によるもの	by static converters
+H02M   7/46  \	3	3	5H770	H02M   7/46	16	制御電極をもたない放電管または制御電極をもたない半導体装置を用いるもの	using discharge tubes without control electrode or semiconductor devices without control electrode
+H02M   7/48  \	3	3	5H770	H02M   7/48	1902	制御電極をもつ放電管または制御電極をもつ半導体装置を用いるもの［１，２００７．０１］	using discharge tubes with control electrode or semiconductor devices with control electrode [1,2007.01]
+H02M   7/48  A	3	0	5H770	H02M   7/48	1882	共振回路を有するもの	with resonant circuits
+H02M   7/48  P	3	1	5H770	H02M   7/48	737	負荷以外に共振回路を有するもの	with resonant circuit besides load
+H02M   7/48  B	3	0	5H770	H02M   7/48	83	時分割形	Time-sharing type
+H02M   7/48  R	3	0	5H770	H02M   7/48	3736	系統連系	System cooperation
+H02M   7/48  S	3	0	5H770	H02M   7/48	271	直列	Series
+H02M   7/48  T	3	0	5H770	H02M   7/48	609	多入力、多出力	Multiple inputs and outputs
+H02M   7/48  U	3	0	5H770	H02M   7/48	474	多段	Multi-step
+H02M   7/48  E	3	0	5H770	H02M   7/48	6896	出力制御回路	Output control circuits
+H02M   7/48  F	3	1	5H770	H02M   7/48	6199	ＰＷＭ	PWM (Newly established in H11.)
+H02M   7/48  V	3	2	5H770	H02M   7/48	141	瞬時値ＰＷＭ	Instantaneous PWM value
+H02M   7/48  W	3	3	5H770	H02M   7/48	139	円近似	Circular approximation
+H02M   7/48  X	3	2	5H770	H02M   7/48	126	特殊波形	Special waveforms
+H02M   7/48  G	3	1	5H770	H02M   7/48	311	パルス幅制御	Pulse width control
+H02M   7/48  H	3	1	5H770	H02M   7/48	610	デジタル制御	Digital control
+H02M   7/48  J	3	1	5H770	H02M   7/48	1139	マイコンを応用したもの	using microcomputers
+H02M   7/48  K	3	1	5H770	H02M   7/48	696	変換回路で生じるエネルギ−の回生	Regenerating energy generated by converting circuits
+H02M   7/48  Y	3	1	5H770	H02M   7/48	815	力率改善装置を有するもの	with power factor improvement devices
+H02M   7/48  L	3	0	5H770	H02M   7/48	2063	起動又は停止	Starting or shutting off
+H02M   7/48  M	3	0	5H770	H02M   7/48	9602	保護	Protection
+H02M   7/48  N	3	0	5H770	H02M   7/48	1127	無停電	Uninterruptive
+H02M   7/48  Z	3	0	5H770	H02M   7/48	12466	その他のもの	Others
+H02M   7/483  \	4	4	5H770	H02M   7/483	807	出力として３値以上の異なる電圧レベルをもつことが可能な変換器［２００７．０１］	Converters with outputs that each can have more than two voltage levels [2007.01]
+H02M   7/487  \	5	5	5H770	H02M   7/487	863	中性点クランプ式インバータ［２００７．０１］	Neutral point clamped inverters [2007.01]
+H02M   7/49  \	5	5	5H770	H02M   7/49	833	複数の変換器の出力電圧を重畳させたもの［２００７．０１］	Combination of the output voltage waveforms of a plurality of converters [2007.01]
+H02M   7/493  \	4	4	5H770	H02M   7/493	2256	並列動作するように配置された静止型変換器［２００７．０１］	the static converters being arranged for operation in parallel [2007.01]
+H02M   7/497  \	4	4	5H770	H02M   7/497	649	位相が異なる複数の電圧波形の重ね合わせにより正弦波状出力電圧が得られるもの［２００７．０１］	sinusoidal output voltages being obtained by combination of several voltages being out of phase [2007.01]
+H02M   7/501  \	4	4	5H770	H02M   7/501	119	振幅とパルス幅が異なる複数のパルス電圧波形の重ね合わせにより正弦波状出力電圧が得られるもの［２００７．０１］	sinusoidal output voltages being obtained by the combination of several pulse-voltages having different amplitude and width [2007.01]
+H02M   7/505  \	4	4	5H770	H02M   7/505	3	消弧手段を必要とするサイラトロンまたはサイリスタ型式の装置を用いるもの［２］	using devices of a thyratron or thyristor type requiring extinguishing means [2]
+H02M   7/51  \	5	5	5H770	H02M   7/51	165	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   7/515  \	5	5	5H770	H02M   7/515	237	半導体装置のみを用いるもの［２，２００７．０１］	using semiconductor devices only [2,2007.01]
+H02M   7/515  A	5	0	5H770	H02M   7/515	690	転流回路に特徴を有するもの	characterised by commutation circuits
+H02M   7/515  B	5	1	5H770	H02M   7/515	151	補助電源を有するもの	with auxiliary power supplies
+H02M   7/515  C	5	0	5H770	H02M   7/515	231	多相，多重化	Multiple phasing or multiplexing
+H02M   7/515  D	5	0	5H770	H02M   7/515	420	ＧＴＯ，逆導通サイリスタ又はトライアツクを用いるもの	using GTO, reverse conducting thyristors or TRIACs
+H02M   7/515  E	5	0	5H770	H02M   7/515	721	出力制御又は点弧回路	Output control or ignition circuits
+H02M   7/515  F	5	1	5H770	H02M   7/515	158	余裕角制御	Margin angle control
+H02M   7/515  G	5	0	5H770	H02M   7/515	467	保護	Protection
+H02M   7/515  H	5	1	5H770	H02M   7/515	337	転流失敗保護	Commutation failure protection
+H02M   7/515  J	5	0	5H770	H02M   7/515	398	起動又は停止	Starting or shutting off
+H02M   7/515  Z	5	0	5H770	H02M   7/515	371	その他のもの	Others
+H02M   7/516  \	6	6	5H770	H02M   7/516	40	自励発振装置［２００７．０１］	Self-oscillating arrangements [2007.01]
+H02M   7/517  \	6	6	5H770	H02M   7/517	2	特殊起動機器を有するもの［４］	with special starting equipment [4]
+H02M   7/519  \	6	6	5H770	H02M   7/519	7	プッシュプル構成におけるもの（Ｈ０２Ｍ７／５１７が優先）［４］	in a push-pull configuration (H02M 7/517 takes precedence) [4]
+H02M   7/521  \	6	6	5H770	H02M   7/521	267	ブリッジ構成におけるもの［４］	in a bridge configuration [4]
+H02M   7/523  \	6	6	5H770	H02M   7/523	23	主回路にＬＣ共振回路を有するもの［４］	with LC-resonance circuit in the main circuit [4]
+H02M   7/525  \	6	6	5H770	H02M   7/525	9	出力波形または周波数の自動制御を有するもの（Ｈ０２Ｍ７／５１７〜Ｈ０２Ｍ７／５２３が優先）［４］	with automatic control of output waveform or frequency (H02M 7/517-H02M 7/523 take precedence) [4]
+H02M   7/527  \	7	7	5H770	H02M   7/527	31	パルス幅変調によるもの［４］	by pulse width modulation [4]
+H02M   7/529  \	8	8	5H770	H02M   7/529	0	デジタル制御を使用するもの［４］	using digital control [4]
+H02M   7/53  \	4	4	5H770	H02M   7/53	3	制御信号の連続的印加を必要とする三極管またはトランジスタ型式の装置を用いるもの［２］	using devices of a triode or transistor type requiring continuous application of a control signal [2]
+H02M   7/533  \	5	5	5H770	H02M   7/533	7	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   7/537  \	5	5	5H770	H02M   7/537	372	半導体装置のみを用いるもの（例．１石型インバータ）［２］	using semiconductor devices only, e.g. single switched pulse inverters [2]
+H02M   7/537  A	5	0	5H770	H02M   7/537	848	１石形	One-stone type
+H02M   7/537  B	5	0	5H770	H02M   7/537	737	起動，停止又は保護	Starring, stopping or protection
+H02M   7/537  C	5	1	5H770	H02M   7/537	744	同時導通防止	Preventing simultaneous conducting
+H02M   7/537  D	5	1	5H770	H02M   7/537	268	偏磁防止	Preventing magnetic deviations
+H02M   7/537  E	5	0	5H770	H02M   7/537	489	ＦＥＴを用いるもの	using FET
+H02M   7/537  Z	5	0	5H770	H02M   7/537	617	その他のもの	Others
+H02M   7/5375  \	6	6	5H770	H02M   7/5375	8	特殊起動機器を有するもの［４］	with special starting equipment [4]
+H02M   7/538  \	6	6	5H770	H02M   7/538	975	プッシュプル構成におけるもの（Ｈ０２Ｍ７／５３７５が優先）［４，２００７．０１］	in a push-pull configuration (H02M 7/5375 takes precedence) [4,2007.01]
+H02M   7/538  A	6	0	5H770	H02M   7/538	423	シングルエンデツドプツシユプル	Single ended push-pull
+H02M   7/538  Z	6	0	5H770	H02M   7/538	220	その他	Others
+H02M   7/5381  \	7	7	5H770	H02M   7/5381	906	並列型のもの［２００７．０１］	Parallel type [2007.01]
+H02M   7/5383  \	6	6	5H770	H02M   7/5383	589	自励発振装置におけるもの（Ｈ０２Ｍ７／５３８が優先）［４，２００７．０１］	in a self-oscillating arrangement (H02M 7/538 takes precedence) [4,2007.01]
+H02M   7/53838  \	7	7	5H770	H02M   7/53838	1	単一の転流路を用いるもの［２００７．０１］	using a single commutation path [2007.01]
+H02M   7/53846  \	7	7	5H770	H02M   7/53846	8	制御回路［２００７．０１］	Control circuits [2007.01]
+H02M   7/53854  \	8	8	5H770	H02M   7/53854	5	サイリスタ変換器用［２００７．０１］	using thyristor type converters [2007.01]
+H02M   7/53862  \	8	8	5H770	H02M   7/53862	162	トランジスタ変換器用［２００７．０１］	using transistor type converters [2007.01]
+H02M   7/5387  \	6	6	5H770	H02M   7/5387	1295	ブリッジ構成におけるもの［４，２００７．０１］	in a bridge configuration [4,2007.01]
+H02M   7/5387  A	6	0	5H770	H02M   7/5387	489	ハ−フブリツジ	Half-bridges
+H02M   7/5387  Z	6	0	5H770	H02M   7/5387	2073	その他	Others
+H02M   7/5388  \	7	7	5H770	H02M   7/5388	69	非対称のスイッチング素子の配列を持つもの［２００７．０１］	with asymmetrical configuration of switches [2007.01]
+H02M   7/539  \	6	6	5H770	H02M   7/539	7	出力波形または周波数の自動制御を有するもの（Ｈ０２Ｍ７／５３７５〜Ｈ０２Ｍ７／５３８７が優先）［４］	with automatic control of output wave form or frequency (H02M 7/5375-H02M 7/5387 take precedence) [4]
+H02M   7/5395  \	7	7	5H770	H02M   7/5395	43	パルス幅変調によるもの［４］	by pulse-width modulation [4]
+H02M   7/54  \	2	2	5H770	H02M   7/54	86	非静止型変換器によるもの	by dynamic converters
+H02M   7/56  \	3	3	5H770	H02M   7/56	0	入力電圧を累進的に選択しまたは連続的に変化させるために機械的部品を用いるもの	using mechanical parts to select progressively, or to vary continuously, the input potential
+H02M   7/58  \	3	3	5H770	H02M   7/58	2	単一電源を断続するために機械的開閉接点部品を用いるもの	using mechanical contact-making and -breaking parts to interrupt a single potential
+H02M   7/60  \	4	4	5H770	H02M   7/60	42	接点部品は回転し，集電子はブラシまたはローラと共動するもの	wherein the parts are rotating and collectors co-operate with brushes or rollers
+H02M   7/62  \	4	4	5H770	H02M   7/62	1	電磁的に操作される振動接点，例．チョッパをもつもの	with electromagnetically-operated vibrating contacts, e.g. chopper
+H02M   7/64  \	2	2	5H770	H02M   7/64	9	静止型変換器と非静止型変換器との組合わせによるもの；回転電機と他の非静止または静止型変換器との組合わせによるもの	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters
+H02M   7/66  \	1	1	5H770	H02M   7/66	101	可逆的なもの	with possibility of reversal
+H02M   7/68  \	2	2	5H770	H02M   7/68	8	静止型変換器によるもの	by static converters
+H02M   7/70  \	3	3	5H770	H02M   7/70	0	制御電極をもたない放電管または制御電極をもたない半導体装置を用いるもの	using discharge tubes without control electrode or semiconductor devices without control electrode
+H02M   7/72  \	3	3	5H770	H02M   7/72	248	制御電極をもつ放電管または制御電極をもつ半導体装置を用いるもの	using discharge tubes with control electrode or semiconductor devices with control electrode
+H02M   7/75  \	4	4	5H770	H02M   7/75	36	消弧手段を必要とするサイラトロンまたはサイリスタ型式の装置を用いるもの［２］	using devices of a thyratron or thyristor type requiring extinguishing means
+H02M   7/753  \	5	5	5H770	H02M   7/753	7	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   7/757  \	5	5	5H770	H02M   7/757	290	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   7/758  \	6	6	5H770	H02M   7/758	3	出力波形または周波数の自動制御を有するもの［４］	with automatic control of output waveform or frequency [4]
+H02M   7/77  \	5	5	5H770	H02M   7/77	12	並列操作のために配設されたもの［２］	arranged for operation in parallel [2]
+H02M   7/79  \	4	4	5H770	H02M   7/79	20	制御信号の連続的印加を必要とする三極管またはトランジスタ型式の装置を用いるもの［２］	using devices of a triode or transistor type requiring continuous application of a control signal
+H02M   7/793  \	5	5	5H770	H02M   7/793	0	電子管のみを用いるもの［２］	using discharge tubes only [2]
+H02M   7/797  \	5	5	5H770	H02M   7/797	554	半導体装置のみを用いるもの［２］	using semiconductor devices only [2]
+H02M   7/81  \	5	5	5H770	H02M   7/81	5	並列操作のために配設されたもの［２］	arranged for operation in parallel [2]
+H02M   7/82  \	3	3	5H770	H02M   7/82	0	火花間隙装置，例．マルクス型整流装置を用いるもの	using open-spark devices, e.g. Marx rectifier
+H02M   7/84  \	3	3	5H770	H02M   7/84	0	電解型整流器を用いるもの	using electrolytic rectifiers
+H02M   7/86  \	2	2	5H770	H02M   7/86	3	非静止型変換器によるもの	by dynamic converters
+H02M   7/88  \	3	3	5H770	H02M   7/88	13	入力電圧を累進的に選択しまたは連続的に変化させるために機械的部品を用いるもの	using mechanical parts to select progressively or to vary continuously the input potential
+H02M   7/90  \	3	3	5H770	H02M   7/90	0	単一電源を断続するために機械的開閉接点部品を用いるもの	using mechanical contact-making and -breaking parts to interrupt a single potential
+H02M   7/92  \	4	4	5H770	H02M   7/92	4	接点部品は回転し，集電子はブラシまたはローラと共動するもの	wherein the parts are rotating and collectors co-operate with brushes or rollers
+H02M   7/94  \	4	4	5H770	H02M   7/94	1	接点部品は回転カムまたはカム状装置により操作されるもの	wherein the parts are operated by rotating cams or cam-like devices
+H02M   7/95  \	4	4	5H770	H02M   7/95	171	電磁的に操作される振動接点，例．チョッパをもつもの	with electromagnetically-operated vibrating contacts, e.g. chopper
+H02M   7/96  \	4	4	5H770	H02M   7/96	0	可動液体接点をもつもの	with moving liquid contacts
+H02M   7/98  \	2	2	5H770	H02M   7/98	3	静止型変換器と非静止型変換器との組合わせによるもの；回転電機と他の非静止または静止型変換器との組合わせによるもの	by combination of static with dynamic converters; by combination of dynamo-electric with other dynamic or static converters
+H02M   9/00  \	0	0	5H790	H02M   9/00	7	直流または交流入力―サージ出力変換［２］	Conversion of dc or ac input power into surge output power [2]
+H02M   9/00  A	0	0	5H790	H02M   9/00	187	核融合装置用電源	Electric power supplies for nuclear fusion arrangements
+H02M   9/00  B	0	0	5H790	H02M   9/00	698	溶接機用電源	Electric power supplies for welding machines
+H02M   9/00  C	0	0	5H790	H02M   9/00	30	さい断装置	Shearing devices
+H02M   9/00  D	0	0	5H790	H02M   9/00	268	点火回路	Ignition circuits
+H02M   9/00  Z	0	0	5H790	H02M   9/00	246	その他	Others
+H02M   9/02  \	1	1	5H790	H02M   9/02	208	直流入力によるもの［２］	with dc input power [2]
+H02M   9/04  \	2	2	5H790	H02M   9/04	28	蓄電器を用いるもの［２］	using capacitative stores [2]
+H02M   9/04  A	2	0	5H790	H02M   9/04	187	蓄電器の並列充電，直列充電	Parallel or series charging condensers
+H02M   9/04  B	2	0	5H790	H02M   9/04	153	蓄電器と放電ギヤツプを用いるもの	using condensers and charging gaps
+H02M   9/04  C	2	0	5H790	H02M   9/04	446	蓄電器，スイツチ，トランスを用いるもの	using condensers, switches or transformers
+H02M   9/04  Z	2	0	5H790	H02M   9/04	379	その他	Others
+H02M   9/06  \	1	1	5H790	H02M   9/06	6	交流入力によるもの［２］	with ac input power [2]
+H02M   9/06  A	1	0	5H790	H02M   9/06	66	蓄電器を用いるもの	using condensers
+H02M   9/06  B	1	0	5H790	H02M   9/06	88	蓄電器の並列充電，直列充電	Parallel or series charging condensers
+H02M   9/06  C	1	0	5H790	H02M   9/06	29	蓄電器と放電ギヤツプを用いるもの	using condensers and charging gaps
+H02M   9/06  D	1	0	5H790	H02M   9/06	211	蓄電器，スイツチ，トランスを用いるもの	using condensers, switches or transformers
+H02M   9/06  Z	1	0	5H790	H02M   9/06	154	その他	Others
+H02M  11/00  \	0	0	5H790	H02M  11/00	37	このサブクラスの他のグループに包含されない電力変換システム［４］	Power conversion systems not covered by the other groups of this subclass [4]

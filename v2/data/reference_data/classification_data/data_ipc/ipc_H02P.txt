@@ -1,0 +1,287 @@
+H02P   1/00		電動機または回転変換機を起動するための装置（電子整流子を有する同期電動機の起動Ｈ０２Ｐ６／２０，Ｈ０２Ｐ６／２２；ステップ回転する電動機の起動Ｈ０２Ｐ８／０４；ベクトル制御Ｈ０２Ｐ２１／００）［２００６．０１］	Arrangements for starting electric motors or dynamo-electric converters(starting of synchronous motors with electronic commutators H02P6/20, H02P6/22; starting dynamo-electric motors rotating step by step H02P8/04; vector control H02P21/00)	2191
+H02P   1/02	・	細部［２００６．０１］	Details	2958
+H02P   1/04	・・	時間または電流，速度または他の電動機パラメータに従属する起動順序の進行制御手段［２００６．０１］	Means for controlling progress of starting sequence in dependence upon time or upon current, speed, or other motor parameter	1783
+H02P   1/06	・・・	手動操作される多位置起動器［２００６．０１］	Manually-operated multi-position starters	245
+H02P   1/08	・・・	電動機起動用の動力操作される多位置開閉器またはインピーダンスを制御する手動操作されるオンオフ開閉器［２００６．０１］	Manually-operated on/off switch controlling power-operated multi-position switch or impedances for starting a motor	131
+H02P   1/10	・・・	電動機起動用に順次動作する継電器または接触器を制御する手動操作オンオフ開閉器［２００６．０１］	Manually-operated on/off switch controlling relays or contactors operating sequentially for starting a motor	212
+H02P   1/12	・・・	電動機によって遠心的に操作される開閉装置［２００６．０１］	Switching devices centrifugally operated by the motor	296
+H02P   1/14	・・・	電動機によって遠心的に操作される圧力感応抵抗器［２００６．０１］	Pressure-sensitive resistors centrifugally operated by the motor	25
+H02P   1/16	・	電動機または回転変換機を起動するためのもの［２００６．０１］	for starting dynamo-electric motors or dynamo-electric converters	3074
+H02P   1/18	・・	１個の独立した直流電動機を起動するためのもの［２００６．０１］	for starting an individual DC motor	1933
+H02P   1/20	・・・	電機子巻線直列抵抗の漸進的減少によるもの［２００６．０１］	by progressive reduction of resistance in series with armature winding	577
+H02P   1/22	・・・	正逆回転方向のどちらかにおけるもの［２００６．０１］	in either direction of rotation	1989
+H02P   1/24	・・	１個の独立した交流整流子電動機を起動するためのもの（交流―直流整流子電動機の起動Ｈ０２Ｐ１／１８）［２００６．０１］	for starting an individual AC commutator motor(starting of AC/DC commutator motors H02P1/18)	317
+H02P   1/26	・・	１個の独立した多相誘導電動機を起動するためのもの［２００６．０１］	for starting an individual polyphase induction motor	3194
+H02P   1/28	・・・	電動機の１次回路に印加される電圧の漸進的増加によるもの［２００６．０１］	by progressive increase of voltage applied to primary circuit of motor	1360
+H02P   1/30	・・・	電動機の１次回路に印加される周波数の漸進的増加によるもの［２００６．０１］	by progressive increase of frequency of supply to primary circuit of motor	761
+H02P   1/32	・・・	Ｙ―△切換によるもの［２００６．０１］	by star/delta switching	1025
+H02P   1/34	・・・	２次回路インピーダンスの漸進的減少によるもの［２００６．０１］	by progressive reduction of impedance in secondary circuit	507
+H02P   1/36	・・・・	インピーダンスが液体抵抗であるもの［２００６．０１］	the impedance being a liquid resistance	314
+H02P   1/38	・・・	極数変換によるもの［２００６．０１］	by pole-changing	108
+H02P   1/40	・・・	正逆回転方向のどちらかにおけるもの［２００６．０１］	in either direction of rotation	895
+H02P   1/42	・・	１個の独立した単相誘導電動機を起動するためのもの［２００６．０１］	for starting an individual single-phase induction motor	2141
+H02P   1/44	・・・	コンデンサ分相によるもの［２００６．０１］	by phase-splitting with a capacitor	1345
+H02P   1/46	・・	１個の独立した同期電動機を起動するためのもの［２００６．０１］	for starting an individual synchronous motor	1492
+H02P   1/48	・・・	極数変換によるもの［２００６．０１］	by pole-changing	37
+H02P   1/50	・・・	非同期から同期運転への切り換えによるもの（Ｈ０２Ｐ１／４８が優先）［２００６．０１］	by changing over from asynchronous to synchronous operation(H02P1/48 takes precedence)	611
+H02P   1/52	・・・	電動機に供給する周波数の漸進的増加によるもの［２００６．０１］	by progressive increase of frequency of supply to motor	590
+H02P   1/54	・・	２以上の電動機を起動するためのもの［２００６．０１］	for starting two or more dynamo-electric motors	991
+H02P   1/56	・・・	同時的なもの［２００６．０１］	simultaneously	321
+H02P   1/58	・・・	順次的なもの［２００６．０１］	sequentially	916
+H02P   3/00		電動機，発電機または回転変換機を停止または減速するための装置（電子整流子を有する同期電動機の停止Ｈ０２Ｐ６／２４；ステップ回転する電動機の停止Ｈ０２Ｐ８／２４；ベクトル制御Ｈ０２Ｐ２１／００）［２００６．０１］	Arrangements for stopping or slowing electric motors, generators, or dynamo-electric converters(stopping of synchronous motors with electronic commutators H02P6/24; stopping dynamo-electric motors rotating step by step H02P8/24; vector control H02P21/00)	2048
+H02P   3/02	・	細部［２００６．０１］	Details	727
+H02P   3/04	・・	別体の制動機，例．摩擦制動機または渦電流制動機，により停止または減速するための手段［２００６．０１］	Means for stopping or slowing by a separate brake, e.g. friction brake or eddy-current brake	1359
+H02P   3/06	・	１個の電動機または回転変換機の停止または減速のためのもの［２００６．０１］	for stopping or slowing an individual dynamo-electric motor or dynamo-electric converter	2812
+H02P   3/08	・・	直流電動機の停止または減速のためのもの［２００６．０１］	for stopping or slowing a DC motor	2373
+H02P   3/10	・・・	給電接続の反転によるもの［２００６．０１］	by reversal of supply connections	547
+H02P   3/12	・・・	短絡または抵抗制動によるもの［２００６．０１］	by short-circuit or resistive braking	2173
+H02P   3/14	・・・	回生制動によるもの［２００６．０１］	by regenerative braking	1957
+H02P   3/16	・・・	電気的および機械的な制動の組み合わせによるもの［２００６．０１］	by combined electrical and mechanical braking	222
+H02P   3/18	・・	交流電動機の停止または減速のためのもの［２００６．０１］	for stopping or slowing an AC motor	3831
+H02P   3/20	・・・	電動機への接続の相順反転によるもの［２００６．０１］	by reversal of phase sequence of connections to the motor	510
+H02P   3/22	・・・	短絡または抵抗制動によるもの［２００６．０１］	by short-circuit or resistive braking	1865
+H02P   3/24	・・・	電動機への直流供給によるもの［２００６．０１］	by applying DC to the motor	1916
+H02P   3/26	・・・	電気的および機械的な制動の組み合わせによるもの［２００６．０１］	by combined electrical and mechanical braking	368
+H02P   4/00		２以上の異なる電力供給に接続可能な電動機の速度またはトルクを調整または制御するために特に適合した装置（ベクトル制御Ｈ０２Ｐ２１／００）［２００６．０１］	Arrangements specially adapted for regulating or controlling the speed or torque of electric motors that can be connected to two or more different electric power supplies(vector control H02P21/00)	822
+H02P   5/00		２以上の電動機の速度またはトルクの調整または制御に特に適した装置（Ｈ０２Ｐ６／０４，Ｈ０２Ｐ８／４０が優先）［１，８，２０１６．０１］	Arrangements specially adapted for regulating or controlling the speed or torque of two or more electric motors(H02P6/04, H02P8/40 take precedence)	4333
+H02P   5/46	・	互いに関連する２以上の電動機の速度を調整するためのもの［２００６．０１］	for speed regulation of two or more dynamo-electric motors in relation to one another	4079
+H02P   5/48	・・	速度に相当する機械的特性値の比較によるもの［２０１６．０１］	by comparing mechanical values representing the speeds	384
+H02P   5/485	・・・	２つの電動機の差動運動を用いるもの，例．ディファレンシャルギアを用いるもの［２０１６．０１］	using differential movement of the two motors, e.g. using differential gearboxes	160
+H02P   5/49	・・・	電気的接触の断続的な開閉によるもの［２０１６．０１］	by intermittently closing or opening electrical contacts	46
+H02P   5/50	・・	速度に相当する電気的特性値の比較によるもの［２０１６．０１］	by comparing electrical values representing the speeds	1903
+H02P   5/505	・・・	均等化線，例．第１および第２の電動機の回転子および固定子の線図，を用いるもの［２０１６．０１］	using equalising lines, e.g. rotor and stator lines of first and second motors	44
+H02P   5/51	・・・	正比例制御［２０１６．０１］	Direct ratio control	184
+H02P   5/52	・・	相対的な角度変位の付加的な制御［２０１６．０１］	additionally providing control of relative angular displacement	865
+H02P   5/54	・・・	機械的手段による電動機間の速度と位置の比較［２０１６．０１］	Speed and position comparison between the motors by mechanical means	264
+H02P   5/56	・・・	電気的手段による電動機間の速度と位置の比較［２０１６．０１］	Speed and position comparison between the motors by electrical means	252
+H02P   5/60	・	直流および交流電動機の組合せを制御するもの（Ｈ０２Ｐ５／４６が優先）［２００６．０１］	controlling combinations of DC and AC dynamo-electric motors(H02P5/46 takes precedence)	227
+H02P   5/68	・	２以上の直流電動機を制御するもの（Ｈ０２Ｐ５／４６，Ｈ０２Ｐ５／６０が優先）［２００６．０１］	controlling two or more DC dynamo-electric motors(H02P5/46, H02P5/60 take precedence)	2132
+H02P   5/685	・・	電気的に直列接続されたもの，すなわち，同一の電流が流れるもの［２００６．０１］	electrically connected in series, i.e. carrying the same current	212
+H02P   5/69	・・	伝動装置によって機械的に結合されたもの［２００６．０１］	mechanically coupled by gearing	185
+H02P   5/695	・・・	差動伝動装置［２００６．０１］	Differential gearing	97
+H02P   5/74	・	２以上の交流電動機を制御するもの（Ｈ０２Ｐ５／４６，Ｈ０２Ｐ５／６０が優先）［２００６．０１］	controlling two or more AC dynamo-electric motors(H02P5/46, H02P5/60 take precedence)	4416
+H02P   5/747	・・	伝動装置によって機械的に結合されたもの［２００６．０１］	mechanically coupled by gearing	356
+H02P   5/753	・・・	差動伝動装置［２００６．０１］	Differential gearing	95
+H02P   6/00		回転子の位置に依存する電子整流子を用いる同期電動機または他の電動機を制御するための装置；そのための電子整流子（ベクトル制御Ｈ０２Ｐ２１／００）［２０１６．０１］<br><b><ul>注</ul></b><br>グループＨ０２Ｐ６／２６がグループＨ０２Ｐ６／０４〜Ｈ０２Ｐ６／２４およびＨ０２Ｐ６／２８〜Ｈ０２Ｐ６／３４に優先	Arrangements for controlling synchronous motors or other dynamo-electric motors using electronic commutation dependent on the rotor position; Electronic commutators therefor(vector control H02P21/00);<br><br><b><u>Note(s)</u></b><br><br>Group H02P6/26 takes precedence over groups H02P6/04 to H02P6/24  and H02P6/28 to H02P6/34 . 	4267
+H02P   6/04	・	二つ以上の電動機の速度またはトルクを制御または調整するための装置（Ｈ０２Ｐ６／１０が優先）［２０１６．０１］	Arrangements for controlling or regulating the speed or torque of more than one motor(H02P6/10 takes precedence)	1509
+H02P   6/06	・	電動機の速度を調整するために電動機の速度が測定されそれが与えられた物理量と比較される単一の電動機の速度を調整するための装置［２００６．０１］	Arrangements for speed regulation of a single motor wherein the motor speed is measured and compared with a given physical value so as to adjust the motor speed	12264
+H02P   6/08	・	単一の電動機の速度またはトルクを制御するための装置（Ｈ０２Ｐ６／１０，Ｈ０２Ｐ６／２８が優先）［６，２０１６．０１］	Arrangements for controlling the speed or torque of a single motor(H02P6/10, H02P6/28 take precedence)	17134
+H02P   6/10	・	トルクリップルを制御するための装置，例．減少したトルクリップルを提供するもの［２００６．０１］	Arrangements for controlling torque ripple, e.g. providing reduced torque ripple	3278
+H02P   6/12	・	整流の監視；整流故障の表示［２００６．０１］	Monitoring commutation; Providing indication of commutation failure	2867
+H02P   6/14	・	電子整流子［２０１６．０１］	Electronic commutators	2079
+H02P   6/15	・・	転流時間の制御［２０１６．０１］	Controlling commutation time	1166
+H02P   6/16	・・	位置を検知するための回路装置［２０１６．０１］	Circuit arrangements for detecting position	7487
+H02P   6/17	・・・	かつ速度情報を作成するためのものであるもの［２０１６．０１］	and for generating speed information	3299
+H02P   6/18	・・・	別体の位置検知素子を有しないもの［２０１６．０１］	without separate position detecting elements	5958
+H02P   6/182	・・・・	巻線の逆起電力を用いるもの［２０１６．０１］	using back-emf in windings	4714
+H02P   6/185	・・・・	インダクタンスの検出，例．パルス励起，を用いるもの［２０１６．０１］	using inductance sensing, e.g. pulse excitation	515
+H02P   6/20	・	起動するための装置（Ｈ０２Ｐ６／０８が優先）［２０１６．０１］	Arrangements for starting(H02P6/08 takes precedence)	2523
+H02P   6/21	・・	開ループ起動［２０１６．０１］	Open loop start	875
+H02P   6/22	・・	選択した回転方向へのもの［２００６．０１］	in a selected direction of rotation	886
+H02P   6/24	・	停止するための装置［２００６．０１］	Arrangements for stopping	1849
+H02P   6/26	・	単相電動機を制御するための装置［２０１６．０１］	Arrangements for controlling single phase motors	713
+H02P   6/28	・	電流を制御するための装置（Ｈ０２Ｐ６／１０が優先）［２０１６．０１］	Arrangements for controlling current(H02P6/10 takes precedence)	4543
+H02P   6/30	・	回転方向を制御するための装置（Ｈ０２Ｐ６／２２が優先）［２０１６．０１］	Arrangements for controlling the direction of rotation(H02P6/22 takes precedence)	635
+H02P   6/32	・	巻線界磁電動機，例．励起コイルのある電動機，を制御するための装置［２０１６．０１］	Arrangements for controlling wound field motors, e.g. motors with exciter coils	493
+H02P   6/34	・	制御のためのモデリングまたはシミュレーション［２０１６．０１］	 Modelling or simulation for control purposes	956
+H02P   7/00		直流電動機の速度またはトルクを調整または制御するための装置［２０１６．０１］	Arrangements for regulating or controlling the speed or torque of electric DC motors	9411
+H02P   7/02	・	直流電動機がリニアタイプであるもの［２０１６．０１］	the DC motors being of the linear type	167
+H02P   7/025	・・	直流電動機が移動コイルタイプであるもの，例．ボイスコイルモータ［２０１６．０１］	the DC motors being of the moving coil type, e.g. voice coil motors	182
+H02P   7/03	・	直流電動機の回転方向の制御のためのもの［２０１６．０１］	for controlling the direction of rotation of DC motors	2103
+H02P   7/06	・	界磁または電機子の電流の変化による１個の独立した直流電動機の調整または制御のためのもの［２００６．０１］	for regulating or controlling an individual DC dynamo-electric motor by varying field or armature current	6920
+H02P   7/08	・・	補助動力なしの手動制御によるもの［２００６．０１］	by manual control without auxiliary power	194
+H02P   7/10	・・・	電動機界磁のみについてのもの［２００６．０１］	of motor field only	97
+H02P   7/12	・・・・	直巻から分巻励磁へまたはこの逆への界磁切り換え［２００６．０１］	Switching field from series to shunt excitation or <u>vice versa</u>	29
+H02P   7/14	・・・	界磁制御をもつまたはもたない電機子に供給される電圧についてのもの［２００６．０１］	of voltage applied to the armature with or without control of field	263
+H02P   7/18	・・	補助動力をもつ主幹制御によるもの［２００６．０１］	by master control with auxiliary power	579
+H02P   7/20	・・・	継電器により電動機回路を制御する多位置開閉器，例．ドラム，を用いるもの（Ｈ０２Ｐ７／２４，Ｈ０２Ｐ７／３０が優先）［２００６．０１］	using multi-position switch, e.g. drum, controlling motor circuit by means of relays(H02P7/24, H02P7/30 take precedence)	229
+H02P   7/22	・・・	操作電動機で操作される多位置開閉器または操作電動機で操作される可変抵抗器により電動機回路を制御する多位置開閉器，例．ドラム，を用いるもの（Ｈ０２Ｐ７／２４，Ｈ０２Ｐ７／３０が優先）［２００６．０１］	using multi-position switch, e.g. drum, controlling motor circuit by means of pilot-motor-operated multi-position switch or pilot-motor-operated variable resistance(H02P7/24, H02P7/30 take precedence)	59
+H02P   7/24	・・・	放電管または半導体装置を用いるもの［２００６．０１］	using discharge tubes or semiconductor devices	204
+H02P   7/26	・・・・	放電管を用いるもの［２００６．０１］	using discharge tubes	509
+H02P   7/28	・・・・	半導体装置を用いるもの［２０１６．０１］	using semiconductor devices	2741
+H02P   7/281	・・・・・	直流電動機が四象限で操作されるもの［２０１６．０１］<br><b><ul>注</ul></b><br>グループＨ０２Ｐ７／２８１がグループＨ０２Ｐ７／２８２〜Ｈ０２Ｐ７／２９８に優先する	the DC motor being operated in four quadrants; <br><br><b><u>Note(s)</u></b><br><br>Group H02P7/281 takes precedence over groups H02P7/282 to H02P7/298 .	105
+H02P   7/282	・・・・・	界磁電流のみを制御するもの［２０１６．０１］	controlling field supply only	610
+H02P   7/285	・・・・・	電機子供給電圧のみを制御するもの［２０１６．０１］	controlling armature supply only	1004
+H02P   7/288	・・・・・・	可変インピーダンスを用いるもの［２０１６．０１］	using variable impedance	2652
+H02P   7/29	・・・・・・	パルス変調を用いるもの［２０１６．０１］	using pulse modulation	6392
+H02P   7/291	・・・・・・・	二つの目標値間のオンオフ制御，例．ヒステリシスによる制御，をともなうもの［２０１６．０１］	with on-off control between two set points, e.g. controlling by hysteresis	434
+H02P   7/292	・・・・・・	静止型変換器，例．交流から直流へのもの，を用いるもの［２０１６．０１］	using static converters, e.g. AC to DC	2375
+H02P   7/293	・・・・・・・	位相制御を用いるもの（Ｈ０２Ｐ７／２９５が優先）［２０１６．０１］	using phase control(H02P7/295 takes precedence)	516
+H02P   7/295	・・・・・・・	電源および電動機と直列に１つのサイリスタまたは類似のものをもつ種類のもの［２０１６．０１］	of the kind having one thyristor or the like in series with the power supply and the motor	778
+H02P   7/298	・・・・・	電機子および界磁電流を制御するもの［２０１６．０１］	controlling armature and field supplies	1566
+H02P   7/30	・・・	制御可能な飽和度をもつ磁気装置，すなわち可飽和リアクトル，を用いるもの［２００６．０１］	using magnetic devices with controllable degree of saturation, i.e. transductors	243
+H02P   7/32	・・・	電機子反作用で励磁される機械，例．メタダイン，アンプリダイン，ロートトロール，を用いるもの［２００６．０１］	using armature-reaction-excited machines, e.g. metadyne, amplidyne, rototrol	48
+H02P   7/34	・・・	ワードレオナード装置を用いるもの［２０１６．０１］	using Ward-Leonard arrangements	1375
+H02P   7/343	・・・・	発電機と電動機の両方の界磁が制御されるもの［２０１６．０１］	in which both generator and motor fields are controlled	16
+H02P   7/347	・・・・	発電機の界磁のみが制御されるもの［２０１６．０１］	in which only the generator field is controlled	119
+H02P   8/00		ステップ回転する電動機を制御するための装置［２００６．０１］	Arrangements for controlling dynamo-electric motors rotating step by step	6343
+H02P   8/02	・	単相または二極階動電動機，例．ウオッチモータ，クロックモータ，に特に適合したもの［２００６．０１］	specially adapted for single-phase or bi-pole stepper motors, e.g. watch-motors, clock-motors	1002
+H02P   8/04	・	起動装置［２００６．０１］	Arrangements for starting	313
+H02P   8/06	・・	選択された回転方向へのもの［２００６．０１］	in selected direction of rotation	127
+H02P   8/08	・・	起動前の位置の決定［２００６．０１］	Determining position before starting	318
+H02P   8/10	・・	起動用のパルスの形成；起動時の電流の増加［２００６．０１］	Shaping pulses for starting; Boosting current during starting	372
+H02P   8/12	・	電流の制御または安定［２００６．０１］	Control or stabilisation of current	2354
+H02P   8/14	・	速度または速度とトルクを制御するための装置（Ｈ０２Ｐ８／１２，Ｈ０２Ｐ８／２２が優先）［２００６．０１］	Arrangements for controlling speed or speed and torque(H02P8/12, H02P8/22 take precedence)	3418
+H02P   8/16	・・	消費または供給されるエネルギーを減少させるもの［２００６．０１］	Reducing energy dissipated or supplied	378
+H02P   8/18	・・	パルスの形成，例．トルクリップルを減少させるためのもの［２００６．０１］	Shaping of pulses, e.g. to reduce torque ripple	587
+H02P   8/20	・・	正逆転運転に特徴のあるもの［２００６．０１］	characterised by bidirectional operation	555
+H02P   8/22	・	ステップサイズの制御；中間のステップ，例．マイクロステップ［２００６．０１］	Control of step size; Intermediate stepping, e.g. microstepping	1339
+H02P   8/24	・	停止するための装置（Ｈ０２Ｐ８／３２が優先）［２００６．０１］	Arrangements for stopping(H02P8/32 take precedence)	436
+H02P   8/26	・・	停止時に最終パルスを記憶するもの［２００６．０１］	Memorising final pulse when stopping	69
+H02P   8/28	・・	停止時に電源を切るもの［２００６．０１］	Disconnecting power source when stopping	124
+H02P   8/30	・・	停止時に位置を保持するもの［２００６．０１］	Holding position when stopped	409
+H02P   8/32	・	行き過ぎ量または振動を減少するもの，例．ダンピング［２００６．０１］	Reducing overshoot or oscillation, e.g. damping	1049
+H02P   8/34	・	動作を監視するもの（Ｈ０２Ｐ８／３６が優先）［２００６．０１］	Monitoring operation(H02P8/36 takes precedence)	549
+H02P   8/36	・	故障，例．過熱または脱調，に対する保護；故障の表示［２００６．０１］	Protection against faults, e.g. against overheating or step-out; Indicating faults	639
+H02P   8/38	・・	故障が脱調であるもの［２００６．０１］	the fault being step-out	1386
+H02P   8/40	・	二つ以上の階動電動機の制御に特に適合したもの［２００６．０１］	Special adaptations for controlling two or more stepping motors	973
+H02P   8/42	・	階動動作をするように運転される非階動電動機に特徴のあるもの［２００６．０１］	characterised by non-stepper motors being operated step by step	164
+H02P   9/00		所望の出力を得る目的で発電機を制御するための装置［２００６．０１］	Arrangements for controlling electric generators for the purpose of obtaining a desired output	9433
+H02P   9/02	・	細部［２００６．０１］	Details	1563
+H02P   9/04	・	非電気的な原動機からもたらされ発電機の電気的な出力値に依存する制御［２００６．０１］	Control effected upon non-electric prime mover and dependent upon electric output value of the generator	9729
+H02P   9/06	・	クラッチまたは他の機械的な動力伝達手段からもたらされ発電機の電気的な出力値に依存する制御［２００６．０１］	Control effected upon clutch or other mechanical power transmission means and dependent upon electric output value of the generator	789
+H02P   9/08	・	駆動装置の起動時または停止時の発電機回路の制御，例．初期励磁のためのもの［２００６．０１］	Control of generator circuit during starting or stopping of driving means, e.g. for initiating excitation	1871
+H02P   9/10	・	過負荷または過渡時，例．突然の負荷投入，突然の負荷解放，突然の負荷変化，の悪影響を減少するために発電機の励磁回路からもたらされる制御［２００６．０１］	Control effected upon generator excitation circuit to reduce harmful effects of overloads or transients, e.g. sudden application of load, sudden removal of load, sudden change of load	3012
+H02P   9/12	・・	消磁のためのもの；残留磁気の影響を減少するためのもの；磁極の反転防止のためのもの［２００６．０１］	for demagnetising; for reducing effects of remanence; for preventing pole reversal	550
+H02P   9/14	・	界磁の変化によるもの（Ｈ０２Ｐ９／０８，Ｈ０２Ｐ９／１０が優先）［２００６．０１］	by variation of field(H02P9/08, H02P9/10 take precedence)	5044
+H02P   9/16	・・	界磁回路のオーミック抵抗の変化によるもの，段階的に回路に入切する抵抗を用いるもの［２００６．０１］	due to variation of ohmic resistance in field circuit, using resistances switched in or out of circuit step by step	136
+H02P   9/18	・・・	入切がサーボモータ，測定器または継電器により起動されるもの［２００６．０１］	the switching being caused by a servomotor, measuring instrument, or relay	385
+H02P   9/20	・・	連続的に変化するオーミック抵抗の変化によるもの［２００６．０１］	due to variation of continuously-variable ohmic resistance	149
+H02P   9/22	・・・	カーボンパイル抵抗を備えるもの［２００６．０１］	comprising carbon pile resistance	405
+H02P   9/24	・・	断続的に動作する接点の開閉時間比の変化によるもの，例．チリル調整器を用いるもの［２００６．０１］	due to variation of make-to-break ratio of intermittently-operating contacts, e.g. using Tirrill regulator	781
+H02P   9/26	・・	放電管または半導体装置を用いるもの（Ｈ０２Ｐ９／３４が優先）［２００６．０１］	using discharge tubes or semiconductor devices(H02P9/34 takes precedence)	403
+H02P   9/28	・・・	放電管を用いるもの［２００６．０１］	using discharge tubes	28
+H02P   9/30	・・・	半導体装置を用いるもの［２００６．０１］	using semiconductor devices	5296
+H02P   9/32	・・	制御可能な飽和度をもつ磁気装置を用いるもの（Ｈ０２Ｐ９／３４が優先）［２００６．０１］	using magnetic devices with controllable degree of saturation(H02P9/34 takes precedence)	349
+H02P   9/34	・・	制御された放電管または制御された半導体装置と組み合わせた制御可能な飽和度をもつ磁気装置を用いるもの［２００６．０１］	using magnetic devices with controllable degree of saturation in combination with controlled discharge tube or controlled semiconductor device	162
+H02P   9/36	・・	電機子反作用電機を用いるもの［２００６．０１］	using armature-reaction-excited machines	405
+H02P   9/38	・・	発電機の出力電圧と出力電流の両方の整流から引き出される電流による自己励磁［２００６．０１］	Self-excitation by current derived from rectification of both output voltage and output current of generator	873
+H02P   9/40	・	発電器の磁気回路のリラクタンスの変化によるもの［２００６．０１］	by variation of reluctance of magnetic circuit of generator	180
+H02P   9/42	・	発電機の速度を変えずに所望の周波数を得るためのもの［２００６．０１］	to obtain desired frequency without varying speed of the generator	839
+H02P   9/44	・	周波数と電圧の予め決められた関係，例．一定の比率，への制御［２００６．０１］	Control of frequency and voltage in predetermined relation, e.g. constant ratio	319
+H02P   9/46	・	コンデンサの容量変化による非同期発電機の制御［２００６．０１］	Control of asynchronous generator by variation of capacitor	225
+H02P   9/48	・	発電機，例．車両に搭載されたもの，の速度変動時に一定の出力値を得るための装置（Ｈ０２Ｐ９／０４〜Ｈ０２Ｐ９／４６が優先）［２００６．０１］	Arrangements for obtaining a constant output value at varying speed of the generator, e.g. on vehicle(H02P9/04 to H02P9/46  take precedence)	1936
+H02P  11/00		回転変換機を制御するための装置［２００６．０１］	Arrangements for controlling dynamo-electric converters	570
+H02P  11/04	・	直流を出力する回転変換機の制御のためのもの［２００６．０１］	for controlling dynamo-electric converters having a DC output	106
+H02P  11/06	・	交流を出力する回転変換機の制御のためのもの［２００６．０１］	for controlling dynamo-electric converters having an AC output	570
+H02P  13/00		所望出力を得るために変圧器，リアクトルまたはチョークコイル，を制御するための装置［２００６．０１］	Arrangements for controlling transformers, reactors or choke coils, for the purpose of obtaining a desired output	1097
+H02P  13/06	・	タップ切り換えによるもの；巻線の相互接続の再配列によるもの［２００６．０１］	by tap-changing; by rearranging interconnections of windings	988
+H02P  13/08	・	巻線に沿う摺動集電子によるもの［２００６．０１］	by sliding current collector along winding	83
+H02P  13/10	・	可動の鉄心，コイル巻線またはシールドによるもの，例．誘導電圧調整器によるもの［２００６．０１］	by moving core, coil winding, or shield, e.g. by induction regulator	79
+H02P  13/12	・	磁気バイアスを変えることによるもの［２００６．０１］	by varying magnetic bias	135
+H02P  15/00		電動ブレーキまたは電動クラッチを制御するための装置（ベクトル制御Ｈ０２Ｐ２１／００）［２００６．０１］	Arrangements for controlling dynamo-electric brakes or clutches(vector control H02P21/00)	1316
+H02P  15/02	・	ブレーキとクラッチの連動制御［２００６．０１］	Conjoint control of brakes and clutches	67
+H02P  17/00		電動歯車を制御するための装置（ベクトル制御Ｈ０２Ｐ２１／００）［２００６．０１］	Arrangements for controlling dynamo-electric gears(vector control H02P21/00)	240
+H02P  21/00		ベクトル制御による電機の制御装置または制御方法，例．磁界オリエンテーション制御によるもの［６，８，２０１６．０１］<br><b><ul>注</ul></b><br>このグループに分類するとき，制御される電動機の種類により制御方法が特徴付けられるなら，グループ２５／００にも分類するべきである。［８，２０１６．０１］このグループに分類するとき，制御される電動機の供給する電圧の種類により制御方法が特徴付けられるなら，グループ２７／００にも分類するべきである。［８，２０１６．０１］	Arrangements or methods for the control of electric machines by vector control, e.g. by control of field orientation; <br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, classification should also be made in group H02P25/00 when the method of control is characterised by the kind of motor being controlled. When classifying in this group, classification should also be made in group H02P27/00 when the method of control is characterised by the kind of supply voltage of the motor being controlled. 	13108
+H02P  21/02	・	低負荷時に効率を最適化することに特に適合したもの［２００６．０１］	specially adapted for optimising the efficiency at low load	296
+H02P  21/04	・	非常に遅い速度に特に適合したもの［２００６．０１］	specially adapted for very low speeds	1358
+H02P  21/05	・	電動機の振動の抑制，例．ハンチングの低減，に特に適合したもの［２００６．０１］	specially adapted for damping motor oscillations, e.g. for reducing hunting	3893
+H02P  21/06	・	回転子の位置または回転子の速度センサの使用をともなう回転子磁束に基づく制御［２０１６．０１］	Rotor flux based control involving the use of rotor position or rotor speed sensors	1222
+H02P  21/08	・・	間接的な磁界オリエンテーション制御；回転子磁束フィードフォワード制御［２０１６．０１］	Indirect field-oriented control; Rotor flux feed-forward control	365
+H02P  21/09	・・・	すべり周波数と速度に比例した周波数の加算による回転子電圧方程式に基づく磁界位相角の算出［２０１６．０１］	Field phase angle calculation based on rotor voltage equation by adding slip frequency and speed proportional frequency	113
+H02P  21/10	・・	直接的な磁界オリエンテーション制御；回転子磁束フィードバック制御［８，２０１６．０１］	Direct field-oriented control; Rotor flux feed-back control	283
+H02P  21/12	・	回転子の位置または回転子の速度センサの使用をともなう固定子磁束に基づく制御［２０１６．０１］	Stator flux based control involving the use of rotor position or rotor speed sensors	709
+H02P  21/13	・	オブザーバ制御，例．ルーエンバーガ観測器またはカルマンフィルタを用いるもの［２００６．０１］	Observer control, e.g. using Luenberger observers or Kalman filters	2799
+H02P  21/14	・	機械パラメータ，例．磁束，電流または電圧，の推定または適合［２０１６．０１］	Estimation or adaptation of machine parameters, e.g. flux, current or voltage	8228
+H02P  21/16	・・	定数，例．回転子時定数，の推定［２０１６．０１］	Estimation of constants, e.g. the rotor time constant	669
+H02P  21/18	・・	位置または速度の推定［２０１６．０１］	Estimation of position or speed	6904
+H02P  21/20	・・	トルクの推定［２０１６．０１］	Estimation of torque	1413
+H02P  21/22	・	電流の制御，例．電流制御ループを用いるもの［２０１６．０１］	Current control, e.g. using a current control loop	10786
+H02P  21/24	・	回転子の位置または回転子の速度センサの使用をともなわないベクトル制御［２０１６．０１］	Vector control not involving the use of rotor position or rotor speed sensors	3280
+H02P  21/26	・・	回転子磁束に基づく制御［２０１６．０１］	Rotor flux based control	577
+H02P  21/28	・・	固定子磁束に基づく制御［２０１６．０１］	Stator flux based control	987
+H02P  21/30	・・・	直接トルク制御［ＤＴＣ］または磁界加速法［ＦＡＭ］［２０１６．０１］	Direct torque control [DTC] or field acceleration method [FAM]	407
+H02P  21/32	・・	回転子の初期位置を決定するもの（Ｈ０２Ｐ２１／３４が優先）［２０１６．０１］	Determining the initial rotor position(H02P21/34 takes precedence)	451
+H02P  21/34	・	起動するための装置［２０１６．０１］	Arrangements for starting	2017
+H02P  21/36	・	制動または減速するための装置；四象限制御［２０１６．０１］	Arrangements for braking or slowing; Four quadrant control	1730
+H02P  23/00		ベクトル制御以外の制御方法に特徴のある交流電動機を制御するための装置または方法［２０１６．０１］<br><b><ul>注</ul></b><br>このグループに分類するとき，グループＨ０２Ｐ２１／００，Ｈ０２Ｐ２５／００またはＨ０２Ｐ２７／００にも関連する主題事項は，それが適切なときは何時でもそれらのグループにも分類する。	Arrangements or methods for the control of AC motors characterised by a control method other than vector control; <br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, subject matter also relating to groups H02P21/00, H02P25/00 or H02P27/00 is further classified in those groups whenever appropriate.  	9536
+H02P  23/02	・	低負荷時に効率を最適化することに特に適合したもの［２００６．０１］	specially adapted for optimising the efficiency at low load	400
+H02P  23/03	・	非常に遅い速度に特に適合したもの［２００６．０１］	specially adapted for very low speeds	1290
+H02P  23/04	・	電動機の振動の抑制，例．ハンチングの低減，に特に適合したもの［２００６．０１］	specially adapted for damping motor oscillations, e.g. for reducing hunting	2912
+H02P  23/06	・	電動機を四象限制御するもの［２０１６．０１］	Controlling the motor in four quadrants	386
+H02P  23/07	・・	多相または単相の非同期誘導電動機［２０１６．０１］	Polyphase or monophase asynchronous induction motors	4996
+H02P  23/08	・	すべり周波数に基づき制御するもの，例．すべり周波数と速度に比例する周波数を加算するもの［２００６．０１］	Controlling based on slip frequency, e.g. adding slip frequency and speed proportional frequency	1106
+H02P  23/10	・	直流電流を加えることにより制御するもの［２００６．０１］	Controlling by adding a DC current	202
+H02P  23/12	・	オブザーバ制御，例．ルーエンバーガ観測器またはカルマンフィルタを用いるもの［２００６．０１］	Observer control, e.g. using Luenberger observers or Kalman filters	833
+H02P  23/14	・	電動機パラメータ，例．回転子時定数，磁束，速度，電流または電圧，の推定または適合［２００６．０１］	Estimation or adaptation of motor parameters, e.g. rotor time constant, flux, speed, current or voltage	5326
+H02P  23/16	・	１つの軸の角速度の制御（Ｈ０２Ｐ２３／１８が優先）［２０１６．０１］	Controlling the angular speed of one shaft(H02P23/18 takes precedence)	3715
+H02P  23/18	・	角度位置または位相を用いた角速度の制御［２０１６．０１］	Controlling the angular speed together with angular position or phase	719
+H02P  23/20	・	加速または減速の制御［２０１６．０１］	Controlling the acceleration or deceleration	1003
+H02P  23/22	・	基準発振器，速度比例パルス数のフィードバックおよびデジタルコンパレータを用いた速度のデジタル制御［２０１６．０１］	Controlling the speed digitally using a reference oscillator, a speed proportional pulse rate feedback and a digital comparator	157
+H02P  23/24	・	方向，例．時計回りまたは反時計回り，の制御［２０１６．０１］	Controlling the direction, e.g. clockwise or counterclockwise	1600
+H02P  23/26	・	力率の制御［ＰＦＣ］［２０１６．０１］	Power factor control [PFC]	773
+H02P  23/28	・	直流電源に接続されたスイッチのスイッチ周波数及び電動機の位相を変えることによる電動機の制御［２０１６．０１］	Controlling the motor by varying the switching frequency of switches connected to a DC supply and the motor phases	271
+H02P  23/30	・	直接トルク制御［ＤＴＣ］また磁界加速法［ＦＡＭ］［２０１６．０１］	Direct torque control [DTC] or field acceleration method [FAM]	180
+H02P  25/00		交流電動機の種類または構造的な細部に特徴のある交流電動機の制御のための装置または方法［２００６．０１］<br><b><ul>注</ul></b><br>このグループに分類するとき，グループＨ０２Ｐ２１／００，Ｈ０２Ｐ２３／００またはＨ０２Ｐ２７／００にも関連する主題事項は，それが適切なときは何時でもそれらのグループにも分類する。［２００６．０１］	Arrangements or methods for the control of AC motors characterised by the kind of AC motor or by structural details; <br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, subject matter also relating to groups H02P21/00, H02P23/00 or H02P27/00 is further classified in those groups whenever appropriate.  	605
+H02P  25/02	・	電動機の種類に特徴のあるもの［２０１６．０１］	characterised by the kind of motor	2827
+H02P  25/022	・・	同期電動機（Ｈ０２Ｐ２５／０６４が優先）［２０１６．０１］	Synchronous motors(H02P25/064 takes precedence)	4304
+H02P  25/024	・・・	供給周波数により制御されるもの［２０１６．０１］	controlled by supply frequency	1151
+H02P  25/026	・・・・	それにより回転子位置を検出するもの［２０１６．０１］	thereby detecting the rotor position	1485
+H02P  25/028	・・・	四象限制御をともなうもの［２０１６．０１］	with four quadrant control	44
+H02P  25/03	・・・	ブラシレス励起をともなうもの［２０１６．０１］	with brushless excitation	538
+H02P  25/032	・・	往復，揺動または振動モータ［２０１６．０１］	Reciprocating, oscillating or vibrating motors	408
+H02P  25/034	・・・	ボイスコイルモータ（直流により駆動されるボイスコイルモータＨ０２Ｐ７／０２５）［２０１６．０１］	Voice coil motors(voice coil motors driven by DC H02P7/025)	360
+H02P  25/04	・・	単相モータ，例．コンデンサモータ［２００６．０１］	Single phase motors, e.g. capacitor motors	4255
+H02P  25/06	・・	リニアモータ［２０１６．０１］	Linear motors	3725
+H02P  25/062	・・・	誘導タイプのもの［２０１６．０１］	of the induction type	317
+H02P  25/064	・・・	同期タイプのもの［２０１６．０１］	of the synchronous type	787
+H02P  25/066	・・・・	ステップタイプのもの［２０１６．０１］	of the stepping type	93
+H02P  25/08	・・	リラクタンスモータ［２０１６．０１］	Reluctance motors	2575
+H02P  25/083	・・・	１つのコイルから次のコイルまでの切換速度を増加するための装置［２０１６．０１］	Arrangements for increasing the switching speed from one coil to the next one	21
+H02P  25/086	・・・	整流［２０１６．０１］	Commutation	84
+H02P  25/089	・・・・	センサレス制御（直接トルク制御Ｈ０２Ｐ２３／３０）［２０１６．０１］	Sensorless control(direct torque control H02P23/30)	178
+H02P  25/092	・・・	リラクタンスモータの制御のために特に適合した変換器［２０１６．０１］	Converters specially adapted for controlling reluctance motors	560
+H02P  25/098	・・・	トルクリップルを減少するための装置［２０１６．０１］	Arrangements for reducing torque ripple	1151
+H02P  25/10	・・	整流子電動機，例．斥力電動機［２００６．０１］	Commutator motors, e.g. repulsion motors	1728
+H02P  25/12	・・・	移動可能なブラシを有するもの［２００６．０１］	with shiftable brushes	94
+H02P  25/14	・・・	ユニバーサルモータ（Ｈ０２Ｐ２５／１２が優先）［２００６．０１］	Universal motors(H02P25/12 takes precedence)	711
+H02P  25/16	・	回路配置または配線の種類に特徴のあるもの［２００６．０１］	characterised by the circuit arrangement or by the kind of wiring	2268
+H02P  25/18	・・	巻線を切換える装置を有するもの，例．機械的開閉器または継電器を有するもの［２００６．０１］	with arrangements for switching the windings, e.g. with mechanical switches or relays	2382
+H02P  25/20	・・・	極数変換のためのもの［２００６．０１］	for pole-changing	558
+H02P  25/22	・・	多相巻線；４相以上の巻き線［２００６．０１］	Multiple windings; Windings for more than three phases	1806
+H02P  25/24	・・	固定子または回転子回路における可変インピーダンス［２００６．０１］	Variable impedance in stator or rotor circuit	271
+H02P  25/26	・・・	２次インピーダンスを制御するための装置を有するもの［２００６．０１］	with arrangements for controlling secondary impedance	403
+H02P  25/28	・・	制御可能な飽和度をもつ磁気装置，例．可飽和リアクトル，を用いるもの［２００６．０１］	using magnetic devices with controllable degree of saturation, e.g. transductors	181
+H02P  25/30	・・	電動機がその電動機に給電する交流発電機の制御により制御されるもの［２００６．０１］	the motor being controlled by a control effected upon an AC generator supplying it	103
+H02P  25/32	・・	放電管を用いるもの［２００６．０１］	using discharge tubes	178
+H02P  27/00		供給電圧の種類に特徴のある交流電動機を制御するための装置または方法（２以上の電動機のものＨ０２Ｐ５／００；電子整流子を有する同期電動機のものＨ０２Ｐ６／００；直流電動機のものＨ０２Ｐ７／００；ステッピングモータのものＨ０２Ｐ８／００）［２００６．０１］<br><b><ul>注</ul></b><br>このグループに分類するとき，グループＨ０２Ｐ２１／００，Ｈ０２Ｐ２３／００またはＨ０２Ｐ２５／００にも関連する主題事項は，それが適切なときは何時でもそれらのグループにも分類する。［２００６．０１］	Arrangements or methods for the control of AC motors characterised by the kind of supply voltage(of two or more motors H02P5/00; of synchronous motors with electronic commutators H02P6/00; of DC motors H02P7/00; of stepping motors H02P8/00);<br><br><b><u>Note(s)</u></b><br><br>When classifying in this group, subject matter also relating to groups H02P21/00, H02P23/00 or H02P25/00 is further classified in those groups whenever appropriate.  	1479
+H02P  27/02	・	一定の周波数および可変振幅を有する供給電圧を用いるもの［２０１６．０１］	using supply voltage with constant frequency and variable amplitude	3288
+H02P  27/024	・・	回転子回路のみまたは固定子回路のみのために交流電源を用いるもの［２０１６．０１］	using AC supply for only the rotor circuit or only the stator circuit	39
+H02P  27/04	・	可変周波数の供給電圧，例．インバータまたはコンバータ供給電圧，を用いるもの［２０１６．０１］	using variable-frequency supply voltage, e.g. inverter or converter supply voltage	11596
+H02P  27/048	・・	回転子回路のみまたは固定子回路のみのために交流電源を用いるもの［２０１６．０１］	using AC supply for only the rotor circuit or only the stator circuit	128
+H02P  27/05	・・	回転子および固定子回路の双方に交流が供給され，少なくとも一方の回路へ供給される周波数が可変である交流電源を用いるもの［２００６．０１］	using AC supply for both the rotor and the stator circuits, the frequency of supply to at least one circuit being variable	992
+H02P  27/06	・・	直流−交流コンバータまたはインバータを用いるもの（Ｈ０２Ｐ２７／０５が優先）［２００６．０１］	using DC to AC converters or inverters(H02P27/05 takes precedence)	23220
+H02P  27/08	・・・	パルス幅変調をともなうもの［２００６．０１］	with pulse width modulation	14467
+H02P  27/10	・・・・	バングバング制御を用いるもの［２００６．０１］	using bang-bang controllers	77
+H02P  27/12	・・・・	円または閉曲線上において磁束ベクトル，電流ベクトルまたは電圧ベクトルの誘導によるパルスの形成，例．直接トルク制御のためのもの［２００６．０１］	pulsing by guiding the flux vector, current vector or voltage vector on a circle or a closed curve, e.g. for direct torque control	1812
+H02P  27/14	・・・・	３レベル以上の電圧の出力をともなうもの［２００６．０１］	with three or more levels of voltage	216
+H02P  27/16	・・	直流への中間変換をともなわない交流−交流変換器を用いるもの（Ｈ０２Ｐ２７／０５が優先）［２００６．０１］	using AC to AC converters without intermediate conversion to DC(H02P27/05 takes precedence)	994
+H02P  27/18	・・・	半波を除くことにより周波数を変化させるもの［２００６．０１］	varying the frequency by omitting half waves	70
+H02P  29/00		交流電動機および直流電動機双方に適した，電動機を調整または制御するための装置（電動機を起動するための装置Ｈ０２Ｐ１／００；電動機を停止または減速するための装置Ｈ０２Ｐ３／００；２以上の異なる電力源に接続可能な電動機の制御Ｈ０２Ｐ４／００；２以上の電動機の速度またはトルクの調整または制御Ｈ０２Ｐ５／００；ベクトル制御Ｈ０２Ｐ２１／００）［２０１６．０１］	Arrangements for regulating or controlling electric motors, appropriate for both AC and DC motors(arrangements for starting electric motors H02P1/00; arrangements for stopping or slowing electric motors H02P3/00; control of motors that can be connected to two or more different electric power supplies H02P4/00; regulating or controlling the speed or torque of two or more electric motors H02P5/00; vector control H02P21/00)	19272
+H02P  29/02	・	電力供給を自動遮断せずに過負荷に対して保護するもの（ステッピングモータの故障に対する保護Ｈ０２Ｐ８／３６）［２０１６．０１］	Providing protection against overload without automatic interruption of supply(protection against faults of stepper motors H02P8/36)	2764
+H02P  29/024	・・	故障状態，例．短絡，回転子の拘束，開路または負荷喪失，を検出するもの［２０１６．０１］	Detecting a fault condition, e.g. short circuit, locked rotor, open circuit or loss of load	3685
+H02P  29/028	・・・	電動機が故障状態であるにもかかわらず運転を継続するもの，例．故障を排除，補償または故障を救済するもの［２０１６．０１］	the motor continuing operation despite the fault condition, e.g. eliminating, compensating for or remedying the fault	1811
+H02P  29/032	・・	電動機への損傷を予防するもの，例．異なる駆動状態それぞれに独立した電流制限値を設定するもの［２０１６．０１］	Preventing damage to the motor, e.g. setting individual current limits for different drive conditions	1669
+H02P  29/04	・	別体の制動機によるもの［２００６．０１］	by means of a separate brake	238
+H02P  29/10	・	超過の速度または速度の不足を防ぐためのもの［２０１６．０１］	for preventing overspeed or under speed	259
+H02P  29/20	・	異なる連続運転に用いられる１つの電動機を制御するためのもの［２０１６．０１］	for controlling one motor used for different sequential operations	727
+H02P  29/40	・	機械的負荷を制御するための電動機により取り出されるまたは供給される電流の量を調整または制御するもの［２０１６．０１］	Regulating or controlling the amount of current drawn or delivered by the motor for controlling the mechanical load	1676
+H02P  29/50	・	高調波の低減［２０１６．０１］	Reduction of harmonics	813
+H02P  29/60	・	電動機または駆動機器の温度を制御または決定するもの（Ｈ０２Ｐ２９／０２が優先）［２０１６．０１］	Controlling or determining the temperature of the motor or of the drive(H02P29/02 takes precedence)	1495
+H02P  29/62	・・	電動機の温度を上昇させるためのもの［２０１６．０１］	for raising the temperature of the motor	572
+H02P  29/64	・・	巻線温度を制御または決定するもの［２０１６．０１］	Controlling or determining the temperature of the winding	451
+H02P  29/66	・・	回転子の温度を制御または決定するもの［２０１６．０１］	Controlling or determining the temperature of the rotor	322
+H02P  29/68	・・	駆動要素または半導体要素の温度に基づくもの［２０１６．０１］	based on the temperature of a drive component or a semiconductor component	843
+H02P  31/00		グループＨ０２Ｐ１／００〜Ｈ０２Ｐ５／００，Ｈ０２Ｐ７／００またはＨ０２Ｐ２１／００〜Ｈ０２Ｐ２９／００に分類されない電動機を調整または制御するための装置［２００６．０１］	Arrangements for regulating or controlling electric motors not provided for in groups H02P1/00 to H02P5/00 , H02P7/00 or H02P21/00 to H02P29/00 	1264
+H02P 101/00		発電機のための制御装置の特別な適合［２０１５．０１］	Special adaptation of control arrangements for generators	34
+H02P 101/10	・	水力タービンのためのもの［２０１５．０１］	for water-driven turbines	214
+H02P 101/15	・	風力タービンのためのもの［２０１５．０１］	for wind-driven turbines	940
+H02P 101/20	・	蒸気タービンのためのもの［２０１５．０１］	for steam-driven turbines	66
+H02P 101/25	・	燃焼機関のためのもの［２０１５．０１］	for combustion engines	389
+H02P 101/30	・	飛行機のためのもの［２０１５．０１］	for aircraft	185
+H02P 101/35	・	船舶のためのもの［２０１５．０１］	for ships	68
+H02P 101/40	・	鉄道車両のためのもの［２０１５．０１］	for railway vehicles	23
+H02P 101/45	・	自動車のためのもの，例．自動車用オルタネータ［２０１５．０１］	for motor vehicles, e.g. car alternators	417
+H02P 103/00		発電機の形式に特徴のある制御装置［２０１５．０１］	Controlling arrangements characterised by the type of generator	30
+H02P 103/10	・	非同期型のもの［２０１５．０１］	of the asynchronous type	123
+H02P 103/20	・	同期型のもの［２０１５．０１］	of the synchronous type	556

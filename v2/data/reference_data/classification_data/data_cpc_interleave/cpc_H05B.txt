@@ -1,0 +1,618 @@
+H05B1/00	7	Details of electric heating devices	H05B1/00	H05B1/00		352
+H05B1/02	8	Automatic switching arrangements specially adapted to apparatus {; Control of heating devices}(thermally-actuated switches H01H37/00)	H05B1/02	H05B1/02		2844
+H05B1/0202	9	{Switches}	H05B1/02	H05B1/02		1819
+H05B1/0205	10	{using a fusible material}	H05B1/02	H05B1/02		455
+H05B1/0208	10	{actuated by the expansion or evaporation of a gas or liquid}	H05B1/02	H05B1/02		772
+H05B1/0211	10	{using the expansion of an electric conductive liquid}	H05B1/02	H05B1/02		88
+H05B1/0213	10	{using bimetallic elements}	H05B1/02	H05B1/02		1284
+H05B1/0216	10	{actuated by the expansion of a solid element, e.g. wire or rod}	H05B1/02	H05B1/02		372
+H05B1/0219	10	{actuated by modification of the magnetic properties of a material}	H05B1/02	H05B1/02		52
+H05B1/0222	10	{actuated by changing weight, level or centre of gravity}	H05B1/02	H05B1/02		224
+H05B1/0225	10	{actuated by timers}	H05B1/02	H05B1/02		528
+H05B1/0227	9	{Applications}	H05B1/02	H05B1/02		828
+H05B1/023	10	{Industrial applications}	H05B1/02	H05B1/02		755
+H05B1/0233	11	{for semiconductors manufacturing}	H05B1/02	H05B1/02		519
+H05B1/0236	11	{for vehicles}	H05B1/02	H05B1/02		1580
+H05B1/0238	12	{For seats}	H05B1/02	H05B1/02		174
+H05B1/0241	11	{For photocopiers}	H05B1/02	H05B1/02		133
+H05B1/0244	11	{Heating of fluids (H05B1/0247 takes precedence)}	H05B1/02	H05B1/02		926
+H05B1/0247	11	{For chemical processes}	H05B1/02	H05B1/02		129
+H05B1/025	11	{For medical applications}	H05B1/02	H05B1/02		299
+H05B1/0252	10	{Domestic applications}	H05B1/02	H05B1/02		802
+H05B1/0255	11	{Irons}	H05B1/02	H05B1/02		93
+H05B1/0258	11	{For cooking}	H05B1/02	H05B1/02		177
+H05B1/0261	12	{of food}	H05B1/02	H05B1/02		412
+H05B1/0263	13	{Ovens}	H05B1/02	H05B1/02		345
+H05B1/0266	13	{Cooktops}	H05B1/02	H05B1/02		731
+H05B1/0269	12	{For heating of fluids}	H05B1/02	H05B1/02		331
+H05B1/0272	11	{For heating of fabrics}	H05B1/02	H05B1/02		636
+H05B1/0275	11	{Heating of spaces, e.g. rooms, wardrobes}	H05B1/02	H05B1/02		262
+H05B1/0277	12	{Electric radiators}	H05B1/02	H05B1/02		305
+H05B1/028	12	{Airconditioning}	H05B1/02	H05B1/02		63
+H05B1/0283	12	{For heating of fluids, e.g. water heaters}	H05B1/02	H05B1/02		370
+H05B1/0286	12	{Heat storages}	H05B1/02	H05B1/02		33
+H05B1/0288	10	{for non specified applications}	H05B1/02	H05B1/02		94
+H05B1/0291	11	{Tubular elements}	H05B1/02	H05B1/02		132
+H05B1/0294	11	{Planar elements}	H05B1/02	H05B1/02		151
+H05B1/0297	10	{Heating of fluids for non specified applications}	H05B1/02	H05B1/02		391
+H05B3/00	7	Ohmic-resistance heating	H05B3/00	H05B3/00		3634
+H05B3/0004	8	{Devices wherein the heating current flows through the material to be heated (Circuit arrangements for heating by passing the current directly across the material to be heated H05B3/0023; granular, powdered or fluid material H05B3/60)}	H05B3/00	H05B3/00		1121
+H05B3/0009	9	{the material to be heated being in motion}	H05B3/00	H05B3/00		240
+H05B3/0014	8	{Devices wherein the heating current flows through particular resistances}	H05B3/00	H05B3/00		1008
+H05B3/0019	8	{Circuit arrangements}	H05B3/00	H05B3/00		833
+H05B3/0023	9	{for heating by passing the current directly across the material to be heated}	H05B3/00	H05B3/00		299
+H05B3/0033	8	{Heating devices using lamps}	H05B3/00	H05B3/00		647
+H05B3/0038	9	{for industrial applications}	H05B3/00	H05B3/00		377
+H05B3/0042	10	{used in motor vehicles}	H05B3/00	H05B3/00		75
+H05B3/0047	10	{for semiconductor manufacture}	H05B3/00	H05B3/00		442
+H05B3/0052	10	{for fluid treatments}	H05B3/00	H05B3/00		112
+H05B3/0057	10	{for plastic handling and treatment (including molds B29C)}	H05B3/00	H05B3/00		135
+H05B3/0061	10	{for metal treatment}	H05B3/00	H05B3/00		64
+H05B3/0066	10	{for photocopying}	H05B3/00	H05B3/00		60
+H05B3/0071	9	{for domestic applications}	H05B3/00	H05B3/00		218
+H05B3/0076	10	{for cooking, e.g. in ovens (lamps specially adapted for non-metallic cooking plates H05B3/742, H05B3/744)}	H05B3/00	H05B3/00		309
+H05B3/008	10	{for heating of inner spaces}	H05B3/00	H05B3/00		196
+H05B3/0085	9	{for medical applications}	H05B3/00	H05B3/00		122
+H05B3/009	9	{heating devices not specially adapted for a particular application}	H05B3/00	H05B3/00		295
+H05B3/0095	8	{Heating devices in the form of rollers (heated by induction H05B6/145)}	H05B3/00	H05B3/00		420
+H05B3/02	8	Details	H05B3/02	H05B3/02		3913
+H05B3/03	9	Electrodes	H05B3/03	H05B3/03		2655
+H05B3/04	9	Waterproof or air-tight seals for heaters	H05B3/04	H05B3/04		1411
+H05B3/06	9	Heater elements structurally combined with coupling elements or holders	H05B3/06	H05B3/06		5581
+H05B3/08	10	having electric connections specially adapted for high temperatures	H05B3/08	H05B3/08		547
+H05B3/10	8	Heating elements characterised by the composition or nature of the materials or by the arrangement of the conductor	H05B3/10	H05B3/10		1483
+H05B3/12	9	characterised by the composition or nature of the conductive material	H05B3/12	H05B3/12		2088
+H05B3/14	10	the material being non-metallic	H05B3/14	H05B3/14		1701
+H05B3/141	11	{Conductive ceramics, e.g. metal oxides, metal carbides, barium titanate, ferrites, zirconia, vitrous compounds}	H05B3/14	H05B3/14		1931
+H05B3/143	12	{applied to semiconductors, e.g. wafers heating (H05B3/0047 takes precedence)}	H05B3/14	H05B3/14		373
+H05B3/145	11	{Carbon only, e.g. carbon black, graphite}	H05B3/14	H05B3/14		3636
+H05B3/146	11	{Conductive polymers, e.g. polyethylene, thermoplastics}	H05B3/14	H05B3/14		1021
+H05B3/148	11	{Silicon, e.g. silicon carbide, magnesium silicide, heating transistors or diodes}	H05B3/14	H05B3/14		552
+H05B3/16	9	the conductor being mounted on an insulating base	H05B3/16	H05B3/16		1896
+H05B3/18	9	the conductor being embedded in an insulating material	H05B3/18	H05B3/18		987
+H05B3/20	8	Heating elements having extended surface area substantially in a two-dimensional plane, e.g. plate-heater (H05B3/62, H05B3/68, H05B3/78, H05B3/84 take precedence)	H05B3/20	H05B3/20		4806
+H05B3/22	9	non-flexible	H05B3/22	H05B3/22		1046
+H05B3/24	10	heating conductor being self-supporting	H05B3/24	H05B3/24		494
+H05B3/26	10	heating conductor mounted on insulating base {(for transparent areas H05B3/84, H05B3/86)}	H05B3/26	H05B3/26		1359
+H05B3/262	11	{the insulating base being an insulated metal plate}	H05B3/26	H05B3/26		402
+H05B3/265	11	{the insulating base being an inorganic material, e.g. ceramic (H05B3/262 takes precedence)}	H05B3/26	H05B3/26		936
+H05B3/267	11	{the insulating base being an organic material, e.g. plastic (H05B3/262 takes precedence)}	H05B3/26	H05B3/26		404
+H05B3/28	10	heating conductor embedded in insulating material	H05B3/28	H05B3/28		724
+H05B3/283	11	{the insulating material being an inorganic material, e.g. ceramic}	H05B3/28	H05B3/28		950
+H05B3/286	11	{the insulating material being an organic material, e.g. plastic}	H05B3/28	H05B3/28		520
+H05B3/30	11	on or between metallic plates	H05B3/30	H05B3/30		337
+H05B3/32	10	heating conductor mounted on insulators on a metallic frame	H05B3/32	H05B3/32		240
+H05B3/34	9	flexible, e.g. heating nets or webs	H05B3/34	H05B3/34		4340
+H05B3/342	10	{heaters used in textiles}	H05B3/34	H05B3/34		2597
+H05B3/345	11	{knitted fabrics}	H05B3/34	H05B3/34		203
+H05B3/347	11	{woven fabrics}	H05B3/34	H05B3/34		551
+H05B3/36	10	heating conductor embedded in insulating material	H05B3/36	H05B3/36		1383
+H05B3/38	11	Powder conductors	H05B3/38	H05B3/38		65
+H05B3/40	8	Heating elements having the shape of rods or tubes (H05B3/62, H05B3/68, H05B3/78 take precedence)	H05B3/40	H05B3/40		2063
+H05B3/42	9	non-flexible	H05B3/42	H05B3/42		2087
+H05B3/44	10	heating conductor arranged within rods or tubes of insulating material	H05B3/44	H05B3/44		2012
+H05B3/46	10	heating conductor mounted on insulating base	H05B3/46	H05B3/46		886
+H05B3/48	10	heating conductor embedded in insulating material	H05B3/48	H05B3/48		1875
+H05B3/50	11	heating conductor arranged in metal tubes, the radiating surface having heat-conducting fins	H05B3/50	H05B3/50		1294
+H05B3/52	11	Apparatus or processes for filling or compressing insulating material in tubes	H05B3/52	H05B3/52		233
+H05B3/54	9	flexible	H05B3/54	H05B3/54		599
+H05B3/56	10	Heating cables	H05B3/56	H05B3/56		3510
+H05B3/565	11	{flat cables}	H05B3/56	H05B3/56		514
+H05B3/58	10	Heating hoses; Heating collars	H05B3/58	H05B3/58		745
+H05B3/60	8	Heating arrangements wherein the heating current flows through granular powdered or fluid material, e.g. for salt-bath furnace, electrolytic heating (H05B3/38 takes precedence)	H05B3/60	H05B3/60		944
+H05B3/62	8	Heating elements specially adapted for furnaces (H05B3/60 takes precedence; arrangements of elements for electric heating in or on furnaces using ohmic resistance heating F27D11/02)	H05B3/62	H05B3/62		727
+H05B3/64	9	using ribbon, rod, or wire heater	H05B3/64	H05B3/64		906
+H05B3/66	9	Supports or mountings for heaters on or in the wall or roof	H05B3/66	H05B3/66		782
+H05B3/68	8	Heating arrangements specially adapted for cooking plates or analogous hot-plates<br><br><u>NOTE</u><br><br>Group H05B3/76 takes precedence over groups H05B3/70 - H05B3/74.<br>This Note corresponds to IPC Note (1) relating to H05B3/70 - H05B3/76.	H05B3/68	H05B3/68		1382
+H05B3/681	9	{Plates having mobile parts coming into contact with the bottom of the kettles, pans, or the like}	H05B3/68	H05B3/68		102
+H05B3/683	9	{Plates having their feeding circuit closed as the kettles, pans or the like are put on (H05B3/74 takes precedence)}	H05B3/68	H05B3/68		84
+H05B3/685	9	{Plates having magnetic means attracting the kettles, pans, or the like}	H05B3/68	H05B3/68		55
+H05B3/686	9	{Heat-storage plates}	H05B3/68	H05B3/68		32
+H05B3/688	9	{Fabrication of the plates (for single-step processes see the appropriate subclass, e.g. in B23C, sub-section metallurgy)}	H05B3/68	H05B3/68		379
+H05B3/70	9	Plates of cast metal	H05B3/70	H05B3/70		240
+H05B3/72	9	Plates of sheet metal	H05B3/72	H05B3/72		231
+H05B3/74	9	Non-metallic plates {, e.g. vitroceramic, ceramic or glassceramic hobs, also including power or control circuits}	H05B3/74	H05B3/74		876
+H05B3/742	10	{Plates having both lamps and resistive heating elements}	H05B3/74	H05B3/74		49
+H05B3/744	10	{Lamps as heat source, i.e. heating elements with protective gas envelope, e.g. halogen lamps}	H05B3/74	H05B3/74		183
+H05B3/746	10	{Protection, e.g. overheat cutoff, hot plate indicator}	H05B3/74	H05B3/74		686
+H05B3/748	10	{Resistive heating elements, i.e. heating elements exposed to the air, e.g. coil wire heater (H05B3/742 takes precedence)}	H05B3/74	H05B3/74		728
+H05B3/76	9	Plates with spirally-wound heating tubes	H05B3/76	H05B3/76		277
+H05B3/78	8	Heating arrangements specially adapted for immersion heating	H05B3/78	H05B3/78		797
+H05B3/80	9	Portable immersion heaters	H05B3/80	H05B3/80		626
+H05B3/82	9	Fixedly-mounted immersion heaters	H05B3/82	H05B3/82		1201
+H05B3/84	8	Heating arrangements specially adapted for transparent or reflecting areas, e.g. for demisting or de-icing windows, mirrors or vehicle windshields	H05B3/84	H05B3/84		3178
+H05B3/845	9	{specially adapted for reflecting surfaces, e.g. bathroom - or rearview mirrors}	H05B3/84	H05B3/84		502
+H05B3/86	9	the heating conductors being embedded in the transparent or reflecting material {(H05B3/845 takes precedence)}	H05B3/86	H05B3/86		1076
+H05B6/00	7	Heating by electric, magnetic or electromagnetic fields	H05B6/00	H05B6/00		244
+H05B6/02	8	Induction heating	H05B6/02	H05B6/02		1533
+H05B6/04	9	Sources of current	H05B6/04	H05B6/04		1126
+H05B6/06	9	Control, e.g. of temperature, of power	H05B6/06	H05B6/06		3251
+H05B6/062	10	{for cooking plates or the like}	H05B6/06	H05B6/06		3044
+H05B6/065	11	{using coordinated control of multiple induction coils}	H05B6/06	H05B6/06		723
+H05B6/067	10	{for melting furnaces}	H05B6/06	H05B6/06		248
+H05B6/08	10	using compensating or balancing arrangements	H05B6/08	H05B6/08		191
+H05B6/10	9	Induction heating apparatus, other than furnaces, for specific applications	H05B6/10	H05B6/10		1316
+H05B6/101	10	{for local heating of metal pieces}	H05B6/10	H05B6/10		1025
+H05B6/102	11	{the metal pieces being rotated while induction heated}	H05B6/10	H05B6/10		324
+H05B6/103	11	{multiple metal pieces successively being moved close to the inductor}	H05B6/10	H05B6/10		215
+H05B6/104	12	{metal pieces being elongated like wires or bands}	H05B6/10	H05B6/10		355
+H05B6/105	10	{using a susceptor}	H05B6/10	H05B6/10		1441
+H05B6/106	11	{in the form of fillings}	H05B6/10	H05B6/10		94
+H05B6/107	11	{for continuous movement of material}	H05B6/10	H05B6/10		99
+H05B6/108	11	{for heating a fluid}	H05B6/10	H05B6/10		1761
+H05B6/109	11	{using magnets rotating with respect to a susceptor}	H05B6/10	H05B6/10		179
+H05B6/12	10	Cooking devices	H05B6/12	H05B6/12		1656
+H05B6/1209	11	{induction cooking plates or the like and devices to be used in combination with them}	H05B6/12	H05B6/12		1523
+H05B6/1218	12	{with arrangements using lights for heating zone state indication}	H05B6/12	H05B6/12		304
+H05B6/1227	12	{for wok pans and wok pans supports for induction cooking plates}	H05B6/12	H05B6/12		160
+H05B6/1236	12	{adapted to induce current in a coil to supply power to a device and electrical heating devices powered in this way}	H05B6/12	H05B6/12		462
+H05B6/1245	12	{with special coil arrangements}	H05B6/12	H05B6/12		477
+H05B6/1254	13	{using conductive pieces to direct the induced magnetic field}	H05B6/12	H05B6/12		268
+H05B6/1263	13	{using coil cooling arrangements}	H05B6/12	H05B6/12		419
+H05B6/1272	13	{with more than one coil or coil segment per heating zone}	H05B6/12	H05B6/12		575
+H05B6/1281	13	{with flat coils}	H05B6/12	H05B6/12		128
+H05B6/129	11	{induction ovens}	H05B6/12	H05B6/12		299
+H05B6/14	10	Tools, e.g. nozzles, rollers, calenders	H05B6/14	H05B6/14		480
+H05B6/145	11	{Heated rollers}	H05B6/14	H05B6/14		473
+H05B6/16	9	Furnaces having endless cores (H05B6/34 takes precedence)	H05B6/16	H05B6/16		156
+H05B6/18	10	having melting basin	H05B6/18	H05B6/18		108
+H05B6/20	10	having melting channel only	H05B6/20	H05B6/20		515
+H05B6/22	9	Furnaces without an endless core (H05B6/34 takes precedence)	H05B6/22	H05B6/22		240
+H05B6/24	10	Crucible furnaces (H05B6/30 takes precedence)	H05B6/24	H05B6/24		562
+H05B6/26	11	using vacuum or particular gas atmosphere	H05B6/26	H05B6/26		159
+H05B6/28	11	Protective systems	H05B6/28	H05B6/28		74
+H05B6/30	10	Arrangements for remelting or zone melting	H05B6/30	H05B6/30		88
+H05B6/32	10	Arrangements for simultaneous levitation and heating	H05B6/32	H05B6/32		104
+H05B6/34	9	Arrangements for circulation of melts	H05B6/34	H05B6/34		288
+H05B6/36	9	Coil arrangements	H05B6/36	H05B6/36		2273
+H05B6/362	10	{with flat coil conductors}	H05B6/36	H05B6/36		448
+H05B6/365	10	{using supplementary conductive or ferromagnetic pieces}	H05B6/36	H05B6/36		680
+H05B6/367	10	{for melting furnaces}	H05B6/36	H05B6/36		201
+H05B6/38	10	specially adapted for fitting into hollow spaces of workpieces	H05B6/38	H05B6/38		146
+H05B6/40	10	Establishing desired heat distribution, e.g. to heat particular parts of workpieces	H05B6/40	H05B6/40		646
+H05B6/405	11	{for heating gear-wheels}	H05B6/40	H05B6/40		97
+H05B6/42	10	Cooling of coils	H05B6/42	H05B6/42		765
+H05B6/44	10	having more than one coil or coil segment	H05B6/44	H05B6/44		786
+H05B6/46	8	Dielectric heating (H05B6/64 takes precedence)	H05B6/46	H05B6/46		160
+H05B6/48	9	Circuits	H05B6/48	H05B6/48		252
+H05B6/50	10	for monitoring or control	H05B6/50	H05B6/50		465
+H05B6/52	9	Feed lines	H05B6/52	H05B6/52		37
+H05B6/54	9	Electrodes	H05B6/54	H05B6/54		291
+H05B6/56	10	Rolling electrodes	H05B6/56	H05B6/56		21
+H05B6/58	10	"sewing machine" type	H05B6/58	H05B6/58		2
+H05B6/60	9	Arrangements for continuous movement of material	H05B6/60	H05B6/60		237
+H05B6/62	9	Apparatus for specific applications	H05B6/62	H05B6/62		735
+H05B6/64	8	Heating using microwaves {(containers, packaging elements or packages specially adapted to be heated by microwaves B65D81/3446)}	H05B6/64	H05B6/64		1798
+H05B6/6402	9	{Aspects relating to the microwave cavity}	H05B6/64	H05B6/64		1280
+H05B6/6405	10	{Self-cleaning cavity}	H05B6/64	H05B6/64		112
+H05B6/6408	9	{Supports or covers specially adapted for use in microwave heating apparatus}	H05B6/64	H05B6/64		1285
+H05B6/6411	10	{the supports being rotated}	H05B6/64	H05B6/64		1539
+H05B6/6414	9	{Aspects relating to the door of the microwave heating apparatus}	H05B6/64	H05B6/64		1293
+H05B6/6417	10	{Door interlocks of the microwave heating apparatus and related circuits}	H05B6/64	H05B6/64		740
+H05B6/642	9	{Cooling of the microwave components and related air circulation systems (H05B6/6473 takes precedence)}	H05B6/64	H05B6/64		1538
+H05B6/6423	10	{wherein the microwave oven air circulation system is also used as air extracting hood}	H05B6/64	H05B6/64		484
+H05B6/6426	9	{Aspects relating to the exterior of the microwave heating apparatus, e.g. metal casing, power cord}	H05B6/64	H05B6/64		1340
+H05B6/6429	10	{Aspects relating to mounting assemblies of wall-mounted microwave ovens}	H05B6/64	H05B6/64		246
+H05B6/6432	9	{Aspects relating to testing or detecting leakage in a microwave heating apparatus}	H05B6/64	H05B6/64		145
+H05B6/6435	9	{Aspects relating to the user interface of the microwave heating apparatus}	H05B6/64	H05B6/64		1482
+H05B6/6438	10	{allowing the recording of a program of operation of the microwave heating apparatus}	H05B6/64	H05B6/64		164
+H05B6/6441	10	{allowing the input of coded operation instructions, e.g. bar code reader}	H05B6/64	H05B6/64		218
+H05B6/6444	9	{Aspects relating to lighting devices in the microwave cavity}	H05B6/64	H05B6/64		489
+H05B6/6447	9	{Method of operation or details of the microwave heating apparatus related to the use of detectors or sensors}	H05B6/64	H05B6/64		715
+H05B6/645	10	{using temperature sensors}	H05B6/64	H05B6/64		855
+H05B6/6452	11	{the sensors being in contact with the heated product}	H05B6/64	H05B6/64		212
+H05B6/6455	11	{the sensors being infrared detectors}	H05B6/64	H05B6/64		314
+H05B6/6458	10	{using humidity or vapor sensors}	H05B6/64	H05B6/64		430
+H05B6/6461	10	{using fire or fume sensors}	H05B6/64	H05B6/64		39
+H05B6/6464	10	{using weight sensors}	H05B6/64	H05B6/64		388
+H05B6/6467	10	{using detectors with R.F. transmitters}	H05B6/64	H05B6/64		100
+H05B6/647	9	{Aspects related to microwave heating combined with other heating techniques}	H05B6/64	H05B6/64		243
+H05B6/6473	10	{combined with convection heating (H05B6/6485 takes precedence)}	H05B6/64	H05B6/64		420
+H05B6/6476	11	{the refrigerating air being used for convection}	H05B6/64	H05B6/64		115
+H05B6/6479	11	{using steam}	H05B6/64	H05B6/64		312
+H05B6/6482	10	{combined with radiant heating, e.g. infrared heating}	H05B6/64	H05B6/64		1190
+H05B6/6485	11	{further combined with convection heating}	H05B6/64	H05B6/64		264
+H05B6/6488	10	{combined with induction heating}	H05B6/64	H05B6/64		106
+H05B6/6491	10	{combined with the use of susceptors (H05B6/80 and subgroups takes precedence)}	H05B6/64	H05B6/64		149
+H05B6/6494	11	{for cooking}	H05B6/64	H05B6/64		431
+H05B6/6497	12	{the susceptors being liquids}	H05B6/64	H05B6/64		13
+H05B6/66	9	Circuits	H05B6/66	H05B6/66		574
+H05B6/662	10	{Aspects related to the boost transformer of the microwave heating apparatus}	H05B6/66	H05B6/66		163
+H05B6/664	10	{Aspects related to the power supply of the microwave heating apparatus}	H05B6/66	H05B6/66		319
+H05B6/666	10	{Safety circuits (emergency protective circuits in general H02H)}	H05B6/66	H05B6/66		943
+H05B6/668	10	{Microwave heating devices connected to a telecommunication network}	H05B6/66	H05B6/66		112
+H05B6/68	10	for monitoring or control	H05B6/68	H05B6/68		1726
+H05B6/681	11	{Circuits comprising an inverter, a boost transformer and a magnetron}	H05B6/68	H05B6/68		270
+H05B6/682	12	{wherein the switching control is based on measurements of electrical values of the circuit}	H05B6/68	H05B6/68		69
+H05B6/683	13	{the measurements being made at the high voltage side of the circuit}	H05B6/68	H05B6/68		60
+H05B6/685	13	{the measurements being made at the low voltage side of the circuit}	H05B6/68	H05B6/68		88
+H05B6/686	11	{Circuits comprising a signal generator and power amplifier, e.g. using solid state oscillators}	H05B6/68	H05B6/68		438
+H05B6/687	11	{for cooking}	H05B6/68	H05B6/68		1077
+H05B6/688	11	{for thawing}	H05B6/68	H05B6/68		345
+H05B6/70	9	Feed lines	H05B6/70	H05B6/70		405
+H05B6/701	10	{using microwave applicators}	H05B6/70	H05B6/70		243
+H05B6/702	10	{using coaxial cables}	H05B6/70	H05B6/70		58
+H05B6/704	10	{using microwave polarisers}	H05B6/70	H05B6/70		96
+H05B6/705	10	{using microwave tuning}	H05B6/70	H05B6/70		686
+H05B6/707	10	{using waveguides}	H05B6/70	H05B6/70		696
+H05B6/708	11	{in particular slotted waveguides}	H05B6/70	H05B6/70		180
+H05B6/72	9	Radiators or antennas	H05B6/72	H05B6/72		886
+H05B6/725	10	{Rotatable antennas}	H05B6/72	H05B6/72		360
+H05B6/74	9	Mode transformers or mode stirrers	H05B6/74	H05B6/74		378
+H05B6/745	10	{Rotatable stirrers}	H05B6/74	H05B6/74		365
+H05B6/76	9	Prevention of microwave leakage, e.g. door sealings	H05B6/76	H05B6/76		815
+H05B6/763	10	{Microwave radiation seals for doors}	H05B6/76	H05B6/76		646
+H05B6/766	10	{Microwave radiation screens for windows}	H05B6/76	H05B6/76		292
+H05B6/78	9	Arrangements for continuous movement of material	H05B6/78	H05B6/78		837
+H05B6/782	10	{wherein the material moved is food}	H05B6/78	H05B6/78		421
+H05B6/784	10	{wherein the material is moved using a tubular transport line, e.g. screw transport systems}	H05B6/78	H05B6/78		94
+H05B6/786	10	{wherein the material is moved using mechanical vibrations of plates}	H05B6/78	H05B6/78		18
+H05B6/788	10	{wherein an elongated material is moved by applying a mechanical tension to it}	H05B6/78	H05B6/78		184
+H05B6/80	9	Apparatus for specific applications (stoves or ranges F24C7/02)	H05B6/80	H05B6/80		1995
+H05B6/802	10	{for heating fluids (methods of heating fluids in conventional microwave ovens H05B6/687)}	H05B6/80	H05B6/80		388
+H05B6/804	11	{Water heaters, water boilers}	H05B6/80	H05B6/80		194
+H05B6/806	10	{for laboratory use}	H05B6/80	H05B6/80		509
+H05B6/808	10	{Microwave heating adapted for vending machines}	H05B6/80	H05B6/80		224
+H05B7/00	7	Heating by electric discharge (plasma torches H05H1/26)	H05B7/00	H05B7/00		215
+H05B7/005	8	{Electrical diagrams}	H05B7/00	H05B7/00		369
+H05B7/02	8	Details	H05B7/02	H05B7/02		397
+H05B7/06	9	Electrodes	H05B7/06	H05B7/06		301
+H05B7/07	10	designed to melt in use	H05B7/07	H05B7/07		93
+H05B7/08	10	non-consumable	H05B7/08	H05B7/08		157
+H05B7/085	11	mainly consisting of carbon	H05B7/085	H05B7/085		450
+H05B7/09	12	Self-baking electrodes, e.g. S&#246;derberg type electrodes	H05B7/09	H05B7/09		214
+H05B7/10	9	Mountings, supports, terminals or arrangements for feeding or guiding electrodes	H05B7/10	H05B7/10		381
+H05B7/101	10	Mountings, supports or terminals at head of electrode, i.e. at the end remote from the arc	H05B7/101	H05B7/101		197
+H05B7/102	11	specially adapted for consumable electrodes	H05B7/102	H05B7/102		105
+H05B7/103	10	Mountings, supports or terminals with jaws (H05B7/101 takes precedence)	H05B7/103	H05B7/103		184
+H05B7/105	11	comprising more than two jaws equally spaced along circumference, e.g. ring holders	H05B7/105	H05B7/105		150
+H05B7/107	10	specially adapted for self-baking electrodes	H05B7/107	H05B7/107		125
+H05B7/109	10	Feeding arrangements (H05B7/107 takes precedence; where the electrode movement is part of a closed loop for automatic control of power H05B7/148)	H05B7/109	H05B7/109		245
+H05B7/11	9	Arrangements for conducting current to the electrode terminals	H05B7/11	H05B7/11		194
+H05B7/12	9	Arrangements for cooling, sealing or protecting electrodes	H05B7/12	H05B7/12		475
+H05B7/14	9	Arrangements or methods for connecting successive electrode sections	H05B7/14	H05B7/14		387
+H05B7/144	9	Power supplies specially adapted for heating by electric discharge; Automatic control of power, e.g. by positioning of electrodes	H05B7/144	H05B7/144		218
+H05B7/148	10	Automatic control of power (electrode feeding arrangements H05B7/109; automatic feeding of electrodes for spot or seam welding or cutting B23K9/12; disposition of electrodes in or on furnaces F27D11/10; control of position in general G05D3/00; regulating electric characteristics of arcs in general G05F1/02; regulating electric power in general G05F1/66)	H05B7/148	H05B7/148		215
+H05B7/152	11	by electromechanical means for positioning of electrodes	H05B7/152	H05B7/152		362
+H05B7/156	11	by hydraulic or pneumatic means for positioning of electrodes	H05B7/156	H05B7/156		111
+H05B7/16	8	Heating by glow discharge	H05B7/16	H05B7/16		61
+H05B7/18	8	Heating by arc discharge	H05B7/18	H05B7/18		239
+H05B7/185	9	{Heating gases for arc discharge (gas-filled discharge tubes H01J37/32)}	H05B7/18	H05B7/18		179
+H05B7/20	9	Direct heating by arc discharge, i.e. where at least one end of the arc directly acts on the material to be heated, including additional resistance heating by arc current flowing through the material to be heated	H05B7/20	H05B7/20		201
+H05B7/22	9	Indirect heating by arc discharge	H05B7/22	H05B7/22		204
+H05B7/225	10	{by arc image}	H05B7/22	H05B7/22		25
+H05B11/00	7	Heating by combined application of processes covered by two or more of groups H05B3/00&#160;-&#160;H05B7/00(H05B7/20 takes precedence)	H05B11/00	H05B11/00		234
+H05B31/00	7	Electric arc lamps (regulating electric characteristics of arcs G05F1/02)	H05B31/00	H05B31/00		35
+H05B31/0003	8	{the arc being outside, in the open}	H05B31/00	H05B31/00		2
+H05B31/0006	9	{with superimposed electrodes}	H05B31/00	H05B31/00		173
+H05B31/0009	9	{with parallel or oblique disposition of the electrodes; Special form of the electrodes}	H05B31/00	H05B31/00		243
+H05B31/0012	9	{with a plurality of electrode pairs}	H05B31/00	H05B31/00		157
+H05B31/0015	9	{with spare electrodes}	H05B31/00	H05B31/00		28
+H05B31/0018	8	{in a closed vessel}	H05B31/00	H05B31/00		4
+H05B31/0021	9	{Construction, in particular closure, of the vessel}	H05B31/00	H05B31/00		83
+H05B31/0024	9	{Outlet valves}	H05B31/00	H05B31/00		7
+H05B31/0027	9	{with special gasfilling}	H05B31/00	H05B31/00		30
+H05B31/003	8	{of a special type}	H05B31/00	H05B31/00		2
+H05B31/0033	9	{with glowrod and candle}	H05B31/00	H05B31/00		18
+H05B31/0036	9	{for projection, copying or stage lighting}	H05B31/00	H05B31/00		681
+H05B31/0039	9	{Projectors, the construction of which depends upon the presence of the arc}	H05B31/00	H05B31/00		334
+H05B31/0042	8	{Mounting; Connecting}	H05B31/00	H05B31/00		2
+H05B31/0045	9	{of individual lamps; Associated impedances}	H05B31/00	H05B31/00		99
+H05B31/0048	9	{of plural lamps}	H05B31/00	H05B31/00		66
+H05B31/0051	9	{Bypassing circuit devices for arc lamps}	H05B31/00	H05B31/00		27
+H05B31/0054	9	{Short circuit devices for arc lamps}	H05B31/00	H05B31/00		1
+H05B31/0057	8	{Accessories for arc lamps}	H05B31/00	H05B31/00		4
+H05B31/006	9	{Electromagnets or armatures; Arc blowing electromagnets}	H05B31/00	H05B31/00		90
+H05B31/0063	9	{Damping devices}	H05B31/00	H05B31/00		6
+H05B31/0066	9	{Saving arrangements; Ventilation devices}	H05B31/00	H05B31/00		108
+H05B31/0069	9	{Vessels; Closing of vessels}	H05B31/00	H05B31/00		23
+H05B31/0072	9	{Reflectors for arc lamps}	H05B31/00	H05B31/00		30
+H05B31/0075	9	{Incandescent mantles}	H05B31/00	H05B31/00		6
+H05B31/0078	9	{Devices for starting or extinguishing}	H05B31/00	H05B31/00		6
+H05B31/0081	8	{Controlling of arc lamps}	H05B31/00	H05B31/00		399
+H05B31/0084	9	{with stirrups or levers}	H05B31/00	H05B31/00		179
+H05B31/0087	9	{with a thread or chain}	H05B31/00	H05B31/00		80
+H05B31/009	9	{with tightening devices}	H05B31/00	H05B31/00		118
+H05B31/0093	9	{with a threaded rod}	H05B31/00	H05B31/00		95
+H05B31/0096	9	{with hydraulic or pneumatic means}	H05B31/00	H05B31/00		
+H05B31/02	8	Details	H05B31/02	H05B31/02		10
+H05B31/04	9	Housings	H05B31/04	H05B31/04		19
+H05B31/06	9	Electrodes	H05B31/06	H05B31/06		8
+H05B31/065	10	{for flame arc lamps}	H05B31/06	H05B31/06		178
+H05B31/08	10	Carbon electrodes	H05B31/08	H05B31/08		7
+H05B31/10	11	Cored carbon electrodes	H05B31/10	H05B31/10		246
+H05B31/12	11	Beck-effect electrodes	H05B31/12	H05B31/12		1
+H05B31/14	10	Metal electrodes	H05B31/14	H05B31/14		37
+H05B31/16	10	Apparatus or processes specially adapted for manufacturing electrodes	H05B31/16	H05B31/16		68
+H05B31/18	9	Mountings for electrodes; Electrode feeding devices	H05B31/18	H05B31/18		485
+H05B31/20	10	Mechanical arrangements for feeding electrodes {(for controlling arc lamps H05B31/0081)}	H05B31/20	H05B31/20		9
+H05B31/22	10	Electromagnetic arrangements for feeding electrodes {(using electromagnets H05B31/006)}	H05B31/22	H05B31/22		34
+H05B31/24	9	Cooling arrangements	H05B31/24	H05B31/24		10
+H05B31/26	9	Influencing the shape of arc discharge by gas blowing devices	H05B31/26	H05B31/26		6
+H05B31/28	9	Influencing the shape of arc discharge by magnetic means {(using electromagnets H05B31/006)}	H05B31/28	H05B31/28		4
+H05B31/30	9	Starting; Igniting {(devices therefor H05B31/0078)}	H05B31/30	H05B31/30		4
+H05B31/305	10	{Ignition devices}	H05B31/30	H05B31/30		132
+H05B31/32	9	Switching-off	H05B31/32	H05B31/32		2
+H05B31/34	9	Indicating consumption of electrodes	H05B31/34	H05B31/34		
+H05B31/36	8	having two electrodes in line {(electrodes in the open H05B31/0006)}	H05B31/36	H05B31/36		16
+H05B31/38	9	specially adapted for AC	H05B31/38	H05B31/38		
+H05B31/40	8	having two electrodes at an angle {(electrodes in the open H05B31/0009)}	H05B31/40	H05B31/40		9
+H05B31/42	9	specially adapted for AC	H05B31/42	H05B31/42		
+H05B31/44	8	having two parallel electrodes {(electrodes in the open H05B31/0009)}	H05B31/44	H05B31/44		2
+H05B31/46	9	specially adapted for AC	H05B31/46	H05B31/46		
+H05B31/48	8	having more than two electrodes {(electrodes in the open H05B31/0012)}	H05B31/48	H05B31/48		3
+H05B31/50	9	specially adapted for AC	H05B31/50	H05B31/50		100
+H05B31/52	10	electrodes energised from different phases of the supply	H05B31/52	H05B31/52		1
+H05B33/00	7	Electroluminescent light sources	H05B33/00	H05B33/00		962
+H05B33/02	8	Details	H05B33/02	H05B33/02		2813
+H05B33/04	9	Sealing arrangements {, e.g. against humidity}	H05B33/04	H05B33/04		2519
+H05B33/06	9	Electrode terminals	H05B33/06	H05B33/06		761
+H05B33/10	8	Apparatus or processes specially adapted to the manufacture of electroluminescent light sources	H05B33/10	H05B33/10		5714
+H05B33/12	8	Light sources with substantially two-dimensional radiating surfaces	H05B33/12	H05B33/12		3033
+H05B33/14	9	characterised by the chemical or physical composition or the arrangement of the electroluminescent material {, or by the simultaneous addition of the electroluminescent material in or onto the light source}<br><br><u>NOTE</u><br><br> When classifying in this group, the chemical composition of the electroluminescent material is also classified in the appropriate subgroup of C09K11/00	H05B33/14	H05B33/14		6707
+H05B33/145	10	{Arrangements of the electroluminescent material}	H05B33/14	H05B33/14		829
+H05B33/18	9	characterised by the nature or concentration of the activator	H05B33/18	H05B33/18		149
+H05B33/20	9	characterised by the chemical or physical composition or the arrangement of the material in which the electroluminescent material is embedded	H05B33/20	H05B33/20		1245
+H05B33/22	9	characterised by the chemical or physical composition or the arrangement of auxiliary dielectric or reflective layers	H05B33/22	H05B33/22		2846
+H05B33/24	10	of metallic reflective layers (H05B33/26 takes precedence)	H05B33/24	H05B33/24		279
+H05B33/26	9	characterised by the composition or arrangement of the conductive material used as an electrode	H05B33/26	H05B33/26		2109
+H05B33/28	10	of translucent electrodes	H05B33/28	H05B33/28		775
+H05B35/00	7	Electric light sources using a combination of different types of light generation	H05B35/00	H05B35/00		422
+H05B39/00	7	Circuit arrangements or apparatus for operating incandescent light sources (structurally associated with the incandescent lamps H01K1/62)	H05B39/00	H05B39/00		335
+H05B39/02	8	Switching on, e.g. with predetermined rate of increase of lighting current	H05B39/02	H05B39/02		291
+H05B39/04	8	Controlling	H05B39/04	H05B39/04		364
+H05B39/041	9	{the light-intensity of the source (H05B39/08 takes precedence)}	H05B39/04	H05B39/04		299
+H05B39/042	10	{by measuring the incident light}	H05B39/04	H05B39/04		310
+H05B39/044	10	{continuously (H05B39/042 takes precedence)}	H05B39/04	H05B39/04		392
+H05B39/045	11	{with high-frequency bridge converters (H05B39/048 takes precedence)}	H05B39/04	H05B39/04		147
+H05B39/047	11	{with pulse width modulation from a DC power source}	H05B39/04	H05B39/04		224
+H05B39/048	11	{with reverse phase control}	H05B39/04	H05B39/04		205
+H05B39/06	9	Switching arrangements, e.g. from series operation to parallel operation	H05B39/06	H05B39/06		227
+H05B39/08	9	by shifting phase of trigger voltage applied to gas-filled controlling tubes {also in controlled semiconductor devices (in converters H02M5/00; with regulation G05F1/44)}	H05B39/08	H05B39/08		376
+H05B39/081	10	{by measuring the incident light (H05B39/083 takes precedence)}	H05B39/08	H05B39/08		66
+H05B39/083	10	{by the variation-rate of light intensity}	H05B39/08	H05B39/08		304
+H05B39/085	11	{by touch control}	H05B39/08	H05B39/08		164
+H05B39/086	12	{with possibility of remote control}	H05B39/08	H05B39/08		91
+H05B39/088	13	{by wireless means, e.g. infrared transmitting means}	H05B39/08	H05B39/08		108
+H05B39/09	8	in which the lamp is fed by pulses {(automatic circuit devices built into or on the incandescent lamp H01K1/625; vehicle winking devices B60Q1/38)}	H05B39/09	H05B39/09		633
+H05B39/10	8	Circuits providing for substitution of the light source in case of its failure {(changing to a reserve current source H02J9/00)}	H05B39/10	H05B39/10		175
+H05B39/105	9	{with a spare lamp in the circuit, and a possibility of shunting a failed lamp (lamp changing devices H01R33/00, H01R43/00; incandescent lamps with a reserve body H01K)}	H05B39/10	H05B39/10		249
+H05B41/00	7	Circuit arrangements or apparatus for igniting or operating discharge lamps (structurally associated with the discharge lamps H01J61/54, H01J61/56)	H05B41/00	H05B41/00		308
+H05B41/02	8	Details	H05B41/02	H05B41/02		737
+H05B41/04	9	Starting switches	H05B41/04	H05B41/04		607
+H05B41/042	10	{using semiconductor devices}	H05B41/04	H05B41/04		748
+H05B41/044	11	{for lamp provided with pre-heating electrodes}	H05B41/04	H05B41/04		128
+H05B41/046	12	{using controlled semiconductor devices}	H05B41/04	H05B41/04		289
+H05B41/048	10	{using electromagnetic relays}	H05B41/04	H05B41/04		154
+H05B41/06	10	thermal only	H05B41/06	H05B41/06		387
+H05B41/08	11	heated by glow discharge	H05B41/08	H05B41/08		354
+H05B41/10	10	magnetic only	H05B41/10	H05B41/10		230
+H05B41/12	10	combined thermal and magnetic	H05B41/12	H05B41/12		50
+H05B41/14	8	Circuit arrangements	H05B41/14	H05B41/14		778
+H05B41/16	9	in which the lamp is fed by DC or by low-frequency AC, e.g. by 50 cycles/sec AC {, or with network frequencies}	H05B41/16	H05B41/16		309
+H05B41/18	10	having a starting switch	H05B41/18	H05B41/18		590
+H05B41/19	11	for lamps having an auxiliary starting electrode	H05B41/19	H05B41/19		266
+H05B41/20	10	having no starting switch	H05B41/20	H05B41/20		5
+H05B41/22	11	for lamps having an auxiliary starting electrode	H05B41/22	H05B41/22		258
+H05B41/23	11	for lamps not having an auxiliary starting electrode	H05B41/23	H05B41/23		13
+H05B41/231	12	for high-pressure lamps	H05B41/231	H05B41/231		270
+H05B41/232	12	for low-pressure lamps	H05B41/232	H05B41/232		731
+H05B41/2325	13	{provided with pre-heating electrodes}	H05B41/232	H05B41/232		673
+H05B41/233	13	using resonance circuitry	H05B41/233	H05B41/233		40
+H05B41/234	13	to eliminate stroboscopic effects, e.g. feeding two lamps with different phases	H05B41/234	H05B41/234		45
+H05B41/24	9	in which the lamp is fed by high frequency AC {, or with separate oscillator frequency}(H05B41/26&#160;takes precedence)	H05B41/24	H05B41/24		1323
+H05B41/245	10	{for a plurality of lamps}	H05B41/24	H05B41/24		318
+H05B41/26	9	in which the lamp is fed by power derived from DC by means of a converter, e.g. by high-voltage DC	H05B41/26	H05B41/26		200
+H05B41/28	10	using static converters	H05B41/28	H05B41/28		727
+H05B41/2806	11	{with semiconductor devices and specially adapted for lamps without electrodes in the vessel, e.g. surface discharge lamps, electrodeless discharge lamps}	H05B41/28	H05B41/28		453
+H05B41/2813	12	{Arrangements for protecting lamps or circuits against abnormal operating conditions}	H05B41/28	H05B41/28		72
+H05B41/282	11	with semiconductor devices ({H05B41/2806}, H05B41/288, H05B41/295 take precedence)	H05B41/282	H05B41/282		886
+H05B41/2821	12	{by means of a single-switch converter or a parallel push-pull converter in the final stage (H05B41/285 takes precedence)}	H05B41/282	H05B41/282		357
+H05B41/2822	13	{using specially adapted components in the load circuit, e.g. feed-back transformers, piezoelectric transformers; using specially adapted load circuit configurations}	H05B41/282	H05B41/282		576
+H05B41/2824	13	{using control circuits for the switching element (H05B41/2822 takes precedence)}	H05B41/282	H05B41/282		351
+H05B41/2825	12	{by means of a bridge converter in the final stage (H05B41/285 takes precedence)}	H05B41/282	H05B41/282		281
+H05B41/2827	13	{using specially adapted components in the load circuit, e.g. feed-back transformers, piezoelectric transformers; using specially adapted load circuit configurations}	H05B41/282	H05B41/282		524
+H05B41/2828	13	{using control circuits for the switching elements (H05B41/2827 takes precedence)}	H05B41/282	H05B41/282		560
+H05B41/285	12	Arrangements for protecting lamps or circuits against abnormal operating conditions	H05B41/285	H05B41/285		234
+H05B41/2851	13	{for protecting the circuit against abnormal operating conditions}	H05B41/285	H05B41/285		243
+H05B41/2853	14	{against abnormal power supply conditions}	H05B41/285	H05B41/285		257
+H05B41/2855	14	{against abnormal lamp operating conditions}	H05B41/285	H05B41/285		536
+H05B41/2856	14	{against internal abnormal circuit conditions}	H05B41/285	H05B41/285		288
+H05B41/2858	13	{for protecting the lamp against abnormal operating conditions}	H05B41/285	H05B41/285		150
+H05B41/288	11	with semiconductor devices and specially adapted for lamps without preheating electrodes, e.g. for high-intensity discharge lamps, high-pressure mercury or sodium lamps or low-pressure sodium lamps {(H05B41/2806 takes precedence)}	H05B41/288	H05B41/288		343
+H05B41/2881	12	{Load circuits; Control thereof}	H05B41/288	H05B41/288		435
+H05B41/2882	13	{the control resulting from an action on the static converter}	H05B41/288	H05B41/288		249
+H05B41/2883	14	{the controlled element being a DC/AC converter in the final stage, e.g. by harmonic mode starting}	H05B41/288	H05B41/288		302
+H05B41/2885	12	{Static converters especially adapted therefor; Control thereof (H05B41/2882 takes precedence)}	H05B41/288	H05B41/288		255
+H05B41/2886	13	{comprising a controllable preconditioner, e.g. a booster}	H05B41/288	H05B41/288		232
+H05B41/2887	13	{characterised by a controllable bridge in the final stage}	H05B41/288	H05B41/288		222
+H05B41/2888	14	{the bridge being commutated at low frequency, e.g. 1kHz}	H05B41/288	H05B41/288		144
+H05B41/292	12	Arrangements for protecting lamps or circuits against abnormal operating conditions	H05B41/292	H05B41/292		174
+H05B41/2921	13	{for protecting the circuit against abnormal operating conditions}	H05B41/292	H05B41/292		95
+H05B41/2923	14	{against abnormal power supply conditions}	H05B41/292	H05B41/292		106
+H05B41/2925	14	{against abnormal lamp operating conditions}	H05B41/292	H05B41/292		240
+H05B41/2926	14	{against internal abnormal circuit conditions}	H05B41/292	H05B41/292		87
+H05B41/2928	13	{for protecting the lamp against abnormal operating conditions}	H05B41/292	H05B41/292		550
+H05B41/295	11	with semiconductor devices and specially adapted for lamps with preheating electrodes, e.g. for fluorescent lamps	H05B41/295	H05B41/295		1181
+H05B41/298	12	Arrangements for protecting lamps or circuits against abnormal operating conditions	H05B41/298	H05B41/298		136
+H05B41/2981	13	{for protecting the circuit against abnormal operating conditions}	H05B41/298	H05B41/298		114
+H05B41/2983	14	{against abnormal power supply conditions}	H05B41/298	H05B41/298		131
+H05B41/2985	14	{against abnormal lamp operating conditions}	H05B41/298	H05B41/298		319
+H05B41/2986	14	{against internal abnormal circuit conditions}	H05B41/298	H05B41/298		72
+H05B41/2988	13	{for protecting the lamp against abnormal operating conditions}	H05B41/298	H05B41/298		190
+H05B41/30	9	in which the lamp is fed by pulses, e.g. flash lamp	H05B41/30	H05B41/30		467
+H05B41/32	10	for single flash operation	H05B41/32	H05B41/32		971
+H05B41/325	11	{by measuring the incident light}	H05B41/32	H05B41/32		381
+H05B41/34	10	to provide a sequence of flashes	H05B41/34	H05B41/34		769
+H05B41/36	9	Controlling	H05B41/36	H05B41/36		1156
+H05B41/38	10	Controlling the intensity of light	H05B41/38	H05B41/38		734
+H05B41/382	11	{during the transitional start-up phase}	H05B41/38	H05B41/38		318
+H05B41/384	12	{in case of hot-restriking}	H05B41/38	H05B41/38		77
+H05B41/386	12	{for speeding-up the lighting-up}	H05B41/38	H05B41/38		142
+H05B41/388	12	{for a transition from glow to arc}	H05B41/38	H05B41/38		189
+H05B41/39	11	continuously	H05B41/39	H05B41/39		293
+H05B41/391	12	using saturable magnetic devices	H05B41/391	H05B41/391		126
+H05B41/392	12	using semiconductor devices, e.g. thyristor	H05B41/392	H05B41/392		504
+H05B41/3921	13	{with possibility of light intensity variations}	H05B41/392	H05B41/392		509
+H05B41/3922	14	{and measurement of the incident light}	H05B41/392	H05B41/392		410
+H05B41/3924	14	{by phase control, e.g. using a triac (H05B41/3922 takes precedence)}	H05B41/392	H05B41/392		418
+H05B41/3925	14	{by frequency variation (H05B41/3922 takes precedence)}	H05B41/392	H05B41/392		457
+H05B41/3927	14	{by pulse width modulation (H05B41/3922 takes precedence)}	H05B41/392	H05B41/392		675
+H05B41/3928	15	{for high-pressure lamps, e.g. high-intensity discharge lamps, high-pressure mercury or sodium lamps}	H05B41/392	H05B41/392		150
+H05B41/40	11	discontinuously	H05B41/40	H05B41/40		281
+H05B41/42	12	in two steps only	H05B41/42	H05B41/42		244
+H05B41/44	10	for providing special optical effects, e.g. progressive motion of light	H05B41/44	H05B41/44		139
+H05B41/46	9	Circuits providing for substitution in case of failure of the lamp	H05B41/46	H05B41/46		409
+H05B44/00	7	Circuit arrangements for operating electroluminescent light sources (for operating light emitting diodes H05B45/00)	H05B44/00	H05B44/00		1137
+H05B45/00	7	Circuit arrangements for operating light-emitting diodes [LED]	H05B45/00	H05B45/00		7149
+H05B45/10	8	Controlling the intensity of the light	H05B45/10	H05B45/10		10993
+H05B45/12	9	using optical feedback	H05B45/12	H05B45/12		1944
+H05B45/14	9	using electrical feedback from LEDs or from LED modules	H05B45/14	H05B45/14		1882
+H05B45/18	9	using temperature feedback	H05B45/18	H05B45/18		945
+H05B45/20	8	Controlling the colour of the light	H05B45/20	H05B45/20		8083
+H05B45/22	9	using optical feedback	H05B45/22	H05B45/22		1367
+H05B45/24	9	using electrical feedback from LEDs or from LED modules	H05B45/24	H05B45/24		741
+H05B45/28	9	using temperature feedback	H05B45/28	H05B45/28		532
+H05B45/30	8	Driver circuits	H05B45/30	H05B45/30		4179
+H05B45/305	9	Frequency-control circuits	H05B45/305	H05B45/305		187
+H05B45/31	9	Phase-control circuits	H05B45/31	H05B45/31		370
+H05B45/315	10	Reverse phase-control circuits	H05B45/315	H05B45/315		79
+H05B45/32	9	Pulse-control circuits	H05B45/32	H05B45/32		495
+H05B45/325	10	Pulse-width modulation [PWM]	H05B45/325	H05B45/325		3215
+H05B45/327	10	Burst dimming	H05B45/327	H05B45/327		132
+H05B45/33	10	Pulse-amplitude modulation [PAM]	H05B45/33	H05B45/33		89
+H05B45/335	10	Pulse-frequency modulation [PFM]	H05B45/335	H05B45/335		97
+H05B45/34	9	Voltage stabilisation; Maintaining constant voltage	H05B45/34	H05B45/34		868
+H05B45/345	9	Current stabilisation; Maintaining constant current	H05B45/345	H05B45/345		2034
+H05B45/347	9	Dynamic headroom control [DHC]	H05B45/347	H05B45/347		143
+H05B45/35	9	Balancing circuits	H05B45/35	H05B45/35		148
+H05B45/355	9	Power factor correction [PFC]; Reactive power compensation	H05B45/355	H05B45/355		763
+H05B45/357	9	specially adapted for retrofit LED light sources	H05B45/357	H05B45/357		246
+H05B45/3574	10	Emulating the electrical or functional characteristics of incandescent lamps	H05B45/3574	H05B45/3574		138
+H05B45/3575	11	by means of dummy loads or bleeder circuits, e.g. for dimmers	H05B45/3575	H05B45/3575		276
+H05B45/3577	11	Emulating the dimming characteristics, brightness or colour temperature of incandescent lamps	H05B45/3577	H05B45/3577		160
+H05B45/3578	10	Emulating the electrical or functional characteristics of discharge lamps	H05B45/3578	H05B45/3578		374
+H05B45/36	9	Circuits for reducing or suppressing harmonics, ripples or electromagnetic interferences [EMI]	H05B45/36	H05B45/36		869
+H05B45/37	9	Converter circuits	H05B45/37	H05B45/37		5282
+H05B45/3725	10	Switched mode power supply [SMPS]	H05B45/3725	H05B45/3725		3788
+H05B45/375	11	using buck topology	H05B45/375	H05B45/375		1990
+H05B45/38	11	using boost topology	H05B45/38	H05B45/38		2061
+H05B45/382	11	with galvanic isolation between input and output	H05B45/382	H05B45/382		1060
+H05B45/385	11	using flyback topology	H05B45/385	H05B45/385		1294
+H05B45/39	11	Circuits containing inverter bridges	H05B45/39	H05B45/39		800
+H05B45/392	11	wherein the LEDs are placed as freewheeling diodes at the secondary side of an isolation transformer	H05B45/392	H05B45/392		55
+H05B45/395	9	Linear regulators	H05B45/395	H05B45/395		1821
+H05B45/397	10	Current mirror circuits	H05B45/397	H05B45/397		468
+H05B45/40	8	Details of LED load circuits	H05B45/40	H05B45/40		1454
+H05B45/42	9	Antiparallel configurations	H05B45/42	H05B45/42		273
+H05B45/44	9	with an active control inside an LED matrix	H05B45/44	H05B45/44		1554
+H05B45/46	10	having LEDs disposed in parallel lines	H05B45/46	H05B45/46		2526
+H05B45/48	10	having LEDs organised in strings and incorporating parallel shunting devices	H05B45/48	H05B45/48		1796
+H05B45/50	8	responsive to malfunctions or undesirable behaviour of LEDs; responsive to LED life; Protective circuits	H05B45/50	H05B45/50		3796
+H05B45/52	9	in a parallel array of LEDs	H05B45/52	H05B45/52		317
+H05B45/54	9	in a series array of LEDs	H05B45/54	H05B45/54		536
+H05B45/56	9	involving measures to prevent abnormal temperature of the LEDs	H05B45/56	H05B45/56		1028
+H05B45/58	9	involving end of life detection of LEDs	H05B45/58	H05B45/58		633
+H05B45/59	9	for reducing or suppressing flicker or glow effects	H05B45/59	H05B45/59		593
+H05B45/60	8	Circuit arrangements for operating LEDs comprising organic material, e.g. for operating organic light-emitting diodes [OLED] or polymer light-emitting diodes [PLED]	H05B45/60	H05B45/60		895
+H05B46/00	7	Circuit arrangements for operating light sources using a charge of combustible material	H05B46/00	H05B46/00		8
+H05B47/00	7	Circuit arrangements for operating light sources in general, i.e. where the type of light source is not relevant	H05B47/00	H05B47/00		539
+H05B47/10	8	Controlling the light source	H05B47/10	H05B47/10		8948
+H05B47/105	9	in response to determined parameters	H05B47/105	H05B47/105		7735
+H05B47/11	10	by determining the brightness or colour temperature of ambient light	H05B47/11	H05B47/11		7818
+H05B47/115	10	by determining the presence or movement of objects or living beings	H05B47/115	H05B47/115		5078
+H05B47/12	11	by detecting audible sound	H05B47/12	H05B47/12		1693
+H05B47/125	11	by using cameras	H05B47/125	H05B47/125		1630
+H05B47/13	11	by using passive infrared detectors	H05B47/13	H05B47/13		1207
+H05B47/135	10	by determining the type of light source being controlled (electrical parameters of light source being controlled H05B47/14)	H05B47/135	H05B47/135		96
+H05B47/14	10	by determining electrical parameters of the light source	H05B47/14	H05B47/14		670
+H05B47/155	9	Coordinated control of two or more light sources	H05B47/155	H05B47/155		5646
+H05B47/16	9	by timing means	H05B47/16	H05B47/16		3928
+H05B47/165	9	following a pre-assigned programmed sequence; Logic control [LC]	H05B47/165	H05B47/165		4934
+H05B47/17	9	Operational modes, e.g. switching from manual to automatic mode or prohibiting specific operations<br><br><u>WARNING</u><br>Group H05B47/17 is impacted by reclassification into group H05B47/172. <br>Groups H05B47/17 and H05B47/172 should be considered in order to perform a complete search.	H05B47/17	H05B47/17		1355
+H05B47/172	10	{Emergency operational modes}<br><br><u>WARNING</u><br>Group H05B47/172 is incomplete pending reclassification of documents from group H05B47/17. <br>Groups H05B47/17 and H05B47/172 should be considered in order to perform a complete search.	H05B47/17	H05B47/17		152
+H05B47/175	9	by remote control<br><br><u>WARNING</u><br>Group H05B47/175 is impacted by reclassification into groups H05B47/196 &#8211; H05B47/1995. <br>Groups H05B47/175 and H05B47/196 &#8211; H05B47/1995 should be considered in order to perform a complete search.	H05B47/175	H05B47/175		3186
+H05B47/18	10	via data-bus transmission<br><br><u>WARNING</u><br>Group H05B47/18 is impacted by reclassification into groups H05B47/183, H05B47/184, H05B47/196 - H05B47/1975 and H05B47/198 - H05B47/1995. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05B47/18	H05B47/18		2287
+H05B47/183	11	{using digital addressable lighting interface [DALI] communication protocols}<br><br><u>WARNING</u><br>Group H05B47/183 is incomplete pending reclassification of documents from group H05B47/18. <br>Groups H05B47/18 and H05B47/183 should be considered in order to perform a complete search.	H05B47/18	H05B47/18		497
+H05B47/184	11	{using digital multiplexed [DMX] communication protocols}<br><br><u>WARNING</u><br>Group H05B47/184 is incomplete pending reclassification of documents from group H05B47/18. <br>Groups H05B47/18 and H05B47/184 should be considered in order to perform a complete search.	H05B47/18	H05B47/18		270
+H05B47/185	10	via power line carrier transmission<br><br><u>WARNING</u><br>Group H05B47/185 is impacted by reclassification into groups H05B47/187, H05B47/196 - H05B47/1975 and H05B47/198 - H05B47/1995. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05B47/185	H05B47/185		1622
+H05B47/187	11	{using power over ethernet [PoE] supplies}<br><br><u>WARNING</u><br>Group H05B47/187 is incomplete pending reclassification of documents from group H05B47/185. <br>Groups H05B47/185 and H05B47/187 should be considered in order to perform a complete search.	H05B47/185	H05B47/18		199
+H05B47/19	10	via wireless transmission<br><br><u>WARNING</u><br>Group H05B47/19 is impacted by reclassification into groups H05B47/196 - H05B47/1975 and H05B47/198 - H05B47/1995. <br>Groups H05B47/19, H05B47/196 - H05B47/1975 and H05B47/198 - H05B47/1995 should be considered in order to perform a complete search.	H05B47/19	H05B47/19		9417
+H05B47/195	11	the transmission using visible or infrared light<br><br><u>WARNING</u><br>Group H05B47/195 is impacted by reclassification into groups H05B47/196 - H05B47/1975 and H05B47/198 - H05B47/1995. <br>Groups H05B47/195, H05B47/196 - H05B47/1975 and H05B47/198 - H05B47/1995 should be considered in order to perform a complete search.	H05B47/195	H05B47/195		1075
+H05B47/196	10	{characterised by user interface arrangements}<br><br><u>WARNING</u><br>Groups H05B47/196 - H05B47/1975 are incomplete pending reclassification of documents from groups H05B47/175, H05B47/18, H05B47/185, H05B47/19 and H05B47/195. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05B47/175	H05B47/19		1455
+H05B47/1965	11	{using handheld communication devices}	H05B47/175	H05B47/19		2216
+H05B47/197	11	{Sound control or voice control}	H05B47/175	H05B47/19		390
+H05B47/1975	11	{Gesture control}	H05B47/175	H05B47/19		233
+H05B47/198	10	{Grouping of control procedures or address assignation to light sources}<br><br><u>WARNING</u><br>Groups H05B47/198 - H05B47/1995 are incomplete pending reclassification of documents from groups H05B47/175, H05B47/18, H05B47/185, H05B47/19 and H05B47/195. <br>All groups listed in this Warning should be considered in order to perform a complete search.	H05B47/175	H05B47/19		733
+H05B47/1985	11	{Creation of lighting zones or scenes}	H05B47/175	H05B47/19		996
+H05B47/199	11	{Commissioning of light sources}	H05B47/175	H05B47/19		763
+H05B47/1995	12	{Auto-commissioning}	H05B47/175	H05B47/19		124
+H05B47/20	8	Responsive to malfunctions or to light source life; for protection	H05B47/20	H05B47/20		2251
+H05B47/21	9	of two or more light sources connected in parallel	H05B47/21	H05B47/21		193
+H05B47/22	10	{with communication between the lamps and a central unit}	H05B47/21	H05B47/22		555
+H05B47/23	9	of two or more light sources connected in series	H05B47/23	H05B47/23		213
+H05B47/235	10	{with communication between the lamps and a central unit}	H05B47/23	H05B47/23		100
+H05B47/24	9	Circuit arrangements for protecting against overvoltage	H05B47/24	H05B47/24		461
+H05B47/25	9	Circuit arrangements for protecting against overcurrent	H05B47/25	H05B47/25		484
+H05B47/26	9	Circuit arrangements for protecting against earth faults	H05B47/26	H05B47/26		185
+H05B47/28	9	Circuit arrangements for protecting against abnormal temperature	H05B47/28	H05B47/28		286
+H05B47/29	9	Circuits providing for substitution of the light source in case of its failure	H05B47/29	H05B47/29		292
+H05B2203/00	7	Aspects relating to Ohmic resistive heating covered by group H05B3/00	CPCONLY	H05B2203/00		9
+H05B2203/002	8	Heaters using a particular layout for the resistive material or resistive elements	CPCONLY	H05B2203/002		859
+H05B2203/003	9	using serpentine layout	CPCONLY	H05B2203/003		2273
+H05B2203/004	9	using zigzag layout	CPCONLY	H05B2203/004		557
+H05B2203/005	9	using multiple resistive elements or resistive zones isolated from each other	CPCONLY	H05B2203/005		1040
+H05B2203/006	9	using interdigitated electrodes	CPCONLY	H05B2203/006		363
+H05B2203/007	9	using multiple electrically connected resistive elements or resistive zones	CPCONLY	H05B2203/007		490
+H05B2203/008	9	with layout including a portion free of resistive material, e.g. communication window	CPCONLY	H05B2203/008		146
+H05B2203/009	8	Heaters using conductive material in contact with opposing surfaces of the resistive element or resistive layer	CPCONLY	H05B2203/009		119
+H05B2203/01	9	Heaters comprising a particular structure with multiple layers	CPCONLY	H05B2203/01		385
+H05B2203/011	8	Heaters using laterally extending conductive material as connecting means	CPCONLY	H05B2203/011		1378
+H05B2203/012	8	Heaters using non- flexible resistive rods or tubes not provided for in H05B3/42	CPCONLY	H05B2203/012		62
+H05B2203/013	8	Heaters using resistive films or coatings	CPCONLY	H05B2203/013		3807
+H05B2203/014	8	Heaters using resistive wires or cables not provided for in H05B3/54	CPCONLY	H05B2203/014		2748
+H05B2203/015	9	Heater wherein the heating element is interwoven with the textile	CPCONLY	H05B2203/015		449
+H05B2203/016	8	Heaters using particular connecting means	CPCONLY	H05B2203/016		1641
+H05B2203/017	8	Manufacturing methods or apparatus for heaters	CPCONLY	H05B2203/017		5553
+H05B2203/018	8	Heaters using heating elements comprising mosi2	CPCONLY	H05B2203/018		119
+H05B2203/019	8	Heaters using heating elements having a negative temperature coefficient	CPCONLY	H05B2203/019		156
+H05B2203/02	8	Heaters using heating elements having a positive temperature coefficient	CPCONLY	H05B2203/02		1827
+H05B2203/021	8	Heaters specially adapted for heating liquids	CPCONLY	H05B2203/021		2471
+H05B2203/022	8	Heaters specially adapted for heating gaseous material	CPCONLY	H05B2203/022		1120
+H05B2203/023	9	Heaters of the type used for electrically heating the air blown in a vehicle compartment by the vehicle heating system	CPCONLY	H05B2203/023		771
+H05B2203/024	9	Heaters using beehive flow through structures	CPCONLY	H05B2203/024		165
+H05B2203/025	8	Heaters specially adapted for glass melting or glass treatment	CPCONLY	H05B2203/025		37
+H05B2203/026	8	Heaters specially adapted for floor heating	CPCONLY	H05B2203/026		1093
+H05B2203/027	8	Heaters specially adapted for glow plug igniters	CPCONLY	H05B2203/027		204
+H05B2203/028	8	Heaters specially adapted for trays or plates to keep food or liquids hot	CPCONLY	H05B2203/028		146
+H05B2203/029	8	Heaters specially adapted for seat warmers	CPCONLY	H05B2203/029		885
+H05B2203/03	8	Heaters specially adapted for heating hand held tools	CPCONLY	H05B2203/03		218
+H05B2203/031	8	Heaters specially adapted for heating the windscreen wiper area	CPCONLY	H05B2203/031		108
+H05B2203/032	8	Heaters specially adapted for heating by radiation heating	CPCONLY	H05B2203/032		1586
+H05B2203/033	8	Heater including particular mechanical reinforcing means	CPCONLY	H05B2203/033		326
+H05B2203/034	8	Heater using resistive elements made of short fibbers of conductive material	CPCONLY	H05B2203/034		95
+H05B2203/035	8	Electrical circuits used in resistive heating apparatus	CPCONLY	H05B2203/035		784
+H05B2203/036	8	Heaters specially adapted for garment heating	CPCONLY	H05B2203/036		992
+H05B2203/037	8	Heaters with zones of different power density	CPCONLY	H05B2203/037		361
+H05B2206/00	7	Aspects relating to heating by electric, magnetic, or electromagnetic fields covered by group H05B6/00	CPCONLY	H05B2206/00		2
+H05B2206/02	8	Induction heating	CPCONLY	H05B2206/02		277
+H05B2206/022	9	Special supports for the induction coils	CPCONLY	H05B2206/022		550
+H05B2206/023	9	using the curie point of the material in which heating current is being generated to control the heating temperature	CPCONLY	H05B2206/023		169
+H05B2206/024	9	the resistive heat generated in the induction coil is conducted to the load	CPCONLY	H05B2206/024		48
+H05B2206/04	8	Heating using microwaves	CPCONLY	H05B2206/04		281
+H05B2206/042	9	Microwave oven combined with a toaster or including a toaster	CPCONLY	H05B2206/042		100
+H05B2206/043	9	Methods or circuits intended to extend the life of the magnetron	CPCONLY	H05B2206/043		75
+H05B2206/044	9	Microwave heating devices provided with two or more magnetrons or microwave sources of other kind	CPCONLY	H05B2206/044		300
+H05B2206/045	9	Microwave disinfection, sterilization, destruction of waste...	CPCONLY	H05B2206/045		281
+H05B2206/046	9	Microwave drying of wood, ink, food, ceramic, sintering of ceramic, clothes, hair	CPCONLY	H05B2206/046		453
+H05B2213/00	7	Aspects relating both to resistive heating and to induction heating, covered by H05B3/00 and H05B6/00	CPCONLY	H05B2213/00		7
+H05B2213/02	8	Stirring of melted material in melting furnaces	CPCONLY	H05B2213/02		145
+H05B2213/03	8	Heating plates made out of a matrix of heating elements that can define heating areas adapted to cookware randomly placed on the heating plate	CPCONLY	H05B2213/03		458
+H05B2213/04	8	Heating plates with overheat protection means	CPCONLY	H05B2213/04		367
+H05B2213/05	8	Heating plates with pan detection means	CPCONLY	H05B2213/05		884
+H05B2213/06	8	Cook-top or cookware capable of communicating with each other	CPCONLY	H05B2213/06		350
+H05B2213/07	8	Heating plates with temperature control means	CPCONLY	H05B2213/07		1442
+H05B2214/00	7	Aspects relating to resistive heating, induction heating and heating using microwaves, covered by groups H05B3/00, H05B6/00	CPCONLY	H05B2214/00		5
+H05B2214/02	8	Heaters specially designed for de-icing or protection against icing	CPCONLY	H05B2214/02		1026
+H05B2214/03	8	Heating of hydrocarbons	CPCONLY	H05B2214/03		334
+H05B2214/04	8	Heating means manufactured by using nanotechnology	CPCONLY	H05B2214/04		1032

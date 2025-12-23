@@ -1,0 +1,1181 @@
+H01L  21/00  \	0	0	5F117	H01L  21/00	908	半導体装置または固体装置またはそれらの部品の製造または処理に適用される方法または装置（グループ３１／００〜４９／００に分類されている装置またはその部品に製造または処理に特有な方法または装置はこれらのグループを参照；他のサブクラスに包有されている単一工程からなる方法は関連したサブクラス，例．Ｃ２３Ｃ，Ｃ３０Ｂを参照；表面に表面構造または模様を作成する写真製版，そのための材料または原稿，そのため特に適合した装置一般Ｇ０３Ｆ）	Processes or apparatus specially adapted for the manufacture or treatment of semiconductor or solid state devices or of parts thereof
+H01L  21/02  \	1	1	5F117	H01L  21/02	1268	半導体装置またはその部品の製造または処理	Manufacture or treatment of semiconductor devices or of parts thereof (characterised by the use of organic materials H01L 51/40) [2]
+H01L  21/02  A	1	0	5F117	H01L  21/02	1815	識別用情報〔マーク方法，ウエハマーク付け，キャリヤマーク付け〕	Information for distinguishing, e.g. means for marking, attaching wafer marks, attaching carrier marks
+H01L  21/02  B	1	0	5F117	H01L  21/02	7537	ウエハ・ペレット等の形状・構造〔ウエハ貼合せ，ワレ防止，結晶方位関連〕	Shapes or construction of wafers or pellets, e.g. related wafer lamination, crack prevention or crystal orientation
+H01L  21/02  C	1	0	5F117	H01L  21/02	1609	ウエハの補強〔補強材裏打ち〕	Wafer reinforcement [reinforcement material backing]
+H01L  21/02  D	1	0	5F117	H01L  21/02	1271	クリーンベンチ・ドラフト装置等〔小クリーンルーム，ゴミ除去〕　〔空調（クリーンルーム）は，Ｆ２４Ｆ〕	Clean benches or drafting devices, e.g. small clean rooms or garbage removal (air conditioning or clean rooms F24F)
+H01L  21/02  Z	1	0	5F117	H01L  21/02	7947	その他〔生産管理工程管理，静電気除去〕	Others [excluding production control, process controls, and static electricity removal]
+H01L  21/04  \	2	2	5F117	H01L  21/04	321	電位障壁，例．ＰＮ接合，空乏層，キャリア集中層，を有する装置［２００６．０１］	the devices having potential barriers?, e.g. a PN junction, depletion layer or carrier concentration layer[2006.01]
+H01L  21/18  \	3	3	5F152	H01L  21/18	251	不純物，例．ドーピング材料，を含むまたは含まない周期表第ＩＶ族の元素またはＡ↓Ｉ↓Ｉ↓ＩＢ↓Ｖ化合物から成る半導体本体を有する装置［２００６．０１］	the devices having semiconductor bodies comprising elements of Group IV of the Periodic Table? or AIIIBV compounds with or without impurities, e.g. doping materials[2006.01]
+H01L  21/20  \	4	4	5F152	H01L  21/20	16262	基板上への半導体材料の析出，例．エピタキシャル成長［２］	Deposition of semiconductor materials on a substrate, e.g. epitaxial growth [2]
+H01L  21/203  \	5	5	5F103	H01L  21/203	857	物理的析出を用いるもの，例．真空蒸着，スパッタリング	using physical deposition, e.g. vacuum deposition, sputtering [2]
+H01L  21/203  M	5	0	5F103	H01L  21/203	4425	材料の分子線，原子線，イオン線によるもの	due to molecular beams, electron beams, and ion beams of the materials
+H01L  21/203  S	5	0	5F103	H01L  21/203	4294	スパッタリングによるもの	due to sputtering
+H01L  21/203  Z	5	0	5F103	H01L  21/203	2096	その他のもの	Others
+H01L  21/205  \	5	5	5F045	H01L  21/205	52246	固体を析出させるガス状化合物の還元または分解を用いるもの，すなわち化学的析出を用いるもの［２］	using reduction or decomposition of a gaseous compound yielding a solid condensate, i.e. chemical deposition [2]
+H01L  21/208  \	5	5	5F053	H01L  21/208	502	液相成長を用いるもの	using liquid deposition [2]
+H01L  21/208  D	5	0	5F053	H01L  21/208	675	ディップ法	Taping
+H01L  21/208  S	5	0	5F053	H01L  21/208	371	スライド法	Sliding
+H01L  21/208  L	5	1	5F053	H01L  21/208	1602	ウェハが水平に配置されているもの	Wafers placed horizontally
+H01L  21/208  V	5	0	5F053	H01L  21/208	58	ＶＬＳ法	VLS method
+H01L  21/208  Z	5	0	5F053	H01L  21/208	6792	その他のもの	Others
+H01L  21/22  \	4	4	5F042	H01L  21/22	150	半導体本体へのまたは半導体本体からのまたは半導体領域間の不純物材料，例．ドーピング材料，電極材料，の拡散［２］	Diffusion of impurity materials, e.g. doping materials, electrode materials, into, or out of, a semiconductor body, or between semiconductor regions; Redistribution of impurity materials, e.g. without introduction or removal of further dopant [2]
+H01L  21/22  C	4	0	5F042	H01L  21/22	600	３―５族化合物半導体〔ＧａＡｓＰ，ＩｎＧａＰ，半導体レーザ〕	Semiconductor compounds from groups 3 to 5  [GaAsP, InGaP, semiconductor lasers]
+H01L  21/22  E	4	0	5F042	H01L  21/22	864	高エネルギー処理と拡散の組合わせ〔レーザビーム，電子ビーム，イオンビーム，プラズマ処理との組み合わせ〕	High energy treatment and diffusion combinations [laser beams, electron beams, ion beams, plasma treatment and their combinations
+H01L  21/22  P	4	0	5F042	H01L  21/22	290	プレデポジション層の処理〔プレデポしてドライブイン，二段階拡散〕	Treatment of pre-deposition layers [pre-deposition drive-in, 2-stage diffusion
+H01L  21/22  S	4	0	5F042	H01L  21/22	500	選択拡散〔マスク拡散，部分拡散〕	Selective diffusion [mask diffusion, partial diffusion]
+H01L  21/22  T	4	1	5F042	H01L  21/22	296	拡散マスクの材料・構造，形成方法に特徴のあるもの	characterized by means for
+H01L  21/22  U	4	1	5F042	H01L  21/22	47	横方向広がり拡散	Transverse spread diffusion
+H01L  21/22  V	4	1	5F042	H01L  21/22	121	溝を利用した選択拡散〔トレンチ分離のためのものはＨ０１Ｌ２１／７６，トレンチキャパシタのためのものはＨ０１Ｌ２７／０４Ｃ〕	Preferential diffusion with slots
+H01L  21/22  W	4	1	5F042	H01L  21/22	35	多孔質を利用した選択拡散〔基板が多孔質の選択拡散，２回拡散〕	Porous selective diffusion [selective diffusion with porous substrates, double diffusion]
+H01L  21/22  X	4	1	5F042	H01L  21/22	85	拡散位置合わせ，セルフアライン	Diffusion alignment, self-alignment
+H01L  21/22  Y	4	0	5F042	H01L  21/22	210	拡散の前処理，後処理	Diffusion preliminary treatment and subsequent treatment
+H01L  21/22  Z	4	0	5F042	H01L  21/22	687	その他のもの〔単工程〕	Others [simple processing]
+H01L  21/22 501 \	5	5	5F042	H01L  21/22	1	横型拡散装置	Horizontal diffusion devices
+H01L  21/22 501 D	5	0	5F042	H01L  21/22	1006	横型拡散装置の構造に特徴があるもの	Horizontal diffusion devices characterized by construction
+H01L  21/22 501 A	5	1	5F042	H01L  21/22	631	加熱方法に特徴があるもの	characterized by heating
+H01L  21/22 501 L	5	2	5F042	H01L  21/22	124	光照射による加熱	Heating by light
+H01L  21/22 501 C	5	1	5F042	H01L  21/22	90	冷却方法に特徴のあるもの	characterized by cooling
+H01L  21/22 501 B	5	1	5F042	H01L  21/22	504	拡散ボートの移送方法に特徴のあるもの	characterized by diffusion port transfer
+H01L  21/22 501 S	5	1	5F042	H01L  21/22	458	ガスの導入・排出経路に特徴のあるもの	characterized by gas introduction and emission paths
+H01L  21/22 501 F	5	1	5F042	H01L  21/22	256	遮蔽体を有するもの	having insulators
+H01L  21/22 501 G	5	1	5F042	H01L  21/22	764	ウエハ支持治具に特徴のあるもの	Wafer support equipment
+H01L  21/22 501 H	5	1	5F042	H01L  21/22	99	補助管を有するもの	having auxiliary tubes
+H01L  21/22 501 J	5	1	5F042	H01L  21/22	191	ウエハの移し替えに特徴のあるもの	Wafer transfer
+H01L  21/22 501 K	5	1	5F042	H01L  21/22	241	炉心管の洗浄	Reactor core cleaning
+H01L  21/22 501 M	5	1	5F042	H01L  21/22	550	炉心管・ウエハ支持治具の材料に特徴のあるもの	Materials for reactor core or wafer support equipment
+H01L  21/22 501 N	5	1	5F042	H01L  21/22	328	測熱手段に特徴のあるもの	characterized by heat measuring processes
+H01L  21/22 501 R	5	1	5F042	H01L  21/22	118	炉体又はウエハ支持治具が回転するもの	Rotating support equipment for furnace casings or wafers
+H01L  21/22 501 Z	5	0	5F042	H01L  21/22	21	その他	Others
+H01L  21/22 511 \	5	5	5F042	H01L  21/22	5	縦型拡散装置	Vertical diffusion devices
+H01L  21/22 511 Q	5	0	5F042	H01L  21/22	1341	縦型拡散装置の構造に特徴があるもの	characterized by construction of vertical diffusion equipment
+H01L  21/22 511 A	5	1	5F042	H01L  21/22	712	加熱・冷却方法に特徴があるもの	characterized by ways of heating and cooling
+H01L  21/22 511 B	5	1	5F042	H01L  21/22	236	拡散ボートの移送方法に特徴のあるもの	characterized by diffusion port transfer
+H01L  21/22 511 S	5	1	5F042	H01L  21/22	594	ガスの導入・排出経路に特徴のあるもの	characterized by gas introduction and emission paths
+H01L  21/22 511 G	5	1	5F042	H01L  21/22	739	ウエハ支持治具に特徴のあるもの	Wafer support equipment
+H01L  21/22 511 H	5	1	5F042	H01L  21/22	69	補助管を有するもの	having auxiliary tubes
+H01L  21/22 511 J	5	1	5F042	H01L  21/22	301	ウエハの移し替えに特徴のあるもの	Wafer transfer
+H01L  21/22 511 M	5	1	5F042	H01L  21/22	178	炉芯管・ウエハ支持治具の材料に特徴のあるもの	Materials for reactor core or wafer support equipment
+H01L  21/22 511 R	5	1	5F042	H01L  21/22	90	炉体又はウエハ支持治具が回転するもの	Rotating support equipment for furnace casings or wafers
+H01L  21/22 511 Z	5	0	5F042	H01L  21/22	51	その他	Others
+H01L  21/223  \	5	5	5F042	H01L  21/223	30	気相から固体へのまたは固体から気相への拡散を用いるもの	using diffusion into, or out of, a solid from or into a gaseous phase [2]
+H01L  21/223  A	5	0	5F042	H01L  21/223	78	アウトディフュージョンの利用〔固相から気相へ〕	using out diffusion [from solid phase to gaseous phase]
+H01L  21/223  B	5	0	5F042	H01L  21/223	48	バブラーに特徴のある拡散装置〔液体から気化〕	Dispersion units characterized by vavra [evaporation from liquid]
+H01L  21/223  C	5	0	5F042	H01L  21/223	37	３―５族化合物半導体	Semiconductor compounds from groups 3 to 5
+H01L  21/223  T	5	0	5F042	H01L  21/223	186	封管拡散〔アンプル〕	Sealed tube diffusion
+H01L  21/223  U	5	0	5F042	H01L  21/223	34	半封管拡散〔ボックス法〕	Semi-sealed tube diffusion [box method]
+H01L  21/223  V	5	0	5F042	H01L  21/223	104	減圧拡散〔真空引きしながらの拡散を含む〕	Reduced diffusion including diffusion while creating a vacuum
+H01L  21/223  W	5	0	5F042	H01L  21/223	86	ウエハの配置に特徴のあるもの〔斜め配置，背中合せ配置等〕	characterized by the arrangement of wafer [slanting arrangement, confrontation arrangement, etc.].
+H01L  21/223  X	5	0	5F042	H01L  21/223	92	固体状拡散源の配置に特徴のあるもの	characterized by solid form diffusion source distribution
+H01L  21/223  Y	5	0	5F042	H01L  21/223	136	固体状拡散源の構造・材料に特徴のあるもの〔ウエハと同一形状の拡散源板，積層構造〕	characterized by the structure and material of the source of solid-like diffusion [Source board of diffusion of the same form as wafer, and lamination structure]
+H01L  21/223  Z	5	0	5F042	H01L  21/223	121	その他のもの	Others
+H01L  21/225  \	5	5	5F042	H01L  21/225	41	固相，例．ドープされた酸化物層，から固体へのまたは固体から固相への拡散を用いるもの	using diffusion into, or out of, a solid from or into a solid phase, e.g. a doped oxide layer [2]
+H01L  21/225  C	5	0	5F042	H01L  21/225	42	３―５族化合物半導体	Semiconductor compounds from groups 3 to 5
+H01L  21/225  D	5	0	5F042	H01L  21/225	143	拡散源に特徴のあるもの〔下記以外の拡散源〕	characterized by diffusion sources [other than diffusion sources listed below]
+H01L  21/225  M	5	1	5F042	H01L  21/225	302	金属，金属化合物〔シリサイド等，電極〕	Metal and metal compound [silicide, etc., and electrode]
+H01L  21/225  N	5	1	5F042	H01L  21/225	38	金属窒化膜	Metallic nitrided films
+H01L  21/225  P	5	1	5F042	H01L  21/225	514	ドープド（ポリ）シリコン〔Ｓｉからの拡散，ポリ以外の単結晶も含む〕	Doped (poly) silicon [diffusion from silicon, including single crystals other than polysilicon]
+H01L  21/225  Q	5	1	5F042	H01L  21/225	630	ドープドオキサイド	Doped oxide
+H01L  21/225  R	5	0	5F042	H01L  21/225	837	塗布法によるもの〔拡散源蒸着，スピン・オン，フィルム貼付けも含む〕	by using the application method [including, diffusion source vapour deposition, and  spin-on film mounting]
+H01L  21/225  S	5	0	5F042	H01L  21/225	68	圧接法によるもの〔拡散源材料をウエハに圧接〕	by using pressure welding [pressure welding of diffusion materials with wafers]
+H01L  21/225  Z	5	0	5F042	H01L  21/225	41	その他のもの	Others
+H01L  21/228  \	5	5	5F042	H01L  21/228	52	液相から固体へのまたは固体から液相への拡散を用いるもの，例．合金拡散法	using diffusion into, or out of, a solid from or into a liquid phase, e.g. alloy diffusion processes [2]
+H01L  21/24  \	4	4	5F042	H01L  21/24	687	半導体本体と不純物材料，例．ドーピング材料，電極材料，の合金［２］	Alloying of impurity materials, e.g. doping materials, electrode materials, with a semiconductor body [2]
+H01L  21/26  \	4	4	5F054	H01L  21/26	76	輻射線の照射	Bombardment with wave or particle radiation [2]
+H01L  21/26  E	4	0	5F054	H01L  21/26	70	ランプ照射［膜形成は、２１／２０３、２１／２０５、２１／３１、２１／２８５、エッチングは２１／３０２、２１／３０６が優先］	Lamp irradiation (Film formation is predominantly classified in H01L 21/203, 21/205, 21/31 and 21/285. Etching is in H01L 21/302 and 21/306.)
+H01L  21/26  F	4	1	5F054	H01L  21/26	557	ランプアニール［結晶成長時のアニールはＨ０１Ｌ２１／２０、イオン注入の際のアニールはＨ０１Ｌ２１／２６５，６０２Ｂが優先］	Lamp annealing (Annealing during crystal growth is predominantly classified in H01L 21/20. Annealing during ion implantation is in H01L 21/265 and 602B.)
+H01L  21/26  G	4	1	5F054	H01L  21/26	1022	ランプ照射装置	Devices for lamp irradiation
+H01L  21/26  J	4	2	5F054	H01L  21/26	843	ランプ照射系	Systems for lamp irradiation
+H01L  21/26  Q	4	2	5F054	H01L  21/26	524	ウエハ支持治具	Wafer support equipment
+H01L  21/26  T	4	1	5F054	H01L  21/26	908	測定、制御	Measuring and control
+H01L  21/26  N	4	0	5F054	H01L  21/261	111	放射線照射による核種変換	Nuclide conversion due to radiation irradiation
+H01L  21/26  Z	4	0	5F054	H01L  21/26	61	その他のもの	Others
+H01L  21/263  \	5	5	5F054	H01L  21/263	247	高エネルギーの輻射線を有するもの	with high-energy radiation [2]
+H01L  21/263  E	5	0	5F054	H01L  21/263	250	電子線照射［膜形成は、２１／２０３、２１／２０５、２１／３１、２１／２８５、エッチングは２１／３０２、２１／３０６、露光は２１／３０，５４１が優先］	Electron beam irradiation (Film formation is predominantly classified in H01L 21/203, 21/205, 21/31 and 21/285. Etching is in H01L 21/302 and 21/306. Exposure is in H01L 21/30 and 541.)
+H01L  21/263  F	5	1	5F054	H01L  21/263	73	アニール［結晶成長時のアニールはＨ０１Ｌ２１／２０、イオン注入に際してのアニールはＨ０１Ｌ２１／２６５，６０２Ｚが優先］	Annealing (Annealing during crystal growth is predominantly classified in H01L 21/20. Annealing during ion implantation is in H01L 21/265 and 602Z.)
+H01L  21/263  Z	5	0	5F054	H01L  21/263	37	その他のもの	Others
+H01L  21/265  \	6	6	5F054	H01L  21/265	508	イオン注入法（局所的な処理ためのイオンビーム管Ｈ０１Ｊ３７／３０）［２］	producing ion implantation [2]
+H01L  21/265  F	6	0	5F054	H01L  21/265	2407	多重打ち込み、複数イオンの注入、プラズマ・イオン注入	plural placing and plural ion injection, plasma ion injection
+H01L  21/265  H	6	0	5F054	H01L  21/265	514	保護膜を介するイオン注入	Ion injection via protective films
+H01L  21/265  J	6	0	5F054	H01L  21/265	804	絶縁領域・高抵抗領域の形成	Formation of insulation areas and high-resistance areas
+H01L  21/265  K	6	0	5F054	H01L  21/265	76	ノック・オン	Knock-on
+H01L  21/265  M	6	0	5F054	H01L  21/266	1243	イオン注入マスクに特徴のあるもの	characterized by ion injection masks
+H01L  21/265  N	6	0	5F054	H01L  21/265	817	電荷の除去［電子線によるもの，Ｈ０１Ｊ３７／２０＠Ｇ、Ｈ０１Ｊ３７／３１７＠Ｚ］	Electric charge removal [using electron beams H01J37/20@G, H01J37/317@Z
+H01L  21/265  P	6	0	5F054	H01L  21/265	649	ポリシリコンへのイオン注入	Polysilicon ion injection
+H01L  21/265  Q	6	0	5F054	H01L  21/265	1532	結晶性の改変を目的とするイオン注入	Ion injection to improve crystalline nature
+H01L  21/265  R	6	0	5F054	H01L  21/265	422	溝構造に対するイオン注入	Lateral ion injection
+H01L  21/265  T	6	0	5F054	H01L  21/265	1250	測定、制御［Ｈ０１Ｊ３７／３１７Ｃ参照］	Measuring and control [see the relevant place of  H01J37/317C]
+H01L  21/265  U	6	0	5F054	H01L  21/265	261	チャネリング	Channeling
+H01L  21/265  V	6	0	5F054	H01L  21/265	833	イオンビームの斜め入射	Oblique ion injection
+H01L  21/265  W	6	0	5F054	H01L  21/265	812	特定の用途にイオン注入を用いた点のみに特徴	characterized by using only special purpose ion injection
+H01L  21/265  Y	6	0	5F054	H01L  21/265	309	絶縁膜へのイオン注入	Ion injection to the ion film
+H01L  21/265  Z	6	0	5F054	H01L  21/265	1551	その他のもの	Others
+H01L  21/265 601 \	7	7	5F054	H01L  21/265	1	３―５族化合物半導体	Semiconductor compounds from groups 3 to 5
+H01L  21/265 601 A	7	0	5F054	H01L  21/265	753	アニール	Annealing
+H01L  21/265 601 H	7	0	5F054	H01L  21/265	228	保護膜を介するイオン注入	Ion injection via protective films
+H01L  21/265 601 J	7	0	5F054	H01L  21/265	124	絶縁領域・高抵抗領域の形成	Formation of insulation areas and high-resistance areas
+H01L  21/265 601 Q	7	0	5F054	H01L  21/265	98	結晶性の改変を目的とするイオン注入	Ion injection to improve crystalline nature
+H01L  21/265 601 S	7	0	5F054	H01L  21/265	174	セルフアライン［ソース・ドレイン形状、ＬＤＤ構造］	Self-alignment [source and drain shapes, LDD construction]
+H01L  21/265 601 Z	7	0	5F054	H01L  21/265	274	その他のもの	Others
+H01L  21/265 602 \	7	7	5F054	H01L  21/265	6	アニール、輻射線の照射	Annealing, radiation irradiation
+H01L  21/265 602 A	7	0	5F054	H01L  21/265	1380	ヒータ	Heaters
+H01L  21/265 602 B	7	0	5F054	H01L  21/265	1015	ランプ	Lamps
+H01L  21/265 602 C	7	0	5F054	H01L  21/265	1086	レーザ	Lasers
+H01L  21/265 602 Z	7	0	5F054	H01L  21/265	212	その他のもの	Others
+H01L  21/265 603 \	7	7	5F054	H01L  21/265	4	イオン注入装置	Devices for ion injection
+H01L  21/265 603 A	7	0	5F054	H01L  21/265	682	イオン源、加速部［Ｈ０１Ｊ３７／０８参照］	Ion sources and accelerators
+H01L  21/265 603 B	7	0	5F054	H01L  21/265	850	分離部、レンズ部、走査部［Ｈ０１Ｊ３７／１４７、Ｈ０１Ｊ３７／３１７参照］	Separation section, lens section, scanning section [see the relevant place of  H01J37/147, H01J37/317]
+H01L  21/265 603 C	7	0	5F054	H01L  21/265	697	注入室［予備室・搬送も含む、Ｈ０１Ｊ３７／３１７参照］	Injection chambers [see the relevant place of H01J37/317including spare chambers and transportation]
+H01L  21/265 603 D	7	1	5F054	H01L  21/265	1021	ウエハホルダ	Wafer holders
+H01L  21/265 603 Z	7	0	5F054	H01L  21/265	415	その他のもの	Others
+H01L  21/265 604 \	7	7	5F054	H01L  21/265	1	セルフアライン	Self alignment
+H01L  21/265 604 G	7	0	5F054	H01L  21/265	149	ソース・ドレイン形状に特徴のあるもの	characterized by source and drain shapes
+H01L  21/265 604 V	7	1	5F054	H01L  21/265	234	イオンビームの斜め入射	Oblique ion injection of ion beams
+H01L  21/265 604 M	7	1	5F054	H01L  21/265	936	マスク構成［側壁利用など］	Mask construction [using side walls, etc.]
+H01L  21/265 604 X	7	0	5F054	H01L  21/265	400	酸化膜との整合	Oxide film interfaces
+H01L  21/265 604 Z	7	0	5F054	H01L  21/265	287	その他のもの	Others
+H01L  21/268  \	6	6	5F054	H01L  21/268	56	電磁波，例．レーザ光線，を用いるもの	using electromagnetic radiation, e.g. laser radiation [2]
+H01L  21/268  E	6	0	5F054	H01L  21/268	261	レーザ照射［膜形成は、２１／２０３、２１／２０５、２１／３１、２１／２８５、エッチングは２１／３０２、２１／３０６が優先］	Laser beam irradiation (Film formation is predominantly classified in H01L 21/203, 21/205, 21/31 and 21/285. Etching is in H01L 21/302 and 21/306.)
+H01L  21/268  F	6	1	5F054	H01L  21/268	972	レーザアニール［結晶成長時のアニールはＨ０１Ｌ２１／２０、イオン注入の際のアニールはＨ０１Ｌ２１／２６５，６０２Ｃが優先］	Laser annealing (Annealing during crystal growth is predominantly classified in H01L 21/20. Annealing during ion implantation is in H01L 21/265 and 602C.)
+H01L  21/268  G	6	1	5F054	H01L  21/268	777	レーザビーム照射装置	Devices for laser beam irradiation
+H01L  21/268  J	6	2	5F054	H01L  21/268	1757	ビーム照射系	Beam irradiation systems
+H01L  21/268  T	6	1	5F054	H01L  21/268	803	測定、制御	Measuring and control
+H01L  21/268  Z	6	0	5F054	H01L  21/268	401	その他のもの	Others
+H01L  21/28  \	4	4	4M104	H01L  21/28	236	２１／２０〜２１／２６８に分類されない方法または装置を用いる半導体本体上への電極の製造	Manufacture of electrodes on semiconductor bodies using processes or apparatus not provided for in groups H01L 21/20-H01L 21/268 [2]
+H01L  21/283  \	5	5	4M104	H01L  21/283	21	電極用の導電または絶縁材料の析出［２］	Deposition of conductive or insulating materials for electrodes [2]
+H01L  21/285  \	6	6	4M104	H01L  21/285	104	気体または蒸気からの析出，例．凝結	from a gas or vapour, e.g. condensation [2]
+H01L  21/285  P	6	0	4M104	H01L  21/285	987	蒸着法	Vacuum vapour deposition method
+H01L  21/285  S	6	0	4M104	H01L  21/285	3818	スパッタ法	Sputter deposition method
+H01L  21/285  C	6	0	4M104	H01L  21/285	4498	ＣＶＤ法	CVD method
+H01L  21/285  Z	6	0	4M104	H01L  21/285	421	その他のもの	Others
+H01L  21/285 301 \	7	7	4M104	H01L  21/285	2313	電極の材料が限定されているもの	for use when electrode materials are limited
+H01L  21/288  \	6	6	4M104	H01L  21/288	85	液体からの析出，例．電解液からの析出	from a liquid, e.g. electrolytic deposition [2]
+H01L  21/288  M	6	0	4M104	H01L  21/288	522	析出される電極の材料が限定されているもの	Limited to electrode deposition materials
+H01L  21/288  E	6	0	4M104	H01L  21/288	2419	メッキを用いているもの	using electroplating
+H01L  21/288  Z	6	0	4M104	H01L  21/288	2276	その他のもの	Others
+H01L  21/30  \	4	4	5F146	H01L  21/30	7321	２１／２０〜２１／２６に分類されない方法または装置を用いる半導体本体の処理（半導体本体上への電極の製造２１／２８）［２］	Treatment of semiconductor bodies using processes or apparatus not provided for in groups H01L 21/20-H01L 21/26 (manufacture of electrodes thereon H01L 21/28) [2]
+H01L  21/30 501 \	5	5	5F146	H01L  21/027	50	半導体本体の露光	Semi-conductor body exposure
+H01L  21/30 502 \	6	6	5F146	H01L  21/027	29	紫外線，Ｘ線，電子線露光等の共通事項	having common items such as ultraviolet radiation,            X-radiation, and electron beam exposure
+H01L  21/30 502 A	6	0	5F146	H01L  21/027	549	複数種類の光線による露光	Exposure by plural kinds of light beams
+H01L  21/30 502 C	6	0	5F146	H01L  21/027	1277	同一光線で２度以上の露光を行うもの	Exposure of 2 degrees or more by identical light beams
+H01L  21/30 502 D	6	0	5F146	H01L  21/027	6574	その他の光線を用いた露光	Exposure using other kinds of light beams
+H01L  21/30 502 G	6	0	5F146	H01L  21/027	1502	露光の制御・検知・表示	Exposure control, detection, and display
+H01L  21/30 502 H	6	0	5F146	H01L  21/027	512	温度調整	Temperature regulation
+H01L  21/30 502 J	6	0	5F146	H01L  21/027	1303	搬送	Conveyance
+H01L  21/30 502 M	6	0	5F146	H01L  21/027	2026	位置合わせマーク	Alignment marking
+H01L  21/30 502 P	6	0	5F146	H01L  21/027	8019	露光マスク	Exposure masks
+H01L  21/30 502 R	6	0	5F146	H01L  21/027	14139	レジスト材料	Resist materials
+H01L  21/30 502 V	6	0	5F146	H01L  21/027	3170	パターン検査	Pattern detection
+H01L  21/30 502 W	6	0	5F146	H01L  21/027	828	パターン修正	Pattern correction
+H01L  21/30 502 Z	6	0	5F146	H01L  21/027	695	その他のもの	Others
+H01L  21/30 503 \	6	6	5F146	H01L  21/027	23	露光装置の細部，付属装置一般	Exposure device details, general accessories
+H01L  21/30 503 A	6	0	5F146	H01L  21/027	1770	ステージ（レチクルフレーム）	Stages (reticule frames)
+H01L  21/30 503 B	6	1	5F146	H01L  21/027	325	ステップ・アンド・リピート用	for step and repeat
+H01L  21/30 503 C	6	0	5F146	H01L  21/027	674	ウェハチャック	Wafer chucks
+H01L  21/30 503 D	6	0	5F146	H01L  21/027	434	マスク（レチクル）の保持	Mask (reticule) retention
+H01L  21/30 503 E	6	0	5F146	H01L  21/027	410	ウェハ又はマスクの収納	Wafer or mask receipt
+H01L  21/30 503 F	6	0	5F146	H01L  21/027	717	防振	Vibration prevention
+H01L  21/30 503 G	6	0	5F146	H01L  21/027	1053	ゴミ除去	Trash removal
+H01L  21/30 503 Z	6	0	5F146	H01L  21/027	273	その他のもの	Others
+H01L  21/30 504 \	6	6	5F146	H01L  21/027	175	紫外線・遠紫外線・可視光線露光	Ultraviolet, far ultraviolet, and visible light radiation exposure
+H01L  21/30 505 \	7	7	5F146	H01L  21/027	356	密着露光	Tight exposure
+H01L  21/30 506 \	8	8	5F146	H01L  21/027	95	位置合わせ	Alignment
+H01L  21/30 506 A	8	0	5F146	H01L  21/027	89	マークの形状・構造・製造	Mark shape, construction, and manufacture
+H01L  21/30 506 B	8	1	5F146	H01L  21/027	12	十字	Crossed
+H01L  21/30 506 C	8	1	5F146	H01L  21/027	17	棒状	Bar shape
+H01L  21/30 506 D	8	1	5F146	H01L  21/027	10	ハの字	Shaped like two vertical bars leaning towards one another
+H01L  21/30 506 E	8	1	5F146	H01L  21/027	114	回折格子	Grating
+H01L  21/30 506 F	8	2	5F146	H01L  21/027	46	フレネル・ゾーン・プレート	Fresnel's zone plate
+H01L  21/30 506 G	8	0	5F146	H01L  21/027	39	マークの配置（配列）	Mark placement (alignment)
+H01L  21/30 506 H	8	0	5F146	H01L  21/027	98	マーク検出結果によるステージ等の移動	Movement of stages and such due to mark detection results
+H01L  21/30 506 J	8	0	5F146	H01L  21/027	120	ウェハマークとマスクマークによるもの	due to wafer marks and mask marks
+H01L  21/30 506 K	8	0	5F146	H01L  21/027	30	ウェハマークと基準マークによるもの	due to wafer masks and reference marks
+H01L  21/30 506 L	8	0	5F146	H01L  21/027	61	マスクマークと基準マークによるもの	due to mask marks and reference marks
+H01L  21/30 506 M	8	0	5F146	H01L  21/027	4	振動の利用	using vibration
+H01L  21/30 506 N	8	0	5F146	H01L  21/027	55	両面露光のためのもの	due to exposure on both sides
+H01L  21/30 506 Z	8	0	5F146	H01L  21/027	82	その他のもの	Others
+H01L  21/30 507 \	9	9	5F146	H01L  21/027	4	マークの検出（細部）	Mark detection (details)
+H01L  21/30 507 A	9	0	5F146	H01L  21/027	45	光学的	Optical
+H01L  21/30 507 B	9	1	5F146	H01L  21/027	39	検出用光源	Light sources for detection
+H01L  21/30 507 C	9	2	5F146	H01L  21/027	69	光の走査	Light scanning
+H01L  21/30 507 D	9	2	5F146	H01L  21/027	5	露光光	Exposure light
+H01L  21/30 507 E	9	2	5F146	H01L  21/027	32	露光安全光	Exposure safety light
+H01L  21/30 507 F	9	2	5F146	H01L  21/027	20	レーザー（光の走査が優先）	Lasers (light scanning takes precedence)
+H01L  21/30 507 G	9	2	5F146	H01L  21/027	16	２以上の波長からの選択	Selection from among 2 or more wave lengths
+H01L  21/30 507 H	9	1	5F146	H01L  21/027	48	検出用受光装置	light-receiving devices for detection
+H01L  21/30 507 J	9	2	5F146	H01L  21/027	26	ＴＶカメラ	TV cameras
+H01L  21/30 507 K	9	2	5F146	H01L  21/027	15	直線状受光センサアレイ	Rectilinear light-receiving sensor arrays
+H01L  21/30 507 L	9	1	5F146	H01L  21/027	125	検出用光学系	Optical systems for detection
+H01L  21/30 507 M	9	2	5F146	H01L  21/027	20	色収差の補正（光路長の補正）	Chromatic aberration correction (optical path length correction)
+H01L  21/30 507 N	9	2	5F146	H01L  21/027	2	λ／４板	l/4 plates
+H01L  21/30 507 P	9	2	5F146	H01L  21/027	3	暗視野	Dark field
+H01L  21/30 507 Q	9	1	5F146	H01L  21/027	3	目視	Visual
+H01L  21/30 507 R	9	0	5F146	H01L  21/027	235	検出された位置合わせマークの情報処理	Information processing of detected  alignment marks
+H01L  21/30 507 S	9	0	5F146	H01L  21/027	6	露光時のマークの保護	Mark retention during exposure
+H01L  21/30 507 T	9	0	5F146	H01L  21/027	31	プリアライメント手段を持つもの，２種類以上の位置合わせを行うもの	Having means for pre-alignment, having 2 or more types for alignment
+H01L  21/30 507 U	9	0	5F146	H01L  21/027	16	マークの露光処理	Handling mark exposure
+H01L  21/30 507 V	9	0	5F146	H01L  21/027	3	位置合わせ結果（状態）の表示	Display of alignment results (forms)
+H01L  21/30 507 Z	9	0	5F146	H01L  21/027	19	その他のもの	Others
+H01L  21/30 508 \	8	8	5F146	H01L  21/027	9	位置合わせのためのマスク・ウェハの保持移動	Mask and wafer retention movement due to alignment
+H01L  21/30 508 A	8	0	5F146	H01L  21/027	370	ウェハ面に垂直なもの	weight directly on the wafer surface
+H01L  21/30 508 Z	8	0	5F146	H01L  21/027	166	その他のもの	Others
+H01L  21/30 509 \	7	7	5F146	H01L  21/027	476	プロキシミティ露光	Proximity exposure
+H01L  21/30 510 \	8	8	5F146	H01L  21/027	443	位置合わせ	Alignment
+H01L  21/30 511 \	8	8	5F146	H01L  21/027	423	マスクとウエハの間隔調整又は平行度調整	Mask and wafer spacing adjustment or parallelization degree control
+H01L  21/30 512 \	7	7	5F146	H01L  21/027	67	投影露光（レチクル）	Projection exposure (reticule)
+H01L  21/30 513 \	8	8	5F146	H01L  21/027	38	一般	General
+H01L  21/30 514 \	9	9	5F146	H01L  21/027	11	ステップ・アンド・リピート露光，縮小投影露光の共通事項	having step and repeat exposure and reduced projection in common
+H01L  21/30 514 A	9	0	5F146	H01L  21/027	885	２度露光（２重露光）	Secondary exposure (double exposure)
+H01L  21/30 514 B	9	0	5F146	H01L  21/027	208	露光順序，露光位置	Exposure sequence, exposure position
+H01L  21/30 514 C	9	0	5F146	H01L  21/027	808	露光方法	Exposure process
+H01L  21/30 514 D	9	0	5F146	H01L  21/027	313	搬送装置との組み合わせ	Combined with conveyance
+H01L  21/30 514 E	9	0	5F146	H01L  21/027	835	他の処理装置，機能との組み合わせ	Combined with processing equipment and machines
+H01L  21/30 514 F	9	0	5F146	H01L  21/027	84	基板情報の露光	Substrate information exposure
+H01L  21/30 514 Z	9	0	5F146	H01L  21/027	129	その他のもの	Others
+H01L  21/30 515 \	10	10	5F146	H01L  21/027	9	露光装置の細部	Exposure device details
+H01L  21/30 515 A	10	0	5F146	H01L  21/027	222	光源	Light sources for detection
+H01L  21/30 515 B	10	1	5F146	H01L  21/027	856	レーザー	Lasers (light scanning takes precedence)
+H01L  21/30 515 C	10	1	5F146	H01L  21/027	167	放電灯	Discharge lamps
+H01L  21/30 515 D	10	0	5F146	H01L  21/027	7091	光学系	Optical systems for detection
+H01L  21/30 515 E	10	1	5F146	H01L  21/027	233	シャッター	Shutters
+H01L  21/30 515 F	10	0	5F146	H01L  21/027	1266	レチクル及びレチクルステージ	Reticule and reticule stages
+H01L  21/30 515 G	10	0	5F146	H01L  21/027	1779	ウエハステージ	Wafer stages
+H01L  21/30 515 Z	10	0	5F146	H01L  21/027	189	その他のもの	Others
+H01L  21/30 516 \	10	10	5F146	H01L  21/027	24	制御，調整，検知，表示	Control, regulation, detection, and display
+H01L  21/30 516 A	10	0	5F146	H01L  21/027	2088	倍率調整，光路長補正，歪み補正	Magnification regulation, optical path length correction, warp correction
+H01L  21/30 516 B	10	0	5F146	H01L  21/027	1376	ステップ・アンド・リピートのステージ移動，制御	Step and repeat stage movement and control
+H01L  21/30 516 C	10	0	5F146	H01L  21/027	780	露光光又は他の光の検知	Exposure light or other light detection
+H01L  21/30 516 D	10	0	5F146	H01L  21/027	1008	露光量（時間）の制御	Exposure amount (time) control
+H01L  21/30 516 E	10	0	5F146	H01L  21/027	694	温度調整，検出	Temperature control and detection
+H01L  21/30 516 F	10	0	5F146	H01L  21/027	835	圧力，零囲気の調整	Pressure and atmosphere control
+H01L  21/30 516 Z	10	0	5F146	H01L  21/027	829	その他のもの	Others
+H01L  21/30 517 \	9	9	5F146	H01L  21/027	517	反射形投影露光，等倍投影露光	Reflex projection exposure, magnified projection exposure
+H01L  21/30 518 \	10	10	5F146	H01L  21/027	1459	走査を用いるもの	using scanning
+H01L  21/30 519 \	9	9	5F146	H01L  21/027	146	パターンジェネレーター	Pattern generators
+H01L  21/30 520 \	8	8	5F146	H01L  21/027	44	位置合わせ	Alignment
+H01L  21/30 520 A	8	0	5F146	H01L  21/027	401	プリアライメントを行うもの，２種類以上の位置合わせを行うもの	With pre-alignment, with alignment of 2 or more types
+H01L  21/30 520 B	8	0	5F146	H01L  21/027	99	ウエハマーク部の露光，保護	Wafer mark section exposure and retention
+H01L  21/30 520 C	8	0	5F146	H01L  21/027	80	位置合わせ結果（状態）の表示	Display of alignment results (forms)
+H01L  21/30 520 Z	8	0	5F146	H01L  21/027	91	その他のもの	Others
+H01L  21/30 521 \	9	9	5F146	H01L  21/027	187	マークを用いた投影露光の位置合わせ	Projection exposure alignment using marks
+H01L  21/30 522 \	10	10	5F146	H01L  21/027	62	位置合わせマークの形状，構造，製造	Mark alignment shapes, structure, and construction
+H01L  21/30 522 A	10	0	5F146	H01L  21/027	78	十字	Crossed
+H01L  21/30 522 B	10	0	5F146	H01L  21/027	116	棒状	Bar shape
+H01L  21/30 522 C	10	0	5F146	H01L  21/027	21	ハの字	Shaped like two vertical bars leaning towards one another
+H01L  21/30 522 D	10	0	5F146	H01L  21/027	387	回折格子	Grating
+H01L  21/30 522 E	10	1	5F146	H01L  21/027	22	フレネル・ゾーン・プレート	Fresnel's zone plate
+H01L  21/30 522 Z	10	0	5F146	H01L  21/027	280	その他	Others
+H01L  21/30 523 \	10	10	5F146	H01L  21/027	282	位置合わせマークの配置（配列）（ステージ上のマークも含む）	Placement (array)of alignment marks (including stage marks)
+H01L  21/30 524 \	10	10	5F146	H01L  21/027	39	等倍投影露光用	for magnification projection and exposure
+H01L  21/30 525 \	10	10	5F146	H01L  21/027	11	ステップ・アンド・リピート投影露光用	for step and repeat projection exposure
+H01L  21/30 525 A	10	0	5F146	H01L  21/027	198	ＴＴＬ以外	Other than transistor-transistor logic
+H01L  21/30 525 B	10	0	5F146	H01L  21/027	173	ウエハマークと基準マークによるもの	with wafer marks and reference marks
+H01L  21/30 525 C	10	0	5F146	H01L  21/027	182	マスクマークと基準マークによるもの	with mask marks and reference marks
+H01L  21/30 525 D	10	0	5F146	H01L  21/027	586	ウエハマークとマスクマークによるもの（方法）	with wafer marks and mask marks (process)
+H01L  21/30 525 E	10	1	5F146	H01L  21/027	255	位置合わせマークの検出	Detection of alignment marks
+H01L  21/30 525 F	10	2	5F146	H01L  21/027	223	光学的	Optically
+H01L  21/30 525 G	10	3	5F146	H01L  21/027	128	検出用光源	Light sources for detection
+H01L  21/30 525 H	10	3	5F146	H01L  21/027	198	光の走査	Light scanning
+H01L  21/30 525 J	10	3	5F146	H01L  21/027	58	露光光	Exposure light or other light detection
+H01L  21/30 525 K	10	3	5F146	H01L  21/027	75	露光安全光	Exposure safety light
+H01L  21/30 525 L	10	3	5F146	H01L  21/027	277	レーザー（光の走査が優先）	Lasers (light scanning takes precedence)
+H01L  21/30 525 M	10	3	5F146	H01L  21/027	117	２以上の波長からの選択	Selection from among 2 or more wave lengths
+H01L  21/30 525 N	10	2	5F146	H01L  21/027	157	検出用受光装置	light-receiving devices for detection
+H01L  21/30 525 P	10	3	5F146	H01L  21/027	115	ＴＶカメラ	TV cameras
+H01L  21/30 525 Q	10	3	5F146	H01L  21/027	25	直線状受光センサアレイ	Direct radiation light-receiving sensor arrays
+H01L  21/30 525 R	10	2	5F146	H01L  21/027	661	検出用光学系	Optical systems for detection
+H01L  21/30 525 S	10	3	5F146	H01L  21/027	169	色収差の補正（光路長の補正）	Chromatic aberration correction (optical path length correction)
+H01L  21/30 525 T	10	3	5F146	H01L  21/027	33	λ／４板	[lambda]/4 plates
+H01L  21/30 525 U	10	3	5F146	H01L  21/027	15	暗視野	Dark field
+H01L  21/30 525 V	10	2	5F146	H01L  21/027	18	目視	Visual
+H01L  21/30 525 W	10	0	5F146	H01L  21/027	1362	検出された位置合わせマーク情報の処理	Information processing of detected  alignment marks
+H01L  21/30 525 X	10	0	5F146	H01L  21/027	432	マーク検出結果によるステージの移動	Stage movement due to mark detection results
+H01L  21/30 525 Z	10	0	5F146	H01L  21/027	110	その他のもの	Others
+H01L  21/30 526 \	8	8	5F146	H01L  21/027	50	焦点合わせ（平行度調整）	Focusing (parallelization degree control)
+H01L  21/30 526 A	8	0	5F146	H01L  21/027	741	光によるもの	for light
+H01L  21/30 526 B	8	1	5F146	H01L  21/027	717	斜入射光によるもの	for grazing light
+H01L  21/30 526 Z	8	0	5F146	H01L  21/027	350	その他のもの	Others
+H01L  21/30 527 \	7	7	5F146	H01L  21/027	1624	照明装置（光源）	Devices for illumination
+H01L  21/30 528 \	7	7	5F146	H01L  21/027	1353	干渉露光，ホログラフィ露光	Interference exposure and holography exposure
+H01L  21/30 529 \	7	7	5F146	H01L  21/027	1528	ビーム露光	Beam exposure
+H01L  21/30 531 \	6	6	5F146	H01L  21/027	24	Ｘ線露光	X-radiation exposure
+H01L  21/30 531 A	6	0	5F146	H01L  21/027	2792	Ｘ線露光装置	Devices for X-radiation exposure
+H01L  21/30 531 E	6	0	5F146	H01L  21/027	504	Ｘ線露光方法	Processes for X-radiation exposure
+H01L  21/30 531 J	6	0	5F146	H01L  21/027	468	位置合わせ	Alignment
+H01L  21/30 531 M	6	0	5F146	H01L  21/027	2668	Ｘ線露光用マスク	Masks for X-radiation exposure
+H01L  21/30 531 S	6	0	5F146	H01L  21/027	1332	Ｘ線源	X-radiation sources
+H01L  21/30 531 Z	6	0	5F146	H01L  21/027	182	その他のもの	Others
+H01L  21/30 541 \	6	6	5F056	H01L  21/027	277	電子線露光	Electron beam  exposure
+H01L  21/30 541 A	6	0	5F056	H01L  21/027	241	電子光学系	Systems for electron optics
+H01L  21/30 541 B	6	1	5F056	H01L  21/027	1761	電子銃，アパーチャ，ブランキング電極，収束・偏向器	Convergence and deflection equipment for electron guns, apertures, and ranking electrodes
+H01L  21/30 541 C	6	0	5F056	H01L  21/027	192	制御系	Control systems
+H01L  21/30 541 J	6	1	5F056	H01L  21/027	1700	描画方法（走査の制御によるもの）	Draughting processes (by control of scanning)
+H01L  21/30 541 M	6	1	5F056	H01L  21/027	1145	描画方法（照射量，照射形状の制御によるもの）	Draughting processes (by controlling dose and irradiation shape)
+H01L  21/30 541 D	6	1	5F056	H01L  21/027	1285	ビームの照射位置の制御	Control of beam irradiation position
+H01L  21/30 541 E	6	1	5F056	H01L  21/027	759	ビームの照射量、照射形状の制御	Control of beam dose and irradiation shape
+H01L  21/30 541 V	6	0	5F056	H01L  21/027	116	調整系	System regulation
+H01L  21/30 541 F	6	1	5F056	H01L  21/027	244	焦点の調整方法	Focus adjustment processes
+H01L  21/30 541 H	6	1	5F056	H01L  21/027	154	軸の調整方法	Shaft adjustment processes
+H01L  21/30 541 U	6	0	5F056	H01L  21/027	248	測定系	Measuring systems
+H01L  21/30 541 N	6	1	5F056	H01L  21/027	349	ビームの属性の測定	Measuring of beam
+H01L  21/30 541 K	6	1	5F056	H01L  21/027	1006	位置合わせマークの位置の測定	Measuring of alignment mark positions
+H01L  21/30 541 G	6	0	5F056	H01L  21/027	315	鏡体系	Mirror body systems
+H01L  21/30 541 L	6	1	5F056	H01L  21/027	1477	試料室，試料台，試料搬送カセット	Cassettes for sample rooms, sample stands, and sample conveyance
+H01L  21/30 541 P	6	0	5F056	H01L  21/027	1028	試料の処理	Sample processing
+H01L  21/30 541 Q	6	0	5F056	H01L  21/027	971	可変整形ビームを用いた電子線露光	Electron beam exposure with variable reshaping beams
+H01L  21/30 541 R	6	0	5F056	H01L  21/027	219	固定整形ビームを用いた電子線露光	Electron beam exposure with fixed reshaping beams
+H01L  21/30 541 S	6	0	5F056	H01L  21/027	1503	パターンマスクを用いた電子線露光	Electron beam exposure with pattern masks
+H01L  21/30 541 T	6	0	5F056	H01L  21/027	207	フォト・カソードを用いた電子線露光	Electron beam exposure with photo cathodes
+H01L  21/30 541 W	6	0	5F056	H01L  21/027	905	複数のビームを用いた電子線露光	Electron beam exposure with plural beams
+H01L  21/30 541 Z	6	0	5F056	H01L  21/027	423	その他のもの	Others
+H01L  21/30 551 \	6	6	5F056	H01L  21/027	452	イオン線露光	Ion beam exposure
+H01L  21/30 561 \	6	6	5F146	H01L  21/027	145	レジスト膜の処理	Resist film processing
+H01L  21/30 562 \	7	7	5F146	H01L  21/027	1903	一般的なもの	General items
+H01L  21/30 563 \	7	7	5F146	H01L  21/027	1095	レジスト塗布以前の処理，レジスト接着強化膜	Processing before resist application, resist adhesion strengthening films
+H01L  21/30 564 \	7	7	5F146	H01L  21/027	479	レジスト塗布	Resist application
+H01L  21/30 564 C	7	0	5F146	H01L  21/027	3899	回転塗布装置	Devices for rotation application
+H01L  21/30 564 D	7	0	5F146	H01L  21/027	1007	回転塗布方法	Processes for rotation application
+H01L  21/30 564 Z	7	0	5F146	H01L  21/027	2113	その他の塗布装置	Others devices for application
+H01L  21/30 565 \	7	7	5F146	H01L  21/027	650	レジスト塗布以後，露光以前の処理（ベーキングを除く）	Processing after resist application and before exposure [excluding baking]
+H01L  21/30 566 \	8	8	5F146	H01L  21/027	743	ベーキング一般又はプリベーキング	General baking or prebaking
+H01L  21/30 567 \	8	8	5F146	H01L  21/027	2055	ベーキング装置（乾燥）	Devices for baking (drying)
+H01L  21/30 568 \	7	7	5F146	H01L  21/027	868	露光以後，現像以前の処理（グラフト重合）	Processing after exposure and before development (graft polymerization)
+H01L  21/30 569 \	7	7	5F146	H01L  21/027	113	現像，リンス	Developing and rinsing
+H01L  21/30 569 A	7	0	5F146	H01L  21/027	387	ｼｮ	Wet process
+H01L  21/30 569 B	7	1	5F146	H01L  21/027	260	現像槽（浸漬）	Development tanks (dipping)
+H01L  21/30 569 C	7	1	5F146	H01L  21/027	2114	回転処理	Rotation processing
+H01L  21/30 569 D	7	1	5F146	H01L  21/027	499	搬送を伴なうもの	accompanying conveyance
+H01L  21/30 569 E	7	1	5F146	H01L  21/027	977	現像液，リンス液	Development fluids and rinse fluids
+H01L  21/30 569 F	7	1	5F146	H01L  21/027	1214	現像方法	Processes for development
+H01L  21/30 569 G	7	1	5F146	H01L  21/027	110	現像終点の検知	Detection of development end point
+H01L  21/30 569 H	7	1	5F146	H01L  21/027	431	乾式	Dry processes
+H01L  21/30 569 Z	7	0	5F146	H01L  21/027	550	その他のもの	Others
+H01L  21/30 570 \	7	7	5F146	H01L  21/027	1875	現像以後の処理（ベーキングを除く）	Processing after development (excluding baking)
+H01L  21/30 571 \	8	8	5F146	H01L  21/027	496	ポストベーキング（熱＋紫外線）	Post baking (heat + infrared radiation)
+H01L  21/30 572 \	8	8	5F146	H01L  21/027	79	レジスト膜の剥離	Resist coating stripping
+H01L  21/30 572 A	8	0	5F146	H01L  21/027	1461	乾式	Dry processes
+H01L  21/30 572 B	8	0	5F146	H01L  21/027	2953	ｼｮ	Wet process
+H01L  21/30 572 Z	8	0	5F146	H01L  21/027	173	その他のもの	Others
+H01L  21/30 573 \	7	7	5F146	H01L  21/027	2232	多層レジスト膜	Plural layer resist coatings
+H01L  21/30 574 \	7	7	5F146	H01L  21/027	1845	反射防止膜，反射膜（吸収膜）	Antireflection coatings and reflective coatings (absorption coatings)
+H01L  21/30 575 \	7	7	5F146	H01L  21/027	749	レジストの保護膜（表面膜）	Resist protective coatings (surface coatings)
+H01L  21/30 576 \	7	7	5F146	H01L  21/027	453	レジストパターンのオーバーハング、傾斜形状	Resist pattern overhang, inclined
+H01L  21/30 577 \	7	7	5F146	H01L  21/027	1022	ウェハ周辺部のレジスト除去	Wafer perimeter resist stripping
+H01L  21/30 578 \	7	7	5F146	H01L  21/027	415	平坦化（プラナリゼーション）	Flattening (planariazation)
+H01L  21/30 579 \	7	7	5F146	H01L  21/027	107	カルコゲンを用いたもの	using calcogen
+H01L  21/302  \	5	5	5F004	H01L  21/302	459	表面の物理的性質または形状の変換，例．エッチング，ポリシング，切断	to change the physical characteristics of their surfaces, or to change their shape, e.g. etching, polishing, cutting [2]
+H01L  21/302 100 \	6	6	5F004	H01L  21/3065	91	プラズマエッチング	Plasma etching
+H01L  21/302 101 \	7	7	5F004	H01L  21/3065	86	プラズマエッチング装置	Plasma etching systems
+H01L  21/302 101 B	7	0	5F004	H01L  21/3065	6965	平行平板型［容量結合型、ＲＩＥ、２周波数型装置を含む］	Parallel flat plate systems (including capacitive couplilng type, RIE, two-frequency systems)
+H01L  21/302 101 C	7	0	5F004	H01L  21/3065	3222	誘導結合型［ＴＣＰ（登録商標）、ＩＣＰ、ヘリコン波型を含む］	Inductive coupling systems (incluidng TCP (R), ICP, helicon wave systems)
+H01L  21/302 101 D	7	0	5F004	H01L  21/3065	6319	マイクロ波励起型・ＵＨＦ波励起［ＥＣＲ、空洞共振型を含む：一般的にマイクロ波を用いるものを含む］	Microwave and UHF wave exciting systems (incluidng ECR, cavity resonance systems; including systems generally using microwaves)
+H01L  21/302 101 E	7	0	5F004	H01L  21/3065	1055	局所プラズマ［大気圧放電、ＰＡＣＥ、ケミカルヴェーパーマシニング［ＣＶＭ］を含む）	Local plasma (including atmospheric discharge, PACE, chemical vapor machining (CVM))
+H01L  21/302 101 F	7	0	5F004	H01L  21/3065	537	ウェハ積層型バッチ処理装置［バレル型、エッチングトンネルを含む］	Wafer lamination batch processing systems (including barrel, etching tunnel systems)
+H01L  21/302 101 G	7	0	5F004	H01L  21/3065	9915	装置間共通事項［基板冷却機構、加熱機構、静電チャック、配管、工程間の搬送、プロセスシミュレーション、他の半導体製造設備との組合せ等を含む］	Common items between systems (including substrate cooling mechanisms, heating mechanisms, eletrostatic chucks, pipes, process-to-process transportation, process simulation, combination with other semiconductor menufacturing faciliteis)
+H01L  21/302 101 H	7	1	5F004	H01L  21/3065	2136	装置の清浄化処理［装置壁クリーニング、エイジング等を含む］	System cleaning (including wall cleaning, aging)
+H01L  21/302 101 M	7	1	5F004	H01L  21/3065	425	メンテナンス性の向上［装置を分解して清掃したり、消耗品を交換したりする際に必要とされる技術］	Improvemnet of maintenability (technology necessary for disassembly and cleaning of systems and replacement of consumable parts)
+H01L  21/302 101 L	7	1	5F004	H01L  21/3065	388	電極の材質［ガラス状カーボンなど炭素からなる電極の材質を特定したものあるいは電極の形成方法に関する発明を含む］	Mateial of electrodes (including inventions for designating electrode materials such as glassy carbons or describing electrode formation methods)
+H01L  21/302 101 R	7	1	5F004	H01L  21/3065	815	バックサイドガス供給［被処理基板の裏面の載置台に密着する部分に熱伝導ガスを供給して熱的接触を改善する技術を含む］	Back side gas supply (including technologies for supplying thermally conductive gas to the portion that will closely cotact back face of treated substrate to improve thernal conduction)
+H01L  21/302 101 Z	7	0	5F004	H01L  21/3065	1922	その他	Others
+H01L  21/302 102 \	7	7	5F004	H01L  21/3065	1767	基板の清浄化処理［基板面のクリーニング等を含む：プラズマを用いたクリーニングはＨ０１Ｌ２１／３０２，１０６を優先］	Substrate cleaning (plasma clenaing including substrate surface cleaning; plasma cleaning H01L21/302 and 106)
+H01L  21/302 103 \	7	7	5F004	H01L  21/3065	2702	終点検知・モニタリング〔エッチングの終点検知，プラズマのモニタリングに関するもの（分光分析，質量検知，検知波形の処理方法）〕	End point detection and monitoring (for etching end poin detection and plasma monitoring (spectroscopic analysis, mass detection, detected waveform processing))
+H01L  21/302 104 \	7	7	5F004	H01L  21/3065	12	被エッチング物	Etched substnace
+H01L  21/302 104 C	7	0	5F004	H01L  21/3065	1521	導電性材料のエッチング［Ａｌ等を含む］	Etching of conductive materials (including aluminum)
+H01L  21/302 104 H	7	0	5F004	H01L  21/3065	3128	有機物のエッチング［レジストアッシング、灰化除去、プラズマを用いないレジストアッシングも例外的にこのＦＩに付与］	Etching of organic substance (resist ashing,, ashiing removal and plasma-free resist ashing are execptionally added to this FI)
+H01L  21/302 104 Z	7	0	5F004	H01L  21/3065	4150	その他	Others
+H01L  21/302 105 \	7	7	5F004	H01L  21/3065	42	特殊加工	Special processing
+H01L  21/302 105 A	7	0	5F004	H01L  21/3065	9696	パターニング［シリル化等のパターニング自体に特徴があり、実施例に被エッチング物の明記がされていないもの又はプラズマを用いないチャージアップ防止も含む］	Patterning (including patterning having features on patterning itself, e.g. sililation, and not having etched substance in application examples or plasma-free chargeup prevention)
+H01L  21/302 105 B	7	0	5F004	H01L  21/3065	3320	全面エッチング［エッチバック、平坦化自体に特徴があり、実施例に被エッチング物の明記がされていないもの］	Full surface etching (having features on etch back or planarization and not having etched substance in application examples)
+H01L  21/302 105 Z	7	0	5F004	H01L  21/3065	1202	その他	Others
+H01L  21/302 106 \	7	7	5F004	H01L  21/3065	548	プラズマ後処理［エッチング処理後のプラズマを用いた工程、プラズマを用いたチャージアップ防止等に特徴があるもの］	Post plasma treatment (having unique features on plasma-based post etching treatments, plasma-based chargeup prevention or the like)
+H01L  21/302 201 \	6	6	5F004	H01L  21/302	29	プラズマを用いないエッチング	Plasma-free etching
+H01L  21/302 201 A	6	0	5F004	H01L  21/302	1839	プラズマを用いない気相エッチング［高温状態のガスとの接触によるエッチング、蒸気によるエッチング：例］ＨＦガスとＨ２Ｏによるエッチング］	Plasma-free vapor phase etching (ethcing by means of contact with high temperature gas or vapor etching, e.g. etcing with HF gas and H20)
+H01L  21/302 201 B	6	0	5F004	H01L  21/302	2371	エネルギービームエッチング［ＦＩＢ、収束イオンビーム、アブレーションや電子ビームエッチングを含む：プラズマイオン源を用いたイオンシャワー、ＲＩＢＥはＨ０１Ｌ２１／３０２，１０１が優先］	Energy beam etching (including FIB, focused ion beam, or electron beam etching; H01L21/302 and 101 take precedence for ion shower and RIBE using plasma ion source) .
+H01L  21/302 201 Z	6	0	5F004	H01L  21/302	333	その他	Others
+H01L  21/302 301 \	6	6	5F004	H01L  21/3065	73	下地層［被エッチング層とエッチングされないその下の層との選択性を高めることを目的として発明された構造、エッチングガスなど］	Base material layer (structure, etching gas or the like invented to increase selectivity between etched layer and lower unetched layer)
+H01L  21/302 301 S	6	0	5F004	H01L  21/3065	2768	下地層がシリコン酸化膜	Base material layer is silicon oxide film
+H01L  21/302 301 N	6	0	5F004	H01L  21/3065	1184	下地層がシリコン窒化膜	Base mateial layer is silicon nitride film
+H01L  21/302 301 M	6	0	5F004	H01L  21/3065	663	下地層が金属膜	Base material layer is metal film
+H01L  21/302 301 G	6	1	5F004	H01L  21/3065	299	下地層がアルミニウム	Base material layer is aluminum
+H01L  21/302 301 Z	6	0	5F004	H01L  21/3065	4160	その他	Others
+H01L  21/302 400 \	6	6	5F004	H01L  21/302	1206	その他［原則的に使用しない：プラズマエッチングで適当なＦＩがなければ、Ｈ０１Ｌ２１／３０２，１０１に付与、イオンビームなどで適当なＦＩがなければ、Ｈ０１Ｌ２１／３０２，２０１に付与］	Others (not used as a basic rule; if proper FI items are not found in plasma etching, H01l21/302 or 101 is applied; if proper FI items are not found in ion beam, H01L21/302 or 201is applied)
+H01L  21/304  \	6	6	5F057	H01L  21/304	79	機械的処理，例．研摩，超音波処理	Mechanical treatment, e.g. grinding, polishing, cutting [2]
+H01L  21/304 601 \	7	7	5F057	H01L  21/304	1	機械的加工（一般的なものは，Ｂ２４Ｂ，Ｂ２８Ｄ）	Mechanical processing (in general, B24B and B28D)
+H01L  21/304 601 S	7	0	5F057	H01L  21/304	153	サンドブラスト，又は液体の噴き付けによるもの	using sand blasting and liquid spraying
+H01L  21/304 601 H	7	0	5F057	H01L  21/304	94	劈開によるもの	using cleavage
+H01L  21/304 601 M	7	0	5F057	H01L  21/304	73	マウンドの除去〔研削によるものは，Ｈ０１Ｌ２１／３０４．６３１も付与する〕	Mound removal [assigned to H01L21/304 for grinding]
+H01L  21/304 601 B	7	0	5F057	H01L  21/304	856	基板の面取り，メサ，ベベル，溝堀り	Substrate chamfering, mesa, beveling, and slotting
+H01L  21/304 601 Z	7	0	5F057	H01L  21/304	872	その他のもの	Others
+H01L  21/304 611 \	8	8	5F057	H01L  21/304	60	スライシング	Slicing
+H01L  21/304 611 S	8	0	5F057	H01L  21/304	392	回転する刃によるもの［例．内周刃，外周刃］	using revolving blades [e.g.  inside perimeter blades and outside perimeter blades]
+H01L  21/304 611 W	8	0	5F057	H01L  21/304	1242	ワイヤーソー又は往復運動する刃によるもの	using wire-saws or reciprocating blades
+H01L  21/304 611 B	8	0	5F057	H01L  21/304	311	スライシングの前処理［例．インゴットの方向出し，インゴットの受台］	pre-treatment of slicing [e.g. ingot orientation and ingot pedestals]
+H01L  21/304 611 A	8	0	5F057	H01L  21/304	283	スライシングの後処理［例．スライス後のウエハの受取り］	post-treatment of slicing [e.g. wafer reception after slicing]
+H01L  21/304 611 Z	8	0	5F057	H01L  21/304	633	その他のもの［例．ウエハに対する他の処理（拡散，接着）と共に行うもの］	Others [e.g. occurring along with other wafer processing (diffusion, adhesion)]
+H01L  21/304 621 \	8	8	5F057	H01L  21/304	57	研磨［一般的なものはＢ２４Ｂ］	Polishing [in general, B24]
+H01L  21/304 621 A	8	0	5F057	H01L  21/304	945	両面研磨	Polishing of both surfaces
+H01L  21/304 621 B	8	0	5F057	H01L  21/304	1835	片面研磨	Polishing of one surface
+H01L  21/304 621 C	8	1	5F057	H01L  21/304	707	砥石を使用するもの	using grindstones
+H01L  21/304 621 D	8	1	5F057	H01L  21/304	2784	研磨剤を使用するもの［例．ＣＭＰ］	using abrasives [e.g. carboxymethyl cellulose]
+H01L  21/304 621 E	8	0	5F057	H01L  21/304	1027	基板の端縁等の研磨［例．エッジ、面取部、オリフラ、ノッチの研磨］	polishing of substrate edges [e.g. edges, chamfers, orifices, and notches]
+H01L  21/304 621 Z	8	0	5F057	H01L  21/304	171	その他［例．ドライ雰囲気中での研磨］	Others [e.g. polishing in dry atmospheres]
+H01L  21/304 622 \	9	9	5F057	H01L  21/304	4	研磨の細部、又は共通事項	Polishing details or common items
+H01L  21/304 622 A	9	0	5F057	H01L  21/304	90	研磨剤	Abrasives
+H01L  21/304 622 B	9	1	5F057	H01L  21/304	735	粒子	Particulates
+H01L  21/304 622 C	9	1	5F057	H01L  21/304	802	溶液	Liquids
+H01L  21/304 622 D	9	1	5F057	H01L  21/304	4765	粒子と溶液の混合物［例．スラリー状のもの］	Particulate and liquid compounds [e.g.  using slurry regimes]
+H01L  21/304 622 E	9	0	5F057	H01L  21/304	1282	研磨剤の供給、回収	Abrasive feeding and recovery
+H01L  21/304 622 F	9	0	5F057	H01L  21/304	3820	研磨布、研磨シート［含．砥石］	Polishing cloths, polishing sheets [including grindstones]
+H01L  21/304 622 G	9	0	5F057	H01L  21/304	1276	研磨装置への基板の保持	Substrate retention for polishing devices
+H01L  21/304 622 H	9	1	5F057	H01L  21/304	870	吸着によるもの［例．真空チャック］	using adsorption [e.g.  vacuum chucks]
+H01L  21/304 622 J	9	1	5F057	H01L  21/304	2718	接着によるもの［例．保護膜］	using adhesion [e.g.  protective coats]
+H01L  21/304 622 K	9	1	5F057	H01L  21/304	904	基板の押圧の調整［例．流体による押圧］	Substrate pressing force control [e.g.  pressing force due to fluids]
+H01L  21/304 622 L	9	0	5F057	H01L  21/304	1020	研磨装置への基板の貼り付け、剥がし［２１／６８Ｎ，２１／７８Ｐ，２１／７８Ｍ参照］	mounting and removal of substrates to and from polishing devices [see the relevant places of 21/68N, 21/78P, and 21/78M]
+H01L  21/304 622 M	9	0	5F057	H01L  21/304	1181	研磨布の目立て［ドレッシング］	Polishing cloth toothing [dressing]
+H01L  21/304 622 N	9	0	5F057	H01L  21/304	599	研磨の前処理	Preliminary treatment grinding
+H01L  21/304 622 P	9	0	5F057	H01L  21/304	775	研磨の後処理	Subsequent treatment grinding
+H01L  21/304 622 Q	9	1	5F057	H01L  21/304	1435	基板の洗浄	Substrate cleaning
+H01L  21/304 622 R	9	0	5F057	H01L  21/304	1938	研磨の制御、調整［例．回転数、温度、冷却］	Polishing control and adjustment [e.g.  number of revolutions, temperature, cooling]
+H01L  21/304 622 S	9	0	5F057	H01L  21/304	1972	終点の検知、膜厚、平坦度の測定	Detecting end point, measuring coat thickness, flatness
+H01L  21/304 622 T	9	0	5F057	H01L  21/304	171	研磨する基板の形状・構造	Shape and construction of substrate to be polished
+H01L  21/304 622 W	9	1	5F057	H01L  21/304	1227	Ｓｉ以外の基板、ＳＯＩ基板、張り合わせ基板等	Substrates other than Si, SOI substrates, laminated substrates, etc.
+H01L  21/304 622 X	9	1	5F057	H01L  21/304	2725	配線、層間絶縁膜	Wiring and insulating films between layers
+H01L  21/304 622 Y	9	1	5F057	H01L  21/304	294	基板の端縁、ノッチ、オリフラ等	Substrate edges, notches, orifices, etc.
+H01L  21/304 622 Z	9	0	5F057	H01L  21/304	359	その他	Others
+H01L  21/304 631 \	8	8	5F057	H01L  21/304	4422	研削［一般的なものはＢ２４Ｂ］	Abrasives [in general, B24B]
+H01L  21/304 641 \	7	7	5F157	H01L  21/304	659	洗浄［一般的なものはＢ０８Ｂ、薬液の塗布一般はＢ０５Ｃ、レジスト・現像液の塗布は２１／３０］	Washing [in general, B08B; for chemical liquid application in general B05C; for resist and development fluid application, 21/30]
+H01L  21/304 642 \	8	8	5F157	H01L  21/304	28	洗浄槽に浸漬するもの	dipping in washing tanks
+H01L  21/304 642 A	8	0	5F157	H01L  21/304	2253	単槽	single tanks
+H01L  21/304 642 B	8	0	5F157	H01L  21/304	438	複槽	plural tanks
+H01L  21/304 642 C	8	1	5F157	H01L  21/304	66	槽間で洗浄液の移動のあるもの	Movable washing fluids for between tanks
+H01L  21/304 642 D	8	0	5F157	H01L  21/304	314	洗浄中に基板を動かすもの	moving substrates during washing
+H01L  21/304 642 E	8	0	5F157	H01L  21/304	806	超音波を使用するもの	using ultrasonic waves
+H01L  21/304 642 F	8	0	5F157	H01L  21/304	493	ノズルを設けるもの	having nozzles
+H01L  21/304 642 Z	8	0	5F157	H01L  21/304	273	その他［例．基板以外の洗浄］［キャリアの洗浄は６４８Ｅ］	Others [e.g.  washing other than substrates][carrier washing 648E]
+H01L  21/304 643 \	8	8	5F157	H01L  21/304	67	ノズル、スプレイを用いるもの	using nozzles and sprays
+H01L  21/304 643 A	8	0	5F157	H01L  21/304	5438	基板を回転するもの	revolving substrates
+H01L  21/304 643 B	8	0	5F157	H01L  21/304	736	基板を移動するもの	moving substrates
+H01L  21/304 643 C	8	0	5F157	H01L  21/304	1954	ノズル自体に特徴のあるもの	characteristics of nozzles themselves
+H01L  21/304 643 D	8	1	5F157	H01L  21/304	759	超音波を使用するもの	using nozzles
+H01L  21/304 643 Z	8	0	5F157	H01L  21/304	971	その他［例．粒子の吹き付け、基板以外の洗浄、ノズルの洗浄］［キャリアの洗浄は６４８Ｅ］	Others [e.g.  particle spraying, washing other than substrates, nozzle washing] [carrier washing 648E]
+H01L  21/304 644 \	8	8	5F157	H01L  21/304	34	スクラブによる洗浄［例．ブラシ、スポンジ］	Scrub washing [e.g.  brushing, sponging]
+H01L  21/304 644 A	8	0	5F157	H01L  21/304	284	基板を回転するもの	revolving substrates
+H01L  21/304 644 B	8	1	5F157	H01L  21/304	498	スクラブ手段を移動するもの	moving scrub means
+H01L  21/304 644 C	8	1	5F157	H01L  21/304	933	スクラブ手段を回転するもの	revolving scrub means
+H01L  21/304 644 D	8	0	5F157	H01L  21/304	37	基板を移動するもの	moving substrates
+H01L  21/304 644 E	8	1	5F157	H01L  21/304	283	スクラブ手段を回転するもの	revolving scrub means
+H01L  21/304 644 F	8	1	5F157	H01L  21/304	57	スクラブ手段を移動するもの	moving scrub means
+H01L  21/304 644 G	8	0	5F157	H01L  21/304	424	スクラブ手段自体に特徴のあるもの	characterized scrub means themselves
+H01L  21/304 644 Z	8	0	5F157	H01L  21/304	420	その他［例．基板以外の洗浄、ブラシの洗浄］［キャリアの洗浄は６４８Ｅ］	Others [e.g. washing of other than substrates, brush washing][carrier washing 648E]
+H01L  21/304 645 \	8	8	5F157	H01L  21/304	26	気相での洗浄	Gaseous phase washing
+H01L  21/304 645 A	8	0	5F157	H01L  21/304	494	不活性ガスを用いるもの［例．Ｎ２、Ａｒ、Ｈｅ］	using inert gasses [e.g.  N2, Ar, He]
+H01L  21/304 645 B	8	0	5F157	H01L  21/304	584	蒸気を用いるもの	using vapours
+H01L  21/304 645 C	8	0	5F157	H01L  21/304	1510	プラズマを用いるもの	using plasma
+H01L  21/304 645 D	8	0	5F157	H01L  21/304	961	紫外線等を用いるもの	using ultraviolet radiation, etc.
+H01L  21/304 645 Z	8	0	5F157	H01L  21/304	1045	その他［例．基板以外の洗浄］［キャリアの洗浄は６４８Ｅ］	Others [e.g.  Washing other than substrates][carrier washing 648E]
+H01L  21/304 646 \	8	8	5F157	H01L  21/304	395	静電気を用いるもの、又は静電気の除去	using static electricity or static electricity removal
+H01L  21/304 647 \	8	8	5F157	H01L  21/304	539	洗浄液に特徴のあるもの	characterized by washing fluid
+H01L  21/304 647 A	8	0	5F157	H01L  21/304	2715	有機系	organic systems
+H01L  21/304 647 B	8	0	5F157	H01L  21/304	770	界面活性剤を添加するもの	adding surface active agent
+H01L  21/304 647 Z	8	0	5F157	H01L  21/304	3454	その他	Others
+H01L  21/304 648 \	8	8	5F157	H01L  21/304	23	装置の細部、又は共通事項	Device details or related items
+H01L  21/304 648 A	8	0	5F157	H01L  21/304	1625	搬送手段［基板の搬送一般２１／６８参照］	Conveyance means [see substrate conveyance 21/68 in general]
+H01L  21/304 648 B	8	1	5F157	H01L  21/304	388	複数枚同時に搬送するもの［例．キャリアレス］	for conveying plural layers simultaneously [e.g.  carrier loess]
+H01L  21/304 648 C	8	2	5F157	H01L  21/304	308	キャリアを用いるもの［キャリア自体に特徴のあるものはＤ］	using carriers [characterised by the carrier pe se]
+H01L  21/304 648 D	8	0	5F157	H01L  21/304	712	基板容器［キャリア］	Substrate containers [carriers]
+H01L  21/304 648 E	8	0	5F157	H01L  21/304	207	基板容器の洗浄	Substrate container washing
+H01L  21/304 648 F	8	0	5F157	H01L  21/304	1285	洗浄液の循環濾過、フィルタ	Circulation filtration of wash fluids, filters
+H01L  21/304 648 G	8	0	5F157	H01L  21/304	3989	洗浄の制御、調整、検知	Washing control, adjustment, and detection
+H01L  21/304 648 H	8	1	5F157	H01L  21/304	619	複数工程におよぶ制御、工程全般の制御	Controls covering plural operations, general controls during process
+H01L  21/304 648 J	8	0	5F157	H01L  21/304	192	配置［レイアウト］	Arrangement [Layout]
+H01L  21/304 648 K	8	1	5F157	H01L  21/304	2065	液系の共通事項［例．配管、バルブ、ポンプ］	Items common to liquid systems [e.g.  piping, bulbs, pumps]
+H01L  21/304 648 L	8	1	5F157	H01L  21/304	1114	気系の共通事項［例．排気、換気］	Items common to gaseous systems [e.g.  exhaust and exchange]
+H01L  21/304 648 Z	8	0	5F157	H01L  21/304	881	その他	Others
+H01L  21/304 651 \	7	7	5F157	H01L  21/304	58	洗浄と乾燥の一連処理、乾燥	Serial processes of washing and drying
+H01L  21/304 651 A	7	0	5F157	H01L  21/304	181	基板を回転するもの	for revolving substrates
+H01L  21/304 651 B	7	1	5F157	H01L  21/304	2145	枚葉式	Sheet-type
+H01L  21/304 651 C	7	1	5F157	H01L  21/304	74	バッチ式	Patch-type
+H01L  21/304 651 D	7	2	5F157	H01L  21/304	116	回転軸が水平、又は水平から傾いたもの	Shaft rotation horizontal or tilted away from horizontal
+H01L  21/304 651 E	7	2	5F157	H01L  21/304	75	回転軸が垂直、又は垂直から傾いたもの	Shaft rotation vertical or tilted away from vertical
+H01L  21/304 651 F	7	3	5F157	H01L  21/304	315	複数個のキャリアの各中心軸を回転軸に平行に配置するもの	Individual central shafts of plural carriers aligned in parallel shaft rotation
+H01L  21/304 651 G	7	0	5F157	H01L  21/304	667	基板の移動を伴うもの［除く、回転］	accompanying substrate movement [excluding rotation]
+H01L  21/304 651 H	7	0	5F157	H01L  21/304	944	蒸気を使用するもの	using vapours
+H01L  21/304 651 J	7	0	5F157	H01L  21/304	512	基板を浸漬するもの［例．温純水に浸漬するもの］	dipping substrates [e.g.  dipping in warm pure water]
+H01L  21/304 651 K	7	0	5F157	H01L  21/304	370	減圧するもの	reducing pressure
+H01L  21/304 651 L	7	0	5F157	H01L  21/304	1403	気体を吹き付け、送風するもの［蒸気の吹き付けはＨ］	spraying gasses and blasting air [sprays vapours H]
+H01L  21/304 651 M	7	0	5F157	H01L  21/304	646	ヒータ、光等により基板を直接加熱するもの	direct heating of substrates by heaters, light, etc.
+H01L  21/304 651 Z	7	0	5F157	H01L  21/304	784	その他［例．基板以外の乾燥］	Others [e.g.  drying of other than substrates]
+H01L  21/306  \	6	6	5F043	H01L  21/306	141	化学的または電気的処理，例．電解エッチング（絶縁層の形成２１／３１）	Chemical or electrical treatment, e.g. electrolytic etching (to form insulating layers H01L 21/31; after-treatment of insulating layers H01L 21/3105) [2]
+H01L  21/306  A	6	0	5F043	H01L  21/306	789	ウェットエッチング一般〔方法〕〔ドライエッチングは，Ｈ０１Ｌ２１／３０２〕	wet etching in general [methods] [dry etching H01L21/302]
+H01L  21/306  B	6	1	5F043	H01L  21/306	2852	半導体本体用	for semiconductor bodies
+H01L  21/306  C	6	2	5F043	H01L  21/306	376	ウエハの分割用	for wafer division
+H01L  21/306  D	6	1	5F043	H01L  21/306	1748	絶縁膜用	for insulating coats
+H01L  21/306  E	6	2	5F043	H01L  21/306	522	チッ化膜用	for nitrided coats
+H01L  21/306  F	6	1	5F043	H01L  21/306	1855	電極・配線用	for electrodes and wiring
+H01L  21/306  G	6	2	5F043	H01L  21/306	218	多結晶シリコン用	for polycrystalline silicon
+H01L  21/306  J	6	0	5F043	H01L  21/306	3792	装置	Devices
+H01L  21/306  K	6	1	5F043	H01L  21/306	571	ウエハの収納保持	Wafer division storage retention
+H01L  21/306  U	6	0	5F043	H01L  21/306	410	終点検知	End point detection
+H01L  21/306  L	6	0	5F043	H01L  21/3063	995	電解エッチング	Electrolytic etching
+H01L  21/306  M	6	0	5F043	H01L  21/306	653	化学的研摩〔ウェハ表面平滑化〕「図」	Chemical polishing [wafer surface smoothing] [figure]
+H01L  21/306  N	6	0	5F043	H01L  21/306	799	リフトオフ法	Lift off method
+H01L  21/306  P	6	0	5F043	H01L  21/306	351	アンダーエッチング（微細加工）法「図」	Under-etching (refined processing) [figure]
+H01L  21/306  Q	6	0	5F043	H01L  21/306	686	テーパーエッチング，平坦化〔段差防止〕「図」	Tapered etching, flattened [differential prevention] [figure]
+H01L  21/306  R	6	0	5F043	H01L  21/306	1857	スプレーエッチング〔装置もここにつける〕	Spray etching [devices also attached here]
+H01L  21/306  S	6	0	5F043	H01L  21/306	544	ドライ＋ウエットエッチング	Dry + wet etching
+H01L  21/306  T	6	0	5F043	H01L  21/306	267	イオン注入後のエッチング	Etching after ion insertion
+H01L  21/306  Z	6	0	5F043	H01L  21/306	567	その他のもの	Others
+H01L  21/308  \	7	7	5F043	H01L  21/308	22	マスクを用いるもの	using masks [2]
+H01L  21/308  A	7	0	5F043	H01L  21/308	159	エッチング液〔液組成〕	Etching liquid [comprised of liquid phase]
+H01L  21/308  B	7	1	5F043	H01L  21/308	758	Ｓｉ，Ｇｅ用	for Si and Ge
+H01L  21/308  C	7	1	5F043	H01L  21/308	594	Ｓｉ，Ｇｅ以外用	for items other than Si and Ge
+H01L  21/308  D	7	1	5F043	H01L  21/308	80	多結晶・アモルファス用	for multicrystaline and amorphous use
+H01L  21/308  E	7	1	5F043	H01L  21/308	699	絶縁体用	for insulators
+H01L  21/308  F	7	1	5F043	H01L  21/308	879	金属用	for metals
+H01L  21/308  G	7	1	5F043	H01L  21/308	672	洗浄液・表面処理液	Cleaning fluids and surface processing fluids
+H01L  21/308  Z	7	0	5F043	H01L  21/308	146	その他	Others
+H01L  21/31  \	6	6	5F045	H01L  21/31	957	半導体本体上への絶縁層の形成，例．マスキング用（電極を形成する層２１／２８；封緘層２１／５６）［２］	to form insulating layers thereon, e.g. for masking (layers forming electrodes H01L 21/28; encapsulating layers H01L 21/56) [2]
+H01L  21/31  A	6	0	5F045	H01L  21/31	1537	装置	Devices
+H01L  21/31  B	6	1	5F045	H01L  21/31	9107	気相堆積装置	Gaseous phase accumulation devices
+H01L  21/31  C	6	2	5F045	H01L  21/31	10061	プラズマを利用するもの	using plasma
+H01L  21/31  D	6	2	5F045	H01L  21/31	1110	スパッタ装置	Sputter devices
+H01L  21/31  E	6	1	5F045	H01L  21/31	3606	熱処理炉	Heat processing furnaces
+H01L  21/31  F	6	1	5F045	H01L  21/31	1664	付属具；冶具	Fittings;
+H01L  21/31  Z	6	0	5F045	H01L  21/31	807	その他のもの	Others
+H01L  21/312  \	7	7	5F058	H01L  21/312	95	有機物層，例．フォトレジスト	Organic layers, e.g. photoresist [2]
+H01L  21/312  A	7	0	5F058	H01L  21/312	1865	材料に特徴あるもの	characterized by material
+H01L  21/312  B	7	1	5F058	H01L  21/312	1182	ポリイミド樹脂	Polyamide resins
+H01L  21/312  C	7	1	5F058	H01L  21/312	1774	珪素樹脂	Silicon resins
+H01L  21/312  D	7	1	5F058	H01L  21/312	631	感光性樹脂	Photosensitive resins
+H01L  21/312  M	7	0	5F058	H01L  21/312	388	積層構造を有するもの	including laminated materials
+H01L  21/312  N	7	1	5F058	H01L  21/312	421	無機物層があるもの	having inorganic layers
+H01L  21/312  Z	7	0	5F058	H01L  21/312	471	その他のもの	Others
+H01L  21/314  \	7	7	5F058	H01L  21/314	49	無機物層	Inorganic layers [2]
+H01L  21/314  A	7	0	5F058	H01L  21/314	1416	材料に特徴のあるもの	characterized by material
+H01L  21/314  M	7	0	5F058	H01L  21/314	579	積層構造を有するもの	including laminated materials
+H01L  21/314  Z	7	0	5F058	H01L  21/314	285	その他のもの	Others
+H01L  21/316  \	8	8	5F058	H01L  21/316	243	酸化物またはガラス性酸化物または酸化物を基礎としたガラスからなるもの［２］	composed of oxides or glassy oxides or oxide-based glass [2]
+H01L  21/316  A	8	0	5F058	H01L  21/316	645	直接変換膜	Direct conversion
+H01L  21/316  S	8	1	5F058	H01L  21/316	2302	熱酸化によるもの	using thermal oxidation
+H01L  21/316  T	8	1	5F058	H01L  21/316	499	陽極酸化によるもの	using electrode oxidation
+H01L  21/316  U	8	1	5F058	H01L  21/316	379	溶液処理によるもの	using solution processing
+H01L  21/316  B	8	0	5F058	H01L  21/316	822	堆積膜	Depositional films
+H01L  21/316  X	8	1	5F058	H01L  21/316	6819	気相堆積によるもの	using gaseous deposits
+H01L  21/316  Y	8	2	5F058	H01L  21/316	812	スパッタによるもの	using sputtering
+H01L  21/316  C	8	0	5F058	H01L  21/316	622	被着後酸化するもの	Post-adherence oxidation
+H01L  21/316  G	8	0	5F058	H01L  21/316	2809	グラシベーション	Glassivation
+H01L  21/316  H	8	1	5F058	H01L  21/316	369	ガラス組成	Glass composition
+H01L  21/316  M	8	0	5F058	H01L  21/316	2437	積層構造を有するもの	having lamination
+H01L  21/316  P	8	0	5F058	H01L  21/316	2110	成膜後の処理〔アニールを含む〕	Processing after film formation [including annealing]
+H01L  21/316  Z	8	0	5F058	H01L  21/316	484	その他のもの	Others
+H01L  21/318  \	8	8	5F058	H01L  21/318	110	窒化物からなるもの	composed of nitrides [2]
+H01L  21/318  A	8	0	5F058	H01L  21/318	672	直接変換膜	Direct conversion film
+H01L  21/318  B	8	0	5F058	H01L  21/318	3823	堆積膜	Laminated films
+H01L  21/318  C	8	0	5F058	H01L  21/318	1701	酸窒化膜	Nitroxided films
+H01L  21/318  M	8	0	5F058	H01L  21/318	1574	積層構造を有するもの	having lamination
+H01L  21/318  Z	8	0	5F058	H01L  21/318	264	その他のもの	Others
+H01L  21/32  \	7	7	5F058	H01L  21/32	13	マスクを用いるもの（２１／３０８が優先）	using masks (H01L 21/308 takes precedence) [2]
+H01L  21/322  \	5	5	5F054	H01L  21/322	22	半導体本体の内部性質の改変，例．内部不完全性の形成	to modify their internal properties, e.g. to produce internal imperfections [2]
+H01L  21/322  G	5	0	5F054	H01L  21/322	363	ゲッタリング	Getter rings
+H01L  21/322  C	5	1	5F054	H01L  21/322	64	３―５族化合物半導体	Semiconductor compounds from groups 3 to 5
+H01L  21/322  E	5	1	5F054	H01L  21/322	177	高エネルギービームによる	using high energy beams
+H01L  21/322  J	5	2	5F054	H01L  21/322	551	イオンビームによる	using ion beams
+H01L  21/322  M	5	1	5F054	H01L  21/322	283	機械的，化学的歪による	by mechanical and chemical distortion
+H01L  21/322  N	5	1	5F054	H01L  21/322	79	窒化に	Nitrification
+H01L  21/322  P	5	1	5F054	H01L  21/322	364	多結晶膜による	using polycrystalline films
+H01L  21/322  Q	5	1	5F054	H01L  21/322	157	酸化膜による	using oxidized films
+H01L  21/322  R	5	1	5F054	H01L  21/322	459	リン・ボロンによる	using phosphate and boron
+H01L  21/322  S	5	1	5F054	H01L  21/322	72	金属〔Ｎｉ，Ｐｂ，Ｓｕ〕による	using metals [Ni, Pb, Su]
+H01L  21/322  X	5	1	5F054	H01L  21/322	196	ハロゲンによる	using halogens
+H01L  21/322  Y	5	1	5F054	H01L  21/322	1409	イントリンシックゲッタリング	Intrinsic getter rings
+H01L  21/322  K	5	0	5F054	H01L  21/322	440	ライフタイムキラードーピング	Lifetime killer doping
+H01L  21/322  L	5	0	5F054	H01L  21/322	425	高エネルギービームによるライフタイムコントロール	Lifetime control using high energy beams
+H01L  21/322  Z	5	0	5F054	H01L  21/322	215	その他のもの	Others
+H01L  21/324  \	5	5	5F054	H01L  21/324	162	半導体本体の性質を改変するための熱処理，例．アニーリング，シンタリング（２１／２０〜２１／２８８，２１／３０２〜２１／３２２が優先）	Thermal treatment for modifying the properties of semiconductor bodies, e.g. annealing, sintering (H01L 21/20-H01L 21/288, H01L 21/302-H01L 21/322 take precedence) [2]
+H01L  21/324  C	5	0	5F054	H01L  21/324	644	３―５族化合物半導体［Ｃ〜Ｒよりも優先；結晶成長時のアニールはＨ０１Ｌ２１／２０、イオン注入の際のアニールはＨ０１Ｌ２１／２６５，６０１Ａが優先］	3-5 group compound semiconductors (They take precedence over C-R. Annealing during crystal growth is predominantly classified in H01L 21/20. Annealing during ion implantation is in H01L 21/265 and 601A.)
+H01L  21/324  X	5	0	5F054	H01L  21/324	924	半導体の改質［欠陥除去など；結晶成長時のアニールはＨ０１Ｌ２１／２０、イオン注入の際のアニールはＨ０１Ｌ２１／２６５，６０２が優先］	Semiconductor modification, e.g. defect removal (Annealing during crystal growth is predominantly classified in H01L 21/20. Annealing during ion implantation is in H01L 21/265 and 602.)
+H01L  21/324  N	5	0	5F054	H01L  21/324	72	熱処理による，Ｐ―Ｎ接合の形成	P-N junction formation by heat processing
+H01L  21/324  G	5	0	5F054	H01L  21/324	580	アニール装置	Devices for annealing
+H01L  21/324  J	5	1	5F054	H01L  21/324	335	加熱手段［ランプはＨ０１Ｌ２１／２６、電子線はＨ０１Ｌ２１／２６３、レーザはＨ０１Ｌ２１／２６８が優先］	Heating means (Lamps are predominantly classified in H01L 21/26. Electron ray is in H01L 21/263. Lasers are in H01L 21/268.)
+H01L  21/324  K	5	2	5F054	H01L  21/324	474	ヒータ	Heaters
+H01L  21/324  Q	5	1	5F054	H01L  21/324	814	ウエハ支持治具［ボート、サセプタ、ステージ］	Wafer supports [ports, suscepters, stages]
+H01L  21/324  R	5	1	5F054	H01L  21/324	561	ガスの導入・排出経路、ガスの流れ方	Gas introduction and exhaust paths, ways of gas flow
+H01L  21/324  S	5	1	5F054	H01L  21/324	358	ウエハの搬送手段［予備室も含む］	Wafer conveyance means [including spare rooms]
+H01L  21/324  W	5	0	5F054	H01L  21/324	319	前処理・後処理［基板の予備加熱・冷却］	Preliminary treatment and subsequent treatment [base preheating and precooling]
+H01L  21/324  T	5	0	5F054	H01L  21/324	562	測定、制御	Measuring and control
+H01L  21/324  P	5	0	5F054	H01L  21/324	243	プラズマ・アニール	Plasma annealing
+H01L  21/324  Z	5	0	5F054	H01L  21/324	644	その他のもの	Others
+H01L  21/326  \	5	5	5F054	H01L  21/326	260	電流または電界の付加，例．エレクトロフォーミング用（２１／２０〜２１／２８８，２１／３０２〜２１／３２４が優先）	Application of electric currents or fields, e.g. for electroforming (H01L 21/20-H01L 21/288, H01L 21/302-H01L 21/324 take precedence) [2]
+H01L  21/34  \	3	3	5F152	H01L  21/34	40	不純物，例．ドーピング材料，を含むまたは含まない２１／０６，２１／１６および２１／１８に分類されない半導体本体を有する装置［２］	the devices having semiconductor bodies not provided for in groups H01L 21/06, H01L 21/16, and H01L 21/18 with or without impurities, e.g. doping materials [2]
+H01L  21/36  \	4	4	5F152	H01L  21/36	183	基板上への半導体材料の析出，例．エピタキシャル成長［２］	Deposition of semiconductor materials on a substrate, e.g. epitaxial growth [2]
+H01L  21/363  \	5	5	5F103	H01L  21/363	2062	物理的析出を用いるもの，例．真空蒸着，スパッタリング	using physical deposition, e.g. vacuum deposition, sputtering [2]
+H01L  21/365  \	5	5	5F045	H01L  21/365	1368	固体を析出させるガス状化合物の還元または分解を用いるもの，すなわち化学的析出を用いるもの	using reduction or decomposition of a gaseous compound yielding a solid condensate, i.e. chemical deposition [2]
+H01L  21/368  \	5	5	5F053	H01L  21/368	157	液相成長を用いるもの	using liquid deposition [2]
+H01L  21/368  L	5	0	5F053	H01L  21/368	730	有機層を有するもの	having organic layers
+H01L  21/368  Z	5	0	5F053	H01L  21/368	970	その他のもの	Others
+H01L  21/38  \	4	4	5F042	H01L  21/38	84	半導体本体へのまたは半導体本体からのまたは半導体領域間の不純物材料，例．ドーピング材料，電極材料，の拡散［２］	Diffusion of impurity materials, e.g. doping materials, electrode materials, into, or out of, a semiconductor body, or between semiconductor regions [2]
+H01L  21/383  \	5	5	5F042	H01L  21/383	12	気相から固体へのまたは固体から気相への拡散を用いるもの	using diffusion into, or out of, a solid from or into a gaseous phase [2]
+H01L  21/385  \	5	5	5F042	H01L  21/385	33	固相，例．ドープされた酸化物層，から固体へのまたは固体から固相への拡散を用いるもの	using diffusion into, or out of, a solid from or into a solid phase, e.g. a doped oxide layer [2]
+H01L  21/388  \	5	5	5F042	H01L  21/388	9	液相から固体へのまたは固体から液相への拡散を用いるもの，例．合金拡散法	using diffusion into, or out of, a solid from or into a liquid phase, e.g. alloy diffusion processes [2]
+H01L  21/40  \	4	4	5F042	H01L  21/40	5	半導体本体と不純物材料，例．ドーピング材料，電極材料，の合金［２］	Alloying of impurity materials, e.g. doping materials, electrode materials, with a semiconductor body [2]
+H01L  21/42  \	4	4	5F054	H01L  21/42	25	輻射線の照射	Bombardment with radiation [2]
+H01L  21/423  \	5	5	5F054	H01L  21/423	8	高エネルギーの輻射線を有するもの	with high-energy radiation [2]
+H01L  21/425  \	6	6	5F054	H01L  21/425	163	イオン注入法（局所的な処理のためのイオンビーム管Ｈ０１Ｊ３７／３０）［２］	producing ion implantation [2]
+H01L  21/428  \	6	6	5F054	H01L  21/428	48	電磁波，例．レーザ光線，を用いるもの	using electromagnetic radiation, e.g. laser radiation [2]
+H01L  21/44  \	4	4	4M104	H01L  21/44	28	２１／３６〜２１／４２８に分類されない方法または装置を用いる半導体本体上への電極の製造	Manufacture of electrodes on semiconductor bodies using processes or apparatus not provided for in groups H01L 21/36-H01L 21/428 [2]
+H01L  21/441  \	5	5	4M104	H01L  21/441	6	電極用の導電または絶縁材料の析出［２］	Deposition of conductive or insulating materials for electrodes [2]
+H01L  21/443  \	6	6	4M104	H01L  21/443	2	気体または蒸気からの析出，例．凝結	from a gas or vapour, e.g. condensation [2]
+H01L  21/445  \	6	6	4M104	H01L  21/445	9	液体からの析出，例．電解液からの析出	from a liquid, e.g. electrolytic deposition [2]
+H01L  21/447  \	5	5	5F044	H01L  21/447	4	圧力の適用を含むもの，例．熱圧着法（２１／６０７が優先）	involving the application of pressure, e.g. thermo-compression bonding (H01L 21/607 takes precedence) [2]
+H01L  21/449  \	5	5	5F044	H01L  21/449	1	機械的振動，例．超音波振動，の適用を含むもの	involving the application of mechanical vibrations, e.g. ultrasonic vibrations [2]
+H01L  21/46  \	4	4	5F146	H01L  21/46	16	Ｈ０１Ｌ２１／３６〜Ｈ０１Ｌ２１／４２８に分類されない方法または装置を用いる半導体本体の処理（半導体本体上への電極の製造Ｈ０１Ｌ２１／４４，Ｈ１０Ｄ６４／０１）［２］	Treatment of semiconductor bodies using processes or apparatus not provided for in groups H01L 21/36-H01L 21/428  (manufacture of electrodes thereon H01L 21/44, H10D 64/01)
+H01L  21/461  \	5	5	5F004	H01L  21/461	71	表面の物理的性質または形状の変換，例．エッチング，ポリシング，切断	to change their surface-physical characteristics or shape, e.g. etching, polishing, cutting [2]
+H01L  21/463  \	6	6	5F057	H01L  21/463	2	機械的処理，例．研摩，超音波処理	Mechanical treatment, e.g. grinding, ultrasonic treatment [2]
+H01L  21/465  \	6	6	5F043	H01L  21/465	13	化学的または電気的処理，例．電解エッチング（絶縁層の形成２１／４６９）	Chemical or electrical treatment, e.g. electrolytic etching (to form insulating layers H01L 21/469) [2]
+H01L  21/467  \	7	7	5F043	H01L  21/467	6	マスクを用いるもの	using masks [2]
+H01L  21/469  \	6	6	5F045	H01L  21/469	43	半導体本体上への絶縁層の形成，例．マスキングのためのもの（電極を形成する層２１／２８；封緘層２１／５６）［２］	to form insulating layers thereon, e.g. for masking (layers forming electrodes H01L 21/44; encapsulating layers H01L 21/56) [2]
+H01L  21/47  \	7	7	5F058	H01L  21/47	42	有機物層，例．フォトレジスト	Organic layers, e.g. photoresist [2]
+H01L  21/471  \	7	7	5F058	H01L  21/471	40	無機物層	Inorganic layers [2]
+H01L  21/473  \	8	8	5F058	H01L  21/473	52	酸化物またはガラス性酸化物または酸化物を基礎としたガラス［２］	composed of oxides or glassy oxides or oxide-based glass [2]
+H01L  21/475  \	7	7	5F058	H01L  21/475	3	マスクを用いるもの（２１／４６７が優先）	using masks (H01L 21/467 takes precedence) [2]
+H01L  21/477  \	5	5	5F054	H01L  21/477	381	半導体本体の性質の改変のための熱処理，例．アニーリング，シンタリング（２１／３６〜２１／４４９，２１／４６１〜２１／４７５が優先）	Thermal treatment for modifying the properties of semiconductor bodies, e.g. annealing, sintering (H01L 21/36-H01L 21/449, H01L 21/461-H01L 21/475 take precedence) [2]
+H01L  21/479  \	5	5	5F054	H01L  21/479	6	電流または電界の付加，例．エレクトロフォーミング用（２１／３６〜２１／４４９，２１／４６１〜２１／４７７が優先）	Application of electric currents or fields, e.g. for electroforming (H01L 21/36-H01L 21/449, H01L 21/461-H01L 21/477 take precedence) [2]
+H01L  21/48  \	3	3	5F059	H01L  21/48	54	装置の組立に先立つ，部品，例．容器，の製造または処理であって，サブグループＨ０１Ｌ２１／１８−Ｈ０１Ｌ２１／３２６またはＨ１０Ｄ４８／０４〜Ｈ１０Ｄ４８／０７の一つに分類されない方法を用いるもの［２］	Manufacture or treatment of parts, e.g. containers, prior to assembly of the devices, using processes not provided for in a single one of the groups H01L 21/18-H01L 21/326 or H10D 48/04-H10D 48/07
+H01L  21/50  \	3	3	5F059	H01L  21/50	100	サブグループＨ０１Ｌ２１／１８−Ｈ０１Ｌ２１／３２６またはＨ１０Ｄ４８／０４〜Ｈ１０Ｄ４８／０７の一つに分類されない方法または装置を用いる半導体装置の組立［２］	Assembly of semiconductor devices using processes or apparatus not provided for in a single one of the groups H01L 21/18-H01L 21/326 or H10D 48/04-H10D 48/07
+H01L  21/50  A	3	0	5F059	H01L  21/50	407	組立	Assembly
+H01L  21/50  B	3	1	5F059	H01L  21/50	299	少くともダイボンデイングとワイヤボンデイングを含む組立	Assembly including at least die bonding and wire bonding
+H01L  21/50  C	3	0	5F059	H01L  21/50	1098	部品の移送・供給	Part transfer and supply
+H01L  21/50  D	3	1	5F059	H01L  21/50	1089	リ−ドフレ−ムの移送・供給	Lead frame transfer and supply
+H01L  21/50  E	3	0	5F059	H01L  21/50	213	リ−ドフレ−ムの収納	Lead frame receiving
+H01L  21/50  F	3	0	5F059	H01L  21/50	337	部品の位置決め	Part positioning
+H01L  21/50  G	3	0	5F059	H01L  21/50	108	封止	Sealing
+H01L  21/50  H	3	0	5F059	H01L  21/50	52	メツキ	Plating
+H01L  21/50  J	3	0	5F059	H01L  21/50	100	加熱	Heating
+H01L  21/50  Z	3	0	5F059	H01L  21/50	276	その他	Others
+H01L  21/52  \	4	4	5F047	H01L  21/52	89	容器中への半導体本体のマウント	Mounting semiconductor bodies in containers [2]
+H01L  21/52  A	4	0	5F047	H01L  21/52	4337	構造	Construction
+H01L  21/52  B	4	1	5F047	H01L  21/52	1486	材料限定	Limiting materials
+H01L  21/52  C	4	0	5F047	H01L  21/52	2973	方法	Methods
+H01L  21/52  D	4	1	5F047	H01L  21/52	1029	材料限定	Limiting materials
+H01L  21/52  E	4	0	5F047	H01L  21/52	4550	接着剤	Adhesives
+H01L  21/52  F	4	0	5F047	H01L  21/52	5141	ボンデイング装置	Devices for bonding
+H01L  21/52  G	4	1	5F047	H01L  21/52	1169	接着剤の供給・塗布	Supply and application of adhesives
+H01L  21/52  H	4	1	5F047	H01L  21/52	465	局部に加熱手段	Local heating means
+H01L  21/52  J	4	0	5F047	H01L  21/52	954	圧接型	Pressure welding-type
+H01L  21/52  K	4	1	5F047	H01L  21/52	190	ボルトによる締付け	Fastening with bolts
+H01L  21/52  L	4	1	5F047	H01L  21/52	274	スタツドを有するもの	Including studs
+H01L  21/52  M	4	0	5F047	H01L  21/52	124	支持電極〔Ｃｕ−Ｃ〕	Support electrodes (Cu-C]
+H01L  21/52  Z	4	0	5F047	H01L  21/52	112	その他のもの	Others
+H01L  21/54  \	4	4	5F065	H01L  21/54	11	容器中への充填，例．ガス充填	Providing fillings in containers, e.g. gas fillings [2]
+H01L  21/56  \	4	4	5F061	H01L  21/56	148	封緘，例．封緘層，被覆	Encapsulations, e.g. encapsulating layers, coatings [2]
+H01L  21/56  R	4	0	5F061	H01L  21/56	4969	樹脂封止	Resin sealing
+H01L  21/56  T	4	1	5F061	H01L  21/56	7155	トランスファー成形，射出成形によるもの	by transfer moulding and injection moulding
+H01L  21/56  B	4	2	5F061	H01L  21/56	366	リ−ドフレ−ムの搬出入	Lead frame carrying out and in
+H01L  21/56  C	4	1	5F061	H01L  21/56	556	樹脂ペレツト・タブレツト	Resin pallets and tablets
+H01L  21/56  D	4	1	5F061	H01L  21/56	716	バリ取り	Burring
+H01L  21/56  E	4	1	5F061	H01L  21/56	3173	樹脂塗装〔ポッテイング，デイッピングなど，樹脂粉末の塗布も含む〕	Resin application [including potting, dipping, resin powder application]
+H01L  21/56  G	4	0	5F061	H01L  21/56	132	ガラス封止	Glass sealing
+H01L  21/56  F	4	0	5F061	H01L  21/56	40	樹脂・ガラス以外による封止	Sealing other than resin or glass
+H01L  21/56  H	4	0	5F061	H01L  21/56	1153	リ−ドに特徴	characterized by leads
+H01L  21/56  J	4	0	5F061	H01L  21/56	728	光半導体用	for optical semiconductors
+H01L  21/56  Z	4	0	5F061	H01L  21/56	606	その他のもの	Others
+H01L  21/58  \	4	4	5F047	H01L  21/58	1622	支持体上への半導体装置のマウント	Mounting semiconductor devices on supports [2]
+H01L  21/60  \	4	4	5F044	H01L  21/60	1610	動作中の装置にまたは装置から電流を流すためのリードまたは他の導電部材の取り付け	Attaching leads or other conductive members, to be used for carrying current to or from the device in operation [2]
+H01L  21/60 301 \	5	5	5F044	H01L  21/60	30	ワイヤボンデイング	Wire bonding
+H01L  21/60 301 A	5	0	5F044	H01L  21/60	4487	ワイヤによる内部接続	Internal parts connected by wires
+H01L  21/60 301 B	5	1	5F044	H01L  21/60	1621	電極とリ−ドフレ−ムとの接続〔リ−ドフレ−ムの製造は，２３／５０Ａ〕〔ビ−ムリ−ドの切断は，２３／５０Ａ〕	Connection with electrodes to lead frames [see the relevant place of  23/50A for lead frame manufacturing][see the relevant place of  23/50A for beam lead cutting]
+H01L  21/60 301 C	5	0	5F044	H01L  21/60	1017	ワイヤのシヨ−ト防止	Wire short prevention
+H01L  21/60 301 D	5	0	5F044	H01L  21/60	2081	ワイヤボンデイング方法	Wire bonding methods
+H01L  21/60 301 F	5	0	5F044	H01L  21/60	1666	ワイヤボンデイング用金属線	Metal wires for wire bonding
+H01L  21/60 301 G	5	0	5F044	H01L  21/60	2278	ワイヤボンダ−上部機構	Wire bonder upper construction
+H01L  21/60 301 H	5	1	5F044	H01L  21/60	656	ワイヤボ−ル形成	Wire ball formation
+H01L  21/60 301 J	5	1	5F044	H01L  21/60	748	ワイヤ張力調整・クランパ・ワイヤ供給	Wire tension adjustment and clamp wire supply
+H01L  21/60 301 K	5	0	5F044	H01L  21/60	1102	ワイヤボンダ−下部機構	Wire bonder lower construction
+H01L  21/60 301 L	5	0	5F044	H01L  21/60	1280	ボンデイング位置検知，制御	Bonding position detection and control
+H01L  21/60 301 M	5	0	5F044	H01L  21/60	711	リ−ドフレ−ム	Lead frames
+H01L  21/60 301 N	5	0	5F044	H01L  21/60	1885	ボンデイングパツド，電極〔形状・配置〕〔バンプは，２１／９２〕	Bonding pads and electrodes [form and placement][see the relevant place of  21/92 for bumps]
+H01L  21/60 301 P	5	0	5F044	H01L  21/60	2553	ボンデイングパツド電極〔形状・配置を除いたもの〕〔バンプは，２１／９２〕	Bonding pad electrodes [form and placement excluded][bumps 21/92]
+H01L  21/60 301 Z	5	0	5F044	H01L  21/60	158	その他	Others
+H01L  21/60 311 \	5	5	5F044	H01L  21/60	42	フエイスボンデング	Face bonding
+H01L  21/60 311 Q	5	0	5F044	H01L  21/60	9043	フエイスボンデイングによる接続	Connection by face bonding
+H01L  21/60 311 R	5	1	5F044	H01L  21/60	4030	テ−プキヤリアのリ−ドへの接続	Connection to tape carrier leads
+H01L  21/60 311 S	5	1	5F044	H01L  21/60	12258	絶縁基板の配線，バンプへの接続	Insulator substrate wiring and connection to bumps
+H01L  21/60 311 T	5	0	5F044	H01L  21/60	4864	フエイスボンダ−	Face bonders
+H01L  21/60 311 W	5	0	5F044	H01L  21/60	4883	テ−プキヤリア	Tape carriers
+H01L  21/60 311 Z	5	0	5F044	H01L  21/60	227	その他	Others
+H01L  21/60 321 \	5	5	5F044	H01L  21/60	19	上記以外のボンデイングおよびボンデイグ関連事項	Bonding other than the above and bonding related items
+H01L  21/60 321 E	5	0	5F044	H01L  21/60	2747	ワイヤ以外の接続子による内部接続	Internal part connections other than with wire connectors
+H01L  21/60 321 V	5	0	5F044	H01L  21/60	188	ビ−ムリ−ド	Beam leads
+H01L  21/60 321 X	5	0	5F044	H01L  21/60	489	高周波用装置	Devices for high frequencies
+H01L  21/60 321 Y	5	0	5F044	H01L  21/60	1257	ボンデイング検査	Bonding inspection
+H01L  21/60 321 Z	5	0	5F044	H01L  21/60	931	その他	Others
+H01L  21/603  \	5	5	5F044	H01L  21/603	34	圧力の適用を含むもの，例．熱圧着結合（２１／６０７が優先）	involving the application of pressure, e.g. thermo-compression bonding (H01L 21/607 takes precedence) [2]
+H01L  21/603  A	5	0	5F044	H01L  21/603	235	圧着による半導体装置	Semiconductor devices using pressure connection
+H01L  21/603  B	5	0	5F044	H01L  21/603	665	圧着方法	Methods for pressure connection
+H01L  21/603  C	5	0	5F044	H01L  21/603	749	圧着装置	Devices for pressure connection
+H01L  21/603  Z	5	0	5F044	H01L  21/603	62	その他	Others
+H01L  21/607  \	5	5	5F044	H01L  21/607	40	機械振動，例．超音波振動，の適用を含むもの	involving the application of mechanical vibrations, e.g. ultrasonic vibrations [2]
+H01L  21/607  A	5	0	5F044	H01L  21/607	276	超音波ボンデイングによる半導体装置	Semiconductor devices using ultrasonic wave bonding
+H01L  21/607  B	5	0	5F044	H01L  21/607	787	超音波ボンデイング方法	Methods for ultrasonic wave bonding
+H01L  21/607  C	5	0	5F044	H01L  21/607	1116	超音波ボンデイング装置	Devices for ultrasonic wave bonding
+H01L  21/607  Z	5	0	5F044	H01L  21/607	98	その他	Others
+H01L  21/62  \	2	2	5F093	H01L  21/62	4	電位障壁を有しない装置［２００６．０１］	the devices having no potential barriers?[2006.01]
+H01L  21/64  \	1	1	4M106	H01L  21/64	21	半導体装置以外の固体装置またはその部品の製造または処理であって，グループＨ０１Ｌ３１／００〜Ｈ０１Ｌ３３／００またはサブクラスＨ１０Ｆ，Ｈ１０Ｈ，Ｈ１０Ｋ，Ｈ１０Ｎに分類されている一つの型の装置に特に適していないもの［２００６．０１］	Manufacture or treatment of solid-state devices other than semiconductor devices, or of parts thereof, not specially adapted for a single type of device provided for in subclasses H10F, H10H, H10K or H10N
+H01L  21/66  \	1	1	4M106	H01L  21/66	904	製造または処理中の試験または測定（製造後のものＧ０１Ｒ３１／２６）	Testing or measuring during manufacture or treatment [2]
+H01L  21/66  A	1	0	4M106	H01L  21/66	1790	不良素子の識別〔マ―キング，マップ等〕	Identification of defective elements [marking, mapping, etc.]
+H01L  21/66  B	1	0	4M106	H01L  21/66	10468	プロ―バ	Probers
+H01L  21/66  C	1	1	4M106	H01L  21/66	2080	非接触型〔電子ビ―ム，レ―ザ等〕	Non-contact type [electron beams, lasers, etc.]
+H01L  21/66  D	1	0	4M106	H01L  21/66	1967	試験・測定用治具	Equipment for testing and measuring
+H01L  21/66  E	1	0	4M106	H01L  21/66	2211	試験・測定用電極，端子〔半導体装置に設けたもの〕	Electrodes and terminals for testing and measuring [installed in semiconductor devices]
+H01L  21/66  F	1	0	4M106	H01L  21/66	2877	試験・測定用回路〔半導体装置に形成したもの〕	Circuits for testing and measuring [formed for semiconductor devices]
+H01L  21/66  G	1	0	4M106	H01L  21/66	1704	オ―トハンドラ	Autobandlers
+H01L  21/66  H	1	0	4M106	H01L  21/66	2530	各種条件下での試験・測定	Testing and measuring under every condition
+H01L  21/66  J	1	0	4M106	H01L  21/66	11508	外観，パタ―ン〔Ｐ，Ｒが優先〕	Appearance and patterns (P and R take precedence)
+H01L  21/66  K	1	1	4M106	H01L  21/66	382	ピンホ―ル，クラック，そり等〔光等の非接触手段によるものはＪ〕	Pinholes, cracks, cambers, etc. [non-adhesive means such as light J]
+H01L  21/66  L	1	0	4M106	H01L  21/66	2323	半導体基板・素子の物性	Physical properties of substrates and elements
+H01L  21/66  M	1	1	4M106	H01L  21/66	556	キャリア寿命	Carrier lifespan
+H01L  21/66  N	1	1	4M106	H01L  21/66	2301	内部状態〔組成，格子，エッチピット，断面観察等，Ｐが優先〕	Internal conditions [composition, grids, etch pits, cross section observations, etc. P takes precedence]
+H01L  21/66  P	1	0	4M106	H01L  21/66	1807	厚み，位置，切断面角度等	Thickness, position, cutting plane angle, etc.
+H01L  21/66  Q	1	0	4M106	H01L  21/66	829	酸化膜，分離，接合等〔Ｐが優先〕	Oxide film, separation, joining, etc. [P takes precedence]
+H01L  21/66  R	1	0	4M106	H01L  21/66	916	ボンディング状態，封止状態	Bonding conditions, sealing conditions
+H01L  21/66  S	1	0	4M106	H01L  21/66	845	配線部の断線・短絡等	Rupture and short-circuiting of wired section
+H01L  21/66  T	1	0	4M106	H01L  21/66	763	〔半導体装置の〕温度・発色状態	Temperature and colouring conditions [of semiconductor position]
+H01L  21/66  U	1	0	4M106	H01L  21/66	140	バイポ―ラトランジスタ	Bipolar transistors
+H01L  21/66  V	1	0	4M106	H01L  21/66	648	ＦＥＴ，ＭＯＳ構造	FET and metal oxide semiconductor structure
+H01L  21/66  W	1	0	4M106	H01L  21/66	609	メモリ	Memory
+H01L  21/66  X	1	0	4M106	H01L  21/66	804	発光素子，受光素子	Light emitting diode and light receiving particles
+H01L  21/66  Y	1	0	4M106	H01L  21/66	1819	チェック用素子	Particles for checking
+H01L  21/66  Z	1	0	4M106	H01L  21/66	4689	その他のもの	Others
+H01L  21/68  \	1	1	5F131	H01L  21/67	3841	製造中の構成部品の支持または位置決め用装置，例．ジグ	Apparatus for supporting or positioning components during manufacture, e.g. jigs [2]
+H01L  21/68  A	1	0	5F131	H01L  21/677	20793	移送〔ウェハ移送具，アーム，マニピュレータ，ハンド，ロボット，台車，コンベヤレイアウト設計〕［簡単なものは物流］	Transport [wafer transport equipment, arms, manipulators, bands, robots, dollies, conveyor arrangement designs] [simple items use physical distribution]
+H01L  21/68  B	1	1	5F131	H01L  21/677	2634	移送のための吸着アーム	Adsorption arms for conveyance
+H01L  21/68  C	1	2	5F131	H01L  21/677	470	ベルヌーイチャック〔吹き付けによる負圧で吸着〕	Bernoulli's chuck [adsorption by negative pressure due to spraying]
+H01L  21/68  D	1	0	5F131	H01L  21/677	991	複数ウェハの一括移しかえ〔キャリアとボード間の移替え，ウェハ配列ピッチ変えの移替〕	Wafer batch transfer [transfer  between carrier and board arrangement pitch change]
+H01L  21/68  E	1	0	5F131	H01L  21/67	1765	ペレット，チップの取外し〔突き上げウェハ切断後，チップ一ケ毎突き上げて分離〕	Pellet and chip removal [uplifting after cutting, separation during uplifting of individual chips]
+H01L  21/68  F	1	0	5F131	H01L  21/68	5029	位置検出・制御〔Ｍが優先〕〔マーク検出〕	Position detection and control [M takes precedence][mark detection]
+H01L  21/68  G	1	0	5F131	H01L  21/68	2329	位置決め・整列〔Ｍが優先〕	Positioning and alignment [M takes precedence]
+H01L  21/68  J	1	1	5F131	H01L  21/68	126	リードフレームの位置決め	Lead frame positioning
+H01L  21/68  K	1	0	5F131	H01L  21/68	3375	載置台の移動〔微動テーブル，位置決めステージ〕	Mounting stand shifting [micromotion tables and positioning stages]
+H01L  21/68  L	1	0	5F131	H01L  21/67	897	ウェハの有無・表裏等の検出〔枚数カウント〕	Detection of wafer  presence and facing up or down [wafer number count]
+H01L  21/68  M	1	0	5F131	H01L  21/68	1031	オリフラ部を利用したもの〔オリフラ検出，オリフラ合わせ〕	using orifices [orifice detection and orifice coupling
+H01L  21/68  N	1	0	5F131	H01L  21/683	14354	保持〔ウェハを処理するとき止めておく治具，ウェハ面保護テープ貼りとはがし〕	Retention [jig for fastening during processing wafer, water surface protective tape attachment and removal]
+H01L  21/68  P	1	1	5F131	H01L  21/683	3305	吸着によるもの〔吸着盤に保持〕	using adsorption [retention of adsorption plates]
+H01L  21/68  R	1	2	5F131	H01L  21/683	5873	静電チャック〔静電吸着盤に保持〕	Static electricity chucks [retention on static electricity plates]
+H01L  21/68  S	1	0	5F131	H01L  21/677	818	把持〔ピンセット，はさんで把持するアーム〕	Grips [forceps and arms for pitching]
+H01L  21/68  T	1	0	5F131	H01L  21/673	4594	容器〔ストッカ，キャビネ，倉庫，仕かかり品のみ，完成品は流通〕	Vessels [stockers, cabinets, warehouses, partitioned items only, completed items distributed]
+H01L  21/68  U	1	1	5F131	H01L  21/673	1451	水平状態のペレット・ウェハ等のためのもの〔トレイ〕	for use with level pallets, wafers, etc.[trays]
+H01L  21/68  V	1	1	5F131	H01L  21/673	1513	積層型〔ウェハキャリア〕	stacked [wafer carriers]
+H01L  21/68  Z	1	0	5F131	H01L  21/67	136	その他のもの	Others
+H01L  21/70  \	1	1	5F032	H01L  21/70	54	１つの共通基板内または上に形成された複数の固体構成部品からなる装置またはその部品の製造または処理；集積回路装置またはその部品の製造（予め形成された電気的構成部品からなる組立体の製造Ｈ０５Ｋ３／００，１３／００）［２］	Manufacture or treatment of devices consisting of a plurality of solid state components or integrated circuits formed in or on a common substrate or of specific parts thereof; Manufacture of integrated circuit devices or of specific parts thereof (manufacture of assemblies consisting of preformed electrical components H05K 3/00, H05K 13/00) [2]
+H01L  21/72  \	2	2	5F032	H01L  21/70	165	基板が半導体本体のもの［２］	the substrate being a semiconductor body [2]
+H01L  21/74  \	3	3	5F032	H01L  21/74	884	高い不純物濃度の埋込み領域，例．埋込みコレクター層，内部の相互接続，の形成［２］	Making of buried regions of high impurity concentration, e.g. buried collector layers, internal connections [2]
+H01L  21/76  \	3	3	5F032	H01L  21/76	202	構成部品間の分離領域，例．Ｐ―Ｎ接合，誘電体層，空隙，の形成	Making of isolation regions between components [2]
+H01L  21/76  A	3	0	5F032	H01L  21/764	500	空気〔空隙〕による分離	Separation by air [air-gap]
+H01L  21/76  J	3	0	5F032	H01L  21/761	1527	Ｐ―Ｎ接合のみによる分離〔ＭＯＳＩＣの分離Ｍ〕	Separation by PN junction only [MOSIC separation M]
+H01L  21/76  D	3	0	5F032	H01L  21/762	4125	誘電体のみによる分離〔Ｐが優先〕	Separation by dielectric substances only [P takes priority]
+H01L  21/76  M	3	0	5F032	H01L  21/76	2744	Ｐ―Ｎ接合及び誘電体による複合分離，例．ＬＯＣＯＳ技術を含むもの〔Ｐが優先〕	Combined separation by PN junction and dielectrics, e.g., including LOCOS technique (P takes precedence)
+H01L  21/76  N	3	1	5F032	H01L  21/76	975	溝を形成するもの	for forming slots
+H01L  21/76  L	3	2	5F032	H01L  21/76	6737	垂直な溝を形成するもの	which form vertical slots
+H01L  21/76  V	3	2	5F032	H01L  21/76	250	Ｖ溝を形成するもの	which form V slots
+H01L  21/76  E	3	1	5F032	H01L  21/76	596	エピタキシャルに特徴のあるもの	characterized by epitaxy
+H01L  21/76  S	3	0	5F032	H01L  21/76	2053	寄生効果の防止に特徴のあるもの，例．チャンネルストッパーの形成	characterized by parasitic-effect prevention, e.g.  channel stopper formation
+H01L  21/76  P	3	0	5F032	H01L  21/76	318	シリコンの多孔質化技術を利用したもの	using silicon porification techniques
+H01L  21/76  Q	3	0	5F032	H01L  21/763	214	多結晶シリコンに特徴のあるもの	characterized by polycrystalline silicon
+H01L  21/76  R	3	0	5F032	H01L  21/76	528	イオン注入に特徴のあるもの	characterized by ion injection
+H01L  21/76  Z	3	0	5F032	H01L  21/76	166	その他のもの	Others
+H01L  21/78  \	3	3	5F063	H01L  21/301	65	複数の個々の構成部品に基板を分割することによるもの	with subsequent division of the substrate into a plurality of individual components [2]
+H01L  21/78  A	3	0	5F063	H01L  21/301	490	分割	Divisions
+H01L  21/78  B	3	0	5F063	H01L  21/301	4132	レ−ザ−スクライブ	Laser scribing
+H01L  21/78  C	3	0	5F063	H01L  21/301	834	ダイシングライン検出	Dicing line detection
+H01L  21/78  F	3	0	5F063	H01L  21/301	3873	回転ブレ−ド	Revolving blades
+H01L  21/78  G	3	0	5F063	H01L  21/301	270	ダイヤモンド・カツタ−	Diamond cutters
+H01L  21/78  H	3	0	5F063	H01L  21/301	60	サンドブラスト	Sand blasting
+H01L  21/78  L	3	0	5F063	H01L  21/301	2260	ウエハの前処理，スクライブラインの形状・構造	Wafer preliminary treatment, scribeline shapes and construction
+H01L  21/78  M	3	0	5F063	H01L  21/301	6156	ウエハの接着，補強，ダイシング治具	Wafer mounting, reinforcement, and dicing jig
+H01L  21/78  N	3	0	5F063	H01L  21/301	982	ウエハの保持，搬送	Wafer retention and conveyance
+H01L  21/78  P	3	0	5F063	H01L  21/301	1231	ウエハの後処理，接着テ−プ等の剥離	Post-treatment of wafers,  removal of adhesive tape and such
+H01L  21/78  Q	3	0	5F063	H01L  21/301	4469	ダイシング方法，分割を伴なう一連処理	Dicing methods and serial processes accompanying division
+H01L  21/78  R	3	0	5F063	H01L  21/301	391	ダイシング後又はダイシング後クラツキング前のウエハ又はチツプの形状・構造	Wafer or chip shape and structure after dicing or after dicing and before cracking
+H01L  21/78  S	3	0	5F063	H01L  21/301	1361	少なくともエツチングを用いるもの	using at least etching
+H01L  21/78  T	3	0	5F063	H01L  21/301	539	クラツキング	Cracking
+H01L  21/78  U	3	1	5F063	H01L  21/301	325	劈開	Cleavage
+H01L  21/78  V	3	0	5F063	H01L  21/301	1115	ダイシング後クラツキングを行なうもの	Undergoing cracking after dicing
+H01L  21/78  W	3	0	5F063	H01L  21/301	801	スペ−シング	Spacing
+H01L  21/78  X	3	0	5F063	H01L  21/301	621	少なくともクラツキングとスペ−シングの両方を行なうもの	at least undergoing both cracking and spacing
+H01L  21/78  Y	3	0	5F063	H01L  21/301	1141	ピツキング，ペレツトの取り剥がし	Picking and pellet removal
+H01L  21/78  Z	3	0	5F063	H01L  21/301	200	その他のもの	Others
+H01L  21/80  \	4	4	5F063	H01L  21/78	0	個々の構成部品が１つの共通基板内または基板上に形成された複数の構成部品からなっているもの	each individual component consisting of a plurality of components formed in or on a common substrate [2]
+H01L  21/84  \	2	2	5F152	H01L  21/20	639	基板が半導体本体以外のもの，例．絶縁体のもの［２］	the substrate being other than a semiconductor body, e.g. being an insulating body [2]
+H01L  21/86  \	3	3	5F045	H01L  21/205	691	絶縁体がサファイアのもの，例．サファイア構造上のシリコン，すなわちＳＯＳ［２］	the insulating body being sapphire, e.g. silicon on sapphire structure, i.e. SOS [2]
+H01L  21/88  \	2	2	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/522	619	電流を流すためのリードまたは導電部材の取り付け	Applying leads or other conductive members to be used for carrying current [2]
+H01L  21/88  A	2	0	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/522	1688	配線パターンに関するもの〔配線の一般的構造〕	related to wiring patterns [general structure of wiring]
+H01L  21/88  B	2	1	5F033	H01L  21/3205  ;H01L  21/768	4726	配線パターンの形成に関するもの	related to wiring patterns formation
+H01L  21/88  C	2	2	5F033	H01L  21/3213  ;H01L  21/768	2106	配線材料のエッチングによるもの	utilizing etching of wiring material
+H01L  21/88  D	2	3	5F033	H01L  21/3213  ;H01L  21/768	2282	ドライエッチングによるもの	using dry etching
+H01L  21/88  E	2	2	5F033	H01L  21/3205  ;H01L  21/768	400	選択酸化によるもの	using selective oxidation
+H01L  21/88  F	2	2	5F033	H01L  21/3205  ;H01L  21/768	1203	テーパーの形成に関するもの	related to tapered shapes
+H01L  21/88  G	2	2	5F033	H01L  21/3205  ;H01L  21/768	586	リフトオフによるもの	using lift off
+H01L  21/88  H	2	3	5F033	H01L  21/3205  ;H01L  21/768	248	リフトオフにより平坦化されるもの	flattened by lift off
+H01L  21/88  J	2	1	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/522	3645	半導体基板内に配線層を設けるもの	providing for wiring layers in semiconductor substrates
+H01L  21/88  K	2	1	5F033	H01L  21/321   ;H01L  21/768	4702	配線層表面の平坦化に関するもの	related to the flattening of wiring layer surfaces
+H01L  21/88  M	2	0	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/532	3667	配線材料に特徴のあるもの	characterized by
+H01L  21/88  N	2	1	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/532	2626	Ａｌ又は，Ａｌ合金を用いるもの	using AI or AI alloys
+H01L  21/88  P	2	1	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/532	1001	半導体を用いるもの	using semiconductors
+H01L  21/88  Q	2	1	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/532	1956	金属及び半導体を併用するもの〔シリサイド，ポリサイド〕	using combined metals and semiconductors [silicides and polycides]
+H01L  21/88  R	2	1	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/532	4320	金属積層材を用いるもの	using metal laminating materials
+H01L  21/88  S	2	0	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/522	3063	配線以外の目的を有する導電層に関するもの〔シールド・ダミー〕	regarding the electric conduction layer which has the purposes other than wiring [shield dummy]
+H01L  21/88  T	2	0	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/522	4547	配線終端部に関するもの〔ボンディングパッド〕	related to wiring ends [bonding pads]
+H01L  21/88  Z	2	0	5F033	H01L  21/3205  ;H01L  21/768   ;H01L  23/522	3948	その他のもの〔配線レイアウト〕	Others [wiring arrangement]
+H01L  21/90  \	3	3	5F033	H01L  21/768   ;H01L  23/522	47	装置内の動作中の１つの構成部品から他の構成部品へのもの	within the device from one component in operation to the other [2]
+H01L  21/90  A	3	0	5F033	H01L  21/768	7014	配線層間の接続に関するもの	related to connections between wiring layers
+H01L  21/90  B	3	1	5F033	H01L  21/768   ;H01L  23/522	3662	構造に特徴のあるもの	characterized by structure
+H01L  21/90  C	3	0	5F033	H01L  21/768	5254	配線層と半導体基板との接続に関するもの	related to connection with wiring layers and semiconductor substrates
+H01L  21/90  D	3	1	5F033	H01L  21/768   ;H01L  23/522	2542	構造に特徴のあるもの	characterized by structure
+H01L  21/90  J	3	0	5F033	H01L  21/768   ;H01L  23/522	1583	配線層間の絶縁に関するもの	related to space between wiring layers
+H01L  21/90  K	3	1	5F033	H01L  21/768   ;H01L  23/532	1681	無機材料によるもの	using inorganic materials
+H01L  21/90  L	3	2	5F033	H01L  21/768   ;H01L  23/532	383	金属化合物によるもの	using metallic compounds
+H01L  21/90  M	3	2	5F033	H01L  21/768   ;H01L  23/532	1607	積層材によるもの	using layering materials
+H01L  21/90  N	3	1	5F033	H01L  21/768   ;H01L  23/532	1207	空気絶縁によるもの〔エアブリッジ・ポーラス膜〕	being insulated by air [air bridge and porous film]
+H01L  21/90  S	3	1	5F033	H01L  21/768   ;H01L  23/532	2036	有機樹脂によるもの	using organic resins
+H01L  21/90  P	3	1	5F033	H01L  21/768	1616	製造方法に特徴のあるもの	characterized by manufacturing methods
+H01L  21/90  Q	3	2	5F033	H01L  21/768	1207	塗布によるもの	using application
+H01L  21/90  R	3	2	5F033	H01L  21/768	559	溶融処理を施すもの〔リフロー〕	undertaking melting processes [reflow]
+H01L  21/90  V	3	0	5F033	H01L  21/768   ;H01L  23/522	923	寄生効果の除去に関するもの〔寄生チャンネル〕	related to removal of parasitic-effects [parasite channels]
+H01L  21/90  W	3	0	5F033	H01L  21/768   ;H01L  23/522	510	配線の交差に関するもの	regarding intersection of wiring
+H01L  21/90  Z	3	0	5F033	H01L  21/768   ;H01L  23/522	247	その他のもの	Others
+H01L  21/92  \	3	3	5F107	H01L  21/60	86	動作中の装置からまたは装置へのもの	to or from the device in operation [2]
+H01L  21/92 601 \	4	4	5F107	H01L  21/60	9	バンプ電極	Bump electrodes
+H01L  21/92 602 \	5	5	5F107	H01L  21/60	11	構造に特徴があるもの	characterized by
+H01L  21/92 602 A	5	0	5F107	H01L  21/60	180	バンプ	Bumps
+H01L  21/92 602 B	5	1	5F107	H01L  21/60	146	同種材料の組み合わせ，例．成分の異なるはんだ	Combinations of similar materials, e.g. solder containing different materials
+H01L  21/92 602 C	5	1	5F107	H01L  21/60	165	異種材料の組み合わせ	Combinations of dissimilar materials
+H01L  21/92 602 D	5	2	5F107	H01L  21/60	695	積層構造のもの	layered construction
+H01L  21/92 602 E	5	2	5F107	H01L  21/60	559	基部と被覆部からなるもの	composed of base and covered parts
+H01L  21/92 602 F	5	3	5F107	H01L  21/60	246	基部が円柱状・きのこ状のもの	having bases shaped like cylinders or mushrooms
+H01L  21/92 602 G	5	1	5F107	H01L  21/60	756	形状のみに特徴があるもの	characterized by shape only
+H01L  21/92 602 H	5	0	5F107	H01L  21/60	634	下地金属	Backing metals
+H01L  21/92 602 J	5	0	5F107	H01L  21/60	793	電極パッド	Electrode pads
+H01L  21/92 602 K	5	0	5F107	H01L  21/60	583	絶縁膜	Insulating films
+H01L  21/92 602 L	5	1	5F107	H01L  21/60	506	樹脂層を積層したもの	Laminated resin layers
+H01L  21/92 602 M	5	0	5F107	H01L  21/60	195	基板	Substrates
+H01L  21/92 602 N	5	0	5F107	H01L  21/60	442	複数のバンプ電極の配置パターンに特徴があるもの	characterized by pattern configuration of plural bump electrodes
+H01L  21/92 602 P	5	1	5F107	H01L  21/60	330	特別の機能をもつバンプを選択的に配置したもの	Selectively configured bumps with special patterns
+H01L  21/92 602 Q	5	1	5F107	H01L  21/60	280	配置箇所に応じて形状を変化させたもの	Shapes changed in response to positions
+H01L  21/92 602 R	5	0	5F107	H01L  21/60	343	接続先の電極との形状・材質等の組み合わせに特徴があるもの	characterised by combinations of shapes, materials, etc. with electrode to be connected
+H01L  21/92 602 Z	5	0	5F107	H01L  21/60	316	その他	Others
+H01L  21/92 603 \	5	5	5F107	H01L  21/60	5	材料・成分の選択に特徴があるもの	characterized by material and component selection
+H01L  21/92 603 A	5	0	5F107	H01L  21/60	483	バンプ	Bumps
+H01L  21/92 603 B	5	1	5F107	H01L  21/60	583	合金からなるもの	Composed of alloys
+H01L  21/92 603 C	5	1	5F107	H01L  21/60	258	導電性樹脂からなるもの	Composed of conductive resins
+H01L  21/92 603 D	5	0	5F107	H01L  21/60	521	下地金属	Backing metals
+H01L  21/92 603 E	5	1	5F107	H01L  21/60	181	合金層をもつもの	having alloy layers
+H01L  21/92 603 F	5	0	5F107	H01L  21/60	212	電極パッド	Electrode pads
+H01L  21/92 603 G	5	0	5F107	H01L  21/60	190	絶縁膜	Insulating films
+H01L  21/92 603 Z	5	0	5F107	H01L  21/60	62	その他	Others
+H01L  21/92 604 \	5	5	5F107	H01L  21/60	2	製造方法に特徴があるもの	characterized by construction methods
+H01L  21/92 604 A	5	0	5F107	H01L  21/60	733	バンプ	Bumps
+H01L  21/92 604 B	5	1	5F107	H01L  21/60	1731	電解メッキ	Electroplating
+H01L  21/92 604 C	5	1	5F107	H01L  21/60	310	蒸着	Vapour deposition
+H01L  21/92 604 D	5	1	5F107	H01L  21/60	363	浸漬	Dipping
+H01L  21/92 604 E	5	1	5F107	H01L  21/60	655	印刷	Printing
+H01L  21/92 604 F	5	1	5F107	H01L  21/60	607	転写	Transcription
+H01L  21/92 604 G	5	1	5F107	H01L  21/60	88	ボンディング	Bonding
+H01L  21/92 604 H	5	2	5F107	H01L  21/60	1573	ボールボンディング	Ball bonding
+H01L  21/92 604 J	5	2	5F107	H01L  21/60	808	ワイヤボールボンディング（スタッドバンプ）	Wire ball bonding (stand bumps)
+H01L  21/92 604 K	5	3	5F107	H01L  21/60	169	キャピラリの形状・動作	Capillary shape and operation
+H01L  21/92 604 L	5	3	5F107	H01L  21/60	113	治具の形状・動作	Equipment shape and operation
+H01L  21/92 604 M	5	0	5F107	H01L  21/60	314	下地金属	Backing metals
+H01L  21/92 604 N	5	1	5F107	H01L  21/60	311	蒸着	Vapour deposition
+H01L  21/92 604 P	5	1	5F107	H01L  21/60	95	リフトオフ	Lift off
+H01L  21/92 604 Q	5	1	5F107	H01L  21/60	329	エッチング	Etching
+H01L  21/92 604 R	5	0	5F107	H01L  21/60	238	電極パッド	Electrode pads
+H01L  21/92 604 S	5	0	5F107	H01L  21/60	770	絶縁膜・フォトレジスト等	Insulating films, photoresist, etc.
+H01L  21/92 604 T	5	0	5F107	H01L  21/60	628	検査・測定に関するもの	related to inspection and measuring
+H01L  21/92 604 Z	5	0	5F107	H01L  21/60	887	その他	Others
+H01L  21/92 611 \	4	4	5F107	H01L  21/60	0	ビームリード電極	Beam lead electrodes
+H01L  21/92 611 A	4	0	5F107	H01L  21/60	135	構造に特徴があるもの	characterized by construction
+H01L  21/92 611 B	4	0	5F107	H01L  21/60	63	材料の選択に特徴があるもの	characterized by material selection
+H01L  21/92 611 C	4	0	5F107	H01L  21/60	136	製造方法に特徴があるもの	characterized by manufacturing methods
+H01L  21/92 611 Z	4	0	5F107	H01L  21/60	9	その他	Others
+H01L  21/92 621 \	4	4	5F107	H01L  21/60	1	その他の接続用電極	Other electrodes for mounting
+H01L  21/92 621 A	4	0	5F107	H01L  21/60	191	はんだを利用するもの	using solder
+H01L  21/92 621 Z	4	0	5F107	H01L  21/60	77	その他	Others
+H01L  21/94  \	2	2	4M108	H01L  21/31	108	絶縁層または絶縁領域の形成	Forming insulating layers or insulating regions [2]
+H01L  21/94  A	2	0	4M108	H01L  21/316	2692	ＬＯＣＯＳ	LOCOS
+H01L  21/94  Z	2	0	4M108	H01L  21/31	1009	その他のもの	Others
+H01L  21/95  \	3	3	4M108	H01L  21/31	1613	装置内部のもの	within the device [2]
+H01L  21/96  \	2	2	5F059	H01L  21/48	32	装置の組立に先立つ，１つの共通基板内または基板上に形成された複数の固体構成部品からなる装置用の部品，例．容器，の製造または処理；装置の組立に先立つ，集積回路装置用の部品，例．容器，の製造または処理（容器，封緘，充填，マウントそれ自体２３／００）	Manufacture or treatment of parts, e.g. containers, for devices consisting of a plurality of solid state components formed in or on a common substrate, prior to assembly of the devices; Manufacture or treatment of parts, e.g. containers, for integrated circuit devices, prior to assembly of the devices (containers, encapsulations, fillings, mountings <u>per se</u> H01L 23/00) [2]
+H01L  21/98  \	2	2	5F059	H01L  21/98	29	１つの共通基板内または基板上に形成された固体構成部品からなる装置の組立；集積回路装置の組立	Assembly of devices consisting of solid state components formed in or on a common substrate; Assembly of integrated circuit devices [2]
+H01L  23/00  \	0	0	5F065	H01L  23/00	75	半導体または他の固体装置の細部（２５／００が優先；半導体本体の細部または２９／００に分類されている装置の電極の細部はそこに分類する；３１／００〜４９／００の一つのメイングループに分類されている装置に特有なデータはそこに分類する）	Details of semiconductor or other solid state devices (H01L 25/00 takes precedence; details of semiconductor bodies or of electrodes of devices provided for in group H01L 29/00 are classified therein; details peculiar to devices provided for in a single group of groups H01L 31/00-H01L 49/00 are classified therein) [2]
+H01L  23/00  A	0	0	5F065	H01L  23/00	2038	マ−ク・マ−キング・表示	Marks, marking, display
+H01L  23/00  B	0	0	5F065	H01L  23/00	724	静電破壊防止	Static electricity destruction prevention
+H01L  23/00  C	0	0	5F065	H01L  23/00	2252	保護	Protection
+H01L  23/00  Z	0	0	5F065	H01L  23/00	729	その他のもの	Others
+H01L  23/02  \	1	1	5F065	H01L  23/02	66	容器，封止（２３／１２，２３／３４，２３／４８が優先）	Containers; Seals (H01L 23/12, H01L 23/34, H01L 23/48 take precedence) [2]
+H01L  23/02  A	1	0	5F065	H01L  23/02	208	放射線遮蔽用のもの	for radiation shielding
+H01L  23/02  B	1	0	5F065	H01L  23/02	2413	封止部の構造に特徴のあるもの	characterized by seal construction
+H01L  23/02  C	1	1	5F065	H01L  23/02	2568	金属材料を用いるもの〔半田，ろう付，シーム溶接等〕（ドット数修正）	using metal materials [solder, brazing, seam welding, etc.] (dot number correction)
+H01L  23/02  D	1	1	5F065	H01L  23/02	864	ガラス材料を用いるもの（ドット数修正）	using glass materials (dot number correction)
+H01L  23/02  E	1	0	5F065	H01L  23/02	699	混成集積回路用	for hybrid integrated circuits
+H01L  23/02  F	1	0	5F065	H01L  23/02	3180	光半導体用	for optical semiconductors
+H01L  23/02  H	1	0	5F065	H01L  23/02	1748	高周波半導体素子用（Ｈ１１　新設）	for high-frequency semiconductor materials (H11 newly provided)
+H01L  23/02  G	1	0	5F065	H01L  23/02	617	貫通孔を有するもの〔膨張空気の逃げ孔，ガス抜き孔等〕	having penetrating pores [pores to release expanding air, remove gas, etc.]
+H01L  23/02  J	1	0	5F065	H01L  23/02	2626	蓋に特徴のあるもの（Ｈ１１　新設）	characterized by lids (H11 newly provided)
+H01L  23/02  K	1	0	5F065	H01L  23/02	208	緩衝部材を備えたもの（Ｈ１１　新設）	with flexible members (H11 newly provided)
+H01L  23/02  Z	1	0	5F065	H01L  23/02	1089	その他のもの	Others
+H01L  23/04  \	2	2	5F065	H01L  23/04	56	形状に特徴のあるもの	characterised by the shape [2]
+H01L  23/04  A	2	0	5F065	H01L  23/04	868	キヤン封止のもの	having can seals
+H01L  23/04  B	2	0	5F065	H01L  23/04	596	平型のもの	Flat items
+H01L  23/04  C	2	0	5F065	H01L  23/04	367	スタツド型のもの	Stud-shaped items
+H01L  23/04  D	2	0	5F065	H01L  23/04	1044	外形に特徴のあるもの〔位置決め用凹凸部等〕	characterised by outer shape [positioning convex or concave parts, etc.]
+H01L  23/04  E	2	0	5F065	H01L  23/04	2091	リードに関連するもの	associated with leads
+H01L  23/04  Z	2	0	5F065	H01L  23/04	637	その他のもの	Others
+H01L  23/06  \	2	2	5F065	H01L  23/06	11	容器の材料またはその電気特性に特徴のあるもの	characterised by the material of the container or its electrical properties [2]
+H01L  23/06  A	2	0	5F065	H01L  23/06	63	遮光材料	Shade materials
+H01L  23/06  B	2	0	5F065	H01L  23/06	652	金属・導電材料	Metal and conductive materials
+H01L  23/06  C	2	0	5F065	H01L  23/06	73	磁性材料	Magnetic materials
+H01L  23/06  D	2	0	5F065	H01L  23/06	17	形状記憶合金	Shape memory alloys
+H01L  23/06  Z	2	0	5F065	H01L  23/06	418	その他のもの	Others
+H01L  23/08  \	3	3	5F065	H01L  23/08	133	材料が絶縁体のもの，例．ガラス	the material being an electrical insulator, e.g. glass [2]
+H01L  23/08  A	3	0	5F065	H01L  23/08	1303	樹脂容器	Resin vessels
+H01L  23/08  B	3	0	5F065	H01L  23/08	692	ガラス容器	Glass vessels
+H01L  23/08  C	3	0	5F065	H01L  23/08	1902	セラミツク容器	Ceramic vessels
+H01L  23/08  D	3	1	5F065	H01L  23/08	186	非酸化物を含むもの	including non-oxidizing vessels
+H01L  23/08  Z	3	0	5F065	H01L  23/08	152	その他のもの	Others
+H01L  23/10  \	2	2	5F065	H01L  23/10	29	部品間，例．容器とマウントとの間，の封止の材料または配列に特徴のあるもの	characterised by the material or arrangement of seals between parts, e.g. between cap and base of the container or between leads and walls of the container [2]
+H01L  23/10  A	2	0	5F065	H01L  23/10	656	ガラス封止材	Glass sealing materials
+H01L  23/10  B	2	0	5F065	H01L  23/10	1096	ガラス以外の封止材〔半田，樹脂等〕	Sealing materials other than glass [soft solder, resins]
+H01L  23/10  C	2	0	5F065	H01L  23/10	84	プリプレグ〔熱硬化性樹脂を含浸させたシート状のもの〕	Prepreg [thermosetting resin-impregnated sheets]
+H01L  23/10  Z	2	0	5F065	H01L  23/10	199	その他のもの	Others
+H01L  23/12  \	1	1	5F034	H01L  23/12	119	マウント	Mountings, e.g. non-detachable insulating substrates [2]
+H01L  23/12  B	1	0	5F034	H01L  23/12	2326	Ｌ，Ｃ，Ｒを含むマウント基板	Mount substrates including L, C, and R
+H01L  23/12  C	1	0	5F034	H01L  23/13	2433	セラミツク基板	Ceramic substrates
+H01L  23/12  D	1	1	5F034	H01L  23/12	1690	製造方法	Manufacturing methods
+H01L  23/12  E	1	0	5F034	H01L  23/12	1716	接地構造または電源接続構造に特徴のある基板	Substrates characterized by grounding construction or power supply connection construction
+H01L  23/12  F	1	0	5F034	H01L  23/12	4301	チツプマウント周辺構造に特徴のある基板	Substrates characterized by chip mounting perimeter construction
+H01L  23/12  G	1	0	5F034	H01L  23/12	88	ガラス封止型装置の基板	Glass seal-type device substrate
+H01L  23/12  H	1	0	5F034	H01L  23/12	355	ハイブリツドＩＣ用基板	Substrates for hybrid integrated circuits
+H01L  23/12  J	1	0	5F034	H01L  23/12	4339	放熱のための構造に特徴のある基板	Substrates characterized by thermolysis
+H01L  23/12  K	1	0	5F034	H01L  23/12	1110	外部リ−ド取付けに特徴のある基板	Substrates characterized by outer lead fittings
+H01L  23/12  L	1	0	5F034	H01L  23/12	4277	リ−ドレスチツプキヤリア	Leadless chip carriers
+H01L  23/12  N	1	0	5F034	H01L  23/12	5449	多層基板〔Ｐが優先〕	Multi-layer substrates [P takes precedence]
+H01L  23/12  P	1	0	5F034	H01L  23/12	1130	ピングリツドアレイ	Pin grid arrays
+H01L  23/12  Q	1	0	5F034	H01L  23/12	4617	導体パタ−ンに特徴のある基板	Substrates characterized by conductor patterns
+H01L  23/12  S	1	0	5F034	H01L  23/12	1107	金属ステム基板	Substrates characterized by metal stems
+H01L  23/12  W	1	0	5F034	H01L  23/12	840	ワイヤボンデイングに関連する基板構造	Substrate construction associated with wire bonding
+H01L  23/12  Z	1	0	5F034	H01L  23/12	865	その他のもの	Others
+H01L  23/12 301 \	2	2	5F034	H01L  23/12	88	高周波素子のマウント	High frequency wave element mountings
+H01L  23/12 301 C	2	0	5F034	H01L  23/12	528	ＭＩＣ基板の取付け	MIC substrate mounting
+H01L  23/12 301 D	2	0	5F034	H01L  23/12	160	マイクロ波ダイオ−ドマウント	Microwave diode mountings
+H01L  23/12 301 J	2	0	5F034	H01L  23/12	246	放熱構造	Thermolysis construction
+H01L  23/12 301 L	2	0	5F034	H01L  23/12	494	リ−ドインダクタンスの低減化	Lead inductance reduction
+H01L  23/12 301 Z	2	0	5F034	H01L  23/12	2932	その他のもの	Others
+H01L  23/12 501 \	2	2	5F034	H01L  23/12	47	ＢＧＡ，ＣＳＰなどパッケージ基板に突起状の電極を有するもの（Ｈ１２．４新設）	The one that has a projection-shaped electrode on a package substrate such as BGA and CSP (New, Apr. 2000)
+H01L  23/12 501 T	2	0	5F034	H01L  23/12	1392	パッケージ端子がボール形状以外のもの〔リード、ピン、ワイヤ等を端子とするもの〕（Ｈ１２．４新設）	The one that the package terminal has a shape other than a ball shape [the one providing a lead, a pin, a wire, or the like. as a terminal (New, Apr. 2000)
+H01L  23/12 501 B	2	0	5F034	H01L  23/12	3340	突起状の電極によってチップをチップ幅より大きなパッケージ基板と接続したもの（Ｈ１２．４新設）	The one that connects a chip with the package substrate that is bigger than the width of the chip by the projection-shaped electrode (New, Apr. 2000)
+H01L  23/12 501 W	2	0	5F034	H01L  23/12	2972	ワイヤによってチップをチップ幅より大きなパッケージ基板と接続したもの（Ｈ１２．４新設）	The one that the chip is connected with the package substrate having a width bigger than that of the chip by the wire (New, Apr. 2000)
+H01L  23/12 501 S	2	0	5F034	H01L  23/12	905	パッケージ基板に対してパッケージ端子とチップが同じ側にあるもの（Ｈ１２．４新設）	The one that a package terminal and the chip are provided at the same side with respect to the package substrate (New, Apr. 2000)
+H01L  23/12 501 C	2	0	5F034	H01L  23/12	705	パッケージ基板がチップ幅以下のもの又はパッケージ基板を有しないもの（Ｈ１２．４新設）	The one that a package substrate has a width smaller than that of the chip or the one that does not have the package substrate (New, Apr. 2000)
+H01L  23/12 501 P	2	1	5F034	H01L  23/12	4405	ポスト電極又は再配線を有するもの（Ｈ１２．４新設）	The one that has have a post electrode or rewiring (New, Apr. 2000)
+H01L  23/12 501 F	2	1	5F034	H01L  23/12	616	パッケージ基板がフィルム状またはテープ状のもの（Ｈ１２．４新設）	The one that a package substrate has a film shape or a tape shape (New, Apr. 2000)
+H01L  23/12 501 V	2	1	5F034	H01L  23/12	307	ワイヤ又はリード等を用いるもの（Ｈ１２．４新設）	The one that uses the wire, the lead, or the like.(New, Apr. 2000)
+H01L  23/12 501 Z	2	0	5F034	H01L  23/12	1511	その他のもの（Ｈ１２．４新設）	Others (New, Apr. 2000)
+H01L  23/14  \	2	2	5F034	H01L  23/14	15	材料またはその電気特性に特徴のあるもの	characterised by the material or its electrical properties [2]
+H01L  23/14  C	2	0	5F034	H01L  23/15	2215	無機絶縁物基板，例．セラミツク，ガラス	Inorganic insulating substrates, e.g. ceramic and glass
+H01L  23/14  D	2	1	5F034	H01L  23/14	78	ダイアモンド基板	Diamond substrates
+H01L  23/14  S	2	1	5F034	H01L  23/14	581	半導体基板	Semiconductor substrates
+H01L  23/14  M	2	0	5F034	H01L  23/14	1534	金属又は金属を含む複合材料	Metal or composite materials containing metals
+H01L  23/14  R	2	0	5F034	H01L  23/14	1902	有機絶縁物又は有機絶縁物を含む複合材料	Organic insulating materials or composite materials containing organic insulating materials
+H01L  23/14  X	2	0	5F034	H01L  23/14	148	電磁シ−ルド材料	Magnetic shield material
+H01L  23/14  Z	2	0	5F034	H01L  23/14	114	その他のもの	Others
+H01L  23/16  \	1	1	5F065	H01L  23/16	25	充填	Fillings [2]
+H01L  23/18  \	2	2	5F065	H01L  23/18	25	材料またはその物理的または化学的特性または完全装置内での配列に特徴のあるもの	Fillings characterised by the material, its physical or chemical properties, or its arrangement within the complete device
+H01L  23/20  \	3	3	5F065	H01L  23/20	169	装置の正常な動作温度でガス状のもの	gaseous at the normal operating temperature of the device [2]
+H01L  23/22  \	3	3	5F065	H01L  23/22	110	装置の正常な動作温度で液体状のもの	liquid at the normal operating temperature of the device [2]
+H01L  23/24  \	3	3	5F065	H01L  23/24	196	装置の正常な動作温度で固体またはゲル状のもの	solid or gel, at the normal operating temperature of the device [2]
+H01L  23/26  \	3	3	5F065	H01L  23/26	325	湿気または他の不要物質と反応または吸収する材料を含むもの	including materials for absorbing or reacting with moisture or other undesired substances [2]
+H01L  23/28  \	1	1	4M109	H01L  23/28	86	封緘，例．封緘層，被覆（Ｈ０１Ｌ２３／５５２が優先）［２００６．０１］	Encapsulation, e.g. encapsulating layers, coatings (H01L 23/552 takes precedence) [2006.01]
+H01L  23/28  A	1	0	4M109	H01L  23/28	3984	リ−ドに特徴	characterized by leads
+H01L  23/28  B	1	0	4M109	H01L  23/28	1660	放熱基板上のもの	on heat release substrate
+H01L  23/28  C	1	0	4M109	H01L  23/28	1227	流れ防止手段	means to prevent flowing
+H01L  23/28  D	1	0	4M109	H01L  23/28	1271	光半導体用	for optical semiconductors
+H01L  23/28  E	1	0	4M109	H01L  23/28	918	混成集積回路用	for hybrid integrated circuits
+H01L  23/28  F	1	0	4M109	H01L  23/28	963	表面に導電層を有するもの	with insulating layers on the surface
+H01L  23/28  G	1	0	4M109	H01L  23/28	36	熱収縮チユ−ブ	heat contraction tubes
+H01L  23/28  H	1	0	4M109	H01L  23/28	293	表示・識別	displays and identification
+H01L  23/28  J	1	0	4M109	H01L  23/28	2031	外形に特徴	characterised by outer shape
+H01L  23/28  K	1	0	4M109	H01L  23/28	1572	ケ−ス収納型	Case receiver-type
+H01L  23/28  L	1	1	4M109	H01L  23/28	302	ケ−ス収納型用封止材・その配列	Seals for case receiver-types and their arrangements
+H01L  23/28  M	1	0	4M109	H01L  23/28	71	主として時計用	Mainly for clocks
+H01L  23/28  T	1	0	4M109	H01L  23/28	293	絶縁基板の孔中に突出するリ−ドにチツプを搭載したもの〔例．テ−プキヤリアを用いたもの〕	having chips loaded on leads coming through insulation substrate pores [e.g. using tape carriers]
+H01L  23/28  Z	1	0	4M109	H01L  23/28	2771	その他のもの	Others
+H01L  23/30  \	2	2	4M109	H01L  23/29    ;H01L  23/31	256	封緘の材料または配列に特徴のあるもの	characterised by the material or arrangement of the encapsulation [2]
+H01L  23/30  A	2	0	4M109	H01L  23/29    ;H01L  23/31	273	α線遮蔽のためのもの	for shielding a wires
+H01L  23/30  G	2	0	4M109	H01L  23/29    ;H01L  23/31	446	ガラス封止	glass seals
+H01L  23/30  R	2	0	4M109	H01L  23/29    ;H01L  23/31	13750	樹脂封止	resin seals
+H01L  23/30  B	2	1	4M109	H01L  23/29    ;H01L  23/31	2640	複数の樹脂層	plural resin layers
+H01L  23/30  C	2	1	4M109	H01L  23/29    ;H01L  23/31	257	エネルギ−線官能樹脂，例．光・電子線・イオン化線で硬化するもの	Energy beam sensory resins, e.g. those which harden under light, electron beams, and ionization beams
+H01L  23/30  D	2	0	4M109	H01L  23/29    ;H01L  23/31	1641	表面・接合面保護被覆	Protective coverings surfaces and composition planes
+H01L  23/30  E	2	0	4M109	H01L  23/29    ;H01L  23/31	135	遮光材使用	using shading materials
+H01L  23/30  F	2	0	4M109	H01L  23/29    ;H01L  23/31	2601	光半導体用	for optical semiconductors
+H01L  23/30  Z	2	0	4M109	H01L  23/29    ;H01L  23/31	310	その他のもの	Others
+H01L  23/32  \	1	1	5F035	H01L  23/32	99	動作中の完全装置を支持する支持体	Holders for supporting the complete device in operation [2]
+H01L  23/32  A	1	0	5F035	H01L  23/32	3264	ＩＣソケツト〔特殊なソケツトのみ付与，大部分は，Ｈ０１Ｒ３３が主〕	Integrated circuit sockets [H01R33 is the main one allotted for use with the majority of special sockets]
+H01L  23/32  B	1	0	5F035	H01L  23/32	529	装着用治具・工具〔ＩＣのリ−ドをソケツトに押込み，引抜く治具〕	Fixtures and tools for mounting [Inserting and removing IC lead in socket (jig)]
+H01L  23/32  C	1	0	5F035	H01L  23/32	1038	パワ−トランジスタの取付〔ＣＡＮ型と三端子型のみの取り付け〕	Power transistor mounting (mounting for CAN-type and 3-terminal types only)
+H01L  23/32  D	1	0	5F035	H01L  23/32	3191	支持，接続，取付座〔上記以外の取り付け〕	Supports, connections, mounting brackets [mountings other than those listed above]
+H01L  23/32  E	1	0	5F035	H01L  23/32	484	Ｔｒ取付，支持の関連技術〔ハンダ付け以外〕	techniques related to mounting and supporting of Tr [other than soldering]
+H01L  23/32  Z	1	0	5F035	H01L  23/32	57	その他のもの	Others
+H01L  23/34  \	1	1	5F136	H01L  23/34	14	冷却装置；加熱装置；換気装置	Cooling arrangements; Heating arrangements; Ventilating arrangements [2]
+H01L  23/34  A	1	0	5F136	H01L  23/34	2829	半導体素子・容器・リ−ド	Semiconductor elements, vessels, and leads
+H01L  23/34  B	1	0	5F136	H01L  23/34	590	樹脂封止型	Resin seal-type
+H01L  23/34  C	1	0	5F136	H01L  23/34	199	圧接型	Pressure-type
+H01L  23/34  D	1	0	5F136	H01L  23/34	535	感温素子を有するもの	having heat-sensitive elements
+H01L  23/34  E	1	0	5F136	H01L  23/34	146	恒温槽	thermostatic oven
+H01L  23/34  Z	1	0	5F136	H01L  23/34	864	その他のもの	Others
+H01L  23/36  \	2	2	5F136	H01L  23/36	100	冷却または加熱を容易にするための材料の選択または成形，例．ヒート・シンク	Selection of materials, or shaping, to facilitate cooling or heating, e.g. heat sinks [2]
+H01L  23/36  A	2	0	5F136	H01L  23/29	2149	樹脂封止型	Resin seal-type
+H01L  23/36  B	2	0	5F136	H01L  23/36	177	圧接用	for pressure attachment
+H01L  23/36  C	2	0	5F136	H01L  23/36	4048	放熱性回路基板・ステム	Thermolitic circuit substrates and systems
+H01L  23/36  D	2	0	5F136	H01L  23/36	6097	発熱体と放熱体間の熱伝導部材	Thermal conducting members between heaters and radiators
+H01L  23/36  M	2	0	5F136	H01L  23/373	5151	材料に特徴	Material characteristics
+H01L  23/36  Z	2	0	5F136	H01L  23/36	6144	その他のもの	Others
+H01L  23/38  \	2	2	5F136	H01L  23/38	1003	ペルチェ効果を利用した冷却装置	Cooling arrangements using the Peltier effect [2]
+H01L  23/40  \	2	2	5F136	H01L  23/40	39	分離できる冷却または加熱装置のための取り付けまたは固着手段	Mountings or securing means for detachable cooling or heating arrangements [2]
+H01L  23/40  A	2	0	5F136	H01L  23/40	1699	プリント基板との取付け	Printed substrate mounting
+H01L  23/40  B	2	0	5F136	H01L  23/40	207	放熱板付シングルインライン型の取付け	Mounting of single in-line-types having cooling wheels
+H01L  23/40  C	2	0	5F136	H01L  23/40	334	位置規制	Place setting
+H01L  23/40  D	2	0	5F136	H01L  23/40	569	圧接型	Pressure welding-type
+H01L  23/40  E	2	0	5F136	H01L  23/40	1602	挟持による取付け	Mounting using pinching [q]
+H01L  23/40  F	2	0	5F136	H01L  23/40	1699	接合層による取付け	Mounting by junction layers
+H01L  23/40  Z	2	0	5F136	H01L  23/40	1917	その他のもの	Others
+H01L  23/42  \	2	2	5F136	H01L  23/42	216	加熱または冷却を容易にするために選択されたまたは配列された充填，例．状態の変化によるもの	Fillings selected or arranged to facilitate heating or cooling, e.g. by change of state [2]
+H01L  23/44  \	2	2	5F136	H01L  23/44	1156	完全装置全体が空気以外の流体中に浸されているもの	the complete device being wholly immersed in a fluid other than air [2]
+H01L  23/46  \	2	2	5F136	H01L  23/473	57	流動流体による熱の移動によるもの（２３／４２，２３／４４が優先）	involving the transfer of heat by flowing fluids (H01L 23/42, H01L 23/44 take precedence) [2]
+H01L  23/46  A	2	0	5F136	H01L  23/427	1283	沸騰冷却	Ebullition cooling
+H01L  23/46  B	2	0	5F136	H01L  23/427	2807	ヒ−トパイプ	Heat pipes
+H01L  23/46  C	2	0	5F136	H01L  23/467	2935	空冷	Air cooling
+H01L  23/46  D	2	1	5F136	H01L  23/467	191	空冷状態の変化の検出	Detection of changes in air cooling state
+H01L  23/46  Z	2	0	5F136	H01L  23/473	6021	その他のもの	Others
+H01L  23/48  \	1	1	5F066	H01L  23/48	356	動作中の固体本体からまたは固体本体へ電流を導く装置，例．リード，端子装置（一般Ｈ０１Ｒ）	Arrangements for conducting electric current to or from the solid state body in operation, e.g. leads&nbsp;or terminal arrangements [2]
+H01L  23/48  A	1	0	5F066	H01L  23/48	277	同軸タイプダイオ−ド	Coaxial type diodes
+H01L  23/48  B	1	1	5F066	H01L  23/48	221	製造方法，全体に特徴のあるもの	Totally characterized by manufacturing methods
+H01L  23/48  C	1	1	5F066	H01L  23/48	278	ペレツト固定，支持電極，電極保護	Pellet anchoring, support electrodes, electrode protection
+H01L  23/48  D	1	1	5F066	H01L  23/48	298	リ−ド固定，一体リ−ド，モ−ルド	Lead anchoring, integrated leads, molds
+H01L  23/48  E	1	1	5F066	H01L  23/48	154	小型化〔リ−ドレスタイプ，リ−ド短縮型〕	Miniaturization [leadless types and lead contraction types]
+H01L  23/48  F	1	0	5F066	H01L  23/48	980	２端子素子〔同軸タイプダイオ−ド，大電力用を除く〕	2-terminal elements [excluding use with coaxial-type diodes and large electric power]
+H01L  23/48  G	1	0	5F066	H01L  23/48	2237	大電力用	for high electric power
+H01L  23/48  H	1	0	5F066	H01L  23/48	356	３端子素子	3-terminal elements
+H01L  23/48  J	1	1	5F066	H01L  23/48	335	製造方法	Manufacturing methods
+H01L  23/48  K	1	1	5F066	H01L  23/48	346	メツキ，半田付	Plating and soft soldering
+H01L  23/48  L	1	1	5F066	H01L  23/48	344	放熱	Thermolysis
+H01L  23/48  M	1	1	5F066	H01L  23/48	607	モ−ルド	Molding
+H01L  23/48  N	1	1	5F066	H01L  23/48	238	耐電圧向上，マイグレ−シヨン防止	Withstand voltage improvement and migration prevention
+H01L  23/48  P	1	1	5F066	H01L  23/48	1017	リ−ド，リ−ドフレ−ム	Leads and lead frames
+H01L  23/48  Q	1	2	5F066	H01L  23/48	427	素子基板へのリ−ドの取付	Lead attachment to element substrates
+H01L  23/48  R	1	2	5F066	H01L  23/48	373	プリント基板等への取付	Mounting to print substrates, etc.
+H01L  23/48  S	1	1	5F066	H01L  23/48	750	ボンデイング〔リ−ドとペレツトの接続〕	Bonding [connecting between leads and plates]
+H01L  23/48  T	1	1	5F066	H01L  23/48	276	ペレツト固定	Plate anchoring
+H01L  23/48  V	1	0	5F066	H01L  23/48	822	リ−ド用材〔合金組成にのみ特徴のあるもの〕	Materials for leads [characterized by alloy composition only]
+H01L  23/48  Y	1	0	5F066	H01L  23/48	974	光素子用	for optical elements
+H01L  23/48  Z	1	0	5F066	H01L  23/48	395	その他	Others
+H01L  23/50  \	2	2	5F067	H01L  23/50	51	集積回路装置用	for integrated circuit devices [2]
+H01L  23/50  A	2	0	5F067	H01L  23/50	2232	製造方法〔リ−ドフレ−ムの製法を含む〕	Manufacturing methods [including ways of manufacturing lead frames]
+H01L  23/50  B	2	0	5F067	H01L  23/50	2350	リ−ドの成形・切断	Lead shaping and cutting
+H01L  23/50  C	2	0	5F067	H01L  23/50	466	リ−ドの曲がり検出・整形	Lead bending detection and reshaping
+H01L  23/50  D	2	0	5F067	H01L  23/50	2365	メツキ	Plating
+H01L  23/50  E	2	0	5F067	H01L  23/50	866	半田付け	Soft soldering
+H01L  23/50  F	2	0	5F067	H01L  23/50	1138	放熱	Thermoloysis
+H01L  23/50  G	2	0	5F067	H01L  23/50	2323	モ−ルド	Molding
+H01L  23/50  H	2	1	5F067	H01L  23/50	1148	耐湿性向上，リ−ドの抜け防止	Moisture resistance improvement and lead removal prevention
+H01L  23/50  J	2	1	5F067	H01L  23/50	789	バリ除去	Burr removal
+H01L  23/50  K	2	0	5F067	H01L  23/50	3152	リ−ド，リ−ドフレ−ム	Leads and lead frames
+H01L  23/50  L	2	1	5F067	H01L  23/50	1483	リ−ドの素子基板への取付	Mounting of lead substrate elements
+H01L  23/50  M	2	2	5F067	H01L  23/50	624	リ−ドの取付部形状に特徴のあるもの	characterized by lead mount shapes
+H01L  23/50  N	2	1	5F067	H01L  23/50	2789	リ−ドのプリント基板への取付	Mounting of printed substrates of leads
+H01L  23/50  P	2	1	5F067	H01L  23/50	1236	ピンタイプリ−ド	Pin type leads
+H01L  23/50  Q	2	1	5F067	H01L  23/50	778	タブリ−ド	Tab leads
+H01L  23/50  R	2	0	5F067	H01L  23/50	1821	小型化リ−ド	Miniaturized leads
+H01L  23/50  S	2	0	5F067	H01L  23/50	2187	ボンデイング〔リ−ドとペレツトの接続〕	Bonding [leads and pellet connecting]
+H01L  23/50  T	2	1	5F067	H01L  23/50	442	不要接触防止	Prevention of unnecessary contact
+H01L  23/50  U	2	0	5F067	H01L  23/50	2551	タブ〔ペレツト積載部〕	Tabs [pelletloaded section]
+H01L  23/50  V	2	0	5F067	H01L  23/50	971	リ−ド用材	Materials for leads
+H01L  23/50  W	2	0	5F067	H01L  23/50	819	積層フレ−ム，素子の相互接続のための端子構造	Terminal construction for interconnection between laminated frames and elements
+H01L  23/50  X	2	0	5F067	H01L  23/50	1862	端子配置，回路的特徴をもつもの	characterized by terminal arrangement and circuitry
+H01L  23/50  Y	2	0	5F067	H01L  23/50	2105	複数リ−ドの絶縁物による支持	support by plural leads and insulation
+H01L  23/50  Z	2	0	5F067	H01L  23/50	992	その他	Others
+H01L  23/52  \	1	1	5F068	H01L  23/52	100	動作中の装置内の１つの構成部品から他の構成部品へ電流を導く装置	Arrangements for conducting electric current within the device in operation from one component to another [2]
+H01L  23/52  A	1	0	5F068	H01L  23/538	479	配線〔チツプの配線方法・パタ−ン〕	Wiring [chip wiring methods and patterns]
+H01L  23/52  B	1	1	5F068	H01L  23/538	596	多層配線	Multi-layer wiring
+H01L  23/52  C	1	0	5F068	H01L  23/52	798	立体構造の配線〔立体的なマルチチツプの配線〕	Spatial construction of wiring [specially plural chip wiring]
+H01L  23/52  D	1	0	5F068	H01L  23/52	667	平面構造の配線〔平面的なマルチチツプの配線〕	Planar construction  of wiring [planar plural chip wiring]
+H01L  23/52  E	1	0	5F068	H01L  23/52	315	配線の関連技術	Techniques related to wiring
+H01L  23/52  Z	1	0	5F068	H01L  23/52	58	その他のもの	Others
+H01L  23/54  \	1	1	5F068	H01L  23/00	37	半導体または他の固体装置の細部またはその電極の細部，例．その材料の選択，ただし３１／００〜４９／００の一つのメイングループに分類されている装置に特有なものは除く（２９／００が優先）	Details of semiconductor or other solid state devices or of electrodes thereof, e.g. selection of materials therefor, not peculiar to devices provided for in a single group of groups H01L 31/00-H01L 49/00 (H01L 29/00 takes precedence) [2]
+H01L  23/56  \	1	1	5F069	H01L  23/58	18	装置の特殊な応用に適用されない回路装置，例．温度補償用	Circuit arrangements not adapted to a particular application of the device, e.g. for temperature compensation [2]
+H01L  23/56  A	1	0	5F069	H01L  23/62	362	過電圧に対する保護	Protection against overvoltage
+H01L  23/56  B	1	0	5F069	H01L  23/60	456	静電気に対する保護	Protection against static electricity
+H01L  23/56  C	1	0	5F069	H01L  23/58	350	過電流に対する保護	Protection against overcurrent
+H01L  23/56  D	1	0	5F069	H01L  23/58	538	温度検出素子による補償・保護	Compensation and protection by temperature detection
+H01L  23/56  Z	1	0	5F069	H01L  23/58	268	その他	Others
+H01L  25/00  \	0	0	5F037	H01L  25/00	9	複数の個々の半導体または他の固体装置からなる組立体（１つの共通基板内または上に形成された複数の固体構成部品からなる装置Ｈ１０Ｄ８９／００；光起電モジュールまたは光起電素子のアレイＨ１０Ｆ１９／００）［２００６．０１］	Assemblies consisting of a plurality of individual semiconductor or other solid-state devices  (devices consisting of a plurality of solid-state components formed in or on a common substrate H10D 89/00;  photovoltaic modules or arrays of photovoltaic cells H10F 19/00)
+H01L  25/00  A	0	0	5F037	H01L  25/00	1016	複数の半導体素子を搭載した基板の組合せ，例．マイクロモジュール「図」「図」	Combinations of substrates loaded with plural semiconductor elements, e.g. micromodules [figure] [figure]
+H01L  25/00  B	0	0	5F037	H01L  25/00	3550	１つの半導体と他の固体装置からなる組立体，例．Ｌ，Ｃ，Ｒと半導体との組み合せ「図」	Bodies assembled from one semiconductor and other solid state devices, e.g. combinations of L, C, R and semiconductors [figure]
+H01L  25/00  Z	0	0	5F037	H01L  25/00	366	その他のもの，例．Ｌ，Ｃ，Ｒの組立体	Others [electric clocks, e.g. assemblies of L, C, R
+H01L  25/02  \	1	1	5F037	H01L  25/03    ;H01L  25/18	0	装置の全てがグループＨ０１Ｌ２７／００〜Ｈ０１Ｌ３３／００，またはサブクラスＨ１０Ｋ，Ｈ１０Ｎの，同一のメイングループに分類される型からなるもの，例．整流器の組立体	all the devices being of a type provided for in the same subgroup of groups H01L 27/00-H01L 33/00, or in a single subclass of H10K, H10N, e.g. assemblies of rectifier diodes [5, 2006.01]
+H01L  25/04  \	2	2	5F037	H01L  25/18	9	個別の容器を持たない装置［２０２３．０１］	the devices not having separate containers [2023.01]
+H01L  25/04  A	2	0	5F037	H01L  25/07	463	ダイオード組立体「図」例．ブリッジ整流器またはダイオードアレイ	Diode assembly [figure] , e.g. bridge rectifiers or diode arrays
+H01L  25/04  B	2	1	5F037	H01L  25/07	216	車両用のもの「図」例．発電器に取付けて用いられる馬蹄形の整流器	for vehicles [figure] , e.g. horseshoe shaped rectifiers for attaching to generators
+H01L  25/04  C	2	0	5F037	H01L  25/07    ;H01L  25/18	10127	電力用モジュール「図」例．インバータで用いられるもの	Module used for electric power [figure], e.g. modules used for inverters
+H01L  25/04  Z	2	0	5F037	H01L  25/04    ;H01L  25/18	5299	その他のもの「図」	Others [figure]
+H01L  25/06  \	3	3	5F037	H01L  25/07	108	孔に貫通された１つ以上の棒状体上に取り付けられた孔あき装置	Apertured devices mounted on one or more rods passed through the apertures [2]
+H01L  25/08  \	3	3	5F037	H01L  25/04	7	孔のあけられてない装置の積み重ねられた配列	Stacked arrangements of non-apertured devices [2]
+H01L  25/08  A	3	0	5F037	H01L  25/07	494	積層整流器「図」「図」例．ダイオードチップを積み重ねたもの	Lamination rectifier [figure] [figure], e.g. using stacked diode chips
+H01L  25/08  B	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	1878	チップ活性面同士をバンプ接続「図」	Bump connection between the activated surfaces of  chips [figure]
+H01L  25/08  C	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	1827	チップの貫通電極による接続「図」	Connecting by electrodes of chip[figure]
+H01L  25/08  D	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	443	キャリア基板両面にバンプ接続「図」	bump connecting to both sides of carrier board[figure]
+H01L  25/08  E	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	1782	チップ活性面とチップ裏面を対向させて積層し同一方向にワイヤ接続「図」「図」	wire connecting to same direction stacking chips with facing the back of a chip and the active surface of a tip
+H01L  25/08  F	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	501	チップ裏面同士を対向させて積層し反対方向にワイヤ接続「図」	wire connecting  to opposite direction stacking chips with facing the back sides of the chips[figure]
+H01L  25/08  G	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	398	バンプ接続チップ上にワイヤ接続チップを積層「図」	stacking wire connected chip on bump connected chip[figure]
+H01L  25/08  H	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	972	インターポーザを用いる積層構造「図」	Layered structure using an interposer[figure]
+H01L  25/08  J	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	172	基板を折り曲げる積層構造「図」	Layered structure bending the substrate[figure]
+H01L  25/08  Y	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	1760	Ｈ０１Ｌ２５／０８Ｂ〜Ｈ０１Ｌ２５／０８Ｊに分類されないチップの積層構造	Layered structure not provided for H01L25/08B-H01L25/08J
+H01L  25/08  Z	3	0	5F037	H01L  25/065   ;H01L  25/07    ;H01L  25/18	5352	その他のもの	Others
+H01L  25/10  \	2	2	5F037	H01L  25/18	7	個別の容器をもつ装置	the devices having separate containers [2]
+H01L  25/10  A	2	0	5F037	H01L  25/11	157	ダイオード組立体「図」例．ブリッジ整流器またはダイオードアレイ	Diode assembly [figure], e.g. bridge rectifiers or diode arrays
+H01L  25/10  B	2	1	5F037	H01L  25/11	178	車両用のもの「図」例．発電器に取付けて用いられる馬蹄形の整流器	for vehicles [figure], e.g. horseshoe shaped rectifiers for attaching to generators
+H01L  25/10  C	2	1	5F037	H01L  25/11	62	全てが直列的に接続されたもの「図」	All serially connected [figure]
+H01L  25/10  D	2	0	5F037	H01L  25/11	77	スタッド形素子を含むもの「図」	including stud-shaped elements [figure]
+H01L  25/10  Z	2	0	5F037	H01L  25/10    ;H01L  25/18	732	その他のもの	Others
+H01L  25/12  \	3	3	5F037	H01L  25/10	0	１つの共通端子をもつもの	having one terminal in common [2]
+H01L  25/12  A	3	0	5F037	H01L  25/10	91	加圧手段のあるもの「図」	with pressurization means [figure]
+H01L  25/12  Z	3	0	5F037	H01L  25/10	58	その他のもの「図」	others [figure]
+H01L  25/14  \	3	3	5F037	H01L  25/10	8	積み重ねられた配列，例．サンドイッチ型整流器のもの	Stacked arrangements, e.g. of sandwich-type rectifiers [2]
+H01L  25/14  A	3	0	5F037	H01L  25/11	531	平形半導体素子の加圧スタック「図」	Pressurization stack [figure] of flat semiconductor elements
+H01L  25/14  B	3	1	5F037	H01L  25/10    ;H01L  25/18	118	異なった素子を含むもの「図」「図」	including different elements [figure] [figure]
+H01L  25/14  C	3	0	5F037	H01L  25/10    ;H01L  25/18	132	複数加圧スタックの組立体「図」	Assembly [figure] of plural pressurization stacks
+H01L  25/14  D	3	0	5F037	H01L  25/11	40	ダイオード組立体「図」	Diode assembly [figure]
+H01L  25/14  Z	3	0	5F037	H01L  25/10    ;H01L  25/11    ;H01L  25/18	1812	その他のもの「図」	Others [figure]
+H01L  25/16  \	1	1	5F037	H01L  25/16	8	装置がサブクラスＨ１０Ｂ，Ｈ１０Ｄ，Ｈ１０Ｆ，Ｈ１０Ｈ，Ｈ１０Ｋ，Ｈ１０Ｎの，２つ以上の異なるメイングループに分類される型からなるもの，例．ハイブリッド回路の形成［２０２３．０１］	the devices being of types provided for in two or more different subclasses of H10B, H10D, H10F, H10H, H10K or H10N, e.g. forming hybrid circuits
+H01L  25/16  A	1	0	5F037	H01L  25/16	572	個別の容器を持たない装置「図」	devices not having separate containers [figure]
+H01L  25/16  B	1	0	5F037	H01L  25/16	125	個別の容器を持つ装置「図」	devices having separate containers
+H01L  25/16  Z	1	0	5F037	H01L  25/16	19	その他のもの	Others
+H01L  27/00  \	0	0	5F081	H10D  84/00	904	１つの共通基板内または上に形成された複数の半導体構成部品または他の固体構成部品からなる装置（その細部Ｈ０１Ｌ２３／００，Ｈ０１Ｌ２９／００〜Ｈ０１Ｌ３３／００，Ｈ１０Ｋ，Ｈ１０Ｎ；複数の個々の固体装置からなる組立体Ｈ０１Ｌ２５／００）［２００６．０１］	Devices consisting of a plurality of semiconductor or other solid-state components formed in or on a common substrate (details thereof H01L 23/00, H01L 29/00-H01L 33/00, H10K, H10N; assemblies consisting of a plurality of individual solid state devices H01L 25/00) [2, 2006.01]
+H01L  27/02  \	1	1	5F081	H10D  84/00	42	整流，発振，増幅またはスイッチングに特に適用される半導体構成部品を含むものであり，電位障壁を有するもの；電位障壁を有する集積化された受動回路素子を含むもの［２００６．０１］	including semiconductor components specially adapted for rectifying, oscillating, amplifying or switching and having potential barriers?; including integrated passive circuit elements having potential barriers?[2006.01]
+H01L  27/12  \	2	2	5F084	H01L  21/02	2094	基板が半導体本体以外のもの，例．絶縁体本体［２］	the substrate being other than a semiconductor body, e.g. an insulating body [2]
+H01L  27/12  A	2	0	5F084	H01L  21/02	2754	アクティブマトリックス	Active matrixes
+H01L  27/12  B	2	0	5F084	H01L  21/02	5322	接着型ＳＯＩ	Contact type SOI
+H01L  27/12  C	2	0	5F084	H01L  21/02	259	接続；配線	Connections; Wiring
+H01L  27/12  D	2	0	5F084	H01L  21/02	107	単結晶絶縁膜	Single crystal insulation films
+H01L  27/12  E	2	0	5F084	H01L  21/02	920	エピタキシャル型；インプラ絶縁膜形成	Epitaxial growth directly on insulating films; Insulated films by ion-implantation
+H01L  27/12  F	2	0	5F084	H01L  21/02	829	素子分離；領域分離	Element isolation; Area isolation
+H01L  27/12  G	2	0	5F084	H01L  21/02	72	半絶縁型，例．ＧａＡｓ	Semi-insulation types, e.g. GaAs
+H01L  27/12  H	2	0	5F084	H01L  21/02	173	多結晶支持体	Multi-crystalline supports
+H01L  27/12  K	2	0	5F084	H01L  21/02	76	保護回路	Circuits for protection
+H01L  27/12  L	2	0	5F084	H01L  21/02	383	配置；レイアウト	Layout
+H01L  27/12  P	2	0	5F084	H01L  21/02	111	多結晶能動層；アモルファス層	Polycrystalline active layers; Amorphous layers
+H01L  27/12  Q	2	0	5F084	H01L  21/02	5	超格子	Super lattices
+H01L  27/12  R	2	0	5F084	H01L  21/02	847	再結晶	Re-crystallization
+H01L  27/12  S	2	0	5F084	H01L  21/02	751	ＳＯＳ	SOS
+H01L  27/12  T	2	0	5F084	H01L  21/02	182	テスト；検査	Testing; Inspection
+H01L  27/12  Z	2	0	5F084	H01L  21/02	1044	その他のもの	Others

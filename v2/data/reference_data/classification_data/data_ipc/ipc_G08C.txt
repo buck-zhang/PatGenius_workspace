@@ -1,0 +1,46 @@
+G08C  13/00		入力信号と出力信号との関係に影響を与えるための装置，例．微分，遅延	Arrangements for influencing the relationship between signals at input and output, e.g. differentiating, delaying	715
+G08C  13/02	・	２個以上の信号の関数である信号，例．和，積，を生じるもの	to yield a signal which is a function of two or more signals, e.g. sum or product	204
+G08C  15/00		共通伝送線路で複数の信号を伝送するために多重伝送の使用によって特徴づけられた装置	Arrangements characterised by the use of multiplexing for the transmission of a plurality of signals over a common path	7601
+G08C  15/02	・	同時に，すなわち周波数分割を用いるもの	simultaneously, i.e. using frequency division	303
+G08C  15/04	・・	信号が搬送波で変調されるもの	the signals being modulated on carrier frequencies	207
+G08C  15/06	・	連続的に，すなわち時分割を用いるもの	successively, i.e. using time division	3472
+G08C  15/08	・・	信号が伝送連絡線路において電圧，電流の振幅であらわされるもの	the signals being represented by amplitude of current or voltage in transmission link	228
+G08C  15/10	・・	信号が伝送連絡線路において電圧，電流の周波数または位相であらわされるもの	the signals being represented by frequencies or phase of current or voltage in transmission link	117
+G08C  15/12	・・	信号が伝送連絡線路においてパルスの特性によってあらわされるもの	the signals being represented by pulse characteristics in transmission link	670
+G08C  17/00		信号伝送のために無線電気的連絡線の使用によって特徴づけられた装置［６］	Arrangements for transmitting signals characterised by the use of a wireless electrical link	11758
+G08C  17/02	・	無線連絡線を使用するもの［６］	using a radio link	91749
+G08C  17/04	・	磁気的に結合した装置を使用するもの［６］	using magnetically coupled devices	1040
+G08C  17/06	・	容量結合を使用するもの［６］	using capacity coupling	231
+G08C  19/00		電気的信号伝送方式（Ｇ０８Ｃ１７／００が優先）	Electric signal transmission systems(G08C17/00 takes precedence)	21304
+G08C  19/02	・	伝送される信号が電流または電圧の大きさであるもの（Ｇ０８Ｃ１９／３６，Ｇ０８Ｃ１９／３８が優先）	in which the signal transmitted is magnitude of current or voltage(G08C19/36, G08C19/38 take precedence)	3741
+G08C  19/04	・・	可変抵抗を用いるもの	using variable resistance	417
+G08C  19/06	・・	可変インダクタンスを用いるもの	using variable inductance	342
+G08C  19/08	・・・	２個のコイルに差動的に影響をあたえるもの	differentially influencing two coils	57
+G08C  19/10	・・	可変容量を用いるもの	using variable capacitance	126
+G08C  19/12	・	伝送される信号が交流の周波数または位相であるもの	in which the signal transmitted is frequency or phase of AC	1536
+G08C  19/14	・・	複数の一定周波数を組み合わせて用いるもの	using combination of fixed frequencies	195
+G08C  19/16	・	伝送がパルスによって行われるもの	in which transmission is by pulses	3017
+G08C  19/18	・・	パルス列中のパルスの数の変化を用いるもの	using a variable number of pulses in a train	421
+G08C  19/20	・・・	回転電気機械，例．ステップ電動機，に作用するもの	operating on dynamo-electric devices, e.g. step motor	283
+G08C  19/22	・・	各パルスの持続時間の変化を用いるもの	by varying the duration of individual pulses	726
+G08C  19/24	・・	パルスの時間的シフトを用いるもの	using time shift of pulses	219
+G08C  19/26	・・	パルス繰返し周波数の変化を用いるもの	by varying pulse repetition frequency	320
+G08C  19/28	・・	パルス符号を用いるもの	using pulse code	2951
+G08C  19/30	・	伝送が複数の導体またはチャンネルから１つ以上の導体またはチャンネルを選択することによるもの（Ｇ０８Ｃ１９／３８が優先）	in which transmission is by selection of one or more conductors or channels from a plurality of conductors or channels(G08C19/38 takes precedence)	1008
+G08C  19/32	・・	１個の導体またはチャンネルを選択するもの	of one conductor or channel	157
+G08C  19/34	・・	複数の導体またはチャンネルの組合せを選択するもの	of a combination of conductors or channels	124
+G08C  19/36	・	入力信号を変換するために光学的手段を使用するもの	using optical means to convert the input signal	746
+G08C  19/38	・	回転電気機械を用いるもの（パルスによって動作するものＧ０８Ｃ１９／２０）	using dynamo-electric devices(operated by pulses G08C19/20)	870
+G08C  19/40	・・	回転子または固定子の一方のみが信号が加えられる巻線をもつもの，例．ステップ電動機を用いるもの	of which only the rotor or the stator carries a winding to which a signal is applied, e.g. using step motor	63
+G08C  19/42	・・・	３個の固定子極をもつもの	having three stator poles	34
+G08C  19/44	・・・	４個以上の固定子極をもつもの	having more than three stator poles	45
+G08C  19/46	・・	回転子と固定子の両方が巻線をもつもの（かご形回転子をもつものＧ０８Ｃ１９／４０）	of which both rotor and stator carry windings(having squirrel-cage rotor G08C19/40)	238
+G08C  19/48	・・・	３相固定子と一定周波数の交流で付勢される回転子とをもつ形式，例．セルシン，マグスリップ，であるもの	being of the type with a three-phase stator and a rotor fed by constant-frequency AC, e.g. selsyn, magslip	428
+G08C  21/00		一定基準系に対する対象物の位置の伝送方式，例．テレライタ［５］	Systems for transmitting the position of an object with respect to a predetermined reference system, e.g. tele-autographic system	1593
+G08C  23/00		非電気的信号伝送方式，例．光学的方式	Non-electric signal transmission systems, e.g. optical systems	1971
+G08C  23/02	・	音波を使用するもの［６］	using acoustic waves	1600
+G08C  23/04	・	光波を使用するもの，例．赤外線［６］	using light waves, e.g. infrared	16763
+G08C  23/06	・・	光ガイドを通過させるもの，例．光ファイバー［６］	through light guides, e.g. optical fibres	2014
+G08C  25/00		誤りの防止または修正のための装置；監視装置	Arrangements for preventing or correcting errors; Monitoring arrangements	6566
+G08C  25/02	・	受信局から送信局へ信号を返送することによるもの	by signalling back from receiving station to transmitting station	1086
+G08C  25/04	・	送信された信号を記録することによるもの	by recording transmitted signals	211

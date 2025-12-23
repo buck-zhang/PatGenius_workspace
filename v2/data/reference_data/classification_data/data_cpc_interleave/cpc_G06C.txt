@@ -1,0 +1,65 @@
+G06C1/00	7	Computing aids in which the computing members form at least part of the displayed result and are manipulated directly by hand, e.g. abacuses or pocket adding devices	G06C1/00	G06C1/00		817
+G06C3/00	7	Arrangements for table look-up, e.g. menstruation table	G06C3/00	G06C3/00		743
+G06C5/00	7	Non-functional elements	G06C5/00	G06C5/00		14
+G06C5/02	8	Housings; Frameworks	G06C5/02	G06C5/02		42
+G06C7/00	7	Input mechanisms	G06C7/00	G06C7/00		128
+G06C7/02	8	Keyboards	G06C7/02	G06C7/02		248
+G06C7/04	9	Interlocking devices, e.g. between keys	G06C7/04	G06C7/04		88
+G06C7/06	9	with one set of keys for each denomination	G06C7/06	G06C7/06		659
+G06C7/08	9	with one set of keys for all denominations, e.g. ten-key board	G06C7/08	G06C7/08		496
+G06C7/09	8	Transfer of data from record carrier to computing mechanisms	G06C7/09	G06C7/09		21
+G06C7/10	8	Transfer mechanisms, e.g. transfer of a figure from a ten-key keyboard into the pin carriage	G06C7/10	G06C7/10		1444
+G06C7/12	8	Resetting devices, e.g. for the keyboard	G06C7/12	G06C7/12		7
+G06C9/00	7	Transfer mechanisms, e.g. for transmitting figures from the input mechanism into the computing mechanism (G06C7/10, G06C11/00, G06C15/00 take precedence)	G06C9/00	G06C9/00		32
+G06C9/02	8	Back-transfer arrangements, e.g. to transfer a value accumulated in a register back into the selection mechanism	G06C9/02	G06C9/02		1
+G06C11/00	7	Output mechanisms	G06C11/00	G06C11/00		386
+G06C11/02	8	with visual indication, e.g. counter drum	G06C11/02	G06C11/02		889
+G06C11/04	8	with printing mechanisms, e.g. for character-at-a-time or line-at-a-time printing	G06C11/04	G06C11/04		837
+G06C11/06	9	having type hammers	G06C11/06	G06C11/06		31
+G06C11/08	8	with punching mechanism	G06C11/08	G06C11/08		490
+G06C11/10	8	Arrangements for feeding single sheets or continuous web or tape, e.g. ejection device; Line-spacing devices	G06C11/10	G06C11/10		61
+G06C11/12	9	for feeding tape	G06C11/12	G06C11/12		66
+G06C13/00	7	Storage mechanisms (mechanical counters with input only to the lowest order G06M1/04)	G06C13/00	G06C13/00		16
+G06C13/02	8	Operand stores, e.g. pin carriage (input mechanisms G06C7/00)	G06C13/02	G06C13/02		4
+G06C13/04	8	Print buffer stores	G06C13/04	G06C13/04		
+G06C15/00	7	Computing mechanisms; Actuating devices therefor	G06C15/00	G06C15/00		310
+G06C15/02	8	operating on the binary scale<br><br><u>NOTE</u><br><br>Group G06C15/02 takes precedence over groups G06C15/04 - G06C15/42.	G06C15/02	G06C15/02		21
+G06C15/04	8	Adding or subtracting devices (G06C15/08 takes precedence)	G06C15/04	G06C15/04		296
+G06C15/06	9	having balance totalising; Obtaining sub-total	G06C15/06	G06C15/06		460
+G06C15/08	8	Multiplying or dividing devices; Devices for computing the exponent or root	G06C15/08	G06C15/08		255
+G06C15/10	9	having more than one denominational set of keys operating directly on computing mechanism	G06C15/10	G06C15/10		6
+G06C15/12	9	having pin carriage	G06C15/12	G06C15/12		12
+G06C15/14	9	having pin wheel, e.g. Odhner type	G06C15/14	G06C15/14		15
+G06C15/16	9	having stepped-toothed actuating drums, e.g. Thomas type	G06C15/16	G06C15/16		11
+G06C15/18	9	having multiplication table for forming partial products	G06C15/18	G06C15/18		12
+G06C15/20	9	adapted for short-cut multiplication or division	G06C15/20	G06C15/20		16
+G06C15/22	8	Arrangements for two or more computing devices; Arrangements for subdivision into two or more computing mechanisms, e.g. splitting	G06C15/22	G06C15/22		1
+G06C15/24	8	Devices for counting the cycles of operation in division or multiplication	G06C15/24	G06C15/24		19
+G06C15/26	8	Devices for transfer between orders, e.g. tens transfer device	G06C15/26	G06C15/26		296
+G06C15/28	9	where transfer is effected in one step	G06C15/28	G06C15/28		9
+G06C15/30	9	where transfer is effected in two steps	G06C15/30	G06C15/30		10
+G06C15/32	10	with provision for simultaneous transfer between all orders	G06C15/32	G06C15/32		2
+G06C15/34	9	where transfer is effected by planet gear, i.e. crawl type	G06C15/34	G06C15/34		14
+G06C15/36	10	with aligning means	G06C15/36	G06C15/36		3
+G06C15/38	9	for pin-wheel computing mechanisms	G06C15/38	G06C15/38		194
+G06C15/40	9	for stepped-toothed-drum computing mechanism	G06C15/40	G06C15/40		15
+G06C15/42	8	Devices for resetting to zero or other datum	G06C15/42	G06C15/42		143
+G06C15/44	8	Devices for comparing numerical values, e.g. zero check	G06C15/44	G06C15/44		4
+G06C15/46	8	Arrangements for rounding-off	G06C15/46	G06C15/46		1
+G06C15/48	8	Arrangements for selection of one out of several counting registers (item-counting devices G06C25/02)	G06C15/48	G06C15/48		3
+G06C17/00	7	Mechanisms for converting from one notational system to another, i.e. radix conversion	G06C17/00	G06C17/00		4
+G06C19/00	7	Decimal-point mechanisms; Analogous mechanisms for non-decimal notations	G06C19/00	G06C19/00		3
+G06C19/02	8	Devices for indicating the point	G06C19/02	G06C19/02		80
+G06C19/04	8	Devices for printing the point	G06C19/04	G06C19/04		96
+G06C21/00	7	Programming-mechanisms for determining the steps to be performed by the computing machine, e.g. when a key or certain keys are depressed (mechanisms merely for producing multiplication by repeated addition G06C15/08)	G06C21/00	G06C21/00		79
+G06C21/02	8	in which the operation of the mechanism is determined by the position of the carriage	G06C21/02	G06C21/02		100
+G06C21/04	8	Conditional arrangements for controlling subsequent operating functions, e.g. control arrangement triggered by a function key and depending on the condition of the register (arrangements for selection of one out of several counting registers G06C15/48)	G06C21/04	G06C21/04		739
+G06C23/00	7	Driving mechanisms for functional elements<br><br><u>NOTE</u><br><br>Group G06C23/08 takes precedence over groups G06C23/02 - G06C23/06. 	G06C23/00	G06C23/00		49
+G06C23/02	8	of main shaft	G06C23/02	G06C23/02		423
+G06C23/04	8	of pin carriage, e.g. for step-by-step movement	G06C23/04	G06C23/04		323
+G06C23/06	8	of tabulation devices, e.g. of carriage skip	G06C23/06	G06C23/06		201
+G06C23/08	8	Hydraulic or pneumatic actuation	G06C23/08	G06C23/08		
+G06C25/00	7	Auxiliary functional arrangements, e.g. interlocks (interlocks in keyboards G06C7/04)	G06C25/00	G06C25/00		140
+G06C25/02	8	Item-counting devices (devices for counting the cycles of operation in division or multiplication G06C15/24)	G06C25/02	G06C25/02		21
+G06C27/00	7	Computing machines characterised by the structural interrelation of their functional units, e.g. invoicing machines	G06C27/00	G06C27/00		412
+G06C29/00	7	Combinations of computing machines with other machines, e.g. with typewriter, with money-changing apparatus	G06C29/00	G06C29/00		110

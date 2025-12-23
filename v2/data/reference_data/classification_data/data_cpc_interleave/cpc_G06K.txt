@@ -1,0 +1,596 @@
+G06K1/00	7	Methods or arrangements for marking the record carrier in digital fashion	G06K1/00	G06K1/00		251
+G06K1/02	8	by punching	G06K1/02	G06K1/02		367
+G06K1/025	9	{Details, e.g. construction of the punching mechanism}	G06K1/02	G06K1/02		58
+G06K1/04	9	controlled by sensing markings on the record carrier being punched	G06K1/04	G06K1/04		75
+G06K1/05	9	High-speed punches, e.g. controlled by electric computer	G06K1/05	G06K1/05		26
+G06K1/06	9	Manually-controlled devices	G06K1/06	G06K1/06		216
+G06K1/08	10	Card punches	G06K1/08	G06K1/08		44
+G06K1/10	10	Tape punches	G06K1/10	G06K1/10		20
+G06K1/12	8	otherwise than by punching	G06K1/12	G06K1/12		664
+G06K1/121	9	{by printing code marks (applying code marks to labels B65C9/46; marking or coding completed packages B65B61/26)}	G06K1/12	G06K1/12		1423
+G06K1/123	10	{for colour code marks}	G06K1/12	G06K1/12		97
+G06K1/125	9	{by magnetic means}	G06K1/12	G06K1/12		321
+G06K1/126	9	{by photographic or thermographic registration (recording apparatus for measuring instruments G01D15/00)}	G06K1/12	G06K1/12		711
+G06K1/128	9	{by electric registration, e.g. electrolytic, spark erosion (recording apparatus for measuring instruments G01D15/06; information storage in general G11)}	G06K1/12	G06K1/12		199
+G06K1/14	8	by transferring data from a similar or dissimilar record carrier	G06K1/14	G06K1/14		102
+G06K1/16	9	by reproducing data from one punched card on to one or more punched cards without the code representation, i.e. duplicating	G06K1/16	G06K1/16		25
+G06K1/18	9	by transferring data from one type of record carrier on to another type of record carrier, e.g. from magnetic tape to punched card	G06K1/18	G06K1/18		118
+G06K1/20	8	Simultaneous marking of record carrier and printing-out of data, e.g. printing-punch	G06K1/20	G06K1/20		112
+G06K1/22	9	Simultaneous marking and printing on different record carriers, e.g. on different types of record carrier	G06K1/22	G06K1/22		37
+G06K3/00	7	Methods or arrangements for printing of data in the shape of alphanumeric or other characters from a record carrier, e.g. interpreting, printing-out from a magnetic tape	G06K3/00	G06K3/00		68
+G06K3/02	8	Translating markings on a record carrier into printed data on the same record carrier, i.e. interpreting	G06K3/02	G06K3/02		32
+G06K5/00	7	Methods or arrangements for verifying the correctness of markings on a record carrier; Column detection devices	G06K5/00	G06K5/00		678
+G06K5/02	8	the verifying forming a part of the marking action	G06K5/02	G06K5/02		217
+G06K5/04	8	Verifying the alignment of markings	G06K5/04	G06K5/04		55
+G06K7/00	7	Methods or arrangements for sensing record carriers, {e.g. for reading patterns}(methods or arrangements for marking the record carrier in digital fashion G06K1/00; pattern recognition G06F18/00; arrangements for image or video recognition or understanding G06V10/00; character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V30/00)	G06K7/00	G06K7/00		1112
+G06K7/0004	8	{Hybrid readers}	G06K7/00	G06K7/00		794
+G06K7/0008	8	{General problems related to the reading of electronic memory record carriers, independent of its reading method, e.g. power transfer}	G06K7/00	G06K7/00		5645
+G06K7/0013	8	{by galvanic contacts, e.g. card connectors for ISO-7816 compliant smart cards or memory cards, e.g. SD card readers (connectors in general H01R13/00; connectors for SIM cards used in mobile phones or the like H04B1/3816)}	G06K7/00	G06K7/00		849
+G06K7/0017	9	{the reading head of the connector being removably attached to the housing}	G06K7/00	G06K7/00		26
+G06K7/0021	9	{for reading/sensing record carriers having surface contacts}	G06K7/00	G06K7/00		2031
+G06K7/0026	10	{the galvanic contacts of the connector adapted for landing on the contacts of the card upon card insertion}	G06K7/00	G06K7/00		211
+G06K7/003	10	{means for pressing the connector contacts in the direction of the card contacts to assure trustworthy electrical connection between card and connector}	G06K7/00	G06K7/00		180
+G06K7/0034	9	{the connector being capable of simultaneously receiving a plurality of cards in the same insertion slot}	G06K7/00	G06K7/00		275
+G06K7/0039	10	{the plurality of cards being cards of the same type and format, e.g. two ISO 7816 smart cards}	G06K7/00	G06K7/00		40
+G06K7/0043	10	{the plurality of cards being cards of different formats, e.g. SD card and memory stick}	G06K7/00	G06K7/00		196
+G06K7/0047	9	{for reading/sensing record carriers having edge contacts}	G06K7/00	G06K7/00		312
+G06K7/0052	9	{connectors capable of contacting cards of different formats, e.g. memory stick and SD card readers sharing at least one connector contact and the associated signal line, e.g. both using the same signal line for input or output of data}	G06K7/00	G06K7/00		122
+G06K7/0056	9	{housing of the card connector}	G06K7/00	G06K7/00		429
+G06K7/006	10	{the housing being a portable casing}	G06K7/00	G06K7/00		300
+G06K7/0065	10	{comprising keyboard or display, e.g. a pocket calculator sized casing suitable for off-line checking the remaining money on a smart banking card}	G06K7/00	G06K7/00		62
+G06K7/0069	10	{including means for detecting correct insertion of the card, e.g. end detection switches notifying that the card has been inserted completely and correctly}	G06K7/00	G06K7/00		294
+G06K7/0073	10	{having multiple insertion slots, the respective slots suited for the same or different card form factors}	G06K7/00	G06K7/00		213
+G06K7/0078	10	{reinforced housing for protection against damage, be it due malevolent action, such as drilling and other ways of forced entry, or by accident, such as shock due to dropping}	G06K7/00	G06K7/00		57
+G06K7/0082	10	{comprising an arrangement for protection against electrostatic discharge, e.g. by grounding part of the conductive housing}	G06K7/00	G06K7/00		119
+G06K7/0086	9	{the connector comprising a circuit for steering the operations of the card connector}	G06K7/00	G06K7/00		206
+G06K7/0091	10	{the circuit comprising an arrangement for avoiding intrusions and unwanted access to data inside of the connector}	G06K7/00	G06K7/00		173
+G06K7/0095	8	{Testing the sensing arrangement, e.g. testing if a magnetic card reader, bar code reader, RFID interrogator or smart card reader functions properly (testing of electrical circuits G01R31/28)}	G06K7/00	G06K7/00		638
+G06K7/01	8	Details	G06K7/01	G06K7/01		353
+G06K7/015	9	Aligning or centering of the sensing device with respect to the record carrier	G06K7/015	G06K7/015		443
+G06K7/016	9	Synchronisation of sensing process	G06K7/016	G06K7/016		289
+G06K7/0163	10	{by means of additional timing marks on the record-carrier}	G06K7/016	G06K7/016		212
+G06K7/0166	10	{by means of clock-signals derived from the code marks, e.g. self-clocking code}	G06K7/016	G06K7/016		260
+G06K7/02	8	by pneumatic or hydraulic means, e.g. sensing punched holes with compressed air; by sonic means {; by ultrasonic means}	G06K7/02	G06K7/02		181
+G06K7/04	8	by mechanical means, e.g. by pins operating electric contacts	G06K7/04	G06K7/04		256
+G06K7/042	9	{controlling electric circuits}	G06K7/04	G06K7/04		65
+G06K7/045	10	{whereby the entire datafield of the record carriers is simultaneously sensed}	G06K7/04	G06K7/04		28
+G06K7/047	10	{whereby the data field of the record carriers is sensed successively column after column}	G06K7/04	G06K7/04		16
+G06K7/06	8	by means which conduct current when a mark is sensed or absent, e.g. contact brush for a conductive mark	G06K7/06	G06K7/06		179
+G06K7/065	9	{for conductive marks}	G06K7/06	G06K7/06		137
+G06K7/08	8	by means detecting the change of an electrostatic or magnetic field, e.g. by detecting change of capacitance between electrodes	G06K7/08	G06K7/08		471
+G06K7/081	9	{electrostatic, e.g. by detecting the charge of capacitance between electrodes}	G06K7/08	G06K7/08		200
+G06K7/082	9	{using inductive or magnetic sensors}	G06K7/08	G06K7/08		321
+G06K7/083	10	{inductive (G06K7/10336 takes precedence)}	G06K7/08	G06K7/08		118
+G06K7/084	11	{sensing magnetic material by relative movement detecting flux changes without altering its magnetised state}	G06K7/08	G06K7/08		1060
+G06K7/085	11	{metal detectors}	G06K7/08	G06K7/08		67
+G06K7/086	11	{sensing passive circuit, e.g. resonant circuit transponders}	G06K7/08	G06K7/08		153
+G06K7/087	10	{flux-sensitive, e.g. magnetic, detectors (G06K7/10336 takes precedence)}	G06K7/08	G06K7/08		585
+G06K7/088	11	{using magneto-sensitive switches, e.g. reed-switches}	G06K7/08	G06K7/08		47
+G06K7/089	9	{hand-held scanners}	G06K7/08	G06K7/08		159
+G06K7/10	8	by electromagnetic radiation, e.g. optical sensing; by corpuscular radiation	G06K7/10	G06K7/10		3154
+G06K7/10009	9	{sensing by radiation using wavelengths larger than 0.1 mm, e.g. radio-waves or microwaves}<br><br><u>NOTE</u><br><br>This group covers electromagnetic interrogation as radiated by the antenna of an interrogation device while interrogating a plurality of wireless electronic memory record carriers, e.g. non-contact smart cards, RFID tags or labels, or transponders.	G06K7/10	G06K7/10		2763
+G06K7/10019	10	{resolving collision on the communication channels between simultaneously or concurrently interrogated record carriers. (collision between the communication channels used by wireless communication devices, where the solution is not particularly adapted for RFIDs or the like, H04W74/08)}	G06K7/10	G06K7/10		435
+G06K7/10029	11	{the collision being resolved in the time domain, e.g. using binary tree search or RFID responses allocated to a random time slot}	G06K7/10	G06K7/10		323
+G06K7/10039	12	{interrogator driven, i.e. synchronous}	G06K7/10	G06K7/10		337
+G06K7/10049	13	{binary tree}	G06K7/10	G06K7/10		62
+G06K7/10059	12	{transponder driven}	G06K7/10	G06K7/10		154
+G06K7/10069	11	{the collision being resolved in the frequency domain, e.g. by hopping from one frequency to the other (frequency hopping or spread spectrum techniques H04B7/00)}	G06K7/10	G06K7/10		190
+G06K7/10079	11	{the collision being resolved in the spatial domain, e.g. temporary shields for blindfolding the interrogator in specific directions}	G06K7/10	G06K7/10		487
+G06K7/10089	12	{the interrogation device using at least one directional antenna or directional interrogation field to resolve the collision (direction or location finding, such as triangulation techniques, G01S13/00)}	G06K7/10	G06K7/10		73
+G06K7/10099	13	{the directional field being used for pinpointing the location of the record carrier, e.g. for finding or locating an RFID tag amongst a plurality of RFID tags, each RFID tag being associated with an object, e.g. for physically locating the RFID tagged object in a warehouse}	G06K7/10	G06K7/10		430
+G06K7/10108	11	{interrogating only those RFIDs that fulfill a predetermined requirement, e.g. selecting all RFIDs having the same speed and moving in a cloud like fashion, e.g. on the same train; interrogating only RFIDs having a certain predetermined temperature, e.g. in the same fridge, another possibility being the active ignoring of a group of tags that fulfill a predetermined requirement, equivalent to the Boolean NOT operation}	G06K7/10	G06K7/10		169
+G06K7/10118	10	{the sensing being preceded by at least one preliminary step}	G06K7/10	G06K7/10		261
+G06K7/10128	11	{the step consisting of detection of the presence of one or more record carriers in the vicinity of the interrogation device}	G06K7/10	G06K7/10		515
+G06K7/10138	11	{the step consisting of determining the type of record carrier, e.g. to determine if the record carrier is an RFID tag of the long or short range type, or to determine the preferred communication protocol of the RFID tag}	G06K7/10	G06K7/10		94
+G06K7/10148	11	{the step consisting of dynamically tuning the resonant circuit of the interrogation device that is emitting the interrogation signal, e.g. for impedance matching inside of the interrogation device (for tuning related to loop aerials in general H01Q7/00)}	G06K7/10	G06K7/10		93
+G06K7/10158	10	{methods and means used by the interrogation device for reliably powering the wireless record carriers using an electromagnetic interrogation field}	G06K7/10	G06K7/10		287
+G06K7/10168	11	{the powering being adversely affected by environmental influences, e.g. unwanted energy loss in the interrogation signal due to metallic or capacitive objects in the proximity of the interrogation device or in the proximity of the interrogated record carrier}	G06K7/10	G06K7/10		57
+G06K7/10178	11	{including auxiliary means for focusing, repeating or boosting the electromagnetic interrogation field (comparable booster antennas integrated on the record carrier itself G06K19/07794)}	G06K7/10	G06K7/10		434
+G06K7/10188	12	{the repeating consisting of intelligently propagating data from record carriers via intermediate stations to the interrogation device, e.g. a distant RFID or RFID falling in a "shadow" region sending its identification data to an interrogation device using at least the help of one further RFID that is positioned in a region "visible" to the interrogation device, the further RFID therefore functioning as a relay station}	G06K7/10	G06K7/10		48
+G06K7/10198	10	{setting parameters for the interrogator, e.g. programming parameters and operating modes}	G06K7/10	G06K7/10		387
+G06K7/10207	11	{parameter settings related to power consumption of the interrogator}	G06K7/10	G06K7/10		150
+G06K7/10217	11	{parameter settings controlling the transmission power of the interrogator}	G06K7/10	G06K7/10		260
+G06K7/10227	11	{loading programming parameters or programs into the interrogator, e.g. for configuring the interrogator}	G06K7/10	G06K7/10		108
+G06K7/10237	10	{the reader and the record carrier being capable of selectively switching between reader and record carrier appearance, e.g. in near field communication [NFC] devices where the NFC device may function as an RFID reader or as an RFID tag}	G06K7/10	G06K7/10		1106
+G06K7/10247	11	{issues specific to the use of single wire protocol [SWP] in NFC like devices}	G06K7/10	G06K7/10		43
+G06K7/10257	10	{arrangements for protecting the interrogation against piracy attacks (computer security in general G06F21/00; jamming of communication, countermeasures H04K3/00; secret communication H04K1/00)}	G06K7/10	G06K7/10		404
+G06K7/10267	11	{the arrangement comprising a circuit inside of the interrogation device}	G06K7/10	G06K7/10		52
+G06K7/10277	11	{the arrangement being mechanical, such as reinforced housings or protective cages against unlawful entry}	G06K7/10	G06K7/10		37
+G06K7/10287	11	{the arrangement including a further device in the proximity of the interrogation device, e.g. signal scrambling devices}	G06K7/10	G06K7/10		24
+G06K7/10297	10	{arrangements for handling protocols designed for non-contact record carriers such as RFIDs NFCs, e.g. ISO/IEC 14443 and 18092 (cryptographic protocols H04L9/00; network security protocols H04L63/00; real-time communication protocols in data switching networks H04L65/00; network protocols for data switching network services H04L67/00)}	G06K7/10	G06K7/10		4357
+G06K7/10306	11	{ultra wide band}	G06K7/10	G06K7/10		110
+G06K7/10316	10	{using at least one antenna particularly designed for interrogating the wireless record carriers (antennas in general H01Q1/22)}	G06K7/10	G06K7/10		1375
+G06K7/10326	11	{the antenna being of the very-near field type, e.g. capacitive}	G06K7/10	G06K7/10		160
+G06K7/10336	11	{the antenna being of the near field type, inductive coil}	G06K7/10	G06K7/10		1052
+G06K7/10346	11	{the antenna being of the far field type, e.g. HF types or dipoles}	G06K7/10	G06K7/10		599
+G06K7/10356	11	{using a plurality of antennas, e.g. configurations including means to resolve interference between the plurality of antennas}	G06K7/10	G06K7/10		1064
+G06K7/10366	10	{the interrogation device being adapted for miscellaneous applications}	G06K7/10	G06K7/10		2227
+G06K7/10376	11	{the interrogation device being adapted for being moveable}	G06K7/10	G06K7/10		287
+G06K7/10386	12	{the interrogation device being of the portable or hand-handheld type, e.g. incorporated in ubiquitous hand-held devices such as PDA or mobile phone, or in the form of a portable dedicated RFID reader}	G06K7/10	G06K7/10		946
+G06K7/10396	12	{the interrogation device being wearable, e.g. as a glove, bracelet, or ring (wearable aerials in general H01Q1/27)}	G06K7/10	G06K7/10		163
+G06K7/10405	12	{the interrogation device including an arrangement for sensing environmental parameters, such as a temperature or acceleration sensor, e.g. used as an on/off trigger or as a warning means}	G06K7/10	G06K7/10		111
+G06K7/10415	11	{the interrogation device being fixed in its position, such as an access control device for reading wireless access cards, or a wireless ATM (banking machines in general G07F19/00)}	G06K7/10	G06K7/10		533
+G06K7/10425	12	{the interrogation device being arranged for interrogation of record carriers passing by the interrogation device}	G06K7/10	G06K7/10		404
+G06K7/10435	13	{the interrogation device being positioned close to a conveyor belt or the like on which moving record carriers are passing (conveying in accordance with bodily destination marks, seeB65G47/46, sorting of objects carrying identity markings, seeB07C5/34)}	G06K7/10	G06K7/10		337
+G06K7/10445	14	{the record carriers being fixed to further objects, e.g. RFIDs fixed to packages, luggage, mail-pieces or work-pieces transported on a conveyor belt}	G06K7/10	G06K7/10		335
+G06K7/10455	14	{the record carriers being fixed to an endless tape or at least not fixed to further objects}	G06K7/10	G06K7/10		34
+G06K7/10465	11	{the interrogation device being capable of self-diagnosis, e.g. in addition to or as part of the actual interrogation process (testing of electrical circuits in general G01R31/28)}	G06K7/10	G06K7/10		155
+G06K7/10475	11	{arrangements to facilitate interaction with further interrogation devices, e.g. such that at least two interrogation devices may function and cooperate in a network of such devices}	G06K7/10	G06K7/10		364
+G06K2007/10485	9	{Arrangement of optical elements}	G06K7/10	G06K7/10		103
+G06K2007/10495	9	{Circuits for pulse forming, amplifying}	G06K7/10	G06K7/10		37
+G06K2007/10504	9	{Data fields affixed to objects or articles}	G06K7/10	G06K7/10		229
+G06K2007/10514	10	{Randomly orientated data fields}	G06K7/10	G06K7/10		13
+G06K2007/10524	9	{Hand-held scanners}	G06K7/10	G06K7/10		424
+G06K2007/10534	10	{Scanner to be worn on a finger or on a wrist}	G06K7/10	G06K7/10		116
+G06K7/10544	9	{by scanning of the records by radiation in the optical part of the electromagnetic spectrum}	G06K7/10	G06K7/10		590
+G06K7/10554	10	{Moving beam scanning}	G06K7/10	G06K7/10		150
+G06K7/10564	11	{Light sources}	G06K7/10	G06K7/10		283
+G06K7/10574	12	{Multiple sources}	G06K7/10	G06K7/10		202
+G06K7/10584	12	{Source control}	G06K7/10	G06K7/10		384
+G06K7/10594	11	{Beam path}	G06K7/10	G06K7/10		197
+G06K7/10603	12	{Basic scanning using moving elements}	G06K7/10	G06K7/10		116
+G06K7/10613	13	{by rotation, e.g. polygon}	G06K7/10	G06K7/10		133
+G06K7/10623	14	{Constructional details}	G06K7/10	G06K7/10		86
+G06K7/10633	13	{by oscillation}	G06K7/10	G06K7/10		174
+G06K7/10643	14	{Activating means}	G06K7/10	G06K7/10		114
+G06K7/10653	15	{using flexible or piezoelectric means}	G06K7/10	G06K7/10		195
+G06K7/10663	13	{using hologram}	G06K7/10	G06K7/10		110
+G06K7/10673	13	{Parallel lines}	G06K7/10	G06K7/10		142
+G06K7/10683	12	{Arrangement of fixed elements}	G06K7/10	G06K7/10		79
+G06K7/10693	13	{for omnidirectional scanning}	G06K7/10	G06K7/10		265
+G06K7/10702	13	{Particularities of propagating elements, e.g. lenses, mirrors (G06K7/10831 takes precedence)}	G06K7/10	G06K7/10		396
+G06K7/10712	10	{Fixed beam scanning}	G06K7/10	G06K7/10		269
+G06K7/10722	11	{Photodetector array or CCD scanning}	G06K7/10	G06K7/10		2325
+G06K7/10732	12	{Light sources}	G06K7/10	G06K7/10		1046
+G06K7/10742	12	{including a diffuser for diffusing the light from the light source to create substantially uniform illumination of the target record carrier}	G06K7/10	G06K7/10		165
+G06K7/10752	12	{Exposure time control}	G06K7/10	G06K7/10		167
+G06K7/10762	11	{Relative movement}	G06K7/10	G06K7/10		259
+G06K7/10772	12	{Moved readers, e.g. pen, wand}	G06K7/10	G06K7/10		181
+G06K7/10782	12	{Slot readers}	G06K7/10	G06K7/10		50
+G06K7/10792	10	{Special measures in relation to the object to be scanned}	G06K7/10	G06K7/10		349
+G06K7/10801	11	{Multidistance reading}	G06K7/10	G06K7/10		235
+G06K7/10811	12	{Focalisation}	G06K7/10	G06K7/10		648
+G06K7/10821	10	{further details of bar or optical code scanning devices}	G06K7/10	G06K7/10		1461
+G06K7/10831	11	{Arrangement of optical elements, e.g. lenses, mirrors, prisms (optical elements per seG02B)}	G06K7/10	G06K7/10		1278
+G06K7/10841	11	{Particularities of the light-sensitive elements (semiconductor devices H01L)}	G06K7/10	G06K7/10		226
+G06K7/10851	11	{Circuits for pulse shaping, amplifying, eliminating noise signals, checking the function of the sensing device (basic electronic circuitry H03)}	G06K7/10	G06K7/10		1332
+G06K7/10861	11	{sensing of data fields affixed to objects or articles, e.g. coded labels (postal sorting B07C3/14, conveying articles B65G47/48)}	G06K7/10	G06K7/10		2898
+G06K7/10871	12	{randomly oriented data-fields, code-marks therefore, e.g. concentric circles-code}	G06K7/10	G06K7/10		621
+G06K7/10881	11	{constructional details of hand-held scanners}	G06K7/10	G06K7/10		2368
+G06K7/10891	12	{the scanner to be worn on a finger or on a wrist}	G06K7/10	G06K7/10		350
+G06K7/109	12	{adaptations to make the hand-held scanner useable as a fixed scanner}	G06K7/10	G06K7/10		274
+G06K7/1091	12	{means to wake up the scanner from a sleep mode, e.g. using an acceleration sensor indicating that the scanner is being picked up by a user}	G06K7/10	G06K7/10		55
+G06K7/1092	11	{sensing by means of TV-scanning}	G06K7/10	G06K7/10		284
+G06K7/1093	11	{sensing, after transfer of the image of the data-field to an intermediate store, e.g. storage with cathode ray tube}	G06K7/10	G06K7/10		221
+G06K7/1094	11	{the record carrier being at least partially of the hologram type}	G06K7/10	G06K7/10		27
+G06K7/1095	11	{the scanner comprising adaptations for scanning a record carrier that is displayed on a display-screen or the like}	G06K7/10	G06K7/10		515
+G06K7/1096	11	{the scanner having more than one scanning window, e.g. two substantially orthogonally placed scanning windows for integration into a check-out counter of a super-market}	G06K7/10	G06K7/10		280
+G06K7/1097	11	{Optical sensing of electronic memory record carriers, such as interrogation of RFIDs with an additional optical interface}	G06K7/10	G06K7/10		251
+G06K7/1098	11	{the scanning arrangement having a modular construction}	G06K7/10	G06K7/10		350
+G06K7/1099	9	{scanning using X-rays}	G06K7/10	G06K7/10		31
+G06K7/12	9	using a selected wavelength, e.g. to sense red marks and ignore blue marks	G06K7/12	G06K7/12		985
+G06K7/14	9	using light without selection of wavelength, e.g. sensing reflected white light {(G06K7/10831&#160;-&#160;G06K7/1097 take precedence)}	G06K7/14	G06K7/14		2106
+G06K7/1404	10	{Methods for optical code recognition}	G06K7/14	G06K7/14		883
+G06K7/1408	11	{the method being specifically adapted for the type of code}	G06K7/14	G06K7/14		1155
+G06K7/1413	12	{1D bar codes}	G06K7/14	G06K7/14		2898
+G06K7/1417	12	{2D bar codes}	G06K7/14	G06K7/14		8107
+G06K7/1421	12	{Circular bar codes}	G06K7/14	G06K7/14		75
+G06K7/1426	12	{Multi-level bar codes}	G06K7/14	G06K7/14		78
+G06K7/143	12	{Glyph-codes}	G06K7/14	G06K7/14		117
+G06K7/1434	12	{Barcodes with supplemental or add-on codes}	G06K7/14	G06K7/14		215
+G06K7/1439	11	{including a method step for retrieval of the optical code}	G06K7/14	G06K7/14		481
+G06K7/1443	12	{locating of the code in an image}	G06K7/14	G06K7/14		1493
+G06K7/1447	12	{extracting optical codes from image or text carrying said optical code}	G06K7/14	G06K7/14		551
+G06K7/1452	12	{detecting bar code edges}	G06K7/14	G06K7/14		395
+G06K7/1456	12	{determining the orientation of the optical code with respect to the reader and correcting therefore}	G06K7/14	G06K7/14		407
+G06K7/146	11	{the method including quality enhancement steps}	G06K7/14	G06K7/14		822
+G06K7/1465	12	{using several successive scans of the optical code}	G06K7/14	G06K7/14		220
+G06K7/1469	12	{using sub-pixel interpolation}	G06K7/14	G06K7/14		33
+G06K7/1473	12	{error correction}	G06K7/14	G06K7/14		327
+G06K7/1478	12	{adapting the threshold for pixels in a CMOS or CCD pixel sensor for black and white recognition}	G06K7/14	G06K7/14		124
+G06K7/1482	12	{using fuzzy logic or natural solvers, such as neural networks, genetic algorithms and simulated annealing}	G06K7/14	G06K7/14		127
+G06K7/1486	12	{Setting the threshold-width for bar codes to be decoded}	G06K7/14	G06K7/14		161
+G06K7/1491	12	{the method including a reconstruction step, e.g. stitching two pieces of bar code together to derive the full bar code}	G06K7/14	G06K7/14		269
+G06K7/1495	11	{the method including an image compression step}	G06K7/14	G06K7/14		36
+G06K11/00	7	Methods or arrangements for graph-reading or for converting the pattern of mechanical parameters, e.g. force or presence, into electrical signal (feelers for copying devices on machine tools B23Q35/00; arrangements for measuring areas G01B; measuring force G01L; adapted as input devices to computers G06F3/00; combined with pattern recognition G06F18/00; arrangements for image or video recognition or understanding G06V10/00; character recognition, recognising digital ink or document-oriented image-based pattern recognition G06V30/00; systems for transmitting the position of an object with respect to a predetermined reference system, e.g. tele-autographic system, G08C21/00)<br><br><u>WARNING</u><br> This group and its subgroups are no longer used for the classification of new documents as from 1 January 2006. Documents relating to methods and arrangements for input to a computer are classified under G06F3/033 and G06F3/041	G06K11/00	G06K11/00		260
+G06K11/02	8	Automatic curve followers {, i.e. arrangements in which an exploring member or beam is forced to follow the curve}	G06K11/02	G06K11/02		223
+G06K11/04	9	using an auxiliary scanning pattern	G06K11/04	G06K11/04		94
+G06K11/06	8	Devices for converting the position of a manually-operated writing or tracing member into an electrical signal {(arrangements for converting the position or the displacement of a member into a coded form G06F3/03)}	G06K11/06	G06K11/06		69
+G06K13/00	7	Conveying record carriers from one station to another, e.g. from stack to punching mechanism (conveying record carriers combined with another operation, e.g. with reading G06K17/00)	G06K13/00	G06K13/00		66
+G06K13/02	8	the record carrier having longitudinal dimension comparable with transverse dimension, e.g. punched card	G06K13/02	G06K13/02		135
+G06K13/04	9	Details, e.g. flaps in card-sorting apparatus	G06K13/04	G06K13/04		203
+G06K13/05	10	Capstans; Pinch rollers	G06K13/05	G06K13/05		68
+G06K13/06	9	Guiding cards; Checking correct operation of card-conveying mechanisms	G06K13/06	G06K13/06		385
+G06K13/063	10	Aligning cards	G06K13/063	G06K13/063		227
+G06K13/067	10	Checking presence, absence, correct position, or moving status of cards	G06K13/067	G06K13/067		439
+G06K13/07	9	Transporting of cards between stations	G06K13/07	G06K13/07		391
+G06K13/073	10	with continuous movement	G06K13/073	G06K13/073		165
+G06K13/077	10	with intermittent movement; Braking or stopping movement	G06K13/077	G06K13/077		272
+G06K13/08	9	Feeding or discharging cards	G06K13/08	G06K13/08		1958
+G06K13/0806	10	{using an arrangement for ejection of an inserted card}	G06K13/08	G06K13/08		538
+G06K13/0812	11	{the ejection arrangement utilizing a push bar for manipulation by hand in order to eject the inserted card}	G06K13/08	G06K13/08		50
+G06K13/0818	12	{the push bar comprising a pivotable push button}	G06K13/08	G06K13/08		30
+G06K13/0825	11	{the ejection arrangement being of the push-push kind}	G06K13/08	G06K13/08		310
+G06K13/0831	11	{the ejection arrangement comprising a slide, carriage or drawer}	G06K13/08	G06K13/08		311
+G06K13/0837	11	{the ejection arrangement using a heart-shaped cam}	G06K13/08	G06K13/08		28
+G06K13/0843	10	{from or back into the same magazine (automatic card files G06K17/0003)}	G06K13/08	G06K13/08		133
+G06K13/085	10	{using an arrangement for locking the inserted card}	G06K13/08	G06K13/08		375
+G06K13/0856	11	{the locking arrangement comprising a notch in the card and a complementary locking means in the card reading station}	G06K13/08	G06K13/08		90
+G06K13/0862	11	{the locking arrangement being of the rotate-slide and lock type, such as, e.g. common in mobile phones}	G06K13/08	G06K13/08		108
+G06K13/0868	10	{using an arrangement for keeping the feeding or insertion slot of the card station clean of dirt, or to avoid feeding of foreign or unwanted objects into the slot}	G06K13/08	G06K13/08		49
+G06K13/0875	11	{the arrangement comprising a shutter for blocking at least part of the card insertion slot}	G06K13/08	G06K13/08		224
+G06K13/0881	12	{the shutter arranged to open only if the record carrier has been authenticated to enter the insertion slot}	G06K13/08	G06K13/08		37
+G06K13/0887	11	{the arrangement comprising a size filter for filtering out only cards having the proper size}	G06K13/08	G06K13/08		61
+G06K13/0893	11	{the arrangement comprising means for cleaning the card upon insertion}	G06K13/08	G06K13/08		155
+G06K13/10	10	from magazine to conveying arrangement	G06K13/10	G06K13/10		260
+G06K13/103	11	using mechanical means	G06K13/103	G06K13/103		398
+G06K13/107	11	using pneumatic means	G06K13/107	G06K13/107		191
+G06K13/12	10	from conveying arrangement to magazine	G06K13/12	G06K13/12		330
+G06K13/14	10	Card magazines, e.g. pocket, hopper	G06K13/14	G06K13/14		467
+G06K13/16	9	Handling flexible sheets, e.g. cheques	G06K13/16	G06K13/16		133
+G06K13/18	8	the record carrier being longitudinally extended, e.g. punched tape	G06K13/18	G06K13/18		81
+G06K13/20	9	Details	G06K13/20	G06K13/20		98
+G06K13/22	10	Capstans; Pinch rollers	G06K13/22	G06K13/22		81
+G06K13/24	9	Guiding of record carriers; Recognising end of record carrier	G06K13/24	G06K13/24		119
+G06K13/26	9	Winding-up or unwinding of record carriers; Driving of record carriers	G06K13/26	G06K13/26		240
+G06K13/28	10	continuously	G06K13/28	G06K13/28		61
+G06K13/30	10	intermittently	G06K13/30	G06K13/30		151
+G06K15/00	7	Arrangements for producing a permanent visual presentation of the output data {, e.g. computer output printers}(printing or plotting combined with another operation, e.g. with conveying, G06K17/00)	G06K15/00	G06K15/00		2982
+G06K15/002	8	{Interacting with the operator}	G06K15/00	G06K15/00		282
+G06K15/005	9	{only locally}	G06K15/00	G06K15/00		560
+G06K15/007	9	{only remotely, e.g. at a host computer (dedicated computer interfaces to print systems G06F3/1201)}	G06K15/00	G06K15/00		146
+G06K15/02	8	using printers	G06K15/02	G06K15/02		3198
+G06K15/021	9	{Adaptations for printing on specific media}	G06K15/02	G06K15/02		460
+G06K15/022	10	{for printing on continuous media, e.g. tapes}	G06K15/02	G06K15/02		200
+G06K15/023	10	{for printing on transparent media}	G06K15/02	G06K15/02		64
+G06K15/024	10	{for printing on segmented surfaces, e.g. sticker sheets, label rolls}	G06K15/02	G06K15/02		232
+G06K15/025	9	{Simulating output on another printing arrangement, e.g. proof output (matching two or more picture signal generators or two or more picture reproducers H04N1/6052)}	G06K15/02	G06K15/02		102
+G06K15/026	10	{introduction of proof output parameters}	G06K15/02	G06K15/02		28
+G06K15/027	9	{Test patterns and calibration (arrangements for controlling or analysing printing mechanisms of typewriters or selective printing units B41J29/393 takes precedence; colour correction using test pattern analysis in general H04N1/6033)}	G06K15/02	G06K15/02		742
+G06K15/028	9	{by thermal printers}	G06K15/02	G06K15/02		265
+G06K15/029	10	{using optical beams}	G06K15/02	G06K15/02		75
+G06K15/04	9	by rack-type printers	G06K15/04	G06K15/04		210
+G06K15/06	9	by type-wheel printers	G06K15/06	G06K15/06		158
+G06K15/07	10	by continuously-rotating-type-wheel printers, e.g. rotating-type-drum printers	G06K15/07	G06K15/07		74
+G06K15/08	9	by flight printing with type font moving in the direction of the printed line, e.g. chain printers	G06K15/08	G06K15/08		169
+G06K15/10	9	by matrix printers {(G06K15/028 takes precedence)}	G06K15/10	G06K15/10		849
+G06K15/102	10	{using ink jet print heads}	G06K15/10	G06K15/10		883
+G06K15/105	11	{Multipass or interlaced printing}	G06K15/10	G06K15/10		313
+G06K15/107	12	{Mask selection}	G06K15/10	G06K15/10		547
+G06K15/12	9	by photographic printing {, e.g. by laser printers}	G06K15/12	G06K15/12		641
+G06K15/1204	10	{involving the fast moving of an optical beam in the main scanning direction (G06K15/1233&#160;-&#160;G06K15/129 take precedence)}	G06K15/12	G06K15/12		192
+G06K15/1209	11	{Intensity control of the optical beam (G06K15/1223 takes precedence)}	G06K15/12	G06K15/12		165
+G06K15/1214	12	{by feedback}	G06K15/12	G06K15/12		152
+G06K15/1219	11	{Detection, control or error compensation of scanning velocity or position, e.g. synchronisation (G06K15/1223 takes precedence)}	G06K15/12	G06K15/12		443
+G06K15/1223	11	{Resolution control, enlarging or reducing, edge or detail enhancement}	G06K15/12	G06K15/12		186
+G06K15/1228	10	{involving the fast moving of a light beam in two directions (G06K15/1233&#160;-&#160;G06K15/129 take precedence)}	G06K15/12	G06K15/12		69
+G06K15/1233	10	{using a cathode-ray tube or an optical-fibre tube}	G06K15/12	G06K15/12		83
+G06K15/1238	10	{simultaneously exposing more than one point}	G06K15/12	G06K15/12		144
+G06K15/1242	11	{on one main scanning line}	G06K15/12	G06K15/12		18
+G06K15/1247	12	{using an array of light sources, e.g. a linear array}	G06K15/12	G06K15/12		429
+G06K15/1252	12	{using an array of light modulators, e.g. a linear array}	G06K15/12	G06K15/12		216
+G06K15/1257	11	{on more than one main scanning line}	G06K15/12	G06K15/12		62
+G06K15/1261	12	{using an array of light sources}	G06K15/12	G06K15/12		157
+G06K15/1266	13	{using a moving array}	G06K15/12	G06K15/12		17
+G06K15/1271	12	{by light beam splitting}	G06K15/12	G06K15/12		40
+G06K15/1276	10	{adding two or more images, e.g. texturing, shading, form overlay}	G06K15/12	G06K15/12		73
+G06K15/128	10	{generating or processing printable items, e.g. characters}	G06K15/12	G06K15/12		336
+G06K15/1285	10	{Holographic scanning (in general G02B)}	G06K15/12	G06K15/12		32
+G06K15/129	10	{Colour printing}	G06K15/12	G06K15/12		323
+G06K15/1295	10	{using a particular photoreceptive medium}	G06K15/12	G06K15/12		151
+G06K15/14	9	by electrographic printing, e.g. xerography; by magnetographic printing {(G06K15/12 takes precedence)}	G06K15/14	G06K15/14		382
+G06K15/16	9	Means for paper feeding or form feeding	G06K15/16	G06K15/16		737
+G06K15/18	9	{Conditioning data for presenting it to the physical printing elements (for data conditioning specific to a type of printer see subgroups G06K15/028&#160;-&#160;G06K15/14; print job translation or parsing G06F3/1244)}	G06K15/02	G06K15/18		125
+G06K15/1801	10	{Input data handling means}	G06K15/02	G06K15/18		103
+G06K15/1802	11	{Receiving generic data, e.g. fonts, colour palettes}	G06K15/02	G06K15/18		151
+G06K15/1803	11	{Receiving particular commands}	G06K15/02	G06K15/18		133
+G06K15/1805	12	{Receiving printer configuration commands}	G06K15/02	G06K15/18		234
+G06K15/1806	12	{Receiving job control commands}	G06K15/02	G06K15/18		225
+G06K15/1807	13	{relating to the print image preparation}	G06K15/02	G06K15/18		223
+G06K15/1809	13	{relating to the printing process}	G06K15/02	G06K15/18		343
+G06K15/181	11	{Receiving print data characterized by its formatting, e.g. particular page description languages}	G06K15/02	G06K15/18		219
+G06K15/1811	12	{including high level document description only}	G06K15/02	G06K15/18		60
+G06K15/1813	13	{Page description language recognition}	G06K15/02	G06K15/18		114
+G06K15/1814	12	{including print-ready data, i.e. data already matched to the printing process}	G06K15/02	G06K15/18		106
+G06K15/1815	12	{Receiving print data in mixed format}	G06K15/02	G06K15/18		53
+G06K15/1817	11	{Buffers}	G06K15/02	G06K15/18		342
+G06K15/1818	11	{Adaptations for accepting data from more than one source (managing interfaces G06K15/4045)}	G06K15/02	G06K15/18		35
+G06K15/1819	12	{for a same print job}	G06K15/02	G06K15/18		33
+G06K15/1821	11	{Sending feedback on the reception process to the data source, e.g. indication of full buffer}	G06K15/02	G06K15/18		51
+G06K15/1822	11	{Analysing the received data before processing}	G06K15/02	G06K15/18		530
+G06K15/1823	12	{for evaluating the resources needed, e.g. rasterizing time, ink, paper stock}	G06K15/02	G06K15/18		356
+G06K15/1825	11	{Adapting the print data to an output condition, e.g. object trapping (trapping on rasterized data H04N1/58)}	G06K15/02	G06K15/18		160
+G06K15/1826	12	{Object trapping}	G06K15/02	G06K15/18		45
+G06K15/1827	10	{Accessing generic data, e.g. fonts}	G06K15/02	G06K15/18		107
+G06K15/1828	11	{characterized by the kind of storage accessed}	G06K15/02	G06K15/18		59
+G06K15/183	12	{Removable memories, e.g. font cartridges}	G06K15/02	G06K15/18		14
+G06K15/1831	11	{characterized by the format of the data}	G06K15/02	G06K15/18		42
+G06K15/1832	12	{Compressed bitmaps}	G06K15/02	G06K15/18		13
+G06K15/1834	12	{Outline coded data}	G06K15/02	G06K15/18		11
+G06K15/1835	10	{Transforming generic data}	G06K15/02	G06K15/18		67
+G06K15/1836	11	{Rasterization}	G06K15/02	G06K15/18		224
+G06K15/1838	12	{from outline-coded data}	G06K15/02	G06K15/18		21
+G06K15/1839	12	{from skeleton-coded data}	G06K15/02	G06K15/18		2
+G06K15/184	12	{from compressed bitmap data}	G06K15/02	G06K15/18		26
+G06K15/1842	11	{Geometric transformations, e.g. on raster data}	G06K15/02	G06K15/18		44
+G06K15/1843	12	{Changing size or raster resolution}	G06K15/02	G06K15/18		138
+G06K15/1844	11	{Anti-aliasing raster data (G06K15/1843 takes precedence)}	G06K15/02	G06K15/18		14
+G06K15/1846	11	{Depleting generic raster data, e.g. characters (G06K15/1843 takes precedence)}	G06K15/02	G06K15/18		5
+G06K15/1847	12	{with provisions for image feature conservation or enhancement, e.g. character edge}	G06K15/02	G06K15/18		15
+G06K15/1848	10	{Generation of the printable image}	G06K15/02	G06K15/18		242
+G06K15/1849	11	{using an intermediate representation, e.g. a list of graphical primitives}	G06K15/02	G06K15/18		197
+G06K15/1851	12	{parted in a plurality of segments per page}	G06K15/02	G06K15/18		151
+G06K15/1852	11	{involving combining data of different types}	G06K15/02	G06K15/18		200
+G06K15/1853	12	{Combining raster data of different resolutions}	G06K15/02	G06K15/18		22
+G06K15/1855	12	{Combining raster data and graphic primitives}	G06K15/02	G06K15/18		54
+G06K15/1856	11	{characterized by its workflow}	G06K15/02	G06K15/18		271
+G06K15/1857	12	{involving parallel processing in the same printing apparatus}	G06K15/02	G06K15/18		219
+G06K15/1859	12	{involving data processing distributed amongst different data processing apparatus}	G06K15/02	G06K15/18		124
+G06K15/186	12	{taking account of feedback from an output condition, e.g. available inks, time constraints}	G06K15/02	G06K15/18		167
+G06K15/1861	12	{taking account of a limited available memory space or rasterization time}	G06K15/02	G06K15/18		121
+G06K15/1863	13	{by rasterizing in sub-page segments}	G06K15/02	G06K15/18		64
+G06K15/1864	13	{by reducing the depth of some image elements&apos; definition}	G06K15/02	G06K15/18		10
+G06K15/1865	13	{by compressing the rasterized print data}	G06K15/02	G06K15/18		75
+G06K15/1867	10	{Post-processing of the composed and rasterized print image (scanning, transmission or reproduction of documents H04N1/00)}	G06K15/02	G06K15/18		60
+G06K15/1868	11	{for fitting to an output condition, e.g. paper colour or format}	G06K15/02	G06K15/18		318
+G06K15/1869	11	{Depleting the print image}	G06K15/02	G06K15/18		28
+G06K15/1871	12	{with provisions for image features conservation or enhancement, e.g. conservation or enhancement of zone edges}	G06K15/02	G06K15/18		43
+G06K15/1872	11	{Image enhancement}	G06K15/02	G06K15/18		108
+G06K15/1873	12	{Increasing spatial resolution; Anti-aliasing}	G06K15/02	G06K15/18		40
+G06K15/1874	13	{with provisions for treating some of the print data differently}	G06K15/02	G06K15/18		47
+G06K15/1876	12	{Decreasing spatial resolution; Dithering}	G06K15/02	G06K15/18		63
+G06K15/1877	13	{with provisions for treating some of the print data differently}	G06K15/02	G06K15/18		32
+G06K15/1878	12	{Adjusting colours (image colour correction or control for documents in general H04N1/60)}	G06K15/02	G06K15/18		411
+G06K15/188	13	{with provisions for treating some of the print data differently}	G06K15/02	G06K15/18		93
+G06K15/1881	12	{Halftoning (halftoning of still images in general H04N1/405, H04N1/52)}	G06K15/02	G06K15/18		278
+G06K15/1882	11	{involving operator action}	G06K15/02	G06K15/18		50
+G06K15/1884	12	{for choosing a level of output quality}	G06K15/02	G06K15/18		17
+G06K15/1885	12	{for modifying the layout of a document}	G06K15/02	G06K15/18		64
+G06K15/1886	11	{Storage of the print image data or of parts thereof}	G06K15/02	G06K15/18		104
+G06K15/1888	12	{Storage of image elements as generic data}	G06K15/02	G06K15/18		21
+G06K15/1889	11	{Merging with other data}	G06K15/02	G06K15/18		110
+G06K15/189	12	{adding a background, e.g. a pattern}	G06K15/02	G06K15/18		40
+G06K15/1892	13	{adding a digitally readable background pattern}	G06K15/02	G06K15/18		15
+G06K15/1893	12	{Form merging}	G06K15/02	G06K15/18		25
+G06K15/1894	10	{Outputting the image data to the printing elements}	G06K15/02	G06K15/18		134
+G06K15/1896	11	{by means of alternately addressed storages}	G06K15/02	G06K15/18		13
+G06K15/1897	11	{while merging on-the-fly with other data}	G06K15/02	G06K15/18		13
+G06K15/1898	11	{while adapting the order of the data to the printing elements&apos; arrangement, e.g. row-to-column conversion}	G06K15/02	G06K15/18		37
+G06K15/22	8	using plotters	G06K15/22	G06K15/22		397
+G06K15/225	9	{using optical plotters}	G06K15/22	G06K15/22		117
+G06K15/40	8	{Details not directly involved in printing, e.g. machine management, management of the arrangement as a whole or of its constitutive parts (computer driven print job management G06F3/1237)}	G06K15/00	G06K15/40		116
+G06K15/4005	9	{Sharing resources or data with other data processing systems; Preparing such data (for distributed printing G06K15/1859)}	G06K15/00	G06K15/40		53
+G06K15/401	10	{Sharing memory space}	G06K15/00	G06K15/40		26
+G06K15/4015	10	{Sharing generic data descriptions, e.g. fonts, colour palettes, rasterized objects}	G06K15/00	G06K15/40		17
+G06K15/402	10	{Sharing data concerning the arrangement&apos;s configuration or current state (for managing optional units G06K15/4025)}	G06K15/00	G06K15/40		140
+G06K15/4025	9	{Managing optional units, e.g. sorters, document feeders}	G06K15/00	G06K15/40		92
+G06K15/403	10	{handling the outputted documents, e.g. staplers, sorters}	G06K15/00	G06K15/40		72
+G06K15/4035	11	{Managing mailboxes}	G06K15/00	G06K15/40		3
+G06K15/404	11	{Managing other optional outputs, e.g. collators, staplers}	G06K15/00	G06K15/40		64
+G06K15/4045	9	{Managing the interface to the data source, e.g. choosing an interface for data reception}	G06K15/00	G06K15/40		110
+G06K15/405	10	{Choosing a data source, e.g. on a network}	G06K15/00	G06K15/40		43
+G06K15/4055	9	{Managing power consumption, e.g. standby mode (computer driven power saving management for a printer G06F3/1221; power saving in a data processing device in general G06F1/32)}	G06K15/00	G06K15/40		236
+G06K15/406	10	{Wake-up procedures (start-up of a laser scanner G06K15/1219)}	G06K15/00	G06K15/40		84
+G06K15/4065	9	{Managing print media, e.g. determining available sheet sizes (feeding means G06K15/16)}	G06K15/00	G06K15/40		314
+G06K15/407	9	{Managing marking material, e.g. checking available colours}	G06K15/00	G06K15/40		118
+G06K15/4075	10	{Determining remaining quantities of ink or toner}	G06K15/00	G06K15/40		116
+G06K15/408	9	{Handling exceptions, e.g. faults (computer driven error handling and recovery for a printer G06F3/1234)}	G06K15/00	G06K15/40		337
+G06K15/4085	10	{Handling paper jams}	G06K15/00	G06K15/40		45
+G06K15/409	10	{Handling power failures}	G06K15/00	G06K15/40		10
+G06K15/4095	9	{Secure printing (computer driven secure printing G06F3/1238)}	G06K15/00	G06K15/40		278
+G06K17/00	7	Methods or arrangements for effecting co-operative working between equipments covered by two or more of main groups G06K1/00 - G06K15/00, e.g. automatic card files incorporating conveying and reading operations	G06K17/00	G06K17/00		9610
+G06K17/0003	8	{Automatic card files incorporating selecting, conveying and possibly reading and/or writing operations}	G06K17/00	G06K17/00		438
+G06K17/0006	9	{with random access selection of a record carrier from the card-file, e.g. the carriers are suspended on the selection device which in part of the card magazine}	G06K17/00	G06K17/00		80
+G06K17/0009	9	{with sequential access selection of a record carrier from the card-file, e.g. relative movement between selecting device and card-file}	G06K17/00	G06K17/00		169
+G06K17/0012	9	{with more than one selection steps, e.g. selection of a record carrier from a selected compartment of a compartmented storage (storage devices for articles B65G1/0407)}	G06K17/00	G06K17/00		175
+G06K17/0016	8	{Selecting or retrieving of images by means of their associated code-marks, e.g. coded microfilm or microfiche (microfilm reading G03B21/11; computers therefor G06F16/00; teaching devices G09B5/02; accessing record carriers G11B27/002; static digital stores using optical elements G11C13/04; intermediate storage of facsimile picture signals H04N1/21)}	G06K17/00	G06K17/00		315
+G06K17/0019	9	{for images on filmstrips}	G06K17/00	G06K17/00		190
+G06K17/0022	8	{arrangements or provisions for transferring data to distant stations, e.g. from a sensing device ("transfer between computer elements G06F13/00 "; data-transmission H04L)}	G06K17/00	G06K17/00		9631
+G06K17/0025	9	{the arrangement consisting of a wireless interrogation device in combination with a device for optically marking the record carrier}	G06K17/00	G06K17/00		5822
+G06K17/0029	9	{the arrangement being specially adapted for wireless interrogation of grouped or bundled articles tagged with wireless record carriers}	G06K17/00	G06K17/00		7768
+G06K17/0032	8	{Apparatus for automatic testing and analysing marked record carriers, used for examinations of the multiple choice answer type (teaching apparatus working with questions and answers G09B7/00)}	G06K17/00	G06K17/00		355
+G06K19/00	7	Record carriers for use with machines and with at least a part designed to carry digital markings	G06K19/00	G06K19/00		976
+G06K19/005	8	{the record carrier comprising an arrangement to facilitate insertion into a holding device, e.g. an arrangement that makes the record carrier fit into an etui or a casing (ticket holders A45C11/18)}	G06K19/00	G06K19/00		334
+G06K19/02	8	characterised by the selection of materials, e.g. to avoid wear during transport through the machine	G06K19/02	G06K19/02		1253
+G06K19/022	9	{Processes or apparatus therefor}	G06K19/02	G06K19/02		367
+G06K19/025	9	{the material being flexible or adapted for folding, e.g. paper or paper-like materials used in luggage labels, identification tags, forms or identification documents carrying RFIDs (methods for testing the genuineness of valuable papers, e.g. banknotes or passports G07D7/00; constructional features of booklets and the like B42D)}	G06K19/02	G06K19/02		413
+G06K19/027	9	{the material being suitable for use as a textile, e.g. woven-based RFID-like labels designed for attachment to laundry items (markings attached to laundry items in general D06F93/00)}	G06K19/02	G06K19/02		382
+G06K19/04	8	characterised by the shape	G06K19/04	G06K19/04		1471
+G06K19/041	9	{Constructional details (G06K19/06 takes precedence)}	G06K19/04	G06K19/04		687
+G06K19/042	10	{the record carrier having a form factor of a credit card and including a small sized disc, e.g. a CD or DVD (disc shaped data carriers in general, seeG11B20/00 and G11B23/00)}	G06K19/04	G06K19/04		84
+G06K19/044	11	{comprising galvanic contacts for contacting an integrated circuit chip thereon}	G06K19/04	G06K19/04		215
+G06K19/045	11	{the record carrier being of the non-contact type, e.g. RFID, and being specially adapted for attachment to a disc, e.g. a CD or DVD}	G06K19/04	G06K19/04		202
+G06K19/047	10	{the record carrier being shaped as a coin or a gambling token}	G06K19/04	G06K19/04		227
+G06K19/048	10	{the record carrier being shaped as a key}	G06K19/04	G06K19/04		74
+G06K19/06	8	characterised by the kind of the digital marking, e.g. shape, nature, code	G06K19/06	G06K19/06		1885
+G06K19/06009	9	{with optically detectable marking (G06K19/063, G06K19/08 take precedence)}	G06K19/06	G06K19/06		1801
+G06K19/06018	10	{one-dimensional coding}	G06K19/06	G06K19/06		399
+G06K19/06028	11	{using bar codes}	G06K19/06	G06K19/06		3445
+G06K19/06037	10	{multi-dimensional coding}	G06K19/06	G06K19/06		10247
+G06K19/06046	10	{Constructional details}	G06K19/06	G06K19/06		1936
+G06K19/06056	11	{the marking comprising a further embedded marking, e.g. a 1D bar code with the black bars containing a smaller sized coding}	G06K19/06	G06K19/06		433
+G06K19/06065	11	{the marking being at least partially represented by holographic means (holographic marking in general, seeG06K19/16)}	G06K19/06	G06K19/06		79
+G06K19/06075	11	{the marking containing means for error correction}	G06K19/06	G06K19/06		203
+G06K19/06084	11	{the marking being based on nanoparticles or microbeads}	G06K19/06	G06K19/06		99
+G06K19/06093	11	{the marking being constructed out of a plurality of similar markings, e.g. a plurality of barcodes randomly oriented on an object}	G06K19/06	G06K19/06		174
+G06K19/06103	11	{the marking being embedded in a human recognizable image, e.g. a company logo with an embedded two-dimensional code}	G06K19/06	G06K19/06		453
+G06K19/06112	11	{the marking being simulated using a light source, e.g. a barcode shown on a display or a laser beam with time-varying intensity profile}	G06K19/06	G06K19/06		438
+G06K19/06121	11	{the marking having been punched or cut out, e.g. a barcode machined in a metal work-piece}	G06K19/06	G06K19/06		106
+G06K19/06131	11	{the marking comprising a target pattern, e.g. for indicating the center of the bar code or for helping a bar code reader to properly orient the scanner or to retrieve the bar code inside of an image}	G06K19/06	G06K19/06		167
+G06K19/0614	11	{the marking being selective to wavelength, e.g. color barcode or barcodes only visible under UV or IR (methods or arrangements for sensing record carriers using a selected wavelength, seeG06K7/12)}	G06K19/06	G06K19/06		668
+G06K19/0615	11	{the marking being of the rewritable type, e.g. thermo-chromic barcodes}	G06K19/06	G06K19/06		58
+G06K19/06159	11	{the marking being relief type, e.g. three-dimensional bar codes engraved in a support}	G06K19/06	G06K19/06		203
+G06K19/06168	11	{the marking being a concentric barcode}	G06K19/06	G06K19/06		110
+G06K19/06178	11	{the marking having a feature size being smaller than can be seen by the unaided human eye}	G06K19/06	G06K19/06		99
+G06K19/06187	9	{with magnetically detectable marking}	G06K19/06	G06K19/06		660
+G06K19/06196	10	{Constructional details}	G06K19/06	G06K19/06		455
+G06K19/06206	10	{the magnetic marking being emulated}	G06K19/06	G06K19/06		216
+G06K2019/06215	9	{Aspects not covered by other subgroups}	G06K19/06	G06K19/06		13
+G06K2019/06225	10	{using wavelength selection, e.g. colour code}	G06K19/06	G06K19/06		388
+G06K2019/06234	10	{miniature-code}	G06K19/06	G06K19/06		68
+G06K2019/06243	10	{concentric-code}	G06K19/06	G06K19/06		111
+G06K2019/06253	10	{for a specific application}	G06K19/06	G06K19/06		406
+G06K2019/06262	10	{with target- or other orientation-indicating feature}	G06K19/06	G06K19/06		97
+G06K2019/06271	10	{Relief-type marking}	G06K19/06	G06K19/06		175
+G06K2019/06281	10	{rewritable}	G06K19/06	G06K19/06		41
+G06K2019/0629	10	{Holographic, diffractive or retroreflective recording}	G06K19/06	G06K19/06		70
+G06K19/063	9	the carrier being marginally punched or notched, e.g. having elongated slots	G06K19/063	G06K19/063		133
+G06K19/067	9	Record carriers with conductive marks, printed circuits or semiconductor circuit elements, e.g. credit or identity cards {also with resonating or responding marks without active components}	G06K19/067	G06K19/067		916
+G06K19/0672	10	{with resonating marks}	G06K19/067	G06K19/067		365
+G06K19/0675	11	{the resonating marks being of the surface acoustic wave [SAW] kind (SAW devices per seH03H9/64)}	G06K19/067	G06K19/067		109
+G06K19/0677	11	{the record carrier being programmable}	G06K19/067	G06K19/067		16
+G06K19/07	10	with integrated circuit chips	G06K19/07	G06K19/07		3861
+G06K19/0701	11	{at least one of the integrated circuit chips comprising an arrangement for power management}	G06K19/07	G06K19/07		863
+G06K19/0702	12	{the arrangement including a battery}	G06K19/07	G06K19/07		547
+G06K19/0703	13	{the battery being onboard of a handheld device, e.g. a smart phone or PDA}	G06K19/07	G06K19/07		46
+G06K19/0704	13	{the battery being rechargeable, e.g. solar batteries}	G06K19/07	G06K19/07		432
+G06K19/0705	13	{the battery being connected to a power saving arrangement}	G06K19/07	G06K19/07		213
+G06K19/0706	13	{the battery being replaceable}	G06K19/07	G06K19/07		63
+G06K19/0707	12	{the arrangement being capable of collecting energy from external energy sources, e.g. thermocouples, vibration, electromagnetic radiation (G06K19/0702 takes precedence)}	G06K19/07	G06K19/07		448
+G06K19/0708	13	{the source being electromagnetic or magnetic}	G06K19/07	G06K19/07		210
+G06K19/0709	14	{the source being an interrogation field}	G06K19/07	G06K19/07		304
+G06K19/071	14	{the source being a field other than an interrogation field, e.g. WLAN, cellular phone network}	G06K19/07	G06K19/07		52
+G06K19/0711	13	{the source being mechanical or acoustical}	G06K19/07	G06K19/07		34
+G06K19/0712	12	{the arrangement being capable of triggering distinct operating modes or functions dependent on the strength of an energy or interrogation field in the proximity of the record carrier (active means for hindering electromagnetic reading or writing G06K19/07336)}	G06K19/07	G06K19/07		312
+G06K19/0713	12	{the arrangement including a power charge pump}	G06K19/07	G06K19/07		86
+G06K19/0715	12	{the arrangement including means to regulate power transfer to the integrated circuit}	G06K19/07	G06K19/07		350
+G06K19/0716	11	{at least one of the integrated circuit chips comprising a sensor or an interface to a sensor}	G06K19/07	G06K19/07		744
+G06K19/0717	12	{the sensor being capable of sensing environmental conditions such as temperature history or pressure}	G06K19/07	G06K19/07		980
+G06K19/0718	12	{the sensor being of the biometric kind, e.g. fingerprint sensors (fingerprint sensors in general G06V40/13; biometric access-control systems in general, seeG07C9/00)}	G06K19/07	G06K19/07		661
+G06K19/0719	11	{at least one of the integrated circuit chips comprising an arrangement for application selection, e.g. an acceleration sensor or a set of radio buttons (application selection on smart cards using pure software control, seeG07F7/10)}	G06K19/07	G06K19/07		328
+G06K19/072	11	{the record carrier comprising a plurality of integrated circuit chips}	G06K19/07	G06K19/07		428
+G06K19/0721	12	{the plurality of chips mutually cooperating so as to represent itself to the world as a single entity}	G06K19/07	G06K19/07		26
+G06K19/0722	11	{comprising an arrangement for testing the record carrier}	G06K19/07	G06K19/07		190
+G06K19/0723	11	{the record carrier comprising an arrangement for non-contact communication, e.g. wireless communication circuits on transponder cards, non-contact smart cards or RFIDs}	G06K19/07	G06K19/07		10867
+G06K19/0724	12	{the arrangement being a circuit for communicating at a plurality of frequencies, e.g. for managing time multiplexed communication over at least two antennas of different types}	G06K19/07	G06K19/07		383
+G06K19/0725	12	{the arrangement being a circuit for emulating a plurality of record carriers, e.g. a single RFID tag capable of representing itself to a reader as a cloud of RFID tags}	G06K19/07	G06K19/07		111
+G06K19/0726	12	{the arrangement including a circuit for tuning the resonance frequency of an antenna on the record carrier}	G06K19/07	G06K19/07		440
+G06K19/0727	12	{the arrangement being a circuit facilitating integration of the record carrier with a hand-held device such as a smart phone of PDA}	G06K19/07	G06K19/07		233
+G06K19/0728	12	{the arrangement being an optical or sound-based communication interface}	G06K19/07	G06K19/07		288
+G06K19/073	11	Special arrangements for circuits, e.g. for protecting identification code in memory (protection against unauthorised use of computer memory G06F12/14)	G06K19/073	G06K19/073		1211
+G06K19/07309	12	{Means for preventing undesired reading or writing from or onto record carriers}	G06K19/073	G06K19/073		464
+G06K19/07318	13	{by hindering electromagnetic reading or writing (jamming of communication, counter-measures H04K3/00; secret communication H04K1/00)}	G06K19/073	G06K19/073		110
+G06K19/07327	14	{Passive means, e.g. Faraday cages (Faraday-type protection of electric circuits in general H05K9/00)}	G06K19/073	G06K19/073		317
+G06K19/07336	14	{Active means, e.g. jamming or scrambling of the electromagnetic field}	G06K19/073	G06K19/073		97
+G06K19/07345	13	{by activating or deactivating at least a part of the circuit on the record carrier, e.g. ON/OFF switches}	G06K19/073	G06K19/073		673
+G06K19/07354	14	{by biometrically sensitive means, e.g. fingerprint sensitive (fingerprint sensors in general G06V40/12; biometrically activated access control G07C9/25)}	G06K19/073	G06K19/073		330
+G06K19/07363	13	{by preventing analysis of the circuit, e.g. dynamic or static power analysis or current analysis}	G06K19/073	G06K19/073		139
+G06K19/07372	13	{by detecting tampering with the circuit}	G06K19/073	G06K19/073		327
+G06K19/07381	14	{with deactivation or otherwise incapacitation of at least a part of the circuit upon detected tampering}	G06K19/073	G06K19/073		161
+G06K19/0739	15	{the incapacitated circuit being part of an antenna}	G06K19/073	G06K19/073		122
+G06K19/077	11	Constructional details, e.g. mounting of circuits in the carrier	G06K19/077	G06K19/077		4138
+G06K19/07701	12	{the record carrier comprising an interface suitable for human interaction}	G06K19/077	G06K19/077		221
+G06K19/07703	13	{the interface being visual}	G06K19/077	G06K19/077		736
+G06K19/07705	14	{the visual interface being a single light or small number of lights capable of being switched on or off, e.g. a series of LEDs}	G06K19/077	G06K19/077		294
+G06K19/07707	14	{the visual interface being a display, e.g. LCD or electronic ink}	G06K19/077	G06K19/077		752
+G06K19/07709	13	{the interface being a keyboard}	G06K19/077	G06K19/077		138
+G06K19/07711	13	{the interface being an audio interface}	G06K19/077	G06K19/077		108
+G06K19/07713	13	{the interface, upon reception of an interrogation signal, being capable of signaling to indicate its position to a user or a detection device}	G06K19/077	G06K19/077		146
+G06K19/07715	13	{the interface being used to indicate that the record carrier is active, e.g. a blinking light to indicate that the record carrier is busy communicating with a secondary device or busy computing}	G06K19/077	G06K19/077		71
+G06K19/07716	12	{the record carrier comprising means for customization, e.g. being arranged for personalization in batch}	G06K19/077	G06K19/077		276
+G06K19/07718	12	{the record carrier being manufactured in a continuous process, e.g. using endless rolls}	G06K19/077	G06K19/077		876
+G06K19/0772	12	{Physical layout of the record carrier}	G06K19/077	G06K19/077		1398
+G06K19/07722	13	{the record carrier being multilayered, e.g. laminated sheets (flat articles in general, seeB32B37/00)}	G06K19/077	G06K19/077		1531
+G06K19/07724	13	{the record carrier being at least partially made by a molding process (molding in general B29C45/14)}	G06K19/077	G06K19/077		397
+G06K19/07726	13	{the record comprising means for indicating first use, e.g. a frangible layer}	G06K19/077	G06K19/077		169
+G06K19/07728	13	{the record carrier comprising means for protection against impact or bending, e.g. protective shells or stress-absorbing layers around the integrated circuit}	G06K19/077	G06K19/077		752
+G06K19/0773	13	{the record carrier comprising means to protect itself against external heat sources}	G06K19/077	G06K19/077		187
+G06K19/07732	13	{the record carrier having a housing or construction similar to well-known portable memory devices, such as SD cards, USB or memory sticks (housings for electrical equipment in general, seeH05K5/02)}	G06K19/077	G06K19/077		2097
+G06K19/07733	13	{the record carrier containing at least one further contact interface not conform ISO-7816}	G06K19/077	G06K19/077		255
+G06K19/07735	13	{the record carrier comprising means for protecting against electrostatic discharge}	G06K19/077	G06K19/077		178
+G06K19/07737	12	{the record carrier consisting of two or more mechanically separable parts}	G06K19/077	G06K19/077		134
+G06K19/07739	13	{comprising a first part capable of functioning as a record carrier on its own and a second part being only functional as a form factor changing part, e.g. SIM cards type ID 0001, removably attached to a regular smart card form factor}	G06K19/077	G06K19/077		471
+G06K19/07741	13	{comprising a first part operating as a regular record carrier and a second attachable part that changes the functional appearance of said record carrier, e.g. a contact-based smart card with an adapter part which, when attached to the contact card makes the contact card function as a non-contact card}	G06K19/077	G06K19/077		464
+G06K19/07743	12	{External electrical contacts}	G06K19/077	G06K19/077		1216
+G06K19/07745	12	{Mounting details of integrated circuit chips}	G06K19/077	G06K19/077		1789
+G06K19/07747	13	{at least one of the integrated circuit chips being mounted as a module}	G06K19/077	G06K19/077		592
+G06K19/07749	12	{the record carrier being capable of non-contact communication, e.g. constructional details of the antenna of a non-contact smart card}	G06K19/077	G06K19/077		6109
+G06K19/0775	13	{arrangements for connecting the integrated circuit to the antenna}	G06K19/077	G06K19/077		992
+G06K19/07752	14	{using an interposer}	G06K19/077	G06K19/077		182
+G06K19/07754	14	{the connection being galvanic}	G06K19/077	G06K19/077		369
+G06K19/07756	14	{the connection being non-galvanic, e.g. capacitive}	G06K19/077	G06K19/077		275
+G06K19/07758	13	{arrangements for adhering the record carrier to further objects or living beings, functioning as an identification tag}	G06K19/077	G06K19/077		2907
+G06K19/0776	14	{the adhering arrangement being a layer of adhesive, so that the record carrier can function as a sticker}	G06K19/077	G06K19/077		768
+G06K19/07762	14	{the adhering arrangement making the record carrier wearable, e.g. having the form of a ring, watch, glove or bracelet (record carriers for insertion in the human body for medical purposes A61B90/00; record carriers adapted for attachment to animals A01K11/00)}	G06K19/077	G06K19/077		638
+G06K19/07764	14	{the adhering arrangement making the record carrier attachable to a tyre (tyre temperature or pressure control arrangements, see B60C23/00)}	G06K19/077	G06K19/077		413
+G06K19/07766	13	{comprising at least a second communication arrangement in addition to a first non-contact communication arrangement}	G06K19/077	G06K19/077		218
+G06K19/07767	14	{the first and second communication means being two different antennas types, e.g. dipole and coil type, or two antennas of the same kind but operating at different frequencies}	G06K19/077	G06K19/077		406
+G06K19/07769	14	{the further communication means being a galvanic interface, e.g. hybrid or mixed smart cards having a contact and a non-contact interface}	G06K19/077	G06K19/077		943
+G06K19/07771	13	{the record carrier comprising means for minimising adverse effects on the data communication capability of the record carrier, e.g. minimising Eddy currents induced in a proximate metal or otherwise electromagnetically interfering object}	G06K19/077	G06K19/077		789
+G06K19/07773	13	{Antenna details (antennas for wireless devices, e.g. RFID tags, in general H01Q1/22)}	G06K19/077	G06K19/077		1503
+G06K19/07775	14	{the antenna being on-chip}	G06K19/077	G06K19/077		541
+G06K19/07777	14	{the antenna being of the inductive type}	G06K19/077	G06K19/077		159
+G06K19/07779	15	{the inductive antenna being a coil}	G06K19/077	G06K19/077		1037
+G06K19/07781	16	{the coil being fabricated in a winding process}	G06K19/077	G06K19/077		198
+G06K19/07783	16	{the coil being planar}	G06K19/077	G06K19/077		768
+G06K19/07784	15	{the inductive antenna consisting of a plurality of coils stacked on top of one another}	G06K19/077	G06K19/077		156
+G06K19/07786	14	{the antenna being of the HF type, such as a dipole}	G06K19/077	G06K19/077		822
+G06K19/07788	14	{the antenna being of the capacitive type}	G06K19/077	G06K19/077		155
+G06K19/0779	14	{the antenna being foldable or folded}	G06K19/077	G06K19/077		97
+G06K19/07792	14	{the antenna adapted for extending in three dimensions}	G06K19/077	G06K19/077		47
+G06K19/07794	14	{the record carrier comprising a booster or auxiliary antenna in addition to the antenna connected directly to the integrated circuit}	G06K19/077	G06K19/077		407
+G06K19/07796	13	{arrangements on the record carrier to allow stacking of a plurality of similar record carriers, e.g. to avoid interference between the non-contact communication of the plurality of record carriers}	G06K19/077	G06K19/077		168
+G06K19/07798	13	{part of the antenna or the integrated circuit being adapted for rupturing or breaking, e.g. record carriers functioning as sealing devices for detecting not-authenticated opening of containers (electronic seals G09F3/03)}	G06K19/077	G06K19/077		508
+G06K19/08	9	using markings of different kinds {or more than one marking of the same kind} in the same record carrier, e.g. one marking being sensed by optical and the other by magnetic means	G06K19/08	G06K19/08		825
+G06K19/083	10	{Constructional details}	G06K19/08	G06K19/08		213
+G06K19/086	11	{with markings consisting of randomly placed or oriented elements, the randomness of the elements being useable for generating a unique identifying signature of the record carrier, e.g. randomly placed magnetic fibers or magnetic particles in the body of a credit card}	G06K19/08	G06K19/08		282
+G06K19/10	10	at least one kind of marking being used for authentication, e.g. of credit or identity cards (verification of coded identity or credit cards in mechanisms actuated by them G07F7/12)	G06K19/10	G06K19/10		767
+G06K19/12	11	the marking being sensed by magnetic means	G06K19/12	G06K19/12		352
+G06K19/14	11	the marking being sensed by radiation	G06K19/14	G06K19/14		775
+G06K19/145	12	{at least one of the further markings being adapted for galvanic or wireless sensing, e.g. an RFID tag with both a wireless and an optical interface or memory, or a contact type smart card with ISO 7816 contacts and an optical interface or memory}	G06K19/14	G06K19/14		152
+G06K19/16	11	the marking being a hologram or diffraction grating	G06K19/16	G06K19/16		485
+G06K19/18	11	Constructional details	G06K19/18	G06K19/18		283
+G06K21/00	7	Information retrieval from punched cards designed for manual use or handling by machine (G06K19/00 takes precedence; detection or correction of errors by rescanning patterns G06V10/98; checking correct operation of card-conveying mechanisms G06K13/06); Apparatus for handling such cards, e.g. marking or correcting	G06K21/00	G06K21/00		79
+G06K21/002	8	{Selecting of marginally notched cards (card filling arrangements B42F17/00)}	G06K21/00	G06K21/00		9
+G06K21/005	9	{the selected cards being displaced laterally relative to the remaining stationary card-file}	G06K21/00	G06K21/00		48
+G06K21/007	9	{the selected cards being restrained and the remaining card-file being laterally displaced}	G06K21/00	G06K21/00		5
+G06K21/02	8	in which coincidence of markings is sensed mechanically, e.g. by needle	G06K21/02	G06K21/02		479
+G06K21/04	8	in which coincidence of markings is sensed optically, e.g. peek-a-boo system	G06K21/04	G06K21/04		408
+G06K21/06	8	Apparatus or tools adapted for slotting or otherwise marking information-retrieval cards	G06K21/06	G06K21/06		117
+G06K21/08	8	Apparatus or tools for correcting punching or slotting errors {and regeneration of record carriers}	G06K21/08	G06K21/08		23
+G06K21/085	9	{for punched tapes}	G06K21/08	G06K21/08		28
+G06K2207/00	7	Other aspects	CPCONLY	G06K2207/00		6
+G06K2207/1011	8	Aiming	CPCONLY	G06K2207/1011		322
+G06K2207/1012	8	Special detection of object	CPCONLY	G06K2207/1012		173
+G06K2207/1013	8	Multi-focal	CPCONLY	G06K2207/1013		203
+G06K2207/1015	8	Hologram	CPCONLY	G06K2207/1015		22
+G06K2207/1016	8	Motor control or optical moving unit control	CPCONLY	G06K2207/1016		220
+G06K2207/1017	8	Programmable	CPCONLY	G06K2207/1017		123
+G06K2207/1018	8	Source control	CPCONLY	G06K2207/1018		251
+G06K2215/00	7	Arrangements for producing a permanent visual presentation of the output data	CPCONLY	G06K2215/00		3
+G06K2215/0002	8	Handling the output data	CPCONLY	G06K2215/0002		145
+G06K2215/0005	9	Accepting output data; Preparing data for the controlling system	CPCONLY	G06K2215/0005		181
+G06K2215/0008	10	Downloading generic data	CPCONLY	G06K2215/0008		56
+G06K2215/0011	10	characterised by a particular command or data flow, e.g. Page Description Language, configuration commands	CPCONLY	G06K2215/0011		279
+G06K2215/0014	10	Transforming the printer input data into internal codes	CPCONLY	G06K2215/0014		192
+G06K2215/0017	10	Preparing data for the controlling system, e.g. status, memory data	CPCONLY	G06K2215/0017		144
+G06K2215/002	9	Generic data access	CPCONLY	G06K2215/002		62
+G06K2215/0022	10	characterised by the storage means used	CPCONLY	G06K2215/0022		57
+G06K2215/0025	11	Removable memories, e.g. cartridges	CPCONLY	G06K2215/0025		90
+G06K2215/0028	10	characterised by the format per se	CPCONLY	G06K2215/0028		72
+G06K2215/0031	11	Compressed bit maps	CPCONLY	G06K2215/0031		48
+G06K2215/0034	11	Outline coding	CPCONLY	G06K2215/0034		32
+G06K2215/0037	10	depending on an output condition, e.g. size, resolution	CPCONLY	G06K2215/0037		62
+G06K2215/004	9	Generic data transformation	CPCONLY	G06K2215/004		50
+G06K2215/0042	10	Rasterisation	CPCONLY	G06K2215/0042		54
+G06K2215/0045	11	Converting outline to bitmap	CPCONLY	G06K2215/0045		79
+G06K2215/0048	11	Converting skeleton to bitmap	CPCONLY	G06K2215/0048		7
+G06K2215/0051	11	from compressed bitmap, e.g. run length	CPCONLY	G06K2215/0051		25
+G06K2215/0054	10	Geometric transformations, e.g. on rasterised data	CPCONLY	G06K2215/0054		57
+G06K2215/0057	11	Sizing and resolution changes	CPCONLY	G06K2215/0057		115
+G06K2215/006	10	Anti-aliasing raster data	CPCONLY	G06K2215/006		91
+G06K2215/0062	9	combining generic and host data, e.g. filling a raster	CPCONLY	G06K2215/0062		121
+G06K2215/0065	10	Page or partial page composition	CPCONLY	G06K2215/0065		340
+G06K2215/0068	11	Line composition, e.g. kerning	CPCONLY	G06K2215/0068		42
+G06K2215/0071	10	Post-treatment of the composed image, e.g. compression, rotation	CPCONLY	G06K2215/0071		260
+G06K2215/0074	11	Depleting the image	CPCONLY	G06K2215/0074		75
+G06K2215/0077	9	Raster outputting to the print element(s)	CPCONLY	G06K2215/0077		245
+G06K2215/008	10	from more than one raster memory	CPCONLY	G06K2215/008		51
+G06K2215/0082	8	Architecture adapted for a particular function	CPCONLY	G06K2215/0082		669
+G06K2215/0085	9	Error recovery	CPCONLY	G06K2215/0085		222
+G06K2215/0088	9	Collated printing	CPCONLY	G06K2215/0088		121
+G06K2215/0091	9	Outputting only video data, e.g. Hard copy of CRT display	CPCONLY	G06K2215/0091		95
+G06K2215/0094	9	Colour printing	CPCONLY	G06K2215/0094		661
+G06K2215/0097	9	Printing on special media, e.g. labels, envelopes	CPCONLY	G06K2215/0097		233
+G06K2215/101	8	involving the use of ink jets	CPCONLY	G06K2215/101		139
+G06K2215/111	8	with overlapping swaths	CPCONLY	G06K2215/111		194

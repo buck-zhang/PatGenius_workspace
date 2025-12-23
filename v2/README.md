@@ -1,288 +1,159 @@
-# PatentField特許検索システム v2.0
+# PatGenius
 
-構成要素ごと検索による高精度な特許検索システム
+**特許検索・分析システム - AI駆動型先行技術調査プラットフォーム**
+
+[![License](https://img.shields.io/badge/license-Proprietary-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black.svg)](https://nextjs.org/)
 
 ## 概要
 
-本システムは、PatentField APIとClaude Sonnet 4.5を活用し、特許の構成要件を自動抽出して検索を実行する特許検索システムです。
+PatGeniusは、Claude Sonnet 4.5とGemini 3.0 Proを活用した、特許審査官向けの高度な先行技術調査システムです。特許の構成要件を自動分割し、PatentField APIで検索、新規性・進歩性を判断して拒絶理由通知書を生成します。
 
-**主な特徴**:
-- 構成要素ごとの適応的検索（50-300件の最適化）
-- FI/IPC/CPC/Fterm分類コードの自動抽出
-- 3段階階層キーワード抽出（ドンピシャ/上位概念/下位概念）
-- 並行処理による高速検索
-- Claude API統合による検索式最適化
-- **NEW**: AsyncIO + Prompt Caching による超高速化（最大70-80%短縮）
+### 主な機能
 
----
+1. 📋 **構成分割**: Claude Sonnet 4.5による高精度な構成要件分割
+2. 🔍 **キーワード抽出**: 3階層（ドンピシャ/上位概念/下位概念）キーワード生成
+3. 🏷️ **分類コード抽出**: FI/IPC/CPC分類コードの自動抽出
+4. 🔎 **適応的検索**: 構成要素ごとの最適化された特許検索
+5. 🤖 **新規性進歩性判断**: Gemini 3.0 ProによるX/Y文献摘出
+6. 📊 **構成対比表作成**: Excel形式での詳細な対比表生成
+7. 📝 **拒絶理由通知作成**: 審査官視点の通知書自動生成
 
-## ファイル構造
-
-### メインコード（本番用）
+## プロジェクト構造（モノレポ）
 
 ```
-v2/
-├── patent_structure_analyzer.py        # 構成要件分割システム（最適化版）
-├── patent_keyword_extractor.py         # キーワード抽出システム
-├── patent_classification_extractor.py  # 特許分類コード抽出システム
-├── patent_search_executor.py           # 基本検索実行システム
-├── patent_search_executor_per_component.py  # 構成要素ごと検索システム（メイン）
-├── patent_search_executor_optimized.py # 統合最適化版（NEW）
-├── performance_test_system.py          # 性能テストシステム
-├── test_optimization.py                # 最適化テストスクリプト（NEW）
-├── requirements.txt                    # Python依存パッケージ
-└── requirements_optimized.txt          # 最適化版依存パッケージ（NEW）
+PatGenius/
+├── apps/
+│   ├── backend/                  # FastAPIバックエンド（特許分析パイプライン）
+│   ├── classification-search/    # ベクトル検索API（FI/IPC/CPC）
+│   └── web/                      # Next.js フロントエンド（準備中）
+├── packages/                     # 共有パッケージ
+│   ├── shared-types/             # 共有型定義
+│   └── config/                   # 共有設定
+├── data/                         # データディレクトリ
+│   ├── test_data/                # テスト用データ
+│   ├── test_results/             # テスト結果
+│   └── reference_data/           # 参照データ
+├── credentials/                  # 認証情報（.gitignore）
+└── docs/                         # ドキュメント
 ```
-
-### ドキュメント
-
-```
-docs/
-├── current_reports/                    # 最新分析レポート
-│   ├── FI_CLASSIFICATION_FIX_VERIFICATION_REPORT.md  # FI分類修正検証レポート
-│   ├── TEST3_ZERO_HITS_ROOT_CAUSE_ANALYSIS.md       # Test #3根本原因分析
-│   └── PERFORMANCE_OPTIMIZATION_IMPLEMENTATION.md   # 性能最適化実装レポート（NEW）
-├── user_guides/                        # ユーザーガイド
-│   ├── README_キーワード抽出システム.md
-│   ├── README_構成要件分割システム.md
-│   ├── README_特許分類抽出システム.md
-│   ├── PATENT_SEARCH_EXECUTOR_README.md
-│   ├── システム構築prompt.md
-│   ├── テスト実行ガイド.md
-│   ├── 特許検索のための構成要件分割ガイド.md
-│   └── 構築指示.md
-└── system_design/                      # システム設計文書（空）
-
-README_OPTIMIZATION.md                  # 性能最適化版クイックガイド（NEW）
-IMPLEMENTATION_SUMMARY.md               # 最適化実装サマリー（NEW）
-```
-
-### テスト関連
-
-```
-tests/
-└── performance_test/                   # 性能テストデータ
-    ├── combined_data_top10.csv         # テストデータ（上位10件）
-    └── results/                        # テスト結果（JSON）
-```
-
-### アーカイブ（参照用）
-
-```
-archive/
-├── old_versions/                       # 古いバージョンのコード
-├── old_test_scripts/                   # 古いテストスクリプト
-├── temp_data/                          # 一時データファイル
-└── old_docs/                           # 古い分析レポート
-```
-
----
 
 ## クイックスタート
 
-### 1. 環境セットアップ
+### 前提条件
+
+- **Python**: 3.10以上
+- **Node.js**: 18以上
+- **pnpm**: 8以上
+- **Docker**: 最新版（Qdrant用）
+
+### 1. リポジトリのクローン
 
 ```bash
+git clone https://github.com/buck-zhang/PatGenius.git
+cd PatGenius
+```
+
+### 2. 認証情報の設定
+
+```bash
+# .env.templateをコピー
+cp credentials/.env.template credentials/.env
+
+# 認証ファイルを配置
+cp /path/to/google_credentials.json credentials/
+cp /path/to/patentfield_key.json credentials/
+
+# .envを編集して API キーを設定
+nano credentials/.env
+```
+
+### 3. バックエンドのセットアップ
+
+```bash
+cd apps/backend
+
+# 仮想環境の作成
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 依存パッケージのインストール
+pip install -r requirements.txt
+```
+
+### 4. 分類検索APIのセットアップ
+
+```bash
+cd apps/classification-search
+
+# Qdrantの起動
+docker-compose up -d
+
+# 仮想環境がない場合は作成
+python -m venv venv
+source venv/bin/activate
+
 # 依存パッケージのインストール
 pip install -r requirements.txt
 
-# Google Cloud認証情報の配置
-# ../gcp-sa-key.json に配置
-
-# PatentField APIキーの配置
-# ../patentfield_key.json に配置
+# データのインジェスト（初回のみ）
+python scripts/ingest_data.py --batch-size 500
 ```
 
-### 2. 単一特許の検索実行
+### 5. 開発サーバーの起動
+
+#### バックエンド
+```bash
+cd apps/backend
+python -m uvicorn app.main:app --reload --port 8000
+```
+
+APIドキュメント: http://localhost:8000/api/docs
+
+#### 分類検索API
+```bash
+cd apps/classification-search
+python -m app.main
+```
+
+APIドキュメント: http://localhost:8001/docs
+
+### 6. テスト実行
 
 ```bash
-# 構成要件分割
-python3 patent_structure_analyzer.py JP2014007731A
-
-# キーワード抽出
-python3 patent_keyword_extractor.py JP2014007731A_構成要件.json
-
-# 特許分類コード抽出
-python3 patent_classification_extractor.py JP2014007731A_構成要件.json
-
-# 検索実行（構成要素ごと）
-python3 patent_search_executor_per_component.py \
-  --keywords JP2014007731A_キーワード.json \
-  --classifications JP2014007731A_特許分類.json \
-  --output JP2014007731A_検索結果.json
+# E2Eテスト（上位3件）
+cd apps/backend
+python tests/e2e/end_to_end_test.py \
+  --csv ../../data/test_data/combined_data.csv \
+  --limit 3
 ```
 
-### 3. 性能テスト実行
+## 技術スタック
 
-```bash
-# 複数件テスト（上位10件）
-python3 performance_test_system.py \
-  --csv tests/performance_test/combined_data_top10.csv \
-  --limit 10
+### バックエンド
+- **Framework**: FastAPI 0.115+
+- **AI Models**:
+  - Claude Sonnet 4.5 (Vertex AI) - 構成分割、キーワード抽出、拒絶理由生成
+  - Gemini 3.0 Pro - 新規性進歩性判断
+- **APIs**:
+  - PatentField API - 特許検索
+  - Qdrant - ベクトルデータベース
+- **Python**: 3.10+
 
-# 単一行テスト（特定の行番号を指定）
-python3 performance_test_system.py \
-  --csv tests/performance_test/combined_data_top10.csv \
-  --row 5
+### フロントエンド（準備中）
+- **Framework**: Next.js 15
+- **UI Library**: shadcn/ui + Tailwind CSS
+- **Type Safety**: End-to-End TypeScript (OpenAPI自動生成)
+- **Build Tool**: Turbo
 
-# 結果はJSON + MD形式で自動保存
-# - performance_test_summary_YYYYMMDD_HHMMSS.json
-# - performance_test_summary_YYYYMMDD_HHMMSS.md （関連ファイルへのリンク付き）
-```
-
----
-
-## 主要機能
-
-### 1. 構成要素ごと適応的検索
-
-各構成要素に対して以下の検索ロジックを適用：
-
-1. **Step 1**: ドンピシャFI分類のみで検索
-2. **判定**: 50-300件の範囲内なら完了
-3. **Branch A** (ヒット数 > 300): 絞り込み
-   - FI AND キーワードで絞り込み
-   - Claude APIで検索式最適化（オプション）
-4. **Branch B** (ヒット数 < 50): 拡張
-   - ドンピシャFI OR (上位概念FI AND キーワード)
-   - Claude APIでキーワード拡張（オプション）
-
-### 2. FI分類コード正規化
-
-**修正済み（2025年11月29日）**:
-- FI分類コードの空白を自動除去
-- PatentField API互換形式に正規化
-- 例: `H02K  33/18` → `H02K33/18`
-
-### 3. 並行処理
-
-- 最大5ワーカーで並行検索
-- 処理時間の大幅短縮
-
-### 4. 重複削除
-
-- 複数構成要素の検索結果を統合
-- 特許番号の重複を自動削除
-
-### 5. 性能テスト機能
-
-**新機能（2025年11月29日追加）**:
-
-#### 単一行テスト（`--row`オプション）
-- CSVの特定の行番号を指定して1件のみテスト可能
-- 例: `--row 5` で5行目のテストケースのみ実行
-- デバッグや個別検証に最適
-
-#### MD形式レポート自動生成
-- テスト結果をMarkdown形式で自動生成
-- **関連ファイルへのリンク付き**:
-  - 構成要件分割結果（`_structure.json`）
-  - キーワード抽出結果（`_keywords.json`）
-  - 特許分類抽出結果（`_classifications.json`）
-  - 検索結果（`_search_result.json`）
-- サマリー統計、コスト情報を見やすく表示
-- JSON形式の詳細データも同時生成
-
----
-
-## 最新の修正・改善
-
-### 🚀 0. 性能最適化実装（2025-11-29）⭐ NEW
-
-**処理速度を最大70-80%短縮する5つの最適化を実装しました。**
-
-#### 実装した最適化
-
-1. **AsyncIO完全移行**（優先度1）
-   - 予想効果: 40-50%短縮
-   - 全Claude API呼び出しを非同期化
-   - `asyncio.to_thread()`でI/O待機時間を最大300%改善
-
-2. **Claude Prompt Caching**（優先度2）
-   - 予想効果: 30-40%短縮 + コスト90%削減
-   - システムプロンプトをキャッシュ
-   - キャッシュヒット時85%レイテンシ削減
-
-3. **PatentField API並列化**（優先度3）
-   - 予想効果: 20-30%短縮
-   - `aiohttp` + HTTP/2セッション再利用
-   - TCP接続再利用でオーバーヘッド削減
-
-4. **早期終了最適化**（優先度4）
-   - 予想効果: 10-20%短縮
-   - エラーハンドリング改善
-
-5. **並列処理の最適化**（優先度5）
-   - 予想効果: 5-10%短縮
-   - キーワード抽出・分類抽出を並列実行
-
-#### クイックスタート（最適化版）
-
-```bash
-# 依存関係インストール
-pip install -r requirements_optimized.txt
-
-# テスト実行
-python3 test_optimization.py
-
-# 最適化版システムの使用
-python3 patent_search_executor_optimized.py input.txt
-```
-
-**詳細**: `README_OPTIMIZATION.md` または `IMPLEMENTATION_SUMMARY.md` を参照
-
----
-
-### 1. FI分類コード空白除去修正（2025-11-29）
-
-**問題**: FI分類コードに空白が含まれ、PatentField APIで検索失敗（0件）
-
-**修正内容**:
-1. `patent_classification_extractor.py`: 正規化関数を追加（空白除去）
-2. `patent_search_executor_per_component.py`: バリデーション強化 + 自動修復
-
-**効果**:
-- Test #3: 0件 → 1,214件（劇的改善）
-- 検索成功率: 0% → 84.6%（11/13構成要素）
-
-詳細: `docs/current_reports/FI_CLASSIFICATION_FIX_VERIFICATION_REPORT.md`
-
-### 2. キーワード検索フィールド修正（2025-11-29）
-
-**問題**: `patent_classification_extractor.py`のキーワードに`CL:`プレフィックスが付与され、請求項のみの検索に制限されていた
-
-**修正内容**:
-1. Claude APIシステムプロンプトを修正（フィールドプレフィックス禁止を明記）
-2. フォールバック検索式から`CL:`プレフィックスを除去
-3. 全文検索（全フィールド横断検索）に変更
-
-**効果**:
-- 検索範囲が請求項のみ → 全文（請求項、要約、詳細説明、タイトル）に拡大
-- 検索漏れの削減
-
-### 3. 性能テスト機能強化（2025-11-29）
-
-**追加機能**:
-1. **単一行テスト（`--row`オプション）**:
-   - CSVの特定行のみをテスト可能
-   - デバッグや個別検証に最適
-
-2. **MD形式レポート自動生成**:
-   - 見やすいMarkdown形式でレポート生成
-   - 関連ファイルへのリンク自動挿入
-   - サマリー統計、コスト情報を表形式で表示
-
-**使用例**:
-```bash
-# 単一行テスト
-python3 performance_test_system.py --csv test.csv --row 5
-
-# 結果ファイル
-# - performance_test_summary_YYYYMMDD_HHMMSS.json (詳細データ)
-# - performance_test_summary_YYYYMMDD_HHMMSS.md (レポート)
-```
-
----
+### 分類検索API
+- **Framework**: FastAPI
+- **Vector DB**: Qdrant
+- **Embeddings**:
+  - テキスト: sentence-transformers (multilingual-mpnet)
+  - 画像: CLIP (vit-base-patch32)
 
 ## パフォーマンス
 
@@ -296,103 +167,50 @@ python3 performance_test_system.py --csv test.csv --row 5
 | 検索結果 | 627件（重複削除後） |
 | 紐づき特許検出 | ✅ 成功 |
 
-### 性能テスト結果（2025-11-29）
+### 最適化機能
 
-| 指標 | 値 |
-|-----|-----|
-| テスト実施件数 | 9件 |
-| 検出成功率 | 11.1%（1/9件） |
-| 総処理時間 | 約2.6時間 |
-| 総コスト | 約¥1,719 |
+- ⚡ AsyncIO完全移行（40-50%高速化）
+- 💾 Claude Prompt Caching（コスト90%削減）
+- 🔄 PatentField API並列化（20-30%高速化）
+- 🚀 Turboによるビルドキャッシュ
 
----
+## ドキュメント
 
-## API設定
+- [Backend README](apps/backend/README.md) - バックエンドAPI詳細
+- [Classification Search README](apps/classification-search/README.md) - 分類検索API詳細
+- [構成要件分割ガイド](docs/guides/特許検索のための構成要件分割ガイド.md) - 構成分割の指針
+- [API仕様書](http://localhost:8000/api/docs) - OpenAPI/Swagger UI
 
-### PatentField API
+## 開発
 
-`../patentfield_key.json`:
-```json
-{
-  "PATENTFIELD_API_KEY": "your_api_key_here",
-  "endpoint": "https://ttdc.patentfield.com/api/v1/patents/search"
-}
-```
+### モノレポ管理
 
-### Google Cloud / Vertex AI (Claude API)
-
-`../gcp-sa-key.json`:
-- Google Cloud サービスアカウントキー
-- Vertex AI APIへのアクセス権限が必要
-
----
-
-## トラブルシューティング
-
-### 検索結果が0件
-
-1. **FI分類コードの形式確認**
-   - 空白が含まれていないか
-   - コロン表記（`:`）が含まれていないか
-
-2. **キーワードの妥当性確認**
-   - ドンピシャキーワードが存在するか
-   - キーワードが一般的すぎないか
-
-3. **ログ確認**
-   ```bash
-   # 検索クエリを確認
-   python3 patent_search_executor_per_component.py ... 2>&1 | grep "検索式"
-   ```
-
-### Claude API未初期化エラー
-
-```
-⚠️ Claude API未初期化のため絞り込みスキップ
-```
-
-**原因**: Google Cloud認証情報が見つからない
-
-**対処**:
 ```bash
-# 認証情報ファイルの確認
-ls -la ../gcp-sa-key.json
+# 全アプリの開発サーバーを起動
+pnpm dev
 
-# パスを明示的に指定
-python3 patent_search_executor_per_component.py \
-  --credentials ../gcp-sa-key.json \
-  ...
+# 個別起動
+pnpm dev:backend
+pnpm dev:classification
+pnpm dev:web
+
+# ビルド
+pnpm build
+
+# テスト
+pnpm test
 ```
 
----
+### API型定義の自動生成
 
-## 今後の改善計画
-
-### 短期（1週間以内）
-
-1. Test #6, #8の修正版実行（FI分類問題の検証）
-2. Test #2の詳細調査（番号正規化問題）
-3. 全10テストケースの再実行
-
-### 中期（1ヶ月以内）
-
-1. Claude API最適化機能の有効化と効果測定
-2. 検索戦略の根本的見直し（検出率向上）
-3. IPC/CPC分類の活用拡大
-
-### 長期（3ヶ月以内）
-
-1. キーワード抽出精度の向上
-2. 検索範囲の最適化（30-500件など）
-3. 検出率目標: 70%以上
-
----
+```bash
+# バックエンドからTypeScript型を自動生成
+pnpm generate-api
+```
 
 ## ライセンス
 
-プロプライエタリ
-
----
+Proprietary - All Rights Reserved
 
 ## サポート
 
@@ -400,11 +218,6 @@ python3 patent_search_executor_per_component.py \
 
 ---
 
-**更新日**: 2025年11月29日
-**バージョン**: 2.1.0
-**ステータス**: 本番運用中 + 最適化版リリース
-**最新アップデート**:
-- ⭐ **性能最適化実装**（AsyncIO + Prompt Caching + 並列化、最大70-80%短縮）
-- FI分類空白除去修正
-- キーワード全文検索対応
-- 性能テスト機能強化（`--row`オプション、MDレポート生成）
+**最終更新**: 2025年12月23日
+**バージョン**: 2.0.0
+**ステータス**: モノレポ構造への移行完了

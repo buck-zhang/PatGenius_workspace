@@ -1,0 +1,36 @@
+G04G   3/00		タイミングパルスの発生（ステップモーターの駆動回路Ｇ０４Ｃ３／１４；時間標準として使用されるあらかじめ選定された時間間隔の発生Ｇ０４Ｆ５／００；パルス技術一般Ｈ０３Ｋ；発生器の制御，同期または安定化一般Ｈ０３Ｌ）［３］	Producing timing pulses(driving circuits for stepping motors G04C3/14; producing preselected time intervals for use as timing standards G04F5/00; pulse technique in general H03K; control, synchronisation, or stabilisation of generators in general H03L)	2492
+G04G   3/02	・	高周波パルスから低周波タイミングパルスを導出する回路（パルス周波数分割器一般Ｈ０３Ｋ２３／００〜Ｈ０３Ｋ２９／００）［３］	Circuits for deriving low frequency timing pulses from pulses of higher frequency(pulse frequency dividers in general H03K23/00 to H03K29/00 )	1320
+G04G   3/04	・	温度補正装置［７］	Temperature-compensating arrangements	270
+G04G   5/00		表示時刻の設定，すなわち修正または変更（電波時計Ｇ０４Ｒ）［３，２０１３．０１］	Setting, i.e. correcting or changing, the time-indication(radio-controlled time-pieces G04R)	6193
+G04G   5/02	・	単位時間当りのパルス数の一時的変更によるもの，例．早送り方法［３］	by temporarily changing the number of pulses per unit time, e.g. quick-feed method	832
+G04G   5/04	・	各表示値，例．日付，時刻，を独立して設定することによるもの［３］	by setting each of the displayed values, e.g. date, hour, independently	1066
+G04G   7/00		同期化（電波時計Ｇ０４Ｒ）［３］	Synchronisation(radio-controlled time-pieces G04R)	1672
+G04G   9/00		時刻または日付の視覚的表示手段［３］	Visual time or date indication means	11494
+G04G   9/02	・	多数の文字から所望の文字を選択することによるものまたは位置により時刻を表す表示素子を選択することによるもの，例．マルチプレックス技術の使用によるもの［３］	by selecting desired characters out of a number of characters or by selecting indicating elements the position of which represent the time, e.g. by using multiplexing techniques	1052
+G04G   9/04	・・	光源，例．発光ダイオード，を制御することによるもの［３］	by controlling light sources, e.g. electroluminescent diodes	643
+G04G   9/06	・・	光弁，例．液晶，を使用するもの［３］	using light valves, e.g. liquid crystals	420
+G04G   9/08	・	表示素子の組合せを使用して文字を構成することによるもの，例．マルチプレックス技術を使用することによるもの［３］	by building-up characters using a combination of indicating elements, e.g. by using multiplexing techniques	847
+G04G   9/10	・・	光源，例．発光ダイオード，を制御することによるもの［３］	by controlling light sources, e.g. electroluminescent diodes	540
+G04G   9/12	・・	光弁，例．液晶，を使用するもの［３］	using light valves, e.g. liquid crystals	563
+G04G  11/00		あらかじめ選定された時刻に光学的信号を発生するもの［３］	Producing optical signals at preselected times	1109
+G04G  13/00		音響的時刻信号を発生するもの［３］	Producing acoustic time signals	1903
+G04G  13/02	・	あらかじめ選定された時刻に音響的時刻信号を発生するもの，例．アラームクロック［３］	at preselected times, e.g. alarm clocks	5947
+G04G  15/00		あらかじめ選定された時刻に，またはあらかじめ選定された時間間隔の後に操作される手段からなる時計（Ｇ０４Ｇ１１／００，Ｇ０４Ｇ１３／００が優先；パルス遅延回路Ｈ０３Ｋ５／１３；電子的時間遅延スイッチＨ０３Ｋ１７／２８；プログラム完了後に自動的にその操作を終了する電子的時限プログラム・スイッチＨ０３Ｋ１７／２９６；テレビ信号を記録するための時間プログラミングＨ０４Ｎ５／７６１）［３］	Time-pieces comprising means to be operated at preselected times or after preselected time intervals(G04G11/00, G04G13/00 take precedence; pulse delay circuits H03K5/13; electronic time-delay switches H03K17/28; electronic time-programme switches which automatically terminate their operation after the programme is completed H03K17/296; time programming for television signal recording H04N5/761)	5780
+G04G  17/00		構造上の細部；ハウジング（電波時計の構造上の細部，例．アンテナＧ０４Ｒ６０／００）［７，２０１３．０１］	Structural details; Housings(constructional details of radio-controlled time-pieces, e.g. antennas G04R60/00)	1993
+G04G  17/02	・	構成部品の組立［７］	Component assemblies	2942
+G04G  17/04	・・	電子部品の搭載［７］	Mounting of electronic components	3519
+G04G  17/06	・・	電気接続要素，例．電導性エラストマー［７］	Electric connectors, e.g. conductive elastomers	1793
+G04G  17/08	・	ハウジング［７］	Housings	3944
+G04G  19/00		電子時計に使うために，特に適合させた電力供給回路［７］	Electric power supply circuits specially adapted for use in electronic time-pieces	3741
+G04G  19/02	・	電流または電圧の，変換あるいは調整［７］	Conversion or regulation of current or voltage	524
+G04G  19/04	・・	コンデンサによる電圧の分割または増幅［７］	Capacitive voltage division or multiplication	59
+G04G  19/06	・・	調整［７］	Regulation	157
+G04G  19/08	・	電源への過負荷による電圧の低下を防止するための装置［７］	Arrangements for preventing voltage drop due to overloading the power supply	177
+G04G  19/10	・	バックアップ電力を供給する装置［７］	Arrangements for supplying back-up power	495
+G04G  19/12	・	蓄電状態で電力の消費を軽減する装置［７］	Arrangements for reducing power consumption during storage	213
+G04G  21/00		時計に統合された入出力装置［２０１０．０１］	Input or output devices integrated in time-pieces	5656
+G04G  21/02	・	外部の物理的数値，例．温度，の検出器［２０１０．０１］	Detectors of external physical values, e.g. temperature	3457
+G04G  21/04	・	無線を用いるもの（電波時計Ｇ０４Ｒ）［２０１０．０１，２０１３．０１］	using radio waves(radio-controlled time-pieces G04R)	3254
+G04G  21/06	・	声を使うもの［２０１０．０１］	using voice	1209
+G04G  21/08	・	時計に特に適合させたタッチ・スイッチ［２０１０．０１］	Touch switches specially adapted for time-pieces	1536
+G04G  99/00		このサブクラスの他のグループに分類されない主題事項［２０１０．０１］	Subject matter not provided for in other groups of this subclass	14660
